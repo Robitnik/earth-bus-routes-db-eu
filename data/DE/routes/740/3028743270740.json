@@ -1,0 +1,42 @@
+{
+"v":1,
+"id":3028743270740,
+"cc":"DE",
+"mode":"bus",
+"t":{"ref":"42","name":"MetroBus 42: Hafen Harburg => Hans-Dewitz-Ring","from":"Hafen Harburg","to":"Hans-Dewitz-Ring","network":"Hamburger Verkehrsverbund","operator":"Hamburger Hochbahn AG","colour":"red","public_transport:version":"2","route":"bus"},
+"ways":[
+  {"g":"kqieIci|{@_FcDQSES?[b@oDz@gFl@s@r@gK","t":{"maxspeed":"50"}},
+  {"g":"asieI_k}{@hAyO","t":{"maxspeed":"30"}},
+  {"g":"uhieIwx}{@aGaB","t":{"maxspeed":"30","maxspeed:type":"DE:zone30"}},
+  {"g":"ugieIkx}{@_@K","t":{"maxspeed":"30","maxspeed:type":"DE:zone30"}},
+  {"g":"ovheIiq}{@i@c@{N}D","t":{"maxspeed":"30","maxspeed:type":"DE:zone30"}},
+  {"g":"k}heI{g}{@~C{Dz@qB","t":{"maxspeed:forward":"30","maxspeed:backward":"50"}},
+  {"g":"k}heI{g}{@cAdCmBdIu@vD","t":{"maxspeed":"30"}},
+  {"g":"eeieIqq|{@PeA","t":{"maxspeed":"50"}},
+  {"g":"{eieIcn|{@TmB","t":{"maxspeed":"50"}},
+  {"g":"kgieI_i|{@n@cD","t":{"maxspeed":"50"}},
+  {"g":"gkieIia|{@jAaCn@sB","t":{"maxspeed":"50"}},
+  {"g":"qlieIi_|{@h@_A","t":{"maxspeed":"50"}},
+  {"g":"qlieIi_|{@lFzE\\j@Bp@Id@UPQAQQk@gDS_@k@g@vDmRR_@TeA","t":{"maxspeed":"50"}},
+  {"g":"obieIor|{@z@^rCl@|CK","t":{"maxspeed:type":"DE:urban"}},
+  {"g":"awheImp|{@vB_AlBe@NPFl@gAdQErFc@pAKDMXmJtVq@bC{@lHwA`Q","t":{"maxspeed":"50"}},
+  {"g":"ceieI}|y{@iAfPa@bCuCxHIVA\\Fj@t@nDpEhb@","t":{"maxspeed":"30"}},
+  {"g":"a}heIwgv{@_Gci@","t":{"maxspeed":"50"}},
+  {"g":"a}heIwgv{@vDwB","t":{"maxspeed":"50","maxspeed:type":"sign"}},
+  {"g":"iwheIokv{@jF{ClBg@`GiA","t":{"maxspeed":"30","maxspeed:type":"sign"}},
+  {"g":"mdheI}sv{@n@UlBxTzC|Ob@jA","t":{"maxspeed":"30","maxspeed:type":"DE:zone30"}},
+  {"g":"oygeIoku{@Pb@{CrFkMdg@i@bAYJGmAuDc]","t":{"maxspeed":"50"}},
+  {"g":"gtheIsxt{@cByO","t":{"maxspeed:type":"DE:urban"}}
+],
+"stops":[
+  {"s":5554384612,"o":0,"la":53.460887,"lo":9.978411,"n":"S Harburg Rathaus"},
+  {"s":5620212218,"o":120,"la":53.463754,"lo":9.970164,"n":"Kasernenstraße (TU Hamburg)"},
+  {"s":2794368598,"o":180,"la":53.465194,"lo":9.962381,"n":"S Heimfeld"},
+  {"s":393214961,"o":240,"la":53.464671,"lo":9.959721,"n":"Thörlstraße"},
+  {"s":290134469,"o":300,"la":53.464096,"lo":9.95675,"n":"Lohmannsweg"},
+  {"s":5696143088,"o":360,"la":53.462891,"lo":9.950394,"n":"Eißendorfer Pferdeweg (Mitte)"},
+  {"s":5696143125,"o":420,"la":53.459192,"lo":9.951365,"n":"AK Harburg"}
+],
+"times":{"wd":[293,313,333,343,351,360,386,411,420,430,440,450,460,470,480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630,640,650,660,670,680,690,700,710,720,730,740,750,760,770,780,790,800,810,820,830,840,850,860,870,880,890,900,910,920,930,940,950,960,970,980,990,1000,1010,1020,1030,1040,1050,1060,1070,1080,1090,1100,1110,1120,1130,1140,1150,1160,1170,1180,1190,1200,1211,1216,1226,1231,1241,1246,1256,1272,1292,1313,1334,1354,1389,1429,1469,1509,1533,1563,1593,1623,1653,1683],"sa":[313,353,393,433,473,513,533,551,558,565,573,580,595,603,610,625,633,640,655,662,671,686,694,701,716,724,731,746,754,761,776,784,791,806,814,821,836,844,851,866,874,881,896,904,911,926,934,941,956,964,971,986,994,1001,1016,1024,1031,1046,1054,1061,1076,1084,1091,1106,1114,1121,1136,1144,1151,1166,1175,1185,1205,1213,1233,1243,1253,1273,1283,1293,1303,1313,1333,1343,1353,1369,1409,1429,1469,1489,1529,1569,1609,1649,1689,1729],"su":[314,334,374,394,433,493,532,542,552,562,582,592,602,622,632,642,662,672,682,702,712,722,742,752,762,782,792,802,822,832,842,862,872,882,902,912,922,942,952,962,982,992,1002,1022,1032,1042,1062,1072,1082,1102,1112,1122,1142,1152,1162,1182,1193,1203,1223,1233,1243,1263,1273,1289,1329,1349,1389,1409,1449,1469,1509,1533,1563,1593,1623,1653,1683]},
+"src":[{"k":"osm","id":"r8387223"},{"k":"gtfs","feed":"mdb-3215","id":"208911","lic":"CC-BY"}]
+}
