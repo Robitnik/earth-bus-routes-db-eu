@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Robitnik/earth-bus-routes-db/schema/route.schema.json",
+  "title": "ebr-route/1: one bus line going one way",
+  "type": "object",
+  "required": ["v", "id", "cc", "mode", "t", "ways", "stops", "src"],
+  "additionalProperties": false,
+  "properties": {
+    "v": {"const": 1},
+    "id": {"type": "integer", "minimum": 1, "description": "OSM relation id, or 3e12 + a stable hash for a line made from a timetable / by hand"},
+    "cc": {"type": "string", "pattern": "^[A-Z]{2}$"},
+    "mode": {"enum": ["bus", "trolleybus", "minibus", "share_taxi"]},
+    "t": {
+      "type": "object",
+      "description": "tags of the line, the ones the mod reads: ref, name, from, to, network, operator, colour, public_transport:version, ...",
+      "additionalProperties": {"type": "string"}
+    },
+    "ways": {
+      "type": "array",
+      "description": "the road of the line: ways in the order the map lists them; empty = the data service asks a routing server for it",
+      "items": {
+        "type": "object",
+        "required": ["g"],
+        "additionalProperties": false,
+        "properties": {
+          "g": {"type": "string", "description": "Google polyline, precision 1e-5"},
+          "r": {"enum": ["forward", "backward", "hail_and_ride"]},
+          "t": {"type": "object", "additionalProperties": {"type": "string"}, "description": "tags of the way that give a speed limit"}
+        }
+      }
+    },
+    "stops": {
+      "type": "array",
+      "minItems": 2,
+      "description": "stops in the order the source lists them (the mod puts them in order along the road)",
+      "items": {
+        "type": "object",
+        "required": ["s"],
+        "additionalProperties": false,
+        "properties": {
+          "s": {"type": "integer", "description": "id of a stop in the tiles"},
+          "r": {"type": "string", "description": "role in the relation: platform, stop, ..."},
+          "o": {"type": "integer", "minimum": 0, "description": "seconds from the start of the trip (lines with a timetable)"},
+          "la": {"type": "number", "description": "latitude of the stop (a copy of the tile's, written by the builder)"},
+          "lo": {"type": "number", "description": "longitude"},
+          "n": {"type": "string", "description": "name"},
+          "q": {"const": 1, "description": "request stop"}
+        }
+      }
+    },
+    "times": {
+      "type": "object",
+      "description": "departures from the first stop on a typical weekday / Saturday / Sunday, minutes of the day (may pass 1440)",
+      "additionalProperties": false,
+      "properties": {
+        "wd": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+        "sa": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+        "su": {"type": "array", "items": {"type": "integer", "minimum": 0}}
+      }
+    },
+    "src": {
+      "type": "array",
+      "minItems": 1,
+      "description": "where the line comes from; the licence of each source is in sources/",
+      "items": {"type": "object", "required": ["k"], "properties": {"k": {"enum": ["osm", "gtfs", "edit"]}}}
+    },
+    "q": {"type": "object", "description": "quality notes of the builder"}
+  }
+}

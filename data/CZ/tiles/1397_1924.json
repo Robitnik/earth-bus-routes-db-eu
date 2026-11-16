@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[1397,1924],
+"stops":[
+  {"id":1372897763,"lat":49.709259,"lon":12.43039,"k":"p","n":"Neukirchen zu St. Christoph"},
+  {"id":5744011621,"lat":49.737399,"lon":12.496078,"k":"p","n":"Lesná, Jedlina, háj."},
+  {"id":7639773241,"lat":49.700794,"lon":12.440118,"k":"p","n":"Lösselmühle"},
+  {"id":7639773242,"lat":49.705067,"lon":12.435173,"k":"p","n":"Schwanhof"},
+  {"id":8589464157,"lat":49.7186,"lon":12.420683,"k":"p","n":"Gehenhammer"},
+  {"id":8874557321,"lat":49.799803,"lon":12.467883,"k":"p","n":"Schmuckerhof"},
+  {"id":9514188183,"lat":49.702886,"lon":12.435024,"k":"p","n":"Schwanhof bei Georgenberg"},
+  {"id":10195510438,"lat":49.700924,"lon":12.438938,"k":"x","n":"Lösselmühle"},
+  {"id":10195510439,"lat":49.70076,"lon":12.438935,"k":"p","n":"Lösselmühle"},
+  {"id":12160727376,"lat":49.721409,"lon":12.469296,"k":"x","n":"Lesná,, Stará Knížecí Huť"},
+  {"id":13110106508,"lat":49.721391,"lon":12.469346,"k":"p","n":"Lesná,, Stará Knížecí Huť"}
+],
+"routes":[
+  {"id":11223206,"t":{"ref":"1937","name":"Bus 1937: Brünst -> Neuenhammer -> Pleystein -> Vohenstrauß","from":"Brünst","to":"Vohenstrauß","network":"VGN","colour":"#46A6AE","route":"bus"},"n":3,"s":[[7639773241,2],[7639773242,3]]},
+  {"id":11223230,"t":{"ref":"1938","name":"Bus 1938: Lösselmühle -> Pleystein","from":"Lösselmühle","to":"Pleystein","network":"VGN","colour":"#EE1C25","route":"bus"},"n":2,"s":[[7639773241,1]]},
+  {"id":11228249,"t":{"ref":"1937","name":"Bus 1937: Vohenstrauß -> Pleystein -> Neuenhammer -> Lösselmühle","from":"Vohenstrauß","to":"Lösselmühle","network":"VGN","colour":"#46A6AE","route":"bus"},"n":2,"s":[[7639773242,1],[7639773241,2]]},
+  {"id":11228260,"t":{"ref":"1938","name":"Bus 1938: Pleystein -> Lösselmühle","from":"Pleystein","to":"Lösselmühle","network":"VGN","colour":"#EE1C25","route":"bus"},"n":2,"s":[[7639773241,2]]},
+  {"id":11234353,"t":{"ref":"1931","name":"Bus 1931: Weiden -> Waldthurn -> Lösselmühle","from":"Weiden","to":"Lösselmühle","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":3,"s":[[1372897763,1],[7639773242,2],[7639773241,3]]},
+  {"id":11234354,"t":{"ref":"1931","name":"Bus 1931: Lösselmühle -> Waldthurn -> Weiden","from":"Lösselmühle","to":"Weiden","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":3,"s":[[7639773241,1],[7639773242,2],[1372897763,3]]}
+]
+}

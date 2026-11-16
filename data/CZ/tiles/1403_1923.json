@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[1403,1923],
+"stops":[
+  {"id":264129115,"lat":50.3119,"lon":12.374284,"k":"x","n":"Erlbach, Eubabrunner Straße"},
+  {"id":997823504,"lat":50.311691,"lon":12.375346,"k":"x","n":"Erlbach, Eubabrunner Straße"},
+  {"id":8453858517,"lat":50.307038,"lon":12.379016,"k":"p"},
+  {"id":8453858518,"lat":50.314567,"lon":12.382735,"k":"p","n":"Erlbach, Kegelbergvilla"},
+  {"id":8453858519,"lat":50.313622,"lon":12.380995,"k":"p","n":"Erlbach, Zum Kegelberg"},
+  {"id":8739604853,"lat":50.314541,"lon":12.382704,"k":"x","n":"Erlbach, Kegelbergvilla"},
+  {"id":8739604854,"lat":50.313643,"lon":12.381004,"k":"x","n":"Erlbach, Zum Kegelberg"},
+  {"id":8739604857,"lat":50.307034,"lon":12.378651,"k":"x","n":"Eubabrunn, Freilichtmuseum"},
+  {"id":8739604858,"lat":50.3071,"lon":12.378669,"k":"p","n":"Eubabrunn, Freilichtmuseum"}
+],
+"routes":[
+  {"id":12788190,"t":{"ref":"31","name":"Bus 31: C.-Wieck-Ring => Eubabrunn","from":"Markneukirchen, C.-Wieck-Ring","to":"Eubabrunn, Freilichtmuseum","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[264129115,1],[8739604857,2]]},
+  {"id":12788191,"t":{"ref":"31","name":"Bus 31: Eubabrunn => G.-F.-Händel-Str.","from":"Eubabrunn, Freilichtmuseum","to":"Markneukirchen, G.-F.-Händel-Str.","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[8739604857,1],[997823504,2]]},
+  {"id":12788192,"t":{"ref":"31","name":"Bus 31: G.-F.-Händel-Str. => Erlbach","from":"Markneukirchen, G.-F.-Händel-Str.","to":"Erlbach, Zum Kegelberg","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[8739604854,1],[8453858519,2]]},
+  {"id":12788193,"t":{"ref":"31","name":"Bus 31: Erlbach => C.-Wieck-Ring","from":"Erlbach, Zum Kegelberg","to":"Markneukirchen, C.-Wieck-Ring","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[8453858519,1],[8453858518,2]]}
+]
+}

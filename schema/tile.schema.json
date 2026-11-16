@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Robitnik/earth-bus-routes-db/schema/tile.schema.json",
+  "title": "ebr-route/1: a tile of 0.1 x 0.1 degrees: its stops and the lines calling at them",
+  "type": "object",
+  "required": ["v", "cc", "tile", "stops", "routes"],
+  "additionalProperties": false,
+  "properties": {
+    "v": {"const": 1},
+    "cc": {"type": "string", "pattern": "^[A-Z]{2}$"},
+    "tile": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 2, "maxItems": 2,
+             "description": "[floor((lat + 90) / 0.1), floor((lon + 180) / 0.1)]"},
+    "stops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "lat", "lon", "k"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "integer"},
+          "lat": {"type": "number"},
+          "lon": {"type": "number"},
+          "k": {"enum": ["p", "x", "s"], "description": "platform / stop position / bus station"},
+          "n": {"type": "string"},
+          "ref": {"type": "string"},
+          "q": {"const": 1, "description": "request stop"},
+          "g": {"const": 1, "description": "a stop of a timetable that the map does not have"}
+        }
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "t", "n", "s"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "integer"},
+          "t": {"type": "object", "additionalProperties": {"type": "string"}},
+          "n": {"type": "integer", "minimum": 2, "description": "how many stops the line has"},
+          "s": {"type": "array", "description": "the line's stops in this tile: [stop id, place in the line, last place if listed twice]",
+                "items": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 3}}
+        }
+      }
+    }
+  }
+}

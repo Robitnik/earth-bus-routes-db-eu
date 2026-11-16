@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[1395,1988],
+"stops":[
+  {"id":1756475594,"lat":49.559519,"lon":18.802117,"k":"p","n":"Písek, požární zbrojnice"},
+  {"id":3918302564,"lat":49.558045,"lon":18.811705,"k":"p","n":"Písek, u Módy"},
+  {"id":3979765056,"lat":49.518333,"lon":18.806581,"k":"x","n":"Bukovec, Markov"},
+  {"id":3979774458,"lat":49.525923,"lon":18.824148,"k":"x","n":"Hrčava, Gavlonka"},
+  {"id":3979774459,"lat":49.520113,"lon":18.832352,"k":"x","n":"Hrčava, konečná"},
+  {"id":5260537643,"lat":49.557786,"lon":18.818525,"k":"p","n":"Bukovec, u Turka"},
+  {"id":6064854262,"lat":49.548319,"lon":18.833338,"k":"p","n":"Bukovec, škola"},
+  {"id":6432250460,"lat":49.520036,"lon":18.83242,"k":"p","n":"Hrčava, konečná"},
+  {"id":6432250461,"lat":49.525826,"lon":18.824141,"k":"p","n":"Hrčava, Gavlonka"},
+  {"id":6432250462,"lat":49.518364,"lon":18.806872,"k":"p","n":"Bukovec, Markov"},
+  {"id":10794831505,"lat":49.557671,"lon":18.81839,"k":"p","n":"Bukovec, u Turka"},
+  {"id":10794831525,"lat":49.557878,"lon":18.811967,"k":"p","n":"Písek, u Módy"},
+  {"id":10794831530,"lat":49.550005,"lon":18.829646,"k":"p","n":"Bukovec, U kostela"},
+  {"id":10794831689,"lat":49.559395,"lon":18.801831,"k":"p","n":"Písek, požární zbrojnice"},
+  {"id":11961476613,"lat":49.552144,"lon":18.855515,"k":"p","n":"Istebna Jasnowice"},
+  {"id":12877700274,"lat":49.556491,"lon":18.836118,"k":"p","n":"Bukovec, Ski areál - Kempaland"},
+  {"id":14289813366,"lat":49.550552,"lon":18.828795,"k":"p","n":"Bukovec, U kostela"},
+  {"id":6026525904190,"lat":49.550294,"lon":18.829218,"k":"p","n":"Bukovec,U kostela","g":1},
+  {"id":6098991735724,"lat":49.553541,"lon":18.824433,"k":"p","n":"Bukovec,Verner","g":1}
+],
+"routes":[
+  {"id":7418953,"t":{"ref":"781","name":"Bus 781: Hrčava, konečná => Třinec aut.st. pod Kanadou","from":"Hrčava, konečná","to":"Třinec aut.st. pod Kanadou","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":3,"s":[[6432250460,1]]},
+  {"id":7418954,"t":{"ref":"781","name":"Bus 781: Třinec aut.st. pod Kanadou => Hrčava, konečná","from":"Třinec aut.st. pod Kanadou","to":"Hrčava, konečná","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":3,"s":[[6432250460,3]]},
+  {"id":7448431,"t":{"ref":"783","name":"Bus 783: Bukovec, škola => Třinec, aut.st. pod Kanadou","from":"Bukovec, škola","to":"Třinec aut.st. pod Kanadou","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":7,"s":[[6064854262,1],[12877700274,2]]},
+  {"id":7448432,"t":{"ref":"783","name":"Bus 783: Třinec, aut.st. pod Kanadou => Bukovec, škola","from":"Třinec aut.st. pod Kanadou","to":"Bukovec, škola","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":6,"s":[[12877700274,5],[6064854262,6]]},
+  {"id":3012416603148,"t":{"ref":"783","name":"783: Třinec,aut.st.pod Kanadou - Bukovec,škola","from":"Třinec,aut.st.pod Kanadou","to":"Bukovec,škola","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":27,"s":[[10794831689,22],[10794831525,23],[5260537643,24],[6098991735724,25],[6026525904190,26],[6064854262,27]]},
+  {"id":3049679491132,"t":{"ref":"783","name":"783: Třinec,aut.st. - Bukovec,škola","from":"Třinec,aut.st.","to":"Bukovec,škola","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[10794831689,16],[10794831525,17],[5260537643,18],[6098991735724,19],[6026525904190,20],[6064854262,21]]},
+  {"id":3053503397331,"t":{"ref":"783","name":"783: Bukovec,škola - Návsí,žel.st.","from":"Bukovec,škola","to":"Návsí,žel.st.","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[6064854262,1],[6026525904190,2],[6098991735724,3],[5260537643,4],[10794831525,5],[10794831689,6]]},
+  {"id":3062183718879,"t":{"ref":"783","name":"783: Bukovec,škola - Třinec,aut.st.pod Kanadou","from":"Bukovec,škola","to":"Třinec,aut.st.pod Kanadou","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":24,"s":[[6064854262,1],[6026525904190,2],[6098991735724,3],[5260537643,4],[10794831525,5],[10794831689,6]]},
+  {"id":3063755267809,"t":{"ref":"783","name":"783: Návsí,žel.st. - Bukovec,škola","from":"Návsí,žel.st.","to":"Bukovec,škola","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[10794831689,6],[10794831525,7],[5260537643,8],[6098991735724,9],[6026525904190,10],[6064854262,11]]},
+  {"id":3064308450667,"t":{"ref":"781","name":"781: Hrčava,konečná - Návsí,žel.st.","from":"Hrčava,konečná","to":"Návsí,žel.st.","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":24,"s":[[6432250460,1],[6432250461,2],[6432250462,3]]},
+  {"id":3096229009822,"t":{"ref":"783","name":"783: Bukovec,škola - Třinec,aut.st.","from":"Bukovec,škola","to":"Třinec,aut.st.","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6064854262,1],[6026525904190,2],[6098991735724,3],[5260537643,4],[10794831525,5],[10794831689,6]]},
+  {"id":3097936359689,"t":{"ref":"781","name":"781: Hrčava,konečná - Třinec,aut.st.pod Kanadou","from":"Hrčava,konečná","to":"Třinec,aut.st.pod Kanadou","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":44,"s":[[6432250460,1],[6432250461,2],[6432250462,3]]},
+  {"id":3098481813610,"t":{"ref":"781","name":"781: Návsí,žel.st. - Hrčava,konečná","from":"Návsí,žel.st.","to":"Hrčava,konečná","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":31,"s":[[6432250462,29],[6432250461,30],[6432250460,31]]},
+  {"id":3098719596794,"t":{"ref":"783","name":"783: Třinec,aut.st.pod Kanadou - Bukovec,škola","from":"Třinec,aut.st.pod Kanadou","to":"Bukovec,škola","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":22,"s":[[10794831689,17],[10794831525,18],[5260537643,19],[6098991735724,20],[6026525904190,21],[6064854262,22]]}
+]
+}
