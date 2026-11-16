@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2799,3933],
+"stops":[
+  {"id":1816799424,"lat":49.98794,"lon":16.664584,"k":"p","n":"Výprachtice,,škola"},
+  {"id":1816799425,"lat":49.972886,"lon":16.668014,"k":"p","n":"Výprachtice, Koburk"},
+  {"id":10973252789,"lat":49.972805,"lon":16.667964,"k":"p","n":"Výprachtice, Koburk"},
+  {"id":11350694585,"lat":49.973986,"lon":16.650244,"k":"p","n":"Výprachtice, Halda"},
+  {"id":11350694586,"lat":49.973941,"lon":16.650461,"k":"p","n":"Výprachtice, Halda"},
+  {"id":11888394432,"lat":49.952915,"lon":16.694747,"k":"p","n":"Dolní Heřmanice, Chudoba"},
+  {"id":11888394433,"lat":49.953034,"lon":16.694862,"k":"p","n":"Dolní Heřmanice, Chudoba"},
+  {"id":11888394434,"lat":49.952964,"lon":16.694754,"k":"x","n":"Horní Heřmanice,Dol.Heřmanice,Chudoba"},
+  {"id":12018318961,"lat":49.980782,"lon":16.661645,"k":"p","n":"Výprachtice, kovárna"},
+  {"id":12018318962,"lat":49.9808,"lon":16.661533,"k":"p","n":"Výprachtice, kovárna"},
+  {"id":12018318963,"lat":49.966454,"lon":16.677183,"k":"p","n":"Dolní Heřmanice, samota"},
+  {"id":12018318964,"lat":49.966503,"lon":16.677236,"k":"p","n":"Dolní Heřmanice, samota"},
+  {"id":12018318965,"lat":49.965559,"lon":16.683054,"k":"p","n":"Dolní Heřmanice, autoservis"},
+  {"id":12018318966,"lat":49.965493,"lon":16.683061,"k":"p","n":"Dolní Heřmanice, autoservis"},
+  {"id":12018318967,"lat":49.963769,"lon":16.695111,"k":"p","n":"Dolní Heřmanice, Jednota"},
+  {"id":12018318968,"lat":49.963625,"lon":16.69503,"k":"p","n":"Dolní Heřmanice, Jednota"},
+  {"id":6084160470750,"lat":49.996127,"lon":16.671343,"k":"p","n":"Výprachtice,hoblovna","g":1}
+],
+"routes":[
+  {"id":3021078833806,"t":{"ref":"964","name":"964: Jablonné n.Orl.,aut.st. - Výprachtice,škola","from":"Jablonné n.Orl.,aut.st.","to":"Výprachtice,škola","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[6084160470750,11],[1816799424,12]]},
+  {"id":3031662721261,"t":{"ref":"964","name":"964: Lanškroun,aut.nádr. - Jablonné n.Orl.,aut.st.","from":"Lanškroun,aut.nádr.","to":"Jablonné n.Orl.,aut.st.","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":19,"s":[[11350694586,5],[12018318962,6],[1816799424,7],[6084160470750,8]]},
+  {"id":3040166614600,"t":{"ref":"964","name":"964: Lanškroun,aut.nádr. - Horní Heřmanice,křižovatka","from":"Lanškroun,aut.nádr.","to":"Horní Heřmanice,křižovatka","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":15,"s":[[11350694586,5],[12018318962,6,8],[1816799424,7],[10973252789,9],[12018318963,10],[12018318965,11],[12018318968,12]]},
+  {"id":3057476291905,"t":{"ref":"964","name":"964: Horní Heřmanice,křižovatka - Lanškroun,aut.nádr.","from":"Horní Heřmanice,křižovatka","to":"Lanškroun,aut.nádr.","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":15,"s":[[12018318968,4],[12018318965,5],[12018318963,6],[10973252789,7],[12018318962,8,10],[1816799424,9],[11350694586,11]]},
+  {"id":3064416294106,"t":{"ref":"950","name":"950: Lanškroun,aut.nádr. - Králíky,aut.st.","from":"Lanškroun,aut.nádr.","to":"Králíky,aut.st.","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":27,"s":[[11888394434,9]]},
+  {"id":3073655001086,"t":{"ref":"950","name":"950: Králíky,aut.st. - Lanškroun,aut.nádr.","from":"Králíky,aut.st.","to":"Lanškroun,aut.nádr.","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":27,"s":[[11888394434,19]]},
+  {"id":3077784277187,"t":{"ref":"964","name":"964: Výprachtice,škola - Jablonné n.Orl.,aut.st.","from":"Výprachtice,škola","to":"Jablonné n.Orl.,aut.st.","operator":"BusLine Pardubicko s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[1816799424,1],[6084160470750,2]]}
+]
+}

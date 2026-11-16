@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2794,3973],
+"stops":[
+  {"id":7772109473,"lat":49.704673,"lon":18.666744,"k":"p","n":"Třinec, Osůvky, konečná"},
+  {"id":7772157075,"lat":49.703872,"lon":18.693936,"k":"p","n":"Třinec, Kojkovice, kopec"},
+  {"id":7772157076,"lat":49.703974,"lon":18.693815,"k":"p","n":"Třinec, Kojkovice, kopec"},
+  {"id":9352495204,"lat":49.701318,"lon":18.684831,"k":"p","n":"Třinec, Kojkovice, škola"},
+  {"id":9352495205,"lat":49.701072,"lon":18.690129,"k":"p","n":"Třinec, Kojkovice, transf."},
+  {"id":9352495206,"lat":49.703615,"lon":18.699739,"k":"p","n":"Třinec, Kojkovice, u kříže"},
+  {"id":9352498418,"lat":49.703586,"lon":18.68075,"k":"p","n":"Třinec, Kojkovice, st. hranice"},
+  {"id":9352498436,"lat":49.701452,"lon":18.684751,"k":"p","n":"Třinec, Kojkovice, škola"},
+  {"id":9352498437,"lat":49.701103,"lon":18.689946,"k":"p","n":"Třinec, Kojkovice, transf."},
+  {"id":9352498438,"lat":49.703758,"lon":18.699806,"k":"p","n":"Třinec, Kojkovice, u kříže"},
+  {"id":9733592816,"lat":49.704668,"lon":18.666825,"k":"x","n":"Třinec, Osůvky, konečná"},
+  {"id":9733592817,"lat":49.700134,"lon":18.667159,"k":"x","n":"Třinec, Osůvky, potraviny"},
+  {"id":9733592936,"lat":49.701379,"lon":18.684814,"k":"x","n":"Třinec, Kojkovice, škola"}
+],
+"routes":[
+  {"id":14130329,"t":{"ref":"706","name":"Bus 706: Kojkovice, konečná => Třinec, aut.st.","from":"Kojkovice, konečná","to":"Třinec, aut.st.","network":"Integrovaný dopravní systém Moravskoslezského kraje","route":"bus","public_transport:version":"2"},"n":4,"s":[[7772109473,2]]},
+  {"id":3001880593532,"t":{"ref":"706","name":"706: Třinec,Osůvky,konečná - Třinec,aut.st.","from":"Třinec,Osůvky,konečná","to":"Třinec,aut.st.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[7772109473,1]]},
+  {"id":3025606870648,"t":{"ref":"706","name":"706: Třinec,aut.st. - Třinec,Kojkovice,konečná","from":"Třinec,aut.st.","to":"Třinec,Kojkovice,konečná","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":17,"s":[[9352498418,12],[9733592936,13],[9352498437,14],[7772157075,15],[9352498438,16]]},
+  {"id":3045916446075,"t":{"ref":"706","name":"706: Třinec,aut.st. - Třinec,Kojkovice,konečná","from":"Třinec,aut.st.","to":"Třinec,Kojkovice,konečná","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[7772109473,12],[9352498418,16],[9733592936,17],[9352498437,18],[7772157075,19],[9352498438,20]]},
+  {"id":3071122709055,"t":{"ref":"706","name":"706: Třinec,Kojkovice,konečná - Třinec,aut.st.","from":"Třinec,Kojkovice,konečná","to":"Třinec,aut.st.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[9352498438,2],[7772157075,3],[9352498437,4],[9733592936,5],[9352498418,6]]},
+  {"id":3082450254542,"t":{"ref":"706","name":"706: Třinec,Kojkovice,konečná - Třinec,aut.st.","from":"Třinec,Kojkovice,konečná","to":"Třinec,aut.st.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[9352498438,2],[7772157075,3],[9352498437,4],[9733592936,5],[9352498418,6],[7772109473,10]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2781,3927],
+"stops":[
+  {"id":452668362,"lat":49.097926,"lon":16.373044,"k":"p","n":"Ivančice, železniční stanice"},
+  {"id":452668363,"lat":49.097715,"lon":16.372927,"k":"p","n":"Ivančice, železniční stanice"},
+  {"id":452668365,"lat":49.09406,"lon":16.364085,"k":"p","n":"Ivančice, Němčice, sokolovna"},
+  {"id":452668366,"lat":49.094074,"lon":16.364464,"k":"p","n":"Ivančice, Němčice, sokolovna"},
+  {"id":452668368,"lat":49.089723,"lon":16.350802,"k":"p","n":"Ivančice, Alexovice, transformátor"},
+  {"id":452668369,"lat":49.089806,"lon":16.350896,"k":"p","n":"Ivančice, Alexovice, transformátor"},
+  {"id":2306105737,"lat":49.093031,"lon":16.368261,"k":"p","n":"Ivančice, Němčice"},
+  {"id":13943783040,"lat":49.055333,"lon":16.388932,"k":"p"},
+  {"id":13943783041,"lat":49.055254,"lon":16.389164,"k":"p"},
+  {"id":6008789974257,"lat":49.090773,"lon":16.355852,"k":"p","n":"Ivančice,Alexovice","g":1}
+],
+"routes":[
+  {"id":3029353744495,"t":{"ref":"432","name":"432: Znojmo,aut.nádr. - Ivančice,nám.","from":"Znojmo,aut.nádr.","to":"Ivančice,nám.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":27,"s":[[2306105737,25],[452668363,26]]},
+  {"id":3048906910279,"t":{"ref":"432","name":"432: Moravský Krumlov,aut.nádr. - Ivančice,nám.","from":"Moravský Krumlov,aut.nádr.","to":"Ivančice,nám.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[2306105737,7],[452668363,8]]},
+  {"id":3062038206024,"t":{"ref":"432","name":"432: Ivančice,nám. - Moravský Krumlov,aut.nádr.","from":"Ivančice,nám.","to":"Moravský Krumlov,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[452668363,2],[2306105737,3]]},
+  {"id":3062303772686,"t":{"ref":"431","name":"431: Ivančice,nám. - Ivančice,Hrubšice","from":"Ivančice,nám.","to":"Ivančice,Hrubšice","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[452668363,2],[452668366,3],[6008789974257,4],[452668368,5]]},
+  {"id":3082760550337,"t":{"ref":"431","name":"431: Ivančice,Hrubšice - Ivančice,nám.","from":"Ivančice,Hrubšice","to":"Ivančice,nám.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[452668368,5],[6008789974257,6],[452668366,7],[452668363,8]]},
+  {"id":3084283880179,"t":{"ref":"432","name":"432: Znojmo,aut.nádr. - Ivančice,nám.","from":"Znojmo,aut.nádr.","to":"Ivančice,nám.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":30,"s":[[2306105737,28],[452668363,29]]},
+  {"id":3090916196877,"t":{"ref":"432","name":"432: Ivančice,nám. - Znojmo,aut.nádr.","from":"Ivančice,nám.","to":"Znojmo,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":27,"s":[[452668363,2],[2306105737,3]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2780,3922],
+"stops":[
+  {"id":11353641577,"lat":49.006152,"lon":16.125908,"k":"p","n":"Medlice, křižovatka"},
+  {"id":11353641578,"lat":49.00627,"lon":16.125847,"k":"p","n":"Medlice, křižovatka"},
+  {"id":13817006783,"lat":49.031719,"lon":16.106518,"k":"p","n":"Tavíkovice, hostinec"},
+  {"id":6025966050236,"lat":49.032206,"lon":16.106665,"k":"p","n":"Tavíkovice,host.","g":1},
+  {"id":6029561318654,"lat":49.015103,"lon":16.107128,"k":"p","n":"Přeskače,obec","g":1},
+  {"id":6061724873793,"lat":49.032868,"lon":16.103444,"k":"p","n":"Tavíkovice,OSEVA","g":1}
+],
+"routes":[
+  {"id":3001077260735,"t":{"ref":"482","name":"482: Třebíč,aut.nádr. - Tavíkovice,host.","from":"Třebíč,aut.nádr.","to":"Tavíkovice,host.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[6025966050236,25]]},
+  {"id":3024146323271,"t":{"ref":"812","name":"812: Znojmo,aut.nádr. - Tavíkovice,host.","from":"Znojmo,aut.nádr.","to":"Tavíkovice,host.","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":18,"s":[[6061724873793,17],[6025966050236,18]]},
+  {"id":3028224160857,"t":{"ref":"482","name":"482: Tavíkovice,host. - Třebíč,aut.nádr.","from":"Tavíkovice,host.","to":"Třebíč,aut.nádr.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[6025966050236,1]]},
+  {"id":3055435920096,"t":{"ref":"443","name":"443: Rešice,rest. - Tavíkovice,host.","from":"Rešice,rest.","to":"Tavíkovice,host.","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":7,"s":[[11353641578,5],[6029561318654,6],[6025966050236,7]]},
+  {"id":3079610179222,"t":{"ref":"443","name":"443: Tavíkovice,host. - Rešice,rest.","from":"Tavíkovice,host.","to":"Rešice,rest.","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":7,"s":[[6025966050236,1],[6029561318654,2],[11353641578,3]]}
+]
+}

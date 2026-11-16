@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2804,3878],
+"stops":[
+  {"id":6816792853,"lat":50.206394,"lon":13.900144,"k":"p","n":"Mšec"},
+  {"id":7289365419,"lat":50.200007,"lon":13.904274,"k":"p","n":"Mšec, Chaloupky"},
+  {"id":7354537793,"lat":50.248937,"lon":13.927888,"k":"p","n":"Líský","ref":"B"},
+  {"id":7354537794,"lat":50.249037,"lon":13.927904,"k":"p","n":"Líský","ref":"A"},
+  {"id":7354537795,"lat":50.23088,"lon":13.91435,"k":"p","n":"Pozdeň, Hřešice, rybník"},
+  {"id":7354537796,"lat":50.23096,"lon":13.91426,"k":"p","n":"Pozdeň, Hřešice, rybník"},
+  {"id":7354537800,"lat":50.23486,"lon":13.921793,"k":"p","n":"Pozdeň, Hřešice","ref":"A"},
+  {"id":7354537801,"lat":50.234951,"lon":13.921673,"k":"p","n":"Pozdeň, Hřešice","ref":"B"},
+  {"id":7354537804,"lat":50.241842,"lon":13.943206,"k":"p","n":"Pozdeň","ref":"A"},
+  {"id":7354537805,"lat":50.241881,"lon":13.94307,"k":"p","n":"Pozdeň","ref":"B"},
+  {"id":7386131393,"lat":50.212302,"lon":13.92568,"k":"p","n":"Drnek, hlavní silnice"},
+  {"id":7386131394,"lat":50.21238,"lon":13.9256,"k":"p","n":"Drnek, hlavní silnice"},
+  {"id":12501121925,"lat":50.243266,"lon":13.943908,"k":"p","n":"Pozdeň, u potoka"},
+  {"id":12501121926,"lat":50.243238,"lon":13.944028,"k":"p","n":"Pozdeň, u potoka"}
+],
+"routes":[
+  {"id":19268207,"t":{"ref":"417","name":"Bus 417: Mšec <=> Praha,Zličín","from":"Mšec","to":"Praha,Zličín","network":"Pražská integrovaná doprava","operator":"ČSAD MHD Kladno a.s.","route":"bus","public_transport:version":"2"},"n":28,"s":[[6816792853,1]]},
+  {"id":3012867390463,"t":{"ref":"588","name":"588: Slaný,aut.nádr. - Milý,Bor","from":"Slaný,aut.nádr.","to":"Milý,Bor","operator":"ČSAD Slaný s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[7354537805,12],[7354537800,13],[7354537796,14]]},
+  {"id":3026027476108,"t":{"ref":"580","name":"580: Rakovník,aut.st. - Slaný,aut.nádr.","from":"Rakovník,aut.st.","to":"Slaný,aut.nádr.","operator":"ČSAD Slaný s.r.o.","route":"bus","public_transport:version":"2"},"n":33,"s":[[6816792853,18],[7386131393,19]]},
+  {"id":3047072349721,"t":{"ref":"417","name":"Bus 417: Praha,Zličín <=> Mšec","from":"Zličín","to":"Mšec","network":"Pražská integrovaná doprava","operator":"ČSAD MHD Kladno a.s.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6816792853,1],[7289365419,2]]},
+  {"id":3070662704830,"t":{"ref":"580","name":"580: Slaný,aut.nádr. - Rakovník,aut.st.","from":"Slaný,aut.nádr.","to":"Rakovník,aut.st.","operator":"ČSAD Slaný s.r.o.","route":"bus","public_transport:version":"2"},"n":33,"s":[[7386131393,15],[6816792853,16]]},
+  {"id":3081449859911,"t":{"ref":"417","name":"Bus 417: Praha,Zličín <=> Mšec","from":"Zličín","to":"Mšec","network":"Pražská integrovaná doprava","operator":"ČSAD MHD Kladno a.s.","route":"bus","public_transport:version":"2"},"n":23,"s":[[7289365419,22],[6816792853,23]]},
+  {"id":3083725085900,"t":{"ref":"628","name":"628: Řevničov,ObÚ - Kladno,autobusové nádraží","from":"Řevničov,ObÚ","to":"Kladno,autobusové nádraží","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":26,"s":[[6816792853,7],[7289365419,8]]},
+  {"id":3086960635188,"t":{"ref":"588","name":"588: Milý,Bor - Slaný,aut.nádr.","from":"Milý,Bor","to":"Slaný,aut.nádr.","operator":"ČSAD Slaný s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[7354537796,5],[7354537800,6],[7354537805,7]]},
+  {"id":3099220714463,"t":{"ref":"628","name":"628: Kladno,autobusové nádraží - Řevničov,ObÚ","from":"Kladno,autobusové nádraží","to":"Řevničov,ObÚ","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":26,"s":[[7289365419,19],[6816792853,20]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2785,3944],
+"stops":[
+  {"id":705361324,"lat":49.25267,"lon":17.211395,"k":"p","n":"Morkovice, železniční stanice"},
+  {"id":705361330,"lat":49.252361,"lon":17.211484,"k":"p","n":"Morkovice, železniční stanice"},
+  {"id":6831030050,"lat":49.272052,"lon":17.205716,"k":"p","n":"Uhřice, Pančocha"},
+  {"id":6831030051,"lat":49.272018,"lon":17.205559,"k":"p","n":"Uhřice, Pančocha"},
+  {"id":8452117103,"lat":49.299652,"lon":17.205081,"k":"p","n":"Unčice"},
+  {"id":9538631021,"lat":49.281313,"lon":17.203531,"k":"p","n":"Uhřice"},
+  {"id":9790475646,"lat":49.296364,"lon":17.228316,"k":"p","n":"Dřínov, rozc. Srbce"},
+  {"id":9790475647,"lat":49.296636,"lon":17.228077,"k":"p","n":"Dřínov, rozc. Srbce"},
+  {"id":9800214354,"lat":49.291092,"lon":17.244103,"k":"p","n":"Dřínov, rozc. Vlčí Doly"},
+  {"id":9800214355,"lat":49.291081,"lon":17.243919,"k":"p","n":"Dřínov, rozc. Vlčí Doly"},
+  {"id":9800214356,"lat":49.291197,"lon":17.233862,"k":"p","n":"Dřínov"},
+  {"id":10303097688,"lat":49.269931,"lon":17.227159,"k":"p","n":"Počenice-Tetětice, Počenice"},
+  {"id":10303097689,"lat":49.269607,"lon":17.22716,"k":"p","n":"Počenice-Tetětice, Počenice"},
+  {"id":11233205762,"lat":49.272736,"lon":17.248794,"k":"p","n":"Počenice-Tetětice, Tetětice"},
+  {"id":11233205763,"lat":49.272958,"lon":17.248452,"k":"p","n":"Počenice-Tetětice, Tetětice"},
+  {"id":11496603360,"lat":49.299604,"lon":17.205021,"k":"p","n":"Unčice"},
+  {"id":6016099587243,"lat":49.271308,"lon":17.237895,"k":"p","n":"Počenice-Tetětice,Tetětice","g":1},
+  {"id":6062214592373,"lat":49.271308,"lon":17.237895,"k":"p","n":"Počenice-Tetětice,Počenice","g":1}
+],
+"routes":[
+  {"id":16196263,"t":{"ref":"Z902","name":"Bus Z902","from":"Morkovice-Slížany","to":"Koryčany","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"Z-Group","route":"bus","public_transport:version":"2"},"n":24,"s":[[705361324,1]]},
+  {"id":16196265,"t":{"ref":"Z934","name":"Bus Z934","from":"Morkovice-Slížany","to":"Vyškov","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"Z-Group","route":"bus","public_transport:version":"2"},"n":2,"s":[[705361324,1]]},
+  {"id":3020675782827,"t":{"ref":"280","name":"280: Pačlavice,Lhota - Kroměříž,aut.nádr.","from":"Pačlavice,Lhota","to":"Kroměříž,aut.nádr.","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":25,"s":[[705361330,8],[6062214592373,9],[6016099587243,10],[9800214354,12,14],[9800214356,13]]},
+  {"id":3021053537572,"t":{"ref":"280","name":"280: Kroměříž,aut.nádr. - Pačlavice,Lhota","from":"Kroměříž,aut.nádr.","to":"Pačlavice,Lhota","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":24,"s":[[9800214354,11,13],[9800214356,12],[6016099587243,15],[6062214592373,16],[705361330,17]]},
+  {"id":3027345127655,"t":{"ref":"280","name":"280: Pačlavice,Lhota - Kroměříž,aut.nádr.","from":"Pačlavice,Lhota","to":"Kroměříž,aut.nádr.","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[705361330,8],[6062214592373,9],[6016099587243,10]]},
+  {"id":3034178167775,"t":{"ref":"280","name":"280: Morkovice-Slížany,Morkovice,nám. - Kroměříž,aut.nádr.","from":"Morkovice-Slížany,Morkovice,nám.","to":"Kroměříž,aut.nádr.","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[705361330,2],[6062214592373,3],[6016099587243,4]]},
+  {"id":3050490788983,"t":{"ref":"280","name":"280: Pačlavice,Lhota - Kroměříž,aut.nádr.","from":"Pačlavice,Lhota","to":"Kroměříž,aut.nádr.","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":19,"s":[[705361330,6],[6062214592373,7],[6016099587243,8]]},
+  {"id":3070678787662,"t":{"ref":"280","name":"280: Kroměříž,aut.nádr. - Pačlavice,Lhota","from":"Kroměříž,aut.nádr.","to":"Pačlavice,Lhota","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":20,"s":[[6016099587243,11],[6062214592373,12],[705361330,13]]},
+  {"id":3077036616624,"t":{"ref":"280","name":"280: Kroměříž,aut.nádr. - Morkovice-Slížany,Morkovice,nám.","from":"Kroměříž,aut.nádr.","to":"Morkovice-Slížany,Morkovice,nám.","operator":"Z-Group bus a.s.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6016099587243,11],[6062214592373,12],[705361330,13]]}
+]
+}

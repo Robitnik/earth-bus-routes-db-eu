@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2809,3882],
+"stops":[
+  {"id":1419391285,"lat":50.481472,"lon":14.141766,"k":"p","n":"Brňany"},
+  {"id":1419391291,"lat":50.487834,"lon":14.146004,"k":"p","n":"Brňany, závod"},
+  {"id":1419596492,"lat":50.458254,"lon":14.137082,"k":"p","n":"Brozany nad Ohří, křižovatka"},
+  {"id":1419596521,"lat":50.458378,"lon":14.137183,"k":"p","n":"Brozany nad Ohří, křižovatka"},
+  {"id":3345674963,"lat":50.496848,"lon":14.146397,"k":"p","n":"Bohušovice nad Ohří, sídliště"},
+  {"id":3345674964,"lat":50.495987,"lon":14.146481,"k":"p","n":"Bohušovice nad Ohří, sídliště"},
+  {"id":3345674965,"lat":50.491644,"lon":14.149141,"k":"p","n":"Bohušovice nad Ohří, železniční stanice"},
+  {"id":7967037715,"lat":50.454239,"lon":14.146209,"k":"p","n":"Brozany nad Ohří"},
+  {"id":8633208682,"lat":50.487663,"lon":14.146086,"k":"p","n":"Brňany, závod"},
+  {"id":10687487056,"lat":50.481426,"lon":14.141875,"k":"p","n":"Brňany"},
+  {"id":6019996430351,"lat":50.496421,"lon":14.146447,"k":"p","n":"Bohušovice n.Ohří,sídliště","g":1},
+  {"id":6031030741546,"lat":50.483353,"lon":14.106276,"k":"p","n":"Keblice","g":1}
+],
+"routes":[
+  {"id":17588493,"t":{"ref":"623","name":"Bus 623: Lovečkovice => Bohušovice nad Ohří, žel. st.","from":"Lovečkovice","to":"Bohušovice nad Ohří","network":"Doprava Ústeckého kraje","operator":"DSÚK, p.o.","route":"bus","public_transport:version":"2"},"n":22,"s":[[3345674964,21],[3345674965,22]]},
+  {"id":17589022,"t":{"ref":"623","name":"Bus 623: Bohušovice nad Ohří, žel. st. => Verneřice","from":"Bohušovice nad Ohří","to":"Verneřice","network":"Doprava Ústeckého kraje","operator":"DSÚK, p. o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[3345674965,1],[3345674963,2]]},
+  {"id":17589023,"t":{"ref":"623","name":"Bus 623:Verneřice => Bohušovice nad Ohří, žel. st.","from":"Verneřice","to":"Bohušovice nad Ohří","network":"Doprava Ústeckého kraje","operator":"DSÚK, p.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[3345674964,24],[3345674965,25]]},
+  {"id":3005578906138,"t":{"ref":"623","name":"Bus 623: Bohušovice nad Ohří, žel. st. => Lovečkovice","from":"Bohušovice nad Ohří","to":"Lovečkovice","network":"Doprava Ústeckého kraje","operator":"DSÚK, p. o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6019996430351,22],[3345674965,23]]},
+  {"id":3037214845420,"t":{"ref":"623","name":"Bus 623: Bohušovice nad Ohří, žel. st. => Lovečkovice","from":"Bohušovice nad Ohří","to":"Lovečkovice","network":"Doprava Ústeckého kraje","operator":"DSÚK, p. o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[3345674965,1],[6019996430351,2]]},
+  {"id":3042663752867,"t":{"ref":"661","name":"661: Litoměřice,aut.nádr. - Libčeves","from":"Litoměřice,aut.nádr.","to":"Libčeves","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":30,"s":[[6031030741546,7]]},
+  {"id":3043748672048,"t":{"ref":"623","name":"Bus 623: Bohušovice nad Ohří, žel. st. => Lovečkovice","from":"Bohušovice nad Ohří","to":"Lovečkovice","network":"Doprava Ústeckého kraje","operator":"DSÚK, p. o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[3345674965,1],[6019996430351,2]]},
+  {"id":3048439204241,"t":{"ref":"650","name":"650: Kladno,autobusové nádraží - Litoměřice,aut.nádr.","from":"Kladno,autobusové nádraží","to":"Litoměřice,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":47,"s":[[7967037715,36],[1419596521,37],[1419391285,38],[1419391291,39],[3345674965,40],[6019996430351,41]]},
+  {"id":3061909922560,"t":{"ref":"650","name":"650: Kladno,autobusové nádraží - Litoměřice,Pokratice,kaplička","from":"Kladno,autobusové nádraží","to":"Litoměřice,Pokratice,kaplička","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":52,"s":[[7967037715,36],[1419596521,37],[1419391285,38],[1419391291,39],[3345674965,40],[6019996430351,41]]},
+  {"id":3081532600913,"t":{"ref":"681","name":"681: Brozany n.Ohří,křiž. - Roudnice n.L.,žel.st.","from":"Brozany n.Ohří,křiž.","to":"Roudnice n.L.,žel.st.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":15,"s":[[1419596521,1],[7967037715,2]]},
+  {"id":3085477522003,"t":{"ref":"650","name":"650: Litoměřice,žel.st.hor. - Kladno,autobusové nádraží","from":"Litoměřice,žel.st.hor.","to":"Kladno,autobusové nádraží","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":50,"s":[[6019996430351,9],[3345674965,10],[1419391291,11],[1419391285,12],[1419596521,13],[7967037715,14]]},
+  {"id":3088398875150,"t":{"ref":"650","name":"650: Litoměřice,Pokratice,kaplička - Kladno,autobusové nádraží","from":"Litoměřice,Pokratice,kaplička","to":"Kladno,autobusové nádraží","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":53,"s":[[6019996430351,12],[3345674965,13],[1419391291,14],[1419391285,15],[1419596521,16],[7967037715,17]]},
+  {"id":3096285289363,"t":{"ref":"681","name":"681: Roudnice n.L.,žel.st. - Brozany n.Ohří,křiž.","from":"Roudnice n.L.,žel.st.","to":"Brozany n.Ohří,křiž.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[7967037715,17],[1419596521,18]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2817,3886],
+"stops":[
+  {"id":542635601,"lat":50.873219,"lon":14.316552,"k":"p","n":"Hřensko, Mezní Louka"},
+  {"id":2454327163,"lat":50.86565,"lon":14.333474,"k":"p","n":"Jetřichovice, Vysoká Lípa, Divoká soutěska","ref":"571/1;571/2"},
+  {"id":5788105192,"lat":50.873525,"lon":14.317321,"k":"p","n":"Hřensko, Mezní Louka, před hotelem"},
+  {"id":9458658512,"lat":50.87323,"lon":14.316562,"k":"p","n":"Hřensko, Mezní Louka, hotel"},
+  {"id":12153328771,"lat":50.873232,"lon":14.316538,"k":"x","n":"Hřensko, Mezní Louka"}
+],
+"routes":[
+  {"id":6897025,"t":{"ref":"435","from":"Schmilka,Grenzübergang","to":"Hřensko,Mezná","network":"Doprava Ústeckého kraje","operator":"DÚK","route":"bus"},"n":8,"s":[[542635601,3]]},
+  {"id":16756942,"t":{"name":"Nationalparkexpress: Königstein => Bad Schandau => Hrensko => Mezní Louka","route":"bus","public_transport:version":"2"},"n":2,"s":[[9458658512,1]]},
+  {"id":3012016839194,"t":{"ref":"438","name":"438: Hřensko,Mezná - Děčín,aut.nádr.","from":"Hřensko,Mezná","to":"Děčín,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":17,"s":[[9458658512,2]]},
+  {"id":3083289117236,"t":{"ref":"438","name":"438: Děčín,aut.nádr. - Hřensko,Mezná","from":"Děčín,aut.nádr.","to":"Hřensko,Mezná","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[9458658512,17]]},
+  {"id":3095270825646,"t":{"ref":"434","name":"434: Děčín,aut.nádr. - Krásná Lípa,nám.","from":"Děčín,aut.nádr.","to":"Krásná Lípa,nám.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":41,"s":[[5788105192,17],[2454327163,18]]},
+  {"id":3097987883731,"t":{"ref":"434","name":"434: Krásná Lípa,nám. - Děčín,aut.nádr.","from":"Krásná Lípa,nám.","to":"Děčín,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":40,"s":[[2454327163,24],[5788105192,25]]}
+]
+}

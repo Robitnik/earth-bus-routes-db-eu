@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2781,3922],
+"stops":[
+  {"id":5045795020,"lat":49.053129,"lon":16.112696,"k":"p","n":"Rouchovany, Šemíkovice"},
+  {"id":5045795621,"lat":49.053154,"lon":16.112647,"k":"p","n":"Rouchovany, Šemíkovice"},
+  {"id":9523331320,"lat":49.069364,"lon":16.108818,"k":"p","n":"Rouchovany"},
+  {"id":9523331321,"lat":49.069239,"lon":16.108718,"k":"p","n":"Rouchovany"},
+  {"id":9523331322,"lat":49.069275,"lon":16.109085,"k":"p","n":"Rouchovany"},
+  {"id":9523331323,"lat":49.069128,"lon":16.109095,"k":"p","n":"Rouchovany"},
+  {"id":9523331646,"lat":49.072012,"lon":16.10177,"k":"p","n":"Rouchovany, učiliště"},
+  {"id":9523331647,"lat":49.072095,"lon":16.101796,"k":"p","n":"Rouchovany, učiliště"},
+  {"id":11042178608,"lat":49.090526,"lon":16.144428,"k":"p","n":"Dukovany, EDU"},
+  {"id":11353641565,"lat":49.061337,"lon":16.14587,"k":"p","n":"Rešice, Kordula, rozcestí"},
+  {"id":11353641566,"lat":49.061257,"lon":16.145878,"k":"p","n":"Rešice, Kordula, rozcestí"},
+  {"id":6015755171584,"lat":49.068716,"lon":16.102247,"k":"p","n":"Rouchovany,lihovar","g":1}
+],
+"routes":[
+  {"id":3000482883278,"t":{"ref":"442","name":"442: Moravský Krumlov,žel.st. - Rouchovany","from":"Moravský Krumlov,žel.st.","to":"Rouchovany","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":17,"s":[[11353641565,16],[9523331322,17]]},
+  {"id":3001077260735,"t":{"ref":"482","name":"482: Třebíč,aut.nádr. - Tavíkovice,host.","from":"Třebíč,aut.nádr.","to":"Tavíkovice,host.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[6015755171584,22],[9523331322,23],[5045795020,24]]},
+  {"id":3011331006380,"t":{"ref":"442","name":"442: Rouchovany - Rešice,rest.","from":"Rouchovany","to":"Rešice,rest.","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":4,"s":[[9523331322,1],[11353641565,2]]},
+  {"id":3028224160857,"t":{"ref":"482","name":"482: Tavíkovice,host. - Třebíč,aut.nádr.","from":"Tavíkovice,host.","to":"Třebíč,aut.nádr.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[5045795020,2],[9523331322,3],[6015755171584,4]]},
+  {"id":3035957860803,"t":{"ref":"442","name":"442: Rešice,rest. - Rouchovany","from":"Rešice,rest.","to":"Rouchovany","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":4,"s":[[11353641565,3],[9523331322,4]]},
+  {"id":3045751565201,"t":{"ref":"380","name":"380: Dukovany,EDU - Moravské Budějovice,aut.nádr.","from":"Dukovany,EDU","to":"Moravské Budějovice,aut.nádr.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":16,"s":[[11042178608,1]]},
+  {"id":3048149222437,"t":{"ref":"480","name":"480: Dukovany,obec - Třebíč,aut.nádr.","from":"Dukovany,obec","to":"Třebíč,aut.nádr.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[11042178608,3],[9523331322,4],[9523331647,5]]},
+  {"id":3048497710334,"t":{"ref":"480","name":"480: Třebíč,aut.nádr. - Dukovany,obec","from":"Třebíč,aut.nádr.","to":"Dukovany,obec","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[9523331647,16],[9523331322,17],[11042178608,18]]},
+  {"id":3056600591878,"t":{"ref":"442","name":"442: Rouchovany - Moravský Krumlov,žel.st.","from":"Rouchovany","to":"Moravský Krumlov,žel.st.","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[9523331322,1],[11353641565,2]]},
+  {"id":3058848134495,"t":{"ref":"441","name":"441: Moravský Krumlov,žel.st. - Dukovany,EDU","from":"Moravský Krumlov,žel.st.","to":"Dukovany,EDU","operator":"ČSAD Hodonín a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[11042178608,16]]},
+  {"id":3082833485635,"t":{"ref":"380","name":"380: Moravské Budějovice,aut.nádr. - Dukovany,EDU","from":"Moravské Budějovice,aut.nádr.","to":"Dukovany,EDU","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":16,"s":[[11042178608,16]]},
+  {"id":3087269298555,"t":{"ref":"380","name":"380: Dukovany,EDU - Moravské Budějovice,aut.nádr.","from":"Dukovany,EDU","to":"Moravské Budějovice,aut.nádr.","operator":"TRADO-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[11042178608,1]]}
+]
+}

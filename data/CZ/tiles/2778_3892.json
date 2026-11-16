@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2778,3892],
+"stops":[
+  {"id":913510659,"lat":48.933053,"lon":14.619036,"k":"p","n":"Ledenice, aut. st."},
+  {"id":913517438,"lat":48.936509,"lon":14.625717,"k":"p","n":"Ledenice, Dolní"},
+  {"id":913517440,"lat":48.92241,"lon":14.615204,"k":"p","n":"Ledenice, Ledenický nábytek"},
+  {"id":2388629062,"lat":48.900453,"lon":14.642644,"k":"p","n":"Borovany, autobusové nádraží"},
+  {"id":2435052685,"lat":48.933831,"lon":14.614579,"k":"p","n":"Ledenice, U Jelínků"},
+  {"id":5113369565,"lat":48.913067,"lon":14.640997,"k":"p","n":"Borovany, Calofrig starý závod"},
+  {"id":5831950935,"lat":48.932954,"lon":14.618992,"k":"p"},
+  {"id":10229322528,"lat":48.900896,"lon":14.642431,"k":"p","n":"Borovany, autobusové nádraží"},
+  {"id":10229322529,"lat":48.900674,"lon":14.642537,"k":"p","n":"Borovany, autobusové nádraží"},
+  {"id":11039511990,"lat":48.911153,"lon":14.604644,"k":"p","n":"Borovany, Radostice, rozc. 1.0"},
+  {"id":11039511991,"lat":48.911186,"lon":14.604845,"k":"p","n":"Borovany, Radostice, rozc. 1.0"},
+  {"id":11039511994,"lat":48.90478,"lon":14.610305,"k":"p","n":"Borovany, Radostice"},
+  {"id":11039511995,"lat":48.904768,"lon":14.61022,"k":"p","n":"Borovany, Radostice"},
+  {"id":11039512069,"lat":48.901075,"lon":14.642319,"k":"p","n":"Borovany, autobusové nádraží"}
+],
+"routes":[
+  {"id":3001081105503,"t":{"ref":"104","name":"104: Ledenice,aut.st. - České Budějovice,aut.nádr.","from":"Ledenice,aut.st.","to":"České Budějovice,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[913510659,1],[913517438,2]]},
+  {"id":3007738107527,"t":{"ref":"105","name":"105: České Budějovice,aut.nádr. - Borovany,aut.nádr.","from":"České Budějovice,aut.nádr.","to":"Borovany,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":13,"s":[[2435052685,10],[913510659,11],[913517440,12],[10229322529,13]]},
+  {"id":3013623681648,"t":{"ref":"104","name":"104: České Budějovice,aut.nádr. - Ledenice,aut.st.","from":"České Budějovice,aut.nádr.","to":"Ledenice,aut.st.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[913517438,11],[913510659,12]]},
+  {"id":3018871607064,"t":{"ref":"350","name":"350: Třeboň,aut.nádr. - Borovany,žel.st.","from":"Třeboň,aut.nádr.","to":"Borovany,žel.st.","operator":"ČSAD AUTOBUSY České Budějovice a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[10229322529,9]]},
+  {"id":3019397060036,"t":{"ref":"105","name":"105: Borovany,aut.nádr. - České Budějovice,aut.nádr.","from":"Borovany,aut.nádr.","to":"České Budějovice,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":13,"s":[[10229322529,1],[913517440,2],[913510659,3],[2435052685,4]]},
+  {"id":3019732166320,"t":{"ref":"350","name":"350: Třeboň,aut.nádr. - Borovany,žel.st.","from":"Třeboň,aut.nádr.","to":"Borovany,žel.st.","operator":"ČSAD AUTOBUSY České Budějovice a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[10229322529,15]]},
+  {"id":3021630013809,"t":{"ref":"105","name":"105: České Budějovice,aut.nádr. - Borovany,aut.nádr.","from":"České Budějovice,aut.nádr.","to":"Borovany,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":13,"s":[[2435052685,10],[913510659,11],[913517440,12],[10229322529,13]]},
+  {"id":3040612762648,"t":{"ref":"350","name":"350: Borovany,žel.st. - Třeboň,aut.nádr.","from":"Borovany,žel.st.","to":"Třeboň,aut.nádr.","operator":"ČSAD AUTOBUSY České Budějovice a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[10229322529,2]]},
+  {"id":3048217835064,"t":{"ref":"350","name":"350: Borovany,žel.st. - Třeboň,aut.nádr.","from":"Borovany,žel.st.","to":"Třeboň,aut.nádr.","operator":"ČSAD AUTOBUSY České Budějovice a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[10229322529,2]]},
+  {"id":3073347711116,"t":{"ref":"107","name":"107: Borovany,aut.nádr. - České Budějovice,aut.nádr.","from":"Borovany,aut.nádr.","to":"České Budějovice,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[10229322529,1]]},
+  {"id":3075033261414,"t":{"ref":"107","name":"107: České Budějovice,aut.nádr. - Borovany,aut.nádr.","from":"České Budějovice,aut.nádr.","to":"Borovany,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":13,"s":[[10229322529,13]]},
+  {"id":3079973212492,"t":{"ref":"350","name":"350: Borovany,aut.nádr. - Borovany,žel.st.","from":"Borovany,aut.nádr.","to":"Borovany,žel.st.","operator":"ČSAD AUTOBUSY České Budějovice a.s.","route":"bus","public_transport:version":"2"},"n":2,"s":[[10229322529,1]]},
+  {"id":3086805379406,"t":{"ref":"170","name":"170: Borovany,aut.nádr. - Nové Hrady,aut.nádr.","from":"Borovany,aut.nádr.","to":"Nové Hrady,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":17,"s":[[10229322529,1]]},
+  {"id":3092093346778,"t":{"ref":"170","name":"170: Borovany,aut.nádr. - Nové Hrady,aut.nádr.","from":"Borovany,aut.nádr.","to":"Nové Hrady,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[10229322529,1]]},
+  {"id":3099042713617,"t":{"ref":"350","name":"350: Borovany,žel.st. - Borovany,aut.nádr.","from":"Borovany,žel.st.","to":"Borovany,aut.nádr.","operator":"ČSAD AUTOBUSY České Budějovice a.s.","route":"bus","public_transport:version":"2"},"n":2,"s":[[10229322529,2]]},
+  {"id":3099125282815,"t":{"ref":"170","name":"170: Nové Hrady,aut.nádr. - Borovany,aut.nádr.","from":"Nové Hrady,aut.nádr.","to":"Borovany,aut.nádr.","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[10229322529,16]]}
+]
+}

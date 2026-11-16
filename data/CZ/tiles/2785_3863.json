@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2785,3863],
+"stops":[
+  {"id":5380345374,"lat":49.296848,"lon":13.151148,"k":"p","n":"Nýrsko, Pod Mezí","ref":"1"},
+  {"id":5380367882,"lat":49.274491,"lon":13.156762,"k":"p","n":"Dešenice, Milence"},
+  {"id":5380367883,"lat":49.274555,"lon":13.157049,"k":"p","n":"Dešenice, Milence"},
+  {"id":6987871951,"lat":49.266133,"lon":13.152231,"k":"p","n":"Dešenice, Milence, přehrada"},
+  {"id":6987871952,"lat":49.265868,"lon":13.151896,"k":"p","n":"Dešenice, Milence, přehrada"},
+  {"id":6988067090,"lat":49.283197,"lon":13.150483,"k":"p","n":"Nýrsko, samoty"},
+  {"id":6988067091,"lat":49.283093,"lon":13.150441,"k":"p","n":"Nýrsko, samoty"},
+  {"id":6988069026,"lat":49.274189,"lon":13.171253,"k":"x","n":"Dešenice"},
+  {"id":7603958312,"lat":49.295358,"lon":13.170664,"k":"p","n":"Nýrsko, Hodousice"},
+  {"id":10922267116,"lat":49.296831,"lon":13.151246,"k":"x","n":"Nýrsko, Pod Mezí"},
+  {"id":10922267118,"lat":49.29751,"lon":13.15292,"k":"x","ref":"N"},
+  {"id":10922267119,"lat":49.297511,"lon":13.152931,"k":"p","n":"N"},
+  {"id":12806228067,"lat":49.297781,"lon":13.153264,"k":"p","n":"Nýrsko, vlakové nádraží"},
+  {"id":12806228130,"lat":49.297772,"lon":13.153227,"k":"x","n":"Nýrsko, vlakové nádraží"},
+  {"id":13564278587,"lat":49.283156,"lon":13.150483,"k":"x","n":"Nýrsko, samoty"},
+  {"id":13564278588,"lat":49.274506,"lon":13.156987,"k":"x","n":"Dešenice, Milence"},
+  {"id":13564278589,"lat":49.274156,"lon":13.171268,"k":"p","n":"Dešenice"},
+  {"id":13564278640,"lat":49.266146,"lon":13.152188,"k":"x","n":"Dešenice, Milence, přehrada"},
+  {"id":13570412853,"lat":49.265857,"lon":13.151947,"k":"x","n":"Dešenice, Milence, přehrada"},
+  {"id":13570412854,"lat":49.274541,"lon":13.156783,"k":"x","n":"Dešenice, Milence"},
+  {"id":13580145734,"lat":49.295324,"lon":13.170625,"k":"x","n":"Nýrsko, Hodousice"}
+],
+"routes":[
+  {"id":7913749,"t":{"ref":"618/001982","name":"Wanderbus VLC 618/ARVA 001982 Hamry - Nýrsko - Lam - Arrach RI- Eck - Arnbruck - Drachselried","from":"Drachselried","to":"Hamry(CZ)","route":"bus","public_transport:version":"1"},"n":23,"s":[[6987871952,8],[6987871951,9],[5380367882,10],[5380367883,11],[6988067091,12],[6988067090,13],[5380345374,14]]},
+  {"id":20002688,"t":{"ref":"430964","name":"Bus 964: Nýrsko, vlakové nádraží => Nýrsko, Komenského","from":"Nýrsko, vlakové nádraží","to":"Nýrsko, Komenského","network":"Integrovaná doprava Plzeňského kraje","route":"bus","public_transport:version":"2"},"n":11,"s":[[12806228067,1],[5380345374,2]]},
+  {"id":20002805,"t":{"ref":"430962","name":"Bus 962: Železná ruda => Nýrsko","from":"Železná Ruda","to":"Nýrsko, vlakové nádraží","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva Střední Čechy","route":"bus","public_transport:version":"2"},"n":21,"s":[[6987871951,15],[13564278589,16],[5380367883,17],[6988067090,18],[12806228067,21]]},
+  {"id":20226706,"t":{"ref":"430962","name":"Bus 962: Nýrsko, vlakové nádraží => Železná ruda","from":"Nýrsko, vlakové nádraží","to":"Železná ruda","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva Střední Čechy","route":"bus","public_transport:version":"2"},"n":22,"s":[[12806228067,1],[5380345374,2],[6988067091,5],[5380367882,6],[13564278589,7],[6987871952,8]]},
+  {"id":20238000,"t":{"ref":"430965/14","name":"Bus 965: Nýrsko, Hodousice => Nýrsko, Komenského","from":"Nýrsko, Hodousice","to":"Nýrsko, Komenského","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":2,"s":[[7603958312,1]]},
+  {"id":20238001,"t":{"ref":"430965/13","name":"Bus 965: Nýrsko, vlakové nádraží => Nýrsko, Komenského","from":"Nýrsko, vlakové nádraží","to":"Nýrsko, Komenského","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":4,"s":[[12806228067,1],[5380345374,2]]},
+  {"id":20238065,"t":{"ref":"430965/16","name":"Bus 965: Chudenín, Hadrava => Nýrsko, vlakové nádraží","from":"Chudenín, Hadrava","to":"Nýrsko, vlakové nádraží","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":3,"s":[[12806228067,3]]},
+  {"id":3021306325066,"t":{"ref":"960","name":"960: Nýrsko,Komenského - Klatovy,Terminál-nádraží","from":"Nýrsko,Komenského","to":"Klatovy,Terminál-nádraží","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[12806228067,3]]},
+  {"id":3033344102667,"t":{"ref":"960","name":"960: Klatovy,Terminál-nádraží - Nýrsko,Komenského","from":"Klatovy,Terminál-nádraží","to":"Nýrsko,Komenského","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":17,"s":[[12806228067,15]]},
+  {"id":3066687249931,"t":{"ref":"965","name":"965: Nýrsko,Komenského - Nýrsko,vlakové nádraží","from":"Nýrsko,Komenského","to":"Nýrsko,vlakové nádraží","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":3,"s":[[12806228067,3]]},
+  {"id":3072351640625,"t":{"ref":"965","name":"965: Nýrsko,vlakové nádraží - Nýrsko,Komenského","from":"Nýrsko,vlakové nádraží","to":"Nýrsko,Komenského","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":4,"s":[[12806228067,1],[5380345374,2]]}
+]
+}

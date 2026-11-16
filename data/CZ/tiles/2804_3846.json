@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2804,3846],
+"stops":[
+  {"id":700963419,"lat":50.243075,"lon":12.326241,"k":"p","n":"Rohrbach, Warte"},
+  {"id":1291024288,"lat":50.220138,"lon":12.346652,"k":"p","n":"Plesná"},
+  {"id":2121258337,"lat":50.220393,"lon":12.347968,"k":"p","n":"Plesná"},
+  {"id":8715957485,"lat":50.243102,"lon":12.326287,"k":"x","n":"Rohrbach, Warte"},
+  {"id":6037832014154,"lat":50.222905,"lon":12.312103,"k":"p","n":"Bad Brambach, Gaststätte","g":1},
+  {"id":6039804315400,"lat":50.219819,"lon":12.308833,"k":"p","n":"Bad Brambach, Abzweig Bahnhof","g":1},
+  {"id":6056646212444,"lat":50.224463,"lon":12.313019,"k":"p","n":"Bad Brambach, Kirchplatz","g":1},
+  {"id":6060036213593,"lat":50.220336,"lon":12.347404,"k":"p","n":"Plesná","g":1},
+  {"id":6072712607273,"lat":50.232485,"lon":12.304018,"k":"p","n":"Bad Brambach, Oberbrambach Ort","g":1},
+  {"id":6082349803163,"lat":50.217911,"lon":12.311851,"k":"p","n":"Bad Brambach, Bahnhof","g":1}
+],
+"routes":[
+  {"id":12792141,"t":{"ref":"36","name":"Bus 36: Gürth => Bad Brambach","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[700963419,2]]},
+  {"id":12792142,"t":{"ref":"36","name":"Bus 36: Bad Brambach => Gürth","from":"Bad Brambach, Bahnhof","to":"Gürth, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[700963419,1]]},
+  {"id":3004264279813,"t":{"ref":"107","name":"107: Plesná - Cheb,aut.nádr.","from":"Plesná","to":"Cheb,aut.nádr.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":22,"s":[[6060036213593,1]]},
+  {"id":3006735195742,"t":{"ref":"36","name":"36: Gürth, Warte - Bad Brambach, Bahnhof","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","operator":"POB Vnetz Hauptlinien","route":"bus","public_transport:version":"2"},"n":11,"s":[[8715957485,5],[6072712607273,6],[6056646212444,8],[6037832014154,9],[6039804315400,10],[6082349803163,11]]},
+  {"id":3019066923821,"t":{"ref":"107","name":"107: Luby - Plesná","from":"Luby","to":"Plesná","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":8,"s":[[6060036213593,8]]},
+  {"id":3022337166133,"t":{"ref":"107","name":"107: Cheb,aut.nádr. - Plesná","from":"Cheb,aut.nádr.","to":"Plesná","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":22,"s":[[6060036213593,22]]},
+  {"id":3032442953949,"t":{"ref":"107","name":"107: Plesná - Luby","from":"Plesná","to":"Luby","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":8,"s":[[6060036213593,1]]},
+  {"id":3036988663204,"t":{"ref":"107","name":"107: Plesná - Plesná,Lomnička","from":"Plesná","to":"Plesná,Lomnička","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":5,"s":[[6060036213593,1]]},
+  {"id":3053081644435,"t":{"ref":"107","name":"107: Plesná,Lomnička - Plesná","from":"Plesná,Lomnička","to":"Plesná","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":3,"s":[[6060036213593,3]]},
+  {"id":3059227566508,"t":{"ref":"107","name":"107: Plesná,Lomnička - Cheb,aut.nádr.","from":"Plesná,Lomnička","to":"Cheb,aut.nádr.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":24,"s":[[6060036213593,3]]},
+  {"id":3086032408847,"t":{"ref":"107","name":"107: Cheb,aut.nádr. - Plesná,Lomnička","from":"Cheb,aut.nádr.","to":"Plesná,Lomnička","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":26,"s":[[6060036213593,22]]}
+]
+}

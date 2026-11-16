@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2792,3971],
+"stops":[
+  {"id":507112792,"lat":49.649015,"lon":18.595405,"k":"x","n":"Guty, konečná"},
+  {"id":2173558750,"lat":49.648958,"lon":18.595607,"k":"p","n":"Guty, konečná"},
+  {"id":2173558753,"lat":49.648029,"lon":18.598447,"k":"p","n":"Guty, střed"},
+  {"id":2173558756,"lat":49.648097,"lon":18.59853,"k":"p","n":"Guty, střed"},
+  {"id":2173560675,"lat":49.64807,"lon":18.598482,"k":"x","n":"Guty, střed"},
+  {"id":5143075700,"lat":49.630743,"lon":18.573522,"k":"p","n":"Řeka, restaurace"},
+  {"id":6042601210698,"lat":49.616826,"lon":18.581847,"k":"p","n":"Řeka,konečná","g":1},
+  {"id":6071933515395,"lat":49.641006,"lon":18.571263,"k":"p","n":"Řeka,hotel Řeka","g":1},
+  {"id":6094381565330,"lat":49.624052,"lon":18.575478,"k":"p","n":"Řeka,pila","g":1}
+],
+"routes":[
+  {"id":7469966,"t":{"ref":"743","name":"Bus 743: Řeka, konečná => Hnojník, škola polská","from":"Řeka, konečná","to":"Hnojník, škola polská","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":2,"s":[[5143075700,1]]},
+  {"id":11028416,"t":{"ref":"713","name":"Bus 713 MHD Třinec: Guty, konečná - Oldřichovice, Záhoří - aut.st. - žel.st.","from":"Guty, konečná","to":"Třinec, železniční stanice","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Arriva Morava","route":"bus","public_transport:version":"2"},"n":15,"s":[[2173558750,1],[2173558753,2]]},
+  {"id":11030091,"t":{"ref":"716","name":"Bus 716 MHD Třinec: žel.st. - aut.st. - Nebory, škola - Guty, konečná","from":"Třinec, žel.st.","to":"Guty, konečná","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Arriva Morava","route":"bus","public_transport:version":"2"},"n":15,"s":[[2173558756,14],[2173558750,15]]},
+  {"id":3006466693110,"t":{"ref":"743","name":"743: Hnojník,obch.stř. - Řeka,konečná","from":"Hnojník,obch.stř.","to":"Řeka,konečná","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[6071933515395,8],[5143075700,9],[6094381565330,10],[6042601210698,11]]},
+  {"id":3013239844623,"t":{"ref":"743","name":"743: Řeka,konečná - Hnojník,obch.stř.","from":"Řeka,konečná","to":"Hnojník,obch.stř.","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[6042601210698,1],[6094381565330,2],[5143075700,3],[6071933515395,4]]},
+  {"id":3022576489015,"t":{"ref":"748","name":"748: Střítež,Obecní úřad - Řeka,konečná","from":"Střítež,Obecní úřad","to":"Řeka,konečná","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[6071933515395,7],[5143075700,8],[6094381565330,9],[6042601210698,10]]},
+  {"id":3089566305239,"t":{"ref":"716","name":"Bus 716 MHD Třinec: Guty, konečná - Nebory, škola - aut.st. - žel.st.","from":"Guty, konečná","to":"Třinec, žel.st.","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Arriva Morava","route":"bus","public_transport:version":"2"},"n":22,"s":[[2173558750,1],[2173560675,2]]},
+  {"id":3091226042881,"t":{"ref":"716","name":"Bus 716 MHD Třinec: Guty, konečná - Nebory, škola - aut.st. - žel.st.","from":"Guty, konečná","to":"Třinec, žel.st.","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Arriva Morava","route":"bus","public_transport:version":"2"},"n":22,"s":[[2173560675,21],[2173558750,22]]}
+]
+}

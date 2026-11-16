@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2796,3961],
+"stops":[
+  {"id":339023294,"lat":49.845694,"lon":18.093376,"k":"x","n":"Dolní Lhota,křiž."},
+  {"id":793135725,"lat":49.805791,"lon":18.097644,"k":"x","n":"Klimkovice,Hýlov,Sanatoria"},
+  {"id":2725507494,"lat":49.80531,"lon":18.076246,"k":"x","n":"Zbyslavice,,střed"},
+  {"id":2725879994,"lat":49.8057,"lon":18.098065,"k":"x","n":"Klimkovice,Hýlov,Sanatoria"},
+  {"id":5000253259364,"lat":49.8052,"lon":18.07624,"k":"p","n":"Zbyslavice,,střed"},
+  {"id":5000267116619,"lat":49.805676,"lon":18.098148,"k":"p","n":"Klimkovice,Hýlov,Sanatoria"},
+  {"id":5000527140509,"lat":49.80586,"lon":18.097687,"k":"p","n":"Klimkovice,Hýlov,Sanatoria"},
+  {"id":6026857956429,"lat":49.835808,"lon":18.095001,"k":"p","n":"Dolní Lhota,U Obory","g":1},
+  {"id":6029993583117,"lat":49.837018,"lon":18.088335,"k":"p","n":"Dolní Lhota, ","g":1},
+  {"id":6061919893411,"lat":49.849195,"lon":18.051341,"k":"p","n":"Budišovice,Zátiší","g":1},
+  {"id":6063757630772,"lat":49.828839,"lon":18.084375,"k":"p","n":"Čavisov,obecní úřad","g":1},
+  {"id":6078414572228,"lat":49.840215,"lon":18.091417,"k":"p","n":"Dolní Lhota,has.zbroj.","g":1},
+  {"id":6080075460176,"lat":49.840307,"lon":18.079564,"k":"p","n":"Dolní Lhota,osada","g":1},
+  {"id":6092969342864,"lat":49.842944,"lon":18.06119,"k":"p","n":"Horní Lhota, ","g":1}
+],
+"routes":[
+  {"id":3184407,"t":{"ref":"64","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"cz:DPO","route":"bus"},"n":6,"s":[[793135725,3]]},
+  {"id":3585203,"t":{"ref":"674","name":"Bus 674: Zbyslavice-Klimkovice-Ostrava","from":"Zbyslavice","to":"Fakultní nemocnice","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"cz:Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000253259364,1]]},
+  {"id":3654187,"t":{"ref":"64","name":"Bus 64: Svinov,mosty → Klimkovice,Hýlov,Sanatoria","from":"Svinov,mosty","to":"Klimkovice,Hýlov,Sanatoria","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"cz:DPO","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000267116619,15]]},
+  {"id":3679075,"t":{"ref":"674","name":"Bus 674: Ostrava-Klimkovice-Zbyslavice","from":"Fakultní nemocnice","to":"Zbyslavice","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"cz:Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000253259364,9]]},
+  {"id":3002293466147,"t":{"ref":"288","name":"288: Ostrava,Svinov,nádraží - Zbyslavice,střed","from":"Ostrava,Svinov,nádraží","to":"Zbyslavice,střed","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[339023294,8],[6078414572228,9],[6029993583117,10],[6063757630772,11],[2725507494,12]]},
+  {"id":3012208791494,"t":{"ref":"64","name":"Bus 64: Klimkovice,Hýlov,Sanatoria → Svinov,mosty","from":"Klimkovice,Hýlov,Sanatoria","to":"Svinov,mosty","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"cz:DPO","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000527140509,17]]},
+  {"id":3027847907704,"t":{"ref":"679","name":"679: Zbyslavice,střed - Ostrava,Svinov,nádraží","from":"Zbyslavice,střed","to":"Ostrava,Svinov,nádraží","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":17,"s":[[2725507494,1]]},
+  {"id":3028834709502,"t":{"ref":"5","name":"5: Ostrava,Poruba,Vřesinská - Budišovice,Zátiší","from":"Ostrava,Poruba,Vřesinská","to":"Budišovice,Zátiší","operator":"Dopravní podnik Ostrava a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[6026857956429,6],[6029993583117,7],[6080075460176,8],[6092969342864,9],[6061919893411,10]]},
+  {"id":3034454758061,"t":{"ref":"5","name":"5: Budišovice,Zátiší - Ostrava,Poruba,Vřesinská","from":"Budišovice,Zátiší","to":"Ostrava,Poruba,Vřesinská","operator":"Dopravní podnik Ostrava a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[6061919893411,1],[6092969342864,2],[6080075460176,3],[6029993583117,4],[6026857956429,5]]},
+  {"id":3056242506809,"t":{"ref":"674","name":"674: Ostrava,Svinov,nádraží - Zbyslavice,střed","from":"Ostrava,Svinov,nádraží","to":"Zbyslavice,střed","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[2725507494,14]]},
+  {"id":3065260440116,"t":{"ref":"5","name":"5: Budišovice,Zátiší - Ostrava,Poruba,vozovna","from":"Budišovice,Zátiší","to":"Ostrava,Poruba,vozovna","operator":"Dopravní podnik Ostrava a.s.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6061919893411,1],[6092969342864,2],[6080075460176,3],[6029993583117,4],[6026857956429,5]]},
+  {"id":3066296627792,"t":{"ref":"76","name":"76: Klimkovice,Hýlov,Sanatoria - Ostrava,Svinov,mosty","from":"Klimkovice,Hýlov,Sanatoria","to":"Ostrava,Svinov,mosty","operator":"Dopravní podnik Ostrava a.s.","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000527140509,1]]},
+  {"id":3073336688133,"t":{"ref":"679","name":"679: Ostrava,Svinov,nádraží - Zbyslavice,střed","from":"Ostrava,Svinov,nádraží","to":"Zbyslavice,střed","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[2725507494,18]]},
+  {"id":3073641564668,"t":{"ref":"5","name":"5: Ostrava,Poruba,VŠB-TUO - Budišovice,Zátiší","from":"Ostrava,Poruba,VŠB-TUO","to":"Budišovice,Zátiší","operator":"Dopravní podnik Ostrava a.s.","route":"bus","public_transport:version":"2"},"n":13,"s":[[6026857956429,9],[6029993583117,10],[6080075460176,11],[6092969342864,12],[6061919893411,13]]},
+  {"id":3078245191894,"t":{"ref":"64","name":"Bus 64: Klimkovice,Hýlov,Sanatoria → Svinov,mosty","from":"Klimkovice,Hýlov,Sanatoria","to":"Svinov,mosty","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"cz:DPO","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000527140509,1]]},
+  {"id":3084749069444,"t":{"ref":"76","name":"76: Ostrava,Svinov,mosty - Klimkovice,Hýlov,Sanatoria","from":"Ostrava,Svinov,mosty","to":"Klimkovice,Hýlov,Sanatoria","operator":"Dopravní podnik Ostrava a.s.","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000527140509,23]]},
+  {"id":3093064484078,"t":{"ref":"288","name":"288: Zbyslavice,střed - Ostrava,Svinov,nádraží","from":"Zbyslavice,střed","to":"Ostrava,Svinov,nádraží","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[2725507494,1],[6063757630772,2],[6029993583117,3],[6078414572228,4],[339023294,5]]}
+]
+}

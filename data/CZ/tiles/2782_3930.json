@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2782,3930],
+"stops":[
+  {"id":447564115,"lat":49.142141,"lon":16.548801,"k":"p","n":"Nebovidy, dolní konec"},
+  {"id":447564116,"lat":49.14213,"lon":16.549083,"k":"p","n":"Nebovidy, dolní konec"},
+  {"id":447564163,"lat":49.134624,"lon":16.528507,"k":"p","n":"Nebovidy, Závist"},
+  {"id":447564164,"lat":49.134808,"lon":16.528463,"k":"p","n":"Nebovidy, Závist"},
+  {"id":599193792,"lat":49.108847,"lon":16.512094,"k":"p","n":"Ořechov, Jeřábkova"},
+  {"id":1825265556,"lat":49.117299,"lon":16.525812,"k":"p","n":"Ořechov, Kerendov"},
+  {"id":1825265678,"lat":49.117438,"lon":16.525737,"k":"p","n":"Ořechov, Kerendov"},
+  {"id":11940178184,"lat":49.110333,"lon":16.526854,"k":"p","n":"Ořechov, zdravotní středisko"},
+  {"id":11967457497,"lat":49.111519,"lon":16.518466,"k":"p","n":"Ořechov, Obú"},
+  {"id":11967457498,"lat":49.111466,"lon":16.518143,"k":"p","n":"Ořechov, Obú"},
+  {"id":13175743095,"lat":49.110512,"lon":16.527015,"k":"p","n":"Ořechov, zdravotní středisko"},
+  {"id":13175743099,"lat":49.111289,"lon":16.525611,"k":"p","n":"Ořechov, Orlovna"},
+  {"id":13175743100,"lat":49.111091,"lon":16.52627,"k":"p","n":"Ořechov, Orlovna"},
+  {"id":6069206234768,"lat":49.110182,"lon":16.539924,"k":"p","n":"Ořechov,tábor","g":1},
+  {"id":6090359022046,"lat":49.145417,"lon":16.531543,"k":"p","n":"Nebovidy,rozc.Střelice","g":1}
+],
+"routes":[
+  {"id":399972,"t":{"ref":"501","name":"Bus 501","from":"Brno","to":"Ořechov","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"Tourbus","route":"bus"},"n":2,"s":[[599193792,1]]},
+  {"id":3003933908519,"t":{"ref":"501","name":"501: Nebovidy,dol.konec - Brno,Ústřední hřbitov","from":"Nebovidy,dol.konec","to":"Brno,Ústřední hřbitov","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":8,"s":[[447564116,1]]},
+  {"id":3004976195495,"t":{"ref":"501","name":"501: Brno,Ořechovská - Ořechov,Jeřábkova","from":"Brno,Ořechovská","to":"Ořechov,Jeřábkova","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[447564116,7],[6090359022046,8],[447564163,9],[1825265678,10],[13175743100,11],[11967457497,12],[599193792,13]]},
+  {"id":3016462317815,"t":{"ref":"510","name":"Bus 510: Modřice -> Radostice","from":"Modřice, Olympia","to":"Radostice, sokolovna","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:BDS-BUS","route":"bus","public_transport:version":"2"},"n":18,"s":[[6069206234768,15],[11940178184,16],[11967457497,17],[599193792,18]]},
+  {"id":3018515480920,"t":{"ref":"501","name":"501: Brno,Ústřední hřbitov - Ořechov,Jeřábkova","from":"Brno,Ústřední hřbitov","to":"Ořechov,Jeřábkova","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[447564116,8],[6090359022046,9],[447564163,10],[1825265678,11],[13175743100,12],[11967457497,13],[599193792,14]]},
+  {"id":3019134424295,"t":{"ref":"501","name":"501: Ořechov,Jeřábkova - Brno,Ústřední hřbitov","from":"Ořechov,Jeřábkova","to":"Brno,Ústřední hřbitov","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[599193792,1],[11967457497,2],[13175743100,3],[1825265678,4],[447564163,5],[6090359022046,6],[447564116,7]]},
+  {"id":3021230345358,"t":{"ref":"501","name":"501: Brno,Ořechovská - Nebovidy,dol.konec","from":"Brno,Ořechovská","to":"Nebovidy,dol.konec","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[447564116,7]]},
+  {"id":3025710542451,"t":{"ref":"501","name":"501: Ořechov,Jeřábkova - Brno,Ořechovská","from":"Ořechov,Jeřábkova","to":"Brno,Ořechovská","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[599193792,1],[11967457497,2],[13175743100,3],[1825265678,4],[447564163,5],[6090359022046,6],[447564116,7]]},
+  {"id":3027228114235,"t":{"ref":"510","name":"Bus 510: Radostice -> Modřice","from":"Radostice, sokolovna","to":"Modřice, Olympia","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:BDS-BUS","route":"bus","public_transport:version":"2"},"n":12,"s":[[599193792,1],[11967457497,2],[11940178184,3]]},
+  {"id":3032473552766,"t":{"ref":"510","name":"510: Modřice,Olympia - Radostice,kostel","from":"Modřice,Olympia","to":"Radostice,kostel","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":17,"s":[[11940178184,10],[11967457497,11],[599193792,12]]},
+  {"id":3040429889522,"t":{"ref":"501","name":"501: Nebovidy,dol.konec - Brno,Ořechovská","from":"Nebovidy,dol.konec","to":"Brno,Ořechovská","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":6,"s":[[447564116,1]]},
+  {"id":3042455980120,"t":{"ref":"510","name":"510: Radostice,kostel - Modřice,Olympia","from":"Radostice,kostel","to":"Modřice,Olympia","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":17,"s":[[599193792,6],[11967457497,7],[11940178184,8]]},
+  {"id":3054592746759,"t":{"ref":"501","name":"501: Brno,Ústřední hřbitov - Nebovidy,dol.konec","from":"Brno,Ústřední hřbitov","to":"Nebovidy,dol.konec","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":8,"s":[[447564116,8]]},
+  {"id":3062728039866,"t":{"ref":"510","name":"510: Modřice,Olympia - Radostice,kostel","from":"Modřice,Olympia","to":"Radostice,kostel","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6069206234768,15],[11940178184,16],[11967457497,17],[599193792,18]]},
+  {"id":3071226720298,"t":{"ref":"510","name":"510: Radostice,kostel - Modřice,Olympia","from":"Radostice,kostel","to":"Modřice,Olympia","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[599193792,6],[11967457497,7],[11940178184,8],[6069206234768,9]]},
+  {"id":3073715725720,"t":{"ref":"501","name":"501: Nebovidy,dol.konec - Brno,Ořechovská","from":"Nebovidy,dol.konec","to":"Brno,Ořechovská","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":6,"s":[[447564116,1]]},
+  {"id":3082905546048,"t":{"ref":"510","name":"Bus 510: Modřice -> Radostice","from":"Modřice, Olympia","to":"Radostice, sokolovna","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:BDS-BUS","route":"bus","public_transport:version":"2"},"n":12,"s":[[11940178184,10],[11967457497,11],[599193792,12]]},
+  {"id":3095398868606,"t":{"ref":"510","name":"510: Ořechov,Jeřábkova - Modřice,Olympia","from":"Ořechov,Jeřábkova","to":"Modřice,Olympia","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[599193792,1],[11967457497,2],[11940178184,3],[6069206234768,4]]}
+]
+}

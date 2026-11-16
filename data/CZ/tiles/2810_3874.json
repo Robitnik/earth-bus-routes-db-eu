@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2810,3874],
+"stops":[
+  {"id":2403952249,"lat":50.541929,"lon":13.712033,"k":"p","n":"Braňany, závod"},
+  {"id":2404326444,"lat":50.542402,"lon":13.700861,"k":"p","n":"Braňany"},
+  {"id":2404326455,"lat":50.542655,"lon":13.700811,"k":"p","n":"Braňany"},
+  {"id":3071998635,"lat":50.500004,"lon":13.705406,"k":"p","n":"Patokryje"},
+  {"id":4065523796,"lat":50.502868,"lon":13.700073,"k":"p","n":"Obrnice, sídliště"},
+  {"id":4065523798,"lat":50.503023,"lon":13.700002,"k":"p","n":"Obrnice, sídliště"},
+  {"id":11009503309,"lat":50.501307,"lon":13.705691,"k":"p","n":"Patokryje"},
+  {"id":11009503310,"lat":50.501564,"lon":13.705631,"k":"p","n":"Patokryje"},
+  {"id":6003555856802,"lat":50.519833,"lon":13.745842,"k":"p","n":"Liběšice,kaplička","g":1},
+  {"id":6012419649355,"lat":50.508928,"lon":13.700119,"k":"p","n":"Obrnice,štěrkovna","g":1},
+  {"id":6048633122055,"lat":50.524791,"lon":13.733994,"k":"p","n":"Želenice,štěrkovna","g":1},
+  {"id":6065864863389,"lat":50.500619,"lon":13.741808,"k":"p","n":"Svinčice,otočka","g":1},
+  {"id":6084185916886,"lat":50.527534,"lon":13.726197,"k":"p","n":"Želenice","g":1}
+],
+"routes":[
+  {"id":6060009,"t":{"ref":"10","name":"Bus 10: Skršín, Dobrčice => Nádraží","from":"Skršín, Dobrčice","to":"Most, nádraží","network":"MHD Most a Litvínov","operator":"Dopravní podnik měst Mostu a Litvínova","route":"bus","public_transport:version":"2"},"n":19,"s":[[4065523798,8]]},
+  {"id":3009868941663,"t":{"ref":"525","name":"525: Litvínov,nádraží - Braňany,závod","from":"Litvínov,nádraží","to":"Braňany,závod","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":11,"s":[[2404326455,10],[2403952249,11]]},
+  {"id":3026001930519,"t":{"ref":"525","name":"525: Braňany,závod - Litvínov,nádraží","from":"Braňany,závod","to":"Litvínov,nádraží","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":11,"s":[[2403952249,1],[2404326455,2]]},
+  {"id":3026284648049,"t":{"ref":"545","name":"545: Bečov - Volevčice","from":"Bečov","to":"Volevčice","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[6065864863389,3],[11009503309,4],[6012419649355,5]]},
+  {"id":3044738225271,"t":{"ref":"545","name":"545: Volevčice - Bečov","from":"Volevčice","to":"Bečov","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[6012419649355,16],[11009503309,17],[6065864863389,18]]},
+  {"id":3044743872980,"t":{"ref":"544","name":"544: Braňany,závod - Most,Rudolická MUS a.s.","from":"Braňany,závod","to":"Most,Rudolická MUS a.s.","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[2403952249,1],[2404326455,2],[6084185916886,3],[6048633122055,4],[6003555856802,5]]},
+  {"id":3055704209593,"t":{"ref":"544","name":"544: Strupčice - Braňany,závod","from":"Strupčice","to":"Braňany,závod","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[6003555856802,16],[6048633122055,17],[6084185916886,18],[2404326455,19],[2403952249,20]]},
+  {"id":3068184603259,"t":{"ref":"544","name":"544: Braňany,závod - Strupčice","from":"Braňany,závod","to":"Strupčice","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[2403952249,1],[2404326455,2],[6084185916886,3],[6048633122055,4],[6003555856802,5]]},
+  {"id":3089861473410,"t":{"ref":"544","name":"544: Most,Rudolická MUS a.s. - Braňany,závod","from":"Most,Rudolická MUS a.s.","to":"Braňany,závod","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[6003555856802,3],[6048633122055,4],[6084185916886,5],[2404326455,6],[2403952249,7]]}
+]
+}

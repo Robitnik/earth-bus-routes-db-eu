@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2813,3886],
+"stops":[
+  {"id":3809023277,"lat":50.661166,"lon":14.302064,"k":"x","n":"Verneřice"},
+  {"id":3809023278,"lat":50.661247,"lon":14.301828,"k":"p","n":"Verneřice"},
+  {"id":3809023279,"lat":50.661119,"lon":14.302336,"k":"p","n":"Verneřice"},
+  {"id":6002766561671,"lat":50.68152,"lon":14.310688,"k":"p","n":"Verneřice,rozc.","g":1},
+  {"id":6034267056803,"lat":50.692346,"lon":14.315158,"k":"p","n":"Valkeřice,u Sedláčků","g":1},
+  {"id":6066138896857,"lat":50.697361,"lon":14.318658,"k":"p","n":"Valkeřice,u kostela","g":1}
+],
+"routes":[
+  {"id":5625483,"t":{"ref":"452","name":"Bus 452: Verneřice => Grenzübergang Bahratal","network":"Doprava Ústeckého kraje","operator":"BusLine, a.s.","route":"bus","public_transport:version":"2"},"n":47,"s":[[3809023278,1]]},
+  {"id":17589022,"t":{"ref":"623","name":"Bus 623: Bohušovice nad Ohří, žel. st. => Verneřice","from":"Bohušovice nad Ohří","to":"Verneřice","network":"Doprava Ústeckého kraje","operator":"DSÚK, p. o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[3809023279,25]]},
+  {"id":17589023,"t":{"ref":"623","name":"Bus 623:Verneřice => Bohušovice nad Ohří, žel. st.","from":"Verneřice","to":"Bohušovice nad Ohří","network":"Doprava Ústeckého kraje","operator":"DSÚK, p.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[3809023278,1]]},
+  {"id":3000039519908,"t":{"ref":"437","name":"437: Verneřice - Děčín,hl.nádr.","from":"Verneřice","to":"Děčín,hl.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":28,"s":[[3809023277,1],[6002766561671,2],[6034267056803,3],[6066138896857,4]]},
+  {"id":3002182076031,"t":{"ref":"452","name":"Bus 452: Bahratal, Grenzübergang => Verneřice","network":"Doprava Ústeckého kraje","operator":"BusLine, a.s.","route":"bus","public_transport:version":"2"},"n":49,"s":[[3809023277,1]]},
+  {"id":3073788648593,"t":{"ref":"437","name":"437: Děčín,hl.nádr. - Verneřice","from":"Děčín,hl.nádr.","to":"Verneřice","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":28,"s":[[6066138896857,25],[6034267056803,26],[6002766561671,27],[3809023277,28]]},
+  {"id":3085126978554,"t":{"ref":"452","name":"Bus 452: Bahratal, Grenzübergang => Verneřice","network":"Doprava Ústeckého kraje","operator":"BusLine, a.s.","route":"bus","public_transport:version":"2"},"n":48,"s":[[3809023277,1]]}
+]
+}

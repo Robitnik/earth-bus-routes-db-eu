@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2781,3930],
+"stops":[
+  {"id":2399865018,"lat":49.080336,"lon":16.548156,"k":"p","n":"Syrovice"},
+  {"id":2399865510,"lat":49.077778,"lon":16.545166,"k":"p","n":"Syrovice, Sobotovická"},
+  {"id":2399866608,"lat":49.080275,"lon":16.548915,"k":"p","n":"Syrovice"},
+  {"id":10833819505,"lat":49.077534,"lon":16.545232,"k":"p","n":"Syrovice, Sobotovická"},
+  {"id":11074907505,"lat":49.075812,"lon":16.541847,"k":"p","n":"Syrovice, Chocholáč"},
+  {"id":11074907506,"lat":49.075563,"lon":16.541442,"k":"p","n":"Syrovice, Chocholáč"},
+  {"id":11074978506,"lat":49.065552,"lon":16.522922,"k":"p","n":"Bratčice"},
+  {"id":11074981506,"lat":49.065448,"lon":16.522649,"k":"p","n":"Bratčice"},
+  {"id":12173646497,"lat":49.050289,"lon":16.500418,"k":"p","n":"Němčičky"},
+  {"id":12173646498,"lat":49.050463,"lon":16.500585,"k":"p","n":"Němčičky"},
+  {"id":12173646499,"lat":49.050645,"lon":16.501759,"k":"p","n":"Němčičky"},
+  {"id":12173646500,"lat":49.05078,"lon":16.501554,"k":"p","n":"Němčičky"},
+  {"id":12173686704,"lat":49.05968,"lon":16.517474,"k":"p","n":"Bratčice, pískovna"},
+  {"id":12173686705,"lat":49.059691,"lon":16.517671,"k":"p","n":"Bratčice, pískovna"},
+  {"id":12173686712,"lat":49.078899,"lon":16.54677,"k":"p","n":"Syrovice, mateřská škola"}
+],
+"routes":[
+  {"id":16184466,"t":{"ref":"504","name":"Bus 504: Brno -> Pohořelice","from":"Brno, Ústřední hřbitov","to":"Pohořelice, nám.","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, ČSAD Hodonín, ADOSA, ZDS Psota, BDS-BUS","route":"bus","public_transport:version":"2"},"n":18,"s":[[2399865510,11],[2399866608,12]]},
+  {"id":18152145,"t":{"ref":"511","name":"Bus 511: Syrovice -> Modřice, žel.st.","from":"Syrovice","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, ČSAD Brno","route":"bus","public_transport:version":"2"},"n":8,"s":[[2399866608,1]]},
+  {"id":18152174,"t":{"ref":"512","name":"Bus 512: Malešovice -> Modřice","from":"Malešovice, ObÚ","to":"Modřice, žel.st.","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":15,"s":[[11074978506,9],[11074907506,10],[2399866608,11]]},
+  {"id":18275297,"t":{"ref":"154","name":"Bus 154: Židlochovice -> Syrovice","from":"Židlochovice, žel.st.","to":"Syrovice. MŠ","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":12,"s":[[2399865510,11],[12173686712,12]]},
+  {"id":3026835493944,"t":{"ref":"513","name":"Bus 513: Jezeřany-Maršovice -> Modřice","from":"Jezeřany-Maršovice, točna","to":"Modřice, žel.st.","network":"Integrovaný dopravní systém Jihomoravského kraje","route":"bus","public_transport:version":"2"},"n":16,"s":[[12173646500,7],[12173686705,8],[11074978506,9],[11074907506,10],[2399866608,11]]},
+  {"id":3027155741392,"t":{"ref":"512","name":"Bus 512: Modřice -> Malešovice","from":"Modřice, žel.st.","to":"Malešovice, ObÚ","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":11,"s":[[2399866608,6],[11074907506,7],[11074978506,8]]},
+  {"id":3039152135801,"t":{"ref":"513","name":"Bus 513: Modřice -> Jezeřany-Maršovice","from":"Modřice, žel.st.","to":"Jezeřany-Maršovice, točna","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:Adosa","route":"bus","public_transport:version":"2"},"n":18,"s":[[2399866608,6],[11074907506,7],[11074978506,8],[12173686705,9],[12173646500,10,12]]},
+  {"id":3047636765857,"t":{"ref":"504","name":"504: Pohořelice,nám. - Brno,Ústřední hřbitov","from":"Pohořelice,nám.","to":"Brno,Ústřední hřbitov","operator":"Znojemská dopravní společnost - PSOTA, s.r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[2399866608,12]]},
+  {"id":3048850326021,"t":{"ref":"512","name":"Bus 512: Modřice -> Malešovice","from":"Modřice, žel.st.","to":"Malešovice, ObÚ","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":11,"s":[[11074978506,4],[11074907506,5],[2399866608,6]]},
+  {"id":3052602506569,"t":{"ref":"154","name":"Bus 154: Židlochovice -> Ivančice","from":"Židlochovice, žel.st.","to":"Ivančice, Oslavanská","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":27,"s":[[10833819505,10],[11074907506,11],[11074978506,12],[12173686705,13],[12173646500,14]]},
+  {"id":3053955994087,"t":{"ref":"513","name":"Bus 513: Jezeřany-Maršovice -> Modřice","from":"Jezeřany-Maršovice, točna","to":"Modřice, žel.st.","network":"Integrovaný dopravní systém Jihomoravského kraje","route":"bus","public_transport:version":"2"},"n":18,"s":[[12173646500,7,9],[12173686705,10],[11074978506,11],[11074907506,12],[2399866608,13]]},
+  {"id":3058770426275,"t":{"ref":"513","name":"Bus 513: Modřice -> Jezeřany-Maršovice","from":"Modřice, žel.st.","to":"Jezeřany-Maršovice, točna","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:Adosa","route":"bus","public_transport:version":"2"},"n":16,"s":[[2399866608,6],[11074907506,7],[11074978506,8],[12173686705,9],[12173646500,10]]},
+  {"id":3060070163464,"t":{"ref":"512","name":"Bus 512: Modřice -> Malešovice","from":"Modřice, žel.st.","to":"Malešovice, ObÚ","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":16,"s":[[2399866608,6],[11074907506,7],[11074978506,8]]},
+  {"id":3065878723886,"t":{"ref":"504","name":"Bus 504: Pohořelice -> Brno","from":"Pohořelice, nám.","to":"Brno, Ústřední hřbitov","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, ČSAD Hodonín, ADOSA, ZDS Psota, BDS-BUS","route":"bus","public_transport:version":"2"},"n":18,"s":[[2399866608,7]]},
+  {"id":3072222342626,"t":{"ref":"504","name":"504: Brno,Ústřední hřbitov - Pohořelice,nám.","from":"Brno,Ústřední hřbitov","to":"Pohořelice,nám.","operator":"Znojemská dopravní společnost - PSOTA, s.r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[2399866608,10]]},
+  {"id":3080686106059,"t":{"ref":"504","name":"Bus 504: Pohořelice -> Brno","from":"Pohořelice, nám.","to":"Brno, Ústřední hřbitov","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, ČSAD Hodonín, ADOSA, ZDS Psota, BDS-BUS","route":"bus","public_transport:version":"2"},"n":17,"s":[[2399866608,12]]},
+  {"id":3096289784939,"t":{"ref":"512","name":"Bus 512: Modřice -> Malešovice","from":"Modřice, žel.st.","to":"Malešovice, ObÚ","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":16,"s":[[11074978506,9],[11074907506,10],[2399866608,11]]},
+  {"id":3096416175689,"t":{"ref":"154","name":"Bus 154: Židlochovice -> Ivančice","from":"Židlochovice, žel.st.","to":"Ivančice, Oslavanská","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, BDS-BUS","route":"bus","public_transport:version":"2"},"n":29,"s":[[12173646500,14],[12173686705,15],[11074978506,16],[11074907506,17],[10833819505,18],[12173686712,19]]}
+]
+}

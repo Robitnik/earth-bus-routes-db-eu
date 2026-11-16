@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2780,3938],
+"stops":[
+  {"id":7552606839,"lat":49.039995,"lon":16.917289,"k":"p","n":"Dambořice"},
+  {"id":7552606841,"lat":49.036304,"lon":16.917722,"k":"p","n":"Dambořice, u pomníku"},
+  {"id":7552606842,"lat":49.036407,"lon":16.917731,"k":"p","n":"Dambořice, u pomníku"},
+  {"id":9023197473,"lat":49.028424,"lon":16.936176,"k":"p","n":"Dambořice, Šerůčky"},
+  {"id":9023197474,"lat":49.028594,"lon":16.936114,"k":"p","n":"Dambořice, Šerůčky"},
+  {"id":12033316087,"lat":49.047582,"lon":16.949221,"k":"p","n":"Uhřice, dolní zastávka"},
+  {"id":12033316088,"lat":49.047994,"lon":16.949067,"k":"p","n":"Uhřice, dolní zastávka"},
+  {"id":6001274625832,"lat":49.034669,"lon":16.924376,"k":"p","n":"Dambořice,Loučka","g":1}
+],
+"routes":[
+  {"id":16163534,"t":{"ref":"660","name":"Bus 660","from":"Kyjov","to":"Damořice","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"ČSAD Kyjov, ČSAD UO","route":"bus"},"n":10,"s":[[12033316088,9],[12033316087,10]]},
+  {"id":3040931387745,"t":{"ref":"660","name":"660: Kyjov,aut.st. - Dambořice","from":"Kyjov,aut.st.","to":"Dambořice","operator":"ČSAD Kyjov Bus a.s.","route":"bus","public_transport:version":"2"},"n":18,"s":[[12033316088,13],[9023197473,15],[6001274625832,16],[7552606842,17],[7552606839,18]]},
+  {"id":3053796047574,"t":{"ref":"660","name":"660: Dambořice - Kyjov,aut.st.","from":"Dambořice","to":"Kyjov,aut.st.","operator":"ČSAD Kyjov Bus a.s.","route":"bus","public_transport:version":"2"},"n":17,"s":[[7552606839,1],[7552606842,2],[6001274625832,3],[9023197473,4],[12033316088,6]]},
+  {"id":3081042575387,"t":{"ref":"610","name":"610: Dambořice - Sokolnice,žel.st.","from":"Dambořice","to":"Sokolnice,žel.st.","operator":"ČSAD Ústí nad Orlicí, a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[7552606839,1],[7552606842,2]]},
+  {"id":3097160749328,"t":{"ref":"610","name":"610: Sokolnice,žel.st. - Dambořice","from":"Sokolnice,žel.st.","to":"Dambořice","operator":"ČSAD Ústí nad Orlicí, a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[7552606842,14],[7552606839,15]]}
+]
+}

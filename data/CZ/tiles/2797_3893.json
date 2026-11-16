@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2797,3893],
+"stops":[
+  {"id":791423851,"lat":49.876974,"lon":14.678119,"k":"p","n":"Pyšely, náměstí"},
+  {"id":2193906536,"lat":49.858378,"lon":14.660299,"k":"p","n":"Nespeky","ref":"A"},
+  {"id":2193906537,"lat":49.85857,"lon":14.66049,"k":"p","n":"Nespeky","ref":"B"},
+  {"id":7199862082,"lat":49.89517,"lon":14.68212,"k":"p","n":"Pyšely, Zaječice"},
+  {"id":7199862083,"lat":49.89514,"lon":14.68202,"k":"p","n":"Pyšely, Zaječice"},
+  {"id":7199877686,"lat":49.881004,"lon":14.686125,"k":"p","n":"Pyšely, Nová Ves"},
+  {"id":7199877687,"lat":49.881122,"lon":14.686125,"k":"p","n":"Pyšely, Nová Ves"},
+  {"id":7199877688,"lat":49.877067,"lon":14.677803,"k":"p","n":"Pyšely, náměstí"},
+  {"id":7199877689,"lat":49.875031,"lon":14.678471,"k":"p","n":"Pyšely, Sokolovna"},
+  {"id":7199877690,"lat":49.87493,"lon":14.67853,"k":"p","n":"Pyšely, Sokolovna"},
+  {"id":7199877691,"lat":49.866787,"lon":14.660355,"k":"p","n":"Pyšely, Hotel Doly"},
+  {"id":7199877692,"lat":49.867807,"lon":14.660989,"k":"p","n":"Pyšely, Hotel Doly"},
+  {"id":7199877693,"lat":49.865442,"lon":14.656871,"k":"p","n":"Nespeky, rozcestí Pyšely"},
+  {"id":7199877694,"lat":49.865361,"lon":14.656681,"k":"p","n":"Nespeky, rozcestí Pyšely"},
+  {"id":7375166432,"lat":49.851409,"lon":14.675455,"k":"p","n":"Nespeky, Městečko"},
+  {"id":7375166433,"lat":49.851238,"lon":14.675252,"k":"p","n":"Nespeky, Městečko"},
+  {"id":8968610949,"lat":49.85844,"lon":14.69936,"k":"p","n":"Čerčany, Vysoká Lhota"},
+  {"id":8968610950,"lat":49.85849,"lon":14.69954,"k":"p","n":"Čerčany, Vysoká Lhota"},
+  {"id":9656270354,"lat":49.872662,"lon":14.694796,"k":"p","n":"Pyšely, u vily"},
+  {"id":9656270355,"lat":49.872757,"lon":14.694269,"k":"p","n":"Pyšely, u vily"},
+  {"id":6020555905189,"lat":49.867433,"lon":14.660706,"k":"p","n":"Pyšely,hotel Doly","g":1}
+],
+"routes":[
+  {"id":3002885292298,"t":{"ref":"651","name":"Bus 651: Senohraby,žel.st. -> Nespeky","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":4,"s":[[2193906537,1],[6020555905189,2],[7199877689,3],[7199877688,4]]},
+  {"id":3010017180859,"t":{"ref":"651","name":"Bus 651: Nespeky -> Senohraby,žel.st.","from":"Nespeky","to":"Senohraby, železniční stanice","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":7,"s":[[7199877686,6],[7199877688,7]]},
+  {"id":3011821113491,"t":{"ref":"337","name":"337: Benešov,Terminál ⇒ Praha, Budějovická","from":"Benešov,Terminál","to":"Praha, Budějovická","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[2193906537,1],[7375166433,2]]},
+  {"id":3024204948726,"t":{"ref":"651","name":"Bus 651: Senohraby,žel.st. -> Nespeky","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":9,"s":[[2193906537,1],[6020555905189,2],[7199877689,3],[7199877688,4],[7199862082,5]]},
+  {"id":3024428601314,"t":{"ref":"337","name":"337: Benešov,Terminál ⇒ Praha, Budějovická","from":"Benešov,Terminál","to":"Praha, Budějovická","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[7375166433,6],[2193906537,7]]},
+  {"id":3051564052349,"t":{"ref":"651","name":"Bus 651: Senohraby,žel.st. -> Nespeky","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":4,"s":[[7199877688,1],[7199877689,2],[6020555905189,3],[2193906537,4]]},
+  {"id":3076166270087,"t":{"ref":"651","name":"Bus 651: Senohraby,žel.st. -> Nespeky","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[7199862082,6],[7199877688,7],[7199877689,8],[6020555905189,9],[2193906537,10]]},
+  {"id":3079182771496,"t":{"ref":"651","name":"Bus 651: Senohraby,žel.st. -> Nespeky","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":9,"s":[[7199862082,5],[7199877688,6],[7199877689,7],[6020555905189,8],[2193906537,9]]},
+  {"id":3079852098169,"t":{"ref":"796","name":"796: Pyšely,nám. - Benešov,Terminál","from":"Pyšely,nám.","to":"Benešov,Terminál","operator":"ČSAD Benešov s.r.o.","route":"bus","public_transport:version":"2"},"n":24,"s":[[7199877688,1],[7199877689,2],[9656270354,3],[8968610950,4]]},
+  {"id":3080766859615,"t":{"ref":"337","name":"337: Praha, Budějovická ⇒ Benešov,Terminál","from":"Praha, Budějovická","to":"Benešov,Terminál","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":38,"s":[[7375166433,6],[2193906537,7],[7199877694,8]]},
+  {"id":3083401141136,"t":{"ref":"651","name":"Bus 651: Nespeky -> Senohraby,žel.st.","from":"Nespeky","to":"Senohraby, železniční stanice","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[7199877688,1],[7199862082,2]]},
+  {"id":3086195673133,"t":{"ref":"796","name":"796: Benešov,Terminál - Pyšely,nám.","from":"Benešov,Terminál","to":"Pyšely,nám.","operator":"ČSAD Benešov s.r.o.","route":"bus","public_transport:version":"2"},"n":24,"s":[[8968610950,21],[9656270354,22],[7199877689,23],[7199877688,24]]},
+  {"id":3091625765876,"t":{"ref":"337","name":"337: Praha, Budějovická ⇒ Benešov,Terminál","from":"Praha, Budějovická","to":"Benešov,Terminál","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":34,"s":[[7199877694,27],[2193906537,28],[7375166433,29]]}
+]
+}

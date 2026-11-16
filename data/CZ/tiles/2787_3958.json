@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2787,3958],
+"stops":[
+  {"id":3387527923,"lat":49.379935,"lon":17.947986,"k":"p","n":"Jablůnka, horní zastávka"},
+  {"id":3387527924,"lat":49.381016,"lon":17.94868,"k":"p","n":"Jablůnka, horní zastávka"},
+  {"id":3387527925,"lat":49.387947,"lon":17.949495,"k":"p","n":"Jablůnka, rest. Na papírně"},
+  {"id":3387527927,"lat":49.373006,"lon":17.944771,"k":"p","n":"Jablůnka, rozc. Ratiboř"},
+  {"id":3387527928,"lat":49.372019,"lon":17.945679,"k":"p","n":"Jablůnka,,rozc.Ratiboř"},
+  {"id":7178846311,"lat":49.371832,"lon":17.945576,"k":"p","n":"Jablůnka,,rozc.Ratiboř"},
+  {"id":8636202082,"lat":49.373179,"lon":17.944615,"k":"p","n":"Jablůnka, rozc. Ratiboř"},
+  {"id":8763755828,"lat":49.369045,"lon":17.92491,"k":"p","n":"Ratiboř, STS"},
+  {"id":8763755838,"lat":49.367539,"lon":17.915689,"k":"p","n":"Ratiboř, kino"},
+  {"id":8763755839,"lat":49.367403,"lon":17.916201,"k":"p","n":"Ratiboř, kino"},
+  {"id":9366666748,"lat":49.387776,"lon":17.949344,"k":"p","n":"Jablůnka, rest. Na papírně"},
+  {"id":9449595990,"lat":49.367997,"lon":17.915049,"k":"p","n":"Ratiboř, kino"},
+  {"id":9449595998,"lat":49.369285,"lon":17.92553,"k":"p","n":"Ratiboř, STS"},
+  {"id":11036988620,"lat":49.373036,"lon":17.909969,"k":"p","n":"Kateřinice, Na hranici"},
+  {"id":11036988621,"lat":49.372859,"lon":17.910053,"k":"p","n":"Kateřinice, Na hranici"},
+  {"id":12237438155,"lat":49.365691,"lon":17.901192,"k":"p","n":"Ratiboř, hor.zast."},
+  {"id":12237438156,"lat":49.365881,"lon":17.901694,"k":"p","n":"Ratiboř, hor.zast."},
+  {"id":6001003812634,"lat":49.372508,"lon":17.945153,"k":"p","n":"Jablůnka,rozc.Ratiboř","g":1},
+  {"id":6099600891005,"lat":49.380473,"lon":17.948331,"k":"p","n":"Jablůnka,hor.zast.","g":1}
+],
+"routes":[
+  {"id":3019522240897,"t":{"ref":"140","name":"Vsetín - Hošťálková - Zlín","network":"Integrovaná doprava Zlínského kraje","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":8,"s":[[8763755838,1],[9449595998,2],[6001003812634,3]]},
+  {"id":3023342356375,"t":{"ref":"140","name":"Vsetín - Hošťálková - Zlín","network":"Integrovaná doprava Zlínského kraje","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[12237438156,5],[8763755838,6],[9449595998,7],[6001003812634,8]]},
+  {"id":3024826562737,"t":{"ref":"120","name":"Zlín - Vsetín - Valašské Meziříčí - Rožnov p.Radh.","from":"Zlín","to":"Rožnov pod Radhoštěm","network":"Integrovaná doprava Zlínského kraje","route":"bus","public_transport:version":"2"},"n":52,"s":[[9366666748,19],[6099600891005,20],[6001003812634,21]]},
+  {"id":3032153287545,"t":{"ref":"644","name":"644: Zděchov,hotel - Jablůnka,záv.","from":"Zděchov,hotel","to":"Jablůnka,záv.","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6001003812634,19],[6099600891005,20],[9366666748,21]]},
+  {"id":3036509378467,"t":{"ref":"620","name":"620: Rožnov p.Radh.,aut.st. - Vsetín,dopravní terminál","from":"Rožnov p.Radh.,aut.st.","to":"Vsetín,dopravní terminál","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":27,"s":[[9366666748,19],[6099600891005,20],[6001003812634,21]]},
+  {"id":3040407982895,"t":{"ref":"628","name":"628: Jablůnka,rozc.Ratiboř - Kateřinice,pod Vrtaným","from":"Jablůnka,rozc.Ratiboř","to":"Kateřinice,pod Vrtaným","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":10,"s":[[6001003812634,1],[9449595998,2],[8763755838,3],[11036988621,4]]},
+  {"id":3047143156999,"t":{"ref":"628","name":"628: Ratiboř,kino - Ratiboř,kino","from":"Ratiboř,kino","to":"Ratiboř,kino","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":11,"s":[[8763755838,1,11],[11036988621,2,10]]},
+  {"id":3058564441305,"t":{"ref":"628","name":"628: Jablůnka,rozc.Ratiboř - Kateřinice,lom","from":"Jablůnka,rozc.Ratiboř","to":"Kateřinice,lom","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":8,"s":[[6001003812634,1],[9449595998,2],[8763755838,3],[11036988621,4]]},
+  {"id":3060016731708,"t":{"ref":"140","name":"Vsetín - Hošťálková - Zlín","network":"Integrovaná doprava Zlínského kraje","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":32,"s":[[12237438156,24],[8763755838,25],[9449595998,26],[6001003812634,27]]},
+  {"id":3066994273094,"t":{"ref":"941","name":"941: Přerov,aut.nádr. - Vsetín,dopravní terminál","from":"Přerov,aut.nádr.","to":"Vsetín,dopravní terminál","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":40,"s":[[12237438156,32],[8763755838,33],[9449595998,34],[6001003812634,35]]},
+  {"id":3073950164821,"t":{"ref":"140","name":"Vsetín - Hošťálková - Zlín","network":"Integrovaná doprava Zlínského kraje","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":16,"s":[[12237438156,8],[8763755838,9],[9449595998,10],[6001003812634,11]]},
+  {"id":3075977372830,"t":{"ref":"620","name":"620: Rožnov p.Radh.,aut.st. - Vsetín,dopravní terminál","from":"Rožnov p.Radh.,aut.st.","to":"Vsetín,dopravní terminál","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":28,"s":[[9366666748,19],[6099600891005,20],[6001003812634,21]]},
+  {"id":3091206978152,"t":{"ref":"628","name":"628: Kateřinice,lom - Jablůnka,rozc.Ratiboř","from":"Kateřinice,lom","to":"Jablůnka,rozc.Ratiboř","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":8,"s":[[11036988621,5],[8763755838,6],[9449595998,7],[6001003812634,8]]},
+  {"id":3096209172025,"t":{"ref":"120","name":"Zlín - Vsetín - Valašské Meziříčí - Rožnov p.Radh.","from":"Zlín","to":"Rožnov pod Radhoštěm","network":"Integrovaná doprava Zlínského kraje","route":"bus","public_transport:version":"2"},"n":52,"s":[[6001003812634,32],[6099600891005,33],[9366666748,34]]},
+  {"id":3097654993534,"t":{"ref":"628","name":"628: Kateřinice,pod Vrtaným - Jablůnka,rozc.Ratiboř","from":"Kateřinice,pod Vrtaným","to":"Jablůnka,rozc.Ratiboř","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":10,"s":[[11036988621,7],[8763755838,8],[9449595998,9],[6001003812634,10]]}
+]
+}

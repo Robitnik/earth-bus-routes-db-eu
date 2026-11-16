@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2806,3859],
+"stops":[
+  {"id":6737220561,"lat":50.312477,"lon":12.963138,"k":"p","n":"Ostrov, nemocnice"},
+  {"id":6737220565,"lat":50.301966,"lon":12.957424,"k":"p","n":"Ostrov, nádraží"},
+  {"id":10025047688,"lat":50.331611,"lon":12.955856,"k":"p","n":"Ostrov, Horní Žďár, Škoda 42"},
+  {"id":10025047690,"lat":50.301932,"lon":12.962978,"k":"p","n":"Ostrov, Papírny"},
+  {"id":10025047691,"lat":50.302007,"lon":12.962977,"k":"p","n":"Ostrov, Papírny"},
+  {"id":10025047698,"lat":50.311154,"lon":12.956787,"k":"p","n":"Ostrov, Pekárna"},
+  {"id":10025047699,"lat":50.311746,"lon":12.957537,"k":"p","n":"Ostrov, Pekárna"},
+  {"id":10025047700,"lat":50.309287,"lon":12.954905,"k":"p","n":"Ostrov, Nápoje"},
+  {"id":10025047701,"lat":50.309031,"lon":12.955451,"k":"p","n":"Ostrov, Řezník"},
+  {"id":10025047702,"lat":50.309135,"lon":12.957296,"k":"p","n":"Ostrov, Penzion"},
+  {"id":10025047705,"lat":50.300651,"lon":12.953052,"k":"p","n":"Ostrov, Lávka"},
+  {"id":10025047706,"lat":50.300759,"lon":12.95315,"k":"p","n":"Ostrov, Lávka"},
+  {"id":12164058904,"lat":50.334643,"lon":12.958946,"k":"p","n":"Ostrov, Vykmanov"},
+  {"id":14189108831,"lat":50.328099,"lon":12.951914,"k":"p"}
+],
+"routes":[
+  {"id":14580892,"t":{"ref":"5","name":"5: Nemocnice - Hroznětín","from":"Ostrov, nemocnice","to":"Hroznětín, náměstí","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[6737220561,1],[10025047698,2],[10025047700,3]]},
+  {"id":14580893,"t":{"ref":"4","name":"4: Vykmanov - Náměstí","from":"Ostrov, Vykmanov","to":"Ostrov, náměstí","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[12164058904,1],[10025047688,2]]},
+  {"id":14580894,"t":{"ref":"4","name":"4: Náměstí - Vykmanov - Hluboký - Náměstí","from":"Ostrov, náměstí","to":"Ostrov, náměstí","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":14,"s":[[12164058904,4],[10025047688,5]]},
+  {"id":14580897,"t":{"ref":"2","name":"2: Náměstí - Nádraží","from":"Ostrov, náměstí","to":"Ostrov, nádraží","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":5,"s":[[10025047705,4],[6737220565,5]]},
+  {"id":3002609911878,"t":{"ref":"314","name":"314: Ostrov,nám. - Kyselka","from":"Ostrov,nám.","to":"Kyselka","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[10025047691,3]]},
+  {"id":3004390324336,"t":{"ref":"1","name":"1: Průmyslová zóna - Náměstí - Nemocnice","from":"Ostrov, Průmyslová zóna II","to":"Ostrov, nemocnice","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[10025047701,3],[10025047702,4],[10025047699,5],[6737220561,6]]},
+  {"id":3030104310912,"t":{"ref":"2","name":"2: Nádraží - Náměstí","from":"Ostrov, nádraží","to":"Ostrov, náměstí","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":5,"s":[[10025047706,4],[6737220565,5]]},
+  {"id":3057286919244,"t":{"ref":"1","name":"1: Nemocnice - Náměstí - Průmyslová zóna","from":"Ostrov, nemocnice","to":"Ostrov, Průmyslová zóna II","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[6737220561,1],[10025047699,2],[10025047702,3],[10025047700,4]]},
+  {"id":3058529761481,"t":{"ref":"1","name":"1: Průmyslová zóna - Náměstí - Nemocnice","from":"Ostrov, Průmyslová zóna II","to":"Ostrov, nemocnice","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":10,"s":[[10025047701,7],[10025047702,8],[10025047699,9],[6737220561,10]]},
+  {"id":3073721714825,"t":{"ref":"5","name":"5: Hroznětín - Nemocnice","from":"Hroznětín, náměstí","to":"Ostrov, nemocnice","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[10025047701,9],[10025047699,10],[6737220561,11]]},
+  {"id":3095013681909,"t":{"ref":"2","name":"2: Nádraží - Náměstí","from":"Ostrov, nádraží","to":"Ostrov, náměstí","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":5,"s":[[6737220565,1],[10025047706,2]]},
+  {"id":3096367369522,"t":{"ref":"1","name":"1: Nemocnice - Náměstí - Průmyslová zóna","from":"Ostrov, nemocnice","to":"Ostrov, Průmyslová zóna II","network":"MHD Ostrov","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":9,"s":[[6737220561,1],[10025047699,2],[10025047702,3],[10025047700,4]]},
+  {"id":3098328361938,"t":{"ref":"314","name":"314: Kyselka - Ostrov,nám.","from":"Kyselka","to":"Ostrov,nám.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[10025047691,9]]}
+]
+}

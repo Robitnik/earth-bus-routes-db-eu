@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2803,3845],
+"stops":[
+  {"id":1215381548,"lat":50.192164,"lon":12.289483,"k":"x","n":"Bärendorf, Ort"},
+  {"id":7919852369,"lat":50.161154,"lon":12.270341,"k":"p","n":"Hazlov, přejezd"},
+  {"id":7919852371,"lat":50.162265,"lon":12.270275,"k":"p","n":"Hazlov, přejezd"},
+  {"id":8715957452,"lat":50.192203,"lon":12.289456,"k":"p","n":"Bärendorf, Ort"},
+  {"id":9132751476,"lat":50.160747,"lon":12.279385,"k":"p","n":"Hazlov, železniční stanice"},
+  {"id":9132751477,"lat":50.160746,"lon":12.279165,"k":"p","n":"Hazlov, železniční stanice"},
+  {"id":9132751478,"lat":50.156869,"lon":12.275804,"k":"p","n":"Hazlov"},
+  {"id":9132751479,"lat":50.157034,"lon":12.275054,"k":"p","n":"Hazlov"},
+  {"id":9132751480,"lat":50.15673,"lon":12.275953,"k":"p","n":"Hazlov"},
+  {"id":6038083431620,"lat":50.18964,"lon":12.268326,"k":"p","n":"Hazlov,Výhledy","g":1},
+  {"id":6061985470235,"lat":50.16178,"lon":12.27035,"k":"p","n":"Hazlov,přejezd","g":1},
+  {"id":6070977197252,"lat":50.175806,"lon":12.26857,"k":"p","n":"Hazlov,Skalka","g":1},
+  {"id":6075657172721,"lat":50.170605,"lon":12.261564,"k":"p","n":"Hazlov,Lipná,rozc.","g":1}
+],
+"routes":[
+  {"id":12792139,"t":{"ref":"35","name":"Bus 35: Schönberg => Bad Brambach","from":"Schönberg, Wagenhalle","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[1215381548,2]]},
+  {"id":12792140,"t":{"ref":"35","name":"Bus 35: Bad Brambach => Schönberg","from":"Bad Brambach, Bahnhof","to":"Schönberg, Wagenhalle","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[1215381548,1]]},
+  {"id":3029038704072,"t":{"ref":"100","name":"100: Aš,sídliště - Karlovy Vary,terminál","from":"Aš,sídliště","to":"Karlovy Vary,terminál","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[6061985470235,6],[9132751478,7]]},
+  {"id":3056071810272,"t":{"ref":"100","name":"100: Karlovy Vary,terminál - Aš,sídliště","from":"Karlovy Vary,terminál","to":"Aš,sídliště","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[9132751478,9],[6061985470235,10]]},
+  {"id":3057833847349,"t":{"ref":"101","name":"101: Cheb,aut.nádr. - Hazlov,žel.st.","from":"Cheb,aut.nádr.","to":"Hazlov,žel.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[9132751478,14],[9132751477,15]]},
+  {"id":3062901501439,"t":{"ref":"103","name":"103: Cheb,aut.nádr. - Aš,Doubrava","from":"Cheb,aut.nádr.","to":"Aš,Doubrava","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":35,"s":[[9132751478,14],[6061985470235,15],[6075657172721,16],[6070977197252,17],[6038083431620,18]]},
+  {"id":3074350804859,"t":{"ref":"101","name":"101: Hazlov,žel.st. - Cheb,aut.nádr.","from":"Hazlov,žel.st.","to":"Cheb,aut.nádr.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[9132751477,1],[9132751478,2]]},
+  {"id":3089133691152,"t":{"ref":"103","name":"103: Cheb,aut.nádr. - Aš,sídliště","from":"Cheb,aut.nádr.","to":"Aš,sídliště","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":24,"s":[[9132751478,14],[6061985470235,15],[6075657172721,16]]},
+  {"id":3093369097085,"t":{"ref":"103","name":"103: Aš,Doubrava - Cheb,aut.nádr.","from":"Aš,Doubrava","to":"Cheb,aut.nádr.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":35,"s":[[6038083431620,18],[6070977197252,19],[6075657172721,20],[6061985470235,21],[9132751478,22]]}
+]
+}

@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2797,3910],
+"stops":[
+  {"id":1822211189,"lat":49.868046,"lon":15.545884,"k":"p","n":"Ronov nad Doubravou, Mladotice"},
+  {"id":5212364273,"lat":49.888707,"lon":15.530707,"k":"p","n":"Ronov nad Doubravou, náměstí"},
+  {"id":5212364274,"lat":49.888743,"lon":15.530958,"k":"p","n":"Ronov nad Doubravou, náměstí"},
+  {"id":5936844048,"lat":49.875407,"lon":15.513725,"k":"p","n":"Biskupice"},
+  {"id":14275824893,"lat":49.89458,"lon":15.549613,"k":"x","n":"Žlebské Chvalovice, Žlebská Lhotka, odb."},
+  {"id":14275874429,"lat":49.894569,"lon":15.549435,"k":"x","n":"Žlebské Chvalovice, Žlebská Lhotka, odb."},
+  {"id":14275903370,"lat":49.894621,"lon":15.549608,"k":"p","n":"Žlebské Chvalovice, Žlebská Lhotka, odb."},
+  {"id":14275903371,"lat":49.894566,"lon":15.549487,"k":"p","n":"Žlebské Chvalovice, Žlebská Lhotka, odb."},
+  {"id":6016087264106,"lat":49.893803,"lon":15.529369,"k":"p","n":"Ronov n.Doubr.,žel.st.","g":1},
+  {"id":6099661559951,"lat":49.862392,"lon":15.527302,"k":"p","n":"Kněžice","g":1}
+],
+"routes":[
+  {"id":3013465336152,"t":{"ref":"780","name":"780: Třemošnice,aut.st. - Čáslav,žel.st.","from":"Třemošnice,aut.st.","to":"Čáslav,žel.st.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[5212364274,4]]},
+  {"id":3017053117443,"t":{"ref":"713","name":"713: Chrudim,aut.st. - Ronov n.Doubr.,nám.","from":"Chrudim,aut.st.","to":"Ronov n.Doubr.,nám.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":28,"s":[[6016087264106,27],[5212364274,28]]},
+  {"id":3043549007831,"t":{"ref":"713","name":"713: Ronov n.Doubr.,nám. - Chrudim,aut.st.","from":"Ronov n.Doubr.,nám.","to":"Chrudim,aut.st.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":28,"s":[[5212364274,1],[6016087264106,2]]},
+  {"id":3059629113728,"t":{"ref":"780","name":"780: Čáslav,žel.st. - Třemošnice,aut.st.","from":"Čáslav,žel.st.","to":"Třemošnice,aut.st.","operator":"ARRIVA autobusy a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[5212364274,13]]},
+  {"id":3061903809657,"t":{"ref":"171","name":"171: Třemošnice,aut.st. - Golčův Jeníkov,nám.TGM","from":"Třemošnice,aut.st.","to":"Golčův Jeníkov,nám.TGM","operator":"ICOM transport a.s.","route":"bus","public_transport:version":"2"},"n":15,"s":[[1822211189,3],[6099661559951,4]]}
+]
+}

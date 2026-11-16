@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2805,3851],
+"stops":[
+  {"id":6778249457,"lat":50.297184,"lon":12.572868,"k":"p","n":"Rotava, Škoda"},
+  {"id":6778249458,"lat":50.296517,"lon":12.572952,"k":"p","n":"Rotava, Škoda"},
+  {"id":6778249462,"lat":50.294828,"lon":12.570653,"k":"p","n":"Rotava, aut.st."},
+  {"id":6778249463,"lat":50.290138,"lon":12.566607,"k":"p","n":"Rotava, parlament"},
+  {"id":6778249464,"lat":50.290015,"lon":12.566303,"k":"p","n":"Rotava, parlament"},
+  {"id":14076721512,"lat":50.294818,"lon":12.570534,"k":"x","n":"Rotava, aut.st."}
+],
+"routes":[
+  {"id":21195808,"t":{"ref":"480201","name":"Linkový autobus 480201: Kraslice, aut.st. => Rotava, aut.st.","from":"Kraslice, aut.st.","to":"Rotava, aut.st.","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":11,"s":[[6778249458,10],[6778249462,11]]},
+  {"id":21195809,"t":{"ref":"480201","name":"Linkový autobus 480201: Rotava, aut.st. => Kraslice, aut.st.","from":"Rotava, aut.st.","to":"Kraslice, aut.st.","network":"Integrovaná doprava Karlovarského kraje","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":12,"s":[[6778249462,1],[6778249457,2]]},
+  {"id":21289756,"t":{"ref":"480202","name":"Linkový autobus 480202: Kraslice, aut.st. => Karlovy Vary, terminál","from":"Kraslice, aut.st.","to":"Karlovy Vary, terminál","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":32,"s":[[6778249458,10],[6778249462,11],[6778249464,12]]},
+  {"id":21289757,"t":{"ref":"480202","name":"Linkový autobus 480202: Karlovy Vary, terminál => Kraslice, aut.st.","from":"Karlovy Vary, terminál","to":"Kraslice, aut.st.","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":31,"s":[[6778249463,19],[6778249462,20],[6778249457,21]]},
+  {"id":21289942,"t":{"ref":"480203","name":"Linkový autobus 480203: Kraslice, aut.st. => Přebuz","from":"Karlovy Vary, terminál","to":"Přebuz","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":18,"s":[[6778249458,10],[6778249462,11]]},
+  {"id":21289943,"t":{"ref":"480203","name":"Linkový autobus 480203: Přebuz => Kraslice, aut.st.","from":"Karlovy Vary, terminál","to":"Přebuz","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":19,"s":[[6778249462,8],[6778249457,9]]},
+  {"id":21290204,"t":{"ref":"480206","name":"Linkový autobus 480206: Kraslice, aut.st. => Sokolov, Terminál","from":"Kraslice, aut.st.","to":"Sokolov, Terminál","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":25,"s":[[6778249458,9],[6778249462,10,25]]},
+  {"id":21290205,"t":{"ref":"480206","name":"Linkový autobus 480206: Sokolov, Terminál => Kraslice, aut.st.","from":"Sokolov, Terminál","to":"Kraslice, aut.st.","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":25,"s":[[6778249462,14],[6778249457,15]]},
+  {"id":3005854580525,"t":{"ref":"201","name":"201: Kraslice,aut.st. - Rotava,aut.st.","from":"Kraslice,aut.st.","to":"Rotava,aut.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[6778249458,11],[14076721512,12]]},
+  {"id":3029109713052,"t":{"ref":"206","name":"206: Sokolov,Terminál - Kraslice,aut.st.","from":"Sokolov,Terminál","to":"Kraslice,aut.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[6778249463,9],[14076721512,10],[6778249458,11]]},
+  {"id":3032419663619,"t":{"ref":"201","name":"201: Rotava,aut.st. - Kraslice,aut.st.","from":"Rotava,aut.st.","to":"Kraslice,aut.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[14076721512,1],[6778249458,2]]},
+  {"id":3054632409970,"t":{"ref":"206","name":"206: Kraslice,aut.st. - Sokolov,Terminál","from":"Kraslice,aut.st.","to":"Sokolov,Terminál","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[6778249458,11],[14076721512,12],[6778249463,13]]},
+  {"id":3073577390390,"t":{"ref":"203","name":"203: Kraslice,aut.st. - Přebuz","from":"Kraslice,aut.st.","to":"Přebuz","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":19,"s":[[6778249458,11],[14076721512,12]]},
+  {"id":3086702951998,"t":{"ref":"203","name":"203: Přebuz - Kraslice,aut.st.","from":"Přebuz","to":"Kraslice,aut.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":19,"s":[[14076721512,8],[6778249458,9]]}
+]
+}

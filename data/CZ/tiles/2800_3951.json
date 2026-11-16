@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2800,3951],
+"stops":[
+  {"id":2848706534,"lat":50.040171,"lon":17.593958,"k":"p"},
+  {"id":8638166271,"lat":50.044799,"lon":17.556948,"k":"p","n":"Čaková, restaurace"},
+  {"id":9268905568,"lat":50.045597,"lon":17.566151,"k":"p","n":"Čaková, Jednota"},
+  {"id":6032042255811,"lat":50.044501,"lon":17.589046,"k":"p","n":"Zátor,škola","g":1},
+  {"id":6057377339135,"lat":50.043147,"lon":17.579887,"k":"p","n":"Zátor,Iktus","g":1}
+],
+"routes":[
+  {"id":3021931606685,"t":{"ref":"819","name":"819: Krnov,aut.st. - Bruntál,aut.st.","from":"Krnov,aut.st.","to":"Bruntál,aut.st.","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":24,"s":[[6032042255811,12],[6057377339135,13]]},
+  {"id":3065584658737,"t":{"ref":"819","name":"819: Bruntál,aut.st. - Krnov,aut.st.","from":"Bruntál,aut.st.","to":"Krnov,aut.st.","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":24,"s":[[6057377339135,12],[6032042255811,13]]},
+  {"id":3070801067115,"t":{"ref":"814","name":"814: Krnov,aut.st. - Čaková,konečná","from":"Krnov,aut.st.","to":"Čaková,konečná","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[6032042255811,12],[6057377339135,13],[9268905568,14],[8638166271,15]]},
+  {"id":3079645288527,"t":{"ref":"814","name":"814: Čaková,konečná - Krnov,aut.st.","from":"Čaková,konečná","to":"Krnov,aut.st.","operator":"Transdev Morava s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[8638166271,4],[9268905568,5],[6057377339135,6],[6032042255811,7]]}
+]
+}

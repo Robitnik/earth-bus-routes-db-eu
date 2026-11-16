@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2805,3845],
+"stops":[
+  {"id":6806156082,"lat":50.274703,"lon":12.252165,"k":"p","n":"Reuth, Untere Reuth"},
+  {"id":8715829956,"lat":50.274624,"lon":12.252319,"k":"x","n":"Reuth, Untere Reuth"},
+  {"id":8715829957,"lat":50.27454,"lon":12.252557,"k":"p","n":"Reuth, Untere Reuth"},
+  {"id":6049824635148,"lat":50.257171,"lon":12.292088,"k":"p","n":"Raun, Wende","g":1},
+  {"id":6069886358138,"lat":50.255075,"lon":12.288342,"k":"p","n":"Raun, Milchhaus","g":1}
+],
+"routes":[
+  {"id":12790337,"t":{"ref":"94","name":"Bus 94: Adorf => Sohl => Bad Elster","from":"Adorf, Bahnhof","to":"Bad Elster, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[6806156082,1]]},
+  {"id":12790339,"t":{"ref":"94","name":"Bus 94: Bad Elster => Sohl => Adorf","from":"Bad Elster, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[8715829957,2]]},
+  {"id":12790524,"t":{"ref":"95","name":"Bus 95: Bärenloh => Bad Elster => Sohl","from":"Bad Elster, Obere Bärenloh","to":"Sohl, Wende","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[8715829957,7]]},
+  {"id":12790526,"t":{"ref":"95","name":"Bus 95: Sohl => Bad Elster => Bärenloh","from":"Sohl, Wende","to":"Bad Elster, Obere Bärenloh","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[6806156082,1]]},
+  {"id":3006735195742,"t":{"ref":"36","name":"36: Gürth, Warte - Bad Brambach, Bahnhof","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","operator":"POB Vnetz Hauptlinien","route":"bus","public_transport:version":"2"},"n":11,"s":[[6069886358138,2],[6049824635148,3]]}
+]
+}

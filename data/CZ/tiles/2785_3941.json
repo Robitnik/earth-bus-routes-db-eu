@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2785,3941],
+"stops":[
+  {"id":3983058971,"lat":49.277858,"lon":17.06551,"k":"p","n":"Rybníček, statek"},
+  {"id":3983058972,"lat":49.277784,"lon":17.065523,"k":"p","n":"Rybníček, statek"},
+  {"id":5610211909,"lat":49.257879,"lon":17.090488,"k":"p","n":"Moravské Málkovice"},
+  {"id":5610211910,"lat":49.2577,"lon":17.090547,"k":"p","n":"Moravské Málkovice"},
+  {"id":5610889651,"lat":49.252352,"lon":17.092993,"k":"p","n":"Moravské Málkovice, u koupaliště"},
+  {"id":5610889652,"lat":49.252535,"lon":17.09293,"k":"p","n":"Moravské Málkovice, u koupaliště"},
+  {"id":6565731624,"lat":49.295055,"lon":17.095726,"k":"x","n":"Ivanovice na Hané,Fischer"},
+  {"id":8528223698,"lat":49.251949,"lon":17.057624,"k":"p","n":"Moravské Prusy, pošta"},
+  {"id":10992488517,"lat":49.295016,"lon":17.095729,"k":"p","n":"Ivanovice na Hané, Fischer"},
+  {"id":10992488518,"lat":49.295152,"lon":17.095736,"k":"p","n":"Ivanovice na Hané, Fischer"},
+  {"id":13944431309,"lat":49.278112,"lon":17.093165,"k":"p"},
+  {"id":13944431310,"lat":49.27792,"lon":17.092773,"k":"p"},
+  {"id":6013134066531,"lat":49.254884,"lon":17.058397,"k":"p","n":"Prusy-Boškůvky,Moravské Prusy,křiž.","g":1},
+  {"id":6031048575013,"lat":49.273143,"lon":17.093413,"k":"p","n":"Medlovice","g":1},
+  {"id":6038333220864,"lat":49.277927,"lon":17.092197,"k":"p","n":"Medlovice,rozc.1.0","g":1},
+  {"id":6043142353819,"lat":49.259318,"lon":17.073307,"k":"p","n":"Prusy-Boškůvky,Boškůvky","g":1},
+  {"id":6051940472252,"lat":49.285081,"lon":17.057316,"k":"p","n":"Hoštice-Heroltice,Heroltice,rozc.","g":1},
+  {"id":6061935704329,"lat":49.275866,"lon":17.072645,"k":"p","n":"Rybníček","g":1},
+  {"id":6080406242623,"lat":49.258568,"lon":17.057638,"k":"p","n":"Prusy-Boškůvky,Moravské Prusy,ZD","g":1}
+],
+"routes":[
+  {"id":16196264,"t":{"ref":"Z951","name":"Bus Z951","from":"Nezamyslice","to":"Vyškov","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"Z-Group","route":"bus","public_transport:version":"2"},"n":2,"s":[[10992488517,1]]},
+  {"id":3001548740618,"t":{"ref":"752","name":"752: Vážany - Vyškov,aut.nádr.","from":"Vážany","to":"Vyškov,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[8528223698,3],[6013134066531,4,6],[6043142353819,5],[6080406242623,7]]},
+  {"id":3012364440457,"t":{"ref":"752","name":"752: Vyškov,aut.nádr. - Vážany","from":"Vyškov,aut.nádr.","to":"Vážany","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6080406242623,8],[6013134066531,9,11],[6043142353819,10],[8528223698,12]]},
+  {"id":3033076577812,"t":{"ref":"752","name":"752: Vážany - Vyškov,aut.nádr.","from":"Vážany","to":"Vyškov,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[8528223698,3],[6013134066531,4],[6080406242623,5]]},
+  {"id":3043454023670,"t":{"ref":"754","name":"754: Orlovice - Ivanovice na Hané,aut.st.","from":"Orlovice","to":"Ivanovice na Hané,aut.st.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[5610889652,2],[5610211910,3],[6031048575013,4],[6038333220864,5],[6565731624,6]]},
+  {"id":3044640553513,"t":{"ref":"753","name":"753: Vyškov,aut.nádr. - Pačlavice","from":"Vyškov,aut.nádr.","to":"Pačlavice","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[6051940472252,7],[3983058971,8],[6061935704329,9],[6038333220864,10]]},
+  {"id":3055958883965,"t":{"ref":"753","name":"753: Pačlavice - Vyškov,aut.nádr.","from":"Pačlavice","to":"Vyškov,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[6038333220864,4],[6061935704329,5],[3983058971,6],[6051940472252,7]]},
+  {"id":3060011416384,"t":{"ref":"754","name":"754: Ivanovice na Hané,aut.st. - Orlovice","from":"Ivanovice na Hané,aut.st.","to":"Orlovice","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[6565731624,4],[6038333220864,5],[6031048575013,6],[5610211910,7],[5610889652,8]]},
+  {"id":3076220144567,"t":{"ref":"753","name":"753: Dětkovice - Vyškov,aut.nádr.","from":"Dětkovice","to":"Vyškov,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[6038333220864,3],[6061935704329,4],[3983058971,5],[6051940472252,6]]},
+  {"id":3097599037509,"t":{"ref":"753","name":"753: Vyškov,aut.nádr. - Dětkovice","from":"Vyškov,aut.nádr.","to":"Dětkovice","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[6051940472252,7],[3983058971,8],[6061935704329,9],[6038333220864,10]]}
+]
+}

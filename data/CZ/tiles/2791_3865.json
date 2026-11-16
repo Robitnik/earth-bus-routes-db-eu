@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2791,3865],
+"stops":[
+  {"id":3057064628,"lat":49.562273,"lon":13.260417,"k":"x","n":"Soběkury, Horušany"},
+  {"id":3057064629,"lat":49.562477,"lon":13.260966,"k":"x","n":"Soběkury, Horušany"},
+  {"id":3058087795,"lat":49.561093,"lon":13.292423,"k":"x","n":"Přeštice, Skočice, základní škola"},
+  {"id":3058087796,"lat":49.561126,"lon":13.292167,"k":"x","n":"Přeštice, Skočice, základní škola"},
+  {"id":3058107056,"lat":49.560574,"lon":13.298215,"k":"x","n":"Přeštice, Skočice"},
+  {"id":3058107057,"lat":49.560605,"lon":13.298075,"k":"x","n":"Přeštice, Skočice"},
+  {"id":3058107058,"lat":49.55943,"lon":13.293952,"k":"x","n":"Přeštice, Skočice, u kovárny"},
+  {"id":6040829900771,"lat":49.590906,"lon":13.257305,"k":"p","n":"Oplot,rozc.1.8","g":1},
+  {"id":6053530931701,"lat":49.579732,"lon":13.275057,"k":"p","n":"Oplot","g":1}
+],
+"routes":[
+  {"id":3015500100652,"t":{"ref":"562","name":"562: Oplot - Plzeň,Bory","from":"Oplot","to":"Plzeň,Bory","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":16,"s":[[6053530931701,1]]},
+  {"id":3023248625059,"t":{"ref":"562","name":"562: Plzeň,Bory - Oplot","from":"Plzeň,Bory","to":"Oplot","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":15,"s":[[6053530931701,15]]},
+  {"id":3033210764419,"t":{"ref":"561","name":"561: Merklín - Plzeň,Terminál Hlavní nádraží","from":"Merklín","to":"Plzeň,Terminál Hlavní nádraží","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[6040829900771,5]]},
+  {"id":3045174817981,"t":{"ref":"571","name":"571: Přeštice,nám. - Dnešice,Černotín","from":"Přeštice,nám.","to":"Dnešice,Černotín","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":8,"s":[[6053530931701,4],[6040829900771,5]]},
+  {"id":3054756008672,"t":{"ref":"571","name":"571: Dnešice,Černotín - Přeštice,nám.","from":"Dnešice,Černotín","to":"Přeštice,nám.","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[6040829900771,4],[6053530931701,5]]},
+  {"id":3054909930146,"t":{"ref":"561","name":"561: Plzeň,Terminál Hlavní nádraží - Merklín","from":"Plzeň,Terminál Hlavní nádraží","to":"Merklín","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6040829900771,19]]},
+  {"id":3075130601084,"t":{"ref":"572","name":"572: Přeštice,žel.st. - Ptenín,Újezdec","from":"Přeštice,žel.st.","to":"Ptenín,Újezdec","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[3058107056,4],[3058087796,5],[3057064629,6]]},
+  {"id":3094201893295,"t":{"ref":"572","name":"572: Ptenín,Újezdec - Přeštice,žel.st.","from":"Ptenín,Újezdec","to":"Přeštice,žel.st.","operator":"ARRIVA STŘEDNÍ ČECHY s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[3057064629,7],[3058087796,8],[3058107056,9]]}
+]
+}

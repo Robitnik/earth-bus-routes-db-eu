@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2782,3941],
+"stops":[
+  {"id":569373730,"lat":49.14913,"lon":17.079365,"k":"s","n":"Nesovice, železniční stanice"},
+  {"id":7841120235,"lat":49.149196,"lon":17.092233,"k":"p","n":"Nesovice, Kotáry"},
+  {"id":8177398081,"lat":49.148778,"lon":17.082856,"k":"p","n":"Nesovice, obecní úřad"},
+  {"id":8177398082,"lat":49.148473,"lon":17.082791,"k":"p","n":"Nesovice, obecní úřad"},
+  {"id":8990022885,"lat":49.149109,"lon":17.092674,"k":"p","n":"Nesovice, Kotáry"},
+  {"id":9387733557,"lat":49.14949,"lon":17.080215,"k":"p","n":"Nesovice, čerpací stanice"},
+  {"id":9387733558,"lat":49.149658,"lon":17.080165,"k":"p","n":"Nesovice, čerpací stanice"},
+  {"id":9407126945,"lat":49.149026,"lon":17.080039,"k":"p","n":"Nesovice, železniční stanice"}
+],
+"routes":[
+  {"id":3005283196877,"t":{"ref":"650","name":"Autobusová linka IDS-JMK č. 650","from":"Koryčany","to":"Bohdalice - Pavlovice","network":"Integrovaný dopravní systém Jihomoravského kraje","route":"bus","public_transport:version":"2"},"n":9,"s":[[9407126945,1],[8177398081,2],[7841120235,3]]},
+  {"id":3012097280530,"t":{"ref":"651","name":"651: Kožušice,točna - Nesovice,žel.st.","from":"Kožušice,točna","to":"Nesovice,žel.st.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[9407126945,7]]},
+  {"id":3043471055704,"t":{"ref":"643","name":"643: Hvězdlice,Nové Hvězdlice - Bučovice,aut.st.","from":"Hvězdlice,Nové Hvězdlice","to":"Bučovice,aut.st.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[9407126945,7],[9387733558,8]]},
+  {"id":3062182578169,"t":{"ref":"643","name":"643: Bučovice,aut.st. - Hvězdlice,Nové Hvězdlice","from":"Bučovice,aut.st.","to":"Hvězdlice,Nové Hvězdlice","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[9387733558,6],[9407126945,7]]},
+  {"id":3098693726428,"t":{"ref":"650","name":"Autobusová linka IDS-JMK č. 650","from":"Koryčany","to":"Bohdalice - Pavlovice","network":"Integrovaný dopravní systém Jihomoravského kraje","route":"bus","public_transport:version":"2"},"n":9,"s":[[7841120235,7],[8177398081,8],[9407126945,9]]}
+]
+}

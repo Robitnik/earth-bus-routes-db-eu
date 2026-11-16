@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2799,3870],
+"stops":[
+  {"id":7793374195,"lat":49.994984,"lon":13.546787,"k":"p","n":"Kožlany, u školy"},
+  {"id":7793374196,"lat":49.99478,"lon":13.545356,"k":"p","n":"Kožlany, u školy"},
+  {"id":7793374197,"lat":49.99344,"lon":13.535035,"k":"p","n":"Kožlany, u váhy"},
+  {"id":7793374198,"lat":49.993368,"lon":13.536868,"k":"p","n":"Kožlany, u váhy"},
+  {"id":7793374199,"lat":49.992733,"lon":13.5316,"k":"p","n":"Kožlany, železniční stanice"},
+  {"id":7793374200,"lat":49.991599,"lon":13.524516,"k":"p","n":"Kožlany, železniční stanice"},
+  {"id":12311580112,"lat":49.99492,"lon":13.546758,"k":"x"},
+  {"id":12311580115,"lat":49.994842,"lon":13.54534,"k":"x"},
+  {"id":12311580116,"lat":49.993376,"lon":13.535034,"k":"x"},
+  {"id":12311580117,"lat":49.993439,"lon":13.536886,"k":"x"},
+  {"id":12311580126,"lat":49.992802,"lon":13.531573,"k":"x"},
+  {"id":12311580127,"lat":49.991558,"lon":13.524515,"k":"x"},
+  {"id":6044911434248,"lat":49.993405,"lon":13.536101,"k":"p","n":"Kožlany,u váhy","g":1},
+  {"id":6079659592333,"lat":49.992101,"lon":13.527603,"k":"p","n":"Kožlany,žel.st.","g":1},
+  {"id":6098480224073,"lat":49.994872,"lon":13.545967,"k":"p","n":"Kožlany,u školy","g":1}
+],
+"routes":[
+  {"id":18248681,"t":{"ref":"570","name":"570:Čistá ⇒ Kralovice","from":"Čistá","to":"Kralovice","network":"Pražská integrovaná doprava","operator":"LEXTRANS BUS s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[7793374195,4],[7793374197,5],[7793374200,6]]},
+  {"id":18248684,"t":{"ref":"570","name":"570:Kralovice ⇒ Čistá","from":"Kralovice","to":"Čistá","network":"Pražská integrovaná doprava","operator":"LEXTRANS BUS s.r.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[7793374199,2],[7793374198,3],[7793374196,4]]},
+  {"id":18248685,"t":{"ref":"570","name":"570:Kralovice ⇒ Rakovník","from":"Kralovice","to":"Rakovník","network":"Pražská integrovaná doprava","operator":"LEXTRANS BUS s.r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[7793374199,2],[7793374198,3],[7793374196,4]]},
+  {"id":18249049,"t":{"ref":"570","name":"570:Rakovník ⇒ Kralovice","from":"Rakovnik","to":"Kralovice","network":"Pražská integrovaná doprava","operator":"LEXTRANS BUS s.r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[7793374195,18],[7793374197,19],[7793374200,20]]},
+  {"id":18249050,"t":{"ref":"570","name":"570:Rakovník ⇒ Kralovice","from":"Rakovník","to":"Kralovice","network":"Pražská integrovaná doprava","operator":"LEXTRANS BUS s.r.o.","route":"bus","public_transport:version":"2"},"n":19,"s":[[7793374195,16],[7793374197,17],[7793374200,18]]},
+  {"id":18301944,"t":{"ref":"404","name":"404: Rakovník,aut.st. - Kralovice","from":"Rakovník","to":"Kralovice","network":"Pražská integrovaná doprava","operator":"Transdev Střední Čechy s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[7793374195,15],[7793374197,16],[7793374200,17]]},
+  {"id":18301945,"t":{"ref":"404","name":"404: Rakovník,aut.st. - Kralovice - Manětín,nám. - Nečtiny","from":"Rakovník","to":"Nečtiny","network":"Pražská integrovaná doprava","operator":"Transdev Střední Čechy s.r.o.","route":"bus","public_transport:version":"2"},"n":34,"s":[[7793374195,15],[7793374197,16],[7793374200,17]]},
+  {"id":3058879487564,"t":{"ref":"404","name":"404: Nečtiny - Manětín,nám. - Kralovice - Rakovník,aut.st. - Praha,Zličín","from":"Nečtiny","to":"Praha,Zličín","network":"Pražská integrovaná doprava","operator":"Transdev Střední Čechy s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[6079659592333,2],[6044911434248,3],[6098480224073,4]]},
+  {"id":3068045740916,"t":{"ref":"404","name":"404: Praha,Zličín - Rakovník,aut.st. - Kralovice","from":"Praha,Zličín","to":"Kralovice","network":"Pražská integrovaná doprava","operator":"Transdev Střední Čechy s.r.o.","route":"bus","public_transport:version":"2"},"n":22,"s":[[6079659592333,2],[6044911434248,3],[6098480224073,4]]},
+  {"id":3085937550976,"t":{"ref":"404","name":"404: Nečtiny - Manětín,nám. - Kralovice - Rakovník,aut.st. - Praha,Zličín","from":"Nečtiny","to":"Praha,Zličín","network":"Pražská integrovaná doprava","operator":"Transdev Střední Čechy s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[6098480224073,15],[6044911434248,16],[6079659592333,17]]},
+  {"id":3096329633811,"t":{"ref":"404","name":"404: Praha,Zličín - Rakovník,aut.st. - Kralovice","from":"Praha,Zličín","to":"Kralovice","network":"Pražská integrovaná doprava","operator":"Transdev Střední Čechy s.r.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[6098480224073,20],[6044911434248,21],[6079659592333,22]]}
+]
+}

@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2797,3896],
+"stops":[
+  {"id":6634924371,"lat":49.89783,"lon":14.84594,"k":"p","n":"Stříbrná Skalice, náměstí"},
+  {"id":6634924372,"lat":49.89771,"lon":14.84599,"k":"p","n":"Stříbrná Skalice, náměstí"},
+  {"id":7362176933,"lat":49.879451,"lon":14.848407,"k":"p","n":"Chocerady, Samechov","ref":"A"},
+  {"id":7362176934,"lat":49.871991,"lon":14.802606,"k":"p","n":"Chocerady"},
+  {"id":7362176935,"lat":49.87424,"lon":14.81412,"k":"p","n":"Chocerady, Vlkovec, žel. st.","ref":"B"},
+  {"id":7362176936,"lat":49.8743,"lon":14.81434,"k":"p","n":"Chocerady, Vlkovec, žel. st.","ref":"A"},
+  {"id":7362176938,"lat":49.884841,"lon":14.826828,"k":"p","n":"Chocerady, Růženín sídliště"},
+  {"id":7362176939,"lat":49.884909,"lon":14.82681,"k":"p","n":"Chocerady, Růženín sídliště"},
+  {"id":9656232859,"lat":49.87198,"lon":14.802774,"k":"p","n":"Chocerady"},
+  {"id":9656232861,"lat":49.863167,"lon":14.821404,"k":"p","n":"Chocerady, Vestec, osada"},
+  {"id":9656232862,"lat":49.869801,"lon":14.806126,"k":"p","n":"Chocerady, železniční zastávka"},
+  {"id":9656232863,"lat":49.859413,"lon":14.824634,"k":"p","n":"Chocerady, Vestec"},
+  {"id":9656232864,"lat":49.869846,"lon":14.806089,"k":"p","n":"Chocerady, železniční zastávka"},
+  {"id":9656232870,"lat":49.859393,"lon":14.824748,"k":"p","n":"Chocerady, Vestec"},
+  {"id":9656232875,"lat":49.863232,"lon":14.821418,"k":"p","n":"Chocerady, Vestec, osada"}
+],
+"routes":[
+  {"id":19098305,"t":{"ref":"383","name":"Bus 383: Praha,Háje ⇒ Chocerady","from":"Praha,Háje","to":"Chocerady","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":35,"s":[[7362176934,35]]},
+  {"id":20233948,"t":{"ref":"465","name":"Bus 465: Chocerady - Chocerady,Samechov","from":"Chocerady","to":"Chocerady,Samechov","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":4,"s":[[7362176934,1],[7362176935,2],[7362176938,3],[7362176933,4]]},
+  {"id":20233949,"t":{"ref":"465","name":"Bus 465: Chocerady,Samechov - Chocerady","from":"Chocerady,Samechov","to":"Chocerady","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":4,"s":[[7362176933,1],[7362176938,2],[7362176935,3],[9656232859,4]]},
+  {"id":20367871,"t":{"ref":"483","name":"Bus 483: Vranovská Lhota -> Ostředek","from":"Vranovská Lhota","to":"Ostředek","network":"Pražská integrovaná doprava","operator":"ČSAD Benešov s.r.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[9656232864,5],[7362176934,6],[9656232862,7],[9656232861,8],[9656232863,9]]},
+  {"id":20700359,"t":{"ref":"490","name":"Bus 490: Stříbrná Skalice -> Strančice","from":"Stříbrná Skalice","to":"Strančice","network":"Pražská integrovaná doprava","operator":"ČSAD POLKOST, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[6634924371,1]]},
+  {"id":3004511338006,"t":{"ref":"382","name":"Bus 382: Praha,Háje ⇒ Sázava,aut.st.","from":"Praha,Háje","to":"Sázava,aut.st.","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":9,"s":[[6634924372,1]]},
+  {"id":3014175192731,"t":{"ref":"382","name":"Bus 382: Sázava,aut.st. ⇒ Praha,Háje","from":"Sázava,aut.st.","to":"Praha,Háje","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":37,"s":[[6634924372,9]]},
+  {"id":3016564806933,"t":{"ref":"483","name":"Bus 483: Ostředek -> Vranovská Lhota","from":"Ostředek","to":"Vranovská Lhota","network":"Pražská integrovaná doprava","operator":"ČSAD Benešov s.r.o.","route":"bus","public_transport:version":"2"},"n":6,"s":[[7362176934,1],[9656232862,2],[9656232861,3],[9656232870,4]]},
+  {"id":3039086805670,"t":{"ref":"483","name":"Bus 483: Ostředek -> Vranovská Lhota","from":"Ostředek","to":"Vranovská Lhota","network":"Pražská integrovaná doprava","operator":"ČSAD Benešov s.r.o.","route":"bus","public_transport:version":"2"},"n":6,"s":[[9656232870,3],[9656232861,4],[9656232862,5],[7362176934,6]]},
+  {"id":3042437889462,"t":{"ref":"383","name":"Bus 383: Chocerady ⇒ Praha,Háje","from":"Chocerady","to":"Praha,Háje","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":36,"s":[[7362176934,36]]},
+  {"id":3045677959652,"t":{"ref":"383","name":"Bus 383: Chocerady ⇒ Praha,Háje","from":"Chocerady","to":"Praha,Háje","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":3,"s":[[7362176934,3]]},
+  {"id":3049914586860,"t":{"ref":"659","name":"659: Český Brod,žel.st. - Stříbrná Skalice,náměstí","from":"Český Brod,žel.st.","to":"Stříbrná Skalice,náměstí","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":35,"s":[[6634924372,35]]},
+  {"id":3065347614063,"t":{"ref":"490","name":"Bus 490: Strančice -> Stříbrná Skalice","from":"Strančice","to":"Stříbrná Skalice","network":"Pražská integrovaná doprava","operator":"ČSAD POLKOST, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[6634924372,1]]},
+  {"id":3068169759523,"t":{"ref":"659","name":"659: Stříbrná Skalice,náměstí - Český Brod,žel.st.","from":"Stříbrná Skalice,náměstí","to":"Český Brod,žel.st.","operator":"ARRIVA CITY a.s.","route":"bus","public_transport:version":"2"},"n":31,"s":[[6634924372,1]]},
+  {"id":3075738062723,"t":{"ref":"382","name":"Bus 382: Sázava,aut.st. ⇒ Praha,Háje","from":"Sázava,aut.st.","to":"Praha,Háje","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":37,"s":[[6634924372,29]]},
+  {"id":3075884097237,"t":{"ref":"490","name":"Bus 490: Strančice -> Stříbrná Skalice","from":"Strančice","to":"Stříbrná Skalice","network":"Pražská integrovaná doprava","operator":"ČSAD POLKOST, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[6634924372,21]]},
+  {"id":3096207167748,"t":{"ref":"383","name":"Bus 383: Chocerady ⇒ Praha,Háje","from":"Chocerady","to":"Praha,Háje","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":3,"s":[[7362176934,1]]},
+  {"id":3099985924067,"t":{"ref":"383","name":"Bus 383: Chocerady ⇒ Praha,Háje","from":"Chocerady","to":"Praha,Háje","network":"Pražská integrovaná doprava","operator":"ARRIVA CITY s.r.o.","route":"bus","public_transport:version":"2"},"n":36,"s":[[7362176934,1]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2788,3929],
+"stops":[
+  {"id":2619463471,"lat":49.447546,"lon":16.476256,"k":"p","n":"Kunčina Ves"},
+  {"id":2928095552,"lat":49.415583,"lon":16.454416,"k":"p","n":"Rašov, hostinec"},
+  {"id":2928095553,"lat":49.415629,"lon":16.45411,"k":"p","n":"Rašov, hostinec"},
+  {"id":3890890295,"lat":49.44339,"lon":16.458252,"k":"p","n":"Kozárov"},
+  {"id":6059527388573,"lat":49.407422,"lon":16.488207,"k":"p","n":"Bukovice","g":1},
+  {"id":6071737804991,"lat":49.415077,"lon":16.48026,"k":"p","n":"Zhoř","g":1},
+  {"id":6079761192478,"lat":49.414123,"lon":16.492185,"k":"p","n":"Bukovice,rozc.1.0","g":1}
+],
+"routes":[
+  {"id":3017304222344,"t":{"ref":"257","name":"257: Kozárov - Boskovice,17.listopadu","from":"Kozárov","to":"Boskovice,17.listopadu","operator":"ČSAD Tišnov, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":19,"s":[[3890890295,1],[2619463471,3]]},
+  {"id":3019073310711,"t":{"ref":"332","name":"332: Rašov,hostinec - Tišnov,žel.st.","from":"Rašov,hostinec","to":"Tišnov,žel.st.","operator":"ČSAD Tišnov, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[2928095552,1],[6071737804991,2],[6079761192478,3],[6059527388573,4]]},
+  {"id":3038850909977,"t":{"ref":"332","name":"332: Tišnov,žel.st. - Rašov,hostinec","from":"Tišnov,žel.st.","to":"Rašov,hostinec","operator":"ČSAD Tišnov, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":17,"s":[[6059527388573,14],[6079761192478,15],[6071737804991,16],[2928095552,17]]},
+  {"id":3041376251460,"t":{"ref":"235","name":"235: Lomnice,nám. - Blansko,aut.st.","from":"Lomnice,nám.","to":"Blansko,aut.st.","operator":"ČSAD Ústí nad Orlicí, a.s.","route":"bus","public_transport:version":"2"},"n":27,"s":[[2928095552,5],[6071737804991,6],[6079761192478,7]]},
+  {"id":3071637552138,"t":{"ref":"235","name":"235: Blansko,aut.st. - Lomnice,nám.","from":"Blansko,aut.st.","to":"Lomnice,nám.","operator":"ČSAD Ústí nad Orlicí, a.s.","route":"bus","public_transport:version":"2"},"n":25,"s":[[6079761192478,19],[6071737804991,20],[2928095552,21]]},
+  {"id":3075800479431,"t":{"ref":"257","name":"257: Boskovice,17.listopadu - Kozárov","from":"Boskovice,17.listopadu","to":"Kozárov","operator":"ČSAD Tišnov, spol. s r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[2619463471,16],[3890890295,18]]},
+  {"id":3086616141648,"t":{"ref":"235","name":"235: Blansko,aut.st. - Lomnice,nám.","from":"Blansko,aut.st.","to":"Lomnice,nám.","operator":"ČSAD Ústí nad Orlicí, a.s.","route":"bus","public_transport:version":"2"},"n":27,"s":[[6079761192478,21],[6071737804991,22],[2928095552,23]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2805,3854],
+"stops":[
+  {"id":9288234694,"lat":50.252688,"lon":12.724249,"k":"p","n":"Chodov, Stará Chodovská"},
+  {"id":9288234695,"lat":50.252913,"lon":12.723881,"k":"p","n":"Chodov, Stará Chodovská"},
+  {"id":9288234696,"lat":50.252246,"lon":12.72386,"k":"p","n":"Chodov, Stará Chodovská"},
+  {"id":11491593550,"lat":50.260975,"lon":12.706216,"k":"p","n":"Vřesová, rozcestí"},
+  {"id":11491593551,"lat":50.261715,"lon":12.704535,"k":"p","n":"Vřesová, rozcestí"},
+  {"id":11491593552,"lat":50.260958,"lon":12.704107,"k":"p","n":"Vřesová, rozcestí"},
+  {"id":6017413959143,"lat":50.291228,"lon":12.710971,"k":"p","n":"Černava","g":1},
+  {"id":6027658013433,"lat":50.294625,"lon":12.717876,"k":"p","n":"Černava,Rájec,rozc.","g":1},
+  {"id":6035373667363,"lat":50.261216,"lon":12.704953,"k":"p","n":"Vřesová,rozc.","g":1}
+],
+"routes":[
+  {"id":21289756,"t":{"ref":"480202","name":"Linkový autobus 480202: Kraslice, aut.st. => Karlovy Vary, terminál","from":"Kraslice, aut.st.","to":"Karlovy Vary, terminál","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":32,"s":[[11491593550,19]]},
+  {"id":21289757,"t":{"ref":"480202","name":"Linkový autobus 480202: Karlovy Vary, terminál => Kraslice, aut.st.","from":"Karlovy Vary, terminál","to":"Kraslice, aut.st.","network":"IDOK","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus"},"n":31,"s":[[9288234695,11],[11491593552,12]]},
+  {"id":3005799228104,"t":{"ref":"212","name":"212: Sokolov,Těšovice - Vřesová,kombinát","from":"Sokolov,Těšovice","to":"Vřesová,kombinát","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[6035373667363,10]]},
+  {"id":3013542375872,"t":{"ref":"216","name":"216: Chodov,aut.nádr. - Vřesová,ObÚ","from":"Chodov,aut.nádr.","to":"Vřesová,ObÚ","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[9288234694,3],[6035373667363,4]]},
+  {"id":3043573956156,"t":{"ref":"216","name":"216: Vřesová,ObÚ - Chodov,aut.nádr.","from":"Vřesová,ObÚ","to":"Chodov,aut.nádr.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[6035373667363,3],[9288234694,4]]},
+  {"id":3081431542640,"t":{"ref":"212","name":"212: Vřesová,kombinát - Sokolov,Těšovice","from":"Vřesová,kombinát","to":"Sokolov,Těšovice","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[6035373667363,2]]},
+  {"id":3086352812160,"t":{"ref":"213","name":"213: Chodov,aut.nádr. - Sokolov,Terminál","from":"Chodov,aut.nádr.","to":"Sokolov,Terminál","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":11,"s":[[9288234694,3],[6035373667363,4]]},
+  {"id":3094785027269,"t":{"ref":"301","name":"301: Chodov,aut.nádr. - Nejdek,aut.st.","from":"Chodov,aut.nádr.","to":"Nejdek,aut.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":12,"s":[[9288234694,3],[6035373667363,5],[6017413959143,7],[6027658013433,8]]}
+]
+}
