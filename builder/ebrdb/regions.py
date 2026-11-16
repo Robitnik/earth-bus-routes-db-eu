@@ -14,7 +14,7 @@ EU = {
     "SE": "sweden",
 }
 # beyond the EU, when asked for by name
-EXTRA = {"GB": "great-britain", "NO": "norway", "CH": "switzerland"}
+EXTRA = {"GB": "great-britain", "NO": "norway", "CH": "switzerland", "UA": "ukraine"}
 
 US = {
     "AL": "alabama", "AK": "alaska", "AZ": "arizona", "AR": "arkansas", "CA": "california", "CO": "colorado", "CT": "connecticut",
@@ -34,7 +34,7 @@ US = {
 FR_MIRROR = {
     "AT": "austria", "BE": "belgium", "CZ": "czech_republic", "DK": "denmark", "FI": "finland", "FR": "france", "DE": "germany",
     "IE": "ireland", "IT": "italy", "LU": "luxembourg", "NL": "netherlands", "PL": "poland", "PT": "portugal", "SK": "slovakia",
-    "ES": "spain", "SE": "sweden", "GB": "united_kingdom", "NO": "norway", "CH": "switzerland",
+    "ES": "spain", "SE": "sweden", "GB": "united_kingdom", "NO": "norway", "CH": "switzerland", "UA": "ukraine",
 }
 
 

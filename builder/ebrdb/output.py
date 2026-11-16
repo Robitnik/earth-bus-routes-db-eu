@@ -106,9 +106,26 @@ def write(out_dir, cc, records, stops, sources, built):
 
 
 def write_manifest(out_dir, countries):
+    """Adds countries to manifest.json. Safe with several builds running at once (a lock file, then an atomic replace)."""
+    import os
+    import time
     p = pathlib.Path(out_dir) / "manifest.json"
-    old = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"countries": {}}
-    old["v"] = SCHEMA
-    old["countries"].update(countries)
-    p.write_text(json.dumps(old, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
+    lock = p.with_suffix(".lock")
+    for _ in range(600):
+        try:
+            os.close(os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY))
+            break
+        except FileExistsError:
+            if time.time() - lock.stat().st_mtime > 120:               # left by a crashed run
+                lock.unlink(missing_ok=True)
+            time.sleep(0.2)
+    try:
+        old = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"countries": {}}
+        old["v"] = SCHEMA
+        old["countries"].update(countries)
+        tmp = p.with_suffix(".tmp")
+        tmp.write_bytes((json.dumps(old, ensure_ascii=False, indent=1, sort_keys=True) + chr(10)).encode("utf-8"))
+        os.replace(tmp, p)
+    finally:
+        lock.unlink(missing_ok=True)
     return old

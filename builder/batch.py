@@ -44,25 +44,38 @@ def run_one(cc, gid, root, work, catalog, geofabrik, manual):
         return cc, None, traceback.format_exc().splitlines()[-1]
 
 
-def downloader(todo, geofabrik, work, ahead, stop):
-    """Brings the .pbf files, one at a time per source (Geofabrik slows a client that opens several; the fast mirror and Geofabrik
-    do not disturb each other): in the order of the build, never more than `ahead` files on disk that are not built yet."""
+def downloader(todo, geofabrik, work, ahead, stop, threads=1):
+    """Brings the .pbf files, `threads` at a time, in the order of the build, never more than `ahead` files (finished or being
+    downloaded) on disk that are not built yet. (Geofabrik gives each connection about 1.4 MB/s whatever else goes on: several
+    at once add up.)"""
+    import queue
     gf = regions.Geofabrik(geofabrik)
     src = pathlib.Path(work) / "src"
-    for cc, gid in todo.items():
-        dest = pipeline.pbf_path(work, gid)
-        while not stop.is_set() and not dest.exists() and len(list(src.glob("*.osm.pbf"))) >= ahead:
-            time.sleep(10)
-        if dest.exists():
-            continue
-        for attempt in range(5):
+    q = queue.Queue()
+    for item in todo.items():
+        q.put(item)
+
+    def worker():
+        while not stop.is_set():
             try:
-                n = pipeline.download_pbf(gf, gid, work, cc)
-                print(f"downloaded {cc}: {n / 1e6:.0f} MB", flush=True)
-                break
-            except OSError as e:
-                print(f"download {cc} failed ({e}); try {attempt + 1}/5", flush=True)
-                time.sleep(30)
+                cc, gid = q.get_nowait()
+            except queue.Empty:
+                return
+            dest = pipeline.pbf_path(work, gid)
+            while not stop.is_set() and not dest.exists() and len(list(src.glob("*.osm.pbf*"))) >= ahead:
+                time.sleep(10)
+            if dest.exists():
+                continue
+            for attempt in range(5):
+                try:
+                    n = pipeline.download_pbf(gf, gid, work, cc)
+                    print(f"downloaded {cc}: {n / 1e6:.0f} MB", flush=True)
+                    break
+                except OSError as e:
+                    print(f"download {cc} failed ({e}); try {attempt + 1}/5", flush=True)
+                    time.sleep(30)
+    for _ in range(threads):
+        threading.Thread(target=worker, daemon=True).start()
 
 
 def fresh(path, url, max_age_s=86400):
@@ -107,9 +120,9 @@ def main(argv=None):
     stop = threading.Event()
     fast = {cc: gid for cc, gid in todo.items() if regions.mirror_url(cc)}
     slow = {cc: gid for cc, gid in todo.items() if not regions.mirror_url(cc)}
-    for group in (fast, slow):
+    for group, threads in ((fast, 1), (slow, 6)):
         if group:
-            threading.Thread(target=downloader, args=(group, geofabrik, work, a.jobs + 3, stop), daemon=True).start()
+            downloader(group, geofabrik, work, a.jobs + 6 if threads > 1 else a.jobs + 3, stop, threads)
     with cf.ProcessPoolExecutor(max_workers=a.jobs) as ex:
         futs = [ex.submit(run_one, cc, gid, str(root), str(work), str(catalog), str(geofabrik), manual) for cc, gid in todo.items()]
         for fu in cf.as_completed(futs):
