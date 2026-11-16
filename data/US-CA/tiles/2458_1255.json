@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2458,1255],
+"stops":[
+  {"id":504744225,"lat":32.900643,"lon":-117.207671,"k":"p"},
+  {"id":504744597,"lat":32.906749,"lon":-117.243919,"k":"p","n":"North Torrey Pines Road & Torrey Pines Golf Course","ref":"11539"},
+  {"id":504745858,"lat":32.910491,"lon":-117.244353,"k":"p","n":"North Torrey Pines Road & NU System Driveway","ref":"22475"},
+  {"id":504746465,"lat":32.90467,"lon":-117.238131,"k":"p","n":"Torreyana Road & Callan Road","ref":"98564"},
+  {"id":504746504,"lat":32.902486,"lon":-117.22458,"k":"p"},
+  {"id":504748409,"lat":32.90485,"lon":-117.240776,"k":"p","n":"11099 Callan Road","ref":"98548"},
+  {"id":504750121,"lat":32.902442,"lon":-117.238601,"k":"p","n":"Torreyana Road & Road to the Cure","ref":"98547"},
+  {"id":2849404607,"lat":32.900584,"lon":-117.20995,"k":"p"},
+  {"id":9311782733,"lat":32.902295,"lon":-117.225249,"k":"p","n":"Sorrento Valley Coaster Station","ref":"99369"},
+  {"id":9903049190,"lat":32.901474,"lon":-117.24284,"k":"p","n":"North Torrey Pines Road & Science Park Road","ref":"11541"},
+  {"id":9903049194,"lat":32.901831,"lon":-117.240439,"k":"p","n":"3033 Science Park Road","ref":"98546"},
+  {"id":9906863274,"lat":32.905516,"lon":-117.243296,"k":"p","n":"North Torrey Pines Road & Torrey Pines Golf Course","ref":"21663"},
+  {"id":9906863275,"lat":32.901971,"lon":-117.242583,"k":"p","n":"North Torrey Pines Road & Science Park Road","ref":"21665"},
+  {"id":9908232819,"lat":32.910303,"lon":-117.244731,"k":"p","n":"North Torrey Pines Road & NU System Driveway","ref":"22094"},
+  {"id":13231722615,"lat":32.941254,"lon":-117.24123,"k":"p","n":"Del Mar Corporate Centre 1 & 2","ref":"2"},
+  {"id":13231722616,"lat":32.937551,"lon":-117.238504,"k":"p","n":"Carmel Valley Corporate Centre","ref":"4"},
+  {"id":13231722617,"lat":32.936636,"lon":-117.234084,"k":"p","n":"Kilroy Centre Del Mar","ref":"3"},
+  {"id":14272239971,"lat":32.930731,"lon":-117.241987,"k":"p","n":"reLAXsan Sorrento Valley/Del Mar"}
+],
+"routes":[
+  {"id":2103764,"t":{"ref":"101","name":"Bus 101: UCSD/UTC => Oceanside","from":"Westfield UTC","to":"Oceanside Transit Center","network":"BREEZE","operator":"North County Transit District","route":"bus","public_transport:version":"2"},"n":68,"s":[[9906863275,19],[9906863274,20],[504745858,21]]},
+  {"id":2103765,"t":{"ref":"101","name":"Bus 101: Oceanside => UCSD/UTC","from":"Oceanside Transit Center","to":"Westfield UTC","network":"BREEZE","operator":"North County Transit District","route":"bus","public_transport:version":"2"},"n":72,"s":[[9908232819,53],[504744597,54],[9903049190,55]]},
+  {"id":8909760,"t":{"ref":"978","name":"Bus 978: Sorrento Valley => Torrey Pines","from":"Sorrento Valley","to":"Torrey Pines","network":"MTS","operator":"Metropolitan Transit System","route":"bus","public_transport:version":"2"},"n":11,"s":[[9311782733,1],[9903049194,6],[504750121,7],[504746465,8],[504748409,9]]},
+  {"id":13512303,"t":{"ref":"985","name":"Bus 985","network":"MTS","operator":"SDMTS","route":"bus","public_transport:version":"2"},"n":11,"s":[[9906863275,5],[504750121,6],[504746465,7],[504748409,8],[9903049190,9]]},
+  {"id":13512304,"t":{"ref":"974","name":"Bus 974: UC San Diego => Sorrento Valley","from":"Sorrento Valley","to":"UC San Diego","network":"MTS","operator":"SDMTS","route":"bus","public_transport:version":"2"},"n":3,"s":[[9311782733,1]]},
+  {"id":13512306,"t":{"ref":"979","name":"Bus 979: University City => Sorrento Valley","from":"University City","to":"Sorrento Valley","network":"MTS","operator":"SDMTS","route":"bus","public_transport:version":"2"},"n":2,"s":[[9311782733,2]]},
+  {"id":13512307,"t":{"ref":"979","name":"Bus 979: Sorrento Valley => University City","from":"Sorrento Valley","to":"University City","network":"MTS","operator":"SDMTS","route":"bus","public_transport:version":"2"},"n":2,"s":[[9311782733,1]]},
+  {"id":19709745,"t":{"name":"One Paseo Trolley","to":"One Paseo","network":"Kilroy","route":"bus"},"n":5,"s":[[13231722615,2],[13231722616,3],[13231722617,4]]}
+]
+}

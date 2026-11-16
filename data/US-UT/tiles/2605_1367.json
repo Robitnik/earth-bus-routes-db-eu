@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-UT",
+"tile":[2605,1367],
+"stops":[
+  {"id":6324127492,"lat":40.250546,"lon":-111.647076,"k":"p","n":"Museum of Art"},
+  {"id":6342422973,"lat":40.257263,"lon":-111.642401,"k":"p","n":"Health Center"},
+  {"id":6342422974,"lat":40.260001,"lon":-111.643063,"k":"p","n":"Missionary Training Center"},
+  {"id":6343931522,"lat":40.256546,"lon":-111.646202,"k":"p","n":"BYU North Campus","ref":"830269"},
+  {"id":6343931523,"lat":40.256764,"lon":-111.64623,"k":"p","n":"BYU North Campus","ref":"830269"},
+  {"id":8873354748,"lat":40.262551,"lon":-111.641336,"k":"p","n":"Temple Hill Dr @ 2120 N","ref":"817077"},
+  {"id":8891477123,"lat":40.262558,"lon":-111.641652,"k":"p","n":"Temple Hill Dr @ 2085 N","ref":"817045"},
+  {"id":9117042523,"lat":40.256601,"lon":-111.645031,"k":"p","n":"University Pkwy @ 750 E","ref":"817067"},
+  {"id":9932608376,"lat":40.256655,"lon":-111.646156,"k":"x","n":"BYU North Campus","ref":"830269"},
+  {"id":9932608377,"lat":40.256654,"lon":-111.646274,"k":"x","n":"BYU North Campus","ref":"830269"}
+],
+"routes":[
+  {"id":13757731,"t":{"ref":"UVX","name":"Bus UVX (Northbound) Utah Valley Express","from":"Provo Central Station","to":"Orem Central Station","network":"UTA","operator":"Utah Transit Authority","colour":"#0091d0","route":"bus","public_transport:version":"2"},"n":16,"s":[[6343931523,9]]},
+  {"id":13760476,"t":{"ref":"UVX","name":"Bus UVX (Southbound) Utah Valley Express","from":"Orem Central Station","to":"Provo Central Station","network":"UTA","operator":"Utah Transit Authority","colour":"#0091d0","route":"bus","public_transport:version":"2"},"n":16,"s":[[6343931522,8]]},
+  {"id":14488148,"t":{"ref":"Wyview Route","name":"Bus Wyview Route: Wyview => Museum of Art","from":"Wyview","to":"Museum of Art","network":"The Ryde","operator":"Student Movement, Inc.","colour":"#ed1c24","route":"bus","public_transport:version":"2"},"n":3,"s":[[6324127492,3]]},
+  {"id":14496174,"t":{"ref":"Wymount Route","name":"Bus Wymount Route: Wymount => Museum of Art","from":"Missionary Training Center","to":"Museum of Art","network":"The Ryde","operator":"Student Movement, Inc.","colour":"#fbb040","route":"bus","public_transport:version":"2"},"n":3,"s":[[6342422974,1],[6342422973,2],[6324127492,3]]}
+]
+}

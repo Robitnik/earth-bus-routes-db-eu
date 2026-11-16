@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2611,2114],
+"stops":[
+  {"id":3545090007,"lat":40.55345,"lon":-74.282817,"k":"p","n":"Amboy Avenue at Main Street"},
+  {"id":3545090020,"lat":40.555764,"lon":-74.278102,"k":"p","n":"Woodbridge Rail Station"},
+  {"id":3846173060,"lat":40.553449,"lon":-74.282063,"k":"p","n":"Main Street at Amboy Avenue"},
+  {"id":3871923725,"lat":40.599563,"lon":-74.289931,"k":"p","n":"Inman Avenue at Saint George's Avenue"},
+  {"id":3871923727,"lat":40.554823,"lon":-74.277802,"k":"p","n":"Main Street at Pearl Street"},
+  {"id":3872004751,"lat":40.599584,"lon":-74.290492,"k":"p","n":"Inman Avenue at Saint George's Avenue"},
+  {"id":3875371882,"lat":40.554558,"lon":-74.278065,"k":"p","n":"Main Street at Pearl Street"},
+  {"id":4584795804,"lat":40.563292,"lon":-74.25768,"k":"p"},
+  {"id":4584795805,"lat":40.563249,"lon":-74.257445,"k":"p"},
+  {"id":9501673423,"lat":40.552658,"lon":-74.284844,"k":"p","n":"Main St. at Columbus Ave."},
+  {"id":9501673424,"lat":40.553061,"lon":-74.282006,"k":"p","n":"Amboy Ave. at Main St."},
+  {"id":9501673425,"lat":40.551432,"lon":-74.280667,"k":"p","n":"Amboy Ave. at Bergen St."},
+  {"id":9515348735,"lat":40.551752,"lon":-74.287369,"k":"p","n":"Main St. at Metuchen Ave."},
+  {"id":9515348736,"lat":40.553431,"lon":-74.283324,"k":"p","n":"Main St. at Amboy Ave."},
+  {"id":9515348737,"lat":40.552266,"lon":-74.28111,"k":"p","n":"Main St. at Second St."}
+],
+"routes":[
+  {"id":3530584,"t":{"ref":"48","name":"NJTB - 48 - Woodbridge to Elizabeth","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[3872004751,2]]},
+  {"id":4734926,"t":{"ref":"803","name":"NJTB - 803","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":6,"s":[[3545090007,5],[3545090020,6]]},
+  {"id":5678208,"t":{"ref":"815","name":"NJTB - 815 - Woodbridge Center to New Brunswick","from":"Woodbridge Center Mall","to":"New Brunswick","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":60,"s":[[9501673423,3],[9501673424,4],[9501673425,5]]},
+  {"id":5679213,"t":{"ref":"815","name":"NJTB - 815 - Perth Amboy to Woodbridge Center","from":"Perth Amboy","to":"Woodbridge Center","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":3,"s":[[3846173060,1]]},
+  {"id":5679214,"t":{"ref":"815","name":"NJTB - 815 - Woodbridge Center to Perth Amboy","from":"Woodbridge Center","to":"Perth Amboy","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":3,"s":[[3545090007,2]]},
+  {"id":5711997,"t":{"ref":"48","name":"NJTB - 48 - Elizabeth to Perth Amboy","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":8,"s":[[3871923727,7]]},
+  {"id":5716833,"t":{"ref":"48","name":"NJTB - 48 - Elizabeth to Woodbridge","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[3871923725,2]]},
+  {"id":5716834,"t":{"ref":"48","name":"NJTB - 48 - Perth Amboy to Elizabeth","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":8,"s":[[3875371882,8]]},
+  {"id":13812563,"t":{"ref":"815","name":"NJTB - 815 - New Brunswick to Woodbridge Center","from":"New Brunswick","to":"Woodbridge Center","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":63,"s":[[9515348737,60],[9515348736,61],[9515348735,62]]}
+]
+}

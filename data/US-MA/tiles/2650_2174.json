@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-MA",
+"tile":[2650,2174],
+"stops":[
+  {"id":636015592,"lat":42.520971,"lon":-71.272393,"k":"p","n":"MCC shuttle"},
+  {"id":636015593,"lat":42.509624,"lon":-71.274522,"k":"p","n":"Middlesex Community College shuttle"},
+  {"id":636015606,"lat":42.523817,"lon":-71.273318,"k":"p","n":"MCC shuttle bus"},
+  {"id":1399776323,"lat":42.504929,"lon":-71.273064,"k":"p","n":"Bedford VA Hospital @ Middlesex CC - Bldg 10","ref":"8471"},
+  {"id":1399776328,"lat":42.518925,"lon":-71.252594,"k":"p","n":"Bedford Wood Dr @ Bldg 174","ref":"49795"},
+  {"id":1399790030,"lat":42.515422,"lon":-71.250416,"k":"p","n":"10 Oak Park Dr","ref":"49798"},
+  {"id":1399795749,"lat":42.500233,"lon":-71.272621,"k":"p","n":"Springs Rd @ Bldg 70","ref":"34879"},
+  {"id":1399795768,"lat":42.502365,"lon":-71.272484,"k":"p","n":"Springs Rd opp Bldg 23","ref":"47879"},
+  {"id":1399795771,"lat":42.502438,"lon":-71.272362,"k":"p","n":"Springs Rd opp Bldg 23","ref":"17879"},
+  {"id":1399795773,"lat":42.500259,"lon":-71.272743,"k":"p","n":"Springs Rd opp Bldg 70","ref":"37879"},
+  {"id":1399811541,"lat":42.51616,"lon":-71.250924,"k":"p","n":"7 Oak Park Dr","ref":"49797"},
+  {"id":1408377605,"lat":42.544081,"lon":-71.280212,"k":"p","n":"Fields First Federal Street","ref":"FIELDLRTA"},
+  {"id":1408380052,"lat":42.538543,"lon":-71.269796,"k":"p","n":"Nuttings Lake","ref":"NUTTILRTA"},
+  {"id":14090417363,"lat":42.54274,"lon":-71.252121,"k":"p"},
+  {"id":14090417364,"lat":42.543416,"lon":-71.25326,"k":"p"}
+],
+"routes":[
+  {"id":8330828,"t":{"ref":"62","name":"62 Inbound: Bedford VA Hospital=> Alewife Station","from":"Bedford VA Hospital","to":"Alewife Station","network":"MBTA","operator":"MBTA","colour":"#FFC72C","route":"bus","public_transport:version":"2"},"n":54,"s":[[1399776323,1],[1399795768,2]]},
+  {"id":8338258,"t":{"ref":"351","name":"351 Inbound: Bedford Woods Drive => Third Avenue","from":"Bedford Woods Drive","to":"Third Avenue","network":"MBTA","operator":"MBTA","colour":"#ffc72c","route":"bus","public_transport:version":"2"},"n":15,"s":[[1399776328,1],[1399811541,3],[1399790030,4]]},
+  {"id":16098966,"t":{"ref":"351","name":"351 Inbound: Bedford Woods Drive => EMD Serono => Third Avenue","from":"Bedford Woods Drive","to":"Third Avenue","network":"MBTA","operator":"MBTA","colour":"#ffc72c","route":"bus","public_transport:version":"2"},"n":3,"s":[[1399776328,1]]},
+  {"id":16098967,"t":{"ref":"351","name":"351 Outbound: Third Avenue => EMD Serono => Bedford Woods Drive","from":"Third Avenue","to":"Bedford Woods Drive","network":"MBTA","operator":"MBTA","colour":"#ffc72c","route":"bus","public_transport:version":"2"},"n":5,"s":[[1399776328,5]]},
+  {"id":16098968,"t":{"ref":"351","name":"351 Outbound: Third Avenue => Bedford Woods Drive","from":"Third Avenue","to":"Bedford Woods Drive","network":"MBTA","operator":"MBTA","colour":"#ffc72c","route":"bus","public_transport:version":"2"},"n":8,"s":[[1399811541,7],[1399776328,8]]},
+  {"id":16289203,"t":{"ref":"62","name":"62 Outbound: Alewife Station => Bedford VA Hospital","from":"Alewife Station","to":"Bedford VA Hospital","network":"MBTA","operator":"MBTA","colour":"#FFC72C","route":"bus","public_transport:version":"2"},"n":55,"s":[[1399795749,53],[1399795771,54],[1399776323,55]]}
+]
+}

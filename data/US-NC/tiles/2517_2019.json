@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-NC",
+"tile":[2517,2019],
+"stops":[
+  {"id":1225004650,"lat":35.899222,"lon":-79.038333,"k":"p","n":"Manning Lot at Family Practice Building","ref":"3232"},
+  {"id":5767041105,"lat":35.897751,"lon":-79.042885,"k":"p","n":"Mason Farm Road at Baity Hill Drive","ref":"3713"},
+  {"id":5767041106,"lat":35.897823,"lon":-79.045608,"k":"p","n":"Mason Farm Road at Oteys Road"},
+  {"id":5856773201,"lat":35.899085,"lon":-79.009583,"k":"p","n":"Brookberry Circle","ref":"3624"},
+  {"id":5856773234,"lat":35.899565,"lon":-79.010445,"k":"p","n":"Brookberry Circle","ref":"3623"},
+  {"id":5856773235,"lat":35.898319,"lon":-79.00883,"k":"p","n":"Finley Forest Drive","ref":"3622"},
+  {"id":5856773819,"lat":35.899223,"lon":-79.010966,"k":"p","n":"Friday Center Drive at Finley Forest Place","ref":"3026"},
+  {"id":5856773820,"lat":35.895254,"lon":-79.013424,"k":"p","n":"Friday Center Drive at Hedrick Shelter","ref":"3025"},
+  {"id":5856773850,"lat":35.89962,"lon":-79.01127,"k":"p","n":"Friday Center Drive at Friday Center","ref":"3027"},
+  {"id":5856773851,"lat":35.896328,"lon":-79.012228,"k":"p","n":"NC 54 East Park & Ride Lot","ref":"3024"}
+],
+"routes":[
+  {"id":8455755,"t":{"ref":"B","name":"CHT Route B","from":"Baity Hill","to":"Baity Hill","network":"CHT","operator":"Chapel Hill Transit","colour":"#B02A2F","route":"bus","public_transport:version":"2"},"n":14,"s":[[5767041105,1,14],[5767041106,2]]},
+  {"id":8455877,"t":{"ref":"CM","name":"CHT Route CM: Jones Ferry Park and Ride Lot → Family Medicine Center","from":"Jones Ferry Park and Ride Lot","to":"Family Medicine Center","network":"CHT","operator":"Chapel Hill Transit","colour":"#F36E21","route":"bus","public_transport:version":"2"},"n":28,"s":[[1225004650,28]]},
+  {"id":8457706,"t":{"ref":"CM","name":"CHT Route CM: Family Medicine Center → Jones Ferry Park and Ride Lot","from":"Family Medicine Center","to":"Jones Ferry Park and Ride Lot","network":"CHT","operator":"Chapel Hill Transit","colour":"#F36E21","route":"bus","public_transport:version":"2"},"n":25,"s":[[1225004650,1]]},
+  {"id":8616752,"t":{"ref":"N","name":"CHT Route N: Family Medicine Center → Estes Park","from":"Family Medicine Center","to":"Estes Park","network":"CHT","operator":"Chapel Hill Transit","colour":"#F37A68","route":"bus","public_transport:version":"2"},"n":26,"s":[[1225004650,1]]},
+  {"id":9323467,"t":{"ref":"S","name":"Route S","from":"Friday Center South Park and Ride","to":"Pittsboro St at Credit Union","network":"CHT","operator":"Chapel Hill Transit","colour":"#015CA3","route":"bus","public_transport:version":"2"},"n":24,"s":[[5856773851,1,24],[5856773819,2],[5856773850,23]]},
+  {"id":9657297,"t":{"ref":"G Safe Ride","name":"Route G Safe Ride","from":"Transit Facility","to":"Friday Center Dr at Finley Forest Park","network":"CHT","operator":"Chapel Hill Transit","route":"bus","public_transport:version":"2"},"n":4,"s":[[5856773235,2]]},
+  {"id":9657306,"t":{"ref":"RU","name":"Route RU","from":"Family Medicine Center","to":"Cameron Ave at Columbia St","network":"CHT","operator":"Chapel Hill Transit","route":"bus","public_transport:version":"2"},"n":4,"s":[[1225004650,4]]},
+  {"id":9657308,"t":{"ref":"HU","name":"CHT Route HU","network":"CHT","operator":"Chapel Hill Transit","route":"bus","public_transport:version":"2"},"n":24,"s":[[5856773820,1,24],[5856773851,2,23],[5856773819,3],[5856773850,22]]}
+]
+}

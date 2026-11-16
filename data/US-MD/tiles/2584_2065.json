@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2584,2065],
+"stops":[
+  {"id":690684437,"lat":39.246352,"lon":-76.719566,"k":"x","n":"Southwest Park & Ride"},
+  {"id":2348103392,"lat":39.238015,"lon":-76.713528,"k":"p"},
+  {"id":4633522897,"lat":39.210437,"lon":-76.736616,"k":"p","n":"Rowanberry Drive & Montgomery Road"},
+  {"id":4633522898,"lat":39.20844,"lon":-76.728148,"k":"p","n":"Montgomery Rd / Elkridge Corners Shopping Center","ref":"40579"},
+  {"id":4923028836,"lat":39.246355,"lon":-76.719489,"k":"p","n":"Southwest Park & Ride Lot","ref":"11885"},
+  {"id":6248382078,"lat":39.207288,"lon":-76.727052,"k":"p","n":"Washington Boulevard & Montgomery Road Southbound","ref":"12075"},
+  {"id":6248382079,"lat":39.200361,"lon":-76.736854,"k":"p","n":"Washington Boulevard & Hunt Club Road Southbound","ref":"12076"},
+  {"id":6248382080,"lat":39.216811,"lon":-76.709866,"k":"p","n":"Washington Boulevard & Levering Avenue Southbound","ref":"12074"},
+  {"id":6248382160,"lat":39.20709,"lon":-76.727008,"k":"p","n":"Washington Boulevard & Montgomery Road Northbound","ref":"11883"},
+  {"id":6248382161,"lat":39.216622,"lon":-76.709855,"k":"p","n":"Washington Boulevard & Levering Avenue Northbound","ref":"11884"},
+  {"id":6248382165,"lat":39.200154,"lon":-76.73682,"k":"p","n":"Washington Boulevard & Hunt Club Road Opposite Northbound","ref":"11882"},
+  {"id":10684605724,"lat":39.202055,"lon":-76.735325,"k":"p","n":"Rowanberry Dr / Elkridge Library (Northbound)"},
+  {"id":10684605725,"lat":39.201886,"lon":-76.735457,"k":"p","n":"Rowanberry Dr / Elkridge Library (Southbound)"},
+  {"id":10684605726,"lat":39.20587,"lon":-76.734874,"k":"p","n":"Bowanberry Dr / Orchard Club Dr"},
+  {"id":10684605727,"lat":39.205833,"lon":-76.735033,"k":"p","n":"Rowanberry Dr / Bayberry Ct"},
+  {"id":10684605728,"lat":39.207497,"lon":-76.734145,"k":"p","n":"Rowanberry Dr / Greenfield Rd"},
+  {"id":10684605729,"lat":39.211086,"lon":-76.733205,"k":"p","n":"Montgomery Rd / Steepridge Dr"},
+  {"id":10684605738,"lat":39.206701,"lon":-76.72789,"k":"p","n":"Washington Blvd / Elkridge Corners Shopping Center"},
+  {"id":10684674789,"lat":39.205469,"lon":-76.731089,"k":"p","n":"Greenfield Rd / Penniman Park Apartments"},
+  {"id":10684674790,"lat":39.207569,"lon":-76.732079,"k":"p","n":"Greenfield Rd / 6400"}
+],
+"routes":[
+  {"id":7341217,"t":{"ref":"76","name":"LocalLink 76: Southwest Park & Ride","from":"City Hall","to":"Southwest Park & Ride","network":"BaltimoreLink","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":15,"s":[[4923028836,2]]},
+  {"id":7341230,"t":{"ref":"76","name":"LocalLink 76: City Hall","from":"Southwest Park & Ride","to":"City Hall","network":"BaltimoreLink","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":14,"s":[[4923028836,2]]},
+  {"id":9677663,"t":{"ref":"320","name":"Commuter Bus 320: Columbia (trip 6)","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":11,"s":[[6248382160,10],[6248382161,11]]},
+  {"id":9677664,"t":{"ref":"320","name":"Commuter Bus 320: Columbia (trip 7)","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[6248382165,1,2],[6248382160,3],[6248382161,4]]},
+  {"id":9677666,"t":{"ref":"320","name":"Commuter Bus 320: Columbia (trips 1,3,5)","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[6248382165,1],[6248382160,2],[6248382161,3]]},
+  {"id":15519159,"t":{"ref":"409","name":"Bus 409: Elkridge Corners / Town Centre Laurel","network":"Regional Transit Authority of Central Maryland","operator":"RTA","route":"bus","public_transport:version":"2"},"n":50,"s":[[10684605738,1],[10684674789,2],[10684674790,3],[10684605727,4],[10684605725,5]]},
+  {"id":15520329,"t":{"ref":"409","name":"Bus 409: Towne Centre Laurel / Elkridge Corners","from":"Towne Centre Laurel","to":"Elkridge Corners","network":"Regional Transit Authority of Central Maryland","operator":"RTA","route":"bus","public_transport:version":"2"},"n":46,"s":[[10684605724,40],[10684605726,41],[10684605728,42],[4633522897,43],[10684605729,44],[4633522898,45],[10684605738,46]]}
+]
+}

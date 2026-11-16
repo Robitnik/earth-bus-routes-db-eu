@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2560,1155],
+"stops":[
+  {"id":6548209279,"lat":38.048642,"lon":-122.24794,"k":"x","n":"San Pablo Avenue & A Street"},
+  {"id":6548209280,"lat":38.048365,"lon":-122.248281,"k":"x","n":"San Pablo Avenue & A Street"},
+  {"id":6548209281,"lat":38.048443,"lon":-122.248365,"k":"p","n":"San Pablo Avenue & A Street"},
+  {"id":6548209282,"lat":38.048596,"lon":-122.247871,"k":"p","n":"San Pablo Avenue & A Street"},
+  {"id":6548498204,"lat":38.026911,"lon":-122.249458,"k":"x","n":"Viewpointe Boulevard & Myrna Way"},
+  {"id":6548498205,"lat":38.026854,"lon":-122.24947,"k":"p","n":"Viewpointe Boulevard & Myrna Way"},
+  {"id":6548498219,"lat":38.025622,"lon":-122.246411,"k":"x","n":"Viewpointe Boulevard & Stirling Drive"},
+  {"id":6548498220,"lat":38.025628,"lon":-122.246524,"k":"p","n":"Viewpointe Boulevard & Stirling Drive"},
+  {"id":6548657551,"lat":38.008345,"lon":-122.248434,"k":"x","n":"Violet Road & Iris Road"},
+  {"id":6548657552,"lat":38.0084,"lon":-122.248448,"k":"p","n":"Violet Road & Iris Road"},
+  {"id":6548657553,"lat":38.006724,"lon":-122.242766,"k":"x","n":"Violet Road & Lilac Circle"},
+  {"id":6548657554,"lat":38.006737,"lon":-122.242692,"k":"p","n":"Violet Road & Lilac Circle"},
+  {"id":6548657555,"lat":38.002107,"lon":-122.24458,"k":"x","n":"Violet Road & Lupine Road"},
+  {"id":6548657556,"lat":38.002069,"lon":-122.244529,"k":"p","n":"Violet Road & Lupine Road"},
+  {"id":6548657563,"lat":38.000738,"lon":-122.238007,"k":"x","n":"Armstrong Street & Grissom Street"},
+  {"id":6548657564,"lat":38.000753,"lon":-122.237941,"k":"p","n":"Armstrong Street & Grissom Street"}
+],
+"routes":[
+  {"id":9689687,"t":{"ref":"11","name":"WestCAT 11: Crockett => Hercules","from":"John Swett High School","to":"Hercules Transit Center","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":12,"s":[[6548209281,4]]},
+  {"id":9689688,"t":{"ref":"11","name":"WestCAT 11: Hercules => Crockett","from":"Hercules Transit Center","to":"John Swett High School","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":13,"s":[[6548209282,9]]},
+  {"id":9690154,"t":{"ref":"15","name":"WestCAT 15: Viewpointe => Alfred Nobel Drive => Hercules (other times)","from":"Viewpointe Boulevard & Stirling Drive","to":"Hercules Transit Center","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":13,"s":[[6548498220,1]]},
+  {"id":9690155,"t":{"ref":"15","name":"WestCAT 15: Hercules => Alfred Nobel Drive => Viewpointe (other times)","from":"Hercules Transit Center","to":"Viewpointe Boulevard & Stirling Drive","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":14,"s":[[6548498205,13],[6548498220,14]]},
+  {"id":9690165,"t":{"ref":"15","name":"WestCAT 15: Hercules => Viewpointe (early mornings)","from":"Hercules Transit Center","to":"Viewpointe Boulevard & Stirling Drive","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":10,"s":[[6548498205,9],[6548498220,10]]},
+  {"id":9690166,"t":{"ref":"15","name":"WestCAT 15: Viewpointe => Hercules (early mornings)","from":"Viewpointe Boulevard & Stirling Drive","to":"Hercules Transit Center","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":10,"s":[[6548498220,1]]},
+  {"id":9690581,"t":{"ref":"12","name":"WestCAT 12: Trees and Flowers => Hercules","from":"Coronado Street & Carson Street","to":"Hercules Transit Center","network":"WestCAT","operator":"Western Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":15,"s":[[6548657564,2],[6548657556,7],[6548657554,8],[6548657552,9]]}
+]
+}

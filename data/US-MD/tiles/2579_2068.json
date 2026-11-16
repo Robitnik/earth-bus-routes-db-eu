@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2579,2068],
+"stops":[
+  {"id":4124928638,"lat":38.979012,"lon":-76.554849,"k":"x","n":"Harry S. Truman Park and Ride"},
+  {"id":4955895178,"lat":38.97916,"lon":-76.554525,"k":"p"},
+  {"id":4955895179,"lat":38.979104,"lon":-76.554841,"k":"p"},
+  {"id":4955895180,"lat":38.979031,"lon":-76.555064,"k":"p"},
+  {"id":4955895181,"lat":38.978979,"lon":-76.55532,"k":"p"},
+  {"id":4993658782,"lat":38.978944,"lon":-76.555079,"k":"x","n":"Harry S. Truman Park and Ride","ref":"210"},
+  {"id":4993658783,"lat":38.97887,"lon":-76.555329,"k":"x","n":"Harry S. Truman Park and Ride","ref":"230"},
+  {"id":4993702521,"lat":38.979073,"lon":-76.554577,"k":"x"},
+  {"id":6248382324,"lat":38.979022,"lon":-76.55483,"k":"p","n":"Harry S Truman Park & Ride","ref":"11705"},
+  {"id":13505722478,"lat":38.978405,"lon":-76.560657,"k":"p","n":"Annapolis Corporate Park"},
+  {"id":14199049824,"lat":38.990489,"lon":-76.554703,"k":"p"},
+  {"id":14199049825,"lat":38.990372,"lon":-76.553967,"k":"p"}
+],
+"routes":[
+  {"id":7379560,"t":{"ref":"210","name":"Commuter Bus 210: Kent Island","from":"Johns Hopkins Hospital","to":"Kent Island","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[4955895180,1]]},
+  {"id":7408913,"t":{"ref":"210","name":"Commuter Bus 210: Annapolis","from":"Johns Hopkins Hospital","to":"Annapolis","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[4955895180,1]]},
+  {"id":7408922,"t":{"ref":"210","name":"Commuter Bus 210: Downtown Baltimore (from Annapolis)","from":"Annapolis","to":"Johns Hopkins Hospital","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4955895180,1]]},
+  {"id":7408926,"t":{"ref":"210","name":"Commuter Bus 210: Downtown Baltimore (from Kent Island)","from":"Kent Island","to":"Johns Hopkins Hospital","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":5,"s":[[4955895180,1],[6248382324,5]]},
+  {"id":7410538,"t":{"ref":"220","name":"Commuter Bus 220: Washington, D.C.","from":"Annapolis","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":9,"s":[[4955895179,8],[6248382324,9]]},
+  {"id":7410658,"t":{"ref":"220","name":"Commuter Bus 220: Annapolis","from":"Washington","to":"Annapolis","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":6,"s":[[4955895179,1]]},
+  {"id":7411707,"t":{"ref":"230","name":"Commuter Bus 230: Washington, D.C. (from Severna Park)","from":"Severna Park","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[4955895181,2]]},
+  {"id":7412244,"t":{"ref":"230","name":"Commuter Bus 230: Severna Park","from":"Washington","to":"Severna Park","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[4955895181,2]]},
+  {"id":7412325,"t":{"ref":"230","name":"Commuter Bus 230: Annapolis","from":"Washington","to":"Annapolis","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[4955895181,1],[6248382324,3]]},
+  {"id":7412326,"t":{"ref":"230","name":"Commuter Bus 230: Washington, D.C. (from Annapolis)","from":"Annapolis","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4955895181,4]]},
+  {"id":9677517,"t":{"ref":"230","name":"Commuter Bus 230: Severna Park via Davidsonville and Annapolis","from":"Washington","to":"Severna Park","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[4955895181,2]]},
+  {"id":9677518,"t":{"ref":"230","name":"Commuter Bus 230: Annapolis via Davidsonville","from":"Washington","to":"Annapolis","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[4955895181,1]]},
+  {"id":9677519,"t":{"ref":"220","name":"Commuter Bus 220: Kent Island","from":"Washington","to":"Kent Island","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[4124928638,1],[4955895179,2]]}
+]
+}

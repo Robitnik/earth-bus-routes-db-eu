@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"US-WV",
+"tile":[2568,1952],
+"stops":[
+  {"id":6538478625,"lat":38.411086,"lon":-82.373469,"k":"p"},
+  {"id":7090842014,"lat":38.413135,"lon":-82.351441,"k":"p"},
+  {"id":7354995538,"lat":38.410752,"lon":-82.365954,"k":"p","n":"Eastern Heights Shopping Plaza"},
+  {"id":7354995539,"lat":38.410756,"lon":-82.374879,"k":"p","n":"US Route 60 & Prestera Center"},
+  {"id":7354995540,"lat":38.407703,"lon":-82.374118,"k":"p","n":"US Route 60 & Huntington Walmart"},
+  {"id":7354995541,"lat":38.401657,"lon":-82.38808,"k":"p","n":"Norway Avenue & Norwood Road & Crossroads"},
+  {"id":7355053638,"lat":38.402523,"lon":-82.391237,"k":"p","n":"Norway Avenue & Hibner Avenue"},
+  {"id":7355053639,"lat":38.405725,"lon":-82.378329,"k":"p","n":"Norway Avenue & Smith Drive & Rotary Gardens"},
+  {"id":7355053640,"lat":38.40243,"lon":-82.372891,"k":"p","n":"Cabell County Career & Technical Center"},
+  {"id":7355053641,"lat":38.408741,"lon":-82.370648,"k":"p","n":"Norway Avenue & Huntington East Middle School"},
+  {"id":7425841565,"lat":38.434051,"lon":-82.361554,"k":"p","n":"Siders Avenue & 46th Street"},
+  {"id":7425841566,"lat":38.430466,"lon":-82.374714,"k":"p","n":"3rd Avenue & 39th Street & Floodwall"},
+  {"id":7425841567,"lat":38.421774,"lon":-82.387751,"k":"p","n":"9th Avenue & Buffington Street"},
+  {"id":7425841568,"lat":38.427283,"lon":-82.397957,"k":"p","n":"5th Avenue & 29th Street"},
+  {"id":7426003280,"lat":38.429437,"lon":-82.385676,"k":"p","n":"Bridge Street & WK Elliot Apartments & Guyandotte"},
+  {"id":7426003281,"lat":38.431763,"lon":-82.369284,"k":"p","n":"Route 2 & Tri-State Fire Academy"},
+  {"id":7680446022,"lat":38.409207,"lon":-82.399419,"k":"p"}
+],
+"routes":[
+  {"id":9583239,"t":{"ref":"2","name":"Bus 2: Eastern Heights -> TTA Center","from":"Eastern Heights","to":"TTA Center","operator":"Tri-State Transit Authority","colour":"#ce9aff","route":"bus","public_transport:version":"2"},"n":10,"s":[[7354995538,1],[7355053641,2],[7355053639,3],[7355053638,4]]},
+  {"id":9583240,"t":{"ref":"2","name":"Bus 2: Eastern Heights -> Vo Tech Center -> TTA Center","from":"Eastern Heights","to":"TTA Center","operator":"Tri-State Transit Authority","colour":"#ce9aff","route":"bus","public_transport:version":"2"},"n":11,"s":[[7354995538,1],[7355053641,2],[7355053640,3],[7355053639,4],[7355053638,5]]},
+  {"id":9583241,"t":{"ref":"2","name":"Bus 2: TTA Center -> Eastern Heights","from":"TTA Center","to":"Eastern Heights","operator":"Tri-State Transit Authority","colour":"#ce9aff","route":"bus","public_transport:version":"2"},"n":13,"s":[[7354995541,10],[7354995540,11],[7354995539,12],[7354995538,13]]},
+  {"id":9583781,"t":{"ref":"3","name":"Bus 3: Sanns Drive -> TTA Center","from":"Sanns Drive","to":"TTA Center","operator":"Tri-State Transit Authority","colour":"#006600","route":"bus","public_transport:version":"2"},"n":17,"s":[[7425841565,2],[7426003281,3],[7426003280,4]]},
+  {"id":9583782,"t":{"ref":"3","name":"Bus 3: 46th Street -> TTA Center","from":"46th Street","to":"TTA Center","operator":"Tri-State Transit Authority","colour":"#006600","route":"bus","public_transport:version":"2"},"n":16,"s":[[7425841565,1],[7426003281,2],[7426003280,3]]},
+  {"id":9583783,"t":{"ref":"3","name":"Bus 3: TTA Center -> 46th Street","from":"TTA Center","to":"46th Street","operator":"Tri-State Transit Authority","colour":"#006600","route":"bus","public_transport:version":"2"},"n":11,"s":[[7425841568,8],[7425841567,9],[7425841566,10],[7425841565,11]]},
+  {"id":9583784,"t":{"ref":"3","name":"Bus 3: TTA Center -> Sanns Drive","from":"TTA Center","to":"Sann's Drive","operator":"Tri-State Transit Authority","colour":"#006600","route":"bus","public_transport:version":"2"},"n":12,"s":[[7425841568,8],[7425841567,9],[7425841566,10]]}
+]
+}

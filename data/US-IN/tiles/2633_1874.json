@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"US-IN",
+"tile":[2633,1874],
+"stops":[
+  {"id":1496025156,"lat":41.669026,"lon":-86.251245,"k":"p","n":"South Street Station"},
+  {"id":9332871978,"lat":41.668966,"lon":-86.251052,"k":"p","n":"South Bend, IN","ref":"260810"},
+  {"id":10803213841,"lat":41.687887,"lon":-86.282644,"k":"p","n":"Lincolnway & Elmer"},
+  {"id":11341911051,"lat":41.681917,"lon":-86.262568,"k":"p","n":"Colfax School Stop","ref":"4"},
+  {"id":11534756252,"lat":41.677887,"lon":-86.252097,"k":"p","n":"Main & Colfax SB"},
+  {"id":11534756253,"lat":41.67653,"lon":-86.252093,"k":"p","n":"Main & Washington SB"},
+  {"id":11534756254,"lat":41.673816,"lon":-86.25202,"k":"p","n":"Main & Wayne SB"},
+  {"id":11534756255,"lat":41.675178,"lon":-86.252048,"k":"p","n":"Main & Jefferson SB"},
+  {"id":11536967092,"lat":41.673524,"lon":-86.251856,"k":"p","n":"Main & Wayne NB"},
+  {"id":11536967093,"lat":41.676238,"lon":-86.251907,"k":"p","n":"Main & Washington NB"},
+  {"id":11536967094,"lat":41.679527,"lon":-86.251949,"k":"p","n":"Main & LaSalle NB"},
+  {"id":11627546029,"lat":41.699178,"lon":-86.253395,"k":"p","n":"Holy Cross College"},
+  {"id":13608588647,"lat":41.671931,"lon":-86.289071,"k":"p","n":"Western and Bendix"}
+],
+"routes":[
+  {"id":11971959,"t":{"ref":"1","name":"McKinley/Mishawaka","from":"South Street Station","to":"Hampton and Cantondale","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"green","route":"bus"},"n":46,"s":[[1496025156,1,46],[11534756252,42],[11534756253,43],[11534756255,44],[11534756254,45]]},
+  {"id":11972087,"t":{"ref":"3","name":"Portage","from":"South Street Station","to":"Meijer","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"green","route":"bus"},"n":4,"s":[[1496025156,1],[11536967092,2],[11536967093,3],[11536967094,4]]},
+  {"id":11972238,"t":{"ref":"4","name":"Lincolnway/Airport","from":"South Street Station","to":"South Bend International Airport: South Shore Line","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"blue","route":"bus"},"n":5,"s":[[1496025156,1],[11536967092,4],[11534756254,5]]},
+  {"id":11974311,"t":{"ref":"5","name":"North Michigan","from":"South Street Station","to":"Lindenwood & Miller - Golden Oaks Village","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"yellow","route":"bus"},"n":11,"s":[[1496025156,1],[11534756252,2],[11534756253,3],[11534756254,4],[11534756255,5],[11536967092,6],[11536967093,7],[11536967094,8]]},
+  {"id":11974363,"t":{"ref":"7","name":"Notre Dame/UP Mall","from":"South Street Station","to":"Mishawaka Transfer Center","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"blue","route":"bus"},"n":25,"s":[[1496025156,1],[11536967092,19],[11534756254,20],[11534756255,21],[11536967093,22],[11534756253,23]]},
+  {"id":11974538,"t":{"ref":"10","name":"Western Avenue","from":"South Street Station","to":"Martin's on Western","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"blue","route":"bus"},"n":2,"s":[[13608588647,2]]},
+  {"id":11975264,"t":{"ref":"11","name":"Southside/Mishawaka","from":"South Street Station","to":"Mishawaka Transfer Station","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"blue","route":"bus"},"n":4,"s":[[1496025156,4]]},
+  {"id":11975404,"t":{"ref":"13","name":"Corby/Town & Country","from":"South Street Station","to":"Town & Country - Miracle Ln at Chuck E Cheese","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"green","route":"bus"},"n":2,"s":[[1496025156,1]]},
+  {"id":11975453,"t":{"ref":"14","name":"Sample/Mayflower","from":"South Street Station","to":"Martin's on Western","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"green","route":"bus"},"n":2,"s":[[1496025156,1]]},
+  {"id":11978276,"t":{"ref":"17","name":"The Sweep","from":"Library Circle","to":"Library Circle","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"green","route":"bus"},"n":15,"s":[[11627546029,6]]},
+  {"id":16214739,"t":{"ref":"0021","name":"Bus 0021: Columbus, IN => Chicago, IL","from":"Columbus, OH","to":"Chicago, IL","network":"Greyhound","operator":"Baron's Bus","route":"bus","public_transport:version":"2"},"n":7,"s":[[9332871978,5]]},
+  {"id":20273999,"t":{"ref":"2","name":"Washington/Bendix","from":"South Street Station","to":"Meijer","network":"Transpo","operator":"South Bend Transportation Corporation","colour":"green","route":"bus"},"n":2,"s":[[1496025156,1]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2492,1190],
+"stops":[
+  {"id":10675413352,"lat":34.637929,"lon":-120.459349,"k":"p","n":"Lompoc, CA - Visitor Center (LOM)"},
+  {"id":10734029056,"lat":34.637407,"lon":-120.459524,"k":"p","n":"Cypress and I Street","ref":"S1"},
+  {"id":10736165755,"lat":34.648932,"lon":-120.457914,"k":"p","n":"Vons Shopping Center"},
+  {"id":10740414692,"lat":34.634244,"lon":-120.475455,"k":"p","n":"Olive Avenue and V Street"},
+  {"id":10740454799,"lat":34.647592,"lon":-120.475579,"k":"p","n":"V Street and College Avenue"},
+  {"id":10740454803,"lat":34.643843,"lon":-120.473107,"k":"p","n":"Laurel Avenue @ COLT office (A)"},
+  {"id":10740454804,"lat":34.643599,"lon":-120.470671,"k":"p","n":"Social Services"},
+  {"id":10742641211,"lat":34.644106,"lon":-120.470429,"k":"p","n":"Laurel Avenue and R Street"},
+  {"id":10758183500,"lat":34.637417,"lon":-120.459778,"k":"p","n":"Lompoc Transit Hub"},
+  {"id":10933384189,"lat":34.637437,"lon":-120.459666,"k":"p","n":"Lompoc Park and Ride Lot"}
+],
+"routes":[
+  {"id":15598105,"t":{"ref":"WineX","name":"Wine Country Express","from":"Lompoc- Cypress and I Street","to":"slovang park","network":"City of Lompoc Transit","route":"bus"},"n":3,"s":[[10734029056,1]]},
+  {"id":15601672,"t":{"ref":"1","name":"Route 1","from":"Cypress Avenue and I Street","to":"Lompoc Valley Medical Center","network":"City of Lompoc Transit","route":"bus"},"n":9,"s":[[10734029056,1],[10736165755,9]]},
+  {"id":15607348,"t":{"ref":"Santa Barbara","name":"Santa Barbara Service","from":"Cypress and I Street - lompoc","to":"Santa Barbara MTD Bus Depot","network":"City of Lompoc Transit","route":"bus"},"n":3,"s":[[10734029056,1]]},
+  {"id":15611142,"t":{"ref":"2","name":"Route 2","from":"Cypress Avenue and I Street","to":"Central @ Walmart","network":"City of Lompoc Transit","route":"bus"},"n":8,"s":[[10734029056,1],[10740454799,5],[10740454803,6],[10740454804,7],[10740414692,8]]},
+  {"id":15614602,"t":{"ref":"3","name":"Route 3","from":"Cypress Avenue and I Street","to":"Mission Plaza","network":"City of Lompoc Transit","route":"bus"},"n":12,"s":[[10740454799,8],[10740454803,9],[10740454804,10],[10742641211,11],[10734029056,12]]},
+  {"id":15627971,"t":{"ref":"30","name":"30 - Santa Maria Transit Center/Vandenberg/Lompoc","from":"Santa Maria Transit Center","to":"Lompoc Transit Center","network":"Santa Maria Regional Transit","operator":"Santa Maria Regional Transit","route":"bus"},"n":21,"s":[[10758183500,20]]},
+  {"id":15912349,"t":{"ref":"101","name":"101 - Lompoc - Goleta","from":"Lompoc Park and Ride Lot","to":"Calle Real at Pesetas Lane","network":"Clean Air Express","operator":"Clean Air Express","route":"bus"},"n":24,"s":[[10933384189,1]]},
+  {"id":15962610,"t":{"ref":"120","name":"120 - Lompoc - Santa Barbara","from":"Lompoc Park and Ride Lot","to":"Gutierrez at Nopal","network":"Clean Air Express","route":"bus"},"n":11,"s":[[10933384189,1]]}
+]
+}

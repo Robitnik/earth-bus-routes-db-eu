@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-AL",
+"tile":[2452,1889],
+"stops":[
+  {"id":4783331705,"lat":32.604044,"lon":-85.501905,"k":"x"},
+  {"id":4783331711,"lat":32.603836,"lon":-85.501897,"k":"x"},
+  {"id":14123859632,"lat":32.60409,"lon":-85.501906,"k":"p","n":"West Parking Lot #1","ref":"4"},
+  {"id":14123859633,"lat":32.603794,"lon":-85.501895,"k":"p","n":"West Parking Lot #2","ref":"5"},
+  {"id":14123859667,"lat":32.605981,"lon":-85.500874,"k":"p","n":"Beech Street & Magnolia Avenue","ref":"Beech Street & Magnolia Avenue"},
+  {"id":14132373083,"lat":32.633646,"lon":-85.500804,"k":"p","n":"Donahue Crossing 3rd Stop","ref":"8"},
+  {"id":14132373084,"lat":32.631581,"lon":-85.50119,"k":"p","n":"Donahue Crossing 2nd Stop","ref":"9"},
+  {"id":14167553390,"lat":32.603128,"lon":-85.500832,"k":"x","n":"AU Impound"},
+  {"id":14167553391,"lat":32.605989,"lon":-85.500936,"k":"x","n":"Beech Street & Magnolia Avenue","ref":"Beech Street & Magnolia Avenue"},
+  {"id":14173727456,"lat":32.604794,"lon":-85.500872,"k":"x","n":"Beech Street & West Thach Avenue","ref":"Beech Street & West Thach Avenue"},
+  {"id":14360772793,"lat":32.631538,"lon":-85.501187,"k":"x","n":"Donahue Crossing 2nd Stop","ref":"9"},
+  {"id":14360772794,"lat":32.6337,"lon":-85.500856,"k":"x","n":"Donahue Crossing 3rd Stop","ref":"8"},
+  {"id":5001552410144,"lat":32.603127,"lon":-85.500913,"k":"p","n":"AU Impound","ref":"2"},
+  {"id":5001552410145,"lat":32.604793,"lon":-85.500799,"k":"p","n":"Beech Street & West Thach Avenue"}
+],
+"routes":[
+  {"id":21282347,"t":{"ref":"HW","name":"Haley West","from":"Student Center 1","to":"The Village","network":"Tiger Transit","colour":"#C00C00","route":"bus"},"n":6,"s":[[14123859632,2],[14123859633,3]]},
+  {"id":21282349,"t":{"ref":"ORWP","name":"Old Row-West Parking","network":"Tiger Transit","colour":"#D5A168","route":"bus"},"n":7,"s":[[5001552410144,3],[5001552410145,4],[14123859667,5]]},
+  {"id":21291222,"t":{"ref":"WC","name":"West Campus","network":"Tiger Transit","colour":"#009E80","route":"bus"},"n":4,"s":[[5001552410145,2],[14123859667,3]]},
+  {"id":21293752,"t":{"ref":"NDH","name":"North Donahue","network":"Tiger Transit","colour":"#AFBAC1","route":"bus"},"n":18,"s":[[14132373083,8],[14132373084,9],[14360772793,13],[14360772794,14]]}
+]
+}

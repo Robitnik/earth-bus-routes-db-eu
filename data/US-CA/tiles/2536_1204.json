@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2536,1204],
+"stops":[
+  {"id":5701223856,"lat":36.808453,"lon":-119.753379,"k":"p"},
+  {"id":9310248908,"lat":36.808763,"lon":-119.754759,"k":"p","n":"Fresno State University"},
+  {"id":9310248909,"lat":36.808692,"lon":-119.754753,"k":"x","n":"Fresno State University"},
+  {"id":9482702092,"lat":36.841658,"lon":-119.783167,"k":"p","n":"North Fresno (Howard & Fresno)","ref":"413"},
+  {"id":9518909917,"lat":36.807511,"lon":-119.781242,"k":"p","n":"Fresno & Shaw Northbound","ref":"1097"},
+  {"id":9518909918,"lat":36.807549,"lon":-119.781595,"k":"p","n":"Fresno & Shaw Southbound","ref":"1098"},
+  {"id":9518941654,"lat":36.841604,"lon":-119.783141,"k":"p","n":"Fresno Kaiser Hospital Southbound","ref":"4059"},
+  {"id":9518941655,"lat":36.842308,"lon":-119.783124,"k":"p","n":"Fresno Kaiser Hospital Northbound","ref":"4058"},
+  {"id":13019485247,"lat":36.816382,"lon":-119.75399,"k":"p"},
+  {"id":13019554616,"lat":36.830604,"lon":-119.781181,"k":"p"},
+  {"id":13929940607,"lat":36.81235,"lon":-119.75628,"k":"p","n":"Student Ahelete Village"},
+  {"id":13929940608,"lat":36.812317,"lon":-119.760715,"k":"p","n":"Bulldog Lane and Millbrook"},
+  {"id":13929940609,"lat":36.815115,"lon":-119.760733,"k":"p","n":"Millbrook and Barstow"},
+  {"id":13929940610,"lat":36.812956,"lon":-119.750868,"k":"p","n":"Campus Dr Loop"}
+],
+"routes":[
+  {"id":10655709,"t":{"ref":"2006","name":"Flixbus 2006: San Ysidro Bus Terminal (USA-Mexico Border) => Fresno State University","from":"San Ysidro Bus Terminal (USA-Mexico Border)","to":"Fresno State University","network":"Flixbus","operator":"Alvand Transportation","route":"bus","public_transport:version":"2"},"n":11,"s":[[9310248908,11]]},
+  {"id":10655710,"t":{"ref":"2006","name":"Flixbus 2006: Fresno State University => San Ysidro Bus Terminal (USA-Mexico Border)","from":"Fresno State University","to":"San Ysidro Bus Terminal (USA-Mexico Border)","network":"Flixbus","operator":"Alvand Transportation","route":"bus","public_transport:version":"2"},"n":11,"s":[[9310248908,1]]},
+  {"id":13764779,"t":{"ref":"Fresno HWY 41","name":"FRESNO - OAKHURST - YOSEMITE VALLEY","network":"YARTS","route":"bus","public_transport:version":"1"},"n":11,"s":[[9482702092,3]]},
+  {"id":13805966,"t":{"ref":"17","name":"Route 17 – Fresno","from":"Hanford","to":"Fresno","network":"Kings Area Regional Transit","operator":"Kings County Area Public Transit Agency","route":"bus"},"n":15,"s":[[9518909917,11],[9518909918,12],[9518941654,13],[9518941655,14]]},
+  {"id":15283938,"t":{"ref":"10","name":"Route 10 - Fresno State University / Northwest Clovis","from":"Nees & Willow","to":"Shaw & Cedar","network":"Stageline","operator":"Clovis Transit","route":"bus"},"n":18,"s":[[5701223856,17]]},
+  {"id":19654819,"t":{"ref":"2008","from":"West Oakland BART","to":"Nevada state line","network":"Flixbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[9310248908,4]]},
+  {"id":20968881,"t":{"ref":"BulldogX","name":"Bulldog Express","from":"Student Athlete Village","to":"Campus Drive Loop - Westbound","network":"Bulldog Express","operator":"Fresno State","route":"bus"},"n":7,"s":[[13929940607,1],[13929940608,2],[13929940609,3],[13929940610,4]]}
+]
+}

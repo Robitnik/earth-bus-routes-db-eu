@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-LA",
+"tile":[2410,1776],
+"stops":[
+  {"id":3263858369,"lat":30.521399,"lon":-91.153032,"k":"p"},
+  {"id":11823163795,"lat":30.524206,"lon":-91.180625,"k":"p","n":"Scotlandville Transfer","ref":"2878"},
+  {"id":11829458155,"lat":30.532695,"lon":-91.199742,"k":"p","n":"Ave K @ Mills Ave","ref":"2968"},
+  {"id":11829458157,"lat":30.514247,"lon":-91.175167,"k":"p","n":"72nd Ave @ Scenic Hwy","ref":"1165"},
+  {"id":11840225582,"lat":30.532539,"lon":-91.1567,"k":"p","n":"Baton Rouge Metropolitan Airport","ref":"2691"},
+  {"id":11842906813,"lat":30.531742,"lon":-91.179174,"k":"p"},
+  {"id":11842906814,"lat":30.531805,"lon":-91.178993,"k":"p"},
+  {"id":11842906816,"lat":30.53019,"lon":-91.179467,"k":"p"},
+  {"id":11842906817,"lat":30.530151,"lon":-91.179301,"k":"p"},
+  {"id":11842906818,"lat":30.527794,"lon":-91.179927,"k":"p"},
+  {"id":11842906834,"lat":30.521015,"lon":-91.179556,"k":"p"},
+  {"id":11842906863,"lat":30.52043,"lon":-91.17653,"k":"p"},
+  {"id":11842906867,"lat":30.520527,"lon":-91.173148,"k":"p"},
+  {"id":11842933472,"lat":30.520714,"lon":-91.168799,"k":"p"},
+  {"id":11842933474,"lat":30.520961,"lon":-91.165029,"k":"p"},
+  {"id":11845850372,"lat":30.521282,"lon":-91.156991,"k":"p"},
+  {"id":11845850382,"lat":30.521314,"lon":-91.155304,"k":"p"}
+],
+"routes":[
+  {"id":17480037,"t":{"ref":"10","name":"Bus 10: Scenic Highway","from":"Scotlandville Transfer","to":"CATS Terminal","network":"CATS","operator":"Capital Area Transit System","colour":"#002772","route":"bus","public_transport:version":"2"},"n":3,"s":[[11823163795,1]]},
+  {"id":17480038,"t":{"ref":"10","name":"Bus 10: Scenic Highway","from":"CATS Terminal","to":"Scotlandville Transfer","network":"CATS","operator":"Capital Area Transit System","colour":"#002772","route":"bus","public_transport:version":"2"},"n":3,"s":[[11823163795,3]]},
+  {"id":17488424,"t":{"ref":"11","name":"Bus 11: Northside Circulator","from":"Ave K @ Mills Ave","to":"EKL Transfer Center","network":"CATS","operator":"Capital Area Transit System","colour":"#CC8866","route":"bus","public_transport:version":"2"},"n":3,"s":[[11829458155,1],[11823163795,2]]},
+  {"id":17488425,"t":{"ref":"11","name":"Bus 11: Northside Circulator","from":"EKL Transfer Center","to":"Ave K @ Mills Ave","network":"CATS","operator":"Capital Area Transit System","colour":"#CC8866","route":"bus","public_transport:version":"2"},"n":3,"s":[[11829458157,2],[11829458155,3]]},
+  {"id":17505457,"t":{"ref":"54","name":"Bus 54: Airline Hwy","from":"Scotlandville Transfer Center","to":"Cortana Transit Center","network":"CATS","operator":"Capital Area Transit System","colour":"#B6A368","route":"bus","public_transport:version":"2"},"n":5,"s":[[11823163795,1],[11840225582,2]]},
+  {"id":17505458,"t":{"ref":"54","name":"Bus 54: Airline Hwy","from":"Cortana Transit Center","to":"Scotlandville Transfer Center","network":"CATS","operator":"Capital Area Transit System","colour":"#B6A368","route":"bus","public_transport:version":"2"},"n":3,"s":[[11840225582,2],[11823163795,3]]}
+]
+}

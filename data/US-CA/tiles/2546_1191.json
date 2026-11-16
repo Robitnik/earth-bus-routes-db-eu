@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2546,1191],
+"stops":[
+  {"id":12149281125,"lat":37.331173,"lon":-120.434248,"k":"p","ref":"1"},
+  {"id":12154530339,"lat":37.332054,"lon":-120.43781,"k":"p","n":"Moraga Subdivison;Yosemite Ave @ Perch (Eastbound)","ref":"5703"},
+  {"id":12183417509,"lat":37.33227,"lon":-120.43868,"k":"p","n":"Moraga Subdivison;Yosemite Ave @ Perch (Westbound)","ref":"5684"},
+  {"id":12385630328,"lat":37.332179,"lon":-120.448512,"k":"p","n":"Yosemite Avenue @ Chapparal(Westbound)","ref":"5694"}
+],
+"routes":[
+  {"id":18004145,"t":{"ref":"YosX","name":"Yosemite Express - UC Merced - Moraga/G Street","from":"UC Merced","to":"Moraga, G Street","network":"CatTracks","route":"bus"},"n":6,"s":[[12154530339,6]]},
+  {"id":18019750,"t":{"ref":"E2","name":"E2 - UC Merced - Yosemite Avenue & Bellevue Ranch","from":"UC Merced","to":"Yosemite Avenue & Bellevue Ranch","network":"CatTracks","route":"bus"},"n":10,"s":[[12154530339,2]]},
+  {"id":18033217,"t":{"ref":"FastCat","name":"FastCat","from":"UC Merced","to":"Bellevue Ranch & R Street","network":"CatTracks","route":"bus"},"n":10,"s":[[12154530339,2]]},
+  {"id":18033309,"t":{"ref":"FastCat2","name":"FasCat 2","from":"UC Merced","to":"Bellevue Ranch & R Street","network":"CatTracks","route":"bus"},"n":12,"s":[[12154530339,12]]},
+  {"id":18352084,"t":{"ref":"UC","name":"UC - UC Merced","from":"Merced Transportation Center","to":"UC Merced Transit Center","network":"The Bus","operator":"Merced Transit Authority","route":"bus"},"n":34,"s":[[12385630328,31],[12154530339,32],[12183417509,33]]}
+]
+}

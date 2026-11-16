@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2650,2030],
+"stops":[
+  {"id":12063318380,"lat":42.518265,"lon":-78.477673,"k":"p","n":"SASI Delevan"},
+  {"id":12063318398,"lat":42.540921,"lon":-78.487099,"k":"p","n":"SASI Sardinia"},
+  {"id":12063318411,"lat":42.530318,"lon":-78.478034,"k":"p","n":"Walgreens - Yorkshire"},
+  {"id":12063318413,"lat":42.5282,"lon":-78.48033,"k":"p","n":"Big Lots - Chaffee"}
+],
+"routes":[
+  {"id":17863376,"t":{"ref":"220","name":"RTS 220 Arcade Shopping Shuttle (P2)","from":"Arcade Municipal Lot","to":"Big Lots - Chaffee","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063318411,2],[12063318413,3]]},
+  {"id":17863377,"t":{"ref":"220","name":"RTS 220 Arcade Shopping Shuttle (P3)","from":"Big Lots - Chaffee","to":"Tops - Arcade","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12063318413,1]]},
+  {"id":17863418,"t":{"ref":"225","name":"RTS 225 Service to SASI (AM P1)","from":"Route 39 & Telegraph Road","to":"SASI Yorkshire","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063318380,3]]},
+  {"id":17863419,"t":{"ref":"225","name":"RTS 225 Service to SASI (AM/PM P2)","from":"SASI Yorkshire","to":"SASI Sardinia","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12063318380,1],[12063318398,2]]},
+  {"id":17863420,"t":{"ref":"225","name":"RTS 225 Service to SASI (AM P3)","from":"SASI Sardinia","to":"Wyoming County CHS","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063318398,1]]},
+  {"id":17863421,"t":{"ref":"225","name":"RTS 225 Service to SASI (PM P1)","from":"Wyoming County CHS","to":"SASI Yorkshire","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063318380,3]]},
+  {"id":17863422,"t":{"ref":"225","name":"RTS 225 Service to SASI (PM P3)","from":"SASI Sardinia","to":"Route 39 & Telegraph Road","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063318398,1]]}
+]
+}

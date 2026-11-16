@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-NE",
+"tile":[2617,1666],
+"stops":[
+  {"id":12192153624,"lat":40.859008,"lon":-96.678483,"k":"p","n":"Walmart"},
+  {"id":12192153625,"lat":40.859553,"lon":-96.682205,"k":"p","n":"27th & Ticonderoga (NW Side)"},
+  {"id":12192154035,"lat":40.865717,"lon":-96.669522,"k":"p","n":"33rd & Folkways"},
+  {"id":12544237508,"lat":40.857475,"lon":-96.696652,"k":"p","n":"Superior & Bel‐Ridge Drive","ref":"20"},
+  {"id":12544237510,"lat":40.857279,"lon":-96.697105,"k":"p","n":"Superior & Bel‐Ridge Drive","ref":"17"}
+],
+"routes":[
+  {"id":11492041,"t":{"ref":"27","name":"Bus #27 - North 27th - Outbound","from":"11th & L Street - Stop 3","to":"33rd & Folkways Circle","network":"StarTran","operator":"StarTran","route":"bus"},"n":5,"s":[[12192153624,4],[12192154035,5]]},
+  {"id":11492265,"t":{"ref":"27","name":"Bus #27 - North 27th - Inbound","from":"33rd & Folkways Circle","to":"11th & L Street - Stop 4","network":"StarTran","operator":"StarTran","route":"bus"},"n":5,"s":[[12192153625,3],[12192154035,4]]},
+  {"id":11492551,"t":{"ref":"41","name":"Bus #41 - Havelock - Outbound","from":"11th & L Street - Stop 1","to":"Havelock & 64th Street","network":"StarTran","operator":"StarTran","route":"bus"},"n":3,"s":[[12192153624,2],[12544237510,3]]},
+  {"id":11492660,"t":{"ref":"41","name":"Bus #41 - Havelock - Inbound","from":"Havelock & 64th Street","to":"11th & L Street - Stop 6","network":"StarTran","operator":"StarTran","route":"bus"},"n":5,"s":[[12192153624,3],[12544237508,4]]},
+  {"id":11496068,"t":{"ref":"48","name":"Bus #48 -North 48th - Inbound","from":"Walmart","to":"Veterans Hospital","network":"StarTran","operator":"StarTran","route":"bus"},"n":2,"s":[[12192153624,2]]},
+  {"id":11496218,"t":{"ref":"48","name":"Bus #48 - North 48th - Outbound","from":"“L” & Victory Park Drive","to":"Walmart","network":"StarTran","operator":"StarTran","route":"bus"},"n":2,"s":[[12192153624,2]]}
+]
+}

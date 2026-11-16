@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2485,1213],
+"stops":[
+  {"id":906205183,"lat":34.281743,"lon":-119.300544,"k":"p","n":"Ventura Ave & Main","ref":"18081"},
+  {"id":906205239,"lat":34.2809,"lon":-119.300286,"k":"p","n":"Gold Coast Transit","ref":"6A;6B"},
+  {"id":9634963676,"lat":34.281521,"lon":-119.305898,"k":"p","n":"West Main at Perking EB (Park & Ride)","ref":"41680"},
+  {"id":9634963677,"lat":34.281768,"lon":-119.306263,"k":"p","n":"West Main at Perking WB (Park & Ride)","ref":"40427"},
+  {"id":9644715587,"lat":34.280488,"lon":-119.300853,"k":"p","n":"Ventura Ave & Main (Southbound)","ref":"18082"}
+],
+"routes":[
+  {"id":13987670,"t":{"ref":"81","name":"81- Coastal Express","from":"Santa Barbara","to":"Camarillo","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":18,"s":[[9634963676,8],[9634963677,9]]},
+  {"id":14008957,"t":{"ref":"6","name":"6 - OXNARD - VENTURA","from":"Oxnard Transit Center","to":"Ventura & Willet","network":"Gold Coast Transit","operator":"Gold Coast Transit","route":"bus"},"n":17,"s":[[906205183,7],[9644715587,8]]},
+  {"id":14013053,"t":{"ref":"16","name":"16 - DOWNTOWN OJAI - PACIFIC VIEW MALL","from":"Pacific View Mall/Ventura Transit Center","to":"Ojai Park & Ride","network":"Gold Coast Transit","operator":"Gold Coast Transit District","route":"bus"},"n":20,"s":[[9644715587,6],[906205183,7]]},
+  {"id":15486742,"t":{"ref":"80","name":"80 - Coastal Express","from":"Santa Barbara","to":"Ventura","network":"VCTC Intercity","operator":"VCTC intercity","route":"bus"},"n":17,"s":[[9634963677,12],[9634963676,13]]},
+  {"id":15544824,"t":{"ref":"84","name":"84 - Coastal Express","from":"Camarillo Metrolink","to":"MTD Transit Center","network":"VCTC Intercity","route":"bus"},"n":21,"s":[[9634963676,4],[9634963677,5]]},
+  {"id":15551455,"t":{"ref":"85","name":"85 - Coastal Express","from":"Camarillo Metrolink","to":"Los Carneros Road / Karl Storz Way","network":"VCTC Intercity","operator":"VCTC intercity","route":"bus"},"n":22,"s":[[9634963676,8],[9634963677,9]]}
+]
+}

@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2493,1190],
+"stops":[
+  {"id":10736126389,"lat":34.662918,"lon":-120.456816,"k":"p","n":"Mission Plaza"},
+  {"id":10740304502,"lat":34.660769,"lon":-120.464926,"k":"p","n":"Central @ Walmart Eastbound"},
+  {"id":10740413507,"lat":34.660983,"lon":-120.463622,"k":"p","n":"Central @ Walmart Westbound"},
+  {"id":10742640546,"lat":34.653409,"lon":-120.452109,"k":"p","n":"Lompoc Library Westbound"},
+  {"id":10742640547,"lat":34.65327,"lon":-120.45221,"k":"p","n":"Lompoc Library Eastbound"},
+  {"id":10742640548,"lat":34.650099,"lon":-120.459017,"k":"p","n":"Pine Avenue and H Street (East)","ref":"S18"},
+  {"id":10742640549,"lat":34.65028,"lon":-120.459158,"k":"p","n":"Pine Avenue and H Street (West)","ref":"S31"},
+  {"id":10758189670,"lat":34.661886,"lon":-120.467203,"k":"p","n":"Denmat"},
+  {"id":10760486584,"lat":34.680472,"lon":-120.459679,"k":"p","n":"Allan Hancock College"},
+  {"id":10760544352,"lat":34.695065,"lon":-120.470389,"k":"p","n":"Constellation and Jupiter"}
+],
+"routes":[
+  {"id":15601672,"t":{"ref":"1","name":"Route 1","from":"Cypress Avenue and I Street","to":"Lompoc Valley Medical Center","network":"City of Lompoc Transit","route":"bus"},"n":9,"s":[[10736126389,8]]},
+  {"id":15611142,"t":{"ref":"2","name":"Route 2","from":"Cypress Avenue and I Street","to":"Central @ Walmart","network":"City of Lompoc Transit","route":"bus"},"n":8,"s":[[10740304502,2],[10740413507,3],[10736126389,4]]},
+  {"id":15614602,"t":{"ref":"3","name":"Route 3","from":"Cypress Avenue and I Street","to":"Mission Plaza","network":"City of Lompoc Transit","route":"bus"},"n":12,"s":[[10736126389,1],[10742640546,4],[10742640547,5],[10742640548,6],[10742640549,7]]},
+  {"id":15627971,"t":{"ref":"30","name":"30 - Santa Maria Transit Center/Vandenberg/Lompoc","from":"Santa Maria Transit Center","to":"Lompoc Transit Center","network":"Santa Maria Regional Transit","operator":"Santa Maria Regional Transit","route":"bus"},"n":21,"s":[[10736126389,18],[10758189670,19]]},
+  {"id":15640239,"t":{"ref":"4","name":"Route 4","from":"Mission Plaza","to":"Cabrillo High School","network":"City of Lompoc Transit","route":"bus"},"n":8,"s":[[10736126389,1],[10760486584,2],[10760544352,8]]}
+]
+}

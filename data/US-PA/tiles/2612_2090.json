@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"US-PA",
+"tile":[2612,2090],
+"stops":[
+  {"id":4848547196,"lat":40.600112,"lon":-75.479716,"k":"p","n":"11th&Hamiltonw"},
+  {"id":4848560669,"lat":40.601005,"lon":-75.47633,"k":"p"},
+  {"id":13075013262,"lat":40.604737,"lon":-75.471265,"k":"s","n":"Allentown Transportation Center"},
+  {"id":13107888618,"lat":40.644556,"lon":-75.495145,"k":"p","n":"MacArthur Towne Center"},
+  {"id":13107888619,"lat":40.64287,"lon":-75.493883,"k":"p","n":"MacArthur Towne Center"},
+  {"id":13403736650,"lat":40.604815,"lon":-75.471184,"k":"p","n":"Platform A"},
+  {"id":13403736651,"lat":40.604716,"lon":-75.471135,"k":"p","n":"Platform B"},
+  {"id":13756519245,"lat":40.600662,"lon":-75.494475,"k":"p"}
+],
+"routes":[
+  {"id":19469272,"t":{"ref":"Blue Line","name":"Blue Line Westbound","from":"Easton","to":"Trexlertown","operator":"Lehigh and Northampton Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[13075013262,2]]},
+  {"id":19469278,"t":{"ref":"Blue Line","name":"Blue Line Eastbound","from":"Trexlertown","to":"Easton","operator":"Lehigh and Northampton Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[13075013262,2]]},
+  {"id":19541115,"t":{"ref":"Green Line","name":"Green Line Eastbound","from":"MacArthur","to":"Wind Creek Casino","operator":"Lehigh and Northampton Transportation Authority","route":"bus","public_transport:version":"2"},"n":4,"s":[[13107888619,1],[13075013262,2]]},
+  {"id":19541116,"t":{"ref":"Green Line","name":"Green Line Westbound","from":"Wind Creek Casino","to":"MacArthur","operator":"Lehigh and Northampton Transportation Authority","route":"bus","public_transport:version":"2"},"n":4,"s":[[13075013262,3],[13107888618,4]]}
+]
+}

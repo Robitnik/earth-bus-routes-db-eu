@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2397,1641],
+"stops":[
+  {"id":151469537,"lat":29.890154,"lon":-97.944195,"k":"x","n":"Matthews Street"},
+  {"id":4528792888,"lat":29.891815,"lon":-97.923276,"k":"p","n":"Bobcat Stadium East"},
+  {"id":4677318541,"lat":29.887345,"lon":-97.941829,"k":"x"},
+  {"id":5248788985,"lat":29.876408,"lon":-97.941354,"k":"s","n":"CARTS San Marcos","ref":"SMC"},
+  {"id":9458877929,"lat":29.887463,"lon":-97.941853,"k":"p","n":"North Guadalupe & Woods"},
+  {"id":9458877935,"lat":29.876263,"lon":-97.941316,"k":"x","n":"San Marcos","ref":"SMC"},
+  {"id":10065636020,"lat":29.886841,"lon":-97.942253,"k":"p","n":"Tower","ref":"1"},
+  {"id":10065636021,"lat":29.886872,"lon":-97.942121,"k":"x","n":"Tower","ref":"1"},
+  {"id":10065803723,"lat":29.850797,"lon":-97.947376,"k":"x","n":"Cabana Beach"},
+  {"id":10065803724,"lat":29.85093,"lon":-97.947514,"k":"p","n":"Cabana Beach"},
+  {"id":10065803727,"lat":29.894289,"lon":-97.920884,"k":"p","n":"Bobcat Village"},
+  {"id":10065803728,"lat":29.894293,"lon":-97.920844,"k":"x","n":"Bobcat Village"},
+  {"id":10065803729,"lat":29.888274,"lon":-97.931674,"k":"p","n":"UEC"},
+  {"id":10065803731,"lat":29.888239,"lon":-97.931633,"k":"x","n":"UEC"},
+  {"id":10065803732,"lat":29.890586,"lon":-97.941388,"k":"p","n":"Quad"},
+  {"id":10065803733,"lat":29.8906,"lon":-97.941309,"k":"x","n":"Quad"},
+  {"id":10065803734,"lat":29.889854,"lon":-97.944852,"k":"p","n":"LBJ"},
+  {"id":10065803735,"lat":29.889802,"lon":-97.944885,"k":"x","n":"LBJ"},
+  {"id":10065803736,"lat":29.890158,"lon":-97.944254,"k":"p","n":"Matthews Street"},
+  {"id":5001441539726,"lat":29.8764,"lon":-97.941354,"k":"p","n":"San Marcos","ref":"SMC"}
+],
+"routes":[
+  {"id":13736672,"t":{"ref":"1510","from":"Austin","to":"San Marcos","network":"CARTS","operator":"Capital Area Rural Transportation Service","colour":"yellow","route":"bus","public_transport:version":"2"},"n":4,"s":[[9458877929,3],[5001441539726,4]]},
+  {"id":21586663,"t":{"ref":"26","from":"Tower","to":"Leah Avenue","network":"Bobcat Shuttle","operator":"Texas State University","colour":"maroon","route":"bus","public_transport:version":"2"},"n":5,"s":[[10065636020,1],[10065803724,3]]},
+  {"id":21586664,"t":{"ref":"26","from":"Leah Avenue","to":"Tower","network":"Bobcat Shuttle","operator":"Texas State University","colour":"maroon","route":"bus","public_transport:version":"2"},"n":3,"s":[[10065636020,3]]},
+  {"id":21586667,"t":{"ref":"12","from":"Bobcat Village","to":"Matthews Street","network":"Bobcat Shuttle","operator":"Texas State University","colour":"purple","route":"bus","public_transport:version":"2"},"n":4,"s":[[10065803727,1],[10065803729,2],[10065803734,3],[10065803736,4]]},
+  {"id":21586668,"t":{"ref":"12","from":"Matthews Street","to":"Bobcat Village","network":"Bobcat Shuttle","operator":"Texas State University","colour":"purple","route":"bus","public_transport:version":"2"},"n":4,"s":[[10065803736,1],[10065803732,2],[10065803729,3],[10065803727,4]]},
+  {"id":21586671,"t":{"ref":"1510","from":"San Marcos","to":"Austin","network":"CARTS","operator":"Capital Area Rural Transportation Service","colour":"yellow","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001441539726,1]]}
+]
+}

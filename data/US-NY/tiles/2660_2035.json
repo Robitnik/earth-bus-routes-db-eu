@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2660,2035],
+"stops":[
+  {"id":5378524438,"lat":43.00758,"lon":-78.23407,"k":"p","n":"Big Tree Glen"},
+  {"id":12050455578,"lat":43.01576,"lon":-78.202179,"k":"p","n":"Target Plaza"},
+  {"id":12050455579,"lat":43.008954,"lon":-78.205701,"k":"p","n":"Batavia Downs"},
+  {"id":12054417929,"lat":43.004433,"lon":-78.207606,"k":"p","n":"Batavia Plaza"},
+  {"id":12054417931,"lat":43.00673,"lon":-78.204824,"k":"p","n":"Tops - Batavia"},
+  {"id":12054417932,"lat":43.01258,"lon":-78.201504,"k":"p","n":"Park Place Apartments"},
+  {"id":12054417933,"lat":43.012869,"lon":-78.208134,"k":"p","n":"Walmart - Batavia"}
+],
+"routes":[
+  {"id":17829850,"t":{"ref":"203","name":"RTS 203 Batavia (S1)","from":"Walmart - Albion","to":"Target Plaza","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455578,3]]},
+  {"id":17830966,"t":{"ref":"203","name":"RTS 203 Batavia (S2)","from":"Target Plaza","to":"Batavia VA Hospital","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455578,1],[12050455579,2]]},
+  {"id":17843008,"t":{"ref":"211","name":"RTS 211 Batavia (P2)","from":"400 Towers","to":"Batavia Plaza","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054417929,2]]},
+  {"id":17843009,"t":{"ref":"211","name":"RTS 211 Batavia (P3)","from":"Batavia Plaza","to":"Walmart - Batavia","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12054417929,1],[12054417931,2],[12054417933,3]]},
+  {"id":17843010,"t":{"ref":"211","name":"RTS 211 Batavia (P4)","from":"Walmart - Batavia","to":"Batavia Downs","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12054417933,1],[12050455578,2],[12050455579,3]]},
+  {"id":17843011,"t":{"ref":"211","name":"RTS 211 Batavia (P5)","from":"Batavia Downs","to":"400 Towers","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12050455579,1]]},
+  {"id":17843015,"t":{"ref":"211","name":"RTS 211 Batavia (P5-7 alternate)","from":"Batavia Downs","to":"Genesee County DSS","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12050455579,1]]},
+  {"id":17849078,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P8)","from":"Genesee County DSS","to":"Big Tree Glen","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[5378524438,4]]},
+  {"id":17849079,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P9)","from":"Big Tree Glen","to":"Batavia Plaza","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[5378524438,1],[12054417929,2]]},
+  {"id":17850489,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P10)","from":"Batavia Plaza","to":"Park Place Apartments","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12054417929,1],[12054417931,2],[12050455579,3],[12054417932,4]]},
+  {"id":17850490,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P11)","from":"Park Place Apartments","to":"Target Plaza","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054417932,1],[12050455578,2]]},
+  {"id":17850491,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P12)","from":"Target Plaza","to":"Batavia VA","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455578,1],[12054417933,2]]},
+  {"id":17850496,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P5)","from":"DePaul","to":"Batavia Plaza","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054417929,2]]},
+  {"id":17850497,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P6)","from":"Batavia Plaza","to":"Park Place Apartments","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12054417929,1],[12054417931,2],[12050455579,3],[12054417932,4]]},
+  {"id":17850498,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P7)","from":"Target Plaza","to":"Big Tree Glen","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455578,1],[12054417933,2],[5378524438,3]]},
+  {"id":17850499,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P8)","from":"Big Tree Glen","to":"Tops - LeRoy","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":6,"s":[[5378524438,1]]}
+]
+}

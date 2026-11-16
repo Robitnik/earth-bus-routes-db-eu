@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-WA",
+"tile":[2744,1155],
+"stops":[
+  {"id":6311985743,"lat":47.248946,"lon":-122.211299,"k":"p","n":"Lakeland Hills Way Southeast & 67th Street Southeast","ref":"3466"},
+  {"id":6311985744,"lat":47.246441,"lon":-122.211449,"k":"p","n":"69th Street Southeast & Lakeland Hills Way Southeast","ref":"4581"},
+  {"id":8612091316,"lat":47.201237,"lon":-122.244715,"k":"p","n":"Sumner Station Bay 3"},
+  {"id":8612102117,"lat":47.2015,"lon":-122.244409,"k":"p","n":"Sumner Station Bay 2"},
+  {"id":8612102118,"lat":47.201764,"lon":-122.244121,"k":"p","n":"Sumner Station Bay 1"},
+  {"id":13173910149,"lat":47.247486,"lon":-122.215096,"k":"p","n":"67th Street Southeast & Lindsay Avenue Southeast","ref":"4602"}
+],
+"routes":[
+  {"id":8664769,"t":{"ref":"578","name":"Route 578: Puyallup","from":"Seattle","to":"Puyallup","network":"Sound Transit Express","operator":"Sound Transit","route":"bus","public_transport:version":"2"},"n":13,"s":[[8612102117,12]]},
+  {"id":9543212,"t":{"ref":"497","name":"Pierce Transit Route 497 Auburn Transit Center","from":"Auburn Transit Center","to":"69th Street Southeast & Lakeland Hills Way","network":"Pierce Transit","operator":"Pierce County Public Transportation Benefit Area Corporation","route":"bus","public_transport:version":"2"},"n":8,"s":[[6311985744,1],[6311985743,2]]},
+  {"id":12559319,"t":{"ref":"578","name":"Route 578: Seattle","network":"Sound Transit Express","operator":"Sound Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[8612102118,2]]},
+  {"id":19651618,"t":{"ref":"497","name":"Pierce Transit Route 497 69th Street Southeast & Lakeland Hills Way","from":"69th Street Southeast & Lakeland Hills Way","to":"Auburn Transit Center","network":"Pierce Transit","operator":"Pierce County Public Transportation Benefit Area Corporation","route":"bus","public_transport:version":"2"},"n":9,"s":[[13173910149,8],[6311985744,9]]}
+]
+}

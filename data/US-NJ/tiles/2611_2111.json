@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2611,2111],
+"stops":[
+  {"id":695011127,"lat":40.592767,"lon":-74.448176,"k":"p","n":"NJT 819 - 4th St at Rock Ave"},
+  {"id":3780945503,"lat":40.594966,"lon":-74.44569,"k":"p","n":"4th Street at Rushmore Avenue"},
+  {"id":3780945506,"lat":40.5859,"lon":-74.419011,"k":"p","n":"Plainfield Avenue at Sampton Avenue"},
+  {"id":3780963953,"lat":40.585892,"lon":-74.418776,"k":"p","n":"Plainfield Avenue at Sampton Avenue"},
+  {"id":3781006833,"lat":40.579832,"lon":-74.431459,"k":"p","n":"Clinton Avenue at New Market Avenue"},
+  {"id":3781006834,"lat":40.579841,"lon":-74.431213,"k":"p","n":"Clinton Avenue at New Market Avenue"},
+  {"id":13096327186,"lat":40.582437,"lon":-74.413601,"k":"p","n":"Maple Ave at Plainfield Ave","ref":"24056"},
+  {"id":13096327187,"lat":40.581612,"lon":-74.41389,"k":"p","n":"Lakeview Ave at Elm St","ref":"24043"},
+  {"id":13096327188,"lat":40.584316,"lon":-74.416109,"k":"p","n":"Plainfield Ave at Lane Ave","ref":"24083"},
+  {"id":13096327189,"lat":40.584357,"lon":-74.41581,"k":"p","n":"Plainfield Ave at Lane Ave","ref":"24072"}
+],
+"routes":[
+  {"id":3677083,"t":{"ref":"819","name":"NJTB - 819 - Piscataway to Metuchen (Weekdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":9,"s":[[3780945503,1],[3780945506,4]]},
+  {"id":5574355,"t":{"ref":"819","name":"NJTB - 819 - Metuchen to Piscataway (Weekdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":9,"s":[[3780963953,6],[3780945503,9]]},
+  {"id":5574406,"t":{"ref":"819","name":"NJTB - 819 - Plainfield to South Plainfield (Weekdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":6,"s":[[3780945506,4],[3781006833,5]]},
+  {"id":5574420,"t":{"ref":"819","name":"NJTB - 819 - South Plainfield to Piscataway (Saturdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":6,"s":[[3781006834,2],[3780963953,3],[3780945503,6]]},
+  {"id":5574425,"t":{"ref":"819","name":"NJTB - 819 - Piscataway to South Plainfield (Saturdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":6,"s":[[3780945503,1],[3780945506,4],[3781006833,5]]},
+  {"id":5574426,"t":{"ref":"819","name":"NJTB - 819 - South Plainfield to Plainfield (Weekdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":6,"s":[[3781006834,2],[3780963953,3]]}
+]
+}

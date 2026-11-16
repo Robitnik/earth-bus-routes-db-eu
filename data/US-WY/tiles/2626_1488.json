@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-WY",
+"tile":[2626,1488],
+"stops":[
+  {"id":1436022488,"lat":41.309862,"lon":-105.593318,"k":"s","n":"Safe ride"},
+  {"id":4052318584,"lat":41.313638,"lon":-105.560638,"k":"p","n":"East Express Lot Shelter 2"},
+  {"id":4052319690,"lat":41.313616,"lon":-105.562194,"k":"p","n":"East Express Lot Shelter 1"},
+  {"id":4052319693,"lat":41.313622,"lon":-105.558605,"k":"p","n":"East Express Lot Shelter 3"},
+  {"id":4052319707,"lat":41.311106,"lon":-105.560193,"k":"p","n":"Lodgepole","ref":"Lodgepole"},
+  {"id":4052319708,"lat":41.310455,"lon":-105.557083,"k":"p","n":"Spanish Walk","ref":"Spanish Walk"},
+  {"id":4052351567,"lat":41.310793,"lon":-105.564331,"k":"p","n":"Gateway East","ref":"Gateway East"},
+  {"id":4052352155,"lat":41.314238,"lon":-105.569567,"k":"p","n":"Animal Science"},
+  {"id":6292199012,"lat":41.313663,"lon":-105.570307,"k":"p","n":"Arena Auditorium"},
+  {"id":6292210851,"lat":41.313432,"lon":-105.585383,"k":"p","n":"Classroom Building"},
+  {"id":6292210852,"lat":41.315062,"lon":-105.583005,"k":"p","n":"Enzi STEM Laboratories"},
+  {"id":6292210853,"lat":41.31481,"lon":-105.578464,"k":"p","n":"Wyo/McWhinnie Halls"},
+  {"id":6292210855,"lat":41.310493,"lon":-105.574387,"k":"p","n":"Residence Halls East","ref":"Residence Halls East"},
+  {"id":6292210856,"lat":41.310466,"lon":-105.564954,"k":"p","n":"Gateway West","ref":"Gateway West"},
+  {"id":6292210857,"lat":41.310049,"lon":-105.574363,"k":"p","n":"Residence Halls West","ref":"Residence Halls West"},
+  {"id":6293373643,"lat":41.302241,"lon":-105.577677,"k":"p","n":"South Express Lot","ref":"South Express Lot"},
+  {"id":11527205056,"lat":41.311043,"lon":-105.596246,"k":"p","n":"Downtown","ref":"Downtown"},
+  {"id":11528311079,"lat":41.310704,"lon":-105.583795,"k":"p","n":"Ivinson Parking Garage","ref":"Ivinson Parking Garage"}
+],
+"routes":[
+  {"id":9344404,"t":{"ref":"EAST","name":"Union Express","network":"UWyo Roundup","route":"bus"},"n":5,"s":[[6292199012,1],[4052319693,2],[4052318584,3],[4052319690,4],[4052352155,5]]},
+  {"id":9344405,"t":{"ref":"CC","name":"Campus Commuter: East","from":"Wyoming Union","to":"East Express Lot","operator":"UWyo Roundup","route":"bus"},"n":8,"s":[[6292210851,1],[6292210852,2],[6292210853,3],[6292210855,4],[4052319707,5],[4052319708,6],[4052319693,7],[4052318584,8]]},
+  {"id":9344406,"t":{"ref":"CC","name":"Campus Commuter: West","from":"East Express Lot","to":"Enzi STEM Laboratory","operator":"UWyo Roundup","route":"bus"},"n":6,"s":[[4052318584,1],[4052319690,2],[6292210856,3],[6292210857,4],[6292210851,5],[6292210852,6]]}
+]
+}

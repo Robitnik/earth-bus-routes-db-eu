@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"US-HI",
+"tile":[2216,473],
+"stops":[
+  {"id":5207428821,"lat":20.845264,"lon":-156.328751,"k":"p"},
+  {"id":8954637658,"lat":20.821049,"lon":-156.329557,"k":"p","n":"Kulamalu Town Center"},
+  {"id":8955092706,"lat":20.838279,"lon":-156.32675,"k":"p","n":"Makawao Ave/Koehana Pl"},
+  {"id":8955092707,"lat":20.844815,"lon":-156.320221,"k":"p","n":"Makawao Ave/Alana Pl"},
+  {"id":8955092708,"lat":20.846332,"lon":-156.319167,"k":"p","n":"Makawao Ave/Poalima Pl"},
+  {"id":8955092709,"lat":20.848318,"lon":-156.318034,"k":"p","n":"Makawao Ave/Makini Rd"},
+  {"id":8955226695,"lat":20.838633,"lon":-156.342476,"k":"p","n":"Mayor Hannibal Tavares Community Center"},
+  {"id":8955226696,"lat":20.834542,"lon":-156.340529,"k":"p","n":"Iolani St/Ehilani St"}
+],
+"routes":[
+  {"id":10726312,"t":{"ref":"40","name":"Upcountry Islander to Kahului Transit Center","network":"Maui Bus","operator":"County of Maui","colour":"light blue","route":"bus"},"n":12,"s":[[8954637658,2],[8955092706,3],[8955092707,4],[8955092708,5],[8955092709,6]]},
+  {"id":13026293,"t":{"ref":"40","name":"Upcountry Islander to Kulamu","network":"Maui Bus","operator":"Maui County","route":"bus"},"n":7,"s":[[8954637658,4],[8955226695,5],[8955226696,6]]},
+  {"id":13431466,"t":{"ref":"39","name":"Kula Islander (Inbound to Kahului)","network":"Maui Bus","operator":"Maui Bus","route":"bus"},"n":14,"s":[[8955226696,3],[8954637658,4]]},
+  {"id":13431467,"t":{"ref":"39","name":"Kula Islander (Outbound to Kula)","network":"Maui Bus","operator":"Maui Bus","route":"bus"},"n":22,"s":[[8955226695,3],[8955226696,4],[8954637658,5]]}
+]
+}

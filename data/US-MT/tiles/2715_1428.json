@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-MT",
+"tile":[2715,1428],
+"stops":[
+  {"id":6231304444,"lat":45.795227,"lon":-108.590496,"k":"p","n":"Poly &  Rehburg Bus Stop"},
+  {"id":6691851828,"lat":45.784938,"lon":-108.553929,"k":"p","n":"15th W & Ave B"},
+  {"id":7154494755,"lat":45.767925,"lon":-108.582103,"k":"x","n":"Stewart Park Transfer Center","ref":"5000"},
+  {"id":12170941228,"lat":45.769883,"lon":-108.576044,"k":"p","n":"Central Avenue and 24th Street West","ref":"0928"},
+  {"id":12170941229,"lat":45.769675,"lon":-108.574874,"k":"p","n":"24th Street West and Central Avenue","ref":"0929"},
+  {"id":12170941230,"lat":45.769678,"lon":-108.571743,"k":"p","n":"Central Avenue and Santa Fe Drive","ref":"0930"}
+],
+"routes":[
+  {"id":10155718,"t":{"ref":"24","name":"Poly","network":"MET","operator":"MET","route":"bus"},"n":2,"s":[[7154494755,1]]},
+  {"id":10620412,"t":{"ref":"5A","name":"GRAND 5A","from":"Downtown Transfer Center (Grand)","to":"Grand Ave And Division St (Inbound)","network":"MET","operator":"MET Transit","route":"bus"},"n":2,"s":[[7154494755,1]]},
+  {"id":12295620,"t":{"ref":"S9","name":"CENTRAL S9","from":"Downtown Transfer Center (Central)","to":"Central Ave And 15th St W (Outbound)","network":"MET","operator":"MET Transit","route":"bus"},"n":4,"s":[[12170941228,1],[7154494755,2],[12170941229,3],[12170941230,4]]}
+]
+}

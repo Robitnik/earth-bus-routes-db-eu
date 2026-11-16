@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-AZ",
+"tile":[2501,1308],
+"stops":[
+  {"id":9348109654,"lat":35.099519,"lon":-114.594396,"k":"p","n":"The Hub @ Riverview Mall","ref":"90"},
+  {"id":9348161338,"lat":35.055115,"lon":-114.593952,"k":"p","n":"Mohave Crossroads North","ref":"85"},
+  {"id":9363412835,"lat":35.083613,"lon":-114.595146,"k":"p","n":"Walmart @ Mohave Drive","ref":"5003"},
+  {"id":9467693505,"lat":35.051612,"lon":-114.58989,"k":"p","n":"Target at Ash Ave & Long Ave","ref":"2009"},
+  {"id":13232124549,"lat":35.082833,"lon":-114.59506,"k":"p","n":"Walmart"},
+  {"id":13232138213,"lat":35.051836,"lon":-114.59044,"k":"p","n":"Target"}
+],
+"routes":[
+  {"id":13563609,"t":{"ref":"Orange Line","name":"Orange Line","from":"The Hub @ Riverview Mall","to":"Mohave Community College","network":"Bullhead Area Transit System","operator":"City of Bullhead","route":"bus"},"n":4,"s":[[9348109654,1],[9348161338,2],[9363412835,3],[9467693505,4]]},
+  {"id":13574691,"t":{"ref":"Red Line","name":"Red Line","from":"The Hub @ Riverview Mall","to":"Riverside Boat Dock","network":"Bullhead Area Transit System","operator":"City of Bullhead","route":"bus"},"n":5,"s":[[9348109654,1]]},
+  {"id":13589445,"t":{"ref":"Green Line","name":"Green Line","from":"The Hub @ Riverview Mall","to":"Airpark Drive","network":"Bullhead Area Transit System","operator":"City of Bullhead","route":"bus"},"n":4,"s":[[9348109654,1],[9363412835,4]]},
+  {"id":13741421,"t":{"ref":"Searchlight Express","name":"Searchlight Express","from":"Searchlight","to":"Bullhead Target","network":"Silver Rider Transit","operator":"Southern Nevada Transit Coalition","route":"bus"},"n":4,"s":[[9348109654,2],[9363412835,3],[9467693505,4]]},
+  {"id":19699374,"t":{"ref":"Bullhead","name":"Fort Mohave/Bullhead Shuttle","from":"El Garces Intermodal Transportation Facility","to":"Bullhead City Smart & Final","network":"Needles Area Transit","operator":"Needles Area Transit","route":"bus"},"n":7,"s":[[13232138213,5],[13232124549,6]]}
+]
+}

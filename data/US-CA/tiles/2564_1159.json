@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2564,1159],
+"stops":[
+  {"id":6666757461,"lat":38.242796,"lon":-122.041528,"k":"x","n":"Suisun-Fairfield Amtrak"},
+  {"id":12790416457,"lat":38.242935,"lon":-122.041515,"k":"p"},
+  {"id":12790416464,"lat":38.242829,"lon":-122.041588,"k":"p"},
+  {"id":12790416465,"lat":38.243079,"lon":-122.040464,"k":"p"},
+  {"id":13082067165,"lat":38.249978,"lon":-122.039162,"k":"x","n":"Armijo High School","ref":"75505"},
+  {"id":13082067166,"lat":38.24995,"lon":-122.039287,"k":"p","n":"Armijo High School","ref":"75505"},
+  {"id":13082067168,"lat":38.249205,"lon":-122.037279,"k":"x","n":"Texas St and Clay St","ref":"75071"},
+  {"id":13082067169,"lat":38.249293,"lon":-122.037278,"k":"p","n":"Texas St and Clay St","ref":"75071"},
+  {"id":13082067170,"lat":38.249222,"lon":-122.036685,"k":"x","n":"Texas St and State St","ref":"75088"},
+  {"id":13082067171,"lat":38.249125,"lon":-122.036678,"k":"p","n":"Texas St and State St","ref":"75088"},
+  {"id":5000709320346,"lat":38.242932,"lon":-122.041523,"k":"p"}
+],
+"routes":[
+  {"id":9866367,"t":{"ref":"R","name":"SolanoExpress Red Line: Suisun-Fairfield Amtrak => Vallejo Transit Center => El Cerrito del Norte BART","from":"Suisun-Fairfield Amtrak","to":"El Cerrito del Norte BART","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000709320346,1]]},
+  {"id":9866368,"t":{"ref":"R","name":"SolanoExpress Red Line: El Cerrito del Norte BART => Vallejo Transit Center => Suisun-Fairfield Amtrak","from":"El Cerrito del Norte BART","to":"Suisun-Fairfield Amtrak","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000709320346,7]]},
+  {"id":19479607,"t":{"ref":"1","name":"Fairfield and Suisun Transit 1: Fairfield Transportation Center => Walmart via Fairfield Civic Center","from":"Fairfield Transportation Center","to":"Walmart","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#0092c6","route":"bus"},"n":20,"s":[[13082067165,10],[13082067170,11]]},
+  {"id":19479608,"t":{"ref":"1","name":"Fairfield and Suisun Transit 1: Walmart => Fairfield Transportation Center via Fairfield Civic Center","from":"Walmart","to":"Fairfield Transportation Center","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#0092c6","route":"bus"},"n":27,"s":[[13082067168,18],[13082067165,19]]}
+]
+}

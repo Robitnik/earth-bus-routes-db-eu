@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2531,1224],
+"stops":[
+  {"id":2377697340,"lat":36.580549,"lon":-118.751946,"k":"p","n":"Sherman Tree"},
+  {"id":3557301621,"lat":36.564143,"lon":-118.773226,"k":"p","n":"Giant Forest Museum"}
+],
+"routes":[
+  {"id":14038258,"t":{"ref":"V","name":"Visalia/Sequoia Park Route","network":"Sequoia Shuttle","operator":"City of Visalia","route":"bus","public_transport:version":"1"},"n":10,"s":[[3557301621,3]]},
+  {"id":14669499,"t":{"ref":"2","name":"MORO ROCK / CRESCENT MEADOW","from":"Giant Forest Museum","to":"Crescent Meadow","network":"Sequoia Shuttle","operator":"City of Visalia","route":"bus"},"n":3,"s":[[3557301621,1]]},
+  {"id":14669548,"t":{"ref":"1","name":"THE GIANT FOREST ROUTE","from":"Giant Forest Museum","to":"Lodgepole Campground","network":"Sequoia Shuttle","operator":"City of Visalia","route":"bus"},"n":5,"s":[[3557301621,1],[2377697340,2]]},
+  {"id":14699975,"t":{"ref":"4","name":"WOLVERTON ROUTE","from":"Sherman Tree","to":"Wolverton","network":"Sequoia Shuttle","operator":"City of Visalia","route":"bus"},"n":3,"s":[[2377697340,1]]}
+]
+}

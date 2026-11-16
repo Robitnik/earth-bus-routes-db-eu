@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"US-OH",
+"tile":[2629,1969],
+"stops":[
+  {"id":3510523735,"lat":41.479121,"lon":-81.516876,"k":"p"},
+  {"id":3510523736,"lat":41.478789,"lon":-81.518545,"k":"p"},
+  {"id":3510754737,"lat":41.479152,"lon":-81.536045,"k":"p","n":"Warrensville - Shaker Rapid Station"},
+  {"id":3510754738,"lat":41.479892,"lon":-81.536397,"k":"p","n":"Warrensville - Shaker Rapid Station"},
+  {"id":3510787023,"lat":41.47873,"lon":-81.538337,"k":"p"},
+  {"id":3510816204,"lat":41.477529,"lon":-81.53658,"k":"p"},
+  {"id":4386384690,"lat":41.465322,"lon":-81.537453,"k":"p","n":"Warrensville - Van Aken Rapid"},
+  {"id":4386384994,"lat":41.465663,"lon":-81.538038,"k":"x"},
+  {"id":4386385691,"lat":41.465724,"lon":-81.538009,"k":"p","ref":"14"},
+  {"id":5086081367,"lat":41.464887,"lon":-81.53637,"k":"p","n":"Chagrin - Warrensville"},
+  {"id":5086081368,"lat":41.464914,"lon":-81.536243,"k":"x","n":"Chagrin - Warrensville"},
+  {"id":5086081369,"lat":41.465263,"lon":-81.537505,"k":"x","n":"Warrensville - Van Aken Rapid"},
+  {"id":5090624048,"lat":41.479894,"lon":-81.53632,"k":"x","n":"Warrensville - Shaker Rapid Station"},
+  {"id":5090624051,"lat":41.479154,"lon":-81.536139,"k":"x","n":"Warrensville - Shaker Rapid Station"}
+],
+"routes":[
+  {"id":2964932,"t":{"ref":"34","name":"East 200 - Green","from":"East 185- Lake Shore","to":"Green Rd. Rapid Station","network":"RTA","operator":"Greater Cleveland Regional Transit Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[3510523735,1],[3510523736,2]]},
+  {"id":3061072,"t":{"ref":"41","name":"RTA 41 Warrensville (southbound)","from":"Louis Stokes - Windermere","to":"Emerald Valley (Glenwillow)","network":"RTA","operator":"Greater Cleveland Regional Transit Authority","route":"bus","public_transport:version":"2"},"n":9,"s":[[3510754738,4],[5086081367,5]]},
+  {"id":3061329,"t":{"ref":"41F","name":"RTA 41F Warrensville (southbound)","network":"RTA","operator":"Greater Cleveland Regional Transit Authority","route":"bus","public_transport:version":"2"},"n":6,"s":[[3510754738,4],[5086081367,5]]},
+  {"id":7550979,"t":{"ref":"41F","name":"RTA 41F Warrensville (northbound)","network":"RTA","operator":"Greater Cleveland Regional Transit Authority","route":"bus","public_transport:version":"2"},"n":6,"s":[[4386384690,2],[3510754737,3]]},
+  {"id":7550980,"t":{"ref":"41","name":"Warrensville","from":"Diamond Pkwy. (Glenwillow)","to":"Louis StokesWindermere Rapid Station","network":"RTA","operator":"Greater Cleveland Regional Transit Authority","route":"bus","public_transport:version":"2"},"n":8,"s":[[4386384690,5],[3510754737,6]]}
+]
+}

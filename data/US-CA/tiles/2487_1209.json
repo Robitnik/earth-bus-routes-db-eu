@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2487,1209],
+"stops":[
+  {"id":2910152465,"lat":34.395686,"lon":-119.514451,"k":"p","n":"Carpinteria & Casitas Plaza"},
+  {"id":2910152466,"lat":34.390871,"lon":-119.506875,"k":"p","n":"Carpinteria & City Hall"},
+  {"id":2910152467,"lat":34.392609,"lon":-119.51077,"k":"p","n":"Carpinteria & Concha Loma"},
+  {"id":2910152468,"lat":34.399766,"lon":-119.519334,"k":"p","n":"Carpinteria & Elm"},
+  {"id":2910152469,"lat":34.398277,"lon":-119.517465,"k":"p","n":"Carpinteria & Eugenia"},
+  {"id":2910152470,"lat":34.397939,"lon":-119.517305,"k":"p","n":"Carpinteria & Maple"},
+  {"id":2910152472,"lat":34.39615,"lon":-119.515013,"k":"p","n":"Carpinteria & Palm"},
+  {"id":9518314351,"lat":34.396117,"lon":-119.522098,"k":"p","n":"Carpinteria, CA (CPN)"},
+  {"id":10672106665,"lat":34.397907,"lon":-119.517281,"k":"p","n":"Carpinteria at Maple (Downtown Carp)","ref":"41679"},
+  {"id":10672106666,"lat":34.398257,"lon":-119.517444,"k":"p","n":"Caoubterua Avenue at Eugenia Place (Downtown Carp)","ref":"40428"},
+  {"id":10700927406,"lat":34.390893,"lon":-119.507208,"k":"p","n":"Carpinteria Avenue (City Hall)","ref":"45119"},
+  {"id":14088798338,"lat":34.39534,"lon":-119.513404,"k":"p","n":"Carpinteria"}
+],
+"routes":[
+  {"id":13705288,"t":{"ref":"10","from":"Santa Barbara","to":"Las Vegas","network":"Amtrak Thruway","operator":"San Joaquin Joint Powers Authority","route":"bus","public_transport:version":"1"},"n":12,"s":[[9518314351,10]]},
+  {"id":13967406,"t":{"ref":"4","name":"Route 4 - Los Angeles - Santa Barbara - Goleta","from":"Los Angeles","to":"Goleta","network":"Amtrak Thruway","operator":"LOSSAN Rail Corridor Agency","route":"bus"},"n":11,"s":[[9518314351,10]]},
+  {"id":15486742,"t":{"ref":"80","name":"80 - Coastal Express","from":"Santa Barbara","to":"Ventura","network":"VCTC Intercity","operator":"VCTC intercity","route":"bus"},"n":17,"s":[[10672106665,1],[10672106666,2]]},
+  {"id":15544824,"t":{"ref":"84","name":"84 - Coastal Express","from":"Camarillo Metrolink","to":"MTD Transit Center","network":"VCTC Intercity","route":"bus"},"n":21,"s":[[10700927406,7],[10672106665,8]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2388,1629],
+"stops":[
+  {"id":1156897514,"lat":29.422977,"lon":-98.503925,"k":"s","n":"Westside Multimodal Transit Center"},
+  {"id":1738461921,"lat":29.41182,"lon":-98.500494,"k":"p"},
+  {"id":1738461959,"lat":29.412329,"lon":-98.500127,"k":"p"},
+  {"id":4974048200,"lat":29.427369,"lon":-98.50495,"k":"x","n":"Centro Plaza"},
+  {"id":4974048201,"lat":29.42737,"lon":-98.504878,"k":"p","n":"Centro Plaza"},
+  {"id":4974048202,"lat":29.427355,"lon":-98.505047,"k":"p","n":"Centro Plaza"},
+  {"id":4974048203,"lat":29.427339,"lon":-98.504953,"k":"x","n":"Centro Plaza"},
+  {"id":6385078920,"lat":29.420643,"lon":-98.500829,"k":"x","n":"FlixBus San Antonio"},
+  {"id":6385078921,"lat":29.420644,"lon":-98.50075,"k":"p","n":"FlixBus San Antonio"},
+  {"id":6984904845,"lat":29.449733,"lon":-98.524317,"k":"p"},
+  {"id":7011363991,"lat":29.410971,"lon":-98.500768,"k":"p"},
+  {"id":11982039175,"lat":29.424008,"lon":-98.527556,"k":"p"},
+  {"id":12095753939,"lat":29.43932,"lon":-98.50944,"k":"p"},
+  {"id":14173657601,"lat":29.432322,"lon":-98.504311,"k":"p","n":"Frio & Perez","ref":"76216"},
+  {"id":14173748301,"lat":29.440757,"lon":-98.500502,"k":"p","n":"Cypress & Jackson","ref":"56489"}
+],
+"routes":[
+  {"id":7395551,"t":{"ref":"100","name":"Primo - Fredericksburg Road","from":"Downtown","to":"Medical Center Transit Center","network":"VIA","operator":"VIA Metropolitan Transit","route":"bus","public_transport:version":"2"},"n":9,"s":[[4974048201,1]]},
+  {"id":7395552,"t":{"ref":"100","name":"Primo - Fredericksburg Road","from":"Medical Center Transit Center","to":"Downtown","network":"VIA","operator":"VIA Metropolitan Transit","route":"bus","public_transport:version":"2"},"n":10,"s":[[4974048202,10]]},
+  {"id":9460745,"t":{"ref":"2231","name":"Flixbus 2231: San Antonio => Dallas","from":"San Antonio","to":"Dallas","network":"Flixbus","operator":"AJL International","route":"bus","public_transport:version":"2"},"n":4,"s":[[6385078921,1]]},
+  {"id":9460746,"t":{"ref":"2231","name":"Flixbus 2231: Dallas => San Antonio","from":"Dallas","to":"San Antonio","network":"Flixbus","operator":"AJL International","route":"bus","public_transport:version":"2"},"n":4,"s":[[6385078921,4]]},
+  {"id":9469721,"t":{"ref":"2210","from":"Biloxi","to":"San Antonio","network":"Flixbus","operator":"Louisiana Motor Coach","route":"bus","public_transport:version":"2"},"n":2,"s":[[6385078921,2]]},
+  {"id":9469722,"t":{"ref":"2210","from":"San Antonio","to":"Biloxi","network":"Flixbus","operator":"Louisiana Motor Coach","route":"bus","public_transport:version":"2"},"n":2,"s":[[6385078921,1]]}
+]
+}

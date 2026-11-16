@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2457,1659],
+"stops":[
+  {"id":5849229350,"lat":32.857435,"lon":-97.035409,"k":"p","n":"Shuttle to Terminal D"},
+  {"id":5849229351,"lat":32.857756,"lon":-97.035397,"k":"p","n":"Shuttle to Terminal B"},
+  {"id":5849229352,"lat":32.857584,"lon":-97.03535,"k":"p","n":"Shuttle to Terminal C"},
+  {"id":5849229353,"lat":32.85789,"lon":-97.035538,"k":"p","n":"Shuttle to Terminal A"},
+  {"id":5849229354,"lat":32.85732,"lon":-97.035556,"k":"p","n":"Shuttle to Terminal E"},
+  {"id":9343998389,"lat":32.853004,"lon":-97.036931,"k":"p","n":"Rental Car @ 24th - W - FS"},
+  {"id":10603045443,"lat":32.854463,"lon":-97.038021,"k":"p","n":"Southgate @ Global - N - NS"},
+  {"id":10603045444,"lat":32.852973,"lon":-97.033113,"k":"p","n":"Rental Car @ Passport - W - FS"},
+  {"id":10603045445,"lat":32.853721,"lon":-97.028158,"k":"p","n":"Rental Car @ 26th - W - NS"},
+  {"id":10603045447,"lat":32.857128,"lon":-97.018516,"k":"p","n":"Northgate @ Valley View - W - MB"},
+  {"id":10603045606,"lat":32.853332,"lon":-97.028353,"k":"p","n":"Rental Car @ 26th - E - NS","ref":"31724"},
+  {"id":10603045607,"lat":32.854793,"lon":-97.032717,"k":"p","n":"Passport @ South Garage - S - NS"},
+  {"id":10603045608,"lat":32.861484,"lon":-97.031067,"k":"p","n":"Passport @ Airfield - S - FS"},
+  {"id":10603045670,"lat":32.861964,"lon":-97.035418,"k":"p","n":"DFW Remote South Parking"},
+  {"id":10708117837,"lat":32.897699,"lon":-97.038397,"k":"p","n":"Hyatt Regency DFW"},
+  {"id":10976093628,"lat":32.878364,"lon":-97.035971,"k":"p"},
+  {"id":10976093629,"lat":32.879844,"lon":-97.034954,"k":"p"}
+],
+"routes":[
+  {"id":15426139,"t":{"ref":"230","name":"Bus 230: Downtown Dallas -> DFW Airport Rental Car Center","from":"Downtown Dallas","to":"DFW Airport Remote South","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#6BCCE7","route":"bus","public_transport:version":"2"},"n":39,"s":[[10603045447,35],[10603045445,36],[10603045444,37],[10603045443,38],[10603045670,39]]},
+  {"id":15426141,"t":{"ref":"230","name":"Bus 230: DFW Airport Rental Car Center -> Downtown Dallas","from":"DFW Airport Remote South","to":"Downtown Dallas","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#6BCCE7","route":"bus","public_transport:version":"2"},"n":42,"s":[[10603045670,1],[10603045608,2],[10603045607,3],[10603045606,4]]},
+  {"id":15541111,"t":{"ref":"230","name":"Bus 230: Downtown Irving/Heritage Crossing Station -> DFW Airport Rental Car Center","from":"Downtown Dallas","to":"DFW Airport Remote South","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#6BCCE7","route":"bus","public_transport:version":"2"},"n":8,"s":[[10603045447,4],[10603045445,5],[10603045444,6],[10603045443,7],[10603045670,8]]},
+  {"id":15541113,"t":{"ref":"230","name":"Bus 230: DFW Airport Rental Car Center -> Downtown Irving/Heritage Crossing Station","from":"DFW Airport Remote South","to":"Downtown Irving/Heritage Crossing Station","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#6BCCE7","route":"bus","public_transport:version":"2"},"n":7,"s":[[10603045670,1],[10603045608,2],[10603045607,3],[10603045606,4]]},
+  {"id":15553540,"t":{"ref":"31","name":"Bus 31: CentrePort Station -> DFW Airport Terminal B","from":"CentrePort/DFW Airport Station","to":"DFW Airport Terminal B","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5c599d","route":"bus","public_transport:version":"2"},"n":5,"s":[[10603045443,4]]},
+  {"id":15554321,"t":{"ref":"GREEN","name":"Bus GREEN: Grapevine Visitors Shuttle","from":"Hyatt Regency DFW","network":"Trinity Metro","operator":"Grapevine Convention & Visitors Bureau","colour":"#289943","route":"bus","public_transport:version":"2"},"n":7,"s":[[10708117837,1,7]]}
+]
+}

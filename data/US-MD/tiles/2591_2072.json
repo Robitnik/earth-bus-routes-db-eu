@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2591,2072],
+"stops":[
+  {"id":567243272,"lat":39.570471,"lon":-76.351831,"k":"x"},
+  {"id":2399798659,"lat":39.55554,"lon":-76.368244,"k":"x"},
+  {"id":2838772000,"lat":39.570685,"lon":-76.351922,"k":"p"},
+  {"id":6120376482,"lat":39.570562,"lon":-76.351806,"k":"p"},
+  {"id":6248363132,"lat":39.570696,"lon":-76.351952,"k":"p","n":"Hickory Park & Ride","ref":"11469"},
+  {"id":5000715079558,"lat":39.555512,"lon":-76.368278,"k":"p","n":"Marywood Park & Ride","ref":"11502"}
+],
+"routes":[
+  {"id":3719879,"t":{"ref":"411","name":"Commuter Bus 411: Downtown Baltimore/Johns Hopkins Hospital (trips 2-5)","from":"Hickory/Bel Air","to":"Johns Hopkins Hospital","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000715079558,2]]},
+  {"id":3719892,"t":{"ref":"411","name":"Commuter Bus 411: Hickory/Bel Air","from":"Johns Hopkins Hospital","to":"Hickory Park & Ride","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[2399798659,1],[5000715079558,2]]},
+  {"id":9683180,"t":{"ref":"411","name":"Commuter Bus 411: Downtown Baltimore/Johns Hopkins Hospital (trip 1 via White Marsh)","from":"Hickory/Bel Air","to":"Johns Hopkins Hospital","network":"MTA Express BusLink","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000715079558,1]]}
+]
+}

@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-MI",
+"tile":[2646,1940],
+"stops":[
+  {"id":5411378342,"lat":42.348841,"lon":-82.998829,"k":"x"},
+  {"id":5411423152,"lat":42.348702,"lon":-82.999044,"k":"x"},
+  {"id":5411423154,"lat":42.348581,"lon":-82.998923,"k":"p","n":"Jefferson / Sheridan (EB)"},
+  {"id":5411423155,"lat":42.348946,"lon":-82.998979,"k":"p","n":"Jefferson / Sheridan NS (WB)"},
+  {"id":9359448875,"lat":42.34057,"lon":-82.987257,"k":"x"},
+  {"id":9359448876,"lat":42.33724,"lon":-82.985188,"k":"x"},
+  {"id":9359449289,"lat":42.340592,"lon":-82.987161,"k":"p","n":"Inselruhe / Riverbank NS (NB)"},
+  {"id":9359449290,"lat":42.337258,"lon":-82.985117,"k":"p","n":"Inselruhe / Loiter Way NS (NB)"},
+  {"id":10632164572,"lat":42.338084,"lon":-82.984993,"k":"p"}
+],
+"routes":[
+  {"id":7798700,"t":{"ref":"620","name":"620 SB: Macomb Mall => Downtown","from":"Gratiot & Masonic","to":"Michigan & Cass","network":"SMART","colour":"#00a94e","route":"bus","public_transport:version":"2"},"n":118,"s":[[5411423155,95]]},
+  {"id":7798701,"t":{"ref":"620","name":"620 NB: Downtown => Macomb Mall","from":"Michigan & Cass","to":"Gratiot & Masonic","network":"SMART","colour":"#00a94e","route":"bus","public_transport:version":"2"},"n":113,"s":[[5411423154,20]]},
+  {"id":7798949,"t":{"ref":"09","name":"09 EB: Downtown => Maryland","from":"Rosa Parks Transit Center","to":"Maryland & Jefferson","network":"DDOT","colour":"#44aa42","route":"bus","public_transport:version":"2"},"n":41,"s":[[5411423154,20]]},
+  {"id":7798950,"t":{"ref":"09","name":"09 WB: Maryland => Downtown","from":"Maryland & Jefferson","to":"Rosa Parks Transit Center","network":"DDOT","colour":"#44aa42","route":"bus","public_transport:version":"2"},"n":47,"s":[[5411423155,23]]},
+  {"id":7798992,"t":{"ref":"12","name":"12 NB: Belle Isle => State Fair","from":"Belle Isle Conservatory","to":"State Fair Transit Center","network":"DDOT","colour":"#9b5ba5","route":"bus","public_transport:version":"2"},"n":57,"s":[[9359449290,1],[9359449289,2]]},
+  {"id":7798993,"t":{"ref":"12","name":"12 SB: State Fair => Belle Isle","from":"State Fair Transit Center","to":"Belle Isle Conservatory","network":"DDOT","colour":"#9b5ba5","route":"bus","public_transport:version":"2"},"n":54,"s":[[9359449290,54]]}
+]
+}

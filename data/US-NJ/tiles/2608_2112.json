@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2608,2112],
+"stops":[
+  {"id":3805887836,"lat":40.41857,"lon":-74.399709,"k":"p","n":"Winton Road at Rues Lane"},
+  {"id":3805975023,"lat":40.422902,"lon":-74.382389,"k":"p","n":"Brunswick Square Mall","ref":"23043"},
+  {"id":3805975024,"lat":40.448067,"lon":-74.380899,"k":"p","n":"Jackson Street at Wilson/Raritan Avenues"},
+  {"id":3805975025,"lat":40.445454,"lon":-74.386544,"k":"p","n":"Main Street between Wilcox and Devoe"},
+  {"id":3806005914,"lat":40.445114,"lon":-74.387044,"k":"p","n":"Main St. between Wilcox/ Devoe"},
+  {"id":3806005916,"lat":40.41869,"lon":-74.399742,"k":"p","n":"Winton Road at Rues Lane"},
+  {"id":3846173061,"lat":40.447997,"lon":-74.384607,"k":"p","n":"Main Street at Jackson Street"},
+  {"id":3846906638,"lat":40.44763,"lon":-74.3851,"k":"p","n":"Main Street at Jackson Street"},
+  {"id":9501673470,"lat":40.441828,"lon":-74.390262,"k":"p","n":"Hillside Ave. at Allgair St."},
+  {"id":9501673471,"lat":40.446605,"lon":-74.394752,"k":"p","n":"Old Bridge Turnpike at Ick.er Ave"},
+  {"id":9515348776,"lat":40.449676,"lon":-74.382795,"k":"p","n":"Main St. 137' W. Of Gordon St."},
+  {"id":9515348780,"lat":40.442026,"lon":-74.389519,"k":"p","n":"Main St. at Hillside Ave."},
+  {"id":9515348781,"lat":40.445074,"lon":-74.393929,"k":"p","n":"Old Bridge Tpke. at Davison Ave."},
+  {"id":9515348782,"lat":40.447971,"lon":-74.395301,"k":"p","n":"Old Bridge Tpke 1700' S Of W. Ferris St."},
+  {"id":12392087000,"lat":40.449753,"lon":-74.397254,"k":"p","n":"RT 18 and West Ferris St","ref":"23058"}
+],
+"routes":[
+  {"id":5593773,"t":{"ref":"811","name":"NJTB - 811 - New Brunswick to South River","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805887836,7],[3805975023,8],[3805975025,9],[3805975024,10]]},
+  {"id":5620612,"t":{"ref":"811","name":"NJTB - 811 - South River to New Brunswick","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805975024,1],[3806005914,2],[3805975023,3],[3806005916,4]]},
+  {"id":5678208,"t":{"ref":"815","name":"NJTB - 815 - Woodbridge Center to New Brunswick","from":"Woodbridge Center Mall","to":"New Brunswick","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":60,"s":[[3806005914,48],[9501673471,49]]},
+  {"id":5688240,"t":{"ref":"818","name":"NJTB - 818 - New Brunswick to Old Bridge via Rotary Senior Citizen Comlex","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":9,"s":[[3805975023,7]]},
+  {"id":5711383,"t":{"ref":"818","name":"NJTB - 818 - Old Bridge to New Brunswick via Rotary Senior Citizen Complex","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":6,"s":[[3805975023,3],[12392087000,4]]},
+  {"id":8209738,"t":{"ref":"68","name":"NJTB - 68","network":"NJ Transit","operator":"New Jersey Transit","route":"bus"},"n":2,"s":[[12392087000,1]]},
+  {"id":8247796,"t":{"ref":"138","name":"NJTB - 138","network":"NJ Transit","operator":"New Jersey Transit","route":"bus"},"n":2,"s":[[12392087000,1]]},
+  {"id":13812563,"t":{"ref":"815","name":"NJTB - 815 - New Brunswick to Woodbridge Center","from":"New Brunswick","to":"Woodbridge Center","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":63,"s":[[9515348782,13],[9515348781,14],[9515348780,15],[3846173061,16],[9515348776,17]]},
+  {"id":16136942,"t":{"ref":"811","name":"NJTB - 811 - New Brunswick to South River via Martin Gerber Apartments","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":11,"s":[[3805887836,8],[3805975023,9],[3805975025,10],[3805975024,11]]},
+  {"id":16136943,"t":{"ref":"811","name":"NJTB - 811 - South River to New Brunswick via Martin Gerber Apartments","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":11,"s":[[3805975024,1],[3806005914,2],[3805975023,3],[3806005916,4]]},
+  {"id":16137097,"t":{"ref":"818","name":"NJTB - 818 - New Brunswick to Old Bridge","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":9,"s":[[3805975023,6]]},
+  {"id":16137098,"t":{"ref":"818","name":"NJTB - 818 - Old Bridge to New Brunswick","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":5,"s":[[3805975023,3]]}
+]
+}

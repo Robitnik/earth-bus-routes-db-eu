@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2485,1222],
+"stops":[
+  {"id":5107591624,"lat":34.271768,"lon":-118.870024,"k":"s"},
+  {"id":9565771208,"lat":34.28533,"lon":-118.87729,"k":"p","n":"Moorpark Station EB","ref":"66310"},
+  {"id":9565771209,"lat":34.285486,"lon":-118.877101,"k":"p","n":"Moorpark Station WB","ref":"66291"},
+  {"id":9620399296,"lat":34.284764,"lon":-118.877891,"k":"p","n":"Moorpark, CA (MPK)"},
+  {"id":9622697542,"lat":34.287098,"lon":-118.883181,"k":"p","n":"Civic Center","ref":"66292"},
+  {"id":9622715043,"lat":34.279111,"lon":-118.889781,"k":"p","n":"Los Angeles (west of Mission Bell Plaza)","ref":"66295"},
+  {"id":9625996035,"lat":34.270839,"lon":-118.891602,"k":"p","n":"Mountain Trail and Walnut Creek","ref":"67605"}
+],
+"routes":[
+  {"id":13907200,"t":{"ref":"70","name":"East County - Route 70","from":"Thousand Oaks","to":"Simi Valley","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":8,"s":[[9565771208,3],[9565771209,4]]},
+  {"id":13910259,"t":{"ref":"73","name":"East County - Route 73","from":"Simi Valley","to":"Thousand Oaks","network":"VCTC Intercity","route":"bus"},"n":9,"s":[[9565771208,4],[9565771209,5]]},
+  {"id":13913153,"t":{"ref":"73X","name":"East County - Route 73X","from":"Thousand Oaks","to":"Simi Valley","network":"VCTC Intercity","route":"bus"},"n":5,"s":[[9565771208,2]]},
+  {"id":13913213,"t":{"ref":"77","name":"Cross County Limited - Route 77","from":"Ventura","to":"Simi Valley","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":16,"s":[[9565771209,7],[9565771208,8]]},
+  {"id":13967406,"t":{"ref":"4","name":"Route 4 - Los Angeles - Santa Barbara - Goleta","from":"Los Angeles","to":"Goleta","network":"Amtrak Thruway","operator":"LOSSAN Rail Corridor Agency","route":"bus"},"n":11,"s":[[9620399296,6]]},
+  {"id":13984693,"t":{"ref":"1","name":"Route 1","from":"Civic Center : Front of Community Center","to":"High across from Metrolink/Amtrak Station","network":"Moorpark City Transit","operator":"City of Moorpark","route":"bus"},"n":5,"s":[[9565771208,1],[9565771209,2],[9622697542,3],[9622715043,5]]},
+  {"id":13987984,"t":{"ref":"2","name":"Route 2","from":"Civic Center: Front of Community Center","to":"Park Crest @ Waterstone Apartments","network":"Moorpark City Transit","operator":"City of Moorpark","route":"bus"},"n":6,"s":[[9622697542,1],[9565771208,2],[9565771209,3],[9625996035,6]]}
+]
+}

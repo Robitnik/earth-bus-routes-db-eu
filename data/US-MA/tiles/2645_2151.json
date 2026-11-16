@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"US-MA",
+"tile":[2645,2151],
+"stops":[
+  {"id":1408372899,"lat":42.298473,"lon":-72.415894,"k":"p","n":"Bay Road (In)","ref":"273"},
+  {"id":1408372906,"lat":42.298462,"lon":-72.416046,"k":"p","n":"Bay Road (Out)","ref":"274"},
+  {"id":1408373111,"lat":42.279604,"lon":-72.402387,"k":"p","n":"Belchertown Common","ref":"291"},
+  {"id":1408373116,"lat":42.277585,"lon":-72.40082,"k":"p","n":"Belchertown Center","ref":"294"},
+  {"id":1408380720,"lat":42.290661,"lon":-72.40834,"k":"p","n":"Quabbin Village (In)","ref":"276"},
+  {"id":1408380721,"lat":42.290298,"lon":-72.408112,"k":"p","n":"Quabbin Village (Out)","ref":"278"},
+  {"id":12847640647,"lat":42.282992,"lon":-72.405541,"k":"p","n":"Woodhaven Drive (Out)","ref":"2781"},
+  {"id":12847640648,"lat":42.283067,"lon":-72.405343,"k":"p","n":"Woodhaven Drive (In)","ref":"2780"},
+  {"id":12849936803,"lat":42.26735,"lon":-72.418953,"k":"p","n":"Eastern Hampshire District Court","ref":"295"}
+],
+"routes":[
+  {"id":9233361,"t":{"ref":"45","name":"Bus 45: UMass => Belchertown Center","from":"UMass Amherst","to":"Belchertown Center","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#00a950","route":"bus","public_transport:version":"2"},"n":31,"s":[[1408372906,28],[1408380721,29],[1408373111,30],[1408373116,31]]},
+  {"id":19151262,"t":{"ref":"45","name":"Bus 45: Belchertown Ctr => District Ct => Belchertown Ctr","from":"Belchertown Center","to":"Eastern Hampshire District Court","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#00a950","route":"bus","public_transport:version":"2"},"n":3,"s":[[1408373116,1,3],[12849936803,2]]},
+  {"id":19151263,"t":{"ref":"45","name":"Bus 45: Belchertown Center => UMass","from":"Belchertown Center","to":"UMass Amherst","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#00a950","route":"bus","public_transport:version":"2"},"n":29,"s":[[1408373116,1],[12847640648,2],[1408380720,3],[1408372899,4]]}
+]
+}

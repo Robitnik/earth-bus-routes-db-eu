@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2554,1208],
+"stops":[
+  {"id":901512268,"lat":37.738568,"lon":-119.570536,"k":"p","n":"#19. Curry Village (Westbound)","ref":"19"},
+  {"id":901512278,"lat":37.732419,"lon":-119.559831,"k":"p","n":"Happy Isles","ref":"16"},
+  {"id":901512279,"lat":37.739806,"lon":-119.578849,"k":"p","n":"Housekeeping Camp","ref":"12"},
+  {"id":901512296,"lat":37.747816,"lon":-119.587618,"k":"p","n":"Valley Visitor Center & Museum","ref":"5"},
+  {"id":901512299,"lat":37.738151,"lon":-119.567112,"k":"p","n":"Upper Pines Campground","ref":"15"},
+  {"id":901512303,"lat":37.739527,"lon":-119.559904,"k":"p","n":"Mirror Lake Trailhead","ref":"17"},
+  {"id":901512323,"lat":37.739207,"lon":-119.565748,"k":"p","n":"Lower Pines Campground","ref":"18"},
+  {"id":901512325,"lat":37.738427,"lon":-119.570421,"k":"p","n":"Curry Village (Eastbound)","ref":"14"},
+  {"id":3496253536,"lat":37.745661,"lon":-119.593577,"k":"p","n":"Lower Yosemite Fall","ref":"6"},
+  {"id":4299155208,"lat":37.744426,"lon":-119.583739,"k":"p","n":"Yosemite Village Parking","ref":"1"},
+  {"id":4299155209,"lat":37.747077,"lon":-119.585193,"k":"p","n":"Yosemite Village","ref":"2"},
+  {"id":4299155210,"lat":37.747039,"lon":-119.574692,"k":"p","n":"The Ahwahnee","ref":"3"},
+  {"id":4299155211,"lat":37.74772,"lon":-119.585475,"k":"p","n":"Degnan's Kitchen","ref":"4"},
+  {"id":4784713421,"lat":37.74781,"lon":-119.587445,"k":"p","n":"Visitor Center","ref":"5"},
+  {"id":10574042748,"lat":37.737794,"lon":-119.572447,"k":"p","n":"Curry Village","ref":"433"}
+],
+"routes":[
+  {"id":6736379,"t":{"name":"East Valley Shuttle","from":"Yosemite Village Parking","to":"Yosemite Village Parking","network":"Yosemite Valley Shuttle System","colour":"#a8509e","route":"bus","public_transport:version":"2"},"n":10,"s":[[4299155208,1,10],[4299155209,2],[901512279,3],[901512325,4],[901512299,5],[901512278,6],[901512303,7],[901512323,8],[901512268,9]]},
+  {"id":6736380,"t":{"name":"Valleywide Shuttle","from":"Yosemite Village Parking","to":"Yosemite Village Parking","network":"Yosemite Valley Shuttle System","colour":"#3eb649","route":"bus","public_transport:version":"2"},"n":19,"s":[[4299155208,1,19],[4299155209,2],[4299155210,3],[4299155211,4],[901512296,5],[3496253536,6],[901512279,12],[901512325,13],[901512299,14],[901512278,15],[901512303,16],[901512323,17],[901512268,18]]},
+  {"id":15343791,"t":{"ref":"15B","name":"15B - Fresno • Yosemite National Park","from":"Fresno Amtrak Station","to":"Yosemite National Park Visitors Center","network":"Amtrak Thruway","operator":"San Joaquin Joint Powers Authority","route":"bus","public_transport:version":"1"},"n":8,"s":[[4784713421,8]]},
+  {"id":15347141,"t":{"ref":"Merced HWY 140","name":"Merced - Mariposa - Yosemite Valley","from":"Merced Airport","to":"Yosemite Valley Lodge / Laurel Cottage","network":"YARTS","operator":"yarts","route":"bus","public_transport:version":"1"},"n":24,"s":[[10574042748,2]]},
+  {"id":15350341,"t":{"ref":"15A","name":"15A - Merced - Yosemite National Park","from":"Merced Amtrak Station","to":"Yosemite Valley Lodge","network":"Amtrak Thruway","operator":"San Joaquins Joint Powers Authority","route":"bus","public_transport:version":"1"},"n":8,"s":[[10574042748,7],[4784713421,8]]},
+  {"id":18039206,"t":{"ref":"15","name":"15 -Mammoth Lakes - Yosemite National Park","from":"Mammoth Mountain Inn","to":"Yosemite Visitors Center","network":"Amtrak Thruway","route":"bus","public_transport:version":"1"},"n":7,"s":[[4784713421,7]]}
+]
+}

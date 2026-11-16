@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"US-NH",
+"tile":[2657,2182],
+"stops":[
+  {"id":10566354394,"lat":42.891825,"lon":-70.884059,"k":"p","ref":"4"},
+  {"id":10566354395,"lat":42.891769,"lon":-70.884119,"k":"p","ref":"3"},
+  {"id":10566354396,"lat":42.891713,"lon":-70.884178,"k":"p","ref":"2"},
+  {"id":10566354397,"lat":42.891658,"lon":-70.884238,"k":"p","ref":"1"},
+  {"id":11230224608,"lat":42.891728,"lon":-70.884117,"k":"p","n":"Seabrook, NH"}
+],
+"routes":[
+  {"id":15338856,"t":{"ref":"DOV-NYC","name":"Dover, NH => New York City","from":"Dover, NH","to":"Port Authority Bus Terminal","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[11230224608,3]]},
+  {"id":15338857,"t":{"ref":"DOV-NYC","name":"New York City => Dover, NH","from":"Port Authority Bus Terminal","to":"Dover, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[11230224608,3]]},
+  {"id":15338858,"t":{"ref":"PMSS","name":"Portsmouth, NH => Boston South Station","from":"Portsmouth, NH","to":"Boston South Station","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[11230224608,2]]},
+  {"id":15338859,"t":{"ref":"DVSS","name":"Dover, NH => Boston South Station","from":"Dover, NH","to":"Boston South Station","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[11230224608,3]]},
+  {"id":15338860,"t":{"ref":"SSPM","name":"Boston South Station => Portsmouth, NH","from":"Boston South Station","to":"Portsmouth, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[11230224608,1]]},
+  {"id":15338861,"t":{"ref":"SSDV","name":"Boston South Station => Dover, NH","from":"Boston South Station","to":"Dover, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[11230224608,1]]},
+  {"id":15338862,"t":{"ref":"PMLG","name":"Portsmouth, NH => Boston Logan Airport","from":"Portsmouth, NH","to":"Boston Logan Airport","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[11230224608,2]]},
+  {"id":15338863,"t":{"ref":"LGPM","name":"Boston Logan Airport => Portsmouth, NH","from":"Boston Logan Airport","to":"Portsmouth, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[11230224608,1]]}
+]
+}

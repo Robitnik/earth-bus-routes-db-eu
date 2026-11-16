@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2612,2117],
+"stops":[
+  {"id":3878983005,"lat":40.647691,"lon":-74.138736,"k":"p","n":"Jfk Blvd At 2Nd St","ref":"20430"},
+  {"id":3878983006,"lat":40.648591,"lon":-74.137667,"k":"p","n":"Jfk Blvd At 3Rd St","ref":"20383"},
+  {"id":4057540461,"lat":40.645432,"lon":-74.130336,"k":"p","n":"1St St At Ave C","ref":"20371"},
+  {"id":6165057898,"lat":40.645322,"lon":-74.128305,"k":"p","n":"Broadway At 1St St","ref":"20370"},
+  {"id":6165057910,"lat":40.646939,"lon":-74.130433,"k":"p","n":"Ave C At W 2Nd St","ref":"20251"},
+  {"id":6165057911,"lat":40.647169,"lon":-74.128341,"k":"p","n":"Broadway At 2Nd St","ref":"20369"},
+  {"id":6165057912,"lat":40.648345,"lon":-74.130321,"k":"p","n":"Ave C At W 3Rd St","ref":"20252"},
+  {"id":6165057913,"lat":40.648543,"lon":-74.128351,"k":"p","n":"Broadway At 3Rd St","ref":"20368"},
+  {"id":6165057914,"lat":40.64989,"lon":-74.130216,"k":"p","n":"Ave C At W 4Th St","ref":"30226"},
+  {"id":13998654430,"lat":40.649949,"lon":-74.128426,"k":"p","n":"4Th St At Broadway","ref":"20372"}
+],
+"routes":[
+  {"id":3440270,"t":{"ref":"81","name":"NJTB - 81 - Bayonne to Jersey City","from":"Bayonne","to":"Jersey City","network":"NJ Transit","operator":"New Jersey Transit","route":"bus"},"n":3,"s":[[6165057910,1],[6165057912,2],[6165057914,3]]},
+  {"id":3443537,"t":{"ref":"120","name":"NJTB - 120 - Bayonne to Downtown New York","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":3,"s":[[4057540461,3]]},
+  {"id":3443538,"t":{"ref":"120","name":"NJTB - 120 - Downtown New York to Bayonne","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":3,"s":[[4057540461,3]]},
+  {"id":3648833,"t":{"ref":"119","name":"NJTB - 119 - Bayonne to New York","network":"NJ Transit","operator":"Academy Bus","route":"bus","public_transport:version":"2"},"n":8,"s":[[3878983006,3]]},
+  {"id":3648834,"t":{"ref":"119","name":"NJTB - 119 - New York to Bayonne","network":"NJ Transit","operator":"Academy Bus","route":"bus","public_transport:version":"2"},"n":7,"s":[[3878983005,2]]},
+  {"id":20316472,"t":{"ref":"10","name":"Bus 10: Beyonne 3rd St => Jersey City Jounral Sq","from":"Bayonne 3rd St","to":"Jersey City Journal Sq","network":"NJ Transit","operator":"NJ Transit Bus Operations","route":"bus","public_transport:version":"2"},"n":58,"s":[[3878983006,1]]},
+  {"id":20509228,"t":{"ref":"10","name":"Bus 10: Jersey City Jounral Sq => Beyonne 2nd St","from":"Jersey City Jounral Sq","to":"Beyonne 2nd St","network":"NJ Transit","operator":"NJ Transit Bus Operations","route":"bus","public_transport:version":"2"},"n":57,"s":[[3878983005,57]]},
+  {"id":21081870,"t":{"ref":"12","name":"Bus 12: Bayonne 54th St => Bayonne 1st St","from":"Bayonne 54th St","to":"Bayonne 1st St","network":"NJ Transit","operator":"NJ Transit Bus Operations","route":"bus","public_transport:version":"2"},"n":34,"s":[[6165057913,31],[6165057911,32],[6165057898,33],[4057540461,34]]},
+  {"id":21083458,"t":{"ref":"12","name":"Bus 12: Bayonne 1st  St => Bayonne 54th St","from":"Bayonne 1st St","to":"Bayonne 54th St","network":"NJ Transit","operator":"NJ Transit Bus Operations","route":"bus","public_transport:version":"2"},"n":35,"s":[[4057540461,1],[6165057910,2],[6165057912,3],[6165057914,4],[13998654430,5]]},
+  {"id":21451010,"t":{"ref":"10","name":"Bus 10: Jersey City Jounral Sq => Jersey City Sip Ave => Beyonne 2nd St","from":"Jersey City Jounral Sq","to":"Beyonne 2nd St","network":"NJ Transit","operator":"NJ Transit Bus Operations","route":"bus","public_transport:version":"2"},"n":57,"s":[[3878983005,57]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2480,1228],
+"stops":[
+  {"id":866290685,"lat":34.041998,"lon":-118.568011,"k":"p","n":"Pacific Coast Highway / Getty Villa"},
+  {"id":867377795,"lat":34.040125,"lon":-118.580162,"k":"p","n":"Pacific Coast Highway & Topanga Canyon"},
+  {"id":867822730,"lat":34.039536,"lon":-118.589106,"k":"p","n":"Pacific Coast Highway & Tuna Canyon"},
+  {"id":6783854374,"lat":34.039994,"lon":-118.579523,"k":"p","n":"Pacific Coast Highway & Topanga Canyon"},
+  {"id":7339765918,"lat":34.041751,"lon":-118.567993,"k":"p","n":"Pacific Coast Highway / Getty Villa"},
+  {"id":8001658010,"lat":34.044245,"lon":-118.552308,"k":"p","n":"Sunset & Palisades"},
+  {"id":8001658011,"lat":34.042515,"lon":-118.553854,"k":"p","n":"Sunset & Paseo Miramar"},
+  {"id":8001658012,"lat":34.039717,"lon":-118.554257,"k":"p","n":"Sunset & Castellammare"},
+  {"id":8001674036,"lat":34.038725,"lon":-118.556367,"k":"p","n":"Pacific Coast Highway & Sunset"},
+  {"id":8001674037,"lat":34.038379,"lon":-118.555864,"k":"p","n":"Pacific Coast Highway & Sunset"},
+  {"id":9555521937,"lat":34.040174,"lon":-118.560463,"k":"p","n":"Pacific Coast Highway & Porto Marina"},
+  {"id":9555521938,"lat":34.039942,"lon":-118.560476,"k":"p","n":"Pacific Coast Highway & Porto Marina"},
+  {"id":9555521939,"lat":34.039365,"lon":-118.589698,"k":"p","n":"Pacific Coast Highway & Tuna Canyon"}
+],
+"routes":[
+  {"id":11809198,"t":{"ref":"602","name":"Metro 602 Westbound","from":"Westwood","to":"Sunset & PCH","network":"Metro Local","operator":"Los Angeles County Metropolitan Transportation Authority","route":"bus","public_transport:version":"2"},"n":47,"s":[[8001658012,47]]},
+  {"id":11809199,"t":{"ref":"602","name":"Metro 602 Eastbound","from":"Sunset & PCH","to":"Westwood","network":"Metro Local","operator":"Los Angeles County Metropolitan Transportation Authority","route":"bus","public_transport:version":"2"},"n":53,"s":[[8001658012,1],[8001658010,2]]},
+  {"id":12347119,"t":{"ref":"602","name":"Metro 602 Westbound (school trips)","from":"Paul Revere Middle School","to":"Sunset & PCH","network":"Metro Local","operator":"Los Angeles County Metropolitan Transportation Authority","route":"bus","public_transport:version":"2"},"n":20,"s":[[8001658012,20]]},
+  {"id":13894662,"t":{"ref":"134","name":"Metro 134 Westbound: Santa Monica → Malibu Trancas","from":"7th & Olympic","to":"Trancas Canyon & Pacific Coast Highway","network":"Metro Local","operator":"Los Angeles County Metropolitan Transportation Authority","route":"bus","public_transport:version":"2"},"n":37,"s":[[8001674036,8],[9555521937,9],[866290685,10],[867377795,11],[867822730,12]]},
+  {"id":13894663,"t":{"ref":"134","name":"Metro 134 Eastbound: Malibu Trancas → Santa Monica","from":"Trancas Canyon & Pacific Coast Highway","to":"Olympic & 7th","network":"Metro Local","operator":"Los Angeles County Metropolitan Transportation Authority","route":"bus","public_transport:version":"2"},"n":37,"s":[[9555521939,25],[6783854374,26],[7339765918,27],[9555521938,28],[8001674037,29]]}
+]
+}

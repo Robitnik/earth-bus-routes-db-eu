@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-IN",
+"tile":[2595,1880],
+"stops":[
+  {"id":4988875482,"lat":39.796924,"lon":-85.995629,"k":"p","n":"21st St & Lake Terrace N Dr"},
+  {"id":4988933385,"lat":39.796772,"lon":-85.996026,"k":"p","n":"21st St & Lake Terrace W Dr"},
+  {"id":5009482080,"lat":39.796975,"lon":-85.99167,"k":"p","n":"21st St & Mitthoeffer Rd IB"},
+  {"id":5009561466,"lat":39.796892,"lon":-85.997962,"k":"p","n":"21st St & Shoreland Dr"},
+  {"id":5009570833,"lat":39.796732,"lon":-85.998544,"k":"p","n":"21st St & Shoreland Dr"},
+  {"id":5009614587,"lat":39.796881,"lon":-85.990746,"k":"p","n":"21st St & Mitthoeffer Rd"},
+  {"id":5009619536,"lat":39.797505,"lon":-85.990643,"k":"p","n":"Mitthoefer Rd and 21st St"},
+  {"id":5145022445,"lat":39.796948,"lon":-85.993848,"k":"p","n":"21st St & Lake Terrace Dr"},
+  {"id":5145028317,"lat":39.796831,"lon":-85.994046,"k":"p","n":"21st St & Lake Terrace Dr"},
+  {"id":11920267384,"lat":39.782381,"lon":-85.990743,"k":"p","n":"10th and Mithoeffer Rd WB"},
+  {"id":12187070482,"lat":39.774882,"lon":-85.962117,"k":"p","n":"Meijer/East Washington"}
+],
+"routes":[
+  {"id":7438119,"t":{"ref":"87","name":"Eastside Circulator","from":"Meijer/E. Washington","to":"Post/42nd","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","route":"bus"},"n":5,"s":[[5009619536,1]]},
+  {"id":11883533,"t":{"ref":"21","name":"East 21st St","from":"22nd/Illinois","to":"Meijer E. Washington","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"blue","route":"bus"},"n":25,"s":[[5009561466,2],[4988875482,3],[5145022445,4],[5009614587,5],[4988933385,10],[5145028317,11]]},
+  {"id":18068457,"t":{"ref":"10","name":"IndyGo Bus 10: 10th Street (Meijer/East Washington -> Gateway/High School)","from":"Meijer/East Washington","to":"Gateway/High School","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":30,"s":[[12187070482,1],[11920267384,2]]},
+  {"id":18068458,"t":{"ref":"10","name":"10th Street","from":"Meijer Avon","to":"Meijer/East Washington","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":29,"s":[[12187070482,28]]},
+  {"id":18068459,"t":{"ref":"10","name":"IndyGo Bus 10: 10th Street (Gateway/High School -> Meijer/East Washington)","from":"Gateway/High School","to":"Meijer/East Washington","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":52,"s":[[11920267384,24],[12187070482,49]]},
+  {"id":18068460,"t":{"ref":"10","name":"10th Street","from":"Meijer/East Washington","to":"Meijer Avon","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":31,"s":[[12187070482,1],[11920267384,2]]},
+  {"id":18068876,"t":{"ref":"8","name":"IndyGo Bus 8: Washington (Meijer/East Washington -> Washington/Harding)","from":"Meijer/East Washington","to":"Washington/Harding","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":20,"s":[[12187070482,1]]},
+  {"id":18068877,"t":{"ref":"8","name":"IndyGo Bus 8: Washington (Meijer/East Washington -> Indianapolis International Airport)","from":"Meijer/East Washington","to":"Meijer/Washington","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":22,"s":[[12187070482,1]]},
+  {"id":18068878,"t":{"ref":"8","name":"IndyGo Bus 8: Washington (Washington/Harding -> Meijer/East Washington)","from":"Washington/Harding","to":"Meijer/East Washington","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":20,"s":[[12187070482,20]]},
+  {"id":18068879,"t":{"ref":"8","name":"IndyGo Bus 8: Washington (Indianapolis International Airport -> Meijer/East Washington)","from":"Indianapolis International Airport","to":"Meijer/East Washington","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"orange","route":"bus","public_transport:version":"2"},"n":25,"s":[[12187070482,24]]}
+]
+}

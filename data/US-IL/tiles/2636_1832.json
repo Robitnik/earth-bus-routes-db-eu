@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-IL",
+"tile":[2636,1832],
+"stops":[
+  {"id":7234416572,"lat":41.804289,"lon":-88.370343,"k":"p","n":"Woodman's Food Market","ref":"35993"},
+  {"id":10573117016,"lat":41.800966,"lon":-88.374761,"k":"p","n":"Orchard Road & Orchard Gateway Boulevard","ref":"36460"},
+  {"id":10573117081,"lat":41.80188,"lon":-88.373216,"k":"p","n":"Orchard Gateway Boulevard & Orchard Road","ref":"36005"}
+],
+"routes":[
+  {"id":8100364,"t":{"ref":"524","name":"Bus 524: Aurora Transportation Center => Woodman's","from":"Aurora Transportation Center","to":"Woodman's","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":36,"s":[[7234416572,36]]},
+  {"id":15345101,"t":{"ref":"524","name":"Bus 524: Woodman's => Aurora Transportation Center","from":"Woodman's","to":"Aurora Transportation Center","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":36,"s":[[7234416572,1]]},
+  {"id":15345102,"t":{"ref":"524","name":"Bus 524: Aurora Transportation Center => Indian Trail => Woodman's","from":"Aurora Transportation Center","to":"Woodman's","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":44,"s":[[10573117081,43],[7234416572,44]]},
+  {"id":15345103,"t":{"ref":"524","name":"Bus 524: Woodman's => Indian Trail => Aurora Transportation Center","from":"Woodman's","to":"Aurora Transportation Center","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":44,"s":[[7234416572,1],[10573117016,2]]}
+]
+}

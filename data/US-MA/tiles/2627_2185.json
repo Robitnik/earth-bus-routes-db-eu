@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-MA",
+"tile":[2627,2185],
+"stops":[
+  {"id":1408370537,"lat":41.37158,"lon":-70.73284,"k":"p","n":"Across from Tabor House Road","ref":"XTABORVTA"},
+  {"id":1408370538,"lat":41.39832,"lon":-70.7051,"k":"p","n":"Across from Waskosim's Rock","ref":"XWASKOVTA"},
+  {"id":1408381807,"lat":41.37154,"lon":-70.73277,"k":"p","n":"Tabor House Road","ref":"TABORVTA"},
+  {"id":1408383196,"lat":41.39828,"lon":-70.70504,"k":"p","n":"Waskosim's Rock Reservation","ref":"WASKOVTA"},
+  {"id":12336461572,"lat":41.366793,"lon":-70.72644,"k":"p","n":"Tabor House Road Lot"}
+],
+"routes":[
+  {"id":18281808,"t":{"ref":"12","name":"VTA Route 12 Eastbound","from":"Tabor House Road Lot","to":"Chilmark","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":3,"s":[[12336461572,1]]},
+  {"id":18281809,"t":{"ref":"12","name":"VTA Route 12 Westbound","from":"Chilmark","to":"Tabor House Road Lot","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":2,"s":[[12336461572,2]]},
+  {"id":18281810,"t":{"ref":"12","name":"VTA Route 12 Westbound","from":"Chilmark","to":"Tabor House Road Lot","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":3,"s":[[12336461572,3]]},
+  {"id":18281811,"t":{"ref":"4","name":"VTA Route 4 Eastbound","from":"Menemsha & Chilmark","to":"West Tisbury","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":7,"s":[[1408381807,3],[1408383196,4]]},
+  {"id":18281812,"t":{"ref":"4","name":"VTA Route 4 Westbound","from":"West Tisbury","to":"Menemsha & Chilmark","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":8,"s":[[1408370538,5],[1408370537,6]]}
+]
+}

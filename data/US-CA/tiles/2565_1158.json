@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2565,1158],
+"stops":[
+  {"id":4363758016,"lat":38.262346,"lon":-122.056518,"k":"x","n":"Gateway Boulevard & The Courtyard"},
+  {"id":4364198230,"lat":38.261887,"lon":-122.054316,"k":"x","n":"Solano Town Center North Entrance","ref":"75327"},
+  {"id":6512460388,"lat":38.262968,"lon":-122.054109,"k":"x","n":"Solano Town Center"},
+  {"id":6512460389,"lat":38.259936,"lon":-122.057499,"k":"x","n":"Gateway Boulevard & Gateway Court"},
+  {"id":6512460390,"lat":38.262901,"lon":-122.054108,"k":"p","n":"Solano Town Center"},
+  {"id":6512460391,"lat":38.262286,"lon":-122.056498,"k":"p","n":"Gateway Boulevard & The Courtyard"},
+  {"id":6512460392,"lat":38.259952,"lon":-122.057447,"k":"p","n":"Gateway Boulevard & Gateway Court"},
+  {"id":13091081986,"lat":38.257794,"lon":-122.068037,"k":"x","n":"Oliver Rd and Holiday","ref":"75518"},
+  {"id":13091081987,"lat":38.257775,"lon":-122.068123,"k":"p","n":"Oliver Rd and Holiday","ref":"75518"},
+  {"id":13091081988,"lat":38.258271,"lon":-122.065791,"k":"x","n":"Raley's","ref":"75117"},
+  {"id":13091081989,"lat":38.258208,"lon":-122.065791,"k":"p","n":"Raley's","ref":"75117"},
+  {"id":13091081990,"lat":38.26196,"lon":-122.054286,"k":"p","n":"Solano Town Center North Entrance","ref":"75327"},
+  {"id":13091081991,"lat":38.260685,"lon":-122.050032,"k":"x","n":"Pennsylvania Ave and B Gale Wilson Rd","ref":"75322"},
+  {"id":13091081992,"lat":38.260685,"lon":-122.050117,"k":"p","n":"Pennsylvania Ave and B Gale Wilson Rd","ref":"75322"},
+  {"id":13119548216,"lat":38.257301,"lon":-122.050045,"k":"p","n":"Pennsylvania Ave and Kansas St","ref":"75020"},
+  {"id":13119548220,"lat":38.254202,"lon":-122.050066,"k":"p","n":"Pennsylvania Ave and Utah St","ref":"1562"}
+],
+"routes":[
+  {"id":9640430,"t":{"ref":"60","name":"SolanoExpress 60: El Cerrito del Norte BART => Vallejo Transit Center => Solano Town Center","from":"El Cerrito del Norte BART","to":"Solano Town Center","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":9,"s":[[6512460392,7],[6512460391,8],[6512460390,9]]},
+  {"id":9640431,"t":{"ref":"R","name":"SolanoExpress Red Line: Solano Town Center => Vallejo Transit Center => El Cerrito del Norte BART","from":"Solano Town Center","to":"El Cerrito del Norte BART","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":6,"s":[[6512460390,1]]},
+  {"id":19512924,"t":{"ref":"3","name":"Fairfield and Suisun 3: Fairfield Transportation Center => Walmart via Solano Town Center","from":"Fairfield Transportation Center","to":"Walmart","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#d41c33","route":"bus"},"n":15,"s":[[13091081988,3],[6512460389,4],[4363758016,5],[6512460388,6]]},
+  {"id":19512925,"t":{"ref":"3","name":"Fairfield and Suisun Transit 3: Walmart => Fairfield Transportation Center via Solano Town Center","from":"Walmart","to":"Fairfield Transportation Center","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#d41c33","route":"bus"},"n":10,"s":[[4364198230,5],[6512460388,6],[13091081991,7],[13091081986,8]]},
+  {"id":19564941,"t":{"ref":"6","name":"Fairfield and Suisun Transit 6: Solano Town Center => East Tabor & Sunset","from":"Solano Town Center","to":"East Tabor & Sunset","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#324099","route":"bus"},"n":13,"s":[[6512460388,1],[13091081991,2]]},
+  {"id":19564942,"t":{"ref":"6","name":"Fairfield and Suisun Transit 6: East Tabor & Sunset => Solano Town Center","from":"East Tabor & Sunset","to":"Solano Town Center","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#324099","route":"bus"},"n":14,"s":[[4364198230,13],[6512460388,14]]},
+  {"id":19573448,"t":{"ref":"8T","name":"Fairfield and Suisun Transit 8T: Oakbrook & Lopes => Solano Town Center","from":"Oakbrook & Lopes","to":"Solano Town Center","network":"FAST","operator":"Fairfield and Suisun Transit","colour":"#8f388b","route":"bus"},"n":22,"s":[[6512460389,20],[4363758016,21],[6512460388,22]]}
+]
+}

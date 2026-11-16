@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"US-VA",
+"tile":[2575,2059],
+"stops":[
+  {"id":7072921715,"lat":38.792731,"lon":-77.049535,"k":"p","n":"S Washington St & Hunting Point","ref":"4000903"},
+  {"id":7072921716,"lat":38.794949,"lon":-77.049025,"k":"p","n":"S Washington St & Church St","ref":"4001032"},
+  {"id":7072921718,"lat":38.79489,"lon":-77.049258,"k":"p","n":"S Washington St & Church St","ref":"4000003"},
+  {"id":7072921719,"lat":38.796275,"lon":-77.048684,"k":"p","n":"S Washington St & Green St","ref":"4000005"},
+  {"id":7072921720,"lat":38.795981,"lon":-77.049016,"k":"p","n":"S Washington St & Green St","ref":"4000004"},
+  {"id":7113008119,"lat":38.797735,"lon":-77.045355,"k":"p","n":"Franklin St + S Royal St","ref":"4000772"},
+  {"id":7113022501,"lat":38.799756,"lon":-77.044589,"k":"p","n":"S Royal St + Wilkes St","ref":"4000711"},
+  {"id":7113022502,"lat":38.799178,"lon":-77.044869,"k":"p","n":"S Royal St + Gibbon St","ref":"4000698"},
+  {"id":12992097821,"lat":38.799652,"lon":-77.04983,"k":"p","n":"Gibbon St at S Columbus St"},
+  {"id":12992099665,"lat":38.799179,"lon":-77.048354,"k":"p","n":"S Washington St at Gibbon St"},
+  {"id":12992099669,"lat":38.798066,"lon":-77.048366,"k":"p","n":"S Washington St at Franklin St"},
+  {"id":12992099672,"lat":38.797192,"lon":-77.048768,"k":"p","n":"S Washington St at Jefferson St"},
+  {"id":13428858466,"lat":38.798009,"lon":-77.047484,"k":"p","n":"Franklin St at S Saint Asaph St"},
+  {"id":13428858467,"lat":38.799187,"lon":-77.04617,"k":"p","n":"Gibbon St at S Pitt St"}
+],
+"routes":[
+  {"id":19220936,"t":{"ref":"A12","name":"WMATA A12 Hunting Point-Ballston Northbound Line","from":"Hunting Point","to":"Ballston","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":54,"s":[[7072921715,1],[7072921716,2],[7072921719,3]]},
+  {"id":19220937,"t":{"ref":"A12","name":"WMATA A12 Hunting Point-Ballston Southbound Line","from":"Ballston","to":"Hunting Point","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":51,"s":[[7072921720,49],[7072921718,50]]},
+  {"id":19297624,"t":{"ref":"34","name":"DASH Line 34 Northbound","from":"Lee Center","to":"Potomac Yard Center","network":"DASH","operator":"Alexandria Transit Company","route":"bus","public_transport:version":"2"},"n":14,"s":[[7113008119,2],[7113022501,3]]},
+  {"id":19297625,"t":{"ref":"34","name":"DASH Line 34 Southbound","from":"Potomac Yard Center","to":"Lee Center","network":"DASH","operator":"Alexandria Transit Company","route":"bus","public_transport:version":"2"},"n":15,"s":[[7113022502,14]]},
+  {"id":19397786,"t":{"ref":"F19","name":"WMATA F19 Mount Vernon Southbound Line","from":"Potomac Park","to":"Mount Vernon","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":49,"s":[[12992099665,12],[12992099672,13],[7072921720,14],[7072921718,15]]},
+  {"id":19397787,"t":{"ref":"F19","name":"WMATA F19 Mount Vernon Northbound Line","from":"Mount Vernon","to":"Potomac Park","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":43,"s":[[7072921715,31],[7072921716,32],[7072921719,33],[12992099669,34]]}
+]
+}

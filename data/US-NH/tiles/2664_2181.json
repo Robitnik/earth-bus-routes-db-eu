@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"US-NH",
+"tile":[2664,2181],
+"stops":[
+  {"id":10568556699,"lat":43.213522,"lon":-70.901819,"k":"s","n":"Dover, NH"},
+  {"id":10625169120,"lat":43.249533,"lon":-70.900019,"k":"p","n":"NH 108 (Marsh Brook Professional Center)"},
+  {"id":10625169121,"lat":43.247611,"lon":-70.900153,"k":"p","n":"NH 108 / 2nd Avenue"},
+  {"id":10684931097,"lat":43.212943,"lon":-70.906718,"k":"p","n":"Sixth Street / Heather Lane"},
+  {"id":10684931098,"lat":43.216487,"lon":-70.911746,"k":"p","n":"Sixth Street / Education Way"},
+  {"id":10684931099,"lat":43.217658,"lon":-70.928845,"k":"p","n":"County Farm Road (Highland Farm)"},
+  {"id":10684931101,"lat":43.219549,"lon":-70.940236,"k":"p","n":"County Farm Cross Road / County Farm Road"},
+  {"id":10684931103,"lat":43.220171,"lon":-70.938568,"k":"p","n":"Strafford County Courthouse"},
+  {"id":10684931104,"lat":43.217778,"lon":-70.928043,"k":"p","n":"County Farm Road / Erik Drive"},
+  {"id":10684954205,"lat":43.218206,"lon":-70.915823,"k":"p","n":"County Farm Road / Sixth Street"},
+  {"id":10684954206,"lat":43.217282,"lon":-70.920523,"k":"p","n":"County Farm Road / Watson Road"},
+  {"id":10684954207,"lat":43.217336,"lon":-70.920672,"k":"p","n":"County Farm Road / Watson Road"},
+  {"id":10684954208,"lat":43.216659,"lon":-70.911754,"k":"p","n":"Sixth Street / Venture Drive"},
+  {"id":10684954209,"lat":43.21797,"lon":-70.914323,"k":"p","n":"Sixth Street / Production Drive"},
+  {"id":10684954210,"lat":43.212667,"lon":-70.913024,"k":"p","n":"50 Education Way (Measured Progress)","q":1},
+  {"id":10684954211,"lat":43.213037,"lon":-70.906586,"k":"p","n":"Sixth Street / Heather Lane (Cocheco River Dialysis)"},
+  {"id":10684954212,"lat":43.214325,"lon":-70.903355,"k":"p","n":"Members Way (Wentworth-Douglass Professional Center)","q":1},
+  {"id":10684954213,"lat":43.215446,"lon":-70.90085,"k":"p","n":"Members Way (Homewood Suites / Margarita's)","q":1},
+  {"id":10684954214,"lat":43.210184,"lon":-70.911877,"k":"p","n":"150 Liberty Way","q":1},
+  {"id":10684954215,"lat":43.210767,"lon":-70.907065,"k":"p","n":"100 Liberty Way","q":1},
+  {"id":11079195788,"lat":43.213346,"lon":-70.901942,"k":"p","n":"Indian Brook Drive (NHDOT Park & Ride - Exit 9)","q":1}
+],
+"routes":[
+  {"id":12087468,"t":{"ref":"1","name":"COAST Bus 1: Dover / Somersworth / Berwick Northbound","from":"Dover Transportation Center","to":"Sullivan St. (Berwick Town Hall)","network":"Cooperative Alliance for Seacoast Transportation","operator":"COAST","colour":"#ead632","route":"bus","public_transport:version":"2"},"n":21,"s":[[11079195788,6]]},
+  {"id":12091093,"t":{"ref":"33","name":"COAST Bus 33: Downtown Dover / Weekday Service to County Complex Outbound","from":"Dover Transportation Center","to":"Strafford County Courthouse","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#00793e","route":"bus","public_transport:version":"2"},"n":26,"s":[[10684954214,16],[10684954215,17],[10684954213,18],[10684954212,19],[10684954211,20],[10684954208,21],[10684954210,22],[10684954209,23],[10684954207,24],[10684931104,25],[10684931103,26]]},
+  {"id":12091686,"t":{"ref":"12","name":"COAST Bus 12: Rochester / Somersworth / Dover Northbound","from":"Dover Transportation Center","to":"Lilac Mall","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#144069","route":"bus","public_transport:version":"2"},"n":35,"s":[[10625169120,13]]},
+  {"id":15338856,"t":{"ref":"DOV-NYC","name":"Dover, NH => New York City","from":"Dover, NH","to":"Port Authority Bus Terminal","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556699,1]]},
+  {"id":15338857,"t":{"ref":"DOV-NYC","name":"New York City => Dover, NH","from":"Port Authority Bus Terminal","to":"Dover, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556699,1]]},
+  {"id":15338859,"t":{"ref":"DVSS","name":"Dover, NH => Boston South Station","from":"Dover, NH","to":"Boston South Station","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556699,1]]},
+  {"id":15338861,"t":{"ref":"SSDV","name":"Boston South Station => Dover, NH","from":"Boston South Station","to":"Dover, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556699,3]]},
+  {"id":15449361,"t":{"ref":"12","name":"COAST Bus 12: Rochester / Somersworth / Dover Southbound","from":"Lilac Mall","to":"Dover Transportation Center","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#144069","route":"bus","public_transport:version":"2"},"n":31,"s":[[10625169121,22]]},
+  {"id":15519155,"t":{"ref":"33","name":"COAST Bus 33: Downtown Dover / Weekday Service to County Complex Inbound","from":"Dover Transportation Center","to":"Strafford County Courthouse","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#00793e","route":"bus","public_transport:version":"2"},"n":28,"s":[[10684931103,1],[10684931101,2],[10684931099,3],[10684954206,4],[10684954205,5],[10684954210,6],[10684931098,7],[10684931097,8],[10684954214,9],[10684954215,10],[10684954213,11],[10684954212,12]]},
+  {"id":16146671,"t":{"ref":"1","name":"COAST Bus 1: Dover / Somersworth / Berwick Southbound","from":"Dover Transportation Center","to":"Sullivan St. (Berwick Town Hall)","network":"Cooperative Alliance for Seacoast Transportation","operator":"COAST","colour":"#ead632","route":"bus","public_transport:version":"2"},"n":22,"s":[[11079195788,16]]}
+]
+}

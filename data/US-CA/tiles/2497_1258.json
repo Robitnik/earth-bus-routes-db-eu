@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2497,1258],
+"stops":[
+  {"id":11998415282,"lat":34.854659,"lon":-117.088728,"k":"p","n":"Lenwood Road Southbound & Commerce Parkway","ref":"30129"},
+  {"id":11998415283,"lat":34.85504,"lon":-117.089046,"k":"p","n":"Lenwood Road Northbound & Commerce Parkway","ref":"30126"},
+  {"id":11998415284,"lat":34.857254,"lon":-117.090932,"k":"p","n":"Lenwood Road Northbound & High Desert Road","ref":"30128"},
+  {"id":11998415285,"lat":34.857205,"lon":-117.091257,"k":"p","n":"Lenwood Road Southbound & High Desert Road","ref":"30127"},
+  {"id":13206212951,"lat":34.885801,"lon":-117.056024,"k":"p","n":"L Street Park & Ride"},
+  {"id":13232082579,"lat":34.872005,"lon":-117.054301,"k":"p","n":"Brucite Road Westbound & K Street FS","ref":"30259"},
+  {"id":13232082580,"lat":34.872376,"lon":-117.060476,"k":"p","n":"N Street Northbound & Brucite Road","ref":"30260"},
+  {"id":13232082581,"lat":34.877368,"lon":-117.05966,"k":"p","n":"Rimrock Road Eastbound & N Street","ref":"30261"},
+  {"id":13232082582,"lat":34.877364,"lon":-117.055944,"k":"p","n":"Rimrock Road Eastbound & K Avenue","ref":"30262"}
+],
+"routes":[
+  {"id":9638973,"t":{"ref":"6","name":"6 - Barstow City Hall - Rimrock + N Street","from":"Bartow City Hall","to":"Rimrock Road & N Street","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":8,"s":[[13232082579,3],[13232082580,4],[13232082581,5],[13232082582,6]]},
+  {"id":9638974,"t":{"ref":"3","from":"Barstow City Hall","to":"Lenwood Road - Hampton Inn","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":10,"s":[[11998415283,6],[11998415282,7],[11998415284,8],[11998415285,9]]},
+  {"id":9640194,"t":{"ref":"111","name":"NTC Commuter - Fort Irwin - Barstow","from":"Barstow - L Street Park and Ride","to":"Fort Irwin Bus Lot","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":14,"s":[[13206212951,1]]},
+  {"id":9640195,"t":{"ref":"115","name":"NTC Commuter - Fort Irwin - Helendale","from":"Helendale - Silver Lakes Market","to":"Fort Irwin Bus Lot","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":15,"s":[[13206212951,2]]},
+  {"id":19696634,"t":{"ref":"118","name":"NTC Commuter - Fort Irwin - Hesperia via Barstow","from":"Fort Irwin Bus Lot","to":"Hesperia - Smoke Tree Street - VVTA","network":"VVTA","route":"bus","public_transport:version":"2"},"n":20,"s":[[13206212951,17]]}
+]
+}

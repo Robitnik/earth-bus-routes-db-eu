@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-NE",
+"tile":[2614,1666],
+"stops":[
+  {"id":7588535569,"lat":40.729093,"lon":-96.682751,"k":"p","n":"Walmart"},
+  {"id":8747738476,"lat":40.738397,"lon":-96.699088,"k":"p","n":"Pine Lake & 16th Street","ref":"#13 – South 13th"},
+  {"id":12192108382,"lat":40.741523,"lon":-96.678785,"k":"p","n":"SouthPointe"}
+],
+"routes":[
+  {"id":11166795,"t":{"ref":"13","name":"Bus #13 – South 13th - Outbound","from":"11th & L Street - Stop 4","to":"Walmart","network":"StarTran","operator":"StarTran","route":"bus"},"n":2,"s":[[7588535569,1]]},
+  {"id":11491936,"t":{"ref":"13","name":"Bus #13 – South 13th - Inbound","from":"Walmart","to":"11th & L Street - Stop 3","network":"StarTran","operator":"StarTran","route":"bus"},"n":2,"s":[[7588535569,2]]},
+  {"id":11500061,"t":{"ref":"53","name":"Bus #53 - SouthPointe - Outbound","from":"11th & L Street - Stop 6","to":"Walmart","network":"StarTran","operator":"StarTran","route":"bus"},"n":3,"s":[[12192108382,1],[7588535569,2]]},
+  {"id":11500193,"t":{"ref":"53","name":"Bus #53 - SouthPointe - Inbound","from":"Walmart","to":"Gold's - \"N\" Street","network":"StarTran","operator":"StarTran","route":"bus"},"n":4,"s":[[7588535569,1]]}
+]
+}

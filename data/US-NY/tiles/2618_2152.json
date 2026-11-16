@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2618,2152],
+"stops":[
+  {"id":5470103806,"lat":40.911443,"lon":-72.351234,"k":"p","n":"Montauk Hwy/Station Rd","ref":"2572"},
+  {"id":5470111604,"lat":40.910799,"lon":-72.352014,"k":"p","n":"Montauk Hwy/Station Rd","ref":"3096"},
+  {"id":12123285661,"lat":40.900985,"lon":-72.385012,"k":"p","n":"Southampton","ref":"SH"}
+],
+"routes":[
+  {"id":8099258,"t":{"ref":"92","name":"SCT 92 - East Hampton --> Orient Point","from":"East Hampton","to":"Orient Point","network":"Suffolk County Transit","operator":"Suffolk County Department of Public Works","route":"bus","public_transport:version":"2"},"n":53,"s":[[5470103806,12]]},
+  {"id":15100105,"t":{"ref":"92","name":"SCT 92 - Orient Point --> East Hampton","from":"Orient Point","to":"East Hampton","network":"Suffolk County Transit","operator":"Suffolk County Department of Public Works","route":"bus","public_transport:version":"2"},"n":50,"s":[[5470111604,38]]},
+  {"id":17956620,"t":{"ref":"M","name":"HJ - Montauk Line - Westbound","from":"Montauk","to":"New York","network":"Hampton Jitney","operator":"Hampton Jitney, Inc.","route":"bus"},"n":20,"s":[[5470103806,8],[12123285661,9]]},
+  {"id":17956621,"t":{"ref":"M","name":"HJ - Montauk Line - Eastbound","from":"Manhattan","to":"Montauk","network":"Hampton Jitney","operator":"Hampton Jitney, Inc.","route":"bus"},"n":17,"s":[[5470111604,8],[12123285661,9]]}
+]
+}

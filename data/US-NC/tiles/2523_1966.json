@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"US-NC",
+"tile":[2523,1966],
+"stops":[
+  {"id":6539888389,"lat":36.197061,"lon":-81.65533,"k":"p","n":"Applebee's"},
+  {"id":6617400565,"lat":36.198052,"lon":-81.664,"k":"p","n":"Greenway Road Parking Lot","ref":"92"},
+  {"id":6617400566,"lat":36.198521,"lon":-81.667877,"k":"p","n":"Greenway Business Park","ref":"93"},
+  {"id":6617400567,"lat":36.198458,"lon":-81.668101,"k":"p","n":"Watauga Opportunities","ref":"105"},
+  {"id":6617400568,"lat":36.199789,"lon":-81.670548,"k":"p","n":"Winklers Meadow","ref":"104"},
+  {"id":6617400569,"lat":36.199858,"lon":-81.670403,"k":"p","n":"Greenway Commons","ref":"94"},
+  {"id":6778907522,"lat":36.198148,"lon":-81.658735,"k":"p","n":"Walmart 2","ref":"108"},
+  {"id":6778907523,"lat":36.198064,"lon":-81.65873,"k":"p","n":"Walmart 1","ref":"33"},
+  {"id":6821382037,"lat":36.197929,"lon":-81.662854,"k":"p","n":"College Place","ref":"32"},
+  {"id":6821382038,"lat":36.198367,"lon":-81.652317,"k":"p","n":"Watauga Medical Center","ref":"8"},
+  {"id":6821382041,"lat":36.199652,"lon":-81.659569,"k":"p","n":"Pride Drive","ref":"81"},
+  {"id":6821382042,"lat":36.19465,"lon":-81.652772,"k":"p","n":"Meadowview Drive / US 321","ref":"88"},
+  {"id":6821382043,"lat":36.194617,"lon":-81.657988,"k":"p","n":"Village at Meadowview","ref":"89"},
+  {"id":6821382044,"lat":36.197729,"lon":-81.663324,"k":"p","n":"Meadowview Drive / Greenway Road","ref":"91"},
+  {"id":11161992728,"lat":36.194842,"lon":-81.655527,"k":"p","n":"Meadowview Drive / Madison Avenue","ref":"90"}
+],
+"routes":[
+  {"id":10073487,"t":{"name":"Pink: ASU Peacock Traffic Circle -> Rivers Street -> Highway 321 -> ASU College of Health Sciences -> Shadowline Drive -> University Hall","network":"AppalCART","colour":"#d16baa","route":"bus","public_transport:version":"2"},"n":16,"s":[[6821382041,8],[6821382038,9]]},
+  {"id":10073489,"t":{"name":"Express: ASU Peacock Traffic Circle -> Rivers Street -> Highway 321 -> ASU College of Health Sciences -> Shadowline Drive","network":"AppalCART","colour":"#b7d4e8","route":"bus","public_transport:version":"2"},"n":17,"s":[[6821382037,8],[6778907523,9],[6821382038,10]]},
+  {"id":10073491,"t":{"name":"Purple: ASU Peacock Traffic Circle -> Rivers Street -> Highway 321 -> Meadowview Drive -> Greenway Road -> Winkler's Creek Road","network":"AppalCART","colour":"#985ba5","route":"bus","public_transport:version":"2"},"n":19,"s":[[6821382041,8],[6821382042,9],[6821382043,10],[11161992728,11],[6821382044,12],[6617400565,13],[6617400566,14],[6617400569,15]]},
+  {"id":13195838,"t":{"name":"Wellness District: ASU State Farm Lot / Greenway -> Blowing Rock Road -> Watauga Medical Center -> ASU College of Health Sciences","network":"AppalCART","colour":"pink","route":"bus","public_transport:version":"2"},"n":6,"s":[[6821382038,4]]},
+  {"id":13195839,"t":{"name":"Red: ASU College St Station -> ASU Mountain Laurel Hall -> Walmart -> ASU College of Health Sciences -> Greenway Commons","network":"AppalCART","colour":"red","route":"bus","public_transport:version":"2"},"n":23,"s":[[6617400568,5],[6617400567,6],[6821382037,7],[6778907523,8],[6821382038,9],[6778907522,14],[6617400565,15],[6617400566,16],[6617400569,17]]}
+]
+}

@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-PA",
+"tile":[2605,1996],
+"stops":[
+  {"id":609667821,"lat":40.296017,"lon":-80.159874,"k":"p"},
+  {"id":7251544839,"lat":40.259286,"lon":-80.184342,"k":"p","n":"Pike St. & Greenside Ave."},
+  {"id":7251544840,"lat":40.259109,"lon":-80.184707,"k":"p","n":"Pike St. & Greenside Ave."}
+],
+"routes":[
+  {"id":10693645,"t":{"ref":"Metro Commuter","name":"Pittsburgh Metro Commuter Weekday - Outbound","from":"Pittsburgh","to":"Washington PA","operator":"Freedom Transit","route":"bus"},"n":11,"s":[[609667821,4],[7251544839,10]]},
+  {"id":10693646,"t":{"ref":"Metro Commuter","name":"Pittsburgh Metro Commuter Weekday - Inbound","from":"Washington PA","to":"Pittsburgh","operator":"Freedom Transit","route":"bus"},"n":9,"s":[[7251544840,9]]},
+  {"id":10775051,"t":{"ref":"Metro Commuter","name":"Metro Commuter Saturday - Inbound","from":"Washington","to":"South Hills Village","network":"Freedom Transit","operator":"Freedom Transit","route":"bus"},"n":3,"s":[[7251544840,3]]},
+  {"id":10775052,"t":{"ref":"Metro Commuter","name":"Metro Commuter Saturday - Outbound","from":"South Hills Village","to":"Washington","network":"Freedom Transit","operator":"Freedom Transit","route":"bus"},"n":3,"s":[[7251544839,3]]}
+]
+}

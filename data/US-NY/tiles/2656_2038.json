@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2656,2038],
+"stops":[
+  {"id":12062363455,"lat":42.818619,"lon":-78.076979,"k":"p","n":"Saltvale & Main"},
+  {"id":12062363458,"lat":42.828729,"lon":-78.082259,"k":"p","n":"Sherman & Maple"},
+  {"id":12062363459,"lat":42.828194,"lon":-78.08825,"k":"p","n":"Wyoming Gaslight Market"},
+  {"id":12063317307,"lat":42.828475,"lon":-78.0881,"k":"p","n":"U.S. Post Office"},
+  {"id":12064280762,"lat":42.828592,"lon":-78.087984,"k":"p","n":"U.S. Post Office"}
+],
+"routes":[
+  {"id":17857823,"t":{"ref":"222","name":"RTS 222 Warsaw/Batavia (N2)","from":"Connect 55","to":"US SSA - Batavia","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12064280762,2]]},
+  {"id":17857829,"t":{"ref":"222","name":"RTS 222 Warsaw/Batavia (S1)","from":"US SSA - Batavia","to":"Connect 55","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063317307,2]]},
+  {"id":17858055,"t":{"ref":"228","name":"RTS 228 Warsaw/Wyoming (N)","from":"Walmart - Warsaw","to":"Wyoming Gaslight Market","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12062363455,2],[12062363458,3],[12062363459,4]]},
+  {"id":17858056,"t":{"ref":"228","name":"RTS 228 Warsaw/Wyoming (S)","from":"Wyoming Gaslight Market","to":"Allen & Main","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12062363459,1]]}
+]
+}

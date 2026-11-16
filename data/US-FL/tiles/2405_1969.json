@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"US-FL",
+"tile":[2405,1969],
+"stops":[
+  {"id":1317055392,"lat":30.287717,"lon":-81.510272,"k":"p"},
+  {"id":1317055566,"lat":30.288293,"lon":-81.510599,"k":"p"},
+  {"id":5327866374,"lat":30.265891,"lon":-81.504303,"k":"p"},
+  {"id":5327866474,"lat":30.262602,"lon":-81.504246,"k":"p"},
+  {"id":5327866475,"lat":30.262603,"lon":-81.503401,"k":"p"},
+  {"id":5328066865,"lat":30.266358,"lon":-81.504735,"k":"p"},
+  {"id":5328067150,"lat":30.270582,"lon":-81.505742,"k":"p"},
+  {"id":5328067151,"lat":30.270847,"lon":-81.506147,"k":"p"},
+  {"id":6179163446,"lat":30.255229,"lon":-81.536968,"k":"p"},
+  {"id":6414597973,"lat":30.291488,"lon":-81.505475,"k":"x","n":"FSCJ South"},
+  {"id":6414597976,"lat":30.287074,"lon":-81.528648,"k":"p","n":"Saint Johns Bluff"},
+  {"id":6414597977,"lat":30.286976,"lon":-81.528678,"k":"x","n":"Saint Johns Bluff"},
+  {"id":6414597978,"lat":30.286715,"lon":-81.526904,"k":"p","n":"Saint Johns Bluff"},
+  {"id":6414597979,"lat":30.286826,"lon":-81.526889,"k":"x","n":"Saint Johns Bluff"},
+  {"id":6422089989,"lat":30.291503,"lon":-81.505617,"k":"p","n":"FSCJ South"},
+  {"id":8930812717,"lat":30.259732,"lon":-81.527209,"k":"p","n":"Flixbus"}
+],
+"routes":[
+  {"id":9475256,"t":{"ref":"8","name":"JTA 8 Beach Boulevard/Downtown","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":2,"s":[[6422089989,1],[6414597976,2]]},
+  {"id":9475257,"t":{"ref":"8B","name":"JTA 8B Beach Boulevard/FSCJ South/UNF","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":2,"s":[[6414597978,1],[6422089989,2]]},
+  {"id":9475463,"t":{"ref":"23","name":"JTA 23 Townsend/Southside (southbound)","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[6422089989,1],[6414597976,2]]},
+  {"id":9475464,"t":{"ref":"23","name":"JTA 23 Townsend/Southside (northbound)","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[6414597978,1],[6422089989,2]]},
+  {"id":9477475,"t":{"ref":"Red","name":"JTA 109 First Coast Flyer Red Line (westbound)","from":"Beaches","to":"Downtown","network":"JTA","operator":"Jacksonville Transportation Authority","colour":"#cb333b","route":"bus","public_transport:version":"2"},"n":17,"s":[[6422089989,7],[6414597976,8]]},
+  {"id":9477476,"t":{"ref":"Red","name":"JTA 109 First Coast Flyer Red Line (eastbound)","from":"Downtown","to":"Beaches","network":"JTA","operator":"Jacksonville Transportation Authority","colour":"#cb333b","route":"bus","public_transport:version":"2"},"n":19,"s":[[6414597978,10],[6422089989,11]]}
+]
+}

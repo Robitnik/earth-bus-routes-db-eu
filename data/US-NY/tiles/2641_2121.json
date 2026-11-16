@@ -1,0 +1,14 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2641,2121],
+"stops":[
+  {"id":3208084436,"lat":42.059927,"lon":-73.911251,"k":"p","n":"Tivoli","ref":"106"},
+  {"id":3225921688,"lat":42.057022,"lon":-73.900197,"k":"p","n":"Monument"}
+],
+"routes":[
+  {"id":4230585,"t":{"ref":"Bard College Shuttle","name":"Bard College Shuttle","operator":"Bard Transportation","route":"bus"},"n":3,"s":[[3225921688,1,2],[3208084436,3]]},
+  {"id":4297355,"t":{"ref":"C","name":"C: Tivoli => Poughkeepsie","from":"Tivoli","network":"Dutchess County LOOP Bus System","operator":"Dutchess County Department of Mass Transit","route":"bus"},"n":8,"s":[[3208084436,2],[3225921688,3]]},
+  {"id":4423256,"t":{"ref":"C","name":"C: Poughkeepsie => Tivoli","from":"Main & Market","to":"Tivoli","network":"Dutchess County LOOP Bus System","operator":"Dutchess County Department of Mass Transit","route":"bus"},"n":17,"s":[[3208084436,1]]}
+]
+}

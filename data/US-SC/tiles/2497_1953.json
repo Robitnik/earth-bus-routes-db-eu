@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"US-SC",
+"tile":[2497,1953],
+"stops":[
+  {"id":1266095371,"lat":34.850742,"lon":-82.323378,"k":"p","n":"St Francis Eastside Shuttle"},
+  {"id":1407256006,"lat":34.865746,"lon":-82.347424,"k":"p","n":"Pelham Rd @ Ashworth Apts"},
+  {"id":1407256039,"lat":34.851396,"lon":-82.320735,"k":"p","n":"Commonwealth Dr @ International Dr"},
+  {"id":1407256046,"lat":34.863062,"lon":-82.342382,"k":"p","n":"Pelham Rd @ Covey Hill"},
+  {"id":1407256066,"lat":34.852504,"lon":-82.325777,"k":"p","n":"Greenville Hospital System Patewood"},
+  {"id":1407256093,"lat":34.855176,"lon":-82.32999,"k":"p","n":"Orchard Park Dr @ Brendan Way"},
+  {"id":1407256095,"lat":34.856551,"lon":-82.324172,"k":"p","n":"Pelham Rd @ Patewood Drive"},
+  {"id":1407256096,"lat":34.866221,"lon":-82.347642,"k":"p","n":"Pelham Rd @ Pelham Commons"},
+  {"id":1407256097,"lat":34.866542,"lon":-82.349774,"k":"p","n":"Pelham Rd @ Pelham Commons"},
+  {"id":1407256098,"lat":34.858442,"lon":-82.336426,"k":"p","n":"Pelham Rd @ Pelham-Haywood"},
+  {"id":1407256099,"lat":34.858772,"lon":-82.338153,"k":"p","n":"Pelham Rd @ Pointe Cir"},
+  {"id":1407256101,"lat":34.854267,"lon":-82.320911,"k":"p","n":"Roper Mountain Rd @ Pelham Rd"},
+  {"id":1407256102,"lat":34.863255,"lon":-82.342252,"k":"p","n":"Social Security Administration"},
+  {"id":1407256103,"lat":34.850582,"lon":-82.323176,"k":"p","n":"St Francis Eastside"},
+  {"id":1407256157,"lat":34.864183,"lon":-82.344571,"k":"p","n":"Pelham Rd @ Ingleside Way"},
+  {"id":1831361663,"lat":34.892234,"lon":-82.345697,"k":"p","n":"Wade Hampton Blvd @ Arundel Rd"},
+  {"id":1831361690,"lat":34.897364,"lon":-82.339947,"k":"p","n":"Wade Hampton Blvd @ Cherokee Dr"},
+  {"id":1831361712,"lat":34.889046,"lon":-82.349747,"k":"p","n":"Hampton Forest Apartments"},
+  {"id":1831361721,"lat":34.893609,"lon":-82.344126,"k":"p","n":"Wade Hampton Blvd @ InTown Suites"},
+  {"id":1831361743,"lat":34.890008,"lon":-82.348087,"k":"p","n":"Wade Hampton Blvd @ Richbourg Rd"},
+  {"id":1831361760,"lat":34.892652,"lon":-82.345737,"k":"p","n":"Wade Hampton Blvd @ Thrift Store"},
+  {"id":3022985081,"lat":34.856894,"lon":-82.332929,"k":"p","n":"Orchard Park Dr @ Haywood Plaza"},
+  {"id":3723796294,"lat":34.85351,"lon":-82.32525,"k":"p","n":"Patewood"},
+  {"id":3723796295,"lat":34.853592,"lon":-82.325135,"k":"p","n":"Patewood"}
+],
+"routes":[
+  {"id":1564351,"t":{"ref":"CUICAR","name":"CUICAR-St. Francis Free Shuttle","from":"CUICAR","to":"St Francis Eastside","operator":"Greenlink","route":"bus"},"n":5,"s":[[1266095371,5]]},
+  {"id":1720801,"t":{"ref":"12L","name":"12L outbound","from":"Transit Center","to":"Pelham-Overbrook","operator":"Greenlink","route":"bus"},"n":21,"s":[[1407256097,1],[1407256006,14],[1407256157,15],[1407256046,16],[1407256099,17],[1407256095,18],[1407256101,19],[1407256039,20],[1407256103,21]]},
+  {"id":1720893,"t":{"ref":"12L","name":"12L inbound","from":"Pelham-Overbrook","to":"Transit Center","operator":"Greenlink","route":"bus"},"n":15,"s":[[3022985081,1],[1407256066,7],[1407256093,8],[1407256098,9],[1407256102,10],[1407256096,11]]},
+  {"id":2294797,"t":{"ref":"11K","name":"11K inbound","from":"Taylors","to":"Transit Center","operator":"Greenlink","route":"bus"},"n":21,"s":[[1831361760,1],[1831361712,9]]},
+  {"id":2294798,"t":{"ref":"11K","name":"11K outbound","from":"Transit Center","to":"Taylors","operator":"Greenlink","route":"bus"},"n":32,"s":[[1831361663,17],[1831361721,18],[1831361690,19],[1831361743,32]]},
+  {"id":5476258,"t":{"name":"Tiger Connect To ICAR","from":"Greenlink","to":"ICAR","operator":"Greenlink","route":"bus","public_transport:version":"2"},"n":4,"s":[[3723796294,3]]},
+  {"id":5476259,"t":{"name":"Tiger Connect To Univ Ctr","from":"ICAR","to":"University Center","operator":"Greenlink","route":"bus","public_transport:version":"2"},"n":4,"s":[[3723796295,1]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2547,1232],
+"stops":[
+  {"id":9201970523,"lat":37.3739,"lon":-118.391864,"k":"p","n":"Bishop"},
+  {"id":9203504950,"lat":37.367677,"lon":-118.394774,"k":"p","n":"Chamber of Commerce"},
+  {"id":9203520589,"lat":37.362239,"lon":-118.396197,"k":"p","n":"Warren Street"},
+  {"id":9371939994,"lat":37.371118,"lon":-118.36622,"k":"p","n":"Bishop Airport"}
+],
+"routes":[
+  {"id":13370886,"t":{"ref":"LPX","name":"Lone Pine Express","from":"Lone Pine","to":"Bishop","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus"},"n":11,"s":[[9201970523,10],[9371939994,11]]},
+  {"id":13373459,"t":{"ref":"Bishop Creek","name":"Bishop Creek Shuttle","from":"Bishop","to":"Bishop Creek Recreation Area.","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus"},"n":7,"s":[[9203504950,1],[9201970523,2],[9203520589,3]]},
+  {"id":13373521,"t":{"ref":"BENTON / BISHOP","name":"Benton to Bishop","from":"Benton","to":"Bishop","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus","public_transport:version":"1"},"n":4,"s":[[9201970523,1]]},
+  {"id":13571185,"t":{"ref":"395 SOUTH","name":"Mammoth Lakes to Lancaster Route (395 SOUTH)","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus"},"n":16,"s":[[9201970523,13]]},
+  {"id":13618498,"t":{"ref":"MMX","name":"Mammoth Express","from":"Bishop","to":"Mammoth Lakes","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus"},"n":6,"s":[[9201970523,5],[9371939994,6]]},
+  {"id":13655794,"t":{"ref":"395","name":"Lone Pine to Reno","from":"Lone Pine","to":"Reno","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus","public_transport:version":"1"},"n":18,"s":[[9201970523,9]]}
+]
+}

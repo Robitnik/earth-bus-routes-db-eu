@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2492,1196],
+"stops":[
+  {"id":10672530589,"lat":34.610927,"lon":-120.186627,"k":"p","n":"Buellton, CA (BUL);Buellton - Highway246 at Freear;Highway 246 & Freear Drive (North)"},
+  {"id":10734029059,"lat":34.609768,"lon":-120.187923,"k":"p","n":"Albertsons/CVS Drugs;Buellton - Albertsons Shopping Center;Highway 246/Freear Drive (Albertsons)"},
+  {"id":10738234505,"lat":34.614601,"lon":-120.19695,"k":"p","n":"Buellton Post Office;Hwy 246 & Valley Station Drive. (west of post office)","ref":"S81"},
+  {"id":10763089049,"lat":34.613625,"lon":-120.18807,"k":"p","n":"McMurray Road. (McDonald's)"},
+  {"id":10763089050,"lat":34.616048,"lon":-120.192511,"k":"p","n":"2nd Street. & Avenue of the Flags (Houston's)"},
+  {"id":10763089064,"lat":34.611331,"lon":-120.194209,"k":"p","n":"Flying Flags RV Park (Avenue of the Flags)"},
+  {"id":10774695345,"lat":34.608998,"lon":-120.193899,"k":"p","n":"Buellton Park and Ride Lot"}
+],
+"routes":[
+  {"id":15486911,"t":{"ref":"17","name":"17 - Santa Barbara - San Luis Obispo - Oakland","from":"Santa Barbara","to":"Oakland","network":"Amtrak Thruway","operator":"LOSSAN Rail Corridor Agency","route":"bus","public_transport:version":"1"},"n":15,"s":[[10672530589,4]]},
+  {"id":15598105,"t":{"ref":"WineX","name":"Wine Country Express","from":"Lompoc- Cypress and I Street","to":"slovang park","network":"City of Lompoc Transit","route":"bus"},"n":3,"s":[[10734029059,2]]},
+  {"id":15607348,"t":{"ref":"Santa Barbara","name":"Santa Barbara Service","from":"Cypress and I Street - lompoc","to":"Santa Barbara MTD Bus Depot","network":"City of Lompoc Transit","route":"bus"},"n":3,"s":[[10738234505,2]]},
+  {"id":15617540,"t":{"ref":"20","name":"20 - Santa Maria Transit Center/Los Alamos/Buellton/Solvang","from":"Santa Maria Transit Center","to":"Solvang Park","network":"Santa Maria Regional Transit","operator":"Santa Maria Regional Transit","route":"bus"},"n":5,"s":[[10734029059,3],[10672530589,4]]},
+  {"id":15646507,"t":{"ref":"Express","name":"Express Route","from":"Solvang Park","to":"Buellton Post Office","network":"Santa Ynez Valley Transit","route":"bus"},"n":24,"s":[[10734029059,1],[10672530589,2],[10763089049,3],[10763089050,4],[10738234505,8],[10763089064,9]]},
+  {"id":15664964,"t":{"ref":"201","name":"201 - Santa Maria/Buellton - Goleta","from":"Santa Maria Park and Ride Lot","to":"Calle Real at Pestas Lane","network":"Clean Air Express","route":"bus"},"n":25,"s":[[10774695345,2]]},
+  {"id":15956929,"t":{"ref":"223","name":"223 - Santa Maria/Buellton - Santa Barbara","from":"Santa Maria Park and Ride","to":"Gutierrez at Nopal","network":"Clean Air Express","route":"bus"},"n":12,"s":[[10774695345,2]]}
+]
+}

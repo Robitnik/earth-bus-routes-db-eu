@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2487,1218],
+"stops":[
+  {"id":9531225065,"lat":34.366461,"lon":-119.065241,"k":"p","n":"Santa Paula Hospital","ref":"97493"},
+  {"id":9531566992,"lat":34.352096,"lon":-119.060135,"k":"p","n":"Santa Paula City Hall","ref":"97141"}
+],
+"routes":[
+  {"id":13813126,"t":{"ref":"A","name":"Santa Paula Route A","from":"Faulkner Rd. / Peck Rd","to":"12th St. / Orchard St.","network":"Valley Express Transit Service","operator":"Ventura County Transportation Commission","route":"bus"},"n":2,"s":[[9531566992,2]]},
+  {"id":13845787,"t":{"ref":"B","name":"Santa Paula Route B","from":"Faulkner Rd. / Peck Rd.","to":"Ventura St. / 10th St","network":"Valley Express Transit Service","operator":"Ventura County Transportation Commission","route":"bus"},"n":3,"s":[[9531225065,2],[9531566992,3]]},
+  {"id":13846208,"t":{"ref":"62","name":"Hwy 126 -route 62","from":"Fillmore","to":"Ventura","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":6,"s":[[9531566992,2]]},
+  {"id":13876766,"t":{"ref":"60","name":"Hwy 126 -route 60","from":"Fillmore","to":"Ventura","network":"VCTC Intercity","operator":"Ventura County Transportation Comission","route":"bus"},"n":6,"s":[[9531566992,2]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"US-VT",
+"tile":[2672,2153],
+"stops":[
+  {"id":3054292154,"lat":43.631077,"lon":-72.324096,"k":"p","n":"Upper Valley Plaza Westbound","ref":"117"},
+  {"id":7070948785,"lat":43.641478,"lon":-72.343451,"k":"p","n":"Aquatic Center"},
+  {"id":7072825079,"lat":43.645425,"lon":-72.341329,"k":"p","n":"U.S. 5 @ Lukoil Northbound","ref":"181"},
+  {"id":7072825080,"lat":43.648122,"lon":-72.343335,"k":"p","n":"VA Outpatient Entrance Northbound","ref":"186"},
+  {"id":7072825081,"lat":43.646554,"lon":-72.334397,"k":"p","n":"Sykes Mountain Avenue @ Vermont Transit Southbound","ref":"179"},
+  {"id":7072825082,"lat":43.645211,"lon":-72.331785,"k":"p","n":"Sykes Mountain Avenue @ Holiday Drive"},
+  {"id":7072825083,"lat":43.644793,"lon":-72.332048,"k":"p","n":"Mascoma Bank Southbound","ref":"178"},
+  {"id":7072825084,"lat":43.644863,"lon":-72.332277,"k":"p","n":"Post Office Southbound","ref":"175"},
+  {"id":7072838985,"lat":43.644184,"lon":-72.328671,"k":"p","n":"Hickory Ridge Southbound","ref":"174"},
+  {"id":7072838986,"lat":43.644033,"lon":-72.321584,"k":"p","n":"Trailer Park Southbound","ref":"173"},
+  {"id":7072838987,"lat":43.641338,"lon":-72.320086,"k":"p","n":"South Main Street @ Sykes Mountain Avenue Southbound","ref":"172"},
+  {"id":7072838988,"lat":43.647072,"lon":-72.318854,"k":"p","n":"White River Junction @ Main Street","ref":"170"},
+  {"id":7072838989,"lat":43.649343,"lon":-72.320747,"k":"p","n":"Twin Rivers Northbound","ref":"183"},
+  {"id":7072838991,"lat":43.648155,"lon":-72.334516,"k":"p","n":"Cloverleaf Northbound","ref":"182"},
+  {"id":7072838992,"lat":43.649754,"lon":-72.318716,"k":"p","n":"Veterans Park Northbound","ref":"185"},
+  {"id":8547052172,"lat":43.632607,"lon":-72.321967,"k":"p","n":"Target Plaza","ref":"116"},
+  {"id":8547052208,"lat":43.641612,"lon":-72.33393,"k":"p","n":"Gilman Complex Southbound"},
+  {"id":8547079620,"lat":43.638511,"lon":-72.314802,"k":"p","n":"Romano Circle Westbound","ref":"114"},
+  {"id":8547079629,"lat":43.63822,"lon":-72.314726,"k":"p","n":"Opposite Romano Circle Eastbound","ref":"129"},
+  {"id":8547079636,"lat":43.62726,"lon":-72.325356,"k":"p","n":"BJ's Westbound","ref":"122"}
+],
+"routes":[
+  {"id":12519815,"t":{"name":"Main Street West Lebanon → Upper Valley Aquatic Center","from":"Main Street West Lebanon","to":"Upper Valley Aquatic Center","network":"AT","operator":"Advance Transit","colour":"yellow","route":"bus","public_transport:version":"2"},"n":3,"s":[[7070948785,3]]},
+  {"id":12519816,"t":{"name":"Upper Valley Aquatic Center → Main Street West Lebanon","from":"Upper Valley Aquatic Center","to":"Main Street West Lebanon","network":"AT","operator":"Advance Transit","colour":"yellow","route":"bus","public_transport:version":"2"},"n":6,"s":[[7070948785,1],[7072838991,2],[7072838989,4],[7072838992,5]]},
+  {"id":12525196,"t":{"name":"Veterans Park → Main Street West Lebanon","from":"Veterans Park","to":"Main Street West Lebanon","network":"AT","operator":"Advance Transit","colour":"orange","route":"bus","public_transport:version":"2"},"n":2,"s":[[7072838992,1]]},
+  {"id":12525197,"t":{"name":"Main Street West Lebanon → Upper Valley Aquatic Center → Main Street West Lebanon","from":"Main Street West Lebanon","to":"Main Street West Lebanon","network":"AT","operator":"Advance Transit","colour":"orange","route":"bus"},"n":16,"s":[[7072838988,2],[7072838987,3],[7072838986,4],[7072838985,5],[7072825084,6],[8547052208,7],[7072825083,8],[7072825081,9],[7072825080,10],[7070948785,11],[7072825079,12],[7072838991,13],[7072838989,14],[7072838992,15]]},
+  {"id":12525199,"t":{"name":"Maynard Street → Upper Valley Aquatic Center → Main Street West Lebanon","from":"Maynard Street","to":"Main Street West Lebanon","network":"AT","operator":"Advance Transit","colour":"orange","route":"bus","public_transport:version":"2"},"n":14,"s":[[7072838988,3],[7072838987,4],[7072838986,5],[7072838985,6],[7072825082,7],[7072825081,8],[7072825080,9],[7070948785,10],[7072825079,11],[7072838991,12],[7072838989,13]]},
+  {"id":12525200,"t":{"name":"Main Street West Lebanon → Veterans Administration Hospital → Main Street West Lebanon","from":"Main Street West Lebanon","to":"Main Street West Lebanon","network":"AT","operator":"Advance Transit","colour":"orange","route":"bus","public_transport:version":"2"},"n":16,"s":[[7072838988,2],[7072838987,3],[7072838986,4],[7072838985,5],[7072825084,6],[8547052208,7],[7072825083,8],[7072825081,9],[7072825080,10],[7072825079,11],[7072838991,12],[7072838989,14],[7072838992,15]]},
+  {"id":12525202,"t":{"name":"Maynard Street → Veterans Administration Hospital → Main Street West Lebanon","from":"Maynard Street","to":"Main Street West Lebanon","network":"AT","operator":"Advance Transit","colour":"orange","route":"bus","public_transport:version":"2"},"n":15,"s":[[7072838988,3],[7072838987,4],[7072838986,5],[7072838985,6],[7072825082,7],[7072825081,8],[7072825080,9],[7072825079,10],[7072838991,11],[7072838989,13],[7072838992,14]]}
+]
+}

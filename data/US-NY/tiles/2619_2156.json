@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2619,2156],
+"stops":[
+  {"id":12119545669,"lat":40.964797,"lon":-72.194172,"k":"p","n":"East Hampton LIRR","ref":"3365"},
+  {"id":12119545672,"lat":40.963558,"lon":-72.199736,"k":"p","n":"Toilsome Ln/Gingerbread Ln","ref":"4539"},
+  {"id":12119545673,"lat":40.96349,"lon":-72.199627,"k":"p","n":"Toilsome Ln/Gingerbread Ln","ref":"3363"},
+  {"id":12123285656,"lat":40.96135,"lon":-72.1877,"k":"p","n":"East Hampton - Westbound","ref":"EH"},
+  {"id":12123285657,"lat":40.961484,"lon":-72.187185,"k":"p","n":"East Hampton - Eastbound","ref":"EH"}
+],
+"routes":[
+  {"id":8099258,"t":{"ref":"92","name":"SCT 92 - East Hampton --> Orient Point","from":"East Hampton","to":"Orient Point","network":"Suffolk County Transit","operator":"Suffolk County Department of Public Works","route":"bus","public_transport:version":"2"},"n":53,"s":[[12119545669,1],[12119545672,2]]},
+  {"id":15100105,"t":{"ref":"92","name":"SCT 92 - Orient Point --> East Hampton","from":"Orient Point","to":"East Hampton","network":"Suffolk County Transit","operator":"Suffolk County Department of Public Works","route":"bus","public_transport:version":"2"},"n":50,"s":[[12119545673,49],[12119545669,50]]},
+  {"id":17956620,"t":{"ref":"M","name":"HJ - Montauk Line - Westbound","from":"Montauk","to":"New York","network":"Hampton Jitney","operator":"Hampton Jitney, Inc.","route":"bus"},"n":20,"s":[[12123285656,4]]},
+  {"id":17956621,"t":{"ref":"M","name":"HJ - Montauk Line - Eastbound","from":"Manhattan","to":"Montauk","network":"Hampton Jitney","operator":"Hampton Jitney, Inc.","route":"bus"},"n":17,"s":[[12123285657,4]]}
+]
+}

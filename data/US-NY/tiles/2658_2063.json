@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2658,2063],
+"stops":[
+  {"id":12047627179,"lat":42.907927,"lon":-76.843694,"k":"p","n":"County Office Building"},
+  {"id":12047627181,"lat":42.907552,"lon":-76.840203,"k":"p","n":"Walmart - Seneca Falls"},
+  {"id":12047627182,"lat":42.902963,"lon":-76.846956,"k":"p","n":"East Main Street Apartments"},
+  {"id":12048292610,"lat":42.904839,"lon":-76.823858,"k":"p","n":"Sauders"},
+  {"id":12048292636,"lat":42.907858,"lon":-76.825116,"k":"p","n":"Stanton Meadows Apartments"},
+  {"id":12048292654,"lat":42.907494,"lon":-76.827222,"k":"p","n":"Liberty Plaza"},
+  {"id":12048292680,"lat":42.906391,"lon":-76.832338,"k":"p","n":"Lakeview Heights Apartments"},
+  {"id":12048293221,"lat":42.904112,"lon":-76.835022,"k":"p","n":"Tops - Seneca Falls"},
+  {"id":12048293223,"lat":42.905486,"lon":-76.841546,"k":"p","n":"Seneca County Human Services"}
+],
+"routes":[
+  {"id":17826176,"t":{"ref":"282","name":"RTS 282 Waterloo-Geneva (W1)","from":"Seneca County Office Building","to":"East Main Street Apartments","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12047627179,1],[12047627181,2],[12047627182,3]]},
+  {"id":17826177,"t":{"ref":"282","name":"RTS 282 Waterloo-Geneva (W2)","from":"East Main Street Apartments","to":"Geneva Transit Hub","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12047627182,1]]},
+  {"id":17826178,"t":{"ref":"282","name":"RTS 282 Waterloo-Geneva (E2)","from":"Geneva General Hospital","to":"Seneca County Office Building","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12047627179,4]]},
+  {"id":17827298,"t":{"ref":"281","name":"RTS 281 Seneca Falls (E1)","from":"Seneca County Office Building","to":"Hunters Run Townhomes","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12047627179,1],[12048292610,2]]},
+  {"id":17827300,"t":{"ref":"281","name":"RTS 281 Seneca Falls (W1)","from":"Seneca Falls East Apartments","to":"Stanton Meadows Apartments","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12048292636,2]]},
+  {"id":17827301,"t":{"ref":"281","name":"RTS 281 Seneca Falls (W2)","from":"Stanton Meadows Apartments","to":"Lakeview Heights Apartments","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12048292636,1],[12048292654,2],[12048292680,3]]},
+  {"id":17827370,"t":{"ref":"281","name":"RTS 281 Seneca Falls (W3)","from":"Lakeview Heights Apartments","to":"Walmart - Seneca Falls","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12048292680,1],[12048293221,2],[12047627181,3]]},
+  {"id":17827371,"t":{"ref":"281","name":"RTS 281 Seneca Falls (W4)","from":"Walmart - Seneca Falls","to":"Seneca County Human Services","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12047627181,1],[12048293223,2]]},
+  {"id":17827372,"t":{"ref":"281","name":"RTS 281 Seneca Falls (W5)","from":"Seneca County Human Services","to":"Seneca County Office Building","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12048293223,1],[12047627179,2]]}
+]
+}

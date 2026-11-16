@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2455,1661],
+"stops":[
+  {"id":10596994780,"lat":32.77846,"lon":-96.909963,"k":"p","n":"Singleton @ Clymer - E - NS"},
+  {"id":10596994781,"lat":32.778705,"lon":-96.910064,"k":"p","n":"Singleton @ Claibourne - W - NS"},
+  {"id":10597006814,"lat":32.778234,"lon":-96.916326,"k":"p","n":"Walton Walker @ Singleton - N - NS"},
+  {"id":10664249369,"lat":32.779161,"lon":-96.905281,"k":"p","n":"Bernal/Singleton Transfer Location"}
+],
+"routes":[
+  {"id":15415180,"t":{"ref":"128","name":"Bus 128: Downtown Dallas -> Singleton Boulevard","from":"Convention Center Station","to":"Walton Walker @ Singleton - N","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":15,"s":[[10664249369,13],[10596994781,14],[10597006814,15]]},
+  {"id":15415181,"t":{"ref":"128","name":"Bus 128: Singleton Boulevard -> Downtown Dallas","from":"Walton Walker @ Singleton - N","to":"Convention Center Station","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":16,"s":[[10597006814,1],[10596994780,2],[10664249369,3]]},
+  {"id":15513864,"t":{"ref":"25","name":"Bus 25: Westmoreland Station -> Cockrell Hill TL -> Bernal/Singleton TL -> Downtown Irving/Heritage Crossing Station","from":"Westmoreland Station","to":"Downtown Irving/Heritage Crossing Station","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[10664249369,2]]},
+  {"id":15513865,"t":{"ref":"25","name":"Bus 25: Downtown Irving/Heritage Crossing Station -> Bernal/Singleton TL -> Cockrell Hill TL -> Westmoreland Station","from":"Downtown Irving/Heritage Crossing Station","to":"Westmoreland Station","network":"DART","operator":"Dallas Area Rapid Transit","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[10664249369,3]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2540,1156],
+"stops":[
+  {"id":2709706329,"lat":37.000958,"lon":-122.18059,"k":"p","n":"Cabrillo Highway & Bonny Doon Road"},
+  {"id":2709900802,"lat":37.042105,"lon":-122.150739,"k":"x","n":"Bonny Doon Road & Pine Flat Road"},
+  {"id":2712311596,"lat":37.011852,"lon":-122.195004,"k":"p","n":"Pacific Elementary School"},
+  {"id":6845512975,"lat":37.042,"lon":-122.150761,"k":"p","n":"Bonny Doon Road & Pine Flat Road"},
+  {"id":6845512976,"lat":37.011881,"lon":-122.195066,"k":"x","n":"Pacific Elementary School"},
+  {"id":6867346340,"lat":37.010778,"lon":-122.194217,"k":"x","n":"Cabrillo Highway & Davenport Avenue"},
+  {"id":6867346341,"lat":37.010876,"lon":-122.194146,"k":"p","n":"Cabrillo Highway & Davenport Avenue"},
+  {"id":6867346343,"lat":37.00104,"lon":-122.180475,"k":"x","n":"Cabrillo Highway & Bonny Doon Road"},
+  {"id":6867820327,"lat":37.047473,"lon":-122.157112,"k":"x","n":"Bonny Doon Road & Cathedral Park Drive"},
+  {"id":6867820328,"lat":37.047408,"lon":-122.157111,"k":"p","n":"Bonny Doon Road & Cathedral Park Drive"}
+],
+"routes":[
+  {"id":3568648,"t":{"ref":"40","name":"SCMTD 40: Santa Cruz => Davenport","from":"Santa Cruz Metro Center","to":"Pacific Elementary School","network":"SCMTD","operator":"Santa Cruz Metropolitan Transit District","route":"bus","public_transport:version":"2"},"n":12,"s":[[6867346341,11],[2712311596,12]]},
+  {"id":10136978,"t":{"ref":"40","name":"SCMTD 40: Davenport => Santa Cruz","from":"Pacific Elementary School","to":"Santa Cruz Metro Center","network":"SCMTD","operator":"Santa Cruz Metropolitan Transit District","route":"bus","public_transport:version":"2"},"n":14,"s":[[2712311596,1],[2709706329,2]]},
+  {"id":10137027,"t":{"ref":"41","name":"SCMTD 41: Bonny Doon => Santa Cruz","from":"Bonny Doon Road & Pine Flat Road","to":"Santa Cruz Metro Center","network":"SCMTD","operator":"Santa Cruz Metropolitan Transit District","route":"bus","public_transport:version":"2"},"n":30,"s":[[6845512975,1]]},
+  {"id":10137028,"t":{"ref":"41","name":"SCMTD 41: Santa Cruz => Bonny Doon","from":"Santa Cruz Metro Center","to":"Bonny Doon Road & Pine Flat Road","network":"SCMTD","operator":"Santa Cruz Metropolitan Transit District","route":"bus","public_transport:version":"2"},"n":36,"s":[[6867820328,35],[6845512975,36]]}
+]
+}

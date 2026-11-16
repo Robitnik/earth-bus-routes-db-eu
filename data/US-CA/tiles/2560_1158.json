@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2560,1158],
+"stops":[
+  {"id":13227110456,"lat":38.002883,"lon":-122.082424,"k":"x","n":"Pacheco Boulevard & Little Valley Road"},
+  {"id":13227110457,"lat":38.003696,"lon":-122.085085,"k":"x","n":"Pacheco Boulevard & Contra Costa Health Services Discovery House"},
+  {"id":13227110460,"lat":38.002814,"lon":-122.082494,"k":"p","n":"Pacheco Boulevard & Little Valley Road","ref":"2125"},
+  {"id":13227110461,"lat":38.003766,"lon":-122.085049,"k":"p","n":"Pacheco Boulevard & Contra Costa Health Services Discovery House","ref":"1021"},
+  {"id":13227110462,"lat":38.006289,"lon":-122.090331,"k":"x","n":"Pacheco Boulevard & Arthur Road"},
+  {"id":13227110463,"lat":38.006803,"lon":-122.091307,"k":"x","n":"Pacheco Boulevard & Arthur Road"},
+  {"id":13227110465,"lat":38.006228,"lon":-122.09039,"k":"p","n":"Pacheco Boulevard & Arthur Road","ref":"1014"},
+  {"id":13227110466,"lat":38.006879,"lon":-122.091291,"k":"p","n":"Pacheco Boulevard & Arthur Road","ref":"1022"},
+  {"id":13227110467,"lat":38.008274,"lon":-122.095466,"k":"x","n":"Pacheco Boulevard & Camino Del Sol"},
+  {"id":13227110468,"lat":38.008375,"lon":-122.095737,"k":"x","n":"Pacheco Boulevard & Camino Del Sol"},
+  {"id":13227110469,"lat":38.008366,"lon":-122.095413,"k":"p","n":"Pacheco Boulevard & Camino Del Sol","ref":"1023"},
+  {"id":13227110470,"lat":38.008267,"lon":-122.095806,"k":"p","n":"Pacheco Boulevard & Camino Del Sol","ref":"1013"},
+  {"id":13423226825,"lat":38.001825,"lon":-122.053576,"k":"x","n":"Solano Way & Imhoff Road"},
+  {"id":13423226826,"lat":38.001809,"lon":-122.053633,"k":"p","n":"Solano Way & Imhoff Road","ref":"1053"}
+],
+"routes":[
+  {"id":19701872,"t":{"ref":"19","from":"Concord BART","to":"Martinez Amtrak","network":"County Connection","operator":"Central Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":24,"s":[[13227110461,12],[13227110466,13],[13227110469,14]]},
+  {"id":19701873,"t":{"ref":"19","from":"Martinez Amtrak","to":"Concord BART","network":"County Connection","operator":"Central Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":24,"s":[[13227110470,10],[13227110465,11],[13227110460,12]]},
+  {"id":20034054,"t":{"ref":"99X","from":"Solano Way & Imhoff Road","to":"North Concord/Martinez BART","network":"County Connection","operator":"Central Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":6,"s":[[13423226826,1]]},
+  {"id":20034057,"t":{"ref":"99X","from":"North Concord/Martinez BART","to":"Solano Way & Imhoff Road","network":"County Connection","operator":"Central Contra Costa Transit Authority","route":"bus","public_transport:version":"2"},"n":8,"s":[[13423226826,8]]}
+]
+}

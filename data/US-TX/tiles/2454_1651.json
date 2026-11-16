@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2454,1651],
+"stops":[
+  {"id":10735663238,"lat":32.735027,"lon":-97.414103,"k":"p","n":"Western & Guilford"},
+  {"id":10735663255,"lat":32.715216,"lon":-97.410704,"k":"p","n":"Littlepage & Manhattan"},
+  {"id":10735663272,"lat":32.740116,"lon":-97.434165,"k":"p","n":"Ridgmar Mall Transfer Center"},
+  {"id":10735663273,"lat":32.740026,"lon":-97.434183,"k":"p","n":"Ridgmar Mall Transfer Center"},
+  {"id":11083838065,"lat":32.700087,"lon":-97.411887,"k":"p","n":"Line 51 South Stop 1768","ref":"1768"},
+  {"id":13143491164,"lat":32.734037,"lon":-97.435404,"k":"p"},
+  {"id":13143491167,"lat":32.736175,"lon":-97.434355,"k":"p"}
+],
+"routes":[
+  {"id":15600883,"t":{"ref":"51","name":"Bus 51: Hulen Mall -> Ridgmar Mall","from":"Rock Quarry & Overton Ridge","to":"Ridgmar Mall Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":12,"s":[[10735663255,10],[10735663238,11],[10735663273,12]]},
+  {"id":15600884,"t":{"ref":"51","name":"Bus 51: Ridgmar Mall -> Hulen Mall","from":"Ridgmar Mall Transfer Center","to":"Rock Quarry & Overton Ridge","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":5,"s":[[11083838065,1],[10735663273,3],[10735663255,4]]},
+  {"id":15639012,"t":{"ref":"91","name":"Bus 91: Normandale -> Ridgmar Mall -> North Side Station","from":"W Normandale & Bridge Hill","to":"North Side Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":5,"s":[[10735663273,2]]}
+]
+}

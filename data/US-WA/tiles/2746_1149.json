@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-WA",
+"tile":[2746,1149],
+"stops":[
+  {"id":4165124000,"lat":47.3057,"lon":-122.514315,"k":"p","n":"Point Defiance Ferry Terminal","ref":"990"},
+  {"id":5600954621,"lat":47.30107,"lon":-122.515563,"k":"p","n":"Pearl Street & Park Way","ref":"2182"},
+  {"id":5913038181,"lat":47.333059,"lon":-122.506884,"k":"p","n":"SW Tahlequah Rd & Sr 163","ref":"47255"},
+  {"id":6682397985,"lat":47.301038,"lon":-122.515771,"k":"p","n":"Pearl Street & Park Way","ref":"2183"}
+],
+"routes":[
+  {"id":9537414,"t":{"ref":"11","name":"Pierce Transit Route 11 Point Defiance Ferry Terminal","from":"Commerce Street Station","to":"Point Defiance Ferry Terminal","network":"Pierce Transit","operator":"Pierce County Public Transportation Benefit Area Corporation","route":"bus","public_transport:version":"2"},"n":41,"s":[[5600954621,40],[4165124000,41]]},
+  {"id":12554138,"t":{"ref":"10","name":"Pierce Transit Route 10 TCC TC","from":"Point Defiance Ferry Terminal","to":"Tacoma Community College Transit Center","network":"Pierce Transit","operator":"Pierce County Public Transportation Benefit Area Corporation","route":"bus","public_transport:version":"2"},"n":29,"s":[[4165124000,1],[6682397985,2]]},
+  {"id":12554139,"t":{"ref":"10","name":"Pierce Transit Route 10 Point Defiance Ferry Terminal","from":"Tacoma Community College Transit Center","to":"Point Defiance Ferry Terminal","network":"Pierce Transit","operator":"Pierce County Public Transportation Benefit Area Corporation","route":"bus","public_transport:version":"2"},"n":28,"s":[[5600954621,27],[4165124000,28]]},
+  {"id":12561429,"t":{"ref":"11","name":"Pierce Transit Route 11 Commerce Street Station","from":"Point Defiance Ferry Terminal","to":"Commerce Street Station","network":"Pierce Transit","operator":"Pierce County Public Transportation Benefit Area Corporation","route":"bus","public_transport:version":"2"},"n":42,"s":[[4165124000,1],[6682397985,2]]},
+  {"id":12582875,"t":{"ref":"118","name":"Route 118: Vashon","network":"King County Metro","operator":"King County Metro","route":"bus","public_transport:version":"2"},"n":12,"s":[[5913038181,1]]},
+  {"id":12582876,"t":{"ref":"118","name":"Route 118: Tahlequah","network":"King County Metro","operator":"King County Metro","route":"bus","public_transport:version":"2"},"n":10,"s":[[5913038181,10]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"US-IL",
+"tile":[2635,1849],
+"stops":[
+  {"id":3480660548,"lat":41.751892,"lon":-87.545008,"k":"x","n":"79th Street & Lake Shore Drive Terminal","ref":"17868"},
+  {"id":3687963655,"lat":41.75184,"lon":-87.544981,"k":"p","n":"79th Street & Lake Shore Drive Terminal","ref":"17868"},
+  {"id":4226190395,"lat":41.753752,"lon":-87.549848,"k":"p","n":"South Shore Drive & Cheltenham","ref":"7023"},
+  {"id":4226190417,"lat":41.751911,"lon":-87.548351,"k":"p","n":"79th Street & South Shore Drive","ref":"7068"},
+  {"id":4226190422,"lat":41.752364,"lon":-87.548267,"k":"p","n":"South Shore Drive & 79th Street","ref":"7022"},
+  {"id":4226190423,"lat":41.753238,"lon":-87.549488,"k":"p","n":"South Shore Drive & Cheltenham","ref":"7060"},
+  {"id":4226190425,"lat":41.75204,"lon":-87.548632,"k":"p","n":"79th Street & South Shore Drive","ref":"14947"},
+  {"id":4226190426,"lat":41.752226,"lon":-87.548426,"k":"p","n":"South Shore Drive & 79th Street","ref":"15031"},
+  {"id":4226190429,"lat":41.750394,"lon":-87.547962,"k":"p","n":"South Shore Drive & 80th Street","ref":"7021"},
+  {"id":5864963130,"lat":41.752247,"lon":-87.548358,"k":"x","n":"South Shore Drive & 79th Street","ref":"15031"},
+  {"id":5864963134,"lat":41.75328,"lon":-87.54942,"k":"x","n":"South Shore Drive & Cheltenham","ref":"7060"},
+  {"id":5865825445,"lat":41.75372,"lon":-87.549903,"k":"x","n":"South Shore Drive & Cheltenham","ref":"7023"},
+  {"id":5865825446,"lat":41.752338,"lon":-87.548317,"k":"x","n":"South Shore Drive & 79th Street","ref":"7022"},
+  {"id":5865825447,"lat":41.750393,"lon":-87.54803,"k":"x","n":"South Shore Drive & 80th Street","ref":"7021"}
+],
+"routes":[
+  {"id":4235248,"t":{"ref":"79","name":"Bus 79: Ford City -> 79th/South Shore","from":"Ford City Mall","to":"79th Street & South Shore Drive","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":88,"s":[[4226190417,87],[3687963655,88]]},
+  {"id":4440119,"t":{"ref":"N79","name":"Bus N79: 79th/South Shore -> 79th/Western","from":"79th Street & South Shore Drive","to":"79th Street & Western Terminal","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":61,"s":[[3687963655,1],[4226190425,2]]},
+  {"id":8616255,"t":{"ref":"N5","name":"Bus N5: 69th Red Line Station -> 95th/Dan Ryan Red Line Station","from":"69th Street Red Line Station","to":"95th/Dan Ryan Red Line Station","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":107,"s":[[4226190423,52],[4226190426,53]]},
+  {"id":8616358,"t":{"ref":"N5","name":"Bus N5: 95th/Dan Ryan Red Line Station-> 69th Red Line Station","from":"95th/Dan Ryan Red Line Station","to":"69th Street Red Line Station","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":106,"s":[[4226190429,53],[4226190422,54],[4226190395,55]]},
+  {"id":8622936,"t":{"ref":"6","name":"Bus 6: Wacker/Columbus -> 79th/South Shore","from":"Wacker & Columbus","to":"79th Street & South Shore Drive","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":59,"s":[[4226190423,57],[4226190426,58],[3687963655,59]]},
+  {"id":8623285,"t":{"ref":"6","name":"Bus 6: 79th/South Shore -> Wacker/Columbus","from":"79th Street & South Shore Drive","to":"Wacker & Columbus","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":57,"s":[[3687963655,1],[4226190422,2],[4226190395,3]]},
+  {"id":10552335,"t":{"ref":"26","name":"Bus 26: 103rd/Stony Island -> Chicago/Fairbanks","from":"103rd Street & Stony Island Garage","to":"Chicago & Fairbanks","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":80,"s":[[4226190429,44],[4226190422,45],[4226190395,46]]},
+  {"id":10552336,"t":{"ref":"26","name":"Bus 26: Chicago/MVDR ->103rd/Stony Island","from":"Chicago & Mies Van Der Rohe","to":"103rd Street & Stony Island Garage","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":80,"s":[[4226190423,35],[4226190426,36]]},
+  {"id":10705223,"t":{"ref":"71","name":"71 71st/South Shore: 69th Red Line Station -> 112th/Torrence","from":"69th Street Red Line Station","to":"Torrence & 112th Street Terminal","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":78,"s":[[4226190423,39],[4226190426,40]]},
+  {"id":10705224,"t":{"ref":"71","name":"71 71st/South Shore: 112th/Torrence -> 69th Red Line Station","from":"Torrence & 112th Street Terminal","to":"69th Street CTA Station","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":79,"s":[[4226190429,38],[4226190422,39],[4226190395,40]]},
+  {"id":18023047,"t":{"ref":"N79","name":"Bus N79: 79th/Western -> 79th/South Shore","from":"79th Street & Western Terminal","to":"79th Street & South Shore Drive","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":61,"s":[[4226190417,60],[3687963655,61]]},
+  {"id":18023048,"t":{"ref":"79","name":"Bus 79: 79th/South Shore -> Ford City","from":"79th Street & South Shore Drive","to":"Ford City Mall","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":89,"s":[[3687963655,1],[4226190425,2]]},
+  {"id":18202858,"t":{"ref":"79","name":"Bus 79: Solo Cup -> 79th/South Shore","from":"Solo Cup Factory","to":"79th Street & South Shore Drive","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":88,"s":[[4226190417,87],[3687963655,88]]},
+  {"id":18202859,"t":{"ref":"79","name":"Bus 79: 79th/South Shore -> Solo Cup","from":"79th Street & South Shore Drive","to":"Solo Cup Factory","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":89,"s":[[3687963655,1],[4226190425,2]]},
+  {"id":18203318,"t":{"ref":"79","name":"Bus 79: 79th/Western -> 79th/South Shore","from":"79th Street & Western Terminal","to":"79th Street & South Shore Drive","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":61,"s":[[4226190417,60],[3687963655,61]]},
+  {"id":18203319,"t":{"ref":"79","name":"Bus 79: 79th/South Shore -> 79th/Western","from":"79th Street & South Shore Drive","to":"79th Street & Western Terminal","network":"CTA","operator":"Chicago Transit Authority","route":"bus","public_transport:version":"2"},"n":61,"s":[[3687963655,1],[4226190425,2]]}
+]
+}

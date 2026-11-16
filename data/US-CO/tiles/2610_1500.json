@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-CO",
+"tile":[2610,1500],
+"stops":[
+  {"id":3299675031,"lat":40.524203,"lon":-104.996495,"k":"p","n":"Harmony Transfer Center"},
+  {"id":11038640460,"lat":40.52411,"lon":-104.996284,"k":"p","n":"Harmony Transfer Center"},
+  {"id":11040105772,"lat":40.524028,"lon":-104.996131,"k":"x"},
+  {"id":11040105775,"lat":40.524203,"lon":-104.996532,"k":"x"},
+  {"id":12115852404,"lat":40.524028,"lon":-104.996103,"k":"p","n":"Harmony Park and Ride"},
+  {"id":12115852406,"lat":40.524115,"lon":-104.996335,"k":"x"}
+],
+"routes":[
+  {"id":13093593,"t":{"name":"Bustang North","from":"Fort Collins Downtown Transit Center","to":"Denver Union Station","operator":"Colorado Department of Transportation","route":"bus","public_transport:version":"2"},"n":3,"s":[[3299675031,1]]},
+  {"id":16077546,"t":{"ref":"PX","name":"Poudre Express Regional: To Fort Collins","from":"Greeley","to":"Fort Collins","network":"Greeley Evans Transit","operator":"Greeley Evans Transit","route":"bus"},"n":14,"s":[[3299675031,12]]},
+  {"id":16102774,"t":{"ref":"BN","from":"Fort Collins","to":"Denver","network":"Bustang","operator":"Colorado Department of Transportation","route":"bus","public_transport:version":"2"},"n":3,"s":[[3299675031,2]]},
+  {"id":16102845,"t":{"ref":"BN","from":"Denver","to":"Fort Collins","network":"Bustang","operator":"Colorado Department of Transportation","route":"bus","public_transport:version":"2"},"n":3,"s":[[3299675031,2]]}
+]
+}

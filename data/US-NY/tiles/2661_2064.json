@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2661,2064],
+"stops":[
+  {"id":12042650835,"lat":43.067345,"lon":-76.760279,"k":"p","n":"Routes 31 & 89"},
+  {"id":12042650836,"lat":43.070591,"lon":-76.762539,"k":"p","n":"Spring Valley Apartments"},
+  {"id":12044602995,"lat":43.067164,"lon":-76.760278,"k":"p","n":"Routes 31 & 89"}
+],
+"routes":[
+  {"id":17818050,"t":{"ref":"304","name":"RTS 304 (P14)","from":"Wolcott Estates","to":"Spring Valley Apartments","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12042650836,3]]},
+  {"id":17818051,"t":{"ref":"304","name":"RTS 304 (P15)","from":"Spring Valley Apartments","to":"Lyons Village Park","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12042650836,1],[12042650835,2]]},
+  {"id":17819627,"t":{"ref":"305","name":"RTS 305 (P3)","from":"Lyons Village Park","to":"Spring Valley Apartments","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12044602995,3],[12042650836,4]]},
+  {"id":17819628,"t":{"ref":"305","name":"RTS 305 (P4)","from":"Spring Valley Apartments","to":"Wolcott Estates","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12042650836,1]]}
+]
+}

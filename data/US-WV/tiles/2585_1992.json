@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"US-WV",
+"tile":[2585,1992],
+"stops":[
+  {"id":155213002,"lat":39.265553,"lon":-80.372365,"k":"x","n":"Oakmound"},
+  {"id":7982598262,"lat":39.272592,"lon":-80.360359,"k":"x","n":"Liberty Avenue"},
+  {"id":7982718283,"lat":39.266813,"lon":-80.372721,"k":"x","n":"Food Lion"},
+  {"id":7989908713,"lat":39.269804,"lon":-80.35307,"k":"x","n":"Camden Avenue"},
+  {"id":8214144778,"lat":39.26497,"lon":-80.37329,"k":"x","n":"Rosebud Plaza"},
+  {"id":8214144789,"lat":39.282043,"lon":-80.353919,"k":"x","n":"Koupal Towers"},
+  {"id":8236530916,"lat":39.270476,"lon":-80.362317,"k":"x","n":"VA Hospital"},
+  {"id":8236531817,"lat":39.271454,"lon":-80.351223,"k":"x","n":"Chestnut Street"},
+  {"id":8236531818,"lat":39.290603,"lon":-80.357081,"k":"x","n":"Adamston"},
+  {"id":8236531819,"lat":39.280614,"lon":-80.35163,"k":"x","n":"Milford Street"}
+],
+"routes":[
+  {"id":12030657,"t":{"name":"Bus: Adamston → Hartland → Business District","from":"Adamston","to":"Business District","operator":"Central West Virginia Transit Authority","route":"bus","public_transport:version":"2"},"n":10,"s":[[8236531818,1],[8236531819,2],[8214144778,3],[155213002,4],[7982718283,5],[8236530916,6],[7982598262,7],[7989908713,8],[8236531817,9]]},
+  {"id":12030658,"t":{"name":"Bus: Business District → Adamston","from":"Transfer Station","to":"Adamston","operator":"Central West Virginia Transit Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[8214144789,2],[8236531818,3]]},
+  {"id":12030713,"t":{"name":"Bus: Business District ↔ Lumberport/Shinnston","from":"Transfer Station","to":"Transfer Station","operator":"Central West Virginia Transit Authority","route":"bus","public_transport:version":"2"},"n":12,"s":[[8236531818,11],[8214144789,12]]}
+]
+}

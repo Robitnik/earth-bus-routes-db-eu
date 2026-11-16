@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2609,2110],
+"stops":[
+  {"id":3805887832,"lat":40.466344,"lon":-74.453544,"k":"p","n":"Brunswick Shopping Center"},
+  {"id":3805990967,"lat":40.475433,"lon":-74.457582,"k":"p","n":"Martin Gerber Apartments"},
+  {"id":3806005915,"lat":40.475154,"lon":-74.457312,"k":"p","n":"Martin Gerber Apartments"},
+  {"id":3830972874,"lat":40.461988,"lon":-74.478758,"k":"p","n":"North Oaks Boulevard at Livingston Avenue"},
+  {"id":3830972875,"lat":40.462063,"lon":-74.468018,"k":"p","n":"Walmart / Burlington"},
+  {"id":3843026532,"lat":40.4621,"lon":-74.478928,"k":"p","n":"North Oaks Boulevard at Livingston Avenue"},
+  {"id":13071400171,"lat":40.458203,"lon":-74.472425,"k":"p"}
+],
+"routes":[
+  {"id":5593773,"t":{"ref":"811","name":"NJTB - 811 - New Brunswick to South River","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805887832,4]]},
+  {"id":5620612,"t":{"ref":"811","name":"NJTB - 811 - South River to New Brunswick","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805887832,7]]},
+  {"id":5656066,"t":{"ref":"814","name":"NJTB - 814 - North Brunswick to Middlesex County College","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":4,"s":[[3830972874,1],[3830972875,3]]},
+  {"id":5674363,"t":{"ref":"814","name":"NJTB - 814 - DeVry North Brunswick to Middlesex County College","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":5,"s":[[3805887832,1]]},
+  {"id":5674386,"t":{"ref":"814","name":"NJTB - 814 - Middlesex County College to DeVry North Brunswick","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":5,"s":[[3805887832,4]]},
+  {"id":5674387,"t":{"ref":"814","name":"NJTB - 814 - Middlesex County College to North Brunswick","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":6,"s":[[3843026532,2],[3830972875,4]]},
+  {"id":16136942,"t":{"ref":"811","name":"NJTB - 811 - New Brunswick to South River via Martin Gerber Apartments","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":11,"s":[[3805990967,4],[3805887832,5]]},
+  {"id":16136943,"t":{"ref":"811","name":"NJTB - 811 - South River to New Brunswick via Martin Gerber Apartments","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":11,"s":[[3805887832,7],[3806005915,8]]}
+]
+}

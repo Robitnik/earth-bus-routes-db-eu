@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2561,1154],
+"stops":[
+  {"id":6496461316,"lat":38.09705,"lon":-122.252737,"k":"x","n":"Curtola Parkway & Napa Street"},
+  {"id":6496461317,"lat":38.097127,"lon":-122.251998,"k":"x","n":"Curtola Parkway & Napa Street"},
+  {"id":6496461318,"lat":38.096981,"lon":-122.252738,"k":"p","n":"Curtola Parkway & Napa Street"},
+  {"id":6496461319,"lat":38.097202,"lon":-122.251996,"k":"p","n":"Curtola Parkway & Napa Street"},
+  {"id":6496461320,"lat":38.094848,"lon":-122.251687,"k":"x","n":"Sonoma Boulevard & Solano Avenue"},
+  {"id":6496461321,"lat":38.094921,"lon":-122.25161,"k":"p","n":"Sonoma Boulevard & Solano Avenue"},
+  {"id":6520245563,"lat":38.099076,"lon":-122.251355,"k":"x","n":"Maine Street & Napa Street"},
+  {"id":6520245564,"lat":38.098985,"lon":-122.251356,"k":"p","n":"Maine Street & Napa Street"},
+  {"id":6520245565,"lat":38.099113,"lon":-122.254522,"k":"x","n":"Maine Street & Sonoma Boulevard"},
+  {"id":6520245566,"lat":38.099101,"lon":-122.253756,"k":"x","n":"Maine Street & Sutter Street"},
+  {"id":6520245567,"lat":38.098999,"lon":-122.253758,"k":"p","n":"Maine Street & Sutter Street"},
+  {"id":6520245568,"lat":38.099203,"lon":-122.25452,"k":"p","n":"Maine Street & Sonoma Boulevard"}
+],
+"routes":[
+  {"id":2235086,"t":{"ref":"R","name":"SolanoExpress Red Line: Sereno Transit Center => Vallejo Transit Center => El Cerrito del Norte BART (early mornings)","from":"Sereno Transit Center","to":"El Cerrito del Norte BART","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":4,"s":[[6496461318,3]]},
+  {"id":8099943,"t":{"ref":"3","name":"SolTrans 3: Vallejo Transit Center => Beverly Hills","from":"Vallejo Transit Center","to":"Fulton Avenue & Old Glen Cove Road","network":"SolTrans","operator":"Solano County Transit","colour":"green","route":"bus","public_transport:version":"2"},"n":4,"s":[[6496461318,2]]},
+  {"id":9620412,"t":{"ref":"82","name":"SolTrans 82: Vallejo Transit Center => El Cerrito del Norte BART => San Francisco Ferry Building","from":"Vallejo Transit Center","to":"San Francisco Ferry Building","network":"SolTrans","operator":"Solano County Transit","colour":"orange","route":"bus","public_transport:version":"2"},"n":4,"s":[[6496461318,2]]},
+  {"id":9620413,"t":{"ref":"82","name":"SolTrans 82: San Francisco Ferry Building => El Cerrito del Norte BART => Vallejo Transit Center => Sereno Transit Center","from":"San Francisco Ferry Building","to":"Sereno Transit Center","network":"SolTrans","operator":"Solano County Transit","colour":"orange","route":"bus","public_transport:version":"2"},"n":8,"s":[[6496461319,3]]},
+  {"id":9620424,"t":{"ref":"R","name":"SolanoExpress Red Line: Vallejo Transit Center => El Cerrito del Norte BART","from":"Vallejo Transit Center","to":"El Cerrito del Norte BART","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":3,"s":[[6496461318,2]]},
+  {"id":9620425,"t":{"ref":"R","name":"SolanoExpress Red Line: El Cerrito del Norte BART => Vallejo Transit Center","from":"El Cerrito del Norte BART","to":"Vallejo Transit Center","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":3,"s":[[6496461319,2]]},
+  {"id":9620426,"t":{"ref":"R","name":"SolanoExpress Red Line: El Cerrito del Norte BART => Vallejo Transit Center => Sereno Transit Center (late nights)","from":"El Cerrito del Norte BART","to":"Sereno Transit Center","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":4,"s":[[6496461319,2]]},
+  {"id":9634158,"t":{"ref":"3","name":"SolTrans 3: Beverly Hills => Vallejo Transit Center","from":"Fulton Avenue & Old Glen Cove Road","to":"Vallejo Transit Center","network":"SolTrans","operator":"Solano County Transit","route":"bus","public_transport:version":"2"},"n":12,"s":[[6496461321,11]]},
+  {"id":9640430,"t":{"ref":"60","name":"SolanoExpress 60: El Cerrito del Norte BART => Vallejo Transit Center => Solano Town Center","from":"El Cerrito del Norte BART","to":"Solano Town Center","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":9,"s":[[6496461319,2]]},
+  {"id":9640431,"t":{"ref":"R","name":"SolanoExpress Red Line: Solano Town Center => Vallejo Transit Center => El Cerrito del Norte BART","from":"Solano Town Center","to":"El Cerrito del Norte BART","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":6,"s":[[6496461318,5]]},
+  {"id":9650481,"t":{"ref":"8","name":"SolTrans 8: Hogan Middle School => Vallejo Transit Center","from":"Georgia Street & Rosewood Avenue","to":"Vallejo Transit Center","network":"SolTrans","operator":"Solano County Transit","route":"bus","public_transport:version":"2"},"n":35,"s":[[6520245568,34]]},
+  {"id":9650482,"t":{"ref":"8","name":"SolTrans 8: Vallejo Transit Center => Hogan Middle School","from":"Vallejo Transit Center","to":"Georgia Street & Rosewood Avenue","network":"SolTrans","operator":"Solano County Transit","route":"bus","public_transport:version":"2"},"n":19,"s":[[6520245567,2],[6520245564,3]]},
+  {"id":9866367,"t":{"ref":"R","name":"SolanoExpress Red Line: Suisun-Fairfield Amtrak => Vallejo Transit Center => El Cerrito del Norte BART","from":"Suisun-Fairfield Amtrak","to":"El Cerrito del Norte BART","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":6,"s":[[6496461318,5]]},
+  {"id":9866368,"t":{"ref":"R","name":"SolanoExpress Red Line: El Cerrito del Norte BART => Vallejo Transit Center => Suisun-Fairfield Amtrak","from":"El Cerrito del Norte BART","to":"Suisun-Fairfield Amtrak","network":"SolTrans","operator":"Solano County Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":7,"s":[[6496461319,2]]}
+]
+}

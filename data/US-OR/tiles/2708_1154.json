@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-OR",
+"tile":[2708,1154],
+"stops":[
+  {"id":9046034821,"lat":45.405294,"lon":-122.293076,"k":"p","n":"Highway 26 and 362nd Ave"},
+  {"id":9252446166,"lat":45.400383,"lon":-122.27775,"k":"p","n":"Highway 26 and Ruben"},
+  {"id":9252446169,"lat":45.402093,"lon":-122.282567,"k":"p","n":"Hwy 26 at Athletic Club"},
+  {"id":9252446170,"lat":45.404702,"lon":-122.290188,"k":"p","n":"Highway 26 and 362nd Ave"},
+  {"id":9284012529,"lat":45.402482,"lon":-122.28471,"k":"p","n":"Highway 26 and Industrial"},
+  {"id":9284012530,"lat":45.400536,"lon":-122.279118,"k":"p","n":"Highway 26 and Ruben"},
+  {"id":10897907039,"lat":45.402993,"lon":-122.297221,"k":"p","n":"Sandy Transit Operations Center"}
+],
+"routes":[
+  {"id":13441129,"t":{"ref":"Sandy - Gresham","name":"Bus: Sandy => Gresham","from":"Sandy Transit Center","to":"Gresham Central Transit Center","network":"Sandy Area Metro","operator":"City of Sandy","route":"bus","public_transport:version":"2"},"n":16,"s":[[9252446166,6],[9252446169,7],[9252446170,8]]},
+  {"id":13480035,"t":{"ref":"Sandy - Gresham","name":"Bus: Gresham => Sandy","from":"Gresham Central Transit Center","to":"Sandy Transit Center","network":"Sandy Area Metro","operator":"City of Sandy","route":"bus","public_transport:version":"2"},"n":18,"s":[[9046034821,10],[9284012529,11],[9284012530,12]]},
+  {"id":15855167,"t":{"ref":"MHX","name":"Bus Mt Hood Express: Sandy => Timberline","from":"Sandy","to":"Timberline","network":"Mt Hood Express","operator":"Mt Hood Express","route":"bus"},"n":14,"s":[[10897907039,1],[9046034821,2],[9284012529,3]]}
+]
+}

@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2556,1218],
+"stops":[
+  {"id":539415536,"lat":37.812209,"lon":-119.054344,"k":"p","n":"June Lake Junction"},
+  {"id":9409627137,"lat":37.812293,"lon":-119.054304,"k":"p","n":"June Lake Junction"},
+  {"id":12173815268,"lat":37.81238,"lon":-119.054271,"k":"p","n":"June Lake, Ca (JNL)","ref":"JNL"}
+],
+"routes":[
+  {"id":13371483,"t":{"ref":"MAMMOTH - HWY 120/395","name":"MAMMOTH LAKES HWY 120E/395","network":"YARTS","operator":"Yosemite Area Regional Transportation System","route":"bus","public_transport:version":"1"},"n":13,"s":[[539415536,1]]},
+  {"id":13655794,"t":{"ref":"395","name":"Lone Pine to Reno","from":"Lone Pine","to":"Reno","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus","public_transport:version":"1"},"n":18,"s":[[9409627137,13]]},
+  {"id":13773445,"t":{"ref":"Walker","name":"Walker to Mammoth Lakes","from":"Walker","to":"Mammoth Lakes","network":"Eastern Sierra Transit","operator":"Eastern Sierra Transit","route":"bus"},"n":7,"s":[[9409627137,6]]},
+  {"id":18039206,"t":{"ref":"15","name":"15 -Mammoth Lakes - Yosemite National Park","from":"Mammoth Mountain Inn","to":"Yosemite Visitors Center","network":"Amtrak Thruway","route":"bus","public_transport:version":"1"},"n":7,"s":[[12173815268,2]]}
+]
+}

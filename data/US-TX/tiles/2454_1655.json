@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2454,1655],
+"stops":[
+  {"id":10721530759,"lat":32.732807,"lon":-97.217039,"k":"p","n":"Halbert & Kerr"},
+  {"id":10721530762,"lat":32.732588,"lon":-97.217102,"k":"p","n":"Halbert & Kerr"},
+  {"id":10757716440,"lat":32.718312,"lon":-97.23784,"k":"p","n":"Stalcup & Fitzhugh"},
+  {"id":10757716441,"lat":32.718086,"lon":-97.237148,"k":"p","n":"Fitzhugh & Stalcup"}
+],
+"routes":[
+  {"id":15578815,"t":{"ref":"89","name":"Bus 89: Downtown -> Handley Transfer Center","from":"Fort Worth Central Station","to":"Halbert & Karr","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":4,"s":[[10721530762,4]]},
+  {"id":15578816,"t":{"ref":"89","name":"Bus 89: Handley Transfer Center -> Downtown","from":"Halbert & Karr","to":"Fort Worth Central Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":3,"s":[[10721530762,1]]},
+  {"id":15635384,"t":{"ref":"24","name":"Bus 24: University -> Stalcup","from":"Rogers & Devitt","to":"Stalcup & Fitzhugh","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":4,"s":[[10757716440,4]]},
+  {"id":15635385,"t":{"ref":"24","name":"Bus 24: Stalcup -> University","from":"Fitzhugh & Stalcup","to":"Rogers & Devitt","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":5,"s":[[10757716441,1]]},
+  {"id":15635386,"t":{"ref":"4","name":"Bus 4: Fitzhugh -> Medical District","from":"Stalcup & Fitzhugh","to":"Terrell & 7th","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":2,"s":[[10757716440,1]]},
+  {"id":15635387,"t":{"ref":"4","name":"Bus 4: Medical District -> Fitzhugh","from":"Terrell & 7th","to":"Fitzhugh & Stalcup","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":4,"s":[[10757716441,4]]}
+]
+}

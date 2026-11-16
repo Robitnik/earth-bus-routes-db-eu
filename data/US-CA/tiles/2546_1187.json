@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2546,1187],
+"stops":[
+  {"id":12353213037,"lat":37.345581,"lon":-120.60844,"k":"p","n":"Atwater Transpo (eastbound)","ref":"235"},
+  {"id":12353213038,"lat":37.345432,"lon":-120.608507,"k":"p","n":"Atwater Transpo (westbound)","ref":"4325"},
+  {"id":12393215672,"lat":37.34127,"lon":-120.610334,"k":"p","n":"Atwater Target","ref":"4305"},
+  {"id":12397011187,"lat":37.344305,"lon":-120.601787,"k":"p","n":"Broadway @ Castle Street (Westbound)","ref":"33"},
+  {"id":12397034151,"lat":37.348439,"lon":-120.612421,"k":"p","n":"Winton @ Olive (Northbound)","ref":"4291"}
+],
+"routes":[
+  {"id":18303500,"t":{"ref":"T","name":"Turlock Commuter","from":"Merced Transportation Center","to":"Turlock Transportation Center","network":"The Bus","operator":"Merced Transit Authority","colour":"#a7b1db","route":"bus"},"n":27,"s":[[12353213037,13],[12353213038,15]]},
+  {"id":18364990,"t":{"ref":"A2","name":"A2 - Winton Way","from":"Atwater Target","to":"Winton Dollar General","network":"The Bus","operator":"Merced Transit Authority","route":"bus"},"n":22,"s":[[12393215672,20],[12353213038,21],[12397034151,22]]},
+  {"id":18373006,"t":{"ref":"A1","name":"A1 - Atwater Loop","from":"Atwater Target","to":"Castle Clinic","network":"The Bus","operator":"Merced Transit Authority","route":"bus"},"n":24,"s":[[12393215672,1],[12353213038,2],[12397034151,3],[12397011187,24]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-IN",
+"tile":[2592,1877],
+"stops":[
+  {"id":6025102322,"lat":39.633248,"lon":-86.114195,"k":"p","n":"Cambridge Square Apartments"},
+  {"id":11135165511,"lat":39.635134,"lon":-86.122874,"k":"p","n":"Greenwood Park Mall Park and Ride"},
+  {"id":11135165512,"lat":39.635383,"lon":-86.122851,"k":"p","n":"Greenwood Park Mall"},
+  {"id":13585220763,"lat":39.604226,"lon":-86.108766,"k":"p","n":"Rural King"},
+  {"id":13585405341,"lat":39.626096,"lon":-86.119555,"k":"p","n":"Goodwill"},
+  {"id":13585944677,"lat":39.611374,"lon":-86.104375,"k":"p","n":"Greenwood Community Center"},
+  {"id":13586015732,"lat":39.635625,"lon":-86.133851,"k":"p","n":"Community Hospital South"}
+],
+"routes":[
+  {"id":8360670,"t":{"ref":"31","name":"US 31","from":"Transit Center","to":"Greenwood Park Mall","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"green","route":"bus"},"n":2,"s":[[11135165511,1]]},
+  {"id":20245212,"t":{"name":"US 31 Zipline","from":"Greenwood Park Mall","to":"Franklin Walmart","operator":"Access Johnson County","colour":"plum","route":"bus"},"n":3,"s":[[13585220763,2],[11135165512,3]]},
+  {"id":20245656,"t":{"name":"US 31 Zipline","from":"Franklin Walmart","to":"Greenwood Park Mall","operator":"Access Johnson County","colour":"plum","route":"bus"},"n":4,"s":[[13585220763,3],[11135165512,4]]},
+  {"id":20246374,"t":{"name":"Greenwood East Connector","from":"Greenwood Park Mall","to":"Greenwood Park Mall","operator":"Access Johnson County","colour":"violet","route":"bus"},"n":7,"s":[[6025102322,1],[13585220763,6],[13585944677,7]]}
+]
+}

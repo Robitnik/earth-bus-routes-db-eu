@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2608,2114],
+"stops":[
+  {"id":2676318818,"lat":40.404363,"lon":-74.298003,"k":"p","n":"Civic Center","ref":"818 to New Brunswick"},
+  {"id":5779388834,"lat":40.401787,"lon":-74.296355,"k":"p","ref":"23644"},
+  {"id":9200359149,"lat":40.431359,"lon":-74.250788,"k":"p","n":"Matawan Rd 1500' N of Cliffwood Ave."},
+  {"id":9201440691,"lat":40.432435,"lon":-74.251692,"k":"p","n":"GSP Exit 120 Park & Ride"},
+  {"id":13674534036,"lat":40.406445,"lon":-74.27815,"k":"p"}
+],
+"routes":[
+  {"id":5688240,"t":{"ref":"818","name":"NJTB - 818 - New Brunswick to Old Bridge via Rotary Senior Citizen Comlex","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":9,"s":[[2676318818,9]]},
+  {"id":5711383,"t":{"ref":"818","name":"NJTB - 818 - Old Bridge to New Brunswick via Rotary Senior Citizen Complex","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":6,"s":[[2676318818,1]]},
+  {"id":8239342,"t":{"ref":"131","name":"NJTB - 131 - New York to Freehold Center via Sayreville","from":"New York","to":"Freehold Center","network":"NJ Transit","operator":"New Jersey Transit","route":"bus"},"n":47,"s":[[9201440691,12],[9200359149,13]]},
+  {"id":16137097,"t":{"ref":"818","name":"NJTB - 818 - New Brunswick to Old Bridge","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":9,"s":[[2676318818,9]]},
+  {"id":16137098,"t":{"ref":"818","name":"NJTB - 818 - Old Bridge to New Brunswick","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":5,"s":[[2676318818,1]]}
+]
+}

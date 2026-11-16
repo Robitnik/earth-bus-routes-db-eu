@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2610,2112],
+"stops":[
+  {"id":2160506737,"lat":40.543886,"lon":-74.362802,"k":"p","n":"Metuchen Main Street at NJ 27"},
+  {"id":2808775902,"lat":40.541014,"lon":-74.360903,"k":"p","n":"Pennsylvania Avenue at Metuchen Rail Station"},
+  {"id":2810760722,"lat":40.543312,"lon":-74.362631,"k":"p","n":"Main Street at Route 27"},
+  {"id":2822553001,"lat":40.540165,"lon":-74.360672,"k":"p","n":"Metuchen Rail Station - Main Street at Woodbridge Avenue","ref":"23336"},
+  {"id":2822553002,"lat":40.541856,"lon":-74.362034,"k":"p","n":"New Street at Main Street"},
+  {"id":2822553003,"lat":40.541921,"lon":-74.364853,"k":"p","n":"Center Street at Middlesex Avenue"},
+  {"id":2822553004,"lat":40.54022,"lon":-74.360515,"k":"p","n":"Metuchen Rail Station - Main Street at Woodbridge Avenue","ref":"23332"},
+  {"id":3239272190,"lat":40.537039,"lon":-74.35213,"k":"p","n":"Amboy Avenue at James Place"},
+  {"id":3239272191,"lat":40.537194,"lon":-74.35225,"k":"p","n":"Amboy Avenue at Carson Avenue"},
+  {"id":3239272192,"lat":40.537998,"lon":-74.360385,"k":"p","n":"Main St at Amboy Ave"},
+  {"id":3239272193,"lat":40.538071,"lon":-74.360233,"k":"p","n":"Main St at Amboy Ave"},
+  {"id":3780963950,"lat":40.543371,"lon":-74.362458,"k":"p","n":"Main Street at Route 27"},
+  {"id":3826985826,"lat":40.504526,"lon":-74.367543,"k":"p","n":"Middlesex County College","ref":"23152"},
+  {"id":3830154660,"lat":40.501148,"lon":-74.352095,"k":"p","n":"Newfield Avenue at Fernwood Avenue"},
+  {"id":9028207504,"lat":40.531379,"lon":-74.38023,"k":"p"},
+  {"id":11384329592,"lat":40.503766,"lon":-74.384131,"k":"p","n":"Woodbridge Ave at Webster Pl","ref":"23267"},
+  {"id":11384329593,"lat":40.503588,"lon":-74.383932,"k":"p","n":"Woodbridge Ave at Webster Pl","ref":"23253"},
+  {"id":11384329594,"lat":40.502283,"lon":-74.389646,"k":"p","n":"Woodbridge Ave at Rutland St","ref":"23268"},
+  {"id":11384329595,"lat":40.501975,"lon":-74.39023,"k":"p","n":"Woodbridge Ave at Kearny Ave","ref":"23252"},
+  {"id":11384329596,"lat":40.501203,"lon":-74.394402,"k":"p","n":"Woodbridge Ave at Chapel St","ref":"23269"},
+  {"id":11384329597,"lat":40.501117,"lon":-74.394015,"k":"p","n":"Woodbridge Ave at Lake View Blvd","ref":"23251"},
+  {"id":11384329598,"lat":40.500602,"lon":-74.398593,"k":"p","n":"Woodbridge Ave at Plainfield Ave","ref":"23270"},
+  {"id":11384329599,"lat":40.500519,"lon":-74.397791,"k":"p","n":"Woodbridge Ave at Plainfield Ave","ref":"23250"}
+],
+"routes":[
+  {"id":3677083,"t":{"ref":"819","name":"NJTB - 819 - Piscataway to Metuchen (Weekdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":9,"s":[[2810760722,8],[2808775902,9]]},
+  {"id":3691515,"t":{"ref":"810","name":"NJTB - 810 - Rutgers University to Woodbridge Center","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":14,"s":[[2822553004,4],[2822553002,5],[2822553003,6],[2810760722,7],[2822553001,8],[3239272190,9]]},
+  {"id":5574352,"t":{"ref":"810","name":"NJTB - 810 - Woodbridge Center to Rutgers University","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":14,"s":[[3239272191,6],[2822553004,7],[2822553002,8],[2822553003,9],[2810760722,10],[2822553001,11]]},
+  {"id":5574355,"t":{"ref":"819","name":"NJTB - 819 - Metuchen to Piscataway (Weekdays)","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"1"},"n":9,"s":[[2808775902,1],[3780963950,2]]},
+  {"id":5651467,"t":{"ref":"813","name":"NJTB - 813 - Perth Amboy to Middlesex County College","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[2822553004,3],[2810760722,4],[3826985826,7]]},
+  {"id":5654889,"t":{"ref":"813","name":"NJTB - 813 - Middlesex County College to Perth Amboy","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[3826985826,1],[2810760722,2],[2822553004,3]]},
+  {"id":5656066,"t":{"ref":"814","name":"NJTB - 814 - North Brunswick to Middlesex County College","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":4,"s":[[3826985826,4]]},
+  {"id":5674363,"t":{"ref":"814","name":"NJTB - 814 - DeVry North Brunswick to Middlesex County College","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":5,"s":[[3826985826,5]]},
+  {"id":5674386,"t":{"ref":"814","name":"NJTB - 814 - Middlesex County College to DeVry North Brunswick","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":5,"s":[[3826985826,1]]},
+  {"id":5674387,"t":{"ref":"814","name":"NJTB - 814 - Middlesex County College to North Brunswick","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":6,"s":[[3826985826,5]]}
+]
+}

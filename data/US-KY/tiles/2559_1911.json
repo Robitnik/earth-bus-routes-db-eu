@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-KY",
+"tile":[2559,1911],
+"stops":[
+  {"id":163521001,"lat":37.990225,"lon":-84.448733,"k":"x","n":"Squires @ 461 Inbound"},
+  {"id":3176052814,"lat":37.999228,"lon":-84.441634,"k":"x","n":"Eagle Creek @ St Joseph Hospital East"},
+  {"id":12713969535,"lat":37.99929,"lon":-84.44172,"k":"p","n":"Eagle Creek @ St Joseph Hospital East","ref":"22"},
+  {"id":12755565439,"lat":37.990228,"lon":-84.448654,"k":"p","n":"Squires @ 461 Inbound","ref":"1038"},
+  {"id":12755565440,"lat":37.992337,"lon":-84.449986,"k":"x","n":"East Hills @ 2953 Inbound"},
+  {"id":12755565441,"lat":37.992416,"lon":-84.449946,"k":"p","n":"East Hills @ 2953 Inbound","ref":"1039"},
+  {"id":12755565442,"lat":37.992175,"lon":-84.449679,"k":"x","n":"East Hills @ 2916 Outbound"},
+  {"id":12755565443,"lat":37.992128,"lon":-84.449722,"k":"p","n":"East Hills @ 2916 Outbound","ref":"1004"}
+],
+"routes":[
+  {"id":12017665,"t":{"ref":"11","name":"Richmond Road (Outbound)","from":"Transit Center","to":"St. Joseph East Hospital","network":"Lextran","operator":"Lextran","colour":"#acafd7","route":"bus","public_transport:version":"2"},"n":27,"s":[[12713969535,27]]},
+  {"id":12022544,"t":{"ref":"18","name":"Centre Parkway Connector (Outbound)","from":"Alysheba @ Meijer","to":"Centre Parkway @ 1349 (Briarwood Apt)","network":"Lextran","operator":"Lextran","colour":"#00a186","route":"bus","public_transport:version":"2"},"n":39,"s":[[12755565443,23]]},
+  {"id":12023020,"t":{"ref":"51","name":"Night – Woodhill Drive (Outbound)","from":"Transit Center","to":"St. Joseph East Hospital","network":"Lextran","operator":"Lextran","colour":"#e80027","route":"bus","public_transport:version":"2"},"n":35,"s":[[12713969535,35]]},
+  {"id":18912032,"t":{"ref":"51","name":"Night – Woodhill Drive (Inbound)","from":"St. Joseph East Hospital","to":"Transit Center","network":"Lextran","operator":"Lextran","colour":"#e80027","route":"bus","public_transport:version":"2"},"n":20,"s":[[12713969535,1]]},
+  {"id":18915863,"t":{"ref":"11","name":"Richmond Road (Inbound)","from":"St. Joseph East Hospital","to":"Transit Center","network":"Lextran","operator":"Lextran","colour":"#acafd7","route":"bus","public_transport:version":"2"},"n":23,"s":[[12713969535,1]]},
+  {"id":18991729,"t":{"ref":"18","name":"Centre Parkway Connector (Inbound)","from":"Centre Parkway @ 1349 (Briarwood Apartments)","to":"Alysheba @ Meijer","network":"Lextran","operator":"Lextran","colour":"#00a186","route":"bus","public_transport:version":"2"},"n":34,"s":[[12755565439,19],[12755565441,20]]}
+]
+}

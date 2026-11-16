@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2458,1653],
+"stops":[
+  {"id":5808513537,"lat":32.910681,"lon":-97.307096,"k":"p"},
+  {"id":10695526071,"lat":32.916552,"lon":-97.316496,"k":"p","n":"North Fwy & Heritage Trace","ref":"4348"},
+  {"id":10695526087,"lat":32.921895,"lon":-97.318629,"k":"p","n":"2"},
+  {"id":10695526088,"lat":32.922053,"lon":-97.318641,"k":"p","n":"1"},
+  {"id":10719620810,"lat":32.902776,"lon":-97.307135,"k":"p","n":"N Riverside & Shiver"},
+  {"id":10719620811,"lat":32.906579,"lon":-97.307093,"k":"p","n":"N Riverside & General Worth"},
+  {"id":10719620812,"lat":32.91174,"lon":-97.3071,"k":"p","n":"N Riverside & Texas Sage"},
+  {"id":10719620813,"lat":32.907059,"lon":-97.306817,"k":"p","n":"N Riverside & General Worth"},
+  {"id":10719620814,"lat":32.902661,"lon":-97.306882,"k":"p","n":"N Riverside & Shiver"},
+  {"id":10719620889,"lat":32.917879,"lon":-97.308161,"k":"p","n":"Amador & Calera"},
+  {"id":10719620890,"lat":32.916843,"lon":-97.311308,"k":"p","n":"Hillwood & Amador"},
+  {"id":10719620891,"lat":32.91571,"lon":-97.310683,"k":"p","n":"Hillwood & Amador"},
+  {"id":10719620962,"lat":32.911702,"lon":-97.307376,"k":"p","n":"Heritage Trace & Old Denton"}
+],
+"routes":[
+  {"id":15536639,"t":{"ref":"63X","name":"Bus 63X: North Park & Ride -> Downtown","from":"North Park & Ride","to":"Fort Worth Central Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#822522","route":"bus","public_transport:version":"2"},"n":7,"s":[[10695526088,1]]},
+  {"id":15536640,"t":{"ref":"63X","name":"Bus 63X: Downtown -> North Park & Ride","from":"Fort Worth Central Station","to":"North Park & Ride","network":"Trinity Metro","operator":"Trinity Metro","colour":"#822522","route":"bus","public_transport:version":"2"},"n":8,"s":[[10695526071,7],[10695526088,8]]},
+  {"id":15537014,"t":{"ref":"NTX","name":"Bus NTX: North Park & Ride -> DDTC","from":"North Park & Ride","to":"Downtown Denton Transit Center","network":"Denton County Transportation Authority","operator":"Denton County Transportation Authority","colour":"#6240A6","route":"bus","public_transport:version":"2"},"n":4,"s":[[10695526088,1]]},
+  {"id":15537015,"t":{"ref":"NTX","name":"Bus NTX: DDTC -> North Park & Ride","from":"Downtown Denton Transit Center","to":"North Park & Ride","network":"Denton County Transportation Authority","operator":"Denton County Transportation Authority","colour":"#6240A6","route":"bus","public_transport:version":"2"},"n":5,"s":[[10695526088,5]]},
+  {"id":15576334,"t":{"ref":"16","name":"Bus 16: Alliance Town Center -> Mercantile Center Station","from":"Alliance Town Center","to":"Mercantile Center Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":25,"s":[[10719620962,1],[10719620811,2],[10719620810,3]]},
+  {"id":15576335,"t":{"ref":"16","name":"Bus 16: Mercantile Center Station -> Alliance Town Center","from":"Mercantile Center Station","to":"Alliance Town Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":29,"s":[[10719620814,23],[10719620813,24],[10719620812,25],[10719620891,26],[10719620890,27],[10719620889,28],[10719620962,29]]}
+]
+}

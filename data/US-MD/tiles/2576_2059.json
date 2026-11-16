@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2576,2059],
+"stops":[
+  {"id":12058051681,"lat":38.821728,"lon":-77.000587,"k":"p","n":"Southern Ave SE at S Capitol St SE"},
+  {"id":12992097132,"lat":38.817687,"lon":-77.003513,"k":"p","n":"Eastover Center at Dollar Tree"},
+  {"id":12992097134,"lat":38.819123,"lon":-77.002653,"k":"p","n":"5101 Eastover Center"},
+  {"id":12992097659,"lat":38.819124,"lon":-77.000082,"k":"p","n":"Indian Head Hwy at Audrey Ln"},
+  {"id":12992097660,"lat":38.818481,"lon":-77.001635,"k":"p","n":"Audrey Ln at Eastover Shopping Center"},
+  {"id":12992097736,"lat":38.817485,"lon":-77.002242,"k":"p","n":"Eastover Center at Giant Foods"},
+  {"id":12992099396,"lat":38.820973,"lon":-77.000907,"k":"p","n":"Indian Head Hwy at Southern Av"},
+  {"id":12992099401,"lat":38.820709,"lon":-77.001025,"k":"p","n":"Indian Head Hwy at Southern Av"},
+  {"id":12992099434,"lat":38.818448,"lon":-77.00055,"k":"p","n":"Audrey Ln at Indian Head Hwy"}
+],
+"routes":[
+  {"id":19203204,"t":{"ref":"C13","name":"WMATA C13 MLK Avenue-Washington Highlands Southbound Line","from":"Anacostia","to":"Eastover","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":3,"s":[[12992099401,1],[12992097659,2],[12992097660,3]]},
+  {"id":19203205,"t":{"ref":"C13","name":"WMATA C13 MLK Avenue-Washington Highlands Northbound Line","from":"Eastover","to":"Anacostia","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":4,"s":[[12992097660,1],[12992099396,3],[12058051681,4]]},
+  {"id":19258302,"t":{"ref":"C17","name":"WMATA C17 MLK Avenue-Bellevue Northbound Line","from":"Eastover","to":"Anacostia","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":6,"s":[[12992097132,1],[12992097736,2],[12992097134,3],[12992097660,4],[12992099396,6]]},
+  {"id":19258303,"t":{"ref":"C15","name":"WMATA C15 MLK Avenue-Southern Avenue Southbound Line","from":"Potomac Avenue","to":"Southern Avenue","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":10,"s":[[12058051681,1]]},
+  {"id":19258305,"t":{"ref":"C11","name":"WMATA C11 South Capitol Street Southbound Line","from":"L'Enfant Plaza","to":"National Harbor","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":7,"s":[[12992099401,1],[12992097659,2]]},
+  {"id":19258306,"t":{"ref":"C11","name":"WMATA C11 South Capitol Street Northbound Line","from":"National Harbor","to":"L'Enfant Plaza","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":7,"s":[[12992099396,7]]},
+  {"id":19261705,"t":{"ref":"C17","name":"WMATA C17 MLK Avenue-Bellevue Southbound Line","from":"Anacostia","to":"Eastover","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":3,"s":[[12992099401,1],[12992097659,2],[12992097660,3]]},
+  {"id":19293480,"t":{"ref":"C27","name":"WMATA C27 Congress Heights-Naylor Road Eastbound Line","from":"Shepherd Parkway","to":"Naylor Road","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":2,"s":[[12058051681,1]]},
+  {"id":19430262,"t":{"ref":"P97","name":"WMATA P97 Fort Washington Soutbound Line","from":"Southern Avenue","to":"Fort Washington","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":41,"s":[[12992099401,4],[12992097659,5]]},
+  {"id":19430263,"t":{"ref":"P97","name":"WMATA P97 Fort Washington Northbound Line","from":"Fort Washington","to":"Southern Avenue","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":40,"s":[[12992099396,36],[12058051681,37]]},
+  {"id":19430264,"t":{"ref":"P93","name":"WMATA P93 Birchwood-Eastover Eastbound Line","from":"Birchwood","to":"Suitland","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":56,"s":[[12992099434,1],[12992097134,18],[12992097132,19],[12992097736,20]]},
+  {"id":19430265,"t":{"ref":"P93","name":"WMATA P93 Birchwood-Eastover Westbound Line","from":"Suitland","to":"Birchwood","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":53,"s":[[12992097134,50],[12992097132,51],[12992097736,52],[12992099434,53]]},
+  {"id":19430266,"t":{"ref":"P94","name":"WMATA P94 Suitland-National Harbor Southbound Line","from":"Suitland","to":"National Harbor","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":45,"s":[[12992097134,36],[12992097132,37],[12992097736,38],[12992099434,39]]},
+  {"id":19430267,"t":{"ref":"P94","name":"WMATA P94 Suitland-National Harbor Northbound Line","from":"National Harbor","to":"Suitland","network":"WMATA Metrobus","operator":"Washington Metropolitan Area Transit Authority","colour":"#C8102E","route":"bus","public_transport:version":"2"},"n":47,"s":[[12992097134,8],[12992097132,9],[12992097736,10],[12992099434,11]]}
+]
+}

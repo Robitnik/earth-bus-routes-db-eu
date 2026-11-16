@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2588,2051],
+"stops":[
+  {"id":1133722097,"lat":39.411687,"lon":-77.40544,"k":"x"},
+  {"id":6248422976,"lat":39.411632,"lon":-77.405285,"k":"p","n":"Frederick MARC Station (Bus)","ref":"13713"},
+  {"id":6248423542,"lat":39.411719,"lon":-77.405583,"k":"p","n":"Frederick Transit Center"},
+  {"id":14158210617,"lat":39.432991,"lon":-77.423552,"k":"p","ref":"335"},
+  {"id":14158210624,"lat":39.431336,"lon":-77.4208,"k":"p","ref":"277"},
+  {"id":14158210644,"lat":39.431676,"lon":-77.422128,"k":"p","ref":"106"},
+  {"id":14158210690,"lat":39.434283,"lon":-77.425053,"k":"p","ref":"334"},
+  {"id":14204613606,"lat":39.409175,"lon":-77.408795,"k":"p"}
+],
+"routes":[
+  {"id":5477483,"t":{"ref":"50","name":"50: Frederick Towne Mall Connector (via Prospect Boulevard)","network":"TransIT","operator":"City of Frederick","route":"bus","public_transport:version":"2"},"n":2,"s":[[14158210690,1],[14158210617,2]]},
+  {"id":5477487,"t":{"ref":"51","name":"51: Frederick Towne Mall Connector","network":"TransIT","operator":"City of Frederick","route":"bus","public_transport:version":"2"},"n":2,"s":[[1133722097,1],[14158210644,2]]},
+  {"id":6005061,"t":{"ref":"80","name":"80: North-West Connector","network":"TransIT","operator":"City of Frederick","route":"bus"},"n":4,"s":[[14158210690,1],[14158210617,2],[14158210624,3],[14158210644,4]]},
+  {"id":6005083,"t":{"ref":"80","name":"80: North-West Connector (Somerford)","network":"TransIT","operator":"City of Frederick","route":"bus"},"n":3,"s":[[14158210690,1],[14158210617,2],[14158210624,3]]},
+  {"id":7201548,"t":{"ref":"515","name":"Commuter Bus 515: Frederick/Urbana","from":"Shady Grove / Rock Spring Business Park","to":"Frederick","network":"Regional Transit Authority of Central Maryland","operator":"Eyre Bus Service","route":"bus","public_transport:version":"2"},"n":10,"s":[[6248422976,10]]},
+  {"id":9683177,"t":{"ref":"515","name":"Commuter Bus 515: Shady Grove/Rock Spring Business Park","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":5,"s":[[6248423542,1]]}
+]
+}

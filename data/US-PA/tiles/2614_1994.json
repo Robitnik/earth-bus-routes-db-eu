@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-PA",
+"tile":[2614,1994],
+"stops":[
+  {"id":6197076297,"lat":40.701026,"lon":-80.284598,"k":"s","n":"Rochester Transit Center"},
+  {"id":6205712677,"lat":40.716454,"lon":-80.299072,"k":"p","n":"3rd Ave at YMCA Dr","ref":"1115"},
+  {"id":6205712678,"lat":40.702316,"lon":-80.286394,"k":"p","n":"Brighton Ave at Jefferson St","ref":"1127"},
+  {"id":6205712679,"lat":40.702286,"lon":-80.286715,"k":"p","n":"Brighton Ave at Jefferson St","ref":"1128"},
+  {"id":6206044497,"lat":40.700346,"lon":-80.281173,"k":"p","n":"Brighton Ave at Pleasant St","ref":"1132"},
+  {"id":6206044498,"lat":40.700207,"lon":-80.280421,"k":"p","n":"Brighton Ave at New York Ave","ref":"1131"},
+  {"id":6285093177,"lat":40.701129,"lon":-80.284473,"k":"p","n":"Rochester Transit Center","ref":"100"}
+],
+"routes":[
+  {"id":9202003,"t":{"ref":"2","name":"BCTA Route 2 Local (South)","from":"Ambridge","to":"Rochester","network":"Beaver County Transit Authority","route":"bus"},"n":7,"s":[[6285093177,1]]},
+  {"id":9257360,"t":{"ref":"3","name":"Route 3 Express 65 (South)","from":"Rochester","to":"Pittsburgh","operator":"Beaver County Transit Authority","route":"bus"},"n":10,"s":[[6285093177,10]]},
+  {"id":9259319,"t":{"ref":"3","name":"BCTA Route 3 Express 65 (North)","from":"Pittsburgh","to":"Rochester","route":"bus"},"n":3,"s":[[6285093177,3]]},
+  {"id":9259781,"t":{"ref":"1","name":"BCTA Route 1 Chippewa - Pittsburgh (North)","from":"Pittsburgh","to":"Chippewa","route":"bus"},"n":55,"s":[[6205712677,17],[6206044498,18],[6285093177,55]]},
+  {"id":9292209,"t":{"ref":"11","name":"BCTA Route 11 Beaver - Vanport (West)","from":"Beaver","to":"Vanport","route":"bus"},"n":16,"s":[[6285093177,16]]},
+  {"id":9292211,"t":{"ref":"11","name":"BCTA Route 11 Beaver - Vanport (East)","from":"Vanport","to":"Beaver","route":"bus"},"n":8,"s":[[6285093177,8]]},
+  {"id":9308839,"t":{"ref":"2","name":"BCTA Route 2 Local (North)","from":"Ambridge","to":"Rochester","route":"bus"},"n":9,"s":[[6285093177,2]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-PA",
+"tile":[2603,1995],
+"stops":[
+  {"id":5571807615,"lat":40.170701,"lon":-80.245336,"k":"p"},
+  {"id":5577538956,"lat":40.170136,"lon":-80.242703,"k":"p"},
+  {"id":5664819516,"lat":40.169063,"lon":-80.247749,"k":"p"},
+  {"id":5732109529,"lat":40.172522,"lon":-80.244863,"k":"p","n":"East Chestnut Street Transit Center"},
+  {"id":7253951003,"lat":40.179605,"lon":-80.2223,"k":"p","n":"Beau Street Park & Ride"},
+  {"id":7256303382,"lat":40.176008,"lon":-80.242815,"k":"p","n":"N. Lincoln St. & Highland Ave."}
+],
+"routes":[
+  {"id":10693645,"t":{"ref":"Metro Commuter","name":"Pittsburgh Metro Commuter Weekday - Outbound","from":"Pittsburgh","to":"Washington PA","operator":"Freedom Transit","route":"bus"},"n":11,"s":[[7253951003,5],[5732109529,6]]},
+  {"id":10693646,"t":{"ref":"Metro Commuter","name":"Pittsburgh Metro Commuter Weekday - Inbound","from":"Washington PA","to":"Pittsburgh","operator":"Freedom Transit","route":"bus"},"n":9,"s":[[7253951003,3],[7256303382,4],[5732109529,5]]},
+  {"id":10775051,"t":{"ref":"Metro Commuter","name":"Metro Commuter Saturday - Inbound","from":"Washington","to":"South Hills Village","network":"Freedom Transit","operator":"Freedom Transit","route":"bus"},"n":3,"s":[[7253951003,1]]},
+  {"id":10775052,"t":{"ref":"Metro Commuter","name":"Metro Commuter Saturday - Outbound","from":"South Hills Village","to":"Washington","network":"Freedom Transit","operator":"Freedom Transit","route":"bus"},"n":3,"s":[[7253951003,1]]}
+]
+}

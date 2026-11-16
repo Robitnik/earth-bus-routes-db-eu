@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2661,2055],
+"stops":[
+  {"id":11923044392,"lat":43.063509,"lon":-77.231441,"k":"p","n":"Pittsford Palmyra & Cuyler","ref":"4296"},
+  {"id":11923044393,"lat":43.0637,"lon":-77.23099,"k":"p","n":"Main & William"},
+  {"id":12030051591,"lat":43.063184,"lon":-77.228506,"k":"p","n":"Palmyra Library"},
+  {"id":12031851471,"lat":43.063444,"lon":-77.231864,"k":"p","n":"Palmyra Village Hall"},
+  {"id":12038540160,"lat":43.065361,"lon":-77.230702,"k":"p","n":"Towpath Manor Apartments"},
+  {"id":12044602999,"lat":43.065481,"lon":-77.230686,"k":"p","n":"Towpath Manor Apartments"}
+],
+"routes":[
+  {"id":9369809,"t":{"ref":"91","name":"Bus 91: RTS Transit Center => Lyons","from":"RTS Transit Center","to":"Lyons","network":"Regional Transit Service","operator":"Rochester-Genesee Regional Transportation Authority","colour":"#90b647","route":"bus","public_transport:version":"2"},"n":18,"s":[[11923044392,16]]},
+  {"id":12916409,"t":{"ref":"290","name":"RTS 290 Lyons-Canandaigua","from":"Lyons Village Park","to":"Canandaigua Transit Hub","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[11923044393,3]]},
+  {"id":12916410,"t":{"ref":"293","name":"RTS 293 Canandaigua-Lyons","from":"Canandaigua Transit Hub","to":"Lyons Village Park","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[11923044392,2]]},
+  {"id":17608157,"t":{"ref":"91","name":"RTS 91 Newark/Lyons Commuter (W2)","from":"Newark","to":"Perinton Park & Ride","network":"Regional Transit Service","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":6,"s":[[11923044393,3]]},
+  {"id":17797395,"t":{"ref":"331","name":"RTS 331 NY Route 31 Shuttle (E3)","from":"Palmyra Community Library","to":"Newark-Wayne Community Hospital","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[12030051591,1]]},
+  {"id":17797396,"t":{"ref":"331","name":"RTS 331 NY Route 31 Shuttle (E2)","from":"Goodwill - Macedon","to":"Palmyra Community Library","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":5,"s":[[11923044392,4],[12030051591,5]]},
+  {"id":17797399,"t":{"ref":"331","name":"RTS 331 NY Route 31 Shuttle (W6)","from":"Newark Plaza","to":"Woodland Commons","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":4,"s":[[12030051591,2],[11923044393,3]]},
+  {"id":17800771,"t":{"ref":"332","name":"RTS 332 (E4)","from":"Palmyra Community Library","to":"Newark-Wayne Community Hospital","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[12030051591,1]]},
+  {"id":17800772,"t":{"ref":"332","name":"RTS 332 (E3)","from":"Woodland Commons","to":"Palmyra Community Library","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[11923044392,2],[12030051591,3]]},
+  {"id":17800776,"t":{"ref":"332","name":"RTS 332 (W7)","from":"Newark Plaza","to":"Woodland Commons","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":4,"s":[[12030051591,2],[11923044393,3]]},
+  {"id":17801195,"t":{"ref":"333","name":"RTS 333 (E1-2 alternate)","from":"Palmyra Village Hall","to":"Newark-Wayne Community Hospital","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[12031851471,1]]},
+  {"id":17801198,"t":{"ref":"333","name":"RTS 333 (E2)","from":"Palmyra Community Library","to":"Newark-Wayne Community Hospital","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[12030051591,1]]},
+  {"id":17801199,"t":{"ref":"333","name":"RTS 333 (W5)","from":"Newark Plaza","to":"Palmyra Village Hall","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":4,"s":[[11923044393,2],[12030051591,3],[12031851471,4]]},
+  {"id":17801203,"t":{"ref":"333","name":"RTS 333 (E1)","from":"Palmyra Village Hall","to":"Palmyra Community Library","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":2,"s":[[12031851471,1],[12030051591,2]]},
+  {"id":17805811,"t":{"ref":"302","name":"RTS 302 (E7)","from":"Newark Plaza","to":"Towpath Manor Apartments","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[11923044393,2],[12038540160,3]]},
+  {"id":17805812,"t":{"ref":"302","name":"RTS 302 (E8)","from":"Towpath Manor","to":"Drumlin Estates","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12038540160,1]]},
+  {"id":17813753,"t":{"ref":"303","name":"RTS 303 (P7)","from":"Newark Plaza","to":"Towpath Manor Apartments","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[11923044393,2],[12038540160,3]]},
+  {"id":17813754,"t":{"ref":"303","name":"RTS 303 (P8)","from":"Towpath Manor Apartments","to":"Drumlin Estates","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12038540160,1]]},
+  {"id":17818043,"t":{"ref":"304","name":"RTS 304 (P7)","from":"Newark Plaza","to":"Towpath Manor Apartments","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[11923044393,2],[12038540160,3]]},
+  {"id":17818044,"t":{"ref":"304","name":"RTS 304 (P8)","from":"Towpath Manor Apartments","to":"Drumlin Estates","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12038540160,1]]},
+  {"id":17819633,"t":{"ref":"305","name":"RTS 305 (P9)","from":"Drumlin Estates","to":"Main & Cuyler","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12044602999,3],[11923044392,4]]},
+  {"id":17819634,"t":{"ref":"305","name":"RTS 305 (P10)","from":"Main & Cuyler","to":"RRH Laboratories - Newark","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[11923044392,1]]},
+  {"id":17821099,"t":{"ref":"306","name":"RTS 306 (P7)","from":"Drumlin Estates","to":"Main & Cuyler","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12044602999,3],[11923044392,4]]},
+  {"id":17821100,"t":{"ref":"306","name":"RTS 306 (P8)","from":"Main & Cuyler","to":"RRH Laboratories - Newark","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[11923044392,1]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2569,1140],
+"stops":[
+  {"id":301943812,"lat":38.498476,"lon":-122.993516,"k":"x","n":"Neeley Rd & Hwy 116","ref":"7718050"},
+  {"id":13440137872,"lat":38.477695,"lon":-122.998404,"k":"x","n":"Hwy 116 & Ridgecrest Dr","ref":"7717500"},
+  {"id":13440137873,"lat":38.47761,"lon":-122.998404,"k":"p","n":"Hwy 116 & Ridgecrest Dr","ref":"7717500"},
+  {"id":13440137874,"lat":38.47782,"lon":-122.998465,"k":"p","n":"Hwy 116 & Ridgecrest Dr","ref":"7769400"},
+  {"id":13463644506,"lat":38.498423,"lon":-122.993508,"k":"p","n":"Neeley Rd & Hwy 116","ref":"7718050"},
+  {"id":13463644525,"lat":38.498522,"lon":-122.993528,"k":"p","n":"Neeley Rd & Hwy 116","ref":"7718050"},
+  {"id":5001374346689,"lat":38.498822,"lon":-122.99304,"k":"p","n":"Pocket Canyon Highway","ref":"CA 116"}
+],
+"routes":[
+  {"id":20067491,"t":{"ref":"20","name":"Sonoma County Transit 20: Coddingtown => Monte Rio","from":"Coddingtown","to":"Monte Rio","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#8e6d5e","route":"bus"},"n":52,"s":[[13440137872,46]]},
+  {"id":20067493,"t":{"ref":"20","name":"Sonoma County Transit 20: Monte Rio => Coddingtown","from":"Monte Rio","to":"Coddingtown","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#8e6d5e","route":"bus"},"n":58,"s":[[13440137872,4]]},
+  {"id":20067497,"t":{"ref":"20X","name":"Sonoma County Transit 20X: Downtown Santa Rosa => Monte Rio","from":"Downtown Santa Rosa","to":"Monte Rio","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#8e6d5e","route":"bus"},"n":43,"s":[[13440137872,40]]},
+  {"id":20067498,"t":{"ref":"20X","name":"Sonoma County Transit 20X: Monte Rio => Downtown Santa Rosa","from":"Monte Rio","to":"Downtown Santa Rosa","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#8e6d5e","route":"bus"},"n":41,"s":[[13440137872,4]]},
+  {"id":20107250,"t":{"ref":"28","name":"Sonoma County Transit 28: Guerneville => Occidental","from":"Guerneville (West County Services Center)","to":"Occidental","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#522f92","route":"bus"},"n":11,"s":[[13440137872,5]]},
+  {"id":20107251,"t":{"ref":"28","name":"Sonoma County Transit 28: Occidental => Occidental via Guerneville, Monte Rio","to":"Occidental","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#522f92","route":"bus"},"n":48,"s":[[13440137872,14,35],[301943812,23,29]]},
+  {"id":20107252,"t":{"ref":"28","name":"Sonoma County Transit 28: Occidental => Guerneville via Senior Center","from":"Occidental","to":"Guerneville (West County Services Center)","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#522f92","route":"bus"},"n":30,"s":[[13440137872,14],[301943812,23,28]]},
+  {"id":20107253,"t":{"ref":"28","name":"Sonoma County Transit 28: Guerneville => Occidental via Senior Center","from":"Guerneville (Safeway)","to":"Occidental","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#522f92","route":"bus"},"n":32,"s":[[5001374346689,6],[301943812,7,12],[13440137872,18]]},
+  {"id":20107254,"t":{"ref":"28","name":"Sonoma County Transit 28: Occidental => Guerneville via Duncans Mills","from":"Occidental","to":"Guerneville (Safeway)","network":"Sonoma County Transit","operator":"Sonoma County Transit","colour":"#522f92","route":"bus"},"n":18,"s":[[13440137872,14]]}
+]
+}

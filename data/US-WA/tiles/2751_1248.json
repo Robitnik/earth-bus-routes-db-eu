@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-WA",
+"tile":[2751,1248],
+"stops":[
+  {"id":6965056470,"lat":47.561569,"lon":-117.594443,"k":"p","n":"Four Lakes","ref":"2682"},
+  {"id":6965061990,"lat":47.562085,"lon":-117.594114,"k":"p","n":"SR 904 @ 1st (Four Lakes)","ref":"2779"},
+  {"id":6965064900,"lat":47.589829,"lon":-117.565236,"k":"p","n":"West Plains TC","ref":"4326"},
+  {"id":8174514521,"lat":47.59483,"lon":-117.568863,"k":"p","n":"Medical Lake Hwy @ Hayford Roundabout","ref":"4409"},
+  {"id":8174519020,"lat":47.59941,"lon":-117.550584,"k":"p","n":"Geiger @ Amazon","ref":"4343"},
+  {"id":8174519021,"lat":47.599401,"lon":-117.551051,"k":"p","n":"Geiger @ Amazon","ref":"4359"},
+  {"id":8174519022,"lat":47.594535,"lon":-117.563843,"k":"p","n":"Geiger @ Hayford","ref":"4342"},
+  {"id":8174519023,"lat":47.594723,"lon":-117.564867,"k":"p","n":"Geiger @ Hayford","ref":"4360"},
+  {"id":8174519024,"lat":47.594575,"lon":-117.568656,"k":"p","n":"Medical Lake Highway @ Hayford Roundabout","ref":"4410"},
+  {"id":12353395305,"lat":47.560853,"lon":-117.594537,"k":"p"},
+  {"id":12353395306,"lat":47.560659,"lon":-117.594268,"k":"p"}
+],
+"routes":[
+  {"id":11957902,"t":{"ref":"633","name":"Bus 633: Amazon Fulfillment Center => West Plains Transit Center","from":"Amazon Fulfillment Center","to":"West Plains Transit Center","network":"STA","operator":"Spokane Transit Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[8174519021,1],[8174519023,2],[6965064900,3]]},
+  {"id":11957903,"t":{"ref":"633","name":"Bus 633: West Plains Transit Center => Amazon Fulfillment Center","from":"West Plains Transit Center","to":"Amazon Fulfillment Center","network":"STA","operator":"Spokane Transit Authority","route":"bus","public_transport:version":"2"},"n":2,"s":[[6965064900,1],[8174519021,2]]},
+  {"id":12394533,"t":{"ref":"63","name":"Bus 63: West Plains Transit Center => Airport => Airway Heights Park & Ride","from":"West Plains Transit Center","to":"Airway Heights Park & Ride","network":"STA","operator":"Spokane Transit Authority","route":"bus","public_transport:version":"2"},"n":10,"s":[[6965064900,1]]},
+  {"id":12394670,"t":{"ref":"63","name":"Bus 63: Airway Heights Park & Ride => Airport => West Plains Transit Center","from":"Airway Heights Park & Ride","to":"West Plains Transit Center","network":"STA","operator":"Spokane Transit Authority","route":"bus","public_transport:version":"2"},"n":8,"s":[[6965064900,8]]},
+  {"id":12394743,"t":{"ref":"664","name":"Bus 664: South Hill P&R => Jefferson P&R => EWU","from":"South Hill P&R","to":"EWU","network":"STA","operator":"Spokane Transit Authority","route":"bus","public_transport:version":"2"},"n":11,"s":[[6965056470,2]]}
+]
+}

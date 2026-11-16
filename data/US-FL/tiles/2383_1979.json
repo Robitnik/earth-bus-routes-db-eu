@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-FL",
+"tile":[2383,1979],
+"stops":[
+  {"id":8593139253,"lat":29.176797,"lon":-81.004895,"k":"p"},
+  {"id":8593139254,"lat":29.181548,"lon":-81.007182,"k":"p"},
+  {"id":10886868205,"lat":29.187423,"lon":-81.048046,"k":"p","n":"Embry-Riddle SGA Shuttle Stop Onshore","ref":"Student Union"},
+  {"id":10886868206,"lat":29.187496,"lon":-81.048192,"k":"p","n":"Embry-Riddle SGA Shuttle Stop Chanute/Gemini","ref":"Student Union"},
+  {"id":10886868207,"lat":29.187493,"lon":-81.048257,"k":"p","n":"Embry-Riddle SGA Shuttle Stop Bellamy","ref":"Student Union"},
+  {"id":10886868208,"lat":29.18745,"lon":-81.048073,"k":"p","n":"Embry-Riddle SGA Shuttle Stop Eagle Landing 2","ref":"Student Union 2"},
+  {"id":10886868209,"lat":29.187482,"lon":-81.048126,"k":"p","n":"Embry-Riddle SGA Shuttle Stop Eagle Landing 1","ref":"Student Union 1"},
+  {"id":10903822607,"lat":29.182518,"lon":-81.043425,"k":"p"},
+  {"id":11819872732,"lat":29.182335,"lon":-81.037716,"k":"p","n":"Eagle Landing Embry-Riddle SGA Shuttle Stop","ref":"2"},
+  {"id":11820271346,"lat":29.184209,"lon":-81.041662,"k":"p","n":"Gemini Embry-Riddle SGA Shuttle Stop","ref":"Gemini"},
+  {"id":11820271347,"lat":29.16949,"lon":-81.040628,"k":"p","n":"Chanute Complex Eagle Landing SGA Shuttle Stop","ref":"Chanute Complex"}
+],
+"routes":[
+  {"id":17476162,"t":{"ref":"Eagle Landing 1","name":"Eagle Landing 1","from":"Embry-Riddle Student Union","to":"Eagle Landing Apartments","network":"Embry-Riddle SGA Shuttles","operator":"Embry-Riddle SGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[10886868209,1],[11819872732,2]]},
+  {"id":17476163,"t":{"ref":"Eagle Landing 2","name":"Eagle Landing 2","from":"Embry-Ridde Student Union","to":"Eagle Landing","network":"Embry-Riddle SGA Shuttles","operator":"Embry-Riddle SGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[10886868208,1],[11819872732,2]]},
+  {"id":17476164,"t":{"ref":"Chanute/Gemini","name":"Chanute/Gemini","from":"Embry-Riddle Student Union","to":"Chanute Complex","network":"Embry-Riddle SGA Shuttles","operator":"Embry-Riddle SGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[11820271346,1],[10886868206,2]]},
+  {"id":17476165,"t":{"ref":"Onshore","name":"Onshore","from":"Embry-Riddle Student Union","to":"Onshore","network":"Embry-Riddle SGA Shuttles","operator":"Embry-Riddle SGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[10886868205,2]]},
+  {"id":17476166,"t":{"ref":"Bellamy","name":"Bellamy","from":"Embry-Riddle Student Union","to":"Bellamy","network":"Embry-Riddle SGA Shuttles","operator":"Embry-Riddle SGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[10886868207,2]]}
+]
+}

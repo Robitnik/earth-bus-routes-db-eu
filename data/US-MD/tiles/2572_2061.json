@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2572,2061],
+"stops":[
+  {"id":2484391825,"lat":38.612537,"lon":-76.925309,"k":"p"},
+  {"id":2484391826,"lat":38.612832,"lon":-76.92503,"k":"p"},
+  {"id":6248422897,"lat":38.601154,"lon":-76.90216,"k":"p","n":"Smallwood Village Center","ref":"11751"},
+  {"id":6248422919,"lat":38.612994,"lon":-76.92464,"k":"p","n":"US 301 Park & Ride & Smallwood Drive","ref":"11690"},
+  {"id":6248422923,"lat":38.610996,"lon":-76.930986,"k":"p","n":"Saint Charles Town Plaza (Jo-ann's)","ref":"11681"},
+  {"id":6248422938,"lat":38.609614,"lon":-76.923611,"k":"p","n":"Waldorf Park & Ride (Old Washington Road & Smallwood Drive)","ref":"13762"},
+  {"id":6543147472,"lat":38.617621,"lon":-76.928948,"k":"p","n":"St Charles Mall & JC Penney","ref":"11749"},
+  {"id":6543156701,"lat":38.608242,"lon":-76.923284,"k":"p","n":"Waldorf Park & Ride (Old Washington Rd. & Smallwood Dr.)","ref":"13762"},
+  {"id":6543156713,"lat":38.613414,"lon":-76.925135,"k":"p"}
+],
+"routes":[
+  {"id":9683167,"t":{"ref":"640","name":"Commuter Bus 640: Waldorf/Accokeek","from":"Washington","to":"Waldorf","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[6248422897,2]]},
+  {"id":9683168,"t":{"ref":"640","name":"Commuter Bus 640: Washington, D.C.","from":"Waldorf","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[6248422897,2]]},
+  {"id":9683172,"t":{"ref":"620","name":"Commuter Bus 620: Waldorf via L'Enfant","from":"Washington","to":"Waldorf","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[6543147472,1],[6543156701,2],[6248422897,3]]}
+]
+}

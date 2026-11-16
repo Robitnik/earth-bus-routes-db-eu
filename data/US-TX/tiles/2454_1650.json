@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2454,1650],
+"stops":[
+  {"id":10759377295,"lat":32.735909,"lon":-97.466091,"k":"p","n":"Calmont & Las Vegas"},
+  {"id":10759377296,"lat":32.735728,"lon":-97.466052,"k":"p","n":"Calmont & Las Vegas"},
+  {"id":10759377297,"lat":32.735539,"lon":-97.468162,"k":"p","n":"Calmont & Wrangler"},
+  {"id":10759951145,"lat":32.727185,"lon":-97.478293,"k":"p","n":"W Normandale & Bridge Hill"},
+  {"id":10776213891,"lat":32.737175,"lon":-97.463461,"k":"p","n":"Laredo & West Fwy"}
+],
+"routes":[
+  {"id":15638126,"t":{"ref":"61X","name":"Bus 61X: Normandale -> Downtown","from":"Calmont & Las Vegas","to":"Houston & 11th","network":"Trinity Metro","operator":"Trinity Metro","colour":"#822522","route":"bus","public_transport:version":"2"},"n":9,"s":[[10759377297,1],[10759377296,2]]},
+  {"id":15638127,"t":{"ref":"61X","name":"Bus 61X: Downtown -> Normandale","from":"Fort Worth Central Station","to":"Calmont & Wrangler","network":"Trinity Metro","operator":"Trinity Metro","colour":"#822522","route":"bus","public_transport:version":"2"},"n":11,"s":[[10759377295,9],[10759377297,10],[10759377296,11]]},
+  {"id":15639011,"t":{"ref":"91","name":"Bus 91: North Side Station -> Normandale","from":"North Side Station","to":"W Normandale & Bridge Hill","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":4,"s":[[10759951145,4]]},
+  {"id":15639012,"t":{"ref":"91","name":"Bus 91: Normandale -> Ridgmar Mall -> North Side Station","from":"W Normandale & Bridge Hill","to":"North Side Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":5,"s":[[10759951145,1]]},
+  {"id":15667287,"t":{"ref":"2","name":"Bus 2: Downtown -> Las Vegas","from":"Fort Worth Central Station","to":"Laredo & West Fwy","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":19,"s":[[10776213891,19]]},
+  {"id":15667288,"t":{"ref":"2","name":"Bus 2: Las Vegas -> Downtown","from":"Laredo & West Fwy","to":"Fort Worth Central Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":16,"s":[[10776213891,1]]}
+]
+}

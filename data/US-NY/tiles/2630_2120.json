@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2630,2120],
+"stops":[
+  {"id":3210092518,"lat":41.503741,"lon":-73.968501,"k":"p","n":"Main Street & Veteran's Place"},
+  {"id":3210092519,"lat":41.504219,"lon":-73.96847,"k":"p","n":"Beacon Post Office","ref":"40"},
+  {"id":3210092520,"lat":41.508359,"lon":-73.977385,"k":"p","n":"Route 9D & Main Street","ref":"72"},
+  {"id":3216993102,"lat":41.512688,"lon":-73.976562,"k":"x","n":"Verplank Avenue & Route 9D"},
+  {"id":3217281655,"lat":41.524823,"lon":-73.962984,"k":"p","n":"Intermodal Center"},
+  {"id":3217283769,"lat":41.506042,"lon":-73.984437,"k":"p","n":"Beacon Train Station"},
+  {"id":5262938117,"lat":41.500873,"lon":-73.976251,"k":"p"},
+  {"id":5262938118,"lat":41.502536,"lon":-73.965734,"k":"p"},
+  {"id":5262941721,"lat":41.500606,"lon":-73.974923,"k":"p"},
+  {"id":5262942008,"lat":41.504064,"lon":-73.968318,"k":"p"}
+],
+"routes":[
+  {"id":4234400,"t":{"ref":"B","name":"B: Poughkeepie => Beacon","network":"Dutchess County LOOP Bus System","operator":"Dutchess County Department of Mass Transit","colour":"blue","route":"bus"},"n":9,"s":[[3210092520,7],[3210092519,8],[3210092518,9]]},
+  {"id":4240647,"t":{"ref":"A","name":"A: Poughkeepsie => Beacon","network":"Dutchess County LOOP Bus System","operator":"Dutchess County Department of Mass Transit","route":"bus"},"n":13,"s":[[3210092519,2]]},
+  {"id":4246002,"t":{"ref":"41A","name":"Beacon RailLink 41A: Intermodal Center => Beacon Train Station","from":"Intermodal Center","to":"Beacon Train Station","route":"bus"},"n":4,"s":[[3216993102,1],[3217281655,2],[3217283769,3]]},
+  {"id":4307634,"t":{"ref":"41P","name":"Beacon Raillink 41P: Beacon Train Station => Intermodal Center","from":"Beacon Train Station","to":"Intermodal Center","route":"bus"},"n":4,"s":[[3217283769,1],[3216993102,3],[3217281655,4]]},
+  {"id":18054952,"t":{"name":"Beacon -> Storm King Art Center Shuttle","from":"Beacon Train Station","to":"Storm King Art Center","route":"bus"},"n":2,"s":[[3217283769,1]]},
+  {"id":18054953,"t":{"name":"Storm King Art Center -> Beacon Shuttle","from":"Storm King Art Center","to":"Beacon Train Station","route":"bus"},"n":2,"s":[[3217283769,2]]}
+]
+}

@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"US-LA",
+"tile":[2410,1777],
+"stops":[
+  {"id":2989704121,"lat":30.504048,"lon":-91.13252,"k":"s","n":"EKL Transfer Center","ref":"1004"},
+  {"id":11248971677,"lat":30.501476,"lon":-91.13042,"k":"p"},
+  {"id":11253748875,"lat":30.505378,"lon":-91.134075,"k":"p"},
+  {"id":11253748892,"lat":30.506677,"lon":-91.135956,"k":"p"},
+  {"id":11253748909,"lat":30.50875,"lon":-91.140786,"k":"p"},
+  {"id":11253748917,"lat":30.509183,"lon":-91.142814,"k":"p"},
+  {"id":11253748925,"lat":30.509547,"lon":-91.146,"k":"p"},
+  {"id":11265334959,"lat":30.509093,"lon":-91.143985,"k":"p"},
+  {"id":11265334963,"lat":30.508483,"lon":-91.140831,"k":"p"},
+  {"id":11840225574,"lat":30.525583,"lon":-91.12666,"k":"p","n":"Mickens Rd @ Hooper Rd","ref":"3083"},
+  {"id":11840225575,"lat":30.54485,"lon":-91.148761,"k":"p","n":"Blount Rd @ Leo's Mobile Homes","ref":"2964"},
+  {"id":11840225580,"lat":30.544711,"lon":-91.148816,"k":"p","n":"Blount Rd @ Leo's Mobile Homes","ref":"2873"},
+  {"id":11840225581,"lat":30.525608,"lon":-91.126862,"k":"p","n":"Hooper Rd @ Mickens Rd","ref":"3084"},
+  {"id":11840225583,"lat":30.505746,"lon":-91.135531,"k":"p","n":"McClelland Dr @ Airline Hwy","ref":"1939"},
+  {"id":11845850401,"lat":30.521546,"lon":-91.147846,"k":"p"},
+  {"id":11846040991,"lat":30.52159,"lon":-91.146425,"k":"p"},
+  {"id":11846041018,"lat":30.521672,"lon":-91.143996,"k":"p"},
+  {"id":11846041055,"lat":30.521707,"lon":-91.142654,"k":"p"},
+  {"id":11918220127,"lat":30.525183,"lon":-91.136616,"k":"p"},
+  {"id":11918220131,"lat":30.525583,"lon":-91.134238,"k":"p"},
+  {"id":11918220145,"lat":30.526006,"lon":-91.130526,"k":"p"}
+],
+"routes":[
+  {"id":17488424,"t":{"ref":"11","name":"Bus 11: Northside Circulator","from":"Ave K @ Mills Ave","to":"EKL Transfer Center","network":"CATS","operator":"Capital Area Transit System","colour":"#CC8866","route":"bus","public_transport:version":"2"},"n":3,"s":[[2989704121,3]]},
+  {"id":17488425,"t":{"ref":"11","name":"Bus 11: Northside Circulator","from":"EKL Transfer Center","to":"Ave K @ Mills Ave","network":"CATS","operator":"Capital Area Transit System","colour":"#CC8866","route":"bus","public_transport:version":"2"},"n":3,"s":[[2989704121,1]]},
+  {"id":17505455,"t":{"ref":"15","name":"Bus 15: Blount Rd","from":"EKL Transfer Center","to":"Ave K @ Crestview Ave","network":"CATS","operator":"Capital Area Transit System","colour":"#7C8301","route":"bus","public_transport:version":"2"},"n":4,"s":[[2989704121,1],[11840225574,2],[11840225575,3]]},
+  {"id":17505456,"t":{"ref":"15","name":"Bus 15: Blount Rd","from":"Ave K @ Crestview Ave","to":"EKL Transfer Center","network":"CATS","operator":"Capital Area Transit System","colour":"#7C8301","route":"bus","public_transport:version":"2"},"n":3,"s":[[11840225580,1],[11840225581,2],[2989704121,3]]},
+  {"id":17505457,"t":{"ref":"54","name":"Bus 54: Airline Hwy","from":"Scotlandville Transfer Center","to":"Cortana Transit Center","network":"CATS","operator":"Capital Area Transit System","colour":"#B6A368","route":"bus","public_transport:version":"2"},"n":5,"s":[[11840225583,3]]},
+  {"id":18501753,"t":{"ref":"20","name":"Bus 20: N. Acadian Thwy","from":"EKL Transfer Center","to":"CATS Terminal","network":"CATS","operator":"Capital Area Transit System","colour":"#12796B","route":"bus","public_transport:version":"2"},"n":3,"s":[[2989704121,1]]},
+  {"id":18501754,"t":{"ref":"20","name":"Bus 20: N. Acadian Thwy","from":"CATS Terminal","to":"EKL Transit Center","network":"CATS","operator":"Capital Area Transit System","colour":"#12796B","route":"bus","public_transport:version":"2"},"n":4,"s":[[2989704121,4]]},
+  {"id":18501756,"t":{"ref":"21","name":"Bus 21: Farfields Ave","from":"CATS Terminal","to":"Cortana Transit Center","network":"CATS","operator":"Capital Area Transit System","colour":"#884445","route":"bus"},"n":4,"s":[[2989704121,4]]}
+]
+}

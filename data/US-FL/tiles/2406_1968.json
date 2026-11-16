@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"US-FL",
+"tile":[2406,1968],
+"stops":[
+  {"id":6397609223,"lat":30.3219,"lon":-81.552434,"k":"x","n":"Regency Square"},
+  {"id":6414598605,"lat":30.32782,"lon":-81.584495,"k":"p","n":"Arlington Road"},
+  {"id":6414598606,"lat":30.327751,"lon":-81.584131,"k":"x","n":"Arlington Road"},
+  {"id":6422089986,"lat":30.327667,"lon":-81.584121,"k":"p","n":"Arlington Road"},
+  {"id":6422089988,"lat":30.321779,"lon":-81.552438,"k":"p","n":"Regency Square"},
+  {"id":9437910780,"lat":30.327114,"lon":-81.597138,"k":"p","n":"Arlington Expressway & Cesery Road"},
+  {"id":9437910781,"lat":30.327211,"lon":-81.588747,"k":"p","n":"Arlington Expressway & Larking Road"},
+  {"id":14066012276,"lat":30.327748,"lon":-81.584493,"k":"x","n":"Arlington Road"}
+],
+"routes":[
+  {"id":9475253,"t":{"ref":"10","name":"JTA 10 Atlantic/Downtown","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[6414598605,1]]},
+  {"id":9475463,"t":{"ref":"23","name":"JTA 23 Townsend/Southside (southbound)","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[6414598605,3]]},
+  {"id":9475464,"t":{"ref":"23","name":"JTA 23 Townsend/Southside (northbound)","network":"JTA","operator":"Jacksonville Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[6422089986,3]]},
+  {"id":9477475,"t":{"ref":"Red","name":"JTA 109 First Coast Flyer Red Line (westbound)","from":"Beaches","to":"Downtown","network":"JTA","operator":"Jacksonville Transportation Authority","colour":"#cb333b","route":"bus","public_transport:version":"2"},"n":17,"s":[[6422089988,10],[6414598605,11]]},
+  {"id":9477476,"t":{"ref":"Red","name":"JTA 109 First Coast Flyer Red Line (eastbound)","from":"Downtown","to":"Beaches","network":"JTA","operator":"Jacksonville Transportation Authority","colour":"#cb333b","route":"bus","public_transport:version":"2"},"n":19,"s":[[9437910780,6],[9437910781,7],[6422089988,8]]}
+]
+}

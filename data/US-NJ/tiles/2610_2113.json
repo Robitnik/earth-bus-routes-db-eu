@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"US-NJ",
+"tile":[2610,2113],
+"stops":[
+  {"id":2165269765,"lat":40.537115,"lon":-74.317436,"k":"p","n":"Ford Avenue at Main Street"},
+  {"id":2165269766,"lat":40.537637,"lon":-74.317291,"k":"p","n":"Ford Avenue at Main Street"},
+  {"id":2822531587,"lat":40.5467,"lon":-74.336762,"k":"p","n":"Menlo Park Mall"},
+  {"id":3239272195,"lat":40.536546,"lon":-74.347565,"k":"p","n":"Amboy Avenue at Pierson Avenue"},
+  {"id":3545090008,"lat":40.548236,"lon":-74.320502,"k":"p","n":"Ford Avenue at Webb Drive"},
+  {"id":3545090016,"lat":40.545801,"lon":-74.33199,"k":"p","n":"Parsonage Road at Lafayette Avenue"},
+  {"id":3782791727,"lat":40.545945,"lon":-74.33171,"k":"p","n":"Parsonage Road at Lafayette Avenue"},
+  {"id":3782791728,"lat":40.548275,"lon":-74.320351,"k":"p","n":"Ford Avenue at Webb Drive"},
+  {"id":3783622042,"lat":40.536695,"lon":-74.347537,"k":"p","n":"Amboy Avenue at Pierson Avenue"},
+  {"id":3826985825,"lat":40.510386,"lon":-74.345144,"k":"p","n":"Fieldcrest Avenue at Northfield Avenue"},
+  {"id":3826985827,"lat":40.528472,"lon":-74.313891,"k":"p","n":"New Brunswick Avenue at Corrielle Street"},
+  {"id":3826985828,"lat":40.520094,"lon":-74.338565,"k":"p","n":"Raritan Center Parkway at McGaw Drive"},
+  {"id":3830154659,"lat":40.528349,"lon":-74.313922,"k":"p","n":"New Brunswick Avenue at Corrielle Street"}
+],
+"routes":[
+  {"id":3691515,"t":{"ref":"810","name":"NJTB - 810 - Rutgers University to Woodbridge Center","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":14,"s":[[3239272195,10],[2822531587,11],[3545090016,12],[2165269765,13]]},
+  {"id":4734928,"t":{"ref":"805","name":"NJTB - 805 - Metropark to Fords","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":4,"s":[[3545090016,1],[3545090008,2],[2165269765,3]]},
+  {"id":5574352,"t":{"ref":"810","name":"NJTB - 810 - Woodbridge Center to Rutgers University","network":"NJ Transit","operator":"New Jersey Transit","route":"bus","public_transport:version":"2"},"n":14,"s":[[2165269766,2],[3545090016,3],[2822531587,4],[3783622042,5]]},
+  {"id":5578272,"t":{"ref":"805","name":"NJTB - 805 - Fords to Metropark","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":4,"s":[[2165269766,1],[3782791728,2],[3782791727,3]]},
+  {"id":5651467,"t":{"ref":"813","name":"NJTB - 813 - Perth Amboy to Middlesex County College","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[3826985827,2],[3826985825,5],[3826985828,6]]},
+  {"id":5654889,"t":{"ref":"813","name":"NJTB - 813 - Middlesex County College to Perth Amboy","network":"NJ Transit","route":"bus","public_transport:version":"2"},"n":7,"s":[[3826985825,4],[3826985828,5],[3830154659,6]]}
+]
+}

@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2575,1175],
+"stops":[
+  {"id":1689118701,"lat":38.788669,"lon":-121.215857,"k":"p","n":"Rocklin Rd past El Don","ref":"53320"},
+  {"id":1689118702,"lat":38.789504,"lon":-121.21298,"k":"p"},
+  {"id":3071483479,"lat":38.799765,"lon":-121.203748,"k":"p"},
+  {"id":3357134554,"lat":38.788406,"lon":-121.214115,"k":"p","n":"Rocklin Rd at EL Don","ref":"53319"},
+  {"id":11285783455,"lat":38.765165,"lon":-121.249124,"k":"p","n":"Sutter Medical Center","ref":"53065"},
+  {"id":11542412552,"lat":38.788438,"lon":-121.214118,"k":"p","ref":"1005"},
+  {"id":11542412553,"lat":38.788637,"lon":-121.215854,"k":"p","ref":"1002"},
+  {"id":11911614785,"lat":38.790907,"lon":-121.23739,"k":"p","n":"Rocklin, California- (RLN)","ref":"RLN"}
+],
+"routes":[
+  {"id":16528444,"t":{"ref":"A","name":"A Local","from":"Louis Orlado Transit Center","to":"Louis Orlando Transit Center","network":"Roseville Local","operator":"Roseville Transit","colour":"#f4942a","route":"bus"},"n":20,"s":[[11285783455,12]]},
+  {"id":16528445,"t":{"ref":"B","name":"B Local","from":"Downtown Roseville","to":"Downtown Roseville","network":"Roseville Local","operator":"Roseville transit","colour":"#0063aa","route":"bus"},"n":21,"s":[[11285783455,15]]},
+  {"id":16528449,"t":{"ref":"E","name":"E Local","network":"Roseville Local","operator":"Roseville Transit","colour":"#23abae","route":"bus"},"n":4,"s":[[1689118701,1],[3357134554,2]]},
+  {"id":16529011,"t":{"ref":"10","name":"10 Auburn to Light Rail","network":"Placer County Fixed","operator":"Placer County Transit","colour":"#9f3af8","route":"bus"},"n":4,"s":[[11542412552,2],[11542412553,3]]},
+  {"id":16529012,"t":{"ref":"20","name":"20 Lincoln/Sierra College","network":"Placer County Fixed","operator":"Placer County Transit","colour":"#247d1e","route":"bus"},"n":2,"s":[[11542412553,1]]},
+  {"id":16533456,"t":{"ref":"50","name":"50 Taylor Rd Shuttle","network":"Placefr County Fixed","operator":"Placer County Transit","colour":"#1d9cdc","route":"bus"},"n":2,"s":[[11542412552,1],[11542412553,2]]},
+  {"id":17603669,"t":{"ref":"20","name":"Sacramento - Roseville - Colfax - Reno","from":"Sacramento","to":"Sparks","network":"Amtrak Thruway","operator":"San Joaquin Joint Powers Authority","route":"bus","public_transport:version":"1"},"n":6,"s":[[11911614785,3]]}
+]
+}

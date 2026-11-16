@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-MA",
+"tile":[2648,2148],
+"stops":[
+  {"id":1408372721,"lat":42.446441,"lon":-72.554631,"k":"p","n":"Bull Hill Road","ref":"13"},
+  {"id":1408378495,"lat":42.442123,"lon":-72.551482,"k":"p","n":"Laurenitis Farm Stand","ref":"15"},
+  {"id":1408378496,"lat":42.442196,"lon":-72.551306,"k":"p","n":"Laurenitis Farm Stand","ref":"14"}
+],
+"routes":[
+  {"id":9233360,"t":{"ref":"46","name":"Bus 46: Whately P&R => UMass","from":"Whately Park & Ride","to":"UMass","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#0b9660","route":"bus","public_transport:version":"2"},"n":14,"s":[[1408378495,5]]},
+  {"id":18859070,"t":{"ref":"31","name":"Bus 31: South Amherst => Sunderland","from":"South Amherst","to":"Sunderland","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":24,"s":[[1408378496,19],[1408372721,20]]},
+  {"id":18859071,"t":{"ref":"31","name":"Bus 31: Sunderland => South Amherst","from":"Sunderland","to":"South Amherst","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":23,"s":[[1408378495,6]]},
+  {"id":18859120,"t":{"ref":"31","name":"Bus 31: Hampshire Mall => South Amherst => Sunderland","from":"Hampshire Mall","to":"Sunderland","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":26,"s":[[1408378496,21],[1408372721,22]]},
+  {"id":18859121,"t":{"ref":"31","name":"Bus 31: Sunderland => South Amherst => Hampshire Mall","from":"Sunderland","to":"Hampshire Mall","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":25,"s":[[1408378495,6]]},
+  {"id":19505918,"t":{"ref":"46","name":"Bus 46: UMass => Whately P&R","from":"UMass","to":"Whately Park & Ride","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#0b9660","route":"bus","public_transport:version":"2"},"n":17,"s":[[1408378496,10],[1408372721,11]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"US-OR",
+"tile":[2710,1137],
+"stops":[
+  {"id":7371242387,"lat":45.519737,"lon":-123.114269,"k":"p","n":"Pacific Avenue & A Street"},
+  {"id":7371242431,"lat":45.519707,"lon":-123.106441,"k":"p","n":"Pacific Avenue & Cedar Street"},
+  {"id":7371242447,"lat":45.518534,"lon":-123.115448,"k":"p","n":"19th & B Street"},
+  {"id":7371242483,"lat":45.518285,"lon":-123.108887,"k":"p","n":"19th & Birch"},
+  {"id":7371242487,"lat":45.518281,"lon":-123.103288,"k":"p","n":"19th & Elm Street"},
+  {"id":7371242499,"lat":45.519721,"lon":-123.1109,"k":"p","n":"Pacific Avenue & College Way/Council Street"},
+  {"id":7371242537,"lat":45.519675,"lon":-123.102784,"k":"p","n":"Pacific Avenue & Elm Street"},
+  {"id":7371242595,"lat":45.518317,"lon":-123.111682,"k":"p","n":"19th & Main Street"},
+  {"id":7371242599,"lat":45.518285,"lon":-123.106743,"k":"p","n":"19th & Cedar Street"},
+  {"id":10157808467,"lat":45.523071,"lon":-123.111752,"k":"p","n":"Main & University"},
+  {"id":10157808468,"lat":45.52045,"lon":-123.104338,"k":"p","n":"Forest Grove Senior Center"},
+  {"id":13809628760,"lat":45.522959,"lon":-123.112,"k":"p","n":"University & Main"},
+  {"id":13809628761,"lat":45.529452,"lon":-123.11186,"k":"p","n":"Lincoln Park"},
+  {"id":13809628762,"lat":45.535395,"lon":-123.111436,"k":"p","n":"Main & Beal"},
+  {"id":13809628763,"lat":45.533841,"lon":-123.120755,"k":"p","n":"FG High School"},
+  {"id":13809628764,"lat":45.538989,"lon":-123.124084,"k":"p","n":"Brooke & David Hill"},
+  {"id":13809628765,"lat":45.530275,"lon":-123.126049,"k":"p","n":"Thatcher & Gales Creek"},
+  {"id":13809628766,"lat":45.533032,"lon":-123.143769,"k":"p","n":"Watercrest & Forest Gale"},
+  {"id":13809628767,"lat":45.529608,"lon":-123.142365,"k":"p","n":"Forest Gale & Gales Creek"},
+  {"id":13809628768,"lat":45.527463,"lon":-123.133723,"k":"p","n":"Willamina & Strasburg"},
+  {"id":13809628769,"lat":45.518373,"lon":-123.115995,"k":"p","n":"19th & B"},
+  {"id":13809628770,"lat":45.527343,"lon":-123.103938,"k":"p","n":"26th & Williams"},
+  {"id":13809628773,"lat":45.515812,"lon":-123.105138,"k":"p","n":"Rogers Park"},
+  {"id":13809628774,"lat":45.519902,"lon":-123.106561,"k":"p","n":"Cedar & Pacific"},
+  {"id":13809628777,"lat":45.520165,"lon":-123.103909,"k":"p","n":"FG Senior & Com. Center"}
+],
+"routes":[
+  {"id":4244273,"t":{"ref":"57","name":"Bus 57: Beaverton Transit Center => Forest Grove","from":"Beaverton Transit Center","to":"Forest Grove","network":"TriMet","operator":"TriMet","route":"bus","public_transport:version":"2"},"n":73,"s":[[7371242537,69],[7371242431,70],[7371242499,71],[7371242387,72],[7371242447,73]]},
+  {"id":4244274,"t":{"ref":"57","name":"Bus 57: Forest Grove => Beaverton Transit Center","from":"Forest Grove","to":"Beaverton Transit Center","network":"TriMet","operator":"TriMet","route":"bus","public_transport:version":"2"},"n":69,"s":[[7371242487,13],[7371242599,14],[7371242595,32],[7371242447,38],[7371242483,44]]},
+  {"id":14769516,"t":{"ref":"WestLink","name":"Bus WestLink: Hillsboro => Forest Grove","from":"Hillsboro","to":"Forest Grove","network":"Ride Connection","operator":"Ride Connection","route":"bus","public_transport:version":"2"},"n":8,"s":[[10157808467,6],[7371242599,7],[10157808468,8]]},
+  {"id":20663071,"t":{"ref":"West Loop","name":"West Loop","network":"Grove Link","operator":"Ride Connection","route":"bus"},"n":10,"s":[[13809628760,1],[13809628761,2],[13809628762,3],[13809628763,4],[13809628764,5],[13809628765,6],[13809628766,7],[13809628767,8],[13809628768,9],[13809628769,10]]},
+  {"id":20663072,"t":{"ref":"East Loop","name":"East Loop","network":"Grove Link","operator":"Ride Connection","route":"bus"},"n":7,"s":[[10157808467,1],[13809628761,2],[13809628770,3],[13809628773,6],[13809628774,7]]},
+  {"id":20663073,"t":{"ref":"Employment Loop","name":"Employment Loop","network":"Grove Link","operator":"Ride Connection","route":"bus"},"n":6,"s":[[13809628777,4]]}
+]
+}

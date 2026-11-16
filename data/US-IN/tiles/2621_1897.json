@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"US-IN",
+"tile":[2621,1897],
+"stops":[
+  {"id":667420623,"lat":41.082983,"lon":-85.135868,"k":"p"},
+  {"id":1032630420,"lat":41.072254,"lon":-85.139011,"k":"s","n":"Citilink"},
+  {"id":5164294404,"lat":41.085202,"lon":-85.145657,"k":"p"},
+  {"id":5166575971,"lat":41.098223,"lon":-85.146899,"k":"x"},
+  {"id":5166575972,"lat":41.097244,"lon":-85.146705,"k":"x"},
+  {"id":5166575973,"lat":41.090459,"lon":-85.145713,"k":"x"},
+  {"id":5166575974,"lat":41.089172,"lon":-85.145674,"k":"x"},
+  {"id":5166575975,"lat":41.085206,"lon":-85.145586,"k":"x"},
+  {"id":5166576006,"lat":41.098205,"lon":-85.146969,"k":"p"},
+  {"id":5166576007,"lat":41.097228,"lon":-85.146819,"k":"p"},
+  {"id":5166576008,"lat":41.090447,"lon":-85.145785,"k":"p"},
+  {"id":5166576009,"lat":41.089154,"lon":-85.145747,"k":"p"},
+  {"id":9339398259,"lat":41.072254,"lon":-85.138856,"k":"p","n":"Citilink Central Station (Fort Wayne, IN)","ref":"260271"}
+],
+"routes":[
+  {"id":7650531,"t":{"ref":"4","network":"Citilink","route":"bus","public_transport:version":"2"},"n":5,"s":[[5164294404,1],[5166576009,2],[5166576008,3],[5166576007,4],[5166576006,5]]},
+  {"id":16214210,"t":{"ref":"0023","name":"Bus 0023: Columbus, OH => Chicago, IL","from":"Columbus, OH","to":"Chicago, IL","network":"Greyhound","operator":"Baron's Bus","route":"bus","public_transport:version":"2"},"n":10,"s":[[9339398259,5]]},
+  {"id":16214630,"t":{"ref":"0024","name":"Bus 0024: Chicago, IL => Columbus, OH","from":"Chicago, IL","to":"Columbus, OH","network":"Greyhound","operator":"Baron's Bus","route":"bus","public_transport:version":"2"},"n":9,"s":[[9339398259,5]]},
+  {"id":16214739,"t":{"ref":"0021","name":"Bus 0021: Columbus, IN => Chicago, IL","from":"Columbus, OH","to":"Chicago, IL","network":"Greyhound","operator":"Baron's Bus","route":"bus","public_transport:version":"2"},"n":7,"s":[[9339398259,1]]}
+]
+}

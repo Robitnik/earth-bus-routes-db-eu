@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2532,1210],
+"stops":[
+  {"id":9521528633,"lat":36.607966,"lon":-119.451007,"k":"p","n":"Adventist Health Reedley"},
+  {"id":9521550155,"lat":36.608085,"lon":-119.458646,"k":"p","n":"Reedley College"},
+  {"id":10572100137,"lat":36.605727,"lon":-119.4585,"k":"p","n":"Reedley College","ref":"29375"},
+  {"id":11029781468,"lat":36.604073,"lon":-119.458179,"k":"p","n":"McDonald's"}
+],
+"routes":[
+  {"id":13829291,"t":{"ref":"DC","name":"Dinuba Connection","from":"Dinuba Transit Center","to":"Reedley College","network":"Tulare County Regional Transit Agency","operator":"Tulare County Regional Transit Agency","route":"bus"},"n":3,"s":[[9521528633,2],[9521550155,3]]},
+  {"id":15343614,"t":{"ref":"Kingsburg","name":"Kingsburg-Reedley Inter-City Transit","from":"Coffee Pot Park","to":"Reedley College","network":"Fresno County Rural Transit Agency","route":"bus"},"n":8,"s":[[10572100137,8]]},
+  {"id":15594035,"t":{"ref":"Sanger","name":"Sanger Express","from":"Sanger Community Center","to":"Reedley College","network":"Fresno County Rural Transit Agency","route":"bus"},"n":2,"s":[[10572100137,1]]},
+  {"id":16061244,"t":{"ref":"Orange Cove","name":"Orange Cove","from":"Orange Cove","to":"Fresno Amtrak","network":"Fresno County Rural Transit Agency","operator":"Fresno County Rural Transit Agency","route":"bus","public_transport:version":"1"},"n":26,"s":[[10572100137,7],[11029781468,9]]},
+  {"id":16064664,"t":{"ref":"OrangeX","name":"Orange Cove Express","from":"Orange Cove","to":"Fresno Courthouse Park","network":"Fresno County Rural Transit Agency","route":"bus"},"n":9,"s":[[10572100137,3]]}
+]
+}

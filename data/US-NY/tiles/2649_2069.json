@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2649,2069],
+"stops":[
+  {"id":10906838638,"lat":42.452904,"lon":-76.505994,"k":"p","n":"TCAT Garage","ref":"998"},
+  {"id":10906838639,"lat":42.452939,"lon":-76.505852,"k":"p","n":"TCAT Garage","ref":"997"},
+  {"id":10906838640,"lat":42.462933,"lon":-76.500713,"k":"p","n":"Stewart Park Entrance","ref":"1143"},
+  {"id":10908414679,"lat":42.451288,"lon":-76.502819,"k":"p","n":"Lincoln @ Dey"},
+  {"id":10908414680,"lat":42.451198,"lon":-76.50317,"k":"p","n":"Dey @ Lincoln"},
+  {"id":10913387205,"lat":42.467182,"lon":-76.536961,"k":"p","n":"Museum of the Earth"},
+  {"id":10913387206,"lat":42.468874,"lon":-76.538068,"k":"p","n":"Cayuga Medical Center"},
+  {"id":10913387207,"lat":42.467965,"lon":-76.541362,"k":"p","n":"Professional Building"},
+  {"id":10913387208,"lat":42.465802,"lon":-76.540745,"k":"p","n":"Overlook Apts"},
+  {"id":10913387209,"lat":42.464408,"lon":-76.541002,"k":"p","n":"Cayuga Meadows"},
+  {"id":10913387210,"lat":42.462381,"lon":-76.53283,"k":"p","n":"Route 96 @ Cayuga Ridge (Eastbound)"},
+  {"id":10913387211,"lat":42.462504,"lon":-76.532696,"k":"p","n":"Route 96 @ Cayuga Ridge (Westbound)"},
+  {"id":10913387212,"lat":42.46059,"lon":-76.529842,"k":"p","n":"Route 96 @ Bundy Road"},
+  {"id":10913387213,"lat":42.459979,"lon":-76.528594,"k":"p","n":"Route 96 @ Candlewyck"},
+  {"id":10913387214,"lat":42.4565,"lon":-76.524633,"k":"p","n":"Campbell @ Hopkins (Southbound)"},
+  {"id":10913387215,"lat":42.456547,"lon":-76.524523,"k":"p","n":"Campbell @ Hopkins (Northbound)"},
+  {"id":10913387216,"lat":42.452557,"lon":-76.523233,"k":"p","n":"Champbell @ Hector (Northbound)"},
+  {"id":10913387217,"lat":42.452525,"lon":-76.523466,"k":"p","n":"Champbell @ Hector (Southbound)"},
+  {"id":10913387219,"lat":42.451112,"lon":-76.532254,"k":"p","n":"Conifer Village"}
+],
+"routes":[
+  {"id":5143900,"t":{"ref":"14","name":"TCAT 14 Outbound -> Hospital Express","from":"Green Street Station - Ithaca Commons","to":"Cayuga Medical Center","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":10,"s":[[10913387213,7],[10913387211,8],[10913387207,9],[10913387206,10]]},
+  {"id":5144001,"t":{"ref":"17","name":"TCAT 17 Inbound -> Downtown","to":"Green Street Station - Ithaca Commons","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":8,"s":[[10906838638,1],[10908414680,2]]},
+  {"id":15868351,"t":{"ref":"13-3","name":"TCAT 13 Outbound -> Ithaca Mall","from":"TCAT Garage","to":"Ithaca Mall","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus"},"n":14,"s":[[10906838638,1]]},
+  {"id":15868353,"t":{"ref":"13-2","name":"TCAT 13 Outbound -> Ithaca Mall","from":"Seneca Street Station - Ithaca Commons","to":"Ithaca Mall","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":16,"s":[[10906838640,13]]},
+  {"id":15868354,"t":{"ref":"13-1","name":"TCAT 13 Inbound -> Downtown","from":"TCAT Garage","to":"Green Street Station - Ithaca Commons","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":14,"s":[[10906838638,1]]},
+  {"id":15868355,"t":{"ref":"13-1","name":"TCAT 13 Outbound -> Stewart Park","from":"Seneca Street Station - Ithaca Commons","to":"Stewart Park","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":11,"s":[[10906838640,11]]},
+  {"id":15868356,"t":{"ref":"13-Main","name":"TCAT 13 Inbound -> Downtown","from":"TCAT Garage","to":"Green Street Station - Ithaca Commons","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":18,"s":[[10906838638,1]]},
+  {"id":15868357,"t":{"ref":"13-Main","name":"TCAT 13 Outbound -> TCAT Garage","from":"Green Street Station - Ithaca Commons","to":"TCAT Garage","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":20,"s":[[10906838640,19],[10906838639,20]]},
+  {"id":15870678,"t":{"ref":"17","name":"TCAT 17 Inbound -> Vet School via Downtown","to":"Vet School","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":14,"s":[[10906838638,1],[10908414680,2]]},
+  {"id":15870679,"t":{"ref":"17","name":"TCAT 17 Outbound -> TCAT Garage","from":"Seneca Street Station - Ithaca Commons","to":"TCAT Garage","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus"},"n":7,"s":[[10908414679,6],[10906838639,7]]},
+  {"id":15879568,"t":{"ref":"14","name":"TCAT 14 Inbound -> Downtown Express","from":"Cayuga Medical Center","to":"Green Street Station - Ithaca Commons","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":11,"s":[[10913387206,1],[10913387208,2],[10913387209,3],[10913387210,4],[10913387212,5]]},
+  {"id":15879569,"t":{"ref":"14","name":"TCAT 14 Outbound -> Hospital via West Hill","from":"Green Street Station - Ithaca Commons","to":"Cayuga Medical Center","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":25,"s":[[10913387219,18],[10913387216,20],[10913387215,21],[10913387213,22],[10913387211,23],[10913387207,24],[10913387206,25]]},
+  {"id":15879570,"t":{"ref":"14","name":"TCAT 14 Inbound -> Downtown via West Hill","from":"Cayuga Medical Center","to":"Seneca Street Station - Ithaca Commons","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":19,"s":[[10913387206,1],[10913387208,2],[10913387209,3],[10913387210,4],[10913387212,5],[10913387214,6]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2412,1670],
+"stops":[
+  {"id":9461821098,"lat":30.642065,"lon":-96.467422,"k":"p","n":"Blinn College","ref":"4724"},
+  {"id":9461821099,"lat":30.647506,"lon":-96.473891,"k":"p","n":"CIR","ref":"4802"},
+  {"id":9461821100,"lat":30.644469,"lon":-96.474127,"k":"p","n":"Energy System Lab","ref":"4806"},
+  {"id":9461821101,"lat":30.635585,"lon":-96.472775,"k":"p","n":"Workforce Education Complex","ref":"4808"},
+  {"id":9461821102,"lat":30.642172,"lon":-96.467662,"k":"p","n":"Blinn College","ref":"4800"},
+  {"id":11054431403,"lat":30.64087,"lon":-96.486282,"k":"p","n":"RIC","ref":"4804"},
+  {"id":11733856243,"lat":30.637243,"lon":-96.467654,"k":"p","n":"IDB","ref":"4809"},
+  {"id":13117176698,"lat":30.6398,"lon":-96.474131,"k":"p","n":"RELLIS Admin","ref":"4807"}
+],
+"routes":[
+  {"id":13741740,"t":{"name":"RELLIS","from":"MSC","to":"RELLIS","colour":"#1e1e1e","route":"bus","public_transport:version":"2"},"n":15,"s":[[9461821098,15]]},
+  {"id":16120828,"t":{"ref":"47-48","name":"RELLIS","from":"MSC","to":"MSC","network":"AggieSpirit","operator":"Texas A&M University Transportation Services","colour":"#2a4244","route":"bus","public_transport:version":"2"},"n":33,"s":[[9461821098,15],[9461821099,16],[11054431403,17],[9461821100,18],[13117176698,19],[9461821101,20],[11733856243,21],[9461821102,22]]},
+  {"id":16120829,"t":{"ref":"48","name":"RELLIS Circulator","from":"Blinn College","to":"Blinn College","network":"AggieSpirit","operator":"Texas A&M University Transportation Services","colour":"#346569","route":"bus","public_transport:version":"2"},"n":8,"s":[[9461821102,1,8],[9461821099,2],[11054431403,3],[9461821100,4],[13117176698,5],[9461821101,6],[11733856243,7]]},
+  {"id":16455209,"t":{"name":"RELLIS","from":"RELLIS","to":"MSC","colour":"#1e1e1e","route":"bus","public_transport:version":"2"},"n":12,"s":[[9461821098,1]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"US-WA",
+"tile":[2711,1149],
+"stops":[
+  {"id":1747727243,"lat":45.599529,"lon":-122.505859,"k":"p","n":"Southeast 162nd Avenue & Village Loop"},
+  {"id":1747727309,"lat":45.598965,"lon":-122.50364,"k":"p","n":"Southeast 164th Avenue 3200 Block"},
+  {"id":1747727335,"lat":45.598706,"lon":-122.504089,"k":"p","n":"Southeast 164th Avenue & 32nd Street"},
+  {"id":12244878147,"lat":45.594824,"lon":-122.505291,"k":"p"},
+  {"id":13869787854,"lat":45.594193,"lon":-122.504889,"k":"p","n":"Fisher's Landing Transit Center: Bay A"},
+  {"id":13869787855,"lat":45.594428,"lon":-122.504957,"k":"p","n":"Fisher's Landing Transit Center: Bay B"},
+  {"id":13869787856,"lat":45.594263,"lon":-122.505094,"k":"p","n":"Fisher's Landing Transit Center: Bay C"},
+  {"id":13869787857,"lat":45.594519,"lon":-122.505169,"k":"p","n":"Fisher's Landing Transit Center: Bay D"},
+  {"id":13869787858,"lat":45.59434,"lon":-122.505303,"k":"p","n":"Fisher's Landing Transit Center: Bay E"},
+  {"id":13869787859,"lat":45.594465,"lon":-122.505605,"k":"p","n":"Fisher's Landing Transit Center: Bay G"},
+  {"id":13869787860,"lat":45.594623,"lon":-122.505451,"k":"p","n":"Fisher's Landing Transit Center: Bay H"},
+  {"id":13869787861,"lat":45.594556,"lon":-122.505772,"k":"p","n":"Fisher's Landing Transit Center: Bay I"}
+],
+"routes":[
+  {"id":5955765,"t":{"ref":"30","name":"Bus 30: Vancouver City Center => Fisher's Landing Transit Center","from":"Vancouver City Center","to":"Fisher's Landing Transit Center","network":"C-TRAN","operator":"C-TRAN","colour":"#BA6831","route":"bus","public_transport:version":"2"},"n":46,"s":[[1747727335,46]]},
+  {"id":6066166,"t":{"ref":"30","name":"Bus 30: Fisher's Landing Transit Center => Vancouver City Center","from":"Fisher's Landing Transit Center","to":"Vancouver City Center","network":"C-TRAN","operator":"C-TRAN","colour":"#BA6831","route":"bus","public_transport:version":"2"},"n":49,"s":[[1747727309,1]]},
+  {"id":11231150,"t":{"ref":"80","name":"Bus 80: Fisher's Landing => Vancouver Mall","from":"Fisher's Landing Transit Center","to":"Vancouver Mall Transit Center","network":"C-TRAN","operator":"C-TRAN","route":"bus","public_transport:version":"2"},"n":20,"s":[[1747727243,15]]},
+  {"id":18144873,"t":{"ref":"1","name":"Bus Route 1 - Stevenson/Vancouver","network":"Skamania County Transit","operator":"Skamania County","route":"bus"},"n":8,"s":[[12244878147,8]]},
+  {"id":18153456,"t":{"ref":"3","name":"Bus Route 3 - Stevenson/Vancouver/Cascade Locks/Carson/Bingen | Stevenson/Carson/Vancouver/Cascade Locks/Stevenson","network":"Skamania County Transit","operator":"Skamania County","route":"bus"},"n":3,"s":[[12244878147,2]]},
+  {"id":20732117,"t":{"ref":"12","name":"Bus 12: Fisher's Landing => Vancouver Mall","from":"Fisher's Landing Transit Center","to":"Vancouver Mall Transit Center","network":"C-TRAN","operator":"C-TRAN","route":"bus"},"n":27,"s":[[1747727309,1]]},
+  {"id":20734856,"t":{"ref":"12","name":"Bus 12: Vancouver Mall => Fisher's Landing","from":"Vancouver Mall Transit Center","to":"Fisher's Landing Transit Center","network":"C-TRAN","operator":"C-TRAN","route":"bus"},"n":24,"s":[[1747727335,24]]}
+]
+}

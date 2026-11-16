@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-VA",
+"tile":[2543,1992],
+"stops":[
+  {"id":726759062,"lat":37.194103,"lon":-80.395471,"k":"x","n":"Industrial Park/Prosperity Westbound","ref":"1651"},
+  {"id":726760827,"lat":37.194205,"lon":-80.397646,"k":"x","n":"Prosperity/Industrial Park Northbound","ref":"1637"},
+  {"id":726772275,"lat":37.196629,"lon":-80.394262,"k":"x","n":"Blacksburg Transit","ref":"1649"},
+  {"id":1417483642,"lat":37.19422,"lon":-80.39758,"k":"p","n":"Prosperity/Industrial Park Northbound","ref":"1637"},
+  {"id":12119502316,"lat":37.19679,"lon":-80.394254,"k":"p","n":"Blacksburg Transit","ref":"1649"},
+  {"id":13709103225,"lat":37.195037,"lon":-80.393591,"k":"p","n":"Commerce/Industrial Park Southbound","ref":"1650"},
+  {"id":13709103226,"lat":37.194154,"lon":-80.395528,"k":"p","n":"Industrial Park/Prosperity Westbound","ref":"1651"},
+  {"id":13709713437,"lat":37.195062,"lon":-80.393517,"k":"x","n":"Commerce/Industrial Park Southbound","ref":"1650"}
+],
+"routes":[
+  {"id":1973273,"t":{"ref":"CRC","name":"Corporate Research Center (southbound)","from":"Orange Loop Bay 16","to":"Blacksburg Transit","network":"BT","operator":"Blacksburg Transit","colour":"#00782a","route":"bus","public_transport:version":"2"},"n":19,"s":[[12119502316,19]]},
+  {"id":1973274,"t":{"ref":"CRC","name":"Corporate Research Center (northbound)","from":"Blacksburg Transit","to":"Orange Loop Bay 16","network":"BT","operator":"Blacksburg Transit","colour":"#00782a","route":"bus","public_transport:version":"2"},"n":21,"s":[[12119502316,1],[13709103225,2],[13709103226,3]]},
+  {"id":20441977,"t":{"ref":"SMS","name":"South Main Southpark (northbound)","from":"Industrial Park/Transportation Research Eastbound","to":"Maroon Loop Bay 6","network":"BT","operator":"Blacksburg Transit","colour":"#0098d4","route":"bus","public_transport:version":"2"},"n":26,"s":[[1417483642,2]]}
+]
+}

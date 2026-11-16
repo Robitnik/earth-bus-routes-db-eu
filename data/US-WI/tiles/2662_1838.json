@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"US-WI",
+"tile":[2662,1838],
+"stops":[
+  {"id":9817835558,"lat":43.104603,"lon":-88.066258,"k":"p","n":"Hampton & 124th Street","ref":"8508"},
+  {"id":9817835559,"lat":43.104644,"lon":-88.060107,"k":"p","n":"Hampton & 118th Street","ref":"8507"},
+  {"id":9817835560,"lat":43.104914,"lon":-88.060277,"k":"p","n":"Hampton & 118th Street","ref":"8489"},
+  {"id":9817835561,"lat":43.104688,"lon":-88.053198,"k":"p","n":"Hampton & Mayfair","ref":"8488"},
+  {"id":9817835562,"lat":43.104943,"lon":-88.052657,"k":"p","n":"Hampton & Mayfair","ref":"8487"},
+  {"id":9817835563,"lat":43.104703,"lon":-88.050612,"k":"p","n":"Hamption & 110th Street","ref":"7316"},
+  {"id":9817835564,"lat":43.104955,"lon":-88.050344,"k":"p","n":"Hamption & 110th Street","ref":"7742"},
+  {"id":9823810771,"lat":43.118691,"lon":-88.055873,"k":"p","n":"Lovers Lane & Silver Spring Road","ref":"6208"},
+  {"id":9823810772,"lat":43.119345,"lon":-88.054537,"k":"p","n":"Silver Spring Road & Lovers Lane","ref":"6207"},
+  {"id":9823810773,"lat":43.119356,"lon":-88.051621,"k":"p","n":"Silver Spring & Boelter","ref":"6206"},
+  {"id":9823982389,"lat":43.101632,"lon":-88.066202,"k":"p","n":"124th Street & Peck","ref":"9590"},
+  {"id":9823982390,"lat":43.101632,"lon":-88.065959,"k":"p","n":"124th Street & Peck","ref":"9583"},
+  {"id":9823982391,"lat":43.104538,"lon":-88.065837,"k":"p","n":"124th Street & Hampton","ref":"9584"},
+  {"id":9823982392,"lat":43.105229,"lon":-88.052755,"k":"p","n":"Lovers Lane & Hampton","ref":"9585"},
+  {"id":9823982393,"lat":43.110435,"lon":-88.055489,"k":"p","n":"5100 North Lovers Lane Road","ref":"4200"},
+  {"id":9823982394,"lat":43.112628,"lon":-88.055536,"k":"p","n":"5200 North Lovers Lane Road","ref":"2551"},
+  {"id":9823982395,"lat":43.114512,"lon":-88.055526,"k":"p","n":"5316 North Lovers Lane Road","ref":"4202"},
+  {"id":9823982396,"lat":43.11609,"lon":-88.055509,"k":"p","n":"5400 North Lovers Lane Road","ref":"2727"},
+  {"id":9823982397,"lat":43.117188,"lon":-88.060845,"k":"p","n":"Silver Spring & Rae","ref":"9586"},
+  {"id":9823982398,"lat":43.115263,"lon":-88.065776,"k":"p","n":"124th Street & Custer","ref":"2827"},
+  {"id":9823982399,"lat":43.11201,"lon":-88.065912,"k":"p","n":"124th Street & Villard","ref":"9587"},
+  {"id":9823982400,"lat":43.108027,"lon":-88.066036,"k":"p","n":"124th Street & Fairmount","ref":"9588"},
+  {"id":9825132745,"lat":43.117097,"lon":-88.054196,"k":"p","n":"Silver Spring & 11401 West","ref":"4204"}
+],
+"routes":[
+  {"id":14252788,"t":{"ref":"11","name":"Bus 11: Butler => Lincoln Park","from":"Butler","to":"Lincoln Park","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":36,"s":[[9817835558,1],[9817835559,2],[9817835561,3],[9817835563,4]]},
+  {"id":14274800,"t":{"ref":"58","name":"Bus 58: Lovers Lane => Green Bay Ave","from":"Lovers Lane Road","to":"Green Bay Avenue","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":40,"s":[[9825132745,1]]},
+  {"id":14274977,"t":{"ref":"28","name":"Bus 28: Lovers Lane/Silver Spring => Grange","from":"Lovers Lane Road & Silver Spring","to":"Grange Avenue","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":51,"s":[[9823982396,1],[9823982397,2],[9823982398,3],[9823982399,4],[9823982400,5],[9823982389,6]]},
+  {"id":14286795,"t":{"ref":"57","name":"Bus 57: Lovers Lane => Downtown","from":"Lovers Lane Road","to":"Downtown","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":62,"s":[[9823810771,1],[9825132745,2]]},
+  {"id":14287544,"t":{"ref":"63","name":"Bus 63: Lovers Lane => Bayshore","from":"Lovers Lane Road","to":"Bayshore Town Center","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":40,"s":[[9823810771,1],[9825132745,2]]},
+  {"id":15974342,"t":{"ref":"28","name":"Bus 28: Grange => Lovers Lane/Silver Spring","from":"Lovers Lane Road & Silver Spring","to":"Grange Avenue","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":56,"s":[[9823982390,49],[9823982391,50],[9817835559,51],[9823982392,52],[9823982393,53],[9823982394,54],[9823982395,55],[9823982396,56]]},
+  {"id":15977877,"t":{"ref":"57","name":"Bus 57: Downtown => Lovers Lane","from":"Downtown","to":"Lovers Lane Road","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":60,"s":[[9823810773,58],[9823810772,59],[9823810771,60]]},
+  {"id":15977931,"t":{"ref":"58","name":"Bus 58: Green Bay Ave => Lovers Lane","from":"Green Bay Avenue","to":"Lovers Lane Road","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":38,"s":[[9823810773,36],[9823810772,37],[9825132745,38]]},
+  {"id":15978123,"t":{"ref":"63","name":"Bus 63: Bayshore=> Lovers Lane","from":"Bayshore Town Center","to":"Lovers Lane Road","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":41,"s":[[9823810773,39],[9823810772,40],[9823810771,41]]},
+  {"id":18339490,"t":{"ref":"11","from":"Lincoln Park","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":37,"s":[[9817835564,34],[9817835562,35],[9817835560,36],[9817835558,37]]}
+]
+}

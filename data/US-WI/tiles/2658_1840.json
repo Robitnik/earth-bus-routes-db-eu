@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-WI",
+"tile":[2658,1840],
+"stops":[
+  {"id":9810561853,"lat":42.943259,"lon":-87.989338,"k":"p","n":"Northway & Bentwood","ref":"4763"},
+  {"id":9810561854,"lat":42.942306,"lon":-87.992491,"k":"p","n":"Northway & Beaver","ref":"4761"},
+  {"id":9810561855,"lat":42.942343,"lon":-87.99542,"k":"p","n":"Northway & Broad","ref":"4759"},
+  {"id":9812183107,"lat":42.923873,"lon":-87.95093,"k":"p","n":"Walmart","ref":"8318"},
+  {"id":9812183108,"lat":42.918434,"lon":-87.950076,"k":"p","n":"27th Street & Riverwood","ref":"2689"},
+  {"id":9812183110,"lat":42.908231,"lon":-87.950423,"k":"p","n":"27th Street & Northwestern Mutual Way","ref":"1571"},
+  {"id":9812183112,"lat":42.902019,"lon":-87.950009,"k":"p","n":"Drexel & 27th Street","ref":"8278"}
+],
+"routes":[
+  {"id":14255148,"t":{"ref":"20","name":"Bus 20: 2nd & National => College-Walmart","from":"2nd & National","to":"College Avenue;Walmart","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":47,"s":[[9812183107,47]]},
+  {"id":14276481,"t":{"ref":"PurpleLine","name":"Bus PurpleLine: Bayshore => IKEA","from":"Bayshore","to":"IKEA","network":"MCTS","operator":"Milwaukee County Transit System","colour":"purple","route":"bus","public_transport:version":"2"},"n":76,"s":[[9812183108,74],[9812183110,75]]},
+  {"id":15965186,"t":{"ref":"PurpleLine","name":"Bus PurpleLine: IKEA => Bayshore","from":"IKEA","to":"Bayshore","network":"MCTS","operator":"Milwaukee County Transit System","colour":"purple","route":"bus","public_transport:version":"2"},"n":73,"s":[[9812183112,1]]},
+  {"id":15972730,"t":{"ref":"20","name":"Bus 20: College-Walmart => 2nd & National","from":"College Avenue;Walmart","to":"2nd Street & National Avenue","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":42,"s":[[9812183107,1]]},
+  {"id":15979762,"t":{"ref":"PurpleLine","name":"Bus PurpleLine: College-Walmart => Bayshore","from":"College-Walmart","to":"Bayshore","network":"MCTS","operator":"Milwaukee County Transit System","colour":"purple","route":"bus","public_transport:version":"2"},"n":70,"s":[[9812183107,1]]},
+  {"id":15979763,"t":{"ref":"PurpleLine","name":"Bus PurpleLine: Bayshore => College-Walmart","from":"Bayshore","to":"College-Walmart","network":"MCTS","operator":"Milwaukee County Transit System","colour":"purple","route":"bus","public_transport:version":"2"},"n":74,"s":[[9812183107,74]]},
+  {"id":15980841,"t":{"ref":"76","name":"Bus 76: Southridge => Brown Deer Road","from":"Southridge","to":"Brown Deer Road","network":"MCTS","operator":"Milwaukee County Transit System","route":"bus","public_transport:version":"2"},"n":101,"s":[[9810561855,9],[9810561854,10],[9810561853,11]]}
+]
+}

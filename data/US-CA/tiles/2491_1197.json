@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2491,1197],
+"stops":[
+  {"id":10672302039,"lat":34.595949,"lon":-120.140579,"k":"p","n":"Solvang, CA (SLV);Slovang Park;Solvang - Solvang Park;Solvang Park (eastbound)"},
+  {"id":10763112959,"lat":34.596093,"lon":-120.138203,"k":"p","n":"Mission Drive & Alisal Road (Veteran’s Hall/Library)"},
+  {"id":10763112960,"lat":34.595889,"lon":-120.136784,"k":"p","n":"Santa Ines Mission (Mission Drive & Alisal Road)"},
+  {"id":10763112961,"lat":34.598194,"lon":-120.129176,"k":"p","n":"Alamo Pintado Road & Mission Drive"},
+  {"id":10763112962,"lat":34.598519,"lon":-120.129091,"k":"p","n":"Mission Drive & Alamo Pintado Road"},
+  {"id":10763123631,"lat":34.59612,"lon":-120.145437,"k":"p","n":"Mission Drive & 5th Street (North)"},
+  {"id":10763123632,"lat":34.595976,"lon":-120.144925,"k":"p","n":"Mission Drive & 5th Street (South)"},
+  {"id":10763123633,"lat":34.59612,"lon":-120.140404,"k":"p","n":"Solvang Park (westbound)"},
+  {"id":10767661443,"lat":34.599894,"lon":-120.128489,"k":"p","n":"Alamo Pintado Road & Old Mission Drive"}
+],
+"routes":[
+  {"id":15486911,"t":{"ref":"17","name":"17 - Santa Barbara - San Luis Obispo - Oakland","from":"Santa Barbara","to":"Oakland","network":"Amtrak Thruway","operator":"LOSSAN Rail Corridor Agency","route":"bus","public_transport:version":"1"},"n":15,"s":[[10672302039,3]]},
+  {"id":15598105,"t":{"ref":"WineX","name":"Wine Country Express","from":"Lompoc- Cypress and I Street","to":"slovang park","network":"City of Lompoc Transit","route":"bus"},"n":3,"s":[[10672302039,3]]},
+  {"id":15617540,"t":{"ref":"20","name":"20 - Santa Maria Transit Center/Los Alamos/Buellton/Solvang","from":"Santa Maria Transit Center","to":"Solvang Park","network":"Santa Maria Regional Transit","operator":"Santa Maria Regional Transit","route":"bus"},"n":5,"s":[[10672302039,5]]},
+  {"id":15646507,"t":{"ref":"Express","name":"Express Route","from":"Solvang Park","to":"Buellton Post Office","network":"Santa Ynez Valley Transit","route":"bus"},"n":24,"s":[[10763123631,10],[10763123632,11],[10672302039,12],[10763123633,13],[10763112959,14],[10763112960,15],[10763112962,16],[10763112961,17]]},
+  {"id":15654719,"t":{"ref":"Los Olivos","name":"Los Olivos Loop","from":"Solvang Park","to":"Santa Barbara Avenue & Alamo Pintado Avenue - Los Olivos","network":"Santa Ynez Valley Transit","operator":"Santa Ynez valley transit","route":"bus"},"n":19,"s":[[10763123633,1],[10672302039,2],[10763112959,3],[10763112960,4],[10763112962,5],[10767661443,6]]}
+]
+}

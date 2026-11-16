@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-MI",
+"tile":[2659,1951],
+"stops":[
+  {"id":2317708341,"lat":42.976499,"lon":-82.425511,"k":"p","n":"Quay (East)"},
+  {"id":2318841570,"lat":42.976815,"lon":-82.426539,"k":"p","n":"Quay (West)"},
+  {"id":5266756829,"lat":42.978033,"lon":-82.426014,"k":"s","n":"Blue Water Transit Station"},
+  {"id":10815151255,"lat":42.977441,"lon":-82.447951,"k":"x","n":"Lapeer Avenue & 20th Street"},
+  {"id":10815151256,"lat":42.977584,"lon":-82.447951,"k":"p","n":"Lapeer Avenue & 20th Street"},
+  {"id":13203495679,"lat":42.994515,"lon":-82.421668,"k":"p","n":"Casino Point Edward"}
+],
+"routes":[
+  {"id":2907300,"t":{"ref":"I 94 Express","name":"BWAT I 94 Express: Lapeer Avenue & 20th Street => 23 Mile Road","from":"Lapeer Avenue & 20th Street","to":"23 Mile Road","network":"BWAT","operator":"Blue Water Area Transportation Commission","route":"bus","public_transport:version":"2"},"n":5,"s":[[10815151256,1]]},
+  {"id":2953821,"t":{"ref":"M 29","name":"BWAT M 29: Lapeer Avenue & 20th Street => 23 Mile Road","from":"Lapeer Avenue & 20th Street","to":"23 Mile Road","network":"BWAT","operator":"Blue Water Area Transportation Commission","route":"bus","public_transport:version":"2"},"n":8,"s":[[10815151256,1]]},
+  {"id":2955380,"t":{"ref":"1","name":"Route 1","operator":"Blue Water Area Transit","route":"bus"},"n":3,"s":[[2317708341,2],[2318841570,3]]},
+  {"id":2957732,"t":{"ref":"2","name":"Route 2","operator":"Blue Water Area Transit","route":"bus"},"n":3,"s":[[2318841570,1],[2317708341,2]]},
+  {"id":2957772,"t":{"ref":"3","name":"Route 3","operator":"Blue Water Area Transit","route":"bus"},"n":2,"s":[[2318841570,1],[2317708341,2]]},
+  {"id":2957809,"t":{"ref":"4","name":"Route 4","operator":"Blue Water Area Transit","route":"bus"},"n":2,"s":[[2318841570,1],[2317708341,2]]},
+  {"id":2957824,"t":{"ref":"5","name":"Route 5","operator":"Blue Water Area Transit","route":"bus"},"n":3,"s":[[2318841570,2],[2317708341,3]]},
+  {"id":2957861,"t":{"ref":"6","name":"Route 6","operator":"Blue Water Area Transit","route":"bus"},"n":3,"s":[[2318841570,1],[2317708341,2]]},
+  {"id":2957871,"t":{"ref":"9","name":"Route 9","operator":"Blue Water Area Transit","route":"bus"},"n":3,"s":[[2318841570,1],[2317708341,2]]}
+]
+}

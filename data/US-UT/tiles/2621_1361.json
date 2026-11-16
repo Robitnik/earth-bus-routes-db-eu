@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"US-UT",
+"tile":[2621,1361],
+"stops":[
+  {"id":5120759544,"lat":41.065568,"lon":-111.948851,"k":"p","n":"Fairfield Rd @ 325 N","ref":"101032"},
+  {"id":5120761738,"lat":41.092848,"lon":-111.911558,"k":"p","n":"Antelope Drive Park-and-Ride Lot","ref":"301429"},
+  {"id":5120761752,"lat":41.053967,"lon":-111.941223,"k":"p","n":"Fairfield Rd @ 454 S","ref":"101124"},
+  {"id":5120763050,"lat":41.059003,"lon":-111.943818,"k":"p","n":"Fairfield Rd @ 125 S","ref":"101127"},
+  {"id":5120763051,"lat":41.054441,"lon":-111.941357,"k":"p","n":"Fairfield Rd @ 389 S","ref":"101125"},
+  {"id":5120763052,"lat":41.056208,"lon":-111.942582,"k":"p","n":"Fairfield Rd @ 330 S","ref":"101123"},
+  {"id":5120764043,"lat":41.065648,"lon":-111.948673,"k":"p","n":"Fairfield Rd @ 340 N","ref":"101039"},
+  {"id":5120764044,"lat":41.063365,"lon":-111.946824,"k":"p","n":"Fairfield Rd @ 221 N","ref":"101038"},
+  {"id":5120764045,"lat":41.060808,"lon":-111.944772,"k":"p","n":"Fairfield Rd @ 55 S","ref":"101037"},
+  {"id":5120764046,"lat":41.058423,"lon":-111.943736,"k":"p","n":"Fairfield Rd @ 150 S","ref":"101035"},
+  {"id":5120764047,"lat":41.060599,"lon":-111.944891,"k":"p","n":"Fairfield Rd @ 70 S","ref":"101034"},
+  {"id":5120764048,"lat":41.063551,"lon":-111.946749,"k":"p","n":"Fairfield Rd @ 240 N","ref":"101033"},
+  {"id":8551516166,"lat":41.052907,"lon":-111.940151,"k":"p","n":"Fairfield Rd @ 1124 N","ref":"102063"},
+  {"id":8720277160,"lat":41.056783,"lon":-111.942646,"k":"p","n":"Fairfield Rd @ 301 S","ref":"101126"},
+  {"id":8809260346,"lat":41.066795,"lon":-111.949934,"k":"p","n":"Fairfield Rd @ 447 N","ref":"101031"},
+  {"id":8921011522,"lat":41.052133,"lon":-111.939868,"k":"p","n":"Fairfield Rd @ 1099 N","ref":"102011"},
+  {"id":9118843883,"lat":41.0797,"lon":-111.90953,"k":"p","n":"Us Hwy 89 @ 1060 N","ref":"102055"},
+  {"id":9123259110,"lat":41.067903,"lon":-111.910056,"k":"p","n":"Us Hwy 89 @ 310 N","ref":"102053"}
+],
+"routes":[
+  {"id":9495736,"t":{"ref":"455","name":"Bus 455 (Northbound) UofU - Davis County - Weber State University","from":"University of Utah","to":"Ogden","network":"UTA","operator":"Utah Transit Authority","colour":"blue","route":"bus","public_transport:version":"2"},"n":4,"s":[[5120761738,2]]},
+  {"id":9496029,"t":{"ref":"473","name":"Bus 473 (Northbound) Ogden - Salt Lake Express via Highway 89","from":"Salt Lake","to":"Ogden","network":"UTA","operator":"Utah Transit Authority","colour":"red","route":"bus","public_transport:version":"2"},"n":6,"s":[[9123259110,4],[5120761738,5]]},
+  {"id":9499074,"t":{"ref":"627","name":"Bus 627: Fruit Heights => Clearfield Station","from":"Kaysville","to":"Clearfield Station","network":"UTA","operator":"Utah Transit Authority","colour":"blue","route":"bus","public_transport:version":"2"},"n":43,"s":[[8551516166,18],[5120763051,19],[8720277160,20],[5120763050,21],[5120764045,22],[5120764048,23],[5120764043,24]]},
+  {"id":9499075,"t":{"ref":"627","name":"Bus 627: Clearfield Station => Fruit Heights","from":"Clearfield Station","to":"Kaysville","network":"UTA","operator":"Utah Transit Authority","colour":"blue","route":"bus","public_transport:version":"2"},"n":43,"s":[[8809260346,20],[5120759544,21],[5120764044,22],[5120764047,23],[5120764046,24],[5120763052,25],[5120761752,26],[8921011522,27]]},
+  {"id":9499997,"t":{"ref":"677","from":"Snow Basin","to":"Layton Station","network":"UTA","operator":"Utah Transit Authority","colour":"black","route":"bus","public_transport:version":"2"},"n":12,"s":[[5120761738,4]]},
+  {"id":16829122,"t":{"ref":"677","from":"Layton Station","to":"Snow Basin","network":"UTA","operator":"Utah Transit Authority","colour":"black","route":"bus","public_transport:version":"2"},"n":12,"s":[[5120761738,9]]}
+]
+}

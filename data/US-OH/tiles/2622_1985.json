@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"US-OH",
+"tile":[2622,1985],
+"stops":[
+  {"id":7546746554,"lat":41.129777,"lon":-80.705771,"k":"p","n":"Salt Springs & Ameritech"},
+  {"id":7546746555,"lat":41.131887,"lon":-80.711,"k":"p","n":"N. Meridian & Salt Springs"},
+  {"id":7546746556,"lat":41.129105,"lon":-80.711019,"k":"p","n":"N. Meridian & Annetta"},
+  {"id":7546746557,"lat":41.125985,"lon":-80.711051,"k":"p","n":"Meridian Place"},
+  {"id":7546746558,"lat":41.120457,"lon":-80.712188,"k":"p","n":"Phoenix House","ref":"1024"},
+  {"id":7546746559,"lat":41.117845,"lon":-80.711064,"k":"p","n":"N. Meridian & Crum"},
+  {"id":7546746560,"lat":41.117923,"lon":-80.704739,"k":"p","n":"Vestal & Bon Air"},
+  {"id":7546746567,"lat":41.103152,"lon":-80.704598,"k":"p","n":"Mahoning & N. Bon Air"},
+  {"id":7546746568,"lat":41.103028,"lon":-80.708575,"k":"p","n":"Mahoning Avenue at Mahoning Plaza","ref":"999"},
+  {"id":7546746569,"lat":41.105119,"lon":-80.711001,"k":"p","n":"N. Meridian & Oakwood"},
+  {"id":7546746570,"lat":41.107469,"lon":-80.710885,"k":"p","n":"Connecticut Avenue & North Meridian Road","ref":"1012"},
+  {"id":7546746571,"lat":41.11002,"lon":-80.711007,"k":"p","n":"Meridian Services"},
+  {"id":7546746572,"lat":41.107442,"lon":-80.70612,"k":"p","n":"Connecticut & N. Osborn"},
+  {"id":7546746573,"lat":41.107416,"lon":-80.70132,"k":"p","n":"Connecticut & N. Glenellen"},
+  {"id":7546746574,"lat":41.107429,"lon":-80.700166,"k":"p","n":"Connecticut & N. Schenley"},
+  {"id":7546746575,"lat":41.128348,"lon":-80.70387,"k":"p","n":"Salt Springs & Corby"},
+  {"id":10902675624,"lat":41.120455,"lon":-80.712109,"k":"x","n":"Phoenix House"},
+  {"id":10902675625,"lat":41.11963,"lon":-80.711149,"k":"x","n":"North Meridian Road & Oregon Avenue"},
+  {"id":10902675626,"lat":41.119627,"lon":-80.711034,"k":"p","n":"North Meridian Road & Oregon Avenue","ref":"3018"},
+  {"id":10902675627,"lat":41.107416,"lon":-80.710887,"k":"x","n":"Connecticut Avenue & North Meridian Road"},
+  {"id":10902675628,"lat":41.103111,"lon":-80.708577,"k":"x","n":"Mahoning Avenue at Mahoning Plaza"},
+  {"id":10904114149,"lat":41.103135,"lon":-80.708091,"k":"x","n":"Mahoning Avenue & Moherman Avenue"},
+  {"id":10904114150,"lat":41.10318,"lon":-80.708093,"k":"p","n":"Mahoning Avenue & Moherman Avenue","ref":"997"}
+],
+"routes":[
+  {"id":9089049,"t":{"ref":"9","name":"WRTA 9: Federal Station => Austintown Walmart","from":"Federal Station","to":"Austintown Walmart","network":"WRTA","operator":"Western Reserve Transit Authority","route":"bus","public_transport:version":"2"},"n":5,"s":[[10904114150,2]]},
+  {"id":9089060,"t":{"ref":"4","name":"WRTA 4: Federal Station => Mahoning Plaza","from":"Federal Station","to":"Mahoning Plaza","network":"WRTA","operator":"Western Reserve Transit Authority","route":"bus","public_transport:version":"2"},"n":4,"s":[[7546746558,3],[7546746568,4]]},
+  {"id":12584141,"t":{"ref":"4","name":"WRTA 4: Mahoning Plaza => Federal Station","from":"Mahoning Plaza","to":"Federal Station","network":"WRTA","operator":"Western Reserve Transit Authority","route":"bus","public_transport:version":"2"},"n":5,"s":[[7546746568,1],[7546746570,2],[10902675626,3]]},
+  {"id":12585583,"t":{"ref":"9","name":"WRTA 9: Austintown Walmart => Federal Station","from":"Austintown Walmart","to":"Federal Station","network":"WRTA","operator":"Western Reserve Transit Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[7546746568,2]]},
+  {"id":15864364,"t":{"ref":"4","name":"WRTA 4: Federal Station => Ohio Works Drive => Mahoning Plaza","from":"Federal Station","to":"Mahoning Plaza","network":"WRTA","operator":"Western Reserve Transit Authority","route":"bus","public_transport:version":"2"},"n":5,"s":[[7546746558,4],[7546746568,5]]},
+  {"id":15864365,"t":{"ref":"4","name":"WRTA 4: Mahoning Plaza => Ohio Works Drive => Federal Station","from":"Mahoning Plaza","to":"Federal Station","network":"WRTA","operator":"Western Reserve Transit Authority","route":"bus","public_transport:version":"2"},"n":6,"s":[[7546746568,1],[7546746570,2],[10902675626,3]]}
+]
+}

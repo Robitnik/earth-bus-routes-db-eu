@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2650,2070],
+"stops":[
+  {"id":10677537679,"lat":42.538356,"lon":-76.492843,"k":"p","n":"Triphammer @ Peruville (Inbound)"},
+  {"id":10677537680,"lat":42.538335,"lon":-76.492562,"k":"p","n":"Triphammer @ Peruville (Outbound)"},
+  {"id":10677537681,"lat":42.526862,"lon":-76.491996,"k":"p","n":"Triphammer @ Asbury (Inbound)"},
+  {"id":10677537682,"lat":42.5268,"lon":-76.491792,"k":"p","n":"Triphammer @ Asbury (Outbound)"},
+  {"id":10677537683,"lat":42.52684,"lon":-76.484164,"k":"p","n":"Asbury @ Armstrong (Inbound)"},
+  {"id":10677537684,"lat":42.526977,"lon":-76.483732,"k":"p","n":"Asbury @ Armstrong (Outbound)"},
+  {"id":10677537685,"lat":42.524681,"lon":-76.472842,"k":"p","n":"Warren @ Asbury (Inbound)"},
+  {"id":10677537686,"lat":42.524612,"lon":-76.472563,"k":"p","n":"Warren @ Asbury (Outbound)"},
+  {"id":10677537687,"lat":42.514632,"lon":-76.472249,"k":"p","n":"Warren @ Farrell (Inbound)"},
+  {"id":10677537688,"lat":42.514492,"lon":-76.472027,"k":"p","n":"Warren @ Farrell (Outbound)"},
+  {"id":10677537689,"lat":42.511466,"lon":-76.470475,"k":"p","n":"Village Solars North (Inbound)"},
+  {"id":10677537690,"lat":42.511573,"lon":-76.470486,"k":"p","n":"Village Solars North (Outbound)"},
+  {"id":10677537691,"lat":42.509338,"lon":-76.469715,"k":"p","n":"Village Solars South (Outbound)"},
+  {"id":10677537692,"lat":42.509477,"lon":-76.469727,"k":"p","n":"Village Solars South (Inbound)"},
+  {"id":10677537693,"lat":42.507651,"lon":-76.471592,"k":"p","n":"Warren @ Dutch Mill (Northbound)"},
+  {"id":10901025242,"lat":42.507625,"lon":-76.47192,"k":"p","n":"Warren @ Dutch Mill (Southbound)"}
+],
+"routes":[
+  {"id":9400370,"t":{"ref":"37","name":"TCAT 37 Inbound Lansing Town Hall - Springbrook @ Farrell","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":33,"s":[[10677537679,2],[10677537681,3],[10677537683,4],[10677537685,5],[10677537687,6],[10677537689,7],[10677537692,8]]},
+  {"id":15508204,"t":{"ref":"77","name":"TCAT 77 Northbound to Warren Rd and Lansing","route":"bus","public_transport:version":"2"},"n":46,"s":[[10677537693,15],[10677537691,16],[10677537690,17],[10677537688,18],[10677537686,19],[10677537684,20],[10677537682,21],[10677537680,22],[10677537679,24],[10677537681,25],[10677537683,26],[10677537685,27],[10677537687,28],[10677537689,29],[10677537692,30]]},
+  {"id":15520958,"t":{"ref":"37","name":"TCAT 37 Outbound Lansing Town Hall - Springbrook @ Farrell","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":37,"s":[[10677537693,29],[10677537691,30],[10677537690,31],[10677537688,32],[10677537686,33],[10677537684,34],[10677537682,35],[10677537680,36]]},
+  {"id":15860941,"t":{"ref":"32","name":"TCAT 32 (Weekend) Outbound Downtown - Cornell - Village Solars","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":33,"s":[[10677537693,32],[10677537689,33]]},
+  {"id":15860942,"t":{"ref":"32","name":"TCAT 32 (Weekend) Inbound Village Solars - Airport - Downtown","network":"TCAT","operator":"Tompkins Consolidated Area Transit","route":"bus","public_transport:version":"2"},"n":35,"s":[[10677537689,1],[10677537692,2],[10901025242,3]]}
+]
+}

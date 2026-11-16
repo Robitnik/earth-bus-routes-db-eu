@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"US-FL",
+"tile":[2372,1975],
+"stops":[
+  {"id":703727991,"lat":28.600604,"lon":-81.205105,"k":"s","n":"UCF SuperStop"},
+  {"id":1539741722,"lat":28.600621,"lon":-81.207888,"k":"p"},
+  {"id":1539741726,"lat":28.602851,"lon":-81.207492,"k":"p"},
+  {"id":1539741729,"lat":28.607205,"lon":-81.207793,"k":"p"},
+  {"id":1539741734,"lat":28.607985,"lon":-81.207424,"k":"p"},
+  {"id":3420089500,"lat":28.602881,"lon":-81.200961,"k":"p"},
+  {"id":3420290606,"lat":28.604337,"lon":-81.205151,"k":"p"},
+  {"id":5300215223,"lat":28.600681,"lon":-81.205214,"k":"p","n":"B"},
+  {"id":5300215224,"lat":28.600702,"lon":-81.205397,"k":"p","n":"A"},
+  {"id":5300215226,"lat":28.600652,"lon":-81.205004,"k":"p","n":"C","ref":"3486"},
+  {"id":5300215227,"lat":28.600628,"lon":-81.204805,"k":"p","n":"D","ref":"3486"},
+  {"id":5300215228,"lat":28.600537,"lon":-81.204769,"k":"p","n":"E"},
+  {"id":5300215229,"lat":28.600566,"lon":-81.204982,"k":"p","n":"F"},
+  {"id":5300215230,"lat":28.600595,"lon":-81.205181,"k":"p","n":"G"},
+  {"id":5300215231,"lat":28.60062,"lon":-81.205392,"k":"p","n":"H"},
+  {"id":5410777055,"lat":28.609908,"lon":-81.20777,"k":"p"},
+  {"id":5410777056,"lat":28.609805,"lon":-81.207434,"k":"p"},
+  {"id":13510526430,"lat":28.603116,"lon":-81.201494,"k":"p"}
+],
+"routes":[
+  {"id":1210490,"t":{"ref":"13","name":"13 University Boulevard/University of Central Florida (outbound)","from":"Lynx Central Station","to":"UCF SuperStop","operator":"Lynx","route":"bus","public_transport:version":"1"},"n":20,"s":[[5300215227,7]]},
+  {"id":1210491,"t":{"ref":"13","name":"13 University Boulevard/University of Central Florida (inbound)","from":"UCF SuperStop","to":"Lynx Central Station","operator":"Lynx","route":"bus","public_transport:version":"1"},"n":19,"s":[[1539741722,1],[5300215227,2]]},
+  {"id":1898363,"t":{"ref":"104","name":"104 East Colonial (outbound)","from":"Lynx Central Station","to":"University of Central Florida SuperStop","operator":"Lynx","route":"bus","public_transport:version":"1"},"n":46,"s":[[5300215226,2]]},
+  {"id":1898364,"t":{"ref":"104","name":"104 East Colonial (inbound)","from":"University of Central Florida SuperStop","to":"Lynx Central Station","operator":"Lynx","route":"bus","public_transport:version":"1"},"n":45,"s":[[1539741722,2],[5300215226,3]]},
+  {"id":1900195,"t":{"ref":"434","name":"434 SR 434 Crosstown (westbound)","from":"University of Central Florida SuperStop","to":"Seminole State College Altamonte Campus","operator":"Lynx","route":"bus","public_transport:version":"1"},"n":5,"s":[[1539741726,1],[1539741734,2],[5300215223,3],[5410777056,4]]},
+  {"id":1900196,"t":{"ref":"434","name":"434 SR 434 Crosstown (eastbound)","from":"Seminole State College Altamonte Campus","to":"University of Central Florida SuperStop","operator":"Lynx","route":"bus","public_transport:version":"1"},"n":4,"s":[[1539741722,1],[1539741729,2],[5300215223,3],[5410777055,4]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-CO",
+"tile":[2607,1498],
+"stops":[
+  {"id":4301505760,"lat":40.399913,"lon":-105.074613,"k":"p","n":"Cleveland & 8th","ref":"1430"},
+  {"id":4301505764,"lat":40.379546,"lon":-105.073112,"k":"p","n":"Lincoln & 14th"},
+  {"id":4301505765,"lat":40.379786,"lon":-105.073482,"k":"p","n":"Lincoln & 14th"},
+  {"id":4301505766,"lat":40.379568,"lon":-105.073275,"k":"x","n":"Lincoln & 14th"},
+  {"id":4301505767,"lat":40.379754,"lon":-105.073277,"k":"x","n":"Lincoln & 14th"},
+  {"id":12918536762,"lat":40.399665,"lon":-105.07425,"k":"p","n":"South Transfer Point","ref":"400"},
+  {"id":14011416196,"lat":40.396048,"lon":-105.070687,"k":"p","n":"SB Washington & 5th","ref":"111"},
+  {"id":14011416197,"lat":40.395299,"lon":-105.068282,"k":"p","n":"EB 4th & Monroe","ref":"108"},
+  {"id":14011416198,"lat":40.394244,"lon":-105.063832,"k":"p","n":"SB Saint Louis & East 3rd","ref":"523"},
+  {"id":14011416199,"lat":40.392898,"lon":-105.067807,"k":"p","n":"WB 1st & Monroe","ref":"109"},
+  {"id":14011416200,"lat":40.393867,"lon":-105.073149,"k":"p","n":"NB Lincoln & 2nd","ref":"110"},
+  {"id":14379501059,"lat":40.399534,"lon":-105.074006,"k":"p","n":"South Transfer Point","ref":"400"}
+],
+"routes":[
+  {"id":1808963,"t":{"ref":"FLEX","route":"bus"},"n":28,"s":[[4301505760,23],[4301505764,24],[4301505765,25]]},
+  {"id":21096936,"t":{"ref":"1","name":"Route 1: Loveland Transit Center => South Transfer Point","from":"Loveland Transit Center","to":"South Transfer Point","network":"COLT","operator":"City of Loveland","colour":"magenta","route":"bus"},"n":13,"s":[[14011416196,8],[14011416197,9],[14011416198,10],[14011416199,11],[14011416200,12],[12918536762,13]]},
+  {"id":21096937,"t":{"ref":"1","name":"Route 1: South Transfer Point => Loveland Transit Center","from":"South Transfer Point","to":"Loveland Transit Center","network":"COLT","operator":"City of Loveland","colour":"magenta","route":"bus"},"n":8,"s":[[12918536762,1]]},
+  {"id":22056299,"t":{"ref":"3","name":"Route 3: Cascade & 22nd => Centerra Loveland Mobility Hub","from":"Cascade & 22nd","to":"Centerra Loveland Mobility Hub","network":"COLT","colour":"orange","route":"bus","public_transport:version":"2"},"n":27,"s":[[14379501059,10]]}
+]
+}

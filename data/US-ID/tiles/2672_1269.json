@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-ID",
+"tile":[2672,1269],
+"stops":[
+  {"id":8869916606,"lat":43.605156,"lon":-116.509822,"k":"p","ref":"CN019"},
+  {"id":9390950908,"lat":43.615027,"lon":-116.507339,"k":"p","n":"College of Western Idaho Main Campus"},
+  {"id":9390950909,"lat":43.602244,"lon":-116.513523,"k":"p","n":"Idaho Center Boulevard & East Gate Boulevard NWM"},
+  {"id":9390950910,"lat":43.602248,"lon":-116.513077,"k":"p","n":"Idaho Center Boulevard & East Gate Boulevard NEC"},
+  {"id":10309399348,"lat":43.604723,"lon":-116.530364,"k":"p"},
+  {"id":10309399349,"lat":43.612604,"lon":-116.513043,"k":"p"},
+  {"id":10309424394,"lat":43.612423,"lon":-116.514005,"k":"p"}
+],
+"routes":[
+  {"id":13631948,"t":{"ref":"45","name":"Bus 45: University & Joyce => College Of Western Idaho Main Campus","from":"West University Drive & South Joyce Street SEC","to":"College of Western Idaho Main Campus","network":"VRT","operator":"Valley Regional Transit","colour":"#23939D","route":"bus","public_transport:version":"2"},"n":6,"s":[[9390950910,5],[9390950908,6]]},
+  {"id":13631949,"t":{"ref":"45","name":"Bus 45: College of Western Idaho Main Campus => University & Joyce","from":"College of Western Idaho Main Campus","to":"West University Drive & South Joyce Street SEC","network":"VRT","operator":"Valley Regional Transit","colour":"#23939D","route":"bus","public_transport:version":"2"},"n":4,"s":[[9390950908,1],[9390950909,2]]},
+  {"id":15090172,"t":{"ref":"45","name":"Boise State/CWI via Fairview","operator":"Valley Regional Transit","route":"bus"},"n":35,"s":[[10309399348,1],[10309399349,2],[9390950908,3,34],[10309424394,35]]}
+]
+}

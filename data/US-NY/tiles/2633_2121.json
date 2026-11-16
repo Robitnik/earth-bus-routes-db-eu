@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2633,2121],
+"stops":[
+  {"id":3212018456,"lat":41.698385,"lon":-73.918539,"k":"p","n":"South Cherry Street & Route 44/55 E"},
+  {"id":3216949547,"lat":41.691898,"lon":-73.900589,"k":"p","n":"Raymond & Fulton (Vassar College)"},
+  {"id":3233205190,"lat":41.692445,"lon":-73.905,"k":"p","n":"Doctor's Park"},
+  {"id":3233205191,"lat":41.697533,"lon":-73.908564,"k":"p","n":"Worrall & Main Street"},
+  {"id":3255512874,"lat":41.696217,"lon":-73.922948,"k":"p","n":"Forbus Street & Hooker Avenue"},
+  {"id":3255512875,"lat":41.681894,"lon":-73.90314,"k":"p","n":"Cedar Avenue & Arnold Boulevard"},
+  {"id":3255856064,"lat":41.694225,"lon":-73.91388,"k":"p","n":"Poughkeepsie High School"},
+  {"id":3255927112,"lat":41.692059,"lon":-73.912001,"k":"p","n":"Poughkeepsie Middle School"},
+  {"id":3257068108,"lat":41.651025,"lon":-73.928215,"k":"p","n":"Route 9 & CR 48 (IBM Road)","ref":"11"},
+  {"id":10215290959,"lat":41.697667,"lon":-73.909094,"k":"p"}
+],
+"routes":[
+  {"id":4237304,"t":{"ref":"21P","name":"Poughkeepsie RailLink","operator":"Dutchess County Department of Mass Transit","route":"bus"},"n":4,"s":[[3212018456,3]]},
+  {"id":4245967,"t":{"ref":"Main Street","name":"Main Street: Vassar College => Main & Market","from":"Raymond & Fulton (Vassar College)","to":"Main & Market","network":"City of Poughkeepsie Bus Service","operator":"City of Poughkeepsie Transit System","route":"bus"},"n":10,"s":[[3216949547,1],[3233205190,3],[3233205191,4]]},
+  {"id":4274039,"t":{"ref":"Shopper's Special","name":"Shopper's Special","network":"City of Poughkeepsie Bus Service","operator":"City of Poughkeepsie Transit System","route":"bus"},"n":6,"s":[[3216949547,1],[3255856064,6]]},
+  {"id":4279549,"t":{"name":"Southside","route":"bus"},"n":5,"s":[[3255512874,3],[3255512875,4],[3255927112,5]]}
+]
+}

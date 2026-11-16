@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2539,1198],
+"stops":[
+  {"id":1934350187,"lat":36.960196,"lon":-120.061856,"k":"p"},
+  {"id":5750397321,"lat":36.962788,"lon":-120.060039,"k":"p","n":"Madera Greyhound","ref":"892090"},
+  {"id":9211068656,"lat":36.97472,"lon":-120.085191,"k":"p"},
+  {"id":11034978150,"lat":36.962744,"lon":-120.060132,"k":"p","n":"Intermodal Center/ Downtown Madera"},
+  {"id":11038411481,"lat":36.973763,"lon":-120.081107,"k":"p","n":"Wallgreens;Walgreens at Cleveland Avenue"},
+  {"id":11041546572,"lat":36.996763,"lon":-120.074125,"k":"p","n":"Road 26 & Avenue 17"},
+  {"id":11041546573,"lat":36.992618,"lon":-120.069749,"k":"p","n":"Matilda Torress High School"},
+  {"id":11041546574,"lat":36.987078,"lon":-120.063069,"k":"p","n":"Ellis & North D Street"},
+  {"id":11041546575,"lat":36.981805,"lon":-120.056411,"k":"p","n":"Lake & Kennedy"},
+  {"id":11041546576,"lat":36.977341,"lon":-120.056642,"k":"p","n":"Sherwood & Lake"},
+  {"id":11041546577,"lat":36.977192,"lon":-120.066968,"k":"p","n":"Sherwood & Sonora"},
+  {"id":11041546578,"lat":36.97719,"lon":-120.073784,"k":"p","n":"Sherwood & Country Club"},
+  {"id":11041546579,"lat":36.977369,"lon":-120.073641,"k":"p","n":"Sherwood & Country Club"}
+],
+"routes":[
+  {"id":16070207,"t":{"ref":"Eastern","name":"Eastern Madera County","from":"Intermodal / Downtown Madera","to":"South Fork (Road 225)","network":"Madera County Connection","route":"bus"},"n":18,"s":[[11034978150,1]]},
+  {"id":16077009,"t":{"ref":"College","name":"College / Children's Hospital","from":"Intermodal Center / Downtown Madera","to":"Children's Hospital","network":"Madera County Connection","route":"bus"},"n":5,"s":[[11034978150,1]]},
+  {"id":16077691,"t":{"ref":"Chowchilla","name":"Chowchilla - Fairmead","from":"Intermodal Center/Downtown Madera","to":"Countrywood shopping center - Chowchilla","network":"Madera County Connection","operator":"Madera County Connection","route":"bus"},"n":7,"s":[[11034978150,1],[11038411481,2]]},
+  {"id":16080076,"t":{"ref":"Arcola","name":"Eastin Arcola - Ripperdan - La Vina","from":"Intermodal Center / Downtown Madera","to":"La Vina","network":"Madera County Connection","operator":"Madera County Connection","route":"bus"},"n":8,"s":[[11034978150,1],[11038411481,2]]},
+  {"id":16083839,"t":{"ref":"Blue","name":"Blue Line","from":"Madera Amtrak","to":"Walgreens at Cleveland Avenue","network":"Madera Metro","route":"bus"},"n":11,"s":[[11041546572,3],[11041546573,4],[11041546574,5],[11041546575,6],[11041546576,7],[11041546577,8],[11041546578,9],[11041546579,10],[11038411481,11]]},
+  {"id":16086987,"t":{"ref":"Orange","name":"Orange Line","from":"Madera  Hospital","to":"Walgreens at Cleveland Avenue","operator":"Madera Metro","route":"bus"},"n":6,"s":[[11038411481,1],[11034978150,2]]},
+  {"id":16090777,"t":{"ref":"Green","name":"Green Line","from":"Madera Community College","to":"Walgreens at Cleveland Avenue","network":"Madera Metro","route":"bus"},"n":4,"s":[[11038411481,1],[11034978150,2]]},
+  {"id":16099603,"t":{"ref":"Purple","name":"Purple Line","from":"Madera Walmart","to":"Madera County Complex","network":"Madera Metro","operator":"Madera Metro","route":"bus"},"n":4,"s":[[11038411481,1],[11034978150,2]]}
+]
+}

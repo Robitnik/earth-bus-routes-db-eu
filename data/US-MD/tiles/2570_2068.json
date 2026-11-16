@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2570,2068],
+"stops":[
+  {"id":182274407,"lat":38.540989,"lon":-76.590799,"k":"x","n":"Walmart"},
+  {"id":182402305,"lat":38.538162,"lon":-76.587566,"k":"p","n":"Heritage Boulevard at Bus Stop"},
+  {"id":2927788487,"lat":38.548136,"lon":-76.581174,"k":"p","n":"Prince Frederick Park & Ride (Fairground & Armory Road)","ref":"11572"},
+  {"id":2927788488,"lat":38.548355,"lon":-76.581148,"k":"p","n":"Prince Frederick Park & Ride (Fairground & Armory Road)","ref":"11572"},
+  {"id":3026444966,"lat":38.544472,"lon":-76.595379,"k":"x","n":"Calvert Pines Senior Center"},
+  {"id":5934671574,"lat":38.538761,"lon":-76.582722,"k":"x","n":"Courthouse"},
+  {"id":12201844123,"lat":38.538405,"lon":-76.587939,"k":"p"}
+],
+"routes":[
+  {"id":3971081,"t":{"name":"Dunkirk Route","network":"Calvert County Public Transportation","operator":"Calvert County","colour":"orange","route":"bus","public_transport:version":"2"},"n":23,"s":[[3026444966,1]]},
+  {"id":6594663,"t":{"name":"North Route","network":"Calvert County Public Transportation","operator":"Calvert County","colour":"#FFC0CB","route":"bus","public_transport:version":"2"},"n":23,"s":[[5934671574,1],[12201844123,2],[182274407,3],[3026444966,4,23]]},
+  {"id":9683924,"t":{"ref":"850","name":"Commuter Bus 850: Washington, D.C.","from":"Prince Frederick","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[2927788488,1]]},
+  {"id":9683925,"t":{"ref":"850","name":"Commuter Bus 850: Prince Frederick/Dunkirk","from":"Washington","to":"Prince Frederick","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[2927788488,4]]},
+  {"id":9683926,"t":{"ref":"840","name":"Commuter Bus 840: Washington, D.C.","from":"St. Leonard","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[2927788488,2]]},
+  {"id":9683927,"t":{"ref":"840","name":"Commuter Bus 840: Washington, D.C.","from":"St. Leonard","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[2927788488,2]]},
+  {"id":9683928,"t":{"ref":"840","name":"Commuter Bus 840: St. Leonard/Prince Frederick","from":"Washington","to":"St. Leonard","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":2,"s":[[2927788488,1]]},
+  {"id":9683929,"t":{"ref":"840","name":"Commuter Bus 840: St. Leonard/Prince Frederick","from":"Washington","to":"St. Leonard","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[2927788488,3]]}
+]
+}

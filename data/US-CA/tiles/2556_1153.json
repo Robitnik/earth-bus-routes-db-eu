@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2556,1153],
+"stops":[
+  {"id":5845168274,"lat":37.80791,"lon":-122.302168,"k":"p","n":"Wood Street & 8th Street","ref":"50467"},
+  {"id":5845180109,"lat":37.806826,"lon":-122.30115,"k":"p","n":"7th Street & Willow Street","ref":"58915"},
+  {"id":5845192310,"lat":37.808224,"lon":-122.301794,"k":"p","n":"Wood Street & 8th Street","ref":"50197"},
+  {"id":5849893557,"lat":37.806768,"lon":-122.30116,"k":"x","n":"7th Street & Willow Street"},
+  {"id":6407924119,"lat":37.837126,"lon":-122.313447,"k":"p","n":"Emeryville Marina"},
+  {"id":6407924120,"lat":37.837009,"lon":-122.304703,"k":"p","n":"Emeryville Police and Fire Station"},
+  {"id":6407924121,"lat":37.837226,"lon":-122.302675,"k":"p","n":"Watergate Market"},
+  {"id":6407924122,"lat":37.838222,"lon":-122.300196,"k":"p","n":"The Towers"},
+  {"id":6612415924,"lat":37.823251,"lon":-122.315377,"k":"x","n":"Bay Bridge Toll Plaza","ref":"56925"},
+  {"id":6935972925,"lat":37.837166,"lon":-122.302677,"k":"x","n":"Watergate Market"},
+  {"id":6935972926,"lat":37.837082,"lon":-122.304703,"k":"x","n":"Emeryville Police and Fire Station"},
+  {"id":6935972927,"lat":37.837171,"lon":-122.313448,"k":"x","n":"Emeryville Marina"},
+  {"id":6935972928,"lat":37.83819,"lon":-122.300294,"k":"x","n":"The Towers"},
+  {"id":6967842062,"lat":37.807891,"lon":-122.302079,"k":"x","n":"Wood Street & 8th Street"},
+  {"id":6967842063,"lat":37.808257,"lon":-122.301859,"k":"x","n":"Wood Street & 8th Street"},
+  {"id":5000704226784,"lat":37.823197,"lon":-122.315394,"k":"p"}
+],
+"routes":[
+  {"id":2720857,"t":{"ref":"14","name":"AC Transit 14: Fruitvale BART => West Oakland BART","from":"Fruitvale BART","to":"West Oakland BART","network":"AC Transit","operator":"Alameda-Contra Costa Transit District","route":"bus","public_transport:version":"2"},"n":55,"s":[[5845168274,52]]},
+  {"id":2720858,"t":{"ref":"14","name":"AC Transit 14: West Oakland BART => Fruitvale BART","from":"West Oakland BART","to":"Fruitvale BART","network":"AC Transit","operator":"Alameda-Contra Costa Transit District","route":"bus","public_transport:version":"2"},"n":57,"s":[[5845180109,3],[5845192310,4]]},
+  {"id":8037436,"t":{"ref":"NL","name":"AC Transit NL: Salesforce Transit Center => Eastmont Transit Center","from":"Salesforce Transit Center","to":"Eastmont Transit Center","network":"AC Transit","operator":"Alameda-Contra Costa Transit District","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000704226784,2]]},
+  {"id":8555935,"t":{"ref":"O","name":"AC Transit O: Salesforce Transit Center => Fruitvale BART","from":"Salesforce Transit Center","to":"Fruitvale BART","network":"AC Transit","operator":"Alameda-Contra Costa Transit District","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000704226784,2]]},
+  {"id":8556754,"t":{"ref":"W","name":"AC Transit W: Salesforce Transit Center => Bay Farm Island (evenings)","from":"Salesforce Transit Center","to":"Island Drive & Bayfarm Park & Ride Lot","network":"AC Transit","operator":"Alameda-Contra Costa Transit District","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000704226784,2]]},
+  {"id":9512726,"t":{"ref":"SP","name":"Emery Go-Round route Shellmound/Powell","from":"MacArthur BART","to":"MacArthur BART","network":"Emery Go-Round","operator":"Emeryville Transportation Management Association","route":"bus","public_transport:version":"2"},"n":25,"s":[[6407924122,15],[6407924121,16],[6407924119,17],[6407924120,18]]}
+]
+}

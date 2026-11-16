@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2575,2066],
+"stops":[
+  {"id":6248422951,"lat":38.79188,"lon":-76.670082,"k":"p","n":"Bristol Park & Ride MD 4 & MD 258","ref":"11613"},
+  {"id":6248422952,"lat":38.771968,"lon":-76.659364,"k":"p","n":"Pindell Park & Ride MD 4 & Lower Pindell Road","ref":"11614"}
+],
+"routes":[
+  {"id":9683934,"t":{"ref":"820","name":"Commuter Bus 820: Washington, D.C.","from":"North Beach","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":6,"s":[[6248422952,3],[6248422951,4]]},
+  {"id":9683937,"t":{"ref":"820","name":"Commuter Bus 820: North Beach","from":"Washington","to":"North Beach","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":6,"s":[[6248422951,3],[6248422952,4]]},
+  {"id":9683938,"t":{"ref":"810","name":"Commuter Bus 810: Washington, D.C.","from":"Pindell","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[6248422952,1],[6248422951,2]]},
+  {"id":9683939,"t":{"ref":"810","name":"Commuter Bus 810: Pindell","from":"Washington","to":"Pindell","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[6248422951,2],[6248422952,3]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2498,1259],
+"stops":[
+  {"id":9439209284,"lat":34.904815,"lon":-117.025676,"k":"p","n":"Barstow, CA - Amtrak Station"},
+  {"id":11006946754,"lat":34.923263,"lon":-117.026953,"k":"p","n":"Irwin Road & Spadra Street","ref":"30141"},
+  {"id":11006946755,"lat":34.923459,"lon":-117.026781,"k":"p","n":"Irwin Road Northbound at Mountain View Cemetary","ref":"30140"},
+  {"id":11007005536,"lat":34.900019,"lon":-117.02623,"k":"p","n":"North 2nd Avenue Southbound & Cozy Avenue","ref":"30054"},
+  {"id":11007005537,"lat":34.900238,"lon":-117.027105,"k":"p","n":"North 1st Avenue & White Street","ref":"30051"},
+  {"id":11007005539,"lat":34.901259,"lon":-117.026892,"k":"p","n":"Hutchinson Street Eastbound & North 1st Street","ref":"30115"},
+  {"id":11007005540,"lat":34.901404,"lon":-117.02646,"k":"p","n":"Hutchinson Street Westbound & North 1st Street","ref":"30115"},
+  {"id":13228841066,"lat":34.900754,"lon":-117.002606,"k":"p","n":"Riverview Drive Eastbound & Carmen Drive","ref":"30160"},
+  {"id":13228888631,"lat":34.916136,"lon":-117.023849,"k":"p","n":"Irwin Road Northbound & Old Highway 58","ref":"30279"},
+  {"id":13228888632,"lat":34.916172,"lon":-117.023942,"k":"p","n":"Irwin Road Southbound & Old Highway 58","ref":"30272"}
+],
+"routes":[
+  {"id":9638976,"t":{"ref":"1","name":"1 - Barstow City Hall - Walmart","from":"Barstow City Hall","to":"Walmart","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":16,"s":[[11007005536,5],[11007005537,7],[11007005539,8],[11007005540,9]]},
+  {"id":9640194,"t":{"ref":"111","name":"NTC Commuter - Fort Irwin - Barstow","from":"Barstow - L Street Park and Ride","to":"Fort Irwin Bus Lot","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":14,"s":[[11006946755,4],[11006946754,5]]},
+  {"id":9640195,"t":{"ref":"115","name":"NTC Commuter - Fort Irwin - Helendale","from":"Helendale - Silver Lakes Market","to":"Fort Irwin Bus Lot","network":"VVTA","operator":"Victor Valley Transit Authority","route":"bus","public_transport:version":"1"},"n":15,"s":[[11006946755,5],[11006946754,6]]},
+  {"id":13705288,"t":{"ref":"10","from":"Santa Barbara","to":"Las Vegas","network":"Amtrak Thruway","operator":"San Joaquin Joint Powers Authority","route":"bus","public_transport:version":"1"},"n":12,"s":[[9439209284,4]]},
+  {"id":19696634,"t":{"ref":"118","name":"NTC Commuter - Fort Irwin - Hesperia via Barstow","from":"Fort Irwin Bus Lot","to":"Hesperia - Smoke Tree Street - VVTA","network":"VVTA","route":"bus","public_transport:version":"2"},"n":20,"s":[[11006946754,14]]},
+  {"id":19704986,"t":{"ref":"27","name":"27 - Barstow - Hinkley","from":"Barstow City Hall","to":"Hinkley - Outer Highway 58 & Hidden River","network":"VVTA","route":"bus"},"n":15,"s":[[13228841066,6],[13228888631,12],[13228888632,13]]}
+]
+}

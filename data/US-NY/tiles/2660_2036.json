@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2660,2036],
+"stops":[
+  {"id":12050455580,"lat":43.013235,"lon":-78.198269,"k":"p","n":"Batavia VA"},
+  {"id":12050455581,"lat":43.004377,"lon":-78.176974,"k":"p","n":"UMMC Main Entrance"},
+  {"id":12054209646,"lat":43.005102,"lon":-78.166734,"k":"p","n":"Woodstock Gardens"},
+  {"id":12054209659,"lat":43.000023,"lon":-78.18467,"k":"p","n":"Washington Towers"},
+  {"id":12054417779,"lat":43.011826,"lon":-78.199821,"k":"p","n":"Havenwood Apartments"},
+  {"id":12056159860,"lat":43.004852,"lon":-78.166637,"k":"p","n":"North Spruce Apartments"},
+  {"id":12056160586,"lat":43.005042,"lon":-78.177397,"k":"p","n":"UMMC Lipson Center"},
+  {"id":12056160617,"lat":43.004944,"lon":-78.177273,"k":"p","n":"UMMC Lipson Center"},
+  {"id":12063317309,"lat":43.007623,"lon":-78.197095,"k":"p","n":"Notre Dame"}
+],
+"routes":[
+  {"id":17830966,"t":{"ref":"203","name":"RTS 203 Batavia (S2)","from":"Target Plaza","to":"Batavia VA Hospital","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455580,3]]},
+  {"id":17830967,"t":{"ref":"203","name":"RTS 203 Batavia (S3)","from":"Batavia VA Hospital","to":"United Memorial Medical Center","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12050455580,1],[12050455581,2]]},
+  {"id":17830968,"t":{"ref":"203","name":"RTS 203 Batavia (N)","from":"United Memorial Medical Center","to":"Walmart - Albion","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455581,1]]},
+  {"id":17843007,"t":{"ref":"211","name":"RTS 211 Batavia (P1)","from":"Family Dollar - Batavia","to":"400 Towers","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":8,"s":[[12056159860,2],[12056160586,3],[12054209659,4]]},
+  {"id":17843012,"t":{"ref":"211","name":"RTS 211 Batavia (P6)","from":"400 Towers","to":"Washington Towers","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12054209659,5]]},
+  {"id":17843013,"t":{"ref":"211","name":"RTS 211 Batavia (P7)","from":"Washington Towers","to":"Genesee County DSS","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12054209659,1],[12056160617,2],[12054209646,3]]},
+  {"id":17849071,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P1)","from":"DePaul","to":"Woodstock Gardens","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054209646,2]]},
+  {"id":17849072,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P2)","from":"Woodstock Gardens","to":"400 Towers","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054209646,1]]},
+  {"id":17849073,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P3)","from":"400 Towers","to":"Havenwood Apartments","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12054209659,2],[12050455580,4],[12054417779,5]]},
+  {"id":17849074,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P4)","from":"Havenwood Apartments","to":"LeRoy Meadows","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12054417779,1]]},
+  {"id":17850491,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R1, P12)","from":"Target Plaza","to":"Batavia VA","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455580,3]]},
+  {"id":17850492,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P1)","from":"Batavia VA","to":"Havenwood Apartments","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12050455580,1],[12054417779,2]]},
+  {"id":17850493,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P2)","from":"Havenwood Apartments","to":"400 Towers","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":6,"s":[[12054417779,1],[12054209659,4]]},
+  {"id":17850494,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P3)","from":"400 Towers","to":"Woodstock Gardens","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054209646,2]]},
+  {"id":17850495,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P4)","from":"Woodstock Gardens","to":"DePaul","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12054209646,1]]},
+  {"id":17850502,"t":{"ref":"214","name":"RTS 214 Batavia/LeRoy (R2, P11)","from":"Genesee County DSS","to":"Batavia VA","network":"RTS Genesee","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12050455580,3]]},
+  {"id":17857826,"t":{"ref":"222","name":"RTS 222 Warsaw/Batavia (seasonal, AM N)","from":"US SSA - Batavia","to":"Notre Dame High School","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063317309,3]]},
+  {"id":17857827,"t":{"ref":"222","name":"RTS 222 Warsaw/Batavia (seasonal, S)","from":"Notre Dame High School","to":"US SSA - Batavia","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12063317309,1]]},
+  {"id":17857828,"t":{"ref":"222","name":"RTS 222 Warsaw/Batavia (seasonal, PM N)","from":"US SSA - Batavia","to":"Notre Dame High School","network":"RTS Wyoming","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12063317309,3]]}
+]
+}

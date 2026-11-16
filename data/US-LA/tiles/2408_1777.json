@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"US-LA",
+"tile":[2408,1777],
+"stops":[
+  {"id":9848849201,"lat":30.421861,"lon":-91.141048,"k":"p","n":"Albertsons"},
+  {"id":9848849202,"lat":30.421027,"lon":-91.142066,"k":"p","n":"Wal-Mart (Balis Dr)"},
+  {"id":10264141477,"lat":30.416998,"lon":-91.14423,"k":"p"},
+  {"id":11064285890,"lat":30.414902,"lon":-91.144391,"k":"p"},
+  {"id":11064285896,"lat":30.412358,"lon":-91.145976,"k":"p"},
+  {"id":11064285897,"lat":30.409817,"lon":-91.147593,"k":"p"},
+  {"id":11794813465,"lat":30.445308,"lon":-91.107703,"k":"p","n":"Independence Blvd. @ Department of Motor Vehicles","ref":"1515"},
+  {"id":11794813467,"lat":30.445576,"lon":-91.107473,"k":"p","n":"Independence Blvd. @ Department of Motor Vehicles","ref":"1586"},
+  {"id":12292365800,"lat":30.415989,"lon":-91.141852,"k":"p","n":"Perkins Rd @ College Dr/McDonalds","ref":"1490"},
+  {"id":12292393901,"lat":30.416562,"lon":-91.143734,"k":"p","n":"Perkins @ Lee Dr","ref":"1451"},
+  {"id":12306445084,"lat":30.424827,"lon":-91.132391,"k":"p","n":"Corporate @ Energy","ref":"1578"},
+  {"id":12306445091,"lat":30.425091,"lon":-91.131727,"k":"p","n":"Corporate @ Energy","ref":"1527"},
+  {"id":13099193730,"lat":30.421123,"lon":-91.100272,"k":"p"},
+  {"id":13099193734,"lat":30.421877,"lon":-91.101168,"k":"p"},
+  {"id":13102955609,"lat":30.422805,"lon":-91.102486,"k":"p"},
+  {"id":13102955614,"lat":30.424811,"lon":-91.104798,"k":"p"},
+  {"id":13168555173,"lat":30.432822,"lon":-91.110361,"k":"p"},
+  {"id":13168566636,"lat":30.428028,"lon":-91.107152,"k":"p"},
+  {"id":13168566642,"lat":30.430247,"lon":-91.108572,"k":"p"}
+],
+"routes":[
+  {"id":14297645,"t":{"name":"Sunday Shuttle","from":"Bernie Moore","to":"Walmart (Balis Dr)","network":"Tiger Trails","operator":"Capital Area Transit System","route":"bus","public_transport:version":"2"},"n":29,"s":[[9848849201,13],[9848849202,14]]},
+  {"id":17435539,"t":{"ref":"12","name":"Bus 12: Government St./Jefferson Hwy","from":"CATS Terminal","to":"Mall of Louisiana","network":"CATS","operator":"Capital Area Transit System","colour":"#F5A37B","route":"bus","public_transport:version":"2"},"n":4,"s":[[11794813465,2]]},
+  {"id":17435540,"t":{"ref":"12","name":"Bus 12: Government St./Jefferson Hwy","from":"Mall of Louisiana","to":"CATS Terminal","network":"CATS","operator":"Capital Area Transit System","colour":"#F5A37B","route":"bus","public_transport:version":"2"},"n":4,"s":[[11794813467,3]]},
+  {"id":18217101,"t":{"name":"Bus 17: Perkins Road","from":"Mall of Louisiana","to":"CATS Terminal","network":"CATS","operator":"Capital Area Transit System","colour":"#A80084","route":"bus","public_transport:version":"2"},"n":4,"s":[[12292365800,3]]},
+  {"id":18217102,"t":{"ref":"17","name":"Bus 17: Perkins Road","from":"CATS Terminal","to":"Mall of Louisiana","network":"CATS","operator":"Capital Area Transit System","colour":"#A80084","route":"bus","public_transport:version":"2"},"n":4,"s":[[12292393901,2]]},
+  {"id":18240419,"t":{"ref":"18","name":"Bus 18: Amazon-Cortana/Tigerland","from":"Bob Pettit @ Nicholson","to":"Cortana Transit Center","network":"CATS","operator":"Capital Area Transit System","colour":"#49217F","route":"bus","public_transport:version":"2"},"n":5,"s":[[12306445084,3],[11794813465,4]]},
+  {"id":18240420,"t":{"ref":"18","name":"Bus 18: Amazon-Cortana/Tigerland","from":"Cortana Transit Center","to":"Bob Pettit @ Nicholson","network":"CATS","operator":"Capital Area Transit System","colour":"#49217F","route":"bus","public_transport:version":"2"},"n":5,"s":[[11794813467,2],[12306445091,3]]}
+]
+}

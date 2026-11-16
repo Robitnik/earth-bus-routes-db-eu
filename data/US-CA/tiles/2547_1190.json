@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2547,1190],
+"stops":[
+  {"id":12153159159,"lat":37.358263,"lon":-120.477146,"k":"p","n":"M Street at Bellevue Road;Park & Ride Bellevue Avenue"},
+  {"id":12154509601,"lat":37.353489,"lon":-120.468911,"k":"p","n":"Foothill Drive;G Street @ Foothill Drive","ref":"344"},
+  {"id":12443009543,"lat":37.357336,"lon":-120.468849,"k":"p","n":"G Street @ Mandeville Lane","ref":"343"}
+],
+"routes":[
+  {"id":18001401,"t":{"ref":"C1","name":"C1 - UC Merced - Granville Apartments","from":"University Transit Center","to":"Granville Apartments","network":"CatTracks","route":"bus"},"n":10,"s":[[12153159159,2]]},
+  {"id":18004120,"t":{"ref":"C2","name":"C2 - UC Merced - Village Apartments","from":"University Transit Center","to":"Village Apartments","network":"CatTracks","route":"bus"},"n":12,"s":[[12154509601,2],[12153159159,5]]},
+  {"id":18004145,"t":{"ref":"YosX","name":"Yosemite Express - UC Merced - Moraga/G Street","from":"UC Merced","to":"Moraga, G Street","network":"CatTracks","route":"bus"},"n":6,"s":[[12154509601,2]]},
+  {"id":18026721,"t":{"ref":"G","name":"G-Line - UC Merced - El Redondo & Village Apartments","from":"UC Merced","to":"Village Apartments","network":"CatTracks","route":"bus"},"n":9,"s":[[12153159159,9]]},
+  {"id":18026805,"t":{"ref":"Bobcat","name":"Bobcat Express","from":"UC Merced","to":"Bellevue & R Street","network":"CatTracks","route":"bus"},"n":13,"s":[[12153159159,13]]},
+  {"id":18033217,"t":{"ref":"FastCat","name":"FastCat","from":"UC Merced","to":"Bellevue Ranch & R Street","network":"CatTracks","route":"bus"},"n":10,"s":[[12153159159,9],[12154509601,10]]},
+  {"id":18033309,"t":{"ref":"FastCat2","name":"FasCat 2","from":"UC Merced","to":"Bellevue Ranch & R Street","network":"CatTracks","route":"bus"},"n":12,"s":[[12153159159,2],[12154509601,4]]},
+  {"id":18454642,"t":{"ref":"M4","name":"M4 - North G Street","from":"Merced Transportation Center","to":"Park & Ride Bellevue Avenue","network":"The Bus","operator":"Merced Transit Authority","route":"bus"},"n":36,"s":[[12153159159,34],[12443009543,35],[12154509601,36]]}
+]
+}

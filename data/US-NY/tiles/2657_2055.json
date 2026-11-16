@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2657,2055],
+"stops":[
+  {"id":3655967491,"lat":42.868431,"lon":-77.24271,"k":"x","n":"FLCC Lakeshore Campus"},
+  {"id":8889296702,"lat":42.868403,"lon":-77.242331,"k":"p","n":"FLCC Lakeshore Campus"},
+  {"id":8889472339,"lat":42.875353,"lon":-77.240054,"k":"x","n":"Walmart - Canandaigua"},
+  {"id":8889472340,"lat":42.875422,"lon":-77.240019,"k":"p","n":"Walmart - Canandaigua"},
+  {"id":12077156766,"lat":42.884609,"lon":-77.214128,"k":"p","n":"Ontario County Complex"},
+  {"id":12077156767,"lat":42.873969,"lon":-77.248491,"k":"p","n":"Roseland Plaza"},
+  {"id":12079149608,"lat":42.883652,"lon":-77.210657,"k":"p","n":"Ontario County Complex - Mental Health"},
+  {"id":12079149609,"lat":42.885102,"lon":-77.211643,"k":"p","n":"Ontario County Complex - DSS"}
+],
+"routes":[
+  {"id":12913230,"t":{"ref":"250","name":"RTS 250 Thompson Hospital - FLCC Lakeshore Campus","from":"Thompson Hospital","to":"FLCC Lakeshore Campus","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":2,"s":[[8889296702,2]]},
+  {"id":12913828,"t":{"ref":"250","name":"RTS 250 FLCC Lakeshore Campus - Thompson Hospital","from":"FLCC Lakeshore Campus","to":"Thompson Hospital","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[8889296702,1],[8889472340,2]]},
+  {"id":12916288,"t":{"ref":"252","name":"RTS 252 Canandaigua South (P4)","from":"Ontario County Complex","to":"Canandaigua Transit Hub","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":6,"s":[[12077156766,1],[8889472340,2]]},
+  {"id":17880729,"t":{"ref":"252","name":"RTS 252 Canandaigua South (P3)","from":"FLCC Lakeshore Campus","to":"Ontario County Complex","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8889296702,1],[12077156766,2]]},
+  {"id":17880730,"t":{"ref":"252","name":"RTS 252 Canandaigua South (P2)","from":"Thompson Hospital","to":"FLCC Lakeshore Campus","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":6,"s":[[12077156767,5],[8889296702,6]]},
+  {"id":17884046,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (E1)","from":"Canandaigua Transit Hub","to":"FLCC Lakeshore Campus","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[8889296702,3]]},
+  {"id":17884047,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (E2)","from":"FLCC Lakeshore Campus","to":"Ontario County Complex - Mental Health","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8889296702,1],[12079149608,2]]},
+  {"id":17884048,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (E3)","from":"Ontario County Complex - Mental Health","to":"Flint Road BOCES","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12079149608,1],[12079149609,2]]},
+  {"id":17884541,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (W2)","from":"70 Elizabeth Blackwell","to":"FLCC Lakeshore Campus","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8889296702,2]]},
+  {"id":17884542,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (W3)","from":"FLCC Lakeshore Campus","to":"Ontario County Complex - Mental Health","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8889296702,1],[12079149608,2]]},
+  {"id":17884543,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (W4)","from":"Ontario County Complex - Mental Health","to":"Canandaigua Transit Hub","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12079149608,1],[12079149609,2]]}
+]
+}

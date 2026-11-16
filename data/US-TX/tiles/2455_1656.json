@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2455,1656],
+"stops":[
+  {"id":10733149495,"lat":32.764627,"lon":-97.16745,"k":"p","n":"Eastchase & John T White"},
+  {"id":10733363848,"lat":32.764884,"lon":-97.172323,"k":"p","n":"John T White & John T White"},
+  {"id":10733363849,"lat":32.765566,"lon":-97.16784,"k":"p","n":"John T White & Eastchase"},
+  {"id":10733363850,"lat":32.764008,"lon":-97.172645,"k":"p","n":"John T White N & John T White"},
+  {"id":10733363851,"lat":32.762544,"lon":-97.168173,"k":"p","n":"Anderson & Eastchase"},
+  {"id":10733376007,"lat":32.764728,"lon":-97.167458,"k":"p","n":"Eastchase & John T White - Anderson"}
+],
+"routes":[
+  {"id":15596529,"t":{"ref":"21","name":"Bus 21: Dunkins Transfer Center -> Eastchase","from":"Dr. Dennis Dunkins Transfer Center","to":"Eastchase & John T White","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":4,"s":[[10733363848,2],[10733363849,3],[10733149495,4]]},
+  {"id":15596530,"t":{"ref":"21","name":"Bus 21: Eastchase -> Dunkins Transfer Center","from":"Eastchase & John T White","to":"Dr. Dennis Dunkins Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":2,"s":[[10733149495,1]]},
+  {"id":15596998,"t":{"ref":"22","name":"Bus 22: Eastchase -> Dunkins Transfer Center","from":"Eastchase & John T White - Anderson","to":"Dr. Dennis Dunkins Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":2,"s":[[10733376007,1]]},
+  {"id":15596999,"t":{"ref":"22","name":"Bus 22: Dunkins Transfer Center -> Eastchase","from":"Dr. Dennis Dunkins Transfer Center","to":"Eastchase & John T White - Anderson","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":6,"s":[[10733363851,2],[10733363850,3],[10733363848,4],[10733363849,5],[10733376007,6]]}
+]
+}

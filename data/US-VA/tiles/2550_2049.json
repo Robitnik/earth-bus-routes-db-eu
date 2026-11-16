@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-VA",
+"tile":[2550,2049],
+"stops":[
+  {"id":6504645328,"lat":37.51481,"lon":-77.524369,"k":"p"},
+  {"id":6504645329,"lat":37.512492,"lon":-77.526474,"k":"p"},
+  {"id":6504991509,"lat":37.533673,"lon":-77.532252,"k":"p","n":"Forest Hill Walmart","ref":"2459"},
+  {"id":13095252314,"lat":37.502645,"lon":-77.504049,"k":"p","n":"German School + 201","ref":"2479"},
+  {"id":13095252315,"lat":37.505288,"lon":-77.502431,"k":"p","n":"Midlothian & Giant EB","ref":"3819"},
+  {"id":13095252316,"lat":37.50481,"lon":-77.502251,"k":"p","n":"Giant + Midlothian","ref":"2473"},
+  {"id":13095252317,"lat":37.503452,"lon":-77.502155,"k":"p","n":"Giant Dr + 100 Block","ref":"2474"},
+  {"id":13095252318,"lat":37.500016,"lon":-77.500266,"k":"p","n":"Warwick Village + Biggs","ref":"2475"},
+  {"id":13160936889,"lat":37.500755,"lon":-77.530209,"k":"p","n":"Spring Rock Green","ref":"217"}
+],
+"routes":[
+  {"id":9631300,"t":{"ref":"1B","name":"GRTC 1B Chamberlayne/Hull/Warwick","network":"GRTC","operator":"Greater Richmond Transit Company","route":"bus","public_transport:version":"1"},"n":75,"s":[[13095252314,71],[13095252315,72],[13095252316,73],[13095252317,74]]},
+  {"id":19625229,"t":{"ref":"2A","name":"Bus 2A: North Ave => Stony Point","from":"North Ave","to":"Stony Point","colour":"#1a6051","route":"bus","public_transport:version":"2"},"n":18,"s":[[6504991509,17]]},
+  {"id":19625230,"t":{"ref":"2A","name":"Bus 2A: Stony Point => North Ave","from":"Stony Point","to":"North Ave","network":"GRTC","colour":"#1a6051","route":"bus","public_transport:version":"2"},"n":19,"s":[[6504991509,2]]},
+  {"id":19630443,"t":{"ref":"2B","name":"Bus 2B: North Ave => Midlothian","from":"North Ave","to":"Midlothian","network":"GRTC","colour":"#1a6051","route":"bus","public_transport:version":"2"},"n":13,"s":[[13160936889,12]]},
+  {"id":19680072,"t":{"ref":"1A","name":"Bus 1A: Midlothian => Downtown","from":"Midlothian","to":"Downtown","colour":"#004f99","route":"bus","public_transport:version":"2"},"n":26,"s":[[13095252315,3]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2551,1149],
+"stops":[
+  {"id":2950176332,"lat":37.599203,"lon":-122.500157,"k":"p","n":"Cabrillo Highway & Crespi Drive"},
+  {"id":5970698734,"lat":37.595593,"lon":-122.502961,"k":"s","n":"Linda Mar Park and Ride"},
+  {"id":6583043857,"lat":37.5956,"lon":-122.503031,"k":"x","n":"Linda Mar Park and Ride"},
+  {"id":6608025028,"lat":37.570206,"lon":-122.515666,"k":"x","n":"Devil’s Slide Tunnel"},
+  {"id":6608025029,"lat":37.569948,"lon":-122.515767,"k":"x","n":"Devil’s Slide Tunnel"},
+  {"id":6617274983,"lat":37.599266,"lon":-122.50025,"k":"x","n":"Cabrillo Highway & Crespi Drive"},
+  {"id":12790178827,"lat":37.595291,"lon":-122.503022,"k":"x","n":"Linda Mar Boulevard & Highway 1"},
+  {"id":12790178828,"lat":37.595257,"lon":-122.503059,"k":"p","n":"Linda Mar Boulevard & Highway 1","ref":"311621"},
+  {"id":5000700981897,"lat":37.595598,"lon":-122.502962,"k":"p"},
+  {"id":5000704217643,"lat":37.570119,"lon":-122.515608,"k":"p"},
+  {"id":5000704217644,"lat":37.570051,"lon":-122.515855,"k":"p"}
+],
+"routes":[
+  {"id":3440329,"t":{"ref":"110","name":"SamTrans 110: Linda Mar => Daly City BART","from":"Linda Mar Park and Ride","to":"Daly City BART","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000700981897,1],[2950176332,2]]},
+  {"id":3440330,"t":{"ref":"110","name":"SamTrans 110: Daly City BART => Linda Mar","from":"Daly City BART","to":"Linda Mar Park and Ride","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":53,"s":[[12790178828,32],[5000700981897,53]]},
+  {"id":8589054,"t":{"ref":"PCX","name":"SamTrans PCX: Daly City BART => Pacifica","from":"Daly City BART","to":"Linda Mar Park and Ride","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000700981897,8]]},
+  {"id":8589055,"t":{"ref":"112","name":"SamTrans 112: Linda Mar => Colma BART","from":"Linda Mar Park and Ride","to":"Colma BART","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000700981897,1],[2950176332,2]]},
+  {"id":9756218,"t":{"ref":"PCX","name":"SamTrans PCX: Pacifica => Daly City BART","from":"Linda Mar Park and Ride","to":"Daly City BART","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000700981897,1],[2950176332,2]]},
+  {"id":9756219,"t":{"ref":"112","name":"SamTrans 112: Colma BART => Linda Mar","from":"Colma BART","to":"Linda Mar Park and Ride","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":36,"s":[[5000700981897,36]]},
+  {"id":9759525,"t":{"ref":"117","name":"SamTrans 117: Linda Mar => Seton Coastside => Moonridge Apartments","from":"Linda Mar Park and Ride","to":"Moonridge Apartments","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000700981897,1],[5000704217644,2]]},
+  {"id":9759526,"t":{"ref":"117","name":"SamTrans 117: Moonridge Apartments => Seton Coastside => Linda Mar","from":"Moonridge Apartments","to":"Linda Mar Park and Ride","network":"SamTrans","operator":"San Mateo County Transit District","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000704217643,40],[5000700981897,41]]}
+]
+}

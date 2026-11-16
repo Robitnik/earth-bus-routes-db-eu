@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-MI",
+"tile":[2730,1851],
+"stops":[
+  {"id":4898870305,"lat":46.545939,"lon":-87.415024,"k":"p","n":"Garfield Bus Stop"},
+  {"id":4898870306,"lat":46.547759,"lon":-87.421466,"k":"p","n":"Shopko Bus Stop"},
+  {"id":4898870307,"lat":46.547398,"lon":-87.433536,"k":"p","n":"Marquette Mall Bus Stop"},
+  {"id":4898889939,"lat":46.543609,"lon":-87.400179,"k":"p","n":"Snowberry Bus Stop"},
+  {"id":4898889940,"lat":46.540078,"lon":-87.402441,"k":"p","n":"Jacobetti Home Bus Stop"},
+  {"id":4898889941,"lat":46.527322,"lon":-87.406229,"k":"p","n":"Pioneer Bus Stop"},
+  {"id":4898889942,"lat":46.542687,"lon":-87.423999,"k":"p","n":"Econo Bus Stop"},
+  {"id":4898928965,"lat":46.544318,"lon":-87.435634,"k":"p","n":"Whetstone Village Bus Stop"}
+],
+"routes":[
+  {"id":7313612,"t":{"name":"South Marquette Bus Route","network":"MarqTran","operator":"Marquette Transit Authority","route":"bus"},"n":4,"s":[[4898889939,1],[4898889940,2],[4898889941,3],[4898889942,4]]},
+  {"id":7313647,"t":{"name":"Mall Shuttle","network":"MarqTran","operator":"Marquette Transit Authority","route":"bus"},"n":4,"s":[[4898870305,1],[4898870306,2],[4898870307,4]]},
+  {"id":7313663,"t":{"name":"Marquette Shopper","network":"MarqTran","operator":"Marquette Transit Authority","route":"bus"},"n":8,"s":[[4898928965,6],[4898870307,7],[4898870306,8]]}
+]
+}

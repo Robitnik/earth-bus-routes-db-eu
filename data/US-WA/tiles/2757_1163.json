@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"US-WA",
+"tile":[2757,1163],
+"stops":[
+  {"id":6429566622,"lat":47.863298,"lon":-121.802477,"k":"p","n":"Sultan Park & Ride Bay 1","ref":"1929"},
+  {"id":6429566623,"lat":47.862983,"lon":-121.80395,"k":"p","n":"Sultan Park & Ride Bay 2","ref":"548"},
+  {"id":8600731235,"lat":47.862963,"lon":-121.809792,"k":"p","n":"8th St & Alder St","ref":"778"},
+  {"id":8600731236,"lat":47.862845,"lon":-121.816385,"k":"p","n":"4th St & Alder St","ref":"639"},
+  {"id":8600731237,"lat":47.862608,"lon":-121.807928,"k":"p","n":"Main St & Hwy 2","ref":"1830"},
+  {"id":8600731238,"lat":47.862508,"lon":-121.816568,"k":"p","n":"4th St & Main St","ref":"1123"},
+  {"id":8600750319,"lat":47.85808,"lon":-121.830246,"k":"p","n":"Hwy 2 & Fern Bluff Rd","ref":"558"},
+  {"id":8600750322,"lat":47.858418,"lon":-121.82974,"k":"p","n":"Hwy 2 & Old Owen Rd","ref":"1912"}
+],
+"routes":[
+  {"id":9523045,"t":{"ref":"271","name":"Community Transit Route 271","network":"Community Transit","operator":"Community Transit","route":"bus","public_transport:version":"1"},"n":3,"s":[[6429566623,1]]},
+  {"id":9523046,"t":{"ref":"270","name":"Community Transit Route 270","network":"Community Transit","operator":"Community Transit","route":"bus","public_transport:version":"1"},"n":4,"s":[[6429566623,3],[6429566622,4]]},
+  {"id":12550758,"t":{"ref":"271","name":"Community Transit Route 271 Gold Bar","network":"Community Transit","operator":"Community Transit","route":"bus","public_transport:version":"2"},"n":43,"s":[[8600731236,38],[6429566623,39]]},
+  {"id":12550759,"t":{"ref":"271","name":"Community Transit Route 271 Everett","network":"Community Transit","operator":"Community Transit","route":"bus","public_transport:version":"2"},"n":53,"s":[[6429566623,10],[8600731237,11],[8600731235,12],[8600731238,13],[8600750322,14]]}
+]
+}

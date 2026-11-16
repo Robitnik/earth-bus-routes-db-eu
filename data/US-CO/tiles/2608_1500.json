@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"US-CO",
+"tile":[2608,1500],
+"stops":[
+  {"id":11040089018,"lat":40.408141,"lon":-104.995582,"k":"p","n":"Loveland Park and Ride"},
+  {"id":11754549867,"lat":40.420311,"lon":-104.99287,"k":"p","n":"Centerra-Loveland Mobility Hub - Southbound"},
+  {"id":11754549868,"lat":40.420323,"lon":-104.992677,"k":"p","n":"Centerra-Loveland Mobility Hub - Northbound"},
+  {"id":12827490930,"lat":40.421946,"lon":-104.993654,"k":"p","n":"Centerra Loveland Mobility Hub","ref":"700"},
+  {"id":12918613183,"lat":40.409697,"lon":-104.998663,"k":"p","n":"NB Foxtrail & Stone Creek","ref":"717"}
+],
+"routes":[
+  {"id":13093593,"t":{"name":"Bustang North","from":"Fort Collins Downtown Transit Center","to":"Denver Union Station","operator":"Colorado Department of Transportation","route":"bus","public_transport:version":"2"},"n":3,"s":[[11754549867,3]]},
+  {"id":22056299,"t":{"ref":"3","name":"Route 3: Cascade & 22nd => Centerra Loveland Mobility Hub","from":"Cascade & 22nd","to":"Centerra Loveland Mobility Hub","network":"COLT","colour":"orange","route":"bus","public_transport:version":"2"},"n":27,"s":[[12918613183,24],[12827490930,27]]},
+  {"id":22056300,"t":{"ref":"3","name":"Route 3: Centerra Loveland Mobility Hub => Cascade & 22nd","from":"Centerra Loveland Mobility Hub","to":"Cascade & 22nd","network":"COLT","colour":"orange","route":"bus","public_transport:version":"2"},"n":20,"s":[[12827490930,1]]}
+]
+}

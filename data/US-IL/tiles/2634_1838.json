@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"US-IL",
+"tile":[2634,1838],
+"stops":[
+  {"id":6139233275,"lat":41.71284,"lon":-88.063897,"k":"p","n":"Boughton & Falconridge/Winston","ref":"15665"},
+  {"id":6139256642,"lat":41.702021,"lon":-88.068563,"k":"p","n":"Route 53  & Lee/Northridge","ref":"15657"},
+  {"id":6157287511,"lat":41.702261,"lon":-88.068265,"k":"p","n":"Route 53 & Northridge/Lee","ref":"15422"},
+  {"id":6157287512,"lat":41.712521,"lon":-88.064042,"k":"p","n":"Boughton & Falconridge/Winston","ref":"15430"},
+  {"id":7972530825,"lat":41.708168,"lon":-88.068821,"k":"p","n":"Route 53 & Robinhood","ref":"15661"},
+  {"id":7972530826,"lat":41.717696,"lon":-88.050883,"k":"p","n":"Boughton & Pinecrest","ref":"15436"},
+  {"id":10595235844,"lat":41.718072,"lon":-88.050533,"k":"p","n":"Boughton & Pinecrest","ref":"15671"},
+  {"id":10595235849,"lat":41.716377,"lon":-88.054731,"k":"p","n":"Boughton & Aaron","ref":"15669"},
+  {"id":10595235850,"lat":41.716376,"lon":-88.054153,"k":"p","n":"Boughton & Miner","ref":"15435"},
+  {"id":10595235851,"lat":41.7147,"lon":-88.058915,"k":"p","n":"Boughton & Goodwin","ref":"15667"},
+  {"id":10595235852,"lat":41.714546,"lon":-88.058708,"k":"p","n":"Boughton & Goodwin","ref":"15432"},
+  {"id":10595235853,"lat":41.710951,"lon":-88.068093,"k":"p","n":"Boughton & Route 53","ref":"15428"},
+  {"id":10595235854,"lat":41.709979,"lon":-88.068849,"k":"p","n":"Route 53 & Boughton","ref":"15663"},
+  {"id":10595235859,"lat":41.707942,"lon":-88.068453,"k":"p","n":"Route 53 & Robinhood","ref":"15426"},
+  {"id":10595235860,"lat":41.705933,"lon":-88.068696,"k":"p","n":"Route 53 & Rockhurst","ref":"15659"},
+  {"id":10595235861,"lat":41.705653,"lon":-88.068403,"k":"p","n":"Route 53 & Rockhurst","ref":"15424"}
+],
+"routes":[
+  {"id":9107798,"t":{"ref":"850","name":"Bus 850: Michigan/Superior => Pace Canterbury Park-N-Ride","from":"Michigan & Superior","to":"Pace Canterbury Park-N-Ride","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":12,"s":[[6139233275,10],[6139256642,11]]},
+  {"id":9137659,"t":{"ref":"851","name":"Bus 851: Pace White Fence Farm Park-N-Ride => Michigan/Superior","from":"Pace White Fence Farm Park-N-Ride","to":"Michigan & Superior","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":20,"s":[[6157287511,3],[6157287512,4]]},
+  {"id":9141822,"t":{"ref":"850","name":"Bus 850: Pace Canterbury Park-N-Ride => Michigan/Superior","from":"Pace Canterbury Park-N-Ride","to":"Michigan & Superior","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":19,"s":[[6157287511,2],[6157287512,3]]},
+  {"id":11373819,"t":{"ref":"834","name":"Bus 834: Joliet Metra → Lewis University → Branding/Finley","from":"Joliet Metra","to":"Branding/Finley","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":102,"s":[[6157287511,51],[10595235861,52],[10595235859,53],[10595235853,54],[6157287512,55],[10595235852,56],[10595235850,57],[7972530826,58]]},
+  {"id":15411808,"t":{"ref":"834","name":"Bus 834: Branding/Finley → Hobson → Joliet Metra","from":"Branding/Finley","to":"Joliet Metra","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":106,"s":[[10595235844,46],[10595235849,47],[10595235851,48],[6139233275,49],[10595235854,50],[7972530825,51],[10595235860,52],[6139256642,53]]},
+  {"id":15411809,"t":{"ref":"834","name":"Bus 834: Branding/Finley → Landmark Office Complex → Lewis University → Joliet Metra","from":"Branding/Finley","to":"Joliet Metra","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":103,"s":[[10595235844,43],[10595235849,44],[10595235851,45],[6139233275,46],[10595235854,47],[7972530825,48],[10595235860,49],[6139256642,50]]},
+  {"id":15411810,"t":{"ref":"834","name":"Bus 834: Branding/Finley → Joliet Metra","from":"Branding/Finley","to":"Joliet Metra","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":99,"s":[[10595235844,40],[10595235849,41],[10595235851,42],[6139233275,43],[10595235854,44],[7972530825,45],[10595235860,46],[6139256642,47]]},
+  {"id":15411814,"t":{"ref":"834","name":"Bus 834: Joliet Metra → Hobson → Landmark Office Complex → Branding/Finley","from":"Joliet Metra","to":"Branding/Finley","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":111,"s":[[6157287511,51],[10595235861,52],[10595235859,53],[10595235853,54],[6157287512,55],[10595235852,56],[10595235850,57],[7972530826,58]]},
+  {"id":15411815,"t":{"ref":"834","name":"Bus 834: Joliet Metra → Hobson → Branding/Finley","from":"Joliet Metra","to":"Branding/Finley","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":108,"s":[[6157287511,51],[10595235861,52],[10595235859,53],[10595235853,54],[6157287512,55],[10595235852,56],[10595235850,57],[7972530826,58]]},
+  {"id":15411816,"t":{"ref":"834","name":"Bus 834: Joliet Metra → Branding/Finley","from":"Joliet Metra","to":"Branding/Finley","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":101,"s":[[6157287511,50],[10595235861,51],[10595235859,52],[10595235853,53],[6157287512,54],[10595235852,55],[10595235850,56],[7972530826,57]]},
+  {"id":15411817,"t":{"ref":"834","name":"Bus 834: Branding/Finley → Lewis University → Joliet Metra","from":"Branding/Finley","to":"Joliet Metra","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":100,"s":[[10595235844,40],[10595235849,41],[10595235851,42],[6139233275,43],[10595235854,44],[7972530825,45],[10595235860,46],[6139256642,47]]}
+]
+}

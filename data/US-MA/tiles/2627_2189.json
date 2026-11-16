@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-MA",
+"tile":[2627,2189],
+"stops":[
+  {"id":1408377508,"lat":41.390995,"lon":-70.514607,"k":"p","n":"Church Street","ref":"EDPOSVTA"},
+  {"id":1408378397,"lat":41.36356,"lon":-70.52344,"k":"p","n":"Katama Airfield","ref":"KATAMVTA"},
+  {"id":1408379295,"lat":41.35316,"lon":-70.51051,"k":"p","n":"Mattakesett Resort","ref":"MATTAVTA"},
+  {"id":1408379298,"lat":41.389398,"lon":-70.512056,"k":"p","n":"Mayhew Lane","ref":"MAYHEVTA"},
+  {"id":1408379354,"lat":41.3859,"lon":-70.54092,"k":"p","n":"Meshacket Road","ref":"MESHAVTA"},
+  {"id":1408381474,"lat":41.35081,"lon":-70.528,"k":"p","n":"South Beach - Right Fork","ref":"SOUTHRIGHTVTA"},
+  {"id":1408381492,"lat":41.38437,"lon":-70.51868,"k":"p","n":"South Water Street","ref":"SOUTHWATERVTA"},
+  {"id":1408381856,"lat":41.395201,"lon":-70.529615,"k":"p","n":"The Triangle","ref":"TRIANVTA"},
+  {"id":1408381958,"lat":41.39433,"lon":-70.52897,"k":"p","n":"Upper Main St Park and Ride Lot","ref":"UPPERVTA"},
+  {"id":13113279778,"lat":41.396607,"lon":-70.530394,"k":"p","n":"The Triangle"},
+  {"id":13113279779,"lat":41.394009,"lon":-70.526223,"k":"p","n":"Edgartown Stop and Shop"},
+  {"id":13113279780,"lat":41.391451,"lon":-70.519551,"k":"p","n":"Pine Street"},
+  {"id":13113279781,"lat":41.391408,"lon":-70.519946,"k":"p","n":"Cannonball Park"}
+],
+"routes":[
+  {"id":18228038,"t":{"ref":"1","name":"VTA Route 1: Edgartown-Vineyard Haven Road Northbound","from":"Edgartown","to":"Vineyard Haven","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":7,"s":[[1408377508,1],[1408381856,2]]},
+  {"id":18228039,"t":{"ref":"1","name":"VTA Route 1: Edgartown-Vineyard Haven Road Southbound","from":"Vineyard Haven","to":"Edgartown","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":5,"s":[[1408377508,5]]},
+  {"id":18284917,"t":{"ref":"13","name":"VTA Route 13 Westbound","from":"Edgartown","to":"Vineyard Haven","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":2,"s":[[1408377508,1]]},
+  {"id":18284920,"t":{"ref":"11","name":"VTA Route 11 Westbound","from":"Mayhew Lane Edgartown","to":"Upper Main St Park and Ride","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":2,"s":[[1408379298,1],[1408381958,2]]},
+  {"id":18284921,"t":{"ref":"11","name":"VTA Route 11 Eastbound","from":"Upper Main St Park and Ride","to":"Mayhew Lane Edgartown","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":2,"s":[[1408381958,1],[1408379298,2]]},
+  {"id":18285252,"t":{"ref":"8","name":"VTA Route 8 South Beach","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":7,"s":[[1408377508,1,7],[1408378397,2],[1408381474,3],[1408379295,5],[1408381492,6]]},
+  {"id":18285253,"t":{"ref":"6","name":"VTA Route 6 Westbound","from":"Edgartown","to":"West Tisbury","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":5,"s":[[1408377508,1]]},
+  {"id":18285254,"t":{"ref":"6","name":"VTA Route 6 Eastbound","from":"West Tisbury","to":"Edgartown","network":"VTA","operator":"VTA","route":"bus","public_transport:version":"2"},"n":5,"s":[[1408379354,4],[1408377508,5]]}
+]
+}

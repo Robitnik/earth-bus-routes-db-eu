@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2458,1659],
+"stops":[
+  {"id":4523108789,"lat":32.909878,"lon":-97.008241,"k":"p","n":"500"},
+  {"id":6396996978,"lat":32.900219,"lon":-97.040256,"k":"p","n":"FlixBus DFW Airport"},
+  {"id":6939553613,"lat":32.90028,"lon":-97.040262,"k":"x","n":"FlixBus DFW Airport"},
+  {"id":9106415746,"lat":32.908071,"lon":-97.040112,"k":"x","n":"DFW Airport"},
+  {"id":10707681470,"lat":32.906679,"lon":-97.042854,"k":"p","n":"DFW Airport Terminal B"},
+  {"id":10759962810,"lat":32.916022,"lon":-97.042704,"k":"p","n":"DFW Employee North","ref":"1"},
+  {"id":10759962827,"lat":32.916736,"lon":-97.044879,"k":"p","n":"DFW Employee North","ref":"3"},
+  {"id":10759962841,"lat":32.914475,"lon":-97.046003,"k":"p","n":"DFW Employee North","ref":"4"},
+  {"id":10759962846,"lat":32.912222,"lon":-97.044899,"k":"p","n":"DFW Employee North","ref":"5"},
+  {"id":11517154749,"lat":32.917065,"lon":-97.04327,"k":"p","n":"DFW Employee North","ref":"2"}
+],
+"routes":[
+  {"id":9474519,"t":{"ref":"2221","name":"Flixbus 2221: Dallas/Fort Worth => Biloxi","from":"Dallas/Fort Worth","to":"Biloxi","network":"Flixbus","operator":"AJL International","route":"bus","public_transport:version":"2"},"n":6,"s":[[6396996978,3]]},
+  {"id":9474520,"t":{"ref":"2221","name":"Flixbus 2221: Biloxi => Dallas/Fort Worth","from":"Biloxi","to":"Dallas/Fort Worth","network":"Flixbus","operator":"AJL International","route":"bus","public_transport:version":"2"},"n":6,"s":[[6396996978,5]]},
+  {"id":15553540,"t":{"ref":"31","name":"Bus 31: CentrePort Station -> DFW Airport Terminal B","from":"CentrePort/DFW Airport Station","to":"DFW Airport Terminal B","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5c599d","route":"bus","public_transport:version":"2"},"n":5,"s":[[10707681470,5]]},
+  {"id":15553541,"t":{"ref":"31","name":"Bus 31: DFW Airport Terminal B -> CentrePort Station","from":"DFW Airport Terminal B","to":"CentrePort/DFW Airport Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5c599d","route":"bus","public_transport:version":"2"},"n":5,"s":[[10707681470,1]]}
+]
+}

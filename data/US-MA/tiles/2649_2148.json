@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"US-MA",
+"tile":[2649,2148],
+"stops":[
+  {"id":1408377749,"lat":42.465246,"lon":-72.575985,"k":"p","n":"Garage Road (In)","ref":"8005"},
+  {"id":1408377750,"lat":42.465224,"lon":-72.575538,"k":"p","n":"Garage Road (Out)","ref":"6"},
+  {"id":1408377778,"lat":42.458464,"lon":-72.573532,"k":"p","n":"Russell Street","ref":"8"},
+  {"id":1408380466,"lat":42.459343,"lon":-72.578453,"k":"p","n":"Pioneer Valley Apts","ref":"7"},
+  {"id":1408381425,"lat":42.451461,"lon":-72.562769,"k":"p","n":"Sunderland Plaza","ref":"12"},
+  {"id":1408381454,"lat":42.454792,"lon":-72.567802,"k":"p","n":"Silver Lane","ref":"10"},
+  {"id":1408381705,"lat":42.457664,"lon":-72.581467,"k":"p","n":"Sugarloaf Estates","ref":"9"},
+  {"id":1408381706,"lat":42.467815,"lon":-72.595367,"k":"p","n":"Sugarloaf Street (In)","ref":"5"},
+  {"id":1408381707,"lat":42.467989,"lon":-72.595394,"k":"p","n":"Sugarloaf Street (Out)","ref":"4"},
+  {"id":1408381755,"lat":42.464993,"lon":-72.580261,"k":"p","n":"Sunderland Center","ref":"8006"},
+  {"id":8520867642,"lat":42.452311,"lon":-72.563652,"k":"p","n":"Cliffside Apts","ref":"11"},
+  {"id":13087475173,"lat":42.469211,"lon":-72.59699,"k":"p","n":"Sugarloaf St and Gromacki Ave"},
+  {"id":13087475174,"lat":42.467981,"lon":-72.595386,"k":"p","n":"Sugarloaf State Park"}
+],
+"routes":[
+  {"id":9233360,"t":{"ref":"46","name":"Bus 46: Whately P&R => UMass","from":"Whately Park & Ride","to":"UMass","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#0b9660","route":"bus","public_transport:version":"2"},"n":14,"s":[[1408377749,3],[1408381425,4]]},
+  {"id":9233725,"t":{"ref":"31","name":"FRTA Bus 31: JWO Transit Center => Northampton Academy of Music","from":"John W. Oliver Transit Center","to":"Academy of Music Northampton","network":"Franklin Regional Transit Authority","operator":"Franklin Transit Management","route":"bus","public_transport:version":"2"},"n":30,"s":[[13087475173,14]]},
+  {"id":18859070,"t":{"ref":"31","name":"Bus 31: South Amherst => Sunderland","from":"South Amherst","to":"Sunderland","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":24,"s":[[8520867642,21],[1408377750,22],[1408381755,23],[1408381705,24]]},
+  {"id":18859071,"t":{"ref":"31","name":"Bus 31: Sunderland => South Amherst","from":"Sunderland","to":"South Amherst","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":23,"s":[[1408381705,1],[1408380466,2],[1408377778,3],[1408381454,4],[1408381425,5]]},
+  {"id":18859120,"t":{"ref":"31","name":"Bus 31: Hampshire Mall => South Amherst => Sunderland","from":"Hampshire Mall","to":"Sunderland","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":26,"s":[[8520867642,23],[1408377750,24],[1408381755,25],[1408381705,26]]},
+  {"id":18859121,"t":{"ref":"31","name":"Bus 31: Sunderland => South Amherst => Hampshire Mall","from":"Sunderland","to":"Hampshire Mall","network":"PVTA","operator":"UMass Transit Services","colour":"pink","route":"bus","public_transport:version":"2"},"n":25,"s":[[1408381705,1],[1408380466,2],[1408377778,3],[1408381454,4],[1408381425,5]]},
+  {"id":19505918,"t":{"ref":"46","name":"Bus 46: UMass => Whately P&R","from":"UMass","to":"Whately Park & Ride","network":"PVTA","operator":"Pioneer Valley Transit Authority","colour":"#0b9660","route":"bus","public_transport:version":"2"},"n":17,"s":[[8520867642,12],[1408377750,13],[1408381707,14]]},
+  {"id":19508685,"t":{"ref":"31","name":"FRTA Bus 31: Northampton Academy of Music => JWO Transit Center","from":"Academy of Music Northampton","to":"John W. Oliver Transit Center","network":"Franklin Regional Transit Authority","operator":"Franklin Transit Management","route":"bus","public_transport:version":"2"},"n":26,"s":[[13087475174,14]]}
+]
+}

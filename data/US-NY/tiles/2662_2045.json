@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2662,2045],
+"stops":[
+  {"id":10303608702,"lat":43.115573,"lon":-77.729293,"k":"p","n":"Chili & Chestnut Ridge"},
+  {"id":11930095124,"lat":43.146871,"lon":-77.711515,"k":"p","n":"West Gates Shopping Center","ref":"311"},
+  {"id":11930095125,"lat":43.147269,"lon":-77.710973,"k":"p","n":"West Gates Shopping Center"},
+  {"id":11932155719,"lat":43.105833,"lon":-77.749116,"k":"p","n":"Chili & Paul","ref":"450"},
+  {"id":11932155720,"lat":43.105682,"lon":-77.748896,"k":"p","n":"Chili & Paul","ref":"449"}
+],
+"routes":[
+  {"id":9351910,"t":{"ref":"19","name":"RTS 19 Buffalo Road (W)","from":"RTS Transit Center","to":"Rochester Tech Park Connection Hub","network":"Regional Transit Service","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":10,"s":[[11930095125,9]]},
+  {"id":9351911,"t":{"ref":"18","name":"RTS 18 Chili (W)","from":"RTS Transit Center","to":"Cedars of Chili","network":"Regional Transit Service","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":10,"s":[[10303608702,8],[11932155719,9]]},
+  {"id":17612983,"t":{"ref":"19","name":"RTS 19 Buffalo Road (E)","from":"Rochester Tech Park Connection Hub","to":"RTS Transit Center","network":"Regional Transit Service","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":8,"s":[[11930095124,2]]},
+  {"id":17612984,"t":{"ref":"18","name":"RTS 18 Chili (E1)","from":"Cedars of Chili","to":"Walmart - Westgate Plaza","network":"Regional Transit Service","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[11932155720,2]]}
+]
+}

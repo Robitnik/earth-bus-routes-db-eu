@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"US-OR",
+"tile":[2646,1141],
+"stops":[
+  {"id":35556812,"lat":42.32485,"lon":-122.942358,"k":"x","n":"W Main St - East of Hwy 238","ref":"300190"},
+  {"id":12710759488,"lat":42.323512,"lon":-122.901166,"k":"p","n":"West Main and Lozier - Thunderbird","ref":"300350"},
+  {"id":12710759489,"lat":42.323723,"lon":-122.90172,"k":"p","n":"West Main and Ross - Albertsons","ref":"300130"},
+  {"id":12710759490,"lat":42.323636,"lon":-122.906244,"k":"p","n":"W Main St - Bi-Mart","ref":"300340"},
+  {"id":12710759491,"lat":42.323774,"lon":-122.905297,"k":"p","n":"W Main St - Bi-Mart","ref":"300140"},
+  {"id":12710793987,"lat":42.323838,"lon":-122.909389,"k":"p","n":"Oak Grove Elementary","ref":"300150"},
+  {"id":12710793988,"lat":42.323694,"lon":-122.909395,"k":"p","n":"W Main St - West of Oak Grove Rd","ref":"300330"},
+  {"id":12710793989,"lat":42.32382,"lon":-122.918467,"k":"p","n":"W Main St - East of Wellen Ave","ref":"300160"},
+  {"id":12710793990,"lat":42.323684,"lon":-122.917064,"k":"p","n":"W Main St - East of Janney Ln","ref":"300320"},
+  {"id":12710793991,"lat":42.323776,"lon":-122.922832,"k":"p","n":"W Main St - East of Pioneer Ave","ref":"300170"},
+  {"id":12710793992,"lat":42.323664,"lon":-122.922831,"k":"p","n":"W Main St - East of Pioneer Ln","ref":"300310"},
+  {"id":12710793993,"lat":42.32369,"lon":-122.933297,"k":"p","n":"W Main St - West of Vashti Way","ref":"300180"},
+  {"id":12710793994,"lat":42.323606,"lon":-122.933308,"k":"p","n":"W Main St - West of Arnold Ln","ref":"300300"},
+  {"id":12710793995,"lat":42.324893,"lon":-122.942332,"k":"p","n":"W Main St - East of Hwy 238","ref":"300190"},
+  {"id":12710793996,"lat":42.324788,"lon":-122.94242,"k":"p","n":"W Main St - East of Hwy 238","ref":"300290"},
+  {"id":12714515031,"lat":42.323583,"lon":-122.906264,"k":"x","n":"W Main St - Bi-Mart","ref":"300340"},
+  {"id":12735365200,"lat":42.323643,"lon":-122.901162,"k":"x","n":"West Main and Lozier - Thunderbird","ref":"300350"},
+  {"id":12735389001,"lat":42.323704,"lon":-122.905297,"k":"x","n":"W Main St - Bi-Mart","ref":"300140"},
+  {"id":12735389002,"lat":42.323643,"lon":-122.901717,"k":"x","n":"West Main and Ross - Albertsons","ref":"300130"},
+  {"id":12735825235,"lat":42.323751,"lon":-122.917065,"k":"x","n":"W Main St - East of Janney Ln","ref":"300320"},
+  {"id":12735825242,"lat":42.323639,"lon":-122.9333,"k":"x","n":"W Main St - West of Vashti Way","ref":"300180"},
+  {"id":12735825243,"lat":42.323726,"lon":-122.92283,"k":"x","n":"W Main St - East of Pioneer Ave","ref":"300170"},
+  {"id":12735825244,"lat":42.323744,"lon":-122.918469,"k":"x","n":"W Main St - East of Wellen Ave","ref":"300160"},
+  {"id":12735825245,"lat":42.32376,"lon":-122.909394,"k":"x","n":"Oak Grove Elementary","ref":"300150"}
+],
+"routes":[
+  {"id":12201682,"t":{"ref":"2","name":"West Medford","from":"200 S Front St","to":"W Main St - East Of Oak Grove Rd","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#F2B843","route":"bus"},"n":26,"s":[[12710759489,22],[12710759488,23],[12710759490,24],[12710759491,25]]},
+  {"id":12205508,"t":{"ref":"30","name":"Jacksonville","from":"200 S Front St","to":"C St - West Of 4th St","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#257ED6","route":"bus"},"n":51,"s":[[12710759489,7],[12710759488,8],[12710759490,9],[12710759491,10],[12710793987,29,51],[12710793988,30,50],[12710793990,31,49],[12710793989,32,48],[12710793991,33,47],[12710793992,34],[12710793996,43],[12710793995,44],[12710793994,45],[12710793993,46]]},
+  {"id":18916407,"t":{"ref":"2","name":"West Main Albertsons => West Main Bi-Mart","from":"West Main Albertsons","to":"West Main Bi-Mart","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#F2B843","route":"bus","public_transport:version":"2"},"n":3,"s":[[12710759489,1],[12710759491,2],[12710759490,3]]},
+  {"id":18916408,"t":{"ref":"2","name":"West Main Bi-Mart => Front Street Station","from":"West Main Bi-Mart","to":"Front Street Station","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#F2B843","route":"bus","public_transport:version":"2"},"n":12,"s":[[12710759490,1],[12710759488,2]]},
+  {"id":18917811,"t":{"ref":"30","name":"Front Street Station => Jacksonville (Mon-Fri)","from":"Front Street Station","to":"\"C\" and 4th Street - Jacksonville","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#257ED6","route":"bus","public_transport:version":"2"},"n":25,"s":[[12710759489,14],[12710759491,15],[12710793987,16],[12710793989,17],[12710793991,18],[12710793993,19],[12710793995,20]]},
+  {"id":18917812,"t":{"ref":"30","name":"Jacksonville => Front Street Station (Mon-Fri)","from":"Jacksonville","to":"\"C\" and 4th Street - Jacksonville","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#257ED6","route":"bus","public_transport:version":"2"},"n":24,"s":[[12710793996,5],[12710793994,6],[12710793992,7],[12710793990,8],[12710793988,9],[12710759490,10],[12710759488,11]]},
+  {"id":18959635,"t":{"ref":"2","name":"Front Street Station => West Main Albertson","from":"Front Street Station","to":"West Main Albertson","network":"RVTD","operator":"Rogue Valley Transportation District","colour":"#F2B843","route":"bus","public_transport:version":"2"},"n":20,"s":[[12710759489,20]]}
+]
+}

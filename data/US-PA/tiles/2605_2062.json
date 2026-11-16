@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"US-PA",
+"tile":[2605,2062],
+"stops":[
+  {"id":1291923738,"lat":40.293987,"lon":-76.884595,"k":"x","n":"HACC Harrisburg Campus"},
+  {"id":1376403637,"lat":40.259753,"lon":-76.881471,"k":"s","n":"Market Square Transfer Center"},
+  {"id":3462090025,"lat":40.26241,"lon":-76.878329,"k":"s","n":"Harrisburg"},
+  {"id":4728338675,"lat":40.253986,"lon":-76.887473,"k":"p","n":"City Island (North Side Shelter)","ref":"499360"},
+  {"id":4728338676,"lat":40.253897,"lon":-76.887109,"k":"p","n":"City Island (South Side Shelter)","ref":"499358"},
+  {"id":4795508676,"lat":40.293968,"lon":-76.884752,"k":"p","n":"HACC Harrisburg Campus"},
+  {"id":7272714520,"lat":40.260888,"lon":-76.878448,"k":"x","n":"FlixBus Harrisburg"},
+  {"id":7272714521,"lat":40.260918,"lon":-76.878529,"k":"p","n":"FlixBus Harrisburg"},
+  {"id":10293957315,"lat":40.269422,"lon":-76.888839,"k":"p","n":"N 3rd St & Verbeke St","ref":"500034"},
+  {"id":10567934824,"lat":40.273994,"lon":-76.891983,"k":"p","ref":"500137"},
+  {"id":10567934825,"lat":40.274041,"lon":-76.892202,"k":"p","ref":"500140"},
+  {"id":10567934838,"lat":40.276383,"lon":-76.893729,"k":"p","n":"N 3rd St & Muench St","ref":"500185"},
+  {"id":10567934839,"lat":40.276467,"lon":-76.893979,"k":"p","n":"N 3rd St & Muench St","ref":"500189"},
+  {"id":10704966929,"lat":40.280331,"lon":-76.890189,"k":"p","n":"N 6th St & Maclay St","ref":"500283"},
+  {"id":10704966930,"lat":40.280604,"lon":-76.890253,"k":"p","n":"N 6th St & Maclay St","ref":"1327728"},
+  {"id":10704966931,"lat":40.280782,"lon":-76.890415,"k":"p","n":"N 6th St & Maclay St","ref":"1113194"},
+  {"id":10704966932,"lat":40.28057,"lon":-76.890526,"k":"p","n":"N 6th St & Maclay St","ref":"500288"},
+  {"id":10704966933,"lat":40.280407,"lon":-76.89052,"k":"p","n":"N 6th St & Maclay St","ref":"1328749"},
+  {"id":10971758248,"lat":40.275738,"lon":-76.887869,"k":"p","n":"N 6th St & Hamilton St","ref":"500174"},
+  {"id":10971758249,"lat":40.275814,"lon":-76.888101,"k":"p","n":"N 6th St & Hamilton St","ref":"500179"},
+  {"id":11183709689,"lat":40.259736,"lon":-76.881333,"k":"s"},
+  {"id":11780461212,"lat":40.268413,"lon":-76.861098,"k":"p","n":"Market St & 19th St","ref":"499977"},
+  {"id":11780461213,"lat":40.268179,"lon":-76.861339,"k":"p","n":"Market St & 19th St","ref":"499970"}
+],
+"routes":[
+  {"id":7156888,"t":{"ref":"83N","name":"rabbitEXPRESS 83N Harrisburg Express (morning)","network":"rabbittransit","operator":"Central Pennsylvania Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[4795508676,1]]},
+  {"id":7160069,"t":{"ref":"83N","name":"rabbitEXPRESS 83N Harrisburg Express (afternoon)","from":"Transfer Center","to":"Towson","network":"rabbittransit","operator":"Central Pennsylvania Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[4795508676,1]]},
+  {"id":7160121,"t":{"ref":"15N","name":"rabbitEXPRESS 15N Gettysburg/Harrisburg (morning)","from":"Gettysburg, PA","to":"Harrisburg, PA","network":"rabbittransit","operator":"Central Pennsylvania Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[1291923738,1],[4795508676,2]]},
+  {"id":7160188,"t":{"ref":"15N","name":"rabbitEXPRESS 15N Gettysburg/Harrisburg (afternoon)","network":"rabbittransit","operator":"Central Pennsylvania Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[1291923738,1],[4795508676,2]]},
+  {"id":10792729,"t":{"ref":"2680","name":"Flixbus 2680: New York City => Columbus","from":"New York City","to":"Columbus","network":"Flixbus","operator":"Cardinal Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[7272714521,1]]},
+  {"id":10792730,"t":{"ref":"2680","name":"Flixbus 2680: Columbus => New York City","from":"Columbus","to":"New York City","network":"Flixbus","operator":"Cardinal Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[7272714521,2]]},
+  {"id":11940675,"t":{"ref":"3","name":"Third Street","from":"Transfer Center","to":"Uptown Plaza","network":"CAT","operator":"Capital Area Transit","route":"bus"},"n":2,"s":[[10567934838,1],[10567934839,2]]},
+  {"id":11952444,"t":{"ref":"D","name":"Erford Road/Capital City Mall","from":"7th & Basin","to":"Bon-Ton (Camp Hill)","network":"CAT","operator":"Capital Area Transit","route":"bus"},"n":2,"s":[[1376403637,1]]}
+]
+}

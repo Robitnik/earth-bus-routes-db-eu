@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"US-MI",
+"tile":[2646,1931],
+"stops":[
+  {"id":62684013,"lat":42.336135,"lon":-83.404764,"k":"x"},
+  {"id":2294276750,"lat":42.306107,"lon":-83.407617,"k":"p","n":"Newburgh & Enterprise"},
+  {"id":2294285570,"lat":42.333109,"lon":-83.407557,"k":"p","n":"Westland Meijer"},
+  {"id":2294285578,"lat":42.323147,"lon":-83.401744,"k":"p","n":"Westland Police Department Park & Ride Lot"},
+  {"id":5276537707,"lat":42.333178,"lon":-83.407562,"k":"x"},
+  {"id":5360209661,"lat":42.337308,"lon":-83.403176,"k":"p","n":"Warren / Wilderness Park (WB)"},
+  {"id":5360209662,"lat":42.337555,"lon":-83.402428,"k":"p","n":"Warren / Wilderness Park (EB)"},
+  {"id":5360217194,"lat":42.336064,"lon":-83.404682,"k":"p","n":"Warren / Golden Corral (EB)"},
+  {"id":5364997042,"lat":42.337239,"lon":-83.403118,"k":"x"},
+  {"id":5364998123,"lat":42.337636,"lon":-83.402508,"k":"x"},
+  {"id":5397334421,"lat":42.323234,"lon":-83.40175,"k":"x"},
+  {"id":6011192001,"lat":42.309649,"lon":-83.404147,"k":"x"},
+  {"id":6011192002,"lat":42.305999,"lon":-83.407475,"k":"x"},
+  {"id":6011192003,"lat":42.309663,"lon":-83.403514,"k":"x"},
+  {"id":6011192034,"lat":42.306051,"lon":-83.407476,"k":"p","n":"Enterprise / Newburgh NS (WB)"},
+  {"id":6011192252,"lat":42.309593,"lon":-83.407286,"k":"x"},
+  {"id":6011233821,"lat":42.309542,"lon":-83.404137,"k":"p","n":"Cherry Hill / Manufacturers (EB)"},
+  {"id":6011233845,"lat":42.309784,"lon":-83.40352,"k":"p","n":"Cherry Hill / Hickory (WB)"},
+  {"id":6011233874,"lat":42.309482,"lon":-83.407275,"k":"p","n":"Cherry Hill / Newburgh (EB)"}
+],
+"routes":[
+  {"id":7798809,"t":{"ref":"255","name":"255 EB: Westland => Downtown","from":"Westland Park & Ride","to":"Larned & St Antoine","network":"SMART","colour":"#00a94e","route":"bus","public_transport:version":"2"},"n":52,"s":[[2294285578,1]]},
+  {"id":7798810,"t":{"ref":"255","name":"255 WB: Downtown => Westland","from":"Congress & St Antoine","to":"Westland Park & Ride","network":"SMART","colour":"#00a94e","route":"bus","public_transport:version":"2"},"n":54,"s":[[2294285578,54]]},
+  {"id":7798812,"t":{"ref":"250","name":"250 EB: Westland => Dearborn","from":"Westland Meijer","to":"Dearborn Transit Center","network":"SMART","colour":"#0696d7","route":"bus","public_transport:version":"2"},"n":54,"s":[[2294285570,1],[5360217194,2],[5360209662,3]]},
+  {"id":7798813,"t":{"ref":"250","name":"250 WB: Dearborn => Westland","from":"Dearborn Transit Center","to":"Westland Meijer","network":"SMART","colour":"#0696d7","route":"bus","public_transport:version":"2"},"n":51,"s":[[5360209661,50],[2294285570,51]]},
+  {"id":7798818,"t":{"ref":"210","name":"210 Eastbound","from":"Westland Meijer","to":"Fairlane Town Center","network":"SMART","colour":"#e51a23","route":"bus","public_transport:version":"2"},"n":57,"s":[[6011233874,1],[6011233821,2]]},
+  {"id":7798828,"t":{"ref":"210","name":"210 Westbound","from":"Fairlane Town Center","to":"Westland Meijer","network":"SMART","colour":"#e51a23","route":"bus","public_transport:version":"2"},"n":56,"s":[[6011233845,56]]},
+  {"id":10255355,"t":{"ref":"210","name":"210 Eastbound to Schaefer","from":"Westland Meijer","to":"Michigan & Schaefer","network":"SMART","colour":"#e51a23","route":"bus","public_transport:version":"2"},"n":62,"s":[[6011233874,1],[6011233821,2]]}
+]
+}

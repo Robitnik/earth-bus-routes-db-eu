@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2657,2060],
+"stops":[
+  {"id":8891147400,"lat":42.869198,"lon":-76.982142,"k":"p","n":"Geneva Transit Hub"},
+  {"id":12047627217,"lat":42.876061,"lon":-76.988843,"k":"p","n":"Geneva Hospital"},
+  {"id":12079152788,"lat":42.864522,"lon":-76.981047,"k":"p","n":"70 Elizabeth Blackwell"},
+  {"id":12080343589,"lat":42.870402,"lon":-76.984861,"k":"p","n":"Elmcrest Apartments"},
+  {"id":12080343590,"lat":42.880495,"lon":-76.965595,"k":"p","n":"Courtyard Apartments"},
+  {"id":12080343626,"lat":42.859474,"lon":-76.996694,"k":"p","n":"Wegmans - Geneva"},
+  {"id":12080343627,"lat":42.854698,"lon":-76.983247,"k":"p","n":"Hobart and William Smith"},
+  {"id":12080343628,"lat":42.86694,"lon":-76.987304,"k":"p","n":"FLCC Geneva Campus"}
+],
+"routes":[
+  {"id":12915790,"t":{"ref":"261","name":"RTS 261 Geneva (P6)","from":"FLCC Geneva Campus","to":"Geneva Transit Hub","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12080343628,1],[8891147400,2]]},
+  {"id":12916411,"t":{"ref":"296","name":"RTS 296 Newark-Geneva (E4)","from":"Lyons Village Park","to":"Geneva Transit Hub","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,2]]},
+  {"id":17796872,"t":{"ref":"296","name":"RTS 296 Newark-Geneva (W1)","from":"Geneva Transit Hub","to":"Lyons Village Park","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,1]]},
+  {"id":17826177,"t":{"ref":"282","name":"RTS 282 Waterloo-Geneva (W2)","from":"East Main Street Apartments","to":"Geneva Transit Hub","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,2]]},
+  {"id":17826178,"t":{"ref":"282","name":"RTS 282 Waterloo-Geneva (E2)","from":"Geneva General Hospital","to":"Seneca County Office Building","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12047627217,1]]},
+  {"id":17827455,"t":{"ref":"282","name":"RTS 282 Waterloo-Geneva (E1)","from":"Geneva Transit Hub","to":"Geneva General Hospital","network":"RTS Seneca","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,1],[12047627217,2]]},
+  {"id":17884049,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (E4)","from":"Flint Road BOCES","to":"70 Elizabeth Blackwell","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12079152788,2]]},
+  {"id":17884050,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (E5)","from":"70 Elizabeth Blackwell","to":"Geneva Transit Hub","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12079152788,1],[8891147400,2]]},
+  {"id":17884540,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (W1)","from":"Geneva Transit Hub","to":"70 Elizabeth Blackwell","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,1],[12079152788,2]]},
+  {"id":17884541,"t":{"ref":"254","name":"RTS 254 Canandaigua-Geneva (W2)","from":"70 Elizabeth Blackwell","to":"FLCC Lakeshore Campus","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12079152788,1]]},
+  {"id":17884998,"t":{"ref":"255","name":"RTS 255 Canandaigua-Geneva (W2)","from":"Geneva General Hospital","to":"Spa Apartments","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12047627217,1]]},
+  {"id":17884999,"t":{"ref":"255","name":"RTS 255 Canandaigua-Geneva (E2)","from":"Clifton Springs Hospital & Clinic","to":"Geneva Transit Hub","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12047627217,4],[8891147400,5]]},
+  {"id":17885000,"t":{"ref":"255","name":"RTS 255 Canandaigua-Geneva (W1)","from":"Geneva Transit Hub","to":"Geneva General Hospital","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,1],[12047627217,2]]},
+  {"id":17886448,"t":{"ref":"261","name":"RTS 261 Geneva (P1)","from":"Geneva Transit Hub","to":"Elmcrest Apartments","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[8891147400,1],[12080343589,2]]},
+  {"id":17886449,"t":{"ref":"261","name":"RTS 261 Geneva (P2)","from":"Elmcrest Apartments","to":"Courtyard Apartments","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12080343589,1],[12080343590,2]]},
+  {"id":17886450,"t":{"ref":"261","name":"RTS 261 Geneva (P3)","from":"Courtyard Apartments","to":"Walmart - Geneva","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12080343590,1],[12047627217,2]]},
+  {"id":17886451,"t":{"ref":"261","name":"RTS 261 Geneva (P4)","from":"Walmart - Geneva","to":"Hobart and William Smith Colleges","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12080343626,3],[12080343627,4]]},
+  {"id":17886452,"t":{"ref":"261","name":"RTS 261 Geneva (P5)","from":"Hobart and William Smith Colleges","to":"FLCC Geneva Campus","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12080343627,1],[12080343628,2]]}
+]
+}

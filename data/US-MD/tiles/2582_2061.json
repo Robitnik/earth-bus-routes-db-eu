@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"US-MD",
+"tile":[2582,2061],
+"stops":[
+  {"id":1703667454,"lat":39.113978,"lon":-76.930548,"k":"x","n":"Burtonsville Park and Ride"},
+  {"id":1703672028,"lat":39.113998,"lon":-76.930679,"k":"p","n":"Burtonsville Park and Ride"},
+  {"id":4795647555,"lat":39.146789,"lon":-76.908648,"k":"x","n":"Scaggsville Park & Ride"},
+  {"id":4795647556,"lat":39.146806,"lon":-76.908714,"k":"p","n":"Scaggsville Park & Ride","ref":"11784"},
+  {"id":6248382270,"lat":39.113773,"lon":-76.930022,"k":"p","n":"Burtonsville Park & Ride","ref":"11785"},
+  {"id":11836024188,"lat":39.114584,"lon":-76.930797,"k":"p","n":"Burtonsville Park & Ride","ref":"30128"},
+  {"id":12992096920,"lat":39.111523,"lon":-76.928787,"k":"p","n":"Sandy Spring Rd at National Dr"},
+  {"id":12992096921,"lat":39.111832,"lon":-76.929443,"k":"p","n":"Sandy Spring Rd at National Dr"},
+  {"id":12992096948,"lat":39.112298,"lon":-76.932826,"k":"p","n":"Old Columbia Rd at National Dr","ref":"2005531"},
+  {"id":12992096949,"lat":39.112318,"lon":-76.932281,"k":"p","n":"Old Columbia Rd at National Dr","ref":"2005530"},
+  {"id":12992097299,"lat":39.106085,"lon":-76.918322,"k":"p","n":"Sandy Spring Rd at McKnew Rd"},
+  {"id":12992097300,"lat":39.10659,"lon":-76.91915,"k":"p","n":"Sandy Spring Rd at McKnew Rd"},
+  {"id":12992097310,"lat":39.107072,"lon":-76.937351,"k":"p","n":"Old Columbia Pk at Tolson Pl"},
+  {"id":12992097311,"lat":39.101898,"lon":-76.940198,"k":"p","n":"Old Columbia Pk at Fairland Library"},
+  {"id":12992097331,"lat":39.100217,"lon":-76.942098,"k":"p","n":"Old Columbia Pk at Forsythia Ln"},
+  {"id":12992097332,"lat":39.1018,"lon":-76.94046,"k":"p","n":"Old Columbia Pk at Fairland Library"},
+  {"id":12992097333,"lat":39.107097,"lon":-76.937512,"k":"p","n":"Old Columbia Pk at Tolson Pl"},
+  {"id":12992097334,"lat":39.115978,"lon":-76.932256,"k":"p","n":"Burtonsville Ctr at Columbia Pk"},
+  {"id":14157585984,"lat":39.114238,"lon":-76.930386,"k":"s","n":"Burtonsville Park and Ride"},
+  {"id":14305072721,"lat":39.148761,"lon":-76.905641,"k":"p","n":"Maple Lawn Westbound & Maple Lawn Blvd","ref":"30305"},
+  {"id":14305072722,"lat":39.14861,"lon":-76.905486,"k":"p","n":"Maple Lawn Eastbound & Maple Lawn Blvd","ref":"30304"}
+],
+"routes":[
+  {"id":7160294,"t":{"ref":"203","name":"Commuter Bus 203: Bethesda","from":"Columbia","to":"Bethesda","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":3,"s":[[4795647556,3]]},
+  {"id":7160389,"t":{"ref":"203","name":"Commuter Bus 203: Columbia","from":"Bethesda","to":"Columbia","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4795647556,2]]},
+  {"id":7413437,"t":{"ref":"305","name":"Commuter Bus 305: Columbia","from":"Washington","to":"Columbia","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":5,"s":[[4795647556,3],[1703672028,4]]},
+  {"id":7413440,"t":{"ref":"305","name":"Commuter Bus 305: Washington, D.C.","from":"Columbia","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":5,"s":[[4795647556,1],[1703672028,2]]},
+  {"id":7413516,"t":{"ref":"315","name":"Commuter Bus 315: Columbia","from":"Washington","to":"Columbia","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4795647556,3],[1703672028,4]]},
+  {"id":7413579,"t":{"ref":"315","name":"Commuter Bus 315: Lotte Plaza","from":"Washington","to":"Lotte Plaza","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4795647556,3],[1703672028,4]]},
+  {"id":7413589,"t":{"ref":"315","name":"Commuter Bus 315: Washington, D.C. (from Lotte Plaza)","from":"Columbia (Lotte Plaza)","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4795647556,1],[1703672028,2]]},
+  {"id":7413609,"t":{"ref":"315","name":"Commuter Bus 315: Washington, D.C. (from Columbia)","from":"Columbia","to":"Washington","network":"MTA Commuter Bus","operator":"Maryland Transit Administration","route":"bus","public_transport:version":"2"},"n":4,"s":[[4795647556,1],[1703672028,2]]},
+  {"id":17499621,"t":{"ref":"BLUE","name":"Flash Blue (Northbound)","from":"Silver Spring Transit Center & Bay 229","to":"Burtonsville Park & Ride &","network":"Flash","operator":"Ride On","colour":"#2f6da7","route":"bus"},"n":5,"s":[[11836024188,1]]},
+  {"id":17499622,"t":{"ref":"BLUE","name":"Flash Blue (Southbound)","from":"Burtonsville Park & Ride","to":"Silver Spring Transit Center & Bay 229","network":"Flash","operator":"Ride On","colour":"#2f6da7","route":"bus"},"n":6,"s":[[11836024188,1]]}
+]
+}

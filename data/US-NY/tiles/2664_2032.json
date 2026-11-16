@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2664,2032],
+"stops":[
+  {"id":12049824172,"lat":43.223694,"lon":-78.397386,"k":"p","n":"Medina Memorial Hospital"},
+  {"id":12049824174,"lat":43.218994,"lon":-78.388985,"k":"p","n":"Park & West Avenue"},
+  {"id":12049824175,"lat":43.205257,"lon":-78.399265,"k":"p","n":"Tops - Medina"},
+  {"id":12049824176,"lat":43.209222,"lon":-78.382484,"k":"p","n":"Maple Ridge Estates"},
+  {"id":12049824177,"lat":43.214444,"lon":-78.371253,"k":"p","n":"Orchard Manor"},
+  {"id":12049824178,"lat":43.215625,"lon":-78.385417,"k":"p","n":"Oak Orchard & Main"},
+  {"id":12049824179,"lat":43.220303,"lon":-78.386759,"k":"p","n":"East Center & Main"},
+  {"id":12049824187,"lat":43.226802,"lon":-78.37726,"k":"p","n":"North & State"},
+  {"id":12049824188,"lat":43.223479,"lon":-78.388817,"k":"p","n":"West Avenue & Eagle"},
+  {"id":12049824190,"lat":43.215415,"lon":-78.388842,"k":"p","n":"West & West Oak Orchard"},
+  {"id":12049824191,"lat":43.215642,"lon":-78.374072,"k":"p","n":"East Oak Orchard & Bernzomatic"},
+  {"id":12049824192,"lat":43.220751,"lon":-78.370487,"k":"p","n":"Bates & East Center"},
+  {"id":12050816421,"lat":43.220499,"lon":-78.386743,"k":"p","n":"East Center & Main"}
+],
+"routes":[
+  {"id":17831685,"t":{"ref":"202","name":"RTS 202 Medina (P1)","from":"Walmart - Albion","to":"North & State","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12049824187,2]]},
+  {"id":17831686,"t":{"ref":"202","name":"RTS 202 Medina (P2)","from":"North & State","to":"Medina Memorial Hospital","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12049824187,1],[12050816421,2],[12049824188,3],[12049824172,4]]},
+  {"id":17831687,"t":{"ref":"202","name":"RTS 202 Medina (P3)","from":"Medina Memorial Hospital","to":"Tops - Medina","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12049824172,1],[12049824190,3],[12049824175,4]]},
+  {"id":17831688,"t":{"ref":"202","name":"RTS 202 Medina (P4)","from":"Tops - Medina","to":"Maple Ridge Estates","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12049824175,1],[12049824176,2]]},
+  {"id":17831689,"t":{"ref":"202","name":"RTS 202 Medina (P5)","from":"Maple Ridge Estates","to":"Walmart - Albion","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12049824176,1],[12049824179,2],[12049824191,3],[12049824192,4]]},
+  {"id":17833508,"t":{"ref":"205","name":"RTS 205 Albion/Medina (P10)","from":"Walmart - Albion","to":"Medina Memorial Hospital","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12049824172,2]]},
+  {"id":17833509,"t":{"ref":"205","name":"RTS 205 Albion/Medina (P11)","from":"Medina Memorial Hospital","to":"Tops - Medina","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":5,"s":[[12049824172,1],[12049824174,3],[12049824190,4],[12049824175,5]]},
+  {"id":17833510,"t":{"ref":"205","name":"RTS 205 Albion/Medina (P12)","from":"Tops - Medina","to":"Maple Ridge Estates","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12049824175,1],[12049824176,2]]},
+  {"id":17833511,"t":{"ref":"205","name":"RTS 205 Albion/Medina (P13)","from":"Maple Ridge Estates","to":"Tops - Medina","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12049824176,1],[12049824175,2]]},
+  {"id":17833512,"t":{"ref":"205","name":"RTS 205 Albion/Medina (P14)","from":"Tops - Medina","to":"Orchard Manor","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12049824175,1],[12049824177,2]]},
+  {"id":17833513,"t":{"ref":"205","name":"RTS 205 Albion/Medina (P15)","from":"Orchard Manor","to":"Walmart - Albion","network":"RTS Orleans","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":4,"s":[[12049824177,1],[12049824178,2],[12049824179,3]]}
+]
+}

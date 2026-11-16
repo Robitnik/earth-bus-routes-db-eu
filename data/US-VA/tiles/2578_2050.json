@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"US-VA",
+"tile":[2578,2050],
+"stops":[
+  {"id":3413156621,"lat":38.9457,"lon":-77.451513,"k":"p","n":"D Gates"},
+  {"id":8355683551,"lat":38.948807,"lon":-77.454434,"k":"p"},
+  {"id":9301790745,"lat":38.948433,"lon":-77.450525,"k":"p"},
+  {"id":9301790776,"lat":38.949115,"lon":-77.450615,"k":"p"},
+  {"id":13185135744,"lat":38.911982,"lon":-77.480373,"k":"x"},
+  {"id":13185135745,"lat":38.912105,"lon":-77.480443,"k":"p","n":"Eastgate View Drive at Cancello Terrace","ref":"552"},
+  {"id":13185135746,"lat":38.911883,"lon":-77.480299,"k":"p","n":"Eastgate View Drive at Cancello Terrace","ref":"549"},
+  {"id":13185135747,"lat":38.912082,"lon":-77.491479,"k":"x"},
+  {"id":13185135748,"lat":38.912038,"lon":-77.491477,"k":"p","n":"East Gate","ref":"368"}
+],
+"routes":[
+  {"id":18093618,"t":{"name":"Shuttle between A and D Gates","from":"A Gates","to":"D Gates","network":"IAD Mobile Lounge","operator":"Dulles International Airport","route":"bus"},"n":2,"s":[[3413156621,2]]},
+  {"id":19186771,"t":{"name":"Shuttle between Main Terminal and D Gates","from":"Main Terminal","to":"D Gates","network":"IAD Mobile Lounge","operator":"Dulles International Airport","route":"bus","public_transport:version":"2"},"n":2,"s":[[3413156621,2]]},
+  {"id":19665786,"t":{"ref":"381","name":"South Riding","from":"Loudoun Gateway Metrostation","to":"South Riding","network":"Loudoun County Transit","operator":"Keolis","colour":"#a3a3a3","route":"bus","public_transport:version":"2"},"n":8,"s":[[13185135745,2],[13185135748,3]]},
+  {"id":19665787,"t":{"ref":"381","name":"South Riding","from":"Loudoun Gateway Metrostation","to":"South Riding","network":"Loudoun County Transit","operator":"Keolis","colour":"#a3a3a3","route":"bus","public_transport:version":"2"},"n":9,"s":[[13185135745,3],[13185135748,4]]},
+  {"id":19665788,"t":{"ref":"381","name":"South Riding","from":"South Riding","to":"Loudoun Gateway Metrostation","network":"Loudoun County Transit","operator":"Keolis","colour":"#a3a3a3","route":"bus","public_transport:version":"2"},"n":9,"s":[[13185135748,6],[13185135746,7]]},
+  {"id":19665789,"t":{"ref":"381","name":"South Riding","from":"South Riding","to":"Loudoun Gateway Metrostation","network":"Loudoun County Transit","operator":"Keolis","colour":"#a3a3a3","route":"bus","public_transport:version":"2"},"n":8,"s":[[13185135748,6],[13185135746,7]]}
+]
+}

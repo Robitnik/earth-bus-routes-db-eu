@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2453,1651],
+"stops":[
+  {"id":4305375510,"lat":32.6714,"lon":-97.400054,"k":"p","n":"Hulen & South"},
+  {"id":4305375511,"lat":32.666592,"lon":-97.400957,"k":"p","n":"Hulen & Oakbend Trail"},
+  {"id":4305375512,"lat":32.664846,"lon":-97.402016,"k":"p","n":"Hulen & Ledgestone"},
+  {"id":4305375513,"lat":32.663056,"lon":-97.405589,"k":"p","n":"Oakmont & Gabbert"},
+  {"id":4305375514,"lat":32.66307,"lon":-97.408787,"k":"p","n":"Oakmont & Oakmont"},
+  {"id":4305375515,"lat":32.662689,"lon":-97.418751,"k":"p","n":"Oakmont & Harris"},
+  {"id":4340590855,"lat":32.67546,"lon":-97.400841,"k":"p","n":"Rock Quarry & Overton Ridge","ref":"4393"},
+  {"id":4340590856,"lat":32.675764,"lon":-97.400578,"k":"p","n":"Rock Quarry & Overton Ridge","ref":"889"},
+  {"id":10735662198,"lat":32.663078,"lon":-97.410675,"k":"p","n":"Oakmont & Arbor"},
+  {"id":11014136649,"lat":32.695414,"lon":-97.411931,"k":"p","n":"Line 51 South at Bryant Irvin and Bellaire Drive","ref":"3221"}
+],
+"routes":[
+  {"id":15600883,"t":{"ref":"51","name":"Bus 51: Hulen Mall -> Ridgmar Mall","from":"Rock Quarry & Overton Ridge","to":"Ridgmar Mall Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":12,"s":[[4340590856,1],[4305375510,3],[4305375511,4],[4305375512,5],[4305375513,6],[4305375514,7],[10735662198,8],[4305375515,9]]},
+  {"id":15600884,"t":{"ref":"51","name":"Bus 51: Ridgmar Mall -> Hulen Mall","from":"Ridgmar Mall Transfer Center","to":"Rock Quarry & Overton Ridge","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":5,"s":[[11014136649,2],[4340590856,5]]},
+  {"id":15601415,"t":{"ref":"66X","name":"Bus 66X: Fort Worth Central Station -> Downtown -> Candleridge/Altamesa","from":"Fort Worth Central Station","to":"Hulen & Altamesa","network":"Trinity Metro","operator":"Trinity Metro","colour":"#822522","route":"bus","public_transport:version":"2"},"n":28,"s":[[4340590855,6]]},
+  {"id":15601416,"t":{"ref":"66X","name":"Bus 66X: Candleridge/Altamesa -> Fort Worth Central Station -> Downtown","from":"Altamesa & Kingswood","to":"9th & Throckmorton","network":"Trinity Metro","operator":"Trinity Metro","colour":"#822522","route":"bus","public_transport:version":"2"},"n":22,"s":[[4340590856,19]]},
+  {"id":15623191,"t":{"ref":"29","name":"Bus 29: Hulen Mall -> La Gran Plaza","from":"Rock Quarry & Overton Ridge","to":"La Gran Plaza Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":25,"s":[[4340590856,1]]},
+  {"id":15623192,"t":{"ref":"29","name":"Bus 29: La Gran Plaza -> Hulen Mall","from":"La Gran Plaza Transfer Center","to":"Rock Quarry & Overton Ridge","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":25,"s":[[4340590856,25]]},
+  {"id":15663894,"t":{"ref":"52","name":"Bus 52: Sycamore School Rd -> Montgomery Plaza","from":"Sycamore School & Mc Cart","to":"Carroll & 5th","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":5,"s":[[4340590856,2]]},
+  {"id":15663895,"t":{"ref":"52","name":"Bus 52: Montgomery Plaza -> Sycamore School Rd","from":"Carroll & 5th","to":"Sycamore School & Mc Cart","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":6,"s":[[4340590855,5]]}
+]
+}

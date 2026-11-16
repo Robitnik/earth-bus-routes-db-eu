@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"US-CO",
+"tile":[2609,1462],
+"stops":[
+  {"id":8863641491,"lat":40.4998,"lon":-106.857401,"k":"p","n":"Lift Up","ref":"7"},
+  {"id":8863641502,"lat":40.497865,"lon":-106.853442,"k":"p","n":"Taylor Building","ref":"14"},
+  {"id":8863641503,"lat":40.497696,"lon":-106.853993,"k":"p","n":"Windermere","ref":"9"},
+  {"id":8863641504,"lat":40.493853,"lon":-106.850006,"k":"p","n":"Stockbridge","ref":"10"}
+],
+"routes":[
+  {"id":20061212,"t":{"ref":"Red","name":"Winter Red Line to Downtown","network":"SST","operator":"Steamboat Springs Transit","colour":"red","route":"bus","public_transport:version":"2"},"n":23,"s":[[8863641502,18]]},
+  {"id":20061214,"t":{"ref":"Blue","name":"Winter Blue Route to Downtown","network":"SST","operator":"Steamboat Springs Transit","colour":"blue","route":"bus","public_transport:version":"2"},"n":24,"s":[[8863641502,19]]},
+  {"id":20061217,"t":{"ref":"Red/Blue","name":"Winter Red/Blue Line to Mountain","network":"SST","operator":"Steamboat Springs Transit","route":"bus","public_transport:version":"2"},"n":26,"s":[[8863641491,7],[8863641503,9],[8863641504,10]]}
+]
+}

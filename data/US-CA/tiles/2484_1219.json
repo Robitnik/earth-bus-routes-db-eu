@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"US-CA",
+"tile":[2484,1219],
+"stops":[
+  {"id":7792188186,"lat":34.216127,"lon":-119.033954,"k":"p","n":"Camarillo Metrolink Station","ref":"46113"},
+  {"id":9550875842,"lat":34.21587,"lon":-119.004928,"k":"p","n":"Plaza at Mission Oaks (Pardee Plaza)","ref":"48839"},
+  {"id":9622986373,"lat":34.216324,"lon":-119.033807,"k":"p","n":"Camarillo, CA (CML)"},
+  {"id":9659772747,"lat":34.216028,"lon":-119.034036,"k":"p","n":"Metrolink","ref":"35740"},
+  {"id":9659772748,"lat":34.219568,"lon":-119.040654,"k":"p","n":"Ponderosa Plaza","ref":"37902"},
+  {"id":9659844905,"lat":34.216582,"lon":-119.040796,"k":"p","n":"Old Town","ref":"35746"},
+  {"id":9659844906,"lat":34.216166,"lon":-119.037176,"k":"p","n":"Dizdar Park & Camarillo Chamber","ref":"35747"},
+  {"id":9661957816,"lat":34.222069,"lon":-119.042873,"k":"p","n":"Post Office","ref":"37903"},
+  {"id":9661992562,"lat":34.225865,"lon":-119.049227,"k":"p","n":"Community Center","ref":"36743"},
+  {"id":9662019917,"lat":34.226663,"lon":-119.033439,"k":"p","n":"Mira Vista Village","ref":"36850"},
+  {"id":9662019918,"lat":34.231018,"lon":-119.028646,"k":"p","n":"Pleasant Valley Park","ref":"36851"},
+  {"id":9662039330,"lat":34.235361,"lon":-119.037814,"k":"p","n":"Village Square","ref":"37886"},
+  {"id":9662039331,"lat":34.225919,"lon":-119.037961,"k":"p","n":"Central Plaza","ref":"37901"},
+  {"id":9662083954,"lat":34.243037,"lon":-119.015361,"k":"p","n":"Camarillo Library","ref":"36006"},
+  {"id":9662083955,"lat":34.24292,"lon":-119.020923,"k":"p","n":"Pleasant Valley Hospital","ref":"36120"},
+  {"id":14088779544,"lat":34.215363,"lon":-119.034591,"k":"p","n":"Camarillo"}
+],
+"routes":[
+  {"id":13849885,"t":{"ref":"97","name":"Channel Islands - ROUTE 97: METROLINK SHUTTLE","from":"Camarillo Metrolink","to":"CSU Channel Islands","network":"VCTC Intercity","route":"bus"},"n":2,"s":[[7792188186,1]]},
+  {"id":13876637,"t":{"ref":"99","name":"Channel Islands - Route 99 Oxnard - CSUCI - Camarillo","from":"Oxnard","to":"Camarillo","network":"VCTC Intercity","route":"bus"},"n":3,"s":[[7792188186,2]]},
+  {"id":13884322,"t":{"ref":"50","name":"Highway 101 - Route 50","from":"Thousand Oaks","to":"Ventura","network":"VCTC Intercity","operator":"Ventura County Transportation Comission","route":"bus"},"n":11,"s":[[9550875842,2],[7792188186,3]]},
+  {"id":13894866,"t":{"ref":"52X","name":"Highway 101 - Route 55X","from":"Ventura","to":"Thousand Oaks","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":7,"s":[[7792188186,3],[9550875842,6]]},
+  {"id":13906215,"t":{"ref":"52","name":"Highway 101 - Route 55","from":"Ventura","to":"Thousand Oaks","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":9,"s":[[7792188186,5],[9550875842,6]]},
+  {"id":13913213,"t":{"ref":"77","name":"Cross County Limited - Route 77","from":"Ventura","to":"Simi Valley","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":16,"s":[[7792188186,4]]},
+  {"id":13967406,"t":{"ref":"4","name":"Route 4 - Los Angeles - Santa Barbara - Goleta","from":"Los Angeles","to":"Goleta","network":"Amtrak Thruway","operator":"LOSSAN Rail Corridor Agency","route":"bus"},"n":11,"s":[[9622986373,7]]},
+  {"id":13987670,"t":{"ref":"81","name":"81- Coastal Express","from":"Santa Barbara","to":"Camarillo","network":"VCTC Intercity","operator":"Ventura County Transportation Commission","route":"bus"},"n":18,"s":[[7792188186,1]]},
+  {"id":14030282,"t":{"ref":"Trolley","name":"Camarillo Trolley","from":"Camarillo Metrolink","to":"Dizdar Park & Camarillo Chamber","network":"Camarillo Area Transit","operator":"City of Camarillo","route":"bus"},"n":8,"s":[[9659772747,1],[9659772748,2],[9659844905,7],[9659844906,8]]},
+  {"id":14033708,"t":{"ref":"Camarillo","name":"Camarillo Fixed Route Service","from":"Depart Leisure Village Club House","to":"Camarillo Community Center","network":"Camarillo Area Transit","operator":"City of Camarillo","route":"bus"},"n":23,"s":[[9659772748,1],[9661992562,2],[9661957816,4],[9662019917,5],[9662019918,6],[9662039330,7],[9662039331,8],[9662083954,9],[9662083955,10]]},
+  {"id":15544824,"t":{"ref":"84","name":"84 - Coastal Express","from":"Camarillo Metrolink","to":"MTD Transit Center","network":"VCTC Intercity","route":"bus"},"n":21,"s":[[7792188186,21]]},
+  {"id":15551455,"t":{"ref":"85","name":"85 - Coastal Express","from":"Camarillo Metrolink","to":"Los Carneros Road / Karl Storz Way","network":"VCTC Intercity","operator":"VCTC intercity","route":"bus"},"n":22,"s":[[7792188186,1]]},
+  {"id":15621535,"t":{"ref":"86","name":"86 -Costal Express","from":"Camarillo Metrolink","to":"Los Carneros Road/ Karl Storz Way","network":"VCTC Intercity","route":"bus"},"n":18,"s":[[7792188186,1]]}
+]
+}

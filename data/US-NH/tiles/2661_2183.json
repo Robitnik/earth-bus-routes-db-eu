@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"US-NH",
+"tile":[2661,2183],
+"stops":[
+  {"id":10568556698,"lat":43.059688,"lon":-70.803666,"k":"p","n":"Portsmouth Transportation Center"},
+  {"id":10612487375,"lat":43.070942,"lon":-70.802113,"k":"p","n":"Grafton Drive / Corporate Drive"},
+  {"id":10612487376,"lat":43.073422,"lon":-70.802345,"k":"p","n":"Corporate Drive / Durham Street"},
+  {"id":10612487377,"lat":43.074954,"lon":-70.803614,"k":"p","n":"195 / 222 New Hampshire Avenue"},
+  {"id":10612487378,"lat":43.076635,"lon":-70.805106,"k":"p","n":"New Hampshire Avenue / Rochester Avenue (National Visa / Passport Centers)"},
+  {"id":10612487379,"lat":43.078887,"lon":-70.806821,"k":"p","n":"New Hampshire Avenue / Newfields Street"},
+  {"id":10612487380,"lat":43.0821,"lon":-70.809448,"k":"p","n":"New Hampshire Avenue / Stratham Street"},
+  {"id":10612487382,"lat":43.082342,"lon":-70.817007,"k":"p","n":"Pease Airline Terminal"},
+  {"id":10612487383,"lat":43.084953,"lon":-70.809952,"k":"p","n":"Manchester Square"},
+  {"id":10612487384,"lat":43.085218,"lon":-70.808771,"k":"p","n":"Manchester Square"},
+  {"id":10612487385,"lat":43.086213,"lon":-70.80417,"k":"p","n":"Corporate Drive / Redhook Way"},
+  {"id":10612487386,"lat":43.085696,"lon":-70.801379,"k":"p","n":"73 Corporate Drive"},
+  {"id":10612487394,"lat":43.072924,"lon":-70.801723,"k":"p","n":"360 Corporate Drive"},
+  {"id":10612516808,"lat":43.070992,"lon":-70.801689,"k":"p","n":"Grafton Drive / Corporate Drive"},
+  {"id":10612516810,"lat":43.066703,"lon":-70.807325,"k":"p","n":"Grafton Drive / Sherburne Road"},
+  {"id":10612516811,"lat":43.066896,"lon":-70.807295,"k":"p","n":"Grafton Drive (Port City Air)"},
+  {"id":10616156739,"lat":43.094585,"lon":-70.802155,"k":"p","n":"The Crossings (Regal Cinema)"},
+  {"id":10650821361,"lat":43.080428,"lon":-70.800482,"k":"p","n":"15 Rye Street","ref":"4565"},
+  {"id":10665723584,"lat":43.059475,"lon":-70.803809,"k":"p","n":"Portsmouth Transportation Center","ref":"9105"}
+],
+"routes":[
+  {"id":12091155,"t":{"ref":"40","name":"COAST Bus 40: Islington / Borthwick Trolley Outbound","from":"Hanover Station","to":"Portsmouth Transportation Center","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#0c6b6d","route":"bus","public_transport:version":"2"},"n":18,"s":[[10568556698,18]]},
+  {"id":12091292,"t":{"ref":"42","name":"COAST Bus 42: Pease Shuttle Inbound","from":"Pease Airline Terminal","to":"Hanover Station","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#faa62c","route":"bus","public_transport:version":"2"},"n":10,"s":[[10612487382,1],[10612487380,2],[10612487379,3],[10612487378,4],[10612487377,5],[10612487376,6],[10612487375,7],[10612516811,8],[10665723584,9]]},
+  {"id":12091324,"t":{"ref":"43","name":"COAST Bus 43: Newington / Portsmouth Outbound","from":"Hanover Station","to":"Shattuck Way / Piscataqua Drive","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#8781bd","route":"bus","public_transport:version":"2"},"n":9,"s":[[10616156739,9]]},
+  {"id":15338856,"t":{"ref":"DOV-NYC","name":"Dover, NH => New York City","from":"Dover, NH","to":"Port Authority Bus Terminal","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556698,2]]},
+  {"id":15338857,"t":{"ref":"DOV-NYC","name":"New York City => Dover, NH","from":"Port Authority Bus Terminal","to":"Dover, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556698,2]]},
+  {"id":15338858,"t":{"ref":"PMSS","name":"Portsmouth, NH => Boston South Station","from":"Portsmouth, NH","to":"Boston South Station","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[10568556698,1]]},
+  {"id":15338859,"t":{"ref":"DVSS","name":"Dover, NH => Boston South Station","from":"Dover, NH","to":"Boston South Station","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556698,2]]},
+  {"id":15338860,"t":{"ref":"SSPM","name":"Boston South Station => Portsmouth, NH","from":"Boston South Station","to":"Portsmouth, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[10568556698,2]]},
+  {"id":15338861,"t":{"ref":"SSDV","name":"Boston South Station => Dover, NH","from":"Boston South Station","to":"Dover, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":3,"s":[[10568556698,2]]},
+  {"id":15338862,"t":{"ref":"PMLG","name":"Portsmouth, NH => Boston Logan Airport","from":"Portsmouth, NH","to":"Boston Logan Airport","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[10568556698,1]]},
+  {"id":15338863,"t":{"ref":"LGPM","name":"Boston Logan Airport => Portsmouth, NH","from":"Boston Logan Airport","to":"Portsmouth, NH","network":"C&J Bus Lines","operator":"C&J Bus Lines","route":"bus","public_transport:version":"2"},"n":2,"s":[[10568556698,2]]},
+  {"id":15442329,"t":{"ref":"42","name":"COAST Bus 42: Pease Shuttle Outbound","from":"Hanover Station","to":"Pease Airline Terminal","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#faa62c","route":"bus","public_transport:version":"2"},"n":14,"s":[[10612516810,2],[10612516808,3],[10612487394,5],[10650821361,8],[10612487386,11],[10612487385,12],[10612487384,13],[10612487382,14]]},
+  {"id":15442845,"t":{"ref":"40","name":"COAST Bus 40: Islington / Borthwick Trolley Inbound","from":"Portsmouth Transportation Center","to":"Hanover Station","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#0c6b6d","route":"bus","public_transport:version":"2"},"n":16,"s":[[10665723584,1]]},
+  {"id":15445250,"t":{"ref":"43","name":"COAST Bus 43: Newington / Portsmouth Inbound","from":"The Crossings (Regal Cinema)","to":"Hanover Station","network":"Cooperative Alliance for Seacoast Transportation","operator":"Cooperative Alliance For Seacoast Transportation","colour":"#8781bd","route":"bus","public_transport:version":"2"},"n":12,"s":[[10616156739,1]]}
+]
+}

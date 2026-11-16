@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-IN",
+"tile":[2596,1875],
+"stops":[
+  {"id":5623618925,"lat":39.803081,"lon":-86.235148,"k":"p","n":"Shuttle Stop"},
+  {"id":11051988886,"lat":39.841326,"lon":-86.24204,"k":"p","n":"Georgetown and 47th IB"},
+  {"id":11051988887,"lat":39.835603,"lon":-86.243866,"k":"p","n":"Georgetown and Century Plaza IB"},
+  {"id":11741346179,"lat":39.809405,"lon":-86.231794,"k":"p","n":"30th & Falcon IB"},
+  {"id":11741346183,"lat":39.80954,"lon":-86.231945,"k":"p","n":"30th and Falcon OB"},
+  {"id":13586075486,"lat":39.827002,"lon":-86.237741,"k":"p","n":"Lafayette Square Mall"},
+  {"id":13587110369,"lat":39.827277,"lon":-86.238492,"k":"p","n":"Lafayette Square Mall IndyGo Transfer","ref":"13 (10307)"}
+],
+"routes":[
+  {"id":8350868,"t":{"ref":"15","name":"West 34th Street","from":"Transit Center","to":"High School Road","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"green","route":"bus"},"n":7,"s":[[11741346179,2]]},
+  {"id":8357428,"t":{"ref":"25","name":"West 16th Street","from":"Transit Center","to":"Walmart/Lafayette","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"blue","route":"bus"},"n":11,"s":[[11051988887,2]]},
+  {"id":18068829,"t":{"ref":"37","name":"Park 100","from":"Intech/Telecom","to":"Transit Center","network":"IndyGo","operator":"Indianapolis Public Transportation Corporation","colour":"blue","route":"bus","public_transport:version":"2"},"n":9,"s":[[11051988886,2],[11051988887,3]]},
+  {"id":20246487,"t":{"name":"Whitestown Connector","from":"Lafayette Square Mall","to":"Lafayette Square Mall","operator":"CIRTA","colour":"lime","route":"bus"},"n":12,"s":[[13587110369,12]]}
+]
+}

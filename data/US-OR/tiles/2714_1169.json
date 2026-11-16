@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"US-OR",
+"tile":[2714,1169],
+"stops":[
+  {"id":7695644758,"lat":45.703739,"lon":-121.530704,"k":"p","n":"May Street & Meyer Parkway"},
+  {"id":7695644759,"lat":45.709034,"lon":-121.535085,"k":"p","n":"Safeway"},
+  {"id":7695644760,"lat":45.710376,"lon":-121.546275,"k":"p","n":"Cascade Avenue & Mt. Adams Avenue"},
+  {"id":7695644761,"lat":45.711754,"lon":-121.539062,"k":"p","n":"Walmart"},
+  {"id":7695644762,"lat":45.711768,"lon":-121.53545,"k":"p","n":"Columbia Area Transit (CAT)","ref":"CAT"},
+  {"id":7695644763,"lat":45.711327,"lon":-121.519963,"k":"p","n":"Waucoma Center"},
+  {"id":7695644764,"lat":45.710343,"lon":-121.514467,"k":"p","n":"Columbia & 4th Street"},
+  {"id":7695644765,"lat":45.71243,"lon":-121.511828,"k":"p","n":"North 1st Street & Portway Avenue (Port Transfer)"},
+  {"id":7695644766,"lat":45.714783,"lon":-121.518888,"k":"p","n":"Portway Avenue & 8th Street"},
+  {"id":7695644767,"lat":45.70806,"lon":-121.514319,"k":"p","n":"State Street & 4th Street","ref":"4th & State"},
+  {"id":7695644768,"lat":45.703946,"lon":-121.523451,"k":"p","n":"Prospect Avenue & 12th Street"},
+  {"id":14071018809,"lat":45.711067,"lon":-121.538766,"k":"p"},
+  {"id":14071018810,"lat":45.709443,"lon":-121.532154,"k":"p"},
+  {"id":14071018811,"lat":45.705157,"lon":-121.533869,"k":"p"},
+  {"id":14071018814,"lat":45.702087,"lon":-121.523084,"k":"p"},
+  {"id":14071018815,"lat":45.704,"lon":-121.522308,"k":"p"},
+  {"id":14071018816,"lat":45.708038,"lon":-121.51472,"k":"p"},
+  {"id":14071018817,"lat":45.714558,"lon":-121.513646,"k":"p"},
+  {"id":14071018818,"lat":45.709664,"lon":-121.515651,"k":"p"}
+],
+"routes":[
+  {"id":12808678,"t":{"ref":"CGE","name":"Columbia Gorge Express: Hood River","from":"Portland Gateway TC","to":"Hood River","network":"CAT","operator":"Hood River County Transportation District","route":"bus","public_transport:version":"2"},"n":4,"s":[[7695644762,4]]},
+  {"id":12808791,"t":{"ref":"CGE","name":"Columbia Gorge Express: Portland","from":"Hood River","to":"Portland Gateway TC","network":"CAT","operator":"Hood River County Transportation District","route":"bus","public_transport:version":"2"},"n":4,"s":[[7695644762,1]]},
+  {"id":21184058,"t":{"name":"Hood River Loop","network":"CAT","operator":"Hood River County Transportation District","route":"bus"},"n":13,"s":[[7695644762,1,13],[7695644758,2],[14071018814,6],[14071018815,7],[14071018816,8],[14071018817,9],[7695644765,10],[14071018818,11],[7695644763,12]]},
+  {"id":21184177,"t":{"name":"Upper Valley Loop","network":"CAT","operator":"Hood River County Transportation District","route":"bus"},"n":3,"s":[[7695644762,1,3],[14071018809,2]]}
+]
+}

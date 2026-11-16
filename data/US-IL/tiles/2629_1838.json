@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"US-IL",
+"tile":[2629,1838],
+"stops":[
+  {"id":7917718178,"lat":41.484476,"lon":-88.069265,"k":"p","n":"Cashel & Laraway","ref":"36301"},
+  {"id":7917718179,"lat":41.484413,"lon":-88.071033,"k":"p","n":"Amazon MDW2","ref":"36749"},
+  {"id":8834312993,"lat":41.487372,"lon":-88.071568,"k":"p","n":"Amazon MDW4","ref":"36750"},
+  {"id":14056965625,"lat":41.484425,"lon":-88.070877,"k":"x","n":"Amazon MDW2","ref":"36749"},
+  {"id":14056965626,"lat":41.48739,"lon":-88.071666,"k":"x","n":"Amazon MDW4","ref":"36750"}
+],
+"routes":[
+  {"id":10529426,"t":{"ref":"504","name":"South Joliet","network":"Pace","operator":"Regional Transportation Authority","route":"bus"},"n":5,"s":[[7917718178,5]]},
+  {"id":11637482,"t":{"ref":"361","name":"Bus 361: Pace Harvey Transportation Center => Amazon MDW4","from":"Pace Harvey Transportation Center","to":"Amazon MDW4","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[7917718179,2],[8834312993,3]]},
+  {"id":15514629,"t":{"ref":"361","name":"Bus 361: Amazon MDW2 => Pace Harvey Transportation Center","from":"Amazon Building MDW2","to":"Pace Harvey Transportation Center","network":"Pace","operator":"Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[7917718179,1],[8834312993,2]]}
+]
+}

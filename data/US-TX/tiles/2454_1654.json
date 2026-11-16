@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"US-TX",
+"tile":[2454,1654],
+"stops":[
+  {"id":5729151653,"lat":32.74019,"lon":-97.263356,"k":"p"},
+  {"id":5729151654,"lat":32.740363,"lon":-97.2631,"k":"p","n":"2"},
+  {"id":5729151655,"lat":32.740497,"lon":-97.263121,"k":"p","n":"1"},
+  {"id":5729151656,"lat":32.740271,"lon":-97.263226,"k":"p","n":"3"},
+  {"id":5729151657,"lat":32.740342,"lon":-97.26335,"k":"p","n":"4"},
+  {"id":5729151658,"lat":32.740533,"lon":-97.263291,"k":"p","n":"5"},
+  {"id":10744052779,"lat":32.700806,"lon":-97.262834,"k":"p","n":"Miller & Martin Luther"},
+  {"id":10744052781,"lat":32.713253,"lon":-97.263025,"k":"p","n":"Miller & Berry"},
+  {"id":10744052782,"lat":32.714703,"lon":-97.262807,"k":"p","n":"Miller & Burton"},
+  {"id":10744052783,"lat":32.721701,"lon":-97.262774,"k":"p","n":"Miller & Ramey - Millet"},
+  {"id":10744052784,"lat":32.721373,"lon":-97.263007,"k":"p","n":"Miller & Ramey"},
+  {"id":10744052785,"lat":32.730861,"lon":-97.262137,"k":"p","n":"Miller & Rosedale"},
+  {"id":10744052786,"lat":32.732008,"lon":-97.261838,"k":"p","n":"Miller & Rosedale"},
+  {"id":10744052787,"lat":32.730804,"lon":-97.261833,"k":"p","n":"Miller & Rosedale"},
+  {"id":10757716437,"lat":32.712316,"lon":-97.283057,"k":"p","n":"Walmart At Berry St"}
+],
+"routes":[
+  {"id":8417809,"t":{"ref":"60","name":"Trinity Metro 60 Eastside Express","network":"Trinity Metro","operator":"Fort Worth Transportation Authority","route":"bus"},"n":2,"s":[[5729151653,1]]},
+  {"id":15578815,"t":{"ref":"89","name":"Bus 89: Downtown -> Handley Transfer Center","from":"Fort Worth Central Station","to":"Halbert & Karr","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":4,"s":[[5729151658,3]]},
+  {"id":15578816,"t":{"ref":"89","name":"Bus 89: Handley Transfer Center -> Downtown","from":"Halbert & Karr","to":"Fort Worth Central Station","network":"Trinity Metro","operator":"Trinity Metro","colour":"#5a256f","route":"bus","public_transport:version":"2"},"n":3,"s":[[5729151657,2]]},
+  {"id":15596529,"t":{"ref":"21","name":"Bus 21: Dunkins Transfer Center -> Eastchase","from":"Dr. Dennis Dunkins Transfer Center","to":"Eastchase & John T White","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":4,"s":[[5729151654,1]]},
+  {"id":15596530,"t":{"ref":"21","name":"Bus 21: Eastchase -> Dunkins Transfer Center","from":"Eastchase & John T White","to":"Dr. Dennis Dunkins Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":2,"s":[[5729151654,2]]},
+  {"id":15596998,"t":{"ref":"22","name":"Bus 22: Eastchase -> Dunkins Transfer Center","from":"Eastchase & John T White - Anderson","to":"Dr. Dennis Dunkins Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":2,"s":[[5729151655,2]]},
+  {"id":15596999,"t":{"ref":"22","name":"Bus 22: Dunkins Transfer Center -> Eastchase","from":"Dr. Dennis Dunkins Transfer Center","to":"Eastchase & John T White - Anderson","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":6,"s":[[5729151655,1]]},
+  {"id":15617042,"t":{"ref":"25","name":"Bus 25: La Gran Plaza -> Dunkins Transfer Center","from":"La Gran Plaza Transfer Center","to":"Dr. Dennis Dunkins Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":17,"s":[[10744052779,12],[10744052782,13],[10744052783,14],[10744052787,15],[10744052786,16],[5729151656,17]]},
+  {"id":15617043,"t":{"ref":"25","name":"Bus 25: Dunkins Transfer Center -> La Gran Plaza","from":"Dr. Dennis Dunkins Transfer Center","to":"La Gran Plaza Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":15,"s":[[5729151656,1],[10744052785,2],[10744052784,3],[10744052781,4]]},
+  {"id":15635384,"t":{"ref":"24","name":"Bus 24: University -> Stalcup","from":"Rogers & Devitt","to":"Stalcup & Fitzhugh","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":4,"s":[[10757716437,3]]},
+  {"id":15635385,"t":{"ref":"24","name":"Bus 24: Stalcup -> University","from":"Fitzhugh & Stalcup","to":"Rogers & Devitt","network":"Trinity Metro","operator":"Trinity Metro","colour":"#7986c2","route":"bus","public_transport:version":"2"},"n":5,"s":[[10757716437,2]]},
+  {"id":15639410,"t":{"ref":"28","name":"Bus 28: Loop 820 -> Renaissance Square -> Sierra Vista Transfer Center","from":"Mansfield Hwy","to":"Sierra Vista Transfer Center","network":"Trinity Metro","operator":"Trinity Metro","colour":"#006d9e","route":"bus","public_transport:version":"2"},"n":3,"s":[[10757716437,2]]}
+]
+}

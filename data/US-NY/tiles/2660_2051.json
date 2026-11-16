@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"US-NY",
+"tile":[2660,2051],
+"stops":[
+  {"id":8889022998,"lat":43.027016,"lon":-77.442324,"k":"p","n":"Eastview Mall","ref":"1179"},
+  {"id":12077506490,"lat":43.01623,"lon":-77.436551,"k":"p","n":"Walmart - Victor"},
+  {"id":12077506491,"lat":43.030299,"lon":-77.438384,"k":"p","n":"Hobby Lobby - Victor"},
+  {"id":12077506492,"lat":43.030748,"lon":-77.442945,"k":"p","n":"Eastview Mall - Dick's"}
+],
+"routes":[
+  {"id":12917371,"t":{"ref":"331","name":"RTS 331 NY Route 31 Shuttle (E1)","from":"Eastview Mall","to":"Goodwill - Macedon","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[8889022998,1]]},
+  {"id":17797397,"t":{"ref":"331","name":"RTS 331 NY Route 31 Shuttle (W8)","from":"Goodwill - Macedon","to":"Eastview Mall","network":"RTS Wayne","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"2"},"n":3,"s":[[8889022998,3]]},
+  {"id":17881224,"t":{"ref":"253","name":"RTS 253 Farmington-Victor (P4)","from":"Hunts Trailer Park","to":"Walmart - Victor","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":2,"s":[[12077506490,2]]},
+  {"id":17881226,"t":{"ref":"253","name":"RTS 253 Farmington-Victor (P5)","from":"Walmart - Victor","to":"Eastview Mall - Dick's","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12077506490,1],[12077506491,2],[12077506492,3]]},
+  {"id":17881227,"t":{"ref":"253","name":"RTS 253 Farmington-Victor (P6)","from":"Eastview Mall - Dick's","to":"Tops - Farmington","network":"RTS Ontario","operator":"Rochester-Genesee Regional Transportation Authority","route":"bus","public_transport:version":"1"},"n":3,"s":[[12077506492,1]]}
+]
+}

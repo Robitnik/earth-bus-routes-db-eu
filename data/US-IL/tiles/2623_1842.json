@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"US-IL",
+"tile":[2623,1842],
+"stops":[
+  {"id":9718919855,"lat":41.192163,"lon":-87.853936,"k":"p","n":"Bourbonnais Metro Centre Transfer Center"},
+  {"id":9999072807,"lat":41.174316,"lon":-87.853703,"k":"p","n":"Target"},
+  {"id":9999072808,"lat":41.153724,"lon":-87.874051,"k":"p","n":"Olivet Nazarene University"},
+  {"id":12745689952,"lat":41.162717,"lon":-87.879467,"k":"p","n":"VA Clinic","ref":"240434"},
+  {"id":13723496701,"lat":41.150361,"lon":-87.875853,"k":"p"},
+  {"id":13775167801,"lat":41.162527,"lon":-87.853809,"k":"p"},
+  {"id":14010919302,"lat":41.152267,"lon":-87.876256,"k":"p"}
+],
+"routes":[
+  {"id":12385396,"t":{"ref":"2","name":"Bradley/Meijer/Target","from":"Northfield Square Mall","to":"Northfield Square Mall","network":"RVMMTD","operator":"River Valley Metro Mass Transit District","route":"bus"},"n":4,"s":[[9999072807,2]]},
+  {"id":12386872,"t":{"ref":"10","name":"Bourbonnais/VA","from":"Brown Blvd.","to":"Northfield Square Mall","network":"RVMMTD","operator":"River Valley Metro Mass Transit District","route":"bus"},"n":4,"s":[[9718919855,3],[12745689952,4]]},
+  {"id":12386888,"t":{"ref":"11","name":"Kennedy Drive/ONU/Northfield Meadows","from":"Kankakee Metro Centre","to":"Northfield Square Mall","network":"RVMMTD","operator":"River Valley Metro Mass Transit District","route":"bus"},"n":3,"s":[[9999072808,2]]},
+  {"id":19645467,"t":{"ref":"12","name":"Kennedy Drive/Christine Drive/Bourbonnais","from":"Kankakee Metro Centre","to":"Kroger","network":"RVMMTD","operator":"River Valley Metro Mass Transit District","route":"bus"},"n":3,"s":[[12745689952,3]]}
+]
+}
