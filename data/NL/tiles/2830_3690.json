@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2830,3690],
+"stops":[
+  {"id":618885183,"lat":51.533814,"lon":4.511348,"k":"p","n":"Rucphensebaan"},
+  {"id":618885185,"lat":51.534691,"lon":4.549948,"k":"p","n":"Gebrande Hoefstraat"},
+  {"id":3890407960,"lat":51.533669,"lon":4.511717,"k":"p","n":"Rucphensebaan"},
+  {"id":10075560913,"lat":51.534656,"lon":4.549925,"k":"x","n":"Rucphen, Gebrande Hoefstraat"},
+  {"id":13517038781,"lat":51.54433,"lon":4.505869,"k":"p","n":"Winkelcentrum A58"},
+  {"id":13517038787,"lat":51.536461,"lon":4.504163,"k":"p","n":"Spectrum"}
+],
+"routes":[
+  {"id":19205674,"t":{"ref":"162","name":"Bus 162: Roosendaal Tolberg => Etten-Leur Centrum","from":"Roosendaal, Damastberg","to":"Etten-Leur, Centrum","network":"West-Brabant","operator":"Arriva","colour":"#77C043","route":"bus","public_transport:version":"2"},"n":29,"s":[[3890407960,16]]},
+  {"id":19206848,"t":{"ref":"162","name":"Bus 162: Etten-Leur Centrum => Roosendaal Tolberg","from":"Etten-Leur, Centrum","to":"Roosendaal, Tolberg","network":"West-Brabant","operator":"Arriva","colour":"#77C043","route":"bus","public_transport:version":"2"},"n":29,"s":[[618885185,13],[618885183,14]]},
+  {"id":20161289,"t":{"ref":"flex","name":"Bravoflex hub Station, Oudenbosch","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":56,"s":[[13517038781,35],[618885185,49]]},
+  {"id":20161290,"t":{"ref":"flex","name":"Bravoflex hub Station, Roosendaal","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":204,"s":[[618885183,167],[3890407960,181],[13517038787,185],[13517038781,204]]},
+  {"id":20161302,"t":{"ref":"flex","name":"Bravoflex hub Noorderstraat, Sint Willebrord","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":25,"s":[[618885185,5]]}
+]
+}

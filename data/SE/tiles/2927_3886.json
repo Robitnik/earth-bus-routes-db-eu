@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2927,3886],
+"stops":[
+  {"id":251051536,"lat":56.392407,"lon":14.333201,"k":"x","n":"Lönsboda Kyrkhultsvägen"},
+  {"id":475593039,"lat":56.396285,"lon":14.325631,"k":"x","n":"Lönsboda Nyteboda"},
+  {"id":475741735,"lat":56.396144,"lon":14.325969,"k":"p"},
+  {"id":4042830498,"lat":56.396114,"lon":14.325908,"k":"x","n":"Lönsboda Nyteboda"},
+  {"id":4307571295,"lat":56.396539,"lon":14.320728,"k":"x","n":"Lönsboda Busstation","ref":"A"},
+  {"id":4307571297,"lat":56.395064,"lon":14.314077,"k":"x","n":"Lönsboda Tvärgatan"},
+  {"id":4307571298,"lat":56.395269,"lon":14.314455,"k":"x","n":"Lönsboda Tvärgatan"},
+  {"id":4307571343,"lat":56.395094,"lon":14.314009,"k":"p"},
+  {"id":5739780362,"lat":56.393683,"lon":14.320156,"k":"p"},
+  {"id":5739780363,"lat":56.393965,"lon":14.32033,"k":"p"},
+  {"id":5739780364,"lat":56.393966,"lon":14.320264,"k":"x","n":"Lönsboda Gränsgatan"},
+  {"id":5739780368,"lat":56.393681,"lon":14.320237,"k":"x","n":"Lönsboda Gränsgatan"},
+  {"id":6363713304,"lat":56.396269,"lon":14.325593,"k":"p"},
+  {"id":6363713374,"lat":56.392382,"lon":14.333174,"k":"p"},
+  {"id":6363713375,"lat":56.392443,"lon":14.333208,"k":"p"},
+  {"id":14173059653,"lat":56.39813,"lon":14.321115,"k":"x","n":"Lönsboda busstation"},
+  {"id":14173059654,"lat":56.398216,"lon":14.321084,"k":"x","n":"Lönsboda busstation"},
+  {"id":5000601142426,"lat":56.396481,"lon":14.320848,"k":"p","ref":"A"},
+  {"id":5001428409793,"lat":56.395281,"lon":14.314574,"k":"p"}
+],
+"routes":[
+  {"id":6420032,"t":{"ref":"562","name":"Buss 562: Olofström => Älmhult","from":"Olofström","to":"Älmhult","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":28,"s":[[6363713375,10],[475741735,11],[5000601142426,12]]},
+  {"id":6420033,"t":{"ref":"562","name":"Buss 562: Älmhult => Olofström","from":"Älmhult","to":"Olofström","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000601142426,16],[6363713304,17],[6363713374,18]]},
+  {"id":8427959,"t":{"ref":"539","name":"Buss 539: Osby => Lönsboda","from":"Osby station","to":"Lönsboda Busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[5001428409793,10],[5000601142426,11]]},
+  {"id":8427960,"t":{"ref":"539","name":"Buss 539: Lönsboda => Osby","from":"Lönsboda Busstation","to":"Osby station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000601142426,1],[4307571343,2]]},
+  {"id":8428070,"t":{"ref":"541","name":"Buss 541: Lönsboda => Sibbhult","from":"Lönsboda","to":"Sibbhult","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000601142426,1],[5739780362,2]]},
+  {"id":8428071,"t":{"ref":"541","name":"Buss 541: Sibbhult => Lönsboda","from":"Sibbhult","to":"Lönsboda","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":5,"s":[[5739780363,4],[5000601142426,5]]}
+]
+}

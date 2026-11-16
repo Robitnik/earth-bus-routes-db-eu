@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2970,3876],
+"stops":[
+  {"id":433905538,"lat":58.526958,"lon":13.820293,"k":"x","n":"Lövåsen väg 26","ref":"B"},
+  {"id":634591637,"lat":58.526987,"lon":13.820441,"k":"x","n":"Lövåsen väg 26","ref":"A"},
+  {"id":733942414,"lat":58.504718,"lon":13.807538,"k":"x","n":"Övertorp","ref":"A;B"},
+  {"id":733942416,"lat":58.510529,"lon":13.802795,"k":"x","n":"Esbjörnstorp","ref":"A"},
+  {"id":9242135258,"lat":58.507741,"lon":13.838511,"k":"x","n":"Kärrtorp","ref":"B"},
+  {"id":12856504431,"lat":58.504688,"lon":13.807484,"k":"p","n":"B","ref":"B"},
+  {"id":12856504432,"lat":58.504768,"lon":13.807528,"k":"p","n":"A","ref":"A"},
+  {"id":12856504433,"lat":58.510168,"lon":13.802922,"k":"x","n":"Esbjörnstorp","ref":"B"},
+  {"id":12856504434,"lat":58.510162,"lon":13.802832,"k":"p","n":"B","ref":"B"},
+  {"id":12856504435,"lat":58.510537,"lon":13.802862,"k":"p","n":"A","ref":"A"},
+  {"id":13385860878,"lat":58.533788,"lon":13.814928,"k":"x","n":"Lövåsens gård","ref":"A"},
+  {"id":13385860879,"lat":58.51567,"lon":13.833492,"k":"x","n":"Mobacka","ref":"A"},
+  {"id":13385860880,"lat":58.508618,"lon":13.838299,"k":"x","n":"Kärrtorp","ref":"A"},
+  {"id":13997801677,"lat":58.514295,"lon":13.834669,"k":"x","n":"Mobacka","ref":"B"},
+  {"id":13997832997,"lat":58.549818,"lon":13.80975,"k":"x","n":"Rambotorp","ref":"B"},
+  {"id":13997840510,"lat":58.532705,"lon":13.815482,"k":"x","n":"Lövåsens gård","ref":"A"},
+  {"id":5000310452201,"lat":58.52696,"lon":13.820194,"k":"p","n":"B","ref":"B"},
+  {"id":5000310452203,"lat":58.526965,"lon":13.820622,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":4149072,"t":{"ref":"500","name":"Buss 500: Mariestad => Skövde","from":"Mariestad","to":"Skövde resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000310452201,3]]},
+  {"id":4149073,"t":{"ref":"500","name":"Buss 500: Skövde => Mariestad","from":"Skövde resecentrum","to":"Mariestad","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000310452203,9]]},
+  {"id":4149671,"t":{"ref":"613","name":"Bus 613: Skövde - Timmersdala - Lerdala","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":21,"s":[[733942414,5],[733942416,6]]},
+  {"id":4149672,"t":{"ref":"613","name":"Bus 613: Lerdala - Timmersdala - Skövde","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":21,"s":[[733942416,16],[733942414,17]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2909,3875],
+"stops":[
+  {"id":56251757,"lat":55.4695,"lon":13.797001,"k":"x","n":"Bromma kyrka","ref":"A"},
+  {"id":2888111843,"lat":55.469072,"lon":13.797005,"k":"x","n":"Bromma kyrka","ref":"B"},
+  {"id":3607101300,"lat":55.462661,"lon":13.751279,"k":"x","n":"Bjäresjö","ref":"A"},
+  {"id":3607101301,"lat":55.462763,"lon":13.751208,"k":"x","n":"Bjäresjö","ref":"B"},
+  {"id":3607101317,"lat":55.462674,"lon":13.751344,"k":"p","n":"A","ref":"A"},
+  {"id":3607101318,"lat":55.46275,"lon":13.751162,"k":"p","n":"B","ref":"B"},
+  {"id":4310752729,"lat":55.45064,"lon":13.764564,"k":"p","n":"A","ref":"A"},
+  {"id":4310752734,"lat":55.450629,"lon":13.764454,"k":"p","n":"B","ref":"B"},
+  {"id":4310752744,"lat":55.450635,"lon":13.764499,"k":"x","n":"Vaktarebacken","ref":"A;B"},
+  {"id":5000285135359,"lat":55.469106,"lon":13.796887,"k":"p","n":"B","ref":"B"},
+  {"id":5000285135363,"lat":55.469475,"lon":13.797102,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":3789320,"t":{"ref":"301","name":"Buss 301: Sjöbo => Ystad","from":"Sjöbo","to":"Ystad","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000285135359,12]]},
+  {"id":3789321,"t":{"ref":"301","name":"Buss 301: Ystad => Sjöbo","from":"Ystad","to":"Sjöbo","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000285135363,12]]},
+  {"id":5614057,"t":{"ref":"307","name":"Buss 307: Skurup => Skårby => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":31,"s":[[3607101318,23],[4310752734,24]]},
+  {"id":5614058,"t":{"ref":"307","name":"Buss 307: Ystad => Skårby => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":31,"s":[[4310752729,8],[3607101317,9]]},
+  {"id":17913653,"t":{"ref":"307","name":"Buss 307: Ystad => Trunnerup","from":"Ystad","to":"Trunnerup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":22,"s":[[4310752729,8],[3607101317,9]]},
+  {"id":17913654,"t":{"ref":"307","name":"Buss 307: Trunnerup => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","operator":"Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":22,"s":[[3607101318,14],[4310752734,15]]}
+]
+}

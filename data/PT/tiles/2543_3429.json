@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"PT",
+"tile":[2543,3429],
+"stops":[
+  {"id":5752390626,"lat":37.153147,"lon":-8.538447,"k":"p","n":"Hospital"},
+  {"id":5752390645,"lat":37.153129,"lon":-8.538285,"k":"p","n":"Hospital"},
+  {"id":6867631651,"lat":37.19875,"lon":-8.528702,"k":"p","n":"Porto de Lagos"},
+  {"id":6867631652,"lat":37.198771,"lon":-8.528628,"k":"p","n":"Porto de Lagos"}
+],
+"routes":[
+  {"id":8440579,"t":{"ref":"51","name":"51 Albufeira - Portimaos - Lagos","from":"Albufeira","to":"Lagos","operator":"EVA transportes s.a.","route":"bus","public_transport:version":"2"},"n":11,"s":[[5752390626,6]]},
+  {"id":8441590,"t":{"ref":"51","name":"51 Lagos - Portimão - Albufeira","from":"Lagos","to":"Albufeira","operator":"EVA transportes s.a.","route":"bus","public_transport:version":"2"},"n":10,"s":[[5752390645,5]]},
+  {"id":10137480,"t":{"ref":"94","name":"Bus 94: Monchique => Portimão","from":"Monchique","to":"Portimão (Platform 5)","operator":"Frota Azul","route":"bus","public_transport:version":"2"},"n":7,"s":[[6867631651,5],[5752390626,6]]},
+  {"id":10139341,"t":{"ref":"94","name":"Bus 94: Portimão => Monchique","from":"Portimão (Platform 5)","to":"Monchique","operator":"Frota Azul","route":"bus","public_transport:version":"2"},"n":7,"s":[[5752390645,2],[6867631652,3]]}
+]
+}

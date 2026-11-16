@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2837,3711],
+"stops":[
+  {"id":637853546,"lat":51.884491,"lon":5.587832,"k":"p","n":"Kerkstraat"},
+  {"id":637853547,"lat":51.885204,"lon":5.587722,"k":"p","n":"Kerkstraat"},
+  {"id":3950104290,"lat":51.884194,"lon":5.575212,"k":"p","n":"Westerhout"},
+  {"id":3950104291,"lat":51.884086,"lon":5.575331,"k":"p","n":"Westerhout"},
+  {"id":3955286961,"lat":51.883948,"lon":5.59492,"k":"p","n":"Langstuk"},
+  {"id":3982421141,"lat":51.850664,"lon":5.563401,"k":"p","n":"Heppertsestraat"},
+  {"id":3982421142,"lat":51.850734,"lon":5.563401,"k":"p","n":"Heppertsestraat"},
+  {"id":10101652881,"lat":51.884265,"lon":5.555689,"k":"p","n":"Florastraat"},
+  {"id":12050217930,"lat":51.883863,"lon":5.595296,"k":"p","n":"Langstuk"}
+],
+"routes":[
+  {"id":318658,"t":{"ref":"42","name":"Bus 42: Tiel Station => Druten Busstation","from":"Tiel, Station","to":"Druten, Busstation","network":"Achterhoek-Rivierenland;Arnhem-Nijmegen","operator":"Arriva;Breng","route":"bus","public_transport:version":"2"},"n":10,"s":[[3950104291,9]]},
+  {"id":318659,"t":{"ref":"42","name":"Bus 42: Druten Busstation => Tiel Station","from":"Druten, Busstation","to":"Tiel, Station","network":"Achterhoek-Rivierenland;Arnhem-Nijmegen","operator":"Arriva;Breng","route":"bus","public_transport:version":"2"},"n":10,"s":[[3950104290,2]]},
+  {"id":2132919,"t":{"ref":"165","name":"Bus 165: 's-Hertogenbosch Centraal Station => Druten Busstation","from":"'s-Hertogenbosch, Centraal Station","to":"Druten, Busstation","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":25,"s":[[3950104291,22],[637853546,23],[12050217930,24]]},
+  {"id":2132920,"t":{"ref":"165","name":"Bus 165: Druten Busstation => 's-Hertogenbosch Centraal Station","from":"Druten, Busstation","to":"'s-Hertogenbosch, Centraal Station","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":25,"s":[[3955286961,2],[637853547,3],[3950104290,4]]},
+  {"id":5936283,"t":{"ref":"802","name":"Bus 802: Druten Busstation => Wamel Veer","from":"Druten, Busstation","to":"Wamel, Veer","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":11,"s":[[3982421142,6]]},
+  {"id":5936284,"t":{"ref":"802","name":"Bus 802: Wamel Veer => Druten Busstation","from":"Wamel, Veer","to":"Druten, Busstation","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":11,"s":[[3982421141,6]]},
+  {"id":14691575,"t":{"name":"haltetaxiRRReis","network":"IJssel-Vecht","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":70,"s":[[10101652881,30]]}
+]
+}

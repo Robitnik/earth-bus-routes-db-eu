@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2911,3864],
+"stops":[
+  {"id":257103303,"lat":55.583077,"lon":13.200403,"k":"x","n":"Bara Kyrkoväg","ref":"A"},
+  {"id":257103321,"lat":55.586419,"lon":13.214953,"k":"x","n":"Flängevadsvägen"},
+  {"id":1987591870,"lat":55.566533,"lon":13.209322,"k":"x","n":"Torup Bokskogen","ref":"A"},
+  {"id":2759657204,"lat":55.593321,"lon":13.23302,"k":"x","n":"Klågerup Stensminnevägen"},
+  {"id":2759657216,"lat":55.593562,"lon":13.234081,"k":"x","n":"Klågerup Stensminnevägen"},
+  {"id":2759657242,"lat":55.595925,"lon":13.245117,"k":"x","n":"Klågerup Tejarpsdalsvägen"},
+  {"id":2759657243,"lat":55.595996,"lon":13.245681,"k":"x","n":"Klågerup Tejarpsdalsvägen"},
+  {"id":3355325072,"lat":55.583501,"lon":13.201071,"k":"x","n":"Bara Kyrkoväg","ref":"B"},
+  {"id":3599580308,"lat":55.586279,"lon":13.213973,"k":"x","n":"Flängevadsvägen"},
+  {"id":3599580384,"lat":55.586316,"lon":13.213958,"k":"p"},
+  {"id":3599580385,"lat":55.586397,"lon":13.214965,"k":"p"},
+  {"id":5000271021713,"lat":55.593418,"lon":13.233118,"k":"p"},
+  {"id":5000271021714,"lat":55.595861,"lon":13.245052,"k":"p"},
+  {"id":5000271021736,"lat":55.593501,"lon":13.234048,"k":"p"},
+  {"id":5000271021746,"lat":55.596073,"lon":13.245796,"k":"p"},
+  {"id":5000354197065,"lat":55.583167,"lon":13.200398,"k":"p","n":"A","ref":"A"},
+  {"id":5000354197066,"lat":55.583407,"lon":13.201123,"k":"p","n":"B","ref":"B"},
+  {"id":5000354197081,"lat":55.566547,"lon":13.209462,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":3157180,"t":{"ref":"150","name":"Buss 150: Klågerup => Malmö => Vellinge","from":"Klågerups busstation","to":"Vellinge","network":"Skånetrafiken","operator":"Arriva","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000271021746,3],[5000271021713,4],[3599580384,5],[5000354197065,6]]},
+  {"id":4498857,"t":{"ref":"142","name":"Buss 142: Klågerup => Malmö Södervärn","from":"Klågerups busstation","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000271021746,3],[5000271021713,4],[3599580384,5],[5000354197065,6]]},
+  {"id":4498858,"t":{"ref":"142","name":"Buss 142: Malmö Södervärn => Klågerup","from":"Malmö Södervärn","to":"Klågerups busstation","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000354197066,22],[3599580385,23],[5000271021736,24],[5000271021714,25]]},
+  {"id":5291816,"t":{"ref":"148","name":"Buss 148: Malmö Södervärn => Torup","from":"Malmö Södervärn","to":"Torup Bokskogen","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000354197081,17]]},
+  {"id":5291817,"t":{"ref":"148","name":"Buss 148: Torup => Malmö Södervärn","from":"Torup Bokskogen","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000354197081,1]]}
+]
+}

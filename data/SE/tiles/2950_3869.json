@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2950,3869],
+"stops":[
+  {"id":2905174833,"lat":57.531044,"lon":13.473133,"k":"p","n":"B","ref":"B"},
+  {"id":2905174834,"lat":57.530997,"lon":13.472919,"k":"p","n":"A","ref":"A"},
+  {"id":2905174835,"lat":57.526578,"lon":13.470969,"k":"p","n":"B","ref":"B"},
+  {"id":2905174836,"lat":57.52659,"lon":13.470791,"k":"p","n":"A","ref":"A"},
+  {"id":9361085906,"lat":57.546012,"lon":13.489323,"k":"x","n":"Nittorp Industriväg","ref":"A"},
+  {"id":9361120347,"lat":57.526585,"lon":13.470876,"k":"x","n":"Västra Ryda","ref":"A;B"},
+  {"id":10275461587,"lat":57.531078,"lon":13.473074,"k":"x","n":"Ryda","ref":"B"},
+  {"id":10275461588,"lat":57.530957,"lon":13.472985,"k":"x","n":"Ryda","ref":"A"},
+  {"id":5001014652756,"lat":57.546033,"lon":13.489302,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":3805382,"t":{"ref":"208","name":"Buss 208: Tranemo => Ryda => Ulricehamn","from":"Tranemo","to":"Ulricehamn","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[2905174835,3],[2905174833,4],[5001014652756,6]]},
+  {"id":3805383,"t":{"ref":"208","name":"Buss 208: Ulricehamn => Dalstorp=> Limmared => Tranemo","from":"Ulricehamn","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":16,"s":[[5001014652756,6]]},
+  {"id":3805384,"t":{"ref":"208","name":"Buss 208: Ulricehamn => Dalstorp => Ryda => Tranemo","from":"Ulricehamn","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":12,"s":[[2905174835,4],[2905174833,5],[5001014652756,6]]},
+  {"id":3805402,"t":{"ref":"325","name":"Buss 325: Tranemo => Grimsås => Nittorp => Tranemo","from":"Tranemo","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001014652756,1],[2905174834,2],[2905174836,3]]},
+  {"id":3805403,"t":{"ref":"325","name":"Buss 325: Tranemo => Nittorp => Grimsås => Tranemo","from":"Tranemo","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":6,"s":[[2905174835,4],[2905174833,5],[5001014652756,6]]},
+  {"id":3809412,"t":{"ref":"266","name":"Buss 366: Ölsremma => Knestorp => Tranemo","from":"Ölsremma","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[5001014652756,5],[2905174834,7],[2905174836,11]]},
+  {"id":3809413,"t":{"ref":"266","name":"Buss 366: Tranemo => Knestorp => Ölsremma","from":"Tranemo","to":"Ölsremma","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[2905174835,4],[2905174833,5],[5001014652756,6]]},
+  {"id":3816208,"t":{"ref":"208","name":"Buss 208: Tranemo => Limmared => Ulricehamn => Falköping","from":"Tranemo","to":"Ulricehamn","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":27,"s":[[5001014652756,7]]},
+  {"id":3816209,"t":{"ref":"266","name":"Buss 366: Dalstorp => Tranemo","from":"Dalstorp Torget","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[5001014652756,6],[2905174834,7],[2905174836,8]]},
+  {"id":3827842,"t":{"ref":"366","name":"Buss 366: Ljungsarp => Nittorp By => Tranemo","from":"Ljungsarp","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":8,"s":[[2905174836,4],[2905174834,5],[5001014652756,6]]},
+  {"id":3827843,"t":{"ref":"366","name":"Buss 366: Tranemo => Nittorp By => Ölsremma","from":"Tranemo","to":"Ölsremma","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":8,"s":[[5001014652756,3],[2905174833,4],[2905174835,5]]}
+]
+}

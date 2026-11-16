@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2912,3869],
+"stops":[
+  {"id":469403749,"lat":55.633159,"lon":13.494299,"k":"x","n":"Veberöd centrum","ref":"A"},
+  {"id":1112561383,"lat":55.637686,"lon":13.488507,"k":"x","n":"Veberöd Försköningen","ref":"B"},
+  {"id":1112561393,"lat":55.633356,"lon":13.49342,"k":"x","n":"Veberöd centrum","ref":"B"},
+  {"id":1112561407,"lat":55.637494,"lon":13.488685,"k":"x","n":"Veberöd Försköningen","ref":"A"},
+  {"id":3168580235,"lat":55.63331,"lon":13.492611,"k":"p","ref":"C"},
+  {"id":3168580245,"lat":55.633279,"lon":13.492624,"k":"x","n":"Veberöd centrum","ref":"C"},
+  {"id":4310607767,"lat":55.604127,"lon":13.488709,"k":"p","ref":"A"},
+  {"id":4310607772,"lat":55.60284,"lon":13.489044,"k":"p","ref":"B"},
+  {"id":4310607777,"lat":55.602851,"lon":13.489129,"k":"x","n":"Grönland","ref":"B"},
+  {"id":4310607778,"lat":55.604121,"lon":13.48862,"k":"x","n":"Grönland","ref":"A"},
+  {"id":5000305190933,"lat":55.637619,"lon":13.488639,"k":"p","ref":"B"},
+  {"id":5000305190938,"lat":55.63757,"lon":13.488518,"k":"p","ref":"A"},
+  {"id":5000311258977,"lat":55.633135,"lon":13.494201,"k":"p","ref":"A"},
+  {"id":5000311258978,"lat":55.633362,"lon":13.493639,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":2726826,"t":{"ref":"160","name":"Buss 160: Lund C => Sjöbo","from":"Lund C","to":"Sjöbo busstation","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000305190938,14],[5000311258977,15]]},
+  {"id":2726827,"t":{"ref":"160","name":"Buss 160: Sjöbo => Lund C","from":"Sjöbo busstation","to":"Lund C","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000311258978,6],[5000305190933,7]]},
+  {"id":4168401,"t":{"ref":"341","name":"Buss 341: Sjöbo => Veberöd","from":"Sjöbo","to":"Veberöd","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000311258978,22]]},
+  {"id":4168402,"t":{"ref":"341","name":"Buss 341: Veberöd => Sjöbo","from":"Veberöd C","to":"Sjöbo","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000311258977,1]]},
+  {"id":4173644,"t":{"ref":"SkE 8","name":"Buss SkE 8: Malmö Södervärn => Sjöbo","from":"Malmö Södervärn","to":"Sjöbo","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000305190938,7],[5000311258977,8]]},
+  {"id":4173645,"t":{"ref":"SkE 8","name":"Buss SkE 8: Sjöbo => Malmö Södervärn","from":"Sjöbo busstation","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000311258978,4],[5000305190933,5]]},
+  {"id":5302276,"t":{"ref":"309","name":"Buss 309: Skurup => Veberöd","from":"Skurup","to":"Veberöd C","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[4310607767,13],[3168580235,16]]},
+  {"id":5302277,"t":{"ref":"309","name":"Buss 309: Veberöd => Skurup","from":"Veberöd centrum","to":"Skurups station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[3168580235,1],[4310607772,4]]}
+]
+}

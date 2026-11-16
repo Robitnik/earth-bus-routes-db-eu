@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2928,3855],
+"stops":[
+  {"id":252505756,"lat":56.435028,"lon":12.75205,"k":"x","n":"Svenstad Ridhuset","ref":"B"},
+  {"id":779172364,"lat":56.403289,"lon":12.755956,"k":"p","n":"A","ref":"A"},
+  {"id":779172365,"lat":56.403968,"lon":12.755092,"k":"p","n":"B","ref":"B"},
+  {"id":1752325830,"lat":56.403979,"lon":12.755172,"k":"x","n":"Grevie Salomonhögsvägen","ref":"B"},
+  {"id":3130237247,"lat":56.403274,"lon":12.755879,"k":"x","n":"Grevie Salomonhögsvägen","ref":"A"},
+  {"id":4811872298,"lat":56.434208,"lon":12.762781,"k":"p","n":"B","ref":"B"},
+  {"id":4811872299,"lat":56.434235,"lon":12.762788,"k":"x","n":"Birgit Nilssons museum","ref":"B"},
+  {"id":4811872300,"lat":56.434292,"lon":12.762405,"k":"p","n":"A","ref":"A"},
+  {"id":4811872301,"lat":56.434726,"lon":12.776187,"k":"p","n":"A","ref":"A"},
+  {"id":4811872302,"lat":56.434654,"lon":12.776041,"k":"p","n":"B","ref":"B"},
+  {"id":4811872303,"lat":56.434677,"lon":12.776034,"k":"x","n":"Svenstad Smedjan","ref":"B"},
+  {"id":4811872304,"lat":56.436615,"lon":12.793647,"k":"p","n":"D","ref":"D"},
+  {"id":4811872305,"lat":56.436652,"lon":12.793209,"k":"p","n":"C","ref":"C"},
+  {"id":4811872306,"lat":56.436607,"lon":12.793222,"k":"x","n":"Boarp affären","ref":"C"},
+  {"id":4811872319,"lat":56.4347,"lon":12.776211,"k":"x","n":"Svenstad Smedjan","ref":"A"},
+  {"id":4811872721,"lat":56.436653,"lon":12.793621,"k":"x","n":"Boarp affären","ref":"D"},
+  {"id":4811872722,"lat":56.434266,"lon":12.762393,"k":"x","n":"Birgit Nilssons museum","ref":"A"},
+  {"id":5314527178,"lat":56.435073,"lon":12.751817,"k":"p","n":"A","ref":"A"},
+  {"id":5314527179,"lat":56.434994,"lon":12.752044,"k":"p","n":"B","ref":"B"},
+  {"id":5314527181,"lat":56.435046,"lon":12.751808,"k":"x","n":"Svenstad Ridhuset","ref":"A"},
+  {"id":6239557661,"lat":56.446777,"lon":12.79651,"k":"x","n":"Båstad Norrviken","ref":"A"},
+  {"id":14106206769,"lat":56.445213,"lon":12.798959,"k":"x","n":"Båstad Apelrydsskolan"},
+  {"id":14106206770,"lat":56.445266,"lon":12.798893,"k":"x","n":"Båstad Apelrydsskolan"},
+  {"id":14106435993,"lat":56.445237,"lon":12.799002,"k":"p"},
+  {"id":14106435994,"lat":56.445253,"lon":12.798846,"k":"p"},
+  {"id":5001550933014,"lat":56.446834,"lon":12.796492,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":4110719,"t":{"ref":"505","name":"Buss 505: Förslöv => Torekov","from":"Förslövs station","to":"Torekov","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[779172364,9]]},
+  {"id":4110720,"t":{"ref":"505","name":"Buss 505: Torekov => Förslöv","from":"Torekov busstation","to":"Förslöv","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[779172365,16]]},
+  {"id":6147959,"t":{"ref":"501","name":"Buss 501: Norrviken => Båstad station","from":"Båstad Norrviken","to":"Båstad station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":10,"s":[[5001550933014,1],[14106435994,2]]},
+  {"id":6147960,"t":{"ref":"501","name":"Buss 501: Båstad station => Norrviken","from":"Båstad station","to":"Båstad Norrviken","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":10,"s":[[14106435994,9],[5001550933014,10]]},
+  {"id":8476673,"t":{"ref":"502","name":"Buss 502: Torekov => Båstad","from":"Torekov busstation","to":"Båstad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5314527179,12],[4811872298,13],[4811872302,14],[4811872304,15]]},
+  {"id":8476674,"t":{"ref":"502","name":"Buss 502: Båstad => Torekov","from":"Båstad busstation","to":"Torekov busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[4811872305,6],[4811872301,7],[4811872300,8],[5314527178,9]]}
+]
+}

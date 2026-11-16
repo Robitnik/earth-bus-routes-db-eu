@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2837,3725],
+"stops":[
+  {"id":675136379,"lat":51.897416,"lon":6.257426,"k":"p","n":"Tolhuis"},
+  {"id":675137037,"lat":51.881843,"lon":6.258663,"k":"p","n":"Hangaarts"},
+  {"id":675137542,"lat":51.897415,"lon":6.257744,"k":"p","n":"Tolhuis"},
+  {"id":3652406052,"lat":51.874723,"lon":6.254134,"k":"p","n":"Muziekschool"},
+  {"id":3652406053,"lat":51.874795,"lon":6.254233,"k":"x","n":"'s Heerenberg, Muziekschool"},
+  {"id":3652406054,"lat":51.874795,"lon":6.254134,"k":"x","n":"'s Heerenberg, Muziekschool"},
+  {"id":3652406055,"lat":51.874864,"lon":6.254232,"k":"p","n":"Muziekschool"},
+  {"id":3964000271,"lat":51.876871,"lon":6.256925,"k":"p","n":"'t Goor"},
+  {"id":3964000272,"lat":51.877005,"lon":6.257824,"k":"p","n":"'t Goor"},
+  {"id":3964000281,"lat":51.878256,"lon":6.265368,"k":"p","n":"De Kapelhoek"},
+  {"id":3964000282,"lat":51.878352,"lon":6.265814,"k":"p","n":"De Kapelhoek"},
+  {"id":8228332249,"lat":51.882679,"lon":6.259454,"k":"p","n":"Hangaarts"},
+  {"id":13374505959,"lat":51.877471,"lon":6.255452,"k":"p","n":"Bergherveld"},
+  {"id":13374505960,"lat":51.869471,"lon":6.261223,"k":"p","n":"Grensstraat"},
+  {"id":13374505961,"lat":51.869392,"lon":6.261204,"k":"p","n":"Grensstraat"},
+  {"id":13374505975,"lat":51.877082,"lon":6.266962,"k":"p","n":"Logistiekstraat"},
+  {"id":13374505976,"lat":51.877158,"lon":6.266877,"k":"p","n":"Logistiekstraat"},
+  {"id":13374505979,"lat":51.873979,"lon":6.284746,"k":"p","n":"Transportweg"},
+  {"id":14073343738,"lat":51.87396,"lon":6.284757,"k":"x","n":"'s Heerenberg, Transportweg"}
+],
+"routes":[
+  {"id":338658,"t":{"ref":"24","name":"Bus 24: 's-Heerenberg Busstation => Doetinchem Station","from":"'s-Heerenberg, Busstation","to":"Doetinchem, Station","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":10,"s":[[13374505959,2],[675137542,3]]},
+  {"id":535909,"t":{"ref":"24","name":"Bus 24: Doetinchem Station => 's-Heerenberg Busstation","from":"Doetinchem, Station","to":"'s-Heerenberg, Busstation","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":10,"s":[[675136379,8],[675137037,9]]},
+  {"id":1827210,"t":{"ref":"91","name":"Bus 91: Emmerich => 's-Heerenberg","from":"Emmerich Bahnhof","to":"'s-Heerenberg Molenpoort","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","colour":"#ffff00","route":"bus","public_transport:version":"2"},"n":15,"s":[[3652406052,14]]},
+  {"id":5899586,"t":{"ref":"197","name":"Bus 197: 's-Heerenberg Busstation => Terborg Station","from":"'s-Heerenberg, Busstation","to":"Terborg, Station","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#98C818","route":"bus","public_transport:version":"2"},"n":14,"s":[[3964000271,2],[3964000281,3]]},
+  {"id":5899587,"t":{"ref":"197","name":"Bus 197: Terborg Station => 's-Heerenberg Busstation","from":"Terborg, Station","to":"'s-Heerenberg, Busstation","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#98C818","route":"bus","public_transport:version":"2"},"n":15,"s":[[3964000282,13],[3964000272,14]]},
+  {"id":9929108,"t":{"ref":"697","name":"Bus 697: Silvolde Terborgseveld => Stokkum Dorp","from":"Silvolde, Terborgseveld","to":"Stokkum, Dorp","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":15,"s":[[3964000282,11],[3964000272,12]]},
+  {"id":9929109,"t":{"ref":"697","name":"Bus 697: Stokkum Dorp => Silvolde Terborgseveld","from":"Stokkum, Dorp","to":"Silvolde, Terborgseveld","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":15,"s":[[3964000271,4],[3964000281,5]]},
+  {"id":19956586,"t":{"ref":"25","name":"Bus 25: Didam Station => 's Heerenberg Transportweg","from":"Didam, Station Zuidzijde","to":"'s Heerenberg, Transportweg","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":9,"s":[[675136379,3],[675137037,4],[3964000271,6],[13374505961,7],[13374505975,8],[13374505979,9]]},
+  {"id":19956587,"t":{"ref":"25","name":"Bus 25: 's Heerenberg Transportweg => Didam Station","from":"'s Heerenberg, Transportweg","to":"Didam, Station Zuidzijde","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":9,"s":[[13374505979,1],[13374505976,2],[13374505960,3],[13374505959,4],[8228332249,6],[675137542,7]]},
+  {"id":20005621,"t":{"ref":"25","name":"Bus 25: 's Heerenberg Transportweg => Didam Station","from":"'s Heerenberg, Transportweg","to":"Didam, Station Zuidzijde","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":7,"s":[[13374505979,1],[13374505959,2],[8228332249,4],[675137542,5]]},
+  {"id":20005622,"t":{"ref":"25","name":"Bus 25: Didam Station => 's Heerenberg Transportweg","from":"Didam, Station Zuidzijde","to":"'s Heerenberg, Transportweg","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":7,"s":[[675136379,3],[675137037,4],[3964000271,6],[13374505979,7]]},
+  {"id":3039288544196,"t":{"ref":"91","name":"Bus 91: 's-Heerenberg => Emmerich","from":"'s-Heerenberg Molenpoort","to":"Emmerich Bahnhof","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","colour":"#ffff00","route":"bus","public_transport:version":"2"},"n":15,"s":[[3652406055,2]]}
+]
+}

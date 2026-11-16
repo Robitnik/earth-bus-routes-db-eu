@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2923,3887],
+"stops":[
+  {"id":313621976,"lat":56.18313,"lon":14.369642,"k":"x","n":"Vånga Kyrkogården","ref":"A"},
+  {"id":3309399456,"lat":56.162398,"lon":14.379574,"k":"p"},
+  {"id":3309399457,"lat":56.162402,"lon":14.379505,"k":"x","n":"Furustad badplatsen"},
+  {"id":3309399458,"lat":56.168688,"lon":14.376071,"k":"x","n":"Söndremark"},
+  {"id":3309399459,"lat":56.168692,"lon":14.376119,"k":"p"},
+  {"id":3309399460,"lat":56.168829,"lon":14.376032,"k":"p"},
+  {"id":3309400361,"lat":56.168822,"lon":14.375957,"k":"x","n":"Söndremark"},
+  {"id":3309400372,"lat":56.180496,"lon":14.374484,"k":"p","ref":"A"},
+  {"id":3309400374,"lat":56.180521,"lon":14.374544,"k":"x","n":"Vånga kyrkan","ref":"A"},
+  {"id":4307384685,"lat":56.151389,"lon":14.380445,"k":"x","n":"Furustad utkiksplatsen"},
+  {"id":4307384686,"lat":56.151837,"lon":14.38032,"k":"x","n":"Furustad utkiksplatsen"},
+  {"id":4307384687,"lat":56.160723,"lon":14.379328,"k":"x","n":"Furustad badplatsen"},
+  {"id":4307384801,"lat":56.151407,"lon":14.380547,"k":"p"},
+  {"id":4307384802,"lat":56.151834,"lon":14.380255,"k":"p"},
+  {"id":4307384803,"lat":56.160729,"lon":14.379293,"k":"p"},
+  {"id":4454686811,"lat":56.183092,"lon":14.369602,"k":"p","ref":"A"},
+  {"id":4454686829,"lat":56.183247,"lon":14.369527,"k":"p","ref":"B"},
+  {"id":4454686832,"lat":56.186897,"lon":14.351216,"k":"p","ref":"B"},
+  {"id":4454686850,"lat":56.186833,"lon":14.35121,"k":"x","n":"Rydstorp Staversvadsvägen","ref":"B"},
+  {"id":4454686851,"lat":56.183181,"lon":14.369478,"k":"x","n":"Vånga Kyrkogården","ref":"B"}
+],
+"routes":[
+  {"id":3160789,"t":{"ref":"550","name":"Buss 550: Vånga => Kristianstad","from":"Vånga","to":"Kristianstad","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":31,"s":[[3309400372,1],[4454686829,2],[4454686832,3]]},
+  {"id":3160790,"t":{"ref":"550","name":"Buss 550: Kristianstad => Vånga","from":"Kristianstad","to":"Vånga","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":31,"s":[[4454686811,30],[3309400372,31]]},
+  {"id":6419349,"t":{"ref":"557","name":"Buss 557: Fjälkinge => Vånga","from":"Fjälkinge","to":"Vånga","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":17,"s":[[4307384801,14],[3309399456,15],[3309399459,16],[3309400372,17]]},
+  {"id":6419350,"t":{"ref":"557","name":"Buss 557: Vånga => Fjälkinge","from":"Vånga","to":"Fjälkinge","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":17,"s":[[3309400372,1],[3309399460,2],[4307384803,3],[4307384802,4]]}
+]
+}

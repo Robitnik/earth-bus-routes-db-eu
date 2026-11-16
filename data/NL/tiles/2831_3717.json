@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2831,3717],
+"stops":[
+  {"id":1714171514,"lat":51.596544,"lon":5.859289,"k":"p","n":"Spekklef"},
+  {"id":1714171515,"lat":51.596716,"lon":5.859257,"k":"p","n":"Spekklef"},
+  {"id":2848091538,"lat":51.589685,"lon":5.88154,"k":"p","n":"Stevensstraat"},
+  {"id":2848091539,"lat":51.582305,"lon":5.864042,"k":"p","n":"Kerk"},
+  {"id":5259517454,"lat":51.582265,"lon":5.864059,"k":"x","n":"Westerbeek, Kerk"},
+  {"id":5259517455,"lat":51.582257,"lon":5.864275,"k":"p","n":"Kerk"},
+  {"id":5259517456,"lat":51.589674,"lon":5.881614,"k":"x","n":"Westerbeek, Stevensstraat"},
+  {"id":5259517457,"lat":51.589686,"lon":5.881706,"k":"p","n":"Stevensstraat"}
+],
+"routes":[
+  {"id":395561,"t":{"ref":"23","name":"Bus 23: Boxmeer Station => Helmond Station","from":"Boxmeer, Station","to":"Helmond, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":32,"s":[[1714171515,9]]},
+  {"id":395562,"t":{"ref":"23","name":"Bus 23: Helmond Station => Boxmeer Station","from":"Helmond, Station","to":"Boxmeer, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":34,"s":[[1714171514,25]]},
+  {"id":3418999,"t":{"ref":"292","name":"Bus 292: Sint Anthonis Dokter Verbeecklaan => Boxmeer Maasziekenhuis","from":"Sint Anthonis, Dokter Verbeecklaan","to":"Boxmeer, Maasziekenhuis","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":38,"s":[[2848091538,8],[2848091539,9]]},
+  {"id":6790914,"t":{"ref":"23","name":"Bus 23: Boxmeer Station => Helmond Station","from":"Boxmeer, Station","to":"Helmond, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":32,"s":[[1714171515,9]]},
+  {"id":7774825,"t":{"ref":"292","name":"Bus 292: Boxmeer Maasziekenhuis => Sint Anthonis Dokter Verbeecklaan","from":"Boxmeer, Maasziekenhuis","to":"Sint Anthonis, Dokter Verbeecklaan","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":40,"s":[[5259517455,32],[5259517457,33]]},
+  {"id":20678532,"t":{"ref":"flex","name":"Bravoflex hub Station, Boxmeer","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":99,"s":[[1714171514,76],[1714171515,77],[5259517457,83],[5259517455,84],[2848091539,91],[2848091538,92]]},
+  {"id":20678555,"t":{"ref":"flex","name":"Bravoflex hub Dokter Verbeecklaan, Sint Anthonis","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":82,"s":[[1714171515,22],[1714171514,24],[2848091539,30],[5259517455,31],[2848091538,36],[5259517457,38]]}
+]
+}

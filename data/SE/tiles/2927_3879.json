@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2927,3879],
+"stops":[
+  {"id":474835045,"lat":56.357108,"lon":13.974764,"k":"x","n":"Hasslaröd bron"},
+  {"id":3623339202,"lat":56.379522,"lon":13.994769,"k":"x","n":"Osby station"},
+  {"id":3623339203,"lat":56.379691,"lon":13.994918,"k":"x","n":"Osby station"},
+  {"id":3623339204,"lat":56.379957,"lon":13.995153,"k":"x","n":"Osby station"},
+  {"id":5737564735,"lat":56.370252,"lon":13.98478,"k":"p"},
+  {"id":5737564736,"lat":56.369789,"lon":13.984477,"k":"p"},
+  {"id":5737564737,"lat":56.369781,"lon":13.984543,"k":"x","n":"Hasslaröd Havrevägen"},
+  {"id":5737564739,"lat":56.366584,"lon":13.982712,"k":"p"},
+  {"id":5737564740,"lat":56.366605,"lon":13.98266,"k":"x","n":"Hasslaröd Humlevägen"},
+  {"id":5737564741,"lat":56.361675,"lon":13.979158,"k":"p"},
+  {"id":5737564742,"lat":56.36206,"lon":13.979794,"k":"p"},
+  {"id":5737564743,"lat":56.362091,"lon":13.979684,"k":"x","n":"Hasslaröd Dyneberg"},
+  {"id":5737564745,"lat":56.357101,"lon":13.974833,"k":"p"},
+  {"id":5737564746,"lat":56.357108,"lon":13.974685,"k":"p"},
+  {"id":5737564747,"lat":56.350637,"lon":13.969787,"k":"p"},
+  {"id":5737564748,"lat":56.351404,"lon":13.9702,"k":"p"},
+  {"id":5737564749,"lat":56.351381,"lon":13.970326,"k":"x","n":"Sibbarps skans"},
+  {"id":5737570659,"lat":56.350662,"lon":13.969685,"k":"x","n":"Sibbarps skans"},
+  {"id":5737570660,"lat":56.361654,"lon":13.979221,"k":"x","n":"Hasslaröd Dyneberg"},
+  {"id":5737570661,"lat":56.366313,"lon":13.982474,"k":"x","n":"Hasslaröd Humlevägen"},
+  {"id":5737570662,"lat":56.370254,"lon":13.984724,"k":"x","n":"Hasslaröd Havrevägen"},
+  {"id":13301772494,"lat":56.397048,"lon":13.999685,"k":"p"},
+  {"id":5000356932499,"lat":56.379588,"lon":13.994728,"k":"p","ref":"A"},
+  {"id":5000356932503,"lat":56.37976,"lon":13.994881,"k":"p","ref":"B"},
+  {"id":5000356932506,"lat":56.380024,"lon":13.995105,"k":"p","ref":"D"},
+  {"id":5001552107296,"lat":56.366417,"lon":13.982475,"k":"p"}
+],
+"routes":[
+  {"id":3160770,"t":{"ref":"545","name":"Buss 545: Osby => Glimåkra => Broby => Kristianstad","from":"Osby station","to":"Kristianstad Björkhemsvägen","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":36,"s":[[5000356932499,1]]},
+  {"id":3160771,"t":{"ref":"545","name":"Buss 545: Kristianstad => Broby => Glimåkra => Osby","from":"Kristianstad Björkhemsvägen","to":"Osby station","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000356932499,34]]},
+  {"id":7876375,"t":{"ref":"536","name":"Buss 536: Osby => Hässleholm","from":"Osby station","to":"Hässleholm Centralen","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000356932506,1],[5737564736,2],[5001552107296,3],[5737564741,4],[5737564746,5],[5737564748,6]]},
+  {"id":7876376,"t":{"ref":"536","name":"Buss 536: Hässleholm => Osby","from":"Hässleholm Centralen","to":"Osby station","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":35,"s":[[5737564747,30],[5737564745,31],[5737564742,32],[5737564739,33],[5737564735,34],[5000356932506,35]]},
+  {"id":8427959,"t":{"ref":"539","name":"Buss 539: Osby => Lönsboda","from":"Osby station","to":"Lönsboda Busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000356932503,1]]},
+  {"id":8427960,"t":{"ref":"539","name":"Buss 539: Lönsboda => Osby","from":"Lönsboda Busstation","to":"Osby station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000356932503,11]]}
+]
+}

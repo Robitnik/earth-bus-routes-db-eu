@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2914,3881],
+"stops":[
+  {"id":790306052,"lat":55.727998,"lon":14.096905,"k":"x","n":"Brösarps bussterminal","ref":"A"},
+  {"id":790306057,"lat":55.727623,"lon":14.096632,"k":"x","n":"Brösarps bussterminal","ref":"B"},
+  {"id":3681510037,"lat":55.715682,"lon":14.086356,"k":"x","n":"Brunsvik"},
+  {"id":3681510038,"lat":55.716227,"lon":14.087248,"k":"x","n":"Brunsvik"},
+  {"id":3681510953,"lat":55.715636,"lon":14.086411,"k":"p"},
+  {"id":3681510954,"lat":55.716263,"lon":14.087204,"k":"p"},
+  {"id":5000300359065,"lat":55.727815,"lon":14.096748,"k":"p","n":"A","ref":"A"},
+  {"id":5000300359066,"lat":55.727799,"lon":14.096786,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":3160943,"t":{"ref":"SkåneExpressen 4","name":"Buss SkåneExpressen 4: Kristianstad => Ystad","from":"Kristianstad","to":"Ystad","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000300359066,20],[3681510954,21]]},
+  {"id":3160944,"t":{"ref":"SkåneExpressen 4","name":"Buss SkåneExpressen 4: Ystad => Kristianstad","from":"Ystad","to":"Kristianstad","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":41,"s":[[3681510953,21],[5000300359065,22]]},
+  {"id":3317413,"t":{"ref":"SkåneExpressen 3","name":"Buss SkåneExpressen 3: Kristianstad => Simrishamn","from":"Kristianstad","to":"Simrishamn","network":"Skånetrafiken","operator":"Transdev Sverige AB Simrishamn","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000300359066,20]]},
+  {"id":3317414,"t":{"ref":"SkåneExpressen 3","name":"Buss SkåneExpressen 3: Simrishamn => Kristianstad","from":"Simrishamn","to":"Kristianstad","network":"Skånetrafiken","operator":"Transdev Sverige AB Simrishamn","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000300359065,20]]},
+  {"id":5427685,"t":{"ref":"574","name":"Buss 574: Simrishamn => Brösarp","from":"Simrishamn","to":"Brösarp","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000300359065,39]]},
+  {"id":5427686,"t":{"ref":"574","name":"Buss 574: Brösarp => Simrishamn","from":"Brösarp","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000300359066,1]]}
+]
+}

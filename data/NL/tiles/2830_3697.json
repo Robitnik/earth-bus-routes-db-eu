@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2830,3697],
+"stops":[
+  {"id":617220210,"lat":51.536507,"lon":4.899836,"k":"p","n":"AZC"},
+  {"id":617380900,"lat":51.503403,"lon":4.863698,"k":"p","n":"Ulicotenseweg"},
+  {"id":617380902,"lat":51.501161,"lon":4.870521,"k":"p","n":"Meysberg"},
+  {"id":617381010,"lat":51.505361,"lon":4.861355,"k":"p","n":"Dorpsstraat"},
+  {"id":617381012,"lat":51.507706,"lon":4.856444,"k":"p","n":"Boterfabriekweg"},
+  {"id":2625425353,"lat":51.507551,"lon":4.856357,"k":"p","n":"Boterfabriekweg"},
+  {"id":2625425397,"lat":51.505569,"lon":4.860556,"k":"p","n":"Dorpsstraat"},
+  {"id":2625425550,"lat":51.501664,"lon":4.869493,"k":"p","n":"Meysberg"},
+  {"id":3882556813,"lat":51.503467,"lon":4.863596,"k":"p","n":"Ulicotenseweg"},
+  {"id":12898024652,"lat":51.501698,"lon":4.869587,"k":"x","n":"Chaam, Meysberg"},
+  {"id":12898024653,"lat":51.501118,"lon":4.870455,"k":"x","n":"Chaam, Meysberg"}
+],
+"routes":[
+  {"id":390292,"t":{"ref":"170","name":"Bus 170: Breda Centraal Station => Gilze AZC","from":"Breda, Centraal Station","to":"Gilze, AZC","network":"West-Brabant","operator":"Arriva","colour":"#F9E63D","route":"bus","public_transport:version":"2"},"n":26,"s":[[617220210,26]]},
+  {"id":390293,"t":{"ref":"170","name":"Bus 170: Gilze AZC => Breda Centraal Station","from":"Gilze, AZC","to":"Breda, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#F9E63D","route":"bus","public_transport:version":"2"},"n":25,"s":[[617220210,1]]},
+  {"id":19199474,"t":{"ref":"375","name":"Bus 375: Breda Centraal Station => Baarle-Nassau Sint Janstraat","from":"Breda, Centraal Station","to":"Baarle-Nassau, Sint Janstraat","network":"West-Brabant","operator":"Arriva","colour":"#00A6DE","route":"bus","public_transport:version":"2"},"n":25,"s":[[2625425353,17],[2625425397,18],[2625425550,19]]},
+  {"id":19199475,"t":{"ref":"375","name":"Bus 375: Baarle-Nassau Sint Janstraat => Breda Centraal Station","from":"Baarle-Nassau, Sint Janstraat","to":"Breda, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#00A6DE","route":"bus","public_transport:version":"2"},"n":25,"s":[[617380902,7],[617381010,8],[617381012,9]]},
+  {"id":19227601,"t":{"ref":"175","name":"Bus 175: Chaam Meysberg => Ulicoten Kloosterstraat","from":"Chaam, Meysberg","to":"Chaam, Kloosterstraat","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":6,"s":[[617380902,1],[3882556813,2]]},
+  {"id":19227602,"t":{"ref":"175","name":"Bus 175: Ulicoten Kloosterstraat => Chaam Meysberg","from":"Ulicoten, Kloosterstraat","to":"Chaam, Meysberg","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":6,"s":[[617380900,5],[2625425550,6]]},
+  {"id":20161261,"t":{"ref":"flex","name":"Bravoflex hub Willibrordplein, Alphen","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":10,"s":[[2625425550,5],[617380902,6],[617380900,7],[3882556813,8],[617381012,9],[2625425353,10]]},
+  {"id":20161262,"t":{"ref":"flex","name":"Bravoflex hub Dorpsstraat, Chaam","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":44,"s":[[617381012,4],[617381010,5],[2625425397,7],[2625425353,8],[617380900,12],[3882556813,18],[2625425550,42],[617380902,44]]},
+  {"id":20678527,"t":{"ref":"flex","name":"Bravoflex hub Station, Gilze-Rijen","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":70,"s":[[617220210,27]]},
+  {"id":20678535,"t":{"ref":"flex","name":"Bravoflex hub Station Reeshof, Tilburg","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":27,"s":[[617220210,17]]},
+  {"id":20678554,"t":{"ref":"flex","name":"Bravoflex hub Dorpsstraat, Chaam","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":14,"s":[[617381010,1],[2625425397,2],[617220210,3]]}
+]
+}

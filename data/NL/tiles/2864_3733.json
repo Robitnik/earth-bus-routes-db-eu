@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2864,3733],
+"stops":[
+  {"id":662622782,"lat":53.243242,"lon":6.653759,"k":"p","n":"Dorpsweg"},
+  {"id":662622783,"lat":53.244091,"lon":6.65495,"k":"p","n":"Dorpsweg"},
+  {"id":664590823,"lat":53.211312,"lon":6.662012,"k":"p","n":"Grunostrand"},
+  {"id":664590825,"lat":53.210846,"lon":6.663222,"k":"p","n":"Grunostrand"},
+  {"id":664590827,"lat":53.209306,"lon":6.670071,"k":"p","n":"Veldzicht"},
+  {"id":664590828,"lat":53.209329,"lon":6.670853,"k":"p","n":"Veldzicht"},
+  {"id":664590839,"lat":53.210124,"lon":6.682842,"k":"p","n":"Hoofdlaan"},
+  {"id":664590840,"lat":53.209705,"lon":6.681691,"k":"p","n":"Hoofdlaan"},
+  {"id":664590841,"lat":53.211616,"lon":6.689541,"k":"p","n":"Pilotenweg"},
+  {"id":664590842,"lat":53.211432,"lon":6.688349,"k":"p","n":"Pilotenweg"},
+  {"id":664590843,"lat":53.21253,"lon":6.693299,"k":"p","n":"Dorpshuisweg"},
+  {"id":664590844,"lat":53.212554,"lon":6.694025,"k":"p","n":"Dorpshuisweg"},
+  {"id":5275302992,"lat":53.233569,"lon":6.660657,"k":"x","n":"Groningen, Tersluis"},
+  {"id":5325259118,"lat":53.233461,"lon":6.658977,"k":"p","n":"Het Spui"},
+  {"id":5325259119,"lat":53.233648,"lon":6.657802,"k":"p","n":"Het Spui"},
+  {"id":5627006171,"lat":53.23361,"lon":6.6578,"k":"x","n":"Groningen, Het Spui"},
+  {"id":5627006172,"lat":53.233512,"lon":6.658984,"k":"x","n":"Groningen, Het Spui"},
+  {"id":5951815105,"lat":53.233607,"lon":6.660622,"k":"p","n":"Tersluis"},
+  {"id":6731982928,"lat":53.231575,"lon":6.651481,"k":"p","n":"Lammetjesplein"},
+  {"id":6731982929,"lat":53.231626,"lon":6.653164,"k":"p","n":"Lammetjesplein"}
+],
+"routes":[
+  {"id":445777,"t":{"ref":"6","name":"Bus 6: Delfzijl Station => Haren P+R Haren A28","from":"Delfzijl, Station","to":"Haren, P+R Haren A28","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#C85AFF","route":"bus","public_transport:version":"2"},"n":50,"s":[[662622782,35]]},
+  {"id":445778,"t":{"ref":"6","name":"Bus 6: Haren P+R Haren A28 => Delfzijl Station","from":"Haren, P+R Haren A28","to":"Delfzijl, Station","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#C85AFF","route":"bus","public_transport:version":"2"},"n":51,"s":[[662622783,17]]},
+  {"id":532334,"t":{"ref":"5","name":"Bus 5: Groningen Tersluis => Annen Zuid","from":"Groningen Tersluis","to":"Annen, Zuid","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#B400BE","route":"bus","public_transport:version":"2"},"n":36,"s":[[5951815105,1],[5325259119,2],[6731982928,3]]},
+  {"id":532341,"t":{"ref":"5","name":"Bus 5: Annen Zuid => Groningen Tersluis","from":"Annen, Zuid","to":"Groningen, Tersluis","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#B400BE","route":"bus","public_transport:version":"2"},"n":36,"s":[[6731982929,34],[5325259118,35],[5951815105,36]]},
+  {"id":7796678,"t":{"ref":"5","name":"Bus 5: Annen Zuid => Scharmer Goldbergweg","from":"Annen, Zuid","to":"Scharmer, Goldbergweg","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#B400BE","route":"bus","public_transport:version":"2"},"n":49,"s":[[664590825,39],[664590827,40],[664590840,41],[664590841,42],[664590844,43]]},
+  {"id":7796691,"t":{"ref":"5","name":"Bus 5: Scharmer Goldbergweg => Annen Zuid","from":"Scharmer, Goldbergweg","to":"Annen, Zuid","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#B400BE","route":"bus","public_transport:version":"2"},"n":49,"s":[[664590843,7],[664590842,8],[664590839,9],[664590828,10],[664590823,11]]},
+  {"id":9971369,"t":{"ref":"406","name":"Bus 406: Groningen Hoofdstation => Delfzijl Station","from":"Groningen, Hoofdstation","to":"Delfzijl, Station","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#1A1A1A","route":"bus","public_transport:version":"2"},"n":33,"s":[[662622783,11]]},
+  {"id":9971458,"t":{"ref":"406","name":"Bus 406: Delfzijl Station => Groningen Hoofdstation","from":"Delfzijl, Station","to":"Groningen, Hoofdstation","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#1A1A1A","route":"bus","public_transport:version":"2"},"n":25,"s":[[662622782,14]]},
+  {"id":10452817,"t":{"ref":"516","name":"Bus 516: Hoogezand Medisch Centrum => Harkstede Schout Poelmanweg","from":"Hoogezand, Medisch Centrum","to":"Harkstede, Schout Poelmanweg","network":"Publiek Vervoer Groningen-Drenthe","operator":"De Grooth Vervoer / Stadsvervoer HS","route":"bus","public_transport:version":"2"},"n":29,"s":[[664590843,26]]},
+  {"id":18296584,"t":{"ref":"5","name":"Bus 5: Scharmer Goldbergweg => Haren P+R Haren A28","from":"Scharmer, Goldbergweg","to":"Haren, P+R Haren A28","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#B400BE","route":"bus","public_transport:version":"2"},"n":33,"s":[[664590843,7],[664590842,8],[664590839,9],[664590828,10],[664590823,11]]},
+  {"id":18296585,"t":{"ref":"5","name":"Bus 5: Groningen Tersluis => Haren P+R Haren A28","from":"Groningen Tersluis","to":"Haren, P+R Haren A28","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#B400BE","route":"bus","public_transport:version":"2"},"n":20,"s":[[5951815105,1],[5325259119,2],[6731982928,3]]}
+]
+}

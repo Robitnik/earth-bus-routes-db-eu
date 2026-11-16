@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2827,3718],
+"stops":[
+  {"id":1731849757,"lat":51.395102,"lon":5.920482,"k":"p","n":"Brug Eierloods"},
+  {"id":1731850125,"lat":51.388334,"lon":5.917939,"k":"p","n":"Oude Peelstraat"},
+  {"id":1974338043,"lat":51.360614,"lon":5.942386,"k":"x","n":"Grashoek, Pastoor Vullinghstraat"},
+  {"id":3118314734,"lat":51.388371,"lon":5.917917,"k":"x","n":"Helenaveen, Oude Peelstraat"},
+  {"id":4596433484,"lat":51.394906,"lon":5.920556,"k":"p","n":"Brug Eierloods"},
+  {"id":5471739688,"lat":51.360641,"lon":5.942404,"k":"p","n":"Pastoor Vullinghstraat"},
+  {"id":6193574619,"lat":51.394913,"lon":5.920599,"k":"x","n":"Helenaveen, Brug Eierloods"},
+  {"id":6193574620,"lat":51.395092,"lon":5.920447,"k":"x","n":"Helenaveen, Brug Eierloods"}
+],
+"routes":[
+  {"id":361747,"t":{"ref":"78","name":"Bus 78: Baarlo Centrum => Grashoek Pastoor Vullinghstraat","from":"Baarlo, Centrum","to":"Grashoek, Pastoor Vullinghstraat","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":16,"s":[[5471739688,16]]},
+  {"id":2505116,"t":{"ref":"78","name":"Bus 78: Grashoek Pastoor Vullinghstraat => Baarlo Centrum","from":"Grashoek, Pastoor Vullinghstraat","to":"Baarlo, Centrum","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":16,"s":[[5471739688,1]]},
+  {"id":2791307,"t":{"ref":"262","name":"Bus 262: Deurne Hoofdingang Ziekenhuis => Helenaveen Oude Peelstraat","from":"Deurne, Hoofdingang Ziekenhuis","to":"Helenaveen, Oude Peelstraat","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":20,"s":[[4596433484,19],[1731850125,20]]},
+  {"id":2791308,"t":{"ref":"262","name":"Bus 262: Helenaveen Oude Peelstraat => Deurne Hoofdingang ziekenhuis","from":"Helenaveen, Oude Peelstraat","to":"Deurne, Hoofdingang Ziekenhuis","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":20,"s":[[1731850125,1],[1731849757,2]]},
+  {"id":20672559,"t":{"ref":"flex","name":"Bravoflex hub Station, Deurne","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":142,"s":[[1731849757,12],[4596433484,13],[1731850125,21]]},
+  {"id":20672581,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Meijel","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":41,"s":[[1731849757,3],[4596433484,4],[1731850125,14]]}
+]
+}

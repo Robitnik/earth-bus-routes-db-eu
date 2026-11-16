@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2915,3862],
+"stops":[
+  {"id":252270235,"lat":55.789729,"lon":13.105343,"k":"x","n":"Kävlinge Kvarngatan","ref":"A"},
+  {"id":873971115,"lat":55.795302,"lon":13.110475,"k":"x","n":"Kävlinge station","ref":"B"},
+  {"id":2298641985,"lat":55.791382,"lon":13.104025,"k":"x","n":"Kävlinge Annelund","ref":"A"},
+  {"id":2298702879,"lat":55.789965,"lon":13.104934,"k":"x","n":"Kävlinge Kvarngatan","ref":"B"},
+  {"id":2298702891,"lat":55.773249,"lon":13.106378,"k":"x","n":"Lackalänga kyrka","ref":"B"},
+  {"id":2298702900,"lat":55.773513,"lon":13.106239,"k":"x","n":"Lackalänga kyrka","ref":"A"},
+  {"id":2298703136,"lat":55.775867,"lon":13.101255,"k":"p"},
+  {"id":2298703148,"lat":55.776175,"lon":13.101906,"k":"p"},
+  {"id":2301667633,"lat":55.795091,"lon":13.110463,"k":"x","n":"Kävlinge station","ref":"A"},
+  {"id":2301667634,"lat":55.795413,"lon":13.110476,"k":"x","n":"Kävlinge station","ref":"C"},
+  {"id":3049768641,"lat":55.789968,"lon":13.112187,"k":"x","n":"Kävlinge Vårdcentral","ref":"B"},
+  {"id":3049768642,"lat":55.789985,"lon":13.112327,"k":"x","n":"Kävlinge Vårdcentral","ref":"A"},
+  {"id":7596812964,"lat":55.791362,"lon":13.103936,"k":"x","n":"Kävlinge Annelund","ref":"B"},
+  {"id":11097239964,"lat":55.776196,"lon":13.101836,"k":"x","n":"Furulund Korsgatan"},
+  {"id":11097239965,"lat":55.775831,"lon":13.101342,"k":"x","n":"Furulund Korsgatan"},
+  {"id":14170794364,"lat":55.792757,"lon":13.127391,"k":"x","n":"Kävlinge Rinnebäcksgatan"},
+  {"id":14170794365,"lat":55.792786,"lon":13.127579,"k":"x","n":"Kävlinge Rinnebäcksgatan"},
+  {"id":5000220775883,"lat":55.791332,"lon":13.103968,"k":"p","n":"A","ref":"A"},
+  {"id":5000220777988,"lat":55.795252,"lon":13.110553,"k":"p","n":"B","ref":"B"},
+  {"id":5000220782195,"lat":55.773489,"lon":13.10641,"k":"p","n":"A","ref":"A"},
+  {"id":5000220782209,"lat":55.773302,"lon":13.106189,"k":"p","n":"B","ref":"B"},
+  {"id":5000220782218,"lat":55.789715,"lon":13.105469,"k":"p","n":"A","ref":"A"},
+  {"id":5000233731365,"lat":55.795025,"lon":13.110549,"k":"p","n":"A","ref":"A"},
+  {"id":5000813280306,"lat":55.789943,"lon":13.104837,"k":"p","n":"B","ref":"B"},
+  {"id":5001195626003,"lat":55.791409,"lon":13.103991,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":2919580,"t":{"ref":"122","name":"Buss 122: Kävlinge => Barsebäckshamn","from":"Kävlinge station","to":"Barsebäckshamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000220777988,1],[5001195626003,2]]},
+  {"id":2919583,"t":{"ref":"122","name":"Buss 122: Barsebäckshamn => Kävlinge","from":"Barsebäckshamn","to":"Kävlinge station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000220775883,19],[5000220777988,20]]},
+  {"id":2919641,"t":{"ref":"123","name":"Buss 123: Kävlinge => Furulund => Lund","from":"Kävlinge station","to":"Lund C","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000233731365,1],[5001195626003,2],[5000813280306,3],[2298703136,11],[5000220782209,12]]},
+  {"id":2919652,"t":{"ref":"123","name":"Buss 123: Lund => Furulund => Kävlinge","from":"Lund","to":"Kävlinge","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000220782195,11],[2298703148,12],[5000220782218,20],[5000220775883,21],[5000233731365,22]]},
+  {"id":5313125,"t":{"ref":"120","name":"Buss 120: Hänkelstorp => Stävie","from":"Hänkelstorp","to":"Stävie Häradsvägen","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000220775883,22],[5000233731365,23],[5001195626003,24],[5000813280306,25]]},
+  {"id":5313126,"t":{"ref":"120","name":"Buss 120: Stävie => Hänkelstorp","from":"Stävie Häradsvägen","to":"Hänkelstorp","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000220782218,5],[5000220775883,6],[5000220777988,7],[5001195626003,8]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3045,3948],
+"stops":[
+  {"id":282374689,"lat":62.267927,"lon":17.400755,"k":"x","n":"Mjösundsmon"},
+  {"id":282374699,"lat":62.265639,"lon":17.421497,"k":"x","n":"Berga"},
+  {"id":282374707,"lat":62.264084,"lon":17.445212,"k":"x","n":"Bergafjärden"},
+  {"id":290482993,"lat":62.268355,"lon":17.448261,"k":"x","n":"Bergafjärdens bad"},
+  {"id":525243988,"lat":62.283392,"lon":17.433785,"k":"x","n":"Juni"},
+  {"id":763075531,"lat":62.296383,"lon":17.423636,"k":"x","n":"Bundsböle östra"}
+],
+"routes":[
+  {"id":3254786,"t":{"ref":"123","name":"Buss 123: Kvissleby => Juniskär => Mjösundsvägen","from":"Kvissleby","to":"Mjösundsvägen","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[763075531,2],[525243988,4]]},
+  {"id":3254788,"t":{"ref":"123","name":"Buss 123: Mjösundsvägen => Juniskär => Kvissleby","from":"Mjösundsvägen","to":"Kvissleby","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[525243988,2],[763075531,4]]},
+  {"id":3254793,"t":{"ref":"126","name":"Buss 126: Lörudden => Njurunda","from":"Lörudden","to":"Njurunda","network":"DinTur","route":"bus","public_transport:version":"2"},"n":7,"s":[[290482993,4],[282374707,5],[282374699,6],[282374689,7]]},
+  {"id":3254795,"t":{"ref":"126","name":"Buss 126: Njurunda => Lörudden","from":"Njurunda","to":"Lörudden","network":"DinTur","route":"bus","public_transport:version":"2"},"n":8,"s":[[282374689,1],[282374699,2],[282374707,3],[290482993,4]]}
+]
+}

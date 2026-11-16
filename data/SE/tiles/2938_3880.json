@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2938,3880],
+"stops":[
+  {"id":260278712,"lat":56.918292,"lon":14.002711,"k":"x","n":"Värnamovägen","ref":"A"},
+  {"id":699950790,"lat":56.905965,"lon":14.009227,"k":"x","n":"Textilvägen","ref":"B"},
+  {"id":3261825454,"lat":56.906386,"lon":14.009711,"k":"x","n":"Textilvägen","ref":"A"},
+  {"id":4454463565,"lat":56.918244,"lon":14.002736,"k":"p","n":"A","ref":"A"},
+  {"id":4454463566,"lat":56.91568,"lon":14.003821,"k":"x","n":"Lagan Åbyskolan","ref":"A"},
+  {"id":13096798902,"lat":56.915751,"lon":14.00388,"k":"x","n":"Lagan Åbyskolan","ref":"B"},
+  {"id":13135811352,"lat":56.905981,"lon":14.009167,"k":"p","n":"B","ref":"B"},
+  {"id":13135811353,"lat":56.906377,"lon":14.009731,"k":"p","n":"A","ref":"A"},
+  {"id":5000458856270,"lat":56.915804,"lon":14.00376,"k":"p","n":"A","ref":"A"},
+  {"id":5000458856271,"lat":56.91568,"lon":14.003896,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":6782331,"t":{"ref":"147","name":"Buss 147: Bolmstad => Ljungby","from":"Bolmstad","to":"Ljungby","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000458856271,2]]},
+  {"id":6782332,"t":{"ref":"147","name":"Buss 147: Ljungby => Bolmstad","from":"Ljungby","to":"Bolmstad","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000458856270,5]]},
+  {"id":6867821,"t":{"ref":"273","name":"Buss 273: Ljungby => Värnamo","from":"Ljungby","to":"Värnamo","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000458856271,17]]},
+  {"id":6886155,"t":{"ref":"273","name":"Buss 273: Värnamo => Ljungby","from":"Värnamo Station","to":"Ljungby Terminal","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":23,"s":[[4454463565,16],[5000458856270,17]]}
+]
+}

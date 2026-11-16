@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2909,3869],
+"stops":[
+  {"id":282842811,"lat":55.489165,"lon":13.488166,"k":"x","n":"Svaneholms allé"},
+  {"id":1372055931,"lat":55.480096,"lon":13.497485,"k":"x","n":"Skurups station","ref":"B"},
+  {"id":1372055939,"lat":55.480002,"lon":13.497955,"k":"x","n":"Skurups station","ref":"A"},
+  {"id":4948843284,"lat":55.499093,"lon":13.48014,"k":"p","n":"A","ref":"A"},
+  {"id":4948843627,"lat":55.499072,"lon":13.48018,"k":"x","n":"Svaneholm slottet","ref":"A"},
+  {"id":12095285249,"lat":55.480447,"lon":13.498184,"k":"x","n":"Skurups station","ref":"C"},
+  {"id":12095285250,"lat":55.48911,"lon":13.488126,"k":"p"},
+  {"id":5000246544782,"lat":55.480019,"lon":13.498072,"k":"p","n":"A","ref":"A"},
+  {"id":5000246544783,"lat":55.480129,"lon":13.497644,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":5302276,"t":{"ref":"309","name":"Buss 309: Skurup => Veberöd","from":"Skurup","to":"Veberöd C","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000246544782,1]]},
+  {"id":5302277,"t":{"ref":"309","name":"Buss 309: Veberöd => Skurup","from":"Veberöd centrum","to":"Skurups station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000246544782,16]]},
+  {"id":5614057,"t":{"ref":"307","name":"Buss 307: Skurup => Skårby => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000246544783,1]]},
+  {"id":5614058,"t":{"ref":"307","name":"Buss 307: Ystad => Skårby => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000246544783,31]]},
+  {"id":5614059,"t":{"ref":"308","name":"Buss 308: Skurup => Skivarp => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000246544782,1]]},
+  {"id":5614060,"t":{"ref":"308","name":"Buss 308: Ystad => Skivarp => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000246544782,27]]},
+  {"id":7372575,"t":{"ref":"305","name":"Buss 305: Abbekås => Skivarp => Skurup","from":"Abbekås","to":"Skurup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000246544782,14]]},
+  {"id":7372576,"t":{"ref":"305","name":"Buss 305: Skurup => Skivarp => Abbekås","from":"Skurup","to":"Abbekås","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000246544782,1]]},
+  {"id":7372577,"t":{"ref":"308","name":"Buss 308: Skurup => Skivarp => Västervångsskolan => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000246544782,1]]},
+  {"id":7372578,"t":{"ref":"308","name":"Buss 308: Ystad => Västervångsskolan => Skivarp => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000246544782,27]]},
+  {"id":7372721,"t":{"ref":"306","name":"Buss 306: Skurup => Slimminge => Svaneholm => Skurup","from":"Skurup","to":"Skurup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000246544782,1,6],[4948843284,4],[12095285250,5]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2835,3700],
+"stops":[
+  {"id":618219560,"lat":51.789159,"lon":5.030453,"k":"p","n":"Parallelweg"},
+  {"id":618219566,"lat":51.794989,"lon":5.025243,"k":"p","n":"Kruisstraat"},
+  {"id":618219569,"lat":51.798477,"lon":5.020423,"k":"p","n":"Almweg"},
+  {"id":638287670,"lat":51.785036,"lon":5.04947,"k":"p","n":"Hofflaan"},
+  {"id":3402962688,"lat":51.785011,"lon":5.049532,"k":"x","n":"Andel, Hofflaan"},
+  {"id":3880791701,"lat":51.798278,"lon":5.020695,"k":"p","n":"Almweg"},
+  {"id":3880791721,"lat":51.794769,"lon":5.025266,"k":"p","n":"Kruisstraat"},
+  {"id":3880791726,"lat":51.789403,"lon":5.03003,"k":"p","n":"Parallelweg"},
+  {"id":3991000999,"lat":51.786264,"lon":5.033364,"k":"p","n":"Randweg/Tankstation"},
+  {"id":10313630214,"lat":51.78618,"lon":5.033277,"k":"x","n":"Giessen, Randweg/Tankstation"},
+  {"id":10313630215,"lat":51.786217,"lon":5.033351,"k":"x","n":"Giessen, Randweg/Tankstation"},
+  {"id":12967115973,"lat":51.787457,"lon":5.049657,"k":"p","n":"Prinsentuin"},
+  {"id":12967115983,"lat":51.787469,"lon":5.049727,"k":"x","n":"Andel, Prinsentuin"},
+  {"id":13517038766,"lat":51.776809,"lon":5.006725,"k":"p","n":"Waardhuizen"},
+  {"id":13517038798,"lat":51.78608,"lon":5.008038,"k":"p","n":"Uitwijk"}
+],
+"routes":[
+  {"id":391990,"t":{"ref":"181","name":"Bus 181: 's-Hertogenbosch Centraal Station => Gorinchem Station","from":"'s-Hertogenbosch, Centraal Station","to":"Gorinchem, Station","network":"West-Brabant","operator":"Arriva","colour":"#00BCF2","route":"bus","public_transport:version":"2"},"n":33,"s":[[618219560,18],[618219566,19],[618219569,20]]},
+  {"id":391991,"t":{"ref":"181","name":"Bus 181: Gorinchem Station => 's-Hertogenbosch Centraal Station","from":"Gorinchem, Station","to":"'s-Hertogenbosch, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#00BCF2","route":"bus","public_transport:version":"2"},"n":30,"s":[[3880791701,11],[3880791721,12],[3880791726,13]]},
+  {"id":5742270,"t":{"ref":"221","name":"Bus 221: Almkerk Altenahove => Almkerk Altenahove (linksom)","from":"Almkerk, Altenahove","to":"Almkerk, Altenahove","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":24,"s":[[618219560,4],[618219566,5],[618219569,6]]},
+  {"id":5742271,"t":{"ref":"221","name":"Bus 221: Almkerk Altenahove => Almkerk Altenahove (rechtsom)","from":"Almkerk, Altenahove","to":"Almkerk, Altenahove","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":23,"s":[[3880791701,18],[3880791721,19],[3880791726,20]]},
+  {"id":5950670,"t":{"ref":"268","name":"Bus 268: Giessen Randweg / Tankstation => Zaltbommel Station","from":"Giessen, Randweg / Tankstation","to":"Zaltbommel, Station","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#98C818","route":"bus","public_transport:version":"2"},"n":32,"s":[[3991000999,1]]},
+  {"id":5950671,"t":{"ref":"268","name":"Bus 268: Zaltbommel Station => Giessen Randweg / Tankstation","from":"Zaltbommel, Station","to":"Giessen, Randweg / Tankstation","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#98C818","route":"bus","public_transport:version":"2"},"n":39,"s":[[3991000999,39]]},
+  {"id":5992625,"t":{"ref":"668","name":"Bus 668: Andel Prinsentuin College => Velddriel Wordenseweg","from":"Andel, Prinsentuin College","to":"Velddriel, Wordenseweg","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":28,"s":[[12967115973,1]]},
+  {"id":5992626,"t":{"ref":"668","name":"Bus 668: Velddriel Wordenseweg - Andel Prinsentuin College","from":"Velddriel, Wordenseweg","to":"Andel, Prinsentuin College","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":28,"s":[[12967115973,28]]},
+  {"id":19259272,"t":{"ref":"682","name":"Bus 682: Wagenberg Kruispunt => Andel Prinsentuin College","from":"Wagenberg, Kruispunt","to":"Andel, Prinsentuin College","network":"West-Brabant","operator":"Arriva","colour":"#F7941D","route":"bus","public_transport:version":"2"},"n":25,"s":[[12967115973,25]]},
+  {"id":19259461,"t":{"ref":"682","name":"Bus 682: Andel Prinsentuin College => Wagenberg Kruispunt","from":"Andel, Prinsentuin College","to":"Wagenberg, Kruispunt","network":"West-Brabant","operator":"Arriva","colour":"#F7941D","route":"bus","public_transport:version":"2"},"n":25,"s":[[12967115973,1]]},
+  {"id":19260059,"t":{"ref":"683","name":"Bus 683: Dongen Groenvenseweg => Andel Prinsentuin College","from":"Dongen, Groenvenseweg","to":"Andel, Prinsentuin College","network":"West-Brabant","operator":"Arriva","colour":"#F7941D","route":"bus","public_transport:version":"2"},"n":23,"s":[[12967115973,23]]},
+  {"id":19260096,"t":{"ref":"683","name":"Bus 683: Andel Prinsentuin College => Dongen Groenvenseweg","from":"Andel, Prinsentuin College","to":"Dongen, Groenvenseweg","network":"West-Brabant","operator":"Arriva","colour":"#F7941D","route":"bus","public_transport:version":"2"},"n":23,"s":[[12967115973,1]]},
+  {"id":19261685,"t":{"ref":"684","name":"Bus 684: Wijk en Aalburg Kromme Nol => Andel Prinsentuin College","from":"Wijk en Aalburg, Kromme Nol","to":"Andel, Prinsentuin College","network":"West-Brabant","operator":"Arriva","colour":"#F7941D","route":"bus","public_transport:version":"2"},"n":3,"s":[[12967115973,3]]},
+  {"id":19261709,"t":{"ref":"684","name":"Bus 684: Andel Prinsentuin College => Wijk en Aalburg Kromme Nol","from":"Andel, Prinsentuin College","to":"Wijk en Aalburg, Kromme Nol","network":"West-Brabant","operator":"Arriva","colour":"#F7941D","route":"bus","public_transport:version":"2"},"n":3,"s":[[12967115973,1]]},
+  {"id":20161269,"t":{"ref":"flex","name":"Bravoflex hub Kromme Nol, Wijk en Aalburg","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":80,"s":[[618219569,1],[3880791701,2],[3991000999,5],[618219560,6],[3880791726,7],[13517038798,8],[13517038766,9],[638287670,12],[12967115973,14]]},
+  {"id":20161270,"t":{"ref":"flex","name":"Bravoflex hub Emmastraat, Andel","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":13,"s":[[638287670,3],[12967115973,6]]},
+  {"id":20161271,"t":{"ref":"flex","name":"Bravoflex hub Kruisstraat, Rijswijk","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":20,"s":[[618219566,10],[3880791721,11],[618219569,12],[3991000999,13],[618219560,14],[3880791726,15],[3880791701,16],[13517038798,19],[13517038766,20]]},
+  {"id":20161272,"t":{"ref":"flex","name":"Bravoflex hub Rijksweg A27, Nieuwendijk","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":34,"s":[[13517038766,1],[12967115973,2],[638287670,6]]},
+  {"id":20161273,"t":{"ref":"flex","name":"Bravoflex hub Tol, Sleeuwijk","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":49,"s":[[618219566,35],[3880791721,36],[618219569,37],[3991000999,38],[618219560,39],[3880791726,40],[3880791701,41],[13517038798,49]]}
+]
+}

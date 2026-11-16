@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2908,3860],
+"stops":[
+  {"id":1531281445,"lat":55.436824,"lon":13.041595,"k":"x","n":"Håslöv E6","ref":"B"},
+  {"id":3102950233,"lat":55.401941,"lon":13.038158,"k":"p","n":"B","ref":"B"},
+  {"id":3102950234,"lat":55.401966,"lon":13.038152,"k":"x","n":"Skegrie Assartorp","ref":"A;B"},
+  {"id":3102950235,"lat":55.401987,"lon":13.038148,"k":"p","n":"A","ref":"A"},
+  {"id":3102950243,"lat":55.404309,"lon":13.021333,"k":"p","n":"A","ref":"A"},
+  {"id":3102950244,"lat":55.40434,"lon":13.021335,"k":"x","n":"Axeltofta","ref":"A;B"},
+  {"id":3102950245,"lat":55.404368,"lon":13.021339,"k":"p","n":"B","ref":"B"},
+  {"id":3103591056,"lat":55.436069,"lon":13.040629,"k":"x","n":"Håslöv E6","ref":"A"},
+  {"id":5000244594191,"lat":55.436847,"lon":13.041703,"k":"p","n":"B","ref":"B"},
+  {"id":5000305688879,"lat":55.436053,"lon":13.040503,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":4135299,"t":{"ref":"146","name":"Buss 146: Malmö Södervärn => Vellinge => Trelleborg","from":"Malmö C","to":"Trelleborg C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000305688879,4]]},
+  {"id":4135300,"t":{"ref":"146","name":"Buss 146: Trelleborg => Vellinge => Malmö Södervärn","from":"Trelleborg C","to":"Malmö C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000244594191,10]]},
+  {"id":4581864,"t":{"ref":"181","name":"Buss 181: Trelleborg => Höllviken => Vellinge","from":"Trelleborg C","to":"Vellinge centrum","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":31,"s":[[3102950235,16],[3102950245,17]]},
+  {"id":4581865,"t":{"ref":"181","name":"Buss 181: Vellinge => Höllviken => Trelleborg","from":"Vellinge centrum","to":"Trelleborg C","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":32,"s":[[3102950243,16],[3102950233,17]]}
+]
+}

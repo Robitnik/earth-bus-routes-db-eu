@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2975,3938],
+"stops":[
+  {"id":598863,"lat":58.771883,"lon":16.911494,"k":"p","n":"Väderbrunnsvägen"},
+  {"id":598870,"lat":58.771137,"lon":16.930547,"k":"p","n":"Tåå"},
+  {"id":691830564,"lat":58.785035,"lon":16.937347,"k":"p","n":"Vakten"},
+  {"id":1198537817,"lat":58.784446,"lon":16.921319,"k":"x","n":"Skavsta flygplats"},
+  {"id":4419444957,"lat":58.770952,"lon":16.930806,"k":"p","n":"Tåå"},
+  {"id":4726696906,"lat":58.771828,"lon":16.910287,"k":"p","n":"Väderbrunnsvägen"},
+  {"id":7256409878,"lat":58.783309,"lon":16.930165,"k":"x","n":"Verkstadsskolan"},
+  {"id":11229886876,"lat":58.783213,"lon":16.929347,"k":"p","n":"Verkstadsskolan"},
+  {"id":11229886877,"lat":58.783346,"lon":16.929084,"k":"p","n":"Verkstadsskolan"},
+  {"id":11229886882,"lat":58.78494,"lon":16.93743,"k":"p","n":"Vakten"},
+  {"id":11232501357,"lat":58.770194,"lon":16.941087,"k":"p","n":"Minningevägen"},
+  {"id":11232501358,"lat":58.770079,"lon":16.941208,"k":"p","n":"Minningevägen"},
+  {"id":11242765346,"lat":58.784453,"lon":16.921173,"k":"p","n":"Skavsta flygplats"},
+  {"id":5000437142073,"lat":58.784454,"lon":16.921155,"k":"p","ref":"1"},
+  {"id":5000970285431,"lat":58.784495,"lon":16.921447,"k":"p","ref":"2"}
+],
+"routes":[
+  {"id":2561117,"t":{"name":"Flygbuss: Skavsta Airport - Stockholm Cityterminalen","from":"Skavsta Airport","to":"Stockholm Cityterminalen","network":"Flygbussarna","operator":"Flygbussarna","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000437142073,1],[5000970285431,2]]},
+  {"id":3306659,"t":{"name":"Flygbuss: Stockholm Cityterminalen - Skavsta Airport","from":"Stockholm Cityterminalen","to":"Skavsta Airport","network":"Flygbussarna","operator":"Flygbussarna","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000437142073,2],[5000970285431,3]]},
+  {"id":16445250,"t":{"ref":"515","name":"Buss 515: Skavsta - Nyköping","from":"Skavsta","to":"Nyköping","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":7,"s":[[11242765346,1],[11229886876,2],[11229886882,3]]},
+  {"id":16445251,"t":{"ref":"515","name":"Buss 515: Nyköping - Skavsta","from":"Nyköping","to":"Skavsta","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":8,"s":[[691830564,6],[11229886877,7],[11242765346,8]]},
+  {"id":16470792,"t":{"ref":"560","name":"Buss 560: Stigtomta - Nyköping","from":"Stigtomta","to":"Nyköping","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":16,"s":[[4726696906,10],[4419444957,11],[11232501358,12]]},
+  {"id":16470793,"t":{"ref":"560","name":"Buss 560: Nyköping - Stigtomta","from":"Nyköping","to":"Stigtomta","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":18,"s":[[11232501357,6],[598870,7],[598863,8]]},
+  {"id":16480792,"t":{"ref":"570","name":"Buss 570: Nyköping - Jönåker - Stigtomta - Nyköping","from":"Nyköping","to":"Nyköping","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":44,"s":[[4726696906,38],[4419444957,39],[11232501358,40]]},
+  {"id":16562132,"t":{"ref":"660","name":"Buss 660: Vrena - Nyköping","from":"Vrena","to":"Nyköping","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":29,"s":[[4726696906,19],[4419444957,20],[11232501358,21]]},
+  {"id":16562133,"t":{"ref":"660","name":"Buss 660: Nyköping - Vrena","from":"Nyköping","to":"Vrena","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":31,"s":[[11232501357,10],[598870,11],[598863,12]]},
+  {"id":16614940,"t":{"ref":"760","name":"Buss 760: Flen - Nyköping","from":"Flen","to":"Nyköping","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":54,"s":[[4726696906,48],[4419444957,49],[11232501358,50]]},
+  {"id":16614941,"t":{"ref":"760","name":"Buss 760: Nyköping - Flen","from":"Nyköping","to":"Flen","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":55,"s":[[11232501357,6],[598870,7],[598863,8]]},
+  {"id":16615293,"t":{"ref":"765","name":"Buss 765: Katrineholm - Nyköping","from":"Katrineholm","to":"Nyköping","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":52,"s":[[4726696906,46],[4419444957,47],[11232501358,48]]},
+  {"id":16615294,"t":{"ref":"765","name":"Buss 765: Nyköping - Katrineholm","from":"Nyköping","to":"Katrineholm","network":"Sörmlandstrafiken","route":"bus","public_transport:version":"1+2"},"n":52,"s":[[11232501357,6],[598870,7],[598863,8]]}
+]
+}

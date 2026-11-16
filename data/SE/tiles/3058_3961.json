@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3058,3961],
+"stops":[
+  {"id":330226051,"lat":62.949055,"lon":18.093619,"k":"x","n":"Träsk E4"},
+  {"id":2317533776,"lat":62.930414,"lon":18.085131,"k":"x","n":"Gallsäter"},
+  {"id":2317539850,"lat":62.94912,"lon":18.093332,"k":"p","n":"Träsk E4"},
+  {"id":5000222812718,"lat":62.930326,"lon":18.084845,"k":"p","n":"Gallsäter"}
+],
+"routes":[
+  {"id":2956552,"t":{"ref":"217","name":"Buss 217: Kramfors => Nordingrå => Mjällom => (Norrfällsviken)","from":"Kramfors","to":"Norrfällsviken","network":"DinTur","route":"bus","public_transport:version":"2"},"n":36,"s":[[5000222812718,26]]},
+  {"id":2956554,"t":{"ref":"217","name":"Buss 217: (Norrfällsviken) => Mjällom => Nordingrå => Kramfors","from":"Norrfällsviken","to":"Kramfors","network":"DinTur","route":"bus","public_transport:version":"2"},"n":38,"s":[[2317539850,10],[5000222812718,11]]},
+  {"id":2956558,"t":{"ref":"216","name":"Buss 216: Kramfors => Docksta","from":"Kramfors","to":"Docksta","network":"DinTur","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000222812718,24]]},
+  {"id":2956559,"t":{"ref":"216","name":"Buss 216: Docksta => Kramfors","from":"Docksta","to":"Kramfors","network":"DinTur","route":"bus","public_transport:version":"2"},"n":34,"s":[[2317539850,8],[5000222812718,9]]},
+  {"id":2957516,"t":{"ref":"218","name":"Buss 218: Ullånger => Salteå => Kramfors","from":"Ullånger","to":"Kramfors","network":"DinTur","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000222812718,2]]},
+  {"id":2957607,"t":{"ref":"218","name":"Buss 218: Kramfors => Salteå => Ullånger","from":"Kramfors","to":"Ullånger","network":"DinTur","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000222812718,19]]}
+]
+}

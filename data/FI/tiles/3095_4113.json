@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3095,4113],
+"stops":[
+  {"id":1929006547,"lat":64.764489,"lon":25.651317,"k":"p","n":"Tyrnävä","ref":"3342"},
+  {"id":2461460950,"lat":64.782894,"lon":25.690532,"k":"p","n":"Haarankauppa E","ref":"8081"},
+  {"id":5261951425,"lat":64.760858,"lon":25.657686,"k":"p","n":"Kaakilantie P"},
+  {"id":5261951426,"lat":64.760321,"lon":25.658127,"k":"p","n":"Kaakilantie E"},
+  {"id":5261952041,"lat":64.772155,"lon":25.673835,"k":"p","n":"Ylitalon th P","ref":"3059"},
+  {"id":5261952042,"lat":64.771329,"lon":25.672482,"k":"p","n":"Ylitalon th E","ref":"3058"},
+  {"id":5261952044,"lat":64.774868,"lon":25.677467,"k":"p","n":"Kotimetsä E","ref":"3052"},
+  {"id":5261952045,"lat":64.782926,"lon":25.692777,"k":"p","n":"Haarankauppa I","ref":"8082"},
+  {"id":5261952063,"lat":64.784414,"lon":25.691736,"k":"p","n":"Haarankauppa P","ref":"8080"},
+  {"id":5261952064,"lat":64.786621,"lon":25.693522,"k":"p","n":"Korkala E","ref":"3044"},
+  {"id":5261952065,"lat":64.787415,"lon":25.694004,"k":"p","n":"Korkala P","ref":"3041"},
+  {"id":6271016759,"lat":64.76301,"lon":25.654417,"k":"p","n":"Kirkkomännikkö P"},
+  {"id":6271016777,"lat":64.765006,"lon":25.656496,"k":"p","n":"Tyrnävän kirkko E","ref":"3068"},
+  {"id":6271018100,"lat":64.765926,"lon":25.650166,"k":"p","n":"Tyrnävän yläaste E","ref":"3066"},
+  {"id":6271018103,"lat":64.764654,"lon":25.655842,"k":"p","n":"Tyrnävän kirkko P","ref":"3069"},
+  {"id":6271018134,"lat":64.775374,"lon":25.679256,"k":"p","n":"Kotimetsä P","ref":"3053"},
+  {"id":6271018148,"lat":64.78381,"lon":25.689864,"k":"p","n":"Puistola L"},
+  {"id":6271018149,"lat":64.794611,"lon":25.684387,"k":"p","n":"Matinolli P","ref":"3033"},
+  {"id":6271018150,"lat":64.794279,"lon":25.683412,"k":"p","n":"Matinolli E","ref":"3032"}
+],
+"routes":[
+  {"id":19165439,"t":{"ref":"56","name":"56 Kempele - Tyrnävä","from":"Kempele","to":"Tyrnävä","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":42,"s":[[6271018150,36],[5261952064,37],[2461460950,38],[5261952044,39],[5261952042,40],[6271016777,41],[1929006547,42]]},
+  {"id":19165440,"t":{"ref":"56","name":"56 Tyrnävä - Kempele","from":"Tyrnävä","to":"Koulutie","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":42,"s":[[1929006547,1],[6271018103,2],[5261952041,3],[6271018134,4],[5261952063,5],[5261952065,6],[6271018149,7]]},
+  {"id":19165441,"t":{"ref":"56BK","name":"56BK Tyrnävä - Murto","from":"Tyrnävä","to":"Pikkarala th P","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":16,"s":[[1929006547,1],[6271018103,2],[5261952041,3],[6271018134,4],[5261952063,5],[5261952065,6],[6271018149,7]]},
+  {"id":19165442,"t":{"ref":"56BK","name":"56BK Murto - Tyrnävä","from":"Pikkarala th P2","to":"Tyrnävä","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":17,"s":[[6271018150,11],[5261952064,12],[2461460950,13],[5261952044,14],[5261952042,15],[6271016777,16],[1929006547,17]]},
+  {"id":19165443,"t":{"ref":"56K","name":"56K Tyrnävä - Markkula - Murto - Kempele","from":"Tyrnävä","to":"Koulutie","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":46,"s":[[1929006547,1],[6271018103,2],[5261952041,3],[6271018134,4],[5261952045,5],[5261952065,10],[6271018149,11]]},
+  {"id":19165444,"t":{"ref":"56K","name":"56K Kempele - Murto - Markkula - Tyrnävä","from":"Koulutie","to":"Tyrnävä","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":46,"s":[[6271018150,36],[2461460950,42],[5261952044,43],[5261952042,44],[6271016777,45],[1929006547,46]]},
+  {"id":19165445,"t":{"ref":"56M","name":"56M Kempele - Tyrnävä","from":"Koulutie","to":"Tyrnävä","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":40,"s":[[6271018150,34],[5261952064,35],[2461460950,36],[5261952044,37],[5261952042,38],[6271016777,39],[1929006547,40]]},
+  {"id":19190936,"t":{"ref":"54","name":"54 Oulu - Tyrnävä - Liminka","from":"Kuvernööri","to":"Liminka E","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":53,"s":[[6271018100,28],[1929006547,29]]},
+  {"id":19190937,"t":{"ref":"54","name":"54 Liminka - Tyrnävä - Oulu","from":"Liminka E","to":"Kuvernööri","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":52,"s":[[1929006547,24]]},
+  {"id":19190938,"t":{"ref":"54B","name":"54B Oulu - Tyrnävä","from":"Kuvernööri","to":"Tyrnävä","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":29,"s":[[1929006547,1],[6271018100,29]]},
+  {"id":19190939,"t":{"ref":"54B","name":"54B Tyrnävä - Oulu","from":"Tyrnävä","to":"Kuvernööri","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":29,"s":[[1929006547,1]]}
+]
+}

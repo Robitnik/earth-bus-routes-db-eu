@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3060,3963],
+"stops":[
+  {"id":2306559424,"lat":63.011072,"lon":18.188233,"k":"p","n":"Ullånger OK","ref":"A"},
+  {"id":2306559427,"lat":63.011004,"lon":18.18819,"k":"x","n":"Ullånger OK","ref":"A"},
+  {"id":2306561030,"lat":63.010881,"lon":18.188687,"k":"p","n":"Ullånger OK","ref":"C"},
+  {"id":2306561031,"lat":63.010909,"lon":18.188606,"k":"x","n":"Ullånger OK","ref":"C"},
+  {"id":2318035859,"lat":63.000144,"lon":18.172443,"k":"p","n":"Ullånger kyrka"},
+  {"id":2318035860,"lat":63.001323,"lon":18.1753,"k":"x","n":"Ullånger kyrka"},
+  {"id":2318035862,"lat":63.001336,"lon":18.175484,"k":"p","n":"Ullånger kyrka"},
+  {"id":2318035864,"lat":63.000167,"lon":18.172784,"k":"x","n":"Ullånger kyrka"},
+  {"id":2318071545,"lat":63.010933,"lon":18.188627,"k":"x","n":"Ullånger OK","ref":"B"}
+],
+"routes":[
+  {"id":2956552,"t":{"ref":"217","name":"Buss 217: Kramfors => Nordingrå => Mjällom => (Norrfällsviken)","from":"Kramfors","to":"Norrfällsviken","network":"DinTur","route":"bus","public_transport:version":"2"},"n":36,"s":[[2318035862,33],[2306561030,34]]},
+  {"id":2956554,"t":{"ref":"217","name":"Buss 217: (Norrfällsviken) => Mjällom => Nordingrå => Kramfors","from":"Norrfällsviken","to":"Kramfors","network":"DinTur","route":"bus","public_transport:version":"2"},"n":38,"s":[[2306561030,3],[2318035859,4]]},
+  {"id":2956556,"t":{"ref":"221","name":"Buss 221: Ullånger => Nordingrå => Norrfällsviken","from":"Ullånger","to":"Norrfällsviken","network":"DinTur","route":"bus","public_transport:version":"2"},"n":3,"s":[[2306561030,1]]},
+  {"id":2956557,"t":{"ref":"221","name":"Buss 221: Norrfällsviken => Nordingrå => Ullånger","from":"Norrfällsviken","to":"Ullånger","network":"DinTur","route":"bus","public_transport:version":"2"},"n":3,"s":[[2306561030,3]]},
+  {"id":2956558,"t":{"ref":"216","name":"Buss 216: Kramfors => Docksta","from":"Kramfors","to":"Docksta","network":"DinTur","route":"bus","public_transport:version":"2"},"n":32,"s":[[2318035862,31],[2306561030,32]]},
+  {"id":2956559,"t":{"ref":"216","name":"Buss 216: Docksta => Kramfors","from":"Docksta","to":"Kramfors","network":"DinTur","route":"bus","public_transport:version":"2"},"n":34,"s":[[2306561030,1],[2318035859,2]]},
+  {"id":2957516,"t":{"ref":"218","name":"Buss 218: Ullånger => Salteå => Kramfors","from":"Ullånger","to":"Kramfors","network":"DinTur","route":"bus","public_transport:version":"2"},"n":17,"s":[[2306561030,1]]},
+  {"id":2957607,"t":{"ref":"218","name":"Buss 218: Kramfors => Salteå => Ullånger","from":"Kramfors","to":"Ullånger","network":"DinTur","route":"bus","public_transport:version":"2"},"n":27,"s":[[2318035862,26],[2306561030,27]]},
+  {"id":10933017,"t":{"name":"Buss: Stockholm Cityterminalen => Umeå Busstation","from":"Stockholm Cityterminalen","to":"Umeå Busstation","network":"Ybuss","operator":"Ybuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[2306561030,17]]},
+  {"id":10958717,"t":{"name":"Buss: Umeå Busstation => Stockholm Cityterminalen","from":"Umeå Busstation","to":"Stockholm Cityterminalen","network":"Ybuss","operator":"Ybuss","route":"bus","public_transport:version":"2"},"n":27,"s":[[2306561030,10]]}
+]
+}

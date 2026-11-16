@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2837,3733],
+"stops":[
+  {"id":320513058,"lat":51.891998,"lon":6.658906,"k":"x","n":"Wittag Horstmann"},
+  {"id":320513131,"lat":51.892066,"lon":6.658847,"k":"x","n":"Wittag Horstmann"},
+  {"id":2934187251,"lat":51.876895,"lon":6.655181,"k":"x","n":"Schloss"},
+  {"id":2934190421,"lat":51.885932,"lon":6.661293,"k":"x","n":"Kirche"},
+  {"id":2934193679,"lat":51.884173,"lon":6.669593,"k":"x","n":"Helenastraße"},
+  {"id":2934194506,"lat":51.884387,"lon":6.666772,"k":"x","n":"Große Allee"},
+  {"id":2934195049,"lat":51.882351,"lon":6.672041,"k":"x","n":"Op de Haare"},
+  {"id":2934200210,"lat":51.885968,"lon":6.662537,"k":"x","n":"Kirche"},
+  {"id":5352626103,"lat":51.884208,"lon":6.669605,"k":"p","n":"Helenastraße"},
+  {"id":5352626104,"lat":51.882325,"lon":6.672042,"k":"p","n":"Op de Haare"},
+  {"id":5352626105,"lat":51.88437,"lon":6.666704,"k":"p","n":"Große Allee"},
+  {"id":5352626106,"lat":51.885942,"lon":6.661152,"k":"p","n":"Kirche"},
+  {"id":5352626107,"lat":51.885928,"lon":6.662511,"k":"p","n":"Kirche"},
+  {"id":5352626108,"lat":51.876891,"lon":6.655293,"k":"p","n":"Schloss"},
+  {"id":5352626109,"lat":51.87683,"lon":6.655031,"k":"p","n":"Schloss"},
+  {"id":5352626110,"lat":51.876821,"lon":6.655165,"k":"x","n":"Schloss"},
+  {"id":5352689937,"lat":51.899759,"lon":6.661269,"k":"p","n":"Wittag Geesing"},
+  {"id":5352689938,"lat":51.899756,"lon":6.661046,"k":"p","n":"Wittag Geesing"},
+  {"id":5352689939,"lat":51.899791,"lon":6.661237,"k":"x","n":"Wittag Geesing"},
+  {"id":5352689940,"lat":51.899722,"lon":6.66108,"k":"x","n":"Wittag Geesing"},
+  {"id":5352689941,"lat":51.892021,"lon":6.658994,"k":"p","n":"Wittag Horstmann"},
+  {"id":5352689942,"lat":51.89203,"lon":6.658753,"k":"p","n":"Wittag Horstmann"},
+  {"id":5571213058,"lat":51.865332,"lon":6.69128,"k":"x","n":"Burloer Diek"},
+  {"id":12145875528,"lat":51.887273,"lon":6.658557,"k":"p","n":"Schulbus"},
+  {"id":6039573942345,"lat":51.883926,"lon":6.667179,"k":"p","n":"Barlo, Große Allee","g":1}
+],
+"routes":[
+  {"id":5438174,"t":{"ref":"AST Bocholt","name":"AnrufSammelTaxi AST: Bocholt, Stadtgebiet","network":"WestfalenTarif","operator":"StadtBus Bocholt","route":"share_taxi","public_transport:version":"1"},"n":33,"s":[[5352626105,7],[5352626103,9],[5352626106,18],[5352626104,23],[5352626109,24],[5352689938,28],[5352689942,29]]},
+  {"id":7920779,"t":{"ref":"C8","name":"Bus C8: Barlo, Große Allee => Bocholt, Bustreff","from":"Barlo, Große Allee","to":"Bocholt, Bustreff","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","colour":"#707075","route":"bus","public_transport:version":"2"},"n":6,"s":[[5352626105,1],[5352626104,2],[5352626103,3],[5352626106,4],[5352626109,5]]},
+  {"id":7920780,"t":{"ref":"C8","name":"Bus C8: Bocholt, Bustreff => Barlo, Helenastraße","from":"Bocholt, Bustreff","to":"Barlo, Helenastraße","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","colour":"#707075","route":"bus","public_transport:version":"2"},"n":6,"s":[[5352626108,2],[5352626107,3],[5352626105,4],[5352626104,5],[5352626103,6]]},
+  {"id":7921494,"t":{"ref":"C8","name":"Bus C8: Barlo, Helenastraße => Barlo, Grenze","from":"Barlo, Helenastraße","to":"Barlo, Grenze","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","colour":"#707075","route":"bus","public_transport:version":"2"},"n":7,"s":[[5352626103,1],[5352689941,2],[5352689937,3]]},
+  {"id":7921506,"t":{"ref":"C8","name":"Bus C8: Barlo, Grenze => Bocholt, Bustreff","from":"Barlo, Grenze","to":"Bocholt, Bustreff","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","colour":"#707075","route":"bus","public_transport:version":"2"},"n":12,"s":[[5352689938,5],[5352689942,6],[5352626105,7],[5352626104,8],[5352626103,9],[5352626106,10],[5352626109,11]]},
+  {"id":7921530,"t":{"ref":"T10","name":"Bus T10: Barlo, Große Allee => Winterswijk, Busstation","from":"Barlo, Große Allee","to":"Winterswijk, Busstation","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland","route":"bus","public_transport:version":"2"},"n":13,"s":[[5352626105,1],[5352626104,2],[5352626103,3],[5352689941,4],[5352689937,5]]},
+  {"id":3064232273941,"t":{"ref":"T10","name":"Bus T10: Winterswijk, Busstation => Barlo, Helenastraße","from":"Winterswijk, Busstation","to":"Barlo, Helenastraße","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland","route":"bus","public_transport:version":"2"},"n":14,"s":[[5352689940,9],[320513131,10],[2934190421,11],[6039573942345,12],[2934195049,13],[2934193679,14]]}
+]
+}

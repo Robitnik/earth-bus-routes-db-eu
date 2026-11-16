@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2995,3965],
+"stops":[
+  {"id":4159168401,"lat":59.789215,"lon":18.299017,"k":"p","n":"Rånäs bruk","ref":"52M"},
+  {"id":4159168403,"lat":59.789429,"lon":18.299007,"k":"p","n":"Rånäs bruk"},
+  {"id":5237172457,"lat":59.78457,"lon":18.253259,"k":"p","n":"Henriksberg"},
+  {"id":5237172458,"lat":59.784548,"lon":18.253333,"k":"p","n":"Henriksberg"},
+  {"id":5237172459,"lat":59.786579,"lon":18.259378,"k":"p","n":"Alby"},
+  {"id":5237172460,"lat":59.786607,"lon":18.259711,"k":"p","n":"Alby"},
+  {"id":5237172461,"lat":59.789933,"lon":18.271262,"k":"p","n":"Mjölsta vägskäl"},
+  {"id":5237172462,"lat":59.789906,"lon":18.271404,"k":"p","n":"Mjölsta vägskäl"},
+  {"id":5237172468,"lat":59.79477,"lon":18.28799,"k":"p","n":"Rånäs skola"},
+  {"id":5237172469,"lat":59.793167,"lon":18.298869,"k":"p","n":"Rånäs slott"},
+  {"id":5237172470,"lat":59.793345,"lon":18.299092,"k":"p","n":"Rånäs slott"}
+],
+"routes":[
+  {"id":5225346,"t":{"ref":"648","name":"Buss 648: Rånäs - Rimbo","from":"Rånäs","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":22,"s":[[5237172469,4],[4159168401,5]]},
+  {"id":7779905,"t":{"ref":"650","name":"Buss 650: Rånäs skola - Norrbyggeby","from":"Rånäs skola","to":"Norrbyggeby","network":"SL","route":"bus","public_transport:version":"1+2"},"n":11,"s":[[5237172468,1],[5237172470,2]]},
+  {"id":7779906,"t":{"ref":"650","name":"Buss 650: Norrbyggeby - Rånäs","from":"Norrbyggeby","to":"Rånäs (Rånäs skola)","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":12,"s":[[5237172469,11],[5237172468,12]]},
+  {"id":8445859,"t":{"ref":"648","name":"Buss 648: Rimbo - Rånäs","from":"Rimbo","to":"Rånäs","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":19,"s":[[4159168403,16],[5237172470,17]]},
+  {"id":15014313,"t":{"ref":"648","name":"Buss 648: Rånäs - Långsjöskolan","from":"Rånäs","to":"Långsjöskolan","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":23,"s":[[5237172469,4],[4159168401,5]]},
+  {"id":15016978,"t":{"ref":"650","name":"Buss 650: Rånäs Långsjö torg - Rånäs skola","from":"Rånäs Långsjö torg","to":"Rånäs skola","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":9,"s":[[4159168403,8],[5237172468,9]]},
+  {"id":17923897,"t":{"ref":"648Y","name":"Buss 648Y: Rimbo - Ubby - Rimbo","from":"Rimbo","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":63,"s":[[4159168403,16],[5237172470,17,40],[5237172469,22,45],[5237172468,23,39],[5237172461,24],[5237172459,25],[5237172457,26],[5237172458,36],[5237172460,37],[5237172462,38],[4159168401,46]]},
+  {"id":17923898,"t":{"ref":"648Y","name":"Buss 648Y: Rimbo - Ubby - Fantbol - Varleda - Rimbo","from":"Rimbo","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":64,"s":[[4159168403,16],[5237172470,17],[5237172469,22,46],[5237172468,23],[5237172461,24],[5237172459,25],[5237172457,26],[4159168401,47]]},
+  {"id":17923899,"t":{"ref":"648Y","name":"Buss 648Y: Rimbo - Varleda - Fantbol - Ubby - Rimbo","from":"Rimbo","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":68,"s":[[4159168403,16],[5237172470,17,45],[5237172458,41],[5237172460,42],[5237172462,43],[5237172468,44],[5237172469,50],[4159168401,51]]}
+]
+}

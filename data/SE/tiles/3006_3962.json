@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3006,3962],
+"stops":[
+  {"id":12363074262,"lat":60.33892,"lon":18.116426,"k":"p","n":"Norrby"},
+  {"id":12639176384,"lat":60.339082,"lon":18.11623,"k":"p","n":"Norrby"},
+  {"id":12639176385,"lat":60.34208,"lon":18.126776,"k":"p","n":"Karö vägskäl"},
+  {"id":12639176386,"lat":60.341993,"lon":18.126377,"k":"p","n":"Karö vägskäl"}
+],
+"routes":[
+  {"id":5578743,"t":{"ref":"752","name":"Buss 752: Uppsala - Forsmark","from":"Uppsala","to":"Forsmark","network":"UL","route":"bus","public_transport:version":"1+2"},"n":27,"s":[[12363074262,22]]},
+  {"id":9377484,"t":{"ref":"826","name":"Buss 826: Österbybruk - Forsmark","from":"Österbybruk","to":"Forsmark","network":"UL","route":"bus","public_transport:version":"1+2"},"n":32,"s":[[12363074262,27],[12639176385,28]]},
+  {"id":9377485,"t":{"ref":"826","name":"Buss 826: Forsmark - Österbybruk","from":"Forsmark","to":"Österbybruk","network":"UL","route":"bus","public_transport:version":"1+2"},"n":32,"s":[[12639176386,5],[12639176384,6]]}
+]
+}

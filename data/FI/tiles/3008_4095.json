@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3008,4095],
+"stops":[
+  {"id":447736700,"lat":60.400819,"lon":24.759506,"k":"p","n":"Mäntysalon koulu (koulun puoli)"},
+  {"id":447736701,"lat":60.400258,"lon":24.76196,"k":"p","n":"Mäntysalon koulu L"},
+  {"id":447736702,"lat":60.4017,"lon":24.756585,"k":"p","n":"Havumäentie I"},
+  {"id":456178365,"lat":60.400748,"lon":24.755064,"k":"p","n":"Ketunkallio P"},
+  {"id":6241407311,"lat":60.414413,"lon":24.773465,"k":"p","n":"Kirkkotie 380"},
+  {"id":6241407312,"lat":60.410443,"lon":24.770748,"k":"p","n":"Kirkkotie L"},
+  {"id":6241407315,"lat":60.407345,"lon":24.782516,"k":"p","n":"Tepontie P"},
+  {"id":6241407316,"lat":60.406892,"lon":24.783069,"k":"p","n":"Tepontie I"},
+  {"id":6241407395,"lat":60.443302,"lon":24.772061,"k":"p","n":"Suontaantie"},
+  {"id":6241407396,"lat":60.440587,"lon":24.762336,"k":"p","n":"Taipaleentie 206"},
+  {"id":6241407397,"lat":60.439813,"lon":24.775216,"k":"p","n":"Suontaantie 46"},
+  {"id":6241407406,"lat":60.432217,"lon":24.783571,"k":"p","n":"Kirkkotie 613"},
+  {"id":6241407407,"lat":60.42677,"lon":24.781943,"k":"p","n":"Kirkkotie 520"},
+  {"id":6241407408,"lat":60.420556,"lon":24.781758,"k":"p","n":"Kirkkotie 473"},
+  {"id":6241407409,"lat":60.419583,"lon":24.751978,"k":"p","n":"Lähilammentie"},
+  {"id":6241408940,"lat":60.43556,"lon":24.786627,"k":"p","n":"Kirkkotie 650"},
+  {"id":6241414887,"lat":60.442354,"lon":24.798914,"k":"p","n":"Järventaustantie"},
+  {"id":6241414914,"lat":60.411505,"lon":24.797795,"k":"p","n":"Nummimäki kääntöpaikka P"},
+  {"id":6241414915,"lat":60.406485,"lon":24.796919,"k":"p","n":"Metsäkylän koulu"},
+  {"id":8762304399,"lat":60.405065,"lon":24.761549,"k":"p","n":"Ripatti L"},
+  {"id":9320286939,"lat":60.405697,"lon":24.759327,"k":"p","n":"Ripatti I"},
+  {"id":9324393375,"lat":60.406095,"lon":24.76157,"k":"p","n":"Kielotie E"},
+  {"id":9324393376,"lat":60.406884,"lon":24.762867,"k":"p","n":"Kielotie P"},
+  {"id":9549548465,"lat":60.409849,"lon":24.768597,"k":"p","n":"Kirkkotie I"},
+  {"id":10235287669,"lat":60.402476,"lon":24.756039,"k":"p","n":"Vuorenhaltijantie P"},
+  {"id":10235287670,"lat":60.402441,"lon":24.755635,"k":"p","n":"Vuorenhaltijantie E"},
+  {"id":12063809879,"lat":60.401906,"lon":24.756585,"k":"p","n":"Havumäentie L"}
+],
+"routes":[
+  {"id":17042363,"t":{"ref":"454AX","name":"454AX Mäntysalon koulu–Klaukkala–Keimola–Kamppi","from":"Mäntysalon koulu","to":"Kamppi","network":"Keski-Uusimaa","operator":"Korsisaari","route":"bus","public_transport:version":"2"},"n":25,"s":[[447736701,1]]},
+  {"id":17042364,"t":{"ref":"454AX","name":"454AX Kamppi–Keimola–Klaukkala–Mäntysalon koulu","from":"Kamppi","to":"Mäntysalon koulu","network":"Keski-Uusimaa","operator":"Korsisaari","route":"bus","public_transport:version":"2"},"n":36,"s":[[456178365,35],[447736701,36]]},
+  {"id":17042366,"t":{"ref":"455A","name":"455A Mäntysalon koulu–Klaukkala–Keimola–Kamppi","from":"Mäntysalon koulu","to":"Kamppi","network":"HSL","operator":"Korsisaari","route":"bus","public_transport:version":"2"},"n":42,"s":[[447736701,1]]},
+  {"id":17042367,"t":{"ref":"455A","name":"455A Kamppi–Keimola–Klaukkala–Mäntysalon koulu","from":"Kamppi","to":"Mäntysalon koulu","network":"HSL","operator":"Korsisaari","route":"bus","public_transport:version":"2"},"n":42,"s":[[456178365,41],[447736701,42]]},
+  {"id":20039147,"t":{"ref":"46","name":"Hyvinkää - Klaukkala","from":"Hyvinkää","to":"Klaukkala","network":"Keski-Uusimaa","operator":"Korsisaari","route":"bus"},"n":70,"s":[[9320286939,61],[10235287670,62]]},
+  {"id":20039150,"t":{"ref":"46","name":"Klaukkala - Hyvinkää","from":"Klaukkala","to":"Hyvinkää","network":"Keski-Uusimaa","operator":"Korsisaari","route":"bus"},"n":72,"s":[[456178365,9],[10235287669,10],[8762304399,11]]}
+]
+}

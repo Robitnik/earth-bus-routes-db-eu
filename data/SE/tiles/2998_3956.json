@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2998,3956],
+"stops":[
+  {"id":3458516611,"lat":59.938078,"lon":17.822914,"k":"p","n":"Örby södra"},
+  {"id":12150351262,"lat":59.931961,"lon":17.802729,"k":"p","n":"Grän vägskäl"},
+  {"id":12150351263,"lat":59.931169,"lon":17.80104,"k":"p","n":"Grän vägskäl"},
+  {"id":12150351266,"lat":59.937293,"lon":17.820652,"k":"p","n":"Örby södra"},
+  {"id":12334791276,"lat":59.949349,"lon":17.82898,"k":"p","n":"Vallby"},
+  {"id":12334791278,"lat":59.948124,"lon":17.827911,"k":"p","n":"Vallbylund"},
+  {"id":12334791279,"lat":59.94428,"lon":17.823933,"k":"p","n":"Yresta"},
+  {"id":12334791280,"lat":59.943898,"lon":17.823204,"k":"p","n":"Yresta"},
+  {"id":12334791281,"lat":59.940471,"lon":17.819212,"k":"p","n":"Örby"},
+  {"id":12334791288,"lat":59.939258,"lon":17.81853,"k":"p","n":"Örby"},
+  {"id":12676958350,"lat":59.926516,"lon":17.83864,"k":"p","n":"Karby"},
+  {"id":12676958357,"lat":59.93278,"lon":17.827068,"k":"p","n":"Sämjesta bro"},
+  {"id":12676958358,"lat":59.935967,"lon":17.824926,"k":"p","n":"Elisberg"},
+  {"id":12676958362,"lat":59.931428,"lon":17.802626,"k":"p","n":"Grän vändslinga"},
+  {"id":12676958363,"lat":59.939977,"lon":17.817377,"k":"p","n":"Örby Skolhållplats"},
+  {"id":12676958391,"lat":59.94999,"lon":17.829414,"k":"p","n":"Vallby villaväg"}
+],
+"routes":[
+  {"id":5579201,"t":{"ref":"805","name":"Buss 805: Hallstavik - Uppsala","from":"Hallstavik","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":49,"s":[[12150351266,35],[12150351263,36]]},
+  {"id":5579202,"t":{"ref":"805","name":"Buss 805: Uppsala - Hallstavik","from":"Uppsala","to":"Hallstavik","network":"UL","route":"bus","public_transport:version":"1+2"},"n":48,"s":[[12150351262,14],[3458516611,15]]},
+  {"id":5579203,"t":{"ref":"811","name":"Buss 811: Uppsala - Öregrund","from":"Uppsala","to":"Öregrund","network":"UL","route":"bus","public_transport:version":"1+2"},"n":86,"s":[[12150351262,14],[3458516611,15]]},
+  {"id":5579204,"t":{"ref":"811","name":"Buss 811: Öregrund - Uppsala","from":"Öregrund","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":86,"s":[[12150351266,72],[12150351263,73]]},
+  {"id":5579205,"t":{"ref":"886","name":"Buss 886: Alunda - Uppsala","from":"Alunda","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":30,"s":[[12150351266,16],[12150351263,17]]},
+  {"id":5579206,"t":{"ref":"886","name":"Buss 886: Uppsala - Alunda","from":"Uppsala","to":"Alunda","network":"UL","route":"bus","public_transport:version":"1+2"},"n":30,"s":[[12150351262,14],[3458516611,15]]},
+  {"id":5579207,"t":{"ref":"118","name":"Buss 118: Gåvsta - Uppsala","from":"Gåvsta","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":22,"s":[[12334791276,6],[12334791280,7],[12334791288,8],[12150351263,9]]},
+  {"id":5579208,"t":{"ref":"118","name":"Buss 118: Uppsala - Gåvsta","from":"Uppsala","to":"Gåvsta","network":"UL","route":"bus","public_transport:version":"1+2"},"n":22,"s":[[12150351262,14],[12334791281,15],[12334791279,16]]},
+  {"id":18280058,"t":{"ref":"116","name":"Buss 116: Stavby - Uppsala","from":"Stavby","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":56,"s":[[12334791276,39],[12334791280,40],[12334791288,41],[12150351266,42],[12150351263,43]]},
+  {"id":18280059,"t":{"ref":"116","name":"Buss 116: Uppsala - Stavby","from":"Uppsala","to":"Stavby","network":"UL","route":"bus","public_transport:version":"1+2"},"n":55,"s":[[12150351262,14],[12334791281,15],[12334791279,16]]},
+  {"id":18856893,"t":{"ref":"122","name":"Buss 122: Lillvreta - Gåvsta","from":"Lillvreta","to":"Gåvsta","network":"UL","route":"bus","public_transport:version":"1+2","bus":"school"},"n":16,"s":[[12676958391,7],[12334791280,8],[12334791281,9],[12334791279,10],[12334791278,11]]},
+  {"id":18856894,"t":{"ref":"122","name":"Buss 122: Hovgården - Karby - Gåvsta","from":"Hovgården","to":"Gåvsta","network":"UL","route":"bus","public_transport:version":"1+2","bus":"school"},"n":11,"s":[[12676958358,3],[12676958362,4],[12676958357,5],[12676958350,6]]},
+  {"id":18856895,"t":{"ref":"122","name":"Buss 122: Lillvreta - Karby - Gåvsta","from":"Lillvreta","to":"Gåvsta","network":"UL","route":"bus","public_transport:version":"1+2","bus":"school"},"n":17,"s":[[12676958391,7],[12334791280,8],[12334791288,9],[12676958358,10],[12676958357,11],[12676958350,12]]},
+  {"id":18856897,"t":{"ref":"122","name":"Buss 122: Gåvsta - Örby - Vallby","from":"Gåvsta","to":"Vallby","network":"UL","route":"bus","public_transport:version":"1+2","bus":"school"},"n":14,"s":[[12676958350,6],[12676958357,7],[12676958358,8],[12676958362,11],[12676958363,12],[12334791279,13]]},
+  {"id":18856898,"t":{"ref":"122","name":"Buss 122: Gåvsta - Örby - Lillvreta","from":"Gåvsta","to":"Lillvreta","network":"UL","route":"bus","public_transport:version":"1+2","bus":"school"},"n":20,"s":[[12676958350,6],[12676958357,7],[12676958358,8],[12676958362,11],[12676958363,12],[12334791279,13]]}
+]
+}

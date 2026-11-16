@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3144,4066],
+"stops":[
+  {"id":11904603005,"lat":67.222886,"lon":23.343351,"k":"p","n":"Pajala Hälsocentral"},
+  {"id":11910115163,"lat":67.222893,"lon":23.342946,"k":"p","n":"Pajala Hälsocentral"},
+  {"id":11910140984,"lat":67.225806,"lon":23.336784,"k":"p","n":"Pajala Älvbrinken"},
+  {"id":12036093565,"lat":67.226094,"lon":23.336633,"k":"p","n":"Pajala Älvbrinken"}
+],
+"routes":[
+  {"id":5294127,"t":{"ref":"46","name":"Buss 46: Pajala => Gällivare","from":"Pajala","to":"Gällivare","network":"Länstrafiken Norrbotten","route":"bus","public_transport:version":"2"},"n":23,"s":[[11904603005,2]]},
+  {"id":5516126,"t":{"ref":"46","name":"Buss 46: Gällivare => Pajala","from":"Gällivare","to":"Pajala","network":"Länstrafiken Norrbotten","route":"bus","public_transport:version":"2"},"n":22,"s":[[11910115163,21]]},
+  {"id":17804157,"t":{"ref":"53","name":"53 Haparanda => Kiruna","from":"Haparanda Tornio Resecentrum","to":"Kiruna busstation","operator":"Länstrafiken Norrbotten","route":"bus"},"n":54,"s":[[11904603005,29],[12036093565,30]]},
+  {"id":17811195,"t":{"ref":"53","name":"53 Kiruna => Haparanda","from":"Kiruna Busstation","to":"Haparanda Tornio Resecentrum LTN","operator":"Länstrafiken Norrbotten","route":"bus"},"n":52,"s":[[11910140984,24],[11910115163,25]]}
+]
+}

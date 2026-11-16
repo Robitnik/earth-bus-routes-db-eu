@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2851,3723],
+"stops":[
+  {"id":673702695,"lat":52.595855,"lon":6.194614,"k":"p","n":"Oostermenneweg"},
+  {"id":673702863,"lat":52.571911,"lon":6.186379,"k":"p","n":"Meeleweg"},
+  {"id":673702960,"lat":52.556801,"lon":6.176243,"k":"p","n":"Steenwetering"},
+  {"id":673703169,"lat":52.584877,"lon":6.194475,"k":"p","n":"Lichtmis, Busstation"},
+  {"id":673703188,"lat":52.556885,"lon":6.176432,"k":"p","n":"Steenwetering"},
+  {"id":673703236,"lat":52.595671,"lon":6.194442,"k":"p","n":"Oostermenneweg","ref":"16280110"},
+  {"id":673703449,"lat":52.571089,"lon":6.185694,"k":"p","n":"Meeleweg"},
+  {"id":1734072326,"lat":52.586108,"lon":6.156837,"k":"p","n":"Matenweg"},
+  {"id":1734072335,"lat":52.586128,"lon":6.156153,"k":"p","n":"Matenweg"},
+  {"id":13451161420,"lat":52.584893,"lon":6.19437,"k":"x","n":"Lichtmis, Busstation"},
+  {"id":5001312338698,"lat":52.550247,"lon":6.17251,"k":"p","n":"De Markte"},
+  {"id":5001312338705,"lat":52.550579,"lon":6.172712,"k":"p","n":"De Markte"}
+],
+"routes":[
+  {"id":361809,"t":{"ref":"217","name":"Bus 217: Dedemsvaart Busstation => Zwolle Station","from":"Dedemsvaart, Busstation","to":"Zwolle, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":15,"s":[[673703169,12]]},
+  {"id":361810,"t":{"ref":"40","name":"Bus 40: Meppel Station => Zwolle Station","from":"Meppel, Station","to":"Zwolle, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":29,"s":[[673703236,20],[673703169,21]]},
+  {"id":535183,"t":{"ref":"217","name":"Bus 217: Zwolle Station => Dedemsvaart Busstation","from":"Zwolle, Station","to":"Dedemsvaart, Busstation","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":15,"s":[[673703169,4]]},
+  {"id":535190,"t":{"ref":"40","name":"Bus 40: Zwolle Station => Meppel Station","from":"Zwolle, Station","to":"Meppel, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":29,"s":[[673703169,9],[673702695,10]]},
+  {"id":8277063,"t":{"ref":"640","name":"Bus 640: Lichtmis Busstation => Rouveen => Staphorst Redder","from":"Lichtmis, Busstation","to":"Staphorst, Redder","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":22,"s":[[673703169,1],[673702695,2]]},
+  {"id":8277100,"t":{"ref":"640","name":"Bus 640: Staphorst Redder => Rouveen => Zwolle Station","from":"Staphorst, Redder","to":"Zwolle, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":41,"s":[[673703236,21],[673703169,22],[673703449,23],[673702960,24],[5001312338705,25]]},
+  {"id":17457394,"t":{"ref":"673","name":"Bus 673: Staphorst Redder => Kampen GSG Pieter Zandt","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":29,"s":[[673703236,20],[673703169,21],[1734072335,22]]},
+  {"id":17457395,"t":{"ref":"673","name":"Bus 673: Kampen GSG Pieter Zandt => Staphorst Redder","from":"Kampen, GSG Pieter Zandt","to":"Staphorst, Redder","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":29,"s":[[1734072326,8],[673703169,9],[673702695,10]]},
+  {"id":20071521,"t":{"ref":"41","name":"Bus 41: Zwartsluis Busstation => Zwolle Station","from":"Zwartsluis, Busstation","to":"Zwolle, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":38,"s":[[673703169,14],[673703449,15],[673702960,16],[5001312338705,17]]},
+  {"id":20071522,"t":{"ref":"41","name":"Bus 41: Zwolle Station => Zwartsluis Busstation","from":"Zwolle, Station","to":"Zwartsluis, Busstation","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":37,"s":[[5001312338698,21],[673703188,22],[673702863,23],[673703169,24]]},
+  {"id":20078959,"t":{"ref":"140","name":"Bus 140: Zwolle Station => Meppel Station","from":"Zwolle, Station","to":"Meppel, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":16,"s":[[673703169,4]]},
+  {"id":20078960,"t":{"ref":"140","name":"Bus 140: Meppel Station => Zwolle Station","from":"Meppel, Station","to":"Zwolle, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":17,"s":[[673703169,14]]},
+  {"id":20079385,"t":{"ref":"640","name":"Bus 640: Staphorst Redder => Rouveen => Lichtmis Busstation","from":"Staphorst, Redder","to":"Lichtmis, Busstation","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":22,"s":[[673703236,21],[673703169,22]]},
+  {"id":20085817,"t":{"ref":"217","name":"Bus 217: Zwolle Station => Zwolle Bedrijvenpark Hessenpoort => Dedemsvaart Busstation","from":"Zwolle, Station","to":"Dedemsvaart, Busstation","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001312338698,10],[673703188,11],[673702863,12],[673703169,13]]},
+  {"id":20085818,"t":{"ref":"217","name":"Bus 217: Dedemsvaart Busstation => Zwolle Bedrijvenpark Hessenpoort => Zwolle Station","from":"Dedemsvaart, Busstation","to":"Zwolle, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":25,"s":[[673703169,12],[673703449,13],[673702960,14],[5001312338705,15]]}
+]
+}

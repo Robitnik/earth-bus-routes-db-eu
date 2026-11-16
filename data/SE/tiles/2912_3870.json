@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2912,3870],
+"stops":[
+  {"id":386716345,"lat":55.616587,"lon":13.5043,"k":"x","n":"Idala Dalgången"},
+  {"id":386716371,"lat":55.620368,"lon":13.501693,"k":"x","n":"Idala Bokbacken"},
+  {"id":1112562436,"lat":55.630228,"lon":13.508088,"k":"x","n":"Veberöd Öster","ref":"B"},
+  {"id":1112562439,"lat":55.630028,"lon":13.509272,"k":"x","n":"Veberöd Öster","ref":"A"},
+  {"id":3168652370,"lat":55.619291,"lon":13.549589,"k":"x","n":"Hemmestorps fure"},
+  {"id":3168652371,"lat":55.628254,"lon":13.525888,"k":"x","n":"Humlamaden"},
+  {"id":3168652372,"lat":55.628443,"lon":13.525327,"k":"x","n":"Humlamaden"},
+  {"id":3168652375,"lat":55.62147,"lon":13.544582,"k":"x","n":"Villa Solhem"},
+  {"id":3168652376,"lat":55.621949,"lon":13.543321,"k":"x","n":"Villa Solhem"},
+  {"id":3168652541,"lat":55.619269,"lon":13.549551,"k":"p"},
+  {"id":3168652542,"lat":55.619317,"lon":13.549627,"k":"p"},
+  {"id":3168652549,"lat":55.628287,"lon":13.525926,"k":"p"},
+  {"id":3168652550,"lat":55.628427,"lon":13.525298,"k":"p"},
+  {"id":3607101372,"lat":55.6164,"lon":13.504359,"k":"p","ref":"B"},
+  {"id":3607101373,"lat":55.616411,"lon":13.504413,"k":"x","n":"Idala Dalgången"},
+  {"id":3607101374,"lat":55.616597,"lon":13.504352,"k":"p","ref":"A"},
+  {"id":3607101375,"lat":55.620286,"lon":13.501703,"k":"p","ref":"B"},
+  {"id":3607101376,"lat":55.620298,"lon":13.501749,"k":"x","n":"Idala Bokbacken"},
+  {"id":3607101377,"lat":55.620378,"lon":13.50173,"k":"p","ref":"A"},
+  {"id":5000167272904,"lat":55.629993,"lon":13.509181,"k":"p","ref":"A"},
+  {"id":5000167272905,"lat":55.630249,"lon":13.508318,"k":"p","ref":"B"},
+  {"id":5000311267761,"lat":55.621479,"lon":13.544437,"k":"p"},
+  {"id":5000311267762,"lat":55.621931,"lon":13.543499,"k":"p"}
+],
+"routes":[
+  {"id":2726826,"t":{"ref":"160","name":"Buss 160: Lund C => Sjöbo","from":"Lund C","to":"Sjöbo busstation","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000167272904,16]]},
+  {"id":2726827,"t":{"ref":"160","name":"Buss 160: Sjöbo => Lund C","from":"Sjöbo busstation","to":"Lund C","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000167272905,5]]},
+  {"id":4168401,"t":{"ref":"341","name":"Buss 341: Sjöbo => Veberöd","from":"Sjöbo","to":"Veberöd","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[3168652542,18],[5000311267762,19],[3168652549,20],[5000167272905,21]]},
+  {"id":4168402,"t":{"ref":"341","name":"Buss 341: Veberöd => Sjöbo","from":"Veberöd C","to":"Sjöbo","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000167272904,2],[3168652550,3],[5000311267761,4],[3168652541,5]]},
+  {"id":4173644,"t":{"ref":"SkE 8","name":"Buss SkE 8: Malmö Södervärn => Sjöbo","from":"Malmö Södervärn","to":"Sjöbo","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000167272904,9]]},
+  {"id":4173645,"t":{"ref":"SkE 8","name":"Buss SkE 8: Sjöbo => Malmö Södervärn","from":"Sjöbo busstation","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000167272905,3]]},
+  {"id":5302276,"t":{"ref":"309","name":"Buss 309: Skurup => Veberöd","from":"Skurup","to":"Veberöd C","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[3607101374,14],[3607101377,15]]},
+  {"id":5302277,"t":{"ref":"309","name":"Buss 309: Veberöd => Skurup","from":"Veberöd centrum","to":"Skurups station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[3607101375,2],[3607101372,3]]}
+]
+}

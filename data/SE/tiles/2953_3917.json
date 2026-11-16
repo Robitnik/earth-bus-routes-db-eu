@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2953,3917],
+"stops":[
+  {"id":557164,"lat":57.656002,"lon":15.860565,"k":"x","n":"Spegelgatan","ref":"B"},
+  {"id":278811080,"lat":57.663979,"lon":15.856597,"k":"x","n":"Vimmerby resecentrum","ref":"A"},
+  {"id":278811083,"lat":57.663728,"lon":15.85686,"k":"x","n":"Vimmerby resecentrum","ref":"B"},
+  {"id":278811085,"lat":57.663537,"lon":15.857509,"k":"x","n":"Vimmerby resecentrum","ref":"C"},
+  {"id":278811087,"lat":57.663547,"lon":15.857995,"k":"x","n":"Vimmerby resecentrum","ref":"D"},
+  {"id":278834590,"lat":57.663931,"lon":15.87597,"k":"x","n":"Folkets Park Vimmerby","ref":"A"},
+  {"id":935674965,"lat":57.665009,"lon":15.872208,"k":"x","n":"Tenngjutaren","ref":"A"},
+  {"id":935674968,"lat":57.666407,"lon":15.867516,"k":"x","n":"Köpmansgatan","ref":"B"},
+  {"id":1982736277,"lat":57.663742,"lon":15.85724,"k":"s","n":"Vimmerby resecentrum"},
+  {"id":2400288653,"lat":57.656112,"lon":15.860313,"k":"x","n":"Spegelgatan","ref":"A"},
+  {"id":2759353646,"lat":57.665445,"lon":15.859308,"k":"x","n":"Vimmerby Kyrkterrassen"},
+  {"id":4084814659,"lat":57.650854,"lon":15.881229,"k":"x","n":"Älåkra norra","ref":"A"},
+  {"id":10561770908,"lat":57.665123,"lon":15.872006,"k":"x","n":"Tenngjutaren","ref":"B"},
+  {"id":11061528126,"lat":57.666189,"lon":15.864513,"k":"x","n":"Köpmansgatan","ref":"A"},
+  {"id":12909424086,"lat":57.680681,"lon":15.851097,"k":"x","n":"Bråkmakaregatan","ref":"B"},
+  {"id":13057635948,"lat":57.680436,"lon":15.851229,"k":"x","n":"Bråkmakaregatan","ref":"A"},
+  {"id":13057635949,"lat":57.680445,"lon":15.851292,"k":"p","n":"A","ref":"A"},
+  {"id":13057635950,"lat":57.680676,"lon":15.850999,"k":"p","n":"B","ref":"B"},
+  {"id":13135102596,"lat":57.656082,"lon":15.86023,"k":"p","n":"A","ref":"A"},
+  {"id":13137852662,"lat":57.650392,"lon":15.881765,"k":"x","n":"Älåkra norra","ref":"B"},
+  {"id":13137852664,"lat":57.663818,"lon":15.876008,"k":"x","n":"Folkets Park Vimmerby","ref":"B"},
+  {"id":13141622592,"lat":57.650413,"lon":15.881818,"k":"p","n":"B","ref":"B"},
+  {"id":13141622593,"lat":57.650833,"lon":15.881178,"k":"p","n":"A","ref":"A"},
+  {"id":14005424393,"lat":57.665397,"lon":15.859327,"k":"p"},
+  {"id":14005424394,"lat":57.665502,"lon":15.859247,"k":"p"},
+  {"id":5001132693887,"lat":57.655963,"lon":15.860798,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":2525907,"t":{"name":"Vimmerby","route":"bus","public_transport:version":"2"},"n":2,"s":[[2400288653,1],[1982736277,2]]},
+  {"id":4097688,"t":{"ref":"35","name":"Buss 35: Västervik => Hultsfred","from":"Västervik","to":"Hultsfred","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":10,"s":[[1982736277,8]]},
+  {"id":4097689,"t":{"ref":"35","name":"Buss 35: Hultsfred => Västervik","from":"Hultsfred","to":"Västervik","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[5001132693887,3],[1982736277,4]]},
+  {"id":4097690,"t":{"ref":"74","name":"Buss 74: Mariannelund => Storebro => Vimmerby","from":"Mariannelund","to":"Vimmerby","network":"KLT","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001132693887,8],[1982736277,9]]},
+  {"id":4097691,"t":{"ref":"74","name":"Buss 74: Mariannelund => Vimmerby","from":"Mariannelund","to":"Vimmerby","network":"KLT","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001132693887,5],[1982736277,6]]},
+  {"id":4097692,"t":{"ref":"74","name":"Buss 74: Vimmerby => Mariannelund","from":"Vimmerby","to":"Mariannelund","network":"KLT","route":"bus","public_transport:version":"2"},"n":5,"s":[[1982736277,1]]},
+  {"id":4097694,"t":{"ref":"857","name":"Buss 857: Västervik => Jönköping","from":"Västervik","to":"Jönköping","network":"Swebus","operator":"Swebus","route":"bus","public_transport:version":"2"},"n":6,"s":[[1982736277,3]]}
+]
+}

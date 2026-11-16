@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2970,3899],
+"stops":[
+  {"id":429562,"lat":58.542744,"lon":14.990004,"k":"x","n":"Mariebergs gård","ref":"C"},
+  {"id":2080515305,"lat":58.540125,"lon":14.98807,"k":"x","n":"Violgatan","ref":"B"},
+  {"id":2080515310,"lat":58.539522,"lon":14.989232,"k":"x","n":"Violgatan","ref":"A"},
+  {"id":3510919454,"lat":58.542349,"lon":14.998611,"k":"x","n":"Folkets Park","ref":"A"},
+  {"id":6612055798,"lat":58.539965,"lon":14.999212,"k":"x","n":"Mariebergs vårdcentral","ref":"B"},
+  {"id":6612055804,"lat":58.53927,"lon":14.998419,"k":"x","n":"Mariebergs vårdcentral","ref":"C"},
+  {"id":6612055805,"lat":58.539257,"lon":14.997964,"k":"x","n":"Mariebergs vårdcentral","ref":"D"},
+  {"id":6612055810,"lat":58.537686,"lon":14.996259,"k":"x","n":"Väster Briggen","ref":"B"},
+  {"id":6612055814,"lat":58.53477,"lon":14.997813,"k":"x","n":"Väster Klyvaregatan","ref":"B"},
+  {"id":6670678030,"lat":58.539165,"lon":14.993811,"k":"x","n":"Gullvivegatan","ref":"A"},
+  {"id":6670678031,"lat":58.539123,"lon":14.992089,"k":"x","n":"Gullvivegatan","ref":"B"},
+  {"id":5000344343110,"lat":58.540118,"lon":14.98822,"k":"p","n":"B","ref":"B"},
+  {"id":5000344343123,"lat":58.542297,"lon":14.998561,"k":"p","n":"A","ref":"A"},
+  {"id":5000699765679,"lat":58.542758,"lon":14.989916,"k":"p","n":"C","ref":"C"},
+  {"id":5000703466720,"lat":58.539491,"lon":14.989123,"k":"p","n":"A","ref":"A"},
+  {"id":5000704186194,"lat":58.539184,"lon":14.997836,"k":"p","n":"D","ref":"D"},
+  {"id":5000704186196,"lat":58.537671,"lon":14.996358,"k":"p","n":"B","ref":"B"},
+  {"id":5000704186198,"lat":58.534755,"lon":14.997906,"k":"p","n":"B","ref":"B"},
+  {"id":5000709702949,"lat":58.539194,"lon":14.992149,"k":"p","n":"B","ref":"B"},
+  {"id":5000709702950,"lat":58.539078,"lon":14.993729,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":5125820,"t":{"ref":"301","name":"Linje 301: Västra Lund => Stora torget => Folkets Park","from":"Karlslunds skola","to":"Folkets Park","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000704186198,20],[5000704186196,21],[5000704186194,22],[5000344343123,23]]},
+  {"id":5125821,"t":{"ref":"301","name":"Linje 301: Folkets Park => Stora torget => Västra Lund","from":"Folkets Park","to":"Karlslunds skola","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000344343123,1]]},
+  {"id":9723715,"t":{"ref":"52","name":"Linje 52: Linköping => Borensberg => Motala","from":"Saab Civila Porten","to":"Mariebergs gård","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000344343110,23],[5000699765679,24]]},
+  {"id":9775292,"t":{"ref":"52","name":"Linje 52: Motala => Borensberg => Linköping","from":"Mariebergs gård","to":"Saab Civila Porten","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000699765679,1],[5000703466720,2]]},
+  {"id":9791039,"t":{"ref":"520","name":"Linje 520: Motala => Borensberg => Linköping","from":"Mariebergs gård","to":"Resecentrum","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":54,"s":[[5000699765679,1],[5000703466720,2]]},
+  {"id":9870873,"t":{"ref":"302","name":"Linje 302: Torvmossen => Stora torget => Mariebergs gård","from":"Torvmossen","to":"Mariebergs gård","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000704186198,18],[5000704186196,19],[5000709702949,20],[5000344343110,21],[5000699765679,22]]},
+  {"id":9870874,"t":{"ref":"302","name":"Linje 302: Marieberg => Stora torget => Torvmossen","from":"Mariebergs gård","to":"Torvmossen","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000699765679,1],[5000703466720,2],[5000709702950,3]]}
+]
+}

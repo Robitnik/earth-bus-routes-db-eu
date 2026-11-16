@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2863,3737],
+"stops":[
+  {"id":664773594,"lat":53.152167,"lon":6.864959,"k":"p","n":"Dorpersbrug"},
+  {"id":664773595,"lat":53.152215,"lon":6.865078,"k":"p","n":"Dorpersbrug"},
+  {"id":664773600,"lat":53.15927,"lon":6.865644,"k":"p","n":"Station"},
+  {"id":4576019782,"lat":53.159309,"lon":6.865634,"k":"x","n":"Zuidbroek, Station"},
+  {"id":4576032655,"lat":53.171075,"lon":6.871652,"k":"p","n":"Siemenspark"},
+  {"id":4576032656,"lat":53.170988,"lon":6.871957,"k":"p","n":"Siemenspark"},
+  {"id":4576032657,"lat":53.170842,"lon":6.863533,"k":"p","n":"Heiligelaan"},
+  {"id":4576032658,"lat":53.170748,"lon":6.863522,"k":"p","n":"Heiligelaan"},
+  {"id":4576032659,"lat":53.167397,"lon":6.862118,"k":"p","n":"Rotonde A7"},
+  {"id":4576032660,"lat":53.166966,"lon":6.86203,"k":"p","n":"Rotonde A7"},
+  {"id":4576032661,"lat":53.162672,"lon":6.862892,"k":"p","n":"Brug"},
+  {"id":4576032662,"lat":53.162545,"lon":6.862784,"k":"p","n":"Brug"},
+  {"id":4576061889,"lat":53.194114,"lon":6.874223,"k":"p","n":"Markt"},
+  {"id":4576061890,"lat":53.193912,"lon":6.874081,"k":"p","n":"Markt"},
+  {"id":4576061891,"lat":53.187278,"lon":6.874294,"k":"p","n":"Zuideromweg"},
+  {"id":4576061892,"lat":53.18769,"lon":6.874318,"k":"p","n":"Zuideromweg"},
+  {"id":4576061895,"lat":53.179534,"lon":6.874949,"k":"p","n":"Drostenlaan"},
+  {"id":4576061896,"lat":53.179647,"lon":6.874746,"k":"p","n":"Drostenlaan"},
+  {"id":4576230825,"lat":53.192558,"lon":6.876009,"k":"p","n":"Hoofdstraat"},
+  {"id":4576230826,"lat":53.192642,"lon":6.875398,"k":"p","n":"Hoofdstraat"},
+  {"id":4608386078,"lat":53.159279,"lon":6.865324,"k":"x","n":"Zuidbroek, Station"},
+  {"id":4608386079,"lat":53.15924,"lon":6.865331,"k":"p","n":"Station"},
+  {"id":11406787099,"lat":53.194109,"lon":6.874115,"k":"x","n":"Noordbroek, Markt"},
+  {"id":11887599449,"lat":53.160986,"lon":6.861975,"k":"p","n":"De Broeckhof"},
+  {"id":11887599450,"lat":53.161094,"lon":6.8618,"k":"p","n":"De Broeckhof"}
+],
+"routes":[
+  {"id":11593595,"t":{"ref":"11","name":"Bus 11: Zuidbroek Station => Muntendam De Wijde Blik","from":"Zuidbroek, Station","to":"Muntendam, De Wijde Blik","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":9,"s":[[664773600,1],[664773594,2]]},
+  {"id":11593596,"t":{"ref":"11","name":"Bus 11: Muntendam De Wijde Blik => Zuidbroek Station","from":"Muntendam, De Wijde Blik","to":"Zuidbroek, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":9,"s":[[664773595,8],[664773600,9]]},
+  {"id":16805780,"t":{"ref":"517","name":"Bus 517: Noordbroek Markt => Hoogezand Medisch Centrum","from":"Noordbroek, Markt","to":"Hoogezand, Medisch Centrum","network":"Publiek Vervoer Groningen-Drenthe","operator":"De Grooth Vervoer;Stadsvervoer HS","route":"bus","public_transport:version":"2"},"n":22,"s":[[4576061889,1],[4576061891,2],[4576061896,3],[4576032655,4],[4576032657,5],[4576032660,6],[4608386079,7],[11887599450,8]]},
+  {"id":16805781,"t":{"ref":"517","name":"Bus 517: Hoogezand Medisch Centrum => Noordbroek Markt","from":"Hoogezand, Medisch Centrum","to":"Noordbroek, Markt","network":"Publiek Vervoer Groningen-Drenthe","operator":"De Grooth Vervoer;Stadsvervoer HS","route":"bus","public_transport:version":"2"},"n":22,"s":[[11887599449,15],[4608386079,16],[4576032659,17],[4576032658,18],[4576032656,19],[4576061895,20],[4576061892,21],[4576061889,22]]},
+  {"id":18430173,"t":{"ref":"549","name":"Bus 549: Appingedam Busstation => Scheemda Ziekenhuis","from":"Appingedam, Busstation","to":"Scheemda, Ziekenhuis","network":"Publiek Vervoer Groningen-Drenthe","operator":"UVO; Buurtbusvereniging Duurswold","route":"bus","public_transport:version":"2"},"n":14,"s":[[4576061890,10],[4576230825,11]]},
+  {"id":18430174,"t":{"ref":"549","name":"Bus 549: Scheemda Ziekenhuis => Appingedam Busstation","from":"Scheemda, Ziekenhuis","to":"Appingedam, Busstation","network":"Publiek Vervoer Groningen-Drenthe","operator":"UVO; Buurtbusvereniging Duurswold","route":"bus","public_transport:version":"2"},"n":13,"s":[[4576230826,3],[4576061889,4]]},
+  {"id":19331786,"t":{"ref":"11","name":"Bus 11: Zuidbroek Station => Meeden Hereweg 274","from":"Zuidbroek, Station","to":"Veendam, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":16,"s":[[664773600,1],[664773594,2]]},
+  {"id":19331787,"t":{"ref":"11","name":"Bus 11: Meeden Hereweg 274 => Zuidbroek Station","from":"Meeden, Hereweg 274","to":"Zuidbroek, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":16,"s":[[664773595,15],[664773600,16]]}
+]
+}

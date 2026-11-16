@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3180,4017],
+"stops":[
+  {"id":357381064,"lat":69.016176,"lon":20.875985,"k":"x"},
+  {"id":2211338033,"lat":69.018635,"lon":20.868278,"k":"p","n":"Kilpisjärven koulu E"},
+  {"id":2211338056,"lat":69.019434,"lon":20.866486,"k":"p","n":"Kilpisjärven koulu P"},
+  {"id":2211345749,"lat":69.016136,"lon":20.875858,"k":"p","n":"Kilpisjärven hotelli E"},
+  {"id":2211345753,"lat":69.016866,"lon":20.874166,"k":"p","n":"Kilpisjärven hotelli P"},
+  {"id":2212074972,"lat":69.01275,"lon":20.886478,"k":"p","n":"Kilpisjärven luontotalo P"},
+  {"id":2212074980,"lat":69.013326,"lon":20.884054,"k":"p","n":"Kilpisjärven luontotalo E"},
+  {"id":2214287203,"lat":69.016486,"lon":20.870467,"k":"p","n":"Hotelli Kilpis"},
+  {"id":4296558726,"lat":69.012703,"lon":20.886327,"k":"x"},
+  {"id":4296558731,"lat":69.013385,"lon":20.884283,"k":"x"},
+  {"id":4296637094,"lat":69.016832,"lon":20.874039,"k":"p"},
+  {"id":4296644294,"lat":69.019385,"lon":20.866342,"k":"p"},
+  {"id":4296644295,"lat":69.018714,"lon":20.868337,"k":"p"}
+],
+"routes":[
+  {"id":2830857,"t":{"ref":"Kilpisjärvi-Rovaniemi","name":"Kilpisjärvi-Rovaniemi","from":"Kilpisjärvi","to":"Rovaniemi","operator":"Gold Line Oy","route":"bus"},"n":3,"s":[[2211338033,3]]},
+  {"id":13598782,"t":{"ref":"F43","name":"F43 FLEX - KILPISJÄRVI - ROVANIEMI","from":"Rovaniemi","to":"Kilpisjärvi","network":"Onnibus FLEX","operator":"Onnibus","route":"bus"},"n":31,"s":[[2211345749,25],[2211345753,26]]},
+  {"id":15034802,"t":{"name":"Rovaniemi-Kilpisjärvi-(Tromsø)","from":"Rovaniemi","to":"(Tromsø) - Kilpisjärvi","network":"Eskelisen Lapin Linjat","operator":"Eskelisen Lapin Linjat","route":"bus","public_transport:version":"2"},"n":9,"s":[[2212074980,1],[2211345749,2],[2214287203,3],[2211338033,4]]},
+  {"id":15034803,"t":{"name":"(Tromsø) - Kilpisjärvi","from":"(Tromsø)-Kilpisjärvi-Rovaniemi","to":"Rovaniemi","network":"Eskelisen Lapin Linjat","operator":"Eskelisen Lapin Linjat","route":"bus","public_transport:version":"2"},"n":9,"s":[[2211338033,6],[2214287203,7],[2211345749,8],[2212074980,9]]}
+]
+}

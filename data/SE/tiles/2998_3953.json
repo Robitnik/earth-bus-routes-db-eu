@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2998,3953],
+"stops":[
+  {"id":12121834873,"lat":59.938285,"lon":17.650675,"k":"p","n":"Fullerö"},
+  {"id":12150563279,"lat":59.945404,"lon":17.665681,"k":"p","n":"Trekanten"},
+  {"id":12150563280,"lat":59.946546,"lon":17.666427,"k":"p","n":"Trekanten"}
+],
+"routes":[
+  {"id":2878250,"t":{"ref":"110","name":"Buss 110: Storvreta - Storvreta centrum - Uppsala","from":"Storvreta","to":"Uppsala C","network":"UL","colour":"yellow","route":"bus","public_transport:version":"1+2"},"n":25,"s":[[12150563279,8]]},
+  {"id":2878251,"t":{"ref":"110","name":"Buss 110: Uppsala - Storvreta centrum - Storvreta","from":"Uppsala C","to":"Storvreta","network":"UL","colour":"yellow","route":"bus","public_transport:version":"1+2"},"n":25,"s":[[12121834873,17],[12150563280,18]]},
+  {"id":2878252,"t":{"ref":"115","name":"Buss 115: Storvreta - Uppsala","from":"Storvreta","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":28,"s":[[12150563279,11]]},
+  {"id":2878253,"t":{"ref":"115","name":"Buss 115: Uppsala - Storvreta","from":"Uppsala","to":"Storvreta","network":"UL","route":"bus","public_transport:version":"1+2"},"n":28,"s":[[12121834873,17],[12150563280,18]]},
+  {"id":5578742,"t":{"ref":"752","name":"Buss 752: Forsmark - Uppsala","from":"Forsmark","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":24,"s":[[12150563279,13]]},
+  {"id":5578743,"t":{"ref":"752","name":"Buss 752: Uppsala - Forsmark","from":"Uppsala","to":"Forsmark","network":"UL","route":"bus","public_transport:version":"1+2"},"n":27,"s":[[12150563280,13]]},
+  {"id":5578745,"t":{"ref":"823","name":"Buss 823: Uppsala - Österbybruk","from":"Uppsala","to":"Österbybruk","route":"bus","public_transport:version":"1+2"},"n":59,"s":[[12121834873,16],[12150563280,17]]},
+  {"id":5578746,"t":{"ref":"823","name":"Buss 823: Österbybruk - Uppsala","from":"Österbybruk","to":"Uppsala","route":"bus","public_transport:version":"1+2"},"n":58,"s":[[12150563279,42]]}
+]
+}

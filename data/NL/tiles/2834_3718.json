@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2834,3718],
+"stops":[
+  {"id":43699406,"lat":51.737167,"lon":5.919007,"k":"x","n":"Plasmolen, Plein"},
+  {"id":727728402,"lat":51.738141,"lon":5.918695,"k":"p","n":"Rijksweg/Witteweg"},
+  {"id":1712459786,"lat":51.732611,"lon":5.934535,"k":"p","n":"Helweg"},
+  {"id":1712460600,"lat":51.725398,"lon":5.945268,"k":"p","n":"Oudebaan"},
+  {"id":1712460744,"lat":51.723576,"lon":5.947954,"k":"p","n":"Rijksweg/Kerkstraat"},
+  {"id":3867635305,"lat":51.733614,"lon":5.933463,"k":"p","n":"Helweg"},
+  {"id":3867635320,"lat":51.7267,"lon":5.943623,"k":"p","n":"Oudebaan"},
+  {"id":3867635321,"lat":51.723664,"lon":5.948086,"k":"p","n":"Rijksweg/Kerkstraat"},
+  {"id":3867635323,"lat":51.738281,"lon":5.918361,"k":"p","n":"Rijksweg/Witteweg"},
+  {"id":7176295754,"lat":51.706921,"lon":5.908863,"k":"p","n":"Groeneweg"},
+  {"id":7176295755,"lat":51.706839,"lon":5.908832,"k":"p","n":"Groeneweg"},
+  {"id":9131668189,"lat":51.724297,"lon":5.915326,"k":"x","n":"Middelaar, Gemeenschapshuis"},
+  {"id":9131668190,"lat":51.724273,"lon":5.915289,"k":"p","n":"Gemeenschapshuis"},
+  {"id":9131668191,"lat":51.73715,"lon":5.919052,"k":"p","n":"Plein"},
+  {"id":9131668192,"lat":51.73733,"lon":5.919102,"k":"p","n":"Plein"},
+  {"id":9421057018,"lat":51.729043,"lon":5.911376,"k":"p","n":"Elzenstraat"},
+  {"id":9421057019,"lat":51.729368,"lon":5.912802,"k":"p","n":"Elzenstraat"},
+  {"id":9875169210,"lat":51.7373,"lon":5.919159,"k":"x","n":"Plasmolen, Plein"},
+  {"id":12186638642,"lat":51.72341,"lon":5.922202,"k":"p","n":"Kopseweg"},
+  {"id":12186638643,"lat":51.727142,"lon":5.918507,"k":"p","n":"Bouwsteeg"},
+  {"id":13823400787,"lat":51.712669,"lon":5.911729,"k":"p","n":"Liesmortel"}
+],
+"routes":[
+  {"id":349425,"t":{"ref":"383","name":"Bus 383: Nijmegen Centraal Station => Venlo Station","from":"Nijmegen, Centraal Station","to":"Venlo, Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":70,"s":[[727728402,19],[1712459786,20],[1712460600,21],[1712460744,22]]},
+  {"id":407165,"t":{"ref":"383","name":"Bus 383: Venlo Station => Nijmegen Centraal Station","from":"Venlo, Station","to":"Nijmegen, Centraal Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":70,"s":[[3867635321,49],[3867635320,50],[3867635305,51],[3867635323,52]]},
+  {"id":3728886,"t":{"ref":"238","name":"Bus 238: Boxmeer Station => Grave Busstation","from":"Boxmeer, Station","to":"Grave, Busstation","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":40,"s":[[7176295754,12]]},
+  {"id":3728887,"t":{"ref":"238","name":"Bus 238: Grave Busstation => Boxmeer Station","from":"Grave, Busstation","to":"Boxmeer, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[7176295755,28]]},
+  {"id":10381641,"t":{"ref":"383","name":"Bus 383: Venlo Station => Nijmegen Centraal Station","from":"Venlo, Station","to":"Nijmegen, Centraal Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":69,"s":[[3867635321,48],[3867635320,49],[3867635305,50],[3867635323,51]]},
+  {"id":10381642,"t":{"ref":"383","name":"Bus 383: Nijmegen Centraal Station => Venlo Station","from":"Nijmegen, Centraal Station","to":"Venlo, Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":69,"s":[[727728402,19],[1712459786,20],[1712460600,21],[1712460744,22]]},
+  {"id":13273395,"t":{"ref":"569","name":"Bus 569: Malden Schoolstraat => Middelaar Gemeenschapshuis","from":"Malden, Schoolstraat","to":"Middelaar, Gemeenschapshuis","network":"Arnhem-Nijmegen-Foodvalley","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":17,"s":[[9131668192,15],[9421057018,16],[9131668190,17]]},
+  {"id":13273445,"t":{"ref":"569","name":"Bus 569: Middelaar Gemeenschapshuis => Malden Schoolstraat","from":"Middelaar, Gemeenschapshuis","to":"Malden, Schoolstraat","network":"Arnhem-Nijmegen-Foodvalley","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":16,"s":[[9131668190,1],[12186638642,2],[12186638643,3],[9421057019,4],[9131668191,5]]},
+  {"id":20678530,"t":{"ref":"flex","name":"Bravoflex hub Station, Cuijk","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":108,"s":[[7176295754,48],[7176295755,49],[13823400787,51]]},
+  {"id":20678567,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Gennep","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":20,"s":[[7176295754,5],[7176295755,6],[13823400787,9]]}
+]
+}

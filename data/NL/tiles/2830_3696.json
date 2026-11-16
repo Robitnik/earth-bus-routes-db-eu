@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2830,3696],
+"stops":[
+  {"id":617380994,"lat":51.533617,"lon":4.819142,"k":"p","n":"Geersbroekseweg"},
+  {"id":617381007,"lat":51.512367,"lon":4.848453,"k":"p","n":"Meerleseweg"},
+  {"id":2625425425,"lat":51.533144,"lon":4.82265,"k":"p","n":"Geersbroekseweg"},
+  {"id":2625425543,"lat":51.512335,"lon":4.848273,"k":"p","n":"Meerleseweg"},
+  {"id":13517038786,"lat":51.548002,"lon":4.808894,"k":"p","n":"Torendreef"}
+],
+"routes":[
+  {"id":19199474,"t":{"ref":"375","name":"Bus 375: Breda Centraal Station => Baarle-Nassau Sint Janstraat","from":"Breda, Centraal Station","to":"Baarle-Nassau, Sint Janstraat","network":"West-Brabant","operator":"Arriva","colour":"#00A6DE","route":"bus","public_transport:version":"2"},"n":25,"s":[[2625425425,15],[2625425543,16]]},
+  {"id":19199475,"t":{"ref":"375","name":"Bus 375: Baarle-Nassau Sint Janstraat => Breda Centraal Station","from":"Baarle-Nassau, Sint Janstraat","to":"Breda, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#00A6DE","route":"bus","public_transport:version":"2"},"n":25,"s":[[617381007,10],[617380994,11]]},
+  {"id":20161262,"t":{"ref":"flex","name":"Bravoflex hub Dorpsstraat, Chaam","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":44,"s":[[2625425543,3],[617381007,6]]},
+  {"id":20161278,"t":{"ref":"flex","name":"Bravoflex hub Valkeniersplein, Breda","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":24,"s":[[2625425425,16],[617380994,17],[13517038786,18]]},
+  {"id":20161300,"t":{"ref":"flex","name":"Bravoflex hub Molenstraat, Ulvenhout","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":28,"s":[[2625425425,10],[617380994,11],[13517038786,12]]}
+]
+}

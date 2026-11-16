@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2847,3728],
+"stops":[
+  {"id":676017329,"lat":52.365253,"lon":6.442397,"k":"p","n":"Buitencentrum"},
+  {"id":676769197,"lat":52.390373,"lon":6.448086,"k":"p","n":"Schapenmarkt"},
+  {"id":1733336390,"lat":52.390347,"lon":6.448226,"k":"p","n":"Schapenmarkt"},
+  {"id":3223660346,"lat":52.387632,"lon":6.435608,"k":"x","n":"Hellendoorn, Avonturenpark Hellendoorn"},
+  {"id":5476826092,"lat":52.388168,"lon":6.439163,"k":"p","n":"Hellendoornsebergweg"},
+  {"id":12105618670,"lat":52.387212,"lon":6.447544,"k":"p","n":"Zuid Esweg"},
+  {"id":12105618671,"lat":52.38706,"lon":6.448205,"k":"p","n":"Zuid Esweg"},
+  {"id":14028395265,"lat":52.387655,"lon":6.43562,"k":"p","n":"Avonturenpark Hellendoorn"},
+  {"id":14045547319,"lat":52.389592,"lon":6.43444,"k":"x"}
+],
+"routes":[
+  {"id":3847532,"t":{"ref":"513","name":"Bus 513: Nijverdal Station => Raalte Zwolsestraat","from":"Nijverdal, Station","to":"Raalte, Zwolsestraat","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":14,"s":[[676017329,4]]},
+  {"id":3847533,"t":{"ref":"513","name":"Bus 513: Raalte Zwolsestraat => Nijverdal Station","from":"Raalte, Zwolsestraat","to":"Nijverdal, Station","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":11,"s":[[676017329,8]]},
+  {"id":5636940,"t":{"ref":"594","name":"Bus 594: Daarlerveen Station => Nijverdal Station","from":"Daarlerveen, Station","to":"Nijverdal, Station","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[676769197,5],[12105618670,6]]},
+  {"id":5636941,"t":{"ref":"594","name":"Bus 594: Den Ham Brink => Nijverdal Station","from":"Den Ham, Brink","to":"Nijverdal, Station","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[676769197,7],[12105618670,8]]},
+  {"id":5636942,"t":{"ref":"594","name":"Bus 594: Nijverdal Station => Daarlerveen Station","from":"Nijverdal, Station","to":"Daarlerveen Station","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":14,"s":[[12105618671,8],[1733336390,9]]},
+  {"id":5636943,"t":{"ref":"594","name":"Bus 594: Nijverdal Station => Den Ham Brink","from":"Nijverdal, Station","to":"Den Ham, Brink","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[12105618671,8],[1733336390,9]]},
+  {"id":11824564,"t":{"ref":"597","name":"Bus 597: Nijverdal Centrum => Hellendoorn Hankate","from":"Nijverdal, Centrum","to":"Hellendoorn, Hankate","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12105618671,9],[1733336390,10]]},
+  {"id":11824565,"t":{"ref":"597","name":"Bus 597: Hellendoorn Hankate => Nijverdal centrum","from":"Hellendoorn, Hankate","to":"Nijverdal, Centrum","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[676769197,6],[12105618670,7]]},
+  {"id":21213419,"t":{"ref":"594","name":"Bus 594: Daarlerveen Station => Nijverdal Station","from":"Daarlerveen, Station","to":"Nijverdal, Station","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":10,"s":[[676769197,5],[12105618670,6]]},
+  {"id":21217389,"t":{"ref":"85","name":"Bus 85: Avonturenpark Hellendoorn => Nijverdal Station","from":"Hellendoorn, Avonturenpark Hellendoorn","to":"Nijverdal, Station","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":2,"s":[[14028395265,1]]},
+  {"id":21217390,"t":{"ref":"85","name":"Bus 85: Nijverdal Station => Avonturenpark Hellendoorn","from":"Nijverdal, Station","to":"Hellendoorn, Avonturenpark Hellendoorn","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":2,"s":[[14028395265,2]]},
+  {"id":21222114,"t":{"ref":"86","name":"Bus 86: Rheeze => Avonturenpark Hellendoorn","from":"Rheeze","to":"Hellendoorn, Avonturenpark Hellendoorn","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":7,"s":[[14028395265,7]]},
+  {"id":21222115,"t":{"ref":"86","name":"Bus 86: Avonturenpark Hellendoorn => Rheeze","from":"Hellendoorn, Avonturenpark Hellendoorn","to":"Rheeze","network":"Twente","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":8,"s":[[14028395265,1]]}
+]
+}

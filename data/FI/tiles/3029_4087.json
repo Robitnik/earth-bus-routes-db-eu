@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3029,4087],
+"stops":[
+  {"id":190885363,"lat":61.472069,"lon":24.378185,"k":"x","n":"Rauhalantie I"},
+  {"id":190885370,"lat":61.472608,"lon":24.394887,"k":"x","n":"Korpiniemi L"},
+  {"id":343314891,"lat":61.47269,"lon":24.387036,"k":"x","n":"Tuomirannantie L"},
+  {"id":2292293746,"lat":61.452446,"lon":24.387986,"k":"x","n":"Pakkala"},
+  {"id":2292293782,"lat":61.454069,"lon":24.381127,"k":"x","n":"Vilpeilän koulu"},
+  {"id":2892329859,"lat":61.45229,"lon":24.388961,"k":"p","n":"Pakkala","ref":"9260"},
+  {"id":2892329860,"lat":61.452392,"lon":24.387905,"k":"p","n":"Pakkala","ref":"9261"},
+  {"id":6270953589,"lat":61.472568,"lon":24.395971,"k":"p","n":"Korpiniemi I","ref":"9146"},
+  {"id":6270953590,"lat":61.472685,"lon":24.394884,"k":"p","n":"Korpiniemi L","ref":"9145"},
+  {"id":6270953591,"lat":61.472619,"lon":24.388146,"k":"p","n":"Tuomirannantie I","ref":"9144"},
+  {"id":6270953592,"lat":61.472765,"lon":24.387042,"k":"p","n":"Tuomirannantie L","ref":"9143"},
+  {"id":6270953593,"lat":61.472007,"lon":24.378197,"k":"p","n":"Rauhalantie I","ref":"9142"},
+  {"id":6270953594,"lat":61.472095,"lon":24.377515,"k":"p","n":"Rauhalantie L","ref":"9141"},
+  {"id":6270953595,"lat":61.471119,"lon":24.361284,"k":"p","n":"Muuntoasemantie I","ref":"9140"},
+  {"id":6270953596,"lat":61.471257,"lon":24.361065,"k":"p","n":"Muuntoasemantie L","ref":"9139"},
+  {"id":6270953597,"lat":61.472696,"lon":24.350744,"k":"p","n":"Paatialantie I","ref":"9138"},
+  {"id":7319098691,"lat":61.452241,"lon":24.388952,"k":"x","n":"Pakkala"},
+  {"id":7319854870,"lat":61.472682,"lon":24.38816,"k":"x","n":"Tuomirannantie I"},
+  {"id":7321089453,"lat":61.472749,"lon":24.350826,"k":"x","n":"Paatialantie I"},
+  {"id":7321089455,"lat":61.471196,"lon":24.361016,"k":"x","n":"Muuntoasemantie L"},
+  {"id":7321089456,"lat":61.471184,"lon":24.361276,"k":"x","n":"Muuntoasemantie I"},
+  {"id":7321089457,"lat":61.472022,"lon":24.377546,"k":"x","n":"Rauhalantie L"},
+  {"id":7321089460,"lat":61.47262,"lon":24.395976,"k":"x","n":"Korpiniemi I"},
+  {"id":7321966660,"lat":61.454117,"lon":24.381165,"k":"p","n":"Vilpeilän koulu","ref":"9262"}
+],
+"routes":[
+  {"id":10888511,"t":{"ref":"48C","name":"Bus 48C: Kuhmalahti => Kivisalmi => Pakkala => Kangasala","from":"Kuhmalahti kk L","to":"Tredu Kangasala","network":"Nysse","route":"bus","public_transport:version":"2"},"n":42,"s":[[7319098691,10],[2292293782,11]]},
+  {"id":10888512,"t":{"ref":"48B","name":"Bus 48B: Pohja => Kuhmalahti => Kivisalmi => Sahalahti => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":48,"s":[[190885370,18],[343314891,19],[7321089457,20],[7321089455,21]]},
+  {"id":10888909,"t":{"ref":"48C","name":"Bus 48C: Kangasala => Pakkala => Kivisalmi => Kuhmalahti => Pohja","from":"Kangasala B","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":44,"s":[[2292293746,30]]},
+  {"id":13108254,"t":{"ref":"48","name":"Bus 48: Pohja => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":50,"s":[[190885370,20],[343314891,21],[7321089457,22],[7321089455,23]]},
+  {"id":13108255,"t":{"ref":"48","name":"Bus 48: Kangasala => Pohja","from":"Kangasala B","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":49,"s":[[7321089453,27],[7321089456,28],[190885363,29],[7319854870,30],[7321089460,31]]},
+  {"id":15311442,"t":{"ref":"48A","name":"Bus 48A: Pakkala => Sahalahti => Kangasala","from":"Pakkala","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":31,"s":[[7319098691,1],[2292293782,2]]},
+  {"id":15311443,"t":{"ref":"48A","name":"Bus 48A: Pohja => Kuhmalahti => Pakkala => Sahalahti => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":51,"s":[[7319098691,22],[2292293782,23]]}
+]
+}

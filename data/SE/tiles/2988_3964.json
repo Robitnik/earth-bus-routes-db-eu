@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2988,3964],
+"stops":[
+  {"id":4449495355,"lat":59.449627,"lon":18.216612,"k":"p","n":"Kulla vägskäl","ref":"67015"},
+  {"id":4449495356,"lat":59.449736,"lon":18.216954,"k":"p","n":"Kulla vägskäl","ref":"66015"},
+  {"id":4895390979,"lat":59.427968,"lon":18.227708,"k":"p","n":"Ladvik"},
+  {"id":4895390980,"lat":59.428118,"lon":18.22903,"k":"p","n":"Ladvik"},
+  {"id":4895390985,"lat":59.42805,"lon":18.220595,"k":"p","n":"Nyboda/Ladvik"},
+  {"id":4895390986,"lat":59.433808,"lon":18.219253,"k":"p","n":"Polackstorp"},
+  {"id":4895390987,"lat":59.434745,"lon":18.219589,"k":"p","n":"Polackstorp"},
+  {"id":4895390988,"lat":59.444306,"lon":18.241504,"k":"p","n":"Prästtorpet"},
+  {"id":4895390989,"lat":59.44509,"lon":18.240739,"k":"p","n":"Prästtorpet"},
+  {"id":4895391004,"lat":59.449547,"lon":18.232988,"k":"p","n":"Ubby gård"},
+  {"id":4895452539,"lat":59.406785,"lon":18.249104,"k":"p","n":"Ekevägen"},
+  {"id":4895452540,"lat":59.406824,"lon":18.249313,"k":"p","n":"Ekevägen"},
+  {"id":4895452543,"lat":59.412293,"lon":18.235111,"k":"p","n":"Frösviksvägen"},
+  {"id":4895452544,"lat":59.412656,"lon":18.234649,"k":"p","n":"Frösviksvägen"},
+  {"id":4895452547,"lat":59.427992,"lon":18.220387,"k":"p","n":"Nyboda/Ladvik"},
+  {"id":8151212269,"lat":59.449689,"lon":18.217145,"k":"p","n":"Kulla vägskäl","ref":"66016"}
+],
+"routes":[
+  {"id":3574175,"t":{"ref":"680","name":"Buss 680: Resarö - Tekniska högskolan","from":"Resarö","to":"Tekniska högskolan","network":"SL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[4895390980,9],[4895390987,10],[4449495356,11]]},
+  {"id":3574176,"t":{"ref":"680","name":"Buss 680: Tekniska högskolan - Resarö","from":"Tekniska högskolan","to":"Resarö","network":"SL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[4449495355,11],[4895390986,12],[4895390979,13]]},
+  {"id":3987307,"t":{"ref":"670","name":"Buss 670: Tekniska högskolan - Vaxholm","from":"Tekniska högskolan","to":"Vaxholm","network":"SL","colour":"blue","route":"bus","public_transport:version":"1+2"},"n":24,"s":[[4449495355,11],[4895390986,12],[4895390979,13]]},
+  {"id":3987308,"t":{"ref":"670","name":"Buss 670: Vaxholm - Tekniska högskolan","from":"Vaxholm","to":"Tekniska högskolan","network":"SL","colour":"blue","route":"bus","public_transport:version":"1+2"},"n":25,"s":[[4895390980,11],[4895390987,12],[4449495356,13]]},
+  {"id":5680935,"t":{"ref":"681","name":"Buss 681: Kulla vägskäl - Vaxholm","from":"Kulla vägskäl","to":"Vaxholm","network":"SL","route":"bus","public_transport:version":"1+2"},"n":17,"s":[[8151212269,1],[4449495355,2],[4895390986,3],[4895452547,4],[4895452544,5],[4895452539,6]]},
+  {"id":5680936,"t":{"ref":"681","name":"Buss 681: Vaxholm - Kulla vägskäl","from":"Vaxholm","to":"Kulla vägskäl","network":"SL","route":"bus","public_transport:version":"1+2"},"n":16,"s":[[4895452540,12],[4895452543,13],[4895390985,14],[4895390987,15],[8151212269,16]]},
+  {"id":5720293,"t":{"ref":"698","name":"Buss 698: Danderyds sjukhus - Österskär","from":"Danderyds sjukhus","to":"Österskär","network":"SL","route":"bus","public_transport:version":"1+2"},"n":40,"s":[[8151212269,26],[4895391004,27],[4895390988,28]]},
+  {"id":5720294,"t":{"ref":"699","name":"Buss 699: Tekniska högskolan - Vaxholm","from":"Tekniska högskolan","to":"Vaxholm","network":"SL","route":"bus","public_transport:version":"1+2"},"n":27,"s":[[4449495355,11],[4895390986,12],[4895390979,13]]},
+  {"id":5720295,"t":{"ref":"699","name":"Buss 699: Vaxholm - Tekniska högskolan","from":"Vaxholm","to":"Tekniska högskolan","network":"SL","route":"bus","public_transport:version":"1+2"},"n":28,"s":[[4895390980,15],[4895390987,16],[4449495356,17]]},
+  {"id":10125500,"t":{"ref":"683","name":"Buss 683: Arninge station - Åkersberga station","from":"Arninge station","to":"Åkersberga station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":25,"s":[[8151212269,6],[4895391004,7],[4895390988,8]]},
+  {"id":10125501,"t":{"ref":"683","name":"Buss 683: Åkersberga station - Arninge station","from":"Åkersberga station","to":"Arninge station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":25,"s":[[4895390989,18],[8151212269,20]]},
+  {"id":15029956,"t":{"ref":"670X","name":"Buss 670X: Vaxholm - Danderyds sjukhus","from":"Vaxholm","to":"Danderyds sjukhus","network":"SL","colour":"blue","route":"bus","public_transport:version":"1+2"},"n":16,"s":[[4895390980,10],[4895390987,11],[4449495356,12]]},
+  {"id":15029957,"t":{"ref":"670X","name":"Buss 670X: Danderyds sjukhus - Vaxholm","from":"Danderyds sjukhus","to":"Vaxholm","network":"SL","colour":"blue","route":"bus","public_transport:version":"1+2"},"n":15,"s":[[4449495355,4],[4895390986,5],[4895390979,6]]}
+]
+}

@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2927,3921],
+"stops":[
+  {"id":8383188916,"lat":56.385128,"lon":16.09102,"k":"p","n":"B","ref":"B"},
+  {"id":9515214435,"lat":56.392189,"lon":16.073377,"k":"x","n":"Bergkvara skola","ref":"B"},
+  {"id":9515214436,"lat":56.392142,"lon":16.07362,"k":"x","n":"Bergkvara skola","ref":"A"},
+  {"id":9515214453,"lat":56.370885,"lon":16.067037,"k":"x","n":"Kärrabo","ref":"B"},
+  {"id":9515214456,"lat":56.370053,"lon":16.066115,"k":"x","n":"Kärrabo","ref":"A"},
+  {"id":9515214462,"lat":56.394735,"lon":16.065393,"k":"x","n":"Bergkvara busstation","ref":"A"},
+  {"id":9515214466,"lat":56.394927,"lon":16.065503,"k":"x","n":"Bergkvara busstation","ref":"B"},
+  {"id":9515214589,"lat":56.353288,"lon":16.053627,"k":"x","n":"Järnsida","ref":"B"},
+  {"id":9515214590,"lat":56.352551,"lon":16.052009,"k":"x","n":"Järnsida","ref":"A"},
+  {"id":9515214599,"lat":56.365432,"lon":16.062563,"k":"x","n":"Skeppevik","ref":"B"},
+  {"id":9515214600,"lat":56.364298,"lon":16.062426,"k":"x","n":"Skeppevik","ref":"A"},
+  {"id":14079101440,"lat":56.388588,"lon":16.083615,"k":"x","n":"Kastmansgatan","ref":"A;B"},
+  {"id":14079101445,"lat":56.384972,"lon":16.090876,"k":"x","n":"Bergkvara hamn","ref":"A"},
+  {"id":14079101446,"lat":56.38497,"lon":16.090806,"k":"p","n":"A","ref":"A"},
+  {"id":14079101447,"lat":56.385124,"lon":16.090855,"k":"x","n":"Bergkvara hamn","ref":"B"},
+  {"id":5001032732052,"lat":56.392185,"lon":16.07351,"k":"p","n":"B","ref":"B"},
+  {"id":5001032732053,"lat":56.392144,"lon":16.073485,"k":"p","n":"A","ref":"A"},
+  {"id":5001032732055,"lat":56.370834,"lon":16.067086,"k":"p","n":"B","ref":"B"},
+  {"id":5001032732056,"lat":56.370092,"lon":16.066059,"k":"p","n":"A","ref":"A"},
+  {"id":5001032732058,"lat":56.394783,"lon":16.06534,"k":"p","n":"A","ref":"A"},
+  {"id":5001032732059,"lat":56.39479,"lon":16.065519,"k":"p","n":"B","ref":"B"},
+  {"id":5001032732080,"lat":56.35321,"lon":16.053603,"k":"p","n":"B","ref":"B"},
+  {"id":5001032732082,"lat":56.352614,"lon":16.052001,"k":"p","n":"A","ref":"A"},
+  {"id":5001032732083,"lat":56.365375,"lon":16.062642,"k":"p","n":"B","ref":"B"},
+  {"id":5001032732085,"lat":56.364347,"lon":16.062342,"k":"p","n":"A","ref":"A"},
+  {"id":5001547963237,"lat":56.388559,"lon":16.083585,"k":"p","n":"A","ref":"A"},
+  {"id":5001547963238,"lat":56.388601,"lon":16.08364,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":13817948,"t":{"ref":"120","name":"Bus 120: Torsås => Brömsebro => Jämjö => Karlskrona","from":"Torsås torg","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001032732059,2]]},
+  {"id":20412554,"t":{"ref":"500","name":"Buss 500: Karlskrona centrum => Kalmar centralstation","from":"Karlskrona centrum","to":"Kalmar centralstation","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001032732080,17],[5001032732083,18],[5001032732055,19],[5001032732059,20]]},
+  {"id":20412555,"t":{"ref":"500","name":"Buss 500: Kalmar centralstation => Karlskrona centrum","from":"Kalmar centralstation","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001032732058,5],[5001032732056,6],[5001032732085,7],[5001032732082,8]]},
+  {"id":21200630,"t":{"ref":"121","name":"Buss 121: Kalmar => Bergkvara","from":"Kalmar","to":"Bergkvara","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[5001032732058,39],[5001032732053,40],[5001547963237,41],[14079101446,42]]},
+  {"id":21200638,"t":{"ref":"121","name":"Buss 121: Bergkvara => Kalmar","from":"Bergkvara","to":"Kalmar","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[8383188916,1],[5001547963238,2],[5001032732052,3],[5001032732059,4]]}
+]
+}

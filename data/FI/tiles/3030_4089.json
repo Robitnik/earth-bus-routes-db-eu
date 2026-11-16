@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3030,4089],
+"stops":[
+  {"id":190885400,"lat":61.500668,"lon":24.494577,"k":"x","n":"Marjamäentie L"},
+  {"id":6270951822,"lat":61.525849,"lon":24.496677,"k":"p","n":"Kivisalmi I","ref":"9271"},
+  {"id":6270951823,"lat":61.525921,"lon":24.496869,"k":"p","n":"Kivisalmi L","ref":"9270"},
+  {"id":6270951824,"lat":61.501903,"lon":24.497592,"k":"p","n":"Suovanvuorentie","ref":"9156"},
+  {"id":6270951825,"lat":61.50073,"lon":24.494443,"k":"p","n":"Marjamäentie L","ref":"9155"},
+  {"id":7321089466,"lat":61.501939,"lon":24.497524,"k":"x","n":"Suovanvuorentie"},
+  {"id":7321966653,"lat":61.525893,"lon":24.496883,"k":"x","n":"Kivisalmi"},
+  {"id":7321966654,"lat":61.525895,"lon":24.496695,"k":"x","n":"Kivisalmi"}
+],
+"routes":[
+  {"id":10888511,"t":{"ref":"48C","name":"Bus 48C: Kuhmalahti => Kivisalmi => Pakkala => Kangasala","from":"Kuhmalahti kk L","to":"Tredu Kangasala","network":"Nysse","route":"bus","public_transport:version":"2"},"n":42,"s":[[7321966653,3]]},
+  {"id":10888512,"t":{"ref":"48B","name":"Bus 48B: Pohja => Kuhmalahti => Kivisalmi => Sahalahti => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":48,"s":[[7321966653,13]]},
+  {"id":10888909,"t":{"ref":"48C","name":"Bus 48C: Kangasala => Pakkala => Kivisalmi => Kuhmalahti => Pohja","from":"Kangasala B","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":44,"s":[[7321966654,32]]},
+  {"id":13108254,"t":{"ref":"48","name":"Bus 48: Pohja => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":50,"s":[[190885400,15]]},
+  {"id":13108255,"t":{"ref":"48","name":"Bus 48: Kangasala => Pohja","from":"Kangasala B","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":49,"s":[[7321089466,36]]},
+  {"id":15311443,"t":{"ref":"48A","name":"Bus 48A: Pohja => Kuhmalahti => Pakkala => Sahalahti => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":51,"s":[[190885400,15]]}
+]
+}

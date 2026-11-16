@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2925,3920],
+"stops":[
+  {"id":282551254,"lat":56.254682,"lon":16.012201,"k":"x","n":"Eklunda"},
+  {"id":282551286,"lat":56.253209,"lon":16.022957,"k":"x","n":"Rörsängsgatan"},
+  {"id":287543619,"lat":56.267494,"lon":16.031847,"k":"x","n":"Masten vägskäl"},
+  {"id":287543655,"lat":56.287222,"lon":16.03147,"k":"x","n":"Stubbemåla/Råsen vägskäl"},
+  {"id":447574508,"lat":56.255669,"lon":16.032924,"k":"x","n":"Karlstorp Kristianopel"},
+  {"id":7106805556,"lat":56.254671,"lon":16.01248,"k":"x","n":"Eklunda"},
+  {"id":7106805557,"lat":56.253232,"lon":16.022937,"k":"p"},
+  {"id":7106805558,"lat":56.25315,"lon":16.022969,"k":"p"},
+  {"id":7106805559,"lat":56.255696,"lon":16.032901,"k":"p"},
+  {"id":7106805560,"lat":56.255645,"lon":16.032937,"k":"p"},
+  {"id":7106805563,"lat":56.257815,"lon":16.041085,"k":"p","n":"A","ref":"A"},
+  {"id":7106805564,"lat":56.257857,"lon":16.041075,"k":"x","n":"Kristianopel","ref":"A"},
+  {"id":9515214411,"lat":56.298975,"lon":16.001804,"k":"x","n":"Brömsebro","ref":"B"},
+  {"id":9515214418,"lat":56.298091,"lon":16.000398,"k":"x","n":"Brömsebro","ref":"A"},
+  {"id":5001032732044,"lat":56.298914,"lon":16.00185,"k":"p","n":"B","ref":"B"},
+  {"id":5001032732046,"lat":56.298145,"lon":16.000348,"k":"p","n":"A","ref":"A"},
+  {"id":5001035411900,"lat":56.254698,"lon":16.012547,"k":"p","n":"A","ref":"A"},
+  {"id":5001035411901,"lat":56.254652,"lon":16.012076,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":13817947,"t":{"ref":"120","name":"Bus 120: Karlskrona => Jämjö => Brömsebro => Kristianopel","from":"Jämjö Parkvägen","to":"Kristianopel","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001032732044,3]]},
+  {"id":13817948,"t":{"ref":"120","name":"Bus 120: Torsås => Brömsebro => Jämjö => Karlskrona","from":"Torsås torg","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001032732046,3]]},
+  {"id":13864180,"t":{"ref":"121","name":"Bus 121: Jämjö Jändelskolan - Kristianopel - Jämjö centrum","from":"Jämjö Jändelskolan","to":"Jämjö centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":26,"s":[[5001035411901,5],[7106805558,6],[7106805560,7],[7106805563,8],[7106805559,9],[7106805557,10],[5001035411900,11]]},
+  {"id":13864181,"t":{"ref":"121","name":"Bus 121: Parkvägen Jämjö - Kristianopel - Jändelskolan Jämjö","from":"Parkvägen Jämjö","to":"Jämjö centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001035411901,15],[7106805558,16],[7106805560,17],[7106805563,18],[7106805559,19],[7106805557,20],[5001035411900,21]]},
+  {"id":13871730,"t":{"ref":"121","name":"Bus 121: Kristianopel - Fågelmara","from":"Kristianopel","to":"Fågelmara","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":5,"s":[[7106805563,1],[7106805559,2],[7106805557,3],[5001035411900,4]]},
+  {"id":13871731,"t":{"ref":"121","name":"Bus 121: Jämjö centrum - Brömsebro","from":"Jämjö Jändelskolan","to":"Brömsebro","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[5001032732046,11]]},
+  {"id":20412554,"t":{"ref":"500","name":"Buss 500: Karlskrona centrum => Kalmar centralstation","from":"Karlskrona centrum","to":"Kalmar centralstation","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001032732044,13]]},
+  {"id":20412555,"t":{"ref":"500","name":"Buss 500: Kalmar centralstation => Karlskrona centrum","from":"Kalmar centralstation","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001032732046,12]]}
+]
+}

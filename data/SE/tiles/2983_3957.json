@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2983,3957],
+"stops":[
+  {"id":35700339,"lat":59.199732,"lon":17.882259,"k":"p","n":"Bernströmsvägen"},
+  {"id":72748313,"lat":59.199628,"lon":17.884309,"k":"p","n":"Bernströmsvägen","ref":"70250"},
+  {"id":105737751,"lat":59.199117,"lon":17.853865,"k":"p","n":"Hamrabron"},
+  {"id":105737759,"lat":59.198934,"lon":17.855529,"k":"p","n":"Hamrabron","ref":"20256"},
+  {"id":2462132688,"lat":59.199947,"lon":17.870223,"k":"p","n":"Gjuteriet","ref":"70252"},
+  {"id":3916095289,"lat":59.199957,"lon":17.86978,"k":"p","n":"Gjuteriet"},
+  {"id":3916095294,"lat":59.198783,"lon":17.862511,"k":"p","n":"Skyttbrink","ref":"70254"},
+  {"id":3916095295,"lat":59.198942,"lon":17.860547,"k":"p","n":"Skyttbrink"},
+  {"id":3922408714,"lat":59.196092,"lon":17.851717,"k":"p","n":"Stupvägen"},
+  {"id":3922408715,"lat":59.196277,"lon":17.851555,"k":"p","n":"Stupvägen"},
+  {"id":3922408716,"lat":59.191265,"lon":17.855608,"k":"p","n":"Viltstigen"},
+  {"id":3923830395,"lat":59.162897,"lon":17.881711,"k":"p","n":"Lida"},
+  {"id":12252521541,"lat":59.163547,"lon":17.881569,"k":"p","n":"Lida"}
+],
+"routes":[
+  {"id":29234,"t":{"ref":"721","name":"Buss 721: Tullinge station - Lida","from":"Tullinge station","to":"Lida","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[12252521541,21]]},
+  {"id":3712241,"t":{"ref":"721","name":"Buss 721: Lida - Tullinge station","from":"Lida","to":"Tullinge station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[3923830395,1]]},
+  {"id":5807352,"t":{"ref":"713","name":"Buss 713: Tumba station - Björnkulla","from":"Tumba station","to":"Björnkulla","network":"SL","route":"bus","public_transport:version":"1+2"},"n":32,"s":[[105737759,3],[3916095294,4],[2462132688,5],[72748313,6]]},
+  {"id":5807353,"t":{"ref":"713","name":"Buss 713: Björnkulla - Tumba station","from":"Björnkulla","to":"Tumba station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":31,"s":[[35700339,26],[3916095289,27],[3916095295,28],[105737751,29]]},
+  {"id":5821788,"t":{"ref":"721X","name":"Buss 721X: Lida - Tullinge station","from":"Lida","to":"Tullinge station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":12,"s":[[3923830395,1]]},
+  {"id":5821789,"t":{"ref":"721X","name":"Buss 721X: Tullinge station - Lida","from":"Tullinge station","to":"Lida","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":12,"s":[[12252521541,12]]},
+  {"id":6047459,"t":{"ref":"791","name":"Buss 791: Centralen - Södertälje centrum","from":"Centralen","to":"Södertälje centrum","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":44,"s":[[35700339,26],[3916095289,27],[3916095295,28],[105737751,29]]},
+  {"id":6047460,"t":{"ref":"791","name":"Buss 791: Södertälje centrum - Centralen","from":"Södertälje centrum","to":"Centralen","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":44,"s":[[105737759,15],[3916095294,16],[2462132688,17],[72748313,18]]},
+  {"id":7887348,"t":{"ref":"796","name":"Buss 796: Centralen - Bremora","from":"Centralen","to":"Bremora","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":49,"s":[[35700339,26],[3916095289,27],[3916095295,28],[105737751,29],[3922408714,33],[3922408716,34],[3922408715,35]]},
+  {"id":7887349,"t":{"ref":"796","name":"Buss 796: Tumba station - Tumba station","from":"Tumba station","to":"Tumba station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":17,"s":[[3922408714,3],[3922408716,4],[3922408715,5]]},
+  {"id":7887350,"t":{"ref":"796","name":"Buss 796: Bremora - Tumba station","from":"Bremora","to":"Tumba station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":19,"s":[[3922408714,14],[3922408716,15],[3922408715,16]]},
+  {"id":17794725,"t":{"ref":"718","name":"Buss 718: Viltstigen - Tumba station","from":"Viltstigen","to":"Tumba station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":4,"s":[[3922408716,1],[3922408715,2]]},
+  {"id":17794726,"t":{"ref":"718","name":"Buss 718: Tumba station - Viltstigen","from":"Tumba station","to":"Viltstigen","network":"SL","route":"bus","public_transport:version":"1+2"},"n":4,"s":[[3922408714,3],[3922408716,4]]},
+  {"id":18154898,"t":{"ref":"791","name":"Buss 791: Södertälje centrum - Gullmarsplan","from":"Södertälje centrum","to":"Gullmarsplan","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":39,"s":[[105737759,15],[3916095294,16],[2462132688,17],[72748313,18]]}
+]
+}

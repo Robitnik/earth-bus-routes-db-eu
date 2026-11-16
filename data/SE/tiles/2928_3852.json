@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2928,3852],
+"stops":[
+  {"id":132584402,"lat":56.430505,"lon":12.642878,"k":"x","n":"Torekov Lugnet","ref":"A;B"},
+  {"id":779172255,"lat":56.425131,"lon":12.631069,"k":"p","n":"A","ref":"A"},
+  {"id":779172256,"lat":56.4252,"lon":12.631066,"k":"p","n":"B","ref":"B"},
+  {"id":779172352,"lat":56.430533,"lon":12.642867,"k":"p","n":"B","ref":"B"},
+  {"id":779172353,"lat":56.430473,"lon":12.642922,"k":"p","n":"A","ref":"A"},
+  {"id":1822722035,"lat":56.42403,"lon":12.629843,"k":"x","n":"Torekov busstation","ref":"B"},
+  {"id":1822722036,"lat":56.425164,"lon":12.631066,"k":"x","n":"Torekov kyrkan","ref":"A;B"},
+  {"id":4867898572,"lat":56.424139,"lon":12.629809,"k":"x","n":"Torekov busstation","ref":"A"},
+  {"id":6239561702,"lat":56.420723,"lon":12.641857,"k":"p","n":"B","ref":"B"},
+  {"id":6239561703,"lat":56.420697,"lon":12.641804,"k":"x","n":"Torekov Eneborgsvägen","ref":"B"},
+  {"id":6239561704,"lat":56.421062,"lon":12.641317,"k":"x","n":"Torekov Eneborgsvägen","ref":"A"},
+  {"id":6239561705,"lat":56.421045,"lon":12.641281,"k":"p","n":"A","ref":"A"},
+  {"id":6239561706,"lat":56.418266,"lon":12.647876,"k":"p"},
+  {"id":6239561707,"lat":56.418241,"lon":12.647849,"k":"x","n":"Torekov Godtemplarhuset"},
+  {"id":6239561708,"lat":56.418114,"lon":12.648144,"k":"x","n":"Torekov Godtemplarhuset"},
+  {"id":6239561709,"lat":56.418093,"lon":12.648107,"k":"p"},
+  {"id":5000495009550,"lat":56.424066,"lon":12.62973,"k":"p","n":"B","ref":"B"},
+  {"id":5000495009551,"lat":56.4241,"lon":12.629907,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":4110719,"t":{"ref":"505","name":"Buss 505: Förslöv => Torekov","from":"Förslövs station","to":"Torekov","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[6239561706,21],[6239561702,22],[779172256,23],[5000495009550,24]]},
+  {"id":4110720,"t":{"ref":"505","name":"Buss 505: Torekov => Förslöv","from":"Torekov busstation","to":"Förslöv","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000495009551,1],[779172255,2],[6239561705,3],[6239561709,4]]},
+  {"id":8476673,"t":{"ref":"502","name":"Buss 502: Torekov => Båstad","from":"Torekov busstation","to":"Båstad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000495009551,1],[779172255,2],[779172353,3]]},
+  {"id":8476674,"t":{"ref":"502","name":"Buss 502: Båstad => Torekov","from":"Båstad busstation","to":"Torekov busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[779172352,18],[779172256,19],[5000495009550,20]]}
+]
+}

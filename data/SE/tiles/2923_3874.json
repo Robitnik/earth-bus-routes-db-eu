@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2923,3874],
+"stops":[
+  {"id":122736392,"lat":56.169933,"lon":13.707969,"k":"x","n":"Finja Kungsgårdvägen"},
+  {"id":291734206,"lat":56.167248,"lon":13.746251,"k":"x","n":"Hässleholm Ekegården","ref":"A"},
+  {"id":2163172368,"lat":56.159413,"lon":13.746227,"k":"x","n":"Hässleholm Västerskolan","ref":"A"},
+  {"id":4161504543,"lat":56.198003,"lon":13.746839,"k":"x","n":"Vankiva affären"},
+  {"id":4344442231,"lat":56.161086,"lon":13.742146,"k":"x","n":"Hässleholm Bokliden","ref":"A"},
+  {"id":5696171914,"lat":56.159541,"lon":13.741428,"k":"p","n":"B","ref":"B"},
+  {"id":5696171915,"lat":56.159664,"lon":13.741631,"k":"p","n":"A","ref":"A"},
+  {"id":5696174567,"lat":56.167635,"lon":13.737823,"k":"x","n":"Hässleholm Nyckelvägen","ref":"A"},
+  {"id":5696174569,"lat":56.159607,"lon":13.741549,"k":"x","n":"Hässleholm Utfarten","ref":"A;B"},
+  {"id":5706456872,"lat":56.169865,"lon":13.707934,"k":"p","n":"B","ref":"B"},
+  {"id":5706456873,"lat":56.170019,"lon":13.708017,"k":"p","n":"A","ref":"A"},
+  {"id":5737210402,"lat":56.159458,"lon":13.746148,"k":"p","n":"A","ref":"A"},
+  {"id":5737211053,"lat":56.164243,"lon":13.736184,"k":"x","n":"Hässleholm Gäddastorp","ref":"A"},
+  {"id":5737211055,"lat":56.160523,"lon":13.749493,"k":"x","n":"Hässleholm Bokalyckan","ref":"A"},
+  {"id":5740908155,"lat":56.199265,"lon":13.746163,"k":"x","n":"Vankiva affären"},
+  {"id":5000415074576,"lat":56.198023,"lon":13.746693,"k":"p"},
+  {"id":5000436556818,"lat":56.161112,"lon":13.742237,"k":"p","n":"A","ref":"A"},
+  {"id":5000598500309,"lat":56.167602,"lon":13.737806,"k":"p","n":"A","ref":"A"},
+  {"id":5000598500310,"lat":56.167229,"lon":13.746145,"k":"p","n":"A","ref":"A"},
+  {"id":5000604713219,"lat":56.164228,"lon":13.736287,"k":"p","n":"A","ref":"A"},
+  {"id":5000604713221,"lat":56.160555,"lon":13.749554,"k":"p","n":"A","ref":"A"},
+  {"id":5000605243275,"lat":56.199234,"lon":13.746289,"k":"p"}
+],
+"routes":[
+  {"id":3855421,"t":{"ref":"511","name":"Buss 511: Hässleholm => Örkelljunga => Ängelholm","from":"Hässleholm","to":"Ängelholm","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":42,"s":[[5696171915,3],[5706456873,4]]},
+  {"id":3855422,"t":{"ref":"511","name":"Buss 511: Ängelholm => Örkelljunga => Hässleholm","from":"Ängelholm","to":"Hässleholm","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":43,"s":[[5706456872,39],[5696171914,40]]},
+  {"id":7876377,"t":{"ref":"532","name":"Buss 532: Hässleholm => Markaryd","from":"Hässleholm","to":"Markaryd","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000605243275,4]]},
+  {"id":7876378,"t":{"ref":"532","name":"Buss 532: Markaryd => Hässleholm","from":"Markaryd","to":"Hässleholm","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000415074576,18]]},
+  {"id":8426441,"t":{"ref":"2","name":"Buss 2: Gäddastorp => Röinge","from":"Gäddastorp","to":"Röinge","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000604713219,1],[5000598500309,2],[5000598500310,3]]},
+  {"id":8426442,"t":{"ref":"2","name":"Buss 2: Röinge => Gäddastorp","from":"Röinge","to":"Gäddastorp","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000604713221,17],[5737210402,18],[5000436556818,19],[5000604713219,20]]}
+]
+}

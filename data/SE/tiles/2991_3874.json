@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2991,3874],
+"stops":[
+  {"id":842272560,"lat":59.594569,"lon":13.702321,"k":"x","n":"Krakerud","ref":"B"},
+  {"id":842273039,"lat":59.594918,"lon":13.703671,"k":"x","n":"Krakerud","ref":"A"},
+  {"id":1835504450,"lat":59.598173,"lon":13.718991,"k":"x","n":"Molkom, Graninge","ref":"B"},
+  {"id":9297356520,"lat":59.598331,"lon":13.719542,"k":"x","n":"Molkom, Graninge","ref":"A"},
+  {"id":9297356527,"lat":59.599511,"lon":13.73671,"k":"x","n":"Molkom, Upperud","ref":"A"},
+  {"id":5001181482618,"lat":59.598306,"lon":13.719321,"k":"p","ref":"A"},
+  {"id":5001181482619,"lat":59.598226,"lon":13.719099,"k":"p","ref":"B"},
+  {"id":5001181482620,"lat":59.595003,"lon":13.703655,"k":"p","ref":"A"},
+  {"id":5001181482621,"lat":59.594453,"lon":13.702273,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":15972627,"t":{"ref":"401","name":"Buss 401: Karlstad => Molkom","from":"Karlstad Busstationen","to":"Molkom, Graninge","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":28,"s":[[5001181482621,25],[5001181482618,26,28]]},
+  {"id":15972629,"t":{"ref":"401","name":"Buss 401: Molkom => Karlstad","from":"Molkom, Graninge","to":"Karlstad Busstationen","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":26,"s":[[5001181482618,1],[5001181482620,2]]},
+  {"id":15974779,"t":{"ref":"300","name":"Buss 300: Hagfors => Karlstad","from":"Björkliden","to":"Karlstad Busstationen","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":60,"s":[[5001181482619,35],[5001181482620,36]]},
+  {"id":15974780,"t":{"ref":"300","name":"Buss 300: Karlstad => Hagfors","from":"Karlstad Busstationen","to":"Björkliden","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":61,"s":[[5001181482621,25],[5001181482618,26]]}
+]
+}

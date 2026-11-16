@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2909,3863],
+"stops":[
+  {"id":3189998861,"lat":55.451999,"lon":13.187158,"k":"x","n":"Klörupskorset","ref":"D"},
+  {"id":3189998909,"lat":55.452002,"lon":13.187072,"k":"p","n":"D","ref":"D"},
+  {"id":3189998912,"lat":55.453064,"lon":13.18634,"k":"p","n":"B","ref":"B"},
+  {"id":3189998913,"lat":55.453181,"lon":13.186307,"k":"p","n":"A","ref":"A"},
+  {"id":3190002549,"lat":55.451919,"lon":13.187104,"k":"x","n":"Klörupskorset","ref":"C"},
+  {"id":3190002555,"lat":55.453109,"lon":13.186341,"k":"x","n":"Klörupskorset","ref":"A;B"},
+  {"id":3197245514,"lat":55.453925,"lon":13.179863,"k":"x","n":"Klörup byn","ref":"A"},
+  {"id":3197245515,"lat":55.454009,"lon":13.179453,"k":"x","n":"Klörup byn","ref":"B"},
+  {"id":3197245517,"lat":55.457751,"lon":13.165463,"k":"x","n":"Slågarpsdal","ref":"A"},
+  {"id":3197245518,"lat":55.457971,"lon":13.164802,"k":"x","n":"Slågarpsdal","ref":"B"},
+  {"id":3197245519,"lat":55.460436,"lon":13.154461,"k":"x","n":"Slågarpsvägen","ref":"B"},
+  {"id":3197245520,"lat":55.460795,"lon":13.152867,"k":"x","n":"Slågarpsvägen","ref":"A"},
+  {"id":3197245556,"lat":55.453888,"lon":13.17984,"k":"p","n":"A","ref":"A"},
+  {"id":3197245559,"lat":55.454042,"lon":13.179477,"k":"p","n":"B","ref":"B"},
+  {"id":3197248262,"lat":55.457733,"lon":13.165432,"k":"p","n":"A","ref":"A"},
+  {"id":3197248263,"lat":55.458011,"lon":13.16484,"k":"p","n":"B","ref":"B"},
+  {"id":3197248269,"lat":55.460462,"lon":13.154584,"k":"p","n":"B","ref":"B"},
+  {"id":3197248272,"lat":55.460763,"lon":13.152828,"k":"p","n":"A","ref":"A"},
+  {"id":3348598163,"lat":55.497072,"lon":13.159564,"k":"p","n":"A","ref":"A"},
+  {"id":3348598164,"lat":55.497902,"lon":13.184707,"k":"p","n":"A","ref":"A"},
+  {"id":3348598166,"lat":55.497,"lon":13.159534,"k":"p","n":"B","ref":"B"},
+  {"id":3348598167,"lat":55.497584,"lon":13.184149,"k":"p","n":"B","ref":"B"},
+  {"id":3348598171,"lat":55.497611,"lon":13.184123,"k":"x","n":"Lilla Svedala","ref":"B"},
+  {"id":3348598172,"lat":55.497875,"lon":13.18473,"k":"x","n":"Lilla Svedala","ref":"A"},
+  {"id":3348598173,"lat":55.497033,"lon":13.159552,"k":"x","n":"Västra Kärrstorp","ref":"A;B"},
+  {"id":4229063099,"lat":55.451915,"lon":13.187171,"k":"p","n":"C","ref":"C"}
+],
+"routes":[
+  {"id":3931681,"t":{"ref":"144","name":"Buss 144: Östra Grevie => Anderslöv","from":"Östra Grevie","to":"Anderslöv","network":"Skånetrafiken","operator":"Bergkvarabuss Trelleborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":19,"s":[[3197248272,3],[3197248262,4],[3197245556,5],[3189998912,6]]},
+  {"id":3931682,"t":{"ref":"144","name":"Buss 144: Anderslöv => Östra Grevie","from":"Anderslöv","to":"Östra Grevie","network":"Skånetrafiken","operator":"Bergkvarabuss Trelleborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":19,"s":[[3189998913,14],[3197245559,15],[3197248263,16],[3197248269,17]]},
+  {"id":4587582,"t":{"ref":"143","name":"Buss 143: Svedala => Västra Ingelstad","from":"Svedala","to":"Västra Ingelstad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":9,"s":[[3348598164,7],[3348598163,8]]},
+  {"id":4587583,"t":{"ref":"143","name":"Buss 143: Västra Ingelstad => Svedala","from":"Västra Ingelstad","to":"Svedala","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":9,"s":[[3348598166,2],[3348598167,3]]},
+  {"id":4602763,"t":{"ref":"145","name":"Buss 145: Svedala => Trelleborg","from":"Svedala","to":"Trelleborg","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":19,"s":[[3189998909,6]]},
+  {"id":4602764,"t":{"ref":"145","name":"Buss 145: Trelleborg => Svedala","from":"Trelleborg","to":"Svedala","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":19,"s":[[4229063099,14]]},
+  {"id":16183486,"t":{"ref":"144","name":"Buss 144: Anderslöv => Östra Grevie => Västra Ingelstad => Malmö Persborg","from":"Anderslöv","to":"Malmö Persborg","network":"Skånetrafiken","operator":"Bergkvarabuss Trelleborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":35,"s":[[3197245559,14],[3197248263,15],[3197248269,16]]},
+  {"id":16183487,"t":{"ref":"144","name":"Buss 144: Malmö Persborg => Västra Ingelstad => Östra Grevie => Anderslöv","from":"Malmö Persborg","to":"Anderslöv","network":"Skånetrafiken","operator":"Bergkvarabuss Trelleborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":36,"s":[[3197248272,20],[3197248262,21],[3197245556,22],[3189998912,23]]}
+]
+}

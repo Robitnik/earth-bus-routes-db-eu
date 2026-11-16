@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2925,3849],
+"stops":[
+  {"id":2288948779,"lat":56.281988,"lon":12.499109,"k":"x","n":"Mölle busstation","ref":"A"},
+  {"id":3691589735,"lat":56.296391,"lon":12.477942,"k":"x","n":"Ransviksvägen","ref":"B"},
+  {"id":3691589736,"lat":56.296411,"lon":12.477632,"k":"x","n":"Ransviksvägen","ref":"A"},
+  {"id":3691589737,"lat":56.299321,"lon":12.468409,"k":"x","n":"Mölle Kullagården","ref":"B"},
+  {"id":3691589738,"lat":56.299332,"lon":12.468322,"k":"x","n":"Mölle Kullagården","ref":"A"},
+  {"id":3691589751,"lat":56.296369,"lon":12.47793,"k":"p","n":"B","ref":"B"},
+  {"id":3691589752,"lat":56.296465,"lon":12.477635,"k":"p","n":"A","ref":"A"},
+  {"id":3691589753,"lat":56.2993,"lon":12.468399,"k":"p","n":"B","ref":"B"},
+  {"id":3691589754,"lat":56.299373,"lon":12.468331,"k":"p","n":"A","ref":"A"},
+  {"id":5000365909970,"lat":56.281939,"lon":12.49905,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":5441724,"t":{"ref":"202","name":"Buss 202: Kullens fyr => Mölle","from":"Kullens fyr","to":"Mölle","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":4,"s":[[3691589753,2],[3691589751,3],[5000365909970,4]]},
+  {"id":5441725,"t":{"ref":"202","name":"Buss 202: Mölle => Kullens fyr","from":"Mölle","to":"Kullens fyr","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000365909970,1],[3691589752,2],[3691589754,3]]},
+  {"id":5441727,"t":{"ref":"222","name":"Buss 222: Höganäs => Mölle","from":"Höganäs","to":"Mölle","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000365909970,18]]},
+  {"id":5441728,"t":{"ref":"222","name":"Buss 222: Mölle => Höganäs","from":"Mölle","to":"Helsingborg","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000365909970,1]]},
+  {"id":7615567,"t":{"ref":"222","name":"Buss 222: Mölle => Nyhamnsskolan => Höganäs","from":"Mölle","to":"Helsingborg","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000365909970,1]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2849,3708],
+"stops":[
+  {"id":694305034,"lat":52.498379,"lon":5.42129,"k":"p","n":"Ringdijk"},
+  {"id":1410068819,"lat":52.485965,"lon":5.43112,"k":"x","n":"Lelystad, Hollandse Hout"},
+  {"id":2863021988,"lat":52.497763,"lon":5.412969,"k":"p","n":"Monnickendamstraat"},
+  {"id":7086074997,"lat":52.497796,"lon":5.412929,"k":"x","n":"Lelystad, Monnickendamstraat"},
+  {"id":7086074999,"lat":52.498376,"lon":5.42135,"k":"x","n":"Lelystad, Ringdijk"},
+  {"id":7238955350,"lat":52.48796,"lon":5.4454,"k":"p","n":"Klaproos"},
+  {"id":7238955351,"lat":52.489602,"lon":5.440489,"k":"p","n":"Haagwinde"},
+  {"id":7238955352,"lat":52.486012,"lon":5.431047,"k":"p","n":"Hollandse Hout"},
+  {"id":7238955353,"lat":52.489839,"lon":5.440707,"k":"p","n":"Haagwinde"},
+  {"id":7238955354,"lat":52.488122,"lon":5.446218,"k":"p","n":"Klaproos"}
+],
+"routes":[
+  {"id":3748425,"t":{"ref":"1","name":"Bus 1: Lelystad Haven => Lelystad Station Centrum","from":"Lelystad, Ringdijk","to":"Lelystad, Station Centrum","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":12,"s":[[694305034,1]]},
+  {"id":3748426,"t":{"ref":"1","name":"Bus 1: Lelystad Station Centrum => Lelystad Haven","from":"Lelystad, Station Centrum","to":"Lelystad, Ringdijk","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":13,"s":[[2863021988,11],[694305034,13]]},
+  {"id":5645306,"t":{"ref":"612","name":"Bus 612: Lelystad Herman Bekiusschool => Lelystad Haven","from":"Lelystad, Herman Bekiusschool","to":"Lelystad, Monnickendamstraat","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":19,"s":[[2863021988,19]]},
+  {"id":5645307,"t":{"ref":"612","name":"Bus 612: Lelystad Haven => Lelystad Herman Bekiusschool","from":"Lelystad, Monnickendamstraat","to":"Lelystad, Herman Bekiusschool","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":21,"s":[[2863021988,1]]},
+  {"id":10747173,"t":{"ref":"8","name":"Bus 8: Lelystad Hollandse Hout => Lelystad Station Centrum","from":"Lelystad, Hollandse Hout","to":"Lelystad, Station Centrum","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":11,"s":[[7238955352,1],[7238955351,2],[7238955350,3]]},
+  {"id":10747174,"t":{"ref":"8","name":"Bus 8: Lelystad Station Centrum => Lelystad Hollandse Hout","from":"Lelystad, Station Centrum","to":"Lelystad, Hollandse Hout","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":10,"s":[[7238955354,8],[7238955353,9],[7238955352,10]]},
+  {"id":16803914,"t":{"ref":"11","name":"Bus 11: Lelystad Haven => Lelystad Station Centrum","from":"Lelystad, Ringdijk","to":"Lelystad, Station Centrum","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":8,"s":[[694305034,1]]},
+  {"id":16803915,"t":{"ref":"11","name":"Bus 11: Lelystad Station Centrum => Lelystad Haven","from":"Lelystad, Station Centrum","to":"Lelystad, Ringdijk","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":9,"s":[[2863021988,7],[694305034,9]]},
+  {"id":16834515,"t":{"ref":"8","name":"Bus 8: Lelystad Station Centrum => Lelystad Hollandse Hout","from":"Lelystad, Station Centrum","to":"Lelystad, Hollandse Hout","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":8,"s":[[7238955354,6],[7238955353,7],[7238955352,8]]},
+  {"id":21225654,"t":{"ref":"1","name":"Bus 1: Lelystad Station Centrum => Lelystad Haven","from":"Lelystad, Station Centrum","to":"Lelystad, Ringdijk","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":12,"s":[[694305034,12]]}
+]
+}

@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2992,3961],
+"stops":[
+  {"id":525647383,"lat":59.600006,"lon":18.061953,"k":"p","n":"Skrattbacken"},
+  {"id":525647388,"lat":59.600975,"lon":18.098887,"k":"p","n":"Orkesta Haga"},
+  {"id":8121652663,"lat":59.614041,"lon":18.065852,"k":"p","n":"Yvlinge"},
+  {"id":8121652667,"lat":59.601076,"lon":18.099107,"k":"p","n":"Orkesta Haga"},
+  {"id":8149659430,"lat":59.619027,"lon":18.050111,"k":"p","n":"Örsta gård"}
+],
+"routes":[
+  {"id":5549579,"t":{"ref":"662","name":"Buss 662: Markims Husby - Vallentuna station","from":"Markims Husby","to":"Vallentuna station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":19,"s":[[525647388,5]]},
+  {"id":5549580,"t":{"ref":"662","name":"Buss 662: Vallentuna station - Markims Husby","from":"Vallentuna station","to":"Markims Husby","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":20,"s":[[8121652667,16],[525647383,19]]},
+  {"id":18130088,"t":{"ref":"662Y","name":"Buss 662Y: Vallentuna station - Orkesta - Vallentuna station","from":"Vallentuna station","to":"Vallentuna station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":40,"s":[[8121652667,16],[525647383,20],[8121652663,21],[8149659430,22]]},
+  {"id":18130089,"t":{"ref":"662Y","name":"Buss 662Y: Vallentuna station - Markim - Vallentuna station","from":"Vallentuna station","to":"Vallentuna station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":39,"s":[[525647388,25]]}
+]
+}

@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2907,3881],
+"stops":[
+  {"id":2652143628,"lat":55.386755,"lon":14.065091,"k":"x","n":"Kåseberga södra"},
+  {"id":2652143670,"lat":55.38678,"lon":14.065103,"k":"p"},
+  {"id":3337049630,"lat":55.39076,"lon":14.077522,"k":"p","ref":"A"},
+  {"id":3337049631,"lat":55.390786,"lon":14.077523,"k":"x","n":"Blå Gården"},
+  {"id":3337049632,"lat":55.390812,"lon":14.077527,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":5614214,"t":{"ref":"322","name":"Buss 322: Skillinge => Ystad","from":"Skillinge","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":37,"s":[[3337049632,19],[2652143670,20]]},
+  {"id":5614215,"t":{"ref":"322","name":"Buss 322: Ystad => Skillinge","from":"Ystad","to":"Skillinge","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":37,"s":[[2652143670,18],[3337049630,19]]},
+  {"id":5614216,"t":{"ref":"392","name":"Buss 392: Hagestad => Ystad","from":"Hagestad","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":30,"s":[[3337049632,12],[2652143670,13]]},
+  {"id":5614217,"t":{"ref":"392","name":"Buss 392: Ystad => Hagestad","from":"Ystad","to":"Hagestad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":31,"s":[[2652143670,18],[3337049630,19]]}
+]
+}

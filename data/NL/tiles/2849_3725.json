@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2849,3725],
+"stops":[
+  {"id":4489057270,"lat":52.498642,"lon":6.259916,"k":"p","n":"Station"},
+  {"id":4489057271,"lat":52.490248,"lon":6.296729,"k":"p","n":"Foreco"},
+  {"id":4489057272,"lat":52.490384,"lon":6.296738,"k":"p","n":"Foreco"},
+  {"id":5564445831,"lat":52.498686,"lon":6.259949,"k":"x","n":"Dalfsen, Station"},
+  {"id":6892798701,"lat":52.496838,"lon":6.290163,"k":"p","n":"Kasteel Rechteren"},
+  {"id":6892798702,"lat":52.496781,"lon":6.290328,"k":"p","n":"Kasteel Rechteren"}
+],
+"routes":[
+  {"id":361329,"t":{"ref":"167","name":"Bus 167: Zwolle Hessenpoort => Lemelerveld Evenemententerrein","from":"Zwolle, Mindenstraat","to":"Lemelerveld, Evenemententerrein","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":48,"s":[[4489057270,33,40],[4489057271,41]]},
+  {"id":533752,"t":{"ref":"167","name":"Bus 167: Lemelerveld Evenemententerrein => Zwolle Hessenpoort","from":"Lemelerveld, Evenemententerrein","to":"Zwolle, Mindenstraat","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":48,"s":[[4489057272,8],[4489057270,9,16]]},
+  {"id":6706741,"t":{"ref":"591","name":"Bus 591: Nieuwleusen Noorderpark => Dalfsen Station","from":"Nieuwleusen, Noorderpark","to":"Dalfsen, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":16,"s":[[4489057270,16]]},
+  {"id":6706742,"t":{"ref":"591","name":"Bus 591: Dalfsen Station => Nieuwleusen Noorderpark","from":"Dalfsen, Station","to":"Nieuwleusen, Noorderpark","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":16,"s":[[4489057270,1]]},
+  {"id":11073739,"t":{"ref":"167","name":"Bus 167: Lemelerveld Evenemententerrein => Zwolle Hessenpoort","from":"Lemelerveld, Evenemententerrein","to":"Zwolle, Mindenstraat","network":"IJssel-Vecht","operator":"EBS","route":"bus","public_transport:version":"2"},"n":41,"s":[[4489057272,8],[4489057270,9]]},
+  {"id":11073740,"t":{"ref":"167","name":"Bus 167: Zwolle Hessenpoort => Lemelerveld Evenemententerrein","from":"Zwolle, Mindenstraat","to":"Lemelerveld, Evenemententerrein","network":"IJssel-Vecht","operator":"EBS","route":"bus","public_transport:version":"2"},"n":41,"s":[[4489057270,33],[4489057271,34]]},
+  {"id":15902327,"t":{"ref":"568","name":"Bus 568: Dalfsen Rosengaerde => Ommen Haarsweg","from":"Dalfsen, Woonzorgcentrum Rosengaerde","to":"Ommen, Haarsweg","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":10,"s":[[4489057270,3],[6892798702,4]]},
+  {"id":15902328,"t":{"ref":"568","name":"Bus 568: Ommen Haarsweg => Dalfsen Rosengaerde","from":"Ommen, Haarsweg","to":"Dalfsen, Woonzorgcentrum Rosengaerde","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":12,"s":[[6892798701,10],[4489057270,11]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3139,4076],
+"stops":[
+  {"id":6270895300,"lat":66.974766,"lon":23.827877,"k":"p","n":"Väylänvarrentie 194"},
+  {"id":6270895301,"lat":66.974165,"lon":23.82864,"k":"p","n":"Väylänvarrentie 191"},
+  {"id":6270895302,"lat":66.963527,"lon":23.837372,"k":"p","n":"Jarhoinen"},
+  {"id":6270895303,"lat":66.963324,"lon":23.838098,"k":"p","n":"Jarhoinen"},
+  {"id":8499290812,"lat":66.952682,"lon":23.845247,"k":"p","n":"Jarhois väg 99"},
+  {"id":12036093555,"lat":66.951885,"lon":23.845702,"k":"p","n":"Jarhois väg 99"}
+],
+"routes":[
+  {"id":17702751,"t":{"ref":"54","name":"54 Pajala busstation => Haparanda Tornio Resecentrum","from":"Pajala busstation","to":"Haparanda Tornio Resecentrum","route":"bus"},"n":28,"s":[[12036093555,4]]},
+  {"id":17705583,"t":{"ref":"54","name":"54 Haparanda Tornio Resecentrum => Pajala busstation","from":"Haparanda Tornio Resecentrum","to":"Pajala busstation","route":"bus"},"n":28,"s":[[8499290812,25]]},
+  {"id":17804157,"t":{"ref":"53","name":"53 Haparanda => Kiruna","from":"Haparanda Tornio Resecentrum","to":"Kiruna busstation","operator":"Länstrafiken Norrbotten","route":"bus"},"n":25,"s":[[8499290812,22]]},
+  {"id":17811195,"t":{"ref":"53","name":"53 Kiruna => Haparanda","from":"Kiruna Busstation","to":"Haparanda Tornio Resecentrum LTN","operator":"Länstrafiken Norrbotten","route":"bus"},"n":24,"s":[[12036093555,4]]}
+]
+}

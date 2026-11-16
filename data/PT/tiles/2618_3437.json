@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"PT",
+"tile":[2618,3437],
+"stops":[
+  {"id":12947500594,"lat":40.944166,"lon":-8.103996,"k":"p","n":"VIla Maior","ref":"CDR_2809"},
+  {"id":12947500595,"lat":40.944168,"lon":-8.103901,"k":"p","n":"Vila Maior","ref":"CDR_2809-1"},
+  {"id":12947500596,"lat":40.937475,"lon":-8.112892,"k":"p","n":"Vitoreira","ref":"CDR_2810"},
+  {"id":12947500597,"lat":40.937445,"lon":-8.112926,"k":"p","n":"Vitoreira","ref":"CDR_2810-1"},
+  {"id":12947500598,"lat":40.930001,"lon":-8.121697,"k":"p","n":"Pereiró","ref":"CDR_2811"},
+  {"id":12947500599,"lat":40.930017,"lon":-8.121943,"k":"p","n":"Pereiró","ref":"CDR_2811-1"},
+  {"id":12947500600,"lat":40.949878,"lon":-8.110645,"k":"p","n":"Amela (Rua do Vale)","ref":"CDR_2812"},
+  {"id":12947500601,"lat":40.949945,"lon":-8.110652,"k":"p","n":"Ameal","ref":"CDR_2812-1"},
+  {"id":12947500602,"lat":40.940645,"lon":-8.101327,"k":"p","n":"Lodeiro","ref":"CDR_2814"},
+  {"id":12947500603,"lat":40.94064,"lon":-8.101423,"k":"p","n":"Lodeiro","ref":"CDR_2814-1"},
+  {"id":13170007405,"lat":40.949916,"lon":-8.110634,"k":"x","n":"Ameal"},
+  {"id":13170007447,"lat":40.949909,"lon":-8.110661,"k":"x","n":"Ameal (Rua do Vale)","ref":"CDR_2812"}
+],
+"routes":[
+  {"id":19647940,"t":{"ref":"103","name":"103 Ameal → Parada de Ester (Campo de Futebol)","from":"Ameal","to":"Parada de Ester (Campo de Futebol)","network":"MobiViseuDãoLafões","operator":"Vdl Mobilidade","colour":"#ec343c","route":"bus","public_transport:version":"2"},"n":15,"s":[[12947500600,1]]},
+  {"id":19647941,"t":{"ref":"103","name":"103 Parada de Ester (Campo de Futebol) → Ameal","from":"Parada de Ester (Campo de Futebol)","to":"Ameal","network":"MobiViseuDãoLafões","operator":"Vdl Mobilidade","colour":"#ec343c","route":"bus","public_transport:version":"2"},"n":15,"s":[[12947500601,15]]},
+  {"id":19647942,"t":{"ref":"103","name":"103 Ameal → Mosteiro de Cabril (via Pereiró)","from":"Ameal","to":"Mosteiro de Cabril","network":"MobiViseuDãoLafões","operator":"Vdl Mobilidade","colour":"#ec343c","route":"bus","public_transport:version":"2"},"n":6,"s":[[12947500601,1],[12947500599,2],[12947500597,3],[12947500602,4],[12947500595,5]]},
+  {"id":19647943,"t":{"ref":"103","name":"103 Mosteiro de Cabril → Ameal (via Pereiró)","from":"Mosteiro de Cabril","to":"Ameal","network":"MobiViseuDãoLafões","operator":"Vdl Mobilidade","colour":"#ec343c","route":"bus","public_transport:version":"2"},"n":6,"s":[[12947500594,2],[12947500603,3],[12947500596,4],[12947500598,5],[12947500600,6]]},
+  {"id":19860032,"t":{"ref":"107","name":"107 Moimenta → Castro Daire (Escola Secundária) (via Vila Maior e Castro Daire (Escola Básica 2/3))","from":"Moimenta","to":"Castro Daire (Escola Secundária)","network":"MobiViseuDãoLafões","operator":"Vdl Mobilidade","colour":"#ec343c","route":"bus","public_transport:version":"2"},"n":33,"s":[[12947500594,7]]},
+  {"id":19860033,"t":{"ref":"107","name":"107 Castro Daire (Escola Secundária) → Moimenta (via Castro Daire (Escola Básica 2/3) e Vila Maior)","from":"Castro Daire (Escola Secundária)","to":"Moimenta","network":"MobiViseuDãoLafões","operator":"Vdl Mobilidade","colour":"#ec343c","route":"bus","public_transport:version":"2"},"n":32,"s":[[12947500594,26]]}
+]
+}

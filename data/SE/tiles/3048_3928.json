@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3048,3928],
+"stops":[
+  {"id":363911145,"lat":62.449009,"lon":16.43442,"k":"x","n":"Viskan kiosken"},
+  {"id":503192806,"lat":62.429027,"lon":16.443,"k":"x","n":"Gösunda kapell"},
+  {"id":503277504,"lat":62.442391,"lon":16.426248,"k":"x","n":"Viskan anstalten"},
+  {"id":2193368088,"lat":62.442343,"lon":16.42612,"k":"p","n":"Viskan anstalten"},
+  {"id":2193905017,"lat":62.444218,"lon":16.441765,"k":"p","n":"Viskan Järnvägsviadukten","ref":"809"},
+  {"id":2193905021,"lat":62.444361,"lon":16.441695,"k":"x","n":"Viskan Järnvägsviadukten","ref":"809"},
+  {"id":2193908737,"lat":62.449132,"lon":16.434544,"k":"p","n":"Viskan kiosken","ref":"809"}
+],
+"routes":[
+  {"id":2805477,"t":{"ref":"191","name":"Buss 191: Ånge => Sundsvall","from":"Ånge","to":"Sundsvall","network":"DinTur","route":"bus","public_transport:version":"2"},"n":64,"s":[[2193905017,9]]},
+  {"id":2810579,"t":{"ref":"192","name":"Buss 192: Gösunda => Ljungaverk => Ånge","from":"Gösunda","to":"Ånge","network":"DinTur","route":"bus","public_transport:version":"2"},"n":48,"s":[[503192806,2],[503277504,3]]},
+  {"id":2810582,"t":{"ref":"192","name":"Buss 192: Ånge => Ljungaverk => Viskan","from":"Ånge","to":"Viskan","network":"DinTur","route":"bus","public_transport:version":"2"},"n":49,"s":[[363911145,49]]},
+  {"id":3271521,"t":{"ref":"192","name":"Buss 192: Ljungaverk => Gösunda","from":"Ljungaverk","to":"Gösunda","network":"DinTur","route":"bus","public_transport:version":"2"},"n":2,"s":[[2193368088,2]]},
+  {"id":3271522,"t":{"ref":"192","name":"Buss 192: Ånge => Ljungaverk => Gösunda","from":"Ånge","to":"Gösunda","network":"DinTur","route":"bus","public_transport:version":"2"},"n":2,"s":[[2193368088,2]]}
+]
+}

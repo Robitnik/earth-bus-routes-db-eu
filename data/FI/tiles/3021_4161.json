@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3021,4161],
+"stops":[
+  {"id":15334679,"lat":61.061295,"lon":28.097886,"k":"x","n":"IVH Kampus"},
+  {"id":263675768,"lat":61.064967,"lon":28.096216,"k":"x","n":"LUT-Yliopisto"},
+  {"id":389601588,"lat":61.061176,"lon":28.095997,"k":"x","n":"IVH Kampus"},
+  {"id":782442079,"lat":61.064937,"lon":28.096111,"k":"p","n":"LUT-Yliopisto"},
+  {"id":863143919,"lat":61.054697,"lon":28.095367,"k":"p","n":"Orioninkatu-Kaivosuonkatu keskustaan"},
+  {"id":863143920,"lat":61.054839,"lon":28.095175,"k":"p","n":"Orioninkatu-Kaivosuonkatu keskustasta"},
+  {"id":863143922,"lat":61.05605,"lon":28.094085,"k":"p","n":"Jupiterinkatu-Jalopeurankatu keskustaan"},
+  {"id":863143925,"lat":61.056739,"lon":28.093866,"k":"p","n":"Jupiterinkatu 7 keskustasta"},
+  {"id":1253143979,"lat":61.063823,"lon":28.099928,"k":"p","n":"Skinnarilankatu 29 keskustasta"},
+  {"id":1556793151,"lat":61.063709,"lon":28.09996,"k":"x","n":"Teknologiapuistonkatu"},
+  {"id":1564889421,"lat":61.054758,"lon":28.095181,"k":"x","n":"Kaivosuonkatu"},
+  {"id":1564889423,"lat":61.058476,"lon":28.092273,"k":"p","n":"Teekkarikatu keskustaan"},
+  {"id":1564889424,"lat":61.058485,"lon":28.092372,"k":"x","n":"Jupiterinkatu"},
+  {"id":1564889425,"lat":61.058511,"lon":28.092489,"k":"p","n":"Teekkarikatu keskustasta"},
+  {"id":1564889427,"lat":61.061248,"lon":28.095934,"k":"p","n":"Teknologiapuistonkatu 3 keskustaan"},
+  {"id":1564889428,"lat":61.061313,"lon":28.098128,"k":"p","n":"Teknologiapuistonkatu 3 keskustasta"},
+  {"id":1564889431,"lat":61.063055,"lon":28.099862,"k":"x","n":"Teknologiapuistonkatu"},
+  {"id":1564889432,"lat":61.06307,"lon":28.099681,"k":"p","n":"Teknologiapuistonkatu 1 keskustaan"},
+  {"id":6259632000,"lat":61.059324,"lon":28.058522,"k":"p","n":"Merenlahdentie 375"},
+  {"id":6259632001,"lat":61.058592,"lon":28.05942,"k":"p","n":"Merenlahdentie 366"},
+  {"id":6259632002,"lat":61.054752,"lon":28.06475,"k":"p","n":"Munteronkatu L"},
+  {"id":6259632003,"lat":61.054274,"lon":28.065996,"k":"p","n":"Munteronkatu I"},
+  {"id":6259632004,"lat":61.05363,"lon":28.064284,"k":"p","n":"Munteronkatu 2"},
+  {"id":6259632005,"lat":61.052684,"lon":28.079106,"k":"p","n":"Merenlahdentie 228"},
+  {"id":6259632006,"lat":61.052892,"lon":28.07912,"k":"p","n":"Merenlahdentie 217 keskustasta"},
+  {"id":6259632007,"lat":61.052438,"lon":28.073737,"k":"p","n":"Tilsalankatu th I"},
+  {"id":6259632008,"lat":61.05262,"lon":28.071538,"k":"p","n":"Tilsalankatu th L"},
+  {"id":6259632009,"lat":61.052139,"lon":28.066803,"k":"p","n":"Ruoholampi"},
+  {"id":8607662516,"lat":61.050133,"lon":28.074637,"k":"p","n":"Tilsalankatu-Pakkikatu P"},
+  {"id":11611388093,"lat":61.050674,"lon":28.064287,"k":"p","n":"Lappeen koulu"}
+],
+"routes":[
+  {"id":1924109,"t":{"ref":"5","name":"Bus 5: Yliopisto => Matkakeskus","from":"Yliopisto","to":"Matkakeskus","route":"bus"},"n":23,"s":[[782442079,1]]},
+  {"id":1924169,"t":{"ref":"5","name":"Bus 5: Matkakeskus => Yliopisto","from":"Matkakeskus","to":"Yliopisto","route":"bus"},"n":20,"s":[[1253143979,19],[782442079,20]]},
+  {"id":1935765,"t":{"ref":"3","name":"Bus 3: Yliopisto => Keskusta","from":"Yliopisto","to":"Keskusta","colour":"CC3","route":"bus"},"n":17,"s":[[782442079,1],[1564889432,2],[1564889427,3],[1564889423,4],[863143922,5],[863143919,6]]},
+  {"id":1959670,"t":{"ref":"3","name":"Bus 3: Keskusta => Yliopisto","from":"Keskusta","to":"Yliopisto","route":"bus"},"n":15,"s":[[863143925,10],[1564889425,11],[1564889428,12],[1253143979,14],[782442079,15]]}
+]
+}

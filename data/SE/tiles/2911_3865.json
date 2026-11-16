@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2911,3865],
+"stops":[
+  {"id":313415805,"lat":55.556074,"lon":13.257824,"k":"x","n":"Holmeja väg 108","ref":"A"},
+  {"id":696958403,"lat":55.597566,"lon":13.260049,"k":"x","n":"Klågerups busstation","ref":"B"},
+  {"id":696958404,"lat":55.597624,"lon":13.260305,"k":"x","n":"Klågerups busstation","ref":"A"},
+  {"id":2759657259,"lat":55.596379,"lon":13.252288,"k":"x","n":"Klågerup Vårdalavägen"},
+  {"id":2759657262,"lat":55.596426,"lon":13.253427,"k":"x","n":"Klågerup Vårdalavägen"},
+  {"id":3175006571,"lat":55.556052,"lon":13.257699,"k":"p","n":"A","ref":"A"},
+  {"id":3175006572,"lat":55.557542,"lon":13.257136,"k":"x","n":"Holmeja väg 108","ref":"B"},
+  {"id":3175006573,"lat":55.557572,"lon":13.257343,"k":"p","n":"B","ref":"B"},
+  {"id":3189995259,"lat":55.578189,"lon":13.252464,"k":"x","n":"Hyby","ref":"A"},
+  {"id":3190002547,"lat":55.578411,"lon":13.252528,"k":"x","n":"Hyby","ref":"B"},
+  {"id":5000210273768,"lat":55.597468,"lon":13.259893,"k":"p","n":"B","ref":"B"},
+  {"id":5000271021721,"lat":55.596446,"lon":13.252416,"k":"p"},
+  {"id":5000271021729,"lat":55.596356,"lon":13.253288,"k":"p"},
+  {"id":5000280156096,"lat":55.57838,"lon":13.252626,"k":"p","n":"B","ref":"B"},
+  {"id":5000280156104,"lat":55.578211,"lon":13.252323,"k":"p","n":"A","ref":"A"},
+  {"id":5000313078063,"lat":55.597567,"lon":13.260251,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":3157180,"t":{"ref":"150","name":"Buss 150: Klågerup => Malmö => Vellinge","from":"Klågerups busstation","to":"Vellinge","network":"Skånetrafiken","operator":"Arriva","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000313078063,1],[5000271021721,2]]},
+  {"id":4202938,"t":{"ref":"165","name":"Buss 165: Lund Universitetssjukhuset => Svedala","from":"Lund Universitetssjukhuset","to":"Svedala station","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000313078063,11],[5000280156104,12],[3175006571,13]]},
+  {"id":4202976,"t":{"ref":"165","name":"Buss 165: Svedala => Lund Universitetssjukhuset","from":"Svedala station","to":"Lund Universitetssjukhuset","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":21,"s":[[3175006573,9],[5000280156096,10],[5000313078063,11]]},
+  {"id":4498857,"t":{"ref":"142","name":"Buss 142: Klågerup => Malmö Södervärn","from":"Klågerups busstation","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000210273768,1],[5000271021721,2]]},
+  {"id":4498858,"t":{"ref":"142","name":"Buss 142: Malmö Södervärn => Klågerup","from":"Malmö Södervärn","to":"Klågerups busstation","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000271021729,26],[5000210273768,27]]}
+]
+}

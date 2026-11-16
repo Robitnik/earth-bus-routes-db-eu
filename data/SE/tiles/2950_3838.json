@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2950,3838],
+"stops":[
+  {"id":130402726,"lat":57.544629,"lon":11.939318,"k":"x","n":"Kullavik","ref":"B"},
+  {"id":130402731,"lat":57.544237,"lon":11.938913,"k":"x","n":"Kullavik","ref":"A"},
+  {"id":178931803,"lat":57.50624,"lon":11.941328,"k":"x","n":"Särö kyrka","ref":"B"},
+  {"id":280138412,"lat":57.545867,"lon":11.925209,"k":"x","n":"Kullaviks hamn","ref":"A"},
+  {"id":2229585842,"lat":57.543931,"lon":11.930771,"k":"x","n":"Dalberga","ref":"B"},
+  {"id":2229585843,"lat":57.546058,"lon":11.945394,"k":"x","n":"Kullavik centrum","ref":"B"},
+  {"id":2229585844,"lat":57.54612,"lon":11.94675,"k":"x","n":"Kullavik centrum","ref":"A"},
+  {"id":11117051379,"lat":57.506144,"lon":11.941097,"k":"x","n":"Särö kyrka","ref":"A"},
+  {"id":5000213218649,"lat":57.546053,"lon":11.946771,"k":"p","n":"A","ref":"A"},
+  {"id":5000213218650,"lat":57.545831,"lon":11.925362,"k":"p","n":"A","ref":"A"},
+  {"id":5000213218654,"lat":57.544085,"lon":11.93893,"k":"p","n":"A","ref":"A"},
+  {"id":5000213218658,"lat":57.54471,"lon":11.939273,"k":"p","n":"B","ref":"B"},
+  {"id":5000213218663,"lat":57.543954,"lon":11.930869,"k":"p","n":"B","ref":"B"},
+  {"id":5000213218673,"lat":57.54614,"lon":11.945466,"k":"p","n":"B","ref":"B"},
+  {"id":5000963789729,"lat":57.506175,"lon":11.941249,"k":"p","n":"B","ref":"B"},
+  {"id":5000963789730,"lat":57.506212,"lon":11.941164,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":2215041,"t":{"ref":"X3","name":"Buss X3: Gråbo - Göteborg - Särö","from":"Gråbo busstation","to":"Kullaviks hamn","network":"Västtrafik","colour":"#0000FF","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000213218673,38]]},
+  {"id":2858977,"t":{"ref":"X3","name":"Buss X3: Särö - Göteborg - Gråbo","from":"Kullaviks hamn","to":"Gråbo busstation","network":"Västtrafik","colour":"#0000FF","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000213218650,1],[5000213218654,2],[5000213218649,3]]},
+  {"id":3208454,"t":{"ref":"720","name":"Buss 720: Kungsbacka - Särö - Kullavik","from":"Kungsbacka station","to":"Kullaviks hamn","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000963789729,9],[5000213218673,15],[5000213218658,16],[5000213218663,17],[5000213218650,18]]},
+  {"id":3208455,"t":{"ref":"720","name":"Buss 720: Kullavik - Särö - Kungsbacka","from":"Kullaviks hamn","to":"Kungsbacka station","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000213218650,1],[5000213218654,2],[5000213218649,3],[5000963789730,9]]}
+]
+}

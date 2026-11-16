@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3026,4077],
+"stops":[
+  {"id":33135964,"lat":61.338449,"lon":23.878194,"k":"x","n":"Hormistontie E","ref":"7920"},
+  {"id":4426820369,"lat":61.325873,"lon":23.895958,"k":"p","n":"Lastustenkulma P","ref":"7915"},
+  {"id":4426820370,"lat":61.324394,"lon":23.898449,"k":"p","n":"Lastustenkulma E","ref":"7914"},
+  {"id":4924055151,"lat":61.324469,"lon":23.898538,"k":"x","n":"Lastustenkulma E","ref":"7914"},
+  {"id":5157469076,"lat":61.320796,"lon":23.888964,"k":"p","n":"Lastusten koulu","ref":"7907"},
+  {"id":5335727528,"lat":61.333206,"lon":23.885185,"k":"p","n":"Teerentie P","ref":"7919"},
+  {"id":5335727529,"lat":61.332636,"lon":23.885414,"k":"p","n":"Teerentie E","ref":"7918"},
+  {"id":6270947242,"lat":61.345285,"lon":23.865931,"k":"p","n":"Rautasema P","ref":"7923"},
+  {"id":6270947243,"lat":61.344726,"lon":23.866553,"k":"p","n":"Rautasema E","ref":"7922"},
+  {"id":6270947244,"lat":61.339078,"lon":23.877442,"k":"p","n":"Hormistontie P","ref":"7921"},
+  {"id":6270947245,"lat":61.33837,"lon":23.878107,"k":"p","n":"Hormistontie E","ref":"7920"},
+  {"id":8131916634,"lat":61.317913,"lon":23.873761,"k":"x","n":"Ruonantie","ref":"7908"},
+  {"id":8332130962,"lat":61.325824,"lon":23.895757,"k":"x","n":"Lastustenkulma P","ref":"7915"},
+  {"id":8332130971,"lat":61.34523,"lon":23.86582,"k":"x","n":"Rautasema P","ref":"7923"},
+  {"id":8332130972,"lat":61.339039,"lon":23.877282,"k":"x","n":"Hormistontie P","ref":"7921"},
+  {"id":8332130973,"lat":61.333157,"lon":23.88503,"k":"x","n":"Teerentie P","ref":"7919"},
+  {"id":8335625675,"lat":61.332655,"lon":23.885645,"k":"x","n":"Teerentie E","ref":"7918"},
+  {"id":8335625682,"lat":61.34475,"lon":23.866741,"k":"x","n":"Rautasema E","ref":"7922"},
+  {"id":13086608550,"lat":61.317941,"lon":23.873707,"k":"p","n":"Ruonantie","ref":"7909"},
+  {"id":13086608551,"lat":61.317882,"lon":23.873707,"k":"p","n":"Ruonantie","ref":"7908"},
+  {"id":13285042234,"lat":61.315305,"lon":23.853673,"k":"p","n":"Joensuuntie","ref":"7594"},
+  {"id":13285042235,"lat":61.315343,"lon":23.853362,"k":"p","n":"Joensuuntie","ref":"7593"},
+  {"id":14052381132,"lat":61.31536,"lon":23.853636,"k":"x","n":"Joensuuntie","ref":"7594"},
+  {"id":14052381133,"lat":61.315302,"lon":23.853398,"k":"x","n":"Joensuuntie","ref":"7593"},
+  {"id":14052381134,"lat":61.317914,"lon":23.873707,"k":"x","n":"Ruonantie","ref":"7909"},
+  {"id":14052381135,"lat":61.32076,"lon":23.889061,"k":"x","n":"Lastusten koulu","ref":"7907"}
+],
+"routes":[
+  {"id":1992283,"t":{"ref":"V130","name":"Bus V130: Tampere => Valkeakoski => Helsinki","from":"Tampere","to":"Helsinki","operator":"Valkeakosken Liikenne Oy","route":"bus","public_transport:version":"2","bus":"express"},"n":28,"s":[[4426820370,5]]},
+  {"id":1992547,"t":{"ref":"V130","name":"Bus V130: Helsinki => Valkeakoski => Tampere","from":"Helsinki","to":"Tampere","operator":"Valkeakosken Liikenne Oy","route":"bus","public_transport:version":"2","bus":"express"},"n":28,"s":[[4426820369,24]]},
+  {"id":12203237,"t":{"ref":"60","name":"Bus 60: Valkeakoski => Ideapark => Tampere","from":"Valkeakoski Linja-autoasema 2","to":"Linja-autoasema","network":"Nysse","operator":"Valkeakosken Liikenne Oy","route":"bus","public_transport:version":"2"},"n":34,"s":[[8332130962,21],[8332130973,22],[8332130972,23],[8332130971,24]]},
+  {"id":12207003,"t":{"ref":"60","name":"Bus 60: Tampere => Ideapark => Valkeakoski","from":"Linja-autoasema","to":"Valkeakoski, linja-autoasema (saapuva)","network":"Nysse","operator":"Valkeakosken Liikenne Oy","route":"bus","public_transport:version":"2"},"n":34,"s":[[8335625682,12],[33135964,13],[4924055151,14]]},
+  {"id":21150136,"t":{"ref":"59","name":"Bus 59: Lempoinen => Lastusten koulu => Ideapark => Lempoinen","from":"Lempoinen","to":"Lempoinen","network":"Nysse","operator":"Koiviston Auto Tampere Oy","colour":"#1A4A8F","route":"bus","public_transport:version":"2"},"n":28,"s":[[13285042234,12],[13086608551,13],[5157469076,14],[4426820369,15],[5335727528,16],[6270947244,17],[6270947242,18]]},
+  {"id":21150137,"t":{"ref":"59","name":"Bus 59: Lempoinen => Ideapark => Lastusten koulu => Lempoinen","from":"Lempoinen","to":"Lempoinen","network":"Nysse","operator":"Koiviston Auto Tampere Oy","colour":"#1A4A8F","route":"bus","public_transport:version":"2"},"n":23,"s":[[6270947243,7],[6270947245,8],[5335727529,9],[5157469076,10],[13086608550,11],[13285042235,12]]}
+]
+}

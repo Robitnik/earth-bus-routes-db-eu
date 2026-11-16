@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2936,3879],
+"stops":[
+  {"id":1857900378,"lat":56.84978,"lon":13.975958,"k":"p","n":"B","ref":"B"},
+  {"id":1857900379,"lat":56.84995,"lon":13.975961,"k":"p","n":"A","ref":"A"},
+  {"id":4547940605,"lat":56.84991,"lon":13.975927,"k":"x","n":"Sickinge","ref":"A"},
+  {"id":4547940606,"lat":56.849828,"lon":13.975989,"k":"x","n":"Sickinge","ref":"B"},
+  {"id":6468775007,"lat":56.840661,"lon":13.957988,"k":"x","n":"Sunnerboskolan","ref":"A"},
+  {"id":6489229924,"lat":56.829871,"lon":13.951078,"k":"p","n":"B","ref":"B"},
+  {"id":12946443976,"lat":56.828302,"lon":13.956031,"k":"x","n":"Folkets Park","ref":"A;B"},
+  {"id":12947192870,"lat":56.829897,"lon":13.95112,"k":"x","n":"Ljungsätra","ref":"A;B"},
+  {"id":12947192871,"lat":56.829926,"lon":13.951159,"k":"p","n":"A","ref":"A"},
+  {"id":13135739844,"lat":56.840655,"lon":13.957871,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":6782331,"t":{"ref":"147","name":"Buss 147: Bolmstad => Ljungby","from":"Bolmstad","to":"Ljungby","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":6,"s":[[1857900379,3]]},
+  {"id":6782332,"t":{"ref":"147","name":"Buss 147: Ljungby => Bolmstad","from":"Ljungby","to":"Bolmstad","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":6,"s":[[1857900378,4]]},
+  {"id":6886157,"t":{"ref":"144","name":"Buss 144: Ljungby => Ryssby => Vislanda => Växjö","from":"Ljungby Terminal","to":"Växjö","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":10,"s":[[1857900378,3]]},
+  {"id":6886158,"t":{"ref":"144","name":"Buss 144: Växjö => Vislanda => Ryssby => Ljungby","from":"Växjö Resecentrum","to":"Ljungby Terminal","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":8,"s":[[1857900379,7]]}
+]
+}

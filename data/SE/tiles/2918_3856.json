@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2918,3856],
+"stops":[
+  {"id":279402589,"lat":55.941986,"lon":12.811425,"k":"x","n":"Glumslöv Ålabodsvägen","ref":"A"},
+  {"id":290997829,"lat":55.902304,"lon":12.823977,"k":"x","n":"Landskrona Säbyholm","ref":"A"},
+  {"id":306693484,"lat":55.903484,"lon":12.80935,"k":"x","n":"Landskrona Erikstorps kungsgård","ref":"A;B"},
+  {"id":706657722,"lat":55.94095,"lon":12.812624,"k":"x","n":"Glumslöv Ålabodsvägen","ref":"B"},
+  {"id":1709143012,"lat":55.908175,"lon":12.821507,"k":"x","n":"Landskrona Brohusen","ref":"A"},
+  {"id":3148392036,"lat":55.908868,"lon":12.821155,"k":"x","n":"Landskrona Brohusen","ref":"B"},
+  {"id":3148392037,"lat":55.918684,"lon":12.816324,"k":"x","n":"Hildesborg","ref":"A"},
+  {"id":3148392038,"lat":55.91906,"lon":12.81621,"k":"x","n":"Hildesborg","ref":"B"},
+  {"id":3148392044,"lat":55.902123,"lon":12.824063,"k":"x","n":"Landskrona Säbyholm","ref":"B"},
+  {"id":7527537285,"lat":55.908191,"lon":12.821608,"k":"p","n":"A","ref":"A"},
+  {"id":9996658225,"lat":55.901747,"lon":12.814007,"k":"x","n":"Landskrona Mantalsgatan","ref":"B"},
+  {"id":9996658230,"lat":55.901662,"lon":12.813972,"k":"x","n":"Landskrona Mantalsgatan","ref":"A"},
+  {"id":12770070483,"lat":55.929804,"lon":12.818162,"k":"x","n":"Hilleshögs dalar","ref":"B"},
+  {"id":12770070484,"lat":55.930155,"lon":12.81801,"k":"x","n":"Hilleshögs dalar","ref":"B"},
+  {"id":5000286901655,"lat":55.941993,"lon":12.811566,"k":"p","n":"A","ref":"A"},
+  {"id":5000286901660,"lat":55.940977,"lon":12.812472,"k":"p","n":"B","ref":"B"},
+  {"id":5000309501172,"lat":55.919218,"lon":12.816103,"k":"p","n":"B","ref":"B"},
+  {"id":5000309501173,"lat":55.918746,"lon":12.816385,"k":"p","n":"A","ref":"A"},
+  {"id":5000309501174,"lat":55.902147,"lon":12.823906,"k":"p","n":"B","ref":"B"},
+  {"id":5000309501180,"lat":55.908943,"lon":12.821043,"k":"p","n":"B","ref":"B"},
+  {"id":5000432736163,"lat":55.902283,"lon":12.824135,"k":"p","n":"A","ref":"A"},
+  {"id":5001091507225,"lat":55.901692,"lon":12.814074,"k":"p","n":"B","ref":"B"},
+  {"id":5001091507226,"lat":55.901714,"lon":12.81391,"k":"p","n":"A","ref":"A"},
+  {"id":5001379085447,"lat":55.930132,"lon":12.818162,"k":"p","n":"A","ref":"A"},
+  {"id":5001379085449,"lat":55.929827,"lon":12.817991,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":6458391,"t":{"ref":"4","name":"Buss 4: Borstahusen => Stationen","from":"Borstahusen","to":"Stationen","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001091507226,1]]},
+  {"id":6458392,"t":{"ref":"4","name":"Buss 4: Stationen => Borstahusen","from":"Stationen","to":"Borstahusen","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001091507225,9]]},
+  {"id":7298004,"t":{"ref":"218","name":"Buss 218: Helsingborg => Landskrona","from":"Helsingborg C","to":"Landskrona","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000286901660,11],[5001379085449,12],[5000309501172,13],[5000309501180,14],[5000309501174,15]]},
+  {"id":7298005,"t":{"ref":"218","name":"Buss 218: Landskrona => Glumslöv => Helsingborg","from":"Landskrona Skeppsbron","to":"Helsingborg","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000432736163,7],[5001379085447,8],[7527537285,9],[5000309501173,10],[5000286901655,11]]},
+  {"id":16907845,"t":{"ref":"218","name":"Buss 218: Glumslöv => Landskrona","from":"Glumslöv Ålabodsvägen","to":"Landskrona","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000286901660,1],[5000309501172,2],[5000309501180,3],[5000309501174,4]]},
+  {"id":16907846,"t":{"ref":"218","name":"Buss 218: Landskrona => Glumslöv","from":"Landskrona Skeppsbron","to":"Glumslöv","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000432736163,7],[7527537285,8],[5000309501173,9],[5001379085447,10],[5000286901655,11]]}
+]
+}

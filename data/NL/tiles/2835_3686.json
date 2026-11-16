@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2835,3686],
+"stops":[
+  {"id":43858245,"lat":51.793881,"lon":4.31581,"k":"x","n":"Piershil, Bestuurscentrum"},
+  {"id":2258907537,"lat":51.791091,"lon":4.31561,"k":"x","n":"Piershil, Dorp"},
+  {"id":2258907538,"lat":51.791157,"lon":4.315186,"k":"x","n":"Piershil, Dorp"},
+  {"id":2258907550,"lat":51.790743,"lon":4.306393,"k":"x","n":"Goudswaard, Steegjesdijk"},
+  {"id":2285720689,"lat":51.754685,"lon":4.317825,"k":"x","n":"Goudswaard, Veerdienst"},
+  {"id":2285720690,"lat":51.754723,"lon":4.317678,"k":"x","n":"Goudswaard, Veerdienst"},
+  {"id":5360955050,"lat":51.793898,"lon":4.315787,"k":"p","n":"Bestuurscentrum"},
+  {"id":5752349342,"lat":51.754771,"lon":4.317708,"k":"p","n":"Veerdienst"},
+  {"id":5752349343,"lat":51.754652,"lon":4.317805,"k":"p","n":"Veerdienst"},
+  {"id":5752349391,"lat":51.791033,"lon":4.315612,"k":"p","n":"Dorp"},
+  {"id":5752349393,"lat":51.791208,"lon":4.315181,"k":"p","n":"Dorp"},
+  {"id":5752349431,"lat":51.7907,"lon":4.306403,"k":"p","n":"Steegjesdijk"},
+  {"id":5752349432,"lat":51.790789,"lon":4.306386,"k":"p","n":"Steegjesdijk"},
+  {"id":13364195985,"lat":51.776862,"lon":4.324949,"k":"p","n":"Zwartsluisje"},
+  {"id":13364195986,"lat":51.776835,"lon":4.324865,"k":"p","n":"Zwartsluisje"},
+  {"id":13364195987,"lat":51.77685,"lon":4.324912,"k":"x","n":"Zuid-Beijerland, Zwartsluisje"}
+],
+"routes":[
+  {"id":2902362,"t":{"ref":"711","name":"Bus 711: Oud-Beijerland Boezemsingel => Numansdorp Viaduct A29","from":"Oud-Beijerland, Boezemsingel","to":"Numansdorp, Viaduct A29","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FACA30","route":"bus","public_transport:version":"2"},"n":24,"s":[[5360955050,14],[5752349432,15],[5752349343,20]]},
+  {"id":2902363,"t":{"ref":"711","name":"Bus 711: Numansdorp Viaduct A29 => Oud-Beijerland Boezemsingel","from":"Numansdorp, Viaduct A29","to":"Oud-Beijerland, Boezemsingel","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FACA30","route":"bus","public_transport:version":"2"},"n":24,"s":[[5752349342,5],[5752349431,10],[5360955050,11]]},
+  {"id":14020597,"t":{"ref":"N60","name":"Bus N60: Rotterdam Centraal => Goudswaard Dorp","from":"Rotterdam, Rotterdam Centraal","to":"Goudswaard, Dorp","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":11,"s":[[5752349393,10]]},
+  {"id":19938499,"t":{"ref":"462","name":"Bus 462: Rotterdam Zuidplein => Goudswaard Dorp","from":"Rotterdam, Zuidplein Hoog","to":"Goudswaard, Dorp","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":8,"s":[[5752349393,7]]},
+  {"id":19938507,"t":{"ref":"462","name":"Bus 462: Goudswaard Dorp => Rotterdam Zuidplein","from":"Goudswaard, Dorp","to":"Rotterdam, Zuidplein Hoog","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":8,"s":[[5752349391,2]]},
+  {"id":19938575,"t":{"ref":"508","name":"Bus 508: Piershil Dorp => Zuid-Beijerland Zwartsluisje","from":"Piershil, Dorp","to":"Zuid-Beijerland, Zwartsluisje","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":2,"s":[[5752349393,1],[13364195986,2]]},
+  {"id":19938576,"t":{"ref":"508","name":"Bus 508: Zuid-Beijerland Zwartsluisje => Piershil Dorp","from":"Zuid-Beijerland, Zwartsluisje","to":"Piershil, Dorp","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":2,"s":[[13364195985,1],[5752349391,2]]},
+  {"id":19938691,"t":{"ref":"510","name":"Bus 510: Numansdorp Viaduct A29 => Goudswaard Veerdienst","from":"Numansdorp, Viaduct A29","to":"Goudswaard, Veerdienst","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":2,"s":[[5752349342,2]]},
+  {"id":19938692,"t":{"ref":"510","name":"Bus 510: Goudswaard Veerdienst => Numansdorp Viaduct A29","from":"Goudswaard, Veerdienst","to":"Numansdorp, Viaduct A29","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":2,"s":[[5752349343,1]]},
+  {"id":19938702,"t":{"ref":"511","name":"Bus 511: Goudswaard Dorp => Zuid-Beijerland Ridder van Dorplaan","from":"Goudswaard, Dorp","to":"Zuid-Beijerland, Ridder van Dorplaan","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":5,"s":[[5752349343,4]]},
+  {"id":19938703,"t":{"ref":"511","name":"Bus 511: Zuid-Beijerland Ridder van Dorplaan => Goudswaard Dorp","from":"Zuid-Beijerland, Ridder van Dorplaan","to":"Goudswaard, Dorp","network":"Hoeksche Waard - Goeree-Overflakkee","operator":"Transdev","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":5,"s":[[5752349342,2]]}
+]
+}

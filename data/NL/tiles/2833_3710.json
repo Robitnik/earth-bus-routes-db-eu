@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2833,3710],
+"stops":[
+  {"id":2847892581,"lat":51.679478,"lon":5.510696,"k":"p","n":"Dorpsstraat"},
+  {"id":5030100814,"lat":51.67974,"lon":5.509937,"k":"x","n":"Loosbroek, Dorpsstraat"},
+  {"id":7761600987,"lat":51.679521,"lon":5.510736,"k":"x","n":"Loosbroek, Dorpsstraat"},
+  {"id":7761600988,"lat":51.679776,"lon":5.509945,"k":"p","n":"Dorpsstraat"}
+],
+"routes":[
+  {"id":3730428,"t":{"ref":"251","name":"Bus 251: Rosmalen Station => Uden Busstation","from":"Rosmalen, Station","to":"Uden, Busstation","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[2847892581,15]]},
+  {"id":3730429,"t":{"ref":"251","name":"Bus 251: Uden Busstation => Rosmalen Station","from":"Uden, Busstation","to":"Rosmalen, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[7761600988,9]]},
+  {"id":20678540,"t":{"ref":"flex","name":"Bravoflex hub Noorderbaan, Nistelrode","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":37,"s":[[7761600988,15],[2847892581,16]]},
+  {"id":20678542,"t":{"ref":"flex","name":"Bravoflex hub Mgr. v. Oorschotstraat, Heeswijk-Dinther","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":76,"s":[[7761600988,16],[2847892581,18]]}
+]
+}

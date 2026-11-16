@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3045,3949],
+"stops":[
+  {"id":351897885,"lat":62.257945,"lon":17.470958,"k":"x","n":"Algarsberget"},
+  {"id":419528412,"lat":62.296357,"lon":17.464836,"k":"x","n":"Juniskär"},
+  {"id":2063707666,"lat":62.261001,"lon":17.462647,"k":"x","n":"Löransvägen"}
+],
+"routes":[
+  {"id":3254786,"t":{"ref":"123","name":"Buss 123: Kvissleby => Juniskär => Mjösundsvägen","from":"Kvissleby","to":"Mjösundsvägen","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[419528412,3]]},
+  {"id":3254788,"t":{"ref":"123","name":"Buss 123: Mjösundsvägen => Juniskär => Kvissleby","from":"Mjösundsvägen","to":"Kvissleby","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[419528412,3]]},
+  {"id":3254793,"t":{"ref":"126","name":"Buss 126: Lörudden => Njurunda","from":"Lörudden","to":"Njurunda","network":"DinTur","route":"bus","public_transport:version":"2"},"n":7,"s":[[351897885,2],[2063707666,3]]},
+  {"id":3254795,"t":{"ref":"126","name":"Buss 126: Njurunda => Lörudden","from":"Njurunda","to":"Lörudden","network":"DinTur","route":"bus","public_transport:version":"2"},"n":8,"s":[[2063707666,5],[351897885,6]]}
+]
+}

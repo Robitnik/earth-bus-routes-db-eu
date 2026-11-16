@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2996,3931],
+"stops":[
+  {"id":13045849744,"lat":59.805619,"lon":16.588422,"k":"p","n":"Limsta"},
+  {"id":13045849745,"lat":59.805692,"lon":16.588165,"k":"p","n":"Limsta"},
+  {"id":13045849746,"lat":59.801448,"lon":16.560851,"k":"p","n":"Tomta vägskäl"},
+  {"id":13045849747,"lat":59.801295,"lon":16.560671,"k":"p","n":"Tomta vägskäl"}
+],
+"routes":[
+  {"id":5627942,"t":{"ref":"569","name":"Buss 569: Sala - Västerås","from":"Sala","to":"Västerås","network":"VL","route":"bus","public_transport:version":"1+2"},"n":31,"s":[[13045849746,16]]},
+  {"id":5627943,"t":{"ref":"569","name":"Buss 569: Västerås - Sala","from":"Västerås","to":"Sala","network":"VL","route":"bus","public_transport:version":"1+2"},"n":31,"s":[[13045849746,16]]},
+  {"id":9902743,"t":{"ref":"65","name":"Buss 65: Tomta - Vallrum - Sala","from":"Tomta","to":"Sala","network":"VL","route":"bus","public_transport:version":"1+2"},"n":29,"s":[[13045849747,1]]},
+  {"id":9902744,"t":{"ref":"65","name":"Buss 65: Tomta - Sala","from":"Tomta","to":"Sala","network":"VL","route":"bus","public_transport:version":"1+2"},"n":27,"s":[[13045849747,1],[13045849744,2]]},
+  {"id":9902745,"t":{"ref":"65","name":"Buss 65: Sala - Tomta","from":"Sala","to":"Tomta","network":"VL","route":"bus","public_transport:version":"1+2"},"n":27,"s":[[13045849745,26],[13045849747,27]]},
+  {"id":9902746,"t":{"ref":"65","name":"Buss 65: Sala - Vallrum - Tomta","from":"Sala","to":"Tomta","network":"VL","route":"bus","public_transport:version":"1+2"},"n":29,"s":[[13045849746,29]]}
+]
+}

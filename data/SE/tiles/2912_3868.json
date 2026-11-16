@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2912,3868],
+"stops":[
+  {"id":1114901175,"lat":55.62139,"lon":13.404788,"k":"p","ref":"A"},
+  {"id":1115005255,"lat":55.613443,"lon":13.405932,"k":"p","ref":"B"},
+  {"id":1115005408,"lat":55.60624,"lon":13.403942,"k":"p","ref":"B"},
+  {"id":1115005479,"lat":55.613318,"lon":13.405863,"k":"p","ref":"A"},
+  {"id":1115005603,"lat":55.606475,"lon":13.403876,"k":"p","ref":"A"},
+  {"id":1115027660,"lat":55.602117,"lon":13.400836,"k":"x","n":"Genarp Gängesvägen","ref":"C"},
+  {"id":1115027720,"lat":55.601753,"lon":13.401542,"k":"x","n":"Genarp Gängesvägen","ref":"A"},
+  {"id":1500707249,"lat":55.621414,"lon":13.404788,"k":"x","n":"Björnstorps torg","ref":"A"},
+  {"id":2517606254,"lat":55.602602,"lon":13.401986,"k":"x","n":"Genarp Gängesvägen","ref":"B"},
+  {"id":3097776706,"lat":55.621425,"lon":13.404574,"k":"x","n":"Björnstorps torg","ref":"B"},
+  {"id":3097776709,"lat":55.613326,"lon":13.405932,"k":"x","n":"Gödelöv","ref":"A"},
+  {"id":3097776710,"lat":55.613435,"lon":13.405865,"k":"x","n":"Gödelöv","ref":"B"},
+  {"id":3097785092,"lat":55.606254,"lon":13.40385,"k":"x","n":"Åbron","ref":"B"},
+  {"id":3097785093,"lat":55.606468,"lon":13.40394,"k":"x","n":"Åbron","ref":"A"},
+  {"id":7575493900,"lat":55.621469,"lon":13.404585,"k":"p","ref":"B"},
+  {"id":5000244444916,"lat":55.601689,"lon":13.401625,"k":"p","n":"A","ref":"A"},
+  {"id":5000244444922,"lat":55.602082,"lon":13.400747,"k":"p","n":"C","ref":"C"},
+  {"id":5000244444925,"lat":55.602661,"lon":13.401959,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":2724791,"t":{"ref":"172","name":"Buss 172: Genarp => Staffanstorp => Burlöv","from":"Genarp","to":"Malmö C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":40,"s":[[5000244444916,2]]},
+  {"id":2724792,"t":{"ref":"172","name":"Buss 172: Burlöv => Staffanstorp => Genarp","from":"Malmö C","to":"Genarp busstation","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000244444922,38]]},
+  {"id":2726909,"t":{"ref":"162","name":"Buss 162: Genarp => Lund Bankgatan","from":"Genarp","to":"Lund Bankgatan","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000244444916,2],[1115005408,3],[1115005255,4],[7575493900,5]]},
+  {"id":2726910,"t":{"ref":"162","name":"Buss 162: Lund Bankgatan => Genarp","from":"Lund Bankgatan","to":"Genarp","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":28,"s":[[1114901175,24],[1115005479,25],[1115005603,26],[5000244444925,27]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2952,3911],
+"stops":[
+  {"id":556934,"lat":57.616416,"lon":15.555888,"k":"x","n":"Hässleby kyrka","ref":"A"},
+  {"id":556955,"lat":57.617011,"lon":15.578117,"k":"x","n":"Mariannelund Lundagatan","ref":"A"},
+  {"id":1960325352,"lat":57.61617,"lon":15.584351,"k":"x","n":"Mariannelund station","ref":"A"},
+  {"id":1968414084,"lat":57.616694,"lon":15.57168,"k":"x","n":"Mariannelund Torget","ref":"A"},
+  {"id":1998464262,"lat":57.616505,"lon":15.555764,"k":"x","n":"Hässleby kyrka","ref":"B"},
+  {"id":1998511701,"lat":57.616747,"lon":15.563804,"k":"x","n":"Mariannelund Prästgården","ref":"B"},
+  {"id":2614560477,"lat":57.617169,"lon":15.577693,"k":"x","n":"Mariannelund Lundagatan","ref":"B"},
+  {"id":9520310681,"lat":57.616743,"lon":15.571415,"k":"x","n":"Mariannelund Torget","ref":"B"},
+  {"id":13131913449,"lat":57.616705,"lon":15.563993,"k":"x","n":"Mariannelund Prästgården","ref":"A"},
+  {"id":5000186144268,"lat":57.616799,"lon":15.571524,"k":"p","n":"B","ref":"B"},
+  {"id":5000186144269,"lat":57.616638,"lon":15.571606,"k":"p","n":"A","ref":"A"},
+  {"id":5000189198612,"lat":57.616246,"lon":15.584395,"k":"p","n":"A","ref":"A"},
+  {"id":5000205361824,"lat":57.61653,"lon":15.555889,"k":"p","n":"B","ref":"B"},
+  {"id":5000205361825,"lat":57.616351,"lon":15.55583,"k":"p","n":"A","ref":"A"},
+  {"id":5000231309037,"lat":57.616685,"lon":15.563885,"k":"p","n":"A","ref":"A"},
+  {"id":5000231309038,"lat":57.616775,"lon":15.563941,"k":"p","n":"B","ref":"B"},
+  {"id":5000255768619,"lat":57.617195,"lon":15.577801,"k":"p","n":"B","ref":"B"},
+  {"id":5000255768620,"lat":57.616982,"lon":15.578036,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":4097686,"t":{"ref":"325","name":"Buss 325: Nässjö => Vimmerby","from":"Nässjö resecentrum","to":"Vimmerby resecentrum","network":"KLT","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000186144269,7],[5000189198612,8]]},
+  {"id":4097687,"t":{"ref":"325","name":"Buss 325: Vimmerby => Nässjö","from":"Vimmerby resecentrum","to":"Nässjö resecentrum","network":"KLT","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000189198612,1],[5000186144268,2]]},
+  {"id":4097690,"t":{"ref":"74","name":"Buss 74: Mariannelund => Storebro => Vimmerby","from":"Mariannelund","to":"Vimmerby","network":"KLT","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000255768620,1],[5000189198612,2]]},
+  {"id":4097691,"t":{"ref":"74","name":"Buss 74: Mariannelund => Vimmerby","from":"Mariannelund","to":"Vimmerby","network":"KLT","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000255768620,1],[5000189198612,2]]},
+  {"id":4097692,"t":{"ref":"74","name":"Buss 74: Vimmerby => Mariannelund","from":"Vimmerby","to":"Mariannelund","network":"KLT","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000189198612,4],[5000255768619,5]]},
+  {"id":4097693,"t":{"ref":"857","name":"Buss 857: Jönköping => Västervik","from":"Jönköping Resecentrum","to":"Västervik busstation","network":"Swebus","operator":"Swebus","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000186144269,3]]},
+  {"id":4097694,"t":{"ref":"857","name":"Buss 857: Västervik => Jönköping","from":"Västervik","to":"Jönköping","network":"Swebus","operator":"Swebus","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000186144268,4]]},
+  {"id":4100630,"t":{"ref":"330","name":"Buss 330: Eksjö => Mariannelund","from":"Eksjö","to":"Mariannelund","network":"JLT","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000205361825,21],[5000231309037,22],[5000186144269,23],[5000255768620,24],[5000189198612,25]]},
+  {"id":4100631,"t":{"ref":"330","name":"Buss 330: Mariannelund => Eksjö","from":"Mariannelund","to":"Eksjö","network":"JLT","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000189198612,1],[5000255768619,2],[5000186144268,3],[5000231309038,4],[5000205361824,5]]}
+]
+}

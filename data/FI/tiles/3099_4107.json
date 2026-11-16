@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3099,4107],
+"stops":[
+  {"id":824626641,"lat":64.951722,"lon":25.388554,"k":"p"},
+  {"id":6271022209,"lat":64.968094,"lon":25.356986,"k":"p","n":"Väliranta P","ref":"2428"},
+  {"id":6271022211,"lat":64.965833,"lon":25.365095,"k":"p","n":"Niemenväli P","ref":"2465"},
+  {"id":6271022212,"lat":64.953693,"lon":25.385747,"k":"p","n":"Maksakuja E","ref":"2528"},
+  {"id":6271022401,"lat":64.96522,"lon":25.366482,"k":"p","n":"Niemenväli E","ref":"2464"},
+  {"id":6271022402,"lat":64.968743,"lon":25.354814,"k":"p","n":"Väliranta E","ref":"2427"},
+  {"id":6271022597,"lat":64.953002,"lon":25.393369,"k":"p","n":"Kaislaranta E","ref":"2549"},
+  {"id":6271022598,"lat":64.953759,"lon":25.391976,"k":"p","n":"Kaislaranta P","ref":"2548"},
+  {"id":6271022599,"lat":64.951346,"lon":25.390542,"k":"p","n":"Karhuoja P","ref":"2544"},
+  {"id":6271022600,"lat":64.955446,"lon":25.386549,"k":"p","n":"Hailuodon risteys E","ref":"2524"},
+  {"id":6271022601,"lat":64.954577,"lon":25.385733,"k":"p","n":"Maksakuja P","ref":"2529"},
+  {"id":6271022602,"lat":64.956166,"lon":25.384901,"k":"p","n":"Hailuodon risteys P","ref":"2525"},
+  {"id":6271022607,"lat":64.959689,"lon":25.376913,"k":"p","n":"Niemi P","ref":"2462"},
+  {"id":6271022608,"lat":64.960364,"lon":25.375523,"k":"p","n":"Niemi E","ref":"2463"},
+  {"id":10080317804,"lat":64.96037,"lon":25.371504,"k":"p","n":"Niemenrannan koulu","ref":"3448"}
+],
+"routes":[
+  {"id":11166337,"t":{"ref":"59","name":"59 Oulu L.as. - Marjaniemi","from":"Oulu L.as.","to":"Marjaniemi","network":"ELY / Oulun seudun liikenne","operator":"Oulaisten liikenne","route":"bus","public_transport:version":"2"},"n":55,"s":[[6271022598,20],[6271022602,21],[6271022607,22],[6271022211,23],[6271022209,24]]},
+  {"id":11166338,"t":{"ref":"59S","name":"59S OYS – Marjaniemi","from":"OYS P","to":"Marjaniemi","network":"ELY / Oulun seudun liikenne","operator":"Oulaisten liikenne","route":"bus"},"n":61,"s":[[6271022598,26],[6271022602,27],[6271022607,28],[6271022211,29],[6271022209,30]]},
+  {"id":16220348,"t":{"ref":"55","name":"55 Niemenranta - Zeppelin","from":"Niemenranta","to":"Zepelin","network":"Oulun seudun liikenne","operator":"Oubus oy","route":"bus","public_transport:version":"2"},"n":21,"s":[[10080317804,1],[6271022608,2],[6271022600,3],[6271022597,4]]},
+  {"id":16220349,"t":{"ref":"55","name":"55 Zeppelin - Niemenranta","from":"Zeppelin P","to":"Niemenrannan koulu","network":"Oulun seudun liikenne","operator":"Oubus oy","route":"bus","public_transport:version":"2"},"n":22,"s":[[6271022598,19],[6271022602,20],[6271022607,21],[10080317804,22]]},
+  {"id":17467665,"t":{"ref":"63","name":"63 Niemenranta-Svaaninsuo","from":"Niemenranta","to":"Svaaninsuo","network":"Oulun seudun liikenne","operator":"Oubus oy","route":"bus","public_transport:version":"2"},"n":34,"s":[[10080317804,1],[6271022608,2],[6271022600,3],[6271022597,4]]},
+  {"id":17467666,"t":{"ref":"63","name":"63 Svaaninsuo-Niemenranta","from":"Svaaninsuo","to":"Niemenranta","network":"Oulun seudun liikenne","operator":"Oubus oy","route":"bus","public_transport:version":"2"},"n":35,"s":[[6271022598,32],[6271022602,33],[6271022607,34],[10080317804,35]]},
+  {"id":19158680,"t":{"ref":"64","name":"64 Salonpää – Käpylä – Oulunsalo","from":"Salonpää PP","to":"Oulunsalo P","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":33,"s":[[6271022402,15],[6271022401,16],[6271022608,17],[6271022600,18],[6271022597,19]]},
+  {"id":19158681,"t":{"ref":"64","name":"64 Oulunsalo – Käpylä – Salonpää","from":"Oulunsalo E","to":"Salonpää PP","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":33,"s":[[6271022598,14],[6271022602,15],[6271022607,16],[6271022211,17],[6271022209,18]]},
+  {"id":19158682,"t":{"ref":"64B","name":"64B Käpylä - Oulunsalo","from":"Käpylä","to":"Oulunsalo P","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":20,"s":[[6271022402,10],[6271022401,11],[6271022608,12],[6271022600,13],[6271022597,14]]},
+  {"id":19158683,"t":{"ref":"64B","name":"64B Oulunsalo - Käpylä","from":"Oulunsalo E","to":"Käpylä","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":19,"s":[[6271022598,6],[6271022602,7],[6271022607,8],[6271022211,9],[6271022209,10]]},
+  {"id":19158684,"t":{"ref":"64V","name":"64V Oulunsalo - Salonpää","from":"Oulunsalo E","to":"Salonpää PP","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":21,"s":[[6271022598,7],[6271022602,8],[6271022607,9],[6271022211,10],[6271022209,11]]},
+  {"id":19158685,"t":{"ref":"64V","name":"64V Salonpää - Oulunsalo","from":"Salonpää PP","to":"Oulunsalo P","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":21,"s":[[6271022402,11],[6271022401,12],[6271022608,13],[6271022600,14],[6271022597,15]]},
+  {"id":19159301,"t":{"ref":"59","name":"59 Marjaniemi - Oulu","from":"Marjaniemi","to":"Oulu L.as.","network":"ELY / Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":56,"s":[[6271022402,33],[6271022401,34],[6271022608,35],[6271022600,36],[6271022597,37]]},
+  {"id":19159302,"t":{"ref":"59S","name":"59S Marjaniemi - OYS","from":"Marjaniemi","to":"OYS","network":"ELY / Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":61,"s":[[6271022402,32],[6271022401,33],[6271022608,34],[6271022600,35],[6271022597,36]]}
+]
+}

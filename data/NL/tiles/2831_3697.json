@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2831,3697],
+"stops":[
+  {"id":617217100,"lat":51.589809,"lon":4.856803,"k":"p","n":"Kapelerf"},
+  {"id":617217102,"lat":51.583468,"lon":4.890754,"k":"p","n":"Veenstraat"},
+  {"id":4496889785,"lat":51.589778,"lon":4.857737,"k":"p","n":"Kapelerf"},
+  {"id":4519479757,"lat":51.589954,"lon":4.857233,"k":"p","n":"Kapelerf"},
+  {"id":4519479758,"lat":51.589849,"lon":4.857461,"k":"p","n":"Kapelerf"},
+  {"id":4519479759,"lat":51.591288,"lon":4.86022,"k":"p","n":"Dennenlaan"},
+  {"id":4519479760,"lat":51.591084,"lon":4.860204,"k":"p","n":"Dennenlaan"},
+  {"id":5632131760,"lat":51.573202,"lon":4.881329,"k":"p","n":"Kerk"},
+  {"id":5632131761,"lat":51.573305,"lon":4.881102,"k":"p","n":"Kerk"},
+  {"id":6102878774,"lat":51.574622,"lon":4.894516,"k":"p","n":"Heideweg"},
+  {"id":6102878775,"lat":51.574011,"lon":4.893721,"k":"p","n":"Heideweg"},
+  {"id":7699657009,"lat":51.583916,"lon":4.889028,"k":"p","n":"Veenstraat"}
+],
+"routes":[
+  {"id":390292,"t":{"ref":"170","name":"Bus 170: Breda Centraal Station => Gilze AZC","from":"Breda, Centraal Station","to":"Gilze, AZC","network":"West-Brabant","operator":"Arriva","colour":"#F9E63D","route":"bus","public_transport:version":"2"},"n":26,"s":[[617217100,13],[617217102,14]]},
+  {"id":390293,"t":{"ref":"170","name":"Bus 170: Gilze AZC => Breda Centraal Station","from":"Gilze, AZC","to":"Breda, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#F9E63D","route":"bus","public_transport:version":"2"},"n":25,"s":[[7699657009,13],[4496889785,14]]},
+  {"id":9060612,"t":{"ref":"205","name":"Bus 205: Rijen Station => 's-Gravenmoer Hoofdstraat","from":"Rijen, Station","to":"'s-Gravenmoer, Hoofdstraat","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":22,"s":[[6102878775,7],[5632131761,8],[4519479757,9],[4519479760,10]]},
+  {"id":9062586,"t":{"ref":"205","name":"Bus 205: 's-Gravenmoer Hoofdstraat => Rijen Station","from":"'s-Gravenmoer, Hoofdstraat","to":"Rijen, Station","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":22,"s":[[4519479759,13],[4519479758,14],[5632131760,15],[6102878774,16]]},
+  {"id":20161277,"t":{"ref":"flex","name":"Bravoflex hub Bijster, Breda","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":34,"s":[[4519479759,21],[4519479760,22],[4519479757,23],[4519479758,24],[4496889785,25],[617217100,26]]},
+  {"id":20678527,"t":{"ref":"flex","name":"Bravoflex hub Station, Gilze-Rijen","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":70,"s":[[6102878774,14],[617217102,23],[7699657009,24],[5632131761,25],[5632131760,26]]},
+  {"id":20678543,"t":{"ref":"flex","name":"Bravoflex hub Mgr. Schaepmanlaan, Dongen","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":77,"s":[[6102878774,66],[6102878775,67]]},
+  {"id":20678570,"t":{"ref":"flex","name":"Bravoflex hub Bijster, Breda","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":6,"s":[[617217102,1],[7699657009,2],[5632131760,3],[5632131761,4]]}
+]
+}

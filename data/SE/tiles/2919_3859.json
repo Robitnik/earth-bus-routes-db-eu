@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2919,3859],
+"stops":[
+  {"id":1277390944,"lat":55.997074,"lon":12.973866,"k":"x","n":"Ekeby Skola"},
+  {"id":2447046420,"lat":55.999077,"lon":12.97455,"k":"x","n":"Ekeby Möbelgatan","ref":"A"},
+  {"id":2476481086,"lat":55.992165,"lon":12.971787,"k":"x","n":"Ekeby Flamman","ref":"A"},
+  {"id":2938260256,"lat":55.996875,"lon":12.973813,"k":"x","n":"Ekeby Skola"},
+  {"id":3335237773,"lat":55.990782,"lon":12.977337,"k":"x","n":"Truedstorp Allégatan","ref":"A"},
+  {"id":3335237774,"lat":55.990798,"lon":12.977354,"k":"p","n":"A","ref":"A"},
+  {"id":3362566750,"lat":55.996409,"lon":12.997869,"k":"x","n":"Truedstorp Olofsgatan","ref":"A"},
+  {"id":3698950400,"lat":55.987202,"lon":12.983512,"k":"p","n":"A","ref":"A"},
+  {"id":3698950401,"lat":55.987683,"lon":12.99379,"k":"p","n":"A","ref":"A"},
+  {"id":3698950402,"lat":55.99111,"lon":12.998615,"k":"p","n":"A","ref":"A"},
+  {"id":3698950413,"lat":55.995422,"lon":12.95668,"k":"x","n":"Ekeby Lantz väg"},
+  {"id":3698950416,"lat":55.997652,"lon":12.957984,"k":"x","n":"Ekeby Stengatan"},
+  {"id":3698950422,"lat":55.987177,"lon":12.983497,"k":"x","n":"Truedstorp Gultarpsvägen","ref":"A"},
+  {"id":3698950424,"lat":55.991109,"lon":12.998677,"k":"x","n":"Truedstorp Kågerödsvägen","ref":"A"},
+  {"id":3698951125,"lat":55.987653,"lon":12.993785,"k":"x","n":"Truedstorp Mossagatan","ref":"A"},
+  {"id":3698951128,"lat":55.995412,"lon":12.956736,"k":"p"},
+  {"id":3698951129,"lat":55.995429,"lon":12.956637,"k":"p"},
+  {"id":3698951130,"lat":55.997643,"lon":12.958047,"k":"p"},
+  {"id":3698951131,"lat":55.997669,"lon":12.957877,"k":"p"},
+  {"id":5000290275103,"lat":55.996958,"lon":12.973906,"k":"p"},
+  {"id":5000290275105,"lat":55.996915,"lon":12.973752,"k":"p"},
+  {"id":5000329380496,"lat":55.996432,"lon":12.997804,"k":"p","n":"A","ref":"A"},
+  {"id":5000359666862,"lat":55.999067,"lon":12.974428,"k":"p","n":"A","ref":"A"},
+  {"id":5001408267759,"lat":55.992109,"lon":12.971796,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":3153293,"t":{"ref":"230","name":"Buss 230: Teckomatorp => Svalöv => Kågeröd => Ekeby","from":"Teckomatorp station","to":"Ekeby Flamman","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000290275105,32],[5001408267759,33]]},
+  {"id":3153294,"t":{"ref":"298","name":"Buss 298: Ekeby => Helsingborg","from":"Ekeby","to":"Helsingborg","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":13,"s":[[5001408267759,1],[5000290275103,2]]},
+  {"id":3153295,"t":{"ref":"298","name":"Buss 298: Helsingborg => Ekeby","from":"Helsingborg","to":"Ekeby","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000290275105,12],[5001408267759,13]]},
+  {"id":5438404,"t":{"ref":"250","name":"Buss 250: Helsingborg => Bjuv => Billesholm => Ekeby","from":"Helsingborg C","to":"Ekeby Flamman","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000290275105,37],[5001408267759,38]]},
+  {"id":5438405,"t":{"ref":"250","name":"Buss 250: Ekeby => Billesholm => Bjuv => Helsingborg","from":"Ekeby Flamman","to":"Helsingborg C","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":38,"s":[[5001408267759,1],[5000290275103,2]]},
+  {"id":7298006,"t":{"ref":"260","name":"Buss 260: Landskrona => Tågarp => Ekeby","from":"Landskrona Skeppsbron","to":"Ekeby Flamman","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":38,"s":[[3698951128,24],[3698951130,25],[5000359666862,29],[5000329380496,33],[3698950402,34],[3698950401,35],[3698950400,36],[3335237774,37],[5001408267759,38]]},
+  {"id":7298007,"t":{"ref":"260","name":"Buss 260: Ekeby => Tågarp => Landskrona","from":"Ekeby Flamman","to":"Landskrona","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":30,"s":[[5001408267759,1],[5000290275103,2],[3698951131,6],[3698951129,7]]},
+  {"id":16897376,"t":{"ref":"250","name":"Buss 250: Ekeby => Billesholm => Bjuv","from":"Ekeby Flamman","to":"Bjuv station","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001408267759,1],[5000290275103,2]]},
+  {"id":16897380,"t":{"ref":"250","name":"Buss 250: Bjuv => Billesholm => Ekeby","from":"Bjuv station","to":"Ekeby Flamman","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000290275105,20],[5001408267759,21]]},
+  {"id":16928119,"t":{"ref":"260","name":"Buss 260: Ekeby => Tågarp => Landskrona","from":"Ekeby Rundelsgatan","to":"Landskrona","network":"Skånetrafiken","operator":"Nobina Svalöv","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":40,"s":[[5000359666862,2],[5000329380496,6],[3698950402,7],[3698950401,8],[3698950400,9],[3335237774,10],[5001408267759,11],[5000290275103,12],[3698951131,16],[3698951129,17]]}
+]
+}

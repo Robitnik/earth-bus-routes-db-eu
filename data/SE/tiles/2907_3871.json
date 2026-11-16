@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2907,3871],
+"stops":[
+  {"id":2540964407,"lat":55.394006,"lon":13.594045,"k":"x","n":"Abbekås","ref":"C"},
+  {"id":2540964411,"lat":55.39409,"lon":13.59334,"k":"x","n":"Abbekås","ref":"B"},
+  {"id":4948521680,"lat":55.394202,"lon":13.593209,"k":"x","n":"Abbekås","ref":"A"},
+  {"id":4948521681,"lat":55.394177,"lon":13.593148,"k":"p","n":"A","ref":"A"},
+  {"id":7599014837,"lat":55.394037,"lon":13.594116,"k":"x","n":"Abbekås","ref":"D"},
+  {"id":5000247163306,"lat":55.394075,"lon":13.594082,"k":"p","n":"C","ref":"C"},
+  {"id":5000247163323,"lat":55.394089,"lon":13.593461,"k":"p","n":"B","ref":"B"},
+  {"id":5000355555045,"lat":55.393965,"lon":13.59408,"k":"p","n":"D","ref":"D"}
+],
+"routes":[
+  {"id":5322657,"t":{"ref":"190","name":"Buss 190: Trelleborg => Ystad","from":"Trelleborg","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000355555045,25]]},
+  {"id":5322658,"t":{"ref":"190","name":"Buss 190: Ystad => Trelleborg","from":"Ystad","to":"Trelleborg","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000247163306,17]]},
+  {"id":7372575,"t":{"ref":"305","name":"Buss 305: Abbekås => Skivarp => Skurup","from":"Abbekås","to":"Skurup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000247163323,1]]},
+  {"id":7372576,"t":{"ref":"305","name":"Buss 305: Skurup => Skivarp => Abbekås","from":"Skurup","to":"Abbekås","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":14,"s":[[4948521681,14]]}
+]
+}

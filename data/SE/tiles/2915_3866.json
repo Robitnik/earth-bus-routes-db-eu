@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2915,3866],
+"stops":[
+  {"id":254734726,"lat":55.763013,"lon":13.323583,"k":"x","n":"Gårdstånga skolan","ref":"A"},
+  {"id":846142846,"lat":55.765056,"lon":13.319572,"k":"p"},
+  {"id":846142851,"lat":55.763873,"lon":13.312344,"k":"p"},
+  {"id":846142852,"lat":55.7591,"lon":13.306382,"k":"p"},
+  {"id":846142863,"lat":55.76402,"lon":13.312806,"k":"x","n":"Getinge"},
+  {"id":846142864,"lat":55.759342,"lon":13.306242,"k":"p"},
+  {"id":846142872,"lat":55.764878,"lon":13.31917,"k":"p"},
+  {"id":1979451290,"lat":55.769282,"lon":13.320245,"k":"x","n":"Gårdstånga Trafikplats","ref":"C"},
+  {"id":1979451455,"lat":55.771167,"lon":13.320934,"k":"x","n":"Gårdstånga Trafikplats","ref":"A"},
+  {"id":2933355408,"lat":55.763,"lon":13.323505,"k":"p","ref":"A"},
+  {"id":2934468071,"lat":55.763474,"lon":13.323337,"k":"p","ref":"B"},
+  {"id":3129132351,"lat":55.759122,"lon":13.306322,"k":"x","n":"Bagershill"},
+  {"id":3129132352,"lat":55.759282,"lon":13.306328,"k":"x","n":"Bagershill"},
+  {"id":3129132353,"lat":55.763829,"lon":13.312418,"k":"x","n":"Getinge"},
+  {"id":3129132354,"lat":55.763462,"lon":13.323288,"k":"x","n":"Gårdstånga skolan","ref":"B"},
+  {"id":3129132355,"lat":55.764941,"lon":13.319153,"k":"x","n":"Gårdstånga vägbron"},
+  {"id":3129132356,"lat":55.764972,"lon":13.319589,"k":"x","n":"Gårdstånga vägbron"},
+  {"id":3792093047,"lat":55.768393,"lon":13.321347,"k":"x","n":"Gårdstånga Trafikplats","ref":"D"},
+  {"id":3792093048,"lat":55.770623,"lon":13.322087,"k":"x","n":"Gårdstånga Trafikplats","ref":"B"},
+  {"id":5000307711930,"lat":55.76395,"lon":13.312831,"k":"p"},
+  {"id":5000375868172,"lat":55.771218,"lon":13.321045,"k":"p","n":"A","ref":"A"},
+  {"id":5000375868173,"lat":55.770576,"lon":13.322021,"k":"p","n":"B","ref":"B"},
+  {"id":5000375868174,"lat":55.769298,"lon":13.320383,"k":"p","n":"C","ref":"C"},
+  {"id":5000375868175,"lat":55.768382,"lon":13.321178,"k":"p","n":"D","ref":"D"}
+],
+"routes":[
+  {"id":2723555,"t":{"ref":"SkE 1","name":"Buss SkE 1: Malmö C => Kristianstad C","from":"Malmö C","to":"Kristianstad C","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000375868173,5]]},
+  {"id":3306160,"t":{"ref":"108","name":"Buss 108: Gårdstånga => Lund C","from":"Gårdstånga","to":"Lund C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":13,"s":[[2934468071,1],[846142846,2],[846142851,3],[846142864,4]]},
+  {"id":3306161,"t":{"ref":"108","name":"Buss 108: Lund C => Gårdstånga","from":"Lund C","to":"Gårdstånga","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":13,"s":[[846142852,10],[5000307711930,11],[846142872,12],[2934468071,13]]},
+  {"id":3333007,"t":{"ref":"SkåneExpressen 2","name":"Buss SkåneExpressen 2: Hörby Busstation => Lund C","from":"Hörby Busstation","to":"Lund C","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000375868172,8]]},
+  {"id":3333008,"t":{"ref":"SkåneExpressen 2","name":"Buss SkåneExpressen 2: Lund C => Hörby Busstation","from":"Lund C","to":"Hörby Busstation","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000375868173,4]]},
+  {"id":5287870,"t":{"ref":"157","name":"Buss 157: Eslöv => Flyinge","from":"Eslövs station","to":"Flyinge Plantskolevägen","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000375868175,5],[2933355408,6]]},
+  {"id":5287871,"t":{"ref":"157","name":"Buss 157: Flyinge => Eslöv","from":"Flyinge Plantskolevägen","to":"Eslövs station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":8,"s":[[2934468071,3],[5000375868174,4]]}
+]
+}

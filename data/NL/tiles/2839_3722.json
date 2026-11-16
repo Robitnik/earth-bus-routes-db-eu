@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2839,3722],
+"stops":[
+  {"id":635721236,"lat":51.992529,"lon":6.102654,"k":"p","n":"Bingerdenseweg"},
+  {"id":635721237,"lat":51.993036,"lon":6.104304,"k":"p","n":"Bingerdenseweg"},
+  {"id":635721238,"lat":51.997885,"lon":6.114305,"k":"p","n":"Wielbergen"},
+  {"id":635721239,"lat":51.998088,"lon":6.114202,"k":"p","n":"Wielbergen"},
+  {"id":1713317737,"lat":51.95151,"lon":6.137782,"k":"p","n":"Kapelstraat"},
+  {"id":1713317758,"lat":51.951433,"lon":6.137737,"k":"p","n":"Kapelstraat"},
+  {"id":1713323591,"lat":51.997996,"lon":6.129697,"k":"p","n":"Tunnel Angerlo"},
+  {"id":1713323608,"lat":51.998025,"lon":6.129522,"k":"p","n":"Tunnel Angerlo"},
+  {"id":3961858143,"lat":51.952575,"lon":6.14506,"k":"p","n":"Kerk"},
+  {"id":3961858144,"lat":51.952705,"lon":6.144544,"k":"p","n":"Kerk"},
+  {"id":10101804701,"lat":51.9955,"lon":6.135709,"k":"p","n":"Dorpsstraat"}
+],
+"routes":[
+  {"id":337081,"t":{"ref":"26","name":"Bus 26: Arnhem Centraal Station => Dieren Station","from":"Arnhem, Centraal Station","to":"Dieren, Station Dieren","network":"Arnhem-Nijmegen-Foodvalley","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":39,"s":[[635721237,24],[635721238,25],[1713323591,27]]},
+  {"id":337082,"t":{"ref":"27","name":"Bus 27: Doetinchem Station => Arnhem Centraal Station","from":"Doetinchem, Station","to":"Arnhem, Centraal Station","network":"Achterhoek-Rivierenland;Arnhem-Nijmegen-Foodvalley","operator":"Arriva;Transdev","route":"bus","public_transport:version":"2"},"n":45,"s":[[1713323608,19],[635721239,21],[635721236,22]]},
+  {"id":406256,"t":{"ref":"26","name":"Bus 26: Dieren Station => Arnhem Centraal Station","from":"Dieren, Station Dieren","to":"Arnhem, Centraal Station","network":"Arnhem-Nijmegen-Foodvalley","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":39,"s":[[1713323608,13],[635721239,15],[635721236,16]]},
+  {"id":535913,"t":{"ref":"27","name":"Bus 27: Arnhem Centraal Station => Doetinchem Station","from":"Arnhem, Centraal Station","to":"Doetinchem, Station","network":"Achterhoek-Rivierenland;Arnhem-Nijmegen-Foodvalley","operator":"Arriva;Transdev","route":"bus","public_transport:version":"2"},"n":45,"s":[[635721237,24],[635721238,25],[1713323591,27]]},
+  {"id":5893515,"t":{"ref":"196","name":"Bus 196: 's-Heerenberg Busstation - Nieuw-Dijk Pater Smitsstraat","from":"'s-Heerenberg, Busstation","to":"Nieuw-Dijk, Pater Smitsstraat","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#98C818","route":"bus","public_transport:version":"2"},"n":22,"s":[[3961858144,15],[1713317758,16]]},
+  {"id":5893517,"t":{"ref":"196","name":"Bus 196: Nieuw-Dijk Pater Smitsstraat => 's-Heerenberg Busstation","from":"Nieuw-Dijk, Pater Smitsstraat","to":"'s-Heerenberg, Busstation","network":"Achterhoek-Rivierenland","operator":"Arriva","colour":"#98C818","route":"bus","public_transport:version":"2"},"n":22,"s":[[1713317737,7],[3961858143,8]]},
+  {"id":9902919,"t":{"ref":"627","name":"Bus 627: Giesbeek Zwalmstraat => Doetinchem Station","from":"Giesbeek, Zwalmstraat","to":"Doetinchem, Station","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":24,"s":[[635721237,3],[635721238,4],[1713323591,6]]},
+  {"id":14691575,"t":{"name":"haltetaxiRRReis","network":"IJssel-Vecht","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":70,"s":[[10101804701,25]]}
+]
+}

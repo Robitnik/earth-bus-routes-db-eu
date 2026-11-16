@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2909,3885],
+"stops":[
+  {"id":308301092,"lat":55.469312,"lon":14.280204,"k":"x","n":"Skillinge idrottsplatsen"},
+  {"id":403588455,"lat":55.454021,"lon":14.25394,"k":"x","n":"Östra Hoby södra"},
+  {"id":403588457,"lat":55.453502,"lon":14.253126,"k":"x","n":"Östra Hoby södra"},
+  {"id":3812834855,"lat":55.473346,"lon":14.278545,"k":"x","n":"Skillinge busstation"},
+  {"id":4312709634,"lat":55.456815,"lon":14.270216,"k":"p","ref":"A"},
+  {"id":4312709636,"lat":55.456773,"lon":14.270323,"k":"p","ref":"B"},
+  {"id":4312709639,"lat":55.4568,"lon":14.270269,"k":"x","n":"Norrekås"},
+  {"id":4312709644,"lat":55.450164,"lon":14.2612,"k":"x","n":"Örnahusen"},
+  {"id":4312709645,"lat":55.483904,"lon":14.286358,"k":"x","n":"Grosshög"},
+  {"id":4312709662,"lat":55.450147,"lon":14.261226,"k":"p"},
+  {"id":4312709663,"lat":55.450172,"lon":14.261141,"k":"p"},
+  {"id":4312709664,"lat":55.469301,"lon":14.28025,"k":"p"},
+  {"id":4312709665,"lat":55.469321,"lon":14.280137,"k":"p"},
+  {"id":4312709666,"lat":55.483859,"lon":14.286368,"k":"p"},
+  {"id":4312709667,"lat":55.48393,"lon":14.286351,"k":"p"},
+  {"id":4870189568,"lat":55.476766,"lon":14.28249,"k":"p"},
+  {"id":4870189569,"lat":55.476728,"lon":14.282625,"k":"p"},
+  {"id":4870189570,"lat":55.476745,"lon":14.282552,"k":"x","n":"Skillinge Byggmästaregatan"},
+  {"id":5181447041,"lat":55.47727,"lon":14.259692,"k":"p"},
+  {"id":5181447042,"lat":55.477361,"lon":14.258786,"k":"p"},
+  {"id":5181447043,"lat":55.477341,"lon":14.258786,"k":"x","n":"Kvarnby"},
+  {"id":5181447049,"lat":55.45352,"lon":14.253093,"k":"p"},
+  {"id":5181447050,"lat":55.454005,"lon":14.253971,"k":"p"},
+  {"id":5181447052,"lat":55.473396,"lon":14.278627,"k":"p","ref":"A"},
+  {"id":5181447078,"lat":55.477287,"lon":14.259696,"k":"x","n":"Kvarnby"}
+],
+"routes":[
+  {"id":5614214,"t":{"ref":"322","name":"Buss 322: Skillinge => Ystad","from":"Skillinge","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":37,"s":[[5181447052,1],[4312709665,2],[4312709634,3],[4312709663,4]]},
+  {"id":5614215,"t":{"ref":"322","name":"Buss 322: Ystad => Skillinge","from":"Ystad","to":"Skillinge","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":37,"s":[[4312709662,34],[4312709636,35],[4312709664,36],[5181447052,37]]},
+  {"id":6426857,"t":{"ref":"577","name":"Buss 577: Borrby => Brantevik => Simrishamn","from":"Borrby","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[5181447041,8],[5181447052,9],[4870189569,10],[4312709666,11]]},
+  {"id":6426858,"t":{"ref":"577","name":"Buss 577: Simrishamn => Brantevik => Borrby","from":"Simrishamn","to":"Borrby","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[4312709667,12],[4870189568,13],[5181447052,14],[5181447042,15]]},
+  {"id":7373711,"t":{"ref":"578","name":"Buss 578: Borrby => Simrishamn","from":"Borrby","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[5181447050,6],[5181447052,7],[4870189569,8]]},
+  {"id":7373712,"t":{"ref":"578","name":"Buss 578: Simrishamn => Borrby","from":"Simrishamn","to":"Borrby","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[4870189568,8],[5181447052,9],[5181447049,10]]}
+]
+}

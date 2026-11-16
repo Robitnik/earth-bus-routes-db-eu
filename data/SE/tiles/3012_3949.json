@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3012,3949],
+"stops":[
+  {"id":12211406863,"lat":60.602952,"lon":17.454328,"k":"p","n":"Klappvägen"},
+  {"id":12211406864,"lat":60.607633,"lon":17.450988,"k":"p","n":"Prästgårdsvägen"},
+  {"id":12211406867,"lat":60.632464,"lon":17.479634,"k":"p","n":"Rullsand"},
+  {"id":12211406868,"lat":60.641097,"lon":17.498667,"k":"p","n":"Sågarbo"},
+  {"id":12211407720,"lat":60.601523,"lon":17.455076,"k":"p","n":"Överboda"},
+  {"id":12211407721,"lat":60.601254,"lon":17.455237,"k":"p","n":"Överboda"}
+],
+"routes":[
+  {"id":18111614,"t":{"ref":"501","name":"Buss 501: Gävle - Älvkarleby","from":"Gävle","to":"Älvkarleby","network":"UL","route":"bus","public_transport:version":"1+2"},"n":41,"s":[[12211407721,32]]},
+  {"id":18111615,"t":{"ref":"501","name":"Buss 501: Älvkarleby - Gävle","from":"Älvkarleby","to":"Gävle","network":"UL","route":"bus","public_transport:version":"1+2"},"n":41,"s":[[12211407720,10]]},
+  {"id":18115350,"t":{"ref":"504","name":"Buss 504: Skutskär - Gårdskär - Skutskär","from":"Skutskär","to":"Skutskär","network":"UL","route":"bus","public_transport:version":"1+2"},"n":41,"s":[[12211407721,6],[12211406868,33],[12211406867,34],[12211406864,37],[12211406863,38]]},
+  {"id":18199592,"t":{"ref":"518","name":"Buss 518: Skutskär - Tierp","from":"Skutskär","to":"Tierp","network":"UL","route":"bus","public_transport:version":"1+2"},"n":43,"s":[[12211407721,5]]},
+  {"id":18199593,"t":{"ref":"518","name":"Buss 518: Tierp - Skutskär","from":"Tierp","to":"Skutskär","network":"UL","route":"bus","public_transport:version":"1+2"},"n":42,"s":[[12211407720,38]]},
+  {"id":18785917,"t":{"ref":"832","name":"Buss 832: Forsmark - Skuskär","from":"Forsmark","to":"Skutskär","network":"UL","route":"bus","public_transport:version":"1+2"},"n":45,"s":[[12211407720,41]]},
+  {"id":18785918,"t":{"ref":"832","name":"Buss 832: Skuskär - Forsmark","from":"Skutskär","to":"Forsmark","network":"UL","route":"bus","public_transport:version":"1+2"},"n":46,"s":[[12211407721,5]]}
+]
+}

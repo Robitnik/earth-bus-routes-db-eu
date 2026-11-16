@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2909,3874],
+"stops":[
+  {"id":2136559880,"lat":55.452801,"lon":13.712191,"k":"x","n":"Teglagården"},
+  {"id":3607101306,"lat":55.488615,"lon":13.712168,"k":"x","n":"Ystad Skårby","ref":"B"},
+  {"id":3607101307,"lat":55.488684,"lon":13.712097,"k":"x","n":"Ystad Skårby","ref":"A"},
+  {"id":3607101314,"lat":55.452657,"lon":13.712302,"k":"x","n":"Teglagården"},
+  {"id":3607101315,"lat":55.452663,"lon":13.712339,"k":"p"},
+  {"id":3607101316,"lat":55.452793,"lon":13.71215,"k":"p"},
+  {"id":3607101328,"lat":55.488591,"lon":13.7121,"k":"p","n":"B","ref":"B"},
+  {"id":3607101329,"lat":55.488708,"lon":13.712175,"k":"p","n":"A","ref":"A"},
+  {"id":4310752730,"lat":55.472701,"lon":13.740432,"k":"p","n":"A","ref":"A"},
+  {"id":4310752731,"lat":55.475171,"lon":13.735278,"k":"p","n":"A","ref":"A"},
+  {"id":4310752732,"lat":55.479253,"lon":13.727106,"k":"p","n":"A","ref":"A"},
+  {"id":4310752733,"lat":55.485277,"lon":13.717848,"k":"p","n":"A","ref":"A"},
+  {"id":4310752735,"lat":55.47217,"lon":13.740801,"k":"p","n":"B","ref":"B"},
+  {"id":4310752736,"lat":55.475141,"lon":13.735205,"k":"p","n":"B","ref":"B"},
+  {"id":4310752737,"lat":55.480276,"lon":13.72549,"k":"p","n":"B","ref":"B"},
+  {"id":4310752739,"lat":55.472186,"lon":13.740875,"k":"x","n":"Grönahill","ref":"B"},
+  {"id":4310752740,"lat":55.472686,"lon":13.740368,"k":"x","n":"Grönahill","ref":"A"},
+  {"id":4310752741,"lat":55.475157,"lon":13.735243,"k":"x","n":"Hunnestad Smedjan","ref":"A;B"},
+  {"id":4310752742,"lat":55.480283,"lon":13.725524,"k":"x","n":"Hunnestadskorset","ref":"B"},
+  {"id":4310752743,"lat":55.479228,"lon":13.727068,"k":"x","n":"Hunnestadskorset","ref":"A"},
+  {"id":4310752745,"lat":55.485257,"lon":13.717821,"k":"x","n":"Ystad Djurpark","ref":"A"},
+  {"id":4948635793,"lat":55.462896,"lon":13.705527,"k":"x","n":"Marsvinsholms slott"},
+  {"id":4948843319,"lat":55.484607,"lon":13.718977,"k":"p","n":"B","ref":"B"},
+  {"id":4948843320,"lat":55.484622,"lon":13.719004,"k":"x","n":"Ystad Djurpark","ref":"B"},
+  {"id":5000504744276,"lat":55.46282,"lon":13.705596,"k":"p"},
+  {"id":5000504744277,"lat":55.462975,"lon":13.705454,"k":"p"}
+],
+"routes":[
+  {"id":5614057,"t":{"ref":"307","name":"Buss 307: Skurup => Skårby => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":31,"s":[[3607101328,18],[4948843319,19],[4310752737,20],[4310752736,21],[4310752735,22]]},
+  {"id":5614058,"t":{"ref":"307","name":"Buss 307: Ystad => Skårby => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":31,"s":[[4310752730,10],[4310752731,11],[4310752732,12],[4310752733,13],[3607101329,14]]},
+  {"id":5614059,"t":{"ref":"308","name":"Buss 308: Skurup => Skivarp => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[3607101315,22],[5000504744276,23]]},
+  {"id":5614060,"t":{"ref":"308","name":"Buss 308: Ystad => Skivarp => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000504744277,5],[3607101316,6]]},
+  {"id":7372577,"t":{"ref":"308","name":"Buss 308: Skurup => Skivarp => Västervångsskolan => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[3607101315,22],[5000504744276,23]]},
+  {"id":7372578,"t":{"ref":"308","name":"Buss 308: Ystad => Västervångsskolan => Skivarp => Skurup","from":"Ystad","to":"Skurup","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000504744277,5],[3607101316,6]]},
+  {"id":17913653,"t":{"ref":"307","name":"Buss 307: Ystad => Trunnerup","from":"Ystad","to":"Trunnerup","network":"Skånetrafiken","operator":"Bergkvarabuss Ystad;Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":22,"s":[[4310752730,10],[4310752731,11],[4310752732,12],[4310752733,13],[3607101329,14]]},
+  {"id":17913654,"t":{"ref":"307","name":"Buss 307: Trunnerup => Ystad","from":"Skurup","to":"Ystad","network":"Skånetrafiken","operator":"Skånetrafiken","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":22,"s":[[3607101328,9],[4948843319,10],[4310752737,11],[4310752736,12],[4310752735,13]]}
+]
+}

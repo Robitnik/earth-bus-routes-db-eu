@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"PT",
+"tile":[2461,3273],
+"stops":[
+  {"id":2055101234,"lat":33.058977,"lon":-16.310779,"k":"x","n":"Porto de Abrigo"},
+  {"id":11267537814,"lat":33.058854,"lon":-16.333561,"k":"x","n":"Centro"},
+  {"id":13123899314,"lat":33.05755,"lon":-16.338334,"k":"x","n":"Hotel Torre Praia"},
+  {"id":13124616061,"lat":33.06382,"lon":-16.330633,"k":"x","n":"Rua da Ribeirinha"},
+  {"id":13158373431,"lat":33.052741,"lon":-16.348988,"k":"x","n":"Rua Doutor João Abel de Freitas"},
+  {"id":13158784786,"lat":33.06757,"lon":-16.328438,"k":"x","n":"ER 233 - Casinhas"},
+  {"id":13195368702,"lat":33.053958,"lon":-16.342757,"k":"x","n":"Antes Pé na Água"},
+  {"id":13195368703,"lat":33.051712,"lon":-16.347646,"k":"x","n":"Hotel Porto Santo"},
+  {"id":13195368716,"lat":33.051861,"lon":-16.347126,"k":"x","n":"Antes Hotel Porto Santo"},
+  {"id":13195368717,"lat":33.053975,"lon":-16.342726,"k":"x","n":"Depois Pé na Água"},
+  {"id":13195368718,"lat":33.057538,"lon":-16.338366,"k":"x","n":"Hotel Torre Praia"},
+  {"id":13195374186,"lat":33.063548,"lon":-16.330879,"k":"x","n":"Depois Rua da Ribeirinha"},
+  {"id":13195374188,"lat":33.067625,"lon":-16.328416,"k":"x","n":"ER 233 - Casinhas"},
+  {"id":13195374190,"lat":33.070865,"lon":-16.326381,"k":"x","n":"ER 233 - Antes Casinhas"},
+  {"id":13195374191,"lat":33.070954,"lon":-16.326341,"k":"x","n":"ER 233 - Depois Casinhas"},
+  {"id":13195374192,"lat":33.069266,"lon":-16.321134,"k":"x","n":"ER 233 - Panorama"},
+  {"id":13195374193,"lat":33.069242,"lon":-16.321089,"k":"x","n":"ER 233 - Panorama"},
+  {"id":13195374194,"lat":33.067544,"lon":-16.317616,"k":"x","n":"Antes Miradouro da Portela"},
+  {"id":13195374195,"lat":33.067484,"lon":-16.317615,"k":"x","n":"Depois Miradouro da Portela"},
+  {"id":13195374196,"lat":33.073206,"lon":-16.313203,"k":"x","n":"Centro de Inspeções"},
+  {"id":13195374197,"lat":33.073101,"lon":-16.313247,"k":"x","n":"Centro de Inspeções"}
+],
+"routes":[
+  {"id":18439322,"t":{"ref":"995","name":"CAM 995: Centro → Porto de Abrigo","from":"Centro","to":"Porto de Abrigo","network":"SIGA","operator":"CAM","colour":"#0082ca","route":"bus","public_transport:version":"2"},"n":2,"s":[[11267537814,1],[2055101234,2]]},
+  {"id":18441018,"t":{"ref":"995","name":"CAM 995: Porto de Abrigo → Centro","from":"Porto de Abrigo","to":"Centro","network":"SIGA","operator":"CAM","colour":"#0082ca","route":"bus","public_transport:version":"2"},"n":2,"s":[[2055101234,1],[11267537814,2]]},
+  {"id":19680745,"t":{"ref":"992","name":"Serra de Fora - Centro","from":"Serra de Fora","to":"Centro","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[11267537814,2]]},
+  {"id":19680746,"t":{"ref":"992","name":"Centro - Serra de Fora","from":"Centro","to":"Serra de Fora","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[11267537814,1]]},
+  {"id":19680747,"t":{"ref":"994","name":"Calheta - Centro","from":"Calheta","to":"Centro","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[11267537814,2]]},
+  {"id":19680748,"t":{"ref":"994","name":"Centro - Calheta","from":"Centro","to":"Calheta","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[11267537814,1]]},
+  {"id":19680749,"t":{"ref":"995","name":"Centro - Porto de Abrigo","from":"Centro","to":"Porto de Abrigo","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[11267537814,1],[2055101234,2]]},
+  {"id":19680750,"t":{"ref":"995","name":"Porto de Abrigo - Centro","from":"Porto de Abrigo","to":"Centro","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":2,"s":[[2055101234,1],[11267537814,2]]},
+  {"id":19680797,"t":{"ref":"993","name":"Campo de Cima - Centro","from":"Campo de Cima","to":"Centro","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":7,"s":[[13158373431,1],[13195368703,5],[13195368702,6],[13195368718,7]]},
+  {"id":19680798,"t":{"ref":"993","name":"Centro - Campo de Cima","from":"Centro","to":"Campo de Cima","network":"SIGA","operator":"SIGA","route":"bus","public_transport:version":"2"},"n":17,"s":[[13195368716,15],[13195368717,16],[13123899314,17]]}
+]
+}

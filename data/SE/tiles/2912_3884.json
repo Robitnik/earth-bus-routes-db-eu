@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2912,3884],
+"stops":[
+  {"id":3681457670,"lat":55.643295,"lon":14.224203,"k":"p","ref":"A"},
+  {"id":3681457672,"lat":55.642971,"lon":14.224389,"k":"p","ref":"B"},
+  {"id":3681457676,"lat":55.642985,"lon":14.22445,"k":"x","n":"Södra Mellby Tångdala"},
+  {"id":3681457677,"lat":55.643268,"lon":14.224137,"k":"x","n":"Södra Mellby Tångdala"},
+  {"id":3691144951,"lat":55.605162,"lon":14.219701,"k":"p","ref":"A"},
+  {"id":3691144952,"lat":55.618264,"lon":14.239377,"k":"p","ref":"A"},
+  {"id":3691144971,"lat":55.605463,"lon":14.219816,"k":"p","ref":"B"},
+  {"id":3691144972,"lat":55.618163,"lon":14.238804,"k":"p","ref":"B"},
+  {"id":3691144984,"lat":55.605178,"lon":14.21965,"k":"x","n":"Näbbegården"},
+  {"id":3691144985,"lat":55.605468,"lon":14.219924,"k":"x","n":"Näbbegården"},
+  {"id":3691144989,"lat":55.611388,"lon":14.224721,"k":"x","n":"Skräddaröd By"},
+  {"id":3691144990,"lat":55.61194,"lon":14.225176,"k":"x","n":"Skräddaröd By"},
+  {"id":3691144991,"lat":55.618106,"lon":14.238863,"k":"x","n":"Sträntemölla"},
+  {"id":3691144992,"lat":55.618283,"lon":14.239358,"k":"x","n":"Sträntemölla"},
+  {"id":4311132301,"lat":55.635271,"lon":14.237542,"k":"p","ref":"A"},
+  {"id":4311132302,"lat":55.634796,"lon":14.237896,"k":"p","ref":"B"},
+  {"id":4311132303,"lat":55.634826,"lon":14.237975,"k":"x","n":"Rörum Rackaputtsvägen"},
+  {"id":4311132304,"lat":55.635227,"lon":14.237456,"k":"x","n":"Rörum Rackaputtsvägen"},
+  {"id":5000365071385,"lat":55.611938,"lon":14.225255,"k":"p","ref":"A"},
+  {"id":5000365071386,"lat":55.611461,"lon":14.224671,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":3317413,"t":{"ref":"SkåneExpressen 3","name":"Buss SkåneExpressen 3: Kristianstad => Simrishamn","from":"Kristianstad","to":"Simrishamn","network":"Skånetrafiken","operator":"Transdev Sverige AB Simrishamn","route":"bus","public_transport:version":"2"},"n":39,"s":[[3681457672,29]]},
+  {"id":3317414,"t":{"ref":"SkåneExpressen 3","name":"Buss SkåneExpressen 3: Simrishamn => Kristianstad","from":"Simrishamn","to":"Kristianstad","network":"Skånetrafiken","operator":"Transdev Sverige AB Simrishamn","route":"bus","public_transport:version":"2"},"n":39,"s":[[3681457670,11]]},
+  {"id":5413443,"t":{"ref":"573","name":"Buss 573: Kivik => Simrishamn","from":"Kivik","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[3681457672,3],[4311132302,4]]},
+  {"id":5413444,"t":{"ref":"573","name":"Buss 573: Simrishamn => Kivik","from":"Simrishamn","to":"Kivik","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[4311132301,12],[3681457670,13]]},
+  {"id":5427685,"t":{"ref":"574","name":"Buss 574: Simrishamn => Brösarp","from":"Simrishamn","to":"Brösarp","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":39,"s":[[3691144951,18],[5000365071385,19],[3691144952,20]]},
+  {"id":5427686,"t":{"ref":"574","name":"Buss 574: Brösarp => Simrishamn","from":"Brösarp","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":39,"s":[[3691144972,20],[5000365071386,21],[3691144971,22]]}
+]
+}

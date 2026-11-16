@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2937,3895],
+"stops":[
+  {"id":2466026616,"lat":56.898308,"lon":14.799008,"k":"x","n":"Nydalavägen","ref":"A"},
+  {"id":4058509612,"lat":56.891017,"lon":14.798917,"k":"x","n":"Dalbo centrum"},
+  {"id":4058509614,"lat":56.89825,"lon":14.799148,"k":"x","n":"Nydalavägen","ref":"B"},
+  {"id":8680785633,"lat":56.878368,"lon":14.798132,"k":"x","n":"Oxtorget","ref":"B"},
+  {"id":8680785634,"lat":56.878362,"lon":14.798259,"k":"x","n":"Oxtorget","ref":"A"},
+  {"id":8680785635,"lat":56.878729,"lon":14.789984,"k":"x","n":"Vikingagatan","ref":"B"},
+  {"id":8680785636,"lat":56.878774,"lon":14.788355,"k":"x","n":"Vikingagatan","ref":"A"},
+  {"id":11658009440,"lat":56.899197,"lon":14.790521,"k":"p","n":"A","ref":"A"},
+  {"id":13096374875,"lat":56.899289,"lon":14.791163,"k":"x","n":"Pettersberg","ref":"B"},
+  {"id":13096374876,"lat":56.899163,"lon":14.790561,"k":"x","n":"Pettersberg","ref":"A"},
+  {"id":13096374877,"lat":56.89924,"lon":14.791172,"k":"p","n":"B","ref":"B"},
+  {"id":14030478486,"lat":56.882801,"lon":14.765238,"k":"x","n":"Samarkand Söder"},
+  {"id":14030478493,"lat":56.882694,"lon":14.765773,"k":"x","n":"Samarkand Söder"},
+  {"id":14188839342,"lat":56.879729,"lon":14.780947,"k":"x","n":"Bollgatan","ref":"B"},
+  {"id":14188839343,"lat":56.879922,"lon":14.780908,"k":"x","n":"Bollgatan","ref":"A"},
+  {"id":14188839346,"lat":56.879732,"lon":14.781042,"k":"p","n":"B","ref":"B"},
+  {"id":5001408266362,"lat":56.88265,"lon":14.765734,"k":"p","n":"Samarkand Söder"},
+  {"id":5001408266363,"lat":56.882875,"lon":14.765401,"k":"p","n":"Samarkand Söder"},
+  {"id":5001408266364,"lat":56.87881,"lon":14.776986,"k":"p","n":"Arenastaden"},
+  {"id":5001408266365,"lat":56.879013,"lon":14.77716,"k":"p","n":"Arenastaden"}
+],
+"routes":[
+  {"id":18733142,"t":{"ref":"8","name":"Buss 8: Sandsbro -> Samarkand","from":"Sandsbro","to":"Samarkand","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001408266363,3]]},
+  {"id":18733143,"t":{"ref":"8","name":"Buss 8: Samarkand -> Sandsbro","from":"Samarkand","to":"Sandsbro","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":2,"s":[[5001408266362,1]]},
+  {"id":18733150,"t":{"ref":"9","name":"Buss 9: Stortorget -> Bredvik","from":"Stortorget","to":"Bredvik","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001408266365,3]]},
+  {"id":18733151,"t":{"ref":"9","name":"Buss 9: Bredvik -> Storgorget","from":"Bredvik","to":"Stortorget","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001408266364,2]]},
+  {"id":18733154,"t":{"ref":"3","name":"Buss 3: Samarkand -> Universitetet","from":"Samarkand","to":"Universitetet","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":7,"s":[[5001408266363,1],[5001408266364,2]]},
+  {"id":18733155,"t":{"ref":"3","name":"Buss 3: Universitetet -> Samarkand","from":"Universitetet","to":"Samarkand","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001408266365,5],[5001408266362,6]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2998,3965],
+"stops":[
+  {"id":904972589,"lat":59.908887,"lon":18.263941,"k":"p","n":"Knutby affär"},
+  {"id":904972599,"lat":59.907298,"lon":18.261488,"k":"p","n":"Björkgården"},
+  {"id":2925362245,"lat":59.90278,"lon":18.254986,"k":"p","n":"Knutbygården"},
+  {"id":2925362253,"lat":59.903373,"lon":18.256041,"k":"p","n":"Knutbygården"},
+  {"id":2925362265,"lat":59.90783,"lon":18.262664,"k":"p","n":"Björkgården"},
+  {"id":2925362268,"lat":59.90882,"lon":18.264085,"k":"p","n":"Knutby affär"},
+  {"id":2925362278,"lat":59.909322,"lon":18.267531,"k":"p","n":"Knutby"},
+  {"id":5043523878,"lat":59.908442,"lon":18.298247,"k":"p","n":"Solstorp"},
+  {"id":5043523879,"lat":59.908206,"lon":18.299189,"k":"p","n":"Solstorp"},
+  {"id":5043523882,"lat":59.909692,"lon":18.277358,"k":"p","n":"Prästgården"},
+  {"id":5043523883,"lat":59.909698,"lon":18.275703,"k":"p","n":"Prästgården"},
+  {"id":12140669483,"lat":59.911757,"lon":18.267767,"k":"p","n":"Knutby skola"},
+  {"id":12140669484,"lat":59.911632,"lon":18.267856,"k":"p","n":"Knutby skola"}
+],
+"routes":[
+  {"id":2826161,"t":{"ref":"809","name":"Buss 809: Knutby - Uppsala","from":"Knutby","to":"Uppsala centralstation","network":"UL","route":"bus","public_transport:version":"1+2"},"n":48,"s":[[12140669484,1],[904972589,2],[904972599,3],[2925362245,4]]},
+  {"id":2826162,"t":{"ref":"809","name":"Buss 809: Uppsala - Knutby","from":"Uppsala centralstation","to":"Knutby","network":"UL","route":"bus","public_transport:version":"1+2"},"n":48,"s":[[2925362253,45],[2925362265,46],[2925362268,47],[12140669484,48]]},
+  {"id":17986920,"t":{"ref":"808","name":"Buss 808: Knutby - Norrtälje","from":"Knutby","to":"Norrtälje","network":"UL","route":"bus","public_transport:version":"1+2"},"n":50,"s":[[12140669484,1],[5043523882,2],[5043523879,3]]},
+  {"id":17986921,"t":{"ref":"808","name":"Buss 808: Norrtälje - Knutby","from":"Norrtälje","to":"Knutby","network":"UL","route":"bus","public_transport:version":"1+2"},"n":49,"s":[[5043523878,47],[5043523883,48],[12140669484,49]]}
+]
+}

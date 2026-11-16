@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2927,3856],
+"stops":[
+  {"id":444856477,"lat":56.364851,"lon":12.808356,"k":"x","n":"Förslöv Bokesliden","ref":"A;B"},
+  {"id":1606975147,"lat":56.353564,"lon":12.819301,"k":"x","n":"Förslöv Margretetorpsvägen","ref":"A"},
+  {"id":1752325527,"lat":56.36488,"lon":12.808378,"k":"p","n":"B","ref":"B"},
+  {"id":3504533535,"lat":56.354536,"lon":12.818974,"k":"x","n":"Förslöv Margretetorpsvägen","ref":"B"},
+  {"id":3570296834,"lat":56.36253,"lon":12.816201,"k":"p","n":"A","ref":"A"},
+  {"id":3570296835,"lat":56.36254,"lon":12.816276,"k":"x","n":"Önnarpsvägen","ref":"A;B"},
+  {"id":3570296836,"lat":56.362551,"lon":12.816342,"k":"p","n":"B","ref":"B"},
+  {"id":3573157193,"lat":56.393269,"lon":12.807461,"k":"p","n":"B","ref":"B"},
+  {"id":3573157194,"lat":56.393287,"lon":12.80737,"k":"x","n":"Lilla Nötte","ref":"A;B"},
+  {"id":3573157195,"lat":56.393298,"lon":12.807306,"k":"p","n":"A","ref":"A"},
+  {"id":3957067439,"lat":56.355295,"lon":12.802216,"k":"x","n":"Förslöv station","ref":"C"},
+  {"id":4128198822,"lat":56.354895,"lon":12.801479,"k":"x","n":"Förslöv station","ref":"A"},
+  {"id":4128198823,"lat":56.355254,"lon":12.801789,"k":"x","n":"Förslöv station","ref":"B"},
+  {"id":4128350440,"lat":56.364793,"lon":12.808346,"k":"p","n":"A","ref":"A"},
+  {"id":5000351268573,"lat":56.353588,"lon":12.819234,"k":"p","n":"A","ref":"A"},
+  {"id":5000351268576,"lat":56.354497,"lon":12.819159,"k":"p","n":"B","ref":"B"},
+  {"id":5000411086597,"lat":56.354962,"lon":12.801413,"k":"p","n":"A","ref":"A"},
+  {"id":5000411086598,"lat":56.355325,"lon":12.801864,"k":"p","n":"B","ref":"B"},
+  {"id":5000411086599,"lat":56.355378,"lon":12.802224,"k":"p","n":"C","ref":"C"}
+],
+"routes":[
+  {"id":4110719,"t":{"ref":"505","name":"Buss 505: Förslöv => Torekov","from":"Förslövs station","to":"Torekov","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000411086598,1],[5000351268576,2],[3570296836,3],[1752325527,4]]},
+  {"id":4110720,"t":{"ref":"505","name":"Buss 505: Torekov => Förslöv","from":"Torekov busstation","to":"Förslöv","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[4128350440,21],[3570296834,22],[5000351268573,23],[5000411086597,24]]},
+  {"id":5971089,"t":{"ref":"503","name":"Buss 503: Förslöv => Ängelholm","from":"Förslöv","to":"Ängelholm","network":"Skånetrafiken","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000411086597,1]]},
+  {"id":5971090,"t":{"ref":"503","name":"Buss 503: Ängelholm => Förslöv","from":"Ängelholm","to":"Förslöv","network":"Skånetrafiken","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000411086599,20]]},
+  {"id":5971091,"t":{"ref":"504","name":"Buss 504: Båstad => Förslöv","from":"Båstad busstation","to":"Förslövs station","network":"Skånetrafiken","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":19,"s":[[3573157195,7],[4128350440,16],[3570296834,17],[5000351268573,18],[5000411086598,19]]},
+  {"id":5971092,"t":{"ref":"504","name":"Buss 504: Förslöv => Båstad","from":"Förslövs station","to":"Båstad busstation","network":"Skånetrafiken","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000411086599,1],[5000351268576,2],[3570296836,3],[1752325527,4],[3573157193,13]]}
+]
+}

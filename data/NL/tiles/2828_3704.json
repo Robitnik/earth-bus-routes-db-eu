@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2828,3704],
+"stops":[
+  {"id":1732707990,"lat":51.404124,"lon":5.208319,"k":"p","n":"Carolus Simplexplein"},
+  {"id":4600466955,"lat":51.404057,"lon":5.208116,"k":"p","n":"Carolus Simplexplein"},
+  {"id":6854559750,"lat":51.432924,"lon":5.225237,"k":"p","n":"Broekeindsedijk"},
+  {"id":6854559751,"lat":51.432907,"lon":5.225112,"k":"p","n":"Broekeindsedijk"},
+  {"id":6854559752,"lat":51.446379,"lon":5.211994,"k":"p","n":"Rakelbos"},
+  {"id":7039196548,"lat":51.404037,"lon":5.208166,"k":"x","n":"Netersel, Carolus Simplexplein"},
+  {"id":7039196549,"lat":51.404137,"lon":5.208276,"k":"x","n":"Netersel, Carolus Simplexplein"},
+  {"id":13818129578,"lat":51.439594,"lon":5.211163,"k":"p","n":"Kapel"},
+  {"id":14363335981,"lat":51.446407,"lon":5.211998,"k":"x","n":"Westelbeers, Rakelbos"}
+],
+"routes":[
+  {"id":3155727,"t":{"ref":"291","name":"Bus 291: Netersel Carolus Simplexplein => Middelbeers Hertog Janstraat","from":"Netersel, Carolus Simplexplein","to":"Middelbeers, Hertog Janstraat","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":24,"s":[[4600466955,1]]},
+  {"id":3155728,"t":{"ref":"291","name":"Bus 291: Middelbeers Hertog Janstraat => Netersel Carolus Simplexplein","from":"Middelbeers, Hertog Janstraat","to":"Netersel, Carolus Simplexplein","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":24,"s":[[1732707990,24]]},
+  {"id":10118197,"t":{"ref":"293","name":"Bus 293: Bladel Kerk => Hilvarenbeek Vrijthof","from":"Bladel, Kerk","to":"Hilvarenbeek, Vrijthof","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":14,"s":[[6854559750,4],[6854559752,5]]},
+  {"id":10118198,"t":{"ref":"293","name":"Bus 293: Hilvarenbeek Vrijthof => Bladel Kerk","from":"Hilvarenbeek, Vrijthof","to":"Bladel, Kerk","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":17,"s":[[6854559752,10],[6854559751,11]]},
+  {"id":10119652,"t":{"ref":"242","name":"Bus 242: Hilvarenbeek Vrijthof => Middelbeers Ganzeakkers","from":"Hilvarenbeek, Vrijthof","to":"Middelbeers, Ganzeakkers","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[6854559752,10]]},
+  {"id":10119653,"t":{"ref":"242","name":"Bus 242: Middelbeers Ganzeakkers => Hilvarenbeek Vrijthof","from":"Middelbeers, Ganzeakkers","to":"Hilvarenbeek, Vrijthof","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[6854559752,3]]},
+  {"id":20672568,"t":{"ref":"flex","name":"Bravoflex hub St. Jorisstraat, Oirschot","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":111,"s":[[6854559752,48],[13818129578,49]]},
+  {"id":20672578,"t":{"ref":"flex","name":"Bravoflex hub Doelenstraat, Hilvarenbeek","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":41,"s":[[6854559752,20],[13818129578,21]]},
+  {"id":20672582,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Reusel","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":43,"s":[[4600466955,19],[1732707990,20]]},
+  {"id":20672584,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Bladel","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":66,"s":[[4600466955,30],[1732707990,31],[6854559752,65],[13818129578,66]]}
+]
+}

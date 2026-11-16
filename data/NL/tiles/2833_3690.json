@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2833,3690],
+"stops":[
+  {"id":43412710,"lat":51.659806,"lon":4.535007,"k":"x","n":"Klundert, Zevenbergseweg"},
+  {"id":43413890,"lat":51.660136,"lon":4.535317,"k":"x","n":"Klundert, Zevenbergseweg"},
+  {"id":43423350,"lat":51.662198,"lon":4.534689,"k":"x","n":"Klundert, Zevenbergse Poort"},
+  {"id":617380866,"lat":51.652398,"lon":4.517141,"k":"p","n":"Stoofdijk"},
+  {"id":617380868,"lat":51.654463,"lon":4.542459,"k":"p","n":"De Druif"},
+  {"id":617380872,"lat":51.660627,"lon":4.529537,"k":"p","n":"Oranjestraat"},
+  {"id":617380875,"lat":51.659817,"lon":4.535059,"k":"p","n":"Zevenbergseweg"},
+  {"id":1295142005,"lat":51.652371,"lon":4.517208,"k":"x","n":"Klundert, Stoofdijk"},
+  {"id":2040097216,"lat":51.660693,"lon":4.529893,"k":"x","n":"Klundert, Oranjestraat"},
+  {"id":2686756689,"lat":51.662164,"lon":4.534799,"k":"p","n":"Zevenbergsepoort"},
+  {"id":3880074169,"lat":51.660658,"lon":4.529924,"k":"p","n":"Oranjestraat"},
+  {"id":3880074494,"lat":51.652458,"lon":4.517448,"k":"p","n":"Stoofdijk"},
+  {"id":3880074499,"lat":51.662391,"lon":4.535366,"k":"p","n":"Zevenbergsepoort"},
+  {"id":3880074500,"lat":51.660161,"lon":4.535298,"k":"p","n":"Zevenbergseweg"},
+  {"id":3880074610,"lat":51.654328,"lon":4.542501,"k":"p","n":"De Druif"},
+  {"id":3888191300,"lat":51.653927,"lon":4.540919,"k":"p","n":"Klundertsedijk"},
+  {"id":3888191301,"lat":51.654015,"lon":4.540939,"k":"p","n":"Klundertsedijk"},
+  {"id":5200944186,"lat":51.653971,"lon":4.540932,"k":"x","n":"Klundert, Klundertsedijk"},
+  {"id":5200944187,"lat":51.662393,"lon":4.53538,"k":"x","n":"Klundert, Zevenbergsepoort"},
+  {"id":5200944194,"lat":51.660572,"lon":4.529564,"k":"x","n":"Klundert, Oranjestraat"},
+  {"id":5201917954,"lat":51.65253,"lon":4.517365,"k":"x","n":"Klundert, Stoofdijk"},
+  {"id":5213039058,"lat":51.654389,"lon":4.542559,"k":"x","n":"Klundert, De Druif"},
+  {"id":5213039059,"lat":51.654412,"lon":4.542445,"k":"x","n":"Klundert, De Druif"},
+  {"id":13517038773,"lat":51.6781,"lon":4.525778,"k":"p","n":"Noordschans"}
+],
+"routes":[
+  {"id":391033,"t":{"ref":"173","name":"Bus 173: Breda Centraal Station => Fijnaart Busstation","from":"Breda, Centraal Station","to":"Fijnaart, Busstation","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":23,"s":[[617380868,16],[617380875,17],[2686756689,18],[617380872,19],[617380866,20]]},
+  {"id":391034,"t":{"ref":"173","name":"Bus 173: Fijnaart Busstation => Breda Centraal Station","from":"Fijnaart, Busstation","to":"Breda, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":23,"s":[[3880074494,4],[3880074169,5],[3880074499,6],[3880074500,7],[3880074610,8]]},
+  {"id":5735332,"t":{"ref":"210","name":"Bus 210: Klundert Oranjestraat => Oudenbosch Station","from":"Klundert, Oranjestraat","to":"Oudenbosch, Station","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":14,"s":[[3880074169,1],[3880074499,2],[3880074500,3],[3888191301,4]]},
+  {"id":5735333,"t":{"ref":"210","name":"Bus 210: Oudenbosch Station => Klundert Oranjestraat","from":"Oudenbosch, Station","to":"Klundert, Oranjestraat","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":15,"s":[[3888191300,12],[617380875,13],[2686756689,14],[617380872,15]]},
+  {"id":10409512,"t":{"ref":"200","name":"Bus 200: Dinteloord Noordlangeweg => Klundert Oranjestraat","from":"Dinteloord, Noordlangeweg","to":"Klundert, Oranjestraat","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":16,"s":[[3880074494,15],[617380872,16]]},
+  {"id":10409513,"t":{"ref":"200","name":"Bus 200: Klundert Oranjestraat => Dinteloord Noordlangeweg","from":"Klundert, Oranjestraat","to":"Dinteloord, Noordlangeweg","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":16,"s":[[617380872,1],[617380866,2]]},
+  {"id":20161287,"t":{"ref":"flex","name":"Bravoflex hub Station, Zevenbergen","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":65,"s":[[13517038773,2],[3880074500,3],[617380875,4],[2686756689,5],[3880074499,6],[617380868,7],[3888191300,8],[3888191301,9],[3880074610,10],[3880074494,11]]},
+  {"id":20161288,"t":{"ref":"flex","name":"Bravoflex hub Oranjestraat, Klundert","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":45,"s":[[3880074494,1],[617380866,2],[3880074169,3],[617380872,4],[617380868,36],[3888191300,37],[3888191301,38],[3880074610,39],[3880074500,40],[617380875,41],[2686756689,42],[3880074499,43],[13517038773,45]]},
+  {"id":20161289,"t":{"ref":"flex","name":"Bravoflex hub Station, Oudenbosch","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":56,"s":[[617380868,12],[3888191300,13],[3888191301,14],[3880074610,15]]},
+  {"id":20161293,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Fijnaart","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":77,"s":[[617380868,22],[3888191300,23],[3888191301,24],[3880074610,25],[3880074494,26],[617380866,27],[3880074500,28],[617380875,29],[2686756689,30],[3880074499,31],[13517038773,33]]}
+]
+}

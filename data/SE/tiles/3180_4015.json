@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3180,4015],
+"stops":[
+  {"id":357380962,"lat":69.049587,"lon":20.793302,"k":"x"},
+  {"id":610559665,"lat":69.046702,"lon":20.799136,"k":"p","n":"Kilpisjärven retkeilykeskus E"},
+  {"id":1831841654,"lat":69.047748,"lon":20.798197,"k":"p","n":"Kilpisjärvi retkeilykeskus piha"},
+  {"id":2211323557,"lat":69.048312,"lon":20.796234,"k":"p","n":"Kilpisjärven retkeilykeskus P"},
+  {"id":2211323575,"lat":69.047732,"lon":20.798132,"k":"x"},
+  {"id":2211323682,"lat":69.046765,"lon":20.799256,"k":"x"},
+  {"id":2510244221,"lat":69.049512,"lon":20.79316,"k":"p","n":"Kilpisjärven retkeilualue E"},
+  {"id":4303928981,"lat":69.048274,"lon":20.796106,"k":"x"}
+],
+"routes":[
+  {"id":2830857,"t":{"ref":"Kilpisjärvi-Rovaniemi","name":"Kilpisjärvi-Rovaniemi","from":"Kilpisjärvi","to":"Rovaniemi","operator":"Gold Line Oy","route":"bus"},"n":3,"s":[[610559665,1]]},
+  {"id":13598782,"t":{"ref":"F43","name":"F43 FLEX - KILPISJÄRVI - ROVANIEMI","from":"Rovaniemi","to":"Kilpisjärvi","network":"Onnibus FLEX","operator":"Onnibus","route":"bus"},"n":12,"s":[[1831841654,10]]},
+  {"id":15034802,"t":{"name":"Rovaniemi-Kilpisjärvi-(Tromsø)","from":"Rovaniemi","to":"(Tromsø) - Kilpisjärvi","network":"Eskelisen Lapin Linjat","operator":"Eskelisen Lapin Linjat","route":"bus","public_transport:version":"2"},"n":8,"s":[[610559665,6],[1831841654,7]]},
+  {"id":15034803,"t":{"name":"(Tromsø) - Kilpisjärvi","from":"(Tromsø)-Kilpisjärvi-Rovaniemi","to":"Rovaniemi","network":"Eskelisen Lapin Linjat","operator":"Eskelisen Lapin Linjat","route":"bus","public_transport:version":"2"},"n":8,"s":[[1831841654,2],[610559665,3]]}
+]
+}

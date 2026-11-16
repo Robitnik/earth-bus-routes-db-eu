@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2829,3705],
+"stops":[
+  {"id":617858554,"lat":51.467786,"lon":5.250254,"k":"p","n":"Hertog Janstraat"},
+  {"id":617858557,"lat":51.468601,"lon":5.259181,"k":"p","n":"Sportparklaan"},
+  {"id":617858558,"lat":51.473098,"lon":5.268877,"k":"x","n":"Oostelbeers, Andreasstraat"},
+  {"id":1181357422,"lat":51.467896,"lon":5.250023,"k":"x","n":"Middelbeers, Hertog Janstraat"},
+  {"id":1732728791,"lat":51.450542,"lon":5.260221,"k":"p","n":"Kuikseindseweg"},
+  {"id":2083781361,"lat":51.491607,"lon":5.29667,"k":"x","n":"Oostelbeers, Beerschotseweg"},
+  {"id":3770431996,"lat":51.468929,"lon":5.260539,"k":"p","n":"Sportparklaan"},
+  {"id":3770433386,"lat":51.472941,"lon":5.268894,"k":"x","n":"Oostelbeers, Andreasstraat"},
+  {"id":3770433403,"lat":51.4679,"lon":5.251349,"k":"p","n":"Hertog Janstraat"},
+  {"id":5219739996,"lat":51.467853,"lon":5.251374,"k":"x","n":"Middelbeers, Hertog Janstraat"},
+  {"id":5548205438,"lat":51.473104,"lon":5.26903,"k":"p","n":"Andreasstraat"},
+  {"id":5548205439,"lat":51.472929,"lon":5.268798,"k":"p","n":"Andreasstraat"},
+  {"id":9321181310,"lat":51.491615,"lon":5.298858,"k":"x","n":"Oostelbeers, Beerschotseweg"},
+  {"id":9321181311,"lat":51.491553,"lon":5.298861,"k":"p","n":"Beerschotseweg"},
+  {"id":9321181312,"lat":51.491658,"lon":5.296659,"k":"p","n":"Beerschotseweg"},
+  {"id":9858720925,"lat":51.46863,"lon":5.259184,"k":"x","n":"Middelbeers, Sportparklaan"},
+  {"id":9858720926,"lat":51.468886,"lon":5.260562,"k":"x","n":"Middelbeers, Sportparklaan"},
+  {"id":9957735967,"lat":51.467821,"lon":5.250286,"k":"x","n":"Middelbeers, Hertog Janstraat"},
+  {"id":13818129574,"lat":51.489291,"lon":5.251051,"k":"p","n":"Natuurbegraafplaats Bos v/d Heilige Geest"},
+  {"id":13818129575,"lat":51.464645,"lon":5.257092,"k":"p","n":"Tinnegieter"},
+  {"id":13818309626,"lat":51.466143,"lon":5.274707,"k":"p","n":"Hillestraat"}
+],
+"routes":[
+  {"id":391297,"t":{"ref":"142","name":"Bus 142: Tilburg Centraal Station => Best Station","from":"Tilburg, Centraal Station","to":"Best, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":35,"s":[[617858554,23],[617858557,24],[5548205438,25],[9321181311,26]]},
+  {"id":391298,"t":{"ref":"142","name":"Bus 142: Best Station => Tilburg Centraal Station","from":"Best, Station","to":"Tilburg, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":37,"s":[[9321181312,10],[5548205439,11],[3770431996,12],[3770433403,13]]},
+  {"id":3155727,"t":{"ref":"291","name":"Bus 291: Netersel Carolus Simplexplein => Middelbeers Hertog Janstraat","from":"Netersel, Carolus Simplexplein","to":"Middelbeers, Hertog Janstraat","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":24,"s":[[3770433403,24]]},
+  {"id":3155728,"t":{"ref":"291","name":"Bus 291: Middelbeers Hertog Janstraat => Netersel Carolus Simplexplein","from":"Middelbeers, Hertog Janstraat","to":"Netersel, Carolus Simplexplein","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":24,"s":[[617858554,1],[1732728791,2]]},
+  {"id":10119652,"t":{"ref":"242","name":"Bus 242: Hilvarenbeek Vrijthof => Middelbeers Ganzeakkers","from":"Hilvarenbeek, Vrijthof","to":"Middelbeers, Ganzeakkers","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[3770433403,11]]},
+  {"id":10119653,"t":{"ref":"242","name":"Bus 242: Middelbeers Ganzeakkers => Hilvarenbeek Vrijthof","from":"Middelbeers, Ganzeakkers","to":"Hilvarenbeek, Vrijthof","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[617858554,2]]},
+  {"id":20672561,"t":{"ref":"flex","name":"Bravoflex hub Station, Best","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":141,"s":[[9321181311,56],[9321181312,57]]},
+  {"id":20672568,"t":{"ref":"flex","name":"Bravoflex hub St. Jorisstraat, Oirschot","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":111,"s":[[13818309626,50],[3770431996,51],[3770433403,53],[5548205438,57],[617858557,58],[5548205439,59],[617858554,60],[13818129575,62],[1732728791,63],[13818129574,65],[9321181311,85],[9321181312,87]]},
+  {"id":20672578,"t":{"ref":"flex","name":"Bravoflex hub Doelenstraat, Hilvarenbeek","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":41,"s":[[13818129574,4],[13818309626,6],[3770431996,7],[3770433403,9],[5548205438,13],[617858557,14],[5548205439,15],[617858554,16],[13818129575,17],[1732728791,18]]},
+  {"id":21087935,"t":{"ref":"142","name":"Bus 142: Tilburg Centraal Station => Best Station","from":"Tilburg, Centraal Station","to":"Best, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[617858554,24],[617858557,25],[5548205438,26],[9321181311,27]]},
+  {"id":21087936,"t":{"ref":"142","name":"Bus 142: Best Station => Tilburg Centraal Station","from":"Best, Station","to":"Tilburg, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[9321181312,10],[5548205439,11],[3770431996,12],[3770433403,13]]}
+]
+}

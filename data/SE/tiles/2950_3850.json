@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2950,3850],
+"stops":[
+  {"id":2446795079,"lat":57.548683,"lon":12.531994,"k":"x","n":"Hyssna handel","ref":"B"},
+  {"id":6204768957,"lat":57.533451,"lon":12.53277,"k":"x","n":"Stenabo","ref":"B"},
+  {"id":6204768964,"lat":57.537044,"lon":12.531195,"k":"x","n":"Bonared","ref":"A"},
+  {"id":6204768990,"lat":57.5199,"lon":12.547358,"k":"x","n":"Hjorttorps Hede","ref":"A"},
+  {"id":6204769170,"lat":57.532603,"lon":12.533263,"k":"x","n":"Stenabo","ref":"A"},
+  {"id":9968512908,"lat":57.547944,"lon":12.532612,"k":"x","n":"Hyssna handel","ref":"A"},
+  {"id":12883993439,"lat":57.52077,"lon":12.54603,"k":"x","n":"Hjorttorps Hede","ref":"B"},
+  {"id":12883993448,"lat":57.538548,"lon":12.531279,"k":"x","n":"Bonared","ref":"B"},
+  {"id":12883993457,"lat":57.543796,"lon":12.534116,"k":"x","n":"Bläsebo","ref":"B"},
+  {"id":12883993458,"lat":57.543623,"lon":12.534024,"k":"x","n":"Bläsebo","ref":"A"},
+  {"id":12889433761,"lat":57.504655,"lon":12.549244,"k":"x","n":"Hajoms kyrka","ref":"B"},
+  {"id":12889433762,"lat":57.504648,"lon":12.549179,"k":"p","n":"B","ref":"B"},
+  {"id":12889433763,"lat":57.504179,"lon":12.549691,"k":"p","n":"A","ref":"A"},
+  {"id":12889433764,"lat":57.504167,"lon":12.549632,"k":"x","n":"Hajoms kyrka","ref":"A"},
+  {"id":5000964620610,"lat":57.548664,"lon":12.532139,"k":"p","n":"B","ref":"B"},
+  {"id":5000964620611,"lat":57.547963,"lon":12.532472,"k":"p","n":"A","ref":"A"},
+  {"id":5001391875060,"lat":57.519885,"lon":12.54726,"k":"p","n":"A","ref":"A"},
+  {"id":5001391875061,"lat":57.52076,"lon":12.546174,"k":"p","n":"B","ref":"B"},
+  {"id":5001391875062,"lat":57.537068,"lon":12.531107,"k":"p","n":"A","ref":"A"},
+  {"id":5001391875063,"lat":57.538485,"lon":12.531335,"k":"p","n":"B","ref":"B"},
+  {"id":5001391875064,"lat":57.532634,"lon":12.533161,"k":"p","n":"A","ref":"A"},
+  {"id":5001391875065,"lat":57.533409,"lon":12.532884,"k":"p","n":"B","ref":"B"},
+  {"id":5001391875066,"lat":57.543692,"lon":12.53396,"k":"p","n":"A","ref":"A"},
+  {"id":5001391875067,"lat":57.543728,"lon":12.534167,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":3186409,"t":{"ref":"300","name":"Buss 300: Kinna - Göteborg","from":"Kinna resecentrum","to":"Åkareplatsen","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000964620610,6]]},
+  {"id":3201869,"t":{"ref":"430","name":"Buss 430: Liseberg station - Sätila - Kinna","from":"Liseberg station","to":"Kinna Resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":44,"s":[[5000964620611,29],[5001391875066,30],[5001391875062,31],[5001391875064,32],[5001391875060,33]]},
+  {"id":3201870,"t":{"ref":"430","name":"Buss 430: Kinna - Sätila - Lisebergs Station","from":"Kinna Resecentrum","to":"Lisebergs Station","network":"Västtrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":45,"s":[[5001391875061,13],[5001391875065,14],[5001391875063,15],[5001391875067,16],[5000964620610,17]]},
+  {"id":19209990,"t":{"ref":"430","name":"Buss 430: Kinna - Sätila - Landvetter","from":"Kinna resecentrum","to":"Landvetter resecentrum","network":"Västtrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":43,"s":[[5001391875061,13],[5001391875065,14],[5001391875063,15],[5001391875067,16],[5000964620610,17]]},
+  {"id":19210000,"t":{"ref":"430","name":"Buss 430: Landvetter - Sätila - Kinna","from":"Landvetter resecentrum","to":"Kinna resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000964620611,27],[5001391875066,28],[5001391875062,29],[5001391875064,30],[5001391875060,31]]},
+  {"id":19210454,"t":{"ref":"300","name":"Buss 300: Göteborg - Kinna","from":"Åkareplatsen","to":"Kinna resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000964620611,10]]},
+  {"id":19215177,"t":{"ref":"442","name":"Buss 442: Kinna - Fotskäl - Tostared","from":"Kinna resecentrum","to":"Kulla","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":31,"s":[[12889433762,13]]},
+  {"id":19215238,"t":{"ref":"442","name":"Buss 442: Tostared - Fotskäl - Kinna","from":"Kulla","to":"Kinna resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":30,"s":[[12889433763,19]]}
+]
+}

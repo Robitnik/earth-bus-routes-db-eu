@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3073,4005],
+"stops":[
+  {"id":313109597,"lat":63.687411,"lon":20.299283,"k":"x","n":"Bodviksvägen"},
+  {"id":2066501710,"lat":63.684875,"lon":20.299087,"k":"p","ref":"A"},
+  {"id":2066501835,"lat":63.684847,"lon":20.298981,"k":"x","n":"Byviken"},
+  {"id":2066850102,"lat":63.6901,"lon":20.299484,"k":"p","ref":"A"},
+  {"id":2066850113,"lat":63.689861,"lon":20.29913,"k":"p","ref":"B"},
+  {"id":2066850121,"lat":63.689821,"lon":20.299257,"k":"x","n":"Byvägen"},
+  {"id":2066850122,"lat":63.690156,"lon":20.299335,"k":"x","n":"Byvägen"},
+  {"id":9884927920,"lat":63.687411,"lon":20.299212,"k":"p","ref":"B"},
+  {"id":9884927921,"lat":63.687911,"lon":20.299229,"k":"p","ref":"A"},
+  {"id":9884927922,"lat":63.687933,"lon":20.299189,"k":"x","n":"Bodviksvägen"}
+],
+"routes":[
+  {"id":14349677,"t":{"ref":"125","name":"Buss 125: Obbola => Umeå Airport => Umeå","from":"Obbola Byviken","to":"Umeå Vasaplan","network":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":10,"s":[[2066501710,1],[9884927921,2],[2066850102,3]]},
+  {"id":14350659,"t":{"ref":"125","name":"Buss 125: Umeå => Umeå Airport => Obbola","from":"Umeå Vasaplan","to":"Obbola Byviken","network":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":25,"s":[[2066850113,24],[2066501710,25]]},
+  {"id":14351578,"t":{"ref":"123","name":"Buss 123: Obbola => Holmsund => Umeå","from":"Obbola Byviken","to":"Umeå Vasaplan","network":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":29,"s":[[2066501710,1],[9884927921,2],[2066850102,3]]},
+  {"id":14354346,"t":{"ref":"123","name":"Buss 123: Umeå => Holmsund => Obbola","from":"Umeå Vasaplan","to":"Obbola Byviken","network":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":31,"s":[[2066850113,29],[9884927920,30],[2066501710,31]]}
+]
+}

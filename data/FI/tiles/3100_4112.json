@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3100,4112],
+"stops":[
+  {"id":281895298,"lat":65.045953,"lon":25.611602,"k":"p","n":"Kornetintie E","ref":"1824"},
+  {"id":412538576,"lat":65.043174,"lon":25.616628,"k":"p","n":"Tähtipolku P"},
+  {"id":412538586,"lat":65.042772,"lon":25.616027,"k":"p","n":"Tähtipolku E"},
+  {"id":1280467036,"lat":65.041112,"lon":25.612263,"k":"p","n":"Pikku Karhu E"},
+  {"id":1280467043,"lat":65.041205,"lon":25.612337,"k":"p","n":"Pikku Karhu P"},
+  {"id":2122252715,"lat":65.041809,"lon":25.602529,"k":"p","n":"Huurrekuja P","ref":"1868"},
+  {"id":2122252719,"lat":65.041889,"lon":25.601504,"k":"p","n":"Huurrekuja E","ref":"1867"},
+  {"id":3713587427,"lat":65.044854,"lon":25.648519,"k":"p","n":"Polvisuontie E","ref":"1840"},
+  {"id":3713587430,"lat":65.04562,"lon":25.647186,"k":"p","n":"Polvisuontie P","ref":"1841"},
+  {"id":5572780299,"lat":65.005686,"lon":25.602841,"k":"p","n":"Vaskikangas E"},
+  {"id":5572780300,"lat":65.005892,"lon":25.60311,"k":"p","n":"Vaskikangas P"},
+  {"id":5572780301,"lat":65.00192,"lon":25.608732,"k":"p","n":"Liikkujantie E"},
+  {"id":5572780302,"lat":65.001978,"lon":25.6089,"k":"p","n":"Liikkujantie P"},
+  {"id":6000876990,"lat":65.046259,"lon":25.612332,"k":"p","n":"Kornetintie P","ref":"1843"},
+  {"id":9060466550,"lat":65.013033,"lon":25.602206,"k":"p"},
+  {"id":9060466551,"lat":65.012822,"lon":25.602576,"k":"p"},
+  {"id":13180118803,"lat":65.007174,"lon":25.600613,"k":"p","n":"Jääkärimarssi E","ref":"3455"},
+  {"id":13180118804,"lat":65.008043,"lon":25.60065,"k":"p","n":"Jääkärimarssi P","ref":"3456"}
+],
+"routes":[
+  {"id":8228411,"t":{"ref":"10","name":"10 Heikinharju – Koskela","from":"Johdinkuja E","to":"Koskela","network":"Oulun joukkoliikenne","operator":"Koiviston auto Oulu","route":"bus","public_transport:version":"2"},"n":49,"s":[[281895298,4],[412538586,5],[1280467043,6],[2122252719,7]]},
+  {"id":9038728,"t":{"ref":"5","name":"5 Kivikkokangas – Kaijonharju","from":"Suojuoksuntie E","to":"Kaijonlahdentie E","network":"Oulun seudun liikenne","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":41,"s":[[5572780302,5],[5572780300,6],[13180118804,7]]},
+  {"id":11363804,"t":{"ref":"5","name":"5 Kaijonharju – Kivikkokangas","from":"Kaijonlahdentie P","to":"Suojuoksuntie P","network":"Oulun seudun liikenne","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":40,"s":[[13180118803,34],[5572780299,35],[5572780301,36]]},
+  {"id":13565588,"t":{"ref":"9","name":"9 Heikinharju – Lentoasema","from":"Johdinkuja E","to":"Lentoasema","network":"Oulun Joukkoliikenne","operator":"Koskilinjat","route":"bus","public_transport:version":"2"},"n":61,"s":[[281895298,4],[412538586,5],[1280467043,6],[2122252719,7]]},
+  {"id":15879220,"t":{"ref":"19","name":"19 Vaskikangas-Pateniemenranta","from":"Vaskikangas P","to":"Pyssysepäntie P","network":"Oulun seudun liikenne","operator":"Koiviston Auto Oulu oy","route":"bus","public_transport:version":"2"},"n":45,"s":[[5572780300,1],[13180118804,2]]},
+  {"id":15879221,"t":{"ref":"19","name":"19 Pateniemenranta-Vaskikangas","from":"Pyssysepäntie P","to":"Vaskikangas E","network":"Oulun seudun liikenne","operator":"Koiviston Auto Oulu oy","route":"bus","public_transport:version":"2"},"n":45,"s":[[13180118803,44],[5572780299,45]]},
+  {"id":15881018,"t":{"ref":"11","name":"11 Kivikkokangas-Keskusta(Kuvernööri)","from":"Kivikkokangas","to":"Keskusta","network":"Oulun seudun liikenne","operator":"Koskilinjat Oy","route":"bus","public_transport:version":"2"},"n":29,"s":[[5572780302,5],[5572780300,6],[13180118804,7]]},
+  {"id":15881019,"t":{"ref":"11","name":"11 Keskusta (Kuvernööri) - Kivikkokangas","from":"Keskusta (Kuvernööri)","to":"Kivikkokangas","network":"Oulun seudun liikenne","operator":"Koskilinjat Oy","route":"bus","public_transport:version":"2"},"n":29,"s":[[13180118803,23],[5572780299,24],[5572780301,25]]},
+  {"id":15881284,"t":{"ref":"5N","name":"5N Saarela – Kaijonharju","from":"Rantasaarela P","to":"Kaijonlahdentie E","network":"Oulun seudun liikenne","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":46,"s":[[5572780302,8],[5572780300,9],[13180118804,10]]},
+  {"id":15881285,"t":{"ref":"5N","name":"5N Kaijonharju – Saarela","from":"Kaijonlahdentie P","to":"Rantasaarela P","network":"Oulun seudun liikenne","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":50,"s":[[13180118803,40],[5572780299,41],[5572780301,42]]},
+  {"id":16771723,"t":{"ref":"9","name":"9 Lentoasema – Heikinharju","network":"Oulun Joukkoliikenne","operator":"Koskilinjat","route":"bus","public_transport:version":"2"},"n":60,"s":[[2122252715,54],[1280467036,55],[412538576,56],[6000876990,57]]},
+  {"id":19659755,"t":{"ref":"10","name":"10 Koskela - Heikinharju","from":"Koskela","to":"Johdinkuja P","network":"Oulun joukkoliikenne","operator":"Koiviston auto Oulu","route":"bus","public_transport:version":"2"},"n":48,"s":[[2122252715,42],[1280467036,43],[412538576,44],[6000876990,45]]},
+  {"id":19659842,"t":{"ref":"10","name":"10P Koskela - Heikinharju","from":"Koskela","to":"Palmu P","network":"Oulun joukkoliikenne","operator":"Koiviston auto Oulu","route":"bus","public_transport:version":"2"},"n":49,"s":[[2122252715,42],[1280467036,43],[412538576,44],[6000876990,45]]},
+  {"id":19659843,"t":{"ref":"10P","name":"10P Heikinharju – Koskela","from":"Palmu E","to":"Koskela","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":50,"s":[[281895298,5],[412538586,6],[1280467043,7],[2122252719,8]]}
+]
+}

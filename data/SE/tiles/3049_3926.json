@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3049,3926],
+"stops":[
+  {"id":363909364,"lat":62.475864,"lon":16.321553,"k":"x","n":"Klöstre"},
+  {"id":363910841,"lat":62.467903,"lon":16.345723,"k":"x","n":"Torpshammar kyrka"},
+  {"id":503277577,"lat":62.468048,"lon":16.325068,"k":"x","n":"Gim bron"},
+  {"id":503277599,"lat":62.461689,"lon":16.344502,"k":"x","n":"Gim"},
+  {"id":503277640,"lat":62.468197,"lon":16.324685,"k":"x","n":"Gim bron"},
+  {"id":1751673705,"lat":62.472859,"lon":16.330084,"k":"x","n":"Torpshammar Konsum"},
+  {"id":2193378398,"lat":62.468254,"lon":16.324562,"k":"p","n":"Gim bron"},
+  {"id":2193378399,"lat":62.467872,"lon":16.3251,"k":"p","n":"Gim bron"},
+  {"id":2193940909,"lat":62.475806,"lon":16.321477,"k":"p","n":"Klöstre"},
+  {"id":5000209160615,"lat":62.472905,"lon":16.330128,"k":"p","n":"Torpshammar Konsum"},
+  {"id":5000209160616,"lat":62.472825,"lon":16.330033,"k":"p","n":"Torpshammar Konsum"}
+],
+"routes":[
+  {"id":2805476,"t":{"ref":"191","name":"Buss 191: Sundsvall => Ånge","from":"Sundsvall","to":"Ånge","network":"DinTur","route":"bus","public_transport:version":"2"},"n":70,"s":[[5000209160615,52]]},
+  {"id":2805477,"t":{"ref":"191","name":"Buss 191: Ånge => Sundsvall","from":"Ånge","to":"Sundsvall","network":"DinTur","route":"bus","public_transport:version":"2"},"n":64,"s":[[2193940909,7],[5000209160616,8]]},
+  {"id":2810579,"t":{"ref":"192","name":"Buss 192: Gösunda => Ljungaverk => Ånge","from":"Gösunda","to":"Ånge","network":"DinTur","route":"bus","public_transport:version":"2"},"n":48,"s":[[503277599,4],[1751673705,5],[503277640,6]]},
+  {"id":2810582,"t":{"ref":"192","name":"Buss 192: Ånge => Ljungaverk => Viskan","from":"Ånge","to":"Viskan","network":"DinTur","route":"bus","public_transport:version":"2"},"n":49,"s":[[503277577,43],[363910841,44]]},
+  {"id":3271521,"t":{"ref":"192","name":"Buss 192: Ljungaverk => Gösunda","from":"Ljungaverk","to":"Gösunda","network":"DinTur","route":"bus","public_transport:version":"2"},"n":2,"s":[[2193378399,1]]},
+  {"id":3271522,"t":{"ref":"192","name":"Buss 192: Ånge => Ljungaverk => Gösunda","from":"Ånge","to":"Gösunda","network":"DinTur","route":"bus","public_transport:version":"2"},"n":2,"s":[[2193378399,1]]}
+]
+}

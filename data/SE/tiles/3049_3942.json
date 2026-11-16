@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3049,3942],
+"stops":[
+  {"id":842350498,"lat":62.480818,"lon":17.136784,"k":"x","n":"Kovland väg 320"},
+  {"id":842350506,"lat":62.484732,"lon":17.13026,"k":"x","n":"Lövsätt väg 320"},
+  {"id":842350510,"lat":62.493877,"lon":17.116191,"k":"x","n":"Gåltjärn östra"},
+  {"id":842350528,"lat":62.498421,"lon":17.100015,"k":"x","n":"Gåltjärn västra"},
+  {"id":1329993833,"lat":62.489764,"lon":17.124179,"k":"x","n":"Klockarbacken väg 320"},
+  {"id":3542542033,"lat":62.494028,"lon":17.115556,"k":"x","n":"Gåltjärn östra"},
+  {"id":5068691978,"lat":62.498846,"lon":17.149989,"k":"p","n":"Bjärme Södra","ref":"B"},
+  {"id":7152653250,"lat":62.490101,"lon":17.123751,"k":"x","n":"Klockarbacken väg 320"},
+  {"id":10604554870,"lat":62.498511,"lon":17.100048,"k":"p","n":"Gåltjärn västra","ref":"A"},
+  {"id":10604554871,"lat":62.498215,"lon":17.100642,"k":"x","n":"Gåltjärn västra"},
+  {"id":10604554872,"lat":62.498159,"lon":17.10059,"k":"p","n":"Gåltjärn västra","ref":"B"},
+  {"id":10604554873,"lat":62.494108,"lon":17.115508,"k":"p","n":"Gåltjärn östra","ref":"A"},
+  {"id":10604554874,"lat":62.493812,"lon":17.116211,"k":"p","n":"Gåltjärn östra","ref":"B"},
+  {"id":10604554878,"lat":62.490041,"lon":17.123721,"k":"p","n":"Klockarbacken väg 320","ref":"B"},
+  {"id":10604554879,"lat":62.489865,"lon":17.124258,"k":"p","n":"Klockarbacken väg 320","ref":"A"},
+  {"id":10604554880,"lat":62.485232,"lon":17.129622,"k":"x","n":"Lövsätt väg 320"},
+  {"id":10604554887,"lat":62.485288,"lon":17.129772,"k":"p","n":"Lövsätt väg 320","ref":"A"},
+  {"id":10604554888,"lat":62.484657,"lon":17.130231,"k":"p","n":"Lövsätt väg 320","ref":"B"},
+  {"id":10604620206,"lat":62.481246,"lon":17.135983,"k":"x","n":"Kovland väg 320"},
+  {"id":10604620207,"lat":62.481317,"lon":17.136022,"k":"p","n":"Kovland väg 320","ref":"A"},
+  {"id":10604620208,"lat":62.480796,"lon":17.136711,"k":"p","n":"Kovland väg 320","ref":"B"}
+],
+"routes":[
+  {"id":2655096,"t":{"ref":"30","name":"Buss 30: Hammarstrand => Sundsvall","from":"Hammarstrand","to":"Sundsvall","network":"DinTur","route":"bus","public_transport:version":"2"},"n":38,"s":[[5068691978,9]]},
+  {"id":2655097,"t":{"ref":"28","name":"Buss 28: Sundsvall => Holm","from":"Sundsvall","to":"Anundgård","network":"DinTur","route":"bus","public_transport:version":"2"},"n":32,"s":[[10604620207,26],[10604554887,27],[10604554873,28],[10604554870,29]]},
+  {"id":2655100,"t":{"ref":"28","name":"Buss 28: Holm => Sundsvall","from":"Anundgård","to":"Sundsvall","network":"DinTur","route":"bus","public_transport:version":"2"},"n":34,"s":[[10604554872,4],[10604554874,5],[10604554878,6],[10604554888,7],[10604620208,8]]},
+  {"id":2656515,"t":{"ref":"134","name":"Buss 134: Kovland => Västansjö","from":"Kovland","to":"Västansjö","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[10604554870,1],[10604554873,2],[10604554887,3],[10604620207,4]]},
+  {"id":2656516,"t":{"ref":"134","name":"Buss 134: Västansjö => Kovland","from":"Västansjö","to":"Kovland","network":"DinTur","route":"bus","public_transport:version":"2"},"n":6,"s":[[10604554872,1],[10604554874,2],[10604554878,3],[10604554888,4],[10604620208,5]]},
+  {"id":15426561,"t":{"ref":"133","name":"Buss 133: Sundsvall => Kovland => Strömås-Högsjö","from":"Sundsvall","to":"Kovland-Strömås-Högsjö","network":"DinTur","route":"bus","public_transport:version":"2"},"n":26,"s":[[10604620207,19],[10604554887,20],[10604554879,21],[10604554873,22],[10604554870,23]]},
+  {"id":15428424,"t":{"ref":"133","name":"Buss 133: Sundsvall => Kovland => Sulå","from":"Sundsvall","to":"Sulå","network":"DinTur","route":"bus","public_transport:version":"2"},"n":26,"s":[[10604620207,19],[10604554887,20],[10604554879,21],[10604554873,22],[10604554870,23]]}
+]
+}

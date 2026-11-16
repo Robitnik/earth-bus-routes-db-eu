@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2857,3720],
+"stops":[
+  {"id":661435036,"lat":52.85799,"lon":6.023617,"k":"p","n":"De Linde"},
+  {"id":661435037,"lat":52.85671,"lon":6.027094,"k":"p","n":"De Linde"},
+  {"id":661435045,"lat":52.872906,"lon":6.005598,"k":"p","n":"Lindenoord"},
+  {"id":661435046,"lat":52.873124,"lon":6.005516,"k":"p","n":"Lindenoord"},
+  {"id":661435047,"lat":52.879513,"lon":6.005089,"k":"p","n":"Station"},
+  {"id":661435049,"lat":52.884709,"lon":6.002114,"k":"p","n":"Om den Noort"},
+  {"id":661435050,"lat":52.884829,"lon":6.002244,"k":"p","n":"Om den Noort"},
+  {"id":661435051,"lat":52.888164,"lon":6.000078,"k":"p","n":"Scheeneweg"},
+  {"id":661435056,"lat":52.888295,"lon":6.000184,"k":"p","n":"Scheeneweg"},
+  {"id":1722083489,"lat":52.883874,"lon":6.006419,"k":"p","n":"Linde College"},
+  {"id":1722083583,"lat":52.879907,"lon":6.00428,"k":"p","n":"Station"},
+  {"id":1722083616,"lat":52.883859,"lon":6.006374,"k":"x","n":"Wolvega, Linde College"},
+  {"id":3422166783,"lat":52.87678,"lon":6.007681,"k":"p","n":"Hoofdstraat Oost"},
+  {"id":3422166784,"lat":52.877086,"lon":6.007529,"k":"p","n":"Hoofdstraat Oost"},
+  {"id":4062449867,"lat":52.87995,"lon":6.004385,"k":"x","n":"Wolvega, Station"},
+  {"id":4063950050,"lat":52.884449,"lon":6.004718,"k":"p","n":"Om den Noort"},
+  {"id":4849623493,"lat":52.874656,"lon":6.00831,"k":"p","n":"Tulpstraat"},
+  {"id":4892657212,"lat":52.884335,"lon":6.004191,"k":"p","n":"Om den Noort"},
+  {"id":13667946731,"lat":52.879463,"lon":6.004993,"k":"x","n":"Wolvega, Station"}
+],
+"routes":[
+  {"id":445041,"t":{"ref":"16","name":"Bus 16: Oosterwolde Busstation => Wolvega Station","from":"Oosterwolde, Busstation","to":"Wolvega, Station","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":10,"s":[[4892657212,9],[1722083583,10]]},
+  {"id":445042,"t":{"ref":"16","name":"Bus 16: Wolvega Station => Oosterwolde Busstation","from":"Wolvega, Station","to":"Oosterwolde, Busstation","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":10,"s":[[661435047,1],[4063950050,2]]},
+  {"id":445044,"t":{"ref":"17","name":"Bus 17: Heerenveen Busstation => Noordwolde Vlechtmuseum","from":"Heerenveen, Busstation","to":"Noordwolde, Vlechtmuseum","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":34,"s":[[661435051,15],[661435049,16],[1722083583,17],[3422166783,18],[661435045,19],[661435036,20]]},
+  {"id":445046,"t":{"ref":"17","name":"Bus 17: Noordwolde Vlechtmuseum => Heerenveen Busstation","from":"Noordwolde, Vlechtmuseum","to":"Heerenveen, Busstation","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":35,"s":[[661435037,15],[661435046,16],[4849623493,17],[3422166784,18],[661435047,19],[661435050,20],[661435056,21]]},
+  {"id":2143516,"t":{"ref":"108","name":"Bus 108 (buurtbus): Wolvega Station => Langelille Speeltuin => Wolvega Station","from":"Wolvega, Station","to":"Wolvega, Station","network":"Fryslân","operator":"Qbuzz","colour":"#8000FF","route":"bus","public_transport:version":"2"},"n":17,"s":[[1722083583,1,17]]},
+  {"id":10671073,"t":{"ref":"217","name":"Bus 217 (flexBuzz): Steenwijk Station => Wolvega Station","from":"Steenwijk, Station","to":"Wolvega, Station","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":41,"s":[[661435037,34],[661435046,35],[4849623493,36],[3422166784,37],[4892657212,40],[1722083583,41]]},
+  {"id":10671074,"t":{"ref":"217","name":"Bus 217 (flexBuzz): Wolvega Station => Steenwijk Station","from":"Wolvega, Station","to":"Steenwijk, Station","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":41,"s":[[661435047,1],[4063950050,2],[3422166783,5],[661435045,6],[661435036,7]]},
+  {"id":17590426,"t":{"ref":"108","name":"Bus 108 (buurtbus): Wolvega Linde College => Scherpenzeel => Wolvega Linde College","from":"Wolvega, Linde College","to":"Wolvega, Linde College","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":19,"s":[[1722083489,1,19],[1722083583,3]]},
+  {"id":17664031,"t":{"ref":"17","name":"Bus 17: Noordwolde Vlechtmuseum => Heerenveen Busstation","from":"Noordwolde, Vlechtmuseum","to":"Heerenveen, Busstation","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":36,"s":[[661435037,15],[661435046,16],[4849623493,17],[3422166784,18],[661435047,19],[661435050,20],[661435056,21]]},
+  {"id":17664032,"t":{"ref":"17","name":"Bus 17: Heerenveen Busstation => Noordwolde Vlechtmuseum","from":"Heerenveen, Busstation","to":"Noordwolde, Vlechtmuseum","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":35,"s":[[661435051,16],[661435049,17],[1722083583,18],[3422166783,19],[661435045,20],[661435036,21]]}
+]
+}

@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2865,3740],
+"stops":[
+  {"id":615892770,"lat":53.273285,"lon":7.028386,"k":"p","n":"Zwaagweg"},
+  {"id":615933683,"lat":53.267748,"lon":7.027754,"k":"p","n":"A E Weg"},
+  {"id":615934223,"lat":53.275704,"lon":7.031659,"k":"p","n":"A E Gorterweg"},
+  {"id":663220407,"lat":53.26229,"lon":7.026036,"k":"p","n":"De Hoogte"},
+  {"id":663220408,"lat":53.262285,"lon":7.026153,"k":"p","n":"De Hoogte"},
+  {"id":663220412,"lat":53.273162,"lon":7.028332,"k":"p","n":"Zwaagweg"},
+  {"id":663220414,"lat":53.274171,"lon":7.030755,"k":"p","n":"Dollard College"},
+  {"id":663220432,"lat":53.25819,"lon":7.032247,"k":"p","n":"Driesprong"},
+  {"id":663220433,"lat":53.258227,"lon":7.032318,"k":"p","n":"Driesprong"},
+  {"id":663220434,"lat":53.275734,"lon":7.031548,"k":"p","n":"A E Gorterweg"},
+  {"id":663220435,"lat":53.283757,"lon":7.041383,"k":"p","n":"Baamsum 15"},
+  {"id":663220436,"lat":53.283773,"lon":7.041284,"k":"p","n":"Baamsum 15"},
+  {"id":663220437,"lat":53.296082,"lon":7.041905,"k":"p","n":"Abel Olsderweg"},
+  {"id":663220438,"lat":53.296182,"lon":7.041776,"k":"p","n":"Abel Olsderweg"},
+  {"id":663220439,"lat":53.298295,"lon":7.041154,"k":"p","n":"Kerkpad"},
+  {"id":663220440,"lat":53.298661,"lon":7.040783,"k":"p","n":"Kerkpad"},
+  {"id":4597235376,"lat":53.274059,"lon":7.030786,"k":"x","n":"Woldendorp, Dollard College"},
+  {"id":5298189964,"lat":53.273185,"lon":7.028398,"k":"x","n":"Woldendorp, Zwaagweg"},
+  {"id":5298410305,"lat":53.27405,"lon":7.030835,"k":"p","n":"Dollard College"},
+  {"id":13201388686,"lat":53.267673,"lon":7.027581,"k":"p","n":"A E Weg"},
+  {"id":13201388687,"lat":53.274165,"lon":7.030818,"k":"x","n":"Woldendorp, Dollard College"}
+],
+"routes":[
+  {"id":446199,"t":{"ref":"640","name":"Bus 640: Appingedam Busstation => Woldendorp Dollard College","from":"Appingedam, Busstation","to":"Woldendorp, Dollard College","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":8,"s":[[663220414,8]]},
+  {"id":446200,"t":{"ref":"640","name":"Bus 640: Woldendorp Dollard College => Appingedam Busstation","from":"Woldendorp, Dollard College","to":"Appingedam, Busstation","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":9,"s":[[5298410305,1]]},
+  {"id":6864331,"t":{"ref":"43","name":"Bus 43: Woldendorp Zwaagweg => Delfzijl Station","from":"Woldendorp, Zwaagweg","to":"Delfzijl, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":18,"s":[[663220414,1],[615934223,2],[663220435,3],[663220437,4],[663220439,5]]},
+  {"id":6878853,"t":{"ref":"617","name":"Bus 617: Woldendorp Dollard College => Scheemda Station","from":"Woldendorp, Dollard College","to":"Scheemda, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":24,"s":[[663220414,1]]},
+  {"id":6878937,"t":{"ref":"617","name":"Bus 617: Scheemda Station => Woldendorp Dollard College","from":"Scheemda, Station","to":"Woldendorp, Dollard College","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":24,"s":[[5298410305,24]]},
+  {"id":6879890,"t":{"ref":"178","name":"Bus 178: Groningen Hoofdstation => Woldendorp Dollard College","from":"Groningen, Hoofdstation","to":"Woldendorp, Dollard College","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":52,"s":[[663220433,49],[663220408,50],[615933683,51],[5298410305,52]]},
+  {"id":6880042,"t":{"ref":"178","name":"Bus 178: Woldendorp Dollard College => Groningen Hoofdstation","from":"Woldendorp, Dollard College","to":"Groningen, Hoofdstation","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":52,"s":[[663220414,1],[13201388686,2],[663220407,3],[663220432,4]]},
+  {"id":10651284,"t":{"ref":"43","name":"Bus 43: Delfzijl Station => Woldendorp Zwaagweg","from":"Delfzijl, Station","to":"Woldendorp, Zwaagweg","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":18,"s":[[663220440,14],[663220438,15],[663220436,16],[663220434,17],[663220414,18]]},
+  {"id":11534148,"t":{"ref":"641","name":"Bus 641: Woldendorp Dollard College => Spijk Nesweg","from":"Woldendorp, Dollard College","to":"Spijk, Nesweg","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":17,"s":[[663220414,1],[615892770,2]]},
+  {"id":11534200,"t":{"ref":"641","name":"Bus 641: Spijk Nesweg => Woldendorp Dollard College","from":"Spijk, Nesweg","to":"Woldendorp, Dollard College","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":15,"s":[[663220414,15]]},
+  {"id":19528459,"t":{"ref":"178","name":"Bus 178: Woldendorp Dollard College => Groningen Hoofdstation","from":"Woldendorp, Dollard College","to":"Groningen, Hoofdstation","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":61,"s":[[663220414,1],[13201388686,2],[663220407,3],[663220432,4]]},
+  {"id":19528460,"t":{"ref":"178","name":"Bus 178: Groningen Hoofdstation => Woldendorp Dollard College","from":"Groningen, Hoofdstation","to":"Woldendorp, Dollard College","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":61,"s":[[663220433,58],[663220408,59],[615933683,60],[5298410305,61]]}
+]
+}

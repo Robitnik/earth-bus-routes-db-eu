@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2970,3869],
+"stops":[
+  {"id":473334,"lat":58.500878,"lon":13.484455,"k":"x","n":"Lars-Olofsgården","ref":"B"},
+  {"id":31925206,"lat":58.514997,"lon":13.487326,"k":"x","n":"Järnvägsgatan","ref":"B"},
+  {"id":31925212,"lat":58.514644,"lon":13.488001,"k":"x","n":"Järnvägsgatan","ref":"A"},
+  {"id":281818519,"lat":58.527385,"lon":13.491648,"k":"s","n":"Götene busstation"},
+  {"id":4367872933,"lat":58.527263,"lon":13.492023,"k":"x","n":"Götene busstation","ref":"X"},
+  {"id":6736519021,"lat":58.527264,"lon":13.491832,"k":"x","n":"Götene busstation","ref":"J"},
+  {"id":6736519024,"lat":58.527455,"lon":13.491981,"k":"x","n":"Götene busstation","ref":"F"},
+  {"id":6736519025,"lat":58.527462,"lon":13.491565,"k":"x","n":"Götene busstation","ref":"E"},
+  {"id":6736519026,"lat":58.527466,"lon":13.491233,"k":"x","n":"Götene busstation","ref":"D"},
+  {"id":6736519027,"lat":58.527459,"lon":13.491755,"k":"x","n":"Götene busstation","ref":"C"},
+  {"id":6736519028,"lat":58.527464,"lon":13.491372,"k":"x","n":"Götene busstation","ref":"B"},
+  {"id":6736519029,"lat":58.52747,"lon":13.491021,"k":"x","n":"Götene busstation","ref":"A"},
+  {"id":6736519036,"lat":58.523252,"lon":13.492376,"k":"x","n":"Helenagården","ref":"B"},
+  {"id":6736519037,"lat":58.523113,"lon":13.492361,"k":"x","n":"Helenagården","ref":"A"},
+  {"id":12856518257,"lat":58.500877,"lon":13.48459,"k":"p","n":"B","ref":"B"},
+  {"id":12856580493,"lat":58.514617,"lon":13.487959,"k":"p","n":"A","ref":"A"},
+  {"id":12874982475,"lat":58.523114,"lon":13.492288,"k":"p","n":"A","ref":"A"},
+  {"id":12874982476,"lat":58.523263,"lon":13.492463,"k":"p","n":"B","ref":"B"},
+  {"id":5000717293474,"lat":58.527234,"lon":13.492026,"k":"p","n":"X","ref":"X"},
+  {"id":5000717293478,"lat":58.527355,"lon":13.491544,"k":"p","n":"H","ref":"H"},
+  {"id":5000717293481,"lat":58.527418,"lon":13.491555,"k":"p","n":"E","ref":"E"}
+],
+"routes":[
+  {"id":2171527,"t":{"ref":"106","name":"Buss 106: Götene => Filsbäck => Lidköping","from":"Götene busstation","to":"Lidköpings resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000717293474,1]]},
+  {"id":2171528,"t":{"ref":"106","name":"Buss 106: Lidköping => Filsbäck => Götene","from":"Lidköpings resecentrum","to":"Götene busstation","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000717293478,4]]},
+  {"id":9951053,"t":{"ref":"106","name":"Buss 106: Lidköping - Götene","from":"Lidköping resecentrum","to":"Götene","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000717293481,3]]},
+  {"id":9951280,"t":{"ref":"506","name":"Buss 506: Götene => Mariestad","from":"Götene busstation","to":"Mariestad resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000717293474,1]]},
+  {"id":9951789,"t":{"ref":"202","name":"Buss 202: Götene => Skara","from":"Götene busstation","to":"Skara","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":7,"s":[[4367872933,1],[6736519037,2],[31925212,3]]},
+  {"id":9951790,"t":{"ref":"202","name":"Buss 202: Skara => Götene","from":"Skara busstation","to":"Götene busstation","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":7,"s":[[31925212,5],[6736519036,6],[6736519025,7]]},
+  {"id":9951791,"t":{"ref":"202","name":"Buss 202: Skara => Lundsbrunn => Götene","from":"Skara","to":"Götene","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000717293481,3]]}
+]
+}

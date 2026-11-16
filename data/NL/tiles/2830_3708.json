@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2830,3708],
+"stops":[
+  {"id":479094993,"lat":51.515081,"lon":5.439546,"k":"x","n":"Best, Museum Bevrijdende Vleugels"},
+  {"id":621793877,"lat":51.500355,"lon":5.414512,"k":"p","n":"Wilhelminabrug"},
+  {"id":1732816195,"lat":51.514949,"lon":5.440043,"k":"p","n":"Museum Bevrijdende Vleugels"},
+  {"id":1732816197,"lat":51.515113,"lon":5.439543,"k":"p","n":"Museum Bevrijdende Vleugels"},
+  {"id":2884316209,"lat":51.518391,"lon":5.400985,"k":"p","n":"Sonseweg"},
+  {"id":2884316213,"lat":51.525936,"lon":5.400873,"k":"p","n":"De Vleut"},
+  {"id":2884316214,"lat":51.549811,"lon":5.422844,"k":"p","n":"Ritaplein"},
+  {"id":4583333652,"lat":51.500233,"lon":5.414459,"k":"p","n":"Wilhelminabrug"},
+  {"id":4961262301,"lat":51.549766,"lon":5.422824,"k":"x","n":"Boskant, Ritaplein"},
+  {"id":6192939813,"lat":51.514986,"lon":5.44004,"k":"x","n":"Best, Museum Bevrijdende Vleugels"},
+  {"id":7039106319,"lat":51.516974,"lon":5.404136,"k":"p","n":"N620/Boslaan"},
+  {"id":7039106320,"lat":51.516866,"lon":5.404206,"k":"p","n":"N620/Boslaan"},
+  {"id":7705516262,"lat":51.516615,"lon":5.405131,"k":"x","n":"Best, N620/Boslaan"},
+  {"id":8281732854,"lat":51.516643,"lon":5.405044,"k":"x","n":"Best, N620/Boslaan"},
+  {"id":8890796788,"lat":51.500295,"lon":5.414443,"k":"x","n":"Best, Wilhelminabrug"},
+  {"id":8890796789,"lat":51.500327,"lon":5.414541,"k":"x","n":"Best, Wilhelminabrug"},
+  {"id":13076293541,"lat":51.549738,"lon":5.422856,"k":"p","n":"Ritaplein"}
+],
+"routes":[
+  {"id":3144270,"t":{"ref":"260","name":"Bus 260: Best Station => Geldrop Ziekenhuis Hoofdingang","from":"Best, Station","to":"Geldrop, Ziekenhuis Hoofdingang","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":34,"s":[[7039106320,4],[1732816195,5]]},
+  {"id":3144271,"t":{"ref":"260","name":"Bus 260: Geldrop Ziekenhuis Hoofdingang => Best Station","from":"Geldrop, Ziekenhuis Hoofdingang","to":"Best, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":34,"s":[[1732816197,30],[7039106319,31]]},
+  {"id":3158002,"t":{"ref":"9","name":"Bus 9: Eindhoven Centraal Station => Best Station","from":"Eindhoven, Centraal Station","to":"Best, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":25,"s":[[621793877,15]]},
+  {"id":3158003,"t":{"ref":"9","name":"Bus 9: Best Station => Eindhoven Centraal Station","from":"Best, Station","to":"Eindhoven, Centraal Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":25,"s":[[4583333652,11]]},
+  {"id":3776723,"t":{"ref":"204","name":"Bus 204: Best Station => Schijndel Kluisstraat","from":"Best, Station","to":"Schijndel, Kluisstraat","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":19,"s":[[2884316213,4],[13076293541,5]]},
+  {"id":3776724,"t":{"ref":"204","name":"Bus 204: Schijndel Kluisstraat => Best Station","from":"Schijndel, Kluisstraat","to":"Best, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":17,"s":[[2884316214,15],[2884316213,16]]},
+  {"id":20672561,"t":{"ref":"flex","name":"Bravoflex hub Station, Best","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":141,"s":[[2884316213,5],[7039106319,7],[7039106320,13],[2884316209,22],[1732816195,113],[1732816197,114],[4583333652,140],[621793877,141]]},
+  {"id":20672568,"t":{"ref":"flex","name":"Bravoflex hub St. Jorisstraat, Oirschot","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":111,"s":[[4583333652,35],[621793877,36]]},
+  {"id":20672569,"t":{"ref":"flex","name":"Bravoflex hub Raadhuisplein, Son","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":105,"s":[[1732816195,6],[1732816197,7],[2884316213,96],[7039106319,97],[7039106320,98],[2884316209,99]]},
+  {"id":20678548,"t":{"ref":"flex","name":"Bravoflex hub Hertog Hendrikstraat, Sint-Oedenrode","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":30,"s":[[13076293541,23],[2884316214,25]]},
+  {"id":20678571,"t":{"ref":"flex","name":"Bravoflex hub Oprit/Afrit A50, Sint-Oedenrode","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":39,"s":[[13076293541,26],[2884316214,27]]}
+]
+}

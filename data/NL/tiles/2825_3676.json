@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2825,3676],
+"stops":[
+  {"id":42299159,"lat":51.283195,"lon":3.830886,"k":"x","n":"Sluiskil, Baljuwlaan"},
+  {"id":1710350158,"lat":51.283023,"lon":3.831082,"k":"p","n":"Baljuwlaan"},
+  {"id":1710350291,"lat":51.283249,"lon":3.830933,"k":"p","n":"Baljuwlaan"},
+  {"id":1710353366,"lat":51.270053,"lon":3.832595,"k":"p","n":"Eilandstraat"},
+  {"id":1710353377,"lat":51.270122,"lon":3.832632,"k":"p","n":"Eilandstraat"},
+  {"id":1710355405,"lat":51.2812,"lon":3.8374,"k":"p","n":"Minister Lelyplein"},
+  {"id":1710355431,"lat":51.281342,"lon":3.837382,"k":"p","n":"Minister Lelyplein"},
+  {"id":1710356768,"lat":51.274194,"lon":3.836527,"k":"p","n":"Stroodorpe"},
+  {"id":1710356773,"lat":51.274151,"lon":3.836645,"k":"p","n":"Stroodorpe"},
+  {"id":3794323305,"lat":51.265829,"lon":3.810315,"k":"p","n":"Zandstraat"},
+  {"id":3794323306,"lat":51.265921,"lon":3.810387,"k":"p","n":"Zandstraat"},
+  {"id":4350192174,"lat":51.265868,"lon":3.81033,"k":"x","n":"Zandstraat, Zandstraat"},
+  {"id":4350192175,"lat":51.265863,"lon":3.810363,"k":"x","n":"Zandstraat, Zandstraat"},
+  {"id":4422117314,"lat":51.282614,"lon":3.836721,"k":"x","n":"Sluiskil, Meulengat"},
+  {"id":4975178265,"lat":51.270091,"lon":3.832617,"k":"x","n":"Sluiskil, Eilandstraat"},
+  {"id":4975178268,"lat":51.274171,"lon":3.836594,"k":"x","n":"Sluiskil, Stroodorpe"},
+  {"id":4975178269,"lat":51.281276,"lon":3.837429,"k":"x","n":"Sluiskil, Minister Lelyplein"},
+  {"id":4975178270,"lat":51.283084,"lon":3.831145,"k":"x","n":"Sluiskil, Baljuwlaan"},
+  {"id":8248588695,"lat":51.281254,"lon":3.837363,"k":"x","n":"Sluiskil, Minister Lelyplein"},
+  {"id":14124575519,"lat":51.29717,"lon":3.848796,"k":"x","n":"Terneuzen, Skihal"},
+  {"id":14124575520,"lat":51.297071,"lon":3.848926,"k":"p","n":"Skihal"},
+  {"id":14124575539,"lat":51.269456,"lon":3.828038,"k":"x","n":"Sas van Gent, Mercuriusstraat"},
+  {"id":14124575540,"lat":51.26949,"lon":3.828027,"k":"p","n":"Mercuriusstraat"},
+  {"id":14124575541,"lat":51.282678,"lon":3.836687,"k":"p","n":"Meulengat"}
+],
+"routes":[
+  {"id":5602123,"t":{"ref":"601","name":"Bus 601: Terneuzen Rooseveltlaan => Zandstraat Zandstraat","from":"Terneuzen, Rooseveltlaan","to":"Zandstraat, Zandstraat","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":5,"s":[[3794323305,5]]},
+  {"id":5602124,"t":{"ref":"601","name":"Bus 601: Zandstraat Zandstraat => Terneuzen Rooseveltlaan","from":"Zandstraat, Zandstraat","to":"Terneuzen, Rooseveltlaan","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":5,"s":[[3794323306,1]]},
+  {"id":7393567,"t":{"ref":"511","name":"Bus 511: Terneuzen Busstation WST => Sas van Gent Suikerplein","from":"Terneuzen, Busstation Westerscheldetunnel","to":"Sas van Gent, Suikerplein","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":8,"s":[[3794323305,6]]},
+  {"id":7393568,"t":{"ref":"511","name":"Bus 511: Sas van Gent Suikerplein => Terneuzen Busstation","from":"Sas van Gent, Suikerplein","to":"Terneuzen, Busstation Westerscheldetunnel","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":8,"s":[[3794323306,3]]},
+  {"id":9932878,"t":{"ref":"606","name":"Bus 606: Terneuzen Busstation WST => Sas van Gent Suikerplein","from":"Terneuzen, Busstation Westerscheldetunnel","to":"Sas van Gent, Suikerplein","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":7,"s":[[1710350158,2],[1710355405,3],[1710356768,4],[1710353377,5]]},
+  {"id":9932879,"t":{"ref":"606","name":"Bus 606: Sas van Gent Suikerplein => Terneuzen Zeldenrustlaan","from":"Sas van Gent, Suikerplein","to":"Terneuzen, Zeldenrustlaan","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":8,"s":[[1710353366,3],[1710356773,4],[1710355431,5],[1710350291,6]]},
+  {"id":21040663,"t":{"ref":"606","name":"Bus 606: Sas van Gent Suikerplein => Terneuzen Busstation WST","from":"Sas van Gent, Suikerplein","to":"Terneuzen, Busstation Westerscheldetunnel","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":8,"s":[[1710353366,3],[1710356773,4],[1710355431,5],[1710350291,6]]},
+  {"id":21275649,"t":{"name":"Zeeland Flex","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":1071,"s":[[14124575540,696],[1710353366,790],[1710350158,791],[14124575541,793],[1710355405,794],[1710356768,795],[14124575520,830],[3794323306,1027]]}
+]
+}

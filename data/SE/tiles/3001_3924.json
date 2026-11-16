@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3001,3924],
+"stops":[
+  {"id":13093968802,"lat":60.076269,"lon":16.229387,"k":"p","n":"Nilsbyn"},
+  {"id":13093968803,"lat":60.066125,"lon":16.234698,"k":"p","n":"Gullbo"},
+  {"id":13093968804,"lat":60.05026,"lon":16.231028,"k":"p","n":"Häggebäcken"},
+  {"id":13097820426,"lat":60.050226,"lon":16.231278,"k":"p","n":"Häggebäcken"}
+],
+"routes":[
+  {"id":19526377,"t":{"ref":"467","name":"Buss 467: Sala - Västerbykil","from":"Sala","to":"Västerbykil","network":"VL","route":"bus","public_transport:version":"1+2"},"n":27,"s":[[13093968804,27]]},
+  {"id":19526381,"t":{"ref":"461","name":"Buss 461: Västerbykil - Salbohed","from":"Västerbykil","to":"Salbohed","network":"VL","route":"bus","public_transport:version":"1+2"},"n":51,"s":[[13093968802,1],[13093968804,2],[13097820426,4]]},
+  {"id":19526382,"t":{"ref":"461","name":"Buss 461: Salbohed - Västerbykil","from":"Salbohed","to":"Västerbykil","network":"VL","route":"bus","public_transport:version":"1+2"},"n":50,"s":[[13093968804,46],[13097820426,48],[13093968803,49],[13093968802,50]]}
+]
+}

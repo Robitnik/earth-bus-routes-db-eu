@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3063,3945],
+"stops":[
+  {"id":21403215,"lat":63.166272,"lon":17.269477,"k":"x","n":"Sollefteå f d Tidningen Ångermanland"},
+  {"id":21403219,"lat":63.16535,"lon":17.27737,"k":"x","n":"Storgatan Konsum"},
+  {"id":21403240,"lat":63.165498,"lon":17.292027,"k":"x","n":"Sollefteå Kärnen"},
+  {"id":1418859622,"lat":63.165241,"lon":17.286421,"k":"x","n":"Sollefteå Zeunerts"},
+  {"id":2061978775,"lat":63.16697,"lon":17.26587,"k":"x","n":"Sollefteå resecentrum","ref":"A"},
+  {"id":2061980554,"lat":63.166939,"lon":17.265993,"k":"x","n":"Sollefteå resecentrum"},
+  {"id":2061980562,"lat":63.166852,"lon":17.266264,"k":"x","n":"Sollefteå resecentrum","ref":"D"},
+  {"id":2061980565,"lat":63.166903,"lon":17.266132,"k":"x","n":"Sollefteå resecentrum"},
+  {"id":2061980567,"lat":63.16673,"lon":17.266663,"k":"x","n":"Sollefteå resecentrum"},
+  {"id":2061980570,"lat":63.166807,"lon":17.266403,"k":"x","n":"Sollefteå resecentrum"},
+  {"id":2061980573,"lat":63.166773,"lon":17.266529,"k":"x","n":"Sollefteå resecentrum"},
+  {"id":2061986171,"lat":63.166682,"lon":17.266805,"k":"x","n":"Sollefteå resecentrum"},
+  {"id":2061986176,"lat":63.166632,"lon":17.266942,"k":"x","n":"Sollefteå resecentrum","ref":"I"},
+  {"id":2306122027,"lat":63.163924,"lon":17.299138,"k":"x","n":"Sollefteå Önsta Storgatan"},
+  {"id":2306124911,"lat":63.16521,"lon":17.282578,"k":"x","n":"Lillänget"},
+  {"id":5000195780966,"lat":63.166944,"lon":17.265944,"k":"p","n":"Sollefteå resecentrum (A)","ref":"A"},
+  {"id":5000195780970,"lat":63.16682,"lon":17.266331,"k":"p","ref":"D"},
+  {"id":5000195781358,"lat":63.166606,"lon":17.266998,"k":"p","ref":"I"}
+],
+"routes":[
+  {"id":2628986,"t":{"ref":"331","name":"Buss 331: Sollefteå => Östergraninge => Sundsvall","from":"Sollefteå","to":"Sundsvall","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000195780970,1]]},
+  {"id":2628987,"t":{"ref":"331","name":"Buss 331: Sundsvall => Östergraninge => Sollefteå","from":"Sundsvall","to":"Sollefteå","network":"DinTur","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000195780970,5]]},
+  {"id":2926221,"t":{"ref":"90","name":"Buss 90: Sollefteå => Kramfors => Härnösand","from":"Sollefteå","to":"Härnösand","network":"DinTur","route":"bus","public_transport:version":"2"},"n":45,"s":[[5000195781358,1]]},
+  {"id":3257584,"t":{"ref":"331","name":"Buss 331: Sollefteå => Graningebruk => Östergraninge","from":"Sollefteå","to":"Östergraninge","network":"DinTur","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000195780970,1]]},
+  {"id":10928238,"t":{"name":"Buss: Sollefteå, Resecentrum => Härnösand","from":"Sollefteå, Resecentrum","to":"Härnösand","network":"Ybuss","operator":"Ybuss","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000195780966,1]]},
+  {"id":10928239,"t":{"name":"Buss: Härnösand => Sollefteå, Resecentrum","from":"Härnösand","to":"Sollefteå, Resecentrum","network":"Ybuss","operator":"Ybuss","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000195780966,5]]}
+]
+}

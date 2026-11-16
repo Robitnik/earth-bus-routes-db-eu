@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2826,3724],
+"stops":[
+  {"id":472432798,"lat":51.327219,"lon":6.206525,"k":"p","n":"Leuther Straße"},
+  {"id":793018998,"lat":51.326786,"lon":6.20302,"k":"x","n":"Kaldenkirchen Bahnhof","ref":"1"},
+  {"id":793019031,"lat":51.32023,"lon":6.235158,"k":"x","n":"Trafohaus, Nettetal"},
+  {"id":793019407,"lat":51.325862,"lon":6.230441,"k":"p","n":"DeWittsee"},
+  {"id":1205455591,"lat":51.32119,"lon":6.200758,"k":"x","n":"Kaldenkirchen Markt","ref":"1"},
+  {"id":1205455601,"lat":51.316693,"lon":6.201205,"k":"x","n":"Kaldenkirchen Krankenhaus"},
+  {"id":1205455697,"lat":51.321268,"lon":6.200498,"k":"x","n":"Kaldenkirchen Markt","ref":"2"},
+  {"id":1205455729,"lat":51.313554,"lon":6.202854,"k":"x","n":"Bruch"},
+  {"id":1244008978,"lat":51.335639,"lon":6.222478,"k":"p","n":"Leuth Schule"},
+  {"id":1244008990,"lat":51.338351,"lon":6.228936,"k":"p","n":"Heronger Straße"},
+  {"id":1244009005,"lat":51.327609,"lon":6.207392,"k":"p","n":"Leuther Straße"},
+  {"id":5473593809,"lat":51.321137,"lon":6.200734,"k":"p","n":"Kaldenkirchen Markt"},
+  {"id":5473593810,"lat":51.321288,"lon":6.200552,"k":"p","n":"Kaldenkirchen Markt"},
+  {"id":6557690448,"lat":51.338461,"lon":6.228882,"k":"p","n":"Heronger Straße"},
+  {"id":6557690449,"lat":51.335671,"lon":6.22317,"k":"p","n":"Leuth Schule"},
+  {"id":6557690450,"lat":51.327247,"lon":6.206666,"k":"x","n":"Leuther Straße"},
+  {"id":6557690452,"lat":51.327657,"lon":6.207284,"k":"x","n":"Leuther Straße"},
+  {"id":5000335771315,"lat":51.326818,"lon":6.203045,"k":"p","n":"Kaldenkirchen Bahnhof","ref":"1"},
+  {"id":5000698262915,"lat":51.32728,"lon":6.206607,"k":"p","n":"Leuther Straße"},
+  {"id":5000698262916,"lat":51.32758,"lon":6.207334,"k":"p","n":"Leuther Straße"},
+  {"id":5000698262917,"lat":51.321293,"lon":6.200536,"k":"p","n":"Kaldenkirchen Markt"},
+  {"id":5000698262918,"lat":51.321148,"lon":6.200699,"k":"p","n":"Kaldenkirchen Markt"},
+  {"id":6020295278958,"lat":51.327184,"lon":6.203225,"k":"p","n":"Nettetal Kaldenkirchen Bf","g":1}
+],
+"routes":[
+  {"id":362012,"t":{"ref":"1","name":"Bus 1: Venlo Station => Kaldenkirchen Am Schwimmbad","from":"Venlo, Station","to":"Kaldenkirchen, Am Schwimmbad","network":"Limburg","operator":"Arriva","colour":"#FF00FF","route":"bus","public_transport:version":"2"},"n":20,"s":[[5473593809,18]]},
+  {"id":362016,"t":{"ref":"1","name":"Bus 1: Kaldenkirchen Am Schwimmbad => Venlo Station","from":"Kaldenkirchen, Am Schwimmbad","to":"Venlo, Station","network":"Limburg","operator":"Arriva","colour":"#FF00FF","route":"bus","public_transport:version":"2"},"n":20,"s":[[5473593810,3]]},
+  {"id":1433723,"t":{"ref":"074","name":"Bus 074: Süchteln => Kaldenkirchen","from":"Süchteln Busbahnhof","to":"Nettetal Kaldenkirchen Am Schwimmbad","network":"VRR","operator":"SWK Mobil","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000698262917,4]]},
+  {"id":1443834,"t":{"ref":"095","name":"Bus 095: Kaldenkirchen => Lobberich","from":"Kaldenkirchen Kreuzmönchstraße","to":"Nettetal Lobberich Doerkesplatz","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000698262917,4],[5000335771315,6],[5000698262916,7],[1244008978,8],[1244008990,9]]},
+  {"id":1443835,"t":{"ref":"095","name":"Bus 095: Lobberich => Kaldenkirchen","from":"Nettetal Lobberich Doerkesplatz","to":"Kaldenkirchen Kreuzmönchstraße","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":9,"s":[[6557690448,1],[6557690449,2],[5000698262915,3],[5000335771315,4],[5000698262918,6]]},
+  {"id":1453380,"t":{"ref":"074","name":"Bus 074: Kaldenkirchen => Süchteln","from":"Nettetal Kaldenkirchen Am Schwimmbad","to":"Süchteln Busbahnhof","network":"VRR","operator":"SWK Mobil","route":"bus","public_transport:version":"2"},"n":7,"s":[[5473593809,4]]},
+  {"id":9705726,"t":{"ref":"096","name":"Bus 096: Kaldenkirchen => Lobberich","from":"Nettetal Kaldenkirchen Kreuzmönchstraße","to":"Nettetal Lobberich Doerkesplatz","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000698262917,4]]},
+  {"id":9705735,"t":{"ref":"096","name":"Bus 096: Lobberich => Kaldenkirchen","from":"Nettetal Lobberich Doerkesplatz","to":"Nettetal Kaldenkirchen Kreuzmönchstraße","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000698262918,1]]},
+  {"id":3037112677956,"t":{"ref":"RE13","name":"RE13: Venlo - MG Hbf /Europaplatz","from":"Venlo","to":"MG Hbf /Europaplatz","operator":"Eurobahn","route":"bus","public_transport:version":"2"},"n":8,"s":[[6020295278958,3]]}
+]
+}

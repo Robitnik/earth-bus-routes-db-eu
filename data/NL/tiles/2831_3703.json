@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2831,3703],
+"stops":[
+  {"id":617895533,"lat":51.575552,"lon":5.153383,"k":"p","n":"Heikespoor"},
+  {"id":617895534,"lat":51.577098,"lon":5.16707,"k":"p","n":"Hoog Heukelom"},
+  {"id":617895535,"lat":51.576721,"lon":5.171445,"k":"p","n":"Tilburgseweg"},
+  {"id":617895536,"lat":51.575091,"lon":5.184902,"k":"p","n":"Groenstraat"},
+  {"id":617895537,"lat":51.577165,"lon":5.179184,"k":"p","n":"Monseigneur Verhoevenlaan"},
+  {"id":617895538,"lat":51.577997,"lon":5.180087,"k":"p","n":"Moergestelseweg"},
+  {"id":617895539,"lat":51.576481,"lon":5.189034,"k":"p","n":"Baerdijk"},
+  {"id":2316040655,"lat":51.581942,"lon":5.193925,"k":"x","n":"Oisterwijk, Station"},
+  {"id":3770166215,"lat":51.576475,"lon":5.188707,"k":"p","n":"Baerdijk"},
+  {"id":3770166224,"lat":51.57521,"lon":5.185037,"k":"p","n":"Groenstraat"},
+  {"id":3770166226,"lat":51.575657,"lon":5.153206,"k":"p","n":"Heikespoor"},
+  {"id":3770166231,"lat":51.577578,"lon":5.166658,"k":"p","n":"Hoog Heukelom"},
+  {"id":3770166254,"lat":51.581984,"lon":5.193898,"k":"p","n":"Station"},
+  {"id":3770166357,"lat":51.576768,"lon":5.171291,"k":"p","n":"Tilburgseweg"},
+  {"id":3801919579,"lat":51.567261,"lon":5.190269,"k":"x","n":"Oisterwijk, Hondsbergselaan"},
+  {"id":3801919613,"lat":51.579116,"lon":5.191377,"k":"p","n":"Vloeiweg"},
+  {"id":5248895959,"lat":51.567264,"lon":5.190313,"k":"p","n":"Hondsbergselaan"},
+  {"id":5248895960,"lat":51.567259,"lon":5.190221,"k":"p","n":"Hondsbergselaan"},
+  {"id":5248895975,"lat":51.581969,"lon":5.19478,"k":"x","n":"Oisterwijk, Station"},
+  {"id":5248895976,"lat":51.581943,"lon":5.194855,"k":"p","n":"Station"},
+  {"id":5248895977,"lat":51.581846,"lon":5.194078,"k":"p","n":"Station"},
+  {"id":5248895978,"lat":51.581807,"lon":5.194102,"k":"x","n":"Oisterwijk, Station"},
+  {"id":13056181929,"lat":51.578899,"lon":5.19028,"k":"p","n":"Vloeiweg"},
+  {"id":13823400732,"lat":51.582902,"lon":5.177358,"k":"p","n":"Langvennen-Noord"},
+  {"id":13823400745,"lat":51.592116,"lon":5.151354,"k":"p","n":"Kruisakker"}
+],
+"routes":[
+  {"id":391938,"t":{"ref":"140","name":"Bus 140: 's-Hertogenbosch Centraal Station => Tilburg Centraal Station","from":"'s-Hertogenbosch, Centraal Station","to":"Tilburg, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":42,"s":[[5248895977,27],[3770166215,28],[3770166224,29],[617895538,30],[3770166357,31],[3770166231,32],[3770166226,33]]},
+  {"id":391939,"t":{"ref":"140","name":"Bus 140: Tilburg Centraal Station => 's-Hertogenbosch Centraal Station","from":"Tilburg, Centraal Station","to":"'s-Hertogenbosch, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":41,"s":[[617895533,9],[617895534,10],[617895535,11],[617895537,12],[617895536,13],[617895539,14],[5248895976,15]]},
+  {"id":5613456,"t":{"ref":"239","name":"Bus 239: 's-Hertogenbosch Centraal Station - Oisterwijk Station","from":"'s-Hertogenbosch, Centraal Station","to":"Oisterwijk, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[3770166254,23]]},
+  {"id":5613457,"t":{"ref":"239","name":"Bus 239: Oisterwijk Station => 's-Hertogenbosch Centraal Station","from":"Oisterwijk, Station","to":"'s-Hertogenbosch, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[5248895977,1]]},
+  {"id":5613458,"t":{"ref":"289","name":"Bus 289: Hilvarenbeek Vrijthof => Oisterwijk Station","from":"Hilvarenbeek, Vrijthof","to":"Oisterwijk, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[5248895959,11],[617895536,12],[617895539,13],[3801919613,14],[5248895976,15]]},
+  {"id":5613459,"t":{"ref":"289","name":"Bus 289: Oisterwijk Station => Hilvarenbeek Vrijthof","from":"Oisterwijk, Station","to":"Hilvarenbeek, Vrijthof","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[3770166254,1],[13056181929,2],[3770166215,3],[3770166224,4],[5248895960,5]]},
+  {"id":20672554,"t":{"ref":"flex","name":"Bravoflex hub Station, Oisterwijk","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":19,"s":[[3770166254,1]]},
+  {"id":20678523,"t":{"ref":"flex","name":"Bravoflex hub Streepstraat, Berkel-Enschot","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":30,"s":[[13823400745,5],[3770166226,15],[617895533,25],[3770166231,26],[617895534,27]]},
+  {"id":20678529,"t":{"ref":"flex","name":"Bravoflex hub Station, Oisterwijk","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":151,"s":[[3770166224,1],[3770166231,2],[3770166357,3],[13823400732,4],[617895534,5],[617895536,6],[617895535,7],[617895538,8],[617895537,9],[3801919613,10],[3770166215,11],[3770166254,15],[5248895977,18],[5248895976,19],[13056181929,21],[617895539,27],[13823400745,61],[3770166226,72],[617895533,82]]}
+]
+}

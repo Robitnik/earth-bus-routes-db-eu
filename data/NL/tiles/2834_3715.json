@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2834,3715],
+"stops":[
+  {"id":2846173425,"lat":51.740183,"lon":5.779885,"k":"p","n":"Kerk"},
+  {"id":2846173426,"lat":51.742625,"lon":5.774649,"k":"p","n":"Molen"},
+  {"id":6854576763,"lat":51.740115,"lon":5.78075,"k":"x","n":"Gassel, Kerk"},
+  {"id":6854576764,"lat":51.740079,"lon":5.780763,"k":"p","n":"Kerk"},
+  {"id":6854592471,"lat":51.742185,"lon":5.775448,"k":"p","n":"Molen"}
+],
+"routes":[
+  {"id":3728886,"t":{"ref":"238","name":"Bus 238: Boxmeer Station => Grave Busstation","from":"Boxmeer, Station","to":"Grave, Busstation","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":40,"s":[[2846173425,31],[6854592471,32]]},
+  {"id":3728887,"t":{"ref":"238","name":"Bus 238: Grave Busstation => Boxmeer Station","from":"Grave, Busstation","to":"Boxmeer, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[2846173426,8],[6854576764,9]]},
+  {"id":10118265,"t":{"ref":"638","name":"Bus 638: Grave Busstation => Cuijk Hapsebaan","from":"Grave, Busstation","to":"Cuijk, Hapsebaan","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[2846173426,7],[6854576764,8]]},
+  {"id":20678530,"t":{"ref":"flex","name":"Bravoflex hub Station, Cuijk","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":108,"s":[[6854576764,105],[6854592471,106],[2846173425,107],[2846173426,108]]},
+  {"id":20678566,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Grave","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":113,"s":[[2846173426,50],[6854592471,55],[6854576764,76],[2846173425,77]]}
+]
+}

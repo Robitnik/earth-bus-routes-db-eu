@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2930,3922],
+"stops":[
+  {"id":300947869,"lat":56.50073,"lon":16.141113,"k":"x","n":"Halltorp vägskäl","ref":"B"},
+  {"id":14079085000,"lat":56.500455,"lon":16.140848,"k":"x","n":"Halltorp vägskäl","ref":"A"},
+  {"id":14079101405,"lat":56.500127,"lon":16.104589,"k":"p","n":"A","ref":"A"},
+  {"id":14079101406,"lat":56.500086,"lon":16.104672,"k":"x","n":"Halltorp","ref":"A;B"},
+  {"id":14079101407,"lat":56.500066,"lon":16.104758,"k":"p","n":"B","ref":"B"},
+  {"id":14079101434,"lat":56.508985,"lon":16.149704,"k":"x","n":"Värnaby","ref":"A"},
+  {"id":5001547963224,"lat":56.500673,"lon":16.141196,"k":"p","n":"B","ref":"B"},
+  {"id":5001547963225,"lat":56.500545,"lon":16.140788,"k":"p","n":"A","ref":"A"},
+  {"id":5001547963231,"lat":56.509036,"lon":16.149679,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":21200627,"t":{"ref":"124","name":"Buss 124: Halltorp => Söderåkra","from":"Halltorp","to":"Söderåkra","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":9,"s":[[14079101407,1],[5001547963225,2]]},
+  {"id":21200629,"t":{"ref":"124","name":"Buss 124: Söderåkra => Halltorp","from":"Söderåkra","to":"Halltorp","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001547963224,8],[14079101405,9]]},
+  {"id":21200630,"t":{"ref":"121","name":"Buss 121: Kalmar => Bergkvara","from":"Kalmar","to":"Bergkvara","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[5001547963231,23],[14079101405,24]]},
+  {"id":21200638,"t":{"ref":"121","name":"Buss 121: Bergkvara => Kalmar","from":"Bergkvara","to":"Kalmar","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[14079101407,19]]}
+]
+}

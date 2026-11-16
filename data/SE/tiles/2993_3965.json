@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2993,3965],
+"stops":[
+  {"id":499002082,"lat":59.65355,"lon":18.274453,"k":"p","n":"Kårsta skola"},
+  {"id":499002086,"lat":59.656286,"lon":18.272942,"k":"p","n":"Kårsta torg"},
+  {"id":499002098,"lat":59.656901,"lon":18.266793,"k":"p","n":"Kårsta station"},
+  {"id":499007113,"lat":59.655254,"lon":18.262902,"k":"p","n":"Kårsta affär"},
+  {"id":499007157,"lat":59.656953,"lon":18.258275,"k":"p","n":"Backa vägskäl"},
+  {"id":499010305,"lat":59.656872,"lon":18.25825,"k":"p","n":"Backa vägskäl"},
+  {"id":499010315,"lat":59.655206,"lon":18.26333,"k":"p","n":"Kårsta affär"},
+  {"id":526681861,"lat":59.65368,"lon":18.278389,"k":"p","n":"Bergsjödal"},
+  {"id":526681865,"lat":59.652949,"lon":18.286319,"k":"p","n":"Torpmossen","ref":"20F"},
+  {"id":2801534436,"lat":59.653205,"lon":18.2861,"k":"p","n":"Torpmossen"},
+  {"id":2801571995,"lat":59.653943,"lon":18.277665,"k":"p","n":"Bergsjödal","ref":"65906"},
+  {"id":5752475390,"lat":59.694308,"lon":18.267746,"k":"p","n":"Fiskeså"},
+  {"id":5752475391,"lat":59.69422,"lon":18.26767,"k":"p","n":"Fiskeså"},
+  {"id":12248896353,"lat":59.656937,"lon":18.2671,"k":"p","n":"Kårsta station"}
+],
+"routes":[
+  {"id":5489498,"t":{"ref":"661","name":"Buss 661: Kårsta skola - Vallentuna station","from":"Kårsta skola","to":"Vallentuna station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":41,"s":[[499002082,1],[499002086,2],[499002098,3],[499007113,4],[499007157,5]]},
+  {"id":5489499,"t":{"ref":"661","name":"Buss 661: Vallentuna station - Kårsta","from":"Vallentuna station","to":"Kårsta","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":39,"s":[[499010305,37],[499010315,38],[499002086,39]]},
+  {"id":5599355,"t":{"ref":"665","name":"Buss 665: Kårsta - Vallentuna station","from":"Kårsta (Kårsta station)","to":"Vallentuna station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":41,"s":[[499002098,1],[499002086,2],[499002082,3],[526681861,4],[526681865,5]]},
+  {"id":5599356,"t":{"ref":"665","name":"Buss 665: Vallentuna station - Kårsta","from":"Vallentuna station","to":"Kårsta (Kårsta station)","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":41,"s":[[2801534436,37],[2801571995,38],[499002082,39],[499002086,40],[12248896353,41]]},
+  {"id":15014200,"t":{"ref":"646","name":"Buss 646: Rimbo - Närtuna - Gottröra - Rimbo","from":"Rimbo","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":43,"s":[[5752475390,15]]},
+  {"id":15022409,"t":{"ref":"661","name":"Buss 661: Kårsta - Vallentuna station","from":"Kårsta","to":"Vallentuna station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":38,"s":[[499002086,1],[499002098,2],[499007113,3],[499007157,4]]},
+  {"id":15022410,"t":{"ref":"661","name":"Buss 661: Kårsta skola - Vallentuna station","from":"Kårsta skola","to":"Vallentuna station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":40,"s":[[499002082,1],[499002086,2],[499007113,3],[499007157,4]]},
+  {"id":15022411,"t":{"ref":"661","name":"Buss 661: Lindholmens station - Kårsta skola","from":"Lindholmens station","to":"Kårsta skola","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":31,"s":[[499010305,28],[499010315,29],[499002086,30],[499002082,31]]},
+  {"id":15022412,"t":{"ref":"661","name":"Buss 661: Vallentuna station - Kårsta station","from":"Vallentuna station","to":"Kårsta station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":39,"s":[[499010305,37],[499010315,38],[12248896353,39]]},
+  {"id":15026985,"t":{"ref":"665","name":"Buss 665: Kårsta - Vallentuna station","from":"Kårsta (Kårsta station)","to":"Vallentuna station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":40,"s":[[499002098,1],[499002086,2],[526681861,3],[526681865,4]]},
+  {"id":15026989,"t":{"ref":"665","name":"Buss 665: Vallentuna station - Kårsta","from":"Vallentuna station","to":"Kårsta (Kårsta station)","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":40,"s":[[2801534436,37],[2801571995,38],[499002086,39],[12248896353,40]]},
+  {"id":16841712,"t":{"ref":"646","name":"Buss 646: Rimbo - Gottröra - Närtuna - Rimbo","from":"Rimbo","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":42,"s":[[5752475391,28]]},
+  {"id":16841713,"t":{"ref":"646","name":"Buss 646: Rimbo - Gottröra - Närtuna - Rimbo","from":"Rimbo","to":"Rimbo","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":43,"s":[[5752475391,29]]}
+]
+}

@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3032,4087],
+"stops":[
+  {"id":269198698,"lat":61.646104,"lon":24.387783,"k":"x","n":"Eräjärventie 177 E","ref":"9024"},
+  {"id":340225756,"lat":61.644156,"lon":24.351365,"k":"x","n":"Varismäki E","ref":"8449"},
+  {"id":340225762,"lat":61.648577,"lon":24.357768,"k":"x","n":"Yläniemi P","ref":"8470"},
+  {"id":794738040,"lat":61.647557,"lon":24.35644,"k":"p","n":"Yläniemi E","ref":"8471"},
+  {"id":794738493,"lat":61.648542,"lon":24.357931,"k":"p","n":"Yläniemi P","ref":"8470"},
+  {"id":6270949422,"lat":61.648854,"lon":24.38378,"k":"p","n":"Vehkalahti","ref":"9025"},
+  {"id":6270949423,"lat":61.64783,"lon":24.357909,"k":"p","n":"Asematie","ref":"8465"},
+  {"id":6270949424,"lat":61.648141,"lon":24.38544,"k":"p","n":"Vehkalahti","ref":"9026"},
+  {"id":6270949425,"lat":61.646089,"lon":24.387669,"k":"p","n":"Eräjärventie 177 E","ref":"9024"},
+  {"id":6270949426,"lat":61.644559,"lon":24.352456,"k":"p","n":"Varismäki P","ref":"8448"},
+  {"id":6270949427,"lat":61.644202,"lon":24.3512,"k":"p","n":"Varismäki E","ref":"8449"},
+  {"id":8178566987,"lat":61.649845,"lon":24.366635,"k":"p","n":"Orivesi asema","ref":"8468"},
+  {"id":9677605827,"lat":61.647513,"lon":24.356579,"k":"x","n":"Yläniemi E","ref":"8471"},
+  {"id":9677605829,"lat":61.644608,"lon":24.352313,"k":"x","n":"Varismäki P","ref":"8448"},
+  {"id":13603312483,"lat":61.649903,"lon":24.366506,"k":"x"},
+  {"id":14047322429,"lat":61.648183,"lon":24.385514,"k":"x","n":"Vehkalahti","ref":"9026"},
+  {"id":14047322435,"lat":61.648795,"lon":24.383689,"k":"x","n":"Vehkalahti","ref":"9025"}
+],
+"routes":[
+  {"id":20266761,"t":{"ref":"96","name":"Bus 96: Kaislahti E => Oriveden terveysasema","from":"Kaislahti E","to":"Oriveden terveysasema","network":"Nysse","route":"bus"},"n":15,"s":[[6270949423,11],[8178566987,12]]},
+  {"id":21053455,"t":{"ref":"97A","name":"Bus 97A: Hirsilä Virrat => Oriveden asema","from":"Lakkasuo","to":"Orivesi asema","network":"Nysse","route":"bus","public_transport:version":"2"},"n":30,"s":[[8178566987,30]]},
+  {"id":21053456,"t":{"ref":"97A","name":"Bus 97A: Oriveden asema => Hirsilä Virrat","from":"Orivesi asema","to":"Lakkasuo","network":"Nysse","route":"bus","public_transport:version":"2"},"n":28,"s":[[8178566987,1],[794738493,2]]},
+  {"id":21140285,"t":{"ref":"47","name":"Bus 47: Kangasala => Ponsa => Orivesi","from":"Tredu Kangasala","to":"Orivesi","network":"Nysse","operator":"Valkeakosken Liikenne Oy","colour":"#1A4A8F","route":"bus","public_transport:version":"2"},"n":73,"s":[[6270949426,63],[794738493,64]]},
+  {"id":21140286,"t":{"ref":"47","name":"Bus 47: Orivesi => Ponsa => Kangasala","from":"Orivesi","to":"Tredu Kangasala","network":"Nysse","operator":"Valkeakosken Liikenne Oy","colour":"#1A4A8F","route":"bus","public_transport:version":"2"},"n":73,"s":[[794738040,13],[6270949427,14]]},
+  {"id":21141009,"t":{"ref":"49","name":"Bus 49: Pohja => Eräjärvi => Orivesi","from":"Pohja","to":"Orivesi","network":"Nysse","operator":"Koiviston Auto Tampere Oy","colour":"#1A4A8F","route":"bus","public_transport:version":"2"},"n":24,"s":[[6270949422,15]]},
+  {"id":21141010,"t":{"ref":"49","name":"Bus 49: Orivesi => Eräjärvi => Pohja","from":"Orivesi","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","colour":"#1A4A8F","route":"bus","public_transport:version":"2"},"n":27,"s":[[6270949424,12],[6270949425,13]]}
+]
+}

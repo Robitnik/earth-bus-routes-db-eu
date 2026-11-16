@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2834,3701],
+"stops":[
+  {"id":618885424,"lat":51.733287,"lon":5.051584,"k":"p","n":"Provincialeweg"},
+  {"id":618885426,"lat":51.735961,"lon":5.080107,"k":"p","n":"Hoofdstraat"},
+  {"id":618885428,"lat":51.738154,"lon":5.076832,"k":"p","n":"Genderensedijk"},
+  {"id":618885430,"lat":51.736629,"lon":5.085244,"k":"p","n":"Bulkstraat"},
+  {"id":618885432,"lat":51.738183,"lon":5.089467,"k":"p","n":"Kelderstraat"},
+  {"id":3888950427,"lat":51.736709,"lon":5.085193,"k":"p","n":"Bulkstraat"},
+  {"id":3888950435,"lat":51.738057,"lon":5.089372,"k":"p","n":"Kelderstraat"},
+  {"id":3888951721,"lat":51.738566,"lon":5.076966,"k":"p","n":"Genderensedijk"},
+  {"id":3888951785,"lat":51.704728,"lon":5.090019,"k":"p","n":"'t Snoekske"},
+  {"id":3888951786,"lat":51.704833,"lon":5.090138,"k":"p","n":"'t Snoekske"},
+  {"id":3888951796,"lat":51.736046,"lon":5.080099,"k":"p","n":"Hoofdstraat"},
+  {"id":3888951804,"lat":51.721427,"lon":5.090403,"k":"p","n":"Valkenoortweg"},
+  {"id":3888951805,"lat":51.720731,"lon":5.090499,"k":"p","n":"Valkenoortweg"},
+  {"id":3893165041,"lat":51.714201,"lon":5.053432,"k":"p","n":"Kruisstraat"},
+  {"id":3893165042,"lat":51.714333,"lon":5.053546,"k":"p","n":"Kruisstraat"},
+  {"id":3893165049,"lat":51.729737,"lon":5.054456,"k":"p","n":"Raadhuisstraat"},
+  {"id":3893165050,"lat":51.729593,"lon":5.054393,"k":"p","n":"Raadhuisstraat"},
+  {"id":7061599811,"lat":51.733322,"lon":5.051571,"k":"x","n":"Eethen, Provincialeweg"},
+  {"id":13823400763,"lat":51.706256,"lon":5.064505,"k":"p","n":"Haven-Oost"}
+],
+"routes":[
+  {"id":392800,"t":{"ref":"227","name":"Bus 227: Waalwijk Busstation Vredesplein => Hank Kerkstraat","from":"Waalwijk, Busstation Vredesplein","to":"Hank, Kerkstraat","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":35,"s":[[3888951786,8],[3888951805,9],[3888950435,19],[3888950427,20],[3888951796,21],[3888951721,22]]},
+  {"id":392801,"t":{"ref":"227","name":"Bus 227: Hank Kerkstraat => Waalwijk Busstation Vredesplein","from":"Hank, Kerkstraat","to":"Waalwijk, Busstation Vredesplein","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":35,"s":[[618885424,13],[618885428,14],[618885426,15],[618885430,16],[618885432,17],[3888951804,27],[3888951785,28]]},
+  {"id":5743928,"t":{"ref":"223","name":"Bus 223: Almkerk Altenahove => Waalwijk Busstation Vredesplein","from":"Almkerk, Altenahove","to":"Waalwijk, Busstation Vredesplein","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":12,"s":[[618885424,7],[3893165050,8],[3893165041,9]]},
+  {"id":5743929,"t":{"ref":"223","name":"Bus 223: Waalwijk Busstation Vredesplein => Almkerk Altenahove","from":"Waalwijk, Busstation Vredesplein","to":"Almkerk, Altenahove","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":12,"s":[[3893165042,4],[3893165049,5]]},
+  {"id":5744800,"t":{"ref":"228","name":"Bus 228: Almkerk Altenahove => Wijk en Aalburg Kromme Nol","from":"Almkerk, Altenahove","to":"Wijk en Aalburg, Kromme Nol","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":11,"s":[[618885424,6],[618885428,7],[618885426,8],[618885430,9],[618885432,10]]},
+  {"id":5744801,"t":{"ref":"228","name":"Bus 228: Wijk en Aalburg Kromme Nol => Almkerk Altenahove","from":"Wijk en Aalburg, Kromme Nol","to":"Almkerk, Altenahove","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":11,"s":[[3888950435,2],[3888950427,3],[3888951796,4],[3888951721,5]]},
+  {"id":5761963,"t":{"ref":"227","name":"Bus 227: Hank Kerkstraat => 's-Hertogenbosch Centraal Station","from":"Hank, Kerkstraat","to":"'s-Hertogenbosch, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#953192","route":"bus","public_transport:version":"2"},"n":18,"s":[[618885424,8],[618885428,9],[618885426,10],[618885430,11],[618885432,12]]},
+  {"id":20161269,"t":{"ref":"flex","name":"Bravoflex hub Kromme Nol, Wijk en Aalburg","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":80,"s":[[618885430,47],[3888951796,48],[3888951721,49],[618885428,50],[3888950435,51],[618885426,52],[3888950427,53],[618885432,54],[3893165050,55],[618885424,56],[3893165049,57]]},
+  {"id":20678517,"t":{"ref":"flex","name":"Bravoflex hub Wolfshoek, Elshout","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":65,"s":[[3888951786,44],[3888951785,45],[3888951805,46],[3888951804,47]]},
+  {"id":20678541,"t":{"ref":"flex","name":"Bravoflex hub Noorder Allee, Sprang-Capelle","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":102,"s":[[13823400763,49]]},
+  {"id":20678545,"t":{"ref":"flex","name":"Bravoflex hub Kromme Nol, Wijk en Aalburg","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":34,"s":[[3888951786,23],[3888951785,24],[3888951805,25],[3888951804,26]]},
+  {"id":20678568,"t":{"ref":"flex","name":"Bravoflex hub Busstation Vredesplein, Waalwijk","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":89,"s":[[3888951804,3],[3888951805,4],[3888951786,5],[3888951785,6],[13823400763,7]]}
+]
+}

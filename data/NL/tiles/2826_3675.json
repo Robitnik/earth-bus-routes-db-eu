@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2826,3675],
+"stops":[
+  {"id":311202150,"lat":51.301833,"lon":3.778078,"k":"x","n":"Hoek, Mauritsfort"},
+  {"id":1710351925,"lat":51.308009,"lon":3.780802,"k":"p","n":"Busstation"},
+  {"id":2225879667,"lat":51.308025,"lon":3.780873,"k":"x","n":"Hoek, Busstation"},
+  {"id":3468127503,"lat":51.301311,"lon":3.777516,"k":"x","n":"Hoek, Mauritsfort"},
+  {"id":3794323303,"lat":51.301853,"lon":3.778023,"k":"p","n":"Mauritsfort"},
+  {"id":3794323304,"lat":51.30127,"lon":3.77761,"k":"p","n":"Mauritsfort"},
+  {"id":4975550022,"lat":51.334055,"lon":3.791036,"k":"x","n":"Terneuzen, DOW"},
+  {"id":5586872776,"lat":51.334041,"lon":3.79099,"k":"p","n":"DOW"},
+  {"id":14124575542,"lat":51.313493,"lon":3.780115,"k":"x","n":"Hoek, Vremdieke"},
+  {"id":14124575543,"lat":51.313523,"lon":3.780192,"k":"p","n":"Vremdieke"}
+],
+"routes":[
+  {"id":388639,"t":{"ref":"1","name":"Bus 1: Oostburg Ziekenhuis => Terneuzen Busstation","from":"Oostburg, Ziekenhuis","to":"Terneuzen, Busstation Westerscheldetunnel","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":14,"s":[[1710351925,11]]},
+  {"id":2127629,"t":{"ref":"5","name":"Bus 5: Terneuzen Busstation WST => Oostburg Ziekenhuis","from":"Terneuzen, Busstation Westerscheldetunnel","to":"Oostburg, Ziekenhuis","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":14,"s":[[1710351925,3]]},
+  {"id":2127632,"t":{"ref":"5","name":"Bus 5: Oostburg Ziekenhuis => Terneuzen Busstation WST","from":"Oostburg, Ziekenhuis","to":"Terneuzen, Busstation Westerscheldetunnel","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":15,"s":[[1710351925,12]]},
+  {"id":2127650,"t":{"ref":"1","name":"Bus 1: Terneuzen Busstation => Oostburg Ziekenhuis","from":"Terneuzen, Busstation Westerscheldetunnel","to":"Oostburg, Ziekenhuis","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2","bus":"express"},"n":13,"s":[[1710351925,3]]},
+  {"id":2127665,"t":{"ref":"607","name":"Bus 607: Axel De Sterrenpracht => Hoek Busstation","from":"Axel, De Sterrenpracht","to":"Hoek, Busstation","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":14,"s":[[1710351925,14]]},
+  {"id":2127666,"t":{"ref":"607","name":"Bus 607: Hoek Busstation => Axel De Sterrenpracht","from":"Hoek, Busstation","to":"Axel, De Sterrenpracht","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":14,"s":[[1710351925,1]]},
+  {"id":5602123,"t":{"ref":"601","name":"Bus 601: Terneuzen Rooseveltlaan => Zandstraat Zandstraat","from":"Terneuzen, Rooseveltlaan","to":"Zandstraat, Zandstraat","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":5,"s":[[1710351925,2],[3794323303,3]]},
+  {"id":5602124,"t":{"ref":"601","name":"Bus 601: Zandstraat Zandstraat => Terneuzen Rooseveltlaan","from":"Zandstraat, Zandstraat","to":"Terneuzen, Rooseveltlaan","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":5,"s":[[3794323304,3],[1710351925,4]]},
+  {"id":7393567,"t":{"ref":"511","name":"Bus 511: Terneuzen Busstation WST => Sas van Gent Suikerplein","from":"Terneuzen, Busstation Westerscheldetunnel","to":"Sas van Gent, Suikerplein","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":8,"s":[[1710351925,3],[3794323303,4]]},
+  {"id":7393568,"t":{"ref":"511","name":"Bus 511: Sas van Gent Suikerplein => Terneuzen Busstation","from":"Sas van Gent, Suikerplein","to":"Terneuzen, Busstation Westerscheldetunnel","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":8,"s":[[3794323304,5],[1710351925,6]]},
+  {"id":21275649,"t":{"name":"Zeeland Flex","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":1071,"s":[[1710351925,287],[3794323304,288],[14124575543,289],[5586872776,813]]}
+]
+}

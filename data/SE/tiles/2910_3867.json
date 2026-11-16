@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2910,3867],
+"stops":[
+  {"id":1752453276,"lat":55.540784,"lon":13.36403,"k":"x"},
+  {"id":1814668092,"lat":55.540162,"lon":13.364153,"k":"x"},
+  {"id":3347041633,"lat":55.505527,"lon":13.358618,"k":"p","n":"A","ref":"A"},
+  {"id":3347041640,"lat":55.515273,"lon":13.358614,"k":"p","n":"A","ref":"A"},
+  {"id":3347041641,"lat":55.505245,"lon":13.358367,"k":"p","n":"B","ref":"B"},
+  {"id":3347041649,"lat":55.505232,"lon":13.358434,"k":"x","n":"Börringe Kyrkan","ref":"B"},
+  {"id":3347041650,"lat":55.505534,"lon":13.358564,"k":"x","n":"Börringe Kyrkan","ref":"A"},
+  {"id":3347041655,"lat":55.515264,"lon":13.358566,"k":"x","n":"Nötesjö","ref":"A"},
+  {"id":3347042042,"lat":55.540168,"lon":13.364246,"k":"p"},
+  {"id":3347042044,"lat":55.540791,"lon":13.364109,"k":"p"}
+],
+"routes":[
+  {"id":3733479,"t":{"ref":"110","name":"Buss 110: Malmö => Malmö Airport","from":"Malmö C","to":"Malmö Airport","network":"Flygbussarna","route":"bus","public_transport:version":"2"},"n":9,"s":[[3347042042,9]]},
+  {"id":3733480,"t":{"ref":"110","name":"Buss 110: Malmö Airport => Malmö","from":"Malmö Airport","to":"Malmö C","network":"Flygbussarna","route":"bus","public_transport:version":"2"},"n":9,"s":[[3347042042,1]]},
+  {"id":4585254,"t":{"ref":"153","name":"Buss 153: Nötesjö => Svedala","from":"Nötesjö","to":"Svedala","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[3347041640,1],[3347041641,2]]},
+  {"id":4585255,"t":{"ref":"153","name":"Buss 153: Svedala => Nötesjö","from":"Svedala","to":"Nötesjö","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[3347041633,10],[3347041640,11]]}
+]
+}

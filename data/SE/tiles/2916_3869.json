@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2916,3869],
+"stops":[
+  {"id":389469172,"lat":55.807107,"lon":13.467567,"k":"x","n":"Rolsberga"},
+  {"id":857478746,"lat":55.83921,"lon":13.492352,"k":"x","n":"Snogeröd affären"},
+  {"id":1985197045,"lat":55.805463,"lon":13.464745,"k":"x","n":"Rolsberga"},
+  {"id":1985197065,"lat":55.806293,"lon":13.466207,"k":"x","n":"Rolsberga"},
+  {"id":3352342685,"lat":55.839444,"lon":13.499213,"k":"p"},
+  {"id":3352342686,"lat":55.839488,"lon":13.499299,"k":"x","n":"Snogeröd väg 17 Riksvägen"},
+  {"id":3352342690,"lat":55.839874,"lon":13.498738,"k":"x","n":"Snogeröd väg 17 Riksvägen"},
+  {"id":3352342691,"lat":55.83992,"lon":13.498818,"k":"p"},
+  {"id":3484625289,"lat":55.845657,"lon":13.462222,"k":"x","n":"Brostorp"},
+  {"id":3484625290,"lat":55.845658,"lon":13.461874,"k":"p"},
+  {"id":3484625291,"lat":55.845696,"lon":13.461885,"k":"x","n":"Brostorp"},
+  {"id":3484625292,"lat":55.845706,"lon":13.462237,"k":"p"},
+  {"id":3659355476,"lat":55.839219,"lon":13.492463,"k":"p","ref":"A"},
+  {"id":4951697314,"lat":55.807052,"lon":13.467583,"k":"p","ref":"D"},
+  {"id":5000187880199,"lat":55.805346,"lon":13.464613,"k":"p"},
+  {"id":5000187880208,"lat":55.806408,"lon":13.466283,"k":"p"}
+],
+"routes":[
+  {"id":2061750,"t":{"ref":"SkE 1","name":"Buss SkE 1: Kristianstad C => Malmö C","from":"Kristianstad C","to":"Malmö C","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000187880208,18]]},
+  {"id":2723555,"t":{"ref":"SkE 1","name":"Buss SkE 1: Malmö C => Kristianstad C","from":"Malmö C","to":"Kristianstad C","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000187880199,7]]},
+  {"id":3333007,"t":{"ref":"SkåneExpressen 2","name":"Buss SkåneExpressen 2: Hörby Busstation => Lund C","from":"Hörby Busstation","to":"Lund C","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000187880208,6]]},
+  {"id":3333008,"t":{"ref":"SkåneExpressen 2","name":"Buss SkåneExpressen 2: Lund C => Hörby Busstation","from":"Lund C","to":"Hörby Busstation","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000187880199,6]]},
+  {"id":3333017,"t":{"ref":"474","name":"Buss 474: Eslövs station => Hörby busstation","from":"Eslövs station","to":"Hörby busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[3484625290,13],[3352342685,14]]},
+  {"id":3333018,"t":{"ref":"474","name":"Buss 474: Hörby busstation => Eslövs station","from":"Hörby busstation","to":"Eslövs station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[3352342691,7],[3484625292,8]]},
+  {"id":5398343,"t":{"ref":"474","name":"Buss 474: Eslövs station => Gryby industriområde => Hörby busstation","from":"Eslövs station","to":"Hörby busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[3484625290,14],[3352342685,15]]},
+  {"id":5398344,"t":{"ref":"474","name":"Buss 474: Hörby busstation => Gryby industriområde => Eslövs station","from":"Hörby busstation","to":"Eslövs station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[3352342691,7],[3484625292,8]]},
+  {"id":7375503,"t":{"ref":"440","name":"Buss 440: Rolsberga => Höör","from":"Rolsberga","to":"Höör","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":9,"s":[[4951697314,1],[3659355476,2]]},
+  {"id":7375504,"t":{"ref":"440","name":"Buss 440: Höör => Rolsberga","from":"Höör","to":"Rolsberga","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":10,"s":[[3659355476,9],[4951697314,10]]}
+]
+}

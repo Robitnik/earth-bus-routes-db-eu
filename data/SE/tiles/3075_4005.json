@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3075,4005],
+"stops":[
+  {"id":2043054542,"lat":63.79371,"lon":20.292962,"k":"x","n":"Umeå Airport"},
+  {"id":2066431586,"lat":63.753239,"lon":20.2944,"k":"p","ref":"A"},
+  {"id":2066431634,"lat":63.752006,"lon":20.293821,"k":"p","ref":"B"},
+  {"id":2066431712,"lat":63.751947,"lon":20.29407,"k":"x","n":"Bergöbron N"},
+  {"id":2066431716,"lat":63.753319,"lon":20.294183,"k":"x","n":"Bergöbron N"},
+  {"id":2066501741,"lat":63.75688,"lon":20.259437,"k":"p","n":"A","ref":"A"},
+  {"id":2066501746,"lat":63.771092,"lon":20.257423,"k":"p","n":"A","ref":"A"},
+  {"id":2066501871,"lat":63.771097,"lon":20.257535,"k":"x","n":"Degernäs Mekaniska","ref":"51476"},
+  {"id":2066501875,"lat":63.756896,"lon":20.25925,"k":"x","n":"Degernäs Svartkläppen","ref":"51477"},
+  {"id":3979461835,"lat":63.793257,"lon":20.290661,"k":"x"},
+  {"id":4394470458,"lat":63.776053,"lon":20.298997,"k":"x","n":"Hällastrandsvägen"},
+  {"id":4469141131,"lat":63.796217,"lon":20.285429,"k":"x"},
+  {"id":4469141132,"lat":63.796161,"lon":20.285276,"k":"p","n":"Alviksgränd"},
+  {"id":4469141134,"lat":63.796894,"lon":20.284094,"k":"x"},
+  {"id":4469141135,"lat":63.796885,"lon":20.284341,"k":"p","n":"Alviksgränd"},
+  {"id":7345831821,"lat":63.793203,"lon":20.29069,"k":"p","n":"Umeå Airport","ref":"B"},
+  {"id":9884924197,"lat":63.793745,"lon":20.293044,"k":"p"},
+  {"id":9884924198,"lat":63.774855,"lon":20.298042,"k":"p","ref":"B"},
+  {"id":9884924199,"lat":63.774771,"lon":20.298242,"k":"x","n":"Hällastrandsvägen"},
+  {"id":9884924200,"lat":63.775989,"lon":20.299209,"k":"p","ref":"A"},
+  {"id":9884924201,"lat":63.764913,"lon":20.2955,"k":"x","n":"Degernäsvägen"},
+  {"id":9884924202,"lat":63.765031,"lon":20.295272,"k":"p","ref":"B"},
+  {"id":9884924203,"lat":63.768015,"lon":20.29636,"k":"x","n":"Degernäsvägen"},
+  {"id":9884924204,"lat":63.767923,"lon":20.296597,"k":"p","ref":"A"},
+  {"id":9884924214,"lat":63.793649,"lon":20.292925,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":6768605,"t":{"ref":"80","name":"Buss 80: Vasaplan => Umeå Airport","from":"Vasaplan","to":"Umeå Airport","network":"Ultra","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":7,"s":[[4469141132,6],[7345831821,7]]},
+  {"id":6768728,"t":{"ref":"80","name":"Buss 80: Umeå Airport => Vasaplan","from":"Umeå Airport","to":"Vasaplan","network":"Ultra","route":"bus","public_transport:version":"2"},"n":7,"s":[[7345831821,1],[4469141135,2]]},
+  {"id":14350659,"t":{"ref":"125","name":"Buss 125: Umeå => Umeå Airport => Obbola","from":"Umeå Vasaplan","to":"Obbola Byviken","network":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":25,"s":[[4469141132,7],[9884924214,8],[9884924198,9],[9884924202,10],[2066431634,11]]}
+]
+}

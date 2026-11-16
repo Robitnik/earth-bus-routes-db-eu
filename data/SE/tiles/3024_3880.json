@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3024,3880],
+"stops":[
+  {"id":1237603404,"lat":61.223033,"lon":14.04464,"k":"s","n":"Älvdalen busstation"},
+  {"id":1775814596,"lat":61.247625,"lon":14.0368,"k":"p","n":"Brandvägen"},
+  {"id":1775814597,"lat":61.247691,"lon":14.037203,"k":"p","n":"Brandvägen"},
+  {"id":1775814641,"lat":61.226804,"lon":14.040746,"k":"x","n":"Älvdalen centrum"},
+  {"id":1925764147,"lat":61.235365,"lon":14.034402,"k":"x","n":"Norra parken"},
+  {"id":3160121193,"lat":61.235552,"lon":14.034318,"k":"x","n":"Norra parken"},
+  {"id":4061700890,"lat":61.21883,"lon":14.04995,"k":"p","n":"Trotvägen"},
+  {"id":6668117354,"lat":61.230929,"lon":14.036898,"k":"x","n":"Apoteket Älvdalen"},
+  {"id":5000403868750,"lat":61.226804,"lon":14.040821,"k":"p"},
+  {"id":5000403925903,"lat":61.235395,"lon":14.034243,"k":"p"},
+  {"id":5000403925904,"lat":61.235514,"lon":14.03447,"k":"p"},
+  {"id":5000709366531,"lat":61.230917,"lon":14.037065,"k":"p"},
+  {"id":5000709366532,"lat":61.230933,"lon":14.036799,"k":"p"}
+],
+"routes":[
+  {"id":3203159,"t":{"ref":"104","name":"Buss 104: Älvdalen => Mora","from":"Älvdalen","to":"Mora","network":"Dalatrafik","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000403868750,1]]},
+  {"id":3203160,"t":{"ref":"104","name":"Buss 104: Mora => Älvdalen","from":"Mora","to":"Älvdalen","network":"Dalatrafik","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000403868750,14]]},
+  {"id":9868096,"t":{"ref":"396","name":"Buss 396: Älvdalen => Grövelsjön","from":"Älvdalen","to":"Grövelsjön","network":"Dalatrafik","route":"bus","public_transport:version":"2"},"n":48,"s":[[5000403868750,1],[5000709366531,2],[5000403925904,3],[1775814597,4]]},
+  {"id":9868097,"t":{"ref":"396","name":"Buss 396: Grövelsjön => Älvdalen","from":"Grövelsjön","to":"Älvdalen","network":"Dalatrafik","route":"bus","public_transport:version":"2"},"n":45,"s":[[1775814596,42],[5000403925903,43],[5000709366532,44],[5000403868750,45]]}
+]
+}

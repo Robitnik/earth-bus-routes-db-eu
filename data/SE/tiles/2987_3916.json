@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2987,3916],
+"stops":[
+  {"id":6449321930,"lat":59.376731,"lon":15.84206,"k":"p"},
+  {"id":6449321931,"lat":59.376708,"lon":15.841851,"k":"x","n":"Margretelund"},
+  {"id":13001842025,"lat":59.396913,"lon":15.841584,"k":"p","n":"Arboga Resecentrum"},
+  {"id":13001842026,"lat":59.396871,"lon":15.841592,"k":"p","n":"Arboga Resecentrum"},
+  {"id":13001842027,"lat":59.396814,"lon":15.84158,"k":"p","n":"Arboga Resecentrum"},
+  {"id":13001842029,"lat":59.396755,"lon":15.841586,"k":"p","n":"Arboga Resecentrum"},
+  {"id":13001842031,"lat":59.396702,"lon":15.841582,"k":"p","n":"Arboga Resecentrum"},
+  {"id":13001842032,"lat":59.39665,"lon":15.841587,"k":"p","n":"Arboga Resecentrum"},
+  {"id":13001842073,"lat":59.387665,"lon":15.825567,"k":"p","n":"Vinbäcken"},
+  {"id":13001842074,"lat":59.387453,"lon":15.822901,"k":"p","n":"Vinbäcken"},
+  {"id":13026684736,"lat":59.392997,"lon":15.832707,"k":"p","n":"Jäderstullen"},
+  {"id":13026684737,"lat":59.392802,"lon":15.832471,"k":"p","n":"Jäderstullen"},
+  {"id":13026684738,"lat":59.391944,"lon":15.84821,"k":"p","n":"Herrgårdsgatan"},
+  {"id":13026684739,"lat":59.392055,"lon":15.848216,"k":"p","n":"Herrgårdsgatan"},
+  {"id":5001027447835,"lat":59.396818,"lon":15.841598,"k":"p"}
+],
+"routes":[
+  {"id":13756662,"t":{"ref":"55","name":"Buss 55: Arboga Resecentrum - Götlunda","from":"Arboga Resecentrum","to":"Götlunda","network":"VL","route":"bus","public_transport:version":"1+2"},"n":9,"s":[[13001842026,1],[13001842074,2]]},
+  {"id":13758502,"t":{"ref":"55","name":"Buss 55: Götlunda - Arboga Resecentrum","from":"Götlunda","to":"Arboga Resecentrum","network":"VL","route":"bus","public_transport:version":"1+2"},"n":9,"s":[[13001842073,8],[13001842026,9]]},
+  {"id":13772457,"t":{"ref":"551","name":"Buss 551: Köping - Arboga Resecentrum","from":"Köping","to":"Arboga Resecentrum","network":"VL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[13001842029,21]]},
+  {"id":13773498,"t":{"ref":"551","name":"Buss 551: Arboga Resecentrum - Köping","from":"Arboga Resecentrum","to":"Arboga Resecentrum","network":"VL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[13001842029,1]]},
+  {"id":17019520,"t":{"ref":"351","name":"Regionbuss 351 Lindesberg -> Arboga","from":"Fotbollsgatan västra","to":"Arboga Resecentrum","network":"Länstrafiken Örebro","operator":"Länstrafiken Örebro","route":"bus","public_transport:version":"2"},"n":62,"s":[[5001027447835,62]]},
+  {"id":17019521,"t":{"ref":"351","name":"Regionbuss 351 Arboga -> Lindesberg","from":"Arboga Resecentrum","to":"Fotbollsgatan västra","network":"Länstrafiken Örebro","operator":"Länstrafiken Örebro","route":"bus","public_transport:version":"2"},"n":58,"s":[[5001027447835,1]]},
+  {"id":19392037,"t":{"ref":"54","name":"Buss 54: Smedby - Arboga Resecentrum","from":"Smedby","to":"Arboga Resecentrum","network":"VL","route":"bus","public_transport:version":"1+2"},"n":19,"s":[[13001842025,19]]},
+  {"id":19392038,"t":{"ref":"54","name":"Buss 54: Arboga Resecentrum - Smedby","from":"Arboga Resecentrum","to":"Smedby","network":"VL","route":"bus","public_transport:version":"1+2"},"n":13,"s":[[13001842026,1]]},
+  {"id":19392039,"t":{"ref":"Arbogalinjen","name":"Buss Arbogalinjen: Teknikpark - Arboga Resecentrum","from":"Teknikpark","to":"Arboga Resecentrum","network":"VL","route":"bus","public_transport:version":"1+2"},"n":8,"s":[[13026684739,7],[13001842026,8]]},
+  {"id":19392040,"t":{"ref":"Arbogalinjen","name":"Buss Arbogalinjen: Arboga Resecentrum - Teknikpark","from":"Arboga Resecentrum","to":"Teknikpark","network":"VL","route":"bus","public_transport:version":"1+2"},"n":8,"s":[[13001842031,1],[13026684738,2]]}
+]
+}

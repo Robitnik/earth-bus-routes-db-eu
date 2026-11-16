@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2964,3893],
+"stops":[
+  {"id":652668258,"lat":58.228177,"lon":14.65272,"k":"x","n":"Torget","ref":"A"},
+  {"id":652668262,"lat":58.232978,"lon":14.661714,"k":"x","n":"Kungsvägen","ref":"B"},
+  {"id":652668266,"lat":58.23267,"lon":14.660459,"k":"x","n":"Kungsvägen","ref":"A"},
+  {"id":652668846,"lat":58.234412,"lon":14.667458,"k":"x","n":"Kyrkogården","ref":"B"},
+  {"id":652668847,"lat":58.234186,"lon":14.666643,"k":"x","n":"Kyrkogården","ref":"A"},
+  {"id":652671764,"lat":58.235533,"lon":14.674512,"k":"p","n":"A","ref":"A"},
+  {"id":652671765,"lat":58.235571,"lon":14.675597,"k":"p","n":"B","ref":"B"},
+  {"id":1127700857,"lat":58.228262,"lon":14.652822,"k":"x","n":"Torget","ref":"B"},
+  {"id":1127702833,"lat":58.230011,"lon":14.657275,"k":"p","n":"B","ref":"B"},
+  {"id":1127702844,"lat":58.230055,"lon":14.657186,"k":"p","n":"A","ref":"A"},
+  {"id":4059018528,"lat":58.235478,"lon":14.674532,"k":"x","n":"Backasand Ödeshög","ref":"A"},
+  {"id":4059018529,"lat":58.235602,"lon":14.675585,"k":"x","n":"Backasand Ödeshög","ref":"B"},
+  {"id":4059018549,"lat":58.230037,"lon":14.657224,"k":"x","n":"Per Brahegatan","ref":"A;B"},
+  {"id":4059018568,"lat":58.237662,"lon":14.691886,"k":"x","n":"Parkudden","ref":"B"},
+  {"id":4059018569,"lat":58.237937,"lon":14.692473,"k":"x","n":"Parkudden","ref":"A"},
+  {"id":4059021836,"lat":58.237639,"lon":14.691926,"k":"p","n":"B","ref":"B"},
+  {"id":4059021837,"lat":58.237975,"lon":14.692436,"k":"p","n":"A","ref":"A"},
+  {"id":7340600574,"lat":58.233495,"lon":14.671342,"k":"p","n":"Ödeshög Rasta"},
+  {"id":5000403552308,"lat":58.234362,"lon":14.667444,"k":"p","n":"B","ref":"B"},
+  {"id":5000403552313,"lat":58.234252,"lon":14.666696,"k":"p","n":"A","ref":"A"},
+  {"id":5000403552314,"lat":58.232738,"lon":14.660468,"k":"p","n":"A","ref":"A"},
+  {"id":5000403552316,"lat":58.232896,"lon":14.661718,"k":"p","n":"B","ref":"B"},
+  {"id":5000494984020,"lat":58.228227,"lon":14.652817,"k":"p","n":"A","ref":"A"},
+  {"id":5000953759736,"lat":58.228249,"lon":14.652924,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":4117430,"t":{"ref":"664","name":"Buss 664: Mjölby => Hästholmen => Ödeshög","from":"Mjölby","to":"Ödeshög","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000403552313,35],[5000403552314,36],[1127702844,37],[5000494984020,38]]},
+  {"id":4117431,"t":{"ref":"664","name":"Buss 664: Ödeshög => Hästholmen => Mjölby","from":"Ödeshög","to":"Mjölby","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000494984020,1],[1127702833,2],[5000403552316,3],[5000403552308,4]]},
+  {"id":4117432,"t":{"ref":"665","name":"Buss 665: Mjölby => Ödeshög","from":"Mjölby","to":"Ödeshög","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":30,"s":[[4059021837,25],[652671764,26],[5000403552313,27],[5000403552314,28],[1127702844,29],[5000494984020,30]]},
+  {"id":4117433,"t":{"ref":"665","name":"Buss 665: Ödeshög => Mjölby","from":"Ödeshög","to":"Mjölby","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000494984020,1],[1127702833,2],[5000403552316,3],[5000403552308,4],[652671765,5],[4059021836,6]]},
+  {"id":12842003,"t":{"ref":"677","name":"Linje 677: Linköping => Ödeshög => Hästholmen","from":"Resecentrum","to":"Hästholmen","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000403552313,3],[5000403552314,4],[5000953759736,5]]},
+  {"id":12842004,"t":{"ref":"677","name":"Linje 677: Hästholmen => Ödeshög => Linköping","from":"Hästholmen","to":"Resecentrum","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000953759736,2],[5000403552316,3],[5000403552308,4]]},
+  {"id":12842005,"t":{"ref":"681","name":"Linje 681: Mjölby => Ödeshög","from":"Mjölby resecentrum","to":"Torget","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000403552313,7],[5000403552314,8],[1127702844,9],[5000953759736,10]]},
+  {"id":12842006,"t":{"ref":"681","name":"Linje 681: Ödeshög => Mjölby","from":"Torget","to":"Mjölby resecentrum","network":"Östgötatrafiken","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000953759736,1],[5000403552316,2],[5000403552308,3]]},
+  {"id":3053841242464,"t":{"ref":"FlixBus 601","name":"FlixBus 601: Linköping (Fjärrbussterminal) Flixbus Stop - Gothenburg (Nils Ericson Terminalen)","from":"Linköping (Fjärrbussterminal) Flixbus Stop","to":"Gothenburg (Nils Ericson Terminalen)","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":8,"s":[[7340600574,2]]}
+]
+}

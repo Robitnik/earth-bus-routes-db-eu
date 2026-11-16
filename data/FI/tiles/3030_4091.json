@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3030,4091],
+"stops":[
+  {"id":190885425,"lat":61.502175,"lon":24.575695,"k":"x","n":"Salokankaantie I"},
+  {"id":190885431,"lat":61.500907,"lon":24.585439,"k":"x","n":"Peltolantie L"},
+  {"id":738044569,"lat":61.500688,"lon":24.589156,"k":"x","n":"Puntarinraitti I"},
+  {"id":6270951036,"lat":61.519538,"lon":24.594478,"k":"p","n":"Maljastentie 230 P"},
+  {"id":6270953602,"lat":61.518908,"lon":24.593846,"k":"p","n":"Maljastentie 222 E"},
+  {"id":6270953603,"lat":61.511627,"lon":24.5892,"k":"p","n":"Maljastentie 139 P"},
+  {"id":6270953604,"lat":61.511093,"lon":24.58792,"k":"p","n":"Maljastentie 129 E"},
+  {"id":6270953608,"lat":61.50549,"lon":24.550913,"k":"p","n":"Härkimetsäntie I","ref":"9160"},
+  {"id":6270953609,"lat":61.504413,"lon":24.561253,"k":"p","n":"Kuhmalahti kk I","ref":"9162"},
+  {"id":6270953610,"lat":61.504304,"lon":24.56314,"k":"p","n":"Kuhmalahti kk L","ref":"9161"},
+  {"id":6270953611,"lat":61.503197,"lon":24.57263,"k":"p","n":"Maljastentie 6 P"},
+  {"id":6270953612,"lat":61.503101,"lon":24.570855,"k":"p","n":"Maljastentie L","ref":"9163"},
+  {"id":6270953613,"lat":61.502496,"lon":24.574358,"k":"p","n":"Salokankaantie L","ref":"9165"},
+  {"id":6270953614,"lat":61.502098,"lon":24.57571,"k":"p","n":"Salokankaantie I","ref":"9164"},
+  {"id":6270953615,"lat":61.500976,"lon":24.585425,"k":"p","n":"Peltolantie L","ref":"9167"},
+  {"id":6270953616,"lat":61.500619,"lon":24.589126,"k":"p","n":"Puntarinraitti I","ref":"9166"},
+  {"id":7319098693,"lat":61.504228,"lon":24.5631,"k":"x","n":"Kuhmalahti kk L"},
+  {"id":7319098700,"lat":61.504489,"lon":24.561336,"k":"x","n":"Kuhmalahti kk I"},
+  {"id":7319698835,"lat":61.50302,"lon":24.570792,"k":"x","n":"Maljastentie L"},
+  {"id":7319698836,"lat":61.502418,"lon":24.574329,"k":"x","n":"Salokankaantie L"},
+  {"id":7321089467,"lat":61.505554,"lon":24.550959,"k":"x","n":"Härkimetsäntie I"},
+  {"id":11195756381,"lat":61.505554,"lon":24.558375,"k":"x","n":"Kuhmalahden koulu","ref":"9183"},
+  {"id":11195800925,"lat":61.505432,"lon":24.559214,"k":"x","n":"Kuhmalahden koulu","ref":"9182"},
+  {"id":12189908199,"lat":61.505599,"lon":24.55841,"k":"p","n":"Kuhmalahden koulu","ref":"9183"},
+  {"id":12189908200,"lat":61.505398,"lon":24.559186,"k":"p","n":"Kuhmalahden koulu","ref":"9182"}
+],
+"routes":[
+  {"id":10888511,"t":{"ref":"48C","name":"Bus 48C: Kuhmalahti => Kivisalmi => Pakkala => Kangasala","from":"Kuhmalahti kk L","to":"Tredu Kangasala","network":"Nysse","route":"bus","public_transport:version":"2"},"n":42,"s":[[7319098693,1],[11195756381,2]]},
+  {"id":10888512,"t":{"ref":"48B","name":"Bus 48B: Pohja => Kuhmalahti => Kivisalmi => Sahalahti => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":48,"s":[[190885431,9],[7319698836,10],[7319698835,11],[7319098693,12]]},
+  {"id":10888909,"t":{"ref":"48C","name":"Bus 48C: Kangasala => Pakkala => Kivisalmi => Kuhmalahti => Pohja","from":"Kangasala B","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":44,"s":[[11195800925,33],[7319098700,34],[190885425,35],[738044569,36]]},
+  {"id":13108254,"t":{"ref":"48","name":"Bus 48: Pohja => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":50,"s":[[190885431,9],[7319698836,10],[7319698835,11],[7319098693,12]]},
+  {"id":13108255,"t":{"ref":"48","name":"Bus 48: Kangasala => Pohja","from":"Kangasala B","to":"Pohja","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":49,"s":[[7321089467,38],[7319098700,39],[190885425,40],[738044569,41]]},
+  {"id":15311443,"t":{"ref":"48A","name":"Bus 48A: Pohja => Kuhmalahti => Pakkala => Sahalahti => Kangasala","from":"Pohja","to":"Kangasala A","network":"Nysse","operator":"Koiviston Auto Tampere Oy","route":"bus","public_transport:version":"2"},"n":51,"s":[[190885431,9],[7319698836,10],[7319698835,11],[7319098693,12]]}
+]
+}

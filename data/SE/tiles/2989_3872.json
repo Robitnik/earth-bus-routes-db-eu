@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2989,3872],
+"stops":[
+  {"id":10972106123,"lat":59.494967,"lon":13.60615,"k":"x","n":"Forshagavägen","ref":"A"},
+  {"id":10972106124,"lat":59.495037,"lon":13.606109,"k":"p","ref":"A"},
+  {"id":10972106125,"lat":59.495566,"lon":13.608311,"k":"x","n":"Forshagavägen","ref":"B"},
+  {"id":10972106126,"lat":59.495507,"lon":13.608445,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":15972627,"t":{"ref":"401","name":"Buss 401: Karlstad => Molkom","from":"Karlstad Busstationen","to":"Molkom, Graninge","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":28,"s":[[10972106126,11]]},
+  {"id":15972629,"t":{"ref":"401","name":"Buss 401: Molkom => Karlstad","from":"Molkom, Graninge","to":"Karlstad Busstationen","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":26,"s":[[10972106124,16]]},
+  {"id":15974779,"t":{"ref":"300","name":"Buss 300: Hagfors => Karlstad","from":"Björkliden","to":"Karlstad Busstationen","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":60,"s":[[10972106124,50]]},
+  {"id":15974780,"t":{"ref":"300","name":"Buss 300: Karlstad => Hagfors","from":"Karlstad Busstationen","to":"Björkliden","network":"Värmlandstrafik","operator":"Nobina","route":"bus","public_transport:version":"2"},"n":61,"s":[[10972106126,11]]}
+]
+}

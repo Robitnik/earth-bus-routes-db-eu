@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2983,3961],
+"stops":[
+  {"id":2627307437,"lat":59.172916,"lon":18.062915,"k":"p","n":"Lissma skola"},
+  {"id":2627307438,"lat":59.173439,"lon":18.061637,"k":"p","n":"Lissma skola"},
+  {"id":3535373691,"lat":59.194417,"lon":18.061194,"k":"p","n":"Pelikanvägen"},
+  {"id":3535373692,"lat":59.198391,"lon":18.069467,"k":"p","n":"Ringsättravägen"},
+  {"id":3535400593,"lat":59.19918,"lon":18.0711,"k":"p","n":"Ringsättravägen"},
+  {"id":3902536071,"lat":59.177365,"lon":18.050373,"k":"p","n":"Ådravägen"},
+  {"id":5824391355,"lat":59.183309,"lon":18.093958,"k":"p","n":"Lövberga"},
+  {"id":5824391356,"lat":59.18389,"lon":18.095263,"k":"p","n":"Lövberga"},
+  {"id":5824391357,"lat":59.176147,"lon":18.075163,"k":"p","n":"Lissma gård","ref":"70174"},
+  {"id":5824391358,"lat":59.176082,"lon":18.075498,"k":"p","n":"Lissma gård","ref":"70175"}
+],
+"routes":[
+  {"id":1311201,"t":{"ref":"833","name":"Buss 833: Farsta centrum - Vidja","from":"Farsta centrum","to":"Vidja","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":17,"s":[[3535373692,16],[3535373691,17]]},
+  {"id":5174151,"t":{"ref":"833","name":"Buss 833: Vidja - Farsta centrum","from":"Vidja","to":"Farsta centrum","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":16,"s":[[3535373691,1],[3535400593,2]]},
+  {"id":5758897,"t":{"ref":"709","name":"Buss 709: Huddinge station - Länna industriområde","from":"Huddinge station","to":"Länna industriområde (Truckvägen)","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":36,"s":[[2627307437,32],[5824391358,33],[5824391356,34]]},
+  {"id":5758898,"t":{"ref":"709","name":"Buss 709: Länna industriområde - Huddinge station","from":"Länna industriområde (Truckvägen)","to":"Huddinge station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":36,"s":[[5824391355,3],[5824391357,4],[2627307438,5],[3902536071,19]]},
+  {"id":6167100,"t":{"ref":"865","name":"Buss 865: Handens station - Skärholmen","from":"Handens station","to":"Skärholmen","network":"SL","route":"bus","public_transport:version":"1+2"},"n":22,"s":[[2627307438,4]]},
+  {"id":6167101,"t":{"ref":"865","name":"Buss 865: Skärholmen - Handens station","from":"Skärholmen","to":"Handens station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":22,"s":[[2627307437,19]]},
+  {"id":13999582,"t":{"ref":"865","name":"Buss 865: Huddinge sjukhus - Handens station","from":"Huddinge sjukhus","to":"Handens station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":11,"s":[[2627307437,9]]},
+  {"id":13999583,"t":{"ref":"865","name":"Buss 865: Skärholmen - Handens station","from":"Skärholmen","to":"Handens station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[2627307437,19]]},
+  {"id":13999584,"t":{"ref":"865","name":"Buss 865: Handens station - Huddinge sjukhus","from":"Handens station","to":"Huddinge sjukhus","network":"SL","route":"bus","public_transport:version":"1+2"},"n":11,"s":[[2627307438,3]]},
+  {"id":13999585,"t":{"ref":"865","name":"Buss 865: Handens station - Skärholmen","from":"Handens station","to":"Skärholmen","network":"SL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[2627307438,3]]}
+]
+}

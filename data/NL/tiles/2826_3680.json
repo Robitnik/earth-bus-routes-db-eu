@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2826,3680],
+"stops":[
+  {"id":1710355065,"lat":51.342216,"lon":4.033868,"k":"p","n":"Dorp"},
+  {"id":1710355073,"lat":51.342121,"lon":4.034084,"k":"p","n":"Dorp"},
+  {"id":1710355436,"lat":51.338365,"lon":4.034509,"k":"p","n":"Molen"},
+  {"id":1710355450,"lat":51.338485,"lon":4.034322,"k":"p","n":"Molen"},
+  {"id":4970254176,"lat":51.318452,"lon":4.032337,"k":"x","n":"Terhole, N60"},
+  {"id":4970254181,"lat":51.338374,"lon":4.034408,"k":"x","n":"Kuitaart, Molen"},
+  {"id":4970254182,"lat":51.342118,"lon":4.033978,"k":"x","n":"Kuitaart, Dorp"},
+  {"id":4970254183,"lat":51.342222,"lon":4.033954,"k":"x","n":"Kuitaart, Dorp"},
+  {"id":11263005529,"lat":51.338476,"lon":4.034431,"k":"x","n":"Kuitaart, Molen"},
+  {"id":11263005530,"lat":51.318385,"lon":4.032417,"k":"p","n":"N60"},
+  {"id":14124985727,"lat":51.316687,"lon":4.038486,"k":"x","n":"Terhole, Brandershole"},
+  {"id":14124985728,"lat":51.316667,"lon":4.038517,"k":"p","n":"Brandershole"}
+],
+"routes":[
+  {"id":2127657,"t":{"ref":"589","name":"Bus 589: Clinge De Sterre => Ossenisse Lageweg","from":"Clinge, De Sterre","to":"Ossenisse, Lageweg","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":25,"s":[[1710355073,21]]},
+  {"id":2127660,"t":{"ref":"589","name":"Bus 589: Ossenisse Lageweg => Clinge De Sterre","from":"Ossenisse, Lageweg","to":"Clinge, De Sterre","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":24,"s":[[1710355065,5]]},
+  {"id":16490719,"t":{"ref":"610","name":"Bus 610: Kloosterzande Hulsterweg => Terneuzen Zeldenrustlaan","from":"Kloosterzande, Hulsterweg","to":"Terneuzen, Zeldenrustlaan","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":6,"s":[[1710355065,2],[1710355450,3],[11263005530,4]]},
+  {"id":21038774,"t":{"ref":"610","name":"Bus 610: Terneuzen Zeldenrustlaan => Kloosterzand Hulsterweg","from":"Terneuzen, Zeldenrustlaan","to":"Kloosterzand, Hulsterweg","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":5,"s":[[11263005530,2],[1710355436,3],[1710355073,4]]},
+  {"id":21275649,"t":{"name":"Zeeland Flex","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":1071,"s":[[1710355065,430],[1710355436,431],[14124985728,804],[11263005530,805]]}
+]
+}

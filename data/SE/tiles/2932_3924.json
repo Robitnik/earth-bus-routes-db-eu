@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2932,3924],
+"stops":[
+  {"id":27403428,"lat":56.642907,"lon":16.234952,"k":"x","n":"Rinkabyholm södra","ref":"A"},
+  {"id":6697533925,"lat":56.638058,"lon":16.216842,"k":"x","n":"Hossmo E22","ref":"B"},
+  {"id":6697856855,"lat":56.643532,"lon":16.23686,"k":"x","n":"Rinkabyholm södra","ref":"B"},
+  {"id":6697856856,"lat":56.642971,"lon":16.234866,"k":"p","n":"A","ref":"A"},
+  {"id":6697856857,"lat":56.643466,"lon":16.236929,"k":"p","n":"B","ref":"B"},
+  {"id":6697856858,"lat":56.638749,"lon":16.224532,"k":"x","n":"Hossmo kyrka","ref":"A"},
+  {"id":6697856859,"lat":56.638815,"lon":16.224434,"k":"p","n":"A","ref":"A"},
+  {"id":6697856860,"lat":56.639385,"lon":16.226101,"k":"x","n":"Hossmo kyrka","ref":"B"},
+  {"id":6697856861,"lat":56.639317,"lon":16.226214,"k":"p","n":"B","ref":"B"},
+  {"id":6697856864,"lat":56.638393,"lon":16.214632,"k":"x","n":"Hossmo E22","ref":"A"},
+  {"id":6697856870,"lat":56.638039,"lon":16.218659,"k":"x","n":"Hossmo E22","ref":"D"},
+  {"id":6697856871,"lat":56.639055,"lon":16.213384,"k":"x","n":"Hossmo E22","ref":"C"},
+  {"id":5000712329658,"lat":56.637968,"lon":16.218532,"k":"p","n":"D","ref":"D"},
+  {"id":5000712329659,"lat":56.63914,"lon":16.213434,"k":"p","n":"C","ref":"C"},
+  {"id":5000712329660,"lat":56.638469,"lon":16.214527,"k":"p","n":"A","ref":"A"},
+  {"id":5000712329664,"lat":56.637987,"lon":16.216811,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":6023011,"t":{"ref":"403","name":"Buss 403: Ljungbyholm => Länssjukhuset => Kalmar centralstation","from":"Ljungbyholm","to":"Kalmar centralstation","network":"Kalmar länstrafik","colour":"#ffd500","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000712329658,5],[6697856861,6],[6697856857,7]]},
+  {"id":6023012,"t":{"ref":"403","name":"Buss 403: Kalmar centralstation => Länssjukhuset => Ljungbyholm","from":"Kalmar centralstation","to":"Ljungbyholm","network":"Kalmar länstrafik","colour":"#ffd500","route":"bus","public_transport:version":"2"},"n":22,"s":[[6697856856,16],[6697856859,17],[5000712329659,18]]},
+  {"id":20412554,"t":{"ref":"500","name":"Buss 500: Karlskrona centrum => Kalmar centralstation","from":"Karlskrona centrum","to":"Kalmar centralstation","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000712329664,21]]},
+  {"id":20412555,"t":{"ref":"500","name":"Buss 500: Kalmar centralstation => Karlskrona centrum","from":"Kalmar centralstation","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000712329660,4]]},
+  {"id":21200630,"t":{"ref":"121","name":"Buss 121: Kalmar => Bergkvara","from":"Kalmar","to":"Bergkvara","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000712329660,8]]},
+  {"id":21200638,"t":{"ref":"121","name":"Buss 121: Bergkvara => Kalmar","from":"Bergkvara","to":"Kalmar","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000712329664,35]]}
+]
+}

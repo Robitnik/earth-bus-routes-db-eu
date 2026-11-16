@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2846,3703],
+"stops":[
+  {"id":695213844,"lat":52.343127,"lon":5.153471,"k":"p","n":"Station Poort"},
+  {"id":695213998,"lat":52.342997,"lon":5.153554,"k":"p","n":"Station Poort"},
+  {"id":695214029,"lat":52.343396,"lon":5.160569,"k":"p","n":"Topsporthal"},
+  {"id":695214041,"lat":52.342919,"lon":5.159902,"k":"p","n":"Topsporthal"},
+  {"id":1724061984,"lat":52.345743,"lon":5.162795,"k":"p","n":"Europakwartier Oost"},
+  {"id":1724061992,"lat":52.346261,"lon":5.163516,"k":"p","n":"Europakwartier Oost"},
+  {"id":2926502053,"lat":52.343215,"lon":5.153487,"k":"p","n":"Station Poort"},
+  {"id":2926524848,"lat":52.34306,"lon":5.1535,"k":"p","n":"Station Poort"},
+  {"id":5307123053,"lat":52.342936,"lon":5.15367,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123054,"lat":52.342954,"lon":5.153633,"k":"p","n":"Station Poort"},
+  {"id":5307123055,"lat":52.342976,"lon":5.15359,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123056,"lat":52.343038,"lon":5.15353,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123057,"lat":52.343106,"lon":5.153494,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123058,"lat":52.3432,"lon":5.153513,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123059,"lat":52.343272,"lon":5.153521,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123060,"lat":52.343362,"lon":5.153594,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123061,"lat":52.343429,"lon":5.153628,"k":"x","n":"Almere Poort, Station Poort"},
+  {"id":5307123062,"lat":52.343467,"lon":5.153651,"k":"p","n":"Station Poort"},
+  {"id":5307123063,"lat":52.343383,"lon":5.1536,"k":"p","n":"Station Poort"},
+  {"id":5307123064,"lat":52.343288,"lon":5.153501,"k":"p","n":"Station Poort"},
+  {"id":6448194305,"lat":52.342898,"lon":5.159967,"k":"x","n":"Almere Poort, Topsporthal"},
+  {"id":6448194306,"lat":52.343422,"lon":5.16051,"k":"x","n":"Almere Poort, Topsporthal"},
+  {"id":6448194307,"lat":52.34571,"lon":5.162865,"k":"x","n":"Almere Poort, Europakwartier Oost"},
+  {"id":6448194308,"lat":52.346278,"lon":5.163446,"k":"x","n":"Almere Poort, Europakwartier Oost"}
+],
+"routes":[
+  {"id":5065,"t":{"ref":"M4","name":"Bus M4: Almere Station Centrum => Almere Station Poort","from":"Almere Stad, Station Centrum","to":"Almere Poort, Station Poort","network":"Busvervoer Almere","operator":"Keolis","colour":"#FFCF21","route":"bus","public_transport:version":"2"},"n":19,"s":[[2926524848,19]]},
+  {"id":554700,"t":{"ref":"M4","name":"Bus M4: Almere Station Poort => Almere Station Centrum","from":"Almere Poort, Station Poort","to":"Almere Stad, Station Centrum","network":"Busvervoer Almere","operator":"Keolis","colour":"#FFCF21","route":"bus","public_transport:version":"2"},"n":19,"s":[[2926524848,1]]},
+  {"id":5649082,"t":{"ref":"N22","name":"Bus N22: Almere Station Buiten => Amsterdam Leidseplein","from":"Almere Buiten, Station Buiten","to":"Amsterdam, Leidseplein","network":"Busvervoer Almere","operator":"Keolis","colour":"#F59C00","route":"bus","public_transport:version":"2"},"n":44,"s":[[5307123064,39]]},
+  {"id":5649083,"t":{"ref":"N22","name":"Bus N22: Amsterdam Leidseplein => Almere Station Buiten","from":"Amsterdam, Leidseplein","to":"Almere Buiten, Station Buiten","network":"Busvervoer Almere","operator":"Keolis","colour":"#F59C00","route":"bus","public_transport:version":"2"},"n":46,"s":[[695213998,8]]},
+  {"id":11245992,"t":{"ref":"24","name":"Bus 24: Almere Duin => Almere Poort","from":"Almere Poort, Duin","to":"Almere Poort, Station Poort","network":"Busvervoer Almere","operator":"Keolis Nederland","colour":"#77828F","route":"bus","public_transport:version":"2"},"n":5,"s":[[5307123054,5]]},
+  {"id":11245993,"t":{"ref":"24","name":"Bus 24: Almere Poort => Almere Duin","from":"Almere Poort, Station Poort","to":"Almere Poort, Duin","network":"Busvervoer Almere","operator":"Keolis Nederland","colour":"#77828F","route":"bus","public_transport:version":"2"},"n":2,"s":[[5307123054,1]]},
+  {"id":19954040,"t":{"ref":"329","name":"Bus 329: Amsterdam Amstel => Almere De Steiger","from":"Amsterdam, Amstelstation","to":"Almere Haven, De Steiger","network":"Busvervoer Almere","operator":"Keolis","colour":"#BF4137","route":"bus","public_transport:version":"2"},"n":28,"s":[[695213998,9],[695214029,10],[1724061992,11]]},
+  {"id":19954041,"t":{"ref":"329","name":"Bus 329: Almere De Steiger => Amsterdam Amstel","from":"Almere Haven, De Steiger","to":"Amsterdam, Amstelstation","network":"Busvervoer Almere","operator":"Keolis","colour":"#BF4137","route":"bus","public_transport:version":"2"},"n":28,"s":[[1724061984,18],[695214041,19],[5307123064,20]]}
+]
+}

@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2862,3711],
+"stops":[
+  {"id":659970368,"lat":53.108508,"lon":5.580547,"k":"p","n":"Provincialeweg"},
+  {"id":659970369,"lat":53.10809,"lon":5.581264,"k":"p","n":"Provincialeweg"},
+  {"id":4761488018,"lat":53.119616,"lon":5.570984,"k":"p","n":"Tsjerkebuorren"},
+  {"id":11920314228,"lat":53.108483,"lon":5.587358,"k":"p","n":"De Terp"},
+  {"id":12090192963,"lat":53.108067,"lon":5.581206,"k":"x","n":"Wommels, Provincialeweg"},
+  {"id":12090192964,"lat":53.108533,"lon":5.580608,"k":"x","n":"Wommels, Provincialeweg"},
+  {"id":13544268236,"lat":53.108509,"lon":5.587065,"k":"p","n":"De Terp"}
+],
+"routes":[
+  {"id":422254,"t":{"ref":"92","name":"Bus 92: Leeuwarden Busstation => Zurich Kop Afsluitdijk","from":"Leeuwarden, Busstation","to":"Zurich, Kop Afsluitdijk","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":23,"s":[[659970368,11]]},
+  {"id":422255,"t":{"ref":"92","name":"Bus 92: Zurich Kop Afsluitdijk => Leeuwarden Busstation","from":"Zurich, Kop Afsluitdijk","to":"Leeuwarden, Busstation","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":23,"s":[[659970369,13]]},
+  {"id":1651919,"t":{"ref":"38","name":"Bus 38: Sneek Busstation => Hidaard","from":"Sneek, Busstation","to":"Hidaard","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":15,"s":[[13544268236,13],[659970369,14]]},
+  {"id":1651920,"t":{"ref":"38","name":"Bus 38: Hidaard => Sneek Busstation","from":"Hidaard","to":"Sneek, Busstation","network":"Fryslân","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":15,"s":[[659970368,2],[11920314228,3]]},
+  {"id":6790798,"t":{"ref":"355","name":"Bus 355 (Qliner): Dokkum Busstation => Bolsward Busstation Twibaksdyk","from":"Dokkum, Busstation","to":"Bolsward, Busstation Twibaksdyk","network":"Fryslân","operator":"Qbuzz","colour":"#19408F","route":"bus","public_transport:version":"2"},"n":20,"s":[[659970368,13]]},
+  {"id":6790799,"t":{"ref":"355","name":"Bus 355 (Qliner): Bolsward Busstation Twibaksdyk => Lauwersoog Dorp","from":"Bolsward, Busstation Twibaksdyk","to":"Lauwersoog, Dorp","network":"Fryslân","operator":"Qbuzz","colour":"#19408F","route":"bus","public_transport:version":"2"},"n":25,"s":[[659970369,8]]}
+]
+}

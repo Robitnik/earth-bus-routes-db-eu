@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2833,3713],
+"stops":[
+  {"id":925937298,"lat":51.696281,"lon":5.673791,"k":"p","n":"Gemeentehuis"},
+  {"id":925937317,"lat":51.693961,"lon":5.671116,"k":"p","n":"Eikenhof"},
+  {"id":1712459583,"lat":51.694019,"lon":5.671554,"k":"p","n":"Eikenhof"},
+  {"id":1712459637,"lat":51.696202,"lon":5.673886,"k":"p","n":"Gemeentehuis"},
+  {"id":1712460801,"lat":51.688206,"lon":5.662435,"k":"p","n":"Udenseweg/N265"},
+  {"id":1712460802,"lat":51.688284,"lon":5.662336,"k":"p","n":"Udenseweg/N265"},
+  {"id":6125661900,"lat":51.696076,"lon":5.666373,"k":"p","n":"Tweehekkenweg"},
+  {"id":6125661901,"lat":51.696279,"lon":5.666378,"k":"p","n":"Tweehekkenweg"},
+  {"id":13823400784,"lat":51.690902,"lon":5.666673,"k":"p","n":"Udenseweg"},
+  {"id":13823400796,"lat":51.655871,"lon":5.659881,"k":"p","n":"Koperslagerstraat"},
+  {"id":13823400805,"lat":51.678397,"lon":5.674779,"k":"p","n":"Oventje"}
+],
+"routes":[
+  {"id":349454,"t":{"ref":"99","name":"Bus 99: Uden Busstation => Nijmegen Centraal Station","from":"Uden, Busstation","to":"Nijmegen, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":21,"s":[[6125661901,4]]},
+  {"id":401008,"t":{"ref":"99","name":"Bus 99: Nijmegen Centraal Station => Uden Busstation","from":"Nijmegen, Centraal Station","to":"Uden, Busstation","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":21,"s":[[6125661900,18]]},
+  {"id":9092154,"t":{"ref":"254","name":"Bus 254: Schaijk Netjeshof => Uden Busstation","from":"Schaijk, Netjeshof","to":"Uden, Busstation","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":21,"s":[[925937298,13],[925937317,14],[1712460802,15]]},
+  {"id":9092177,"t":{"ref":"254","name":"Bus 254: Uden Busstation => Schaijk Netjeshof","from":"Uden, Busstation","to":"Schaijk, Netjeshof","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":18,"s":[[1712460801,4],[1712459583,5],[1712459637,6]]},
+  {"id":20678522,"t":{"ref":"flex","name":"Bravoflex hub Tweehekkenweg, Zeeland","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":114,"s":[[1712460802,3],[1712460801,4],[925937298,5],[925937317,6],[13823400784,8],[6125661900,11],[6125661901,12],[1712459637,13],[1712459583,14],[13823400805,114]]},
+  {"id":20678563,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Uden","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":141,"s":[[13823400805,24],[13823400796,26],[6125661900,72],[1712459637,73],[1712460802,74],[1712460801,76],[6125661901,78],[925937317,82],[925937298,85],[1712459583,86],[13823400784,87]]}
+]
+}

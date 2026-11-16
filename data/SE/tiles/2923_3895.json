@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2923,3895],
+"stops":[
+  {"id":300703016,"lat":56.184945,"lon":14.768111,"k":"x","n":"Viadukten E22","ref":"B"},
+  {"id":300703026,"lat":56.183509,"lon":14.769334,"k":"x","n":"Viadukten E22","ref":"A"},
+  {"id":4047483878,"lat":56.187732,"lon":14.762062,"k":"x","n":"Jössarinken","ref":"B"},
+  {"id":4047483879,"lat":56.188192,"lon":14.761138,"k":"x","n":"Jössarinken","ref":"A"},
+  {"id":4047483880,"lat":56.193451,"lon":14.7541,"k":"x","n":"Lindegårdsvägen","ref":"A"},
+  {"id":4047483882,"lat":56.193815,"lon":14.750382,"k":"x","n":"Mörrums kyrka","ref":"B"},
+  {"id":4047486169,"lat":56.187754,"lon":14.762121,"k":"p","n":"B","ref":"B"},
+  {"id":4057398787,"lat":56.177231,"lon":14.781101,"k":"x","n":"Vekerum","ref":"A"},
+  {"id":4057398788,"lat":56.177579,"lon":14.783254,"k":"x","n":"Vekerum","ref":"B"},
+  {"id":9283955078,"lat":56.194872,"lon":14.756921,"k":"x","n":"Hästaryd","ref":"A"},
+  {"id":9283955091,"lat":56.194663,"lon":14.755565,"k":"x","n":"Hästaryd","ref":"B"},
+  {"id":9283955096,"lat":56.193536,"lon":14.754051,"k":"x","n":"Lindegårdsvägen","ref":"B"},
+  {"id":9283955100,"lat":56.188227,"lon":14.760962,"k":"p","n":"A","ref":"A"},
+  {"id":9283955106,"lat":56.184949,"lon":14.768234,"k":"p","n":"B","ref":"B"},
+  {"id":9283955108,"lat":56.183512,"lon":14.769239,"k":"p","n":"A","ref":"A"},
+  {"id":9283955118,"lat":56.196204,"lon":14.76578,"k":"x","n":"Transformatorvägen","ref":"B"},
+  {"id":9283955124,"lat":56.196508,"lon":14.767648,"k":"x","n":"Transformatorvägen","ref":"A"},
+  {"id":5000402335059,"lat":56.193505,"lon":14.754165,"k":"p","n":"B","ref":"B"},
+  {"id":5000402335074,"lat":56.193877,"lon":14.750467,"k":"p","n":"B","ref":"B"},
+  {"id":5000402335077,"lat":56.193476,"lon":14.75396,"k":"p","n":"A","ref":"A"},
+  {"id":5001006248786,"lat":56.194798,"lon":14.756834,"k":"p","n":"A","ref":"A"},
+  {"id":5001006248790,"lat":56.194717,"lon":14.755645,"k":"p","n":"B","ref":"B"},
+  {"id":5001006248799,"lat":56.19628,"lon":14.765856,"k":"p","n":"B","ref":"B"},
+  {"id":5001006248801,"lat":56.196449,"lon":14.767565,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":13485084,"t":{"ref":"2","name":"Bus 2: Snabbuss Mörrum => Karlshamn","from":"Mörrums kyrka","to":"Karlshamn resecentrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000402335074,1],[5000402335077,6],[9283955100,7],[9283955108,8]]},
+  {"id":13485085,"t":{"ref":"2","name":"Bus 2: Snabbuss Karlshamn => Mörrum","from":"Karlshamn","to":"Mörrum","network":"Blekingetrafiken","operator":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":18,"s":[[9283955106,12],[4047486169,13],[5000402335059,14],[5000402335074,15]]},
+  {"id":13485190,"t":{"ref":"2","name":"Bus 2: Karlshamn => Asarum => Mörrum","from":"Karlshamn","to":"Mörrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":28,"s":[[5001006248799,23],[5001006248790,24],[5000402335074,25]]},
+  {"id":13485191,"t":{"ref":"2","name":"Bus 2: Mörrum => Asarum => Karlshamn","from":"Mörrum","to":"Karlshamn","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000402335074,1],[5001006248786,6],[5001006248801,7]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3076,4007],
+"stops":[
+  {"id":151230484,"lat":63.803945,"lon":20.363605,"k":"x","n":"Tavleliden"},
+  {"id":440772216,"lat":63.811459,"lon":20.388888,"k":"x","n":"Innertavle Västra"},
+  {"id":1188954299,"lat":63.804388,"lon":20.359263,"k":"x"},
+  {"id":3109042169,"lat":63.804561,"lon":20.358704,"k":"x"},
+  {"id":4075614783,"lat":63.804545,"lon":20.352245,"k":"x","n":"Källplatsen"},
+  {"id":5767553565,"lat":63.811829,"lon":20.390252,"k":"x","n":"Innertavle V"},
+  {"id":9902460416,"lat":63.804375,"lon":20.359426,"k":"p"},
+  {"id":5000662968126,"lat":63.811739,"lon":20.390185,"k":"p","ref":"B"},
+  {"id":5000662968127,"lat":63.811567,"lon":20.38897,"k":"p","ref":"A"},
+  {"id":5001079642176,"lat":63.803902,"lon":20.363768,"k":"p","ref":"B"},
+  {"id":5001079642177,"lat":63.803967,"lon":20.363429,"k":"p","ref":"A"},
+  {"id":5001080360174,"lat":63.804509,"lon":20.358432,"k":"p"},
+  {"id":5001080422089,"lat":63.804517,"lon":20.352257,"k":"p","n":"Källplatsen B","ref":"B"}
+],
+"routes":[
+  {"id":6709949,"t":{"ref":"8","name":"Buss 8: Tomtebo => Ö.Ersboda","from":"Lyktvägen","to":"Östra Ersboda","network":"Ultra","operator":"Transdev","colour":"#96BF33","route":"bus","public_transport:version":"2"},"n":23,"s":[[9902460416,1]]},
+  {"id":6709950,"t":{"ref":"8","name":"Buss 8: Ö.Ersboda => Tomtebo","from":"Östra Ersboda","to":"Lyktvägen","network":"Ultra","operator":"Transdev","colour":"#96BF33","route":"bus","public_transport:version":"2"},"n":23,"s":[[5001080422089,22],[5001080360174,23]]},
+  {"id":9214781,"t":{"ref":"118","name":"Buss 118: Sävar => Täfteå => Umeå","from":"Sävar Påsklovsvägen","to":"Umeå Vasaplan","network":"Länstrafiken i Västerbotten","operator":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000662968127,21],[5001079642177,22]]},
+  {"id":14372668,"t":{"ref":"118","name":"Buss 118: Umeå => Täfteå => Sävar","from":"Umeå Vasaplan","to":"Sävar Påsklovsvägen","network":"Länstrafiken i Västerbotten","operator":"Länstrafiken i Västerbotten","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001079642176,9],[5000662968126,10]]}
+]
+}

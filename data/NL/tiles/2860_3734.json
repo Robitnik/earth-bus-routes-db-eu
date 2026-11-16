@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2860,3734],
+"stops":[
+  {"id":666960408,"lat":53.042688,"lon":6.700334,"k":"p","n":"Lunsenhof"},
+  {"id":666960409,"lat":53.042674,"lon":6.701122,"k":"p","n":"Lunsenhof"},
+  {"id":666960410,"lat":53.046448,"lon":6.706974,"k":"p","n":"Bosweg"},
+  {"id":666960411,"lat":53.04647,"lon":6.706739,"k":"p","n":"Bosweg"},
+  {"id":666960412,"lat":53.048413,"lon":6.712222,"k":"p","n":"P+R Annen"},
+  {"id":666960413,"lat":53.048279,"lon":6.712129,"k":"p","n":"P+R Annen"},
+  {"id":670413616,"lat":53.048463,"lon":6.714484,"k":"p","n":"P+R Annen"},
+  {"id":2337100904,"lat":53.048058,"lon":6.713412,"k":"p","n":"P+R Annen"},
+  {"id":4001284702,"lat":53.048412,"lon":6.714404,"k":"x","n":"Annen, P+R Annen"},
+  {"id":14117065110,"lat":53.048094,"lon":6.713475,"k":"x","n":"Annen, P+R Annen"}
+],
+"routes":[
+  {"id":451837,"t":{"ref":"51","name":"Bus 51: Groningen Hoofdstation => Assen Station","from":"Groningen, Hoofdstation","to":"Assen, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":58,"s":[[666960412,43],[666960411,44],[666960408,45]]},
+  {"id":451838,"t":{"ref":"51","name":"Bus 51: Assen Station => Groningen Hoofdstation","from":"Assen, Station","to":"Groningen, Hoofdstation","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":58,"s":[[666960409,14],[666960410,15],[666960413,16]]},
+  {"id":484838,"t":{"ref":"312","name":"Bus 312: Groningen Hoofdstation => Stadskanaal Busstation","from":"Groningen, Hoofdstation","to":"Stadskanaal, Busstation","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#19408F","route":"bus","public_transport:version":"2"},"n":22,"s":[[2337100904,4]]},
+  {"id":484864,"t":{"ref":"312","name":"Bus 312: Stadskanaal Busstation => Groningen Hoofdstation","from":"Stadskanaal, Busstation","to":"Groningen, Hoofdstation","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#19408F","route":"bus","public_transport:version":"2"},"n":22,"s":[[670413616,19]]},
+  {"id":21271473,"t":{"ref":"400","name":"Bus 400: Groningen Zuiderdiep => Emmen Station","from":"Groningen, Zuiderdiep","to":"Emmen, Station","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#1A1A1A","route":"bus","public_transport:version":"2"},"n":28,"s":[[2337100904,7]]},
+  {"id":21271474,"t":{"ref":"400","name":"Bus 400: Groningen Zuiderdiep => Emmen Station => Groningen Zuiderdiep","from":"Groningen, Zuiderdiep","to":"Emmen, Centrum","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#1A1A1A","route":"bus","public_transport:version":"2"},"n":36,"s":[[2337100904,7],[670413616,30]]},
+  {"id":21271475,"t":{"ref":"400","name":"Bus 400: Emmen Station => Groningen Zuiderdiep","from":"Emmen, Station","to":"Groningen, Zuiderdiep","network":"Groningen-Drenthe","operator":"Qbuzz","colour":"#1A1A1A","route":"bus","public_transport:version":"2"},"n":25,"s":[[670413616,19]]}
+]
+}

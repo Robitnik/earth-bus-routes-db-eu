@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2826,3714],
+"stops":[
+  {"id":2173935704,"lat":51.330776,"lon":5.745148,"k":"p","n":"Sluis 13"},
+  {"id":4590684117,"lat":51.330764,"lon":5.745366,"k":"x","n":"Someren-Eind, Sluis 13"},
+  {"id":4590684118,"lat":51.330768,"lon":5.745156,"k":"x","n":"Someren-Eind, Sluis 13"},
+  {"id":4590684119,"lat":51.330724,"lon":5.745351,"k":"p","n":"Sluis 13"}
+],
+"routes":[
+  {"id":340061,"t":{"ref":"258","name":"Bus 258: Heeze Station => Weert Station","from":"Heeze, Station","to":"Weert, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":44,"s":[[4590684119,32]]},
+  {"id":408260,"t":{"ref":"258","name":"Bus 258: Weert Station => Heeze Station","from":"Weert, Station","to":"Heeze, Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":44,"s":[[2173935704,12]]},
+  {"id":20672555,"t":{"ref":"flex","name":"Bravoflex hub Station, Maarheeze","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":111,"s":[[2173935704,12],[4590684119,16]]},
+  {"id":20672574,"t":{"ref":"flex","name":"Bravoflex hub Kerkstraat, Asten","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":62,"s":[[2173935704,2],[4590684119,6]]},
+  {"id":20672579,"t":{"ref":"flex","name":"Bravoflex hub De Meer, Someren","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":58,"s":[[2173935704,27],[4590684119,31]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2831,3719],
+"stops":[
+  {"id":1999183584,"lat":51.561378,"lon":5.955186,"k":"p","n":"De Vers"},
+  {"id":2610207441,"lat":51.592201,"lon":5.997486,"k":"p","n":"Station"},
+  {"id":4549845968,"lat":51.560867,"lon":5.955551,"k":"p","n":"De Vers"},
+  {"id":5264536967,"lat":51.59224,"lon":5.99759,"k":"p","n":"Station"},
+  {"id":5264536976,"lat":51.592221,"lon":5.997546,"k":"x","n":"Vierlingsbeek, Station"}
+],
+"routes":[
+  {"id":3418897,"t":{"ref":"255","name":"Bus 255: Boxmeer Maasziekenhuis => Venray Busstation","from":"Boxmeer, Maasziekenhuis","to":"Venray, Prins Bernhardstraat","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":29,"s":[[2610207441,18]]},
+  {"id":3418898,"t":{"ref":"255","name":"Bus 255: Venray Busstation => Boxmeer Maasziekenhuis","from":"Venray, Prins Bernhardstraat","to":"Boxmeer, Maasziekenhuis","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":29,"s":[[5264536967,12]]},
+  {"id":7790345,"t":{"ref":"82","name":"Bus 82: Venray Prins Bernhardstraat => Boxmeer Station","from":"Venray, Prins Bernhardstraat","to":"Boxmeer, Station","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":19,"s":[[1999183584,8]]},
+  {"id":7790346,"t":{"ref":"82","name":"Bus 82: Boxmeer Station => Venray Prins Bernhardstraat","from":"Boxmeer, Station","to":"Venray, Prins Bernhardstraat","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":18,"s":[[4549845968,11]]},
+  {"id":20678525,"t":{"ref":"flex","name":"Bravoflex hub Station, Vierlingsbeek","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":35,"s":[[4549845968,17],[1999183584,18],[5264536967,25],[2610207441,28]]},
+  {"id":20678555,"t":{"ref":"flex","name":"Bravoflex hub Dokter Verbeecklaan, Sint Anthonis","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":82,"s":[[4549845968,73],[1999183584,79]]},
+  {"id":20678558,"t":{"ref":"flex","name":"Bravoflex hub Centrum, Venray","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":20,"s":[[4549845968,5],[1999183584,11]]}
+]
+}

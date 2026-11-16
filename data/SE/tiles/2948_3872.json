@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2948,3872],
+"stops":[
+  {"id":1771555296,"lat":57.438433,"lon":13.60101,"k":"p","n":"A","ref":"A"},
+  {"id":1771555297,"lat":57.438463,"lon":13.601123,"k":"p","n":"B","ref":"B"},
+  {"id":8863498828,"lat":57.435895,"lon":13.623214,"k":"x","n":"Isabergs fritidsby","ref":"A"},
+  {"id":12738778524,"lat":57.422878,"lon":13.606641,"k":"x","n":"Vägporten","ref":"A"},
+  {"id":12738781837,"lat":57.423649,"lon":13.607749,"k":"x","n":"Vägporten","ref":"B"},
+  {"id":12749511132,"lat":57.438446,"lon":13.601069,"k":"x","n":"Isabergsvägen","ref":"A;B"},
+  {"id":13228054137,"lat":57.408735,"lon":13.636163,"k":"x","n":"Nissafors affären","ref":"A;B"},
+  {"id":13228054138,"lat":57.408758,"lon":13.636194,"k":"p","n":"A","ref":"A"},
+  {"id":13228054139,"lat":57.408706,"lon":13.636124,"k":"p","n":"B","ref":"B"},
+  {"id":5001375827880,"lat":57.423554,"lon":13.607792,"k":"p","n":"B","ref":"B"},
+  {"id":5001375827881,"lat":57.422961,"lon":13.60659,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":2203088,"t":{"ref":"132","name":"Buss 132: Gislaved => Jönköping","from":"Gislaved busstation","to":"Jönköping Resecentrum","route":"bus","public_transport:version":"2"},"n":32,"s":[[5001375827880,9],[1771555297,10],[1771555296,11]]},
+  {"id":2203090,"t":{"ref":"132","name":"Buss 132: Jönköping => Gislaved","from":"Jönköping Resecentrum","to":"Gislaved busstation","route":"bus","public_transport:version":"2"},"n":37,"s":[[1771555297,26],[1771555296,27],[5001375827881,28]]},
+  {"id":2207824,"t":{"ref":"245","name":"Buss 245: Gislaved => Grimsås","from":"Gislaved busstation","to":"Grimsås","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":15,"s":[[5001375827880,9],[1771555297,10]]},
+  {"id":2207825,"t":{"ref":"245","name":"Buss 245: Grimsås => Gislaved","from":"Grimsås","to":"Gislaved busstation","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":16,"s":[[1771555296,6],[5001375827881,7]]},
+  {"id":2235411,"t":{"ref":"862","name":"Buss 862: Halmstad => Jönköping => Stockholm","from":"Halmstad","to":"Stockholm","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001375827880,2]]},
+  {"id":2235412,"t":{"ref":"862","name":"Buss 862: Stockholm => Jönköping => Halmstad","from":"Stockholm","to":"Halmstad","route":"bus","public_transport:version":"2"},"n":2,"s":[[5001375827881,2]]}
+]
+}

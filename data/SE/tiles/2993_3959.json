@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2993,3959],
+"stops":[
+  {"id":3123538730,"lat":59.651519,"lon":17.955935,"k":"p","n":"Styrmansvägen","ref":"57332"},
+  {"id":3123540497,"lat":59.651555,"lon":17.955721,"k":"p","n":"Styrmansvägen","ref":"57332"},
+  {"id":5206909732,"lat":59.650295,"lon":17.992231,"k":"p","n":"Altuna"},
+  {"id":5206909790,"lat":59.650083,"lon":17.990333,"k":"p","n":"Altuna"},
+  {"id":5207090716,"lat":59.654047,"lon":17.954348,"k":"p","n":"Halmsjön"},
+  {"id":5207090717,"lat":59.654456,"lon":17.955762,"k":"p","n":"Halmsjön"},
+  {"id":5588877605,"lat":59.693194,"lon":17.996295,"k":"p","n":"Nyberg"},
+  {"id":5588877606,"lat":59.693267,"lon":17.996488,"k":"p","n":"Nyberg"},
+  {"id":5588877611,"lat":59.651478,"lon":17.998601,"k":"p","n":"Ösby"},
+  {"id":8223707616,"lat":59.699614,"lon":17.965597,"k":"p","n":"Åsby grustag"},
+  {"id":8223731317,"lat":59.699422,"lon":17.965221,"k":"p","n":"Åsby grustag"}
+],
+"routes":[
+  {"id":3283082,"t":{"ref":"801","name":"Buss 801: Arlanda - Uppsala","from":"Arlanda","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":13,"s":[[5207090716,1]]},
+  {"id":3283083,"t":{"ref":"801","name":"Buss 801: Uppsala - Arlanda","from":"Uppsala","to":"Arlanda","network":"UL","route":"bus","public_transport:version":"1+2"},"n":13,"s":[[5207090717,13]]},
+  {"id":3871337,"t":{"ref":"592","name":"Buss 592: Arlanda - Cityterminalen","from":"Arlanda","to":"Cityterminalen","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":70,"s":[[5207090716,1]]},
+  {"id":3871338,"t":{"ref":"592","name":"Buss 592: Cityterminalen - Arlanda","from":"Cityterminalen","to":"Arlanda","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":71,"s":[[5207090717,71]]},
+  {"id":4482540,"t":{"ref":"806","name":"Buss 806: Arlanda - Almunge","from":"Arlanda","to":"Almunge","network":"UL","route":"bus","public_transport:version":"1+2"},"n":34,"s":[[3123538730,7],[5206909732,9]]},
+  {"id":4482541,"t":{"ref":"806","name":"Buss 806: Almunge - Arlanda","from":"Almunge","to":"Arlanda","network":"UL","route":"bus","public_transport:version":"1+2"},"n":34,"s":[[5588877611,25],[5206909790,26],[3123540497,28]]},
+  {"id":4549151,"t":{"ref":"579","name":"Buss 579: Arlanda - Bålsta station","from":"Arlanda","to":"Bålsta station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":43,"s":[[5207090716,1],[3123540497,2]]},
+  {"id":4549152,"t":{"ref":"579","name":"Buss 579: Bålsta station - Arlanda","from":"Bålsta station","to":"Arlanda","network":"SL","route":"bus","public_transport:version":"1+2"},"n":45,"s":[[3123538730,44],[5207090717,45]]},
+  {"id":7704074,"t":{"ref":"880","name":"Buss 880: Arlanda - Uppsala","from":"Arlanda","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":8,"s":[[5207090716,1]]},
+  {"id":7704075,"t":{"ref":"880","name":"Buss 880: Uppsala - Arlanda","from":"Uppsala","to":"Arlanda","network":"UL","route":"bus","public_transport:version":"1+2"},"n":8,"s":[[5207090717,8]]},
+  {"id":7781505,"t":{"ref":"574","name":"Buss 574: Ekillaskolan - Husby-Långhundra","from":"Ekillaskolan","to":"Husby-Långhundra","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":32,"s":[[8223731317,20]]},
+  {"id":7781506,"t":{"ref":"574","name":"Buss 574: Husby-Långhundra - Ekillaskolan","from":"Husby-Långhundra","to":"Ekillaskolan","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":32,"s":[[8223707616,13]]},
+  {"id":12015168,"t":{"ref":"574","name":"Buss 574: Märsta station - Husby-Långhundra","from":"Märsta station","to":"Husby-Långhundra","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":29,"s":[[8223731317,17]]},
+  {"id":12015170,"t":{"ref":"574","name":"Buss 574: Husby-Långhundra - Märsta station","from":"Husby-Långhundra","to":"Märsta station","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":29,"s":[[8223707616,13]]},
+  {"id":14975208,"t":{"ref":"579","name":"Buss 579: Nyponvägen - Arlanda","from":"Nyponvägen","to":"Arlanda","network":"SL","route":"bus","public_transport:version":"1+2"},"n":22,"s":[[3123538730,21],[5207090717,22]]},
+  {"id":14975209,"t":{"ref":"579","name":"Buss 579: Märsta station - Arlanda","from":"Märsta station","to":"Arlanda","network":"SL","route":"bus","public_transport:version":"1+2"},"n":13,"s":[[3123538730,12],[5207090717,13]]},
+  {"id":14975210,"t":{"ref":"579","name":"Buss 579: Arlanda - Märsta station","from":"Arlanda","to":"Märsta station","network":"SL","route":"bus","public_transport:version":"1+2"},"n":12,"s":[[5207090716,1],[3123540497,2]]},
+  {"id":14975211,"t":{"ref":"579","name":"Buss 579: Arlanda - Nyponvägen","from":"Arlanda","to":"Nyponvägen","network":"SL","route":"bus","public_transport:version":"1+2"},"n":21,"s":[[5207090716,1],[3123540497,2]]},
+  {"id":15402867,"t":{"ref":"574","name":"Buss 574: Husby-Långhundra - Märsta centrum","from":"Husby-Långhundra","to":"Märsta centrum","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":30,"s":[[8223707616,13]]},
+  {"id":15402869,"t":{"ref":"574","name":"Buss 574: Märsta centrum - Husby-Långhundra","from":"Märsta centrum","to":"Husby-Långhundra","network":"SL","colour":"red","route":"bus","public_transport:version":"1+2"},"n":30,"s":[[8223731317,18]]}
+]
+}

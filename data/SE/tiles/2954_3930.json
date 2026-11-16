@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2954,3930],
+"stops":[
+  {"id":278835206,"lat":57.726229,"lon":16.51629,"k":"x","n":"Verkebäcksbron","ref":"B"},
+  {"id":856617456,"lat":57.726916,"lon":16.517967,"k":"x","n":"Verkebäcksbron","ref":"A"},
+  {"id":5000406415096,"lat":57.726144,"lon":16.516233,"k":"p","n":"B","ref":"B"},
+  {"id":5000406415097,"lat":57.727005,"lon":16.517912,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":4097688,"t":{"ref":"35","name":"Buss 35: Västervik => Hultsfred","from":"Västervik","to":"Hultsfred","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000406415097,2]]},
+  {"id":4097689,"t":{"ref":"35","name":"Buss 35: Hultsfred => Västervik","from":"Hultsfred","to":"Västervik","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000406415096,10]]},
+  {"id":4097693,"t":{"ref":"857","name":"Buss 857: Jönköping => Västervik","from":"Jönköping Resecentrum","to":"Västervik busstation","network":"Swebus","operator":"Swebus","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000406415096,5]]},
+  {"id":4097694,"t":{"ref":"857","name":"Buss 857: Västervik => Jönköping","from":"Västervik","to":"Jönköping","network":"Swebus","operator":"Swebus","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000406415097,1]]},
+  {"id":6533364,"t":{"ref":"160","name":"Buss 160: Västervik => Oskarshamn => Kalmar","from":"Västervik","to":"Kalmar","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":78,"s":[[5000406415097,11]]},
+  {"id":6588862,"t":{"ref":"160","name":"Buss 160: Kalmar => Oskarshamn => Västervik","from":"Kalmar","to":"Västervik","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":78,"s":[[5000406415096,69]]}
+]
+}

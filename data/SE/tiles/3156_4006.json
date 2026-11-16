@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3156,4006],
+"stops":[
+  {"id":340399120,"lat":67.841002,"lon":20.302479,"k":"p","n":"Planetvägen"},
+  {"id":468490746,"lat":67.847558,"lon":20.342883,"k":"p","n":"Tallby"},
+  {"id":468490749,"lat":67.847684,"lon":20.340771,"k":"p","n":"Tuolluvaaravägen 24"},
+  {"id":468490752,"lat":67.848913,"lon":20.331372,"k":"p","n":"Tuolluvaara-kiosken"},
+  {"id":468490755,"lat":67.848777,"lon":20.331447,"k":"p","n":"Tuolluvaara-kiosken"},
+  {"id":479173387,"lat":67.849195,"lon":20.322806,"k":"p","n":"Elsemajsväg"},
+  {"id":5211780621,"lat":67.849084,"lon":20.320705,"k":"p","n":"Eslsmajsväg"},
+  {"id":6239768626,"lat":67.825756,"lon":20.335251,"k":"p","n":"Flygplatsen"},
+  {"id":6239876858,"lat":67.848338,"lon":20.30236,"k":"p","n":"Stadshustorget"},
+  {"id":12038052259,"lat":67.845754,"lon":20.347808,"k":"p","n":"Kiruna Flygplats E10"},
+  {"id":12038052261,"lat":67.848207,"lon":20.302872,"k":"p","n":"Stadshustorget"}
+],
+"routes":[
+  {"id":3411908,"t":{"name":"Buss Röd: Tuolluvaara => Centrum => Tuolluvaara","from":"Tuolluvaara","to":"Kiruna Centrum","route":"bus"},"n":20,"s":[[468490746,2],[468490752,3],[5211780621,4]]},
+  {"id":7713933,"t":{"name":"Buss Grön: Tuolluvaara => Lombolo => Porfyren => Centrum","from":"Tuolluvaara","to":"Centrum","route":"bus"},"n":22,"s":[[468490746,2],[468490752,3],[5211780621,4]]},
+  {"id":9263496,"t":{"name":"Flygbuss: Kiruna centrum => Kiruna Flygplats","from":"Kiruna centrum","to":"Kiruna flygplats","operator":"Hörvalls Buss","route":"bus"},"n":7,"s":[[6239768626,7]]},
+  {"id":9263497,"t":{"name":"Flygbuss: Kiruna flygplats => Kiruna centrum","from":"Kiruna flygplats","to":"Kiruna centrum","operator":"Hörvalls Buss","route":"bus"},"n":6,"s":[[6239768626,1]]},
+  {"id":17804157,"t":{"ref":"53","name":"53 Haparanda => Kiruna","from":"Haparanda Tornio Resecentrum","to":"Kiruna busstation","operator":"Länstrafiken Norrbotten","route":"bus"},"n":54,"s":[[12038052259,44],[6239876858,45]]},
+  {"id":17811195,"t":{"ref":"53","name":"53 Kiruna => Haparanda","from":"Kiruna Busstation","to":"Haparanda Tornio Resecentrum LTN","operator":"Länstrafiken Norrbotten","route":"bus"},"n":52,"s":[[12038052261,10]]},
+  {"id":18917947,"t":{"ref":"nikkaluoktaexpressen","from":"Kiruna","to":"Nikkaluokta","operator":"Hörvalls Trafik AB","route":"bus","public_transport:version":"2"},"n":2,"s":[[6239768626,1]]}
+]
+}

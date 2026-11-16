@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2828,3678],
+"stops":[
+  {"id":42552703,"lat":51.40816,"lon":3.900392,"k":"x","n":"Baarland, Bakendorpseweg"},
+  {"id":42583456,"lat":51.42109,"lon":3.914431,"k":"x","n":"Hoedekenskerke, Station SGB"},
+  {"id":1733024682,"lat":51.408121,"lon":3.900401,"k":"p","n":"Bakendorpseweg"},
+  {"id":1733024698,"lat":51.425564,"lon":3.911177,"k":"p","n":"Dorp"},
+  {"id":1733024899,"lat":51.421084,"lon":3.914495,"k":"p","n":"Station SGB"},
+  {"id":3761712129,"lat":51.408182,"lon":3.900298,"k":"p","n":"Bakendorpseweg"},
+  {"id":4630851456,"lat":51.425559,"lon":3.911096,"k":"x","n":"Hoedekenskerke, Dorp"},
+  {"id":4632025363,"lat":51.426123,"lon":3.903625,"k":"p","n":"Molenstraat"},
+  {"id":4632929234,"lat":51.40815,"lon":3.90031,"k":"x","n":"Baarland, Bakendorpseweg"},
+  {"id":5354731187,"lat":51.421092,"lon":3.914368,"k":"p","n":"Station SGB"},
+  {"id":14138374380,"lat":51.426157,"lon":3.903634,"k":"x","n":"Hoedekenskerke, Molenstraat"}
+],
+"routes":[
+  {"id":387382,"t":{"ref":"597","name":"Bus 597: 's-Heerenhoek Tolplein => Hoedekenskerke Dorp","from":"'s-Heerenhoek, Tolplein","to":"Hoedekenskerke, Dorp","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":9,"s":[[1733024682,7],[1733024899,8],[1733024698,9]]},
+  {"id":387383,"t":{"ref":"597","name":"Bus 597: Hoedekenskerke Dorp => 's-Heerenhoek Tolplein","from":"Hoedekenskerke, Dorp","to":"'s-Heerenhoek, Tolplein","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":9,"s":[[1733024698,1],[5354731187,2],[3761712129,3]]},
+  {"id":6907975,"t":{"ref":"595","name":"Bus 595: Hoedekenskerke Dorp => Goes Station","from":"Hoedekenskerke, Dorp","to":"Goes, Station","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":13,"s":[[1733024698,1]]},
+  {"id":6907976,"t":{"ref":"595","name":"Bus 595: Goes Station => Hoedekenskerke Dorp","from":"Goes, Station","to":"Hoedekenskerke, Dorp","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":18,"s":[[4632025363,17],[1733024698,18]]},
+  {"id":9350309,"t":{"ref":"597","name":"Bus 597: 's-Heerenhoek Tolplein => Hoedekenskerke Dorp via Baarland Scheldeoord","from":"'s-Heerenhoek, Tolplein","to":"Hoedekenskerke, Dorp","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":10,"s":[[1733024682,7],[1733024899,9],[1733024698,10]]},
+  {"id":9350311,"t":{"ref":"597","name":"Bus 597: Hoedekenskerke Dorp => 's-Heerenhoek Tolplein via Baarland Scheldeoord","from":"Hoedekenskerke, Dorp","to":"'s-Heerenhoek, Tolplein","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":10,"s":[[1733024698,1],[5354731187,2],[3761712129,4]]},
+  {"id":21275649,"t":{"name":"Zeeland Flex","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":1071,"s":[[1733024682,48],[1733024698,284],[4632025363,285],[1733024899,286]]}
+]
+}

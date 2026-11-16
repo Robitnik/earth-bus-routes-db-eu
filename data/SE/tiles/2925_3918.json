@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2925,3918],
+"stops":[
+  {"id":27401980,"lat":56.259954,"lon":15.948981,"k":"x","n":"Fågelmara","ref":"A"},
+  {"id":6466783668,"lat":56.260043,"lon":15.949048,"k":"x","n":"Fågelmara","ref":"B"},
+  {"id":9537721800,"lat":56.259772,"lon":15.939666,"k":"x","n":"Södra Fågelmara"},
+  {"id":9537721801,"lat":56.257887,"lon":15.934752,"k":"x","n":"Flyerydsvägen"},
+  {"id":5000689347453,"lat":56.260013,"lon":15.948871,"k":"p","n":"A","ref":"A"},
+  {"id":5000689347454,"lat":56.259991,"lon":15.949164,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":13817947,"t":{"ref":"120","name":"Bus 120: Karlskrona => Jämjö => Brömsebro => Kristianopel","from":"Jämjö Parkvägen","to":"Kristianopel","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000689347454,2]]},
+  {"id":13817948,"t":{"ref":"120","name":"Bus 120: Torsås => Brömsebro => Jämjö => Karlskrona","from":"Torsås torg","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000689347453,4]]},
+  {"id":13871730,"t":{"ref":"121","name":"Bus 121: Kristianopel - Fågelmara","from":"Kristianopel","to":"Fågelmara","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000689347453,5]]},
+  {"id":13871731,"t":{"ref":"121","name":"Bus 121: Jämjö centrum - Brömsebro","from":"Jämjö Jändelskolan","to":"Brömsebro","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000689347454,8]]},
+  {"id":20412554,"t":{"ref":"500","name":"Buss 500: Karlskrona centrum => Kalmar centralstation","from":"Karlskrona centrum","to":"Kalmar centralstation","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000689347454,10]]},
+  {"id":20412555,"t":{"ref":"500","name":"Buss 500: Kalmar centralstation => Karlskrona centrum","from":"Kalmar centralstation","to":"Karlskrona centrum","network":"Blekingetrafiken","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000689347453,15]]}
+]
+}

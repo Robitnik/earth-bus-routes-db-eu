@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2951,3870],
+"stops":[
+  {"id":2913000420,"lat":57.571668,"lon":13.526556,"k":"p","n":"B","ref":"B"},
+  {"id":2913000421,"lat":57.572126,"lon":13.526758,"k":"p","n":"A","ref":"A"},
+  {"id":2913000424,"lat":57.58567,"lon":13.526725,"k":"p","n":"B","ref":"B"},
+  {"id":2913000425,"lat":57.585679,"lon":13.526588,"k":"p","n":"A","ref":"A"},
+  {"id":9361120124,"lat":57.585683,"lon":13.526662,"k":"x","n":"Knestorp","ref":"A;B"},
+  {"id":9361120140,"lat":57.57215,"lon":13.526839,"k":"x","n":"Gölingstorp","ref":"A;C"},
+  {"id":9361132775,"lat":57.571696,"lon":13.526525,"k":"x","n":"Gölingstorp","ref":"B"},
+  {"id":11105996181,"lat":57.572161,"lon":13.526899,"k":"p","n":"C","ref":"C"}
+],
+"routes":[
+  {"id":3805382,"t":{"ref":"208","name":"Buss 208: Tranemo => Ryda => Ulricehamn","from":"Tranemo","to":"Ulricehamn","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[2913000420,7],[2913000424,8]]},
+  {"id":3805383,"t":{"ref":"208","name":"Buss 208: Ulricehamn => Dalstorp=> Limmared => Tranemo","from":"Ulricehamn","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":16,"s":[[2913000425,4],[2913000421,5]]},
+  {"id":3805384,"t":{"ref":"208","name":"Buss 208: Ulricehamn => Dalstorp => Ryda => Tranemo","from":"Ulricehamn","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":12,"s":[[2913000420,7],[11105996181,8],[2913000424,9]]},
+  {"id":3809412,"t":{"ref":"266","name":"Buss 366: Ölsremma => Knestorp => Tranemo","from":"Ölsremma","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[2913000425,3],[2913000421,4]]},
+  {"id":3809413,"t":{"ref":"266","name":"Buss 366: Tranemo => Knestorp => Ölsremma","from":"Tranemo","to":"Ölsremma","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[2913000420,7],[2913000424,8]]},
+  {"id":3816208,"t":{"ref":"208","name":"Buss 208: Tranemo => Limmared => Ulricehamn => Falköping","from":"Tranemo","to":"Ulricehamn","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":27,"s":[[2913000420,8],[2913000424,9]]},
+  {"id":3816209,"t":{"ref":"266","name":"Buss 366: Dalstorp => Tranemo","from":"Dalstorp Torget","to":"Tranemo","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":11,"s":[[2913000425,4],[2913000421,5]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2967,3869],
+"stops":[
+  {"id":6733943876,"lat":58.388723,"lon":13.455217,"k":"x","n":"Katedralskolan","ref":"B"},
+  {"id":6733943877,"lat":58.388651,"lon":13.454688,"k":"x","n":"Katedralskolan","ref":"A"},
+  {"id":6733943878,"lat":58.386267,"lon":13.45112,"k":"x","n":"Viktoriaskolan","ref":"B"},
+  {"id":6733943879,"lat":58.386398,"lon":13.451015,"k":"x","n":"Viktoriaskolan","ref":"A"},
+  {"id":5000863875723,"lat":58.388606,"lon":13.45508,"k":"p","n":"B","ref":"B"},
+  {"id":5001209031525,"lat":58.386274,"lon":13.451212,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":4149070,"t":{"ref":"200","name":"Buss 200: Lidköping => Skövde","from":"Lidköpings resecentrum","to":"Skövde resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":18,"s":[[5001209031525,6],[5000863875723,7]]},
+  {"id":4149071,"t":{"ref":"200","name":"Buss 200: Skövde => Lidköping","from":"Skövde","to":"Lidköpings resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":10,"s":[[6733943877,7],[6733943879,8]]},
+  {"id":9951789,"t":{"ref":"202","name":"Buss 202: Götene => Skara","from":"Götene busstation","to":"Skara","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":7,"s":[[6733943877,5],[6733943879,6]]},
+  {"id":9951790,"t":{"ref":"202","name":"Buss 202: Skara => Götene","from":"Skara busstation","to":"Götene busstation","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":7,"s":[[6733943878,2],[6733943876,3]]},
+  {"id":20613635,"t":{"ref":"600","name":"Buss 600: Trollhättan - Skövde","from":"Trollhättan resecentrum","to":"Skövde resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":24,"s":[[6733943876,19]]}
+]
+}

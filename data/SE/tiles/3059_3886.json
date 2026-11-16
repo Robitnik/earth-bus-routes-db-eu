@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[3059,3886],
+"stops":[
+  {"id":1416160337,"lat":62.998916,"lon":14.338872,"k":"x","n":"Myrviken"},
+  {"id":2454007658,"lat":62.958649,"lon":14.345013,"k":"x"},
+  {"id":2454007884,"lat":62.959293,"lon":14.345589,"k":"x"},
+  {"id":5527726715,"lat":62.978535,"lon":14.32191,"k":"p"},
+  {"id":5527726719,"lat":62.978589,"lon":14.321808,"k":"x"},
+  {"id":5527726720,"lat":62.992936,"lon":14.325335,"k":"p"},
+  {"id":5527727559,"lat":62.959209,"lon":14.345798,"k":"p"},
+  {"id":5527727562,"lat":62.992932,"lon":14.325488,"k":"x"},
+  {"id":6591279396,"lat":62.998919,"lon":14.338805,"k":"p"},
+  {"id":7557156383,"lat":62.958657,"lon":14.344921,"k":"p","n":"Västnår"},
+  {"id":12189028155,"lat":62.976737,"lon":14.347339,"k":"p"},
+  {"id":12189068750,"lat":62.977446,"lon":14.346753,"k":"p"},
+  {"id":13109352451,"lat":62.959276,"lon":14.345657,"k":"p","n":"Västnår"}
+],
+"routes":[
+  {"id":4155820,"t":{"ref":"162","name":"Buss 162: Östersund => Sanne => Hallen => Höglekardalen","from":"Östersund","to":"Höglekardalen","network":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":64,"s":[[6591279396,53]]},
+  {"id":4155821,"t":{"ref":"162","name":"Buss 162: Höglekardalen => Hallen => Sanne => Östersund","from":"Höglekardalen","to":"Östersund","network":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":72,"s":[[6591279396,21]]},
+  {"id":4155822,"t":{"ref":"162","name":"Buss 162: Östersund => Orrviken => Hallen => Höglekardalen","from":"Östersund","to":"Höglekardalen","network":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":46,"s":[[6591279396,35]]},
+  {"id":4155823,"t":{"ref":"162","name":"Buss 162: Höglekardalen => Hallen => Orrviken => Östersund","from":"Höglekardalen","to":"Östersund","network":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":67,"s":[[6591279396,21]]},
+  {"id":8194945,"t":{"ref":"611","name":"Buss 611: Myrviken => Svenstavik","from":"Myrviken","to":"Svenstavik","network":"Länstrafiken i Jämtlands län","operator":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":20,"s":[[6591279396,1],[7557156383,2]]},
+  {"id":8194946,"t":{"ref":"611","name":"Buss 611: Svenstavik => Myrviken","from":"Svenstavik","to":"Myrviken","network":"Länstrafiken i Jämtlands län","operator":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":23,"s":[[5527727559,22],[6591279396,23]]},
+  {"id":9755479,"t":{"ref":"612","to":"Myrviken","network":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":5,"s":[[5527726715,4],[6591279396,5]]},
+  {"id":9755480,"t":{"ref":"612","from":"Myrviken","network":"Länstrafiken i Jämtlands län","route":"bus","public_transport:version":"2"},"n":7,"s":[[6591279396,1],[5527726720,2]]}
+]
+}

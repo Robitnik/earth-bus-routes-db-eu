@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2913,3865],
+"stops":[
+  {"id":1114775324,"lat":55.682072,"lon":13.27554,"k":"p","ref":"A"},
+  {"id":1114775329,"lat":55.687882,"lon":13.255751,"k":"p","ref":"A"},
+  {"id":1114775344,"lat":55.687833,"lon":13.25655,"k":"p","ref":"B"},
+  {"id":1114775355,"lat":55.681658,"lon":13.277247,"k":"p","ref":"B"},
+  {"id":1114778338,"lat":55.677225,"lon":13.290745,"k":"x","n":"Sjöstorpsvägen","ref":"A"},
+  {"id":1114778342,"lat":55.677883,"lon":13.288885,"k":"x","n":"Sjöstorpsvägen","ref":"B"},
+  {"id":1492119630,"lat":55.650828,"lon":13.287698,"k":"x","n":"Vallbymosse","ref":"A"},
+  {"id":1492119631,"lat":55.651077,"lon":13.288565,"k":"x","n":"Vallbymosse","ref":"B"},
+  {"id":1990884239,"lat":55.677181,"lon":13.290686,"k":"p","ref":"A"},
+  {"id":3097776711,"lat":55.681607,"lon":13.277202,"k":"x","n":"Hardebergavägen","ref":"B"},
+  {"id":3097776712,"lat":55.682124,"lon":13.275604,"k":"x","n":"Hardebergavägen","ref":"A"},
+  {"id":3097776720,"lat":55.687784,"lon":13.256518,"k":"x","n":"Lund Råbytorp","ref":"B"},
+  {"id":3097776721,"lat":55.687945,"lon":13.255816,"k":"x","n":"Lund Råbytorp","ref":"A"},
+  {"id":5000188609294,"lat":55.650759,"lon":13.287676,"k":"p","ref":"A"},
+  {"id":5000188609295,"lat":55.651179,"lon":13.288574,"k":"p","ref":"B"},
+  {"id":5001540713116,"lat":55.677909,"lon":13.288964,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":2724793,"t":{"ref":"174","name":"Buss 174: Dalby => Malmö Södervärn","from":"Dalby Kvarnrännan","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000188609295,6]]},
+  {"id":2724794,"t":{"ref":"174","name":"Buss 174: Malmö Södervärn => Dalby","from":"Malmö Södervärn","to":"Dalby","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000188609294,15]]},
+  {"id":2726826,"t":{"ref":"160","name":"Buss 160: Lund C => Sjöbo","from":"Lund C","to":"Sjöbo busstation","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[1990884239,9]]},
+  {"id":2726827,"t":{"ref":"160","name":"Buss 160: Sjöbo => Lund C","from":"Sjöbo busstation","to":"Lund C","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5001540713116,12]]},
+  {"id":2726863,"t":{"ref":"161","name":"Buss 161: Lund Bankgatan => Torna Hällestad","from":"Lund Bankgatan","to":"Torna Hällestad Surapilsvägen","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":23,"s":[[1114775329,8],[1114775324,9],[1990884239,10]]},
+  {"id":2726864,"t":{"ref":"161","name":"Buss 161: Torna Hällestad => Lund Bankgatan","from":"Torna Hällestad","to":"Lund Bankgatan","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001540713116,15],[1114775355,16],[1114775344,17]]},
+  {"id":2726909,"t":{"ref":"162","name":"Buss 162: Genarp => Lund Bankgatan","from":"Genarp","to":"Lund Bankgatan","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":28,"s":[[5001540713116,19],[1114775355,20],[1114775344,21]]},
+  {"id":2726910,"t":{"ref":"162","name":"Buss 162: Lund Bankgatan => Genarp","from":"Lund Bankgatan","to":"Genarp","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":28,"s":[[1114775329,8],[1114775324,9],[1990884239,10]]}
+]
+}

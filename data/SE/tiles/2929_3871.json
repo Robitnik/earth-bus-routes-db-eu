@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2929,3871],
+"stops":[
+  {"id":288334999,"lat":56.471043,"lon":13.560659,"k":"x","n":"Åmot","ref":"A;B"},
+  {"id":471263069,"lat":56.458113,"lon":13.593813,"k":"x","n":"Markaryds järnvägsstation","ref":"A"},
+  {"id":471263071,"lat":56.457879,"lon":13.593743,"k":"x","n":"Markaryd station","ref":"B"},
+  {"id":3147644420,"lat":56.457718,"lon":13.593685,"k":"x","n":"Markaryd station","ref":"D"},
+  {"id":3147644422,"lat":56.457919,"lon":13.593732,"k":"x","n":"Markaryd station","ref":"C"},
+  {"id":12777339441,"lat":56.470997,"lon":13.560659,"k":"p","n":"B","ref":"B"},
+  {"id":12777339442,"lat":56.471077,"lon":13.560676,"k":"p","n":"A","ref":"A"},
+  {"id":13151622198,"lat":56.458155,"lon":13.593821,"k":"x","n":"Markaryd station","ref":"E"},
+  {"id":5000309592893,"lat":56.458026,"lon":13.593865,"k":"p","n":"A","ref":"A"},
+  {"id":5000309592894,"lat":56.457783,"lon":13.593559,"k":"p","n":"D","ref":"D"},
+  {"id":5000309592895,"lat":56.457991,"lon":13.59364,"k":"p","n":"C","ref":"C"}
+],
+"routes":[
+  {"id":6418710,"t":{"ref":"521","name":"Buss 521: Markaryd => Örkelljunga","from":"Markaryd","to":"Örkelljunga","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000309592894,1]]},
+  {"id":6418711,"t":{"ref":"521","name":"Buss 521: Örkelljunga => Markaryd","from":"Örkelljunga","to":"Markaryd","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000309592894,18]]},
+  {"id":6880106,"t":{"ref":"150","name":"Buss 150: Ljungby => Markaryd","from":"Ljungby","to":"Markaryd","network":"Länstrafiken Kronoberg","operator":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000309592893,3]]},
+  {"id":6880107,"t":{"ref":"150","name":"Buss 150: Markaryd => Ljungby","from":"Markaryds järnvägsstation","to":"Ljungby","network":"Länstrafiken Kronoberg","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000309592893,1]]},
+  {"id":7876377,"t":{"ref":"532","name":"Buss 532: Hässleholm => Markaryd","from":"Hässleholm","to":"Markaryd","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000309592895,21]]},
+  {"id":7876378,"t":{"ref":"532","name":"Buss 532: Markaryd => Hässleholm","from":"Markaryd","to":"Hässleholm","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000309592895,1]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2829,3697],
+"stops":[
+  {"id":617380881,"lat":51.457623,"lon":4.857588,"k":"p","n":"Kloosterstraat"},
+  {"id":617380886,"lat":51.451011,"lon":4.889832,"k":"p","n":"Baarleseweg"},
+  {"id":617380892,"lat":51.469382,"lon":4.858737,"k":"p","n":"Maaykantsestraat"},
+  {"id":617380895,"lat":51.490273,"lon":4.862361,"k":"p","n":"Houtgoorstraat"},
+  {"id":617380897,"lat":51.498795,"lon":4.860661,"k":"p","n":"Kleistraat"},
+  {"id":617380901,"lat":51.494055,"lon":4.874876,"k":"p","n":"Legstraat"},
+  {"id":2326384756,"lat":51.4527,"lon":4.879597,"k":"x"},
+  {"id":2625425304,"lat":51.450828,"lon":4.89037,"k":"p","n":"Baarleseweg"},
+  {"id":2625425461,"lat":51.490254,"lon":4.862215,"k":"p","n":"Houtgoorstraat"},
+  {"id":2625425499,"lat":51.497934,"lon":4.860357,"k":"p","n":"Kleistraat"},
+  {"id":2625425506,"lat":51.457671,"lon":4.857102,"k":"p","n":"Kloosterstraat"},
+  {"id":2625425519,"lat":51.494046,"lon":4.874739,"k":"p","n":"Legstraat"},
+  {"id":2625425538,"lat":51.469401,"lon":4.858594,"k":"p","n":"Maaykantsestraat"},
+  {"id":12898024651,"lat":51.457586,"lon":4.857537,"k":"x","n":"Ulicoten, Kloosterstraat"},
+  {"id":12898024654,"lat":51.457715,"lon":4.857123,"k":"x","n":"Ulicoten, Kloosterstraat"}
+],
+"routes":[
+  {"id":19199474,"t":{"ref":"375","name":"Bus 375: Breda Centraal Station => Baarle-Nassau Sint Janstraat","from":"Breda, Centraal Station","to":"Baarle-Nassau, Sint Janstraat","network":"West-Brabant","operator":"Arriva","colour":"#00A6DE","route":"bus","public_transport:version":"2"},"n":25,"s":[[2625425519,20]]},
+  {"id":19199475,"t":{"ref":"375","name":"Bus 375: Baarle-Nassau Sint Janstraat => Breda Centraal Station","from":"Baarle-Nassau, Sint Janstraat","to":"Breda, Centraal Station","network":"West-Brabant","operator":"Arriva","colour":"#00A6DE","route":"bus","public_transport:version":"2"},"n":25,"s":[[617380901,6]]},
+  {"id":19227601,"t":{"ref":"175","name":"Bus 175: Chaam Meysberg => Ulicoten Kloosterstraat","from":"Chaam, Meysberg","to":"Chaam, Kloosterstraat","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":6,"s":[[2625425499,3],[2625425461,4],[2625425538,5],[2625425506,6]]},
+  {"id":19227602,"t":{"ref":"175","name":"Bus 175: Ulicoten Kloosterstraat => Chaam Meysberg","from":"Ulicoten, Kloosterstraat","to":"Chaam, Meysberg","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":6,"s":[[617380881,1],[617380892,2],[617380895,3],[617380897,4]]},
+  {"id":20161261,"t":{"ref":"flex","name":"Bravoflex hub Willibrordplein, Alphen","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":10,"s":[[2625425519,1],[617380901,2],[2625425499,3],[617380897,4]]},
+  {"id":20161262,"t":{"ref":"flex","name":"Bravoflex hub Dorpsstraat, Chaam","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":44,"s":[[2625425304,1],[617380886,2],[2625425506,9],[617380881,10],[617380895,11],[2625425538,13],[2625425461,14],[2625425499,15],[617380897,16],[617380892,17],[2625425519,41],[617380901,43]]},
+  {"id":20161263,"t":{"ref":"flex","name":"Bravoflex hub St. Janstraat, Baarle-Nassau","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":40,"s":[[2625425304,1],[617380886,2],[2625425506,15],[617380881,16],[617380895,17],[2625425538,18],[2625425461,19],[617380892,20]]}
+]
+}

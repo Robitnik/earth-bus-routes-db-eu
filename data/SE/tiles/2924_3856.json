@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2924,3856],
+"stops":[
+  {"id":340066081,"lat":56.232276,"lon":12.847879,"k":"x","n":"Ängelholm Espehögsgatan","ref":"A"},
+  {"id":826604991,"lat":56.227995,"lon":12.835854,"k":"x","n":"Ängelholm Kulltorp","ref":"A"},
+  {"id":826605186,"lat":56.23518,"lon":12.845211,"k":"x","n":"Ängelholm Tivoligatan","ref":"A"},
+  {"id":833379628,"lat":56.233614,"lon":12.839409,"k":"p","n":"A","ref":"A"},
+  {"id":834567133,"lat":56.231345,"lon":12.834801,"k":"x","n":"Ängelholm Råggatan","ref":"A"},
+  {"id":2936966293,"lat":56.227392,"lon":12.840061,"k":"x","n":"Ängelholm Ishallen","ref":"A"},
+  {"id":2936966294,"lat":56.227996,"lon":12.841018,"k":"x","n":"Ängelholm Ishallen","ref":"B"},
+  {"id":2936966295,"lat":56.233576,"lon":12.839464,"k":"x","n":"Ängelholm Majsgatan","ref":"A"},
+  {"id":4738777664,"lat":56.232218,"lon":12.847782,"k":"x","n":"Ängelholm Espehögsgatan","ref":"B"},
+  {"id":4738777673,"lat":56.22565,"lon":12.836999,"k":"x","n":"Ängelholm Lantmannagatan","ref":"A"},
+  {"id":4738777674,"lat":56.225678,"lon":12.83695,"k":"p","n":"A","ref":"A"},
+  {"id":4738777675,"lat":56.224959,"lon":12.835776,"k":"p","n":"B","ref":"B"},
+  {"id":4738777676,"lat":56.224979,"lon":12.835752,"k":"x","n":"Ängelholm Lantmannagatan","ref":"B"},
+  {"id":5000290159536,"lat":56.235244,"lon":12.845193,"k":"p","n":"A","ref":"A"},
+  {"id":5000290159537,"lat":56.228009,"lon":12.835774,"k":"p","n":"A","ref":"A"},
+  {"id":5000290159539,"lat":56.227493,"lon":12.840032,"k":"p","n":"A","ref":"A"},
+  {"id":5000290159540,"lat":56.231323,"lon":12.834707,"k":"p","n":"A","ref":"A"},
+  {"id":5000480932462,"lat":56.232287,"lon":12.847798,"k":"p","n":"B","ref":"B"},
+  {"id":5000480932464,"lat":56.23221,"lon":12.847855,"k":"p","n":"A","ref":"A"},
+  {"id":5000818577986,"lat":56.227862,"lon":12.840947,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":3854691,"t":{"ref":"1","name":"Buss 1: Midgården => Kulltorp","from":"Brännborn Center","to":"Ishallen","network":"Skånetrafiken","colour":"#509e2f","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000290159536,19],[833379628,20],[5000290159540,21],[5000290159537,22],[5000818577986,23]]},
+  {"id":3854692,"t":{"ref":"1","name":"Buss 1: Kulltorp => Midgården","from":"Ishallen","to":"Brännborn Center","network":"Skånetrafiken","colour":"#509e2f","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000818577986,1],[5000480932464,2]]},
+  {"id":5856422,"t":{"ref":"225","name":"Buss 225: Höganäs => Jonstorp => Ängelholm","from":"Höganäs","to":"Ängelholm","network":"Skånetrafiken","operator":"Nobina Helsingborg","route":"bus","public_transport:version":"2"},"n":34,"s":[[4738777675,28],[5000818577986,29],[5000480932464,30]]},
+  {"id":5856423,"t":{"ref":"225","name":"Buss 225: Ängelholm => Jonstorp => Höganäs","from":"Ängelholm","to":"Höganäs","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000480932462,5],[5000290159539,6],[4738777674,7]]},
+  {"id":16214180,"t":{"ref":"1","name":"Buss 1: Kulltorp => Stationen","from":"Ishallen","to":"Ängelholms station","network":"Skånetrafiken","colour":"#509e2f","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000818577986,1],[5000480932464,2]]},
+  {"id":16901349,"t":{"ref":"226","name":"Buss 226: Höganäs => Ängelholm","from":"Höganäs","to":"Ängelholm","network":"Skånetrafiken","operator":"Nobina Helsingborg","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000818577986,3]]},
+  {"id":16901350,"t":{"ref":"226","name":"Buss 226: Ängelholm => Höganäs","from":"Ängelholm","to":"Höganäs","network":"Skånetrafiken","operator":"Nobina Helsingborg","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000290159539,4]]}
+]
+}

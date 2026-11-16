@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2930,3927],
+"stops":[
+  {"id":601585887,"lat":56.527821,"lon":16.376195,"k":"x","n":"Mörbylånga busstation","ref":"A"},
+  {"id":748331251,"lat":56.524384,"lon":16.395687,"k":"x","n":"Trollet","ref":"A"},
+  {"id":748341176,"lat":56.525998,"lon":16.380865,"k":"x","n":"Skansgatan","ref":"A"},
+  {"id":748341179,"lat":56.525984,"lon":16.380982,"k":"x","n":"Skansgatan","ref":"B"},
+  {"id":748341182,"lat":56.525418,"lon":16.384712,"k":"x","n":"Sockerbruket","ref":"A"},
+  {"id":1435502592,"lat":56.524618,"lon":16.394048,"k":"x","n":"Trollet","ref":"B"},
+  {"id":1831020788,"lat":56.527893,"lon":16.375756,"k":"x","n":"Mörbylånga busstation","ref":"B"},
+  {"id":6344022774,"lat":56.52531,"lon":16.385415,"k":"x","n":"Sockerbruket","ref":"B"},
+  {"id":14080242892,"lat":56.523227,"lon":16.383882,"k":"x","n":"Skansenskolan","ref":"A"},
+  {"id":14080242893,"lat":56.523298,"lon":16.383917,"k":"p","n":"A","ref":"A"},
+  {"id":5000172164969,"lat":56.524343,"lon":16.39558,"k":"p","n":"A","ref":"A"},
+  {"id":5000172164972,"lat":56.524657,"lon":16.394196,"k":"p","n":"B","ref":"B"},
+  {"id":5000172164974,"lat":56.525393,"lon":16.384446,"k":"p","n":"A","ref":"A"},
+  {"id":5000172164975,"lat":56.527906,"lon":16.376014,"k":"p","n":"B","ref":"B"},
+  {"id":5000761357658,"lat":56.526001,"lon":16.381158,"k":"p","n":"B","ref":"B"},
+  {"id":5000761357661,"lat":56.525355,"lon":16.385525,"k":"p","n":"B","ref":"B"},
+  {"id":5001393287003,"lat":56.525962,"lon":16.380834,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":17690724,"t":{"ref":"105","name":"Buss 105: Mörbylånga => Kalmar","from":"Mörbylånga busstation","to":"Kalmar","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000172164969,5],[5001393287003,6],[5000172164974,7]]},
+  {"id":17690897,"t":{"ref":"105","name":"Buss 105: Kalmar => Mörbylånga","from":"Kalmar","to":"Mörbylånga busstation","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000172164972,3],[5000761357661,21]]},
+  {"id":21202886,"t":{"ref":"112","name":"Buss 112: Ottenby => Mörbylånga","from":"Ottenby gård","to":"Mörbylånga busstation","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000172164972,39],[14080242893,40],[5000761357658,41],[5000172164975,42]]},
+  {"id":21202892,"t":{"ref":"112","name":"Buss 112: Mörbylånga => Ottenby","from":"Mörbylånga busstation","to":"Ottenby gård","network":"Kalmar länstrafik","route":"bus","public_transport:version":"2"},"n":35,"s":[[5000172164975,1],[5001393287003,2],[5000172164974,3,5],[14080242893,4],[5000172164969,6]]}
+]
+}

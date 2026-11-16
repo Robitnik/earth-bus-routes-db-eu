@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2910,3878],
+"stops":[
+  {"id":261197066,"lat":55.549085,"lon":13.943636,"k":"x","n":"Tomelilla folkhögskolan","ref":"A"},
+  {"id":552173748,"lat":55.52416,"lon":13.909576,"k":"x","n":"Benestad kyrkan","ref":"A"},
+  {"id":567881584,"lat":55.535509,"lon":13.940992,"k":"x","n":"Tomelilla Gränsgatan","ref":"A"},
+  {"id":1951918570,"lat":55.546254,"lon":13.94917,"k":"x","n":"Tomelilla station","ref":"C"},
+  {"id":1951918588,"lat":55.546075,"lon":13.949268,"k":"x","n":"Tomelilla station","ref":"D"},
+  {"id":1951918594,"lat":55.546726,"lon":13.948903,"k":"x","n":"Tomelilla station","ref":"A"},
+  {"id":2894364346,"lat":55.546432,"lon":13.949075,"k":"x","n":"Tomelilla station","ref":"B"},
+  {"id":3325552393,"lat":55.536175,"lon":13.941346,"k":"x","n":"Tomelilla Gränsgatan","ref":"B"},
+  {"id":3342630739,"lat":55.549119,"lon":13.943494,"k":"p","ref":"B"},
+  {"id":3342630740,"lat":55.549114,"lon":13.943713,"k":"p","ref":"A"},
+  {"id":3342630741,"lat":55.54914,"lon":13.943569,"k":"x","n":"Tomelilla folkhögskolan","ref":"B"},
+  {"id":3460390805,"lat":55.518284,"lon":13.905204,"k":"p","ref":"B"},
+  {"id":3460390806,"lat":55.518304,"lon":13.905097,"k":"x","n":"Benestad Övrabyvägen"},
+  {"id":3460390807,"lat":55.518313,"lon":13.904998,"k":"p","ref":"A"},
+  {"id":3681510030,"lat":55.523965,"lon":13.907097,"k":"p","ref":"B"},
+  {"id":3681510035,"lat":55.524015,"lon":13.907119,"k":"x","n":"Benestad kyrkan","ref":"B"},
+  {"id":5000285805993,"lat":55.546198,"lon":13.949325,"k":"p","ref":"C"},
+  {"id":5000285805995,"lat":55.546619,"lon":13.949089,"k":"p","ref":"A"},
+  {"id":5000285806045,"lat":55.546023,"lon":13.949418,"k":"p","ref":"D"},
+  {"id":5000285806050,"lat":55.546376,"lon":13.949227,"k":"p","ref":"B"},
+  {"id":5000325932011,"lat":55.535708,"lon":13.941025,"k":"p","ref":"A"},
+  {"id":5000325932017,"lat":55.524226,"lon":13.909616,"k":"p","ref":"A"},
+  {"id":5000325932019,"lat":55.536095,"lon":13.941461,"k":"p","ref":"B"}
+],
+"routes":[
+  {"id":3160943,"t":{"ref":"SkåneExpressen 4","name":"Buss SkåneExpressen 4: Kristianstad => Ystad","from":"Kristianstad","to":"Ystad","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000285806050,31],[5000325932011,32],[5000325932017,33],[3460390807,34]]},
+  {"id":3160944,"t":{"ref":"SkåneExpressen 4","name":"Buss SkåneExpressen 4: Ystad => Kristianstad","from":"Ystad","to":"Kristianstad","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":41,"s":[[3460390805,8],[3681510030,9],[5000325932019,10],[5000285806050,11]]},
+  {"id":3789322,"t":{"ref":"SkåneExpressen 5","name":"Buss SkåneExpressen 5: Lund C => Tomelilla => Simrishamn","from":"Lund C","to":"Simrishamn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000285805993,11]]},
+  {"id":3789323,"t":{"ref":"SkåneExpressen 5","name":"Buss SkåneExpressen 5: Simrishamn => Tomelilla => Lund C","from":"Simrishamn","to":"Lund C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000285805993,8]]},
+  {"id":5413526,"t":{"ref":"337","name":"Buss 337: Tomelilla => Ystad","from":"Tomelilla","to":"Ystad","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000285806050,1],[5000325932011,2],[5000325932017,3],[3460390807,4]]},
+  {"id":5413527,"t":{"ref":"337","name":"Buss 337: Ystad => Tomelilla","from":"Ystad","to":"Tomelilla","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":12,"s":[[3460390805,9],[3681510030,10],[5000325932019,11],[5000285806050,12]]},
+  {"id":5427683,"t":{"ref":"338","name":"Buss 338: Sjöbo => Tomelilla","from":"Sjöbo","to":"Tomelilla","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[3342630739,28],[5000285805995,29]]},
+  {"id":5427684,"t":{"ref":"338","name":"Buss 338: Tomelilla => Sjöbo","from":"Tomelilla station","to":"Sjöbo busstation","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000285805995,1],[3342630740,2]]},
+  {"id":5427687,"t":{"ref":"579","from":"St:Olof Hultgatan","to":"Tomelilla","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000285806045,17]]},
+  {"id":5427688,"t":{"ref":"579","from":"Tomelilla","to":"S:t Olof Hultgatan","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000285806045,1]]}
+]
+}

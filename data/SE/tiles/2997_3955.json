@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2997,3955],
+"stops":[
+  {"id":12149330436,"lat":59.854589,"lon":17.798514,"k":"p","n":"Charlottendal"},
+  {"id":12149330437,"lat":59.854382,"lon":17.797209,"k":"p","n":"Charlottendal"},
+  {"id":12334791291,"lat":59.875446,"lon":17.758626,"k":"p","n":"Skölsta vändplan"},
+  {"id":12334791292,"lat":59.878383,"lon":17.753472,"k":"p","n":"Idegransvägen"},
+  {"id":12334791293,"lat":59.878022,"lon":17.754636,"k":"p","n":"Idegransvägen"}
+],
+"routes":[
+  {"id":2826161,"t":{"ref":"809","name":"Buss 809: Knutby - Uppsala","from":"Knutby","to":"Uppsala centralstation","network":"UL","route":"bus","public_transport:version":"1+2"},"n":48,"s":[[12149330437,37]]},
+  {"id":2826162,"t":{"ref":"809","name":"Buss 809: Uppsala - Knutby","from":"Uppsala centralstation","to":"Knutby","network":"UL","route":"bus","public_transport:version":"1+2"},"n":48,"s":[[12149330436,12]]},
+  {"id":4663830,"t":{"ref":"119","name":"Buss 119: Uppsala - Skölsta","from":"Uppsala","to":"Skölsta","network":"UL","route":"bus","public_transport:version":"1+2"},"n":13,"s":[[12334791293,12],[12334791291,13]]},
+  {"id":4663831,"t":{"ref":"119","name":"Buss 119: Skölsta - Uppsala","from":"Skölsta","to":"Uppsala","network":"UL","route":"bus","public_transport:version":"1+2"},"n":13,"s":[[12334791291,1],[12334791292,2]]}
+]
+}

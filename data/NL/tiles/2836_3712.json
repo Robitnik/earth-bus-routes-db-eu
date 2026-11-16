@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2836,3712],
+"stops":[
+  {"id":1713321527,"lat":51.822407,"lon":5.631122,"k":"p","n":"RK Kerk"},
+  {"id":1713324718,"lat":51.825082,"lon":5.629124,"k":"p","n":"Willibrordusstraat"},
+  {"id":2848196008,"lat":51.819491,"lon":5.611599,"k":"p","n":"Voorstraat"},
+  {"id":2848196010,"lat":51.802474,"lon":5.627115,"k":"p","n":"Rondestraat"},
+  {"id":3001137930,"lat":51.822387,"lon":5.631212,"k":"x","n":"RK Kerk"},
+  {"id":3982421144,"lat":51.837666,"lon":5.602901,"k":"p","n":"Informatietuinen"},
+  {"id":3982421145,"lat":51.837676,"lon":5.602791,"k":"p","n":"Informatietuinen"},
+  {"id":9420698417,"lat":51.824952,"lon":5.628861,"k":"p","n":"Willibrordusstraat"},
+  {"id":13823400792,"lat":51.807763,"lon":5.645705,"k":"p","n":"Neerlangel"},
+  {"id":13823400803,"lat":51.815668,"lon":5.629619,"k":"p","n":"Demen"}
+],
+"routes":[
+  {"id":1655137,"t":{"ref":"563","name":"Bus 563: Batenburg RK Kerk => Wijchen Mozaiek","from":"Batenburg, RK Kerk","to":"Wijchen, Mozaiek","network":"Arnhem-Nijmegen-Foodvalley","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":17,"s":[[1713321527,1],[1713324718,2]]},
+  {"id":1655138,"t":{"ref":"563","name":"Bus 563: Wijchen Mozaiek => Batenburg RK Kerk","from":"Wijchen, Mozaiek","to":"Batenburg, RK Kerk","network":"Arnhem-Nijmegen-Foodvalley","operator":"Transdev","route":"bus","public_transport:version":"2"},"n":17,"s":[[9420698417,16],[1713321527,17]]},
+  {"id":5936283,"t":{"ref":"802","name":"Bus 802: Druten Busstation => Wamel Veer","from":"Druten, Busstation","to":"Wamel, Veer","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":11,"s":[[3982421145,4]]},
+  {"id":5936284,"t":{"ref":"802","name":"Bus 802: Wamel Veer => Druten Busstation","from":"Wamel, Veer","to":"Druten, Busstation","network":"Achterhoek-Rivierenland","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":11,"s":[[3982421144,8]]},
+  {"id":20678528,"t":{"ref":"flex","name":"Bravoflex hub Station, Ravenstein","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":98,"s":[[13823400792,1],[2848196010,2],[13823400803,10],[2848196008,11]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2915,3867],
+"stops":[
+  {"id":255895538,"lat":55.752879,"lon":13.361107,"k":"x","n":"Flyinge posten"},
+  {"id":846146241,"lat":55.752622,"lon":13.361893,"k":"x","n":"Flyinge posten","ref":"A"},
+  {"id":2724284114,"lat":55.751683,"lon":13.370604,"k":"x","n":"Flyinge Plantskolevägen","ref":"A"},
+  {"id":3609713037,"lat":55.79668,"lon":13.394859,"k":"x","n":"Källsliden"},
+  {"id":3609713038,"lat":55.796747,"lon":13.39465,"k":"x","n":"Källsliden"},
+  {"id":3609713053,"lat":55.796659,"lon":13.394832,"k":"p"},
+  {"id":3609713054,"lat":55.796793,"lon":13.394682,"k":"p"},
+  {"id":5000373924679,"lat":55.751757,"lon":13.370687,"k":"p","ref":"A"},
+  {"id":5000405780465,"lat":55.75288,"lon":13.361229,"k":"p"},
+  {"id":5001545954330,"lat":55.752608,"lon":13.361815,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":3306171,"t":{"ref":"175","name":"Buss 175: Malmö C => Dalby => Flyinge","from":"Malmö C","to":"Flyinge","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001545954330,23],[5000373924679,24]]},
+  {"id":3306172,"t":{"ref":"175","name":"Buss 175: Flyinge => Dalby => Malmö C","from":"Flyinge Plantskolevägen","to":"Malmö C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000373924679,1],[5000405780465,2]]},
+  {"id":3333027,"t":{"ref":"436","name":"Buss 436: Eslövs station => Löberöd Torget","from":"Eslövs station","to":"Löberöd Torget","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":18,"s":[[3609713053,8]]},
+  {"id":3333028,"t":{"ref":"436","name":"Buss 436: Löberöd Torget => Eslövs station","from":"Löberöd Torget","to":"Eslövs station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":18,"s":[[3609713054,11]]},
+  {"id":5287870,"t":{"ref":"157","name":"Buss 157: Eslöv => Flyinge","from":"Eslövs station","to":"Flyinge Plantskolevägen","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":8,"s":[[5001545954330,7],[5000373924679,8]]},
+  {"id":5287871,"t":{"ref":"157","name":"Buss 157: Flyinge => Eslöv","from":"Flyinge Plantskolevägen","to":"Eslövs station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000373924679,1],[5000405780465,2]]}
+]
+}

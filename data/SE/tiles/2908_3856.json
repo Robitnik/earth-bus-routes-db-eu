@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2908,3856],
+"stops":[
+  {"id":253633532,"lat":55.408325,"lon":12.841476,"k":"x","n":"Skanör Triangeln","ref":"B"},
+  {"id":253633549,"lat":55.401112,"lon":12.83682,"k":"x","n":"Falsterbo Pastoratsvägen","ref":"B"},
+  {"id":663890281,"lat":55.411549,"lon":12.843939,"k":"x","n":"Skanör centrum","ref":"B"},
+  {"id":2371920145,"lat":55.411673,"lon":12.843419,"k":"x","n":"Skanör centrum","ref":"A"},
+  {"id":3149136760,"lat":55.400523,"lon":12.836639,"k":"x","n":"Falsterbo Pastoratsvägen","ref":"A"},
+  {"id":3149136761,"lat":55.408169,"lon":12.84137,"k":"x","n":"Skanör Triangeln","ref":"A"},
+  {"id":5000228524303,"lat":55.411693,"lon":12.843516,"k":"p","n":"A","ref":"A"},
+  {"id":5000228524312,"lat":55.411534,"lon":12.843823,"k":"p","n":"B","ref":"B"},
+  {"id":5000309574663,"lat":55.400592,"lon":12.836609,"k":"p","n":"A","ref":"A"},
+  {"id":5000309574664,"lat":55.40106,"lon":12.836884,"k":"p","n":"B","ref":"B"},
+  {"id":5000309574665,"lat":55.408258,"lon":12.84153,"k":"p","n":"B","ref":"B"},
+  {"id":5000547307195,"lat":55.408243,"lon":12.84133,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":2724452,"t":{"ref":"SkE 15","name":"Buss Skåneexpressen 15: Skanör => Höllviken => Vellinge => Malmö C","from":"Skanör centrum","to":"Malmö C","network":"Skånetrafiken","operator":"Bergkvarabuss Malmö","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000228524312,1]]},
+  {"id":2724453,"t":{"ref":"SkE 15","name":"Buss Skåneexpressen 15: Malmö C => Vellinge => Höllviken => Skanör","from":"Malmö C","to":"Skanör","network":"Skånetrafiken","operator":"Bergkvarabuss Malmö","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000228524303,16]]},
+  {"id":3157182,"t":{"ref":"300","name":"Buss 300: Falsterbo => Vellinge => Malmö Hyllie","from":"Falsterbo Strandbad","to":"Malmö Hyllie","network":"Skånetrafiken","operator":"Bergkvarabuss Malmö","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000309574664,4],[5000309574665,5],[5000228524312,6]]},
+  {"id":3157183,"t":{"ref":"300","name":"Buss 300: Malmö Hyllie => Vellinge => Falsterbo","from":"Malmö Hyllie","to":"Falsterbo Strandbad","network":"Skånetrafiken","operator":"Bergkvarabuss Malmö","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000228524303,12],[5000547307195,13],[5000309574663,14]]},
+  {"id":17912392,"t":{"ref":"300","name":"Buss 300: Skanör centrum => Falsterbo Strandbad","from":"Skanör centrum","to":"Falsterbo Strandbad","network":"Skånetrafiken","operator":"Bergkvarabuss Malmö","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000228524303,1],[5000547307195,2],[5000309574663,3]]}
+]
+}

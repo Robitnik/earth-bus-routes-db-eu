@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3012,4098],
+"stops":[
+  {"id":777381663,"lat":60.640799,"lon":24.901218,"k":"p","n":"Kenraalinkulma"},
+  {"id":1493055202,"lat":60.622706,"lon":24.903876,"k":"p","n":"Jäkäläkuja E"},
+  {"id":1711256132,"lat":60.627023,"lon":24.904982,"k":"p","n":"Harjanteenkaari I"},
+  {"id":4809480014,"lat":60.615343,"lon":24.916934,"k":"p","n":"Sillankorvankatu L"},
+  {"id":4809480015,"lat":60.615419,"lon":24.919762,"k":"p","n":"Sillankorvankatu I"},
+  {"id":6241419559,"lat":60.631398,"lon":24.919525,"k":"p","n":"Ahdenkallio"},
+  {"id":6241419560,"lat":60.618944,"lon":24.905107,"k":"p","n":"Isonkallionkatu E"},
+  {"id":6241419561,"lat":60.625304,"lon":24.90434,"k":"p","n":"Kurjenpolventie E"},
+  {"id":6241419562,"lat":60.628131,"lon":24.900322,"k":"p","n":"Kultapiiskuntie I"},
+  {"id":6241419563,"lat":60.615821,"lon":24.900814,"k":"p","n":"Martinlehto E"}
+],
+"routes":[
+  {"id":318731,"t":{"ref":"2A","name":"Asema - Mustamännistö - Maauimala","from":"Asema","to":"Maauimala","network":"Hyvinkää","operator":"Hyvinkään Liikenne Oy","route":"bus"},"n":23,"s":[[777381663,21]]},
+  {"id":398087,"t":{"ref":"5","name":"Asema - Martti","from":"Asema","to":"Martti","network":"Hyvinkää","operator":"Hyvinkään Liikenne","route":"bus"},"n":16,"s":[[6241419562,11],[1711256132,12],[6241419561,13],[1493055202,14],[6241419560,15]]},
+  {"id":19979502,"t":{"ref":"2","name":"Maauimala - Hämeenkatu - Asema","from":"Maauimala","to":"Asema","network":"Hyvinkää","operator":"Hyvinkään Liikenne Oy","route":"bus"},"n":16,"s":[[777381663,3]]},
+  {"id":20039427,"t":{"name":"Hyvinkää - Mäntsälä","from":"Hyvinkää","to":"Mäntsälä","network":"Keski-Uusimaa","route":"bus"},"n":25,"s":[[6241419563,8],[4809480015,9]]},
+  {"id":20039428,"t":{"name":"Mäntsälä - Hyvinkää","from":"Mäntsälä","to":"Hyvinkää","network":"Keski-Uusimaa","route":"bus"},"n":31,"s":[[4809480014,27]]}
+]
+}

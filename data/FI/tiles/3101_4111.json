@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3101,4111],
+"stops":[
+  {"id":1692248830,"lat":65.051209,"lon":25.581239,"k":"p","n":"Kaapelitie E","ref":"3477"},
+  {"id":1692248832,"lat":65.051072,"lon":25.581523,"k":"p","n":"Kaapelitie P","ref":"3476"},
+  {"id":5469638157,"lat":65.054109,"lon":25.597303,"k":"p","n":"Johdinkuja E","ref":"1792"},
+  {"id":5469638158,"lat":65.054842,"lon":25.596401,"k":"p","n":"Johdinkuja P"},
+  {"id":6000876987,"lat":65.053247,"lon":25.597243,"k":"p","n":"Kaartintie E2","ref":"3564"},
+  {"id":6271025283,"lat":65.087194,"lon":25.556954,"k":"p","n":"Kalimeenoja P"},
+  {"id":6271025284,"lat":65.086521,"lon":25.555643,"k":"p","n":"Kalimeenoja E"},
+  {"id":13095925047,"lat":65.059989,"lon":25.584565,"k":"p","n":"Palmu P","ref":"3592"},
+  {"id":13095925048,"lat":65.058963,"lon":25.585634,"k":"p","n":"Palmu E","ref":"3593"}
+],
+"routes":[
+  {"id":8228411,"t":{"ref":"10","name":"10 Heikinharju – Koskela","from":"Johdinkuja E","to":"Koskela","network":"Oulun joukkoliikenne","operator":"Koiviston auto Oulu","route":"bus","public_transport:version":"2"},"n":49,"s":[[5469638157,1]]},
+  {"id":13565588,"t":{"ref":"9","name":"9 Heikinharju – Lentoasema","from":"Johdinkuja E","to":"Lentoasema","network":"Oulun Joukkoliikenne","operator":"Koskilinjat","route":"bus","public_transport:version":"2"},"n":61,"s":[[5469638157,1]]},
+  {"id":16771723,"t":{"ref":"9","name":"9 Lentoasema – Heikinharju","network":"Oulun Joukkoliikenne","operator":"Koskilinjat","route":"bus","public_transport:version":"2"},"n":60,"s":[[5469638158,60]]},
+  {"id":19659755,"t":{"ref":"10","name":"10 Koskela - Heikinharju","from":"Koskela","to":"Johdinkuja P","network":"Oulun joukkoliikenne","operator":"Koiviston auto Oulu","route":"bus","public_transport:version":"2"},"n":48,"s":[[5469638158,48]]},
+  {"id":19659842,"t":{"ref":"10","name":"10P Koskela - Heikinharju","from":"Koskela","to":"Palmu P","network":"Oulun joukkoliikenne","operator":"Koiviston auto Oulu","route":"bus","public_transport:version":"2"},"n":49,"s":[[5469638158,48],[13095925047,49]]},
+  {"id":19659843,"t":{"ref":"10P","name":"10P Heikinharju – Koskela","from":"Palmu E","to":"Koskela","network":"Oulun seudun liikenne","route":"bus","public_transport:version":"2"},"n":50,"s":[[13095925048,1],[5469638157,2]]}
+]
+}

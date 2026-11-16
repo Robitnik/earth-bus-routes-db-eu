@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2950,3894],
+"stops":[
+  {"id":356365886,"lat":57.506951,"lon":14.715208,"k":"x","n":"Eko-museum","ref":"A;B"},
+  {"id":356365891,"lat":57.509205,"lon":14.717309,"k":"x","n":"Bodafors Björkbacksgatan","ref":"A"},
+  {"id":356365892,"lat":57.509952,"lon":14.717686,"k":"x","n":"Bodafors Björkbacksgatan","ref":"B"},
+  {"id":356366241,"lat":57.500367,"lon":14.709588,"k":"x","n":"Sandsjövägen","ref":"A"},
+  {"id":2173204756,"lat":57.507202,"lon":14.703603,"k":"x","n":"Bodafors busstorget","ref":"A"},
+  {"id":2261548159,"lat":57.504288,"lon":14.71048,"k":"x","n":"Bodafors Bodavägen","ref":"A;B"},
+  {"id":2397176050,"lat":57.501412,"lon":14.703985,"k":"x","n":"Sävegatan","ref":"A"},
+  {"id":2515486020,"lat":57.51888,"lon":14.717542,"k":"x","n":"Karsåsvägen","ref":"A"},
+  {"id":3337635990,"lat":57.51964,"lon":14.717476,"k":"x","n":"Karsåsvägen","ref":"B"},
+  {"id":5761628616,"lat":57.506974,"lon":14.71513,"k":"p","n":"A","ref":"A"},
+  {"id":5761628617,"lat":57.50694,"lon":14.715261,"k":"p","n":"B","ref":"B"},
+  {"id":5761628618,"lat":57.504326,"lon":14.710467,"k":"p","n":"B","ref":"B"},
+  {"id":5761628620,"lat":57.50426,"lon":14.710506,"k":"p","n":"A","ref":"A"},
+  {"id":13203847585,"lat":57.500323,"lon":14.709559,"k":"p","n":"A","ref":"A"},
+  {"id":5000216784919,"lat":57.509908,"lon":14.71778,"k":"p","n":"B","ref":"B"},
+  {"id":5000216784921,"lat":57.509241,"lon":14.717209,"k":"p","n":"A","ref":"A"},
+  {"id":5000403527722,"lat":57.518946,"lon":14.717428,"k":"p","n":"A","ref":"A"},
+  {"id":5000403527729,"lat":57.519575,"lon":14.717615,"k":"p","n":"B","ref":"B"}
+],
+"routes":[
+  {"id":4108903,"t":{"ref":"360","name":"Buss 360: Eksjö => Sävsjö","from":"Eksjö Resecentrum","to":"Sävsjö station","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000216784921,10],[5761628616,11]]},
+  {"id":4108904,"t":{"ref":"360","name":"Buss 360: Sävsjö => Eksjö","from":"Sävsjö","to":"Eksjö","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":15,"s":[[5761628617,5],[5000216784919,6]]},
+  {"id":4110372,"t":{"ref":"312","name":"Buss 312: Bodafors => Nässjö","from":"Bodafors","to":"Nässjö","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":6,"s":[[5761628620,1],[5761628617,2],[5000216784919,3],[5000403527729,4]]},
+  {"id":4110373,"t":{"ref":"312","name":"Buss 312: Nässjö => Bodafors","from":"Nässjö resecentrum","to":"Bodafors busstorget","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000403527722,3],[5000216784921,4],[5761628616,5],[5761628618,6]]},
+  {"id":4110375,"t":{"ref":"313","name":"Buss 313: Nässjö => Bodafors => Sandsjöfors","from":"Nässjö","to":"Sandsjöfors","network":"Jönköpings Länstrafik","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000403527722,3]]}
+]
+}

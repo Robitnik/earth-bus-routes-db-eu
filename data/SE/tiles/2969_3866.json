@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2969,3866],
+"stops":[
+  {"id":474697009,"lat":58.499873,"lon":13.302871,"k":"x","n":"Källby väg 44","ref":"A"},
+  {"id":2820101567,"lat":58.499898,"lon":13.302751,"k":"x","n":"Källby väg 44","ref":"B"},
+  {"id":6733292537,"lat":58.499764,"lon":13.304633,"k":"x","n":"Källbyrondellen","ref":"B"},
+  {"id":11945350193,"lat":58.499947,"lon":13.304571,"k":"x","n":"Källbyrondellen","ref":"A"},
+  {"id":5000310452189,"lat":58.499946,"lon":13.302648,"k":"p","n":"B","ref":"B"},
+  {"id":5000310452199,"lat":58.499836,"lon":13.302999,"k":"p","n":"A","ref":"A"},
+  {"id":5001227066426,"lat":58.499787,"lon":13.304491,"k":"p","n":"B","ref":"B"},
+  {"id":5001227066427,"lat":58.499909,"lon":13.304709,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":2171527,"t":{"ref":"106","name":"Buss 106: Götene => Filsbäck => Lidköping","from":"Götene busstation","to":"Lidköpings resecentrum","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001227066426,3]]},
+  {"id":2171528,"t":{"ref":"106","name":"Buss 106: Lidköping => Filsbäck => Götene","from":"Lidköpings resecentrum","to":"Götene busstation","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001227066427,2]]},
+  {"id":4149068,"t":{"ref":"116","name":"Buss 116: Götene => Husaby => Lidköping","from":"Götene","to":"Lidköping","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001227066426,2]]},
+  {"id":4149069,"t":{"ref":"116","name":"Buss 116: Lidköping => Husaby => Götene","from":"Lidköpings resecentrum","to":"Götene","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":2,"s":[[5001227066427,1]]},
+  {"id":9951052,"t":{"ref":"106","name":"Buss 106: Götene - Lidköping","from":"Götene busstation","to":"Lidköping","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000310452189,2]]},
+  {"id":9951053,"t":{"ref":"106","name":"Buss 106: Lidköping - Götene","from":"Lidköping resecentrum","to":"Götene","network":"Västtrafik","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000310452199,1]]}
+]
+}

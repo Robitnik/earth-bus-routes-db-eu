@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2912,3873],
+"stops":[
+  {"id":731832823,"lat":55.632326,"lon":13.69416,"k":"x","n":"Sjöbo Sandbäck","ref":"A"},
+  {"id":2525820854,"lat":55.63726,"lon":13.655977,"k":"x","n":"Sjöbo Sommarby"},
+  {"id":2525820855,"lat":55.637636,"lon":13.651955,"k":"x","n":"Sjöbo Sommarby"},
+  {"id":2893844509,"lat":55.632377,"lon":13.693424,"k":"x","n":"Sjöbo Sandbäck","ref":"B"},
+  {"id":2893844915,"lat":55.632366,"lon":13.694159,"k":"p","n":"A","ref":"A"},
+  {"id":4259630745,"lat":55.641077,"lon":13.691872,"k":"x","n":"Sjöbo Malenagymnasiet"},
+  {"id":4949096094,"lat":55.634287,"lon":13.686039,"k":"p"},
+  {"id":4949096095,"lat":55.634253,"lon":13.686025,"k":"x","n":"Sjöbo väster"},
+  {"id":4949096096,"lat":55.634214,"lon":13.686008,"k":"p"},
+  {"id":5761683771,"lat":55.640899,"lon":13.691921,"k":"x","n":"Sjöbo Malenagymnasiet"},
+  {"id":5000245373942,"lat":55.637671,"lon":13.652071,"k":"p"},
+  {"id":5000245373946,"lat":55.63723,"lon":13.655799,"k":"p"},
+  {"id":5000285744549,"lat":55.632337,"lon":13.693341,"k":"p","n":"B","ref":"B"},
+  {"id":5000426693727,"lat":55.640939,"lon":13.691841,"k":"p"},
+  {"id":5000426693728,"lat":55.641031,"lon":13.691969,"k":"p"}
+],
+"routes":[
+  {"id":2726826,"t":{"ref":"160","name":"Buss 160: Lund C => Sjöbo","from":"Lund C","to":"Sjöbo busstation","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000245373946,18],[5000285744549,19]]},
+  {"id":2726827,"t":{"ref":"160","name":"Buss 160: Sjöbo => Lund C","from":"Sjöbo busstation","to":"Lund C","network":"Skånetrafiken","operator":"Nobina","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":20,"s":[[2893844915,2],[5000245373942,3]]},
+  {"id":4173644,"t":{"ref":"SkE 8","name":"Buss SkE 8: Malmö Södervärn => Sjöbo","from":"Malmö Södervärn","to":"Sjöbo","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000245373946,10]]},
+  {"id":4173645,"t":{"ref":"SkE 8","name":"Buss SkE 8: Sjöbo => Malmö Södervärn","from":"Sjöbo busstation","to":"Malmö Södervärn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000245373942,2]]},
+  {"id":4514535,"t":{"ref":"330","name":"Buss 330: Hörby => Sjöbo","from":"Hörby busstation","to":"Sjöbo busstation","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000426693727,15],[4949096094,16],[5000285744549,17]]},
+  {"id":4514536,"t":{"ref":"330","name":"Buss 330: Sjöbo => Hörby","from":"Sjöbo","to":"Hörby","network":"Skånetrafiken","colour":"#fbbf15","route":"bus","public_transport:version":"2"},"n":18,"s":[[2893844915,2],[4949096096,3],[5000426693728,4]]},
+  {"id":5614723,"t":{"ref":"340","name":"Buss 340: Fränninge => Sjöbo","from":"Fränninge","to":"Sjöbo","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000426693727,13],[4949096094,14],[5000285744549,15]]},
+  {"id":5614724,"t":{"ref":"340","name":"Buss 340: Sjöbo => Fränninge","from":"Sjöbo","to":"Fränninge","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[2893844915,2],[4949096096,3],[5000426693728,4]]}
+]
+}

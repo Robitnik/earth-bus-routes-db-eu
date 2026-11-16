@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FI",
+"tile":[3030,4066],
+"stops":[
+  {"id":1660335045,"lat":61.500609,"lon":23.318864,"k":"p","n":"Ritamäki L"},
+  {"id":1660335051,"lat":61.502102,"lon":23.341765,"k":"p","n":"Murhasaari","ref":"8694"},
+  {"id":1660335052,"lat":61.503178,"lon":23.336969,"k":"p","n":"Murhasaari L"},
+  {"id":4893220230,"lat":61.503534,"lon":23.342219,"k":"p","n":"Murhasaari I"},
+  {"id":5208657899,"lat":61.502673,"lon":23.340967,"k":"x","n":"Murhasaari","ref":"8695"},
+  {"id":5312131531,"lat":61.542411,"lon":23.339146,"k":"p","n":"Mustikkavuori P"},
+  {"id":5312131532,"lat":61.542668,"lon":23.338948,"k":"p","n":"Mustikkavuori E"},
+  {"id":5312131533,"lat":61.535737,"lon":23.335195,"k":"p","n":"Metsäkulmantie E"},
+  {"id":5312131534,"lat":61.536213,"lon":23.335283,"k":"p","n":"Metsäkulmantie P"},
+  {"id":6270954094,"lat":61.53006,"lon":23.339361,"k":"p","n":"Siurontie 509 P"},
+  {"id":6270954095,"lat":61.502505,"lon":23.340997,"k":"p","n":"Murhasaari","ref":"8695"},
+  {"id":6270954096,"lat":61.524407,"lon":23.335245,"k":"p","n":"Siurontie 585 P"},
+  {"id":6270954097,"lat":61.524234,"lon":23.335134,"k":"p","n":"Siurontie 587 E"},
+  {"id":6270954098,"lat":61.521939,"lon":23.334132,"k":"p","n":"Miharintie 555 P"},
+  {"id":6270954100,"lat":61.521305,"lon":23.333932,"k":"p","n":"Suojasentie 552 E"},
+  {"id":6270954103,"lat":61.500706,"lon":23.320674,"k":"p","n":"Ritamäki I"},
+  {"id":6270954107,"lat":61.500221,"lon":23.343881,"k":"p","n":"Riihelä","ref":"8684"},
+  {"id":6270954108,"lat":61.500425,"lon":23.343364,"k":"p","n":"Riihelä","ref":"8683"},
+  {"id":7369670312,"lat":61.502072,"lon":23.341655,"k":"x","n":"Murhasaari","ref":"8694"},
+  {"id":7369670326,"lat":61.500195,"lon":23.343782,"k":"x","n":"Riihelä"},
+  {"id":7369670327,"lat":61.500452,"lon":23.343445,"k":"x","n":"Riihelä"},
+  {"id":10602292129,"lat":61.503109,"lon":23.336987,"k":"x","n":"Murhasaari L"},
+  {"id":10602292130,"lat":61.503635,"lon":23.342201,"k":"x","n":"Murhasaari I"}
+],
+"routes":[
+  {"id":15423205,"t":{"ref":"OB38","name":"Bus OB38: Pori => Tampere","from":"Pori","to":"Tampere","route":"bus","public_transport:version":"2"},"n":20,"s":[[4893220230,15]]},
+  {"id":15423207,"t":{"ref":"OB38","name":"Bus OB38: Tampere => Pori","from":"Tampere","to":"Pori","network":"OnniBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[1660335052,6]]},
+  {"id":21028352,"t":{"ref":"79A","name":"Bus 79A: Linnavuori => Nokia","from":"Linnavuoren koulu","to":"Nokia B","network":"Nysse","route":"bus","public_transport:version":"2"},"n":27,"s":[[6270954107,4],[1660335051,5]]},
+  {"id":21028353,"t":{"ref":"79A","name":"Bus 79A: Nokia => Linnavuori","from":"Nokia B","to":"Linnavuoren koulu","network":"Nysse","route":"bus","public_transport:version":"2"},"n":30,"s":[[6270954095,26],[6270954108,27]]},
+  {"id":21031570,"t":{"ref":"79","name":"Bus 79: Siuro => Nokia => Ruskeepää","from":"Siuron koulu","to":"Kenttäkatu","network":"Nysse","route":"bus","public_transport:version":"2"},"n":48,"s":[[6270954095,7],[6270954108,8]]},
+  {"id":21031571,"t":{"ref":"79","name":"Bus 79: Ruskeepää => Nokia => Siuro","from":"Kenttäkatu","to":"Siuro","network":"Nysse","route":"bus","public_transport:version":"2"},"n":56,"s":[[6270954107,48],[1660335051,49]]}
+]
+}

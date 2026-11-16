@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2831,3722],
+"stops":[
+  {"id":580965109,"lat":51.598996,"lon":6.14976,"k":"x","n":"Airport Weeze Terminal 1"},
+  {"id":1678868132,"lat":51.598996,"lon":6.149905,"k":"x"},
+  {"id":1678868139,"lat":51.598994,"lon":6.14961,"k":"x"},
+  {"id":1678868149,"lat":51.598992,"lon":6.149458,"k":"x","n":"Weeze Airport Terminal 1"},
+  {"id":1712459725,"lat":51.552256,"lon":6.10779,"k":"p","n":"Knikkerdorp"},
+  {"id":3867636354,"lat":51.552228,"lon":6.108307,"k":"p","n":"Knikkerdorp"},
+  {"id":9034262122,"lat":51.598241,"lon":6.148579,"k":"p"},
+  {"id":9034262123,"lat":51.598241,"lon":6.148729,"k":"x"},
+  {"id":9034339114,"lat":51.595529,"lon":6.14635,"k":"p"},
+  {"id":9034339115,"lat":51.595571,"lon":6.146297,"k":"x"},
+  {"id":5000155491313,"lat":51.599,"lon":6.149691,"k":"p","n":"Airport Weeze Terminal 1","ref":"3"}
+],
+"routes":[
+  {"id":349425,"t":{"ref":"383","name":"Bus 383: Nijmegen Centraal Station => Venlo Station","from":"Nijmegen, Centraal Station","to":"Venlo, Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":70,"s":[[1712459725,48]]},
+  {"id":407165,"t":{"ref":"383","name":"Bus 383: Venlo Station => Nijmegen Centraal Station","from":"Venlo, Station","to":"Nijmegen, Centraal Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":70,"s":[[3867636354,23]]},
+  {"id":556119,"t":{"ref":"73","name":"Bus 73 Airline: Kevelaer => Weeze","from":"Kevelaer Bahnhof","to":"Weeze Airport Terminal 1","network":"VRR","operator":"Stadtwerke Kevelaer","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000155491313,11]]},
+  {"id":1483804,"t":{"ref":"SW1","name":"Bus SW1: Weeze Bahnhof => Airport","from":"Weeze Bahnhof","to":"Weeze Airport Terminal 1","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000155491313,3]]},
+  {"id":5342892,"t":{"ref":"73","name":"Bus 73 Airlinie: Weeze => Kevelaer","from":"Weeze Airport Terminal 1","to":"Kevelaer Bahnhof","network":"VRR","operator":"Stadtwerke Kevelaer","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000155491313,1]]},
+  {"id":5372924,"t":{"ref":"SW1","name":"Bus SW1: Weeze Airport => Bahnhof","from":"Weeze Airport Terminal 1","to":"Weeze Bahnhof","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000155491313,1]]},
+  {"id":5506485,"t":{"ref":"SL17","name":"Bus SL17: Goch => Weeze","from":"Goch Bahnhof","to":"Weeze Flughafen Terminal 1","network":"VRR","operator":"Stadtbus Goch","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000155491313,6]]},
+  {"id":5508905,"t":{"ref":"SL17","name":"Bus SL17: Weeze => Goch","from":"Weeze Flughafen Terminal 1","to":"Goch Bahnhof","network":"VRR","operator":"Stadtbus Goch","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000155491313,1]]},
+  {"id":10381641,"t":{"ref":"383","name":"Bus 383: Venlo Station => Nijmegen Centraal Station","from":"Venlo, Station","to":"Nijmegen, Centraal Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":69,"s":[[3867636354,22]]},
+  {"id":10381642,"t":{"ref":"383","name":"Bus 383: Nijmegen Centraal Station => Venlo Station","from":"Nijmegen, Centraal Station","to":"Venlo, Station","network":"Arnhem-Nijmegen-Foodvalley;Limburg","operator":"Transdev;Arriva","colour":"#DA0070","route":"bus","public_transport:version":"2"},"n":69,"s":[[1712459725,48]]},
+  {"id":11057986,"t":{"ref":"683","name":"Bus 683: Well Kasteellaan => Venlo Station","from":"Well, Kasteellaan","to":"Venlo, Station","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":24,"s":[[1712459725,2]]},
+  {"id":19593807,"t":{"ref":"SB46","name":"Bus SB46: Kevelaer => Weeze Bahnhof => Nijmegen","from":"Kevelaer Bahnhof","to":"Nijmegen Centraal Station","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000155491313,3]]},
+  {"id":20512211,"t":{"ref":"SB46","name":"Bus SB46: Nijmegen => Kevelaer","from":"Nijmegen Centraal Station","to":"Kevelaer Bahnhof","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000155491313,6]]},
+  {"id":20512212,"t":{"ref":"SB46","name":"Bus SB46: Kevelaer => Nijmegen","from":"Kevelaer Bahnhof","to":"Nijmegen Centraal Station","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000155491313,3]]},
+  {"id":3045231552250,"t":{"ref":"SB46","name":"SB46: Nijmegen Centraal Station - Kevelaer Bahnhof","from":"Nijmegen Centraal Station","to":"Kevelaer Bahnhof","operator":"Busverkehr Rheinland","route":"bus","public_transport:version":"2"},"n":16,"s":[[1678868149,10,11]]}
+]
+}

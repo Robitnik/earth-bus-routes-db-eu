@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2915,3858],
+"stops":[
+  {"id":2298641988,"lat":55.756929,"lon":12.909826,"k":"x","n":"Barsebäckshamn","ref":"A"},
+  {"id":2298642004,"lat":55.758649,"lon":12.917477,"k":"x","n":"Sjöbo skola","ref":"A"},
+  {"id":2298642005,"lat":55.758722,"lon":12.917813,"k":"x","n":"Sjöbo skola","ref":"B"},
+  {"id":2298642008,"lat":55.762037,"lon":12.9332,"k":"x","n":"Steninge"},
+  {"id":2298642010,"lat":55.762065,"lon":12.933333,"k":"x","n":"Steninge"},
+  {"id":3613747918,"lat":55.769018,"lon":12.926403,"k":"x","n":"Barsebäcksstrand","ref":"A"},
+  {"id":3613747932,"lat":55.758692,"lon":12.917841,"k":"p","n":"B","ref":"B"},
+  {"id":3613747933,"lat":55.758682,"lon":12.917445,"k":"p","n":"A","ref":"A"},
+  {"id":3613747934,"lat":55.762078,"lon":12.933175,"k":"p"},
+  {"id":3613747935,"lat":55.762028,"lon":12.933356,"k":"p"},
+  {"id":5000220775860,"lat":55.756876,"lon":12.909821,"k":"p","n":"A","ref":"A"},
+  {"id":5001408267758,"lat":55.769011,"lon":12.926522,"k":"p","n":"A","ref":"A"}
+],
+"routes":[
+  {"id":2919580,"t":{"ref":"122","name":"Buss 122: Kävlinge => Barsebäckshamn","from":"Kävlinge station","to":"Barsebäckshamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[3613747934,18],[3613747933,19],[5000220775860,20]]},
+  {"id":2919583,"t":{"ref":"122","name":"Buss 122: Barsebäckshamn => Kävlinge","from":"Barsebäckshamn","to":"Kävlinge station","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000220775860,1],[3613747932,2],[3613747935,3]]},
+  {"id":5313125,"t":{"ref":"120","name":"Buss 120: Hänkelstorp => Stävie","from":"Hänkelstorp","to":"Stävie Häradsvägen","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[5001408267758,3],[5000220775860,4],[3613747932,5],[3613747935,6]]},
+  {"id":5313126,"t":{"ref":"120","name":"Buss 120: Stävie => Hänkelstorp","from":"Stävie Häradsvägen","to":"Hänkelstorp","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":29,"s":[[3613747934,24],[3613747933,25],[5000220775860,26]]},
+  {"id":16184234,"t":{"ref":"124","name":"Buss 124: Löddeköpinge => Barsebäckshamn","from":"Löddeköpinge Center Syd","to":"Barsebäckshamn","network":"Skånetrafiken","operator":"Nobina Lund","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001408267758,4],[3613747933,5],[5000220775860,6]]},
+  {"id":16184235,"t":{"ref":"124","name":"Buss 124: Löddeköpinge => Barsebäckshamn","from":"Löddeköpinge Nyvångsskolan","to":"Barsebäckshamn","network":"Skånetrafiken","operator":"Nobina Lund","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001408267758,7],[3613747933,8],[5000220775860,9]]},
+  {"id":16184236,"t":{"ref":"124","name":"Buss 124: Barsebäckshamn => Löddeköpinge","from":"Barsebäckshamn","to":"Löddeköpinge Center Syd","network":"Skånetrafiken","operator":"Nobina Lund","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000220775860,1],[3613747932,2]]},
+  {"id":16184237,"t":{"ref":"124","name":"Buss 124: Barsebäckshamn => Löddeköpinge","from":"Barsebäckshamn","to":"Löddeköpinge Nyvångsskolan","network":"Skånetrafiken","operator":"Nobina Lund","colour":"#fec900","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000220775860,1],[3613747932,2]]}
+]
+}

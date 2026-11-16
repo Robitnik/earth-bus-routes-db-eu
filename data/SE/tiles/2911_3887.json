@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"SE",
+"tile":[2911,3887],
+"stops":[
+  {"id":731836924,"lat":55.554092,"lon":14.352393,"k":"x","n":"Simrishamn station"},
+  {"id":3325552010,"lat":55.554182,"lon":14.352748,"k":"x","n":"Simrishamn station"},
+  {"id":3325552011,"lat":55.554307,"lon":14.353206,"k":"x","n":"Simrishamn station"},
+  {"id":3679534533,"lat":55.554363,"lon":14.353394,"k":"x","n":"Simrishamn station"},
+  {"id":3679534534,"lat":55.55439,"lon":14.35349,"k":"x","n":"Simrishamn station"},
+  {"id":4233693563,"lat":55.555027,"lon":14.353896,"k":"x","n":"Simrishamn Lackgatan","ref":"A"},
+  {"id":4233693566,"lat":55.55903,"lon":14.352398,"k":"x","n":"Simrishamn Småbåtshamnen"},
+  {"id":4233693575,"lat":55.555062,"lon":14.353861,"k":"p","ref":"A"},
+  {"id":4233693577,"lat":55.558995,"lon":14.352349,"k":"p","ref":"A"},
+  {"id":5181649288,"lat":55.555729,"lon":14.350588,"k":"p","n":"A","ref":"A"},
+  {"id":5181649707,"lat":55.555695,"lon":14.350626,"k":"x","n":"Simrishamn Allgatan","ref":"A"},
+  {"id":9016930917,"lat":55.557289,"lon":14.353128,"k":"s","n":"Simrishamn Laxgatan"},
+  {"id":5000284992225,"lat":55.554309,"lon":14.353343,"k":"p","ref":"E"},
+  {"id":5000325882849,"lat":55.554166,"lon":14.352494,"k":"p","ref":"A"},
+  {"id":5000325932007,"lat":55.554234,"lon":14.352751,"k":"p","ref":"B"},
+  {"id":5000325932008,"lat":55.554455,"lon":14.353564,"k":"p","ref":"D"},
+  {"id":5000363823452,"lat":55.554385,"lon":14.353259,"k":"p","ref":"C"}
+],
+"routes":[
+  {"id":3160953,"t":{"ref":"570","name":"Buss 570: Simrishamn => Ystad","from":"Simrishamn","to":"Ystad","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":48,"s":[[5000325882849,1]]},
+  {"id":3160954,"t":{"ref":"570","name":"Buss 570: Ystad => Simrishamn","from":"Ystad","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":48,"s":[[5000284992225,48]]},
+  {"id":3317413,"t":{"ref":"SkåneExpressen 3","name":"Buss SkåneExpressen 3: Kristianstad => Simrishamn","from":"Kristianstad","to":"Simrishamn","network":"Skånetrafiken","operator":"Transdev Sverige AB Simrishamn","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000325882849,39]]},
+  {"id":3317414,"t":{"ref":"SkåneExpressen 3","name":"Buss SkåneExpressen 3: Simrishamn => Kristianstad","from":"Simrishamn","to":"Kristianstad","network":"Skånetrafiken","operator":"Transdev Sverige AB Simrishamn","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000325882849,1]]},
+  {"id":3789322,"t":{"ref":"SkåneExpressen 5","name":"Buss SkåneExpressen 5: Lund C => Tomelilla => Simrishamn","from":"Lund C","to":"Simrishamn","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000363823452,18]]},
+  {"id":3789323,"t":{"ref":"SkåneExpressen 5","name":"Buss SkåneExpressen 5: Simrishamn => Tomelilla => Lund C","from":"Simrishamn","to":"Lund C","network":"Skånetrafiken","colour":"#FBBF15","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000363823452,1]]},
+  {"id":5413443,"t":{"ref":"573","name":"Buss 573: Kivik => Simrishamn","from":"Kivik","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000284992225,15]]},
+  {"id":5413444,"t":{"ref":"573","name":"Buss 573: Simrishamn => Kivik","from":"Simrishamn","to":"Kivik","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000325932007,1]]},
+  {"id":5427685,"t":{"ref":"574","name":"Buss 574: Simrishamn => Brösarp","from":"Simrishamn","to":"Brösarp","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000325932008,1]]},
+  {"id":5427686,"t":{"ref":"574","name":"Buss 574: Brösarp => Simrishamn","from":"Brösarp","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000284992225,39]]},
+  {"id":6426857,"t":{"ref":"577","name":"Buss 577: Borrby => Brantevik => Simrishamn","from":"Borrby","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000363823452,22]]},
+  {"id":6426858,"t":{"ref":"577","name":"Buss 577: Simrishamn => Brantevik => Borrby","from":"Simrishamn","to":"Borrby","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000363823452,1]]},
+  {"id":7373711,"t":{"ref":"578","name":"Buss 578: Borrby => Simrishamn","from":"Borrby","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000284992225,15]]},
+  {"id":7373712,"t":{"ref":"578","name":"Buss 578: Simrishamn => Borrby","from":"Simrishamn","to":"Borrby","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000363823452,1]]},
+  {"id":7373713,"t":{"ref":"576","name":"Buss 576: Hannas => Simrishamn","from":"Hannas","to":"Simrishamn","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000284992225,16]]},
+  {"id":7373714,"t":{"ref":"576","name":"Buss 576: Simrishamn => Hannas","from":"Simrishamn","to":"Hannas","network":"Skånetrafiken","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000325932008,1]]},
+  {"id":7670865,"t":{"name":"Snurringen","from":"Simrishamns station","to":"Simrishamns station","operator":"Sydbuss AB","colour":"#0073C0","route":"bus","public_transport:version":"2"},"n":53,"s":[[4233693577,31],[4233693575,32]]}
+]
+}

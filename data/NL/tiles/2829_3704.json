@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"NL",
+"tile":[2829,3704],
+"stops":[
+  {"id":617858551,"lat":51.472756,"lon":5.210995,"k":"p","n":"Toekomstweg"},
+  {"id":1732728652,"lat":51.472217,"lon":5.244815,"k":"p","n":"Hoogdijk"},
+  {"id":1732728667,"lat":51.472315,"lon":5.24489,"k":"p","n":"Hoogdijk"},
+  {"id":3770402088,"lat":51.472928,"lon":5.210835,"k":"p","n":"Toekomstweg"},
+  {"id":6855340230,"lat":51.47223,"lon":5.244884,"k":"x","n":"Middelbeers, Hoogdijk"},
+  {"id":6855340231,"lat":51.472307,"lon":5.244829,"k":"x","n":"Middelbeers, Hoogdijk"},
+  {"id":9957771706,"lat":51.472824,"lon":5.211023,"k":"x","n":"Diessen, Toekomstweg"},
+  {"id":9957771710,"lat":51.472861,"lon":5.210797,"k":"x","n":"Diessen, Toekomstweg"},
+  {"id":13058164650,"lat":51.470532,"lon":5.246517,"k":"x","n":"Middelbeers, Vestdijk"},
+  {"id":13058164651,"lat":51.468985,"lon":5.245622,"k":"x","n":"Ganzeakkers"},
+  {"id":13058164652,"lat":51.468988,"lon":5.24566,"k":"p","n":"Ganzeakkers"},
+  {"id":13076497383,"lat":51.470557,"lon":5.24649,"k":"p","n":"Vestdijk"},
+  {"id":13818129567,"lat":51.496689,"lon":5.206664,"k":"p","n":"St. Josephstraat"},
+  {"id":13818129577,"lat":51.466013,"lon":5.231592,"k":"p","n":"Huijgevoort"}
+],
+"routes":[
+  {"id":391297,"t":{"ref":"142","name":"Bus 142: Tilburg Centraal Station => Best Station","from":"Tilburg, Centraal Station","to":"Best, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":35,"s":[[617858551,21],[1732728652,22]]},
+  {"id":391298,"t":{"ref":"142","name":"Bus 142: Best Station => Tilburg Centraal Station","from":"Best, Station","to":"Tilburg, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":37,"s":[[1732728667,14],[3770402088,15]]},
+  {"id":10119652,"t":{"ref":"242","name":"Bus 242: Hilvarenbeek Vrijthof => Middelbeers Ganzeakkers","from":"Hilvarenbeek, Vrijthof","to":"Middelbeers, Ganzeakkers","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[13076497383,12],[13058164652,13]]},
+  {"id":10119653,"t":{"ref":"242","name":"Bus 242: Middelbeers Ganzeakkers => Hilvarenbeek Vrijthof","from":"Middelbeers, Ganzeakkers","to":"Hilvarenbeek, Vrijthof","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[13058164652,1]]},
+  {"id":20672568,"t":{"ref":"flex","name":"Bravoflex hub St. Jorisstraat, Oirschot","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":111,"s":[[13058164652,52],[1732728667,54],[1732728652,55],[13076497383,56],[13818129577,61]]},
+  {"id":20672578,"t":{"ref":"flex","name":"Bravoflex hub Doelenstraat, Hilvarenbeek","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":41,"s":[[13818129577,5],[13058164652,8],[1732728667,10],[1732728652,11],[13076497383,12]]},
+  {"id":20678537,"t":{"ref":"flex","name":"Bravoflex hub St. Jorisstraat, Oirschot","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":5,"s":[[13818129567,3]]},
+  {"id":20678556,"t":{"ref":"flex","name":"Bravoflex hub Doelenstraat, Hilvarenbeek","network":"Oost-Brabant","operator":"Connexxion Taxi Services","route":"bus","public_transport:version":"2"},"n":90,"s":[[3770402088,34],[617858551,35],[13818129567,36]]},
+  {"id":21087935,"t":{"ref":"142","name":"Bus 142: Tilburg Centraal Station => Best Station","from":"Tilburg, Centraal Station","to":"Best, Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[617858551,22],[1732728652,23]]},
+  {"id":21087936,"t":{"ref":"142","name":"Bus 142: Best Station => Tilburg Centraal Station","from":"Best, Station","to":"Tilburg, Centraal Station","network":"Oost-Brabant","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[1732728667,14],[3770402088,15]]}
+]
+}
