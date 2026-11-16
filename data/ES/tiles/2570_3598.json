@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2570,3598],
+"stops":[
+  {"id":3417671118,"lat":38.542346,"lon":-0.094677,"k":"p","n":"Aqualandia / Mundomar","ref":"292"},
+  {"id":3417783960,"lat":38.546067,"lon":-0.099961,"k":"p","n":"Av. Severo Ochoa, 15","ref":"228"},
+  {"id":3417783961,"lat":38.546685,"lon":-0.099354,"k":"p","n":"Av. Severo Ochoa, 34 (Hotel Deloix)","ref":"213"},
+  {"id":3417783962,"lat":38.549616,"lon":-0.097851,"k":"p","n":"Av. Severo Ochoa, 19 (Càmping el Racó)","ref":"227"},
+  {"id":3420324202,"lat":38.547011,"lon":-0.098443,"k":"p","n":"C/ Romania, 3AC","ref":"275"},
+  {"id":3420324203,"lat":38.547031,"lon":-0.098252,"k":"p","n":"C/ Romania, 2","ref":"301"},
+  {"id":3420324204,"lat":38.546157,"lon":-0.096385,"k":"p","n":"C/ Romania, 9AC","ref":"274"},
+  {"id":3420324205,"lat":38.546225,"lon":-0.09632,"k":"p","n":"C/ Romania, 6","ref":"300"},
+  {"id":3420324206,"lat":38.543953,"lon":-0.096034,"k":"p","n":"C/ Malta, 8","ref":"270"},
+  {"id":3420324207,"lat":38.545394,"lon":-0.095058,"k":"p","n":"C/ Malta, 12","ref":"271"},
+  {"id":3420324208,"lat":38.542871,"lon":-0.095631,"k":"p","n":"C/ Marsella, 7","ref":"339"},
+  {"id":10707989434,"lat":38.544453,"lon":-0.091546,"k":"p","n":"C/ Romania, 26 (Ciudad Patricia)","ref":"272"}
+],
+"routes":[
+  {"id":12128473,"t":{"ref":"001","name":"Aqualandia/Mundomar → Benidorm Centre → Estació de Tren","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":24,"s":[[3417671118,1]]},
+  {"id":12271048,"t":{"ref":"004","name":"Benidorm Centre → Racó de l'Oix → Severo Ochoa → Estació d'autobusos → Palau d'Esports","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":26,"s":[[3417783961,14]]},
+  {"id":13411401,"t":{"ref":"001","name":"Estació de Tren → Benidorm Centre → Racó de l'Oix → Aqualandia/Mundomar","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[3417671118,25]]},
+  {"id":16205608,"t":{"ref":"011","name":"Aqualandia/Mundomar → Benidorm Centre → Estació d'autobusos","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":29,"s":[[3417671118,1],[3420324206,2],[3420324207,3],[3420324204,4],[3420324202,5],[3417783960,6]]},
+  {"id":19641155,"t":{"ref":"004","name":"Palau d'Esports → Hotel Levante → Av. Mediterrani → Benidorm Centre","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":20,"s":[[3417783962,9],[3417783960,10]]},
+  {"id":19642403,"t":{"ref":"011","name":"Aqualandia/Mundomar → Benidorm Centre","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":19,"s":[[3417671118,1],[3420324206,2],[3420324207,3],[3420324204,4],[3420324202,5],[3417783960,6]]},
+  {"id":19642404,"t":{"ref":"011","name":"Benidorm Centre → Londres → Ciudad Patricia → Aqualandia/Mundomar","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":24,"s":[[3417783961,19],[3420324203,20],[3420324205,21],[10707989434,22],[3420324208,23],[3417671118,24]]},
+  {"id":19642405,"t":{"ref":"011","name":"Estació d'autobusos → Benidorm Centre → Aqualandia/Mundomar","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[3417783960,20],[3420324203,21],[3420324205,22],[10707989434,23],[3420324208,24],[3417671118,25]]},
+  {"id":19643996,"t":{"ref":"005","name":"Benidorm Centre → Racó de l'Oix → Severo Ochoa → Cementeri","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[3417783961,26]]},
+  {"id":19643997,"t":{"ref":"005","name":"Cementeri → Hospital Levante → Av. Mediterrani → Benidorm Centre","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":27,"s":[[3417783962,5],[3417783960,6]]},
+  {"id":19647934,"t":{"ref":"010","name":"Benidorm Centre → Racó de l'Oix → l'Alfàs del Pi → l'Albir → Altea","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":39,"s":[[3417783961,15]]},
+  {"id":19647935,"t":{"ref":"010","name":"Altea → l'Albir → l'Alfàs del Pi → Racó de l'Oix → Benidorm Centre","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":37,"s":[[3417783962,24],[3417783960,25]]},
+  {"id":19660613,"t":{"ref":"016","name":"Cala de Finestrat → Benidorm → Estació de Tren → Guadalest","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":55,"s":[[3417783961,38]]},
+  {"id":19660614,"t":{"ref":"016","name":"Guadalest → Estació de Tren → Benidorm → Cala de Finestrat","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":53,"s":[[3417783962,16],[3417783960,17]]},
+  {"id":19660616,"t":{"ref":"018","name":"Cala de Finestrat → Benidorm → Estació de Tren → les Fonts d'Algar","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":56,"s":[[3417783961,38]]},
+  {"id":19660617,"t":{"ref":"018","name":"les Fonts d'Algar → Estació de Tren → Benidorm → Cala de Finestrat","network":"Transport Públic Marina Baixa","operator":"Llorente Bus","route":"bus","public_transport:version":"2"},"n":54,"s":[[3417783961,28]]}
+]
+}

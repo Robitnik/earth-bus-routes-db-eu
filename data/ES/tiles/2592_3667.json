@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2592,3667],
+"stops":[
+  {"id":1623457075,"lat":39.622196,"lon":3.391488,"k":"p","n":"Cala Bona nord","ref":"62028"},
+  {"id":1647005740,"lat":39.606289,"lon":3.387298,"k":"p","n":"Na Llambies","ref":"62005"},
+  {"id":3709039355,"lat":39.629844,"lon":3.396929,"k":"p","n":"Port Nou","ref":"62026"},
+  {"id":3709039359,"lat":39.619895,"lon":3.390569,"k":"p","n":"Apmt. Sunwing (Cala Bona)","ref":"62015"},
+  {"id":3709039360,"lat":39.614287,"lon":3.390001,"k":"p","n":"Port esportiu","ref":"62010"},
+  {"id":3709039362,"lat":39.610808,"lon":3.388255,"k":"p","n":"Platja de Cala Bona","ref":"62024"},
+  {"id":3709039363,"lat":39.607111,"lon":3.384779,"k":"p","n":"Devant s'Hort","ref":"62025"},
+  {"id":3709039364,"lat":39.609096,"lon":3.389418,"k":"p","n":"Platja de Cala Bona","ref":"62006"},
+  {"id":3709039365,"lat":39.601758,"lon":3.381597,"k":"p","n":"Plaça Mallorca","ref":"62004"},
+  {"id":3709039366,"lat":39.6021,"lon":3.382264,"k":"p","n":"Plaça Mallorca","ref":"62041"},
+  {"id":3709133558,"lat":39.623376,"lon":3.359198,"k":"p","n":"Son Servera nord","ref":"62034"},
+  {"id":3709133559,"lat":39.619824,"lon":3.362328,"k":"p","n":"Son Servera sud","ref":"62021"},
+  {"id":3709133560,"lat":39.619179,"lon":3.363731,"k":"p","n":"Son Servera sud","ref":"62020"},
+  {"id":3709133561,"lat":39.623388,"lon":3.360109,"k":"p","n":"Son Servera nord","ref":"62031"},
+  {"id":5061962394,"lat":39.612239,"lon":3.389664,"k":"p","n":"Sureda","ref":"7"},
+  {"id":5062216931,"lat":39.610784,"lon":3.388237,"k":"p","n":"Cala Millor Garden","ref":"21"},
+  {"id":5062216932,"lat":39.61223,"lon":3.389602,"k":"p","n":"Sureda","ref":"20"},
+  {"id":5062239645,"lat":39.60715,"lon":3.384832,"k":"p","n":"Hotel Ciudad Laurel","ref":"22"},
+  {"id":5077397259,"lat":39.614435,"lon":3.390145,"k":"p","n":"Port esportiu","ref":"62009"},
+  {"id":5077415740,"lat":39.630383,"lon":3.397301,"k":"p","n":"Port Nou","ref":"62027"},
+  {"id":5077415741,"lat":39.61997,"lon":3.39074,"k":"p","n":"Apmt. Sunwing (Cala Bona)","ref":"62016"},
+  {"id":5077415742,"lat":39.621823,"lon":3.391404,"k":"p","n":"Cala Bona nord","ref":"62029"},
+  {"id":12064628595,"lat":39.601163,"lon":3.381575,"k":"p","n":"Cala Millor centre"}
+],
+"routes":[
+  {"id":5473784,"t":{"ref":"401","name":"Bus 401: Cala Millor => Palma","from":"Cala Millor","to":"Palma","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#a5cfba","route":"bus","public_transport:version":"2"},"n":19,"s":[[12064628595,1]]},
+  {"id":5485621,"t":{"ref":"425","name":"Bus 425: Cala Bona => Portocristo","from":"Cala Bona","to":"Portocristo","network":"Transports públics de Mallorca","operator":"Sagalés Caldentey","colour":"#f6e100","route":"bus","public_transport:version":"2"},"n":14,"s":[[1623457075,1],[3709039360,2],[3709039362,3],[3709039363,4],[3709039365,5]]},
+  {"id":7538386,"t":{"ref":"412","name":"Bus 412: Manacor => Costa dels Pins","from":"Manacor","to":"Costa dels Pins","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#f5b7a8","route":"bus","public_transport:version":"2"},"n":16,"s":[[3709133558,6],[3709133559,7],[3709039366,9],[1647005740,10],[3709039364,11],[5077397259,12],[1623457075,13],[5077415740,14]]},
+  {"id":7539339,"t":{"ref":"412","name":"Bus 412: Costa dels Pins => Manacor","from":"Costa dels Pins","to":"Manacor","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#f5b7a8","route":"bus","public_transport:version":"2"},"n":16,"s":[[3709039355,3],[1623457075,4],[3709039360,5],[3709039362,6],[3709039363,7],[3709039365,8],[3709133560,10],[3709133561,11]]},
+  {"id":7565947,"t":{"ref":"401","name":"Bus 401: Palma => Cala Millor","from":"Palma","to":"Cala Millor","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#a5cfba","route":"bus","public_transport:version":"2"},"n":19,"s":[[12064628595,19]]},
+  {"id":7605626,"t":{"ref":"425","name":"Bus 425: Portocristo => Cala Bona","from":"Portocristo","to":"Cala Bona","network":"Transports públics de Mallorca","operator":"Sagalés Caldentey","colour":"#f6e100","route":"bus","public_transport:version":"2"},"n":14,"s":[[3709039366,10],[1647005740,11],[3709039364,12],[5077397259,13],[1623457075,14]]},
+  {"id":7969116,"t":{"ref":"Safari Zoo","name":"Bus Safari Zoo: Hotel Safari Park → Safari Zoo","from":"Hotel Safari Park","to":"Safari Zoo","network":"Safari Zoo","operator":"Safari Zoo","route":"bus","public_transport:version":"2"},"n":2,"s":[[12064628595,1]]},
+  {"id":17856276,"t":{"ref":"424","name":"Bus 424: Portocristo => Cala Rajada","from":"Portocristo","to":"Cala Rajada","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#522e55","route":"bus","public_transport:version":"2"},"n":19,"s":[[3709039366,10],[1647005740,11],[3709039364,12],[3709133560,13],[3709133561,14]]},
+  {"id":17856277,"t":{"ref":"424","name":"Bus 424: Cala Rajada => Portocristo","from":"Cala Rajada","to":"Portocristo","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#522e55","route":"bus","public_transport:version":"2"},"n":21,"s":[[3709133558,7],[3709133559,8],[3709039362,9],[3709039363,10],[3709039365,11]]},
+  {"id":17858406,"t":{"ref":"A42","name":"Bus A42: Aeroport => Cala Bona","from":"Aeroport","to":"Cala Bona","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#03a100","route":"bus","public_transport:version":"2"},"n":21,"s":[[3709039366,17],[1647005740,18],[3709039364,19],[5077397259,20],[1623457075,21]]},
+  {"id":17858407,"t":{"ref":"A42","name":"Bus A42: Cala Bona => Aeroport","from":"Cala Bona","to":"Aeroport","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#03a100","route":"bus","public_transport:version":"2"},"n":23,"s":[[1623457075,1],[3709039360,2],[3709039362,3],[3709039363,4],[3709039365,5]]}
+]
+}

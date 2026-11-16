@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2764,4004],
+"stops":[
+  {"id":3439641982,"lat":48.234119,"lon":20.237316,"k":"p","n":"Szentsimon, Szurdoktető"},
+  {"id":3439641983,"lat":48.228605,"lon":20.217378,"k":"p","n":"Szentsimon, autóbusz-váróterem"},
+  {"id":3484798441,"lat":48.226445,"lon":20.201794,"k":"p","n":"Hangony, italbolt"},
+  {"id":3868720319,"lat":48.233892,"lon":20.238584,"k":"p","n":"Szentsimon, Szurdoktető"},
+  {"id":3868720460,"lat":48.231676,"lon":20.222743,"k":"p","n":"Szentsimon, tűzoltószertár"},
+  {"id":5166379825,"lat":48.231868,"lon":20.244564,"k":"p","n":"Bolyki főút 94."},
+  {"id":5166379826,"lat":48.232888,"lon":20.230975,"k":"p","n":"Szentsimon, Nagykert"},
+  {"id":5270801807,"lat":48.231899,"lon":20.244816,"k":"p","n":"Bolyki főút 94."},
+  {"id":5270801809,"lat":48.231776,"lon":20.223242,"k":"p","n":"Szentsimon, tűzoltószertár"},
+  {"id":5270801810,"lat":48.232802,"lon":20.23119,"k":"p","n":"Szentsimon, Nagykert"},
+  {"id":9664621022,"lat":48.22666,"lon":20.20139,"k":"p","n":"Hangony, italbolt"},
+  {"id":9664621023,"lat":48.226252,"lon":20.201154,"k":"p","n":"Hangony, italbolt"}
+],
+"routes":[
+  {"id":7791487,"t":{"ref":"20","name":"20: Kórház => Szentsimon, autóbusz-váróterem","from":"Kórház","to":"Szentsimon, autóbusz-váróterem","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":19,"s":[[5270801807,15],[3439641982,16],[5166379826,17],[3868720460,18],[3439641983,19]]},
+  {"id":7791505,"t":{"ref":"20","name":"20: Szentsimon, autóbusz-váróterem => Kórház","from":"Szentsimon, autóbusz-váróterem","to":"Kórház","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":19,"s":[[3439641983,1],[5270801809,2],[5270801810,3],[3868720319,4],[5166379825,5]]},
+  {"id":13695293,"t":{"ref":"20A","name":"20A: Szentsimon, autóbusz-váróterem => Autóbusz-állomás","from":"Szentsimon, autóbusz-váróterem","to":"Autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[3439641983,1],[5270801809,2],[5270801810,3],[3868720319,4],[5166379825,5]]},
+  {"id":13695294,"t":{"ref":"20A","name":"20A: Autóbusz-állomás => Szentsimon, autóbusz-váróterem","from":"Autóbusz-állomás","to":"Szentsimon, autóbusz-váróterem","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[5270801807,12],[3439641982,13],[5166379826,14],[3868720460,15],[3439641983,16]]},
+  {"id":14037206,"t":{"ref":"4102","name":"4102: Domaháza, posta => Hangony, felső => Szentsimon, autóbusz-váróterem => Ózd, ruhagyár => Ózd, autóbusz-állomás => Ózd, kórház => Ózd, autóbusz-állomás","from":"Domaháza, posta","to":"Domaháza, posta","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":35,"s":[[9664621022,8],[3484798441,12],[3439641983,13],[5270801809,14],[5270801810,15],[3868720319,16],[5166379825,17]]},
+  {"id":14037207,"t":{"ref":"4102","name":"4102: Hangony, felső => Szentsimon, autóbusz-váróterem => Ózd, ruhagyár => Ózd, autóbusz-állomás","from":"Hangony, felső","to":"Ózd, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":18,"s":[[3484798441,3],[3439641983,4],[5270801809,5],[5270801810,6],[3868720319,7],[5166379825,8]]},
+  {"id":14037208,"t":{"ref":"4102","name":"4102: Domaháza, posta => Kissikátor, kultúrház => Hangony, felső => Szentsimon, autóbusz-váróterem => Ózd, ruhagyár => Ózd, autóbusz-állomás => Ózd, kórház","from":"Domaháza, posta","to":"Ózd, kórház","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":32,"s":[[9664621022,9],[3484798441,13],[3439641983,14],[5270801809,15],[5270801810,16],[3868720319,17],[5166379825,18]]},
+  {"id":14037209,"t":{"ref":"4102","name":"4102: Domaháza, posta => Kissikátor, kultúrház => Hangony, felső => Szentsimon, autóbusz-váróterem => Ózd, ruhagyár => Ózd, autóbusz-állomás","from":"Domaháza, posta","to":"Ózd, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":28,"s":[[9664621022,9],[3484798441,13],[3439641983,14],[5270801809,15],[5270801810,16],[3868720319,17],[5166379825,18]]},
+  {"id":14037210,"t":{"ref":"4102","name":"4102: Domaháza, posta => Kissikátor, kultúrház => Hangony, felső => Szentsimon, autóbusz-váróterem => Ózd, ruhagyár => Ózd, autóbusz-állomás => Ózd, kórház => Ózd, autóbusz-állomás","from":"Domaháza, posta","to":"Domaháza, posta","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[9664621022,9],[3484798441,13],[3439641983,14],[5270801809,15],[5270801810,16],[3868720319,17],[5166379825,18]]},
+  {"id":14037211,"t":{"ref":"4102","name":"4102: Ózd, autóbusz-állomás => Ózd, ruhagyár => Szentsimon, autóbusz-váróterem => Hangony, felső","from":"Ózd, autóbusz-állomás","to":"Hangony, felső","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":18,"s":[[5270801807,11],[3439641982,12],[5166379826,13],[3868720460,14],[3439641983,15],[9664621022,16]]},
+  {"id":14037212,"t":{"ref":"4102","name":"4102: Ózd, autóbusz-állomás => Ózd, kórház => Ózd, autóbusz-állomás => Ózd, ruhagyár => Szentsimon, autóbusz-váróterem => Hangony, felső","from":"Ózd, autóbusz-állomás","to":"Hangony, felső","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":26,"s":[[5270801807,19],[3439641982,20],[5166379826,21],[3868720460,22],[3439641983,23],[9664621022,24]]},
+  {"id":14037213,"t":{"ref":"4102","name":"4102 Ózd, kórház => Ózd, autóbusz-állomás => Ózd, ruhagyár => Szentsimon, autóbusz-váróterem => Hangony, felső => Kissikátor, kultúrház => Domaháza, posta","from":"Ózd, kórház","to":"Domaháza, posta","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":32,"s":[[5270801807,15],[3439641982,16],[5166379826,17],[3868720460,18],[3439641983,19],[9664621022,20],[9664621023,24]]},
+  {"id":14037214,"t":{"ref":"4102","name":"4102: Ózd, autóbusz-állomás => Ózd, ruhagyár => Szentsimon, autóbusz-váróterem => Hangony, felső => Kissikátor, kultúrház => Domaháza, posta","from":"Ózd, autóbusz-állomás","to":"Domaháza, posta","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":28,"s":[[5270801807,11],[3439641982,12],[5166379826,13],[3868720460,14],[3439641983,15],[9664621022,16],[9664621023,20]]},
+  {"id":14037215,"t":{"ref":"4102","name":"4102: Ózd, autóbusz-állomás => Ózd, kórház => Ózd, autóbusz-állomás => Ózd, ruhagyár => Szentsimon, autóbusz-váróterem => Hangony, felső => Kissikátor, kultúrház => Domaháza, posta","from":"Ózd, autóbusz-állomás","to":"Domaháza, posta","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[5270801807,19],[3439641982,20],[5166379826,21],[3868720460,22],[3439641983,23],[9664621022,24],[9664621023,28]]}
+]
+}

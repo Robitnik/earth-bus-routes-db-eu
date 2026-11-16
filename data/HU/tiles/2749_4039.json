@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2749,4039],
+"stops":[
+  {"id":3468045785,"lat":47.47492,"lon":21.960763,"k":"p","n":"Bagamér, Gyula-tag"},
+  {"id":3468045786,"lat":47.455323,"lon":21.981873,"k":"p","n":"Bagamér, Rákóczi út 72."},
+  {"id":10692800510,"lat":47.455212,"lon":21.981813,"k":"p","n":"Bagamér, Rákóczi út 72."},
+  {"id":10692800511,"lat":47.474551,"lon":21.960951,"k":"p","n":"Bagamér, Gyula-tag"}
+],
+"routes":[
+  {"id":15531895,"t":{"ref":"4416","name":"Bus 4416: Debrecen => Létavértes","from":"Debrecen","to":"Létavértes","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":37,"s":[[10692800511,24],[10692800510,25]]},
+  {"id":15532011,"t":{"ref":"4416","name":"Bus 4416: Létavértes => Debrecen","from":"Létavértes","to":"Debrecen","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[3468045786,13],[3468045785,14]]},
+  {"id":15532479,"t":{"ref":"4424","name":"Bus 4424: Létavértes => Vámospércs","from":"Létavértes","to":"Debrecen","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[3468045786,13],[3468045785,14]]},
+  {"id":15532480,"t":{"ref":"4424","name":"Bus 4424: Vámospércs => Létavértes","from":"Vámospércs","to":"Létavértes","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[10692800511,7],[10692800510,8]]}
+]
+}

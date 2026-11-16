@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2744,3994],
+"stops":[
+  {"id":3454581393,"lat":47.209267,"lon":19.731767,"k":"p","n":"Cegléd, Budai úti iskola"},
+  {"id":3454581431,"lat":47.205014,"lon":19.73857,"k":"p","n":"Cegléd, Termálfürdő bejárati út"},
+  {"id":3454581432,"lat":47.202447,"lon":19.735924,"k":"p","n":"Cegléd, termálfürdő"},
+  {"id":3454581437,"lat":47.20965,"lon":19.73105,"k":"p","n":"Cegléd, Budai úti iskola"},
+  {"id":3454581438,"lat":47.216159,"lon":19.708103,"k":"p","n":"Cegléd, Ceglédberceli kiserdő"},
+  {"id":3454581440,"lat":47.212649,"lon":19.721968,"k":"p","n":"Cegléd, Gaál tanya"},
+  {"id":3454581441,"lat":47.200694,"lon":19.747725,"k":"p","n":"Cegléd, Gyarmati tanya"},
+  {"id":8250050321,"lat":47.215881,"lon":19.709129,"k":"p","n":"Cegléd, Ceglédberceli kiserdő"},
+  {"id":8250050322,"lat":47.21345,"lon":19.720287,"k":"p","n":"Cegléd, Gaál tanya"},
+  {"id":8250050323,"lat":47.205834,"lon":19.737679,"k":"p","n":"Cegléd, Termálfürdő bejárati út"},
+  {"id":8250050324,"lat":47.201038,"lon":19.747184,"k":"p","n":"Cegléd, Gyarmati tanya"}
+],
+"routes":[
+  {"id":12074002,"t":{"ref":"566","name":"566 v: Cegléd, termálfürdő => Cegléd, autóbusz-állomás","from":"Cegléd, termálfürdő","to":"Cegléd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":14,"s":[[3454581432,1],[3454581431,2],[3454581441,3]]},
+  {"id":12074003,"t":{"ref":"566","name":"566: Cegléd, autóbusz-állomás => Cegléd, termálfürdő","from":"Cegléd, autóbusz-állomás","to":"Cegléd, termálfürdő","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":12,"s":[[8250050324,11],[3454581432,12]]},
+  {"id":12074004,"t":{"ref":"565","name":"565 \"E\" v: Ceglédbercel, községháza => Cegléd, autóbusz-állomás","from":"Ceglédbercel, községháza","to":"Cegléd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":22,"s":[[8250050321,7],[3454581440,8],[3454581393,9],[3454581431,10],[3454581441,11]]},
+  {"id":12074005,"t":{"ref":"565","name":"565 \"D\" v: Ceglédbercel, községháza => Cegléd, autóbusz-állomás","from":"Ceglédbercel, községháza","to":"Cegléd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":23,"s":[[8250050321,7],[3454581440,8],[3454581393,9],[3454581432,10],[3454581431,11],[3454581441,12]]},
+  {"id":12074006,"t":{"ref":"565","name":"565 \"C\" v: Albertirsa, vasútállomás => Cegléd, autóbusz-állomás","from":"Albertirsa, vasútállomás","to":"Cegléd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":30,"s":[[8250050321,15],[3454581440,16],[3454581393,17],[3454581431,18],[3454581441,19]]},
+  {"id":12074007,"t":{"ref":"565","name":"565 \"B\" v: Albertirsa, vasútállomás => Cegléd, termálfürdő => Cegléd, autóbusz-állomás","from":"Albertirsa, vasútállomás","to":"Cegléd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":31,"s":[[8250050321,15],[3454581440,16],[3454581393,17],[3454581432,18],[3454581431,19],[3454581441,20]]},
+  {"id":12074008,"t":{"ref":"565","name":"565 \"A\" v: Albertirsa, vasútállomás => Cegléd, Ipari Park, autóbusz-forduló => Cegléd, autóbusz-állomás","from":"Albertirsa, vasútállomás","to":"Cegléd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":35,"s":[[8250050321,15],[3454581440,16],[3454581393,17],[3454581431,18],[3454581441,19]]},
+  {"id":12074009,"t":{"ref":"565","name":"565 \"D\": Cegléd, autóbusz-állomás => Cegléd, termálfürdő => Ceglédbercel, községháza","from":"Cegléd, autóbusz-állomás","to":"Ceglédbercel, községháza","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":22,"s":[[8250050324,11],[3454581432,12],[8250050323,13],[3454581437,14],[8250050322,15],[3454581438,16]]},
+  {"id":12074010,"t":{"ref":"565","name":"565 \"B\": Cegléd, autóbusz-állomás => Cegléd, termálfürdő => Albertirsa, vasútállomás","from":"Cegléd, autóbusz-állomás","to":"Albertirsa, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":30,"s":[[8250050324,11],[3454581432,12],[8250050323,13],[3454581437,14],[8250050322,15],[3454581438,16]]}
+]
+}

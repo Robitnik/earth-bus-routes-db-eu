@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2732,3948],
+"stops":[
+  {"id":3462852285,"lat":46.60333,"lon":17.403712,"k":"p","n":"Marcali, Kinizsi utca"},
+  {"id":3727774816,"lat":46.603618,"lon":17.403455,"k":"p","n":"Marcali, Kinizsi utca"},
+  {"id":12162555763,"lat":46.632023,"lon":17.417587,"k":"p","n":"Kéthely, Sáripuszta"},
+  {"id":12162555764,"lat":46.631948,"lon":17.417482,"k":"p","n":"Kéthely, Sáripuszta"}
+],
+"routes":[
+  {"id":9923984,"t":{"ref":"6042","name":"Bus 6042: Siófok => Marcali","from":"Siófok, autóbusz-állomás","to":"Marcali, autóbusz-állomás","network":"regional","operator":"MÁV Személyszállítási Zrt.","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":64,"s":[[3727774816,60]]},
+  {"id":18019483,"t":{"ref":"6161","name":"Bus 6161: Somogyszentpál, Kisperjés => Kéthely => Marcali, autóbusz-állomás","from":"Somogyszentpál, Kisperjés","to":"Marcali, autóbusz-állomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[12162555763,4],[3727774816,13]]},
+  {"id":18019484,"t":{"ref":"6161","name":"Bus 6161: Marcali, autóbusz-állomás => Kéthely => Somogyszentpál, Kisperjés","from":"Marcali, autóbusz-állomás","to":"Somogyszentpál, Kisperjés","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[3462852285,5],[12162555764,14]]}
+]
+}

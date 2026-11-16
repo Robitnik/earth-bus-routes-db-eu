@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2740,3932],
+"stops":[
+  {"id":3194457741,"lat":47.011743,"lon":16.605294,"k":"p","n":"Körmend, Hunyadi utca"},
+  {"id":3197612586,"lat":47.032276,"lon":16.64524,"k":"p"},
+  {"id":3434671709,"lat":47.039943,"lon":16.648058,"k":"p","n":"Magyarszecsőd, autóbusz-váróterem"},
+  {"id":3459862959,"lat":47.03257,"lon":16.64576,"k":"p","n":"Magyarszecsőd, autóbusz-váróterem"},
+  {"id":5921632787,"lat":47.008435,"lon":16.606369,"k":"p","n":"Szabadság tér (kastély)"},
+  {"id":5921632788,"lat":47.008874,"lon":16.605659,"k":"p","n":"Szabadság tér"},
+  {"id":5921632789,"lat":47.011629,"lon":16.605484,"k":"p","n":"Körmend, Hunyadi utca"},
+  {"id":5921632790,"lat":47.015574,"lon":16.601227,"k":"p","n":"Olcsai-Kiss Zoltán Általános Iskola"},
+  {"id":5921632801,"lat":47.019079,"lon":16.606796,"k":"x","n":"Somogyi utca 13."},
+  {"id":5921632802,"lat":47.022739,"lon":16.604988,"k":"x","n":"Somogyi utca, ABC"},
+  {"id":5921632803,"lat":47.019356,"lon":16.601361,"k":"x","n":"Hunyadi utca, ABC"},
+  {"id":5921632804,"lat":47.018021,"lon":16.61387,"k":"p","n":"TESCO hipermarket"},
+  {"id":5921632805,"lat":47.010407,"lon":16.601451,"k":"p","n":"Rákóczi utca 15."},
+  {"id":5922510894,"lat":47.014602,"lon":16.609214,"k":"x","n":"Bartók lakótelep 5."},
+  {"id":7441955362,"lat":47.017975,"lon":16.613472,"k":"p","n":"TESCO hipermarket"},
+  {"id":7441955363,"lat":47.014676,"lon":16.609261,"k":"x","n":"Bartók lakótelep 5."},
+  {"id":7441955364,"lat":47.019143,"lon":16.606876,"k":"x","n":"Somogyi utca 13."},
+  {"id":7441955365,"lat":47.019232,"lon":16.601291,"k":"x","n":"Hunyadi utca, ABC"},
+  {"id":7441955366,"lat":47.010345,"lon":16.601616,"k":"p","n":"Rákóczi utca 15."}
+],
+"routes":[
+  {"id":8725547,"t":{"ref":"1","name":"1: Autóbusz-állomás – Horvátnádalja – Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":24,"s":[[5921632790,2,23],[5921632805,3],[7441955366,19],[5921632788,20],[5921632787,21],[5921632789,22]]},
+  {"id":8725586,"t":{"ref":"1A","name":"1A: Autóbusz-állomás – Felsőberkifalu – Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":22,"s":[[5921632790,2],[5921632805,3],[7441955366,18],[5921632804,19],[7441955362,20],[5921632789,21]]},
+  {"id":8725626,"t":{"ref":"1F","name":"1F: Autóbusz-állomás – Kórház - Berki utca","network":"Körmendi helyi járat","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":5,"s":[[5921632805,2]]},
+  {"id":8726791,"t":{"ref":"1H","name":"1H --> Horvátnádalja, Németújvári utca","from":"Autóbusz-állomás","to":"Horvátnádalja, Németújvári utca","network":"Körmendi helyi járat","operator":"MÁV Csoport","route":"bus","public_transport:version":"2"},"n":6,"s":[[5921632805,2]]},
+  {"id":19515458,"t":{"name":"1H --> Autóbusz-állomás","from":"Horvátnádalja, Németújvári utca","to":"Autóbusz-állomás","network":"Körmendi helyi járat","operator":"MÁV Csoport","route":"bus","public_transport:version":"2"},"n":7,"s":[[7441955366,5],[5921632789,6]]},
+  {"id":19515459,"t":{"ref":"1F","name":"1F: Berki utca -> Kórház -> Autóbusz-állomás","from":"Berki utca","to":"Autóbusz-állomás","network":"Körmendi helyi járat","route":"bus","public_transport:version":"2"},"n":7,"s":[[7441955366,4],[5921632789,5],[5921632790,6]]}
+]
+}

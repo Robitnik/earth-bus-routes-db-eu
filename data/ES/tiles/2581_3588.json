@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2581,3588],
+"stops":[
+  {"id":3691438385,"lat":39.080392,"lon":-0.58869,"k":"p","n":"Antella"},
+  {"id":3789650106,"lat":39.088514,"lon":-0.551635,"k":"p","n":"Gavarda"},
+  {"id":10780942973,"lat":39.067246,"lon":-0.561514,"k":"p","n":"Alcàntera de Xúquer"},
+  {"id":10780942974,"lat":39.067138,"lon":-0.561309,"k":"p","n":"Alcàntera de Xúquer"},
+  {"id":13433539548,"lat":39.070886,"lon":-0.574176,"k":"p","n":"Cotes"},
+  {"id":13433539549,"lat":39.067925,"lon":-0.565379,"k":"p","n":"Càrcer"},
+  {"id":13434444503,"lat":39.091346,"lon":-0.559217,"k":"p","n":"Gavarda, Poble Antic, Ajuntament"},
+  {"id":13434444504,"lat":39.092121,"lon":-0.55942,"k":"p","n":"Gavarda, Poble Antic, Pl. Major - C/ Major"}
+],
+"routes":[
+  {"id":20052432,"t":{"ref":"455","name":"Càrcer → Hospital → Xàtiva","from":"Càrcer","to":"Xàtiva","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":13,"s":[[13433539548,2],[13433539549,3],[10780942974,5]]},
+  {"id":20052433,"t":{"ref":"455","name":"Xàtiva → Hospital → Càrcer","from":"Xàtiva","to":"Càrcer","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[10780942973,10],[13433539549,12],[13433539548,14]]},
+  {"id":20053423,"t":{"ref":"451","name":"Antella → Xàtiva","from":"Antella","to":"Xàtiva","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[3691438385,1],[13434444503,2],[3789650106,3],[13433539549,4],[10780942974,5]]},
+  {"id":20053424,"t":{"ref":"451","name":"Xàtiva → Antella","from":"Xàtiva","to":"Antella","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[10780942973,10],[13433539549,11],[3789650106,12],[13434444504,13],[3691438385,14]]}
+]
+}

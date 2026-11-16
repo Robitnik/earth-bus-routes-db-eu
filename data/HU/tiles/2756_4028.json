@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2756,4028],
+"stops":[
+  {"id":2910492740,"lat":47.84803,"lon":21.429918,"k":"p","n":"Hajdúnánás, autóbusz-váróterem"},
+  {"id":2911144375,"lat":47.844416,"lon":21.433004,"k":"p"},
+  {"id":2911144540,"lat":47.841405,"lon":21.441463,"k":"p"},
+  {"id":2911151710,"lat":47.835268,"lon":21.424757,"k":"p","n":"Jókai utca"},
+  {"id":2911151711,"lat":47.840958,"lon":21.426602,"k":"p"},
+  {"id":2911151712,"lat":47.831581,"lon":21.416324,"k":"p"},
+  {"id":9599102610,"lat":47.842292,"lon":21.416411,"k":"p"},
+  {"id":9599102611,"lat":47.842246,"lon":21.41628,"k":"p"},
+  {"id":9626498780,"lat":47.841537,"lon":21.441422,"k":"p"},
+  {"id":9661235696,"lat":47.844262,"lon":21.43317,"k":"p"},
+  {"id":9664621093,"lat":47.847992,"lon":21.430208,"k":"p","n":"Hajdúnánás, autóbusz-váróterem"},
+  {"id":9664621109,"lat":47.831579,"lon":21.414004,"k":"p","n":"Hajdúnánás, gyógyfürdő"}
+],
+"routes":[
+  {"id":14037247,"t":{"ref":"1369","name":"1369: Miskolc, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem","from":"Miskolc, autóbusz állomás","to":"Hajdúnánás, autóbusz-váróterem","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[9664621093,20]]},
+  {"id":14037248,"t":{"ref":"1369","name":"1369: Ózd, autóbusz-állomás => Miskolc, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Nyíregyháza, autóbusz-állomás","from":"Ózd, autóbusz-állomás","to":"Nyíregyháza, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":52,"s":[[9664621109,49],[9664621093,50]]},
+  {"id":14037249,"t":{"ref":"1369","name":"1369: Ózd, Ruhagyár => Ózd, autóbusz-állomás => Miskolc, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Nyíregyháza, autóbusz-állomás","from":"Ózd, Ruhagyár","to":"Nyíregyháza, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":50,"s":[[9664621109,47],[9664621093,48]]},
+  {"id":14037250,"t":{"ref":"1369","name":"1369: Hajdúnánás, autóbusz-váróterem => Miskolc, autóbusz-állomás","from":"Hajdúnánás, autóbusz-váróterem","to":"Ózd, Ruhagyár","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":24,"s":[[2910492740,1]]},
+  {"id":14037251,"t":{"ref":"1369","name":"1369: Nyíregyháza, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Miskolc, autóbusz-állomás => Ózd, autóbusz-állomás","from":"Nyíregyháza, autóbusz-állomás","to":"Ózd, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":51,"s":[[2910492740,3],[9664621109,4]]},
+  {"id":14037252,"t":{"ref":"1369","name":"1369: Nyíregyháza, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Miskolc, autóbusz-állomás => Ózd, autóbusz-állomás => Ózd, Ruhagyár","from":"Nyíregyháza, autóbusz-állomás","to":"Ózd, Ruhagyár","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":60,"s":[[2910492740,3],[9664621109,4]]}
+]
+}

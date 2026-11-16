@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2533,3491],
+"stops":[
+  {"id":593879460,"lat":36.699299,"lon":-5.422406,"k":"p","n":"Benaocaz"},
+  {"id":4084591352,"lat":36.678926,"lon":-5.447698,"k":"p","n":"Estación de Autobuses de Ubrique"},
+  {"id":13528960726,"lat":36.678908,"lon":-5.447611,"k":"x","n":"Estación de Autobuses de Urbique"},
+  {"id":13529022235,"lat":36.699321,"lon":-5.422487,"k":"x","n":"Benaocaz"},
+  {"id":13529022247,"lat":36.679152,"lon":-5.447913,"k":"x","n":"Estación de Autobuses de Ubrique"},
+  {"id":13529022248,"lat":36.679115,"lon":-5.447938,"k":"p","n":"Estación de Autobuses de Ubrique"},
+  {"id":13566752013,"lat":36.671138,"lon":-5.447059,"k":"p","n":"Pinturas Rafa - Gls"},
+  {"id":13566752014,"lat":36.670999,"lon":-5.447216,"k":"p","n":"Pinturas Rafa - Gls"},
+  {"id":13566752015,"lat":36.672569,"lon":-5.448389,"k":"p","n":"Plaza Virgen de la Estrella"},
+  {"id":13566752016,"lat":36.675249,"lon":-5.447544,"k":"p","n":"Pº del Prado"},
+  {"id":13566754255,"lat":36.680456,"lon":-5.447004,"k":"p","n":"Juan de la Rosa"},
+  {"id":13566765277,"lat":36.676685,"lon":-5.446318,"k":"p","n":"Av. España - Colegio"},
+  {"id":13566765278,"lat":36.676837,"lon":-5.444503,"k":"p","n":"Oficina de Turismo"},
+  {"id":13566765279,"lat":36.677527,"lon":-5.442844,"k":"p","n":"La Plaza"},
+  {"id":13566765282,"lat":36.679045,"lon":-5.442913,"k":"p","n":"Plaza San Juan"},
+  {"id":13566765283,"lat":36.677857,"lon":-5.447199,"k":"p","n":"Paseo Esperanza - Mercadona"},
+  {"id":13566788476,"lat":36.672685,"lon":-5.446655,"k":"p","n":"Congelados - Asociación Vecinal"},
+  {"id":13566788477,"lat":36.669398,"lon":-5.447573,"k":"p","n":"Bda. Alcalde Antonio Vega - Farmacia"},
+  {"id":13566788478,"lat":36.668199,"lon":-5.447554,"k":"p","n":"Bda. Alcalde Antonio Vega"},
+  {"id":13566788479,"lat":36.667104,"lon":-5.448104,"k":"p","n":"Ramón Crossa - Mirador"},
+  {"id":13566788480,"lat":36.666341,"lon":-5.449443,"k":"p","n":"Av. Fuente San Francisco"}
+],
+"routes":[
+  {"id":20181668,"t":{"ref":"TVZ-UBQ","name":"Tavizna > Ubrique","from":"Población Rural del Río Tavizna (Benaocaz, Cádiz)","to":"Estación de Autobuses de Urbique (Parada Exterior)","network":"Interurbanos de Damas","operator":"Damas, S. A. (VJA-089)","colour":"#069817","route":"bus"},"n":2,"s":[[4084591352,2]]},
+  {"id":20181699,"t":{"ref":"UBQ-TVZ","name":"Ubrique > Tavizna","from":"Estación de Autobuses de Ubrique (Parada Exterior)","to":"Población Rural del Río Tavizna (Benaocaz, Ubrique)","network":"Interurbanos de Damas","operator":"Damas, S. A. (VJA-089)","colour":"#069817","route":"bus"},"n":2,"s":[[4084591352,1]]},
+  {"id":20181743,"t":{"ref":"BCZ-UBQ","name":"Benaocaz > Ubrique","from":"Avenida de Cádiz, Intersección con A-2302 (Benaocaz, Cádiz)","to":"Estación de Autobuses de Ubrique (Parada Subterránea)","network":"Interurbanos de Damas","operator":"Damas, S. A. (VJA-089)","colour":"#069817","route":"bus","public_transport:version":"2"},"n":2,"s":[[593879460,1],[13529022248,2]]},
+  {"id":20181744,"t":{"ref":"UBQ-BCZ","name":"Ubrique > Benaocaz","from":"Estación de Autobuses de Ubrique (Parada Subterránea)","to":"Avenida de Cádiz, Intersección con A-2302 (Benaocaz, Cádiz)","network":"Interurbanos de Damas","operator":"Damas, S. A. (VJA-089)","colour":"#069817","route":"bus","public_transport:version":"2"},"n":2,"s":[[13529022248,1],[593879460,2]]},
+  {"id":20190525,"t":{"ref":"M-950","name":"Cádiz > Ubrique","from":"Estación de Autobuses de Cádiz","to":"Estación de Autobuses de Ubrique (parada subterránea)","network":"Consorcio Metropolitano de Transportes de la Bahía de Cádiz","operator":"UTE VJA-089 (Damas, S. A.)","colour":"#069817","route":"bus","public_transport:version":"2"},"n":13,"s":[[13529022248,13]]},
+  {"id":20191807,"t":{"ref":"M-950","name":"Ubrique > Cádiz","from":"Estación de Autobuses de Ubrique (parada exterior)","to":"Estación de Autobuses de Cádiz","network":"Consorcio Metropolitano de Transportes de la Bahía de Cádiz","operator":"UTE VJA-089 (Damas, S. A.)","colour":"#069817","route":"bus"},"n":12,"s":[[4084591352,1]]},
+  {"id":20222551,"t":{"ref":"A","name":"Circular A","from":"Avenida de España - Colegio de Educación Infantil y Primaria Víctor de la Serna (Ubrique, Cádiz)","to":"Avenida de España - Colegio de Educación Infantil y Primaria Víctor de la Serna (Ubrique, Cádiz)","network":"Transporte Urbano de Ubrique","operator":"Ayuntamiento de Ubrique","colour":"#ad064a","route":"bus"},"n":15,"s":[[13566765277,1],[13566765278,2],[13566788476,3],[13566752014,4],[13566788477,5],[13566788478,6],[13566788479,7],[13566788480,8],[13566752013,13],[13566752015,14],[13566752016,15]]},
+  {"id":20228097,"t":{"ref":"B","name":"Circular B","from":"Avenida de España - Colegio de Educación Infantil y Primaria Víctor de la Serna (Ubrique, Cádiz)","to":"Avenida de España - Colegio de Educación Infantil y Primaria Víctor de la Serna (Ubrique, Cádiz)","network":"Transporte Urbano de Ubrique","operator":"Ayuntamiento de Ubrique","colour":"#418665","route":"bus"},"n":9,"s":[[13566765277,1],[13566765278,2],[13566765279,3],[13566765282,4],[13566765283,5],[13566754255,6],[13566752015,8],[13566752016,9]]},
+  {"id":20228117,"t":{"ref":"C","name":"Circular C","from":"Avenida de España - Colegio de Educación Infantil y Primaria Victor de la Serna (Ubrique, Cádiz)","to":"Avenida de España - Colegio de Educación Infantil y Primaria Victor de la Serna (Ubrique, Cádiz)","network":"Transporte Urbano de Ubrique","operator":"Ayuntamiento de Ubrique","colour":"#00a3bb","route":"bus"},"n":15,"s":[[13566765277,1],[13566765278,2],[13566788476,3],[13566752014,4],[13566788477,5],[13566788478,6],[13566788479,7],[13566788480,8],[13566752013,13],[13566752015,14],[13566752016,15]]}
+]
+}

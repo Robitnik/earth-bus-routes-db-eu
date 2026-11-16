@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2637,3637],
+"stops":[
+  {"id":3014363992,"lat":41.861798,"lon":1.873858,"k":"p","n":"Balsareny - ctra. Moià - pl. Llobregat"},
+  {"id":3014363993,"lat":41.861871,"lon":1.873992,"k":"p","n":"Balsareny - ctra. Moià - pl. Llobregat"},
+  {"id":7123263785,"lat":41.896638,"lon":1.878937,"k":"p","n":"Balsareny - Cal Nosa"},
+  {"id":12079158307,"lat":41.861842,"lon":1.87393,"k":"x","n":"Balsareny - ctra. Moià - pl. Llobregat"},
+  {"id":13712577139,"lat":41.8966,"lon":1.878856,"k":"x","n":"Balsareny - Cal Nosa"},
+  {"id":13712577140,"lat":41.896567,"lon":1.878754,"k":"p","n":"Balsareny - Cal Nosa"},
+  {"id":13712616942,"lat":41.898513,"lon":1.898205,"k":"x","n":"Ctra. BV-4401 - El Serrat","ref":"4680"},
+  {"id":13712616943,"lat":41.898553,"lon":1.898191,"k":"p","n":"Ctra. BV-4401 - El Serrat","ref":"4680"}
+],
+"routes":[
+  {"id":17880329,"t":{"ref":"L0393","name":"L0393 La Farga de Moles - Barcelona Estació del Nord","from":"La Farga de Moles","to":"Estació del Nord","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":22,"s":[[3014363993,20]]},
+  {"id":17883951,"t":{"name":"L0393 Barcelona Estació del Nord - La Farga de Moles","from":"Barcelona Estació del Nord","to":"La Farga de Moles","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":22,"s":[[3014363992,3]]},
+  {"id":20016734,"t":{"ref":"L0225","name":"L0225 La Pobla de Lillet - Berga - Manresa","from":"La Pobla de Lillet","to":"Manresa","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":32,"s":[[13712577140,26],[3014363992,27]]},
+  {"id":20020354,"t":{"ref":"L0225","name":"L0225 Manresa - Berga - La Pobla de Lillet","from":"Manresa","to":"La Pobla de Lillet","route":"bus","public_transport:version":"2"},"n":33,"s":[[3014363993,6],[7123263785,7]]},
+  {"id":20032435,"t":{"ref":"TGN","name":"TGN: La Pobla de Lillet => Tarragona => Cambrils","from":"La Pobla de Lillet","to":"Cambrils","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":16,"s":[[3014363992,11]]},
+  {"id":20032859,"t":{"ref":"TGN","name":"TGN Cambrils => Tarragona => La Pobla de Lillet","from":"Cambrils","to":"La Pobla de Lillet","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":16,"s":[[3014363992,6]]},
+  {"id":20063743,"t":{"ref":"UABBerga","name":"L1824: Berga => UAB => Barcelona","from":"Berga","to":"Barcelona","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[3014363992,5]]},
+  {"id":20067204,"t":{"ref":"UABBerga","name":"L1824: Barcelona => UAB => Berga","from":"Barcelona","to":"Berga","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[3014363992,4]]},
+  {"id":20446913,"t":{"ref":"730","name":"730 SOD Navàs - Gaià - Prats de Lluçanès","from":"Navàs","to":"Prats de Lluçanès","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Sagalés","route":"bus","public_transport:version":"2"},"n":8,"s":[[13712616943,6]]},
+  {"id":20446914,"t":{"ref":"730","name":"730 SOD Prats de Lluçanès - Gaià - Navàs","from":"Prats de Lluçanès","to":"Navàs","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Sagalés","route":"bus","public_transport:version":"2"},"n":8,"s":[[13712616943,3]]},
+  {"id":20513576,"t":{"ref":"L0462","name":"L0462 Barcelona - Puigcerdà - Llívia","from":"Barcelona","to":"Llívia","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":17,"s":[[3014363993,5]]},
+  {"id":20513577,"t":{"ref":"L0462","name":"L0462 Llívia - Puigcerdà - Barcelona","from":"Llívia","to":"Barcelona","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":20,"s":[[3014363993,14]]}
+]
+}

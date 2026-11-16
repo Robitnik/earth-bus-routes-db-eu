@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2663,3536],
+"stops":[
+  {"id":5011621663,"lat":43.191376,"lon":-3.190068,"k":"x","n":"Institutua / Instituto"},
+  {"id":5011621664,"lat":43.191309,"lon":-3.190774,"k":"x","n":"Institutua / Instituto"},
+  {"id":5011621665,"lat":43.191373,"lon":-3.18998,"k":"p","n":"Institutua / Instituto","ref":"4293"},
+  {"id":5011621666,"lat":43.191336,"lon":-3.19081,"k":"p","n":"Institutua / Instituto","ref":"4292"},
+  {"id":5011654591,"lat":43.19287,"lon":-3.197453,"k":"p","n":"Campo de las Monjas","ref":"1263"},
+  {"id":5011654593,"lat":43.190238,"lon":-3.199996,"k":"p","n":"Avenida Encartaciones","ref":"3505"},
+  {"id":11375978732,"lat":43.192917,"lon":-3.197434,"k":"x","n":"Campo de las Monjas"}
+],
+"routes":[
+  {"id":7441708,"t":{"ref":"A0651","name":"A0651 Bilbao → Balmaseda","from":"Termibus","to":"Campo de las Monjas","network":"Bizkaibus","operator":"Grupo Acha Movilidad Enkarterri S.A.","route":"bus","public_transport:version":"2"},"n":20,"s":[[5011621666,17],[5011654593,19],[5011654591,20]]},
+  {"id":7441739,"t":{"ref":"A0651","name":"A0651 Balmaseda → Bilbao","from":"Campo de las Monjas","to":"Termibus","network":"Bizkaibus","operator":"Grupo Acha Movilidad Enkarterri S.A.","route":"bus","public_transport:version":"2"},"n":20,"s":[[5011654591,1],[5011621665,4]]},
+  {"id":8484653,"t":{"name":"Bus: Guardo → Bilbao","from":"Guardo","to":"Bilbao","network":"Alsa","operator":"ALSA","route":"bus","public_transport:version":"2"},"n":24,"s":[[5011654591,16]]},
+  {"id":11283966,"t":{"ref":"A0652","name":"A0652: Balmaseda → Zalla → Lanestosa","from":"Balmaseda","to":"Lanestosa","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5011654591,1]]},
+  {"id":11283967,"t":{"ref":"A0652","name":"A0652: Lanestosa → Zalla → Balmaseda","from":"Lanestosa","to":"Balmaseda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5011621666,38],[5011654593,40],[5011654591,41]]},
+  {"id":11642259,"t":{"ref":"A3334","name":"A3334: Santurtzi → Muskiz → Balmaseda","from":"Santurtzi","to":"Balmaseda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5011621666,38],[5011654593,40],[5011654591,41]]},
+  {"id":11642260,"t":{"ref":"A3334","name":"A3334: Balmaseda → Muskiz → Santurtzi","from":"Balmaseda","to":"Santurtzi","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":40,"s":[[5011654591,1]]},
+  {"id":11670636,"t":{"ref":"A0654","name":"A0654: Balmaseda → Gurutzeta / Cruces → UPV / EHU","from":"Balmaseda","to":"UPV/EHU","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":29,"s":[[5011654591,1]]},
+  {"id":11670637,"t":{"ref":"A0654","name":"A0654: UPV / EHU → Gurutzeta / Cruces → Balmaseda","from":"UPV/EHU","to":"Balmaseda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":29,"s":[[5011654593,28],[5011654591,29]]},
+  {"id":13635856,"t":{"ref":"VAC-157","name":"Bus: Burgos → Medina de Pomar → Bilbao","from":"Burgos","to":"Bilbao","network":"Autobuses de España","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":24,"s":[[5011654591,16]]}
+]
+}

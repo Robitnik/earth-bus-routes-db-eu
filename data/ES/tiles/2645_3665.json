@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2645,3665],
+"stops":[
+  {"id":11957915548,"lat":42.298555,"lon":3.285395,"k":"p"},
+  {"id":12143016158,"lat":42.289785,"lon":3.272829,"k":"x","n":"Cadaqués estació d'autobusos","ref":"16503"},
+  {"id":12143016159,"lat":42.289744,"lon":3.272713,"k":"p","n":"Cadaqués estació d'autobusos","ref":"16503"},
+  {"id":12985761325,"lat":42.298889,"lon":3.28477,"k":"x","n":"Corral d'en Morell","ref":"16840"},
+  {"id":12985761326,"lat":42.298843,"lon":3.284785,"k":"p","n":"Corral d'en Morell","ref":"16840"},
+  {"id":12985780479,"lat":42.298904,"lon":3.284851,"k":"x","n":"Corral d'en Morell","ref":"16840"},
+  {"id":12985780480,"lat":42.29895,"lon":3.284828,"k":"p","n":"Corral d'en Morell","ref":"16840"}
+],
+"routes":[
+  {"id":17984681,"t":{"ref":"e6","name":"e6: Cadaqués => Roses => Figueres","from":"Cadaqués","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":2,"s":[[12143016159,1]]},
+  {"id":17984682,"t":{"ref":"e6","name":"e6: Figueres => Roses => Cadaqués","from":"Figueres","to":"Cadaques","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":10,"s":[[12143016159,10]]},
+  {"id":19331755,"t":{"ref":"L33","name":"L33 Cadaqués => Cap de Creus","from":"Cadaqués","to":"Cap de Creus","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":5,"s":[[12143016159,1],[12985761326,2]]},
+  {"id":19331791,"t":{"ref":"L33","name":"L33 Cap de Creus => Cadaqués","from":"Cap de Creus","to":"Cadaques","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":5,"s":[[12985780480,4],[12143016159,5]]},
+  {"id":20193790,"t":{"ref":"4","name":"Línia 4 Girona => Roses => Cadaqués","from":"Girona","to":"Cadaqués","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":16,"s":[[12143016159,16]]},
+  {"id":20200698,"t":{"ref":"4","name":"Línia 4 Cadaqués => Roses => Girona","from":"Cadaqués","to":"Girona","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":17,"s":[[12143016159,1]]},
+  {"id":20659615,"t":{"ref":"L1690","name":"L1690 Circumval·lació Cap de Creus","from":"Roses","to":"Cadaqués","route":"bus","public_transport:version":"2"},"n":9,"s":[[12143016159,9]]},
+  {"id":20659616,"t":{"ref":"L1690","name":"L1690 Circumval·lació Cap de Creus","from":"Cadaqués","to":"Roses","route":"bus","public_transport:version":"2"},"n":9,"s":[[12143016159,1]]}
+]
+}

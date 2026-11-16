@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2632,3611],
+"stops":[
+  {"id":4239014516,"lat":41.633529,"lon":0.589666,"k":"p","n":"Lleida - Camí de l'Albi"},
+  {"id":6150185314,"lat":41.629472,"lon":0.599801,"k":"p","n":"Agrònoms / Camí Boixadors","ref":"20378"},
+  {"id":10023930875,"lat":41.649408,"lon":0.561224,"k":"p","n":"Alpicat - Hostal del Lluc - urbanització A"},
+  {"id":10023930876,"lat":41.649669,"lon":0.560933,"k":"p","n":"Alpicat - Hostal del Lluc - urbanització A"},
+  {"id":10023931034,"lat":41.629496,"lon":0.598028,"k":"p","n":"Rovira Roure/Agrònoms","ref":"20214"},
+  {"id":10023931035,"lat":41.63053,"lon":0.595381,"k":"p","n":"Baladre","ref":"20291"},
+  {"id":10023931036,"lat":41.645171,"lon":0.568516,"k":"p","n":"Lleida - Hostal del Lluc - Camí Torres de Sanui D"},
+  {"id":10023931042,"lat":41.643206,"lon":0.5722,"k":"p","n":"Lleida - Les Basses"},
+  {"id":10023931043,"lat":41.630187,"lon":0.596762,"k":"p","n":"Lleida - Agrònoms - 1"},
+  {"id":10023931044,"lat":41.630099,"lon":0.596704,"k":"x","n":"Lleida - Agrònoms"},
+  {"id":12374672070,"lat":41.627627,"lon":0.592492,"k":"p","n":"Olivera","ref":"20559"},
+  {"id":12374672071,"lat":41.624865,"lon":0.598485,"k":"p","n":"Av. Ciutat Jardí","ref":"20558"},
+  {"id":13608202195,"lat":41.646837,"lon":0.571942,"k":"p","n":"Pistes d'Atletisme","ref":"20542"},
+  {"id":14374340501,"lat":41.625408,"lon":0.597674,"k":"p"}
+],
+"routes":[
+  {"id":10830166,"t":{"ref":"6","name":"Bus 6: Pla d'Urgell -> Vila Montcada","from":"Pla d'Urgell","to":"Vila Montcada","network":"Autobusos de Lleida","operator":"Autobusos de Lleida (Moventis)","colour":"purple","route":"bus","public_transport:version":"2"},"n":23,"s":[[6150185314,20]]},
+  {"id":14578618,"t":{"ref":"e4","name":"e4: Alpicat - Lleida","from":"Alpicat - Carrer d'Horta, 26","to":"Estació d'Autobusos de Lleida","network":"exprés.cat","operator":"Autocars Morell","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":13,"s":[[10023931036,6],[10023931035,7],[10023931034,8]]},
+  {"id":14578619,"t":{"ref":"e4","name":"e4: Alpicat -> Lleida","from":"Alpicat - Carrer d'Horta, 26","to":"Estació d'Autobusos de Lleida","network":"exprés.cat","operator":"Autocars Morell","colour":"#E2001A","route":"bus","public_transport:version":"2"},"n":12,"s":[[10023931036,6],[10023931035,7],[10023931034,8]]},
+  {"id":14578620,"t":{"ref":"e4","name":"e4: Lleida - Alpicat","from":"Estació d'Autobusos de Lleida","to":"Alpicat - Carrer d’Horta, 26","network":"exprés.cat","operator":"Autocars Morell","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":12,"s":[[10023931043,6],[4239014516,7],[10023931042,8]]},
+  {"id":14578666,"t":{"ref":"e4","name":"e4: Lleida -> Alpicat","from":"Estació d'Autobusos de Lleida","to":"Alpicat - Carrer d’Horta, 26","network":"exprés.cat","operator":"Autocars Morell","colour":"#E2001A","route":"bus","public_transport:version":"2"},"n":11,"s":[[10023931043,5],[4239014516,6],[10023931042,7]]},
+  {"id":18332205,"t":{"ref":"16","name":"Bus 16: -> Ciutat Jardí","from":"Pla d'Urgell","to":"Agronoms","network":"Autobusos de Lleida","operator":"Autobusos de Lleida (Moventis)","colour":"purple","route":"bus","public_transport:version":"2"},"n":15,"s":[[12374672071,6],[12374672070,7],[10023931035,8],[10023931034,9]]}
+]
+}

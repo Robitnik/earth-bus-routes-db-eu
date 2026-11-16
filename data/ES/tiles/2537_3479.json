@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2537,3479],
+"stops":[
+  {"id":10830200249,"lat":36.854712,"lon":-6.039951,"k":"p","n":"Av. Lebrija - Bar Andalucía"},
+  {"id":14232203681,"lat":36.852441,"lon":-6.041598,"k":"p","n":"Av. Jerez (El Cuervo)"},
+  {"id":14232203682,"lat":36.851743,"lon":-6.042116,"k":"p","n":"Av. Jerez (El Cuervo)"},
+  {"id":14239982793,"lat":36.852414,"lon":-6.041569,"k":"x","n":"Av. Jerez (El Cuervo)"},
+  {"id":14241017927,"lat":36.851762,"lon":-6.04214,"k":"x","n":"Av. Jerez (El Cuervo)"},
+  {"id":14241017929,"lat":36.854717,"lon":-6.039987,"k":"x","n":"Av. Lebrija - Bar Andalucía"}
+],
+"routes":[
+  {"id":21468451,"t":{"ref":"CVO-JRZ","name":"El Cuervo de Sevilla > Jerez de la Frontera","from":"Nacional IV - Avenida de Jerez (junto a la parada de taxis, El Cuervo de Sevilla)","to":"Estación de Autobuses de Jerez de la Frontera","network":"Transporte Regional de Monbus","operator":"Monbus (VJA-025)","colour":"#ffc038","route":"bus"},"n":2,"s":[[14232203681,1]]},
+  {"id":21469422,"t":{"ref":"JRZ-CVO","name":"Jerez de la Frontera > El Cuervo de Sevilla","from":"Estación de Autobuses de Jerez de la Frontera","to":"Avenida de Lebrija (frente al Bar Andalucía, El Cuervo de Sevilla)","network":"Transporte Regional de Monbus","operator":"Monbus (VJA-025)","colour":"#ffc038","route":"bus"},"n":3,"s":[[14232203682,2],[10830200249,3]]},
+  {"id":21568967,"t":{"ref":"CVO-LBJ","name":"El Cuervo de Sevilla > Lebrija Renfe","from":"Avenida de Jerez (frente al Cuartel de la Guardia Civil, El Cuervo de Sevilla)","to":"Estación de Ferrocarriles de Lebrija (Renfe)","network":"Transporte Regional de Monbus","operator":"Monbus (VJA-025)","colour":"#ffc038","route":"bus"},"n":8,"s":[[14232203682,1],[10830200249,2]]},
+  {"id":21569646,"t":{"ref":"LBJ-CVO","name":"Lebrija Renfe > El Cuervo de Sevilla","from":"Estación de Ferrocarril de Lebrija (Renfe)","to":"Avenida de Jerez (frente al Cuartel de la Guardia Civil, El Cuervo de Sevilla)","network":"Transporte Regional de Monbus","operator":"Monbus (VJA-025)","colour":"#ffc038","route":"bus"},"n":7,"s":[[14232203681,7]]}
+]
+}

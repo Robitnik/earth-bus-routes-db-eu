@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2756,4034],
+"stops":[
+  {"id":3105065869,"lat":47.815217,"lon":21.706093,"k":"p","n":"Vasútállomás"},
+  {"id":3109188065,"lat":47.811288,"lon":21.701178,"k":"p","n":"Kökény utca"},
+  {"id":3109194621,"lat":47.811369,"lon":21.701427,"k":"p","n":"Kökény utca"},
+  {"id":3485121951,"lat":47.812812,"lon":21.703133,"k":"p","n":"Újfehértó, Vasútállomás bejárati út"},
+  {"id":3485121953,"lat":47.816881,"lon":21.700703,"k":"p","n":"Újfehértó, Nyíregyházi utca 56. (Szövőgyár)"},
+  {"id":3485121959,"lat":47.831513,"lon":21.701003,"k":"p"},
+  {"id":3489613998,"lat":47.819631,"lon":21.711523,"k":"p"},
+  {"id":3489613999,"lat":47.82344,"lon":21.721355,"k":"p"},
+  {"id":3489614000,"lat":47.830385,"lon":21.739959,"k":"p"},
+  {"id":10099478101,"lat":47.809854,"lon":21.747121,"k":"p"},
+  {"id":10099478102,"lat":47.809606,"lon":21.747425,"k":"p"},
+  {"id":10099478195,"lat":47.8132,"lon":21.738923,"k":"p"},
+  {"id":10099478202,"lat":47.813311,"lon":21.738777,"k":"p"},
+  {"id":10736668947,"lat":47.812916,"lon":21.703097,"k":"p","n":"Újfehértó, Vasútállomás bejárati út"},
+  {"id":10736851418,"lat":47.817125,"lon":21.700488,"k":"p","n":"Újfehértó, Nyíregyházi utca 56. (Szövőgyár)"}
+],
+"routes":[
+  {"id":4078925,"t":{"ref":"1","name":"Bus 1: Vasútállomás => Mályváskert autóbusz-forduló","from":"Vasútállomás","to":"Mályváskert autóbusz-forduló","operator":"Újfehértour Kft.","route":"bus","public_transport:version":"2"},"n":18,"s":[[3105065869,1],[3109188065,2]]},
+  {"id":4078926,"t":{"ref":"2","name":"Bus 2: Vasútállomás => Köztemető","from":"Vasútállomás","to":"Köztemető","operator":"Újfehértour Kft.","route":"bus","public_transport:version":"2"},"n":16,"s":[[3105065869,1],[10736668947,2],[3485121953,3]]},
+  {"id":15602266,"t":{"ref":"1","name":"Bus 1: Mályváskert autóbusz-forduló => Vasútállomás","from":"Mályváskert autóbusz-forduló","to":"Vasútállomás","operator":"Újfehértour Kft.","route":"bus","public_transport:version":"2"},"n":18,"s":[[3109194621,17],[3105065869,18]]},
+  {"id":15602467,"t":{"ref":"2","name":"Bus 2: Köztemető => Vasútállomás","from":"Köztemető","to":"Vasútállomás","operator":"Újfehértour Kft.","route":"bus","public_transport:version":"2"},"n":16,"s":[[10736851418,14],[3485121951,15],[3105065869,16]]},
+  {"id":15602510,"t":{"ref":"1Y","name":"Bus 1Y: Mályváskert autóbusz-forduló => Vasútállomás","from":"Mályváskert autóbusz-forduló","to":"Vasútállomás","operator":"Újfehértour Kft.","route":"bus","public_transport:version":"2"},"n":20,"s":[[3109194621,19],[3105065869,20]]},
+  {"id":15602511,"t":{"ref":"1Y","name":"Bus 1Y: Vasútállomás => Mályváskert autóbusz-forduló","from":"Vasútállomás","to":"Mályváskert autóbusz-forduló","operator":"Újfehértour Kft.","route":"bus","public_transport:version":"2"},"n":20,"s":[[3105065869,1],[3109188065,2]]}
+]
+}

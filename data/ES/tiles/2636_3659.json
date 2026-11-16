@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2636,3659],
+"stops":[
+  {"id":2284982784,"lat":41.821914,"lon":2.980692,"k":"x","n":"Santa Cristina d'Aro, Font Picant","ref":"16258"},
+  {"id":2284982789,"lat":41.821829,"lon":2.980851,"k":"x","n":"Santa Cristina d'Aro, Font Picant","ref":"16954"},
+  {"id":5563106465,"lat":41.812814,"lon":2.996772,"k":"x","n":"Santa Cristina d'Aro, Centre (direcció Palamós)","ref":"16878"},
+  {"id":5563106467,"lat":41.821744,"lon":2.980813,"k":"p","n":"Santa Cristina D'Aro, Font Picant (direcció Palamos)","ref":"16954"},
+  {"id":5563106480,"lat":41.812759,"lon":2.996718,"k":"p","n":"Santa Cristina d'Aro, Centre (direcció Palamós)","ref":"16878"},
+  {"id":13528954827,"lat":41.813819,"lon":2.994383,"k":"x","n":"Santa Cristina D'Aro, Centre (direcció Girona)","ref":"16257"},
+  {"id":13528954828,"lat":41.813868,"lon":2.994444,"k":"p","n":"Santa Cristina D'Aro, Centre (direcció Girona)","ref":"16257"},
+  {"id":13570156972,"lat":41.82196,"lon":2.980851,"k":"p","n":"Santa Cristina d'Aro, Font Picant","ref":"16258"}
+],
+"routes":[
+  {"id":20172254,"t":{"ref":"1","name":"1 Aeroport BCN => Barcelona => Costa Brava Centre","from":"Aeroport T2","to":"L'Escala","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":20,"s":[[5563106480,5]]},
+  {"id":20172285,"t":{"ref":"1","name":"1 Costa Brava Centre => Barcelona => Aeroport BCN","from":"L'Escala","to":"Aeroport T2","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":18,"s":[[13528954828,15]]},
+  {"id":20209781,"t":{"ref":"5","name":"Línia 5 Girona => Costa Brava Centre => Caldes de Malavella","from":"Girona","to":"Caldes de Malavella","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":53,"s":[[13528954828,45],[13570156972,46]]},
+  {"id":20218084,"t":{"ref":"5","name":"Línia 5 Caldes de Malavella => Costa Brava Centre => Girona","from":"Caldes de Malavella","to":"Girona","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":50,"s":[[5563106467,8],[5563106480,9]]},
+  {"id":20673126,"t":{"ref":"L5","name":"L5: Sant Feliu de Guíxols - Sant Pol - Castell d'Aro - Santa Cristina d'Aro","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":33,"s":[[5563106480,28]]}
+]
+}

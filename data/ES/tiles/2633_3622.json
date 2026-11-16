@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2633,3622],
+"stops":[
+  {"id":3544041111,"lat":41.650312,"lon":1.138249,"k":"x","n":"Estació d'autobusos de Tàrrega"},
+  {"id":3805868500,"lat":41.650388,"lon":1.138171,"k":"p","n":"Estació d'autobusos de Tàrrega"},
+  {"id":10733211458,"lat":41.650529,"lon":1.139649,"k":"p","n":"11"},
+  {"id":10733211459,"lat":41.652178,"lon":1.138805,"k":"p","n":"10"},
+  {"id":10733211460,"lat":41.653596,"lon":1.13793,"k":"p","n":"9"},
+  {"id":10733211461,"lat":41.654724,"lon":1.135085,"k":"p","n":"8"},
+  {"id":10733211462,"lat":41.656536,"lon":1.136801,"k":"p","n":"7"},
+  {"id":10733211463,"lat":41.654539,"lon":1.139676,"k":"p","n":"6"},
+  {"id":10733211464,"lat":41.654334,"lon":1.141463,"k":"p","n":"5"},
+  {"id":10733211465,"lat":41.651374,"lon":1.141265,"k":"p","n":"4"},
+  {"id":10733211466,"lat":41.651657,"lon":1.1454,"k":"p","n":"3"},
+  {"id":10733211467,"lat":41.652035,"lon":1.14833,"k":"p","n":"2"},
+  {"id":10733211473,"lat":41.650964,"lon":1.144168,"k":"p","n":"26"},
+  {"id":10733350778,"lat":41.683231,"lon":1.142164,"k":"p","n":"Altet","ref":"ML 0228"}
+],
+"routes":[
+  {"id":2263490,"t":{"ref":"L0101","name":"L0101 - Lleida - Barcelona","from":"Lleida","to":"Barcelona Estació Nord","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":11,"s":[[3805868500,4]]},
+  {"id":5189981,"t":{"ref":"L0324","name":"L28 Lleida => Girona per l'Eix Transversal","operator":"Sagalés","colour":"#015FB7","route":"bus","public_transport:version":"2"},"n":7,"s":[[3805868500,2]]},
+  {"id":7357826,"t":{"ref":"e1","name":"e1: Lleida - Cervera","from":"Lleida","to":"Cervera","network":"exprés.cat","operator":"Alsa","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":6,"s":[[3805868500,5]]},
+  {"id":8177059,"t":{"ref":"L0324","name":"L28 Girona => Lleida per l'eix transversal","operator":"Sagalés","colour":"#015FB7","route":"bus","public_transport:version":"2"},"n":7,"s":[[3805868500,6]]},
+  {"id":8259790,"t":{"ref":"e1","name":"e1: Cervera - Lleida","from":"Cervera","to":"Lleida","network":"exprés.cat","operator":"Alsa","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":6,"s":[[3805868500,2]]},
+  {"id":15596590,"t":{"name":"Bus Tàrrega","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":30,"s":[[10733211467,2],[10733211466,3],[10733211465,4],[10733211464,5],[10733211463,6],[10733211462,7],[10733211461,8],[10733211460,9],[10733211459,10],[10733211458,11],[10733211473,26]]},
+  {"id":17838239,"t":{"ref":"L0092","name":"L0092: Barcelona - eth Pònt de Rei","from":"Barcelona estació del Nord","to":"eth Pònt de Rei","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":49,"s":[[3805868500,4]]},
+  {"id":17843661,"t":{"ref":"L0092","name":"L0092: eth Pònt de Rei - Barcelona","from":"eth Pònt de Rei","to":"Barcelona Estació del Nord","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":48,"s":[[3805868500,45]]},
+  {"id":20626949,"t":{"ref":"L0595","name":"L0595 Reus - Tarragona - Andorra","from":"Reus","to":"Andorra","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[3805868500,15]]},
+  {"id":20662504,"t":{"ref":"L0595","name":"L0595 Andorra - Tarragona - Reus","from":"Andorra","to":"Reus","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[3805868500,12]]},
+  {"id":21710229,"t":{"ref":"L0415","name":"L0415: La Pobla de Segur => Barcelona","from":"La Pobla de Segur","to":"Barcelona","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":25,"s":[[3805868500,21]]},
+  {"id":21710260,"t":{"name":"L0415: Barcelona => La Pobla de Segur","from":"Barcelona","to":"La Pobla de Segur","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":25,"s":[[3805868500,5]]},
+  {"id":21946414,"t":{"ref":"L0056","name":"L0056: Balaguer => Tàrrega","from":"Balaguer","to":"Tàrrega","route":"bus","public_transport:version":"2"},"n":14,"s":[[3805868500,14]]},
+  {"id":21949850,"t":{"ref":"L0056","name":"L0056: Tàrrega => Balaguer","from":"Tàrrega","to":"Balaguer","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[3805868500,1]]}
+]
+}

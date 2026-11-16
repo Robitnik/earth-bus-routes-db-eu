@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2645,3443],
+"stops":[
+  {"id":4224012610,"lat":42.293453,"lon":-7.840248,"k":"p","n":"O Cumial","ref":"118"},
+  {"id":11465549588,"lat":42.274799,"lon":-7.832955,"k":"p"},
+  {"id":12269173631,"lat":42.296748,"lon":-7.843145,"k":"p","n":"Estrada do Cumial Nº 27","ref":"119"},
+  {"id":12269173632,"lat":42.29454,"lon":-7.841175,"k":"p","n":"Alto Cumial","ref":"115"},
+  {"id":12269173633,"lat":42.296623,"lon":-7.843217,"k":"p","n":"Estrada do Cumial Nº 20","ref":"114"},
+  {"id":12271449542,"lat":42.297533,"lon":-7.833694,"k":"p","n":"As Curuxeiras - cruzamento Pazos","ref":"250;251"},
+  {"id":12278460662,"lat":42.296135,"lon":-7.836684,"k":"p","n":"Estrada da Rabeada Nº 14","ref":"580"}
+],
+"routes":[
+  {"id":18210441,"t":{"ref":"33","name":"33: Quintela => O Cumial","from":"Carballas","to":"O Cumial","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":33,"s":[[12269173633,31],[12269173632,32],[4224012610,33]]},
+  {"id":18210442,"t":{"ref":"33","name":"33: O Cumial => Eirasvedras => Quintela","from":"O Cumial","to":"As Carballas","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":36,"s":[[4224012610,1],[12269173631,2]]},
+  {"id":18220384,"t":{"ref":"9","name":"9: Mende => As Curuxeiras","from":"Colexio Mende","to":"As Curuxeiras (Cruzamento Pazos)","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":35,"s":[[12271449542,35]]},
+  {"id":18220385,"t":{"ref":"9","name":"9: As Curuxeiras => Mende","from":"As Curuxeiras","to":"Mende","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":32,"s":[[12271449542,1]]},
+  {"id":18220665,"t":{"ref":"14","name":"14: O Viso => O Cumial","from":"O Viso","to":"O Cumial","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":32,"s":[[12269173633,30],[12269173632,31],[4224012610,32]]},
+  {"id":18224678,"t":{"ref":"14","name":"14: O Cumial => O Viso","from":"Cumial","to":"O Viso","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":32,"s":[[4224012610,1,2],[12269173631,3]]},
+  {"id":18234463,"t":{"ref":"9","name":"9*: As Curuxeiras => Mende","from":"Estrda da Rabeda, Nº 14","to":"Mende","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":33,"s":[[12278460662,1],[12271449542,2]]},
+  {"id":18234464,"t":{"ref":"9","name":"9*: Mende => As Curuxeiras","from":"Colexio Mende","to":"Estrada da Rabeda, Nº 14","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":36,"s":[[12271449542,35],[12278460662,36]]},
+  {"id":18234523,"t":{"ref":"22","name":"22*: As Curuxeiras => Rairo => Cudeiro","from":"Estrada Ourense","to":"As Curuxeiras - Cruzamento Pazos","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":36,"s":[[12271449542,1]]},
+  {"id":18234524,"t":{"ref":"33","name":"33*: O Cumial => Quintela","from":"O Cumial","to":"Carballas","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":31,"s":[[4224012610,1],[12269173631,2]]},
+  {"id":18234525,"t":{"ref":"22","name":"22*: Cudeiro => Rairo => As Curuxeiras","from":"Cudeiro","to":"Estrada As Curuxeiras","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":38,"s":[[12271449542,38]]},
+  {"id":18241847,"t":{"ref":"14","name":"14*: 12 de Outubro => O Cumial","from":"12 de Outubro","to":"O Cumial","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":23,"s":[[12269173633,20],[12269173632,21],[4224012610,22]]},
+  {"id":18243537,"t":{"ref":"3","name":"3*: As Curuxeiras => Rairo => Quintela","from":"As Curuxeiras - Cruzamento Pazos","to":"As Carballas","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":40,"s":[[12271449542,1]]},
+  {"id":18243538,"t":{"ref":"3","name":"3: Quintela => Rairo => As Curuxeiras","from":"As Carballas","to":"As Curuxeiras - Cruzamento Pazos","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":37,"s":[[12271449542,37]]},
+  {"id":18247021,"t":{"ref":"9","name":"9*: Rotonda Campus Norte => Mende => As Curuxeiras MOD","from":"Colexio Mende","to":"Estrada da Rabeda, Nº 14","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":42,"s":[[12271449542,41],[12278460662,42]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2536,3519],
+"stops":[
+  {"id":14053663478,"lat":36.821168,"lon":-4.004092,"k":"p","n":"Corumbela"},
+  {"id":14053663479,"lat":36.821194,"lon":-4.004069,"k":"x","n":"Corumbela"},
+  {"id":14053968232,"lat":36.82065,"lon":-4.03006,"k":"x","n":"Daimalos"},
+  {"id":14053968233,"lat":36.820678,"lon":-4.030096,"k":"p","n":"Daimalos","ref":"6"},
+  {"id":14053968234,"lat":36.81591,"lon":-4.04603,"k":"x","n":"Arenas"},
+  {"id":14053968235,"lat":36.815686,"lon":-4.045994,"k":"p","n":"Arenas","ref":"6"}
+],
+"routes":[
+  {"id":21152317,"t":{"ref":"M-370","name":"M-370: Corumbela→ Málaga (por Canillas de Albaida, Algarrobo y Torre del Mar)","from":"Corumbela","to":"Estación de Málaga","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":16,"s":[[14053663478,1]]},
+  {"id":21152478,"t":{"ref":"VJA-080","name":"M-370: Málaga → Corumbela (por Torre del Mar, Algarrobo y Canillas de Albaida)","from":"Estación de Málaga","to":"Corumbela","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":17,"s":[[14053663478,17]]},
+  {"id":21152573,"t":{"ref":"VJA-021","name":"VJA-021: Hospital (Vélez-Málaga) → Corumbela (por Arenas)","from":"Hospital Comarcal de la Axarquía","to":"Corumbela","operator":"Autocares Pareja","route":"bus","public_transport:version":"2"},"n":7,"s":[[14053968235,5],[14053968233,6],[14053663478,7]]},
+  {"id":21154305,"t":{"ref":"VJA-021","name":"VJA-021: Corumbela → Hospital (Vélez-Málaga) (por Arenas)","from":"Corumbela","to":"Hospital Comarcal de la Axarquía","operator":"Autocares Pareja","route":"bus","public_transport:version":"2"},"n":7,"s":[[14053663478,1],[14053968233,2],[14053968235,3]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2554,3581],
+"stops":[
+  {"id":12033359483,"lat":37.717712,"lon":-0.920448,"k":"p","n":"La Puebla - Plaza de España","ref":"6769"},
+  {"id":12076085176,"lat":37.73643,"lon":-0.932116,"k":"p","n":"Los Olmos"},
+  {"id":12076085177,"lat":37.7362,"lon":-0.931973,"k":"p","n":"Los Olmos"},
+  {"id":12076146680,"lat":37.739647,"lon":-0.944435,"k":"p","n":"Avenida Juan Carlos I (Icaro)","ref":"3"},
+  {"id":12076146681,"lat":37.739559,"lon":-0.944489,"k":"p","n":"Avenida Juan Carlos I (Icaro)","ref":"3"},
+  {"id":12193296678,"lat":37.737944,"lon":-0.918256,"k":"p","n":"Mar Menor Golf","ref":"1"},
+  {"id":12193296681,"lat":37.745505,"lon":-0.945396,"k":"p","n":"Colegio San Antonio","ref":"5"},
+  {"id":12193296682,"lat":37.747477,"lon":-0.946117,"k":"p","n":"Calle Felicito Manzanares","ref":"6"}
+],
+"routes":[
+  {"id":5946297,"t":{"ref":"L21","name":"L21: Los Urrutias → Cartagena","from":"Cartagena","to":"El Carmolí","network":"Bus Urbano Cartagena","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#F1C0D3","route":"bus","public_transport:version":"2"},"n":16,"s":[[12033359483,7]]},
+  {"id":17796473,"t":{"ref":"L24","name":"L24: Pozo Estrecho → Paseo Alfonso XIII por La Puebla","from":"Pozo Estrecho","to":"Paseo Alfonso XIII","network":"Bus Urbano Cartagena","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#97479D","route":"bus","public_transport:version":"2"},"n":17,"s":[[12033359483,6]]},
+  {"id":17796474,"t":{"ref":"L24","name":"L24: Paseo Alfonso XIII → Pozo Estrecho por La Puebla","from":"Paseo Alfonso XIII","to":"Pozo Estrecho","network":"Bus Urbano Cartagena","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#97479D","route":"bus","public_transport:version":"2"},"n":16,"s":[[12033359483,12]]},
+  {"id":17807631,"t":{"ref":"L21","name":"L21: Cartagena → Los Urrutias","from":"Cartagena","to":"Los Urrutias","network":"Bus Urbano Cartagena","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#F1C0D3","route":"bus","public_transport:version":"2"},"n":15,"s":[[12033359483,9]]},
+  {"id":17878734,"t":{"ref":"411","name":"411: Cartagena → San Pedro del Pinatar, por Torre Pacheco","from":"Cartagena","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":14,"s":[[12076146681,5],[12076085177,6]]},
+  {"id":17878735,"t":{"ref":"411","name":"411: San Pedro del Pinatar → Cartagena, por Torre Pacheco","from":"San Pedro del Pinatar","to":"Cartagena","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":14,"s":[[12076085176,9],[12076146680,10]]},
+  {"id":18079932,"t":{"ref":"L1","name":"L1.1: Mar Menor Golf → Mar Menor Golf","from":"Mar Menor Golf","to":"Mar Menor Golf","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":14,"s":[[12193296678,1,14],[12076085176,2],[12076146680,3],[12193296681,5],[12193296682,6]]},
+  {"id":18080001,"t":{"ref":"L1","name":"L1.2: Mar Menor Golf → Los Olmos","from":"Mar Menor Golf","to":"Los Olmos","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":15,"s":[[12193296678,1],[12076085176,2],[12076146680,3],[12193296681,5],[12193296682,6],[12076085177,15]]},
+  {"id":18081342,"t":{"ref":"L1","name":"L1.3: Los Olmos → Los Olmos","from":"Los Olmos","to":"Los Olmos","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":16,"s":[[12076085176,1],[12076146680,2],[12193296681,4],[12193296682,5],[12076085177,16]]},
+  {"id":18081368,"t":{"ref":"L1","name":"L1.4: Los Olmos → Mar Menor Golf","from":"Los Olmos","to":"Mar Menor Golf","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":16,"s":[[12076085176,1],[12076146680,2],[12193296681,4],[12193296682,5],[12193296678,16]]},
+  {"id":18081402,"t":{"ref":"L1","name":"L1.5: Mar Menor Golf → Avenida de Europa","from":"Mar Menor Golf","to":"Avenida de Europa","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":16,"s":[[12193296678,1],[12076085176,2],[12076146680,3],[12193296681,5],[12193296682,6]]},
+  {"id":18081447,"t":{"ref":"L1","name":"L1.6: Estación de Autobuses → Avenida Roldan","from":"Estacion de Autobuses","to":"Avenida de Europa","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":9,"s":[[12193296681,6],[12193296682,7]]},
+  {"id":18081521,"t":{"ref":"L1","name":"L1.8: Centro de Salud Antonio Cozar → Mar Menor Golf","from":"Centro de Salud Antonio Cozar","to":"Mar Menor Golf","network":"Transporte Urbano de Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#AF2319","route":"bus","public_transport:version":"2"},"n":15,"s":[[12193296681,9],[12193296682,10],[12076146681,13],[12076085177,14],[12193296678,15]]}
+]
+}

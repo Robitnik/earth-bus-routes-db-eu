@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2749,4028],
+"stops":[
+  {"id":1592487173,"lat":47.455587,"lon":21.404854,"k":"p","n":"Damjanich utca 57."},
+  {"id":6285167678,"lat":47.454786,"lon":21.406826,"k":"p","n":"Bánomkerti utca 33."},
+  {"id":6285167679,"lat":47.45857,"lon":21.411214,"k":"p","n":"Bánomkerti utca 65."},
+  {"id":6285167680,"lat":47.459705,"lon":21.410058,"k":"p","n":"Liget utca"},
+  {"id":6285167681,"lat":47.460833,"lon":21.416053,"k":"p","n":"Kösely Zrt."},
+  {"id":6285167682,"lat":47.460668,"lon":21.416531,"k":"p","n":"Kösely Zrt."},
+  {"id":10734925671,"lat":47.450173,"lon":21.403453,"k":"p","n":"Autóbusz-állomás"}
+],
+"routes":[
+  {"id":1971875,"t":{"ref":"2A-2","name":"Bus 2A-2: Autóbusz-állomás => Autóbusz-állomás","from":"Autóbusz-állomás","to":"Autóbusz-állomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":18,"s":[[10734925671,1,18]]},
+  {"id":1971876,"t":{"ref":"2","name":"Bus 2: Vasútállomás => Autóbusz-állomás","from":"Vasútállomás","to":"Autóbusz-állomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":7,"s":[[10734925671,7]]},
+  {"id":1971878,"t":{"ref":"1A","name":"Bus 1A: Autóbusz-állomás => Vasútállomás","from":"Autóbusz-állomás","to":"Vasútállomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[10734925671,1]]},
+  {"id":1971881,"t":{"ref":"1A","name":"Bus 1A: Vasútállomás => Autóbusz-állomás","from":"Vasútállomás","to":"Autóbusz-állomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[10734925671,10]]},
+  {"id":1971882,"t":{"ref":"1","name":"Bus 1: Vasútállomás => Kösely Zrt.","from":"Bánomkerti utca 65.","to":"Vasútállomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[10734925671,8],[6285167678,9],[6285167679,10],[6285167682,11]]},
+  {"id":2349905,"t":{"ref":"1","name":"Bus 1: Kösely Zrt. => Vasútállomás","from":"Kösely Zrt.","to":"Vasútállomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[6285167681,1],[6285167680,2],[1592487173,3],[10734925671,4]]},
+  {"id":3166513,"t":{"ref":"2","name":"Bus 2: Autóbusz-állomás => Vasútállomás","from":"Autóbusz-állomás","to":"Vasútállomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":7,"s":[[10734925671,1]]},
+  {"id":15599521,"t":{"ref":"2A-1","name":"Bus 2A-1: Autóbusz-állomás => Autóbusz-állomás","from":"Autóbusz-állomás","to":"Autóbusz-állomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[10734925671,1,17]]},
+  {"id":15599540,"t":{"ref":"3","name":"Bus 3: TESCO áruház => Autóbusz-állomás","from":"TESCO áruház","to":"Autóbusz-állomás","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":4,"s":[[10734925671,4]]},
+  {"id":15599541,"t":{"ref":"3","name":"Bus 3: Autóbusz-állomás => TESCO áruház","from":"Autóbusz-állomás","to":"TESCO áruház","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":4,"s":[[10734925671,1]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2668,3545],
+"stops":[
+  {"id":521760210,"lat":43.418835,"lon":-2.722733,"k":"s","n":"Estación de Autobuses de Bermeo (Portua)"},
+  {"id":5370863542,"lat":43.419596,"lon":-2.728049,"k":"p"},
+  {"id":5991582378,"lat":43.406587,"lon":-2.700245,"k":"p","n":"Mundaka (Saihesbidea/variante)","ref":"1977"},
+  {"id":7125112480,"lat":43.419616,"lon":-2.72819,"k":"p","n":"Zubiaur'tar Kepa (Udal Azoka)","ref":"2261"},
+  {"id":7125112481,"lat":43.419745,"lon":-2.728187,"k":"p","n":"Zubiaur'tar Kepa (Udal Azoka)","ref":"2174"},
+  {"id":7125154506,"lat":43.419802,"lon":-2.736868,"k":"p","n":"Ametzaga","ref":"2175"},
+  {"id":7125162282,"lat":43.417061,"lon":-2.749029,"k":"p","n":"Itxurriandia (Mikel Deuna)","ref":"2176"},
+  {"id":7125162283,"lat":43.416886,"lon":-2.749128,"k":"p","n":"Itxurriandia (Mikel Deuna)","ref":"2259"},
+  {"id":7125167100,"lat":43.418944,"lon":-2.722462,"k":"p","n":"Lamera","ref":"1976"},
+  {"id":13708884126,"lat":43.423392,"lon":-2.728694,"k":"p"},
+  {"id":13708884127,"lat":43.423383,"lon":-2.728884,"k":"p"},
+  {"id":13709492537,"lat":43.42786,"lon":-2.740201,"k":"p"}
+],
+"routes":[
+  {"id":21322012,"t":{"ref":"A3527","name":"A3527: BERMEO → MUNGIA (Elorduigoitiaraino)","from":"Bermeo","to":"Bilbao","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":17,"s":[[7125167100,1],[7125112481,2],[7125154506,3],[7125162282,4]]},
+  {"id":21322013,"t":{"ref":"A3527","name":"A3527: BERMEO → BILBAO (Zuzenekoa)","from":"Bermeo","to":"Bilbao","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":6,"s":[[7125167100,1],[7125112481,2]]},
+  {"id":21322014,"t":{"ref":"A3527","name":"A3527: BERMEO → MUNGIA → BILBAO (Autopista)","from":"Bermeo","to":"Bilbao","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":22,"s":[[7125167100,1],[7125112481,2],[7125154506,3],[7125162282,4]]},
+  {"id":21322015,"t":{"ref":"A3527","name":"A3527: BILBAO → MUNGIA → BERMEO (Autopista)","from":"Bilbao","to":"Bermeo","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":21,"s":[[7125162283,18],[7125154506,19],[7125112480,20],[7125167100,21]]},
+  {"id":21601832,"t":{"ref":"A3515","name":"A3515 Bermeo → Gernika Lumo → Amorebieta Etxano → Bilbao","from":"Bermeo","to":"Bilbao","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":31,"s":[[7125167100,1]]},
+  {"id":21601833,"t":{"ref":"A3515","name":"A3515 Bilbao → Amorebieta Etxano → Gernika Lumo → Bermeo","from":"Bilbao","to":"Bermeo","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":31,"s":[[5991582378,30],[7125167100,31]]}
+]
+}

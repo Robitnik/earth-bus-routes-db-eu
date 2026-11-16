@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2545,3524],
+"stops":[
+  {"id":9794374202,"lat":37.250844,"lon":-3.751881,"k":"p","n":"Barrio Nuevo","ref":"172"},
+  {"id":9794374204,"lat":37.251361,"lon":-3.750414,"k":"p","n":"Real 2"},
+  {"id":9794374205,"lat":37.251808,"lon":-3.752229,"k":"p","n":"Real 3","ref":"645"},
+  {"id":9794374206,"lat":37.251711,"lon":-3.752288,"k":"p","n":"Real 3","ref":"1374"},
+  {"id":9794374207,"lat":37.253572,"lon":-3.756777,"k":"p","n":"San Cristóbal","ref":"1141"},
+  {"id":9794374208,"lat":37.253472,"lon":-3.756873,"k":"p","n":"San Cristóbal","ref":"502"},
+  {"id":9794374209,"lat":37.255448,"lon":-3.760294,"k":"x","n":"Barriada de la Paz"},
+  {"id":9794374210,"lat":37.255426,"lon":-3.760252,"k":"p","n":"Barriada de la Paz","ref":"502"},
+  {"id":9795153391,"lat":37.255934,"lon":-3.798858,"k":"p","n":"Zujaira 1","ref":"1457"},
+  {"id":9795153392,"lat":37.256058,"lon":-3.798854,"k":"p","n":"Zujaira 1","ref":"728"},
+  {"id":9795153393,"lat":37.256511,"lon":-3.795479,"k":"p","n":"Colegio Las Alhomas","ref":"1006"},
+  {"id":9795153394,"lat":37.256634,"lon":-3.795386,"k":"p","n":"Colegio Las Alhomas","ref":"277"},
+  {"id":9795153395,"lat":37.257503,"lon":-3.790533,"k":"p","n":"Casanueva 2","ref":"217"},
+  {"id":9795153396,"lat":37.257195,"lon":-3.791386,"k":"p","n":"Casanueva 2","ref":"946"},
+  {"id":9795153397,"lat":37.257875,"lon":-3.787688,"k":"p","n":"Casanueva 1","ref":"945"},
+  {"id":9795153398,"lat":37.257991,"lon":-3.787714,"k":"p","n":"Casanueva 1","ref":"216"},
+  {"id":9798676171,"lat":37.250039,"lon":-3.754127,"k":"p","n":"Carretera de Córdoba 1"},
+  {"id":9798676188,"lat":37.254461,"lon":-3.758802,"k":"p","n":"Carretera de Córdoba 2"},
+  {"id":9798676189,"lat":37.254353,"lon":-3.758908,"k":"p","n":"Carretera de Córdoba 2"}
+],
+"routes":[
+  {"id":14217131,"t":{"ref":"0225","name":"Bus 0225: Pinos Puente → Granada","from":"Barriada de la Paz","to":"Rector Marín Ocete","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"Bus Metropolitano de Granada, S.L.","route":"bus","public_transport:version":"2"},"n":24,"s":[[9794374210,1],[9794374208,2],[9794374206,3],[9794374204,4]]},
+  {"id":14217132,"t":{"ref":"0225","name":"Bus 0225: Granada → Pinos Puente","from":"Rector Marín Ocete","to":"Barriada de la Paz","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"Bus Metropolitano de Granada, S.L.","route":"bus","public_transport:version":"2"},"n":24,"s":[[9794374202,21],[9794374205,22],[9794374207,23],[9794374210,24]]},
+  {"id":14218442,"t":{"ref":"0226","name":"Bus 0226: Zujaira → Pinos Puente → Granada","from":"Iglesia Zujaira","to":"Rector Marín Ocete","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"Bus Metropolitano de Granada, S.L.","route":"bus","public_transport:version":"2"},"n":29,"s":[[9795153391,3],[9795153393,4],[9795153396,5],[9795153397,6],[9794374208,7],[9794374206,8],[9794374204,9]]},
+  {"id":14218443,"t":{"ref":"0226","name":"Bus 0226: Granada → Pinos Puente → Zujaira","from":"Rector Marín Ocete","to":"Iglesia Zujaira","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"Bus Metropolitano de Granada, S.L.","route":"bus","public_transport:version":"2"},"n":29,"s":[[9794374202,21],[9794374205,22],[9794374207,23],[9795153398,24],[9795153395,25],[9795153394,26],[9795153392,27]]},
+  {"id":14224342,"t":{"ref":"0323","name":"Bus 0323: Limones → Tózar → Mocín → Tiena → Olivares → Granada","from":"Limones","to":"Paseíllos Universitarios","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"Autocares Rona, S.L.","route":"bus","public_transport:version":"2"},"n":14,"s":[[9798676189,9]]},
+  {"id":14224343,"t":{"ref":"0323","name":"Bus 0323: Granada → Olivares → Tiena → Moclín → Tózar → Limones","from":"Paseíllos Universitarios","to":"Limones","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"Autocares Rona, S.L.","route":"bus","public_transport:version":"2"},"n":13,"s":[[9798676171,4],[9798676188,5]]},
+  {"id":14225078,"t":{"ref":"0325","name":"Bus 0325: Brácana → Tocón → Alomartes → Íllora → Obéilar → Zujaira → Pinos Puente → Granada","from":"Brácana","to":"Rector Marín Ocete","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"NEX Continental Holdings, S.L.U.","route":"bus","public_transport:version":"2"},"n":26,"s":[[9795153391,10],[9795153393,11],[9795153396,12],[9798676189,13]]},
+  {"id":14225079,"t":{"ref":"0325","name":"Bus 0325: Granada → Pinos Puente → Zujaira → Obéilar → Illora → Alomartes → Bracana → Tocón","from":"Rector Marín Ocete","to":"Tocón 2","network":"Consorcio de Transporte Metropolitano del Área de Granada","operator":"NEX Continental Holdings, S.L.U.","route":"bus","public_transport:version":"2"},"n":24,"s":[[9795153395,13],[9795153394,14],[9795153392,15]]}
+]
+}

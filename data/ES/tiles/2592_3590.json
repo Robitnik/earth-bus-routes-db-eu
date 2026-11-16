@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2592,3590],
+"stops":[
+  {"id":958506217,"lat":39.60985,"lon":-0.450629,"k":"p","n":"Bétera, Ctra. CV-310 - Mas del Palustre","ref":"3178"},
+  {"id":13000120326,"lat":39.609699,"lon":-0.450558,"k":"p","n":"Bétera, Ctra. CV-310 - Mas del Palustre II","ref":"3179"},
+  {"id":13007545433,"lat":39.605679,"lon":-0.463684,"k":"p","n":"Bétera, Ctra. CV-333 - Urb. la Masia","ref":"3168"},
+  {"id":13007545434,"lat":39.610076,"lon":-0.46842,"k":"p","n":"Bétera, Ctra. CV-331 - la Mallà I","ref":"3170"},
+  {"id":13007545435,"lat":39.620189,"lon":-0.468902,"k":"p","n":"Bétera, Ctra. CV-331 - Base Militar","ref":"3174"},
+  {"id":13007545436,"lat":39.610194,"lon":-0.46861,"k":"p","n":"Bétera, Ctra. CV-331 - la Mallà II","ref":"3171"}
+],
+"routes":[
+  {"id":1232076,"t":{"ref":"133A","name":"Serra → Bétera","from":"Serra","to":"Bétera","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#0ce9d7","route":"bus","public_transport:version":"2"},"n":19,"s":[[958506217,17]]},
+  {"id":13411402,"t":{"ref":"133A","name":"Bétera → Serra","from":"Bétera","to":"Serra","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#0ce9d7","route":"bus","public_transport:version":"2"},"n":19,"s":[[13000120326,3]]},
+  {"id":19353192,"t":{"ref":"133B","name":"Hospital de Llíria → Bétera → Serra","from":"Llíria, Hospital","to":"Serra","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#26f60b","route":"bus","public_transport:version":"2"},"n":37,"s":[[13000120326,23]]},
+  {"id":19353193,"t":{"ref":"133B","name":"Serra → Bétera → Hospital de Llíria","from":"Serra","to":"Llíria, Hospital","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#26f60b","route":"bus","public_transport:version":"2"},"n":41,"s":[[958506217,17]]},
+  {"id":19361620,"t":{"ref":"133N","name":"València → Serra","from":"València","to":"Serra","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#248204","route":"bus","public_transport:version":"2"},"n":50,"s":[[13000120326,34]]},
+  {"id":19361622,"t":{"ref":"133N","name":"Serra → València","from":"Serra","to":"València","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#248204","route":"bus","public_transport:version":"2"},"n":51,"s":[[958506217,16]]},
+  {"id":19362608,"t":{"ref":"135B","name":"València → la Torre d'en Conill → Bétera","from":"València","to":"Base Militar Jaume I","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#6321f0","route":"bus","public_transport:version":"2"},"n":38,"s":[[13007545433,35],[13007545434,36],[13007545435,37]]},
+  {"id":19362609,"t":{"ref":"135B","name":"Bétera → la Torre d'en Conill → València","from":"Base Militar Jaume I","to":"València","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#6321f0","route":"bus","public_transport:version":"2"},"n":36,"s":[[13007545435,2],[13007545436,3],[13007545433,4]]}
+]
+}

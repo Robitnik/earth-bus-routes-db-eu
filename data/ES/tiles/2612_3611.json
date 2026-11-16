@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2612,3611],
+"stops":[
+  {"id":1327231832,"lat":40.624955,"lon":0.595069,"k":"x","n":"la Ràpita - C. Sant Josep, 87 (sentit St. Carles)"},
+  {"id":1327231833,"lat":40.624966,"lon":0.595008,"k":"p","n":"la Ràpita - C. Sant Josep, 87 (sentit St. Carles)"},
+  {"id":1439067123,"lat":40.614182,"lon":0.586944,"k":"x"},
+  {"id":1575210880,"lat":40.622016,"lon":0.590544,"k":"x","n":"la Ràpita - C. de Sant Joaquim, 27 (terminal d’autobusos)"},
+  {"id":5603071631,"lat":40.621991,"lon":0.590526,"k":"p","n":"la Ràpita - C. de Sant Joaquim, 27 (terminal d’autobusos)"},
+  {"id":5603073126,"lat":40.622042,"lon":0.59057,"k":"p","n":"la Ràpita - C. de Sant Joaquim, 27 (terminal d’autobusos)"},
+  {"id":13752219655,"lat":40.625133,"lon":0.595216,"k":"p","n":"la Ràpita - C. Sant Josep, 104 (sentit Amposta)"},
+  {"id":13752219656,"lat":40.625144,"lon":0.595168,"k":"x","n":"la Ràpita - C. Sant Josep, 104 (sentit Amposta)"}
+],
+"routes":[
+  {"id":8280043,"t":{"ref":"e3","name":"e3: Alcanar - Tortosa","from":"Alcanar","to":"Tortosa","network":"exprés.cat","operator":"Hife","colour":"#FF5800","route":"bus","public_transport:version":"2"},"n":4,"s":[[5603073126,3]]},
+  {"id":8280044,"t":{"ref":"e3","name":"e3: Tortosa - Alcanar","from":"Tortosa","to":"Alcanar","network":"exprés.cat","operator":"Hife","colour":"#FF5800","route":"bus","public_transport:version":"2"},"n":4,"s":[[5603073126,2]]},
+  {"id":20573442,"t":{"ref":"L1608","name":"L1608 Amposta - La Ràpita - Poblenou del Delta","from":"Amposta","to":"Poblenou del Delta","route":"bus","public_transport:version":"2"},"n":5,"s":[[1327231833,2],[5603073126,3]]},
+  {"id":20573524,"t":{"ref":"L1608","name":"L1608 Poblenou del Delta - La Ràpita - Amposta","from":"Poblenou del Delta","to":"Amposta","route":"bus","public_transport:version":"2"},"n":5,"s":[[5603073126,3],[13752219655,4]]},
+  {"id":20574856,"t":{"ref":"L1011","name":"L1011 la Sénia - Ulldecona - Amposta","from":"la Sénia","to":"la Sénia","route":"bus","public_transport:version":"2"},"n":8,"s":[[5603073126,7]]}
+]
+}

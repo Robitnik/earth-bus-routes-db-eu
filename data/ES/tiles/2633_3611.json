@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2633,3611],
+"stops":[
+  {"id":616668149,"lat":41.661045,"lon":0.556864,"k":"x","n":"Alpicat - Carrer de Lleida, 162"},
+  {"id":3383613353,"lat":41.65673,"lon":0.556757,"k":"p","n":"Alpicat - Urbanització Terraferma-2"},
+  {"id":3383613381,"lat":41.652523,"lon":0.557566,"k":"p","n":"Alpicat - Pla de Montsó - 2"},
+  {"id":3386786286,"lat":41.666319,"lon":0.557559,"k":"p","n":"Alpicat - Lleida"},
+  {"id":5593281153,"lat":41.698289,"lon":0.596123,"k":"x","n":"Passeig de Lluís Companys"},
+  {"id":5593281156,"lat":41.694565,"lon":0.5973,"k":"x","n":"Avinguda de Guillem de Rosselló 26-30"},
+  {"id":5593281157,"lat":41.69432,"lon":0.597356,"k":"x","n":"Avinguda de Guillem de Rosselló 26-30"},
+  {"id":5593282738,"lat":41.693768,"lon":0.595493,"k":"p","n":"Avinguda de Guillem de Rosselló, 2"},
+  {"id":5593282740,"lat":41.694593,"lon":0.597301,"k":"p","n":"Avinguda de Guillem de Rosselló 26-30"},
+  {"id":5593282941,"lat":41.698276,"lon":0.596101,"k":"p","n":"Passeig de Lluís Companys"},
+  {"id":5593282942,"lat":41.694115,"lon":0.595612,"k":"p","n":"Avinguda de Guillem de Rosselló, 2"},
+  {"id":5593282944,"lat":41.694294,"lon":0.597371,"k":"p","n":"Avinguda de Guillem de Rosselló 26-30"},
+  {"id":5595321466,"lat":41.698824,"lon":0.596314,"k":"x","n":"Passeig de Lluís Companys"},
+  {"id":5595321881,"lat":41.698863,"lon":0.596373,"k":"p","n":"Passeig de Lluís Companys"},
+  {"id":10023931037,"lat":41.661051,"lon":0.556804,"k":"p","n":"Alpicat - Carrer de Lleida, 162"},
+  {"id":10023931038,"lat":41.664002,"lon":0.557048,"k":"p","n":"Alpicat - Carrer Enric Granados, 15"},
+  {"id":10023931039,"lat":41.664485,"lon":0.557143,"k":"p","n":"Alpicat - Carrer d’Enric Granados, 2"},
+  {"id":10023931040,"lat":41.661445,"lon":0.557077,"k":"p","n":"Alpicat - Carrer de Lleida, 137"},
+  {"id":10023931041,"lat":41.652605,"lon":0.557811,"k":"p","n":"Alpicat - Pla de Montsó -1"}
+],
+"routes":[
+  {"id":8264936,"t":{"ref":"e2","name":"e2: Lleida - Alfarràs","from":"Lleida","to":"Alfarràs","network":"exprés.cat","operator":"Autocars Gamón","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":12,"s":[[5593282740,8]]},
+  {"id":8264937,"t":{"ref":"e2","name":"e2: Alfarràs - Lleida","from":"Alfarràs","to":"Lleida","network":"exprés.cat","operator":"Autocars Gamón","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":13,"s":[[5593282941,5],[5593282944,6]]},
+  {"id":8272465,"t":{"ref":"101","name":"101: Lleida - Ivars","from":"Lleida","to":"Ivars","network":"Autoritat Territorial de la Mobilitat de l'Àrea de Lleida","operator":"Autocars Gamón","colour":"#E2001A","route":"bus","public_transport:version":"2"},"n":19,"s":[[5593282740,10],[5593282738,11]]},
+  {"id":8272466,"t":{"ref":"101","name":"101: Ivars - Lleida","from":"Ivars","to":"Lleida","network":"Autoritat Territorial de la Mobilitat de l'Àrea de Lleida","operator":"Autocars Gamón","colour":"#E2001A","route":"bus","public_transport:version":"2"},"n":19,"s":[[5593282941,9],[5593282942,10],[5593282944,11]]},
+  {"id":14578618,"t":{"ref":"e4","name":"e4: Alpicat - Lleida","from":"Alpicat - Carrer d'Horta, 26","to":"Estació d'Autobusos de Lleida","network":"exprés.cat","operator":"Autocars Morell","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":13,"s":[[3386786286,1],[10023931038,2],[10023931037,3],[3383613353,4],[3383613381,5]]},
+  {"id":14578619,"t":{"ref":"e4","name":"e4: Alpicat -> Lleida","from":"Alpicat - Carrer d'Horta, 26","to":"Estació d'Autobusos de Lleida","network":"exprés.cat","operator":"Autocars Morell","colour":"#E2001A","route":"bus","public_transport:version":"2"},"n":12,"s":[[3386786286,1],[10023931038,2],[10023931037,3],[3383613353,4],[3383613381,5]]},
+  {"id":14578620,"t":{"ref":"e4","name":"e4: Lleida - Alpicat","from":"Estació d'Autobusos de Lleida","to":"Alpicat - Carrer d’Horta, 26","network":"exprés.cat","operator":"Autocars Morell","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":12,"s":[[10023931041,9],[10023931040,10],[10023931039,11],[3386786286,12]]},
+  {"id":14578666,"t":{"ref":"e4","name":"e4: Lleida -> Alpicat","from":"Estació d'Autobusos de Lleida","to":"Alpicat - Carrer d’Horta, 26","network":"exprés.cat","operator":"Autocars Morell","colour":"#E2001A","route":"bus","public_transport:version":"2"},"n":11,"s":[[10023931041,8],[10023931040,9],[10023931039,10],[3386786286,11]]},
+  {"id":21402279,"t":{"ref":"L0292","name":"L0292 Eth Pònt de Rei => Lleida","from":"Eth Pònt de Rei","to":"Lleida","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5593282941,18]]}
+]
+}

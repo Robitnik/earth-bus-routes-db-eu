@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2651,3621],
+"stops":[
+  {"id":305360106,"lat":42.575409,"lon":1.089782,"k":"x","n":"Espot (c. Sant Maurici, 7)"},
+  {"id":3323242700,"lat":42.564143,"lon":1.094272,"k":"x","n":"Espot (estació)"},
+  {"id":12048903537,"lat":42.575438,"lon":1.089817,"k":"p","n":"Espot (c. Sant Maurici, 7)"},
+  {"id":13759785527,"lat":42.574495,"lon":1.091638,"k":"p","n":"Espot (c. Sant Maurici, 4)"},
+  {"id":13759785528,"lat":42.574527,"lon":1.091666,"k":"x","n":"Espot (c. Sant Maurici, 4)"},
+  {"id":13767729553,"lat":42.564079,"lon":1.094256,"k":"p","n":"Espot (estació)"}
+],
+"routes":[
+  {"id":17835355,"t":{"ref":"L1645","name":"L1645: Bus del Parc (de Taüll a la Pobla de Segur, sentit horari)","from":"Pla de l'Ermita","to":"Pobla de Segur","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":32,"s":[[12048903537,23]]},
+  {"id":20592755,"t":{"ref":"L0384","name":"L0384 Jou - cruïlla d’Espot","from":"Jou","to":"cruïlla d’Espot","route":"bus","public_transport:version":"2"},"n":5,"s":[[12048903537,3]]},
+  {"id":20596101,"t":{"ref":"L1722","name":"L1722: Sort - Espot (estació)","from":"Sort","to":"Espot (estació)","route":"bus","public_transport:version":"2"},"n":6,"s":[[12048903537,5],[13767729553,6]]},
+  {"id":20596190,"t":{"ref":"L1722","name":"L1722: Espot (estació) - Sort","from":"Espot (estació)","to":"Sort","route":"bus","public_transport:version":"2"},"n":6,"s":[[13767729553,1],[13759785527,2]]},
+  {"id":21462329,"t":{"ref":"L1820","name":"L1820: La Pobla de Segur => Espot","from":"La Pobla de Segur","to":"Espot","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":10,"s":[[12048903537,10]]},
+  {"id":21463605,"t":{"ref":"L1820","name":"L1820: Espot => La Pobla de Segur","from":"Espot","to":"La Pobla de Segur","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":10,"s":[[12048903537,1]]}
+]
+}

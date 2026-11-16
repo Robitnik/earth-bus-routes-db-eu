@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2621,3612],
+"stops":[
+  {"id":8225675132,"lat":41.089651,"lon":0.643269,"k":"p","n":"Av. Comarques Catalanes"},
+  {"id":8225703751,"lat":41.094912,"lon":0.637612,"k":"p","n":"Hospital"},
+  {"id":8225734740,"lat":41.098156,"lon":0.648739,"k":"p","n":"Plaça de Catalunya"},
+  {"id":12112696904,"lat":41.088646,"lon":0.644605,"k":"x","n":"Mora d'Ebre estació d'autobusos"},
+  {"id":12112696905,"lat":41.088632,"lon":0.644508,"k":"p","n":"Mora d'Ebre estació d'autobusos"},
+  {"id":12113247241,"lat":41.097227,"lon":0.648395,"k":"x","n":"Mora la Nova"},
+  {"id":12113247242,"lat":41.097218,"lon":0.648538,"k":"p","n":"Mora la Nova"},
+  {"id":12396290521,"lat":41.094907,"lon":0.63756,"k":"x","n":"Hospital"},
+  {"id":12396363630,"lat":41.089615,"lon":0.643298,"k":"x","n":"Av. Comarques Catalanes"}
+],
+"routes":[
+  {"id":15833866,"t":{"ref":"VAC-017","name":"Bus VAC-017: Teruel -> Barcelona","from":"Teruel","network":"Autobuses de España","operator":"Hife","route":"bus","public_transport:version":"2"},"n":36,"s":[[12112696905,27],[8225734740,28]]},
+  {"id":17939547,"t":{"ref":"L0981","name":"L0981 Tortosa - Lleida","from":"Tortosa","to":"Lleida","route":"bus","public_transport:version":"2"},"n":13,"s":[[12112696905,7],[12113247242,8]]},
+  {"id":17939688,"t":{"ref":"L0981","name":"L0981 Lleida - Tortosa","from":"Lleida","to":"Tortosa","route":"bus","public_transport:version":"2"},"n":13,"s":[[12113247242,6],[12112696905,7]]},
+  {"id":18350528,"t":{"ref":"L1460","name":"L1460 Batea - Tarragona","from":"Batea","to":"Tarragona","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":10,"s":[[12112696905,4]]},
+  {"id":18361151,"t":{"ref":"L1460","name":"L1460 Tarragona - Batea","from":"Tarragona","to":"Batea","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":10,"s":[[12112696905,7]]},
+  {"id":18370679,"t":{"ref":"L0599","name":"L0599 Riba-roja d'Ebre - Mora d'Ebre (hospital)","from":"Riba-roja d'Ebre","to":"Mora d'Ebre (hospital)","route":"bus","public_transport:version":"2"},"n":12,"s":[[8225675132,11],[8225703751,12]]},
+  {"id":18371435,"t":{"ref":"L0599","name":"L0599 Mora d'Ebre (hospital) - Riba-roja d'Ebre","from":"Mora d'ebre (hospital)","to":"Riba-roja d'Ebre","route":"bus","public_transport:version":"2"},"n":12,"s":[[8225703751,1],[12112696905,2]]}
+]
+}

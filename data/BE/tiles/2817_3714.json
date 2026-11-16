@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2817,3714],
+"stops":[
+  {"id":42040088,"lat":50.892288,"lon":5.711632,"k":"p","n":"Hartelstein"},
+  {"id":1616971188,"lat":50.896881,"lon":5.705499,"k":"p","n":"Geneinde"},
+  {"id":1616971194,"lat":50.896866,"lon":5.705015,"k":"p","n":"Geneinde"},
+  {"id":1616971239,"lat":50.89529,"lon":5.706187,"k":"p","n":"Op de Bos"},
+  {"id":1616971299,"lat":50.896837,"lon":5.736287,"k":"p","n":"Station Arriva"},
+  {"id":4440225560,"lat":50.89684,"lon":5.736221,"k":"x","n":"Bunde, Station Arriva"},
+  {"id":4570012761,"lat":50.892376,"lon":5.711696,"k":"p","n":"Hartelstein"},
+  {"id":4570012762,"lat":50.894815,"lon":5.706046,"k":"p","n":"Op de Bos"},
+  {"id":11427591115,"lat":50.896761,"lon":5.732688,"k":"p","n":"Sint Agnesplein"},
+  {"id":11427591116,"lat":50.896819,"lon":5.732941,"k":"p","n":"Sint Agnesplein"}
+],
+"routes":[
+  {"id":2004219,"t":{"ref":"9","name":"Bus 9: Bunde Station => Maastricht Emmaplein","from":"Bunde, Station Arriva","to":"Maastricht, Koningin Emmaplein","network":"Limburg","operator":"Arriva","colour":"#99CC00","route":"bus","public_transport:version":"2"},"n":9,"s":[[1616971299,1],[4570012761,2],[1616971239,3],[1616971188,4]]},
+  {"id":2004220,"t":{"ref":"9","name":"Bus 9: Maastricht Station => Bunde Station","from":"Maastricht, Station","to":"Bunde, Station","network":"Limburg","operator":"Arriva","colour":"#99CC00","route":"bus","public_transport:version":"2"},"n":9,"s":[[1616971194,6],[4570012762,7],[42040088,8],[1616971299,9]]},
+  {"id":6805564,"t":{"ref":"797","name":"Bus 797: Beek Station => Meerssen Station","from":"Beek-Elsloo, Station Arriva","to":"Meersen, Station Arriva","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":10,"s":[[1616971299,9],[11427591115,10]]},
+  {"id":6805565,"t":{"ref":"797","name":"Bus 797: Meerssen Station => Beek Station","from":"Meersen, Station Arriva","to":"Beek-Elsloo, Station Arriva","network":"Limburg","operator":"Arriva","colour":"#00BECD","route":"bus","public_transport:version":"2"},"n":10,"s":[[1616971299,1],[11427591115,2]]}
+]
+}

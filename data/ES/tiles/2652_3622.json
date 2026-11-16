@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2652,3622],
+"stops":[
+  {"id":305395785,"lat":42.634116,"lon":1.110657,"k":"x","n":"València d’Aneu (av. Port Bonaigua) (Ajuntament), Alt Aneu"},
+  {"id":311581180,"lat":42.633416,"lon":1.149272,"k":"x","n":"Unarre"},
+  {"id":2089831180,"lat":42.615895,"lon":1.139391,"k":"x","n":"Escalarre"},
+  {"id":4542672852,"lat":42.634064,"lon":1.110741,"k":"p","n":"València d’Aneu (av. Port Bonaigua) (Ajuntament), Alt Aneu"},
+  {"id":5858994218,"lat":42.624455,"lon":1.124033,"k":"p","n":"Esterri d'Àneu"},
+  {"id":7295003184,"lat":42.62422,"lon":1.123623,"k":"p","n":"Esterri d'Àneu (c. Major, 93)","ref":"68"},
+  {"id":12048903541,"lat":42.624218,"lon":1.123523,"k":"x","n":"Esterri d'Àneu (c. Major, 93)"},
+  {"id":13759755890,"lat":42.624277,"lon":1.123395,"k":"p","n":"Esterri d'Àneu (c. Major, 68)"},
+  {"id":13759755891,"lat":42.624287,"lon":1.123517,"k":"x","n":"Esterri d'Àneu (c. Major, 68)"},
+  {"id":13759755892,"lat":42.622916,"lon":1.12373,"k":"x"},
+  {"id":13759755893,"lat":42.622908,"lon":1.123636,"k":"p"},
+  {"id":13805808164,"lat":42.633415,"lon":1.149131,"k":"p","n":"Unarre"},
+  {"id":13805808168,"lat":42.615901,"lon":1.139366,"k":"p","n":"Escalarre"}
+],
+"routes":[
+  {"id":2403681,"t":{"ref":"L0288","name":"L0288: Esterri d'Àneu - Àger - Lleida","from":"Esterri d'Àneu","to":"Lleida (Estació d'autobusos)","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":12,"s":[[7295003184,1]]},
+  {"id":17835355,"t":{"ref":"L1645","name":"L1645: Bus del Parc (de Taüll a la Pobla de Segur, sentit horari)","from":"Pla de l'Ermita","to":"Pobla de Segur","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":32,"s":[[4542672852,20],[7295003184,21]]},
+  {"id":17838239,"t":{"ref":"L0092","name":"L0092: Barcelona - eth Pònt de Rei","from":"Barcelona estació del Nord","to":"eth Pònt de Rei","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":49,"s":[[7295003184,33]]},
+  {"id":17843661,"t":{"ref":"L0092","name":"L0092: eth Pònt de Rei - Barcelona","from":"eth Pònt de Rei","to":"Barcelona Estació del Nord","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":48,"s":[[7295003184,17]]},
+  {"id":20586199,"t":{"ref":"L0383","name":"L0383 Esterri d'Àneu - Isil","from":"Esterri d'Àneu","to":"Isil","route":"bus","public_transport:version":"2"},"n":6,"s":[[7295003184,1],[4542672852,2]]},
+  {"id":20586229,"t":{"ref":"L0383","name":"L0383 Isil - Esterri d'Àneu","from":"Esterri d'Àneu","to":"Isil","route":"bus","public_transport:version":"2"},"n":6,"s":[[4542672852,5],[13759755890,6]]},
+  {"id":20592768,"t":{"ref":"L0390","name":"L0390 La Bonaigua - Esterri d’Aneu","from":"La Bonaigua","to":"Esterri d'Àneu","route":"bus","public_transport:version":"2"},"n":4,"s":[[4542672852,3],[13759755890,4]]},
+  {"id":20655992,"t":{"ref":"L0315","name":"L0315 Gavàs - Esterri d'Àneu","from":"Esterri d'Àneu","to":"Gavàs","route":"bus","public_transport:version":"2"},"n":5,"s":[[13805808164,3],[13805808168,4],[13759755890,5]]},
+  {"id":20655993,"t":{"ref":"L0315","name":"L0315 Esterri d'Àneu - Gavàs","from":"Esterri d'Àneu","to":"Gavàs","route":"bus","public_transport:version":"2"},"n":5,"s":[[7295003184,1],[13805808168,2],[13805808164,3]]},
+  {"id":21655161,"t":{"ref":"L0777","name":"L0777: València d'Aneu => Tremp","from":"València d'Aneu","to":"Tremp","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[4542672852,1],[13759755890,2]]},
+  {"id":21659782,"t":{"ref":"L0777","name":"L0777: Tremp => València d'Aneu","from":"Tremp","to":"València d'Aneu","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[7295003184,13],[4542672852,14]]},
+  {"id":21691225,"t":{"ref":"L0776","name":"L0776: València d'Aneu => Sort","from":"València d'Aneu","to":"Sort","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[4542672852,1],[13759755890,2]]},
+  {"id":21691281,"t":{"ref":"L0776","name":"L0776: Sort => València d'Aneu","from":"Sort","to":"València d'Aneu","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[7295003184,4],[4542672852,5]]}
+]
+}

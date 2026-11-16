@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2589,3577],
+"stops":[
+  {"id":1402933780,"lat":39.490239,"lon":-1.1047,"k":"p","n":"Requena, Av. Estación 4"},
+  {"id":13124064555,"lat":39.490927,"lon":-1.104975,"k":"p","n":"Requena, Av. Capitán Gadea - Renfe"},
+  {"id":13129979236,"lat":39.475827,"lon":-1.120297,"k":"p","n":"Requena, El Pontón, C/ Real 27"},
+  {"id":13129979237,"lat":39.475887,"lon":-1.120315,"k":"p","n":"Requena, El Pontón, C/ Real 36"},
+  {"id":13129979238,"lat":39.485099,"lon":-1.105452,"k":"p","n":"Requena, Av. Lamo de Espinosa 39"},
+  {"id":13129979239,"lat":39.485139,"lon":-1.105601,"k":"p","n":"Requena, Av. Lamo de Espinosa 28"},
+  {"id":13147027497,"lat":39.487036,"lon":-1.144448,"k":"p","n":"Requena, El Azagador, C/ Carretera frente 13"},
+  {"id":13147027498,"lat":39.487172,"lon":-1.144412,"k":"p","n":"Requena, El Azagador, C/ Carretera 13"},
+  {"id":13147027499,"lat":39.47572,"lon":-1.121772,"k":"p","n":"Requena, El Pontón, C/ Los Rosales 2"},
+  {"id":13147027500,"lat":39.475835,"lon":-1.121682,"k":"p","n":"Requena, El Pontón, C/ Utiel 18"}
+],
+"routes":[
+  {"id":19573722,"t":{"ref":"410A","name":"Utiel → Requena → València","from":"Utiel","to":"València","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":7,"s":[[1402933780,4]]},
+  {"id":19573723,"t":{"ref":"410A","name":"València → Requena → Utiel","from":"València","to":"Utiel","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":7,"s":[[13124064555,4]]},
+  {"id":19581211,"t":{"ref":"411","name":"Requena → València","from":"Requena","to":"València","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":5,"s":[[13124064555,1],[1402933780,2]]},
+  {"id":19581212,"t":{"ref":"411","name":"València → Requena","from":"València","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":4,"s":[[13124064555,4]]},
+  {"id":19581214,"t":{"ref":"415A","name":"Ayora → Requena → València","from":"Ayora","to":"València","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":12,"s":[[13129979236,8],[13129979238,9]]},
+  {"id":19581215,"t":{"ref":"415A","name":"València → Requena → Ayora","from":"València","to":"Ayora","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":13,"s":[[13129979239,4],[13129979237,5]]},
+  {"id":19581217,"t":{"ref":"415B","name":"Ayora → Requena","from":"Ayora","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":12,"s":[[13129979236,9],[13129979238,10],[1402933780,11]]},
+  {"id":19581218,"t":{"ref":"415B","name":"Requena → Ayora","from":"Requena","to":"Ayora","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":13,"s":[[13124064555,2],[13129979239,3],[13129979237,4]]},
+  {"id":19586121,"t":{"ref":"410B","name":"Utiel → Requena → València","from":"Utiel","to":"València","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":9,"s":[[1402933780,4]]},
+  {"id":19586122,"t":{"ref":"410B","name":"València → Requena → Utiel","from":"València","to":"Utiel","network":"Transport Públic Generalitat Valenciana","operator":"Autobuses Buñol","route":"bus","public_transport:version":"2"},"n":9,"s":[[13124064555,6]]},
+  {"id":19590572,"t":{"ref":"420C","name":"Utiel → Requena","from":"Utiel","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":5,"s":[[1402933780,3]]},
+  {"id":19590573,"t":{"ref":"420C","name":"Requena → Utiel","from":"Requena","to":"Utiel","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":5,"s":[[13124064555,3]]},
+  {"id":19593704,"t":{"ref":"421","name":"Chera → Requena","from":"Chera","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":4,"s":[[13124064555,2]]},
+  {"id":19593705,"t":{"ref":"421","name":"Requena → Chera","from":"Requena","to":"Chera","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":4,"s":[[1402933780,3]]},
+  {"id":19606912,"t":{"ref":"423","name":"Aldeas de la Vega → Requena","from":"Requena, Calderón","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":10,"s":[[13147027497,6],[13147027499,7],[1402933780,8]]},
+  {"id":19606913,"t":{"ref":"423","name":"Requena → Aldeas de la Vega","from":"Requena","to":"Requena, Calderón","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":10,"s":[[13124064555,3],[13147027500,4],[13147027498,5]]},
+  {"id":19608536,"t":{"ref":"424","name":"Venta del Moro → Requena","from":"Venta del Moro","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":13,"s":[[13129979236,10],[1402933780,11]]},
+  {"id":19608537,"t":{"ref":"424","name":"Requena → Venta del Moro","from":"Requena","to":"Venta del Moro","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":13,"s":[[13124064555,3],[13129979237,4]]},
+  {"id":19618277,"t":{"ref":"420A","name":"Salvacañete → Landete → Utiel → Requena","from":"Salvacañete","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":18,"s":[[1402933780,16]]},
+  {"id":19618278,"t":{"ref":"420A","name":"Requena → Utiel → Landete → Salvacañete","from":"Requena","to":"Salcacañete","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":18,"s":[[13124064555,3]]},
+  {"id":19618280,"t":{"ref":"420B","name":"Landete → Utiel → Requena","from":"Landete","to":"Requena","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":11,"s":[[1402933780,9]]},
+  {"id":19618281,"t":{"ref":"420B","name":"Requena → Utiel → Landete","from":"Requena","to":"Landete","network":"Transport Públic Generalitat Valenciana","operator":"Autocares MAPEX","route":"bus","public_transport:version":"2"},"n":11,"s":[[13124064555,3]]}
+]
+}

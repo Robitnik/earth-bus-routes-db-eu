@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2629,3630],
+"stops":[
+  {"id":386507699,"lat":41.470603,"lon":1.532717,"k":"x","n":"Carretera d'Igualada amb Carretera de Vilafranca"},
+  {"id":386805768,"lat":41.485164,"lon":1.54902,"k":"x","n":"Ctra. BV-2136 - Les Vilates. tornada"},
+  {"id":4489401055,"lat":41.490173,"lon":1.514151,"k":"x","n":"Ctra. C-37 (Restaurant Miralles) tornada"},
+  {"id":5584380334,"lat":41.470531,"lon":1.532849,"k":"p","n":"Carretera d'Igualada amb Carretera de Vilafranca"},
+  {"id":13715952036,"lat":41.473326,"lon":1.530542,"k":"p","n":"Ctra. BP-2121 (bombers)"},
+  {"id":13715952037,"lat":41.473281,"lon":1.530501,"k":"x","n":"Ctra. BP-2121 (bombers)"},
+  {"id":13715952038,"lat":41.473255,"lon":1.530477,"k":"p","n":"Ctra. BP-2121 (bombers)"},
+  {"id":13715952039,"lat":41.490238,"lon":1.514234,"k":"p","n":"Ctra. C-37 (Restaurant Miralles) tornada"},
+  {"id":13715952040,"lat":41.490128,"lon":1.514328,"k":"x","n":"Ctra. C-37 (Restaurant Miralles) anada"},
+  {"id":13715952041,"lat":41.490087,"lon":1.514303,"k":"p","n":"Ctra. C-37 (Restaurant Miralles) anada"},
+  {"id":13715986430,"lat":41.485057,"lon":1.548854,"k":"x","n":"Ctra. BV-2136 - Les Vilates. anada"},
+  {"id":13715986431,"lat":41.485018,"lon":1.548875,"k":"p","n":"Ctra. BV-2136 - Les Vilates. anada"},
+  {"id":13715986432,"lat":41.485191,"lon":1.549001,"k":"p","n":"Ctra. BV-2136 - Les Vilates. tornada"}
+],
+"routes":[
+  {"id":8253570,"t":{"ref":"e18","name":"e18: Sant Sadurní d'Anoia - Barcelona (AP-7)","from":"La Llacuna","to":"Barcelona (Zona Universitària)","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Hillsa","colour":"#409183","route":"bus","public_transport:version":"2"},"n":15,"s":[[5584380334,1]]},
+  {"id":8253571,"t":{"ref":"e18","name":"e18: Barcelona - Sant Sadurní d'Anoia (AP-7)","from":"Barcelona","to":"La Llacuna","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Hillsa","colour":"#409183","route":"bus","public_transport:version":"2"},"n":15,"s":[[5584380334,15]]},
+  {"id":20419475,"t":{"ref":"N2","name":"N2 Igualada => La Llacuna","from":"Igualada","to":"La Llacuna","operator":"DIREXIS MASATS","route":"bus","public_transport:version":"2"},"n":23,"s":[[13715952041,19],[13715952038,20],[5584380334,21],[13715986431,22]]},
+  {"id":20419567,"t":{"ref":"N2","name":"N2 La Llacuna => Igualada","from":"La Llacuna","to":"Igualada","operator":"DIREXIS MASATS","route":"bus","public_transport:version":"2"},"n":22,"s":[[13715986432,2],[5584380334,3],[13715952036,4],[13715952039,5]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2556,3580],
+"stops":[
+  {"id":737198160,"lat":37.818685,"lon":-0.956078,"k":"p","n":"Balsicas - Estacion de Servicio"},
+  {"id":7699798305,"lat":37.818592,"lon":-0.956397,"k":"p","n":"Balsicas - Estacion de Servicio"},
+  {"id":12075145957,"lat":37.802352,"lon":-0.998524,"k":"p","n":"Lo Ferro","ref":"7472"},
+  {"id":12075145958,"lat":37.80243,"lon":-0.998658,"k":"p","n":"Lo Ferro","ref":"7472"},
+  {"id":12102836430,"lat":37.819315,"lon":-0.951147,"k":"p","n":"Balsicas - Estacion ADIF"},
+  {"id":13398363201,"lat":37.819334,"lon":-0.951192,"k":"p","n":"Balsicas - Renfe","ref":"7474"},
+  {"id":13398363202,"lat":37.818589,"lon":-0.956353,"k":"p","n":"Balsicas","ref":"7473"},
+  {"id":13398377278,"lat":37.818681,"lon":-0.956132,"k":"p","n":"Balsicas","ref":"7466"}
+],
+"routes":[
+  {"id":5892827,"t":{"name":"Murcia → Campoamor","from":"Murcia","to":"Campoamor","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":31,"s":[[7699798305,3]]},
+  {"id":5892938,"t":{"name":"Murcia → Pilar de la Horadada","from":"Murcia","to":"Pilar de la Horadada","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":21,"s":[[7699798305,3]]},
+  {"id":5893010,"t":{"name":"Murcia → Torre de la Horadada","from":"Murcia","to":"Torre de la Horadada","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":26,"s":[[7699798305,3]]},
+  {"id":11287397,"t":{"name":"Campoamor → Murcia","from":"Campoamor","to":"Murcia","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":31,"s":[[737198160,30]]},
+  {"id":11291860,"t":{"name":"Pilar de la Horadada → Murcia","from":"Pilar de la Horadada","to":"Murcia","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":22,"s":[[737198160,19]]},
+  {"id":11291861,"t":{"name":"Torre de la Horadada → Murcia","from":"Torre de la Horadada","to":"Murcia","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":26,"s":[[737198160,25]]},
+  {"id":17877179,"t":{"ref":"45","name":"45: Cartagena → Balsicas","from":"Cartagena","to":"Balsicas","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":13,"s":[[12075145957,11],[13398363202,12],[13398363201,13]]},
+  {"id":17877180,"t":{"ref":"45","name":"45: Balsicas → Cartagena","from":"Balsicas","to":"Cartagena","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":13,"s":[[13398363201,1],[13398377278,2],[12075145958,3]]},
+  {"id":17880547,"t":{"ref":"49","name":"49: San Pedro del Pinatar → Roldán","from":"San Pedro del Pinatar","to":"Roldán","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":24,"s":[[13398377278,22],[12075145958,23]]},
+  {"id":17880549,"t":{"ref":"49","name":"49: Roldán → San Pedro del Pinatar","from":"Roldán","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":23,"s":[[12075145957,2],[13398363202,3]]},
+  {"id":17924538,"t":{"ref":"L2","name":"L2: Dolores → Torre Pacheco","from":"Dolores","to":"Torre Pacheco","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#213C89","route":"bus","public_transport:version":"2"},"n":11,"s":[[12102836430,2],[737198160,3]]},
+  {"id":17924539,"t":{"ref":"L2","name":"L2: Torre Pacheco → Dolores","from":"Torre Pacheco","to":"Dolores","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#213C89","route":"bus","public_transport:version":"2"},"n":11,"s":[[7699798305,9],[12102836430,10]]}
+]
+}

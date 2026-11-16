@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2639,3661],
+"stops":[
+  {"id":3629476216,"lat":41.951658,"lon":3.089856,"k":"x","n":"Sant Climent de Peralta"},
+  {"id":4014795624,"lat":41.975739,"lon":3.070349,"k":"x","n":"Forallac","ref":"16629"},
+  {"id":4972400608,"lat":41.975749,"lon":3.070235,"k":"x","n":"Forallac. Canapost (Dir. La Bisbal)","ref":"16095"},
+  {"id":5536219249,"lat":41.958042,"lon":3.055426,"k":"p","n":"Forallac, Vulpellac (direcció a Bisbal)","ref":"16820"},
+  {"id":5536219250,"lat":41.975745,"lon":3.070191,"k":"p","n":"Forallac, Canapost (Dir. La Bisbal)","ref":"16095"},
+  {"id":5536219251,"lat":41.979181,"lon":3.089769,"k":"p","n":"Peratallada (Dir. La Bisbal)","ref":"16096"},
+  {"id":5536219270,"lat":41.978966,"lon":3.090132,"k":"p","n":"Peratallada (Dir. Palafrugell)","ref":"16672"},
+  {"id":5536219271,"lat":41.975719,"lon":3.070381,"k":"p","n":"Forallac (Dir. Torroella)","ref":"16629"},
+  {"id":5536219272,"lat":41.957868,"lon":3.055429,"k":"p","n":"Forallac, Vulpellac (direcció Palamos)","ref":"16098"},
+  {"id":5553520692,"lat":41.957953,"lon":3.055432,"k":"x","n":"Forallac, Vulpellac"},
+  {"id":5553520694,"lat":41.979054,"lon":3.090091,"k":"x","n":"Peratallada"},
+  {"id":5560587786,"lat":41.951705,"lon":3.089902,"k":"p","n":"Sant Climent De Peralta (direcció Girona)","ref":"16791"},
+  {"id":13570073917,"lat":41.95159,"lon":3.089844,"k":"p","n":"Sant Climent de Peralta (dir. Palamós)","ref":"16097"}
+],
+"routes":[
+  {"id":8188432,"t":{"ref":"8","name":"8: Palafrugell - Begur - Girona","from":"Palafrugell","to":"Girona","network":"ATM Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":26,"s":[[5536219251,10],[5536219249,11]]},
+  {"id":8199026,"t":{"ref":"8","name":"8: Girona - Begur - Palafrugell","from":"Girona","to":"Palafrugell","network":"ATM Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":28,"s":[[5536219272,16],[5536219271,17],[5536219270,18]]},
+  {"id":20209781,"t":{"ref":"5","name":"Línia 5 Girona => Costa Brava Centre => Caldes de Malavella","from":"Girona","to":"Caldes de Malavella","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":53,"s":[[5536219272,19],[13570073917,20]]},
+  {"id":20218084,"t":{"ref":"5","name":"Línia 5 Caldes de Malavella => Costa Brava Centre => Girona","from":"Caldes de Malavella","to":"Girona","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":50,"s":[[5560587786,31],[5536219249,32]]},
+  {"id":20250900,"t":{"ref":"17","name":"Línia 17 Palafrugell => La Bisbal => Figueres","from":"Palafrugell","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[5560587786,5],[5536219249,6]]},
+  {"id":20251000,"t":{"ref":"17","name":"Línia 17 Figueres => La Bisbal => Palafrugell","from":"Figueres","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[5536219272,20],[13570073917,21]]},
+  {"id":20266375,"t":{"ref":"21","name":"Línia 21 Torroella de Montgrí => Vulpellac => La Bisbal","from":"Torroella de Montgrí","to":"La Bisbal","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":6,"s":[[5536219250,3],[5536219249,4]]},
+  {"id":20266382,"t":{"ref":"21","name":"Línia 21 La Bisbal => Vulpellac => Torroella de Montgrí","from":"La Bisbal","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":7,"s":[[5536219272,3],[5536219271,4]]},
+  {"id":20269451,"t":{"ref":"22","name":"Línia 22 Palafrugell => Peratallada => La Bisbal","from":"Palafrugell","to":"La Bisbal","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5536219251,14],[5536219250,15],[5536219249,16]]},
+  {"id":20269693,"t":{"ref":"22","name":"Línia 22 La Bisbal => Peratallada => Palafrugell","from":"La Bisbal","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5536219272,4],[5536219271,5],[5536219270,6]]}
+]
+}

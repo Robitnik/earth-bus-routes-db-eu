@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2594,3669],
+"stops":[
+  {"id":296849720,"lat":39.721069,"lon":3.455483,"k":"x","n":"Cala Agulla"},
+  {"id":494222512,"lat":39.719141,"lon":3.457631,"k":"x"},
+  {"id":494222807,"lat":39.706149,"lon":3.45591,"k":"p","n":"Son Moll (Cala Rajada)","ref":"14011"},
+  {"id":3045772528,"lat":39.716563,"lon":3.460259,"k":"x","n":"Hostal Alcina"},
+  {"id":3045772530,"lat":39.718997,"lon":3.458162,"k":"x","n":"Hotel Bosc de Mar"},
+  {"id":3045779136,"lat":39.710363,"lon":3.460427,"k":"x","n":"Plaça dels Pins"},
+  {"id":3045779144,"lat":39.711926,"lon":3.459554,"k":"x","n":"Restaurante Mesón"},
+  {"id":3045779145,"lat":39.70612,"lon":3.455983,"k":"x","n":"Son Moll Beach"},
+  {"id":3706869629,"lat":39.715274,"lon":3.457275,"k":"p","n":"Cala Agulla 2 (Cala Rajada)","ref":"14014"},
+  {"id":3706869632,"lat":39.711255,"lon":3.458836,"k":"p","n":"Cala Rajada centre (Cala Rajada)","ref":"14032"},
+  {"id":4866294401,"lat":39.709471,"lon":3.457225,"k":"p","n":"Magallanes (Cala Rajada)","ref":"14034"},
+  {"id":4897578327,"lat":39.717493,"lon":3.463377,"k":"p","n":"Hotel Allsun Illot Park"},
+  {"id":4897578328,"lat":39.71441,"lon":3.46508,"k":"p","n":"Restaurante Los Arcos"},
+  {"id":4897578330,"lat":39.706086,"lon":3.455979,"k":"p","n":"Son Moll Beach"},
+  {"id":4897578331,"lat":39.704716,"lon":3.454633,"k":"p","n":"Hotel Na Forana"},
+  {"id":4897624743,"lat":39.706167,"lon":3.455944,"k":"p","n":"Son Moll Beach"},
+  {"id":9287558337,"lat":39.715103,"lon":3.457176,"k":"p","n":"Cala Agulla","ref":"14036"},
+  {"id":9555148607,"lat":39.700056,"lon":3.454176,"k":"p","n":"Sa Pedruscada","ref":"14042"},
+  {"id":9555148608,"lat":39.700283,"lon":3.454359,"k":"p","n":"Sa Pedruscada","ref":"14041"}
+],
+"routes":[
+  {"id":4056837,"t":{"ref":"Mini Tren","name":"Mini Tren: Font de Sa Cala Beach → Cala Agulla Beach","from":"Font de Sa Cala Beach","to":"Cala Agulla Beach","network":"Mini Tren","operator":"Asociación Hotelera de Calas de Capdepera","route":"bus","public_transport:version":"2"},"n":2,"s":[[3045779136,1],[296849720,2]]},
+  {"id":5455101,"t":{"ref":"422","name":"Bus 422: Cala Mesquida => Cala Rajada","from":"Cala Mesquida","to":"Cala Rajada","network":"Transports públics de Mallorca","operator":"Sagalés Caldentey","colour":"#7d6c37","route":"bus","public_transport:version":"2"},"n":4,"s":[[4866294401,3],[9287558337,4]]},
+  {"id":7309729,"t":{"ref":"411","name":"Bus 411: Manacor => Cala Rajada","from":"Manacor","to":"Cala Rajada","network":"Transports públics de Mallorca","operator":"Sagalés Caldentey","colour":"#e55900","route":"bus","public_transport:version":"2"},"n":11,"s":[[4866294401,10],[9287558337,11]]},
+  {"id":7312271,"t":{"ref":"Mini Tren","name":"Mini Tren: Cala Agulla Beach → Font de sa Cala Beach","from":"Cala Agulla Beach","to":"Font de sa Cala Beach","network":"Mini Tren","operator":"Asociación Hotelera de Calas de Capdepera","route":"bus","public_transport:version":"2"},"n":5,"s":[[296849720,1],[3045772530,2],[3045772528,3],[3045779144,4],[3045779145,5]]},
+  {"id":7312345,"t":{"ref":"411","name":"Bus 411: Cala Rajada => Manacor","from":"Cala Rajada","to":"Manacor","network":"Transport públic de Mallorca","operator":"Bus Red","colour":"#e55900","route":"bus","public_transport:version":"2"},"n":13,"s":[[9287558337,1],[3706869632,2],[494222807,3]]},
+  {"id":17856276,"t":{"ref":"424","name":"Bus 424: Portocristo => Cala Rajada","from":"Portocristo","to":"Cala Rajada","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#522e55","route":"bus","public_transport:version":"2"},"n":19,"s":[[4866294401,18],[9287558337,19]]},
+  {"id":17856277,"t":{"ref":"424","name":"Bus 424: Cala Rajada => Portocristo","from":"Cala Rajada","to":"Portocristo","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#522e55","route":"bus","public_transport:version":"2"},"n":21,"s":[[9287558337,1],[3706869632,2],[494222807,3]]},
+  {"id":17858814,"t":{"ref":"422","name":"Bus 422: Cala Rajada => Cala Mesquida","from":"Cala Rajada","to":"Cala Mesquida","network":"Transports públics de Mallorca","operator":"Sagalés Caldentey","colour":"#7d6c37","route":"bus","public_transport:version":"2"},"n":5,"s":[[9287558337,1],[3706869632,2],[494222807,3]]},
+  {"id":17858898,"t":{"ref":"423","name":"Bus 423: Cala Rajada => Font de sa Cala","from":"Cala Rajada","to":"Font de sa Cala","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#93cb36","route":"bus","public_transport:version":"2"},"n":9,"s":[[9287558337,1],[3706869632,2],[494222807,3],[9555148607,5]]},
+  {"id":17858899,"t":{"ref":"423","name":"Bus 423: Font de sa Cala => Cala Rajada","from":"Font de sa Cala","to":"Cala Rajada","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#93cb36","route":"bus","public_transport:version":"2"},"n":8,"s":[[9555148608,5],[4866294401,7],[9287558337,8]]},
+  {"id":18405364,"t":{"ref":"325","name":"Bus 325: Alcúdia → Cala Rajada","from":"Alcúdia","to":"Cala Rajada","network":"Transports públics de Mallorca","operator":"Grupo Ruiz","route":"bus","public_transport:version":"2"},"n":22,"s":[[4866294401,21],[3706869629,22]]},
+  {"id":18405514,"t":{"ref":"325","name":"Bus 325: Cala Rajada → Alcúdia","from":"Cala Rajada","to":"Alcúdia","network":"Transports públics de Mallorca","operator":"Grupo Ruiz","route":"bus","public_transport:version":"2"},"n":24,"s":[[3706869629,1],[3706869632,2],[494222807,3]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2535,3519],
+"stops":[
+  {"id":3060453439,"lat":36.771817,"lon":-4.038931,"k":"p","n":"Algarrobo Pueblo"},
+  {"id":4532283174,"lat":36.771567,"lon":-4.039084,"k":"x","n":"Algarrobo Pueblo"},
+  {"id":7700333408,"lat":36.797492,"lon":-4.012442,"k":"p","n":"Sayalonga"},
+  {"id":7700333409,"lat":36.797654,"lon":-4.012928,"k":"p","n":"Sayalonga"},
+  {"id":14052374282,"lat":36.768521,"lon":-4.041648,"k":"x","n":"Avenida de Karat"},
+  {"id":14052374283,"lat":36.76851,"lon":-4.041614,"k":"p","n":"Avenida de Karat"},
+  {"id":14052374284,"lat":36.76831,"lon":-4.041778,"k":"x","n":"Avenida de Karat"},
+  {"id":14052374285,"lat":36.768349,"lon":-4.041849,"k":"p","n":"Avenida de Karat"},
+  {"id":14052374286,"lat":36.771534,"lon":-4.039072,"k":"p","n":"Algarrobo Pueblo"},
+  {"id":14052374287,"lat":36.771766,"lon":-4.038886,"k":"x","n":"Algarrobo Pueblo"},
+  {"id":14053493217,"lat":36.75458,"lon":-4.046779,"k":"x","n":"Complejo deportivo municipal La Vega"},
+  {"id":14053493218,"lat":36.754639,"lon":-4.046736,"k":"p","n":"Complejo deportivo municipal La Vega"},
+  {"id":14053663475,"lat":36.797615,"lon":-4.012928,"k":"x","n":"Sayalonga"},
+  {"id":14053663476,"lat":36.797534,"lon":-4.012428,"k":"x","n":"Sayalonga"}
+],
+"routes":[
+  {"id":11288206,"t":{"ref":"VJA-080","name":"M-370: Málaga → Canillas de Albaida (por Torre del Mar y Algarrobo)","from":"Estación de Málaga","to":"Canillas de Albaida","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[14052374283,11],[14052374286,12],[7700333408,13]]},
+  {"id":11288207,"t":{"ref":"M-370","name":"M-370: Canillas de Albaida → Málaga (por Algarrobo y Torre del Mar)","from":"Canillas de Albaida","to":"Estación de Málaga","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[7700333409,3],[3060453439,4],[14052374285,5]]},
+  {"id":21151707,"t":{"ref":"VJA-080","name":"Urbano: Mezquitilla → Algarrobo Pueblo","from":"Mezquitilla","to":"Algarrobo Pueblo","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":7,"s":[[14052374283,6],[3060453439,7]]},
+  {"id":21151765,"t":{"ref":"VJA-080","name":"Urbano: Algarrobo Pueblo → Mezquitilla","from":"Algarrobo Pueblo","to":"Mezquitilla","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":7,"s":[[3060453439,1],[14052374285,2]]},
+  {"id":21151824,"t":{"ref":"VJA-080","name":"Urbano: Algarrobo Pueblo → La Vega (Mezquitilla)","from":"Algarrobo Pueblo","to":"Complejo deportivo municipal La Vega","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[3060453439,1],[14052374285,2],[14053493218,8]]},
+  {"id":21151825,"t":{"ref":"VJA-080","name":"Urbano: La Vega (Mezquitilla) → Algarrobo Pueblo","from":"Complejo deportivo municipal La Vega","to":"Algarrobo Pueblo","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[14053493218,1],[14052374283,7],[3060453439,8]]},
+  {"id":21152317,"t":{"ref":"M-370","name":"M-370: Corumbela→ Málaga (por Canillas de Albaida, Algarrobo y Torre del Mar)","from":"Corumbela","to":"Estación de Málaga","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":16,"s":[[7700333409,5],[3060453439,6],[14052374285,7]]},
+  {"id":21152478,"t":{"ref":"VJA-080","name":"M-370: Málaga → Corumbela (por Torre del Mar, Algarrobo y Canillas de Albaida)","from":"Estación de Málaga","to":"Corumbela","operator":"Loymerbus","route":"bus","public_transport:version":"2"},"n":17,"s":[[14052374283,11],[14052374286,12],[7700333408,13]]}
+]
+}

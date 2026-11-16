@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2812,3721],
+"stops":[
+  {"id":1165937235,"lat":50.626706,"lon":6.054019,"k":"p","n":"Eupen Voulfeld"},
+  {"id":1182634234,"lat":50.620117,"lon":6.050389,"k":"p","n":"Eupen Bellmerin"},
+  {"id":1578740316,"lat":50.610836,"lon":6.062664,"k":"p","n":"Eupen Kaplan-Arnold-Straße"},
+  {"id":1578740317,"lat":50.610731,"lon":6.063492,"k":"p","n":"Eupen Kaplan-Arnold-Straße"},
+  {"id":1578740320,"lat":50.614522,"lon":6.054916,"k":"p","n":"Eupen Meier-Dael-Weg"},
+  {"id":1578740321,"lat":50.614598,"lon":6.054983,"k":"p","n":"Eupen Meier-Dael-Weg"},
+  {"id":1611555662,"lat":50.609585,"lon":6.067665,"k":"x","n":"Eupen Zur Clouse"},
+  {"id":2941637616,"lat":50.62758,"lon":6.056267,"k":"p","n":"Eupen Vossenberg"},
+  {"id":2941637617,"lat":50.630828,"lon":6.052468,"k":"p","n":"Eupen Roll Crucifix"},
+  {"id":2941680024,"lat":50.624762,"lon":6.050304,"k":"p","n":"Eupen Institut Belle-Vue"},
+  {"id":2955183015,"lat":50.609343,"lon":6.068338,"k":"p","n":"Eupen Zur Clouse"},
+  {"id":2955183016,"lat":50.609605,"lon":6.067803,"k":"p","n":"Eupen Zur Clouse"},
+  {"id":9554399898,"lat":50.620063,"lon":6.050382,"k":"x"},
+  {"id":11138487538,"lat":50.609425,"lon":6.068281,"k":"x","n":"Eupen Zur Clouse"},
+  {"id":11353735481,"lat":50.614542,"lon":6.054968,"k":"x","n":"Eupen Meier-Dael-Weg"},
+  {"id":11353735482,"lat":50.614575,"lon":6.054927,"k":"x","n":"Eupen Meier-Dael-Weg"},
+  {"id":11353735483,"lat":50.610673,"lon":6.063463,"k":"x","n":"Eupen Kaplan-Arnold-Straße"},
+  {"id":11353735484,"lat":50.610875,"lon":6.062685,"k":"x","n":"Eupen Kaplan-Arnold-Straße"},
+  {"id":6013739294239,"lat":50.607733,"lon":6.07499,"k":"p","n":"Eupen, Zur Clouse","g":1},
+  {"id":6085002445231,"lat":50.607602,"lon":6.074895,"k":"p","n":"Eupen, Zur Clouse","g":1}
+],
+"routes":[
+  {"id":5259307,"t":{"ref":"725","name":"Bus 725: Eupen Bellmerin → Eupen Bushof","from":"Eupen Bellmerin","to":"Eupen Bushof","network":"TECL","operator":"TEC","route":"bus","public_transport:version":"2"},"n":8,"s":[[1182634234,1]]},
+  {"id":5259308,"t":{"ref":"725","name":"Bus 725: Eupen Bushof → Eupen Bellmerin","from":"Eupen Bushof","to":"Eupen Bellmerin","network":"TECL","operator":"TEC","route":"bus","public_transport:version":"2"},"n":15,"s":[[1182634234,15]]},
+  {"id":5259309,"t":{"ref":"725","name":"Bus 725: Eupen Bushof → Eupen Bellmerin","from":"Eupen Bushof","to":"Eupen Bellmerin","network":"TECL","operator":"TEC","route":"bus","public_transport:version":"2"},"n":11,"s":[[1182634234,11]]},
+  {"id":14984552,"t":{"ref":"825","name":"Bus 825: Eupen Bushof → Eupen Bushof","from":"Eupen Bushof","to":"Eupen Bushof","network":"TECL","operator":"TEC","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":22,"s":[[2941637617,5],[2941637616,6],[1165937235,7,10],[2941680024,11]]},
+  {"id":14984553,"t":{"ref":"825","name":"Bus 825: Eupen Bushof → Eupen Bushof","from":"Eupen Bushof","to":"Eupen Bushof","network":"TECL","operator":"TEC","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":28,"s":[[2941637617,5],[2941637616,6],[1165937235,7,10],[2941680024,11],[1182634234,16]]},
+  {"id":18290020,"t":{"ref":"825","name":"Bus 825: Eupen Bushof → Eupen Bellmerin","from":"Eupen Bushof","to":"Eupen Bellmerin","network":"TECL","operator":"TEC","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":16,"s":[[2941637617,5],[2941637616,6],[1165937235,7,10],[2941680024,11],[1182634234,16]]},
+  {"id":18293001,"t":{"ref":"385","name":"Bus 385: Monschau Altstadt => Eupen Bushof","from":"Monschau Altstadt","to":"Eupen Bushof","network":"Aachener Verkehrsverbund;TECL","operator":"ASEAG;TEC","colour":"#916403","route":"bus","public_transport:version":"2"},"n":19,"s":[[2955183016,12],[1578740317,13],[1578740321,14]]},
+  {"id":3043201733878,"t":{"ref":"385","name":"385: Eupen, Bushof - Monschau, Kalterherberg Bahnhof","from":"Eupen, Bushof","to":"Monschau, Kalterherberg Bahnhof","operator":"Aachener Straßenbahn- und Energieversorgungs-AG","route":"bus","public_transport:version":"2"},"n":34,"s":[[1578740320,6],[2955183015,7],[6085002445231,8]]},
+  {"id":3053789256291,"t":{"ref":"385","name":"385: Monschau, Kalterherberg Bahnhof - Eupen, Bushof","from":"Monschau, Kalterherberg Bahnhof","to":"Eupen, Bushof","operator":"Aachener Straßenbahn- und Energieversorgungs-AG","route":"bus","public_transport:version":"2"},"n":32,"s":[[6013739294239,25],[2955183016,26],[11353735481,27]]},
+  {"id":3086801523120,"t":{"ref":"385","name":"Bus 385: Eupen Bushof => Monschau Altstadt","from":"Eupen Bushof","to":"Monschau Altstadt","network":"Aachener Verkehrsverbund;TECL","operator":"ASEAG;TEC","colour":"#916403","route":"bus","public_transport:version":"2"},"n":26,"s":[[1578740320,6],[2955183015,7],[6085002445231,8]]}
+]
+}

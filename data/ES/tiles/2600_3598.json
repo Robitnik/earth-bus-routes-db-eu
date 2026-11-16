@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2600,3598],
+"stops":[
+  {"id":1151150813,"lat":40.01392,"lon":-0.091124,"k":"p","n":"Pista de exámenes"},
+  {"id":1151154743,"lat":40.014106,"lon":-0.09099,"k":"p","n":"Pista de exámenes"},
+  {"id":3269211044,"lat":40.011601,"lon":-0.052227,"k":"p"},
+  {"id":7978190458,"lat":40.032322,"lon":-0.082565,"k":"p","n":"Vall d'Umbri"},
+  {"id":9402027511,"lat":40.000314,"lon":-0.052701,"k":"p","n":"Quadra Segona, 57"},
+  {"id":9402027512,"lat":40.000349,"lon":-0.052723,"k":"x","n":"Quadra Segona, 57"},
+  {"id":9402027516,"lat":40.001166,"lon":-0.075161,"k":"x","n":"Rotonda Hospital la Magdalena"},
+  {"id":9402038217,"lat":40.001092,"lon":-0.075216,"k":"p","n":"Rotonda Hospital la Magdalena"},
+  {"id":9402038218,"lat":40.004188,"lon":-0.074538,"k":"p","n":"Hospital La Magdalena"},
+  {"id":9402038224,"lat":40.001987,"lon":-0.075498,"k":"x","n":"Rotonda Hospital la Magdalena"},
+  {"id":9402038225,"lat":40.002076,"lon":-0.075397,"k":"p","n":"Rotonda Hospital la Magdalena"},
+  {"id":9422115439,"lat":40.003483,"lon":-0.082735,"k":"x","n":"Nou Cementeri"},
+  {"id":9422115440,"lat":40.003519,"lon":-0.082895,"k":"p","n":"Nou Cementeri"},
+  {"id":12066938167,"lat":40.039411,"lon":-0.076573,"k":"p","n":"Borriol (entrada sur)"},
+  {"id":12066938168,"lat":40.039325,"lon":-0.076517,"k":"p","n":"Borriol (entrada sur)"},
+  {"id":12066976069,"lat":40.040444,"lon":-0.071722,"k":"p","n":"Borriol (centro)"},
+  {"id":12066976070,"lat":40.040464,"lon":-0.071864,"k":"p","n":"Borriol (centro) Avda. Zaragoza"},
+  {"id":12066976071,"lat":40.041608,"lon":-0.066585,"k":"p","n":"Borriol (norte)"},
+  {"id":12066976072,"lat":40.041801,"lon":-0.066164,"k":"p","n":"Borriol (norte) Avda. Zaragoza"},
+  {"id":13803360291,"lat":40.004168,"lon":-0.074648,"k":"x","n":"Hospital La Magdalena"},
+  {"id":13938673473,"lat":40.031807,"lon":-0.082869,"k":"p","n":"Vall d'Umbri"}
+],
+"routes":[
+  {"id":3896136,"t":{"ref":"L3","name":"L3 Basílica del Lledó- Hospital Magadalena","from":"Basílica del Lledó","to":"Rtda. Hospital","network":"Transport Urbà de Castelló","operator":"Autotransportes Colectivos Castellonenses, Sociedad Anónima","colour":"brown","route":"bus","public_transport:version":"2"},"n":19,"s":[[9402038225,18],[9402038218,19]]},
+  {"id":3941945,"t":{"ref":"L13","name":"L13 Passeig Ribalta- Nou Cementeri","from":"Passeig Ribalta","to":"Nou cementeri","network":"Transport Urbà de Castelló","operator":"Autotransportes Colectivos Castellonenses, Sociedad Anónima","colour":"blue","route":"bus","public_transport:version":"2"},"n":12,"s":[[9402038225,11],[9422115440,12]]},
+  {"id":9820476,"t":{"ref":"L13","name":"L13 Nou Cementeri - Passeig Ribalta","from":"Nou cementeri","to":"Passeig Ribalta","network":"Transport Urbà de Castelló","operator":"Autotransportes Colectivos Castellonenses, Sociedad Anónima","colour":"blue","route":"bus","public_transport:version":"2"},"n":11,"s":[[9422115440,1],[9402038217,2]]},
+  {"id":9820484,"t":{"ref":"L3","name":"L3 Hospital Magadalena-Basílica del Lledó","from":"Basílica del Lledó","to":"Rtda. Hospital","network":"Transport Urbà de Castelló","operator":"Autotransportes Colectivos Castellonenses, Sociedad Anónima","colour":"brown","route":"bus","public_transport:version":"2"},"n":16,"s":[[9402038218,1],[9402038217,2],[9402027511,6]]},
+  {"id":17862617,"t":{"from":"Castelló de la Plana","to":"Morella","operator":"Autos Mediterráneo","route":"bus","public_transport:version":"2"},"n":16,"s":[[12066976069,3],[12066976071,4]]},
+  {"id":17862824,"t":{"from":"Morella","to":"Castelló de la Plana","operator":"Autos Mediterráneo","route":"bus","public_transport:version":"2"},"n":16,"s":[[12066976072,13],[12066976070,14],[9402038217,15]]},
+  {"id":21110843,"t":{"ref":"L3","name":"Castelló → UJI → Roser → Hospital → Borriol","from":"Borriol","to":"Castelló","network":"AMSA","operator":"Autos Mediterráneo","route":"bus","public_transport:version":"2"},"n":17,"s":[[12066976072,1],[12066976070,2],[12066938167,3],[7978190458,4],[1151150813,5],[9402038217,6]]},
+  {"id":21110845,"t":{"ref":"L3","name":"Castelló → UJI → Roser → Hospital → Borriol","from":"Castello","to":"Borriol","network":"AMSA","operator":"Autos Mediterráneo","route":"bus","public_transport:version":"2"},"n":19,"s":[[9402038225,13],[9402038218,14],[1151154743,15],[13938673473,16],[12066938168,17],[12066976069,18],[12066976071,19]]}
+]
+}

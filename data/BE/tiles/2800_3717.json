@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2800,3717],
+"stops":[
+  {"id":1374528753,"lat":50.04559,"lon":5.876625,"k":"x","n":"Troine-Route, Op der Strooss"},
+  {"id":1374528819,"lat":50.045566,"lon":5.876593,"k":"p","n":"Troine-Route, Op der Strooss"},
+  {"id":1693734185,"lat":50.016113,"lon":5.857645,"k":"p","n":"Oberwampach, Bréck"},
+  {"id":5770585120,"lat":50.016056,"lon":5.860866,"k":"x","n":"Oberwampach, Duerefstrooss Belzen"},
+  {"id":5770585122,"lat":50.01611,"lon":5.860851,"k":"p","n":"Oberwampach, Duerefstrooss Belzen"},
+  {"id":5770585123,"lat":50.015985,"lon":5.857528,"k":"p","n":"Oberwampach, Bréck"},
+  {"id":5773107729,"lat":50.035502,"lon":5.870229,"k":"p","n":"Allerborn, Duerefstrooss"},
+  {"id":5773107730,"lat":50.034587,"lon":5.872489,"k":"p","n":"Allerborn, Kräizung"},
+  {"id":5773107731,"lat":50.036291,"lon":5.877989,"k":"p","n":"Allerborn, Bläiminnestrooss"},
+  {"id":5773107732,"lat":50.036182,"lon":5.877975,"k":"p","n":"Allerborn, Bläiminnestrooss"}
+],
+"routes":[
+  {"id":8461769,"t":{"ref":"142","name":"RGTR 142: Oberwampach, Belzen => Wiltz, Lycée du Nord","from":"Oberwampach, Belzen","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":4,"s":[[5770585122,1],[1693734185,2]]},
+  {"id":8461770,"t":{"ref":"142","name":"RGTR 142: Wiltz, Lycée du Nord => Oberwampach, Belzen","from":"Wiltz, Lycée du Nord","to":"Oberwampach, Belzen","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":4,"s":[[5770585123,3],[5770585122,4]]},
+  {"id":8463484,"t":{"ref":"176","name":"RGTR 176: Troisvierges, Gare => Troine-Route, Op der Strooss","from":"Troisvierges, Gare","to":"Troine-Route, Op der Strooss","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":7,"s":[[1374528819,7]]},
+  {"id":8463485,"t":{"ref":"176","name":"RGTR 176: Troine-Route, Op der Strooss => Troisvierges, Gare","from":"Troine-Route, Op der Strooss","to":"Troisvierges, Gare","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":7,"s":[[1374528819,1]]},
+  {"id":8475433,"t":{"ref":"151","name":"RGTR 151: Niederwampach, A Beetel => Wincrange, Centre Médical","from":"Niederwampach, A Beetel","to":"Wincrange, Centre Médical","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":4,"s":[[5770585123,3],[5770585122,4]]},
+  {"id":8475434,"t":{"ref":"151","name":"RGTR 151: Wincrange, Centre Médical => Niederwampach, A Beetel","from":"Wincrange, Centre Médical","to":"Niederwampach, A Beetel","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":4,"s":[[5770585122,1],[1693734185,2]]},
+  {"id":8545340,"t":{"ref":"161","name":"RGTR 161: Marnach, Geschäftszenter => Pommerloch, Theis","from":"Marnach, Geschäftszenter","to":"Pommerloch, Theis","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":3,"s":[[5773107731,1],[5773107729,2],[5773107730,3]]},
+  {"id":8545341,"t":{"ref":"161","name":"RGTR 161: Pommerloch, Theis => Marnach, Geschäftszenter","from":"Pommerloch, Theis","to":"Marnach, Geschäftszenter","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":3,"s":[[5773107731,1],[5773107730,2],[5773107729,3]]}
+]
+}

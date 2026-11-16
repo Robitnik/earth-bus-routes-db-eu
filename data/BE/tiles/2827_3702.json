@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2827,3702],
+"stops":[
+  {"id":2045297919,"lat":51.350932,"lon":5.132989,"k":"p","n":"Reusel Grens"},
+  {"id":2065706638,"lat":51.350921,"lon":5.131408,"k":"p","n":"Reusel Grens"},
+  {"id":2065706669,"lat":51.356676,"lon":5.144799,"k":"p","n":"Sportpark"},
+  {"id":4872818022,"lat":51.356637,"lon":5.145029,"k":"p","n":"Sportpark"},
+  {"id":5080012673,"lat":51.35084,"lon":5.131336,"k":"x"},
+  {"id":13818129570,"lat":51.380151,"lon":5.102463,"k":"p","n":"Zwartven"}
+],
+"routes":[
+  {"id":5177175,"t":{"ref":"380","name":"Bus 380: Geel Station → Reusel Grens","from":"Geel Station","to":"Reusel Grens","network":"VVR Kempen","operator":"De Lijn","colour":"#FFFFFF","route":"bus","public_transport:version":"2"},"n":40,"s":[[2065706638,40]]},
+  {"id":5177178,"t":{"ref":"380","name":"Bus 380: Reusel Grens → Geel Station","from":"Reusel Grens","to":"Geel Station","network":"VVR Kempen","operator":"De Lijn","colour":"#FFFFFF","route":"bus","public_transport:version":"2"},"n":41,"s":[[2065706638,1]]},
+  {"id":7542765,"t":{"ref":"43a","name":"Bus 43a: Reusel Busstation → Hoogstraten Van Aertselaerplein","from":"Busstation Reusel","to":"Hoogstraten Van Aertselaerplein","network":"VVR Kempen","operator":"De Lijn","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":55,"s":[[2065706669,1],[2065706638,2]]},
+  {"id":7542767,"t":{"ref":"43a","name":"Bus 43a: Hoogstraten Van Aertselaerplein → Reusel Busstation","from":"Hoogstraten Van Aertselaerplein","to":"Busstation Reusel","network":"VVR Kempen","operator":"De Lijn","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":54,"s":[[2045297919,53],[4872818022,54]]},
+  {"id":18470051,"t":{"ref":"43a","name":"Bus 43a: Hoogstraten Van Aertselaerplein → Reusel Busstation","from":"Hoogstraten Van Aertselaerplein","to":"Busstation Reusel","network":"VVR Kempen","operator":"De Lijn","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":59,"s":[[2045297919,58],[4872818022,59]]},
+  {"id":18470052,"t":{"ref":"43a","name":"Bus 43a: Reusel Busstation → Hoogstraten Van Aertselaerplein","from":"Busstation Reusel","to":"Hoogstraten Van Aertselaerplein","network":"VVR Kempen","operator":"De Lijn","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":55,"s":[[2065706669,1],[2065706638,2]]},
+  {"id":20672582,"t":{"ref":"flex","name":"Bravoflex hub Busstation, Reusel","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":5,"s":[[2065706669,1],[4872818022,2],[2065706638,3],[2045297919,4],[13818129570,5]]}
+]
+}

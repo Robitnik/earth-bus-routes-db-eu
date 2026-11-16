@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2641,3568],
+"stops":[
+  {"id":256729915,"lat":42.059041,"lon":-1.597817,"k":"p","n":"Intermodal"},
+  {"id":256730491,"lat":42.059004,"lon":-1.59746,"k":"s","n":"Estación de autobuses de Tudela"},
+  {"id":5035533781,"lat":42.053285,"lon":-1.597344,"k":"p","n":"Europa"},
+  {"id":5035546007,"lat":42.059214,"lon":-1.594523,"k":"p","n":"Peñica"},
+  {"id":5035546008,"lat":42.056203,"lon":-1.59366,"k":"p","n":"Cierva"},
+  {"id":5035553946,"lat":42.059453,"lon":-1.596877,"k":"p","n":"Alianto"},
+  {"id":8817610337,"lat":42.053646,"lon":-1.59858,"k":"p","n":"Avenida del Barrio 2"},
+  {"id":8817610338,"lat":42.053632,"lon":-1.595357,"k":"p","n":"Clarisas"},
+  {"id":13276320137,"lat":42.054827,"lon":-1.59812,"k":"p","n":"Plaza de Toros"},
+  {"id":13276320138,"lat":42.058471,"lon":-1.599675,"k":"p","n":"Cuesta de La Estación 8"}
+],
+"routes":[
+  {"id":7473187,"t":{"ref":"L 2","name":"Línea Roja","from":"Díaz Bravo 5","to":"Hospital","operator":"Ayuntamiento de Tudela","route":"bus","public_transport:version":"2"},"n":17,"s":[[256729915,4],[13276320138,5],[13276320137,6],[8817610337,7]]},
+  {"id":7473262,"t":{"ref":"L 1","name":"Línea Verde","route":"bus","public_transport:version":"2"},"n":26,"s":[[5035553946,1],[5035546007,2],[5035546008,3],[8817610338,4],[5035533781,5],[8817610337,6]]},
+  {"id":14206945,"t":{"ref":"301","name":"301 Iruña / Pamplona > Soria","from":"Iruña/Pamplona","to":"Soria","network":"NBus","operator":"CONDA","route":"bus","public_transport:version":"2"},"n":7,"s":[[256730491,6]]},
+  {"id":14207688,"t":{"ref":"301","name":"301 Soria > Iruña / Pamplona","from":"Soria","to":"Iruña/Pamplona","network":"NBus","operator":"CONDA","route":"bus","public_transport:version":"2"},"n":7,"s":[[256730491,3]]},
+  {"id":20376707,"t":{"ref":"350","name":"Pamplona/Iruña - Tudela - Zaragoza","from":"Pamplona/Iruña","to":"Zaragoza","network":"NBus","operator":"Hermanos Arriaga & Interbus","route":"bus"},"n":6,"s":[[256730491,3]]},
+  {"id":20378660,"t":{"ref":"351","name":"Tudela - Tarazona","from":"Tudela","to":"Tarazona","network":"NBus","route":"bus"},"n":12,"s":[[256730491,1]]},
+  {"id":20405386,"t":{"ref":"VAC-213","name":"VAC-213 Irun - Cartagena","from":"Irun","to":"Cartagena","network":"Autobuses de España","operator":"Bilmanbus","route":"bus"},"n":12,"s":[[256730491,5]]},
+  {"id":20405387,"t":{"ref":"VAC-213","name":"VAC-213 Irún - La Manga","from":"Irún","to":"La Manga del Mar Menor","network":"Autobuses de España","operator":"Bilmanbus","route":"bus"},"n":18,"s":[[256730491,5]]},
+  {"id":20598757,"t":{"ref":"VAC-213","name":"VAC-213 Cartagena → Irun","from":"Cartagena","to":"Irun","network":"Autobuses de España","operator":"Bilman Bus","route":"bus"},"n":12,"s":[[256730491,5]]},
+  {"id":20624221,"t":{"ref":"VAC-213","name":"VAC 213 La Manga → Irun","from":"La Manga","to":"Irun","network":"Autobuses de España","operator":"Bilman Bus","route":"bus"},"n":18,"s":[[256730491,13]]}
+]
+}

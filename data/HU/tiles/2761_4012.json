@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2761,4012],
+"stops":[
+  {"id":2343351422,"lat":48.065055,"lon":20.628446,"k":"p","n":"Bükkszentkereszt, Borostyán étterem"},
+  {"id":2679587520,"lat":48.098581,"lon":20.621247,"k":"p","n":"Szent István-barlang"},
+  {"id":2679587521,"lat":48.099166,"lon":20.621076,"k":"p","n":"Szent István-barlang"},
+  {"id":2679587522,"lat":48.094107,"lon":20.619578,"k":"p","n":"Lillafüred"},
+  {"id":2679587563,"lat":48.093859,"lon":20.619252,"k":"p"},
+  {"id":2952942984,"lat":48.062358,"lon":20.601946,"k":"p","n":"Rókafarm"},
+  {"id":3437752496,"lat":48.064995,"lon":20.624662,"k":"p","n":"Bükkszentkereszt, Kis-hollós"},
+  {"id":3437752497,"lat":48.068081,"lon":20.635193,"k":"p","n":"Bükkszentkereszt, autóbusz-forduló"},
+  {"id":5679047406,"lat":48.063026,"lon":20.601269,"k":"p","n":"Rókafarm"},
+  {"id":9116970222,"lat":48.06488,"lon":20.624299,"k":"p","n":"Bükkszentkereszt, Kis-hollós"}
+],
+"routes":[
+  {"id":2082903,"t":{"ref":"5","name":"5 => Lillafüred","from":"Felső-Majláth","to":"Lillafüred","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[2679587521,9],[2679587522,10]]},
+  {"id":7546420,"t":{"ref":"15","name":"15 => Lillafüred => Felső-Majláth","from":"Ómassa","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":18,"s":[[2679587521,8],[2679587522,9],[2679587520,10]]},
+  {"id":7546421,"t":{"ref":"15","name":"15 => Lillafüred => Ómassa","from":"Felső-Majláth","to":"Ómassa","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":18,"s":[[2679587521,9],[2679587522,10],[2679587520,11]]},
+  {"id":7546446,"t":{"ref":"5","name":"5 => Injekcióüzem => Lillafüred","from":"Felső-Majláth","to":"Lillafüred","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":11,"s":[[2679587521,10],[2679587522,11]]},
+  {"id":7546447,"t":{"ref":"5","name":"5 => Injekcióüzem => Felső-Majláth","from":"Lillafüred","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":11,"s":[[2679587522,1],[2679587520,2]]},
+  {"id":7546448,"t":{"ref":"5","name":"5 => Felső-Majláth","from":"Lillafüred","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[2679587522,1],[2679587520,2]]},
+  {"id":10981761,"t":{"ref":"15","name":"15 => Injekcióüzem => Lillafüred => Ómassa","from":"Felső-Majláth","to":"Ómassa","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":19,"s":[[2679587521,10],[2679587522,11],[2679587520,12]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2578,3625],
+"stops":[
+  {"id":4438927191,"lat":38.921717,"lon":1.293092,"k":"p","n":"Sant Josep","ref":"142"},
+  {"id":4438932690,"lat":38.93949,"lon":1.290018,"k":"p","n":"Sant Agustí"},
+  {"id":4438944189,"lat":38.922634,"lon":1.286067,"k":"p","n":"Can Verger","ref":"141"},
+  {"id":5001801419,"lat":38.949866,"lon":1.251812,"k":"p","n":"Bar Stop"},
+  {"id":5001804527,"lat":38.94973,"lon":1.251813,"k":"p","n":"Bar Stop"},
+  {"id":5002146549,"lat":38.928534,"lon":1.287315,"k":"p","n":"Can Reialet"},
+  {"id":5002146550,"lat":38.920648,"lon":1.299983,"k":"p","n":"Av. Diputat Josep Ribas, 23"},
+  {"id":5002205228,"lat":38.921801,"lon":1.292547,"k":"p","n":"Sant Josep","ref":"442"},
+  {"id":5002205229,"lat":38.922642,"lon":1.286709,"k":"p","n":"Can Verger","ref":"441"},
+  {"id":5002205230,"lat":38.928476,"lon":1.287404,"k":"p","n":"Can Reialet"},
+  {"id":5002205231,"lat":38.939437,"lon":1.290109,"k":"p","n":"Sant Agustí"},
+  {"id":13390435221,"lat":38.931912,"lon":1.258006,"k":"p","n":"S'Espartar","ref":"571"},
+  {"id":13390435222,"lat":38.931348,"lon":1.259054,"k":"p","n":"S'Espartar","ref":"271"}
+],
+"routes":[
+  {"id":3294095,"t":{"ref":"L38","name":"Bus L38: Cala Tarida → Sant Josep → Eivissa","from":"Cala Tarida","to":"Eivissa","network":"TIB","route":"bus","public_transport:version":"2"},"n":30,"s":[[13390435221,4],[4438944189,5],[4438927191,6]]},
+  {"id":3294142,"t":{"ref":"L38","name":"Bus L38: Eivissa → Sant Josep → Cala Tarida","from":"Eivissa","to":"Cala Tarida","network":"TIB","route":"bus","public_transport:version":"2"},"n":28,"s":[[5002205228,23],[5002205229,24],[13390435222,25]]},
+  {"id":7427636,"t":{"ref":"L04","name":"Bus L04: Sant Antoni → Platges de Comte","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":20,"s":[[5001801419,17]]},
+  {"id":7427637,"t":{"ref":"L04","name":"Bus L04: Platges de Comte → Sant Antoni","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":17,"s":[[5001804527,3]]},
+  {"id":7427674,"t":{"ref":"L05","name":"Bus L05: Sant Antoni → Cala Tarida","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5001801419,17]]},
+  {"id":7427675,"t":{"name":"Bus L05: Cala Tarida → Sant Antoni","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":17,"s":[[5001804527,3]]},
+  {"id":7428103,"t":{"ref":"L08","name":"Bus L08: Sant Antoni => Sant Josep => Eivissa","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":34,"s":[[4438932690,9],[5002146549,10],[4438944189,11],[4438927191,12],[5002146550,13]]},
+  {"id":7428236,"t":{"ref":"L08","name":"Bus L08: Eivissa => Sant Josep => Sant Antoni","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":35,"s":[[5002205228,22],[5002205229,23],[5002205230,24],[5002205231,25]]},
+  {"id":7428876,"t":{"ref":"L09","name":"Bus L09: Sant Antoni → Sant Josep → Aeroport","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":23,"s":[[4438932690,12],[5002146549,13],[4438944189,14],[4438927191,15]]},
+  {"id":7428877,"t":{"ref":"L09","name":"Bus L09: Aeroport → Sant Josep → Sant Antoni","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":23,"s":[[5002205228,9],[5002205229,10],[5002205230,11],[5002205231,12]]},
+  {"id":7428927,"t":{"ref":"L42","name":"Bus L42: Eivissa → Sant Josep → Es Cubells","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":22,"s":[[5002205228,21]]},
+  {"id":7428928,"t":{"ref":"L42","name":"Bus L42: Es Cubells → Sant Josep → Eivissa","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":21,"s":[[4438927191,2]]},
+  {"id":7428989,"t":{"ref":"L26","name":"Bus L26: Eivissa => Sant Josep => Cala Vedella","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":27,"s":[[5002205228,24],[5002205229,25]]},
+  {"id":7428990,"t":{"ref":"L26","name":"Bus L26: Cala Vedella => Sant Josep => Eivissa","network":"Transport de les Illes Balears - Eivissa","route":"bus","public_transport:version":"2"},"n":26,"s":[[4438944189,3],[4438927191,4]]}
+]
+}

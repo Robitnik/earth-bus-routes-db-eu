@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2756,4010],
+"stops":[
+  {"id":3490719876,"lat":47.806184,"lon":20.547611,"k":"p","n":"Mezőkövesd, Vajda János utca forduló"},
+  {"id":3490719883,"lat":47.834617,"lon":20.532833,"k":"p","n":"4-es kilométerkő"},
+  {"id":6449316042,"lat":47.82719,"lon":20.54359,"k":"p","n":"Matyóföld tanya"},
+  {"id":6449350077,"lat":47.827719,"lon":20.543205,"k":"p","n":"Matyóföld tanya"},
+  {"id":7448503079,"lat":47.800068,"lon":20.546801,"k":"p","n":"Mezőkövesd, DELCO REMY bejárati út"},
+  {"id":7448503080,"lat":47.800447,"lon":20.548427,"k":"p","n":"Mezőkövesd, DELCO REMY bejárati út"}
+],
+"routes":[
+  {"id":9553695,"t":{"ref":"3418","name":"3418 => Mezőkövesd, autóbusz-állomás","from":"Eger, autóbusz-állomás","to":"Mezőkövesd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":25,"s":[[6449316042,21]]},
+  {"id":9553713,"t":{"ref":"3418","name":"3418 => Eger, autóbusz-állomás","from":"Mezőkövesd, autóbusz-állomás","to":"Eger, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":28,"s":[[6449350077,5]]},
+  {"id":13691263,"t":{"ref":"2B","name":"2B: Dózsa György út 3. => Vasútállomás => Gyógyfürdő","from":"Dózsa György út 3.","to":"Gyógyfürdő","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":14,"s":[[7448503079,13]]},
+  {"id":13691264,"t":{"ref":"2B","name":"2B: Gyógyfürdő => Vasútállomás => Dózsa György út 3.","from":"Gyógyfürdő","to":"Dózsa György út 3.","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[7448503080,2]]},
+  {"id":13691265,"t":{"ref":"2","name":"2: Gyógyfürdő => Vajda János utca forduló => Dózsa György út 3.","from":"Gyógyfürdő","to":"Dózsa György út 3.","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[7448503080,2],[3490719876,7]]},
+  {"id":13691266,"t":{"ref":"2","name":"2: Gyógyfürdő => Dózsa György út 3.","from":"Gyógyfürdő","to":"Dózsa György út 3.","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":8,"s":[[7448503080,2]]},
+  {"id":13691267,"t":{"ref":"2","name":"2: Dózsa György út 3. => Gyógyfürdő","from":"Dózsa György út 3.","to":"Gyógyfürdő","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":9,"s":[[7448503079,8]]},
+  {"id":13691268,"t":{"ref":"1","name":"1: Rutinpálya => Vasútállomás => Gimnázium => Jegenyesor utca 106. => Vajda János utca forduló => Vasútállomás","from":"Rutinpálya","to":"Vasútállomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":21,"s":[[3490719876,16]]},
+  {"id":13691269,"t":{"ref":"1","name":"1: Vasútállomás => Vajda János utca forduló => Jegenyesor utca 106. => Gimnázium => Vasútállomás => Rutinpálya","from":"Vasútállomás","to":"Rutinpálya","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":21,"s":[[3490719876,6]]}
+]
+}

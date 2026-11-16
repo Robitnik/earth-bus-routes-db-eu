@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2821,3652],
+"stops":[
+  {"id":1306594153,"lat":51.095078,"lon":2.608026,"k":"p","n":"De Panne Oosthoek"},
+  {"id":1306594200,"lat":51.094967,"lon":2.607752,"k":"p","n":"De Panne Oosthoek"},
+  {"id":1522951340,"lat":51.095104,"lon":2.601891,"k":"p","n":"De Panne Blauwe Distel"},
+  {"id":1522951345,"lat":51.095191,"lon":2.601671,"k":"p","n":"De Panne Blauwe Distel"},
+  {"id":1522962610,"lat":51.093198,"lon":2.613306,"k":"p","n":"De Panne Sporthal"},
+  {"id":1522962618,"lat":51.092895,"lon":2.613311,"k":"p","n":"De Panne Sporthal"},
+  {"id":1522978532,"lat":51.081452,"lon":2.60203,"k":"p","n":"De Panne Plopsaland"},
+  {"id":1529293302,"lat":51.092444,"lon":2.635164,"k":"p","n":"Koksijde Grote Bogaerde"},
+  {"id":1529293304,"lat":51.09284,"lon":2.635068,"k":"p","n":"Koksijde Grote Bogaerde"},
+  {"id":1529294565,"lat":51.084758,"lon":2.641433,"k":"p","n":"Koksijde Vliegveld"},
+  {"id":1529294568,"lat":51.084891,"lon":2.64153,"k":"p","n":"Koksijde Vliegveld"},
+  {"id":2282807699,"lat":51.053241,"lon":2.649863,"k":"p","n":"Bulskamp Kapel"},
+  {"id":2554327719,"lat":51.077403,"lon":2.601164,"k":"x","n":"De Panne Station"},
+  {"id":2554795369,"lat":51.081969,"lon":2.639333,"k":"p","n":"Veurne Slableedstraat"},
+  {"id":2554795379,"lat":51.081827,"lon":2.640074,"k":"p","n":"Veurne Slableedstraat"},
+  {"id":6834298433,"lat":51.077377,"lon":2.601253,"k":"p","n":"Gare d'Adinkerque"},
+  {"id":9447862996,"lat":51.081965,"lon":2.602047,"k":"p","n":"De Panne Plopsaland"},
+  {"id":11026544111,"lat":51.077358,"lon":2.601131,"k":"p","n":"De Panne"}
+],
+"routes":[
+  {"id":2089144,"t":{"ref":"611","name":"Bus 611: Oostende Station → Veurne Ziekenhuis","from":"Oostende Station","to":"Veurne Ziekenhuis","network":"VVR Oostende","operator":"De Lijn","colour":"#FFFFFF","route":"bus","public_transport:version":"2"},"n":65,"s":[[1529293302,56],[1529294565,57]]},
+  {"id":2089197,"t":{"ref":"60a","name":"Bus 60a: Oostende Station → Veurne Ziekenhuis","from":"Oostende Station","to":"Veurne Ziekenhuis","network":"VVR Oostende","operator":"De Lijn","colour":"#FC95C5","route":"bus","public_transport:version":"2"},"n":55,"s":[[1529293302,46],[1529294565,47]]},
+  {"id":3331042,"t":{"ref":"515","name":"Bus 515: Roesbrugge Markt → Koksijde Station","from":"Roesbrugge Markt","to":"Koksijde Station","network":"VVR Westhoek","operator":"De Lijn","colour":"#FFFFFF","route":"bus","public_transport:version":"2"},"n":36,"s":[[2282807699,28]]},
+  {"id":3360557,"t":{"ref":"60a","name":"Bus 60a: Veurne Ziekenhuis → Oostende Station","from":"Veurne Ziekenhuis","to":"Oostende Station","network":"VVR Oostende","operator":"De Lijn","colour":"#FC95C5","route":"bus","public_transport:version":"2"},"n":55,"s":[[1529294568,9],[1529293304,10]]},
+  {"id":3360560,"t":{"ref":"611","name":"Bus 611: Veurne Ziekenhuis → Oostende Station","from":"Veurne Ziekenhuis","to":"Oostende Station","network":"VVR Oostende","operator":"De Lijn","colour":"#FFFFFF","route":"bus","public_transport:version":"2"},"n":66,"s":[[1529294568,9],[1529293304,10]]},
+  {"id":3366628,"t":{"ref":"56","name":"Bus 56: De Panne Esplanade → Veurne Ziekenhuis","from":"De Panne Esplanade","to":"Veurne Ziekenhuis","network":"VVR Oostende","operator":"De Lijn","colour":"#70A3BD","route":"bus","public_transport:version":"2"},"n":17,"s":[[1522951340,6],[1306594200,7],[1522962618,8],[2554795369,9]]},
+  {"id":3366629,"t":{"ref":"56","name":"Bus 56: Veurne Ziekenhuis → De Panne Esplanade","from":"Veurne Ziekenhuis","to":"De Panne Esplanade","network":"VVR Oostende","operator":"De Lijn","colour":"#70A3BD","route":"bus","public_transport:version":"2"},"n":17,"s":[[2554795379,9],[1522962610,10],[1306594153,11],[1522951345,12]]},
+  {"id":8812916,"t":{"ref":"20","name":"20 : Leffrinckoucke Fort des Dunes → Gare d'Adinkerque","from":"Leffrinckoucke Fort des Dunes","to":"Gare d'Adinkerque","network":"DK'BUS","operator":"Keolis Flandre Maritime","colour":"#FF7D66","route":"bus","public_transport:version":"2"},"n":7,"s":[[6834298433,7]]},
+  {"id":8812917,"t":{"ref":"20","name":"20 : Gare d'Adinkerque → Leffrinckoucke Fort des Dunes","from":"Gare d'Adinkerque","to":"Leffrinckoucke Fort des Dunes","network":"DK'BUS","operator":"Keolis Flandre Maritime","colour":"#FF7D66","route":"bus","public_transport:version":"2"},"n":7,"s":[[6834298433,1]]},
+  {"id":10757269,"t":{"ref":"080","name":"Flixbus 080 (part Europe): Calais, Terminal Eurotunnel => Düsseldorf ZOB","from":"Calais, Terminal Eurotunnel","to":"Düsseldorf ZOB","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[11026544111,1]]},
+  {"id":10757270,"t":{"ref":"080","name":"Flixbus 080 (part Europe): Düsseldorf, ZOB => Calais, Terminal Eurotunnel","from":"Düsseldorf, ZOB","to":"Calais, Terminal Eurotunnel","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[11026544111,3]]},
+  {"id":17901876,"t":{"ref":"50","name":"Bus 50: Veurne Station → Oostduinkerke Groenendijk","from":"Veurne Station","to":"Oostduinkerke Groenendijk","network":"VVR Westhoek","operator":"De Lijn","colour":"#EF7D00","route":"bus","public_transport:version":"2"},"n":27,"s":[[1529294568,6],[1529293304,7]]},
+  {"id":17901877,"t":{"ref":"50","name":"Bus 50: Oostduinkerke Groenendijk → Veurne Station","from":"Oostduinkerke Groenendijk","to":"Veurne Station","network":"VVR Westhoek","operator":"De Lijn","colour":"#EF7D00","route":"bus","public_transport:version":"2"},"n":27,"s":[[1529293302,21],[1529294565,22]]},
+  {"id":3053750788238,"t":{"ref":"20","name":"20: ADINKERQUE GARE - LEFFRINCKOUCKE FORT DES DUNES","from":"ADINKERQUE GARE","to":"LEFFRINCKOUCKE FORT DES DUNES","operator":"DKBUS","route":"bus","public_transport:version":"2"},"n":18,"s":[[2554327719,1]]},
+  {"id":3076858136168,"t":{"ref":"20","name":"20: ADINKERQUE GARE - LEFFRINCKOUCKE FORT DES DUNES","from":"ADINKERQUE GARE","to":"LEFFRINCKOUCKE FORT DES DUNES","operator":"DKBUS","route":"bus","public_transport:version":"2"},"n":22,"s":[[2554327719,1]]}
+]
+}

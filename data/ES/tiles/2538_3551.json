@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2538,3551],
+"stops":[
+  {"id":5014649778,"lat":36.914314,"lon":-2.439949,"k":"p","n":"Pechina","ref":"31"},
+  {"id":5014649779,"lat":36.914358,"lon":-2.439878,"k":"x","n":"Pechina","ref":"31"},
+  {"id":5014717531,"lat":36.904038,"lon":-2.43738,"k":"p","n":"Los Especieros","ref":"124"},
+  {"id":5014717532,"lat":36.903827,"lon":-2.43744,"k":"p","n":"Los Especieros"},
+  {"id":5014717533,"lat":36.900071,"lon":-2.433957,"k":"p","n":"Los Mandarinos"},
+  {"id":9865149775,"lat":36.903991,"lon":-2.437517,"k":"x","n":"Los Especieros","ref":"124"}
+],
+"routes":[
+  {"id":7444915,"t":{"ref":"M-102","name":"M-102: Almería → El Chuche → Pechina","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":9,"s":[[5014649778,9]]},
+  {"id":7444916,"t":{"ref":"M-102","name":"M-102: Pechina → El Chuche → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":9,"s":[[5014649778,1]]},
+  {"id":7444953,"t":{"ref":"M-102","name":"M-102: Almería → Viator Rotonda → Pechina","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":10,"s":[[5014717531,9],[5014649778,10]]},
+  {"id":7444954,"t":{"ref":"M-102","name":"M-102: Pechina → Viator Rotonda → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":11,"s":[[5014649778,1],[5014717532,2],[5014717533,3]]},
+  {"id":7446598,"t":{"ref":"M-102","name":"M-102: Pechina → El Chuche → El Mirador → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":10,"s":[[5014649778,1]]},
+  {"id":8757996,"t":{"ref":"M-108","name":"M-108: Pechina → Huércal de Almería → UAL","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"AUTODISCRECIONAL ALMERIENSE","route":"bus","public_transport:version":"2"},"n":13,"s":[[5014649778,1]]},
+  {"id":8758013,"t":{"ref":"M-108","name":"M-108: UAL → Huércal de Almería → Pechina","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Consorcio de Transporte Metropolitano Área de Almería","route":"bus","public_transport:version":"2"},"n":22,"s":[[5014717531,21],[5014649778,22]]}
+]
+}

@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2641,3661],
+"stops":[
+  {"id":1919244277,"lat":42.082937,"lon":3.059196,"k":"x","n":"La Tallada d'Emporda (zona esportiva)"},
+  {"id":5030658696,"lat":42.054137,"lon":3.087077,"k":"x","n":"Cruïlla de l'Escala"},
+  {"id":5643251209,"lat":42.054208,"lon":3.087125,"k":"p","n":"Cruïlla de l'Escala"},
+  {"id":8808858454,"lat":42.078229,"lon":3.098634,"k":"x","n":"Bellcaire d'Empordà"},
+  {"id":8922927861,"lat":42.088066,"lon":3.065013,"k":"x","n":"Tor (dir. Girona)","ref":"16697"},
+  {"id":12071154771,"lat":42.079425,"lon":3.056427,"k":"p","n":"La Tallada d'Emporda","ref":"16268"},
+  {"id":12071159969,"lat":42.088297,"lon":3.065346,"k":"p","n":"Tor (dir. Figueres)","ref":"16269"},
+  {"id":12149885669,"lat":42.079454,"lon":3.056365,"k":"x","n":"La Tallada d'Emporda","ref":"16268"},
+  {"id":12149936018,"lat":42.079398,"lon":3.056337,"k":"x","n":"La Tallada d'Emporda (dir. Girona)","ref":"16696"},
+  {"id":12149936019,"lat":42.079426,"lon":3.056213,"k":"p","n":"La Tallada d'Emporda (dir. Girona)","ref":"16696"},
+  {"id":13577218364,"lat":42.078283,"lon":3.098563,"k":"p","n":"Bellcaire d'Empordà"},
+  {"id":13577218365,"lat":42.078174,"lon":3.098711,"k":"p","n":"Bellcaire d'Empordà (dir. l'Escala)","ref":"16903"},
+  {"id":13595256734,"lat":42.088117,"lon":3.064979,"k":"p","n":"Tor (dir. Girona)","ref":"16697"},
+  {"id":13598341312,"lat":42.088331,"lon":3.065293,"k":"x","n":"Tor (dir. Figueres)","ref":"16269"},
+  {"id":13808542132,"lat":42.082987,"lon":3.059146,"k":"p","n":"La Tallada d'Emporda (zona esportiva)"},
+  {"id":5000951691814,"lat":42.078173,"lon":3.09871,"k":"p","n":"Bellcaire","ref":"MG0243"},
+  {"id":5000951691815,"lat":42.07828,"lon":3.098558,"k":"p","n":"Bellcaire","ref":"MG0244"}
+],
+"routes":[
+  {"id":8259226,"t":{"ref":"e2","name":"e2: L'Estartit - Torroella de Montgrí - Girona","from":"L'Estartit","to":"Girona","network":"exprés.cat (Girona)","operator":"AMPSA","colour":"#1D68B3","route":"bus","public_transport:version":"2"},"n":23,"s":[[5643251209,11]]},
+  {"id":8259227,"t":{"ref":"e2","name":"e2: Girona - Torroella de Montgrí - L'Estartit","from":"Girona","to":"L'Estartit","network":"exprés.cat (Girona)","operator":"AMPSA","colour":"#1D68B3","route":"bus","public_transport:version":"2"},"n":25,"s":[[5643251209,15]]},
+  {"id":17989500,"t":{"ref":"L1140","name":"L1140 Girona - l'Escala","from":"Girona","to":"L'Escala","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":17,"s":[[12071154771,12]]},
+  {"id":20172254,"t":{"ref":"1","name":"1 Aeroport BCN => Barcelona => Costa Brava Centre","from":"Aeroport T2","to":"L'Escala","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000951691814,19]]},
+  {"id":20172285,"t":{"ref":"1","name":"1 Costa Brava Centre => Barcelona => Aeroport BCN","from":"L'Escala","to":"Aeroport T2","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000951691815,2]]},
+  {"id":20233945,"t":{"ref":"10","name":"Línia 10 Torroella de Montgrí => l'Escala => Figueres","from":"Torroella de Montgrí","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[13577218365,4]]},
+  {"id":20250900,"t":{"ref":"17","name":"Línia 17 Palafrugell => La Bisbal => Figueres","from":"Palafrugell","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[13808542132,15],[12071159969,16]]},
+  {"id":20251000,"t":{"ref":"17","name":"Línia 17 Figueres => La Bisbal => Palafrugell","from":"Figueres","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[13595256734,10],[13808542132,11]]}
+]
+}

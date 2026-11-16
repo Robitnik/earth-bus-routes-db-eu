@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2649,3622],
+"stops":[
+  {"id":3016534714,"lat":42.469032,"lon":1.104705,"k":"x","n":"Caregue"},
+  {"id":3016761428,"lat":42.462579,"lon":1.106097,"k":"x","n":"Escàs"},
+  {"id":14252323691,"lat":42.455116,"lon":1.148861,"k":"x","n":"Rodés"},
+  {"id":14252323692,"lat":42.455075,"lon":1.148854,"k":"p","n":"Rodés"},
+  {"id":14252323693,"lat":42.453794,"lon":1.126805,"k":"x","n":"Surp"},
+  {"id":14252323694,"lat":42.453762,"lon":1.126765,"k":"p","n":"Surp"},
+  {"id":14264013254,"lat":42.469028,"lon":1.104637,"k":"p","n":"Caregue"},
+  {"id":14264013255,"lat":42.462531,"lon":1.106089,"k":"p","n":"Escàs"}
+],
+"routes":[
+  {"id":21499940,"t":{"ref":"L0609","name":"L0609: Sort => Rodés","from":"Sort","to":"Rodés","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[14252323694,2],[14252323692,3]]},
+  {"id":21499996,"t":{"ref":"L0609","name":"L0609: Rodés => Sort","from":"Rodés","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[14252323692,1],[14252323694,2]]},
+  {"id":21578208,"t":{"ref":"L0219","name":"L0219: Sort => Escàs","from":"Escàs","to":"Sort","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":4,"s":[[14264013255,3],[14264013254,4]]},
+  {"id":21578231,"t":{"ref":"L0219","name":"L0219: Escàs => Sort","from":"Escàs","to":"Sort","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":4,"s":[[14264013254,1],[14264013255,2]]}
+]
+}

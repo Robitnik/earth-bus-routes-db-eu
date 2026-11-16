@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2804,3723],
+"stops":[
+  {"id":601103848,"lat":50.211086,"lon":6.171988,"k":"x"},
+  {"id":1104110461,"lat":50.211415,"lon":6.170185,"k":"x"},
+  {"id":3067643414,"lat":50.211039,"lon":6.171953,"k":"p","n":"Auel Kirche"},
+  {"id":3067643415,"lat":50.211427,"lon":6.17013,"k":"p","n":"Auel 1"},
+  {"id":3067643675,"lat":50.242339,"lon":6.164322,"k":"p","n":"Lommersweiler Kreuz"},
+  {"id":3067643676,"lat":50.242393,"lon":6.164235,"k":"p","n":"Lommersweiler Kreuz"},
+  {"id":3067643677,"lat":50.239465,"lon":6.165418,"k":"p","n":"Lommersweiler Pfarrhaus"},
+  {"id":3067644464,"lat":50.209421,"lon":6.171034,"k":"p","n":"Steffeshausen 39"},
+  {"id":3067644465,"lat":50.209353,"lon":6.170978,"k":"p","n":"Steffeshausen 39"},
+  {"id":3067644468,"lat":50.238204,"lon":6.183988,"k":"p","n":"Steinebruck Grenze"},
+  {"id":8334275381,"lat":50.237092,"lon":6.184127,"k":"p","n":"Steinebrück (Kr Bitburg), Zoll"},
+  {"id":11531310530,"lat":50.237045,"lon":6.184339,"k":"x","n":"Steinebrück (Kr Bitburg), Zoll"},
+  {"id":11531313075,"lat":50.235653,"lon":6.188445,"k":"x","n":"Steinebrück (Kr Bitburg), Urb"},
+  {"id":11531313076,"lat":50.235682,"lon":6.188489,"k":"p","n":"Steinebrück (Kr Bitburg), Urb"},
+  {"id":11531313077,"lat":50.235618,"lon":6.188955,"k":"p","n":"Steinebrück (Kr Bitburg), Urb"},
+  {"id":11531313081,"lat":50.235663,"lon":6.188953,"k":"x","n":"Steinebrück (Kr Bitburg), Urb"},
+  {"id":12344700327,"lat":50.238236,"lon":6.183486,"k":"p","n":"Steinebruck Grenze"},
+  {"id":13305002407,"lat":50.222701,"lon":6.170012,"k":"p"},
+  {"id":6005478691728,"lat":50.236657,"lon":6.184928,"k":"p","n":"Steinebrück, Zoll","g":1},
+  {"id":6082005007444,"lat":50.222147,"lon":6.19816,"k":"p","n":"Winterspelt, Hasselbach","g":1}
+],
+"routes":[
+  {"id":4032260,"t":{"ref":"395","name":"Bus 395: Auel Kirche → Reuland Gemeindehaus","from":"Auel Kirche","to":"Reuland Gemeindehaus","network":"TECL","operator":"TEC","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":8,"s":[[3067643414,1],[3067643415,2],[3067644465,3]]},
+  {"id":4032266,"t":{"ref":"395","name":"Bus 395: Sankt Vith An den Linden → Auel 1","from":"Sankt Vith An den Linden","to":"Auel 1","network":"TECL","operator":"TEC","route":"bus","public_transport:version":"2"},"n":28,"s":[[3067644464,26],[3067643414,27],[3067643415,28]]},
+  {"id":4032269,"t":{"ref":"395","name":"Bus 395: Sankt Vith Bischöfliche Schule → Auel 1","from":"Sankt Vith Bischöfliche Schule","to":"Auel 1","network":"TECL","operator":"TEC","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":27,"s":[[3067644464,25],[3067643414,26],[3067643415,27]]},
+  {"id":5375202,"t":{"ref":"948","name":"Bus 948: Rodgen Zentrum → Sankt Vith An den Linden","from":"Rodgen Zentrum","to":"Sankt Vith An den Linden","network":"TECL","operator":"TEC","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":21,"s":[[12344700327,4],[3067643676,5],[3067643677,6],[3067643675,7]]},
+  {"id":5375203,"t":{"ref":"948","name":"Bus 948: Sankt Vith An den Linden → Rodgen Zentrum","from":"Sankt Vith An den Linden","to":"Rodgen Zentrum","network":"TECL","operator":"TEC","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":24,"s":[[3067643676,18],[3067643677,19],[3067643675,20],[3067644468,21]]},
+  {"id":12205661,"t":{"ref":"465","name":"Bus 465: Gerolstein, Bahnhof/ZOB => Sankt Vith, An den Linden","from":"Gerolstein, Bahnhof/ZOB","to":"Sankt Vith, An den Linden","network":"VRT","operator":"Gebrüder André GmbH","colour":"#252653","route":"bus","public_transport:version":"2"},"n":3,"s":[[8334275381,2]]},
+  {"id":12205979,"t":{"ref":"465","name":"Bus 465: Sankt Vith, An den Linden => Gerolstein, Bahnhof/ZOB","from":"Sankt Vith, An den Linden","to":"Gerolstein, Bahnhof/ZOB","network":"VRT","operator":"Gebrüder André GmbH","colour":"#252653","route":"bus","public_transport:version":"2"},"n":3,"s":[[8334275381,2]]},
+  {"id":3073892737077,"t":{"ref":"465","name":"465: St Vith, An den Linden - Gerolstein, Bahnhof/ZOB","from":"St Vith, An den Linden","to":"Gerolstein, Bahnhof/ZOB","operator":"Andre-Touristk","route":"bus","public_transport:version":"2"},"n":35,"s":[[6005478691728,2],[6082005007444,3]]}
+]
+}

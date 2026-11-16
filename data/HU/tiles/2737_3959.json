@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2737,3959],
+"stops":[
+  {"id":2921628737,"lat":46.888891,"lon":17.981807,"k":"p","n":"Zamárdi, Endrédi-patak"},
+  {"id":2921628738,"lat":46.888576,"lon":17.981103,"k":"p","n":"Zamárdi, Endrédi-patak"},
+  {"id":2921628740,"lat":46.89156,"lon":17.992605,"k":"p","n":"Siófok (Balatonszéplak), Alsó vasúti megállóhely"},
+  {"id":2942486895,"lat":46.885601,"lon":17.969061,"k":"p","n":"Zamárdi, Felső vasútállomás"},
+  {"id":2942533590,"lat":46.891878,"lon":17.99459,"k":"p","n":"Siófok (Balatonszéplak), Alsó vasúti megállóhely"},
+  {"id":3078753138,"lat":46.895381,"lon":17.998874,"k":"p","n":"Siófok, Fenyves tér"},
+  {"id":3078753139,"lat":46.895244,"lon":17.998674,"k":"p","n":"Siófok, Fenyves tér"},
+  {"id":3078753140,"lat":46.892426,"lon":17.993875,"k":"p","n":"Siófok (Balatonszéplak), Alsó vasúti megállóhely"},
+  {"id":3441443557,"lat":46.86215,"lon":17.962617,"k":"p","n":"Zamárdi, Kertészeti V."},
+  {"id":3441443558,"lat":46.87482,"lon":17.955767,"k":"p","n":"Zamárdi, Temető"},
+  {"id":5088455762,"lat":46.875805,"lon":17.95516,"k":"p","n":"Zamárdi, Temető"},
+  {"id":5210714508,"lat":46.885471,"lon":17.967871,"k":"p","n":"Zamárdi, Felső vasútállomás"},
+  {"id":13905876808,"lat":46.862256,"lon":17.962647,"k":"p","n":"Zamárdi, M7 autópálya-felüljáró"},
+  {"id":13905876809,"lat":46.862042,"lon":17.962528,"k":"p","n":"Zamárdi, M7 autópálya-felüljáró"}
+],
+"routes":[
+  {"id":7362504,"t":{"ref":"1","name":"1: Autóbusz-állomás => Balatonszéplak alsó vasúti megállóhely","from":"Autóbusz-állomás","to":"Balatonszéplak alsó vasúti megállóhely","network":"local","operator":"MÁV Személyszállítási Zrt.","route":"bus","public_transport:version":"2"},"n":12,"s":[[3078753138,11],[3078753140,12]]},
+  {"id":7362508,"t":{"ref":"1","name":"1: Balatonszéplak alsó vasúti megállóhely => Autóbusz-állomás","from":"Balatonszéplak alsó vasúti megállóhely","to":"Autóbusz-állomás","network":"local","operator":"MÁV Személyszállítási Zrt.","route":"bus","public_transport:version":"2"},"n":12,"s":[[3078753140,1],[3078753139,2]]},
+  {"id":9194020,"t":{"ref":"5906","name":"5906 => Siófok, autóbusz–állomás","from":"Kaposvár, autóbusz-állomás","to":"Siófok, autóbusz–állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":67,"s":[[2942486895,59],[2921628738,60],[2942533590,61]]},
+  {"id":9194021,"t":{"ref":"5906","name":"5906 => Kaposvár, autóbusz-állomás","from":"Siófok, autóbusz–állomás","to":"Kaposvár, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":68,"s":[[2921628740,7],[2921628737,8],[5210714508,9]]},
+  {"id":9921539,"t":{"ref":"6040","name":"6040 => Fonyód - Siófok","from":"Fonyód, vasútállomás","to":"Siófok, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":39,"s":[[2921628738,25],[2942486895,26],[2942533590,27]]},
+  {"id":9923984,"t":{"ref":"6042","name":"Bus 6042: Siófok => Marcali","from":"Siófok, autóbusz-állomás","to":"Marcali, autóbusz-állomás","network":"regional","operator":"MÁV Személyszállítási Zrt.","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":64,"s":[[2921628740,8],[2921628737,9],[5210714508,10]]}
+]
+}

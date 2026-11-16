@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2747,3987],
+"stops":[
+  {"id":1223003689,"lat":47.389153,"lon":19.352402,"k":"p","n":"Állomás utca COOP"},
+  {"id":1229176994,"lat":47.370405,"lon":19.390922,"k":"p","n":"Hosszúberek-Péteri vasúti megállóhely"},
+  {"id":2960903185,"lat":47.363647,"lon":19.385309,"k":"p","n":"Monor, Hosszúberek-Péteri"},
+  {"id":2960903187,"lat":47.363804,"lon":19.384726,"k":"p","n":"Monor, Hosszúberek-Péteri"},
+  {"id":2980953996,"lat":47.360731,"lon":19.389611,"k":"p","n":"Monor, Széles út (4-es számú út)"},
+  {"id":2980954232,"lat":47.357865,"lon":19.394651,"k":"p","n":"Monor, Vígh tanya"},
+  {"id":2980954334,"lat":47.358634,"lon":19.393578,"k":"p","n":"Monor, Vígh tanya"},
+  {"id":2980954335,"lat":47.360565,"lon":19.390141,"k":"p","n":"Monor, Széles út (4-es számú út)"},
+  {"id":5446791700,"lat":47.381089,"lon":19.353761,"k":"p","n":"Üllő, Wesselényi utca"},
+  {"id":5446791701,"lat":47.38083,"lon":19.353842,"k":"p","n":"Üllő, Wesselényi utca"},
+  {"id":6482106235,"lat":47.391108,"lon":19.355956,"k":"p"},
+  {"id":6482106236,"lat":47.386731,"lon":19.354134,"k":"p"},
+  {"id":8250050203,"lat":47.376834,"lon":19.360083,"k":"p","n":"Üllő, Ipari Park"},
+  {"id":8250050208,"lat":47.37675,"lon":19.360496,"k":"p","n":"Üllő, Ipari Park"}
+],
+"routes":[
+  {"id":1891250,"t":{"ref":"580","name":"580 \"B\": Budapest, Kőbánya-Kispest => Monor, autóbusz-állomás","from":"Budapest, Kőbánya-Kispest","to":"Monor, autóbusz-állomás","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":23,"s":[[5446791701,13],[2960903187,14],[2980953996,15],[2980954232,16]]},
+  {"id":1891282,"t":{"ref":"580","name":"580 \"A\": Budapest, Kőbánya-Kispest => Vecsés, Market Central => Monor, autóbusz-állomás","from":"Budapest, Kőbánya-Kispest","to":"Monor, autóbusz-állomás","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":24,"s":[[5446791701,14],[2960903187,15],[2980953996,16],[2980954232,17]]},
+  {"id":9599995,"t":{"ref":"Auchan","name":"Auchan","from":"Üllő Buszforduló","to":"Maglód Auchan","route":"bus","public_transport:version":"2"},"n":12,"s":[[6482106235,10],[6482106236,11]]},
+  {"id":12073975,"t":{"ref":"581","name":"581 \"A\" v: Üllő, Ipari Park => Budapest, Kőbánya-Kispest","from":"Üllő, Ipari Park","to":"Budapest, Kőbánya-Kispest","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[8250050208,1]]},
+  {"id":12073976,"t":{"ref":"581","name":"581 \"A\": Budapest, Kőbánya-Kispest => Üllő, Ipari Park","from":"Budapest, Kőbánya-Kispest","to":"Üllő, Ipari Park","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":14,"s":[[5446791701,13],[8250050203,14]]},
+  {"id":12073978,"t":{"ref":"580","name":"580 \"C\" v: Monor, autóbusz-állomás => Budapest, Liszt Ferenc Airport 2","from":"Monor, autóbusz-állomás","to":"Budapest, Liszt Ferenc Airport 2","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":19,"s":[[2980954232,7],[2980954335,8],[2960903185,9]]},
+  {"id":12073979,"t":{"ref":"580","name":"580 \"A\" v: Monor, autóbusz-állomás => Vecsés, Market Central => Budapest, Kőbánya-Kispest","from":"Monor, autóbusz-állomás","to":"Budapest, Kőbánya-Kispest","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":22,"s":[[2980954232,7],[2980954335,8],[2960903185,9]]},
+  {"id":12073980,"t":{"ref":"580","name":"580 \"B\" v: Monor, autóbusz-állomás => Budapest, Kőbánya-Kispest","from":"Monor, autóbusz-állomás","to":"Budapest, Kőbánya-Kispest","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":21,"s":[[2980954232,7],[2980954335,8],[2960903185,9]]},
+  {"id":12074256,"t":{"ref":"512","name":"512 v: Péteri, autóbusz-forduló => Hosszúberek-Péteri vasúti megállóhely","from":"Péteri, autóbusz-forduló","to":"Hosszúberek-Péteri vasúti megállóhely","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":4,"s":[[1229176994,4]]},
+  {"id":12074257,"t":{"ref":"512","name":"512: Hosszúberek-Péteri vasúti megállóhely => Péteri, autóbusz-forduló","from":"Hosszúberek-Péteri vasúti megállóhely","to":"Péteri, autóbusz-forduló","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":4,"s":[[1229176994,1]]}
+]
+}

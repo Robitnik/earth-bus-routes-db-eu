@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2643,3631],
+"stops":[
+  {"id":281559659,"lat":42.176142,"lon":1.590718,"k":"x","n":"La Coma (ctra. LV4012, pk 5,7)"},
+  {"id":4118335547,"lat":42.176188,"lon":1.590863,"k":"p","n":"La Coma (ctra. LV4012, pk 5,7)"},
+  {"id":13734371806,"lat":42.165379,"lon":1.596013,"k":"x","n":"La Pedra (ctra. LV4012, pk 4,1)"},
+  {"id":13734371807,"lat":42.165418,"lon":1.595992,"k":"p","n":"La Pedra (ctra. LV4012, pk 4,1)"},
+  {"id":13734371808,"lat":42.165334,"lon":1.595895,"k":"x","n":"La Pedra (ctra. LV4012, pk 4,1)"},
+  {"id":13734371809,"lat":42.165252,"lon":1.59595,"k":"p","n":"La Pedra (ctra. LV4012, pk 4,1)"}
+],
+"routes":[
+  {"id":18404355,"t":{"ref":"LORD","name":"LORD La Coma - Berga","from":"La Coma","to":"Berga","route":"bus","public_transport:version":"2"},"n":7,"s":[[4118335547,1]]},
+  {"id":18404384,"t":{"ref":"LORD","name":"LORD Berga - La Coma","from":"Berga","to":"La Coma","route":"bus","public_transport:version":"2"},"n":7,"s":[[4118335547,7]]},
+  {"id":20455077,"t":{"ref":"LaComa","name":"Solsona - Sant Llorenç de Morunys - La Coma i la Pedra","from":"Solsona","to":"La Coma i la Pedra","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":6,"s":[[13734371809,5],[4118335547,6]]},
+  {"id":20458376,"t":{"ref":"LaComa","name":"La Coma i la Pedra - Sant Llorenç de Morunys - Solsona","from":"La Coma i la Pedra","to":"Solsona","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":6,"s":[[4118335547,1],[13734371809,2]]}
+]
+}

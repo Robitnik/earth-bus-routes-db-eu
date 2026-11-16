@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2747,3968],
+"stops":[
+  {"id":767311332,"lat":47.364513,"lon":18.435617,"k":"p","n":"Csákvár, Vaskapu dűlő"},
+  {"id":3077285365,"lat":47.387579,"lon":18.443755,"k":"p","n":"Csákvár, Gánti utca 61."},
+  {"id":3306783114,"lat":47.36472,"lon":18.435992,"k":"p","n":"Csákvár, Vaskapu dűlő"},
+  {"id":12169807395,"lat":47.387706,"lon":18.443952,"k":"p","n":"Csákvár, Gánti utca 61."}
+],
+"routes":[
+  {"id":18031222,"t":{"ref":"8000","name":"Bus 8000: Bodmér => Csákvár => Gánt => Zámoly => Székesfehérvár","from":"Bodmér, forduló","to":"Székesfehérvár, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":24,"s":[[12169807395,8]]},
+  {"id":18031223,"t":{"ref":"8000","name":"Bus 8000: Csákvár => Zámoly => Székesfehérvár","from":"Csákvár, Szabadság tér","to":"Székesfehérvár, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":14,"s":[[767311332,3]]},
+  {"id":18031224,"t":{"ref":"8000","name":"Bus 8000: Székesfehérvár => Zámoly => Csákvár","from":"Székesfehérvár, autóbusz-állomás","to":"Csákvár, Szabadság tér","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":15,"s":[[3306783114,12]]},
+  {"id":18031225,"t":{"ref":"8000","name":"Bus 8000: Székesfehérvár => Zámoly => Gánt => Csákvár","from":"Székesfehérvár, autóbusz-állomás","to":"Csákvár, Szabadság tér","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[3077285365,18]]}
+]
+}

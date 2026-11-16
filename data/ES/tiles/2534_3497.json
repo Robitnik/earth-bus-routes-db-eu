@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2534,3497],
+"stops":[
+  {"id":12241427478,"lat":36.722408,"lon":-5.146095,"k":"p","n":"Hospital de la Serranía de Ronda","ref":"25"},
+  {"id":13529111663,"lat":36.747977,"lon":-5.148958,"k":"p","n":"Andrés Aguilar","ref":"65"},
+  {"id":13529117201,"lat":36.747887,"lon":-5.148612,"k":"p","n":"Andrés Aguilar","ref":"65"},
+  {"id":13529318459,"lat":36.72242,"lon":-5.146005,"k":"x","n":"Hospital de la Serranía de Ronda","ref":"25"},
+  {"id":13529651814,"lat":36.727043,"lon":-5.14989,"k":"p","n":"Rotonda El Arenal","ref":"27"}
+],
+"routes":[
+  {"id":20182142,"t":{"ref":"1","name":"Estación de Bus > Hospital","from":"Calle Comandante Salvador García Carrasco - Plaza Concepción García Redondo (frente a la Estación de Autobuses de Ronda)","to":"Hospital de la Serranía de Ronda","network":"Urbanos de Ronda","operator":"Ayuntmiento de Ronda","colour":"#f9b43e","route":"bus"},"n":18,"s":[[13529117201,17],[12241427478,18]]},
+  {"id":20182206,"t":{"ref":"1","name":"Hospital > Estación de Bus","from":"Hospital de la Serranía de Ronda","to":"Calle Comandante Salvador García Carrasco - Plaza Concepción García Redondo (frente a la Estación de Autobuses de Ronda)","network":"Urbanos de Ronda","operator":"Ayuntamiento de Ronda","colour":"#f9b43e","route":"bus"},"n":13,"s":[[12241427478,1],[13529111663,2]]},
+  {"id":20182687,"t":{"ref":"2","name":"El Fuerte > Hospital","from":"Calle Virgen de Lourdes esquina Calle Juan Ramón Jiménez/Calle Francisco Corbacho Moya","to":"Hospital de la Serranía de Ronda","network":"Urbanos de Ronda","operator":"Ayuntamiento de Ronda","colour":"#f06060","route":"bus"},"n":14,"s":[[13529651814,13],[12241427478,14]]},
+  {"id":20182688,"t":{"ref":"2","name":"Hospital > El Fuerte","from":"Hospital de la Serranía de Ronda","to":"Calle Virgen de Lourdes esquina Calle Juan Ramón Jiménez/Calle Francisco Corbacho Moya","network":"Urbanos de Ronda","operator":"Ayuntamiento de Ronda","colour":"#f06060","route":"bus"},"n":15,"s":[[12241427478,1],[13529651814,3]]},
+  {"id":20183230,"t":{"ref":"C","name":"Circular: El Fuerte > Hospital > El Fuerte","from":"Calle Virgen de Lourdes esquina Calle Juan Ramón Jiménez/Calle Francisco Corbacho Moya","to":"Calle Virgen de Lourdes esquina Calle Juan Ramón Jiménez/Calle Francisco Corbacho Moya","network":"Urbanos de Ronda","operator":"Ayuntamiento de Ronda","colour":"#6aca68","route":"bus"},"n":24,"s":[[13529651814,14],[12241427478,15]]},
+  {"id":21646532,"t":{"ref":"CRT-RDA","name":"Cortes de la Frontera > Ronda","from":"Paseo de Jerez - Jardines de la Fontana (Cortes de la Frontera, Málaga)","to":"Estación de Autobuses de Ronda (Ronda, Málaga)","network":"Transportes Públicos de Andalucía","operator":"Transportes Públicos de Andalucía","colour":"#069817","route":"bus"},"n":10,"s":[[12241427478,9]]},
+  {"id":21646534,"t":{"ref":"RDA-CRT","name":"Ronda > Cortes de la Frontera","from":"Estación de Autobuses de Ronda (Ronda, Málaga)","to":"Paseo de Jerez - Jardines de la Fontana (Cortes de la Frontera, Málaga)","network":"Transportes Públicos de Andalucía","operator":"Transportes Públicos de Andalucía","colour":"#069817","route":"bus"},"n":10,"s":[[12241427478,2]]},
+  {"id":21955056,"t":{"ref":"VJA-161","name":"Pujerra > Ronda (por pueblos)","from":"Calle Nueva (Pujerra, Málaga)","to":"Estación de Autobuses de Ronda (Ronda, Málaga)","network":"Transportes Públicos de Andalucía","operator":"Autocares Lara, S. L.","colour":"#069817","route":"bus"},"n":12,"s":[[12241427478,11]]},
+  {"id":21959732,"t":{"ref":"VJA-161","name":"Ronda > Pujerra (por pueblos)","from":"Estación de Autobuses de Ronda (Ronda, Málaga)","to":"Calle Nueva (Pujerra, Málaga)","network":"Transportes Públicos de Andalucía","operator":"Autocares Lara, S. L.","colour":"#069817","route":"bus"},"n":12,"s":[[12241427478,2]]}
+]
+}

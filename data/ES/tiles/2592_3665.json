@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2592,3665],
+"stops":[
+  {"id":2508649339,"lat":39.608537,"lon":3.28454,"k":"p","n":"Ctra. Son Servera","ref":"51023"},
+  {"id":2509565197,"lat":39.610233,"lon":3.282568,"k":"p","n":"Sant Llorenç sud","ref":"51033"},
+  {"id":3706869633,"lat":39.614766,"lon":3.288854,"k":"p","n":"Sant Llorenç nord","ref":"51027"},
+  {"id":3706869634,"lat":39.609922,"lon":3.282352,"k":"p","n":"Sant Llorenç sud","ref":"51034"},
+  {"id":3709116555,"lat":39.608465,"lon":3.285211,"k":"p","n":"Ctra. Son Servera","ref":"51028"},
+  {"id":4897278308,"lat":39.614557,"lon":3.288629,"k":"p","n":"Sant Llorenç nord","ref":"51025"}
+],
+"routes":[
+  {"id":5456409,"t":{"ref":"417","name":"Bus 417: Son Carrió => Manacor => Porreres","from":"Son Carrió","to":"Porreres","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#c61901","route":"bus","public_transport:version":"2"},"n":10,"s":[[2508649339,2]]},
+  {"id":7309729,"t":{"ref":"411","name":"Bus 411: Manacor => Cala Rajada","from":"Manacor","to":"Cala Rajada","network":"Transports públics de Mallorca","operator":"Sagalés Caldentey","colour":"#e55900","route":"bus","public_transport:version":"2"},"n":11,"s":[[3706869634,5],[4897278308,6]]},
+  {"id":7312345,"t":{"ref":"411","name":"Bus 411: Cala Rajada => Manacor","from":"Cala Rajada","to":"Manacor","network":"Transport públic de Mallorca","operator":"Bus Red","colour":"#e55900","route":"bus","public_transport:version":"2"},"n":13,"s":[[3706869633,8],[2509565197,9]]},
+  {"id":7538386,"t":{"ref":"412","name":"Bus 412: Manacor => Costa dels Pins","from":"Manacor","to":"Costa dels Pins","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#f5b7a8","route":"bus","public_transport:version":"2"},"n":16,"s":[[3709116555,5]]},
+  {"id":7539339,"t":{"ref":"412","name":"Bus 412: Costa dels Pins => Manacor","from":"Costa dels Pins","to":"Manacor","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#f5b7a8","route":"bus","public_transport:version":"2"},"n":16,"s":[[2508649339,12]]},
+  {"id":7577627,"t":{"ref":"417","name":"Bus 417: Porreres => Manacor => Son Carrió","from":"Porreres","to":"Son Carrió","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#c61901","route":"bus","public_transport:version":"2"},"n":10,"s":[[3709116555,9]]}
+]
+}

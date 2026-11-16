@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2642,3662],
+"stops":[
+  {"id":4320703816,"lat":42.116165,"lon":3.136364,"k":"p"},
+  {"id":8808858459,"lat":42.117486,"lon":3.129112,"k":"x","n":"L'Escala, Poble Sec (dir. Bellcaire)","ref":"16502"},
+  {"id":8808858465,"lat":42.122646,"lon":3.131756,"k":"x","n":"L'Escala, Pl. de les Escoles","ref":"16086"},
+  {"id":8808858470,"lat":42.124658,"lon":3.12108,"k":"p","n":"Ruïnes d'Empuries, Cruïlla (dir. l'Escala Centre)","ref":"16773"},
+  {"id":8808858476,"lat":42.124651,"lon":3.121,"k":"x","n":"Ruïnes d'Empuries, Cruïlla (dir. l'Escala Centre)","ref":"16773"},
+  {"id":8808858485,"lat":42.124581,"lon":3.12063,"k":"x","n":"Ruïnes d'Empuries, Cruïlla (dir. Figueres)","ref":"16088"},
+  {"id":9234899103,"lat":42.124593,"lon":3.120587,"k":"p","n":"Ruïnes d'Empuries, Cruïlla (dir. Figueres)","ref":"16088"},
+  {"id":9243542752,"lat":42.122331,"lon":3.131872,"k":"p","n":"autobús urbano"},
+  {"id":12071142969,"lat":42.117737,"lon":3.129282,"k":"p","n":"L'Escala Poble Sec (dir. Escala Centre)","ref":"16534"},
+  {"id":12071143070,"lat":42.117543,"lon":3.129048,"k":"p","n":"L'Escala, Poble Sec (dir. Bellcaire)","ref":"16502"},
+  {"id":12145846077,"lat":42.122641,"lon":3.131673,"k":"p","n":"L'Escala, Pl. de les Escoles","ref":"16086"},
+  {"id":12149885667,"lat":42.11774,"lon":3.12924,"k":"x","n":"L'Escala Poble Sec (dir. Escala Centre)","ref":"16534"},
+  {"id":12149936023,"lat":42.125618,"lon":3.120676,"k":"x","n":"GI cantó C/ Puig i ca la palca"},
+  {"id":12149936024,"lat":42.12565,"lon":3.120703,"k":"p","n":"GI cantó C/ Puig i ca la palca"}
+],
+"routes":[
+  {"id":17988937,"t":{"ref":"L1140","name":"L1140 L'Escala - Girona","from":"L'Escala","to":"Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":2,"s":[[12145846077,1]]},
+  {"id":17989500,"t":{"ref":"L1140","name":"L1140 Girona - l'Escala","from":"Girona","to":"L'Escala","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":17,"s":[[8808858470,15],[12071142969,16],[12145846077,17]]},
+  {"id":20172254,"t":{"ref":"1","name":"1 Aeroport BCN => Barcelona => Costa Brava Centre","from":"Aeroport T2","to":"L'Escala","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":20,"s":[[12145846077,20]]},
+  {"id":20172285,"t":{"ref":"1","name":"1 Costa Brava Centre => Barcelona => Aeroport BCN","from":"L'Escala","to":"Aeroport T2","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":18,"s":[[12145846077,1]]},
+  {"id":20233945,"t":{"ref":"10","name":"Línia 10 Torroella de Montgrí => l'Escala => Figueres","from":"Torroella de Montgrí","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[12071142969,5],[12145846077,6],[9234899103,7]]},
+  {"id":20234232,"t":{"ref":"10","name":"Línia 10 Figueres => l'Escala => Torroella de Montgrí","from":"Figueres","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":18,"s":[[8808858470,13],[12145846077,14],[12071143070,15]]}
+]
+}

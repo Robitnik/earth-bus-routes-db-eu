@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2735,3952],
+"stops":[
+  {"id":2380492657,"lat":46.775699,"lon":17.647051,"k":"p","n":"Balatonboglár, vasútállomás"},
+  {"id":2380492659,"lat":46.775589,"lon":17.647084,"k":"p","n":"Balatonboglár, vasútállomás"},
+  {"id":2386837986,"lat":46.767462,"lon":17.620355,"k":"p","n":"Ordacsehi elágazás [4]"},
+  {"id":2386837987,"lat":46.766962,"lon":17.618321,"k":"p","n":"Ordacsehi elágazás [4]"},
+  {"id":2386837988,"lat":46.766415,"lon":17.619442,"k":"p","n":"Ordacsehi elágazás [4]"},
+  {"id":3445483434,"lat":46.77166,"lon":17.634642,"k":"p","n":"Balatonboglár, Jankovich üdülőtelep"},
+  {"id":3838102769,"lat":46.771509,"lon":17.633644,"k":"p","n":"Balatonboglár, Jankovich üdülőtelep"},
+  {"id":6712223320,"lat":46.775689,"lon":17.647182,"k":"p","n":"Balatonboglár, vasútállomás"}
+],
+"routes":[
+  {"id":9921539,"t":{"ref":"6040","name":"6040 => Fonyód - Siófok","from":"Fonyód, vasútállomás","to":"Siófok, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":39,"s":[[2386837986,4],[3445483434,6],[3838102769,33]]},
+  {"id":9922349,"t":{"ref":"6175","name":"6175 => Hács - (Gyugy) - Balatonboglár","from":"Hács, tsz.","to":"Balatonboglár, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#edaf2c","route":"bus","public_transport:version":"2"},"n":17,"s":[[2380492657,17]]},
+  {"id":9922350,"t":{"ref":"6195","name":"6195 => Fonyód - (Ordacsehi) - Balatonboglár","from":"Fonyód, vasútállomás","to":"Balatonboglár, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus"},"n":10,"s":[[3445483434,1],[2386837986,2],[2386837988,3],[2380492659,10]]},
+  {"id":9923310,"t":{"ref":"6071","name":"6071 => Karád - Fonyód","from":"Karád, Tsz","to":"Fonyód, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":21,"s":[[3838102769,12],[2386837987,13],[6712223320,21]]},
+  {"id":9923982,"t":{"ref":"6175","name":"6175 => Balatonboglár - (Gyugy) - Hács","from":"Balatonboglár, vasútállomás","to":"Hács, tsz.","network":"Volánbusz","operator":"Volánbusz","colour":"#edaf2c","route":"bus","public_transport:version":"2"},"n":17,"s":[[2380492657,1]]},
+  {"id":9923983,"t":{"ref":"6195","name":"6195 => Balatonboglár - (Ordacsehi) - Fonyód","from":"Balatonboglár, vasútállomás","to":"Fonyód, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus"},"n":10,"s":[[2380492657,1],[3838102769,2],[2386837987,3],[2386837988,4]]},
+  {"id":9923984,"t":{"ref":"6042","name":"Bus 6042: Siófok => Marcali","from":"Siófok, autóbusz-állomás","to":"Marcali, autóbusz-állomás","network":"regional","operator":"MÁV Személyszállítási Zrt.","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":64,"s":[[6712223320,32],[3838102769,33],[2386837987,34]]},
+  {"id":9925153,"t":{"ref":"6176","name":"6176 => Marcali - Balatonboglár","from":"Marcali, autóbusz-állomás","to":"Balatonboglár, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":27,"s":[[2380492657,27]]}
+]
+}

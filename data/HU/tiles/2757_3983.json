@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2757,3983],
+"stops":[
+  {"id":2293671808,"lat":47.858807,"lon":19.192802,"k":"p","n":"Ősagárd, Szabadság utca"},
+  {"id":2293671809,"lat":47.859079,"lon":19.191861,"k":"p","n":"Ősagárd, Szabadság utca"},
+  {"id":2293672565,"lat":47.887324,"lon":19.195315,"k":"p","n":"Felsőpetény, orvosi rendelő"},
+  {"id":3456392040,"lat":47.878862,"lon":19.168557,"k":"p","n":"Ősagárdi elágazás"},
+  {"id":3456392695,"lat":47.860747,"lon":19.187622,"k":"p","n":"Ősagárd, Kossuth utca"},
+  {"id":6512196893,"lat":47.890827,"lon":19.199164,"k":"p","n":"Felsőpetény, sportpálya"},
+  {"id":6512196894,"lat":47.890698,"lon":19.199188,"k":"p","n":"Felsőpetény, sportpálya"},
+  {"id":6512196895,"lat":47.887845,"lon":19.195604,"k":"p","n":"Felsőpetény, orvosi rendelő"},
+  {"id":6512196902,"lat":47.856724,"lon":19.197619,"k":"p","n":"Ősagárd, orvosi rendelő"},
+  {"id":6512196903,"lat":47.860506,"lon":19.188035,"k":"p","n":"Ősagárd, Kossuth utca"},
+  {"id":6512196904,"lat":47.879472,"lon":19.168804,"k":"p","n":"Ősagárdi elágazás"},
+  {"id":6512196905,"lat":47.879419,"lon":19.169195,"k":"p","n":"Ősagárdi elágazás"},
+  {"id":6512196906,"lat":47.878997,"lon":19.16864,"k":"p","n":"Ősagárdi elágazás"}
+],
+"routes":[
+  {"id":9639960,"t":{"ref":"336","name":"336 \"B\": Felsőpetény, orvosi rendelő => Vác, autóbusz-állomás","from":"Felsőpetény, orvosi rendelő","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":27,"s":[[2293672565,1],[6512196894,2]]},
+  {"id":9639961,"t":{"ref":"336","name":"336 \"A\": Rétság, autóbusz-forduló => Nézsa, gyógzszertár => Vác, autóbusz-állomás","from":"Rétság, autóbusz-forduló","to":"Vác, autóbusz-állomás","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":42,"s":[[6512196906,10],[2293672565,11],[6512196894,12]]},
+  {"id":9640015,"t":{"ref":"330","name":"330 \"F\" v: Ősagárd, orvosi rendelő => Nőtincs, Templom tér","from":"Ősagárd, orvosi rendelő","to":"Nőtincs, Templom tér","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":6,"s":[[6512196902,1],[2293671808,2],[3456392695,3],[6512196906,4]]},
+  {"id":9640017,"t":{"ref":"330","name":"330 \"C\" v: Ősagárd, orvosi rendelő => Vác, autóbusz-állomás","from":"Ősagárd, orvosi rendelő","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[6512196902,1],[2293671808,2],[3456392695,3],[6512196906,4]]},
+  {"id":9640018,"t":{"ref":"330","name":"330 \"B\" v: Felsőpetény, bánya => Vác, autóbusz-állomás","from":"Felsőpetény, bánya","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[6512196893,3],[6512196895,4]]},
+  {"id":9640019,"t":{"ref":"330","name":"330 \"A\" v: Felsőpetény, bánya => Ősagárd, orvosi rendelő => Vác, autóbusz-állomás","from":"Felsőpetény, bánya","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":27,"s":[[6512196893,3],[6512196895,4],[3456392040,5],[6512196903,6],[2293671809,7],[6512196902,8],[2293671808,9],[3456392695,10],[6512196906,11]]},
+  {"id":9640020,"t":{"ref":"330","name":"330 \"F\": Nőtincs, Templom tér => Ősagárd, orvosi rendelő","from":"Nőtincs, Templom tér","to":"Ősagárd, orvosi rendelő","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":6,"s":[[3456392040,3],[6512196903,4],[2293671809,5],[6512196902,6]]},
+  {"id":9640021,"t":{"ref":"330","name":"330 \"E\": Nőtincs, Templom tér => Ősagárd, orvosi rendelő => Felsőpetény, bánya","from":"Nőtincs, Templom tér","to":"Felsőpetény, bánya","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[3456392040,3],[6512196903,4],[2293671809,5],[6512196902,6],[2293671808,7],[3456392695,8],[6512196905,9],[2293672565,10],[6512196894,11]]},
+  {"id":9640023,"t":{"ref":"330","name":"330 \"C\": Vác, autóbusz-állomás => Ősagárd, orvosi rendelő","from":"Vác, autóbusz-állomás","to":"Ősagárd, orvosi rendelő","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":19,"s":[[3456392040,17],[6512196903,18],[2293671809,19]]},
+  {"id":9640024,"t":{"ref":"330","name":"330 \"B\": Vác, autóbusz-állomás => Felsőpetény, bánya","from":"Vác, autóbusz-állomás","to":"Felsőpetény, bánya","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[6512196905,16],[2293672565,17],[6512196894,18]]},
+  {"id":9640025,"t":{"ref":"329","name":"329 \"D\" v: Bánk, tengerszem fogadó => Vác, autóbusz-állomás","from":"Bánk, tengerszem fogadó","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":23,"s":[[6512196893,6],[6512196895,7]]},
+  {"id":9640026,"t":{"ref":"329","name":"329 \"C\" v: Bánk, tengerszem fogadó => Ősagárd, orvosi rendelő => Vác, autóbusz-állomás","from":"Bánk, tengerszem fogadó","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":30,"s":[[6512196893,6],[6512196895,7],[3456392040,8],[6512196903,9],[2293671809,10],[6512196902,11],[2293671808,12],[3456392695,13],[6512196906,14]]},
+  {"id":9640027,"t":{"ref":"329","name":"329 \"A\" v: Rétság, autóbusz-forduló => Ősagárd, orvosi rendelő => Vác, autóbusz-állomás","from":"Rétság, autóbusz-forduló","to":"Vác, autóbusz-állomás","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[6512196893,10],[6512196895,11],[3456392040,12],[6512196903,13],[2293671809,14],[6512196902,15],[2293671808,16],[3456392695,17],[6512196906,18]]},
+  {"id":9640028,"t":{"ref":"329","name":"329 \"E\": Vác, autóbusz-állomás => Ősagárd, orvosi rendelő => Bánk, strand","from":"Vác, autóbusz-állomás","to":"Bánk, strand","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":31,"s":[[3456392040,19],[6512196903,20],[2293671809,21],[6512196902,22],[2293671808,23],[3456392695,24],[6512196906,25],[2293672565,26],[6512196894,27]]},
+  {"id":9640029,"t":{"ref":"330","name":"330 \"A\": Vác, autóbusz-állomás => Ősagárd, orvosi rendelő => Felsőpetény, bánya","from":"Vác, autóbusz-állomás","to":"Felsőpetény, bánya","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":26,"s":[[3456392040,16],[6512196903,17],[2293671809,18],[6512196902,19],[2293671808,20],[3456392695,21],[6512196906,22],[2293672565,23],[6512196894,24]]},
+  {"id":9640030,"t":{"ref":"329","name":"329 \"A\": Vác, autóbusz-állomás => Ősagárd, orvosi rendelő => Rétság, autóbusz-forduló","from":"Vác, autóbusz-állomás","to":"Rétság, autóbusz-forduló","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":34,"s":[[3456392040,19],[6512196903,20],[2293671809,21],[6512196902,22],[2293671808,23],[3456392695,24],[6512196906,25],[2293672565,26],[6512196894,27]]},
+  {"id":9640086,"t":{"ref":"329","name":"329 \"B\" v: Rétság, autóbusz-forduló => Vác, autóbusz-állomás","from":"Rétság, autóbusz-forduló","to":"Vác, autóbusz-állomás","network":"regional","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":29,"s":[[6512196893,10],[6512196895,11]]}
+]
+}

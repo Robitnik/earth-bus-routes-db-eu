@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2667,3548],
+"stops":[
+  {"id":391310699,"lat":43.354442,"lon":-2.560407,"k":"x","n":"Barainka"},
+  {"id":2959564704,"lat":43.35449,"lon":-2.560351,"k":"p","n":"Barainka"},
+  {"id":4417411786,"lat":43.380165,"lon":-2.585588,"k":"p","n":"Donibane (Ea)","ref":"1884"},
+  {"id":4830392265,"lat":43.354257,"lon":-2.557139,"k":"x","n":"Soloaran"},
+  {"id":5945758515,"lat":43.354228,"lon":-2.557124,"k":"p","n":"Soloaran"},
+  {"id":5945758518,"lat":43.354291,"lon":-2.557187,"k":"p","n":"Soloaran"},
+  {"id":14201891917,"lat":43.380859,"lon":-2.598991,"k":"p","n":"Angelutxu","ref":"1885"},
+  {"id":14201891918,"lat":43.380676,"lon":-2.598936,"k":"p","n":"Angelutxu","ref":"1869"},
+  {"id":14201891943,"lat":43.380127,"lon":-2.585651,"k":"p","n":"Donibane (Ea)","ref":"1870"}
+],
+"routes":[
+  {"id":8763723,"t":{"ref":"A3538","name":"A3538 Barainka → Lekeitio","from":"Barainka","to":"Lekeitio","network":"Bizkaibus","operator":"Busturialdea-Lea Artibai Bus S.A.","route":"bus","public_transport:version":"2"},"n":7,"s":[[2959564704,1],[5945758515,2]]},
+  {"id":8763724,"t":{"ref":"A3538","name":"A3538 Lekeitio → Barainka","from":"Lekeitio","to":"Barainka","network":"Bizkaibus","operator":"Busturialdea-Lea Artibai Bus S.A.","route":"bus","public_transport:version":"2"},"n":7,"s":[[5945758518,6],[2959564704,7]]},
+  {"id":21445906,"t":{"ref":"A3532","name":"A3532 Ea →Muruetagane → Gernika Lumo","from":"Ea","to":"Gernika Lumo","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":22,"s":[[4417411786,1],[14201891917,2]]},
+  {"id":21445907,"t":{"ref":"A3532","name":"A3532 Gernika Lumo → Muruetagane → Ea","from":"Gernika Lumo","to":"Ea","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":22,"s":[[14201891918,21],[14201891943,22]]},
+  {"id":21445908,"t":{"ref":"A3532","name":"A3532 Gernika Lumo → Kanala → Elantxobe → Ea (Uda)","from":"Gernika Lumo","to":"Ea","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":36,"s":[[14201891918,35],[14201891943,36]]},
+  {"id":21445909,"t":{"ref":"A3532","name":"A3532 Ea → Elantxobe → Kanala → Gernika Lumo (Uda)","from":"Ea","to":"Gernika Lumo","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":36,"s":[[4417411786,1],[14201891917,2]]},
+  {"id":21445910,"t":{"ref":"A3532","name":"A3532 Ea → Elantxobe → Kanala → Gernika Lumo","from":"Ea","to":"Gernika Lumo","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":36,"s":[[4417411786,1],[14201891917,2]]},
+  {"id":21445911,"t":{"ref":"A3532","name":"A3532 Gernika Lumo → Kanala → Elantxobe → Ea","from":"Gernika Lumo","to":"Ea","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":36,"s":[[14201891918,35],[14201891943,36]]}
+]
+}

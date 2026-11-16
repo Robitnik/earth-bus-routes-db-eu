@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2555,3579],
+"stops":[
+  {"id":3945876509,"lat":37.759167,"lon":-1.035748,"k":"p","n":"Jimenado"},
+  {"id":8215045548,"lat":37.795517,"lon":-1.005166,"k":"p","n":"Roldan - Avenida Torre Pacheco"},
+  {"id":12075145959,"lat":37.798823,"lon":-1.007346,"k":"p","n":"Roldan - Avenida Balsicas"},
+  {"id":12075145960,"lat":37.798715,"lon":-1.007724,"k":"p","n":"Roldan - Avenida Balsicas"},
+  {"id":12101100144,"lat":37.795618,"lon":-1.00505,"k":"p","n":"Roldan - Avenida Torre Pacheco"},
+  {"id":12101100145,"lat":37.799094,"lon":-1.010476,"k":"p","n":"Roldan - Gasolinera"},
+  {"id":12101100146,"lat":37.799232,"lon":-1.010799,"k":"p","n":"Roldan - Gasolinera"},
+  {"id":13398362599,"lat":37.798683,"lon":-1.007821,"k":"p","n":"Roldan - La Caixa","ref":"6832"},
+  {"id":13398362600,"lat":37.798772,"lon":-1.007424,"k":"p","n":"Roldan - La Caixa","ref":"6823"}
+],
+"routes":[
+  {"id":17877179,"t":{"ref":"45","name":"45: Cartagena → Balsicas","from":"Cartagena","to":"Balsicas","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":13,"s":[[13398362600,10]]},
+  {"id":17877180,"t":{"ref":"45","name":"45: Balsicas → Cartagena","from":"Balsicas","to":"Cartagena","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":13,"s":[[13398362599,13]]},
+  {"id":17880547,"t":{"ref":"49","name":"49: San Pedro del Pinatar → Roldán","from":"San Pedro del Pinatar","to":"Roldán","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":24,"s":[[13398362599,24]]},
+  {"id":17880549,"t":{"ref":"49","name":"49: Roldán → San Pedro del Pinatar","from":"Roldán","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":23,"s":[[13398362600,1]]},
+  {"id":17921799,"t":{"name":"Los Urrutias → Murcia, por El Jimenado","from":"Los Urrutias","to":"Murcia","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":11,"s":[[3945876509,11]]},
+  {"id":17921800,"t":{"name":"Murcia → Los Urrutias, por El Jimenado y El Palmar","from":"Murcia","to":"Los Urrutias","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":12,"s":[[3945876509,2]]},
+  {"id":17921801,"t":{"name":"Murcia → Los Urrutias, por Roldan y El Palmar","from":"Murcia","to":"Los Urrutias","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":15,"s":[[12101100146,3],[8215045548,4]]},
+  {"id":17921802,"t":{"name":"Murcia → Los Urrutias, por Roldan","from":"Murcia","to":"Los Urrutias","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":14,"s":[[12101100146,2],[8215045548,3]]},
+  {"id":17922171,"t":{"name":"Dolores → Murcia, por Roldan y El Palmar","from":"Dolores","to":"Murcia","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":13,"s":[[12101100144,9],[12101100145,10]]},
+  {"id":17922172,"t":{"name":"Murcia → Dolores, por Roldan y El Palmar","from":"Murcia","to":"Dolores","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":13,"s":[[12101100146,3],[8215045548,4]]},
+  {"id":17922224,"t":{"ref":"MUR-055","name":"Los Narejos → Murcia, por Roldan y El Palmar","from":"Los Narejos","to":"Murcia","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":11,"s":[[12101100144,7],[12101100145,8]]},
+  {"id":17922225,"t":{"ref":"MUR-055","name":"Los Narejos → Murcia, por Roldan","from":"Los Narejos","to":"Murcia","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":10,"s":[[12101100144,8],[12101100145,9]]},
+  {"id":17922226,"t":{"name":"Los Narejos → Murcia, por El Jimenado","from":"Los Narejos","to":"Murcia","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":7,"s":[[3945876509,6]]},
+  {"id":17922264,"t":{"name":"Murcia → Los Narejos, por Roldan","from":"Murcia","to":"Los Narejos","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":10,"s":[[12101100146,2],[8215045548,3]]},
+  {"id":17922265,"t":{"name":"Murcia → Los Narejos, por Roldan y El Palmar","from":"Murcia","to":"Los Narejos","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":11,"s":[[12101100146,3],[8215045548,4]]},
+  {"id":17922266,"t":{"name":"Murcia → Los Narejos, por El Jimenado","from":"Murcia","to":"Los Narejos","network":"MUR-055","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":7,"s":[[3945876509,7]]},
+  {"id":17924538,"t":{"ref":"L2","name":"L2: Dolores → Torre Pacheco","from":"Dolores","to":"Torre Pacheco","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#213C89","route":"bus","public_transport:version":"2"},"n":11,"s":[[12075145960,5],[8215045548,6]]},
+  {"id":17924539,"t":{"ref":"L2","name":"L2: Torre Pacheco → Dolores","from":"Torre Pacheco","to":"Dolores","network":"Transporte Urbano Torre Pacheco","operator":"El Pasico Bus S.L.","colour":"#213C89","route":"bus","public_transport:version":"2"},"n":11,"s":[[12101100144,6],[12075145959,7]]}
+]
+}

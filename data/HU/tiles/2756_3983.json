@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2756,3983],
+"stops":[
+  {"id":3456369417,"lat":47.808369,"lon":19.178099,"k":"p","n":"Kosd, Dózsa György út 55."},
+  {"id":3456369418,"lat":47.811194,"lon":19.180848,"k":"p","n":"Kosd, Erdészház"},
+  {"id":3456369420,"lat":47.801515,"lon":19.17719,"k":"p","n":"Kosd, templom"},
+  {"id":6512196700,"lat":47.810943,"lon":19.180267,"k":"p","n":"Kosd, Erdészház"},
+  {"id":6512196701,"lat":47.808424,"lon":19.178383,"k":"p","n":"Kosd, Dózsa György út 55."},
+  {"id":6512196702,"lat":47.801569,"lon":19.177481,"k":"p","n":"Kosd, templom"}
+],
+"routes":[
+  {"id":9639996,"t":{"ref":"333","name":"333 \"D\" v: Kosd, templom => Vác, autóbusz-állomás","from":"Kosd, templom","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":9,"s":[[3456369420,1]]},
+  {"id":9639997,"t":{"ref":"333","name":"333 \"C\" v: Kosd, erdészház => Vác, autóbusz-állomás","from":"Kosd, erdészház","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[6512196700,1],[3456369417,2],[3456369420,3]]},
+  {"id":9639998,"t":{"ref":"333","name":"333 \"B\" v: Kosd, erdészház => Vác, kórház => Vác, autóbusz-állomás","from":"Kosd, erdészház","to":"Vác, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":12,"s":[[6512196700,1],[3456369417,2],[3456369420,3]]},
+  {"id":9639999,"t":{"ref":"333","name":"333 \"C\": Vác, autóbusz-állomás => Kosd, erdészház","from":"Vác, autóbusz-állomás","to":"Kosd, erdészház","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[6512196702,8],[6512196701,9],[3456369418,10]]},
+  {"id":9640000,"t":{"ref":"333","name":"333 \"B\": Vác, autóbusz-állomás => Vác, kórház => Kosd, erdészház","from":"Vác, autóbusz-állomás","to":"Kosd, erdészház","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[6512196702,9],[6512196701,10],[3456369418,11]]},
+  {"id":12851619,"t":{"ref":"333","name":"333 \"A\": Vác, Szérűskert autóbusz-forduló => Vác, autóbusz-állomás => Kosd, erdészház","from":"Vác, Szérűskert autóbusz-forduló","to":"Kosd, erdészház","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[6512196702,15],[6512196701,16],[3456369418,17]]},
+  {"id":12851620,"t":{"ref":"333","name":"333 \"A\" v: Kosd, erdészház => Vác, autóbusz-állomás => Vác, Szérűskert autóbusz-forduló","from":"Kosd, erdészház","to":"Vác, Szérűskert autóbusz-forduló","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":18,"s":[[6512196700,1],[3456369417,2],[3456369420,3]]}
+]
+}

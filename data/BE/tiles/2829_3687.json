@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2829,3687],
+"stops":[
+  {"id":619467624,"lat":51.454278,"lon":4.383016,"k":"p","n":"Moerkantsebaan"},
+  {"id":5022991755,"lat":51.454269,"lon":4.38307,"k":"x","n":"Huijbergen, Moerkantsebaan"},
+  {"id":5022991756,"lat":51.454701,"lon":4.383285,"k":"x","n":"Huijbergen, Moerkantsebaan"},
+  {"id":5204904707,"lat":51.454693,"lon":4.38334,"k":"p","n":"Moerkantsebaan"}
+],
+"routes":[
+  {"id":19213759,"t":{"ref":"164","name":"Bus 164: Ossendrecht Postbaan => Roosendaal Station","from":"Ossendrecht, Postbaan","to":"Roosendaal, Station","network":"West-Brabant","operator":"Arriva","colour":"#FDB515","route":"bus","public_transport:version":"2"},"n":5,"s":[[5204904707,5]]},
+  {"id":19213760,"t":{"ref":"164","name":"Bus 164: Roosendaal Station => Ossendrecht Postbaan","from":"Roosendaal, Station","to":"Ossendrecht, Postbaan","network":"West-Brabant","operator":"Arriva","colour":"#FDB515","route":"bus","public_transport:version":"2"},"n":5,"s":[[619467624,1]]},
+  {"id":20161298,"t":{"ref":"flex","name":"Bravoflex hub Raadhuisstraat, Hoogerheide","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":28,"s":[[619467624,20],[5204904707,27]]}
+]
+}

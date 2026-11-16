@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2616,3583],
+"stops":[
+  {"id":566713170,"lat":40.83194,"lon":-0.800528,"k":"p","n":"Montalbán"},
+  {"id":12610586675,"lat":40.80312,"lon":-0.840527,"k":"p","n":"Barriada Obrera del Sur"},
+  {"id":12610586676,"lat":40.802937,"lon":-0.840364,"k":"p","n":"Barriada Obrera del Sur"},
+  {"id":12610586677,"lat":40.811553,"lon":-0.845205,"k":"p","n":"Utrillas. C/ San Vicente de Paul"}
+],
+"routes":[
+  {"id":15833866,"t":{"ref":"VAC-017","name":"Bus VAC-017: Teruel -> Barcelona","from":"Teruel","network":"Autobuses de España","operator":"Hife","route":"bus","public_transport:version":"2"},"n":36,"s":[[12610586677,10],[566713170,11]]},
+  {"id":18741200,"t":{"ref":"T7-1","name":"Teruel-Alcañiz","from":"Teruel","to":"Alcañiz","network":"Transporte Público de Aragón","operator":"Hife","colour":"#E62733","route":"bus","public_transport:version":"2"},"n":28,"s":[[12610586675,14],[12610586677,15],[566713170,16]]},
+  {"id":18771993,"t":{"ref":"T12-1","name":"Bus T12-1: Utrillas → Zaragoza","from":"Utrillas","to":"Zaragoza","network":"Transporte Público de Aragón","operator":"La Veloz","colour":"#EE2F3E","route":"bus","public_transport:version":"2"},"n":14,"s":[[12610586677,1],[566713170,2]]},
+  {"id":18771995,"t":{"ref":"T12-1","name":"Bus T12-1: Zaragoza → Utrillas","from":"Zaragoza","to":"Utrillas","network":"Transporte Público de Aragón","operator":"La Veloz","colour":"#EE2F3E","route":"bus","public_transport:version":"2"},"n":14,"s":[[566713170,13],[12610586677,14]]},
+  {"id":19016307,"t":{"ref":"T7-2","name":"Muniesa-Teruel","from":"Muniesa","to":"Teruel","network":"Transporte Público de Aragón","operator":"Hife","colour":"#00A16E","route":"bus","public_transport:version":"2"},"n":21,"s":[[566713170,5],[12610586677,6],[12610586676,7]]},
+  {"id":19016385,"t":{"ref":"T7-2","name":"Teruel-Muniesa","from":"Teruel","to":"Muniesa","network":"Transporte Público de Aragón","operator":"Hife","colour":"#00A16E","route":"bus","public_transport:version":"2"},"n":21,"s":[[12610586675,15],[12610586677,16],[566713170,17]]}
+]
+}

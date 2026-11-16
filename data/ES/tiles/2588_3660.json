@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2588,3660],
+"stops":[
+  {"id":4831037170,"lat":39.432364,"lon":3.023367,"k":"p","n":"La Verge","ref":"13007"},
+  {"id":4831037171,"lat":39.432448,"lon":3.023161,"k":"p","n":"La Verge","ref":"13008"},
+  {"id":4831037172,"lat":39.426484,"lon":3.020006,"k":"p","n":"c/ Nicolau Oliver Fullana (Campos)"},
+  {"id":4831037173,"lat":39.426438,"lon":3.020233,"k":"p","n":"C/ Nicolau Oliver Fullana (Campos)"},
+  {"id":4831037175,"lat":39.436768,"lon":3.015389,"k":"p","n":"Campos oest","ref":"13009"},
+  {"id":9528112379,"lat":39.436749,"lon":3.014678,"k":"p","n":"Campos oest","ref":"13010"}
+],
+"routes":[
+  {"id":5560742,"t":{"ref":"516","name":"Bus 516: Cala Figuera => Campos","network":"Transport públic de Mallorca","operator":"Transabus Balear","colour":"#a6c6e1","route":"bus","public_transport:version":"2"},"n":7,"s":[[4831037170,7]]},
+  {"id":7416633,"t":{"ref":"515","name":"Bus 515: Campos => Cala d'Or","network":"Transport públic de Mallorca","operator":"Transabus Balear","colour":"#ffd0a6","route":"bus","public_transport:version":"2"},"n":9,"s":[[4831037171,1]]},
+  {"id":8617001,"t":{"ref":"501","name":"Bus 501: Manacor => Campos => Palma","from":"Manacor","to":"Palma","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#0c5213","route":"bus","public_transport:version":"2"},"n":15,"s":[[4831037170,8],[4831037175,9]]},
+  {"id":13445917,"t":{"ref":"516","name":"Bus 516: Campos => Cala Figuera","network":"Transport públic de Mallorca","operator":"Transabus Balear","colour":"#a6c6e1","route":"bus","public_transport:version":"2"},"n":7,"s":[[4831037171,1]]},
+  {"id":13445918,"t":{"ref":"515","name":"Bus 515: Cala d'Or => Campos","network":"Transport públic de Mallorca","operator":"Transabus Balear","colour":"#ffd0a6","route":"bus","public_transport:version":"2"},"n":9,"s":[[4831037170,9]]},
+  {"id":13554063,"t":{"ref":"518","name":"Bus 518: Campos => Sa Ràpita","from":"Campos","to":"Sa Ràpita","network":"Consorci de Transports de Mallorca","operator":"Sagalés Caldentey","colour":"#c6d9c1","route":"bus","public_transport:version":"2"},"n":3,"s":[[4831037171,1]]},
+  {"id":16142837,"t":{"ref":"517","name":"Bus 517: Campos => Colònia de Sant Jordi => Santanyí","from":"Campos","to":"Santanyí","operator":"Sagalés Caldentey","colour":"#c3105d","route":"bus","public_transport:version":"2"},"n":10,"s":[[4831037171,1]]},
+  {"id":16142842,"t":{"ref":"517","name":"Bus 517: Santanyí => Colònia de Sant Jordi => Campos","from":"Santanyí","to":"Campos","operator":"Sagalés Caldentey","colour":"#c3105d","route":"bus","public_transport:version":"2"},"n":10,"s":[[4831037170,10]]},
+  {"id":16144115,"t":{"ref":"518","name":"Bus 518: Sa Ràpita => Campos","from":"Sa Ràpita","to":"Campos","network":"Consorci de Transports de Mallorca","operator":"Sagalés Caldentey","colour":"#c6d9c1","route":"bus","public_transport:version":"2"},"n":3,"s":[[4831037171,3]]},
+  {"id":17862837,"t":{"ref":"A51","name":"Bus A51: Aeroport => Campos","from":"Aeroport","to":"Campos","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#28689d","route":"bus","public_transport:version":"2"},"n":9,"s":[[9528112379,8],[4831037170,9]]},
+  {"id":17862838,"t":{"ref":"A51","name":"Bus A51: Campos => Aeroport","from":"Campos","to":"Aeroport","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#28689d","route":"bus","public_transport:version":"2"},"n":11,"s":[[4831037170,1],[4831037175,2]]},
+  {"id":17863945,"t":{"ref":"501","name":"Bus 501: Palma => Campos => Manacor","from":"Palma","to":"Manacor","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#0c5213","route":"bus","public_transport:version":"2"},"n":15,"s":[[9528112379,7],[4831037171,8]]},
+  {"id":17864251,"t":{"ref":"501e","name":"Bus 501e: Palma => Campos (exprés)","from":"Palma","to":"Campos","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#0c5213","route":"bus","public_transport:version":"2"},"n":4,"s":[[9528112379,3],[4831037171,4]]},
+  {"id":17864252,"t":{"ref":"501e","name":"Bus 501e: Campos => Palma (exprés)","from":"Campos","to":"Palma","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#0c5213","route":"bus","public_transport:version":"2"},"n":4,"s":[[4831037170,1],[4831037175,2]]},
+  {"id":17867533,"t":{"ref":"403","name":"Bus 403: Palma => Algaida => Campos","from":"Palma","to":"Campos","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#e5c992","route":"bus","public_transport:version":"2"},"n":12,"s":[[4831037171,12]]},
+  {"id":17867534,"t":{"ref":"403","name":"Bus 403: Campos => Algaida => Palma","from":"Campos","to":"Palma","network":"Transport públic de Mallorca","operator":"Sagalés Caldentey","colour":"#e5c992","route":"bus","public_transport:version":"2"},"n":12,"s":[[4831037170,1]]}
+]
+}

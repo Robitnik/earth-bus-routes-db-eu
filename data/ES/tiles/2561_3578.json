@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2561,3578],
+"stops":[
+  {"id":4202208653,"lat":38.061097,"lon":-1.052894,"k":"p","n":"Libreria"},
+  {"id":4202208654,"lat":38.060974,"lon":-1.052948,"k":"p","n":"Libreria"},
+  {"id":4202208655,"lat":38.063996,"lon":-1.054144,"k":"p","n":"Instituto"},
+  {"id":4202208658,"lat":38.064119,"lon":-1.054015,"k":"p","n":"Instituto"},
+  {"id":12112784457,"lat":38.059443,"lon":-1.050032,"k":"p","n":"Juanín","ref":"1059"},
+  {"id":12112824728,"lat":38.050436,"lon":-1.081343,"k":"p","n":"Ignacio"},
+  {"id":12112824729,"lat":38.05281,"lon":-1.074941,"k":"p","n":"Cobatillas"},
+  {"id":12112824730,"lat":38.054899,"lon":-1.070104,"k":"p","n":"La Moñina"},
+  {"id":12112824731,"lat":38.057214,"lon":-1.065701,"k":"p","n":"Tres Puertas"},
+  {"id":12113396090,"lat":38.057056,"lon":-1.06627,"k":"p","n":"Tres Puertas"},
+  {"id":12113396091,"lat":38.055077,"lon":-1.069985,"k":"p","n":"La Moñina"},
+  {"id":12113396092,"lat":38.052422,"lon":-1.076427,"k":"p","n":"Cobatillas"},
+  {"id":12113396093,"lat":38.050454,"lon":-1.081534,"k":"p","n":"Ignacio"},
+  {"id":12178968816,"lat":38.06082,"lon":-1.060106,"k":"p","n":"Barrio de La Inmaculada"},
+  {"id":12178968821,"lat":38.06366,"lon":-1.056046,"k":"p","n":"Cuartel"},
+  {"id":12178968824,"lat":38.063567,"lon":-1.050244,"k":"p","n":"Ambulatorio Santomera"},
+  {"id":12179851372,"lat":38.063752,"lon":-1.056107,"k":"p","n":"Cuartel"},
+  {"id":12179851373,"lat":38.060895,"lon":-1.060125,"k":"p","n":"Barrio de La Inmaculada"}
+],
+"routes":[
+  {"id":17939799,"t":{"ref":"22","name":"22A: Murcia → Beniel, por universidades","from":"Murcia","to":"Beniel","network":"Movibus","operator":"Alcalabus S.L.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":30,"s":[[12112824728,17],[12112824729,18],[12112824730,19],[12112824731,20]]},
+  {"id":17939824,"t":{"ref":"22","name":"22B: Murcia → Santomera, por universidades","from":"Murcia","to":"Santomera","network":"Movibus","operator":"Alcalabus S.L.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":23,"s":[[12112824728,17],[12112824729,18],[12112824730,19],[12112824731,20],[4202208653,21],[4202208658,22]]},
+  {"id":17940642,"t":{"ref":"22","name":"22B: Santomera → Murcia, por universidades","from":"Santomera","to":"Murcia","network":"Movibus","operator":"Alcalabus S.L.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":25,"s":[[4202208655,2],[4202208654,3],[12113396090,4],[12113396091,5],[12113396092,6],[12113396093,7]]},
+  {"id":17940707,"t":{"ref":"22","name":"22A: Beniel → Murcia, por universidades","from":"Beniel","to":"Murcia","network":"Movibus","operator":"Alcalabus S.L.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":31,"s":[[12112784457,9],[12113396090,10],[12113396091,11],[12113396092,12],[12113396093,13]]},
+  {"id":18049193,"t":{"ref":"L36","name":"L36A: Murcia → Santomera, por El Esparragal","from":"Murcia","to":"Santomera","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":38,"s":[[12112824728,30],[12112824729,31],[12112824730,32],[12112824731,33],[12178968816,34],[12178968821,35],[4202208655,36],[4202208654,37],[12112784457,38]]},
+  {"id":18049194,"t":{"ref":"L36","name":"L36B: Murcia → El Siscar, por Monteagudo","from":"Murcia","to":"El Siscar","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":44,"s":[[12112824728,25],[12112824729,26],[12112824730,27],[12112824731,28],[12178968816,29],[12178968821,30],[4202208655,31],[4202208654,32]]},
+  {"id":18049195,"t":{"ref":"L36","name":"L36C: Murcia → El Siscar, por Casillas","from":"Murcia","to":"El Siscar","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":53,"s":[[12112824728,39],[12112824729,40],[12112824730,41],[12112824731,42],[12178968816,43],[12178968821,44],[4202208655,45],[4202208654,46]]},
+  {"id":18049196,"t":{"ref":"L36","name":"L36D: Murcia → Santomera, por Casillas","from":"Murcia","to":"Santomera","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":53,"s":[[12112824728,39],[12112824729,40],[12112824730,41],[12112824731,42],[12178968816,43],[12178968821,44],[4202208655,45],[4202208654,46],[12112784457,47]]},
+  {"id":18050788,"t":{"ref":"L36","name":"L36B: El Siscar → Murcia, por Monteagudo","from":"El Siscar","to":"Murcia","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":49,"s":[[12112784457,15],[4202208653,16],[4202208658,17],[12179851372,18],[12179851373,19],[12113396090,20],[12113396091,21],[12113396092,22],[12113396093,23]]},
+  {"id":18050789,"t":{"ref":"L36","name":"L36C: El Siscar → Murcia, por Casillas","from":"El Siscar","to":"Murcia","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":55,"s":[[12112784457,7],[4202208653,8],[4202208658,9],[12179851372,10],[12179851373,11],[12113396090,12],[12113396091,13],[12113396092,14],[12113396093,15]]},
+  {"id":18050790,"t":{"ref":"L36","name":"L36A: Santomera → Murcia, por El Esparragal","from":"Santomera","to":"Murcia","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":40,"s":[[12112784457,1],[4202208653,2],[4202208658,3],[12179851372,4],[12179851373,5],[12113396090,6],[12113396091,7],[12113396092,8],[12113396093,9]]},
+  {"id":18050791,"t":{"ref":"L36","name":"L36D: Santomera → Murcia, por Casillas","from":"Santomera","to":"Murcia","network":"Transporte de Murcia y Pedanías","operator":"UTE Pedanias de Murcia","colour":"#DA4241","route":"bus","public_transport:version":"2"},"n":49,"s":[[12112784457,1],[4202208653,2],[4202208658,3],[12179851372,4],[12179851373,5],[12113396090,6],[12113396091,7],[12113396092,8],[12113396093,9]]}
+]
+}

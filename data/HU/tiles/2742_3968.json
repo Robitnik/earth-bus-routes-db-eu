@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2742,3968],
+"stops":[
+  {"id":424170970,"lat":47.144384,"lon":18.408878,"k":"p","n":"Vásárhelyi úti laktótelep"},
+  {"id":424171258,"lat":47.140181,"lon":18.415936,"k":"p","n":"Angol utca"},
+  {"id":424171275,"lat":47.142905,"lon":18.415826,"k":"p","n":"Amerikai fasor [A]"},
+  {"id":424171278,"lat":47.142792,"lon":18.41695,"k":"p","n":"Amerikai fasor [B]"},
+  {"id":424171305,"lat":47.143687,"lon":18.419564,"k":"p","n":"Holland fasor 15."},
+  {"id":424171320,"lat":47.143988,"lon":18.420351,"k":"p","n":"Holland fasor 15."},
+  {"id":424171393,"lat":47.147497,"lon":18.426086,"k":"p","n":"Holland fasor 6."},
+  {"id":506238785,"lat":47.147858,"lon":18.412938,"k":"p","n":"Logisztikai Központ"},
+  {"id":506238986,"lat":47.149941,"lon":18.424679,"k":"p","n":"Szlovák utca [A]"},
+  {"id":2329338326,"lat":47.144733,"lon":18.409369,"k":"p","n":"Japán utca"},
+  {"id":2329338327,"lat":47.144804,"lon":18.409384,"k":"p","n":"Japán utca"},
+  {"id":2329338328,"lat":47.148243,"lon":18.418384,"k":"p","n":"Macher Zrt."},
+  {"id":2329338329,"lat":47.149777,"lon":18.432516,"k":"p","n":"Auchan"},
+  {"id":2329338331,"lat":47.147703,"lon":18.41225,"k":"p","n":"Logisztikai Központ"},
+  {"id":2329338332,"lat":47.148322,"lon":18.418102,"k":"p","n":"Macher Zrt."},
+  {"id":2329338333,"lat":47.147081,"lon":18.425167,"k":"p","n":"Holland fasor 6."},
+  {"id":2329370075,"lat":47.140385,"lon":18.415767,"k":"p","n":"Angol utca"},
+  {"id":2329370078,"lat":47.137431,"lon":18.414265,"k":"p","n":"Osztrák utca"},
+  {"id":2329370079,"lat":47.137349,"lon":18.413949,"k":"p","n":"Osztrák utca"},
+  {"id":2329370080,"lat":47.135,"lon":18.411706,"k":"p","n":"Gáztelep"},
+  {"id":3463077669,"lat":47.140779,"lon":18.445332,"k":"p","n":"Székesfehérvár, Kisteleki tanya"},
+  {"id":3837668362,"lat":47.140071,"lon":18.445735,"k":"p","n":"Székesfehérvár, Kisteleki tanya"}
+],
+"routes":[
+  {"id":2981558,"t":{"ref":"11A","name":"11A => Sóstói bevásárlóközpont","from":"Csapó utca","to":"Sóstói bevásárlóközpont","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[2329338326,12],[424171278,13],[424171320,14],[424171393,15]]},
+  {"id":2982864,"t":{"ref":"11","name":"11 => Vásárhelyi úti lakótelep","from":"Szedreskerti lakónyeged","to":"Vásárhelyi úti lakótelep","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[424170970,16]]},
+  {"id":2985991,"t":{"ref":"15Y","name":"15Y => Logisztikai központ","from":"Csapó utca","to":"Logisztikai központ","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[506238986,9],[2329338332,10],[506238785,11]]},
+  {"id":2991154,"t":{"ref":"15","name":"15 => Angol utca","from":"Csapó utca","to":"Angol utca","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[2329338333,10],[424171305,11],[424171275,12],[2329370075,13]]},
+  {"id":2991155,"t":{"ref":"15","name":"15 => Amerikai fasor forduló","from":"Csapó utca","to":"Amerikai fasor forduló","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":15,"s":[[2329338333,10],[424171305,11],[424171275,12],[2329370075,13],[2329370079,14],[2329370080,15]]},
+  {"id":7512253,"t":{"ref":"15","name":"15 => Csapó utca","from":"Amerikai fasor forduló","to":"Csapó utca","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":15,"s":[[2329370080,1],[2329370078,2],[424171258,3],[424171278,4],[424171320,5],[424171393,6]]},
+  {"id":7512261,"t":{"ref":"11","name":"11 => Szedreskerti lakónegyed","from":"Vásárhelyi úti lakótelep","to":"Szedreskerti lakónyeged","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[424170970,1]]},
+  {"id":7512263,"t":{"ref":"11A","name":"11A => Csapó utca","from":"Sóstói bevásárlóközpont","to":"Csapó utca","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[2329338333,2],[424171305,3],[424171275,4],[2329338327,5]]},
+  {"id":12611070,"t":{"ref":"15Y","name":"15Y => Csapó utca","from":"Logisztikai központ","to":"Csapó utca","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[2329338331,1],[2329338328,2]]},
+  {"id":12611071,"t":{"ref":"15","name":"15 => Csapó utca","from":"Angol utca","to":"Csapó utca","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[424171258,1],[424171278,2],[424171320,3],[424171393,4]]}
+]
+}

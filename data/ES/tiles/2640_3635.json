@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2640,3635],
+"stops":[
+  {"id":585210593,"lat":42.01794,"lon":1.76523,"k":"x","n":"Sant Martí de Montclar, Montclar"},
+  {"id":13398624267,"lat":42.030986,"lon":1.790281,"k":"x","n":"Montclar - Cruïlla BV-4131"},
+  {"id":13714026489,"lat":42.031002,"lon":1.79015,"k":"p","n":"Montclar - Cruïlla BV-4131"},
+  {"id":13773581326,"lat":42.017967,"lon":1.765157,"k":"p","n":"Sant Martí de Montclar, Montclar"}
+],
+"routes":[
+  {"id":19996513,"t":{"ref":"CAS","name":"CAS Berga - Puig-reig","from":"Berga","to":"Puig-reig","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[13714026489,3]]},
+  {"id":19996518,"t":{"ref":"CAS","name":"CAS Puig-reig - Berga","from":"Puig-reig","to":"Berga","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[13714026489,3]]},
+  {"id":20601336,"t":{"ref":"L1660","name":"L1660 TAD Montclar - Casserres - Gironella","from":"Montclar","to":"Gironella","route":"bus","public_transport:version":"2"},"n":4,"s":[[13773581326,1],[13714026489,2]]},
+  {"id":20601344,"t":{"ref":"L1660","name":"L1660 TAD Gironella - Casserres - Montclar","from":"Gironella","to":"Montclar","route":"bus","public_transport:version":"2"},"n":4,"s":[[13714026489,3],[13773581326,4]]}
+]
+}

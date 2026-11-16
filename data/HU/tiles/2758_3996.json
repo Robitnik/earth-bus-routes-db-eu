@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2758,3996],
+"stops":[
+  {"id":1887089957,"lat":47.949921,"lon":19.841194,"k":"p","n":"Szorospatak, Fordulóhely"},
+  {"id":2782835920,"lat":47.900263,"lon":19.816016,"k":"p","n":"Pásztó (Mátrakeresztes), posta"},
+  {"id":3446891277,"lat":47.908106,"lon":19.800965,"k":"p","n":"Pásztó (Mátrakeresztes), fűrészmalom"},
+  {"id":11225578482,"lat":47.905297,"lon":19.84367,"k":"p","n":"Fallóskút"},
+  {"id":11225578483,"lat":47.905319,"lon":19.84328,"k":"p","n":"Fallóskút"},
+  {"id":11225578484,"lat":47.900154,"lon":19.816061,"k":"p","n":"Pásztó (Mátrakeresztes), posta"},
+  {"id":11225578485,"lat":47.904615,"lon":19.807857,"k":"p","n":"Pásztó (Mátrakeresztes), Ágasvári menedékház"},
+  {"id":11225578486,"lat":47.904579,"lon":19.807645,"k":"p","n":"Pásztó (Mátrakeresztes), Ágasvári menedékház"},
+  {"id":11746695123,"lat":47.94699,"lon":19.840312,"k":"p","n":"Szorospatak, fordulóhely"},
+  {"id":13730310563,"lat":47.949798,"lon":19.841065,"k":"p","n":"Szorospatak, italbolt"}
+],
+"routes":[
+  {"id":2378522,"t":{"ref":"3A","name":"Bus 3A: Kisterenye, Jászai iskola => Szorospatak, fordulóhely","from":"Kisterenye, Jászai iskola","to":"Szorospatak, fordulóhely","network":"local","operator":"MÁV Személyszállítási Zrt.","colour":"#008c41","route":"bus","public_transport:version":"2"},"n":21,"s":[[13730310563,20],[1887089957,21]]},
+  {"id":16398713,"t":{"ref":"3267","name":"3267 A: Pásztó (Mátrakeresztes), posta --> Pásztó, vasútállomás","from":"Pásztó (Mátrakeresztes), posta","to":"Pásztó, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":14,"s":[[11225578485,2],[3446891277,12],[2782835920,13]]},
+  {"id":16398714,"t":{"ref":"3267","name":"3267 A: Pásztó, vasútállomás --> Pásztó (Mátrakeresztes), posta","from":"Pásztó, vasútállomás","to":"Pásztó (Mátrakeresztes), posta","network":"Volánbusz","operator":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":14,"s":[[11225578486,2],[11225578484,13]]},
+  {"id":20133833,"t":{"ref":"1044","name":"1044: Mátraszentimre (Fallóskút) --> Budapest, Stadion Autóbuszpályaudvar","from":"Mátraszentimre (Fallóskút)","to":"Budapest, Stadion Autóbuszpályaudvar","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt","route":"bus"},"n":30,"s":[[11225578482,29]]},
+  {"id":20133834,"t":{"ref":"1044","name":"1044: Budapest, Stadion Autóbuszpályaudvar --> Mátraszentimre (Fallóskút)","from":"Budapest, Stadion Autóbuszpályaudvar","to":"Mátraszentimre (Fallóskút)","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt","route":"bus"},"n":27,"s":[[11225578483,2]]},
+  {"id":20137651,"t":{"ref":"3657","name":"3657: Pásztó (Vasútállomás) --> Galyatető, Kodály Zoltán sétány","from":"Pásztó (vasútállomás)","to":"Galyatető, Kodály Zoltán sétány","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt","route":"bus","public_transport:version":"2"},"n":25,"s":[[11225578486,13],[11225578484,14],[11225578482,15]]},
+  {"id":20137652,"t":{"ref":"3657","name":"Bus 3657: Galyatető, Kodály Zoltán sétány => Pásztó (vasútállomás)","from":"Galyatető, Kodály Zoltán sétány","to":"Pásztó (vasútállomás)","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt.","route":"bus","public_transport:version":"2"},"n":32,"s":[[3446891277,12],[11225578485,13],[2782835920,14],[11225578483,15]]}
+]
+}

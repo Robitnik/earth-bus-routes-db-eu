@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2746,4001],
+"stops":[
+  {"id":6469214437,"lat":47.312141,"lon":20.093069,"k":"p","n":"Szászberek, Kossuth utca"},
+  {"id":6469214438,"lat":47.312407,"lon":20.092902,"k":"p","n":"Szászberek, Kossuth utca"},
+  {"id":6469214439,"lat":47.313352,"lon":20.099144,"k":"p","n":"Szászberek, iskola"},
+  {"id":6481986002,"lat":47.301255,"lon":20.069266,"k":"p","n":"Nagy út (Vágóhíd út)"},
+  {"id":6481994082,"lat":47.301598,"lon":20.073558,"k":"p","n":"Rákóczi út 66."},
+  {"id":7506057450,"lat":47.301658,"lon":20.073187,"k":"p","n":"Rákóczi út 66."},
+  {"id":7506057451,"lat":47.301355,"lon":20.06906,"k":"p","n":"Nagy út (Vágóhíd út)"}
+],
+"routes":[
+  {"id":9599793,"t":{"ref":"1","name":"1: Nagy út (Vágóhíd út) => Kastély otthon","from":"Nagy út (Vágóhíd út)","to":"Kastély otthon","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[7506057451,1]]},
+  {"id":9599842,"t":{"ref":"2A","name":"2A: Nagy út (Vágóhíd út) => Vasútállomás","from":"Nagy út (Vágóhíd út)","to":"Vasútállomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":7,"s":[[6481986002,1],[7506057450,2]]},
+  {"id":12073877,"t":{"ref":"2A","name":"2A: Vasútállomás => Nagy út (Vágóhíd út)","from":"Vasútállomás","to":"Nagy út (Vágóhíd út)","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":7,"s":[[6481994082,6],[7506057451,7]]},
+  {"id":12073878,"t":{"ref":"1","name":"1: Kastély otthon => Nagy út (Vágóhíd út)","from":"Kastély Otthon","to":"Nagy út (Vágóhíd út)","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[6481986002,16]]}
+]
+}

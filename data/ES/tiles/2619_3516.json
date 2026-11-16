@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2619,3516],
+"stops":[
+  {"id":11254755058,"lat":40.957992,"lon":-4.19821,"k":"x"},
+  {"id":11254755059,"lat":40.957966,"lon":-4.198179,"k":"p","n":"Valverde del Majano - Polígono Industrial 1"},
+  {"id":11269831880,"lat":40.950423,"lon":-4.161964,"k":"p","n":"Escuela de Capacitación Agraria"},
+  {"id":12281902022,"lat":40.999303,"lon":-4.174243,"k":"p","n":"Valseca"},
+  {"id":12281925689,"lat":40.999252,"lon":-4.174331,"k":"x"},
+  {"id":12869511557,"lat":40.957899,"lon":-4.199877,"k":"p","n":"Valverde del Majano - Polígono Industrial 1"},
+  {"id":12869511558,"lat":40.957818,"lon":-4.199898,"k":"x"},
+  {"id":13770363418,"lat":40.950443,"lon":-4.161925,"k":"x"}
+],
+"routes":[
+  {"id":18199676,"t":{"ref":"M1","name":"Bus M1: Segovia → Garcillán → Segovia","from":"Estación de Autobuses - Dársena 5","to":"Estación de Autobuses - Dársena 5","network":"Transporte Metropolitano de Segovia","operator":"LINEcar","colour":"#800080","route":"bus","public_transport:version":"2"},"n":10,"s":[[12869511557,2]]},
+  {"id":18199736,"t":{"ref":"M1","name":"Bus M1: Garcillán → Segovia","from":"Garcillán","to":"Estación de Autobuses - Dársena 4","network":"Transporte Metropolitano de Segovia","operator":"LINEcar","colour":"#800080","route":"bus","public_transport:version":"2"},"n":9,"s":[[11254755059,7]]},
+  {"id":18200503,"t":{"ref":"M2","name":"Bus M2: Segovia → Encinillas","from":"Estación de Autobuses - Dársena 5","to":"Valseca","network":"Transporte Metropolitano de Segovia","operator":"LINEcar","colour":"#800080","route":"bus","public_transport:version":"2"},"n":7,"s":[[12281902022,6]]},
+  {"id":18200527,"t":{"ref":"M2","name":"Bus M2: Encinillas → Segovia","from":"Encinillas","to":"Estación de Autobuses - Dársena 5","network":"Transporte Metropolitano de Segovia","operator":"LINEcar","colour":"#800080","route":"bus","public_transport:version":"2"},"n":8,"s":[[12281902022,2]]},
+  {"id":20598796,"t":{"ref":"L-13","name":"Línea 13: Acueducto → Escuela de Capacitación Agraria","from":"Acueducto","to":"Escuela de Capacitación Agraria","network":"Autobuses Urbanos de Segovia","operator":"Avanza by Mobility ADO","colour":"#c40207","route":"bus","public_transport:version":"2"},"n":3,"s":[[11269831880,2],[13770363418,3]]},
+  {"id":20598907,"t":{"ref":"L-13","name":"Línea 13: Escuela de Capacitación Agraria → Acueducto","from":"Escuela de Capacitación Agraria","to":"Acueducto","network":"Autobuses Urbanos de Segovia","operator":"Avanza by Mobility ADO","colour":"#c40207","route":"bus","public_transport:version":"2"},"n":3,"s":[[11269831880,1],[13770363418,2]]}
+]
+}

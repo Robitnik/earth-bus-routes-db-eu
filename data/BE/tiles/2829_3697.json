@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2829,3697],
+"stops":[
+  {"id":617380881,"lat":51.457623,"lon":4.857588,"k":"p","n":"Kloosterstraat"},
+  {"id":617380892,"lat":51.469382,"lon":4.858737,"k":"p","n":"Maaykantsestraat"},
+  {"id":2625425506,"lat":51.457671,"lon":4.857102,"k":"p","n":"Kloosterstraat"},
+  {"id":2625425538,"lat":51.469401,"lon":4.858594,"k":"p","n":"Maaykantsestraat"},
+  {"id":12898024651,"lat":51.457586,"lon":4.857537,"k":"x","n":"Ulicoten, Kloosterstraat"},
+  {"id":12898024654,"lat":51.457715,"lon":4.857123,"k":"x","n":"Ulicoten, Kloosterstraat"}
+],
+"routes":[
+  {"id":19227601,"t":{"ref":"175","name":"Bus 175: Chaam Meysberg => Ulicoten Kloosterstraat","from":"Chaam, Meysberg","to":"Chaam, Kloosterstraat","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":2,"s":[[2625425538,1],[2625425506,2]]},
+  {"id":19227602,"t":{"ref":"175","name":"Bus 175: Ulicoten Kloosterstraat => Chaam Meysberg","from":"Ulicoten, Kloosterstraat","to":"Chaam, Meysberg","network":"West-Brabant","operator":"Arriva","colour":"#00757A","route":"bus","public_transport:version":"2"},"n":2,"s":[[617380881,1],[617380892,2]]},
+  {"id":20161262,"t":{"ref":"flex","name":"Bravoflex hub Dorpsstraat, Chaam","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":10,"s":[[2625425506,1],[617380881,2],[2625425538,3],[617380892,4]]},
+  {"id":20161263,"t":{"ref":"flex","name":"Bravoflex hub St. Janstraat, Baarle-Nassau","network":"West-Brabant","operator":"Deeltaxi West-Brabant","route":"bus","public_transport:version":"2"},"n":20,"s":[[2625425506,13],[617380881,14],[2625425538,15],[617380892,16]]}
+]
+}

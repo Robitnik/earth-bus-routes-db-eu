@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2763,4006],
+"stops":[
+  {"id":1733360752,"lat":48.180167,"lon":20.338857,"k":"p"},
+  {"id":9429729037,"lat":48.186779,"lon":20.311157,"k":"p","n":"Farkaslyuk, autóbusz-váróterem"},
+  {"id":9429729038,"lat":48.186876,"lon":20.311317,"k":"p","n":"Farkaslyuk, autóbusz-váróterem"},
+  {"id":9429729039,"lat":48.184598,"lon":20.309231,"k":"p","n":"Farkaslyuk, újtelep"},
+  {"id":9429729040,"lat":48.185302,"lon":20.309687,"k":"p","n":"Farkaslyuk, újtelep"},
+  {"id":9429729041,"lat":48.152266,"lon":20.339856,"k":"p","n":"Csernely, fehérneműüzem bejárati út"},
+  {"id":9429729042,"lat":48.152828,"lon":20.339947,"k":"p","n":"Csernely, fehérneműüzem bejárati út"},
+  {"id":9664621060,"lat":48.186066,"lon":20.312903,"k":"p","n":"Farkaslyuk, Idősek otthona"},
+  {"id":9664621061,"lat":48.188818,"lon":20.305894,"k":"p","n":"Farkaslyuk, Boroszló telep"},
+  {"id":9664621062,"lat":48.192852,"lon":20.300414,"k":"p","n":"Farkaslyuk, Eperjes dűlő"},
+  {"id":9664621063,"lat":48.193106,"lon":20.300409,"k":"p","n":"Farkaslyuk, Eperjes dűlő"},
+  {"id":9664621064,"lat":48.188655,"lon":20.306647,"k":"p","n":"Farkaslyuk, Boroszló telep"},
+  {"id":9664621065,"lat":48.183282,"lon":20.310827,"k":"p","n":"Farkaslyuk, Vájár út"}
+],
+"routes":[
+  {"id":13691270,"t":{"ref":"3410","name":"3410: Ózd, autóbusz-állomás => Felnémet, felsőtárkányi elágazás => Eger, autóbusz-állomás","from":"Ózd, autóbusz-állomás","to":"Eger, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[9429729037,4],[9429729039,5],[9429729041,6]]},
+  {"id":13691271,"t":{"ref":"3410","name":"3410: Ózd, autóbusz-állomás => Felnémet, felsőtárkányi elágazás => Eger, autóbusz-állomás => Eger, vasútállomás","from":"Ózd, autóbusz-állomás","to":"Eger, vasútállomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":41,"s":[[9429729037,4],[9429729039,5],[9429729041,6]]},
+  {"id":13691272,"t":{"ref":"3410","name":"3410: Ózd, autóbusz-állomás => Felnémet, felsőtárkányi elágazás => Eger, autóbusz-állomás => Eger, vasútállomás => Eger, Tompa utca","from":"Ózd, autóbusz-állomás","to":"Eger, Tompa utca","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":46,"s":[[9429729037,4],[9429729039,5],[9429729041,6]]},
+  {"id":13691273,"t":{"ref":"3410","name":"3410: Eger, vasútállomás => Eger, autóbusz-állomás => Felnémet, felsőtárkányi elágazás => Ózd, autóbusz-állomás","from":"Eger, vasútállomás","to":"Ózd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":40,"s":[[9429729042,35],[9429729040,36],[9429729038,37]]},
+  {"id":13691274,"t":{"ref":"3410","name":"3410: Eger, Tompa utca => Eger, vasútállomás => Eger, autóbusz-állomás => Felnémet, felsőtárkányi elágazás => Ózd, autóbusz-állomás","from":"Eger, Tompa utca","to":"Ózd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":45,"s":[[9429729042,40],[9429729040,41],[9429729038,42]]},
+  {"id":14037229,"t":{"ref":"4101","name":"4101: Ózd, autóbusz-állomás => Ózd, kórház => Farkaslyuk, Vájár út","from":"Ózd, autóbusz-állomás","to":"Farkaslyuk, Vájár út","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[9664621062,8],[9664621061,9],[9664621060,10],[9664621065,11]]},
+  {"id":14037230,"t":{"ref":"4101","name":"4101: Farkaslyuk, Vályár út => Ózd, autóbusz-állomás","from":"Farkaslyuk, Vályár út","to":"Ózd, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":11,"s":[[9664621065,1],[9429729038,2],[9664621064,3],[9664621063,4]]}
+]
+}

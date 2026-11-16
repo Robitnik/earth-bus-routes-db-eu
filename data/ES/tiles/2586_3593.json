@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2586,3593],
+"stops":[
+  {"id":1154523701,"lat":39.349617,"lon":-0.323661,"k":"p","n":"Embarcador de l'Albufera (I)","ref":"2168"},
+  {"id":3769092652,"lat":39.310616,"lon":-0.317678,"k":"p","n":"Albufera - Pl. de la Sequiota","ref":"2205"},
+  {"id":3769092654,"lat":39.311664,"lon":-0.317736,"k":"p","n":"el Palmar","ref":"2172"},
+  {"id":3769092655,"lat":39.313954,"lon":-0.317822,"k":"p","n":"Vicent Baldoví - Novelda","ref":"2171"},
+  {"id":3769092656,"lat":39.314078,"lon":-0.317539,"k":"p","n":"Vicent Baldoví - Pintor Martí Girbés","ref":"2173"},
+  {"id":3770439379,"lat":39.32167,"lon":-0.31785,"k":"p","n":"Cementeri El Palmar","ref":"2174"},
+  {"id":3770439380,"lat":39.321619,"lon":-0.317907,"k":"p","n":"Cementeri El Palmar","ref":"2170"},
+  {"id":3770439381,"lat":39.340591,"lon":-0.319104,"k":"p","n":"Carretera del Palmar - Pinars","ref":"2175"},
+  {"id":3770439382,"lat":39.340509,"lon":-0.31924,"k":"p","n":"Pinars - Carretera del Palmar","ref":"2169"},
+  {"id":6631866987,"lat":39.323135,"lon":-0.30931,"k":"p","n":"Càmping la Devesa","ref":"2195"},
+  {"id":6631866995,"lat":39.322874,"lon":-0.30933,"k":"p","n":"Càmping la Devesa","ref":"2176"},
+  {"id":6631889665,"lat":39.349685,"lon":-0.323517,"k":"p","n":"Embarcador de l'Albufera (II)","ref":"2196"},
+  {"id":13038077551,"lat":39.349633,"lon":-0.323665,"k":"p","n":"València, la Platja de la Garrofera, Embarcador de l'Albufera I","ref":"2168"},
+  {"id":13038077552,"lat":39.340497,"lon":-0.319231,"k":"p","n":"València, la Devesa, CV-500 - Ctra. del Palmar","ref":"2169"},
+  {"id":13038077553,"lat":39.322853,"lon":-0.309314,"k":"p","n":"València, la Devesa, CV-500 - Devesa Gardens","ref":"2176"},
+  {"id":13038077580,"lat":39.323121,"lon":-0.309295,"k":"p","n":"València, la Devesa, CV-500 - Càmping Devesa","ref":"2195"},
+  {"id":13038077581,"lat":39.340581,"lon":-0.319096,"k":"p","n":"València, la Devesa, CV-500 - el Palmar","ref":"2175"},
+  {"id":13038077582,"lat":39.349671,"lon":-0.32351,"k":"p","n":"València, la Platja de la Garrofera, els Pinars - Embarcador","ref":"2196"}
+],
+"routes":[
+  {"id":9815655,"t":{"ref":"25","name":"Bus 25: el Saler/el Perelló => Porta de la Mar","from":"el Perelló","to":"Porta de la Mar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":30,"s":[[6631866987,11],[3770439381,12],[6631889665,13]]},
+  {"id":9815656,"t":{"ref":"25","name":"Bus 25: Porta de la Mar => el Saler/el Perelló","from":"Porta de la Mar","to":"el Perelló","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":30,"s":[[1154523701,18],[3770439382,19],[6631866995,20]]},
+  {"id":9817346,"t":{"ref":"24","name":"Bus 24: el Palmar => Porta de la Mar (lunes a viernes no festivos)","from":"el Palmar","to":"Porta de la Mar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":23,"s":[[3769092654,1],[3769092652,2],[3769092656,3],[3770439379,4],[3770439381,5],[6631889665,6]]},
+  {"id":9817347,"t":{"ref":"24","name":"Bus 24: Porta de la Mar => el Palmar (lunes a viernes no festivos)","from":"Porta de la Mar","to":"El Palmar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":22,"s":[[1154523701,18],[3770439382,19],[3770439380,20],[3769092655,21],[3769092654,22]]},
+  {"id":9817479,"t":{"ref":"24","name":"Bus 24: el Palmar => Porta de la Mar (sábado, domingo y festivos)","from":"Vicent Baldoví - Pintor Martí Girbés","to":"Porta de la Mar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":21,"s":[[3769092656,1],[3770439379,2],[3770439381,3],[6631889665,4]]},
+  {"id":9817480,"t":{"ref":"24","name":"Bus 24: Porta de la Mar => el Palmar (sábado, domingo y festivos)","from":"Porta de la Mar","to":"Vicent Baldoví - Novelda","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":21,"s":[[1154523701,18],[3770439382,19],[3770439380,20],[3769092655,21]]},
+  {"id":9817630,"t":{"ref":"24","name":"Bus 24: (Verano) Porta de la Mar => el Palmar (sábado, domingo y festivos)","from":"Porta de la Mar","to":"Vicent Baldoví - Novelda","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":22,"s":[[1154523701,19],[3770439382,20],[3770439380,21],[3769092655,22]]},
+  {"id":9817631,"t":{"ref":"24","name":"Bus 24: (Verano) Porta de la Mar => el Palmar (lunes a viernes no festivos)","from":"Porta de la Mar","to":"El Palmar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":23,"s":[[1154523701,19],[3770439382,20],[3770439380,21],[3769092655,22],[3769092654,23]]},
+  {"id":9817632,"t":{"ref":"24","name":"Bus 24: (Verano) el Palmar => Porta de la Mar (sábado, domingo y festivos)","from":"Vicent Baldoví - Pintor Martí Girbés","to":"Porta de la Mar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":22,"s":[[3769092656,1],[3770439379,2],[3770439381,3],[6631889665,4]]},
+  {"id":9817633,"t":{"ref":"24","name":"Bus 24: (Verano) el Palmar => Porta de la Mar (lunes a viernes no festivos)","from":"el Palmar","to":"Porta de la Mar","network":"EMT","operator":"Empresa Municipal de Transports de València","colour":"#ED222E","route":"bus","public_transport:version":"2"},"n":24,"s":[[3769092654,1],[3769092652,2],[3769092656,3],[3770439379,4],[3770439381,5],[6631889665,6]]},
+  {"id":19410338,"t":{"ref":"188","name":"València → el Mareny Blau","from":"València","to":"Sueca, el Mareny Blau","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#c29231","route":"bus","public_transport:version":"2"},"n":25,"s":[[13038077551,9],[13038077552,10],[13038077553,11]]},
+  {"id":19410339,"t":{"ref":"188","name":"el Mareny Blau → València","from":"Sueca, el Mareny Blau","to":"València","network":"Metrobús","operator":"Autoritat de Transport Metropolità de València","colour":"#c29231","route":"bus","public_transport:version":"2"},"n":26,"s":[[13038077580,15],[13038077581,16],[13038077582,17]]}
+]
+}

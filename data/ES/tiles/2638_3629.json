@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2638,3629],
+"stops":[
+  {"id":2626149585,"lat":41.922566,"lon":1.463009,"k":"x","n":"Hostal Nou"},
+  {"id":2626149597,"lat":41.923565,"lon":1.463623,"k":"x","n":"Hostal Nou"},
+  {"id":12100190112,"lat":41.923619,"lon":1.46358,"k":"p","n":"Hostal Nou"},
+  {"id":12101413666,"lat":41.922486,"lon":1.463103,"k":"p","n":"Hostal Nou","ref":"ML 0300"},
+  {"id":13794088372,"lat":41.912891,"lon":1.489383,"k":"p","n":"Coletes (embrancament) /Vendrell"},
+  {"id":13794088373,"lat":41.912857,"lon":1.489394,"k":"x","n":"Coletes (embrancament) /Vendrell"},
+  {"id":13794088374,"lat":41.912886,"lon":1.489536,"k":"x","n":"Coletes (embrancament)"},
+  {"id":13794088375,"lat":41.912861,"lon":1.489552,"k":"p","n":"Coletes (embrancament)"}
+],
+"routes":[
+  {"id":17917469,"t":{"ref":"L0696","name":"L0696 Solsona - Lleida","from":"Solsona","to":"Lleida Estació autobusos","route":"bus","public_transport:version":"2"},"n":23,"s":[[12100190112,2]]},
+  {"id":17923209,"t":{"ref":"L1704","name":"L1704 Solsona - Su","from":"Solsona","to":"Su","route":"bus","public_transport:version":"2"},"n":5,"s":[[12101413666,3]]},
+  {"id":17923238,"t":{"ref":"L1704","name":"L1704 Su - Solsona","from":"Su","to":"Solsona","route":"bus","public_transport:version":"2"},"n":5,"s":[[12101413666,3]]},
+  {"id":20622494,"t":{"ref":"L1702","name":"L1702 Solsona - la Molsosa - el Miracle - Solsona","from":"Solsona","to":"Enfesta","route":"bus","public_transport:version":"2"},"n":13,"s":[[12100190112,3]]},
+  {"id":20622601,"t":{"ref":"L1702","name":"L1702 Enfesta - la Molsosa - el Miracle - Solsona","from":"Enfesta","to":"Solsona","route":"bus","public_transport:version":"2"},"n":13,"s":[[12101413666,11]]},
+  {"id":20623194,"t":{"ref":"L0895","name":"L0895 Solsona - El Miracle","from":"Solsona","to":"el Miracle","route":"bus","public_transport:version":"2"},"n":9,"s":[[12100190112,5],[13794088375,6]]},
+  {"id":20623207,"t":{"ref":"L0895","name":"L0895 El Miracle - Solsona","from":"el Miracle","to":"Solsona","route":"bus","public_transport:version":"2"},"n":9,"s":[[13794088372,4],[12101413666,5]]},
+  {"id":21934808,"t":{"ref":"L0695","name":"L0695: Cervera => Solsona","from":"Cervera","to":"Solsona","route":"bus","public_transport:version":"2"},"n":11,"s":[[12101413666,10]]}
+]
+}

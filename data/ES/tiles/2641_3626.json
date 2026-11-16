@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2641,3626],
+"stops":[
+  {"id":1713447923,"lat":42.08318,"lon":1.300966,"k":"x","n":"Oliana (residència)"},
+  {"id":3452611014,"lat":42.066326,"lon":1.313726,"k":"p","n":"Oliana (pl. de la Reguereta/av. del Solsonès)"},
+  {"id":12090508463,"lat":42.083277,"lon":1.301096,"k":"p","n":"Oliana (residència)"},
+  {"id":12090508464,"lat":42.066313,"lon":1.313835,"k":"x","n":"Oliana (av. Solsonès, 1)"},
+  {"id":12090508465,"lat":42.066313,"lon":1.313885,"k":"p","n":"Oliana (av. Solsonès, 1)"},
+  {"id":12092472270,"lat":42.06634,"lon":1.313835,"k":"x","n":"Oliana (pl. de la Reguereta/av. del Solsonès)"}
+],
+"routes":[
+  {"id":17892849,"t":{"ref":"L0576","name":"L0576 Llívia - Puigcerdà - La Seu - Lleida","from":"Llívia","to":"Lleida","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":55,"s":[[3452611014,35]]},
+  {"id":17894162,"t":{"ref":"L0576","name":"L0576 Lleida - La Seu - Puigcerdà - Llívia","from":"Lleida","to":"Llívia","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":50,"s":[[12090508465,20],[12090508463,21]]},
+  {"id":20624243,"t":{"ref":"L0131","name":"L0131 la Farga de Moles - Solsona - Barcelona","from":"la Farga de Moles","to":"Barcelona Estació del Nord","route":"bus","public_transport:version":"2"},"n":32,"s":[[3452611014,15]]},
+  {"id":20626525,"t":{"ref":"L0131","name":"L0131 Barcelona - Solsona - la Farga de Moles","from":"Barcelona Estació del Nord","to":"la Farga de Moles","route":"bus","public_transport:version":"2"},"n":33,"s":[[12090508465,18]]},
+  {"id":20626949,"t":{"ref":"L0595","name":"L0595 Reus - Tarragona - Andorra","from":"Reus","to":"Andorra","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[12090508465,21]]},
+  {"id":20662504,"t":{"ref":"L0595","name":"L0595 Andorra - Tarragona - Reus","from":"Andorra","to":"Reus","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[3452611014,6]]},
+  {"id":20681475,"t":{"ref":"L0839","name":"L0839 Oliana - Peramola","from":"Oliana","to":"Peramola","route":"bus","public_transport:version":"2"},"n":4,"s":[[12090508465,1]]},
+  {"id":20681489,"t":{"ref":"L0839","name":"L0839 Peramola - Oliana","from":"Peramola","to":"Oliana","route":"bus","public_transport:version":"2"},"n":4,"s":[[3452611014,4]]}
+]
+}

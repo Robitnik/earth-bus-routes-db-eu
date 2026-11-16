@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2740,3978],
+"stops":[
+  {"id":529007290,"lat":47.047482,"lon":18.925613,"k":"p","n":"Kulcs, hajóállomás elágazás"},
+  {"id":599214518,"lat":47.024801,"lon":18.932841,"k":"p","n":"Rácalmás, Millenniumi park"},
+  {"id":599214519,"lat":47.027593,"lon":18.92154,"k":"p","n":"Rácalmás, Petőfi Sándor utca"},
+  {"id":3162725968,"lat":47.044599,"lon":18.908166,"k":"p","n":"Kulcs, 60-as kilométer"},
+  {"id":3162726853,"lat":47.02871,"lon":18.915807,"k":"p","n":"Rácalmás, bejárati út"},
+  {"id":3162727090,"lat":47.029181,"lon":18.915908,"k":"p","n":"Rácalmás, bejárati út"},
+  {"id":3162727707,"lat":47.045744,"lon":18.907561,"k":"p","n":"Kulcs, 60-as kilométer"},
+  {"id":3454478610,"lat":47.025295,"lon":18.939929,"k":"p","n":"Rácalmási Szociális Központ"},
+  {"id":3454479075,"lat":47.048736,"lon":18.924247,"k":"p","n":"Kulcs, hajóállomás elágazás"},
+  {"id":4424532894,"lat":47.028202,"lon":18.917888,"k":"p","n":"Rácalmás, bejárati út"},
+  {"id":4424543791,"lat":47.028515,"lon":18.916987,"k":"p","n":"Rácalmás, bejárati út"},
+  {"id":9846230125,"lat":47.030362,"lon":18.936783,"k":"p","n":"Rácalmás, Mikszáth Kálmán utca"},
+  {"id":13733952907,"lat":47.03834,"lon":18.932881,"k":"p","n":"Rácalmás, Rádióállomás, bejárati út"},
+  {"id":13733952908,"lat":47.038778,"lon":18.932693,"k":"p","n":"Rácalmás, Rádióállomás, bejárati út"},
+  {"id":13733952909,"lat":47.031559,"lon":18.93681,"k":"p","n":"Rácalmás, Mikszáth Kálmán utca"},
+  {"id":13733952910,"lat":47.025398,"lon":18.938663,"k":"p","n":"Rácalmási Szociális Központ"},
+  {"id":13733952911,"lat":47.02467,"lon":18.933858,"k":"p","n":"Rácalmás, Millenniumi park"},
+  {"id":13733952912,"lat":47.027263,"lon":18.92313,"k":"p","n":"Rácalmás, Petőfi Sándor utca"}
+],
+"routes":[
+  {"id":14265046,"t":{"ref":"8236","name":"8236 \"A\": Dunaújváros, Autóbusz-állomás => Besnyő, Rákóczi Ferenc utca","from":"Dunaújváros, Autóbusz-állomás","to":"Besnyő, Rákóczi Ferenc utca","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":31,"s":[[3162727090,7],[3162727707,8]]},
+  {"id":14266111,"t":{"ref":"8236","name":"8236 \"A\": Besnyő, Rákóczi Ferenc utca => Dunaújváros, Autóbusz-állomás","from":"Besnyő, Rákóczi Ferenc utca","to":"Dunaújváros, Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":27,"s":[[3162725968,21],[3162726853,22]]},
+  {"id":14271973,"t":{"ref":"1120","name":"1120 \"A\": Budapest, Népliget autóbusz-pályaudvar => Dunaújváros, autóbusz-állomás","from":"Budapest, Népliget autóbusz-pályaudvar","to":"Dunaújváros, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[3162726853,14]]},
+  {"id":14272596,"t":{"ref":"1120","name":"1120 \"A\": Dunaújváros, autóbusz-állomás => Budapest, Népliget autóbusz-pályaudvar","from":"Dunaújváros, autóbusz-állomás","to":"Budapest, Népliget autóbusz-pályaudvar","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[3162727090,4]]},
+  {"id":20457135,"t":{"ref":"8244","name":"8244 \"A\": Dunaújváros > Rácalmás > Kulcs","from":"Dunaújváros","to":"Kulcs","network":"Volánbusz","operator":"Volánbusz","colour":"#f6ac00","route":"bus","public_transport:version":"2"},"n":16,"s":[[4424532894,6],[13733952912,7],[13733952911,8],[3454478610,9],[13733952909,10],[13733952908,11],[3454479075,12]]},
+  {"id":20457192,"t":{"ref":"8244","name":"8244 \"B\": Dunaújváros > Rácalmás > Kulcs","from":"Dunaújváros","to":"Kulcs","network":"Volánbusz","operator":"Volánbusz","colour":"#f6ac00","route":"bus","public_transport:version":"2"},"n":17,"s":[[4424532894,7],[13733952912,8],[13733952911,9],[3454478610,10],[13733952909,11],[13733952908,12],[3454479075,13]]},
+  {"id":20457198,"t":{"ref":"8244","name":"8244 \"C\": Dunaújváros > Rácalmás","from":"Dunaújváros","to":"Rácalmás","network":"Volánbusz","operator":"Volánbusz","colour":"#f6ac00","route":"bus","public_transport:version":"2"},"n":9,"s":[[4424532894,6],[13733952912,7],[13733952911,8],[3454478610,9]]},
+  {"id":20460049,"t":{"ref":"8244","name":"8244 \"A\" v: Kulcs > Rácalmás > Dunaújváros","from":"Kulcs","to":"Dunaújváros","network":"Volánbusz","operator":"Volánbusz","colour":"#f6ac00","route":"bus","public_transport:version":"2"},"n":16,"s":[[529007290,5],[13733952907,6],[9846230125,7],[13733952910,8],[599214518,9],[599214519,10],[4424543791,11]]},
+  {"id":20460085,"t":{"ref":"8244","name":"8244 \"C\" v: Rácalmás > Dunaújváros","from":"Rácalmás","to":"Dunaújváros","network":"Volánbusz","operator":"Volánbusz","colour":"#f6ac00","route":"bus","public_transport:version":"2"},"n":9,"s":[[13733952910,1],[599214518,2],[599214519,3],[4424543791,4]]},
+  {"id":20460086,"t":{"ref":"8244","name":"8244 \"B\" v: Kulcs > Rácalmás > Dunaújváros","from":"Kulcs","to":"Dunaújváros","network":"Volánbusz","operator":"Volánbusz","colour":"#f6ac00","route":"bus","public_transport:version":"2"},"n":17,"s":[[529007290,5],[13733952907,6],[9846230125,7],[13733952910,8],[599214518,9],[599214519,10],[4424543791,11]]}
+]
+}

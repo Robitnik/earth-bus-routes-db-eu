@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2597,3590],
+"stops":[
+  {"id":11945684744,"lat":39.862459,"lon":-0.457672,"k":"p","n":"Castellnovo, C/ Calvario 15"},
+  {"id":11945684745,"lat":39.863052,"lon":-0.477035,"k":"p","n":"Segorbe, Peñalba, Ctra. Algimia 19"},
+  {"id":11945684746,"lat":39.851842,"lon":-0.482372,"k":"p","n":"Segorbe, Av. Sierra Espadán 36 - CEIP Pintor Camarón"}
+],
+"routes":[
+  {"id":17654034,"t":{"ref":"372B","name":"Almedíjar → Castellnovo → Peñalba → Segorbe","from":"Almedíjar","to":"Segorbe","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[11945684744,2],[11945684745,3]]},
+  {"id":17654116,"t":{"ref":"372B","name":"Segorbe → Peñalba → Castellnovo → Almedíjar","from":"Segorbe","to":"Almedíjar","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[11945684745,4],[11945684744,5]]},
+  {"id":17657529,"t":{"ref":"373","name":"Segorbe → El Toro → Fuente la Reina","from":"Segorbe","to":"Fuente la Reina","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[11945684746,2]]},
+  {"id":17657620,"t":{"ref":"373","name":"Fuente la Reina → El Toro → Segorbe","from":"Fuente la Reina","to":"Segorbe","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[11945684746,13]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2743,4002],
+"stops":[
+  {"id":2759660812,"lat":47.178604,"lon":20.140951,"k":"p","n":"Barázda utca"},
+  {"id":5723606778,"lat":47.188524,"lon":20.135804,"k":"p","n":"Béke Termelőszövetkezet"},
+  {"id":5723606779,"lat":47.184485,"lon":20.134753,"k":"p","n":"Gépműhely"},
+  {"id":5723606780,"lat":47.184802,"lon":20.135037,"k":"p","n":"Gépműhely"},
+  {"id":5723606781,"lat":47.178603,"lon":20.140112,"k":"p","n":"Barázda utca"},
+  {"id":5723606862,"lat":47.161769,"lon":20.148899,"k":"p","n":"Kőrösi út"},
+  {"id":8250050831,"lat":47.1793,"lon":20.134254,"k":"p","n":"Szolnok, Béke Termelőszövetkezet bejárati út"},
+  {"id":8250050832,"lat":47.179551,"lon":20.133026,"k":"p","n":"Szolnok, Béke Termelőszövetkezet bejárati út"}
+],
+"routes":[
+  {"id":8413026,"t":{"ref":"35","name":"35: Tallinn városrész => Üteg utca => Kőrösi út","from":"Tallinn városrész","to":"Kőrösi út","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":25,"s":[[5723606862,25]]},
+  {"id":8413041,"t":{"ref":"35","name":"35: Kőrösi út => Üteg utca => Tallinn városrész","from":"Kőrösi út","to":"Tallinn városrész","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":24,"s":[[5723606862,1]]},
+  {"id":8413061,"t":{"ref":"23A","name":"23A: Vasútállomás => Hild Viktor utca => Autóbusz-állomás => Kőrösi út","from":"Vasútállomás","to":"Kőrösi út","route":"bus","public_transport:version":"2"},"n":28,"s":[[5723606862,28]]},
+  {"id":8413062,"t":{"ref":"23","name":"23: Kőrösi út => Vasútállomás => Autóbusz-állomás => Hild Viktor utca => Vasútállomás","from":"Kőrösi út","to":"Vasútállomás","route":"bus","public_transport:version":"2"},"n":29,"s":[[5723606862,1]]},
+  {"id":8413075,"t":{"ref":"23E","name":"23E: Vasútállomás => Hild Viktor utca => Autóbusz-állomás => Kőrösi út","from":"Vasútállomás","to":"Kőrösi út","route":"bus","public_transport:version":"2"},"n":25,"s":[[5723606862,25]]},
+  {"id":8413082,"t":{"ref":"11Y","name":"11Y: Béke Termelőszövetkezet => Tallin városrész","from":"Béke Termelőszövetkezet","to":"Tallinn városrész","route":"bus","public_transport:version":"2"},"n":14,"s":[[5723606778,1],[5723606779,2],[5723606781,3]]},
+  {"id":8413083,"t":{"ref":"11Y","name":"11Y: Tallin városrész => Béke Termelőszövetkezet","from":"Tallinn városrész","to":"Béke Termelőszövetkezet","route":"bus","public_transport:version":"2"},"n":14,"s":[[2759660812,12],[5723606780,13],[5723606778,14]]},
+  {"id":8413094,"t":{"ref":"35","name":"35: Üteg utca => Kőrösi út","from":"Üteg utca","to":"Kőrösi út","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[5723606862,20]]},
+  {"id":8413095,"t":{"ref":"3","name":"3: Kőrösi út => Tallinn városrész","from":"Kőrösi út","to":"Tallinn városrész","route":"bus","public_transport:version":"2"},"n":20,"s":[[5723606862,1]]},
+  {"id":8413096,"t":{"ref":"3","name":"3: Tallinn városrész => Kőrösi út","from":"Tallinn városrész","to":"Kőrösi út","route":"bus","public_transport:version":"2"},"n":21,"s":[[5723606862,21]]},
+  {"id":12074130,"t":{"ref":"534","name":"534 \"E\" v: Szolnok, Jubileum tér => Abony, Kossuth tér","from":"Szolnok, Jubileum tér","to":"Abony, Kossuth tér","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":11,"s":[[2759660812,5],[8250050832,6]]},
+  {"id":12074131,"t":{"ref":"534","name":"534 \"D\" v: Szolnok, Interspar => Abony, Kossuth tér","from":"Szolnok, Interspar","to":"Abony, Kossuth tér","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":12,"s":[[2759660812,6],[8250050832,7]]},
+  {"id":12074133,"t":{"ref":"534","name":"534 \"B\" v: Szolnok, autóbusz-állomás => Abony, Kossuth tér","from":"Szolnok, autóbusz-állomás","to":"Abony, Kossuth tér","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":13,"s":[[2759660812,7],[8250050832,8]]},
+  {"id":12074134,"t":{"ref":"534","name":"534 \"A\" v: Szolnok, Waldorf iskola => Szolnok, autóbusz-állomás => Abony, Kossuth tér","from":"Szolnok, Waldorf iskola","to":"Abony, Kossuth tér","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":14,"s":[[2759660812,8],[8250050832,9]]},
+  {"id":12074135,"t":{"ref":"534","name":"534 \"E\": Abony, Kossuth tér => Szolnok, Jubileum tér","from":"Abony, Kossuth tér","to":"Szolnok, Jubileum tér","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":11,"s":[[8250050831,6],[5723606781,7]]},
+  {"id":12074136,"t":{"ref":"534","name":"534 \"B\": Abony, Kossuth tér => Szolnok, autóbusz-állomás","from":"Abony, Kossuth tér","to":"Szolnok, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":13,"s":[[8250050831,6],[5723606781,7]]},
+  {"id":12074137,"t":{"ref":"534","name":"534 \"A\": Abony, Kossuth tér => Szolnok, autóbusz-állomás => Szolnok, Waldorf iskola","from":"Abony, Kossuth tér","to":"Szolnok, Waldorf iskola","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":14,"s":[[8250050831,6],[5723606781,7]]},
+  {"id":16671213,"t":{"ref":"11Y","name":"11Y: Béke Termelőszövetkezet => Tesco => Tallin városrész","from":"Béke Termelőszövetkezet","to":"Tallinn városrész","route":"bus","public_transport:version":"2"},"n":15,"s":[[5723606778,1],[5723606779,2],[5723606781,3]]},
+  {"id":16671214,"t":{"ref":"11Y","name":"11Y: Tallin városrész => Tesco => Béke Termelőszövetkezet","from":"Tallinn városrész","to":"Béke Termelőszövetkezet","route":"bus","public_transport:version":"2"},"n":15,"s":[[2759660812,13],[5723606780,14],[5723606778,15]]}
+]
+}

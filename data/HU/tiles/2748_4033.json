@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2748,4033],
+"stops":[
+  {"id":3462322195,"lat":47.402217,"lon":21.661417,"k":"p","n":"Hajdúbagos, Nagy utca"},
+  {"id":7858426318,"lat":47.447297,"lon":21.691537,"k":"p","n":"Debrecen, Katihíd","ref":"582767"},
+  {"id":7858426319,"lat":47.447458,"lon":21.691244,"k":"p","n":"Debrecen, Katihíd","ref":"582766"},
+  {"id":9411246697,"lat":47.436538,"lon":21.697336,"k":"p","n":"Debrecen, erdei kiskertek"},
+  {"id":9411246698,"lat":47.436431,"lon":21.697271,"k":"p","n":"Debrecen, erdei kiskertek"},
+  {"id":9825570142,"lat":47.402597,"lon":21.66197,"k":"p","n":"Hajdúbagos Vasútállomás"},
+  {"id":9825570143,"lat":47.402768,"lon":21.661615,"k":"p","n":"Hajdúbagos Vasútállomás"},
+  {"id":9825570536,"lat":47.401668,"lon":21.667039,"k":"p","n":"Hajdúbagos Orgona utca"},
+  {"id":9825570537,"lat":47.40138,"lon":21.667967,"k":"p","n":"Hajdúbagos Orgona utca"},
+  {"id":9841128532,"lat":47.40223,"lon":21.661289,"k":"p","n":"Hajdúbagos, Nagy utca"}
+],
+"routes":[
+  {"id":14536747,"t":{"ref":"4421","name":"Bus 4421: Debrecen => Létavértes","from":"Debrecen","to":"Létavértes","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":27,"s":[[7858426319,12],[9411246698,13]]},
+  {"id":14541663,"t":{"ref":"4438","name":"Bus 4438: Pocsaj => Debrecen","from":"Pocsaj","to":"Debrecen","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":22,"s":[[9411246697,10],[7858426318,11]]},
+  {"id":14546298,"t":{"ref":"4420","name":"Bus 4420: Debrecen => Bagamér","from":"Debrecen","to":"Bagamér","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":49,"s":[[9841128532,17],[3462322195,23],[9825570142,24],[9825570537,25]]},
+  {"id":14546893,"t":{"ref":"4420","name":"Bus 4420: Bagamér => Debrecen","from":"Bagamér","to":"Debrecen","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":49,"s":[[9825570536,25],[9825570143,26],[9841128532,27],[3462322195,33]]},
+  {"id":14567208,"t":{"ref":"4438","name":"Bus 4438: Debrecen => Pocsaj","from":"Debrecen","to":"Pocsaj","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":22,"s":[[7858426319,12],[9411246698,13]]},
+  {"id":14567402,"t":{"ref":"4425","name":"Bus 4425: Bagamér => Berettyóújfalu","from":"Bagamér","to":"Berettyóújfalu","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":38,"s":[[9825570536,25],[9825570143,26]]},
+  {"id":14567425,"t":{"ref":"4425","name":"Bus 4425: Berettyóújfalu => Bagamér","from":"Berettyóújfalu","to":"Bagamér","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":38,"s":[[9825570142,13],[9825570537,14]]},
+  {"id":14567576,"t":{"ref":"4421","name":"Bus 4421: Létavértes => Debrecen","from":"Létavértes","to":"Debrecen","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":26,"s":[[9411246697,14],[7858426318,15]]}
+]
+}

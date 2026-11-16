@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2801,3702],
+"stops":[
+  {"id":307837984,"lat":50.081126,"lon":5.109073,"k":"x"},
+  {"id":1838954275,"lat":50.081758,"lon":5.114508,"k":"p","n":"Wellin Place"},
+  {"id":3039205349,"lat":50.081677,"lon":5.114457,"k":"p","n":"Wellin Place"},
+  {"id":3083493112,"lat":50.076065,"lon":5.13552,"k":"p","n":"Halma Carrefour"},
+  {"id":3083493113,"lat":50.076748,"lon":5.134773,"k":"p","n":"Halma Carrefour"},
+  {"id":3083493114,"lat":50.070087,"lon":5.141935,"k":"p","n":"Halma Hôtel Finet"},
+  {"id":3083493115,"lat":50.070474,"lon":5.14226,"k":"p","n":"Halma Hôtel Finet"},
+  {"id":3083493116,"lat":50.072203,"lon":5.136485,"k":"p","n":"Halma Route de Recogne"},
+  {"id":3083493117,"lat":50.072241,"lon":5.136591,"k":"p","n":"Halma Route de Recogne"},
+  {"id":3083493118,"lat":50.078997,"lon":5.127463,"k":"p","n":"Halma Rue de Wellin"},
+  {"id":3083493119,"lat":50.079139,"lon":5.127273,"k":"p","n":"Halma Rue de Wellin"},
+  {"id":3083496327,"lat":50.093031,"lon":5.116908,"k":"p","n":"Wellin Carrières"},
+  {"id":3083496328,"lat":50.093309,"lon":5.116979,"k":"p","n":"Wellin Carrières"},
+  {"id":3083496329,"lat":50.081066,"lon":5.1091,"k":"p","n":"Wellin Cimetière"},
+  {"id":3083496330,"lat":50.081176,"lon":5.109024,"k":"p","n":"Wellin Cimetière"},
+  {"id":3083496331,"lat":50.080919,"lon":5.118894,"k":"p","n":"Wellin Dépôt TEC"},
+  {"id":3083496332,"lat":50.081002,"lon":5.119114,"k":"p","n":"Wellin Dépôt TEC"},
+  {"id":3083496633,"lat":50.089075,"lon":5.115601,"k":"p","n":"Wellin Fond des Vaux"},
+  {"id":3083496634,"lat":50.089383,"lon":5.115841,"k":"p","n":"Wellin Fond des Vaux"},
+  {"id":3083496635,"lat":50.084274,"lon":5.114651,"k":"p","n":"Wellin Route de Rochefort"},
+  {"id":3083496636,"lat":50.084334,"lon":5.114875,"k":"p","n":"Wellin Route de Rochefort"},
+  {"id":11423723288,"lat":50.081718,"lon":5.11447,"k":"x"},
+  {"id":14039233217,"lat":50.080965,"lon":5.11902,"k":"x"}
+],
+"routes":[
+  {"id":18764253,"t":{"ref":"11g","name":"Bus 11g: Wellin Place → Haut-Fays Rue du Cimetière","from":"Wellin Place","to":"Haut-Fays Rue du Cimetière","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":15,"s":[[1838954275,1]]},
+  {"id":18764323,"t":{"ref":"11g","name":"Bus 11g: Haut-Fays Bois de Bièvre → Chanly Maison de Repos","from":"Haut-Fays Bois de Bièvre","to":"Chanly Maison de Repos","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":20,"s":[[3039205349,16],[3083496331,17],[3083493118,18]]},
+  {"id":18764408,"t":{"ref":"11g","name":"Bus 11g: Haut-Fays Bois de Bièvre → Wellin Place","from":"Haut-Fays Bois de Bièvre","to":"Wellin Place","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":16,"s":[[3039205349,16]]},
+  {"id":18764556,"t":{"ref":"11g","name":"Bus 11g: Chanly Maison de Repos → Haut-Fays Rue du Cimetière","from":"Chanly Maison de Repos","to":"Haut-Fays Rue du Cimetière","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":19,"s":[[3083493119,3],[3083496332,4],[1838954275,5]]},
+  {"id":20818063,"t":{"ref":"29","name":"Bus 29: Rochefort-Jemelle Gare → Grupont Gare","from":"Rochefort-Jemelle Gare","to":"Grupont Gare","network":"TECN","operator":"TEC","route":"bus","public_transport:version":"2"},"n":47,"s":[[3083496328,24],[3083496633,25],[3083496635,26],[3039205349,27],[3083496331,28],[3083493118,29],[3083493112,30],[3083493116,31],[3083493114,32]]},
+  {"id":20819845,"t":{"ref":"29","name":"Bus 29: Grupont Gare → Rochefort-Jemelle Gare","from":"Grupont Gare","to":"Rochefort-Jemelle Gare","network":"TECN","operator":"TEC","route":"bus","public_transport:version":"2"},"n":47,"s":[[3083493115,16],[3083493117,17],[3083493113,18],[3083493119,19],[3083496332,20],[1838954275,21],[3083496636,22],[3083496634,23],[3083496327,24]]},
+  {"id":21129681,"t":{"ref":"29","name":"Bus 29: Grupont Gare → Wellin Place","from":"Grupont Gare","to":"Wellin Place","network":"TECN","operator":"TEC","route":"bus","public_transport:version":"2"},"n":22,"s":[[3083493115,17],[3083493117,18],[3083493113,19],[3083493119,20],[3083496332,21],[1838954275,22]]},
+  {"id":21129725,"t":{"ref":"29","name":"Bus 29: Bure Collège → Rochefort-Jemelle Gare","from":"Bure Collège","to":"Rochefort-Jemelle Gare","network":"TECN","operator":"TEC","route":"bus","public_transport:version":"2"},"n":43,"s":[[3083493115,12],[3083493117,13],[3083493113,14],[3083493119,15],[3083496332,16],[1838954275,17],[3083496636,18],[3083496634,19],[3083496327,20]]},
+  {"id":21129731,"t":{"ref":"29","name":"Bus 29: Bure Collège → Wellin Dépôt TEC","from":"Bure Collège","to":"Wellin Dépôt TEC","network":"TECN","operator":"TEC","route":"bus","public_transport:version":"2"},"n":11,"s":[[3083493115,7],[3083493117,8],[3083493113,9],[3083493119,10],[3083496332,11]]},
+  {"id":21129770,"t":{"ref":"29","name":"Bus 29: Wellin Place → Grupont Gare","from":"Wellin Place","to":"Grupont Gare","network":"TECN","operator":"TEC","route":"bus","public_transport:version":"2"},"n":20,"s":[[3039205349,1],[3083496331,2],[3083493118,3],[3083493112,4],[3083493116,5],[3083493114,6]]}
+]
+}

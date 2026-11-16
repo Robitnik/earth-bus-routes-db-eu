@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2749,4035],
+"stops":[
+  {"id":2162386913,"lat":47.461073,"lon":21.750645,"k":"p","n":"Debrecen, ATEV"},
+  {"id":2162386914,"lat":47.461447,"lon":21.750291,"k":"p","n":"Debrecen, ATEV"},
+  {"id":2162386986,"lat":47.458652,"lon":21.755202,"k":"p","n":"Bánk"},
+  {"id":3437027389,"lat":47.45308,"lon":21.773308,"k":"p","n":"Debrecen, Ludas csárda"},
+  {"id":10692615598,"lat":47.452848,"lon":21.774166,"k":"p","n":"Debrecen, Ludas csárda"}
+],
+"routes":[
+  {"id":2773547,"t":{"ref":"30","name":"Bus 30: Bánk => Jégcsarnok","from":"Bánk","to":"Jégcsarnok","network":"local","operator":"DKV","colour":"#D08900","route":"bus","public_transport:version":"2"},"n":35,"s":[[2162386986,1],[2162386914,2]]},
+  {"id":2773548,"t":{"ref":"30","name":"Bus 30: Jégcsarnok => Bánk","from":"Jégcsarnok","to":"Bánk","network":"local","operator":"DKV","colour":"#D08900","route":"bus","public_transport:version":"2"},"n":36,"s":[[2162386913,35],[2162386986,36]]},
+  {"id":15505188,"t":{"ref":"30N","name":"Bus 30N: Bánk => Nagyállomás","from":"Bánk","to":"Nagyállomás","colour":"#D08900","route":"bus","public_transport:version":"2"},"n":25,"s":[[2162386986,1],[2162386914,2]]},
+  {"id":15505189,"t":{"ref":"30I","name":"Bus 30I: Bánk => Nagyállomás","from":"Bánk","to":"Nagyállomás","colour":"#FFBC35","route":"bus","public_transport:version":"2"},"n":19,"s":[[2162386986,1],[2162386914,2]]},
+  {"id":15531937,"t":{"ref":"4422","name":"Bus 4422: Bagamér => Debrecen","from":"Bagamér","to":"Debrecen","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":29,"s":[[10692615598,19],[2162386914,20]]},
+  {"id":16657509,"t":{"ref":"30H","name":"Bus 30H: Bánk => Jégcsarnok","from":"Bánk","to":"Jégcsarnok","network":"local","operator":"DKV","colour":"#D08900","route":"bus","public_transport:version":"2"},"n":37,"s":[[2162386986,1],[2162386914,2]]},
+  {"id":16657510,"t":{"ref":"30H","name":"Bus 30H: Jégcsarnok => Bánk","from":"Jégcsarnok","to":"Bánk","network":"local","operator":"DKV","colour":"#D08900","route":"bus","public_transport:version":"2"},"n":38,"s":[[2162386913,37],[2162386986,38]]},
+  {"id":16674537,"t":{"ref":"30I","name":"Bus 30I: Nagyállomás => Bánk","from":"Nagyállomás","to":"Bánk","colour":"#FFBC35","route":"bus","public_transport:version":"2"},"n":19,"s":[[2162386913,18],[2162386986,19]]},
+  {"id":16674581,"t":{"ref":"30N","name":"Bus 30N: Nagyállomás => Bánk","from":"Nagyállomás","to":"Bánk","network":"local","operator":"DKV","colour":"#D08900","route":"bus","public_transport:version":"2"},"n":26,"s":[[2162386913,25],[2162386986,26]]}
+]
+}

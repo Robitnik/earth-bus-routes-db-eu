@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2750,4036],
+"stops":[
+  {"id":2162387134,"lat":47.528722,"lon":21.824295,"k":"p","n":"Haláp"},
+  {"id":2162387135,"lat":47.528464,"lon":21.816058,"k":"p","n":"Haláp, csárda"},
+  {"id":2162387136,"lat":47.528487,"lon":21.814362,"k":"p","n":"Haláp, csárda"},
+  {"id":3437027295,"lat":47.529114,"lon":21.825347,"k":"p","n":"Debrecen-Haláp, lakótelep"},
+  {"id":3437027297,"lat":47.528717,"lon":21.839114,"k":"p","n":"Debrecen, Hármashegyalja"},
+  {"id":7858409779,"lat":47.528632,"lon":21.839525,"k":"p","n":"Debrecen, Hármashegyalja"},
+  {"id":7858409780,"lat":47.529156,"lon":21.824287,"k":"p","n":"Debrecen-Haláp, lakótelep"}
+],
+"routes":[
+  {"id":2773584,"t":{"ref":"37","name":"Bus 37: Haláp => Nagyállomás","from":"Haláp","to":"Nagyállomás","network":"local","operator":"DKV Zrt.","colour":"#0C343D","route":"bus","public_transport:version":"2"},"n":20,"s":[[2162387134,1],[2162387136,2]]},
+  {"id":2773585,"t":{"ref":"37","name":"Bus 37: Nagyállomás => Haláp","from":"Nagyállomás","to":"Haláp","network":"local","operator":"DKV Zrt.","colour":"#0C343D","route":"bus","public_transport:version":"2"},"n":22,"s":[[2162387135,21],[2162387134,22]]},
+  {"id":15531895,"t":{"ref":"4416","name":"Bus 4416: Debrecen => Létavértes","from":"Debrecen","to":"Létavértes","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":37,"s":[[2162387135,14],[3437027295,15],[7858409779,17]]},
+  {"id":15532011,"t":{"ref":"4416","name":"Bus 4416: Létavértes => Debrecen","from":"Létavértes","to":"Debrecen","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[3437027297,22],[7858409780,23],[2162387136,24]]}
+]
+}

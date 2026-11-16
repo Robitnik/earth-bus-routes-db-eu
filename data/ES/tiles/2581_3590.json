@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2581,3590],
+"stops":[
+  {"id":10937244127,"lat":39.070898,"lon":-0.489397,"k":"p","n":"Sant Joanet"},
+  {"id":12116868920,"lat":39.052299,"lon":-0.495676,"k":"p","n":"Manuel"},
+  {"id":13438322770,"lat":39.083081,"lon":-0.470106,"k":"p","n":"la Pobla Llarga"}
+],
+"routes":[
+  {"id":20052432,"t":{"ref":"455","name":"Càrcer → Hospital → Xàtiva","from":"Càrcer","to":"Xàtiva","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":13,"s":[[12116868920,10]]},
+  {"id":20052433,"t":{"ref":"455","name":"Xàtiva → Hospital → Càrcer","from":"Xàtiva","to":"Càrcer","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[12116868920,5]]},
+  {"id":20053423,"t":{"ref":"451","name":"Antella → Xàtiva","from":"Antella","to":"Xàtiva","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[12116868920,10]]},
+  {"id":20053424,"t":{"ref":"451","name":"Xàtiva → Antella","from":"Xàtiva","to":"Antella","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":14,"s":[[12116868920,5]]},
+  {"id":20057273,"t":{"ref":"452","name":"la Pobla Llarga → Xàtiva → Hospital","from":"la Pobla Llarga","to":"Xàtiva, Hospital Lluís Alcanyís","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":10,"s":[[13438322770,1],[10937244127,2]]},
+  {"id":20057274,"t":{"ref":"452","name":"Hospital → Xàtiva → la Pobla Llarga","from":"Xàtiva, Hospital Lluís Alcanyís","to":"la Pobla Llarga","network":"Transport Públic Generalitat Valenciana","operator":"Autocares Togsa","route":"bus","public_transport:version":"2"},"n":10,"s":[[10937244127,9],[13438322770,10]]}
+]
+}

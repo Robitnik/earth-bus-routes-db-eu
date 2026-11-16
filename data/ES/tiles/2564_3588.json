@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2564,3588],
+"stops":[
+  {"id":2379510022,"lat":38.24569,"lon":-0.563036,"k":"p"},
+  {"id":4083044562,"lat":38.200597,"lon":-0.570214,"k":"p","n":"Camping Bahía de Santa Pola"},
+  {"id":4083044563,"lat":38.200384,"lon":-0.570281,"k":"p","n":"Santa Pola, Càmping Santa Pola","ref":"1027"},
+  {"id":9139813119,"lat":38.233388,"lon":-0.550214,"k":"p","n":"Centro Comercial Gran Alacant"},
+  {"id":9139813120,"lat":38.233438,"lon":-0.550194,"k":"x"},
+  {"id":13247703073,"lat":38.212969,"lon":-0.590526,"k":"p","n":"Santa Pola, el Saladar","ref":"1099"},
+  {"id":13247703074,"lat":38.212714,"lon":-0.5907,"k":"p","n":"Santa Pola, el Saladar","ref":"1098"}
+],
+"routes":[
+  {"id":6086966,"t":{"ref":"255A","name":"Elx → Santa Pola","from":"Elx","to":"Santa Pola","network":"Transport Públic Generalitat Valenciana","operator":"Vectalia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13247703074,16],[4083044563,17]]},
+  {"id":6091846,"t":{"ref":"255A","name":"Santa Pola → Elx","from":"Santa Pola","to":"Elx","network":"Transport Públic Generalitat Valenciana","operator":"Vectalia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13247703073,4]]},
+  {"id":13283549,"t":{"ref":"15","name":"Bus 15: Urbano Gran Alacant","route":"bus","public_transport:version":"2"},"n":16,"s":[[9139813119,1,16]]},
+  {"id":19739609,"t":{"ref":"255B","name":"Elx → Santa Pola → el Gran Alacant","from":"Elx","to":"Santa Pola, el Gran Alacant","network":"Transport Públic Generalitat Valenciana","operator":"Vectalia","route":"bus","public_transport:version":"2"},"n":21,"s":[[13247703074,17],[4083044563,18]]},
+  {"id":19739610,"t":{"ref":"255B","name":"el Gran Alacant → Santa Pola → Elx","from":"Santa Pola, el Gran Alacant","to":"Elx","network":"Transport Públic Generalitat Valenciana","operator":"Vectalia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13247703073,4]]}
+]
+}

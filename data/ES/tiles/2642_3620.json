@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2642,3620],
+"stops":[
+  {"id":279268564,"lat":42.118763,"lon":1.012963,"k":"x","n":"Conques"},
+  {"id":318337415,"lat":42.140637,"lon":1.040925,"k":"x","n":"Sant Romà d'Abella"},
+  {"id":371808962,"lat":42.116558,"lon":1.044096,"k":"x","n":"Isona"},
+  {"id":10810548857,"lat":42.140154,"lon":1.041396,"k":"p","n":"Sant Romà d'Abella"},
+  {"id":12056142330,"lat":42.118821,"lon":1.013048,"k":"x","n":"Conques"},
+  {"id":12056142331,"lat":42.118835,"lon":1.01303,"k":"p","n":"Conques"},
+  {"id":12056142332,"lat":42.116596,"lon":1.044068,"k":"p","n":"Isona"},
+  {"id":12059461966,"lat":42.118716,"lon":1.013,"k":"p","n":"Conques"},
+  {"id":12059461967,"lat":42.116526,"lon":1.044034,"k":"x","n":"Isona"},
+  {"id":12059461968,"lat":42.116481,"lon":1.044079,"k":"p","n":"Isona"},
+  {"id":14354788051,"lat":42.14066,"lon":1.040979,"k":"p","n":"Sant Romà d'Abella"}
+],
+"routes":[
+  {"id":17838239,"t":{"ref":"L0092","name":"L0092: Barcelona - eth Pònt de Rei","from":"Barcelona estació del Nord","to":"eth Pònt de Rei","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":49,"s":[[12056142332,17],[12056142331,18]]},
+  {"id":17843661,"t":{"ref":"L0092","name":"L0092: eth Pònt de Rei - Barcelona","from":"eth Pònt de Rei","to":"Barcelona Estació del Nord","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":48,"s":[[12059461966,31],[12059461968,32]]},
+  {"id":20681302,"t":{"ref":"L0847","name":"L0847 Tremp - Bóixols","from":"Tremp","to":"Bóixols","route":"bus","public_transport:version":"2"},"n":5,"s":[[12059461968,3]]},
+  {"id":20681331,"t":{"ref":"L0847","name":"L0847 Bóixols - Tremp","from":"Bóixols","to":"Tremp","route":"bus","public_transport:version":"2"},"n":5,"s":[[12059461968,3]]},
+  {"id":21710229,"t":{"ref":"L0415","name":"L0415: La Pobla de Segur => Barcelona","from":"La Pobla de Segur","to":"Barcelona","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":25,"s":[[12059461966,7],[12059461968,8]]},
+  {"id":21710260,"t":{"name":"L0415: Barcelona => La Pobla de Segur","from":"Barcelona","to":"La Pobla de Segur","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":25,"s":[[12056142332,18],[12056142331,19]]},
+  {"id":21914180,"t":{"ref":"L0846","name":"L0846: Tremp => Orcau","from":"Tremp","to":"Orcau","route":"bus","public_transport:version":"2"},"n":5,"s":[[12059461968,2],[14354788051,3]]},
+  {"id":21914342,"t":{"ref":"L0846","name":"L0846 Orcau => Tremp","from":"Orcau","to":"Tremp","route":"bus","public_transport:version":"2"},"n":5,"s":[[14354788051,3],[12059461968,4]]}
+]
+}

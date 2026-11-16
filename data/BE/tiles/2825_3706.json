@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2825,3706],
+"stops":[
+  {"id":42284488,"lat":51.272839,"lon":5.316118,"k":"x","n":"Luyksgestel, Lommelsedijk"},
+  {"id":42314508,"lat":51.293759,"lon":5.337322,"k":"x","n":"Luyksgestel, Mozekesweg"},
+  {"id":42316351,"lat":51.294105,"lon":5.337515,"k":"p","n":"Mozekesweg"},
+  {"id":1731953683,"lat":51.272834,"lon":5.31617,"k":"p","n":"Lommelsedijk"},
+  {"id":2419921281,"lat":51.257251,"lon":5.313358,"k":"p","n":"Vossemeren"},
+  {"id":2527639060,"lat":51.257278,"lon":5.31326,"k":"p","n":"Vossemeren"},
+  {"id":2527764361,"lat":51.263318,"lon":5.315851,"k":"p","n":"Lommel Grens Luyksgestel"},
+  {"id":2527764364,"lat":51.256601,"lon":5.312933,"k":"p","n":"Lommel In de Putten"},
+  {"id":2528857937,"lat":51.257259,"lon":5.313306,"k":"x","n":"Lommel Vossemeren"},
+  {"id":2925124356,"lat":51.253072,"lon":5.333532,"k":"p","n":"Lommel Elzen"},
+  {"id":2925124377,"lat":51.250283,"lon":5.310825,"k":"p","n":"Lommel Mosstraat"},
+  {"id":2925124392,"lat":51.255407,"lon":5.327424,"k":"p","n":"Lommel Vossemeren"},
+  {"id":2925146450,"lat":51.257103,"lon":5.343768,"k":"p","n":"Kolonie Kolken"},
+  {"id":4594387034,"lat":51.293776,"lon":5.337247,"k":"p","n":"Mozekesweg"},
+  {"id":4599379726,"lat":51.272988,"lon":5.316081,"k":"p","n":"Lommelsedijk"},
+  {"id":6191132093,"lat":51.294116,"lon":5.337429,"k":"x","n":"Luyksgestel, Mozekesweg"},
+  {"id":6191132097,"lat":51.298722,"lon":5.332425,"k":"x","n":"Luyksgestel, Sengelbroeksestraat"},
+  {"id":6879609775,"lat":51.27299,"lon":5.316127,"k":"x","n":"Luyksgestel, Lommelsedijk"}
+],
+"routes":[
+  {"id":396609,"t":{"ref":"318","name":"Bus 318: Luyksgestel Boscheind => Eindhoven Centraal Station","from":"Luyksgestel, Boscheind","to":"Eindhoven, Centraal Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":2,"s":[[6191132093,1],[42316351,2]]},
+  {"id":396610,"t":{"ref":"318","name":"Bus 318: Eindhoven Centraal Station => Luyksgestel Boscheind","from":"Eindhoven, Centraal Station","to":"Luyksgestel, Boscheind","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":2,"s":[[6191132097,1],[42314508,2]]},
+  {"id":3145781,"t":{"ref":"272","name":"Bus 272: Lommel (B) Station => Eersel Busstation","from":"Lommel Station","to":"Eerstel, Busstation Eersel","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":10,"s":[[2419921281,9],[1731953683,10]]},
+  {"id":3145782,"t":{"ref":"272","name":"Bus 272: Eersel Busstation => Lommel (B) Station","from":"Eersel, Busstation Eersel","to":"Lommel Station","network":"Zuidoost-Brabant","operator":"Hermes","route":"bus","public_transport:version":"2"},"n":10,"s":[[4599379726,1],[2527639060,2]]},
+  {"id":20672556,"t":{"ref":"flex","name":"Bravoflex hub Station, Lommel","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":5,"s":[[42316351,2],[4594387034,3],[1731953683,4],[4599379726,5]]},
+  {"id":20672576,"t":{"ref":"flex","name":"Bravoflex hub Eijkereind, Bergeijk","network":"Zuidoost-Brabant","operator":"Qarin","route":"bus","public_transport:version":"2"},"n":4,"s":[[42316351,1],[4594387034,2],[1731953683,3],[4599379726,4]]}
+]
+}

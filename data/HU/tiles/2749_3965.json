@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2749,3965],
+"stops":[
+  {"id":2434385733,"lat":47.474134,"lon":18.294241,"k":"p","n":"Oroszlány, XVIII. akna"},
+  {"id":2434385734,"lat":47.476503,"lon":18.298507,"k":"p","n":"Nyíres dűlő"},
+  {"id":2434385750,"lat":47.485451,"lon":18.271028,"k":"p","n":"Oroszlány, vízmű"},
+  {"id":2434385759,"lat":47.489863,"lon":18.255691,"k":"p","n":"Bokod, Hajnal utca"},
+  {"id":3415666926,"lat":47.484909,"lon":18.296319,"k":"p","n":"Arany János utca"},
+  {"id":3415666927,"lat":47.484762,"lon":18.296377,"k":"p","n":"Arany János utca"},
+  {"id":3415666993,"lat":47.488221,"lon":18.29872,"k":"p","n":"Határ út"},
+  {"id":3415666994,"lat":47.488289,"lon":18.298613,"k":"p","n":"Határ út"},
+  {"id":3415667049,"lat":47.476486,"lon":18.298303,"k":"p","n":"Nyíres dűlő"},
+  {"id":3415667071,"lat":47.471246,"lon":18.298641,"k":"p","n":"Wescast"},
+  {"id":3415667072,"lat":47.471388,"lon":18.29863,"k":"p","n":"Wescast"},
+  {"id":6173617224,"lat":47.489873,"lon":18.255157,"k":"p","n":"Bokod, Hajnal utca"},
+  {"id":7475462325,"lat":47.49684,"lon":18.288086,"k":"p","n":"Erőműi-tó"},
+  {"id":11239780955,"lat":47.494804,"lon":18.265109,"k":"p","n":"Bokod, Kis utca"}
+],
+"routes":[
+  {"id":1972611,"t":{"ref":"1Y","name":"Bus 1Y: Volán-telep → Arany János utca → Körforgalom → Volán-telep","from":"Volán-telep","to":"Volán telep","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":15,"s":[[3415666926,6],[3415666993,7]]},
+  {"id":1972652,"t":{"ref":"1T","name":"Bus 1T: Volán-telep → Határ út → TESCO Áruház → Városi temető","from":"Volán-telep","to":"Városi temető","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[3415666994,9],[3415666927,10]]},
+  {"id":4721668,"t":{"ref":"1T","name":"Bus 1T: Városi temető → TESCO Áruház → Határ út → Volán-telep","from":"Városi temető","to":"Volán-telep","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[3415666926,8],[3415666993,9]]},
+  {"id":4721670,"t":{"ref":"1Y","name":"Bus 1Y: Volán-telep → Körforgalom → Erőműi-tó → Arany János utca → Ipari Park → Volán-telep","from":"Volán-telep","to":"Volán-telep","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":18,"s":[[7475462325,10],[3415666994,11],[3415666927,12],[3415667049,14],[3415667071,15]]},
+  {"id":4721671,"t":{"ref":"1Y","name":"Bus 1Y: Volán-telep → Nyírjes dűlő → Erőműi-tó → Volán-telep","from":"Volán-telep","to":"Volán-telep","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":14,"s":[[2434385734,2],[3415666926,4],[3415666993,5],[7475462325,6]]},
+  {"id":9169034,"t":{"ref":"770","name":"770 \"B\" v: Kisbér, autóbusz-állomás => Budapest, Kelenföld vasútállomás (Őrmező) => Budapest, Kelenföld vasútállomás","from":"Kisbér, autóbusz-állomás","to":"Budapest, Kelenföld vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":28,"s":[[6173617224,11]]},
+  {"id":9169035,"t":{"ref":"770","name":"770 \"B\": Budapest, Kelenföld vasútállomás => Kisbér, autóbusz-állomás","from":"Budapest, Kelenföld vasútállomás","to":"Kisbér, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":26,"s":[[2434385759,16]]},
+  {"id":11309111,"t":{"ref":"770","name":"770 \"A\": Budapest, Déli pályaudvar => Budapest, Kelenföld vasútállomás => Kisbér, autóbusz-állomás","from":"Budapest, Déli pályaudvar","to":"Kisbér, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":27,"s":[[2434385759,17]]},
+  {"id":11309114,"t":{"ref":"770","name":"770 \"A\" v: Kisbér, autóbusz-állomás => Budapest, Kelenföld vasútállomás (Őrmező) => Budapest, Déli pályaudvar","from":"Kisbér, autóbusz-állomás","to":"Budapest, Déli pályaudvar","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":28,"s":[[6173617224,11]]}
+]
+}

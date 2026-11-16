@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2753,4029],
+"stops":[
+  {"id":2189626275,"lat":47.671357,"lon":21.499945,"k":"p","n":"Hajdúböszörmény, Árpád út"},
+  {"id":2189632965,"lat":47.652994,"lon":21.454552,"k":"p","n":"Hajdúböszörmény, Bocskai Tsz"},
+  {"id":2189632966,"lat":47.652984,"lon":21.454779,"k":"p","n":"Hajdúböszörmény, Bocskai Tsz"},
+  {"id":2189647355,"lat":47.664853,"lon":21.485212,"k":"p","n":"Külső Újvárosi Út"},
+  {"id":2189647372,"lat":47.664542,"lon":21.484128,"k":"p","n":"Külső Újvárosi Út"},
+  {"id":2189647941,"lat":47.668737,"lon":21.49262,"k":"p","n":"Újvárosi utca"},
+  {"id":2189647942,"lat":47.6687,"lon":21.492819,"k":"p","n":"Újvárosi utca"},
+  {"id":2189656058,"lat":47.671092,"lon":21.488962,"k":"p","n":"Köztemető"},
+  {"id":2189682665,"lat":47.683632,"lon":21.49747,"k":"p","n":"Nagy András utca"},
+  {"id":2189685813,"lat":47.665544,"lon":21.496244,"k":"p","n":"Kolozsvár étterem"},
+  {"id":2189685816,"lat":47.675738,"lon":21.493088,"k":"p","n":"Dózsa György körút"},
+  {"id":2189685817,"lat":47.675513,"lon":21.49284,"k":"p","n":"Dózsa György körút"},
+  {"id":10050763700,"lat":47.67472,"lon":21.499139,"k":"p","n":"Hortobágy utca"},
+  {"id":10050763701,"lat":47.674859,"lon":21.498782,"k":"p","n":"Hortobágy utca"},
+  {"id":10050763713,"lat":47.658398,"lon":21.499006,"k":"p","n":"Görgey Artúr utca"}
+],
+"routes":[
+  {"id":2806193,"t":{"ref":"1","name":"bus 1: Sajtüzem => Köztemető => Strandfürdő => Sajtüzem => Bocskai Szőlőskert","network":"local","operator":"Hajdúböszörményi Önkormányzat","route":"bus","public_transport:version":"2"},"n":23,"s":[[2189626275,8],[2189647941,9],[2189656058,10],[2189647942,11],[2189685816,12],[2189685817,15]]},
+  {"id":2806196,"t":{"ref":"2","name":"bus 2: Nagév => Köztemető => Strandfürdő => Nagév","operator":"Hajdúböszörmény Önkormányzat","route":"bus","public_transport:version":"2"},"n":26,"s":[[10050763713,9],[2189685813,10],[2189656058,11],[2189647942,12],[10050763701,14],[2189685816,15],[2189682665,18]]},
+  {"id":14646791,"t":{"ref":"1+2","name":"bus 1+2: Sajtüzem => Nagév => Köztemető => Sajtüzem => Nagév => Piac","operator":"Hajdúböszörményi Önkormányzat","route":"bus","public_transport:version":"2"},"n":35,"s":[[10050763713,14],[2189685813,15],[2189656058,16],[2189647942,17],[2189685816,18],[2189682665,21]]}
+]
+}

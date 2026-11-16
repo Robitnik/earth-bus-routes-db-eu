@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2556,3582],
+"stops":[
+  {"id":7704297799,"lat":37.842228,"lon":-0.854445,"k":"p","n":"Mirador"},
+  {"id":7704297800,"lat":37.807476,"lon":-0.857007,"k":"p","n":"Pozo Aledo"},
+  {"id":7704297801,"lat":37.80737,"lon":-0.857159,"k":"p","n":"Pozo Aledo"},
+  {"id":10824991807,"lat":37.818293,"lon":-0.858598,"k":"p","n":"Hospital Los Arcos","ref":"7486"},
+  {"id":12077456195,"lat":37.816797,"lon":-0.895348,"k":"p","n":"San Cayetano","ref":"7539"},
+  {"id":12077456196,"lat":37.816733,"lon":-0.895291,"k":"p","n":"San Cayetano","ref":"7538"},
+  {"id":12077550242,"lat":37.845456,"lon":-0.851732,"k":"p","n":"El Mirador"}
+],
+"routes":[
+  {"id":5892827,"t":{"name":"Murcia → Campoamor","from":"Murcia","to":"Campoamor","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":31,"s":[[7704297801,4]]},
+  {"id":5892938,"t":{"name":"Murcia → Pilar de la Horadada","from":"Murcia","to":"Pilar de la Horadada","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":21,"s":[[7704297801,4]]},
+  {"id":5893010,"t":{"name":"Murcia → Torre de la Horadada","from":"Murcia","to":"Torre de la Horadada","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":26,"s":[[7704297801,4]]},
+  {"id":11287397,"t":{"name":"Campoamor → Murcia","from":"Campoamor","to":"Murcia","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":31,"s":[[7704297800,29]]},
+  {"id":11291860,"t":{"name":"Pilar de la Horadada → Murcia","from":"Pilar de la Horadada","to":"Murcia","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":22,"s":[[7704297800,18]]},
+  {"id":11291861,"t":{"name":"Torre de la Horadada → Murcia","from":"Torre de la Horadada","to":"Murcia","network":"MUR-092","operator":"Interurbana de Autobuses S.A.","route":"bus","public_transport:version":"2"},"n":26,"s":[[7704297800,24]]},
+  {"id":17877919,"t":{"ref":"47","name":"47: Cartagena → San Pedro del Pinatar, por Los Alcázares","from":"Cartagena","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":27,"s":[[10824991807,9],[7704297801,10]]},
+  {"id":17877921,"t":{"ref":"47","name":"47: San Pedro del Pinatar → Cartagena, por Los Alcázares","from":"San Pedro del Pinatar","to":"Cartagena","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":27,"s":[[7704297800,19],[10824991807,20]]},
+  {"id":17878734,"t":{"ref":"411","name":"411: Cartagena → San Pedro del Pinatar, por Torre Pacheco","from":"Cartagena","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":14,"s":[[7704297800,12],[10824991807,13]]},
+  {"id":17878735,"t":{"ref":"411","name":"411: San Pedro del Pinatar → Cartagena, por Torre Pacheco","from":"San Pedro del Pinatar","to":"Cartagena","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":14,"s":[[10824991807,2],[7704297801,3]]},
+  {"id":17880547,"t":{"ref":"49","name":"49: San Pedro del Pinatar → Roldán","from":"San Pedro del Pinatar","to":"Roldán","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":24,"s":[[7704297800,19],[10824991807,20],[12077456195,21]]},
+  {"id":17880549,"t":{"ref":"49","name":"49: Roldán → San Pedro del Pinatar","from":"Roldán","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":23,"s":[[12077456196,4],[10824991807,5],[7704297801,6]]},
+  {"id":17881239,"t":{"ref":"48","name":"48A: Pozo Aledo -> San Pedro del Pinatar","from":"Pozo Aledo","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":24,"s":[[10824991807,1],[7704297801,2]]},
+  {"id":17881240,"t":{"ref":"48","name":"48A: San Pedro del Pinatar → Pozo Aledo","from":"San Pedro del Pinatar","to":"Pozo Aledo","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":25,"s":[[7704297800,24],[10824991807,25]]},
+  {"id":17881292,"t":{"ref":"48","name":"48B: San Javier → San Pedro del Pinatar","from":"San Javier","to":"San Pedro del Pinatar","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":11,"s":[[12077550242,6]]},
+  {"id":17881293,"t":{"ref":"48","name":"48B: San Pedro del Pinatar → San Javier","from":"San Pedro del Pinatar","to":"San Javier","network":"Movibus","operator":"Transportes Urbanos de Cartagena S.A.","colour":"#2A4739","route":"bus","public_transport:version":"2"},"n":11,"s":[[12077550242,6]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2750,3969],
+"stops":[
+  {"id":1252818446,"lat":47.538433,"lon":18.455159,"k":"p","n":"Szikla utca"},
+  {"id":1252818478,"lat":47.541885,"lon":18.451974,"k":"p","n":"Templom utca"},
+  {"id":1269255918,"lat":47.535998,"lon":18.457745,"k":"p","n":"Szent István úti forduló"},
+  {"id":2607013510,"lat":47.525167,"lon":18.488465,"k":"p","n":"Szárliget, Szent István utca"},
+  {"id":2607013517,"lat":47.525252,"lon":18.488208,"k":"p","n":"Szárliget, Szent István utca"},
+  {"id":3233917886,"lat":47.520074,"lon":18.489147,"k":"p"},
+  {"id":3390089811,"lat":47.519183,"lon":18.497048,"k":"p","n":"Szárliget, vasútállomás bejárati út"},
+  {"id":3390089812,"lat":47.518903,"lon":18.497092,"k":"p","n":"Szárliget, vasútállomás bejárati út"},
+  {"id":3415667075,"lat":47.538098,"lon":18.455756,"k":"p","n":"Szikla utca"},
+  {"id":3415667076,"lat":47.545328,"lon":18.450766,"k":"p","n":"Szolgáltató ház"},
+  {"id":3415667077,"lat":47.544366,"lon":18.451141,"k":"p","n":"Szolgáltató ház"},
+  {"id":3415667193,"lat":47.542055,"lon":18.452153,"k":"p","n":"Templom utca"},
+  {"id":3468026245,"lat":47.517183,"lon":18.493883,"k":"p","n":"Szárliget, bolt"}
+],
+"routes":[
+  {"id":4721661,"t":{"ref":"1","name":"Bus 1: Autóbusz-állomás => Szent István úti forduló","from":"Autóbusz-állomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#a2041d","route":"bus","public_transport:version":"2"},"n":23,"s":[[3415667077,20],[1252818478,21],[1252818446,22],[1269255918,23]]},
+  {"id":4721662,"t":{"ref":"1","name":"Bus 1: Szent István úti forduló => Autóbusz-állomás","from":"Szent István úti forduló","to":"Autóbusz-állomás","network":"local","operator":"T-Busz Kft.","colour":"#a2041d","route":"bus","public_transport:version":"2"},"n":24,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":4721711,"t":{"ref":"5","name":"5: Autóbusz-állomás => Szent István úti forduló","from":"Autóbusz-állomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#ff7701","route":"bus","public_transport:version":"2"},"n":19,"s":[[3415667077,16],[1252818478,17],[1252818446,18],[1269255918,19]]},
+  {"id":4721712,"t":{"ref":"5","name":"5: Szent István úti forduló => Autóbusz-állomás","from":"Szent István úti forduló","to":"Autóbusz-állomás","network":"local","operator":"T-Busz Kft.","colour":"#ff7701","route":"bus","public_transport:version":"2"},"n":20,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":4721736,"t":{"ref":"9","name":"9: Szent István úti forduló => Kertváros, végállomás","from":"Szent István úti forduló","to":"Kertváros, végállomás","network":"local","operator":"T-Busz Kft.","colour":"#fb0001","route":"bus","public_transport:version":"2"},"n":31,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":4721737,"t":{"ref":"9","name":"9: Kertváros, végállomás => Szent István úti forduló","from":"Kertváros, végállomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#fb0001","route":"bus","public_transport:version":"2"},"n":30,"s":[[3415667077,27],[1252818478,28],[1252818446,29],[1269255918,30]]},
+  {"id":6700681,"t":{"ref":"51","name":"51: Bridgestone => Szent István úti forduló","from":"Bridgestone","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#9a051c","route":"bus","public_transport:version":"2"},"n":28,"s":[[3415667077,25],[1252818478,26],[1252818446,27],[1269255918,28]]},
+  {"id":6700682,"t":{"ref":"51","name":"51: Szent István úti forduló => Bridgestone","from":"Szent István úti forduló","to":"Bridgestone","network":"local","operator":"T-Busz Kft.","colour":"#9a051c","route":"bus","public_transport:version":"2"},"n":28,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":6700683,"t":{"ref":"51B","name":"51B: Bridgestone => Szent István úti forduló","from":"Bridgestone","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","route":"bus","public_transport:version":"2"},"n":23,"s":[[3415667077,20],[1252818478,21],[1252818446,22],[1269255918,23]]},
+  {"id":6700684,"t":{"ref":"51B","name":"51B: Szent István úti forduló => Bridgestone","from":"Szent István úti forduló","to":"Bridgestone","network":"local","operator":"T-Busz Kft.","route":"bus","public_transport:version":"2"},"n":23,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":7862205,"t":{"ref":"51","name":"51: Henkel Kft. => Szent István úti forduló","from":"Henkel Kft.","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#9a051c","route":"bus","public_transport:version":"2"},"n":27,"s":[[3415667077,24],[1252818478,25],[1252818446,26],[1269255918,27]]},
+  {"id":7862206,"t":{"ref":"51","name":"51: Szent István úti forduló => Henkel Kft.","from":"Szent István úti forduló","to":"Henkel Kft.","network":"local","operator":"T-Busz Kft.","colour":"#9a051c","route":"bus","public_transport:version":"2"},"n":27,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":7862212,"t":{"ref":"5P","name":"5P: Szent István úti forduló => Töhötöm vezér utca => Autóbusz-állomás","from":"Szent István úti forduló","to":"Autóbusz-állomás","network":"local","operator":"T-Busz Kft.","colour":"#ff7701","route":"bus","public_transport:version":"2"},"n":25,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":7862214,"t":{"ref":"5P","name":"5P: Autóbusz-állomás => Töhötöm vezér utca => Szent István úti forduló","from":"Autóbusz-állomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#ff7701","route":"bus","public_transport:version":"2"},"n":24,"s":[[3415667077,21],[1252818478,22],[1252818446,23],[1269255918,24]]},
+  {"id":7862226,"t":{"ref":"1G","name":"Bus 1G: Szent István úti forduló => Vigadó út => Autóbusz-állomás","from":"Szent István úti forduló","to":"Autóbusz-állomás","network":"local","operator":"T-Busz Kft.","colour":"#a2041d","route":"bus","public_transport:version":"2"},"n":24,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":7862228,"t":{"ref":"1G","name":"Bus 1G: Autóbusz-állomás => Vigadó út => Szent István úti forduló","from":"Autóbusz-állomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#a2041d","route":"bus","public_transport:version":"2"},"n":23,"s":[[3415667077,20],[1252818478,21],[1252818446,22],[1269255918,23]]},
+  {"id":7862231,"t":{"ref":"1D","name":"Bus 1D: Autóbusz-állomás => Szent István úti forduló","from":"Autóbusz-állomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#a2041d","route":"bus","public_transport:version":"2"},"n":25,"s":[[3415667077,22],[1252818478,23],[1252818446,24],[1269255918,25]]},
+  {"id":8421053,"t":{"ref":"9D","name":"9D: Szent István úti forduló => Dózsakert => Kertváros, végállomás","from":"Szent István úti forduló","to":"Kertváros, végállomás","network":"local","operator":"T-Busz Kft.","colour":"#fb0001","route":"bus","public_transport:version":"2"},"n":33,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":8421054,"t":{"ref":"9D","name":"9D: Kertváros, végállomás => Dózsakert => Szent István úti forduló","from":"Kertváros, végállomás","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","colour":"#fb0001","route":"bus","public_transport:version":"2"},"n":33,"s":[[3415667077,30],[1252818478,31],[1252818446,32],[1269255918,33]]},
+  {"id":11289172,"t":{"ref":"51B","name":"51B: Szent István úti forduló => AGC üveggyár => Bridgestone","from":"Szent István úti forduló","to":"Bridgestone","network":"local","operator":"T-Busz Kft.","route":"bus","public_transport:version":"2"},"n":30,"s":[[1269255918,1],[3415667075,2],[3415667193,3],[3415667076,4]]},
+  {"id":11289173,"t":{"ref":"51B","name":"51B: Bridgestone => AGC üveggyár => Szent István úti forduló","from":"Bridgestone","to":"Szent István úti forduló","network":"local","operator":"T-Busz Kft.","route":"bus","public_transport:version":"2"},"n":29,"s":[[3415667077,26],[1252818478,27],[1252818446,28],[1269255918,29]]}
+]
+}

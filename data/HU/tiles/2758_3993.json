@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2758,3993],
+"stops":[
+  {"id":3086418037,"lat":47.919362,"lon":19.689495,"k":"p","n":"Pásztó, vasútállomás"},
+  {"id":3446891276,"lat":47.919897,"lon":19.698406,"k":"p","n":"Pásztó, Fő út 73."},
+  {"id":3446891280,"lat":47.922508,"lon":19.682119,"k":"p","n":"Pásztó, bejárati út","ref":"593039"},
+  {"id":3446891282,"lat":47.918818,"lon":19.693745,"k":"p","n":"Pásztó, rendelőintézet"},
+  {"id":3446891283,"lat":47.901927,"lon":19.677942,"k":"p","n":"Pásztó, szécsényi útelágazás"},
+  {"id":3473071577,"lat":47.92085,"lon":19.699147,"k":"p","n":"Pásztó, Fő út 73."},
+  {"id":5215251662,"lat":47.922627,"lon":19.684861,"k":"p","n":"Pásztó, bejárati út","ref":"593040"},
+  {"id":6057950723,"lat":47.916481,"lon":19.697628,"k":"p","n":"Pásztó, Fő út 30."},
+  {"id":9844516933,"lat":47.918659,"lon":19.693577,"k":"p","n":"Pásztó, rendelőintézet"},
+  {"id":10800161859,"lat":47.911604,"lon":19.694159,"k":"p","n":"Pásztó, Ibolya utca"},
+  {"id":10805356027,"lat":47.914823,"lon":19.697487,"k":"p","n":"Pásztó, Csillag tér"},
+  {"id":10805356028,"lat":47.912184,"lon":19.694455,"k":"p","n":"Pásztó, Ibolya utca"},
+  {"id":11196453640,"lat":47.948588,"lon":19.696479,"k":"p","n":"Mátraszőlős, Fő út"},
+  {"id":11196453641,"lat":47.94825,"lon":19.69721,"k":"p","n":"Mátraszőlős, Fő út"},
+  {"id":11225578479,"lat":47.901851,"lon":19.677758,"k":"p","n":"Pásztó, szécsényi útelágazás"},
+  {"id":11225578480,"lat":47.91712,"lon":19.69767,"k":"p","n":"Pásztó, Fő út 30."},
+  {"id":14245065502,"lat":47.915323,"lon":19.697283,"k":"p","n":"Pásztó, Csillag tér"}
+],
+"routes":[
+  {"id":16338566,"t":{"ref":"3265","name":"3265: Mátraszőlős, autóbusz-forduló => Pásztó,vasútállomás","from":"Mátraszőlős, autóbusz-forduló","to":"Pásztó, vasútállomás","network":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":9,"s":[[11196453640,3],[3473071577,7],[3446891282,8],[3086418037,9]]},
+  {"id":16338567,"t":{"ref":"3265","name":"3265: Pásztó,vasútállomás => Mátraszőlős, autóbusz-forduló","from":"Pásztó, vasútállomás","to":"Mátraszőlős, autóbusz-forduló","network":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":10,"s":[[3086418037,1],[9844516933,2],[6057950723,3],[3446891276,4],[11196453641,8]]},
+  {"id":16398713,"t":{"ref":"3267","name":"3267 A: Pásztó (Mátrakeresztes), posta --> Pásztó, vasútállomás","from":"Pásztó (Mátrakeresztes), posta","to":"Pásztó, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":14,"s":[[3086418037,4],[3473071577,5],[11225578480,6],[3446891282,11]]},
+  {"id":16398714,"t":{"ref":"3267","name":"3267 A: Pásztó, vasútállomás --> Pásztó (Mátrakeresztes), posta","from":"Pásztó, vasútállomás","to":"Pásztó (Mátrakeresztes), posta","network":"Volánbusz","operator":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":14,"s":[[3086418037,4],[3446891276,5],[6057950723,6],[9844516933,10]]},
+  {"id":20137651,"t":{"ref":"3657","name":"3657: Pásztó (Vasútállomás) --> Galyatető, Kodály Zoltán sétány","from":"Pásztó (vasútállomás)","to":"Galyatető, Kodály Zoltán sétány","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt","route":"bus","public_transport:version":"2"},"n":25,"s":[[3086418037,1],[9844516933,2],[6057950723,3],[3446891276,4]]},
+  {"id":20137652,"t":{"ref":"3657","name":"Bus 3657: Galyatető, Kodály Zoltán sétány => Pásztó (vasútállomás)","from":"Galyatető, Kodály Zoltán sétány","to":"Pásztó (vasútállomás)","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt.","route":"bus","public_transport:version":"2"},"n":32,"s":[[3086418037,1],[3446891282,2],[11225578480,3],[3473071577,4]]}
+]
+}

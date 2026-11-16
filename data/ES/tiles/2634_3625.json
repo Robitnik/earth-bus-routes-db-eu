@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2634,3625],
+"stops":[
+  {"id":1016135244,"lat":41.731119,"lon":1.271093,"k":"x","n":"Tarroja de Segarra (ctra. L-311, pk 7,9) (D)"},
+  {"id":2545487730,"lat":41.731369,"lon":1.274312,"k":"x","n":"Tarroja de Segarra (bàscula)"},
+  {"id":3751537566,"lat":41.730567,"lon":1.270449,"k":"p","n":"Tarroja de Segarra (ctra. L-311, pk 7,9) (D)"},
+  {"id":13797867226,"lat":41.731078,"lon":1.271137,"k":"p","n":"Tarroja de Segarra (ctra. L-311, pk 7,9) (D)"},
+  {"id":13797867227,"lat":41.731446,"lon":1.274321,"k":"p","n":"Tarroja de Segarra (bàscula)"},
+  {"id":13797867229,"lat":41.73058,"lon":1.270485,"k":"x","n":"Tarroja de Segarra (ctra. L-311, pk 7,9) (D)"},
+  {"id":14367332584,"lat":41.731457,"lon":1.260064,"k":"x","n":"Sedó"},
+  {"id":14367332585,"lat":41.731427,"lon":1.260064,"k":"p","n":"Sedó"},
+  {"id":14367332586,"lat":41.731465,"lon":1.260331,"k":"x","n":"Sedó"},
+  {"id":14367332587,"lat":41.731538,"lon":1.260353,"k":"p","n":"Sedó"}
+],
+"routes":[
+  {"id":20626949,"t":{"ref":"L0595","name":"L0595 Reus - Tarragona - Andorra","from":"Reus","to":"Andorra","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[13797867226,17]]},
+  {"id":20658089,"t":{"ref":"L0375","name":"L0375 Tarroja de Segarra - Calaf - Jorba - Igualada","from":"Tarroja de Segarra","to":"Igualada","route":"bus","public_transport:version":"2"},"n":25,"s":[[13797867227,1]]},
+  {"id":20658243,"t":{"ref":"L0375","name":"L0375 Igualada - Jorba - Calaf - Tarroja de Segarra","from":"Igualada","to":"Tarroja de Segarra","route":"bus","public_transport:version":"2"},"n":25,"s":[[13797867227,25]]},
+  {"id":20662504,"t":{"ref":"L0595","name":"L0595 Andorra - Tarragona - Reus","from":"Andorra","to":"Reus","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[3751537566,10]]},
+  {"id":21934808,"t":{"ref":"L0695","name":"L0695: Cervera => Solsona","from":"Cervera","to":"Solsona","route":"bus","public_transport:version":"2"},"n":11,"s":[[13797867226,2]]},
+  {"id":21970771,"t":{"ref":"L0245","name":"L0245: Cervera => Agramunt => Lleida","from":"Cervera","to":"Lleida","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":28,"s":[[13797867226,2],[14367332587,3]]},
+  {"id":21971944,"t":{"ref":"L0245","name":"L0245: Lleida => Agramunt => Cervera","from":"Lleida","to":"Cervera","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":27,"s":[[14367332585,25],[3751537566,26]]}
+]
+}

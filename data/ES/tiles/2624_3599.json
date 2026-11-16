@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2624,3599],
+"stops":[
+  {"id":2389287925,"lat":41.236479,"lon":-0.044359,"k":"p","n":"Caspe, Plaza de Aragón"},
+  {"id":12580346735,"lat":41.239452,"lon":-0.04301,"k":"p","n":"Caspe. Estación del Ferrocarril"},
+  {"id":12603853629,"lat":41.233753,"lon":-0.043117,"k":"p","n":"Caspe. Bar Los Labradores"}
+],
+"routes":[
+  {"id":18689528,"t":{"ref":"T6-57","name":"Caspe - Playas de Chacón","from":"Caspe","to":"Playas de Chacón","network":"Transporte Público de Aragón","operator":"Hife","colour":"#BACEEC","route":"bus","public_transport:version":"2"},"n":3,"s":[[2389287925,1]]},
+  {"id":18689529,"t":{"ref":"T6-57","name":"Playas de Chacón - Caspe","from":"Playas de Chacón","to":"Caspe","network":"Transporte Público de Aragón","operator":"Hife","colour":"#BACEEC","route":"bus","public_transport:version":"2"},"n":3,"s":[[2389287925,3]]},
+  {"id":18693308,"t":{"ref":"T6-4","name":"Fraga-Alcañiz","from":"Fraga","to":"Alcañiz","network":"Transporte Público de Aragón","operator":"Hife","colour":"#FFED00","route":"bus","public_transport:version":"2"},"n":9,"s":[[12580346735,4],[2389287925,5]]},
+  {"id":18693309,"t":{"ref":"T6-4","name":"Alcañiz-Fraga","from":"Alcañiz","to":"Fraga","network":"Transporte Público de Aragón","operator":"Hife","colour":"#FFED00","route":"bus","public_transport:version":"2"},"n":9,"s":[[2389287925,5],[12580346735,6]]},
+  {"id":18696126,"t":{"ref":"T6-6","name":"Bus T6-6: Caspe → Zaragoza","from":"Caspe","to":"Zaragoza","network":"Transporte Público de Aragón","operator":"La Hispano de Fuente en Segures","colour":"#C0A820","route":"bus","public_transport:version":"2"},"n":15,"s":[[2389287925,1]]},
+  {"id":18696127,"t":{"ref":"T6-6","name":"Bus T6-6: Zaragoza → Caspe","from":"Zaragoza","to":"Caspe","network":"Transporte Público de Aragón","operator":"La Hispano de Fuente en Segures","colour":"#C0A820","route":"bus","public_transport:version":"2"},"n":15,"s":[[2389287925,15]]},
+  {"id":18697600,"t":{"ref":"T6-8","name":"Caspe-Alcañiz","from":"Caspe","to":"Alcañiz","network":"Transporte Público de Aragón","operator":"Hife","colour":"#85A864","route":"bus","public_transport:version":"2"},"n":5,"s":[[12580346735,1],[12603853629,2],[2389287925,3]]},
+  {"id":18697602,"t":{"ref":"T6-8","name":"Alcañiz-Caspe","from":"Alcañiz","to":"Caspe","network":"Transporte Público de Aragón","operator":"Hife","colour":"#85A864","route":"bus","public_transport:version":"2"},"n":5,"s":[[12603853629,3],[2389287925,4],[12580346735,5]]},
+  {"id":18702387,"t":{"ref":"T6-21","name":"Nonaspe-Caspe","from":"Nonaspe/Nonasp","to":"Caspe","network":"Transporte Público de Aragón","operator":"Hife","colour":"#F5A687","route":"bus","public_transport:version":"2"},"n":6,"s":[[12603853629,4],[2389287925,5]]},
+  {"id":18702389,"t":{"ref":"T6-21","name":"Caspe-Nonaspe","from":"Caspe","to":"Nonaspe/Nonasp","network":"Transporte Público de Aragón","operator":"Hife","colour":"#F5A687","route":"bus","public_transport:version":"2"},"n":5,"s":[[2389287925,2]]}
+]
+}

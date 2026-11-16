@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2614,3515],
+"stops":[
+  {"id":312044444,"lat":40.723131,"lon":-4.242349,"k":"x"},
+  {"id":439548146,"lat":40.719676,"lon":-4.218899,"k":"p","n":"Piscina Climatizada"},
+  {"id":3509190647,"lat":40.718633,"lon":-4.247709,"k":"p","n":"El Espinar - Ayuntamiento"},
+  {"id":3509190648,"lat":40.71702,"lon":-4.244993,"k":"p","n":"Hontanillas"},
+  {"id":3509190649,"lat":40.723112,"lon":-4.242306,"k":"p","n":"Plaza Egidillo - Cuartel"},
+  {"id":9870477239,"lat":40.718661,"lon":-4.247741,"k":"x"},
+  {"id":11938202944,"lat":40.717469,"lon":-4.20697,"k":"p","n":"ECYL"},
+  {"id":11938202945,"lat":40.717547,"lon":-4.206637,"k":"p","n":"ECYL"},
+  {"id":11938202948,"lat":40.719556,"lon":-4.218462,"k":"p","n":"Piscina Climatizada"},
+  {"id":11938215766,"lat":40.723182,"lon":-4.246499,"k":"x"},
+  {"id":11938220188,"lat":40.723242,"lon":-4.246517,"k":"p","n":"Centro Médico"},
+  {"id":13266004192,"lat":40.716938,"lon":-4.245016,"k":"p","n":"Hontanillas"},
+  {"id":13266004193,"lat":40.716977,"lon":-4.245007,"k":"x"},
+  {"id":13266015901,"lat":40.71961,"lon":-4.218882,"k":"x"},
+  {"id":13266015939,"lat":40.717526,"lon":-4.206951,"k":"x"},
+  {"id":13266015941,"lat":40.717524,"lon":-4.20668,"k":"x"},
+  {"id":13338763430,"lat":40.718589,"lon":-4.247903,"k":"p","n":"El Espinar - Ayuntamiento"},
+  {"id":13338763432,"lat":40.719566,"lon":-4.218503,"k":"x"},
+  {"id":13338763433,"lat":40.718622,"lon":-4.247901,"k":"x"}
+],
+"routes":[
+  {"id":14324945,"t":{"name":"11 Segovia","route":"bus","public_transport:version":"2"},"n":5,"s":[[3509190647,1]]},
+  {"id":14328480,"t":{"ref":"VAC-246","name":"El Espinar - Madrid","from":"El Espinar","to":"Madrid","network":"Autobuses de España","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":2,"s":[[3509190647,1]]},
+  {"id":14328481,"t":{"ref":"VAC-246","name":"Madrid - El Espinar","from":"Madrid","to":"El Espinar","network":"Autobuses de España","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":2,"s":[[9870477239,1],[3509190647,2]]},
+  {"id":14328482,"t":{"ref":"VAC-246","name":"El Espinar - Madrid (por Guadarrama)","from":"El Espinar","to":"Madrid","network":"Autobuses de España","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":2,"s":[[3509190647,1]]},
+  {"id":14328483,"t":{"ref":"VAC-246","name":"Madrid - El Espinar (por Guadarrama)","from":"Madrid","to":"El Espinar","network":"Autobuses de España","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":2,"s":[[9870477239,1],[3509190647,2]]},
+  {"id":19767485,"t":{"ref":"C-1","name":"Línea 1: Ayuntamiento → San Rafael → La Estación → Ayuntamiento","from":"Ayuntamiento","to":"Ayuntamiento","network":"Transporte Urbano Municipal de El Espinar","operator":"Saiz Garrido SL","colour":"#455CFF","route":"bus"},"n":18,"s":[[3509190647,1,16],[3509190648,2],[13266004192,3],[439548146,4],[11938202944,5],[11938202945,6],[13338763432,18]]},
+  {"id":19769582,"t":{"ref":"C-2","name":"Línea 2: Ayuntamiento → Los Ángeles → Ayuntamiento","from":"Ayuntamiento","to":"Ayuntamiento","network":"Transporte Urbano Municipal de El Espinar","operator":"Saiz Garrido SL","colour":"#FF30BF","route":"bus"},"n":10,"s":[[3509190647,1,2],[11938220188,5]]}
+]
+}

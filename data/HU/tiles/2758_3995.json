@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2758,3995],
+"stops":[
+  {"id":3446891278,"lat":47.908542,"lon":19.79887,"k":"p","n":"Pásztó (Mátrakeresztes), fűrészmalom"},
+  {"id":11225578487,"lat":47.926212,"lon":19.754216,"k":"p","n":"Pásztó (Hasznos), vízmű"},
+  {"id":11225578488,"lat":47.926095,"lon":19.754744,"k":"p","n":"Pásztó (Hasznos), vízmű"}
+],
+"routes":[
+  {"id":16398713,"t":{"ref":"3267","name":"3267 A: Pásztó (Mátrakeresztes), posta --> Pásztó, vasútállomás","from":"Pásztó (Mátrakeresztes), posta","to":"Pásztó, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":14,"s":[[11225578488,1]]},
+  {"id":16398714,"t":{"ref":"3267","name":"3267 A: Pásztó, vasútállomás --> Pásztó (Mátrakeresztes), posta","from":"Pásztó, vasútállomás","to":"Pásztó (Mátrakeresztes), posta","network":"Volánbusz","operator":"Volánbusz","colour":"#DDA0DD","route":"bus","public_transport:version":"2"},"n":14,"s":[[11225578487,1],[3446891278,12]]},
+  {"id":20137651,"t":{"ref":"3657","name":"3657: Pásztó (Vasútállomás) --> Galyatető, Kodály Zoltán sétány","from":"Pásztó (vasútállomás)","to":"Galyatető, Kodály Zoltán sétány","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt","route":"bus","public_transport:version":"2"},"n":25,"s":[[11225578487,11],[3446891278,12]]},
+  {"id":20137652,"t":{"ref":"3657","name":"Bus 3657: Galyatető, Kodály Zoltán sétány => Pásztó (vasútállomás)","from":"Galyatető, Kodály Zoltán sétány","to":"Pásztó (vasútállomás)","network":"Volánbusz","operator":"MÁV Személyszállítási Zrt.","route":"bus","public_transport:version":"2"},"n":32,"s":[[11225578488,11]]}
+]
+}

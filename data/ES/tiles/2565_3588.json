@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2565,3588],
+"stops":[
+  {"id":1674687765,"lat":38.287565,"lon":-0.552781,"k":"p","n":"Aeroport d'Alacant-Elx Miguel Hernández"},
+  {"id":3868634254,"lat":38.288342,"lon":-0.552493,"k":"p","n":"Aeropuerto - Airport (2nd floor)","ref":"3669"},
+  {"id":4855990324,"lat":38.287584,"lon":-0.552887,"k":"x"},
+  {"id":5034218421,"lat":38.288708,"lon":-0.560325,"k":"p"},
+  {"id":6718151098,"lat":38.294193,"lon":-0.585786,"k":"p","n":"Bus Alicante-Crevillente"},
+  {"id":6718151100,"lat":38.293576,"lon":-0.586523,"k":"p","n":"Torrellano-Parc","ref":"1109"},
+  {"id":6943799508,"lat":38.294211,"lon":-0.585747,"k":"p","n":"1A-1B"},
+  {"id":6943799509,"lat":38.292654,"lon":-0.590112,"k":"p","n":"Torrellano (Av. Illice 45)","ref":"1107"},
+  {"id":8777984455,"lat":38.288348,"lon":-0.552554,"k":"x","n":"Alicante Aeropuerto (2nd floor)"},
+  {"id":13839333322,"lat":38.29235,"lon":-0.590455,"k":"p","n":"Torrellano (Rosa de los Vientos)","ref":"1125"}
+],
+"routes":[
+  {"id":1625443,"t":{"ref":"ALSA: Alicante Airport - Murcia","name":"ALSA: Alicante Airport - Murcia","from":"Alicante Airport","to":"Murcia","network":"Alsa","operator":"ALSA","route":"bus","public_transport:version":"2"},"n":2,"s":[[1674687765,1]]},
+  {"id":4517606,"t":{"ref":"Torrevieja - Alicante Airport ( A7 )","name":"Torrevieja - Alicante Airport (Directo )","network":"Alsa","operator":"ALSA","route":"bus","public_transport:version":"2"},"n":2,"s":[[8777984455,2]]},
+  {"id":5708435,"t":{"ref":"C-6","name":"C-6 Alicante ⇒ Aeropuerto","from":"Alicante","to":"Aeropuerto","network":"TAM Interurbano","operator":"Vectalia","route":"bus","public_transport:version":"2"},"n":13,"s":[[3868634254,13]]},
+  {"id":17871360,"t":{"ref":"C-6","name":"C-6 Aeropuerto ⇒ Alicante","from":"Aeropuerto","to":"Alicante","network":"TAM Interurbano","operator":"Vectalia","route":"bus","public_transport:version":"2"},"n":7,"s":[[3868634254,1]]},
+  {"id":19640227,"t":{"ref":"520","name":"Benidorm → Aeroport","from":"Benidorm","to":"Aeroport d'Alacant-Elx","network":"Transport Públic Generalitat Valenciana","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[1674687765,3]]},
+  {"id":19640228,"t":{"ref":"520","name":"Aeroport → Benidorm","from":"Aeroport d'Alacant-Elx","to":"Benidorm","network":"Transport Públic Generalitat Valenciana","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[1674687765,1]]},
+  {"id":19702363,"t":{"ref":"Alicante Airport - Torrevieja ( A7 )","name":"Alicante Airport - Torrevieja ( Directo )","network":"Alsa","operator":"ALSA","route":"bus","public_transport:version":"2"},"n":2,"s":[[8777984455,1]]},
+  {"id":20698348,"t":{"ref":"259","name":"Bus 259: Crevillent → UMH","from":"Crevillent, Fontenay","to":"UMH San Juan","network":"Transport Públic Generalitat Valenciana","operator":"Vectalia","colour":"#513080","route":"bus","public_transport:version":"2"},"n":13,"s":[[13839333322,7],[6718151100,8]]},
+  {"id":20698447,"t":{"ref":"259","name":"Bus 259: UMH → Crevillent","from":"UMH San Juan","to":"Crevillent, Fontenay","network":"Transport Públic Generalitat Valenciana","operator":"Vectalia","colour":"#513080","route":"bus","public_transport:version":"2"},"n":9,"s":[[6943799509,3]]}
+]
+}

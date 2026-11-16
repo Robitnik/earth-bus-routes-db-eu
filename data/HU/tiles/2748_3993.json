@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2748,3993],
+"stops":[
+  {"id":5521211322,"lat":47.432257,"lon":19.680771,"k":"p","n":"Szentmártonkáta, vasútállomás"},
+  {"id":5521222521,"lat":47.437692,"lon":19.686518,"k":"p","n":"Szentmártonkáta, Bacsó Béla utca"},
+  {"id":5521222522,"lat":47.438087,"lon":19.687062,"k":"p","n":"Szentmártonkáta, Bacsó Béla utca"},
+  {"id":5521222523,"lat":47.441875,"lon":19.690387,"k":"p","n":"Szentmártonkáta, Bánom dűlő"},
+  {"id":5521222524,"lat":47.447065,"lon":19.692832,"k":"p","n":"Szentmártonkáta, Rákóczi utca"},
+  {"id":7650790758,"lat":47.446698,"lon":19.692349,"k":"p","n":"Szentmártonkáta, Rákóczi utca"},
+  {"id":7650790759,"lat":47.442141,"lon":19.690821,"k":"p","n":"Szentmártonkáta, Bánom dűlő"},
+  {"id":7650790761,"lat":47.432314,"lon":19.680737,"k":"p","n":"Szentmártonkáta, vasútállomás"},
+  {"id":8250051211,"lat":47.449023,"lon":19.694747,"k":"p","n":"Szentmártonkáta, vasútállomás elágazás"},
+  {"id":8250051212,"lat":47.448813,"lon":19.694377,"k":"p","n":"Szentmártonkáta, vasútállomás elágazás"}
+],
+"routes":[
+  {"id":8352666,"t":{"ref":"503","name":"503 \"A\": Jászberény, autóbusz-állomás => Kátai Állami Gazdaság => Szentmártonkáta, vasútállomás","from":"Jászberény, autóbusz-állomás","to":"Szentmártonkáta, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":28,"s":[[8250051212,26],[7650790758,27],[5521211322,28]]},
+  {"id":8993171,"t":{"ref":"501","name":"501 \"A\": Nagykáta, vasútállomás => Szentmártonkáta, vasútállomás","from":"Nagykáta, vasútállomás","to":"Szentmártonkáta, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":14,"s":[[7650790758,11],[5521222523,12],[5521222521,13],[5521211322,14]]},
+  {"id":8993172,"t":{"ref":"501","name":"501 \"A\" v: Szentmártonkáta, vasútállomás => Nagykáta, vasútállomás","from":"Szentmártonkáta, vasútállomás","to":"Nagykáta, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":14,"s":[[7650790761,1],[5521222522,2],[7650790759,3],[5521222524,4]]},
+  {"id":9453970,"t":{"ref":"501","name":"501 \"B\" v: Szentmártonkáta, vasútállomás => Nagykáta, vasútállomás","from":"Szentmártonkáta, vasútállomás","to":"Nagykáta, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":8,"s":[[7650790761,1]]},
+  {"id":9596907,"t":{"ref":"Helyi járat","name":"Helyi járat: Szentmártonkáta, vasútállomás => Szentmártonkáta, autóbusz-forduló","from":"Szentmártonkáta, vasútállomás","to":"Szentmártonkáta, autóbusz-forduló","network":"Szentmártonkáta","operator":"Regio 2007 Kft.","route":"bus","public_transport:version":"2"},"n":8,"s":[[7650790761,1],[5521222522,2],[7650790759,3],[5521222524,4]]},
+  {"id":11238896,"t":{"ref":"Helyi járat","name":"Helyi járat v: Szentmártonkáta, autóbusz-forduló => Szentmártonkáta, vasútállomás","from":"Szentmártonkáta, autóbusz-forduló","to":"Szentmártonkáta, vasútállomás","network":"Szentmártonkáta","operator":"Regio 2007 Kft.","route":"bus","public_transport:version":"2"},"n":8,"s":[[7650790758,5],[5521222523,6],[5521222521,7],[5521211322,8]]},
+  {"id":12074280,"t":{"ref":"503","name":"503 \"C\" v: Szentmártonkáta, vasútállomás => Jászberény, autóbusz-állomás","from":"Szentmártonkáta, vasútállomás","to":"Jászberény, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":25,"s":[[7650790761,1],[8250051211,2]]},
+  {"id":12074281,"t":{"ref":"503","name":"503 \"B\" v: Szentmártonkáta, vasútállomás => Jászberény, autóbusz-állomás","from":"Szentmártonkáta, vasútállomás","to":"Jászberény, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":26,"s":[[7650790761,1],[5521222524,2],[8250051211,3]]},
+  {"id":12074282,"t":{"ref":"503","name":"503 \"A\" v: Szentmártonkáta, vasútállomás => Kátai Állami Gazdaság => Jászberény, autóbusz-állomás","from":"Szentmártonkáta, vasútállomás","to":"Jászberény, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":28,"s":[[7650790761,1],[5521222524,2],[8250051211,3]]},
+  {"id":12074284,"t":{"ref":"503","name":"503 \"N\": Szentlőrinckáta, autóbusz-forduló => Kátai Állami Gazdaság => Szentmártonkáta, vasútállomás","from":"Szentlőrinckáta, autóbusz-forduló","to":"Szentmártonkáta, vasútállomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[8250051212,8],[7650790758,9],[5521211322,10]]},
+  {"id":12074287,"t":{"ref":"503","name":"503 \"K\": Jászfelsőszentgyörgy, községháza => Kátai Állami Gazdaság => Szentmártonkáta, vasútállomás","from":"Jászfelsőszentgyörgy, községháza","to":"Szentmártonkáta, vasútállomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":15,"s":[[8250051212,13],[7650790758,14],[5521211322,15]]}
+]
+}

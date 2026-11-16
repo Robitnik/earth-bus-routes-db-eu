@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2665,3538],
+"stops":[
+  {"id":665553835,"lat":43.284905,"lon":-3.053673,"k":"p","n":"La Arboleda"},
+  {"id":1845183245,"lat":43.295547,"lon":-3.068231,"k":"p","n":"Triano"},
+  {"id":1845183270,"lat":43.295562,"lon":-3.068507,"k":"p","n":"Triano"},
+  {"id":5401296012,"lat":43.299469,"lon":-3.070144,"k":"p","n":"La Barga"},
+  {"id":7204129149,"lat":43.2528,"lon":-3.0996,"k":"p","n":"Egoitza / Residencia (3461)","ref":"3461"},
+  {"id":7204137398,"lat":43.2547,"lon":-3.0992,"k":"p","n":"San Pedro (3462)","ref":"3462"},
+  {"id":12670107774,"lat":43.288098,"lon":-3.063,"k":"p"}
+],
+"routes":[
+  {"id":2127429,"t":{"ref":"A2221","name":"La Arboleda-Larreineta","operator":"Autobuses Vigiola","route":"bus","public_transport:version":"2"},"n":2,"s":[[665553835,1]]},
+  {"id":3624290,"t":{"ref":"A3333","name":"A3333: La Arboleda → Gallarta → Santurtzi","from":"La Arboleda","to":"Santurtzi","network":"Bizkaibus","operator":"Encartaciones S.A.","colour":"#9ACD32","route":"bus","public_transport:version":"2"},"n":22,"s":[[665553835,1],[1845183245,2],[5401296012,3]]},
+  {"id":11185857,"t":{"ref":"A2221","name":"Larreineta-La Arboleda","operator":"Autobuses Vigiola","route":"bus","public_transport:version":"2"},"n":2,"s":[[665553835,2]]},
+  {"id":11185932,"t":{"ref":"A3333","name":"A3333: Santurtzi → Gallarta → La Arboleda","from":"Santurtzi","to":"La Arboleda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":21,"s":[[1845183270,20],[665553835,21]]},
+  {"id":11203967,"t":{"ref":"A3323","name":"A3323: Galdames → Muskiz → Portugalete","from":"Galdames","to":"Portugalete","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":25,"s":[[7204137398,1]]},
+  {"id":11203968,"t":{"ref":"A3323","name":"A3323: Portugalete → Muskiz → Galdames","from":"Portugalete","to":"Galdames","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":34,"s":[[7204129149,33],[7204137398,34]]}
+]
+}

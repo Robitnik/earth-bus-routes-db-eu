@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2639,3631],
+"stops":[
+  {"id":264052329,"lat":41.972164,"lon":1.560558,"k":"x","n":"Urb. Pi de Sant Just II"},
+  {"id":1676204942,"lat":41.978161,"lon":1.556551,"k":"x","n":"Urb. Pi de Sant Just - Escola Agrària"},
+  {"id":1676204960,"lat":41.97828,"lon":1.556714,"k":"x","n":"Urb. Pi de Sant Just - Escola Agrària"},
+  {"id":1676205011,"lat":41.98111,"lon":1.553299,"k":"x","n":"Pol. Ind. Olius"},
+  {"id":2050475013,"lat":41.986244,"lon":1.550672,"k":"x","n":"Pol. Ind. Sta. Llúcia"},
+  {"id":12097244340,"lat":41.978127,"lon":1.556458,"k":"p","n":"Urb. Pi de Sant Just - Escola Agrària"},
+  {"id":12097369188,"lat":41.978359,"lon":1.556768,"k":"p","n":"Urb. Pi de Sant Just - Escola Agrària"},
+  {"id":13728161190,"lat":41.981194,"lon":1.553243,"k":"p","n":"Pol. Ind. Olius"},
+  {"id":13728167579,"lat":41.972184,"lon":1.560611,"k":"p","n":"Urb. Pi de Sant Just II"},
+  {"id":13728167580,"lat":41.972142,"lon":1.560507,"k":"p","n":"Urb. Pi de Sant Just II"},
+  {"id":13728261478,"lat":41.976895,"lon":1.555334,"k":"x","n":"LL. I. El Pi - Plaça Olivera"},
+  {"id":13728261479,"lat":41.97695,"lon":1.555299,"k":"p","n":"LL. I. El Pi - Plaça Olivera"},
+  {"id":13728290934,"lat":41.986261,"lon":1.550587,"k":"p","n":"Pol. Ind. Sta. Llúcia"}
+],
+"routes":[
+  {"id":17910928,"t":{"ref":"L1446","name":"L1446 Solsona - Barcelona","from":"Solsona","to":"Barcelona Estació del Nord","route":"bus","public_transport:version":"2"},"n":20,"s":[[12097244340,2]]},
+  {"id":17910940,"t":{"ref":"L1446","name":"L1446 Barcelona - Solsona","from":"Barcelona. Estació del Nord","to":"Solsona","route":"bus","public_transport:version":"2"},"n":18,"s":[[12097369188,17]]},
+  {"id":20444480,"t":{"ref":"IntSolOli","name":"Bus interurbà Solsona Olius TORNADA","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":20,"s":[[13728167579,1],[12097369188,2],[12097244340,3],[13728261479,4],[13728161190,5],[13728290934,6]]},
+  {"id":20444623,"t":{"ref":"IntSolOli","name":"Bus interurbà Solsona Olius ANADA","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":18,"s":[[13728261479,17],[13728167580,18]]},
+  {"id":20622282,"t":{"ref":"L1701","name":"L1701 Solsona - Ardèvol - la Molsosa - Enfesta","from":"Solsona","to":"Enfesta","route":"bus","public_transport:version":"2"},"n":12,"s":[[12097244340,2]]},
+  {"id":20622392,"t":{"ref":"L1701","name":"L1701 Enfesta - la Molsosa - Ardèvol - Solsona","from":"Enfesta","to":"Solsona","route":"bus","public_transport:version":"2"},"n":12,"s":[[12097369188,11]]}
+]
+}

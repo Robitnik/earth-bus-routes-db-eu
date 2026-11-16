@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2750,4037],
+"stops":[
+  {"id":3437028400,"lat":47.527297,"lon":21.860533,"k":"p","n":"Vámospércs, 16,8-as km tábla"},
+  {"id":3468057154,"lat":47.523773,"lon":21.883197,"k":"p","n":"Vámospércs, Báthori kert"},
+  {"id":3468057157,"lat":47.539918,"lon":21.896978,"k":"p","n":"Vámospércs, Újtemető"},
+  {"id":3468057174,"lat":47.518381,"lon":21.893308,"k":"p","n":"Vámospércs, Vasútállomás"},
+  {"id":4798190383,"lat":47.517878,"lon":21.895201,"k":"p","n":"Vámospércs, Vasútállomás"},
+  {"id":4798215747,"lat":47.525974,"lon":21.897754,"k":"p","n":"Vámospércs, Nagy utca 9."},
+  {"id":4798215748,"lat":47.52593,"lon":21.897605,"k":"p","n":"Vámospércs, Nagy utca 9."},
+  {"id":4798215749,"lat":47.52668,"lon":21.895283,"k":"p","n":"Vámospércs, Debreceni utca"},
+  {"id":4798215750,"lat":47.526683,"lon":21.895696,"k":"p","n":"Vámospércs, Debreceni utca"},
+  {"id":10692792186,"lat":47.523939,"lon":21.883388,"k":"p","n":"Vámospércs, Báthori kert"},
+  {"id":10692792187,"lat":47.527404,"lon":21.860177,"k":"p","n":"Vámospércs, 16,8-as km tábla"}
+],
+"routes":[
+  {"id":15531895,"t":{"ref":"4416","name":"Bus 4416: Debrecen => Létavértes","from":"Debrecen","to":"Létavértes","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":37,"s":[[10692792187,16],[3468057154,18],[4798215750,19]]},
+  {"id":15532011,"t":{"ref":"4416","name":"Bus 4416: Létavértes => Debrecen","from":"Létavértes","to":"Debrecen","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":36,"s":[[4798215749,19],[10692792186,20],[10692792187,21]]},
+  {"id":15532479,"t":{"ref":"4424","name":"Bus 4424: Létavértes => Vámospércs","from":"Létavértes","to":"Debrecen","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[4798215748,19],[4798190383,20]]},
+  {"id":15532480,"t":{"ref":"4424","name":"Bus 4424: Vámospércs => Létavértes","from":"Vámospércs","to":"Létavértes","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[4798190383,1],[4798215747,2]]},
+  {"id":15532612,"t":{"ref":"4502","name":"Bus 4502: Létavértes => Vámospércs","from":"Létavértes","to":"Vámospércs","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":8,"s":[[4798190383,6],[4798215747,7]]},
+  {"id":15532613,"t":{"ref":"4502","name":"Bus 4502: Vámospércs => Létavértes","from":"Vámospércs","to":"Létavértes","network":"HU:regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":8,"s":[[4798215748,2],[3468057174,3]]}
+]
+}

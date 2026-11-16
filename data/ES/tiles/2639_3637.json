@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2639,3637],
+"stops":[
+  {"id":142345663,"lat":41.996874,"lon":1.885498,"k":"x","n":"el Guixaró"},
+  {"id":194081343,"lat":41.98745,"lon":1.884776,"k":"x","n":"Cal Prat"},
+  {"id":6215667333,"lat":41.987666,"lon":1.885154,"k":"p","n":"Cal Prat"},
+  {"id":6215667334,"lat":41.987502,"lon":1.884727,"k":"p","n":"Cal Prat"},
+  {"id":10955939214,"lat":41.975504,"lon":1.879535,"k":"x","n":"Puig-reig"},
+  {"id":10955939226,"lat":41.958052,"lon":1.881073,"k":"x","n":"Cal Marçal"},
+  {"id":12079158309,"lat":41.975504,"lon":1.879616,"k":"p","n":"Puig-reig"},
+  {"id":13416103463,"lat":41.965135,"lon":1.881346,"k":"x","n":"Cal Pons - Antiga Estació - c. Nou de Baix"},
+  {"id":13416103464,"lat":41.965228,"lon":1.881341,"k":"x","n":"Cal Pons - Antiga Estació - c. Cal Biel"},
+  {"id":13416103465,"lat":41.965229,"lon":1.881404,"k":"p","n":"Cal Pons - Antiga Estació - c. Cal Biel"},
+  {"id":13416103466,"lat":41.965124,"lon":1.881281,"k":"p","n":"Cal Pons - Antiga Estació - c. Nou de Baix"},
+  {"id":13416103467,"lat":41.987706,"lon":1.885074,"k":"x","n":"Cal Prat"},
+  {"id":13712617955,"lat":41.957358,"lon":1.880511,"k":"x","n":"Cal Marçal"},
+  {"id":13712617957,"lat":41.958064,"lon":1.880999,"k":"p","n":"Cal Marçal"},
+  {"id":13712617958,"lat":41.957336,"lon":1.880556,"k":"p","n":"Cal Marçal"},
+  {"id":13712645247,"lat":41.995626,"lon":1.885597,"k":"x","n":"el Guixaró"},
+  {"id":13712645248,"lat":41.996871,"lon":1.88561,"k":"p","n":"el Guixaró"},
+  {"id":13712645249,"lat":41.995621,"lon":1.885486,"k":"p","n":"el Guixaró"},
+  {"id":14020063051,"lat":41.963415,"lon":1.887202,"k":"x"},
+  {"id":14125483934,"lat":41.963468,"lon":1.887164,"k":"p"}
+],
+"routes":[
+  {"id":17880329,"t":{"ref":"L0393","name":"L0393 La Farga de Moles - Barcelona Estació del Nord","from":"La Farga de Moles","to":"Estació del Nord","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":22,"s":[[12079158309,18]]},
+  {"id":17883951,"t":{"name":"L0393 Barcelona Estació del Nord - La Farga de Moles","from":"Barcelona Estació del Nord","to":"La Farga de Moles","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":22,"s":[[12079158309,5]]},
+  {"id":19996513,"t":{"ref":"CAS","name":"CAS Berga - Puig-reig","from":"Berga","to":"Puig-reig","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[12079158309,5]]},
+  {"id":19996518,"t":{"ref":"CAS","name":"CAS Puig-reig - Berga","from":"Puig-reig","to":"Berga","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[12079158309,1]]},
+  {"id":20016734,"t":{"ref":"L0225","name":"L0225 La Pobla de Lillet - Berga - Manresa","from":"La Pobla de Lillet","to":"Manresa","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":32,"s":[[13712645249,16],[6215667334,17],[12079158309,18],[13416103466,19],[13712617957,20]]},
+  {"id":20020354,"t":{"ref":"L0225","name":"L0225 Manresa - Berga - La Pobla de Lillet","from":"Manresa","to":"La Pobla de Lillet","route":"bus","public_transport:version":"2"},"n":33,"s":[[13712617958,13],[13416103465,14],[12079158309,15],[6215667333,16],[13712645248,17]]},
+  {"id":20032435,"t":{"ref":"TGN","name":"TGN: La Pobla de Lillet => Tarragona => Cambrils","from":"La Pobla de Lillet","to":"Cambrils","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":16,"s":[[12079158309,9]]},
+  {"id":20032859,"t":{"ref":"TGN","name":"TGN Cambrils => Tarragona => La Pobla de Lillet","from":"Cambrils","to":"La Pobla de Lillet","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":16,"s":[[12079158309,8]]},
+  {"id":20063743,"t":{"ref":"UABBerga","name":"L1824: Berga => UAB => Barcelona","from":"Berga","to":"Barcelona","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[12079158309,3]]},
+  {"id":20067204,"t":{"ref":"UABBerga","name":"L1824: Barcelona => UAB => Berga","from":"Barcelona","to":"Berga","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[12079158309,6]]},
+  {"id":20513576,"t":{"ref":"L0462","name":"L0462 Barcelona - Puigcerdà - Llívia","from":"Barcelona","to":"Llívia","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":17,"s":[[12079158309,7]]},
+  {"id":20513577,"t":{"ref":"L0462","name":"L0462 Llívia - Puigcerdà - Barcelona","from":"Llívia","to":"Barcelona","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":20,"s":[[12079158309,12]]},
+  {"id":20601393,"t":{"ref":"L1782","name":"L1782 TAD Serrateix - Viver - Puig-reig","from":"Serrateix","to":"Puig-reig","route":"bus","public_transport:version":"2"},"n":3,"s":[[12079158309,3]]},
+  {"id":20601411,"t":{"ref":"L1782","name":"L1782 TAD Puig-reig - Viver - Serrateix","from":"Puig-reig","to":"Serrateix","route":"bus","public_transport:version":"2"},"n":3,"s":[[12079158309,1]]}
+]
+}

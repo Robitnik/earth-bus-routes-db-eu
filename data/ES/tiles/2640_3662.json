@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2640,3662],
+"stops":[
+  {"id":337971710,"lat":42.049448,"lon":3.106179,"k":"x","n":"Ullà (dir. l'Escala)","ref":"16591"},
+  {"id":3167917957,"lat":42.041854,"lon":3.130332,"k":"s","n":"Estació d'Autobusos de Torroella de Montgrí"},
+  {"id":3309434346,"lat":42.041847,"lon":3.130395,"k":"p","n":"Estació d'Autobusos de Torroella de Montgrí","ref":"16291"},
+  {"id":5643247684,"lat":42.049481,"lon":3.106054,"k":"x","n":"Ullà (dir. Torroella)","ref":"16990"},
+  {"id":5643248130,"lat":42.042204,"lon":3.141097,"k":"x","n":"Carretera de l'Estartit, 1"},
+  {"id":5643248132,"lat":42.041912,"lon":3.13043,"k":"x","n":"Estació d'Autobusos de Torroella de Montgrí","ref":"16291"},
+  {"id":5643251200,"lat":42.042146,"lon":3.141124,"k":"p","n":"Carretera de l'Estartit, 1"},
+  {"id":5643251205,"lat":42.044009,"lon":3.121077,"k":"p","n":"Les Cases Barates (Torroella)"},
+  {"id":5643251206,"lat":42.044824,"lon":3.119091,"k":"p","n":"Torroella de Montgrí, La Roqueta (dir. l'Escala)","ref":"16588"},
+  {"id":5643251239,"lat":42.044793,"lon":3.119065,"k":"x","n":"Torroella de Montgrí, La Roqueta (dir. l'Escala)","ref":"16588"},
+  {"id":5643251321,"lat":42.044051,"lon":3.121097,"k":"x","n":"Les Cases Barates (Torroella)"},
+  {"id":13577218363,"lat":42.049497,"lon":3.106169,"k":"p","n":"Ullà (dir. l'Escala)","ref":"16591"},
+  {"id":13585111430,"lat":42.044688,"lon":3.119166,"k":"p","n":"Torroella de Montgrí, La Roqueta (dir. Torroella)","ref":"16989"},
+  {"id":13585111431,"lat":42.044743,"lon":3.1192,"k":"x","n":"Torroella de Montgrí, La Roqueta (dir. Torroella)","ref":"16989"},
+  {"id":13808380498,"lat":42.049412,"lon":3.10604,"k":"p","n":"Ullà (dir. Torroella)","ref":"16990"},
+  {"id":5000951691812,"lat":42.049653,"lon":3.105608,"k":"p","n":"Carretera de Torroella (km. 352)","ref":"MG0109"}
+],
+"routes":[
+  {"id":8259226,"t":{"ref":"e2","name":"e2: L'Estartit - Torroella de Montgrí - Girona","from":"L'Estartit","to":"Girona","network":"exprés.cat (Girona)","operator":"AMPSA","colour":"#1D68B3","route":"bus","public_transport:version":"2"},"n":23,"s":[[3309434346,8],[5643251206,9],[5000951691812,10]]},
+  {"id":8259227,"t":{"ref":"e2","name":"e2: Girona - Torroella de Montgrí - L'Estartit","from":"Girona","to":"L'Estartit","network":"exprés.cat (Girona)","operator":"AMPSA","colour":"#1D68B3","route":"bus","public_transport:version":"2"},"n":25,"s":[[13808380498,16],[5643251205,17],[3309434346,18],[5643251200,19]]},
+  {"id":20172254,"t":{"ref":"1","name":"1 Aeroport BCN => Barcelona => Costa Brava Centre","from":"Aeroport T2","to":"L'Escala","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":20,"s":[[3309434346,17],[13808380498,18]]},
+  {"id":20172285,"t":{"ref":"1","name":"1 Costa Brava Centre => Barcelona => Aeroport BCN","from":"L'Escala","to":"Aeroport T2","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":18,"s":[[13808380498,3],[3309434346,4]]},
+  {"id":20233945,"t":{"ref":"10","name":"Línia 10 Torroella de Montgrí => l'Escala => Figueres","from":"Torroella de Montgrí","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[3309434346,1],[5643251206,2],[13577218363,3]]},
+  {"id":20234232,"t":{"ref":"10","name":"Línia 10 Figueres => l'Escala => Torroella de Montgrí","from":"Figueres","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":18,"s":[[13808380498,16],[13585111430,17],[3309434346,18]]},
+  {"id":20260663,"t":{"ref":"20","name":"Línia 20 Torroella de Montgrí => La Bisbal","from":"Torroella de Montgrí","to":"La Bisbal","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":8,"s":[[3309434346,1]]},
+  {"id":20266177,"t":{"ref":"20","name":"Línia 20 La Bisbal => Torroella de Montgrí","from":"La Bisbal","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":9,"s":[[3309434346,9]]},
+  {"id":20266375,"t":{"ref":"21","name":"Línia 21 Torroella de Montgrí => Vulpellac => La Bisbal","from":"Torroella de Montgrí","to":"La Bisbal","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":6,"s":[[3309434346,1]]},
+  {"id":20266382,"t":{"ref":"21","name":"Línia 21 La Bisbal => Vulpellac => Torroella de Montgrí","from":"La Bisbal","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":7,"s":[[3309434346,7]]},
+  {"id":20272459,"t":{"ref":"23","name":"Línia 23 Torroella => Massos => Begur => Palamós","from":"Torroella de Montgrí","to":"Palamós","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[3309434346,1]]},
+  {"id":20275992,"t":{"ref":"23","name":"Línia 23 Palamós => Palafrugell => Begur => Torroella de Montgrí","from":"Palamós","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[3309434346,20]]}
+]
+}

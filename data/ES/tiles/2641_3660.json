@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2641,3660],
+"stops":[
+  {"id":5643247685,"lat":42.062468,"lon":3.047443,"k":"x","n":"Carrer de Girona, C-31"},
+  {"id":5643247686,"lat":42.062529,"lon":3.047454,"k":"p","n":"Carrer de Girona, C-31"},
+  {"id":5643251109,"lat":42.063068,"lon":3.044527,"k":"p","n":"Carrer de Girona, 2"},
+  {"id":5643251110,"lat":42.063116,"lon":3.044535,"k":"x","n":"Carrer de Girona, 2"},
+  {"id":5643251111,"lat":42.070632,"lon":3.010326,"k":"p","n":"Gi-634 - Avinguda de Carles Esteva Rich"},
+  {"id":5643251112,"lat":42.070679,"lon":3.010341,"k":"x","n":"Gi-634 - Avinguda de Carles Esteva Rich"},
+  {"id":5643251211,"lat":42.070713,"lon":3.01035,"k":"p","n":"Gi-634 - Avinguda de Carles Esteva Rich"},
+  {"id":12071154971,"lat":42.061504,"lon":3.047585,"k":"p","n":"Verges (dir. Girona)"},
+  {"id":12149885670,"lat":42.061472,"lon":3.047677,"k":"x","n":"Verges (dir. Figueres)","ref":"16302"},
+  {"id":12149885671,"lat":42.061467,"lon":3.047756,"k":"p","n":"Verges (dir. Figueres)","ref":"16302"},
+  {"id":12149936017,"lat":42.061501,"lon":3.047683,"k":"x","n":"Verges (dir. Girona)"}
+],
+"routes":[
+  {"id":8259226,"t":{"ref":"e2","name":"e2: L'Estartit - Torroella de Montgrí - Girona","from":"L'Estartit","to":"Girona","network":"exprés.cat (Girona)","operator":"AMPSA","colour":"#1D68B3","route":"bus","public_transport:version":"2"},"n":23,"s":[[5643247686,12],[5643251211,13]]},
+  {"id":8259227,"t":{"ref":"e2","name":"e2: Girona - Torroella de Montgrí - L'Estartit","from":"Girona","to":"L'Estartit","network":"exprés.cat (Girona)","operator":"AMPSA","colour":"#1D68B3","route":"bus","public_transport:version":"2"},"n":25,"s":[[5643251111,13],[5643251109,14]]},
+  {"id":17989500,"t":{"ref":"L1140","name":"L1140 Girona - l'Escala","from":"Girona","to":"L'Escala","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":17,"s":[[12149885671,11]]},
+  {"id":20250900,"t":{"ref":"17","name":"Línia 17 Palafrugell => La Bisbal => Figueres","from":"Palafrugell","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[12149885671,14]]},
+  {"id":20251000,"t":{"ref":"17","name":"Línia 17 Figueres => La Bisbal => Palafrugell","from":"Figueres","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[12071154971,12]]}
+]
+}

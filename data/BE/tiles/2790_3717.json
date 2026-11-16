@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2790,3717],
+"stops":[
+  {"id":2988592246,"lat":49.545172,"lon":5.853687,"k":"p","n":"Lamadelaine, Kierch"},
+  {"id":2988592247,"lat":49.545286,"lon":5.853427,"k":"p","n":"Lamadelaine, Kierch"},
+  {"id":2988592248,"lat":49.54681,"lon":5.856196,"k":"p","n":"Lamadelaine, Schoul"},
+  {"id":2988592249,"lat":49.547036,"lon":5.855874,"k":"p","n":"Lamadelaine, Schoul"},
+  {"id":6681787359,"lat":49.547468,"lon":5.851412,"k":"p","n":"Lamadelaine, Op Gehren"},
+  {"id":6681787360,"lat":49.547489,"lon":5.851474,"k":"x","n":"Lamadelaine, Op Gehren"},
+  {"id":6685350681,"lat":49.549154,"lon":5.850338,"k":"p","n":"Lamadelaine, Spuerkeess"},
+  {"id":6685350682,"lat":49.548976,"lon":5.850343,"k":"p","n":"Lamadelaine, Spuerkeess"}
+],
+"routes":[
+  {"id":1387204,"t":{"ref":"1","name":"TICE-01: Esch => Lamadelaine","from":"Esch, Gare","to":"Lamadelaine, Op Gehren","network":"TICE","operator":"TICE","colour":"#FF3333","route":"bus","public_transport:version":"2"},"n":7,"s":[[6681787359,7]]},
+  {"id":1388001,"t":{"ref":"3","name":"TICE-03: Esch => Rodange","from":"Esch/Alzette, Gare routière","to":"Rodange, Schwemm","network":"TICE","operator":"TICE","colour":"#CC99CC","route":"bus","public_transport:version":"2"},"n":16,"s":[[6685350682,10]]},
+  {"id":9883577,"t":{"ref":"1","name":"TICE-01: Lamadelaine => Esch","from":"Lamadelaine, Op Gehren","to":"Esch/Alzette, Gare routière","network":"TICE","operator":"TICE","colour":"#FF3333","route":"bus","public_transport:version":"2"},"n":9,"s":[[6681787359,1],[2988592246,2],[2988592248,3]]},
+  {"id":9887517,"t":{"ref":"3","name":"TICE-03: Rodange => Esch","from":"Rodange, Schwemm","to":"Esch/Alzette, Gare routière","network":"TICE","operator":"TICE","colour":"#CC99CC","route":"bus","public_transport:version":"2"},"n":17,"s":[[6685350681,7]]},
+  {"id":9909435,"t":{"ref":"14","name":"TICE-14: Rodange => Differdange","from":"Rodange, Rue Joseph Moscardo","to":"Differdange, Ecoles Centre","network":"TICE","operator":"TICE","colour":"#6666CC","route":"bus","public_transport:version":"2"},"n":17,"s":[[6685350682,7],[6681787359,8],[2988592246,9],[2988592249,10]]},
+  {"id":9909436,"t":{"ref":"14","name":"TICE-14: Differdange => Rodange","from":"Differdange, Schoul","to":"Rodange, Rue Joseph Moscardo","network":"TICE","operator":"TICE","colour":"#6666CC","route":"bus","public_transport:version":"2"},"n":14,"s":[[2988592249,9],[2988592247,10],[6685350681,11]]},
+  {"id":18744329,"t":{"ref":"212","name":"Bus 212: Arlon Gare → Lamadelaine Schoul","from":"Arlon Gare","to":"Lamadelaine Schoul","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":25,"s":[[2988592246,24],[2988592248,25]]},
+  {"id":18745008,"t":{"ref":"212","name":"Bus 212: Rodange Gare → Arlon TEC - Rue des Genêts","from":"Rodange Gare","to":"Arlon TEC - Rue des Genêts","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":32,"s":[[2988592246,4],[2988592248,5]]}
+]
+}

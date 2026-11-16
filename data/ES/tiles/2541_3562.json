@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2541,3562],
+"stops":[
+  {"id":11496087782,"lat":37.098074,"lon":-1.850836,"k":"p","n":"Puerto Marina","ref":"46"},
+  {"id":11496406995,"lat":37.084542,"lon":-1.851278,"k":"p","n":"Macenas","ref":"2"},
+  {"id":11496531594,"lat":37.098191,"lon":-1.850369,"k":"p","n":"La Mena - Puerto Marina","ref":"3"},
+  {"id":11517816617,"lat":37.057836,"lon":-1.881844,"k":"p","n":"Sopalmo"}
+],
+"routes":[
+  {"id":16951623,"t":{"ref":"L1","name":"Bus L1: Sopalmo Agua Enmedio / Macenas -> Mojácar Pueblo","from":"Sopalmo Agua Enmedio / Macenas","to":"Mojácar Pueblo","network":"Autobuses Urbanos de Mojácar","operator":"Ayuntamiento de Mojácar","route":"bus","public_transport:version":"2"},"n":16,"s":[[11517816617,1],[11496406995,2],[11496531594,3]]},
+  {"id":16951630,"t":{"ref":"L3","name":"Bus L3: Macenas -> Marina de La Torre","from":"Macenas","to":"Marina de La Torre","network":"Autobuses Urbanos de Mojácar","operator":"Ayuntamiento de Mojácar","route":"bus","public_transport:version":"2"},"n":20,"s":[[11496406995,1],[11496531594,2]]},
+  {"id":16951801,"t":{"ref":"L1","name":"Bus L1: Mojácar Pueblo -> Macenas","from":"Mojácar Pueblo","to":"Macenas","network":"Autobuses Urbanos de Mojácar","operator":"Ayuntamiento de Mojácar","route":"bus","public_transport:version":"2"},"n":18,"s":[[11496087782,17],[11496406995,18]]},
+  {"id":16952028,"t":{"ref":"L3","name":"Bus L3: Marina de La Torre -> Macenas","from":"Marina de La Torre","to":"Macenas","network":"Autobuses Urbanos de Mojácar","operator":"Ayuntamiento de Mojácar","route":"bus","public_transport:version":"2"},"n":15,"s":[[11496087782,14],[11496406995,15]]},
+  {"id":17022457,"t":{"ref":"2","name":"Bus Baraza Línea 2: Mojácar -> Vera","from":"Mojácar","to":"Vera","network":"Autocares Baraza","operator":"Autocares Baraza","route":"bus","public_transport:version":"2"},"n":32,"s":[[11496531594,1]]},
+  {"id":17022487,"t":{"ref":"2","name":"Bus Baraza Línea 2: Vera -> Mojácar","from":"Vera","to":"Mojácar","network":"Autocares Baraza","operator":"Autocares Baraza","route":"bus","public_transport:version":"2"},"n":30,"s":[[11496087782,30]]}
+]
+}

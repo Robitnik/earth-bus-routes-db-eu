@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2738,3995],
+"stops":[
+  {"id":2907992089,"lat":46.910489,"lon":19.774217,"k":"p","n":"Mintagyümölcsös"},
+  {"id":2907992090,"lat":46.910572,"lon":19.775148,"k":"p","n":"Mintagyümölcsös"},
+  {"id":3439443282,"lat":46.930279,"lon":19.787115,"k":"p","n":"Borbás"},
+  {"id":3439443385,"lat":46.915006,"lon":19.792482,"k":"p","n":"Határút (44 sz. út)"},
+  {"id":3439443386,"lat":46.916515,"lon":19.792362,"k":"p","n":"Határút (4622 sz. út)"},
+  {"id":3439443389,"lat":46.917507,"lon":19.790393,"k":"p","n":"Határút"},
+  {"id":3439443544,"lat":46.904565,"lon":19.786599,"k":"p","n":"Kisfái, végállomás"},
+  {"id":3439443545,"lat":46.907761,"lon":19.779722,"k":"p","n":"Kisfái, Tanüzem"},
+  {"id":3439444130,"lat":46.907797,"lon":19.752583,"k":"p","n":"Repülőtér"},
+  {"id":3439444131,"lat":46.907321,"lon":19.751395,"k":"p","n":"Repülőtér"},
+  {"id":3439444132,"lat":46.9083,"lon":19.752799,"k":"p","n":"Repülőtér"},
+  {"id":4076042782,"lat":46.916434,"lon":19.792575,"k":"p","n":"Határút (4622 sz. út)"},
+  {"id":4076042783,"lat":46.914961,"lon":19.791872,"k":"p","n":"Határút (44 sz. út)"},
+  {"id":4921340558,"lat":46.907809,"lon":19.779896,"k":"p","n":"Kisfái, Tanüzem"},
+  {"id":4921340572,"lat":46.917467,"lon":19.790537,"k":"p","n":"Határút"},
+  {"id":5700704535,"lat":46.910269,"lon":19.774737,"k":"p","n":"Mintagyümölcsös"},
+  {"id":5700704536,"lat":46.910286,"lon":19.774324,"k":"p","n":"Mintagyümölcsös"},
+  {"id":9272534488,"lat":46.9085,"lon":19.75205,"k":"p","n":"Repülőtér"},
+  {"id":14081920137,"lat":46.902458,"lon":19.768881,"k":"p","n":"Alsóúrréti vasúti átjáró"},
+  {"id":14081920138,"lat":46.905982,"lon":19.759183,"k":"p","n":"Kisfái 200"}
+],
+"routes":[
+  {"id":6258838,"t":{"ref":"260","name":"260: Margaréta Otthon => Repülőtér","from":"Margaréta Otthon","to":"Repülőtér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":20,"s":[[3439444132,20]]},
+  {"id":6258984,"t":{"ref":"260","name":"260: Repülőtér => Margaréta Otthon","from":"Repülőtér","to":"Margaréta Otthon","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":17,"s":[[9272534488,1]]},
+  {"id":7339243,"t":{"ref":"461","name":"461: Széchenyi tér => Aluljáró => Borbás => Kisfái, végállomás","from":"Széchenyi tér","to":"Kisfái, végállomás","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":18,"s":[[3439444130,11],[2907992090,12],[4921340572,13],[3439443282,14],[3439443389,15],[2907992089,16],[3439443545,17],[3439443544,18]]},
+  {"id":7339244,"t":{"ref":"461","name":"461: Kisfái, végállomás => Borbás => Phoenix Mecano => Széchenyi tér","from":"Kisfái, végállomás","to":"Széchenyi tér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":18,"s":[[3439443544,1],[4921340558,2],[2907992090,3],[4921340572,4],[3439443282,5],[3439443389,6],[2907992089,7],[3439444131,8]]},
+  {"id":8392395,"t":{"ref":"460","name":"460: Repülőtér => Széchenyi tér","from":"Repülőtér","to":"Széchenyi tér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":10,"s":[[9272534488,1]]},
+  {"id":8392397,"t":{"ref":"460","name":"460: Széchenyi tér => Repülőtér","from":"Széchenyi tér","to":"Repülőtér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":12,"s":[[3439444132,12]]},
+  {"id":8392398,"t":{"ref":"461","name":"461: Kisfái, végállomás => Széchenyi tér","from":"Kisfái, végállomás","to":"Széchenyi tér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":12,"s":[[3439443544,1],[4921340558,2],[5700704535,3],[3439444131,4]]},
+  {"id":8392399,"t":{"ref":"461","name":"461: Kisfái, végállomás => Borbás => Széchenyi tér","from":"Kisfái, végállomás","to":"Széchenyi tér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":16,"s":[[3439443544,1],[4921340558,2],[2907992090,3],[4921340572,4],[3439443282,5],[3439443389,6],[2907992089,7],[3439444131,8]]},
+  {"id":8392400,"t":{"ref":"4A","name":"4A: Aluljáró => Borbás => Kisfái, végállomás","from":"Aluljáró","to":"Kisfái, végállomás","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":13,"s":[[3439444130,6],[2907992090,7],[4921340572,8],[3439443282,9],[3439443389,10],[2907992089,11],[3439443545,12],[3439443544,13]]},
+  {"id":8392401,"t":{"ref":"461","name":"461: Széchenyi tér => Aluljáró => (Borbás) => Kisfái, végállomás","from":"Széchenyi tér","to":"Kisfái, végállomás","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":14,"s":[[3439444130,11],[5700704536,12],[3439443545,13],[3439443544,14]]},
+  {"id":8392402,"t":{"ref":"260","name":"260: Repülőtér => Phoenix Mecano => Margaréta Otthon","from":"Repülőtér","to":"Margaréta Otthon","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":19,"s":[[9272534488,1]]},
+  {"id":8392403,"t":{"ref":"260","name":"260: Margaréta Otthon => Phoenix Mecano => Repülőtér","from":"Margaréta Otthon","to":"Repülőtér","network":"local","operator":"KEKO","route":"bus","public_transport:version":"2"},"n":22,"s":[[3439444132,22]]},
+  {"id":12921469,"t":{"ref":"5212","name":"5212: Tiszaalpár, posta => Lakitelek, autóbusz-váróterem => Nyárlőrinc, községháza => Kecskemét, autóbusz-állomás","from":"Tiszaalpár, posta","to":"Kecskemét, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":37,"s":[[4076042783,28],[2907992089,29],[3439444131,30]]},
+  {"id":12921470,"t":{"ref":"5212","name":"5212: Kecskemét, autóbusz-állomás => Nyárlőrinc, községháza => Lakitelek, autóbusz-váróterem => Tiszaalpár, posta","from":"Kecskemét, autóbusz-állomás","to":"Tiszaalpár, posta","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":37,"s":[[3439444130,8],[2907992090,9],[3439443385,10]]}
+]
+}

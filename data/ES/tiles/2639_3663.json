@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2639,3663],
+"stops":[
+  {"id":530158430,"lat":41.97913,"lon":3.16141,"k":"x","n":"Pals, Massos","ref":"16743"},
+  {"id":5003651292,"lat":41.955191,"lon":3.157438,"k":"x","n":"Regencós, Mas Patoxas","ref":"16765"},
+  {"id":5003665158,"lat":41.950956,"lon":3.169687,"k":"x","n":"Regencós, Marquesina (dir. Begur)","ref":"16763"},
+  {"id":5536219231,"lat":41.951074,"lon":3.169927,"k":"p","n":"Regencós, Marquesina (Dir. L'Escala)","ref":"16183"},
+  {"id":5536219264,"lat":41.951153,"lon":3.167061,"k":"p","n":"Regencós, gasolinera (dir. Palafrugell)","ref":"16763"},
+  {"id":5536219265,"lat":41.955174,"lon":3.157685,"k":"p","n":"Regencós, Mas Patoxas (direcció l'Escala)","ref":"16184"},
+  {"id":5553520696,"lat":41.955202,"lon":3.15764,"k":"x","n":"Regencos, Mas Patoxas (Dir. l'Escala)","ref":"16184"},
+  {"id":5553520698,"lat":41.951007,"lon":3.169945,"k":"x","n":"Regencós, Marquesina (Dir. L'Escala)","ref":"16183"},
+  {"id":5554789041,"lat":41.955158,"lon":3.157376,"k":"p","n":"Regencós, Mas Patoxas (direcció Palafrugell)","ref":"16765"},
+  {"id":13536387222,"lat":41.951179,"lon":3.167064,"k":"x","n":"Regencós, gasolinera (dir. Palafrugell)"},
+  {"id":13606004938,"lat":41.950875,"lon":3.169738,"k":"p","n":"Regencós, Marquesina (dir. Begur)","ref":"16763"},
+  {"id":13611569393,"lat":41.979102,"lon":3.16142,"k":"p","n":"Pals, Massos","ref":"16743"}
+],
+"routes":[
+  {"id":8188432,"t":{"ref":"8","name":"8: Palafrugell - Begur - Girona","from":"Palafrugell","to":"Girona","network":"ATM Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":26,"s":[[5536219231,4],[5536219265,5]]},
+  {"id":8199026,"t":{"ref":"8","name":"8: Girona - Begur - Palafrugell","from":"Girona","to":"Palafrugell","network":"ATM Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":28,"s":[[5554789041,23],[13606004938,24]]},
+  {"id":20172254,"t":{"ref":"1","name":"1 Aeroport BCN => Barcelona => Costa Brava Centre","from":"Aeroport T2","to":"L'Escala","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":20,"s":[[5536219231,14],[5536219265,15]]},
+  {"id":20172285,"t":{"ref":"1","name":"1 Costa Brava Centre => Barcelona => Aeroport BCN","from":"L'Escala","to":"Aeroport T2","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":18,"s":[[5554789041,6],[5536219264,7]]},
+  {"id":20269451,"t":{"ref":"22","name":"Línia 22 Palafrugell => Peratallada => La Bisbal","from":"Palafrugell","to":"La Bisbal","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5536219231,5],[5536219265,6]]},
+  {"id":20269693,"t":{"ref":"22","name":"Línia 22 La Bisbal => Peratallada => Palafrugell","from":"La Bisbal","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5554789041,14],[13606004938,15]]},
+  {"id":20272459,"t":{"ref":"23","name":"Línia 23 Torroella => Massos => Begur => Palamós","from":"Torroella de Montgrí","to":"Palamós","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[13611569393,2],[5554789041,5],[13606004938,6]]},
+  {"id":20275992,"t":{"ref":"23","name":"Línia 23 Palamós => Palafrugell => Begur => Torroella de Montgrí","from":"Palamós","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[5536219231,15],[5536219265,16],[13611569393,19]]}
+]
+}

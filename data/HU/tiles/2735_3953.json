@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2735,3953],
+"stops":[
+  {"id":2386843419,"lat":46.778134,"lon":17.655702,"k":"p","n":"Balatonboglár, Posta"},
+  {"id":3445483432,"lat":46.779602,"lon":17.656279,"k":"p","n":"Balatonboglár, Platán sor"},
+  {"id":3445483440,"lat":46.784938,"lon":17.688098,"k":"p","n":"Balatonlelle, Vágóhíd utca"},
+  {"id":3445483442,"lat":46.781852,"lon":17.699267,"k":"p","n":"Balatonlelle, városháza"},
+  {"id":3624613985,"lat":46.787819,"lon":17.696021,"k":"p","n":"Balatonlelle, vasúti megállóhely","ref":"1"},
+  {"id":6124109377,"lat":46.760449,"lon":17.665234,"k":"p","n":"Balatonboglár, Borgazdaság"},
+  {"id":6124109378,"lat":46.759471,"lon":17.665289,"k":"p","n":"Balatonboglár, Borgazdaság"},
+  {"id":6419303398,"lat":46.782879,"lon":17.698925,"k":"p","n":"Balatonlelle, városháza"},
+  {"id":6711007371,"lat":46.782146,"lon":17.66244,"k":"p","n":"Balatonboglár, Orvosi rendelő"},
+  {"id":6711718292,"lat":46.771384,"lon":17.662465,"k":"p","n":"Balatonboglár, Végvári utca"},
+  {"id":6711718293,"lat":46.771641,"lon":17.662494,"k":"p","n":"Balatonboglár, Végvári utca"},
+  {"id":6712223319,"lat":46.77798,"lon":17.655777,"k":"p","n":"Balatonboglár, Posta"},
+  {"id":9910691301,"lat":46.785167,"lon":17.688378,"k":"p","n":"Balatonlelle, Vágóhíd utca"},
+  {"id":9941067278,"lat":46.767172,"lon":17.65432,"k":"p"},
+  {"id":11154744633,"lat":46.783361,"lon":17.675948,"k":"p","n":"Balatonlelle, Benzinkút"},
+  {"id":11154744634,"lat":46.783193,"lon":17.676641,"k":"p","n":"Balatonlelle, Benzinkút"},
+  {"id":13291200466,"lat":46.787901,"lon":17.696314,"k":"p","n":"Balatonlelle, vasúti megállóhely","ref":"3"},
+  {"id":13291200467,"lat":46.787692,"lon":17.695674,"k":"p","n":"Balatonlelle, vasúti megállóhely","ref":"2"},
+  {"id":13905877706,"lat":46.779662,"lon":17.656433,"k":"p","n":"Balatonboglár, Platán sor"},
+  {"id":13905877707,"lat":46.782227,"lon":17.662187,"k":"p","n":"Balatonboglár, Orvosi rendelő"},
+  {"id":13905877708,"lat":46.776668,"lon":17.660722,"k":"p","n":"Balatonboglár, Iskola"}
+],
+"routes":[
+  {"id":9194020,"t":{"ref":"5906","name":"5906 => Siófok, autóbusz–állomás","from":"Kaposvár, autóbusz-állomás","to":"Siófok, autóbusz–állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":67,"s":[[6419303398,36],[3624613985,37]]},
+  {"id":9194021,"t":{"ref":"5906","name":"5906 => Kaposvár, autóbusz-állomás","from":"Siófok, autóbusz–állomás","to":"Kaposvár, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":68,"s":[[3624613985,31],[3445483442,32]]},
+  {"id":9921539,"t":{"ref":"6040","name":"6040 => Fonyód - Siófok","from":"Fonyód, vasútállomás","to":"Siófok, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":39,"s":[[3445483432,5],[6711007371,7],[3624613985,8],[3445483440,39]]},
+  {"id":9922349,"t":{"ref":"6175","name":"6175 => Hács - (Gyugy) - Balatonboglár","from":"Hács, tsz.","to":"Balatonboglár, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#edaf2c","route":"bus","public_transport:version":"2"},"n":17,"s":[[6124109377,14],[6711718293,15],[2386843419,16]]},
+  {"id":9923310,"t":{"ref":"6071","name":"6071 => Karád - Fonyód","from":"Karád, Tsz","to":"Fonyód, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":21,"s":[[6419303398,8],[3624613985,9],[9910691301,10],[3445483432,11],[6711007371,18]]},
+  {"id":9923982,"t":{"ref":"6175","name":"6175 => Balatonboglár - (Gyugy) - Hács","from":"Balatonboglár, vasútállomás","to":"Hács, tsz.","network":"Volánbusz","operator":"Volánbusz","colour":"#edaf2c","route":"bus","public_transport:version":"2"},"n":17,"s":[[6712223319,2],[6711718292,3],[6124109378,5]]},
+  {"id":9923984,"t":{"ref":"6042","name":"Bus 6042: Siófok => Marcali","from":"Siófok, autóbusz-állomás","to":"Marcali, autóbusz-állomás","network":"regional","operator":"MÁV Személyszállítási Zrt.","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":64,"s":[[9910691301,29],[6711007371,30],[3445483432,31]]},
+  {"id":9925153,"t":{"ref":"6176","name":"6176 => Marcali - Balatonboglár","from":"Marcali, autóbusz-állomás","to":"Balatonboglár, vasútállomás","network":"Volánbusz","operator":"Volánbusz","colour":"#B9EA81","route":"bus","public_transport:version":"2"},"n":27,"s":[[6711718293,19],[6124109377,25],[2386843419,26]]}
+]
+}

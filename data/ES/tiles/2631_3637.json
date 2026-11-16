@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2631,3637],
+"stops":[
+  {"id":666084099,"lat":41.596557,"lon":1.894388,"k":"x","n":"Calaf"},
+  {"id":666084129,"lat":41.597387,"lon":1.895508,"k":"x","n":"Margarides","ref":"13"},
+  {"id":4161140963,"lat":41.594101,"lon":1.852581,"k":"x","n":"Ctra. C-55 - Can Gomis"},
+  {"id":4161140967,"lat":41.59415,"lon":1.852532,"k":"p","n":"Ctra. C-55 - Can Gomis"},
+  {"id":8984130256,"lat":41.594155,"lon":1.852704,"k":"x","n":"Ctra. C-55 - Can Gomis"},
+  {"id":11096999269,"lat":41.553157,"lon":1.889388,"k":"x","n":"Priorat / Maresme"},
+  {"id":11096999270,"lat":41.553172,"lon":1.889321,"k":"p","n":"Priorat / Maresme"},
+  {"id":11096999271,"lat":41.553902,"lon":1.891098,"k":"x","n":"Piscina"},
+  {"id":11096999272,"lat":41.553947,"lon":1.891094,"k":"p","n":"Piscina"},
+  {"id":11096999273,"lat":41.550303,"lon":1.890107,"k":"p","n":"CC Les Planes"},
+  {"id":11096999274,"lat":41.55035,"lon":1.890104,"k":"x","n":"CC Les Planes"},
+  {"id":13674267497,"lat":41.597406,"lon":1.895574,"k":"p","n":"Margarides","ref":"13"},
+  {"id":13674267498,"lat":41.596545,"lon":1.894274,"k":"p","n":"Calaf"},
+  {"id":13728454760,"lat":41.594113,"lon":1.852763,"k":"p","n":"Ctra. C-55 - Can Gomis"}
+],
+"routes":[
+  {"id":16171757,"t":{"ref":"M2","name":"M2: Urbà d'Olesa de Montserrat","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"DIREXIS TGO","colour":"#0037FF","route":"bus","public_transport:version":"2"},"n":31,"s":[[11096999273,12,15],[11096999272,13],[11096999270,14]]},
+  {"id":20366325,"t":{"ref":"M5","name":"M5: Vacarisses => Terrassa","from":"Vacarisses","to":"Terrassa","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"DIREXIS TGO","colour":"#0037FF","route":"bus","public_transport:version":"2"},"n":24,"s":[[13674267497,4],[13674267498,5]]},
+  {"id":20394202,"t":{"ref":"M10","name":"M10: Autobús urbà de Vacarisses (TAD)","from":"El Ventaiol","to":"El Ventaiol","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"DIREXIS TGO","colour":"#0037FF","route":"bus","public_transport:version":"2"},"n":31,"s":[[13674267498,27],[13674267497,28]]},
+  {"id":20401777,"t":{"ref":"M13","name":"M13: Castellbell i el Vilar => Vacarisses","from":"Castellbell i el Vilar","to":"Vacarisses","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"DIREXIS TGO","colour":"#0037FF","route":"bus","public_transport:version":"2"},"n":22,"s":[[13674267497,12],[13674267498,13]]},
+  {"id":20403633,"t":{"ref":"M13","name":"M13: Vacarisses => Castellbell i el Vilar","from":"Vacarisses","to":"Castellbell i el Vilar","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"DIREXIS TGO","colour":"#0037FF","route":"bus","public_transport:version":"2"},"n":18,"s":[[13674267498,5],[13674267497,6]]},
+  {"id":20458559,"t":{"ref":"758","name":"758 SOD Manresa - Monistrol - Marganell","from":"Manresa","to":"Marganell","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Sagalés","route":"bus","public_transport:version":"2"},"n":12,"s":[[4161140967,6]]},
+  {"id":20458668,"t":{"ref":"750","name":"750 SOD Marganell - Manresa","from":"Marganell","to":"Manresa","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Sagalés","route":"bus","public_transport:version":"2"},"n":10,"s":[[4161140967,6]]},
+  {"id":21161094,"t":{"ref":"e23","name":"e23: Barcelona => Monistrol de Montserrat","from":"Barcelona","to":"Monistrol de Montserrat","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Monbus","colour":"#409183","route":"bus","public_transport:version":"2"},"n":9,"s":[[13728454760,8]]},
+  {"id":21161133,"t":{"ref":"e23","name":"e23: Monistrol de Montserrat => Barcelona","from":"Monistrol de Montserrat","to":"Barcelona","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Monbus","colour":"#409183","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161140967,2]]},
+  {"id":21178663,"t":{"ref":"530","name":"530: Manresa => Monistrol => Olesa => Barcelona","from":"Manresa","to":"Barcelona","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[4161140967,6]]},
+  {"id":21178664,"t":{"ref":"530","name":"530: Barcelona => Olesa => Monistrol => Manresa","from":"Barcelona","to":"Manresa","network":"Autoritat del Transport Metropolità de l'Àrea de Barcelona","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[13728454760,8]]}
+]
+}

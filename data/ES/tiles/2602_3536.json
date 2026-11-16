@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2602,3536],
+"stops":[
+  {"id":7400081720,"lat":40.120068,"lon":-3.15247,"k":"p","n":"Ctra. A3 - Fuentiduela de Tajo","ref":"09853"},
+  {"id":7400081781,"lat":40.117294,"lon":-3.160342,"k":"p","n":"Av. Elena Soriano - Virgen de Alarilla","ref":"09536"},
+  {"id":8316254095,"lat":40.120243,"lon":-3.156156,"k":"p","n":"Comunidad Madrid - Colonia Tierno Galván","ref":"10431"},
+  {"id":8316254096,"lat":40.120266,"lon":-3.156208,"k":"x"},
+  {"id":8316254097,"lat":40.120472,"lon":-3.155981,"k":"x"},
+  {"id":8316254098,"lat":40.120525,"lon":-3.156016,"k":"p","n":"Comunidad Madrid - Colonia Tierno Galván","ref":"16278"},
+  {"id":9902554719,"lat":40.12193,"lon":-3.155381,"k":"p","n":"Ctra. A3 - Fuentidueña de Tajo","ref":"09852"},
+  {"id":12216528574,"lat":40.114365,"lon":-3.166187,"k":"p","n":"Orquídeas - Jazmines","ref":"16733"},
+  {"id":12216528576,"lat":40.117283,"lon":-3.160151,"k":"p","n":"Av. Elena Soriano - Piedra","ref":"16277"},
+  {"id":12337609214,"lat":40.117328,"lon":-3.160297,"k":"x","n":"Av. Elena Soriano - Virgen de Alarilla"},
+  {"id":12337609215,"lat":40.117241,"lon":-3.160204,"k":"x","n":"Av. Elena Soriano - Piedra"}
+],
+"routes":[
+  {"id":7558953,"t":{"ref":"352","name":"Bus 352: Madrid → Fuentidueña → Tarancón","from":"Ronda Atocha - Estación de Autobuses","to":"Est. de Autobuses de Tarancón","network":"Consorcio Regional de Transportes de Madrid","operator":"Empresa Ruiz, S.A.","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":25,"s":[[7400081720,22]]},
+  {"id":11138776,"t":{"ref":"352","name":"Bus 352: Tarancón → Fuentidueña → Madrid","from":"Est. de Autobuses de Tarancón","to":"Ronda Atocha - Estación de Autobuses","network":"Consorcio Regional de Transportes de Madrid","operator":"Empresa Ruiz, S.A.","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":27,"s":[[9902554719,3]]},
+  {"id":12178029,"t":{"ref":"350B","name":"Bus 350B: Fuentidueña → Villarejo → Arganda del Rey (Hospital)","from":"Madrid - Antiguo Cuartel Guardia Civil","to":"Ronda Sur - Hospital del Sureste","network":"Consorcio Regional de Transportes de Madrid","operator":"Empresa Ruiz, S.A.","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":21,"s":[[12216528574,3],[7400081781,4],[8316254095,5]]},
+  {"id":12178030,"t":{"ref":"350B","name":"Bus 350B: Arganda del Rey (Hospital) → Villarejo → Fuentidueña","from":"Ronda Sur - Hospital del Sureste","to":"Madrid - Col. Ntra. Sra. de Albuel","network":"Consorcio Regional de Transportes de Madrid","operator":"Empresa Ruiz, S.A.","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":21,"s":[[8316254098,18],[12216528576,19]]},
+  {"id":18283604,"t":{"ref":"355","name":"Bus 355: Fuentidueña de Tajo → Centro Penitenciario → Estremera","from":"Av. Elena Soriano - Virgen de Alarilla","to":"Don Manuel Martínez Aedo - Colegio","network":"Consorcio Regional de Transportes de Madrid","operator":"Empresa Ruiz, S.A.","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":7,"s":[[7400081781,1],[8316254095,2]]},
+  {"id":18283605,"t":{"ref":"355","name":"Bus 355: Estremera → Centro Penitenciario → Fuentidueña de Tajo","from":"Don Manuel Martínez Aedo - Colegio","to":"Av. Elena Soriano - Piedra","network":"Consorcio Regional de Transportes de Madrid","operator":"Empresa Ruiz, S.A.","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":8,"s":[[12216528576,8]]}
+]
+}

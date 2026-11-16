@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2574,3628],
+"stops":[
+  {"id":3124500656,"lat":38.705787,"lon":1.435006,"k":"p"},
+  {"id":3778041651,"lat":38.706941,"lon":1.430424,"k":"p","n":"Sant Francesc"},
+  {"id":3778100797,"lat":38.734395,"lon":1.41508,"k":"p","n":"Port la Savina"},
+  {"id":8120530383,"lat":38.738037,"lon":1.431827,"k":"p","n":"Ses Salines"},
+  {"id":8120530384,"lat":38.730487,"lon":1.444171,"k":"p","n":"sa Roqueta"},
+  {"id":11945760133,"lat":38.728765,"lon":1.418551,"k":"p","n":"Can Xicu Sort"},
+  {"id":12179192411,"lat":38.705766,"lon":1.434447,"k":"p","n":"Hospital"},
+  {"id":12179192412,"lat":38.714274,"lon":1.426931,"k":"p","n":"Polígon Industrial"},
+  {"id":12851436082,"lat":38.730707,"lon":1.444194,"k":"p"},
+  {"id":12983276216,"lat":38.717662,"lon":1.417693,"k":"p"},
+  {"id":12983276218,"lat":38.71055,"lon":1.404117,"k":"p"},
+  {"id":12983276219,"lat":38.708448,"lon":1.415579,"k":"p"},
+  {"id":12983276220,"lat":38.714064,"lon":1.414981,"k":"p"},
+  {"id":12983276225,"lat":38.705407,"lon":1.421817,"k":"p"},
+  {"id":13162363235,"lat":38.728864,"lon":1.418258,"k":"p"},
+  {"id":13165341803,"lat":38.7141,"lon":1.426854,"k":"p"},
+  {"id":13176595120,"lat":38.746698,"lon":1.432539,"k":"p"}
+],
+"routes":[
+  {"id":11894529,"t":{"ref":"L1","name":"Bus L1 - Port - Es Pujols - Port","from":"Port la Savina","to":"Port la Savina","network":"Bus Formentera","operator":"Paya Autocarres","route":"bus","public_transport:version":"2"},"n":12,"s":[[3778100797,1,12],[8120530383,2],[8120530384,3],[12179192411,8],[3778041651,9],[12179192412,10],[11945760133,11]]},
+  {"id":11894530,"t":{"ref":"L2","name":"L2 El Pilar - Port","route":"bus","public_transport:version":"2"},"n":6,"s":[[3778041651,5],[3778100797,6]]},
+  {"id":13387768,"t":{"ref":"L7","name":"L7 - Illetes -Es Pujols","route":"bus","public_transport:version":"2"},"n":4,"s":[[8120530384,1]]},
+  {"id":13387769,"t":{"ref":"L7","name":"L7 - Es Pujols - Illetes","route":"bus","public_transport:version":"2"},"n":5,"s":[[8120530384,5]]},
+  {"id":13387770,"t":{"ref":"L2","name":"L2 Port- El Pilar","route":"bus","public_transport:version":"2"},"n":7,"s":[[3778100797,1],[3778041651,4]]},
+  {"id":16290506,"t":{"ref":"L5","name":"L5 Cala Saona - Port la Savina","from":"Cala Saona","to":"Port la Savina","route":"bus","public_transport:version":"2"},"n":3,"s":[[3778041651,2],[3778100797,3]]},
+  {"id":16290507,"t":{"ref":"L5","name":"L5 Port la Savina - Cala Saona","from":"Port la Savina","to":"Cala Saona","operator":"busformentera","route":"bus","public_transport:version":"2"},"n":3,"s":[[3778100797,1],[3778041651,2]]},
+  {"id":18049603,"t":{"ref":"L1","name":"Bus L1: Es Pujols - Port la Savina","from":"Es Pujols","to":"Port la Savina","network":"Bus Formentera","operator":"Paya Autocarres","route":"bus","public_transport:version":"2"},"n":8,"s":[[12179192411,4],[3778041651,5],[12179192412,6],[11945760133,7],[3778100797,8]]},
+  {"id":18049604,"t":{"name":"Bus L1: Port la Savina - Es Pujols","from":"Port la Savina","to":"Es Pujols","network":"Bus Formentera","operator":"Paya Autocarres","route":"bus","public_transport:version":"2"},"n":5,"s":[[3778100797,1],[8120530383,2],[8120530384,3]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2644,3633],
+"stops":[
+  {"id":278986755,"lat":42.237024,"lon":1.660346,"k":"x","n":"Gósol (pl. Major, CEIP Santa Margarida)"},
+  {"id":1132681036,"lat":42.220967,"lon":1.678913,"k":"x","n":"Sorribes"},
+  {"id":2034655546,"lat":42.218466,"lon":1.692533,"k":"x","n":"l’Espà (nucli urbà)"},
+  {"id":3473996574,"lat":42.210738,"lon":1.699092,"k":"x","n":"Feners"},
+  {"id":13401746739,"lat":42.236961,"lon":1.660423,"k":"p","n":"Gósol (pl. Major, CEIP Santa Margarida)"},
+  {"id":13401746740,"lat":42.218574,"lon":1.696231,"k":"x","n":"l'Espà"},
+  {"id":13401746741,"lat":42.218549,"lon":1.696141,"k":"p","n":"l'Espà"},
+  {"id":13798453822,"lat":42.221007,"lon":1.678825,"k":"p","n":"Sorribes"},
+  {"id":13799125653,"lat":42.218482,"lon":1.692608,"k":"p","n":"l’Espà (nucli urbà)"},
+  {"id":13799125654,"lat":42.210738,"lon":1.699113,"k":"p","n":"Feners"}
+],
+"routes":[
+  {"id":19999850,"t":{"ref":"GOS","name":"GOS Berga => Gósol","from":"Berga","to":"Gósol","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[13401746741,7],[13401746739,8]]},
+  {"id":19999987,"t":{"ref":"GOS","name":"GOS Gósol=> Berga","from":"Gósol","to":"Berga","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[13401746739,1],[13401746741,2]]},
+  {"id":20111731,"t":{"name":"TDO7 Guardiola de Bergued'a => Gósol","from":"Guardiola de Berguedà","to":"Gósol","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":7,"s":[[13401746741,5],[13798453822,6],[13401746739,7]]},
+  {"id":20111816,"t":{"ref":"TDO7","name":"TDO7 Gósol => Guardiola de Bergued'a","from":"Gósol","to":"Guardiola de Berguedà","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":7,"s":[[13401746739,1],[13798453822,2],[13401746741,3]]},
+  {"id":20631159,"t":{"ref":"L1828","name":"L1828 Tuixent - Guardiola de Berguedà (TAD caps setmana)","from":"Tuixent","to":"Guardiola de Berguedà","route":"bus","public_transport:version":"2"},"n":10,"s":[[13401746739,3],[13798453822,4],[13799125653,5],[13799125654,6]]},
+  {"id":20631173,"t":{"ref":"L1828","name":"L1828 Guardiola de Berguedà - Tuixent (TAD caps setmana)","from":"Guardiola de Berguedà","to":"Tuixent","route":"bus","public_transport:version":"2"},"n":10,"s":[[13799125654,5],[13799125653,6],[13798453822,7],[13401746739,8]]}
+]
+}

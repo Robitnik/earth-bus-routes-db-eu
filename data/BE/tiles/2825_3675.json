@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2825,3675],
+"stops":[
+  {"id":3794323301,"lat":51.282014,"lon":3.762145,"k":"p","n":"Dorp"},
+  {"id":3794323302,"lat":51.282045,"lon":3.762275,"k":"p","n":"Dorp"},
+  {"id":4969172203,"lat":51.282014,"lon":3.762214,"k":"x","n":"Philippine, Dorp"},
+  {"id":4969172204,"lat":51.282046,"lon":3.762216,"k":"x","n":"Philippine, Dorp"},
+  {"id":12174759515,"lat":51.283074,"lon":3.755361,"k":"x","n":"Philippine, Sportpark Bermpje"},
+  {"id":14124575544,"lat":51.283017,"lon":3.755331,"k":"p","n":"Sportpark Bermpje"}
+],
+"routes":[
+  {"id":5602123,"t":{"ref":"601","name":"Bus 601: Terneuzen Rooseveltlaan => Zandstraat Zandstraat","from":"Terneuzen, Rooseveltlaan","to":"Zandstraat, Zandstraat","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":2,"s":[[3794323301,1]]},
+  {"id":5602124,"t":{"ref":"601","name":"Bus 601: Zandstraat Zandstraat => Terneuzen Rooseveltlaan","from":"Zandstraat, Zandstraat","to":"Terneuzen, Rooseveltlaan","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":2,"s":[[3794323302,2]]},
+  {"id":7393567,"t":{"ref":"511","name":"Bus 511: Terneuzen Busstation WST => Sas van Gent Suikerplein","from":"Terneuzen, Busstation Westerscheldetunnel","to":"Sas van Gent, Suikerplein","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":4,"s":[[3794323301,1]]},
+  {"id":7393568,"t":{"ref":"511","name":"Bus 511: Sas van Gent Suikerplein => Terneuzen Busstation","from":"Sas van Gent, Suikerplein","to":"Terneuzen, Busstation Westerscheldetunnel","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":4,"s":[[3794323302,4]]},
+  {"id":21275649,"t":{"name":"Zeeland Flex","network":"Zeeland","operator":"Connexxion","route":"bus","public_transport:version":"2"},"n":79,"s":[[3794323301,43],[14124575544,44]]}
+]
+}

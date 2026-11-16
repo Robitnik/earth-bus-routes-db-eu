@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2753,3994],
+"stops":[
+  {"id":3479961349,"lat":47.666187,"lon":19.700911,"k":"p","n":"Temető"},
+  {"id":5726860469,"lat":47.666789,"lon":19.707155,"k":"p","n":"Szolnoki útelágazás"},
+  {"id":5726860499,"lat":47.673024,"lon":19.700777,"k":"p","n":"Hegyalja út"},
+  {"id":5726860527,"lat":47.666056,"lon":19.7023,"k":"p","n":"Temető"},
+  {"id":8179646605,"lat":47.664631,"lon":19.712504,"k":"p","n":"Hatvan, Vásártér"},
+  {"id":8179646606,"lat":47.664564,"lon":19.712367,"k":"p","n":"Hatvan, Vásártér"}
+],
+"routes":[
+  {"id":8415895,"t":{"ref":"9","name":"9: BOSCH Üzem => Kossuth tér => Szolnoki útelágazás","from":"BOSCH Üzem","to":"Szolnoki útelágazás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[5726860527,9],[5726860469,10]]},
+  {"id":8415899,"t":{"ref":"9","name":"9: BOSCH 2. kapu => BOSCH Üzem => Teleki utca -> Kossuth tér => Szolnoki útelágazás","from":"BOSCH 2. kapu","to":"Szolnoki útelágazás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":16,"s":[[5726860527,15],[5726860469,16]]},
+  {"id":8415914,"t":{"ref":"4","name":"4: Vasútállomás => Autóbusz-pályaudvar => Hegyalja út","from":"Vasútállomás","to":"Hegyalja út","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":9,"s":[[5726860499,9]]},
+  {"id":8415915,"t":{"ref":"4","name":"4: BOSCH 2. kapu => Hegyalja út","from":"BOSCH 2. kapu","to":"Hegyalja út","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[5726860499,13]]},
+  {"id":8415916,"t":{"ref":"4","name":"4: Hegyalja út => Autóbusz-pályaudvar => Vasútállomás","from":"Hegyalja út","to":"Vasútállomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[5726860499,1]]},
+  {"id":8415925,"t":{"ref":"9","name":"9: Vasútállomás => Autóbusz-pályaudvar => Szolnoki útelágazás","from":"Vasútállomás","to":"Szolnoki útelágazás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":8,"s":[[5726860527,7],[5726860469,8]]},
+  {"id":8415926,"t":{"ref":"1","name":"1: Szolnoki útelágazás => Autóbusz-pályaudvar => Vasútállomás => Volán-telep => Tesco áruház","from":"Szolnoki útelágazás","to":"Tesco áruház","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":12,"s":[[5726860469,1],[3479961349,2]]},
+  {"id":8415929,"t":{"ref":"9","name":"9: Szolnoki útelágazás => Autóbusz-pályaudvar => Vasútállomás","from":"Szolnoki útelágazás","to":"Vasútállomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":8,"s":[[5726860469,1],[3479961349,2]]},
+  {"id":8415930,"t":{"ref":"1","name":"1: Tesco áruház => Vasútállomás => Autóbusz-pályaudvar => Szolnoki útelágazás","from":"Tesco áruház","to":"Szolnoki útelágazás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":12,"s":[[5726860527,11],[5726860469,12]]},
+  {"id":8416005,"t":{"ref":"9","name":"9: Szolnoki útelágazás => BOSCH Üzem => BOSCH 2. kapu","from":"Szolnoki útelágazás","to":"BOSCH 2. kapu","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":12,"s":[[5726860469,1],[3479961349,2]]},
+  {"id":8416006,"t":{"ref":"9","name":"9: Szolnoki útelágazás => Teleki utca => BOSCH Üzem => BOSCH 2. kapu","from":"Szolnoki útelágazás","to":"BOSCH 2. kapu","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[5726860469,1],[3479961349,2]]},
+  {"id":8416017,"t":{"ref":"4","name":"4: Hegyalja út => BOSCH 2. kapu","from":"Hegyalja út","to":"BOSCH 2. kapu","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":14,"s":[[5726860499,1]]},
+  {"id":8416023,"t":{"ref":"4A","name":"4A: Autóbusz-pályaudvar => Hegyalja út => Szolnoki útelágazás => Autóbusz-pályaudvar","from":"Autóbusz-pályaudvar","to":"Autóbusz-pályaudvar","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[5726860499,11],[5726860469,12],[3479961349,13]]},
+  {"id":9502664,"t":{"ref":"4A","name":"4A: Hegyalja út => Autóbusz-pályaudvar","from":"Hegyalja út","to":"Autóbusz-pályaudvar","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[5726860499,1]]}
+]
+}

@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2742,3977],
+"stops":[
+  {"id":1428595038,"lat":47.1143,"lon":18.896334,"k":"p","n":"Lórév, községháza"},
+  {"id":3162612776,"lat":47.139969,"lon":18.86159,"k":"p","n":"Iváncsa, iváncsai elágazás"},
+  {"id":3162618075,"lat":47.141011,"lon":18.861472,"k":"p","n":"Iváncsa, iváncsai elágazás"},
+  {"id":3162618334,"lat":47.122687,"lon":18.867935,"k":"p","n":"Adony, Kossuth Lajos utca"},
+  {"id":3162618335,"lat":47.122927,"lon":18.867732,"k":"p","n":"Adony, Kossuth Lajos utca"},
+  {"id":3374151980,"lat":47.117711,"lon":18.896206,"k":"p","n":"Lórév, adonyi rév elágazás","ref":"Lórév, adonyi elágazás"},
+  {"id":3374151981,"lat":47.118705,"lon":18.896348,"k":"p","n":"Lórév, adonyi rév elágazás","ref":"Lórév, adonyi rév elágazás"},
+  {"id":3454477875,"lat":47.114719,"lon":18.869767,"k":"p","n":"Adony, Kinizsi utca"},
+  {"id":3454479303,"lat":47.119006,"lon":18.866217,"k":"p","n":"Adony, városháza"},
+  {"id":3454479305,"lat":47.121617,"lon":18.855651,"k":"p"},
+  {"id":5465188719,"lat":47.119905,"lon":18.865855,"k":"p","n":"Adony, városháza"},
+  {"id":9828070305,"lat":47.14059,"lon":18.860839,"k":"p","n":"Iváncsa, iváncsai elágazás"},
+  {"id":9828733989,"lat":47.114447,"lon":18.869793,"k":"p","n":"Adony, Kinizsi utca"},
+  {"id":13593229682,"lat":47.119742,"lon":18.864981,"k":"p","n":"Adony, városháza"}
+],
+"routes":[
+  {"id":4230022,"t":{"ref":"697","name":"697 \"A\": Ráckeve, HÉV-állomás => Makád, községháza => Lórév, községháza","from":"Ráckeve, HÉV-állomás","to":"Lórév, községháza","network":"regional","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":16,"s":[[3374151980,15],[1428595038,16]]},
+  {"id":4230023,"t":{"ref":"697","name":"697 \"A\" v: Lórév, községháza => Makád, községháza => Ráckeve, HÉV-állomás","from":"Lórév, községháza","to":"Ráckeve, HÉV-állomás","network":"regional","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":14,"s":[[1428595038,1]]},
+  {"id":4230024,"t":{"ref":"698","name":"698: Ráckeve, HÉV-állomás => Lórév, községháza","from":"Ráckeve, HÉV-állomás","to":"Lórév, községháza","network":"regional","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":11,"s":[[3374151980,10],[1428595038,11]]},
+  {"id":4230025,"t":{"ref":"698","name":"698 v: Lórév, községháza => Ráckeve, HÉV-állomás","from":"Lórév, községháza","to":"Ráckeve, HÉV-állomás","network":"regional","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":10,"s":[[1428595038,1],[3374151981,2]]},
+  {"id":8093316,"t":{"ref":"705","name":"705 \"A\" v: Adony, városháza => Ercsi, Dózsa György út => Budapest, Népliget autóbusz-pályaudvar","from":"Adony, városháza","to":"Budapest, Népliget autóbusz-pályaudvar","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":13,"s":[[5465188719,1],[3162618075,2]]},
+  {"id":8093318,"t":{"ref":"705","name":"705 \"A\": Budapest, Népliget autóbusz-pályaudvar => Ercsi, Dózsa György út => Adony, városháza","from":"Budapest, Népliget autóbusz-pályaudvar","to":"Adony, városháza","network":"Volánbusz","operator":"Volánbusz","colour":"#FBE143","route":"bus","public_transport:version":"2"},"n":12,"s":[[3162612776,11],[3454479303,12]]},
+  {"id":14265046,"t":{"ref":"8236","name":"8236 \"A\": Dunaújváros, Autóbusz-állomás => Besnyő, Rákóczi Ferenc utca","from":"Dunaújváros, Autóbusz-állomás","to":"Besnyő, Rákóczi Ferenc utca","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":31,"s":[[3454477875,12],[5465188719,13],[3162618334,14],[9828070305,15]]},
+  {"id":14266111,"t":{"ref":"8236","name":"8236 \"A\": Besnyő, Rákóczi Ferenc utca => Dunaújváros, Autóbusz-állomás","from":"Besnyő, Rákóczi Ferenc utca","to":"Dunaújváros, Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":27,"s":[[3162612776,14],[3162618335,15],[3454479303,16],[9828733989,17]]},
+  {"id":14271973,"t":{"ref":"1120","name":"1120 \"A\": Budapest, Népliget autóbusz-pályaudvar => Dunaújváros, autóbusz-állomás","from":"Budapest, Népliget autóbusz-pályaudvar","to":"Dunaújváros, autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[3162612776,10],[3454479303,11]]},
+  {"id":14272596,"t":{"ref":"1120","name":"1120 \"A\": Dunaújváros, autóbusz-állomás => Budapest, Népliget autóbusz-pályaudvar","from":"Dunaújváros, autóbusz-állomás","to":"Budapest, Népliget autóbusz-pályaudvar","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[5465188719,7],[3162618075,8]]}
+]
+}

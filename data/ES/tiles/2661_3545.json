@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2661,3545],
+"stops":[
+  {"id":691029996,"lat":43.098726,"lon":-2.749689,"k":"x","n":"Plaza auzoa","ref":"2927"},
+  {"id":728372370,"lat":43.088389,"lon":-2.739722,"k":"x","n":"Alzusta","ref":"2926"},
+  {"id":1500310481,"lat":43.094365,"lon":-2.716579,"k":"x","n":"Makaztui","ref":"4078"},
+  {"id":2068979877,"lat":43.094038,"lon":-2.716377,"k":"x","n":"Makaztui","ref":"4077"},
+  {"id":7124836755,"lat":43.094366,"lon":-2.716498,"k":"p","n":"Makaztui","ref":"4078"},
+  {"id":7124836756,"lat":43.093996,"lon":-2.7164,"k":"p","n":"Makaztui","ref":"4077"},
+  {"id":7125103151,"lat":43.088442,"lon":-2.739708,"k":"p","n":"Alzusta","ref":"2926"},
+  {"id":7125103843,"lat":43.098757,"lon":-2.749601,"k":"p","n":"Plaza auzoa","ref":"2927"},
+  {"id":7125103844,"lat":43.098468,"lon":-2.749707,"k":"p","n":"Plaza auzoa","ref":"3013"},
+  {"id":8357000487,"lat":43.065644,"lon":-2.71155,"k":"x","n":"Barazar","ref":"4081"},
+  {"id":8357000488,"lat":43.065728,"lon":-2.711483,"k":"p","n":"Barazar","ref":"4081"},
+  {"id":8358820394,"lat":43.098473,"lon":-2.749612,"k":"x","n":"Plaza auzoa","ref":"3013"}
+],
+"routes":[
+  {"id":12227570,"t":{"ref":"A3925","name":"A3925 Bilbao → Lemoa → Otxandio → Ubide","from":"Bilbao","to":"Ubide","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":52,"s":[[7124836756,42]]},
+  {"id":12227669,"t":{"ref":"A3925","name":"A3925 Ubide → Otxandio → Lemoa → Bilbao","from":"Ubide","to":"Bilbao","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":55,"s":[[7124836755,11]]},
+  {"id":12228982,"t":{"ref":"A3925","name":"A3925 Ubide → Barazar → Otxandio → Lemoa → Bilbao","from":"Ubide","to":"Bilbao","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":56,"s":[[8357000488,2],[7124836755,12]]},
+  {"id":12228983,"t":{"ref":"A3925","name":"A3925 Bilbao → Lemoa → Otxandio → Barazar → Ubide","from":"Bilbao","to":"Ubide","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":53,"s":[[7124836756,42],[8357000488,52]]},
+  {"id":12228984,"t":{"ref":"A3925","name":"A3925 Otxandio → Lemoa → Bilbao","from":"Otxandio","to":"Bilbao","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":50,"s":[[7124836755,6]]},
+  {"id":12228985,"t":{"ref":"A3925","name":"A3925 Bilbao → Lemoa → Otxandio","from":"Bilbao","to":"Ubide","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":47,"s":[[7124836756,42]]},
+  {"id":12230402,"t":{"ref":"A3917","name":"A3917 Bilbao → Hospital Galdakao / Ospitalea → Lemoa → Zeanuri","from":"Bilbao","to":"Zeanuri","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":44,"s":[[7125103844,43],[7125103151,44]]},
+  {"id":12230417,"t":{"ref":"A3917","name":"A3917 Zeanuri → Lemoa → Hospital Galdakao / Ospitalea → Bilbao","from":"Zeanuri","to":"Bilbao","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":46,"s":[[7125103151,1],[7125103843,2]]},
+  {"id":12230472,"t":{"ref":"A3927","name":"A3927 Bilbao → Lemoa → Zeanuri (autopista)","from":"Bilbao","to":"Zeanuri","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":29,"s":[[7125103844,28],[7125103151,29]]},
+  {"id":12230490,"t":{"ref":"A3927","name":"A3927 Zeanuri → Lemoa → Bilbao (autopista)","from":"Zeanuri","to":"Bilbao","network":"Bizkaibus","operator":"PESA Lur S.A.","route":"bus","public_transport:version":"2"},"n":29,"s":[[7125103151,1],[7125103843,2]]}
+]
+}

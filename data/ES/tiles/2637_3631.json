@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2637,3631],
+"stops":[
+  {"id":1436015359,"lat":41.890185,"lon":1.564804,"k":"x","n":"Su"},
+  {"id":1714836205,"lat":41.899562,"lon":1.578769,"k":"x","n":"Trullàs (camí de Trullàs)"},
+  {"id":1714836209,"lat":41.89963,"lon":1.578805,"k":"x","n":"Trullàs (ctra. de Freixinet)"},
+  {"id":12101475061,"lat":41.890127,"lon":1.564712,"k":"p","n":"Su"},
+  {"id":13793348547,"lat":41.899636,"lon":1.578751,"k":"p","n":"Trullàs (ctra. de Freixinet)"},
+  {"id":13793348548,"lat":41.899497,"lon":1.578809,"k":"p","n":"Trullàs (camí de Trullàs)"}
+],
+"routes":[
+  {"id":17923209,"t":{"ref":"L1704","name":"L1704 Solsona - Su","from":"Solsona","to":"Su","route":"bus","public_transport:version":"2"},"n":5,"s":[[12101475061,5]]},
+  {"id":17923238,"t":{"ref":"L1704","name":"L1704 Su - Solsona","from":"Su","to":"Solsona","route":"bus","public_transport:version":"2"},"n":5,"s":[[12101475061,1]]},
+  {"id":20622282,"t":{"ref":"L1701","name":"L1701 Solsona - Ardèvol - la Molsosa - Enfesta","from":"Solsona","to":"Enfesta","route":"bus","public_transport:version":"2"},"n":12,"s":[[13793348547,4],[12101475061,5]]},
+  {"id":20622392,"t":{"ref":"L1701","name":"L1701 Enfesta - la Molsosa - Ardèvol - Solsona","from":"Enfesta","to":"Solsona","route":"bus","public_transport:version":"2"},"n":12,"s":[[12101475061,8],[13793348548,9]]},
+  {"id":20622494,"t":{"ref":"L1702","name":"L1702 Solsona - la Molsosa - el Miracle - Solsona","from":"Solsona","to":"Enfesta","route":"bus","public_transport:version":"2"},"n":13,"s":[[12101475061,6]]},
+  {"id":20622601,"t":{"ref":"L1702","name":"L1702 Enfesta - la Molsosa - el Miracle - Solsona","from":"Enfesta","to":"Solsona","route":"bus","public_transport:version":"2"},"n":13,"s":[[12101475061,8]]},
+  {"id":20622744,"t":{"ref":"L0036","name":"L0036 Solsona - Ardèvol","from":"Solsona","to":"Ardèvol","route":"bus","public_transport:version":"2"},"n":4,"s":[[12101475061,3]]},
+  {"id":20622763,"t":{"ref":"L0036","name":"L0036 Ardèvol - Solsona","from":"Ardèvol","to":"Solsona","route":"bus","public_transport:version":"2"},"n":4,"s":[[12101475061,2]]}
+]
+}

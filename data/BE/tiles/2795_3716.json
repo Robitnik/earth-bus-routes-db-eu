@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2795,3716],
+"stops":[
+  {"id":1229561063,"lat":49.757903,"lon":5.826577,"k":"x","n":"Colpach-Bas, Schlass"},
+  {"id":3079147769,"lat":49.754398,"lon":5.806759,"k":"p","n":"Grendel Chapelle"},
+  {"id":3079147770,"lat":49.754547,"lon":5.806452,"k":"p","n":"Grendel Chapelle"},
+  {"id":3079147775,"lat":49.752111,"lon":5.807439,"k":"p","n":"Grendel Rue de Tontelange"},
+  {"id":3079147776,"lat":49.752012,"lon":5.807429,"k":"p","n":"Grendel Rue de Tontelange"},
+  {"id":4281045578,"lat":49.757884,"lon":5.826628,"k":"p","n":"Colpach-Bas, Schlass"},
+  {"id":4281045579,"lat":49.757927,"lon":5.826505,"k":"p","n":"Colpach-Bas, Schlass"},
+  {"id":4281051678,"lat":49.767477,"lon":5.819571,"k":"p","n":"Colpach-Haut, Pompjeesbau"},
+  {"id":4281051679,"lat":49.767573,"lon":5.81935,"k":"p","n":"Colpach-Haut, Pompjeesbau"},
+  {"id":4281051680,"lat":49.778816,"lon":5.810641,"k":"p","n":"Petit-Nobressart, Am Pesch"},
+  {"id":4281051681,"lat":49.778943,"lon":5.810721,"k":"p","n":"Petit-Nobressart, Am Pesch"},
+  {"id":10776431426,"lat":49.754488,"lon":5.80642,"k":"p","n":"Grendel Chapelle"}
+],
+"routes":[
+  {"id":6551880,"t":{"ref":"950","name":"RGTR 950: Arlon, Square Astrid => Ettelbruck, Gare","from":"Arlon Square Astrid - Rue de Bastogne","to":"Ettelbruck, Gare routière","network":"RGTR","operator":"Voyages Koob;Voyages Schmit;Demy Schandeler","colour":"#C79227","route":"bus","public_transport:version":"2"},"n":8,"s":[[4281045578,8]]},
+  {"id":7474577,"t":{"ref":"950","name":"RGTR 950: Ettelbruck, Gare => Arlon, Place des Chasseurs Ardennais","from":"Ettelbruck, Gare routière","to":"Arlon Place des Chasseurs Ardennais","network":"RGTR","operator":"Voyages Koob;Voyages Schmit;Demy Schandeler","colour":"#C79227","route":"bus","public_transport:version":"2"},"n":8,"s":[[4281045579,1]]},
+  {"id":8448052,"t":{"ref":"901","name":"RGTR 901: Martelange, Gare => Luxembourg, Stäreplaz / Étoile","from":"Martelange, Gare","to":"Luxembourg, Stäreplaz / Étoile","network":"RGTR","operator":"Sales-Lentz","colour":"#1FBCE1","route":"bus","public_transport:version":"2"},"n":16,"s":[[4281051680,14],[4281051679,15],[4281045578,16]]},
+  {"id":8448053,"t":{"ref":"901","name":"RGTR 901: Luxembourg, Stäreplaz / Étoile => Martelange, Gare","from":"Luxembourg, Stäreplaz / Étoile","to":"Martelange, Gare","network":"RGTR","operator":"Sales-Lentz","colour":"#1FBCE1","route":"bus","public_transport:version":"2"},"n":16,"s":[[4281045579,1],[4281051678,2],[4281051681,3]]},
+  {"id":18661137,"t":{"ref":"291","name":"Bus 291: Tintange Église → Arlon Gare","from":"Tintange Église","to":"Arlon Gare","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":36,"s":[[3079147769,19],[3079147776,20]]},
+  {"id":18678121,"t":{"ref":"291","name":"Bus 291: Arlon Athénée → Martelange Dépôt TEC","from":"Arlon Athénée","to":"Martelange Dépôt TEC","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":47,"s":[[3079147775,29],[3079147770,30]]},
+  {"id":18678217,"t":{"ref":"291","name":"Bus 291: Arlon Athénée → Martelange Rue de la Frontière","from":"Arlon Athénée","to":"Martelange Rue de la Frontière","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":51,"s":[[3079147775,29],[3079147770,30]]},
+  {"id":18678655,"t":{"ref":"291","name":"Bus 291: Arlon Clinique → Martelange Rue de la Frontière","from":"Arlon Clinique","to":"Martelange Rue de la Frontière","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":47,"s":[[3079147775,26],[3079147770,27]]},
+  {"id":18680406,"t":{"ref":"291","name":"Bus 291: Arlon Clinique → Martelange Dépôt TEC","from":"Arlon Clinique","to":"Martelange Dépôt TEC","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":44,"s":[[3079147775,26],[3079147770,27]]},
+  {"id":18725141,"t":{"ref":"565","name":"Bus 565: Metzert Rue Neuve 60 → Habay-la-Neuve Saint-Benoît","from":"Metzert Rue Neuve 60","to":"Habay-la-Neuve Saint-Benoît","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":32,"s":[[10776431426,12]]},
+  {"id":18725142,"t":{"ref":"565","name":"Bus 565: Habay-la-Neuve Saint-Benoît → Metzert Carrefour","from":"Habay-la-Neuve Saint-Benoît","to":"Metzert Carrefour","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":32,"s":[[10776431426,25]]}
+]
+}

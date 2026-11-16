@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2612,3533],
+"stops":[
+  {"id":4340470892,"lat":40.631635,"lon":-3.335215,"k":"p","n":"Valdeavero - Fragua","ref":"09802"},
+  {"id":8243916220,"lat":40.631654,"lon":-3.335182,"k":"x"},
+  {"id":9362607630,"lat":40.646248,"lon":-3.338275,"k":"p","n":"Ctra. Alcalá - Torrejón del Rey","ref":"18827"},
+  {"id":9362607631,"lat":40.6462,"lon":-3.336517,"k":"p"},
+  {"id":10079879104,"lat":40.62109,"lon":-3.345234,"k":"p","n":"Ctra. M119 - Urb. La Cardosa","ref":"10068"},
+  {"id":10698154500,"lat":40.636602,"lon":-3.316247,"k":"p"},
+  {"id":12260743134,"lat":40.642107,"lon":-3.338179,"k":"p","n":"Ctra. Alcalá - Urb. de las Eras","ref":"19259"},
+  {"id":12260743135,"lat":40.641981,"lon":-3.337979,"k":"p","n":"Ctra. Alcalá - Urb. de las Eras","ref":"19258"},
+  {"id":12260743182,"lat":40.646152,"lon":-3.338428,"k":"p","n":"Ctra. Alcalá - Torrejón del Rey","ref":"15842"},
+  {"id":13744490268,"lat":40.638083,"lon":-3.307929,"k":"p"}
+],
+"routes":[
+  {"id":6475380,"t":{"ref":"256","name":"Bus 256: Madrid (Canillejas) → Daganzo → Valdeavero","network":"Consorcio Regional de Transportes de Madrid","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":3,"s":[[4340470892,3]]},
+  {"id":7903071,"t":{"ref":"255","name":"Bus 255: Alcalá de Henares → Valdeavero","network":"ES:M","operator":"ALSA","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":5,"s":[[4340470892,5]]},
+  {"id":9102881,"t":{"ref":"256","name":"Bus 256: Valdeavero → Daganzo → Madrid (Canillejas)","from":"Valdeavero - Fragua","to":"Canillejas - Area Intermodal","network":"Alsa","operator":"Alsa","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":5,"s":[[4340470892,1],[12260743135,2],[9362607630,3]]},
+  {"id":12045218,"t":{"ref":"255","name":"Bus 255: Valdeavero → Alcalá de Henares","network":"Alsa","operator":"ALSA","colour":"#4AB747","route":"bus","public_transport:version":"2"},"n":4,"s":[[4340470892,1]]}
+]
+}

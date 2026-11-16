@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"BE",
+"tile":[2810,3682],
+"stops":[
+  {"id":1304780342,"lat":50.501981,"lon":4.111667,"k":"p","n":"Le Rœulx Centre"},
+  {"id":1304780344,"lat":50.500755,"lon":4.117786,"k":"p","n":"Le Rœulx Cimetière"},
+  {"id":1305554100,"lat":50.501176,"lon":4.116639,"k":"p","n":"Le Rœulx Cimetière"},
+  {"id":1305554106,"lat":50.502575,"lon":4.107261,"k":"p","n":"Le Rœulx Église"},
+  {"id":1305554108,"lat":50.502052,"lon":4.111208,"k":"p","n":"Le Rœulx Centre"},
+  {"id":2125570839,"lat":50.505845,"lon":4.111022,"k":"p","n":"Le Rœulx Poste"},
+  {"id":2139423192,"lat":50.512266,"lon":4.101225,"k":"p","n":"Le Rœulx Montauban"},
+  {"id":3039203198,"lat":50.516962,"lon":4.105112,"k":"p","n":"Le Rœulx Avenue du Petit Château"},
+  {"id":3039203199,"lat":50.502446,"lon":4.111196,"k":"p","n":"Le Rœulx Centre"},
+  {"id":3039203200,"lat":50.512425,"lon":4.107222,"k":"p","n":"Le Rœulx Clos des Princes"},
+  {"id":3039203201,"lat":50.506003,"lon":4.110695,"k":"p","n":"Le Rœulx Poste"},
+  {"id":3039203204,"lat":50.50252,"lon":4.107387,"k":"p","n":"Le Rœulx Église"},
+  {"id":3086650291,"lat":50.503855,"lon":4.147404,"k":"p","n":"Houdeng-Gœgnies Chapelle du Bois"},
+  {"id":3086650292,"lat":50.504223,"lon":4.147266,"k":"p","n":"Houdeng-Gœgnies Chapelle du Bois"},
+  {"id":3086650306,"lat":50.500094,"lon":4.145666,"k":"p","n":"Houdeng-Gœgnies Petit Sentier"},
+  {"id":3086650307,"lat":50.500437,"lon":4.145804,"k":"p","n":"Houdeng-Gœgnies Petit Sentier"},
+  {"id":3086650312,"lat":50.502368,"lon":4.146702,"k":"p","n":"Houdeng-Gœgnies Pont de l'État"},
+  {"id":3086650313,"lat":50.50257,"lon":4.146717,"k":"p","n":"Houdeng-Gœgnies Pont de l'État"},
+  {"id":3086650788,"lat":50.520474,"lon":4.149383,"k":"p","n":"Mignault Ferme du Coron"},
+  {"id":3086650789,"lat":50.520688,"lon":4.149571,"k":"p","n":"Mignault Ferme du Coron"},
+  {"id":13614097053,"lat":50.512333,"lon":4.107295,"k":"x"}
+],
+"routes":[
+  {"id":11652123,"t":{"ref":"18","name":"Bus 18: Le Rœulx Montauban → Mons SNCB","from":"Le Rœulx Montauban","to":"Mons SNCB","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":38,"s":[[2139423192,1],[3039203198,2],[3039203200,3],[3039203201,4],[1305554106,5]]},
+  {"id":11655613,"t":{"ref":"18","name":"Bus 18: Mons SNCB → Le Rœulx Clos des Princes","from":"Mons SNCB","to":"Le Rœulx Clos des Princes","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":42,"s":[[3039203204,38],[2125570839,39],[2139423192,40],[3039203198,41],[3039203200,42]]},
+  {"id":11721817,"t":{"ref":"32","name":"Bus 32: Maurage Cité Marie-José → Le Rœulx Centre","from":"Maurage Cité Marie-José","to":"Le Rœulx Centre","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":20,"s":[[1304780342,20]]},
+  {"id":11726194,"t":{"ref":"32","name":"Bus 32: Le Rœulx Centre → Maurage Cité Marie-José","from":"Le Rœulx Centre","to":"Maurage Cité Marie-José","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":20,"s":[[1305554108,1]]},
+  {"id":11839738,"t":{"ref":"107","name":"Bus 107: Écaussinnes Gare → Jolimont Hôpital","from":"Écaussinnes Gare","to":"Jolimont Hôpital","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":36,"s":[[3086650788,12],[3086650292,14],[3086650313,15],[3086650306,16]]},
+  {"id":11843405,"t":{"ref":"107","name":"Bus 107: Jolimont Hôpital → Écaussinnes Gare","from":"Jolimont Hôpital","to":"Écaussinnes Gare","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":37,"s":[[3086650307,21],[3086650312,22],[3086650291,23],[3086650789,25]]},
+  {"id":11847646,"t":{"ref":"134","name":"Bus 134: Soignies Rond-Point → Jolimont Hôpital","from":"Soignies Rond-Point","to":"Jolimont Hôpital","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":41,"s":[[3039203201,20],[1304780342,21],[1304780344,22]]},
+  {"id":11863961,"t":{"ref":"134","name":"Bus 134: Jolimont Hôpital → Soignies Rond-Point","from":"Jolimont Hôpital","to":"Soignies Rond-Point","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":41,"s":[[1305554100,20],[3039203199,21],[2125570839,22],[2139423192,23]]},
+  {"id":21102493,"t":{"ref":"134","name":"Bus 134: Soignies Hôpital (Ch. de Braine) → La Louvière Tivoli","from":"Soignies Hôpital","to":"La Louvière Tivoli","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":37,"s":[[3039203201,18],[1304780342,19],[1304780344,20]]},
+  {"id":21102498,"t":{"ref":"134","name":"Bus 134: La Louvière Carrefour du Gazomètre → Soignies Rond-Point","from":"La Louvière Carrefour du Gazomètre","to":"Soignies Rond-Point","network":"TECH","operator":"TEC","route":"bus","public_transport:version":"2"},"n":28,"s":[[1305554100,12],[3039203199,13],[2125570839,14],[2139423192,15]]}
+]
+}

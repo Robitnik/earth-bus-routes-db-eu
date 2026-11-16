@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2732,3931],
+"stops":[
+  {"id":3468083324,"lat":46.620815,"lon":16.573392,"k":"p","n":"Lenti (Lentiszombathely), Szombathelyi út"},
+  {"id":3468083325,"lat":46.617118,"lon":16.580989,"k":"p","n":"Lenti (Lentiszombathely), iskola"},
+  {"id":3468083332,"lat":46.625908,"lon":16.566963,"k":"p","n":"Lenti (Mumor), Damjanich utca 51."},
+  {"id":3468083333,"lat":46.62903,"lon":16.56232,"k":"p","n":"Lenti (Mumor), Törpe Csárda"},
+  {"id":5676431129,"lat":46.604726,"lon":16.550328,"k":"p","n":"Lenti, Lentihegy elágazás"},
+  {"id":5690657598,"lat":46.620437,"lon":16.574355,"k":"p","n":"Lenti (Lentiszombathely), Szombathelyi út"},
+  {"id":7443942158,"lat":46.61692,"lon":16.580784,"k":"p","n":"Lenti (Lentiszombathely), iskola"},
+  {"id":7443942159,"lat":46.625863,"lon":16.566875,"k":"p","n":"Lenti (Mumor), Damjanich utca 51."},
+  {"id":7443942160,"lat":46.63991,"lon":16.596891,"k":"p","n":"Lenti, Zajda bejárati út"},
+  {"id":7443942161,"lat":46.639828,"lon":16.596882,"k":"p","n":"Lenti, Zajda bejárati út"},
+  {"id":7443942162,"lat":46.629,"lon":16.562561,"k":"p","n":"Lenti (Mumor), Törpe Csárda"},
+  {"id":7443942163,"lat":46.633628,"lon":16.563974,"k":"p","n":"Lenti (Mumor), harangláb"},
+  {"id":7443942164,"lat":46.633444,"lon":16.563964,"k":"p","n":"Lenti (Mumor), harangláb"},
+  {"id":7443942165,"lat":46.649191,"lon":16.576873,"k":"p","n":"Lenti (Bárszentmihályfa), Kölcsey utca 27."},
+  {"id":7443942166,"lat":46.649211,"lon":16.576944,"k":"p","n":"Lenti (Bárszentmihályfa), Kölcsey utca 27."}
+],
+"routes":[
+  {"id":5665851,"t":{"ref":"1","name":"1 => Autóbusz-állomás","from":"Zajda, bejárati út","to":"Autóbusz-állomás","route":"bus","public_transport:version":"2"},"n":3,"s":[[7443942160,1],[3468083333,2]]},
+  {"id":9453928,"t":{"ref":"90","name":"90 => Lentiszombathely, iskola","from":"Autóbusz-állomás","to":"Lentiszombathely, iskola","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":5,"s":[[7443942162,2],[7443942159,3],[5690657598,4],[7443942158,5]]},
+  {"id":9453940,"t":{"ref":"90","name":"90 => Bánffy úti óvoda => Autóbusz-állomás","from":"Lentiszombathely, iskola","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":6,"s":[[3468083325,1],[3468083324,2],[3468083332,3],[3468083333,4]]},
+  {"id":9453947,"t":{"ref":"1","name":"1 => Bárszentmihályfa, sportpálya => Autóbusz-állomás","from":"Zajda, bejárati út","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":10,"s":[[7443942160,1],[7443942163,2],[7443942166,3],[7443942165,7],[7443942164,8],[3468083333,9]]},
+  {"id":9472607,"t":{"ref":"1","name":"1 => Bánffy úti óvoda => Autóbusz-állomás","from":"Zajda, bejárati út","to":"Autóbusz-állomás","route":"bus","public_transport:version":"2"},"n":4,"s":[[7443942160,1],[3468083333,2]]},
+  {"id":9472609,"t":{"ref":"1","name":"1 => Zajda, bejárati út","from":"Autóbusz-állomás","to":"Zajda, bejárati út","route":"bus","public_transport:version":"2"},"n":3,"s":[[7443942162,2],[7443942161,3]]},
+  {"id":9477796,"t":{"ref":"35","name":"35 => Autóbusz-állomás","from":"Máhomfa, autóbusz-forduló","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":5,"s":[[5676431129,2]]},
+  {"id":13879513,"t":{"ref":"94","name":"94 => Bárszentmihályfa, sportpálya => Lentikápolna, Kápolnai út 20. => Autóbusz-állomás","from":"Autóbusz-állomás","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":12,"s":[[7443942162,2],[7443942163,3],[7443942166,4]]},
+  {"id":13879517,"t":{"ref":"94","name":"94 => Bárszentmihályfa, sportpálya","from":"Autóbusz-állomás","to":"Bárszentmihályfa, sportpálya","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":6,"s":[[7443942162,2],[7443942163,3],[7443942166,4]]},
+  {"id":13879523,"t":{"ref":"35","name":"35 => Bánffy úti óvoda => Autóbusz-állomás","from":"Máhomfa, autóbusz-forduló","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":6,"s":[[5676431129,2]]},
+  {"id":13879525,"t":{"ref":"90","name":"90 => Autóbusz-állomás","from":"Lentiszombathely, iskola","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":5,"s":[[3468083325,1],[3468083324,2],[3468083332,3],[3468083333,4]]},
+  {"id":14135445,"t":{"ref":"94","name":"94 => Bárszentmihályfa, sportpálya => Lentikápolna, Kápolnai út 20. => Kerkabarabás, autóbusz-váróterem => Autóbusz-állomás","from":"Autóbusz-állomás","to":"Autóbusz-állomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":15,"s":[[7443942162,2],[7443942163,3],[7443942166,4]]},
+  {"id":14135447,"t":{"ref":"94","name":"94 => Lentikápolna, Kápolnai út 20.","from":"Autóbusz-állomás","to":"Lentikápolna, Kápolnai út 20.","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":5,"s":[[7443942162,2],[7443942163,3],[7443942166,4]]}
+]
+}

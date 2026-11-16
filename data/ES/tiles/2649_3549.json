@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2649,3549],
+"stops":[
+  {"id":1940501170,"lat":42.492471,"lon":-2.52051,"k":"p","n":"Plaza de la Iglesia (L6)"},
+  {"id":8216756535,"lat":42.450347,"lon":-2.500258,"k":"p","n":"La Grajera"}
+],
+"routes":[
+  {"id":1876249,"t":{"ref":"6","name":"6 El Cortijo - Centro","operator":"AULOSA","route":"bus","public_transport:version":"2"},"n":11,"s":[[1940501170,1]]},
+  {"id":11270783,"t":{"ref":"6","name":"6 Centro -El Cortijo","operator":"AULOSA","route":"bus","public_transport:version":"2"},"n":11,"s":[[1940501170,11]]},
+  {"id":12018626,"t":{"ref":"M3","name":"M3: Entrena => La Grajera => Logroño","from":"Entrena","to":"Logroño","network":"ES:regional:La Rioja","operator":"Metropolitano","colour":"#b52b97","route":"bus","public_transport:version":"2"},"n":8,"s":[[8216756535,3]]},
+  {"id":12020345,"t":{"ref":"M3","name":"M3: Logroño => La Grajera => Entrena","from":"Logroño","to":"Entrena","network":"ES:regional:La Rioja","operator":"Metropolitano","colour":"#b52b97","route":"bus","public_transport:version":"2"},"n":8,"s":[[8216756535,6]]}
+]
+}

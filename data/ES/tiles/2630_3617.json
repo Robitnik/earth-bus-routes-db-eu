@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2630,3617],
+"stops":[
+  {"id":8649125646,"lat":41.518299,"lon":0.870172,"k":"p","n":"Estació d'autobusos de les Borges Blanques"},
+  {"id":8921497577,"lat":41.52251,"lon":0.863584,"k":"p","n":"Les Borges Blanques - Raval de Lleida","ref":"ML 0277"},
+  {"id":9179338450,"lat":41.518253,"lon":0.870243,"k":"x","n":"Estació d'autobusos de les Borges Blanques"},
+  {"id":9179338451,"lat":41.522429,"lon":0.86354,"k":"x","n":"Les Borges Blanques - Raval de Lleida","ref":"ML 0277"},
+  {"id":9182328096,"lat":41.522347,"lon":0.863569,"k":"p","ref":"ML 0277"}
+],
+"routes":[
+  {"id":13337422,"t":{"ref":"e6","name":"e6: Les Borges Blanques - Lleida","from":"Les Borges Blanques","to":"Lleida","network":"exprés.cat","operator":"Alsa","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":5,"s":[[8649125646,1],[8921497577,2]]},
+  {"id":13338080,"t":{"ref":"e6","name":"e6: Lleida - Les Borges Blanques","from":"Lleida","to":"Les Borges Blanques","network":"exprés.cat","operator":"Alsa","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":5,"s":[[9182328096,4],[8649125646,5]]},
+  {"id":13441632,"t":{"ref":"e6","name":"e6: Lleida - Les Borges Blanques via Torregrossa","from":"Lleida","to":"Les Borges Blanques","network":"exprés.cat","operator":"Alsa","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":6,"s":[[9182328096,5],[8649125646,6]]},
+  {"id":13441633,"t":{"ref":"e6","name":"e6: Les Borges Blanques - Lleida via Torregrossa","from":"Les Borges Blanques","to":"Lleida","network":"exprés.cat","operator":"Alsa","colour":"#E1271B","route":"bus","public_transport:version":"2"},"n":6,"s":[[8649125646,1],[8921497577,2]]}
+]
+}

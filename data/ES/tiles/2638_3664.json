@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2638,3664],
+"stops":[
+  {"id":2246619097,"lat":41.939926,"lon":3.200461,"k":"x","n":"Begur, Càmping"},
+  {"id":2433171135,"lat":41.918438,"lon":3.206431,"k":"p","n":"Tamariu"},
+  {"id":5440745190,"lat":41.918436,"lon":3.206478,"k":"x","n":"Tamariu"},
+  {"id":5536219259,"lat":41.93989,"lon":3.200503,"k":"p","n":"Begur, Camping (Dir. Torroella)","ref":"16902"},
+  {"id":5536219262,"lat":41.93991,"lon":3.20035,"k":"p","n":"Begur, Camping (Dir. Palafrugell)","ref":"16901"},
+  {"id":11775226116,"lat":41.947041,"lon":3.20206,"k":"p"},
+  {"id":13919773244,"lat":41.947089,"lon":3.202049,"k":"x"}
+],
+"routes":[
+  {"id":2354325,"t":{"ref":"L2","name":"Palafrugell - Tamariu","network":"Transports Públics de Catalunya","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":6,"s":[[2433171135,1]]},
+  {"id":5413437,"t":{"ref":"L1","name":"Palafrugell - Tamariu - Llafranc - Calella","operator":"Moventis - Sarbus","colour":"blue","route":"bus","public_transport:version":"2"},"n":12,"s":[[5440745190,8]]},
+  {"id":8188432,"t":{"ref":"8","name":"8: Palafrugell - Begur - Girona","from":"Palafrugell","to":"Girona","network":"ATM Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":26,"s":[[5536219259,3]]},
+  {"id":8199026,"t":{"ref":"8","name":"8: Girona - Begur - Palafrugell","from":"Girona","to":"Palafrugell","network":"ATM Girona","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":28,"s":[[5536219262,26]]},
+  {"id":20269451,"t":{"ref":"22","name":"Línia 22 Palafrugell => Peratallada => La Bisbal","from":"Palafrugell","to":"La Bisbal","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5536219259,3]]},
+  {"id":20269693,"t":{"ref":"22","name":"Línia 22 La Bisbal => Peratallada => Palafrugell","from":"La Bisbal","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5536219262,17]]},
+  {"id":20272459,"t":{"ref":"23","name":"Línia 23 Torroella => Massos => Begur => Palamós","from":"Torroella de Montgrí","to":"Palamós","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[5536219262,9]]},
+  {"id":20275992,"t":{"ref":"23","name":"Línia 23 Palamós => Palafrugell => Begur => Torroella de Montgrí","from":"Palamós","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[5536219259,12]]}
+]
+}

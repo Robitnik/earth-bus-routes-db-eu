@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2598,3588],
+"stops":[
+  {"id":3009860464,"lat":39.920937,"lon":-0.595653,"k":"p","n":"Viver, pl. Mayor del Palancia 2"},
+  {"id":6162403718,"lat":39.935537,"lon":-0.57704,"k":"p","n":"Benafer, C/ Replaceta 9"},
+  {"id":8968609554,"lat":39.948044,"lon":-0.568333,"k":"p","n":"Caudiel, Av. Montán frente 2"},
+  {"id":11942669352,"lat":39.912512,"lon":-0.572372,"k":"p","n":"Jérica, Pl. Germán Monleón 2"},
+  {"id":11942669354,"lat":39.913525,"lon":-0.575923,"k":"p","n":"Jérica, C/ Jaime Ariño 6 (CRA Palancia-Mijares)"},
+  {"id":11942669355,"lat":39.918005,"lon":-0.586012,"k":"p","n":"Jérica, IES Jérica-Viver"},
+  {"id":11948026699,"lat":39.921517,"lon":-0.594474,"k":"p","n":"Viver, Av. Diputación 1 - CEIP Historiador Diago"},
+  {"id":13094642985,"lat":39.948104,"lon":-0.568241,"k":"p","n":"Caudiel, Av. Montán 2"},
+  {"id":13094642996,"lat":39.917906,"lon":-0.58603,"k":"p","n":"Jérica, frente IES Jérica-Viver"}
+],
+"routes":[
+  {"id":17650034,"t":{"ref":"371B","name":"Pavías → Viver","from":"Pavías","to":"Viver","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[8968609554,3],[11942669352,6],[11942669354,7],[11942669355,8],[3009860464,9]]},
+  {"id":17650239,"t":{"ref":"371B","name":"Viver → Pavías","from":"Viver","to":"Pavías","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[3009860464,1],[13094642996,2],[11942669354,3],[11942669352,4],[13094642985,7]]},
+  {"id":17653812,"t":{"ref":"371A","name":"Montanejos → Segorbe","from":"Montanejos","to":"Segorbe","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[8968609554,3],[6162403718,4],[11942669352,5]]},
+  {"id":17653856,"t":{"ref":"371A","name":"Segorbe → Montanejos","from":"Segorbe","to":"Montanejos","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[11942669352,5],[6162403718,6],[13094642985,7]]},
+  {"id":17657529,"t":{"ref":"373","name":"Segorbe → El Toro → Fuente la Reina","from":"Segorbe","to":"Fuente la Reina","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[11942669352,5],[11942669355,6],[11948026699,7]]},
+  {"id":17657620,"t":{"ref":"373","name":"Fuente la Reina → El Toro → Segorbe","from":"Fuente la Reina","to":"Segorbe","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[11948026699,7],[13094642996,8],[11942669352,9]]},
+  {"id":17657758,"t":{"ref":"374A","name":"Torás → Bejís → Segorbe","from":"Torás","to":"Segorbe","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[11948026699,6],[13094642996,7],[11942669352,8]]},
+  {"id":17657783,"t":{"ref":"374A","name":"Segorbe → Bejís → Torás","from":"Segorbe","to":"Torás","network":"Transport Públic Generalitat Valenciana","operator":"Monbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[11942669352,2],[11942669355,3],[11948026699,4]]}
+]
+}

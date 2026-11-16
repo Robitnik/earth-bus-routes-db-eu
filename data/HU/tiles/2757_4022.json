@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2757,4022],
+"stops":[
+  {"id":700142751,"lat":47.871278,"lon":21.114542,"k":"s","n":"Polgár, autóbusz-állomás"},
+  {"id":3473398232,"lat":47.864612,"lon":21.129356,"k":"p","n":"Polgár, hajdúnánási elágazás"},
+  {"id":3490706534,"lat":47.861697,"lon":21.129737,"k":"p","n":"Polgár, vasútállomás bejárati út"},
+  {"id":5857082928,"lat":47.880031,"lon":21.107472,"k":"p","n":"Polgár, strandfürdő"},
+  {"id":5857082929,"lat":47.880024,"lon":21.107657,"k":"p","n":"Polgár, strandfürdő"},
+  {"id":5857082930,"lat":47.887233,"lon":21.100887,"k":"p","n":"Polgári tanyák (24,2-es km tábla)"},
+  {"id":5857082931,"lat":47.887358,"lon":21.101035,"k":"p","n":"Polgári tanyák (24,2-es km tábla)"},
+  {"id":5991739702,"lat":47.871293,"lon":21.11474,"k":"p","n":"Polgár, autóbusz-váróterem"},
+  {"id":9664621099,"lat":47.864756,"lon":21.129392,"k":"p","n":"Polgár, hajdúnánási elágazás"},
+  {"id":9664621100,"lat":47.866928,"lon":21.136644,"k":"p","n":"Polgár, Szabolcs utca"},
+  {"id":13076664198,"lat":47.855798,"lon":21.13213,"k":"p","n":"Polgár, Vörösmarty utca"},
+  {"id":13076664199,"lat":47.855908,"lon":21.132299,"k":"p","n":"Polgár, Vörösmarty utca"},
+  {"id":13076664212,"lat":47.861567,"lon":21.12953,"k":"p","n":"Polgár, vasútállomás bejárati út"},
+  {"id":13093311000,"lat":47.866877,"lon":21.136835,"k":"p","n":"Polgár, Szabolcs utca"},
+  {"id":13139743366,"lat":47.866941,"lon":21.124942,"k":"p","n":"Polgár, nyíregyházi útelágazás"},
+  {"id":13139743367,"lat":47.866909,"lon":21.125378,"k":"p","n":"Polgár, nyíregyházi útelágazás"}
+],
+"routes":[
+  {"id":8823474,"t":{"ref":"3739","name":"3739 => Miskolc => Nyékládháza => Ónod => Tiszaújváros => Polgár","from":"Miskolc, Búza tér","to":"Polgár, autóbusz-állomás","network":"regional","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":46,"s":[[5857082930,44],[5857082928,45],[5991739702,46]]},
+  {"id":14037247,"t":{"ref":"1369","name":"1369: Miskolc, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem","from":"Miskolc, autóbusz állomás","to":"Hajdúnánás, autóbusz-váróterem","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":20,"s":[[5991739702,15]]},
+  {"id":14037248,"t":{"ref":"1369","name":"1369: Ózd, autóbusz-állomás => Miskolc, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Nyíregyháza, autóbusz-állomás","from":"Ózd, autóbusz-állomás","to":"Nyíregyháza, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":52,"s":[[5991739702,44]]},
+  {"id":14037249,"t":{"ref":"1369","name":"1369: Ózd, Ruhagyár => Ózd, autóbusz-állomás => Miskolc, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Nyíregyháza, autóbusz-állomás","from":"Ózd, Ruhagyár","to":"Nyíregyháza, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":50,"s":[[5991739702,42]]},
+  {"id":14037250,"t":{"ref":"1369","name":"1369: Hajdúnánás, autóbusz-váróterem => Miskolc, autóbusz-állomás","from":"Hajdúnánás, autóbusz-váróterem","to":"Ózd, Ruhagyár","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":24,"s":[[9664621100,5],[9664621099,6],[5991739702,7],[5857082929,8],[5857082931,9]]},
+  {"id":14037251,"t":{"ref":"1369","name":"1369: Nyíregyháza, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Miskolc, autóbusz-állomás => Ózd, autóbusz-állomás","from":"Nyíregyháza, autóbusz-állomás","to":"Ózd, autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":51,"s":[[5991739702,8]]},
+  {"id":14037252,"t":{"ref":"1369","name":"1369: Nyíregyháza, autóbusz-állomás => Hajdúnánás, autóbusz-váróterem => Miskolc, autóbusz-állomás => Ózd, autóbusz-állomás => Ózd, Ruhagyár","from":"Nyíregyháza, autóbusz-állomás","to":"Ózd, Ruhagyár","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":60,"s":[[5991739702,8]]}
+]
+}

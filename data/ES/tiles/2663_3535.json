@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2663,3535],
+"stops":[
+  {"id":976562907,"lat":43.166804,"lon":-3.229369,"k":"x","n":"El Berrón"},
+  {"id":5011637572,"lat":43.186614,"lon":-3.203217,"k":"p","n":"La Penilla","ref":"3507"},
+  {"id":5011637573,"lat":43.186697,"lon":-3.202991,"k":"p","n":"La Penilla","ref":"3504"},
+  {"id":5011654592,"lat":43.19022,"lon":-3.200083,"k":"x","n":"Avenida Encartaciones"},
+  {"id":5011654594,"lat":43.190187,"lon":-3.20021,"k":"p","n":"Avenida Encartaciones","ref":"3506"},
+  {"id":11375978737,"lat":43.186663,"lon":-3.20314,"k":"x"},
+  {"id":11682996633,"lat":43.163708,"lon":-3.232692,"k":"p"}
+],
+"routes":[
+  {"id":7441708,"t":{"ref":"A0651","name":"A0651 Bilbao → Balmaseda","from":"Termibus","to":"Campo de las Monjas","network":"Bizkaibus","operator":"Grupo Acha Movilidad Enkarterri S.A.","route":"bus","public_transport:version":"2"},"n":20,"s":[[5011637573,18]]},
+  {"id":7441739,"t":{"ref":"A0651","name":"A0651 Balmaseda → Bilbao","from":"Campo de las Monjas","to":"Termibus","network":"Bizkaibus","operator":"Grupo Acha Movilidad Enkarterri S.A.","route":"bus","public_transport:version":"2"},"n":20,"s":[[5011654594,2],[5011637572,3]]},
+  {"id":11283966,"t":{"ref":"A0652","name":"A0652: Balmaseda → Zalla → Lanestosa","from":"Balmaseda","to":"Lanestosa","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5011654594,2],[5011637572,3]]},
+  {"id":11283967,"t":{"ref":"A0652","name":"A0652: Lanestosa → Zalla → Balmaseda","from":"Lanestosa","to":"Balmaseda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5011637573,39]]},
+  {"id":11642259,"t":{"ref":"A3334","name":"A3334: Santurtzi → Muskiz → Balmaseda","from":"Santurtzi","to":"Balmaseda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5011637573,39]]},
+  {"id":11642260,"t":{"ref":"A3334","name":"A3334: Balmaseda → Muskiz → Santurtzi","from":"Balmaseda","to":"Santurtzi","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":40,"s":[[5011654594,2],[5011637572,3]]},
+  {"id":11670636,"t":{"ref":"A0654","name":"A0654: Balmaseda → Gurutzeta / Cruces → UPV / EHU","from":"Balmaseda","to":"UPV/EHU","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":29,"s":[[5011654594,2],[5011637572,3]]},
+  {"id":11670637,"t":{"ref":"A0654","name":"A0654: UPV / EHU → Gurutzeta / Cruces → Balmaseda","from":"UPV/EHU","to":"Balmaseda","network":"Bizkaibus","route":"bus","public_transport:version":"2"},"n":29,"s":[[5011637573,27]]}
+]
+}

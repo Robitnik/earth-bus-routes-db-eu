@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2638,3662],
+"stops":[
+  {"id":1792344501,"lat":41.93296,"lon":3.136992,"k":"x","n":"Llofriu (Dir. Girona)","ref":"16712"},
+  {"id":1861992848,"lat":41.906959,"lon":3.146675,"k":"x","n":"Mont-Ras, (direcció Palamós)","ref":"16140"},
+  {"id":2155847846,"lat":41.931947,"lon":3.138176,"k":"x","n":"Llofriu (dir. Palamós)","ref":"16151"},
+  {"id":4785060631,"lat":41.943677,"lon":3.124617,"k":"p","n":"Torrent, Cruilla (direcció Girona)","ref":"16802"},
+  {"id":5560587777,"lat":41.943629,"lon":3.124569,"k":"x","n":"Torrent, Cruilla"},
+  {"id":5560587778,"lat":41.937927,"lon":3.131105,"k":"p","n":"Llofriu, la Barceloneta (dir. Palamós)","ref":"16713"},
+  {"id":5560587779,"lat":41.937995,"lon":3.13124,"k":"p","n":"Llofriu, la Barceloneta (direcció Girona)","ref":"16150"},
+  {"id":5560587780,"lat":41.933012,"lon":3.137081,"k":"p","n":"Llofriu (Dir. Girona)","ref":"16712"},
+  {"id":5560587785,"lat":41.937948,"lon":3.131192,"k":"x","n":"Llofriu, la Barceloneta"},
+  {"id":5563106456,"lat":41.906887,"lon":3.147003,"k":"x","n":"Mont-Ras, (direcció Palafrugell)","ref":"16719"},
+  {"id":5563106468,"lat":41.906847,"lon":3.147142,"k":"p","n":"Mont-Ras, (direcció Palafrugell)","ref":"16719"},
+  {"id":13529572406,"lat":41.906971,"lon":3.146642,"k":"p","n":"Mont-Ras, (direcció Palamós)","ref":"16140"},
+  {"id":13570073915,"lat":41.931879,"lon":3.138103,"k":"p","n":"Llofriu (dir. Palamós)","ref":"16151"},
+  {"id":13570073916,"lat":41.943608,"lon":3.124491,"k":"p","n":"Torrent, Cruilla (dir. Palamós)","ref":"16281"}
+],
+"routes":[
+  {"id":20172254,"t":{"ref":"1","name":"1 Aeroport BCN => Barcelona => Costa Brava Centre","from":"Aeroport T2","to":"L'Escala","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":20,"s":[[5563106468,11]]},
+  {"id":20172285,"t":{"ref":"1","name":"1 Costa Brava Centre => Barcelona => Aeroport BCN","from":"L'Escala","to":"Aeroport T2","operator":"Moventis","route":"bus","public_transport:version":"2"},"n":18,"s":[[13529572406,10]]},
+  {"id":20209781,"t":{"ref":"5","name":"Línia 5 Girona => Costa Brava Centre => Caldes de Malavella","from":"Girona","to":"Caldes de Malavella","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":53,"s":[[13570073916,21],[5560587778,22],[13570073915,23],[13529572406,25]]},
+  {"id":20218084,"t":{"ref":"5","name":"Línia 5 Caldes de Malavella => Costa Brava Centre => Girona","from":"Caldes de Malavella","to":"Girona","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":50,"s":[[5563106468,26],[5560587780,28],[5560587779,29],[4785060631,30]]},
+  {"id":20250900,"t":{"ref":"17","name":"Línia 17 Palafrugell => La Bisbal => Figueres","from":"Palafrugell","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[5560587780,2],[5560587779,3],[4785060631,4]]},
+  {"id":20251000,"t":{"ref":"17","name":"Línia 17 Figueres => La Bisbal => Palafrugell","from":"Figueres","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[13570073916,22],[5560587778,23],[13570073915,24]]},
+  {"id":20272459,"t":{"ref":"23","name":"Línia 23 Torroella => Massos => Begur => Palamós","from":"Torroella de Montgrí","to":"Palamós","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":19,"s":[[13529572406,15]]},
+  {"id":20275992,"t":{"ref":"23","name":"Línia 23 Palamós => Palafrugell => Begur => Torroella de Montgrí","from":"Palamós","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[5563106468,6]]}
+]
+}

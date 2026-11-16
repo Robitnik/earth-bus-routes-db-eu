@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2762,4012],
+"stops":[
+  {"id":2679587512,"lat":48.109267,"lon":20.640501,"k":"p","n":"Alsó-Hámor"},
+  {"id":2679587513,"lat":48.109369,"lon":20.640923,"k":"p","n":"Alsó-Hámor"},
+  {"id":2679587516,"lat":48.106664,"lon":20.635173,"k":"p","n":"Felső-Hámor"},
+  {"id":2679587517,"lat":48.10695,"lon":20.635545,"k":"p","n":"Felső-Hámor"},
+  {"id":2679587526,"lat":48.103243,"lon":20.622211,"k":"p","n":"Palotaszálló"},
+  {"id":2679587529,"lat":48.105658,"lon":20.622383,"k":"p","n":"Palotaszálló"},
+  {"id":3437751047,"lat":48.149033,"lon":20.63535,"k":"p","n":"Barossakna, autóbusz-forduló"},
+  {"id":5082471299,"lat":48.105554,"lon":20.622266,"k":"p","n":"Palotaszálló"},
+  {"id":5082471650,"lat":48.103165,"lon":20.622379,"k":"p","n":"Palotaszálló"}
+],
+"routes":[
+  {"id":2082903,"t":{"ref":"5","name":"5 => Lillafüred","from":"Felső-Majláth","to":"Lillafüred","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[2679587513,6],[2679587517,7],[2679587526,8]]},
+  {"id":2082912,"t":{"ref":"15","name":"15 => Ómassa","from":"Felső-Majláth","to":"Ómassa","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":13,"s":[[2679587513,6],[2679587517,7],[2679587529,8]]},
+  {"id":7546417,"t":{"ref":"15","name":"15 => Diósgyőri Vár => Felső-Majláth","from":"Ómassa","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":19,"s":[[5082471299,6],[2679587516,7],[2679587512,8]]},
+  {"id":7546418,"t":{"ref":"15","name":"15 => Injekcióüzem => Felső-Majláth","from":"Ómassa","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":14,"s":[[5082471299,6],[2679587516,7],[2679587512,8]]},
+  {"id":7546419,"t":{"ref":"15","name":"15 => Injekcióüzem => Ómassa","from":"Felső-Majláth","to":"Ómassa","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":14,"s":[[2679587513,7],[2679587517,8],[2679587529,9]]},
+  {"id":7546420,"t":{"ref":"15","name":"15 => Lillafüred => Felső-Majláth","from":"Ómassa","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":18,"s":[[5082471299,6],[2679587526,7],[5082471650,11],[2679587516,12],[2679587512,13]]},
+  {"id":7546421,"t":{"ref":"15","name":"15 => Lillafüred => Ómassa","from":"Felső-Majláth","to":"Ómassa","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":18,"s":[[2679587513,6],[2679587517,7],[2679587526,8],[5082471650,12],[2679587529,13]]},
+  {"id":7546422,"t":{"ref":"15","name":"15 => Felső-Majláth","from":"Ómassa","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":13,"s":[[5082471299,6],[2679587516,7],[2679587512,8]]},
+  {"id":7546446,"t":{"ref":"5","name":"5 => Injekcióüzem => Lillafüred","from":"Felső-Majláth","to":"Lillafüred","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":11,"s":[[2679587513,7],[2679587517,8],[2679587526,9]]},
+  {"id":7546447,"t":{"ref":"5","name":"5 => Injekcióüzem => Felső-Majláth","from":"Lillafüred","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":11,"s":[[5082471650,3],[2679587516,4],[2679587512,5]]},
+  {"id":7546448,"t":{"ref":"5","name":"5 => Felső-Majláth","from":"Lillafüred","to":"Felső-Majláth","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[5082471650,3],[2679587516,4],[2679587512,5]]},
+  {"id":10981761,"t":{"ref":"15","name":"15 => Injekcióüzem => Lillafüred => Ómassa","from":"Felső-Majláth","to":"Ómassa","network":"local","operator":"MVK","route":"bus","public_transport:version":"2"},"n":19,"s":[[2679587513,7],[2679587517,8],[2679587526,9],[5082471650,13],[2679587529,14]]}
+]
+}

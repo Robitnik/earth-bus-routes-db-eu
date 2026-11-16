@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2642,3661],
+"stops":[
+  {"id":8808858487,"lat":42.134837,"lon":3.074594,"k":"x","n":"Viladamat"},
+  {"id":8808858488,"lat":42.134789,"lon":3.074591,"k":"p","n":"Viladamat"},
+  {"id":8808858493,"lat":42.145283,"lon":3.069739,"k":"x","n":"Pelacalç (dir. l'Escala)","ref":"16750"},
+  {"id":8808858495,"lat":42.145293,"lon":3.069667,"k":"p","n":"Pelacalç (dir. l'Escala)","ref":"16750"},
+  {"id":8808858496,"lat":42.145031,"lon":3.069911,"k":"x","n":"Pelacalç (dir.Figueres)","ref":"16751"},
+  {"id":8808858497,"lat":42.145045,"lon":3.069955,"k":"p","n":"Pelacalç (dir.Figueres)","ref":"16751"},
+  {"id":12071154770,"lat":42.106368,"lon":3.07232,"k":"p","n":"Albons, cruïlla (dir. l'Escala)","ref":"16001"},
+  {"id":12149885668,"lat":42.10637,"lon":3.072278,"k":"x","n":"Albons, cruïlla (dir. l'Escala)","ref":"16001"},
+  {"id":12149936020,"lat":42.106324,"lon":3.072263,"k":"x","n":"Albons, cruïlla (dir. Girona)","ref":"16610"},
+  {"id":12149936021,"lat":42.106333,"lon":3.072206,"k":"p","n":"Albons, cruïlla (dir. Girona)","ref":"16610"},
+  {"id":13543825634,"lat":42.132782,"lon":3.071867,"k":"p","n":"Vilademat, C-31 (dir. Figueres)","ref":"16599"},
+  {"id":13543830219,"lat":42.145451,"lon":3.069708,"k":"p"},
+  {"id":13577202001,"lat":42.134907,"lon":3.074611,"k":"p","n":"Vilademat (dir. Figueres)","ref":"16308"},
+  {"id":13595256735,"lat":42.132592,"lon":3.07184,"k":"x","n":"Vilademat, C-31 (dir. La Bisbal)","ref":"1277"},
+  {"id":13595256736,"lat":42.132593,"lon":3.07178,"k":"p","n":"Vilademat, C-31 (dir. La Bisbal)","ref":"1277"},
+  {"id":13598341313,"lat":42.132781,"lon":3.071805,"k":"x","n":"Vilademat, C-31 (dir. Figueres)","ref":"16599"}
+],
+"routes":[
+  {"id":17989500,"t":{"ref":"L1140","name":"L1140 Girona - l'Escala","from":"Girona","to":"L'Escala","operator":"Moventis - Sarfa","route":"bus","public_transport:version":"2"},"n":17,"s":[[12071154770,13],[8808858488,14]]},
+  {"id":20233945,"t":{"ref":"10","name":"Línia 10 Torroella de Montgrí => l'Escala => Figueres","from":"Torroella de Montgrí","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":20,"s":[[13577202001,8],[8808858497,9]]},
+  {"id":20234232,"t":{"ref":"10","name":"Línia 10 Figueres => l'Escala => Torroella de Montgrí","from":"Figueres","to":"Torroella de Montgrí","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":18,"s":[[8808858495,12]]},
+  {"id":20250900,"t":{"ref":"17","name":"Línia 17 Palafrugell => La Bisbal => Figueres","from":"Palafrugell","to":"Figueres","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[12071154770,17],[13543825634,18]]},
+  {"id":20251000,"t":{"ref":"17","name":"Línia 17 Figueres => La Bisbal => Palafrugell","from":"Figueres","to":"Palafrugell","operator":"Moventis Sarfa","route":"bus","public_transport:version":"2"},"n":25,"s":[[13595256736,8],[12149936021,9]]}
+]
+}

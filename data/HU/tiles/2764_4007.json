@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"HU",
+"tile":[2764,4007],
+"stops":[
+  {"id":3484798417,"lat":48.207856,"lon":20.398462,"k":"p","n":"Borsodbóta, Oncsatelep"},
+  {"id":3484798418,"lat":48.212167,"lon":20.397233,"k":"p","n":"Borsodbóta, autóbusz-váróterem"},
+  {"id":3484798419,"lat":48.216633,"lon":20.390367,"k":"p","n":"Borsodbóta, felső"},
+  {"id":3484798421,"lat":48.217917,"lon":20.384233,"k":"p","n":"Borsodbóta, tető"},
+  {"id":5292649014,"lat":48.248221,"lon":20.350822,"k":"p","n":"Bánszállás, bejárati út"},
+  {"id":5292649124,"lat":48.248485,"lon":20.351656,"k":"p","n":"Bánszállás, bejárati út"}
+],
+"routes":[
+  {"id":7822385,"t":{"ref":"3","name":"3: Autóbusz-állomás => Center, forduló","from":"Autóbusz-állomás","to":"Center, forduló","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[5292649124,11]]},
+  {"id":7824586,"t":{"ref":"3","name":"3: Center, forduló => Autóbusz-állomás","from":"Center, forduló","to":"Autóbusz-állomás","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":13,"s":[[5292649014,3]]},
+  {"id":13695287,"t":{"ref":"3","name":"3: Center, forduló => Autóbusz-állomás => Kórház","from":"Center, forduló","to":"Kórház","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":17,"s":[[5292649014,3]]},
+  {"id":13695297,"t":{"ref":"23","name":"23: Center, forduló => Petőfi tér => Autóbusz-állomás => Bolyky Tamás Általános Iskola","from":"Center, forduló","to":"Bolyky Tamás Általános Iskola","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":23,"s":[[5292649014,3]]},
+  {"id":13695298,"t":{"ref":"23","name":"23: Bolyky Tamás Általános Iskola => Autóbusz-állomás => Petőfi tér=> Center, forduló","from":"Bolyky Tamás Általános Iskola","to":"Center, forduló","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":25,"s":[[5292649124,23]]},
+  {"id":13695299,"t":{"ref":"23","name":"23: Center, forduló => Petőfi tér => Bolyky Tamás Általános Iskola","from":"Center, forduló","to":"Bolyky Tamás Általános Iskola","network":"local","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":22,"s":[[5292649014,3]]}
+]
+}

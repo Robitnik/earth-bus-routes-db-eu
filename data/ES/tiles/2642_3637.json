@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2642,3637],
+"stops":[
+  {"id":501806286,"lat":42.104374,"lon":1.857134,"k":"x","n":"pg. Indústria (Heliport - Bombers)"},
+  {"id":2264587027,"lat":42.104357,"lon":1.853545,"k":"x","n":"pg. Indústria - c. Pere II (CAP)"},
+  {"id":5489173931,"lat":42.102128,"lon":1.854333,"k":"x","n":"Santa Eulàlia - B"},
+  {"id":5489173932,"lat":42.103746,"lon":1.855135,"k":"x","n":"Pere II"},
+  {"id":5489173934,"lat":42.107571,"lon":1.850436,"k":"x","n":"La Cabana"},
+  {"id":5489173942,"lat":42.104646,"lon":1.850464,"k":"x","n":"Tanatori"},
+  {"id":5489173943,"lat":42.106749,"lon":1.852526,"k":"x","n":"Hospital"},
+  {"id":5489173944,"lat":42.104623,"lon":1.853766,"k":"x","n":"pg. Indústria - c. Quim Serra (CAP)"},
+  {"id":5489173945,"lat":42.102461,"lon":1.857464,"k":"x","n":"Plaça Gernika"},
+  {"id":5489173946,"lat":42.101911,"lon":1.853709,"k":"x","n":"Santa Eulàlia - A"},
+  {"id":5489173947,"lat":42.102359,"lon":1.851748,"k":"x","n":"Hotel d'Entitats"},
+  {"id":7313039298,"lat":42.101349,"lon":1.859996,"k":"x","n":"Casampons (CEIP Santa Eulàlia)"},
+  {"id":7313039301,"lat":42.107426,"lon":1.853451,"k":"x","n":"Hospital"},
+  {"id":8822285634,"lat":42.14603,"lon":1.861242,"k":"p","n":"Cercs"},
+  {"id":13415989765,"lat":42.146098,"lon":1.86126,"k":"x","n":"Cercs"},
+  {"id":13713088564,"lat":42.104673,"lon":1.853752,"k":"p","n":"pg. Indústria - c. Quim Serra (CAP)"},
+  {"id":13713135994,"lat":42.101366,"lon":1.860036,"k":"p","n":"Casampons (CEIP Santa Eulàlia)"},
+  {"id":13713135995,"lat":42.104329,"lon":1.857241,"k":"p","n":"pg. Indústria (Heliport - Bombers)"},
+  {"id":13713145895,"lat":42.104316,"lon":1.853517,"k":"p","n":"pg. Indústria - c. Pere II (CAP)"}
+],
+"routes":[
+  {"id":2104863,"t":{"ref":"L1","name":"L1 Ciutat","network":"Autoritat del Transport Metropolità de l’Àrea de Barcelona","colour":"#B30000","route":"bus","public_transport:version":"2"},"n":2,"s":[[13713135995,2]]},
+  {"id":8127975,"t":{"ref":"L4","name":"L4 Castell","network":"Autoritat del Transport Metropolità de l’Àrea de Barcelona","colour":"green","route":"bus","public_transport:version":"2"},"n":2,"s":[[13713145895,2]]},
+  {"id":10867585,"t":{"ref":"L2","name":"L2 Aviá","network":"Autoritat del Transport Metropolità de l’Àrea de Barcelona","colour":"#0000FF","route":"bus","public_transport:version":"2"},"n":8,"s":[[13713135995,7]]},
+  {"id":10867586,"t":{"ref":"L3","name":"L3 Casapons","network":"Autoritat del Transport Metropolità de l’Àrea de Barcelona","colour":"#00FF00","route":"bus","public_transport:version":"2"},"n":4,"s":[[13713145895,1],[13713135994,4]]},
+  {"id":20016734,"t":{"ref":"L0225","name":"L0225 La Pobla de Lillet - Berga - Manresa","from":"La Pobla de Lillet","to":"Manresa","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":32,"s":[[8822285634,7]]},
+  {"id":20020354,"t":{"ref":"L0225","name":"L0225 Manresa - Berga - La Pobla de Lillet","from":"Manresa","to":"La Pobla de Lillet","route":"bus","public_transport:version":"2"},"n":33,"s":[[8822285634,26]]},
+  {"id":20032435,"t":{"ref":"TGN","name":"TGN: La Pobla de Lillet => Tarragona => Cambrils","from":"La Pobla de Lillet","to":"Cambrils","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":16,"s":[[8822285634,5]]},
+  {"id":20032859,"t":{"ref":"TGN","name":"TGN Cambrils => Tarragona => La Pobla de Lillet","from":"Cambrils","to":"La Pobla de Lillet","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":16,"s":[[8822285634,12]]},
+  {"id":20085321,"t":{"ref":"TDO1","name":"TDO1 Berga - Cercs - La Nou de Berguedà","from":"Berga","to":"La Nou de Berguedà","route":"bus","public_transport:version":"2"},"n":5,"s":[[8822285634,2]]},
+  {"id":20085331,"t":{"ref":"TDO1","name":"TDO1 La Nou de Berguedà - Cercs - Berga","from":"La Nou de Berguedà","to":"Berga","route":"bus","public_transport:version":"2"},"n":5,"s":[[8822285634,4]]},
+  {"id":20123924,"t":{"ref":"TDO10","name":"TDO10 Berga - Malanyeu","from":"Berga","to":"Malanyeu","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[8822285634,2]]},
+  {"id":20123942,"t":{"ref":"TDO10","name":"TDO10 Malanyeu - Berga","from":"Malanyeu","to":"Berga","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[8822285634,4]]},
+  {"id":20152885,"t":{"ref":"TD11","name":"TD11 Berga - Fígols","from":"Berga","to":"Fígols","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[8822285634,2]]},
+  {"id":20152912,"t":{"ref":"TD11","name":"TD11 Fígols - Berga","from":"Fígols","to":"Berga","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":8,"s":[[8822285634,7]]}
+]
+}

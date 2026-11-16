@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2659,3585],
+"stops":[
+  {"id":2182624482,"lat":42.985019,"lon":-0.743067,"k":"x","n":"Le Braca","ref":"10131204"},
+  {"id":8103017544,"lat":42.984956,"lon":-0.743138,"k":"p","n":"Le Braca"},
+  {"id":8103941170,"lat":42.979671,"lon":-0.746157,"k":"x","n":"La Pierre Saint Martin - Station","ref":"10131205"},
+  {"id":8103941171,"lat":42.979614,"lon":-0.746235,"k":"p","n":"La Pierre Saint Martin"},
+  {"id":12479963211,"lat":42.977466,"lon":-0.744441,"k":"p","n":"Navette - Station"}
+],
+"routes":[
+  {"id":11873312,"t":{"ref":"551","name":"Ligne 551 : La Pierre Saint-Martin → Arette → Oloron-Sainte-Marie","from":"Arette - La Pierre Saint Martin","to":"Oloron-Sainte-Marie - Gare SNCF","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","operator":"Autocars Souletins","colour":"#AFCA0B","route":"bus","public_transport:version":"2"},"n":2,"s":[[8103941171,1],[8103017544,2]]},
+  {"id":11873449,"t":{"ref":"551","name":"Ligne 551 : Oloron-Sainte-Marie → Arette → La Pierre Saint-Martin","from":"Oloron-Sainte-Marie - Gare SNCF","to":"Arette - La Pierre Saint Martin","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","operator":"Autocars Souletins","colour":"#AFCA0B","route":"bus","public_transport:version":"2"},"n":2,"s":[[8103017544,1],[8103941171,2]]},
+  {"id":18515275,"t":{"ref":"Navette","name":"Navette Station <> Espace Nordique","from":"La Pierre-Saint-Martin - Station","to":"La Pierre-Saint-Martin - Espace Nordique","route":"bus"},"n":2,"s":[[12479963211,1],[8103017544,2]]}
+]
+}

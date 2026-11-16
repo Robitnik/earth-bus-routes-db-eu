@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2538,3550],
+"stops":[
+  {"id":3607536700,"lat":36.943277,"lon":-2.462509,"k":"p","n":"Parada de ALSA Rioja"},
+  {"id":5014649777,"lat":36.915299,"lon":-2.452943,"k":"p","n":"El Chuche","ref":"557"},
+  {"id":5014649780,"lat":36.914317,"lon":-2.451957,"k":"p","n":"El Chuche"},
+  {"id":5016833707,"lat":36.926212,"lon":-2.459934,"k":"p","n":"Benahadux - Av. 28 de febrero","ref":"44"},
+  {"id":5017124036,"lat":36.926334,"lon":-2.460691,"k":"p","n":"Benahadux - Av. 28 de febrero"},
+  {"id":5017597567,"lat":36.924604,"lon":-2.461765,"k":"p","n":"Benahadux - Gasolinera"},
+  {"id":5017597568,"lat":36.924359,"lon":-2.461897,"k":"p","n":"Benahadux - Gasolinera"},
+  {"id":9865149771,"lat":36.926163,"lon":-2.459947,"k":"x","n":"Benahadux - Av. 28 de febrero","ref":"44"},
+  {"id":9865149772,"lat":36.924892,"lon":-2.456232,"k":"p","n":"Benahadux - Iglesia","ref":"525"},
+  {"id":9865149773,"lat":36.924844,"lon":-2.456264,"k":"x","n":"Benahadux - Iglesia","ref":"525"},
+  {"id":9865149774,"lat":36.915318,"lon":-2.452992,"k":"x","n":"El Chuche","ref":"557"},
+  {"id":11775409862,"lat":36.926128,"lon":-2.460067,"k":"p","n":"Parada de ALSA Benahadux"}
+],
+"routes":[
+  {"id":7444915,"t":{"ref":"M-102","name":"M-102: Almería → El Chuche → Pechina","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":9,"s":[[5014649777,8]]},
+  {"id":7444916,"t":{"ref":"M-102","name":"M-102: Pechina → El Chuche → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":9,"s":[[5014649780,2]]},
+  {"id":7446598,"t":{"ref":"M-102","name":"M-102: Pechina → El Chuche → El Mirador → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Autodiscrecional Almeriense","route":"bus","public_transport:version":"2"},"n":10,"s":[[5014649780,2]]},
+  {"id":7447622,"t":{"ref":"M-103","name":"M-103: Almería → Benahadux → Gádor","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Grupo Enatcar","route":"bus","public_transport:version":"2"},"n":8,"s":[[5014649777,5],[9865149772,6],[5016833707,7]]},
+  {"id":7448172,"t":{"ref":"M-103","name":"M-103: Gádor → Benahadux → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Grupo Enatcar","route":"bus","public_transport:version":"2"},"n":7,"s":[[5017124036,2]]},
+  {"id":7448173,"t":{"ref":"M-104","name":"M-104: Berja → Gádor → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Consorcio de Transporte Metropolitano Área de Almería","route":"bus","public_transport:version":"2"},"n":2,"s":[[5017124036,1]]},
+  {"id":7448617,"t":{"ref":"M-105","name":"M-105: Almería → Benahadux (Av. 28 de febrero) → Rioja","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Grupo Enatcar","route":"bus","public_transport:version":"2"},"n":3,"s":[[5016833707,2],[3607536700,3]]},
+  {"id":7448618,"t":{"ref":"M105","name":"M-105: Almería → Benahadux (Gasolinera) → Rioja","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Grupo Enatcar","route":"bus","public_transport:version":"2"},"n":3,"s":[[5017597567,2],[3607536700,3]]},
+  {"id":7448619,"t":{"ref":"M-105","name":"M-105: Rioja → Benahadux (Gasolinera) → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Grupo Enatcar","route":"bus","public_transport:version":"2"},"n":2,"s":[[3607536700,1],[5017597568,2]]},
+  {"id":7448620,"t":{"ref":"M-105","name":"M-105: Rioja → Benahadux (Av. 28 de febrero) → Almería","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"Grupo Enatcar","route":"bus","public_transport:version":"2"},"n":3,"s":[[3607536700,1],[5017124036,2]]},
+  {"id":8757996,"t":{"ref":"M-108","name":"M-108: Pechina → Huércal de Almería → UAL","network":"Consorcio de Transporte Metropolitano Área de Almería","operator":"AUTODISCRECIONAL ALMERIENSE","route":"bus","public_transport:version":"2"},"n":13,"s":[[5014649777,2],[9865149772,3],[5016833707,4]]}
+]
+}

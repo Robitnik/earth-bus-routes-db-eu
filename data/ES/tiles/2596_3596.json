@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2596,3596],
+"stops":[
+  {"id":12059567381,"lat":39.820847,"lon":-0.162716,"k":"p","n":"Renfe"},
+  {"id":12059567414,"lat":39.809366,"lon":-0.150191,"k":"p","n":"Moncofa, Camí la Vall 108"},
+  {"id":13123476559,"lat":39.809303,"lon":-0.15027,"k":"p","n":"Moncofa, Camí la Vall 95"},
+  {"id":13173321947,"lat":39.844739,"lon":-0.172471,"k":"p","n":"Cementeri"},
+  {"id":13173321971,"lat":39.849438,"lon":-0.163832,"k":"p","n":"Ambulatori"},
+  {"id":13173321988,"lat":39.8495,"lon":-0.160202,"k":"p","n":"Diagonal"},
+  {"id":13173321990,"lat":39.848797,"lon":-0.15702,"k":"p","n":"Marc A. Ortí - Pujà"},
+  {"id":13173321991,"lat":39.847738,"lon":-0.15975,"k":"p","n":"Llaurador"}
+],
+"routes":[
+  {"id":17848950,"t":{"name":"Platges de Moncofa","from":"Renfe","to":"l'Estanyol","network":"Ajuntament de Moncofa","operator":"HICID","route":"bus","public_transport:version":"2"},"n":7,"s":[[12059567381,1]]},
+  {"id":17848951,"t":{"ref":"339","name":"Platges de Moncofa","from":"l'Estanyol","to":"Renfe","network":"Ajuntament de Moncofa","operator":"AVSA","route":"bus","public_transport:version":"2"},"n":8,"s":[[12059567414,7],[12059567381,8]]},
+  {"id":17849825,"t":{"ref":"364","name":"la Vall d'Uixó → Platja de Moncofa","from":"la Vall d'Uixó","to":"Moncofa, el Grau de Moncofa","network":"Transport Públic Generalitat Valenciana","operator":"HICID","route":"bus","public_transport:version":"2"},"n":5,"s":[[13123476559,2]]},
+  {"id":17849831,"t":{"ref":"364","name":"Platja de Moncofa → la Vall d'Uixó","from":"Moncofa, el Grau de Moncofa","to":"la Vall d'Uixó","network":"Transport Públic Generalitat Valenciana","operator":"HICID","route":"bus","public_transport:version":"2"},"n":4,"s":[[12059567414,3]]},
+  {"id":19572121,"t":{"ref":"361B","name":"Platja de Moncofa → Castelló de la Plana","from":"Moncofa, el Grau de Moncofa","to":"Castelló de la Plana, Estació Intermodal","network":"Transport Públic Generalitat Valenciana","operator":"HICID","route":"bus","public_transport:version":"2"},"n":23,"s":[[12059567414,3]]},
+  {"id":19572122,"t":{"ref":"361A","name":"Castelló de la Plana → Platja de Moncofa","from":"Castelló de la Plana, UJI","to":"Moncofa, el Grau de Moncofa","network":"Transport Públic Generalitat Valenciana","operator":"HICID","route":"bus","public_transport:version":"2"},"n":17,"s":[[13123476559,14]]},
+  {"id":19572123,"t":{"ref":"361B","name":"Castelló de la Plana → Platja de Moncofa","from":"Castelló de la Plana, Estació Intermodal","to":"Moncofa, el Grau de Moncofa","network":"Transport Públic Generalitat Valenciana","operator":"HICID","route":"bus","public_transport:version":"2"},"n":16,"s":[[13123476559,13]]},
+  {"id":19650689,"t":{"from":"Renfe","to":"Renfe","network":"Transport Urbà de Nules","operator":"Autos Vives","route":"bus","public_transport:version":"2"},"n":14,"s":[[13173321990,1,14],[13173321971,11],[13173321988,12],[13173321991,13]]},
+  {"id":19650690,"t":{"from":"Renfe","to":"Renfe","network":"Transport Urbà de Nules","operator":"Autos Vives","route":"bus","public_transport:version":"2"},"n":15,"s":[[13173321990,1,15],[13173321947,11],[13173321971,12],[13173321988,13],[13173321991,14]]},
+  {"id":19650691,"t":{"from":"Mascarell","to":"Renfe","network":"Transport Urbà de Nules","operator":"Autos Vives","route":"bus","public_transport:version":"2"},"n":12,"s":[[13173321971,8],[13173321988,9],[13173321991,10],[13173321990,11]]},
+  {"id":19650692,"t":{"from":"Renfe","to":"Renfe","network":"Transport Urbà de Nules","operator":"Autos Vives","route":"bus","public_transport:version":"2"},"n":16,"s":[[13173321990,7]]}
+]
+}

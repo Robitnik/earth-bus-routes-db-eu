@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2653,3542],
+"stops":[
+  {"id":262726712,"lat":42.661772,"lon":-2.880448,"k":"x","n":"Zambrana"},
+  {"id":585331723,"lat":42.683129,"lon":-2.857247,"k":"x","n":"Berantevilla"},
+  {"id":5887660717,"lat":42.661811,"lon":-2.880357,"k":"p","n":"Zambrana"},
+  {"id":5891260610,"lat":42.683181,"lon":-2.857255,"k":"p","n":"Berantevilla"},
+  {"id":6764053337,"lat":42.66177,"lon":-2.880535,"k":"p","n":"Zambrana"}
+],
+"routes":[
+  {"id":8655855,"t":{"ref":"A17","name":"A17 Bilbao → Haro → Logroño (Por pueblos)","from":"Bilbao","to":"Logroño","network":"Álava Bus","operator":"Autobuses Cuadra","colour":"#bb5cff","route":"bus","public_transport:version":"2"},"n":11,"s":[[6764053337,1]]},
+  {"id":8655928,"t":{"ref":"A17","name":"A17 Logroño → Haro → Bilbao (Por pueblos)","from":"Logroño","to":"Bilbao","network":"Álava Bus","operator":"Autobuses Cuadra","colour":"#bb5cff","route":"bus","public_transport:version":"2"},"n":11,"s":[[5887660717,11]]},
+  {"id":8662798,"t":{"ref":"A12","name":"A12 Haro → Vitoria-Gasteiz (Salinillas - Berantevilla)","from":"Haro","to":"Vitoria-Gasteiz","network":"Álava Bus","operator":"Líneas Regulares de Álava","colour":"#f59630","route":"bus","public_transport:version":"2"},"n":10,"s":[[5887660717,5],[5891260610,6]]},
+  {"id":8662799,"t":{"ref":"A12","name":"A12 Haro → Vitoria-Gasteiz","from":"Haro","to":"Vitoria-Gasteiz","network":"Álava Bus","operator":"Líneas Regulares de Álava","colour":"#f59630","route":"bus","public_transport:version":"2"},"n":8,"s":[[5887660717,4]]},
+  {"id":8662800,"t":{"ref":"A12","name":"A12 Vitoria-Gasteiz → Haro (Salinillas - Berantevilla)","from":"Vitoria-Gasteiz","to":"Haro","network":"Álava Bus","operator":"Líneas Regulares de Álava","colour":"#f59630","route":"bus","public_transport:version":"2"},"n":10,"s":[[5891260610,5],[6764053337,6]]},
+  {"id":8662801,"t":{"ref":"A12","name":"A12 Vitoria-Gasteiz → Haro","from":"Vitoria-Gasteiz","to":"Haro","network":"Álava Bus","operator":"Líneas Regulares de Álava","colour":"#f59630","route":"bus","public_transport:version":"2"},"n":8,"s":[[6764053337,5]]}
+]
+}

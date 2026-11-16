@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"ES",
+"tile":[2646,3441],
+"stops":[
+  {"id":6186912203,"lat":42.348008,"lon":-7.913049,"k":"p","n":"Outariz","ref":"592"},
+  {"id":12249142094,"lat":42.348423,"lon":-7.904989,"k":"p","n":"Depuradora","ref":"652"},
+  {"id":12249142097,"lat":42.348554,"lon":-7.916364,"k":"p","n":"Outariz","ref":"264; 656"},
+  {"id":12254967617,"lat":42.348945,"lon":-7.92157,"k":"p","n":"Polígono Quintela","ref":"586"},
+  {"id":12254967648,"lat":42.348998,"lon":-7.904302,"k":"p","n":"Depuradora","ref":"603"},
+  {"id":12269173612,"lat":42.342106,"lon":-7.947299,"k":"p","n":"Untes - 1","ref":"142"},
+  {"id":12269173613,"lat":42.342628,"lon":-7.93871,"k":"p","n":"Fondo de Barrio","ref":"141"},
+  {"id":12269173614,"lat":42.346975,"lon":-7.930165,"k":"p","n":"Barrio","ref":"140"},
+  {"id":12277480298,"lat":42.346704,"lon":-7.930326,"k":"p","n":"Barrio","ref":"160"},
+  {"id":12277480299,"lat":42.342867,"lon":-7.937216,"k":"p","n":"Fondo de Barrio","ref":"159"},
+  {"id":12277480300,"lat":42.341983,"lon":-7.946491,"k":"p","n":"Untes - 3","ref":"158"},
+  {"id":12277562030,"lat":42.349956,"lon":-7.919311,"k":"p","n":"Estrada de Vigo Nº 69","ref":"442"}
+],
+"routes":[
+  {"id":18201300,"t":{"ref":"19","name":"19: Praza Maior => Termas de Outariz","from":"Praza Maior","to":"Outariz","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":11,"s":[[12249142097,11]]},
+  {"id":18215760,"t":{"ref":"19","name":"19: Termas de Outariz => Praza Maior","from":"Outariz","to":"Praza Maior","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":10,"s":[[12249142097,1]]},
+  {"id":18216207,"t":{"ref":"15","name":"15*: Santa Cruz => Residencia","route":"bus","public_transport:version":"2"},"n":36,"s":[[12277480300,8],[12277480299,9],[12277480298,10],[12254967617,11],[12277562030,12]]},
+  {"id":18218599,"t":{"ref":"5","name":"5: Reza => Ceboliño","from":"Outariz (Reza)","to":"Ceboliño","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":36,"s":[[6186912203,1],[12249142094,2]]},
+  {"id":18221599,"t":{"ref":"C17","name":"C17: Fechos => Seoane => Fonsillón","from":"Fechos","to":"Fonsillón - Aira","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":43,"s":[[12277480300,13],[12277480299,14],[12277480298,15],[12254967617,16],[12277562030,17]]},
+  {"id":18224718,"t":{"ref":"5","name":"5: Ceboliño => Reza","from":"Ceboliño","to":"Outariz (Reza)","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":35,"s":[[12254967648,34],[6186912203,35]]},
+  {"id":18225963,"t":{"ref":"15","name":"15*: Residencia => Santa Cruz","from":"Chano Piñeiro","to":"Santa Cruz","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":36,"s":[[12269173614,25],[12269173613,26],[12269173612,27]]},
+  {"id":18234259,"t":{"ref":"5","name":"5*: Ceboliño Aldea => Reza","from":"Ceboliño Aldea","to":"Outariz (Reza)","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":36,"s":[[12254967648,35],[6186912203,36]]},
+  {"id":18234260,"t":{"ref":"5","name":"5*: Reza => Ceboliño aldea","from":"Outariz (Reza)","to":"Ceboliño Aldea","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":37,"s":[[6186912203,1],[12249142094,2]]},
+  {"id":18234265,"t":{"ref":"C17","name":"C17: Xardín => Parque S.Lázaro => Est.Intermodal => Seoane => Fechos","from":"Parque San Lázaro","to":"Fechos","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":37,"s":[[12269173614,21],[12269173613,22],[12269173612,23]]},
+  {"id":18239426,"t":{"ref":"1","name":"1: Seixalbo => Santa Cruz","from":"Seixalbo Parque","to":"Santa Cruz","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":40,"s":[[12269173614,31]]},
+  {"id":18239427,"t":{"ref":"1","name":"1: Santa Cruz => Seixalbo","from":"Santa Cruz","to":"Seixalbo Parque","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":32,"s":[[12254967617,1],[12277562030,2]]},
+  {"id":18241845,"t":{"ref":"15","name":"15: Santa Cruz => Parque de San Lázaro","from":"Santa Cruz","to":"Parque de San Lázaro (Xoán XXIII)","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":26,"s":[[12277480300,9],[12277480299,10],[12277480298,11],[12254967617,12]]},
+  {"id":18241846,"t":{"ref":"15","name":"15: Parque de San Lázaro => Santa Cruz","from":"Parque de San Lázaro (Xoán XXIII)","to":"Santa Cruz","network":"Urbanos de Ourense","operator":"Avanza","route":"bus","public_transport:version":"2"},"n":26,"s":[[12269173614,16],[12269173613,17],[12269173612,18]]},
+  {"id":18249139,"t":{"ref":"C17","name":"C17: Fechos => Est. Intermmodal => P.S Lázaro => Xardín => M.Macías => Fonsillón","route":"bus","public_transport:version":"2"},"n":33,"s":[[12277480300,14],[12277480298,15],[12254967617,16],[12277562030,17]]}
+]
+}
