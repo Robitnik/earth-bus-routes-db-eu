@@ -1,0 +1,23 @@
+{
+"v":1,
+"id":3027806061867,
+"cc":"DE",
+"mode":"bus",
+"t":{"ref":"625","name":"Bus 625: Rogätz => Angern/Rogätz Bhf","from":"Rogätz, MTS","to":"Angern/ Rogätz Bahnhof","operator":"Ohrebus","public_transport:version":"2","route":"bus"},
+"ways":[
+  {"g":"ofh~HmlxfAwAwEmA}FcB}DmCeEiAqDgAuBe@c@e@FmGbDmElBg@`@KTUFiC~AeBxAo@~@{BfF_@t@WVeo@lK","t":{"maxspeed":"50","maxspeed:type":"DE:urban"}},
+  {"g":"ejk~H{hxfAwYzEmFhAuLnD","t":{"maxspeed":"100","maxspeed:type":"DE:rural"}},
+  {"g":"azl~HezwfAwGpC","t":{"maxspeed:forward":"50","maxspeed:backward":"100"}},
+  {"g":"ybm~HsuwfAg@V","t":{"maxspeed":"50","maxspeed:type":"sign"}},
+  {"g":"adm~H{twfAi@V","t":{"maxspeed:forward":"100","maxspeed:backward":"50","maxspeed:type":"sign"}},
+  {"g":"kem~HctwfAsG~C","t":{"maxspeed:forward":"100","maxspeed:backward":"50"}}
+],
+"stops":[
+  {"s":2109967835,"o":0,"la":52.312181,"lo":11.763011,"n":"Rogätz, MTS"},
+  {"s":1940285461,"o":1,"la":52.317607,"lo":11.767563,"n":"Rogätz, Mitte"},
+  {"s":2109967817,"o":2,"la":52.324273,"lo":11.763359,"n":"Rogätz, Hamker"},
+  {"s":1940279809,"o":3,"la":52.338239,"lo":11.758499,"n":"Angern/ Rogätz Bahnhof"}
+],
+"times":{"wd":[430,670,1030,1150,1210],"sa":[430,550,670,910,1030,1150],"su":[430,550,670,790,910,1030,1150]},
+"src":[{"k":"osm","id":"r2702866"},{"k":"gtfs","feed":"mdb-3215","id":"160185","lic":"CC-BY"}]
+}
