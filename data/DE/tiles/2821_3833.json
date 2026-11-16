@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2821,3833],
+"stops":[
+  {"id":2485663568,"lat":51.093755,"lon":11.682547,"k":"x","n":"Kaatschen-Weichau"},
+  {"id":8346206131,"lat":51.054527,"lon":11.699566,"k":"p","n":"Camburg, Schmiedehäuser Straße"},
+  {"id":8346206132,"lat":51.054554,"lon":11.699559,"k":"x","n":"Camburg, Schmiedehäuser Straße"},
+  {"id":12496233351,"lat":51.081718,"lon":11.665408,"k":"p","n":"Lachstedt"},
+  {"id":12496233352,"lat":51.081752,"lon":11.665402,"k":"x","n":"Lachstedt"},
+  {"id":12496233365,"lat":51.068773,"lon":11.665626,"k":"p","n":"Schmiedehausen"},
+  {"id":12496233366,"lat":51.068767,"lon":11.665422,"k":"p","n":"Schmiedehausen"},
+  {"id":12496233367,"lat":51.068776,"lon":11.665529,"k":"x","n":"Schmiedehausen"},
+  {"id":12639807947,"lat":51.093768,"lon":11.68245,"k":"p","n":"Kaatschen-Weichau"}
+],
+"routes":[
+  {"id":12218800,"t":{"ref":"420","name":"Bus 420: Camburg - Jena","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":2,"s":[[8346206131,1]]},
+  {"id":17772438,"t":{"ref":"285","name":"Bus 285: Apolda, Busbahnhof => Bad Sulza => Kaatchen-Weichau","from":"Apolda, Busbahnhof","to":"Kaatchen-Weichau","network":"Verkehrsverbund Mittelthüringen","operator":"PVG mbH Weimarer Land","route":"bus","public_transport:version":"2"},"n":24,"s":[[12639807947,24]]},
+  {"id":18542214,"t":{"ref":"282","name":"Bus 282: Camburg, Schießplatz => Apolda, Busbahnhof","from":"Camburg, Schießplatz","to":"Apolda, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"PVG mbH Weimarer Land","route":"bus","public_transport:version":"2"},"n":17,"s":[[12496233351,3],[12496233366,4]]},
+  {"id":18542215,"t":{"ref":"282","name":"Bus 282: Apolda => Camburg","from":"Apolda","to":"Camburg","network":"Verkehrsverbund Mittelthüringen","operator":"PVG mbH Weimarer Land","route":"bus","public_transport:version":"2"},"n":16,"s":[[12496233365,14],[8346206131,15]]},
+  {"id":18790070,"t":{"ref":"285","name":"Bus 285: Schmiedehausen => Bad Sulza => Apolda, Busbahnhof","from":"Schmiedehausen","to":"Apolda, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"PVG mbH Weimarer Land","route":"bus","public_transport:version":"2"},"n":24,"s":[[12496233365,1]]},
+  {"id":18790071,"t":{"ref":"285","name":"Bus 285: Apolda, Busbahnhof => Bad Sulza => Schmiedehausen","from":"Apolda, Busbahnhof","to":"Schmiedehausen","network":"Verkehrsverbund Mittelthüringen","operator":"PVG mbH Weimarer Land","route":"bus","public_transport:version":"2"},"n":23,"s":[[12496233365,23]]},
+  {"id":18790072,"t":{"ref":"285","name":"Bus 285: Kaatchen-Weichau => Bad Sulza => Apolda, Busbahnhof","from":"Kaatchen-Weichau","to":"Apolda, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"PVG mbH Weimarer Land","route":"bus","public_transport:version":"2"},"n":25,"s":[[12639807947,1]]}
+]
+}

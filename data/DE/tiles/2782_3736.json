@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2782,3736],
+"stops":[
+  {"id":934782956,"lat":49.144171,"lon":6.801899,"k":"p","n":"Freyming Place du Marché"},
+  {"id":934782960,"lat":49.149818,"lon":6.81075,"k":"p","n":"Merlebach Gare Routière"},
+  {"id":935865124,"lat":49.148435,"lon":6.820408,"k":"p","n":"Merlebach Supermarché"},
+  {"id":2556679797,"lat":49.145132,"lon":6.810911,"k":"p","n":"Merlebach, Gare SNCF"},
+  {"id":3833282525,"lat":49.13186,"lon":6.839229,"k":"p","n":"Arrêt Fontaine"},
+  {"id":6643634323,"lat":49.149465,"lon":6.827741,"k":"p","n":"Merlebach, Faubourg"},
+  {"id":6778259324,"lat":49.137866,"lon":6.828915,"k":"p","n":"Gare de Béning"},
+  {"id":6778259325,"lat":49.138,"lon":6.828711,"k":"p","n":"Gare de Béning"},
+  {"id":7091634843,"lat":49.142196,"lon":6.810025,"k":"x","n":"Freyming-Merlebach"},
+  {"id":7091634844,"lat":49.142176,"lon":6.810054,"k":"p","n":"Freyming-Merlebach"},
+  {"id":7856257885,"lat":49.139269,"lon":6.840218,"k":"p","n":"Croisement"},
+  {"id":10796675460,"lat":49.147314,"lon":6.818415,"k":"p","n":"Hôtel de Ville"}
+],
+"routes":[
+  {"id":1204988,"t":{"ref":"MS","name":"Bus MS Moselle Saar: Hombourg-Haut Supermarché => Saarbrücken Hauptbahnhof","from":"Hombourg-Haut Supermarché","to":"Saarbrücken Hauptbahnhof","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#0070A8","route":"bus","public_transport:version":"2"},"n":14,"s":[[934782956,1],[2556679797,2],[934782960,3],[935865124,4],[6643634323,5]]},
+  {"id":9928024,"t":{"ref":"MS","name":"Bus MS Moselle Saar: Saarbrücken Hauptbahnhof => Hombourg-Haut Supermarché","from":"Saarbrücken Hauptbahnhof","to":"Hombourg-Haut Supermarché","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#0070A8","route":"bus","public_transport:version":"2"},"n":13,"s":[[6643634323,10],[934782960,11],[2556679797,12],[934782956,13]]},
+  {"id":10495273,"t":{"ref":"775","name":"Flixbus 775: Zürich HB, Carpark Sihlquai => Metz, Busbahnhof","from":"Zürich HB, Carpark Sihlquai","to":"Metz, Busbahnhof","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[7091634843,1],[7091634844,2]]},
+  {"id":10495274,"t":{"ref":"775","name":"Flixbus 775: Metz, Busbahnhof => Zürich HB, Carpark Sihlquai","from":"Metz, Busbahnhof","to":"Zürich HB, Carpark Sihlquai","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[7091634843,1],[7091634844,2]]},
+  {"id":19627322,"t":{"ref":"123","name":"Bus 123 : Hellimer -> Freyming-Merlebach","from":"Hellimer","to":"Freyming-Merlebach","network":"Fluo Grand Est","operator":"Transdev Grand Est","route":"bus"},"n":2,"s":[[10796675460,1]]},
+  {"id":3089822906496,"t":{"ref":"C52","name":"C52: Saarbrücken Hbf - Bening","from":"Saarbrücken Hbf","to":"Bening","operator":"SNCF","route":"bus","public_transport:version":"2"},"n":4,"s":[[6778259325,4]]}
+]
+}

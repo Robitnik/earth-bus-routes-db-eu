@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2795,3834],
+"stops":[
+  {"id":5653970034,"lat":49.751083,"lon":11.745571,"k":"p","n":"Röthenlohe"},
+  {"id":7255101436,"lat":49.796919,"lon":11.739706,"k":"p","n":"Ernstfeld"},
+  {"id":7255101437,"lat":49.796994,"lon":11.740235,"k":"p","n":"Ernstfeld"},
+  {"id":9189969872,"lat":49.76655,"lon":11.715218,"k":"p","n":"Pfaffenstetten"},
+  {"id":9190063652,"lat":49.776591,"lon":11.700893,"k":"p","n":"Sassenreuth"},
+  {"id":9190063653,"lat":49.777015,"lon":11.701384,"k":"p","n":"Sassenreuth"},
+  {"id":9264330880,"lat":49.790111,"lon":11.700198,"k":"p","n":"Metzlasreuth"},
+  {"id":9266276346,"lat":49.757479,"lon":11.715864,"k":"p","n":"Burggrub b. Kirchenthumbach"},
+  {"id":9267257208,"lat":49.769929,"lon":11.711211,"k":"p","n":"Wölkersdorf"},
+  {"id":9275272389,"lat":49.769476,"lon":11.74343,"k":"p","n":"Penzenreuth"},
+  {"id":9282974816,"lat":49.750957,"lon":11.745825,"k":"p","n":"Röthenlohe"},
+  {"id":6003053727869,"lat":49.799988,"lon":11.707141,"k":"p","n":"Naslitz","g":1},
+  {"id":6012236784345,"lat":49.752552,"lon":11.708695,"k":"p","n":"Asbach b. Kirchenthumbach","g":1},
+  {"id":6021522516412,"lat":49.766828,"lon":11.7159,"k":"p","n":"Pfaffenstetten","g":1},
+  {"id":6029628628014,"lat":49.799988,"lon":11.707141,"k":"p","n":"Naslitz","g":1},
+  {"id":6033107775631,"lat":49.799988,"lon":11.707141,"k":"p","n":"Naslitz","g":1},
+  {"id":6042729459304,"lat":49.754554,"lon":11.724074,"k":"p","n":"Kirchenthumbach, Am Sandbrunnen","g":1},
+  {"id":6067386213038,"lat":49.769839,"lon":11.742786,"k":"p","n":"Penzenreuth","g":1},
+  {"id":6068716603565,"lat":49.756371,"lon":11.749883,"k":"p","n":"Fronlohe","g":1},
+  {"id":6080385359491,"lat":49.799988,"lon":11.707141,"k":"p","n":"Naslitz","g":1}
+],
+"routes":[
+  {"id":11228780,"t":{"ref":"1954","name":"Bus 1954: Heinersberg -> Schlammersdorf -> Eschenbach","from":"Heinersberg","to":"Schlammersdorf - Eschenbach","network":"VGN","colour":"#0095DA","route":"bus"},"n":10,"s":[[7255101436,7]]},
+  {"id":11228781,"t":{"ref":"1954","name":"Bus 1954: Eschenbach -> Schlammersdorf -> Heinersberg","from":"Eschenbach","to":"Schlammersdorf - Heinersberg","network":"VGN","colour":"#0095DA","route":"bus"},"n":10,"s":[[7255101437,10]]},
+  {"id":11233471,"t":{"ref":"452","name":"Bus 452: Pressath -> Kirchenthumbach -> Auerbach -> Neuhaus (Pegn)","from":"Pressath","to":"Neuhaus (Pegn)","network":"VGN","colour":"#F58221","route":"bus"},"n":47,"s":[[5653970034,17]]},
+  {"id":11233472,"t":{"ref":"452","name":"Bus 452: Neuhaus (Pegn) -> Auerbach -> Kirchenthumbach -> Pressath","from":"Neuhaus (Pegn)","to":"Pressath","network":"VGN","colour":"#F58221","route":"bus"},"n":47,"s":[[5653970034,31]]},
+  {"id":3009426517582,"t":{"ref":"1987","name":"1987: Pegnitz - Eschenbach, Gewerbegebiet","from":"Pegnitz","to":"Eschenbach, Gewerbegebiet","operator":"Bus15","route":"bus","public_transport:version":"2"},"n":39,"s":[[9266276346,8],[6012236784345,9],[9267257208,14],[6021522516412,15],[6067386213038,16],[6042729459304,17],[5653970034,25]]},
+  {"id":3031065163761,"t":{"ref":"1987","name":"1987: Eschenbach, Gewerbegebiet - Pegnitz","from":"Eschenbach, Gewerbegebiet","to":"Pegnitz","operator":"Bus15","route":"bus","public_transport:version":"2"},"n":39,"s":[[6068716603565,14],[9282974816,15],[6042729459304,23],[6067386213038,24],[6021522516412,25],[9267257208,26],[6012236784345,31],[9266276346,32]]},
+  {"id":3050631593813,"t":{"ref":"1987","name":"1987: Neurunkenreuth - Pegnitz","from":"Neurunkenreuth","to":"Pegnitz","operator":"Bus15","route":"bus","public_transport:version":"2"},"n":55,"s":[[6042729459304,39],[7255101436,42],[6033107775631,44]]},
+  {"id":3053385172525,"t":{"ref":"1988","name":"1988: Trabitz, Bf - Moos bei Schlammersdorf","from":"Trabitz, Bf","to":"Moos bei Schlammersdorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":57,"s":[[6080385359491,53],[7255101436,56]]},
+  {"id":3058603593052,"t":{"ref":"1987","name":"1987: Pegnitz - Neurunkenreuth","from":"Pegnitz","to":"Neurunkenreuth","operator":"Bus15","route":"bus","public_transport:version":"2"},"n":55,"s":[[6003053727869,12],[7255101436,14],[6042729459304,17]]},
+  {"id":3097866986426,"t":{"ref":"1988","name":"1988: Moos bei Schlammersdorf - Trabitz, Bf","from":"Moos bei Schlammersdorf","to":"Trabitz, Bf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":57,"s":[[7255101436,2],[6029628628014,5]]}
+]
+}

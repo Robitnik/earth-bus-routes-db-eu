@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2767,3790],
+"stops":[
+  {"id":246812598,"lat":48.374363,"lon":9.546906,"k":"x","n":"Mehrstetten Greut"},
+  {"id":3883947517,"lat":48.378192,"lon":9.516322,"k":"p","n":"Münsingen Oberheutal"},
+  {"id":3883947518,"lat":48.378565,"lon":9.515988,"k":"p","n":"Münsingen Oberheutal"},
+  {"id":3884960006,"lat":48.367822,"lon":9.532513,"k":"p","n":"Münsingen Unterheutal"},
+  {"id":4692316519,"lat":48.367964,"lon":9.53241,"k":"p","n":"Münsingen Unterheutal"},
+  {"id":4692356615,"lat":48.378149,"lon":9.516281,"k":"x","n":"Münsingen Oberheutal"},
+  {"id":4692356616,"lat":48.378562,"lon":9.516046,"k":"x","n":"Münsingen Oberheutal"},
+  {"id":4919397419,"lat":48.375537,"lon":9.547167,"k":"x","n":"Mehrstetten Ziegelhof"},
+  {"id":5851548499,"lat":48.367893,"lon":9.532459,"k":"x","n":"Münsingen Unterheutal"},
+  {"id":5851548500,"lat":48.368014,"lon":9.535667,"k":"x","n":"Mehrstetten Fron-Tal"},
+  {"id":5851548501,"lat":48.367936,"lon":9.536054,"k":"p","n":"Mehrstetten Fron-Tal"},
+  {"id":5851548502,"lat":48.375434,"lon":9.547089,"k":"p","n":"Mehrstetten Ziegelhof"},
+  {"id":5853534964,"lat":48.374445,"lon":9.546947,"k":"p","n":"Mehrstetten Greut"},
+  {"id":5853534965,"lat":48.368108,"lon":9.535563,"k":"p","n":"Mehrstetten Fron-Tal"}
+],
+"routes":[
+  {"id":8557631,"t":{"ref":"7662","name":"DE_naldo_7662: Münsingen => Gymnasium => Dürrenstetten","from":"Münsingen Bahnhof","to":"Gymnasium","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":6,"s":[[3883947518,3],[3884960006,4]]},
+  {"id":8557632,"t":{"ref":"7662","name":"DE_naldo_7662: Münsingen => Schlosshof => Mehrstetten","from":"Münsingen Bahnhof","to":"Mehrstetten","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":9,"s":[[3883947518,3],[3884960006,4],[5851548501,5],[5851548502,6]]},
+  {"id":8590163,"t":{"ref":"7662","name":"DE_naldo_7662: Mehrstetten => Schillerschule => Münsingen","from":"Mehrstetten","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":9,"s":[[5853534964,4],[5853534965,5],[4692316519,6],[3883947517,7]]},
+  {"id":8590164,"t":{"ref":"7662","name":"DE_naldo_7662: Mehrstetten => Oberes Tor => Münsingen","from":"Mehrstetten","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":9,"s":[[5853534964,4],[5853534965,5],[4692316519,6],[3883947517,7]]},
+  {"id":13752186,"t":{"ref":"331","name":"DE_naldo_331: Münsingen => Mehrstetten => Ehingen (Donau)","from":"Münsingen Bahnhof","to":"Ehingen (Donau) Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[3883947518,3],[3884960006,4],[5853534964,6]]},
+  {"id":13752187,"t":{"ref":"331","name":"DE_naldo_331: Münsingen => Ehingen (Donau)","from":"Münsingen Bahnhof","to":"Ehingen (Donau) Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":7,"s":[[3883947518,3],[3884960006,4]]},
+  {"id":3047567931105,"t":{"ref":"7662","name":"DE_naldo_7662: Dürrenstetten => Mehrstetten => Oberes Tor => Münsingen","from":"Dürrenstetten","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":8,"s":[[246812598,3],[5851548500,4],[4692316519,5],[3883947517,6]]},
+  {"id":3075067332036,"t":{"ref":"7662","name":"DE_naldo_7662: Münsingen => Schlosshof => Mehrstetten => Dürrenstetten","from":"Münsingen Bahnhof","to":"Dürrenstetten","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":8,"s":[[3883947518,3],[3884960006,4],[5851548501,5],[4919397419,6]]},
+  {"id":3080486129290,"t":{"ref":"331","name":"DE_naldo_331: Ehingen (Donau) => Mehrstetten => Münsingen","from":"Ehingen (Donau) Busbahnhof","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[246812598,7],[4692316519,8],[4692356615,9]]},
+  {"id":3088975770760,"t":{"ref":"331","name":"DE_naldo_331: Ehingen (Donau) => Mehrstetten => Münsingen","from":"Ehingen (Donau) Busbahnhof","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[246812598,7],[4692316519,8],[3883947517,9]]}
+]
+}

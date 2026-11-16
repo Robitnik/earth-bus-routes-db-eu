@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2791,3849],
+"stops":[
+  {"id":7639648950,"lat":49.586495,"lon":12.490576,"k":"p","n":"Putzenrieth"},
+  {"id":8597907098,"lat":49.586541,"lon":12.490788,"k":"p","n":"Putzenrieth"},
+  {"id":8597935109,"lat":49.58557,"lon":12.451297,"k":"p","n":"Ödbraunetsrieth"},
+  {"id":8625064757,"lat":49.59598,"lon":12.45006,"k":"p","n":"Heumaden"},
+  {"id":8871383917,"lat":49.567227,"lon":12.459611,"k":"p","n":"Ragenwies, Burgschleif"},
+  {"id":8871398607,"lat":49.573835,"lon":12.485113,"k":"p","n":"Roßtränk, Bruckhof"},
+  {"id":11123356737,"lat":49.596611,"lon":12.492304,"k":"p","n":"Thomasgschieß"},
+  {"id":6004432892645,"lat":49.596833,"lon":12.493077,"k":"p","n":"Thomasgschieß","g":1},
+  {"id":6050545998807,"lat":49.59812,"lon":12.478875,"k":"p","n":"Bruckhof, bei Eslarn","g":1},
+  {"id":6067198599713,"lat":49.598306,"lon":12.478578,"k":"p","n":"Bruckhof, bei Eslarn","g":1}
+],
+"routes":[
+  {"id":11223127,"t":{"ref":"1936","name":"Bus 1936: Moosbach -> Eslarn -> Oberviechtach","from":"Moosbach","to":"Oberviechtach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[7639648950,3]]},
+  {"id":11223143,"t":{"ref":"1936","name":"Bus 1936: Oberviechtach -> Eslarn -> Moosbach","from":"Oberviechtach","to":"Moosbach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[7639648950,16]]},
+  {"id":3006400303707,"t":{"ref":"1984","name":"1984: Ödbraunetsrieth - Erpetshof, Abzw","from":"Ödbraunetsrieth","to":"Erpetshof, Abzw","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":101,"s":[[8625064757,3],[8871383917,18]]},
+  {"id":3015380999879,"t":{"ref":"1930","name":"Bus 1930: Eslarn -> Waidhaus / Moosbach -> Vohenstrauß -> Weiden","from":"Eslarn","to":"Weiden","network":"VGN","colour":"#A7CE39","route":"bus","public_transport:version":"2"},"n":29,"s":[[8597907098,2]]},
+  {"id":3027408881299,"t":{"ref":"1984","name":"1984: Weiden (Oberpf) - Ödbraunetsrieth","from":"Weiden (Oberpf)","to":"Ödbraunetsrieth","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":102,"s":[[8871383917,85],[8625064757,100]]},
+  {"id":3034164865648,"t":{"ref":"1930","name":"Bus 1930: Weiden -> Vohenstrauß -> Waidhaus / Moosbach -> Eslarn","from":"Weiden","to":"Eslarn","network":"VGN","colour":"#A7CE39","route":"bus","public_transport:version":"2"},"n":28,"s":[[8597907098,27]]},
+  {"id":3035325993114,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Vohenstrauß, Marktplatz","from":"Schönsee, Rathaus/Post","to":"Vohenstrauß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[8871398607,6],[8597907098,13],[11123356737,14],[6067198599713,15]]},
+  {"id":3056857914902,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Weiden (Oberpf)","from":"Schönsee, Rathaus/Post","to":"Weiden (Oberpf)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[8871398607,6],[8597907098,13],[11123356737,14],[6067198599713,15]]},
+  {"id":3059584409868,"t":{"ref":"1983","name":"1983: Weiden (Oberpf) - Schönsee, Rathaus/Post","from":"Weiden (Oberpf)","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[6050545998807,72],[6004432892645,73],[8597907098,74],[8871398607,81]]},
+  {"id":3061094411239,"t":{"ref":"1984","name":"1984: Erpetshof, Abzw - Ödbraunetsrieth","from":"Erpetshof, Abzw","to":"Ödbraunetsrieth","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":101,"s":[[8871383917,84],[8625064757,99]]},
+  {"id":3096323727158,"t":{"ref":"1983","name":"1983: Vohenstrauß, Marktplatz - Schönsee, Rathaus/Post","from":"Vohenstrauß, Marktplatz","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[6050545998807,71],[6004432892645,72],[8597907098,73],[8871398607,80]]}
+]
+}

@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2754,3801],
+"stops":[
+  {"id":289564050,"lat":47.702451,"lon":10.050682,"k":"x","n":"Isny Gewerbegebiet Bühlberg"},
+  {"id":295411458,"lat":47.725826,"lon":10.079662,"k":"x","n":"Isny Rohrdorf Grundschule"},
+  {"id":2558573215,"lat":47.709284,"lon":10.070523,"k":"p","n":"Isny Ratzenhofen"},
+  {"id":4535542195,"lat":47.747553,"lon":10.06904,"k":"p","n":"Leutkirch Rimpach"},
+  {"id":4535542196,"lat":47.747437,"lon":10.06906,"k":"p","n":"Leutkirch Rimpach"},
+  {"id":4535542197,"lat":47.726407,"lon":10.077692,"k":"p","n":"Isny Rohrdorf"},
+  {"id":4535542198,"lat":47.72649,"lon":10.077496,"k":"p","n":"Isny Rohrdorf"},
+  {"id":4535542201,"lat":47.726535,"lon":10.065924,"k":"p","n":"Isny Aigeltshofen"},
+  {"id":4535542202,"lat":47.727226,"lon":10.066154,"k":"p","n":"Isny Aigeltshofen"},
+  {"id":4535542203,"lat":47.718324,"lon":10.056731,"k":"p","n":"Isny Rengers L318"},
+  {"id":4535542204,"lat":47.71821,"lon":10.056335,"k":"p","n":"Isny Rengers L318"},
+  {"id":4535633873,"lat":47.703194,"lon":10.074635,"k":"p","n":"Isny Burg"},
+  {"id":4535633874,"lat":47.725754,"lon":10.079678,"k":"p","n":"Isny Rohrdorf Grundschule"},
+  {"id":4535633875,"lat":47.706773,"lon":10.05889,"k":"p","n":"Isny Achen"},
+  {"id":4535633876,"lat":47.702482,"lon":10.050606,"k":"p","n":"Isny Gewerbegebiet Bühlberg"},
+  {"id":6574014350,"lat":47.718178,"lon":10.056398,"k":"x","n":"Isny Rengers L318"},
+  {"id":8362945384,"lat":47.71837,"lon":10.056655,"k":"x","n":"Isny Rengers L318"},
+  {"id":8362945385,"lat":47.727255,"lon":10.066296,"k":"x","n":"Isny Aigeltshofen"},
+  {"id":8362945386,"lat":47.72653,"lon":10.065807,"k":"x","n":"Isny Aigeltshofen"},
+  {"id":8362945387,"lat":47.726458,"lon":10.077574,"k":"x","n":"Isny Rohrdorf"},
+  {"id":9768920821,"lat":47.709313,"lon":10.070552,"k":"x","n":"Isny Ratzenhofen"},
+  {"id":12758481002,"lat":47.706757,"lon":10.058958,"k":"x","n":"Isny Achen"}
+],
+"routes":[
+  {"id":5758493,"t":{"ref":"7551","name":"Bus 7551: Leutkirch => Urlau => Friesenhofen => Rimpach => Rohrdorf => Isny","from":"Leutkirch Bahnhof","to":"Isny, Kurhaus, Busbahnhof","network":"Bodensee-Oberschwaben Verkehrsverbund","operator":"Regionalverkehr Alb-Bodensee GmbH","colour":"#00844A","route":"bus","public_transport:version":"2"},"n":15,"s":[[4535542198,11],[4535542202,12],[4535542204,13]]},
+  {"id":18995678,"t":{"ref":"74","name":"Bus 74: Isny Überruh => Neutrauchburg, Klinik Alpenblick","from":"Isny Überruh","to":"Neutrauchburg, Klinik Alpenblick","operator":"Stadt Isny Mobilitätszentrale","route":"bus"},"n":30,"s":[[2558573215,15],[9768920821,16],[12758481002,17],[4535633875,18],[295411458,19],[4535633874,20],[289564050,21],[4535633876,22]]},
+  {"id":18995679,"t":{"ref":"74","name":"Bus 74: Isny Überruh => Isny Spitalhofweg","from":"Isny Überruh","to":"Isny Spitalhofweg","operator":"Stadt Isny Mobilitätszentrale","route":"bus"},"n":37,"s":[[9768920821,21],[2558573215,22],[12758481002,23],[4535633875,24],[289564050,25],[4535633876,26]]},
+  {"id":19025874,"t":{"ref":"74","name":"Bus 74: Isny Spitalhofweg => Isny Überruh","from":"Isny Spitalhofweg","to":"Isny Überruh","operator":"Stadt Isny Mobilitätszentrale","route":"bus"},"n":27,"s":[[12758481002,7],[295411458,8],[4535633874,9],[9768920821,10],[2558573215,11]]},
+  {"id":3016190962267,"t":{"ref":"7551","name":"7551: Isny, Felderhalde - Leutkirch Bahnhof","from":"Isny, Felderhalde","to":"Leutkirch Bahnhof","operator":"Regionalbus Alb-Bodensee","route":"bus","public_transport:version":"2"},"n":21,"s":[[8362945384,8],[8362945386,9],[4535542197,10],[4535542196,11]]},
+  {"id":3023623741942,"t":{"ref":"S95","name":"S95: Isny Kurhaus, Busbhf - Leutkirch Bahnhof","from":"Isny Kurhaus, Busbhf","to":"Leutkirch Bahnhof","operator":"Regionalbus Alb-Bodensee","route":"bus","public_transport:version":"2"},"n":7,"s":[[4535633875,3],[8362945386,4]]},
+  {"id":3069190309724,"t":{"ref":"S95","name":"S95: Leutkirch Bahnhof - Isny Kurhaus, Busbhf","from":"Leutkirch Bahnhof","to":"Isny Kurhaus, Busbhf","operator":"Regionalbus Alb-Bodensee","route":"bus","public_transport:version":"2"},"n":7,"s":[[4535542202,4],[4535633875,5]]},
+  {"id":3079173181661,"t":{"ref":"7551","name":"7551: Leutkirch Bahnhof - Isny, Felderhalde","from":"Leutkirch Bahnhof","to":"Isny, Felderhalde","operator":"Regionalbus Alb-Bodensee","route":"bus","public_transport:version":"2"},"n":23,"s":[[4535542196,12],[8362945387,13],[4535542202,14],[6574014350,15]]},
+  {"id":3086456177766,"t":{"ref":"S95","name":"S95: Leutkirch Bahnhof - Isny, Felderhalde","from":"Leutkirch Bahnhof","to":"Isny, Felderhalde","operator":"Regionalbus Alb-Bodensee","route":"bus","public_transport:version":"2"},"n":9,"s":[[4535542202,4]]},
+  {"id":3095470632784,"t":{"ref":"7551","name":"Bus 7551: Leutkirch => Urlau => Friesenhofen => Rimpach => Rohrdorf => Neutrauchburg => Isny","from":"Leutkirch Bahnhof","to":"Isny, Kurhaus, Busbahnhof","network":"Bodensee-Oberschwaben Verkehrsverbund","operator":"Regionalverkehr Alb-Bodensee GmbH","colour":"#00844A","route":"bus","public_transport:version":"2"},"n":20,"s":[[4535542196,12],[8362945387,13],[4535542202,14],[6574014350,15]]}
+]
+}

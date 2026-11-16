@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2784,3831],
+"stops":[
+  {"id":1908965357,"lat":49.239661,"lon":11.596924,"k":"p","n":"Harenzhofen"},
+  {"id":4356678349,"lat":49.236769,"lon":11.561773,"k":"p","n":"Unterbuchfeld"},
+  {"id":5891398228,"lat":49.212919,"lon":11.553989,"k":"p","n":"Mittersthal"},
+  {"id":10017406625,"lat":49.236329,"lon":11.561002,"k":"p","n":"Unterbuchfeld"},
+  {"id":10026732157,"lat":49.230235,"lon":11.597797,"k":"x","n":"Abzweig Harenzhofen"},
+  {"id":10026732158,"lat":49.230187,"lon":11.597907,"k":"p","n":"Abzweig Harenzhofen"},
+  {"id":10044242083,"lat":49.239641,"lon":11.596935,"k":"x","n":"Harenzhofen"},
+  {"id":10044242084,"lat":49.239601,"lon":11.597004,"k":"p","n":"Harenzhofen"},
+  {"id":10060890615,"lat":49.212954,"lon":11.553985,"k":"x","n":"Mittersthal"},
+  {"id":6082459619655,"lat":49.232604,"lon":11.552523,"k":"p","n":"Deining Kaplan-Seitz-Straße","g":1}
+],
+"routes":[
+  {"id":7770825,"t":{"ref":"587","name":"Buslinie 587 Neumarkt(Opf.) - Breitenbrunn - Predlfing","from":"Neumarkt i.d. Opf.","to":"Predlfing","network":"Verkehrsverbund Großraum Nürnberg","operator":"Steindl Reisen","route":"bus","public_transport:version":"1"},"n":44,"s":[[5891398228,44]]},
+  {"id":3042778006846,"t":{"ref":"582","name":"582: Kleinalfalterbach - Deining Mitte","from":"Kleinalfalterbach","to":"Deining Mitte","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":12,"s":[[5891398228,11]]},
+  {"id":3045963282247,"t":{"ref":"582","name":"582: Deining Mitte - Kleinalfalterbach","from":"Deining Mitte","to":"Kleinalfalterbach","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":12,"s":[[10060890615,2]]},
+  {"id":3049344307562,"t":{"ref":"513","name":"513: Velburg Parsberger Straße - Neumarkt Marktplatz","from":"Velburg Parsberger Straße","to":"Neumarkt Marktplatz","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":24,"s":[[10026732158,6],[10017406625,7],[6082459619655,9]]},
+  {"id":3056897875747,"t":{"ref":"513","name":"513: Neumarkt Florianstr. - Velburg Parsberger Straße","from":"Neumarkt Florianstr.","to":"Velburg Parsberger Straße","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":24,"s":[[6082459619655,16],[4356678349,18],[10026732157,19]]},
+  {"id":3070814858800,"t":{"ref":"584.1","name":"584.1: Albertshofen - Deining Mitte","from":"Albertshofen","to":"Deining Mitte","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":20,"s":[[4356678349,19]]},
+  {"id":3080855141641,"t":{"ref":"513","name":"513: Deining Bischof-Gundekar-S. - Neumarkt Marktplatz","from":"Deining Bischof-Gundekar-S.","to":"Neumarkt Marktplatz","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":18,"s":[[6082459619655,2]]},
+  {"id":3087048011934,"t":{"ref":"584.1","name":"584.1: Deining Mitte - Albertshofen","from":"Deining Mitte","to":"Albertshofen","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":20,"s":[[10017406625,2]]},
+  {"id":3094097264484,"t":{"ref":"513","name":"513: Neumarkt Florianstr. - Deining Bischof-Gundekar-S.","from":"Neumarkt Florianstr.","to":"Deining Bischof-Gundekar-S.","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":18,"s":[[6082459619655,17]]}
+]
+}

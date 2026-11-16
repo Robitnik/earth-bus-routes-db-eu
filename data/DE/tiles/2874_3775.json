@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2874,3775],
+"stops":[
+  {"id":318701626,"lat":53.703442,"lon":8.763429,"k":"x","n":"Ahlen-Falkenberg, Moorquelle"},
+  {"id":480453419,"lat":53.738192,"lon":8.782606,"k":"p","n":"Wanna, Weststraße"},
+  {"id":486624418,"lat":53.73144,"lon":8.752635,"k":"x"},
+  {"id":549288082,"lat":53.702648,"lon":8.7858,"k":"p","n":"Ahlen-Falkenberg, Am Reiherholz 9"},
+  {"id":549288084,"lat":53.702548,"lon":8.785826,"k":"p","n":"Ahlen-Falkenberg, Am Reiherholz 9"},
+  {"id":549288090,"lat":53.705198,"lon":8.779948,"k":"p","n":"Ahlen-Falkenberg, Reiherwald"},
+  {"id":549288092,"lat":53.70525,"lon":8.7798,"k":"p","n":"Ahlen-Falkenberg, Reiherwald"},
+  {"id":564160528,"lat":53.725707,"lon":8.791578,"k":"x","n":"Ahlen-Falkenberg, Försterei"},
+  {"id":575825177,"lat":53.702286,"lon":8.796255,"k":"p","n":"Ahlen-Falkenberg, Torfwerk"},
+  {"id":575825189,"lat":53.70206,"lon":8.796172,"k":"p","n":"Ahlen-Falkenberg, Torfwerk"},
+  {"id":1489912288,"lat":53.740242,"lon":8.791648,"k":"x","n":"Wanna, Landesstraße 117"},
+  {"id":4944729458,"lat":53.70335,"lon":8.763336,"k":"p","n":"Ahlen-Falkenberg, Moorquelle"},
+  {"id":4944729459,"lat":53.703568,"lon":8.763708,"k":"p","n":"Ahlen-Falkenberg, Moorquelle"},
+  {"id":4944729460,"lat":53.703513,"lon":8.763637,"k":"x","n":"Ahlen-Falkenberg, Moorquelle"},
+  {"id":5131462951,"lat":53.73823,"lon":8.782584,"k":"x","n":"Wanna, Weststraße"},
+  {"id":5557801754,"lat":53.725669,"lon":8.791554,"k":"p","n":"Ahlen-Falkenberg, Försterei"},
+  {"id":5557801755,"lat":53.725746,"lon":8.791589,"k":"p","n":"Ahlen-Falkenberg, Försterei"},
+  {"id":5765751412,"lat":53.70523,"lon":8.779906,"k":"x","n":"Ahlen-Falkenberg, Reiherwald"},
+  {"id":5765751413,"lat":53.702596,"lon":8.785806,"k":"x","n":"Ahlen-Falkenberg, Am Reiherholz 9"},
+  {"id":5765751414,"lat":53.702181,"lon":8.796205,"k":"x","n":"Ahlen-Falkenberg, Torfwerk"},
+  {"id":9661730533,"lat":53.740207,"lon":8.791702,"k":"p","n":"Wanna, Landesstraße 117"},
+  {"id":9661730534,"lat":53.74028,"lon":8.791582,"k":"p","n":"Wanna, Landesstraße 117"},
+  {"id":9831718003,"lat":53.73283,"lon":8.764628,"k":"p"},
+  {"id":9831718004,"lat":53.731411,"lon":8.752623,"k":"p"}
+],
+"routes":[
+  {"id":8453508,"t":{"ref":"1080","name":"Bus 1080: Wanna => Otterndorf (1002)","from":"Wanna","to":"Otterndorf","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":11,"s":[[480453419,1]]},
+  {"id":8453784,"t":{"ref":"1081","name":"Bus 1081: Wanna => Ahlen-Falkenberg => Wanna","from":"Wanna","to":"Wanna","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":8,"s":[[480453419,2],[4944729459,3],[549288090,4],[549288082,5],[575825177,6],[5557801754,7]]},
+  {"id":8453785,"t":{"ref":"1081","name":"Bus 1081: Wanna => Ahlen-Falkenberg (1001)","from":"Wanna","to":"Ahlen-Falkenberg","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":7,"s":[[480453419,2],[5557801754,3],[575825177,4],[549288082,5],[549288090,6],[4944729459,7]]},
+  {"id":8453801,"t":{"ref":"1081","name":"Bus 1081: Ahlen-Falkenberg => Wanna (1002)","from":"Ahlen-Falkenberg","to":"Wanna","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":7,"s":[[4944729458,1],[549288092,2],[549288084,3],[575825189,4],[5557801755,5],[480453419,6]]},
+  {"id":18646297,"t":{"ref":"528","name":"Bus 528: Neuenwalde => Otterndorf","from":"Neuenwalde","to":"Otterndorf","network":"Verkehrsverbund Bremen/Niedersachsen;Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[480453419,5],[9661730533,6]]},
+  {"id":18646299,"t":{"ref":"528","name":"Bus 528: Otterndorf => Langen","from":"Otterndorf","to":"Langen","network":"Verkehrsverbund Bremen/Niedersachsen;Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":32,"s":[[9661730534,14],[480453419,15]]},
+  {"id":3068578786317,"t":{"ref":"528","name":"Bus 528: Otterndorf => Bremerhaven","from":"Otterndorf","to":"Bremerhaven","network":"Verkehrsverbund Bremen/Niedersachsen;Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":36,"s":[[9661730534,14],[480453419,15]]},
+  {"id":3097472059086,"t":{"ref":"528","name":"Bus 528: Bremerhaven => Otterndorf","from":"Bremerhaven","to":"Otterndorf","network":"Verkehrsverbund Bremen/Niedersachsen;Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":36,"s":[[480453419,22],[9661730534,23]]}
+]
+}

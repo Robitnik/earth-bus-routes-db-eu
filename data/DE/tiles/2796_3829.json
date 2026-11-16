@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2796,3829],
+"stops":[
+  {"id":420158911,"lat":49.811515,"lon":11.486227,"k":"p","n":"Bodendorf"},
+  {"id":1448541550,"lat":49.825075,"lon":11.49838,"k":"x","n":"Ortseingang"},
+  {"id":1448542063,"lat":49.825037,"lon":11.498372,"k":"p","n":"Ortseingang"},
+  {"id":2589783425,"lat":49.825498,"lon":11.498324,"k":"p","n":"Ortseingang"},
+  {"id":8798561268,"lat":49.821563,"lon":11.480609,"k":"p","n":"Hedelmühle"},
+  {"id":8832734725,"lat":49.830445,"lon":11.472853,"k":"p","n":"Vorderkleebach"},
+  {"id":8832734726,"lat":49.831149,"lon":11.472618,"k":"p","n":"Vorderkleebach"},
+  {"id":8838652465,"lat":49.827577,"lon":11.483683,"k":"p","n":"Herrenmühle"},
+  {"id":8838652466,"lat":49.827605,"lon":11.483094,"k":"p","n":"Herrenmühle"},
+  {"id":8838697514,"lat":49.814017,"lon":11.460595,"k":"p","n":"Pullendorf"},
+  {"id":8838723145,"lat":49.819001,"lon":11.454283,"k":"p","n":"Hohenmirsberg Schwirz"},
+  {"id":8838723147,"lat":49.818922,"lon":11.45437,"k":"p","n":"Hohenmirsberg Schwirz"},
+  {"id":8838743085,"lat":49.803819,"lon":11.469452,"k":"p","n":"Püttlach"},
+  {"id":9817017405,"lat":49.818968,"lon":11.454333,"k":"x","n":"Hohenmirsberg Schwirz"},
+  {"id":9855704980,"lat":49.824169,"lon":11.494757,"k":"p","n":"Trockau Kirchplatz"},
+  {"id":10978464683,"lat":49.841908,"lon":11.475059,"k":"p","n":"Hinterkleebach"},
+  {"id":10978464684,"lat":49.841913,"lon":11.474782,"k":"p","n":"Hinterkleebach"},
+  {"id":11150693371,"lat":49.834121,"lon":11.470432,"k":"p","n":"Abzweigung Vorderkleebach"},
+  {"id":11150693372,"lat":49.834066,"lon":11.470196,"k":"p","n":"Abzweigung Vorderkleebach"},
+  {"id":6046577783914,"lat":49.823894,"lon":11.495417,"k":"p","n":"Trockau Kirchplatz","g":1},
+  {"id":6051285092421,"lat":49.804307,"lon":11.470327,"k":"p","n":"Püttlach","g":1}
+],
+"routes":[
+  {"id":3392452,"t":{"ref":"372","name":"Regionalbus 372 - Lindenhardt-Bayreuth","network":"Verkehrsverbund Großraum Nürnberg","operator":"VGN","route":"bus"},"n":9,"s":[[2589783425,3]]},
+  {"id":14619345,"t":{"ref":"388","name":"Rufbus 388: Pegnitz - Lindenhardt","from":"Pegnitz","to":"Lindenhardt","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":12,"s":[[420158911,9],[9855704980,12]]},
+  {"id":14619346,"t":{"ref":"388","name":"Rufbus 388: Lindenhardt - Pegnitz","from":"Lindenhardt","to":"Pegnitz","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":11,"s":[[9855704980,1],[420158911,4]]},
+  {"id":14619468,"t":{"ref":"388","name":"Rufbus 388: Pegnitz - Hohenmirsberg","from":"Pegnitz","to":"Hohenmirsberg","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":8,"s":[[8838697514,7]]},
+  {"id":14619469,"t":{"ref":"388","name":"Rufbus 388: Hohenmirsberg - Pegnitz","from":"Hohenmirsberg","to":"Pegnitz","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":8,"s":[[8838697514,2]]},
+  {"id":14637773,"t":{"ref":"397","name":"Regionalbus 397: Gößweinstein - Tüchersfeld - Pottenstein - Bayreuth","from":"Gößweinstein","to":"Bayreuth","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":22,"s":[[8838723147,7]]},
+  {"id":14637774,"t":{"ref":"397","name":"Regionalbus 397: Bayreuth - Pottenstein - Siegmannsbrunn - Gößweinstein","from":"Bayreuth","to":"Gößweinstein","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":21,"s":[[8838723145,16]]},
+  {"id":3003512070765,"t":{"ref":"394.9","name":"394.9: Pegnitz Krankenhaus - Lindenhardt An der Kirche","from":"Pegnitz Krankenhaus","to":"Lindenhardt An der Kirche","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[420158911,9],[6046577783914,11]]},
+  {"id":3017650354944,"t":{"ref":"394.9","name":"394.9: Pegnitz - Hohenmirsberg","from":"Pegnitz","to":"Hohenmirsberg","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":9,"s":[[6051285092421,7],[8838697514,8]]},
+  {"id":3035626243983,"t":{"ref":"394.9","name":"394.9: Lindenhardt An der Kirche - Pegnitz Krankenhaus","from":"Lindenhardt An der Kirche","to":"Pegnitz Krankenhaus","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":13,"s":[[6046577783914,2],[420158911,4]]},
+  {"id":3052174053530,"t":{"ref":"394.9","name":"394.9: Hohenmirsberg - Pegnitz","from":"Hohenmirsberg","to":"Pegnitz","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":9,"s":[[8838697514,2],[6051285092421,3]]}
+]
+}

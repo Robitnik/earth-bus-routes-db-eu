@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3736],
+"stops":[
+  {"id":937902364,"lat":49.524364,"lon":6.819931,"k":"p","n":"Weierweiler Ortsmitte"},
+  {"id":937902366,"lat":49.534397,"lon":6.833582,"k":"p","n":"Thailen Zuckerberg"},
+  {"id":937902372,"lat":49.535914,"lon":6.835536,"k":"p","n":"Thailen Post"},
+  {"id":937902375,"lat":49.537333,"lon":6.834902,"k":"p","n":"Thailen Kirche"},
+  {"id":937902389,"lat":49.519431,"lon":6.829419,"k":"p","n":"Noswendel Abzweigung Weierweiler"},
+  {"id":937902390,"lat":49.54238,"lon":6.834481,"k":"p","n":"Thailen Abzweig Wadern"},
+  {"id":949919465,"lat":49.539424,"lon":6.833991,"k":"p","n":"Thailen GH Schmitt"},
+  {"id":1371136578,"lat":49.500916,"lon":6.805697,"k":"p","n":"Niederlosheim Holosiedlung"},
+  {"id":6299848047,"lat":49.500294,"lon":6.800017,"k":"p"},
+  {"id":6315533538,"lat":49.542505,"lon":6.833975,"k":"p","n":"Thailen, Az. Weiskirchen"},
+  {"id":7156470117,"lat":49.53932,"lon":6.834249,"k":"p","n":"Thailen GH Schmitt"},
+  {"id":7156529031,"lat":49.545891,"lon":6.831631,"k":"p"},
+  {"id":8396990445,"lat":49.537859,"lon":6.834835,"k":"p","n":"Thailen Kirche"},
+  {"id":8396990446,"lat":49.535813,"lon":6.835266,"k":"p","n":"Thailen Post"},
+  {"id":10839969836,"lat":49.52447,"lon":6.819887,"k":"p","n":"Weierweiler Ortsmitte"},
+  {"id":10839969840,"lat":49.534251,"lon":6.833222,"k":"p","n":"Thailen Zuckerberg"}
+],
+"routes":[
+  {"id":1205885,"t":{"ref":"470","name":"Bus 470: Lebach Bahnhof => Wadern ZOB","from":"Lebach Bahnhof","to":"Wadern ZOB","network":"Saarländischer Verkehrsverbund","operator":"Kreisverkehrsbetriebe Saarlouis GmbH","colour":"#8477C3","route":"bus","public_transport:version":"2"},"n":41,"s":[[937902389,23],[937902364,24],[937902366,25],[937902372,26],[8396990445,27]]},
+  {"id":13826137,"t":{"ref":"X1","name":"Bus X1: Wadern ZOB => Merzig Bahnhof","from":"Wadern ZOB","to":"Merzig Bahnhof","network":"Saarländischer Verkehrsverbund","operator":"Omnibusunternehmen Zarth GmbH","colour":"#E83363","route":"bus","public_transport:version":"2"},"n":21,"s":[[937902390,3]]},
+  {"id":13826138,"t":{"ref":"X1","name":"Bus X1: Merzig Bahnhof => Wadern ZOB","from":"Merzig Bahnhof","to":"Wadern ZOB","network":"Saarländischer Verkehrsverbund","operator":"Omnibusunternehmen Zarth GmbH","colour":"#E83363","route":"bus","public_transport:version":"2"},"n":22,"s":[[6315533538,20]]},
+  {"id":15766917,"t":{"ref":"204","name":"204: Weiskirchen => Zwalbach","from":"Weiskirchen Kirche","to":"Zwalbach Ortsrand","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":7,"s":[[8396990446,2],[937902366,3],[10839969836,4]]},
+  {"id":15766918,"t":{"ref":"204","name":"204: Wadern => Britten","from":"Wadern Gymnasium","to":"Britten Kirche","network":"saarVV","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":14,"s":[[937902390,3],[8396990446,4],[937902366,5],[10839969836,6]]},
+  {"id":15766919,"t":{"ref":"204","name":"204: Wadern => Wahlen","from":"Wadern Gymnasium","to":"Wahlen Römerstr.","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":14,"s":[[937902390,3]]},
+  {"id":15766920,"t":{"ref":"204","name":"204: Wadern => Rimlingen","from":"Wadern Gymnasium","to":"Rimlingen Ortsmitte","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":20,"s":[[937902390,3]]},
+  {"id":15766921,"t":{"ref":"204","name":"204: Wadern Gymnasium => Losheim Bahnhof","from":"Wadern Gymnasium","to":"Losheim Bahnhof","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":19,"s":[[937902390,3],[8396990446,4],[937902366,5],[8396990445,6]]},
+  {"id":15766922,"t":{"ref":"204","name":"204: (Wadern Busbahnhof =>) Weiskirchen Kirche => Losheim Bahnhof","from":"Wadern Busbahnhof","to":"Losheim Bahnhof","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":20,"s":[[937902390,2],[8396990446,3],[937902366,4],[8396990445,5]]},
+  {"id":15766923,"t":{"ref":"204","name":"204: (Wadern Gymnasium =>) Wadern Busbahnhof => Thailen Zuckerberg (=> Losheim Bahnhof)","from":"Wadern Gymnasium","to":"Losheim Bahnhof","network":"saarVV","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":15,"s":[[937902390,3],[8396990446,4],[937902366,5],[8396990445,6]]},
+  {"id":15766926,"t":{"ref":"204","name":"204: Losheim => Thailen","from":"Losheim Bahnhof","to":"Thailen Abzw. Wadern","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":13,"s":[[937902366,10],[937902372,11],[8396990445,12],[6315533538,13]]},
+  {"id":15766927,"t":{"ref":"204","name":"204: Losheim Bahnhof => Wadern Busbahnhof","from":"Losheim Bahnhof","to":"Wadern Busbahnhof","network":"saarVV","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":22,"s":[[937902366,10],[937902372,11],[8396990445,12]]},
+  {"id":15766930,"t":{"ref":"204","name":"204: Losheim => Weiskirchen","from":"Losheim Schulzentrum","to":"Weiskirchen Kirche","network":"Saarländischer Verkehrsverbund","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":11,"s":[[937902364,7],[10839969840,8],[937902372,9],[8396990445,10]]},
+  {"id":15766932,"t":{"ref":"204","name":"204: Losheim Bahnhof => Wadern Gymnasium","from":"Losheim Bahnhof","to":"Wadern Gymnasium","network":"saarVV","operator":"ARGE Nahverkehrsgesellschaft Merzig-Wadern","colour":"#ee83b2","route":"bus","public_transport:version":"2"},"n":12,"s":[[937902364,6],[10839969840,7],[937902372,8],[8396990445,9],[6315533538,10]]},
+  {"id":3001278546213,"t":{"ref":"220","name":"220: Sparkasse, Losheim am See - Holo-Siedlung, Niederlosheim Losheim","from":"Sparkasse, Losheim am See","to":"Holo-Siedlung, Niederlosheim Losheim","operator":"Verkehrsgesellschaft Merzig-Wadern","route":"bus","public_transport:version":"2"},"n":29,"s":[[1371136578,29]]},
+  {"id":3046153719298,"t":{"ref":"220","name":"220: Holo-Siedlung, Niederlosheim Losheim - Sparkasse, Losheim am See","from":"Holo-Siedlung, Niederlosheim Losheim","to":"Sparkasse, Losheim am See","operator":"Verkehrsgesellschaft Merzig-Wadern","route":"bus","public_transport:version":"2"},"n":29,"s":[[1371136578,1]]}
+]
+}

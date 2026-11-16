@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3839],
+"stops":[
+  {"id":288714764,"lat":51.250353,"lon":11.959483,"k":"p","n":"Posendorf"},
+  {"id":8304005253,"lat":51.250372,"lon":11.959373,"k":"x","n":"Posendorf"},
+  {"id":10862333491,"lat":51.280609,"lon":11.985411,"k":"x","n":"Raffinerie An der B 91"},
+  {"id":10862333492,"lat":51.280615,"lon":11.985307,"k":"p","n":"Raffinerie An der B 91"}
+],
+"routes":[
+  {"id":12152834,"t":{"ref":"793","name":"Bus 793: Reichartswerben => Weißenfels","from":"Posendorf","to":"Weißenfels Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus"},"n":8,"s":[[288714764,1]]},
+  {"id":15798090,"t":{"ref":"744","name":"Bus 744: Merseburg => Leuna 2000","from":"Merseburg, ZOB","to":"Leuna 2000","network":"Mitteldeutscher Verkehrsverbund","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":11,"s":[[10862333492,11]]},
+  {"id":17538410,"t":{"ref":"745","name":"Bus 745: Merseburg => Raffinerie An der B 91","from":"Merseburg, ZOB","to":"Raffinerie An der B 91","network":"Mitteldeutscher Verkehrsverbund","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":6,"s":[[10862333492,6]]},
+  {"id":17538524,"t":{"ref":"745","name":"Bus 745: Raffinerie An der B 91 => Merseburg","from":"Raffinerie An der B 91","to":"Merseburg, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":7,"s":[[10862333492,1]]},
+  {"id":3042021508371,"t":{"ref":"793","name":"Bus 793: Weißenfels => Reichartswerben","from":"Weißenfels Busbahnhof","to":"Posendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus","public_transport:version":"2"},"n":10,"s":[[8304005253,1]]},
+  {"id":3055457605739,"t":{"ref":"793","name":"Bus 793: Weißenfels => Reichartswerben","from":"Weißenfels Busbahnhof","to":"Posendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus","public_transport:version":"2"},"n":12,"s":[[8304005253,9]]},
+  {"id":3067116443016,"t":{"ref":"793","name":"793: Roßbach, Kirche - Weißenfels, Busbahnhof","from":"Roßbach, Kirche","to":"Weißenfels, Busbahnhof","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":13,"s":[[8304005253,4]]},
+  {"id":3092056675364,"t":{"ref":"793","name":"Bus 793: Weißenfels => Reichartswerben","from":"Weißenfels Busbahnhof","to":"Posendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus","public_transport:version":"2"},"n":9,"s":[[8304005253,9]]}
+]
+}

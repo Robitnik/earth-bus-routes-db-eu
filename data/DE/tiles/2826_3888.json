@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2826,3888],
+"stops":[
+  {"id":2638152931,"lat":51.303536,"lon":14.418404,"k":"p","n":"Oppitz Schlosserei"},
+  {"id":2638160940,"lat":51.302596,"lon":14.409309,"k":"p","n":"Oppitz Gemeindeamt / Psowje Gmejnski zarjad"},
+  {"id":2645372328,"lat":51.311943,"lon":14.441925,"k":"p","n":"Lippitsch / Lipič","ref":"7750"},
+  {"id":2645450048,"lat":51.302681,"lon":14.409236,"k":"p","n":"Oppitz Gemeindeamt / Psowje Gmejnski zarjad","ref":"7746"},
+  {"id":2645450053,"lat":51.303276,"lon":14.416796,"k":"p","n":"Oppitz Schlosserei"},
+  {"id":8901068284,"lat":51.325331,"lon":14.407633,"k":"p","n":"Hermsdorf Königswarthaer Str"},
+  {"id":8901068285,"lat":51.325577,"lon":14.407695,"k":"p","n":"Hermsdorf Königswarthaer Str"},
+  {"id":8918946809,"lat":51.311739,"lon":14.442019,"k":"p","n":"Lippitsch / Lipič","ref":"7750"},
+  {"id":6074792221865,"lat":51.303517,"lon":14.401072,"k":"p","n":"Oppitz Grüner Wald","g":1}
+],
+"routes":[
+  {"id":17951129,"t":{"ref":"701","name":"Bus 701: Königswartha => Milkel => Bautzen","from":"Königswartha Kirchplatz","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":29,"s":[[2638160940,6],[2638152931,7],[8918946809,8]]},
+  {"id":18168660,"t":{"ref":"716","name":"Bus 716: Königswartha => Milkel => Radibor","from":"Königswartha Kirchplatz","to":"Radibor Schule","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":20,"s":[[2638160940,6],[2638152931,7],[8918946809,8]]},
+  {"id":3007898233575,"t":{"ref":"716","name":"Bus 716: Radibor => Milkel => Königswartha","from":"Radibor Schule","to":"Königswartha Kirchplatz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":19,"s":[[2645372328,12],[2645450053,13],[2645450048,14]]},
+  {"id":3046274387782,"t":{"ref":"701","name":"Bus 701: Bautzen => Milkel => Königswartha","from":"Bautzen Busbahnhof","to":"Königswartha Kirchplatz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":32,"s":[[2645372328,25],[2645450053,26],[2645450048,27]]},
+  {"id":3062436435929,"t":{"ref":"775","name":"775: Groß Särchen Schule - Königswartha Kirchplatz","from":"Groß Särchen Schule","to":"Königswartha Kirchplatz","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":24,"s":[[8901068284,17],[2645450053,18],[2645450048,19],[6074792221865,20]]}
+]
+}

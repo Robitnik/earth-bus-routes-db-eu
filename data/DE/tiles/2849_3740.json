@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2849,3740],
+"stops":[
+  {"id":274709590,"lat":52.489827,"lon":7.031761,"k":"x","n":"Assink"},
+  {"id":318748884,"lat":52.473158,"lon":7.005756,"k":"x","n":"Abzweig Lage"},
+  {"id":322157607,"lat":52.499108,"lon":7.032544,"k":"x","n":"Stubbenbrooksdiek"},
+  {"id":2961416678,"lat":52.457699,"lon":7.04099,"k":"p","n":"Klosterstraße"},
+  {"id":2961416679,"lat":52.457996,"lon":7.040876,"k":"p","n":"Klosterstraße"},
+  {"id":4058067613,"lat":52.472826,"lon":7.00613,"k":"p","n":"Abzweig Lage"},
+  {"id":5771930025,"lat":52.473202,"lon":7.005865,"k":"p","n":"Abzweig Lage"},
+  {"id":7580263878,"lat":52.455521,"lon":7.038754,"k":"p","n":"Kloster Frenswegen"},
+  {"id":8039342118,"lat":52.47287,"lon":7.006249,"k":"x","n":"Abzweig Lage"},
+  {"id":8039733653,"lat":52.457899,"lon":7.040787,"k":"x","n":"Klosterstraße"},
+  {"id":8039733654,"lat":52.45776,"lon":7.041068,"k":"x","n":"Klosterstraße"},
+  {"id":8837997325,"lat":52.455524,"lon":7.038727,"k":"x","n":"Kloster Frenswegen"},
+  {"id":12669395257,"lat":52.499122,"lon":7.032409,"k":"p","n":"Stubbenbrooksdiek"},
+  {"id":12669395258,"lat":52.481394,"lon":7.034115,"k":"p","n":"Stevens"},
+  {"id":12669395259,"lat":52.48136,"lon":7.033956,"k":"p","n":"Stevens"},
+  {"id":12669395260,"lat":52.481382,"lon":7.034046,"k":"x","n":"Stevens"},
+  {"id":12669395261,"lat":52.493948,"lon":7.02922,"k":"p","n":"Roetmann"},
+  {"id":12669395262,"lat":52.494026,"lon":7.02935,"k":"x","n":"Roetmann"},
+  {"id":12669395263,"lat":52.489799,"lon":7.031636,"k":"p","n":"Assink"},
+  {"id":6037382116659,"lat":52.472344,"lon":7.00586,"k":"p","n":"Neuenhaus-Grasdorf Abzw. Lage","g":1},
+  {"id":6071013756071,"lat":52.462959,"lon":7.047688,"k":"p","n":"Nordhorn Zur Maate","g":1}
+],
+"routes":[
+  {"id":11785660,"t":{"ref":"31","name":"Bus 31: Nordhorn, Kloster Frenswegen => Nordhorn, Blankeplatz","from":"Nordhorn, Kloster Frenswegen","to":"Nordhorn, Blankeplatz","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#9f6c27","route":"bus","public_transport:version":"2"},"n":35,"s":[[7580263878,1]]},
+  {"id":11785661,"t":{"ref":"30","name":"Bus 30: Nordhorn, Elbinger Straße => Neuenhaus, Bahnhof","from":"Nordhorn, Elbinger Straße","to":"Neuenhaus, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#4dbd38","route":"bus","public_transport:version":"2"},"n":39,"s":[[5771930025,34]]},
+  {"id":11786157,"t":{"ref":"30","name":"Bus 30: Nordhorn, Bahnhof => Neuenhaus, Bahnhof","from":"Nordhorn, Bahnhof","to":"Neuenhaus, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#4dbd38","route":"bus","public_transport:version":"2"},"n":15,"s":[[2961416679,9],[5771930025,10]]},
+  {"id":18843136,"t":{"ref":"T22","name":"Bus T22: Georgsdorf, Heideweg => Neuenhaus, Uelser Tor","from":"Georgsdorf, Heideweg","to":"Neuenhaus, Uelser Tor","network":"VGB","operator":"Bentheimer Eisenbahn AG","route":"bus","public_transport:version":"2"},"n":41,"s":[[12669395261,33],[12669395263,34],[12669395258,35],[12669395257,36]]},
+  {"id":18843137,"t":{"ref":"T22","name":"Bus T22: Neuenhaus, Uelser Tor => Georgsdorf, Heideweg","from":"Neuenhaus, Uelser Tor","to":"Georgsdorf, Heideweg","network":"VGB","operator":"Bentheimer Eisenbahn AG","route":"bus","public_transport:version":"2"},"n":39,"s":[[12669395263,7],[12669395259,8],[12669395261,9],[12669395257,10]]},
+  {"id":3001513477268,"t":{"ref":"30","name":"Bus 30: Neuenhaus, Bahnhof => Nordhorn, Blankeplatz","from":"Neuenhaus, Bahnhof","to":"Nordhorn, Blankeplatz","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#4dbd38","route":"bus","public_transport:version":"2"},"n":40,"s":[[6071013756071,34],[6037382116659,35]]},
+  {"id":3005027413581,"t":{"ref":"30","name":"Bus 30: Neuenhaus, Bahnhof => Nordhorn, Bahnhof","from":"Neuenhaus, Bahnhof","to":"Nordhorn, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#4dbd38","route":"bus","public_transport:version":"2"},"n":16,"s":[[6037382116659,6],[8039733654,7]]},
+  {"id":3005867787028,"t":{"ref":"30","name":"Bus 30: Neuenhaus, Bahnhof => Nordhorn, Bahnhof","from":"Neuenhaus, Bahnhof","to":"Nordhorn, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#4dbd38","route":"bus","public_transport:version":"2"},"n":16,"s":[[8039733654,10],[6037382116659,11]]},
+  {"id":3016079894524,"t":{"ref":"31","name":"Bus 31: Nordhorn, Elbinger Straße => Nordhorn, Kloster Frenswegen","from":"Nordhorn, Elbinger Straße","to":"Nordhorn, Kloster Frenswegen","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#9f6c27","route":"bus","public_transport:version":"2"},"n":37,"s":[[8837997325,1],[6071013756071,2]]},
+  {"id":3016841755588,"t":{"ref":"30","name":"Bus 30: Neuenhaus, Bahnhof => Nordhorn, Blankeplatz","from":"Neuenhaus, Bahnhof","to":"Nordhorn, Blankeplatz","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#4dbd38","route":"bus","public_transport:version":"2"},"n":41,"s":[[6037382116659,6],[6071013756071,7]]},
+  {"id":3046686325088,"t":{"ref":"31","name":"Bus 31: Nordhorn, Elbinger Straße => Nordhorn, Kloster Frenswegen","from":"Nordhorn, Elbinger Straße","to":"Nordhorn, Kloster Frenswegen","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#9f6c27","route":"bus","public_transport:version":"2"},"n":36,"s":[[6071013756071,35],[8837997325,36]]}
+]
+}

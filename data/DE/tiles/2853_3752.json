@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2853,3752],
+"stops":[
+  {"id":5910523380,"lat":52.664388,"lon":7.632908,"k":"x","n":"Abzw. An der Högede"},
+  {"id":8277197448,"lat":52.684412,"lon":7.602171,"k":"x","n":"Kirche"},
+  {"id":9559242624,"lat":52.684183,"lon":7.602482,"k":"x","n":"Kirche"},
+  {"id":13479985800,"lat":52.684446,"lon":7.602227,"k":"p","n":"Kirche"},
+  {"id":13480029601,"lat":52.684145,"lon":7.60243,"k":"p","n":"Kirche"},
+  {"id":6022809968906,"lat":52.6803,"lon":7.6012,"k":"p","n":"Herzlake, Hotel Flora","g":1},
+  {"id":6091748911768,"lat":52.69085,"lon":7.64222,"k":"p","n":"Hölze, Ort","g":1}
+],
+"routes":[
+  {"id":12115866,"t":{"ref":"936","name":"Bus 936: Haselünne, Bahnhof => Herzlake, Kirche","from":"Haselünne, Bahnhof","to":"Herzlake, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[13480029601,4]]},
+  {"id":12115892,"t":{"ref":"942","name":"Bus 942: Lähden, Holtmann => Herzlake, Kirche","from":"Lähden, Holtmann","to":"Herzlake, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[13479985800,4]]},
+  {"id":12115893,"t":{"ref":"942","name":"Bus 942: Herzlake, Kirche => Lähden, Holtmann","from":"Herzlake, Kirche","to":"Lähden, Holtmann","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[13480029601,1]]},
+  {"id":3011367961603,"t":{"ref":"936","name":"Bus 936: Herzlake, Kirche => Haselünne, Bahnhof","from":"Herzlake, Kirche","to":"Haselünne, Bahnhof","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[8277197448,1]]},
+  {"id":3015235850449,"t":{"ref":"REX2","name":"REX2: Meppen Bahnhof - Hölze, Ort","from":"Meppen Bahnhof","to":"Hölze, Ort","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":8,"s":[[8277197448,7],[6091748911768,8]]},
+  {"id":3024438314061,"t":{"ref":"935","name":"Bus 935: Haselünne, Bahnhof => Vinnen, Kirche","from":"Haselünne, Bahnhof","to":"Vinnen, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[9559242624,6]]},
+  {"id":3046523465369,"t":{"ref":"935","name":"Bus 935: Vinnen, Kirche => Haselünne, Bahnhof","from":"Vinnen, Kirche","to":"Haselünne, Bahnhof","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[8277197448,1]]},
+  {"id":3063393036784,"t":{"ref":"REX2","name":"REX2: Hölze, Ort - Meppen Bahnhof","from":"Hölze, Ort","to":"Meppen Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":8,"s":[[6091748911768,1],[8277197448,2]]},
+  {"id":3072514605702,"t":{"ref":"935","name":"Bus 935: Haselünne, Bahnhof => Vinnen, Kirche","from":"Haselünne, Bahnhof","to":"Vinnen, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Kalmer GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[9559242624,6]]},
+  {"id":3099488754228,"t":{"ref":"936","name":"936: Haselünne, Bahnhof - Dohren, Lehmkuhle","from":"Haselünne, Bahnhof","to":"Dohren, Lehmkuhle","operator":"Kalmer Reisen GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[9559242624,7],[6022809968906,8]]}
+]
+}

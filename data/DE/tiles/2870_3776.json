@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2870,3776],
+"stops":[
+  {"id":310758394,"lat":53.524756,"lon":8.81589,"k":"x","n":"Altluneberg, Lindenallee"},
+  {"id":310758508,"lat":53.526665,"lon":8.821805,"k":"x","n":"Altluneberg, Heudamm"},
+  {"id":5706729224,"lat":53.517615,"lon":8.813755,"k":"x","n":"Wehdel, Altluneberger Straße"},
+  {"id":5706729225,"lat":53.517694,"lon":8.813771,"k":"x","n":"Wehdel, Altluneberger Straße"},
+  {"id":5706729226,"lat":53.517679,"lon":8.813701,"k":"p","n":"Wehdel, Altluneberger Straße"},
+  {"id":5706729227,"lat":53.517683,"lon":8.813848,"k":"p","n":"Wehdel, Altluneberger Straße"},
+  {"id":5706729228,"lat":53.512119,"lon":8.806826,"k":"p","n":"Wehdel, Bahnhof"},
+  {"id":5706729232,"lat":53.507997,"lon":8.801763,"k":"x","n":"Wehdel, Abzw. Altluneberg"},
+  {"id":5706729233,"lat":53.507942,"lon":8.801817,"k":"p","n":"Wehdel, Abzw. Altluneberg"},
+  {"id":5706729234,"lat":53.508067,"lon":8.801753,"k":"p","n":"Wehdel, Abzw. Altluneberg"},
+  {"id":5706729407,"lat":53.51041,"lon":8.84218,"k":"x","n":"Geestenseth, Feuerwehr"},
+  {"id":5706729408,"lat":53.510572,"lon":8.84107,"k":"x","n":"Geestenseth, Feuerwehr"},
+  {"id":5706729409,"lat":53.510348,"lon":8.842209,"k":"p","n":"Geestenseth, Feuerwehr"},
+  {"id":5706729410,"lat":53.510619,"lon":8.841168,"k":"p","n":"Geestenseth, Feuerwehr"},
+  {"id":5706729413,"lat":53.52665,"lon":8.821759,"k":"p","n":"Altluneberg, Heudamm"},
+  {"id":5706729414,"lat":53.524279,"lon":8.815546,"k":"x","n":"Altluneberg, Lindenallee"},
+  {"id":5706729415,"lat":53.524794,"lon":8.815844,"k":"p","n":"Altluneberg, Lindenallee"},
+  {"id":5706729416,"lat":53.524277,"lon":8.815617,"k":"p","n":"Altluneberg, Lindenallee"},
+  {"id":5706729417,"lat":53.512064,"lon":8.806803,"k":"x","n":"Wehdel, Bahnhof"}
+],
+"routes":[
+  {"id":11277783,"t":{"ref":"566","name":"Bus 566: Geestenseth => Wehdel => Beverstedt","from":"Geestenseth, Grundschule","to":"Beverstedt, Wilhelm-Giese-Straße","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":9,"s":[[5706729228,2]]},
+  {"id":18265043,"t":{"ref":"569","name":"Bus 569: Wehdel => Schiffdorf","from":"Wehdel, Bahnhof","to":"Schiffdorf, Schulzentrum","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":10,"s":[[5706729228,1],[5706729234,2]]},
+  {"id":18271406,"t":{"ref":"568","name":"Bus 568: Geestenseth => Schiffdorf","from":"Geestenseth, Bahnhof","to":"Schiffdorf, Schulzentrum","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":16,"s":[[5706729410,2],[5706729228,3],[5706729234,4]]},
+  {"id":18271407,"t":{"ref":"568","name":"Bus 568: Geestenseth => Schiffdorf","from":"Geestenseth, Grundschule","to":"Schiffdorf, Schulzentrum","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":17,"s":[[5706729410,2],[5706729234,3]]},
+  {"id":18271547,"t":{"ref":"568","name":"Bus 568: Geestenseth => Schiffdorf","from":"Geestenseth, Grundschule","to":"Schiffdorf, Schulzentrum","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":14,"s":[[5706729410,2],[5706729234,3]]},
+  {"id":18286510,"t":{"ref":"568","name":"Bus 568: Schiffdorf => Wehdel","from":"Schiffdorf, Schulzentrum","to":"Wehdel, Bahnhof","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":18,"s":[[5706729233,17],[5706729228,18]]},
+  {"id":18286511,"t":{"ref":"568","name":"Bus 568: Schiffdorf => Geestenseth","from":"Schiffdorf, Schulzentrum","to":"Geestenseth, Grundschule","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":18,"s":[[5706729233,14],[5706729228,15],[5706729409,16]]},
+  {"id":18666089,"t":{"ref":"568","name":"Bus 568: Schiffdorf => Geestenseth","from":"Schiffdorf, Schulzentrum","to":"Geestenseth, Bahnhof","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":17,"s":[[5706729233,14],[5706729228,15],[5706729409,16]]},
+  {"id":20218011,"t":{"ref":"569","name":"Bus 569: Schiffdorf => Wehdel","from":"Schiffdorf, Schulzentrum","to":"Wehdel, Bahnhof","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":10,"s":[[5706729233,9],[5706729228,10]]},
+  {"id":20272509,"t":{"ref":"566","name":"Bus 566: Beverstedt => Wehdel","from":"Beverstedt, Schulzentrum","to":"Wehdel, Bahnhof","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":7,"s":[[5706729228,7]]},
+  {"id":3000917648302,"t":{"ref":"567","name":"Bus 567: Beverstedt => Wehdel","from":"Beverstedt, Schulzentrum","to":"Wehdel, Bahnhof","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Giese","route":"bus","public_transport:version":"2"},"n":14,"s":[[5706729417,14]]}
+]
+}

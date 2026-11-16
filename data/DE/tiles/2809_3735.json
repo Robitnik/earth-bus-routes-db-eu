@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2809,3735],
+"stops":[
+  {"id":1383419156,"lat":50.479136,"lon":6.787762,"k":"p","n":"Bröhlingen"},
+  {"id":1383419214,"lat":50.474948,"lon":6.771407,"k":"p","n":"Falkenberg, Hümmel"},
+  {"id":1383419217,"lat":50.466372,"lon":6.770268,"k":"p","n":"Hümmel Forsthaus"},
+  {"id":1383419248,"lat":50.461678,"lon":6.777666,"k":"p","n":"Hümmel, Spielplatz"},
+  {"id":1383419256,"lat":50.498656,"lon":6.762441,"k":"p","n":"Langscheid"},
+  {"id":1383419303,"lat":50.495794,"lon":6.776004,"k":"p","n":"Vollmert"},
+  {"id":1383419308,"lat":50.460003,"lon":6.792273,"k":"p","n":"Wennefelder Mühle"},
+  {"id":1707201984,"lat":50.466378,"lon":6.770356,"k":"p","n":"Hümmel Forsthaus"},
+  {"id":1707202000,"lat":50.466793,"lon":6.770164,"k":"p","n":"Hümmel Forsthaus"},
+  {"id":5571134953,"lat":50.466791,"lon":6.770216,"k":"p","n":"Hümmel Forsthaus"},
+  {"id":9656429326,"lat":50.489067,"lon":6.770517,"k":"p"},
+  {"id":9656429327,"lat":50.48904,"lon":6.770641,"k":"p"},
+  {"id":9656451011,"lat":50.495805,"lon":6.77597,"k":"x","n":"Vollmert"},
+  {"id":13426948203,"lat":50.474958,"lon":6.771388,"k":"x","n":"Falkenberg, Hümmel"},
+  {"id":13426948204,"lat":50.479109,"lon":6.787743,"k":"x","n":"Bröhlingen, Hümmel"},
+  {"id":13426948209,"lat":50.460084,"lon":6.792224,"k":"x","n":"Wennefelder Mühle, Wershofen"},
+  {"id":13427037705,"lat":50.461708,"lon":6.777665,"k":"x","n":"Hümmel, Spielplatz"},
+  {"id":6019066657092,"lat":50.495414,"lon":6.775714,"k":"p","n":"Bad Münstereifel Vollmert","g":1},
+  {"id":6021078354948,"lat":50.499328,"lon":6.763703,"k":"p","n":"Bad Münstereifel Langscheid Wartehalle","g":1}
+],
+"routes":[
+  {"id":20040367,"t":{"ref":"864, Rufbus 864","name":"864 Hümmel - Wershofen","from":"Falkenberg Hümmel","to":"Wershofen","operator":"Verkehrsbetriebe Mittelrhein","route":"bus"},"n":18,"s":[[1383419214,1],[13426948203,2],[13426948204,3],[1383419156,4],[13426948209,13],[1383419308,14]]},
+  {"id":3043045630914,"t":{"ref":"864","name":"864: Hümmel Bröhlingen - Wershofen Dorfplatz","from":"Hümmel Bröhlingen","to":"Wershofen Dorfplatz","operator":"Verkehrsbetriebe Mittelrhein VREM","route":"bus","public_transport:version":"2"},"n":10,"s":[[13426948204,1],[1383419248,7],[1383419308,8]]},
+  {"id":3043813205719,"t":{"ref":"864","name":"864: Wershofen Dorfplatz - Hümmel Bröhlingen","from":"Wershofen Dorfplatz","to":"Hümmel Bröhlingen","operator":"Verkehrsbetriebe Mittelrhein VREM","route":"bus","public_transport:version":"2"},"n":10,"s":[[1383419308,3],[1383419248,4],[13426948204,10]]},
+  {"id":3057440400241,"t":{"ref":"822","name":"TaxiBusPlus 822: Ohlerath => Bad Münstereifel","from":"Ohlerath","to":"Bad Münstereifel, Rathaus","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":27,"s":[[6019066657092,19],[6021078354948,20]]},
+  {"id":3065856151113,"t":{"ref":"822","name":"TaxiBusPlus 822: Bad Münstereifel => Ohlerath","from":"Gewerbegebiet/Ärztehaus","to":"Ohlerath","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":26,"s":[[6021078354948,7],[9656451011,8]]},
+  {"id":3094267893997,"t":{"ref":"865","name":"865 Hümmel - Adenau","from":"Hümmel","to":"Adenau","network":"VRM","operator":"VRM","route":"bus","public_transport:version":"2"},"n":20,"s":[[1383419308,19],[1383419248,20]]}
+]
+}

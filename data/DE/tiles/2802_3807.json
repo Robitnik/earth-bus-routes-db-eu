@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2802,3807],
+"stops":[
+  {"id":271550932,"lat":50.122049,"lon":10.384476,"k":"p","n":"Ortsmitte"},
+  {"id":679142974,"lat":50.121536,"lon":10.396322,"k":"p","n":"Ferienhaussiedlung"},
+  {"id":1003082273,"lat":50.122491,"lon":10.386222,"k":"p","n":"Kirche"},
+  {"id":3746872138,"lat":50.122128,"lon":10.384581,"k":"x","n":"Reichmannshausen Ortsmitte"},
+  {"id":12560449364,"lat":50.12252,"lon":10.386189,"k":"x","n":"Kirche"}
+],
+"routes":[
+  {"id":3833658,"t":{"ref":"8132","name":"Bus 8132: Schweinfurt - Reichmannshausen","network":"Nahverkehr Mainfranken","operator":"Metz - Bus","route":"bus","public_transport:version":"2"},"n":16,"s":[[271550932,12]]},
+  {"id":3833876,"t":{"ref":"8130","name":"Bus 8130: Schweinfurt - Aidhausen","network":"Nahverkehr Mainfranken","operator":"Metz - Bus","route":"bus"},"n":50,"s":[[271550932,35],[1003082273,36]]},
+  {"id":3012877561827,"t":{"ref":"214","name":"214: Reichmannshausen Ortsmitte - Schweinfurt Hbf","from":"Reichmannshausen Ortsmitte","to":"Schweinfurt Hbf","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":16,"s":[[3746872138,1]]},
+  {"id":3047348438953,"t":{"ref":"214","name":"214: Schweinfurt Hbf - Reichmannshausen Kirche","from":"Schweinfurt Hbf","to":"Reichmannshausen Kirche","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":15,"s":[[12560449364,15]]}
+]
+}

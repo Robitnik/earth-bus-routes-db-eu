@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3861],
+"stops":[
+  {"id":315986823,"lat":51.236666,"lon":13.057602,"k":"p","n":"Mügeln, Bahnhof"},
+  {"id":315986829,"lat":51.232981,"lon":13.075253,"k":"p","n":"Niedergoseln"},
+  {"id":315986830,"lat":51.236159,"lon":13.068019,"k":"p","n":"Mügeln, Flocke"},
+  {"id":315986831,"lat":51.237333,"lon":13.067942,"k":"p","n":"Mügeln, Flocke"},
+  {"id":764453771,"lat":51.204701,"lon":13.07126,"k":"x","n":"Schrebitz, Ostrauer Straße"},
+  {"id":955716697,"lat":51.230607,"lon":13.090906,"k":"x","n":"Mahris"},
+  {"id":2189638898,"lat":51.235031,"lon":13.053969,"k":"x"},
+  {"id":4803108378,"lat":51.241132,"lon":13.078225,"k":"p","n":"Schweta (Mügeln), Bahnhof (Bus)"},
+  {"id":4803108379,"lat":51.240686,"lon":13.077741,"k":"p","n":"Schweta (Mügeln), Bahnhof (Bus)"},
+  {"id":4803112050,"lat":51.237427,"lon":13.066838,"k":"p","n":"Mügeln (Lkr. Nordsachsen), Flocke"},
+  {"id":8928335199,"lat":51.237352,"lon":13.066838,"k":"x","n":"Mügeln, Flocke"},
+  {"id":8928335200,"lat":51.236167,"lon":13.068068,"k":"x","n":"Mügeln, Flocke"},
+  {"id":11756508548,"lat":51.204645,"lon":13.0712,"k":"p","n":"Schrebitz, Ostrauer Straße"},
+  {"id":11756508549,"lat":51.202759,"lon":13.065888,"k":"p","n":"Schrebitz, Gallschützer Straße"},
+  {"id":11756508550,"lat":51.202765,"lon":13.065824,"k":"x","n":"Schrebitz, Gallschützer Straße"},
+  {"id":5000558365342,"lat":51.237427,"lon":13.066847,"k":"p","n":"Mügeln, Flocke"},
+  {"id":6050767606051,"lat":51.244262,"lon":13.081612,"k":"p","n":"Schweta (Mügeln), Gasthof/Mitte","g":1},
+  {"id":6078294554682,"lat":51.23702,"lon":13.067547,"k":"p","n":"Mügeln (Lkr. Nordsachsen), Flocke","g":1},
+  {"id":6096010124185,"lat":51.24615,"lon":13.082715,"k":"p","n":"Schweta (Mügeln), Gasthof/Mitte","g":1}
+],
+"routes":[
+  {"id":12946480,"t":{"ref":"815","name":"Bus 815: Oschatz => Mügeln","from":"Oschatz, Busbahnhof","to":"Mügeln, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000558365342,12]]},
+  {"id":12966676,"t":{"ref":"815","name":"Bus 815: Mügeln => Oschatz","from":"Mügeln, Busbahnhof","to":"Oschatz, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":11,"s":[[315986830,2]]},
+  {"id":17378085,"t":{"ref":"889","name":"Bus 889: Döbeln => Schrebitz","from":"Döbeln, Körnerplatz-Schule","to":"Schrebitz, Ostrauer Straße","network":"Verkehrsverbund Mittelsachsen","operator":"REGIOBUS Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[11756508549,27],[11756508548,28]]},
+  {"id":17380541,"t":{"ref":"889","name":"Bus 889: Döbeln => Schrebitz","from":"Döbeln, Busbahnhof","to":"Schrebitz, Ostrauer Straße","network":"Verkehrsverbund Mittelsachsen","operator":"REGIOBUS Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[11756508549,32],[11756508548,33]]},
+  {"id":3011918370108,"t":{"ref":"803","name":"803: Mügeln (Lkr. Nordsachsen), Busbahnhof - Oschatz, Bahnhof (Bus)","from":"Mügeln (Lkr. Nordsachsen), Busbahnhof","to":"Oschatz, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":16,"s":[[315986823,3],[6078294554682,4],[4803108379,5],[6096010124185,6]]},
+  {"id":3060222059663,"t":{"ref":"803","name":"803: Mügeln (Lkr. Nordsachsen), Busbahnhof - Oschatz, Bahnhof (Bus)","from":"Mügeln (Lkr. Nordsachsen), Busbahnhof","to":"Oschatz, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":18,"s":[[315986823,3],[6078294554682,4],[4803108379,5],[6096010124185,6]]},
+  {"id":3064142848489,"t":{"ref":"803","name":"803: Oschatz, Bahnhof (Bus) - Mügeln (Lkr. Nordsachsen), Busbahnhof","from":"Oschatz, Bahnhof (Bus)","to":"Mügeln (Lkr. Nordsachsen), Busbahnhof","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":15,"s":[[6050767606051,10],[4803108378,11],[4803112050,12],[315986823,13]]},
+  {"id":3064519775337,"t":{"ref":"803","name":"803: Oschatz, Bahnhof (Bus) - Mügeln (Lkr. Nordsachsen), Busbahnhof","from":"Oschatz, Bahnhof (Bus)","to":"Mügeln (Lkr. Nordsachsen), Busbahnhof","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":17,"s":[[6050767606051,12],[4803108378,13],[4803112050,14],[315986823,15]]}
+]
+}

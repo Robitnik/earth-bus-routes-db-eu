@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2842,3783],
+"stops":[
+  {"id":1398698022,"lat":52.134752,"lon":9.151359,"k":"p","n":"Friedrichwald Am Hang"},
+  {"id":1398698023,"lat":52.129609,"lon":9.15472,"k":"p","n":"Friedrichwald In der Weide"},
+  {"id":2339350351,"lat":52.136888,"lon":9.152332,"k":"p","n":"Friedrichswald"},
+  {"id":2339350353,"lat":52.136994,"lon":9.152577,"k":"p","n":"Friedrichswald"},
+  {"id":2343389302,"lat":52.136055,"lon":9.182536,"k":"p","n":"Friedrichburg Unterdorf"},
+  {"id":2343389327,"lat":52.136339,"lon":9.182345,"k":"p","n":"Friedrichburg Unterdorf"},
+  {"id":3291602672,"lat":52.102529,"lon":9.153377,"k":"p","n":"Goldbeck Mitte"},
+  {"id":14129177171,"lat":52.140175,"lon":9.173304,"k":"p","n":"Friedrichsburg Oberdorf"},
+  {"id":14129177172,"lat":52.14018,"lon":9.173489,"k":"p","n":"Friedrichsburg Oberdorf"},
+  {"id":6009114029873,"lat":52.103261,"lon":9.153222,"k":"p","n":"Rinteln-Goldbeck, Mitte","g":1},
+  {"id":6009424643909,"lat":52.137155,"lon":9.151803,"k":"p","n":"Friedrichswald","g":1},
+  {"id":6018181917442,"lat":52.137144,"lon":9.151794,"k":"p","n":"Friedrichswald","g":1}
+],
+"routes":[
+  {"id":17669766,"t":{"ref":"2022","name":"Bus 2022: Friedrichswald => Rinteln","from":"Friedrichswald Am Hang","to":"Rinteln Kollegienplatz","network":"VLS","operator":"Schaumburger Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[1398698022,1],[1398698023,2],[2339350353,3]]},
+  {"id":17669767,"t":{"ref":"2022","name":"Bus 2022: Rinteln => Friedrichswald","from":"Rinteln Kollegienplatz","to":"Friedrichswald In der Weide","network":"VLS","operator":"Schaumburger Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[2339350351,16],[1398698022,17],[1398698023,18]]},
+  {"id":3007762667353,"t":{"ref":"814Ast","name":"814Ast: Ri-Möllenbeck, Forsthaus - Rinteln-Goldbeck, Neu-Goldbeck","from":"Ri-Möllenbeck, Forsthaus","to":"Rinteln-Goldbeck, Neu-Goldbeck","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":22,"s":[[6018181917442,18],[1398698022,19],[1398698023,20],[6009114029873,21]]},
+  {"id":3010127168750,"t":{"ref":"814Ast","name":"814Ast: Steinbergen Prinzenhof - Rinteln-Goldbeck, Neu-Goldbeck","from":"Steinbergen Prinzenhof","to":"Rinteln-Goldbeck, Neu-Goldbeck","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":64,"s":[[6018181917442,60],[1398698022,61],[1398698023,62],[6009114029873,63]]},
+  {"id":3010127955484,"t":{"ref":"805","name":"805: Bösingfeld, Bahnhof - Bösingfeld, Bahnhof","from":"Bösingfeld, Bahnhof","to":"Bösingfeld, Bahnhof","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":53,"s":[[6009114029873,41]]},
+  {"id":3011048001274,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Goldbeck, Neu-Goldbeck - Ri-Friedrichshöhe, Neelmeier","from":"Rinteln-Goldbeck, Neu-Goldbeck","to":"Ri-Friedrichshöhe, Neelmeier","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":22,"s":[[6009114029873,2],[1398698023,3],[1398698022,4],[6009424643909,5]]},
+  {"id":3015728599879,"t":{"ref":"814Ast","name":"814Ast: Todenmann Wanderersruh - Rinteln-Goldbeck, Neu-Goldbeck","from":"Todenmann Wanderersruh","to":"Rinteln-Goldbeck, Neu-Goldbeck","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":78,"s":[[6018181917442,74],[1398698022,75],[1398698023,76],[6009114029873,77]]},
+  {"id":3018019897843,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Goldbeck, Neu-Goldbeck - Ri-Krankenh, Friedrichshöh.Str","from":"Rinteln-Goldbeck, Neu-Goldbeck","to":"Ri-Krankenh, Friedrichshöh.Str","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":23,"s":[[6009114029873,2],[1398698023,3],[1398698022,4],[6009424643909,5]]},
+  {"id":3029324346585,"t":{"ref":"805","name":"805: Bösingfeld, Bahnhof - Ext-Bögerhof, Kreuzung","from":"Bösingfeld, Bahnhof","to":"Ext-Bögerhof, Kreuzung","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":30,"s":[[6009114029873,14]]},
+  {"id":3039078018613,"t":{"ref":"814Ast","name":"814Ast: Ri-Krankenh, Friedrichshöh.Str - Rinteln-Goldbeck, Neu-Goldbeck","from":"Ri-Krankenh, Friedrichshöh.Str","to":"Rinteln-Goldbeck, Neu-Goldbeck","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":23,"s":[[6018181917442,19],[1398698022,20],[1398698023,21],[6009114029873,22]]},
+  {"id":3040937468091,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Schaumburg Burg - Rinteln-Goldbeck, Neu-Goldbeck","from":"Rinteln-Schaumburg Burg","to":"Rinteln-Goldbeck, Neu-Goldbeck","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":77,"s":[[6018181917442,73],[1398698022,74],[1398698023,75],[6009114029873,76]]},
+  {"id":3051100887077,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Goldbeck, Neu-Goldbeck - Rinteln-Schaumburg Burg","from":"Rinteln-Goldbeck, Neu-Goldbeck","to":"Rinteln-Schaumburg Burg","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":77,"s":[[6009114029873,2],[1398698023,3],[1398698022,4],[6009424643909,5]]},
+  {"id":3054782301454,"t":{"ref":"805","name":"805: Ext-Bögerhof, Kreuzung - Bösingfeld, Bahnhof","from":"Ext-Bögerhof, Kreuzung","to":"Bösingfeld, Bahnhof","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":29,"s":[[6009114029873,17]]},
+  {"id":3061376248456,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Goldbeck, Neu-Goldbeck - Ri-Möllenbeck, Forsthaus","from":"Rinteln-Goldbeck, Neu-Goldbeck","to":"Ri-Möllenbeck, Forsthaus","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":22,"s":[[6009114029873,2],[1398698023,3],[1398698022,4],[6009424643909,5]]},
+  {"id":3062044619589,"t":{"ref":"814Ast","name":"814Ast: Ri-Friedrichshöhe, Neelmeier - Rinteln-Goldbeck, Neu-Goldbeck","from":"Ri-Friedrichshöhe, Neelmeier","to":"Rinteln-Goldbeck, Neu-Goldbeck","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":22,"s":[[6018181917442,18],[1398698022,19],[1398698023,20],[6009114029873,21]]},
+  {"id":3067621709613,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Goldbeck, Neu-Goldbeck - Steinbergen Prinzenhof","from":"Rinteln-Goldbeck, Neu-Goldbeck","to":"Steinbergen Prinzenhof","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":64,"s":[[6009114029873,2],[1398698023,3],[1398698022,4],[6009424643909,5]]},
+  {"id":3082250464564,"t":{"ref":"814Ast","name":"814Ast: Rinteln-Goldbeck, Neu-Goldbeck - Todenmann Wanderersruh","from":"Rinteln-Goldbeck, Neu-Goldbeck","to":"Todenmann Wanderersruh","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":78,"s":[[6009114029873,2],[1398698023,3],[1398698022,4],[6009424643909,5]]},
+  {"id":3090772363452,"t":{"ref":"805","name":"805: Bösingfeld, Bahnhof - Bösingfeld, Bahnhof","from":"Bösingfeld, Bahnhof","to":"Bösingfeld, Bahnhof","operator":"Lippe4","route":"bus","public_transport:version":"2"},"n":53,"s":[[6009114029873,14]]}
+]
+}

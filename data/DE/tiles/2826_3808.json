@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2826,3808],
+"stops":[
+  {"id":2053338521,"lat":51.348735,"lon":10.440721,"k":"x","n":"Rüdigershagen"},
+  {"id":5022240723,"lat":51.333091,"lon":10.425104,"k":"p","n":"Hüpstedt Schacht I"},
+  {"id":6986753411,"lat":51.333102,"lon":10.425136,"k":"x","n":"Hüpstedt Schacht I"},
+  {"id":6986753412,"lat":51.333142,"lon":10.425183,"k":"p","n":"Hüpstedt Schacht I"},
+  {"id":6986753413,"lat":51.327016,"lon":10.440919,"k":"p","n":"Hüpstedt"},
+  {"id":6986753414,"lat":51.327131,"lon":10.4408,"k":"p","n":"Hüpstedt"},
+  {"id":6986753415,"lat":51.327067,"lon":10.44087,"k":"x","n":"Hüpstedt"},
+  {"id":8566861660,"lat":51.311702,"lon":10.440273,"k":"p"},
+  {"id":8566861661,"lat":51.311788,"lon":10.440046,"k":"p","n":"Eigenröder Warte"},
+  {"id":11414502346,"lat":51.312289,"lon":10.439354,"k":"p"},
+  {"id":11414502347,"lat":51.312373,"lon":10.439351,"k":"p"},
+  {"id":11419990341,"lat":51.312597,"lon":10.410696,"k":"p","n":"Beberstedt"},
+  {"id":5001231080246,"lat":51.327052,"lon":10.440837,"k":"p","n":"Hüpstedt"},
+  {"id":6056979408041,"lat":51.333472,"lon":10.409325,"k":"p","n":"Hüpstedt, Schacht II","g":1}
+],
+"routes":[
+  {"id":10310321,"t":{"ref":"34","name":"Bus 34 (1-2): Hüpstedt => Dingelstädt Gym. via Regelschule","from":"Hüpstedt Schacht II","to":"Dingelstädt Gymnasium","network":"EW Bus","operator":"EW Bus","colour":"grey","route":"bus","public_transport:version":"2"},"n":5,"s":[[5022240723,1],[5001231080246,2]]},
+  {"id":10310322,"t":{"ref":"34","name":"Bus 34 (1-1): Hüpstedt => Dingelstädt Gym.","from":"Hüpstedt Schacht II","to":"Dingelstädt Gymnasium","network":"EW Bus","operator":"EW Bus","colour":"grey","route":"bus","public_transport:version":"2"},"n":4,"s":[[6986753412,1],[6986753414,2]]},
+  {"id":10310323,"t":{"ref":"34","name":"Bus 34 (1-3): Hüpstedt => Dingelstädt ZOB","from":"Hüpstedt Schacht II","to":"Dingelstädt ZOB","network":"EW Bus","operator":"EW Bus","colour":"grey","route":"bus","public_transport:version":"2"},"n":3,"s":[[6986753412,1],[6986753414,2]]},
+  {"id":10310324,"t":{"ref":"34","name":"Bus 34 (2-1): Dingelstädt => Hüpstedt","from":"Dingelstädt, Gymnasium","to":"Hüpstest Schacht II","network":"EW Bus","operator":"EW Bus","colour":"grey","route":"bus","public_transport:version":"2"},"n":4,"s":[[6986753414,3],[6986753412,4]]},
+  {"id":3002165348388,"t":{"ref":"112","name":"112: Hüpstedt, Schacht II - Mühlhausen, ZOB","from":"Hüpstedt, Schacht II","to":"Mühlhausen, ZOB","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[6056979408041,1],[6986753412,2],[6986753415,3],[11419990341,4],[8566861661,5]]},
+  {"id":3002533691407,"t":{"ref":"31","name":"31: Vollenborn - Worbis, ZOB","from":"Vollenborn","to":"Worbis, ZOB","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[2053338521,4]]},
+  {"id":3006950277716,"t":{"ref":"31","name":"31: Worbis, ZOB - Vollenborn","from":"Worbis, ZOB","to":"Vollenborn","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[2053338521,9]]},
+  {"id":3013350587488,"t":{"ref":"112","name":"112: Mühlhausen, ZOB - Hüpstedt, Schacht II","from":"Mühlhausen, ZOB","to":"Hüpstedt, Schacht II","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[8566861661,17],[11419990341,18],[6986753415,19],[6986753412,20],[6056979408041,21]]},
+  {"id":3072591023036,"t":{"ref":"112","name":"112: Hüpstedt, Schacht II - Mühlhausen, ZOB","from":"Hüpstedt, Schacht II","to":"Mühlhausen, ZOB","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[6056979408041,1],[6986753412,2],[6986753415,3]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2802,3802],
+"stops":[
+  {"id":420021692,"lat":50.142561,"lon":10.136902,"k":"p","n":"Oerlenbach Hauptstraße"},
+  {"id":566726813,"lat":50.131271,"lon":10.149115,"k":"p","n":"Pfersdorf, Abzweig B19","ref":"Linie 8162"},
+  {"id":566726824,"lat":50.132078,"lon":10.148876,"k":"p","n":"Pfersdorf, Abzweig B19","ref":"Linie 8162"},
+  {"id":3724427719,"lat":50.13145,"lon":10.137073,"k":"x","ref":"SEV","n":"Ebenhausen (Unterfr)"},
+  {"id":3724427720,"lat":50.131315,"lon":10.137139,"k":"x","ref":"SEV"},
+  {"id":8621876005,"lat":50.109904,"lon":10.147925,"k":"p","n":"Hain im Werntal"},
+  {"id":8745566518,"lat":50.104414,"lon":10.14099,"k":"p","n":"Poppenhausen, Schule"},
+  {"id":9451093298,"lat":50.14351,"lon":10.133058,"k":"p","n":"Oerlenbach"},
+  {"id":9451093302,"lat":50.143358,"lon":10.133441,"k":"p","n":"Oerlenbach Sparkasse"},
+  {"id":12269990238,"lat":50.10165,"lon":10.142533,"k":"x"},
+  {"id":12269990239,"lat":50.101624,"lon":10.14256,"k":"p"},
+  {"id":12270008854,"lat":50.100226,"lon":10.139147,"k":"p","n":"Poppenhausen"},
+  {"id":12270008859,"lat":50.10027,"lon":10.140038,"k":"x"},
+  {"id":12270008860,"lat":50.100295,"lon":10.140079,"k":"p","n":"Poppenhausen Bahnhof"},
+  {"id":6044724339093,"lat":50.131305,"lon":10.13804,"k":"p","n":"Ebenhausen (Unterfr)","g":1},
+  {"id":6082945418551,"lat":50.143278,"lon":10.130921,"k":"p","n":"Oerlenbach, Sparkasse","g":1}
+],
+"routes":[
+  {"id":3033854075094,"t":{"ref":"RB50","name":"RB50: Ebenhausen (Unterfr) - Gemünden (Main)","from":"Ebenhausen (Unterfr)","to":"Gemünden (Main)","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":9,"s":[[6044724339093,1],[6082945418551,2]]},
+  {"id":3057206603303,"t":{"ref":"RB50","name":"RB50: Bad Kissingen - Ebenhausen (Unterfr)","from":"Bad Kissingen","to":"Ebenhausen (Unterfr)","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":3,"s":[[6082945418551,2],[6044724339093,3]]},
+  {"id":3068972606589,"t":{"ref":"RB50","name":"RB50: Ebenhausen (Unterfr) - Bad Kissingen","from":"Ebenhausen (Unterfr)","to":"Bad Kissingen","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":3,"s":[[6044724339093,1],[6082945418551,2]]},
+  {"id":3078632907226,"t":{"ref":"RB50","name":"RB50: Gemünden (Main) - Ebenhausen (Unterfr)","from":"Gemünden (Main)","to":"Ebenhausen (Unterfr)","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":9,"s":[[6082945418551,8],[6044724339093,9]]},
+  {"id":3086296157153,"t":{"ref":"RE7","name":"RE7: Bad Kissingen - Ebenhausen (Unterfr)","from":"Bad Kissingen","to":"Ebenhausen (Unterfr)","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":3,"s":[[9451093298,2],[3724427719,3]]},
+  {"id":3090537395268,"t":{"ref":"RE7","name":"RE7: Ebenhausen (Unterfr) - Bad Kissingen","from":"Ebenhausen (Unterfr)","to":"Bad Kissingen","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":3,"s":[[3724427719,1],[9451093298,2]]}
+]
+}

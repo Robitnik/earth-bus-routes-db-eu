@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3837],
+"stops":[
+  {"id":385106918,"lat":51.582221,"lon":11.861279,"k":"p","n":"Lettewitz, Wettiner Straße"},
+  {"id":385106919,"lat":51.582336,"lon":11.862212,"k":"p","n":"Lettewitz, Wettiner Straße"},
+  {"id":412973224,"lat":51.550953,"lon":11.894609,"k":"x","n":"Morl, Kaolinwerk"},
+  {"id":503347182,"lat":51.597272,"lon":11.897266,"k":"p","n":"Priester, Alte Dorfstraße"},
+  {"id":563325467,"lat":51.582266,"lon":11.861153,"k":"x","n":"Lettewitz, Wettiner Straße"},
+  {"id":1262036214,"lat":51.566729,"lon":11.870732,"k":"p","n":"Gimritz, Wettiner Landstraße"},
+  {"id":9177979590,"lat":51.566733,"lon":11.870648,"k":"x","n":"Gimritz, Wettiner Landstraße"},
+  {"id":9348691201,"lat":51.566748,"lon":11.870594,"k":"p","n":"Gimritz, Wettiner Landstraße"},
+  {"id":9348691202,"lat":51.576618,"lon":11.876506,"k":"p","n":"Görbitz, Kirche"},
+  {"id":9348691203,"lat":51.576602,"lon":11.876558,"k":"x","n":"Görbitz, Kirche"},
+  {"id":9348811781,"lat":51.582294,"lon":11.862227,"k":"x","n":"Lettewitz, Wettiner Straße"},
+  {"id":9348811782,"lat":51.576583,"lon":11.876587,"k":"p","n":"Görbitz, Kirche"},
+  {"id":9349731755,"lat":51.598723,"lon":11.887231,"k":"p","n":"Nauendorf, Wallwitzer Straße"},
+  {"id":9349731756,"lat":51.598694,"lon":11.887221,"k":"x","n":"Nauendorf, Wallwitzer Straße"},
+  {"id":9349731757,"lat":51.597232,"lon":11.897328,"k":"x","n":"Priester, Alte Dorfstraße"},
+  {"id":9350316267,"lat":51.597208,"lon":11.897365,"k":"p","n":"Priester, Alte Dorfstraße"},
+  {"id":9350316268,"lat":51.598663,"lon":11.88721,"k":"p","n":"Nauendorf, Wallwitzer Straße"},
+  {"id":9976936712,"lat":51.550907,"lon":11.89468,"k":"p","n":"Morl, Kaolinwerk"},
+  {"id":9976936713,"lat":51.550937,"lon":11.894519,"k":"p","n":"Morl, Kaolinwerk"},
+  {"id":6021997866092,"lat":51.564497,"lon":11.872929,"k":"p","n":"Gimritz, Am Mühlberg","g":1},
+  {"id":6052678796991,"lat":51.564582,"lon":11.872944,"k":"p","n":"Gimritz, Am Mühlberg","g":1}
+],
+"routes":[
+  {"id":13566202,"t":{"ref":"329","name":"Bus 329: Nauendorf => Gröbzig","from":"Priester, Alte Dorfstraße","to":"Gröbzig, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis","route":"bus","public_transport:version":"2"},"n":13,"s":[[503347182,1],[9349731755,2]]},
+  {"id":13567693,"t":{"ref":"329","name":"Bus 329: Gröbzig => Nauendorf","from":"Gröbzig, Schule","to":"Nauendorf, Am Sportplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis","route":"bus","public_transport:version":"2"},"n":13,"s":[[9350316268,11],[9350316267,12]]},
+  {"id":14498120,"t":{"ref":"303","name":"Bus 303: Priester => Frößnitz","from":"Priester, Alte Dorfstraße","to":"Frößnitz, Köthener Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[9350316267,1]]},
+  {"id":14499356,"t":{"ref":"303","name":"Bus 303: Frößnitz => Priester","from":"Frößnitz, Köthener Straße","to":"Priester, Alte Dorfstraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[9350316267,5]]},
+  {"id":14499588,"t":{"ref":"304","name":"Bus 304: Teicha => Wettin","from":"Sennewitz, Am Tonloch","to":"Wettin, Könnernsche Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[9976936713,17],[1262036214,21],[9348811782,22],[385106919,23]]},
+  {"id":14502088,"t":{"ref":"304","name":"Bus 304: Wettin => Teicha","from":"Wettin, Könnernsche Straße","to":"Teicha, Mühlberg","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[385106918,7],[9348691202,8],[9348691201,9],[9976936713,12]]},
+  {"id":14507527,"t":{"ref":"310","name":"Bus 310: Brachwitz/Kösseln => Nauendorf","from":"Brachwitz, Am Schloßberg","to":"Nauendorf, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[1262036214,7]]},
+  {"id":3007321541411,"t":{"ref":"330","name":"PlusBus 330: Halle => Löbejün","from":"Halle, ZOB","to":"Löbejün, Kochstor","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis","route":"bus","public_transport:version":"2"},"n":29,"s":[[6052678796991,11],[1262036214,12],[9348811782,13],[385106919,14]]},
+  {"id":3017658668676,"t":{"ref":"324","name":"324: Döblitz, Am Saalebogen - Morl, Brachwitzer Weg","from":"Döblitz, Am Saalebogen","to":"Morl, Brachwitzer Weg","operator":"Omnibusbetrieb Saalekreis","route":"bus","public_transport:version":"2"},"n":10,"s":[[412973224,7]]},
+  {"id":3088851243781,"t":{"ref":"324","name":"324: Morl, Brachwitzer Weg - Döblitz, Am Saalebogen","from":"Morl, Brachwitzer Weg","to":"Döblitz, Am Saalebogen","operator":"Omnibusbetrieb Saalekreis","route":"bus","public_transport:version":"2"},"n":10,"s":[[412973224,4]]},
+  {"id":3098380889482,"t":{"ref":"330","name":"PlusBus 330: Löbejün => Halle","from":"Löbejün, Kochstor","to":"Halle, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[385106918,15],[9348691202,16],[9348691201,17],[6021997866092,18]]}
+]
+}

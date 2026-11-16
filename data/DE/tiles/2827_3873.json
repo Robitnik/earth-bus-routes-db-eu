@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3873],
+"stops":[
+  {"id":1927802849,"lat":51.353111,"lon":13.689438,"k":"p","n":"Blochwitz Kirche"},
+  {"id":4143261044,"lat":51.363334,"lon":13.660168,"k":"p","n":"Brößnitz, Im Tal"},
+  {"id":7833265005,"lat":51.382223,"lon":13.675478,"k":"x","n":"Großthiemig"},
+  {"id":12124708640,"lat":51.382244,"lon":13.675604,"k":"p","n":"Großthiemig"}
+],
+"routes":[
+  {"id":6146701,"t":{"ref":"454","name":"Bus 454: Blochwitz => Brößnitz => Großenhain","from":"Blockwitz Gasthof","to":"Großenhain, Cottbuser Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Verkehrsgesellschaft Meißen","route":"bus","public_transport:version":"2"},"n":2,"s":[[1927802849,1]]},
+  {"id":6146702,"t":{"ref":"454","name":"Bus 454: Großenhain => Brößnitz => Blochwitz","from":"Großenhain Cottbuser Bahnhof","to":"Blochwitz Gasthof","network":"Verkehrsverbund Oberelbe","operator":"Verkehrsgesellschaft Meißen","route":"bus","public_transport:version":"2"},"n":2,"s":[[1927802849,2]]},
+  {"id":6146703,"t":{"ref":"454","name":"Bus 454: Großenhain => Skäßchen => Blochwitz","from":"Großenhain Cottbuser Bahnhof","to":"Blochwitz Gasthof","network":"Verkehrsverbund Oberelbe","operator":"Verkehrsgesellschaft Meißen","route":"bus","public_transport:version":"2"},"n":5,"s":[[1927802849,5]]},
+  {"id":3001373847206,"t":{"ref":"585","name":"585: Ortrand, Bahnhof - Elsterwerda, Bahnhof","from":"Ortrand, Bahnhof","to":"Elsterwerda, Bahnhof","operator":"Verkehrsmanagement Elbe-Elster GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[12124708640,6]]},
+  {"id":3016575581029,"t":{"ref":"454","name":"454: Großenhain Cottbuser Bahnhof - Blochwitz Kirche","from":"Großenhain Cottbuser Bahnhof","to":"Blochwitz Kirche","operator":"VGM-Busverkehr","route":"bus","public_transport:version":"2"},"n":20,"s":[[4143261044,19],[1927802849,20]]},
+  {"id":3075748282552,"t":{"ref":"454","name":"454: Blochwitz Kirche - Großenhain Cottbuser Bahnhof","from":"Blochwitz Kirche","to":"Großenhain Cottbuser Bahnhof","operator":"VGM-Busverkehr","route":"bus","public_transport:version":"2"},"n":20,"s":[[1927802849,1],[4143261044,2]]},
+  {"id":3097022205201,"t":{"ref":"585","name":"585: Elsterwerda, Bahnhof - Ortrand, Bahnhof","from":"Elsterwerda, Bahnhof","to":"Ortrand, Bahnhof","operator":"Verkehrsmanagement Elbe-Elster GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[12124708640,21]]},
+  {"id":3099397630491,"t":{"ref":"585","name":"585: Ortrand, Bahnhof - Elsterwerda, Bahnhof","from":"Ortrand, Bahnhof","to":"Elsterwerda, Bahnhof","operator":"Verkehrsmanagement Elbe-Elster GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[12124708640,6]]}
+]
+}

@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2860,3759],
+"stops":[
+  {"id":550109380,"lat":53.016001,"lon":7.994593,"k":"p","n":"VWG"},
+  {"id":621234696,"lat":53.005662,"lon":7.955317,"k":"p","n":"Katholische Kirche"},
+  {"id":937162975,"lat":53.010946,"lon":7.983326,"k":"p","n":"Osterloh, Hülskamp"},
+  {"id":3556325401,"lat":53.005706,"lon":7.955375,"k":"x","n":"Katholische Kirche"},
+  {"id":3556325402,"lat":53.005736,"lon":7.955226,"k":"x","n":"Katholische Kirche"},
+  {"id":3556325403,"lat":53.005806,"lon":7.955336,"k":"p","n":"Katholische Kirche"},
+  {"id":4189775813,"lat":53.004323,"lon":7.970391,"k":"x","n":"Hempen"},
+  {"id":5109592351,"lat":53.006274,"lon":7.95704,"k":"p","n":"Bösel(Oldb) Schulzentrum"},
+  {"id":5109592352,"lat":53.020809,"lon":7.964234,"k":"p","n":"Bösel(Oldb) Feldstraße"},
+  {"id":6696892371,"lat":53.026802,"lon":7.951658,"k":"p","n":"ÖPNV Haltestelle Hahnenbergweg"},
+  {"id":8305073671,"lat":53.004379,"lon":7.970369,"k":"p","n":"Hempen"},
+  {"id":8305073672,"lat":53.004201,"lon":7.97116,"k":"p","n":"Hempen"},
+  {"id":8305073676,"lat":53.004271,"lon":7.971088,"k":"x","n":"Hempen"},
+  {"id":6048381661433,"lat":53.035865,"lon":7.951106,"k":"p","n":"Overlahe Steinbergweg","g":1},
+  {"id":6054806458317,"lat":53.03111,"lon":7.950792,"k":"p","n":"Overlahe Hahnenbergweg","g":1}
+],
+"routes":[
+  {"id":12153684,"t":{"ref":"900","name":"Bus 900: Cloppenburg, Bahnhof => Ramsloh, Kirche","from":"Cloppenburg, Bahnhof","to":"Ramsloh, Kirche","network":"Verkehrsgemeinschaft Landkreis Cloppenburg","operator":"Omnibusbetrieb Wilhem Janßen","route":"bus","public_transport:version":"2"},"n":30,"s":[[8305073671,13],[3556325403,14]]},
+  {"id":12194695,"t":{"ref":"918","name":"Bus 918: Friesoythe => Wardenburg","from":"Friesoythe","to":"Wardenburg","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Nienaber Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":24,"s":[[621234696,8],[8305073672,9]]},
+  {"id":12194696,"t":{"ref":"918","name":"Bus 918: Wardenburg => Friesoythe","from":"Wardenburg","to":"Friesoythe","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Nienaber Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":24,"s":[[8305073671,16],[3556325403,17]]},
+  {"id":17746479,"t":{"ref":"918","name":"Bus 918: Wardenburg => Bösel","from":"Wardenburg","to":"Bösel","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Nienaber Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":18,"s":[[8305073671,16],[3556325403,17]]},
+  {"id":17746480,"t":{"ref":"918","name":"Bus 918: Bösel => Wardenburg","from":"Bösel","to":"Wardenburg","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Nienaber Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":18,"s":[[621234696,2],[8305073672,3]]},
+  {"id":3023175414554,"t":{"ref":"900","name":"Bus 900: Friesoythe, Ellerbrockerstraße => Cloppenburg, Bahnhof","from":"Friesoythe, Ellerbrockerstraße","to":"Cloppenburg, Bahnhof","network":"Verkehrsgemeinschaft Landkreis Cloppenburg","operator":"Omnibusbetrieb Wilhem Janßen","route":"bus","public_transport:version":"2"},"n":21,"s":[[3556325402,8],[8305073672,9]]},
+  {"id":3033801436335,"t":{"ref":"900","name":"Bus 900: Friesoythe, Ellerbrockerstraße => Cloppenburg, Bahnhof","from":"Friesoythe, Ellerbrockerstraße","to":"Cloppenburg, Bahnhof","network":"Verkehrsgemeinschaft Landkreis Cloppenburg","operator":"Omnibusbetrieb Wilhem Janßen","route":"bus","public_transport:version":"2"},"n":20,"s":[[3556325402,7],[8305073672,8]]},
+  {"id":3043626221230,"t":{"ref":"900","name":"Bus 900: Cloppenburg, Bahnhof => Barßel, Bahnhof","from":"Cloppenburg, Bahnhof","to":"Barßel, Bahnhof","network":"Verkehrsgemeinschaft Landkreis Cloppenburg","operator":"Omnibusbetrieb Wilhem Janßen","route":"bus","public_transport:version":"2"},"n":20,"s":[[8305073672,13],[3556325402,14]]},
+  {"id":3067761355790,"t":{"ref":"917","name":"917: Bösel(Oldb) Schulzentrum - Westerloh(Bösel) Kronsberg","from":"Bösel(Oldb) Schulzentrum","to":"Westerloh(Bösel) Kronsberg","operator":"Brünemeyer Reisen & Transporte GmbH1","route":"bus","public_transport:version":"2"},"n":10,"s":[[5109592351,1]]},
+  {"id":3071544341592,"t":{"ref":"900","name":"Bus 900: Cloppenburg, Bahnhof => Barßel, Bahnhof","from":"Cloppenburg, Bahnhof","to":"Barßel, Bahnhof","network":"Verkehrsgemeinschaft Landkreis Cloppenburg","operator":"Omnibusbetrieb Wilhem Janßen","route":"bus","public_transport:version":"2"},"n":21,"s":[[8305073672,13],[3556325402,14]]},
+  {"id":3080972187459,"t":{"ref":"917","name":"917: Bösel(Oldb) Schulzentrum - Edewechterdamm Kantinenstraße","from":"Bösel(Oldb) Schulzentrum","to":"Edewechterdamm Kantinenstraße","operator":"Brünemeyer Reisen & Transporte GmbH1","route":"bus","public_transport:version":"2"},"n":8,"s":[[5109592351,1],[5109592352,2],[6054806458317,3],[6048381661433,4]]}
+]
+}

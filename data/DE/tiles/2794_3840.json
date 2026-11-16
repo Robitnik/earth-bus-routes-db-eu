@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3840],
+"stops":[
+  {"id":4921750756,"lat":49.731536,"lon":12.049094,"k":"p","n":"Hammerles, Ortseingang"},
+  {"id":4921750757,"lat":49.730975,"lon":12.045219,"k":"p","n":"Hammerles, Mitte"},
+  {"id":4921750758,"lat":49.741841,"lon":12.034691,"k":"p","n":"Hagen"},
+  {"id":4921750763,"lat":49.735417,"lon":12.032099,"k":"p","n":"Abzw. Sogritz"},
+  {"id":4921750764,"lat":49.73998,"lon":12.024256,"k":"p","n":"Niederndorf"},
+  {"id":4921750765,"lat":49.742831,"lon":12.027901,"k":"p","n":"Abzw. Niederndorf"},
+  {"id":9171582856,"lat":49.735475,"lon":12.03221,"k":"p","n":"Abzw. Sogritz"},
+  {"id":9189645200,"lat":49.742786,"lon":12.027834,"k":"p","n":"Abzw. Niederndorf"},
+  {"id":9264362631,"lat":49.731579,"lon":12.048772,"k":"p","n":"Hammerles, Ortseingang"},
+  {"id":9267100304,"lat":49.740063,"lon":12.02415,"k":"p","n":"Niederndorf"},
+  {"id":11373339596,"lat":49.7328,"lon":12.028692,"k":"p","n":"Sogritz"},
+  {"id":6016034641164,"lat":49.742621,"lon":12.034972,"k":"p","n":"Hagen","g":1},
+  {"id":6034315624561,"lat":49.74312,"lon":12.027094,"k":"p","n":"Niederndorf b. Parkstein, Abzw","g":1},
+  {"id":6036135536321,"lat":49.742621,"lon":12.034972,"k":"p","n":"Hagen","g":1},
+  {"id":6040215642985,"lat":49.731288,"lon":12.044683,"k":"p","n":"Hammerles, Mitte","g":1},
+  {"id":6044901984244,"lat":49.720968,"lon":12.002498,"k":"p","n":"Schwarzenbach, Hohe Straße","g":1},
+  {"id":6059701922725,"lat":49.740687,"lon":12.024157,"k":"p","n":"Niederndorf b. Parkstein","g":1},
+  {"id":6088124646996,"lat":49.731288,"lon":12.044683,"k":"p","n":"Hammerles, Mitte","g":1}
+],
+"routes":[
+  {"id":11206471,"t":{"ref":"1962","name":"Bus 1962: Weiden -> Parkstein -> Schwand","from":"Weiden, Bahnhof","to":"Parkstein - Schwand","network":"VGN","operator":"Wies","colour":"#ADCED2","route":"bus"},"n":25,"s":[[4921750756,22],[4921750757,23],[4921750758,24]]},
+  {"id":11206495,"t":{"ref":"1961","name":"Bus 1961: Neustadt/WN -> Parkstein -> Sogritz (Schwand)","from":"Neustadt/WN","to":"Parkstein - Sogritz (Schwand)","network":"VGN","operator":"Wies","colour":"#53C5CF","route":"bus"},"n":29,"s":[[4921750756,22],[4921750757,23],[4921750763,24],[4921750764,26],[4921750765,27],[4921750758,28]]},
+  {"id":11206497,"t":{"ref":"1961","name":"Bus 1961: Abzw. Sogritz -> Parkstein -> Neustadt/WN","from":"Abzw. Sogritz","to":"Parkstein - Neustadt/WN","network":"VGN","operator":"Wies","colour":"#53C5CF","route":"bus"},"n":27,"s":[[4921750763,1],[4921750764,3],[4921750765,4],[4921750758,6],[4921750757,7],[4921750756,8]]},
+  {"id":11206500,"t":{"ref":"1963","name":"Bus 1963: ZOB -> Neustadt -> Parkstein -> Schwand","from":"Weiden ZOB","to":"Neustadt - Parkstein - Schwand","network":"VGN","operator":"Wies","colour":"#D2AB66","route":"bus"},"n":25,"s":[[4921750756,22],[4921750757,23],[4921750758,24]]},
+  {"id":3017542870618,"t":{"ref":"1989","name":"1989: Trabitz, Bf - Pressath","from":"Trabitz, Bf","to":"Pressath","operator":"Bus15","route":"bus","public_transport:version":"2"},"n":82,"s":[[6044901984244,63]]},
+  {"id":3025468779355,"t":{"ref":"1989","name":"1989: Pressath - Trabitz, Bf","from":"Pressath","to":"Trabitz, Bf","operator":"Bus15","route":"bus","public_transport:version":"2"},"n":82,"s":[[6044901984244,20]]},
+  {"id":3042609279263,"t":{"ref":"1990","name":"1990: Reuth (b Erbendorf) - Altenstadt (Waldnaab)","from":"Reuth (b Erbendorf)","to":"Altenstadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":133,"s":[[6036135536321,56],[6034315624561,57],[6059701922725,58],[11373339596,59],[6088124646996,60],[9264362631,61]]},
+  {"id":3054723796509,"t":{"ref":"1990","name":"1990: Altenstadt (Waldnaab) - Reuth (b Erbendorf)","from":"Altenstadt (Waldnaab)","to":"Reuth (b Erbendorf)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":133,"s":[[9264362631,73],[6088124646996,74],[11373339596,75],[6059701922725,76],[6034315624561,77],[6036135536321,78]]},
+  {"id":3059160379889,"t":{"ref":"1962","name":"Bus 1962: Schwand -> Parkstein -> Weiden","from":"Schwand","to":"Parkstein - Weiden, ZOB","network":"VGN","operator":"Wies","colour":"#ADCED2","route":"bus","public_transport:version":"2"},"n":24,"s":[[4921750756,21],[4921750757,22],[6016034641164,23]]},
+  {"id":3092163073112,"t":{"ref":"1962","name":"Bus 1962: Schwand -> Parkstein -> Weiden","from":"Schwand","to":"Parkstein - Weiden, ZOB","network":"VGN","operator":"Wies","colour":"#ADCED2","route":"bus","public_transport:version":"2"},"n":24,"s":[[6016034641164,2],[6040215642985,3],[9264362631,4]]}
+]
+}

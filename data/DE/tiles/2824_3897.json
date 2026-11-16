@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3897],
+"stops":[
+  {"id":291971698,"lat":51.229258,"lon":14.895617,"k":"p","n":"Kodersdorf Gerichtskretscham"},
+  {"id":291971774,"lat":51.230111,"lon":14.894483,"k":"p","n":"Kodersdorf Gerichtskretscham"},
+  {"id":291985360,"lat":51.24398,"lon":14.889074,"k":"p","n":"Kodersdorf Ärztehaus"},
+  {"id":291985364,"lat":51.243396,"lon":14.888676,"k":"p","n":"Kodersdorf Ärztehaus"},
+  {"id":330667942,"lat":51.215185,"lon":14.891151,"k":"p","n":"Torga"},
+  {"id":6005161660,"lat":51.233325,"lon":14.893077,"k":"p","n":"Kodersdorf Schule"},
+  {"id":6752573346,"lat":51.230448,"lon":14.891118,"k":"p","n":"Kodersdorf Abzweig Wiesa"},
+  {"id":6752573347,"lat":51.223092,"lon":14.892294,"k":"p","n":"Oberrengersdorf Autobahnbrücke"},
+  {"id":6752661927,"lat":51.226596,"lon":14.858855,"k":"p","n":"Wiesa (Oberlausitz)"},
+  {"id":8794389728,"lat":51.223086,"lon":14.892207,"k":"p","n":"Oberrengersdorf Autobahnbrücke"},
+  {"id":8794401468,"lat":51.230383,"lon":14.891104,"k":"p","n":"Kodersdorf Abzweig Wiesa"},
+  {"id":8794469250,"lat":51.226821,"lon":14.858481,"k":"p","n":"Wiesa (Oberlausitz)"},
+  {"id":11892121398,"lat":51.230078,"lon":14.894364,"k":"x","n":"Kodersdorf Gerichtskretscham"},
+  {"id":11892121399,"lat":51.229292,"lon":14.895627,"k":"x","n":"Kodersdorf Gerichtskretscham"},
+  {"id":13766484707,"lat":51.233302,"lon":14.893203,"k":"x","n":"Kodersdorf Schule"}
+],
+"routes":[
+  {"id":3008835998314,"t":{"ref":"68","name":"Bus 68: Görlitz => Kodersdorf => Horka","from":"Görlitz Busbahnhof","to":"Horka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":26,"s":[[291971774,16],[6005161660,17],[291985360,18]]},
+  {"id":3023026586211,"t":{"ref":"77","name":"Bus 77: Kodersdorf => Nieder Seifersdorf","from":"Kodersdorf Gerichtskretscham","to":"Nieder Seifersdorf Gasthaus","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":6,"s":[[291971774,1],[6752573346,2],[8794469250,3]]},
+  {"id":3023071502610,"t":{"ref":"77","name":"Bus 77: Nieder Seifersdorf => Kodersdorf","from":"Nieder Seifersdorf Gasthaus","to":"Kodersdorf Gerichtskretscham","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":6,"s":[[6752661927,4],[8794401468,5],[11892121399,6]]},
+  {"id":3030169944109,"t":{"ref":"77","name":"77: Kodersdorf Schule - Kodersdorf Rathaus","from":"Kodersdorf Schule","to":"Kodersdorf Rathaus","operator":"Omnibus Verkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":5,"s":[[6005161660,1],[8794389728,2],[330667942,3],[6752573347,4],[291971774,5]]},
+  {"id":3068080923823,"t":{"ref":"64","name":"Bus 64: Görlitz => Kodersdorf => Niesky","from":"Görlitz Busbahnhof","to":"Niesky Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[291971774,19],[6005161660,20],[291985360,21]]},
+  {"id":3069544770292,"t":{"ref":"64","name":"Bus 64: Görlitz => Kodersdorf => Niesky","from":"Görlitz Busbahnhof","to":"Niesky Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[291971774,19],[6005161660,20],[291985360,21]]},
+  {"id":3073884630482,"t":{"ref":"68","name":"Bus 68: Horka => Kodersdorf => Görlitz","from":"Horka Bahnhof","to":"Görlitz Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[291985364,9],[6005161660,10],[11892121399,11]]},
+  {"id":3080620534084,"t":{"ref":"64","name":"Bus 64: Niesky => Kodersdorf => Görlitz","from":"Niesky Busbahnhof","to":"Görlitz Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[291985364,5],[6005161660,6],[11892121399,7]]},
+  {"id":3092550045454,"t":{"ref":"64","name":"Bus 64: Niesky => Kodersdorf => Görlitz","from":"Niesky Busbahnhof","to":"Görlitz Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[291985364,5],[6005161660,6],[11892121399,7]]}
+]
+}

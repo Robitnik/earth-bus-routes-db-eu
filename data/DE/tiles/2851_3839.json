@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2851,3839],
+"stops":[
+  {"id":409777277,"lat":52.592119,"lon":11.98676,"k":"p","n":"Hämerten, Dorf"},
+  {"id":409777278,"lat":52.591746,"lon":11.986866,"k":"p","n":"Hämerten, Dorf"},
+  {"id":4963602877,"lat":52.552292,"lon":11.979923,"k":"p","n":"Arneburger Straße"},
+  {"id":4963602879,"lat":52.552688,"lon":11.979825,"k":"p","n":"Arneburger Straße"},
+  {"id":11149867939,"lat":52.552315,"lon":11.979863,"k":"x","n":"Arneburger Straße","ref":"914"},
+  {"id":11149887153,"lat":52.552664,"lon":11.979888,"k":"x","n":"Arneburger Straße","ref":"914"},
+  {"id":11965084072,"lat":52.592112,"lon":11.986814,"k":"x","n":"Hämerten, Dorf"},
+  {"id":11965084073,"lat":52.591729,"lon":11.986801,"k":"x","n":"Hämerten, Dorf"},
+  {"id":6025395746819,"lat":52.551769,"lon":11.95918,"k":"p","n":"Tangermünde, An der Grünen Kuhle","g":1},
+  {"id":6054390012379,"lat":52.551911,"lon":11.958895,"k":"p","n":"Tangermünde, An der Grünen Kuhle","g":1},
+  {"id":6092630263096,"lat":52.59094,"lon":11.984,"k":"p","n":"Hämerten, Abzweig","g":1},
+  {"id":6097221633687,"lat":52.5909,"lon":11.983943,"k":"p","n":"Hämerten, Abzweig","g":1}
+],
+"routes":[
+  {"id":13411850,"t":{"ref":"900","name":"Bus 900: Havelberg => Tangermünde => Stendal","from":"Havelberg","to":"Stendal Hauptbahnhof","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[4963602879,14]]},
+  {"id":13411851,"t":{"ref":"900","name":"Bus 900: Stendal => Tangermünde => Havelberg","from":"Stendal Hauptbahnhof","to":"Havelberg","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[4963602877,8]]},
+  {"id":16249904,"t":{"ref":"914","name":"Bus 914: Sydow => Wust =>Tangermünde","operator":"stendalbus GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[4963602879,7]]},
+  {"id":3001130351372,"t":{"ref":"926","name":"926: Arneburg, Schule - Tangermünde, Lindenstr.","from":"Arneburg, Schule","to":"Tangermünde, Lindenstr.","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[409777278,6],[4963602879,7]]},
+  {"id":3009564189435,"t":{"ref":"RB34","name":"RB34: Rathenow, Bahnhof - Stendal Hbf","from":"Rathenow, Bahnhof","to":"Stendal Hbf","operator":"Hanseatische Eisenbahn GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6097221633687,5]]},
+  {"id":3011899025222,"t":{"ref":"920","name":"920: Tangerhütte, Schönwalder Str. - Tangermünde, An der Grünen Kuhle","from":"Tangerhütte, Schönwalder Str.","to":"Tangermünde, An der Grünen Kuhle","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[6054390012379,13]]},
+  {"id":3015012586771,"t":{"ref":"RB34","name":"RB34: Rathenow, Bahnhof - Stendal, Hauptbahnhof","from":"Rathenow, Bahnhof","to":"Stendal, Hauptbahnhof","operator":"Hanseatische Eisenbahn","route":"bus","public_transport:version":"2"},"n":6,"s":[[6092630263096,5]]},
+  {"id":3022898640584,"t":{"ref":"910","name":"910: Tangermünde, An der Grünen Kuhle - Stendal, Hauptbahnhof (ZOB)","from":"Tangermünde, An der Grünen Kuhle","to":"Stendal, Hauptbahnhof (ZOB)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":10,"s":[[6025395746819,1]]},
+  {"id":3041825253450,"t":{"ref":"RB34","name":"RB34: Stendal Hbf - Rathenow, Bahnhof","from":"Stendal Hbf","to":"Rathenow, Bahnhof","operator":"Hanseatische Eisenbahn GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6097221633687,2]]},
+  {"id":3044774565722,"t":{"ref":"790","name":"790: Tangermünde, Neustädter Tor - Genthin, Busbahnhof","from":"Tangermünde, Neustädter Tor","to":"Genthin, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":23,"s":[[4963602879,6]]},
+  {"id":3049612403292,"t":{"ref":"RB34","name":"RB34: Stendal, Hauptbahnhof - Rathenow, Bahnhof","from":"Stendal, Hauptbahnhof","to":"Rathenow, Bahnhof","operator":"Hanseatische Eisenbahn","route":"bus","public_transport:version":"2"},"n":6,"s":[[6092630263096,2]]},
+  {"id":3052135622838,"t":{"ref":"910","name":"910: Stendal, Hauptbahnhof (ZOB) - Tangermünde, An der Grünen Kuhle","from":"Stendal, Hauptbahnhof (ZOB)","to":"Tangermünde, An der Grünen Kuhle","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":10,"s":[[6054390012379,10]]},
+  {"id":3057770867465,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Tangermünde, Neustädter Tor","from":"Havelberg, EDEKA","to":"Tangermünde, Neustädter Tor","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[4963602879,18]]},
+  {"id":3073107708640,"t":{"ref":"790","name":"790: Tangermünde, Neustädter Tor - Genthin, Busbahnhof","from":"Tangermünde, Neustädter Tor","to":"Genthin, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":20,"s":[[4963602879,6]]},
+  {"id":3074893040082,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[4963602877,6]]},
+  {"id":3080087131548,"t":{"ref":"790","name":"Bus 790: Genthin Bahnhof => Tangermünde","from":"Genthin, Bahnhof","to":"Tangermünde, Bahnhof","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[4963602877,15]]},
+  {"id":3085031278147,"t":{"ref":"790","name":"Bus 790: Genthin Bahnhof => Tangermünde","from":"Genthin, Bahnhof","to":"Tangermünde, Bahnhof","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[4963602877,19]]},
+  {"id":3087891661887,"t":{"ref":"790","name":"Bus 790: Genthin Bahnhof => Tangermünde","from":"Genthin, Bahnhof","to":"Tangermünde, Bahnhof","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[4963602877,16]]},
+  {"id":3090187073077,"t":{"ref":"926","name":"926: Tangermünde, Lindenstr. - Arneburg, Schule","from":"Tangermünde, Lindenstr.","to":"Arneburg, Schule","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[4963602877,3],[409777278,4]]},
+  {"id":3091085588989,"t":{"ref":"920","name":"920: Tangermünde, An der Grünen Kuhle - Tangerhütte, Schönwalder Str.","from":"Tangermünde, An der Grünen Kuhle","to":"Tangerhütte, Schönwalder Str.","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[6025395746819,1]]}
+]
+}

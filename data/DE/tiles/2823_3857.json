@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3857],
+"stops":[
+  {"id":454417985,"lat":51.198856,"lon":12.891223,"k":"x"},
+  {"id":454418028,"lat":51.196207,"lon":12.882145,"k":"x","n":"Motterwitz"},
+  {"id":554246420,"lat":51.191071,"lon":12.896296,"k":"p","n":"Zschockau"},
+  {"id":855174843,"lat":51.185969,"lon":12.863956,"k":"x","n":"Böhlen, Schulstraße"},
+  {"id":860257106,"lat":51.185648,"lon":12.860741,"k":"x","n":"Böhlen, Oberdorf"},
+  {"id":881409804,"lat":51.189422,"lon":12.873213,"k":"x","n":"Muschau"},
+  {"id":881409814,"lat":51.199929,"lon":12.891064,"k":"x"},
+  {"id":881409836,"lat":51.18963,"lon":12.873148,"k":"x","n":"Muschau"},
+  {"id":1128057485,"lat":51.173665,"lon":12.859752,"k":"x","n":"Seidewitz Abzweig nach Böhlen"},
+  {"id":3352622173,"lat":51.177059,"lon":12.890465,"k":"p","n":"Wiesenthal"},
+  {"id":3352624733,"lat":51.176963,"lon":12.890301,"k":"p","n":"Wiesenthal"},
+  {"id":9289731391,"lat":51.191375,"lon":12.895532,"k":"p","n":"Zschockau"},
+  {"id":9516390013,"lat":51.186286,"lon":12.867107,"k":"x","n":"Böhlen, Schule"},
+  {"id":12875197980,"lat":51.182481,"lon":12.893785,"k":"p","n":"Polditz"},
+  {"id":12875244919,"lat":51.191669,"lon":12.896086,"k":"p","n":"Zschochau, Ortsmitte"},
+  {"id":12875268543,"lat":51.185902,"lon":12.895418,"k":"p","n":"Kalthausen"},
+  {"id":5000072455526,"lat":51.186007,"lon":12.863969,"k":"p","n":"Böhlen, Schule"},
+  {"id":5000072455527,"lat":51.18571,"lon":12.860782,"k":"p","n":"Böhlen, Oberdorf"},
+  {"id":5000074597267,"lat":51.19622,"lon":12.882399,"k":"p","n":"Motterwitz"},
+  {"id":5000074597269,"lat":51.189388,"lon":12.873331,"k":"p","n":"Muschau"},
+  {"id":5000074597272,"lat":51.189604,"lon":12.873109,"k":"p","n":"Muschau"},
+  {"id":6031480399924,"lat":51.173914,"lon":12.858545,"k":"p","n":"Seidewitz (Thümmlitzwalde), Abzweig n. Böhlen","g":1},
+  {"id":6072854799150,"lat":51.188432,"lon":12.861191,"k":"p","n":"Böhlen (Thümmlitzwalde), Dürrweitzschener Str.","g":1},
+  {"id":6076918346177,"lat":51.173954,"lon":12.858702,"k":"p","n":"Seidewitz (Thümmlitzwalde), Abzweig n. Böhlen","g":1},
+  {"id":6084733717495,"lat":51.188416,"lon":12.861424,"k":"p","n":"Böhlen (Thümmlitzwalde), Dürrweitzschener Str.","g":1}
+],
+"routes":[
+  {"id":10617029,"t":{"ref":"636","name":"Bus 636: Böhlen => Bröhsen","from":"Böhlen, Oberdorf","to":"Bröhsen, Golzerner Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000072455527,1],[5000074597269,2],[5000074597267,3]]},
+  {"id":10617030,"t":{"ref":"636","name":"Bus 636: Bröhsen => Böhlen","from":"Bröhsen, Golzerner Straße","to":"Böhlen, Oberdorf","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000074597272,11],[5000072455526,12],[5000072455527,13]]},
+  {"id":3004352756038,"t":{"ref":"633","name":"633: Grimma, Bahnhof (Bus) - Colditz, Zentralhaltestelle","from":"Grimma, Bahnhof (Bus)","to":"Colditz, Zentralhaltestelle","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6072854799150,18],[5000072455527,19],[6031480399924,20]]},
+  {"id":3037550545967,"t":{"ref":"621","name":"621: Mutzschen, Markt - Böhlen (Thümmlitzwalde), Schule","from":"Mutzschen, Markt","to":"Böhlen (Thümmlitzwalde), Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6072854799150,9],[9516390013,10]]},
+  {"id":3050941668267,"t":{"ref":"621","name":"621: Böhlen (Thümmlitzwalde), Schule - Mutzschen, Markt","from":"Böhlen (Thümmlitzwalde), Schule","to":"Mutzschen, Markt","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[9516390013,1],[855174843,2],[5000072455527,3],[6084733717495,4]]},
+  {"id":3061622965811,"t":{"ref":"633","name":"633: Colditz, Zentralhaltestelle - Grimma, Bahnhof (Bus)","from":"Colditz, Zentralhaltestelle","to":"Grimma, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[6076918346177,11],[860257106,12],[6084733717495,13]]}
+]
+}

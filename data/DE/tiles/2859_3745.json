@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2859,3745],
+"stops":[
+  {"id":306370954,"lat":52.992435,"lon":7.29556,"k":"x","n":"Kreuzung Janssen"},
+  {"id":8256514043,"lat":52.970324,"lon":7.269029,"k":"x","n":"Wehrtannen"},
+  {"id":8256514044,"lat":52.985392,"lon":7.291859,"k":"x","n":"Kleines Feld"},
+  {"id":8256514045,"lat":52.992473,"lon":7.295535,"k":"p","n":"Kreuzung Janssen"},
+  {"id":8256514046,"lat":52.992351,"lon":7.29545,"k":"p","n":"Kreuzung Janssen"},
+  {"id":8256514047,"lat":52.992393,"lon":7.295421,"k":"x","n":"Kreuzung Janssen"},
+  {"id":12838219388,"lat":52.985471,"lon":7.291978,"k":"p","n":"Kleines Feld"},
+  {"id":12838219389,"lat":52.985454,"lon":7.291895,"k":"x","n":"Kleines Feld"},
+  {"id":13447738224,"lat":52.959906,"lon":7.275892,"k":"p","n":"Kirche"},
+  {"id":13447738225,"lat":52.959941,"lon":7.275709,"k":"x","n":"Kirche"},
+  {"id":13878422597,"lat":52.985388,"lon":7.291797,"k":"p","n":"Kleines Feld"},
+  {"id":14355388247,"lat":52.961119,"lon":7.256614,"k":"p","n":"Mittelweg"},
+  {"id":6055486757136,"lat":52.969653,"lon":7.269051,"k":"p","n":"Dersum, Wehrtannen","g":1}
+],
+"routes":[
+  {"id":12084722,"t":{"ref":"611","name":"Bus 611: Dersum, Kirche => Rhede, Markt","from":"Dersum, Kirche","to":"Rhede, Markt","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":7,"s":[[13447738224,1],[12838219388,2],[8256514046,3]]},
+  {"id":12084724,"t":{"ref":"611","name":"Bus 611: Rhede, Markt => Dersum, Kirche","from":"Rhede, Markt","to":"Dersum, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":7,"s":[[8256514045,5],[13878422597,6],[13447738224,7]]},
+  {"id":21124298,"t":{"ref":"951","name":"Bus 951: Heede, Marktplatz => Sögel, Busbahnhof","from":"Heede, Marktplatz","to":"Sögel, Busbahnhof","route":"bus","public_transport:version":"2"},"n":22,"s":[[8256514045,2],[13878422597,3]]},
+  {"id":21124299,"t":{"ref":"951","name":"Bus 951: Heede, Marktplatz => Dörpen, Bahnhof","from":"Heede, Marktplatz","to":"Dörpen, Bahnhof","route":"bus","public_transport:version":"2"},"n":7,"s":[[8256514045,2],[13878422597,3]]},
+  {"id":3002062304019,"t":{"ref":"951","name":"Bus 951: Kluse, Bahnhof/Abzweig Wippingen => Heede, Kleines Feld","from":"Kluse, Bahnhof/Abzweig Wippingen","to":"Heede, Kleines Feld","route":"bus","public_transport:version":"2"},"n":8,"s":[[8256514046,7],[12838219388,8]]},
+  {"id":3004919026245,"t":{"ref":"951","name":"Bus 951: Kluse, Bahnhof/Abzweig Wippingen => Heede, Kleines Feld","from":"Kluse, Bahnhof/Abzweig Wippingen","to":"Heede, Kleines Feld","route":"bus","public_transport:version":"2"},"n":8,"s":[[8256514046,2],[12838219388,3]]},
+  {"id":3020428024689,"t":{"ref":"961","name":"961: Dörpen, Bahnhof - Dörpen, Bahnhof","from":"Dörpen, Bahnhof","to":"Dörpen, Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":33,"s":[[8256514046,7],[12838219388,8],[6055486757136,9],[13447738225,10],[14355388247,11]]},
+  {"id":3054779406258,"t":{"ref":"961","name":"961: Dörpen, Bahnhof - Heede, Kleines Feld","from":"Dörpen, Bahnhof","to":"Heede, Kleines Feld","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":8,"s":[[8256514046,7],[12838219388,8]]},
+  {"id":3089410632802,"t":{"ref":"961","name":"961: Dörpen, Bahnhof - Dörpen, Bahnhof","from":"Dörpen, Bahnhof","to":"Dörpen, Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":34,"s":[[8256514046,7],[12838219388,8],[6055486757136,9],[13447738225,10],[14355388247,11]]},
+  {"id":3095485514624,"t":{"ref":"961","name":"961: Dörpen, Schulzentrum - Neudersum, Moorstr/Herzogstr.","from":"Dörpen, Schulzentrum","to":"Neudersum, Moorstr/Herzogstr.","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":14,"s":[[6055486757136,3],[13447738225,4],[14355388247,5]]}
+]
+}

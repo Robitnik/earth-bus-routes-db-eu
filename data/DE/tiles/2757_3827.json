@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2757,3827],
+"stops":[
+  {"id":827342906,"lat":47.881014,"lon":11.353023,"k":"p","n":"Holzhausen, Brunnenstraße 20"},
+  {"id":2024534902,"lat":47.878018,"lon":11.363326,"k":"p","n":"Attenkam"},
+  {"id":2024536498,"lat":47.880774,"lon":11.379271,"k":"p"},
+  {"id":3855709559,"lat":47.878065,"lon":11.363333,"k":"x","n":"Attenkam"},
+  {"id":3855709560,"lat":47.878093,"lon":11.362903,"k":"p","n":"Attenkam"},
+  {"id":3855709565,"lat":47.880082,"lon":11.379734,"k":"x","n":"Degerndorf"},
+  {"id":3855710065,"lat":47.878051,"lon":11.363086,"k":"x","n":"Attenkam"},
+  {"id":3855712659,"lat":47.880274,"lon":11.379762,"k":"x","n":"Degerndorf"},
+  {"id":3855765560,"lat":47.880084,"lon":11.379675,"k":"p","n":"Degerndorf"},
+  {"id":3855765561,"lat":47.880276,"lon":11.379826,"k":"p","n":"Degerndorf"},
+  {"id":3855765857,"lat":47.881,"lon":11.352859,"k":"x","n":"Holzhausen, Brunnenstraße 20"},
+  {"id":3855765957,"lat":47.881037,"lon":11.352834,"k":"p","n":"Holzhausen, Brunnenstraße 20"},
+  {"id":3855766057,"lat":47.881042,"lon":11.353002,"k":"x","n":"Holzhausen, Brunnenstraße 20"},
+  {"id":6015691668716,"lat":47.881354,"lon":11.35378,"k":"p","n":"Holzhausen(Amb), Brunnenstr.20","g":1},
+  {"id":6094335558144,"lat":47.8813,"lon":11.353807,"k":"p","n":"Holzhausen(Amb), Brunnenstr.20","g":1}
+],
+"routes":[
+  {"id":9752440,"t":{"ref":"373V","name":"Bus 373V: Ambach => Wolfratshausen (S)","from":"Ambach","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":11,"s":[[827342906,4],[2024534902,5],[3855765561,6]]},
+  {"id":9880991,"t":{"ref":"373","name":"Bus 373: Degerndorf => Wolfratshausen (S)","from":"Degerndorf","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":6,"s":[[3855765561,1]]},
+  {"id":9880993,"t":{"ref":"373","name":"Bus 373: Wolfratshausen (S) => Degerndorf","from":"Wolfratshausen (S)","to":"Degerndorf","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":7,"s":[[3855765560,7]]},
+  {"id":9880996,"t":{"ref":"373","name":"Bus 373: Wolfratshausen (S) => Degerndorf => Ambach","from":"Wolfratshausen (S)","to":"Ambach","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":13,"s":[[3855765560,8],[3855709560,9],[3855765957,10]]},
+  {"id":9880997,"t":{"ref":"373","name":"Bus 373: Wolfratshausen (S) => Degerndorf => Seeshaupt, Bahnhof","from":"Wolfratshausen (S)","to":"Seeshaupt, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":18,"s":[[3855765560,8],[3855709560,9],[3855765957,10]]},
+  {"id":9881164,"t":{"ref":"373","name":"Bus 373: Seeshaupt, Bahnhof => Ambach => Degerndorf => Wolfratshausen (S)","from":"Seeshaupt, Bahnhof","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":19,"s":[[827342906,12],[2024534902,13],[3855765561,14]]},
+  {"id":9881166,"t":{"ref":"373","name":"Bus 373: Ambach => Degerndorf => Wolfratshausen (S)","from":"Ambach","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":11,"s":[[827342906,4],[2024534902,5],[3855765561,6]]},
+  {"id":9881168,"t":{"ref":"373","name":"Bus 373: Ambach => Degerndorf => Bergkramerhof => Wolfratshausen (S)","from":"Ambach","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":12,"s":[[827342906,4],[2024534902,5],[3855765561,6]]},
+  {"id":3024599813641,"t":{"ref":"373","name":"Bus 373: Wolfratshausen (S) => Degerndorf => Ambach => Seeshaupt, Bahnhof","from":"Wolfratshausen (S)","to":"Seeshaupt, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":13,"s":[[3855765560,8],[3855709560,9],[6015691668716,10]]},
+  {"id":3053996869596,"t":{"ref":"373","name":"Bus 373: Seeshaupt, Bahnhof => Degerndorf => Bergkramerhof => Wolfratshausen (S)","from":"Seeshaupt, Bahnhof","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":17,"s":[[6094335558144,9],[3855709560,10],[3855712659,11]]},
+  {"id":3054659681649,"t":{"ref":"373","name":"Bus 373: Seeshaupt, Bahnhof => Ambach => Degerndorf => Bergkramerhof => Wolfratshausen (S)","from":"Seeshaupt, Bahnhof","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":12,"s":[[6094335558144,4],[3855709560,5],[3855712659,6]]},
+  {"id":3063208155904,"t":{"ref":"373","name":"Bus 373: Wolfratshausen (S) => Degerndorf => Ambach => Seeshaupt, Bahnhof","from":"Wolfratshausen (S)","to":"Seeshaupt, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":21,"s":[[3855765560,8],[3855709560,9],[6015691668716,10]]},
+  {"id":3085899967782,"t":{"ref":"373","name":"Bus 373: Wolfratshausen (S) => Degerndorf => Ambach => Seeshaupt, Bahnhof","from":"Wolfratshausen (S)","to":"Seeshaupt, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":18,"s":[[3855765560,8],[3855709560,9],[6015691668716,10]]},
+  {"id":3090590290329,"t":{"ref":"373","name":"Bus 373: Seeshaupt, Bahnhof => Ambach => Degerndorf => Bergkramerhof => Wolfratshausen (S)","from":"Seeshaupt, Bahnhof","to":"Wolfratshausen (S)","network":"Münchner Verkehrs- und Tarifverbund","operator":"Regionalverkehr Oberbayern","colour":"#005262","route":"bus","public_transport:version":"2"},"n":19,"s":[[6094335558144,12],[3855709560,13],[3855712659,14]]}
+]
+}

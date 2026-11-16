@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2780,3758],
+"stops":[
+  {"id":287145071,"lat":49.047067,"lon":7.900364,"k":"p","n":"St. Germanshof"},
+  {"id":845437645,"lat":49.032295,"lon":7.949741,"k":"p","n":"Wissembourg, Gare"},
+  {"id":1786222928,"lat":49.037496,"lon":7.9132,"k":"p","n":"Weiler"},
+  {"id":1806591522,"lat":49.032327,"lon":7.949788,"k":"x","n":"Wissembourg, Gare"},
+  {"id":1806591526,"lat":49.032539,"lon":7.949269,"k":"p","n":"Wissembourg, Gare"},
+  {"id":2126661695,"lat":49.03754,"lon":7.913251,"k":"x","n":"Weiler"},
+  {"id":2126661696,"lat":49.04037,"lon":7.933238,"k":"x","n":"Wissembourg, Hôpital"},
+  {"id":2126661709,"lat":49.047039,"lon":7.900237,"k":"p","n":"St. Germanshof"},
+  {"id":2126661710,"lat":49.04046,"lon":7.931816,"k":"p","n":"Wissembourg, Hôpital"},
+  {"id":2126661711,"lat":49.040458,"lon":7.933007,"k":"p","n":"Wissembourg, Hôpital"},
+  {"id":2126661712,"lat":49.037628,"lon":7.913278,"k":"p","n":"Weiler"},
+  {"id":2270966230,"lat":49.028268,"lon":7.905692,"k":"x","n":"Maison forestière"},
+  {"id":2270966234,"lat":49.028329,"lon":7.905157,"k":"x","n":"Maison forestière"},
+  {"id":3089499773,"lat":49.032493,"lon":7.949236,"k":"x","n":"Wissembourg, Gare"},
+  {"id":3089499776,"lat":49.038276,"lon":7.948837,"k":"p","n":"Place de la Foire"},
+  {"id":3089499784,"lat":49.040502,"lon":7.931815,"k":"x","n":"Wissembourg, Hôpital"},
+  {"id":3089499791,"lat":49.040585,"lon":7.931622,"k":"x","n":"Wissembourg, Hôpital"},
+  {"id":3089499794,"lat":49.040628,"lon":7.931625,"k":"p","n":"Wissembourg, Hôpital"},
+  {"id":3509293576,"lat":49.047064,"lon":7.900272,"k":"x","n":"St. Germanshof"}
+],
+"routes":[
+  {"id":2720723,"t":{"ref":"252","name":"Bus 252: Hauenstein => Wissembourg","from":"Hauenstein, Ortsmitte","to":"Wissembourg, Gare","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":18,"s":[[2126661709,15],[1786222928,16],[2126661710,17],[845437645,18]]},
+  {"id":2720724,"t":{"ref":"252","name":"Bus 252: Wissembourg => Hauenstein","from":"Wissembourg Gare","to":"Hauenstein Ortsmitte","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":20,"s":[[845437645,1],[3089499794,3],[2126661712,4],[287145071,5]]},
+  {"id":3854334,"t":{"ref":"313","name":"Bus 313: Seltz => Wissembourg","from":"Seltz Gare","to":"Wissembourg Hôpital","network":"Fluo Grand Est 67","route":"share_taxi"},"n":2,"s":[[1806591526,1],[2126661696,2]]},
+  {"id":3854335,"t":{"ref":"313","name":"Bus 313: Wissembourg => Seltz","from":"Wissembourg Hôpital","to":"Seltz Gare","network":"Fluo Grand Est 67","route":"share_taxi"},"n":2,"s":[[2126661711,1],[845437645,2]]},
+  {"id":3854338,"t":{"ref":"316","name":"Bus 316: Lembach => Wissembourg","from":"Lembach Lotissement","to":"Wissembourg Hopital","network":"Fluo Grand Est 67","route":"share_taxi"},"n":3,"s":[[2126661696,3]]},
+  {"id":3854339,"t":{"ref":"316","name":"Bus 316: Wissembourg => Lembach","from":"Wissembourg Hopital","to":"Lembach Lotissement","network":"Fluo Grand Est 67","route":"share_taxi"},"n":3,"s":[[2126661696,1]]},
+  {"id":12122711,"t":{"ref":"543","name":"Bus 543: Wissembourg => Bad Bergzabern","from":"Wissembourg, Gare","to":"Bad Bergzabern, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[845437645,1]]},
+  {"id":3005589950753,"t":{"ref":"2552","name":"2552: Dahn, Bahnhof - St. Germanshof","from":"Dahn, Bahnhof","to":"St. Germanshof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":27,"s":[[2126661709,27]]},
+  {"id":3005998523294,"t":{"ref":"2552","name":"2552: Dahn, Bahnhof - St. Germanshof","from":"Dahn, Bahnhof","to":"St. Germanshof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":18,"s":[[2126661709,18]]},
+  {"id":3086452575581,"t":{"ref":"2552","name":"2552: St. Germanshof - Hinterweidenthal, Bahnhof","from":"St. Germanshof","to":"Hinterweidenthal, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":29,"s":[[3509293576,1]]},
+  {"id":3088759037074,"t":{"ref":"2552","name":"2552: Hinterweidenthal, Bahnhof - St. Germanshof","from":"Hinterweidenthal, Bahnhof","to":"St. Germanshof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":31,"s":[[2126661709,31]]},
+  {"id":3099378034974,"t":{"ref":"543","name":"Bus 543: Bad Bergzabern => Wissembourg","from":"Bad Bergzabern, Bahnhof","to":"Wissembourg, Gare","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[845437645,10]]},
+  {"id":3099654740019,"t":{"ref":"2552","name":"2552: St. Germanshof - Dahn, Bahnhof","from":"St. Germanshof","to":"Dahn, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":16,"s":[[3509293576,1]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2841,3840],
+"stops":[
+  {"id":272405355,"lat":52.077019,"lon":12.016035,"k":"x","n":"Göbel"},
+  {"id":1895059319,"lat":52.086982,"lon":12.049179,"k":"p","n":"Klepps"},
+  {"id":1895059323,"lat":52.087011,"lon":12.049147,"k":"x","n":"Klepps"},
+  {"id":1895059325,"lat":52.087083,"lon":12.049103,"k":"p","n":"Klepps"},
+  {"id":1895114039,"lat":52.076863,"lon":12.015783,"k":"p","n":"Göbel"},
+  {"id":1895114055,"lat":52.07692,"lon":12.015739,"k":"x","n":"Göbel"},
+  {"id":1895114059,"lat":52.077082,"lon":12.016023,"k":"p","n":"Göbel"},
+  {"id":1895114062,"lat":52.077767,"lon":12.042225,"k":"p","n":"Hobeck"},
+  {"id":1895114063,"lat":52.077824,"lon":12.042222,"k":"x","n":"Hobeck"},
+  {"id":1895114075,"lat":52.077881,"lon":12.042218,"k":"p","n":"Hobeck"},
+  {"id":1895114081,"lat":52.077572,"lon":12.037288,"k":"p","n":"Hobeck, Neubauten"},
+  {"id":1895114085,"lat":52.077553,"lon":12.037814,"k":"x","n":"Hobeck, Neubauten"},
+  {"id":1895114086,"lat":52.077607,"lon":12.037296,"k":"x","n":"Hobeck, Neubauten"},
+  {"id":1895114087,"lat":52.0776,"lon":12.037826,"k":"p","n":"Hobeck, Neubauten"},
+  {"id":10554845148,"lat":52.097699,"lon":12.022317,"k":"x","n":"Kalitz","ref":"715"},
+  {"id":10554876120,"lat":52.077767,"lon":12.018285,"k":"x","n":"Abzweig Göbel","ref":"715"},
+  {"id":11143245961,"lat":52.077811,"lon":12.018271,"k":"p","n":"Abzweig Göbel"},
+  {"id":11143245962,"lat":52.077726,"lon":12.018326,"k":"p","n":"Abzweig Göbel"},
+  {"id":11143310856,"lat":52.097773,"lon":12.022352,"k":"p","n":"Kalitz"},
+  {"id":11143548841,"lat":52.097665,"lon":12.022279,"k":"p","n":"Kalitz"},
+  {"id":6031907975204,"lat":52.0773,"lon":12.04443,"k":"p","n":"Hobeck","g":1}
+],
+"routes":[
+  {"id":16242507,"t":{"ref":"715","name":"Bus 715: Dalchau => Göbel => Loburg","from":"Dalchau","to":"Loburg, Markt","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":10,"s":[[11143548841,3],[11143245961,4],[1895114081,5],[1895114062,6],[1895059319,7]]},
+  {"id":16242770,"t":{"ref":"715","name":"Bus 715: Möckern => Göbel => Loburg","from":"Möckern, Schule","to":"Loburg, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":14,"s":[[11143548841,6],[11143245961,7],[1895114081,8],[1895114062,9],[1895059319,10]]},
+  {"id":16242887,"t":{"ref":"715","name":"Bus 715: Göbel => Loburg => Schweinitz","from":"Göbel","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":13,"s":[[1895114039,1],[1895114081,2],[1895114062,3],[1895059319,4]]},
+  {"id":16243177,"t":{"ref":"715","name":"Bus 715: Möckern => Göbel => Loburg => Schweinitz","from":"Möckern, Schule","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[11143548841,6],[11143245961,7],[1895114081,8],[1895114062,9],[1895059319,10]]},
+  {"id":16243267,"t":{"ref":"715","name":"Bus 715: Möckern => Göbel","from":"Möckern, Bahnhofstraße","to":"Abzweig Göbel","network":"Magdeburger Regionalverkehrsverbund","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":6,"s":[[11143548841,5],[11143245961,6]]},
+  {"id":16243434,"t":{"ref":"715","name":"Bus 715: Schweinitz => Loburg => Göbel => Möckern","from":"Schweinitzer Hütten","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":15,"s":[[1895059325,7],[1895114075,8],[1895114087,9],[11143245962,10],[11143310856,11]]},
+  {"id":16243461,"t":{"ref":"715","name":"Bus 715: Loburg => Göbel => Möckern","from":"Loburg, Bahnhofstraße","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":14,"s":[[1895059325,5],[1895114075,6],[1895114087,7],[11143245962,8],[11143310856,9]]},
+  {"id":16243508,"t":{"ref":"715","name":"Bus 715: Schweinitz => Loburg => Göbel => Möckern","from":"Schweinitzer Hütten","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[1895059325,10],[1895114075,11],[1895114087,12],[11143245962,13],[11143310856,14]]},
+  {"id":3070970449258,"t":{"ref":"715","name":"Bus 715: Möckern => Göbel => Loburg => Schweinitz","from":"Möckern, Bahnhofstraße","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[11143548841,5],[1895114039,6],[1895114081,7],[6031907975204,8],[1895059325,9]]},
+  {"id":3078478818238,"t":{"ref":"715","name":"Bus 715: Schweinitz => Loburg => Göbel => Möckern","from":"Schweinitzer Hütten","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[1895059325,11],[1895114075,12],[1895114085,13],[1895114039,14],[11143310856,15]]}
+]
+}

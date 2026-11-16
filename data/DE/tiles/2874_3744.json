@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2874,3744],
+"stops":[
+  {"id":566376222,"lat":53.71944,"lon":7.206098,"k":"x","n":"Weiße Düne"},
+  {"id":1072893642,"lat":53.709507,"lon":7.210058,"k":"x","n":"Golfplatz"},
+  {"id":1072893647,"lat":53.709773,"lon":7.205149,"k":"x","n":"Um Ost"},
+  {"id":1076976703,"lat":53.711389,"lon":7.202769,"k":"x","n":"Dünensender"},
+  {"id":1427405550,"lat":53.709407,"lon":7.228936,"k":"x","n":"Leuchtturm"},
+  {"id":2367020581,"lat":53.718162,"lon":7.235964,"k":"p","n":"Oase"},
+  {"id":2367020606,"lat":53.718143,"lon":7.235856,"k":"x","n":"Oase"},
+  {"id":3790771929,"lat":53.719409,"lon":7.206168,"k":"p","n":"Weiße Düne"},
+  {"id":4799010546,"lat":53.709458,"lon":7.226305,"k":"p","n":"Flugplatz"},
+  {"id":4799010547,"lat":53.709503,"lon":7.226302,"k":"x","n":"Flugplatz"},
+  {"id":4799010563,"lat":53.711683,"lon":7.236375,"k":"x","n":"Abzweig Eiland"},
+  {"id":4799010564,"lat":53.711769,"lon":7.236526,"k":"x","n":"Abzweig Eiland"},
+  {"id":4799010565,"lat":53.711734,"lon":7.236573,"k":"p","n":"Abzweig Eiland"},
+  {"id":4799010566,"lat":53.711723,"lon":7.236332,"k":"p","n":"Abzweig Eiland"},
+  {"id":4799010568,"lat":53.709602,"lon":7.22787,"k":"p","n":"Leuchtturm/Flugplatz"},
+  {"id":4799010569,"lat":53.709374,"lon":7.229026,"k":"p","n":"Leuchtturm"},
+  {"id":4799010570,"lat":53.709539,"lon":7.227857,"k":"x","n":"Leuchtturm/Flugplatz"},
+  {"id":4799010578,"lat":53.709342,"lon":7.210639,"k":"p","n":"Golfplatz"},
+  {"id":4799010579,"lat":53.709401,"lon":7.210658,"k":"x","n":"Golfplatz"},
+  {"id":4799010580,"lat":53.709556,"lon":7.210081,"k":"p","n":"Golfplatz"},
+  {"id":4799010581,"lat":53.709841,"lon":7.204959,"k":"p","n":"Um Ost"},
+  {"id":4799010582,"lat":53.709774,"lon":7.204958,"k":"x","n":"Um Ost"},
+  {"id":4799010583,"lat":53.709711,"lon":7.205148,"k":"p","n":"Um Ost"},
+  {"id":4799010591,"lat":53.711539,"lon":7.202742,"k":"p","n":"Dünensender"},
+  {"id":4799010592,"lat":53.711374,"lon":7.202706,"k":"p","n":"Dünensender"},
+  {"id":4799010593,"lat":53.711521,"lon":7.202666,"k":"x","n":"Dünensender"}
+],
+"routes":[
+  {"id":7163394,"t":{"ref":"6","name":"Bus 6: Norderney, Weiße Düne => Norderney, Hafen","from":"Norderney, Weiße Düne","to":"Norderney, Hafen","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#591a5a","route":"bus","public_transport:version":"2"},"n":3,"s":[[3790771929,1]]},
+  {"id":7163395,"t":{"ref":"6","name":"Bus 6: Norderney, Rosengarten => Norderney, Weiße Düne","from":"Norderney, Rosengarten","to":"Norderney, Weiße Düne","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#591a5a","route":"bus","public_transport:version":"2"},"n":3,"s":[[3790771929,3]]},
+  {"id":7163919,"t":{"ref":"4","name":"Bus 4: Norderney, Oase => Norderney, Busbahnhof","from":"Norderney, Oase","to":"Norderney, Busbahnhof","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#ffe000","route":"bus","public_transport:version":"2"},"n":13,"s":[[2367020581,1],[4799010566,2],[4799010568,3],[4799010580,4],[4799010581,5],[4799010591,6]]},
+  {"id":7163920,"t":{"ref":"4","name":"Bus 4: Norderney, Busbahnhof => Norderney, Oase","from":"Norderney, Busbahnhof","to":"Norderney, Oase","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#ffe000","route":"bus","public_transport:version":"2"},"n":14,"s":[[4799010592,8],[4799010583,9],[4799010578,10],[4799010546,11],[4799010569,12],[4799010565,13],[2367020581,14]]},
+  {"id":7164004,"t":{"ref":"8","name":"Bus 8: Norderney, Oase => Norderney, Hafen","from":"Norderney, Oase","to":"Norderney, Hafen","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#3b3b3a","route":"bus","public_transport:version":"2"},"n":6,"s":[[2367020581,1],[4799010568,2],[3790771929,3]]},
+  {"id":7164005,"t":{"ref":"8","name":"Bus 8: Norderney, Hafen => Norderney, Oase","from":"Norderney, Hafen","to":"Norderney, Oase","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#3b3b3a","route":"bus","public_transport:version":"2"},"n":7,"s":[[4799010592,5],[4799010565,6],[2367020581,7]]},
+  {"id":3026042979040,"t":{"ref":"5","name":"Bus 5: Norderney, Weiße Düne => Norderney, Busbahnhof","from":"Norderney, Weiße Düne","to":"Norderney, Busbahnhof","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#f36717","route":"bus","public_transport:version":"2"},"n":8,"s":[[3790771929,1]]},
+  {"id":3060291950549,"t":{"ref":"5","name":"Bus 5: Norderney, Busbahnhof => Norderney, Weiße Düne","from":"Norderney, Busbahnhof","to":"Norderney, Weiße Düne","network":"Norderneyer Nahverkehr","operator":"Inselbus Norderney","colour":"#f36717","route":"bus","public_transport:version":"2"},"n":8,"s":[[3790771929,8]]}
+]
+}

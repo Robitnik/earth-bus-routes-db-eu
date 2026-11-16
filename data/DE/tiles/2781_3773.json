@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2781,3773],
+"stops":[
+  {"id":654034392,"lat":49.063146,"lon":8.657148,"k":"p","n":"Gondelsheim Graf-Douglas-Straße","ref":"141"},
+  {"id":654034393,"lat":49.063147,"lon":8.657014,"k":"p","n":"Gondelsheim Graf-Douglas-Straße","ref":"141"},
+  {"id":998505183,"lat":49.075881,"lon":8.687459,"k":"p","n":"Neibsheim Fürthstraße","ref":"141"},
+  {"id":1264187681,"lat":49.059668,"lon":8.66093,"k":"p","n":"Gondelsheim Bahnhof","ref":"141"},
+  {"id":1264187689,"lat":49.059661,"lon":8.66043,"k":"p","n":"Gondelsheim Bahnhof","ref":"141"},
+  {"id":1895197368,"lat":49.07275,"lon":8.685165,"k":"p","n":"Neibsheim Große Gasse","ref":"141"},
+  {"id":1915567433,"lat":49.075904,"lon":8.687318,"k":"p","n":"Neibsheim Fürthstraße","ref":"141"},
+  {"id":1915987390,"lat":49.07212,"lon":8.685127,"k":"p","n":"Neibsheim Große Gasse","ref":"141"},
+  {"id":1915987680,"lat":49.069741,"lon":8.683144,"k":"p","n":"Neibsheim Kirche","ref":"141"},
+  {"id":1915987681,"lat":49.069795,"lon":8.683081,"k":"p","n":"Neibsheim Kirche","ref":"141"},
+  {"id":2102474759,"lat":49.059555,"lon":8.657503,"k":"p","n":"Gondelsheim Marktplatz","ref":"141"},
+  {"id":2102474778,"lat":49.05975,"lon":8.657517,"k":"p","n":"Gondelsheim Marktplatz","ref":"141"},
+  {"id":2640775113,"lat":49.086041,"lon":8.651565,"k":"p","n":"Helmsheim Bahnhof"},
+  {"id":5186766981,"lat":49.086056,"lon":8.651585,"k":"x","n":"Helmsheim Bahnhof"},
+  {"id":9329035353,"lat":49.063145,"lon":8.657089,"k":"x","n":"Gondelsheim Graf-Douglas-Straße"},
+  {"id":12532068134,"lat":49.065908,"lon":8.657323,"k":"p","n":"Gondelsheim In den Buchen"}
+],
+"routes":[
+  {"id":225874,"t":{"ref":"141","name":"Bus 141: Ruit => Gondelsheim","from":"Ruit Ortsmitte","to":"Gondelsheim","network":"Karlsruher Verkehrsverbund","operator":"Wöhrle Reisen","route":"bus","public_transport:version":"2"},"n":22,"s":[[1915567433,17],[1915987390,18],[1915987681,19],[1264187681,20],[2102474778,21],[654034392,22]]},
+  {"id":2690952,"t":{"ref":"141","name":"Bus 141: Gondelsheim => Ruit","from":"Gondelsheim","to":"Ruit Ortsmitte","network":"Karlsruher Verkehrsverbund","operator":"Wöhrle Reisen","route":"bus","public_transport:version":"2"},"n":18,"s":[[654034393,1],[2102474759,2],[1264187689,3],[1915987680,4],[1895197368,5],[998505183,6]]},
+  {"id":11996117,"t":{"ref":"187","name":"Bus 187: Helmsheim => Spöck","from":"Helmsheim Bahnhof","to":"Spöck Richard-Hecht-Schule","network":"Karlsruher Verkehrsverbund","operator":"Friedrich Müller Omnibusunternehmen","colour":"#FF7ABB","route":"bus","public_transport:version":"2"},"n":22,"s":[[2640775113,1]]},
+  {"id":3038594805005,"t":{"ref":"161","name":"161: Bretten - Gondelsheim In den Buchen","from":"Bretten","to":"Gondelsheim In den Buchen","operator":"Bus Wöhrle","route":"bus","public_transport:version":"2"},"n":16,"s":[[1915567433,10],[1915987390,11],[1915987681,12],[1264187681,13],[2102474778,14],[654034392,15],[12532068134,16]]},
+  {"id":3056147977108,"t":{"ref":"187","name":"Bus 187: Spöck => Helmsheim","from":"Spöck Richard-Hecht-Schule","to":"Helmsheim Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Friedrich Müller Omnibusunternehmen","colour":"#FF7ABB","route":"bus","public_transport:version":"2"},"n":20,"s":[[2640775113,1]]},
+  {"id":3059769835340,"t":{"ref":"187","name":"Bus 187: Spöck => Helmsheim","from":"Spöck Richard-Hecht-Schule","to":"Helmsheim Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Friedrich Müller Omnibusunternehmen","colour":"#FF7ABB","route":"bus","public_transport:version":"2"},"n":23,"s":[[2640775113,23]]},
+  {"id":3072365700938,"t":{"ref":"161","name":"161: Gondelsheim In den Buchen - Bretten","from":"Gondelsheim In den Buchen","to":"Bretten","operator":"Bus Wöhrle","route":"bus","public_transport:version":"2"},"n":16,"s":[[12532068134,1],[654034393,2],[2102474759,3],[1264187689,4],[1915987680,5],[1895197368,6],[998505183,7]]},
+  {"id":3075404866148,"t":{"ref":"187","name":"Bus 187: Spöck => Helmsheim","from":"Spöck Richard-Hecht-Schule","to":"Helmsheim Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Friedrich Müller Omnibusunternehmen","colour":"#FF7ABB","route":"bus","public_transport:version":"2"},"n":20,"s":[[2640775113,20]]},
+  {"id":3088493894751,"t":{"ref":"187","name":"Bus 187: Spöck => Helmsheim","from":"Spöck Richard-Hecht-Schule","to":"Helmsheim Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Friedrich Müller Omnibusunternehmen","colour":"#FF7ABB","route":"bus","public_transport:version":"2"},"n":22,"s":[[2640775113,1]]},
+  {"id":3089496510141,"t":{"ref":"RB71","name":"RB71: Bretten - Bruchsal","from":"Bretten","to":"Bruchsal","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2102474759,3],[9329035353,4],[5186766981,5]]},
+  {"id":3097811513686,"t":{"ref":"RB71","name":"RB71: Bruchsal - Bretten","from":"Bruchsal","to":"Bretten","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[5186766981,6],[9329035353,7],[2102474759,8]]}
+]
+}

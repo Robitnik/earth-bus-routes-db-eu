@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2882,3777],
+"stops":[
+  {"id":190925732,"lat":54.134344,"lon":8.890379,"k":"x","n":"Deichhausen"},
+  {"id":347154006,"lat":54.133822,"lon":8.866456,"k":"s","n":"Büsum ZOB"},
+  {"id":347681868,"lat":54.129089,"lon":8.855739,"k":"x","n":"Büsum, Watt´n Hus"},
+  {"id":1786276042,"lat":54.136138,"lon":8.890559,"k":"x","n":"Büsumer Deichhausen"},
+  {"id":1817498360,"lat":54.128285,"lon":8.869521,"k":"x","n":"Busparkplatz"},
+  {"id":2353284597,"lat":54.135353,"lon":8.864604,"k":"x","n":"Büsum, Mehrzweckhalle"},
+  {"id":2371577460,"lat":54.134539,"lon":8.852967,"k":"x","n":"Büsum, Dithmarscher Straße"},
+  {"id":2371577464,"lat":54.134485,"lon":8.852959,"k":"p","n":"Büsum, Dithmarscher Straße"},
+  {"id":4233316591,"lat":54.132433,"lon":8.86703,"k":"x","n":"Bismarckstraße"},
+  {"id":4397065176,"lat":54.129911,"lon":8.867441,"k":"x","n":"Jugendherberge"},
+  {"id":4397065177,"lat":54.137283,"lon":8.873842,"k":"x","n":"Kaufhaus Stolz"},
+  {"id":4397487678,"lat":54.1271,"lon":8.859155,"k":"p","n":"Ankerplatz"},
+  {"id":4397487679,"lat":54.129485,"lon":8.856053,"k":"x","n":"Büsum, Watt´n Hus"},
+  {"id":4397487680,"lat":54.131884,"lon":8.850507,"k":"x","n":"Möwenweg"},
+  {"id":5041067728,"lat":54.127707,"lon":8.863255,"k":"p","n":"Museum am Meer"},
+  {"id":5041221461,"lat":54.134682,"lon":8.852259,"k":"x","n":"Büsum, Dithmarscher Straße"},
+  {"id":5041221462,"lat":54.134737,"lon":8.852285,"k":"p","n":"Büsum, Dithmarscher Straße"},
+  {"id":5063446100,"lat":54.140059,"lon":8.859397,"k":"p","n":"Gode Tied"},
+  {"id":5063446101,"lat":54.140093,"lon":8.859368,"k":"x","n":"Gode Tied"},
+  {"id":5080725905,"lat":54.134357,"lon":8.859862,"k":"x","n":"Büsum, Polizei"},
+  {"id":9514273543,"lat":54.133821,"lon":8.866311,"k":"x","n":"Büsum ZOB"},
+  {"id":9514273544,"lat":54.134596,"lon":8.859709,"k":"p","n":"Büsum, Polizei"},
+  {"id":9514273545,"lat":54.134114,"lon":8.859984,"k":"p","n":"Büsum, Polizei"},
+  {"id":9514273546,"lat":54.137652,"lon":8.856478,"k":"x","n":"Büsum, Möllers Hof"},
+  {"id":5000743443363,"lat":54.133797,"lon":8.866341,"k":"p","n":"Büsum ZOB"},
+  {"id":5000835249099,"lat":54.135393,"lon":8.864669,"k":"p","n":"Büsum, Mehrzweckhalle"}
+],
+"routes":[
+  {"id":20216269,"t":{"ref":"209","name":"Bus 209: Büsum => Warwerort","from":"Büsum, Dithmarscher Straße","to":"Warwerort","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8A8A56","route":"bus","public_transport:version":"2"},"n":2,"s":[[2371577464,1],[5000835249099,2]]},
+  {"id":21098990,"t":{"ref":"Linie 1","operator":"Büsumer Kleinbahn","route":"bus","public_transport:version":"2"},"n":5,"s":[[5063446100,4],[9514273545,5]]},
+  {"id":3011579823189,"t":{"ref":"215","name":"Bus 215: Büsum => Wesselburen => Heide","from":"Büsum, ZOB","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#781E82","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000743443363,1],[5000835249099,2],[5041221461,3]]},
+  {"id":3013970517236,"t":{"ref":"210","name":"Bus 210: Heide => Wöhrden => Büsum","from":"Heide, Bahnhof","to":"Büsum, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#F08583","route":"bus","public_transport:version":"2"},"n":25,"s":[[9514273546,23],[9514273545,24],[5000743443363,25]]},
+  {"id":3035802627306,"t":{"ref":"210","name":"Bus 210: Büsum => Wöhrden => Heide","from":"Büsum, ZOB","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#F08583","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000743443363,1],[5000835249099,2],[5041221461,3]]},
+  {"id":3052586641350,"t":{"ref":"215","name":"Bus 215: Heide => Wesselburen => Büsum","from":"Heide, Bahnhof","to":"Büsum, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#781E82","route":"bus","public_transport:version":"2"},"n":46,"s":[[2371577460,44],[2353284597,45],[5000743443363,46]]},
+  {"id":3059447911885,"t":{"ref":"210","name":"Bus 210: Büsum => Wöhrden => Heide","from":"Büsum, ZOB","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#F08583","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000743443363,1],[9514273545,2],[9514273546,3]]},
+  {"id":3070768208667,"t":{"ref":"209","name":"Bus 209: Warwerort => Büsum","from":"Warwerort","to":"Büsum, Dithmarscher Straße","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8A8A56","route":"bus","public_transport:version":"2"},"n":6,"s":[[2371577460,1],[2353284597,2],[1786276042,3]]}
+]
+}

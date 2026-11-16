@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2819,3781],
+"stops":[
+  {"id":685780762,"lat":50.95842,"lon":9.099578,"k":"x","n":"Sebbeterode"},
+  {"id":1883072700,"lat":50.952171,"lon":9.06054,"k":"x","n":"Raiffeisen"},
+  {"id":1883072707,"lat":50.952411,"lon":9.060859,"k":"x","n":"Raiffeisen"},
+  {"id":6133478089,"lat":50.992161,"lon":9.060248,"k":"x","n":"Schönstein"},
+  {"id":6133478090,"lat":50.992146,"lon":9.060215,"k":"p","n":"Schönstein"},
+  {"id":6133478092,"lat":50.9726,"lon":9.072864,"k":"p","n":"Schönau"},
+  {"id":6133478094,"lat":50.972629,"lon":9.072827,"k":"x","n":"Schönau"},
+  {"id":6133478096,"lat":50.972687,"lon":9.072846,"k":"p","n":"Schönau"},
+  {"id":6133478104,"lat":50.955768,"lon":9.060522,"k":"p","n":"Post"},
+  {"id":6133478106,"lat":50.9558,"lon":9.060555,"k":"x","n":"Post"},
+  {"id":6133478108,"lat":50.955818,"lon":9.060679,"k":"p","n":"Post"},
+  {"id":6133478113,"lat":50.955304,"lon":9.062134,"k":"x","n":"Gilserberg, Hochlandhalle"},
+  {"id":6133478114,"lat":50.952186,"lon":9.060427,"k":"p","n":"Raiffeisen"},
+  {"id":6133478116,"lat":50.952391,"lon":9.060911,"k":"p","n":"Raiffeisen"},
+  {"id":6134691853,"lat":50.992679,"lon":9.093387,"k":"x","n":"Densberg"},
+  {"id":13476088462,"lat":50.955302,"lon":9.06218,"k":"p","n":"Gilserberg, Hochlandhalle"},
+  {"id":13846591396,"lat":50.958396,"lon":9.099619,"k":"p","n":"Sebbeterode"},
+  {"id":5000654576704,"lat":50.99219,"lon":9.060193,"k":"p","n":"Schönstein"},
+  {"id":5000654576705,"lat":50.972605,"lon":9.072826,"k":"p","n":"Schönau"},
+  {"id":5000654576706,"lat":50.972728,"lon":9.07284,"k":"p","n":"Schönau"},
+  {"id":5000654576720,"lat":50.955833,"lon":9.060693,"k":"p","n":"Post"},
+  {"id":5000654576723,"lat":50.952221,"lon":9.060467,"k":"p","n":"Raiffeisen"},
+  {"id":5000654576724,"lat":50.952371,"lon":9.060878,"k":"p","n":"Raiffeisen"},
+  {"id":5000654682488,"lat":50.99266,"lon":9.093289,"k":"p","n":"Densberg"}
+],
+"routes":[
+  {"id":4735339,"t":{"ref":"460","name":"Bus 460: Jesberg => Schwalmstadt","from":"Jesberg Densberg","to":"Schwalmstadt Treysa Bahnhof","network":"Nordhessischer VerkehrsVerbund","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000654682488,1]]},
+  {"id":4735340,"t":{"ref":"460","name":"Bus 460: Schwalmstadt => Jesberg","from":"Schwalmstadt Treysa Bahnhof","to":"Jesberg Densberg","network":"Nordhessischer VerkehrsVerbund","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000654682488,11]]},
+  {"id":4744479,"t":{"ref":"462","name":"Bus 462: Lischeid => Gilserberg","from":"Gilserberg Lischeid","to":"Gilserberg Schule","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000654576724,8],[13476088462,9]]},
+  {"id":4744524,"t":{"ref":"462","name":"Bus 462: Gilserberg => Lischeid","from":"Gilserberg Schule","to":"Gilserberg Lischeid","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":9,"s":[[13476088462,1],[5000654576723,2]]},
+  {"id":4744564,"t":{"ref":"462","name":"Bus 462: Sebbeterode => Gilserberg","from":"Gilserberg Sebbeterode","to":"Gilserberg Post","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000654576706,2],[5000654576704,3],[13476088462,6]]},
+  {"id":9102361,"t":{"ref":"462","name":"Bus 462: Gilserberg => Sebbeterode","from":"Gilserberg Schule","to":"Gilserberg Sebbeterode","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":6,"s":[[13476088462,1],[5000654576704,4],[5000654576705,5]]},
+  {"id":3001886278645,"t":{"ref":"461","name":"Bus 461: Gilserberg => Treysa","from":"Gilserberg Lischeid","to":"Schwalmstadt Treysa Bahnhof","network":"Nordhessischer VerkehrsVerbund","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000654682488,3],[5000654576704,4],[6133478106,7],[1883072700,8]]},
+  {"id":3037167222606,"t":{"ref":"460","name":"460: Borken-Kleinenglis - Rauschenberg-Josbach Ortsmitte","from":"Borken-Kleinenglis","to":"Rauschenberg-Josbach Ortsmitte","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":13,"s":[[1883072700,11]]},
+  {"id":3045701947929,"t":{"ref":"460","name":"460: Rauschenberg-Josbach Ortsmitte - Borken-Kleinenglis","from":"Rauschenberg-Josbach Ortsmitte","to":"Borken-Kleinenglis","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":13,"s":[[1883072700,3]]},
+  {"id":3093744846717,"t":{"ref":"461","name":"Bus 461: Treysa => Gilserberg","from":"Schwalmstadt Treysa Bahnhof","to":"Gilserberg Lischeid","network":"Nordhessischer VerkehrsVerbund","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000654576724,4],[5000654576720,5],[5000654576704,8],[5000654682488,9]]}
+]
+}

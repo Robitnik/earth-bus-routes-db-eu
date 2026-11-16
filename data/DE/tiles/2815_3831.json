@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2815,3831],
+"stops":[
+  {"id":1323492295,"lat":50.750619,"lon":11.558842,"k":"p","n":"Schimmersburg"},
+  {"id":1323492301,"lat":50.750705,"lon":11.558952,"k":"p","n":"Schimmersburg"},
+  {"id":1583062741,"lat":50.787688,"lon":11.562342,"k":"p","n":"Großeutersdorf"},
+  {"id":1583062744,"lat":50.787798,"lon":11.562184,"k":"p","n":"Großeutersdorf"},
+  {"id":1671017240,"lat":50.787699,"lon":11.577029,"k":"x","n":"Kleineutersdorf"},
+  {"id":2196060036,"lat":50.787735,"lon":11.562253,"k":"x","n":"Großeutersdorf"},
+  {"id":7570166934,"lat":50.787747,"lon":11.577024,"k":"p","n":"Kleineutersdorf"},
+  {"id":7570166935,"lat":50.787655,"lon":11.577026,"k":"p","n":"Kleineutersdorf"},
+  {"id":9144212015,"lat":50.789422,"lon":11.584879,"k":"p","n":"Kleineutersdorf, Abzweig"},
+  {"id":11543562242,"lat":50.750659,"lon":11.558894,"k":"x","n":"Schimmersburg"},
+  {"id":12006425222,"lat":50.789484,"lon":11.564029,"k":"x","n":"Großeutersdorf, Kirche"},
+  {"id":12648444230,"lat":50.799036,"lon":11.590454,"k":"p","n":"Kahla, Löbschütz Förderschule"},
+  {"id":12648444233,"lat":50.798986,"lon":11.590421,"k":"x","n":"Kahla, Löbschütz Förderschule"},
+  {"id":12750082012,"lat":50.789518,"lon":11.564022,"k":"p","n":"Großeutersdorf, Kirche"},
+  {"id":12750082013,"lat":50.789439,"lon":11.564032,"k":"p","n":"Großeutersdorf, Kirche"}
+],
+"routes":[
+  {"id":148534,"t":{"ref":"484","name":"Bus 484: Jena <=> Kleinbucha","from":"Jena","to":"Kleinbucha","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus"},"n":8,"s":[[1583062741,7],[1583062744,8]]},
+  {"id":150424,"t":{"ref":"488","name":"Bus 488: Kahla, Löbschütz Förderschule => Kleinbucha => Orlamünde","from":"Kahla, Löbschütz Förderschule","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":11,"s":[[12648444230,1],[12750082012,5]]},
+  {"id":150430,"t":{"ref":"489","name":"Bus 489: Kahla, Am Langen Bürgel => Orlamünde","from":"Kahla, Am Langen Bürgel","to":"Orlamünde, Schule","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":10,"s":[[12648444230,3],[7570166934,5],[1583062744,6]]},
+  {"id":150432,"t":{"ref":"495","name":"Bus 495: Milda, Schule => Dürrengleina => Kahla, Löbschütz, Förderschule","from":"Milda, Schule","to":"Kahla, Löbschütz, Förderschule","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":16,"s":[[12648444230,16]]},
+  {"id":16817690,"t":{"ref":"964","name":"Bus 964: Pößneck => Langenorla => Jena","from":"Pößneck, Busbahnhof","to":"Jena, Westbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f5b5d2","route":"bus","public_transport:version":"2"},"n":35,"s":[[1323492301,11],[1583062741,16]]},
+  {"id":17071053,"t":{"ref":"964","name":"Bus 964: Jena => Langenorla => Pößneck","from":"Jena, Westbahnhof","to":"Pößneck, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f5b5d2","route":"bus","public_transport:version":"2"},"n":35,"s":[[1583062744,19],[1323492295,24]]},
+  {"id":18800874,"t":{"ref":"419","name":"Bus 419: Kahla => Großbockedra => Stadtroda","from":"Kahla, Bahnhof","to":"Stadtroda","network":"Verkehrsverbund Mittelthüringen","operator":"VU Schröder","route":"bus","public_transport:version":"2"},"n":22,"s":[[12648444230,5]]},
+  {"id":18800875,"t":{"ref":"419","name":"Bus 419: Kahla => Stadtroda","from":"Kahla, Bahnhof","to":"Stadtroda","network":"Verkehrsverbund Mittelthüringen","operator":"VU Schröder","route":"bus","public_transport:version":"2"},"n":18,"s":[[12648444230,4]]},
+  {"id":18983176,"t":{"ref":"495","name":"Bus 495: Kahla, Löbschütz, Förderschule => Dürrengleina => Milda, Schule","from":"Kahla, Löbschütz, Förderschule","to":"Milda, Schule","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":17,"s":[[12648444230,1]]},
+  {"id":3008192358776,"t":{"ref":"484","name":"484: Kahla, Bahnhof - Kleinbucha","from":"Kahla, Bahnhof","to":"Kleinbucha","operator":"JES Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[12006425222,3]]},
+  {"id":3022595039030,"t":{"ref":"484","name":"484: Kleinbucha - Kahla, Bahnhof","from":"Kleinbucha","to":"Kahla, Bahnhof","operator":"JES Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[1583062741,7],[1671017240,8]]},
+  {"id":3083492767970,"t":{"ref":"481","name":"481: Hummelshain - Kahla, Bahnhof","from":"Hummelshain","to":"Kahla, Bahnhof","operator":"JES Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[9144212015,3]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2840,3836],
+"stops":[
+  {"id":272432987,"lat":52.020126,"lon":11.821915,"k":"x","n":"Ranies, Ortseingang"},
+  {"id":272433035,"lat":52.018148,"lon":11.826487,"k":"x","n":"Ranies"},
+  {"id":272449440,"lat":52.044713,"lon":11.825343,"k":"x","n":"Pretzien"},
+  {"id":311294973,"lat":52.044984,"lon":11.82549,"k":"p","n":"Pretzien"},
+  {"id":1816735987,"lat":52.044712,"lon":11.825207,"k":"p","n":"Pretzien"},
+  {"id":1816735988,"lat":52.044966,"lon":11.82543,"k":"x","n":"Pretzien"},
+  {"id":4307930996,"lat":52.006296,"lon":11.800585,"k":"p","n":"Zackmünde"},
+  {"id":4307930997,"lat":52.006206,"lon":11.800451,"k":"p","n":"Zackmünde"},
+  {"id":8576777241,"lat":52.006244,"lon":11.800515,"k":"x","n":"Zackmünde"},
+  {"id":8598837157,"lat":52.045923,"lon":11.836138,"k":"p","n":"Pretzien, Große Sorge"},
+  {"id":8598837158,"lat":52.04595,"lon":11.836149,"k":"x","n":"Pretzien, Große Sorge"},
+  {"id":8598967797,"lat":52.018015,"lon":11.82657,"k":"p","n":"Ranies"},
+  {"id":8598967798,"lat":52.018171,"lon":11.826556,"k":"p","n":"Ranies"},
+  {"id":8598967799,"lat":52.018047,"lon":11.82661,"k":"x","n":"Ranies"},
+  {"id":8598967800,"lat":52.020187,"lon":11.821865,"k":"p","n":"Ranies, Ortseingang"},
+  {"id":8599518547,"lat":52.020055,"lon":11.821977,"k":"p","n":"Ranies, Ortseingang"},
+  {"id":6027394802934,"lat":52.017747,"lon":11.827037,"k":"p","n":"Ranies","g":1},
+  {"id":6076603100067,"lat":52.00684,"lon":11.84689,"k":"p","n":"Glinde, Ortseingang","g":1}
+],
+"routes":[
+  {"id":2443958,"t":{"ref":"137","name":"Bus 137: Ranies - Pretzien - Plötzky - Schönebeck","from":"Ranies, Ortseingang","to":"Schönebeck, Friedrichstraße","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[8599518547,1],[8598967798,2],[311294973,3],[8598837157,4]]},
+  {"id":12544260,"t":{"ref":"137","name":"Bus 137: Schönebeck - Plötzky - Pretzien - Ranies","from":"Schönebeck, Friedrichstraße","to":"Ranies, Ortseingang","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[8598837157,12],[1816735987,13],[8598967797,14],[8598967800,15]]},
+  {"id":3024571650367,"t":{"ref":"707","name":"Bus 707: Gommern => Dannigkow","from":"Gommern, Bahnhof","to":"Dannigkow, Plattensee","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[1816735987,8],[8598837157,9]]},
+  {"id":3049041356018,"t":{"ref":"707","name":"Bus 707: Dannigkow => Gommern","from":"Dannigkow, Plattensee","to":"Gommern, Bahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[8598837157,3],[1816735987,4]]},
+  {"id":3050706186732,"t":{"ref":"132","name":"Bus 132: Barby => Glinde => Schönebeck","from":"Barby, Bahnhof","to":"Schönebeck(Elbe)","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6076603100067,8],[8576777241,12]]},
+  {"id":3056017433285,"t":{"ref":"132","name":"Bus 132: Barby => Glinde => Schönebeck","from":"Barby, Bahnhof","to":"Schönebeck(Elbe)","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[6076603100067,8],[8576777241,10]]},
+  {"id":3064498387274,"t":{"ref":"132","name":"Bus 132: Schönebeck => Glinde => Barby","from":"Schönebeck(Elbe)","to":"Barby, Bahnhof","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[8576777241,9],[6076603100067,10]]},
+  {"id":3070501360295,"t":{"ref":"707","name":"Bus 707: Dannigkow => Gommern","from":"Dannigkow, Plattensee","to":"Gommern, Bahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[8598837157,3],[1816735987,4]]},
+  {"id":3080415031968,"t":{"ref":"707","name":"Bus 707: Gommern => Dannigkow","from":"Gommern, Bahnhof","to":"Dannigkow, Plattensee","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1816735987,7],[8598837157,8]]},
+  {"id":3099166924664,"t":{"ref":"137","name":"Bus 137: Schönebeck - Plötzky - Pretzien - Ranies","from":"Schönebeck, Straße der Jugend-West","to":"Ranies","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[6027394802934,1],[1816735988,2],[8598837158,3]]}
+]
+}

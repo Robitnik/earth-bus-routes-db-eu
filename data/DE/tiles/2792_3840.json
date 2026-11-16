@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2792,3840],
+"stops":[
+  {"id":1209390868,"lat":49.644915,"lon":12.031169,"k":"p","n":"Weiherhammer/Mantel, Abzw."},
+  {"id":1209391089,"lat":49.644688,"lon":12.031163,"k":"p","n":"Weiherhammer/Mantel, Abzw."},
+  {"id":1608032617,"lat":49.648742,"lon":12.049454,"k":"p","n":"Mantel, Etzenrichter Straße"},
+  {"id":7631956866,"lat":49.603591,"lon":12.04123,"k":"p","n":"Hannersgrün, Staatsstr."},
+  {"id":8624755717,"lat":49.603333,"lon":12.040639,"k":"p","n":"Hannersgrün, Staatsstraße"},
+  {"id":9187840871,"lat":49.637956,"lon":12.048275,"k":"p","n":"Weiherhammer, Hauptstr. 83"},
+  {"id":9187840872,"lat":49.638146,"lon":12.04826,"k":"p","n":"Weiherhammer, Hauptstr. 83"},
+  {"id":6020265102668,"lat":49.647661,"lon":12.036392,"k":"p","n":"Mantel, Freihunger Str.","g":1},
+  {"id":6023632259023,"lat":49.636021,"lon":12.041332,"k":"p","n":"Weiherhammer, Siedlung","g":1},
+  {"id":6028973157327,"lat":49.63673,"lon":12.041315,"k":"p","n":"Weiherhammer, Siedlung","g":1},
+  {"id":6034321491397,"lat":49.607161,"lon":12.020474,"k":"p","n":"Kohlberg, Schlemm Ort","g":1},
+  {"id":6076844211233,"lat":49.607126,"lon":12.021147,"k":"p","n":"Kohlberg, Schlemm Ort","g":1},
+  {"id":6093471110262,"lat":49.647876,"lon":12.036877,"k":"p","n":"Mantel, Freihunger Str.","g":1}
+],
+"routes":[
+  {"id":3023332423269,"t":{"ref":"1940","name":"Bus 1940: Weiden -> Etzenricht -> Kohlberg","from":"Weiden, Neues Rathaus","to":"Etzenricht - Kohlberg","network":"VGN","operator":"Wies","colour":"#AC599E","route":"bus","public_transport:version":"2"},"n":22,"s":[[7631956866,18]]},
+  {"id":3023340378777,"t":{"ref":"1985","name":"1985: Schnaittenbach Rathaus - Luhe","from":"Schnaittenbach Rathaus","to":"Luhe","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":39,"s":[[7631956866,9]]},
+  {"id":3038780948577,"t":{"ref":"1950","name":"Bus 1950: Weiden -> Mantel -> Grafenwöhr","from":"Weiden","to":"Grafenwöhr","network":"VGN","colour":"#EC008D","route":"bus","public_transport:version":"2"},"n":30,"s":[[1209390868,17]]},
+  {"id":3039744923525,"t":{"ref":"1950","name":"Bus 1950: Weiden -> Mantel -> Grafenwöhr -> Eschenbach","from":"Weiden","to":"Eschenbach","network":"VGN","colour":"#EC008D","route":"bus","public_transport:version":"2"},"n":14,"s":[[1608032617,13]]},
+  {"id":3056052910899,"t":{"ref":"1986","name":"1986: Weißenbrunn, Ortsmitte - Etzenricht, Siedlung","from":"Weißenbrunn, Ortsmitte","to":"Etzenricht, Siedlung","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":38,"s":[[7631956866,4],[6034321491397,5],[6093471110262,20],[1608032617,21],[9187840872,28],[6028973157327,29]]},
+  {"id":3060751293801,"t":{"ref":"1950","name":"Bus 1950: Grafenwöhr -> Mantel -> Weiden","from":"Eschenbach","to":"Weiden","network":"VGN","colour":"#EC008D","route":"bus","public_transport:version":"2"},"n":29,"s":[[1209391089,13]]},
+  {"id":3062458675159,"t":{"ref":"1985","name":"1985: Luhe - Schnaittenbach Rathaus","from":"Luhe","to":"Schnaittenbach Rathaus","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":39,"s":[[8624755717,31]]},
+  {"id":3067824752285,"t":{"ref":"1940","name":"Bus 1940: Kohlberg -> Etzenricht -> Weiden","from":"Kohlberg","to":"Etzenricht - Weiden, NeuesRathaus","network":"VGN","operator":"Wies","colour":"#AC599E","route":"bus","public_transport:version":"2"},"n":23,"s":[[8624755717,5]]},
+  {"id":3085335764967,"t":{"ref":"1986","name":"1986: Etzenricht, Siedlung - Weißenbrunn, Ortsmitte","from":"Etzenricht, Siedlung","to":"Weißenbrunn, Ortsmitte","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":38,"s":[[6023632259023,10],[9187840872,11],[1608032617,18],[6020265102668,19],[6076844211233,34],[8624755717,35]]}
+]
+}

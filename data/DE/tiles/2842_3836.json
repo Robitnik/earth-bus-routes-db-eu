@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2842,3836],
+"stops":[
+  {"id":569523918,"lat":52.128596,"lon":11.83039,"k":"x","n":"Nedlitz, Kirche"},
+  {"id":1129780817,"lat":52.106952,"lon":11.837207,"k":"x","n":"Karith"},
+  {"id":1808701355,"lat":52.147171,"lon":11.829172,"k":"p","n":"Büden"},
+  {"id":1808701356,"lat":52.147256,"lon":11.829192,"k":"x","n":"Büden"},
+  {"id":1808701357,"lat":52.140937,"lon":11.836268,"k":"p","n":"Büden, Bahnhof"},
+  {"id":1808701358,"lat":52.140967,"lon":11.836155,"k":"x","n":"Büden, Bahnhof"},
+  {"id":1808701359,"lat":52.140976,"lon":11.836397,"k":"x","n":"Büden, Bahnhof"},
+  {"id":1808701360,"lat":52.141031,"lon":11.836422,"k":"p","n":"Büden, Bahnhof"},
+  {"id":1808701361,"lat":52.127346,"lon":11.83157,"k":"p","n":"Nedlitz"},
+  {"id":1808701362,"lat":52.127407,"lon":11.831553,"k":"x","n":"Nedlitz"},
+  {"id":1808701363,"lat":52.127501,"lon":11.83147,"k":"p","n":"Nedlitz"},
+  {"id":1808701364,"lat":52.128602,"lon":11.830317,"k":"p","n":"Nedlitz, Kirche"},
+  {"id":1810475860,"lat":52.106869,"lon":11.837167,"k":"p","n":"Karith"},
+  {"id":1810475887,"lat":52.10225,"lon":11.827142,"k":"p","n":"Pöthen, Gommeraner Straße"},
+  {"id":1810475894,"lat":52.102261,"lon":11.827218,"k":"x","n":"Pöthen, Gommeraner Straße"},
+  {"id":1810475895,"lat":52.103341,"lon":11.827237,"k":"p","n":"Pöthen"},
+  {"id":1810475897,"lat":52.103369,"lon":11.827211,"k":"x","n":"Pöthen"},
+  {"id":2165264411,"lat":52.145537,"lon":11.84703,"k":"p","n":"Kampf"},
+  {"id":2167228434,"lat":52.145601,"lon":11.847056,"k":"x","n":"Kampf"},
+  {"id":2167228435,"lat":52.145638,"lon":11.847037,"k":"p","n":"Kampf"},
+  {"id":11186434363,"lat":52.103074,"lon":11.826765,"k":"x","n":"Pöthen, Gommeraner Straße"},
+  {"id":11186434364,"lat":52.103097,"lon":11.826857,"k":"p","n":"Pöthen, Gommeraner Straße"}
+],
+"routes":[
+  {"id":2261622,"t":{"ref":"702","name":"Bus 702: Möckern => Gommern","from":"Möckern","to":"Gommern","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","colour":"#66FFFF","route":"bus","public_transport:version":"2"},"n":10,"s":[[1808701363,4],[1808701364,5],[1810475895,6],[1810475860,7],[1810475887,8]]},
+  {"id":2266101,"t":{"ref":"710","name":"Bus 710: Königsborn => Nedlitz => Ziepel","from":"Königsborn, Eiche","to":"Ziepel, Kulturhaus","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[1808701364,5],[1808701360,6],[1808701355,7],[2165264411,8]]},
+  {"id":2266102,"t":{"ref":"710","name":"Bus 710: Ziepel => Nedlitz => Königsborn","from":"Ziepel, Kulturhaus","to":"Königsborn, Eiche","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2167228435,2],[1808701355,3],[1808701357,4],[1808701364,5]]},
+  {"id":3041003067757,"t":{"ref":"720","name":"Bus 720: Loburg => Magdeburg","from":"Loburg","to":"Magdeburg","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[1808701363,11]]},
+  {"id":3041210659868,"t":{"ref":"720","name":"Bus 720: Magdeburg => Loburg","from":"Magdeburg","to":"Loburg","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[1808701361,11]]},
+  {"id":3047757284381,"t":{"ref":"710","name":"Bus 710: Burg => Wörmlitz => Königsborn => Möckern","from":"Burg, Busbahnhof","to":"Möckern, Bahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[2165264411,14],[1808701355,15],[1808701360,16],[1808701364,17],[1808701361,18]]},
+  {"id":3057873349187,"t":{"ref":"702","name":"Bus 702: Gommern => Königsborn","from":"Gommern Bahnhof Bstg. 1","to":"Königsborn Eiche","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","colour":"#66FFFF","route":"bus","public_transport:version":"2"},"n":10,"s":[[11186434363,3],[1129780817,4],[1808701364,5]]},
+  {"id":3067813678720,"t":{"ref":"710","name":"Bus 710: Möckern => Königsborn => Wörmlitz => Burg","from":"Möckern, Bahnhof","to":"Burg, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[1808701363,5],[1808701364,6],[1808701358,7],[1808701355,8],[2167228435,9]]},
+  {"id":3076343155038,"t":{"ref":"702","name":"Bus 702: Gommern => Königsborn","from":"Gommern Bahnhof Bstg. 1","to":"Königsborn Eiche","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","colour":"#66FFFF","route":"bus","public_transport:version":"2"},"n":9,"s":[[1808701364,5],[1129780817,6],[1810475887,7]]},
+  {"id":3079225146103,"t":{"ref":"720","name":"Bus 720: Magdeburg => Loburg","from":"Magdeburg","to":"Loburg","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[1808701360,11],[1808701361,12]]}
+]
+}

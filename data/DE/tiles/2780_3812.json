@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2780,3812],
+"stops":[
+  {"id":283199672,"lat":49.006412,"lon":10.621068,"k":"p","n":"Klosterstraße"},
+  {"id":5242448406,"lat":49.0422,"lon":10.601128,"k":"x","n":"Wassertrüdingen, Realschule"},
+  {"id":5914353052,"lat":49.009129,"lon":10.622171,"k":"p","n":"Oettinger Str."},
+  {"id":5914353057,"lat":49.008918,"lon":10.622055,"k":"p","n":"Oettinger Str."},
+  {"id":8990282130,"lat":49.042149,"lon":10.601084,"k":"p","n":"Wassertrüdingen, Realschule"},
+  {"id":8990282131,"lat":49.036945,"lon":10.602583,"k":"p","n":"Wassertrüdingen Öttinger Straße"},
+  {"id":9626234369,"lat":49.03037,"lon":10.649213,"k":"p","n":"Geilsheim Brunnen"},
+  {"id":9900793924,"lat":49.022224,"lon":10.616838,"k":"p","n":"Abzw. Oberaumühle"},
+  {"id":9914357760,"lat":49.033467,"lon":10.643848,"k":"p","n":"Geilsheim Lagerhaus"},
+  {"id":9917007765,"lat":49.032771,"lon":10.643582,"k":"p","n":"Geilsheim Raiffeisenbank"},
+  {"id":9917086358,"lat":49.042148,"lon":10.601166,"k":"p","n":"Wassertrüdingen, Realschule"},
+  {"id":10877906465,"lat":49.030294,"lon":10.637617,"k":"p","n":"Geilsheim Aussiedlerhof"},
+  {"id":10877906466,"lat":49.030219,"lon":10.637838,"k":"p","n":"Geilsheim Aussiedlerhof"},
+  {"id":10878018844,"lat":49.03,"lon":10.612407,"k":"p","n":"Zollhaus (b. Wassertrüdingen)"},
+  {"id":10878018845,"lat":49.030538,"lon":10.61245,"k":"p","n":"Zollhaus (b. Wassertrüdingen)"},
+  {"id":12423115439,"lat":49.043803,"lon":10.606923,"k":"x","n":"Wassertrüdingen Bahnhof"},
+  {"id":12423115440,"lat":49.043647,"lon":10.6069,"k":"x","n":"Wassertrüdingen Bahnhof"},
+  {"id":12423115441,"lat":49.043774,"lon":10.606972,"k":"p","n":"Wassertrüdingen Bahnhof"},
+  {"id":12423115442,"lat":49.043637,"lon":10.606943,"k":"p","n":"Wassertrüdingen Bahnhof"},
+  {"id":6073327831728,"lat":49.03309,"lon":10.644012,"k":"p","n":"Geilsheim Lagerhaus","g":1}
+],
+"routes":[
+  {"id":13068950,"t":{"ref":"503","name":"Bus 503: Wassertrüdingen => Nördlingen","from":"Wassertrüdingen Realschule","to":"Nördlingen Bahnhof","network":"Verkehrsgemeinschaft Donau-Ries","operator":"Schwarzer Reise- und Verkehrsbüro GmbH","route":"bus"},"n":16,"s":[[8990282130,1],[8990282131,2],[5914353057,3]]},
+  {"id":14517926,"t":{"ref":"825","name":"Bus 825: Wassertrüdingen => Dinkelsbühl","from":"Wassertrüdingen","to":"Dinkelsbühl","network":"Verkehrsverbund Großraum Nürnberg","operator":"VGN","route":"bus","public_transport:version":"2"},"n":22,"s":[[8990282130,2]]},
+  {"id":3006144964849,"t":{"ref":"825","name":"Bus 825: Dinkelsbühl => Wassertrüdingen","from":"Dinkelsbühl","to":"Wassertrüdingen","network":"Verkehrsverbund Großraum Nürnberg","operator":"Rombs Touristik;Bauer & Schlecht","route":"bus","public_transport:version":"2"},"n":17,"s":[[12423115442,1],[9917086358,2]]},
+  {"id":3042637130967,"t":{"ref":"878","name":"878: Wassertrüdingen - Heidenheim Rathaus","from":"Wassertrüdingen","to":"Heidenheim Rathaus","operator":"Miltenberg-Elsavatal","route":"bus","public_transport:version":"2"},"n":9,"s":[[12423115439,1],[9900793924,2],[5914353057,3]]},
+  {"id":3046181802445,"t":{"ref":"878","name":"878: Heidenheim Rathaus - Wassertrüdingen","from":"Heidenheim Rathaus","to":"Wassertrüdingen","operator":"Miltenberg-Elsavatal","route":"bus","public_transport:version":"2"},"n":6,"s":[[9626234369,3],[9917007765,4],[10877906466,5],[12423115439,6]]},
+  {"id":3055218498952,"t":{"ref":"878","name":"878: Heidenheim Rathaus - Wassertrüdingen","from":"Heidenheim Rathaus","to":"Wassertrüdingen","operator":"Miltenberg-Elsavatal","route":"bus","public_transport:version":"2"},"n":10,"s":[[5914353057,7],[9900793924,8],[10878018845,9],[12423115439,10]]},
+  {"id":3068024277538,"t":{"ref":"878","name":"878: Wassertrüdingen - Heidenheim Hechlinger Str.","from":"Wassertrüdingen","to":"Heidenheim Hechlinger Str.","operator":"Miltenberg-Elsavatal","route":"bus","public_transport:version":"2"},"n":7,"s":[[12423115439,1],[10877906466,2],[9917007765,3],[9626234369,4]]},
+  {"id":3085620543667,"t":{"ref":"826","name":"826: Wassertrüdingen - Bechhofen (Lkr. AN) Kirche","from":"Wassertrüdingen","to":"Bechhofen (Lkr. AN) Kirche","operator":"Ansbach Bd 6_2","route":"bus","public_transport:version":"2"},"n":26,"s":[[12423115439,1],[9917086358,2],[8990282131,3],[10878018845,4],[10877906466,5],[6073327831728,6]]},
+  {"id":3093733099302,"t":{"ref":"826","name":"826: Bechhofen (Lkr. AN) Kirche - Wassertrüdingen","from":"Bechhofen (Lkr. AN) Kirche","to":"Wassertrüdingen","operator":"Ansbach Bd 6_2","route":"bus","public_transport:version":"2"},"n":25,"s":[[6073327831728,19],[10877906466,20],[10878018845,21],[8990282131,22],[9917086358,23],[12423115439,25]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2820,3890],
+"stops":[
+  {"id":451612621,"lat":51.041005,"lon":14.520376,"k":"p","n":"Neusalza-Spremberg Spreetextil"},
+  {"id":451612623,"lat":51.040485,"lon":14.52182,"k":"p","n":"Neusalza-Spremberg Spreetextil"},
+  {"id":451612626,"lat":51.038593,"lon":14.527918,"k":"p","n":"Neusalza-Spremberg Oberschule"},
+  {"id":451612629,"lat":51.034991,"lon":14.526373,"k":"p","n":"Neusalza-Spremberg Am Bahnhof"},
+  {"id":477135465,"lat":51.037335,"lon":14.541517,"k":"p","n":"Neusalza-Spremberg Reiterhaus"},
+  {"id":477135466,"lat":51.037398,"lon":14.541756,"k":"p","n":"Neusalza-Spremberg Reiterhaus"},
+  {"id":14180370433,"lat":51.034982,"lon":14.526455,"k":"x","n":"Neusalza-Spremberg Bahnhof"}
+],
+"routes":[
+  {"id":17590233,"t":{"ref":"S33","name":"Schulbus S33: Beiersdorf => Dürrhennersdorf => Neusalza-Spremberg => Oppach","from":"Beiersdorf Kretscham","to":"Oppach Busbahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":20,"s":[[477135466,16],[451612626,17],[451612621,18]]},
+  {"id":3009684864159,"t":{"ref":"50","name":"PlusBus 50: Neugersdorf => Ebersbach => Oppach => Löbau","from":"Neugersdorf Marktplatz","to":"Löbau Busbahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":42,"s":[[477135466,19],[14180370433,20],[451612626,21],[451612621,22]]},
+  {"id":3026349708821,"t":{"ref":"S33","name":"Schulbus S33: Oppach => Neusalza-Spremberg => Dürrhennersdorf => Beiersdorf","from":"Oppach Busbahnhof","to":"Beiersdorf Kretscham","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":17,"s":[[14180370433,1],[451612626,2],[477135465,3]]},
+  {"id":3037045503675,"t":{"ref":"50","name":"PlusBus 50: Löbau => Oppach => Ebersbach => Neugersdorf","from":"Löbau Busbahnhof","to":"Neugersdorf Marktplatz","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":43,"s":[[451612623,21],[14180370433,22],[451612626,23],[477135465,24]]}
+]
+}

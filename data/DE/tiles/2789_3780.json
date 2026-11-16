@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2789,3780],
+"stops":[
+  {"id":2704263739,"lat":49.483552,"lon":9.014075,"k":"p","n":"Eberbach Itterhof"},
+  {"id":2704263740,"lat":49.483676,"lon":9.013924,"k":"p","n":"Eberbach Itterhof"},
+  {"id":2704264847,"lat":49.486356,"lon":9.034495,"k":"p","n":"Gaimühle Stausee"},
+  {"id":2704264848,"lat":49.486795,"lon":9.034048,"k":"p","n":"Gaimühle Stausee"},
+  {"id":2704264849,"lat":49.489607,"lon":9.04089,"k":"p","n":"Gaimühle Sägewerk"},
+  {"id":2704264850,"lat":49.489695,"lon":9.040681,"k":"p","n":"Gaimühle Sägewerk"},
+  {"id":3720641387,"lat":49.464033,"lon":9.003142,"k":"p","n":"Eberbach, Holdergrund"},
+  {"id":4770976390,"lat":49.495347,"lon":9.045586,"k":"p","n":"Gaimühle Bahnhof"},
+  {"id":4776565703,"lat":49.495048,"lon":9.045915,"k":"p","n":"Gaimühle Bahnhof"},
+  {"id":8288819121,"lat":49.495385,"lon":9.045787,"k":"p","n":"Gaimühle Bahnhof"},
+  {"id":9234990695,"lat":49.495357,"lon":9.045688,"k":"x","n":"Gaimühle Bahnhof"},
+  {"id":9259041300,"lat":49.46403,"lon":9.003137,"k":"x","n":"Eberbach Holdergrund"}
+],
+"routes":[
+  {"id":11800254,"t":{"ref":"53","name":"Bus 53: Beerfelden - Gaimühle","from":"Beerfelden Bahnhof","to":"Gaimühle Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":18,"s":[[8288819121,18]]},
+  {"id":11802804,"t":{"ref":"53","name":"Bus 53: Gaimühle - Beerfelden","from":"Gaimühle Bahnhof","to":"Beerfelden Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":18,"s":[[4770976390,1]]},
+  {"id":11824041,"t":{"ref":"805","name":"Bus 805: Holdergrund => Eberbach Bf.","from":"Holdergrund","to":"Eberbach Bf.","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":6,"s":[[3720641387,1]]},
+  {"id":12131275,"t":{"ref":"56","name":"Bus 56: Eberbach => Schöllenbach","from":"Eberbach Bahnhof","to":"Schöllenbach","network":"RMV","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":17,"s":[[2704263739,6],[2704264847,7],[2704264849,8],[4776565703,9]]},
+  {"id":12131285,"t":{"ref":"56","name":"Bus 56: Schöllenbach => Eberbach","from":"Schöllenbach","to":"Eberbach Bahnhof","network":"RMV","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":15,"s":[[4770976390,8],[2704264850,9],[2704264848,10],[2704263740,11]]},
+  {"id":17390257,"t":{"ref":"53","name":"Bus 53","from":"Beerfelden","to":"Hesselbach","network":"Rhein-Main-Verkehrsverbund","operator":"OREG mbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[8288819121,1]]},
+  {"id":3002227310477,"t":{"ref":"8907","name":"8907: Eberbach, Bahnhof - Eberbach, Bahnhof","from":"Eberbach, Bahnhof","to":"Eberbach, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":8,"s":[[9259041300,6]]},
+  {"id":3080504253055,"t":{"ref":"805","name":"Bus 805: Eberbach Bf. => Holdergrund","from":"Eberbach Bf.","to":"Holdergrund","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":18,"s":[[9259041300,12]]},
+  {"id":3087919507264,"t":{"ref":"8904","name":"8904: Eberbach, Bahnhof - Eberbach, Bahnhof","from":"Eberbach, Bahnhof","to":"Eberbach, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":8,"s":[[4776565703,4,6]]}
+]
+}

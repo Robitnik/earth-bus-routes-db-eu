@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2817,3773],
+"stops":[
+  {"id":2731004364,"lat":50.853774,"lon":8.671259,"k":"p","n":"Bahnhof/B 62"},
+  {"id":2731004372,"lat":50.853932,"lon":8.671443,"k":"p","n":"Bahnhof/B 62"},
+  {"id":3457855790,"lat":50.852064,"lon":8.671075,"k":"p","n":"Caldern Bahnhof"},
+  {"id":3457858401,"lat":50.853279,"lon":8.671939,"k":"p","n":"Caldern Bahnhof"},
+  {"id":4552112188,"lat":50.860259,"lon":8.699928,"k":"p","n":"Sandweg"},
+  {"id":4597732333,"lat":50.860203,"lon":8.699969,"k":"x","n":"Sandweg"},
+  {"id":10270459942,"lat":50.851958,"lon":8.671063,"k":"x","n":"Caldern Bahnhof"},
+  {"id":10270459943,"lat":50.85334,"lon":8.671902,"k":"x","n":"Caldern Bahnhof"},
+  {"id":10288324878,"lat":50.859441,"lon":8.695324,"k":"p","n":"REWE"},
+  {"id":10636091075,"lat":50.853841,"lon":8.671367,"k":"x","n":"Bahnhof/B 62"},
+  {"id":10636091076,"lat":50.853845,"lon":8.671285,"k":"x","n":"Bahnhof/B 62"},
+  {"id":6039683698566,"lat":50.851704,"lon":8.697832,"k":"p","n":"Marburg-Michelbach Mühle","g":1}
+],
+"routes":[
+  {"id":15017827,"t":{"ref":"MR-47","name":"Bus MR-47 AST Caldern => Warzenbach","from":"Caldern Bahnhof","to":"Warzenbach Feuerwehr","network":"RMV","operator":"ALV Oberhessen GmbH & Co.KG","route":"bus","public_transport:version":"2"},"n":8,"s":[[3457855790,1]]},
+  {"id":15017832,"t":{"ref":"MR-47","name":"Bus MR-47 AST Warzenbach => Caldern","from":"Warzenbach Feuerwehr","to":"Caldern Bahnhof","network":"RMV","operator":"ALV Oberhessen GmbH & Co.KG","route":"bus","public_transport:version":"2"},"n":8,"s":[[3457858401,8]]},
+  {"id":15099779,"t":{"ref":"MR-68","name":"Bus MR-68: Brungershausen => Wetter Grundschule","from":"Brungershausen Im Dorf","to":"Wetter Grundschule","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":13,"s":[[3457855790,4]]},
+  {"id":15099989,"t":{"ref":"MR-68","name":"Bus MR-68 (1): Wetter Grundschule => Brungershausen","from":"Wetter Grundschule","to":"Brungershausen Alte Hude","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":11,"s":[[3457858401,8]]},
+  {"id":15099990,"t":{"ref":"MR-68","name":"Bus MR-68 (2): Wetter Grundschule => Brungershausen","from":"Wetter Grundschule","to":"Brungershausen Alte Hude","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":11,"s":[[3457855790,6]]},
+  {"id":3012660955294,"t":{"ref":"47","name":"47: Lahntal-Caldern Bahnhof - Wetter (Hessen)-Warzenbach Feuerwehr","from":"Lahntal-Caldern Bahnhof","to":"Wetter (Hessen)-Warzenbach Feuerwehr","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":8,"s":[[3457855790,1]]},
+  {"id":3027803975109,"t":{"ref":"47","name":"47: Wetter (Hessen)-Warzenbach Feuerwehr - Lahntal-Caldern Bahnhof","from":"Wetter (Hessen)-Warzenbach Feuerwehr","to":"Lahntal-Caldern Bahnhof","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":8,"s":[[3457858401,8]]},
+  {"id":3043196550453,"t":{"ref":"14","name":"Bus 14: Sterzhausen => Marburg Hbf","network":"Rhein-Main-Verkehrsverbund","operator":"Stadtwerke Marburg","route":"bus","public_transport:version":"2"},"n":12,"s":[[4552112188,2],[6039683698566,3]]},
+  {"id":3058037662137,"t":{"ref":"481","name":"Bus 481: Marburg => Wallau","from":"Marburg Hauptbahnhof","to":"Wallau Bahnhofstraße","network":"Rhein-Main-Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":31,"s":[[4552112188,11],[2731004372,12]]},
+  {"id":3075279027092,"t":{"ref":"14","name":"Bus 14: Sterzhausen => Marburg Hbf","network":"Rhein-Main-Verkehrsverbund","operator":"Stadtwerke Marburg","route":"bus","public_transport:version":"2"},"n":17,"s":[[4552112188,2],[6039683698566,3]]},
+  {"id":3077005552589,"t":{"ref":"481","name":"Bus 481: Wallau => Marburg","from":"Wallau Bahnhofstraße","to":"Marburg Hauptbahnhof","network":"Rhein-Main-Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":34,"s":[[2731004364,21]]}
+]
+}

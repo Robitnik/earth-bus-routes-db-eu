@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2801,3730],
+"stops":[
+  {"id":5428832660,"lat":50.066154,"lon":6.501101,"k":"p","n":"Seffern, Ort"},
+  {"id":5428832661,"lat":50.066183,"lon":6.501016,"k":"x","n":"Seffern, Ort"},
+  {"id":5428832662,"lat":50.065601,"lon":6.500238,"k":"x","n":"Seffern, Ort"},
+  {"id":5428832663,"lat":50.065643,"lon":6.500168,"k":"p","n":"Seffern, Ort"},
+  {"id":10287590810,"lat":50.058987,"lon":6.521333,"k":"p","n":"Sefferweich, Ort"},
+  {"id":10287590811,"lat":50.056946,"lon":6.548911,"k":"p","n":"Malbergweich, In der Held"},
+  {"id":6008536725492,"lat":50.083862,"lon":6.535639,"k":"p","n":"Waxbrunnen, Ort","g":1},
+  {"id":6011316578453,"lat":50.059468,"lon":6.509633,"k":"p","n":"Sefferweich, Heinzenhof","g":1},
+  {"id":6027758540944,"lat":50.058539,"lon":6.537624,"k":"p","n":"Staffelstein, Ort","g":1},
+  {"id":6046780231323,"lat":50.06456,"lon":6.504961,"k":"p","n":"Seffern, Im Acker","g":1},
+  {"id":6070624429182,"lat":50.05952,"lon":6.509651,"k":"p","n":"Sefferweich, Heinzenhof","g":1},
+  {"id":6082923317334,"lat":50.06452,"lon":6.504988,"k":"p","n":"Seffern, Im Acker","g":1}
+],
+"routes":[
+  {"id":389435,"t":{"ref":"440","name":"Bus 440: Bitburg, ZOB => Prüm, Gerberweg","from":"Bitburg, ZOB","to":"Prüm, Gerberweg","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":19,"s":[[5428832660,9]]},
+  {"id":15049925,"t":{"ref":"443","name":"Bus 443: Kyllburg, Schulzentrum => Seffern, Ort","from":"Kyllburg, Schulzentrum","to":"Seffern, Ort","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#D00D73","route":"bus","public_transport:version":"2"},"n":8,"s":[[10287590811,6],[10287590810,7],[5428832663,8]]},
+  {"id":3003985604731,"t":{"ref":"445","name":"Bus 445: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#656149","route":"bus","public_transport:version":"2"},"n":36,"s":[[5428832661,27,28]]},
+  {"id":3012026333235,"t":{"ref":"440","name":"Bus 440: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":19,"s":[[5428832661,9]]},
+  {"id":3012643219372,"t":{"ref":"490 RufBus","name":"490 RufBus: Bitburg, ZOB - Seffern, Ort","from":"Bitburg, ZOB","to":"Seffern, Ort","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":12,"s":[[5428832661,12]]},
+  {"id":3016552705079,"t":{"ref":"490 RufBus","name":"490 RufBus: Seffern, Ort - Bitburg, ZOB","from":"Seffern, Ort","to":"Bitburg, ZOB","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":12,"s":[[5428832661,1]]},
+  {"id":3026746419068,"t":{"ref":"441 RufBus","name":"441 RufBus: Prüm, Gerberweg - Nimshuscheid, Mühle","from":"Prüm, Gerberweg","to":"Nimshuscheid, Mühle","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":25,"s":[[6008536725492,19]]},
+  {"id":3040735333351,"t":{"ref":"443","name":"Bus 443: Seffern, Ort => Kyllburg, Schulzentrum","from":"Seffern, Ort","to":"Kyllburg, Schulzentrum","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#D00D73","route":"bus","public_transport:version":"2"},"n":13,"s":[[5428832661,1],[6082923317334,2],[6011316578453,3],[10287590810,4],[6027758540944,5],[10287590811,6]]},
+  {"id":3062646139995,"t":{"ref":"443 RufBus","name":"443 RufBus: Seffern, Ort - Kyllburg, Schulzentrum","from":"Seffern, Ort","to":"Kyllburg, Schulzentrum","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":13,"s":[[5428832661,1],[6082923317334,2],[6011316578453,3],[10287590810,4],[6027758540944,5],[10287590811,6]]},
+  {"id":3063533845053,"t":{"ref":"440","name":"Bus 440: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":20,"s":[[5428832661,11,12]]},
+  {"id":3072903326341,"t":{"ref":"443 RufBus","name":"443 RufBus: Kyllburg, Schulzentrum - Seffern, Ort","from":"Kyllburg, Schulzentrum","to":"Seffern, Ort","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":13,"s":[[10287590811,8],[6027758540944,9],[10287590810,10],[6070624429182,11],[6046780231323,12],[5428832661,13]]},
+  {"id":3074670885386,"t":{"ref":"443","name":"Bus 443: Seffern, Ort => Kyllburg, Schulzentrum","from":"Seffern, Ort","to":"Kyllburg, Schulzentrum","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#D00D73","route":"bus","public_transport:version":"2"},"n":13,"s":[[10287590811,8],[6027758540944,9],[10287590810,10],[6070624429182,11],[6046780231323,12],[5428832661,13]]},
+  {"id":3095605419730,"t":{"ref":"445","name":"Bus 445: Bitburg, ZOB => Prüm, Gerberweg","from":"Bitburg, ZOB","to":"Prüm, Gerberweg","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#656149","route":"bus","public_transport:version":"2"},"n":35,"s":[[5428832661,9]]},
+  {"id":3096658303461,"t":{"ref":"441","name":"Bus 441: Prüm, Gerberweg => Nimshuscheid, Mühle","from":"Prüm, Gerberweg","to":"Nimshuscheid, Mühle","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#41739E","route":"bus","public_transport:version":"2"},"n":25,"s":[[6008536725492,19]]}
+]
+}

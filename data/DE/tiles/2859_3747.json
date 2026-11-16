@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2859,3747],
+"stops":[
+  {"id":504450874,"lat":52.955227,"lon":7.393159,"k":"p","n":"Hunfeld"},
+  {"id":504450877,"lat":52.955217,"lon":7.393323,"k":"p","n":"Hunfeld"},
+  {"id":8260992853,"lat":52.9974,"lon":7.398719,"k":"x","n":"Alte Schule"},
+  {"id":8261064069,"lat":52.955224,"lon":7.393241,"k":"x","n":"Hunfeld"},
+  {"id":8306758910,"lat":52.958866,"lon":7.353822,"k":"p","n":"Bahnhof","ref":"2"},
+  {"id":8306758911,"lat":52.958825,"lon":7.353782,"k":"x","n":"Bahnhof","ref":"2"},
+  {"id":8306758912,"lat":52.958753,"lon":7.352968,"k":"p","n":"Bahnhof","ref":"1"},
+  {"id":8306776117,"lat":52.95876,"lon":7.352915,"k":"x","n":"Bahnhof","ref":"1"},
+  {"id":6003008793777,"lat":52.99827,"lon":7.3806,"k":"p","n":"Lehe, Neuleher/Moorkante","g":1},
+  {"id":6051649321724,"lat":52.953813,"lon":7.393179,"k":"p","n":"Neudörpen, Hunfeld","g":1},
+  {"id":6059154976982,"lat":52.979587,"lon":7.35351,"k":"p","n":"Dörpen, B70/Schleuse","g":1}
+],
+"routes":[
+  {"id":12094679,"t":{"ref":"963","name":"Bus 963: Papenburg, Bahnhof => Wippingen Kirche","from":"Papenburg, Bahnhof","to":"Wippingen Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":12,"s":[[504450874,10]]},
+  {"id":21124296,"t":{"ref":"951","name":"Bus 951: Sögel, Erich-Kästner-Schule => Wippingen, Meyer/Düttmann => Dörpen Kirche","from":"Sögel, Erich-Kästner-Schule","to":"Dörpen, Kirche","route":"bus","public_transport:version":"2"},"n":19,"s":[[8306758910,15]]},
+  {"id":21124297,"t":{"ref":"951","name":"Bus 951: Sögel, Erich-Kästner-Schule => Dörpen Kirche","from":"Sögel, Erich-Kästner-Schule","to":"Dörpen, Kirche","route":"bus","public_transport:version":"2"},"n":18,"s":[[8306758910,14]]},
+  {"id":21124298,"t":{"ref":"951","name":"Bus 951: Heede, Marktplatz => Sögel, Busbahnhof","from":"Heede, Marktplatz","to":"Sögel, Busbahnhof","route":"bus","public_transport:version":"2"},"n":22,"s":[[8306758912,8]]},
+  {"id":21124299,"t":{"ref":"951","name":"Bus 951: Heede, Marktplatz => Dörpen, Bahnhof","from":"Heede, Marktplatz","to":"Dörpen, Bahnhof","route":"bus","public_transport:version":"2"},"n":7,"s":[[8306758912,7]]},
+  {"id":21786935,"t":{"ref":"960","name":"Bus 960: Dörpen, Bahnhof => Dörpen, Bahnhof","from":"Dörpen, Bahnhof","to":"Dörpen, Bahnhof","operator":"Frericks-Bus-Betriebs GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[8306758912,1],[504450877,6]]},
+  {"id":3002062304019,"t":{"ref":"951","name":"Bus 951: Kluse, Bahnhof/Abzweig Wippingen => Heede, Kleines Feld","from":"Kluse, Bahnhof/Abzweig Wippingen","to":"Heede, Kleines Feld","route":"bus","public_transport:version":"2"},"n":8,"s":[[8306758910,1]]},
+  {"id":3004919026245,"t":{"ref":"951","name":"Bus 951: Kluse, Bahnhof/Abzweig Wippingen => Heede, Kleines Feld","from":"Kluse, Bahnhof/Abzweig Wippingen","to":"Heede, Kleines Feld","route":"bus","public_transport:version":"2"},"n":8,"s":[[8306758910,8]]},
+  {"id":3008667511299,"t":{"ref":"960","name":"960: Dörpen, Schulzentrum - Neulehe, Altsiedlung","from":"Dörpen, Schulzentrum","to":"Neulehe, Altsiedlung","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":13,"s":[[6059154976982,4],[6003008793777,7]]},
+  {"id":3020428024689,"t":{"ref":"961","name":"961: Dörpen, Bahnhof - Dörpen, Bahnhof","from":"Dörpen, Bahnhof","to":"Dörpen, Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":33,"s":[[8306758910,1,33]]},
+  {"id":3020680073442,"t":{"ref":"960","name":"960: Dörpen, Bahnhof - Dörpen, Bahnhof","from":"Dörpen, Bahnhof","to":"Dörpen, Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":24,"s":[[8306758910,1,24],[6051649321724,8],[6003008793777,20],[6059154976982,23]]},
+  {"id":3040032312712,"t":{"ref":"963","name":"Bus 963: Wippingen Kirche => Papenburg, Rathaus","from":"Wippingen Kirche","to":"Papenburg, Rathaus","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":18,"s":[[6051649321724,3],[8260992853,10],[6003008793777,11]]},
+  {"id":3051974036512,"t":{"ref":"963","name":"Bus 963: Wippingen Kirche => Papenburg, Rathaus","from":"Wippingen Kirche","to":"Papenburg, Rathaus","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":18,"s":[[6003008793777,8],[8260992853,9],[6051649321724,16]]},
+  {"id":3054779406258,"t":{"ref":"961","name":"961: Dörpen, Bahnhof - Heede, Kleines Feld","from":"Dörpen, Bahnhof","to":"Heede, Kleines Feld","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":8,"s":[[8306758910,1]]},
+  {"id":3089410632802,"t":{"ref":"961","name":"961: Dörpen, Bahnhof - Dörpen, Bahnhof","from":"Dörpen, Bahnhof","to":"Dörpen, Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":34,"s":[[8306758910,1,34]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2783,3826],
+"stops":[
+  {"id":256004358,"lat":49.199647,"lon":11.314162,"k":"x","n":"Schöllnhof"},
+  {"id":304475437,"lat":49.180122,"lon":11.331367,"k":"x","n":"Ohausen"},
+  {"id":594844415,"lat":49.196249,"lon":11.318604,"k":"p","n":"Rothenhof"},
+  {"id":1708679995,"lat":49.198337,"lon":11.32596,"k":"p","n":"Freystadt, Am Mühlbach"},
+  {"id":4792267040,"lat":49.197531,"lon":11.331959,"k":"p","n":"Freystadt, Bahnhof"},
+  {"id":5261961325,"lat":49.160504,"lon":11.337679,"k":"p","n":"Forchheim (b. Freystadt)"},
+  {"id":5882681027,"lat":49.1985,"lon":11.342638,"k":"p","n":"Freystadt, Am Badgraben"},
+  {"id":5882788452,"lat":49.1869,"lon":11.305623,"k":"p","n":"Michelbach (b. Freystadt)"},
+  {"id":10017694693,"lat":49.199533,"lon":11.314231,"k":"p","n":"Schöllnhof"},
+  {"id":10017694694,"lat":49.199725,"lon":11.314217,"k":"p","n":"Schöllnhof"},
+  {"id":10060712715,"lat":49.197466,"lon":11.331979,"k":"x","n":"Freystadt, Bahnhof"},
+  {"id":10060729106,"lat":49.198233,"lon":11.340138,"k":"x","n":"Am Badgraben"},
+  {"id":10060729107,"lat":49.198336,"lon":11.340423,"k":"p","n":"Am Badgraben"},
+  {"id":10060729109,"lat":49.198042,"lon":11.339232,"k":"p","n":"Am Badgraben"},
+  {"id":10060763691,"lat":49.198366,"lon":11.32585,"k":"x","n":"Freystadt, Am Mühlbach"},
+  {"id":10060941961,"lat":49.180114,"lon":11.331266,"k":"p","n":"Ohausen"},
+  {"id":10209513652,"lat":49.160482,"lon":11.337185,"k":"p","n":"Forchheim (b. Freystadt)"},
+  {"id":6010485802623,"lat":49.193774,"lon":11.334736,"k":"p","n":"Freystadt Gewerbegebiet Süd","g":1},
+  {"id":6083676541644,"lat":49.160031,"lon":11.335751,"k":"p","n":"Forchheim (b. Freystadt)","g":1},
+  {"id":6091929783771,"lat":49.159995,"lon":11.335877,"k":"p","n":"Forchheim (b. Freystadt)","g":1},
+  {"id":6099872421718,"lat":49.193757,"lon":11.334646,"k":"p","n":"Freystadt Gewerbegebiet Süd","g":1}
+],
+"routes":[
+  {"id":7744587,"t":{"ref":"525","name":"Bus VGN 525 Berching - Weidenwang - Freystadt - Möning/Rocksdorf","from":"Berching","to":"Möning/Rocksdorf","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz","route":"bus","public_transport:version":"1"},"n":31,"s":[[4792267040,3],[5261961325,8]]},
+  {"id":3013385090638,"t":{"ref":"514","name":"Buslinie 514 Neumarkt(Opf.) - Freystadt(Opf.)","from":"Neumarkt i.d. Opf.","to":"Freystadt","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":15,"s":[[6091929783771,1],[4792267040,5],[5882681027,6]]},
+  {"id":3016510182617,"t":{"ref":"514","name":"Buslinie 514 Neumarkt(Opf.) - Freystadt(Opf.)","from":"Neumarkt i.d. Opf.","to":"Freystadt","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":23,"s":[[10060763691,2],[4792267040,3],[5882681027,4]]},
+  {"id":3040151542167,"t":{"ref":"516","name":"516: Allersberg (Rothsee) - Neumarkt (Oberpf)","from":"Allersberg (Rothsee)","to":"Neumarkt (Oberpf)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":25,"s":[[4792267040,12],[10060763691,13]]},
+  {"id":3052225373079,"t":{"ref":"529.1","name":"529.1: Freystadt Am Mühlbach - Berching Vorstadt","from":"Freystadt Am Mühlbach","to":"Berching Vorstadt","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":23,"s":[[10060763691,1],[4792267040,2],[6099872421718,3]]},
+  {"id":3053298374899,"t":{"ref":"514","name":"Buslinie 514 Neumarkt(Opf.) - Freystadt(Opf.)","from":"Neumarkt i.d. Opf.","to":"Freystadt","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":16,"s":[[5882681027,11],[4792267040,12],[6083676541644,16]]},
+  {"id":3069619190815,"t":{"ref":"516","name":"516: Neumarkt (Oberpf) - Allersberg (Rothsee)","from":"Neumarkt (Oberpf)","to":"Allersberg (Rothsee)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":26,"s":[[10060763691,14],[4792267040,15]]},
+  {"id":3078075582072,"t":{"ref":"529.1","name":"529.1: Berching Vorstadt - Freystadt Am Mühlbach","from":"Berching Vorstadt","to":"Freystadt Am Mühlbach","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":23,"s":[[6010485802623,21],[4792267040,22],[10060763691,23]]},
+  {"id":3093664795688,"t":{"ref":"514","name":"Buslinie 514 Neumarkt(Opf.) - Freystadt(Opf.)","from":"Neumarkt i.d. Opf.","to":"Freystadt","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":24,"s":[[5882681027,21],[4792267040,22],[10060763691,23]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2763,3764],
+"stops":[
+  {"id":30699367,"lat":48.174451,"lon":8.232577,"k":"x","n":"Niederwasser Obergießbrücke"},
+  {"id":30699370,"lat":48.17384,"lon":8.232948,"k":"x"},
+  {"id":9692539187,"lat":48.152866,"lon":8.239776,"k":"p","n":"Schonachbach Am Bach"},
+  {"id":9692539188,"lat":48.152888,"lon":8.240081,"k":"p","n":"Schonachbach Am Bach"},
+  {"id":10015932563,"lat":48.159298,"lon":8.239497,"k":"p","n":"Abzw. Gremmelsbach"},
+  {"id":10015932564,"lat":48.159098,"lon":8.239071,"k":"p","n":"Abzw. Gremmelsbach"},
+  {"id":10148516681,"lat":48.173807,"lon":8.232849,"k":"p","n":"Obergießbrücke"},
+  {"id":10148516685,"lat":48.1745,"lon":8.232686,"k":"p","n":"Obergießbrücke"},
+  {"id":11278395777,"lat":48.187011,"lon":8.230395,"k":"p"},
+  {"id":11278395791,"lat":48.187754,"lon":8.23068,"k":"p","n":"Niederwasser Rössle"},
+  {"id":11278395827,"lat":48.188148,"lon":8.230263,"k":"p","n":"Niederwasser Rössle"},
+  {"id":6043882086636,"lat":48.18853,"lon":8.230356,"k":"p","n":"Niederwasser Rössle","g":1},
+  {"id":6048145850042,"lat":48.161818,"lon":8.249579,"k":"p","n":"Gremmelsbach Kohlplatz-Leutschenbach","g":1},
+  {"id":6049388488720,"lat":48.159673,"lon":8.23942,"k":"p","n":"Gremmelsbach Abzw B33","g":1},
+  {"id":6074716976544,"lat":48.161711,"lon":8.249544,"k":"p","n":"Gremmelsbach Kohlplatz-Leutschenbach","g":1}
+],
+"routes":[
+  {"id":6639743,"t":{"ref":"7150","name":"Bus 7150: Hausach => Triberg","from":"Hausach Schulen","to":"Marktplatz","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Südwestbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[9692539187,11]]},
+  {"id":3005231933574,"t":{"ref":"530","name":"530: Gremmelsbach Sommerberg - Triberg Marktplatz","from":"Gremmelsbach Sommerberg","to":"Triberg Marktplatz","operator":"SBK","route":"bus","public_transport:version":"2"},"n":9,"s":[[6048145850042,3],[10015932564,4],[9692539187,5]]},
+  {"id":3018252846749,"t":{"ref":"530","name":"530: Hornberg Bahnhof - Triberg Marktplatz","from":"Hornberg Bahnhof","to":"Triberg Marktplatz","operator":"SBK","route":"bus","public_transport:version":"2"},"n":11,"s":[[6043882086636,4],[30699367,5],[10015932564,6],[9692539187,7]]},
+  {"id":3061492676435,"t":{"ref":"530","name":"530: Triberg Marktplatz - Gremmelsbach Sommerberg","from":"Triberg Marktplatz","to":"Gremmelsbach Sommerberg","operator":"SBK","route":"bus","public_transport:version":"2"},"n":9,"s":[[9692539188,5],[6049388488720,6],[6074716976544,7]]},
+  {"id":3093746017106,"t":{"ref":"530","name":"530: Triberg Marktplatz - Hornberg Bahnhof","from":"Triberg Marktplatz","to":"Hornberg Bahnhof","operator":"SBK","route":"bus","public_transport:version":"2"},"n":10,"s":[[9692539188,5],[6049388488720,6],[30699367,7],[11278395791,8]]}
+]
+}

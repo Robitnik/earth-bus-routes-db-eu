@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2820,3732],
+"stops":[
+  {"id":355589959,"lat":51.03457,"lon":6.615849,"k":"p","n":"Neurath Kraftwerk"},
+  {"id":361173942,"lat":51.005145,"lon":6.646885,"k":"p","n":"Rather Mühle"},
+  {"id":361173946,"lat":51.005084,"lon":6.646762,"k":"p","n":"Rather Mühle"},
+  {"id":361174033,"lat":51.018071,"lon":6.623008,"k":"p","n":"Gommershoven"},
+  {"id":361174035,"lat":51.018273,"lon":6.622999,"k":"p","n":"Gommershoven"},
+  {"id":371715837,"lat":51.005914,"lon":6.633938,"k":"p","n":"Rath Schule"},
+  {"id":371715846,"lat":51.006136,"lon":6.633493,"k":"p","n":"Rath Schule"},
+  {"id":371715869,"lat":51.007447,"lon":6.635438,"k":"p","n":"Friedensstraße"},
+  {"id":371715876,"lat":51.007486,"lon":6.635788,"k":"p","n":"Friedensstraße"},
+  {"id":2354842787,"lat":51.034775,"lon":6.614659,"k":"p","n":"Neurath Kraftwerk"},
+  {"id":4921350771,"lat":51.034631,"lon":6.615867,"k":"x","n":"Neurath Kraftwerk"},
+  {"id":4921350772,"lat":51.034721,"lon":6.614641,"k":"x","n":"Neurath Kraftwerk"},
+  {"id":9495832723,"lat":51.005927,"lon":6.633842,"k":"x","n":"Rath, Schule"},
+  {"id":9495832724,"lat":51.006119,"lon":6.633585,"k":"x","n":"Rath, Schule"},
+  {"id":9495832725,"lat":51.007467,"lon":6.635654,"k":"x","n":"Friedensstraße"},
+  {"id":9495832726,"lat":51.005113,"lon":6.646832,"k":"x","n":"Rather Mühle"},
+  {"id":13423492221,"lat":51.007358,"lon":6.635401,"k":"x","n":"Friedensstraße"}
+],
+"routes":[
+  {"id":11774603,"t":{"ref":"891","name":"Bus 891: Vanikum => Neurath","from":"Rommerskirchen Vanikum Am Stutzkreuz","to":"Grevenbroich Neurath Kirche","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2","bus":"yes"},"n":3,"s":[[2354842787,2]]},
+  {"id":11774604,"t":{"ref":"891","name":"Bus 891: Neurath => Vanikum","from":"Grevenbroich Neurath Im Meiswinkel","to":"Rommerskirchen Vanikum Am Stutzkreuz","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2","bus":"yes"},"n":3,"s":[[355589959,2]]},
+  {"id":13553404,"t":{"ref":"892","name":"Bus 892: Im Meiswinkel => Zur Wassermühle","from":"Grevenbroich Im Meiswinkel","to":"Grevenbroich Zur Wassermühle","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":49,"s":[[355589959,2]]},
+  {"id":13818586,"t":{"ref":"987","name":"VRS Bus 987: Bedburg GGS (Kölner/Oeppenstr.) => Rath Schule","from":"Bedburg GGS (Kölner/Oeppenstr.)","to":"Rath Schule","network":"VRS","operator":"REVG","colour":"#76B82D","route":"bus","public_transport:version":"2"},"n":7,"s":[[371715869,6],[371715846,7]]},
+  {"id":13904426,"t":{"ref":"924","name":"VRS Bus 924: Bergheim Bahnhof => Bedburg Bahnhof","from":"Bergheim Bahnhof","to":"Bedburg Bahnhof","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":24,"s":[[361173942,17],[371715869,18],[371715846,19]]},
+  {"id":13904428,"t":{"ref":"924","name":"VRS Bus 924: Rath Schule => Bergheim Kreishaus","from":"Rath Schule","to":"Bergheim Kreishaus","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":19,"s":[[371715837,1],[371715876,2],[361173946,3]]},
+  {"id":13904430,"t":{"ref":"924","name":"VRS Bus 924: Bedburg Schulzentrum => Oberaußemer Straße","from":"Bedburg Schulzentrum","to":"Oberaußemer Straße","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":15,"s":[[371715837,7],[371715876,8],[361173946,9]]},
+  {"id":13904431,"t":{"ref":"924","name":"VRS Bus 924: Oberaußemer Straße => Bedburg Schulzentrum","from":"Oberaußemer Straße","to":"Bedburg Schulzentrum","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":15,"s":[[361173942,7],[371715869,8],[371715846,9]]},
+  {"id":17194819,"t":{"ref":"879","name":"Bus 879: Grevenbroich-Neurath => Rommerskirchen Anstel","from":"Grevenbroich-Neurath, Im Meiswinkel","to":"Rommerskirchen-Anstel, Bundesstr.","network":"VRR","route":"bus","public_transport:version":"2"},"n":16,"s":[[355589959,2]]},
+  {"id":20034689,"t":{"ref":"924","name":"VRS Bus 924: Rath Schule => Oberaußemer Straße","from":"Rath Schule","to":"Oberaußemer Straße","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":9,"s":[[371715837,1],[371715876,2],[361173946,3]]},
+  {"id":20035087,"t":{"ref":"924","name":"VRS Bus 924: Bergheim Bahnhof => Rath Schule","from":"Bergheim Bahnhof","to":"Rath Schule","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":19,"s":[[361173942,17],[371715869,18],[371715846,19]]},
+  {"id":3031676928341,"t":{"ref":"892","name":"Bus 892: Zur Wassermühle => Neurath Kirche","from":"Grevenbroich Zur Wassermühle","to":"Grevenbroich Neurath Kirche","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":49,"s":[[4921350771,48]]},
+  {"id":3058891896885,"t":{"ref":"987","name":"VRS Bus 987: Rath Schule => Bedburg GGS (Kölner/Oeppenstr.)","from":"Rath Schule","to":"Bedburg GGS (Kölner/Oeppenstr.)","network":"VRS","operator":"REVG","colour":"#76B82D","route":"bus","public_transport:version":"2"},"n":8,"s":[[371715869,7],[371715846,8]]},
+  {"id":3071442972676,"t":{"ref":"892","name":"Bus 892: Zur Wassermühle => Neurath Kirche","from":"Grevenbroich Zur Wassermühle","to":"Grevenbroich Neurath Kirche","network":"VRR","operator":"BVR","route":"bus","public_transport:version":"2"},"n":49,"s":[[4921350771,2]]},
+  {"id":3086384215542,"t":{"ref":"924","name":"VRS Bus 924: Bedburg Bahnhof => Rath => Oberaußemer Straße","from":"Bedburg Bahnhof","to":"Oberaußemer Straße","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":14,"s":[[9495832723,6],[371715876,7],[9495832726,8]]},
+  {"id":3096442993229,"t":{"ref":"924","name":"VRS Bus 924: Oberaußemer Straße => Rath => Bedburg Bahnhof","from":"Oberaußemer Straße","to":"Bedburg Bahnhof","network":"VRS","operator":"REVG","colour":"#EB660B","route":"bus","public_transport:version":"2"},"n":14,"s":[[9495832726,7],[371715869,8],[371715846,9]]}
+]
+}

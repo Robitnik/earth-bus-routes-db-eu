@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2815,3737],
+"stops":[
+  {"id":826518056,"lat":50.792386,"lon":6.867641,"k":"p","n":"Birkhof"},
+  {"id":1161443365,"lat":50.798997,"lon":6.879174,"k":"p","n":"Phantasialand"},
+  {"id":1161443413,"lat":50.798926,"lon":6.879107,"k":"x","n":"Phantasialand"},
+  {"id":1383436410,"lat":50.754706,"lon":6.850567,"k":"x","n":"Gewerbegebiet Nikolaus-Otto-Straße"},
+  {"id":1383436439,"lat":50.771478,"lon":6.850671,"k":"p","n":"Swisterberg"},
+  {"id":1383436440,"lat":50.756301,"lon":6.861699,"k":"x","n":"Swisterhof"},
+  {"id":1404302741,"lat":50.771846,"lon":6.850862,"k":"p","n":"Swisterberg"},
+  {"id":6005121138742,"lat":50.792073,"lon":6.86736,"k":"p","n":"Brühl Badorf Birkhof","g":1},
+  {"id":6021785742940,"lat":50.793834,"lon":6.868555,"k":"p","n":"Brühl Badorf Birkhof","g":1}
+],
+"routes":[
+  {"id":16013717,"t":{"ref":"PHL","name":"Shuttlebus Phantasialand: Phantasialand => Brühl Bahnhof","from":"Phantasialand","to":"Brühl Bahnhof","network":"VRS","operator":"Phantasialand","route":"bus","public_transport:version":"2"},"n":2,"s":[[1161443365,1]]},
+  {"id":17969818,"t":{"ref":"708","name":"Bus 708: Phantasialand => Brühl Mitte","from":"Phantasialand","to":"Brühl Mitte","network":"VRS","operator":"Stadtwerke Brühl","route":"bus","public_transport:version":"2"},"n":12,"s":[[1161443365,1]]},
+  {"id":20424873,"t":{"ref":"985","name":"Bus 985: Weilerswist Deutscher Platz => Brühl Mitte","from":"Weilerswist Deutscher Platz","to":"Brühl Mitte","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":16,"s":[[1383436439,5],[826518056,6]]},
+  {"id":20424874,"t":{"ref":"985","name":"Bus 985: Euskirchen Bf => Weilerswist Erft-Swist-Halle => Brühl Mitte","from":"Euskirchen Bf","to":"Brühl Mitte","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":38,"s":[[1383436439,27],[826518056,28]]},
+  {"id":3007078303499,"t":{"ref":"985","name":"Bus 985: Euskirchen Bf => Brühl Mitte","from":"Euskirchen Bf","to":"Brühl Mitte","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":35,"s":[[1404302741,24],[6005121138742,25]]},
+  {"id":3027173631190,"t":{"ref":"PHL","name":"Shuttlebus Phantasialand: Brühl Bahnhof => Phantasialand","from":"Brühl Bahnhof","to":"Phantasialand","network":"VRS","operator":"Phantasialand","route":"bus","public_transport:version":"2"},"n":3,"s":[[1161443413,1]]},
+  {"id":3058273462500,"t":{"ref":"985","name":"Bus 985: Brühl Mitte => Euskirchen Bf","from":"Brühl Mitte","to":"Euskirchen Bf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":34,"s":[[6021785742940,10],[1383436439,11]]},
+  {"id":3075442870874,"t":{"ref":"PHL","name":"Shuttlebus Phantasialand: Brühl Bahnhof => Phantasialand","from":"Brühl Bahnhof","to":"Phantasialand","network":"VRS","operator":"Phantasialand","route":"bus","public_transport:version":"2"},"n":3,"s":[[1161443365,3]]}
+]
+}

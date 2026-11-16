@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2856,3865],
+"stops":[
+  {"id":312607762,"lat":52.800865,"lon":13.293706,"k":"p","n":"Malz, Am Gang"},
+  {"id":312607765,"lat":52.803897,"lon":13.294019,"k":"p","n":"Malz, Anker"},
+  {"id":312607769,"lat":52.80348,"lon":13.288904,"k":"p","n":"Malz, Dameswalder Weg"},
+  {"id":312607773,"lat":52.803452,"lon":13.280377,"k":"p","n":"Malz, Ambachwiesen"},
+  {"id":312607778,"lat":52.805119,"lon":13.270903,"k":"p","n":"Dameswalde, Hellasstraße"},
+  {"id":312607784,"lat":52.804295,"lon":13.266601,"k":"p","n":"Dameswalde, Elisabethstraße"},
+  {"id":494452634,"lat":52.825499,"lon":13.274561,"k":"p","n":"Freienhagen, Dorfstraße"},
+  {"id":497100001,"lat":52.829071,"lon":13.290373,"k":"p","n":"Freienhagen, Siedlung"},
+  {"id":497100002,"lat":52.829,"lon":13.290406,"k":"p","n":"Freienhagen, Siedlung"},
+  {"id":497294811,"lat":52.825639,"lon":13.275694,"k":"p","n":"Freienhagen, Dorfstraße"},
+  {"id":861003902,"lat":52.803299,"lon":13.288491,"k":"p","n":"Malz, Dameswalder Weg"},
+  {"id":861003964,"lat":52.803331,"lon":13.280503,"k":"p","n":"Malz, Ambachwiesen"},
+  {"id":2208649470,"lat":52.846939,"lon":13.296089,"k":"p","n":"Neuholland, Bergemannhof"},
+  {"id":2208649489,"lat":52.841113,"lon":13.297857,"k":"p","n":"Neuholland, Sperberhof"},
+  {"id":6050978141342,"lat":52.821662,"lon":13.253,"k":"p","n":"Nassenheide, Birkhorst","g":1},
+  {"id":6057217814796,"lat":52.80332,"lon":13.294664,"k":"p","n":"Malz, Anker","g":1},
+  {"id":6078562221195,"lat":52.82166,"lon":13.25323,"k":"p","n":"Nassenheide, Birkhorst","g":1}
+],
+"routes":[
+  {"id":52229,"t":{"ref":"804","name":"Bus 804: Birkenallee - Malz, Anker (Sa, So)","from":"Birkenallee","to":"Anker","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[312607762,28],[312607765,29]]},
+  {"id":1126708,"t":{"ref":"804","name":"Bus 804: Malz, Anker - Birkenallee (Sa, So)","from":"Anker","to":"Birkenallee","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus"},"n":29,"s":[[312607765,2],[312607769,3],[312607773,4],[312607778,5],[312607784,6]]},
+  {"id":3008967603417,"t":{"ref":"804","name":"Bus 804: Malz, Anker - Rewestraße (Mo-Fr)","from":"Anker","to":"Rewestraße","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[312607765,1],[861003902,2],[312607773,3],[312607778,4],[312607784,5]]},
+  {"id":3016439401586,"t":{"ref":"804","name":"Bus 804: Malz, Anker - Rewestraße (Mo-Fr)","from":"Anker","to":"Rewestraße","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":36,"s":[[312607765,1],[861003902,2],[312607773,3],[312607778,4],[312607784,5]]},
+  {"id":3039895666746,"t":{"ref":"804","name":"Bus 804: Rewestraße - Malz, Anker (Mo-Fr)","from":"Rewestraße","to":"Anker","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[312607762,31],[6057217814796,32]]},
+  {"id":3047662206640,"t":{"ref":"803","name":"803: Liebenthal (OHV), Wendestelle - S Oranienburg Bhf","from":"Liebenthal (OHV), Wendestelle","to":"S Oranienburg Bhf","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[497100001,21],[494452634,22],[6050978141342,23]]},
+  {"id":3068917005569,"t":{"ref":"803","name":"803: S Oranienburg Bhf - Liebenthal (OHV), Wendestelle","from":"S Oranienburg Bhf","to":"Liebenthal (OHV), Wendestelle","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6078562221195,9],[497294811,10],[497100002,11]]},
+  {"id":3070521111392,"t":{"ref":"804","name":"Bus 804: Malz, Anker - Rewestraße (Mo-Fr)","from":"Anker","to":"Rewestraße","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[312607765,1],[861003902,2],[312607773,3],[312607778,4],[312607784,5]]},
+  {"id":3070948827970,"t":{"ref":"804","name":"Bus 804: Rewestraße - Malz, Anker (Mo-Fr)","from":"Rewestraße","to":"Anker","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[312607762,29],[6057217814796,30]]},
+  {"id":3084488943144,"t":{"ref":"803","name":"803: Liebenthal (OHV), Wendestelle - S Oranienburg Bhf","from":"Liebenthal (OHV), Wendestelle","to":"S Oranienburg Bhf","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[497100001,22],[494452634,23],[6050978141342,24]]},
+  {"id":3086010227284,"t":{"ref":"803","name":"803: S Oranienburg Bhf - Liebenthal (OHV), Wendestelle","from":"S Oranienburg Bhf","to":"Liebenthal (OHV), Wendestelle","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[6078562221195,9],[497294811,10],[497100002,11]]},
+  {"id":3096686515505,"t":{"ref":"804","name":"Bus 804: Malz, Anker - Rewestraße (Mo-Fr)","from":"Anker","to":"Rewestraße","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":35,"s":[[312607765,1],[861003902,2],[312607773,3],[312607778,4],[312607784,5]]},
+  {"id":3097567174316,"t":{"ref":"804","name":"Bus 804: Rewestraße - Malz, Anker (Mo-Fr)","from":"Rewestraße","to":"Anker","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[312607762,32],[6057217814796,33]]}
+]
+}

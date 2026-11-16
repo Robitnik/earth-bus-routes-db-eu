@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2788,3785],
+"stops":[
+  {"id":267530076,"lat":49.427936,"lon":9.288563,"k":"x","n":"Kleineicholzheim"},
+  {"id":268276631,"lat":49.444122,"lon":9.288608,"k":"x","n":"Großeicholzheim, Milchhaus am Wasserschloß"},
+  {"id":310621383,"lat":49.416798,"lon":9.279243,"k":"x","n":"Oberschefflenz, Bahnhof"},
+  {"id":1965711306,"lat":49.415945,"lon":9.281815,"k":"x","n":"Oberschefflenz Kirche"},
+  {"id":1965711331,"lat":49.415973,"lon":9.281729,"k":"p","n":"Oberschefflenz Kirche"},
+  {"id":4605797781,"lat":49.443978,"lon":9.288608,"k":"p","n":"Großeicholzheim, Milchhaus am Wasserschloß"},
+  {"id":4605797782,"lat":49.444144,"lon":9.2887,"k":"p","n":"Großeicholzheim, Milchhaus am Wasserschloß"},
+  {"id":4710799940,"lat":49.412896,"lon":9.279612,"k":"p","n":"Oberschefflenz, Talstraße"},
+  {"id":6789314826,"lat":49.416811,"lon":9.279178,"k":"p","n":"Oberschefflenz, Bahnhof"},
+  {"id":6854634452,"lat":49.412905,"lon":9.279668,"k":"x","n":"Oberschefflenz, Talstraße"},
+  {"id":6854843765,"lat":49.412985,"lon":9.27962,"k":"x","n":"Oberschefflenz, Talstraße"},
+  {"id":6854843766,"lat":49.412993,"lon":9.279735,"k":"p","n":"Oberschefflenz, Talstraße"},
+  {"id":6854843776,"lat":49.403939,"lon":9.276607,"k":"x","n":"Mittelschefflenz Peppelweg"},
+  {"id":6854843777,"lat":49.40395,"lon":9.276685,"k":"p","n":"Mittelschefflenz Peppelweg"},
+  {"id":6854843779,"lat":49.401863,"lon":9.278683,"k":"x","n":"Mittelschefflenz, Ort"},
+  {"id":6854843780,"lat":49.401868,"lon":9.27877,"k":"p","n":"Mittelschefflenz, Ort"},
+  {"id":6854970299,"lat":49.401694,"lon":9.278731,"k":"x","n":"Mittelschefflenz, Ort"},
+  {"id":6854970300,"lat":49.40169,"lon":9.278688,"k":"p","n":"Mittelschefflenz, Ort"},
+  {"id":7058600113,"lat":49.444001,"lon":9.288655,"k":"x","n":"Großeicholzheim, Milchhaus am Wasserschloß"},
+  {"id":7116151041,"lat":49.42787,"lon":9.288645,"k":"p","n":"Kleineicholzheim"},
+  {"id":8130339007,"lat":49.403893,"lon":9.276617,"k":"p","n":"Mittelschefflenz Pappelweg"},
+  {"id":13123008661,"lat":49.42726,"lon":9.288249,"k":"p","n":"Kleineicholzheim Ort"},
+  {"id":13936757354,"lat":49.43252,"lon":9.290082,"k":"p","n":"Eicholzheim Bahnhof"}
+],
+"routes":[
+  {"id":3215400,"t":{"ref":"848","name":"Bus 848: Buchen => Großeicholzheim","from":"Buchen, Bahnhof","to":"Großeicholzheim","network":"Verkehrsverbund Rhein-Neckar","colour":"#5A2C0E","route":"bus","public_transport:version":"2"},"n":14,"s":[[4605797781,14]]},
+  {"id":10566645,"t":{"ref":"842","name":"Bus 842: Oberschefflenz => Buchen","from":"Oberschefflenz, Bahnhof","to":"Buchen, Bahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#40B93C","route":"bus","public_transport:version":"2"},"n":6,"s":[[6789314826,1],[1965711331,2],[7116151041,3],[4605797782,4]]},
+  {"id":12136951,"t":{"ref":"848","name":"Bus 848: Großeichholzheim => Buchen","from":"Großeichholzheim","to":"Buchen Bahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#5A2C0E","route":"bus","public_transport:version":"2"},"n":14,"s":[[4605797781,1]]},
+  {"id":14418661,"t":{"ref":"842","name":"Bus 842: Hardheim => Osterburken","from":"Hardheim, Post","to":"Osterburken, Bahnhof","network":"Verkehrsverbund Rhein-Neckar","operator":"BRN","route":"bus"},"n":21,"s":[[4605797781,16]]},
+  {"id":3003955100857,"t":{"ref":"835","name":"Bus 835: Mosbach => Oberschefflenz","from":"Mosbach Busbahnhof","to":"Oberschefflenz Bahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#5D2491","route":"bus","public_transport:version":"2"},"n":28,"s":[[6854843779,25],[6854843777,26],[6854843765,27],[310621383,28]]},
+  {"id":3005132170961,"t":{"ref":"835","name":"Bus 835: Oberschefflenz => Mosbach","from":"Oberschefflenz","to":"Mosbach Busbahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#5D2491","route":"bus","public_transport:version":"2"},"n":29,"s":[[310621383,1],[6854634452,2],[6854843776,3],[6854843779,4]]},
+  {"id":3029338982540,"t":{"ref":"8941","name":"8941: Mosbach, Bahnhof Käfertörle - Osterburken, Bahnhof","from":"Mosbach, Bahnhof Käfertörle","to":"Osterburken, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":12,"s":[[1965711306,5],[7116151041,6],[268276631,7]]},
+  {"id":3064683181961,"t":{"ref":"8937","name":"8937: Mosbach, Bahnhof Käfertörle - Dallau, Bahnhof","from":"Mosbach, Bahnhof Käfertörle","to":"Dallau, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":32,"s":[[6854843779,24],[6854843777,25],[6854843765,26],[1965711306,27],[310621383,28]]},
+  {"id":3074398725039,"t":{"ref":"835","name":"Bus 835: Oberschefflenz => Mosbach","from":"Oberschefflenz","to":"Mosbach Busbahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#5D2491","route":"bus","public_transport:version":"2"},"n":28,"s":[[310621383,1],[6854634452,2],[6854843776,3],[6854843779,4]]},
+  {"id":3079742840687,"t":{"ref":"835","name":"Bus 835: Mosbach => Oberschefflenz","from":"Mosbach Busbahnhof","to":"Oberschefflenz Bahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#5D2491","route":"bus","public_transport:version":"2"},"n":29,"s":[[6854843779,26],[6854843777,27],[6854843765,28],[310621383,29]]},
+  {"id":3093825447090,"t":{"ref":"8937","name":"8937: Dallau, Mitte - Mosbach, Bahnhof Käfertörle","from":"Dallau, Mitte","to":"Mosbach, Bahnhof Käfertörle","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":31,"s":[[310621383,5],[1965711306,6],[6854634452,7],[6854843776,8],[6854843779,9]]}
+]
+}

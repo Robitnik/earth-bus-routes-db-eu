@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2773,3756],
+"stops":[
+  {"id":205266934,"lat":48.655164,"lon":7.831199,"k":"x","n":"Général Leclerc","ref":"239A"},
+  {"id":205267817,"lat":48.659338,"lon":7.82563,"k":"x","n":"La Wantzenau École","ref":"358B"},
+  {"id":9432874264,"lat":48.652156,"lon":7.825166,"k":"x","n":"Saint-Yrieix","ref":"623A"},
+  {"id":9432874265,"lat":48.652053,"lon":7.82508,"k":"x","n":"Saint-Yrieix","ref":"623B"},
+  {"id":9432874270,"lat":48.652137,"lon":7.825247,"k":"p","n":"Saint-Yrieix","ref":"623A"},
+  {"id":9432874271,"lat":48.65352,"lon":7.828787,"k":"x","n":"Faubourg d'Alençon","ref":"191A"},
+  {"id":9432874272,"lat":48.65348,"lon":7.828125,"k":"x","n":"Faubourg d'Alençon","ref":"191B"},
+  {"id":9432874273,"lat":48.653468,"lon":7.828792,"k":"p","n":"Faubourg d'Alençon","ref":"191A"},
+  {"id":9432874278,"lat":48.657114,"lon":7.829809,"k":"x","n":"Patronage","ref":"466A"},
+  {"id":9432874279,"lat":48.657135,"lon":7.829888,"k":"p","n":"Patronage","ref":"466A"},
+  {"id":9432874284,"lat":48.655734,"lon":7.830854,"k":"x","n":"Général Leclerc","ref":"239B"},
+  {"id":9432874285,"lat":48.655133,"lon":7.831281,"k":"p","n":"Général Leclerc","ref":"239A"},
+  {"id":9432874290,"lat":48.657923,"lon":7.828169,"k":"x","n":"La Wantzenau Mairie","ref":"362A"},
+  {"id":9432874291,"lat":48.659531,"lon":7.825373,"k":"x","n":"La Wantzenau École","ref":"358A"},
+  {"id":10047409410,"lat":48.655407,"lon":7.840216,"k":"p","n":"Bords de l'Ill"},
+  {"id":10047409411,"lat":48.658673,"lon":7.838425,"k":"p","n":"Noyer"},
+  {"id":10047409412,"lat":48.662407,"lon":7.833924,"k":"p","n":"Jean-Claude Klein"},
+  {"id":11384434373,"lat":48.652088,"lon":7.825017,"k":"p","n":"Saint-Yrieix","ref":"623B"},
+  {"id":11384434374,"lat":48.653534,"lon":7.82818,"k":"p","n":"Faubourg d'Alençon","ref":"191B"},
+  {"id":11384434375,"lat":48.655807,"lon":7.830696,"k":"p","n":"Général Leclerc","ref":"239B"}
+],
+"routes":[
+  {"id":10057995,"t":{"ref":"72","name":"Bus 72 : République → La Wantzenau ZA","from":"République","to":"La Wantzenau ZA","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#F3C6DB","route":"bus","public_transport:version":"2"},"n":6,"s":[[9432874270,3],[9432874273,4],[9432874285,5],[9432874279,6]]},
+  {"id":14013312,"t":{"ref":"FlexHop","name":"FlexHop : Zone Flexhop → Zone Flexhop (ordre alphabétique)","from":"Zone Flexhop","to":"Zone Flexhop","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#e50570","route":"bus","public_transport:version":"2"},"n":17,"s":[[10047409410,2],[9432874273,3],[11384434374,4],[9432874285,5],[11384434375,6],[10047409412,7],[10047409411,8],[9432874279,9],[11384434373,14],[9432874270,15]]},
+  {"id":16769786,"t":{"ref":"72","name":"Bus 72 : La Wantzenau ZA → République","from":"La Wantzenau ZA","to":"République","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#F3C6DB","route":"bus","public_transport:version":"2"},"n":5,"s":[[11384434375,1],[11384434374,2],[11384434373,3]]},
+  {"id":18046136,"t":{"ref":"Taxibus","name":"Taxibus : République → Nord","from":"République","to":"Nord","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#1a70b8","route":"bus","public_transport:version":"2"},"n":6,"s":[[9432874270,3],[9432874273,4],[9432874285,5],[9432874279,6]]},
+  {"id":18049121,"t":{"ref":"FlexHop","name":"FlexHop : Nord → Connecteur Flexhop","from":"Nord","to":"Connecteur Flexhop","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#e50570","route":"bus","public_transport:version":"2"},"n":14,"s":[[9432874270,1],[11384434373,2],[9432874279,7],[10047409411,8],[10047409412,9],[11384434375,10],[9432874285,11],[11384434374,12],[9432874273,13],[10047409410,14]]},
+  {"id":18049122,"t":{"ref":"FlexHop","name":"FlexHop : Connecteur Flexhop → Nord","from":"Connecteur Flexhop","to":"Nord","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#e50570","route":"bus","public_transport:version":"2"},"n":14,"s":[[10047409410,1],[9432874273,2],[11384434374,3],[9432874285,4],[11384434375,5],[10047409412,6],[10047409411,7],[9432874279,8],[11384434373,13],[9432874270,14]]},
+  {"id":18049123,"t":{"ref":"FlexHop","name":"FlexHop : Zone Flexhop → Zone Flexhop (ordre inverse)","from":"Zone Flexhop","to":"Zone Flexhop","network":"Compagnie des Transports Strasbourgeois","operator":"Compagnie des Transports Strasbourgeois","colour":"#e50570","route":"bus"},"n":17,"s":[[9432874270,3],[11384434373,4],[9432874279,9],[10047409411,10],[10047409412,11],[11384434375,12],[9432874285,13],[11384434374,14],[9432874273,15],[10047409410,16]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2810,3826],
+"stops":[
+  {"id":1281213140,"lat":50.547563,"lon":11.349089,"k":"p","n":"Gabe Gottes"},
+  {"id":1281213154,"lat":50.547723,"lon":11.348717,"k":"p","n":"Gabe Gottes"},
+  {"id":1670172372,"lat":50.526502,"lon":11.309416,"k":"x","n":"Gräfenthal Schule"},
+  {"id":1674922228,"lat":50.520091,"lon":11.302868,"k":"p","n":"Untere Juchhe"},
+  {"id":1674922230,"lat":50.520147,"lon":11.303196,"k":"p","n":"Untere Juchhe"},
+  {"id":2127673992,"lat":50.527942,"lon":11.315131,"k":"x","n":"Gräfenthal Kaufhalle"},
+  {"id":2127674073,"lat":50.525661,"lon":11.305149,"k":"x","n":"Gräfenthal Markt"},
+  {"id":5019334539,"lat":50.526555,"lon":11.309421,"k":"p","n":"Gräfenthal Schule"},
+  {"id":6679908886,"lat":50.525648,"lon":11.304632,"k":"p","n":"Gräfenthal Markt"},
+  {"id":6679908887,"lat":50.525585,"lon":11.305102,"k":"p","n":"Gräfenthal Markt"},
+  {"id":6679915899,"lat":50.527923,"lon":11.315228,"k":"p","n":"Gräfenthal Kaufhalle"},
+  {"id":11241110891,"lat":50.500145,"lon":11.313512,"k":"x","n":"Lichtenhain"},
+  {"id":11976217664,"lat":50.500139,"lon":11.31359,"k":"p","n":"Lichtenhain"},
+  {"id":12784808520,"lat":50.527959,"lon":11.315028,"k":"p","n":"Gräfenthal Kaufhalle"},
+  {"id":12784808544,"lat":50.5201,"lon":11.303023,"k":"x","n":"Untere Juchhe"},
+  {"id":12784808562,"lat":50.525571,"lon":11.304627,"k":"x","n":"Gräfenthal Markt"},
+  {"id":12789059197,"lat":50.547753,"lon":11.348841,"k":"x","n":"Gabe Gottes"},
+  {"id":12789059198,"lat":50.547532,"lon":11.348951,"k":"x","n":"Gabe Gottes"},
+  {"id":12956372924,"lat":50.545579,"lon":11.323561,"k":"p","n":"Limbach / Marktgölitz"},
+  {"id":6065491247413,"lat":50.52746,"lon":11.31363,"k":"p","n":"Gräfenthal, Kaufhalle","g":1}
+],
+"routes":[
+  {"id":19034463,"t":{"ref":"407","name":"Bus 407: Gräfenthal Markt => Neuhaus, Zentralhaltestelle","from":"Probstzella Bahnhof","to":"Neuhaus, Zentralhaltestelle","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#a75f4a","route":"bus","public_transport:version":"2"},"n":20,"s":[[12784808520,4],[6679908886,5]]},
+  {"id":19034464,"t":{"ref":"407","name":"Bus 407: Lichtenhain => Gräfenthal Markt => Neuhaus, Zentralhaltestelle","from":"Lichtenhain","to":"Neuhaus, Zentralhaltestelle","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#a75f4a","route":"bus","public_transport:version":"2"},"n":20,"s":[[11976217664,1],[1674922230,4],[6679908886,5]]},
+  {"id":19034465,"t":{"ref":"407","name":"Bus 407: Neuhaus, Zentralhaltestelle => Gräfenthal Markt => Lichtenhain","from":"Neuhaus, Zentralhaltestelle","to":"Lichtenhain","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#a75f4a","route":"bus","public_transport:version":"2"},"n":19,"s":[[6679908887,16],[1674922228,17],[11976217664,19]]},
+  {"id":19034466,"t":{"ref":"407","name":"Bus 407: Neuhaus, Zentralhaltestelle => Gräfenthal Markt => Probstzella Bahnhof","from":"Neuhaus, Zentralhaltestelle","to":"Probstzella Bahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#a75f4a","route":"bus","public_transport:version":"2"},"n":20,"s":[[6679908887,16],[6679915899,17]]},
+  {"id":19034467,"t":{"ref":"407","name":"Bus 407: Neuhaus, Zentralhaltestelle => Gräfenthal Markt","from":"Neuhaus, Zentralhaltestelle","to":"Gräfenthal Markt","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#a75f4a","route":"bus","public_transport:version":"2"},"n":16,"s":[[6679908887,16]]},
+  {"id":19034468,"t":{"ref":"407","name":"Bus 407: Gräfenthal Markt => Neuhaus, Zentralhaltestelle","from":"Gräfenthal Markt","to":"Neuhaus, Zentralhaltestelle","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#a75f4a","route":"bus","public_transport:version":"2"},"n":16,"s":[[6679908886,1]]},
+  {"id":19042355,"t":{"ref":"547","name":"Bus 547: Probstzella Bahnhof => Gräfenthal Schule","from":"Probstzella Bahnhof","to":"Gräfenthal Schule","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#59BE4A","route":"bus","public_transport:version":"2"},"n":6,"s":[[12784808520,4],[5019334539,5],[6679908886,6]]},
+  {"id":3078566892676,"t":{"ref":"547","name":"Bus 547: Saalfeld Krankenhaus => Probstzella Bahnhof","from":"Saalfeld Krankenhaus","to":"Probstzella Bahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#59BE4A","route":"bus","public_transport:version":"2"},"n":32,"s":[[12789059197,24],[6065491247413,30],[1670172372,31],[2127674073,32]]},
+  {"id":3081462815622,"t":{"ref":"547","name":"547: Marktgölitz, Gemeindeverwaltung - Pippelsdorf","from":"Marktgölitz, Gemeindeverwaltung","to":"Pippelsdorf","operator":"Kombus","route":"bus","public_transport:version":"2"},"n":5,"s":[[12956372924,2]]},
+  {"id":3099851738452,"t":{"ref":"547","name":"547: Gräfenthal, Markt - Saalfeld, Krankenhaus","from":"Gräfenthal, Markt","to":"Saalfeld, Krankenhaus","operator":"Kombus","route":"bus","public_transport:version":"2"},"n":32,"s":[[2127674073,1],[12784808520,2],[12789059198,9]]}
+]
+}

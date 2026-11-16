@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2884,3785],
+"stops":[
+  {"id":307467964,"lat":54.238541,"lon":9.263886,"k":"x","n":"Schalkholz,Krim"},
+  {"id":494095646,"lat":54.219882,"lon":9.290995,"k":"x","n":"Tellingstedt, Oesterborstel"},
+  {"id":592623329,"lat":54.233086,"lon":9.272179,"k":"p","n":"Schalkholz,Breiterberg"},
+  {"id":743462029,"lat":54.248727,"lon":9.256121,"k":"p","n":"Schalkholz,Dörpshus"},
+  {"id":2134833558,"lat":54.214742,"lon":9.281997,"k":"p","n":"Tellingstedt, B 203"},
+  {"id":2134833561,"lat":54.214324,"lon":9.279097,"k":"p","n":"Tellingstedt, B 203"},
+  {"id":2137533882,"lat":54.244758,"lon":9.293035,"k":"p","n":"Hövede"},
+  {"id":4453856459,"lat":54.214855,"lon":9.281947,"k":"x","n":"Tellingstedt, B 203"},
+  {"id":9067001683,"lat":54.214213,"lon":9.279158,"k":"x","n":"Tellingstedt, B 203"},
+  {"id":9067001684,"lat":54.220397,"lon":9.28203,"k":"x","n":"Tellingstedt,ZOB"},
+  {"id":9377018776,"lat":54.22036,"lon":9.281967,"k":"p","n":"Tellingstedt,ZOB"},
+  {"id":9377018777,"lat":54.219839,"lon":9.290956,"k":"p","n":"Tellingstedt, Oesterborstel"},
+  {"id":9377018778,"lat":54.219923,"lon":9.291003,"k":"p","n":"Tellingstedt, Oesterborstel"},
+  {"id":9867333582,"lat":54.23281,"lon":9.272059,"k":"p","n":"Schalkholz,Breiterberg"},
+  {"id":6030705807765,"lat":54.24515,"lon":9.292313,"k":"p","n":"Hövede","g":1},
+  {"id":6038194410242,"lat":54.245148,"lon":9.292358,"k":"p","n":"Hövede","g":1},
+  {"id":6049743341129,"lat":54.238804,"lon":9.26338,"k":"p","n":"Schalkholz Krim","g":1},
+  {"id":6074351001282,"lat":54.248084,"lon":9.255669,"k":"p","n":"Schalkholz Dörpshus","g":1},
+  {"id":6080285724293,"lat":54.238871,"lon":9.263269,"k":"p","n":"Schalkholz Krim","g":1},
+  {"id":6084439734268,"lat":54.244522,"lon":9.265778,"k":"p","n":"Schalkholz Oesterende","g":1},
+  {"id":6088123894853,"lat":54.244519,"lon":9.265689,"k":"p","n":"Schalkholz Oesterende","g":1}
+],
+"routes":[
+  {"id":3544169,"t":{"ref":"230","name":"Bus 230: Dörpling => Pahlen => Linden => Heide","from":"Dörpling","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#F2A8BA","route":"bus","public_transport:version":"2"},"n":7,"s":[[743462029,1]]},
+  {"id":20221123,"t":{"ref":"230","name":"Bus 230: Heide => Linden=> Pahlen => Dörpling","from":"Heide, Bahnhof","to":"Dörpling","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#F2A8BA","route":"bus","public_transport:version":"2"},"n":6,"s":[[743462029,6]]},
+  {"id":20321342,"t":{"ref":"245","name":"Bus 245: Dellstedt => Tellingstedt => Heide","from":"Dellstedt, ZOB","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#EB6939","route":"bus","public_transport:version":"2"},"n":13,"s":[[9377018778,3],[9377018776,4]]},
+  {"id":20321343,"t":{"ref":"245","name":"Bus 245: Heide => Tellingstedt => Dellstedt","from":"Heide, Bahnhof","to":"Dellstedt, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#EB6939","route":"bus","public_transport:version":"2"},"n":13,"s":[[9377018776,10],[9377018777,11]]},
+  {"id":20321344,"t":{"ref":"235","name":"Bus 235: Lunden => Tellingstedt","from":"Lunden, Bahnhof","to":"Tellingstedt,ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8C191E","route":"bus","public_transport:version":"2"},"n":7,"s":[[743462029,5],[9867333582,6],[9377018776,7]]},
+  {"id":20321346,"t":{"ref":"235","name":"Bus 235: Tellingstedt => Lunden","from":"Tellingstedt,ZOB","to":"Lunden, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8C191E","route":"bus","public_transport:version":"2"},"n":11,"s":[[9377018776,1],[592623329,2],[743462029,3],[2137533882,4]]},
+  {"id":3004804918968,"t":{"ref":"200","name":"Bus 200: Heide, Bahnhof => Tellingstedt => Rendsburg Stadttheater/ZOB","from":"Heide, Bahnhof","to":"Rendsburg Stadttheater/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#A4509A","route":"bus","public_transport:version":"2"},"n":30,"s":[[9067001684,9],[4453856459,10]]},
+  {"id":3047986352715,"t":{"ref":"245","name":"245: Tellingstedt ZOB - Dellstedt ZOB","from":"Tellingstedt ZOB","to":"Dellstedt ZOB","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[9067001684,1],[494095646,2]]},
+  {"id":3050703973949,"t":{"ref":"230","name":"230: Erfde Dorfplatz - Heide(Holst) Bahnhof","from":"Erfde Dorfplatz","to":"Heide(Holst) Bahnhof","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6074351001282,9]]},
+  {"id":3051200958196,"t":{"ref":"235","name":"235: Lunden Bahnhof - Tellingstedt ZOB","from":"Lunden Bahnhof","to":"Tellingstedt ZOB","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[6038194410242,23],[6088123894853,24],[6074351001282,25],[6049743341129,26],[9867333582,27],[9067001684,28]]},
+  {"id":3051673834929,"t":{"ref":"245","name":"245: Dellstedt ZOB - Tellingstedt ZOB","from":"Dellstedt ZOB","to":"Tellingstedt ZOB","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[494095646,9],[9067001684,10]]},
+  {"id":3065104569027,"t":{"ref":"200","name":"Bus 200: Rendsburg Bahnhofstraße/ZOB => Tellingstedt => Heide, Bahnhof","from":"Rendsburg Bahnhofstraße/ZOB","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#A4509A","route":"bus","public_transport:version":"2"},"n":31,"s":[[494095646,22],[9067001684,23],[9067001683,24]]},
+  {"id":3085945809595,"t":{"ref":"235","name":"235: Tellingstedt ZOB - Lunden Bahnhof","from":"Tellingstedt ZOB","to":"Lunden Bahnhof","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[9067001684,1],[9867333582,2],[6080285724293,3],[6074351001282,4],[6084439734268,5],[6030705807765,6]]}
+]
+}

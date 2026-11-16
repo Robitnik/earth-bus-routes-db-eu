@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3859],
+"stops":[
+  {"id":1269154858,"lat":51.282119,"lon":12.994586,"k":"p","n":"Collm, Butterweg"},
+  {"id":1269154874,"lat":51.282219,"lon":12.9945,"k":"p","n":"Collm, Butterweg"},
+  {"id":2421635947,"lat":51.261741,"lon":12.968916,"k":"x","n":"Mahlis, Ortsmitte"},
+  {"id":2431126150,"lat":51.267711,"lon":12.967072,"k":"x","n":"Mahlis, Gartenstraße"},
+  {"id":5838589578,"lat":51.270117,"lon":12.967416,"k":"p","n":"Mahlis, Waldweg"},
+  {"id":5838589579,"lat":51.270237,"lon":12.967352,"k":"p","n":"Mahlis, Waldweg"},
+  {"id":6217652090,"lat":51.282168,"lon":12.994554,"k":"x","n":"Collm, Butterweg"},
+  {"id":6217652175,"lat":51.271382,"lon":12.979741,"k":"x","n":"Mahlis, Gasthof"},
+  {"id":6217652178,"lat":51.271532,"lon":12.977455,"k":"x","n":"Mahlis, Gasthof"},
+  {"id":6217652180,"lat":51.270181,"lon":12.967387,"k":"x","n":"Mahlis, Waldweg"},
+  {"id":6217652181,"lat":51.274422,"lon":12.951573,"k":"x","n":"Wermsdorf, Am Fasanenholz"},
+  {"id":6219729709,"lat":51.274994,"lon":12.950952,"k":"p","n":"Wermsdorf, Am Fasanenholz"},
+  {"id":6219729710,"lat":51.274974,"lon":12.950915,"k":"x","n":"Wermsdorf, Am Fasanenholz"},
+  {"id":8357123608,"lat":51.255299,"lon":12.995091,"k":"x","n":"Gröppendorf"},
+  {"id":8911898436,"lat":51.254775,"lon":12.994823,"k":"x","n":"Gröppendorf"},
+  {"id":5000664299313,"lat":51.271317,"lon":12.979687,"k":"p","n":"Mahlis, Gasthof"},
+  {"id":5000664299314,"lat":51.271601,"lon":12.977522,"k":"p","n":"Mahlis, Gasthof"},
+  {"id":5000664299321,"lat":51.27441,"lon":12.951478,"k":"p","n":"Wermsdorf, Am Fasanenholz"},
+  {"id":5000963441989,"lat":51.254855,"lon":12.9948,"k":"p","n":"Gröppendorf"},
+  {"id":5000963441991,"lat":51.261724,"lon":12.968956,"k":"p","n":"Mahlis, Ortsmitte"},
+  {"id":6006222628328,"lat":51.256355,"lon":12.960488,"k":"p","n":"Wiederoda (Wermsdorf), Abzweig","g":1},
+  {"id":6009246301034,"lat":51.25627,"lon":12.960812,"k":"p","n":"Wiederoda (Wermsdorf), Abzweig","g":1},
+  {"id":6034650461390,"lat":51.273965,"lon":12.95203,"k":"p","n":"Wermsdorf, Am Fasanenholz","g":1},
+  {"id":6037423054308,"lat":51.269984,"lon":12.966411,"k":"p","n":"Mahlis, Waldweg","g":1}
+],
+"routes":[
+  {"id":9230457,"t":{"ref":"+801","name":"PlusBus 801: Wermsdorf => Oschatz","from":"Wermsdorf, Hirschplatz","to":"Oschatz, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000664299321,2],[5838589578,3],[5000664299313,4],[1269154858,5]]},
+  {"id":9233163,"t":{"ref":"+801","name":"PlusBus 801: Oschatz => Wermsdorf","from":"Oschatz, Bahnhof","to":"Wermsdorf, Hirschplatz","network":"Mitteldeutscher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":15,"s":[[1269154874,11],[5000664299314,12],[5838589579,13],[6219729709,14]]},
+  {"id":12940510,"t":{"ref":"816","name":"Bus 816: Dahlen => Mügeln","from":"Dahlen, Busbahnhof","to":"Mügeln, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000664299321,10],[5000963441991,11],[5000963441989,12]]},
+  {"id":3044867913217,"t":{"ref":"804","name":"804: Mügeln (Lkr. Nordsachsen), Busbahnhof - Wermsdorf, Hirschplatz","from":"Mügeln (Lkr. Nordsachsen), Busbahnhof","to":"Wermsdorf, Hirschplatz","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":21,"s":[[6009246301034,16],[5000963441991,17],[2431126150,18]]},
+  {"id":3046223172914,"t":{"ref":"804","name":"804: Wermsdorf, Hirschplatz - Mügeln (Lkr. Nordsachsen), Busbahnhof","from":"Wermsdorf, Hirschplatz","to":"Mügeln (Lkr. Nordsachsen), Busbahnhof","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":23,"s":[[2431126150,4],[5000963441991,5],[8911898436,6],[6006222628328,9]]},
+  {"id":3057953738246,"t":{"ref":"816","name":"Bus 816: Mügeln => Dahlen","from":"Mügeln, Busbahnhof","to":"Dahlen, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":22,"s":[[6034650461390,12],[2431126150,13],[5000963441991,14],[8911898436,15]]},
+  {"id":3062772723690,"t":{"ref":"816","name":"Bus 816: Mügeln => Dahlen","from":"Mügeln, Busbahnhof","to":"Dahlen, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":22,"s":[[8357123608,8],[5000963441991,9],[2431126150,10],[6219729709,11]]},
+  {"id":3063176715913,"t":{"ref":"804","name":"804: Wermsdorf, Hirschplatz - Mügeln (Lkr. Nordsachsen), Busbahnhof","from":"Wermsdorf, Hirschplatz","to":"Mügeln (Lkr. Nordsachsen), Busbahnhof","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":20,"s":[[2431126150,4],[5000963441991,5],[6006222628328,6]]},
+  {"id":3078944249722,"t":{"ref":"801","name":"801: Wermsdorf, Hirschplatz - Oschatz, Bahnhof (Bus)","from":"Wermsdorf, Hirschplatz","to":"Oschatz, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":18,"s":[[6034650461390,3],[6037423054308,4],[5000664299313,5],[6217652090,6]]},
+  {"id":3099560943442,"t":{"ref":"801","name":"801: Oschatz, Bahnhof (Bus) - Wermsdorf, Hirschplatz","from":"Oschatz, Bahnhof (Bus)","to":"Wermsdorf, Hirschplatz","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":17,"s":[[6217652090,12],[5000664299314,13],[5838589579,14],[6219729709,15]]}
+]
+}

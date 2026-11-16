@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2841,3815],
+"stops":[
+  {"id":410291685,"lat":52.099592,"lon":10.766353,"k":"p","n":"Uehrde, Barnstorfer Weg"},
+  {"id":410291688,"lat":52.099673,"lon":10.766453,"k":"p","n":"Uehrde, Barnstorfer Weg"},
+  {"id":410291696,"lat":52.099235,"lon":10.764373,"k":"p","n":"Uehrde"},
+  {"id":656646660,"lat":52.065198,"lon":10.76527,"k":"p","n":"Winnigstedt, Ganterplatz"},
+  {"id":656646662,"lat":52.065107,"lon":10.765455,"k":"p","n":"Winnigstedt, Ganterplatz"},
+  {"id":656648526,"lat":52.065701,"lon":10.770579,"k":"p","n":"Winnigstedt, Schule"},
+  {"id":656648527,"lat":52.065698,"lon":10.770844,"k":"p","n":"Winnigstedt, Schule"},
+  {"id":656652263,"lat":52.065319,"lon":10.773908,"k":"p","n":"Winnigstedt, Hauptstraße"},
+  {"id":4590899732,"lat":52.052891,"lon":10.759095,"k":"p","n":"Mattierzoll"},
+  {"id":4790720876,"lat":52.099613,"lon":10.766461,"k":"x","n":"Uehrde, Barnstorfer Weg"},
+  {"id":5903974182,"lat":52.065292,"lon":10.773863,"k":"x","n":"Winnigstedt, Hauptstraße"},
+  {"id":5903974183,"lat":52.065669,"lon":10.770729,"k":"x","n":"Winnigstedt, Schule"},
+  {"id":5903974184,"lat":52.065149,"lon":10.765364,"k":"x","n":"Winnigstedt, Ganterplatz"},
+  {"id":5903976285,"lat":52.052901,"lon":10.758941,"k":"x","n":"Mattierzoll"},
+  {"id":5903976286,"lat":52.052932,"lon":10.758841,"k":"p","n":"Mattierzoll"},
+  {"id":6812775889,"lat":52.098651,"lon":10.795771,"k":"p","n":"Barnstorf, Mühle"},
+  {"id":6812775890,"lat":52.098612,"lon":10.79577,"k":"x","n":"Barnstorf, Mühle"},
+  {"id":6812775891,"lat":52.098575,"lon":10.79567,"k":"p","n":"Barnstorf, Mühle"},
+  {"id":6812775892,"lat":52.098622,"lon":10.795676,"k":"x","n":"Barnstorf, Mühle"},
+  {"id":6812775893,"lat":52.099614,"lon":10.766353,"k":"x","n":"Uehrde, Barnstorfer Weg"},
+  {"id":10285002310,"lat":52.06552,"lon":10.770965,"k":"p","n":"Winnigstedt, Schule"}
+],
+"routes":[
+  {"id":7154748,"t":{"ref":"372","name":"Bus 372: Schöppenstedt => Söllingen","from":"Schöppenstedt, Markt","to":"Söllingen, Zur Eiche","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#C9C9CC","route":"bus","public_transport:version":"2"},"n":15,"s":[[410291685,3],[6812775891,4]]},
+  {"id":8689426,"t":{"ref":"710","name":"Bus 710: Winnigstedt => Wolfenbüttel, Bahnhofstraße (via Cranachschule)","from":"Winnigstedt, Hauptstraße","to":"WF, Bahnhofstraße","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","route":"bus","public_transport:version":"2"},"n":25,"s":[[656652263,1],[656648527,2],[656646660,3]]},
+  {"id":8689427,"t":{"ref":"710","name":"Bus 710: Winnigstedt => Cranachschule => Wolfenbüttel","from":"Winnigstedt, Hauptstraße","to":"WF, Bahnhof","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","route":"bus","public_transport:version":"2"},"n":27,"s":[[656652263,1],[656648527,2],[656646660,3],[5903976286,4]]},
+  {"id":8689431,"t":{"ref":"710","name":"Bus 710: Wolfenbüttel => Cranachschule => Winnigstedt","from":"WF, Bahnhof","to":"Winnigstedt, Hauptstraße","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","route":"bus","public_transport:version":"2"},"n":21,"s":[[4590899732,18],[656646662,19],[656648526,20],[656652263,21]]},
+  {"id":3010137233173,"t":{"ref":"372","name":"Bus 372: Söllingen => Schöppenstedt","from":"Söllingen, Zur Eiche","to":"Schöppenstedt, Markt","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#C9C9CC","route":"bus","public_transport:version":"2"},"n":15,"s":[[6812775890,12],[4790720876,13]]},
+  {"id":3038309420956,"t":{"ref":"710","name":"Bus 710: Winnigstedt => Wolfenbüttel","from":"Winnigstedt, Hauptstraße","to":"WF, Bahnhof","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","route":"bus","public_transport:version":"2"},"n":24,"s":[[5903974182,1],[656648527,2],[656646660,3],[5903976286,4]]},
+  {"id":3052427991320,"t":{"ref":"710","name":"Bus 710: Wolfenbüttel => Winnigstedt","from":"WF, Bahnhof","to":"Winnigstedt, Hauptstraße","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","route":"bus","public_transport:version":"2"},"n":24,"s":[[5903976285,21],[656646662,22],[10285002310,23],[5903974182,24]]},
+  {"id":3055159105260,"t":{"ref":"372","name":"Bus 372: Söllingen => Schöppenstedt","from":"Söllingen, Zur Eiche","to":"Schöppenstedt, Markt","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#C9C9CC","route":"bus","public_transport:version":"2"},"n":15,"s":[[410291688,3],[6812775890,4]]},
+  {"id":3070548057103,"t":{"ref":"746","name":"746: Schöppenstedt, Schulen - Schöppenstedt, Bahnhof","from":"Schöppenstedt, Schulen","to":"Schöppenstedt, Bahnhof","operator":"Reisebüro Schmidt","route":"bus","public_transport:version":"2"},"n":18,"s":[[656648527,11],[5903976286,12],[4790720876,13],[6812775890,14]]}
+]
+}

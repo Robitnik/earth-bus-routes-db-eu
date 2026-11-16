@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2846,3820],
+"stops":[
+  {"id":37162247,"lat":52.300862,"lon":11.0133,"k":"x","n":"Grasleben, Kurhaus"},
+  {"id":37162381,"lat":52.3045,"lon":11.013468,"k":"x","n":"Grasleben, Mitte"},
+  {"id":37162398,"lat":52.305209,"lon":11.013568,"k":"x","n":"Grasleben, Mitte"},
+  {"id":295090586,"lat":52.309149,"lon":11.014881,"k":"x","n":"Grasleben, Friedhof"},
+  {"id":2620406633,"lat":52.339591,"lon":11.020176,"k":"p","n":"Döhren"},
+  {"id":2620406634,"lat":52.339633,"lon":11.020202,"k":"x","n":"Döhren"},
+  {"id":2620406640,"lat":52.309169,"lon":11.014976,"k":"p","n":"Grasleben, Friedhof"},
+  {"id":2620406641,"lat":52.30925,"lon":11.014748,"k":"p","n":"Grasleben, Friedhof"},
+  {"id":2620406642,"lat":52.309264,"lon":11.014823,"k":"x","n":"Grasleben, Friedhof"},
+  {"id":2628882246,"lat":52.304658,"lon":11.013337,"k":"p","n":"Grasleben, Mitte"},
+  {"id":2628882247,"lat":52.305091,"lon":11.013631,"k":"p","n":"Grasleben, Mitte"},
+  {"id":5515844377,"lat":52.300858,"lon":11.01339,"k":"p","n":"Grasleben, Kurhaus"},
+  {"id":6000271079588,"lat":52.3097,"lon":11.014531,"k":"p","n":"Grasleben, Friedhof","g":1},
+  {"id":6035063048879,"lat":52.309689,"lon":11.014549,"k":"p","n":"Grasleben, Friedhof","g":1},
+  {"id":6097936411501,"lat":52.308799,"lon":11.016265,"k":"p","n":"Grasleben, Am Schulhof","g":1}
+],
+"routes":[
+  {"id":2716310,"t":{"ref":"618","name":"Bus 618: Döhren => Haldensleben","from":"Döhren","to":"Haldensleben, ZOB","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[2620406633,1]]},
+  {"id":2716311,"t":{"ref":"618","name":"Bus 618: Haldensleben => Döhren","from":"Haldensleben, ZOB","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[2620406633,12]]},
+  {"id":3322462,"t":{"ref":"619","name":"Bus 619: Döhren => Haldensleben","from":"Döhren","to":"Haldensleben, ZOB","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[2620406633,1]]},
+  {"id":3449276,"t":{"ref":"633","name":"Bus 633: Beendorf => Döhren","from":"Beendorf","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2620406633,9]]},
+  {"id":3449277,"t":{"ref":"633","name":"Bus 633: Döhren => Beendorf","from":"Haldensleben, ZOB","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2620406633,1]]},
+  {"id":3449278,"t":{"ref":"633","name":"Bus 633: Grasleben => Weferlingen","from":"Haldensleben, ZOB","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[2628882247,1]]},
+  {"id":3449279,"t":{"ref":"633","name":"Bus 633: Weferlingen => Grasleben","from":"Haldensleben, ZOB","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[2628882246,3]]},
+  {"id":3027855788653,"t":{"ref":"380","name":"Bus 380: Helmstedt => Wolfsburg","from":"Helmstedt, Bahnhof","to":"Wolfsburg, Hauptbahnhof","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#FADD05","route":"bus","public_transport:version":"2"},"n":34,"s":[[37162398,7],[6035063048879,8]]},
+  {"id":3031204281935,"t":{"ref":"619","name":"Bus 619: Haldensleben => Döhren","from":"Haldensleben, ZOB","to":"Döhren","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[2620406633,1]]},
+  {"id":3058989526149,"t":{"ref":"380","name":"Bus 380: Wolfsburg => Helmstedt","from":"Wolfsburg, Hauptbahnhof","to":"Helmstedt, Bahnhof","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#FADD05","route":"bus","public_transport:version":"2"},"n":40,"s":[[6000271079588,26],[37162398,27]]},
+  {"id":3075357272455,"t":{"ref":"394","name":"394: Grasleben, Am Schulhof - Rennau, Trendel","from":"Grasleben, Am Schulhof","to":"Rennau, Trendel","operator":"Kraftverkehrsgesellschaft mbH Braunschweig","route":"bus","public_transport:version":"2"},"n":13,"s":[[6097936411501,1]]},
+  {"id":3079655826462,"t":{"ref":"380","name":"Bus 380: Helmstedt => Wolfsburg","from":"Helmstedt, Bahnhof","to":"Wolfsburg, Hauptbahnhof","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#FADD05","route":"bus","public_transport:version":"2"},"n":40,"s":[[37162398,13],[6035063048879,14]]},
+  {"id":3080882609619,"t":{"ref":"380","name":"Bus 380: Wolfsburg => Helmstedt","from":"Wolfsburg, Hauptbahnhof","to":"Helmstedt, Bahnhof","network":"Verkehrsverbund Region Braunschweig","operator":"KVG Braunschweig","colour":"#FADD05","route":"bus","public_transport:version":"2"},"n":33,"s":[[6000271079588,26],[37162398,27]]},
+  {"id":3084031880287,"t":{"ref":"619","name":"Bus 619: Haldensleben => Döhren","from":"Haldensleben, ZOB","to":"Döhren","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[2620406633,20]]}
+]
+}

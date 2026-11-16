@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2850,3798],
+"stops":[
+  {"id":1869326961,"lat":52.51061,"lon":9.91815,"k":"p","n":"Wettmar/Schule"},
+  {"id":1869326968,"lat":52.513078,"lon":9.912432,"k":"p","n":"Wettmar/Gartenstraße"},
+  {"id":1869326974,"lat":52.516819,"lon":9.914534,"k":"p","n":"Wettmar/Moodweg"},
+  {"id":1869326978,"lat":52.510538,"lon":9.917925,"k":"p","n":"Wettmar/Schule"},
+  {"id":1869326991,"lat":52.513763,"lon":9.920862,"k":"p","n":"Wettmar, Lönsweg"},
+  {"id":1869326994,"lat":52.512901,"lon":9.91255,"k":"p","n":"Wettmar/Gartenstraße"},
+  {"id":1869326997,"lat":52.513705,"lon":9.920761,"k":"p","n":"Wettmar, Lönsweg"},
+  {"id":1869327000,"lat":52.515526,"lon":9.909138,"k":"p","n":"Wettmar/Thönser Trift"},
+  {"id":1869327003,"lat":52.516869,"lon":9.914167,"k":"p","n":"Wettmar/Moodweg"},
+  {"id":1869327006,"lat":52.515461,"lon":9.90931,"k":"p","n":"Wettmar/Thönser Trift"},
+  {"id":1869327007,"lat":52.51076,"lon":9.923439,"k":"p","n":"Wettmar/Celler Weg"},
+  {"id":1869327020,"lat":52.5106,"lon":9.923434,"k":"p","n":"Wettmar/Celler Weg"},
+  {"id":1870391673,"lat":52.500742,"lon":9.943744,"k":"p","n":"Engensen/Alter Postweg"},
+  {"id":1870391680,"lat":52.508595,"lon":9.948696,"k":"p","n":"Engensen, Finkenweg"},
+  {"id":1870391687,"lat":52.508571,"lon":9.948855,"k":"p","n":"Engensen, Finkenweg"},
+  {"id":1870391688,"lat":52.500886,"lon":9.943986,"k":"p","n":"Engensen/Alter Postweg"},
+  {"id":3711620018,"lat":52.508784,"lon":9.926747,"k":"p","n":"Wettmar/Hinter den Höfen"},
+  {"id":3711620019,"lat":52.508743,"lon":9.926699,"k":"p","n":"Wettmar/Hinter den Höfen"},
+  {"id":12019697698,"lat":52.513738,"lon":9.920816,"k":"x","n":"Wettmar, Lönsweg"},
+  {"id":6068058360398,"lat":52.509226,"lon":9.926123,"k":"p","n":"Wettmar Hinter den Höfen","g":1},
+  {"id":6082183051559,"lat":52.50921,"lon":9.926069,"k":"p","n":"Wettmar Hinter den Höfen","g":1}
+],
+"routes":[
+  {"id":239132,"t":{"ref":"639","name":"639 Burgdorf - Wettmar - Großburgwedel","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus"},"n":10,"s":[[3711620018,9],[3711620019,10]]},
+  {"id":2354907,"t":{"ref":"621","name":"Engensen - Wettmar - Thönse - Kleinburgwedel - Großburgwedel/Bf.","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus"},"n":2,"s":[[3711620018,1],[3711620019,2]]},
+  {"id":3003274573499,"t":{"ref":"621","name":"621: Engensen Kapellenstraße - Großburgwedel Bahnhof","from":"Engensen Kapellenstraße","to":"Großburgwedel Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[6068058360398,2],[1869327020,3],[12019697698,4],[1869326961,5]]},
+  {"id":3006084612120,"t":{"ref":"621","name":"621: Großburgwedel Bahnhof - Engensen Kapellenstraße","from":"Großburgwedel Bahnhof","to":"Engensen Kapellenstraße","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[1869326961,8],[12019697698,9],[1869327020,10],[6082183051559,11]]},
+  {"id":3030616629405,"t":{"ref":"639","name":"639: Großburgwedel Schulzentr. - Burgdorf Bahnhof/Westseite","from":"Großburgwedel Schulzentr.","to":"Burgdorf Bahnhof/Westseite","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[1869326961,8],[1869326994,9],[1869327000,10],[1869327003,11],[12019697698,12],[1869327020,13],[6082183051559,14],[1870391688,15,19],[1870391687,16,18]]},
+  {"id":3054356360427,"t":{"ref":"621","name":"621: Engensen Kapellenstraße - Großburgwedel Bahnhof","from":"Engensen Kapellenstraße","to":"Großburgwedel Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[6068058360398,2],[1869327020,3],[12019697698,4],[1869327003,5],[1869327000,6],[1869326994,7],[1869326961,8]]},
+  {"id":3063974374564,"t":{"ref":"639","name":"639: Großburgwedel Schulzentr. - Burgdorf Bahnhof/Westseite","from":"Großburgwedel Schulzentr.","to":"Burgdorf Bahnhof/Westseite","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[1869326961,8],[1869326994,9],[1869327000,10],[1869327003,11],[12019697698,12],[1869327020,13],[6082183051559,14]]},
+  {"id":3064481752430,"t":{"ref":"N63","name":"N63: Altwarmbüchen - Schillerslage Engenser Str.","from":"Altwarmbüchen","to":"Schillerslage Engenser Str.","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[1869326961,16],[1869327000,17],[1869327003,18],[12019697698,19],[1869326994,20],[1869327020,21],[6082183051559,22]]},
+  {"id":3069932507352,"t":{"ref":"639","name":"639: Burgdorf Bahnhof/Westseite - Großburgwedel Schulzentr.","from":"Burgdorf Bahnhof/Westseite","to":"Großburgwedel Schulzentr.","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6068058360398,10],[1869327020,11],[12019697698,12],[1869327003,13],[1869327000,14],[1869326994,15],[1869326961,16]]},
+  {"id":3089730702481,"t":{"ref":"621","name":"621: Großburgwedel Bahnhof - Engensen Kapellenstraße","from":"Großburgwedel Bahnhof","to":"Engensen Kapellenstraße","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[1869326961,8],[1869326994,9],[1869327000,10],[1869327003,11],[12019697698,12],[1869327020,13],[6082183051559,14]]}
+]
+}

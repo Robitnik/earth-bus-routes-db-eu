@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2841,3844],
+"stops":[
+  {"id":665876601,"lat":52.070391,"lon":12.248911,"k":"x","n":"Hagendorf"},
+  {"id":11037735519,"lat":52.070386,"lon":12.248858,"k":"p","n":"Hagendorf"},
+  {"id":11038000458,"lat":52.072306,"lon":12.223876,"k":"p","n":"Nedlitz, ehemaliger Bahnhof"},
+  {"id":11038000459,"lat":52.072334,"lon":12.223875,"k":"x","n":"Nedlitz, ehemaliger Bahnhof"},
+  {"id":11038000460,"lat":52.074183,"lon":12.227096,"k":"p","n":"Nedlitz, Rosianer Weg"},
+  {"id":11038000462,"lat":52.074223,"lon":12.226626,"k":"p","n":"Nedlitz, Rosianer Weg"},
+  {"id":11038000464,"lat":52.074212,"lon":12.227036,"k":"x","n":"Nedlitz, Rosianer Weg"},
+  {"id":11038000465,"lat":52.074195,"lon":12.226664,"k":"x","n":"Nedlitz, Rosianer Weg"},
+  {"id":11038000466,"lat":52.075104,"lon":12.235428,"k":"p","n":"Nedlitz, Schweinitzer Straße"},
+  {"id":11038000467,"lat":52.075164,"lon":12.235374,"k":"p","n":"Nedlitz, Schweinitzer Straße"},
+  {"id":11038000468,"lat":52.075131,"lon":12.235401,"k":"x","n":"Nedlitz, Schweinitzer Straße"},
+  {"id":11038000469,"lat":52.076814,"lon":12.239843,"k":"p","n":"Nedlitz, Schule"},
+  {"id":11038000471,"lat":52.076837,"lon":12.23994,"k":"x","n":"Nedlitz, Schule"},
+  {"id":11038000472,"lat":52.074848,"lon":12.243856,"k":"p","n":"Nedlitz, Dobritzer Straße"},
+  {"id":11038000473,"lat":52.073995,"lon":12.245188,"k":"p","n":"Nedlitz, Dobritzer Straße"},
+  {"id":11038000474,"lat":52.074021,"lon":12.245218,"k":"x","n":"Nedlitz, Dobritzer Straße"},
+  {"id":5001188727988,"lat":52.07418,"lon":12.227013,"k":"p","n":"Nedlitz, Rosianer Weg"},
+  {"id":5001188727989,"lat":52.074226,"lon":12.226708,"k":"p","n":"Nedlitz, Rosianer Weg"},
+  {"id":5001188727991,"lat":52.076865,"lon":12.239864,"k":"p","n":"Nedlitz, Schule"}
+],
+"routes":[
+  {"id":16075546,"t":{"ref":"455","name":"Bus 455: Zerbst/Anhalt => Hagendorf","from":"Zerbst/Anhalt, Bahnhof","to":"Hagendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":22,"s":[[11037735519,22]]},
+  {"id":16076418,"t":{"ref":"455","name":"Bus 455: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, ehemaliger Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":22,"s":[[11038000473,17],[11037735519,18],[5001188727991,19],[11038000467,20],[5001188727989,21],[11038000458,22]]},
+  {"id":16089324,"t":{"ref":"455","name":"Bus 455: Dobritz => Nedlitz","from":"Dobritz, Schule","to":"Nedlitz, ehemaliger Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":12,"s":[[5001188727991,7],[11038000473,8],[11037735519,9],[11038000467,10],[5001188727989,11],[11038000458,12]]},
+  {"id":16090699,"t":{"ref":"455","name":"Bus 455: Nedlitz => Zerbst/Anhalt","from":"Nedlitz, ehemaliger Bahnhof","to":"Zerbst/Anhalt, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":28,"s":[[11038000458,1],[5001188727988,2],[11038000466,3],[5001188727991,4],[11037735519,5],[11038000472,6]]},
+  {"id":16092007,"t":{"ref":"455","name":"Bus 455: Grimme => Zerbst/Anhalt","from":"Grimme, Ort","to":"Zerbst/Anhalt, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001188727989,3]]},
+  {"id":16113766,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, ehemaliger Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":19,"s":[[11038000458,19]]},
+  {"id":16113813,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Hagendorf","from":"Zerbst/Anhalt, Schwimmhalle","to":"Hagendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":19,"s":[[11038000458,14],[5001188727988,15],[11038000466,16],[5001188727991,17],[11038000473,18],[11037735519,19]]},
+  {"id":16115448,"t":{"ref":"450","name":"Bus 450: Hagendorf => Zerbst/Anhalt","from":"Hagendorf","to":"Zerbst/Anhalt, Schwimmhalle","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":15,"s":[[11037735519,1],[11038000472,2],[5001188727991,3],[11038000467,4],[5001188727989,5],[11038000458,6]]},
+  {"id":16115498,"t":{"ref":"450","name":"Bus 450: Nedlitz => Zerbst/Anhalt","from":"Nedlitz, Schule","to":"Zerbst/Anhalt, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":25,"s":[[5001188727991,1],[11038000467,2],[5001188727989,3]]},
+  {"id":16115526,"t":{"ref":"450","name":"Bus 450: Nedlitz => Zerbst/Anhalt","from":"Nedlitz, Schule","to":"Zerbst/Anhalt, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001188727991,1],[11038000467,2],[5001188727989,3],[11038000458,4]]},
+  {"id":3033984658596,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":25,"s":[[5001188727991,1],[11038000467,2],[5001188727989,3]]},
+  {"id":3079915452563,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Hagendorf","from":"Zerbst/Anhalt, Bahnhof","to":"Hagendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":25,"s":[[11038000458,20],[5001188727988,21],[11038000466,22],[5001188727991,23],[11038000472,24],[665876601,25]]},
+  {"id":3084381671803,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":26,"s":[[5001188727988,24],[11038000466,25],[5001188727991,26]]}
+]
+}

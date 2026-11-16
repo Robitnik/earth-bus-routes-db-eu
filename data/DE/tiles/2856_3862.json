@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2856,3862],
+"stops":[
+  {"id":529679902,"lat":52.840223,"lon":13.146127,"k":"p","n":"Neuendorf"},
+  {"id":772483816,"lat":52.802777,"lon":13.127758,"k":"x","n":"Hohenbruch, Kirchring"},
+  {"id":849536312,"lat":52.820025,"lon":13.149316,"k":"x","n":"Löwenberg, Neuhof"},
+  {"id":11371424192,"lat":52.837185,"lon":13.143939,"k":"p","n":"Weg zum See"},
+  {"id":11371424193,"lat":52.837157,"lon":13.14406,"k":"x","n":"Weg zum See"},
+  {"id":6005801789479,"lat":52.800761,"lon":13.120541,"k":"p","n":"Hohenbruch, Hauptgraben","g":1},
+  {"id":6058751331177,"lat":52.800819,"lon":13.120488,"k":"p","n":"Hohenbruch, Hauptgraben","g":1}
+],
+"routes":[
+  {"id":19098918,"t":{"ref":"802","name":"Bus 802: Teschendorf, An der Trift => Grüneberg, Schule","from":"Teschendorf, An der Trift","to":"Grüneberg, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[11371424192,3],[529679902,4]]},
+  {"id":19098919,"t":{"ref":"802","name":"Bus 802: Grüneberg, Schule => Nassenheide, Kirche","from":"Grüneberg, Schule","to":"Nassenheide, Kirche","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[11371424192,6]]},
+  {"id":3007708393667,"t":{"ref":"802","name":"Bus 802: Löwenberg (Mark), Bahnhof => S Oranienburg Bhf","from":"Löwenberg (Mark), Bahnhof","to":"S Oranienburg Bhf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[11371424192,9],[529679902,10]]},
+  {"id":3040129879184,"t":{"ref":"801","name":"801: S Oranienburg Bhf - Beetz, Kirche","from":"S Oranienburg Bhf","to":"Beetz, Kirche","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[772483816,11],[6058751331177,12]]},
+  {"id":3083009717450,"t":{"ref":"801","name":"801: Beetz, Kirche - S Oranienburg Bhf","from":"Beetz, Kirche","to":"S Oranienburg Bhf","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[6005801789479,12],[772483816,13]]},
+  {"id":3086041879976,"t":{"ref":"802","name":"Bus 802: S Oranienburg Bhf => Löwenberg (Mark), Bahnhof","from":"S Oranienburg Bhf","to":"Löwenberg (Mark), Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[11371424192,11],[529679902,12]]}
+]
+}

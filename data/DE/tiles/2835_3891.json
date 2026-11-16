@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2835,3891],
+"stops":[
+  {"id":493972404,"lat":51.785494,"lon":14.597244,"k":"x","n":"Bohrau"},
+  {"id":493972823,"lat":51.79488,"lon":14.597502,"k":"x","n":"Briesnig, Abzweig nach Naundorf"},
+  {"id":2322970262,"lat":51.786069,"lon":14.597209,"k":"x","n":"Bohrau"},
+  {"id":2322970288,"lat":51.767481,"lon":14.599183,"k":"x","n":"Forst, Mulknitz"},
+  {"id":2322970735,"lat":51.794881,"lon":14.597593,"k":"p","n":"Abzweig nach Naundorf"},
+  {"id":7470545374,"lat":51.795331,"lon":14.598094,"k":"p","n":"Briesnig, Brücke"},
+  {"id":9629353812,"lat":51.767793,"lon":14.598151,"k":"p","n":"Mulknitz"},
+  {"id":9629353813,"lat":51.767853,"lon":14.598149,"k":"x","n":"Mulknitz"},
+  {"id":9629353814,"lat":51.767888,"lon":14.598009,"k":"p","n":"Mulknitz"},
+  {"id":9629353815,"lat":51.767857,"lon":14.598009,"k":"x","n":"Mulknitz"},
+  {"id":9629353816,"lat":51.767367,"lon":14.59934,"k":"x","n":"Forst, Mulknitz"},
+  {"id":9650124538,"lat":51.794915,"lon":14.597515,"k":"x","n":"Briesnig, Abzweig nach Naundorf"},
+  {"id":11308953995,"lat":51.794915,"lon":14.597425,"k":"p","n":"Abzweig nach Naundorf"},
+  {"id":5000223395661,"lat":51.786042,"lon":14.597248,"k":"p","n":"Bohrau"},
+  {"id":5000223395757,"lat":51.767438,"lon":14.599315,"k":"p","n":"Mulknitz"},
+  {"id":5000223397146,"lat":51.78552,"lon":14.597126,"k":"p","n":"Bohrau"},
+  {"id":5000223397215,"lat":51.767413,"lon":14.599221,"k":"p","n":"Mulknitz"}
+],
+"routes":[
+  {"id":13992737,"t":{"ref":"854","name":"Bus 854: Wiesengrund Klinge => Naundorf Gasthaus","from":"Wiesengrund, Klinge","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[9629353812,4]]},
+  {"id":13992738,"t":{"ref":"854","name":"Bus 854: Wiesengrund Klinge => Forst Busbahnhof","from":"Wiesengrund, Klinge","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[9629353812,4]]},
+  {"id":13992740,"t":{"ref":"854","name":"Bus 854: Wiesengrund Klinge => Forst Grundschule","from":"Wiesengrund, Klinge","to":"Forst, Grundschule Mitte","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[9629353812,4],[5000223395661,5]]},
+  {"id":13992743,"t":{"ref":"854","name":"Bus 854: Forst Grundschule => Wiesengrund Klinge","from":"Forst, Grundschule Mitte","to":"Wiesengrund, Klinge","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[9629353814,9]]},
+  {"id":13992744,"t":{"ref":"854","name":"Bus 854: Forst Busbahnhof => Wiesengrund Klinge","from":"Forst, Busbahnhof","to":"Wiesengrund, Klinge","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[9629353814,14]]},
+  {"id":14015897,"t":{"ref":"858","name":"Bus 858: Forst Busbahnhof => Guben Flemmingplatz","from":"Forst, Busbahnhof","to":"Guben, Flemmingplatz","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000223395757,6],[5000223395661,7],[2322970735,8]]},
+  {"id":14015899,"t":{"ref":"858","name":"Bus 858: Guben Bahnhof => Forst Busbahnhof","from":"Guben, Bahnhof","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neiße-Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000223397146,12],[5000223397215,13]]},
+  {"id":3014526116039,"t":{"ref":"858","name":"Bus 858: Guben Flemmingplatz => Forst Busbahnhof","from":"Guben, Flemmingplatz","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[493972823,13],[493972404,14],[5000223397215,15]]},
+  {"id":3019991599748,"t":{"ref":"858","name":"Bus 858: Forst Busbahnhof => Guben Flemmingplatz","from":"Forst, Busbahnhof","to":"Guben, Flemmingplatz","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":23,"s":[[2322970288,7],[2322970262,8],[9650124538,9]]},
+  {"id":3023560220463,"t":{"ref":"858","name":"Bus 858: Guben Flemmingplatz => Forst Busbahnhof","from":"Guben, Flemmingplatz","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[493972823,13],[493972404,14],[5000223397215,15]]},
+  {"id":3029750896446,"t":{"ref":"858","name":"Bus 858: Forst Busbahnhof => Guben Flemmingplatz","from":"Forst, Busbahnhof","to":"Guben, Flemmingplatz","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":23,"s":[[2322970288,7],[2322970262,8],[9650124538,9]]},
+  {"id":3035985925114,"t":{"ref":"858","name":"Bus 858: Forst Busbahnhof => Guben Flemmingplatz","from":"Forst, Busbahnhof","to":"Guben, Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neiße-Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[2322970288,7],[2322970262,8],[9650124538,9]]},
+  {"id":3046568135939,"t":{"ref":"858","name":"Bus 858: Guben Flemmingplatz => Forst Busbahnhof","from":"Guben, Flemmingplatz","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":23,"s":[[493972823,15],[493972404,16],[5000223397215,17]]},
+  {"id":3065392574184,"t":{"ref":"858","name":"Bus 858: Forst Busbahnhof => Guben Flemmingplatz","from":"Forst, Busbahnhof","to":"Guben, Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neiße-Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[2322970288,7],[2322970262,8],[9650124538,9]]},
+  {"id":3086319703527,"t":{"ref":"858","name":"Bus 858: Guben Flemmingplatz => Forst Busbahnhof","from":"Guben, Flemmingplatz","to":"Forst, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":23,"s":[[493972823,15],[493972404,16],[5000223397215,17]]}
+]
+}

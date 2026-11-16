@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2801,3814],
+"stops":[
+  {"id":1756211500,"lat":50.089574,"lon":10.71491,"k":"p","n":"Gemünd"},
+  {"id":1756211501,"lat":50.08961,"lon":10.714872,"k":"x","n":"Gemünd Staatsstr."},
+  {"id":1756211503,"lat":50.093743,"lon":10.733776,"k":"p","n":"Vorbach Abzw. Pöppelsmühle"},
+  {"id":4348824229,"lat":50.093701,"lon":10.733758,"k":"x","n":"Vorbach Abzw. Pöppelsmühle"},
+  {"id":6047643751680,"lat":50.080519,"lon":10.708502,"k":"p","n":"Welkendorf (b. Ebern)","g":1},
+  {"id":6099568173882,"lat":50.080075,"lon":10.7079,"k":"p","n":"Welkendorf (b. Ebern)","g":1}
+],
+"routes":[
+  {"id":9385982,"t":{"ref":"1172","name":"DE_VGN_1172_1_02: Gemünd => Ebern Grundschule","from":"Gemünd","to":"Ebern Grundschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[1756211500,1]]},
+  {"id":9385985,"t":{"ref":"1172","name":"DE_VGN_1172_1_01: Gemünd => Ebern Parkplatz Mittelschule","from":"Gemünd","to":"Ebern Parkplatz Mittelschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[1756211500,1]]},
+  {"id":9386019,"t":{"ref":"1172","name":"DE_VGN_1172_2_03: Ebern Parkplatz Mittelschule => Höchstädten","from":"Ebern Parkplatz Mittelschule","to":"Höchstädten","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[1756211500,2]]},
+  {"id":9386020,"t":{"ref":"1172","name":"DE_VGN_1172_2_02: Ebern Grundschule => Ebern Parkplatz Mittelschule => Höchstädten","from":"Ebern Grundschule","to":"Höchstädten","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[1756211500,3]]},
+  {"id":9386022,"t":{"ref":"1172","name":"DE_VGN_1172_2_01: Ebern Grundschule => Höchstädten","from":"Ebern Grundschule","to":"Höchstädten","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[1756211500,2]]},
+  {"id":3034444524160,"t":{"ref":"1172 Rufbus","name":"1172 Rufbus: Höchstädten - Ebern, Grund-/Realschule","from":"Höchstädten","to":"Ebern, Grund-/Realschule","operator":"Huemmer","route":"bus","public_transport:version":"2"},"n":17,"s":[[6099568173882,10],[1756211500,11]]},
+  {"id":3071846469152,"t":{"ref":"1155","name":"1155: Ebern Realschule Parkplatz - Haßfurt Krankenhaus","from":"Ebern Realschule Parkplatz","to":"Haßfurt Krankenhaus","operator":"Wagenhäuser","route":"bus","public_transport:version":"2"},"n":15,"s":[[1756211503,5],[1756211500,6]]},
+  {"id":3086898865789,"t":{"ref":"1172 Rufbus","name":"1172 Rufbus: Ebern, Grund-/Realschule - Höchstädten","from":"Ebern, Grund-/Realschule","to":"Höchstädten","operator":"Huemmer","route":"bus","public_transport:version":"2"},"n":18,"s":[[1756211501,7],[6047643751680,8]]},
+  {"id":3094039532111,"t":{"ref":"1155","name":"1155: Haßfurt - Ebern Realschule Parkplatz","from":"Haßfurt","to":"Ebern Realschule Parkplatz","operator":"Wagenhäuser","route":"bus","public_transport:version":"2"},"n":14,"s":[[1756211501,9],[4348824229,10]]}
+]
+}

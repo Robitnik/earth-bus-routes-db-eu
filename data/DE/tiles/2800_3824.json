@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2800,3824],
+"stops":[
+  {"id":34086989,"lat":50.048193,"lon":11.230173,"k":"x"},
+  {"id":349080568,"lat":50.019162,"lon":11.201899,"k":"x","n":"Kleinziegenfeld Zöllner"},
+  {"id":1317479388,"lat":50.019158,"lon":11.201943,"k":"p","n":"Kleinziegenfeld Zöllner"},
+  {"id":1317492526,"lat":50.042066,"lon":11.204137,"k":"p","n":"Arnstein"},
+  {"id":3328835202,"lat":50.042,"lon":11.217095,"k":"p","n":"Weihersmühle"},
+  {"id":3328835204,"lat":50.042031,"lon":11.217106,"k":"x","n":"Weihersmühle"},
+  {"id":3328835213,"lat":50.048193,"lon":11.230112,"k":"p","n":"Abzweig Weiden (bei Weismain)"},
+  {"id":3328835214,"lat":50.048355,"lon":11.230149,"k":"x"},
+  {"id":3328835215,"lat":50.048359,"lon":11.230196,"k":"p","n":"Abzweig Weiden (bei Weismain)"},
+  {"id":4640256904,"lat":50.029505,"lon":11.232435,"k":"x","n":"Weiden (b. Weismain)"},
+  {"id":4640256905,"lat":50.02953,"lon":11.232274,"k":"p","n":"Weiden"},
+  {"id":4640270963,"lat":50.017578,"lon":11.244107,"k":"p","n":"Fesselsdorf"},
+  {"id":4640270964,"lat":50.017578,"lon":11.244185,"k":"x","n":"Fesselsdorf"},
+  {"id":4897462084,"lat":50.006687,"lon":11.238965,"k":"x","n":"Buckendorf"},
+  {"id":5598658208,"lat":50.006681,"lon":11.239234,"k":"p","n":"Buckendorf"},
+  {"id":9993007093,"lat":50.042087,"lon":11.204158,"k":"x","n":"Arnstein"},
+  {"id":10026268249,"lat":50.044073,"lon":11.217714,"k":"x","n":"Wallersberg"},
+  {"id":10026268250,"lat":50.044045,"lon":11.217757,"k":"p","n":"Wallersberg"},
+  {"id":6014293327683,"lat":50.021222,"lon":11.201039,"k":"p","n":"Kleinziegenfeld Grund","g":1}
+],
+"routes":[
+  {"id":4465127,"t":{"ref":"1234","name":"DE_VGN_1234_1_01: Buckendorf => Burgkunstadt Bahnhof","from":"Buckendorf","to":"Burgkunstadt Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Deuber Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[5598658208,1],[1317479388,2],[1317492526,3],[3328835202,4]]},
+  {"id":4465128,"t":{"ref":"1234","name":"DE_VGN_1234_1_02: Kleinziegenfeld => Röhrig (Altenkunstadt) Mittelschule","from":"Kleinziegenfeld","to":"Röhrig (Altenkunstadt) Mittelschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Deuber Reisen","route":"bus","public_transport:version":"2"},"n":7,"s":[[1317479388,1],[1317492526,2],[3328835202,3]]},
+  {"id":4465157,"t":{"ref":"1234","name":"DE_VGN_1234_2_01: Burgkunstadt Bahnhof => Buckendorf","from":"Burgkunstadt Bahnhof","to":"Buckendorf","network":"Verkehrsverbund Großraum Nürnberg","operator":"Deuber Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[3328835202,8],[1317492526,9],[1317479388,10],[5598658208,11]]},
+  {"id":4465158,"t":{"ref":"1234","name":"DE_VGN_1234_2_03: Burgkunstadt Schulzentrum => Weismain Schule => Buckendorf","from":"Burgkunstadt Schulzentrum","to":"Buckendorf","network":"Verkehrsverbund Großraum Nürnberg","operator":"Deuber Reisen","route":"bus","public_transport:version":"2"},"n":12,"s":[[3328835202,9],[1317492526,10],[1317479388,11],[5598658208,12]]},
+  {"id":4465159,"t":{"ref":"1234","name":"DE_VGN_1234_2_04: Burgkunstadt Schulzentrum => Buckendorf","from":"Burgkunstadt Schulzentrum","to":"Buckendorf","network":"Verkehrsverbund Großraum Nürnberg","operator":"Deuber Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[3328835202,8],[1317492526,9],[1317479388,10],[5598658208,11]]},
+  {"id":7013399,"t":{"ref":"1214","name":"DE_VGN_1214_1_01: Arnstein => Lichtenfels Hallenbad/Hauptschule","from":"Arnstein","to":"Lichtenfels Hallenbad/Hauptschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Kaiser Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[1317492526,1]]},
+  {"id":7026457,"t":{"ref":"1214","name":"DE_VGN_1214_2_04: Lichtenfels Bahnhof => Roth => Arnstein","from":"Lichtenfels Bahnhof","to":"Arnstein","network":"Verkehrsverbund Großraum Nürnberg","operator":"Kaiser Reisen","route":"bus","public_transport:version":"2"},"n":19,"s":[[1317492526,19]]},
+  {"id":7026459,"t":{"ref":"1214","name":"DE_VGN_1214_2_03: Lichtenfels Bahnhof => Arnstein","from":"Lichtenfels Bahnhof","to":"Arnstein","network":"Verkehrsverbund Großraum Nürnberg","operator":"Kaiser Reisen","route":"bus","public_transport:version":"2"},"n":19,"s":[[1317492526,19]]},
+  {"id":7026461,"t":{"ref":"1214","name":"DE_VGN_1214_2_05: Mönchkröttendorf => Arnstein","from":"Mönchkröttendorf","to":"Arnstein","network":"Verkehrsverbund Großraum Nürnberg","operator":"Kaiser Reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[1317492526,9]]},
+  {"id":9231843,"t":{"ref":"1231","name":"DE_VGN_1231_1_01: Weiden => Burgkunstadt Bahnhof","from":"Weiden","to":"Burgkunstadt Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Deuber Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[4640256905,1],[4640270963,2]]},
+  {"id":9240827,"t":{"ref":"963","name":"DE_VGN_963_1_17: Bamberg Deutsches Haus => Weismain Kirchplatz","from":"Bamberg Deutsches Haus","to":"Weismain Kirchplatz","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[3328835202,20],[3328835215,21]]},
+  {"id":10567127,"t":{"ref":"963","name":"DE_VGN_963_2_03: Weismain Kirchplatz => Bamberg Bahnhof/Vorplatz","from":"Weismain Kirchplatz","to":"Bamberg Bahnhof/Vorplatz","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[3328835213,5],[3328835202,6]]},
+  {"id":3025406909038,"t":{"ref":"1231","name":"1231: Burgkunstadt - Burgkunstadt","from":"Burgkunstadt","to":"Burgkunstadt","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":21,"s":[[4640256904,12],[4640270964,13]]},
+  {"id":3052369226734,"t":{"ref":"1234","name":"1234: Burgkunstadt - Burgkunstadt","from":"Burgkunstadt","to":"Burgkunstadt","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":22,"s":[[1317479388,8],[6014293327683,9],[1317492526,12],[3328835202,13]]}
+]
+}

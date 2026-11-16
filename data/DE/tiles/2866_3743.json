@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2866,3743],
+"stops":[
+  {"id":904612615,"lat":53.349606,"lon":7.166755,"k":"x","n":"VW-Werk"},
+  {"id":4900632839,"lat":53.343298,"lon":7.185613,"k":"x","n":"Außenhafen Borkumanleger","ref":"2"},
+  {"id":4901662315,"lat":53.345405,"lon":7.188356,"k":"x","n":"Nesserlander Schleuse"},
+  {"id":6020902078,"lat":53.349784,"lon":7.164676,"k":"x"},
+  {"id":6033150884,"lat":53.344622,"lon":7.187058,"k":"x","n":"Außenhafen Borkumanleger","ref":"1"},
+  {"id":6036641935,"lat":53.34512,"lon":7.187452,"k":"x","n":"Nesserlander Schleuse"},
+  {"id":6855350464,"lat":53.338113,"lon":7.187509,"k":"p","n":"Seeschleuse"},
+  {"id":6855350465,"lat":53.338121,"lon":7.187466,"k":"x","n":"Seeschleuse"},
+  {"id":12184614119,"lat":53.349632,"lon":7.166642,"k":"p","n":"VW-Werk"},
+  {"id":12636393485,"lat":53.343618,"lon":7.191501,"k":"p","n":"Schifferweg"},
+  {"id":12636393486,"lat":53.343592,"lon":7.191632,"k":"p","n":"Schifferweg"},
+  {"id":12636393487,"lat":53.343603,"lon":7.19157,"k":"x","n":"Schifferweg"},
+  {"id":12636393492,"lat":53.348675,"lon":7.18824,"k":"p","n":"Nesserlander Straße"},
+  {"id":12636393493,"lat":53.348758,"lon":7.188113,"k":"p","n":"Nesserlander Straße"},
+  {"id":12636393494,"lat":53.348715,"lon":7.188169,"k":"x","n":"Nesserlander Straße"},
+  {"id":12636393495,"lat":53.345477,"lon":7.188406,"k":"p","n":"Nesserlander Schleuse"},
+  {"id":5000638801879,"lat":53.343047,"lon":7.185469,"k":"p","n":"Außenhafen Borkumanleger","ref":"2"},
+  {"id":6005055824474,"lat":53.344284,"lon":7.186715,"k":"p","n":"Emden Außenhafen Borkumanleger","g":1}
+],
+"routes":[
+  {"id":1833876,"t":{"ref":"3B","name":"Bus 3B: Emden, Außenhafen Borkumanlege => Emden, Danziger Straße","from":"Emden, Außenhafen Borkumanlege","to":"Emden, Danziger Straße","network":"Verkehrsverbund Ems-Jade","operator":"Stadtverkehr Emden GmbH","colour":"#0068b4","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000638801879,1],[12636393492,2]]},
+  {"id":1843345,"t":{"ref":"3B","name":"Bus 3B: Emden, Jugendherberge => Emden, Außenhafen Borkumanlege","from":"Emden, Jugendherberge","to":"Emden, Außenhafen Borkumanlege","network":"Verkehrsverbund Ems-Jade","operator":"Stadtverkehr Emden GmbH","colour":"#0068b4","route":"bus","public_transport:version":"2"},"n":26,"s":[[12636393493,25],[5000638801879,26]]},
+  {"id":8890790,"t":{"ref":"3A","name":"Bus 3A: Emden, Pastor-Frerichs-Straße => Emden, Außenhafen Borkumanlege","from":"Emden, Pastor-Frerichs-Straße","to":"Emden, Außenhafen Borkumanlege","network":"Verkehrsverbund Ems-Jade","operator":"Stadtverkehr Emden GmbH","colour":"#0068b4","route":"bus","public_transport:version":"2"},"n":19,"s":[[12636393493,18],[5000638801879,19]]},
+  {"id":8895181,"t":{"ref":"3A","name":"Bus 3A: Emden, Außenhafen Borkumanleger => Emden, Pastor-Frerichs-Straße","from":"Emden, Außenhafen Borkumanleger","to":"Emden, Pastor-Frerichs-Straße","network":"Verkehrsverbund Ems-Jade","operator":"Stadtverkehr Emden GmbH","colour":"#0068b4","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000638801879,1],[12636393492,2]]},
+  {"id":9712407,"t":{"ref":"396","name":"Bus 396: Emden, Außenhafen Borkumanleger => Emden, Hbf/ZOB","from":"Emden, Außenhafen Borkumanleger","to":"Emden, Hbf/ZOB","network":"Verkehrsverbund Ems-Jade","operator":"Weser-Ems Busverkehr GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000638801879,1]]},
+  {"id":9712408,"t":{"ref":"396","name":"Bus 396: Emden, Hbf/ZOB => Emden, Außenhafen Borkumanleger","from":"Emden, Hbf/ZOB","to":"Emden, Außenhafen Borkumanleger","network":"Verkehrsverbund Ems-Jade","operator":"Weser-Ems Busverkehr GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000638801879,2]]},
+  {"id":3050619314868,"t":{"ref":"396","name":"396: Emden Hbf/ZOB - Emden Außenhafen Borkumanleger","from":"Emden Hbf/ZOB","to":"Emden Außenhafen Borkumanleger","operator":"Weser-Ems-Bus Betrieb Ostfriesland","route":"bus","public_transport:version":"2"},"n":2,"s":[[6005055824474,2]]},
+  {"id":3052314199888,"t":{"ref":"3","name":"Bus 3: Emden, Seeschleuse => Emden, Hbf/ZOB","from":"Emden, Seeschleuse","to":"Emden, Hbf/ZOB","network":"Verkehrsverbund Ems-Jade","operator":"Stadtverkehr Emden GmbH","colour":"#0068b4","route":"bus","public_transport:version":"2"},"n":23,"s":[[12636393494,11],[6005055824474,12],[12636393493,13]]}
+]
+}

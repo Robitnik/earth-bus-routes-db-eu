@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2871,3734],
+"stops":[
+  {"id":270409853,"lat":53.598853,"lon":6.701404,"k":"p","n":"Flugplatz"},
+  {"id":270411912,"lat":53.57785,"lon":6.711157,"k":"p","n":"Neuer Deich"},
+  {"id":270412000,"lat":53.56024,"lon":6.744159,"k":"p","n":"Yachthafen"},
+  {"id":608514320,"lat":53.564337,"lon":6.74861,"k":"p","n":"Juister Strate/Offshore"},
+  {"id":844169947,"lat":53.56217,"lon":6.746969,"k":"p","n":"Nationalpark-Feuerschiff"},
+  {"id":2461620129,"lat":53.598876,"lon":6.701189,"k":"p","n":"Flugplatz"},
+  {"id":2462189572,"lat":53.568781,"lon":6.742779,"k":"p","n":"Wattenmeer"},
+  {"id":2462189573,"lat":53.568821,"lon":6.742451,"k":"p","n":"Wattenmeer"},
+  {"id":2463188995,"lat":53.565933,"lon":6.749719,"k":"p","n":"Jugendherberge"},
+  {"id":4300238485,"lat":53.57769,"lon":6.711229,"k":"p","n":"Neuer Deich"}
+],
+"routes":[
+  {"id":3208765,"t":{"ref":"650","name":"Bus 650: Busbahnhof => Ostland","network":"Borkumer Kleinbahn und Dampfschiffahrt GmbH","operator":"Borkumer Kleinbahn und Dampfschiffahrt GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[270409853,8]]},
+  {"id":3213335,"t":{"ref":"650","name":"Bus 650: Busbahnhof => DJH => Busbahnhof","network":"Borkumer Kleinbahn und Dampfschiffahrt GmbH","operator":"Borkumer Kleinbahn und Dampfschiffahrt GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[4300238485,8],[2462189573,9],[270412000,10],[844169947,11],[608514320,12],[2463188995,14],[2462189572,15],[270411912,16]]},
+  {"id":7688392,"t":{"ref":"650","name":"Bus 650: Ostland => Busbahnhof","from":"Ostland, Borkum","to":"Busbahnhof, Borkum","network":"Borkumer Kleinbahn und Dampfschiffahrt GmbH","operator":"Borkumer Kleinbahn und Dampfschiffahrt GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2461620129,3]]},
+  {"id":3000272458603,"t":{"ref":"1","name":"1: Borkum Busbahnhof - Borkum Ostland","from":"Borkum Busbahnhof","to":"Borkum Ostland","operator":"Borkumer Kleinbahn1","route":"bus","public_transport:version":"2"},"n":10,"s":[[270409853,8]]},
+  {"id":3030792319698,"t":{"ref":"1","name":"1: Borkum Deutsche Jugendherberge - Borkum Busbahnhof","from":"Borkum Deutsche Jugendherberge","to":"Borkum Busbahnhof","operator":"Borkumer Kleinbahn1","route":"bus","public_transport:version":"2"},"n":10,"s":[[2463188995,1],[2462189572,2],[270411912,3]]},
+  {"id":3077436826148,"t":{"ref":"1","name":"1: Borkum Ostland - Borkum Deutsche Jugendherberge","from":"Borkum Ostland","to":"Borkum Deutsche Jugendherberge","operator":"Borkumer Kleinbahn1","route":"bus","public_transport:version":"2"},"n":23,"s":[[2461620129,3],[4300238485,17],[2462189573,18],[270412000,19],[844169947,20],[608514320,21],[2463188995,23]]}
+]
+}

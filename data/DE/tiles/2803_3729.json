@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2803,3729],
+"stops":[
+  {"id":395406531,"lat":50.158251,"lon":6.481621,"k":"p","n":"Bellert"},
+  {"id":1172405248,"lat":50.16329,"lon":6.460805,"k":"p","n":"Schönecken, Lindenstraße"},
+  {"id":5428832640,"lat":50.163312,"lon":6.460752,"k":"x","n":"Schönecken, Lindenstraße"},
+  {"id":5428832641,"lat":50.156371,"lon":6.465977,"k":"x","n":"Schönecken, Busbahnhof"},
+  {"id":5428832642,"lat":50.156363,"lon":6.46585,"k":"x","n":"Schönecken, Busbahnhof"},
+  {"id":5440348401,"lat":50.155719,"lon":6.46857,"k":"p","n":"Schönecken, Schulzentrum"},
+  {"id":5440348405,"lat":50.1558,"lon":6.468301,"k":"p","n":"Schönecken, Schulzentrum"},
+  {"id":5440348408,"lat":50.155698,"lon":6.468327,"k":"x","n":"Schönecken, Schulzentrum"},
+  {"id":5440348413,"lat":50.155713,"lon":6.468464,"k":"p","n":"Schönecken, Schulzentrum"},
+  {"id":5440348416,"lat":50.155691,"lon":6.468229,"k":"x","n":"Schönecken, Schulzentrum"},
+  {"id":5440348723,"lat":50.155714,"lon":6.468367,"k":"p","n":"Schönecken, Schulzentrum"},
+  {"id":5440348726,"lat":50.155706,"lon":6.468523,"k":"x","n":"Schönecken, Schulzentrum"},
+  {"id":5440348730,"lat":50.155767,"lon":6.468305,"k":"x","n":"Schönecken, Schulzentrum"},
+  {"id":5440348735,"lat":50.155708,"lon":6.46826,"k":"p","n":"Schönecken, Schulzentrum"},
+  {"id":5440348737,"lat":50.155697,"lon":6.468427,"k":"x","n":"Schönecken, Schulzentrum"},
+  {"id":6861753006,"lat":50.163317,"lon":6.46067,"k":"p","n":"Schönecken, Lindenstraße"},
+  {"id":8579173052,"lat":50.194475,"lon":6.451169,"k":"p","n":"Rommersheim (Prüm), Gemeindehaus"},
+  {"id":8579173053,"lat":50.194516,"lon":6.451169,"k":"x","n":"Rommersheim (Prüm), Gemeindehaus"},
+  {"id":8628261142,"lat":50.157099,"lon":6.467901,"k":"p","n":"Schönecken, Kiga"},
+  {"id":8628261143,"lat":50.157091,"lon":6.467908,"k":"x","n":"Schönecken, Kiga"},
+  {"id":8628498866,"lat":50.156433,"lon":6.465994,"k":"p","n":"Schönecken, Busbahnhof"},
+  {"id":8628498867,"lat":50.156431,"lon":6.465916,"k":"p","n":"Schönecken, Busbahnhof"},
+  {"id":10287578726,"lat":50.153225,"lon":6.484546,"k":"p","n":"Schönecken, Hauenborn"}
+],
+"routes":[
+  {"id":389435,"t":{"ref":"440","name":"Bus 440: Bitburg, ZOB => Prüm, Gerberweg","from":"Bitburg, ZOB","to":"Prüm, Gerberweg","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":19,"s":[[8628498867,14],[1172405248,15]]},
+  {"id":12580831,"t":{"ref":"441","name":"Bus 441: Nimshuscheid, Mühle => Prüm, Gerberweg","from":"Nimshuscheid, Mühle","to":"Prüm, Gerberweg","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#41739E","route":"bus","public_transport:version":"2"},"n":21,"s":[[10287578726,15],[8628498867,16],[1172405248,17]]},
+  {"id":3004455455457,"t":{"ref":"497 RufBus","name":"497 RufBus: Schönecken, Busbahnhof - Ellwerath, Ort","from":"Schönecken, Busbahnhof","to":"Ellwerath, Ort","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":9,"s":[[5428832642,1]]},
+  {"id":3012026333235,"t":{"ref":"440","name":"Bus 440: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":19,"s":[[5428832642,14],[6861753006,15]]},
+  {"id":3024926156080,"t":{"ref":"441 RufBus","name":"441 RufBus: Nimshuscheid, Mühle - Prüm, Gerberweg","from":"Nimshuscheid, Mühle","to":"Prüm, Gerberweg","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":24,"s":[[10287578726,18],[5428832642,19],[6861753006,20]]},
+  {"id":3026746419068,"t":{"ref":"441 RufBus","name":"441 RufBus: Prüm, Gerberweg - Nimshuscheid, Mühle","from":"Prüm, Gerberweg","to":"Nimshuscheid, Mühle","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":25,"s":[[6861753006,5],[5428832642,6],[10287578726,7]]},
+  {"id":3063533845053,"t":{"ref":"440","name":"Bus 440: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":20,"s":[[6861753006,5],[5428832642,6]]},
+  {"id":3076136021181,"t":{"ref":"497 RufBus","name":"497 RufBus: Ellwerath, Ort - Schönecken, Busbahnhof","from":"Ellwerath, Ort","to":"Schönecken, Busbahnhof","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":9,"s":[[5428832642,9]]},
+  {"id":3093706226046,"t":{"ref":"441","name":"Bus 441: Prüm, Gerberweg => Nimshuscheid, Mühle","from":"Prüm, Gerberweg","to":"Nimshuscheid, Mühle","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#41739E","route":"bus","public_transport:version":"2"},"n":24,"s":[[10287578726,18],[5428832642,19],[6861753006,20]]},
+  {"id":3096658303461,"t":{"ref":"441","name":"Bus 441: Prüm, Gerberweg => Nimshuscheid, Mühle","from":"Prüm, Gerberweg","to":"Nimshuscheid, Mühle","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#41739E","route":"bus","public_transport:version":"2"},"n":25,"s":[[6861753006,5],[5428832642,6],[10287578726,7]]}
+]
+}

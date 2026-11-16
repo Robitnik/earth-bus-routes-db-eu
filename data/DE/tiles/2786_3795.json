@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2786,3795],
+"stops":[
+  {"id":692637348,"lat":49.302172,"lon":9.764515,"k":"p","n":"Büttelbronn"},
+  {"id":692637524,"lat":49.302228,"lon":9.764759,"k":"p","n":"Büttelbronn"},
+  {"id":775084852,"lat":49.332784,"lon":9.767469,"k":"p","n":"Hohenrot","ref":"RB 21"},
+  {"id":775084919,"lat":49.332843,"lon":9.767426,"k":"p","n":"Hohenrot","ref":"RB 21;RB 22;TB 73"},
+  {"id":775274757,"lat":49.346606,"lon":9.765256,"k":"p","n":"Heßlachshof","ref":"TB 75"},
+  {"id":4587946779,"lat":49.334517,"lon":9.768476,"k":"p","n":"Hohenrot Mitte"},
+  {"id":6080786099,"lat":49.349782,"lon":9.792634,"k":"p","n":"EBM neu"},
+  {"id":6080786100,"lat":49.348636,"lon":9.791047,"k":"p","n":"EBM alt"},
+  {"id":6080786101,"lat":49.315831,"lon":9.768122,"k":"p","n":"Railhöfe"},
+  {"id":6080786103,"lat":49.329583,"lon":9.773781,"k":"p","n":"Hohenrot Abzweig"},
+  {"id":6080786108,"lat":49.327942,"lon":9.783612,"k":"p","n":"Hasenklinge"},
+  {"id":6080786109,"lat":49.33457,"lon":9.79415,"k":"p","n":"Jagstberg"},
+  {"id":6080786114,"lat":49.337416,"lon":9.790528,"k":"p","n":"Jagstberg Kindergarten"},
+  {"id":6080786115,"lat":49.334769,"lon":9.794074,"k":"p","n":"Jagstberg"},
+  {"id":6080786137,"lat":49.340309,"lon":9.798952,"k":"p","n":"Mulfingen Post"},
+  {"id":6718139390,"lat":49.340376,"lon":9.798867,"k":"x","n":"Mulfingen Post"},
+  {"id":6718139391,"lat":49.340323,"lon":9.799059,"k":"x","n":"Mulfingen Post"},
+  {"id":8995649636,"lat":49.328073,"lon":9.783585,"k":"p","n":"Hasenklinge"},
+  {"id":14039826681,"lat":49.348397,"lon":9.791187,"k":"p","n":"Mulfingen, Landesstraße"},
+  {"id":5000714714451,"lat":49.340291,"lon":9.798882,"k":"p","n":"Post"},
+  {"id":6025337885058,"lat":49.334109,"lon":9.793586,"k":"p","n":"Jagstberg","g":1}
+],
+"routes":[
+  {"id":9932785,"t":{"ref":"104","name":"Bus 104: Schrozberg => Mulfingen","from":"Schrozberg ZOB","to":"Mulfingen Post","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000714714451,12]]},
+  {"id":9933200,"t":{"ref":"104","name":"Bus 104: Mulfingen => Schrozberg","from":"Mulfingen Post","to":"Schrozberg ZOB","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000714714451,1]]},
+  {"id":9943385,"t":{"ref":"91","name":"Bus 91: Blaufelden => Mulfingen","from":"Blaufelden Schule ZOB Steig 3","to":"Mulfingen Post","network":"Kreisverkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000714714451,20]]},
+  {"id":9951806,"t":{"ref":"91","name":"Bus 91: Mulfingen => Blaufelden","from":"Mulfingen EBM Werk 3","to":"Blaufelden Bahnhof","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000714714451,3]]},
+  {"id":13071652,"t":{"ref":"21","name":"Bus 21: Künzelsau => Mulfingen","from":"Künzelsau Bf.","to":"Mulfingen Post","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":16,"s":[[4587946779,14],[6080786108,15],[6080786109,16]]},
+  {"id":3000099363601,"t":{"ref":"10","name":"Bus 10: Dörzbach <=> Mulfingen","from":"Dörzbach, Bahnhof","to":"Mulfingen, Post","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":8,"s":[[14039826681,6],[6718139390,7]]},
+  {"id":3007872603552,"t":{"ref":"22","name":"22: Mulfingen Post - Mulfingen Post","from":"Mulfingen Post","to":"Mulfingen Post","operator":"Bus (Region)","route":"bus","public_transport:version":"2"},"n":13,"s":[[6718139391,1],[14039826681,2,12],[6080786099,11],[6718139390,13]]},
+  {"id":3012004786550,"t":{"ref":"10","name":"Bus 10: Dörzbach <=> Mulfingen","from":"Dörzbach, Bahnhof","to":"Mulfingen, Post","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":7,"s":[[14039826681,6],[6718139390,7]]},
+  {"id":3016339876889,"t":{"ref":"21","name":"Bus 21: Mulfingen => Künzelsau","from":"Mulfingen Post","to":"Künzelsau Bf.","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":18,"s":[[6718139391,1],[6025337885058,2],[8995649636,3],[775084919,4]]},
+  {"id":3040117197939,"t":{"ref":"10","name":"Bus 10: Dörzbach <=> Mulfingen","from":"Dörzbach, Bahnhof","to":"Mulfingen, Post","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":8,"s":[[14039826681,7],[6718139390,8]]},
+  {"id":3044825436638,"t":{"ref":"10","name":"Bus 10: Dörzbach <=> Mulfingen","from":"Dörzbach, Bahnhof","to":"Mulfingen, Post","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":8,"s":[[6718139391,1],[14039826681,2]]},
+  {"id":3055267941966,"t":{"ref":"10","name":"Bus 10: Dörzbach <=> Mulfingen","from":"Dörzbach, Bahnhof","to":"Mulfingen, Post","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":9,"s":[[6718139391,1],[14039826681,2]]},
+  {"id":3066218426640,"t":{"ref":"21","name":"Bus 21: Mulfingen => Künzelsau","from":"Mulfingen Post","to":"Künzelsau Bf.","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":18,"s":[[6718139391,1],[6025337885058,2],[8995649636,3],[775084919,4]]}
+]
+}

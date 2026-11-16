@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2889,3784],
+"stops":[
+  {"id":2399102070,"lat":54.459301,"lon":9.241825,"k":"p","n":"Ostenfeld Schule"},
+  {"id":2562900988,"lat":54.46377,"lon":9.226048,"k":"p","n":"Ostenfeld West"},
+  {"id":2562900992,"lat":54.463611,"lon":9.22645,"k":"p","n":"Ostenfeld West"},
+  {"id":2562914977,"lat":54.462447,"lon":9.232497,"k":"p","n":"Ostenfeld Kirche"},
+  {"id":2562914980,"lat":54.462498,"lon":9.231906,"k":"p","n":"Ostenfeld Kirche"},
+  {"id":6256616853,"lat":54.470767,"lon":9.213523,"k":"p","n":"Wittbek, Gillhau"},
+  {"id":6256616854,"lat":54.470731,"lon":9.213454,"k":"x","n":"Wittbek, Gillhau"},
+  {"id":6256616855,"lat":54.47071,"lon":9.213399,"k":"p","n":"Wittbek, Gillhau"},
+  {"id":6256616856,"lat":54.473295,"lon":9.205341,"k":"x","n":"Wittbek, Hauptstraße"},
+  {"id":6256616857,"lat":54.473195,"lon":9.205492,"k":"p","n":"Wittbek, Hauptstraße"},
+  {"id":6256616858,"lat":54.473404,"lon":9.204106,"k":"x","n":"Wittbek, Hauptstraße"},
+  {"id":6256616859,"lat":54.473489,"lon":9.204133,"k":"p","n":"Wittbek, Hauptstraße"},
+  {"id":7728302193,"lat":54.460777,"lon":9.240135,"k":"x","n":"Ostenfeld Ost"},
+  {"id":8553986468,"lat":54.460894,"lon":9.239947,"k":"p","n":"Ostenfeld Ost"},
+  {"id":9559223776,"lat":54.459298,"lon":9.242064,"k":"x","n":"Ostenfeld Schule"},
+  {"id":9592973392,"lat":54.463313,"lon":9.23152,"k":"x","n":"Ostenfeld Kindergarten"}
+],
+"routes":[
+  {"id":11321414,"t":{"ref":"145","name":"Bus 145: Ostenfeld Ost => Husum Bahnhof","from":"Ostenfeld Ost","to":"Husum Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":22,"s":[[2562914977,1],[2562900988,2],[6256616853,3],[6256616859,4]]},
+  {"id":11326985,"t":{"ref":"146","name":"Bus 146: Ostenfeld Schule => Hollingstedt Wendeplatz","from":"Ostenfeld Schule","to":"Hollingstedt Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","route":"bus","public_transport:version":"2"},"n":7,"s":[[2399102070,1],[8553986468,2],[2562914977,3]]},
+  {"id":11326987,"t":{"ref":"145","name":"Bus 145: Husum ZOB => Hollingstedt","from":"Husum ZOB","to":"Hollingstedt, Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":26,"s":[[6256616857,19],[6256616855,20],[2562900992,21],[2562914980,22]]},
+  {"id":11326989,"t":{"ref":"146","name":"Bus 146: Ostenfeld Schule => Husum Ferdinand-Tönnies-Schule => Husum ZOB","from":"Ostenfeld Schule","to":"Husum ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","route":"bus","public_transport:version":"2"},"n":14,"s":[[2399102070,1],[2562914977,2],[2562900988,3],[6256616853,4],[6256616859,5]]},
+  {"id":11358932,"t":{"ref":"161","name":"Bus 161: Mildstedt-Rosendahl Hauptstraße => Mildstedt Turnhalle","from":"Mildstedt-Rosendahl Hauptstraße","to":"Mildstedt Turnhalle","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"grey","route":"bus","public_transport:version":"2"},"n":17,"s":[[6256616857,6],[6256616855,7],[2562900992,8],[2562914980,9],[2399102070,10],[2562900988,11]]},
+  {"id":18072645,"t":{"ref":"161","name":"Bus 161: Husum => Oldersbek => Mildstedt-Rosendahl => Mildstedt","from":"Husum ZOB","to":"Mildstedt Turnhalle","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"grey","route":"bus","public_transport:version":"2"},"n":25,"s":[[2562900992,12],[2562914980,13],[2399102070,14],[2562900988,15],[6256616853,16],[6256616859,17]]},
+  {"id":3015523860973,"t":{"ref":"145","name":"Bus 145: Husum Bahnhof => Hollingstedt","from":"Husum Bahnhof","to":"Hollingstedt, Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":30,"s":[[6256616856,20],[6256616854,21],[2562900988,22],[2562914980,23],[7728302193,24]]},
+  {"id":3048913555480,"t":{"ref":"145","name":"Bus 145: Hollingstedt => Husum Bahnhof","from":"Hollingstedt, Wendeplatz","to":"Husum Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":30,"s":[[8553986468,6],[2562914980,7],[2562900988,8],[6256616854,9],[6256616858,10]]},
+  {"id":3080828656624,"t":{"ref":"145","name":"Bus 145: Husum Bahnhof => Ostenfeld Ost","from":"Husum Bahnhof","to":"Ostenfeld Ost","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":26,"s":[[2399102070,1],[8553986468,2],[2562914980,3],[2562900988,4],[6256616854,5],[6256616858,6]]},
+  {"id":3093304877552,"t":{"ref":"145","name":"Bus 145: Husum Bahnhof => Ostenfeld Ost","from":"Husum Bahnhof","to":"Ostenfeld Ost","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":25,"s":[[6256616856,20],[6256616854,21],[2562900988,22],[2562914980,23],[7728302193,24],[2399102070,25]]}
+]
+}

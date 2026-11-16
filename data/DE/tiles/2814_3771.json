@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2814,3771],
+"stops":[
+  {"id":267729115,"lat":50.723058,"lon":8.559071,"k":"x","n":"Rodenhausen Bürgerhaus"},
+  {"id":477697099,"lat":50.718228,"lon":8.578072,"k":"x","n":"Seelbach Rodenhäuser Straße"},
+  {"id":3262341374,"lat":50.723089,"lon":8.559094,"k":"p","n":"Rodenhausen Bürgerhaus"},
+  {"id":3262341377,"lat":50.71822,"lon":8.577999,"k":"p","n":"Seelbach Rodenhäuser Straße"},
+  {"id":3262341378,"lat":50.718347,"lon":8.578148,"k":"p","n":"Lohra-Seelbach Rodenhäuser Straße"},
+  {"id":5859433047,"lat":50.72296,"lon":8.558921,"k":"p","n":"Rodenhausen Bürgerhaus"},
+  {"id":10221457616,"lat":50.718365,"lon":8.57808,"k":"x","n":"Seelbach Rodenhäuser Straße"}
+],
+"routes":[
+  {"id":13348074,"t":{"ref":"MR-34","name":"Bus MR-34: Rodenhausen => Lohra","from":"Rodenhausen Bürgerhaus","to":"Lohra Neue Mitte","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":3,"s":[[5859433047,1],[3262341378,2]]},
+  {"id":13348075,"t":{"ref":"MR-34","name":"Bus MR-34: Lohra => Rodenhausen","from":"Lohra Neue Mitte","to":"Rodenhausen Bürgerhaus","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":3,"s":[[3262341377,2],[3262341374,3]]},
+  {"id":14941268,"t":{"ref":"MR-34","name":"Bus MR-34: Weipoltshausen => Niederwalgern","from":"Weipoltshausen Ortsmitte","to":"Wenkbach Indstriegebiet","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":21,"s":[[3262341377,9],[5859433047,10],[3262341378,11]]},
+  {"id":14941269,"t":{"ref":"MR-34","name":"Bus MR-34: Niederwalgern => Weipoltshausen","from":"Niederwalgern Bahnhof","to":"Weipoltshausen Ortsmitte","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":22,"s":[[3262341377,12],[5859433047,13],[3262341378,14]]},
+  {"id":14941272,"t":{"ref":"MR-34","name":"Bus MR-34 (2): Niederwalgern => Fellingshausen","from":"Niederwalgern Bahnhof","to":"Fellingshausen Friedhof","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":24,"s":[[3262341377,12],[5859433047,13],[3262341378,14]]},
+  {"id":14969486,"t":{"ref":"MR-37","name":"Bus MR-37: Gladenbach=> Weipoltshausen","from":"Gladenbach Schule/Leinweberstraße","to":"Weipoltshausen Ortsmitte","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":16,"s":[[5859433047,7],[3262341378,8]]},
+  {"id":14971640,"t":{"ref":"MR-37","name":"Bus MR-37: Lohra Schule => Gladenbach Busbahnhof","from":"Lohra Schule","to":"Gladenbach Schule/Rathaus","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":18,"s":[[3262341377,13],[3262341374,14]]},
+  {"id":14971641,"t":{"ref":"MR-37","name":"Bus MR-37: Lohra Schule => Gladenbach Schule/Rathaus","from":"Lohra Schule","to":"Gladenbach Schule/Rathaus","network":"Rhein-Main-Verkehrsverbund","operator":"B.u.B. Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":24,"s":[[3262341377,17],[3262341374,18]]},
+  {"id":3005123334816,"t":{"ref":"34","name":"34: Lohra-Rodenhausen Bürgerhaus - Lohra Neue Mitte","from":"Lohra-Rodenhausen Bürgerhaus","to":"Lohra Neue Mitte","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":3,"s":[[267729115,1],[10221457616,2]]},
+  {"id":3045863329834,"t":{"ref":"34","name":"34: Lohra-Weipoltshausen Ortsmitte - Weimar-Niederwalgern Bahnhof","from":"Lohra-Weipoltshausen Ortsmitte","to":"Weimar-Niederwalgern Bahnhof","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":21,"s":[[267729115,9],[10221457616,10]]},
+  {"id":3068331812373,"t":{"ref":"34","name":"34: Weimar-Niederwalgern Bahnhof - Lohra-Weipoltshausen Ortsmitte","from":"Weimar-Niederwalgern Bahnhof","to":"Lohra-Weipoltshausen Ortsmitte","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":22,"s":[[3262341377,13],[267729115,14]]},
+  {"id":3080217479363,"t":{"ref":"37","name":"37: Gladenbach Schule/Leinweberstraße - Lohra-Weipoltshausen Ortsmitte","from":"Gladenbach Schule/Leinweberstraße","to":"Lohra-Weipoltshausen Ortsmitte","operator":"Becker und Bender Busverkehr GbR","route":"bus","public_transport:version":"2"},"n":16,"s":[[267729115,6],[10221457616,7]]},
+  {"id":3099987005382,"t":{"ref":"34","name":"34: Lohra Neue Mitte - Lohra-Rodenhausen Bürgerhaus","from":"Lohra Neue Mitte","to":"Lohra-Rodenhausen Bürgerhaus","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":3,"s":[[3262341377,2],[267729115,3]]}
+]
+}

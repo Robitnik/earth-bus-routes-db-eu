@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3778],
+"stops":[
+  {"id":567940356,"lat":51.590921,"lon":8.940212,"k":"p","n":"Heitmeier"},
+  {"id":567940357,"lat":51.591004,"lon":8.939604,"k":"p","n":"Heitmeier"},
+  {"id":1335929167,"lat":51.596476,"lon":8.9479,"k":"p","n":"Gut Bülheim"},
+  {"id":1444976307,"lat":51.596716,"lon":8.947819,"k":"p","n":"Gut Bülheim"},
+  {"id":10129093900,"lat":51.594701,"lon":8.947938,"k":"p","n":"Gut Bülheim"},
+  {"id":10129093905,"lat":51.594713,"lon":8.947778,"k":"p","n":"Gut Bülheim"},
+  {"id":10580638723,"lat":51.585895,"lon":8.909001,"k":"p","n":"Mitteldorf"},
+  {"id":10580638724,"lat":51.586246,"lon":8.909077,"k":"p","n":"Mitteldorf"},
+  {"id":10580638725,"lat":51.585924,"lon":8.910163,"k":"p","n":"Schäfers"},
+  {"id":10580638729,"lat":51.581818,"lon":8.90371,"k":"p","n":"Am Südhang"},
+  {"id":10580638730,"lat":51.581272,"lon":8.902928,"k":"p","n":"Am Südhang"},
+  {"id":10580638731,"lat":51.584716,"lon":8.909287,"k":"p","n":"Holtheim Mitte"},
+  {"id":10580638732,"lat":51.584497,"lon":8.909233,"k":"p","n":"Holtheim Mitte"},
+  {"id":6023770771107,"lat":51.592193,"lon":8.906006,"k":"p","n":"Li-Holtheim, Hellweg","g":1},
+  {"id":6024228847964,"lat":51.592405,"lon":8.905862,"k":"p","n":"Li-Holtheim, Hellweg","g":1},
+  {"id":6032821944478,"lat":51.582091,"lon":8.904505,"k":"p","n":"Li-Holtheim, Am Südhang","g":1},
+  {"id":6034314974501,"lat":51.582186,"lon":8.904344,"k":"p","n":"Li-Holtheim, Am Südhang","g":1},
+  {"id":6040726984219,"lat":51.583051,"lon":8.906095,"k":"p","n":"Li-Holtheim, Schützenhalle","g":1}
+],
+"routes":[
+  {"id":15361538,"t":{"ref":"489","name":"Bus 489: Blankenrode => Lichtenau","from":"Blankenrode","to":"Lichtenau Pater-Philotheus-Straße","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[10580638730,2],[10580638732,3],[10580638724,4]]},
+  {"id":15361539,"t":{"ref":"489","name":"Bus 489: Lichtenau => Blankenrode","from":"Lichtenau Pater-Philotheus-Straße","to":"Blankenrode","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[10580638723,5],[10580638731,6],[10580638729,7]]},
+  {"id":16151730,"t":{"ref":"488","name":"Bus 488: Lichtenau-Blankenrode => Lichtenau-Einkaufszentrum","from":"Lichtenau-Blankenrode","to":"Lichtenau-Einkaufszentrum","network":"WestfalenTarif","operator":"Lichtenau eMobil e.V.","route":"bus","public_transport:version":"2"},"n":11,"s":[[10580638730,2],[10580638732,3],[10580638724,4]]},
+  {"id":3010943617472,"t":{"ref":"S85","name":"Bus S85: Paderborn => Warburg Bahnhof","from":"Paderborn","to":"Warburg","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":37,"s":[[1335929167,16]]},
+  {"id":3026698216840,"t":{"ref":"488","name":"Bus 488: Lichtenau-Einkaufszentrum => Lichtenau-Blankenrode","from":"Lichtenau-Einkaufszentrum","to":"Lichtenau-Blankenrode","network":"WestfalenTarif","operator":"Lichtenau eMobil e.V.","route":"bus","public_transport:version":"2"},"n":13,"s":[[6023770771107,7],[10580638723,8],[10580638732,9],[6040726984219,10],[6034314974501,11]]},
+  {"id":3032857232012,"t":{"ref":"488","name":"488: Meerhof, Post - Lichtenau, Einkaufszentrum","from":"Meerhof, Post","to":"Lichtenau, Einkaufszentrum","operator":"nph-Linienbündel 07","route":"bus","public_transport:version":"2"},"n":15,"s":[[6032821944478,5],[6040726984219,6],[10580638732,7],[10580638723,8],[6024228847964,9]]},
+  {"id":3037031514011,"t":{"ref":"S80","name":"S80: Paderborn, Hauptbahnhof - Warburg, Bahnhof","from":"Paderborn, Hauptbahnhof","to":"Warburg, Bahnhof","operator":"nph-Linienbündel 07","route":"bus","public_transport:version":"2"},"n":37,"s":[[1335929167,16]]},
+  {"id":3047043725401,"t":{"ref":"S80","name":"S80: Warburg, Bahnhof - Paderborn, Hauptbahnhof","from":"Warburg, Bahnhof","to":"Paderborn, Hauptbahnhof","operator":"nph-Linienbündel 07","route":"bus","public_transport:version":"2"},"n":34,"s":[[1444976307,19]]},
+  {"id":3054561315181,"t":{"ref":"NE13","name":"NE13: Paderborn, Westerntor - Lichtenau, Stadtmitte","from":"Paderborn, Westerntor","to":"Lichtenau, Stadtmitte","operator":"nph-NachtExpress","route":"bus","public_transport:version":"2"},"n":23,"s":[[6032821944478,18],[10580638732,19],[10580638723,20],[6024228847964,21]]},
+  {"id":3054851547290,"t":{"ref":"S85","name":"Bus S85: Warburg Bahnhof => Paderborn","from":"Warburg","to":"Paderborn","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[1444976307,19]]},
+  {"id":3060898212583,"t":{"ref":"S85","name":"Bus S85: Warburg Bahnhof => Paderborn","from":"Warburg","to":"Paderborn","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[1444976307,19]]},
+  {"id":3070236612699,"t":{"ref":"483","name":"483: Lichtenau, Grundschule - Li-Kleinenberg, Kindergarten","from":"Lichtenau, Grundschule","to":"Li-Kleinenberg, Kindergarten","operator":"nph-Linienbündel 07","route":"bus","public_transport:version":"2"},"n":8,"s":[[1335929167,5]]}
+]
+}

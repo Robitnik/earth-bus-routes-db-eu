@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3753],
+"stops":[
+  {"id":262737867,"lat":49.500091,"lon":7.655795,"k":"p"},
+  {"id":270086872,"lat":49.502074,"lon":7.659126,"k":"p","n":"Untere Pfeifermühle"},
+  {"id":2334640391,"lat":49.538007,"lon":7.653386,"k":"p","n":"Olsbrücken Bahnhof"},
+  {"id":8912906917,"lat":49.504589,"lon":7.693114,"k":"p","n":"Katzweiler Kirche"},
+  {"id":8912906918,"lat":49.5044,"lon":7.693318,"k":"p","n":"Katzweiler Kirche"},
+  {"id":8912906921,"lat":49.518529,"lon":7.678686,"k":"p","n":"Hirschhorn Mitte"},
+  {"id":8912906922,"lat":49.518901,"lon":7.678803,"k":"p","n":"Hirschhorn Mitte"},
+  {"id":8912906923,"lat":49.522752,"lon":7.662685,"k":"p","n":"Untersulzbach Denkmal"},
+  {"id":8912906925,"lat":49.541005,"lon":7.651766,"k":"p","n":"Olsbrücken Wagner"},
+  {"id":8912906926,"lat":49.541236,"lon":7.651354,"k":"p","n":"Olsbrücken Wagner"},
+  {"id":14307151574,"lat":49.504441,"lon":7.693357,"k":"x","n":"Katzweiler Kirche"},
+  {"id":14307151575,"lat":49.504563,"lon":7.693083,"k":"x","n":"Katzweiler Kirche"},
+  {"id":6008505575594,"lat":49.537051,"lon":7.660518,"k":"p","n":"Olsbrücken, Ortsmitte","g":1},
+  {"id":6023335471606,"lat":49.531845,"lon":7.663384,"k":"p","n":"Olsbrücken, Abzw. Brühlhof","g":1},
+  {"id":6025399671308,"lat":49.515541,"lon":7.682204,"k":"p","n":"Hirschhorn (Pf), Abzw. Bahnhof","g":1},
+  {"id":6052628850552,"lat":49.531052,"lon":7.663555,"k":"p","n":"Olsbrücken, Abzw. Brühlhof","g":1},
+  {"id":6055577953090,"lat":49.515634,"lon":7.682311,"k":"p","n":"Hirschhorn (Pf), Abzw. Bahnhof","g":1},
+  {"id":6059686578821,"lat":49.523239,"lon":7.664435,"k":"p","n":"Olsbrücken, Obersulzbach Abzw","g":1},
+  {"id":6067203576757,"lat":49.522842,"lon":7.664426,"k":"p","n":"Olsbrücken, Obersulzbach Abzw","g":1}
+],
+"routes":[
+  {"id":12941943,"t":{"ref":"134","name":"Bus 134: Mehlbach => Kaiserslautern","from":"Mehlbach","to":"Kaiserslautern Hbf.","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[8912906918,2]]},
+  {"id":3000837724276,"t":{"ref":"2134","name":"2134: Obersulzbach, Scheune - Untersulzbach, Denkmal","from":"Obersulzbach, Scheune","to":"Untersulzbach, Denkmal","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[8912906923,2]]},
+  {"id":3023560794220,"t":{"ref":"2134","name":"2134: Frankelbach, Ortsmitte - Olsbrücken, Bahnhof","from":"Frankelbach, Ortsmitte","to":"Olsbrücken, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[2334640391,2]]},
+  {"id":3026975436549,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":25,"s":[[14307151574,11],[6055577953090,14],[8912906922,15],[8912906923,16,18],[6052628850552,19],[6008505575594,20],[2334640391,21],[8912906926,22]]},
+  {"id":3032105831685,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":23,"s":[[14307151574,11],[6055577953090,14],[8912906922,15],[6059686578821,16],[6052628850552,17],[6008505575594,18],[2334640391,19],[8912906926,20]]},
+  {"id":3036854057262,"t":{"ref":"2134","name":"2134: Katzweiler, Abzw. Bahnhof - Mehlbach, Biengartenstraße","from":"Katzweiler, Abzw. Bahnhof","to":"Mehlbach, Biengartenstraße","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":4,"s":[[14307151574,2]]},
+  {"id":3041301570968,"t":{"ref":"SWK N7","name":"SWK N7: Kaisersl., Stadtmitte - Otterbach, Bahnhof","from":"Kaisersl., Stadtmitte","to":"Otterbach, Bahnhof","operator":"Stadtwerke Kaiserslautern","route":"bus","public_transport:version":"2"},"n":33,"s":[[14307151575,30]]},
+  {"id":3051841996801,"t":{"ref":"2134","name":"2134: Mehlbach, Biengartenstraße - Katzweiler, Abzw. Bahnhof","from":"Mehlbach, Biengartenstraße","to":"Katzweiler, Abzw. Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":4,"s":[[14307151575,3]]},
+  {"id":3070522473445,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":24,"s":[[8912906925,4],[2334640391,5],[6008505575594,6],[6023335471606,7],[6067203576757,8],[8912906921,9],[6025399671308,10],[14307151575,14]]},
+  {"id":3074525325346,"t":{"ref":"2134","name":"2134: Untersulzbach, Denkmal - Obersulzbach, Scheune","from":"Untersulzbach, Denkmal","to":"Obersulzbach, Scheune","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[8912906923,1]]},
+  {"id":3094519706266,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":27,"s":[[8912906925,4],[2334640391,5],[6008505575594,6],[6023335471606,7],[8912906923,8,10],[6067203576757,11],[8912906921,12],[6025399671308,13],[14307151575,17]]},
+  {"id":3096118133037,"t":{"ref":"2134","name":"2134: Olsbrücken, Bahnhof - Frankelbach, Ortsmitte","from":"Olsbrücken, Bahnhof","to":"Frankelbach, Ortsmitte","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[2334640391,1]]}
+]
+}

@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2816,3894],
+"stops":[
+  {"id":270091286,"lat":50.824793,"lon":14.726877,"k":"p","n":"Hochwald"},
+  {"id":468189069,"lat":50.833394,"lon":14.721896,"k":"p","n":"Oybin Ortsteil Hain","ref":"1"},
+  {"id":773242113,"lat":50.843978,"lon":14.739831,"k":"p","n":"Burg"},
+  {"id":2444137967,"lat":50.841821,"lon":14.743675,"k":"p","n":"Oybin Parkplatz"},
+  {"id":2447894542,"lat":50.830774,"lon":14.749988,"k":"x","n":"Lückendorf Hochwaldblick"},
+  {"id":4229661703,"lat":50.827784,"lon":14.701339,"k":"p","n":"Krompach, kostel"},
+  {"id":6837721161,"lat":50.843521,"lon":14.707016,"k":"p","n":"Jonsdorf Grenze"},
+  {"id":7831787285,"lat":50.847892,"lon":14.746643,"k":"p","n":"Oybin Talweg"},
+  {"id":7831787286,"lat":50.847887,"lon":14.746488,"k":"p","n":"Oybin Talweg"},
+  {"id":7831819668,"lat":50.837735,"lon":14.740154,"k":"p","n":"Oybin Kammstraße"},
+  {"id":7831819669,"lat":50.837024,"lon":14.739202,"k":"p","n":"Oybin Kammstraße"},
+  {"id":8841749792,"lat":50.833372,"lon":14.721955,"k":"x","n":"Oybin Ortsteil Hain","ref":"1"},
+  {"id":8841749793,"lat":50.833411,"lon":14.722026,"k":"p","n":"Oybin Ortsteil Hain","ref":"3"},
+  {"id":10135125559,"lat":50.830741,"lon":14.749998,"k":"p","n":"Lückendorf Hochwaldblick"},
+  {"id":10135125560,"lat":50.830802,"lon":14.749989,"k":"p","n":"Lückendorf Hochwaldblick"},
+  {"id":11375568472,"lat":50.842592,"lon":14.741138,"k":"p","n":"Haus des Gastes"},
+  {"id":11375568473,"lat":50.842688,"lon":14.74537,"k":"p","n":"Bahnhof Oybin"},
+  {"id":12884146402,"lat":50.833311,"lon":14.722404,"k":"p","n":"Oybin Ortsteil Hain","ref":"2"},
+  {"id":6065225756206,"lat":50.838064,"lon":14.740509,"k":"p","n":"Kurort Oybin Kammstraße","g":1}
+],
+"routes":[
+  {"id":4068064,"t":{"name":"Hochwald-Express","operator":"Frank Nuhn Freizeit und Tourismus e.K.","route":"bus","public_transport:version":"2"},"n":2,"s":[[11375568473,1],[270091286,2]]},
+  {"id":16752686,"t":{"name":"Gebirge Express","from":"Bahnhof Oybin","to":"Burg und Klosteranlage Oybin","operator":"Frank Nuhn Freizeit und Tourismus e.K.","route":"bus","public_transport:version":"2"},"n":5,"s":[[11375568473,1,5],[2444137967,2],[773242113,3],[11375568472,4]]},
+  {"id":16752687,"t":{"name":"Bahnhof Oybin => Töpfer","operator":"Frank Nuhn Freizeit und Tourismus e.K.","route":"bus","public_transport:version":"2"},"n":2,"s":[[11375568473,2]]},
+  {"id":16752688,"t":{"name":"Zittauer Naturpark Express","operator":"Frank Nuhn Freizeit und Tourismus e.K.","route":"bus","public_transport:version":"2"},"n":25,"s":[[11375568473,1,25],[8841749793,2],[6837721161,3],[7831787286,24]]},
+  {"id":3006172533030,"t":{"ref":"16","name":"TaktBus 16: Lückendorf => Oybin => Olbersdorf => Zittau","from":"Lückendorf Wendeplatz","to":"Zittau Bahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":28,"s":[[10135125560,5],[468189069,6],[6065225756206,7],[2444137967,8],[7831787285,9]]},
+  {"id":3014227981241,"t":{"ref":"16","name":"TaktBus 16: Zittau => Olbersdorf => Oybin => Lückendorf","from":"Zittau Bahnhof","to":"Lückendorf Wendeplatz","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":29,"s":[[7831787286,21],[2444137967,22],[7831819669,23],[468189069,24],[10135125559,25]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3781],
+"stops":[
+  {"id":1270468452,"lat":51.558492,"lon":9.050676,"k":"x","n":"Bonenburg, Bahnhof"},
+  {"id":1270468593,"lat":51.560834,"lon":9.051467,"k":"p","n":"Bonenburg, Friedhof"},
+  {"id":3971659173,"lat":51.557978,"lon":9.055243,"k":"p","n":"Schmitz"},
+  {"id":3971659174,"lat":51.556754,"lon":9.056756,"k":"p","n":"Schöne Aussicht"},
+  {"id":3971659179,"lat":51.556843,"lon":9.060118,"k":"p","n":"Zum Kreuzberg"},
+  {"id":6593644926,"lat":51.560453,"lon":9.084883,"k":"p","n":"Ikenhausen"},
+  {"id":7618563263,"lat":51.565555,"lon":9.050237,"k":"p","n":"Borlinghauser Straße"},
+  {"id":7618563264,"lat":51.565291,"lon":9.05043,"k":"p","n":"Borlinghauser Straße"},
+  {"id":11815344800,"lat":51.579327,"lon":9.099564,"k":"p","n":"Löwen Michels"},
+  {"id":11815344801,"lat":51.578273,"lon":9.099004,"k":"p","n":"Löwen Femlinde"},
+  {"id":6022794655839,"lat":51.558171,"lon":9.050194,"k":"p","n":"War-Bonenburg, Bahnhof","g":1},
+  {"id":6041850317790,"lat":51.561907,"lon":9.051065,"k":"p","n":"War-Bonenburg, Friedhof","g":1},
+  {"id":6081810743945,"lat":51.561918,"lon":9.05111,"k":"p","n":"War-Bonenburg, Friedhof","g":1}
+],
+"routes":[
+  {"id":5912496,"t":{"ref":"W2","name":"Bus W2: Bonenburg => Scherfede => Warburg","from":"Bonenburg, Schöne Aussicht","to":"Warburg, Amtsgericht","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[3971659174,1]]},
+  {"id":5912497,"t":{"ref":"W2","name":"Bus W2: Warburg => Scherfede => Bonenburg","from":"Warburg, Schützenplatz","to":"Bonenburg, Schöne Aussicht","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[3971659173,17],[3971659179,18],[3971659174,19]]},
+  {"id":3003199955324,"t":{"ref":"HW2","name":"HW2: War-Bonenburg, Bahnhof - Willebadessen, Bahnhof Ost","from":"War-Bonenburg, Bahnhof","to":"Willebadessen, Bahnhof Ost","operator":"nph-Linienbündel 10","route":"bus","public_transport:version":"2"},"n":16,"s":[[6081810743945,2],[7618563264,3]]},
+  {"id":3030067643122,"t":{"ref":"W2","name":"W2: War-Hardehausen, Mitte - Warburg, Speckgraben","from":"War-Hardehausen, Mitte","to":"Warburg, Speckgraben","operator":"nph-Linienbündel 08","route":"bus","public_transport:version":"2"},"n":28,"s":[[3971659174,2],[6022794655839,3]]},
+  {"id":3035729103230,"t":{"ref":"R38","name":"R38: Wlb-Peckelsheim, Busbahnhof - Warburg, ZOB Warburg","from":"Wlb-Peckelsheim, Busbahnhof","to":"Warburg, ZOB Warburg","operator":"nph-Linienbündel 04","route":"bus","public_transport:version":"2"},"n":11,"s":[[6593644926,4]]},
+  {"id":3071156792278,"t":{"ref":"W2","name":"W2: Warburg, Speckgraben - War-Bonenburg, Schöne Aussicht","from":"Warburg, Speckgraben","to":"War-Bonenburg, Schöne Aussicht","operator":"nph-Linienbündel 08","route":"bus","public_transport:version":"2"},"n":29,"s":[[3971659173,27],[3971659179,28],[3971659174,29]]},
+  {"id":3072377836899,"t":{"ref":"W2","name":"W2: War-Bonenburg, Schöne Aussicht - Warburg, Speckgraben","from":"War-Bonenburg, Schöne Aussicht","to":"Warburg, Speckgraben","operator":"nph-Linienbündel 08","route":"bus","public_transport:version":"2"},"n":27,"s":[[3971659174,1],[6022794655839,2]]},
+  {"id":3073988802023,"t":{"ref":"HW2","name":"HW2: Willebadessen, Bahnhof Ost - War-Bonenburg, Bahnhof","from":"Willebadessen, Bahnhof Ost","to":"War-Bonenburg, Bahnhof","operator":"nph-Linienbündel 10","route":"bus","public_transport:version":"2"},"n":15,"s":[[7618563264,13],[6041850317790,14]]},
+  {"id":3084578421889,"t":{"ref":"R38","name":"R38: Warburg, ZOB Warburg - Wlb-Peckelsheim, Busbahnhof","from":"Warburg, ZOB Warburg","to":"Wlb-Peckelsheim, Busbahnhof","operator":"nph-Linienbündel 04","route":"bus","public_transport:version":"2"},"n":19,"s":[[6593644926,14],[11815344801,15]]}
+]
+}

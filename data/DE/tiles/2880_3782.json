@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2880,3782],
+"stops":[
+  {"id":904380694,"lat":54.006781,"lon":9.122364,"k":"x","n":"Hindorf"},
+  {"id":1247157593,"lat":54.018281,"lon":9.112559,"k":"x","n":"Gudendorf Süd"},
+  {"id":1250914826,"lat":54.025548,"lon":9.107957,"k":"x","n":"Gudendorf, Ortsmitte"},
+  {"id":1311649651,"lat":54.043146,"lon":9.108491,"k":"x","n":"Windbergen, West"},
+  {"id":1311649861,"lat":54.046551,"lon":9.118086,"k":"x","n":"Windbergen, Ort"},
+  {"id":1716024041,"lat":54.040833,"lon":9.130177,"k":"x","n":"Windbergen,Siedlung"},
+  {"id":1720647104,"lat":54.02464,"lon":9.108031,"k":"p","n":"Gudendorf, Ortsmitte"},
+  {"id":1720647109,"lat":54.025449,"lon":9.107932,"k":"p","n":"Gudendorf, Ortsmitte"},
+  {"id":1875877129,"lat":54.025415,"lon":9.107803,"k":"x","n":"Gudendorf, Ortsmitte"},
+  {"id":1877781957,"lat":54.024686,"lon":9.108123,"k":"x","n":"Gudendorf, Ortsmitte"},
+  {"id":3906694121,"lat":54.046604,"lon":9.118087,"k":"p","n":"Windbergen, Ort"}
+],
+"routes":[
+  {"id":10577806,"t":{"ref":"257","name":"Bus 257: Windbergen => Meldorf","from":"Windbergen Ort","to":"Meldorf,ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"BürgerBus Meldorf und Umgebung e. V.","colour":"#28377D","route":"bus","public_transport:version":"2"},"n":13,"s":[[3906694121,1]]},
+  {"id":10577807,"t":{"ref":"257","name":"Bus 257: Meldorf => Windbergen","from":"Meldorf,ZOB","to":"Windbergen, Ort","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"BürgerBus Meldorf und Umgebung e. V.","colour":"#28377D","route":"bus","public_transport:version":"2"},"n":7,"s":[[1720647109,6],[3906694121,7]]},
+  {"id":10598519,"t":{"ref":"280","name":"Bus 280: Brunsbüttel Schulen => Meldorf","from":"Brunsbüttel, ZOB","to":"Meldorf","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#168CB4","route":"bus","public_transport:version":"2"},"n":23,"s":[[1720647109,19]]},
+  {"id":20298209,"t":{"ref":"280","name":"Bus 280 Schulverkehr: Elpersbüttel => Gudendorf","from":"Elpersbüttel Schule","to":"Gudendorf, Ortsmitte","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#168CB4","route":"bus","public_transport:version":"2"},"n":4,"s":[[3906694121,3],[1720647104,4]]},
+  {"id":20298210,"t":{"ref":"280","name":"Bus 280: Brunsbüttel => Meldorf Schulen","from":"Brunsbüttel, ZOB","to":"Meldorf, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#168CB4","route":"bus","public_transport:version":"2"},"n":24,"s":[[1720647109,17],[3906694121,18]]},
+  {"id":20298211,"t":{"ref":"280","name":"Bus 280: Meldorf => Brunsbüttel","from":"Meldorf, ZOB","to":"Brunsbüttel, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#168CB4","route":"bus","public_transport:version":"2"},"n":24,"s":[[3906694121,6],[1720647104,7]]}
+]
+}

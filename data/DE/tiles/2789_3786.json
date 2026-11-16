@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2789,3786],
+"stops":[
+  {"id":314450084,"lat":49.478497,"lon":9.315679,"k":"x","n":"Bödigheim, Kirche"},
+  {"id":506240602,"lat":49.480851,"lon":9.347361,"k":"p","n":"Eberstadt Tropfsteinhöhle"},
+  {"id":3572446329,"lat":49.478443,"lon":9.315735,"k":"p","n":"Bödigheim, Kirche"},
+  {"id":4709038835,"lat":49.47933,"lon":9.316008,"k":"p","n":"Bödigheim, Kirche"},
+  {"id":7579443009,"lat":49.479252,"lon":9.316069,"k":"x","n":"Bödigheim, Kirche"},
+  {"id":12228573140,"lat":49.48007,"lon":9.349982,"k":"p","n":"Eberstadt Tropfsteinhöhle"},
+  {"id":12912089003,"lat":49.476019,"lon":9.317023,"k":"p"}
+],
+"routes":[
+  {"id":3215400,"t":{"ref":"848","name":"Bus 848: Buchen => Großeicholzheim","from":"Buchen, Bahnhof","to":"Großeicholzheim","network":"Verkehrsverbund Rhein-Neckar","colour":"#5A2C0E","route":"bus","public_transport:version":"2"},"n":14,"s":[[12228573140,4],[506240602,5]]},
+  {"id":12136951,"t":{"ref":"848","name":"Bus 848: Großeichholzheim => Buchen","from":"Großeichholzheim","to":"Buchen Bahnhof","network":"Verkehrsverbund Rhein-Neckar","colour":"#5A2C0E","route":"bus","public_transport:version":"2"},"n":14,"s":[[12228573140,10],[506240602,11]]},
+  {"id":3066730598307,"t":{"ref":"8930","name":"8930: Schweinberg, Ost - Seckach, Jugendd. Kl. Landstr.","from":"Schweinberg, Ost","to":"Seckach, Jugendd. Kl. Landstr.","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":16,"s":[[7579443009,14]]},
+  {"id":3071689019584,"t":{"ref":"8930","name":"8930: Buchen, Bahnhof - Seckach, Jugendd. Kl. Landstr.","from":"Buchen, Bahnhof","to":"Seckach, Jugendd. Kl. Landstr.","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":5,"s":[[7579443009,3]]},
+  {"id":3075128944793,"t":{"ref":"8930","name":"8930: Seckach, Jugendd. Kl. Landstr. - Schweinberg, Ost","from":"Seckach, Jugendd. Kl. Landstr.","to":"Schweinberg, Ost","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":16,"s":[[3572446329,3]]},
+  {"id":3076211572868,"t":{"ref":"8946","name":"8946: Buchen, Bahnhof - Buchen, Bahnhof","from":"Buchen, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":11,"s":[[12228573140,10]]}
+]
+}

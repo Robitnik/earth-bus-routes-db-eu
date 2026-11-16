@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2877,3831],
+"stops":[
+  {"id":1459928875,"lat":53.898951,"lon":11.577986,"k":"p","n":"Warkstorf"},
+  {"id":1459928887,"lat":53.88986,"lon":11.573987,"k":"p","n":"Schmakentin"},
+  {"id":4903111814,"lat":53.877201,"lon":11.57569,"k":"x","n":"Krassow B192"},
+  {"id":4903111815,"lat":53.877276,"lon":11.575735,"k":"p","n":"Krassow B192"},
+  {"id":4903111816,"lat":53.877085,"lon":11.575767,"k":"p","n":"Krassow B192"},
+  {"id":4903113234,"lat":53.882628,"lon":11.553989,"k":"x","n":"Zweithausen Abzweig"},
+  {"id":4903113235,"lat":53.88258,"lon":11.553889,"k":"p","n":"Zweithausen Abzweig"},
+  {"id":4903113236,"lat":53.882751,"lon":11.55394,"k":"p","n":"Zweithausen Abzweig"},
+  {"id":8191284589,"lat":53.882678,"lon":11.553821,"k":"x","n":"Zweithausen Abzweig"},
+  {"id":8191284594,"lat":53.877175,"lon":11.575803,"k":"x","n":"Krassow B192"},
+  {"id":5000880685158,"lat":53.88258,"lon":11.553888,"k":"p","n":"Zweithausen Abzweig"},
+  {"id":5000880685159,"lat":53.88275,"lon":11.553943,"k":"p","n":"Zweithausen Abzweig"},
+  {"id":5000880685160,"lat":53.877106,"lon":11.575681,"k":"p","n":"Krassow B192"},
+  {"id":5000880685161,"lat":53.877259,"lon":11.575817,"k":"p","n":"Krassow B192"},
+  {"id":6017319961062,"lat":53.898549,"lon":11.593244,"k":"p","n":"Warkstorf Bahnhof","g":1},
+  {"id":6021627213026,"lat":53.897247,"lon":11.599496,"k":"p","n":"Goldebee Abzweig","g":1},
+  {"id":6031576630886,"lat":53.89849,"lon":11.593235,"k":"p","n":"Warkstorf Bahnhof","g":1},
+  {"id":6064961985671,"lat":53.85951,"lon":11.577577,"k":"p","n":"Zurow Kahlenberg","g":1}
+],
+"routes":[
+  {"id":3025475289751,"t":{"ref":"90","name":"90: Kritzow (bei Wismar) Gewerbegebiet B192 - Neuburg (bei Wismar) BWG","from":"Kritzow (bei Wismar) Gewerbegebiet B192","to":"Neuburg (bei Wismar) BWG","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":26,"s":[[1459928875,4],[6031576630886,5],[6021627213026,6]]},
+  {"id":3036832917685,"t":{"ref":"90","name":"90: Neuburg (bei Wismar) BWG - Kritzow (bei Wismar) Gewerbegebiet B192","from":"Neuburg (bei Wismar) BWG","to":"Kritzow (bei Wismar) Gewerbegebiet B192","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":26,"s":[[6021627213026,21],[6017319961062,22],[1459928875,23]]},
+  {"id":3042472681099,"t":{"ref":"245","name":"245: Blankenberg Bahnhof - Wismar ZOB","from":"Blankenberg Bahnhof","to":"Wismar ZOB","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":24,"s":[[4903111815,13],[4903113236,14]]},
+  {"id":3046826368313,"t":{"ref":"mv64","name":"Bus mv64: Blankenberg Bhf => Wismar ZOB","from":"Blankenberg Bhf","to":"Wismar ZOB","network":"Regiobus MV","operator":"NAHBUS Nordwestmecklenburg GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[4903111815,13],[4903113236,14]]},
+  {"id":3065681110104,"t":{"ref":"mv64","name":"Bus mv64: Wismar ZOB => Blankenberg Bhf","from":"Wismar ZOB","to":"Blankenberg Bhf","network":"Regiobus MV","operator":"NAHBUS Nordwestmecklenburg GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[4903113235,12],[4903111816,13]]},
+  {"id":3074665244839,"t":{"ref":"93","name":"93: Alt Tollow - Schmakentin Dorf","from":"Alt Tollow","to":"Schmakentin Dorf","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":10,"s":[[6064961985671,8],[4903113236,9],[1459928887,10]]},
+  {"id":3082815425981,"t":{"ref":"93","name":"93: Schmakentin Dorf - Alt Tollow","from":"Schmakentin Dorf","to":"Alt Tollow","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":10,"s":[[1459928887,1],[4903113235,2],[6064961985671,3]]},
+  {"id":3089352277248,"t":{"ref":"245","name":"245: Wismar ZOB - Blankenberg Bahnhof","from":"Wismar ZOB","to":"Blankenberg Bahnhof","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":25,"s":[[4903113235,12],[4903111816,13]]}
+]
+}

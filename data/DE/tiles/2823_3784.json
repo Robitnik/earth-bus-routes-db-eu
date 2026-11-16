@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3784],
+"stops":[
+  {"id":291051950,"lat":51.172174,"lon":9.228566,"k":"p","n":"Post"},
+  {"id":291072330,"lat":51.176463,"lon":9.222107,"k":"p","n":"Züschen-Siedlung"},
+  {"id":1363428652,"lat":51.181176,"lon":9.209497,"k":"x","n":"Mitte"},
+  {"id":1430272436,"lat":51.180508,"lon":9.210353,"k":"p","n":"Backhaus"},
+  {"id":2416143359,"lat":51.172135,"lon":9.228455,"k":"p","n":"Post"},
+  {"id":2814435001,"lat":51.182798,"lon":9.210007,"k":"p","n":"Freibad"},
+  {"id":2814435002,"lat":51.181108,"lon":9.210047,"k":"p","n":"Mitte"},
+  {"id":2814435003,"lat":51.181215,"lon":9.209508,"k":"p","n":"Mitte"},
+  {"id":3186336875,"lat":51.176162,"lon":9.222359,"k":"p","n":"Züschen-Siedlung"},
+  {"id":5538902234,"lat":51.181144,"lon":9.210042,"k":"x","n":"Mitte"},
+  {"id":5539812167,"lat":51.183382,"lon":9.209903,"k":"p","n":"Freibad"},
+  {"id":5000577878404,"lat":51.18121,"lon":9.209581,"k":"p","n":"Mitte"},
+  {"id":5000577878405,"lat":51.181112,"lon":9.209986,"k":"p","n":"Mitte"}
+],
+"routes":[
+  {"id":1711974,"t":{"ref":"154","name":"Bus 154: Fritzlar => Naumburg","from":"Fritzlar Grundschule","to":"Naumburg Im Hain","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":22,"s":[[291051950,6],[291072330,7],[5000577878404,8],[2814435001,9]]},
+  {"id":1722359,"t":{"ref":"154","name":"Bus 154: Naumburg => Fritzlar","from":"Naumburg Im Hain","to":"Fritzlar Berliner Platz","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":12,"s":[[3186336875,8],[2416143359,9]]},
+  {"id":8192246,"t":{"ref":"55","name":"Bus 55: Heimershausen => Kassel","from":"Naumburg Heimershausen Mitte","to":"Kassel Königsplatz/Messeplatz","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":40,"s":[[5000577878404,1],[2814435001,2]]},
+  {"id":8192936,"t":{"ref":"55","name":"Bus 55: Kassel => Heimershausen","from":"Kassel Königsplatz/Messeplatz","to":"Naumburg Heimershausen Mitte","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":40,"s":[[5539812167,39],[5000577878405,40]]},
+  {"id":8540843,"t":{"ref":"152","name":"Bus 152: Breitenbach => Heimarshausen","from":"Schauenburg Breitenbach Johannesstraße","to":"Naumburg Heimarshausen Mitte","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":37,"s":[[5539812167,36],[5000577878405,37]]},
+  {"id":8540844,"t":{"ref":"152","name":"Bus 152: Heimershausen => Breitenbach","from":"Naumburg Heimershausen Mitte","to":"Schauenburg Breitenbach Johannesstraße","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000577878404,1],[2814435001,2]]},
+  {"id":12499388,"t":{"ref":"151","name":"Bus 151: Wolfhagen => Naumburg => Fritzlar","from":"Wolfhagen Bahnhof","to":"Fritzlar Allee","network":"Nordhessischer VerkehrsVerbund","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":33,"s":[[5539812167,27],[5000577878405,28],[3186336875,29],[2416143359,30]]},
+  {"id":3024029631967,"t":{"ref":"151","name":"151: Fritzlar Allee - Wolfhagen Bahnhof","from":"Fritzlar Allee","to":"Wolfhagen Bahnhof","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":34,"s":[[291051950,4],[291072330,5],[2814435003,6],[2814435001,7]]},
+  {"id":3032744588530,"t":{"ref":"151","name":"Bus 151: Fritzlar => Naumburg => Wolfhagen","from":"Fritzlar Allee","to":"Wolfhagen Bahnhof","network":"Nordhessischer VerkehrsVerbund","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":20,"s":[[2814435001,14],[5000577878405,15],[3186336875,16],[2416143359,17]]},
+  {"id":3068629625138,"t":{"ref":"151","name":"Bus 151: Fritzlar => Naumburg => Wolfhagen","from":"Fritzlar Allee","to":"Wolfhagen Bahnhof","network":"Nordhessischer VerkehrsVerbund","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":21,"s":[[291051950,4],[291072330,5],[2814435003,6],[2814435001,7]]},
+  {"id":3092756028369,"t":{"ref":"151","name":"151: Wolfhagen Bahnhof - Fritzlar Allee","from":"Wolfhagen Bahnhof","to":"Fritzlar Allee","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":34,"s":[[2814435001,28],[5000577878405,29],[3186336875,30],[2416143359,31]]}
+]
+}

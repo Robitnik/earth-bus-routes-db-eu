@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2850,3813],
+"stops":[
+  {"id":1600983385,"lat":52.549748,"lon":10.694963,"k":"x","n":"Grußendorf - Stüder Straße"},
+  {"id":2187596856,"lat":52.544863,"lon":10.690258,"k":"x","n":"Grußendorf - Heideweg"},
+  {"id":2329319251,"lat":52.549469,"lon":10.695946,"k":"x","n":"Grußendorf - Stüder Straße"},
+  {"id":3217780577,"lat":52.548079,"lon":10.679797,"k":"x","n":"Mühlenfuhren"}
+],
+"routes":[
+  {"id":2216637,"t":{"ref":"166","name":"Bus 166: Gifhorn => Brome","from":"Gifhorn, Am Luckmoor","to":"Brome, Schule","network":"VRB","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","colour":"#008080","route":"bus"},"n":5,"s":[[1600983385,5]]},
+  {"id":3042623952771,"t":{"ref":"172","name":"Bus 172: Stüde =>Jembke=>Weyhausen","from":"Stüde","to":"Weyhausen","network":"Verkehrsverbund Region Braunschweig","operator":"VLG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2329319251,4]]},
+  {"id":3049893152275,"t":{"ref":"164","name":"164: Brome, Schule - Gifhorn, Stadt (Bahnhof)","from":"Brome, Schule","to":"Gifhorn, Stadt (Bahnhof)","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[1600983385,13],[3217780577,16]]},
+  {"id":3070177884352,"t":{"ref":"164","name":"164: Gifhorn, Stadt (Bahnhof) - Brome, Schule","from":"Gifhorn, Stadt (Bahnhof)","to":"Brome, Schule","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[3217780577,14],[2329319251,17]]},
+  {"id":3082688925207,"t":{"ref":"172","name":"Bus 172: Stüde =>Jembke=>Weyhausen","from":"Stüde","to":"Weyhausen","network":"Verkehrsverbund Region Braunschweig","operator":"VLG","route":"bus","public_transport:version":"2"},"n":13,"s":[[1600983385,10]]}
+]
+}

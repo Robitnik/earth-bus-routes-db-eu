@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2849,3883],
+"stops":[
+  {"id":1843581160,"lat":52.481293,"lon":14.174153,"k":"p","n":"Friedrichshof"},
+  {"id":1843581692,"lat":52.471916,"lon":14.189813,"k":"p","n":"Abzweig"},
+  {"id":2925049691,"lat":52.472345,"lon":14.18945,"k":"p","n":"Abzweig"},
+  {"id":11265110216,"lat":52.47229,"lon":14.189343,"k":"x","n":"Tempelberg, Abzweig"},
+  {"id":11265110217,"lat":52.471957,"lon":14.189908,"k":"x","n":"Tempelberg, Abzweig"},
+  {"id":11265110226,"lat":52.481192,"lon":14.174036,"k":"p","n":"Friedrichshof"},
+  {"id":11265110227,"lat":52.481238,"lon":14.174096,"k":"x","n":"Müncheberg, Friedrichshof"}
+],
+"routes":[
+  {"id":7077279,"t":{"ref":"970","name":"Bus 970: Müncheberg => Frankfurt (Oder)","from":"Müncheberg","to":"Frankfurt (Oder)","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus"},"n":13,"s":[[11265110226,3],[1843581692,4]]},
+  {"id":16495687,"t":{"ref":"970","name":"Bus 970: Heinersdorf => Behlendorf => Müncheberg","from":"Heinersdorf","to":"Müncheberg","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[2925049691,3],[1843581160,4]]},
+  {"id":16495688,"t":{"ref":"970","name":"Bus 970: Frankfurt (Oder) => Müncheberg","from":"Frankfurt (Oder)","to":"Müncheberg","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus"},"n":13,"s":[[2925049691,10],[1843581160,11]]},
+  {"id":16495689,"t":{"ref":"970","name":"Bus 970: Müncheberg => Behlendorf => Heinersdorf","from":"Müncheberg","to":"Heinersdorf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[11265110226,4],[1843581692,5]]}
+]
+}

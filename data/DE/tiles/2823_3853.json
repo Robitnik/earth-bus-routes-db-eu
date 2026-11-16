@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3853],
+"stops":[
+  {"id":606773550,"lat":51.15782,"lon":12.698187,"k":"x","n":"Glasten"},
+  {"id":606773595,"lat":51.183972,"lon":12.663193,"k":"x","n":"Bernbruch, Infotafel"},
+  {"id":2279218660,"lat":51.159628,"lon":12.665692,"k":"x","n":"Etzoldshain"},
+  {"id":3088631035,"lat":51.185163,"lon":12.665349,"k":"x","n":"Bernbruch, Abzweig nach Kleinbardau"},
+  {"id":3097224690,"lat":51.181043,"lon":12.690292,"k":"x","n":"Kleinbardau, Hauptstraße"},
+  {"id":3983090605,"lat":51.185094,"lon":12.665313,"k":"p","n":"Bernbruch, Abzweig Kleinbardau"},
+  {"id":6294189814,"lat":51.159664,"lon":12.665665,"k":"p","n":"Etzoldshain"},
+  {"id":6294189815,"lat":51.159832,"lon":12.667559,"k":"p","n":"Etzoldshain"},
+  {"id":6294189816,"lat":51.159897,"lon":12.667448,"k":"x","n":"Etzoldshain"},
+  {"id":7109274238,"lat":51.157789,"lon":12.698264,"k":"p","n":"Glasten"},
+  {"id":7112979644,"lat":51.183981,"lon":12.663111,"k":"p","n":"Bernbruch, Infotafel"},
+  {"id":7112979645,"lat":51.185189,"lon":12.665267,"k":"p","n":"Bernbruch, Abzweig Kleinbardau"},
+  {"id":7112979646,"lat":51.184165,"lon":12.663438,"k":"x","n":"Bernbruch, Infotafel"},
+  {"id":7112979647,"lat":51.184115,"lon":12.663535,"k":"p","n":"Bernbruch, Infotafel"},
+  {"id":5000666383272,"lat":51.181017,"lon":12.690392,"k":"p","n":"Kleinbardau, Hauptstraße"},
+  {"id":5000672111708,"lat":51.181049,"lon":12.690204,"k":"p","n":"Kleinbardau, Hauptstraße"}
+],
+"routes":[
+  {"id":5937212,"t":{"ref":"+610","name":"PlusBus 610: Bad Lausick => Grimma","from":"Bad Lausick","to":"Grimma","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6294189815,10],[5000666383272,11]]},
+  {"id":9346332,"t":{"ref":"+610","name":"PlusBus 610: Grimma => Bad Lausick","from":"Grimma","to":"Bad Lausick","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000672111708,3],[6294189814,4]]},
+  {"id":10546966,"t":{"ref":"608","name":"Bus 608: Ballendorf => Großbardau","from":"Ballendorf, Alte Dorfstraße","to":"Großbardau, Grimmaische Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[7109274238,2],[5000666383272,3]]},
+  {"id":10546978,"t":{"ref":"608","name":"Bus 608: Kleinbardau => Ballendorf","from":"Kleinbardau, Hauptstraße","to":"Ballendorf, Alte Dorfstraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000672111708,1],[7109274238,2]]},
+  {"id":10562707,"t":{"ref":"613","name":"Bus 613: Bad Lausick => Colditz","from":"Bad Lausick, Turnerstraße","to":"Colditz, Sportplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[7109274238,5]]},
+  {"id":3005427518587,"t":{"ref":"610","name":"610: Grimma, Bahnhof (Bus) - Bad Lausick, Gewerbegebiet","from":"Grimma, Bahnhof (Bus)","to":"Bad Lausick, Gewerbegebiet","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000672111708,4],[6294189814,5]]},
+  {"id":3005605101873,"t":{"ref":"610","name":"610: Bad Lausick, Gewerbegebiet - Grimma, Bahnhof (Bus)","from":"Bad Lausick, Gewerbegebiet","to":"Grimma, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6294189816,10],[3097224690,11],[3088631035,12]]},
+  {"id":3006057870139,"t":{"ref":"610","name":"610: Bad Lausick, Bahnhof/Westseite - Grimma, Bahnhof (Bus)","from":"Bad Lausick, Bahnhof/Westseite","to":"Grimma, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[6294189816,8],[3097224690,9]]},
+  {"id":3007353615895,"t":{"ref":"610","name":"610: Grimma, Bahnhof (Bus) - Bad Lausick, Gewerbegebiet","from":"Grimma, Bahnhof (Bus)","to":"Bad Lausick, Gewerbegebiet","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[3983090605,5],[5000672111708,6],[6294189814,7]]},
+  {"id":3080832253902,"t":{"ref":"610","name":"610: Bad Lausick, Gewerbegebiet - Grimma, Bahnhof (Bus)","from":"Bad Lausick, Gewerbegebiet","to":"Grimma, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[6294189816,10],[3097224690,11]]},
+  {"id":3093861011195,"t":{"ref":"609","name":"Bus 609: Belgershain => Grimma","from":"Belgershain, Schule","to":"Grimma, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[7112979647,13],[3097224690,14]]}
+]
+}

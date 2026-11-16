@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3828],
+"stops":[
+  {"id":287003216,"lat":51.581369,"lon":11.424308,"k":"p"},
+  {"id":287003218,"lat":51.57768,"lon":11.417957,"k":"p","n":"Möllendorf, Bauernsiedlung"},
+  {"id":289371488,"lat":51.563374,"lon":11.426075,"k":"p","n":"Siebigerode"},
+  {"id":289371491,"lat":51.563297,"lon":11.425751,"k":"p","n":"Siebigerode"},
+  {"id":1177500762,"lat":51.551865,"lon":11.404841,"k":"p","n":"Annarode"},
+  {"id":1177500776,"lat":51.551941,"lon":11.404742,"k":"p","n":"Annarode"},
+  {"id":2355846835,"lat":51.570568,"lon":11.409261,"k":"p","n":"Möllendorf"},
+  {"id":2441144207,"lat":51.556147,"lon":11.412979,"k":"p","n":"Annarode, Mühle"},
+  {"id":2441144208,"lat":51.556305,"lon":11.412911,"k":"p","n":"Annarode, Mühle"},
+  {"id":2441144209,"lat":51.563383,"lon":11.425961,"k":"x","n":"Siebigerode"},
+  {"id":9811241293,"lat":51.571806,"lon":11.424534,"k":"p","n":"Blumerode"},
+  {"id":9811241297,"lat":51.577759,"lon":11.417853,"k":"p","n":"Möllendorf, Bauernsiedlung"},
+  {"id":9811241298,"lat":51.571774,"lon":11.409899,"k":"p","n":"Möllendorf"},
+  {"id":9811241310,"lat":51.599956,"lon":11.408798,"k":"p","n":"Klippmühle"},
+  {"id":9811241470,"lat":51.586462,"lon":11.448648,"k":"p","n":"Mansfeld, Siebigeröder Straße"},
+  {"id":9811241471,"lat":51.586524,"lon":11.448839,"k":"p","n":"Mansfeld, Siebigeröder Straße"},
+  {"id":9831480853,"lat":51.571813,"lon":11.424486,"k":"x","n":"Blumerode"},
+  {"id":9831480855,"lat":51.582665,"lon":11.434535,"k":"p","n":"Mansfeld, Königsgrund"},
+  {"id":9831480856,"lat":51.582576,"lon":11.434422,"k":"p","n":"Mansfeld, Königsgrund"},
+  {"id":6008178557816,"lat":51.555065,"lon":11.410514,"k":"p","n":"Annarode (Mansfeld), Mühle","g":1},
+  {"id":6010443522027,"lat":51.585608,"lon":11.448691,"k":"p","n":"Mansfeld (Südharz), Siebigeröder Str.","g":1},
+  {"id":6066567793160,"lat":51.55534,"lon":11.410231,"k":"p","n":"Annarode (Mansfeld), Mühle","g":1}
+],
+"routes":[
+  {"id":2315171,"t":{"ref":"VGS 426","name":"Bus 426: Sangerhausen-Hettstedt","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[1177500762,3]]},
+  {"id":3391423,"t":{"ref":"VGS-421","name":"Bus 421: Eisleben => Annarode","from":"Eisleben","to":"Annarode","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[289371491,26],[2441144208,27],[1177500776,28]]},
+  {"id":14272947,"t":{"ref":"VGS-425","name":"Bus 425: Hettstedt => Blumerode => Gorenzen","from":"Hettstedt","to":"Gorenzen","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[9811241470,11],[9831480855,12],[9811241293,13],[9811241297,14],[9811241298,15]]},
+  {"id":14300480,"t":{"ref":"VGS-421","name":"Bus 421: Annarode => Eisleben","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[1177500776,1],[2441144207,2],[289371488,3]]},
+  {"id":3006255388106,"t":{"ref":"426","name":"426: Hettstedt, Busbahnhof - Sangerhausen, Busbahnhof","from":"Hettstedt, Busbahnhof","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":22,"s":[[9811241470,12],[289371491,13],[6066567793160,14],[1177500762,15]]},
+  {"id":3091622984777,"t":{"ref":"426","name":"426: Sangerhausen, Busbahnhof - Hettstedt, Busbahnhof","from":"Sangerhausen, Busbahnhof","to":"Hettstedt, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":23,"s":[[1177500762,10],[6008178557816,11],[289371488,12],[6010443522027,13]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2829,3805],
+"stops":[
+  {"id":299295885,"lat":51.471108,"lon":10.267534,"k":"p","n":"Teistungen Bergstraße"},
+  {"id":373905657,"lat":51.471404,"lon":10.267259,"k":"p","n":"Teistungen Bergstraße"},
+  {"id":373905695,"lat":51.481441,"lon":10.261872,"k":"p","n":"Teistungenburg"},
+  {"id":1272967940,"lat":51.470586,"lon":10.2641,"k":"x","n":"Teistungen Sparkasse"},
+  {"id":2277673863,"lat":51.497891,"lon":10.26133,"k":"x","n":"Gerblingerode, Nord"},
+  {"id":3184762441,"lat":51.495208,"lon":10.261568,"k":"p","n":"Gerblingerode Mitte"},
+  {"id":3184763662,"lat":51.495224,"lon":10.261714,"k":"p","n":"Gerblingerode Mitte"},
+  {"id":3184763665,"lat":51.497976,"lon":10.26123,"k":"p","n":"Gerblingerode Nord"},
+  {"id":3184763668,"lat":51.497455,"lon":10.261427,"k":"p","n":"Gerblingerode Nord"},
+  {"id":3399744434,"lat":51.473455,"lon":10.264426,"k":"p","n":"Zentrale Omnibus Haltestelle (ZOB) Teistungen"},
+  {"id":4339737103,"lat":51.495213,"lon":10.261653,"k":"x","n":"Gerblingerode, Mitte"},
+  {"id":4339737104,"lat":51.471165,"lon":10.267573,"k":"x","n":"Teistungen, Bergstraße"},
+  {"id":4404006961,"lat":51.481415,"lon":10.261954,"k":"x","n":"Teistungenburg"},
+  {"id":4698066270,"lat":51.470837,"lon":10.264401,"k":"p","n":"Teistungen, Sparkasse"},
+  {"id":5129265709,"lat":51.469464,"lon":10.257316,"k":"x","n":"Rewe Teistungen"},
+  {"id":6624773064,"lat":51.497449,"lon":10.261345,"k":"x","n":"Gerblingerode Nord"},
+  {"id":8896042781,"lat":51.473355,"lon":10.264525,"k":"p","n":"Zentrale Omnibus Haltestelle (ZOB) Teistungen"},
+  {"id":8896042782,"lat":51.47347,"lon":10.264584,"k":"p","n":"Zentrale Omnibus Haltestelle (ZOB) Teistungen"},
+  {"id":8896120642,"lat":51.469507,"lon":10.257224,"k":"p","n":"Teistungen REWE"},
+  {"id":8896120643,"lat":51.470538,"lon":10.264204,"k":"p","n":"Teistungen, Sparkasse"},
+  {"id":9651381964,"lat":51.470804,"lon":10.264479,"k":"x","n":"Teistungen Sparkasse"},
+  {"id":11540212684,"lat":51.473451,"lon":10.264399,"k":"x","n":"Zentrale Omnibus Haltestelle (ZOB) Teistungen"},
+  {"id":11540212685,"lat":51.473362,"lon":10.264577,"k":"x","n":"Zentrale Omnibus Haltestelle (ZOB) Teistungen"},
+  {"id":11540212686,"lat":51.473463,"lon":10.264532,"k":"x","n":"Zentrale Omnibus Haltestelle (ZOB) Teistungen"},
+  {"id":11734860193,"lat":51.471362,"lon":10.267187,"k":"x","n":"Teistungen, Bergstraße"}
+],
+"routes":[
+  {"id":9807300,"t":{"ref":"163","name":"Bus 163: Gerblingerode, Mitte => Duderstadt ZOB","from":"Gerblingerode, Mitte","to":"Duderstadt ZOB","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Regionalbus Braunschweig","route":"bus","public_transport:version":"2"},"n":9,"s":[[3184763662,1],[3184763668,2]]},
+  {"id":9810249,"t":{"ref":"163","name":"Bus 163: Duderstadt ZOB => Gerblingerode Mitte => Duderstadt ZOB","from":"Duderstadt ZOB","to":"Duderstadt ZOB","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Regionalbus Braunschweig","route":"bus","public_transport:version":"2"},"n":17,"s":[[3184763665,8],[3184762441,9],[3184763668,10]]},
+  {"id":3001411145729,"t":{"ref":"1","name":"Bus 1: Duderstadt ZOB => Dingelstädt ZOB (Expressbus)","from":"Duderstadt ZOB","to":"Dingelstädt ZOB","network":"EW Bus","operator":"EW Bus","colour":"#2EB220","route":"bus","public_transport:version":"2"},"n":23,"s":[[6624773064,3],[3184762441,4],[4404006961,5],[11540212685,6],[4339737104,7]]},
+  {"id":3006789985122,"t":{"ref":"38","name":"38: Leinefelde, ZOB - Teistungen, ZOB","from":"Leinefelde, ZOB","to":"Teistungen, ZOB","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[1272967940,12],[11540212685,13]]},
+  {"id":3009342353602,"t":{"ref":"38","name":"38: Teistungen, ZOB - Leinefelde, ZOB","from":"Teistungen, ZOB","to":"Leinefelde, ZOB","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[11540212685,1],[9651381964,2]]},
+  {"id":3010812932730,"t":{"ref":"1","name":"Bus 1: Dingelstädt ZOB => Duderstadt ZOB (Expressbus)","from":"Dingelstädt ZOB","to":"Duderstadt ZOB","network":"EW Bus","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":35,"s":[[11734860193,29],[11540212684,30],[4404006961,31],[3184763662,32],[3184763668,33]]},
+  {"id":3052851776399,"t":{"ref":"1","name":"Bus 1: Dingelstädt ZOB => Duderstadt ZOB (Expressbus)","from":"Dingelstädt ZOB","to":"Duderstadt ZOB","network":"EW Bus","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[11734860193,25],[11540212684,26],[4404006961,27],[3184763662,28],[3184763668,29]]},
+  {"id":3077832503742,"t":{"ref":"1","name":"Bus 1: Duderstadt ZOB => Dingelstädt ZOB (Expressbus)","from":"Duderstadt ZOB","to":"Dingelstädt ZOB","network":"EW Bus","operator":"EW Bus","colour":"#2EB220","route":"bus","public_transport:version":"2"},"n":30,"s":[[6624773064,3],[3184762441,4],[4404006961,5],[11540212685,6],[4339737104,7]]},
+  {"id":3086869593687,"t":{"ref":"1","name":"Bus 1: Dingelstädt ZOB => Duderstadt ZOB (Expressbus)","from":"Dingelstädt ZOB","to":"Duderstadt ZOB","network":"EW Bus","operator":"EW Bus GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[11734860193,17],[11540212684,18],[4404006961,19],[3184763662,20],[3184763668,21]]}
+]
+}

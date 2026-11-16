@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2841,3843],
+"stops":[
+  {"id":11036232145,"lat":52.053122,"lon":12.16782,"k":"p","n":"Deetz (ZE), Zerbster Straße"},
+  {"id":11036232146,"lat":52.053094,"lon":12.167919,"k":"p","n":"Deetz (ZE), Zerbster Straße"},
+  {"id":11036232147,"lat":52.053108,"lon":12.167865,"k":"x","n":"Deetz (ZE), Zerbster Straße"},
+  {"id":11057222173,"lat":52.055778,"lon":12.175983,"k":"p","n":"Deetz (ZE), Nedlitzer Straße"},
+  {"id":11057222174,"lat":52.055617,"lon":12.17569,"k":"p","n":"Deetz (ZE), Nedlitzer Straße"},
+  {"id":11057222175,"lat":52.055726,"lon":12.176014,"k":"x","n":"Deetz (ZE), Nedlitzer Straße"},
+  {"id":11057222176,"lat":52.055651,"lon":12.175676,"k":"x","n":"Deetz (ZE), Nedlitzer Straße"},
+  {"id":11143180648,"lat":52.097369,"lon":12.154888,"k":"x","n":"Rosian, Dorfstraße","ref":"715"},
+  {"id":11143180676,"lat":52.094107,"lon":12.150504,"k":"x","n":"Rosian, Feuerwehr","ref":"715"},
+  {"id":11143282643,"lat":52.094146,"lon":12.150477,"k":"p","n":"Rosian, Feuerwehr"},
+  {"id":11143282644,"lat":52.097401,"lon":12.154856,"k":"p","n":"Rosian, Dorfstraße"},
+  {"id":11143602929,"lat":52.094226,"lon":12.151036,"k":"p","n":"Rosian, Feuerwehr"},
+  {"id":11143615506,"lat":52.097297,"lon":12.154907,"k":"p","n":"Rosian, Dorfstraße"}
+],
+"routes":[
+  {"id":16073270,"t":{"ref":"455","name":"Bus 455: Güterglück => Deetz","from":"Güterglück, Moritzer Straße","to":"Deetz (ZE), Zerbster Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":3,"s":[[11036232146,3]]},
+  {"id":16113766,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, ehemaliger Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":19,"s":[[11036232146,17],[11057222174,18]]},
+  {"id":16113813,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Hagendorf","from":"Zerbst/Anhalt, Schwimmhalle","to":"Hagendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":19,"s":[[11036232146,12],[11057222174,13]]},
+  {"id":16115448,"t":{"ref":"450","name":"Bus 450: Hagendorf => Zerbst/Anhalt","from":"Hagendorf","to":"Zerbst/Anhalt, Schwimmhalle","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":15,"s":[[11057222173,7],[11036232145,8]]},
+  {"id":16115498,"t":{"ref":"450","name":"Bus 450: Nedlitz => Zerbst/Anhalt","from":"Nedlitz, Schule","to":"Zerbst/Anhalt, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":25,"s":[[11057222173,4],[11036232145,5]]},
+  {"id":16115526,"t":{"ref":"450","name":"Bus 450: Nedlitz => Zerbst/Anhalt","from":"Nedlitz, Schule","to":"Zerbst/Anhalt, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":21,"s":[[11057222173,5],[11036232145,6]]},
+  {"id":16242887,"t":{"ref":"715","name":"Bus 715: Göbel => Loburg => Schweinitz","from":"Göbel","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":13,"s":[[11143602929,10],[11143615506,11]]},
+  {"id":16242991,"t":{"ref":"715","name":"Bus 715: Loburg => Schweinitz","from":"Loburg, Bahnhofstraße","to":"Schweinitzer Hütten","network":"Magdeburger Regionalverkehrsverbund","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":6,"s":[[11143602929,3],[11143615506,4]]},
+  {"id":16243177,"t":{"ref":"715","name":"Bus 715: Möckern => Göbel => Loburg => Schweinitz","from":"Möckern, Schule","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[11143602929,16],[11143615506,17]]},
+  {"id":16243230,"t":{"ref":"715","name":"Bus 715: Möckern => Loburg => Schweinitz","from":"Möckern, Bahnhofstraße","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":9,"s":[[11143602929,6],[11143615506,7]]},
+  {"id":16243508,"t":{"ref":"715","name":"Bus 715: Schweinitz => Loburg => Göbel => Möckern","from":"Schweinitzer Hütten","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[11143282644,3],[11143282643,4]]},
+  {"id":16243592,"t":{"ref":"715","name":"Bus 715: Schweinitz => Loburg => Möckern","from":"Schweinitzer Hütten","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":10,"s":[[11143282644,3],[11143282643,4]]},
+  {"id":3033984658596,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":25,"s":[[11057222173,4],[11036232147,5]]},
+  {"id":3070970449258,"t":{"ref":"715","name":"Bus 715: Möckern => Göbel => Loburg => Schweinitz","from":"Möckern, Bahnhofstraße","to":"Schweinitzer Hütten","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[11143602929,16],[11143615506,17]]},
+  {"id":3078478818238,"t":{"ref":"715","name":"Bus 715: Schweinitz => Loburg => Göbel => Möckern","from":"Schweinitzer Hütten","to":"Möckern, Bahnhofstraße","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"darkblue","route":"bus","public_transport:version":"2"},"n":19,"s":[[11143282644,3],[11143282643,4]]},
+  {"id":3079915452563,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Hagendorf","from":"Zerbst/Anhalt, Bahnhof","to":"Hagendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":25,"s":[[11036232146,18],[11057222174,19]]},
+  {"id":3084381671803,"t":{"ref":"450","name":"Bus 450: Zerbst/Anhalt => Nedlitz","from":"Zerbst/Anhalt, Bahnhof","to":"Nedlitz, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":26,"s":[[11036232146,22],[11057222174,23]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3838],
+"stops":[
+  {"id":249510938,"lat":51.206858,"lon":11.92378,"k":"x","n":"Uichteritz, Erdmann-Neumeister-Platz"},
+  {"id":288868223,"lat":51.247856,"lon":11.949773,"k":"p","n":"Reichardtswerben"},
+  {"id":427282229,"lat":51.200265,"lon":11.917786,"k":"x","n":"Uichteritz, Siedlung"},
+  {"id":1724501871,"lat":51.207259,"lon":11.923843,"k":"x"},
+  {"id":6040442568,"lat":51.200254,"lon":11.938912,"k":"p","n":"Max-Lingner-Straße"},
+  {"id":6040442569,"lat":51.201509,"lon":11.943178,"k":"p","n":"Schwimmhalle"},
+  {"id":8304005254,"lat":51.247893,"lon":11.949878,"k":"x","n":"Reichardtswerben"},
+  {"id":10678770932,"lat":51.20073,"lon":11.943236,"k":"x","n":"Schwimmhalle"},
+  {"id":13470473743,"lat":51.208226,"lon":11.916846,"k":"p","n":"Uichteritz, Schule"},
+  {"id":13470481560,"lat":51.207186,"lon":11.923788,"k":"p","n":"Uichteritz, Wartehalle"},
+  {"id":13470481565,"lat":51.207321,"lon":11.923936,"k":"p","n":"Uichteritz, Wartehalle"},
+  {"id":13470481567,"lat":51.200244,"lon":11.917718,"k":"p","n":"Uichteritz, Siedlung"},
+  {"id":13470481568,"lat":51.200236,"lon":11.917835,"k":"p","n":"Uichteritz, Siedlung"},
+  {"id":13473325872,"lat":51.229673,"lon":11.910039,"k":"p","n":"Obschütz"},
+  {"id":13473325874,"lat":51.229363,"lon":11.90968,"k":"p","n":"Obschütz"},
+  {"id":13473384719,"lat":51.228323,"lon":11.924245,"k":"p","n":"Storkau"},
+  {"id":13473384725,"lat":51.228254,"lon":11.924314,"k":"p","n":"Storkau"},
+  {"id":13473384799,"lat":51.215463,"lon":11.942289,"k":"p","n":"Markwerben, Hauptstraße"},
+  {"id":13473384805,"lat":51.215234,"lon":11.941851,"k":"p","n":"Markwerben, Hauptstraße"},
+  {"id":13473384912,"lat":51.219206,"lon":11.945334,"k":"p"},
+  {"id":6054581643489,"lat":51.211732,"lon":11.935776,"k":"p","n":"Markwerben, Ortsausgang","g":1},
+  {"id":6079015698028,"lat":51.211878,"lon":11.936416,"k":"p","n":"Markwerben, Ortsausgang","g":1}
+],
+"routes":[
+  {"id":8894985,"t":{"ref":"206","name":"Bus 206","network":"Mitteldeutscher Verkehrsverbund","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"1"},"n":13,"s":[[6040442569,7],[6040442568,8]]},
+  {"id":12044386,"t":{"ref":"796","name":"Bus 796: Weißenfels - Schöne Aussicht - Wiedebach","network":"Mitteldeutscher Verkehrsverbund","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":12,"s":[[6040442569,4],[6040442568,5]]},
+  {"id":12152834,"t":{"ref":"793","name":"Bus 793: Reichartswerben => Weißenfels","from":"Posendorf","to":"Weißenfels Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus"},"n":8,"s":[[288868223,2]]},
+  {"id":3003902552109,"t":{"ref":"796","name":"796: Weißenfels, Busbahnhof - Leißling, EKZ","from":"Weißenfels, Busbahnhof","to":"Leißling, EKZ","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":11,"s":[[10678770932,6],[6040442568,7]]},
+  {"id":3032292858191,"t":{"ref":"796","name":"796: Leißling, EKZ - Weißenfels, Busbahnhof","from":"Leißling, EKZ","to":"Weißenfels, Busbahnhof","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":11,"s":[[10678770932,4],[6040442568,5]]},
+  {"id":3038696491705,"t":{"ref":"207","name":"Bus 207","network":"Mitteldeutscher Verkehrsverbund","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":15,"s":[[10678770932,6],[6040442568,7]]},
+  {"id":3055457605739,"t":{"ref":"793","name":"Bus 793: Weißenfels => Reichartswerben","from":"Weißenfels Busbahnhof","to":"Posendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus","public_transport:version":"2"},"n":12,"s":[[8304005254,8]]},
+  {"id":3059398055543,"t":{"ref":"206","name":"206: Weißenfels, Busbahnhof - Weißenfels, Busbahnhof","from":"Weißenfels, Busbahnhof","to":"Weißenfels, Busbahnhof","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":15,"s":[[10678770932,7],[6040442568,8]]},
+  {"id":3070554789884,"t":{"ref":"792","name":"792: Goseck, Bergschlösschen - Weißenfels, Busbahnhof","from":"Goseck, Bergschlösschen","to":"Weißenfels, Busbahnhof","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":12,"s":[[13470481565,5],[6079015698028,6],[13473384799,7]]},
+  {"id":3075889842719,"t":{"ref":"792","name":"792: Pettstädt (Storkau), Ort bzw. Pettstädt (Storkau) - Weißenfels, Busbahnhof","from":"Pettstädt (Storkau), Ort bzw. Pettstädt (Storkau)","to":"Weißenfels, Busbahnhof","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":9,"s":[[13473325872,2],[13473384719,3]]},
+  {"id":3078892647651,"t":{"ref":"792","name":"792: Weißenfels, Busbahnhof - Goseck, Bergschlösschen","from":"Weißenfels, Busbahnhof","to":"Goseck, Bergschlösschen","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":16,"s":[[13473384799,4],[6054581643489,5],[249510938,6],[13470481567,7],[427282229,10],[13470481560,11]]},
+  {"id":3092056675364,"t":{"ref":"793","name":"Bus 793: Weißenfels => Reichartswerben","from":"Weißenfels Busbahnhof","to":"Posendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"unbekannt","route":"bus","public_transport:version":"2"},"n":9,"s":[[8304005254,8]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3858],
+"stops":[
+  {"id":28802488,"lat":51.563938,"lon":12.924969,"k":"x","n":"Süptitz, Am Anger"},
+  {"id":343139731,"lat":51.595709,"lon":12.946848,"k":"p","n":"Neiden"},
+  {"id":343139855,"lat":51.563844,"lon":12.925417,"k":"p","n":"Süptitz, Am Anger"},
+  {"id":6171622201,"lat":51.566628,"lon":12.912795,"k":"p","n":"Süptitz (Dreiheide), B183/Sandstr."},
+  {"id":8795659282,"lat":51.595716,"lon":12.946642,"k":"p","n":"Neiden"},
+  {"id":10601396187,"lat":51.563983,"lon":12.924976,"k":"p","n":"Süptitz, Am Anger"},
+  {"id":10601396188,"lat":51.563885,"lon":12.925421,"k":"x","n":"Süptitz, Am Anger"}
+],
+"routes":[
+  {"id":15422336,"t":{"ref":"235","name":"Bus 235: Bad Düben => Zinna","from":"Bad Düben, Paradeplatz","to":"Zinna, Schmiedegasse","network":"Mitteldeutscher Verkehrsverbund","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[343139855,11]]},
+  {"id":15422614,"t":{"ref":"235","name":"Bus 235: Zinna => Bad Düben","from":"Zinna, Schmiedegasse","to":"Bad Düben, Paradeplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[10601396187,2]]},
+  {"id":3012611150666,"t":{"ref":"782","name":"Bus 782","network":"Mitteldeutscher Verkehrsverbund","operator":"Reiseverkehr Schulze","route":"bus","public_transport:version":"2"},"n":23,"s":[[10601396187,8],[6171622201,9]]},
+  {"id":3019225605164,"t":{"ref":"782","name":"782: Torgau, Str. der Jugend - Weidenhain (Dreiheide)","from":"Torgau, Str. der Jugend","to":"Weidenhain (Dreiheide)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[10601396187,9],[6171622201,10]]},
+  {"id":3027149772169,"t":{"ref":"759","name":"PlusBus 759: Torgau => Dommitzsch => Greudnitz","from":"Torgau, Straße der Jugend","to":"Greudnitz","network":"Mitteldeutscher Verkehrsverbund","operator":"OV Heideland","route":"bus","public_transport:version":"2"},"n":25,"s":[[343139731,13]]},
+  {"id":3055527771644,"t":{"ref":"759","name":"PlusBus 759: Greudnitz => Dommitzsch => Torgau","from":"Greudnitz","to":"Torgau, Straße der Jugend","network":"Mitteldeutscher Verkehrsverbund","operator":"OV Heideland","route":"bus","public_transport:version":"2"},"n":24,"s":[[8795659282,13]]},
+  {"id":3066451662292,"t":{"ref":"759","name":"PlusBus 759: Greudnitz => Dommitzsch => Torgau","from":"Greudnitz","to":"Torgau, Straße der Jugend","network":"Mitteldeutscher Verkehrsverbund","operator":"OV Heideland","route":"bus","public_transport:version":"2"},"n":23,"s":[[8795659282,13]]}
+]
+}

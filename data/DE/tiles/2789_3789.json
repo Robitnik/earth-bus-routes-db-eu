@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2789,3789],
+"stops":[
+  {"id":633484586,"lat":49.474371,"lon":9.499967,"k":"p","n":"Hirschlanden"},
+  {"id":8146298590,"lat":49.487841,"lon":9.453814,"k":"p","n":"Sindolsheim Ort"},
+  {"id":8146342044,"lat":49.487838,"lon":9.453932,"k":"p","n":"Sindolsheim Ort"},
+  {"id":11300955248,"lat":49.486703,"lon":9.455406,"k":"p","n":"Sindolsheim Luckengasse"},
+  {"id":11492519635,"lat":49.45763,"lon":9.473262,"k":"p","n":"Rosenberg, Rathaus"},
+  {"id":11492519636,"lat":49.457532,"lon":9.473457,"k":"p","n":"Rosenberg, Rathaus"},
+  {"id":11964679242,"lat":49.452473,"lon":9.478626,"k":"p","n":"Abzweigung Bronnacker"},
+  {"id":11964679243,"lat":49.452734,"lon":9.47981,"k":"p","n":"Abzweigung Bronnacker"},
+  {"id":14318518827,"lat":49.457765,"lon":9.471361,"k":"x","n":"Bahnhof"},
+  {"id":14318518828,"lat":49.457737,"lon":9.471382,"k":"p","n":"Bahnhof"},
+  {"id":6001450567480,"lat":49.455058,"lon":9.474477,"k":"p","n":"Rosenberg, Brücke","g":1},
+  {"id":6010065729031,"lat":49.460349,"lon":9.475573,"k":"p","n":"Rosenberg, Firma Getrag","g":1}
+],
+"routes":[
+  {"id":3002961310797,"t":{"ref":"939","name":"939: Rosenberg, Bahnhof - Eubigheim, Bahnhof","from":"Rosenberg, Bahnhof","to":"Eubigheim, Bahnhof","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":8,"s":[[14318518827,1],[11300955248,2],[8146342044,3]]},
+  {"id":3015886409929,"t":{"ref":"844","name":"Bus 844: Buchen => Osterburken","from":"Buchen Bahnhof","to":"Osterburken Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":10,"s":[[8146342044,3]]},
+  {"id":3025773105212,"t":{"ref":"8932","name":"8932: Osterburken, Bahnhof - Osterburken, Bahnhof","from":"Osterburken, Bahnhof","to":"Osterburken, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":14,"s":[[6001450567480,5],[11492519635,6],[6010065729031,7],[633484586,8],[11300955248,9]]},
+  {"id":3045441785890,"t":{"ref":"939","name":"939: Eubigheim, Bahnhof - Rosenberg, Bahnhof","from":"Eubigheim, Bahnhof","to":"Rosenberg, Bahnhof","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":8,"s":[[8146298590,6],[11300955248,7],[14318518827,8]]},
+  {"id":3056328998644,"t":{"ref":"844","name":"Bus 844: Buchen => Osterburken","from":"Buchen Bahnhof","to":"Osterburken Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":11,"s":[[8146342044,3]]},
+  {"id":3058136942788,"t":{"ref":"844","name":"844: Rosenberg, Rathaus - Rosenberg, Rathaus","from":"Rosenberg, Rathaus","to":"Rosenberg, Rathaus","operator":"Busverkehr-Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":5,"s":[[11492519636,1,5],[6001450567480,2],[633484586,4]]},
+  {"id":3088232161073,"t":{"ref":"844","name":"Bus 844: Osterburken => Buchen","from":"Osterburken Bf.","to":"Buchen Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":11,"s":[[8146342044,9]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2766,3783],
+"stops":[
+  {"id":275403294,"lat":48.344631,"lon":9.162671,"k":"x","n":"Melchinger Mühle","ref":"7635"},
+  {"id":783815598,"lat":48.344549,"lon":9.162727,"k":"p","n":"Melchinger Mühle"},
+  {"id":783815610,"lat":48.34475,"lon":9.162528,"k":"p","n":"Melchinger Mühle"},
+  {"id":2630595483,"lat":48.331761,"lon":9.18152,"k":"x","n":"Stetten u.H. Lamm","ref":"7635"},
+  {"id":5884588164,"lat":48.302233,"lon":9.194771,"k":"x","n":"Hausen an der Lauchert"},
+  {"id":5884588165,"lat":48.302303,"lon":9.194767,"k":"p","n":"Hausen an der Lauchert"},
+  {"id":5884588167,"lat":48.316874,"lon":9.19653,"k":"x","n":"Hörschwag Mauritiusstraße"},
+  {"id":5884588168,"lat":48.316864,"lon":9.196658,"k":"p","n":"Hörschwag Mauritiusstraße"},
+  {"id":5884588169,"lat":48.329647,"lon":9.180485,"k":"x","n":"Stetten u.H. Festhalle"},
+  {"id":5884588170,"lat":48.32952,"lon":9.180547,"k":"p","n":"Stetten u.H. Festhalle"},
+  {"id":5884588171,"lat":48.329657,"lon":9.180361,"k":"p","n":"Stetten u.H. Festhalle"},
+  {"id":5884588184,"lat":48.316855,"lon":9.196492,"k":"p","n":"Hörschwag Mauritiusstraße"},
+  {"id":5884591285,"lat":48.302207,"lon":9.1947,"k":"p","n":"Hausen an der Lauchert"},
+  {"id":5884591288,"lat":48.335062,"lon":9.184388,"k":"x","n":"Stetten u.H. Heilenbergstraße"},
+  {"id":5884591289,"lat":48.33512,"lon":9.184352,"k":"p","n":"Stetten u.H. Heilenbergstraße"},
+  {"id":5884591291,"lat":48.3318,"lon":9.181521,"k":"p","n":"Stetten u.H. Lamm"},
+  {"id":5884591292,"lat":48.331735,"lon":9.181385,"k":"p","n":"Stetten u.H. Lamm"},
+  {"id":5000257565915,"lat":48.344511,"lon":9.162871,"k":"p","n":"Melchinger Mühle","ref":"7635"},
+  {"id":5000257565917,"lat":48.344726,"lon":9.162518,"k":"p","n":"Melchinger Mühle","ref":"7635"}
+],
+"routes":[
+  {"id":8649427,"t":{"ref":"5","name":"Linie 5 Hausen => Burladingen","from":"Hausen an der Lauchert","to":"Burladingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Hohenzolleorische Landesbahn","route":"bus","public_transport:version":"2"},"n":9,"s":[[5884588165,1],[5884588168,2],[5884588170,3],[783815610,4]]},
+  {"id":8649437,"t":{"ref":"5","name":"Linie 5 Burladingen => Hausen via Gasth. Berg","from":"Burladingen Bahnhof","to":"Hausen an der Lauchert","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Hohenzolleorische Landesbahn","route":"bus"},"n":5,"s":[[5884588169,3],[5884588167,4],[5884588164,5]]},
+  {"id":8649438,"t":{"ref":"5","name":"Linie 5 Gauselfingen => Stetten","from":"Gauselfingen","to":"Stetten u.H.","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Hohenzolleorische Landesbahn","route":"bus"},"n":5,"s":[[5884588164,2],[5884588167,3],[5884591288,4],[5884588169,5]]},
+  {"id":8649439,"t":{"ref":"5","name":"Linie 5 Burladingen => Melchingen","from":"Burladingen","to":"Melchingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Hohenzolleorische Landesbahn","route":"bus"},"n":10,"s":[[5884588164,3],[5884588167,4],[5884588169,5],[2630595483,6],[275403294,7]]},
+  {"id":8649440,"t":{"ref":"5","name":"Linie 5 Melchingen => Burladingen","from":"Melchingen","to":"Burladingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Hohenzollerische Landesbahn","route":"bus"},"n":8,"s":[[275403294,3],[2630595483,4],[5884588169,5]]},
+  {"id":8649441,"t":{"ref":"5","name":"Linie 5 Burladingen=> Salmendingen => Gauselfingen => Burladingen","from":"Burladingen Schulzentum","to":"Burladingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Hohenzolleorische Landesbahn","route":"bus"},"n":13,"s":[[275403294,7],[2630595483,8],[5884588169,9],[5884588167,10],[5884588164,11]]},
+  {"id":3025029092070,"t":{"ref":"7635","name":"DE_naldo_7635_02: Stetten u. H. => Reutlingen","from":"Stetten u. H.","to":"Reutlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#F7B24F","route":"bus","public_transport:version":"2"},"n":22,"s":[[5884591292,3],[783815610,4]]},
+  {"id":3041645898863,"t":{"ref":"7635","name":"DE_naldo_7635_01: Reutingen => Stetten u. H.","from":"Reutlingen","to":"Stetten u. H.","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#F7B24F","route":"bus","public_transport:version":"2"},"n":23,"s":[[783815610,20],[2630595483,21]]}
+]
+}

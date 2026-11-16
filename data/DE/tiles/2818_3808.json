@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2818,3808],
+"stops":[
+  {"id":205180246,"lat":50.914942,"lon":10.402594,"k":"x","n":"Thal, Eiche"},
+  {"id":205180282,"lat":50.917251,"lon":10.415137,"k":"x","n":"Seebach, Unterdorf"},
+  {"id":907202190,"lat":50.916915,"lon":10.415962,"k":"p","n":"Seebach, Unterdorf"},
+  {"id":907202201,"lat":50.917316,"lon":10.415162,"k":"p","n":"Seebach, Unterdorf"},
+  {"id":1011265461,"lat":50.94489,"lon":10.429834,"k":"p","n":"Schönau, Bahnhof"},
+  {"id":1030641571,"lat":50.94433,"lon":10.430607,"k":"p"},
+  {"id":1195796887,"lat":50.914899,"lon":10.402409,"k":"p","n":"Thal, Eiche"},
+  {"id":1195796903,"lat":50.915074,"lon":10.402404,"k":"p","n":"Thal, Eiche"},
+  {"id":1683230940,"lat":50.937518,"lon":10.428776,"k":"p","n":"Deubach, Linde"},
+  {"id":1683230941,"lat":50.937784,"lon":10.42842,"k":"p","n":"Deubach, Linde"},
+  {"id":1683230943,"lat":50.929943,"lon":10.437104,"k":"p","n":"Deubach, Wendestelle"},
+  {"id":2622791608,"lat":50.915003,"lon":10.402236,"k":"x","n":"Thal, Eiche"},
+  {"id":4273138348,"lat":50.912362,"lon":10.424788,"k":"x","n":"Seebach Ort"},
+  {"id":7648975333,"lat":50.91236,"lon":10.424955,"k":"p","n":"Seebach, Ort"},
+  {"id":7648975334,"lat":50.91218,"lon":10.424807,"k":"p","n":"Seebach, Ort"},
+  {"id":8441318766,"lat":50.916938,"lon":10.416119,"k":"x","n":"Seebach, Unterdorf"},
+  {"id":8441318767,"lat":50.912229,"lon":10.424969,"k":"x","n":"Seebach, Ort"}
+],
+"routes":[
+  {"id":3004837025197,"t":{"ref":"840","name":"840: Seebach (b. Eisenach), Unterdorf - Bad Tabarz, Busbahnhof","from":"Seebach (b. Eisenach), Unterdorf","to":"Bad Tabarz, Busbahnhof","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":11,"s":[[907202190,1],[4273138348,2]]},
+  {"id":3008003228187,"t":{"ref":"140","name":"Bus 140: Ruhla => Eisenach","from":"Ruhla","to":"Eisenach","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":33,"s":[[1195796887,15],[907202190,16],[4273138348,17],[205180282,18],[2622791608,19]]},
+  {"id":3026852516223,"t":{"ref":"840","name":"840: Bad Tabarz, Busbahnhof - Eisenach, ZOB","from":"Bad Tabarz, Busbahnhof","to":"Eisenach, ZOB","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":20,"s":[[4273138348,10],[205180282,11],[2622791608,12]]},
+  {"id":3037244261975,"t":{"ref":"840","name":"840: Eisenach, ZOB - Bad Tabarz, Busbahnhof","from":"Eisenach, ZOB","to":"Bad Tabarz, Busbahnhof","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":21,"s":[[1195796887,10],[907202190,11],[4273138348,12]]},
+  {"id":3041648067127,"t":{"ref":"140","name":"Bus 140: Ruhla => Eisenach","from":"Ruhla","to":"Eisenach","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":32,"s":[[1195796887,15],[907202190,16],[4273138348,17],[205180282,18],[2622791608,19]]},
+  {"id":3070854815032,"t":{"ref":"140","name":"Bus 140: Eisenach => Ruhla","from":"Eisenach","to":"Ruhla","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":29,"s":[[1195796887,16],[907202190,17],[4273138348,18],[205180282,19],[2622791608,20]]},
+  {"id":3077080358447,"t":{"ref":"140","name":"Bus 140: Eisenach => Ruhla","from":"Eisenach","to":"Ruhla","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":28,"s":[[1195796887,15],[907202190,16],[4273138348,17],[205180282,18],[2622791608,19]]},
+  {"id":3078103426173,"t":{"ref":"142","name":"Bus 142: Eisenach => Bad Tabarz","from":"Eisenach","to":"Bad Tabarz","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":46,"s":[[1195796887,15],[907202190,16],[4273138348,17],[205180282,18],[2622791608,19]]},
+  {"id":3080736573705,"t":{"ref":"840","name":"840: Bad Tabarz, Busbahnhof - Seebach (b. Eisenach), Unterdorf","from":"Bad Tabarz, Busbahnhof","to":"Seebach (b. Eisenach), Unterdorf","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":11,"s":[[4273138348,10],[205180282,11]]},
+  {"id":3088259758664,"t":{"ref":"142","name":"Bus 142: Bad Tabarz => Eisenach","from":"Bad Tabarz","to":"Eisenach","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":46,"s":[[1195796887,29],[907202190,30],[4273138348,31],[205180282,32],[2622791608,33]]}
+]
+}

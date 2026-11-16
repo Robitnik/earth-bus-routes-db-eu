@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2842,3745],
+"stops":[
+  {"id":259063660,"lat":52.115194,"lon":7.294328,"k":"x","n":"Kindergarten"},
+  {"id":618479761,"lat":52.147224,"lon":7.299965,"k":"p","n":"Elkmann"},
+  {"id":1696673330,"lat":52.120868,"lon":7.265422,"k":"p","n":"Helling","ref":"de:05566:30456"},
+  {"id":1696673350,"lat":52.120903,"lon":7.265431,"k":"p","n":"Helling","ref":"de:05566:30456"},
+  {"id":1696673357,"lat":52.119255,"lon":7.260405,"k":"p","n":"Möllers"},
+  {"id":1696673368,"lat":52.119964,"lon":7.257669,"k":"p","n":"Palster","ref":"de:05566:62129"},
+  {"id":3373405025,"lat":52.113138,"lon":7.296854,"k":"p","n":"Dorfplatz"},
+  {"id":3373405026,"lat":52.113114,"lon":7.296615,"k":"p","n":"Dorfplatz"},
+  {"id":5380961685,"lat":52.120432,"lon":7.297204,"k":"p","n":"Feldbahnhof"},
+  {"id":5380961687,"lat":52.120049,"lon":7.296765,"k":"p","n":"Feldbahnhof"},
+  {"id":5380961694,"lat":52.120048,"lon":7.296912,"k":"x","n":"Feldbahnhof"},
+  {"id":5380961695,"lat":52.120443,"lon":7.297093,"k":"x","n":"Feldbahnhof"},
+  {"id":5380961696,"lat":52.11518,"lon":7.294159,"k":"p","n":"Kindergarten"},
+  {"id":5380961697,"lat":52.115151,"lon":7.294364,"k":"p","n":"Kindergarten"},
+  {"id":5380961698,"lat":52.115137,"lon":7.294207,"k":"x","n":"Kindergarten"},
+  {"id":5380961699,"lat":52.113146,"lon":7.296716,"k":"x","n":"Dorfplatz"},
+  {"id":5380961700,"lat":52.113096,"lon":7.296759,"k":"x","n":"Dorfplatz"},
+  {"id":10861764291,"lat":52.124798,"lon":7.261563,"k":"p","n":"Kestermann","ref":"de:05566:11910"},
+  {"id":10861764292,"lat":52.124831,"lon":7.261568,"k":"x","n":"Kestermann","ref":"de:05566:11910"},
+  {"id":10861764293,"lat":52.120174,"lon":7.270687,"k":"p","n":"Haltern","ref":"de:05566:30999"},
+  {"id":10861764294,"lat":52.120237,"lon":7.270819,"k":"p","n":"Haltern","ref":"de:05566:30999"},
+  {"id":10861801896,"lat":52.119978,"lon":7.257639,"k":"x","n":"Palster","ref":"de:05566:62129"},
+  {"id":10861801897,"lat":52.123402,"lon":7.256733,"k":"p","n":"Budde","ref":"de:05566:63375"},
+  {"id":10861801898,"lat":52.123396,"lon":7.256688,"k":"x","n":"Budde","ref":"de:05566:63375"}
+],
+"routes":[
+  {"id":2105637,"t":{"ref":"186","name":"Bus 186 Burgsteinfurt - Schöppingen","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","bus":"school"},"n":17,"s":[[1696673330,1],[1696673350,2]]},
+  {"id":2105638,"t":{"ref":"272","name":"Bus 272 Leer","from":"Haltern","to":"Leer, Grundschule","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus"},"n":11,"s":[[1696673357,4],[1696673368,5],[3373405026,6],[10861801897,9],[10861764291,10]]},
+  {"id":7948904,"t":{"ref":"R81","name":"Bus R81: Coesfeld, Bahnhof => Burgsteinfurt, Bahnhof","from":"Coesfeld, Bahnhof","to":"Burgsteinfurt, Bahnhof","network":"WestfalenTarif","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":30,"s":[[3373405025,21],[5380961697,22],[5380961685,23]]},
+  {"id":7968626,"t":{"ref":"R81","name":"Bus R81: Darfeld, Kortüms Esch => Burgsteinfurt, Gymnasium","from":"Darfeld, Kortüms Esch","to":"Burgsteinfurt, Gymnasium","network":"WestfalenTarif","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":22,"s":[[3373405025,12],[5380961697,13],[5380961685,14]]},
+  {"id":7968627,"t":{"ref":"R81","name":"Bus R81: Coesfeld, Bahnhof => Horstmar, Borghorster Weg => Burgsteinfurt, Bahnhof","from":"Coesfeld, Bahnhof","to":"Burgsteinfurt, Bahnhof","network":"WestfalenTarif","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":32,"s":[[3373405025,23],[5380961697,24],[5380961685,25]]},
+  {"id":7968645,"t":{"ref":"R81","name":"Bus R81: Burgsteinfurt, Bahnhof => Coesfeld, Heriburg-Gymnasium => Coesfeld, Bahnhof","from":"Burgsteinfurt, Bahnhof","to":"Coesfeld, Bahnhof","network":"WestfalenTarif","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":30,"s":[[5380961687,8],[5380961696,9],[3373405026,10]]},
+  {"id":3063803973936,"t":{"ref":"R81","name":"Bus R81: Burgsteinfurt, Bahnhof => Coesfeld, Bahnhof","from":"Burgsteinfurt, Bahnhof","to":"Coesfeld, Bahnhof","network":"WestfalenTarif","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":29,"s":[[3373405026,20],[5380961696,21],[5380961687,22]]},
+  {"id":3091666453050,"t":{"ref":"158","name":"158: Burgsteinfurt, Willibrordsch. - Burgsteinfurt, Nefigmann","from":"Burgsteinfurt, Willibrordsch.","to":"Burgsteinfurt, Nefigmann","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":18,"s":[[618479761,17]]},
+  {"id":3099057005379,"t":{"ref":"R81","name":"Bus R81: Burgsteinfurt, Bahnhof => Coesfeld, Bahnhof","from":"Burgsteinfurt, Bahnhof","to":"Coesfeld, Bahnhof","network":"WestfalenTarif","operator":"Veelker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":30,"s":[[5380961695,8],[259063660,9],[5380961699,10]]}
+]
+}

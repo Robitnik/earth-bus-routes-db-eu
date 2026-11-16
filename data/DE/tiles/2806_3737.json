@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2806,3737],
+"stops":[
+  {"id":5400820901,"lat":50.323921,"lon":6.874319,"k":"x"},
+  {"id":5400820906,"lat":50.323916,"lon":6.874205,"k":"p"},
+  {"id":13421832794,"lat":50.336794,"lon":6.89206,"k":"x","n":"Wiesemscheid Dorfplatz"},
+  {"id":13421832795,"lat":50.336819,"lon":6.891987,"k":"p","n":"Wiesemscheid Dorfplatz"},
+  {"id":6009619760522,"lat":50.316147,"lon":6.88441,"k":"p","n":"Meisenthal, Abzw.","g":1},
+  {"id":6061615460546,"lat":50.312774,"lon":6.887258,"k":"p","n":"Rothenbach, Alte Schule","g":1}
+],
+"routes":[
+  {"id":20033210,"t":{"ref":"884 Rufbus","name":"884 Rufbus Nohn - Barweiler - Adenau","from":"Nohn","to":"Adenau","operator":"Verkehrsbetriebe Mittelrhein","route":"bus"},"n":27,"s":[[13421832794,15],[13421832795,16]]},
+  {"id":3042080189948,"t":{"ref":"508 RufBus","name":"508 RufBus: Kelberg, Busbahnhof - Meisenthal, Abzw.","from":"Kelberg, Busbahnhof","to":"Meisenthal, Abzw.","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[6061615460546,4],[6009619760522,5]]},
+  {"id":3048122420979,"t":{"ref":"508 RufBus","name":"508 RufBus: Meisenthal, Abzw. - Kelberg, Busbahnhof","from":"Meisenthal, Abzw.","to":"Kelberg, Busbahnhof","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[6009619760522,1],[6061615460546,2]]},
+  {"id":3048354884941,"t":{"ref":"884","name":"884: Adenau Markt - Nohn, Ortsmitte","from":"Adenau Markt","to":"Nohn, Ortsmitte","operator":"Verkehrsbetriebe Mittelrhein VREM","route":"bus","public_transport:version":"2"},"n":14,"s":[[13421832794,7]]},
+  {"id":3052581871733,"t":{"ref":"884","name":"884: Nohn, Ortsmitte - Adenau Markt","from":"Nohn, Ortsmitte","to":"Adenau Markt","operator":"Verkehrsbetriebe Mittelrhein VREM","route":"bus","public_transport:version":"2"},"n":14,"s":[[13421832794,8]]}
+]
+}

@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2826,3884],
+"stops":[
+  {"id":266125605,"lat":51.301366,"lon":14.248414,"k":"p","n":"Ralbitz Hauptstraße / Ralbicy Hłowna"},
+  {"id":685090298,"lat":51.322769,"lon":14.235543,"k":"x","n":"Cunnewitz / Konjecy"},
+  {"id":1939433184,"lat":51.301009,"lon":14.228839,"k":"p","n":"Laske / Łazk"},
+  {"id":1967115742,"lat":51.349221,"lon":14.215126,"k":"p","n":"Sollschwitz (bei Wittichenau) Feuerwehr / Sulšecy (pola Kulow) Wohnjowa wobora","ref":"6945"},
+  {"id":2422453459,"lat":51.302205,"lon":14.214977,"k":"p","n":"Schmerlitz"},
+  {"id":4846557336,"lat":51.340195,"lon":14.201295,"k":"x","n":"Trado Dorfteich"},
+  {"id":5141067579,"lat":51.323026,"lon":14.226618,"k":"p","n":"Schönau Wittichenauer Straße"},
+  {"id":5141067580,"lat":51.322829,"lon":14.227474,"k":"p","n":"Schönau Reichenstraße"},
+  {"id":6868293698,"lat":51.322716,"lon":14.235585,"k":"p","n":"Cunnewitz - Konjecy"},
+  {"id":6868293699,"lat":51.322816,"lon":14.235475,"k":"p","n":"Cunnewitz - Konjecy"},
+  {"id":8915908775,"lat":51.334582,"lon":14.203279,"k":"p","n":"Trado Siedlung"},
+  {"id":8921434356,"lat":51.30227,"lon":14.215029,"k":"p","n":"Schmerlitz"},
+  {"id":8921471049,"lat":51.301478,"lon":14.248478,"k":"p","n":"Ralbitz Hauptstraße / Ralbicy Hłowna"},
+  {"id":8921551852,"lat":51.322757,"lon":14.227668,"k":"p","n":"Schönau Reichenstraße"},
+  {"id":12227911728,"lat":51.323088,"lon":14.226678,"k":"p","n":"Schönau Wittichenauer Straße"},
+  {"id":12229640805,"lat":51.34945,"lon":14.215156,"k":"p","n":"Sollschwitz (bei Wittichenau Feuerwehr) / Sulšecy (pola Kulow) Wohnjowa wobora","ref":"6945"}
+],
+"routes":[
+  {"id":18117153,"t":{"ref":"710","name":"Bus 710: Zerna => Nebelschütz => Bautzen","from":"Zerna","to":"Bautzen Sorbisches Schulzentrum","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":26,"s":[[1939433184,4],[8921434356,5]]},
+  {"id":18117154,"t":{"ref":"710","name":"Bus 710: Bautzen => Nebelschütz => Zerna","from":"Bautzen Sorbisches Schulzentrum","to":"Zerna","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":27,"s":[[2422453459,23],[1939433184,24]]},
+  {"id":18125143,"t":{"ref":"711","name":"Bus 711: Dubring => Wittichenau => Dreistern => Bautzen","from":"Dubring","to":"Bautzen Sorbisches Schulzentrum","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":27,"s":[[1967115742,12],[5141067579,13],[6868293698,14]]},
+  {"id":3010258457694,"t":{"ref":"711","name":"Bus 711: Bautzen => Dreistern => Wittichenau => Dubring","from":"Bautzen Sorbisches Schulzentrum","to":"Dubring","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[6868293699,2],[8921551852,3],[1967115742,4]]},
+  {"id":3014071885695,"t":{"ref":"789","name":"789: Trado Dorfteich - Elstra Markt","from":"Trado Dorfteich","to":"Elstra Markt","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":32,"s":[[4846557336,1],[1967115742,2]]},
+  {"id":3041987089367,"t":{"ref":"774","name":"774: Wittichenau Markt - Räckelwitz Bäckerei","from":"Wittichenau Markt","to":"Räckelwitz Bäckerei","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":18,"s":[[1967115742,9],[12227911728,10],[2422453459,11]]},
+  {"id":3061468155077,"t":{"ref":"774","name":"774: Räckelwitz Bäckerei - Wittichenau Markt","from":"Räckelwitz Bäckerei","to":"Wittichenau Markt","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":15,"s":[[12227911728,8],[1967115742,9]]},
+  {"id":3065509354593,"t":{"ref":"791","name":"Bus 791: Königswartha => Kamenz","from":"Königswartha, Grundschule","to":"Kamenz, Bahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":24,"s":[[8921471049,8],[6868293699,9],[5141067580,10],[2422453459,11],[1939433184,12]]}
+]
+}

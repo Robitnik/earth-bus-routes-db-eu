@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2849,3884],
+"stops":[
+  {"id":1843581037,"lat":52.453321,"lon":14.213988,"k":"p","n":"Heinersdorf (LOS) Dorf"},
+  {"id":1843581038,"lat":52.453317,"lon":14.213498,"k":"p","n":"Heinersdorf (LOS) Dorf"},
+  {"id":4737116150,"lat":52.47352,"lon":14.215792,"k":"p","n":"Behlendorf"},
+  {"id":11265074853,"lat":52.473481,"lon":14.21581,"k":"x","n":"Steinhöfel (LOS), Behlendorf"},
+  {"id":11265110214,"lat":52.453393,"lon":14.21392,"k":"x","n":"Heinersdorf (LOS), Dorf"},
+  {"id":11265110215,"lat":52.453261,"lon":14.213594,"k":"x","n":"Heinersdorf (LOS), Dorf"},
+  {"id":11978452942,"lat":52.453483,"lon":14.218623,"k":"p","n":"Heinersdorf (LOS) Schule"}
+],
+"routes":[
+  {"id":7077279,"t":{"ref":"970","name":"Bus 970: Müncheberg => Frankfurt (Oder)","from":"Müncheberg","to":"Frankfurt (Oder)","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus"},"n":13,"s":[[1843581037,5]]},
+  {"id":16495687,"t":{"ref":"970","name":"Bus 970: Heinersdorf => Behlendorf => Müncheberg","from":"Heinersdorf","to":"Müncheberg","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[1843581038,1],[4737116150,2]]},
+  {"id":16495688,"t":{"ref":"970","name":"Bus 970: Frankfurt (Oder) => Müncheberg","from":"Frankfurt (Oder)","to":"Müncheberg","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus"},"n":13,"s":[[1843581038,9]]},
+  {"id":16495689,"t":{"ref":"970","name":"Bus 970: Müncheberg => Behlendorf => Heinersdorf","from":"Müncheberg","to":"Heinersdorf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"mobus Märkisch-Oderland Bus GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[4737116150,6],[1843581037,7]]},
+  {"id":3007352978993,"t":{"ref":"433","name":"433: Steinhöfel (LOS), Behlendorf - Fürstenwalde, Bahnhof","from":"Steinhöfel (LOS), Behlendorf","to":"Fürstenwalde, Bahnhof","operator":"Busverkehr Oder-Spree GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[11265074853,1],[1843581038,2]]},
+  {"id":3097691880916,"t":{"ref":"433","name":"Bus 433: Arensdorf => Fürstenwalde","from":"Arensdorf","to":"Fürstenwalde","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Busverkehr Oder-Spree GmbH","colour":"purple","route":"bus","public_transport:version":"2"},"n":23,"s":[[1843581037,22],[11265074853,23]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2764,3811],
+"stops":[
+  {"id":291644995,"lat":48.24577,"lon":10.551071,"k":"x","n":"Lauterbach"},
+  {"id":503075480,"lat":48.225833,"lon":10.589885,"k":"p","n":"Walkertshofen Raiffeisenbank"},
+  {"id":819211720,"lat":48.237913,"lon":10.591627,"k":"p","n":"Gumpenweiler Bahnhof"},
+  {"id":819211737,"lat":48.225764,"lon":10.58936,"k":"x","n":"Walkertshofen Raiffeisenbank"},
+  {"id":819211743,"lat":48.225803,"lon":10.58925,"k":"p","n":"Walkertshofen Raiffeisenbank"},
+  {"id":819211757,"lat":48.237756,"lon":10.591484,"k":"p","n":"Gumpenweiler Bahnhof"},
+  {"id":1259830300,"lat":48.2457,"lon":10.550966,"k":"p","n":"Lauterbach","ref":"8127"},
+  {"id":5110813180,"lat":48.237935,"lon":10.59157,"k":"x","n":"Gumpenweiler Bahnhof"},
+  {"id":5110813181,"lat":48.237739,"lon":10.591579,"k":"x","n":"Gumpenweiler Bahnhof"},
+  {"id":5910296888,"lat":48.225906,"lon":10.589933,"k":"x","n":"Walkertshofen Raiffeisenbank"},
+  {"id":8768139263,"lat":48.215799,"lon":10.551106,"k":"p","n":"Obergessertshausen, Dorfplatz"},
+  {"id":8979549779,"lat":48.241927,"lon":10.579876,"k":"p","n":"Gumpenweiler"},
+  {"id":8979555561,"lat":48.237029,"lon":10.599958,"k":"p","n":"Oberrothan"},
+  {"id":9158171779,"lat":48.226998,"lon":10.587777,"k":"p","n":"Schörrstraße"},
+  {"id":9796206005,"lat":48.208404,"lon":10.578506,"k":"p","n":"Lutzenberg"},
+  {"id":6077369309354,"lat":48.226336,"lon":10.590877,"k":"p","n":"Walkertshofen, Raiffeisenbank","g":1}
+],
+"routes":[
+  {"id":1075477,"t":{"ref":"604","name":"AVV-Regionalbus 604: Gessertshausen => Markt Wald","from":"Gessertshausen, Bahnhof","to":"Markt Wald, Gasthof Adler","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":22,"s":[[819211743,16]]},
+  {"id":1075479,"t":{"ref":"604","name":"AVV-Regionalbus 604: Gessertshausen => Mittelneufnach","from":"Gessertshausen, Bahnhof","to":"Mittelneufnach, Abzweigung Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":18,"s":[[819211757,14],[819211743,15]]},
+  {"id":1075480,"t":{"ref":"604","name":"AVV-Regionalbus 604: Gessertshausen => Markt Wald","from":"Gessertshausen, Bahnhof","to":"Markt Wald, Gasthof Adler","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[819211757,14],[819211743,15]]},
+  {"id":1075481,"t":{"ref":"604","name":"AVV-Regionalbus 604: Gessertshausen => Mittelneufnach","from":"Gessertshausen, Bahnhof","to":"Mittelneufnach, Abzweigung Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":19,"s":[[819211757,14],[819211743,15]]},
+  {"id":1075503,"t":{"ref":"604","name":"AVV-Regionalbus 604: Mittelneufnach => Gessertshausen","from":"Mittelneufnach, Abzweigung Bahnhof","to":"Gessertshausen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":18,"s":[[503075480,4],[819211720,5]]},
+  {"id":1075504,"t":{"ref":"604","name":"AVV-Regionalbus 604: Markt Wald => Gessertshausen","from":"Markt Wald, Gasthaus Adler","to":"Gessertshausen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[503075480,6],[819211720,7]]},
+  {"id":1553503,"t":{"ref":"604","name":"AVV-Regionalbus 604: Gessertshausen => Mittelneufnach","from":"Gessertshausen, Bahnhof","to":"Mittelneufnach, Abzweigung Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":18,"s":[[819211757,14],[819211743,15]]},
+  {"id":9193963,"t":{"ref":"837","name":"Linie 837: Markt Wald Bahnhof-Wirtschaft => Ursberg Gymnasium","from":"Markt Wald, Gasthaus Adler","to":"Ursberg Gymnasium","network":"Verkehrsverbund Mittelschwaben","route":"bus","public_transport:version":"2"},"n":8,"s":[[819211743,6]]},
+  {"id":3006258912979,"t":{"ref":"704","name":"704: Gessertshausen - Schwabmünchen","from":"Gessertshausen","to":"Schwabmünchen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":33,"s":[[819211720,14],[819211737,15]]},
+  {"id":3018103691940,"t":{"ref":"694","name":"Nachtbus 694: Augsburg, Hauptbahnhof => Tronetshofen","from":"Augsburg, Hauptbahnhof","to":"Tronetshofen","network":"Augsburger Verkehrs- und Tarifverbund","colour":"#6268A2","route":"bus","public_transport:version":"2"},"n":36,"s":[[6077369309354,32],[819211720,33]]},
+  {"id":3031853951582,"t":{"ref":"704","name":"704: Schwabmünchen - Gessertshausen","from":"Schwabmünchen","to":"Gessertshausen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":33,"s":[[5910296888,19],[819211757,20]]},
+  {"id":3062985508318,"t":{"ref":"704","name":"704: Schwabmünchen - Gessertshausen","from":"Schwabmünchen","to":"Gessertshausen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":34,"s":[[5910296888,20],[819211757,21]]}
+]
+}

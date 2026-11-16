@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3835],
+"stops":[
+  {"id":1159851978,"lat":51.212316,"lon":11.770215,"k":"p","n":"Markt"},
+  {"id":1186172292,"lat":51.223368,"lon":11.774099,"k":"p","n":"Bushaltestelle Ententeich"},
+  {"id":2419331287,"lat":51.209318,"lon":11.767217,"k":"x","n":"Freyburg, Bahnhof"},
+  {"id":5270032176,"lat":51.22055,"lon":11.766715,"k":"x","n":"Busbahnhof Querfurter Straße"},
+  {"id":5270032177,"lat":51.220588,"lon":11.76688,"k":"x","n":"Busbahnhof Querfurter Straße"},
+  {"id":13534404143,"lat":51.220593,"lon":11.766779,"k":"p","n":"Busbahnhof Querfurter Straße"}
+],
+"routes":[
+  {"id":4783896,"t":{"ref":"+723","name":"PlusBus 723: Freyburg => Merseburg","from":"Freyburg","to":"Merseburg","network":"Mitteldeutscher Verkehrsverbund","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":22,"s":[[1159851978,1]]},
+  {"id":3024501008665,"t":{"ref":"723","name":"723: Freyburg (Unstrut), Kirchstr. - Merseburg, ZOB","from":"Freyburg (Unstrut), Kirchstr.","to":"Merseburg, ZOB","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":21,"s":[[1159851978,1],[2419331287,2]]},
+  {"id":3035577842004,"t":{"ref":"723","name":"723: Merseburg, ZOB - Freyburg (Unstrut), Bahnhof (Bus)","from":"Merseburg, ZOB","to":"Freyburg (Unstrut), Bahnhof (Bus)","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":19,"s":[[2419331287,19]]},
+  {"id":3037785087368,"t":{"ref":"723","name":"723: Freyburg (Unstrut), Bahnhof (Bus) - Merseburg, ZOB","from":"Freyburg (Unstrut), Bahnhof (Bus)","to":"Merseburg, ZOB","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":20,"s":[[2419331287,1]]},
+  {"id":3066197001033,"t":{"ref":"723","name":"723: Merseburg, ZOB - Freyburg (Unstrut), Kirchstr.","from":"Merseburg, ZOB","to":"Freyburg (Unstrut), Kirchstr.","operator":"PNVG Merseburg-Querfurt","route":"bus","public_transport:version":"2"},"n":20,"s":[[2419331287,19],[1159851978,20]]}
+]
+}

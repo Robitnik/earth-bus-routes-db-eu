@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3789],
+"stops":[
+  {"id":2642012415,"lat":49.73772,"lon":9.460813,"k":"p","n":"Nassig, Ödengesäß"},
+  {"id":2642012417,"lat":49.737586,"lon":9.461002,"k":"p","n":"Nassig, Ödengesäß"},
+  {"id":9675347119,"lat":49.733736,"lon":9.480852,"k":"p","n":"Sachsenhausen, Am Kirchweg"},
+  {"id":9675347120,"lat":49.73152,"lon":9.492694,"k":"p","n":"Sachsenhausen, Ort"},
+  {"id":9675347121,"lat":49.713039,"lon":9.497666,"k":"p","n":"Dörlesberg, Bäckerei"},
+  {"id":9697855558,"lat":49.737047,"lon":9.454598,"k":"p","n":"Nassig, Rose"},
+  {"id":9703704457,"lat":49.709428,"lon":9.491235,"k":"p","n":"Dörlesberg, Ernsthöfr"},
+  {"id":9703704458,"lat":49.702972,"lon":9.456318,"k":"p","n":"Hundheim, Denkmalsiedlung"},
+  {"id":9709080561,"lat":49.737032,"lon":9.454739,"k":"p","n":"Nassig, Rose"},
+  {"id":9709080562,"lat":49.702957,"lon":9.456211,"k":"p","n":"Hundheim, Denkmalsiedlung"},
+  {"id":11534139543,"lat":49.731613,"lon":9.492826,"k":"p","n":"Sachsenhausen, Ort"},
+  {"id":6001381656782,"lat":49.705785,"lon":9.485581,"k":"p","n":"Dörlesberg, Ernsthöfe Süd","g":1},
+  {"id":6077478181655,"lat":49.746951,"lon":9.487368,"k":"p","n":"Vockenrot, Reinhardswiesen","g":1},
+  {"id":6094612012815,"lat":49.747154,"lon":9.481089,"k":"p","n":"Wertheim, Neuhof","g":1}
+],
+"routes":[
+  {"id":14052170,"t":{"ref":"971","name":"Bus 971: Wertheim=>Külsheim","from":"Wertheim","to":"Külsheim","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":19,"s":[[9675347119,7],[9675347120,8],[9675347121,10]]},
+  {"id":14059975,"t":{"ref":"971","name":"Bus 971: Wertheim => Dörlesberg","from":"Wertheim, ZOB","to":"Dörlesberg, Waage","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":6,"s":[[9675347120,4]]},
+  {"id":14082590,"t":{"ref":"971","name":"Bus 971: Wertheim => Sonderriet","from":"Wertheim, ZOB","to":"Sonderriet, Rathaus","network":"Verkehrsverbund Rhein-Neckar","route":"bus"},"n":9,"s":[[2642012415,4],[9697855558,5]]},
+  {"id":14090688,"t":{"ref":"971","name":"Bus 971: Wertheim => Nassig","from":"Wertheim ZOB","to":"Nassig, Kirche","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":17,"s":[[9675347119,8],[9675347120,9],[9675347121,11],[9703704457,12]]},
+  {"id":14098468,"t":{"ref":"971","name":"Bus 971: Neunkirchen => Tauberbischofsheim","from":"Neunkirchen, Bushaltestelle","to":"Tauberbischofsheim, Evangelischer Kindergarten","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":28,"s":[[9709080561,7],[2642012417,8],[9709080562,9]]},
+  {"id":14119917,"t":{"ref":"971","name":"Bus 971: Werthein => Nassig","from":"Wertheim, ZOB","to":"Nassig, Steingasse Im Tal","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":9,"s":[[2642012415,4],[9697855558,5,6]]},
+  {"id":14128785,"t":{"ref":"971","name":"Bus 971: Bestenheid => Hundheim","from":"Bestenheid, Bildungszentrum","to":"Hundheim, Kirche","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":15,"s":[[2642012415,8],[9697855558,9],[9709080562,14]]},
+  {"id":3016855536148,"t":{"ref":"9871","name":"9871: Wertheim, ZOB - Külsheim, Mainstraße","from":"Wertheim, ZOB","to":"Külsheim, Mainstraße","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":41,"s":[[6077478181655,12],[6094612012815,13],[9675347119,14],[9675347120,15],[2642012415,16],[9697855558,17],[9675347121,25],[6001381656782,26],[9709080562,29]]},
+  {"id":3075833966795,"t":{"ref":"975","name":"975: Wertheim, ZOB - Wertheim, Neuhof","from":"Wertheim, ZOB","to":"Wertheim, Neuhof","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":10,"s":[[6094612012815,10]]},
+  {"id":3081137806760,"t":{"ref":"9871","name":"9871: Külsheim, Mainstraße - Wertheim, ZOB","from":"Külsheim, Mainstraße","to":"Wertheim, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":42,"s":[[9703704457,16],[9675347121,17],[9703704458,19],[9709080561,26],[2642012415,27],[11534139543,28],[9675347119,29],[6094612012815,30],[6077478181655,31]]},
+  {"id":3097261373851,"t":{"ref":"975","name":"975: Wertheim, Neuhof - Wertheim, ZOB","from":"Wertheim, Neuhof","to":"Wertheim, ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":11,"s":[[6094612012815,1]]}
+]
+}

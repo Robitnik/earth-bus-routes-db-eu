@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2779,3871],
+"stops":[
+  {"id":75048782,"lat":48.971286,"lon":13.596941,"k":"x","n":"Kvilda, Bučina"},
+  {"id":1863504407,"lat":48.965082,"lon":13.588183,"k":"p","n":"Teufelshäng Grenze"},
+  {"id":2345189318,"lat":48.965413,"lon":13.589942,"k":"p","n":"Kvilda, Bučina st.hr."},
+  {"id":3165296822,"lat":48.965395,"lon":13.589984,"k":"x","n":"Kvilda, Bučina st. hr."},
+  {"id":9819631601,"lat":48.955371,"lon":13.572937,"k":"p","n":"Schwellgraben"},
+  {"id":9819631602,"lat":48.95534,"lon":13.572859,"k":"p","n":"Schwellgraben"},
+  {"id":9840804958,"lat":48.955351,"lon":13.572895,"k":"x","n":"Schwellgraben"},
+  {"id":12944292946,"lat":48.971207,"lon":13.597095,"k":"p","n":"Kvilda, Bučina"}
+],
+"routes":[
+  {"id":1686555,"t":{"ref":"603","name":"Igelbus 603: Spiegelau P+R => Teufelshäng Grenze","from":"Spiegelau P+R","to":"Teufelshäng Grenze","network":"Verbundtarif DonauWald","operator":"Busverkehr Nationalpark-Ilzer Land","route":"bus","public_transport:version":"2"},"n":29,"s":[[9819631601,28],[1863504407,29]]},
+  {"id":1686611,"t":{"ref":"603","name":"Igelbus 603: Teufelshäng Grenze => Spiegelau P+R","from":"Teufelshäng Grenze","to":"Spiegelau P+R","network":"Verbundtarif DonauWald","operator":"Busverkehr Nationalpark-Ilzer Land","route":"bus","public_transport:version":"2"},"n":23,"s":[[1863504407,1],[9819631602,2]]},
+  {"id":19276081,"t":{"ref":"430980/105","name":"Bus 980: Kvilda => Kvilda, Bučina st.hr.","from":"Kvilda","to":"Kvilda, Bučina st.hr.","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva Střední Čechy","route":"bus","public_transport:version":"2"},"n":2,"s":[[12944292946,1],[2345189318,2]]},
+  {"id":19276241,"t":{"ref":"430980/106","name":"Bus 980: Kvilda, Bučina st.hr. => Kvilda","from":"Kvilda, Bučina st.hr.","to":"Kvilda","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva Střední Čechy","route":"bus","public_transport:version":"2"},"n":2,"s":[[2345189318,1],[12944292946,2]]}
+]
+}

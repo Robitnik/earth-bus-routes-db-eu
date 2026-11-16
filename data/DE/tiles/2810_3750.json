@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2810,3750],
+"stops":[
+  {"id":254140145,"lat":50.546046,"lon":7.530123,"k":"p"},
+  {"id":254321569,"lat":50.539589,"lon":7.513021,"k":"x","n":"Straßenhaus Mitte"},
+  {"id":254488110,"lat":50.549221,"lon":7.526668,"k":"p","n":"Oberraden B256"},
+  {"id":981529994,"lat":50.549379,"lon":7.532773,"k":"p"},
+  {"id":1041312840,"lat":50.517377,"lon":7.516604,"k":"x","n":"Hardert Linde"},
+  {"id":1546246768,"lat":50.545992,"lon":7.530076,"k":"x"},
+  {"id":1546246897,"lat":50.549098,"lon":7.526767,"k":"x","n":"Oberraden B256"},
+  {"id":1546246898,"lat":50.549344,"lon":7.532815,"k":"x"},
+  {"id":1740272589,"lat":50.549291,"lon":7.526949,"k":"p","n":"Oberraden B256"},
+  {"id":1740272590,"lat":50.549305,"lon":7.52682,"k":"x","n":"Oberraden B256"},
+  {"id":10913640715,"lat":50.51595,"lon":7.514637,"k":"x","n":"Hardert Birkenweg"},
+  {"id":10913640716,"lat":50.515923,"lon":7.51466,"k":"p"},
+  {"id":10914206015,"lat":50.517365,"lon":7.516662,"k":"p","n":"Hardert Linde"},
+  {"id":10914609095,"lat":50.516221,"lon":7.515372,"k":"p","n":"Hardert Birkenweg"},
+  {"id":12734188392,"lat":50.544189,"lon":7.502455,"k":"p","n":"Niederhonnefeld Bauhof"},
+  {"id":12734218596,"lat":50.544162,"lon":7.502399,"k":"x"},
+  {"id":13261875087,"lat":50.539533,"lon":7.513107,"k":"p","n":"Straßenhaus Mitte"},
+  {"id":6078462321956,"lat":50.539144,"lon":7.512997,"k":"p","n":"Straßenhaus Marktplatz","g":1}
+],
+"routes":[
+  {"id":19761841,"t":{"ref":"115","name":"Bus 115: Puderbach => Döttesfeld => Straßenhaus","from":"Puderbach","to":"Straßenhaus","network":"VRM","operator":"Verkehrsbetrieb Rhein-Westerwald GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[254488110,13],[254140145,14],[13261875087,15]]},
+  {"id":3003523822336,"t":{"ref":"140","name":"140: Straßenhaus Marktplatz - Neustadt (Wied) Margarita-Platz","from":"Straßenhaus Marktplatz","to":"Neustadt (Wied) Margarita-Platz","operator":"Bischoff-Touristik GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":22,"s":[[13261875087,1],[1740272589,2]]},
+  {"id":3010986779659,"t":{"ref":"140","name":"140: Straßenhaus Marktplatz - Neustadt (Wied) Schulzentrum","from":"Straßenhaus Marktplatz","to":"Neustadt (Wied) Schulzentrum","operator":"Bischoff-Touristik GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":14,"s":[[13261875087,1],[1740272589,2]]},
+  {"id":3019495365832,"t":{"ref":"115","name":"Bus 115: (Steimel =>) Puderbach => Straßenhaus","from":"Puderbach","to":"Straßenhaus","network":"VRM","operator":"Verkehrsbetrieb Rhein-Westerwald GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[1546246897,8],[6078462321956,9]]},
+  {"id":3022583858200,"t":{"ref":"160","name":"160: Neuwied Bahnhof - Straßenhaus Marktplatz","from":"Neuwied Bahnhof","to":"Straßenhaus Marktplatz","operator":"KVG Zickenheiner GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[13261875087,28]]},
+  {"id":3022821710112,"t":{"ref":"120","name":"Bus 120: Altenkirchen => Neuwied","from":"Altenkirchen (Westerwald)","to":"Neuwied","network":"VRM","operator":"Bischoff Touristik","route":"bus","public_transport:version":"2"},"n":19,"s":[[1546246897,9],[13261875087,10],[10914206015,11],[10914609095,12]]},
+  {"id":3037842539582,"t":{"ref":"115","name":"Bus 115: Straßenhaus => Puderbach","from":"Straßenhaus","to":"Puderbach","network":"VRM","operator":"Verkehrsbetrieb Rhein-Westerwald GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[6078462321956,1],[1740272589,2]]},
+  {"id":3044780023396,"t":{"ref":"120","name":"Bus 120: Neuwied => Altenkirchen","from":"Neuwied","to":"Altenkirchen","network":"VRM","operator":"Bischoff Touristik","route":"bus","public_transport:version":"2"},"n":33,"s":[[10914609095,7],[10914206015,8],[13261875087,9],[1740272589,10]]},
+  {"id":3049518274023,"t":{"ref":"140","name":"140: Neustadt (Wied) Margarita-Platz - Straßenhaus Marktplatz","from":"Neustadt (Wied) Margarita-Platz","to":"Straßenhaus Marktplatz","operator":"Bischoff-Touristik GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":24,"s":[[1546246897,23],[13261875087,24]]},
+  {"id":3052867698196,"t":{"ref":"120","name":"Bus 120: Neuwied => Altenkirchen","from":"Neuwied","to":"Altenkirchen","network":"VRM","operator":"Bischoff Touristik","route":"bus","public_transport:version":"2"},"n":17,"s":[[10914609095,7],[10914206015,8],[13261875087,9],[1740272589,10]]},
+  {"id":3069987283281,"t":{"ref":"160","name":"160: Straßenhaus Marktplatz - Neuwied Bahnhof","from":"Straßenhaus Marktplatz","to":"Neuwied Bahnhof","operator":"KVG Zickenheiner GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[13261875087,1]]},
+  {"id":3076566176137,"t":{"ref":"140","name":"140: Neustadt (Wied) Schulzentrum - Straßenhaus Marktplatz","from":"Neustadt (Wied) Schulzentrum","to":"Straßenhaus Marktplatz","operator":"Bischoff-Touristik GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":15,"s":[[1546246897,14],[13261875087,15]]},
+  {"id":3081883396411,"t":{"ref":"120","name":"Bus 120: Altenkirchen => Neuwied","from":"Altenkirchen (Westerwald)","to":"Neuwied","network":"VRM","operator":"Bischoff Touristik","route":"bus","public_transport:version":"2"},"n":35,"s":[[1546246897,25],[13261875087,26],[10914206015,27],[10914609095,28]]}
+]
+}

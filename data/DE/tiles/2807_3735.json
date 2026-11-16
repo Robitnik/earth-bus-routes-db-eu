@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2807,3735],
+"stops":[
+  {"id":262324371,"lat":50.374058,"lon":6.777697,"k":"x","n":"Ahrdorf Ort"},
+  {"id":361548705,"lat":50.372103,"lon":6.758866,"k":"x","n":"Uedelhoven"},
+  {"id":1383419148,"lat":50.370184,"lon":6.78879,"k":"p","n":"Ahrdorf Abzw. Bahnhof"},
+  {"id":1383419149,"lat":50.37401,"lon":6.777744,"k":"p","n":"Ahrdorf Ort"},
+  {"id":1383419298,"lat":50.372089,"lon":6.758927,"k":"p","n":"Uedelhoven"},
+  {"id":7516160533,"lat":50.370159,"lon":6.788755,"k":"x","n":"Ahrdorf Abzw. Bahnhof"},
+  {"id":13423661518,"lat":50.378812,"lon":6.792546,"k":"x","n":"Ahrstraße, Dorsel"},
+  {"id":13423661519,"lat":50.378777,"lon":6.792525,"k":"p","n":"Dorsel, Ahrstraße A"},
+  {"id":13962343640,"lat":50.378831,"lon":6.792593,"k":"p","n":"Dorsel, Ahrstraße B"}
+],
+"routes":[
+  {"id":20109344,"t":{"ref":"832","name":"Bus 832: Ahrdorf => Blankenheim Busbf","from":"Ahrdorf","to":"Blankenheim Busbf","network":"VRS","operator":"Regionalverkehr Köln GmbH","colour":"red","route":"bus","public_transport:version":"2"},"n":24,"s":[[1383419148,1],[1383419149,2],[1383419298,3]]},
+  {"id":20981624,"t":{"ref":"899","name":"Fahrradbus 899: Ahrbrück => Blankenheim","from":"Ahrbrück","to":"Blankenheim","network":"VRM","route":"bus","public_transport:version":"2"},"n":11,"s":[[1383419149,10]]},
+  {"id":20982163,"t":{"ref":"899","name":"Fahrradbus 899: Blankenheim => Ahrbrück","from":"Blankenheim","to":"Ahrbrück","network":"VRM","route":"bus","public_transport:version":"2"},"n":19,"s":[[1383419148,4],[1383419149,5]]},
+  {"id":3020960358134,"t":{"ref":"832","name":"Bus 832: Blankenheim Busbf => Ahrdorf","from":"Blankenheim Busbf","to":"Ahrdorf","network":"VRS","operator":"Regionalverkehr Köln GmbH","colour":"red","route":"bus","public_transport:version":"2"},"n":35,"s":[[361548705,33],[7516160533,34],[262324371,35]]},
+  {"id":3026587787332,"t":{"ref":"861","name":"Bus 861: Blankenheim => Ahrbrück","from":"Blankenheim","to":"Ahrbrück","network":"VRM","route":"bus","public_transport:version":"2"},"n":29,"s":[[7516160533,9],[262324371,10]]},
+  {"id":3028066305521,"t":{"ref":"882","name":"882 Schuld - Aremberg - Müsch - Adenau","from":"Schuld","to":"Adenau","network":"VRM","operator":"Verkehrsbetriebe Mittelrhein","route":"bus","public_transport:version":"2"},"n":22,"s":[[13423661519,9]]},
+  {"id":3035358476589,"t":{"ref":"861","name":"Bus 861: Ahrbrück => Blankenheim","from":"Ahrbrück","to":"Blankenheim","network":"VRM","route":"bus","public_transport:version":"2"},"n":29,"s":[[7516160533,20],[262324371,21]]},
+  {"id":3074703571872,"t":{"ref":"882","name":"882 Schuld - Aremberg - Müsch - Adenau","from":"Schuld","to":"Adenau","network":"VRM","operator":"Verkehrsbetriebe Mittelrhein","route":"bus","public_transport:version":"2"},"n":22,"s":[[13962343640,14]]},
+  {"id":3085572605498,"t":{"ref":"832","name":"Bus 832: Blankenheim Busbf => Ahrdorf","from":"Blankenheim Busbf","to":"Ahrdorf","network":"VRS","operator":"Regionalverkehr Köln GmbH","colour":"red","route":"bus","public_transport:version":"2"},"n":25,"s":[[7516160533,1],[262324371,2],[361548705,3]]},
+  {"id":3089813791163,"t":{"ref":"832","name":"Bus 832: Blankenheim Busbf => Ahrdorf","from":"Blankenheim Busbf","to":"Ahrdorf","network":"VRS","operator":"Regionalverkehr Köln GmbH","colour":"red","route":"bus","public_transport:version":"2"},"n":17,"s":[[361548705,15],[7516160533,16],[262324371,17]]},
+  {"id":3094471935865,"t":{"ref":"832","name":"Bus 832: Blankenheim Busbf => Ahrdorf","from":"Blankenheim Busbf","to":"Ahrdorf","network":"VRS","operator":"Regionalverkehr Köln GmbH","colour":"red","route":"bus","public_transport:version":"2"},"n":26,"s":[[361548705,24],[7516160533,25],[262324371,26]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2853,3841],
+"stops":[
+  {"id":4476506523,"lat":52.696686,"lon":12.070734,"k":"x","n":"Scharlibbe"},
+  {"id":4476506524,"lat":52.69673,"lon":12.070645,"k":"p","n":"Scharlibbe"},
+  {"id":4476506525,"lat":52.69475,"lon":12.068744,"k":"x","n":"Scharlibbe"},
+  {"id":4476506526,"lat":52.694711,"lon":12.068857,"k":"p","n":"Scharlibbe"},
+  {"id":4476677419,"lat":52.66726,"lon":12.070023,"k":"x","n":"Klietz, Ort","ref":"913"},
+  {"id":5230868421,"lat":52.667244,"lon":12.0701,"k":"p","n":"Klietz, Ort"},
+  {"id":9216638240,"lat":52.667357,"lon":12.063699,"k":"p","n":"Klietz, Ärztehaus"},
+  {"id":9403560273,"lat":52.659345,"lon":12.068705,"k":"p","n":"Seesiedlung"}
+],
+"routes":[
+  {"id":13411850,"t":{"ref":"900","name":"Bus 900: Havelberg => Tangermünde => Stendal","from":"Havelberg","to":"Stendal Hauptbahnhof","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[4476506526,8],[5230868421,9],[9216638240,10]]},
+  {"id":13411851,"t":{"ref":"900","name":"Bus 900: Stendal => Tangermünde => Havelberg","from":"Stendal Hauptbahnhof","to":"Havelberg","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[9216638240,12],[5230868421,13],[4476506526,14]]},
+  {"id":16254210,"t":{"ref":"913","name":"Bus 913: Klietz => Schollene => Havelberg","from":"Klietz, Ort","to":"Havelberg, Wasserturm","operator":"stendalbus GmbH","colour":"brown","route":"bus","public_transport:version":"2"},"n":21,"s":[[5230868421,1]]},
+  {"id":16255167,"t":{"ref":"913","name":"Bus 913: Havelberg => Schollene => Klietz","from":"Havelberg, Wasserturm","to":"Klietz, Ort","operator":"stendalbus GmbH","colour":"brown","route":"bus","public_transport:version":"2"},"n":21,"s":[[5230868421,21]]},
+  {"id":3008701607696,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":19,"s":[[9216638240,7],[4476677419,8],[4476506525,9]]},
+  {"id":3016406373974,"t":{"ref":"910","name":"910: Klietz, Ort - Klietz, Ort","from":"Klietz, Ort","to":"Klietz, Ort","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[4476677419,1,5],[9216638240,4]]},
+  {"id":3056296250102,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Stendal, Hauptbahnhof (ZOB)","from":"Havelberg, EDEKA","to":"Stendal, Hauptbahnhof (ZOB)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":19,"s":[[4476506523,11],[9216638240,12],[4476677419,13]]},
+  {"id":3057770867465,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Tangermünde, Neustädter Tor","from":"Havelberg, EDEKA","to":"Tangermünde, Neustädter Tor","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[4476506523,11],[9216638240,12],[4476677419,13]]},
+  {"id":3074893040082,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[9216638240,11],[4476677419,12],[4476506525,13]]}
+]
+}

@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3856],
+"stops":[
+  {"id":860251596,"lat":51.195957,"lon":12.844056,"k":"x","n":"Waldsiedlung"},
+  {"id":1128057377,"lat":51.152584,"lon":12.831076,"k":"x","n":"Podelwitz, Hauptstraße"},
+  {"id":1200573381,"lat":51.155735,"lon":12.832995,"k":"x","n":"Maaschwitz"},
+  {"id":1200573726,"lat":51.151704,"lon":12.830918,"k":"x","n":"Podelwitz, Gasthof"},
+  {"id":7126110299,"lat":51.152586,"lon":12.831142,"k":"p","n":"Podelwitz, Hauptstraße"},
+  {"id":7126110300,"lat":51.151687,"lon":12.830859,"k":"p","n":"Podelwitz, Gasthof"},
+  {"id":7126110301,"lat":51.151716,"lon":12.830981,"k":"p","n":"Podelwitz, Gasthof"},
+  {"id":5000072454677,"lat":51.195956,"lon":12.843992,"k":"p","n":"Waldsiedlung"},
+  {"id":6059221241875,"lat":51.160741,"lon":12.845627,"k":"p","n":"Tanndorf (Colditz), Bahnhof (Bus)","g":1},
+  {"id":6095734739513,"lat":51.161216,"lon":12.845596,"k":"p","n":"Tanndorf (Colditz), Bahnhof (Bus)","g":1}
+],
+"routes":[
+  {"id":10578235,"t":{"ref":"621","name":"Bus 621: Colditz => Nerchau","from":"Colditz, Sportplatz","to":"Nerchau, Gänsemarkt","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[7126110299,5]]},
+  {"id":10599923,"t":{"ref":"626","name":"Bus 626: Colditz => Tanndorf","from":"Colditz, Sportplatz","to":"Tanndorf, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[7126110299,9]]},
+  {"id":10605084,"t":{"ref":"633","name":"Bus 633: Grimma => Bröhsen => Böhlen => Leisnig","from":"Grimma, Bahnhof","to":"Leisnig, Markt","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000072454677,10]]},
+  {"id":3004352756038,"t":{"ref":"633","name":"633: Grimma, Bahnhof (Bus) - Colditz, Zentralhaltestelle","from":"Grimma, Bahnhof (Bus)","to":"Colditz, Zentralhaltestelle","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6095734739513,21],[1200573381,22],[1128057377,23],[7126110300,24]]},
+  {"id":3061622965811,"t":{"ref":"633","name":"633: Colditz, Zentralhaltestelle - Grimma, Bahnhof (Bus)","from":"Colditz, Zentralhaltestelle","to":"Grimma, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[1200573726,7],[1128057377,8],[1200573381,9],[6059221241875,10]]}
+]
+}

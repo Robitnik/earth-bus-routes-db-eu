@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2789,3749],
+"stops":[
+  {"id":321320579,"lat":49.492424,"lon":7.49738,"k":"p","n":"Fockenberg-Limbach Ort"},
+  {"id":654127072,"lat":49.494361,"lon":7.458666,"k":"p","n":"Matzenbach Wartehalle"},
+  {"id":1371136532,"lat":49.494768,"lon":7.457794,"k":"p","n":"Matzenbach Kindergarten"},
+  {"id":1371136652,"lat":49.47563,"lon":7.482351,"k":"p","n":"Reuschbach Kirchstraße"},
+  {"id":1371136653,"lat":49.4797,"lon":7.485902,"k":"p","n":"Reuschbach Kreuz"},
+  {"id":1371136654,"lat":49.476142,"lon":7.481488,"k":"p","n":"Reuschbach Niedermohr Abzw"},
+  {"id":1371136655,"lat":49.477931,"lon":7.482333,"k":"p","n":"Reuschbach Ortsstraße"},
+  {"id":7566647848,"lat":49.456973,"lon":7.482303,"k":"x"},
+  {"id":7566647849,"lat":49.457091,"lon":7.482039,"k":"p"},
+  {"id":7566647850,"lat":49.456917,"lon":7.482253,"k":"p"},
+  {"id":7566647854,"lat":49.457043,"lon":7.482041,"k":"x"},
+  {"id":10311895952,"lat":49.45743,"lon":7.479159,"k":"p"},
+  {"id":10311896003,"lat":49.458487,"lon":7.47218,"k":"p","n":"Niedermohr Bahnhof"},
+  {"id":10311926316,"lat":49.459755,"lon":7.46416,"k":"p"},
+  {"id":10311926317,"lat":49.459655,"lon":7.464126,"k":"p"},
+  {"id":12023313117,"lat":49.458242,"lon":7.475466,"k":"p","n":"Niedermohr Friedhof"},
+  {"id":12023313118,"lat":49.458158,"lon":7.475471,"k":"p","n":"Niedermohr Friedhof"},
+  {"id":12023313119,"lat":49.459381,"lon":7.469099,"k":"p","n":"Niedermohr Wendeplatz"},
+  {"id":12023313121,"lat":49.459746,"lon":7.470155,"k":"p","n":"Niedermohr Kindergarten"},
+  {"id":6017206320825,"lat":49.453359,"lon":7.485455,"k":"p","n":"Schrollbach, Dorfkrug","g":1},
+  {"id":6021209900031,"lat":49.454977,"lon":7.484628,"k":"p","n":"Schrollbach, Alte Schule","g":1}
+],
+"routes":[
+  {"id":3011560013632,"t":{"ref":"1571","name":"1571: Niedermohr, Bahnhof - Reuschbach, Kreuz","from":"Niedermohr, Bahnhof","to":"Reuschbach, Kreuz","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":7,"s":[[10311896003,1],[6021209900031,2,4],[6017206320825,3],[1371136654,5],[1371136655,6],[1371136653,7]]},
+  {"id":3040694219111,"t":{"ref":"2138","name":"2138: Reichenbach, Vivo - Fockenberg-Limbach, Ort","from":"Reichenbach, Vivo","to":"Fockenberg-Limbach, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[321320579,2]]},
+  {"id":3058642634766,"t":{"ref":"1571","name":"1571: Reuschbach, Kreuz - Niedermohr, Bahnhof","from":"Reuschbach, Kreuz","to":"Niedermohr, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":7,"s":[[1371136653,1],[1371136655,2],[1371136654,3],[6021209900031,4,6],[6017206320825,5],[10311896003,7]]},
+  {"id":3070500757519,"t":{"ref":"2138","name":"2138: Weilerbach, Abzw. Bahnhof - Fockenberg-Limbach, Ort","from":"Weilerbach, Abzw. Bahnhof","to":"Fockenberg-Limbach, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":20,"s":[[321320579,20]]},
+  {"id":3074060700104,"t":{"ref":"2138","name":"2138: Fockenberg-Limbach, Ort - Reichenbach, Vivo","from":"Fockenberg-Limbach, Ort","to":"Reichenbach, Vivo","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[321320579,1]]},
+  {"id":3086704267491,"t":{"ref":"2138","name":"2138: Fockenberg-Limbach, Ort - Weilerbach, Abzw. Bahnhof","from":"Fockenberg-Limbach, Ort","to":"Weilerbach, Abzw. Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":19,"s":[[321320579,1]]}
+]
+}

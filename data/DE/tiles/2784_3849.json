@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2784,3849],
+"stops":[
+  {"id":2168902828,"lat":49.206071,"lon":12.485716,"k":"p","n":"Altenkreith, Roding"},
+  {"id":4119292795,"lat":49.205825,"lon":12.486334,"k":"p","n":"Roding, Altenkreith, Dorfmitte"},
+  {"id":8913844908,"lat":49.204702,"lon":12.469133,"k":"p","n":"Nassen (Altenkreith)","ref":"1500"},
+  {"id":11274592250,"lat":49.204527,"lon":12.463297,"k":"p","n":"Roding, Nassen/Altenkreith"},
+  {"id":11274592251,"lat":49.204749,"lon":12.464546,"k":"p","n":"Roding, Nassen/Altenkreith"},
+  {"id":11274592263,"lat":49.210827,"lon":12.481192,"k":"p","n":"Roding - IG Altenkreith Turonstraße"},
+  {"id":11274592264,"lat":49.210916,"lon":12.481265,"k":"p","n":"Roding - IG Altenkreith Turonstraße"},
+  {"id":11274633660,"lat":49.213104,"lon":12.489915,"k":"p","n":"Roding - IG Altenkreith Weiherhausweg"},
+  {"id":11300353511,"lat":49.244718,"lon":12.492961,"k":"p","n":"Roding (Kr Cham), Strahlfeld, Am Falkentann"},
+  {"id":11300353512,"lat":49.244806,"lon":12.49311,"k":"p","n":"Roding (Kr Cham), Strahlfeld, Am Falkentann"},
+  {"id":6027966295481,"lat":49.204358,"lon":12.457648,"k":"p","n":"Roding, Nassen/Altenkreith","g":1},
+  {"id":6032468775778,"lat":49.208108,"lon":12.489215,"k":"p","n":"Roding, Mitterkreith Ortsmitte","g":1},
+  {"id":6071685103389,"lat":49.201611,"lon":12.457585,"k":"p","n":"Nassen (Anw. Meierhofer)","g":1}
+],
+"routes":[
+  {"id":12873277,"t":{"ref":"228/T01","name":"Bus 228: Roding - Walderbach - Nittenau und zurück","network":"Verkehrsgemeinschaft Landkreis Cham","operator":"Rodinger Verkehrs Betriebe","route":"bus"},"n":21,"s":[[2168902828,4],[8913844908,5]]},
+  {"id":3038885205180,"t":{"ref":"903","name":"903: Roding, Krankenhaus - Nittenau, Marktplatz","from":"Roding, Krankenhaus","to":"Nittenau, Marktplatz","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":34,"s":[[6032468775778,9],[4119292795,10],[6027966295481,11]]},
+  {"id":3068443645321,"t":{"ref":"903","name":"903: Nittenau, Marktplatz - Roding, Krankenhaus","from":"Nittenau, Marktplatz","to":"Roding, Krankenhaus","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":34,"s":[[6027966295481,24],[2168902828,25],[6032468775778,26]]},
+  {"id":3094203776872,"t":{"ref":"232","name":"232: Roding, Sparkasse - Roding, Sparkasse","from":"Roding, Sparkasse","to":"Roding, Sparkasse","operator":"Bus","route":"bus","public_transport:version":"2"},"n":13,"s":[[6071685103389,11]]}
+]
+}

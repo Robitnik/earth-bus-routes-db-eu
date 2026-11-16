@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2873,3739],
+"stops":[
+  {"id":615003135,"lat":53.675824,"lon":6.995545,"k":"x","n":"Hafenscharte"},
+  {"id":615356681,"lat":53.676558,"lon":6.976675,"k":"x","n":"Seeferienheim"},
+  {"id":1033191302,"lat":53.676677,"lon":6.990075,"k":"x","n":"Remmers/Ecke An't Diekskant"},
+  {"id":2165172402,"lat":53.675793,"lon":6.995561,"k":"p"},
+  {"id":11142438276,"lat":53.675655,"lon":6.955507,"k":"x","n":"Domäne Loog"},
+  {"id":11142438277,"lat":53.675996,"lon":6.965119,"k":"x","n":"Loogster Telefonzelle"},
+  {"id":11142438278,"lat":53.674814,"lon":6.995695,"k":"x","n":"Hafen Juist"},
+  {"id":11143971568,"lat":53.675996,"lon":6.965188,"k":"p","n":"Loogster Telefonzelle"},
+  {"id":11143971569,"lat":53.675657,"lon":6.955542,"k":"p","n":"Domäne Loog"},
+  {"id":11144185056,"lat":53.676429,"lon":6.965203,"k":"x","n":"Loogster Stuv"},
+  {"id":11144185057,"lat":53.676477,"lon":6.965217,"k":"p","n":"Loogster Stuv"},
+  {"id":11144185058,"lat":53.676615,"lon":6.976737,"k":"p","n":"Seeferienheim"},
+  {"id":11144185059,"lat":53.676679,"lon":6.990277,"k":"p","n":"Remmers/Ecke An't Diekskant"},
+  {"id":11144185060,"lat":53.677546,"lon":6.995666,"k":"x","n":"Spelunke"},
+  {"id":11144185061,"lat":53.677518,"lon":6.995667,"k":"p","n":"Spelunke"},
+  {"id":12074174248,"lat":53.674143,"lon":6.996834,"k":"p","n":"Anlegestelle Inselexpress"},
+  {"id":12074212418,"lat":53.674056,"lon":6.997266,"k":"p","n":"Anlegestelle Töwerland-Express"},
+  {"id":5000244270643,"lat":53.674798,"lon":6.995683,"k":"p","n":"Hafen Juist"}
+],
+"routes":[
+  {"id":16240357,"t":{"name":"Kutschen-Pendelverkehr: Loog => Siedlung => Billstraße => Hafen","from":"Domäne Loog","to":"Hafen Juist","operator":"Fuhrbetrieb Jochen Schwips","route":"bus"},"n":3,"s":[[11143971569,1],[11143971568,2],[5000244270643,3]]},
+  {"id":16240359,"t":{"name":"Kutschen-Pendelverkehr: Hafen => Billstraße => Siedlung => Loog","from":"Hafen Juist","to":"Loog","operator":"Fuhrbetrieb Jochen Schwips","route":"bus"},"n":3,"s":[[5000244270643,1],[11143971568,2],[11143971569,3]]},
+  {"id":16242963,"t":{"name":"HUF Inseltaxi: Loog => Spelunke => Flugplatz","from":"Loog","to":"Flugplatz","operator":"HUF Spedition Juist GmbH","route":"bus"},"n":8,"s":[[11144185057,1],[11144185058,2],[11144185059,3],[2165172402,4],[11144185061,5]]},
+  {"id":16242964,"t":{"name":"HUF Inseltaxi: Remmers/Ecke An't Diekskant => Spelunke => Flugplatz","from":"Remmers/Ecke An't Diekskant","to":"Flugplatz","operator":"HUF Spedition Juist GmbH","route":"bus"},"n":11,"s":[[1033191302,1],[11144185059,2],[615003135,3],[11144185060,4],[11144185061,5],[11144185056,11]]},
+  {"id":16242965,"t":{"name":"HUF Inseltaxi: Loog => Spelunke => Rettungsschuppen Ostdorf","from":"Loog","to":"Rettungsschuppen Ostdorf","operator":"HUF Spedition Juist GmbH","route":"bus"},"n":6,"s":[[11144185057,1],[11144185058,2],[11144185059,3],[2165172402,4],[11144185061,5]]},
+  {"id":16242966,"t":{"name":"HUF Inseltaxi: Flugplatz => Spelunke => Loog","from":"Flugplatz","to":"Loog","operator":"HUF Spedition Juist GmbH","route":"bus"},"n":7,"s":[[11144185061,4],[11144185059,5],[11144185058,6],[11144185057,7]]},
+  {"id":16242967,"t":{"name":"HUF Inseltaxi: Flugplatz => Spelunke => Remmers/Ecke An't Diekskant","from":"Flugplatz","to":"Remmers/Ecke An't Diekskant","operator":"HUF Spedition Juist GmbH","route":"bus"},"n":6,"s":[[11144185061,4],[2165172402,5],[11144185059,6]]},
+  {"id":16242968,"t":{"name":"HUF Inseltaxi: Flugplatz => Spelunke => Hafenscharte","from":"Flugplatz","to":"Hafenscharte","operator":"HUF Spedition Juist GmbH","route":"bus"},"n":5,"s":[[11144185061,4],[2165172402,5]]}
+]
+}

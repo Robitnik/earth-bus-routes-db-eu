@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2778,3805],
+"stops":[
+  {"id":501825301,"lat":48.921115,"lon":10.252071,"k":"p"},
+  {"id":510126763,"lat":48.901873,"lon":10.252819,"k":"p","n":"Stockweiher Heide"},
+  {"id":510126819,"lat":48.901679,"lon":10.252996,"k":"p","n":"Stockweiher Heide"},
+  {"id":671607389,"lat":48.937182,"lon":10.252849,"k":"p"},
+  {"id":779156690,"lat":48.935156,"lon":10.299254,"k":"p","n":"Heidmühle Abzw."},
+  {"id":4734872693,"lat":48.939683,"lon":10.250925,"k":"p","n":"Elberschwenden Abzw."},
+  {"id":4734872694,"lat":48.939898,"lon":10.2507,"k":"p","n":"Elberschwenden Abzw."},
+  {"id":5064983510,"lat":48.920372,"lon":10.268887,"k":"x","n":"Lindorf"},
+  {"id":9156246024,"lat":48.900981,"lon":10.251961,"k":"p","n":"Killinger Straße"},
+  {"id":9156246025,"lat":48.901055,"lon":10.252002,"k":"p","n":"Killinger Straße"}
+],
+"routes":[
+  {"id":7519030,"t":{"ref":"99","name":"Bus 99: Lauchheim => Lindorf","from":"Lauchheim Schule","to":"Lindorf","network":"OstalbMobil","operator":"OVA","route":"bus","public_transport:version":"2"},"n":4,"s":[[510126819,4]]},
+  {"id":7519031,"t":{"ref":"99","name":"Bus 99: Lindorf => Lauchheim","from":"Lindorf","to":"Lauchheim Schule","network":"OstalbMobil","operator":"OVA","route":"bus","public_transport:version":"2"},"n":4,"s":[[510126763,1]]},
+  {"id":11786811,"t":{"ref":"7865","name":"Bus 7865: Bopfingen => Ellwangen","from":"Bopfingen ZOB","to":"Ellwangen ZOB","network":"OstalbMobil","operator":"Friedrich Müller Omnibusunternehmen","route":"bus","public_transport:version":"2"},"n":20,"s":[[4734872694,11]]},
+  {"id":11786815,"t":{"ref":"7865","name":"Bus 7865: Ellwangen => Bopfingen","from":"Ellwangen ZOB","to":"Bopfingen ZOB","network":"OstalbMobil","operator":"Friedrich Müller Omnibusunternehmen","route":"bus","public_transport:version":"2"},"n":19,"s":[[4734872693,10],[779156690,11]]},
+  {"id":3004317344855,"t":{"ref":"99","name":"Bus 99: Lauchheim => Lindorf","from":"Lauchheim Schule","to":"Lindorf","network":"OstalbMobil","operator":"OVA","route":"bus","public_transport:version":"2"},"n":7,"s":[[510126819,6],[5064983510,7]]},
+  {"id":3028775282003,"t":{"ref":"99","name":"Bus 99: Lindorf => Lauchheim","from":"Lindorf","to":"Lauchheim Schule","network":"OstalbMobil","operator":"OVA","route":"bus","public_transport:version":"2"},"n":7,"s":[[5064983510,1],[510126819,2]]}
+]
+}

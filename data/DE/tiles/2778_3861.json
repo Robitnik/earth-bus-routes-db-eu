@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2778,3861],
+"stops":[
+  {"id":5721054411,"lat":48.911183,"lon":13.099595,"k":"p","n":"Hochbruck"},
+  {"id":5721054414,"lat":48.904033,"lon":13.097482,"k":"p","n":"Ritzmais, Abzw."},
+  {"id":5721054415,"lat":48.903635,"lon":13.096821,"k":"p","n":"Ritzmais, Abzw."},
+  {"id":5721119898,"lat":48.92268,"lon":13.067854,"k":"p","n":"Wastlsäge"},
+  {"id":5721119899,"lat":48.922757,"lon":13.068009,"k":"p","n":"Wastlsäge"},
+  {"id":5721119900,"lat":48.918283,"lon":13.080535,"k":"p","n":"Bischofsmais, Rathaus"},
+  {"id":5841770276,"lat":48.918299,"lon":13.080854,"k":"p","n":"Bischofsmais, Rathaus"},
+  {"id":7252501918,"lat":48.907272,"lon":13.092338,"k":"p","n":"(Schulbus)"},
+  {"id":9727568707,"lat":48.930294,"lon":13.094802,"k":"p","n":"Fahrnbach, Ortsmitte"},
+  {"id":9727568708,"lat":48.930207,"lon":13.095057,"k":"p","n":"Fahrnbach, Ortsmitte"},
+  {"id":9727572175,"lat":48.919969,"lon":13.081469,"k":"p","n":"Bischofsmais Schule"},
+  {"id":9727590837,"lat":48.930642,"lon":13.094005,"k":"p","n":"Fahrnbach, Ortsmitte 1"},
+  {"id":9736773989,"lat":48.914552,"lon":13.087784,"k":"p","n":"Ginselried, Feuerwehrhaus"},
+  {"id":9737312156,"lat":48.910878,"lon":13.098867,"k":"p","n":"Hochbruck"},
+  {"id":9757492815,"lat":48.94977,"lon":13.099927,"k":"p","n":"Reinhartsmais, Hausnummer 2"},
+  {"id":10196993378,"lat":48.922704,"lon":13.067932,"k":"x","n":"Wastlsäge"}
+],
+"routes":[
+  {"id":18144197,"t":{"ref":"6201","name":"Bus RBO 6201 (001) Regen - Reinhartsmais - Bischofsmais - Habischried","from":"Regen Bahnhof/Busbahnhof","to":"Habischried, Gh Schäfflerhof","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus"},"n":16,"s":[[5721054411,7],[5841770276,8],[5721119899,9],[9727572175,16]]},
+  {"id":18144844,"t":{"ref":"6201","name":"Bus RBO 6201 (005) Regen - Reinhartsmais - Bischofsmais - Habischried","from":"Regen, Ruselstraße","to":"Habischried, Gh Schäfflerhof","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus"},"n":15,"s":[[9727590837,5],[5721054411,10],[5841770276,11],[5721119899,14]]},
+  {"id":18144964,"t":{"ref":"6201","name":"Bus RBO 6201 (013) Regen - Reinhartsmais - Bischofsmais - Habischried","from":"Regen Bahnhof/Busbahnho","to":"Habischried, Gh Schäfflerhof","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus"},"n":18,"s":[[9727590837,6],[5721054411,12],[9736773989,13],[5841770276,14],[5721119899,15]]},
+  {"id":18144965,"t":{"ref":"6201","name":"Bus RBO 6201 (009) Regen - Reinhartsmais - Bischofsmais - Habischried","from":"Regen Bahnhof/Busbahnhof","to":"Bischofsmais, Schule","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus"},"n":8,"s":[[9727590837,6],[9727572175,8]]},
+  {"id":18144966,"t":{"ref":"6201","name":"Bus RBO 6201 (002) Habischried - Bischofsmais - Reinhartsmais - Regen","from":"Habischried Gh Schäfflerhof","to":"Regen Bahnhof/Busbahnhof","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus"},"n":13,"s":[[9727568707,7],[5721054411,10],[5721119898,11]]},
+  {"id":3019573103085,"t":{"ref":"4116","name":"Bus RBO 4116 Deggendorf - Bischofsmais - Habischried/Zell - Kirchberg","from":"Deggendorf","to":"Habischried","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"Hansbauer Bustouristik GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[10196993378,3],[5841770276,4],[9736773989,5],[9737312156,6],[5721054415,7]]},
+  {"id":3037092238791,"t":{"ref":"106","name":"106: Bischofsmais, Rathaus - Kirchdorf im Wald","from":"Bischofsmais, Rathaus","to":"Kirchdorf im Wald","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":34,"s":[[5841770276,1],[9736773989,2],[9737312156,3],[5721054415,4]]},
+  {"id":3054614085573,"t":{"ref":"64","name":"64: Habischried, Gh Schäfflerhof - Regen","from":"Habischried, Gh Schäfflerhof","to":"Regen","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":17,"s":[[10196993378,3],[5841770276,4],[9736773989,5],[5721054411,6],[9727568708,12],[9757492815,14]]},
+  {"id":3058796785303,"t":{"ref":"105","name":"105: Bischofsmais, Rathaus - Kaikenried","from":"Bischofsmais, Rathaus","to":"Kaikenried","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":27,"s":[[5721119900,1],[10196993378,2]]},
+  {"id":3065582520379,"t":{"ref":"106","name":"106: Kirchdorf im Wald - Bischofsmais, Rathaus","from":"Kirchdorf im Wald","to":"Bischofsmais, Rathaus","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":34,"s":[[5721054414,30],[9736773989,33],[5721119900,34]]},
+  {"id":3088027498165,"t":{"ref":"64","name":"64: Regen - Habischried, Gh Schäfflerhof","from":"Regen","to":"Habischried, Gh Schäfflerhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":18,"s":[[9727590837,7],[9736773989,14],[5721119900,15],[10196993378,16]]},
+  {"id":3097667058371,"t":{"ref":"105","name":"105: Kaikenried - Bischofsmais, Rathaus","from":"Kaikenried","to":"Bischofsmais, Rathaus","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":27,"s":[[10196993378,26],[5841770276,27]]}
+]
+}

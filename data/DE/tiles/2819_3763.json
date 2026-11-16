@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2819,3763],
+"stops":[
+  {"id":1743473586,"lat":50.96857,"lon":8.171085,"k":"p","n":"Lützel Oberdorf"},
+  {"id":1743473592,"lat":50.968675,"lon":8.171471,"k":"p","n":"Lützel Oberdorf"},
+  {"id":1743473596,"lat":50.969716,"lon":8.178404,"k":"p","n":"Lützel Unterdorf"},
+  {"id":1743473603,"lat":50.969667,"lon":8.177907,"k":"p","n":"Lützel Unterdorf"},
+  {"id":5829161985,"lat":50.967879,"lon":8.168051,"k":"p","n":"Lützel In den Eichen"},
+  {"id":5829161986,"lat":50.968616,"lon":8.171276,"k":"x","n":"Lützel Oberdorf"},
+  {"id":5829161992,"lat":50.969595,"lon":8.177985,"k":"x","n":"Lützel Unterdorf"},
+  {"id":5829162001,"lat":50.969784,"lon":8.178352,"k":"x","n":"Lützel Unterdorf"},
+  {"id":8455101582,"lat":50.96202,"lon":8.174792,"k":"p","n":"Lützel Siedlung"},
+  {"id":9588633999,"lat":50.965685,"lon":8.167268,"k":"p","n":"Lützel Eisenstraße"},
+  {"id":11737458172,"lat":50.973695,"lon":8.152895,"k":"p","n":"Lützel Giller"}
+],
+"routes":[
+  {"id":20035256,"t":{"ref":"R27","name":"Bus R27: Lützel => Erndtebrück","from":"Lützel Oberdorf","to":"Erndtebrück Grundschule","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[1743473592,1],[5829161985,2],[8455101582,3],[9588633999,4],[1743473586,5],[1743473596,6]]},
+  {"id":20392551,"t":{"ref":"KP1","name":"Bus KP1: Giller => Siegen","from":"Lützel Giller","to":"Siegen ZOB (Bstg. A)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[11737458172,1]]},
+  {"id":20392552,"t":{"ref":"KP1","name":"Bus KP1: Siegen => Giller","from":"Siegen ZOB (Bstg. C)","to":"Giller","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[11737458172,10]]},
+  {"id":20396783,"t":{"ref":"KP2","name":"Bus KP2: Giller => Freudenberg","from":"Lützel Giller","to":"Freudenberg Mórer Platz","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[11737458172,1]]},
+  {"id":20396784,"t":{"ref":"KP2","name":"Bus KP2: Freudenberg => Giller","from":"Freudenberg Mórer Platz","to":"Lützel Giller","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[11737458172,13]]},
+  {"id":20404138,"t":{"ref":"KP4","name":"Bus KP4: Giller => Bad Laasphe","from":"Lützel Giller","to":"Bad Laasphe ZOB","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[11737458172,1]]},
+  {"id":20404139,"t":{"ref":"KP4","name":"Bus KP4: Bad Laasphe => Giller","from":"Bad Laasphe ZOB","to":"Lützel Giller","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[11737458172,8]]},
+  {"id":20404140,"t":{"ref":"KP3","name":"Bus KP3: Giller => Bad Berleburg","from":"Lützel Giller","to":"Bad Berleburg ZOB","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[11737458172,1]]},
+  {"id":20404141,"t":{"ref":"KP3","name":"Bus KP3: Bad Berleburg => Giller","from":"Bad Berleburg ZOB","to":"Lützel Giller","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[11737458172,7]]},
+  {"id":20420916,"t":{"ref":"KP5","name":"Bus KP5: Giller => Burbach","from":"Lützel Giller","to":"Burbach Post/Bahnhof","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[11737458172,1]]},
+  {"id":20420917,"t":{"ref":"KP5","name":"Bus KP5: Burbach => Giller","from":"Burbach Post/Bahnhof","to":"Lützel Giller","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[11737458172,15]]},
+  {"id":3021288449222,"t":{"ref":"R27","name":"Bus R27: Bad Berleburg => Siegen","from":"Bad Berleburg Bf","to":"Siegen Hbf","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":48,"s":[[5829161992,32],[1743473592,33]]},
+  {"id":3090861336691,"t":{"ref":"R27","name":"Bus R27: Siegen => Bad Berleburg","from":"Siegen Hbf","to":"Bad Berleburg ZOB","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":48,"s":[[1743473586,16],[5829162001,17]]}
+]
+}

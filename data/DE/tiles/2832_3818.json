@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2832,3818],
+"stops":[
+  {"id":3821003406,"lat":51.63955,"lon":10.937523,"k":"p","n":"Friedrichshöhe Bf."},
+  {"id":3821003407,"lat":51.639672,"lon":10.936451,"k":"x","n":"Friedrichshöhe Bf."},
+  {"id":3821003408,"lat":51.640216,"lon":10.937171,"k":"x","n":"Friedrichshöhe Bf."},
+  {"id":3821003409,"lat":51.64027,"lon":10.937175,"k":"p","n":"Friedrichshöhe Bf."},
+  {"id":3821003410,"lat":51.636115,"lon":10.932925,"k":"p","n":"Friedrichshöhe Ort"},
+  {"id":3821003411,"lat":51.636117,"lon":10.933001,"k":"x","n":"Friedrichshöhe Ort"},
+  {"id":3821003412,"lat":51.636197,"lon":10.932985,"k":"x","n":"Friedrichshöhe Ort"},
+  {"id":3821003413,"lat":51.636149,"lon":10.933068,"k":"p","n":"Friedrichshöhe Ort"},
+  {"id":3821024669,"lat":51.619743,"lon":10.947348,"k":"p","n":"Breitenstein"},
+  {"id":3821024670,"lat":51.619652,"lon":10.947544,"k":"x","n":"Breitenstein"},
+  {"id":3821024671,"lat":51.620212,"lon":10.947328,"k":"x","n":"Breitenstein"},
+  {"id":3821024672,"lat":51.620215,"lon":10.947394,"k":"p","n":"Breitenstein"},
+  {"id":6077566401773,"lat":51.61869,"lon":10.948686,"k":"p","n":"Breitenstein","g":1}
+],
+"routes":[
+  {"id":14296753,"t":{"ref":"VGS-461","name":"Bus 461: Stolberg => Hayn => Horla => Sangerhausen","from":"Stolberg","to":"Sangerhausen","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[3821024672,4]]},
+  {"id":3004691622150,"t":{"ref":"450","name":"450: Sangerhausen, Busbahnhof - Breitenstein","from":"Sangerhausen, Busbahnhof","to":"Breitenstein","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":35,"s":[[6077566401773,35]]},
+  {"id":3007530030146,"t":{"ref":"450","name":"450: Breitenstein - Sangerhausen, Busbahnhof","from":"Breitenstein","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":39,"s":[[3821024670,1]]},
+  {"id":3015401067847,"t":{"ref":"450","name":"450: Sangerhausen, Busbahnhof - Breitenstein","from":"Sangerhausen, Busbahnhof","to":"Breitenstein","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":36,"s":[[6077566401773,36]]},
+  {"id":3033371233039,"t":{"ref":"255","name":"Bus 255: Stolberg => Quedlinburg","from":"Stolberg Bahnhof","to":"Quedlinburg Bahnhof 1","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[3821024672,4],[3821003412,5],[3821003407,6]]},
+  {"id":3070822802646,"t":{"ref":"450","name":"450: Breitenstein - Sangerhausen, Busbahnhof","from":"Breitenstein","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":38,"s":[[3821024670,1]]},
+  {"id":3071324687453,"t":{"ref":"255","name":"Bus 255: Quedlinburg => Stolberg","from":"Quedlinburg Bahnhof 4","to":"Stolberg Bahnhof","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[3821003409,24],[3821003410,25],[3821024670,26]]}
+]
+}

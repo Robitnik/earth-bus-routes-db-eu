@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2829,3855],
+"stops":[
+  {"id":253592267,"lat":51.452202,"lon":12.780144,"k":"x","n":"Röcknitz, Hauptstraße"},
+  {"id":991967414,"lat":51.452162,"lon":12.780156,"k":"p","n":"Röcknitz, Hauptstraße"},
+  {"id":1017763727,"lat":51.48151,"lon":12.779968,"k":"p","n":"Strelln"},
+  {"id":7179671294,"lat":51.452242,"lon":12.780134,"k":"p","n":"Röcknitz, Hauptstraße"},
+  {"id":7223143746,"lat":51.481454,"lon":12.779994,"k":"x","n":"Strelln"},
+  {"id":7223739687,"lat":51.481388,"lon":12.780072,"k":"p","n":"Strelln"},
+  {"id":6067351547264,"lat":51.453308,"lon":12.784497,"k":"p","n":"Röcknitz (Thallwitz), Gartenstr.","g":1}
+],
+"routes":[
+  {"id":5995585,"t":{"ref":"676","name":"Bus 676: Eilenburg => Wurzen","from":"Eilenburg","to":"Wurzen","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[991967414,4]]},
+  {"id":10664026,"t":{"ref":"671","name":"Bus 671: Zwochau => Wurzen","from":"Zwochau","to":"Wurzen, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[7179671294,1]]},
+  {"id":10670568,"t":{"ref":"671","name":"Bus 671: Wurzen => Zwochau","from":"Wurzen, Bahnhof","to":"Zwochau","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[991967414,5]]},
+  {"id":10692747,"t":{"ref":"677","name":"Bus 677: Thallwitz => Röcknitz","from":"Röcknitz, Hauptstraße","to":"Thallwitz, Siedewitzstraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[7179671294,1]]},
+  {"id":10724540,"t":{"ref":"758","name":"Bus 758: Mockrehna => Schöna => Schildau","from":"Mockrehna","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":9,"s":[[1017763727,3]]},
+  {"id":10726055,"t":{"ref":"229","name":"Bus 229: Eilenburg => Mölbitz => Wildschütz => Audenhain","from":"Eilenburg","to":"Audenhain","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":18,"s":[[7223739687,12]]},
+  {"id":10731388,"t":{"ref":"229","name":"Bus 229: Audenhain => Wildschütz => Mölbitz => Eilenburg","from":"Audenhain","to":"Eilenburg","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":20,"s":[[1017763727,7]]},
+  {"id":3015647535546,"t":{"ref":"758","name":"Bus 758: Schildau => Schöna => Mockrehna","from":"Schildau","to":"Mockrehna","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1017763727,4]]},
+  {"id":3024459118684,"t":{"ref":"671","name":"671: Wurzen, Bahnhof (Bus) - Röcknitz (Thallwitz), Hauptstr.","from":"Wurzen, Bahnhof (Bus)","to":"Röcknitz (Thallwitz), Hauptstr.","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[253592267,12]]},
+  {"id":3058480066323,"t":{"ref":"671","name":"671: Röcknitz (Thallwitz), Hauptstr. - Wurzen, Bahnhof (Bus)","from":"Röcknitz (Thallwitz), Hauptstr.","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[253592267,1]]},
+  {"id":3089028160097,"t":{"ref":"671","name":"671: Wurzen, Bahnhof (Bus) - Röcknitz (Thallwitz), Hauptstr.","from":"Wurzen, Bahnhof (Bus)","to":"Röcknitz (Thallwitz), Hauptstr.","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[253592267,15]]},
+  {"id":3092917451382,"t":{"ref":"671","name":"671: Nischwitz (Thallwitz), Eilenburger Str. - Zwochau (Lkr. Leipzig)","from":"Nischwitz (Thallwitz), Eilenburger Str.","to":"Zwochau (Lkr. Leipzig)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[253592267,6],[6067351547264,7]]}
+]
+}

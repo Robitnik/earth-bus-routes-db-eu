@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2885,3809],
+"stops":[
+  {"id":679434114,"lat":54.281627,"lon":10.47112,"k":"p","n":"Bellin, B 202"},
+  {"id":679434126,"lat":54.281603,"lon":10.471902,"k":"p","n":"Bellin, B 202"},
+  {"id":737361000,"lat":54.263194,"lon":10.464185,"k":"p","n":"Friedeburg"},
+  {"id":737361044,"lat":54.259322,"lon":10.476167,"k":"p","n":"Treufeld Am Bahndamm"},
+  {"id":801910202,"lat":54.270311,"lon":10.467344,"k":"p","n":"Bauersdorf"},
+  {"id":904969102,"lat":54.275414,"lon":10.467817,"k":"p","n":"Bellin"},
+  {"id":904969111,"lat":54.280083,"lon":10.466962,"k":"p","n":"Bellin Bergstraße"},
+  {"id":904969152,"lat":54.280074,"lon":10.467076,"k":"p","n":"Bellin Bergstraße"},
+  {"id":904969154,"lat":54.2754,"lon":10.468067,"k":"p","n":"Bellin"},
+  {"id":1816917310,"lat":54.251565,"lon":10.47652,"k":"p","n":"Treufeld Schule"},
+  {"id":1816917311,"lat":54.251697,"lon":10.476362,"k":"p","n":"Treufeld Schule"},
+  {"id":4081473990,"lat":54.281534,"lon":10.471106,"k":"x","n":"Bellin, B 202"},
+  {"id":4081473991,"lat":54.28166,"lon":10.471825,"k":"x","n":"Bellin, B 202"},
+  {"id":4739576077,"lat":54.259355,"lon":10.476079,"k":"x","n":"Treufeld Am Bahndamm"},
+  {"id":9661884288,"lat":54.263169,"lon":10.464273,"k":"x","n":"Friedeburg"},
+  {"id":9661884289,"lat":54.270365,"lon":10.467335,"k":"x","n":"Bauersdorf"},
+  {"id":10760611463,"lat":54.280074,"lon":10.467047,"k":"x","n":"Bellin Bergstraße"},
+  {"id":6019814054983,"lat":54.281339,"lon":10.469212,"k":"p","n":"Lammershagen-Bellin B 202","g":1},
+  {"id":6045304787839,"lat":54.281339,"lon":10.469212,"k":"p","n":"Lammershagen-Bellin B 202","g":1}
+],
+"routes":[
+  {"id":6282852,"t":{"ref":"233","name":"Bus 233: Selent => Bellin","from":"Selent, Schule","to":"Bellin Bergstraße","network":"NAH.SH","colour":"#E10519","route":"bus","public_transport:version":"2"},"n":9,"s":[[801910202,7],[904969154,8],[904969152,9]]},
+  {"id":6282853,"t":{"ref":"233","name":"Bus 233: Bellin => Selent","from":"Bellin Bergstraße","to":"Selent, Schule","network":"NAH.SH","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#E10519","route":"bus","public_transport:version":"2"},"n":10,"s":[[904969111,1],[904969102,2],[737361000,3]]},
+  {"id":12025745,"t":{"ref":"310","name":"Bus 310: Oldenburg (Holstein), Markt => Weißenhäuser Strand => Lütjenburg => Kiel ZOB","from":"Oldenburg (Holstein), Markt","to":"Kiel ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#bb7530","route":"bus","public_transport:version":"2"},"n":50,"s":[[679434114,28]]},
+  {"id":12025746,"t":{"ref":"310","name":"Bus 310: Kiel ZOB => Lütjenburg => Weißenhäuser Strand => Oldenburg (Holstein), Markt","from":"Kiel ZOB","to":"Oldenburg (Holstein), Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#bb7530","route":"bus","public_transport:version":"2"},"n":49,"s":[[679434126,22]]},
+  {"id":12549531,"t":{"ref":"315","name":"Schnellbus 315: Lütjenburg ZOB => Kiel ZOB","from":"Lütjenburg ZOB","to":"Kiel ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#cdcc00","route":"bus","public_transport:version":"2"},"n":18,"s":[[679434114,5]]},
+  {"id":18215731,"t":{"ref":"351","name":"Bus 351 ALFA: Treufeld => Plön","from":"Treufeld Am Bahndamm","to":"Plön ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#E41F1B","route":"bus","public_transport:version":"2"},"n":11,"s":[[1816917311,1]]},
+  {"id":18215732,"t":{"ref":"351","name":"Bus 351 ALFA: Plön => Treufeld","from":"Plön ZOB","to":"Treufeld, Am Bahndamm","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#E41F1B","route":"bus","public_transport:version":"2"},"n":12,"s":[[1816917310,11],[737361044,12]]},
+  {"id":18215733,"t":{"ref":"351","name":"Bus 351: Treufeld => Plön","from":"Treufeld Am Bahndamm","to":"Plön ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#E41F1B","route":"bus","public_transport:version":"2"},"n":23,"s":[[1816917311,1]]},
+  {"id":18215734,"t":{"ref":"351","name":"Bus 351: Plön => Treufeld","from":"Plön, Schiffsthal","to":"Treufeld, Am Bahndamm","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#E41F1B","route":"bus","public_transport:version":"2"},"n":25,"s":[[1816917310,24],[737361044,25]]},
+  {"id":3034645561171,"t":{"ref":"315","name":"Schnellbus 315: Kiel ZOB => Lütjenburg ZOB","from":"Kiel ZOB","to":"Lütjenburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#cdcc00","route":"bus","public_transport:version":"2"},"n":16,"s":[[6019814054983,13]]},
+  {"id":3036017289399,"t":{"ref":"310","name":"Bus 310: Oldenburg (Holstein), Markt => Lütjenburg => Kiel ZOB","from":"Oldenburg (Holstein), Markt","to":"Kiel ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#bb7530","route":"bus","public_transport:version":"2"},"n":47,"s":[[6045304787839,25]]},
+  {"id":3051803698789,"t":{"ref":"310","name":"Bus 310: Kiel ZOB => Lütjenburg => Oldenburg (Holstein), Markt","from":"Kiel ZOB","to":"Oldenburg (Holstein), Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#bb7530","route":"bus","public_transport:version":"2"},"n":30,"s":[[6019814054983,22]]},
+  {"id":3072402396856,"t":{"ref":"315","name":"Schnellbus 315: Kiel ZOB => Lütjenburg ZOB","from":"Kiel ZOB","to":"Lütjenburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#cdcc00","route":"bus","public_transport:version":"2"},"n":18,"s":[[6045304787839,5]]},
+  {"id":3079959656829,"t":{"ref":"310","name":"Bus 310: Oldenburg (Holstein), Markt => Lütjenburg => Kiel ZOB","from":"Oldenburg (Holstein), Markt","to":"Kiel ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#bb7530","route":"bus","public_transport:version":"2"},"n":32,"s":[[6045304787839,10]]},
+  {"id":3091659156242,"t":{"ref":"310","name":"Bus 310: Kiel ZOB => Lütjenburg => Oldenburg (Holstein), Markt","from":"Kiel ZOB","to":"Oldenburg (Holstein), Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#bb7530","route":"bus","public_transport:version":"2"},"n":45,"s":[[6019814054983,22]]}
+]
+}

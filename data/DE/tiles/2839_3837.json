@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2839,3837],
+"stops":[
+  {"id":6781247650,"lat":51.977994,"lon":11.871991,"k":"p","n":"Barby, Gartenanlage"},
+  {"id":6909828544,"lat":51.966916,"lon":11.884777,"k":"p","n":"Barby, Ludwig-Fuchs-Straße"},
+  {"id":6909828545,"lat":51.966713,"lon":11.883662,"k":"p","n":"Barby, Magdeburger Straße"},
+  {"id":6909828546,"lat":51.972299,"lon":11.884105,"k":"p","n":"Barby, Reha-Klinik"},
+  {"id":6909828547,"lat":51.97213,"lon":11.883941,"k":"p","n":"Barby, Reha-Klinik"},
+  {"id":6909828548,"lat":51.97685,"lon":11.879129,"k":"p","n":"Barby, Durchlaß"},
+  {"id":6909828549,"lat":51.976596,"lon":11.879126,"k":"p","n":"Barby, Durchlaß"},
+  {"id":6909828550,"lat":51.969324,"lon":11.869225,"k":"p","n":"Barby, Bahnhof"},
+  {"id":6909828551,"lat":51.961771,"lon":11.87692,"k":"p","n":"Tankstelle"},
+  {"id":6909828552,"lat":51.972273,"lon":11.883922,"k":"x","n":"Barby, Reha-Klinik"},
+  {"id":6909828553,"lat":51.966963,"lon":11.884685,"k":"x","n":"Barby, Ludwig-Fuchs-Straße"},
+  {"id":6909828554,"lat":51.966644,"lon":11.883654,"k":"x","n":"Barby, Magdeburger Straße"},
+  {"id":6909828555,"lat":51.961608,"lon":11.876898,"k":"x","n":"Tankstelle"},
+  {"id":6909828556,"lat":51.969388,"lon":11.869233,"k":"x","n":"Barby, Bahnhof"},
+  {"id":8576761114,"lat":51.970434,"lon":11.852018,"k":"p","n":"Barby, Weinberg"},
+  {"id":8576761115,"lat":51.970382,"lon":11.852006,"k":"x","n":"Barby, Weinberg"},
+  {"id":8576761116,"lat":51.970206,"lon":11.853352,"k":"p","n":"Barby, Weinberg"},
+  {"id":8576777217,"lat":51.97025,"lon":11.853358,"k":"x","n":"Barby, Weinberg"},
+  {"id":8576777226,"lat":51.972157,"lon":11.884024,"k":"x","n":"Barby, Reha-Klinik"},
+  {"id":8576777227,"lat":51.976804,"lon":11.878991,"k":"x","n":"Barby, Durchlaß"},
+  {"id":8576777228,"lat":51.976622,"lon":11.879195,"k":"x","n":"Barby, Durchlaß"},
+  {"id":8576777229,"lat":51.97806,"lon":11.872041,"k":"p","n":"Barby, Gartenanlage"},
+  {"id":8576777230,"lat":51.97803,"lon":11.872019,"k":"x","n":"Barby, Gartenanlage"},
+  {"id":6010383597774,"lat":51.97741,"lon":11.87426,"k":"p","n":"Barby (Elbe), Gartenanlage","g":1},
+  {"id":6015097414660,"lat":51.97741,"lon":11.87426,"k":"p","n":"Barby (Elbe), Gartenanlage","g":1}
+],
+"routes":[
+  {"id":3319353,"t":{"ref":"131","name":"Bus 131: Barby => Jesar","from":"Barby","to":"Jesar","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[6909828550,1],[6909828544,2],[6909828546,3]]},
+  {"id":3319354,"t":{"ref":"131","name":"Bus 131: Jesar => Barby","from":"Jesar","to":"Barby","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[6909828544,23],[6909828546,24],[6909828550,25]]},
+  {"id":12512771,"t":{"ref":"132","name":"Bus 132: Schönebeck => Gnadau => Barby","from":"Schönebeck(Elbe)","to":"Barby, Bahnhof","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[8576761116,12],[6909828544,13],[6909828546,14],[6909828550,15]]},
+  {"id":3050706186732,"t":{"ref":"132","name":"Bus 132: Barby => Glinde => Schönebeck","from":"Barby, Bahnhof","to":"Schönebeck(Elbe)","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6909828556,1],[6909828544,2],[8576777226,3],[8576777227,4],[6015097414660,5]]},
+  {"id":3056017433285,"t":{"ref":"132","name":"Bus 132: Barby => Glinde => Schönebeck","from":"Barby, Bahnhof","to":"Schönebeck(Elbe)","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[6909828556,1],[6909828544,2],[8576777226,3],[8576777227,4],[6015097414660,5]]},
+  {"id":3064498387274,"t":{"ref":"132","name":"Bus 132: Schönebeck => Glinde => Barby","from":"Schönebeck(Elbe)","to":"Barby, Bahnhof","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[6010383597774,14],[8576777227,15],[8576777226,16],[6909828554,17],[6909828556,18]]},
+  {"id":3081625929862,"t":{"ref":"132","name":"Bus 132: Barby => Gnadau => Schönebeck","from":"Barby, Bahnhof","to":"Schönebeck(Elbe)","network":"marego","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[8576761115,12],[6909828544,13],[8576777226,14],[6909828556,15]]}
+]
+}

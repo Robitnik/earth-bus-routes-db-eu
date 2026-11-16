@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2797,3801],
+"stops":[
+  {"id":264120855,"lat":49.899224,"lon":10.076166,"k":"x","n":"Bahnhof Bergtheim"},
+  {"id":264120957,"lat":49.897727,"lon":10.06721,"k":"p","n":"Bergtheim Ort"},
+  {"id":264120958,"lat":49.897836,"lon":10.067335,"k":"p","n":"Bergtheim Ort"},
+  {"id":2860491776,"lat":49.895257,"lon":10.069504,"k":"p","n":"Bergtheim Schule"},
+  {"id":2927971677,"lat":49.898131,"lon":10.076151,"k":"p","n":"Bergtheim"},
+  {"id":5431639922,"lat":49.877099,"lon":10.086246,"k":"x","n":"Oberpleichfeld Ort"},
+  {"id":6381818294,"lat":49.897844,"lon":10.067305,"k":"x","n":"Bergtheim Ort"},
+  {"id":6381818295,"lat":49.897723,"lon":10.067282,"k":"x","n":"Bergtheim Ort"},
+  {"id":8856249941,"lat":49.879043,"lon":10.085807,"k":"p","n":"Oberpleichfeld An der Weth"},
+  {"id":8856249942,"lat":49.878761,"lon":10.085653,"k":"p","n":"Oberpleichfeld An der Weth"},
+  {"id":8862882694,"lat":49.89878,"lon":10.0679,"k":"p","n":"Bergtheim Marktplatz"},
+  {"id":8862882695,"lat":49.898673,"lon":10.068066,"k":"p","n":"Bergtheim Marktplatz"},
+  {"id":9052986562,"lat":49.87706,"lon":10.086285,"k":"p","n":"Oberpleichfeld Ort"},
+  {"id":9052986563,"lat":49.877151,"lon":10.086275,"k":"p","n":"Oberpleichfeld Ort"},
+  {"id":12535468290,"lat":49.898707,"lon":10.06799,"k":"x","n":"Bergtheim Marktplatz"}
+],
+"routes":[
+  {"id":6840757,"t":{"ref":"305/8305","name":"Bus 305:Würzburg => Volkach Bahnhof 1_01","from":"Würzburg","to":"Volkach Bahnhof","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":12,"s":[[9052986562,4]]},
+  {"id":6858684,"t":{"ref":"305/8305","name":"Bus 305: Volkach Volksschule => Würzburg über Oberpleichfeld","from":"Volkach Volksschule","to":"Würzburg","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":15,"s":[[9052986563,12]]},
+  {"id":6858685,"t":{"ref":"305/8305","name":"Bus 305: Würzburg => Volkach Kaserne über Oberpleichfeld","from":"Würzburg","to":"Volkach Kaserne","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":16,"s":[[9052986562,4]]},
+  {"id":9456723,"t":{"ref":"461","name":"Bus 461: Würzburg => Hausen b. Würzburg","from":"Würzburg","to":"Hausen bei Würzburg","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":15,"s":[[264120958,6]]},
+  {"id":18347135,"t":{"ref":"316/8316","name":"Bus 316: Dettelbach Realschule => Oberpleichfeld","from":"Dettelbach Realschule","to":"Oberpleichfeld","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":9,"s":[[8862882694,8],[9052986563,9]]},
+  {"id":18347156,"t":{"ref":"316/8316","name":"Bus 316: Bergtheim Marktplatz => Dettelbach Realschule","from":"Bergtheim Marktplatz","to":"Dettelbach Realschule","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":8,"s":[[8862882695,3]]},
+  {"id":3002185893192,"t":{"ref":"445","name":"445: Seligenstadt (b Würzburg) - Obereisenheim Mainfähre","from":"Seligenstadt (b Würzburg)","to":"Obereisenheim Mainfähre","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[9052986562,2]]},
+  {"id":3010158388012,"t":{"ref":"445","name":"445: Obereisenheim Mainfähre - Seligenstadt (b Würzburg)","from":"Obereisenheim Mainfähre","to":"Seligenstadt (b Würzburg)","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[5431639922,6]]},
+  {"id":3043979414361,"t":{"ref":"305","name":"305: Volkach Volksschule - Würzburg, Hauptbahnhof ZOB","from":"Volkach Volksschule","to":"Würzburg, Hauptbahnhof ZOB","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":16,"s":[[9052986562,12]]},
+  {"id":3064472061428,"t":{"ref":"305","name":"305: Würzburg, Hauptbahnhof ZOB - Volkach Eichfelder Str.","from":"Würzburg, Hauptbahnhof ZOB","to":"Volkach Eichfelder Str.","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":15,"s":[[5431639922,4]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2801,3760],
+"stops":[
+  {"id":401282810,"lat":50.08916,"lon":8.013611,"k":"x","n":"Obergladbach Feuerwehr"},
+  {"id":885677048,"lat":50.083635,"lon":8.045871,"k":"x","n":"Taunusstraße"},
+  {"id":885677051,"lat":50.08399,"lon":8.046419,"k":"p","n":"Taunusstraße"},
+  {"id":885677054,"lat":50.083552,"lon":8.045954,"k":"p","n":"Taunusstraße"},
+  {"id":885692740,"lat":50.084826,"lon":8.049304,"k":"x","n":"Hausen Feuerwehr"},
+  {"id":885692746,"lat":50.084795,"lon":8.049221,"k":"p","n":"Hausen Feuerwehr"},
+  {"id":989090903,"lat":50.083378,"lon":8.04379,"k":"x","n":"Altes Rathaus / Dalles"},
+  {"id":989266192,"lat":50.083959,"lon":8.046468,"k":"x","n":"Taunusstraße"},
+  {"id":2185732606,"lat":50.089184,"lon":8.013514,"k":"p","n":"Obergladbach Feuerwehr"},
+  {"id":2192651553,"lat":50.090539,"lon":8.01408,"k":"x","n":"Lorcher Straße"},
+  {"id":2192651571,"lat":50.090606,"lon":8.014047,"k":"p","n":"Lorcher Straße"},
+  {"id":4822486109,"lat":50.090548,"lon":8.013113,"k":"p","n":"Lorcher Straße"},
+  {"id":4828648285,"lat":50.090616,"lon":8.013119,"k":"x","n":"Lorcher Straße"}
+],
+"routes":[
+  {"id":2841500,"t":{"ref":"211","name":"Bus 211: Bad Schwalbach => Niedergladbach","from":"Bad Schwalbach","to":"Geroldstein","network":"Rhein-Main-Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":12,"s":[[885677051,10],[2192651571,11]]},
+  {"id":2841549,"t":{"ref":"211","name":"Bus 211: Geroldstein => Bad Schwalbach","from":"Geroldstein","to":"Bad Schwalbach","network":"Rhein-Main-Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":13,"s":[[4822486109,3],[885677054,4]]},
+  {"id":8955915,"t":{"ref":"175","name":"Bus 175: Georgenborn => Niedergladbach","from":"Georgenborn","to":"Niedergladbach","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"1"},"n":14,"s":[[885692746,11],[885677051,12],[2192651571,13]]},
+  {"id":9064825,"t":{"ref":"175","name":"Bus 175: Niedergladbach => Georgenborn","from":"Niedergladbach","to":"Georgenborn","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"1"},"n":13,"s":[[4822486109,2],[885677054,3]]},
+  {"id":3002326450334,"t":{"ref":"173","name":"Bus 173: Niedergladbach => Eltville","from":"Niedergladbach","to":"Eltville","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"2"},"n":25,"s":[[4822486109,2],[885677048,3]]},
+  {"id":3082805429469,"t":{"ref":"173","name":"Bus 173: Eltville => Niedergladbach","from":"Eltville","to":"Niedergladbach","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"2"},"n":26,"s":[[885677051,24],[2192651571,25]]}
+]
+}

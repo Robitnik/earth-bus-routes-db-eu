@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2832,3789],
+"stops":[
+  {"id":1135252821,"lat":51.631077,"lon":9.452148,"k":"p","n":"Krankenhaus"},
+  {"id":1135253150,"lat":51.630846,"lon":9.452432,"k":"p","n":"Krankenhaus"},
+  {"id":1135253677,"lat":51.630187,"lon":9.46126,"k":"p","n":"Mitte"},
+  {"id":1135253942,"lat":51.630296,"lon":9.46106,"k":"p","n":"Mitte"},
+  {"id":1151310925,"lat":51.63997,"lon":9.452642,"k":"p","n":"Gesamtschule"},
+  {"id":1314883327,"lat":51.642466,"lon":9.450983,"k":"p","n":"Hafenplatz"},
+  {"id":1765657419,"lat":51.63063,"lon":9.453048,"k":"p","n":"Parkplatz"},
+  {"id":1765659077,"lat":51.637361,"lon":9.465704,"k":"p","n":"Graseweg"},
+  {"id":1765660383,"lat":51.642654,"lon":9.45143,"k":"p","n":"Hafenplatz"},
+  {"id":1765660989,"lat":51.645259,"lon":9.450074,"k":"p","n":"An der Saline"},
+  {"id":1765660990,"lat":51.645401,"lon":9.450095,"k":"p","n":"An der Saline"},
+  {"id":2885124523,"lat":51.640211,"lon":9.452916,"k":"p","n":"Gesamtschule"},
+  {"id":2885185512,"lat":51.637389,"lon":9.464294,"k":"p","n":"Graseweg"},
+  {"id":6037246092,"lat":51.640166,"lon":9.452913,"k":"x","n":"Gesamtschule"},
+  {"id":6037246094,"lat":51.640042,"lon":9.45261,"k":"x","n":"Gesamtschule"},
+  {"id":6048426598,"lat":51.64514,"lon":9.456058,"k":"p","n":"Kurzentrum"},
+  {"id":6048426599,"lat":51.645546,"lon":9.456196,"k":"p","n":"Kurzentrum"},
+  {"id":6048426600,"lat":51.646879,"lon":9.457066,"k":"x","n":"Weser-Therme"},
+  {"id":6048426601,"lat":51.646842,"lon":9.457048,"k":"p","n":"Weser-Therme"},
+  {"id":12909421995,"lat":51.640126,"lon":9.452617,"k":"p"},
+  {"id":12909421996,"lat":51.640078,"lon":9.452995,"k":"p"},
+  {"id":12909421997,"lat":51.640132,"lon":9.452819,"k":"p"},
+  {"id":5000640944294,"lat":51.640025,"lon":9.45254,"k":"p","n":"Gesamtschule"},
+  {"id":6076520135050,"lat":51.630343,"lon":9.464318,"k":"p","n":"Bad Karlshafen-Helmarshausen Bürgerhaus","g":1}
+],
+"routes":[
+  {"id":8889662,"t":{"ref":"180","name":"Bus 180: Trendelburg => Bad Karlshafen","from":"Trendelburg Schule","to":"Bad Karlshafen Gesamtschule","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":15,"s":[[1135253150,12],[1135253677,13],[1765659077,14],[5000640944294,15]]},
+  {"id":3000808101348,"t":{"ref":"R22","name":"Bus R22: Höxter => Bad Karlshafen","from":"Höxter","to":"Bad Karlshafen","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[1765660383,27]]},
+  {"id":3013885062449,"t":{"ref":"181","name":"181: Bad Karlshafen-Helmarshausen Bürgerhaus - Bad Karlshafen Bahnhof","from":"Bad Karlshafen-Helmarshausen Bürgerhaus","to":"Bad Karlshafen Bahnhof","operator":"DB Regio Bus Mitte","route":"bus","public_transport:version":"2"},"n":5,"s":[[6076520135050,1],[1765659077,2],[1765660383,3],[1765660990,4]]},
+  {"id":3033871429153,"t":{"ref":"181","name":"181: Bad Karlshafen Grundschule - Trendelburg Schule","from":"Bad Karlshafen Grundschule","to":"Trendelburg Schule","operator":"DB Regio Bus Mitte","route":"bus","public_transport:version":"2"},"n":7,"s":[[1151310925,1],[2885185512,2],[6076520135050,3],[1765659077,4]]},
+  {"id":3061092505365,"t":{"ref":"R22","name":"Bus R22: Bad Karlshafen => Höxter","from":"Bad Karlshafen","to":"Höxter","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[1314883327,2]]},
+  {"id":3065345702423,"t":{"ref":"181","name":"181: Bad Karlshafen Bahnhof - Bad Karlshafen-Helmarshausen Bürgerhaus","from":"Bad Karlshafen Bahnhof","to":"Bad Karlshafen-Helmarshausen Bürgerhaus","operator":"DB Regio Bus Mitte","route":"bus","public_transport:version":"2"},"n":5,"s":[[1765660989,2],[1314883327,3],[2885185512,4],[6076520135050,5]]},
+  {"id":3075212439465,"t":{"ref":"180","name":"Bus 180: Bad Karlshafen => Hofgeismar","from":"Bad Karlshafen","to":"Hofgeismar","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":19,"s":[[1765660989,2],[1314883327,3]]},
+  {"id":3091075919086,"t":{"ref":"180","name":"Bus 180: Hofgeismar => Bad Karlshafen","from":"Hofgeismar","to":"Bad Karlshafen","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":19,"s":[[1765660383,17],[1765660990,18]]}
+]
+}

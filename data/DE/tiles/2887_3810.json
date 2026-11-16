@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2887,3810],
+"stops":[
+  {"id":286417768,"lat":54.367979,"lon":10.511514,"k":"p","n":"Ostseering"},
+  {"id":286417770,"lat":54.367132,"lon":10.508815,"k":"p","n":"Hohenfelde, Kirche"},
+  {"id":506552006,"lat":54.357932,"lon":10.535469,"k":"p","n":"Satjendorfer Kreuz"},
+  {"id":506552007,"lat":54.357749,"lon":10.53539,"k":"p","n":"Satjendorfer Kreuz"},
+  {"id":645367821,"lat":54.361541,"lon":10.535172,"k":"p","n":"Panker-Satjendorf Ort"},
+  {"id":650599056,"lat":54.352318,"lon":10.542432,"k":"p","n":"Finksoll"},
+  {"id":650599059,"lat":54.352244,"lon":10.542205,"k":"p","n":"Finksoll"},
+  {"id":678464841,"lat":54.361246,"lon":10.521588,"k":"p","n":"Sachskamp"},
+  {"id":678464842,"lat":54.361303,"lon":10.521873,"k":"p","n":"Sachskamp"},
+  {"id":750667139,"lat":54.362777,"lon":10.540236,"k":"p","n":"Satjendorf, Matzwitzer Weg"},
+  {"id":750667209,"lat":54.36379,"lon":10.540561,"k":"p","n":"Satjendorf, Matzwitzer Weg"},
+  {"id":1447554451,"lat":54.367018,"lon":10.508904,"k":"p","n":"Hohenfelde, Kirche"},
+  {"id":12230399947,"lat":54.3638,"lon":10.540463,"k":"x","n":"Satjendorf, Matzwitzer Weg"},
+  {"id":12230399948,"lat":54.362733,"lon":10.540336,"k":"x","n":"Satjendorf, Matzwitzer Weg"},
+  {"id":12942177446,"lat":54.361534,"lon":10.535296,"k":"x"},
+  {"id":6001619030598,"lat":54.361071,"lon":10.522484,"k":"p","n":"Panker-Satjendorf Sachskamp","g":1}
+],
+"routes":[
+  {"id":14047589,"t":{"ref":"311","name":"Bus 311: Todendorf => Emkendorf => Lütjenburg ZOB","from":"Todendorf, Kaserne","to":"Lütjenburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#088C3B","route":"bus","public_transport:version":"2"},"n":14,"s":[[750667139,1]]},
+  {"id":14047597,"t":{"ref":"311","name":"Bus 311: Lütjenburg ZOB => Emkendorf => Todendorf","from":"Lütjenburg ZOB","to":"Todendorf, Kaserne","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#088C3B","route":"bus","public_transport:version":"2"},"n":16,"s":[[750667209,16]]},
+  {"id":14049056,"t":{"ref":"312","name":"Bus 312: Lütjenburg ZOB => Behrensdorf => Todendorf","from":"Lütjenburg ZOB","to":"Todendorf","network":"NAH.SH;VRK","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#06AADC","route":"bus","public_transport:version":"2"},"n":16,"s":[[650599056,15],[750667209,16]]},
+  {"id":3020495372974,"t":{"ref":"312","name":"Bus 312: Todendorf => Behrensdorf => Lütjenburg Markt","from":"Todendorf","to":"Lütjenburg Markt","network":"NAH.SH;VRK","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#06AADC","route":"bus","public_transport:version":"2"},"n":17,"s":[[645367821,1],[506552007,2],[650599059,3]]},
+  {"id":3060528054053,"t":{"ref":"260","name":"Bus 260: Schönberg => Lütjenburg","from":"Schönberg Schule","to":"Lütjenburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#FFCC08","route":"bus","public_transport:version":"2"},"n":23,"s":[[1447554451,13],[678464841,14],[506552007,15],[650599059,16]]},
+  {"id":3098772613383,"t":{"ref":"260","name":"Bus 260: Lütjenburg => Schönberg","from":"Lütjenburg ZOB","to":"Schönberg Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Kreis Plön GmbH","colour":"#FFCC08","route":"bus","public_transport:version":"2"},"n":23,"s":[[650599056,8],[506552006,9],[6001619030598,10],[286417770,11]]}
+]
+}

@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2837,3890],
+"stops":[
+  {"id":1662328781,"lat":51.863692,"lon":14.509039,"k":"x","n":"Jänschwalde, Kolonie"},
+  {"id":1662328782,"lat":51.873492,"lon":14.540266,"k":"x","n":"Jänschwalde, Schule"},
+  {"id":1662328783,"lat":51.875154,"lon":14.544146,"k":"x","n":"Jänschwalde, Ost"},
+  {"id":1873653906,"lat":51.895836,"lon":14.507921,"k":"p","n":"Drewitz, Gasse"},
+  {"id":1873653907,"lat":51.895877,"lon":14.5079,"k":"x","n":"Drewitz, Gasse"},
+  {"id":1873653915,"lat":51.895904,"lon":14.507905,"k":"p","n":"Drewitz, Gasse"},
+  {"id":1873653919,"lat":51.898477,"lon":14.514477,"k":"p","n":"Drewitz, Kirche"},
+  {"id":1873653924,"lat":51.898483,"lon":14.51442,"k":"x","n":"Drewitz, Kirche"},
+  {"id":1873688047,"lat":51.863343,"lon":14.508923,"k":"x","n":"Jänschwalde, Kolonie"},
+  {"id":5000204737506,"lat":51.863715,"lon":14.508984,"k":"p","n":"Jänschwalde, Kolonie"},
+  {"id":5000204737507,"lat":51.863315,"lon":14.508944,"k":"p","n":"Jänschwalde, Kolonie"},
+  {"id":5000204737508,"lat":51.873525,"lon":14.54026,"k":"p","n":"Jänschwalde, Schule"},
+  {"id":5000204737509,"lat":51.875179,"lon":14.544116,"k":"p","n":"Jänschwalde, Ost"},
+  {"id":6074512958731,"lat":51.87749,"lon":14.541331,"k":"p","n":"Jänschwalde, Ost Bhf","g":1},
+  {"id":6086019998111,"lat":51.877491,"lon":14.541383,"k":"p","n":"Jänschwalde, Ost Bhf","g":1}
+],
+"routes":[
+  {"id":2070505,"t":{"ref":"42","name":"Bus 42: Jänschwalde, Schule => Peitz, Busbahnhof","from":"Jänschwalde, Schule","to":"Peitz, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000204737508,1],[5000204737506,2],[1873653906,4],[1873653919,5]]},
+  {"id":2074437,"t":{"ref":"43","name":"Bus 43: Peitz, Busbahnhof => Jänschwalde, Schule","from":"Peitz, Busbahnhof","to":"Jänschwalde, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000204737507,18],[5000204737509,19],[5000204737508,20]]},
+  {"id":14253262,"t":{"ref":"42","name":"Bus 42: Peitz, Busbahnhof => Jänschwalde, Schule","from":"Peitz, Busbahnhof","to":"Jänschwalde, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[1873653906,17],[1873653919,18],[5000204737507,20],[5000204737509,21],[5000204737508,22]]},
+  {"id":3023774430259,"t":{"ref":"877","name":"Bus 877: Cottbus, Hauptbahnhof => Guben, Bahnhof","from":"Cottbus, Hauptbahnhof","to":"Guben, Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neiße-Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[6074512958731,12]]},
+  {"id":3039457910644,"t":{"ref":"877","name":"Bus 877: Cottbus, Hauptbahnhof => Guben, Bahnhof","from":"Cottbus, Hauptbahnhof","to":"Guben, Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neiße-Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6074512958731,12]]},
+  {"id":3042702380069,"t":{"ref":"877","name":"Bus 877: Guben, Bahnhof => Cottbus, Hauptbahnhof","from":"Guben, Bahnhof","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6086019998111,12]]},
+  {"id":3064048807961,"t":{"ref":"40","name":"40: Jänschwalde, Schule - Maust, Trift","from":"Jänschwalde, Schule","to":"Maust, Trift","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[1662328782,1]]},
+  {"id":3068972854963,"t":{"ref":"877","name":"Bus 877: Guben, Bahnhof => Cottbus, Hauptbahnhof","from":"Guben, Bahnhof","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[6086019998111,11]]}
+]
+}

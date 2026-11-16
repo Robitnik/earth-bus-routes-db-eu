@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3752],
+"stops":[
+  {"id":506680876,"lat":49.534582,"lon":7.633625,"k":"x","n":"Frankelbach Ortsmitte"},
+  {"id":5924491655,"lat":49.549488,"lon":7.630263,"k":"p","n":"Kaulbach Lauterstraße"},
+  {"id":5924491656,"lat":49.548917,"lon":7.629488,"k":"p","n":"Kaulbach Hesch"},
+  {"id":5924491657,"lat":49.548921,"lon":7.628744,"k":"p","n":"Kaulbach Hesch"},
+  {"id":8912906924,"lat":49.518318,"lon":7.647316,"k":"p","n":"Obersulzbach Scheune"},
+  {"id":8912906927,"lat":49.540546,"lon":7.644073,"k":"p","n":"Frankelbach Grubenhof"},
+  {"id":8912906928,"lat":49.540478,"lon":7.644229,"k":"p","n":"Frankelbach Grubenhof"},
+  {"id":6011180352502,"lat":49.506704,"lon":7.637593,"k":"p","n":"Eulenbis, Ortsmitte","g":1},
+  {"id":6059619181361,"lat":49.508332,"lon":7.639201,"k":"p","n":"Eulenbis, Ende","g":1},
+  {"id":6064811870607,"lat":49.537436,"lon":7.635985,"k":"p","n":"Frankelbach, Ortsausgang","g":1},
+  {"id":6070231766394,"lat":49.504674,"lon":7.636758,"k":"p","n":"Eulenbis, Ortseingang","g":1},
+  {"id":6080009924555,"lat":49.53743,"lon":7.636057,"k":"p","n":"Frankelbach, Ortsausgang","g":1},
+  {"id":6098108099708,"lat":49.504826,"lon":7.636614,"k":"p","n":"Eulenbis, Ortseingang","g":1}
+],
+"routes":[
+  {"id":3000837724276,"t":{"ref":"2134","name":"2134: Obersulzbach, Scheune - Untersulzbach, Denkmal","from":"Obersulzbach, Scheune","to":"Untersulzbach, Denkmal","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[8912906924,1]]},
+  {"id":3013355813501,"t":{"ref":"2975","name":"2975: Wolfstein, Pfingstweide - Wolfstein, Pfingstweide","from":"Wolfstein, Pfingstweide","to":"Wolfstein, Pfingstweide","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":46,"s":[[5924491656,24]]},
+  {"id":3017388974800,"t":{"ref":"2138","name":"2138: Eulenbis, Ortseingang - Weilerbach, Abzw. Bahnhof","from":"Eulenbis, Ortseingang","to":"Weilerbach, Abzw. Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":10,"s":[[6098108099708,1],[6011180352502,2],[6059619181361,3]]},
+  {"id":3023560794220,"t":{"ref":"2134","name":"2134: Frankelbach, Ortsmitte - Olsbrücken, Bahnhof","from":"Frankelbach, Ortsmitte","to":"Olsbrücken, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[506680876,1]]},
+  {"id":3026975436549,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":25,"s":[[8912906924,17],[8912906928,23],[6064811870607,24],[506680876,25]]},
+  {"id":3032105831685,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":23,"s":[[8912906928,21],[6064811870607,22],[506680876,23]]},
+  {"id":3046149041413,"t":{"ref":"2138","name":"2138: Weilerbach, Abzw. Bahnhof - Pörrbach, Ort","from":"Weilerbach, Abzw. Bahnhof","to":"Pörrbach, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":11,"s":[[6098108099708,4],[6011180352502,5],[6059619181361,6]]},
+  {"id":3070500757519,"t":{"ref":"2138","name":"2138: Weilerbach, Abzw. Bahnhof - Fockenberg-Limbach, Ort","from":"Weilerbach, Abzw. Bahnhof","to":"Fockenberg-Limbach, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":20,"s":[[6098108099708,4],[6011180352502,5],[6059619181361,6]]},
+  {"id":3070522473445,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":24,"s":[[506680876,1],[6080009924555,2],[8912906928,3]]},
+  {"id":3074525325346,"t":{"ref":"2134","name":"2134: Untersulzbach, Denkmal - Obersulzbach, Scheune","from":"Untersulzbach, Denkmal","to":"Obersulzbach, Scheune","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[8912906924,2]]},
+  {"id":3086704267491,"t":{"ref":"2138","name":"2138: Fockenberg-Limbach, Ort - Weilerbach, Abzw. Bahnhof","from":"Fockenberg-Limbach, Ort","to":"Weilerbach, Abzw. Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":19,"s":[[6059619181361,15],[6011180352502,16],[6070231766394,17]]},
+  {"id":3094519706266,"t":{"ref":"134","name":"Bus 134: Kaiserslautern => Frankelbach","from":"Kaiserslautern Hbf.","to":"Frankelbach","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":27,"s":[[506680876,1],[6080009924555,2],[8912906928,3],[8912906924,9]]},
+  {"id":3096118133037,"t":{"ref":"2134","name":"2134: Olsbrücken, Bahnhof - Frankelbach, Ortsmitte","from":"Olsbrücken, Bahnhof","to":"Frankelbach, Ortsmitte","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":2,"s":[[506680876,2]]}
+]
+}

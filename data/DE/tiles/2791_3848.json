@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2791,3848],
+"stops":[
+  {"id":2350010119,"lat":49.591262,"lon":12.409148,"k":"p","n":"Moosbach, Marktplatz"},
+  {"id":2350010827,"lat":49.59113,"lon":12.408765,"k":"p","n":"Moosbach, Marktplatz"},
+  {"id":3225529084,"lat":49.557682,"lon":12.432845,"k":"p","n":"Tröbes"},
+  {"id":3225531082,"lat":49.557535,"lon":12.4323,"k":"p","n":"Tröbes"},
+  {"id":3225537227,"lat":49.572502,"lon":12.420063,"k":"p","n":"Saubersrieth"},
+  {"id":7638733733,"lat":49.587394,"lon":12.409557,"k":"p","n":"Moosbach, Raiffeisenlagerhaus"},
+  {"id":7639648949,"lat":49.585394,"lon":12.448954,"k":"p","n":"Heumaden, Abzw"},
+  {"id":8582784565,"lat":49.599102,"lon":12.408561,"k":"p","n":"Gröbenstädt"},
+  {"id":8582784566,"lat":49.599218,"lon":12.408624,"k":"p","n":"Gröbenstädt"},
+  {"id":8597907346,"lat":49.587244,"lon":12.409444,"k":"p","n":"Moosbach, Raiffeisenlagerhaus"},
+  {"id":8624911085,"lat":49.59326,"lon":12.418245,"k":"p","n":"Grub bei Moosbach"},
+  {"id":8624977374,"lat":49.599773,"lon":12.446115,"k":"p","n":"Heumaden, Haus Nummer 35"},
+  {"id":8631723847,"lat":49.58934,"lon":12.449345,"k":"p","n":"Heumaden, Haus Nr. 3"},
+  {"id":10195115895,"lat":49.58569,"lon":12.449467,"k":"x","n":"Heumaden, Abzweig"},
+  {"id":10195115900,"lat":49.585696,"lon":12.449405,"k":"p","n":"Heumaden, Abzweig"},
+  {"id":10196550260,"lat":49.593071,"lon":12.409895,"k":"x","n":"Moosbach, Schule"},
+  {"id":10196550261,"lat":49.593099,"lon":12.409727,"k":"p","n":"Moosbach, Schule"},
+  {"id":6030474724565,"lat":49.570887,"lon":12.41134,"k":"p","n":"Niederland","g":1}
+],
+"routes":[
+  {"id":11222515,"t":{"ref":"1935","name":"Bus 1935: Oberviechtach -> Moosbach -> Vohenstrauß","from":"Oberviechtach","to":"Vohenstrauß","network":"VGN","colour":"#F6ADCC","route":"bus"},"n":19,"s":[[3225529084,11],[3225537227,12],[7638733733,13],[2350010119,14]]},
+  {"id":11223106,"t":{"ref":"1935","name":"Bus 1935: Vohenstrauß -> Moosbach -> Oberviechtach","from":"Vohenstrauß","to":"Oberviechtach","network":"VGN","colour":"#F6ADCC","route":"bus"},"n":20,"s":[[2350010827,5],[7638733733,6],[3225537227,7],[3225531082,8]]},
+  {"id":11223127,"t":{"ref":"1936","name":"Bus 1936: Moosbach -> Eslarn -> Oberviechtach","from":"Moosbach","to":"Oberviechtach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[2350010827,1],[7639648949,2]]},
+  {"id":11223143,"t":{"ref":"1936","name":"Bus 1936: Oberviechtach -> Eslarn -> Moosbach","from":"Oberviechtach","to":"Moosbach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[7639648949,17],[2350010119,18]]},
+  {"id":3006400303707,"t":{"ref":"1984","name":"1984: Ödbraunetsrieth - Erpetshof, Abzw","from":"Ödbraunetsrieth","to":"Erpetshof, Abzw","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":101,"s":[[7639648949,1],[8631723847,2],[8624977374,4],[8582784565,8],[8624911085,12],[2350010119,13],[7638733733,14],[10196550260,15],[3225537227,16],[6030474724565,17],[3225529084,19]]},
+  {"id":3015380999879,"t":{"ref":"1930","name":"Bus 1930: Eslarn -> Waidhaus / Moosbach -> Vohenstrauß -> Weiden","from":"Eslarn","to":"Weiden","network":"VGN","colour":"#A7CE39","route":"bus","public_transport:version":"2"},"n":29,"s":[[10195115900,3],[2350010119,4],[8582784565,5]]},
+  {"id":3027408881299,"t":{"ref":"1984","name":"1984: Weiden (Oberpf) - Ödbraunetsrieth","from":"Weiden (Oberpf)","to":"Ödbraunetsrieth","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":102,"s":[[3225529084,84],[6030474724565,86],[3225537227,87],[10196550260,88],[7638733733,89],[2350010119,90],[8624911085,91],[8582784565,95],[8624977374,99],[8631723847,101],[10195115900,102]]},
+  {"id":3034164865648,"t":{"ref":"1930","name":"Bus 1930: Weiden -> Vohenstrauß -> Waidhaus / Moosbach -> Eslarn","from":"Weiden","to":"Eslarn","network":"VGN","colour":"#A7CE39","route":"bus","public_transport:version":"2"},"n":28,"s":[[8582784565,24],[2350010119,25],[7639648949,26]]},
+  {"id":3061094411239,"t":{"ref":"1984","name":"1984: Erpetshof, Abzw - Ödbraunetsrieth","from":"Erpetshof, Abzw","to":"Ödbraunetsrieth","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":101,"s":[[3225529084,83],[6030474724565,85],[3225537227,86],[10196550260,87],[7638733733,88],[2350010119,89],[8624911085,90],[8582784565,94],[8624977374,98],[8631723847,100],[10195115900,101]]}
+]
+}

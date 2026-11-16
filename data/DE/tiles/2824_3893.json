@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3893],
+"stops":[
+  {"id":247675890,"lat":51.239865,"lon":14.693147,"k":"x","n":"Nieder Radisch"},
+  {"id":5756497353,"lat":51.223261,"lon":14.667985,"k":"p","n":"Gebelzig / Hbjelsk"},
+  {"id":5756497355,"lat":51.223256,"lon":14.667298,"k":"p","n":"Gebelzig"},
+  {"id":5756497396,"lat":51.236407,"lon":14.668381,"k":"p","n":"Gebelzig Abzweig Niesky"},
+  {"id":6735265774,"lat":51.248517,"lon":14.69519,"k":"p","n":"Groß Radisch Ortsausgang"},
+  {"id":6735265775,"lat":51.248529,"lon":14.695339,"k":"p","n":"Groß Radisch Ortsausgang"},
+  {"id":6735265778,"lat":51.247034,"lon":14.670229,"k":"p","n":"Abzweig nach Groß Radisch / Wotbóčka do Radšowa"},
+  {"id":6735265779,"lat":51.246936,"lon":14.669623,"k":"p","n":"Abzweig nach Groß Radisch / Wotbóčka do Radšowa"},
+  {"id":7680813981,"lat":51.234967,"lon":14.652116,"k":"p","n":"Sandförstgen"},
+  {"id":8791169631,"lat":51.239899,"lon":14.693139,"k":"p","n":"Nieder Radisch"},
+  {"id":8791169632,"lat":51.239908,"lon":14.692759,"k":"x","n":"Nieder Radisch"},
+  {"id":8791318853,"lat":51.236428,"lon":14.668297,"k":"p","n":"Gebelzig Abzweig Niesky"},
+  {"id":11653342175,"lat":51.223169,"lon":14.667847,"k":"p","n":"Gebelzig / Hbjelsk"},
+  {"id":11658193300,"lat":51.239872,"lon":14.692734,"k":"p","n":"Nieder Radisch"},
+  {"id":6006355224159,"lat":51.233964,"lon":14.657541,"k":"p","n":"Sandförstgen, Ortseingang","g":1}
+],
+"routes":[
+  {"id":17259527,"t":{"ref":"75","name":"Bus 75: Mücka => Förstgen => Hohendubrau => Waldhufen => Niesky","from":"Mücka Bahnhof","to":"Niesky Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[6735265778,11],[6735265774,13],[11658193300,14]]},
+  {"id":3008571701385,"t":{"ref":"31","name":"TaktBus 31: Niesky => Weißenberg => Löbau","from":"Niesky Bahnhof","to":"Löbau Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":35,"s":[[6735265779,15],[6006355224159,16],[5756497355,17]]},
+  {"id":3040046178831,"t":{"ref":"31","name":"TaktBus 31: Löbau => Weißenberg => Niesky","from":"Löbau Busbahnhof","to":"Niesky Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":34,"s":[[5756497353,19],[6735265778,20]]},
+  {"id":3042162531203,"t":{"ref":"31","name":"TaktBus 31: Niesky => Weißenberg => Löbau","from":"Niesky Bahnhof","to":"Löbau Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":34,"s":[[6735265779,15],[5756497355,16]]},
+  {"id":3051794519012,"t":{"ref":"75","name":"Bus 75: Niesky => Waldhufen => Hohendubrau => Förstgen => Mücka","from":"Niesky Bahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[6735265778,6],[6735265774,8],[8791169631,9]]},
+  {"id":3057745819045,"t":{"ref":"75","name":"Bus 75: Niesky => Waldhufen => Hohendubrau => Förstgen => Mücka","from":"Niesky Bahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[8791169632,13],[6735265775,14],[6735265779,16]]}
+]
+}

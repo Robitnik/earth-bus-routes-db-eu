@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2838,3788],
+"stops":[
+  {"id":3731384897,"lat":51.912074,"lon":9.426517,"k":"p","n":"Brevörde Kirche"},
+  {"id":3731388726,"lat":51.91214,"lon":9.427265,"k":"p","n":"Brevörde Kirche"},
+  {"id":3731388738,"lat":51.911926,"lon":9.431255,"k":"p","n":"Brevörde Riepenbrink"},
+  {"id":3731388739,"lat":51.911833,"lon":9.431459,"k":"p","n":"Brevörde Riepenbrink"},
+  {"id":5036361003,"lat":51.947002,"lon":9.409282,"k":"x","n":"Ottenstein, Hehlener Straße"},
+  {"id":6356300820,"lat":51.946952,"lon":9.409306,"k":"p","n":"Ottenstein, Hehlener Straße"},
+  {"id":6356378810,"lat":51.917757,"lon":9.447387,"k":"p","n":"Grave B 83"},
+  {"id":6356378811,"lat":51.918021,"lon":9.447781,"k":"p","n":"Grave B 83"},
+  {"id":8497777698,"lat":51.947103,"lon":9.409247,"k":"p","n":"Ottenstein, Hehlener Straße"},
+  {"id":8573220606,"lat":51.911879,"lon":9.431396,"k":"x","n":"Brevörde, Riepenbrink"},
+  {"id":8573220607,"lat":51.91209,"lon":9.427295,"k":"x","n":"Brevörde, Kirche"},
+  {"id":8573220608,"lat":51.912134,"lon":9.426521,"k":"x","n":"Brevörde, Kirche"},
+  {"id":8582542950,"lat":51.918042,"lon":9.447648,"k":"x","n":"Grave, B 83"},
+  {"id":8582542953,"lat":51.917717,"lon":9.447479,"k":"x","n":"Grave, B 83"},
+  {"id":8749945492,"lat":51.94604,"lon":9.404018,"k":"x","n":"Ottenstein, Breite Straße"},
+  {"id":8749945493,"lat":51.946075,"lon":9.403954,"k":"p","n":"Ottenstein, Breite Straße"},
+  {"id":9388997731,"lat":51.946008,"lon":9.404042,"k":"p","n":"Ottenstein, Breite Straße"},
+  {"id":6067541274924,"lat":51.946105,"lon":9.40488,"k":"p","n":"Ottenstein Breite Straße","g":1},
+  {"id":6073006204183,"lat":51.946175,"lon":9.404861,"k":"p","n":"Ottenstein Breite Straße","g":1}
+],
+"routes":[
+  {"id":12434620,"t":{"ref":"520","name":"Bus 520 / ALT 520 Grave -> Brevörde","from":"Grave","to":"Brevörde","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":5,"s":[[6356378810,3],[3731388738,4],[3731388726,5]]},
+  {"id":12434621,"t":{"ref":"520","name":"Bus 520 / ALT 520 Brevörde -> Grave","from":"Brevörde","to":"Grave","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":4,"s":[[3731384897,1],[3731388739,2]]},
+  {"id":12736381,"t":{"ref":"521","name":"Bus 521: Holzminden => Bad Pyrmont","from":"Holzminden Bahnhof","to":"Bad Pyrmont Markt","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":36,"s":[[8497777698,16],[8749945493,17]]},
+  {"id":12900147,"t":{"ref":"521","name":"Bus 521: Bad Pyrmont => Holzminden","from":"Bad Pyrmont Markt","to":"Holzminden Bahnhof","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":36,"s":[[8749945493,20],[8497777698,21]]},
+  {"id":13630685,"t":{"ref":"524","name":"Bus 524: Bodenwerder - Ottenstein - Lichtenhagen","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":18,"s":[[8497777698,16],[8749945493,17]]},
+  {"id":13630812,"t":{"ref":"524","name":"Bus 524: Lichtenhagen - Ottenstein - Bodenwerder","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":19,"s":[[9388997731,2],[6356300820,3]]},
+  {"id":3023380676416,"t":{"ref":"521","name":"521: Holzminden Bahnhof - Bodenwerder Im Hagen","from":"Holzminden Bahnhof","to":"Bodenwerder Im Hagen","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[6067541274924,18],[6356300820,19]]},
+  {"id":3026395618283,"t":{"ref":"520","name":"Bus 520: Holzminden -> Hameln","from":"Holzminden","to":"Hameln","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB (DB)","route":"bus","public_transport:version":"2"},"n":17,"s":[[3731388726,10],[3731388739,11],[8582542953,14]]},
+  {"id":3049359433119,"t":{"ref":"524","name":"524: Bodenwerder Im Hagen - Bad Pyrmont, Markt","from":"Bodenwerder Im Hagen","to":"Bad Pyrmont, Markt","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[8497777698,7],[6073006204183,8]]},
+  {"id":3063341099695,"t":{"ref":"524","name":"524: Bad Pyrmont, Markt - Bodenwerder Im Hagen","from":"Bad Pyrmont, Markt","to":"Bodenwerder Im Hagen","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[6067541274924,19],[6356300820,20]]},
+  {"id":3092626619119,"t":{"ref":"520","name":"Bus 520: Hameln -> Holzminden","from":"Hameln","to":"Holzminden","network":"Verkehrsverbund Süd-Niedersachsen","route":"bus","public_transport:version":"2"},"n":18,"s":[[8582542953,6],[3731388738,7],[3731388726,8]]}
+]
+}

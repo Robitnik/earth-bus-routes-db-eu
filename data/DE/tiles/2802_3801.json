@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2802,3801],
+"stops":[
+  {"id":3204924704,"lat":50.139899,"lon":10.069475,"k":"p","n":"Ramsthal"},
+  {"id":3212361391,"lat":50.138264,"lon":10.063302,"k":"p","n":"Festplatz"},
+  {"id":5534446173,"lat":50.138144,"lon":10.063353,"k":"p","n":"Festplatz"},
+  {"id":5534446174,"lat":50.138199,"lon":10.063329,"k":"x","n":"Ramsthal, Festplatz"},
+  {"id":5534446175,"lat":50.140068,"lon":10.06933,"k":"x","n":"Ramsthal"},
+  {"id":11226936061,"lat":50.139827,"lon":10.068758,"k":"p","n":"Ramsthal"},
+  {"id":11227592632,"lat":50.149956,"lon":10.054434,"k":"x","n":"Wirmsthal Aussiedlerhof"},
+  {"id":11227592633,"lat":50.149996,"lon":10.054422,"k":"p","n":"Wirmsthal Aussiedlerhof"},
+  {"id":11250870193,"lat":50.149591,"lon":10.086316,"k":"p","n":"Wirmsthal Abzw. Wittelsb. Turm"},
+  {"id":13837043269,"lat":50.136578,"lon":10.074974,"k":"p"},
+  {"id":13837043270,"lat":50.136607,"lon":10.074977,"k":"x"}
+],
+"routes":[
+  {"id":8186785,"t":{"ref":"8167","name":"Bus 8167: Saaletalbus: Hammelburg -> Ramsthal -> Bad Kissingen","from":"Hammelburg ZOB","to":"Bad Kissingen Berliner Platz","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":16,"s":[[3204924704,13]]},
+  {"id":19050819,"t":{"ref":"8167","name":"Bus 8167: Saaletalbus: Bad Kissingen -> Ramsthal -> Hammelburg","from":"Bad Kissingen Berliner Platz","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":16,"s":[[3204924704,4]]},
+  {"id":21399452,"t":{"ref":"741","name":"Bus 741: Wirmsthal -> Bad Kissingen","network":"Nahverkehr Mainfranken","colour":"#004d6d","route":"bus","public_transport:version":"2"},"n":11,"s":[[11227592633,2],[11226936061,3]]},
+  {"id":21399453,"t":{"ref":"741","name":"Bus 741: Bad Kissingen -> Wirmsthal -> Bad Kissingen","network":"Nahverkehr Mainfranken","colour":"#004d6d","route":"bus","public_transport:version":"2"},"n":17,"s":[[11226936061,9],[11227592633,10],[11250870193,12]]},
+  {"id":21406803,"t":{"ref":"747","name":"Bus 747: Schweinfurt -> Thulba","from":"Schweinfurt Hbf","to":"Thulba","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":17,"s":[[3204924704,5]]},
+  {"id":21406804,"t":{"ref":"747","name":"Bus 747: Schweinfurt -> Hammelburg","from":"Schweinfurt Berufsschule","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":16,"s":[[3204924704,6]]},
+  {"id":21406805,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Ramsthal","from":"Hammelburg ZOB","to":"Ramsthal","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":14,"s":[[3204924704,14]]},
+  {"id":21406806,"t":{"ref":"747","name":"Bus 747: Frankenbrunn -> Schweinfurt -> Hammelburg","from":"Frankenbrunn Abzw. Thulba","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":25,"s":[[3204924704,13,19]]},
+  {"id":21406807,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Schweinfurt","from":"Hammelburg ZOB","to":"Schweinfurt Hbf","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":13,"s":[[3204924704,12]]},
+  {"id":21406809,"t":{"ref":"747","name":"Bus 747: Frankenbrunn -> Schweinfurt","from":"Frankenbrunn","to":"Schweinfurt Galgenleite","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":17,"s":[[3204924704,13]]},
+  {"id":21406810,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Schweinfurt -> Hammelburg","from":"Hammelburg ZOB","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":22,"s":[[3204924704,16]]},
+  {"id":21406811,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Schweinfurt -> Hammelburg","from":"Hammelburg ZOB","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":30,"s":[[3204924704,16]]}
+]
+}

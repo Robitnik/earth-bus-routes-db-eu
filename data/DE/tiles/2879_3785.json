@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2879,3785],
+"stops":[
+  {"id":1664172231,"lat":53.993772,"lon":9.250051,"k":"x","n":"Burg, Stieweg"},
+  {"id":1664172232,"lat":53.994008,"lon":9.250467,"k":"x","n":"Burg, Stieweg"},
+  {"id":1668701009,"lat":53.99845,"lon":9.262278,"k":"s","n":"Burg ZOB"},
+  {"id":1668701179,"lat":53.998446,"lon":9.262254,"k":"x","n":"Burg, ZOB"},
+  {"id":1728072151,"lat":53.993976,"lon":9.250584,"k":"p","n":"Burg, Stieweg"},
+  {"id":2874539006,"lat":53.954577,"lon":9.262785,"k":"x","n":"Ecklak, Alte Schule"},
+  {"id":2874539014,"lat":53.96093,"lon":9.276094,"k":"x","n":"Ecklak, Schötenweg"},
+  {"id":3107611696,"lat":53.9541,"lon":9.262566,"k":"x","n":"Ecklak, Alte Schule"},
+  {"id":3114601972,"lat":53.954106,"lon":9.262464,"k":"p","n":"Ecklak, Alte Schule"},
+  {"id":4730165608,"lat":53.967575,"lon":9.288516,"k":"x","n":"Aebtissinwisch"},
+  {"id":4730205693,"lat":53.96095,"lon":9.27603,"k":"p","n":"Ecklak, Schötenweg"},
+  {"id":5064196714,"lat":53.953359,"lon":9.298238,"k":"x","n":"Neuendorf-Sachsenbande Achterhörn 1"},
+  {"id":6668096655,"lat":53.954566,"lon":9.262842,"k":"p","n":"Ecklak, Alte Schule"},
+  {"id":8014696885,"lat":53.96754,"lon":9.288547,"k":"p","n":"Aebtissinwisch"},
+  {"id":8014696886,"lat":53.967615,"lon":9.28848,"k":"p","n":"Aebtissinwisch"},
+  {"id":8014696887,"lat":53.960909,"lon":9.276157,"k":"p","n":"Ecklak, Schötenweg"},
+  {"id":13607493934,"lat":53.998411,"lon":9.262223,"k":"p","n":"Burg, ZOB"},
+  {"id":6054973655127,"lat":53.961842,"lon":9.277675,"k":"p","n":"Ecklak Schötenweg","g":1},
+  {"id":6082042968466,"lat":53.961844,"lon":9.277679,"k":"p","n":"Ecklak, Am Schötenweg","g":1}
+],
+"routes":[
+  {"id":7523117,"t":{"ref":"6611","name":"Bus 6611: Wilster => Äbtissinwisch","from":"Wilster, Colosseum","to":"Äbtissinwisch","network":"Hamburger Verkehrsverbund","operator":"Autokraft","colour":"red","route":"bus","public_transport:version":"2"},"n":8,"s":[[8014696886,8]]},
+  {"id":7523118,"t":{"ref":"6611","name":"Bus 6611: Äbtissinwisch => Wilster","from":"Aebtissinwisch","to":"Wilster, Colosseum","network":"Hamburger Verkehrsverbund","operator":"Autokraft","colour":"red","route":"bus","public_transport:version":"2"},"n":8,"s":[[8014696885,1]]},
+  {"id":7523120,"t":{"ref":"6611","name":"Bus 6611: Äbtissinwisch => Ecklak => Wilster","from":"Äbtissinwisch","to":"Wilster, Am Schulzentrum","network":"Hamburger Verkehrsverbund","operator":"Autokraft","colour":"red","route":"bus","public_transport:version":"2"},"n":19,"s":[[8014696886,1],[4730205693,2],[3114601972,3]]},
+  {"id":14481194,"t":{"ref":"265","name":"Bus 265: Meldorf => Süderhastedt =>Hochdonn => Burg","from":"Meldorf, ZOB","to":"Burg, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#288C69","route":"bus","public_transport:version":"2"},"n":11,"s":[[13607493934,11]]},
+  {"id":14481310,"t":{"ref":"290","name":"Bus 290: Burg=> Averlak => Brunsbüttel","from":"Burg, ZOB","to":"Brunsbüttel, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#374B9B","route":"bus","public_transport:version":"2"},"n":17,"s":[[13607493934,1]]},
+  {"id":14481311,"t":{"ref":"290","name":"Bus 290R: Burg => Eddelak => Brunsbüttel","from":"Burg, ZOB","to":"Brunsbüttel, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#374B9B","route":"bus","public_transport:version":"2"},"n":18,"s":[[13607493934,3]]},
+  {"id":14488401,"t":{"ref":"265","name":"Bus 265: Meldorf => Süderhastedt => Großenrade => Hochdonn => Burg","from":"Meldorf, ZOB","to":"Burg, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#288C69","route":"bus","public_transport:version":"2"},"n":11,"s":[[13607493934,11]]},
+  {"id":20271991,"t":{"ref":"290","name":"Bus 290R: Brunsbüttel => Eddelak => Burg","from":"Brunsbüttel, ZOB","to":"Burg, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#374B9B","route":"bus","public_transport:version":"2"},"n":17,"s":[[1728072151,15],[13607493934,16]]},
+  {"id":20271992,"t":{"ref":"290","name":"Bus 290: Brunsbüttel => Averlak => Burg","from":"Brunsbüttel, ZOB","to":"Burg, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#374B9B","route":"bus","public_transport:version":"2"},"n":16,"s":[[1728072151,12],[13607493934,16]]},
+  {"id":3013853807608,"t":{"ref":"265","name":"Bus 265: Burg=> Hochdonn => Großenrade => Süderhastedt => Meldorf","from":"Burg, ZOB","to":"Meldorf, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#288C69","route":"bus","public_transport:version":"2"},"n":17,"s":[[1668701179,1]]},
+  {"id":3075631625557,"t":{"ref":"6611","name":"Bus 6611: Wilster => Äbtissinwisch => Ecklak => Wilster","from":"Wilster, Am Schulzentrum","to":"Wilster, Colosseum","network":"Hamburger Verkehrsverbund","operator":"Autokraft","colour":"red","route":"bus","public_transport:version":"2"},"n":19,"s":[[4730165608,12],[6082042968466,13],[3107611696,14]]},
+  {"id":3088177745045,"t":{"ref":"6611","name":"Bus 6611: Wilster => Äbtissinwisch => Ecklak => Wilster","from":"Wilster, Am Schulzentrum","to":"Wilster, Colosseum","network":"Hamburger Verkehrsverbund","operator":"Autokraft","colour":"red","route":"bus","public_transport:version":"2"},"n":19,"s":[[4730165608,12],[6054973655127,13],[3107611696,14]]}
+]
+}

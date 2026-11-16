@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3885],
+"stops":[
+  {"id":660863484,"lat":51.281751,"lon":14.273532,"k":"x","n":"Caßlau"},
+  {"id":2178368115,"lat":51.286134,"lon":14.251495,"k":"p","n":"Naußlitz / Nowoslicy"},
+  {"id":2178368120,"lat":51.286462,"lon":14.251854,"k":"p","n":"Naußlitz / Nowoslicy"},
+  {"id":2178368131,"lat":51.287989,"lon":14.253309,"k":"p","n":"Naußlitz"},
+  {"id":2178368132,"lat":51.28798,"lon":14.252964,"k":"p","n":"Naußlitz"},
+  {"id":5366108943,"lat":51.270932,"lon":14.267873,"k":"p","n":"Doberschütz / Dobrošicy","ref":"769501"},
+  {"id":6174640323,"lat":51.259199,"lon":14.294883,"k":"p","n":"Neu-Puschwitz","ref":"770601"},
+  {"id":8871795429,"lat":51.262695,"lon":14.254367,"k":"p","n":"Horka Hauptstraße / Hórki Hłowna dróha","ref":"6497"},
+  {"id":8913275689,"lat":51.281766,"lon":14.273519,"k":"p","n":"Caßlau / Koslow","ref":"769701"},
+  {"id":8913275690,"lat":51.281722,"lon":14.273577,"k":"p","n":"Caßlau / Koslow","ref":"769702"},
+  {"id":8913295948,"lat":51.269913,"lon":14.284134,"k":"p","n":"Lissahora / Liša Hora"},
+  {"id":8913295949,"lat":51.26989,"lon":14.28387,"k":"p","n":"Lissahora / Liša Hora"},
+  {"id":8913309438,"lat":51.267376,"lon":14.299483,"k":"p","n":"Lomske / Łomsk"},
+  {"id":8913309439,"lat":51.267133,"lon":14.299195,"k":"p","n":"Lomske / Łomsk"},
+  {"id":12148169715,"lat":51.259099,"lon":14.294703,"k":"p","n":"Neu-Puschwitz","ref":"770601"},
+  {"id":12205151357,"lat":51.262656,"lon":14.254432,"k":"x","n":"Horka"}
+],
+"routes":[
+  {"id":18086208,"t":{"ref":"707","name":"Bus 707: Caßlau => Neschwitz => Bautzen","from":"Caßlau","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":23,"s":[[8913275689,1],[5366108943,2],[8913295949,3],[8913309439,4],[12148169715,5]]},
+  {"id":18092894,"t":{"ref":"709","name":"Bus 709: Bautzen => Dreikretscham => Crostwitz => Horka","from":"Bautzen Busbahnhof","to":"Horka Hauptstraße","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":22,"s":[[8871795429,22]]},
+  {"id":18092895,"t":{"ref":"709","name":"Bus 709: Horka => Crostwitz => Dreikretscham => Bautzen","from":"Horka Hauptstraße","to":"Bautzen Busbahnhof","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":18,"s":[[8871795429,1]]},
+  {"id":18125143,"t":{"ref":"711","name":"Bus 711: Dubring => Wittichenau => Dreistern => Bautzen","from":"Dubring","to":"Bautzen Sorbisches Schulzentrum","network":"ZVON","operator":"SchmidtSchwarz Reisen","route":"bus","public_transport:version":"2"},"n":27,"s":[[2178368115,16],[5366108943,18]]},
+  {"id":21099104,"t":{"ref":"796","name":"Bus 796: Ralbitz => Crostwitz => Zscharnitz","from":"Ralbitz Schule","to":"Zscharnitz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":18,"s":[[2178368115,2]]},
+  {"id":21099105,"t":{"ref":"796","name":"Bus 796: Zscharnitz => Crostwitz => Ralbitz","from":"Zscharnitz","to":"Ralbitz Schule","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":19,"s":[[2178368120,18]]},
+  {"id":3065509354593,"t":{"ref":"791","name":"Bus 791: Königswartha => Kamenz","from":"Königswartha, Grundschule","to":"Kamenz, Bahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":24,"s":[[2178368132,6]]},
+  {"id":3077557366020,"t":{"ref":"707","name":"Bus 707: Bautzen => Neschwitz => Caßlau","from":"Bautzen Busbahnhof","to":"Caßlau","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":23,"s":[[6174640323,20],[8913309439,21],[8913275689,22],[5366108943,23]]}
+]
+}

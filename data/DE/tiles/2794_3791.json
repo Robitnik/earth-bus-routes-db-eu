@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3791],
+"stops":[
+  {"id":552415787,"lat":49.748053,"lon":9.570532,"k":"p","n":"Urphar"},
+  {"id":552415790,"lat":49.748044,"lon":9.570625,"k":"x"},
+  {"id":560926637,"lat":49.748554,"lon":9.570834,"k":"p","n":"Urphar"},
+  {"id":1446890226,"lat":49.700944,"lon":9.579424,"k":"p","n":"Eulschirbenmühle"},
+  {"id":1761231566,"lat":49.726253,"lon":9.590955,"k":"p","n":"Höhefeld, Siedlung"},
+  {"id":3402758537,"lat":49.721721,"lon":9.597323,"k":"p"},
+  {"id":9834571960,"lat":49.700992,"lon":9.579129,"k":"p","n":"Eulschirbenmühle"},
+  {"id":10970502335,"lat":49.748569,"lon":9.570739,"k":"x","n":"Urphar, Ort"}
+],
+"routes":[
+  {"id":309650,"t":{"ref":"977","name":"Bus 977: Würzburg => Wertheim","from":"Würzburg Neue Universität","to":"Wertheim","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":13,"s":[[552415787,9]]},
+  {"id":318073,"t":{"ref":"977","name":"Bus 977: Würzburg => Höchberg => Holzkirchen => Wertheim","from":"Würzburg","to":"Wertheim","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":23,"s":[[552415787,20]]},
+  {"id":3014468407427,"t":{"ref":"632","name":"632: Marktheidenfeld ZOB - Wertheim, ZOB","from":"Marktheidenfeld ZOB","to":"Wertheim, ZOB","operator":"Grasmann neu","route":"bus","public_transport:version":"2"},"n":18,"s":[[552415787,13]]},
+  {"id":3022205452605,"t":{"ref":"977","name":"Bus 977: Wertheim => Würzburg","from":"Wertheim ZOB","to":"Würzburg Neue Universität","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":14,"s":[[10970502335,9]]},
+  {"id":3030676810664,"t":{"ref":"9873","name":"9873: Wertheim, ZOB - Bronnbach, Kloster","from":"Wertheim, ZOB","to":"Bronnbach, Kloster","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":29,"s":[[1761231566,9],[10970502335,21]]},
+  {"id":3046943543602,"t":{"ref":"9876","name":"9876: Tauberbischofsheim, Abz. Külsh - Bronnbach, Kloster","from":"Tauberbischofsheim, Abz. Külsh","to":"Bronnbach, Kloster","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[1446890226,29]]},
+  {"id":3051491600445,"t":{"ref":"976","name":"976: Wertheim, ZOB - Wertheim, ZOB","from":"Wertheim, ZOB","to":"Wertheim, ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":17,"s":[[560926637,6],[10970502335,12]]},
+  {"id":3051866457232,"t":{"ref":"977","name":"Bus 977: Wertheim => Würzburg","from":"Wertheim ZOB","to":"Würzburg Neue Universität","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":14,"s":[[560926637,6]]},
+  {"id":3052092483565,"t":{"ref":"977","name":"Bus 977: Wertheim => Holzkirchen => Höchberg => Würzburg","from":"Wertheim ZOB","to":"Würzburg Neue Universität","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":24,"s":[[560926637,6]]},
+  {"id":3067172507667,"t":{"ref":"9876","name":"9876: Bronnbach, Kloster - Tauberbischofsheim, Abz. Külsh","from":"Bronnbach, Kloster","to":"Tauberbischofsheim, Abz. Külsh","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[9834571960,2]]},
+  {"id":3075185013632,"t":{"ref":"977","name":"Bus 977: Wertheim => Holzkirchen => Höchberg => Würzburg","from":"Wertheim ZOB","to":"Würzburg Neue Universität","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":26,"s":[[560926637,6]]},
+  {"id":3076724461424,"t":{"ref":"977","name":"Bus 977: Wertheim => Holzkirchen => Höchberg => Würzburg","from":"Wertheim ZOB","to":"Würzburg Neue Universität","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":26,"s":[[10970502335,21]]},
+  {"id":3098728517918,"t":{"ref":"977","name":"Bus 977: Wertheim => Holzkirchen => Höchberg => Würzburg","from":"Wertheim ZOB","to":"Würzburg Neue Universität","network":"VRN;VGM","route":"bus","public_transport:version":"2"},"n":24,"s":[[10970502335,19]]}
+]
+}

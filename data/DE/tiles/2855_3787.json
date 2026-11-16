@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2855,3787],
+"stops":[
+  {"id":1752700006,"lat":52.763409,"lon":9.352451,"k":"p","n":"Stöcken, Helberg"},
+  {"id":2683386588,"lat":52.78525,"lon":9.380038,"k":"x","n":"Rethem, Ratskeller"},
+  {"id":2877244359,"lat":52.785224,"lon":9.380384,"k":"p","n":"Rethem, Ratskeller"},
+  {"id":2877244360,"lat":52.7824,"lon":9.384156,"k":"p","n":"Rethem, Schule"},
+  {"id":2877244361,"lat":52.78446,"lon":9.376568,"k":"p","n":"Rethem, Rodewalder Straße"},
+  {"id":2996343111,"lat":52.779713,"lon":9.351261,"k":"p","n":"Stöcken, Stelter"},
+  {"id":2996343112,"lat":52.789848,"lon":9.359626,"k":"p","n":"Wohlendorf, Schule"},
+  {"id":2996343113,"lat":52.789536,"lon":9.355265,"k":"p","n":"Wohlendorf, Peters"},
+  {"id":2996343114,"lat":52.78819,"lon":9.354469,"k":"p","n":"Rethem, Abzw. Wohlendorf"},
+  {"id":2996343115,"lat":52.754903,"lon":9.354117,"k":"p","n":"Stöcken, Kuhbrücke"},
+  {"id":2996343116,"lat":52.786829,"lon":9.357853,"k":"p","n":"Wohlendorf, K 111"},
+  {"id":2996343117,"lat":52.755202,"lon":9.371365,"k":"p","n":"Stöcken, Weißer Graben"},
+  {"id":2996343118,"lat":52.761629,"lon":9.358763,"k":"p","n":"Stöcken, Reinhardt"},
+  {"id":2996343119,"lat":52.784537,"lon":9.373257,"k":"p","n":"Rethem, Bergstraße"},
+  {"id":2996359862,"lat":52.752547,"lon":9.396925,"k":"p","n":"Rethem-Moor, Rodewalder Straße 221"},
+  {"id":2996359863,"lat":52.76395,"lon":9.390209,"k":"p","n":"Rethem-Moor, Schule"},
+  {"id":2996359866,"lat":52.778357,"lon":9.368317,"k":"p","n":"Stöcken, Stöckener Straße 305"},
+  {"id":2996413086,"lat":52.774572,"lon":9.39425,"k":"p","n":"Rethem, Toschi-Werk"},
+  {"id":2996413091,"lat":52.78051,"lon":9.383312,"k":"p","n":"Rethem, Hainholzstraße"},
+  {"id":3012904935,"lat":52.765574,"lon":9.355575,"k":"p","n":"Stöcken (Rethem), B 209"},
+  {"id":3787835807,"lat":52.756333,"lon":9.387401,"k":"p","n":"Rethem-Moor, Leseberg"},
+  {"id":5040368073,"lat":52.765581,"lon":9.355427,"k":"p","n":"Stöcken, B209"},
+  {"id":7132055119,"lat":52.784456,"lon":9.3765,"k":"x","n":"Rethem, Rodewalder Straße"},
+  {"id":7660655652,"lat":52.785317,"lon":9.380649,"k":"x","n":"Rethem, Ratskeller"},
+  {"id":7660655653,"lat":52.785284,"lon":9.380043,"k":"p","n":"Rethem, Ratskeller"},
+  {"id":6011350645543,"lat":52.765068,"lon":9.355367,"k":"p","n":"Stöcken(Rethem) B 209","g":1},
+  {"id":6024684035370,"lat":52.765077,"lon":9.355332,"k":"p","n":"Stöcken(Rethem) B 209","g":1},
+  {"id":6065806786821,"lat":52.784595,"lon":9.372666,"k":"p","n":"Rethem(Aller) Bergstraße","g":1}
+],
+"routes":[
+  {"id":3956595,"t":{"ref":"31","name":"Bus 31: Rethem => Anderten => Heemsen => Drakenburg => Nienburg","from":"Rethem","to":"Nienburg","network":"VLN","operator":"VGH","route":"bus","public_transport:version":"2"},"n":5,"s":[[2877244361,1]]},
+  {"id":3014865451894,"t":{"ref":"765","name":"Bus 765: Rethem => Dörverden => Verden","from":"Rethem","to":"Verden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"von Rahden","route":"bus","public_transport:version":"2"},"n":22,"s":[[7132055119,1],[2996343119,2],[2996343114,3]]},
+  {"id":3047042859299,"t":{"ref":"31","name":"31: Rethem(Aller) Rodewalder Straße - Nienburg(Weser) Bahnhof/ZOB","from":"Rethem(Aller) Rodewalder Straße","to":"Nienburg(Weser) Bahnhof/ZOB","operator":"Verkehrsbetriebe Grafschaft Hoya GmbH1","route":"bus","public_transport:version":"2"},"n":26,"s":[[2877244361,1],[6024684035370,2]]},
+  {"id":3048330962347,"t":{"ref":"765","name":"Bus 765: Verden => Rethem","from":"Verden","to":"Rethem","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"von Rahden","route":"bus","public_transport:version":"2"},"n":22,"s":[[2996343114,20],[6065806786821,21],[2877244361,22]]},
+  {"id":3055435542990,"t":{"ref":"31","name":"31: Nienburg(Weser) Bahnhof/ZOB - Rethem(Aller) Rodewalder Straße","from":"Nienburg(Weser) Bahnhof/ZOB","to":"Rethem(Aller) Rodewalder Straße","operator":"Verkehrsbetriebe Grafschaft Hoya GmbH1","route":"bus","public_transport:version":"2"},"n":26,"s":[[6011350645543,25],[2877244361,26]]}
+]
+}

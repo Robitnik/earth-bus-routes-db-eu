@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3857],
+"stops":[
+  {"id":27218627,"lat":51.399149,"lon":12.869225,"k":"x","n":"Falkenhain (Sachsen), Wurzener Str."},
+  {"id":366831175,"lat":51.398471,"lon":12.871439,"k":"p","n":"Falkenhain (Sachsen), Gemeindeverwaltung"},
+  {"id":366831191,"lat":51.398549,"lon":12.871519,"k":"p"},
+  {"id":573796843,"lat":51.35586,"lon":12.883354,"k":"p","n":"Mark Schönstädt (Falkenhain)"},
+  {"id":839036520,"lat":51.355646,"lon":12.883217,"k":"p","n":"Mark Schönstädt (Falkenhain)"},
+  {"id":8960084318,"lat":51.399215,"lon":12.87133,"k":"p","n":"Falkenhain Schule"},
+  {"id":13045783861,"lat":51.383083,"lon":12.890656,"k":"p","n":"Heyda Stolpener Straße"},
+  {"id":13045821229,"lat":51.383649,"lon":12.889913,"k":"p","n":"Heyda Stolpener Straße"},
+  {"id":6007576922965,"lat":51.392424,"lon":12.877468,"k":"p","n":"Falkenhain (Sachsen), Kühnitzscher Weg","g":1},
+  {"id":6013467846639,"lat":51.38554,"lon":12.890822,"k":"p","n":"Heyda (Falkenhain), Teich","g":1},
+  {"id":6015603301214,"lat":51.371047,"lon":12.865282,"k":"p","n":"Dornreichenbach (Falkenhain)","g":1},
+  {"id":6034145820874,"lat":51.396283,"lon":12.875082,"k":"p","n":"Falkenhain (Sachsen), Karl-Marx-Str.","g":1},
+  {"id":6042318869790,"lat":51.370272,"lon":12.863986,"k":"p","n":"Dornreichenbach (Falkenhain)","g":1},
+  {"id":6055052296243,"lat":51.392536,"lon":12.877403,"k":"p","n":"Falkenhain (Sachsen), Kühnitzscher Weg","g":1},
+  {"id":6060981875196,"lat":51.385953,"lon":12.891265,"k":"p","n":"Heyda (Falkenhain), Teich","g":1},
+  {"id":6091279039240,"lat":51.396172,"lon":12.875163,"k":"p","n":"Falkenhain (Sachsen), Karl-Marx-Str.","g":1}
+],
+"routes":[
+  {"id":10655828,"t":{"ref":"659","name":"Bus 659: Falkenhain => Fremdiswalde","from":"Falkenhain, Schule","to":"Fremdiswalde, Waage","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[366831175,1]]},
+  {"id":10658967,"t":{"ref":"659","name":"Bus 659: Fremdiswalde => Falkenhain","from":"Fremdiswalde, Waage","to":"Falkenhain, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[366831191,11]]},
+  {"id":10661253,"t":{"ref":"661","name":"Bus 661: Meltewitz => Wurzen","from":"Meltewitz","to":"Wurzen, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[573796843,1]]},
+  {"id":3000349459038,"t":{"ref":"664","name":"664: Hohburg, Schule - Falkenhain (Sachsen), Schule","from":"Hohburg, Schule","to":"Falkenhain (Sachsen), Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[8960084318,10]]},
+  {"id":3008292979882,"t":{"ref":"660","name":"660: Wurzen, Bahnhof (Bus) - Falkenhain (Sachsen), Schule","from":"Wurzen, Bahnhof (Bus)","to":"Falkenhain (Sachsen), Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[27218627,7],[8960084318,8]]},
+  {"id":3015381154862,"t":{"ref":"665","name":"665: Falkenhain (Sachsen), Schule - Hohburg, Schule","from":"Falkenhain (Sachsen), Schule","to":"Hohburg, Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[8960084318,1],[366831175,2],[27218627,3]]},
+  {"id":3049308886474,"t":{"ref":"661","name":"661: Wurzen, Bahnhof (Bus) - Falkenhain (Sachsen), Gemeindeverwaltung","from":"Wurzen, Bahnhof (Bus)","to":"Falkenhain (Sachsen), Gemeindeverwaltung","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[6015603301214,9],[839036520,10],[13045821229,13],[6060981875196,14],[6007576922965,15],[6034145820874,16],[366831175,17]]},
+  {"id":3050821329391,"t":{"ref":"660","name":"660: Falkenhain (Sachsen), Gemeindeverwaltung - Wurzen, Bahnhof (Bus)","from":"Falkenhain (Sachsen), Gemeindeverwaltung","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[366831175,1]]},
+  {"id":3077357392588,"t":{"ref":"757","name":"757: Schildau (Gneisenaustadt), Karl-Liebknecht-Str. - Falkenhain (Sachsen), Schule","from":"Schildau (Gneisenaustadt), Karl-Liebknecht-Str.","to":"Falkenhain (Sachsen), Schule","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":3,"s":[[8960084318,3]]},
+  {"id":3083681545345,"t":{"ref":"661","name":"661: Falkenhain (Sachsen), Schule - Wurzen, Bahnhof (Bus)","from":"Falkenhain (Sachsen), Schule","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[8960084318,1],[6091279039240,2],[6055052296243,3],[6013467846639,4],[13045783861,5],[573796843,8],[6042318869790,9]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2829,3858],
+"stops":[
+  {"id":28934979,"lat":51.455885,"lon":12.929943,"k":"p","n":"Schildau, Markt"},
+  {"id":307991445,"lat":51.472245,"lon":12.947046,"k":"x","n":"Schildau (Gneisenaustadt), Seebad"},
+  {"id":307992036,"lat":51.456588,"lon":12.929098,"k":"s","n":"Schildau Stadt"},
+  {"id":310912504,"lat":51.45604,"lon":12.923652,"k":"p","n":"Schildau, Eilenburger Straße"},
+  {"id":502997850,"lat":51.490322,"lon":12.902804,"k":"p","n":"Langenreichenbach, Hauptstraße"},
+  {"id":502997860,"lat":51.483921,"lon":12.904132,"k":"p","n":"Langenreichenbach, Mühlgasse"},
+  {"id":3677630569,"lat":51.456001,"lon":12.923718,"k":"x","n":"Schildau, Eilenburger Straße"},
+  {"id":5582327811,"lat":51.456659,"lon":12.929125,"k":"x","n":"Schildau, Karl-Liebknecht-Straße"},
+  {"id":6424701943,"lat":51.484467,"lon":12.904214,"k":"x","n":"Langenreichenbach, Mühlgasse"},
+  {"id":7223305582,"lat":51.455936,"lon":12.923389,"k":"x","n":"Schildau, Eilenburger Straße"},
+  {"id":7223305583,"lat":51.455889,"lon":12.923445,"k":"p","n":"Schildau, Eilenburger Straße"},
+  {"id":7223601718,"lat":51.455909,"lon":12.929954,"k":"x","n":"Schildau, Markt"},
+  {"id":7286580722,"lat":51.483862,"lon":12.904044,"k":"x","n":"Langenreichenbach, Mühlgasse"},
+  {"id":7286580723,"lat":51.484412,"lon":12.904153,"k":"p","n":"Langenreichenbach, Mühlgasse"},
+  {"id":7286580729,"lat":51.490271,"lon":12.902769,"k":"x","n":"Langenreichenbach, Hauptstraße"},
+  {"id":7286580730,"lat":51.490219,"lon":12.902735,"k":"p","n":"Langenreichenbach, Hauptstraße"},
+  {"id":5000773852064,"lat":51.455866,"lon":12.923326,"k":"p","n":"Schildau, Eilenburger Straße"},
+  {"id":5000773852067,"lat":51.45606,"lon":12.92377,"k":"p","n":"Schildau, Eilenburger Straße"},
+  {"id":5000780366161,"lat":51.483847,"lon":12.90414,"k":"p","n":"Langenreichenbach, Mühlgasse"},
+  {"id":5000780366162,"lat":51.48448,"lon":12.904122,"k":"p","n":"Langenreichenbach, Mühlgasse"},
+  {"id":5000780366164,"lat":51.490272,"lon":12.902691,"k":"p","n":"Langenreichenbach, Hauptstraße"},
+  {"id":5000780366165,"lat":51.490279,"lon":12.902838,"k":"p","n":"Langenreichenbach, Hauptstraße"}
+],
+"routes":[
+  {"id":10724540,"t":{"ref":"758","name":"Bus 758: Mockrehna => Schöna => Schildau","from":"Mockrehna","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000773852064,8],[28934979,9]]},
+  {"id":10844097,"t":{"ref":"753","name":"Bus 753: Schildau => Klitzschen => Mockrena","from":"Schildau","to":"Mockrehna Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000773852067,1],[5000780366161,3],[5000780366165,4]]},
+  {"id":3015647535546,"t":{"ref":"758","name":"Bus 758: Schildau => Schöna => Mockrehna","from":"Schildau","to":"Mockrehna","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":10,"s":[[310912504,9],[5582327811,10]]},
+  {"id":3016399499171,"t":{"ref":"757","name":"757: Schildau (Gneisenaustadt), Karl-Liebknecht-Str. - Torgau, Bahnhof (Bus)","from":"Schildau (Gneisenaustadt), Karl-Liebknecht-Str.","to":"Torgau, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[5582327811,1],[307991445,2]]},
+  {"id":3053292101608,"t":{"ref":"757","name":"757: Torgau, Bahnhof (Bus) - Schildau (Gneisenaustadt), Karl-Liebknecht-Str.","from":"Torgau, Bahnhof (Bus)","to":"Schildau (Gneisenaustadt), Karl-Liebknecht-Str.","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":11,"s":[[307991445,10],[5582327811,11]]},
+  {"id":3077357392588,"t":{"ref":"757","name":"757: Schildau (Gneisenaustadt), Karl-Liebknecht-Str. - Falkenhain (Sachsen), Schule","from":"Schildau (Gneisenaustadt), Karl-Liebknecht-Str.","to":"Falkenhain (Sachsen), Schule","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":3,"s":[[5582327811,1]]},
+  {"id":3079958729966,"t":{"ref":"753","name":"Bus 753: Mockrena => Klitzschen => Schildau","from":"Mockrena Schule","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":15,"s":[[502997850,10],[5000780366161,11],[310912504,13],[7223601718,14],[5582327811,15]]},
+  {"id":3089997682527,"t":{"ref":"753","name":"Bus 753: Mockrena => Klitzschen => Schildau","from":"Mockrena Schule","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":8,"s":[[5582327811,1],[7223305583,2],[6424701943,4],[7286580730,5]]}
+]
+}

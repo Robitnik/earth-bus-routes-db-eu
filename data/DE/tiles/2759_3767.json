@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2759,3767],
+"stops":[
+  {"id":2011621830,"lat":47.990641,"lon":8.361215,"k":"x","n":"Schmelzdobel"},
+  {"id":2396749439,"lat":47.988923,"lon":8.379074,"k":"p","n":"Zindelstein Zindelstein"},
+  {"id":7734549566,"lat":47.963814,"lon":8.398208,"k":"p","n":"Mühlwiesen"},
+  {"id":13754282619,"lat":47.988811,"lon":8.378878,"k":"p","n":"Zindelstein Zindelstein"},
+  {"id":13755097696,"lat":47.957958,"lon":8.362835,"k":"p","n":"Mistelbrunn"},
+  {"id":13755097697,"lat":47.958111,"lon":8.363205,"k":"p","n":"Mistelbrunn"},
+  {"id":14307198188,"lat":47.963743,"lon":8.398249,"k":"p","n":"Mühlwiesen"},
+  {"id":14307198189,"lat":47.962801,"lon":8.395024,"k":"p","n":"Mistebrunner Straße"},
+  {"id":14307198190,"lat":47.959556,"lon":8.389482,"k":"p","n":"Hubertshofen Sebastianstraße"},
+  {"id":14307198191,"lat":47.95959,"lon":8.389481,"k":"x","n":"Hubertshofen Sebastianstraße"},
+  {"id":14307198192,"lat":47.962889,"lon":8.394923,"k":"p","n":"Mistebrunner Straße"},
+  {"id":14307198193,"lat":47.962848,"lon":8.394977,"k":"x","n":"Hubertshofen Mistelbrunner Straße"},
+  {"id":14307198194,"lat":47.963779,"lon":8.398236,"k":"x","n":"Mühlwiesen"},
+  {"id":6049361234353,"lat":47.981075,"lon":8.387875,"k":"p","n":"Vorderer Zindelstein Vorderer Zindelstein","g":1},
+  {"id":6064472143996,"lat":47.963556,"lon":8.397694,"k":"p","n":"Hubertshofen Mühlwiesen","g":1},
+  {"id":6099847968736,"lat":47.981105,"lon":8.388181,"k":"p","n":"Vorderer Zindelstein Vorderer Zindelstein","g":1}
+],
+"routes":[
+  {"id":11217572,"t":{"ref":"850","name":"Linie 850","from":"Donaueschingen","to":"Langenbach","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","route":"bus"},"n":5,"s":[[2011621830,3]]},
+  {"id":11299594,"t":{"ref":"855","name":"Linie 855","from":"Donaueschingen","to":"Mistelbrunn","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","route":"bus"},"n":8,"s":[[7734549566,5]]},
+  {"id":3001906437418,"t":{"ref":"855","name":"855: Mistelbrunn Mistelbrunn - Donaueschingen ZOB","from":"Mistelbrunn Mistelbrunn","to":"Donaueschingen ZOB","operator":"SBK","route":"bus","public_transport:version":"2"},"n":13,"s":[[13755097697,1],[14307198191,2],[14307198189,3],[6064472143996,4]]},
+  {"id":3052892644015,"t":{"ref":"860","name":"Bus 860: Döggingen => Wolterdingen","from":"Döggingen","to":"Wolterdingen","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","route":"bus","public_transport:version":"2"},"n":24,"s":[[7734549566,15],[14307198193,16],[13755097696,17],[13755097697,18],[14307198191,19],[14307198189,20],[6064472143996,21]]},
+  {"id":3053473116600,"t":{"ref":"850","name":"850: Langenbach Langenbach - Donaueschingen ZOB","from":"Langenbach Langenbach","to":"Donaueschingen ZOB","operator":"SBK","route":"bus","public_transport:version":"2"},"n":24,"s":[[2011621830,14],[13754282619,15],[6049361234353,16]]},
+  {"id":3069172686384,"t":{"ref":"850","name":"850: Donaueschingen ZOB - Langenbach Langenbach","from":"Donaueschingen ZOB","to":"Langenbach Langenbach","operator":"SBK","route":"bus","public_transport:version":"2"},"n":24,"s":[[6099847968736,9],[2396749439,10],[2011621830,11]]},
+  {"id":3072187663780,"t":{"ref":"855","name":"855: Donaueschingen ZOB - Mistelbrunn Mistelbrunn","from":"Donaueschingen ZOB","to":"Mistelbrunn Mistelbrunn","operator":"SBK","route":"bus","public_transport:version":"2"},"n":13,"s":[[7734549566,10],[14307198193,11],[14307198191,12],[13755097696,13]]}
+]
+}

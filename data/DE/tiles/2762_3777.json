@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2762,3777],
+"stops":[
+  {"id":922446502,"lat":48.136675,"lon":8.892899,"k":"p","n":"Nusplingen Kapellentorstraße"},
+  {"id":5927091764,"lat":48.136615,"lon":8.892952,"k":"x","n":"Nusplingen Kapellentorstraße"},
+  {"id":5927091765,"lat":48.136473,"lon":8.892935,"k":"p","n":"Nusplingen Kapellentorstraße"},
+  {"id":5927091766,"lat":48.131886,"lon":8.890652,"k":"p","n":"Nusplingen Marktplatz"},
+  {"id":5927091767,"lat":48.132388,"lon":8.890511,"k":"p","n":"Nusplingen Rathaus"},
+  {"id":5927091768,"lat":48.131923,"lon":8.890642,"k":"x","n":"Nusplingen Marktplatz"},
+  {"id":5927091769,"lat":48.132407,"lon":8.890392,"k":"x","n":"Nusplingen Rathaus"},
+  {"id":9306632575,"lat":48.116149,"lon":8.855059,"k":"x","n":"Egesheim Rathaus"},
+  {"id":9306632576,"lat":48.116243,"lon":8.854995,"k":"p","n":"Egesheim Rathaus"},
+  {"id":9306632577,"lat":48.11599,"lon":8.855792,"k":"x","n":"Egesheim Rathaus"},
+  {"id":9306632578,"lat":48.115916,"lon":8.855782,"k":"p","n":"Egesheim Rathaus"},
+  {"id":9306703233,"lat":48.100085,"lon":8.862315,"k":"x","n":"Königsheim ZOB/Stadtmitte Bussteig 3"},
+  {"id":9306703234,"lat":48.10041,"lon":8.862487,"k":"x","n":"Königsheim ZOB/Stadtmitte Bussteig 1"},
+  {"id":9306703235,"lat":48.100263,"lon":8.862409,"k":"x","n":"Königsheim ZOB/Stadtmitte Bussteig 2"},
+  {"id":5001008667755,"lat":48.100139,"lon":8.862255,"k":"p","n":"Königsheim ZOB/Stadtmitte","ref":"3"},
+  {"id":5001008667757,"lat":48.100481,"lon":8.86243,"k":"p","n":"Königsheim ZOB/Stadtmitte","ref":"1"}
+],
+"routes":[
+  {"id":13506242,"t":{"ref":"250","name":"Linie 250 Mühlheim - Wehingen","from":"Mühlheim Bahnhof","to":"Wehingen Rathaus","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","colour":"#7C7C7C","route":"bus","public_transport:version":"2"},"n":14,"s":[[5001008667755,9],[9306632578,10]]},
+  {"id":13506243,"t":{"ref":"250","name":"Linie 250 Wehingen - Mühlheim","from":"Wehingen Rathaus","to":"Mühlheim Bahnhof","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","colour":"#7C7C7C","route":"bus","public_transport:version":"2"},"n":14,"s":[[9306632576,5],[5001008667757,6]]},
+  {"id":3018993027035,"t":{"ref":"364","name":"364: Nusplingen Marktplatz - Meßstetten Rathaus","from":"Nusplingen Marktplatz","to":"Meßstetten Rathaus","operator":"Fa. Willy Kopp Omnibusverkehr","route":"bus","public_transport:version":"2"},"n":11,"s":[[5927091768,1]]},
+  {"id":3019424051238,"t":{"ref":"250","name":"Linie 250 Mühlheim - Wehingen","from":"Mühlheim Bahnhof","to":"Wehingen Rathaus","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","colour":"#7C7C7C","route":"bus","public_transport:version":"2"},"n":13,"s":[[9306703233,8],[9306632575,9]]},
+  {"id":3031441184212,"t":{"ref":"252","name":"252: Wehingen Rathaus - Königsheim ZOB/Ortsmitte","from":"Wehingen Rathaus","to":"Königsheim ZOB/Ortsmitte","operator":"Landkreis Tuttlingen","route":"bus","public_transport:version":"2"},"n":6,"s":[[9306632575,5],[9306703234,6]]},
+  {"id":3035424272665,"t":{"ref":"230","from":"Königsheim","to":"Spaichingen","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"TUTicket","route":"bus","public_transport:version":"2"},"n":21,"s":[[9306703235,21]]},
+  {"id":3043582535138,"t":{"ref":"317","name":"DE_naldo_317: Balingen => Nusplingen","from":"Balingen ZOB","to":"Obernheim","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Maas","route":"bus","public_transport:version":"2"},"n":14,"s":[[5927091765,13],[5927091768,14]]},
+  {"id":3057586207336,"t":{"ref":"317","name":"DE_naldo_317: Nusplingen => Balingen","from":"Nusplingen Rathaus","to":"Balingen ZOB","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Maas","route":"bus","public_transport:version":"2"},"n":14,"s":[[5927091768,1],[5927091764,2]]},
+  {"id":3063447585416,"t":{"ref":"230","from":"Königsheim","to":"Spaichingen","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"TUTicket","route":"bus","public_transport:version":"2"},"n":22,"s":[[9306703235,22]]},
+  {"id":3073332745975,"t":{"ref":"250","name":"Linie 250 Wehingen - Mühlheim","from":"Wehingen Rathaus","to":"Mühlheim Bahnhof","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","colour":"#7C7C7C","route":"bus","public_transport:version":"2"},"n":13,"s":[[9306632575,5],[9306703234,6]]},
+  {"id":3097078883763,"t":{"ref":"230","from":"Spaichingen","to":"Königsheim","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"TUTicket","route":"bus","public_transport:version":"2"},"n":20,"s":[[9306703235,1]]}
+]
+}

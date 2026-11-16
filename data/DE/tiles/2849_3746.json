@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2849,3746],
+"stops":[
+  {"id":280146941,"lat":52.496993,"lon":7.328423,"k":"x","n":"Am Strubbenberg"},
+  {"id":280176126,"lat":52.469802,"lon":7.311714,"k":"x","n":"Hanekenfähr"},
+  {"id":303611553,"lat":52.494369,"lon":7.323554,"k":"x","n":"Reholand"},
+  {"id":624534962,"lat":52.454205,"lon":7.349348,"k":"p"},
+  {"id":657900338,"lat":52.499566,"lon":7.304304,"k":"x","n":"Am Grabenkamp"},
+  {"id":2385808642,"lat":52.498221,"lon":7.302531,"k":"x","n":"Zum Kanalufer"},
+  {"id":8220426624,"lat":52.497283,"lon":7.327057,"k":"x","n":"Zum Heidhof"},
+  {"id":8220426625,"lat":52.488753,"lon":7.324279,"k":"x","n":"EMP"},
+  {"id":8220426626,"lat":52.486598,"lon":7.326714,"k":"x","n":"Mainka"},
+  {"id":8220426627,"lat":52.485475,"lon":7.331985,"k":"p","n":"Aldi/Rosen"},
+  {"id":8220426628,"lat":52.485481,"lon":7.331926,"k":"x","n":"Aldi/Rosen"},
+  {"id":8244970522,"lat":52.452979,"lon":7.311208,"k":"p","n":"Klüsener"},
+  {"id":8244970523,"lat":52.453829,"lon":7.30969,"k":"p","n":"Klüsener"},
+  {"id":8244970524,"lat":52.453862,"lon":7.309803,"k":"x","n":"Klüsener"},
+  {"id":8244970525,"lat":52.452927,"lon":7.311112,"k":"x","n":"Klüsener"},
+  {"id":9052937618,"lat":52.460713,"lon":7.308657,"k":"p","n":"Heßbergstraße"},
+  {"id":9052937619,"lat":52.460906,"lon":7.308338,"k":"p","n":"Heßbergstraße"},
+  {"id":13481619617,"lat":52.460916,"lon":7.308441,"k":"x","n":"Heßbergstraße"},
+  {"id":13481619618,"lat":52.460694,"lon":7.308563,"k":"x","n":"Heßbergstraße"},
+  {"id":13645253039,"lat":52.497844,"lon":7.327785,"k":"p","n":"Am Strubbenberg"},
+  {"id":6028482630251,"lat":52.47087,"lon":7.309595,"k":"p","n":"Lingen, Hanekenfähr","g":1},
+  {"id":6057461116312,"lat":52.49833,"lon":7.301924,"k":"p","n":"Lingen, Zum Kanalufer","g":1},
+  {"id":6089099575085,"lat":52.47081,"lon":7.309447,"k":"p","n":"Lingen, Hanekenfähr","g":1}
+],
+"routes":[
+  {"id":12005540,"t":{"ref":"41","name":"Bus 41: Lingen, Konrad-Adenauer-Ring => Bramsche, Kopernikusstraße","from":"Lingen, Konrad-Adenauer-Ring","to":"Bramsche, Kopernikusstraße","network":"VGE-Süd","colour":"#169971","route":"bus","public_transport:version":"2"},"n":17,"s":[[8220426627,14]]},
+  {"id":12042996,"t":{"ref":"151","name":"Bus 151: Lingen, ZOB => Emsbüren, Richthofstraße","from":"Lingen, ZOB","to":"Emsbüren, Richthofstraße","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":15,"s":[[9052937619,11],[8244970523,12]]},
+  {"id":12042997,"t":{"ref":"151","name":"Bus 151: Emsbüren, Richthofstraße => Lingen, ZOB","from":"Emsbüren, Richthofstraße","to":"Lingen, ZOB","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":15,"s":[[8244970522,4],[9052937618,5]]},
+  {"id":12043095,"t":{"ref":"151","name":"Bus 151: Elbergen, Klüsener => Emsbüren, Mehringer Straße/Elisabeth-Haus","from":"Elbergen, Klüsener","to":"Emsbüren, Mehringer Straße/Elisabeth-Haus","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":4,"s":[[8244970523,1]]},
+  {"id":12043096,"t":{"ref":"151","name":"Bus 151: Emsbüren, Richthofstraße => Elbergen, Heßbergstraße","from":"Emsbüren, Richthofstraße","to":"Elbergen, Heßbergstraße","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":6,"s":[[8244970522,5],[9052937618,6]]},
+  {"id":3056309419209,"t":{"ref":"151","name":"Bus 151: Lingen, ZOB => Elbergen, Friedhof","from":"Lingen, ZOB","to":"Elbergen, Friedhof","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":17,"s":[[657900338,9],[2385808642,10],[6089099575085,13],[9052937619,14],[8244970523,15]]},
+  {"id":3058726688569,"t":{"ref":"41","name":"Bus 41: Bramsche, Einsteinstraße => Lingen, ZOB","from":"Bramsche, Einsteinstraße","to":"Lingen, ZOB","network":"VGE-Süd","colour":"#169971","route":"bus","public_transport:version":"2"},"n":21,"s":[[13645253039,15],[303611553,16],[8220426625,17],[8220426626,18],[8220426628,19]]},
+  {"id":3074787829632,"t":{"ref":"151","name":"Bus 151: Elbergen, Friedhof => Lingen, ZOB","from":"Elbergen, Friedhof","to":"Lingen, ZOB","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":17,"s":[[8244970522,3],[9052937618,4],[6028482630251,5],[6057461116312,8],[657900338,9]]},
+  {"id":3093819398276,"t":{"ref":"41","name":"Bus 41: Bramsche, Einsteinstraße => Lingen, ZOB","from":"Bramsche, Einsteinstraße","to":"Lingen, ZOB","network":"VGE-Süd","colour":"#169971","route":"bus","public_transport:version":"2"},"n":29,"s":[[8220426628,11],[8220426626,12],[8220426625,13],[303611553,14],[8220426624,15]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2783,3779],
+"stops":[
+  {"id":312471012,"lat":49.15632,"lon":8.983368,"k":"p","n":"Gemmingen Rathausplatz"},
+  {"id":419176895,"lat":49.184187,"lon":8.981215,"k":"p","n":"Berwangen Kirche"},
+  {"id":1844960089,"lat":49.184213,"lon":8.981178,"k":"x","n":"Berwangen Kirche"},
+  {"id":2950258002,"lat":49.151407,"lon":8.984829,"k":"p","n":"Gemmingen Bahnhof"},
+  {"id":2950258003,"lat":49.158069,"lon":8.987217,"k":"p","n":"Gemmingen Hausener Straße"},
+  {"id":2950258004,"lat":49.158085,"lon":8.986956,"k":"p","n":"Gemmingen Hausener Straße"},
+  {"id":2950259040,"lat":49.151415,"lon":8.984928,"k":"x","n":"Gemmingen Bahnhof"},
+  {"id":8845990832,"lat":49.156342,"lon":8.983762,"k":"p","n":"Gemmingen Rathausplatz"},
+  {"id":12445983917,"lat":49.158072,"lon":8.989567,"k":"p","n":"Gemmingen Schule"},
+  {"id":12445983918,"lat":49.157996,"lon":8.989724,"k":"p","n":"Gemmingen Schule"},
+  {"id":12445983919,"lat":49.156543,"lon":8.984847,"k":"p","n":"Gemmingen Rathaus"},
+  {"id":12445983920,"lat":49.156626,"lon":8.984998,"k":"p","n":"Gemmingen Rathaus"}
+],
+"routes":[
+  {"id":1951856,"t":{"ref":"682","name":"Bus 682: Gemmingen => Biberach => Heilbronn","from":"Gemmingen Bahnhof","to":"Heilbronn Wollhausplatz","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[2950258002,1],[312471012,2],[419176895,3]]},
+  {"id":1951857,"t":{"ref":"682","name":"Bus 682: Heilbronn => Biberach => Gemmingen","from":"Heilbronn Wollhausplatz","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[419176895,24],[8845990832,25],[2950258002,26]]},
+  {"id":1951858,"t":{"ref":"686","name":"Bus 686: Gemmingen => Bad Rappenau","from":"Gemmingen Bahnhof","to":"Bad Rappenau Busbahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[2950258002,1],[312471012,2],[419176895,3]]},
+  {"id":1951859,"t":{"ref":"683","name":"Bus 683: Gemmingen => Frankenbach => Heilbronn","from":"Gemmingen Bahnhof","to":"Heilbronn Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[2950258002,1],[312471012,2],[419176895,3]]},
+  {"id":1951860,"t":{"ref":"683","name":"Bus 683: Heilbronn => Frankenbach => Gemmingen","from":"Heilbronn Wollhausplatz","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[419176895,21],[312471012,22],[2950258002,23]]},
+  {"id":11267466,"t":{"ref":"741","name":"Bus 741: Berwangen => Sinsheim Hbf.","from":"Berwangen Krche","to":"Sinsheim Hbf.","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":12,"s":[[419176895,1]]},
+  {"id":11272913,"t":{"ref":"741","name":"Bus 741: Sinsheim Hbf. => Berwangen","from":"Sinsheim Hbf.","to":"Berwangen Kirche","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":13,"s":[[419176895,13]]},
+  {"id":18467525,"t":{"ref":"671","name":"Bus 671: Stebbach => Schwaigern","from":"Stebbach Rathaus","to":"Schwaigern Bahnhof","network":"Heilbronner-Hohenloher-Haller-Nahverkehr","operator":"Omnibus-Verkehr Ruoff GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[2950258002,3],[12445983920,4],[12445983918,5],[2950258003,6]]},
+  {"id":3034052714131,"t":{"ref":"686","name":"Bus 686: Bad Rappenau => Gemmingen","from":"Bad Rappenau Busbahnhof","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[2950259040,1],[8845990832,2],[419176895,3]]},
+  {"id":3046808288292,"t":{"ref":"671","name":"Bus 671: Schwaigern => Stebbach","from":"Schwaigern Bahnhof","to":"Stebbach Rathaus","network":"Heilbronner-Hohenloher-Haller-Nahverkehr","operator":"Omnibus-Verkehr Ruoff GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[2950259040,3],[12445983920,4],[2950258003,5],[12445983918,6]]},
+  {"id":3051015538547,"t":{"ref":"671","name":"Bus 671: Schwaigern => Stebbach","from":"Schwaigern Bahnhof","to":"Stebbach Rathaus","network":"Heilbronner-Hohenloher-Haller-Nahverkehr","operator":"Omnibus-Verkehr Ruoff GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[12445983917,8],[2950258004,9],[12445983919,10],[2950259040,11]]},
+  {"id":3065734735084,"t":{"ref":"686","name":"Bus 686: Bad Rappenau => Gemmingen","from":"Bad Rappenau Busbahnhof","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[419176895,13],[312471012,14],[2950259040,15]]},
+  {"id":3075258105968,"t":{"ref":"686","name":"Bus 686: Bad Rappenau => Gemmingen","from":"Bad Rappenau Busbahnhof","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[2950259040,1],[8845990832,2],[419176895,3]]},
+  {"id":3081489400936,"t":{"ref":"686","name":"Bus 686: Bad Rappenau => Gemmingen","from":"Bad Rappenau Busbahnhof","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[2950259040,1],[8845990832,2],[419176895,3]]},
+  {"id":3091264044664,"t":{"ref":"686","name":"Bus 686: Bad Rappenau => Gemmingen","from":"Bad Rappenau Busbahnhof","to":"Gemmingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Busverkehr Hofmann GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[419176895,12],[312471012,13],[2950259040,14]]},
+  {"id":3093154596638,"t":{"ref":"671","name":"Bus 671: Schwaigern => Stebbach","from":"Schwaigern Bahnhof","to":"Stebbach Rathaus","network":"Heilbronner-Hohenloher-Haller-Nahverkehr","operator":"Omnibus-Verkehr Ruoff GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[2950259040,3],[12445983920,4],[2950258003,5],[12445983918,6]]}
+]
+}

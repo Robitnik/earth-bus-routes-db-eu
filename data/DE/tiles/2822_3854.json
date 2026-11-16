@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2822,3854],
+"stops":[
+  {"id":2607605727,"lat":51.103873,"lon":12.718078,"k":"x","n":"Thierbaum, Anbau"},
+  {"id":5516685944,"lat":51.105361,"lon":12.733182,"k":"x","n":"Thierbaum, Teich"},
+  {"id":7122819607,"lat":51.105346,"lon":12.733135,"k":"p","n":"Thierbaum, Teich"},
+  {"id":7122819608,"lat":51.105392,"lon":12.733235,"k":"p","n":"Thierbaum, Teich"},
+  {"id":7122853286,"lat":51.102322,"lon":12.706702,"k":"p","n":"Ebersbach, Thierbaumer Straße"},
+  {"id":7122853287,"lat":51.102354,"lon":12.706703,"k":"x","n":"Ebersbach, Thierbaumer Straße"},
+  {"id":7122853288,"lat":51.10239,"lon":12.706706,"k":"p","n":"Ebersbach, Thierbaumer Straße"},
+  {"id":7122853289,"lat":51.103919,"lon":12.717981,"k":"p","n":"Thierbaum, Anbau"},
+  {"id":7122853290,"lat":51.103848,"lon":12.718147,"k":"p","n":"Thierbaum, Anbau"},
+  {"id":6014740046299,"lat":51.101662,"lon":12.703257,"k":"p","n":"Ebersbach (Bad Lausick), Thierbaumer Str.","g":1},
+  {"id":6034211610164,"lat":51.101819,"lon":12.703478,"k":"p","n":"Ebersbach (Bad Lausick), Thierbaumer Str.","g":1}
+],
+"routes":[
+  {"id":10567628,"t":{"ref":"614","name":"Bus 614: Thierbaum => Bad Lausick","from":"Thierbaum, Teich","to":"Bad Lausick, Turnerstraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[7122819608,1],[7122853288,2]]},
+  {"id":10567794,"t":{"ref":"614","name":"Bus 614: Bad Lausick => Thierbaum","from":"Bad Lausick, Turnerstraße","to":"Thierbaum, Teich","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[7122853288,4],[7122819607,5]]},
+  {"id":3027075167028,"t":{"ref":"289","name":"Bus 289: Geithain - Nauenhain - Ebersbach - Bad Lausick","from":"Geithain","to":"Bad Lausick","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[6014740046299,8],[7122853290,9],[7122819608,10]]},
+  {"id":3031793465986,"t":{"ref":"289","name":"Bus 289: Geithain - Nauenhain - Ebersbach - Bad Lausick","from":"Geithain","to":"Bad Lausick","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[7122819608,9],[2607605727,10],[6034211610164,11]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2774,3808],
+"stops":[
+  {"id":2711260911,"lat":48.718275,"lon":10.413079,"k":"x","n":"Dunstelkingen, Dorfplatz"},
+  {"id":3999880171,"lat":48.704017,"lon":10.435848,"k":"x","n":"Eglingen, Keller"},
+  {"id":3999880206,"lat":48.714581,"lon":10.440217,"k":"x","n":"Eglingen, Demminger-/Kirchstr."},
+  {"id":5586358966,"lat":48.704014,"lon":10.435793,"k":"p","n":"Keller"},
+  {"id":5586358977,"lat":48.714585,"lon":10.440141,"k":"p","n":"Demminger-/Kirchstr."},
+  {"id":5586358978,"lat":48.715984,"lon":10.436009,"k":"p","n":"Dorfbrunnen"},
+  {"id":5586358979,"lat":48.716021,"lon":10.43601,"k":"x","n":"Eglingen, Dorfbrunnen"},
+  {"id":5586358980,"lat":48.718323,"lon":10.413036,"k":"p","n":"Dorfplatz"},
+  {"id":9224634714,"lat":48.73379,"lon":10.424954,"k":"p","n":"Hofen"},
+  {"id":9224801318,"lat":48.716077,"lon":10.436019,"k":"p","n":"Dorfbrunnen"},
+  {"id":9224801325,"lat":48.714885,"lon":10.440168,"k":"x","n":"Eglingen, Demminger-/Kirchstr."},
+  {"id":9224801326,"lat":48.714887,"lon":10.440287,"k":"p","n":"Demminger-/Kirchstr."},
+  {"id":9224801327,"lat":48.733756,"lon":10.42494,"k":"x","n":"Hofen"},
+  {"id":9224801328,"lat":48.733722,"lon":10.42493,"k":"p","n":"Hofen"}
+],
+"routes":[
+  {"id":13405722,"t":{"ref":"50_1","name":"Bus 50_1: Hofen => Dischingen Schule","from":"Hofen","to":"Dischingen, Schule","network":"Heidenheimer Tarifverbund","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":10,"s":[[9224634714,1],[5586358980,2]]},
+  {"id":13405723,"t":{"ref":"50_1","name":"Bus 50_1: Demmingen Unterdorf => Dischingen Schule","from":"Demmingen, Unterdorf","to":"Dischingen, Schule","network":"Heidenheimer Tarifverbund","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":11,"s":[[9224801326,3],[9224801318,4],[9224634714,5],[5586358980,6]]},
+  {"id":13405724,"t":{"ref":"50_1","name":"Bus 50_1: Demmingen Unterdorf => Dischingen Schule","from":"Demmingen, Unterdorf","to":"Dischingen, Schule","network":"Heidenheimer Tarifverbund","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":10,"s":[[9224801326,3],[9224801318,4],[5586358980,5]]},
+  {"id":13405726,"t":{"ref":"50_1","name":"Bus 50_1: Dischingen Schule => Demmingen Unterdorf","from":"Dischingen, Schule","to":"Demmingen, Unterdorf","network":"Heidenheimer Tarifverbund","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":11,"s":[[5586358980,6],[9224801328,7],[5586358978,8],[5586358977,9]]},
+  {"id":13405727,"t":{"ref":"50_1","name":"Bus 50_1: Katzenstein Adler => Demmingen Unterdorf","from":"Katzenstein, Adler","to":"Demmingen, Unterdorf","network":"Heidenheimer Tarifverbund","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":8,"s":[[5586358980,5],[5586358978,6],[5586358977,7]]},
+  {"id":13405728,"t":{"ref":"50_1","name":"Bus 50_1: Dischingen Schule => Demmingen Unterdorf","from":"Dischingen, Schule","to":"Demmingen, Unterdorf","network":"Heidenheimer Tarifverbund","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":17,"s":[[5586358980,12],[9224801328,13],[5586358978,14],[5586358977,15]]},
+  {"id":3015921812674,"t":{"ref":"122","name":"Bus 122: Neresheim, Härtsfeldschule -> Demmingen, Unterdorf","from":"Neresheim Härtsfeldschule","to":"Demmingen, Unterdorf","network":"OstalbMobil;HTV","operator":"Omnibus Rupp","route":"bus","public_transport:version":"2"},"n":16,"s":[[5586358980,10],[5586358978,11],[5586358977,12],[5586358966,14]]}
+]
+}

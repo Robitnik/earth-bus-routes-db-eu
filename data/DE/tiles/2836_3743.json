@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2836,3743],
+"stops":[
+  {"id":278586347,"lat":51.842942,"lon":7.199464,"k":"x","n":"Thiemann"},
+  {"id":278610388,"lat":51.849238,"lon":7.1985,"k":"x","n":"Rekener Straße"},
+  {"id":428925794,"lat":51.832936,"lon":7.199951,"k":"x","n":"Bickmann"},
+  {"id":1477969590,"lat":51.848023,"lon":7.199794,"k":"x","n":"Kirchstraße"},
+  {"id":10678513357,"lat":51.83289,"lon":7.199913,"k":"p","n":"Bickmann"},
+  {"id":10678513358,"lat":51.842923,"lon":7.199447,"k":"p","n":"Thiemann"},
+  {"id":10678513359,"lat":51.842794,"lon":7.190767,"k":"p","n":"Welter"},
+  {"id":10678513360,"lat":51.842813,"lon":7.190774,"k":"x","n":"Welter"},
+  {"id":10678513362,"lat":51.842391,"lon":7.170754,"k":"p","n":"Füßner"},
+  {"id":10678513363,"lat":51.842393,"lon":7.170796,"k":"x","n":"Füßner"},
+  {"id":10678513364,"lat":51.843894,"lon":7.170493,"k":"p","n":"Greßkämper"},
+  {"id":10678513365,"lat":51.843896,"lon":7.17054,"k":"x","n":"Greßkämper"},
+  {"id":10678513366,"lat":51.845117,"lon":7.174625,"k":"p","n":"Lenz"},
+  {"id":10678513367,"lat":51.845095,"lon":7.174643,"k":"x","n":"Lenz"},
+  {"id":10699318285,"lat":51.848002,"lon":7.199816,"k":"p","n":"Kirchstraße"},
+  {"id":10699318287,"lat":51.848293,"lon":7.195879,"k":"x","n":"Jägerstiege"},
+  {"id":13257104427,"lat":51.849191,"lon":7.198524,"k":"p","n":"Rekener Straße"},
+  {"id":6038553240773,"lat":51.849407,"lon":7.195919,"k":"p","n":"Merfeld, Bergstr. 3","g":1},
+  {"id":6048881775168,"lat":51.848769,"lon":7.19511,"k":"p","n":"Merfeld, Merode","g":1},
+  {"id":6051305362420,"lat":51.842859,"lon":7.190098,"k":"p","n":"Merfeld, Welter","g":1},
+  {"id":6052384688953,"lat":51.844046,"lon":7.183118,"k":"p","n":"Merfeld, Sundermann","g":1},
+  {"id":6095591078022,"lat":51.836304,"lon":7.198497,"k":"p","n":"Merfeld, Bauerschaft 156","g":1}
+],
+"routes":[
+  {"id":8011353,"t":{"ref":"AST Dülmen","name":"AnrufSammelTaxi AST: Dülmen, Stadtgebiet","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"share_taxi","public_transport:version":"1"},"n":169,"s":[[13257104427,95]]},
+  {"id":15509446,"t":{"ref":"650","name":"Bus 650: Merfeld, Sportplatz => Dülmen, Bahnhof","from":"Merfeld, Sportplatz","to":"Dülmen, Bahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[10678513366,3],[10678513364,4],[10678513362,5],[10678513359,6],[10678513358,7],[10678513357,8]]},
+  {"id":3001620633245,"t":{"ref":"AST","name":"AST: Dülmen, AST-Zielgebiet - Merfeld, Am Friedhof","from":"Dülmen, AST-Zielgebiet","to":"Merfeld, Am Friedhof","operator":"RVM Kreis Coesfeld 33","route":"bus","public_transport:version":"2"},"n":191,"s":[[13257104427,178],[6048881775168,180]]},
+  {"id":3010502405272,"t":{"ref":"650","name":"Bus 650: Dülmen, Bahnhof => Merfeld, Lavesumer Straße","from":"Dülmen, Bahnhof","to":"Merfeld, Lavesumer Straße","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6038553240773,8],[10678513367,10],[10678513365,11],[10678513363,12],[6052384688953,14],[6051305362420,15],[278586347,16],[6095591078022,17],[10678513357,18]]},
+  {"id":3035894444833,"t":{"ref":"B1","name":"Bus B1: Merfeld, Am Friedhof => Dülmen, Bahnhof","from":"Merfeld, Am Friedhof","to":"Dülmen, Bahnhof","network":"WestfalenTarif","operator":"Bürgerbusverein Merfeld-Hausdülmen;Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[6048881775168,2],[10699318287,4],[1477969590,5]]},
+  {"id":3069569439543,"t":{"ref":"AST","name":"AST: Merfeld, Am Friedhof - Dülmen, AST-Zielgebiet","from":"Merfeld, Am Friedhof","to":"Dülmen, AST-Zielgebiet","operator":"RVM Kreis Coesfeld 33","route":"bus","public_transport:version":"2"},"n":191,"s":[[6048881775168,12],[13257104427,14]]},
+  {"id":3079289629391,"t":{"ref":"AST","name":"AST: Dernekamp, Beine - Dülmen, AST-Zielgebiet","from":"Dernekamp, Beine","to":"Dülmen, AST-Zielgebiet","operator":"RVM Kreis Coesfeld 33","route":"bus","public_transport:version":"2"},"n":219,"s":[[6048881775168,127],[13257104427,129]]},
+  {"id":3088213238959,"t":{"ref":"AST","name":"AST: Dülmen, AST-Zielgebiet - Dernekamp, Beine","from":"Dülmen, AST-Zielgebiet","to":"Dernekamp, Beine","operator":"RVM Kreis Coesfeld 33","route":"bus","public_transport:version":"2"},"n":219,"s":[[13257104427,91],[6048881775168,93]]}
+]
+}

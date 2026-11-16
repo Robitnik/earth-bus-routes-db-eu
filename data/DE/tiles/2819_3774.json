@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2819,3774],
+"stops":[
+  {"id":542204122,"lat":50.957991,"lon":8.715264,"k":"x","n":"Christenbergstraße"},
+  {"id":542204126,"lat":50.957755,"lon":8.71535,"k":"p","n":"Christenbergstraße"},
+  {"id":544156609,"lat":50.957392,"lon":8.715137,"k":"x","n":"Christenbergstraße"},
+  {"id":544156610,"lat":50.957337,"lon":8.71498,"k":"p","n":"Christenbergstraße"},
+  {"id":762683397,"lat":50.985351,"lon":8.738777,"k":"p","n":"Ernsthausen Friedhof"},
+  {"id":3695871742,"lat":50.958916,"lon":8.719671,"k":"p","n":"Münchhausen Grundschule"},
+  {"id":5133602137,"lat":50.963417,"lon":8.716422,"k":"p","n":"Münchhausen Bahnhof"},
+  {"id":10298970990,"lat":50.958985,"lon":8.719679,"k":"x","n":"Münchhausen Grundschule"},
+  {"id":10298971101,"lat":50.963499,"lon":8.716464,"k":"x","n":"Münchhausen Bahnhof"}
+],
+"routes":[
+  {"id":15073413,"t":{"ref":"MR-60","name":"Bus MR-60: Oberrosphe => Wollmar","from":"Oberrosphe Grundschule","to":"Wollmar Gasthaus zur Post","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":14,"s":[[542204126,10],[5133602137,11]]},
+  {"id":15073416,"t":{"ref":"MR-60","name":"Bus MR-60: Wollmar => Münchhausen Grundschule => Marburg","from":"Wollmar Gasthaus zur Post","to":"Marburg Hbf","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":18,"s":[[5133602137,4],[3695871742,5],[544156610,6]]},
+  {"id":15073422,"t":{"ref":"MR-60","name":"Bus MR-60: Marburg => Wollmar","from":"Marburg Hauptbahnhof","to":"Wollmar Gasthaus zur Post","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":13,"s":[[542204126,9],[5133602137,10]]},
+  {"id":15073423,"t":{"ref":"MR-60","name":"Bus MR-60: Wollmar => Marburg","from":"Wollmar Gasthaus zur Post","to":"Marburg Hbf","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":12,"s":[[5133602137,4],[544156610,5]]},
+  {"id":15093289,"t":{"ref":"MR-62","name":"Bus MR-62: Münchhausen Ringlinie","from":"Münchhausen Grundschule","to":"Münchhausen Grundschule","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":18,"s":[[3695871742,1,18],[5133602137,2,17],[542204126,16]]},
+  {"id":15096293,"t":{"ref":"MR-62","name":"Bus MR-62: Münchhausen Ringlinie im Uhrzeigersinn","from":"Münchhausen Christenbergstraße","to":"Münchhausen Grundschule","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":16,"s":[[544156610,1],[5133602137,15],[3695871742,16]]},
+  {"id":15099439,"t":{"ref":"MR-64","name":"Bus MR-64: Wetter Grundschule => Münchhausen","from":"Wetter Grundschule","to":"Münchhausen Grundschule","network":"Rhein-Main-Verkehrsverbund","operator":"ALV Oberhessen GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":18,"s":[[5133602137,17],[3695871742,18]]},
+  {"id":3020321824567,"t":{"ref":"60","name":"60: Marburg Hauptbahnhof - Münchhausen-Wollmar Gasthaus zur Post","from":"Marburg Hauptbahnhof","to":"Münchhausen-Wollmar Gasthaus zur Post","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":13,"s":[[542204126,9],[5133602137,10]]},
+  {"id":3044086655019,"t":{"ref":"62","name":"62: Münchhausen (Marburg) Bahnhof - Münchhausen (Marburg) Bahnhof","from":"Münchhausen (Marburg) Bahnhof","to":"Münchhausen (Marburg) Bahnhof","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":16,"s":[[5133602137,1,16],[542204126,15]]},
+  {"id":3056755513589,"t":{"ref":"60","name":"60: Münchhausen-Wollmar Gasthaus zur Post - Marburg Hauptbahnhof","from":"Münchhausen-Wollmar Gasthaus zur Post","to":"Marburg Hauptbahnhof","operator":"ALV Oberhessen","route":"bus","public_transport:version":"2"},"n":13,"s":[[5133602137,4],[544156610,5]]}
+]
+}

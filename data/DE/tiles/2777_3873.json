@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2777,3873],
+"stops":[
+  {"id":1138067340,"lat":48.863395,"lon":13.685256,"k":"x"},
+  {"id":7029670550,"lat":48.863339,"lon":13.68563,"k":"p","n":"Philippsreut Kricklsäge"},
+  {"id":9846505053,"lat":48.868084,"lon":13.679698,"k":"p","n":"Philippsreut Ortsmitte"},
+  {"id":9846505054,"lat":48.868487,"lon":13.680006,"k":"p","n":"Philippsreut Ortsmitte"},
+  {"id":9847567660,"lat":48.863274,"lon":13.677138,"k":"p","n":"Philippsreut Tussetkapelle"},
+  {"id":9850222686,"lat":48.863444,"lon":13.685296,"k":"p","n":"Philippsreut Kricklsäge"},
+  {"id":9850325131,"lat":48.86318,"lon":13.677506,"k":"p","n":"Philippsreut Tussetkapelle"},
+  {"id":9979386351,"lat":48.876539,"lon":13.695375,"k":"p","n":"Philippsreut Marchhäuser"},
+  {"id":9979422789,"lat":48.88491,"lon":13.653536,"k":"p","n":"Philippsreut Neuhäusel"},
+  {"id":9979422790,"lat":48.884757,"lon":13.653652,"k":"p","n":"Philippsreut Neuhäusel"},
+  {"id":9979462539,"lat":48.870369,"lon":13.685555,"k":"p","n":"Philippsreut, B12"},
+  {"id":9979493417,"lat":48.883511,"lon":13.655467,"k":"p","n":"Philippsreut Vorderfirmiansreut Örtlweg"},
+  {"id":9979498399,"lat":48.882515,"lon":13.657229,"k":"p","n":"Philippsreut Vorderfirmiansreut Hochsteiner Weg"},
+  {"id":9979498400,"lat":48.882362,"lon":13.657269,"k":"p","n":"Philippsreut Vorderfirmiansreut Hochsteiner Weg"},
+  {"id":10143416840,"lat":48.876812,"lon":13.665783,"k":"p","n":"Philippsreut Vorderfirmiansreut"},
+  {"id":10143416841,"lat":48.876966,"lon":13.665799,"k":"p","n":"Philippsreut Vorderfirmiansreut"},
+  {"id":6066068509813,"lat":48.877316,"lon":13.6651,"k":"p","n":"Vorderfirmiansreut","g":1},
+  {"id":6096294997891,"lat":48.877387,"lon":13.665316,"k":"p","n":"Vorderfirmiansreut","g":1}
+],
+"routes":[
+  {"id":2317497,"t":{"ref":"606","name":"Igelbus 606: Waldkirchen Busbahnhof => Philippsreut Ortsmitte","from":"Waldkirchen Busbahnhof","to":"Philippsreut Ortsmitte","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[9846505053,27]]},
+  {"id":2317498,"t":{"ref":"606","name":"Igelbus 606: Philippsreut Ortsmitte => Waldkirchen Busbahnhof","from":"Philippsreut Ortsmitte","to":"Waldkirchen Busbahnhof","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[9846505054,1],[9847567660,2]]},
+  {"id":2348761,"t":{"ref":"605","name":"Igelbus 605: Philippsreut Ortsmitte=>Freyung Bahnhof","from":"Philippsreut Ortsmitte","to":"Freyung Bahnhof","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[9846505053,1],[9979422790,2]]},
+  {"id":2348762,"t":{"ref":"605","name":"Igelbus 605: Freyung Bahnhof=>Philippsreut Ortsmitte","from":"Freyung Bahnhof","to":"Philippsreut Ortsmitte","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[9979422789,24],[9850325131,25],[9846505053,26]]},
+  {"id":3003988431211,"t":{"ref":"513","name":"513: Philippsreut, Tussetkapelle - Freyung, Busbahnhof","from":"Philippsreut, Tussetkapelle","to":"Freyung, Busbahnhof","operator":"Linienbündel 5 (Abteiland)","route":"bus","public_transport:version":"2"},"n":23,"s":[[9847567660,1],[9846505054,2],[6096294997891,3],[9979498399,4],[9979493417,5],[9979422789,6]]},
+  {"id":3040110669077,"t":{"ref":"401","name":"401: Philippsreut, Ortsmitte - Freyung, Busbahnhof","from":"Philippsreut, Ortsmitte","to":"Freyung, Busbahnhof","operator":"Bündel_1_4_6","route":"bus","public_transport:version":"2"},"n":24,"s":[[9846505053,1],[9847567660,2]]},
+  {"id":3042234524894,"t":{"ref":"513","name":"513: Philippsreut, Ortsmitte - Freyung, Busbahnhof","from":"Philippsreut, Ortsmitte","to":"Freyung, Busbahnhof","operator":"Linienbündel 5 (Abteiland)","route":"bus","public_transport:version":"2"},"n":13,"s":[[9846505054,1],[9847567660,2]]},
+  {"id":3055022509706,"t":{"ref":"401","name":"401: Freyung, Busbahnhof - Philippsreut, Ortsmitte","from":"Freyung, Busbahnhof","to":"Philippsreut, Ortsmitte","operator":"Bündel_1_4_6","route":"bus","public_transport:version":"2"},"n":26,"s":[[9850325131,25],[9846505054,26]]},
+  {"id":3067745733740,"t":{"ref":"513","name":"513: Freyung, Busbahnhof - Philippsreut, Tussetkapelle","from":"Freyung, Busbahnhof","to":"Philippsreut, Tussetkapelle","operator":"Linienbündel 5 (Abteiland)","route":"bus","public_transport:version":"2"},"n":23,"s":[[9979422789,18],[9979493417,19],[9979498399,20],[6066068509813,21],[9846505054,22],[9847567660,23]]}
+]
+}

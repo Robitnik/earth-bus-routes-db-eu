@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2810,3817],
+"stops":[
+  {"id":274059700,"lat":50.522846,"lon":10.882498,"k":"x","n":"Schönbrunn (Schleusegrund), Gewürzmuseum"},
+  {"id":505383053,"lat":50.513787,"lon":10.858324,"k":"x"},
+  {"id":2882851593,"lat":50.522782,"lon":10.882578,"k":"p","n":"Schönbrunn, Gewürzmuseum"},
+  {"id":2882851594,"lat":50.522788,"lon":10.882933,"k":"x"},
+  {"id":2882851597,"lat":50.522826,"lon":10.882861,"k":"p","n":"Schönbrunn, Gewürzmuseum"},
+  {"id":2887324819,"lat":50.526842,"lon":10.893235,"k":"p","n":"Schönbrunn, Wilder Mann"},
+  {"id":2887324820,"lat":50.526824,"lon":10.89314,"k":"x"},
+  {"id":2887324821,"lat":50.526992,"lon":10.893433,"k":"x"},
+  {"id":2887324822,"lat":50.527026,"lon":10.893392,"k":"p","n":"Schönbrunn, Wilder Mann"},
+  {"id":2905054357,"lat":50.51376,"lon":10.858379,"k":"p","n":"Schönbrunn, Gewürzmühle"},
+  {"id":2905054358,"lat":50.513822,"lon":10.858302,"k":"p","n":"Schönbrunn, Gewürzmühle"},
+  {"id":2905054364,"lat":50.517559,"lon":10.869052,"k":"x","n":"Schönbrunn, Kindergarten"},
+  {"id":2905054365,"lat":50.517597,"lon":10.86903,"k":"p","n":"Schönbrunn, Kindergarten"},
+  {"id":2905054366,"lat":50.521401,"lon":10.876007,"k":"x"},
+  {"id":2905054367,"lat":50.521424,"lon":10.876103,"k":"p","n":"Schönbrunn, Schule"},
+  {"id":2905054368,"lat":50.521819,"lon":10.876064,"k":"p","n":"Schönbrunn, Schule"},
+  {"id":13103131852,"lat":50.521844,"lon":10.876186,"k":"x","n":"Schönbrunn, Schule"},
+  {"id":13103131883,"lat":50.517534,"lon":10.86908,"k":"p","n":"Schönbrunn, Kindergarten"},
+  {"id":13203309228,"lat":50.532925,"lon":10.879169,"k":"p","n":"Schönbrunn Talsperre, Schleusegrund"},
+  {"id":6043642975098,"lat":50.514043,"lon":10.85882,"k":"p","n":"Schönbrunn (Schleusegrund), Gewürzmühle","g":1},
+  {"id":6092961567563,"lat":50.514043,"lon":10.85882,"k":"p","n":"Schönbrunn (Schleusegrund), Gewürzmühle","g":1}
+],
+"routes":[
+  {"id":3817377,"t":{"ref":"206","name":"Bus 206: Masserberg => Fehrenbach => Heubach => Biberschlag => Schönbrunn","from":"Masserberg","to":"Schönbrunn","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[2905054367,7],[2882851593,8]]},
+  {"id":3820136,"t":{"ref":"206","name":"Bus 206: Schnett => Heubach => Einsiedel => Tellerhammer => Biberschlag => Engenstein => Schönbrunn","from":"Schnett","to":"Schönbrunn","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2905054367,8],[2882851593,9]]},
+  {"id":3820448,"t":{"ref":"206","name":"Bus 206: Schönbrunn => Engenstein => Biberschlag => Tellerhammer => Einsiedel => Heubach => Fehrenbach => Schnett","from":"Schönbrunn","to":"Schnett","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2882851593,1],[2905054367,2]]},
+  {"id":3820449,"t":{"ref":"206","name":"Bus 206: Schönbrunn => Lichtenau => Waldau => Engenstein => Biberschlag => Tellerhammer => Einsiedel => Heubach => -Schnett","from":"Schönbrunn","to":"Schnett","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[2905054368,1]]},
+  {"id":3008925951151,"t":{"ref":"203","name":"203: Suhl, Bahnhof - Masserberg","from":"Suhl, Bahnhof","to":"Masserberg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":29,"s":[[6092961567563,19],[13103131883,20],[2905054367,21],[274059700,22],[2887324822,23]]},
+  {"id":3020716546918,"t":{"ref":"203","name":"203: Schleusingen, Zentralhaltestelle - Masserberg","from":"Schleusingen, Zentralhaltestelle","to":"Masserberg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":21,"s":[[6092961567563,10],[13103131883,11],[2905054367,12],[13203309228,13],[274059700,14],[2887324822,15]]},
+  {"id":3034680594976,"t":{"ref":"208","name":"208: Eisfeld, Bahnhof - Gießübel","from":"Eisfeld, Bahnhof","to":"Gießübel","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":22,"s":[[6092961567563,16],[13103131883,17],[2905054367,18],[274059700,19],[2887324822,20]]},
+  {"id":3053352135016,"t":{"ref":"203","name":"Bus 203: Masserberg => Waldau => Schleusingen","from":"Masserberg","to":"Schleusingen","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[2887324822,7],[274059700,8],[2905054367,9],[13103131883,10],[6043642975098,11]]},
+  {"id":3065604736401,"t":{"ref":"203","name":"Bus 203: Masserberg => Waldau => Schleusingen","from":"Masserberg","to":"Schleusingen","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6092961567563,10],[13103131883,11],[2905054367,12],[274059700,13],[2887324822,14]]},
+  {"id":3068657893978,"t":{"ref":"203","name":"203: Masserberg - Suhl, Bahnhof","from":"Masserberg","to":"Suhl, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":29,"s":[[2887324822,7],[274059700,8],[2905054367,9],[13103131883,10],[6043642975098,11]]},
+  {"id":3077046846054,"t":{"ref":"203","name":"203: Masserberg - Schleusingen, Zentralhaltestelle","from":"Masserberg","to":"Schleusingen, Zentralhaltestelle","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":21,"s":[[2887324822,7],[274059700,8],[13203309228,9],[2905054367,10],[13103131883,11],[6043642975098,12]]}
+]
+}

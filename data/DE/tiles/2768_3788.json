@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2768,3788],
+"stops":[
+  {"id":27590390,"lat":48.425984,"lon":9.406673,"k":"x","n":"Birkenhof"},
+  {"id":332954304,"lat":48.433758,"lon":9.448068,"k":"p","n":"Rietheim Kirche"},
+  {"id":332954319,"lat":48.433025,"lon":9.446513,"k":"p","n":"Rietheim Schule"},
+  {"id":371568828,"lat":48.423973,"lon":9.428579,"k":"p","n":"Dottingen Birkenweg"},
+  {"id":371569069,"lat":48.421637,"lon":9.43487,"k":"p","n":"Talstraße"},
+  {"id":568385674,"lat":48.424009,"lon":9.428411,"k":"x","n":"Dottingen Birkenweg"},
+  {"id":6801528456,"lat":48.423863,"lon":9.436356,"k":"x","n":"Dottingen Rathaus"},
+  {"id":7015607644,"lat":48.402546,"lon":9.412274,"k":"x","n":"Steingebronn"},
+  {"id":9451194813,"lat":48.425932,"lon":9.406671,"k":"p","n":"Birkenhof"},
+  {"id":9451194814,"lat":48.426176,"lon":9.40775,"k":"p","n":"Birkenhof"},
+  {"id":9451194815,"lat":48.426118,"lon":9.407759,"k":"x","n":"Birkenhof"},
+  {"id":9451194816,"lat":48.424118,"lon":9.428384,"k":"p","n":"Dottingen Birkenweg"},
+  {"id":9451200417,"lat":48.423919,"lon":9.436454,"k":"p","n":"Dottingen Rathaus"},
+  {"id":9451200418,"lat":48.423837,"lon":9.436307,"k":"p","n":"Dottingen Rathaus"},
+  {"id":9451200423,"lat":48.433057,"lon":9.446617,"k":"x","n":"Rietheim Schule"},
+  {"id":9451200426,"lat":48.433703,"lon":9.448117,"k":"x","n":"Rietheim Kirche"},
+  {"id":9458224987,"lat":48.402544,"lon":9.412169,"k":"p","n":"Steingebronn"},
+  {"id":5000254491965,"lat":48.402507,"lon":9.412176,"k":"p","n":"Steingebronn"}
+],
+"routes":[
+  {"id":13735771,"t":{"ref":"264","name":"DE_naldo:264_Münsingen => Gomadingen => Steinhilben","from":"Münsingen Bahnhof","to":"Steinhilben Kirche","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#1074BC","route":"bus","public_transport:version":"2"},"n":19,"s":[[9458224987,3]]},
+  {"id":13735775,"t":{"ref":"264","name":"DE_naldo_264_Steinhilben => Münsingen","from":"Steinhilben Kirche","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#1074BC","route":"bus","public_transport:version":"2"},"n":17,"s":[[9458224987,15]]},
+  {"id":3002237172089,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":21,"s":[[9451200426,5],[9451200423,6],[6801528456,7],[9451194816,8],[9451194815,9]]},
+  {"id":3005655090396,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Trailfingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":16,"s":[[9451194814,6],[371568828,7],[6801528456,8],[9451200423,9]]},
+  {"id":3024036810819,"t":{"ref":"7643","name":"DE_naldo_7643_Bad Urach => Trailfingen => Münsingen","from":"Bad Urach","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":23,"s":[[9451194814,13],[371568828,14],[6801528456,15],[9451200423,16]]},
+  {"id":3025450199339,"t":{"ref":"7606","name":"DE_naldo_7606_01: Münsingen => Engstingen => Reutlingen","from":"Busbahnhof Münsingen","to":"Reutlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#E72F2D","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000254491965,3]]},
+  {"id":3039939829965,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Trailfingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":17,"s":[[9451200426,8],[9451200423,9],[6801528456,10],[9451194816,11],[9451194815,12]]},
+  {"id":3042513742801,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":22,"s":[[9451200426,5],[9451200423,6],[6801528456,7],[9451194816,8],[9451194815,9]]},
+  {"id":3068672257755,"t":{"ref":"7643","name":"DE_naldo_7643_Bad Urach => Münsingen","from":"Bad Urach","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":20,"s":[[9451194814,13],[371568828,14],[6801528456,15],[9451200423,16]]},
+  {"id":3075115346536,"t":{"ref":"7606","name":"DE_naldo_7606_02: Reutlingen => Engstingen => Münsingen","from":"Reutlingen","to":"Münsingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#E72F2D","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000254491965,26]]},
+  {"id":3088818857022,"t":{"ref":"7606","name":"DE_naldo_7606_02: Reutlingen => Engstingen => Münsingen","from":"Reutlingen","to":"Münsingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#E72F2D","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000254491965,23]]},
+  {"id":3089117016663,"t":{"ref":"7606","name":"DE_naldo_7606_01: Münsingen => Engstingen => Reutlingen","from":"Busbahnhof Münsingen","to":"Reutlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#E72F2D","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000254491965,3]]}
+]
+}

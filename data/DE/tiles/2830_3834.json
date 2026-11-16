@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2830,3834],
+"stops":[
+  {"id":392888459,"lat":51.50408,"lon":11.741946,"k":"x","n":"Höhnstedt, Am Landrain"},
+  {"id":393151669,"lat":51.518982,"lon":11.747577,"k":"x","n":"Boltzenhöhe, Straße des Friedens"},
+  {"id":2712160904,"lat":51.521771,"lon":11.7323,"k":"x","n":"Räther, Zum Schäferstein"},
+  {"id":7097642377,"lat":51.502812,"lon":11.73972,"k":"p","n":"Höhnstedt, Schule"},
+  {"id":7097642378,"lat":51.502798,"lon":11.739783,"k":"x","n":"Höhnstedt, Schule"},
+  {"id":8207735140,"lat":51.521792,"lon":11.732289,"k":"p","n":"Räther, Zum Schäferstein"},
+  {"id":8829791938,"lat":51.502265,"lon":11.738339,"k":"x","n":"Höhnstedt, Hauptstraße"},
+  {"id":9831407308,"lat":51.523996,"lon":11.700606,"k":"p","n":"Neehausen"},
+  {"id":9831407309,"lat":51.524045,"lon":11.700352,"k":"p","n":"Neehausen"},
+  {"id":9977254405,"lat":51.518968,"lon":11.747633,"k":"p","n":"Boltzenhöhe, Straße des Friedens"},
+  {"id":9977254406,"lat":51.518976,"lon":11.747506,"k":"p","n":"Boltzenhöhe, Straße des Friedens"},
+  {"id":9977307173,"lat":51.504104,"lon":11.74191,"k":"p","n":"Höhnstedt, Am Landrain"},
+  {"id":9977307174,"lat":51.504048,"lon":11.741983,"k":"p"},
+  {"id":9980390282,"lat":51.502248,"lon":11.738267,"k":"p","n":"Höhnstedt, Hauptstraße"},
+  {"id":13738482959,"lat":51.504394,"lon":11.742603,"k":"p","n":"Höhnstedt, Am Landrain"}
+],
+"routes":[
+  {"id":14502288,"t":{"ref":"305","name":"Bus 305: Rumpin => Höhnstedt","from":"Rumpin, Alte Feldstraße","to":"Höhnstedt, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[9977254406,27],[7097642377,28]]},
+  {"id":14502669,"t":{"ref":"305","name":"Bus 305: Höhnstedt => Rumpin","from":"Höhnstedt, Schule","to":"Rumpin, Alte Feldstraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[7097642377,1],[9977307174,2],[8207735140,3],[9977254405,4]]},
+  {"id":14507191,"t":{"ref":"308","name":"Bus 308: Müllerdorf => Halle","from":"Höhnstedt, Schule","to":"Halle, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":38,"s":[[7097642377,1]]},
+  {"id":14507302,"t":{"ref":"308","name":"Bus 308: Halle => Müllerdorf","from":"Halle, ZOB","to":"Höhnstedt, Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibusbetrieb Saalekreis GmbH","route":"bus","public_transport:version":"2"},"n":40,"s":[[7097642377,40]]},
+  {"id":3010961813935,"t":{"ref":"441","name":"441: Neehausen - Lu. Eisleben, Busbahnhof","from":"Neehausen","to":"Lu. Eisleben, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":20,"s":[[9831407308,1]]},
+  {"id":3016791696311,"t":{"ref":"309","name":"PlusBus 309: Halle => Schochwitz","from":"Halle, ZOB","to":"Schochwitz, Schloßplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":19,"s":[[9980390282,13],[7097642378,14],[13738482959,15],[393151669,16]]},
+  {"id":3018005405917,"t":{"ref":"309","name":"PlusBus 309: Schochwitz => Halle","from":"Schochwitz, Schloßplatz","to":"Halle, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":16,"s":[[9977254406,4],[9977307173,5],[7097642377,6],[9980390282,7]]},
+  {"id":3031676263087,"t":{"ref":"309","name":"PlusBus 309: Schochwitz => Halle","from":"Schochwitz, Schloßplatz","to":"Halle, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":19,"s":[[9977254406,4],[9977307173,5],[7097642377,6],[9980390282,7]]},
+  {"id":3066063031910,"t":{"ref":"309","name":"PlusBus 309: Halle => Schochwitz","from":"Halle, ZOB","to":"Schochwitz, Schloßplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":16,"s":[[9980390282,10],[7097642378,11],[13738482959,12],[393151669,13]]},
+  {"id":3068772647056,"t":{"ref":"441","name":"441: Lu. Eisleben, Busbahnhof - Neehausen","from":"Lu. Eisleben, Busbahnhof","to":"Neehausen","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":11,"s":[[9831407308,11]]}
+]
+}

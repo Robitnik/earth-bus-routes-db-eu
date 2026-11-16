@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2838,3785],
+"stops":[
+  {"id":333572521,"lat":51.949832,"lon":9.296526,"k":"x","n":"Großenberg"},
+  {"id":343692897,"lat":51.907309,"lon":9.253158,"k":"p","n":"Post"},
+  {"id":344378812,"lat":51.903476,"lon":9.255711,"k":"p","n":"Lutter","ref":"762"},
+  {"id":344580868,"lat":51.909678,"lon":9.252661,"k":"p","n":"Schäferberg","ref":"762"},
+  {"id":344580871,"lat":51.910419,"lon":9.252702,"k":"p","n":"Schäferberg","ref":"761"},
+  {"id":347364364,"lat":51.912157,"lon":9.270789,"k":"p","n":"Ratsiek"},
+  {"id":347390507,"lat":51.912632,"lon":9.289512,"k":"p","n":"Mönchenkamp"},
+  {"id":347580509,"lat":51.913879,"lon":9.283091,"k":"p","n":"Im Bruchkamp"},
+  {"id":347580560,"lat":51.91375,"lon":9.283314,"k":"p","n":"Im Bruchkamp"},
+  {"id":355285683,"lat":51.912643,"lon":9.287483,"k":"p","n":"Gasthaus Meinberg"},
+  {"id":8857317543,"lat":51.949793,"lon":9.296532,"k":"p","n":"Großenberg"},
+  {"id":9261989868,"lat":51.912811,"lon":9.287572,"k":"p","n":"Gasthaus Meinberg"},
+  {"id":9261989870,"lat":51.912009,"lon":9.270854,"k":"p","n":"Ratsiek"},
+  {"id":6002602770869,"lat":51.912634,"lon":9.293898,"k":"p","n":"Lü-Sabbenhausen, Bruggensiek","g":1},
+  {"id":6006447248225,"lat":51.912623,"lon":9.294015,"k":"p","n":"Lü-Sabbenhausen, Bruggensiek","g":1},
+  {"id":6022257073695,"lat":51.911847,"lon":9.270263,"k":"p","n":"Lü-Sabbenhausen, Ratsiek","g":1},
+  {"id":6037064359243,"lat":51.911803,"lon":9.270129,"k":"p","n":"Lü-Sabbenhausen, Ratsiek","g":1},
+  {"id":6041450629162,"lat":51.913532,"lon":9.286496,"k":"p","n":"Lü-Sabbenhausen, Gh. Meinberg","g":1},
+  {"id":6044257578939,"lat":51.913726,"lon":9.281941,"k":"p","n":"Lü-Sabbenhausen, Im Bruchkamp","g":1},
+  {"id":6055585258374,"lat":51.913477,"lon":9.286496,"k":"p","n":"Lü-Sabbenhausen, Gh. Meinberg","g":1},
+  {"id":6072982414992,"lat":51.913715,"lon":9.281798,"k":"p","n":"Lü-Sabbenhausen, Im Bruchkamp","g":1}
+],
+"routes":[
+  {"id":73903,"t":{"ref":"761","name":"Bus 761: Rischenau => Bad Pyrmont","from":"Rischenau Post","to":"Bad Pyrmont Markt","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[9261989868,8],[347580509,9],[347364364,10]]},
+  {"id":2671211,"t":{"ref":"761","name":"Bus 761: Bad Pyrmont => Rischenau","from":"Bad Pyrmont Markt","to":"Rischenau Post","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[344580871,14],[9261989870,15],[347580560,16],[355285683,17]]},
+  {"id":12736381,"t":{"ref":"521","name":"Bus 521: Holzminden => Bad Pyrmont","from":"Holzminden Bahnhof","to":"Bad Pyrmont Markt","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":36,"s":[[8857317543,30]]},
+  {"id":12900147,"t":{"ref":"521","name":"Bus 521: Bad Pyrmont => Holzminden","from":"Bad Pyrmont Markt","to":"Holzminden Bahnhof","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":36,"s":[[8857317543,7]]},
+  {"id":13559089,"t":{"ref":"761","name":"Bus 761: Rischenau => Hummersen => Bad Pyrmont","from":"Rischenau Post","to":"Bad Pyrmont Markt","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[9261989868,11],[347580509,12],[347364364,13]]},
+  {"id":13559090,"t":{"ref":"761","name":"Bus 761: Bad Pyrmont => Niese => Rischenau","from":"Bad Pyrmont Markt","to":"Rischenau Post","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[344580871,14],[9261989870,15],[347580560,16],[355285683,17]]},
+  {"id":3027909362798,"t":{"ref":"761","name":"761: Lü-Rischenau, Post - Bad Pyrmont, Markt","from":"Lü-Rischenau, Post","to":"Bad Pyrmont, Markt","operator":"Lippe3","route":"bus","public_transport:version":"2"},"n":24,"s":[[6002602770869,7],[6041450629162,8],[6072982414992,9],[6037064359243,10],[344580868,11]]},
+  {"id":3038179675488,"t":{"ref":"761","name":"761: Bad Pyrmont, Markt - Lü-Rischenau, Post","from":"Bad Pyrmont, Markt","to":"Lü-Rischenau, Post","operator":"Lippe3","route":"bus","public_transport:version":"2"},"n":24,"s":[[344580868,14],[6022257073695,15],[6044257578939,16],[6055585258374,17],[6006447248225,18]]},
+  {"id":3049359433119,"t":{"ref":"524","name":"524: Bodenwerder Im Hagen - Bad Pyrmont, Markt","from":"Bodenwerder Im Hagen","to":"Bad Pyrmont, Markt","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[8857317543,20]]},
+  {"id":3063341099695,"t":{"ref":"524","name":"524: Bad Pyrmont, Markt - Bodenwerder Im Hagen","from":"Bad Pyrmont, Markt","to":"Bodenwerder Im Hagen","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[8857317543,7]]}
+]
+}

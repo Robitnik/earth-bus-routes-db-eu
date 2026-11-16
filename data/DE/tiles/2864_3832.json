@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2864,3832],
+"stops":[
+  {"id":3740636804,"lat":53.226532,"lon":11.620259,"k":"x","n":"Groß Warnow, B5"},
+  {"id":7281076483,"lat":53.228107,"lon":11.62676,"k":"p","n":"Groß Warnow, Hort"},
+  {"id":7281076484,"lat":53.226762,"lon":11.623739,"k":"p","n":"Groß Warnow, Schule"},
+  {"id":7281198099,"lat":53.228145,"lon":11.626598,"k":"p","n":"Groß Warnow, Hort"},
+  {"id":12438871836,"lat":53.226497,"lon":11.620175,"k":"p","n":"Groß Warnow, B5"},
+  {"id":12438887370,"lat":53.228498,"lon":11.626386,"k":"x"},
+  {"id":12438887372,"lat":53.228464,"lon":11.626397,"k":"p","n":"Groß Warnow, Schule"},
+  {"id":12438887373,"lat":53.228536,"lon":11.626369,"k":"p","n":"Groß Warnow, Schule"},
+  {"id":12438887374,"lat":53.226568,"lon":11.620349,"k":"p","n":"Groß Warnow, B5"},
+  {"id":6011163277704,"lat":53.214429,"lon":11.6088,"k":"p","n":"Neu Pinnow, Dorf","g":1},
+  {"id":6020712353214,"lat":53.226507,"lon":11.622579,"k":"p","n":"Groß Warnow, Schule","g":1},
+  {"id":6038652292587,"lat":53.209381,"lon":11.601248,"k":"p","n":"Alt Pinnow","g":1},
+  {"id":6062914220380,"lat":53.209422,"lon":11.601196,"k":"p","n":"Alt Pinnow","g":1},
+  {"id":6063556837994,"lat":53.214336,"lon":11.608561,"k":"p","n":"Neu Pinnow, Dorf","g":1}
+],
+"routes":[
+  {"id":10811014,"t":{"ref":"951","name":"Bus 951: Karstädt (PR), Schule => Reckenzin => Groß Warnow, Schule","from":"Karstädt (PR), Schule","to":"Groß Warnow, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[7281198099,11],[7281076484,12]]},
+  {"id":3005039551419,"t":{"ref":"951","name":"Bus 951: Groß Warnow, Schule => Reckenzin => Karstädt (PR), Bahnhof","from":"Groß Warnow, Schule","to":"Karstädt (PR), Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[7281198099,12],[6020712353214,13]]},
+  {"id":3049009138378,"t":{"ref":"952","name":"952: Karstädt (PR), Bahnhof - Karstädt (PR), Bahnhof","from":"Karstädt (PR), Bahnhof","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[6062914220380,12],[6011163277704,13],[12438887372,14],[7281198099,15],[6020712353214,16]]},
+  {"id":3054215553618,"t":{"ref":"595","name":"595: Grabow (Meckl) Binnung - Lenzen, Jahnstr.","from":"Grabow (Meckl) Binnung","to":"Lenzen, Jahnstr.","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":22,"s":[[12438871836,7],[6063556837994,8],[6038652292587,9]]}
+]
+}

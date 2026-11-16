@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2814,3796],
+"stops":[
+  {"id":2465018502,"lat":50.730159,"lon":9.802405,"k":"p","n":"Malges"},
+  {"id":2465019305,"lat":50.729611,"lon":9.801013,"k":"p","n":"Malges"},
+  {"id":2465019556,"lat":50.731107,"lon":9.801145,"k":"p","n":"Malges"},
+  {"id":5577158182,"lat":50.718796,"lon":9.827477,"k":"p","n":"Stendorf"},
+  {"id":5600545874,"lat":50.70017,"lon":9.803097,"k":"p","n":"Georgstraße"},
+  {"id":5894708645,"lat":50.701203,"lon":9.800831,"k":"p","n":"Kirchhasel Dorfplatz"},
+  {"id":7635963346,"lat":50.700206,"lon":9.803105,"k":"x","n":"Georgstraße"}
+],
+"routes":[
+  {"id":8279047,"t":{"ref":"77","name":"Bus 77: Hünfeld => Grüsselbach","from":"Hünfeld Bahnhof","to":"Grüsselbach Ortsmitte","network":"Rhein-Main-Verkehrsverbund","operator":"RhönEnergie Fulda","route":"bus","public_transport:version":"2"},"n":10,"s":[[5600545874,3]]},
+  {"id":8670125,"t":{"ref":"80","name":"Bus 80: Betzenrod/Burghaun/Großentaft/Rasdorf/Ufhausen => Eiterfeld","to":"Eiterfeld","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","route":"bus","public_transport:version":"1"},"n":31,"s":[[2465018502,10]]},
+  {"id":8670987,"t":{"ref":"87","name":"Bus 87: Haselstein => Hünfeld","to":"Hünfeld","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","route":"bus","public_transport:version":"1"},"n":11,"s":[[5577158182,4],[5894708645,5]]},
+  {"id":8672314,"t":{"ref":"87","name":"Bus 87: Hünfeld => Roßbach","from":"Hünfeld","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","route":"bus","public_transport:version":"1"},"n":7,"s":[[5577158182,5],[5894708645,6]]},
+  {"id":19452585,"t":{"ref":"70","name":"Bus 70: Hünfeld => Eiterfeld über Malges, Leibolz","from":"Hünfeld Bahnhof","to":"Eiterfeld Ortsmitte","network":"Rhein-Main-Verkehrsverbund","operator":"RhönEnergie Fulda","route":"bus","public_transport:version":"2"},"n":12,"s":[[2465018502,7]]},
+  {"id":3010578250849,"t":{"ref":"77","name":"77: Hünfeld Bahnhof - Geisa, Busbahnhof","from":"Hünfeld Bahnhof","to":"Geisa, Busbahnhof","operator":"LNG Fulda","route":"bus","public_transport:version":"2"},"n":12,"s":[[7635963346,3]]},
+  {"id":3047166324930,"t":{"ref":"70","name":"Bus 70: Eiterfeld => Hünfeld","from":"Eiterfeld Ortsmitte","to":"Hünfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"RhönEnergie Fulda","route":"bus","public_transport:version":"2"},"n":9,"s":[[2465019556,5]]},
+  {"id":3075384203768,"t":{"ref":"70","name":"Bus 70: Eiterfeld => Hünfeld","from":"Eiterfeld Ortsmitte","to":"Hünfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"RhönEnergie Fulda","route":"bus","public_transport:version":"2"},"n":9,"s":[[2465019305,5]]},
+  {"id":3077074115026,"t":{"ref":"120","name":"Bus 120: Hünfeld => Geisa","from":"Hünfeld Bahnhof","to":"Geisa Bahnhof","network":"VGW","operator":"Wartburgmobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[7635963346,3]]},
+  {"id":3080265139002,"t":{"ref":"77","name":"77: Geisa, Busbahnhof - Hünfeld Bahnhof","from":"Geisa, Busbahnhof","to":"Hünfeld Bahnhof","operator":"Lokale Nahverkehrsgesellschaft Fulda mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[7635963346,10]]}
+]
+}

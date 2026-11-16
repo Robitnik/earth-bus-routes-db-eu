@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2852,3764],
+"stops":[
+  {"id":261813784,"lat":52.648576,"lon":8.246469,"k":"p","n":"Lohne, Hamberg"},
+  {"id":261813794,"lat":52.639368,"lon":8.24528,"k":"p","n":"Südlohne, Rohe"},
+  {"id":270718705,"lat":52.619894,"lon":8.226943,"k":"p","n":"Köttermoor / Mühlen"},
+  {"id":275406619,"lat":52.618248,"lon":8.210356,"k":"p","n":"Mühlen Kirche"},
+  {"id":282510914,"lat":52.638633,"lon":8.242605,"k":"p","n":"Südlohne"},
+  {"id":282513394,"lat":52.611857,"lon":8.243011,"k":"p"},
+  {"id":286930228,"lat":52.607289,"lon":8.220386,"k":"p","n":"Steinfeld, Ondruper Weg"},
+  {"id":364335154,"lat":52.627924,"lon":8.233051,"k":"p","n":"Mühlen, Westerkamp"},
+  {"id":364770134,"lat":52.615988,"lon":8.221444,"k":"p","n":"Mühlen, Scherberding"},
+  {"id":364770277,"lat":52.61524,"lon":8.216641,"k":"p","n":"Grundschule Mühlen"},
+  {"id":1720525038,"lat":52.620347,"lon":8.202947,"k":"p"},
+  {"id":2359367673,"lat":52.648531,"lon":8.246684,"k":"p","n":"Lohne, Hamberg"},
+  {"id":2359367675,"lat":52.607282,"lon":8.220178,"k":"p","n":"Steinfeld, Ondruper Weg"},
+  {"id":2359367682,"lat":52.638603,"lon":8.242864,"k":"p","n":"Südlohne"},
+  {"id":2359367683,"lat":52.627861,"lon":8.233198,"k":"p","n":"Mühlen, Westerkamp"},
+  {"id":2359367684,"lat":52.615802,"lon":8.2214,"k":"p","n":"Mühlen, Scherberding"},
+  {"id":6000352889503,"lat":52.634832,"lon":8.239997,"k":"p","n":"Südlohne(Lohne) Ideler","g":1},
+  {"id":6001305467233,"lat":52.616894,"lon":8.222599,"k":"p","n":"Mühlen(Steinfeld) Scherberding","g":1},
+  {"id":6029962612480,"lat":52.614747,"lon":8.217262,"k":"p","n":"Mühlen(Steinfeld) Grundschule","g":1},
+  {"id":6049562865884,"lat":52.619376,"lon":8.231237,"k":"p","n":"Mühlen(Steinfeld) Köttermoor","g":1}
+],
+"routes":[
+  {"id":53980,"t":{"ref":"664","name":"Bus 664: Lohne => Mühlen","from":"Lohne","to":"Mühlen","network":"VGV","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":14,"s":[[282513394,11],[364770134,12],[364335154,13],[282510914,14]]},
+  {"id":1369556,"t":{"ref":"606","name":"Bus 606: Diepholz => Vechta => Lohne => Diepholz","from":"Diepholz","to":"Diepholz","network":"VGV;VBN","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":22,"s":[[2359367673,18]]},
+  {"id":3011841,"t":{"ref":"696","name":"Bus 696: Vechta => Damme","from":"ZOB","to":"Damme ZOB","network":"VGV","operator":"Weser-Ems-Bus","route":"bus","public_transport:version":"2"},"n":67,"s":[[261813784,21],[2359367673,22],[282510914,23],[2359367682,24],[364335154,25],[2359367683,26],[364770134,27],[2359367684,28],[2359367675,29],[286930228,30]]},
+  {"id":10155364,"t":{"ref":"606","name":"Bus 606: Diepholz => Lohne => Vechta => Diepholz","from":"Diepholz","to":"Diepholz","network":"VGV;VBN","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":25,"s":[[261813784,5]]},
+  {"id":10155365,"t":{"ref":"606","name":"Bus 606: Nordlohne => Lohne => Diepholz","from":"Nordlohne","to":"Diepholz","network":"VGV;VBN","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[2359367673,7]]},
+  {"id":19662338,"t":{"ref":"606","name":"Bus 606: Diepholz => Aschen => Vechta => Lohne","from":"Diepholz","to":"Lohne","network":"VGV;VBN","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":13,"s":[[2359367673,13]]},
+  {"id":19662339,"t":{"ref":"606","name":"Bus 606: Diepholz => Aschen => Vechta => Lohne","from":"Diepholz","to":"Lohne","network":"VGV;VBN","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":20,"s":[[2359367673,20]]},
+  {"id":19662340,"t":{"ref":"606","name":"Bus 606: Diepholz => Vechta => Lohne","from":"Diepholz","to":"Lohne","network":"VGV;VBN","operator":"Schomaker Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[2359367673,11]]},
+  {"id":3005964679725,"t":{"ref":"664","name":"664: Steinfeld(Oldb) ZOB - Südlohne(Lohne) Ideler","from":"Steinfeld(Oldb) ZOB","to":"Südlohne(Lohne) Ideler","operator":"Verkehrsgemeinschaft Vechta1","route":"bus","public_transport:version":"2"},"n":11,"s":[[6029962612480,8],[6049562865884,9],[2359367683,10],[6000352889503,11]]},
+  {"id":3057087556018,"t":{"ref":"S65","name":"S65: Vechta ZOB - Diepholz Bahnhof","from":"Vechta ZOB","to":"Diepholz Bahnhof","operator":"Verkehrsgemeinschaft Vechta1","route":"bus","public_transport:version":"2"},"n":26,"s":[[2359367673,15],[261813794,16],[364335154,17],[6049562865884,18],[364770134,19]]},
+  {"id":3090906907623,"t":{"ref":"S65","name":"S65: Diepholz Bahnhof - Vechta ZOB","from":"Diepholz Bahnhof","to":"Vechta ZOB","operator":"Verkehrsgemeinschaft Vechta1","route":"bus","public_transport:version":"2"},"n":26,"s":[[6001305467233,8],[6049562865884,9],[2359367683,10],[261813794,11],[2359367673,12]]}
+]
+}

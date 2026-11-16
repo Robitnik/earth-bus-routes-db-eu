@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2889,3794],
+"stops":[
+  {"id":272465952,"lat":54.491458,"lon":9.748689,"k":"p","n":"Kosel Koselfeld","ref":"A"},
+  {"id":286100579,"lat":54.485824,"lon":9.708947,"k":"p","n":"Götheby-Holm Kreisstraße"},
+  {"id":286100711,"lat":54.487512,"lon":9.715247,"k":"p","n":"Götheby-Holm Mühlenweg"},
+  {"id":286100935,"lat":54.4913,"lon":9.748719,"k":"p","n":"Kosel Koselfeld","ref":"B"},
+  {"id":443477875,"lat":54.451097,"lon":9.749968,"k":"p","n":"Osterby, Bäckerkoppel"},
+  {"id":1220030511,"lat":54.492223,"lon":9.747515,"k":"p","n":"Kosel Koselfeld"},
+  {"id":2565549991,"lat":54.462427,"lon":9.718193,"k":"x","n":"Hummelfeld, An der Au"},
+  {"id":3609575240,"lat":54.475974,"lon":9.722469,"k":"p","n":"Götheby-Holm, Lehmsiekberg"},
+  {"id":4584060095,"lat":54.492225,"lon":9.74734,"k":"p","n":"Kosel Koselfeld"},
+  {"id":4902563504,"lat":54.487596,"lon":9.71518,"k":"x","n":"Götheby-Holm Mühlenweg"},
+  {"id":4902563512,"lat":54.491372,"lon":9.748701,"k":"x","n":"Kosel Koselfeld","ref":"A;B"},
+  {"id":4902596645,"lat":54.485767,"lon":9.708987,"k":"x","n":"Götheby-Holm Kreisstraße"},
+  {"id":10840110105,"lat":54.462164,"lon":9.718414,"k":"p","n":"Hummelfeld, An der Au"},
+  {"id":10840110106,"lat":54.462427,"lon":9.718118,"k":"p","n":"Hummelfeld, An der Au"},
+  {"id":10840110107,"lat":54.475907,"lon":9.722278,"k":"x","n":"Götheby-Holm, Lehmsiekberg"},
+  {"id":10840110108,"lat":54.48119,"lon":9.715993,"k":"p","n":"Götheby-Holm, Möhlhorster Weg"},
+  {"id":10840110109,"lat":54.481385,"lon":9.7162,"k":"p","n":"Götheby-Holm, Möhlhorster Weg"},
+  {"id":11854140541,"lat":54.462148,"lon":9.718349,"k":"x","n":"Hummelfeld, An der Au"},
+  {"id":14000597801,"lat":54.491911,"lon":9.72888,"k":"p","n":"Kosel Schoolbeck"},
+  {"id":6048917471609,"lat":54.450125,"lon":9.749881,"k":"p","n":"Osterby(b Eckernförde) Bäckerkoppel","g":1},
+  {"id":6077581188337,"lat":54.486017,"lon":9.709527,"k":"p","n":"Götheby-Holm Kreisstraße","g":1},
+  {"id":6078527585693,"lat":54.450125,"lon":9.749881,"k":"p","n":"Osterby(b Eckernförde) Bäckerkoppel","g":1}
+],
+"routes":[
+  {"id":15576889,"t":{"ref":"725","name":"Bus 725: Kropp => Eckernförde","from":"Kropp, Schule/ZOB","to":"Eckernförde Bahnhof/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#00AFAA","route":"bus","public_transport:version":"2"},"n":20,"s":[[443477875,12]]},
+  {"id":15752555,"t":{"ref":"715","name":"Bus 715 Schulverkehr: Eckernförde => Kochendorf => Güby","from":"Eckernförde, Schulzentrum Süd","to":"Güby, Bundesstraße","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#EB78AF","route":"bus","public_transport:version":"2"},"n":9,"s":[[272465952,5],[286100579,6]]},
+  {"id":15752556,"t":{"ref":"715","name":"Bus 715 Schulverkehr: Güby => Eckernförde","from":"Güby, Bundesstraße","to":"Eckernförde, Schulzentrum Süd","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#EB78AF","route":"bus","public_transport:version":"2"},"n":12,"s":[[286100711,4],[286100935,5]]},
+  {"id":15752558,"t":{"ref":"715","name":"Bus 715 Schulverkehr: Bohnert => Kochendorf => Eckernförde","from":"Bohnert, Ortsmitte","to":"Eckernförde Schulzentrum Süd","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#EB78AF","route":"bus","public_transport:version":"2"},"n":12,"s":[[286100935,5]]},
+  {"id":15752560,"t":{"ref":"715","name":"Bus 715 Schulverkehr: Eckernförde => Kochendorf => Bohnert","from":"Eckernförde Bahnhof/ZOB","to":"Bohnert, Ortsmitte","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#EB78AF","route":"bus","public_transport:version":"2"},"n":12,"s":[[272465952,7],[1220030511,8]]},
+  {"id":17405699,"t":{"ref":"721","name":"Bus 721: Missunde => Koselfeld => Eckernförde Bahnhof/ZOB","from":"Missunde, Alter Schulweg","to":"Eckernförde Bahnhof/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#EB5023","route":"bus","public_transport:version":"2"},"n":14,"s":[[1220030511,3]]},
+  {"id":3032866411901,"t":{"ref":"720","name":"Bus 720: Eckernförde Bahnhof/ZOB => Fleckeby => Schleswig ZOB","from":"Eckernförde Bahnhof/ZOB","to":"Schleswig ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#008ea0","route":"bus","public_transport:version":"2"},"n":25,"s":[[4902563512,6],[6077581188337,7]]},
+  {"id":3053190121834,"t":{"ref":"725","name":"Bus 725: Eckernförde => Kropp","from":"Eckernförde Bahnhof/ZOB","to":"Kropp, Schule/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#00AFAA","route":"bus","public_transport:version":"2"},"n":30,"s":[[6048917471609,10]]},
+  {"id":3059138621500,"t":{"ref":"720","name":"Bus 720: Schleswig ZOB => Fleckeby => Eckernförde Bahnhof/ZOB","from":"Schleswig ZOB","to":"Eckernförde Bahnhof/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#008ea0","route":"bus","public_transport:version":"2"},"n":24,"s":[[4902563504,19],[4902563512,20]]},
+  {"id":3086550156654,"t":{"ref":"725","name":"725: Kropp Schule/ZOB - Eckernförde Bahnhof/ZOB","from":"Kropp Schule/ZOB","to":"Eckernförde Bahnhof/ZOB","operator":"Autokraft Kiel GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[6078527585693,21]]},
+  {"id":3095256132583,"t":{"ref":"735","name":"Bus 735: Osterby => Holzbunge => Rendsburg","from":"Osterby, Schulstraße","to":"Rendsburg Stadttheater/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#A5C3EB","route":"bus","public_transport:version":"2"},"n":36,"s":[[6048917471609,2]]}
+]
+}

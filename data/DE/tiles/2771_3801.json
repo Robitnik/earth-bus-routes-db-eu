@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2771,3801],
+"stops":[
+  {"id":392644770,"lat":48.591411,"lon":10.099712,"k":"p","n":"Heuchlingen, Flügelstraße"},
+  {"id":767455180,"lat":48.596738,"lon":10.089785,"k":"p","n":"Gardena"},
+  {"id":1701067727,"lat":48.553683,"lon":10.082284,"k":"x","n":"Ballendorf Grundschule"},
+  {"id":1757678652,"lat":48.59675,"lon":10.089152,"k":"p","n":"Gardena"},
+  {"id":3326646586,"lat":48.553642,"lon":10.082342,"k":"p","n":"Grundschule Steig 2","ref":"2"},
+  {"id":3326646591,"lat":48.553714,"lon":10.082246,"k":"p","n":"Grundschule Steig 1","ref":"1"},
+  {"id":3326646592,"lat":48.554323,"lon":10.077713,"k":"p","n":"Brunnenplatz Steig 1","ref":"1"},
+  {"id":3326648004,"lat":48.554196,"lon":10.077645,"k":"p","n":"Brunnenplatz Steig 2","ref":"2"},
+  {"id":4732186293,"lat":48.591432,"lon":10.099607,"k":"p","n":"Heuchlingen, Flügelstraße"},
+  {"id":12815166572,"lat":48.554279,"lon":10.077658,"k":"x","n":"Ballendorf Brunnenplatz"},
+  {"id":12815452627,"lat":48.554234,"lon":10.077719,"k":"x","n":"Ballendorf Brunnenplatz"},
+  {"id":12815452637,"lat":48.553672,"lon":10.08235,"k":"x","n":"Ballendorf Grundschule"},
+  {"id":6088806949808,"lat":48.596386,"lon":10.093596,"k":"p","n":"Heuchlingen Gardena","g":1}
+],
+"routes":[
+  {"id":5815437,"t":{"ref":"585","name":"Bus 585: Ulm, Ehinger Tor => Gerstetten, Wartehalle","from":"Ulm, Ehinger Tor","to":"Gerstetten, Wartehalle","network":"Donau-Iller-Nahverkehrsverbund","operator":"Klöpfer","route":"bus","public_transport:version":"2"},"n":21,"s":[[3326648004,16]]},
+  {"id":19087082,"t":{"ref":"583","name":"Bus 583: Langenau Bahnhof => Altheim (Alb) Haßlerstraße","from":"Langenau Bahnhof","to":"Altheim (Alb) Haßlerstraße","network":"Donau-Iller-Nahverkehrsverbund","operator":"Klöpfer","route":"bus","public_transport:version":"2"},"n":15,"s":[[3326646591,6],[3326646592,7]]},
+  {"id":19094691,"t":{"ref":"583","name":"Bus 583: Altheim (Alb) Haßlerstraße => Langenau Bahnhof","from":"Altheim (Alb) Haßlerstraße","to":"Langenau Bahnhof","network":"Donau-Iller-Nahverkehrsverbund","operator":"KIopfer","route":"bus"},"n":17,"s":[[3326648004,9],[3326646586,10]]},
+  {"id":19147952,"t":{"ref":"585","name":"Bus 585: Gerstetten Wartehalle => Ulm, Ehinger Tor","from":"Gerstetten Wartehalle","to":"Ulm, Ehinger Tor (Steig F)","network":"Donau-Iller-Nahverkehrsverbund","operator":"Klöpfer","route":"bus","public_transport:version":"2"},"n":28,"s":[[3326646592,7]]},
+  {"id":3003636861471,"t":{"ref":"70","name":"Bus 70: Heidenheim -> Gerstetten","from":"Heidenheim","to":"Gerstetten","operator":"Heidenheimer Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":32,"s":[[392644770,20],[6088806949808,21]]},
+  {"id":3010089495289,"t":{"ref":"70","name":"Bus 70: Gerstetten -> Heidenheim","from":"Gerstetten","to":"Heidenheim","network":"HVG","operator":"Heidenheimer Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":30,"s":[[6088806949808,10],[4732186293,11]]},
+  {"id":3036587054469,"t":{"ref":"70","name":"Bus 70: Heidenheim -> Gerstetten","from":"Heidenheim","to":"Gerstetten","operator":"Heidenheimer Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":32,"s":[[6088806949808,12],[4732186293,13]]},
+  {"id":3077927457952,"t":{"ref":"70","name":"Bus 70: Heidenheim -> Gerstetten","from":"Heidenheim","to":"Gerstetten","operator":"Heidenheimer Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":31,"s":[[392644770,20],[6088806949808,21]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2820,3727],
+"stops":[
+  {"id":441065103,"lat":51.032772,"lon":6.356268,"k":"x","n":"Katzem Vorstadt"},
+  {"id":1108248458,"lat":51.034682,"lon":6.354188,"k":"p","n":"Katzem Kirche"},
+  {"id":3448078177,"lat":51.003573,"lon":6.367588,"k":"x","n":"Ralshoven"},
+  {"id":4526103708,"lat":51.035068,"lon":6.350881,"k":"x","n":"Katzem Schule"},
+  {"id":5596711750,"lat":51.003646,"lon":6.367594,"k":"p","n":"Ralshoven"},
+  {"id":5596711751,"lat":51.003542,"lon":6.368004,"k":"p","n":"Ralshoven"},
+  {"id":5696482344,"lat":51.003592,"lon":6.368001,"k":"x","n":"Ralshoven"},
+  {"id":5696482345,"lat":51.008254,"lon":6.387111,"k":"x","n":"Gevelsdorf"},
+  {"id":5696482346,"lat":51.008259,"lon":6.387221,"k":"x","n":"Gevelsdorf"},
+  {"id":5696482347,"lat":51.008234,"lon":6.387215,"k":"p","n":"Gevelsdorf"},
+  {"id":5696482348,"lat":51.00829,"lon":6.387107,"k":"p","n":"Gevelsdorf"},
+  {"id":5830220191,"lat":51.032739,"lon":6.35628,"k":"p","n":"Katzem Vorstadt"},
+  {"id":5830220205,"lat":51.035101,"lon":6.350894,"k":"p","n":"Katzem Schule"},
+  {"id":5830220206,"lat":51.034644,"lon":6.354092,"k":"x","n":"Katzem Kirche"}
+],
+"routes":[
+  {"id":1307940,"t":{"ref":"495","name":"Bus 495: Hückelhoven Baal => Katzem","from":"Hückelhoven Baal","to":"Katzem","network":"Aachener Verkehrsverbund","operator":"west","route":"bus","public_transport:version":"2"},"n":9,"s":[[5830220191,8],[1108248458,9]]},
+  {"id":1380551,"t":{"ref":"EK 2","name":"Bus EK 2: Katzem => Erkelenz","from":"Katzem","to":"Erkelenz","network":"Aachener Verkehrsverbund","operator":"west","route":"bus","public_transport:version":"2"},"n":18,"s":[[1108248458,1],[5830220205,2]]},
+  {"id":1998756,"t":{"ref":"EK 2","name":"Bus EK 2: Erkelenz => Katzem","from":"Erkelenz","to":"Katzem","network":"Aachener Verkehrsverbund","operator":"west","route":"bus","public_transport:version":"2"},"n":16,"s":[[5830220191,15],[1108248458,16]]},
+  {"id":8387523,"t":{"ref":"287","name":"Bus 287: Linnich => Hottorf => Titz","from":"Linnich","to":"Titz","network":"Aachener Verkehrsverbund","operator":"Rurtalbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[5596711751,11],[5696482347,12]]},
+  {"id":3025904552748,"t":{"ref":"EK2","name":"EK2: Erkelenz, Bahnhof (Bus) - Erkelenz, Katzem Kirche","from":"Erkelenz, Bahnhof (Bus)","to":"Erkelenz, Katzem Kirche","operator":"WestVerkehr GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[5830220191,12],[5830220206,13]]},
+  {"id":3033433752028,"t":{"ref":"495","name":"Bus 495: Katzem => Lövenich","from":"Katzem","to":"Lövenich","network":"Aachener Verkehrsverbund","operator":"west","route":"bus","public_transport:version":"2"},"n":5,"s":[[5830220206,1],[5830220205,2]]},
+  {"id":3089863282083,"t":{"ref":"287","name":"Bus 287: Titz => Hottorf => Linnich","from":"Titz","to":"Linnich","network":"Aachener Verkehrsverbund","operator":"Rurtalbus","route":"bus","public_transport:version":"2"},"n":17,"s":[[5696482346,6],[5696482344,7]]},
+  {"id":3092845599762,"t":{"ref":"EK2","name":"EK2: Erkelenz, Katzem Kirche - Erkelenz, Bahnhof (Bus)","from":"Erkelenz, Katzem Kirche","to":"Erkelenz, Bahnhof (Bus)","operator":"WestVerkehr GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[5830220206,1],[5830220205,2]]}
+]
+}

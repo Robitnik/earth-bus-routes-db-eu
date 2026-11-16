@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2847,3834],
+"stops":[
+  {"id":1518149154,"lat":52.383088,"lon":11.744608,"k":"x","n":"Wenddorf"},
+  {"id":2109967851,"lat":52.383026,"lon":11.744653,"k":"p","n":"Wenddorf"},
+  {"id":2109967858,"lat":52.383139,"lon":11.744616,"k":"p","n":"Wenddorf"},
+  {"id":2172005948,"lat":52.354195,"lon":11.736537,"k":"x","n":"Angern"},
+  {"id":2172005952,"lat":52.354489,"lon":11.736389,"k":"x","n":"Angern"},
+  {"id":2485238583,"lat":52.354179,"lon":11.736411,"k":"p","n":"Angern"},
+  {"id":2485238595,"lat":52.354498,"lon":11.736458,"k":"p","n":"Angern"},
+  {"id":2485238602,"lat":52.361508,"lon":11.730538,"k":"p","n":"Angern, Grundschule"},
+  {"id":2485238609,"lat":52.361561,"lon":11.730536,"k":"x","n":"Angern, Grundschule"},
+  {"id":2485238637,"lat":52.357337,"lon":11.734949,"k":"p","n":"Angern, Teich"},
+  {"id":2485238643,"lat":52.357369,"lon":11.735057,"k":"x","n":"Angern, Teich"},
+  {"id":2485238651,"lat":52.357422,"lon":11.735028,"k":"x","n":"Angern, Teich"},
+  {"id":2485238660,"lat":52.357437,"lon":11.735123,"k":"p","n":"Angern, Teich"},
+  {"id":2519020934,"lat":52.395745,"lon":11.718042,"k":"p","n":"Sandbeiendorf"},
+  {"id":2519020935,"lat":52.395774,"lon":11.718146,"k":"x","n":"Sandbeiendorf"},
+  {"id":2519020936,"lat":52.395808,"lon":11.718204,"k":"p","n":"Sandbeiendorf"},
+  {"id":2519020937,"lat":52.399228,"lon":11.726411,"k":"p","n":"Sandbeiendorf, Im Felde"},
+  {"id":2519020938,"lat":52.399246,"lon":11.726372,"k":"x","n":"Sandbeiendorf, Im Felde"},
+  {"id":2519020939,"lat":52.399268,"lon":11.72633,"k":"p","n":"Sandbeiendorf, Im Felde"},
+  {"id":6018725266833,"lat":52.395389,"lon":11.718336,"k":"p","n":"Sandbeiendorf","g":1}
+],
+"routes":[
+  {"id":2702865,"t":{"ref":"625","name":"Bus 625: Bertingen => Angern/Rogätz Bhf","from":"Bertingen","to":"Angern/ Rogätz Bahnhof","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":7,"s":[[2109967858,4],[2485238637,5],[2485238583,6]]},
+  {"id":2705168,"t":{"ref":"624","name":"Bus 624: Angern => Blätz","from":"Angern, Teich","to":"Blätz","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":9,"s":[[2485238660,1],[2519020936,2]]},
+  {"id":2705169,"t":{"ref":"624","name":"Bus 624: Blätz => Angern","from":"Blätz","to":"Angern, Teich","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":11,"s":[[2519020934,10],[2485238637,11]]},
+  {"id":2705170,"t":{"ref":"624","name":"Bus 624: Burgstall => Mahlwinkel","from":"Burgstall, Schule","to":"Mahlwinkel, Bahnhof","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":4,"s":[[2519020937,2]]},
+  {"id":2705172,"t":{"ref":"624","name":"Bus 624: Cröchern => Colbitz","from":"Cröchern","to":"Colbitz, Mitte","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":9,"s":[[2519020936,3]]},
+  {"id":2705173,"t":{"ref":"624","name":"Bus 624: Cröchern => Wolmirstedt","from":"Cröchern","to":"Wolmirstedt, Bahnhof","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":15,"s":[[2519020936,3]]},
+  {"id":2705174,"t":{"ref":"624","name":"Bus 624: Mahlwinkel => Angern","from":"Mahlwinkel, Bahnhof","to":"Angern, Teich","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":9,"s":[[2519020939,2],[2519020936,3],[2109967858,7],[2485238602,8],[2485238637,9]]},
+  {"id":3020460703140,"t":{"ref":"623","name":"Bus 623: Bertingen => Wolmirstedt","from":"Bertingen","to":"Wolmirstedt, Geschw.-Scholl-Str.","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":16,"s":[[2485238651,1],[2485238583,2]]},
+  {"id":3025177945071,"t":{"ref":"623","name":"Bus 623: Wolmirstedt => Bertingen","from":"Wolmirstedt, Geschw.-Scholl-Str.","to":"Bertingen","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":15,"s":[[2485238595,14],[2485238660,15]]},
+  {"id":3049726414169,"t":{"ref":"625","name":"Bus 625: Angern/Rogätz Bhf => Bertingen","from":"Angern/Rogätz Bahnhof","to":"Bertingen","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":10,"s":[[2485238595,2],[2485238660,3],[2519020936,4],[2109967851,6]]},
+  {"id":3054838336931,"t":{"ref":"625","name":"Bus 625: Angern/Rogätz Bhf => Bertingen","from":"Angern/Rogätz Bahnhof","to":"Bertingen","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":10,"s":[[1518149154,5],[6018725266833,7],[2485238651,8],[2485238583,9]]},
+  {"id":3064984311614,"t":{"ref":"624","name":"Bus 624: Colbitz => Cröchern","from":"Colbitz, Mitte","to":"Cröchern","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":10,"s":[[2519020936,3]]},
+  {"id":3081142391374,"t":{"ref":"624","name":"Bus 624: Colbitz => Cröchern","from":"Colbitz, Mitte","to":"Cröchern","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":10,"s":[[6018725266833,8]]}
+]
+}

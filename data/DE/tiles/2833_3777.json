@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2833,3777],
+"stops":[
+  {"id":306625761,"lat":51.696528,"lon":8.85166,"k":"p","n":"Dahl Post"},
+  {"id":306625762,"lat":51.693949,"lon":8.857116,"k":"p","n":"Lülingsberg"},
+  {"id":348074409,"lat":51.696459,"lon":8.85163,"k":"p","n":"Dahl Post"},
+  {"id":791343662,"lat":51.670224,"lon":8.851401,"k":"p","n":"Dörenhagen, Picht"},
+  {"id":791343666,"lat":51.670425,"lon":8.851288,"k":"p","n":"Dörenhagen, Picht"},
+  {"id":1137979758,"lat":51.670346,"lon":8.851216,"k":"x","n":"Dörenhagen, Picht"},
+  {"id":1137979767,"lat":51.670274,"lon":8.851404,"k":"x","n":"Dörenhagen, Picht"},
+  {"id":1138213513,"lat":51.660878,"lon":8.895526,"k":"p","n":"Lichtenau-Iggenhausen"},
+  {"id":1138213521,"lat":51.660899,"lon":8.895216,"k":"p","n":"Lichtenau-Iggenhausen"},
+  {"id":1753725170,"lat":51.655016,"lon":8.875673,"k":"p","n":"Lichtenau-Grundsteinheim, Dorfmitte"},
+  {"id":1753725267,"lat":51.652317,"lon":8.874994,"k":"p","n":"Lichtenau-Grundsteinheim, Schützenhalle"},
+  {"id":1753727554,"lat":51.652648,"lon":8.875334,"k":"p","n":"Lichtenau-Grundsteinheim, Schützenhalle"},
+  {"id":3381398312,"lat":51.696485,"lon":8.851629,"k":"x","n":"Dahl Post"},
+  {"id":3381398330,"lat":51.693895,"lon":8.857105,"k":"x","n":"Lülingsberg"},
+  {"id":5532785575,"lat":51.652023,"lon":8.876606,"k":"p","n":"Lichtenau-Grundsteinheim, Auf dem Kleefeld"},
+  {"id":12782016945,"lat":51.693625,"lon":8.856472,"k":"x","n":"Lülingsberg"},
+  {"id":12782016946,"lat":51.693668,"lon":8.856459,"k":"p","n":"Lülingsberg"}
+],
+"routes":[
+  {"id":301914,"t":{"ref":"43","name":"Bus 43: Dahl => Gesamtschule Elsen","from":"Dahl Pastorskamp","to":"Gesamtschule Elsen","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2","bus":"school"},"n":39,"s":[[12782016946,2],[306625761,3]]},
+  {"id":302085,"t":{"ref":"47","name":"Bus 47: Dahl => Hauptbahnhof","from":"Dahl","to":"Hauptbahnhof","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2"},"n":24,"s":[[12782016946,2],[306625761,3]]},
+  {"id":452188,"t":{"ref":"47","name":"Bus 47: Hauptbahnhof => Dahl","from":"Hauptbahnhof","to":"Dahl","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2"},"n":25,"s":[[348074409,23],[12782016946,24]]},
+  {"id":533279,"t":{"ref":"N4","name":"Bus N4: Sande => Dahl","from":"Sande","to":"Dahl","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#00ADEE","route":"bus","public_transport:version":"2"},"n":52,"s":[[348074409,50],[12782016946,51]]},
+  {"id":533280,"t":{"ref":"N4","name":"Bus N4: Dahl => Sande","from":"Dahl","to":"Sande","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#00ADEE","route":"bus","public_transport:version":"2"},"n":49,"s":[[12782016946,2],[306625761,3]]},
+  {"id":1755742,"t":{"ref":"484","name":"Bus 484: Lichtenau, Grundschule => Lichtenau, Brücke","from":"Lichtenau, Grundschule","to":"Lichtenau, Brücke","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[1138213521,12],[1753727554,13],[1753725170,14],[1753725267,15]]},
+  {"id":16148990,"t":{"ref":"484","name":"Bus 484: Lichtenau-Grundsteinheim, Mitte => Lichtenau, Grundschule","from":"Lichtenau-Grundsteinheim, Mitte","to":"Lichtenau, Grundschule","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[1753725170,1],[1753725267,2],[1138213513,3]]},
+  {"id":3012783705817,"t":{"ref":"4","name":"Bus 4: Dahl => Sande","from":"Dahl","to":"Sande","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#A76534","route":"bus","public_transport:version":"2"},"n":21,"s":[[12782016946,2],[348074409,3]]},
+  {"id":3017185732632,"t":{"ref":"4","name":"Bus 4: Sande => Dahl","from":"Sande","to":"Dahl","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#A76534","route":"bus","public_transport:version":"2"},"n":45,"s":[[306625761,43],[12782016946,44]]},
+  {"id":3028219556331,"t":{"ref":"R81","name":"Bus R81: Paderborn => Herbram => Lichtenau","from":"Paderborn Hauptbahnhof","to":"Lichtenau","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[1753725267,9,11],[1753725170,10],[1138213513,12]]},
+  {"id":3031028227109,"t":{"ref":"4","name":"Bus 4: Dahl => Sande","from":"Dahl","to":"Sande","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#A76534","route":"bus","public_transport:version":"2"},"n":22,"s":[[12782016946,2],[348074409,3]]},
+  {"id":3035643155711,"t":{"ref":"4","name":"Bus 4: Dahl => Sande","from":"Dahl","to":"Sande","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#A76534","route":"bus","public_transport:version":"2"},"n":46,"s":[[12782016946,2],[348074409,3]]},
+  {"id":3039058761862,"t":{"ref":"4","name":"Bus 4: Dahl => Sande","from":"Dahl","to":"Sande","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#A76534","route":"bus","public_transport:version":"2"},"n":43,"s":[[12782016946,2],[348074409,3]]},
+  {"id":3047933138947,"t":{"ref":"R81","name":"Bus R81: Paderborn => Herbram => Lichtenau","from":"Paderborn Hauptbahnhof","to":"Lichtenau","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[1138213521,12],[1753725267,13,15],[1753725170,14]]},
+  {"id":3074396656457,"t":{"ref":"4","name":"Bus 4: Sande => Dahl","from":"Sande","to":"Dahl","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#A76534","route":"bus","public_transport:version":"2"},"n":21,"s":[[306625761,19],[12782016946,20]]},
+  {"id":3094016362939,"t":{"ref":"R81","name":"Bus R81: Lichtenau => Herbram => Paderborn","from":"Lichtenau","to":"Paderborn Hauptbahnhof","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[1138213521,13],[1753725267,14,16],[1753725170,15]]}
+]
+}

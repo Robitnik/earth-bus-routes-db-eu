@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2764,3817],
+"stops":[
+  {"id":281252861,"lat":48.237501,"lon":10.872894,"k":"p","n":"Königsbrunn Fohlenhofstraße","ref":"C"},
+  {"id":458331650,"lat":48.237716,"lon":10.871793,"k":"x","n":"Königsbrunn Fohlenhofstraße","ref":"B"},
+  {"id":458331653,"lat":48.23766,"lon":10.871799,"k":"p","n":"Königsbrunn Fohlenhofstraße","ref":"B"},
+  {"id":665080313,"lat":48.246785,"lon":10.877376,"k":"p","n":"Schulbus-Haltestelle"},
+  {"id":750596089,"lat":48.238261,"lon":10.873026,"k":"p","n":"Königsbrunn Fohlenhofstraße","ref":"A"},
+  {"id":750596090,"lat":48.237107,"lon":10.864597,"k":"p","n":"Oberottmarshausen Siedlung","ref":"B"},
+  {"id":750596091,"lat":48.237737,"lon":10.856982,"k":"p","n":"Oberottmarshausen Kirche"},
+  {"id":750596093,"lat":48.237004,"lon":10.864645,"k":"p","n":"Oberottmarshausen Siedlung","ref":"A"},
+  {"id":750596094,"lat":48.237861,"lon":10.856895,"k":"p","n":"Oberottmarshausen Kirche","ref":"A"},
+  {"id":798984781,"lat":48.222093,"lon":10.867539,"k":"p","n":"Kleinaitingen Nord Ulrichskaserne"},
+  {"id":798984834,"lat":48.225541,"lon":10.86809,"k":"p","n":"Kleinaitingen Nord Ulrichskaserne"},
+  {"id":1789933122,"lat":48.222077,"lon":10.867654,"k":"x","n":"Kleinaitingen Nord Ulrichskaserne"},
+  {"id":5125918505,"lat":48.237812,"lon":10.856972,"k":"x","n":"Oberottmarshausen Kirche","ref":"A:B"},
+  {"id":5126499151,"lat":48.237046,"lon":10.864616,"k":"x","n":"Oberottmarshausen Siedlung","ref":"A;B"},
+  {"id":5126499153,"lat":48.238242,"lon":10.873124,"k":"x","n":"Königsbrunn Fohlenhofstraße","ref":"A"},
+  {"id":5126499154,"lat":48.23753,"lon":10.872767,"k":"x","n":"Königsbrunn Fohlenhofstraße","ref":"C"},
+  {"id":5126499155,"lat":48.225509,"lon":10.867947,"k":"x","n":"Kleinaitingen Nord Ulrichskaserne"},
+  {"id":6947700351,"lat":48.249144,"lon":10.875398,"k":"x","n":"Königsbrunn Lilienthalstraße","ref":"B"},
+  {"id":9788306080,"lat":48.249211,"lon":10.875337,"k":"p","n":"Königsbrunn Lilienthalstraße"}
+],
+"routes":[
+  {"id":1076458,"t":{"ref":"730","name":"AVV-Regionalbus 730: Könnigsbrunn => Klosterlechfeld","from":"Königsbrunn, Zentrum","to":"Klosterlechfeld","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[750596089,5],[798984781,6]]},
+  {"id":1083552,"t":{"ref":"731","name":"AVV-Regionalbus 731: Königsbrunn => Schwabmünchen","from":"Königsbrunn, Zentrum","to":"Schwabmünchen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[750596089,5],[750596090,6],[750596094,7]]},
+  {"id":1083644,"t":{"ref":"731","name":"AVV-Regionalbus 731: Königsbrunn => Klosterlechfeld","from":"Königsbrunn, Zentrum","to":"Klosterlechfeld, Kirche","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[750596089,5],[750596090,6],[750596094,7]]},
+  {"id":1083645,"t":{"ref":"731","name":"AVV-Regionalbus 731: Schwabmünchen => Königsbrunn","from":"Schwabmünchen, Bahnhof","to":"Königsbrunn, Zentrum","network":"Augsburger Verkehrs- und Tarifverbund","operator":"RBA","route":"bus","public_transport:version":"2"},"n":17,"s":[[750596091,11],[750596093,12],[458331653,13]]},
+  {"id":1083646,"t":{"ref":"731","name":"AVV-Regionalbus 731: Königsbrunn => Schwabmünchen","from":"Königsbrunn, Zentrum","to":"Schwabmünchen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","operator":"RBA","route":"bus","public_transport:version":"2"},"n":17,"s":[[750596089,5],[750596090,6],[750596094,7]]},
+  {"id":14927432,"t":{"ref":"840","name":"AVV-Regionalbus 840: Königsbrunn Zentrum => Gewebegebiet Süd","from":"Königsbrunn Zentrum","to":"Königsbrunn Dornierstraße","network":"Augsburger Verkehrs- und Tarifverbund","colour":"#2596be","route":"bus","public_transport:version":"2"},"n":9,"s":[[9788306080,8]]},
+  {"id":3012996436309,"t":{"ref":"711","name":"711: Bobingen - Schwabmünchen","from":"Bobingen","to":"Schwabmünchen","operator":"Bus9","route":"bus","public_transport:version":"2"},"n":10,"s":[[750596094,3]]},
+  {"id":3043386172816,"t":{"ref":"711","name":"711: Schwabmünchen - Bobingen","from":"Schwabmünchen","to":"Bobingen","operator":"Bus9","route":"bus","public_transport:version":"2"},"n":10,"s":[[750596091,8]]},
+  {"id":3082979651889,"t":{"ref":"840","name":"AVV-Regionalbus 840: Gewerbegebiet Süd => Königsbrunn Zentrum","from":"Königsbrunn Heinkelstraße","to":"Königsbrunn Zentrum","network":"Augsburger Verkehrs- und Tarifverbund","colour":"#2596be","route":"bus","public_transport:version":"2"},"n":10,"s":[[6947700351,9]]},
+  {"id":3088791737632,"t":{"ref":"711","name":"711: Bobingen - Schwabmünchen","from":"Bobingen","to":"Schwabmünchen","operator":"Bus9","route":"bus","public_transport:version":"2"},"n":10,"s":[[750596094,3]]},
+  {"id":3093496804586,"t":{"ref":"840","name":"AVV-Regionalbus 840: Gewerbegebiet Süd => Königsbrunn Zentrum","from":"Königsbrunn Heinkelstraße","to":"Königsbrunn Zentrum","network":"Augsburger Verkehrs- und Tarifverbund","colour":"#2596be","route":"bus","public_transport:version":"2"},"n":10,"s":[[6947700351,2]]}
+]
+}

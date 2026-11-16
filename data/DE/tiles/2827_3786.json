@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3786],
+"stops":[
+  {"id":369486972,"lat":51.395902,"lon":9.34955,"k":"p","n":"Konzertscheune"},
+  {"id":747362277,"lat":51.394312,"lon":9.342945,"k":"p","n":"Siedlung"},
+  {"id":974005126,"lat":51.395709,"lon":9.349944,"k":"p","n":"Konzertscheune"},
+  {"id":1419319172,"lat":51.371246,"lon":9.301534,"k":"p","n":"Schule"},
+  {"id":2288522234,"lat":51.366166,"lon":9.340132,"k":"p","n":"Naturparkzentrum"},
+  {"id":2696477118,"lat":51.37295,"lon":9.3328,"k":"p","n":"Alpenpfad"},
+  {"id":3099301317,"lat":51.365671,"lon":9.302916,"k":"p","n":"Bahnhof"},
+  {"id":3099301318,"lat":51.365758,"lon":9.302926,"k":"p","n":"Bahnhof"},
+  {"id":4243497400,"lat":51.37304,"lon":9.3328,"k":"p","n":"Alpenpfad"},
+  {"id":5534601757,"lat":51.394362,"lon":9.342927,"k":"x","n":"Siedlung"},
+  {"id":6033148285,"lat":51.371274,"lon":9.301474,"k":"x","n":"Schule"},
+  {"id":6033148297,"lat":51.366148,"lon":9.340067,"k":"x","n":"Naturparkzentrum"},
+  {"id":6033148302,"lat":51.370394,"lon":9.307805,"k":"p","n":"Schwimmbad"},
+  {"id":6033148303,"lat":51.370288,"lon":9.308029,"k":"p","n":"Schwimmbad"},
+  {"id":7847119885,"lat":51.393744,"lon":9.345449,"k":"p","n":"Dorfplatz"},
+  {"id":5000577290773,"lat":51.394314,"lon":9.342888,"k":"p","n":"Siedlung"},
+  {"id":5000640420623,"lat":51.371222,"lon":9.301497,"k":"p","n":"Schule"},
+  {"id":5000640420630,"lat":51.366152,"lon":9.34014,"k":"p","n":"Naturparkzentrum"}
+],
+"routes":[
+  {"id":1734598,"t":{"ref":"117","name":"Bus 117: Oberelsungen => Zierenberg","from":"Oberelsungen Siedlung","to":"Zierenberg Schule","network":"Nordhessischer VerkehrsVerbund","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000640420623,19]]},
+  {"id":1805077,"t":{"ref":"46","name":"Bus 46: Fürstenwald => Calden","from":"Calden Fürstenwald Bahnhof","to":"Calden Görlitzer Straße","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000577290773,6],[974005126,7]]},
+  {"id":1805112,"t":{"ref":"46","name":"Bus 46: Calden => Fürstenwald","from":"Calden Görlitzer Straße","to":"Calden Fürstenwald Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":12,"s":[[369486972,6],[5000577290773,7]]},
+  {"id":6027706,"t":{"ref":"117","name":"Bus 117: Naturparkzentrum => Habichtswald","from":"Naturparkzentrum","to":"Habichtswald Mitte","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000640420630,1],[4243497400,2],[6033148302,3],[3099301318,4]]},
+  {"id":6027707,"t":{"ref":"117","name":"Bus 117: Habichtswald => Naturparkzentrum","from":"Habichtswald Mitte","to":"Naturparkzentrum","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":7,"s":[[3099301317,4],[6033148303,5],[2696477118,6],[5000640420630,7]]},
+  {"id":8884703,"t":{"ref":"117","name":"Bus 117: Zierenberg => Oberelsungen","from":"Zierenberg Schule","to":"Oberelsungen Siedlung","network":"Nordhessischer VerkehrsVerbund","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000640420623,1]]},
+  {"id":12250482,"t":{"ref":"133","name":"Bus 133: Calden => Fürstenwald","from":"Calden Schule","to":"Calden Fürstenwald Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":15,"s":[[369486972,9],[7847119885,10]]},
+  {"id":12250484,"t":{"ref":"133","name":"Bus 133: Grebenstein => Fürstenwald","from":"Grebenstein Gesamtschule","to":"Calden Fürstenwald Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":15,"s":[[369486972,9],[7847119885,10]]},
+  {"id":12250487,"t":{"ref":"133","name":"Bus 133: Fürstenwald => Hofgeismar","from":"Calden Fürstenwald Bahnhof","to":"Hofgeismar Berufsschule/ASS","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":24,"s":[[7847119885,6],[974005126,7]]},
+  {"id":3005916439077,"t":{"ref":"46","name":"46: Calden-Fürstenwald Bahnhof - Grebenstein-Udenhausen Feuerwehr","from":"Calden-Fürstenwald Bahnhof","to":"Grebenstein-Udenhausen Feuerwehr","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":22,"s":[[7847119885,6],[974005126,7]]},
+  {"id":3034014796642,"t":{"ref":"46","name":"46: Grebenstein-Udenhausen Feuerwehr - Calden-Fürstenwald Bahnhof","from":"Grebenstein-Udenhausen Feuerwehr","to":"Calden-Fürstenwald Bahnhof","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":21,"s":[[369486972,15],[7847119885,16]]},
+  {"id":3042773045650,"t":{"ref":"136","name":"136: Grebenstein Gesamtschule - Calden-Fürstenwald Bahnhof","from":"Grebenstein Gesamtschule","to":"Calden-Fürstenwald Bahnhof","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":16,"s":[[369486972,10],[7847119885,11]]},
+  {"id":3057684182990,"t":{"ref":"46","name":"46: Grebenstein-Udenhausen Feuerwehr - Calden-Fürstenwald Bahnhof","from":"Grebenstein-Udenhausen Feuerwehr","to":"Calden-Fürstenwald Bahnhof","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":23,"s":[[369486972,17],[7847119885,18]]},
+  {"id":3064597391174,"t":{"ref":"136","name":"136: Calden Schule - Calden-Fürstenwald Bahnhof","from":"Calden Schule","to":"Calden-Fürstenwald Bahnhof","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":15,"s":[[369486972,9],[7847119885,10]]},
+  {"id":3079154660507,"t":{"ref":"46","name":"46: Calden-Fürstenwald Bahnhof - Grebenstein-Udenhausen Feuerwehr","from":"Calden-Fürstenwald Bahnhof","to":"Grebenstein-Udenhausen Feuerwehr","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":20,"s":[[7847119885,6],[974005126,7]]}
+]
+}

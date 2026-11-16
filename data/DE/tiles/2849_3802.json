@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2849,3802],
+"stops":[
+  {"id":300465510,"lat":52.451213,"lon":10.142695,"k":"p","n":"Krätze/Am tiefen Moor"},
+  {"id":300465558,"lat":52.45427,"lon":10.139409,"k":"p","n":"Krätze/Krätzer Straße"},
+  {"id":300465569,"lat":52.462737,"lon":10.146135,"k":"p","n":"Altmerdingsen/Krausenburg"},
+  {"id":300465588,"lat":52.462705,"lon":10.146028,"k":"p","n":"Altmerdingsen/Krausenburg","ref":"9273"},
+  {"id":343556681,"lat":52.459128,"lon":10.133291,"k":"p","n":"Altmerdingsen/Kreuzweg"},
+  {"id":343556682,"lat":52.459052,"lon":10.132871,"k":"p","n":"Altmerdingsen/Kreuzweg"},
+  {"id":482840855,"lat":52.459418,"lon":10.133634,"k":"p","n":"Altmerdingsen/Friedhof"},
+  {"id":550295480,"lat":52.463567,"lon":10.129128,"k":"p","n":"Altmerdingsen/Schilfbruchstraße"},
+  {"id":550295551,"lat":52.47965,"lon":10.100374,"k":"p","n":"Hänigsen/Altmerdingser Straße"},
+  {"id":11737521138,"lat":52.491597,"lon":10.113535,"k":"x","n":"Hänigsen/Riedel"},
+  {"id":6008763037921,"lat":52.463188,"lon":10.147819,"k":"p","n":"Altmerdingsen Krausenburg","g":1},
+  {"id":6010460855504,"lat":52.486098,"lon":10.103325,"k":"p","n":"Hänigsen Freibad","g":1},
+  {"id":6029602425652,"lat":52.463806,"lon":10.128586,"k":"p","n":"Altmerdingsen Schilfbruchstr.","g":1}
+],
+"routes":[
+  {"id":225659,"t":{"ref":"930","name":"Linie 930 Burgdorf - Hülptingsen - Uetze","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus"},"n":23,"s":[[300465569,9],[343556681,10],[343556682,11],[300465588,22]]},
+  {"id":227104,"t":{"ref":"938","name":"Linie 938 Uetze - Hängisen - Obershagen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus"},"n":32,"s":[[300465588,10],[300465569,11],[300465510,12],[482840855,13],[550295480,14],[550295551,15]]},
+  {"id":3002327715805,"t":{"ref":"938","name":"938: Hänigsen Am Pappaul - Uetze Schulzentrum","from":"Hänigsen Am Pappaul","to":"Uetze Schulzentrum","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[550295551,2],[6029602425652,3],[482840855,4],[300465510,5],[300465558,6],[6008763037921,7]]},
+  {"id":3009139363147,"t":{"ref":"938","name":"938: Obershagen Köhlergarten - Uetze Schulzentrum","from":"Obershagen Köhlergarten","to":"Uetze Schulzentrum","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[550295551,12],[6029602425652,13],[482840855,14],[300465510,15],[300465558,16],[6008763037921,17]]},
+  {"id":3018917920043,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":21,"s":[[11737521138,1],[6010460855504,2]]},
+  {"id":3020628655329,"t":{"ref":"930","name":"930: Burgdorf Bahnhof - Uetze Schmiedestraße","from":"Burgdorf Bahnhof","to":"Uetze Schmiedestraße","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[343556682,9],[6008763037921,10]]},
+  {"id":3021800025079,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":24,"s":[[11737521138,1],[6010460855504,2]]},
+  {"id":3034979457274,"t":{"ref":"930","name":"930: Uetze Schmiedestraße - Burgdorf Bahnhof","from":"Uetze Schmiedestraße","to":"Burgdorf Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6008763037921,7],[343556682,8]]},
+  {"id":3042109669873,"t":{"ref":"938","name":"938: Uetze Schulzentrum - Hänigsen Am Pappaul","from":"Uetze Schulzentrum","to":"Hänigsen Am Pappaul","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[6008763037921,7],[482840855,8],[6029602425652,9],[550295551,10]]},
+  {"id":3045122911776,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":23,"s":[[11737521138,1],[6010460855504,2]]},
+  {"id":3052752419168,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[11737521138,1],[6010460855504,2]]},
+  {"id":3057376777850,"t":{"ref":"938","name":"938: Uetze Schulzentrum - Obershagen Köhlergarten","from":"Uetze Schulzentrum","to":"Obershagen Köhlergarten","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6008763037921,7],[300465510,8],[300465558,9],[482840855,10],[6029602425652,11],[550295551,12]]},
+  {"id":3058300196964,"t":{"ref":"920","name":"920: Hänigsen Riedel - Burgdorf Bahnhof","from":"Hänigsen Riedel","to":"Burgdorf Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[11737521138,1],[6010460855504,2]]},
+  {"id":3060367777709,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":21,"s":[[11737521138,21]]},
+  {"id":3075516571473,"t":{"ref":"930","name":"930: Uetze Schmiedestraße - Burgdorf Bahnhof","from":"Uetze Schmiedestraße","to":"Burgdorf Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[6008763037921,7],[343556682,8]]},
+  {"id":3078140343119,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":21,"s":[[6010460855504,20],[11737521138,21]]},
+  {"id":3078582704266,"t":{"ref":"920","name":"920: Burgdorf Bahnhof - Hänigsen Riedel","from":"Burgdorf Bahnhof","to":"Hänigsen Riedel","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[6010460855504,13],[11737521138,14]]},
+  {"id":3080934147878,"t":{"ref":"938","name":"938: Uetze Schulzentrum - Hänigsen Am Pappaul","from":"Uetze Schulzentrum","to":"Hänigsen Am Pappaul","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6008763037921,7],[482840855,8],[6029602425652,9],[550295551,10],[11737521138,11],[6010460855504,12]]},
+  {"id":3096178552832,"t":{"ref":"910","name":"910: Burgdorf - Obershagen - Hänigsen","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":24,"s":[[6010460855504,23],[11737521138,24]]}
+]
+}

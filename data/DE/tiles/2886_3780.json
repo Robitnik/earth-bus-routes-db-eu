@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2886,3780],
+"stops":[
+  {"id":1776502841,"lat":54.316291,"lon":9.001922,"k":"p","n":"Mahde"},
+  {"id":2381341325,"lat":54.332958,"lon":9.023414,"k":"p","n":"Lunden Kirche"},
+  {"id":9805664289,"lat":54.326312,"lon":9.024977,"k":"x","n":"Lunden, Grundschule"},
+  {"id":9805664297,"lat":54.325818,"lon":9.030548,"k":"x","n":"Lunden Brunnenstraße/Schwimmbad"},
+  {"id":9806787984,"lat":54.342832,"lon":9.0251,"k":"x","n":"Lehe,Haase"},
+  {"id":9806787985,"lat":54.331019,"lon":9.030302,"k":"x","n":"Lunden, Bahnhof"},
+  {"id":9816733709,"lat":54.317445,"lon":9.030129,"k":"p","n":"Krempel,Moorchaussee"},
+  {"id":9941817252,"lat":54.318828,"lon":9.028302,"k":"x","n":"Krempel"},
+  {"id":9941817253,"lat":54.307537,"lon":9.034881,"k":"x","n":"Rehm, Abzweigung Schlichting"},
+  {"id":13647148907,"lat":54.331212,"lon":9.030421,"k":"p","n":"Lunden, Bahnhof"},
+  {"id":6010036460700,"lat":54.326766,"lon":9.028513,"k":"p","n":"Lunden Grundschule","g":1},
+  {"id":6018870971639,"lat":54.33118,"lon":9.025678,"k":"p","n":"Lunden Poststraße","g":1},
+  {"id":6029274495798,"lat":54.307132,"lon":9.035026,"k":"p","n":"Rehm Abzw. Schlichting","g":1}
+],
+"routes":[
+  {"id":20321344,"t":{"ref":"235","name":"Bus 235: Lunden => Tellingstedt","from":"Lunden, Bahnhof","to":"Tellingstedt,ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8C191E","route":"bus","public_transport:version":"2"},"n":7,"s":[[13647148907,1],[9816733709,2]]},
+  {"id":20321346,"t":{"ref":"235","name":"Bus 235: Tellingstedt => Lunden","from":"Tellingstedt,ZOB","to":"Lunden, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8C191E","route":"bus","public_transport:version":"2"},"n":11,"s":[[13647148907,11]]},
+  {"id":3025973975661,"t":{"ref":"220","name":"Bus 220: Heide => Lunden => Karolinenkoog => Tönning","from":"Heide, Bahnhof","to":"Tönning","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#DE7A0D","route":"bus","public_transport:version":"2"},"n":40,"s":[[6029274495798,17],[9941817252,18,22],[6010036460700,19],[6018870971639,20],[9806787985,21],[9941817253,23]]},
+  {"id":3026487081113,"t":{"ref":"RE6X","name":"RE6X: Hauptbahnhof/ZOB - Husum(Nordsee) Bahnhof","from":"Hauptbahnhof/ZOB","to":"Husum(Nordsee) Bahnhof","operator":"DB Regio AG Nord","route":"bus","public_transport:version":"2"},"n":7,"s":[[9806787985,5]]},
+  {"id":3028597150692,"t":{"ref":"RB62","name":"RB62: Itzehoe Bahnhof (Draisine) - Husum(Nordsee) Bahnhof","from":"Itzehoe Bahnhof (Draisine)","to":"Husum(Nordsee) Bahnhof","operator":"DB Regio AG Nord","route":"bus","public_transport:version":"2"},"n":8,"s":[[9806787985,6]]},
+  {"id":3040139430568,"t":{"ref":"220","name":"Bus 220: Tönning => Karolinenkoog => Lunden => Heide","from":"Tönning","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#DE7A0D","route":"bus","public_transport:version":"2"},"n":40,"s":[[6029274495798,18],[9941817252,19,23],[6010036460700,20],[6018870971639,21],[9806787985,22],[9941817253,24]]},
+  {"id":3051200958196,"t":{"ref":"235","name":"235: Lunden Bahnhof - Tellingstedt ZOB","from":"Lunden Bahnhof","to":"Tellingstedt ZOB","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[9806787985,1],[9805664297,2],[9816733709,3]]},
+  {"id":3061254500010,"t":{"ref":"RB62","name":"RB62: Husum(Nordsee) Bahnhof - Itzehoe Bahnhof (Draisine)","from":"Husum(Nordsee) Bahnhof","to":"Itzehoe Bahnhof (Draisine)","operator":"DB Regio AG Nord","route":"bus","public_transport:version":"2"},"n":8,"s":[[9806787985,3]]},
+  {"id":3076260412861,"t":{"ref":"RE6X","name":"RE6X: Husum(Nordsee) Bahnhof - Hauptbahnhof/ZOB","from":"Husum(Nordsee) Bahnhof","to":"Hauptbahnhof/ZOB","operator":"DB Regio AG Nord","route":"bus","public_transport:version":"2"},"n":8,"s":[[9806787985,3]]},
+  {"id":3085945809595,"t":{"ref":"235","name":"235: Tellingstedt ZOB - Lunden Bahnhof","from":"Tellingstedt ZOB","to":"Lunden Bahnhof","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[9941817252,26],[6010036460700,27],[9806787985,28]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2877,3882],
+"stops":[
+  {"id":337774913,"lat":53.887203,"lon":14.128057,"k":"p","n":"Kutzow"},
+  {"id":337774918,"lat":53.887295,"lon":14.128063,"k":"p","n":"Kutzow"},
+  {"id":3370641653,"lat":53.892047,"lon":14.142477,"k":"x","n":"Zirchow"},
+  {"id":5321952765,"lat":53.887256,"lon":14.128054,"k":"x","n":"Kutzow"},
+  {"id":6152067362,"lat":53.891779,"lon":14.142776,"k":"x","n":"Zirchow"},
+  {"id":6152067363,"lat":53.892038,"lon":14.142371,"k":"p","n":"Zirchow"},
+  {"id":6152067364,"lat":53.891833,"lon":14.142918,"k":"p","n":"Zirchow"},
+  {"id":6152067365,"lat":53.885477,"lon":14.13349,"k":"x","n":"Zirchow, Lindenstraße"},
+  {"id":6152067366,"lat":53.885409,"lon":14.133514,"k":"p","n":"Zirchow, Lindenstraße"},
+  {"id":6152067367,"lat":53.885519,"lon":14.133454,"k":"p","n":"Zirchow, Lindenstraße"},
+  {"id":6152067368,"lat":53.878461,"lon":14.138514,"k":"x","n":"Heringsdorf, Flughafen"},
+  {"id":6152067369,"lat":53.878496,"lon":14.138538,"k":"p","n":"Heringsdorf, Flughafen"},
+  {"id":6354623656,"lat":53.876476,"lon":14.147432,"k":"x","n":"Zirchow, Hangar 10"},
+  {"id":6354623657,"lat":53.876532,"lon":14.147436,"k":"p","n":"Zirchow, Hangar 10"}
+],
+"routes":[
+  {"id":1553372,"t":{"ref":"mv81","name":"Bus mv81: Heringsdorf => Anklam","from":"Heringsdorf, Bahnhof","to":"Anklam, ZOB","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[6152067363,6],[337774918,7]]},
+  {"id":7877364,"t":{"ref":"284","name":"Bus 284: Heringsdorf => Usedom","from":"Heringsdorf Bahnhof","to":"Usedom, Geschw.-Scholl-Straße","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[6152067363,6],[337774918,7]]},
+  {"id":7877365,"t":{"ref":"284","name":"Bus 284: Usedom => Heringsdorf","from":"Usedom Schule","to":"Heringsdorf Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[337774913,10],[6152067364,11]]},
+  {"id":9135202,"t":{"ref":"286","name":"Bus 286: Bansin => Kamminke","from":"Bansin Seepark","to":"Kamminke Haff","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[6152067363,13,17],[6152067367,14],[6152067369,15],[6152067366,16]]},
+  {"id":9157613,"t":{"ref":"285","name":"Bus 285: Ahlbeck => Ahlbeck","from":"Ahlbeck Bahnhof","to":"Ahlbeck Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[337774913,25],[6152067364,26]]},
+  {"id":21285770,"t":{"ref":"286","name":"Bus 286: Kamminke => Bansin","from":"Kamminke Haff","to":"Bansin Seepark","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6152067364,1,5],[6152067367,2],[6152067369,3],[6152067366,4]]},
+  {"id":21287600,"t":{"ref":"284","name":"Bus 284: Heringsdorf => Usedom","from":"Heringsdorf Bahnhof","to":"Usedom, Geschw.-Scholl-Straße","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6152067363,6],[337774918,7]]},
+  {"id":21287602,"t":{"ref":"284","name":"Bus 284: Usedom => Heringsdorf","from":"Usedom, Geschw.-Scholl-Straße","to":"Heringsdorf Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[337774913,12],[6152067364,13]]},
+  {"id":21290945,"t":{"ref":"285","name":"Bus 285: Ahlbeck => Ahlbeck","from":"Ahlbeck Bahnhof","to":"Ahlbeck Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[6152067363,4],[337774918,5]]},
+  {"id":3029400119717,"t":{"ref":"201","name":"201: Anklam ZOB - Seebad Heringsdorf","from":"Anklam ZOB","to":"Seebad Heringsdorf","operator":"Anklamer Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":30,"s":[[5321952765,24],[6152067362,25]]},
+  {"id":3058443123436,"t":{"ref":"mv81","name":"Bus mv81: Anklam => Heringsdorf","from":"Anklam, ZOB","to":"Heringsdorf, Bahnhof","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[6152067363,6],[5321952765,7]]},
+  {"id":3081266408030,"t":{"ref":"201","name":"201: Seebad Heringsdorf - Anklam ZOB","from":"Seebad Heringsdorf","to":"Anklam ZOB","operator":"Anklamer Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":29,"s":[[6152067363,6],[5321952765,7]]},
+  {"id":3098890829365,"t":{"ref":"mv81","name":"Bus mv81: Anklam => Heringsdorf","from":"Anklam, ZOB","to":"Heringsdorf, Bahnhof","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Greifswald mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[5321952765,23],[6152067362,24]]}
+]
+}

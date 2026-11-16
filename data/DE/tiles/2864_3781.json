@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2864,3781],
+"stops":[
+  {"id":392875210,"lat":53.226689,"lon":9.080852,"k":"x","n":"Busbahnhof"},
+  {"id":1306589470,"lat":53.218988,"lon":9.06109,"k":"x","n":"Tarmstedt, Holschendorfer Weg"},
+  {"id":2547233774,"lat":53.220399,"lon":9.067488,"k":"p","n":"Tarmstedt, Am Berg"},
+  {"id":2547233778,"lat":53.220586,"lon":9.069126,"k":"p","n":"Tarmstedt, Am Berg"},
+  {"id":2547233790,"lat":53.219044,"lon":9.061045,"k":"p","n":"Tarmstedt, Holschendorfer Weg"},
+  {"id":2547233791,"lat":53.219081,"lon":9.061679,"k":"p","n":"Tarmstedt, Holschendorfer Weg"},
+  {"id":2787619420,"lat":53.226755,"lon":9.089924,"k":"p","n":"Tarmstedt, Königsberger Straße"},
+  {"id":2787619439,"lat":53.226854,"lon":9.089851,"k":"p","n":"Tarmstedt, Königsberger Straße"},
+  {"id":3018361572,"lat":53.230919,"lon":9.085303,"k":"x","n":"Schulzentrum KGS"},
+  {"id":6893923075,"lat":53.219133,"lon":9.061635,"k":"x","n":"Tarmstedt, Holschendorfer Weg"},
+  {"id":6893923077,"lat":53.220322,"lon":9.067534,"k":"x","n":"Tarmstedt, Am Berg"},
+  {"id":6893923078,"lat":53.220635,"lon":9.069102,"k":"x","n":"Tarmstedt, Am Berg"},
+  {"id":7095496227,"lat":53.226655,"lon":9.080876,"k":"p","n":"Busbahnhof"},
+  {"id":7095496228,"lat":53.226745,"lon":9.080726,"k":"p","n":"Busbahnhof"},
+  {"id":7095496229,"lat":53.226804,"lon":9.089884,"k":"x","n":"Tarmstedt, Königsberger Straße"},
+  {"id":7141312024,"lat":53.231298,"lon":9.086147,"k":"p","n":"Schulzentrum KGS"},
+  {"id":7141312025,"lat":53.229745,"lon":9.082539,"k":"x","n":"Kleine Trift"},
+  {"id":7141312026,"lat":53.229661,"lon":9.082499,"k":"p","n":"Kleine Trift"},
+  {"id":6030359406352,"lat":53.203151,"lon":9.082297,"k":"p","n":"Wilstedt(NDS) Brüning","g":1},
+  {"id":6093005756040,"lat":53.20315,"lon":9.082304,"k":"p","n":"Wilstedt(NDS) Brüning","g":1}
+],
+"routes":[
+  {"id":1243504,"t":{"ref":"834","name":"Bus 834: Zeven => Steinfeld => Wilstedt => Tarmstedt","from":"Zeven","to":"Tarmstedt","network":"VNN;VBN","operator":"OvA","route":"bus","public_transport:version":"2"},"n":19,"s":[[7141312026,18],[7141312024,19]]},
+  {"id":10602192,"t":{"ref":"834","name":"Bus 834: Tarmstedt => Zeven","from":"Tarmstedt","to":"Zeven","network":"VNN;VBN","operator":"OvA","route":"bus","public_transport:version":"2"},"n":18,"s":[[7141312024,1]]},
+  {"id":3006379019207,"t":{"ref":"630","name":"630: Zeven => Bremen","from":"Zeven","to":"Bremen Hbf","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"OvA","route":"bus","public_transport:version":"2"},"n":50,"s":[[7095496229,25],[392875210,26],[2547233774,27],[1306589470,28]]},
+  {"id":3024374277543,"t":{"ref":"N63","name":"Bus N63: Lilienthal => Zeven","from":"Lilienthal Falkenberg","to":"Zeven","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"OvA","route":"bus","public_transport:version":"2"},"n":28,"s":[[1306589470,10],[6893923078,11],[392875210,12],[7095496229,13]]},
+  {"id":3027490755378,"t":{"ref":"630","name":"630: Bremen => Zeven","from":"Bremen Hbf","to":"Zeven","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"OvA","route":"bus","public_transport:version":"2"},"n":43,"s":[[1306589470,23],[6893923078,24],[392875210,25],[7095496229,26]]},
+  {"id":3031861269951,"t":{"ref":"831","name":"831: Tarmstedt Busbahnhof - Wilstedt(NDS) Mitte","from":"Tarmstedt Busbahnhof","to":"Wilstedt(NDS) Mitte","operator":"Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[392875210,1],[6093005756040,2]]},
+  {"id":3038671417067,"t":{"ref":"831","name":"831: Wilstedt(NDS) Mitte - Tarmstedt Busbahnhof","from":"Wilstedt(NDS) Mitte","to":"Tarmstedt Busbahnhof","operator":"Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[6030359406352,2],[392875210,3]]},
+  {"id":3053112538699,"t":{"ref":"N63","name":"Bus N63: Zeven => Lilienthal","from":"Zeven, Busbahnhof","to":"Lilienthal","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"OvA","route":"bus","public_transport:version":"2"},"n":28,"s":[[7095496229,16],[392875210,17],[2547233774,18],[1306589470,19]]},
+  {"id":3063014861648,"t":{"ref":"831","name":"831: Rhade(b Zeven) Busbahnhof - Tarmstedt Busbahnhof","from":"Rhade(b Zeven) Busbahnhof","to":"Tarmstedt Busbahnhof","operator":"Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[392875210,9]]},
+  {"id":3063341444990,"t":{"ref":"831","name":"831: Tarmstedt Busbahnhof - Rhade(b Zeven) Busbahnhof","from":"Tarmstedt Busbahnhof","to":"Rhade(b Zeven) Busbahnhof","operator":"Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[392875210,1]]},
+  {"id":3089871491248,"t":{"ref":"630","name":"630: Zeven => Bremen","from":"Zeven","to":"Bremen Hbf","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"OvA","route":"bus","public_transport:version":"2"},"n":43,"s":[[7095496229,18],[392875210,19],[2547233774,20],[1306589470,21]]},
+  {"id":3091418274576,"t":{"ref":"630","name":"630: Bremen => Zeven","from":"Bremen Hbf","to":"Zeven","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"OvA","route":"bus","public_transport:version":"2"},"n":50,"s":[[1306589470,23],[6893923078,24],[392875210,25],[7095496229,26]]}
+]
+}

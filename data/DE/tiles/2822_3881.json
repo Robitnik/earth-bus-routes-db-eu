@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2822,3881],
+"stops":[
+  {"id":252920197,"lat":51.148702,"lon":14.06021,"k":"x","n":"Bretnig, Wendeplatz"},
+  {"id":294636462,"lat":51.143504,"lon":14.050393,"k":"x","n":"Großröhrsdorf, Jacobsweg"},
+  {"id":588088808,"lat":51.148709,"lon":14.060252,"k":"p","n":"Wendeplatz","ref":"2"},
+  {"id":3695666010,"lat":51.101535,"lon":14.087829,"k":"p","n":"Großharthau Am Bahnhof"},
+  {"id":3695666011,"lat":51.101546,"lon":14.087874,"k":"x","n":"Großharthau Am Bahnhof"},
+  {"id":8575066720,"lat":51.143482,"lon":14.050651,"k":"p","n":"Großröhrsdorf Jacobsweg"},
+  {"id":8575066721,"lat":51.143526,"lon":14.050646,"k":"x","n":"Großröhrsdorf, Jacobsweg"},
+  {"id":8575066722,"lat":51.143554,"lon":14.050375,"k":"p","n":"Großröhrsdorf Jacobsweg"},
+  {"id":8575066826,"lat":51.148712,"lon":14.060295,"k":"x","n":"Bretnig, Wendeplatz"},
+  {"id":8575066827,"lat":51.148718,"lon":14.060326,"k":"p","n":"Wendeplatz","ref":"1"},
+  {"id":13789495641,"lat":51.101697,"lon":14.087897,"k":"p","n":"Großharthau Am Bahnhof"},
+  {"id":13789495642,"lat":51.101685,"lon":14.087803,"k":"x","n":"Großharthau Am Bahnhof"}
+],
+"routes":[
+  {"id":5717139,"t":{"ref":"748","name":"Bus 748: Lauterbach => Großharthau => Frankenthal => Bischofswerda","from":"Lauterbach, Am Gemeindeteich","to":"Bischofswerda, Schulstraße","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Omnibusunternehmen Gottfried Beck","route":"bus","public_transport:version":"2"},"n":28,"s":[[13789495641,12]]},
+  {"id":6488174,"t":{"ref":"765","name":"Bus 765: Pulsnitz => Bretnig","from":"Pulsnitz, Bahnhof","to":"Bretnig, Wendeplatz","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[8575066827,8]]},
+  {"id":12510300,"t":{"ref":"751","name":"Bus 751: Ohorn => Frankenthal => Großröhrsdorf","from":"Ohorn, Schule","to":"Großröhrsdorf, Rödertalpark","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[8575066827,15],[8575066722,16]]},
+  {"id":12510302,"t":{"ref":"751","name":"Bus 751: Ohorn => Großröhrsdorf","from":"Ohorn, Schule","to":"Großröhrsdorf, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":16,"s":[[8575066827,10],[8575066722,11]]},
+  {"id":12510309,"t":{"ref":"751","name":"Bus 751: Großröhrsdorf => Ohorn","from":"Großröhrsdorf, Bahnhof","to":"Ohorn, Schule","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":16,"s":[[8575066720,7],[8575066827,8]]},
+  {"id":12510310,"t":{"ref":"751","name":"Bus 751: Großröhrsdorf => Frankenthal => Ohorn","from":"Großröhrsdorf, Bahnhof","to":"Ohorn, Schule","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[8575066720,6],[8575066827,7]]},
+  {"id":3011964266609,"t":{"ref":"520","name":"PlusBus 520: Bischofswerda Bahnhof => Dresden Johannstadt","from":"Bischofswerda, Bahnhof","to":"Dresden, Augsburger Straße","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":47,"s":[[8575066827,15],[294636462,16]]},
+  {"id":3025649419103,"t":{"ref":"748","name":"Bus 748: Bischofswerda => Frankenthal => Großharthau => Lauterbach","from":"Bischofswerda, Bahnhof","to":"Lauterbach, Am Gemeindeteich","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Omnibusunternehmen Gottfried Beck","route":"bus","public_transport:version":"2"},"n":27,"s":[[13789495642,17]]},
+  {"id":3042529118766,"t":{"ref":"520","name":"PlusBus 520: Dresden Johannstadt => Bischofswerda Bahnhof","from":"Dresden, Augsburger Straße","to":"Bischofswerda, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":19,"s":[[8575066721,18],[8575066827,19]]},
+  {"id":3058139339312,"t":{"ref":"765","name":"Bus 765: Bretnig => Pulsnitz","from":"Bretnig, Wendeplatz","to":"Pulsnitz, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[8575066827,8]]},
+  {"id":3071973204419,"t":{"ref":"520","name":"PlusBus 520: Dresden Johannstadt => Bischofswerda Bahnhof","from":"Dresden, Augsburger Straße","to":"Bischofswerda, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":33,"s":[[8575066721,18],[8575066827,19]]},
+  {"id":3081124311429,"t":{"ref":"765","name":"Bus 765: Bretnig => Pulsnitz","from":"Bretnig, Wendeplatz","to":"Pulsnitz, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[8575066827,1]]},
+  {"id":3092073641065,"t":{"ref":"520","name":"PlusBus 520: Bischofswerda Bahnhof => Dresden Johannstadt","from":"Bischofswerda, Bahnhof","to":"Dresden, Augsburger Straße","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":33,"s":[[8575066827,15],[294636462,16]]},
+  {"id":3098961056297,"t":{"ref":"520","name":"PlusBus 520: Dresden Johannstadt => Bischofswerda Bahnhof","from":"Dresden, Augsburger Straße","to":"Bischofswerda, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":46,"s":[[8575066721,31],[8575066827,32]]}
+]
+}

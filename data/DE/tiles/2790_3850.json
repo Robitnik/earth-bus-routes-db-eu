@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3850],
+"stops":[
+  {"id":15832767,"lat":49.503716,"lon":12.539264,"k":"p","n":"Schönsee, Aussiedlerhof Utz"},
+  {"id":1174941524,"lat":49.509371,"lon":12.542496,"k":"p","n":"Schönsee, Aschabrücke"},
+  {"id":1174942079,"lat":49.509809,"lon":12.546949,"k":"p","n":"Schönsee, Rathaus/Post"},
+  {"id":1174943195,"lat":49.509981,"lon":12.54766,"k":"p","n":"Schönsee, Rathaus/Post"},
+  {"id":4285637379,"lat":49.509387,"lon":12.542799,"k":"p","n":"Schönsee, Aschabrücke"},
+  {"id":7639648954,"lat":49.53894,"lon":12.500823,"k":"p","n":"Oberlangau, Wartehäuschen"},
+  {"id":7822153667,"lat":49.538795,"lon":12.501743,"k":"p","n":"Oberlangau, Ortsmitte"},
+  {"id":11290678974,"lat":49.5037,"lon":12.539131,"k":"p","n":"Schönsee, Aussiedlerhof Utz"},
+  {"id":11304094516,"lat":49.538295,"lon":12.543962,"k":"p","n":"Lindau (Opf), Zollhaus"},
+  {"id":11331800718,"lat":49.524583,"lon":12.519277,"k":"p","n":"Laub, Kapelle"},
+  {"id":11331817425,"lat":49.511314,"lon":12.54597,"k":"p","n":"Schönsee, Schule"},
+  {"id":11331842255,"lat":49.510173,"lon":12.514826,"k":"p","n":"Schwand"},
+  {"id":11331889331,"lat":49.509212,"lon":12.524791,"k":"p","n":"Schwand, Sägewerke Utz"},
+  {"id":6019777128830,"lat":49.546011,"lon":12.540463,"k":"p","n":"Eslarn, Wildpark","g":1},
+  {"id":6078056714834,"lat":49.546687,"lon":12.539448,"k":"p","n":"Eslarn, Wildpark","g":1}
+],
+"routes":[
+  {"id":11223127,"t":{"ref":"1936","name":"Bus 1936: Moosbach -> Eslarn -> Oberviechtach","from":"Moosbach","to":"Oberviechtach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[7822153667,8],[7639648954,9]]},
+  {"id":11223143,"t":{"ref":"1936","name":"Bus 1936: Oberviechtach -> Eslarn -> Moosbach","from":"Oberviechtach","to":"Moosbach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[7639648954,10],[7822153667,11]]},
+  {"id":3012936004727,"t":{"ref":"8403","name":"8403: Oberviechtach, Freibad - Waldesruh","from":"Oberviechtach, Freibad","to":"Waldesruh","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[11331800718,44],[11331842255,45],[11331889331,46],[1174941524,47],[1174943195,48],[11290678974,70]]},
+  {"id":3035325993114,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Vohenstrauß, Marktplatz","from":"Schönsee, Rathaus/Post","to":"Vohenstrauß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[1174942079,1],[6078056714834,2]]},
+  {"id":3056857914902,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Weiden (Oberpf)","from":"Schönsee, Rathaus/Post","to":"Weiden (Oberpf)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[1174942079,1],[6078056714834,2]]},
+  {"id":3059584409868,"t":{"ref":"1983","name":"1983: Weiden (Oberpf) - Schönsee, Rathaus/Post","from":"Weiden (Oberpf)","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[6019777128830,85],[1174943195,86]]},
+  {"id":3067871349252,"t":{"ref":"8403","name":"8403: Nabburg - Waldesruh","from":"Nabburg","to":"Waldesruh","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":79,"s":[[11331800718,45],[11331842255,46],[11331889331,47],[1174941524,48],[1174943195,49],[11290678974,71]]},
+  {"id":3082775181420,"t":{"ref":"6273","name":"6273: Nabburg - Schönsee, Rathaus/Post","from":"Nabburg","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":41,"s":[[15832767,39],[4285637379,40],[1174942079,41]]},
+  {"id":3083921124132,"t":{"ref":"8403","name":"8403: Waldesruh - Nabburg","from":"Waldesruh","to":"Nabburg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":79,"s":[[15832767,9],[1174942079,31],[4285637379,32],[11331889331,33],[11331842255,34],[11331800718,35]]},
+  {"id":3092337087195,"t":{"ref":"8403","name":"8403: Waldesruh - Oberviechtach, Freibad","from":"Waldesruh","to":"Oberviechtach, Freibad","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[15832767,9],[1174942079,31],[4285637379,32],[11331889331,33],[11331842255,34],[11331800718,35]]},
+  {"id":3096323727158,"t":{"ref":"1983","name":"1983: Vohenstrauß, Marktplatz - Schönsee, Rathaus/Post","from":"Vohenstrauß, Marktplatz","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[6019777128830,84],[1174943195,85]]}
+]
+}

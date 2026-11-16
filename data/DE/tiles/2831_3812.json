@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3812],
+"stops":[
+  {"id":647281385,"lat":51.592464,"lon":10.609312,"k":"p","n":"Walkenried Nordhäuser Straße"},
+  {"id":1343777204,"lat":51.565716,"lon":10.600543,"k":"p","n":"Branderode"},
+  {"id":1343777250,"lat":51.565772,"lon":10.600621,"k":"p","n":"Branderode"},
+  {"id":1390208778,"lat":51.586529,"lon":10.614863,"k":"p","n":"Walkenried Grundschule"},
+  {"id":3644519101,"lat":51.584797,"lon":10.609381,"k":"p","n":"Walkenried Bahnhof"},
+  {"id":4695224042,"lat":51.591993,"lon":10.608941,"k":"p","n":"Walkenried Nordhäuser Straße"},
+  {"id":4695345257,"lat":51.593261,"lon":10.618657,"k":"p","n":"Walkenried Vor der Aue"},
+  {"id":4695345260,"lat":51.593181,"lon":10.618459,"k":"p","n":"Walkenried Vor der Aue"},
+  {"id":9886762902,"lat":51.557138,"lon":10.632401,"k":"p","n":"Obersachswerfen"},
+  {"id":11254750790,"lat":51.586444,"lon":10.61479,"k":"p","n":"Walkenried Grundschule"},
+  {"id":11254750791,"lat":51.586553,"lon":10.614736,"k":"p","n":"Walkenried Grundschule"},
+  {"id":11254750792,"lat":51.586538,"lon":10.614939,"k":"p","n":"Walkenried Grundschule"},
+  {"id":12762184376,"lat":51.593278,"lon":10.618579,"k":"x","n":"Walkenried Vor der Aue"},
+  {"id":12762184377,"lat":51.593174,"lon":10.618525,"k":"x"},
+  {"id":12762208470,"lat":51.591974,"lon":10.608896,"k":"x","n":"Walkenried Nordhäuser Straße"},
+  {"id":12762208473,"lat":51.584739,"lon":10.617206,"k":"p","n":"Walkenried Klostertor"},
+  {"id":12762208474,"lat":51.584783,"lon":10.617199,"k":"x"},
+  {"id":12762208475,"lat":51.584778,"lon":10.617053,"k":"p","n":"Walkenried Klostertor"},
+  {"id":12762208477,"lat":51.592422,"lon":10.609372,"k":"x","n":"Walkenried Nordhäuser Straße"},
+  {"id":6009530507092,"lat":51.587678,"lon":10.614473,"k":"p","n":"Walkenried Grundschule","g":1},
+  {"id":6080947580973,"lat":51.58564,"lon":10.608014,"k":"p","n":"Walkenried Bahnhof","g":1}
+],
+"routes":[
+  {"id":14231822,"t":{"ref":"470","name":"Bus 470: Bad Sachsa => Walkenried => Zorge => Hohegeiß => Braunlage","from":"Bad Sachsa","to":"Braunlage","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":26,"s":[[3644519101,9],[1390208778,10],[4695345260,11]]},
+  {"id":14232030,"t":{"ref":"472","name":"Bus 472: Braunlage => Wieda => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":26,"s":[[647281385,16],[1390208778,17],[3644519101,18]]},
+  {"id":14232031,"t":{"ref":"472","name":"Bus 472: Bad Sachsa => Walkenried => Wieda => Braunlage","from":"Bad Sachsa","to":"Braunlage","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":23,"s":[[3644519101,7],[1390208778,8],[4695224042,9]]},
+  {"id":14232032,"t":{"ref":"472","name":"Bus 472: Bad Sachsa => Walkenried => Wieda","from":"Bad Sachsa","to":"Wieda","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":17,"s":[[3644519101,7],[1390208778,8],[4695224042,9]]},
+  {"id":14351987,"t":{"ref":"25","name":"Linie 25 Nordhausen > Stöckey","from":"Nordhausen","to":"Stöckey","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"VBN","route":"bus","public_transport:version":"2"},"n":16,"s":[[9886762902,9],[1343777250,10]]},
+  {"id":14351988,"t":{"ref":"25","name":"Linie 25 Nordhausen > Limlingerode","from":"Nordhausen","to":"Limlingerode","network":"Überlandlinien","operator":"VBN","route":"bus","public_transport:version":"2"},"n":15,"s":[[9886762902,9],[1343777250,10]]},
+  {"id":3002075941076,"t":{"ref":"470","name":"Bus 470: Braunlage => Hohegeiß => Zorge => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":29,"s":[[12762184376,19],[6009530507092,20],[6080947580973,21]]},
+  {"id":3020629416349,"t":{"ref":"470","name":"Bus 470: Braunlage => Hohegeiß => Zorge => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":29,"s":[[12762184376,19],[12762208475,20],[6080947580973,21]]},
+  {"id":3038944363664,"t":{"ref":"470","name":"Bus 470: Braunlage => Hohegeiß => Zorge => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":29,"s":[[6080947580973,9],[12762208475,10],[6009530507092,11],[4695224042,12]]},
+  {"id":3040237660152,"t":{"ref":"470","name":"Bus 470: Braunlage => Hohegeiß => Zorge => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":28,"s":[[6080947580973,9],[6009530507092,10],[12762184376,11]]},
+  {"id":3070344916007,"t":{"ref":"470","name":"Bus 470: Braunlage => Hohegeiß => Zorge => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":30,"s":[[4695224042,19],[6009530507092,20],[12762208475,21],[6080947580973,22]]},
+  {"id":3081175809455,"t":{"ref":"470","name":"Bus 470: Braunlage => Hohegeiß => Zorge => Walkenried => Bad Sachsa","from":"Braunlage","to":"Bad Sachsa","network":"VRB;VSN","operator":"Verkehrsgesellschaft Südniedersachsen","route":"bus","public_transport:version":"2"},"n":28,"s":[[6080947580973,9],[12762208475,10],[12762184376,11]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3849],
+"stops":[
+  {"id":3225508408,"lat":49.517196,"lon":12.458653,"k":"p","n":"Pullenried, Ortsmitte"},
+  {"id":7638733732,"lat":49.529415,"lon":12.452401,"k":"p","n":"Hannamühle"},
+  {"id":7639648955,"lat":49.532836,"lon":12.46903,"k":"p","n":"Pirk"},
+  {"id":7639648956,"lat":49.521793,"lon":12.490991,"k":"p","n":"Mitterlangau"},
+  {"id":7639648957,"lat":49.514299,"lon":12.484227,"k":"p","n":"Tannermühle"},
+  {"id":7639648958,"lat":49.512261,"lon":12.476066,"k":"p","n":"Unterlangau"},
+  {"id":7639648959,"lat":49.516174,"lon":12.467403,"k":"p","n":"Pullenried, Brandhäuser"},
+  {"id":11290716750,"lat":49.516778,"lon":12.489781,"k":"p","n":"Tannermühle"},
+  {"id":11290716751,"lat":49.516728,"lon":12.490091,"k":"p","n":"Tannermühle"},
+  {"id":11290744168,"lat":49.538243,"lon":12.498181,"k":"p","n":"Pirk (Kr SAD)"},
+  {"id":11291758397,"lat":49.517265,"lon":12.458803,"k":"p","n":"Pullenried, Ortsmitte"},
+  {"id":6009095055980,"lat":49.522219,"lon":12.49076,"k":"p","n":"Mitterlangau","g":1},
+  {"id":6037404708246,"lat":49.522219,"lon":12.49076,"k":"p","n":"Mitterlangau","g":1}
+],
+"routes":[
+  {"id":11222515,"t":{"ref":"1935","name":"Bus 1935: Oberviechtach -> Moosbach -> Vohenstrauß","from":"Oberviechtach","to":"Vohenstrauß","network":"VGN","colour":"#F6ADCC","route":"bus"},"n":19,"s":[[3225508408,8],[7638733732,9]]},
+  {"id":11223106,"t":{"ref":"1935","name":"Bus 1935: Vohenstrauß -> Moosbach -> Oberviechtach","from":"Vohenstrauß","to":"Oberviechtach","network":"VGN","colour":"#F6ADCC","route":"bus"},"n":20,"s":[[7638733732,10],[3225508408,11]]},
+  {"id":11223127,"t":{"ref":"1936","name":"Bus 1936: Moosbach -> Eslarn -> Oberviechtach","from":"Moosbach","to":"Oberviechtach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[7639648955,10],[7639648956,11],[7639648957,12],[7639648958,13],[7639648959,14],[3225508408,15]]},
+  {"id":11223143,"t":{"ref":"1936","name":"Bus 1936: Oberviechtach -> Eslarn -> Moosbach","from":"Oberviechtach","to":"Moosbach","network":"VGN","colour":"#8DD8F8","route":"bus"},"n":18,"s":[[3225508408,4],[7639648959,5],[7639648958,6],[7639648957,7],[7639648956,8],[7639648955,9]]},
+  {"id":3012936004727,"t":{"ref":"8403","name":"8403: Oberviechtach, Freibad - Waldesruh","from":"Oberviechtach, Freibad","to":"Waldesruh","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[7639648957,36],[7639648958,37],[7639648959,38],[11291758397,39],[7638733732,40],[7639648955,41],[11290744168,42],[6009095055980,43]]},
+  {"id":3067871349252,"t":{"ref":"8403","name":"8403: Nabburg - Waldesruh","from":"Nabburg","to":"Waldesruh","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":79,"s":[[7639648957,37],[7639648958,38],[7639648959,39],[11291758397,40],[7638733732,41],[7639648955,42],[11290744168,43],[6009095055980,44]]},
+  {"id":3083921124132,"t":{"ref":"8403","name":"8403: Waldesruh - Nabburg","from":"Waldesruh","to":"Nabburg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":79,"s":[[6037404708246,36],[11290744168,37],[7639648955,38],[7638733732,39],[11291758397,40],[7639648959,41],[7639648958,42],[7639648957,43]]},
+  {"id":3092337087195,"t":{"ref":"8403","name":"8403: Waldesruh - Oberviechtach, Freibad","from":"Waldesruh","to":"Oberviechtach, Freibad","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[6037404708246,36],[11290744168,37],[7639648955,38],[7638733732,39],[11291758397,40],[7639648959,41],[7639648958,42],[7639648957,43]]}
+]
+}

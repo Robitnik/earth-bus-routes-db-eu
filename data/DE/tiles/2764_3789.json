@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2764,3789],
+"stops":[
+  {"id":392084341,"lat":48.226267,"lon":9.480862,"k":"x","n":"Baach Mohren"},
+  {"id":495989649,"lat":48.226379,"lon":9.480826,"k":"p","n":"Baach Mohren"},
+  {"id":524559497,"lat":48.242649,"lon":9.454047,"k":"x","n":"Gossenzugen"},
+  {"id":2848811515,"lat":48.232518,"lon":9.463972,"k":"x","n":"Zwiefalten Rentalhalle"},
+  {"id":2848811516,"lat":48.232553,"lon":9.464189,"k":"x","n":"Zwiefalten Rentalhalle"},
+  {"id":5455273725,"lat":48.242758,"lon":9.454011,"k":"p","n":"Gossenzugen"},
+  {"id":5457017263,"lat":48.217156,"lon":9.491908,"k":"p","n":"Attenhöfen Abzweigung"},
+  {"id":5457017265,"lat":48.217068,"lon":9.492012,"k":"x","n":"Attenhöfen Abzweigung"},
+  {"id":5457017270,"lat":48.216988,"lon":9.492099,"k":"p","n":"Attenhöfen Abzweigung"},
+  {"id":5712252513,"lat":48.242609,"lon":9.454019,"k":"p","n":"Gossenzugen"},
+  {"id":9432197704,"lat":48.232603,"lon":9.464049,"k":"p","n":"Zwiefalten Rentalhalle"},
+  {"id":9432197707,"lat":48.226245,"lon":9.480778,"k":"p","n":"Baach Mohren"},
+  {"id":9432197708,"lat":48.23247,"lon":9.464123,"k":"p","n":"Zwiefalten Rentalhalle"},
+  {"id":9457808534,"lat":48.242729,"lon":9.453947,"k":"x","n":"Gossenzugen"},
+  {"id":6039551873792,"lat":48.248504,"lon":9.468216,"k":"p","n":"Zwiefalten Klinge","g":1},
+  {"id":6045001320178,"lat":48.241696,"lon":9.454984,"k":"p","n":"Gossenzugen","g":1},
+  {"id":6087936866512,"lat":48.241911,"lon":9.454786,"k":"p","n":"Gossenzugen","g":1}
+],
+"routes":[
+  {"id":13729019,"t":{"ref":"262","name":"DE_naldo_262_Zwiefalten => Hochberg","from":"Zwiefalten Rentalhalle","to":"Hochberg (Zwiefalten)","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":4,"s":[[9432197708,1]]},
+  {"id":13733152,"t":{"ref":"268","name":"DE_naldo_268_Zwiefalten => Hayingen => Ehestetten => Hayingen","from":"Zwiefalten Rentalhalle","to":"Hayingen Zwiefalter Straße","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":14,"s":[[9432197704,1]]},
+  {"id":13733153,"t":{"ref":"268","name":"DE_naldo_268_Hayingen => Ehestetten => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Hayingen Zwiefalter Straße","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":14,"s":[[9432197708,14]]},
+  {"id":13733154,"t":{"ref":"268","name":"DE_naldo_268_Zwiefalten => Hayingen => Ehestetten => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":15,"s":[[9432197704,1],[9432197708,15]]},
+  {"id":13735077,"t":{"ref":"267","name":"DE_naldo_267_Zwiefalten => Aichelau","from":"Zwiefalten Rentalhalle","to":"Aichelau","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":7,"s":[[9432197704,1]]},
+  {"id":13735078,"t":{"ref":"267","name":"DE_naldo_267_Aichelau => Zwiefalten","from":"Aichelau","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":7,"s":[[9432197708,7]]},
+  {"id":13735079,"t":{"ref":"267","name":"DE_naldo_267_Aichelau => Zwiefalten","from":"Aichelau","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":8,"s":[[9432197708,8]]},
+  {"id":13735080,"t":{"ref":"267","name":"DE_naldo_267_Zwiefalten => Aichelau","from":"Zwiefalten Rentalhalle","to":"Aichelau","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":9,"s":[[9432197704,1]]},
+  {"id":3004681222324,"t":{"ref":"265","name":"265: Zwiefalten Rentalhalle - Hayingen Zwiefalter Str.","from":"Zwiefalten Rentalhalle","to":"Hayingen Zwiefalter Str.","operator":"Busbetrieb Alb-Bodensee","route":"bus","public_transport:version":"2"},"n":4,"s":[[9432197708,1],[6039551873792,2]]},
+  {"id":3015223387466,"t":{"ref":"262","name":"DE_naldo_262_Zwiefalten => Upflamör => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":5,"s":[[2848811515,1,5]]},
+  {"id":3044527670795,"t":{"ref":"262","name":"DE_naldo_262_Zwiefalten => Upflamör => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":4,"s":[[2848811515,1]]},
+  {"id":3053352494571,"t":{"ref":"260","name":"DE_naldo_260: Reutlingen => Riedlingen","from":"Reutlingen","to":"Riedlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":27,"s":[[2848811515,20],[495989649,21],[5457017270,22]]},
+  {"id":3054173998888,"t":{"ref":"260","name":"DE_naldo_260: Riedlingen => Reutlingen","from":"Riedlingen","to":"Reutlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":28,"s":[[5457017263,7],[495989649,8],[9432197708,9]]},
+  {"id":3055369506634,"t":{"ref":"260","name":"DE_naldo_260: Reutlingen => Riedlingen","from":"Reutlingen","to":"Riedlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":18,"s":[[2848811515,11],[495989649,12],[5457017270,13]]},
+  {"id":3058486897391,"t":{"ref":"265","name":"DE_naldo_265_Münsingen => Riedlingen","from":"Münsingen Bahnhof","to":"Riedlingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"SVL+Regionalverkehr Alb-Bodensee","colour":"#8BC63E","route":"bus","public_transport:version":"2"},"n":27,"s":[[6045001320178,20],[2848811515,21],[495989649,22],[5457017270,23]]},
+  {"id":3095616036248,"t":{"ref":"260","name":"DE_naldo_260: Reutlingen => Riedlingen","from":"Reutlingen","to":"Riedlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":20,"s":[[2848811515,20]]},
+  {"id":3095944619047,"t":{"ref":"265","name":"DE_naldo_265_Riedlingen => Münsingen","from":"Riedlingen Bahnhof","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#8BC63E","route":"bus","public_transport:version":"2"},"n":29,"s":[[5457017263,7],[495989649,8],[9432197708,9],[6087936866512,10]]}
+]
+}

@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2753,3771],
+"stops":[
+  {"id":327068472,"lat":47.666255,"lon":8.594502,"k":"x","n":"Jestetten Zollamt Hardt"},
+  {"id":549920384,"lat":47.654457,"lon":8.573952,"k":"p","n":"Jestetten Bahnhof"},
+  {"id":2264736248,"lat":47.650399,"lon":8.568381,"k":"x","n":"Jestetten Rathaus"},
+  {"id":3154106861,"lat":47.651682,"lon":8.57244,"k":"x","n":"Jestetten Hauptschule"},
+  {"id":3154107061,"lat":47.651789,"lon":8.572776,"k":"x","n":"Jestetten Hauptschule"},
+  {"id":3154107161,"lat":47.651743,"lon":8.572426,"k":"p","n":"Jestetten Hauptschule"},
+  {"id":3154107261,"lat":47.651717,"lon":8.57278,"k":"p","n":"Jestetten Hauptschule"},
+  {"id":3154117161,"lat":47.650431,"lon":8.568271,"k":"p","n":"Jestetten Rathaus"},
+  {"id":3154810553,"lat":47.654386,"lon":8.573983,"k":"x","n":"Jestetten Bahnhof"},
+  {"id":3259065288,"lat":47.666064,"lon":8.594893,"k":"x"},
+  {"id":7355021351,"lat":47.686415,"lon":8.557248,"k":"x","n":"Guntmadingen Dorf"},
+  {"id":11587849354,"lat":47.686438,"lon":8.557186,"k":"p","n":"Guntmadingen Dorf"},
+  {"id":6001336307106,"lat":47.661003,"lon":8.598297,"k":"p","n":"Altenburg Industriegebiet","g":1},
+  {"id":6021078327833,"lat":47.661015,"lon":8.598386,"k":"p","n":"Altenburg Industriegebiet","g":1},
+  {"id":6056852987493,"lat":47.657573,"lon":8.599348,"k":"p","n":"Altenburg Stationsstraße","g":1},
+  {"id":6063262699349,"lat":47.652623,"lon":8.567601,"k":"p","n":"Jestetten Realschule","g":1}
+],
+"routes":[
+  {"id":4143154,"t":{"ref":"7347.2","name":"Bus 7347.2: Jestetten Bahnhof => Balm Ortsmitte","from":"Jestetten Bahnhof","to":"Balm Ortsmitte","network":"Waldshuter Tarifverbund","operator":"Südbadenbus GmbH","colour":"#ffffff","route":"bus","public_transport:version":"2"},"n":11,"s":[[549920384,1],[3154107161,2],[3154117161,3]]},
+  {"id":4143543,"t":{"ref":"7347.2","name":"Bus 7347.2: Nack Ortsmitte => Jestetten Bahnhof","from":"Nack Ortsmitte","to":"Jestetten Bahnhof","network":"Waldshuter Tarifverbund","operator":"Südbadenbus GmbH","colour":"#ffffff","route":"bus","public_transport:version":"2"},"n":10,"s":[[3154107261,9],[549920384,10]]},
+  {"id":10947974,"t":{"ref":"28","name":"Bus 28: Guntmadingen → Beringen","from":"Guntmadingen, Dorf","to":"Beringen, Belvedere","network":"Ostwind","operator":"VBSH","colour":"#663F9A","route":"bus","public_transport:version":"2"},"n":2,"s":[[7355021351,1],[11587849354,2]]},
+  {"id":10947975,"t":{"ref":"28","name":"Bus 28: Beringen → Guntmadingen","from":"Beringen, Belvedere","to":"Guntmadingen, Dorf","network":"Ostwind","operator":"VBSH","colour":"#663F9A","route":"bus","public_transport:version":"2"},"n":2,"s":[[7355021351,1],[11587849354,2]]},
+  {"id":3001137064653,"t":{"ref":"7347","name":"7347: Jestetten Bahnhof - Jestetten Bahnhof","from":"Jestetten Bahnhof","to":"Jestetten Bahnhof","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":9,"s":[[3154810553,1,9],[327068472,2,8],[6001336307106,3],[6056852987493,4],[6021078327833,7]]},
+  {"id":3060105924259,"t":{"ref":"7347","name":"7347: Erzingen (Baden) Bahnhof - Jestetten Bahnhof","from":"Erzingen (Baden) Bahnhof","to":"Jestetten Bahnhof","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":6,"s":[[3154107261,5],[3154810553,6]]},
+  {"id":3077508135440,"t":{"ref":"7347","name":"7347: Erzingen (Baden) Bahnhof - Jestetten Bahnhof","from":"Erzingen (Baden) Bahnhof","to":"Jestetten Bahnhof","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":6,"s":[[6063262699349,5],[3154810553,6]]}
+]
+}

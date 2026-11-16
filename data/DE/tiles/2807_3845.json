@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2807,3845],
+"stops":[
+  {"id":477797855,"lat":50.373895,"lon":12.25368,"k":"x","n":"Marieney, Abzweig Oberwürschnitz"},
+  {"id":1856879370,"lat":50.361522,"lon":12.291499,"k":"x","n":"Saalig, Warte"},
+  {"id":6185504357,"lat":50.373391,"lon":12.260265,"k":"p","n":"Marieney, Mitte"},
+  {"id":6185504358,"lat":50.373941,"lon":12.253707,"k":"p","n":"Marieney, Abzweig Oberwürschnitz"},
+  {"id":6258277865,"lat":50.372627,"lon":12.251334,"k":"p","n":"Marieney, Ortseingang"},
+  {"id":8744257951,"lat":50.372617,"lon":12.251353,"k":"x","n":"Marieney, Ortseingang"},
+  {"id":8744257952,"lat":50.373877,"lon":12.253634,"k":"p","n":"Marieney, Abzweig Oberwürschnitz"},
+  {"id":8744257953,"lat":50.373367,"lon":12.260276,"k":"x","n":"Marieney, Mitte"},
+  {"id":8744257954,"lat":50.373328,"lon":12.260274,"k":"p","n":"Marieney, Mitte"},
+  {"id":8744257955,"lat":50.372255,"lon":12.268675,"k":"x","n":"Marieney, Wende"},
+  {"id":8744257956,"lat":50.372288,"lon":12.268624,"k":"p","n":"Marieney, Wende"},
+  {"id":8751547461,"lat":50.358951,"lon":12.287367,"k":"x","n":"Saalig, Ortseingang"},
+  {"id":8751547462,"lat":50.358983,"lon":12.287329,"k":"p","n":"Saalig, Ortseingang"},
+  {"id":8751547463,"lat":50.358881,"lon":12.287388,"k":"p","n":"Saalig, Ortseingang"},
+  {"id":8751547464,"lat":50.361544,"lon":12.29154,"k":"p","n":"Saalig, Warte"}
+],
+"routes":[
+  {"id":13804857,"t":{"ref":"37","name":"Bus 37: Saalig => Wohlbach => Adorf","from":"Saalig, Warte","to":"Adorf, Zentralschule","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":13,"s":[[8751547464,1],[8751547462,2]]},
+  {"id":13804858,"t":{"ref":"37","name":"Bus 37: Adorf => Wohlbach => Saalig","from":"Adorf, Markt","to":"Saalig, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":14,"s":[[8751547463,13],[8751547464,14]]},
+  {"id":13804860,"t":{"ref":"98","name":"Bus 98: Wohlbach => Elstertal","from":"Wohlbach, Warte","to":"Elstertal, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":8,"s":[[8751547464,2],[8744257956,3],[6185504357,4],[6185504358,5]]},
+  {"id":3048330238628,"t":{"ref":"98","name":"Bus 98: Elstertal => Wohlbach","from":"Elstertal, Warte","to":"Wohlbach, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[8751547464,1],[8744257955,2],[6185504357,3],[6185504358,4]]},
+  {"id":3067816073176,"t":{"ref":"98","name":"Bus 98: Elstertal => Wohlbach","from":"Elstertal, Warte","to":"Wohlbach, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[8744257952,4],[8744257954,5],[8744257955,6],[8751547464,7]]}
+]
+}

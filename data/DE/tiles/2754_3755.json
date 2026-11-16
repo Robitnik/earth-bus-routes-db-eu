@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2754,3755],
+"stops":[
+  {"id":679476100,"lat":47.72655,"lon":7.798133,"k":"p","n":"Tegernau Besengässle"},
+  {"id":679476318,"lat":47.726267,"lon":7.798007,"k":"p","n":"Tegernau Besengässle"},
+  {"id":679477772,"lat":47.714493,"lon":7.79427,"k":"p","n":"Bedarfshaltestelle"},
+  {"id":679477782,"lat":47.714468,"lon":7.79442,"k":"p","n":"Bedarfshaltestelle"},
+  {"id":679477783,"lat":47.702878,"lon":7.799149,"k":"p","n":"Niedertegernau"},
+  {"id":679477792,"lat":47.702954,"lon":7.799307,"k":"p","n":"Niedertegernau"},
+  {"id":683333858,"lat":47.719365,"lon":7.794501,"k":"p","n":"Tegernau"},
+  {"id":683333988,"lat":47.719554,"lon":7.794312,"k":"p","n":"Tegernau"},
+  {"id":939593632,"lat":47.710541,"lon":7.761457,"k":"p","n":"Lehnacker"},
+  {"id":3440728740,"lat":47.737457,"lon":7.791505,"k":"x","n":"Schwand","ref":"7310"},
+  {"id":3440728741,"lat":47.73746,"lon":7.791564,"k":"p","n":"Schwand"},
+  {"id":10005162037,"lat":47.74775,"lon":7.768884,"k":"p","n":"Wies"},
+  {"id":6061695439366,"lat":47.736166,"lon":7.76934,"k":"p","n":"Demberg Abzweigung","g":1},
+  {"id":6064041304016,"lat":47.724033,"lon":7.780982,"k":"p","n":"Schwand Abzweigung","g":1},
+  {"id":6081054336818,"lat":47.728215,"lon":7.772871,"k":"p","n":"Wies Stauweiher","g":1},
+  {"id":6081712972614,"lat":47.721544,"lon":7.787792,"k":"p","n":"Sallneck Abzweigung","g":1}
+],
+"routes":[
+  {"id":3064249255130,"t":{"ref":"9002","name":"9002: Zell i.W. Bahnhof - Tegernau","from":"Zell i.W. Bahnhof","to":"Tegernau","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":5,"s":[[683333988,5]]},
+  {"id":3070682652065,"t":{"ref":"7310","name":"7310: Wies - Schopfheim Busbahnhof","from":"Wies","to":"Schopfheim Busbahnhof","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":16,"s":[[10005162037,1],[6061695439366,2],[6081054336818,3],[6064041304016,4],[6081712972614,5],[683333988,6],[679477783,7]]},
+  {"id":3079317950066,"t":{"ref":"7310","name":"7310: Tegernau - Schönau Zentrum","from":"Tegernau","to":"Schönau Zentrum","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":19,"s":[[683333988,1],[679476318,2]]},
+  {"id":3093979044727,"t":{"ref":"7310","name":"7310: Schönau Zentrum - Tegernau","from":"Schönau Zentrum","to":"Tegernau","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":20,"s":[[679476318,19],[683333988,20]]}
+]
+}

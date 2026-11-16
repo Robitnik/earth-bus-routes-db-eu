@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2877,3771],
+"stops":[
+  {"id":316296515,"lat":53.862422,"lon":8.598816,"k":"x","n":"Sahlenburg, Am Strand"},
+  {"id":322934607,"lat":53.862451,"lon":8.599274,"k":"p","n":"Sahlenburg, Am Strand"},
+  {"id":1489918834,"lat":53.858966,"lon":8.597338,"k":"p","n":"Sahlenburg, Wernerwald"},
+  {"id":2251006045,"lat":53.862401,"lon":8.598853,"k":"p","n":"Sahlenburg, Am Strand"},
+  {"id":3531078972,"lat":53.862431,"lon":8.599263,"k":"x","n":"Sahlenburg, Am Strand"},
+  {"id":3531092494,"lat":53.858961,"lon":8.597386,"k":"x","n":"Sahlenburg, Wernerwald"},
+  {"id":4321244481,"lat":53.863358,"lon":8.596818,"k":"x","n":"Wattwagenauffahrt (Dünenbahn)"},
+  {"id":5771912585,"lat":53.859113,"lon":8.592274,"k":"x","n":"Campingplatz Wernerwald (Dünenbahn)"},
+  {"id":12836663743,"lat":53.86338,"lon":8.596071,"k":"p","n":"Wattwagenauffahrt Sahlenburg / Watt BZ (Dünenbahn)"},
+  {"id":12839546816,"lat":53.859089,"lon":8.592309,"k":"p","n":"Campingplatz Wernerwald (Dünenbahn)"},
+  {"id":12839569149,"lat":53.85913,"lon":8.593095,"k":"p","n":"Sahlenburg, Waldfreibad"}
+],
+"routes":[
+  {"id":8433115,"t":{"ref":"1010","name":"Bus 1010: Döse, Lichtenbergplatz => Duhnen => ZOB Cuxhaven","from":"Döse, Lichtenbergplatz","to":"Cuxhaven, Bahnhof/ZOB","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":48,"s":[[322934607,30],[2251006045,31]]},
+  {"id":8433730,"t":{"ref":"1026","name":"Bus 1026: Am Strand => Franzenburg","from":"Sahlenburg, Am Strand","to":"Franzenburg, Grundschule","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"Maass","route":"bus","public_transport:version":"2"},"n":16,"s":[[2251006045,1]]},
+  {"id":8433750,"t":{"ref":"1026","name":"Bus 1026: Holte => Am Strand","from":"Holte, Denkmal","to":"Sahlenburg, Am Strand","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","route":"bus","public_transport:version":"2"},"n":9,"s":[[322934607,9]]},
+  {"id":8433751,"t":{"ref":"1026","name":"Bus 1026: Franzenburg => Am Strand","from":"Franzenburg, Grundschule","to":"Sahlenburg, Am Strand","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","route":"bus","public_transport:version":"2"},"n":15,"s":[[322934607,15]]},
+  {"id":8462776,"t":{"ref":"DBC","name":"Dünenbahn: Sahlenburg => Duhnen","from":"Sahlenburg","to":"Duhnen","operator":"CUXLINER GmbH","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":6,"s":[[5771912585,1],[4321244481,2]]},
+  {"id":16145389,"t":{"ref":"DBC","name":"Dünenbahn: Duhnen => Sahlenburg","from":"Duhnen","to":"Sahlenburg","operator":"CUXLINER GmbH","colour":"#FF0000","route":"bus","public_transport:version":"2"},"n":6,"s":[[4321244481,5],[5771912585,6]]},
+  {"id":16205366,"t":{"ref":"1002","name":"Bus 1002: Sahlenburg, Am Strand => ZOB Cuxhaven","from":"Sahlenburg, Am Strand","to":"Cuxhaven, Bahnhof/ZOB","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[2251006045,1]]},
+  {"id":3013471125154,"t":{"ref":"1010","name":"Bus 1010: ZOB Cuxhaven => Duhnen => Sahlenburg => ZOB Cuxhaven","from":"Cuxhaven, Bahnhof/ZOB","to":"Cuxhaven, Bahnhof/ZOB","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":53,"s":[[316296515,36]]},
+  {"id":3018074711908,"t":{"ref":"1009","name":"Bus 1009: Ahoi-Bad => Am Strand","from":"Duhnen, Ahoi-Bad","to":"Sahlenburg, Am Strand","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[316296515,9]]},
+  {"id":3018395895905,"t":{"ref":"1026","name":"Bus 1026: Am Strand => Holte","from":"Sahlenburg, Am Strand","to":"Holte, Denkmal","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"Maass","route":"bus","public_transport:version":"2"},"n":11,"s":[[316296515,1]]},
+  {"id":3021158195917,"t":{"ref":"1009","name":"Bus 1009: Am Strand => Ahoi-Bad","from":"Sahlenburg, Am Strand","to":"Duhnen, Ahoi-Bad","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":11,"s":[[316296515,1],[1489918834,2]]},
+  {"id":3026991145757,"t":{"ref":"1009","name":"Bus 1009: Am Strand => Ahoi-Bad","from":"Sahlenburg, Am Strand","to":"Duhnen, Ahoi-Bad","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":18,"s":[[316296515,1],[1489918834,2]]},
+  {"id":3036098055332,"t":{"ref":"1002","name":"Bus 1002: Sahlenburg, Am Strand => ZOB Cuxhaven","from":"Sahlenburg, Am Strand","to":"Cuxhaven, Bahnhof/ZOB","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":21,"s":[[316296515,1],[1489918834,2]]},
+  {"id":3068335373855,"t":{"ref":"1009","name":"Bus 1009: Ahoi-Bad => Am Strand","from":"Duhnen, Ahoi-Bad","to":"Sahlenburg, Am Strand","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":16,"s":[[316296515,16]]},
+  {"id":3070261370503,"t":{"ref":"1002","name":"Bus 1002: ZOB Cuxhaven => Sahlenburg, Am Strand","from":"Cuxhaven, Bahnhof/ZOB","to":"Sahlenburg, Am Strand","network":"Verkehrsgemeinschaft Nordost-Niedersachsen","operator":"KVG","route":"bus","public_transport:version":"2"},"n":20,"s":[[316296515,20]]}
+]
+}

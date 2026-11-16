@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2798,3734],
+"stops":[
+  {"id":5830591787,"lat":49.939801,"lon":6.742382,"k":"x","n":"Niersbach, Ort"},
+  {"id":5830591788,"lat":49.939835,"lon":6.742438,"k":"p","n":"Niersbach, Ort"},
+  {"id":7568499822,"lat":49.906971,"lon":6.708123,"k":"p","n":"Rothaus, Ort"},
+  {"id":13386391204,"lat":49.942445,"lon":6.740391,"k":"p","n":"Niersbach, Im Spanischen"},
+  {"id":13386391205,"lat":49.939753,"lon":6.742307,"k":"p","n":"Niersbach, Ortsmitte"},
+  {"id":13392867916,"lat":49.911531,"lon":6.747209,"k":"x","n":"Heidweiler, Ort"},
+  {"id":13392867917,"lat":49.911451,"lon":6.747288,"k":"p","n":"Heidweiler, Ort"},
+  {"id":6020773666823,"lat":49.938495,"lon":6.74253,"k":"p","n":"Niersbach, KiTa Villa Kunterb.","g":1},
+  {"id":6028131289543,"lat":49.940616,"lon":6.741093,"k":"p","n":"Niersbach, Ortsmitte","g":1}
+],
+"routes":[
+  {"id":11152555,"t":{"ref":"27","name":"Bus 27: Daufenbach, Bahnhof => Zemmer, Schönfelderhof => Ehrang (Trier), Ort","from":"Daufenbach, Bahnhof","to":"Ehrang (Trier), Ort","network":"VRT","operator":"MB Moselbahn Verkehrsbetriebsgesellschaft mbH","colour":"#1A757D","route":"bus","public_transport:version":"2"},"n":16,"s":[[7568499822,7]]},
+  {"id":19980715,"t":{"ref":"314","name":"Bus 314: Landscheid, Hauptstraße => Salmtal, Bahnhof","from":"Landscheid, Hauptstraße","to":"Salmtal, Bahnhof","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#9A46A9","route":"bus","public_transport:version":"2"},"n":17,"s":[[13386391204,12],[13386391205,13]]},
+  {"id":21293538,"t":{"ref":"312","name":"Bus 312: Arenrath, Ort => Wittlich, ZOB","from":"Arenrath, Ort","to":"Wittlich, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#F46944","route":"bus","public_transport:version":"2"},"n":12,"s":[[13386391204,2],[13386391205,3]]},
+  {"id":3000221318725,"t":{"ref":"312","name":"Bus 312: Wittlich, ZOB => Gladbach, Im Flürchen","from":"Wittlich, ZOB","to":"Gladbach, Im Flürchen","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#F46944","route":"bus","public_transport:version":"2"},"n":13,"s":[[13386391204,10],[6028131289543,11]]},
+  {"id":3013656841766,"t":{"ref":"27","name":"Bus 27: Ehrang (Trier), Ort => Zemmer, Schönfelderhof => Daufenbach, Bahnhof","from":"Ehrang (Trier), Ort","to":"Daufenbach, Bahnhof","network":"VRT","operator":"MB Moselbahn Verkehrsbetriebsgesellschaft mbH","colour":"#1A757D","route":"bus","public_transport:version":"2"},"n":20,"s":[[7568499822,7]]},
+  {"id":3024691095930,"t":{"ref":"315","name":"Bus 315: Hetzerath, Kirchstraße => Salmtal, Bahnhof","from":"Hetzerath, Kirchstraße","to":"Salmtal, Bahnhof","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#83D173","route":"bus","public_transport:version":"2"},"n":5,"s":[[13392867916,3]]},
+  {"id":3029874998267,"t":{"ref":"315","name":"Bus 315: Hetzerath, Kirchstraße => Salmtal, Bahnhof","from":"Hetzerath, Kirchstraße","to":"Salmtal, Bahnhof","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#83D173","route":"bus","public_transport:version":"2"},"n":3,"s":[[13392867916,2]]},
+  {"id":3033297908546,"t":{"ref":"312 RufBus","name":"312 RufBus: Arenrath, Ort - Wittlich, ZOB","from":"Arenrath, Ort","to":"Wittlich, ZOB","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":12,"s":[[13386391204,2],[6028131289543,3]]},
+  {"id":3047133989336,"t":{"ref":"312","name":"Bus 312: Wittlich, ZOB => Gladbach, Im Flürchen","from":"Wittlich, ZOB","to":"Gladbach, Im Flürchen","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#F46944","route":"bus","public_transport:version":"2"},"n":12,"s":[[13386391204,2],[6028131289543,3]]},
+  {"id":3049059296674,"t":{"ref":"312 RufBus","name":"312 RufBus: Wittlich, ZOB - Gladbach, Im Flürchen","from":"Wittlich, ZOB","to":"Gladbach, Im Flürchen","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":13,"s":[[13386391204,10],[6028131289543,11]]},
+  {"id":3055047667089,"t":{"ref":"315 RufBus","name":"315 RufBus: Salmtal, Bahnhof - Hetzerath, Kirchstraße","from":"Salmtal, Bahnhof","to":"Hetzerath, Kirchstraße","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":14,"s":[[13392867916,7]]},
+  {"id":3056327017688,"t":{"ref":"314 RufBus","name":"314 RufBus: Salmtal, Bahnhof - Landscheid, Hauptstraße","from":"Salmtal, Bahnhof","to":"Landscheid, Hauptstraße","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":13,"s":[[6028131289543,5],[13386391204,6]]},
+  {"id":3074488023300,"t":{"ref":"315","name":"315: Niersbach, KiTa Villa Kunterb. - Dodenburg, Ort","from":"Niersbach, KiTa Villa Kunterb.","to":"Dodenburg, Ort","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":5,"s":[[6020773666823,1]]},
+  {"id":3078699631879,"t":{"ref":"315","name":"Bus 315: Hetzerath, Kirchstraße => Salmtal, Bahnhof","from":"Hetzerath, Kirchstraße","to":"Salmtal, Bahnhof","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#83D173","route":"bus","public_transport:version":"2"},"n":3,"s":[[13392867916,2]]},
+  {"id":3083712447427,"t":{"ref":"27","name":"Bus 27: Ehrang (Trier), Ort => Zemmer, Schönfelderhof => Daufenbach, Bahnhof","from":"Ehrang (Trier), Ort","to":"Daufenbach, Bahnhof","network":"VRT","operator":"MB Moselbahn Verkehrsbetriebsgesellschaft mbH","colour":"#1A757D","route":"bus","public_transport:version":"2"},"n":20,"s":[[7568499822,15]]},
+  {"id":3088451729944,"t":{"ref":"314 RufBus","name":"314 RufBus: Landscheid, Hauptstraße - Salmtal, Bahnhof","from":"Landscheid, Hauptstraße","to":"Salmtal, Bahnhof","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":13,"s":[[13386391204,8],[6028131289543,9]]},
+  {"id":3092182902508,"t":{"ref":"314","name":"314: Gladbach, Peter-Mergen-Str. - Niersbach, Im Spanischen","from":"Gladbach, Peter-Mergen-Str.","to":"Niersbach, Im Spanischen","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":4,"s":[[6028131289543,3],[13386391204,4]]},
+  {"id":3092701775174,"t":{"ref":"315 RufBus","name":"315 RufBus: Hetzerath, Kirchstraße - Salmtal, Bahnhof","from":"Hetzerath, Kirchstraße","to":"Salmtal, Bahnhof","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":15,"s":[[13392867916,9]]}
+]
+}

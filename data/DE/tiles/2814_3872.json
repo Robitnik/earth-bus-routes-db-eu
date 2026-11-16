@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2814,3872],
+"stops":[
+  {"id":925591879,"lat":50.742098,"lon":13.640531,"k":"x","n":"Hermsdorf Kammstraße/Abzweig Oberdorf"},
+  {"id":1688972604,"lat":50.719924,"lon":13.647046,"k":"x","n":"Moldava, Dolní Moldava"},
+  {"id":1908911650,"lat":50.724537,"lon":13.620457,"k":"x","n":"Holzhau - Teichhaus"},
+  {"id":2521475178,"lat":50.724688,"lon":13.620206,"k":"p","n":"Holzhau - Teichhaus"},
+  {"id":2917844634,"lat":50.749462,"lon":13.641298,"k":"x","n":"Hermsdorf, Oberdorf"},
+  {"id":3305991192,"lat":50.719902,"lon":13.647036,"k":"p","n":"Moldava, Dolní Moldava"},
+  {"id":5388182663,"lat":50.724651,"lon":13.620205,"k":"x","n":"Holzhau - Teichhaus"},
+  {"id":5388182665,"lat":50.72451,"lon":13.620443,"k":"p","n":"Holzhau - Teichhaus"},
+  {"id":8485334439,"lat":50.749482,"lon":13.641333,"k":"p","n":"Oberdorf"},
+  {"id":8485334440,"lat":50.749431,"lon":13.641259,"k":"p","n":"Oberdorf"},
+  {"id":8485334441,"lat":50.742066,"lon":13.640503,"k":"p","n":"Kammstraße/Abzweig Oberdorf"},
+  {"id":8485334442,"lat":50.742125,"lon":13.640569,"k":"p","n":"Kammstraße/Abzweig Oberdorf"},
+  {"id":5000558639901,"lat":50.724536,"lon":13.620388,"k":"p","n":"Holzhau - Teichhaus"},
+  {"id":5000558639904,"lat":50.724656,"lon":13.620278,"k":"p","n":"Holzhau - Teichhaus"},
+  {"id":6008308774901,"lat":50.747299,"lon":13.643613,"k":"p","n":"Hermsdorf/E Oberdorf","g":1},
+  {"id":6072005953295,"lat":50.747299,"lon":13.643613,"k":"p","n":"Hermsdorf/E Oberdorf","g":1},
+  {"id":6096792592659,"lat":50.720144,"lon":13.649829,"k":"p","n":"Moldava,Dol.Moldava","g":1}
+],
+"routes":[
+  {"id":1552787,"t":{"ref":"373","name":"Bus 373: Kurort Altenberg Bahnhof => Hartmannsdorf => Frauenstein Markt","from":"Kurort Altenberg, Bahnhof","to":"Frauenstein, Markt","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[8485334442,9],[8485334439,10]]},
+  {"id":3209800,"t":{"ref":"733","name":"Bus 733: Freiberg => Brand-Erbisdorf => Lichtenberg => Holzhau","from":"Freiberg, Busbahnhof","to":"Hermsdorf, Neuhermsdorf","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[5000558639901,2]]},
+  {"id":4011461,"t":{"ref":"736","name":"736 Abzweig Holzhau, Teichhaus","from":"Holzhau, Mitte","to":"Holzhau, Teichhaus","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[5000558639901,1],[5000558639904,2]]},
+  {"id":4020224,"t":{"ref":"733","name":"Bus 733: Holzhau - Lichtenberg - Brand-Erbisdorf - Freiberg","from":"Hermsdorf, Neuhermsdorf","to":"Freiberg, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[5000558639904,2]]},
+  {"id":4511819,"t":{"ref":"493","name":"Bus 493: Moldava, Dolní Moldava => Teplice, Hlavní nádraží","from":"Moldava, Dolní Moldava","to":"Teplice, Hlavní nádraží","network":"Doprava Ústeckého kraje","operator":"Arriva Teplice, s.r.o.","colour":"#009ee0","route":"bus","public_transport:version":"2"},"n":5,"s":[[3305991192,1]]},
+  {"id":4511838,"t":{"ref":"493","name":"Bus 493: Teplice, Hlavní nádraží => Moldava, Dolní Moldava","from":"Teplice, Hlavní nádraží","to":"Moldava, Dol. Moldava","network":"Doprava Ústeckého kraje","operator":"Arriva Teplice, s.r.o.","colour":"#009ee0","route":"bus","public_transport:version":"2"},"n":5,"s":[[3305991192,5]]},
+  {"id":12396677,"t":{"ref":"373","name":"Bus 373: Frauenstein Markt => Hartmannsdorf => Kurort Altenberg Bahnhof","from":"Frauenstein, Markt","to":"Kurort Altenberg, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[8485334440,21],[8485334441,22]]},
+  {"id":14567009,"t":{"ref":"373","name":"Bus 373: Kurort Altenberg Bahnhof => Seyde Gasthaus => Frauenstein Markt","from":"Kurort Altenberg, Bahnhof","to":"Frauenstein, Markt","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[8485334442,9],[8485334439,10]]},
+  {"id":3038227200879,"t":{"ref":"373","name":"Bus 373: Frauenstein Markt => Hartmannsdorf => Seyde Gasthaus => Kurort Altenberg Bahnhof","from":"Frauenstein, Markt","to":"Kurort Altenberg, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[925591879,9],[6008308774901,10]]},
+  {"id":3042217416447,"t":{"ref":"493","name":"493: Moldava,Dol.Moldava - Teplice,Hlavní nádraží","from":"Moldava,Dol.Moldava","to":"Teplice,Hlavní nádraží","operator":"Doprava Teplice s.r.o.","route":"bus","public_transport:version":"2"},"n":26,"s":[[6096792592659,1]]},
+  {"id":3048090890677,"t":{"ref":"373","name":"Bus 373: Kurort Altenberg Bahnhof => Seyde Gasthaus => Hartmannsdorf => Frauenstein Markt","from":"Kurort Altenberg, Bahnhof","to":"Frauenstein, Markt","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6072005953295,22],[925591879,23]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2834,3777],
+"stops":[
+  {"id":313976479,"lat":51.748885,"lon":8.850107,"k":"p","n":"Druheimer Straße"},
+  {"id":348383948,"lat":51.748865,"lon":8.850382,"k":"p","n":"Druheimer Straße"},
+  {"id":348383954,"lat":51.746623,"lon":8.853314,"k":"p","n":"Klostergarten"},
+  {"id":348383956,"lat":51.74646,"lon":8.852769,"k":"p","n":"Klostergarten"},
+  {"id":348383957,"lat":51.745488,"lon":8.8569,"k":"p","n":"Buchholz"},
+  {"id":348383959,"lat":51.74555,"lon":8.856727,"k":"p","n":"Buchholz"},
+  {"id":701586851,"lat":51.749784,"lon":8.880259,"k":"p","n":"Kleiner Viadukt"},
+  {"id":701586859,"lat":51.749906,"lon":8.881449,"k":"p","n":"Kleiner Viadukt"},
+  {"id":1297069057,"lat":51.748908,"lon":8.85036,"k":"x","n":"Druheimer Straße"},
+  {"id":1297069061,"lat":51.74885,"lon":8.850127,"k":"x","n":"Druheimer Straße"},
+  {"id":1972293890,"lat":51.743376,"lon":8.851864,"k":"p","n":"Alter Herbramer Weg"},
+  {"id":1972293895,"lat":51.7435,"lon":8.851508,"k":"p","n":"Alter Herbramer Weg"},
+  {"id":3266625761,"lat":51.749986,"lon":8.854238,"k":"p","n":"Holtgrevenstraße"},
+  {"id":3457222296,"lat":51.743445,"lon":8.851498,"k":"x","n":"Alter Herbramer Weg"},
+  {"id":3457222297,"lat":51.743414,"lon":8.851849,"k":"x","n":"Alter Herbramer Weg"},
+  {"id":3457222301,"lat":51.745511,"lon":8.856825,"k":"x","n":"Buchholz"},
+  {"id":3457222311,"lat":51.746654,"lon":8.853274,"k":"x","n":"Klostergarten"},
+  {"id":3457222312,"lat":51.746425,"lon":8.852797,"k":"x","n":"Klostergarten"},
+  {"id":8540911638,"lat":51.72191,"lon":8.850839,"k":"p","n":"Auf dem Heng"}
+],
+"routes":[
+  {"id":962944,"t":{"ref":"N8","name":"Bus N8: Neuenbeken => Westerntor","from":"Neuenbeken","to":"Westerntor","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#EE1C25","route":"bus","public_transport:version":"2"},"n":23,"s":[[313976479,2],[348383954,5],[348383959,6],[1972293895,7]]},
+  {"id":962945,"t":{"ref":"N8","name":"Bus N8: Westerntor => Neuenbeken","from":"Westerntor","to":"Neuenbeken","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#EE1C25","route":"bus","public_transport:version":"2"},"n":25,"s":[[1972293890,19],[348383957,20],[348383956,21],[348383948,24],[3266625761,25]]},
+  {"id":6425366,"t":{"ref":"431","name":"Bus 431: Neuenbeken, Buchholz => SZ Bad Driburg","from":"Neuenbeken, Buchholz","to":"SZ Bad Driburg","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[348383957,1],[701586859,2]]},
+  {"id":6425368,"t":{"ref":"431","name":"Bus 431: Bad Driburg, Kapellenstraße => Neuenbeken, Buchholz","from":"Bad Driburg, Kapellenstraße","to":"Neuenbeken, Buchholz","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[701586851,14],[348383959,15]]},
+  {"id":16145476,"t":{"ref":"431","name":"Bus 431: Neuenbeken, Buchholz => Bad Driburg, Gymnasium St.Xaver","from":"Neuenbeken, Buchholz","to":"Bad Driburg, Gymnasium St. Xaver","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[348383957,1],[701586859,2]]},
+  {"id":16145479,"t":{"ref":"431","name":"Bus 431: Bad Driburg, Gymnasium St. Xaver => Neuenbeken, Buchholz","from":"Bad Driburg, Gymnasium St. Xaver","to":"Neuenbeken, Buchholz","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[701586851,13],[348383959,14]]},
+  {"id":17229481,"t":{"ref":"48","name":"Bus 48: Neuenbeken => Realschule Südstadt","from":"Neuenbeken","to":"Realschule Südstadt","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2","bus":"school"},"n":27,"s":[[313976479,2],[348383954,5],[348383959,6],[1972293895,7]]},
+  {"id":17376504,"t":{"ref":"48","name":"Bus 48: Hauptbahnhof => Neuenbeken","from":"Hauptbahnhof","to":"Neuenbeken","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2","bus":"school"},"n":23,"s":[[1972293890,17],[348383957,18],[348383956,19],[348383948,22],[3266625761,23]]},
+  {"id":3003060042198,"t":{"ref":"8","name":"Bus 8: Gesseln => Neuenbeken","from":"Gesseln","to":"Neuenbeken","network":"WestfalenTarif","operator":"PaderSprinter GmbH","route":"bus","public_transport:version":"2"},"n":44,"s":[[1972293890,38],[348383957,39],[3457222311,40],[348383948,43]]},
+  {"id":3040976968408,"t":{"ref":"NE12","name":"NE12: Paderborn, Westerntor - Ab-Schwaney, Osningstraße","from":"Paderborn, Westerntor","to":"Ab-Schwaney, Osningstraße","operator":"nph-NachtExpress","route":"bus","public_transport:version":"2"},"n":33,"s":[[348383957,14],[701586859,15]]},
+  {"id":3065747621978,"t":{"ref":"8","name":"Bus 8: Neuenbeken => Gesseln","from":"Neuenbeken","to":"Gesseln","network":"WestfalenTarif","operator":"PaderSprinter GmbH","route":"bus","public_transport:version":"2"},"n":44,"s":[[3266625761,1],[313976479,2],[3457222312,5],[348383959,6],[1972293895,7]]}
+]
+}

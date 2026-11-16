@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2782,3777],
+"stops":[
+  {"id":248364126,"lat":49.108035,"lon":8.852715,"k":"x","n":"Sulzfeld Bahnhof"},
+  {"id":292643522,"lat":49.141516,"lon":8.855119,"k":"x","n":"Eselsberg"},
+  {"id":372403833,"lat":49.100511,"lon":8.899851,"k":"x","n":"Mühlbach"},
+  {"id":2020024348,"lat":49.10469,"lon":8.856533,"k":"p","n":"Sulzfeld Ortsmitte"},
+  {"id":2093367632,"lat":49.141638,"lon":8.855102,"k":"p","n":"Rohrbach Eselsberg"},
+  {"id":2093367633,"lat":49.140046,"lon":8.857783,"k":"p","n":"Rohrbach Waage"},
+  {"id":2093367634,"lat":49.139944,"lon":8.858925,"k":"p","n":"Rohrbach Waage"},
+  {"id":2093367635,"lat":49.140019,"lon":8.86224,"k":"p","n":"Rohrbach Waldhohl"},
+  {"id":2093367636,"lat":49.139903,"lon":8.863093,"k":"p","n":"Rohrbach Waldhohl"},
+  {"id":4674375653,"lat":49.100358,"lon":8.856611,"k":"p","n":"Sulzfeld Amalienhof"},
+  {"id":4674375654,"lat":49.100091,"lon":8.856399,"k":"p","n":"Sulzfeld Amalienhof"},
+  {"id":4674375655,"lat":49.100209,"lon":8.860274,"k":"p","n":"Schule Sulzfeld"},
+  {"id":4674377123,"lat":49.105537,"lon":8.855624,"k":"p","n":"Sulzfeld Ortsmitte"},
+  {"id":13070626877,"lat":49.141631,"lon":8.855055,"k":"x","n":"Eselsberg"},
+  {"id":13070682503,"lat":49.141504,"lon":8.855072,"k":"p"},
+  {"id":13422225928,"lat":49.10054,"lon":8.899856,"k":"p","n":"Mühlbach"},
+  {"id":5001415681873,"lat":49.108005,"lon":8.852852,"k":"p","n":"Sulzfeld Bahnhof"},
+  {"id":5001422271939,"lat":49.141587,"lon":8.855132,"k":"p","n":"Eselsberg"}
+],
+"routes":[
+  {"id":2696612,"t":{"ref":"675","name":"Bus 675: Eppingen => Landshausen => Elsenz","from":"Eppingen Bahnhof","to":"Elsenz Siedlung","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft","route":"bus","public_transport:version":"2"},"n":7,"s":[[2093367636,2],[2093367633,3],[5001422271939,4]]},
+  {"id":3871839,"t":{"ref":"676","name":"Bus 676: Zaberfeld => Eppingen","from":"Zaberfeld Evangelische Kirche","to":"Eppingen Bahnhof Bstg 3","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Reisebüro Wöhrle GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[13422225928,8]]},
+  {"id":13539093,"t":{"ref":"145","name":"Bus 145: Flehingen => Sulzfeld","from":"Flehingen","to":"Sulzfeld","network":"Karlsruher Verkehrsverbund","operator":"Wöhrle Reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[4674375654,7],[4674377123,8],[5001415681873,9]]},
+  {"id":13539110,"t":{"ref":"145","name":"Bus 145: Sulzfeld => Flehingen","from":"Sulzfeld","to":"Flehingen","network":"Karlsruher Verkehrsverbund","operator":"Wöhrle Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[2020024348,1],[4674375653,2]]},
+  {"id":3005886129674,"t":{"ref":"675","name":"Bus 675: Elsenz => Eppingen","from":"Elsenz Siedlung","to":"Eppingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft","route":"bus","public_transport:version":"2"},"n":8,"s":[[2093367632,3],[2093367634,4],[2093367635,5]]},
+  {"id":3018731503843,"t":{"ref":"144","name":"144: Sulzfeld (Baden) - Bretten","from":"Sulzfeld (Baden)","to":"Bretten","operator":"Bus Wöhrle","route":"bus","public_transport:version":"2"},"n":21,"s":[[248364126,1],[2020024348,2],[4674375653,3]]},
+  {"id":3026265780202,"t":{"ref":"676","name":"Bus 676: Eppingen => Zaberfeld","from":"Eppingen Bahnhof Bstg 3","to":"Zaberfeld Evangelische Kirche","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Reisebüro Wöhrle GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[13422225928,8]]},
+  {"id":3029664035765,"t":{"ref":"676","name":"Bus 676: Eppingen => Zaberfeld","from":"Eppingen Bahnhof Bstg 3","to":"Zaberfeld Evangelische Kirche","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Reisebüro Wöhrle GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[13422225928,4]]},
+  {"id":3033582993813,"t":{"ref":"675","name":"Bus 675: Eppingen => Elsenz","from":"Eppingen Bahnhof","to":"Elsenz Siedlung","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft","route":"bus","public_transport:version":"2"},"n":8,"s":[[2093367636,4],[2093367633,5],[5001422271939,6]]},
+  {"id":3034362397189,"t":{"ref":"675","name":"675: Eppingen - Elsenz Schule","from":"Eppingen","to":"Elsenz Schule","operator":"Bus (Region)","route":"bus","public_transport:version":"2"},"n":9,"s":[[2093367636,4],[2093367634,5],[2093367632,6]]},
+  {"id":3037096340408,"t":{"ref":"675","name":"Bus 675: Eppingen => Rohrbach => Hilsbach","from":"Eppingen Bahnhof","to":"Hilsbach Marktstraße","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft","route":"bus","public_transport:version":"2"},"n":9,"s":[[2093367636,4],[2093367633,5],[5001422271939,6]]},
+  {"id":3044542934785,"t":{"ref":"676","name":"Bus 676: Eppingen => Zaberfeld","from":"Eppingen Bahnhof Bstg 3","to":"Zaberfeld Evangelische Kirche","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Reisebüro Wöhrle GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[13422225928,3]]},
+  {"id":3049594980516,"t":{"ref":"144","name":"Bus 144: Bretten => Kürnbach","from":"Bretten","to":"Kürnbach","network":"Karlsruher Verkehrsverbund","operator":"Friedrich Wöhrle GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[4674375654,19],[4674377123,20],[248364126,21]]},
+  {"id":3055996556007,"t":{"ref":"675","name":"Bus 675: Elsenz => Eppingen","from":"Elsenz Siedlung","to":"Eppingen Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft","route":"bus","public_transport:version":"2"},"n":8,"s":[[2093367636,4],[2093367634,5],[2093367632,6]]},
+  {"id":3066889723755,"t":{"ref":"675","name":"Bus 675: Eppingen => Elsenz","from":"Eppingen Bahnhof","to":"Elsenz Siedlung","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft","route":"bus","public_transport:version":"2"},"n":8,"s":[[5001422271939,3],[2093367633,4],[2093367636,5]]},
+  {"id":3085384833227,"t":{"ref":"676","name":"Bus 676: Eppingen => Zaberfeld","from":"Eppingen Bahnhof Bstg 3","to":"Zaberfeld Evangelische Kirche","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Reisebüro Wöhrle GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[13422225928,8]]}
+]
+}

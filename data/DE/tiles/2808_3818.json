@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2808,3818],
+"stops":[
+  {"id":495197167,"lat":50.433854,"lon":10.906856,"k":"p"},
+  {"id":604984430,"lat":50.416688,"lon":10.913044,"k":"p","n":"Eisfeld, Zeiss"},
+  {"id":667993267,"lat":50.416418,"lon":10.913259,"k":"p","n":"Eisfeld, Zeiss"},
+  {"id":668779125,"lat":50.418178,"lon":10.905283,"k":"p","n":"Eisfeld, Bahnhof","ref":"1"},
+  {"id":1905070406,"lat":50.423571,"lon":10.905696,"k":"p","n":"Eisfeld, Neulehen"},
+  {"id":3821903821,"lat":50.429418,"lon":10.902653,"k":"p","n":"Eisfeld, Krankenhaus"},
+  {"id":3822065120,"lat":50.426689,"lon":10.904691,"k":"p","n":"Eisfeld, Justus-Jonas-Straße"},
+  {"id":4005931470,"lat":50.440092,"lon":10.933673,"k":"p","n":"Sachsenbrunn, PIKO"},
+  {"id":5516102433,"lat":50.418157,"lon":10.905171,"k":"p","n":"Eisfeld, Bahnhof","ref":"2"},
+  {"id":5516102434,"lat":50.418125,"lon":10.905559,"k":"p","n":"Eisfeld, Bahnhof","ref":"4"},
+  {"id":5516102435,"lat":50.418141,"lon":10.905641,"k":"p","n":"Eisfeld, Bahnhof","ref":"3"},
+  {"id":8485476630,"lat":50.446783,"lon":10.944811,"k":"p"},
+  {"id":8528149653,"lat":50.423515,"lon":10.905729,"k":"p","n":"Eisfeld, Neulehen"},
+  {"id":8528149654,"lat":50.423635,"lon":10.905651,"k":"p","n":"Eisfeld, Neulehen"},
+  {"id":12038982119,"lat":50.425386,"lon":10.900569,"k":"p","n":"Eisfeld, Hildburghäuser Str."},
+  {"id":14143917079,"lat":50.413868,"lon":10.916908,"k":"p","n":"Eisfeld, Steudach"},
+  {"id":14143917080,"lat":50.413136,"lon":10.917903,"k":"p","n":"Eisfeld, Steudach"},
+  {"id":6001870312232,"lat":50.444733,"lon":10.944981,"k":"p","n":"Sachsenbrunn, Gasthaus Oehler","g":1},
+  {"id":6012992940079,"lat":50.444733,"lon":10.944981,"k":"p","n":"Sachsenbrunn, Gasthaus Oehler","g":1},
+  {"id":6021035167170,"lat":50.42637,"lon":10.905072,"k":"p","n":"Eisfeld, Justus-Jonas-Straße","g":1},
+  {"id":6046538370834,"lat":50.431602,"lon":10.912797,"k":"p","n":"Eisfeld, Sachsendorfer Straße","g":1},
+  {"id":6052864551223,"lat":50.42637,"lon":10.905072,"k":"p","n":"Eisfeld, Justus-Jonas-Straße","g":1},
+  {"id":6073221163503,"lat":50.431602,"lon":10.912797,"k":"p","n":"Eisfeld, Sachsendorfer Straße","g":1}
+],
+"routes":[
+  {"id":3013402545943,"t":{"ref":"700","name":"700: Eisfeld, Bahnhof - Sonneberg, ZOB","from":"Eisfeld, Bahnhof","to":"Sonneberg, ZOB","operator":"Omnibus Verkehrs Gesellschaft mbH Sonneberg/Thür.","route":"bus","public_transport:version":"2"},"n":29,"s":[[5516102433,1]]},
+  {"id":3020482627315,"t":{"ref":"209","name":"209: Eisfeld, Bahnhof - Masserberg","from":"Eisfeld, Bahnhof","to":"Masserberg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":16,"s":[[5516102433,1],[1905070406,2],[6052864551223,3],[3821903821,4]]},
+  {"id":3025906107950,"t":{"ref":"205","name":"205: Coburg - Schleusingen, Zentralhaltestelle","from":"Coburg","to":"Schleusingen, Zentralhaltestelle","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":18,"s":[[14143917080,3],[604984430,4],[5516102433,5],[1905070406,6],[6052864551223,7],[3821903821,8]]},
+  {"id":3029763625480,"t":{"ref":"209","name":"209: Masserberg - Eisfeld, Bahnhof","from":"Masserberg","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":11,"s":[[3821903821,8],[6021035167170,9],[1905070406,10],[668779125,11]]},
+  {"id":3034680594976,"t":{"ref":"208","name":"208: Eisfeld, Bahnhof - Gießübel","from":"Eisfeld, Bahnhof","to":"Gießübel","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":22,"s":[[5516102433,1],[1905070406,2],[6052864551223,3],[3821903821,4]]},
+  {"id":3039988679280,"t":{"ref":"210","name":"210: Saargrund - Eisfeld, Bahnhof","from":"Saargrund","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":11,"s":[[6001870312232,6],[4005931470,7],[6046538370834,8],[6021035167170,9],[1905070406,10],[668779125,11]]},
+  {"id":3042816953621,"t":{"ref":"205","name":"205: Schleusingen, Zentralhaltestelle - Coburg","from":"Schleusingen, Zentralhaltestelle","to":"Coburg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":18,"s":[[3821903821,11],[6021035167170,12],[1905070406,13],[668779125,14],[604984430,15],[14143917080,16]]},
+  {"id":3060591053766,"t":{"ref":"213","name":"(Linie 213) Hildburghausen – Hetschbach – Eisfeld","from":"Hildburghausen","to":"Eisfeld","network":"WerraBus","operator":"WerraBus","route":"bus","public_transport:version":"2"},"n":16,"s":[[5516102433,1],[1905070406,2],[6052864551223,3],[12038982119,4]]},
+  {"id":3064253917675,"t":{"ref":"700","name":"700: Sonneberg, ZOB - Eisfeld, Bahnhof","from":"Sonneberg, ZOB","to":"Eisfeld, Bahnhof","operator":"Omnibus Verkehrs Gesellschaft mbH Sonneberg/Thür.","route":"bus","public_transport:version":"2"},"n":29,"s":[[5516102433,29]]},
+  {"id":3075434055767,"t":{"ref":"210","name":"210: Eisfeld, Bahnhof - Stelzen (Bleßberg)","from":"Eisfeld, Bahnhof","to":"Stelzen (Bleßberg)","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":12,"s":[[5516102433,1],[1905070406,2],[6052864551223,3],[6073221163503,4],[4005931470,5],[6012992940079,6]]},
+  {"id":3093911360625,"t":{"ref":"209","name":"209: Masserberg - Eisfeld, Bahnhof","from":"Masserberg","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":16,"s":[[3821903821,13],[6021035167170,14],[1905070406,15],[668779125,16]]}
+]
+}

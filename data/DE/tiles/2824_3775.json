@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3775],
+"stops":[
+  {"id":1392656871,"lat":51.233305,"lon":8.765332,"k":"p","n":"Steinberg"},
+  {"id":1392656873,"lat":51.233393,"lon":8.765105,"k":"p","n":"Steinberg"},
+  {"id":1392657273,"lat":51.235497,"lon":8.770999,"k":"p","n":"Eppe, Ringstraße"},
+  {"id":1392657279,"lat":51.235603,"lon":8.770929,"k":"p","n":"Eppe, Ringstraße"},
+  {"id":1392796690,"lat":51.222138,"lon":8.752226,"k":"p","n":"Abzweig Goddelsheim"},
+  {"id":1392796697,"lat":51.222177,"lon":8.752085,"k":"p","n":"Abzweig Goddelsheim"},
+  {"id":6093626473,"lat":51.244112,"lon":8.779913,"k":"x","n":"Aartal, Eppe"},
+  {"id":6093626474,"lat":51.244086,"lon":8.780003,"k":"p","n":"Aartal, Eppe"},
+  {"id":6093626476,"lat":51.244144,"lon":8.779845,"k":"p","n":"Aartal, Eppe"},
+  {"id":6093626478,"lat":51.237893,"lon":8.777835,"k":"x","n":"Am Büddenberg"},
+  {"id":6093626479,"lat":51.237883,"lon":8.777929,"k":"p","n":"Am Büddenberg"},
+  {"id":6093626481,"lat":51.237905,"lon":8.777734,"k":"p","n":"Am Büddenberg"},
+  {"id":12003420236,"lat":51.216637,"lon":8.765564,"k":"p","n":"Aarmühle"},
+  {"id":12003420237,"lat":51.216706,"lon":8.765703,"k":"p","n":"Aarmühle"},
+  {"id":12964077134,"lat":51.23409,"lon":8.766176,"k":"x","n":"Grundschule"},
+  {"id":12964077135,"lat":51.234102,"lon":8.766127,"k":"p","n":"Grundschule"},
+  {"id":13142969209,"lat":51.243927,"lon":8.777745,"k":"p","n":"Walmenmühle"},
+  {"id":13142969210,"lat":51.243805,"lon":8.777627,"k":"p","n":"Walmenmühle"},
+  {"id":5000649266706,"lat":51.23785,"lon":8.777886,"k":"p","n":"Am Büddenberg"},
+  {"id":5000649266707,"lat":51.237937,"lon":8.777776,"k":"p","n":"Am Büddenberg"}
+],
+"routes":[
+  {"id":17970652,"t":{"ref":"508","name":"Bus 508: Goddelsheim => Medebach","from":"Goddelsheim, Mittelpunktschule","to":"Medebach","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":5,"s":[[12003420237,2]]},
+  {"id":17970653,"t":{"ref":"508","name":"Bus 508: Medebach => Goddelsheim","from":"Medebach","to":"Goddelsheim, Mittelpunktschule","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":5,"s":[[12003420236,4]]},
+  {"id":17977300,"t":{"ref":"508","name":"Bus 508: Goddelsheim => Hillershausen","from":"Goddelsheim, Grundschule","to":"Hillershausen","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":15,"s":[[13142969209,6],[6093626481,11],[1392657279,12],[1392656873,13],[1392796690,14]]},
+  {"id":17977463,"t":{"ref":"508","name":"Bus 508: Hillershausen => Goddelsheim","from":"Hillershausen","to":"Goddelsheim, Mittelpunktschule","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[1392796690,2],[1392656871,3],[1392657273,4],[6093626479,5],[13142969210,9]]},
+  {"id":19306288,"t":{"ref":"508","name":"Bus 508: Eppe => Niederschleidern","from":"Eppe","to":"Niederscheidern","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":6,"s":[[12964077135,1],[1392657273,2],[6093626479,3],[13142969209,4]]},
+  {"id":19602396,"t":{"ref":"508","name":"Bus 508: Hillershausen => Niederschleidern","from":"Hillershausen","to":"Niederschleidern","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":7,"s":[[1392796690,2],[1392656871,3],[1392657273,4],[6093626479,5]]},
+  {"id":19673051,"t":{"ref":"508","name":"Bus 508: Niederschleidern => Hillershausen","from":"Niederschleidern","to":"Hillershausen","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":8,"s":[[13142969210,3],[6093626481,4],[1392657279,5],[1392656873,6],[1392796690,7]]},
+  {"id":3040012097822,"t":{"ref":"550","name":"Bus 550: Korbach => Medebach","from":"Korbach Hauptbahnhof","to":"Medebach","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[6093626476,10],[6093626481,11],[1392657279,12],[1392656873,13],[1392796697,14]]},
+  {"id":3097228926576,"t":{"ref":"550","name":"Bus 550: Medebach => Korbach","from":"Medebach","to":"Korbach Hauptbahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[1392796690,8],[1392656871,9],[1392657273,10],[5000649266706,11],[6093626474,12]]}
+]
+}

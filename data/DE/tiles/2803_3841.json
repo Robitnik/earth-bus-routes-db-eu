@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2803,3841],
+"stops":[
+  {"id":6267949170,"lat":50.198154,"lon":12.088245,"k":"p","n":"Schönwald, Rathaus, Mast 1","ref":"100741"},
+  {"id":6267952670,"lat":50.196109,"lon":12.089812,"k":"p","n":"Schönwald, Schule, Mast 1","ref":"WHSU1"},
+  {"id":6267957424,"lat":50.198139,"lon":12.091467,"k":"p","n":"Schönwald, Selber Straße 2, Mast 2","ref":"WHSC2"},
+  {"id":6267957425,"lat":50.197682,"lon":12.091129,"k":"p","n":"Schönwald, Selber Straße 2, Mast 1","ref":"WHSC1"},
+  {"id":6268018891,"lat":50.16146,"lon":12.096968,"k":"p","n":"Mittelweißenbach","ref":"93141"},
+  {"id":6268018892,"lat":50.161445,"lon":12.097273,"k":"p","n":"Mittelweißenbach","ref":"93142"},
+  {"id":6268061742,"lat":50.165395,"lon":12.085709,"k":"p","n":"Oberweißenbach 2","ref":"93622"},
+  {"id":6268061743,"lat":50.165688,"lon":12.084997,"k":"p","n":"Oberweißenbach 1","ref":"93621"},
+  {"id":6268084935,"lat":50.162746,"lon":12.06263,"k":"p","n":"Selb, Abzw Steinmühle","ref":"93631"},
+  {"id":6268084936,"lat":50.162691,"lon":12.062847,"k":"p","n":"Selb, Abzw Steinmühle","ref":"93632"},
+  {"id":6271215381,"lat":50.171037,"lon":12.056473,"k":"p","n":"Steinselb 1","ref":"93651"},
+  {"id":6314364467,"lat":50.1513,"lon":12.052937,"k":"p","n":"Heidelheim 2","ref":"93672"},
+  {"id":6314388010,"lat":50.170938,"lon":12.056587,"k":"p","n":"Steinselb 2","ref":"93652"},
+  {"id":6591656153,"lat":50.162728,"lon":12.06282,"k":"x","n":"Selb, Abzw Steinmühle, Mast 2"},
+  {"id":6591656154,"lat":50.162684,"lon":12.062673,"k":"x","n":"Selb, Abzw Steinmühle, Mast 1"},
+  {"id":6591656169,"lat":50.16545,"lon":12.085645,"k":"x","n":"Oberweißenbach 2"},
+  {"id":6591656170,"lat":50.165474,"lon":12.085646,"k":"x","n":"Oberweißenbach 1"},
+  {"id":6591656174,"lat":50.161415,"lon":12.097239,"k":"x","n":"Mittelweißenbach, Mast 2"},
+  {"id":6591656175,"lat":50.161514,"lon":12.097028,"k":"x","n":"Mittelweißenbach, Mast 1"},
+  {"id":6591656179,"lat":50.151295,"lon":12.052895,"k":"x","n":"Heidelheim 2"},
+  {"id":6591656180,"lat":50.151305,"lon":12.05281,"k":"p","n":"Heidelheim 1"},
+  {"id":6591668310,"lat":50.19813,"lon":12.091382,"k":"x","n":"Schönwald, Selber Straße 2, Mast 2"},
+  {"id":6591668311,"lat":50.197678,"lon":12.09123,"k":"x","n":"Schönwald, Selber Straße 2, Mast 1"},
+  {"id":6591668312,"lat":50.196169,"lon":12.089864,"k":"x","n":"Schönwald, Schule, Mast 1"},
+  {"id":6591915746,"lat":50.170975,"lon":12.056555,"k":"x","n":"Steinselb 2"},
+  {"id":6591915747,"lat":50.17103,"lon":12.056513,"k":"x","n":"Steinselb 1"},
+  {"id":8742079996,"lat":50.198154,"lon":12.088318,"k":"x","n":"Schönwald, Rathaus, Mast 1"},
+  {"id":8881462220,"lat":50.195979,"lon":12.090548,"k":"p","n":"Schönwald, Schule, Mast 2","ref":"WHSU1"}
+],
+"routes":[
+  {"id":18543197,"t":{"ref":"1582","name":"Bus 1582: Schönwald => Selb, Gymnasium","from":"Schönwald, Selber Straße 2","to":"Selb, Gymnasium","network":"Verkehrsverbund Großraum Nürnberg","operator":"Regionalbus Ostbayern GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6267957424,1]]},
+  {"id":18546297,"t":{"ref":"1582","name":"Bus 1582: Selb, Gymnasium => Schönwald","from":"Selb, Gymnasium","to":"Schönwald, Selber Straße 2","network":"Verkehrsverbund Großraum Nürnberg","operator":"Regionalbus Ostbayern GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[6267957425,11]]},
+  {"id":18546465,"t":{"ref":"1582","name":"Bus 1582: Selb, Gymnasium => Rehau","from":"Selb, Gymnasium","to":"Rehau, Hallenbad","network":"Verkehrsverbund Großraum Nürnberg","operator":"Regionalbus Ostbayern GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[6267957424,14]]},
+  {"id":3041811042118,"t":{"ref":"1701","name":"Bus 1701: Selb => Marktredwitz","from":"Selb, Schulzentrum","to":"Marktredwitz, Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Verkehrsgemeinschaft Fichtelgebirge","route":"bus","public_transport:version":"2"},"n":30,"s":[[6268018892,26]]},
+  {"id":3073738006679,"t":{"ref":"1715","name":"1715: Selb, Gymnasium - Schönwald, Schule","from":"Selb, Gymnasium","to":"Schönwald, Schule","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":18,"s":[[6591668311,16],[6267949170,17],[6591668312,18]]},
+  {"id":3090115689046,"t":{"ref":"1715","name":"1715: Schönwald, Rathaus - Selb Stadt","from":"Schönwald, Rathaus","to":"Selb Stadt","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":12,"s":[[6267949170,1],[6591668312,2]]}
+]
+}

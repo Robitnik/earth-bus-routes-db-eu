@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2859,3789],
+"stops":[
+  {"id":1666518977,"lat":52.979136,"lon":9.468845,"k":"x","n":"Dreeßel"},
+  {"id":2943901814,"lat":52.958448,"lon":9.462231,"k":"p","n":"St. Pauli"},
+  {"id":2943901820,"lat":52.950848,"lon":9.4645,"k":"p","n":"Egenbostel, Dorfmitte"},
+  {"id":2943924584,"lat":52.95938,"lon":9.475849,"k":"p","n":"Jeddingen, Hof Tadel"},
+  {"id":2981696728,"lat":52.955893,"lon":9.453822,"k":"p","n":"Abzweig Egenbostel"},
+  {"id":6956308235,"lat":52.95846,"lon":9.462352,"k":"x","n":"Kirchlinteln-Schafwinkel, St. Pauli"},
+  {"id":6956308236,"lat":52.958485,"lon":9.462471,"k":"p","n":"St. Pauli"},
+  {"id":7103487888,"lat":52.955801,"lon":9.453867,"k":"p","n":"Abzweig Egenbostel"},
+  {"id":7103487889,"lat":52.955871,"lon":9.453841,"k":"x","n":"Kirchlinteln-Schafwinkel, Abzweig Egenbostel"},
+  {"id":9044358996,"lat":52.979202,"lon":9.468879,"k":"p","n":"Dreeßel"},
+  {"id":13295818240,"lat":52.959327,"lon":9.475853,"k":"x","n":"Hof Tadel"}
+],
+"routes":[
+  {"id":1549664,"t":{"ref":"715","name":"Bus 715: ZOB Verden => Schafwinkel","from":"ZOB Verden","to":"Schafwinkel","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":22,"s":[[2943901814,22]]},
+  {"id":3857765,"t":{"ref":"884","name":"Bus 884: Visselhövede => Jeddingen => Bleckwedel => Visselhövede","from":"Visselhövede","to":"Visselhövede","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Bürgerbus Visselhövede","route":"bus","public_transport:version":"2"},"n":23,"s":[[2943924584,10],[6956308236,11]]},
+  {"id":10264437,"t":{"ref":"715","name":"Bus 715: Schafwinkel => ZOB Verden","from":"Schafwinkel","to":"ZOB Verden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":25,"s":[[2943901814,1],[2981696728,2]]},
+  {"id":10530417,"t":{"ref":"715","name":"Bus 715: Bendingbostel => ZOB Verden","from":"Bendingbostel","to":"ZOB Verden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[2981696728,4],[6956308236,5]]},
+  {"id":19819448,"t":{"ref":"884","name":"Bus 884: Dreeßel => Jeddingen","from":"Dreeßel","to":"Jeddingen","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Bürgerbus Visselhövede","route":"bus","public_transport:version":"2"},"n":2,"s":[[9044358996,1]]},
+  {"id":19819449,"t":{"ref":"884","name":"Bus 884: Jeddingen => Dreeßel => Bleckwedel => Jeddingen","from":"Jeddingen","to":"Jeddingen","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Bürgerbus Visselhövede","route":"bus","public_transport:version":"2"},"n":8,"s":[[9044358996,2],[2943924584,4]]},
+  {"id":19819450,"t":{"ref":"884","name":"Bus 884: Jeddingen => Bleckwedel => Jeddingen","from":"Jeddingen","to":"Jeddingen","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Bürgerbus Visselhövede","route":"bus","public_transport:version":"2"},"n":4,"s":[[2943924584,1]]},
+  {"id":19819451,"t":{"ref":"884","name":"Bus 884: Dreeßel => Bleckwedel => Jeddingen","from":"Dreeßel","to":"Jeddingen","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Bürgerbus Visselhövede","route":"bus","public_transport:version":"2"},"n":8,"s":[[9044358996,1],[2943924584,4]]},
+  {"id":19819453,"t":{"ref":"884","name":"Bus 884: Visselhövede => Bleckwedel => Jeddingen => Visselhövede","from":"Visselhövede","to":"Visselhövede","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Bürgerbus Visselhövede","route":"bus","public_transport:version":"2"},"n":23,"s":[[6956308236,13],[2943924584,14]]}
+]
+}

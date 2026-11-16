@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2856,3752],
+"stops":[
+  {"id":2622659159,"lat":52.84086,"lon":7.626908,"k":"p","n":"Menschenberg"},
+  {"id":2635719565,"lat":52.841012,"lon":7.627244,"k":"p","n":"Menschenberg"},
+  {"id":3662956370,"lat":52.817423,"lon":7.617022,"k":"x","n":"Kirche"},
+  {"id":7707533236,"lat":52.81926,"lon":7.627381,"k":"x","n":"Lahner Busch"},
+  {"id":8273081201,"lat":52.840902,"lon":7.626896,"k":"x","n":"Menschenberg"},
+  {"id":8273081202,"lat":52.840973,"lon":7.627262,"k":"x","n":"Menschenberg"},
+  {"id":6032357749431,"lat":52.81734,"lon":7.61773,"k":"p","n":"Lahn, Kirche","g":1}
+],
+"routes":[
+  {"id":12111339,"t":{"ref":"931","name":"Bus 931: Vrees, Kirche => Sögel, Marktplatz","from":"Vrees, Kirche","to":"Sögel, Marktplatz","network":"Busverkehr Emsland-Mitte/Nord","operator":"Emsländische Eisenbahn GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2635719565,6]]},
+  {"id":3021801899982,"t":{"ref":"931","name":"Bus 931: Sögel, Marktplatz => Vrees, Kirche","from":"Sögel, Marktplatz","to":"Vrees, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Emsländische Eisenbahn GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[2622659159,7]]},
+  {"id":3023305088021,"t":{"ref":"REX5","name":"REX5: Vrees, Kirche - Lathen, Bahnhof","from":"Vrees, Kirche","to":"Lathen, Bahnhof","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":14,"s":[[7707533236,5],[6032357749431,6]]},
+  {"id":3089679302594,"t":{"ref":"REX5","name":"REX5: Lathen, Bahnhof - Vrees, Kirche","from":"Lathen, Bahnhof","to":"Vrees, Kirche","operator":"Lkr. Emsland","route":"bus","public_transport:version":"2"},"n":14,"s":[[6032357749431,9],[7707533236,10]]}
+]
+}

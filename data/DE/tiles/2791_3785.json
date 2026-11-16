@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2791,3785],
+"stops":[
+  {"id":2463431319,"lat":49.597409,"lon":9.286325,"k":"p","n":"Hornbach Kleinhornbach"},
+  {"id":6691082316,"lat":49.590973,"lon":9.290576,"k":"p","n":"Hornbach, Ort"},
+  {"id":7245650787,"lat":49.55206,"lon":9.267864,"k":"p","n":"Stürzenhardt, Ort"},
+  {"id":7245650788,"lat":49.579196,"lon":9.265152,"k":"p","n":"Hettigenbeuern, Ort"},
+  {"id":8137864239,"lat":49.579131,"lon":9.265035,"k":"p","n":"Hettigenbeuern, Ort"},
+  {"id":8137864240,"lat":49.552107,"lon":9.267826,"k":"p","n":"Stürzenhardt, Ort"}
+],
+"routes":[
+  {"id":3215539,"t":{"ref":"849","name":"Bus 849: Walldürn => Wettersdorf","from":"Walldürn Bahnhof","to":"Wettersdorf","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":13,"s":[[2463431319,3],[6691082316,4]]},
+  {"id":3215540,"t":{"ref":"849","name":"Bus 849: Wettersdorf => Walldürn","from":"Wettersdorf Ort","to":"Walldürn","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":12,"s":[[6691082316,11],[2463431319,12]]},
+  {"id":12131906,"t":{"ref":"823","name":"Bus 823: Buchen => Stürzenhardt => Hettigenbeuern => Buchen","from":"Buchen Bahnhof","to":"Buchen Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":8,"s":[[8137864240,3],[8137864239,4]]},
+  {"id":12132625,"t":{"ref":"823","name":"Bus 823: Buchen => Hettigenbeuern => Stürzenhardt => Buchen","from":"Buchen Morrebrücke","to":"Buchen Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":10,"s":[[7245650788,5],[7245650787,6]]},
+  {"id":3015501781237,"t":{"ref":"8943","name":"8943: Buchen, Bahnhof - Buchen, Bahnhof","from":"Buchen, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":26,"s":[[8137864239,3],[7245650787,4]]},
+  {"id":3019102915395,"t":{"ref":"8951","name":"8951: Buchen, Bahnhof - Buchen, Bahnhof","from":"Buchen, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[6691082316,4],[2463431319,5]]},
+  {"id":3020842524858,"t":{"ref":"8943","name":"8943: Buchen, Bahnhof - Buchen, Bahnhof","from":"Buchen, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":26,"s":[[7245650787,23],[8137864239,24]]},
+  {"id":3021849548522,"t":{"ref":"8943","name":"8943: Buchen, Bahnhof - Walldürn, Bahnhof","from":"Buchen, Bahnhof","to":"Walldürn, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":27,"s":[[7245650787,23],[8137864239,24]]},
+  {"id":3090830939241,"t":{"ref":"8951","name":"8951: Walldürn, Bahnhof - Buchen, Bahnhof","from":"Walldürn, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":20,"s":[[2463431319,16],[6691082316,17]]}
+]
+}

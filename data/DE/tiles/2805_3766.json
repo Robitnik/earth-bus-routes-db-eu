@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2805,3766],
+"stops":[
+  {"id":344532931,"lat":50.250157,"lon":8.31497,"k":"x","n":"Waldems-Esch Schwalbacher Straße"},
+  {"id":348079582,"lat":50.274951,"lon":8.347959,"k":"p","n":"Berliner Straße"},
+  {"id":348117998,"lat":50.275116,"lon":8.341093,"k":"p","n":"Waldems-Steinfischbach Kirche"},
+  {"id":2086211546,"lat":50.25019,"lon":8.314982,"k":"p","n":"Waldems-Esch Schwalbacher Straße"},
+  {"id":2086211601,"lat":50.250135,"lon":8.31508,"k":"p","n":"Waldems-Esch Schwalbacher Straße"},
+  {"id":2922710106,"lat":50.275019,"lon":8.348354,"k":"p","n":"Berliner Straße"},
+  {"id":2925181625,"lat":50.275077,"lon":8.341048,"k":"x","n":"Waldems-Steinfischbach Kirche"},
+  {"id":11271055614,"lat":50.275061,"lon":8.348318,"k":"x","n":"Berliner Straße"},
+  {"id":11271055615,"lat":50.274903,"lon":8.347991,"k":"x","n":"Berliner Straße"},
+  {"id":11396839371,"lat":50.25016,"lon":8.31505,"k":"x","n":"Waldems-Esch Schwalbacher Straße"}
+],
+"routes":[
+  {"id":16787064,"t":{"ref":"231","name":"Bus 231: Idstein => Esch","from":"Idstein","to":"Esch","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[2086211601,5]]},
+  {"id":16787065,"t":{"ref":"231","name":"Bus 231: Niederems => Steinfischbach => Idstein","from":"Niederems","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[2922710106,6],[2086211546,7]]},
+  {"id":16787067,"t":{"ref":"231","name":"Bus 231: Steinfischbach => Niederems => Idstein Taubenberg","from":"Steinfischbach","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[2922710106,1],[2086211546,7]]},
+  {"id":16787068,"t":{"ref":"231","name":"Bus 231: Idstein Busbahnhof => Esch","from":"Idstein","to":"Esch","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[2086211601,3]]},
+  {"id":16787070,"t":{"ref":"231","name":"Rufbus 231: Idstein => Steinfischbach => Niederems => Idstein","from":"Idstein","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[2086211601,5],[2922710106,6],[2086211546,12]]},
+  {"id":16787071,"t":{"ref":"231","name":"Bus 231: Idstein => Niederems => Steinfischbach => Idstein","from":"Idstein","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[2086211601,5],[348079582,11],[2086211546,12]]},
+  {"id":16787072,"t":{"ref":"231","name":"Bus 231: Idstein => Steinfischbach => Niederems => Idstein","from":"Idstein","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[2086211601,5],[2922710106,6],[2086211546,12]]},
+  {"id":3000534260792,"t":{"ref":"232","name":"Rufbus 232: Steinfischbach => Niedernhausen","from":"Steinfischbach","to":"Niedernhausen","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":17,"s":[[2922710106,1],[344532931,6]]},
+  {"id":3024153984509,"t":{"ref":"231","name":"Bus 231: Steinfischbach => Niederems => Idstein","from":"Steinfischbach","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[2086211601,6],[2922710106,7],[344532931,13]]},
+  {"id":3037386967961,"t":{"ref":"231","name":"Rufbus 231: Idstein => Niederems => Steinfischbach => Idstein","from":"Idstein","to":"Idstein","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","operator":"DB Regio Bus Mitte GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[2086211601,6],[348079582,12],[344532931,13]]},
+  {"id":3045812963354,"t":{"ref":"234","name":"234: Idstein-Heftrich Schule - Waldems-Bermbach Birkenstraße","from":"Idstein-Heftrich Schule","to":"Waldems-Bermbach Birkenstraße","operator":"DB Regio Bus Mitte","route":"bus","public_transport:version":"2"},"n":7,"s":[[344532931,4]]},
+  {"id":3059302160578,"t":{"ref":"232","name":"Rufbus 232: Niedernhausen => Steinfischbach","from":"Niedernhausen","to":"Steinfischbach","network":"Rhein-Main-Verkehrsverbund;Rheingau-Taunus-Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":17,"s":[[2086211601,12],[348079582,17]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3860],
+"stops":[
+  {"id":197834890,"lat":51.293224,"lon":13.030867,"k":"x","n":"Lampersdorf, Zum Collm"},
+  {"id":370066645,"lat":51.285468,"lon":13.040221,"k":"x","n":"Lampersdorf, Ortsmitte"},
+  {"id":370066654,"lat":51.285437,"lon":13.040268,"k":"p","n":"Lampersdorf, Ortsmitte"},
+  {"id":6217652086,"lat":51.293211,"lon":13.030794,"k":"p","n":"Lampersdorf, Zum Collm"},
+  {"id":6217652087,"lat":51.293238,"lon":13.030941,"k":"p","n":"Lampersdorf, Zum Collm"},
+  {"id":8911521418,"lat":51.251748,"lon":13.041949,"k":"x","n":"Berntitz"},
+  {"id":5000963397943,"lat":51.251739,"lon":13.042069,"k":"p","n":"Berntitz"},
+  {"id":5000963397944,"lat":51.251738,"lon":13.0419,"k":"p","n":"Berntitz"}
+],
+"routes":[
+  {"id":9230457,"t":{"ref":"+801","name":"PlusBus 801: Wermsdorf => Oschatz","from":"Wermsdorf, Hirschplatz","to":"Oschatz, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[6217652086,7],[370066654,8]]},
+  {"id":9233163,"t":{"ref":"+801","name":"PlusBus 801: Oschatz => Wermsdorf","from":"Oschatz, Bahnhof","to":"Wermsdorf, Hirschplatz","network":"Mitteldeutscher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":15,"s":[[370066654,8],[6217652087,9]]},
+  {"id":3006893873350,"t":{"ref":"818","name":"Bus 818: Oschatz => Mügeln","from":"Oschatz, Bahnhof","to":"Mügeln, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000963397944,10]]},
+  {"id":3055892354834,"t":{"ref":"818","name":"Bus 818: Mügeln => Oschatz","from":"Mügeln, Busbahnhof","to":"Oschatz, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000963397943,3]]},
+  {"id":3078944249722,"t":{"ref":"801","name":"801: Wermsdorf, Hirschplatz - Oschatz, Bahnhof (Bus)","from":"Wermsdorf, Hirschplatz","to":"Oschatz, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":18,"s":[[197834890,8],[370066654,9]]},
+  {"id":3099560943442,"t":{"ref":"801","name":"801: Oschatz, Bahnhof (Bus) - Wermsdorf, Hirschplatz","from":"Oschatz, Bahnhof (Bus)","to":"Wermsdorf, Hirschplatz","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":17,"s":[[370066654,9],[197834890,10]]}
+]
+}

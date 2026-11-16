@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2809,3732],
+"stops":[
+  {"id":245806717,"lat":50.493941,"lon":6.626956,"k":"x","n":"Steinfelder Straße"},
+  {"id":339029380,"lat":50.494387,"lon":6.627822,"k":"x","n":"Steinfelder Straße"},
+  {"id":590341555,"lat":50.493002,"lon":6.63055,"k":"p","n":"Nettersheim Bf / Zutendaalplatz"},
+  {"id":751412620,"lat":50.495024,"lon":6.635049,"k":"p","n":"Nettersheim Kloster"},
+  {"id":751412650,"lat":50.495147,"lon":6.634963,"k":"p","n":"Nettersheim Kloster"},
+  {"id":751426807,"lat":50.493872,"lon":6.626967,"k":"p","n":"Steinfelder Straße"},
+  {"id":751426812,"lat":50.494391,"lon":6.627712,"k":"p","n":"Steinfelder Straße"},
+  {"id":751426817,"lat":50.487882,"lon":6.622091,"k":"p","n":"Südstraße"},
+  {"id":751426824,"lat":50.487591,"lon":6.621505,"k":"p","n":"Südstraße"},
+  {"id":1383425539,"lat":50.494452,"lon":6.623204,"k":"x","n":"Höhenweg"},
+  {"id":3995865368,"lat":50.490173,"lon":6.62937,"k":"p","n":"Nettersheim Bf / Gleis 1"},
+  {"id":5615968674,"lat":50.493036,"lon":6.630604,"k":"x","n":"Nettersheim Bf / Zutendaalplatz"},
+  {"id":8997096132,"lat":50.49009,"lon":6.623587,"k":"p","n":"Nettersheim Schule"},
+  {"id":8997096160,"lat":50.490112,"lon":6.623544,"k":"x","n":"Nettersheim Schule"},
+  {"id":9877732267,"lat":50.495081,"lon":6.635039,"k":"x","n":"Nettersheim Kloster"},
+  {"id":9877732268,"lat":50.487624,"lon":6.621468,"k":"x","n":"Südstraße"},
+  {"id":9877732269,"lat":50.487828,"lon":6.622125,"k":"x","n":"Südstraße"},
+  {"id":9877732280,"lat":50.494553,"lon":6.623231,"k":"p","n":"Höhenweg"},
+  {"id":14288282848,"lat":50.490158,"lon":6.62943,"k":"x","n":"Nettersheim Bf / Gleis 1"}
+],
+"routes":[
+  {"id":11612249,"t":{"ref":"770","name":"Wanderbus 770: Kall => Mirbach","from":"Kall Bahnhof","to":"Mirbach","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":9,"s":[[590341555,4]]},
+  {"id":14187437,"t":{"ref":"770","name":"Wanderbus 770: Mirbach=> Kall","from":"Mirbach","to":"Kall Bahnhof","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":11,"s":[[590341555,8]]},
+  {"id":14338326,"t":{"ref":"820","name":"MiKE 820: Nettersheim Bf => Bahrhaus","from":"Nettersheim Bf","to":"Bahrhaus","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":9,"s":[[3995865368,1],[590341555,2],[751426812,3],[751426817,4]]},
+  {"id":3018746574891,"t":{"ref":"821","name":"TaxiBusPlus 821: Nettersheim Bf => Bad Münstereifel","from":"Nettersheim Bf","to":"Bad Münstereifel, Rathaus","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":20,"s":[[590341555,1],[751412620,2]]},
+  {"id":3026633298925,"t":{"ref":"820","name":"MiKE 820: Nettersheim Bf => Buir => Bouderath Kirche","from":"Nettersheim Bf","to":"Bouderath Kirche","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":18,"s":[[3995865368,1],[590341555,2],[751412620,3]]},
+  {"id":3029508358819,"t":{"ref":"820","name":"MiKE 820: Bahrhaus => Nettersheim Bf","from":"Bahrhaus","to":"Nettersheim Bf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[751426817,6],[1383425539,7],[245806717,8],[590341555,9],[3995865368,10]]},
+  {"id":3037713093013,"t":{"ref":"820","name":"MiKE 820: Bahrhaus => Nettersheim Bf","from":"Bahrhaus","to":"Nettersheim Bf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[3995865368,1],[590341555,2],[751426812,3],[9877732280,4],[751426824,5]]},
+  {"id":3038580882083,"t":{"ref":"RE22","name":"RE22: Euskirchen Bf - Blankenheim (Wald) Bf","from":"Euskirchen Bf","to":"Blankenheim (Wald) Bf","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":7,"s":[[590341555,5]]},
+  {"id":3039912763097,"t":{"ref":"RE22","name":"RE22: Kall Bf - Gerolstein, Bahnhof/ZOB","from":"Kall Bf","to":"Gerolstein, Bahnhof/ZOB","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":12,"s":[[590341555,3]]},
+  {"id":3055921092758,"t":{"ref":"RE22","name":"RE22: Weilerswist Derkum Bf - Blankenheim (Wald) Bf","from":"Weilerswist Derkum Bf","to":"Blankenheim (Wald) Bf","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":8,"s":[[590341555,6]]},
+  {"id":3060010499459,"t":{"ref":"821","name":"TaxiBusPlus 821: Bad Münstereifel => Nettersheim Bf","from":"Gewerbegebiet/Ärztehaus","to":"Nettersheim Bf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":20,"s":[[9877732267,19],[590341555,20]]},
+  {"id":3078984346818,"t":{"ref":"RE22","name":"RE22: Blankenheim (Wald) Bf - Weilerswist Derkum Bf","from":"Blankenheim (Wald) Bf","to":"Weilerswist Derkum Bf","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":8,"s":[[590341555,3]]},
+  {"id":3083581623872,"t":{"ref":"820","name":"MiKE 820: Bouderath Kirche => Buir => Nettersheim Bf","from":"Bouderath Kirche","to":"Nettersheim Bf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":18,"s":[[9877732267,16],[590341555,17],[3995865368,18]]}
+]
+}

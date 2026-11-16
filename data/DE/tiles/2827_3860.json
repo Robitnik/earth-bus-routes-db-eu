@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3860],
+"stops":[
+  {"id":507928921,"lat":51.386898,"lon":13.039675,"k":"p","n":"Bucha (Cavertitz), Bäckerei"},
+  {"id":507928928,"lat":51.379617,"lon":13.039771,"k":"p","n":"Bucha (Cavertitz), Mühlteich"},
+  {"id":668102474,"lat":51.360929,"lon":13.039125,"k":"p","n":"Lampertswalde Malsener Straße"},
+  {"id":1769428789,"lat":51.395037,"lon":13.004467,"k":"p","n":"Schmannewitz, Waldbad"},
+  {"id":8912257643,"lat":51.361106,"lon":13.038896,"k":"p","n":"Lampertswalde, Malsener Straße"},
+  {"id":8912257645,"lat":51.361018,"lon":13.038966,"k":"x","n":"Lampertswalde, Malsener Straße"},
+  {"id":8912257649,"lat":51.364246,"lon":13.009038,"k":"p","n":"Dahlen, Sportplatz"},
+  {"id":8912257650,"lat":51.364147,"lon":13.008999,"k":"x","n":"Dahlen, Sportplatz"},
+  {"id":5000963481591,"lat":51.360958,"lon":13.039001,"k":"p","n":"Lampertswalde, Malsener Straße"},
+  {"id":5000963481592,"lat":51.363994,"lon":13.009096,"k":"p","n":"Dahlen, Sportplatz"},
+  {"id":6022885576997,"lat":51.371463,"lon":13.005948,"k":"p","n":"Dahlen (Sachsen), Am Weinberg","g":1}
+],
+"routes":[
+  {"id":12941409,"t":{"ref":"817","name":"Bus 817: Dahlen => Cavertitz","from":"Dahlen, Busbahnhof","to":"Cavertitz","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000963481592,2],[5000963481591,3]]},
+  {"id":12943551,"t":{"ref":"817","name":"Bus 817: Cavertitz => Dahlen","from":"Cavertitz","to":"Dahlen, Busbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Omnibus-Verkehrsgesellschaft mbH Heideland","route":"bus","public_transport:version":"2"},"n":6,"s":[[8912257643,4],[8912257649,5]]},
+  {"id":3009207978057,"t":{"ref":"807","name":"807: Oschatz, ZOB - Dahlen (Sachsen), ZOB","from":"Oschatz, ZOB","to":"Dahlen (Sachsen), ZOB","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[8912257645,10],[8912257649,11]]},
+  {"id":3011672809257,"t":{"ref":"805","name":"805: Dahlen (Sachsen), ZOB - Cavertitz","from":"Dahlen (Sachsen), ZOB","to":"Cavertitz","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":7,"s":[[6022885576997,2],[507928928,3],[507928921,4]]},
+  {"id":3070073699130,"t":{"ref":"805","name":"805: Dahlen (Sachsen), Schule - Cavertitz","from":"Dahlen (Sachsen), Schule","to":"Cavertitz","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":8,"s":[[6022885576997,3],[507928928,4],[507928921,5]]},
+  {"id":3072331221110,"t":{"ref":"785","name":"785: Dahlen (Sachsen), Bahnhof (Bus) - Schmannewitz, Reha-Kliniken","from":"Dahlen (Sachsen), Bahnhof (Bus)","to":"Schmannewitz, Reha-Kliniken","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":7,"s":[[6022885576997,5],[1769428789,6]]}
+]
+}

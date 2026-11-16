@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2766,3790],
+"stops":[
+  {"id":54435521,"lat":48.31965,"lon":9.50667,"k":"x","n":"Gundelfingen Wittstaig"},
+  {"id":54435583,"lat":48.323338,"lon":9.502329,"k":"x","n":"Gundelfingen Ack"},
+  {"id":307818225,"lat":48.309091,"lon":9.532194,"k":"p"},
+  {"id":345203805,"lat":48.330683,"lon":9.519132,"k":"x","n":"Dürrenstetten"},
+  {"id":388361364,"lat":48.332281,"lon":9.500135,"k":"p","n":"Bichishausen Mitte"},
+  {"id":388361904,"lat":48.332288,"lon":9.500365,"k":"p","n":"Bichishausen Mitte"},
+  {"id":388381843,"lat":48.334089,"lon":9.501786,"k":"p","n":"Zollhaus"},
+  {"id":5851548510,"lat":48.342279,"lon":9.539058,"k":"p","n":"Bremelau"},
+  {"id":5851548511,"lat":48.342272,"lon":9.539143,"k":"x","n":"Bremelau"},
+  {"id":5851548512,"lat":48.330795,"lon":9.519113,"k":"p","n":"Dürrenstetten"},
+  {"id":5853534963,"lat":48.342164,"lon":9.539078,"k":"p","n":"Bremelau"},
+  {"id":9456041273,"lat":48.310027,"lon":9.500793,"k":"p","n":"Gundelfingen Burg Derneck"},
+  {"id":9456041274,"lat":48.310219,"lon":9.500986,"k":"p","n":"Gundelfingen Burg Derneck"},
+  {"id":9456041275,"lat":48.310147,"lon":9.50089,"k":"x","n":"Gundelfingen Burg Derneck"},
+  {"id":9457808525,"lat":48.334015,"lon":9.501723,"k":"x","n":"Bichishausen Zollhaus"},
+  {"id":9457808526,"lat":48.332315,"lon":9.500283,"k":"x","n":"Bichishausen Mitte"},
+  {"id":9457808527,"lat":48.323202,"lon":9.502413,"k":"p","n":"Gundelfingen Ack"},
+  {"id":9457808528,"lat":48.323256,"lon":9.502193,"k":"p","n":"Gundelfingen Ack"},
+  {"id":9457808529,"lat":48.31953,"lon":9.506585,"k":"p","n":"Gundelfingen Wittstaig"},
+  {"id":9457808530,"lat":48.319336,"lon":9.506852,"k":"p","n":"Gundelfingen Wittstaig"},
+  {"id":12914998940,"lat":48.342187,"lon":9.539301,"k":"p","n":"Bremelau"},
+  {"id":6013531435662,"lat":48.332558,"lon":9.500816,"k":"p","n":"Bichishausen Mitte","g":1},
+  {"id":6054633006677,"lat":48.334355,"lon":9.500493,"k":"p","n":"Bichishausen Zollhaus","g":1}
+],
+"routes":[
+  {"id":8557631,"t":{"ref":"7662","name":"DE_naldo_7662: Münsingen => Gymnasium => Dürrenstetten","from":"Münsingen Bahnhof","to":"Gymnasium","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":6,"s":[[5851548510,5],[5851548512,6]]},
+  {"id":13733152,"t":{"ref":"268","name":"DE_naldo_268_Zwiefalten => Hayingen => Ehestetten => Hayingen","from":"Zwiefalten Rentalhalle","to":"Hayingen Zwiefalter Straße","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":14,"s":[[9456041274,8]]},
+  {"id":13733153,"t":{"ref":"268","name":"DE_naldo_268_Hayingen => Ehestetten => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Hayingen Zwiefalter Straße","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":14,"s":[[9456041274,7]]},
+  {"id":13733154,"t":{"ref":"268","name":"DE_naldo_268_Zwiefalten => Hayingen => Ehestetten => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":15,"s":[[9456041274,8]]},
+  {"id":13752186,"t":{"ref":"331","name":"DE_naldo_331: Münsingen => Mehrstetten => Ehingen (Donau)","from":"Münsingen Bahnhof","to":"Ehingen (Donau) Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[5853534963,7]]},
+  {"id":13752187,"t":{"ref":"331","name":"DE_naldo_331: Münsingen => Ehingen (Donau)","from":"Münsingen Bahnhof","to":"Ehingen (Donau) Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":7,"s":[[5853534963,5]]},
+  {"id":3058486897391,"t":{"ref":"265","name":"DE_naldo_265_Münsingen => Riedlingen","from":"Münsingen Bahnhof","to":"Riedlingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"SVL+Regionalverkehr Alb-Bodensee","colour":"#8BC63E","route":"bus","public_transport:version":"2"},"n":27,"s":[[6013531435662,9],[9457808528,11],[9457808530,12],[9456041273,13]]},
+  {"id":3080486129290,"t":{"ref":"331","name":"DE_naldo_331: Ehingen (Donau) => Mehrstetten => Münsingen","from":"Ehingen (Donau) Busbahnhof","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[5853534963,5]]},
+  {"id":3088975770760,"t":{"ref":"331","name":"DE_naldo_331: Ehingen (Donau) => Mehrstetten => Münsingen","from":"Ehingen (Donau) Busbahnhof","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau; Donau-Iller-Nahverkehrsgesellschaft","operator":"bayer reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[5851548511,5]]},
+  {"id":3095944619047,"t":{"ref":"265","name":"DE_naldo_265_Riedlingen => Münsingen","from":"Riedlingen Bahnhof","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#8BC63E","route":"bus","public_transport:version":"2"},"n":29,"s":[[9456041274,17],[9457808530,18],[9457808528,19],[6054633006677,21]]}
+]
+}

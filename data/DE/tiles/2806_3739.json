@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2806,3739],
+"stops":[
+  {"id":886003496,"lat":50.317402,"lon":6.978512,"k":"x","n":"Am Kirchenweg"},
+  {"id":1380450286,"lat":50.337847,"lon":6.995044,"k":"p","n":"Dreeser Mühle"},
+  {"id":5711291627,"lat":50.340679,"lon":6.951613,"k":"p","n":"Nürburg Kirche"},
+  {"id":6475180953,"lat":50.308634,"lon":6.958972,"k":"x","n":"Reimerath, Hauptstraße"},
+  {"id":6475180964,"lat":50.308604,"lon":6.959009,"k":"p","n":"Reimerath, Hauptstraße"},
+  {"id":6475229419,"lat":50.319657,"lon":6.965772,"k":"p","n":"Welcherath, Kirche"},
+  {"id":6475229437,"lat":50.319588,"lon":6.965877,"k":"x","n":"Welcherath, Kirche"},
+  {"id":6475229474,"lat":50.31369,"lon":6.960677,"k":"x","n":"Bruchhausen (Eifel), Bruchhausen"},
+  {"id":6475229479,"lat":50.31373,"lon":6.960597,"k":"p","n":"Bruchhausen (Eifel), Bruchhausen"},
+  {"id":12389165963,"lat":50.317373,"lon":6.978461,"k":"p","n":"Am Kirchenweg"},
+  {"id":6016376106433,"lat":50.349938,"lon":6.981356,"k":"p","n":"Meuspath Gewerbepark West","g":1},
+  {"id":6016918265769,"lat":50.345908,"lon":6.957667,"k":"p","n":"Nürburg Antoniusweg","g":1},
+  {"id":6059388494753,"lat":50.345685,"lon":6.972777,"k":"p","n":"Meuspath Kirchweg","g":1},
+  {"id":6059624548639,"lat":50.345863,"lon":6.957748,"k":"p","n":"Nürburg Antoniusweg","g":1},
+  {"id":6072492550659,"lat":50.339837,"lon":6.996268,"k":"p","n":"Drees, Bürgerhaus","g":1},
+  {"id":6097334147200,"lat":50.32502,"lon":6.992639,"k":"p","n":"Kirsbach, Dorfmitte","g":1}
+],
+"routes":[
+  {"id":18357795,"t":{"ref":"377","name":"Bus 377: Mayen => Monreal => Boos => Mayen","from":"Mayen Ostbahnhof","to":"Mayen Ostbahnhof","network":"VRM","operator":"Verkehrsbetriebe Mittelrhein","route":"bus","public_transport:version":"2"},"n":44,"s":[[12389165963,24]]},
+  {"id":18357797,"t":{"ref":"377","name":"Bus 377: Mayen => Boos => Monreal => Mayen","from":"Mayen Ostbahnhof","to":"Mayen Ostbahnhof","network":"VRM","operator":"Verkehrsbetriebe Mittelrhein","route":"bus","public_transport:version":"2"},"n":43,"s":[[12389165963,22]]},
+  {"id":3017930073027,"t":{"ref":"885","name":"885: Nürburg Kirche - Adenau Markt","from":"Nürburg Kirche","to":"Adenau Markt","operator":"Verkehrsbetriebe Mittelrhein VREM","route":"bus","public_transport:version":"2"},"n":16,"s":[[5711291627,1],[6059624548639,2],[6059388494753,3],[6016376106433,4]]},
+  {"id":3036484642221,"t":{"ref":"507 RufBus","name":"507 RufBus: Kelberg, Busbahnhof - Nitz, Ort","from":"Kelberg, Busbahnhof","to":"Nitz, Ort","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6475180953,3],[6475229474,4],[886003496,5],[6475229419,6],[6097334147200,7],[6072492550659,8]]},
+  {"id":3053989142311,"t":{"ref":"507 RufBus","name":"507 RufBus: Nitz, Ort - Kelberg, Busbahnhof","from":"Nitz, Ort","to":"Kelberg, Busbahnhof","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6072492550659,2],[6097334147200,4],[6475229419,5],[886003496,6],[6475229474,7],[6475180953,8]]},
+  {"id":3067360385615,"t":{"ref":"885","name":"885: Adenau Markt - Nürburg Kirche","from":"Adenau Markt","to":"Nürburg Kirche","operator":"Verkehrsbetriebe Mittelrhein VREM","route":"bus","public_transport:version":"2"},"n":15,"s":[[6059388494753,13],[6016918265769,14],[5711291627,15]]}
+]
+}

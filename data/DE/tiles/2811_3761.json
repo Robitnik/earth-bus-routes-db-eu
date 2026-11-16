@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2811,3761],
+"stops":[
+  {"id":990962223,"lat":50.56587,"lon":8.08746,"k":"p"},
+  {"id":990962238,"lat":50.565455,"lon":8.086509,"k":"p"},
+  {"id":991013572,"lat":50.586115,"lon":8.06214,"k":"p","n":"B54"},
+  {"id":992586135,"lat":50.58785,"lon":8.099303,"k":"p"},
+  {"id":1014340276,"lat":50.555697,"lon":8.062377,"k":"p","n":"Wendeplatz"},
+  {"id":1029475798,"lat":50.599859,"lon":8.063391,"k":"p","n":"Gewerbegebiet"},
+  {"id":7559896149,"lat":50.599849,"lon":8.06354,"k":"x","n":"Gewerbegebiet"},
+  {"id":7559896151,"lat":50.586178,"lon":8.061963,"k":"x","n":"B54"},
+  {"id":7559896152,"lat":50.58609,"lon":8.062007,"k":"x","n":"B54"},
+  {"id":7559896153,"lat":50.586162,"lon":8.061832,"k":"p","n":"B54"},
+  {"id":7559896162,"lat":50.555729,"lon":8.062423,"k":"x","n":"Wendeplatz"},
+  {"id":6011571515381,"lat":50.565816,"lon":8.08641,"k":"p","n":"Hüblingen Kirchweg","g":1},
+  {"id":6033905651049,"lat":50.587522,"lon":8.099058,"k":"p","n":"Westernohe Südstraße","g":1}
+],
+"routes":[
+  {"id":20171462,"t":{"ref":"466","name":"Bus 466: Koblenz Hauptbahnhof => Montabaur Bahnhof => Westerburg Bahnhof => Rennerod Schulen","from":"Koblenz, Hauptbahnhof","to":"Rennerod Schulen","network":"VRM","operator":"Griesar Reisen GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[991013572,20]]},
+  {"id":20173406,"t":{"ref":"466","name":"Bus 466: Rennerod Schulen => Westerburg Bahnhof => Montabaur Bahnhof => Koblenz Hauptbahnhof","from":"Rennerod Schulen","to":"Koblenz, Hauptbahnhof","network":"VRM","operator":"Griesar Reisen GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[1029475798,3],[7559896153,4]]},
+  {"id":3022063714676,"t":{"ref":"LM-15","name":"Bus LM-15: Rennerod => Limburg","from":"Rennerod Busbahnhof","to":"Limburg ZOB Nord","network":"Rhein-Main-Verkehrsverbund","operator":"Käberich","route":"bus","public_transport:version":"2"},"n":17,"s":[[7559896152,4],[1014340276,7]]},
+  {"id":3047282041574,"t":{"ref":"487","name":"487: Rennerod Busbahnhof - Rennerod Busbahnhof","from":"Rennerod Busbahnhof","to":"Rennerod Busbahnhof","operator":"ww mobility GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[7559896152,4],[7559896162,7],[6011571515381,9],[6033905651049,13]]},
+  {"id":3077252635300,"t":{"ref":"LM-15","name":"Bus LM-15: Limburg => Rennerod","from":"Limburg ZOB Nord","to":"Rennerod Busbahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"Käberich","route":"bus","public_transport:version":"2"},"n":17,"s":[[1014340276,11],[7559896152,14]]},
+  {"id":3077833765243,"t":{"ref":"487","name":"487: Rennerod Busbahnhof - Rennerod Busbahnhof","from":"Rennerod Busbahnhof","to":"Rennerod Busbahnhof","operator":"ww mobility GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[7559896152,4],[7559896162,7],[6011571515381,9],[6033905651049,13]]}
+]
+}

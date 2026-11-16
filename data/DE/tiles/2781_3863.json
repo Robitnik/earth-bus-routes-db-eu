@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2781,3863],
+"stops":[
+  {"id":28298433,"lat":49.073977,"lon":13.156423,"k":"p","n":"Bretterschachten, Langlaufzentrum"},
+  {"id":29693058,"lat":49.090914,"lon":13.198595,"k":"x","n":"Seebachschleife, Abzw","ref":"B 11"},
+  {"id":248565582,"lat":49.09923,"lon":13.15896,"k":"p","n":"Gr. Arbersee"},
+  {"id":3459661970,"lat":49.098797,"lon":13.159352,"k":"p","n":"Gr.Arbersee"},
+  {"id":3654717802,"lat":49.090896,"lon":13.198708,"k":"p","n":"Seebachschleife, Abwz."},
+  {"id":9754064803,"lat":49.091117,"lon":13.198416,"k":"p","n":"Seebachschleife, Abzw"},
+  {"id":9824722699,"lat":49.07407,"lon":13.156027,"k":"p","n":"Bretterschachten"},
+  {"id":9824722700,"lat":49.073862,"lon":13.155886,"k":"p","n":"Bretterschachten"},
+  {"id":10905868598,"lat":49.091146,"lon":13.198497,"k":"x","n":"Seebachschleife, Abwz."}
+],
+"routes":[
+  {"id":4635440,"t":{"ref":"6085","name":"Skibus RBO 6085 Bodenmais - Bretterschachten - Arber Bergbahn","from":"Bodenmais","to":"Arberbergbahn","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO Regionalbus Ostbayern GmbH","route":"bus","public_transport:version":"1"},"n":18,"s":[[28298433,7],[3459661970,10],[248565582,11]]},
+  {"id":5335441,"t":{"ref":"6197","name":"Bus RBO 6197: Regen-Zwiesel-Bayerisch Eisenstein","from":"Regen","to":"Bayerisch Eisenstein","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":11,"s":[[3654717802,10]]},
+  {"id":5389861,"t":{"ref":"6081/000036","name":"Bus RBO 6081/ARRIVA 000036: Železná Ruda-Bayer.Eisenstein-Arber Bergbahn","network":"Regionalbus Ostbayern;Verbundtarif DonauWald;Arriva Střední Čechy s.r.o.","operator":"RBO","route":"bus","public_transport:version":"2"},"n":11,"s":[[3654717802,5]]},
+  {"id":5429703,"t":{"ref":"7710/000048","name":"Bus RBO 7710/ARRIVA 000048: Passau, Hbf. => Ruderting => Neukirchen v. W. => Schönberg => Rinchnach => Regen => Zwiesel=> Železná Ruda (CZ)","from":"Passau, Hbf.","to":"Železná Ruda (CZ)","network":"Regionalbus Ostbayern;Verbundtarif DonauWald;Arriva Střední Čechy s.r.o.","operator":"RBO;Arriva Stredni Cechny s.r.o.","route":"bus","public_transport:version":"2"},"n":89,"s":[[3654717802,85]]},
+  {"id":5844216,"t":{"ref":"7710/000048","name":"Bus RBO 7710/ARRIVA 000048: Železná Ruda (CZ) => Zwiesel => Regen => Rinchnach => Schönberg => Neukirchen v. W. => Ruderting => Passau, Hbf.","from":"Železná Ruda (CZ)","to":"Passau, Hbf.","network":"Regionalbus Ostbayern;Verbundtarif DonauWald;Arriva Střední Čechy s.r.o.","operator":"RBO;Arriva Stredni Cechny s.r.o.","route":"bus","public_transport:version":"2"},"n":89,"s":[[9754064803,5]]},
+  {"id":7921564,"t":{"ref":"6191","name":"Skibus RBO 6191 Zwiesel - Arber - Bretterschachten","from":"Zwiesel","to":"Bretterschachten","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus","public_transport:version":"1"},"n":23,"s":[[248565582,5],[3459661970,6],[28298433,7]]},
+  {"id":3004426157063,"t":{"ref":"590","name":"590: Arber Bergbahn, Talstation - Bodenmais, Rathaus/Bahnhof","from":"Arber Bergbahn, Talstation","to":"Bodenmais, Rathaus/Bahnhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":8,"s":[[248565582,2],[9824722700,3]]},
+  {"id":3020193094766,"t":{"ref":"590","name":"590: Bodenmais, Rathaus/Bahnhof - Arber Bergbahn, Talstation","from":"Bodenmais, Rathaus/Bahnhof","to":"Arber Bergbahn, Talstation","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":8,"s":[[9824722700,6],[3459661970,7]]},
+  {"id":3050123819508,"t":{"ref":"44","name":"44: Bayerisch Eisenstein - Zwiesel (Bay)","from":"Bayerisch Eisenstein","to":"Zwiesel (Bay)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":12,"s":[[9754064803,4]]}
+]
+}

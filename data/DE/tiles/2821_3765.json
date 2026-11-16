@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2821,3765],
+"stops":[
+  {"id":897546907,"lat":51.057779,"lon":8.284954,"k":"p","n":"Müsse Kappler Mühle"},
+  {"id":982842681,"lat":51.057488,"lon":8.28483,"k":"p","n":"Müsse Kappler Mühle"},
+  {"id":1744489302,"lat":51.053895,"lon":8.287599,"k":"p","n":"Aue Abzw. Wingeshausen"},
+  {"id":1744489303,"lat":51.052158,"lon":8.29025,"k":"p","n":"Aue Bahnhof L 553"},
+  {"id":1744489304,"lat":51.052541,"lon":8.289928,"k":"p","n":"Aue Bahnhof L 553"},
+  {"id":1744489305,"lat":51.053437,"lon":8.285008,"k":"p","n":"Aue Brücke"},
+  {"id":1744489306,"lat":51.053796,"lon":8.285091,"k":"p","n":"Aue Brücke"},
+  {"id":1744489307,"lat":51.052927,"lon":8.281531,"k":"p","n":"Aue Tankstelle"},
+  {"id":1744489308,"lat":51.053032,"lon":8.280906,"k":"p","n":"Aue Tankstelle"},
+  {"id":6375762480,"lat":51.065614,"lon":8.288294,"k":"p","n":"Wingeshausen Festplatz"},
+  {"id":6375762481,"lat":51.065922,"lon":8.288178,"k":"p","n":"Wingeshausen Festplatz"},
+  {"id":6375966296,"lat":51.068306,"lon":8.289441,"k":"p","n":"Wingeshausen Kirche"},
+  {"id":6375966297,"lat":51.054108,"lon":8.287449,"k":"p","n":"Aue Abzw. Wingeshausen"},
+  {"id":10882774197,"lat":51.0683,"lon":8.289331,"k":"x","n":"Wingeshausen Kirche"},
+  {"id":6017002676038,"lat":51.091257,"lon":8.268067,"k":"p","n":"Wingeshausen Wisent Welt","g":1},
+  {"id":6099420323295,"lat":51.051785,"lon":8.290085,"k":"p","n":"Aue-Wingeshausen Bf","g":1}
+],
+"routes":[
+  {"id":3080825,"t":{"ref":"R29","name":"Bus R29: Bad Berleburg => Erndtebrück","from":"Bad Berleburg Bahnhof","to":"Erndtebrück Bahnhof","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[1744489304,14],[6375966297,15],[897546907,16],[6375762480,17],[6375966296,18],[6375762481,19],[982842681,20],[1744489306,21],[1744489308,22]]},
+  {"id":20221581,"t":{"ref":"L196","name":"Bus L196: Bad Berleburg => Wingeshausen","from":"Bad Berleburg Schulzentrum (Bstg. 1)","to":"Wingeshausen Kirche","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[1744489304,15],[6375966297,16],[897546907,17],[6375762480,18],[6375966296,19]]},
+  {"id":20737003,"t":{"ref":"RB 93","name":"Schienenersatzverkehr","from":"Aue-Wingeshausen","to":"Bad Berleburg","operator":"Hessische Landesbahn","route":"bus"},"n":3,"s":[[1744489303,1]]},
+  {"id":3008333255198,"t":{"ref":"L196","name":"Bus L196: Wingeshausen => Bad Berleburg","from":"Wingeshausen Kirche","to":"Bad Berleburg ZOB (Bstg. 4)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[10882774197,1],[6375762480,2],[982842681,3],[1744489302,4],[1744489303,5]]},
+  {"id":3016337523494,"t":{"ref":"EV","name":"EV: Aue-Wingeshausen Bf - Bad Berleburg Bf","from":"Aue-Wingeshausen Bf","to":"Bad Berleburg Bf","operator":"Hessische Landesbahn GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[6099420323295,1]]},
+  {"id":3026247012848,"t":{"ref":"L196","name":"Bus L196: Wingeshausen => Bad Berleburg","from":"Wingeshausen Kirche","to":"Bad Berleburg ZOB (Bstg. 4)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[1744489304,1],[6375966297,2],[897546907,3],[6375762481,4],[10882774197,5]]},
+  {"id":3033999473630,"t":{"ref":"EV","name":"EV: Bad Berleburg Bf - Aue-Wingeshausen Bf","from":"Bad Berleburg Bf","to":"Aue-Wingeshausen Bf","operator":"Hessische Landesbahn GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[6099420323295,4]]},
+  {"id":3037947168034,"t":{"ref":"Ismo","name":"Ismo: Schmallenberg, Habbel - Wingeshausen Wisent Welt","from":"Schmallenberg, Habbel","to":"Wingeshausen Wisent Welt","operator":"Busverkehr Ruhr-Sieg","route":"bus","public_transport:version":"2"},"n":15,"s":[[6017002676038,15]]},
+  {"id":3050816959935,"t":{"ref":"Ismo","name":"Ismo: Wingeshausen Wisent Welt - Schmallenberg, Habbel","from":"Wingeshausen Wisent Welt","to":"Schmallenberg, Habbel","operator":"Busverkehr Ruhr-Sieg","route":"bus","public_transport:version":"2"},"n":15,"s":[[6017002676038,1]]},
+  {"id":3091053880057,"t":{"ref":"Ismo","name":"Ismo: Girkhausen Albrechtsplatz - Wingeshausen Wisent Welt","from":"Girkhausen Albrechtsplatz","to":"Wingeshausen Wisent Welt","operator":"Busverkehr Ruhr-Sieg","route":"bus","public_transport:version":"2"},"n":28,"s":[[6017002676038,28]]},
+  {"id":3098519346757,"t":{"ref":"Ismo","name":"Ismo: Wingeshausen Wisent Welt - Girkhausen Albrechtsplatz","from":"Wingeshausen Wisent Welt","to":"Girkhausen Albrechtsplatz","operator":"Busverkehr Ruhr-Sieg","route":"bus","public_transport:version":"2"},"n":28,"s":[[6017002676038,1]]}
+]
+}

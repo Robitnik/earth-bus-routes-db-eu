@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2792,3794],
+"stops":[
+  {"id":448172640,"lat":49.61011,"lon":9.743163,"k":"p","n":"Kindergarten"},
+  {"id":448172642,"lat":49.609049,"lon":9.743606,"k":"p","n":"Schule"},
+  {"id":728175189,"lat":49.641843,"lon":9.72591,"k":"p","n":"Abzweig Paimar"},
+  {"id":728175194,"lat":49.641861,"lon":9.725696,"k":"p","n":"Abzweig Paimar"},
+  {"id":13063457718,"lat":49.60528,"lon":9.747044,"k":"p","n":"Grünsfeld, Bahnhof"},
+  {"id":6005732491653,"lat":49.625018,"lon":9.74116,"k":"p","n":"Grünsfeldhausen, Ort","g":1},
+  {"id":6052804568944,"lat":49.602789,"lon":9.723445,"k":"p","n":"Grünsfeld,Industriepark o.d.T.","g":1},
+  {"id":6072151303412,"lat":49.624948,"lon":9.741259,"k":"p","n":"Grünsfeldhausen, Ort","g":1},
+  {"id":6075838570173,"lat":49.608995,"lon":9.742813,"k":"p","n":"Grünsfeld, Lange Gasse","g":1}
+],
+"routes":[
+  {"id":3115753,"t":{"ref":"850","name":"Bus 850: Tauberbischofsheim => Würzburg","from":"Tauberbischofsheim ZOB","to":"Würzburg Busbahnhof","network":"Verkehrsverbund Rhein-Neckar;Verkehrsverbund Mainfranken","route":"bus","public_transport:version":"2"},"n":14,"s":[[728175189,4]]},
+  {"id":10822931,"t":{"ref":"850","name":"Bus 850: Würzburg => Tauberbischofsheim","from":"Würzburg Busbahnhof","to":"Tauberbischofsheim ZOB","network":"Verkehrsverbund Rhein-Neckar;Verkehrsverbund Mainfranken","route":"bus","public_transport:version":"2"},"n":10,"s":[[728175194,8]]},
+  {"id":3004693444668,"t":{"ref":"9875","name":"9875: Tauberbischofsheim, ZOB - Gerchsheim, Schule","from":"Tauberbischofsheim, ZOB","to":"Gerchsheim, Schule","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":14,"s":[[728175189,8]]},
+  {"id":3015612201118,"t":{"ref":"9840","name":"9840: Wittighausen , Abzw.Hof Lilach - Lauda, ZOB","from":"Wittighausen , Abzw.Hof Lilach","to":"Lauda, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":32,"s":[[6052804568944,14],[13063457718,15],[448172642,16]]},
+  {"id":3022855635698,"t":{"ref":"850","name":"850: Würzburg, Hauptbahnhof ZOB - Tauberbischofsheim, ZOB","from":"Würzburg, Hauptbahnhof ZOB","to":"Tauberbischofsheim, ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":19,"s":[[728175194,16]]},
+  {"id":3030732128795,"t":{"ref":"9840","name":"9840: Lauda, ZOB - Wittighausen , Abzw.Hof Lilach","from":"Lauda, ZOB","to":"Wittighausen , Abzw.Hof Lilach","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":28,"s":[[448172642,15],[13063457718,16],[6052804568944,17]]},
+  {"id":3034588693720,"t":{"ref":"850","name":"850: Tauberbischofsheim, ZOB - Würzburg, Hauptbahnhof ZOB","from":"Tauberbischofsheim, ZOB","to":"Würzburg, Hauptbahnhof ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":15,"s":[[728175189,4]]},
+  {"id":3038845949711,"t":{"ref":"9840","name":"9840: Lauda, ZOB - Wittighausen , Abzw.Hof Lilach","from":"Lauda, ZOB","to":"Wittighausen , Abzw.Hof Lilach","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":32,"s":[[448172642,16],[13063457718,17],[6052804568944,18]]},
+  {"id":3049403309699,"t":{"ref":"9841","name":"9841: Lauda, i-Park Tauberfranken - Krensheim, Ort","from":"Lauda, i-Park Tauberfranken","to":"Krensheim, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":18,"s":[[13063457718,13],[448172642,15],[6072151303412,16]]},
+  {"id":3052823435980,"t":{"ref":"9841","name":"9841: Krensheim, Ort - Lauda, Gemeinschaftsschule","from":"Krensheim, Ort","to":"Lauda, Gemeinschaftsschule","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":18,"s":[[6005732491653,3],[6075838570173,4],[13063457718,5]]},
+  {"id":3067301252310,"t":{"ref":"9875","name":"9875: Gerchsheim, Schule - Tauberbischofsheim, Sonnenpl.","from":"Gerchsheim, Schule","to":"Tauberbischofsheim, Sonnenpl.","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":14,"s":[[728175194,7]]},
+  {"id":3069497713034,"t":{"ref":"9841","name":"9841: Krensheim, Ort - Tauberbischofsheim, Abz. Külsh","from":"Krensheim, Ort","to":"Tauberbischofsheim, Abz. Külsh","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":29,"s":[[6005732491653,3],[6075838570173,4],[13063457718,5]]},
+  {"id":3070317788779,"t":{"ref":"9841","name":"9841: Tauberbischofsheim, Abz. Külsh - Krensheim, Ort","from":"Tauberbischofsheim, Abz. Külsh","to":"Krensheim, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":29,"s":[[13063457718,24],[448172642,26],[6072151303412,27]]},
+  {"id":3070673038355,"t":{"ref":"850","name":"850: Tauberbischofsheim, ZOB - Würzburg, Hauptbahnhof ZOB","from":"Tauberbischofsheim, ZOB","to":"Würzburg, Hauptbahnhof ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":16,"s":[[728175189,4]]},
+  {"id":3072895663035,"t":{"ref":"850","name":"850: Tauberbischofsheim, ZOB - Gerchsheim, Schule","from":"Tauberbischofsheim, ZOB","to":"Gerchsheim, Schule","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":10,"s":[[728175189,4]]},
+  {"id":3097461308451,"t":{"ref":"9841","name":"9841: Tauberbischofsheim, Abz. Külsh - Krensheim, Ort","from":"Tauberbischofsheim, Abz. Külsh","to":"Krensheim, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":32,"s":[[13063457718,27],[448172642,29],[6072151303412,30]]},
+  {"id":3097586446061,"t":{"ref":"9840","name":"9840: Wittighausen , Abzw.Hof Lilach - Lauda, ZOB","from":"Wittighausen , Abzw.Hof Lilach","to":"Lauda, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":27,"s":[[6052804568944,11],[13063457718,12]]}
+]
+}

@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2786,3840],
+"stops":[
+  {"id":7817049644,"lat":49.344693,"lon":12.046707,"k":"p","n":"Irlbach"},
+  {"id":7817049645,"lat":49.34266,"lon":12.030096,"k":"p","n":"Haselbach, Ortsmitte"},
+  {"id":7817049646,"lat":49.340125,"lon":12.031971,"k":"p","n":"Haselbach, Schleicherstr."},
+  {"id":7817049647,"lat":49.336327,"lon":12.032942,"k":"p","n":"Haselbach, Dirmeier"},
+  {"id":7817049648,"lat":49.332183,"lon":12.032438,"k":"p","n":"Grain, Abzw."},
+  {"id":7817049649,"lat":49.330331,"lon":12.042167,"k":"p","n":"Grain"},
+  {"id":7817049650,"lat":49.323627,"lon":12.040997,"k":"p","n":"Krumlengenfeld"},
+  {"id":7817049651,"lat":49.324474,"lon":12.03485,"k":"p","n":"Krumbach"},
+  {"id":7817049652,"lat":49.315878,"lon":12.035974,"k":"p","n":"Neukirchen"},
+  {"id":7817049653,"lat":49.306452,"lon":12.039125,"k":"p","n":"Hartenricht"},
+  {"id":7825988933,"lat":49.34488,"lon":12.009713,"k":"p","n":"Dauching"},
+  {"id":11351327467,"lat":49.341225,"lon":12.029614,"k":"p","n":"Haselbach, Diermeier bei Schwandorf"},
+  {"id":6012373624726,"lat":49.323922,"lon":12.041386,"k":"p","n":"Krumlengenfeld","g":1},
+  {"id":6025898031323,"lat":49.330204,"lon":12.043318,"k":"p","n":"Grain","g":1},
+  {"id":6032503343952,"lat":49.343509,"lon":12.032179,"k":"p","n":"Haselbach, Ortsmitte bei Schwandorf","g":1},
+  {"id":6059046312860,"lat":49.345119,"lon":12.010574,"k":"p","n":"Dauching","g":1},
+  {"id":6077997466104,"lat":49.344013,"lon":12.048187,"k":"p","n":"Irlbach b. Schwarzenfeld","g":1},
+  {"id":6086988398577,"lat":49.326768,"lon":12.048744,"k":"p","n":"Grain, Abzw","g":1}
+],
+"routes":[
+  {"id":7402605,"t":{"ref":"108","name":"Bus 108: Schwandorf -> Bubach","from":"Schwandorf","to":"Bubach","network":"Landkreislinien Schwandorf","route":"bus"},"n":26,"s":[[7817049644,10],[7817049645,11],[7817049646,12],[7817049647,13],[7817049648,14],[7817049649,15],[7817049650,16],[7817049651,17],[7817049652,18],[7817049653,19]]},
+  {"id":11516388,"t":{"ref":"108","name":"Bus 108: Bubach -> Schwandorf","from":"Bubach","to":"Schwandorf","network":"Landkreislinien Schwandorf","route":"bus"},"n":24,"s":[[7817049653,8],[7817049652,9],[7817049651,10],[7817049650,11],[7817049649,12],[7817049648,13],[7817049647,14],[7817049646,15],[7817049645,16],[7817049644,17]]},
+  {"id":11519333,"t":{"ref":"109","name":"Bus 109: Schwandorf -> Ensdorf -> Schwandorf","from":"Schwandorf","to":"Ensdorf - Schwandorf","network":"Landkreislinien Schwandorf","route":"bus"},"n":26,"s":[[7825988933,13,15]]},
+  {"id":11519364,"t":{"ref":"110","name":"Bus 110: Schwandorf -> Ensdorf -> Bubach","from":"Schwandorf","to":"Ensdorf - Bubach","network":"Landkreislinien Schwandorf","route":"bus"},"n":32,"s":[[7825988933,15],[7817049645,17],[7817049644,18],[7817049646,19],[7817049647,20],[7817049649,21],[7817049648,22],[7817049650,23],[7817049651,24],[7817049652,25],[7817049653,26]]},
+  {"id":3006710662038,"t":{"ref":"8404","name":"8404: Haselbach, Ortsmitte bei Schwandorf - Säulnhof","from":"Haselbach, Ortsmitte bei Schwandorf","to":"Säulnhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":56,"s":[[6032503343952,1]]},
+  {"id":3012670510634,"t":{"ref":"8410","name":"8410: Schwandorf - Bodenwöhr Nord","from":"Schwandorf","to":"Bodenwöhr Nord","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":76,"s":[[6012373624726,22],[7817049651,23],[7817049652,24],[7817049653,25]]},
+  {"id":3018755223654,"t":{"ref":"8404","name":"8404: Haselbach, Ortsmitte bei Schwandorf - Säulnhof","from":"Haselbach, Ortsmitte bei Schwandorf","to":"Säulnhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":57,"s":[[6032503343952,1]]},
+  {"id":3033481148188,"t":{"ref":"8404","name":"8404: Säulnhof - Haselbach, Ortsmitte bei Schwandorf","from":"Säulnhof","to":"Haselbach, Ortsmitte bei Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":57,"s":[[6032503343952,57]]},
+  {"id":3043903212352,"t":{"ref":"8405","name":"8405: Sonnenried - Schwandorf","from":"Sonnenried","to":"Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":75,"s":[[6032503343952,41],[6059046312860,42],[11351327467,43],[6086988398577,44],[6025898031323,45]]},
+  {"id":3066227396122,"t":{"ref":"8404","name":"8404: Säulnhof - Haselbach, Ortsmitte bei Schwandorf","from":"Säulnhof","to":"Haselbach, Ortsmitte bei Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":56,"s":[[6032503343952,56]]},
+  {"id":3067270051610,"t":{"ref":"8410","name":"8410: Bodenwöhr Nord - Schwandorf","from":"Bodenwöhr Nord","to":"Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":76,"s":[[7817049653,52],[7817049652,53],[7817049651,54],[7817049650,55]]},
+  {"id":3068470404241,"t":{"ref":"8405","name":"8405: Sonnenried - Schwandorf","from":"Sonnenried","to":"Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":50,"s":[[6032503343952,41],[6059046312860,42],[11351327467,43],[6086988398577,44],[6025898031323,45]]},
+  {"id":3076053180039,"t":{"ref":"8405","name":"8405: Schwandorf - Sonnenried","from":"Schwandorf","to":"Sonnenried","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":75,"s":[[6025898031323,31],[6086988398577,32],[11351327467,33],[6059046312860,34],[6032503343952,35],[6077997466104,36]]},
+  {"id":3090490046522,"t":{"ref":"8405","name":"8405: Schwandorf - Sonnenried","from":"Schwandorf","to":"Sonnenried","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":49,"s":[[6025898031323,5],[6086988398577,6],[11351327467,7],[6059046312860,8],[6032503343952,9],[6077997466104,10]]}
+]
+}

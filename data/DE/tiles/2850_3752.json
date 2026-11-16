@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2850,3752],
+"stops":[
+  {"id":292991464,"lat":52.519747,"lon":7.611576,"k":"x","n":"B214/Am Gallenberg"},
+  {"id":5514820810,"lat":52.518806,"lon":7.609974,"k":"p","n":"B214/Am Gallenberg"},
+  {"id":5514820811,"lat":52.519828,"lon":7.611476,"k":"p","n":"B214/Am Gallenberg"},
+  {"id":5514820812,"lat":52.518901,"lon":7.609915,"k":"x","n":"B214/Am Gallenberg"},
+  {"id":5515617515,"lat":52.522644,"lon":7.634604,"k":"x","n":"Abzweig Höne/B214"},
+  {"id":5515617516,"lat":52.521558,"lon":7.640821,"k":"x","n":"Hagemann"},
+  {"id":8242065128,"lat":52.521632,"lon":7.64084,"k":"p","n":"Hagemann"},
+  {"id":8242065129,"lat":52.521538,"lon":7.640445,"k":"p","n":"Hagemann"},
+  {"id":8242065130,"lat":52.521596,"lon":7.640459,"k":"x","n":"Hagemann"},
+  {"id":9841674540,"lat":52.501153,"lon":7.649159,"k":"p","n":"Settrup, Bredenschlag"},
+  {"id":6005739818472,"lat":52.521509,"lon":7.642044,"k":"p","n":"Höne(Fürstenau) Hagemann","g":1},
+  {"id":6086910006864,"lat":52.521415,"lon":7.642058,"k":"p","n":"Höne(Fürstenau) Hagemann","g":1}
+],
+"routes":[
+  {"id":8158615,"t":{"ref":"195","name":"Bus 195: Fürstenau, Post => Rheine, Bahnhof","from":"Fürstenau, Post","to":"Rheine, Bahnhof","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":19,"s":[[8242065128,4],[5514820811,5]]},
+  {"id":8158616,"t":{"ref":"195","name":"Bus 195: Rheine, Bahnhof => Fürstenau, Post","from":"Rheine, Bahnhof","to":"Fürstenau, Post","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":18,"s":[[5514820810,14],[8242065129,15]]},
+  {"id":12038254,"t":{"ref":"131","name":"Bus 131: Fürstenau, Post => Ramsel, B214/Fehren => Lingen, ZOB","from":"Fürstenau, Post","to":"Lingen, ZOB","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":25,"s":[[8242065128,4],[5514820811,5]]},
+  {"id":12038257,"t":{"ref":"131","name":"Bus 131: Lingen, ZOB => Ramsel, B214/Fehren => Fürstenau, Post","from":"Lingen, ZOB","to":"Fürstenau, Post","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":23,"s":[[5514820810,19],[8242065129,20]]},
+  {"id":3081169587914,"t":{"ref":"701","name":"701: Lingen, Bahnhof - Fürstenau(b Bramsche) Bahnhof","from":"Lingen, Bahnhof","to":"Fürstenau(b Bramsche) Bahnhof","operator":"Verkehrsgemeinschaft Emsland-Süd","route":"bus","public_transport:version":"2"},"n":23,"s":[[5514820810,18],[5515617515,19],[6005739818472,20]]},
+  {"id":3088129247708,"t":{"ref":"701","name":"701: Fürstenau(b Bramsche) Bahnhof - Lingen, Bahnhof","from":"Fürstenau(b Bramsche) Bahnhof","to":"Lingen, Bahnhof","operator":"Verkehrsgemeinschaft Emsland-Süd","route":"bus","public_transport:version":"2"},"n":23,"s":[[6086910006864,4],[5515617515,5],[5514820811,6]]}
+]
+}

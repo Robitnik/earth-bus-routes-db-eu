@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2775,3799],
+"stops":[
+  {"id":1553088188,"lat":48.784985,"lon":9.983337,"k":"p","n":"Hirtenteich"},
+  {"id":1553088193,"lat":48.785125,"lon":9.983053,"k":"p","n":"Hirtenteich"},
+  {"id":1553088202,"lat":48.783306,"lon":9.982265,"k":"p","n":"Lauterburg Albstraße"},
+  {"id":1553088204,"lat":48.783161,"lon":9.977933,"k":"p","n":"Lauterburg Kirche"},
+  {"id":1553088208,"lat":48.783235,"lon":9.977855,"k":"p","n":"Lauterburg Kirche"},
+  {"id":1811138481,"lat":48.780085,"lon":9.982536,"k":"p","n":"Lauterburg Wendeplatte"},
+  {"id":2001696089,"lat":48.779916,"lon":9.982324,"k":"p","n":"Lauterburg Wendeplatte"},
+  {"id":2001696090,"lat":48.755574,"lon":9.987586,"k":"p","n":"Bartholomä Rathaus"},
+  {"id":2001696092,"lat":48.753739,"lon":9.992456,"k":"p","n":"Bartholomä Hirschstraße"},
+  {"id":2001696099,"lat":48.757564,"lon":9.987653,"k":"p","n":"Bartholomä Stern"},
+  {"id":2001696104,"lat":48.752712,"lon":9.988836,"k":"p","n":"Bartholomä Adler"},
+  {"id":2001915463,"lat":48.751636,"lon":9.981782,"k":"p","n":"Bartholomä Heubacher Straße"},
+  {"id":2001915464,"lat":48.752657,"lon":9.988977,"k":"p","n":"Bartholomä Rühle"},
+  {"id":2001915465,"lat":48.75524,"lon":9.987615,"k":"p","n":"Bartholomä Hülbe"},
+  {"id":2001915466,"lat":48.758105,"lon":9.98808,"k":"p","n":"Bartholomä Lauterburger Straße"},
+  {"id":2001915467,"lat":48.753729,"lon":9.992649,"k":"p","n":"Bartholomä Krauss"},
+  {"id":6050115493186,"lat":48.751377,"lon":9.98455,"k":"p","n":"Bartholomä, Heubacher Str.","g":1},
+  {"id":6055449894020,"lat":48.751394,"lon":9.98455,"k":"p","n":"Bartholomä, Heubacher Str.","g":1},
+  {"id":6066656043067,"lat":48.799305,"lon":9.973788,"k":"p","n":"Lautern, Schule","g":1}
+],
+"routes":[
+  {"id":3009106215629,"t":{"ref":"76","name":"76: Lautern, Schule - Heubach, Schulzentrum","from":"Lautern, Schule","to":"Heubach, Schulzentrum","operator":"RBS AA + FMO SHA","route":"bus","public_transport:version":"2"},"n":6,"s":[[6066656043067,1]]},
+  {"id":3014501191225,"t":{"ref":"48","network":"OstalbMobil","operator":"OVA","route":"bus","public_transport:version":"2"},"n":20,"s":[[1553088188,15],[1553088208,16],[1811138481,17],[2001696099,18],[2001696092,19],[2001915464,20]]},
+  {"id":3017276690095,"t":{"ref":"294","name":"294: Bartholomä, Rühle - Heubach, Stadthalle","from":"Bartholomä, Rühle","to":"Heubach, Stadthalle","operator":"OstalbMobil","route":"bus","public_transport:version":"2"},"n":4,"s":[[2001915464,1],[6055449894020,2]]},
+  {"id":3034753288287,"t":{"ref":"40","network":"OstalbMobil","operator":"OVA","route":"bus","public_transport:version":"2"},"n":14,"s":[[2001696092,1],[2001915464,2],[2001696090,3],[2001915466,4],[2001696089,5],[1553088204,6],[1553088202,7],[1553088188,8]]},
+  {"id":3043427140866,"t":{"ref":"294","name":"294: Bartholomä, Rühle - Heubach, Schulzentrum","from":"Bartholomä, Rühle","to":"Heubach, Schulzentrum","operator":"OstalbMobil","route":"bus","public_transport:version":"2"},"n":5,"s":[[2001915464,1],[6055449894020,2]]},
+  {"id":3051091124386,"t":{"ref":"294","name":"294: Heubach, Schulzentrum - Bartholomä, Rühle","from":"Heubach, Schulzentrum","to":"Bartholomä, Rühle","operator":"OstalbMobil","route":"bus","public_transport:version":"2"},"n":5,"s":[[6050115493186,4],[2001915464,5]]},
+  {"id":3052986891216,"t":{"ref":"294","name":"294: Heubach, Stadthalle - Bartholomä, Rühle","from":"Heubach, Stadthalle","to":"Bartholomä, Rühle","operator":"OstalbMobil","route":"bus","public_transport:version":"2"},"n":4,"s":[[6050115493186,3],[2001915464,4]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2859,3783],
+"stops":[
+  {"id":306451091,"lat":52.983516,"lon":9.153456,"k":"p","n":"Waldschloß"},
+  {"id":306452646,"lat":52.983508,"lon":9.153737,"k":"p","n":"Waldschloß"},
+  {"id":904421914,"lat":52.975475,"lon":9.192589,"k":"p","n":"Carl-Friedrich-Straße"},
+  {"id":904421921,"lat":52.97681,"lon":9.181949,"k":"p","n":"Suhrfeldstraße"},
+  {"id":904421926,"lat":52.976663,"lon":9.181888,"k":"p","n":"Suhrfeldstraße"},
+  {"id":904421929,"lat":52.978947,"lon":9.170262,"k":"p","n":"Daverden Ort"},
+  {"id":904421930,"lat":52.978819,"lon":9.170007,"k":"p","n":"Daverden Ort"},
+  {"id":904421940,"lat":52.975764,"lon":9.192014,"k":"p","n":"Carl-Friedrich-Straße"},
+  {"id":2740972203,"lat":52.954665,"lon":9.193226,"k":"p","n":"Alte Schule"},
+  {"id":7105960033,"lat":52.954641,"lon":9.193225,"k":"x","n":"Eissel, Alte Schule"},
+  {"id":7125275244,"lat":52.975549,"lon":9.192649,"k":"x","n":"Carl-Friedrich-Straße"},
+  {"id":7125275245,"lat":52.975715,"lon":9.191986,"k":"x","n":"Carl-Friedrich-Straße"},
+  {"id":7125275246,"lat":52.976743,"lon":9.18192,"k":"x","n":"Suhrfeldstraße"},
+  {"id":7125275249,"lat":52.978876,"lon":9.17014,"k":"x","n":"Daverden Ort"},
+  {"id":7125275250,"lat":52.98349,"lon":9.153593,"k":"x","n":"Waldschloß"},
+  {"id":13238094528,"lat":52.976389,"lon":9.182492,"k":"x","n":"Schule Daverden"},
+  {"id":13238094529,"lat":52.97628,"lon":9.1816,"k":"p","n":"Schule Daverden"}
+],
+"routes":[
+  {"id":7633016,"t":{"ref":"718","name":"Bus 718: Verden => Eissel","from":"Verden","to":"Eissel","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":15,"s":[[2740972203,15]]},
+  {"id":8056016,"t":{"ref":"718","name":"Bus 718: Eissel => Verden ZOB","from":"Eissel","to":"Verden ZOB","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":15,"s":[[2740972203,1]]},
+  {"id":8066695,"t":{"ref":"740","name":"Bus 740: Achim => Verden","from":"Achim","to":"Verden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Weser-Ems-Bus","route":"bus","public_transport:version":"2"},"n":21,"s":[[306451091,12],[904421930,13],[904421926,14],[904421914,15]]},
+  {"id":19722508,"t":{"ref":"726","name":"Bus 726: Hagen => Daverden","from":"Hagen","to":"Daverden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":7,"s":[[13238094529,7]]},
+  {"id":19734676,"t":{"ref":"726","name":"Bus 726: Daverden => Steinberg","from":"Daverden","to":"Steinberg","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":8,"s":[[13238094529,1]]},
+  {"id":19734677,"t":{"ref":"726","name":"Bus 726: Daverden => Steinberg","from":"Daverden","to":"Steinberg","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[13238094529,1]]},
+  {"id":19734679,"t":{"ref":"726","name":"Bus 726: Daverden => Hagen","from":"Daverden","to":"Hagen","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":8,"s":[[13238094529,1]]},
+  {"id":19734682,"t":{"ref":"726","name":"Bus 726: Schule Etelsen => Daverden","from":"Schule Etelsen","to":"Daverden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":5,"s":[[13238094529,5]]},
+  {"id":19734683,"t":{"ref":"726","name":"Bus 726: Gabundstraße => Daverden","from":"Gabundstraße","to":"Daverden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"AllerBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[13238094529,9]]},
+  {"id":3023569481902,"t":{"ref":"740","name":"Bus 740: Verden => Bremen","from":"Verden","to":"Bremen Hbf","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Weser-Ems-Bus","route":"bus","public_transport:version":"2"},"n":43,"s":[[904421940,7],[904421921,8],[904421929,9],[306452646,10]]},
+  {"id":3032120750119,"t":{"ref":"740","name":"Bus 740: Verden => Bremen","from":"Verden","to":"Bremen Hbf","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Weser-Ems-Bus","route":"bus","public_transport:version":"2"},"n":32,"s":[[904421940,7],[904421921,8],[904421929,9],[306452646,10]]},
+  {"id":3070266390984,"t":{"ref":"740","name":"Bus 740: Bremen => Verden","from":"Bremen","to":"Verden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Weser-Ems-Bus","route":"bus","public_transport:version":"2"},"n":43,"s":[[306451091,34],[904421930,35],[904421926,36],[7125275245,37]]},
+  {"id":3079571368993,"t":{"ref":"740","name":"Bus 740: Bremen => Verden","from":"Bremen","to":"Verden","network":"Verkehrsverbund Bremen/Niedersachsen","operator":"Weser-Ems-Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[306451091,22],[904421930,23],[904421926,24],[7125275245,25]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3790],
+"stops":[
+  {"id":428137147,"lat":49.744863,"lon":9.523717,"k":"p","n":"Waldenhausen , Ort"},
+  {"id":431300513,"lat":49.713222,"lon":9.546565,"k":"p","n":"Kloster Bronnbach","ref":"941 Lauda"},
+  {"id":431300515,"lat":49.713142,"lon":9.54675,"k":"p","n":"Kloster Bronnbach","ref":"941 Wertheim"},
+  {"id":802024263,"lat":49.713189,"lon":9.503676,"k":"p","n":"An der Waage (Richtung Wertheim)"},
+  {"id":914442405,"lat":49.712831,"lon":9.502467,"k":"p","n":"Dörlesberg, Waage"},
+  {"id":3414668437,"lat":49.730238,"lon":9.531813,"k":"p","n":"Reicholzheim, Siedlung"},
+  {"id":3414668438,"lat":49.725146,"lon":9.532461,"k":"p","n":"Schule"},
+  {"id":11361495278,"lat":49.725294,"lon":9.532563,"k":"p","n":"Schule"},
+  {"id":6017030166693,"lat":49.746301,"lon":9.524576,"k":"p","n":"Waldenhausen, Abzw.","g":1},
+  {"id":6034114663556,"lat":49.746254,"lon":9.524109,"k":"p","n":"Waldenhausen, Abzw.","g":1}
+],
+"routes":[
+  {"id":14052170,"t":{"ref":"971","name":"Bus 971: Wertheim=>Külsheim","from":"Wertheim","to":"Külsheim","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":19,"s":[[914442405,9]]},
+  {"id":14059975,"t":{"ref":"971","name":"Bus 971: Wertheim => Dörlesberg","from":"Wertheim, ZOB","to":"Dörlesberg, Waage","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":6,"s":[[914442405,5]]},
+  {"id":14090688,"t":{"ref":"971","name":"Bus 971: Wertheim => Nassig","from":"Wertheim ZOB","to":"Nassig, Kirche","network":"Verkehrsverbund Rhein-Neckar","operator":"Seitz Bus","route":"bus"},"n":17,"s":[[914442405,10]]},
+  {"id":3016855536148,"t":{"ref":"9871","name":"9871: Wertheim, ZOB - Külsheim, Mainstraße","from":"Wertheim, ZOB","to":"Külsheim, Mainstraße","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":41,"s":[[914442405,24]]},
+  {"id":3018324891608,"t":{"ref":"RB88","name":"RB88: Wertheim, Bahnhof - Tauberbischofsheim, ZOB","from":"Wertheim, Bahnhof","to":"Tauberbischofsheim, ZOB","operator":"DB RegioNetz Verkehrs GmbH Westfrankenbahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[11361495278,2],[431300515,3]]},
+  {"id":3030676810664,"t":{"ref":"9873","name":"9873: Wertheim, ZOB - Bronnbach, Kloster","from":"Wertheim, ZOB","to":"Bronnbach, Kloster","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":29,"s":[[428137147,6],[3414668437,7,27],[11361495278,8,28],[431300513,29]]},
+  {"id":3046943543602,"t":{"ref":"9876","name":"9876: Tauberbischofsheim, Abz. Külsh - Bronnbach, Kloster","from":"Tauberbischofsheim, Abz. Külsh","to":"Bronnbach, Kloster","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[431300515,30]]},
+  {"id":3057631950343,"t":{"ref":"88a","name":"88a: Lauda, ZOB - Wertheim, ZOB","from":"Lauda, ZOB","to":"Wertheim, ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":12,"s":[[431300515,9],[3414668438,10],[6017030166693,11]]},
+  {"id":3058311180674,"t":{"ref":"RB88","name":"RB88: Tauberbischofsheim, ZOB - Wertheim, Bahnhof","from":"Tauberbischofsheim, ZOB","to":"Wertheim, Bahnhof","operator":"DB RegioNetz Verkehrs GmbH Westfrankenbahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[431300515,5],[11361495278,6]]},
+  {"id":3067172507667,"t":{"ref":"9876","name":"9876: Bronnbach, Kloster - Tauberbischofsheim, Abz. Külsh","from":"Bronnbach, Kloster","to":"Tauberbischofsheim, Abz. Külsh","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[431300513,1]]},
+  {"id":3069206807217,"t":{"ref":"88a","name":"88a: Wertheim, ZOB - Lauda, ZOB","from":"Wertheim, ZOB","to":"Lauda, ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":12,"s":[[6034114663556,2],[11361495278,3],[431300513,4]]},
+  {"id":3081137806760,"t":{"ref":"9871","name":"9871: Külsheim, Mainstraße - Wertheim, ZOB","from":"Külsheim, Mainstraße","to":"Wertheim, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":42,"s":[[802024263,18]]}
+]
+}

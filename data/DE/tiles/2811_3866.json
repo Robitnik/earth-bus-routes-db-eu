@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2811,3866],
+"stops":[
+  {"id":2091660659,"lat":50.597827,"lon":13.302896,"k":"p","n":"Rübenau, Dorfplatz"},
+  {"id":2091660660,"lat":50.597936,"lon":13.302599,"k":"p","n":"Rübenau, Dorfplatz"},
+  {"id":2106465833,"lat":50.598757,"lon":13.312826,"k":"p","n":"Rübenau, Grund"},
+  {"id":7129427963,"lat":50.597861,"lon":13.302546,"k":"x","n":"Rübenau, Dorfplatz"},
+  {"id":7129427964,"lat":50.597954,"lon":13.302895,"k":"x","n":"Rübenau, Dorfplatz"},
+  {"id":7132056370,"lat":50.598947,"lon":13.311764,"k":"x","n":"Rübenau, Grund"},
+  {"id":7132056371,"lat":50.598978,"lon":13.311779,"k":"p","n":"Rübenau, Grund"},
+  {"id":7132056372,"lat":50.598814,"lon":13.312813,"k":"x","n":"Rübenau, Grund"},
+  {"id":12154465239,"lat":50.577934,"lon":13.315422,"k":"p","n":"Kalek"},
+  {"id":12154465240,"lat":50.57799,"lon":13.315227,"k":"p","n":"Kalek"},
+  {"id":12154465242,"lat":50.565872,"lon":13.323477,"k":"p","n":"Kalek, Načetín, odb."},
+  {"id":12154465243,"lat":50.565734,"lon":13.323864,"k":"p","n":"Kalek, Načetín, odb."}
+],
+"routes":[
+  {"id":10592821,"t":{"ref":"487","name":"Bus 487: Rübenau, Dorfplatz => Satzung, Kirche","from":"Rübenau, Dorfplatz","to":"Satzung, Kirche","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[2091660660,1]]},
+  {"id":10592822,"t":{"ref":"487","name":"Bus 487: Satzung, Kirche => Rübenau, Dorfplatz","from":"Satzung, Kirche","to":"Rübenau, Dorfplatz","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[2091660659,14]]},
+  {"id":10596607,"t":{"ref":"497","name":"Bus 497: Marienberg, Markt => Reitzenhain => Rübenau => Olbernhau, Bahnhof","from":"Marienberg, Markt","to":"Olbernhau, Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[2091660659,14],[2106465833,15]]},
+  {"id":10596608,"t":{"ref":"497","name":"Bus 497: Olbernhau, Bahnhof => Rübenau => Reitzenhain => Marienberg, Markt","from":"Olbernhau, Bahnhof","to":"Marienberg, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[7132056371,12],[2091660660,13]]},
+  {"id":3097060523769,"t":{"ref":"560","name":"560: Načetín - Chomutov,žel.st.","from":"Načetín","to":"Chomutov,žel.st.","operator":"UMBRELLA CITY LINES s.r.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[12154465240,2],[12154465242,3]]}
+]
+}

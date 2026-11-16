@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2763,3812],
+"stops":[
+  {"id":671224888,"lat":48.181818,"lon":10.640904,"k":"x","n":"Scherstetten Kirche","ref":"B"},
+  {"id":671224889,"lat":48.181407,"lon":10.640845,"k":"p","n":"Scherstetten Kirche"},
+  {"id":671224901,"lat":48.192263,"lon":10.640325,"k":"p","n":"Erkhausen","ref":"A"},
+  {"id":830696387,"lat":48.192321,"lon":10.640427,"k":"p","n":"Erkhausen","ref":"B"},
+  {"id":830696393,"lat":48.174141,"lon":10.639713,"k":"p","n":"Scherstetten Haus Nr. 38","ref":"B"},
+  {"id":830696433,"lat":48.172825,"lon":10.640629,"k":"p","n":"Scherstetten Abzweigung"},
+  {"id":830696436,"lat":48.174011,"lon":10.639695,"k":"p","n":"Scherstetten Haus Nr. 38","ref":"A"},
+  {"id":5124232432,"lat":48.172802,"lon":10.640485,"k":"x","n":"Scherstetten Abzweigung"},
+  {"id":5124232445,"lat":48.192284,"lon":10.640399,"k":"x","n":"Erkhausen","ref":"A;B"},
+  {"id":5124232447,"lat":48.174004,"lon":10.639746,"k":"x","n":"Scherstetten Haus Nr. 38","ref":"A"},
+  {"id":5124232448,"lat":48.174152,"lon":10.639657,"k":"x","n":"Scherstetten Haus Nr. 38","ref":"B"},
+  {"id":5910236916,"lat":48.181375,"lon":10.640958,"k":"x","n":"Scherstetten Kirche"},
+  {"id":5910236921,"lat":48.181771,"lon":10.641033,"k":"p","n":"Scherstetten Kirche","ref":"B"},
+  {"id":6048706414016,"lat":48.179953,"lon":10.64094,"k":"p","n":"Scherstetten, Kirche","g":1},
+  {"id":6083159975856,"lat":48.179977,"lon":10.640787,"k":"p","n":"Scherstetten, Kirche","g":1}
+],
+"routes":[
+  {"id":1083663,"t":{"ref":"705","name":"AVV-Regionalbus 705: Schwabmünchen => Scherstetten","from":"Schwabmünchen, Bahnhof","to":"Scherstetten, Kirche","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":16,"s":[[671224901,15],[671224889,16]]},
+  {"id":1083664,"t":{"ref":"705","name":"AVV-Regionalbus 705: Scherstetten => Schwabmünchen","from":"Scherstetten, Kirche","to":"Schwabmünchen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":16,"s":[[5910236921,1],[830696387,2]]},
+  {"id":1103454,"t":{"ref":"704","name":"AVV-Regionalbus 704: Mittelneufnach => Schwabmünchen","from":"Mittelneufnach, Abzweigung Bahnhof","to":"Schwabmünchen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":19,"s":[[830696393,2],[5910236921,3],[671224889,4],[830696436,5]]},
+  {"id":1103455,"t":{"ref":"704","name":"AVV-Regionalbus 704: Mittelneufnach => Schwabmünchen","from":"Mittelneufnach, Abzweigung Bahnhof","to":"Schwabmünchen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":18,"s":[[830696393,2],[5910236921,3],[830696387,4]]},
+  {"id":1103456,"t":{"ref":"704","name":"AVV-Regionalbus 704: Mittelneufnach => Schwabmünchen","from":"Mittelneufnach, Abzweigung Bahnhof","to":"Schwabmünchen, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":17,"s":[[830696393,2],[5910236921,3],[671224889,4],[830696436,5]]},
+  {"id":1103460,"t":{"ref":"704","name":"AVV-Regionalbus 704: Schwabmünchen => Mittelneufnach","from":"Schwabmünchen, Bahnhof","to":"Mittelneufnach, Abzweigung Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":18,"s":[[830696433,15],[830696393,16],[5910236921,17]]},
+  {"id":1103461,"t":{"ref":"704","name":"AVV-Regionalbus 704: Schwabmünchen => Mittelneufnach","from":"Schwabmünchen, Bahnhof","to":"Mittelneufnach, Abzweigung Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":16,"s":[[830696433,15]]},
+  {"id":1103462,"t":{"ref":"704","name":"AVV-Regionalbus 704: Schwabmünchen => Mittelneufnach","from":"Schwabmünchen, Bahnhof","to":"Mittelneufnach, Abzweigung Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[830696433,13]]},
+  {"id":3006258912979,"t":{"ref":"704","name":"704: Gessertshausen - Schwabmünchen","from":"Gessertshausen","to":"Schwabmünchen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":33,"s":[[5124232447,20],[6048706414016,21]]},
+  {"id":3031853951582,"t":{"ref":"704","name":"704: Schwabmünchen - Gessertshausen","from":"Schwabmünchen","to":"Gessertshausen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":33,"s":[[6083159975856,13],[830696393,14]]},
+  {"id":3041119250141,"t":{"ref":"707","name":"707: Gessertshausen - Schwabmünchen","from":"Gessertshausen","to":"Schwabmünchen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":36,"s":[[671224901,18],[6083159975856,19],[830696393,20]]},
+  {"id":3054900160011,"t":{"ref":"707","name":"707: Schwabmünchen - Gessertshausen","from":"Schwabmünchen","to":"Gessertshausen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":36,"s":[[5124232432,16],[5124232447,17],[6048706414016,18],[830696387,19]]},
+  {"id":3058563096283,"t":{"ref":"707","name":"707: Schwabmünchen - Gessertshausen","from":"Schwabmünchen","to":"Gessertshausen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":37,"s":[[5124232432,17],[5124232447,18],[6048706414016,19],[830696387,20]]},
+  {"id":3062806585111,"t":{"ref":"707","name":"707: Gessertshausen - Schwabmünchen","from":"Gessertshausen","to":"Schwabmünchen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":35,"s":[[671224901,18],[6083159975856,19],[830696393,20]]},
+  {"id":3062985508318,"t":{"ref":"704","name":"704: Schwabmünchen - Gessertshausen","from":"Schwabmünchen","to":"Gessertshausen","operator":"RBA Augsburg","route":"bus","public_transport:version":"2"},"n":34,"s":[[6083159975856,14],[830696393,15]]}
+]
+}

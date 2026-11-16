@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2793,3803],
+"stops":[
+  {"id":3660727374,"lat":49.661087,"lon":10.156914,"k":"p","n":"Gymnasium"},
+  {"id":3660767866,"lat":49.661944,"lon":10.154291,"k":"p","n":"Gymnasium"},
+  {"id":9399354755,"lat":49.658176,"lon":10.166788,"k":"p","n":"Rathaus"},
+  {"id":9399354756,"lat":49.657999,"lon":10.166706,"k":"p","n":"Rathaus"},
+  {"id":9505019572,"lat":49.696866,"lon":10.17688,"k":"p","n":"Michelfeld Am Backhaus"},
+  {"id":9505051947,"lat":49.693931,"lon":10.176339,"k":"p","n":"Michelfeld Im Gärtlein"},
+  {"id":12366204779,"lat":49.69694,"lon":10.176935,"k":"x","n":"Michelfeld Am Backhaus"},
+  {"id":12366608414,"lat":49.694001,"lon":10.176274,"k":"x","n":"Michelfeld Im Gärtlein"},
+  {"id":12384907995,"lat":49.661855,"lon":10.15429,"k":"x","n":"Gymnasium"},
+  {"id":12384907996,"lat":49.66114,"lon":10.156942,"k":"x","n":"Gymnasium"},
+  {"id":12384907997,"lat":49.658017,"lon":10.166771,"k":"x","n":"Rathaus"},
+  {"id":12384907998,"lat":49.65818,"lon":10.166771,"k":"x","n":"Rathaus"},
+  {"id":6015340058357,"lat":49.661886,"lon":10.154897,"k":"p","n":"Marktbreit Gymnasium","g":1},
+  {"id":6073640693798,"lat":49.661886,"lon":10.154897,"k":"p","n":"Marktbreit Gymnasium","g":1}
+],
+"routes":[
+  {"id":14725035,"t":{"ref":"312/8312","name":"Regionalbus 312: Kitzingen => Michelfeld => Marktbreit","from":"Kitzingen","to":"Marktbreit","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"Dietmar Zimmermann","route":"bus","public_transport:version":"2"},"n":12,"s":[[9505019572,9],[9505051947,10]]},
+  {"id":14725037,"t":{"ref":"312/8312","name":"Regionalbus 312: Marktbreit => Michelfeld => Marktsteft => Kitzingen","from":"Marktbreit","to":"Kitzingen","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"Dietmar Zimmermann","route":"bus","public_transport:version":"2"},"n":12,"s":[[9505051947,3],[9505019572,4]]},
+  {"id":14725077,"t":{"ref":"313/8313","name":"Regionalbus 313: Marktbreit - Seinsheim - Martinsheim - Marktbreit","from":"Marktbreit","to":"Marktbreit","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"Dietmar Zimmermann","route":"bus"},"n":19,"s":[[9399354756,2]]},
+  {"id":3005124434427,"t":{"ref":"312 (VGN 8312)","name":"312 (VGN 8312): Marktbreit Lagerhaus - Kitzingen","from":"Marktbreit Lagerhaus","to":"Kitzingen","operator":"PVU 8000er-Linien","route":"bus","public_transport:version":"2"},"n":11,"s":[[12366608414,2],[12366204779,3]]},
+  {"id":3008055229563,"t":{"ref":"312","name":"312: Kitzingen - Marktbreit","from":"Kitzingen","to":"Marktbreit","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[9505051947,9],[9505019572,10]]},
+  {"id":3014130896237,"t":{"ref":"312","name":"312: Marktbreit - Marktbreit","from":"Marktbreit","to":"Marktbreit","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":19,"s":[[6015340058357,2],[9399354756,3]]},
+  {"id":3027406632624,"t":{"ref":"312 (VGN 8312)","name":"312 (VGN 8312): Kitzingen - Marktbreit","from":"Kitzingen","to":"Marktbreit","operator":"PVU 8000er-Linien","route":"bus","public_transport:version":"2"},"n":12,"s":[[9505051947,9],[9505019572,10]]},
+  {"id":3037365469228,"t":{"ref":"312 (VGN 8312)","name":"312 (VGN 8312): Marktbreit - Kitzingen","from":"Marktbreit","to":"Kitzingen","operator":"PVU 8000er-Linien","route":"bus","public_transport:version":"2"},"n":12,"s":[[12366608414,3],[12366204779,4]]},
+  {"id":3041121163521,"t":{"ref":"312","name":"312: Marktbreit - Kitzingen","from":"Marktbreit","to":"Kitzingen","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[12366608414,3],[12366204779,4]]},
+  {"id":3045309662345,"t":{"ref":"312 (VGN 8312)","name":"312 (VGN 8312): Marktbreit - Marktbreit","from":"Marktbreit","to":"Marktbreit","operator":"PVU 8000er-Linien","route":"bus","public_transport:version":"2"},"n":19,"s":[[6073640693798,2],[9399354756,3]]}
+]
+}

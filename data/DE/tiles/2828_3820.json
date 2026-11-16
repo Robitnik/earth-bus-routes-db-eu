@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2828,3820],
+"stops":[
+  {"id":355920971,"lat":51.432685,"lon":11.043947,"k":"p","n":"Kelbra"},
+  {"id":359969589,"lat":51.446766,"lon":11.03187,"k":"p","n":"Thürungen"},
+  {"id":359970503,"lat":51.441066,"lon":11.033298,"k":"p","n":"Thürungen, Abzweig"},
+  {"id":359992258,"lat":51.440921,"lon":11.033216,"k":"p","n":"Thürungen, Abzweig"},
+  {"id":413036722,"lat":51.432839,"lon":11.0329,"k":"p","n":"Altendorf"},
+  {"id":413326226,"lat":51.437465,"lon":11.042715,"k":"p","n":"Kelbra, Schule"},
+  {"id":413326227,"lat":51.433053,"lon":11.045469,"k":"x","n":"Wendeschleife Gymnasium"},
+  {"id":593884628,"lat":51.446738,"lon":11.031914,"k":"x","n":"Thürungen"},
+  {"id":614244643,"lat":51.426432,"lon":11.016395,"k":"p","n":"Kelbra Seebad"},
+  {"id":4395427215,"lat":51.43242,"lon":11.031896,"k":"p","n":"Altendorf"},
+  {"id":4395427216,"lat":51.432478,"lon":11.031821,"k":"x","n":"Altendorf"},
+  {"id":4395427217,"lat":51.43279,"lon":11.032979,"k":"x","n":"Altendorf"},
+  {"id":4395427230,"lat":51.433136,"lon":11.04548,"k":"p","n":"Wendeschleife Gymnasium"},
+  {"id":9848595451,"lat":51.432635,"lon":11.043752,"k":"p","n":"Kelbra"},
+  {"id":6062460154611,"lat":51.440719,"lon":11.034456,"k":"p","n":"Thürungen, Abzweig","g":1},
+  {"id":6097094164928,"lat":51.440697,"lon":11.034717,"k":"p","n":"Thürungen, Abzweig","g":1}
+],
+"routes":[
+  {"id":142613,"t":{"ref":"VGS-450","name":"Bus 450","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"1"},"n":25,"s":[[355920971,1],[359970503,2],[359992258,3],[413326227,12]]},
+  {"id":142637,"t":{"ref":"VGS-514","name":"Bus 514","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus"},"n":9,"s":[[413036722,1],[4395427215,2],[359970503,5],[359992258,6],[355920971,7],[359969589,8],[413326226,9]]},
+  {"id":142665,"t":{"ref":"VGS-452","name":"Bus 452: Kelbra => Roßla","from":"Kelbra","to":"Roßla","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[355920971,1]]},
+  {"id":14297011,"t":{"ref":"VGS-452","name":"Bus 452: Roßla => Kelbra","from":"Roßla","to":"Kelbra","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[355920971,7]]},
+  {"id":3004691622150,"t":{"ref":"450","name":"450: Sangerhausen, Busbahnhof - Breitenstein","from":"Sangerhausen, Busbahnhof","to":"Breitenstein","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":35,"s":[[355920971,18],[6097094164928,19]]},
+  {"id":3007530030146,"t":{"ref":"450","name":"450: Breitenstein - Sangerhausen, Busbahnhof","from":"Breitenstein","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":39,"s":[[6062460154611,18],[355920971,19]]},
+  {"id":3015401067847,"t":{"ref":"450","name":"450: Sangerhausen, Busbahnhof - Breitenstein","from":"Sangerhausen, Busbahnhof","to":"Breitenstein","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":36,"s":[[355920971,18],[6097094164928,19]]},
+  {"id":3070822802646,"t":{"ref":"450","name":"450: Breitenstein - Sangerhausen, Busbahnhof","from":"Breitenstein","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":38,"s":[[6062460154611,17],[355920971,18]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3824],
+"stops":[
+  {"id":2974956754,"lat":51.292325,"lon":11.22061,"k":"x","n":"Heldrungen Waldschlößchen"},
+  {"id":9274260462,"lat":51.279151,"lon":11.244184,"k":"p","n":"Oberheldrungen"},
+  {"id":12610182858,"lat":51.298828,"lon":11.215101,"k":"p","n":"Heldrungen, Oberheldrunger Str."},
+  {"id":12610182861,"lat":51.298834,"lon":11.215059,"k":"x","n":"Heldrungen, Oberheldrunger Str."},
+  {"id":6016714260004,"lat":51.299206,"lon":11.215103,"k":"p","n":"Heldrungen, Oberheldrunger Straße","g":1},
+  {"id":6053018692240,"lat":51.256237,"lon":11.22384,"k":"p","n":"Hemleben","g":1}
+],
+"routes":[
+  {"id":3030456695913,"t":{"ref":"493","name":"493: Heldrungen, Stadt - Hemleben","from":"Heldrungen, Stadt","to":"Hemleben","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":7,"s":[[6053018692240,7]]},
+  {"id":3043693075877,"t":{"ref":"491","name":"491: Heldrungen, Stadt - Hauteroda","from":"Heldrungen, Stadt","to":"Hauteroda","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":6,"s":[[6016714260004,2],[2974956754,3],[9274260462,4]]},
+  {"id":3043758369890,"t":{"ref":"491","name":"491: Hauteroda - Bad Frankenhausen, Tischplatt","from":"Hauteroda","to":"Bad Frankenhausen, Tischplatt","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":19,"s":[[9274260462,3],[2974956754,4],[12610182858,5]]},
+  {"id":3076646283683,"t":{"ref":"493","name":"493: Hemleben - Heldrungen, Stadt","from":"Hemleben","to":"Heldrungen, Stadt","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":7,"s":[[6053018692240,1]]},
+  {"id":3084203008390,"t":{"ref":"491","name":"491: Hauteroda - Heldrungen, Bahnhof","from":"Hauteroda","to":"Heldrungen, Bahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":10,"s":[[9274260462,3],[2974956754,4],[12610182858,5]]}
+]
+}

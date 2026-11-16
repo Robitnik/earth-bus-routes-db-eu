@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2855,3841],
+"stops":[
+  {"id":1176738196,"lat":52.759894,"lon":12.071275,"k":"x","n":"Wulkau"},
+  {"id":5861851965,"lat":52.794975,"lon":12.051186,"k":"p","n":"Sandau, Volksgarten"},
+  {"id":9216638237,"lat":52.796187,"lon":12.052368,"k":"p","n":"Sandau, Volksgarten"},
+  {"id":9216638239,"lat":52.782795,"lon":12.050085,"k":"p","n":"Sandau, Bahnhof"},
+  {"id":11699036078,"lat":52.759831,"lon":12.071278,"k":"p","n":"Wulkau"},
+  {"id":11828954692,"lat":52.759957,"lon":12.072823,"k":"p","n":"Wulkau"}
+],
+"routes":[
+  {"id":13411850,"t":{"ref":"900","name":"Bus 900: Havelberg => Tangermünde => Stendal","from":"Havelberg","to":"Stendal Hauptbahnhof","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[9216638237,4],[9216638239,6]]},
+  {"id":13411851,"t":{"ref":"900","name":"Bus 900: Stendal => Tangermünde => Havelberg","from":"Stendal Hauptbahnhof","to":"Havelberg","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[9216638239,16],[9216638237,18]]},
+  {"id":3008701607696,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":19,"s":[[11699036078,11],[9216638239,12],[9216638237,14]]},
+  {"id":3056296250102,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Stendal, Hauptbahnhof (ZOB)","from":"Havelberg, EDEKA","to":"Stendal, Hauptbahnhof (ZOB)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":19,"s":[[5861851965,6],[11699036078,9]]},
+  {"id":3057770867465,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Tangermünde, Neustädter Tor","from":"Havelberg, EDEKA","to":"Tangermünde, Neustädter Tor","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[5861851965,6],[11699036078,9]]},
+  {"id":3074893040082,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[11699036078,15],[9216638239,16],[9216638237,18]]}
+]
+}

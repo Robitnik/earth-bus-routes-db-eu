@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2865,3863],
+"stops":[
+  {"id":450081630,"lat":53.270131,"lon":13.190932,"k":"p","n":"Comthurey"},
+  {"id":450081815,"lat":53.266212,"lon":13.192492,"k":"x","n":"Comthurey, Unterdorf"},
+  {"id":3009141362,"lat":53.257067,"lon":13.154492,"k":"p","n":"Godendorf"},
+  {"id":4881234174,"lat":53.280593,"lon":13.199028,"k":"p","n":"Wokuhl, Kita"},
+  {"id":4881234175,"lat":53.280646,"lon":13.199297,"k":"p","n":"Wokuhl, Kita"},
+  {"id":5642513915,"lat":53.270111,"lon":13.190863,"k":"x","n":"Comthurey"},
+  {"id":5642513916,"lat":53.270112,"lon":13.190798,"k":"p","n":"Comthurey"},
+  {"id":7804309756,"lat":53.257047,"lon":13.154247,"k":"x","n":"Godendorf"},
+  {"id":7807462004,"lat":53.28069,"lon":13.199285,"k":"x","n":"Wokuhl, Kita"},
+  {"id":7807462005,"lat":53.280565,"lon":13.199034,"k":"x","n":"Wokuhl, Kita"},
+  {"id":7807541505,"lat":53.25258,"lon":13.189396,"k":"x","n":"Godendorf, Abzweig"},
+  {"id":7807541506,"lat":53.252915,"lon":13.18917,"k":"x","n":"Godendorf, Abzweig"},
+  {"id":5000591076553,"lat":53.252541,"lon":13.189553,"k":"p"},
+  {"id":5000597322283,"lat":53.252957,"lon":13.189075,"k":"p","n":"Godendorf, Abzweig"},
+  {"id":5000741256625,"lat":53.266179,"lon":13.19248,"k":"p","n":"Comthurey, Unterdorf"}
+],
+"routes":[
+  {"id":7154091,"t":{"ref":"640","name":"Bus 640: Godendorf => Neustrelitz","from":"Godendorf","to":"Neustrelitz ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":6,"s":[[3009141362,1]]},
+  {"id":7154092,"t":{"ref":"640","name":"Bus 640: Neustrelitz => Düsterförde => Godendorf","from":"Neustrelitz ZOB","to":"Godendorf","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":11,"s":[[3009141362,11]]},
+  {"id":7289526,"t":{"ref":"639","name":"Bus 639: Dabelow, Oberdorf => Wokuhl => Neustrelitz, ZOB","from":"Dabelow, Oberdorf","to":"Neustrelitz, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000591076553,3],[5000741256625,4],[450081630,5],[4881234175,6]]},
+  {"id":7289527,"t":{"ref":"639","name":"Bus 639: Neustrelitz, ZOB => Wokuhl => Dabelow, Oberdorf","from":"Neustrelitz ZOB","to":"Dabelow, Oberdorf","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":16,"s":[[4881234174,11],[5642513916,12],[5000741256625,13],[5000597322283,14]]},
+  {"id":10046677,"t":{"ref":"640","name":"Bus 640: Godendorf => Voßwinkel => Neustrelitz","from":"Godendorf","to":"Neustrelitz ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":13,"s":[[3009141362,1]]},
+  {"id":10046678,"t":{"ref":"640","name":"Bus 640: Neustrelitz => Voßwinkel => Düsterförde => Godendorf","from":"Neustrelitz ZOB","to":"Godendorf","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":17,"s":[[3009141362,17]]}
+]
+}

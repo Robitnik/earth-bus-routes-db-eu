@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2789,3844],
+"stops":[
+  {"id":320114659,"lat":49.450758,"lon":12.233146,"k":"p","n":"Eckendorf, Abzw"},
+  {"id":571203663,"lat":49.464227,"lon":12.209726,"k":"p","n":"Neusath"},
+  {"id":11329263502,"lat":49.464332,"lon":12.209562,"k":"p","n":"Neusath"},
+  {"id":11329264602,"lat":49.49567,"lon":12.200277,"k":"p","n":"Oberpfreimd"},
+  {"id":11329294150,"lat":49.496039,"lon":12.238653,"k":"p","n":"Rappenberg"},
+  {"id":11329335858,"lat":49.477514,"lon":12.2447,"k":"p","n":"Tauchersdorf"},
+  {"id":11329344130,"lat":49.47739,"lon":12.232657,"k":"p","n":"Wiesensüß"},
+  {"id":11329344131,"lat":49.477487,"lon":12.232517,"k":"p","n":"Wiesensüß"},
+  {"id":11329408684,"lat":49.495086,"lon":12.23061,"k":"p","n":"Löffelsberg, Ortsmitte"},
+  {"id":11348291864,"lat":49.473112,"lon":12.227657,"k":"p","n":"Haselhof"},
+  {"id":11348291865,"lat":49.473153,"lon":12.227489,"k":"p","n":"Haselhof"},
+  {"id":6005758039958,"lat":49.496728,"lon":12.201843,"k":"p","n":"Oberpfreimd","g":1},
+  {"id":6015058251556,"lat":49.450755,"lon":12.233985,"k":"p","n":"Eckendorf, Abzw","g":1},
+  {"id":6020302368798,"lat":49.495095,"lon":12.229844,"k":"p","n":"Löffelsberg, Ortsmitte","g":1},
+  {"id":6026463181395,"lat":49.457435,"lon":12.215255,"k":"p","n":"Namsenbach","g":1},
+  {"id":6026704294487,"lat":49.480967,"lon":12.229799,"k":"p","n":"Wiesensüß","g":1},
+  {"id":6032627822097,"lat":49.464412,"lon":12.211114,"k":"p","n":"Neusath","g":1},
+  {"id":6038214240129,"lat":49.493613,"lon":12.240309,"k":"p","n":"Rappenberg","g":1},
+  {"id":6038909917234,"lat":49.464412,"lon":12.211114,"k":"p","n":"Neusath","g":1},
+  {"id":6055598702865,"lat":49.450813,"lon":12.233832,"k":"p","n":"Eckendorf, Abzw","g":1},
+  {"id":6060807794979,"lat":49.466771,"lon":12.216612,"k":"p","n":"Neusath, Freilandmuseum Oberpfalz","g":1},
+  {"id":6065624968653,"lat":49.466724,"lon":12.217456,"k":"p","n":"Neusath, Freilandmuseum Oberpfalz","g":1},
+  {"id":6067437598008,"lat":49.496728,"lon":12.201843,"k":"p","n":"Oberpfreimd","g":1},
+  {"id":6068064529788,"lat":49.457435,"lon":12.215255,"k":"p","n":"Namsenbach","g":1},
+  {"id":6084830952211,"lat":49.480967,"lon":12.229799,"k":"p","n":"Wiesensüß","g":1},
+  {"id":6085524372458,"lat":49.493613,"lon":12.240309,"k":"p","n":"Rappenberg","g":1}
+],
+"routes":[
+  {"id":11523063,"t":{"ref":"121","name":"Bus 121 (Stadtbus Nabburg): Eckendorf -> Nabburng -> Waldfriedhof -> Nabburg -> Eckendorf","from":"Eckendorf","to":"Nabburng -> Waldfriedhof -> Nabburg -> Eckendorf","network":"Landkreislinien Schwandorf","route":"bus"},"n":50,"s":[[571203663,6,45]]},
+  {"id":3008293186899,"t":{"ref":"8402","name":"8402: Pilchau, B 22 - Nabburg","from":"Pilchau, B 22","to":"Nabburg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":72,"s":[[6015058251556,43],[11329335858,48],[6084830952211,49],[11348291865,50],[6038909917234,51],[6060807794979,52],[6068064529788,53]]},
+  {"id":3010970505266,"t":{"ref":"8402","name":"8402: Nabburg - Pilchau, B 22","from":"Nabburg","to":"Pilchau, B 22","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":73,"s":[[6026463181395,20],[6065624968653,21],[6032627822097,22],[11348291865,23],[6026704294487,24],[11329335858,25],[6055598702865,30]]},
+  {"id":3022956156081,"t":{"ref":"8401","name":"8401: Neusath, Freilandmuseum Oberpfalz - Löffelsberg, Ortsmitte","from":"Neusath, Freilandmuseum Oberpfalz","to":"Löffelsberg, Ortsmitte","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":73,"s":[[6065624968653,1],[6005758039958,11],[6085524372458,72],[11329408684,73]]},
+  {"id":3039177682184,"t":{"ref":"8401","name":"8401: Guteneck - Neusath, Freilandmuseum Oberpfalz","from":"Guteneck","to":"Neusath, Freilandmuseum Oberpfalz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":75,"s":[[6020302368798,2],[6038214240129,3],[6067437598008,65],[6060807794979,75]]},
+  {"id":3068481657383,"t":{"ref":"8401","name":"8401: Neusath, Freilandmuseum Oberpfalz - Guteneck","from":"Neusath, Freilandmuseum Oberpfalz","to":"Guteneck","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":75,"s":[[6065624968653,1],[6005758039958,11],[6085524372458,73],[11329408684,74]]},
+  {"id":3071632120441,"t":{"ref":"8401","name":"8401: Löffelsberg, Ortsmitte - Neusath, Freilandmuseum Oberpfalz","from":"Löffelsberg, Ortsmitte","to":"Neusath, Freilandmuseum Oberpfalz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":73,"s":[[6020302368798,1],[6038214240129,2],[6067437598008,63],[6060807794979,73]]},
+  {"id":3086141155782,"t":{"ref":"8401","name":"8401: Guteneck - Neusath, Freilandmuseum Oberpfalz","from":"Guteneck","to":"Neusath, Freilandmuseum Oberpfalz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":60,"s":[[6020302368798,2],[6038214240129,3],[6060807794979,60]]}
+]
+}

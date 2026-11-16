@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2772,3841],
+"stops":[
+  {"id":300035057,"lat":48.60895,"lon":12.093647,"k":"x","n":"Unterwaltenkofen"},
+  {"id":380182238,"lat":48.606334,"lon":12.09559,"k":"x","n":"Oberwaltenkofen"},
+  {"id":2302897888,"lat":48.617642,"lon":12.063545,"k":"x","n":"Gabisreuth"},
+  {"id":4112427260,"lat":48.622814,"lon":12.085692,"k":"p","n":"Windham"},
+  {"id":4112427261,"lat":48.622793,"lon":12.085917,"k":"p","n":"Windham"},
+  {"id":4112429207,"lat":48.628146,"lon":12.076483,"k":"p","n":"Grafenhaun"},
+  {"id":5410212465,"lat":48.617139,"lon":12.063522,"k":"p","n":"Gabisreuth"},
+  {"id":5410212466,"lat":48.617639,"lon":12.063613,"k":"p","n":"Gabisreuth"},
+  {"id":5410215670,"lat":48.648131,"lon":12.088345,"k":"p","n":"Altenkofen/Ettenkofen, Abzw."},
+  {"id":5410215671,"lat":48.648044,"lon":12.088019,"k":"p","n":"Altenkofen/Ettenkofen, Abzw."},
+  {"id":5410220436,"lat":48.635323,"lon":12.081402,"k":"p","n":"Bergham/Petersgleim, Abzw."},
+  {"id":5410220437,"lat":48.635319,"lon":12.081261,"k":"p","n":"Bergham/Petersgleim, Abzw."},
+  {"id":6124284772,"lat":48.60628,"lon":12.095452,"k":"p","n":"Oberwaltenkofen"},
+  {"id":6124284773,"lat":48.608907,"lon":12.093546,"k":"p","n":"Unterwaltenkofen"},
+  {"id":9853487986,"lat":48.617135,"lon":12.063612,"k":"x","n":"Gabisreuth"},
+  {"id":9853487987,"lat":48.628086,"lon":12.076431,"k":"x","n":"Grafenhaun"},
+  {"id":9853487988,"lat":48.628059,"lon":12.076348,"k":"p","n":"Grafenhaun"},
+  {"id":9853487990,"lat":48.635318,"lon":12.081321,"k":"x","n":"Bergham/Petersgleim, Abzw."},
+  {"id":9853487991,"lat":48.64809,"lon":12.088153,"k":"x","n":"Altenkofen/Ettenkofen, Abzw."},
+  {"id":9856502070,"lat":48.622804,"lon":12.085817,"k":"x","n":"Windham"}
+],
+"routes":[
+  {"id":6125150,"t":{"ref":"534","name":"Bus 534: Unterglaim, Kreuzung => Pfarrkofen (Ergolding)","from":"Unterglaim, Kreuzung","to":"Pfarrkofen (Ergolding)","network":"Münchner Verkehrs- und Tarifverbund","operator":"RBO","route":"bus","public_transport:version":"2"},"n":7,"s":[[6124284773,5],[6124284772,6]]},
+  {"id":6125261,"t":{"ref":"534","name":"Bus 534: Ergolding, SFZ La.-Land => Pfarrkofen (Ergolding)","from":"Ergolding, SFZ La.-Land","to":"Pfarrkofen (Ergolding)","network":"Münchner Verkehrs- und Tarifverbund","operator":"RBO","route":"bus","public_transport:version":"2"},"n":13,"s":[[6124284773,11],[6124284772,12]]},
+  {"id":6126126,"t":{"ref":"534","name":"Bus 534: Ergolding, Bauhofstraße => Rottenburg, Bahnhof","from":"Ergolding, Bauhofstraße","to":"Rottenburg, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"RBO","route":"bus","public_transport:version":"2"},"n":26,"s":[[6124284773,11],[6124284772,12]]},
+  {"id":6129344,"t":{"ref":"534","name":"Bus 534: Landshut, Hauptbahnhof => Untergambach => Rottenburg, Bahnhof","from":"Landshut, Hauptbahnhof","to":"Rottenburg, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"RBO","route":"bus","public_transport:version":"2"},"n":36,"s":[[4112427261,11],[4112429207,12]]},
+  {"id":14308363,"t":{"ref":"534","name":"Bus 534: Grafenhaun => Landshut, Am Alten Viehmarkt","from":"Grafenhaun","to":"Landshut, Am Alten Viehmarkt","network":"Münchner Verkehrs- und Tarifverbund","operator":"RBO","route":"bus","public_transport:version":"2"},"n":12,"s":[[9853487988,1],[4112427260,2]]},
+  {"id":14308364,"t":{"ref":"534","name":"Bus 534: Rottenburg, Bahnhof => Grafenhaun => Landshut, Hauptbahnhof","from":"Rottenburg, Bahnhof","to":"Landshut, Hauptbahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"RBO","route":"bus","public_transport:version":"2"},"n":35,"s":[[9853487988,25],[4112427260,26]]},
+  {"id":3015900545347,"t":{"ref":"614","name":"614: Furth b. Landshut, Gymnasium - Rottenburg, Bahnhof","from":"Furth b. Landshut, Gymnasium","to":"Rottenburg, Bahnhof","operator":"Landkreis Landshut","route":"bus","public_transport:version":"2"},"n":17,"s":[[5410212466,3],[9853487988,4],[5410220436,5],[5410215670,6]]},
+  {"id":3053463398477,"t":{"ref":"599","name":"Bus 599: Rottenburg, Bahnhof => Furth bei Landshut, Gymnasium","from":"Rottenburg, Bahnhof","to":"Furth bei Landshut, Gymnasium","network":"Münchner Verkehrs- und Tarifverbund","operator":"Amberger","route":"bus","public_transport:version":"2"},"n":17,"s":[[5410215671,12],[5410220437,13],[9853487988,14],[5410212465,15]]},
+  {"id":3089505259175,"t":{"ref":"599","name":"Bus 599: Furth bei Landshut, Gymnasium => Rottenburg, Bahnhof","from":"Furth bei Landshut, Gymnasium","to":"Rottenburg, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"Amberger","route":"bus","public_transport:version":"2"},"n":17,"s":[[5410212466,3],[9853487988,4],[9853487990,5],[5410215670,6]]}
+]
+}

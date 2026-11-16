@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3767],
+"stops":[
+  {"id":575221936,"lat":51.560232,"lon":8.399017,"k":"p","n":"Mitte"},
+  {"id":575221965,"lat":51.560537,"lon":8.399024,"k":"p","n":"Mitte"},
+  {"id":583577418,"lat":51.56128,"lon":8.382422,"k":"p","n":"Abzweig"},
+  {"id":583577419,"lat":51.561252,"lon":8.382308,"k":"p","n":"Abzweig"},
+  {"id":2335814542,"lat":51.569525,"lon":8.373363,"k":"x","n":"Am Brink"},
+  {"id":2529323129,"lat":51.570161,"lon":8.370733,"k":"x","n":"Kindergarten"},
+  {"id":5818618429,"lat":51.560536,"lon":8.399084,"k":"x","n":"Mitte"},
+  {"id":5818618430,"lat":51.560249,"lon":8.398957,"k":"x","n":"Mitte"},
+  {"id":5819738409,"lat":51.561272,"lon":8.382367,"k":"x","n":"Abzweig"},
+  {"id":5819738410,"lat":51.561257,"lon":8.382374,"k":"x","n":"Abzweig"},
+  {"id":6911613386,"lat":51.56208,"lon":8.377863,"k":"x","n":"Weickede"},
+  {"id":6033149151794,"lat":51.571277,"lon":8.371337,"k":"p","n":"Berge, Feuerwehrhaus","g":1},
+  {"id":6037674481399,"lat":51.569094,"lon":8.372065,"k":"p","n":"Berge, Am Brink","g":1},
+  {"id":6042728232557,"lat":51.569044,"lon":8.368624,"k":"p","n":"Berge, Ophöverweg","g":1}
+],
+"routes":[
+  {"id":358850,"t":{"ref":"672","name":"Bus 672","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"1"},"n":27,"s":[[575221936,15],[575221965,16],[583577419,17],[583577418,18]]},
+  {"id":358853,"t":{"ref":"558","name":"Bus 558: Anröchte => Berge","to":"Berge","network":"WestfalenTarif","operator":"Regionalverkehr Ruhr-Lippe GmbH","route":"bus","public_transport:version":"1"},"n":11,"s":[[575221936,3],[575221965,4],[583577419,5],[583577418,6]]},
+  {"id":8515694,"t":{"ref":"R62","name":"Bus R62: Lippstadt, Bustreff Bahnhof => Oestereiden, Grundschule => Rüthen, Markt","from":"Lippstadt, Bustreff Bahnhof","to":"Rüthen, Markt","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[575221965,15]]},
+  {"id":8515721,"t":{"ref":"R62","name":"Bus R62: Lippstadt, Bustreff Bahnhof => Rüthen, Schulzentrum => Rüthen, Markt","from":"Lippstadt, Bustreff Bahnhof","to":"Rüthen, Markt","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[575221965,15]]},
+  {"id":8515743,"t":{"ref":"R62","name":"Bus R62: Rüthen, Markt => Rüthen, Weickede => Lippstadt, Bustreff Bahnhof","from":"Rüthen, Markt","to":"Lippstadt, Bustreff Bahnhof","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[575221936,11]]},
+  {"id":8515744,"t":{"ref":"R62","name":"Bus R62: Rüthen, Markt => Weickede, Abzweig => Lippstadt, Bustreff Bahnhof","from":"Rüthen, Markt","to":"Lippstadt, Bustreff Bahnhof","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[583577418,8],[575221936,9]]},
+  {"id":8515751,"t":{"ref":"R62","name":"Bus R62: Rüthen, Markt => Oestereiden, Grundschule => Lippstadt, Bustreff Bahnhof","from":"Rüthen, Markt","to":"Lippstadt, Bustreff Bahnhof","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[575221936,9]]},
+  {"id":3020299064409,"t":{"ref":"R62","name":"Bus R62: Lippstadt, Bustreff Bahnhof => Rüthen, Markt","from":"Lippstadt, Bustreff Bahnhof","to":"Rüthen, Markt","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[5818618430,14]]},
+  {"id":3035777781564,"t":{"ref":"R62","name":"Bus R62: Rüthen, Markt => Lippstadt, Bustreff Bahnhof","from":"Rüthen, Markt","to":"Lippstadt, Bustreff Bahnhof","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[5818618429,8]]},
+  {"id":3041022115229,"t":{"ref":"658","name":"658: Berge, Am Brink - Anröchte, Rathaus","from":"Berge, Am Brink","to":"Anröchte, Rathaus","operator":"RLG Kreis Soest 47","route":"bus","public_transport:version":"2"},"n":3,"s":[[6037674481399,1],[2529323129,2]]},
+  {"id":3044066456950,"t":{"ref":"Helmo","name":"Helmo: Anröchte, AST-Zielgebiet - Uelde, St. Antonius-Kirche","from":"Anröchte, AST-Zielgebiet","to":"Uelde, St. Antonius-Kirche","operator":"RLG AST","route":"bus","public_transport:version":"2"},"n":46,"s":[[6037674481399,36],[2529323129,37],[6033149151794,38],[6042728232557,39]]},
+  {"id":3061830887377,"t":{"ref":"658","name":"658: Anröchte, Rathaus - Berge, Am Brink","from":"Anröchte, Rathaus","to":"Berge, Am Brink","operator":"RLG Kreis Soest 47","route":"bus","public_transport:version":"2"},"n":3,"s":[[2529323129,2],[6037674481399,3]]},
+  {"id":3075800717658,"t":{"ref":"Helmo","name":"Helmo: Altengeseke, Schrotweg - Anröchte, AST-Zielgebiet","from":"Altengeseke, Schrotweg","to":"Anröchte, AST-Zielgebiet","operator":"RLG AST","route":"bus","public_transport:version":"2"},"n":46,"s":[[6037674481399,27],[2529323129,28],[6033149151794,29],[6042728232557,30]]}
+]
+}

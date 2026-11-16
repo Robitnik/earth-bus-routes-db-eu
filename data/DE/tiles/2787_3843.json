@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2787,3843],
+"stops":[
+  {"id":6985928482,"lat":49.385956,"lon":12.155361,"k":"p","n":"Traunricht"},
+  {"id":6985928483,"lat":49.386079,"lon":12.15487,"k":"p","n":"Traunricht"},
+  {"id":7822153683,"lat":49.376155,"lon":12.158976,"k":"p","n":"Asbach b. Schwarzenfeld"},
+  {"id":7822153684,"lat":49.361596,"lon":12.15257,"k":"p","n":"Lindenlohe, Abzw."},
+  {"id":11309470206,"lat":49.381244,"lon":12.151375,"k":"p","n":"Schwaig bei Schwarzenfeld"},
+  {"id":11309488749,"lat":49.352963,"lon":12.163215,"k":"p","n":"Freihöls/Lindenlohe"},
+  {"id":11309488750,"lat":49.353046,"lon":12.162989,"k":"p","n":"Freihöls/Lindenlohe"},
+  {"id":11309786321,"lat":49.358701,"lon":12.157348,"k":"p","n":"Asklepios Klinik Lindenlohe"},
+  {"id":11309796065,"lat":49.357315,"lon":12.178091,"k":"p","n":"Holzhaus (Schwarzenfeld)"},
+  {"id":11309796066,"lat":49.357518,"lon":12.177566,"k":"p","n":"Holzhaus (Schwarzenfeld)"},
+  {"id":11329098265,"lat":49.361437,"lon":12.152643,"k":"p","n":"Lindenlohe, Abzw."},
+  {"id":11393800245,"lat":49.392634,"lon":12.167683,"k":"p","n":"Pretzabruck, Milchbank"},
+  {"id":11393800246,"lat":49.392638,"lon":12.168192,"k":"p","n":"Pretzabruck, Milchbank"},
+  {"id":11393887786,"lat":49.387899,"lon":12.184773,"k":"p","n":"Zilchenricht"},
+  {"id":11393887787,"lat":49.3877,"lon":12.184687,"k":"p","n":"Zilchenricht"},
+  {"id":11394300336,"lat":49.389719,"lon":12.193118,"k":"p","n":"Auhof b. Schwarzach"},
+  {"id":6020489627462,"lat":49.354429,"lon":12.161365,"k":"p","n":"Freihöls/Lindenlohe","g":1},
+  {"id":6041430340909,"lat":49.392864,"lon":12.164896,"k":"p","n":"Pretzabruck, Milchbank","g":1},
+  {"id":6059864310239,"lat":49.354429,"lon":12.161365,"k":"p","n":"Freihöls/Lindenlohe","g":1},
+  {"id":6065687515659,"lat":49.354429,"lon":12.161365,"k":"p","n":"Freihöls/Lindenlohe","g":1},
+  {"id":6067596347198,"lat":49.39294,"lon":12.166135,"k":"p","n":"Pretzabruck, Milchbank","g":1}
+],
+"routes":[
+  {"id":11233768,"t":{"ref":"1942","name":"Bus 1942: Weiden -> Nabburg -> Schwarzenfeld -> Schwandorf","from":"Weiden","to":"Schwandorf","network":"VGN","operator":"Regionalbus Ostbayern","colour":"#A78B6A","route":"bus"},"n":44,"s":[[6985928483,35],[7822153683,36],[7822153684,37]]},
+  {"id":11233769,"t":{"ref":"1942","name":"Bus 1942: Schwandorf -> Schwarzenfeld -> Nabburg -> Weiden","from":"Schwandorf","to":"Weiden","network":"VGN","operator":"Regionalbus Ostbayern","colour":"#A78B6A","route":"bus"},"n":44,"s":[[7822153684,6],[7822153683,7],[6985928482,8]]},
+  {"id":3018755223654,"t":{"ref":"8404","name":"8404: Haselbach, Ortsmitte bei Schwandorf - Säulnhof","from":"Haselbach, Ortsmitte bei Schwandorf","to":"Säulnhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":57,"s":[[6985928483,4]]},
+  {"id":3033481148188,"t":{"ref":"8404","name":"8404: Säulnhof - Haselbach, Ortsmitte bei Schwandorf","from":"Säulnhof","to":"Haselbach, Ortsmitte bei Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":57,"s":[[6985928483,54]]},
+  {"id":3043903212352,"t":{"ref":"8405","name":"8405: Sonnenried - Schwandorf","from":"Sonnenried","to":"Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":75,"s":[[11393887787,13],[6067596347198,14],[6985928483,16],[11309470206,17],[7822153683,18],[7822153684,32],[11309786321,33],[6065687515659,34]]},
+  {"id":3050672349196,"t":{"ref":"2511","name":"2511: Neunburg v.W., Ost/ Stadthalle - Schwandorf","from":"Neunburg v.W., Ost/ Stadthalle","to":"Schwandorf","operator":"sonstige Linien","route":"bus","public_transport:version":"2"},"n":18,"s":[[11309796066,13],[6020489627462,14]]},
+  {"id":3068470404241,"t":{"ref":"8405","name":"8405: Sonnenried - Schwandorf","from":"Sonnenried","to":"Schwandorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":50,"s":[[11393887787,13],[6067596347198,14],[6985928483,16],[11309470206,17],[7822153683,18],[7822153684,32],[11309786321,33],[6065687515659,34]]},
+  {"id":3076053180039,"t":{"ref":"8405","name":"8405: Schwandorf - Sonnenried","from":"Schwandorf","to":"Sonnenried","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":75,"s":[[6059864310239,42],[11309786321,43],[11329098265,44],[7822153683,58],[11309470206,59],[6985928482,60],[6041430340909,62],[11393887787,63]]},
+  {"id":3080992931020,"t":{"ref":"2511","name":"2511: Schwandorf - Neunburg v.W., Ost/ Stadthalle","from":"Schwandorf","to":"Neunburg v.W., Ost/ Stadthalle","operator":"sonstige Linien","route":"bus","public_transport:version":"2"},"n":17,"s":[[6020489627462,4],[11309796066,5]]},
+  {"id":3090490046522,"t":{"ref":"8405","name":"8405: Schwandorf - Sonnenried","from":"Schwandorf","to":"Sonnenried","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":49,"s":[[6059864310239,16],[11309786321,17],[11329098265,18],[7822153683,32],[11309470206,33],[6985928482,34],[6041430340909,36],[11393887787,37]]}
+]
+}

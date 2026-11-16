@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2796,3830],
+"stops":[
+  {"id":420244610,"lat":49.81348,"lon":11.522529,"k":"p","n":"Leups"},
+  {"id":788063301,"lat":49.809755,"lon":11.532377,"k":"x","n":"Kotzenhammer"},
+  {"id":2502571131,"lat":49.844914,"lon":11.50861,"k":"p","n":"Weiglathal"},
+  {"id":2589783423,"lat":49.826078,"lon":11.516782,"k":"p","n":"Oberhöhlmühle"},
+  {"id":2589783429,"lat":49.829017,"lon":11.534777,"k":"p","n":"Lindenhardt (Wartehaus)","ref":"372;387;388"},
+  {"id":4549505444,"lat":49.82895,"lon":11.533568,"k":"x"},
+  {"id":7672924664,"lat":49.828972,"lon":11.534805,"k":"x"},
+  {"id":7672924665,"lat":49.844947,"lon":11.508516,"k":"p"},
+  {"id":8785451870,"lat":49.801161,"lon":11.546509,"k":"p","n":"Wolfslohe"},
+  {"id":8785451871,"lat":49.801197,"lon":11.546668,"k":"p","n":"Wolfslohe"},
+  {"id":8799003285,"lat":49.809668,"lon":11.532351,"k":"p","n":"Kotzenhammer"},
+  {"id":8799003286,"lat":49.809854,"lon":11.532365,"k":"p","n":"Kotzenhammer"},
+  {"id":8799567912,"lat":49.813129,"lon":11.524049,"k":"p","n":"Leups"},
+  {"id":9284621054,"lat":49.844829,"lon":11.508547,"k":"p","n":"Weiglathal"},
+  {"id":9284653209,"lat":49.826079,"lon":11.515631,"k":"p","n":"Oberhöhlmühle"},
+  {"id":11829725846,"lat":49.828956,"lon":11.533534,"k":"p","n":"Lindenhardt An der Kirche"},
+  {"id":11829725848,"lat":49.828951,"lon":11.534835,"k":"p","n":"Lindenhardt (Wartehaus)"},
+  {"id":11829986568,"lat":49.813071,"lon":11.524023,"k":"x"},
+  {"id":11830019793,"lat":49.813539,"lon":11.52257,"k":"x"}
+],
+"routes":[
+  {"id":3392452,"t":{"ref":"372","name":"Regionalbus 372 - Lindenhardt-Bayreuth","network":"Verkehrsverbund Großraum Nürnberg","operator":"VGN","route":"bus"},"n":9,"s":[[2589783423,4],[2589783429,5],[7672924665,6]]},
+  {"id":14619345,"t":{"ref":"388","name":"Rufbus 388: Pegnitz - Lindenhardt","from":"Pegnitz","to":"Lindenhardt","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":12,"s":[[420244610,10],[2589783429,11]]},
+  {"id":14619346,"t":{"ref":"388","name":"Rufbus 388: Lindenhardt - Pegnitz","from":"Lindenhardt","to":"Pegnitz","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":11,"s":[[2589783429,2],[8799567912,3]]},
+  {"id":3003512070765,"t":{"ref":"394.9","name":"394.9: Pegnitz Krankenhaus - Lindenhardt An der Kirche","from":"Pegnitz Krankenhaus","to":"Lindenhardt An der Kirche","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[420244610,10],[11829725846,12]]},
+  {"id":3035626243983,"t":{"ref":"394.9","name":"394.9: Lindenhardt An der Kirche - Pegnitz Krankenhaus","from":"Lindenhardt An der Kirche","to":"Pegnitz Krankenhaus","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":13,"s":[[11829725846,1],[420244610,3]]}
+]
+}

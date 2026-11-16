@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2821,3850],
+"stops":[
+  {"id":268026158,"lat":51.083641,"lon":12.528204,"k":"p","n":"Neukirchen, An der Schanze"},
+  {"id":279807559,"lat":51.068074,"lon":12.536299,"k":"x","n":"Benndorf, Wendeplatz"},
+  {"id":429520311,"lat":51.080386,"lon":12.540046,"k":"x","n":"Abzw Bubendorf"},
+  {"id":668141787,"lat":51.091023,"lon":12.528381,"k":"p","n":"Neukirchen Werk"},
+  {"id":3197324851,"lat":51.09031,"lon":12.528398,"k":"p","n":"Neukirchen, Werk"},
+  {"id":4327726968,"lat":51.091007,"lon":12.528251,"k":"x","n":"Neukirchen, Werk"},
+  {"id":7258266924,"lat":51.099933,"lon":12.505822,"k":"x","n":"Plateka (Wyhratal)"},
+  {"id":7258266925,"lat":51.090343,"lon":12.528549,"k":"x","n":"Neukirchen, Werk"},
+  {"id":7258266940,"lat":51.079095,"lon":12.514062,"k":"x","n":"Wyhra, Teich"},
+  {"id":7258266941,"lat":51.075761,"lon":12.505296,"k":"x","n":"Wyhra, Neulandsiedlung"},
+  {"id":7260121302,"lat":51.080477,"lon":12.539534,"k":"x","n":"Bubendorf (Frohburg), Abzweig"},
+  {"id":7633507084,"lat":51.082844,"lon":12.532944,"k":"x","n":"Neukirchen, Gasthof"},
+  {"id":7633520578,"lat":51.098542,"lon":12.531006,"k":"p","n":"Zedtlitz, Gewerbegebiet (Lotter Metall)"},
+  {"id":7633520581,"lat":51.098537,"lon":12.530948,"k":"x","n":"Zedtlitz, Gewerbegebiet (Lotter Metall)"},
+  {"id":7633537991,"lat":51.078962,"lon":12.542398,"k":"p","n":"Bubendorf"},
+  {"id":7633537992,"lat":51.079001,"lon":12.542415,"k":"x","n":"Bubendorf"},
+  {"id":7633546885,"lat":51.082509,"lon":12.533692,"k":"x","n":"Neukirchen, Gasthof"},
+  {"id":7674062500,"lat":51.082912,"lon":12.532966,"k":"p","n":"Neukirchen, Gasthof"},
+  {"id":7674062501,"lat":51.082464,"lon":12.53359,"k":"p","n":"Neukirchen, Gasthof"},
+  {"id":5000777742301,"lat":51.099887,"lon":12.505844,"k":"p"},
+  {"id":5000777742314,"lat":51.075784,"lon":12.505247,"k":"p","n":"Wyhra (Wyhratal), Neulandsiedlung"},
+  {"id":5000777742315,"lat":51.075749,"lon":12.505343,"k":"p","n":"Wyhra (Wyhratal), Neulandsiedlung"},
+  {"id":6066337665839,"lat":51.078956,"lon":12.540414,"k":"p","n":"Bubendorf (Frohburg)","g":1}
+],
+"routes":[
+  {"id":11261645,"t":{"ref":"286","name":"Bus 286: Geithain - Frohburg - Borna - Lippendorf","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[7674062500,18],[7674062501,19],[668141787,20]]},
+  {"id":3015300839351,"t":{"ref":"S3","name":"S3: Geithain - Borna (Leipzig)","from":"Geithain","to":"Borna (Leipzig)","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":5,"s":[[268026158,3]]},
+  {"id":3030340500349,"t":{"ref":"260","name":"260 Borna - Neukirchen - Frohburg","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[279807559,3],[7260121302,4],[7674062500,5],[268026158,6],[668141787,7]]},
+  {"id":3044556159612,"t":{"ref":"260","name":"260 Borna - Neukirchen - Frohburg","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[3197324851,6],[268026158,7],[7633546885,8],[6066337665839,9],[279807559,10]]},
+  {"id":3046154252191,"t":{"ref":"260","name":"260 Borna - Neukirchen - Frohburg","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[3197324851,6],[268026158,7],[7633546885,8],[429520311,9],[279807559,10]]},
+  {"id":3058728696773,"t":{"ref":"260","name":"260 Borna - Neukirchen - Frohburg","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[7633520578,6],[3197324851,8],[268026158,9],[7633546885,10],[6066337665839,11],[279807559,12]]},
+  {"id":3059538866545,"t":{"ref":"255","name":"255 Borna - Plateka - Neukirchen - Wyhra - Thräna","from":"Borna","to":"Thräna","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[7258266924,7],[268026158,9],[7258266940,10],[5000777742314,11]]},
+  {"id":3070100739191,"t":{"ref":"255","name":"255 Thräna - Wyhra - Neukirchen - Plateka - Borna","from":"Thräna","to":"Borna","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000777742315,3],[7258266940,4],[268026158,5]]},
+  {"id":3087238781387,"t":{"ref":"S3","name":"S3: Borna (Leipzig) - Geithain","from":"Borna (Leipzig)","to":"Geithain","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":5,"s":[[7258266924,2],[268026158,3]]}
+]
+}

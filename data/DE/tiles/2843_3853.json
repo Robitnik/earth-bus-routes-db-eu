@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2843,3853],
+"stops":[
+  {"id":1069953364,"lat":52.152452,"lon":12.694954,"k":"x","n":"Ortsmitte"},
+  {"id":1363413331,"lat":52.160246,"lon":12.688255,"k":"p","n":"Ausbau"},
+  {"id":1363417136,"lat":52.152442,"lon":12.695021,"k":"p","n":"Ortsmitte"},
+  {"id":1851770447,"lat":52.172353,"lon":12.677938,"k":"x","n":"Dorf"},
+  {"id":1851770461,"lat":52.172378,"lon":12.677949,"k":"p","n":"Dorf"},
+  {"id":3639254766,"lat":52.16022,"lon":12.688211,"k":"x","n":"Ausbau"},
+  {"id":3639258574,"lat":52.164352,"lon":12.684336,"k":"x","n":"Bahnhof"},
+  {"id":5378108454,"lat":52.152464,"lon":12.694879,"k":"p","n":"Ortsmitte"},
+  {"id":5378108455,"lat":52.160316,"lon":12.68809,"k":"x","n":"Ausbau"},
+  {"id":5378108456,"lat":52.16029,"lon":12.688029,"k":"p","n":"Ausbau"},
+  {"id":5378108457,"lat":52.164328,"lon":12.684304,"k":"p","n":"Bahnhof"},
+  {"id":10287277786,"lat":52.164529,"lon":12.684182,"k":"x","n":"Bahnhof"},
+  {"id":10287277787,"lat":52.164551,"lon":12.684253,"k":"p","n":"Bahnhof"},
+  {"id":5001124952094,"lat":52.164512,"lon":12.684285,"k":"p","n":"Bahnhof"},
+  {"id":5001124952100,"lat":52.172353,"lon":12.678087,"k":"p","n":"Dorf"}
+],
+"routes":[
+  {"id":5327996,"t":{"ref":"586","name":"Bus 586: Neschholz, Ortsmitte => Niemegk, Schule","from":"Neschholz, Ortsmitte","to":"Niemegk, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#00a996","route":"bus","public_transport:version":"2"},"n":9,"s":[[5378108454,1]]},
+  {"id":5343947,"t":{"ref":"586","name":"Bus 586: Bad Belzig, Am Betriebshof => Niemegk, Schule","from":"Bad Belzig, Am Betriebshof","to":"Niemegk, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#00a996","route":"bus","public_transport:version":"2"},"n":13,"s":[[5378108454,3]]},
+  {"id":5343960,"t":{"ref":"586","name":"Bus 586: Niemegk, Markt => Bad Belzig, Bahnhof","from":"Niemegk, Markt","to":"Bad Belzig, Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#00a996","route":"bus","public_transport:version":"2"},"n":17,"s":[[1363417136,9],[1363413331,10],[5001124952094,11],[5001124952100,12]]},
+  {"id":5344040,"t":{"ref":"586","name":"Bus 586: Bad Belzig, Bahnhof => Niemegk, Markt","from":"Bad Belzig, Bahnhof","to":"Niemegk, Markt","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#00a996","route":"bus","public_transport:version":"2"},"n":18,"s":[[5001124952100,7],[5378108457,8],[5378108456,9],[5378108454,10]]},
+  {"id":5344041,"t":{"ref":"586","name":"Bus 586: Bad Belzig, Weitzgrunder Weg => Niemegk, Markt","from":"Bad Belzig, Weitzgrunder Weg","to":"Niemegk, Markt","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#00a996","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001124952100,10],[5378108457,11],[5378108456,12],[5378108454,13]]},
+  {"id":5344112,"t":{"ref":"586","name":"Bus 586: Neschholz, Ortsmitte => Bad Belzig, Weitzgrunder Weg","from":"Neschholz, Ortsmitte","to":"Bad Belzig, Weitzgrunder Weg","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#00a996","route":"bus","public_transport:version":"2"},"n":13,"s":[[1363417136,1],[1363413331,2],[5001124952094,3],[5001124952100,4]]},
+  {"id":11804563,"t":{"ref":"540","name":"Bus 540: Bad Belzig, Busbahnhof => Brück, Schulen","from":"Busbahnhof","to":"Schulen","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":16,"s":[[5001124952100,6],[5378108457,7],[5378108456,8],[5378108454,9]]},
+  {"id":11804564,"t":{"ref":"540","name":"Bus 540: Bad Belzig, Busbahnhof => Brück, Bahnhof","from":"Busbahnhof","to":"Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":12,"s":[[1363417136,6]]},
+  {"id":11804565,"t":{"ref":"540","name":"Bus 540: Brück, Bahnhof => Trebitz => Bad Belzig, Busbahnhof","from":"Bahnhof","to":"Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":12,"s":[[5378108454,7]]},
+  {"id":11804567,"t":{"ref":"540","name":"Bus 540: Brück, Bahnhof => Baitz => Bad Belzig, Busbahnhof","from":"Bahnhof","to":"Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":16,"s":[[1363417136,8],[1363413331,9],[5001124952094,10],[5001124952100,11]]},
+  {"id":15023035,"t":{"ref":"540","name":"Bus 540: Bad Belzig, Busbahnhof => Trebitz => Brück, Schulen","from":"Busbahnhof","to":"Schulen","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":13,"s":[[1363417136,6]]},
+  {"id":17413914,"t":{"ref":"540","name":"Bus 540: Neschholz, Ortsmitte => Brück, Bahnhof","from":"Ortsmitte","to":"Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":7,"s":[[1363417136,1]]},
+  {"id":17413917,"t":{"ref":"540","name":"Bus 540: Brück, Schulen => Bad Belzig, Busbahnhof","from":"Bahnhof","to":"Kirche","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":12,"s":[[5378108454,7]]},
+  {"id":17413919,"t":{"ref":"540","name":"Bus 540: Bad Belzig, Busbahnhof => Brück, Schulen","from":"Busbahnhof","to":"Schulen","network":"Verkehrsverbund Berlin-Brandenburg","operator":"regiobus Potsdam Mittelmark GmbH","colour":"#7452ae","route":"bus","public_transport:version":"2"},"n":12,"s":[[1363417136,6]]}
+]
+}

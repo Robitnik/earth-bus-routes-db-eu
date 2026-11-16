@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2826,3894],
+"stops":[
+  {"id":2013776365,"lat":51.314945,"lon":14.703901,"k":"p","n":"Mücka Schule / Mikow šula"},
+  {"id":2631887140,"lat":51.303627,"lon":14.74818,"k":"p","n":"Abzweig nach Petershain / Wotbóčka do Hóznicy"},
+  {"id":4462575819,"lat":51.303019,"lon":14.73253,"k":"p","n":"Horscha / Hóršow","ref":"8582"},
+  {"id":4462575820,"lat":51.3031,"lon":14.732598,"k":"p","n":"Horscha / Hóršow","ref":"8582"},
+  {"id":6773898592,"lat":51.314995,"lon":14.703831,"k":"x","n":"Mücka Schule / Mikow šula"},
+  {"id":7739145627,"lat":51.319893,"lon":14.703457,"k":"p","n":"Mücka Bahnhof / Mikow dwórnišćo"},
+  {"id":8475853348,"lat":51.303574,"lon":14.747682,"k":"p","n":"Abzweig nach Petershain / Wotbóčka do Hóznicy","ref":"8470"},
+  {"id":11658200158,"lat":51.319858,"lon":14.703362,"k":"x","n":"Mücka Bahnhof"},
+  {"id":11658200159,"lat":51.319792,"lon":14.703437,"k":"p","n":"Mücka Bahnhof / Mikow dwórnišćo"},
+  {"id":13050291645,"lat":51.316962,"lon":14.748984,"k":"p","n":"Petershain Bahnhof / Hóznica dwórnišćo","ref":"8580"},
+  {"id":6016241192329,"lat":51.319683,"lon":14.704622,"k":"p","n":"Mücka Bahnhof","g":1},
+  {"id":6020956552156,"lat":51.319739,"lon":14.704146,"k":"p","n":"Mücka Bahnhof","g":1},
+  {"id":6033883455356,"lat":51.319616,"lon":14.705179,"k":"p","n":"Mücka Bahnhof","g":1}
+],
+"routes":[
+  {"id":17259527,"t":{"ref":"75","name":"Bus 75: Mücka => Förstgen => Hohendubrau => Waldhufen => Niesky","from":"Mücka Bahnhof","to":"Niesky Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[11658200159,1],[2013776365,2]]},
+  {"id":17565825,"t":{"ref":"76","name":"Bus 76: Mücka => Förstgen => Klitten => Boxberg => Uhyst (Spree)","from":"Mücka Schule","to":"Uhyst (Spree) Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[2013776365,1]]},
+  {"id":17583045,"t":{"ref":"S75","name":"Schulbus S75: Mücka => See","from":"Mücka Bahnhof","to":"See Grundschule","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":9,"s":[[11658200159,1],[2013776365,2]]},
+  {"id":3002867325081,"t":{"ref":"S75","name":"S75: See Grundschule - Stannewisch Feuerwehr","from":"See Grundschule","to":"Stannewisch Feuerwehr","operator":"Omnibus Verkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[8475853348,3],[4462575820,4],[13050291645,5]]},
+  {"id":3019423906232,"t":{"ref":"501","name":"TaktBus 501: Bautzen => Kleinsaubernitz => Mücka","from":"Bautzen Busbahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[6773898592,21],[6016241192329,22]]},
+  {"id":3020737763232,"t":{"ref":"S75","name":"Schulbus S75 : See => Mücka","from":"See Grundschule","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":9,"s":[[6033883455356,1],[6773898592,2]]},
+  {"id":3051685821514,"t":{"ref":"70","name":"TaktBus 70: Weißwasser => Boxberg => Mücka","from":"Weißwasser Bahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[6020956552156,22]]},
+  {"id":3062347496360,"t":{"ref":"70","name":"TaktBus 70: Weißwasser => Boxberg => Mücka","from":"Weißwasser Bahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[6020956552156,21]]},
+  {"id":3069622368480,"t":{"ref":"501","name":"TaktBus 501: Mücka => Kleinsaubernitz => Bautzen","from":"Mücka Bahnhof","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[6016241192329,1],[6773898592,2]]},
+  {"id":3074396450212,"t":{"ref":"70","name":"TaktBus 70: Mücka => Boxberg => Weißwasser","from":"Mücka Bahnhof","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":23,"s":[[6773898592,1],[6020956552156,2]]},
+  {"id":3075005924828,"t":{"ref":"70","name":"TaktBus 70: Mücka => Boxberg => Weißwasser","from":"Mücka Bahnhof","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":23,"s":[[6020956552156,1]]},
+  {"id":3083493105240,"t":{"ref":"70","name":"TaktBus 70: Mücka => Boxberg => Weißwasser","from":"Mücka Bahnhof","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[6020956552156,1]]}
+]
+}

@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2758,3770],
+"stops":[
+  {"id":120380194,"lat":47.912923,"lon":8.504582,"k":"x","n":"Lehrhof"},
+  {"id":250672636,"lat":47.949979,"lon":8.500251,"k":"x","n":"Donaueschingen, Josefstraße"},
+  {"id":414922170,"lat":47.908506,"lon":8.537967,"k":"x","n":"Sumpfohren"},
+  {"id":559547602,"lat":47.940644,"lon":8.500718,"k":"p","n":"Allmendshofen"},
+  {"id":1233522214,"lat":47.908625,"lon":8.538275,"k":"x","n":"Sumpfohren"},
+  {"id":2800966988,"lat":47.940739,"lon":8.500591,"k":"x","n":"Allmendshofen"},
+  {"id":7636172162,"lat":47.939502,"lon":8.50032,"k":"p","n":"Allmendshofen"},
+  {"id":7707470848,"lat":47.907606,"lon":8.540849,"k":"p","n":"Wendeplatte"},
+  {"id":9703984588,"lat":47.949992,"lon":8.500178,"k":"p","n":"Josefstraße"},
+  {"id":9703984606,"lat":47.949967,"lon":8.500328,"k":"p","n":"Josefstraße"},
+  {"id":6008163670640,"lat":47.949088,"lon":8.500192,"k":"p","n":"Donaueschingen Josefstraße","g":1},
+  {"id":6067919113880,"lat":47.949088,"lon":8.500192,"k":"p","n":"Donaueschingen Josefstraße","g":1},
+  {"id":6077628935461,"lat":47.949082,"lon":8.500084,"k":"p","n":"Donaueschingen Josefstraße","g":1},
+  {"id":6086261966112,"lat":47.934386,"lon":8.54508,"k":"p","n":"Pfohren Riedsee","g":1},
+  {"id":6091841718301,"lat":47.934362,"lon":8.545143,"k":"p","n":"Pfohren Riedsee","g":1}
+],
+"routes":[
+  {"id":3665229,"t":{"ref":"7277","from":"Hauptstraße, Blumberg (Baden)","to":"Donaueschingen, Busbahnhof","route":"bus"},"n":7,"s":[[559547602,7]]},
+  {"id":11217571,"t":{"ref":"910","name":"Linie 910","from":"Donaueschingen","to":"Blumberg","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","route":"bus"},"n":14,"s":[[414922170,4],[1233522214,5],[7707470848,6]]},
+  {"id":11218605,"t":{"ref":"900","name":"900","from":"Blumberg","to":"Donaueschingen","route":"bus","public_transport:version":"2"},"n":2,"s":[[2800966988,1],[559547602,2]]},
+  {"id":11218606,"t":{"name":"910","from":"Blumberg","to":"Donaueschingen","route":"bus"},"n":2,"s":[[2800966988,1]]},
+  {"id":14091103,"t":{"ref":"DS3","name":"Bus DS3: Donaueschingen Äußere Röte => Donaueschingen Busbahnhof","from":"Donaueschingen, Äußere Röte","to":"Donaueschingen, Busbahnhof","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Verkehrsgesellschaft Bergtal","route":"bus","public_transport:version":"2"},"n":7,"s":[[9703984588,6]]},
+  {"id":3015520322070,"t":{"ref":"DS3","name":"Bus DS3: Donaueschingen Äußere Röte => Donaueschingen Busbahnhof","from":"Donaueschingen, Äußere Röte","to":"Donaueschingen, Busbahnhof","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Verkehrsgesellschaft Bergtal","route":"bus","public_transport:version":"2"},"n":10,"s":[[6008163670640,9]]},
+  {"id":3018113939133,"t":{"ref":"DS3","name":"Bus DS3: Donaueschingen Busbahnhof => Donaueschingen Äußere Röte","from":"Donaueschingen, Busbahnhof","to":"Donaueschingen, Äußere Röte","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Verkehrsgesellschaft Bergtal","route":"bus","public_transport:version":"2"},"n":13,"s":[[6067919113880,2]]},
+  {"id":3038496276748,"t":{"ref":"900","name":"900: Donaueschingen ZOB - Blumberg Schulzentrum","from":"Donaueschingen ZOB","to":"Blumberg Schulzentrum","operator":"SBK","route":"bus","public_transport:version":"2"},"n":15,"s":[[7636172162,2],[120380194,8]]},
+  {"id":3049703628947,"t":{"ref":"900","name":"900: Blumberg Schulzentrum - Donaueschingen ZOB","from":"Blumberg Schulzentrum","to":"Donaueschingen ZOB","operator":"SBK","route":"bus","public_transport:version":"2"},"n":16,"s":[[120380194,9],[559547602,15]]},
+  {"id":3049831015373,"t":{"ref":"820","name":"820: Donaueschingen ZOB - Gutmadingen Ortsmitte","from":"Donaueschingen ZOB","to":"Gutmadingen Ortsmitte","operator":"SBK","route":"bus","public_transport:version":"2"},"n":14,"s":[[6008163670640,2],[6086261966112,10]]},
+  {"id":3059224828189,"t":{"ref":"800","name":"800: Donaueschingen ZOB - Schwenningen Bahnhof","from":"Donaueschingen ZOB","to":"Schwenningen Bahnhof","operator":"SBG-Villingen","route":"bus","public_transport:version":"2"},"n":18,"s":[[6077628935461,2]]},
+  {"id":3065430205942,"t":{"ref":"820","name":"820: Gutmadingen Ortsmitte - Donaueschingen ZOB","from":"Gutmadingen Ortsmitte","to":"Donaueschingen ZOB","operator":"SBK","route":"bus","public_transport:version":"2"},"n":15,"s":[[6091841718301,6]]},
+  {"id":3067236544317,"t":{"ref":"910","name":"Bus 910: Blumberg → Donaueschingen","from":"Blumberg","to":"Donaueschingen","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Verkehrsgesellschaft Bregtal mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[7636172162,2],[414922170,11],[7707470848,12],[1233522214,13]]},
+  {"id":3090253449481,"t":{"ref":"910","name":"Bus 910: Blumberg → Donaueschingen","from":"Blumberg","to":"Donaueschingen","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Verkehrsgesellschaft Bregtal mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[414922170,12],[7707470848,13],[1233522214,14],[559547602,23]]},
+  {"id":3092493800208,"t":{"ref":"810","name":"810: Donaueschingen ZOB - Öfingen Feriendorf","from":"Donaueschingen ZOB","to":"Öfingen Feriendorf","operator":"SBG-Villingen","route":"bus","public_transport:version":"2"},"n":20,"s":[[6077628935461,2]]},
+  {"id":3096915638698,"t":{"ref":"DS3","name":"Bus DS3: Donaueschingen Busbahnhof => Donaueschingen Äußere Röte","from":"Donaueschingen, Busbahnhof","to":"Donaueschingen, Äußere Röte","network":"Verkehrsverbund Schwarzwald-Baar-Heuberg","operator":"Verkehrsgesellschaft Bergtal","route":"bus","public_transport:version":"2"},"n":11,"s":[[6067919113880,2]]},
+  {"id":3097294120255,"t":{"ref":"810","name":"810: Donaueschingen ZOB - Bad Dürrh. Unterb. Ringstrasse","from":"Donaueschingen ZOB","to":"Bad Dürrh. Unterb. Ringstrasse","operator":"SBG-Villingen","route":"bus","public_transport:version":"2"},"n":19,"s":[[6077628935461,2]]}
+]
+}

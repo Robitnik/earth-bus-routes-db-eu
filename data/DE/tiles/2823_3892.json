@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3892],
+"stops":[
+  {"id":5753959004,"lat":51.187711,"lon":14.637529,"k":"p","n":"Kotitz Niederkotitz"},
+  {"id":5753959005,"lat":51.187585,"lon":14.637921,"k":"p","n":"Kotitz Niederkotitz"},
+  {"id":6715114376,"lat":51.156981,"lon":14.622154,"k":"p","n":"Zschorna / Čornjow"},
+  {"id":7216771611,"lat":51.189514,"lon":14.620704,"k":"p","n":"Kotitz Abzweig nach Oberkotitz"},
+  {"id":7216771613,"lat":51.197807,"lon":14.623551,"k":"p","n":"Abzweig nach Weicha / Wotbóčka do Wichow"},
+  {"id":7216798352,"lat":51.197795,"lon":14.623408,"k":"p","n":"Abzweig nach Weicha / Wotbóčka do Wichow"},
+  {"id":7216798353,"lat":51.189552,"lon":14.620558,"k":"p","n":"Kotitz Abzweig nach Oberkotitz"},
+  {"id":7216798367,"lat":51.199907,"lon":14.63694,"k":"p","n":"Weicha"},
+  {"id":7394884994,"lat":51.157073,"lon":14.622229,"k":"p","n":"Zschorna / Čornjow"},
+  {"id":7394885020,"lat":51.184555,"lon":14.617658,"k":"p","n":"Kotitz Ort"},
+  {"id":7394885021,"lat":51.184566,"lon":14.617503,"k":"p","n":"Kotitz Ort"},
+  {"id":7419212709,"lat":51.174413,"lon":14.616536,"k":"p","n":"Lauske bei Weißenberg"},
+  {"id":7419212710,"lat":51.174495,"lon":14.61659,"k":"p","n":"Lauske bei Weißenberg"},
+  {"id":7616159758,"lat":51.150385,"lon":14.640806,"k":"p","n":"Spittel"},
+  {"id":12194243073,"lat":51.150596,"lon":14.640978,"k":"p","n":"Spittel"},
+  {"id":12253041061,"lat":51.179618,"lon":14.63776,"k":"p","n":"Särka Ortsmitte"},
+  {"id":12253041062,"lat":51.179866,"lon":14.638041,"k":"p","n":"Särka Ortsmitte"},
+  {"id":12278926251,"lat":51.184571,"lon":14.617577,"k":"x","n":"Kotitz Ort"},
+  {"id":13299498637,"lat":51.188091,"lon":14.626992,"k":"p","n":"Kotitz Jan-Kilian-Straße"},
+  {"id":6035701683875,"lat":51.173881,"lon":14.618922,"k":"p","n":"Lauske b Weißenberg","g":1},
+  {"id":6076002317378,"lat":51.173965,"lon":14.618886,"k":"p","n":"Lauske b Weißenberg","g":1}
+],
+"routes":[
+  {"id":17955855,"t":{"ref":"702","name":"Bus 702: Bautzen => Baruth => Weißenberg","from":"Bautzen Busbahnhof","to":"Weißenberg Schützenhaus","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":30,"s":[[7216798352,26],[7216798367,27]]},
+  {"id":17955856,"t":{"ref":"702","name":"Bus 702: Weißenberg => Baruth => Bautzen","from":"Weißenberg Schützenhaus","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":28,"s":[[7216771613,6]]},
+  {"id":18081443,"t":{"ref":"705","name":"Bus 705: Weißenberg => Hochkirch","from":"Weißenberg Markt","to":"Hochkirch August-Bebel-Platz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":10,"s":[[12194243073,5],[7394884994,6]]},
+  {"id":18081444,"t":{"ref":"705","name":"Bus 705: Hochkirch => Weißenberg","from":"Hochkirch August-Bebel-Platz","to":"Weißenberg Markt","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":10,"s":[[6715114376,5],[7616159758,6]]},
+  {"id":18196621,"t":{"ref":"719","name":"Bus 719: Kotitz => Weißenberg => Radibor","from":"Kotitz Dorf","to":"Radibor Schule","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":31,"s":[[7394885021,1],[7419212709,2],[12253041061,3],[5753959004,8],[7216771611,9]]},
+  {"id":18196622,"t":{"ref":"719","name":"Bus 719: Radibor => Weißenberg => Kotitz","from":"Radibor Schule","to":"Kotitz Dorf","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":32,"s":[[7216798353,25],[5753959005,26],[12253041062,30],[7419212710,31],[7394885020,32]]},
+  {"id":3012365334422,"t":{"ref":"502","name":"PlusBus 502: Weißenberg => Gröditz => Bautzen","from":"Weißenberg Schützenhaus","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":24,"s":[[5753959004,5],[7216798353,6],[7216798352,7]]},
+  {"id":3020938136015,"t":{"ref":"502","name":"PlusBus 502: Bautzen => Gröditz => Weißenberg","from":"Bautzen Busbahnhof","to":"Weißenberg Schützenhaus","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[7216771613,18],[7216798353,19],[13299498637,20],[5753959005,21]]},
+  {"id":3037763331600,"t":{"ref":"714","name":"Bus 714: Weißenberg => Drehsa => Bautzen","from":"Weißenberg Markt","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[12253041062,10],[6076002317378,11]]},
+  {"id":3083388696284,"t":{"ref":"502","name":"PlusBus 502: Bautzen => Gröditz => Weißenberg","from":"Bautzen Busbahnhof","to":"Weißenberg Schützenhaus","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":24,"s":[[7216771613,18],[7216798353,19],[13299498637,20],[5753959005,21]]},
+  {"id":3085941989655,"t":{"ref":"714","name":"Bus 714: Bautzen => Drehsa => Weißenberg","from":"Bautzen Busbahnhof","to":"Weißenberg Markt","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[6035701683875,14],[12253041061,15]]}
+]
+}

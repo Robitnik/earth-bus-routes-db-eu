@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2779,3764],
+"stops":[
+  {"id":28179687,"lat":48.980837,"lon":8.212985,"k":"p","n":"Berg, Bahnhof"},
+  {"id":332315192,"lat":48.987817,"lon":8.204316,"k":"p","n":"Berg, Zollhaus"},
+  {"id":332315195,"lat":48.987827,"lon":8.204438,"k":"p","n":"Berg, Zollhaus"},
+  {"id":332315198,"lat":48.983632,"lon":8.204806,"k":"p","n":"Berg, Sparkasse"},
+  {"id":332315200,"lat":48.983636,"lon":8.204933,"k":"p","n":"Berg, Sparkasse"},
+  {"id":332315202,"lat":48.983632,"lon":8.211223,"k":"p","n":"Berg, Feuerwehrhaus"},
+  {"id":332315204,"lat":48.983585,"lon":8.211724,"k":"p","n":"Berg, Feuerwehrhaus"},
+  {"id":800455869,"lat":48.992051,"lon":8.238397,"k":"p","n":"Neuburg, Bahnhof"},
+  {"id":2089220844,"lat":48.95158,"lon":8.237218,"k":"p","n":"Au am Rhein, Wehrstraße"},
+  {"id":2109398859,"lat":48.951354,"lon":8.237211,"k":"p","n":"Au am Rhein, Wehrstraße"},
+  {"id":2189445999,"lat":48.954407,"lon":8.241224,"k":"x","n":"Au am Rhein Diehl"},
+  {"id":2367885051,"lat":48.980857,"lon":8.212936,"k":"x","n":"Berg, Bahnhof"},
+  {"id":2367885054,"lat":48.983552,"lon":8.211661,"k":"x","n":"Berg, Feuerwehrhaus"},
+  {"id":2367885055,"lat":48.983625,"lon":8.204855,"k":"x","n":"Berg, Sparkasse"},
+  {"id":2367885056,"lat":48.98367,"lon":8.211277,"k":"x","n":"Berg, Feuerwehrhaus"},
+  {"id":2367885057,"lat":48.987818,"lon":8.204381,"k":"x","n":"Berg, Zollhaus"},
+  {"id":5144433090,"lat":48.951545,"lon":8.23726,"k":"x","n":"Au am Rhein Wehrstraße"},
+  {"id":8039656212,"lat":48.988599,"lon":8.247864,"k":"p","n":"Neuburg, Bürgerhaus"},
+  {"id":13672084889,"lat":48.982185,"lon":8.202577,"k":"p","n":"Berg Grundschule"},
+  {"id":6071327317841,"lat":48.950769,"lon":8.238934,"k":"p","n":"Au Ortsmitte","g":1},
+  {"id":6081322311754,"lat":48.950727,"lon":8.239249,"k":"p","n":"Au Ortsmitte","g":1}
+],
+"routes":[
+  {"id":3273700,"t":{"ref":"227","name":"Bus 227: Rastatt => Durmersheim","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"green","route":"bus","public_transport:version":"2"},"n":21,"s":[[2109398859,19]]},
+  {"id":6693551,"t":{"ref":"227","name":"Bus 227: Au am Rhein => Rastatt","from":"Au am Rhein","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"green","route":"bus","public_transport:version":"2"},"n":21,"s":[[2089220844,1]]},
+  {"id":7623765,"t":{"ref":"225","name":"225 ALT (Au am Rhein - Neuburgweier)","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Walz GmbH","route":"bus"},"n":4,"s":[[2189445999,2],[2089220844,3,4]]},
+  {"id":11785923,"t":{"ref":"549","name":"Bus 549: Wörth => Kandel","from":"Wörth Berufsschule","to":"Kandel Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":20,"s":[[800455869,10],[8039656212,11],[28179687,12],[332315204,13],[332315200,14],[332315195,15]]},
+  {"id":13558071,"t":{"ref":"227","name":"Bus 227: Elchesheim => Durmersheim","from":"Elchesheim","to":"Durmersheim","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"green","route":"bus","public_transport:version":"2"},"n":2,"s":[[2089220844,2]]},
+  {"id":3003537319792,"t":{"ref":"222","name":"Bus 222: Rastatt => Mörsch","from":"Rastatt","to":"Mörsch","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#EFB9CE","route":"bus","public_transport:version":"2"},"n":30,"s":[[6071327317841,17]]},
+  {"id":3015109171609,"t":{"ref":"222","name":"Bus 222: Rastatt => Mörsch","from":"Rastatt","to":"Mörsch","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#EFB9CE","route":"bus","public_transport:version":"2"},"n":23,"s":[[6071327317841,8],[2189445999,9]]},
+  {"id":3046252430222,"t":{"ref":"222","name":"Bus 222: Karlsruhe Entenfang => Rastatt","from":"Karlsruhe Entenfang","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#EFB9CE","route":"bus","public_transport:version":"2"},"n":30,"s":[[6081322311754,14]]},
+  {"id":3063838837233,"t":{"ref":"222","name":"Bus 222: Mörsch => Rastatt","from":"Mörsch","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#EFB9CE","route":"bus","public_transport:version":"2"},"n":24,"s":[[2189445999,15],[6081322311754,16]]},
+  {"id":3077139601977,"t":{"ref":"222","name":"Bus 222: Rastatt => Karlsruhe Entenfang","from":"Rastatt","to":"Karlsruhe Entenfang","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#EFB9CE","route":"bus","public_transport:version":"2"},"n":31,"s":[[6071327317841,17]]},
+  {"id":3077372407763,"t":{"ref":"222","name":"Bus 222: Mörsch => Rastatt","from":"Mörsch","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#EFB9CE","route":"bus","public_transport:version":"2"},"n":30,"s":[[6081322311754,14]]},
+  {"id":3085195403869,"t":{"ref":"549","name":"Bus 549: Kandel => Wörth","from":"Kandel Bahnhof","to":"Wörth Berufsschule","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[2367885051,1],[2367885056,2],[2367885055,3],[332315195,4]]},
+  {"id":3088596610445,"t":{"ref":"549","name":"Bus 549: Kandel => Wörth","from":"Kandel Bahnhof","to":"Wörth Berufsschule","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[2367885057,6],[332315198,7],[2367885056,8],[2367885051,9]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2879,3825],
+"stops":[
+  {"id":302304272,"lat":53.975551,"lon":11.251453,"k":"p","n":"Tarnewitz, Weisse Wiek"},
+  {"id":4894062581,"lat":53.975526,"lon":11.251596,"k":"x","n":"Weiße Wiek"},
+  {"id":5000874918344,"lat":53.975536,"lon":11.251503,"k":"p","n":"Weiße Wiek"}
+],
+"routes":[
+  {"id":70470,"t":{"ref":"320","name":"320 Grevesmühlen - Damshagen - Klütz - Boltenhagen - Tarnewitz / Redewisch","network":"NAHBUS Nordwestmecklenburg GmbH","operator":"Nahbus","route":"bus"},"n":8,"s":[[302304272,8]]},
+  {"id":1278211,"t":{"ref":"390","name":"Bus 390: Weiße Wiek => Lübeck ZOB","from":"Weiße Wiek","to":"Lübeck ZOB/Hauptbahnhof","network":"Verkehrsgemeinschaft Westmecklenburg","route":"bus","public_transport:version":"2"},"n":46,"s":[[5000874918344,1]]},
+  {"id":1720926,"t":{"ref":"390","name":"Bus 390: Lübeck ZOB => Weiße Wiek","from":"Lübeck ZOB/Hauptbahnhof","to":"Weiße Wiek","network":"Verkehrsgemeinschaft Westmecklenburg","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000874918344,41]]},
+  {"id":3001561698752,"t":{"ref":"325","name":"325: Tarnewitz (Boltenhagen) Weiße Wiek - Redewisch Gutshaus","from":"Tarnewitz (Boltenhagen) Weiße Wiek","to":"Redewisch Gutshaus","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":23,"s":[[302304272,1]]},
+  {"id":3010049954781,"t":{"ref":"325","name":"325: Redewisch Gutshaus - Tarnewitz (Boltenhagen) Weiße Wiek","from":"Redewisch Gutshaus","to":"Tarnewitz (Boltenhagen) Weiße Wiek","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":20,"s":[[302304272,20]]},
+  {"id":3013172551595,"t":{"ref":"mv66","name":"Bus mv66: Wismar => Boltenhagen => Grevesmühlen","from":"Wismar ZOB","to":"Grevesmühlen Busbahnhof","network":"Regiobus MV","operator":"NAHBUS Nordwestmecklenburg GmbH","route":"bus","public_transport:version":"2"},"n":40,"s":[[302304272,20]]},
+  {"id":3037224861354,"t":{"ref":"mv66","name":"Bus mv66: Grevesmühlen => Boltenhagen => Wismar","from":"Grevesmühlen, Busbahnhof","to":"Wismar ZOB","network":"Regiobus MV","operator":"NAHBUS Nordwestmecklenburg GmbH","route":"bus","public_transport:version":"2"},"n":42,"s":[[302304272,22]]},
+  {"id":3084972735094,"t":{"ref":"240","name":"240: Wismar ZOB - Grevesmühlen Busbahnhof","from":"Wismar ZOB","to":"Grevesmühlen Busbahnhof","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":40,"s":[[302304272,20]]},
+  {"id":3092170603126,"t":{"ref":"240","name":"240: Grevesmühlen Busbahnhof - Wismar ZOB","from":"Grevesmühlen Busbahnhof","to":"Wismar ZOB","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":42,"s":[[302304272,22]]}
+]
+}

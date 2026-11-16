@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2789,3760],
+"stops":[
+  {"id":1756875012,"lat":49.452819,"lon":8.048785,"k":"p","n":"Hardenburg, Abzw. Saupferch"},
+  {"id":2105803992,"lat":49.496471,"lon":8.03246,"k":"p","n":"Hertlingshausen"},
+  {"id":2105803997,"lat":49.496582,"lon":8.032411,"k":"p","n":"Hertlingshausen"},
+  {"id":2382337143,"lat":49.498679,"lon":8.030518,"k":"p","n":"Carlsberg, Sonnenberg"},
+  {"id":6700003845,"lat":49.453572,"lon":8.036614,"k":"p","n":"Hardenburg, Abzw. Isenach B 37"},
+  {"id":7896857799,"lat":49.452757,"lon":8.048929,"k":"p","n":"Hardenburg, Abzw. Saupferch"},
+  {"id":7896857800,"lat":49.453304,"lon":8.036356,"k":"p","n":"Hardenburg, Abzw. Isenach B 37"},
+  {"id":7917387387,"lat":49.49852,"lon":8.030916,"k":"p","n":"Carlsberg Sonnenberg"},
+  {"id":11755256798,"lat":49.453518,"lon":8.036626,"k":"x","n":"Hardenburg, Abzw. Isenach B 37"},
+  {"id":11755256799,"lat":49.452805,"lon":8.048849,"k":"x"},
+  {"id":11755256807,"lat":49.453356,"lon":8.036338,"k":"x","n":"Hardenburg, Abzw. Isenach B 37"},
+  {"id":14041850477,"lat":49.490365,"lon":8.031686,"k":"p"},
+  {"id":6006556180028,"lat":49.452355,"lon":8.048384,"k":"p","n":"Hardenburg, Abzw. Saupferch","g":1},
+  {"id":6010817589670,"lat":49.452343,"lon":8.048438,"k":"p","n":"Hardenburg, Abzw. Saupferch","g":1},
+  {"id":6053972160566,"lat":49.496046,"lon":8.0319,"k":"p","n":"Hertlingshausen","g":1},
+  {"id":6091447473476,"lat":49.496063,"lon":8.031828,"k":"p","n":"Hertlingshausen","g":1}
+],
+"routes":[
+  {"id":3488893,"t":{"ref":"459","name":"Bus 459: Weisenheim => Wattenheim","from":"Weisenheim Schule","to":"Wattenheim Unterdorf","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[2105803997,14],[7917387387,15]]},
+  {"id":3496986,"t":{"ref":"456","name":"Bus 456: Oppau => BASF Tor 12 => Altleiningen","from":"Oppau Endstelle","to":"Altleiningen Feuerwehr","network":"Verkehrsverbund Rhein-Neckar","operator":"Behles Bus","route":"bus","public_transport:version":"2"},"n":8,"s":[[2382337143,6],[2105803992,7]]},
+  {"id":3498559,"t":{"ref":"456","name":"Bus 456: Altleiningen => BASF Tor 12","from":"Altleiningen Feuerwehr","to":"Ludwigshafen BASF Tor 12","network":"Verkehrsverbund Rhein-Neckar","operator":"Behles Bus","route":"bus","public_transport:version":"2"},"n":13,"s":[[2105803997,3],[7917387387,4]]},
+  {"id":12106879,"t":{"ref":"458","name":"Bus 458: Eisenberg => Höningen","from":"Eisenberg Marktplatz","to":"Höningen Ort","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#f44d6f","route":"bus","public_transport:version":"2"},"n":20,"s":[[2382337143,13],[2105803992,14]]},
+  {"id":12106886,"t":{"ref":"458","name":"Bus 458: Höningen => Eisenberg","from":"Höningen Ort","to":"Eisenberg Marktplatz","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#f44d6f","route":"bus","public_transport:version":"2"},"n":19,"s":[[2105803997,6],[7917387387,7]]},
+  {"id":3013787974242,"t":{"ref":"454","name":"Bus 454: Grünstadt => Altleiningen => Hettenleidelheim => Grünstadt","from":"Grünstadt Bahnhof","to":"Grünstadt Bahnhof","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#61c2d8","route":"bus","public_transport:version":"2"},"n":32,"s":[[6091447473476,18],[2382337143,19]]},
+  {"id":3015348735654,"t":{"ref":"485","name":"Bus 485: Bad Dürkheim Bf. => Ruheforst","from":"Bad Dürkheim Bf.","to":"Ruheforst","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":20,"s":[[6006556180028,18],[11755256798,19]]},
+  {"id":3047715846945,"t":{"ref":"454","name":"Bus 454: Grünstadt => Hettenleidelheim => Altleiningen => Grünstadt","from":"Grünstadt Bahnhof","to":"Grünstadt Bahnhof","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#61c2d8","route":"bus","public_transport:version":"2"},"n":33,"s":[[2382337143,14],[6053972160566,15]]},
+  {"id":3061529290989,"t":{"ref":"454","name":"Bus 454: Grünstadt => Altleiningen => Hettenleidelheim => Grünstadt","from":"Grünstadt Bahnhof","to":"Grünstadt Bahnhof","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#61c2d8","route":"bus","public_transport:version":"2"},"n":28,"s":[[6091447473476,14],[2382337143,15]]},
+  {"id":3082759564145,"t":{"ref":"485","name":"Bus 485: Ruheforst => Bad Dürkheim","from":"Ruheforst","to":"Bad Dürkheim Bf.","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":22,"s":[[11755256798,2],[6010817589670,3]]},
+  {"id":3083342440843,"t":{"ref":"454","name":"Bus 454: Grünstadt => Hettenleidelheim => Altleiningen => Grünstadt","from":"Grünstadt Bahnhof","to":"Grünstadt Bahnhof","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#61c2d8","route":"bus","public_transport:version":"2"},"n":29,"s":[[2382337143,14],[6053972160566,15]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2855,3840],
+"stops":[
+  {"id":1443606099,"lat":52.750058,"lon":12.026767,"k":"x","n":"Osterholz"},
+  {"id":3687145643,"lat":52.78297,"lon":12.010188,"k":"p","n":"Büttnershof"},
+  {"id":3687145652,"lat":52.782985,"lon":12.010148,"k":"x","n":"Büttnershof"},
+  {"id":9216638238,"lat":52.788806,"lon":12.046471,"k":"p","n":"Sandau, Stadtmitte"},
+  {"id":10929345868,"lat":52.750026,"lon":12.004381,"k":"x","n":"Kirch-Polkritz"},
+  {"id":10929345872,"lat":52.750077,"lon":12.004652,"k":"p","n":"Kirch-Polkritz"},
+  {"id":11976555056,"lat":52.750017,"lon":12.026808,"k":"p","n":"Osterholz"},
+  {"id":12068850881,"lat":52.788898,"lon":12.046599,"k":"p","n":"Sandau, Stadtmitte"},
+  {"id":6051631905759,"lat":52.783049,"lon":12.049152,"k":"p","n":"Sandau (Elbe), Bahnhof (Bus)","g":1}
+],
+"routes":[
+  {"id":13411850,"t":{"ref":"900","name":"Bus 900: Havelberg => Tangermünde => Stendal","from":"Havelberg","to":"Stendal Hauptbahnhof","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[9216638238,5]]},
+  {"id":13411851,"t":{"ref":"900","name":"Bus 900: Stendal => Tangermünde => Havelberg","from":"Stendal Hauptbahnhof","to":"Havelberg","network":"stendalbus","operator":"stendalbus GmbH","colour":"#FF3300","route":"bus","public_transport:version":"2"},"n":21,"s":[[9216638238,17]]},
+  {"id":3008701607696,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":19,"s":[[12068850881,13]]},
+  {"id":3021486742871,"t":{"ref":"964","name":"964: Osterburg (Altmark), S-Bahnhof (Bus) - Büttnershof","from":"Osterburg (Altmark), S-Bahnhof (Bus)","to":"Büttnershof","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":18,"s":[[3687145652,18]]},
+  {"id":3025427787805,"t":{"ref":"965","name":"965: Osterburg (Altmark), S-Bahnhof (Bus) - Arneburg, Schule","from":"Osterburg (Altmark), S-Bahnhof (Bus)","to":"Arneburg, Schule","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[1443606099,17]]},
+  {"id":3048924875806,"t":{"ref":"965","name":"965: Arneburg, Schule - Osterburg (Altmark), S-Bahnhof (Bus)","from":"Arneburg, Schule","to":"Osterburg (Altmark), S-Bahnhof (Bus)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[1443606099,5],[10929345872,6]]},
+  {"id":3056296250102,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Stendal, Hauptbahnhof (ZOB)","from":"Havelberg, EDEKA","to":"Stendal, Hauptbahnhof (ZOB)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":19,"s":[[12068850881,7],[6051631905759,8]]},
+  {"id":3057770867465,"t":{"ref":"900","name":"900: Havelberg, EDEKA - Tangermünde, Neustädter Tor","from":"Havelberg, EDEKA","to":"Tangermünde, Neustädter Tor","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[12068850881,7],[6051631905759,8]]},
+  {"id":3074893040082,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":23,"s":[[12068850881,17]]},
+  {"id":3099439716340,"t":{"ref":"964","name":"964: Kannenberg (Lkr. Stendal) - Osterburg (Altmark), S-Bahnhof (Bus)","from":"Kannenberg (Lkr. Stendal)","to":"Osterburg (Altmark), S-Bahnhof (Bus)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":18,"s":[[3687145652,3]]}
+]
+}

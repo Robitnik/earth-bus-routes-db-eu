@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2853,3830],
+"stops":[
+  {"id":314022968,"lat":52.665565,"lon":11.501668,"k":"x","n":"Poritz Ort"},
+  {"id":5628521983,"lat":52.665506,"lon":11.501656,"k":"p","n":"Poritz Ort"},
+  {"id":5628521984,"lat":52.665599,"lon":11.525104,"k":"p","n":"Döllnitz"},
+  {"id":9999734318,"lat":52.658091,"lon":11.548381,"k":"p","n":"Bus Richtung Kalbe (Milde)"},
+  {"id":9999771818,"lat":52.658069,"lon":11.548539,"k":"p","n":"Bus Richtung Osterburg"},
+  {"id":11206299158,"lat":52.665672,"lon":11.525437,"k":"p","n":"Döllnitz"},
+  {"id":11206299171,"lat":52.665626,"lon":11.501657,"k":"p","n":"Poritz Ort"},
+  {"id":11628111770,"lat":52.689211,"lon":11.546716,"k":"x","n":"Büste"},
+  {"id":11628111771,"lat":52.689191,"lon":11.54664,"k":"p","n":"Büste"},
+  {"id":6044790316167,"lat":52.662003,"lon":11.546137,"k":"p","n":"Bismark (Altmark), Döllnitzer Str.","g":1},
+  {"id":6091854271335,"lat":52.662095,"lon":11.545386,"k":"p","n":"Bismark (Altmark), Döllnitzer Str.","g":1},
+  {"id":6098008782566,"lat":52.658661,"lon":11.549334,"k":"p","n":"Bismark (Altmark), EDEKA","g":1},
+  {"id":6099728166161,"lat":52.658418,"lon":11.548965,"k":"p","n":"Bismark (Altmark), EDEKA","g":1}
+],
+"routes":[
+  {"id":3019777249386,"t":{"ref":"504","name":"504: Neuendorf am Damm, Ort - Bismark (Altmark), Karl-Marx-Str.","from":"Neuendorf am Damm, Ort","to":"Bismark (Altmark), Karl-Marx-Str.","operator":"PVGS Altmarkkreis Salzwedel","route":"bus","public_transport:version":"2"},"n":10,"s":[[5628521983,3],[5628521984,4],[6044790316167,9]]},
+  {"id":3026339352452,"t":{"ref":"960","name":"960: Kalbe (Milde), ZOB - Osterburg (Altmark), S-Bahnhof (Bus)","from":"Kalbe (Milde), ZOB","to":"Osterburg (Altmark), S-Bahnhof (Bus)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":18,"s":[[6099728166161,6],[11628111770,9]]},
+  {"id":3030061582161,"t":{"ref":"504","name":"504: Kalbe (Milde), ZOB - Hohenwulsch, Bahnhof (Bus)","from":"Kalbe (Milde), ZOB","to":"Hohenwulsch, Bahnhof (Bus)","operator":"PVGS Altmarkkreis Salzwedel","route":"bus","public_transport:version":"2"},"n":16,"s":[[5628521983,10],[5628521984,11],[6044790316167,12]]},
+  {"id":3067781847587,"t":{"ref":"960","name":"960: Osterburg (Altmark), S-Bahnhof (Bus) - Kalbe (Milde), ZOB","from":"Osterburg (Altmark), S-Bahnhof (Bus)","to":"Kalbe (Milde), ZOB","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":18,"s":[[11628111770,10],[6098008782566,13]]},
+  {"id":3068832620827,"t":{"ref":"504","name":"504: Bismark (Altmark), Karl-Marx-Str. - Kalbe (Milde), ZOB","from":"Bismark (Altmark), Karl-Marx-Str.","to":"Kalbe (Milde), ZOB","operator":"PVGS Altmarkkreis Salzwedel","route":"bus","public_transport:version":"2"},"n":16,"s":[[6091854271335,4],[5628521984,6],[11206299171,7]]},
+  {"id":3084951397397,"t":{"ref":"504","name":"504: Bismark (Altmark), Karl-Marx-Str. - Neuendorf am Damm, Ort","from":"Bismark (Altmark), Karl-Marx-Str.","to":"Neuendorf am Damm, Ort","operator":"PVGS Altmarkkreis Salzwedel","route":"bus","public_transport:version":"2"},"n":10,"s":[[6091854271335,2],[5628521984,7],[11206299171,8]]},
+  {"id":3093794206489,"t":{"ref":"933","name":"933: Meßdorf, Ort - Hohenwulsch, Bahnhof (Bus)","from":"Meßdorf, Ort","to":"Hohenwulsch, Bahnhof (Bus)","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[11628111770,3]]},
+  {"id":3099465622916,"t":{"ref":"933","name":"933: Hohenwulsch, Bahnhof (Bus) - Meßdorf, Ort","from":"Hohenwulsch, Bahnhof (Bus)","to":"Meßdorf, Ort","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[11628111770,3]]}
+]
+}

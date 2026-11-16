@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2812,3855],
+"stops":[
+  {"id":130661610,"lat":50.647037,"lon":12.758927,"k":"x","n":"Affalter, Gh Linde"},
+  {"id":292979767,"lat":50.619087,"lon":12.754729,"k":"p"},
+  {"id":451700004,"lat":50.619778,"lon":12.761426,"k":"p"},
+  {"id":626986686,"lat":50.642575,"lon":12.785033,"k":"p","n":"Zwönitz, Abzweig Lenkersdorf"},
+  {"id":707163016,"lat":50.635402,"lon":12.779683,"k":"p","n":"Lenkersdorf Wendeschleife"},
+  {"id":718863823,"lat":50.625597,"lon":12.793022,"k":"p"},
+  {"id":785870116,"lat":50.632111,"lon":12.798217,"k":"x","n":"Zwönitz, Bahnhof"},
+  {"id":3574893188,"lat":50.642727,"lon":12.785066,"k":"p","n":"Zwönitz, Abzweig Lenkersdorf"},
+  {"id":3574893193,"lat":50.647115,"lon":12.780976,"k":"p"},
+  {"id":6463033644,"lat":50.63214,"lon":12.798161,"k":"p","n":"Zwönitz, Bahnhof"},
+  {"id":7347620893,"lat":50.642682,"lon":12.784978,"k":"x","n":"Zwönitz, Abzweig Lenkersdorf"},
+  {"id":7347620894,"lat":50.642626,"lon":12.785106,"k":"x","n":"Zwönitz, Abzweig Lenkersdorf"},
+  {"id":13555688901,"lat":50.642818,"lon":12.755527,"k":"x","n":"Affalter, Rathaus"},
+  {"id":13555688902,"lat":50.64284,"lon":12.755447,"k":"p","n":"Affalter, Rathaus"},
+  {"id":13555688906,"lat":50.64707,"lon":12.75887,"k":"p","n":"Affalter, Gh Linde"},
+  {"id":13555688907,"lat":50.646989,"lon":12.759009,"k":"p","n":"Affalter, Gh Linde"},
+  {"id":6035205809839,"lat":50.634928,"lon":12.793285,"k":"p","n":"Zwönitz, Lenkersdorfer Str","g":1},
+  {"id":6056925572766,"lat":50.642158,"lon":12.755071,"k":"p","n":"Affalter, Rathaus","g":1},
+  {"id":6091604226141,"lat":50.634831,"lon":12.793106,"k":"p","n":"Zwönitz, Lenkersdorfer Str","g":1}
+],
+"routes":[
+  {"id":570390,"t":{"ref":"211","name":"Bus 211: Zwönitz - Chemnitz","from":"Chemnitz","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":8,"s":[[785870116,6]]},
+  {"id":2725475,"t":{"ref":"419","name":"Bus 419: Elterlein => Zwönitz","from":"Elterlein, Markt","to":"Zwönitz, Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[6463033644,8]]},
+  {"id":2725477,"t":{"ref":"419","name":"Bus 419: Zwönitz => Elterlein","from":"Zwönitz, Bahnhof","to":"Elterlein, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[6463033644,1]]},
+  {"id":10940192,"t":{"ref":"413","name":"Bus 413: Stollberg => Zwönitz => Geyer => Annaberg-Buchholz","from":"Stollberg, Bahnhof","to":"Annaberg-Buchholz, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[626986686,7],[6463033644,8]]},
+  {"id":3003729992858,"t":{"ref":"342","name":"Bus 342: Zwönitz => Grünhain => Beierfeld => Schwarzenberg","from":"Zwönitz, Bahnhof","to":"Schwarzenberg, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge","route":"bus","public_transport:version":"2"},"n":21,"s":[[6463033644,1]]},
+  {"id":3056927864961,"t":{"ref":"342","name":"Bus 342: Zwönitz => Grünhain => Beierfeld => Schwarzenberg","from":"Zwönitz, Bahnhof","to":"Schwarzenberg, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge","route":"bus","public_transport:version":"2"},"n":20,"s":[[6463033644,1]]},
+  {"id":3066956873373,"t":{"ref":"363","name":"363: Aue, Postplatz - Zwönitz, Rathausstr","from":"Aue, Postplatz","to":"Zwönitz, Rathausstr","operator":"RV BVO Bus","route":"bus","public_transport:version":"2"},"n":17,"s":[[6056925572766,8],[13555688907,9],[7347620894,11],[707163016,12],[6035205809839,13],[785870116,14]]},
+  {"id":3074362794232,"t":{"ref":"413","name":"Bus 413: Annaberg-Buchholz => Geyer => Zwönitz => Stollberg","from":"Annaberg-Buchholz, Busbahnhof","to":"Stollberg, Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[785870116,18]]},
+  {"id":3095268235215,"t":{"ref":"363","name":"363: Zwönitz, Rathausstr - Aue, Bahnhofsvorplatz","from":"Zwönitz, Rathausstr","to":"Aue, Bahnhofsvorplatz","operator":"RV BVO Bus","route":"bus","public_transport:version":"2"},"n":17,"s":[[785870116,3],[6091604226141,4],[707163016,5],[3574893188,6],[13555688906,8],[13555688902,9]]},
+  {"id":3096958549463,"t":{"ref":"342","name":"Bus 342: Schwarzenberg => Beierfeld => Grünhain => Zwönitz","from":"Schwarzenberg, Busbahnhof","to":"Zwönitz, Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge","route":"bus","public_transport:version":"2"},"n":19,"s":[[785870116,19]]}
+]
+}

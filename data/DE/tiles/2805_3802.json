@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2805,3802],
+"stops":[
+  {"id":456334793,"lat":50.291048,"lon":10.119107,"k":"p","n":"Nickersfelden"},
+  {"id":4721117124,"lat":50.296869,"lon":10.141545,"k":"p","n":"Oberebersbach"},
+  {"id":5528996507,"lat":50.291071,"lon":10.119126,"k":"x","n":"Nickersfelden"},
+  {"id":5528996508,"lat":50.296918,"lon":10.141518,"k":"x","n":"Oberebersbach"},
+  {"id":9319646087,"lat":50.296948,"lon":10.141504,"k":"p","n":"Oberebersbach"},
+  {"id":9321071046,"lat":50.296843,"lon":10.129654,"k":"p","n":"Unterebersbach"},
+  {"id":11069326685,"lat":50.291027,"lon":10.119044,"k":"p","n":"Nickersfelden"},
+  {"id":11083453970,"lat":50.298179,"lon":10.118145,"k":"p","n":"Abzweigung Nickersfelden"},
+  {"id":11083483130,"lat":50.265428,"lon":10.112632,"k":"p","n":"Windheim"},
+  {"id":11083483131,"lat":50.26536,"lon":10.112638,"k":"p","n":"Windheim"},
+  {"id":11173775445,"lat":50.287123,"lon":10.103814,"k":"p","n":"Roth a. d. Saale"},
+  {"id":13535084083,"lat":50.296594,"lon":10.129594,"k":"x","n":"Unterebersbach"}
+],
+"routes":[
+  {"id":8180770,"t":{"ref":"700","name":"Bus 700: Bad Neustadt (S) -> Bad Bocklet -> Bad Kissingen","from":"Bad Neustadt (Saale)","to":"Bad Kissingen Bhf","network":"Nahverkehr Mainfranken","colour":"#00FFCC","route":"bus","public_transport:version":"2"},"n":6,"s":[[9321071046,4],[11083453970,5]]},
+  {"id":20191306,"t":{"ref":"700","name":"Bus 700: Bad Neustadt (S) -> Bad Kissingen","network":"Nahverkehr Mainfranken","colour":"#00ffcc","route":"bus"},"n":18,"s":[[5528996508,4],[9321071046,5],[5528996507,6]]},
+  {"id":20191308,"t":{"name":"Bus 700: Bad Neustadt -> Bad Bocklet -> Bad Kissingen","network":"Nahverkehr Mainfranken","colour":"#00ffcc","route":"bus"},"n":20,"s":[[5528996508,3],[9321071046,4],[11083453970,5]]},
+  {"id":20191309,"t":{"ref":"700","name":"Bus 700: Bad Kissingen -> Bad Bocklet -> Bad Neustadt (S)","network":"Nahverkehr Mainfranken","colour":"#00ffcc","route":"bus"},"n":24,"s":[[11083453970,16],[13535084083,17],[5528996508,18]]},
+  {"id":20191311,"t":{"ref":"700","name":"Bus 700: Bad Kissingen -> Bad Bocklet -> Bad Neustadt (S)","network":"Nahverkehr Mainfranken","colour":"#00ffcc","route":"bus"},"n":12,"s":[[13535084083,8],[5528996508,9]]},
+  {"id":20193410,"t":{"ref":"700","name":"Bus 700: Bad Kissingen -> Bad Bocklet -> Bad Neustadt","network":"Nahverkehr Mainfranken","colour":"#00ffcc","route":"bus"},"n":21,"s":[[11083453970,13],[13535084083,14],[5528996508,15]]},
+  {"id":20193412,"t":{"ref":"700","name":"Bus 700: Bad Kissingen -> Bad Bocklet -> Bad Neustadt","network":"Nahverkehr Mainfranken","colour":"#00ffcc","route":"bus"},"n":21,"s":[[11083453970,17],[13535084083,18]]},
+  {"id":20193974,"t":{"name":"Bus 707: Bad Bocklet -> Aschach -> Münnerstadt","network":"Nahverkehr Mainfranken","colour":"#009fe3","route":"bus"},"n":11,"s":[[11173775445,8]]},
+  {"id":20193975,"t":{"ref":"707","name":"Bus 707: Windheim -> Münnerstadt","network":"Nahverkehr Mainfranken","colour":"#009fe3","route":"bus"},"n":4,"s":[[11083483131,1]]},
+  {"id":20193976,"t":{"ref":"707","name":"Bus 707: Münnerstadt -> Bad Bocklet -> Großenbrach","network":"Nahverkehr Mainfranken","colour":"#009ef3","route":"bus"},"n":12,"s":[[11083483130,5],[11173775445,6]]},
+  {"id":20193977,"t":{"ref":"707","name":"Bus 707: Münnerstadt -> Bad Bocklet -> Roth","network":"Nahverkehr Mainfranken","colour":"#009fe3","route":"bus"},"n":10,"s":[[11083483130,4],[11173775445,10]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2867,3860],
+"stops":[
+  {"id":2028660116,"lat":53.376758,"lon":13.047192,"k":"x","n":"Lindenhöhe"},
+  {"id":2028660134,"lat":53.384656,"lon":13.047666,"k":"x","n":"Reha-Zentrum"},
+  {"id":6910224915,"lat":53.384676,"lon":13.047591,"k":"p","n":"Reha-Zentrum"},
+  {"id":6910224916,"lat":53.376721,"lon":13.04727,"k":"p","n":"Lindenhöhe"},
+  {"id":6910224945,"lat":53.356743,"lon":13.007974,"k":"p","n":"Prälank"},
+  {"id":9959767345,"lat":53.36722,"lon":13.000849,"k":"p","n":"Prälank, Dorf"}
+],
+"routes":[
+  {"id":2591943,"t":{"ref":"1+3","name":"Bus 1+3: ZOB => Krankenhaus => ZOB","from":"Neustrelitz ZOB","to":"Neustrelitz ZOB","network":"Stadtverkehr Neustrelitz","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"#009847","route":"bus","public_transport:version":"2"},"n":24,"s":[[6910224915,13],[6910224916,14]]},
+  {"id":3046545524451,"t":{"ref":"603","name":"603: Neustrelitz, ZOB (EA) - Neustrelitz, Krankenhaus","from":"Neustrelitz, ZOB (EA)","to":"Neustrelitz, Krankenhaus","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":9,"s":[[6910224916,8]]},
+  {"id":3048398220443,"t":{"ref":"4","name":"4: Neustrelitz, ZOB (EA) - Neustrelitz, ZOB (EA)","from":"Neustrelitz, ZOB (EA)","to":"Neustrelitz, ZOB (EA)","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":20,"s":[[6910224916,8],[2028660134,10]]},
+  {"id":3086304790971,"t":{"ref":"603","name":"603: Neustrelitz, Krankenhaus - Neustrelitz, ZOB (EA)","from":"Neustrelitz, Krankenhaus","to":"Neustrelitz, ZOB (EA)","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2028660134,2],[6910224916,3]]},
+  {"id":3091688163425,"t":{"ref":"603","name":"603: Neustrelitz, Krankenhaus - Neustrelitz, ZOB (EA)","from":"Neustrelitz, Krankenhaus","to":"Neustrelitz, ZOB (EA)","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2028660134,2]]},
+  {"id":3095088485975,"t":{"ref":"4","name":"4: Neustrelitz, ZOB (EA) - Neustrelitz, ZOB (EA)","from":"Neustrelitz, ZOB (EA)","to":"Neustrelitz, ZOB (EA)","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":20,"s":[[2028660134,10],[6910224916,11]]}
+]
+}

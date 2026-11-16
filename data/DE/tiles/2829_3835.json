@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2829,3835],
+"stops":[
+  {"id":392888486,"lat":51.483803,"lon":11.780271,"k":"x","n":"Langenbogen, Friedensstraße"},
+  {"id":2868901445,"lat":51.482953,"lon":11.763253,"k":"p","n":"Langenbogen, Neubau"},
+  {"id":2868901452,"lat":51.483039,"lon":11.763339,"k":"p","n":"Langenbogen, Neubau"},
+  {"id":8829791939,"lat":51.48706,"lon":11.752797,"k":"x","n":"Langenbogen, Abzweig Höhnstedt"},
+  {"id":8829791940,"lat":51.483284,"lon":11.774685,"k":"x","n":"Langenbogen, Kirche"},
+  {"id":9487079234,"lat":51.470215,"lon":11.782994,"k":"p","n":"Teutschenthal Bahnhof, Schule"},
+  {"id":9487079235,"lat":51.470209,"lon":11.782888,"k":"p","n":"Teutschenthal Bahnhof, Schule"},
+  {"id":9487079236,"lat":51.470208,"lon":11.782941,"k":"x","n":"Teutschenthal Bahnhof, Schule"},
+  {"id":9487079237,"lat":51.465706,"lon":11.783655,"k":"p","n":"Teutschenthal Bahnhof, Poststraße"},
+  {"id":9487079238,"lat":51.465694,"lon":11.783518,"k":"p","n":"Teutschenthal Bahnhof, Poststraße"},
+  {"id":9487079239,"lat":51.465694,"lon":11.7836,"k":"x","n":"Teutschenthal Bahnhof, Poststraße"},
+  {"id":9831407296,"lat":51.483718,"lon":11.780439,"k":"p","n":"Langenbogen, Friedensstraße"},
+  {"id":9831407297,"lat":51.483932,"lon":11.779884,"k":"p","n":"Langenbogen, Friedensstraße"},
+  {"id":9831407299,"lat":51.487055,"lon":11.752698,"k":"p","n":"Langenbogen, Abzweig Höhnstedt"},
+  {"id":9831407300,"lat":51.487057,"lon":11.752889,"k":"p","n":"Langenbogen, Abzweig Höhnstedt"},
+  {"id":9980390279,"lat":51.483327,"lon":11.774656,"k":"p","n":"Langenbogen, Kirche"},
+  {"id":9980390280,"lat":51.483245,"lon":11.774699,"k":"p","n":"Langenbogen, Kirche"},
+  {"id":9980390281,"lat":51.482989,"lon":11.76331,"k":"x","n":"Langenbogen, Neubau"},
+  {"id":6030087326244,"lat":51.483008,"lon":11.764078,"k":"p","n":"Langenbogen, Neubau","g":1},
+  {"id":6048052699074,"lat":51.483497,"lon":11.775549,"k":"p","n":"Langenbogen, Kirche","g":1},
+  {"id":6048888555893,"lat":51.483497,"lon":11.775549,"k":"p","n":"Langenbogen, Kirche","g":1},
+  {"id":6073823469420,"lat":51.464358,"lon":11.782738,"k":"p","n":"Teutschenthal","g":1}
+],
+"routes":[
+  {"id":3756143,"t":{"ref":"440","name":"Bus 440: Eisleben - Seeburg - Halle","from":"Eisleben","to":"Halle (Saale)","network":"Mitteldeutscher Verkehrsverbund","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"1"},"n":12,"s":[[2868901445,9],[2868901452,10]]},
+  {"id":3007612730217,"t":{"ref":"S7","name":"S7: Halle (Saale), Hauptbahnhof/ZOB - Lutherstadt Eisleben","from":"Halle (Saale), Hauptbahnhof/ZOB","to":"Lutherstadt Eisleben","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6073823469420,5]]},
+  {"id":3016791696311,"t":{"ref":"309","name":"PlusBus 309: Halle => Schochwitz","from":"Halle, ZOB","to":"Schochwitz, Schloßplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":19,"s":[[9831407297,9],[6048888555893,10],[2868901452,11],[9831407299,12]]},
+  {"id":3018005405917,"t":{"ref":"309","name":"PlusBus 309: Schochwitz => Halle","from":"Schochwitz, Schloßplatz","to":"Halle, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":16,"s":[[9831407299,8],[9980390281,9],[9980390280,10],[9831407296,11]]},
+  {"id":3031676263087,"t":{"ref":"309","name":"PlusBus 309: Schochwitz => Halle","from":"Schochwitz, Schloßplatz","to":"Halle, ZOB","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":19,"s":[[9831407299,8],[9980390281,9],[9980390280,10],[9831407296,11]]},
+  {"id":3042893463364,"t":{"ref":"S7","name":"S7: Lutherstadt Eisleben - Halle (Saale), Hauptbahnhof/ZOB","from":"Lutherstadt Eisleben","to":"Halle (Saale), Hauptbahnhof/ZOB","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6073823469420,6]]},
+  {"id":3066063031910,"t":{"ref":"309","name":"PlusBus 309: Halle => Schochwitz","from":"Halle, ZOB","to":"Schochwitz, Schloßplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"OBS","route":"bus","public_transport:version":"2"},"n":16,"s":[[9831407297,6],[6048888555893,7],[2868901452,8],[9831407299,9]]},
+  {"id":3076207690983,"t":{"ref":"440","name":"440: Lu. Eisleben, Busbahnhof - Halle (Saale), Göttinger Bogen","from":"Lu. Eisleben, Busbahnhof","to":"Halle (Saale), Göttinger Bogen","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":27,"s":[[8829791939,21],[2868901452,22],[9980390280,23],[9831407296,24]]},
+  {"id":3093552916470,"t":{"ref":"440","name":"440: Halle (Saale), Göttinger Bogen - Lu. Eisleben, Busbahnhof","from":"Halle (Saale), Göttinger Bogen","to":"Lu. Eisleben, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":23,"s":[[392888486,4],[6048052699074,5],[6030087326244,6],[9831407300,7]]}
+]
+}

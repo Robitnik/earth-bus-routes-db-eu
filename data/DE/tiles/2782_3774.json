@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2782,3774],
+"stops":[
+  {"id":313750063,"lat":49.126126,"lon":8.715518,"k":"p","n":"Münzesheim Bahnhof"},
+  {"id":443724278,"lat":49.105915,"lon":8.743465,"k":"p","n":"Gochsheim Milchhaus"},
+  {"id":443724279,"lat":49.105871,"lon":8.743377,"k":"p","n":"Gochsheim Milchhaus"},
+  {"id":5571182998,"lat":49.106855,"lon":8.711934,"k":"x","n":"Oberacker Rathaus","ref":"Oberacker Rathaus"},
+  {"id":5571212195,"lat":49.106869,"lon":8.711963,"k":"p","n":"Oberacker Rathaus"},
+  {"id":5571237845,"lat":49.106839,"lon":8.711943,"k":"x","n":"Oberacker Rathaus","ref":"Oberacker Rathaus"},
+  {"id":5571401726,"lat":49.106816,"lon":8.711887,"k":"p","n":"Oberacker Rathaus"},
+  {"id":9224857675,"lat":49.126061,"lon":8.715459,"k":"x","n":"Münzesheim Bahnhof"},
+  {"id":9224973768,"lat":49.101429,"lon":8.742465,"k":"p","n":"Gochsheim Bauerbacher Straße"},
+  {"id":9224973769,"lat":49.102061,"lon":8.742025,"k":"p","n":"Gochsheim Bauerbacher Straße"},
+  {"id":11407603253,"lat":49.109665,"lon":8.743523,"k":"p","n":"Gochsheim Bahnhof"},
+  {"id":6061907510536,"lat":49.122678,"lon":8.714251,"k":"p","n":"Münzesheim Karlsruher Str.","g":1}
+],
+"routes":[
+  {"id":4498374,"t":{"ref":"136","name":"Bus 136: Oberacker => Münzesheim","from":"Oberacker","to":"Münzesheim","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":2,"s":[[5571401726,1],[313750063,2]]},
+  {"id":3003103744743,"t":{"ref":"139","name":"Bus 139: Neuenbürg => Landshausen","from":"Neuenbürg Raiffeisenbank","to":"Landshausen Rohrbrunnen","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[313750063,2],[5571401726,3],[9224973768,4]]},
+  {"id":3008490773721,"t":{"ref":"139","name":"Bus 139: Landshausen => Neuenbürg","from":"Landshausen Rohrbrunnen","to":"Neuenbürg Raiffeisenbank","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":15,"s":[[9224973769,9],[5571212195,10],[313750063,11]]},
+  {"id":3012701042456,"t":{"ref":"139","name":"Bus 139: Landshausen => Neuenbürg","from":"Landshausen Rohrbrunnen","to":"Neuenbürg Raiffeisenbank","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":11,"s":[[6061907510536,6]]},
+  {"id":3024046032773,"t":{"ref":"136","name":"Bus 136: Münzesheim => Oberacker","from":"Münzesheim","to":"Oberacker","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":2,"s":[[5571401726,1],[313750063,2]]},
+  {"id":3031384012418,"t":{"ref":"136","name":"Bus 136: Münzesheim => Oberacker","from":"Münzesheim","to":"Oberacker","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":2,"s":[[313750063,1],[5571401726,2]]},
+  {"id":3036738559615,"t":{"ref":"139","name":"Bus 139: Neuenbürg => Landshausen","from":"Neuenbürg Raiffeisenbank","to":"Landshausen Rohrbrunnen","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":15,"s":[[313750063,5],[5571401726,6],[9224973768,7]]}
+]
+}

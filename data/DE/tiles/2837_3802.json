@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2837,3802],
+"stops":[
+  {"id":467046028,"lat":51.851687,"lon":10.127596,"k":"p","n":"Ildehausen, Northeimer Straße"},
+  {"id":838253348,"lat":51.865153,"lon":10.100103,"k":"x","n":"Dannhausen, Meile"},
+  {"id":2086501071,"lat":51.852398,"lon":10.128382,"k":"p","n":"Ildehausen, Northeimer Straße"},
+  {"id":4600490612,"lat":51.87823,"lon":10.138873,"k":"p","n":"Engelade Berliner Straße, Seesen"},
+  {"id":4600490613,"lat":51.877552,"lon":10.137222,"k":"p","n":"Engelade Berliner Straße, Seesen"},
+  {"id":4600490614,"lat":51.890881,"lon":10.126302,"k":"p","n":"Bilderlahe, Seesen"},
+  {"id":4706470640,"lat":51.86244,"lon":10.131047,"k":"p","n":"Knüllhof"},
+  {"id":4706470656,"lat":51.862425,"lon":10.1312,"k":"p","n":"Knüllhof"},
+  {"id":5786878165,"lat":51.877598,"lon":10.137175,"k":"x","n":"Engelade Berliner Straße, Seesen"},
+  {"id":5786878166,"lat":51.878175,"lon":10.138889,"k":"x","n":"Engelade Berliner Straße, Seesen"},
+  {"id":5786878179,"lat":51.852373,"lon":10.12849,"k":"x","n":"Ildehausen, Northeimer Straße"},
+  {"id":5786878184,"lat":51.851712,"lon":10.127508,"k":"x","n":"Ildehausen, Northeimer Straße"},
+  {"id":5786878189,"lat":51.890878,"lon":10.126375,"k":"x","n":"Bilderlahe, Seesen"},
+  {"id":9476661081,"lat":51.862437,"lon":10.131139,"k":"x","n":"Knüllhof"},
+  {"id":9482285064,"lat":51.865251,"lon":10.10019,"k":"p","n":"Dannhausen, Meile"},
+  {"id":6027473566608,"lat":51.878841,"lon":10.14198,"k":"p","n":"Engelade, Am Kirchensiek","g":1},
+  {"id":6040913222374,"lat":51.863206,"lon":10.131936,"k":"p","n":"Kirchberg, Knüllhof","g":1},
+  {"id":6065341933833,"lat":51.86315,"lon":10.132125,"k":"p","n":"Kirchberg, Knüllhof","g":1}
+],
+"routes":[
+  {"id":7012631,"t":{"ref":"837","name":"Bus 837: Seesen - Ildehausen - Bad Gandersheim","from":"Seesen","to":"Bad Gandersheim","network":"VRB; VSN","operator":"Pülm-Reisen","route":"bus","public_transport:version":"2"},"n":22,"s":[[4706470640,7],[2086501071,8],[9482285064,13]]},
+  {"id":13764519,"t":{"ref":"837","name":"Bus 837: Bad Gandersheim - Ildehausen - Seesen","from":"Bad Gandersheim","to":"Seesen","network":"VRB; VSN","operator":"Pülm-Reisen","route":"bus","public_transport:version":"2"},"n":21,"s":[[9482285064,10],[467046028,14],[4706470656,15]]},
+  {"id":3007492309593,"t":{"ref":"836","name":"VRB 836: Rhüden => Seesen","from":"Rhüden","to":"Seesen","network":"Verkehrsverbund Region Braunschweig","operator":"Pülm-Reisen","route":"bus","public_transport:version":"2"},"n":14,"s":[[5786878189,9],[4600490613,10],[6027473566608,11]]},
+  {"id":3018714643834,"t":{"ref":"836","name":"836: Ildehausen, Northeimer Str. - Seesen, Schulzentrum","from":"Ildehausen, Northeimer Str.","to":"Seesen, Schulzentrum","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":10,"s":[[5786878184,1],[6065341933833,2]]},
+  {"id":3024644029038,"t":{"ref":"836","name":"836: Ildehausen, Northeimer Str. - Rhüden, Kirche","from":"Ildehausen, Northeimer Str.","to":"Rhüden, Kirche","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":22,"s":[[5786878184,1],[6065341933833,2],[4600490612,14],[5786878189,15]]},
+  {"id":3053310702621,"t":{"ref":"836","name":"836: Seesen, Schulzentrum - Ildehausen, Northeimer Str.","from":"Seesen, Schulzentrum","to":"Ildehausen, Northeimer Str.","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":10,"s":[[6040913222374,9],[2086501071,10]]},
+  {"id":3053617904668,"t":{"ref":"836","name":"836: Ildehausen, Northeimer Str. - Seesen, Bahnhof","from":"Ildehausen, Northeimer Str.","to":"Seesen, Bahnhof","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":12,"s":[[5786878184,1],[6065341933833,2]]},
+  {"id":3055999409305,"t":{"ref":"836","name":"836: Münchehof, Schule - Ildehausen, Northeimer Str.","from":"Münchehof, Schule","to":"Ildehausen, Northeimer Str.","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":8,"s":[[6040913222374,7],[2086501071,8]]},
+  {"id":3069452477963,"t":{"ref":"836","name":"836: Rhüden, Kirche - Ildehausen, Northeimer Str.","from":"Rhüden, Kirche","to":"Ildehausen, Northeimer Str.","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":23,"s":[[5786878189,8],[4600490613,9],[6027473566608,10],[6040913222374,22],[2086501071,23]]},
+  {"id":3083272115412,"t":{"ref":"836","name":"836: Seesen, Bahnhof - Ildehausen, Northeimer Str.","from":"Seesen, Bahnhof","to":"Ildehausen, Northeimer Str.","operator":"HarzBus GbR","route":"bus","public_transport:version":"2"},"n":12,"s":[[6040913222374,11],[2086501071,12]]},
+  {"id":3088232828245,"t":{"ref":"836","name":"VRB 836: Seesen => Rhüden","from":"Seesen","to":"Rhüden","network":"Verkehrsverbund Region Braunschweig","operator":"Pülm-Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[4600490612,3],[5786878189,4]]},
+  {"id":3096049568878,"t":{"ref":"836","name":"VRB 836: Seesen => Rhüden","from":"Seesen","to":"Rhüden","network":"Verkehrsverbund Region Braunschweig","operator":"Pülm-Reisen","route":"bus","public_transport:version":"2"},"n":13,"s":[[4600490612,4],[5786878189,5]]},
+  {"id":3098611110017,"t":{"ref":"836","name":"VRB 836: Rhüden => Seesen","from":"Rhüden","to":"Seesen","network":"Verkehrsverbund Region Braunschweig","operator":"Pülm-Reisen","route":"bus","public_transport:version":"2"},"n":12,"s":[[5786878189,8],[4600490613,9],[6027473566608,10]]}
+]
+}

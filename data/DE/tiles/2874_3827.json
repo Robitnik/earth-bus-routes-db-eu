@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2874,3827],
+"stops":[
+  {"id":306007347,"lat":53.708804,"lon":11.360712,"k":"x","n":"Groß Trebbow"},
+  {"id":415910675,"lat":53.712311,"lon":11.370494,"k":"p","n":"Klein Trebbow","ref":"0"},
+  {"id":425363450,"lat":53.732738,"lon":11.386509,"k":"x","n":"Rugensee"},
+  {"id":8192309994,"lat":53.717229,"lon":11.399374,"k":"x","n":"Klein Trebbow Abzweig"},
+  {"id":10576603144,"lat":53.71724,"lon":11.399302,"k":"p","n":"Klein Trebbow Abzweig","ref":"1"},
+  {"id":10576603145,"lat":53.717237,"lon":11.39945,"k":"p","n":"Klein Trebbow Abzweig","ref":"6"},
+  {"id":10576603146,"lat":53.717628,"lon":11.398083,"k":"p","n":"Klein Trebbow Abzweig","ref":"11"},
+  {"id":10576603147,"lat":53.71753,"lon":11.398088,"k":"p","n":"Klein Trebbow Abzweig","ref":"66"},
+  {"id":10576606211,"lat":53.732778,"lon":11.386739,"k":"p","n":"Rugensee","ref":"1"},
+  {"id":10576606212,"lat":53.732694,"lon":11.386513,"k":"p","n":"Rugensee","ref":"6"},
+  {"id":10576614064,"lat":53.738869,"lon":11.375274,"k":"p","n":"Rugensee Ausbau","ref":"1"},
+  {"id":10576614065,"lat":53.738767,"lon":11.375291,"k":"p","n":"Rugensee Ausbau","ref":"6"},
+  {"id":10576615699,"lat":53.741904,"lon":11.362303,"k":"p","n":"Alt Meteln Ausbau","ref":"1"},
+  {"id":10576615700,"lat":53.74194,"lon":11.361615,"k":"p","n":"Alt Meteln Ausbau","ref":"6"},
+  {"id":10576691677,"lat":53.708843,"lon":11.360629,"k":"p","n":"Groß Trebbow","ref":"1"},
+  {"id":10576691678,"lat":53.707546,"lon":11.362701,"k":"p","n":"Groß Trebbow"},
+  {"id":11002750178,"lat":53.707566,"lon":11.36279,"k":"x","n":"Groß Trebbow"},
+  {"id":11917922588,"lat":53.732732,"lon":11.386739,"k":"x","n":"Rugensee"},
+  {"id":5000880810234,"lat":53.717204,"lon":11.399446,"k":"p","n":"Klein Trebbow Abzweig"},
+  {"id":5000880810235,"lat":53.717247,"lon":11.399303,"k":"p","n":"Klein Trebbow Abzweig"}
+],
+"routes":[
+  {"id":3040987754029,"t":{"ref":"33","name":"33: Pingelshagen - Moltenow","from":"Pingelshagen","to":"Moltenow","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":16,"s":[[10576691677,3]]},
+  {"id":3044073188196,"t":{"ref":"33","name":"33: Moltenow - Pingelshagen","from":"Moltenow","to":"Pingelshagen","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":16,"s":[[10576691678,14]]},
+  {"id":3066908142798,"t":{"ref":"235","name":"Bus 235: Wismar => Schwerin","from":"Wismar ZOB","to":"Schwerin Hauptbahnhof","network":"NAHBUS Nordwestmecklenburg GmbH","operator":"NAHBUS Nordwestmecklenburg GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000880810235,17]]},
+  {"id":3074421121959,"t":{"ref":"235","name":"Bus 235: Schwerin => Wismar","from":"Schwerin Hauptbahnhof","to":"Wismar ZOB","network":"NAHBUS Nordwestmecklenburg GmbH","operator":"NAHBUS Nordwestmecklenburg GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[10576603145,5]]},
+  {"id":3095924107910,"t":{"ref":"32","name":"32: Moorbrink - Lübstorf Schule","from":"Moorbrink","to":"Lübstorf Schule","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":25,"s":[[415910675,4],[10576691677,5],[10576615699,19],[10576614065,20],[11917922588,21]]},
+  {"id":3099375399934,"t":{"ref":"32","name":"32: Lübstorf Schule - Moorbrink","from":"Lübstorf Schule","to":"Moorbrink","operator":"Nordwestmecklenburg","route":"bus","public_transport:version":"2"},"n":26,"s":[[10576606211,5],[10576614064,6],[10576615699,7],[10576691678,21],[415910675,22],[5000880810235,23]]}
+]
+}

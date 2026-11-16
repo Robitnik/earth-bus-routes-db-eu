@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2756,3796],
+"stops":[
+  {"id":2967820413,"lat":47.809932,"lon":9.801244,"k":"p","n":"Wolfegg Oppenreute Abzw. L315","ref":"7535"},
+  {"id":2967942294,"lat":47.805564,"lon":9.804701,"k":"p","n":"Wolfegg Zürnen Abzw. L315","ref":"7535"},
+  {"id":4471616383,"lat":47.814367,"lon":9.837248,"k":"p","n":"Kißlegg Abzweig Straß"},
+  {"id":4471616384,"lat":47.8084,"lon":9.842713,"k":"p","n":"Kißlegg Vorderhub"},
+  {"id":4471616385,"lat":47.804533,"lon":9.848787,"k":"p","n":"Kißlegg Matzenweiler"},
+  {"id":4471616388,"lat":47.805757,"lon":9.804727,"k":"p","n":"Wolfegg Zürnen Abzw. L315"},
+  {"id":4471839863,"lat":47.845549,"lon":9.827969,"k":"p","n":"Bad Wurzach Weitprechts"},
+  {"id":4471839864,"lat":47.845511,"lon":9.827768,"k":"p","n":"Bad Wurzach Weitprechts"},
+  {"id":4471839865,"lat":47.841403,"lon":9.823644,"k":"p","n":"Bad Wurzach Metzisweiler"},
+  {"id":4471839866,"lat":47.841585,"lon":9.823314,"k":"p","n":"Bad Wurzach Metzisweiler"},
+  {"id":4471839867,"lat":47.82363,"lon":9.80595,"k":"p","n":"Wolfegg Abzweigung Bahnhof"},
+  {"id":4471839868,"lat":47.823661,"lon":9.806178,"k":"p","n":"Wolfegg Abzweigung Bahnhof"},
+  {"id":4547882977,"lat":47.809797,"lon":9.801322,"k":"p","n":"Wolfegg Oppenreute Abzw. L315"},
+  {"id":4547882983,"lat":47.831025,"lon":9.809672,"k":"p","n":"Bad Wurzach Dietrichsholz"},
+  {"id":4547882984,"lat":47.831076,"lon":9.809562,"k":"p","n":"Bad Wurzach Dietrichsholz"},
+  {"id":7973849566,"lat":47.823568,"lon":9.806064,"k":"x","n":"Wolfegg Abzweigung Bahnhof"},
+  {"id":7997095931,"lat":47.823734,"lon":9.80612,"k":"x","n":"Wolfegg Abzweigung Bahnhof"},
+  {"id":8017847477,"lat":47.805614,"lon":9.804757,"k":"x","n":"Wolfegg Zürnen Abzw. L315"},
+  {"id":8017847478,"lat":47.80573,"lon":9.804653,"k":"x","n":"Wolfegg Zürnen Abzw. L315"},
+  {"id":8017847479,"lat":47.809955,"lon":9.801131,"k":"x","n":"Wolfegg Oppenreute Abzw. L315"},
+  {"id":8037451530,"lat":47.809825,"lon":9.801399,"k":"x","n":"Wolfegg Oppenreute Abzw. L315"},
+  {"id":6009032293433,"lat":47.824343,"lon":9.806397,"k":"p","n":"Wolfegg Abzw. Bahnhof","g":1},
+  {"id":6021549219697,"lat":47.83203,"lon":9.809917,"k":"p","n":"Bad Wurzach Dietrichsholz","g":1},
+  {"id":6049499428675,"lat":47.84125,"lon":9.822314,"k":"p","n":"Bad Wurzach Metzisweiler","g":1},
+  {"id":6074655648366,"lat":47.846146,"lon":9.82774,"k":"p","n":"Bad Wurzach Weitprechts","g":1}
+],
+"routes":[
+  {"id":3014941463124,"t":{"ref":"RB53","name":"RB53: Kißlegg Bahnhof - Aulendorf Bahnhof","from":"Kißlegg Bahnhof","to":"Aulendorf Bahnhof","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[6009032293433,2]]},
+  {"id":3037406594115,"t":{"ref":"31","name":"31: Wolfegg Hofgarten - Ravensburg, Bahnhof","from":"Wolfegg Hofgarten","to":"Ravensburg, Bahnhof","operator":"Müller","route":"bus","public_transport:version":"2"},"n":23,"s":[[4471839868,2]]},
+  {"id":3049760572836,"t":{"ref":"31","name":"31: Ravensburg, Bahnhof - Wolfegg Hofgarten","from":"Ravensburg, Bahnhof","to":"Wolfegg Hofgarten","operator":"Müller","route":"bus","public_transport:version":"2"},"n":17,"s":[[7973849566,16]]},
+  {"id":3074785531864,"t":{"ref":"7543","name":"Linie 7543: Kißlegg -> Wolfegg","from":"Kißlegg","to":"Wolfegg","network":"Bodensee-Oberschwaben Verkehrsverbund","operator":"Regionalverkehr Alb-Bodensee GmbH","colour":"#CFBE7D","route":"bus","public_transport:version":"2"},"n":13,"s":[[8017847479,3],[8017847478,4]]},
+  {"id":3091684194342,"t":{"ref":"RB53","name":"RB53: Aulendorf Bahnhof - Kißlegg Bahnhof","from":"Aulendorf Bahnhof","to":"Kißlegg Bahnhof","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[6009032293433,4]]},
+  {"id":3095150523900,"t":{"ref":"31","name":"31: Ravensburg, Bahnhof - Wolfegg Hofgarten","from":"Ravensburg, Bahnhof","to":"Wolfegg Hofgarten","operator":"Müller","route":"bus","public_transport:version":"2"},"n":22,"s":[[7973849566,21]]},
+  {"id":3099373592482,"t":{"ref":"7534","name":"Linie 7534: Ravensburg -> Wolfegg -> Bad Wurzach","from":"Ravensburg","to":"Bad Wurzach","network":"Bodensee-Oberschwaben Verkehrsverbund","operator":"Regionalverkehr Alb-Bodensee GmbH","colour":"#f0e0bb","route":"bus","public_transport:version":"2"},"n":34,"s":[[4471839868,22],[6021549219697,23],[6049499428675,24],[6074655648366,25]]}
+]
+}

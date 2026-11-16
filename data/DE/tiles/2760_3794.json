@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2760,3794],
+"stops":[
+  {"id":301713210,"lat":48.008175,"lon":9.747647,"k":"x","n":"Winterstettenstadt, Ränkle"},
+  {"id":388914920,"lat":48.008023,"lon":9.746757,"k":"p","n":"Ränkle"},
+  {"id":715077420,"lat":48.006953,"lon":9.741226,"k":"x","n":"Winterstettenstadt, Rathaus"},
+  {"id":1995839478,"lat":48.002459,"lon":9.738567,"k":"p"},
+  {"id":8069703644,"lat":48.007974,"lon":9.746922,"k":"x","n":"Winterstettenstadt, Ränkle"},
+  {"id":8069703645,"lat":48.026564,"lon":9.742241,"k":"x","n":"Ingoldingen, Schule"},
+  {"id":8069703646,"lat":48.026549,"lon":9.742125,"k":"p","n":"Schule"},
+  {"id":8069703653,"lat":48.008119,"lon":9.747685,"k":"p","n":"Ränkle"},
+  {"id":8069703654,"lat":48.006935,"lon":9.741209,"k":"p","n":"Rathaus"},
+  {"id":12243905772,"lat":48.037598,"lon":9.711276,"k":"x","n":"Muttensweiler Gemeindehaus"},
+  {"id":12243905773,"lat":48.037631,"lon":9.711268,"k":"p","n":"Muttensweiler Gemeindehaus"},
+  {"id":12243906793,"lat":48.041835,"lon":9.730826,"k":"p","n":"Grodt"},
+  {"id":12243906794,"lat":48.041876,"lon":9.730834,"k":"x","n":"Grodt"},
+  {"id":12243906795,"lat":48.041934,"lon":9.730863,"k":"p","n":"Grodt"},
+  {"id":12243971335,"lat":48.025514,"lon":9.740223,"k":"p","n":"Ingoldingen Rathaus"},
+  {"id":12243971337,"lat":48.025538,"lon":9.740901,"k":"p","n":"Ingoldingen Rathaus"},
+  {"id":12243971338,"lat":48.025515,"lon":9.740593,"k":"x","n":"Ingoldingen Rathaus"}
+],
+"routes":[
+  {"id":11818165,"t":{"ref":"217","name":"Bus 217: Winterstettenstadt Rathaus => Biberach (Riß) ZOB/Bahnhof","from":"Winterstettenstadt, Rathaus","to":"Biberach (Riß), ZOB/Bahnhof (Steig 8)","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":9,"s":[[8069703654,1],[8069703653,2]]},
+  {"id":11818167,"t":{"ref":"217","name":"Bus 217: Winterstettendorf Ortsmitte => Biberach (Riß) ZOB/Bahnhof","from":"Winterstettendorf, Ortsmitte","to":"Biberach (Riß), ZOB/Bahnhof (Steig 8)","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":15,"s":[[8069703654,2],[8069703653,3]]},
+  {"id":11818169,"t":{"ref":"217","name":"Bus 217: Biberach (Riß) ZOB/Bahnhof => Winterstettenstadt Rathaus","from":"Biberach (Riß), ZOB/Bahnhof (Steig 14)","to":"Winterstettenstadt, Rathaus","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":15,"s":[[388914920,14],[8069703654,15]]},
+  {"id":11818172,"t":{"ref":"217a","name":"Bus 217a: Winterstettenstadt Rathaus => Ingoldingen Schule","from":"Winterstettenstadt, Rathaus","to":"Ingoldingen, Schule","network":"Donau-Iller-Nahverkehrsverbund","operator":"RAB","route":"bus","public_transport:version":"2"},"n":3,"s":[[8069703654,1],[8069703653,2],[8069703646,3]]},
+  {"id":11818173,"t":{"ref":"217a","name":"Bus 217a: Ingoldingen Schule => Winterstettenstadt Rathaus","from":"Ingoldingen, Schule","to":"Winterstettenstadt, Rathaus","network":"Donau-Iller-Nahverkehrsverbund","operator":"RAB","route":"bus","public_transport:version":"2"},"n":3,"s":[[8069703646,1],[388914920,2],[8069703654,3]]},
+  {"id":11818174,"t":{"ref":"217a","name":"Bus 217a: Bad Schussenried Schule => Unteressendorf Gemeindehaus","from":"Bad Schussenried, Schule","to":"Unteressendorf, Gemeindehaus","network":"Donau-Iller-Nahverkehrsverbund","operator":"RAB","route":"bus","public_transport:version":"2"},"n":12,"s":[[8069703654,9],[8069703653,10]]},
+  {"id":3002138233790,"t":{"ref":"270","name":"270: Bad Schussenried Marktplatz - Biberach ZOB/Bahnhof","from":"Bad Schussenried Marktplatz","to":"Biberach ZOB/Bahnhof","operator":"Klemens Diesch","route":"bus","public_transport:version":"2"},"n":13,"s":[[8069703646,5],[12243971335,6],[12243905773,7],[12243906793,8]]},
+  {"id":3011056991196,"t":{"ref":"270","name":"270: Bad Schussenried Bürgerst./ZfP - Biberach ZOB/Bahnhof","from":"Bad Schussenried Bürgerst./ZfP","to":"Biberach ZOB/Bahnhof","operator":"Klemens Diesch","route":"bus","public_transport:version":"2"},"n":14,"s":[[8069703646,6],[12243971337,7],[12243905773,8],[12243906793,9]]},
+  {"id":3018583484705,"t":{"ref":"217a","name":"Bus 217a: Unteressendorf Gemeindehaus => Bad Schussenried Schule","from":"Unteressendorf, Gemeindehaus","to":"Bad Schussenried, Schule","network":"Donau-Iller-Nahverkehrsverbund","operator":"RAB","route":"bus","public_transport:version":"2"},"n":12,"s":[[8069703654,9],[8069703653,10]]},
+  {"id":3029905439615,"t":{"ref":"217a","name":"Bus 217a: Unteressendorf Gemeindehaus => Bad Schussenried Schule","from":"Unteressendorf, Gemeindehaus","to":"Bad Schussenried, Schule","network":"Donau-Iller-Nahverkehrsverbund","operator":"RAB","route":"bus","public_transport:version":"2"},"n":9,"s":[[8069703654,9]]},
+  {"id":3031193915851,"t":{"ref":"217a","name":"Bus 217a: Unteressendorf Gemeindehaus => Bad Schussenried Schule","from":"Unteressendorf, Gemeindehaus","to":"Bad Schussenried, Schule","network":"Donau-Iller-Nahverkehrsverbund","operator":"RAB","route":"bus","public_transport:version":"2"},"n":9,"s":[[8069703654,1]]},
+  {"id":3043910411718,"t":{"ref":"217","name":"Bus 217: Biberach (Riß) ZOB/Bahnhof => Winterstettendorf Ortsmitte","from":"Biberach (Riß), ZOB/Bahnhof (Steig 14)","to":"Winterstettendorf, Ortsmitte","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":15,"s":[[8069703644,13],[8069703654,14]]},
+  {"id":3047663732431,"t":{"ref":"270","name":"270: Biberach ZOB/Bahnhof - Bad Schussenried Bürgerst./ZfP","from":"Biberach ZOB/Bahnhof","to":"Bad Schussenried Bürgerst./ZfP","operator":"Klemens Diesch","route":"bus","public_transport:version":"2"},"n":14,"s":[[12243906795,6],[12243905773,7],[8069703646,8],[12243971337,9]]},
+  {"id":3085585356158,"t":{"ref":"217","name":"Bus 217: Winterstettendorf Ortsmitte => Biberach (Riß) ZOB/Bahnhof","from":"Winterstettendorf, Ortsmitte","to":"Biberach (Riß), ZOB/Bahnhof (Steig 8)","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":16,"s":[[8069703654,2],[8069703653,3]]}
+]
+}

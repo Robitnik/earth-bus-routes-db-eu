@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2822,3896],
+"stops":[
+  {"id":445008638,"lat":51.147147,"lon":14.806732,"k":"p","n":"Reichenbach Oberlausitz Stadtbad"},
+  {"id":445008639,"lat":51.145063,"lon":14.809601,"k":"p","n":"Reichenbach Oberreichenbach"},
+  {"id":573435916,"lat":51.119261,"lon":14.845172,"k":"p","n":"Gersdorf bei Görlitz Brücke"},
+  {"id":573435917,"lat":51.119206,"lon":14.845193,"k":"p","n":"Gersdorf bei Görlitz Brücke"},
+  {"id":671874211,"lat":51.141087,"lon":14.800675,"k":"p","n":"Reichenbach Oberlausitz Markt"},
+  {"id":5337437310,"lat":51.146287,"lon":14.843476,"k":"p","n":"Markersdorf Motel"},
+  {"id":6771754565,"lat":51.103442,"lon":14.83254,"k":"p","n":"Deutsch Paulsdorf Schloss"},
+  {"id":6771754567,"lat":51.116985,"lon":14.833906,"k":"p","n":"Deutsch Paulsdorf Ortseingang Teich"},
+  {"id":6771816420,"lat":51.110811,"lon":14.849706,"k":"p","n":"Gersdorf bei Görlitz Schenkhäuser"},
+  {"id":6776623047,"lat":51.144951,"lon":14.809205,"k":"p","n":"Reichenbach Oberreichenbach"},
+  {"id":6776623048,"lat":51.144941,"lon":14.832011,"k":"p","n":"Reichenbach/Oberlausitz Oberhof"},
+  {"id":6776623049,"lat":51.144864,"lon":14.832375,"k":"p","n":"Reichenbach/Oberlausitz Oberhof"},
+  {"id":8811586245,"lat":51.147103,"lon":14.806576,"k":"p","n":"Reichenbach Oberlausitz Stadtbad"},
+  {"id":8841054444,"lat":51.116954,"lon":14.834049,"k":"p","n":"Deutsch Paulsdorf Ortseingang Teich"},
+  {"id":8841095597,"lat":51.146209,"lon":14.843977,"k":"p","n":"Markersdorf Motel"},
+  {"id":11825015399,"lat":51.141064,"lon":14.800586,"k":"x","n":"Reichenbach Oberlausitz Markt"},
+  {"id":6058201960037,"lat":51.139721,"lon":14.800463,"k":"p","n":"Reichenbach/OL v-Seydewitz-Str","g":1}
+],
+"routes":[
+  {"id":17589755,"t":{"ref":"S32","name":"Schulbus S32: Reichenbach => Löbau","from":"Reichenbach Markt","to":"Löbau Pestalozzi-Schule","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":11,"s":[[671874211,1]]},
+  {"id":17589756,"t":{"ref":"S32","name":"Schulbus S32: Löbau => Reichenbach","from":"Löbau Pestalozzi-Schule","to":"Reichenbach Markt","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":11,"s":[[671874211,11]]},
+  {"id":3000359009999,"t":{"ref":"62","name":"Bus 62: Görlitz => Markersdorf => Reichenbach","from":"Görlitz Theater","to":"Reichenbach (Oberlausitz) Markt","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":23,"s":[[573435916,20],[6058201960037,22],[671874211,23]]},
+  {"id":3003412194543,"t":{"ref":"63","name":"TaktBus 63: Niesky => Waldhufen => Reichenbach","from":"Niesky","to":"Reichenbach","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[8811586245,23],[6058201960037,25]]},
+  {"id":3013135116966,"t":{"ref":"35","name":"Bus 35: Bernstadt => Sohland => Reichenbach","from":"Bernstadt auf dem Eigen Markt","to":"Reichenbach (Oberlausitz) Markt","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":21,"s":[[671874211,21]]},
+  {"id":3046401184509,"t":{"ref":"63","name":"TaktBus 63: Niesky => Waldhufen => Reichenbach","from":"Niesky","to":"Reichenbach","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":26,"s":[[8811586245,24],[6058201960037,26]]},
+  {"id":3047346622788,"t":{"ref":"62","name":"Bus 62: Reichenbach => Markersdorf => Görlitz","from":"Reichenbach (Oberlausitz) Markt","to":"Görlitz Theater","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":28,"s":[[6058201960037,1],[671874211,2],[8841054444,4,6],[6771754565,5],[573435917,7]]},
+  {"id":3056245873216,"t":{"ref":"35","name":"Bus 35: Bernstadt => Sohland => Reichenbach","from":"Bernstadt auf dem Eigen Markt","to":"Reichenbach (Oberlausitz) Markt","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":27,"s":[[671874211,27]]},
+  {"id":3065369560697,"t":{"ref":"63","name":"TaktBus 63: Reichenbach => Waldhufen => Niesky","from":"Reichenbach","to":"Niesky","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":26,"s":[[671874211,2],[6058201960037,3],[8811586245,4]]},
+  {"id":3079909172346,"t":{"ref":"63","name":"TaktBus 63: Reichenbach => Waldhufen => Niesky","from":"Reichenbach","to":"Niesky","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[671874211,2],[6058201960037,3],[8811586245,4]]},
+  {"id":3083528833397,"t":{"ref":"62","name":"Bus 62: Reichenbach => Markersdorf => Görlitz","from":"Reichenbach (Oberlausitz) Markt","to":"Görlitz Theater","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":24,"s":[[6058201960037,1],[671874211,2],[573435917,4]]},
+  {"id":3086380050068,"t":{"ref":"S63","name":"Schulbus S63: Reichenbach => Vierkirchen","from":"Reichenbach Bahnhof","to":"Vierkirchen","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":23,"s":[[6058201960037,2],[671874211,3]]},
+  {"id":3093532192402,"t":{"ref":"35","name":"35: Reichenbach/OL Bahnhof - Schönau-Berzdorf Schule","from":"Reichenbach/OL Bahnhof","to":"Schönau-Berzdorf Schule","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":30,"s":[[671874211,3]]},
+  {"id":3093632873339,"t":{"ref":"35","name":"Bus 35: Reichenbach => Sohland => Bernstadt","from":"Reichenbach (Oberlausitz) Bahnhof","to":"Bernstadt auf dem Eigen Markt","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":21,"s":[[671874211,3]]}
+]
+}

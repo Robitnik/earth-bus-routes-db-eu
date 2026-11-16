@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2787,3759],
+"stops":[
+  {"id":281406587,"lat":49.377584,"lon":7.985306,"k":"p","n":"Esthal Gemeindeplatz"},
+  {"id":2051034515,"lat":49.377529,"lon":7.985277,"k":"x","n":"Esthal Gemeindeplatz"},
+  {"id":2488171662,"lat":49.380084,"lon":7.985124,"k":"p","n":"Esthal, Ortsausgang"},
+  {"id":2488171663,"lat":49.384315,"lon":7.989259,"k":"p","n":"Esthal, Sportplatz"},
+  {"id":2657353328,"lat":49.361516,"lon":7.952303,"k":"p","n":"Harzofen Naturfreundehaus"},
+  {"id":4387194009,"lat":49.356063,"lon":7.95063,"k":"p","n":"Harzofen, Ofen"},
+  {"id":4387194010,"lat":49.356048,"lon":7.950681,"k":"x"},
+  {"id":7880437423,"lat":49.380145,"lon":7.984932,"k":"p","n":"Esthal, Ortseingang"},
+  {"id":7882807633,"lat":49.384281,"lon":7.989437,"k":"p","n":"Esthal, Sportplatz"},
+  {"id":12578589086,"lat":49.380074,"lon":7.985094,"k":"x","n":"Esthal, Ortseingang"},
+  {"id":12578589087,"lat":49.380153,"lon":7.984952,"k":"x","n":"Esthal, Ortseingang"},
+  {"id":6005666197152,"lat":49.375285,"lon":7.985807,"k":"p","n":"Esthal, Brunnenstraße","g":1},
+  {"id":6038131799024,"lat":49.366441,"lon":7.959612,"k":"p","n":"Schwabenbach","g":1}
+],
+"routes":[
+  {"id":3017431477563,"t":{"ref":"517","name":"Bus 517: Iggelbach => Neustadt","from":"Iggelbach, Ort","to":"Neustadt, Hauptbahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":40,"s":[[7882807633,11,15],[7880437423,12],[281406587,13],[12578589086,14]]},
+  {"id":3017769899773,"t":{"ref":"517","name":"Bus 517: Neustadt => Iggelbach","from":"Neustadt, Hauptbahnhof","to":"Iggelbach, Ort","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":38,"s":[[7882807633,24,28],[7880437423,25],[281406587,26],[12578589086,27]]},
+  {"id":3046766357062,"t":{"ref":"517","name":"Bus 517: Neustadt => Esthal","from":"Neustadt, Hauptbahnhof","to":"Esthal, Gemeindeplatz","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":26,"s":[[7882807633,24],[7880437423,25],[281406587,26]]},
+  {"id":3070921643009,"t":{"ref":"517","name":"Bus 517: Esthal => Neustadt","from":"Esthal, Gemeindeplatz","to":"Neustadt, Hauptbahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":28,"s":[[281406587,1],[12578589086,2],[7882807633,3]]},
+  {"id":3078654687730,"t":{"ref":"5911","name":"5911: Neustadt, Hauptbahnhof - Esthal, Ortsein-/ausgang","from":"Neustadt, Hauptbahnhof","to":"Esthal, Ortsein-/ausgang","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":32,"s":[[2657353328,28],[6038131799024,29],[6005666197152,30],[281406587,31],[12578589086,32]]}
+]
+}

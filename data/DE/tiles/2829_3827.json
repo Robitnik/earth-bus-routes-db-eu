@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2829,3827],
+"stops":[
+  {"id":269680306,"lat":51.465508,"lon":11.362977,"k":"x","n":"Othal"},
+  {"id":791232888,"lat":51.498862,"lon":11.391047,"k":"p","n":"Emseloh"},
+  {"id":791232949,"lat":51.498948,"lon":11.390084,"k":"p","n":"Emseloh"},
+  {"id":1643495555,"lat":51.492739,"lon":11.358221,"k":"x","n":"Riestedt, Schule"},
+  {"id":2298588377,"lat":51.472415,"lon":11.39261,"k":"x"},
+  {"id":2869909743,"lat":51.465487,"lon":11.362511,"k":"x","n":"Othal"},
+  {"id":2892598602,"lat":51.495043,"lon":11.364293,"k":"p","n":"Riestedt, Abzw. Annarode"},
+  {"id":2892598613,"lat":51.492824,"lon":11.358171,"k":"p","n":"Riestedt, Schule"},
+  {"id":3445318526,"lat":51.454591,"lon":11.398755,"k":"p","n":"Sotterhausen"},
+  {"id":3445318527,"lat":51.454606,"lon":11.398868,"k":"x","n":"Sotterhausen"},
+  {"id":3445318528,"lat":51.454915,"lon":11.398702,"k":"x","n":"Sotterhausen"},
+  {"id":3445318529,"lat":51.454901,"lon":11.398835,"k":"p","n":"Sotterhausen"},
+  {"id":3915937165,"lat":51.465449,"lon":11.362462,"k":"p","n":"Othal"},
+  {"id":3915937166,"lat":51.465554,"lon":11.36305,"k":"p","n":"Othal"},
+  {"id":3915937471,"lat":51.469628,"lon":11.396841,"k":"p","n":"Beyernaumburg, Sotterhäuser Str."},
+  {"id":3915937474,"lat":51.469672,"lon":11.39676,"k":"x","n":"Beyernaumburg, Sotterhäuser Str."},
+  {"id":3915937475,"lat":51.469711,"lon":11.396686,"k":"p","n":"Beyernaumburg, Sotterhäuser Str."},
+  {"id":3915937501,"lat":51.472437,"lon":11.392918,"k":"x","n":"Beyernaumburg"},
+  {"id":3915937502,"lat":51.472482,"lon":11.392931,"k":"p","n":"Beyernaumburg"},
+  {"id":9827871388,"lat":51.492854,"lon":11.358515,"k":"p","n":"Riestedt, Schule"},
+  {"id":9827871389,"lat":51.495095,"lon":11.363501,"k":"p","n":"Riestedt, Abzw. Annarode"},
+  {"id":9828202781,"lat":51.47236,"lon":11.392576,"k":"p","n":"Beyernaumburg"},
+  {"id":9828202782,"lat":51.482836,"lon":11.378321,"k":"x","n":"Riestedt, Bahnhof"},
+  {"id":9828202783,"lat":51.482783,"lon":11.378292,"k":"p","n":"Riestedt, Bahnhof"},
+  {"id":6056348244529,"lat":51.484021,"lon":11.379856,"k":"p","n":"Riestedt","g":1}
+],
+"routes":[
+  {"id":2315171,"t":{"ref":"VGS 426","name":"Bus 426: Sangerhausen-Hettstedt","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[791232888,2]]},
+  {"id":14300476,"t":{"ref":"VGS-421","name":"Bus 421: Emseloh => Benndorf","from":"Emseloh","to":"Benndorf","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[791232888,1]]},
+  {"id":14300478,"t":{"ref":"VGS-421","name":"Bus 421: Klostermannsfeld => Eisleben","network":"VGS","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[791232888,18]]},
+  {"id":3006255388106,"t":{"ref":"426","name":"426: Hettstedt, Busbahnhof - Sangerhausen, Busbahnhof","from":"Hettstedt, Busbahnhof","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":22,"s":[[9827871389,16],[1643495555,17]]},
+  {"id":3025634169724,"t":{"ref":"471","name":"471: Lu. Eisleben, Bahnhof (Bus) - Sangerhausen, Busbahnhof","from":"Lu. Eisleben, Bahnhof (Bus)","to":"Sangerhausen, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":22,"s":[[791232949,16],[9827871389,17],[1643495555,18]]},
+  {"id":3048730999658,"t":{"ref":"RE9","name":"RE9: Blankenheim (b. Sangerhausen) - Sangerhausen","from":"Blankenheim (b. Sangerhausen)","to":"Sangerhausen","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[6056348244529,2]]},
+  {"id":3080697761505,"t":{"ref":"471","name":"471: Sangerhausen, Busbahnhof - Lu. Eisleben, Busbahnhof","from":"Sangerhausen, Busbahnhof","to":"Lu. Eisleben, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":25,"s":[[9827871388,8],[2892598602,9],[791232888,10]]},
+  {"id":3091622984777,"t":{"ref":"426","name":"426: Sangerhausen, Busbahnhof - Hettstedt, Busbahnhof","from":"Sangerhausen, Busbahnhof","to":"Hettstedt, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":23,"s":[[9827871388,8],[2892598602,9]]},
+  {"id":3099436548709,"t":{"ref":"RE9","name":"RE9: Sangerhausen - Blankenheim (b. Sangerhausen)","from":"Sangerhausen","to":"Blankenheim (b. Sangerhausen)","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[6056348244529,2]]}
+]
+}

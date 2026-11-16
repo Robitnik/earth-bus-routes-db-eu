@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2824,3895],
+"stops":[
+  {"id":2641200169,"lat":51.200724,"lon":14.759756,"k":"p","n":"Arnsdorf (OL) Holzmühle"},
+  {"id":4191643153,"lat":51.246803,"lon":14.770013,"k":"p","n":"Diehsa Gärtnerei"},
+  {"id":4301034517,"lat":51.246638,"lon":14.770618,"k":"p","n":"Diehsa Gärtnerei"},
+  {"id":4301064011,"lat":51.246699,"lon":14.784435,"k":"x","n":"Diehsa Zur Folge"},
+  {"id":6123633430,"lat":51.201655,"lon":14.760475,"k":"p","n":"Arnsdorf (Oberlausitz) Holzmühle"},
+  {"id":6123633431,"lat":51.201636,"lon":14.760297,"k":"p","n":"Arnsdorf (Oberlausitz) Holzmühle"},
+  {"id":6123633432,"lat":51.201526,"lon":14.759652,"k":"p","n":"Arnsdorf Oberlausitz Holzmühle"},
+  {"id":6784774994,"lat":51.24476,"lon":14.762564,"k":"p","n":"Diehsa Gasthaus"},
+  {"id":6784774995,"lat":51.244725,"lon":14.762182,"k":"p","n":"Diehsa Gasthaus"},
+  {"id":6784976499,"lat":51.224727,"lon":14.78359,"k":"p","n":"Nieder Seifersdorf Heinrich"},
+  {"id":6784976500,"lat":51.224703,"lon":14.783903,"k":"p","n":"Nieder Seifersdorf Heinrich"},
+  {"id":6784976501,"lat":51.218128,"lon":14.771594,"k":"p","n":"Nieder Seifersdorf Gasthaus"},
+  {"id":6784976502,"lat":51.217996,"lon":14.771774,"k":"p","n":"Nieder Seifersdorf Gasthaus"},
+  {"id":6784976503,"lat":51.209785,"lon":14.765943,"k":"p","n":"Nieder Seifersdorf Gut"},
+  {"id":6784976504,"lat":51.209796,"lon":14.766175,"k":"p","n":"Nieder Seifersdorf Gut"},
+  {"id":6784976505,"lat":51.218728,"lon":14.777516,"k":"p","n":"Nieder Seifersdorf Kirche"},
+  {"id":6784976506,"lat":51.218728,"lon":14.777393,"k":"p","n":"Nieder Seifersdorf Kirche"},
+  {"id":11892121411,"lat":51.218058,"lon":14.771687,"k":"x","n":"Nieder Seifersdorf Gasthaus"},
+  {"id":6007750509613,"lat":51.217897,"lon":14.776954,"k":"p","n":"Nieder Seifersdorf Alte Feuerwehr","g":1},
+  {"id":6080562761097,"lat":51.217801,"lon":14.7769,"k":"p","n":"Nieder Seifersdorf Alte Feuerwehr","g":1}
+],
+"routes":[
+  {"id":17259527,"t":{"ref":"75","name":"Bus 75: Mücka => Förstgen => Hohendubrau => Waldhufen => Niesky","from":"Mücka Bahnhof","to":"Niesky Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[6784774994,17],[4301034517,18]]},
+  {"id":3003412194543,"t":{"ref":"63","name":"TaktBus 63: Niesky => Waldhufen => Reichenbach","from":"Niesky","to":"Reichenbach","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[6784976499,10],[6784976501,11],[6784976503,12],[6123633432,13]]},
+  {"id":3009519669997,"t":{"ref":"65","name":"Bus 65: Weißenberg => Königshain => Görlitz","from":"Weißenberg Markt","to":"Görlitz Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":30,"s":[[2641200169,10]]},
+  {"id":3023026586211,"t":{"ref":"77","name":"Bus 77: Kodersdorf => Nieder Seifersdorf","from":"Kodersdorf Gerichtskretscham","to":"Nieder Seifersdorf Gasthaus","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":6,"s":[[6784976505,5],[6784976501,6]]},
+  {"id":3023071502610,"t":{"ref":"77","name":"Bus 77: Nieder Seifersdorf => Kodersdorf","from":"Nieder Seifersdorf Gasthaus","to":"Kodersdorf Gerichtskretscham","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":6,"s":[[6784976502,1],[6007750509613,2]]},
+  {"id":3046401184509,"t":{"ref":"63","name":"TaktBus 63: Niesky => Waldhufen => Reichenbach","from":"Niesky","to":"Reichenbach","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":26,"s":[[6784976499,10],[6784976506,11],[6007750509613,12],[6784976503,13],[6123633432,14]]},
+  {"id":3051794519012,"t":{"ref":"75","name":"Bus 75: Niesky => Waldhufen => Hohendubrau => Förstgen => Mücka","from":"Niesky Bahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[6784774994,12],[4301034517,13],[4301064011,14]]},
+  {"id":3057745819045,"t":{"ref":"75","name":"Bus 75: Niesky => Waldhufen => Hohendubrau => Förstgen => Mücka","from":"Niesky Bahnhof","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":22,"s":[[4301064011,8],[4191643153,9],[6784774995,10]]},
+  {"id":3065369560697,"t":{"ref":"63","name":"TaktBus 63: Reichenbach => Waldhufen => Niesky","from":"Reichenbach","to":"Niesky","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":26,"s":[[6784976504,14],[6080562761097,15],[6784976505,16],[6784976500,17]]},
+  {"id":3079909172346,"t":{"ref":"63","name":"TaktBus 63: Reichenbach => Waldhufen => Niesky","from":"Reichenbach","to":"Niesky","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":25,"s":[[6784976504,14],[6784976502,15],[6784976500,16]]},
+  {"id":3080951658207,"t":{"ref":"65","name":"Bus 65: Görlitz => Königshain => Weißenberg","from":"Görlitz Busbahnhof","to":"Weißenberg Markt","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[6123633431,12]]},
+  {"id":3099869622783,"t":{"ref":"65","name":"Bus 65: Görlitz => Königshain => Weißenberg","from":"Görlitz Busbahnhof","to":"Weißenberg Markt","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":31,"s":[[6123633431,22]]}
+]
+}

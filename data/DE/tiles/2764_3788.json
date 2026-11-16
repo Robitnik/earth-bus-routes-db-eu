@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2764,3788],
+"stops":[
+  {"id":266821820,"lat":48.24525,"lon":9.403971,"k":"x","n":"Huldstetten Zwiefalter Straße"},
+  {"id":267917611,"lat":48.235099,"lon":9.400653,"k":"x","n":"Geisingen"},
+  {"id":304075978,"lat":48.23773,"lon":9.436837,"k":"x","n":"Gauingen Burrer"},
+  {"id":1038546311,"lat":48.211412,"lon":9.440801,"k":"x","n":"Mörsingen"},
+  {"id":2647478858,"lat":48.235051,"lon":9.43253,"k":"x","n":"Gauingen Büchle"},
+  {"id":7334761457,"lat":48.24012,"lon":9.437731,"k":"x","n":"Gauingen Linde"},
+  {"id":9432197702,"lat":48.245297,"lon":9.403981,"k":"p","n":"Huldstetten Zwiefalter Straße"},
+  {"id":9432197703,"lat":48.235121,"lon":9.432555,"k":"p","n":"Gauingen Büchle"},
+  {"id":9432197709,"lat":48.234962,"lon":9.432499,"k":"p","n":"Gauingen Büchle"},
+  {"id":9432197710,"lat":48.245204,"lon":9.403951,"k":"p","n":"Huldstetten Zwiefalter Straße"},
+  {"id":9451200447,"lat":48.237685,"lon":9.436757,"k":"p","n":"Gauingen Burrer"},
+  {"id":9451200448,"lat":48.240185,"lon":9.437739,"k":"p","n":"Gauingen Linde"},
+  {"id":9451200449,"lat":48.235161,"lon":9.400593,"k":"p","n":"Geisingen"},
+  {"id":9451200450,"lat":48.235185,"lon":9.400756,"k":"p","n":"Geisingen"},
+  {"id":9451200451,"lat":48.244477,"lon":9.403362,"k":"x","n":"Huldstetten Kirchstraße"},
+  {"id":9451200452,"lat":48.24449,"lon":9.40327,"k":"p","n":"Huldstetten Kirchstraße"},
+  {"id":9451200453,"lat":48.24443,"lon":9.40344,"k":"p","n":"Huldstetten Kirchstraße"},
+  {"id":9453443665,"lat":48.224445,"lon":9.424788,"k":"p","n":"Hochberg (Zwiefalten)"},
+  {"id":9453443666,"lat":48.224463,"lon":9.424814,"k":"x","n":"Hochberg (Zwiefalten)"},
+  {"id":9453443667,"lat":48.212381,"lon":9.402169,"k":"p","n":"Upflamör"},
+  {"id":9453443668,"lat":48.212352,"lon":9.402174,"k":"x","n":"Upflamör"},
+  {"id":9453443669,"lat":48.211431,"lon":9.440821,"k":"p","n":"Mörsingen"},
+  {"id":6093900169239,"lat":48.212534,"lon":9.403268,"k":"p","n":"Upflamör","g":1}
+],
+"routes":[
+  {"id":13729019,"t":{"ref":"262","name":"DE_naldo_262_Zwiefalten => Hochberg","from":"Zwiefalten Rentalhalle","to":"Hochberg (Zwiefalten)","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":4,"s":[[9453443669,2],[9453443667,3],[9453443665,4]]},
+  {"id":13735077,"t":{"ref":"267","name":"DE_naldo_267_Zwiefalten => Aichelau","from":"Zwiefalten Rentalhalle","to":"Aichelau","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":7,"s":[[9432197703,2],[9451200450,3],[9451200453,4]]},
+  {"id":13735078,"t":{"ref":"267","name":"DE_naldo_267_Aichelau => Zwiefalten","from":"Aichelau","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":7,"s":[[9451200452,4],[9451200449,5],[9432197709,6]]},
+  {"id":13735079,"t":{"ref":"267","name":"DE_naldo_267_Aichelau => Zwiefalten","from":"Aichelau","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":8,"s":[[9451200452,5],[9451200449,6],[9451200448,7]]},
+  {"id":13735080,"t":{"ref":"267","name":"DE_naldo_267_Zwiefalten => Aichelau","from":"Zwiefalten Rentalhalle","to":"Aichelau","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":9,"s":[[9451200448,2],[9451200447,3],[9451200450,4],[9451200453,5]]},
+  {"id":3015223387466,"t":{"ref":"262","name":"DE_naldo_262_Zwiefalten => Upflamör => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":5,"s":[[9453443669,2],[6093900169239,3],[9453443665,4]]},
+  {"id":3044527670795,"t":{"ref":"262","name":"DE_naldo_262_Zwiefalten => Upflamör => Zwiefalten","from":"Zwiefalten Rentalhalle","to":"Zwiefalten Rentalhalle","network":"Verkehrsverbund Neckar-Alb-Donau","route":"bus","public_transport:version":"2"},"n":4,"s":[[9453443669,2],[6093900169239,3],[9453443665,4]]},
+  {"id":3053352494571,"t":{"ref":"260","name":"DE_naldo_260: Reutlingen => Riedlingen","from":"Reutlingen","to":"Riedlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":27,"s":[[266821820,18],[2647478858,19]]},
+  {"id":3054173998888,"t":{"ref":"260","name":"DE_naldo_260: Riedlingen => Reutlingen","from":"Riedlingen","to":"Reutlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":28,"s":[[9432197703,10],[9432197710,11]]},
+  {"id":3055369506634,"t":{"ref":"260","name":"DE_naldo_260: Reutlingen => Riedlingen","from":"Reutlingen","to":"Riedlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":18,"s":[[266821820,9],[2647478858,10]]},
+  {"id":3095616036248,"t":{"ref":"260","name":"DE_naldo_260: Reutlingen => Riedlingen","from":"Reutlingen","to":"Riedlingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":20,"s":[[266821820,18],[2647478858,19]]}
+]
+}

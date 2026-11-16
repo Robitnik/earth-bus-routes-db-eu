@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2771,3812],
+"stops":[
+  {"id":451142785,"lat":48.558425,"lon":10.641904,"k":"x","n":"Binswangen Dillinger Straße","ref":"E"},
+  {"id":791385181,"lat":48.560535,"lon":10.646105,"k":"p","n":"Binswangen Ost","ref":"E"},
+  {"id":791385186,"lat":48.558365,"lon":10.641953,"k":"p","n":"Binswangen Dillinger Straße","ref":"E"},
+  {"id":791385190,"lat":48.560837,"lon":10.646291,"k":"p","n":"Binswangen Ost"},
+  {"id":791385201,"lat":48.555595,"lon":10.642653,"k":"p","n":"Binswangen Schule"},
+  {"id":791385217,"lat":48.558036,"lon":10.640308,"k":"p","n":"Binswangen Dillinger Straße","ref":"A"},
+  {"id":2092902178,"lat":48.568533,"lon":10.627344,"k":"x","n":"Abzweig Höchstädt"},
+  {"id":4780481590,"lat":48.560623,"lon":10.646137,"k":"x","n":"Binswangen Ost","ref":"E"},
+  {"id":5733161968,"lat":48.555722,"lon":10.642753,"k":"x","n":"Binswangen Schule"},
+  {"id":5758767946,"lat":48.558033,"lon":10.640132,"k":"x","n":"Binswangen Dillinger Straße","ref":"A"},
+  {"id":6037701259,"lat":48.560733,"lon":10.64632,"k":"x","n":"Binswangen Ost"},
+  {"id":8636668189,"lat":48.583137,"lon":10.615892,"k":"x","n":"Riedschreinerhof"},
+  {"id":8852397205,"lat":48.58303,"lon":10.615988,"k":"p","n":"Riedschreinerhof"},
+  {"id":8856710847,"lat":48.568441,"lon":10.627353,"k":"p","n":"Abzw. Höchstädt"}
+],
+"routes":[
+  {"id":3459666,"t":{"ref":"9101","name":"9101: Donaubrücke => Wertingen Dillinger Straße","from":"Donaubrücke","to":"Wertingen Dillinger Straße","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[791385186,4],[791385181,5]]},
+  {"id":12590374,"t":{"ref":"9109","name":"9109: Glött => Binswangen","from":"Glött","to":"Binswangen","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[451142785,9]]},
+  {"id":12591131,"t":{"ref":"9101","name":"9101: Dillingen Bahnhof => Wertingen Marktplatz","from":"Dillingen Bahnhof","to":"Wertingen Marktplatz","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[2092902178,10],[451142785,11],[6037701259,12]]},
+  {"id":12591132,"t":{"ref":"9101","name":"9101: Dillingen Bahnhof => Wertingen Marktplatz","from":"Dillingen Bahnhof","to":"Wertingen Marktplatz","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":10,"s":[[8856710847,6],[791385186,7],[791385181,8]]},
+  {"id":12591134,"t":{"ref":"9101","name":"9101: Rosenstraße => Wertingen Marktplatz","from":"Rosenstraße","to":"Wertingen Marktplatz","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[8856710847,10],[791385186,11],[791385181,12]]},
+  {"id":12591284,"t":{"ref":"9101","name":"9101: Höchstädt Bahnhof => Wertingen Marktplatz","from":"Höchstädt Bahnhof","to":"Wertingen Marktplatz","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[8636668189,6],[2092902178,7]]},
+  {"id":12591334,"t":{"ref":"9101","name":"9101: Höchstädt Bahnhof => Wertingen Bahnhof","from":"Höchstädt Bahnhof","to":"Wertingen Bahnhof","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[8636668189,3],[451142785,4],[6037701259,5]]},
+  {"id":12591409,"t":{"ref":"9101","name":"9101: Wertingen Marktplatz => Binswangen Ost","from":"Wertingen Marktplatz","to":"Binswangen Ost","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[791385190,7],[791385186,8]]},
+  {"id":13163428,"t":{"ref":"Rufbus Wertingen - Holzheim","name":"Rufbus Wertingen - Holzheim","from":"Wertingen Marktplatz","to":"Holzheim Altenbaindt","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[791385190,7]]},
+  {"id":3022067217868,"t":{"ref":"9101","name":"9101: Hauptschule => Wertingen Marktplatz","from":"Hauptschule","to":"Wertingen Marktplatz","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":16,"s":[[2092902178,11],[451142785,12],[791385181,13]]},
+  {"id":3032053963051,"t":{"ref":"9101","name":"9101: Hauptschule => Wertingen Marktplatz","from":"Hauptschule","to":"Wertingen Marktplatz","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":16,"s":[[6037701259,4],[5758767946,5],[2092902178,6]]},
+  {"id":3033212135943,"t":{"ref":"101 R","name":"101 R: Wertingen, Bahnhof - Dillingen, Rosenstraße","from":"Wertingen, Bahnhof","to":"Dillingen, Rosenstraße","operator":"Schwabenbus Dillingen","route":"bus","public_transport:version":"2"},"n":18,"s":[[6037701259,5],[5758767946,6],[2092902178,7]]},
+  {"id":3042360540592,"t":{"ref":"101 R","name":"101 R: Dillingen (Donau) - Wertingen, Bahnhof","from":"Dillingen (Donau)","to":"Wertingen, Bahnhof","operator":"Schwabenbus Dillingen","route":"bus","public_transport:version":"2"},"n":17,"s":[[2092902178,11],[451142785,12],[791385181,13]]}
+]
+}

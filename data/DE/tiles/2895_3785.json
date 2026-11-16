@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2895,3785],
+"stops":[
+  {"id":247483695,"lat":54.753304,"lon":9.260197,"k":"x","n":"Meynfeld Ost"},
+  {"id":10880865932,"lat":54.776386,"lon":9.291014,"k":"p","n":"Unaften, B199"},
+  {"id":10880865933,"lat":54.776259,"lon":9.291065,"k":"p","n":"Unaften, B199"},
+  {"id":10880865934,"lat":54.774192,"lon":9.274848,"k":"p","n":"Timmersiekfeld, B199"},
+  {"id":11147665284,"lat":54.774275,"lon":9.274798,"k":"x","n":"Timmersiekfeld, B199"},
+  {"id":11771506839,"lat":54.753274,"lon":9.260193,"k":"p","n":"Meynfeld Ost"},
+  {"id":6001104902275,"lat":54.757331,"lon":9.292542,"k":"p","n":"Handewitt Westermoor","g":1},
+  {"id":6007958795191,"lat":54.757002,"lon":9.282576,"k":"p","n":"Handewitt Westerlund","g":1},
+  {"id":6008267430734,"lat":54.753372,"lon":9.260818,"k":"p","n":"Meyn Meynfeld-Ost","g":1},
+  {"id":6009803436379,"lat":54.753431,"lon":9.261091,"k":"p","n":"Meyn Meynfeld-Ost","g":1},
+  {"id":6038160789595,"lat":54.75693,"lon":9.281106,"k":"p","n":"Handewitt Westerlund","g":1},
+  {"id":6070267619335,"lat":54.757349,"lon":9.293518,"k":"p","n":"Handewitt Westermoor","g":1},
+  {"id":6084736514404,"lat":54.773916,"lon":9.272957,"k":"p","n":"Handewitt Timmersiekfeld/B 199","g":1}
+],
+"routes":[
+  {"id":3029957,"t":{"ref":"894","name":"Bus 894: Stadum => Schafflund => Flensburg","from":"Stadum, Ort","to":"Flensburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"grey","route":"bus","public_transport:version":"2"},"n":15,"s":[[10880865934,6],[10880865933,7]]},
+  {"id":17299625,"t":{"ref":"882","name":"Bus 882: Timmersiek => Handewitt => Schafflund => Handewitt","from":"Timmersiekfeld, B199","to":"Schafflund, Schulzentrum","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"#B9C32D","route":"bus","public_transport:version":"2"},"n":7,"s":[[10880865934,1,5],[10880865933,2,6]]},
+  {"id":17299626,"t":{"ref":"882","name":"Bus 882: Schafflund => Handewitt => Schafflund","from":"Schafflund, Schulzentrum","to":"Schafflund, Schulzentrum","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"#B9C32D","route":"bus","public_transport:version":"2"},"n":3,"s":[[10880865932,3]]},
+  {"id":3020154646547,"t":{"ref":"880","name":"880: Handewitt B 199 - Nordhackstedt Kirche","from":"Handewitt B 199","to":"Nordhackstedt Kirche","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6070267619335,5],[6007958795191,6],[6009803436379,7]]},
+  {"id":3059000947561,"t":{"ref":"880","name":"880: Handewitt B 199 - Hörup Hörupfeld","from":"Handewitt B 199","to":"Hörup Hörupfeld","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[6070267619335,5],[6007958795191,6],[6009803436379,7]]},
+  {"id":3084814443498,"t":{"ref":"880","name":"880: Nordhackstedt Kirche - Handewitt B 199","from":"Nordhackstedt Kirche","to":"Handewitt B 199","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6008267430734,7],[6038160789595,8],[6001104902275,9]]},
+  {"id":3087482692239,"t":{"ref":"100","name":"Bus 100 SchnellBus: Niebüll => Flensburg","from":"Niebüll, ZOB","to":"Flensburg, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#3C73B9","route":"bus","public_transport:version":"2"},"n":31,"s":[[11147665284,24],[10880865933,25]]},
+  {"id":3087607887067,"t":{"ref":"100","name":"Bus 100 SchnellBus: Flensburg => Niebüll","from":"Flensburg, ZOB","to":"Niebüll, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#3C73B9","route":"bus","public_transport:version":"2"},"n":32,"s":[[10880865933,8],[6084736514404,9]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2793,3750],
+"stops":[
+  {"id":4234874489,"lat":49.691963,"lon":7.535878,"k":"p","n":"Bushaltestelle Hoppstädten"},
+  {"id":5924491614,"lat":49.657304,"lon":7.527786,"k":"p","n":"Grumbach Schwimmbad"},
+  {"id":5924491615,"lat":49.657228,"lon":7.527,"k":"p","n":"Hornberg Abzweig"},
+  {"id":5924491616,"lat":49.667418,"lon":7.509142,"k":"p","n":"Langweiler Tiefentaler Mühle"},
+  {"id":5924491620,"lat":49.651348,"lon":7.515473,"k":"p","n":"Homberg Wartehalle"},
+  {"id":5924491621,"lat":49.663793,"lon":7.523599,"k":"p","n":"Langweiler Friedhof"},
+  {"id":5924491622,"lat":49.663611,"lon":7.523204,"k":"p","n":"Langweiler Friedhof"},
+  {"id":5924491623,"lat":49.665931,"lon":7.525688,"k":"p","n":"Langweiler Wartehalle"},
+  {"id":5924491624,"lat":49.666006,"lon":7.525721,"k":"p","n":"Langweiler Wartehalle"},
+  {"id":5924491625,"lat":49.666543,"lon":7.538956,"k":"p","n":"Merzweiler Alter Friedhof"},
+  {"id":5924491626,"lat":49.667003,"lon":7.539083,"k":"p","n":"Merzweiler Hoppstäder Weg 6"},
+  {"id":5924491627,"lat":49.666955,"lon":7.539028,"k":"p","n":"Merzweiler Ort"},
+  {"id":5924491630,"lat":49.691961,"lon":7.536023,"k":"p","n":"Hoppstädten"},
+  {"id":9948939015,"lat":49.693284,"lon":7.502933,"k":"p","n":"Ort"},
+  {"id":14027632873,"lat":49.693253,"lon":7.502966,"k":"x","n":"Ort"},
+  {"id":6010053805777,"lat":49.695152,"lon":7.505487,"k":"p","n":"Sien, Tankstelle","g":1},
+  {"id":6017373367094,"lat":49.695919,"lon":7.507607,"k":"p","n":"Sien, Turnhalle","g":1},
+  {"id":6037174607649,"lat":49.695152,"lon":7.505972,"k":"p","n":"Sien, Tankstelle","g":1},
+  {"id":6042828752321,"lat":49.699225,"lon":7.508353,"k":"p","n":"Sienerhöfe","g":1},
+  {"id":6059776168830,"lat":49.656821,"lon":7.549693,"k":"p","n":"Grumbach, Im Grund","g":1}
+],
+"routes":[
+  {"id":1711027,"t":{"ref":"870","name":"Bus 870: Sien, Ort => Idar-Oberstein, Bahnhof","from":"Sien, Ort","to":"Idar-Oberstein, Bahnhof","network":"Rhein-Nahe Nahverkehrsverbund","operator":"Nahverkehrsbetriebe Birkenfeld GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[9948939015,1]]},
+  {"id":21119331,"t":{"ref":"286","name":"Bus 286: Sien => Kirn","from":"Sien Ort","to":"Kirn Bahnhof","network":"Rhein-Nahe Nahverkehrsverbund","operator":"KRN","route":"bus","public_transport:version":"2"},"n":10,"s":[[9948939015,1]]},
+  {"id":21119332,"t":{"ref":"286","name":"Bus 286: Kirn => Sien","from":"Kirn Bahnhof","to":"Sien Ort","network":"Rhein-Nahe Nahverkehrsverbund","operator":"KRN","route":"bus","public_transport:version":"2"},"n":10,"s":[[9948939015,10]]},
+  {"id":3000366971489,"t":{"ref":"286","name":"286: Sien, Ort - Kirn, Bahnhof","from":"Sien, Ort","to":"Kirn, Bahnhof","operator":"Kommunalverkehr Rhein-Nahe","route":"bus","public_transport:version":"2"},"n":13,"s":[[9948939015,1],[6037174607649,2],[6042828752321,3]]},
+  {"id":3016486435125,"t":{"ref":"286","name":"286: Kirn, Bahnhof - Sien, Ort","from":"Kirn, Bahnhof","to":"Sien, Ort","operator":"Kommunalverkehr Rhein-Nahe","route":"bus","public_transport:version":"2"},"n":13,"s":[[6042828752321,11],[6010053805777,12],[9948939015,13]]},
+  {"id":3029095366077,"t":{"ref":"2960","name":"2960: Lauterecken, Turnerheim - Sien, Ort","from":"Lauterecken, Turnerheim","to":"Sien, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":14,"s":[[5924491614,7],[5924491620,9],[5924491616,11],[6010053805777,13],[9948939015,14]]},
+  {"id":3043706856474,"t":{"ref":"870","name":"870: Sien, Turnhalle - Idar-Oberstein, Bahnhof","from":"Sien, Turnhalle","to":"Idar-Oberstein, Bahnhof","operator":"Nahverkehrsbetriebe Birkenfeld","route":"bus","public_transport:version":"2"},"n":27,"s":[[6017373367094,1]]},
+  {"id":3070960580660,"t":{"ref":"2967","name":"2967: Lauterecken, Turnerheim - Sien, Ort","from":"Lauterecken, Turnerheim","to":"Sien, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":19,"s":[[6059776168830,7],[5924491627,14],[5924491625,15],[5924491624,16],[5924491630,17],[6010053805777,18],[9948939015,19]]},
+  {"id":3073853867251,"t":{"ref":"870","name":"Bus 870: Idar-Oberstein, Bahnhof => Sien, Ort","from":"Idar-Oberstein, Bahnhof","to":"Sien, Ort","network":"Rhein-Nahe Nahverkehrsverbund","operator":"Nahverkehrsbetriebe Birkenfeld GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[6017373367094,27]]},
+  {"id":3089398925853,"t":{"ref":"2960","name":"2960: Sien, Ort - Lauterecken, Turnerheim","from":"Sien, Ort","to":"Lauterecken, Turnerheim","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":14,"s":[[9948939015,1],[6010053805777,2],[5924491616,4],[5924491620,6],[5924491614,8]]},
+  {"id":3097090642785,"t":{"ref":"2967","name":"2967: Sien, Ort - Lauterecken, Turnerheim","from":"Sien, Ort","to":"Lauterecken, Turnerheim","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":19,"s":[[9948939015,1],[6010053805777,2],[5924491630,3],[5924491624,4],[5924491625,5],[5924491627,6],[6059776168830,13]]}
+]
+}

@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2874,3834],
+"stops":[
+  {"id":249584992,"lat":53.732773,"lon":11.722847,"k":"x","n":"Brüel Friedhof"},
+  {"id":670223456,"lat":53.737832,"lon":11.713866,"k":"x","n":"Brüel Markt"},
+  {"id":670223458,"lat":53.726751,"lon":11.734646,"k":"x","n":"Brüel Umspannwerk"},
+  {"id":3304196718,"lat":53.738469,"lon":11.714482,"k":"p","n":"Brüel Markt"},
+  {"id":9183861241,"lat":53.738501,"lon":11.714434,"k":"x","n":"Brüel Markt"},
+  {"id":9187363480,"lat":53.732716,"lon":11.722816,"k":"p","n":"Brüel Friedhof"},
+  {"id":9187363481,"lat":53.73283,"lon":11.722879,"k":"p","n":"Brüel Friedhof"},
+  {"id":9187363482,"lat":53.72673,"lon":11.734841,"k":"p","n":"Brüel Umspannwerk"},
+  {"id":9187475837,"lat":53.726761,"lon":11.734451,"k":"p","n":"Brüel Umspannwerk"},
+  {"id":9187475838,"lat":53.737833,"lon":11.713855,"k":"p","n":"Brüel Markt"},
+  {"id":9282999250,"lat":53.732267,"lon":11.713634,"k":"p","n":"Brüel Schweriner Straße"},
+  {"id":9283010949,"lat":53.732021,"lon":11.713119,"k":"p","n":"Brüel Schweriner Straße"},
+  {"id":6098194242188,"lat":53.731528,"lon":11.715271,"k":"p","n":"Brüel Schule","g":1}
+],
+"routes":[
+  {"id":13346386,"t":{"ref":"175","name":"Bus 175: Blankenberg Bhf => Sternberg ZOB","from":"Blankenberg Bhf","to":"Sternberg ZOB","network":"Verkehrsgemeinschaft Westmecklenburg","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[9187475838,3],[9187363480,4],[9187475837,5]]},
+  {"id":13349927,"t":{"ref":"181","name":"Bus 181: Sternberg => Penzin => Weiße Krug","from":"Sternberg ZOB","to":"Weiße Krug","network":"Verkehrsgemeinschaft Westmecklenburg","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","colour":"green","route":"bus","public_transport:version":"2"},"n":11,"s":[[9187363482,5],[9187363481,6],[3304196718,7]]},
+  {"id":21282468,"t":{"ref":"mv63","name":"Bus mv63: Sternberg => Schwerin","from":"Sternberg Mecklenburg Ring","to":"Schwerin Hauptbahnhof","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[9187363482,6],[9187363481,7],[9187475838,8],[9283010949,9]]},
+  {"id":3006344127818,"t":{"ref":"849","name":"849: Weiße Krug - Sternberg (Meckl) ZOB","from":"Weiße Krug","to":"Sternberg (Meckl) ZOB","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":17,"s":[[9187475838,6],[6098194242188,7],[9187475837,8]]},
+  {"id":3018786216190,"t":{"ref":"mv63","name":"Bus mv63: Schwerin => Sternberg","from":"Schwerin Hauptbahnhof","to":"Sternberg Mecklenburg Ring","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[9282999250,16],[9187475838,17],[249584992,18],[9187475837,19]]},
+  {"id":3054795170928,"t":{"ref":"175","name":"Bus 175: Sternberg ZOB => Blankenberg Bhf","from":"Sternberg ZOB","to":"Blankenberg Bhf","network":"Verkehrsgemeinschaft Westmecklenburg","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[9187475838,4],[249584992,5],[9187475837,6]]},
+  {"id":3056485592258,"t":{"ref":"844","name":"844: Sternberg (Meckl) ZOB - Weberin","from":"Sternberg (Meckl) ZOB","to":"Weberin","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":32,"s":[[3304196718,8]]},
+  {"id":3057789505447,"t":{"ref":"849","name":"849: Sternberg (Meckl) ZOB - Weiße Krug","from":"Sternberg (Meckl) ZOB","to":"Weiße Krug","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":17,"s":[[9187363482,10],[6098194242188,11],[3304196718,12]]},
+  {"id":3072028058528,"t":{"ref":"mv63","name":"Bus mv63: Schwerin => Sternberg","from":"Schwerin Hauptbahnhof","to":"Sternberg Mecklenburg Ring","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[9187363482,6],[9187363481,7],[9187475838,8],[9283010949,9]]},
+  {"id":3072747638027,"t":{"ref":"175","name":"Bus 175: Sternberg ZOB => Blankenberg Bhf","from":"Sternberg ZOB","to":"Blankenberg Bhf","network":"Verkehrsgemeinschaft Westmecklenburg","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[9187363482,5],[9187363481,6],[3304196718,7]]},
+  {"id":3090078287368,"t":{"ref":"844","name":"844: Weberin - Sternberg (Meckl) ZOB","from":"Weberin","to":"Sternberg (Meckl) ZOB","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":32,"s":[[9187475838,25]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2788,3752],
+"stops":[
+  {"id":2520760768,"lat":49.416182,"lon":7.615531,"k":"p","n":"Kindsbach, Marktstraße"},
+  {"id":2520760797,"lat":49.41627,"lon":7.616407,"k":"p","n":"Kindsbach, Kreuzstraße"},
+  {"id":2520915305,"lat":49.418364,"lon":7.622884,"k":"p","n":"Kindsbach, Kandeltal"},
+  {"id":2520915306,"lat":49.418405,"lon":7.622509,"k":"p","n":"Kindsbach, Kandeltal"},
+  {"id":2595833388,"lat":49.415667,"lon":7.608462,"k":"p","n":"Kindsbach Bärendellstraße"},
+  {"id":2595833389,"lat":49.41574,"lon":7.608333,"k":"p","n":"Kindsbach Friedhofstraße"},
+  {"id":3519271260,"lat":49.424205,"lon":7.644158,"k":"x","n":"Kindsbach, Forsthaus"},
+  {"id":8918580150,"lat":49.419087,"lon":7.613268,"k":"p","n":"Kindsbach Bahnhof"},
+  {"id":8918580151,"lat":49.420173,"lon":7.620382,"k":"p","n":"Kindsbach Hirtenpfad"},
+  {"id":8918580152,"lat":49.420094,"lon":7.620408,"k":"p","n":"Kindsbach Hirtenpfad"},
+  {"id":9231927507,"lat":49.419151,"lon":7.613223,"k":"x","n":"Kindsbach Bahnhof"},
+  {"id":14277395795,"lat":49.447492,"lon":7.60181,"k":"p","n":"Ramstein, Air Base Bau 2113"},
+  {"id":14277436328,"lat":49.44472,"lon":7.60016,"k":"p"},
+  {"id":14277443314,"lat":49.443647,"lon":7.601541,"k":"p"},
+  {"id":6038860262005,"lat":49.424549,"lon":7.644897,"k":"p","n":"Kindsbach, Forsthaus","g":1},
+  {"id":6055336965992,"lat":49.418712,"lon":7.616914,"k":"p","n":"Kindsbach, Hanfstraße","g":1},
+  {"id":6082209896635,"lat":49.417204,"lon":7.6151,"k":"p","n":"Kindsbach, Grundschule","g":1}
+],
+"routes":[
+  {"id":3020266893357,"t":{"ref":"SWK N1","name":"SWK N1: Kaiserslautern, Am Belzappel - Kindsbach, Friedhofstraße","from":"Kaiserslautern, Am Belzappel","to":"Kindsbach, Friedhofstraße","operator":"Stadtwerke Kaiserslautern","route":"bus","public_transport:version":"2"},"n":10,"s":[[6038860262005,9],[2595833389,10]]},
+  {"id":3064306198817,"t":{"ref":"143","name":"Bus 143: Landstuhl => Kindsbach","from":"Landstuhl Gewerbegebiet West","to":"Kindsbach Bf.","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":14,"s":[[2595833388,10],[2520760797,11],[2520915305,12],[8918580151,13],[6055336965992,14]]},
+  {"id":3088334734726,"t":{"ref":"143","name":"Bus 143: Kindsbach => Landstuhl","from":"Kindsbach Bf.","to":"Landstuhl Gewerbegebiet West","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":12,"s":[[8918580151,1],[6055336965992,2],[6082209896635,3],[2595833389,4]]},
+  {"id":3094781042739,"t":{"ref":"147","name":"147: Ramstein, ZOB - Ramstein, ZOB","from":"Ramstein, ZOB","to":"Ramstein, ZOB","operator":"Regionalbus-Westpfalz","route":"bus","public_transport:version":"2"},"n":15,"s":[[14277395795,10]]}
+]
+}

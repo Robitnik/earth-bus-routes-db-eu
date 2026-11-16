@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3749],
+"stops":[
+  {"id":853713150,"lat":49.700792,"lon":7.483484,"k":"p","n":"Sienhachenbach, B270"},
+  {"id":853713321,"lat":49.701057,"lon":7.483311,"k":"p","n":"Sienhachenbach, B270"},
+  {"id":9363856690,"lat":49.708212,"lon":7.462203,"k":"p","n":"Oberreidenbach, Ost"},
+  {"id":9948939016,"lat":49.711102,"lon":7.456313,"k":"p","n":"Oberreidenbach, West"},
+  {"id":9948948517,"lat":49.711686,"lon":7.455514,"k":"p","n":"Oberreidenbach, West"},
+  {"id":9948948518,"lat":49.707735,"lon":7.462842,"k":"p","n":"Oberreidenbach, Ost"},
+  {"id":13992117694,"lat":49.731364,"lon":7.470809,"k":"p","n":"Schmidthachenbach"},
+  {"id":14026433890,"lat":49.740848,"lon":7.499947,"k":"x","n":"Ort"},
+  {"id":14026433891,"lat":49.740918,"lon":7.499826,"k":"x","n":"Ort"},
+  {"id":14026433892,"lat":49.740875,"lon":7.499972,"k":"p","n":"Ort"},
+  {"id":14026433893,"lat":49.740874,"lon":7.499786,"k":"p","n":"Ort"},
+  {"id":14041178317,"lat":49.731424,"lon":7.47082,"k":"x","n":"Schmidthachenbach"},
+  {"id":6066248696098,"lat":49.710763,"lon":7.457283,"k":"p","n":"Oberreidenbach, West","g":1}
+],
+"routes":[
+  {"id":1711027,"t":{"ref":"870","name":"Bus 870: Sien, Ort => Idar-Oberstein, Bahnhof","from":"Sien, Ort","to":"Idar-Oberstein, Bahnhof","network":"Rhein-Nahe Nahverkehrsverbund","operator":"Nahverkehrsbetriebe Birkenfeld GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[853713321,2],[9363856690,3],[9948948517,4]]},
+  {"id":21119331,"t":{"ref":"286","name":"Bus 286: Sien => Kirn","from":"Sien Ort","to":"Kirn Bahnhof","network":"Rhein-Nahe Nahverkehrsverbund","operator":"KRN","route":"bus","public_transport:version":"2"},"n":10,"s":[[14026433892,4]]},
+  {"id":21119332,"t":{"ref":"286","name":"Bus 286: Kirn => Sien","from":"Kirn Bahnhof","to":"Sien Ort","network":"Rhein-Nahe Nahverkehrsverbund","operator":"KRN","route":"bus","public_transport:version":"2"},"n":10,"s":[[14026433893,7]]},
+  {"id":3000366971489,"t":{"ref":"286","name":"286: Sien, Ort - Kirn, Bahnhof","from":"Sien, Ort","to":"Kirn, Bahnhof","operator":"Kommunalverkehr Rhein-Nahe","route":"bus","public_transport:version":"2"},"n":13,"s":[[14026433891,6]]},
+  {"id":3016486435125,"t":{"ref":"286","name":"286: Kirn, Bahnhof - Sien, Ort","from":"Kirn, Bahnhof","to":"Sien, Ort","operator":"Kommunalverkehr Rhein-Nahe","route":"bus","public_transport:version":"2"},"n":13,"s":[[14026433891,8]]},
+  {"id":3043706856474,"t":{"ref":"870","name":"870: Sien, Turnhalle - Idar-Oberstein, Bahnhof","from":"Sien, Turnhalle","to":"Idar-Oberstein, Bahnhof","operator":"Nahverkehrsbetriebe Birkenfeld","route":"bus","public_transport:version":"2"},"n":27,"s":[[853713321,2],[9363856690,3],[6066248696098,4]]},
+  {"id":3060638601258,"t":{"ref":"289","name":"289: Schmidthachenbach, Bachweg - Kirn, Bahnhof","from":"Schmidthachenbach, Bachweg","to":"Kirn, Bahnhof","operator":"Kommunalverkehr Rhein-Nahe","route":"bus","public_transport:version":"2"},"n":13,"s":[[14041178317,1]]},
+  {"id":3068855917642,"t":{"ref":"879","name":"879: Schmidthachenbach, Bachweg - Idar-Oberstein, Bahnhof","from":"Schmidthachenbach, Bachweg","to":"Idar-Oberstein, Bahnhof","operator":"Nahverkehrsbetriebe Birkenfeld","route":"bus","public_transport:version":"2"},"n":19,"s":[[14041178317,1]]},
+  {"id":3073853867251,"t":{"ref":"870","name":"Bus 870: Idar-Oberstein, Bahnhof => Sien, Ort","from":"Idar-Oberstein, Bahnhof","to":"Sien, Ort","network":"Rhein-Nahe Nahverkehrsverbund","operator":"Nahverkehrsbetriebe Birkenfeld GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[6066248696098,24],[9948948518,25],[853713321,26]]},
+  {"id":3086614576537,"t":{"ref":"289","name":"289: Kirn, Bahnhof - Schmidthachenbach, Bachweg","from":"Kirn, Bahnhof","to":"Schmidthachenbach, Bachweg","operator":"Kommunalverkehr Rhein-Nahe","route":"bus","public_transport:version":"2"},"n":13,"s":[[14041178317,13]]}
+]
+}

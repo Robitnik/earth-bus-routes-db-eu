@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2792,3787],
+"stops":[
+  {"id":2463431422,"lat":49.630632,"lon":9.384924,"k":"x","n":"Wettersdorf Ort"},
+  {"id":9279769629,"lat":49.630666,"lon":9.384884,"k":"p","n":"Wettersdorf Ort"},
+  {"id":9279883690,"lat":49.623516,"lon":9.365569,"k":"p","n":"Glashofen Ort"},
+  {"id":9279883692,"lat":49.647429,"lon":9.358127,"k":"p","n":"Kaltenbrunn Ort"},
+  {"id":9279972403,"lat":49.623425,"lon":9.365585,"k":"p","n":"Glashofen Ort"},
+  {"id":6026340356181,"lat":49.635433,"lon":9.397671,"k":"p","n":"Vollmersdorf, Ort","g":1}
+],
+"routes":[
+  {"id":3215539,"t":{"ref":"849","name":"Bus 849: Walldürn => Wettersdorf","from":"Walldürn Bahnhof","to":"Wettersdorf","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":13,"s":[[9279972403,9],[9279883692,12],[9279769629,13]]},
+  {"id":3215540,"t":{"ref":"849","name":"Bus 849: Wettersdorf => Walldürn","from":"Wettersdorf Ort","to":"Walldürn","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":12,"s":[[9279769629,1],[9279883690,2],[9279883692,5]]},
+  {"id":3004809040443,"t":{"ref":"843","name":"Bus 843: Vollmersdorf => Hardheim","from":"Vollmersdorf, Ort","to":"Hardheim, Schule","network":"Verkehrsverbund Rhein-Neckar","operator":"BRN","route":"bus","public_transport:version":"2"},"n":5,"s":[[6026340356181,4]]},
+  {"id":3019102915395,"t":{"ref":"8951","name":"8951: Buchen, Bahnhof - Buchen, Bahnhof","from":"Buchen, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[9279883692,13],[2463431422,14],[9279883690,15]]},
+  {"id":3046185448635,"t":{"ref":"8950","name":"8950: Walldürn, Bahnhof - Hardheim, Post","from":"Walldürn, Bahnhof","to":"Hardheim, Post","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":15,"s":[[6026340356181,13]]},
+  {"id":3090830939241,"t":{"ref":"8951","name":"8951: Walldürn, Bahnhof - Buchen, Bahnhof","from":"Walldürn, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":20,"s":[[9279883690,6],[2463431422,7],[9279883692,8]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2809,3817],
+"stops":[
+  {"id":495197166,"lat":50.45014,"lon":10.889941,"k":"p","n":"Crock"},
+  {"id":2913327597,"lat":50.484501,"lon":10.885042,"k":"p","n":"Tellerhammer"},
+  {"id":2913327599,"lat":50.484518,"lon":10.887253,"k":"x"},
+  {"id":2913327600,"lat":50.484532,"lon":10.885009,"k":"x"},
+  {"id":2913330601,"lat":50.484566,"lon":10.88736,"k":"p","n":"Tellerhammer"},
+  {"id":2913330603,"lat":50.490549,"lon":10.866914,"k":"p","n":"Biberschlag"},
+  {"id":2913330604,"lat":50.490592,"lon":10.866977,"k":"x"},
+  {"id":2913330605,"lat":50.492947,"lon":10.864035,"k":"x","n":"Biberschlag"},
+  {"id":2913330606,"lat":50.493078,"lon":10.864054,"k":"p","n":"Biberschlag"},
+  {"id":2913330608,"lat":50.495972,"lon":10.854871,"k":"x"},
+  {"id":2913330609,"lat":50.496003,"lon":10.854723,"k":"p","n":"Engenstein"},
+  {"id":2913330610,"lat":50.495956,"lon":10.855008,"k":"p","n":"Engenstein"},
+  {"id":3821927843,"lat":50.465272,"lon":10.853622,"k":"p","n":"Brattendorf, Süd"},
+  {"id":3821927844,"lat":50.453449,"lon":10.856472,"k":"p","n":"Brünn, Abzw. Crock"},
+  {"id":12034765639,"lat":50.469685,"lon":10.851548,"k":"p","n":"Brattendorf, Schule"},
+  {"id":12034886675,"lat":50.49411,"lon":10.861061,"k":"p","n":"Biberschlag, Schulbushaltestelle"},
+  {"id":6022759854752,"lat":50.451655,"lon":10.886441,"k":"p","n":"Crock, Ortsmitte","g":1},
+  {"id":6026076989763,"lat":50.465902,"lon":10.853712,"k":"p","n":"Brattendorf, Süd","g":1},
+  {"id":6044499984861,"lat":50.465902,"lon":10.853712,"k":"p","n":"Brattendorf, Süd","g":1}
+],
+"routes":[
+  {"id":3817377,"t":{"ref":"206","name":"Bus 206: Masserberg => Fehrenbach => Heubach => Biberschlag => Schönbrunn","from":"Masserberg","to":"Schönbrunn","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[2913330606,6]]},
+  {"id":3820136,"t":{"ref":"206","name":"Bus 206: Schnett => Heubach => Einsiedel => Tellerhammer => Biberschlag => Engenstein => Schönbrunn","from":"Schnett","to":"Schönbrunn","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2913330601,5],[2913330606,6],[2913330610,7]]},
+  {"id":3820448,"t":{"ref":"206","name":"Bus 206: Schönbrunn => Engenstein => Biberschlag => Tellerhammer => Einsiedel => Heubach => Fehrenbach => Schnett","from":"Schönbrunn","to":"Schnett","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2913330610,3],[2913330606,4],[2913327597,5]]},
+  {"id":3820449,"t":{"ref":"206","name":"Bus 206: Schönbrunn => Lichtenau => Waldau => Engenstein => Biberschlag => Tellerhammer => Einsiedel => Heubach => -Schnett","from":"Schönbrunn","to":"Schnett","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[2913330609,4],[2913330603,5],[2913327597,6]]},
+  {"id":17645871,"t":{"ref":"207","name":"(Linie 207) Hildburghausen-Brattendorf-Masserberg","from":"Hildburghausen","to":"Masserberg","network":"WerraBus","operator":"WerraBus","colour":"#f8e45c","route":"bus"},"n":47,"s":[[3821927844,10],[3821927843,11],[12034765639,13],[2913330608,19],[2913330609,20],[2913330610,21],[2913327600,22],[2913327597,23],[12034886675,46],[2913330605,47]]},
+  {"id":17808506,"t":{"ref":"263","name":"(Linie 263) Hildburghausen - Eisfeld","from":"Hildburghausen","to":"Eisfeld","network":"WerraBus","route":"bus"},"n":15,"s":[[495197166,15]]},
+  {"id":3020482627315,"t":{"ref":"209","name":"209: Eisfeld, Bahnhof - Masserberg","from":"Eisfeld, Bahnhof","to":"Masserberg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":16,"s":[[495197166,5]]},
+  {"id":3025906107950,"t":{"ref":"205","name":"205: Coburg - Schleusingen, Zentralhaltestelle","from":"Coburg","to":"Schleusingen, Zentralhaltestelle","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":18,"s":[[3821927844,10],[6026076989763,11],[12034765639,12]]},
+  {"id":3029763625480,"t":{"ref":"209","name":"209: Masserberg - Eisfeld, Bahnhof","from":"Masserberg","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":11,"s":[[495197166,7]]},
+  {"id":3034680594976,"t":{"ref":"208","name":"208: Eisfeld, Bahnhof - Gießübel","from":"Eisfeld, Bahnhof","to":"Gießübel","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":22,"s":[[495197166,5],[6022759854752,6],[3821927844,7],[6026076989763,8],[12034765639,9]]},
+  {"id":3042816953621,"t":{"ref":"205","name":"205: Schleusingen, Zentralhaltestelle - Coburg","from":"Schleusingen, Zentralhaltestelle","to":"Coburg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":18,"s":[[12034765639,7],[6044499984861,8],[3821927844,9]]},
+  {"id":3093911360625,"t":{"ref":"209","name":"209: Masserberg - Eisfeld, Bahnhof","from":"Masserberg","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":16,"s":[[495197166,12]]}
+]
+}

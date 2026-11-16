@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2793,3849],
+"stops":[
+  {"id":7639773240,"lat":49.690063,"lon":12.457866,"k":"p","n":"Brünst, Kastanienhof"},
+  {"id":7639778659,"lat":49.655184,"lon":12.464794,"k":"p","n":"Hagendorf, Feuerwehrhaus"},
+  {"id":7657193267,"lat":49.652582,"lon":12.450685,"k":"p","n":"Dürrenlohe"},
+  {"id":7678119622,"lat":49.684163,"lon":12.462388,"k":"p","n":"Zollhaus, Gem. Georgenberg"},
+  {"id":8582394161,"lat":49.652479,"lon":12.450747,"k":"p","n":"Dürrenlohe"},
+  {"id":8598806114,"lat":49.655351,"lon":12.464819,"k":"p","n":"Hagendorf, Feuerwehrhaus"},
+  {"id":8598833635,"lat":49.654605,"lon":12.461482,"k":"p","n":"Hagendorf, Spatwerk"},
+  {"id":8598833636,"lat":49.654719,"lon":12.461562,"k":"p","n":"Hagendorf, Spatwerk"},
+  {"id":8747544367,"lat":49.679346,"lon":12.466005,"k":"p","n":"Reinhardsrieth, Wartehaus"},
+  {"id":9266707774,"lat":49.675449,"lon":12.468341,"k":"p","n":"Reinhardsrieth, Nickl"},
+  {"id":10195637709,"lat":49.689244,"lon":12.463248,"k":"x","n":"Zollhaus"},
+  {"id":10195637710,"lat":49.689261,"lon":12.463207,"k":"p","n":"Zollhaus"},
+  {"id":11373413134,"lat":49.690124,"lon":12.459497,"k":"p","n":"Leßlohe, Kastanienhof"},
+  {"id":6023093443310,"lat":49.692398,"lon":12.450479,"k":"p","n":"Brünst, Kreuzer","g":1},
+  {"id":6024246099587,"lat":49.654692,"lon":12.466343,"k":"p","n":"Hagendorf, Feuerwehrhaus","g":1},
+  {"id":6065041606243,"lat":49.654692,"lon":12.466343,"k":"p","n":"Hagendorf, Feuerwehrhaus","g":1}
+],
+"routes":[
+  {"id":11223206,"t":{"ref":"1937","name":"Bus 1937: Brünst -> Neuenhammer -> Pleystein -> Vohenstrauß","from":"Brünst","to":"Vohenstrauß","network":"VGN","colour":"#46A6AE","route":"bus"},"n":12,"s":[[7639773240,1]]},
+  {"id":11223230,"t":{"ref":"1938","name":"Bus 1938: Lösselmühle -> Pleystein","from":"Lösselmühle","to":"Pleystein","network":"VGN","colour":"#EE1C25","route":"bus"},"n":7,"s":[[7639773240,2],[7678119622,3],[7639778659,4],[7657193267,5]]},
+  {"id":11228260,"t":{"ref":"1938","name":"Bus 1938: Pleystein -> Lösselmühle","from":"Pleystein","to":"Lösselmühle","network":"VGN","colour":"#EE1C25","route":"bus"},"n":7,"s":[[7657193267,3],[7639778659,4],[7678119622,5],[7639773240,6]]},
+  {"id":3015819857408,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Neustadt (Waldnaab)","from":"Zollhaus, Gem. Georgenberg","to":"Neustadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[10195637709,1],[11373413134,2],[7639773240,4]]},
+  {"id":3035325993114,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Vohenstrauß, Marktplatz","from":"Schönsee, Rathaus/Post","to":"Vohenstrauß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[6024246099587,25],[8598833636,26],[9266707774,27],[10195637709,28],[11373413134,29],[7639773240,31]]},
+  {"id":3044593142085,"t":{"ref":"1981","name":"1981: Floß, Marktplatz - Zollhaus, Gem. Georgenberg","from":"Floß, Marktplatz","to":"Zollhaus, Gem. Georgenberg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[6023093443310,73],[7639773240,74],[11373413134,76],[10195637709,77]]},
+  {"id":3053811177755,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Floß, Marktplatz","from":"Zollhaus, Gem. Georgenberg","to":"Floß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[10195637709,1],[11373413134,2],[7639773240,4]]},
+  {"id":3056857914902,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Weiden (Oberpf)","from":"Schönsee, Rathaus/Post","to":"Weiden (Oberpf)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[6024246099587,25],[8598833636,26],[9266707774,27],[10195637709,28],[11373413134,29],[7639773240,31]]},
+  {"id":3059584409868,"t":{"ref":"1983","name":"1983: Weiden (Oberpf) - Schönsee, Rathaus/Post","from":"Weiden (Oberpf)","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[6023093443310,55],[7639773240,56],[11373413134,58],[10195637709,59],[9266707774,60],[8598833636,61],[6065041606243,62]]},
+  {"id":3095009573776,"t":{"ref":"1981","name":"1981: Neustadt (Waldnaab) - Zollhaus, Gem. Georgenberg","from":"Neustadt (Waldnaab)","to":"Zollhaus, Gem. Georgenberg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[6023093443310,74],[7639773240,75],[11373413134,77],[10195637709,78]]},
+  {"id":3096323727158,"t":{"ref":"1983","name":"1983: Vohenstrauß, Marktplatz - Schönsee, Rathaus/Post","from":"Vohenstrauß, Marktplatz","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[6023093443310,54],[7639773240,55],[11373413134,57],[10195637709,58],[9266707774,59],[8598833636,60],[6065041606243,61]]}
+]
+}

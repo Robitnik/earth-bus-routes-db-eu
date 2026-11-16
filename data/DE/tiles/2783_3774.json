@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2783,3774],
+"stops":[
+  {"id":277887112,"lat":49.179176,"lon":8.74613,"k":"p","n":"Bahnhof Odenheim"},
+  {"id":278041947,"lat":49.182442,"lon":8.737024,"k":"p","n":"Odenheim Felsenkeller"},
+  {"id":278043974,"lat":49.182108,"lon":8.737322,"k":"p","n":"Odenheim Felsenkeller"},
+  {"id":281167445,"lat":49.176628,"lon":8.746732,"k":"p","n":"Schule"},
+  {"id":309501057,"lat":49.154359,"lon":8.721861,"k":"p","n":"Neuenbürg Raiffeisenbank"},
+  {"id":2102333334,"lat":49.182071,"lon":8.737417,"k":"x"},
+  {"id":2102333339,"lat":49.182446,"lon":8.73698,"k":"x"},
+  {"id":2667706217,"lat":49.179282,"lon":8.745837,"k":"p","n":"Bahnhof Odenheim"},
+  {"id":2667706537,"lat":49.179051,"lon":8.702468,"k":"p","n":"Zeutern Ost"},
+  {"id":2667706557,"lat":49.179163,"lon":8.703538,"k":"p","n":"Zeutern Ost"},
+  {"id":7413474454,"lat":49.179195,"lon":8.703548,"k":"x","n":"Zeutern Ost"},
+  {"id":7413474455,"lat":49.179016,"lon":8.702451,"k":"x","n":"Zeutern Ost"},
+  {"id":9224888323,"lat":49.154377,"lon":8.721951,"k":"x","n":"Neuenbürg Raiffeisenbank"}
+],
+"routes":[
+  {"id":9397793,"t":{"ref":"135","name":"Bus 135: Oberöwisheim => Neuenbürg","from":"Oberöwisheim Bahnhof","to":"Neuenbürg (Baden) Raifeisenbank","network":"Karlsruher Verkehrsverbund","operator":"Karlsruher Verkehrsverbund GmbH","colour":"#800080","route":"bus","public_transport:version":"2"},"n":4,"s":[[309501057,4]]},
+  {"id":3003103744743,"t":{"ref":"139","name":"Bus 139: Neuenbürg => Landshausen","from":"Neuenbürg Raiffeisenbank","to":"Landshausen Rohrbrunnen","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[9224888323,1]]},
+  {"id":3008490773721,"t":{"ref":"139","name":"Bus 139: Landshausen => Neuenbürg","from":"Landshausen Rohrbrunnen","to":"Neuenbürg Raiffeisenbank","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":15,"s":[[9224888323,15]]},
+  {"id":3012701042456,"t":{"ref":"139","name":"Bus 139: Landshausen => Neuenbürg","from":"Landshausen Rohrbrunnen","to":"Neuenbürg Raiffeisenbank","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":11,"s":[[9224888323,11]]},
+  {"id":3016403503183,"t":{"ref":"134","name":"Bus 134: Östringen => Elsenz","from":"Östringen Mitte","to":"Elsenz Freudenhälde","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[278043974,6],[277887112,7]]},
+  {"id":3036738559615,"t":{"ref":"139","name":"Bus 139: Neuenbürg => Landshausen","from":"Neuenbürg Raiffeisenbank","to":"Landshausen Rohrbrunnen","network":"Karlsruher Verkehrsverbund","operator":"AVG","route":"bus","public_transport:version":"2"},"n":15,"s":[[9224888323,1]]},
+  {"id":3040515648878,"t":{"ref":"EVS31/S3","name":"EVS31/S3: Ubstadt Ort - Odenheim","from":"Ubstadt Ort","to":"Odenheim","operator":"Stadtbahn Karlsruhe SEV","route":"bus","public_transport:version":"2"},"n":8,"s":[[7413474455,6],[278043974,7],[2667706217,8]]},
+  {"id":3045270797575,"t":{"ref":"134","name":"Bus 134: Östringen => Elsenz","from":"Östringen Mitte","to":"Elsenz Freudenhälde","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":17,"s":[[278043974,6],[277887112,7]]},
+  {"id":3050686535807,"t":{"ref":"134","name":"Bus 134: Elsenz => Östringen","from":"Elsenz Freudenhälde","to":"Östringen Mitte","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[2667706217,10]]},
+  {"id":3053017276842,"t":{"ref":"135","name":"Bus 135: Neuenbürg => Oberöwisheim","from":"Neuenbürg (Baden) Raifeisenbank","to":"Oberöwisheim Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Karlsruher Verkehrsverbund GmbH","colour":"#800080","route":"bus","public_transport:version":"2"},"n":5,"s":[[9224888323,1]]},
+  {"id":3061408914737,"t":{"ref":"134","name":"Bus 134: Elsenz => Östringen","from":"Elsenz Freudenhälde","to":"Östringen Mitte","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":11,"s":[[2667706217,11]]},
+  {"id":3077257792236,"t":{"ref":"134","name":"Bus 134: Östringen => Elsenz","from":"Östringen Mitte","to":"Elsenz Freudenhälde","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":11,"s":[[277887112,1]]},
+  {"id":3079499372317,"t":{"ref":"134","name":"Bus 134: Östringen => Elsenz","from":"Östringen Mitte","to":"Elsenz Freudenhälde","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":8,"s":[[277887112,1]]},
+  {"id":3080180181135,"t":{"ref":"134","name":"Bus 134: Elsenz => Östringen","from":"Elsenz Freudenhälde","to":"Östringen Mitte","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[2667706217,8],[278041947,9]]},
+  {"id":3089167895274,"t":{"ref":"135","name":"Bus 135: Neuenbürg => Oberöwisheim","from":"Neuenbürg (Baden) Raifeisenbank","to":"Oberöwisheim Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Karlsruher Verkehrsverbund GmbH","colour":"#800080","route":"bus","public_transport:version":"2"},"n":5,"s":[[9224888323,5]]},
+  {"id":3095676730500,"t":{"ref":"134","name":"Bus 134: Elsenz => Östringen","from":"Elsenz Freudenhälde","to":"Östringen Mitte","network":"Karlsruher Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":17,"s":[[2667706217,11],[278041947,12]]},
+  {"id":3098208900537,"t":{"ref":"EVS31/S3","name":"EVS31/S3: Odenheim - Ubstadt Ort","from":"Odenheim","to":"Ubstadt Ort","operator":"Stadtbahn Karlsruhe SEV","route":"bus","public_transport:version":"2"},"n":8,"s":[[2667706217,1],[278043974,2],[7413474455,3]]}
+]
+}

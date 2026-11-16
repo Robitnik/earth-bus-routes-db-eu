@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2800,3799],
+"stops":[
+  {"id":1704264371,"lat":50.046514,"lon":9.999985,"k":"p","n":"Siedlung"},
+  {"id":1704273221,"lat":50.043877,"lon":9.998909,"k":"p","n":"Ortsmitte"},
+  {"id":2921501593,"lat":50.043682,"lon":9.998962,"k":"p","n":"Ortsmitte"},
+  {"id":8745614663,"lat":50.043061,"lon":9.998577,"k":"p","n":"Burghausen, Rufbus Start Wasserlosen"},
+  {"id":9169250240,"lat":50.00986,"lon":9.95005,"k":"p","n":"Büchold Schule"},
+  {"id":9169502209,"lat":50.027521,"lon":9.97881,"k":"p","n":"Altbessingen"},
+  {"id":9169502212,"lat":50.027718,"lon":9.978817,"k":"p","n":"Altbessingen"},
+  {"id":6009345260013,"lat":50.027577,"lon":9.978253,"k":"p","n":"Altbessingen","g":1},
+  {"id":6040580809468,"lat":50.027577,"lon":9.978253,"k":"p","n":"Altbessingen","g":1}
+],
+"routes":[
+  {"id":21406812,"t":{"ref":"746","name":"Bus 746: Hammelburg -> Obereschenbach -> Wasserlosen","from":"Hammelburg ZOB","to":"Wasserlosen Raiffeisenplatz","network":"Nahverkehr Mainfranken","colour":"#455882","route":"bus","public_transport:version":"2"},"n":17,"s":[[1704264371,10]]},
+  {"id":21406817,"t":{"ref":"746","name":"Bus 746: Hammelburg -> Wasserlosen","from":"Hammelburg Schulzentrum","to":"Wasserlosen Raiffeisenplatz","network":"Nahverkehr Mainfranken","colour":"#455882","route":"bus","public_transport:version":"2"},"n":15,"s":[[1704264371,8]]},
+  {"id":21406820,"t":{"ref":"746","name":"Bus 746: Hammelburg -> Neubessingen","from":"Hammelburg ZOB","to":"Neubessingen Ort","network":"Nahverkehr Mainfranken","colour":"#455882","route":"bus","public_transport:version":"2"},"n":11,"s":[[1704264371,10]]},
+  {"id":21406827,"t":{"ref":"746","name":"Bus 746: Hammelburg -> Wasserlosen -> Hammelburg","from":"Hammelburg ZOB","to":"Hammelburg Feuerwehrhaus","network":"Nahverkehr Mainfranken","colour":"#455882","route":"bus","public_transport:version":"2"},"n":17,"s":[[1704264371,7]]},
+  {"id":3007396122088,"t":{"ref":"673","name":"673: Arnstein ZOB - Karlstadt (Main)","from":"Arnstein ZOB","to":"Karlstadt (Main)","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":19,"s":[[6009345260013,4],[9169250240,5]]},
+  {"id":3008240741784,"t":{"ref":"239","name":"239: Brebersdorf Ortsmitte - Arnstein Schulzentrum","from":"Brebersdorf Ortsmitte","to":"Arnstein Schulzentrum","operator":"02","route":"bus","public_transport:version":"2"},"n":7,"s":[[1704264371,4],[2921501593,5]]},
+  {"id":3029898837855,"t":{"ref":"673","name":"673: Karlstadt (Main) - Arnstein ZOB","from":"Karlstadt (Main)","to":"Arnstein ZOB","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":19,"s":[[9169250240,15],[6040580809468,16]]},
+  {"id":3063284970842,"t":{"ref":"239","name":"239: Burghausen Ortsmitte - Schweinfurt Theater","from":"Burghausen Ortsmitte","to":"Schweinfurt Theater","operator":"02","route":"bus","public_transport:version":"2"},"n":16,"s":[[2921501593,1],[1704264371,2]]},
+  {"id":3076183755885,"t":{"ref":"239","name":"239: Schweinfurt Theater - Burghausen Ortsmitte","from":"Schweinfurt Theater","to":"Burghausen Ortsmitte","operator":"02","route":"bus","public_transport:version":"2"},"n":13,"s":[[1704264371,12],[2921501593,13]]},
+  {"id":3084069654033,"t":{"ref":"239","name":"239: Schweinfurt Theater - Wülfershausen Ortsmitte","from":"Schweinfurt Theater","to":"Wülfershausen Ortsmitte","operator":"02","route":"bus","public_transport:version":"2"},"n":18,"s":[[2921501593,16],[1704264371,17]]}
+]
+}

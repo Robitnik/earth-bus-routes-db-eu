@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3781],
+"stops":[
+  {"id":358159125,"lat":51.186619,"lon":9.084735,"k":"p","n":"Buhlen Hauptstraße"},
+  {"id":510969985,"lat":51.170961,"lon":9.05386,"k":"p","n":"Ederbrücke"},
+  {"id":511002752,"lat":51.186575,"lon":9.059492,"k":"p","n":"Sperrmauer-Ostseite"},
+  {"id":511002757,"lat":51.187033,"lon":9.059581,"k":"p","n":"Sperrmauer-Ostseite"},
+  {"id":516588978,"lat":51.171955,"lon":9.052974,"k":"p","n":"Bürgerhaus"},
+  {"id":516588980,"lat":51.172101,"lon":9.053438,"k":"p","n":"Bürgerhaus"},
+  {"id":516589039,"lat":51.173925,"lon":9.054197,"k":"p","n":"Klausberg"},
+  {"id":516589041,"lat":51.173936,"lon":9.054336,"k":"p","n":"Klausberg"},
+  {"id":516589044,"lat":51.180551,"lon":9.057471,"k":"p","n":"Aquapark"},
+  {"id":662856876,"lat":51.178844,"lon":9.085947,"k":"p","n":"Ederseebahn-Radweg"},
+  {"id":662857019,"lat":51.185467,"lon":9.083523,"k":"p","n":"Buhlen Hauptstraße"},
+  {"id":665789305,"lat":51.178915,"lon":9.085961,"k":"p","n":"Ederseebahn-Radweg"},
+  {"id":694368975,"lat":51.167575,"lon":9.086508,"k":"p","n":"Affoldern Mitte"},
+  {"id":694368976,"lat":51.167559,"lon":9.08631,"k":"p","n":"Affoldern Mitte"},
+  {"id":2818161485,"lat":51.169267,"lon":9.054581,"k":"p","n":"Peterskopfbahn"},
+  {"id":2818161489,"lat":51.169232,"lon":9.054319,"k":"p","n":"Peterskopfbahn"},
+  {"id":2818166102,"lat":51.199247,"lon":9.065104,"k":"p","n":"Waldeck, Teufelsgraben"},
+  {"id":2818166103,"lat":51.199508,"lon":9.064373,"k":"p","n":"Waldeck, Teufelsgraben"},
+  {"id":2833978175,"lat":51.170901,"lon":9.053724,"k":"p","n":"Ederbrücke"},
+  {"id":3251337774,"lat":51.168633,"lon":9.079788,"k":"p","n":"Affolderner See"},
+  {"id":3251337775,"lat":51.168677,"lon":9.080177,"k":"p","n":"Affolderner See"},
+  {"id":6002960770353,"lat":51.16864,"lon":9.07728,"k":"p","n":"Edertal-Affoldern Tolles Haus","g":1},
+  {"id":6085712667153,"lat":51.168583,"lon":9.077135,"k":"p","n":"Edertal-Affoldern Tolles Haus","g":1}
+],
+"routes":[
+  {"id":277472,"t":{"ref":"510","name":"Bus 510: Korbach => Edersee => Bad Wildungen","from":"Korbach Hauptbahnhof","to":"Bad Wildungen Breiter Hagen","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":16,"s":[[2818166103,5],[511002752,6],[2818161489,7],[3251337774,8],[694368976,9]]},
+  {"id":277507,"t":{"ref":"515","name":"Bus 515: Bad Wildungen => Edertal","from":"Bad Wildungen Breiter Hagen","to":"Edertal Bringhausen Mitte","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":29,"s":[[694368975,15],[3251337775,16],[510969985,17],[516588980,18],[516589041,19],[516589044,20],[516589039,21],[516588978,22]]},
+  {"id":1717037,"t":{"ref":"510","name":"Bus 510: Bad Wildungen => Edersee => Korbach","from":"Bad Wildungen","to":"Korbach Hauptbahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":17,"s":[[694368975,8],[3251337775,9],[2818161485,10],[511002757,11],[2818166102,12]]},
+  {"id":1734114,"t":{"ref":"515","name":"Bus 515: Edertal => Bad Wildungen","from":"Edertal Bringhausen Mitte","to":"Bad Wildungen Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":29,"s":[[516588980,8],[516589041,9],[516589044,10],[516589039,11],[516588978,12],[2833978175,13],[3251337774,14],[694368976,15]]},
+  {"id":3011189411341,"t":{"ref":"510","name":"Bus 510: Bad Wildungen => Buhlen => Korbach","from":"Bad Wildungen","to":"Korbach Hauptbahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":28,"s":[[694368975,15],[6085712667153,16],[2818161489,17],[511002757,18],[2818166102,19]]},
+  {"id":3031329658782,"t":{"ref":"515","name":"515: Edertal-Affoldern Tolles Haus - Waldeck-Sachsenhausen Grundschule","from":"Edertal-Affoldern Tolles Haus","to":"Waldeck-Sachsenhausen Grundschule","operator":"BKW Bad Wildungen","route":"bus","public_transport:version":"2"},"n":14,"s":[[6002960770353,1],[694368975,2],[665789305,3],[358159125,4]]},
+  {"id":3036373204816,"t":{"ref":"515","name":"515: Waldeck-Sachsenhausen Grundschule - Edertal-Affoldern Tolles Haus","from":"Waldeck-Sachsenhausen Grundschule","to":"Edertal-Affoldern Tolles Haus","operator":"BKW Bad Wildungen","route":"bus","public_transport:version":"2"},"n":14,"s":[[662857019,11],[662856876,12],[694368976,13],[6085712667153,14]]},
+  {"id":3064536850160,"t":{"ref":"510","name":"Bus 510: Korbach => Buhlen => Bad Wildungen","from":"Korbach Hauptbahnhof","to":"Bad Wildungen Breiter Hagen","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":28,"s":[[2818166103,10],[511002752,11],[2818161489,12],[6002960770353,13],[694368976,14]]},
+  {"id":3077414240553,"t":{"ref":"518","name":"518: Edertal-Bringhausen Mitte - Edertal-Affoldern Tolles Haus","from":"Edertal-Bringhausen Mitte","to":"Edertal-Affoldern Tolles Haus","operator":"BKW Bad Wildungen","route":"bus","public_transport:version":"2"},"n":15,"s":[[516588980,8],[516589041,9],[516589044,10],[516589039,11],[516588978,12],[2833978175,13],[2818161489,14],[6002960770353,15]]},
+  {"id":3079943929522,"t":{"ref":"518","name":"518: Edertal-Affoldern Tolles Haus - Edertal-Bringhausen Mitte","from":"Edertal-Affoldern Tolles Haus","to":"Edertal-Bringhausen Mitte","operator":"BKW Bad Wildungen","route":"bus","public_transport:version":"2"},"n":15,"s":[[6085712667153,1],[2818161489,2],[510969985,3],[516588980,4],[516589041,5],[516589044,6],[516589039,7],[516588978,8]]}
+]
+}

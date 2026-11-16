@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2872,3831],
+"stops":[
+  {"id":498120564,"lat":53.642557,"lon":11.580222,"k":"p","n":"Gutshof Vorbeck"},
+  {"id":498457676,"lat":53.622056,"lon":11.580536,"k":"p","n":"Augustenhof"},
+  {"id":598221465,"lat":53.603225,"lon":11.555808,"k":"p","n":"Pinnow, Petersberg"},
+  {"id":598221468,"lat":53.603149,"lon":11.555176,"k":"p","n":"Pinnow, Petersberg"},
+  {"id":1106752628,"lat":53.629597,"lon":11.555992,"k":"p","n":"Gneven Jagdschloss"},
+  {"id":1106752630,"lat":53.636368,"lon":11.566045,"k":"p","n":"Gneven"},
+  {"id":8895371495,"lat":53.603124,"lon":11.555219,"k":"x","n":"Pinnow, Petersberg"},
+  {"id":8895371496,"lat":53.603243,"lon":11.555777,"k":"x","n":"Pinnow, Petersberg"},
+  {"id":10816406180,"lat":53.605885,"lon":11.568673,"k":"p","n":"Pinnow, Wendeschleife"},
+  {"id":10816406184,"lat":53.605873,"lon":11.568914,"k":"p","n":"Pinnow, Wendeschleife"},
+  {"id":10816406187,"lat":53.605887,"lon":11.568846,"k":"x","n":"Pinnow, Wendeschleife"},
+  {"id":12138715872,"lat":53.629693,"lon":11.555905,"k":"p","n":"Gneven Jagdschloss"},
+  {"id":12173812664,"lat":53.649822,"lon":11.582862,"k":"p","n":"Vorbeck Golfanlage"},
+  {"id":5001163040419,"lat":53.603201,"lon":11.555701,"k":"p","n":"Pinnow, Petersberg"},
+  {"id":5001163040420,"lat":53.603172,"lon":11.555282,"k":"p","n":"Pinnow, Petersberg"},
+  {"id":5001163040421,"lat":53.605861,"lon":11.568849,"k":"p","n":"Pinnow, Wendeschleife"},
+  {"id":5001163040422,"lat":53.6059,"lon":11.568759,"k":"p","n":"Pinnow, Wendeschleife"},
+  {"id":6023800405017,"lat":53.606188,"lon":11.569313,"k":"p","n":"Pinnow (b Schwerin) Wendeschl.","g":1}
+],
+"routes":[
+  {"id":2867907,"t":{"ref":"100","name":"VLP 100: Schwerin-Vorbeck-Leezen-Schwerin","network":"Verkehrsgemeinschaft Westmecklenburg","operator":"VLP","route":"bus"},"n":25,"s":[[1106752628,13],[1106752630,14],[498120564,15]]},
+  {"id":3021440873349,"t":{"ref":"841","name":"841: Consrade Am Berg - Crivitz Bahnhof","from":"Consrade Am Berg","to":"Crivitz Bahnhof","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":47,"s":[[12138715872,22],[5001163040419,25],[6023800405017,26]]},
+  {"id":3033858917505,"t":{"ref":"841","name":"841: Crivitz Bahnhof - Consrade Dorf","from":"Crivitz Bahnhof","to":"Consrade Dorf","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":47,"s":[[6023800405017,22],[5001163040420,23],[12138715872,26]]},
+  {"id":3055395382810,"t":{"ref":"124","name":"Bus 124: Pinnow Wendeschleife => Schwerin","from":"Pinnow Wendeschleife","to":"Schwerin Hauptbahnhof","operator":"VLP","route":"bus","public_transport:version":"2"},"n":6,"s":[[6023800405017,1],[5001163040420,2]]},
+  {"id":3057670592030,"t":{"ref":"845","name":"845: Cambs Schweriner Str. - Raben Steinfeld","from":"Cambs Schweriner Str.","to":"Raben Steinfeld","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":29,"s":[[12173812664,22],[498120564,23],[1106752630,24],[12138715872,25]]},
+  {"id":3057947100013,"t":{"ref":"845","name":"845: Raben Steinfeld - Cambs Schweriner Str.","from":"Raben Steinfeld","to":"Cambs Schweriner Str.","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":29,"s":[[12138715872,5],[1106752630,6],[498120564,7]]},
+  {"id":3078030253745,"t":{"ref":"124","name":"Bus 124: Schwerin => Pinnow Wendeschleife","from":"Schwerin Hauptbahnhof","to":"Pinnow Wendeschleife","operator":"VLP","route":"bus","public_transport:version":"2"},"n":12,"s":[[5001163040419,11],[6023800405017,12]]},
+  {"id":3080096971438,"t":{"ref":"842","name":"842: Demen Wendeplatz - Crivitz Bahnhof","from":"Demen Wendeplatz","to":"Crivitz Bahnhof","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":25,"s":[[498457676,16]]},
+  {"id":3081437583633,"t":{"ref":"124","name":"Bus 124: Pinnow Wendeschleife => Schwerin","from":"Pinnow Wendeschleife","to":"Schwerin Hauptbahnhof","operator":"VLP","route":"bus","public_transport:version":"2"},"n":13,"s":[[6023800405017,1],[5001163040420,2]]},
+  {"id":3084744756364,"t":{"ref":"124","name":"Bus 124: Schwerin => Pinnow Wendeschleife","from":"Schwerin Hauptbahnhof","to":"Pinnow Wendeschleife","operator":"VLP","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001163040419,5],[6023800405017,6]]},
+  {"id":3092878782780,"t":{"ref":"842","name":"842: Crivitz Bahnhof - Demen Wendeplatz","from":"Crivitz Bahnhof","to":"Demen Wendeplatz","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":25,"s":[[498457676,10]]}
+]
+}

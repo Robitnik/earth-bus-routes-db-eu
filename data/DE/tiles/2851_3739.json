@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2851,3739],
+"stops":[
+  {"id":285793503,"lat":52.5753,"lon":6.951188,"k":"x","n":"katholische Kirche"},
+  {"id":3495352714,"lat":52.591351,"lon":6.996644,"k":"p","n":"Bathorn Lager / Wendeplatz"},
+  {"id":3495352716,"lat":52.590041,"lon":6.993975,"k":"p","n":"Kanal"},
+  {"id":3495352717,"lat":52.590006,"lon":6.994209,"k":"p","n":"Kanal"},
+  {"id":3502844961,"lat":52.575053,"lon":6.950957,"k":"p","n":"katholische Kirche"},
+  {"id":3502864030,"lat":52.561213,"lon":6.960568,"k":"p","n":"Bahnübergang"},
+  {"id":3502864031,"lat":52.561243,"lon":6.96042,"k":"p","n":"Bahnübergang"},
+  {"id":3502864032,"lat":52.567277,"lon":6.963347,"k":"p","n":"Scheerhorner Eck"},
+  {"id":4852444462,"lat":52.594173,"lon":6.988442,"k":"x","n":"Kanalbrücke"},
+  {"id":8039125564,"lat":52.567295,"lon":6.963314,"k":"x","n":"Scheerhorner Eck"},
+  {"id":8039125568,"lat":52.561225,"lon":6.960491,"k":"x","n":"Bahnübergang"},
+  {"id":8039141386,"lat":52.575288,"lon":6.951144,"k":"p","n":"katholische Kirche"},
+  {"id":8039141391,"lat":52.575094,"lon":6.951074,"k":"x","n":"katholische Kirche"},
+  {"id":11681820498,"lat":52.594958,"lon":6.988975,"k":"p","n":"Kanalbrücke"},
+  {"id":11681820499,"lat":52.594063,"lon":6.988469,"k":"p","n":"Kanalbrücke"},
+  {"id":11681820500,"lat":52.594203,"lon":6.988536,"k":"p","n":"Kanalbrücke"},
+  {"id":12666702889,"lat":52.590333,"lon":6.97679,"k":"p","n":"Egbers"},
+  {"id":12666702890,"lat":52.590286,"lon":6.976833,"k":"x","n":"Egbers"},
+  {"id":12666702891,"lat":52.589973,"lon":6.994168,"k":"x","n":"Kanal"},
+  {"id":12666702892,"lat":52.590069,"lon":6.99403,"k":"x","n":"Kanal"},
+  {"id":12666702895,"lat":52.594079,"lon":6.988533,"k":"x","n":"Kanalbrücke"},
+  {"id":12666702896,"lat":52.594919,"lon":6.989013,"k":"x","n":"Kanalbrücke"},
+  {"id":6078292927590,"lat":52.550222,"lon":6.95987,"k":"p","n":"Esche Achteresche","g":1}
+],
+"routes":[
+  {"id":10670019,"t":{"ref":"20","name":"Bus 20: Neuenhaus, Bahnhof => Hoogstede, katholische Kirche","from":"Neuenhaus, Bahnhof","to":"Hoogstede, katholische Kirche","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#f033a3","route":"bus","public_transport:version":"2"},"n":10,"s":[[3502864030,8],[3502864032,9],[8039141386,10]]},
+  {"id":18818451,"t":{"ref":"T20","name":"Bus T20: Hoogstede, katholische Kirche => Emlichheim, Bahnhof","from":"Hoogstede, katholische Kirche","to":"Emlichheim, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[8039141386,1]]},
+  {"id":18818452,"t":{"ref":"T20","name":"Bus T20: Emlichheim, Bahnhof => Hoogstede, katholische Kirche","from":"Emlichheim, Bahnhof","to":"Hoogstede, katholische Kirche","network":"VGB","operator":"Bentheimer Eisenbahn AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[8039141386,15]]},
+  {"id":18827262,"t":{"ref":"T21","name":"Bus T21: Hoogstede, katholische Kirche => Emlichheim, Schulzentrum","from":"Hoogstede, katholische Kirche","to":"Emlichheim, Schulzentrum","network":"VGB","operator":"Bentheimer Eisenbahn AG","route":"bus","public_transport:version":"2"},"n":27,"s":[[8039141386,1],[12666702889,3],[3495352716,4],[11681820498,7]]},
+  {"id":18827263,"t":{"ref":"T21","name":"Bus T21: Emlichheim, Schulzentrum => Hoogstede, katholische Kirche","from":"Emlichheim, Schulzentrum","to":"Hoogstede, katholische Kirche","network":"VGB","operator":"Bentheimer Eisenbahn AG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11681820498,24],[3495352717,25],[12666702889,26],[8039141386,28]]},
+  {"id":3075364207535,"t":{"ref":"20","name":"Bus 20: Hoogstede, katholische Kirche => Neuenhaus, Bahnhof","from":"Hoogstede, katholische Kirche","to":"Neuenhaus, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#f033a3","route":"bus","public_transport:version":"2"},"n":11,"s":[[8039141386,1],[8039125564,2],[8039125568,3],[6078292927590,4]]},
+  {"id":3095982609160,"t":{"ref":"20","name":"Bus 20: Hoogstede, katholische Kirche => Neuenhaus, Bahnhof","from":"Hoogstede, katholische Kirche","to":"Neuenhaus, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#f033a3","route":"bus","public_transport:version":"2"},"n":11,"s":[[6078292927590,8],[8039125568,9],[8039125564,10],[8039141386,11]]}
+]
+}

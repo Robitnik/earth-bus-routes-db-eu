@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3888],
+"stops":[
+  {"id":1068457627,"lat":51.261705,"lon":14.427984,"k":"p","n":"Grünbusch"},
+  {"id":1068458225,"lat":51.261696,"lon":14.428079,"k":"p","n":"Grünbusch"},
+  {"id":1331077287,"lat":51.2731,"lon":14.431973,"k":"p","n":"Lomske / Łomsk","ref":"7768"},
+  {"id":2326204282,"lat":51.273199,"lon":14.431858,"k":"p","n":"Lomske / Łomsk","ref":"7768"},
+  {"id":2645368133,"lat":51.288756,"lon":14.434305,"k":"p","n":"Droben / Droby"},
+  {"id":8872309400,"lat":51.266814,"lon":14.446785,"k":"p","n":"Crosta Adolfshütte"},
+  {"id":8919313964,"lat":51.260988,"lon":14.401728,"k":"p","n":"Neu-Brohna"},
+  {"id":8919313965,"lat":51.261135,"lon":14.401791,"k":"p","n":"Neu-Brohna"},
+  {"id":8919374334,"lat":51.254557,"lon":14.421299,"k":"p","n":"Camina / Kamjenej","ref":"7795"},
+  {"id":12122090264,"lat":51.288858,"lon":14.4345,"k":"p","n":"Droben / Droby"}
+],
+"routes":[
+  {"id":17951129,"t":{"ref":"701","name":"Bus 701: Königswartha => Milkel => Bautzen","from":"Königswartha Kirchplatz","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":29,"s":[[2645368133,13],[2326204282,14],[8872309400,16]]},
+  {"id":18168660,"t":{"ref":"716","name":"Bus 716: Königswartha => Milkel => Radibor","from":"Königswartha Kirchplatz","to":"Radibor Schule","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":20,"s":[[2645368133,13],[2326204282,14],[1068457627,15],[8919374334,16]]},
+  {"id":3007898233575,"t":{"ref":"716","name":"Bus 716: Radibor => Milkel => Königswartha","from":"Radibor Schule","to":"Königswartha Kirchplatz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":19,"s":[[8919374334,4],[1068458225,5],[1331077287,6],[2645368133,7]]},
+  {"id":3015956958799,"t":{"ref":"719","name":"719: Radibor Dorfplatz - Radibor Dorfplatz","from":"Radibor Dorfplatz","to":"Radibor Dorfplatz","operator":"RBO-Bus","route":"bus","public_transport:version":"2"},"n":20,"s":[[8919374334,19]]},
+  {"id":3027233740919,"t":{"ref":"504","name":"TaktBus 504: Bautzen => Radibor => Königswartha","from":"Bautzen Busbahnhof","to":"Königswartha Kirchplatz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":28,"s":[[8919313965,17]]},
+  {"id":3045520531833,"t":{"ref":"504","name":"TaktBus 504: Königswartha => Radibor => Bautzen","from":"Königswartha Kirchplatz","to":"Bautzen Bahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":28,"s":[[8919313964,12]]},
+  {"id":3046274387782,"t":{"ref":"701","name":"Bus 701: Bautzen => Milkel => Königswartha","from":"Bautzen Busbahnhof","to":"Königswartha Kirchplatz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":32,"s":[[8872309400,17],[1331077287,19],[2645368133,20]]}
+]
+}

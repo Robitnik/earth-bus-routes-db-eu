@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3846],
+"stops":[
+  {"id":257864522,"lat":51.192889,"lon":12.300161,"k":"x","n":"Döhlen","ref":"1380"},
+  {"id":309742599,"lat":51.186198,"lon":12.30676,"k":"p","n":"Rüssen, B2","ref":"1388"},
+  {"id":356935149,"lat":51.197341,"lon":12.317763,"k":"p","n":"Löbschütz","ref":"1381"},
+  {"id":518280409,"lat":51.197148,"lon":12.317803,"k":"p","n":"Löbschütz","ref":"1381"},
+  {"id":1008140179,"lat":51.186246,"lon":12.306947,"k":"x","n":"Rüssen, B2","ref":"1388"},
+  {"id":1008140182,"lat":51.186219,"lon":12.307014,"k":"p","n":"Rüssen, B2","ref":"1388"},
+  {"id":1008140210,"lat":51.197176,"lon":12.317717,"k":"x","n":"Löbschütz","ref":"1381"},
+  {"id":8264147446,"lat":51.197317,"lon":12.317833,"k":"x","n":"Löbschütz","ref":"1381"},
+  {"id":8264147447,"lat":51.186176,"lon":12.306876,"k":"x","n":"Rüssen, B2","ref":"1388"},
+  {"id":8286075151,"lat":51.19242,"lon":12.302978,"k":"x","n":"Rüssen, Schule"},
+  {"id":8286075152,"lat":51.192851,"lon":12.300084,"k":"p","n":"Döhlen"},
+  {"id":6040000738182,"lat":51.192934,"lon":12.303406,"k":"p","n":"Rüssen (Zwenkau), Schule","g":1}
+],
+"routes":[
+  {"id":177584,"t":{"ref":"+100","name":"PlusBus 100: Leipzig, Connewitz => Groitzsch","from":"Leipzig, Connewitzer Kreuz","to":"Groitzsch, Markt","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":36,"s":[[356935149,30],[309742599,31]]},
+  {"id":5485963,"t":{"ref":"+100","name":"PlusBus 100: Groitzsch => Leipzig, Connewitz","from":"Groitzsch, Markt","to":"Leipzig, Connewitzer Kreuz","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":38,"s":[[1008140182,7],[518280409,8]]},
+  {"id":6192557,"t":{"ref":"412","name":"Bus 412: Meuselwitz - Lucka - Groitzsch - Zwenkau - Leipzig","from":"Meuselwitz, Busplatz","to":"Leipzig Hbf Ostseite","network":"Mitteldeutscher Verkehrsverbund","operator":"THÜSAC Personennahverkehrsgesellschaft mbH","route":"bus","public_transport:version":"1"},"n":71,"s":[[309742599,39],[1008140182,40],[356935149,41],[518280409,42]]},
+  {"id":12127771,"t":{"ref":"123","name":"Bus 123: Groitzsch => Zwenkau","from":"Groitzsch, Alwin-Schmidt-Straße","to":"Zwenkau, Bushof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[8286075152,10],[518280409,11]]},
+  {"id":12127990,"t":{"ref":"123","name":"Bus 123: Groitzsch => Zwenkau","from":"Groitzsch, Südstraße","to":"Zwenkau, Nord","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[8286075152,8],[518280409,9]]},
+  {"id":12128006,"t":{"ref":"123","name":"Bus 123: Zwenkau => Pegau","from":"Zwenkau, Nord","to":"Pegau, Kirchplatz","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[356935149,9]]},
+  {"id":3008676719557,"t":{"ref":"124","name":"Bus 124: Elstertrebnitz => Zwenkau","from":"Elstertrebnitz, Kaufmann","to":"Zwenkau, Nord","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[1008140182,17],[1008140210,18]]},
+  {"id":3012256345979,"t":{"ref":"120","name":"Bus 120: Knautkleeberg => Zwenkau, Pestalozzistraße","from":"Knautkleeberg","to":"Zwenkau, Pestalozzistraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[257864522,13],[6040000738182,14],[1008140210,15]]},
+  {"id":3021654161260,"t":{"ref":"124","name":"Bus 124: Zwenkau => Elstertrebnitz","from":"Zwenkau, Nord","to":"Elstertrebnitz, Kaufmann","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[8264147446,7],[309742599,8]]},
+  {"id":3024665289967,"t":{"ref":"120","name":"Bus 120: Zwenkau, Pestalozzistraße => Knautkleeberg","from":"Zwenkau, Pestalozzistraße","to":"Knautkleeberg","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[8264147446,7],[257864522,8]]},
+  {"id":3027111221896,"t":{"ref":"120","name":"Bus 120: Knautkleeberg => Zwenkau, Pestalozzistraße","from":"Knautkleeberg","to":"Zwenkau, Pestalozzistraße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[257864522,23],[6040000738182,24],[1008140210,25]]},
+  {"id":3044708976384,"t":{"ref":"100","name":"100: Leipzig, Connewitzer Kreuz - Groitzsch (b. Pegau), Markt","from":"Leipzig, Connewitzer Kreuz","to":"Groitzsch (b. Pegau), Markt","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":37,"s":[[8264147446,30],[309742599,31]]},
+  {"id":3057917680137,"t":{"ref":"100","name":"100: Leipzig, Connewitzer Kreuz - Groitzsch (b. Pegau), Markt","from":"Leipzig, Connewitzer Kreuz","to":"Groitzsch (b. Pegau), Markt","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":39,"s":[[8264147446,32],[309742599,33]]},
+  {"id":3071017127475,"t":{"ref":"123","name":"Bus 123: Zwenkau => Groitzsch","from":"Zwenkau, Pestalozzistraße","to":"Groitzsch, Alwin-Schmidt-Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[8264147446,7],[257864522,8]]},
+  {"id":3075484500051,"t":{"ref":"123","name":"Bus 123: Zwenkau => Groitzsch","from":"Zwenkau, Pestalozzistraße","to":"Groitzsch, Alwin-Schmidt-Straße","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[257864522,15],[6040000738182,16],[1008140210,17]]},
+  {"id":3082198938346,"t":{"ref":"100","name":"100: Groitzsch (b. Pegau), Markt - Leipzig, Connewitzer Kreuz","from":"Groitzsch (b. Pegau), Markt","to":"Leipzig, Connewitzer Kreuz","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":39,"s":[[1008140182,8],[1008140210,9]]}
+]
+}

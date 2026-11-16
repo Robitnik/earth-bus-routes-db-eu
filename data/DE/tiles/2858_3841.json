@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2858,3841],
+"stops":[
+  {"id":2281077886,"lat":52.911227,"lon":12.085071,"k":"x","n":"Glöwen, Schule"},
+  {"id":2281077911,"lat":52.903037,"lon":12.084367,"k":"p","n":"Glöwen, Bahnhof"},
+  {"id":2281077921,"lat":52.917612,"lon":12.085564,"k":"p","n":"Glöwen, Gaststätte"},
+  {"id":3212707600,"lat":52.902985,"lon":12.084444,"k":"x","n":"Glöwen, Bahnhof"},
+  {"id":6028069693835,"lat":52.939904,"lon":12.066633,"k":"p","n":"Storbeckshof","g":1},
+  {"id":6037093455569,"lat":52.917091,"lon":12.085673,"k":"p","n":"Glöwen, Gaststätte","g":1},
+  {"id":6043252992383,"lat":52.946214,"lon":12.064185,"k":"p","n":"Groß Leppin","g":1},
+  {"id":6052544422298,"lat":52.939779,"lon":12.066713,"k":"p","n":"Storbeckshof","g":1},
+  {"id":6073861195832,"lat":52.94615,"lon":12.064464,"k":"p","n":"Groß Leppin","g":1}
+],
+"routes":[
+  {"id":16252789,"t":{"ref":"911","name":"Bus 911: Havelberg => Glöwen","from":"Havelberg, Wasserturm","to":"Glöwen, Bahnhof","operator":"stendalbus GmbH","colour":"green","route":"bus","public_transport:version":"2"},"n":8,"s":[[2281077911,8]]},
+  {"id":16255679,"t":{"ref":"911","name":"Bus 911: Glöwen => Havelberg","from":"Glöwen, Bahnhof","to":"Havelberg, Wasserturm","operator":"stendalbus GmbH","colour":"green","route":"bus","public_transport:version":"2"},"n":8,"s":[[2281077911,1]]},
+  {"id":3034276234578,"t":{"ref":"900","name":"Bus 900: Glöwen => Havelberg => Stendal","from":"Glöwen Bahnhof","to":"Stendal Hauptbahnhof","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[3212707600,1]]},
+  {"id":3064663712769,"t":{"ref":"976","name":"976: Glöwen, Bahnhof - Plattenburg","from":"Glöwen, Bahnhof","to":"Plattenburg","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2281077911,1],[2281077886,2],[6037093455569,3],[6028069693835,4],[6073861195832,5]]},
+  {"id":3079937513091,"t":{"ref":"900","name":"Bus 900: Stendal => Havelberg => Glöwen","from":"Stendal Hauptbahnhof","to":"Glöwen","network":"stendalbus","operator":"Stendalbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[3212707600,5]]},
+  {"id":3089464511361,"t":{"ref":"976","name":"976: Plattenburg - Glöwen, Bahnhof","from":"Plattenburg","to":"Glöwen, Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6043252992383,2],[6052544422298,3],[2281077921,4],[2281077886,5],[2281077911,6]]}
+]
+}

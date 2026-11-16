@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2892,3780],
+"stops":[
+  {"id":2578108197,"lat":54.605277,"lon":9.044464,"k":"p","n":"Drelsdorf Mitte"},
+  {"id":2578108198,"lat":54.605321,"lon":9.044488,"k":"x","n":"Drelsdorf Mitte"},
+  {"id":2578108252,"lat":54.60455,"lon":9.038775,"k":"p","n":"Drelsdorf, Schule"},
+  {"id":2578108254,"lat":54.604585,"lon":9.03876,"k":"x","n":"Drelsdorf, Schule"},
+  {"id":3143696163,"lat":54.633594,"lon":9.016487,"k":"p","n":"Sönnebüll, Abzw. Vollstedt"},
+  {"id":3143696164,"lat":54.633374,"lon":9.014843,"k":"p","n":"Sönnebüll, Abzw. Vollstedt"},
+  {"id":3758968623,"lat":54.623475,"lon":9.035236,"k":"p","n":"Vollstedt Dörpsstraat"},
+  {"id":3758968625,"lat":54.623538,"lon":9.035218,"k":"x","n":"Vollstedt Dörpsstraat"},
+  {"id":4665584029,"lat":54.633317,"lon":9.014867,"k":"x","n":"Sönnebüll, Abzw. Vollstedt"},
+  {"id":4665584030,"lat":54.633634,"lon":9.016477,"k":"x","n":"Sönnebüll, Abzw. Vollstedt"},
+  {"id":6045763275412,"lat":54.605706,"lon":9.042883,"k":"p","n":"Drelsdorf Mitte","g":1},
+  {"id":6060028211617,"lat":54.605706,"lon":9.042883,"k":"p","n":"Drelsdorf Mitte","g":1}
+],
+"routes":[
+  {"id":7062490,"t":{"ref":"144","name":"Bus 144: Husum ZOB => Drelsdorf => Högel => Bredstedt Markt","from":"Husum ZOB","to":"Bredstedt, Markt","network":"Nahverkehrsverbund Schleswig-Holstein","route":"bus","public_transport:version":"2"},"n":23,"s":[[2578108252,16],[3143696164,19]]},
+  {"id":11745373,"t":{"ref":"130","name":"Bus 130: Goldelund => Bredstedt","from":"Goldelund Hauptstraße","to":"Bredstedt, Gemeinschaftsschule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","colour":"#828723","route":"bus","public_transport:version":"2"},"n":10,"s":[[3143696164,6]]},
+  {"id":13044741,"t":{"ref":"144","name":"Bus 144: Högel => Drelsdorf => Husum ZOB","from":"Possen, Högel","to":"Husum ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":14,"s":[[2578108197,3]]},
+  {"id":15062833,"t":{"ref":"133","name":"Bus 133: Drelsdorf => Bohmstedt","from":"Drelsdorf, Schule","to":"Bohmstedt, Hohenhörn","network":"NAH.SH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2578108252,1]]},
+  {"id":15062834,"t":{"ref":"133","name":"Bus 133: Drelsdorf => Bohmstedt => Drelsdorf","from":"Drelsdorf, Schule","to":"Drelsdorf, Schule","network":"Nahverkehrsverbund Schleswig-Holstein","route":"bus","public_transport:version":"2"},"n":8,"s":[[2578108252,1,8]]},
+  {"id":15400499,"t":{"ref":"135","name":"Bus 135 Schulverkehr: Bredstedt => Viöl","from":"Bredstedt Bahnhof","to":"Viöl ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":10,"s":[[2578108197,7]]},
+  {"id":3012479035635,"t":{"ref":"135","name":"Bus 135: Bredstedt => Viöl","from":"Bredstedt Bahnhof","to":"Viöl ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":11,"s":[[6060028211617,7]]},
+  {"id":3018395334187,"t":{"ref":"135","name":"Bus 135: Viöl => Bredstedt","from":"Viöl ZOB","to":"Bredstedt, Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":11,"s":[[6045763275412,5]]},
+  {"id":3039305911215,"t":{"ref":"130","name":"Bus 130: Bredstedt => Joldelund => Großenwiehe => Flensburg","from":"Bredstedt, Markt","to":"Flensburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","colour":"#828723","route":"bus","public_transport:version":"2"},"n":45,"s":[[3143696163,6]]},
+  {"id":3074295033255,"t":{"ref":"130","name":"Bus 130: Flensburg => Großenwiehe => Joldelund => Bredstedt","from":"Flensburg ZOB","to":"Bredstedt, Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","colour":"#828723","route":"bus","public_transport:version":"2"},"n":46,"s":[[3143696164,40]]}
+]
+}

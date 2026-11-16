@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2830,3856],
+"stops":[
+  {"id":313225611,"lat":51.505099,"lon":12.817115,"k":"s","n":"Bahnhof Mockrehna"},
+  {"id":339070533,"lat":51.506911,"lon":12.814467,"k":"p","n":"Mockrehna"},
+  {"id":1676707318,"lat":51.501124,"lon":12.848569,"k":"p","n":"Audenhain (Mockrehna), Waage"},
+  {"id":1676707319,"lat":51.501199,"lon":12.848769,"k":"p","n":"Audenhain (Mockrehna), Waage"},
+  {"id":2590108226,"lat":51.506431,"lon":12.809843,"k":"x","n":"Mockrehna, Schule","ref":"3"},
+  {"id":4353042245,"lat":51.507034,"lon":12.814906,"k":"p","n":"Mockrehna"},
+  {"id":4353042249,"lat":51.507087,"lon":12.814631,"k":"p","n":"Mockrehna"},
+  {"id":7223143766,"lat":51.506455,"lon":12.809618,"k":"x","n":"Mockrehna, Schule","ref":"15"},
+  {"id":7223143767,"lat":51.506479,"lon":12.809406,"k":"x","n":"Mockrehna, Schule"},
+  {"id":7223143771,"lat":51.505057,"lon":12.817265,"k":"x","n":"Mockrehna, Bahnhof"},
+  {"id":7223731569,"lat":51.501163,"lon":12.848685,"k":"x","n":"Audenhain (Mockrehna), Waage"},
+  {"id":5000773830331,"lat":51.505007,"lon":12.817165,"k":"p","n":"Mockrehna, Bahnhof"},
+  {"id":6027285323094,"lat":51.537192,"lon":12.80345,"k":"p","n":"Wildenhain (b. Eilenburg)","g":1}
+],
+"routes":[
+  {"id":10724540,"t":{"ref":"758","name":"Bus 758: Mockrehna => Schöna => Schildau","from":"Mockrehna","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000773830331,1]]},
+  {"id":10726055,"t":{"ref":"229","name":"Bus 229: Eilenburg => Mölbitz => Wildschütz => Audenhain","from":"Eilenburg","to":"Audenhain","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":18,"s":[[1676707318,17]]},
+  {"id":10731388,"t":{"ref":"229","name":"Bus 229: Audenhain => Wildschütz => Mölbitz => Eilenburg","from":"Audenhain","to":"Eilenburg","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":20,"s":[[1676707319,2]]},
+  {"id":3015515248348,"t":{"ref":"231","name":"231: Mockrehna, Schule - Sprotta, Platte","from":"Mockrehna, Schule","to":"Sprotta, Platte","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":6,"s":[[7223143767,1]]},
+  {"id":3015647535546,"t":{"ref":"758","name":"Bus 758: Schildau => Schöna => Mockrehna","from":"Schildau","to":"Mockrehna","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"2"},"n":10,"s":[[7223143767,1],[5000773830331,2]]},
+  {"id":3054777134990,"t":{"ref":"RE10","name":"RE10: Eilenburg, Hartmannstr./S-Bahnhof Ost - Torgau, Bahnhof (Bus)","from":"Eilenburg, Hartmannstr./S-Bahnhof Ost","to":"Torgau, Bahnhof (Bus)","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000773830331,3]]},
+  {"id":3056175750582,"t":{"ref":"S4","name":"S4: Torgau, Bahnhof (Bus) - Eilenburg, Hartmannstr./S-Bahnhof Ost","from":"Torgau, Bahnhof (Bus)","to":"Eilenburg, Hartmannstr./S-Bahnhof Ost","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000773830331,2]]},
+  {"id":3064679214446,"t":{"ref":"755","name":"755: Torgau, Bahnhof (Bus) - Mockrehna, Schule","from":"Torgau, Bahnhof (Bus)","to":"Mockrehna, Schule","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":16,"s":[[7223731569,12],[5000773830331,15],[7223143767,16]]},
+  {"id":3079958729966,"t":{"ref":"753","name":"Bus 753: Mockrena => Klitzschen => Schildau","from":"Mockrena Schule","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":15,"s":[[7223143766,1],[5000773830331,2],[7223731569,5]]},
+  {"id":3085233665171,"t":{"ref":"RE10","name":"RE10: Torgau, Bahnhof (Bus) - Eilenburg, Hartmannstr./S-Bahnhof Ost","from":"Torgau, Bahnhof (Bus)","to":"Eilenburg, Hartmannstr./S-Bahnhof Ost","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000773830331,2]]},
+  {"id":3089997682527,"t":{"ref":"753","name":"Bus 753: Mockrena => Klitzschen => Schildau","from":"Mockrena Schule","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":8,"s":[[7223143766,8]]},
+  {"id":3091011450008,"t":{"ref":"S4","name":"S4: Eilenburg, Hartmannstr./S-Bahnhof Ost - Torgau, Bahnhof (Bus)","from":"Eilenburg, Hartmannstr./S-Bahnhof Ost","to":"Torgau, Bahnhof (Bus)","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000773830331,3]]},
+  {"id":3094571943363,"t":{"ref":"S4","name":"S4: Eilenburg - Torgau, Bahnhof (Bus)","from":"Eilenburg","to":"Torgau, Bahnhof (Bus)","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000773830331,4]]},
+  {"id":3095564232448,"t":{"ref":"755","name":"755: Mockrehna, Schule - Torgau, Bahnhof (Bus)","from":"Mockrehna, Schule","to":"Torgau, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":13,"s":[[7223143767,1],[4353042245,2],[6027285323094,3]]},
+  {"id":3098745871100,"t":{"ref":"S4","name":"S4: Torgau, Bahnhof (Bus) - Eilenburg","from":"Torgau, Bahnhof (Bus)","to":"Eilenburg","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000773830331,2]]}
+]
+}

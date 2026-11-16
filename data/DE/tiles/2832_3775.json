@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2832,3775],
+"stops":[
+  {"id":540491281,"lat":51.632023,"lon":8.759957,"k":"p","n":"Etteln-Siedlung"},
+  {"id":540491282,"lat":51.632057,"lon":8.760146,"k":"p","n":"Etteln-Siedlung"},
+  {"id":1300255795,"lat":51.627956,"lon":8.762689,"k":"p","n":"Borchen-Etteln, Post"},
+  {"id":1940650490,"lat":51.628218,"lon":8.762716,"k":"p","n":"Borchen-Etteln, Post"},
+  {"id":1940650498,"lat":51.627961,"lon":8.762752,"k":"x","n":"Borchen-Etteln, Post"},
+  {"id":1940650499,"lat":51.628201,"lon":8.762645,"k":"x","n":"Borchen-Etteln, Post"},
+  {"id":1941558869,"lat":51.623631,"lon":8.763342,"k":"p","n":"Borchen-Etteln, Oberdorf"},
+  {"id":1941558870,"lat":51.623693,"lon":8.763208,"k":"p","n":"Borchen-Etteln, Oberdorf"},
+  {"id":1941558871,"lat":51.624332,"lon":8.76211,"k":"p","n":"Borchen-Etteln, Rustemeier"},
+  {"id":1941558988,"lat":51.623707,"lon":8.763343,"k":"x","n":"Borchen-Etteln, Oberdorf"},
+  {"id":1941558989,"lat":51.62359,"lon":8.763206,"k":"x","n":"Borchen-Etteln, Oberdorf"},
+  {"id":6083130638176,"lat":51.624043,"lon":8.76356,"k":"p","n":"Bo-Etteln, Oberdorf","g":1}
+],
+"routes":[
+  {"id":9904289,"t":{"ref":"471","name":"Bus 471: Lichtenau-Dahlheim => Paderborn","from":"Lichtenau-Dalheim","to":"Paderborn","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[1941558869,11],[1940650490,12],[540491282,13]]},
+  {"id":16143541,"t":{"ref":"471","name":"Bus 471: Lichtenau-Ebbinghausen => Paderborn-Elsen","from":"Lichtenau-Ebbinghausen","to":"Paderborn-Elsen","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[1941558869,7],[1940650490,8],[540491282,9]]},
+  {"id":16143542,"t":{"ref":"471","name":"Bus 471: Lichtenau-Atteln => Paderborn","from":"Lichtenau-Atteln","to":"Paderborn","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[1941558869,6],[1940650490,7],[540491282,8]]},
+  {"id":16146238,"t":{"ref":"471","name":"Bus 471: Paderborn-Elsen => Lichtenau-Atteln","from":"Paderborn-Elsen","to":"Lichtenau-Atteln","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[540491281,16],[1300255795,17],[1941558870,18]]},
+  {"id":16146239,"t":{"ref":"471","name":"Bus 471: Paderborn-Elsen => Lichtenau-Ebbinghausen","from":"Paderborn-Elsen","to":"Lichtenau-Ebbinghausen","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[540491281,16],[1300255795,17],[1941558870,18]]},
+  {"id":16146241,"t":{"ref":"471","name":"Bus 471: Paderborn => Lichtenau-Dalheim","from":"Paderborn","to":"Lichtenau-Dalheim","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[540491281,21],[1300255795,22],[1941558870,23]]},
+  {"id":3081752334556,"t":{"ref":"R71","name":"R71: Li-Atteln, Wendeplatz - Paderborn, Hauptbahnhof","from":"Li-Atteln, Wendeplatz","to":"Paderborn, Hauptbahnhof","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":22,"s":[[1941558869,6],[1940650490,7],[540491282,8]]},
+  {"id":3093718780444,"t":{"ref":"NE15","name":"Bus NE15: Paderborn => Borchen => Lichtenau-Atteln","from":"Paderborn","to":"Lichtenau-Atteln","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[540491281,15],[1300255795,16],[6083130638176,17]]},
+  {"id":3095812573443,"t":{"ref":"R71","name":"R71: Paderborn, Hauptbahnhof - Li-Atteln, Wendeplatz","from":"Paderborn, Hauptbahnhof","to":"Li-Atteln, Wendeplatz","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":22,"s":[[540491281,15],[1300255795,16],[6083130638176,17]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2782,3757],
+"stops":[
+  {"id":290558337,"lat":49.144169,"lon":7.87737,"k":"p","n":"Oberschlettenbach, Hahnenhof"},
+  {"id":290558338,"lat":49.144173,"lon":7.87759,"k":"p","n":"Oberschlettenbach, Hahnenhof"},
+  {"id":1518546339,"lat":49.14572,"lon":7.872164,"k":"p","n":"Oberschlettenbach"},
+  {"id":1518887942,"lat":49.107845,"lon":7.864052,"k":"p","n":"Erlenbach, Berwartstein/Seehof"},
+  {"id":1811904105,"lat":49.112686,"lon":7.862582,"k":"x","n":"Erlenbach"},
+  {"id":1811904108,"lat":49.127668,"lon":7.878215,"k":"x","n":"Vorderweidenthal, Hauptstraße"},
+  {"id":1811904109,"lat":49.14413,"lon":7.877459,"k":"x","n":"Oberschlettenbach, Hahnenhof"},
+  {"id":1811904111,"lat":49.145807,"lon":7.872064,"k":"x","n":"Oberschlettenbach"},
+  {"id":1813843337,"lat":49.107851,"lon":7.86412,"k":"x","n":"Erlenbach, Berwartstein/Seehof"},
+  {"id":3325647847,"lat":49.119463,"lon":7.867138,"k":"p","n":"Vorderweidenthal, Sägmühle"},
+  {"id":4333427662,"lat":49.119464,"lon":7.867156,"k":"x","n":"Vorderweidenthal, Sägmühle"},
+  {"id":8028994059,"lat":49.112674,"lon":7.862528,"k":"p","n":"Erlenbach"},
+  {"id":10749228826,"lat":49.144198,"lon":7.877554,"k":"x","n":"Oberschlettenbach, Hahnenhof"},
+  {"id":5001533262318,"lat":49.127644,"lon":7.878325,"k":"p","n":"Vorderweidenthal, Hauptstraße"}
+],
+"routes":[
+  {"id":1839593,"t":{"ref":"525","name":"Bus 525: Annweiler => Bad Bergzabern","from":"Annweiler, Bahnhof","to":"Bad Bergzabern, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[290558337,10],[1518546339,11],[5001533262318,12],[8028994059,13]]},
+  {"id":1839594,"t":{"ref":"545","name":"Bus 545: Bad Bergzabern => Berwartstein => Dahn","from":"Bad Bergzabern, Bahnhof","to":"Dahn, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[5001533262318,10],[8028994059,11],[1518887942,12]]},
+  {"id":2266078,"t":{"ref":"545","name":"Bus 545: Dahn => Berwartstein => Bad Bergzabern","from":"Dahn, Bahnhof","to":"Bad Bergzabern, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[8028994059,7,9],[1518887942,8],[5001533262318,10]]},
+  {"id":2267322,"t":{"ref":"545","name":"Bus 545: Dahn => Lauterschwan => Bad Bergzabern","from":"Dahn, Braut und Bräutigam","to":"Bad Bergzabern, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[8028994059,14],[5001533262318,15],[3325647847,16]]},
+  {"id":20993483,"t":{"ref":"5925","name":"Ruf 5925: Silz => Oberschlettenbach","from":"Silz, Kirche","to":"Oberschlettenbach","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001533262318,3],[1518546339,4]]},
+  {"id":3007761114222,"t":{"ref":"2553","name":"2553: Lauterschwan - Hinterweidenthal, Bahnhof","from":"Lauterschwan","to":"Hinterweidenthal, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":26,"s":[[1813843337,2],[8028994059,3]]},
+  {"id":3017676991636,"t":{"ref":"2553","name":"2553: Hinterweidenthal, Bahnhof - Lauterschwan","from":"Hinterweidenthal, Bahnhof","to":"Lauterschwan","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":26,"s":[[8028994059,24],[1813843337,25]]},
+  {"id":3020500816081,"t":{"ref":"5925","name":"Ruf 5925: Oberschlettenbach => Silz","from":"Oberschlettenbach","to":"Silz, Kirche","route":"bus","public_transport:version":"2"},"n":4,"s":[[1518546339,1],[1811904108,2]]},
+  {"id":3024250825052,"t":{"ref":"5925","name":"Ruf 5925: Oberschlettenbach => Silz","from":"Oberschlettenbach","to":"Silz, Kirche","route":"bus","public_transport:version":"2"},"n":3,"s":[[1811904108,3]]},
+  {"id":3030609905563,"t":{"ref":"525","name":"Bus 525: Bad Bergzabern => Annweiler","from":"Bad Bergzabern, Bahnhof","to":"Annweiler, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[290558337,10],[1518546339,11],[1811904108,12]]},
+  {"id":3032916547668,"t":{"ref":"2553","name":"2553: Dahn, Bahnhof - Lauterschwan","from":"Dahn, Bahnhof","to":"Lauterschwan","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":22,"s":[[8028994059,20],[1813843337,21]]},
+  {"id":3040444527521,"t":{"ref":"5925","name":"Ruf 5925: Oberschlettenbach => Silz","from":"Oberschlettenbach","to":"Silz, Kirche","route":"bus","public_transport:version":"2"},"n":4,"s":[[1811904108,3],[1518546339,4]]},
+  {"id":3043180609646,"t":{"ref":"525","name":"Bus 525: Bad Bergzabern => Annweiler","from":"Bad Bergzabern, Bahnhof","to":"Annweiler, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[8028994059,10],[1811904108,11],[1518546339,12],[1811904109,13]]},
+  {"id":3044220774285,"t":{"ref":"525","name":"Bus 525: Bad Bergzabern => Annweiler","from":"Bad Bergzabern, Bahnhof","to":"Annweiler, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[290558337,10],[1518546339,11],[1811904108,12],[4333427662,13],[8028994059,14]]},
+  {"id":3048703880302,"t":{"ref":"2553","name":"2553: Lauterschwan - Dahn, Bahnhof","from":"Lauterschwan","to":"Dahn, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[1813843337,2],[8028994059,3]]},
+  {"id":3061356531464,"t":{"ref":"2553","name":"2553: Lauterschwan - Hinterweidenthal, Bahnhof","from":"Lauterschwan","to":"Hinterweidenthal, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":25,"s":[[1813843337,2],[8028994059,3]]},
+  {"id":3072600576886,"t":{"ref":"2553","name":"2553: Dahn, Bahnhof - Lauterschwan","from":"Dahn, Bahnhof","to":"Lauterschwan","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[8028994059,19],[1813843337,20]]},
+  {"id":3074114279110,"t":{"ref":"5925","name":"Ruf 5925: Oberschlettenbach => Silz","from":"Oberschlettenbach","to":"Silz, Kirche","route":"bus","public_transport:version":"2"},"n":3,"s":[[1811904108,1]]},
+  {"id":3079830060306,"t":{"ref":"525","name":"Bus 525: Bad Bergzabern => Annweiler","from":"Bad Bergzabern, Bahnhof","to":"Annweiler, Bahnhof","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[1811904108,1],[1518546339,2],[1811904109,3]]},
+  {"id":3090881406378,"t":{"ref":"545","name":"Bus 545: Bad Bergzabern => Lauterschwan => Dahn","from":"Bad Bergzabern, Bahnhof","to":"Dahn, Braut und Bräutigam","network":"Verkehrsverbund Rhein-Neckar;Karlsruher Verkehrsverbund","operator":"Queichtal Nahverkehrsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[1811904108,10],[4333427662,11],[8028994059,12]]}
+]
+}

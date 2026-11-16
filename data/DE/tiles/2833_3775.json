@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2833,3775],
+"stops":[
+  {"id":295203727,"lat":51.662269,"lon":8.779225,"k":"p","n":"Schloß Hamborn, Altenheim"},
+  {"id":295203803,"lat":51.662188,"lon":8.772931,"k":"p","n":"Schloß Hamborn, Mitte"},
+  {"id":295204783,"lat":51.660872,"lon":8.75361,"k":"p","n":"Kirchborchen, Erhard"},
+  {"id":431793328,"lat":51.662964,"lon":8.766897,"k":"p","n":"Schloß Hamborn, Querweg"},
+  {"id":441346500,"lat":51.660718,"lon":8.753709,"k":"p","n":"Kirchborchen, Erhard"},
+  {"id":540335829,"lat":51.68688,"lon":8.788581,"k":"p","n":"Haxtergrund, Waldpark"},
+  {"id":540335840,"lat":51.688197,"lon":8.791374,"k":"p","n":"Haxtergrund Weyher"},
+  {"id":540335841,"lat":51.687853,"lon":8.79186,"k":"p","n":"Haxtergrund Weyher"},
+  {"id":540335842,"lat":51.691689,"lon":8.789405,"k":"p","n":"Knickweg"},
+  {"id":540335843,"lat":51.691742,"lon":8.789509,"k":"p","n":"Knickweg"},
+  {"id":697075523,"lat":51.662581,"lon":8.767287,"k":"p","n":"Schloß Hamborn, Querweg"},
+  {"id":981723719,"lat":51.660035,"lon":8.799854,"k":"p","n":"Eiferslohn"},
+  {"id":1187394178,"lat":51.6585,"lon":8.79007,"k":"p","n":"Schloß Hamborn, Husener Weg"},
+  {"id":1187394198,"lat":51.658401,"lon":8.789946,"k":"p","n":"Schloß Hamborn, Husener Weg"},
+  {"id":1187394235,"lat":51.658473,"lon":8.790079,"k":"x","n":"Schloß Hamborn, Husener Weg"},
+  {"id":1187394264,"lat":51.658452,"lon":8.789934,"k":"x","n":"Schloß Hamborn, Husener Weg"},
+  {"id":1317895202,"lat":51.662308,"lon":8.779246,"k":"x","n":"Schloß Hamborn, Altenheim"},
+  {"id":1989917277,"lat":51.662175,"lon":8.773156,"k":"p","n":"Schloß Hamborn, Mitte"},
+  {"id":3457748132,"lat":51.687837,"lon":8.791794,"k":"x","n":"Haxtergrund"},
+  {"id":3457748134,"lat":51.691711,"lon":8.789457,"k":"x","n":"Knickweg"},
+  {"id":3457748136,"lat":51.686941,"lon":8.788713,"k":"x","n":"Haxtergrund, Waldpark"},
+  {"id":5984003621,"lat":51.688204,"lon":8.791398,"k":"x","n":"Haxtergrund"},
+  {"id":6362140267,"lat":51.662922,"lon":8.766865,"k":"x","n":"Schloß Hamborn, Querweg"}
+],
+"routes":[
+  {"id":19787205,"t":{"ref":"16","name":"Bus 16: Schloß Hamborn => Sande","from":"Schloß Hamborn","to":"Sande","network":"WestfalenTarif","operator":"PaderSprinter GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[431793328,1],[295204783,2]]},
+  {"id":19787206,"t":{"ref":"16","name":"Bus 16: Sande => Schloß Hamborn","from":"Sande","to":"Schloß Hamborn","network":"WestfalenTarif","operator":"PaderSprinter GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[441346500,32],[431793328,33]]},
+  {"id":3003805528119,"t":{"ref":"46","name":"Bus 46: Haxtergrund => Hauptbahnhof","from":"Haxtergrund","to":"Hauptbahnhof","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2"},"n":16,"s":[[3457748136,1],[540335841,2],[540335843,3]]},
+  {"id":3038968370108,"t":{"ref":"700","name":"700: Bo-Nordborchen, Sperenberger Str. - Bo-Dörenhagen, Abzweig","from":"Bo-Nordborchen, Sperenberger Str.","to":"Bo-Dörenhagen, Abzweig","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":16,"s":[[441346500,5],[697075523,6],[295203803,7],[1317895202,8],[1187394264,9]]},
+  {"id":3040309814149,"t":{"ref":"700","name":"700: Bo-Nordborchen, Sperenberger Str. - Bo-Dörenhagen, Abzweig","from":"Bo-Nordborchen, Sperenberger Str.","to":"Bo-Dörenhagen, Abzweig","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":13,"s":[[441346500,5],[1187394264,6]]},
+  {"id":3063044670773,"t":{"ref":"R71","name":"R71: Bo-Schloß Hamborn, Altenheim - Paderborn, Hauptbahnhof","from":"Bo-Schloß Hamborn, Altenheim","to":"Paderborn, Hauptbahnhof","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":16,"s":[[1317895202,1],[1989917277,2],[431793328,3],[295204783,4]]},
+  {"id":3071356599265,"t":{"ref":"R71","name":"R71: Paderborn, Hauptbahnhof - Bo-Schloß Hamborn, Altenheim","from":"Paderborn, Hauptbahnhof","to":"Bo-Schloß Hamborn, Altenheim","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":16,"s":[[441346500,13],[697075523,14],[295203803,15],[1317895202,16]]},
+  {"id":3075529044800,"t":{"ref":"700","name":"700: Bo-Dörenhagen, Abzweig - Bo-Nordborchen, Sperenberger Str.","from":"Bo-Dörenhagen, Abzweig","to":"Bo-Nordborchen, Sperenberger Str.","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":10,"s":[[1187394264,7],[295204783,8]]},
+  {"id":3078973448710,"t":{"ref":"46","name":"Bus 46: Hauptbahnhof => Haxtergrund","from":"Hauptbahnhof","to":"Haxtergrund","network":"WestfalenTarif","operator":"PaderSprinter GmbH","colour":"#949599","route":"bus","public_transport:version":"2"},"n":17,"s":[[540335842,15],[540335840,16],[3457748136,17]]},
+  {"id":3080976145720,"t":{"ref":"700","name":"700: Bo-Dörenhagen, Abzweig - Bo-Nordborchen, Sperenberger Str.","from":"Bo-Dörenhagen, Abzweig","to":"Bo-Nordborchen, Sperenberger Str.","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":13,"s":[[1187394264,7],[1317895202,8],[1989917277,9],[431793328,10],[295204783,11]]}
+]
+}

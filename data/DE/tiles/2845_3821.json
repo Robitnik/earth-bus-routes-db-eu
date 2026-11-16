@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2845,3821],
+"stops":[
+  {"id":288844235,"lat":52.282723,"lon":11.065229,"k":"x","n":"Walbeck"},
+  {"id":352861324,"lat":52.264132,"lon":11.090644,"k":"x","n":"Schwanefeld"},
+  {"id":412273715,"lat":52.29912,"lon":11.062227,"k":"x","n":"Drachenberg"},
+  {"id":658549021,"lat":52.264167,"lon":11.0906,"k":"p","n":"Schwanefeld"},
+  {"id":658549022,"lat":52.259377,"lon":11.087465,"k":"p","n":"Schwanefeld, Siedlung"},
+  {"id":729895443,"lat":52.295545,"lon":11.085119,"k":"x","n":"Walbeck, Barriere"},
+  {"id":2039922345,"lat":52.282865,"lon":11.065167,"k":"x","n":"Walbeck"},
+  {"id":2116833806,"lat":52.259351,"lon":11.087516,"k":"x","n":"Schwanefeld, Siedlung"},
+  {"id":2620406630,"lat":52.299117,"lon":11.062132,"k":"p","n":"Drachenberg"},
+  {"id":2620406631,"lat":52.299286,"lon":11.062197,"k":"x","n":"Drachenberg"},
+  {"id":2620406632,"lat":52.299289,"lon":11.062274,"k":"p","n":"Drachenberg"},
+  {"id":2620406700,"lat":52.295525,"lon":11.085201,"k":"p","n":"Walbeck, Barriere"},
+  {"id":2620406701,"lat":52.295564,"lon":11.085048,"k":"p","n":"Walbeck, Barriere"},
+  {"id":2620406702,"lat":52.2827,"lon":11.065194,"k":"p","n":"Walbeck"},
+  {"id":2620406703,"lat":52.282862,"lon":11.065254,"k":"p","n":"Walbeck"},
+  {"id":2698722289,"lat":52.264007,"lon":11.090612,"k":"p","n":"Schwanefeld"},
+  {"id":2698722294,"lat":52.264014,"lon":11.090547,"k":"x","n":"Schwanefeld"},
+  {"id":11235539996,"lat":52.259321,"lon":11.087553,"k":"p","n":"Schwanefeld, Siedlung"}
+],
+"routes":[
+  {"id":2709001,"t":{"ref":"617","name":"Bus 617: Erxleben => Schwanefeld","from":"Erxleben","to":"Schwanefeld","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[2698722289,7]]},
+  {"id":2709003,"t":{"ref":"617","name":"Bus 617: Schwanefeld => Erxleben","from":"Schwanefeld","to":"Erxleben","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[658549021,1],[658549022,2]]},
+  {"id":2716310,"t":{"ref":"618","name":"Bus 618: Döhren => Haldensleben","from":"Döhren","to":"Haldensleben, ZOB","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[2620406630,5],[2620406702,6],[2620406700,7]]},
+  {"id":2716311,"t":{"ref":"618","name":"Bus 618: Haldensleben => Döhren","from":"Haldensleben, ZOB","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[2620406701,6],[2620406703,7],[2620406632,8]]},
+  {"id":3449276,"t":{"ref":"633","name":"Bus 633: Beendorf => Döhren","from":"Beendorf","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2698722289,3],[2620406703,4],[2620406632,5]]},
+  {"id":3449277,"t":{"ref":"633","name":"Bus 633: Döhren => Beendorf","from":"Haldensleben, ZOB","to":"Döhren","network":"marego","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2620406630,5],[2620406702,6],[658549021,7],[658549022,8]]},
+  {"id":3006415038823,"t":{"ref":"618","name":"618: Haldensleben, ZOB - Weferlingen, Platz der Jugend","from":"Haldensleben, ZOB","to":"Weferlingen, Platz der Jugend","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[2039922345,14],[2620406632,15]]},
+  {"id":3019385342960,"t":{"ref":"617","name":"617: Haldensleben, ZOB - Schwanefeld","from":"Haldensleben, ZOB","to":"Schwanefeld","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[11235539996,19],[2698722289,20]]},
+  {"id":3038225659986,"t":{"ref":"617","name":"617: Haldensleben, ZOB - Schwanefeld","from":"Haldensleben, ZOB","to":"Schwanefeld","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[11235539996,23],[2698722289,24]]},
+  {"id":3051152838618,"t":{"ref":"617","name":"617: Schwanefeld - Haldensleben, ZOB","from":"Schwanefeld","to":"Haldensleben, ZOB","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[658549021,1],[658549022,2]]},
+  {"id":3059167253164,"t":{"ref":"618","name":"618: Weferlingen, Platz der Jugend - Haldensleben, ZOB","from":"Weferlingen, Platz der Jugend","to":"Haldensleben, ZOB","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[2620406631,4],[2620406702,5]]}
+]
+}

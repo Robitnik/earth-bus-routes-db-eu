@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2849,3825],
+"stops":[
+  {"id":890575902,"lat":52.473906,"lon":11.260303,"k":"p","n":"Sachau, Ort"},
+  {"id":4915612475,"lat":52.496682,"lon":11.295227,"k":"x","n":"Solpke, Süd"},
+  {"id":4915612480,"lat":52.473843,"lon":11.260385,"k":"x","n":"Sachau, Ort"},
+  {"id":14102551310,"lat":52.497144,"lon":11.294701,"k":"x","n":"Solpke Süd"},
+  {"id":14102551315,"lat":52.497129,"lon":11.294655,"k":"p","n":"Solpke Süd"},
+  {"id":14102551316,"lat":52.497196,"lon":11.294755,"k":"p","n":"Solpke Süd"},
+  {"id":6072709177669,"lat":52.498446,"lon":11.292104,"k":"p","n":"Solpke, Süd","g":1},
+  {"id":6085006594867,"lat":52.498501,"lon":11.292115,"k":"p","n":"Solpke, Süd","g":1}
+],
+"routes":[
+  {"id":7332888,"t":{"ref":"701","name":"Bus 701: Rufbusfläche O -> Gardelegen","to":"Gardelegen","operator":"Personenverkehrsgesellschaft Altmarkkreis Salzwedel mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[890575902,4]]},
+  {"id":3028446665366,"t":{"ref":"701","name":"701: Parleib, Ort - Gardelegen, Bahnhof (Bus)","from":"Parleib, Ort","to":"Gardelegen, Bahnhof (Bus)","operator":"PVGS Altmarkkreis Salzwedel","route":"bus","public_transport:version":"2"},"n":45,"s":[[4915612480,8],[6085006594867,11]]},
+  {"id":3040103821286,"t":{"ref":"701","name":"Bus 701: Rufbusfläche O -> Mieste","to":"Mieste","operator":"Personenverkehrsgesellschaft Altmarkkreis Salzwedel mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[4915612480,8],[6085006594867,11]]},
+  {"id":3045418132268,"t":{"ref":"701","name":"Bus 701: Rufbusfläche O -> Mieste","to":"Mieste","operator":"Personenverkehrsgesellschaft Altmarkkreis Salzwedel mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6072709177669,6],[4915612480,9]]},
+  {"id":3092450708216,"t":{"ref":"701","name":"701: Gardelegen, Bahnhof (Bus) - Parleib, Ort","from":"Gardelegen, Bahnhof (Bus)","to":"Parleib, Ort","operator":"PVGS Altmarkkreis Salzwedel","route":"bus","public_transport:version":"2"},"n":45,"s":[[6072709177669,35],[4915612480,38]]}
+]
+}

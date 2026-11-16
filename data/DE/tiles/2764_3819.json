@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2764,3819],
+"stops":[
+  {"id":86028316,"lat":48.243898,"lon":10.984295,"k":"x","n":"Merching Steinacher Straße 4","ref":"A"},
+  {"id":380839435,"lat":48.244603,"lon":10.987577,"k":"x","n":"Merching Kirchstraße","ref":"A:E"},
+  {"id":672088193,"lat":48.24466,"lon":10.987628,"k":"p","n":"Merching Kirchstraße","ref":"E"},
+  {"id":672088206,"lat":48.243886,"lon":10.984255,"k":"p","n":"Merching Steinacher Straße 4","ref":"A"},
+  {"id":765640024,"lat":48.244583,"lon":10.987544,"k":"p","n":"Merching Kirchstraße","ref":"A"},
+  {"id":775896029,"lat":48.212772,"lon":10.965423,"k":"p","n":"Schmiechen Ringstraße","ref":"E"},
+  {"id":775896032,"lat":48.213074,"lon":10.961842,"k":"p","n":"Schmiechen Kirche","ref":"E"},
+  {"id":775896036,"lat":48.212691,"lon":10.965444,"k":"p","n":"Schmiechen Ringstraße","ref":"A"},
+  {"id":775896037,"lat":48.212991,"lon":10.961767,"k":"p","n":"Schmiechen Kirche"},
+  {"id":808970761,"lat":48.212737,"lon":10.965432,"k":"x","n":"Schmiechen Ringstraße","ref":"A;E"},
+  {"id":4518926950,"lat":48.213416,"lon":10.977026,"k":"x","n":"Schmiechen Bahnhof"},
+  {"id":4518926951,"lat":48.213306,"lon":10.976778,"k":"x","n":"Schmiechen Bahnhof"},
+  {"id":5141178233,"lat":48.21304,"lon":10.96181,"k":"x","n":"Schmiechen Kirche","ref":"A;E"},
+  {"id":8948602295,"lat":48.227597,"lon":10.973067,"k":"p","n":"Brunnen (b Merching), Bayern Brunnen"},
+  {"id":12164161552,"lat":48.227541,"lon":10.973056,"k":"x","n":"Brunnen (b Merching), Bayern Brunnen"}
+],
+"routes":[
+  {"id":1059522,"t":{"ref":"106","name":"AVV-Regionalbus 106: Mering, Schulzentrum => Merching, Kirchstraße","from":"Mering, Schulzentrum","to":"Merching, Kirchstraße","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":5,"s":[[672088206,4],[672088193,5]]},
+  {"id":1059526,"t":{"ref":"106","name":"AVV-Regionalbus 106: Steindorf, Schmiede => Mering, Bahnhof","from":"Steindorf, Schmiede","to":"Mering, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[672088193,6]]},
+  {"id":1059527,"t":{"ref":"106","name":"AVV-Regionalbus 106: Merching, Kirchstraße => Mering, Schulzentrum","from":"Merching, Kirchstraße","to":"Mering, Schulzentrum","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":4,"s":[[672088193,1]]},
+  {"id":1059528,"t":{"ref":"106","name":"AVV-Regionalbus 106: Mering, Bahnhof => Eresried => Steindorf, Schmiede","from":"Mering, Bahnhof","to":"Steindorf, Schmiede","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":10,"s":[[765640024,6]]},
+  {"id":1059550,"t":{"ref":"108","name":"AVV-Regionalbus 108: Schmiechen, Ringstraße => Mering, Bahnhof","from":"Schmiechen, Ringstraße","to":"Mering, Bahnhof","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":5,"s":[[775896029,1]]},
+  {"id":1059552,"t":{"ref":"108","name":"AVV-Regionalbus 108: Mering, Bahnhof => Schmiechen, Ringstraße","from":"Mering, Bahnhof","to":"Schmiechen, Ringstraße","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":5,"s":[[775896036,5]]},
+  {"id":18021707,"t":{"ref":"897","name":"Bus 897: Winkl, Scheuringer Straße => Mering, Bahnhof","from":"Winkl, Scheuringer Straße","to":"Mering, Bahnhof","network":"Münchner Verkehrs- und Tarifverbund","operator":"Waibel Bus GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[775896036,7],[8948602295,8]]},
+  {"id":18048170,"t":{"ref":"897","name":"Bus 897: Mering, Bahnhof => Mering, Schulzentrum => Scheuring Nord, Jägerstraße => Landsberg, Bahnhof/ZOB","from":"Mering, Bahnhof","to":"Landsberg, Bahnhof/ZOB","network":"Münchner Verkehrs- und Tarifverbund","operator":"Waibel Bus GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[8948602295,5],[775896029,6]]},
+  {"id":18048171,"t":{"ref":"897","name":"Bus 897: Mering, Bahnhof => Mering, Schulzentrum => Landsberg, Bahnhof/ZOB","from":"Mering, Bahnhof","to":"Landsberg, Bahnhof/ZOB","network":"Münchner Verkehrs- und Tarifverbund","operator":"Waibel Bus GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[8948602295,5],[775896029,6]]},
+  {"id":3029610354930,"t":{"ref":"106","name":"AVV-Regionalbus 106: Mering, Bahnhof => Merching, Kirchstraße","from":"Mering, Bahnhof","to":"Merching, Kirchstraße","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":5,"s":[[672088193,1]]},
+  {"id":3041147313153,"t":{"ref":"106","name":"AVV-Regionalbus 106: Mering, Bahnhof => Steindorf, Schmiede","from":"Mering, Bahnhof","to":"Steindorf, Schmiede","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":11,"s":[[672088193,7]]},
+  {"id":3058949656887,"t":{"ref":"106","name":"AVV-Regionalbus 106: Mering, Bahnhof => Steindorf, Schmiede","from":"Mering, Bahnhof","to":"Steindorf, Schmiede","network":"Augsburger Verkehrs- und Tarifverbund","route":"bus","public_transport:version":"2"},"n":11,"s":[[380839435,5]]}
+]
+}

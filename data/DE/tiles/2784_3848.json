@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2784,3848],
+"stops":[
+  {"id":9736249000,"lat":49.235711,"lon":12.417041,"k":"p","n":"Neubäu am See Ortsmitte"},
+  {"id":9736249001,"lat":49.235808,"lon":12.417131,"k":"p","n":"Neubäu am See Ortsmitte"},
+  {"id":11113881193,"lat":49.239323,"lon":12.435819,"k":"p","n":"Neubäu","ref":"1"},
+  {"id":11288951605,"lat":49.205118,"lon":12.428667,"k":"p","n":"Walderbach, Abzweigung Eichelberg"},
+  {"id":11288951606,"lat":49.205184,"lon":12.429068,"k":"p","n":"Walderbach, Abzweigung Eichelberg","ref":"70"},
+  {"id":11300299500,"lat":49.233038,"lon":12.423317,"k":"p","n":"Roding, Neubäu - Loberweg"},
+  {"id":13963380675,"lat":49.239352,"lon":12.435771,"k":"x","n":"Neubäu","ref":"1"},
+  {"id":6007506449978,"lat":49.239861,"lon":12.436474,"k":"p","n":"Neubäu","g":1},
+  {"id":6032286487344,"lat":49.237572,"lon":12.418544,"k":"p","n":"Neubäu, Uferweg","g":1},
+  {"id":6033172958218,"lat":49.240851,"lon":12.412579,"k":"p","n":"Neubäu am  See, Wasserwerk","g":1},
+  {"id":6055997759972,"lat":49.201534,"lon":12.403973,"k":"p","n":"Walderbach, Grabenhof","g":1},
+  {"id":6092956619445,"lat":49.202855,"lon":12.418185,"k":"p","n":"Walderbach, Gusterei","g":1},
+  {"id":6098360202840,"lat":49.205637,"lon":12.435387,"k":"p","n":"Walderbach, Nassen","g":1}
+],
+"routes":[
+  {"id":12873277,"t":{"ref":"228/T01","name":"Bus 228: Roding - Walderbach - Nittenau und zurück","network":"Verkehrsgemeinschaft Landkreis Cham","operator":"Rodinger Verkehrs Betriebe","route":"bus"},"n":21,"s":[[11288951606,6]]},
+  {"id":3026059219890,"t":{"ref":"RB27","name":"RB27: Cham (Oberpf) - Schwandorf","from":"Cham (Oberpf)","to":"Schwandorf","operator":"oberpfalzbahn - Die Länderbahn GmbH DLB","route":"bus","public_transport:version":"2"},"n":6,"s":[[6007506449978,4]]},
+  {"id":3038885205180,"t":{"ref":"903","name":"903: Roding, Krankenhaus - Nittenau, Marktplatz","from":"Roding, Krankenhaus","to":"Nittenau, Marktplatz","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":34,"s":[[6098360202840,15],[6092956619445,16],[6055997759972,19],[11288951606,21]]},
+  {"id":3068443645321,"t":{"ref":"903","name":"903: Nittenau, Marktplatz - Roding, Krankenhaus","from":"Nittenau, Marktplatz","to":"Roding, Krankenhaus","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":34,"s":[[11288951606,14],[6055997759972,16],[6092956619445,19],[6098360202840,20]]},
+  {"id":3073198140339,"t":{"ref":"RB27","name":"RB27: Schwandorf - Cham (Oberpf)","from":"Schwandorf","to":"Cham (Oberpf)","operator":"oberpfalzbahn - Die Länderbahn GmbH DLB","route":"bus","public_transport:version":"2"},"n":6,"s":[[6007506449978,3]]},
+  {"id":3094203776872,"t":{"ref":"232","name":"232: Roding, Sparkasse - Roding, Sparkasse","from":"Roding, Sparkasse","to":"Roding, Sparkasse","operator":"Bus","route":"bus","public_transport:version":"2"},"n":13,"s":[[6033172958218,8],[6032286487344,9],[11300299500,10]]}
+]
+}

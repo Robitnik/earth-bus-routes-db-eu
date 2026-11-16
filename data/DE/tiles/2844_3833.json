@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2844,3833],
+"stops":[
+  {"id":1808881434,"lat":52.203995,"lon":11.674141,"k":"x","n":"Industrie- und Logistik-Centrum"},
+  {"id":1808881435,"lat":52.20517,"lon":11.673671,"k":"x","n":"Industrie- und Logistik-Centrum"},
+  {"id":2093226741,"lat":52.242235,"lon":11.682862,"k":"x","n":"Glindenberg, Kreuzung"},
+  {"id":2093226757,"lat":52.242265,"lon":11.682823,"k":"p","n":"Glindenberg, Kreuzung"},
+  {"id":2093226763,"lat":52.235766,"lon":11.683642,"k":"p","n":"Glindenberg, Teich"},
+  {"id":2093226774,"lat":52.235788,"lon":11.683575,"k":"x","n":"Glindenberg, Teich"},
+  {"id":2103041883,"lat":52.209279,"lon":11.669179,"k":"p","n":"Barleber See"},
+  {"id":2103041884,"lat":52.209264,"lon":11.669704,"k":"p","n":"Barleber See"},
+  {"id":2103320154,"lat":52.209216,"lon":11.669638,"k":"x","n":"Barleber See"},
+  {"id":2103320155,"lat":52.209323,"lon":11.669257,"k":"x","n":"Barleber See"},
+  {"id":2105810493,"lat":52.226994,"lon":11.678057,"k":"p"},
+  {"id":2105810494,"lat":52.225062,"lon":11.672835,"k":"p","n":"Magdeburg, Hebewerk"},
+  {"id":2109343953,"lat":52.225117,"lon":11.672849,"k":"x","n":"Magdeburg, Hebewerk"},
+  {"id":2195630892,"lat":52.235464,"lon":11.683321,"k":"x","n":"Glindenberg, Teich"},
+  {"id":2234813315,"lat":52.249848,"lon":11.65092,"k":"p","n":"Wolmirstedt, Glindenberger Straße"},
+  {"id":2234813344,"lat":52.249866,"lon":11.651062,"k":"x","n":"Wolmirstedt, Glindenberger Straße"},
+  {"id":2234813355,"lat":52.249975,"lon":11.650571,"k":"x","n":"Wolmirstedt, Glindenberger Straße"},
+  {"id":2880681653,"lat":52.235469,"lon":11.683231,"k":"p","n":"Glindenberg, Teich"},
+  {"id":5001266809379,"lat":52.205149,"lon":11.673752,"k":"p","n":"Industrie- und Logistik-Centrum"},
+  {"id":5001270178667,"lat":52.225145,"lon":11.672755,"k":"p","n":"Magdeburg, Hebewerk"}
+],
+"routes":[
+  {"id":2676903,"t":{"ref":"622","name":"Bus 622: Wolmirstedt => Heinrichsberg","from":"Wolmirstedt, Bahnhofstraße","to":"Heinrichsberg","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[2093226757,3],[2093226763,4]]},
+  {"id":2677376,"t":{"ref":"622","name":"Bus 622: Heinrichsberg => Wolmirstedt","from":"Heinrichsberg","to":"Wolmirstedt, Geschwister-Scholl-Str.","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[2093226763,2],[2093226757,3]]},
+  {"id":2677533,"t":{"ref":"622","name":"Bus 622: Magdeburg => Glindenberg","from":"Magdeburg, Barleber See","to":"Glindenberg, Kreuzung","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[2103041884,1],[2105810494,2],[2093226763,3],[2093226757,4]]},
+  {"id":2677534,"t":{"ref":"622","name":"Bus 622: Magdeburg => Wolmirstedt","from":"Magdeburg, Hebewerk","to":"Wolmirstedt, Gymnasium","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2105810494,1],[2093226763,2],[2093226757,3]]},
+  {"id":3003210827217,"t":{"ref":"622","name":"Bus 622: Wolmirstedt => Hebewerk => Heinrichsberg","from":"Wolmirstedt, Geschwister-Scholl-Str.","to":"Heinrichsberg","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2093226774,2],[2093226757,3]]},
+  {"id":3008737073805,"t":{"ref":"622","name":"Bus 622: Wolmirstedt => Hebewerk => Heinrichsberg","from":"Wolmirstedt, Geschwister-Scholl-Str.","to":"Heinrichsberg","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[2234813315,2],[2093226757,3],[2880681653,4]]},
+  {"id":3028933362533,"t":{"ref":"622","name":"Bus 622: Glindenberg => Magdeburg","from":"Glindenberg, Kreuzung","to":"Magdeburg, Barleber See","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[2093226757,1],[2880681653,2],[5001270178667,3],[2103041884,4]]},
+  {"id":3063564990560,"t":{"ref":"622","name":"Bus 622: Glindenberg => Magdeburg","from":"Glindenberg, Kreuzung","to":"Magdeburg, Barleber See","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[2103041884,1],[2105810494,2],[2093226774,3],[2093226757,4]]},
+  {"id":3077820121959,"t":{"ref":"704","name":"Bus 704: Magdeburg => Burg","from":"Magdeburg","to":"Burg","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[5001266809379,9]]},
+  {"id":3085404622366,"t":{"ref":"622","name":"Bus 622: Wolmirstedt => Hebewerk => Heinrichsberg","from":"Wolmirstedt, Geschwister-Scholl-Str.","to":"Heinrichsberg","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[2234813315,4],[2093226757,5],[2880681653,6]]}
+]
+}

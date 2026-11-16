@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2816,3866],
+"stops":[
+  {"id":259825549,"lat":50.817677,"lon":13.343266,"k":"x","n":"Müdisdorf, Wendeschleife"},
+  {"id":299644263,"lat":50.84381,"lon":13.321531,"k":"p","n":"Niederfrei/B101"},
+  {"id":311794088,"lat":50.814089,"lon":13.32403,"k":"p","n":"Am Berg"},
+  {"id":356714458,"lat":50.80182,"lon":13.320866,"k":"p","n":"Bäckerei Großhartmannsdorf"},
+  {"id":356714462,"lat":50.805889,"lon":13.323273,"k":"p","n":"Orteingang Großhartmannsdorf"},
+  {"id":356714463,"lat":50.805762,"lon":13.323063,"k":"p","n":"Ortseingang Großhartmannsdorf"},
+  {"id":356714466,"lat":50.813376,"lon":13.323653,"k":"p","n":"Am Berg"},
+  {"id":370581831,"lat":50.846479,"lon":13.301965,"k":"p","n":"Langenau Schafweg"},
+  {"id":618922313,"lat":50.813153,"lon":13.339915,"k":"x","n":"Großhartmannsdorf, Teichmühle"},
+  {"id":618922316,"lat":50.813463,"lon":13.340115,"k":"x","n":"Großhartmannsdorf, Teichmühle"},
+  {"id":2324566666,"lat":50.809928,"lon":13.328126,"k":"x","n":"Großhartmannsdorf, Gasthof Erholung"},
+  {"id":3063693059,"lat":50.844426,"lon":13.321599,"k":"x","n":"Niederfrei/B101"},
+  {"id":3063693067,"lat":50.844432,"lon":13.321722,"k":"p","n":"Niederfrei/B101"},
+  {"id":3063703008,"lat":50.82908,"lon":13.325286,"k":"x","n":"Gh Mönchenfrei"},
+  {"id":6400079435,"lat":50.843814,"lon":13.321641,"k":"x","n":"Niederfrei/B101"},
+  {"id":6400079436,"lat":50.846995,"lon":13.325873,"k":"p","n":"Niederfrei"},
+  {"id":6400079437,"lat":50.846986,"lon":13.325932,"k":"x","n":"Niederfrei"},
+  {"id":6400079445,"lat":50.829073,"lon":13.325185,"k":"p","n":"Gh Mönchenfrei"},
+  {"id":6400079446,"lat":50.830059,"lon":13.325247,"k":"p","n":"Gh Mönchenfrei"},
+  {"id":6400079448,"lat":50.830054,"lon":13.325148,"k":"x","n":"Gh Mönchenfrei"},
+  {"id":10123741383,"lat":50.817643,"lon":13.343224,"k":"p","n":"Müdisdorf, Wendeschleife"},
+  {"id":12451071086,"lat":50.801284,"lon":13.320905,"k":"p","n":"Bäckerei Großhartmannsdorf"},
+  {"id":6019621731781,"lat":50.803554,"lon":13.345246,"k":"p","n":"Helbigsdorf, Weg zum Teich","g":1},
+  {"id":6085338889673,"lat":50.803634,"lon":13.345336,"k":"p","n":"Helbigsdorf, Weg zum Teich","g":1}
+],
+"routes":[
+  {"id":4019567,"t":{"ref":"733","name":"733 Abzweig Müdisdorf, Wendeschleife","from":"Brand-E,BerthelsdStr/Zugspitze","to":"Weigmannsdorf, Wendeschleife","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":4,"s":[[3063703008,1],[259825549,2]]},
+  {"id":4020369,"t":{"ref":"733","name":"733 Abzweig Müdisdorf, Wendeschleife II","from":"Weigmannsdorf, Wendeschleife","to":"Brand-Erbisdorf, Zuger Straße","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":6,"s":[[259825549,3],[3063703008,4],[3063693059,5]]},
+  {"id":3020753728742,"t":{"ref":"735","name":"735: Zethau, Wendeschleife - Freiberg, Busbahnhof","from":"Zethau, Wendeschleife","to":"Freiberg, Busbahnhof","operator":"RV Freiberg Bus","route":"bus","public_transport:version":"2"},"n":34,"s":[[6085338889673,16],[12451071086,17],[356714463,18],[2324566666,19],[618922313,20],[10123741383,21]]},
+  {"id":3037144283731,"t":{"ref":"737","name":"737: Freiberg, Busbahnhof - Neuhausen, Dachsbaude","from":"Freiberg, Busbahnhof","to":"Neuhausen, Dachsbaude","operator":"RV Freiberg Bus","route":"bus","public_transport:version":"2"},"n":40,"s":[[6400079435,8],[6400079445,9],[356714466,10],[356714463,11],[356714458,12]]},
+  {"id":3039494589875,"t":{"ref":"737","name":"737: Neuhausen, Dachsbaude - Freiberg, Busbahnhof","from":"Neuhausen, Dachsbaude","to":"Freiberg, Busbahnhof","operator":"RV Freiberg Bus","route":"bus","public_transport:version":"2"},"n":40,"s":[[12451071086,29],[356714463,30],[311794088,31],[6400079446,32],[3063693067,33]]},
+  {"id":3044366381654,"t":{"ref":"400","name":"400: Annaberg-Buchholz, Busbahnhof - Dresden Ammon-/Budapester Str.","from":"Annaberg-Buchholz, Busbahnhof","to":"Dresden Ammon-/Budapester Str.","operator":"RV BVO Bus","route":"bus","public_transport:version":"2"},"n":47,"s":[[356714463,27],[311794088,28],[6400079446,29]]},
+  {"id":3057068267820,"t":{"ref":"400","name":"400: Freiberg, Busbahnhof - Annaberg-Buchholz, Busbahnhof","from":"Freiberg, Busbahnhof","to":"Annaberg-Buchholz, Busbahnhof","operator":"RV BVO Bus","route":"bus","public_transport:version":"2"},"n":33,"s":[[6400079445,6],[356714466,7],[356714463,8]]},
+  {"id":3079179716893,"t":{"ref":"735","name":"735: Freiberg, Busbahnhof - Zethau, Wendeschleife","from":"Freiberg, Busbahnhof","to":"Zethau, Wendeschleife","operator":"RV Freiberg Bus","route":"bus","public_transport:version":"2"},"n":34,"s":[[10123741383,14],[618922316,15],[2324566666,16],[356714463,17],[356714458,18],[6019621731781,19]]}
+]
+}

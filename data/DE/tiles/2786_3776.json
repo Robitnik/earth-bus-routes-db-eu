@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2786,3776],
+"stops":[
+  {"id":312515521,"lat":49.323149,"lon":8.825945,"k":"p","n":"Meckesheim Luisenstraße"},
+  {"id":312515522,"lat":49.323095,"lon":8.825745,"k":"p","n":"Meckesheim Luisenstraße"},
+  {"id":757410173,"lat":49.320199,"lon":8.813488,"k":"p","n":"Meckesheim Bahnhof"},
+  {"id":2709342376,"lat":49.333665,"lon":8.848362,"k":"p","n":"Mönchzell Schule"},
+  {"id":2709342381,"lat":49.333731,"lon":8.848251,"k":"p","n":"Mönchzell Schule"},
+  {"id":2709359007,"lat":49.321649,"lon":8.819999,"k":"p","n":"Meckesheim Ortsmitte"},
+  {"id":2709359017,"lat":49.321485,"lon":8.820259,"k":"p","n":"Meckesheim Ortsmitte"},
+  {"id":2709382476,"lat":49.322397,"lon":8.817196,"k":"p","n":"Meckesheim Gasthaus Ochsen"},
+  {"id":2709385302,"lat":49.322488,"lon":8.817213,"k":"p","n":"Meckesheim Gasthaus Ochsen"},
+  {"id":3390417762,"lat":49.324748,"lon":8.814185,"k":"p","n":"Brühlweg"},
+  {"id":3390417763,"lat":49.324878,"lon":8.813968,"k":"p","n":"Brühlweg"},
+  {"id":7551846165,"lat":49.318776,"lon":8.820458,"k":"p","n":"Meckesheim Karl-Bühler-Schule"},
+  {"id":8496929473,"lat":49.317534,"lon":8.822958,"k":"p","n":"Meckesheim, Alter Sportplatz"},
+  {"id":9274295251,"lat":49.320255,"lon":8.813577,"k":"x","n":"Meckesheim Bahnhof"},
+  {"id":11987141707,"lat":49.320266,"lon":8.813638,"k":"p","n":"Meckesheim Bahnhof"},
+  {"id":6003820981490,"lat":49.320661,"lon":8.812347,"k":"p","n":"Meckesheim, Bahnhof","g":1},
+  {"id":6029960272346,"lat":49.319425,"lon":8.821258,"k":"p","n":"Meckesheim, Karl-Bühler-Schule","g":1}
+],
+"routes":[
+  {"id":2728112,"t":{"ref":"755","name":"Bus 755: Heidelberg => Sinsheim","from":"Heidelberg Hauptbahnhof","to":"Sinsheim Hauptbahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":36,"s":[[2709385302,31],[757410173,32]]},
+  {"id":2728116,"t":{"ref":"755","name":"Bus 755: Sinsheim => Heidelberg","from":"Sinsheim Bahnhof","to":"Heidelberg Hauptbahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":32,"s":[[757410173,5],[2709382476,6]]},
+  {"id":3000218067281,"t":{"ref":"743","name":"Bus 743: Waldwimmersbach Abzw. Haag => Meckesheim Bahnhof","from":"Waldwimmersbach Abzw. Haag","to":"Meckesheim Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":15,"s":[[2709342381,11],[312515521,12],[2709359007,13],[2709382476,14],[11987141707,15]]},
+  {"id":3011685225139,"t":{"ref":"743","name":"Bus 743: Meckesheim Bahnhof => Waldwimmersbach Abzw. Haag","from":"Meckesheim Bahnhof","to":"Waldwimmersbach Abzw. Haag","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":17,"s":[[11987141707,1],[2709382476,2],[2709359017,3],[6029960272346,4],[312515521,5],[2709342376,6]]},
+  {"id":3013341239733,"t":{"ref":"743","name":"Bus 743: Meckesheim Bahnhof => Waldwimmersbach Abzw. Haag","from":"Meckesheim Bahnhof","to":"Waldwimmersbach Abzw. Haag","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":11,"s":[[11987141707,1],[2709382476,2],[2709359017,3],[312515521,4],[2709342376,5]]},
+  {"id":3024730344602,"t":{"ref":"743","name":"Bus 743: Meckesheim Bahnhof => Waldwimmersbach Abzw. Haag","from":"Meckesheim Bahnhof","to":"Waldwimmersbach Abzw. Haag","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":15,"s":[[11987141707,1],[2709382476,2],[2709359017,3],[312515521,4],[2709342376,5]]},
+  {"id":3041612981686,"t":{"ref":"7909","name":"7909: Meckesheim, Bahnhof - Balzfeld, Wiesengrund","from":"Meckesheim, Bahnhof","to":"Balzfeld, Wiesengrund","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":5,"s":[[6003820981490,1]]},
+  {"id":3046992940547,"t":{"ref":"7909","name":"7909: Dielheim, Eckertsberg - Meckesheim, Bahnhof","from":"Dielheim, Eckertsberg","to":"Meckesheim, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":7,"s":[[6003820981490,7]]},
+  {"id":3048703582392,"t":{"ref":"7909","name":"7909: Meckesheim, Bahnhof - Dielheim, Eckertsberg","from":"Meckesheim, Bahnhof","to":"Dielheim, Eckertsberg","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":7,"s":[[6003820981490,1]]},
+  {"id":3067607265327,"t":{"ref":"7950","name":"7950: Waldwimmersbach, Abzw. Haag - Meckesheim, Bahnhof","from":"Waldwimmersbach, Abzw. Haag","to":"Meckesheim, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":16,"s":[[2709342381,12],[312515521,13],[2709359007,14],[2709382476,15],[11987141707,16]]},
+  {"id":3075393171003,"t":{"ref":"743","name":"Bus 743: Meckesheim Bahnhof => Waldwimmersbach Abzw. Haag","from":"Meckesheim Bahnhof","to":"Waldwimmersbach Abzw. Haag","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":16,"s":[[11987141707,1],[2709382476,2],[2709359017,3],[312515521,4],[2709342376,5]]},
+  {"id":3076976853828,"t":{"ref":"7950","name":"7950: Meckesheim, Bahnhof - Waldwimmersbach, Abzw. Haag","from":"Meckesheim, Bahnhof","to":"Waldwimmersbach, Abzw. Haag","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":16,"s":[[11987141707,1],[2709382476,2],[2709359017,3],[312515521,4],[2709342376,5]]},
+  {"id":3090630610275,"t":{"ref":"7909","name":"7909: Balzfeld, Wiesengrund - Meckesheim, Bahnhof","from":"Balzfeld, Wiesengrund","to":"Meckesheim, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":5,"s":[[6003820981490,5]]}
+]
+}

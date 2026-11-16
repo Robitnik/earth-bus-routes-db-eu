@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2895,3784],
+"stops":[
+  {"id":2476423322,"lat":54.772636,"lon":9.238275,"k":"p","ref":"100","n":"Wallsbüll B 199"},
+  {"id":3216634408,"lat":54.772461,"lon":9.238283,"k":"p","ref":"100","n":"Wallsbüll B 199"},
+  {"id":9004343925,"lat":54.774767,"lon":9.238012,"k":"p","n":"Wallsbüll, Hauptstraße"},
+  {"id":9004343926,"lat":54.796986,"lon":9.211227,"k":"p","n":"Osterby (Schafflund), Hauptstraße"},
+  {"id":10647546826,"lat":54.796959,"lon":9.211078,"k":"x","n":"Osterby (Schafflund), Hauptstraße"},
+  {"id":10647546827,"lat":54.77477,"lon":9.237893,"k":"x","n":"Wallsbüll, Hauptstraße"},
+  {"id":10647546828,"lat":54.774784,"lon":9.237742,"k":"p","n":"Wallsbüll, Hauptstraße"},
+  {"id":10647546834,"lat":54.756352,"lon":9.223512,"k":"x","n":"Meyn, Schafflunder Straße"},
+  {"id":10647546835,"lat":54.754035,"lon":9.240926,"k":"x","n":"Meynfeld Ingwersen"},
+  {"id":11147665285,"lat":54.771867,"lon":9.238792,"k":"x","ref":"894"},
+  {"id":11771506834,"lat":54.754004,"lon":9.240919,"k":"p","n":"Meynfeld Ingwersen"},
+  {"id":12339425701,"lat":54.771843,"lon":9.238876,"k":"p","ref":"894"},
+  {"id":12725224487,"lat":54.773406,"lon":9.238857,"k":"p","n":"Wallsbüll"},
+  {"id":12917634868,"lat":54.77341,"lon":9.238802,"k":"x","n":"Wallsbüll"},
+  {"id":6002959574825,"lat":54.796293,"lon":9.211551,"k":"p","n":"Osterby(Schafflund) Hauptstraße","g":1},
+  {"id":6019928521113,"lat":54.753903,"lon":9.242202,"k":"p","n":"Meyn Meynfeld/Ingwersen","g":1},
+  {"id":6070268609346,"lat":54.753899,"lon":9.242202,"k":"p","n":"Meyn Meynfeld/Ingwersen","g":1},
+  {"id":6092416969739,"lat":54.796293,"lon":9.21155,"k":"p","n":"Osterby(Schafflund) Hauptstraße","g":1},
+  {"id":6095055408502,"lat":54.779763,"lon":9.231013,"k":"p","n":"Wallsbüll Sommers Barg","g":1}
+],
+"routes":[
+  {"id":3029957,"t":{"ref":"894","name":"Bus 894: Stadum => Schafflund => Flensburg","from":"Stadum, Ort","to":"Flensburg ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"grey","route":"bus","public_transport:version":"2"},"n":15,"s":[[12339425701,5]]},
+  {"id":15460925,"t":{"ref":"890","name":"Bus 890: Wallsbüll => Medelby => Wallsbüll","from":"Wallsbüll, Hauptstraße","to":"Wallsbüll, Hauptstraße","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"#EBC800","route":"bus","public_transport:version":"2"},"n":6,"s":[[9004343925,1],[9004343926,2],[10647546828,6]]},
+  {"id":15573486,"t":{"ref":"891","name":"Bus 891: Schafflund => Weesbydamm","from":"Schafflund, Schulzentrum","to":"Weesbydamm","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":6,"s":[[9004343925,1],[9004343926,2]]},
+  {"id":15573488,"t":{"ref":"891","name":"Bus 891: Handewitt => Wallsbüll","from":"Handewitt, Schule","to":"Wallsbüll, Hauptstraße","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":5,"s":[[9004343925,2],[9004343926,3],[10647546828,5]]},
+  {"id":15573489,"t":{"ref":"891","name":"Bus 891: Wallsbüll => Schafflund => Handewitt","from":"Wallsbüll, Hauptstraße","to":"Handewitt, Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":7,"s":[[9004343925,1],[9004343926,2]]},
+  {"id":16247092,"t":{"ref":"894","name":"Bus 894: Flensburg => Schafflund => Hörup","from":"Flensburg ZOB","to":"Hörup Ortsmitte","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"grey","route":"bus","public_transport:version":"2"},"n":13,"s":[[2476423322,11]]},
+  {"id":3020154646547,"t":{"ref":"880","name":"880: Handewitt B 199 - Nordhackstedt Kirche","from":"Handewitt B 199","to":"Nordhackstedt Kirche","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6019928521113,8],[10647546834,9]]},
+  {"id":3052331039764,"t":{"ref":"890","name":"890: Wallsbüll Hauptstraße - Wallsbüll Hauptstraße","from":"Wallsbüll Hauptstraße","to":"Wallsbüll Hauptstraße","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[10647546828,1,13],[6095055408502,2],[6002959574825,3],[6092416969739,12]]},
+  {"id":3059000947561,"t":{"ref":"880","name":"880: Handewitt B 199 - Hörup Hörupfeld","from":"Handewitt B 199","to":"Hörup Hörupfeld","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[6019928521113,8],[10647546834,9]]},
+  {"id":3084814443498,"t":{"ref":"880","name":"880: Nordhackstedt Kirche - Handewitt B 199","from":"Nordhackstedt Kirche","to":"Handewitt B 199","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[10647546834,5],[6070268609346,6]]},
+  {"id":3087482692239,"t":{"ref":"100","name":"Bus 100 SchnellBus: Niebüll => Flensburg","from":"Niebüll, ZOB","to":"Flensburg, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#3C73B9","route":"bus","public_transport:version":"2"},"n":31,"s":[[3216634408,23]]},
+  {"id":3087607887067,"t":{"ref":"100","name":"Bus 100 SchnellBus: Flensburg => Niebüll","from":"Flensburg, ZOB","to":"Niebüll, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#3C73B9","route":"bus","public_transport:version":"2"},"n":32,"s":[[2476423322,10]]}
+]
+}

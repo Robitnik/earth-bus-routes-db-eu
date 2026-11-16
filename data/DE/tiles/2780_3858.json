@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2780,3858],
+"stops":[
+  {"id":3438237846,"lat":49.047869,"lon":12.947301,"k":"x","n":"Irlach, Abzw."},
+  {"id":3445165166,"lat":49.044706,"lon":12.935158,"k":"p","n":"Ayrhof"},
+  {"id":3465154387,"lat":49.046203,"lon":12.942069,"k":"x","n":"Harnberg"},
+  {"id":3473829541,"lat":49.043908,"lon":12.936768,"k":"p","n":"Ayhof Bundesstraße"},
+  {"id":9824710653,"lat":49.012823,"lon":12.903695,"k":"p","n":"Bramersberg,Allersdorf (Kr REG)"},
+  {"id":9824741576,"lat":49.019808,"lon":12.907222,"k":"p","n":"Einweging"},
+  {"id":9824741577,"lat":49.020265,"lon":12.907386,"k":"p","n":"Einweging"},
+  {"id":9835872367,"lat":49.00907,"lon":12.910719,"k":"p","n":"Allersdorf"},
+  {"id":9836092193,"lat":49.0301,"lon":12.905669,"k":"p","n":"Hilb"},
+  {"id":9836092194,"lat":49.030099,"lon":12.905435,"k":"p","n":"Hilb"},
+  {"id":6004665006281,"lat":49.019048,"lon":12.906653,"k":"p","n":"Einweging","g":1},
+  {"id":6045187986603,"lat":49.029409,"lon":12.906132,"k":"p","n":"Hilb","g":1},
+  {"id":6049041453132,"lat":49.008943,"lon":12.911863,"k":"p","n":"Allersdorf","g":1},
+  {"id":6061399998842,"lat":49.008967,"lon":12.911917,"k":"p","n":"Allersdorf","g":1},
+  {"id":6067452613685,"lat":49.019065,"lon":12.906617,"k":"p","n":"Einweging","g":1},
+  {"id":6082784565558,"lat":49.029462,"lon":12.906293,"k":"p","n":"Hilb","g":1},
+  {"id":6085034217152,"lat":49.04372,"lon":12.93397,"k":"p","n":"Ayrhof, Landgasthof","g":1}
+],
+"routes":[
+  {"id":4828618,"t":{"ref":"6195","name":"Bus RBO 6195 (01) Regen - Teisnach - Viechtach","from":"Regen Bahnhof/Busbahnhof","to":"Viechtach, Stadtplatz","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus","public_transport:version":"2"},"n":3,"s":[[3473829541,3]]},
+  {"id":4845052,"t":{"ref":"6195","name":"Bus RBO 6195 (05) Regen - Teisnach - Viechtach","from":"Regen Bahnhof/Busbahnhof","to":"Viechtach, Krankenhaus","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus","public_transport:version":"2"},"n":7,"s":[[3473829541,6]]},
+  {"id":4851219,"t":{"ref":"6195","name":"Bus RBO 6195 (13) Regen - Tesnach - Viechtach","from":"Regen Bahnhof/Busbahnhof","to":"Viechtach, Stadtplatz","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus","public_transport:version":"2"},"n":4,"s":[[3473829541,3]]},
+  {"id":4851227,"t":{"ref":"6195","name":"Bus RBO 6195 (11) Regen - Teisnach - Viechtach","from":"Regen Bahnhof/Busbahnhof","to":"Viechtach, Stadtplatz","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","route":"bus","public_transport:version":"2"},"n":5,"s":[[3473829541,4]]},
+  {"id":3005130497052,"t":{"ref":"104","name":"104: Hinterleuthen - Bramersberg, Allersdorf","from":"Hinterleuthen","to":"Bramersberg, Allersdorf","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":33,"s":[[6061399998842,32],[9824710653,33]]},
+  {"id":3013288722497,"t":{"ref":"8204","name":"8204: Viechtach, Bahnhof/ZOB - Hochpröller","from":"Viechtach, Bahnhof/ZOB","to":"Hochpröller","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":33,"s":[[6082784565558,18],[6004665006281,19],[6061399998842,20],[9824710653,21]]},
+  {"id":3019021929312,"t":{"ref":"4142","name":"Bus RBO 4142 Viechtach - Teisnach - Gotteszell - Grafling - Deggendorf","from":"Deggendorf","to":"Viechtach","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"Omnibus Seitz GmbH","route":"bus","public_transport:version":"2"},"n":38,"s":[[3473829541,4]]},
+  {"id":3050543071716,"t":{"ref":"104","name":"104: Bramersberg, Allersdorf - Hinterleuthen","from":"Bramersberg, Allersdorf","to":"Hinterleuthen","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":33,"s":[[9824710653,1],[6049041453132,2]]},
+  {"id":3050615145954,"t":{"ref":"102","name":"102: Kammersdorf, Gh. Gierl - Teisnach Busbahnhof","from":"Kammersdorf, Gh. Gierl","to":"Teisnach Busbahnhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":18,"s":[[6085034217152,7]]},
+  {"id":3077545805791,"t":{"ref":"102","name":"102: Teisnach Busbahnhof - Viechtach, Bahnhof/ZOB","from":"Teisnach Busbahnhof","to":"Viechtach, Bahnhof/ZOB","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":27,"s":[[6085034217152,12]]},
+  {"id":3089182883490,"t":{"ref":"8204","name":"8204: Hochpröller - Viechtach, Bahnhof/ZOB","from":"Hochpröller","to":"Viechtach, Bahnhof/ZOB","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":33,"s":[[9824710653,13],[6049041453132,14],[6067452613685,15],[6045187986603,16]]},
+  {"id":3096128729429,"t":{"ref":"102","name":"102: Viechtach, Bahnhof/ZOB - Teisnach Busbahnhof","from":"Viechtach, Bahnhof/ZOB","to":"Teisnach Busbahnhof","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":27,"s":[[6085034217152,16]]},
+  {"id":3097727803416,"t":{"ref":"102","name":"102: Teisnach Busbahnhof - Kammersdorf, Gh. Gierl","from":"Teisnach Busbahnhof","to":"Kammersdorf, Gh. Gierl","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":18,"s":[[6085034217152,12]]}
+]
+}

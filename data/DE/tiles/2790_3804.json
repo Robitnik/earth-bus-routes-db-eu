@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3804],
+"stops":[
+  {"id":298421106,"lat":49.540827,"lon":10.223194,"k":"x","n":"Uffenheim Bomhardschule"},
+  {"id":360890801,"lat":49.526932,"lon":10.210901,"k":"p","n":"Welbhausen","ref":"VGN Linie 837"},
+  {"id":484749436,"lat":49.546809,"lon":10.234575,"k":"p","n":"Hedwigsruh","ref":"Linie 142,832,837,838"},
+  {"id":484749441,"lat":49.546923,"lon":10.234531,"k":"p","n":"Hedwigsruh","ref":"Linie 142,832,837,838"},
+  {"id":4837206218,"lat":49.541317,"lon":10.222623,"k":"x","n":"Uffenheim Bomhardschule"},
+  {"id":5417879542,"lat":49.500349,"lon":10.229543,"k":"p"},
+  {"id":9627433601,"lat":49.527125,"lon":10.210615,"k":"p","n":"Welbhausen"},
+  {"id":10058177325,"lat":49.541278,"lon":10.222678,"k":"x","n":"Uffenheim Bomhardschule"},
+  {"id":10058177326,"lat":49.540879,"lon":10.223309,"k":"p","n":"Uffenheim Bomhardschule"},
+  {"id":10058177328,"lat":49.541213,"lon":10.222745,"k":"p","n":"Uffenheim Bomhardschule"},
+  {"id":10058417989,"lat":49.512975,"lon":10.243569,"k":"x","n":"Custenlohr"},
+  {"id":10058417994,"lat":49.513016,"lon":10.243545,"k":"p","n":"Custenlohr"},
+  {"id":10127401051,"lat":49.542645,"lon":10.232755,"k":"p","n":"Rothenburger Straße"},
+  {"id":10127401052,"lat":49.542489,"lon":10.232519,"k":"p","n":"Rothenburger Straße"},
+  {"id":10132531851,"lat":49.54496,"lon":10.223382,"k":"x","n":"Uffenheim, Grund- und Hauptschule"},
+  {"id":10132531852,"lat":49.544989,"lon":10.223347,"k":"p","n":"Uffenheim, Grund- und Hauptschule"},
+  {"id":10132645886,"lat":49.546864,"lon":10.234554,"k":"x","n":"Hedwigsruh"},
+  {"id":11077136019,"lat":49.542685,"lon":10.232669,"k":"x","n":"Rothenburger Straße"},
+  {"id":11077136020,"lat":49.542436,"lon":10.232564,"k":"x","n":"Rothenburger Straße"}
+],
+"routes":[
+  {"id":9406993,"t":{"ref":"837","name":"Regionalbus 837 Uffenheim/Bhf-Bomhardschule-Bullenheim-Adelhofen-Equarhofen-Uff/Rothenb","from":"Uffenheim","to":"Equarheim","network":"Verkehrsverbund Großraum Nürnberg","operator":"Böhm","route":"bus","public_transport:version":"2"},"n":2,"s":[[10127401051,2]]},
+  {"id":9406994,"t":{"ref":"837","name":"Regionalbus (LBT) 837 Uffenheim/Bhf-Equarhofen-Adelhofen-Uff/Bhf","from":"Uffenheim","to":"Equarheim","network":"Verkehrsverbund Großraum Nürnberg","operator":"Böhm","route":"bus","public_transport:version":"2"},"n":10,"s":[[10127401052,2],[9627433601,3]]},
+  {"id":9407932,"t":{"ref":"837","name":"Regionalbus 837 Uffenheim/Bhf-Adelhofen-Walkershofen-Equarhofen-Uff/Schulen-Uff/Bhf","from":"Uffenheim","to":"Equarheim","network":"Verkehrsverbund Großraum Nürnberg","operator":"Böhm","route":"bus","public_transport:version":"2"},"n":4,"s":[[10058177328,2],[10132531852,3]]},
+  {"id":14728691,"t":{"ref":"838","name":"Regionalbus 838: Uffenheim - Markt Nordheim - Reusch - Uffenheim","from":"Uffenheim","to":"Reusch","network":"Verkehrsverbund Großraum Nürnberg","operator":"Böhm","route":"bus"},"n":14,"s":[[10127401052,3],[10127401051,4]]},
+  {"id":14743123,"t":{"ref":"142","name":"Regionalbus 142: Scheinfeld - Uffenheim","from":"Scheinfeld","to":"Uffenheim","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":9,"s":[[484749441,9]]},
+  {"id":14743124,"t":{"ref":"142","name":"Regionalbus 142: Uffenheim - Sugenheim","from":"Uffenheim","to":"Sugenheim","network":"Verkehrsverbund Großraum Nürnberg","operator":"OVF","route":"bus","public_transport:version":"2"},"n":11,"s":[[484749436,1]]},
+  {"id":16143303,"t":{"ref":"192","name":"Bus 192: Bad Windsheim => Uffenheim","from":"Bad Windsheim Bahnhof","to":"Uffenheim Bomhardschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Thürauf GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[10127401052,13],[10058177328,14]]},
+  {"id":16143412,"t":{"ref":"192","name":"Bus 192: Bad Windsheim => Uffenheim","from":"Bad Windsheim Bahnhof","to":"Uffenheim Rothenburger Straße","network":"Verkehrsverbund Großraum Nürnberg","operator":"Thürauf GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[10132531852,16],[10058177328,17],[10127401051,18]]},
+  {"id":18383927,"t":{"ref":"834","name":"Bus 834: Uffenheim Bahnhof => Geißlingen","from":"Uffenheim Bahnhof","to":"Geißlingen","network":"Verkehrsverbund Großraum Nürnberg","operator":"Schmidt Reisen","route":"bus"},"n":14,"s":[[10127401052,2],[10058177328,3]]},
+  {"id":18631923,"t":{"ref":"834","name":"Bus 834: Rodheim => Uffenheim Bahnhof","from":"Rodheim","to":"Uffenheim Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Schmidt Reisen","route":"bus"},"n":14,"s":[[10058177328,12],[10127401051,13]]}
+]
+}

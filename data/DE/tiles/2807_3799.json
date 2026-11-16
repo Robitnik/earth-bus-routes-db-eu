@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2807,3799],
+"stops":[
+  {"id":590059046,"lat":50.387429,"lon":9.975476,"k":"p","n":"Kreuzberg Feriensiedlung"},
+  {"id":590059050,"lat":50.381627,"lon":9.978367,"k":"p","n":"Kreuzberg Gasthaus Roth"},
+  {"id":2538719965,"lat":50.371727,"lon":9.976493,"k":"p","n":"Kreuzberg Kloster"},
+  {"id":3157133215,"lat":50.374227,"lon":9.976263,"k":"p","n":"Kreuzberg Parkplatz"},
+  {"id":8231857537,"lat":50.387199,"lon":9.974746,"k":"p","n":"Kreuzberg Sinnquelle"},
+  {"id":8231857565,"lat":50.398596,"lon":9.97747,"k":"p","n":"Osterburg Wanderweg"},
+  {"id":8231857566,"lat":50.398553,"lon":9.977477,"k":"x","n":"Osterburg"},
+  {"id":8398362544,"lat":50.374213,"lon":9.976189,"k":"x","n":"Parkplatz"},
+  {"id":8520303652,"lat":50.387182,"lon":9.974844,"k":"x","n":"Kreuzberg Sinnquelle"},
+  {"id":8520303653,"lat":50.387411,"lon":9.97532,"k":"x","n":"Feriensiedlung"},
+  {"id":8520303654,"lat":50.388138,"lon":9.975138,"k":"x","n":"Feriensiedlung"},
+  {"id":8520303655,"lat":50.388138,"lon":9.975049,"k":"p","n":"Kreuzberg Feriensiedlung"},
+  {"id":9032662242,"lat":50.394985,"lon":9.996213,"k":"p","n":"Haselbach Kriegerdenkmal"},
+  {"id":9055480754,"lat":50.39878,"lon":9.97494,"k":"p","n":"Osterburg Wanderweg"},
+  {"id":13849466028,"lat":50.381637,"lon":9.978251,"k":"x","n":"Kreuzberg Gasthaus Roth"},
+  {"id":6006432659526,"lat":50.374603,"lon":9.976609,"k":"p","n":"Kreuzberg Parkplatz","g":1}
+],
+"routes":[
+  {"id":8527707,"t":{"ref":"815","name":"Bus 815: Bischofsheim => Fladungen","from":"Bischofsheim","to":"Fladungen","network":"Hochrhönbus;Verkehrsgemeinschaft Rhön-Grabfeld","operator":"Hochrhönbus;Omnibusverkehr Bischofsheim GmbH","route":"bus","public_transport:version":"1"},"n":7,"s":[[590059046,3],[590059050,4],[3157133215,6]]},
+  {"id":20707566,"t":{"ref":"725","name":"Bus 725: Bad Brückenau -> Kreuzberg","from":"Bad Brückenau Bahnhof","to":"Kreuzberg Parkplatz","network":"Nahverkehr Mainfranken","operator":"KOB GmbH","colour":"#c00a26","route":"bus","public_transport:version":"2"},"n":18,"s":[[8231857537,17],[3157133215,18]]},
+  {"id":20707573,"t":{"ref":"725","name":"Bus 725: Kreuzberg -> Bad Brückenau","from":"Bischofsheim Kreuzberg Parkplatz","to":"Bad Brückenau Bahnhof","network":"Nahverkehr Mainfranken","operator":"KOB GmbH","colour":"#c00a26","route":"bus","public_transport:version":"2"},"n":19,"s":[[3157133215,1],[590059050,2],[8231857537,3]]},
+  {"id":3002542665819,"t":{"ref":"812","name":"812: Kreuzberg Parkplatz - Bischofsheim (Rhön) Post","from":"Kreuzberg Parkplatz","to":"Bischofsheim (Rhön) Post","operator":"Strasse","route":"bus","public_transport:version":"2"},"n":7,"s":[[6006432659526,1],[13849466028,2],[8520303653,3],[9055480754,4]]},
+  {"id":3091164927383,"t":{"ref":"812","name":"812: Bischofsheim (Rhön) Post - Kreuzberg Parkplatz","from":"Bischofsheim (Rhön) Post","to":"Kreuzberg Parkplatz","operator":"Strasse","route":"bus","public_transport:version":"2"},"n":6,"s":[[8231857566,4],[8520303653,5],[6006432659526,6]]}
+]
+}

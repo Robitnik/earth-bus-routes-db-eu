@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3891],
+"stops":[
+  {"id":981760423,"lat":51.581013,"lon":14.589574,"k":"p","n":"Mitte"},
+  {"id":1585250152,"lat":51.582615,"lon":14.570665,"k":"x","n":"Horlitza, Kreuzung Friedrichshain-Groß Düben"},
+  {"id":1586459568,"lat":51.56388,"lon":14.570065,"k":"x","n":"Groß Düben Dorf"},
+  {"id":1936643838,"lat":51.563893,"lon":14.569832,"k":"p","n":"Groß Düben Dorf"},
+  {"id":1936643839,"lat":51.563839,"lon":14.57035,"k":"p","n":"Groß Düben Dorf"},
+  {"id":1936643840,"lat":51.564232,"lon":14.562352,"k":"p","n":"Groß Düben Wasserwerk"},
+  {"id":6423441352,"lat":51.570373,"lon":14.568655,"k":"p","n":"Groß Düben Mitte"},
+  {"id":6589590780,"lat":51.58256,"lon":14.570656,"k":"p","n":"Kreuzung Friedrichshain-Groß Düben"},
+  {"id":6589590781,"lat":51.582722,"lon":14.571062,"k":"p","n":"Kreuzung Friedrichshain-Groß Düben"},
+  {"id":6684296243,"lat":51.58141,"lon":14.562605,"k":"p","n":"Grubenteiche"},
+  {"id":6700595928,"lat":51.581707,"lon":14.592929,"k":"p","n":"Wolfshain, Schule"},
+  {"id":8789165751,"lat":51.564307,"lon":14.562684,"k":"p","n":"Groß Düben Wasserwerk"},
+  {"id":9601733294,"lat":51.580406,"lon":14.589981,"k":"p","n":"Mitte"},
+  {"id":9601733295,"lat":51.580492,"lon":14.590001,"k":"x","n":"Wolfshain, Mitte"},
+  {"id":9601733296,"lat":51.580986,"lon":14.589443,"k":"x","n":"Wolfshain, Mitte"},
+  {"id":9601733298,"lat":51.582656,"lon":14.571095,"k":"x","n":"Horlitza, Kreuzung Friedrichshain-Groß Düben"},
+  {"id":9601733299,"lat":51.581513,"lon":14.562964,"k":"x","n":"Horlitza, Grubenteiche"},
+  {"id":9601733300,"lat":51.581454,"lon":14.562577,"k":"x","n":"Horlitza, Grubenteiche"},
+  {"id":9601733301,"lat":51.581558,"lon":14.562952,"k":"p","n":"Grubenteiche"}
+],
+"routes":[
+  {"id":3012767481512,"t":{"ref":"879","name":"879: Döbern, Deutsches Haus - Spremberg, Busbahnhof","from":"Döbern, Deutsches Haus","to":"Spremberg, Busbahnhof","operator":"Spree-Neiße-Cottbusverkehr","route":"bus","public_transport:version":"2"},"n":13,"s":[[9601733298,5],[9601733301,6]]},
+  {"id":3014275040413,"t":{"ref":"856","name":"Bus 856: Hornow Abzweig Bohsdorf => Döbern Schulzentrum","from":"Hornow, Abzweig Bohsdorf","to":"Döbern, Schulzentrum","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":16,"s":[[9601733300,7],[9601733298,8],[9601733295,9]]},
+  {"id":3015377798543,"t":{"ref":"78","name":"TaktBus 78: Schleife => Groß Düben => Gablenz => Weißwasser","from":"Schleife Mühle","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":17,"s":[[1586459568,6,8],[6423441352,7]]},
+  {"id":3022658828740,"t":{"ref":"78","name":"TaktBus 78: Weißwasser => Gablenz => Groß Düben => Schleife","from":"Weißwasser Bahnhof","to":"Schleife Mühle","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":18,"s":[[1936643839,11],[6423441352,12],[1586459568,13]]},
+  {"id":3023146308123,"t":{"ref":"856","name":"Bus 856: Döbern Deutsches Haus => Hornow Abzweig Bohsdorf","from":"Döbern, Deutsches Haus","to":"Hornow, Abzweig Bohsdorf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":16,"s":[[981760423,8],[9601733298,9],[9601733301,10]]},
+  {"id":3026910355602,"t":{"ref":"879","name":"879: Döbern, Deutsches Haus - Spremberg, Busbahnhof","from":"Döbern, Deutsches Haus","to":"Spremberg, Busbahnhof","operator":"Spree-Neiße-Cottbusverkehr","route":"bus","public_transport:version":"2"},"n":13,"s":[[9601733298,5],[9601733301,6]]},
+  {"id":3032800343102,"t":{"ref":"856","name":"Bus 856: Döbern Deutsches Haus => Hornow Abzweig Bohsdorf","from":"Döbern, Deutsches Haus","to":"Hornow, Abzweig Bohsdorf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":17,"s":[[981760423,9],[9601733298,10],[9601733301,11]]},
+  {"id":3045630696596,"t":{"ref":"879","name":"879: Spremberg, Busbahnhof - Döbern, Deutsches Haus","from":"Spremberg, Busbahnhof","to":"Döbern, Deutsches Haus","operator":"Spree-Neiße-Cottbusverkehr","route":"bus","public_transport:version":"2"},"n":13,"s":[[9601733300,8],[9601733298,9]]},
+  {"id":3050646183890,"t":{"ref":"856","name":"Bus 856: Hornow Abzweig Bohsdorf => Döbern Schulzentrum","from":"Hornow, Abzweig Bohsdorf","to":"Döbern, Schulzentrum","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":16,"s":[[9601733300,7],[9601733298,8],[9601733295,9]]},
+  {"id":3051717528428,"t":{"ref":"78","name":"TaktBus 78: Schleife => Groß Düben => Gablenz => Weißwasser","from":"Schleife Mühle","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":16,"s":[[8789165751,5],[6423441352,6],[1586459568,7]]},
+  {"id":3062625507315,"t":{"ref":"879","name":"879: Spremberg, Busbahnhof - Döbern, Deutsches Haus","from":"Spremberg, Busbahnhof","to":"Döbern, Deutsches Haus","operator":"Spree-Neiße-Cottbusverkehr","route":"bus","public_transport:version":"2"},"n":13,"s":[[9601733300,8],[9601733298,9]]},
+  {"id":3073521320131,"t":{"ref":"78","name":"TaktBus 78: Schleife => Groß Düben => Gablenz => Weißwasser","from":"Schleife Mühle","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":18,"s":[[8789165751,7],[6423441352,8],[1586459568,9]]},
+  {"id":3084661865039,"t":{"ref":"78","name":"TaktBus 78: Weißwasser => Gablenz => Groß Düben => Schleife","from":"Weißwasser Bahnhof","to":"Schleife Mühle","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":17,"s":[[1936643839,11],[6423441352,12],[1936643840,13]]},
+  {"id":3084992933275,"t":{"ref":"856","name":"Bus 856: Döbern Deutsches Haus => Hornow Abzweig Bohsdorf","from":"Döbern, Deutsches Haus","to":"Hornow, Abzweig Bohsdorf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":17,"s":[[981760423,9],[9601733298,10],[9601733301,11]]},
+  {"id":3086564586614,"t":{"ref":"856","name":"Bus 856: Döbern Deutsches Haus => Hornow Abzweig Bohsdorf","from":"Döbern, Deutsches Haus","to":"Hornow, Abzweig Bohsdorf","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":16,"s":[[981760423,8],[9601733298,9],[9601733301,10]]}
+]
+}

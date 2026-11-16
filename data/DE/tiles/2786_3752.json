@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2786,3752],
+"stops":[
+  {"id":3161685240,"lat":49.310521,"lon":7.616699,"k":"p","n":"Lichtenberger Hof"},
+  {"id":3161685241,"lat":49.322921,"lon":7.627319,"k":"p","n":"Hermersberg, Kirche"},
+  {"id":3161685242,"lat":49.323367,"lon":7.627177,"k":"p","n":"Hermersberg, Hauptstraße"},
+  {"id":3161685243,"lat":49.33415,"lon":7.605876,"k":"p","n":"Weselberg, Kirche"},
+  {"id":3161685244,"lat":49.33903,"lon":7.607826,"k":"p","n":"Weselberg, Wasserturm"},
+  {"id":8919307234,"lat":49.334246,"lon":7.60585,"k":"p","n":"Weselberg Kirche"},
+  {"id":8919307235,"lat":49.338981,"lon":7.607721,"k":"p","n":"Weselberg, Wasserturm"},
+  {"id":9016807686,"lat":49.310521,"lon":7.616511,"k":"p","n":"Lichtenberger Hof"},
+  {"id":9016807687,"lat":49.323313,"lon":7.627099,"k":"p","n":"Hermersberg Hauptstraße"},
+  {"id":9016807688,"lat":49.322967,"lon":7.627219,"k":"p","n":"Hermersberg Kirche"},
+  {"id":14123154253,"lat":49.32162,"lon":7.632219,"k":"x","n":"Hermersberg, Bahnhofstraße"},
+  {"id":14123154255,"lat":49.321816,"lon":7.632583,"k":"x","n":"Hermersberg, Bahnhofstraße"},
+  {"id":14123154256,"lat":49.338973,"lon":7.607775,"k":"x","n":"Weselberg, Wasserturm"},
+  {"id":14145426675,"lat":49.339032,"lon":7.60779,"k":"x","n":"Weselberg, Wasserturm"},
+  {"id":6048880190562,"lat":49.338751,"lon":7.607006,"k":"p","n":"Weselberg, Kindergarten","g":1},
+  {"id":6049946057175,"lat":49.324994,"lon":7.630622,"k":"p","n":"Hermersberg, Grundschule","g":1}
+],
+"routes":[
+  {"id":4153327,"t":{"ref":"244","name":"Bus 244: Waldfischbach => Weselberg","from":"Waldfischbach, Bahnhof","to":"Weselberg, Wasserturm","network":"Verkehrsverbund Rhein-Neckar","operator":"Queichtal Nahverkehsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[3161685240,4],[3161685241,5],[3161685242,6],[3161685243,7],[3161685244,8]]},
+  {"id":12954982,"t":{"ref":"161","name":"Bus 161: Kaiserslautern => Saalstadt","from":"Kaiserslautern Hbf.","to":"Saalstadt","network":"Verkehrsverbund Rhein-Neckar","operator":"Queichtal Nahverkehsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[8919307235,17],[8919307234,18]]},
+  {"id":12955152,"t":{"ref":"161","name":"Bus 161: Weselberg => Landstuhl","from":"Weselberg, Wasserturm","to":"Landstuhl, Von-Richthofen-Str.","network":"Verkehrsverbund Rhein-Neckar","operator":"Queichtal Nahverkehsgesellschaft GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[8919307235,1],[8919307234,2],[9016807687,3]]},
+  {"id":13103032,"t":{"ref":"245","name":"Bus 245: Pirmasens => Hermersberg => Wallhalben","from":"Pirmasens, Hauptbahnhof","to":"Wallhalben, ZOB","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":37,"s":[[3161685240,22],[3161685241,23],[3161685242,24],[8919307235,25],[8919307234,26]]},
+  {"id":13103159,"t":{"ref":"245","name":"Bus 245: Wallhalben => Hermersberg => Pirmasens","from":"Wallhalben, ZOB","to":"Pirmasens, Exerzierplatz","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":35,"s":[[8919307235,12],[8919307234,13],[9016807687,14],[9016807688,15],[9016807686,16]]},
+  {"id":3002200093758,"t":{"ref":"2586","name":"2586: Wallhalben, ZOB - Pirmasens, Hauptbahnhof","from":"Wallhalben, ZOB","to":"Pirmasens, Hauptbahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[8919307234,17],[6048880190562,18],[14123154256,19]]},
+  {"id":3003122137766,"t":{"ref":"2586","name":"2586: Pirmasens, Hauptbahnhof - Wallhalben, ZOB","from":"Pirmasens, Hauptbahnhof","to":"Wallhalben, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[14123154256,12],[6048880190562,13],[8919307234,14]]},
+  {"id":3006970184684,"t":{"ref":"2582","name":"2582: Horbach, Dorfplatz - Waldfischbach, Bahnhof","from":"Horbach, Dorfplatz","to":"Waldfischbach, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":23,"s":[[6049946057175,4],[14123154255,5],[3161685241,6],[3161685242,7]]},
+  {"id":3039215518926,"t":{"ref":"2582","name":"2582: Waldfischbach, Bahnhof - Horbach, Am Zollstock","from":"Waldfischbach, Bahnhof","to":"Horbach, Am Zollstock","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":23,"s":[[9016807687,17],[9016807688,18],[14123154253,19],[6049946057175,20]]},
+  {"id":3050649501150,"t":{"ref":"2582","name":"2582: Pirmasens, Hauptbahnhof - Steinalben, Lindenstraße","from":"Pirmasens, Hauptbahnhof","to":"Steinalben, Lindenstraße","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":31,"s":[[9016807687,21],[9016807688,22],[14123154253,23],[6049946057175,24]]}
+]
+}

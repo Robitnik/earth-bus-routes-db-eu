@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3851],
+"stops":[
+  {"id":277917906,"lat":51.36602,"lon":12.562092,"k":"x","n":"Cunnersdorf","ref":"0966"},
+  {"id":434685066,"lat":51.351359,"lon":12.557233,"k":"p","n":"Borsdorf (Sachsen), Am Wasserturm"},
+  {"id":1214920362,"lat":51.353114,"lon":12.586974,"k":"x","n":"Gerichshain, S-Bahnhof"},
+  {"id":7237371940,"lat":51.355988,"lon":12.580393,"k":"p","n":"Gerichshain, Leipziger Straße"},
+  {"id":7237371941,"lat":51.355934,"lon":12.580441,"k":"x","n":"Gerichshain, Leipziger Straße"},
+  {"id":7237371942,"lat":51.355994,"lon":12.580636,"k":"x","n":"Gerichshain, Leipziger Straße"},
+  {"id":7237371943,"lat":51.35595,"lon":12.58076,"k":"p","n":"Gerichshain, Leipziger Straße"},
+  {"id":7683231969,"lat":51.366058,"lon":12.562094,"k":"p","n":"Cunnersdorf"},
+  {"id":10154582737,"lat":51.351644,"lon":12.5577,"k":"p","n":"Borsdorf, Leipziger Straße/Am Wasserturm"},
+  {"id":10154582738,"lat":51.351579,"lon":12.557734,"k":"x","n":"Borsdorf, Leipziger Straße/Am Wasserturm"},
+  {"id":6007360890460,"lat":51.358573,"lon":12.589356,"k":"p","n":"Gerichshain (Machern), Johannesring","g":1},
+  {"id":6012425147083,"lat":51.358481,"lon":12.589218,"k":"p","n":"Gerichshain (Machern), Johannesring","g":1},
+  {"id":6027186793618,"lat":51.354619,"lon":12.575595,"k":"p","n":"Gerichshain (Machern), Gewerbegebiet","g":1},
+  {"id":6089179917259,"lat":51.354731,"lon":12.575417,"k":"p","n":"Gerichshain (Machern), Gewerbegebiet","g":1}
+],
+"routes":[
+  {"id":9269507,"t":{"ref":"+689","name":"PlusBus 689: Gerichshain => Brandis, Fachklinikum","from":"Gerichshain, S-Bahnhof","to":"Brandis, Fachklinikum","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[1214920362,1]]},
+  {"id":9269508,"t":{"ref":"+689","name":"PlusBus 689: Brandis, Fachklinikum => Gerichshain","from":"Brandis, Fachklinikum","to":"Gerichshain, S-Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[1214920362,14]]},
+  {"id":11982461,"t":{"ref":"691","name":"Bus 691: Wurzen => Leipzig","from":"Wurzen, Clara-Zetkin-Platz","to":"Leipzig, Sommerfeld","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[7237371940,7],[10154582737,8]]},
+  {"id":11983247,"t":{"ref":"691","name":"Bus 691: Leipzig => Wurzen","from":"Leipzig, Sommerfeld","to":"Wurzen, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[7237371943,6]]},
+  {"id":3002686947977,"t":{"ref":"689","name":"689: Gerichshain (Machern), S-Bahnhof (Bus) - Beucha (Brandis), Bahnhof (Bus)","from":"Gerichshain (Machern), S-Bahnhof (Bus)","to":"Beucha (Brandis), Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[1214920362,1]]},
+  {"id":3005088618491,"t":{"ref":"691","name":"691: Wurzen, Bahnhof (Bus) - Borsdorf (Sachsen), Bahnhof (Bus)","from":"Wurzen, Bahnhof (Bus)","to":"Borsdorf (Sachsen), Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[6007360890460,19],[7237371942,20],[6089179917259,21],[10154582737,22]]},
+  {"id":3015656566216,"t":{"ref":"689","name":"689: Gerichshain (Machern), S-Bahnhof (Bus) - Brandis (b. Wurzen), Markt","from":"Gerichshain (Machern), S-Bahnhof (Bus)","to":"Brandis (b. Wurzen), Markt","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[1214920362,1]]},
+  {"id":3018592629972,"t":{"ref":"689","name":"689: Beucha (Brandis), Bahnhof (Bus) - Gerichshain (Machern), S-Bahnhof (Bus)","from":"Beucha (Brandis), Bahnhof (Bus)","to":"Gerichshain (Machern), S-Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1214920362,10]]},
+  {"id":3026606255287,"t":{"ref":"689","name":"689: Beucha (Brandis), Bahnhof (Bus) - Gerichshain (Machern), S-Bahnhof (Bus)","from":"Beucha (Brandis), Bahnhof (Bus)","to":"Gerichshain (Machern), S-Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[1214920362,15]]},
+  {"id":3040376379042,"t":{"ref":"683","name":"683: Brandis (b. Wurzen), Schulzentrum - Machern (Sachsen), Schule","from":"Brandis (b. Wurzen), Schulzentrum","to":"Machern (Sachsen), Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[6007360890460,5],[7237371942,6],[6089179917259,7]]},
+  {"id":3058866503948,"t":{"ref":"689","name":"689: Brandis (b. Wurzen), Markt - Gerichshain (Machern), S-Bahnhof (Bus)","from":"Brandis (b. Wurzen), Markt","to":"Gerichshain (Machern), S-Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[1214920362,7]]},
+  {"id":3071640454641,"t":{"ref":"691","name":"691: Borsdorf (Sachsen), Bahnhof (Bus) - Wurzen, Bahnhof (Bus)","from":"Borsdorf (Sachsen), Bahnhof (Bus)","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[434685066,3],[6027186793618,4],[7237371943,5],[6012425147083,6]]},
+  {"id":3078813179101,"t":{"ref":"689","name":"689: Gerichshain (Machern), S-Bahnhof (Bus) - Brandis (b. Wurzen), MEDIAN-Klinik","from":"Gerichshain (Machern), S-Bahnhof (Bus)","to":"Brandis (b. Wurzen), MEDIAN-Klinik","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[1214920362,1]]},
+  {"id":3082978200564,"t":{"ref":"689","name":"689: Gerichshain (Machern), S-Bahnhof (Bus) - Beucha (Brandis), Bahnhof (Bus)","from":"Gerichshain (Machern), S-Bahnhof (Bus)","to":"Beucha (Brandis), Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[1214920362,1]]},
+  {"id":3085088767389,"t":{"ref":"691","name":"691: Leipzig, Sommerfeld - Wurzen, Bahnhof (Bus)","from":"Leipzig, Sommerfeld","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[434685066,9],[6027186793618,10],[7237371943,11],[6012425147083,12]]},
+  {"id":3094548496058,"t":{"ref":"689","name":"689: Brandis (b. Wurzen), MEDIAN-Klinik - Gerichshain (Machern), S-Bahnhof (Bus)","from":"Brandis (b. Wurzen), MEDIAN-Klinik","to":"Gerichshain (Machern), S-Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[1214920362,12]]}
+]
+}

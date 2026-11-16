@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2846,3824],
+"stops":[
+  {"id":738951967,"lat":52.330653,"lon":11.234281,"k":"x","n":"Flechtingen, Park"},
+  {"id":2117439479,"lat":52.332397,"lon":11.238866,"k":"x","n":"Flechtingen, Lindenplatz"},
+  {"id":2117439480,"lat":52.332439,"lon":11.238867,"k":"p","n":"Flechtingen, Lindenplatz"},
+  {"id":2117439481,"lat":52.330665,"lon":11.234435,"k":"p","n":"Flechtingen, Park"},
+  {"id":2117439484,"lat":52.330682,"lon":11.234246,"k":"p","n":"Flechtingen, Park"},
+  {"id":2595663263,"lat":52.332355,"lon":11.239012,"k":"p","n":"Flechtingen, Lindenplatz"},
+  {"id":2623805536,"lat":52.332394,"lon":11.239025,"k":"x","n":"Flechtingen, Lindenplatz"},
+  {"id":2623805537,"lat":52.330693,"lon":11.234399,"k":"x","n":"Flechtingen, Park"},
+  {"id":2623805538,"lat":52.32971,"lon":11.245638,"k":"p","n":"Flechtingen, Schule"},
+  {"id":2623805539,"lat":52.329752,"lon":11.245682,"k":"x","n":"Flechtingen, Schule"},
+  {"id":2623805540,"lat":52.32979,"lon":11.245725,"k":"p","n":"Flechtingen, Schule"},
+  {"id":6016359942216,"lat":52.332419,"lon":11.238125,"k":"p","n":"Flechtingen, Lindenplatz","g":1},
+  {"id":6047369156042,"lat":52.32925,"lon":11.244467,"k":"p","n":"Flechtingen, Schule","g":1}
+],
+"routes":[
+  {"id":3322462,"t":{"ref":"619","name":"Bus 619: Döhren => Haldensleben","from":"Döhren","to":"Haldensleben, ZOB","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[2117439481,12],[2595663263,13],[2623805538,14]]},
+  {"id":3340063,"t":{"ref":"632","name":"Bus 632: Haldensleben => Oebisfelde","from":"Haldensleben, ZOB","to":"Oebisfelde, Schule","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[2623805540,7]]},
+  {"id":3340066,"t":{"ref":"632","name":"Bus 632: Oebisfelde => Haldensleben","from":"Oebisfelde, Schule","to":"Haldensleben, ZOB","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[2623805538,12]]},
+  {"id":3476399,"t":{"ref":"643","name":"Bus 643: Bülstringen => Calvörde","from":"Bülstringen","to":"Calvörde, Markt","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2623805540,4]]},
+  {"id":3476400,"t":{"ref":"643","name":"Bus 643: Grauingen => Flechtingen","from":"Grauingen","to":"Flechtingen, Schule","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[2623805540,4]]},
+  {"id":3476403,"t":{"ref":"643","name":"Bus 643: Wegenstedt => Flechtingen","from":"Wegenstedt, Schule","to":"Flechtingen, Schule","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[2623805540,12]]},
+  {"id":3005225963539,"t":{"ref":"634","name":"634: Erxleben (Lkr. Börde) - Flechtingen, Lindenplatz","from":"Erxleben (Lkr. Börde)","to":"Flechtingen, Lindenplatz","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6047369156042,5],[6016359942216,6]]},
+  {"id":3031204281935,"t":{"ref":"619","name":"Bus 619: Haldensleben => Döhren","from":"Haldensleben, ZOB","to":"Döhren","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[738951967,12],[2117439479,13],[6047369156042,14]]},
+  {"id":3076668299175,"t":{"ref":"634","name":"634: Flechtingen, Lindenplatz - Erxleben (Lkr. Börde)","from":"Flechtingen, Lindenplatz","to":"Erxleben (Lkr. Börde)","operator":"BördeBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2117439479,1],[6047369156042,2]]},
+  {"id":3084031880287,"t":{"ref":"619","name":"Bus 619: Haldensleben => Döhren","from":"Haldensleben, ZOB","to":"Döhren","operator":"OhreBus Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6047369156042,7],[6016359942216,8],[2117439484,9]]}
+]
+}

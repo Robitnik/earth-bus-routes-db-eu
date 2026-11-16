@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2857,3811],
+"stops":[
+  {"id":486093743,"lat":52.881148,"lon":10.582522,"k":"x","n":"Nettelkamp"},
+  {"id":1933947150,"lat":52.881105,"lon":10.58251,"k":"p","n":"Nettelkamp"},
+  {"id":2086405237,"lat":52.868039,"lon":10.573114,"k":"p","n":"Kallenbrock"},
+  {"id":7833733192,"lat":52.868095,"lon":10.573287,"k":"p","n":"Kallenbrock"},
+  {"id":7833733193,"lat":52.868108,"lon":10.573246,"k":"x","n":"Kallenbrock"},
+  {"id":7833733194,"lat":52.86802,"lon":10.573156,"k":"x","n":"Kallenbrock"},
+  {"id":9688734821,"lat":52.881109,"lon":10.582929,"k":"x","n":"Nettelkamp"},
+  {"id":9688734822,"lat":52.881167,"lon":10.582939,"k":"p","n":"Nettelkamp"},
+  {"id":12557920683,"lat":52.874574,"lon":10.556676,"k":"x","n":"Stadensen"},
+  {"id":12597043609,"lat":52.874569,"lon":10.556736,"k":"p","n":"Stadensen"}
+],
+"routes":[
+  {"id":3032954595481,"t":{"ref":"7037","name":"7037: Nienwohlde - Stadensen","from":"Nienwohlde","to":"Stadensen","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[7833733194,2],[12557920683,3]]},
+  {"id":3052651724540,"t":{"ref":"7037","name":"7037: Stadensen - Nienwohlde","from":"Stadensen","to":"Nienwohlde","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[12557920683,1],[7833733194,2]]},
+  {"id":3061954658765,"t":{"ref":"7030","name":"7030: Stadensen - Uelzen ZOB","from":"Stadensen","to":"Uelzen ZOB","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[12557920683,1],[9688734821,2]]},
+  {"id":3080564768153,"t":{"ref":"7030","name":"7030: Uelzen ZOB - Nienwohlde","from":"Uelzen ZOB","to":"Nienwohlde","operator":"Regionalbus Braunschweig GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[9688734821,23],[12557920683,24],[7833733194,25]]}
+]
+}

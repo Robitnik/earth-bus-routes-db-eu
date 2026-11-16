@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2809,3757],
+"stops":[
+  {"id":419249636,"lat":50.474075,"lon":7.859969,"k":"p","n":"Boden Meudter Straße"},
+  {"id":970176331,"lat":50.480965,"lon":7.899424,"k":"p"},
+  {"id":970176339,"lat":50.480848,"lon":7.899881,"k":"p"},
+  {"id":1013133105,"lat":50.493075,"lon":7.896918,"k":"p","n":"Meudt Kirchstraße"},
+  {"id":1013136849,"lat":50.492912,"lon":7.897047,"k":"p","n":"Meudt Kirchstraße"},
+  {"id":1013141799,"lat":50.491545,"lon":7.8966,"k":"p"},
+  {"id":1013141804,"lat":50.491554,"lon":7.896784,"k":"p"},
+  {"id":1038070872,"lat":50.479511,"lon":7.899477,"k":"p"},
+  {"id":1038072002,"lat":50.479394,"lon":7.899659,"k":"p"},
+  {"id":3305870109,"lat":50.450259,"lon":7.86345,"k":"p","n":"Heiligenroth Ortsmitte"},
+  {"id":3305870110,"lat":50.454194,"lon":7.869175,"k":"p","n":"Rasthaus, Heiligenroth"},
+  {"id":3305873651,"lat":50.450482,"lon":7.853794,"k":"p","n":"real Heiligenroth"},
+  {"id":10588708877,"lat":50.472012,"lon":7.858715,"k":"p","n":"Schule"},
+  {"id":10816655078,"lat":50.455117,"lon":7.869685,"k":"p"},
+  {"id":11399071253,"lat":50.493184,"lon":7.861333,"k":"p","n":"Niederahr Mitte"},
+  {"id":11399071254,"lat":50.493442,"lon":7.861288,"k":"p","n":"Niederahr Mitte"},
+  {"id":12953943499,"lat":50.493073,"lon":7.896977,"k":"x","n":"Meudt Kirchstraße"},
+  {"id":12953943500,"lat":50.492908,"lon":7.897005,"k":"x","n":"Meudt Kirchstraße"},
+  {"id":13391177295,"lat":50.474076,"lon":7.859894,"k":"x","n":"Boden Meudter Straße"}
+],
+"routes":[
+  {"id":13271682,"t":{"ref":"460","name":"Bus 460: Westerburg Bahnhof => Montabaur Bahnhof => Koblenz Hauptbahnhof","from":"Westerburg Bahnhof","to":"Koblenz Hauptbahnhof","network":"VRM","operator":"Griesar Reisen GmbH","colour":"#e5007d","route":"bus","public_transport:version":"2"},"n":21,"s":[[1013133105,6],[419249636,7]]},
+  {"id":13271694,"t":{"ref":"460","name":"Bus 460: Koblenz Hauptbahnhof => Montabaur Bahnhof => Westerburg Bahnhof","from":"Koblenz, Hauptbahnhof","to":"Westerburg Bahnhof","network":"VRM","operator":"Griesar Reisen GmbH","colour":"#e5007d","route":"bus","public_transport:version":"2"},"n":21,"s":[[419249636,15],[1013136849,16]]},
+  {"id":3020998110769,"t":{"ref":"460","name":"Bus 460: Westerburg Bahnhof => Montabaur Bahnhof => Ehrenbreitstein => Koblenz Hauptbahnhof","from":"Westerburg Bahnhof","to":"Koblenz Hauptbahnhof","network":"VRM","operator":"Griesar Reisen GmbH","colour":"#e5007d","route":"bus","public_transport:version":"2"},"n":29,"s":[[13391177295,6]]},
+  {"id":3073741605362,"t":{"ref":"492","name":"492: Boden Meudter Straße - Hadamar Bahnhof","from":"Boden Meudter Straße","to":"Hadamar Bahnhof","operator":"ww mobility GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[13391177295,1],[12953943499,2]]},
+  {"id":3077005976078,"t":{"ref":"460","name":"Bus 460: Koblenz Hauptbahnhof => Ehrenbreitstein => Montabaur Bahnhof => Westerburg Bahnhof","from":"Koblenz Hauptbahnhof","to":"Westerburg Bahnhof","network":"VRM","operator":"Griesar Reisen GmbH","colour":"#e5007d","route":"bus","public_transport:version":"2"},"n":30,"s":[[13391177295,25]]},
+  {"id":3079501180240,"t":{"ref":"492","name":"492: Hadamar Bahnhof - Boden Meudter Straße","from":"Hadamar Bahnhof","to":"Boden Meudter Straße","operator":"ww mobility GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[12953943499,16],[13391177295,17]]}
+]
+}

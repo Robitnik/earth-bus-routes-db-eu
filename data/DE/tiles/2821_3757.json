@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2821,3757],
+"stops":[
+  {"id":867293708,"lat":51.088955,"lon":7.886253,"k":"p"},
+  {"id":867293733,"lat":51.083152,"lon":7.880741,"k":"p","n":"Bremge"},
+  {"id":869346445,"lat":51.091643,"lon":7.855208,"k":"p","n":"Hohen Hagen"},
+  {"id":869346689,"lat":51.08856,"lon":7.853812,"k":"p","n":"Hohen Hagen"},
+  {"id":869346723,"lat":51.095613,"lon":7.850659,"k":"p","n":"Weuste"},
+  {"id":869347042,"lat":51.095967,"lon":7.851462,"k":"p","n":"Weuste"},
+  {"id":2487594021,"lat":51.052843,"lon":7.858323,"k":"p","n":"Rhode Gastreich"},
+  {"id":2487594022,"lat":51.053126,"lon":7.858387,"k":"p","n":"Rhode Gastreich"},
+  {"id":6428687315,"lat":51.069711,"lon":7.897014,"k":"p","n":"Oberneger"},
+  {"id":6428687316,"lat":51.06606,"lon":7.89405,"k":"p","n":"Mittelneger"},
+  {"id":6428687317,"lat":51.066846,"lon":7.886501,"k":"p","n":"Unterneger Zur Alten Schule"},
+  {"id":6428687320,"lat":51.060805,"lon":7.855055,"k":"p","n":"Kessenhammer Negertalstraße"},
+  {"id":6428687321,"lat":51.052276,"lon":7.859265,"k":"p","n":"Rhode Am Rhoder Stein"},
+  {"id":6428687322,"lat":51.051537,"lon":7.862807,"k":"p","n":"Rhode Dorf"},
+  {"id":6428872449,"lat":51.051609,"lon":7.862682,"k":"p","n":"Rhode Dorf"},
+  {"id":6428872450,"lat":51.061207,"lon":7.853879,"k":"p","n":"Kessenhammer"},
+  {"id":6428872451,"lat":51.06129,"lon":7.866044,"k":"p","n":"Kessenhammer Abzweig Siedenstein"},
+  {"id":6428872452,"lat":51.068199,"lon":7.883095,"k":"p","n":"Unterneger"},
+  {"id":6428872453,"lat":51.066808,"lon":7.886683,"k":"p","n":"Unterneger Zur Alten Schule"},
+  {"id":9309588389,"lat":51.051537,"lon":7.864049,"k":"p","n":"Rhode Schule"},
+  {"id":13243034875,"lat":51.051531,"lon":7.864111,"k":"x","n":"Rhode Schule"},
+  {"id":6039429828294,"lat":51.090165,"lon":7.855281,"k":"p","n":"Attendorn-Hohen Hagen Bf","g":1}
+],
+"routes":[
+  {"id":18882430,"t":{"ref":"A522","name":"Bus A522: Hespecke => Attendorn","from":"Hespecke","to":"Attendorn St.-Ursula-Schulen","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[869346723,16]]},
+  {"id":18882431,"t":{"ref":"A522","name":"Bus A522: Attendorn => Hespecke","from":"Attendorn ZOB","to":"Hespecke","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[869347042,13]]},
+  {"id":19730140,"t":{"ref":"L540","name":"Bus L540: Sondern => Hakemicke","from":"Sondern Kirche","to":"Hakemicke Schule","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[6428687322,7],[9309588389,8]]},
+  {"id":19730142,"t":{"ref":"L540","name":"Bus L540: Hakemicke => Olpe","from":"Hakemicke Quellenweg","to":"Olpe ZOB (Bstg. 9)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[6428687322,19],[6428687321,20]]},
+  {"id":19730143,"t":{"ref":"L540","name":"Bus L540: Olpe => Eichhagen","from":"Olpe Hoher-Stein-Schule","to":"Eichhagen Ort","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6428687322,23],[6428687321,24]]},
+  {"id":19730144,"t":{"ref":"L540","name":"Bus L540: Rhode => Olpe","from":"Rhode Schule","to":"Olpe ZOB (Bstg. 9)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[9309588389,1]]},
+  {"id":3000411023122,"t":{"ref":"L546","name":"Bus L546: Oberneger => Olpe","from":"Oberneger","to":"Olpe ZOB (Bstg. 9)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[6428687315,1],[6428687316,2],[6428687317,3],[6428872452,4],[6428872451,5],[6428872450,6],[2487594021,7],[6428872449,8]]},
+  {"id":3026803391978,"t":{"ref":"L540","name":"Bus L540: Olpe => Rhode => Olpe","from":"Olpe ZOB (Bstg. 12)","to":"Olpe ZOB (Bstg. 9)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[6428872449,12],[6428687321,13]]},
+  {"id":3033104587069,"t":{"ref":"L546","name":"Bus L546: Olpe => Oberneger","from":"Olpe ZOB (Bstg. 13)","to":"Oberneger","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6428872449,8],[6428687321,9],[2487594022,10],[6428687320,11],[6428872451,12],[6428872452,13],[6428687317,14],[6428687316,15],[6428687315,16]]},
+  {"id":3061373686795,"t":{"ref":"L546","name":"Bus L546: Olpe => Oberneger","from":"Olpe ZOB (Bstg. 13)","to":"Oberneger","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6428872449,12],[6428687321,13],[2487594022,14],[6428687320,15],[6428872451,16],[6428872452,17],[6428687317,18],[6428687316,19],[6428687315,20]]},
+  {"id":3078076245617,"t":{"ref":"EV","name":"EV: Finnentrop Bf - Olpe Bf","from":"Finnentrop Bf","to":"Olpe Bf","operator":"Hessische Landesbahn GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[6039429828294,6]]},
+  {"id":3086592809447,"t":{"ref":"EV","name":"EV: Olpe Bf - Finnentrop Bf","from":"Olpe Bf","to":"Finnentrop Bf","operator":"Hessische Landesbahn GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[6039429828294,4]]}
+]
+}

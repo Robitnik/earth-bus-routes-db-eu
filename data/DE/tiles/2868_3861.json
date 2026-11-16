@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2868,3861],
+"stops":[
+  {"id":4368966893,"lat":53.432554,"lon":13.098545,"k":"p","n":"Hohenzieritz, Mühle"},
+  {"id":4368966894,"lat":53.444174,"lon":13.0991,"k":"p","n":"Hohenzieritz"},
+  {"id":4399591843,"lat":53.445658,"lon":13.051925,"k":"p","n":"Peckatel"},
+  {"id":4399591844,"lat":53.445419,"lon":13.051935,"k":"p","n":"Peckatel"},
+  {"id":5632438423,"lat":53.432766,"lon":13.098371,"k":"x","n":"Hohenzieritz, Mühle"},
+  {"id":5632438621,"lat":53.432561,"lon":13.098617,"k":"x","n":"Hohenzieritz, Mühle"},
+  {"id":5896400958,"lat":53.444145,"lon":13.099069,"k":"x","n":"Hohenzieritz"},
+  {"id":6906448704,"lat":53.432802,"lon":13.098397,"k":"p","n":"Hohenzieritz, Mühle"},
+  {"id":6906508403,"lat":53.448692,"lon":13.051595,"k":"p","n":"Peckatel, Neubau"},
+  {"id":6906508404,"lat":53.448702,"lon":13.051552,"k":"x","n":"Peckatel, Neubau","ref":"5032"},
+  {"id":6906508405,"lat":53.445457,"lon":13.05184,"k":"x","n":"Peckatel"},
+  {"id":6906508406,"lat":53.445632,"lon":13.052031,"k":"x","n":"Peckatel","ref":"MVVG"},
+  {"id":6046538524479,"lat":53.43226,"lon":13.099153,"k":"p","n":"Hohenzieritz, Mühle","g":1}
+],
+"routes":[
+  {"id":7395891,"t":{"ref":"018","name":"Bus 018: Neustrelitz => Peckatel => Penzlin","from":"Neustrelitz ZOB","to":"Penzlin, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"orange","route":"bus","public_transport:version":"2"},"n":11,"s":[[4399591844,7]]},
+  {"id":7395892,"t":{"ref":"018","name":"Bus 018: Penzlin => Peckatel => Neustrelitz","from":"Penzlin, ZOB","to":"Neustrelitz ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"orange","route":"bus","public_transport:version":"2"},"n":12,"s":[[4399591843,5]]},
+  {"id":8673768,"t":{"ref":"689","name":"Bus 689: Neustrelitz => Hohenzieritz","from":"Neustrelitz ZOB","to":"Hohenzieritz","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":14,"s":[[4368966894,14]]},
+  {"id":3003055550447,"t":{"ref":"689","name":"Bus 689: Hohenzieritz => Neustrelitz","from":"Hohenzieritz","to":"Neustrelitz, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":14,"s":[[4368966894,1],[6046538524479,2]]}
+]
+}

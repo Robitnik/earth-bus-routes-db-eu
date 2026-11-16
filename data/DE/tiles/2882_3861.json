@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2882,3861],
+"stops":[
+  {"id":2021930631,"lat":54.110433,"lon":13.069202,"k":"p","n":"Grimmen, Stadtwald"},
+  {"id":2021935964,"lat":54.112312,"lon":13.079112,"k":"p","n":"Grimmen, Neuer Friedhof"},
+  {"id":2022223094,"lat":54.135399,"lon":13.057595,"k":"p","n":"Klein Lehmhagen"},
+  {"id":2022223095,"lat":54.141344,"lon":13.093079,"k":"p","n":"Hohenwarth"},
+  {"id":8948948401,"lat":54.111899,"lon":13.050625,"k":"p","n":"Grimmen, Greifswalder Straße"},
+  {"id":8948948404,"lat":54.111912,"lon":13.050824,"k":"x","n":"Grimmen, Greifswalder Straße"},
+  {"id":8948948405,"lat":54.11194,"lon":13.050745,"k":"x","n":"Grimmen, Greifswalder Straße"},
+  {"id":9890106169,"lat":54.110466,"lon":13.069252,"k":"x","n":"Grimmen, Stadtwald"},
+  {"id":9890106170,"lat":54.11052,"lon":13.069196,"k":"p","n":"Grimmen, Stadtwald"},
+  {"id":9890106171,"lat":54.110481,"lon":13.069151,"k":"x","n":"Grimmen, Stadtwald"},
+  {"id":9902230081,"lat":54.111912,"lon":13.050979,"k":"p","n":"Grimmen, Greifswalder Straße"},
+  {"id":12192556613,"lat":54.108616,"lon":13.099489,"k":"x","n":"Kaschow"},
+  {"id":12192556618,"lat":54.112309,"lon":13.079084,"k":"x","n":"Grimmen, Neuer Friedhof"},
+  {"id":13835265010,"lat":54.108264,"lon":13.099715,"k":"p","n":"Kaschow"}
+],
+"routes":[
+  {"id":3004581054596,"t":{"ref":"mv84","name":"Bus mv84: Greifswald => Grimmen => Sanitz","from":"Greifswald ZOB","to":"Sanitz ZOB","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Rügen mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[9902230081,17]]},
+  {"id":3010418480455,"t":{"ref":"701","name":"Bus 701: Grimmen Süd-Ost Hin","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","network":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":41,"s":[[8948948401,3],[13835265010,35],[12192556618,37],[9890106171,38],[9902230081,39]]},
+  {"id":3013219131933,"t":{"ref":"704","name":"704: Grimmen Bahnhof - Stralsund Andershof","from":"Grimmen Bahnhof","to":"Stralsund Andershof","operator":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":71,"s":[[8948948401,3],[9890106169,4],[12192556618,5]]},
+  {"id":3047312238556,"t":{"ref":"704","name":"704: Stralsund Andershof - Grimmen Bahnhof","from":"Stralsund Andershof","to":"Grimmen Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":71,"s":[[12192556618,67],[9890106171,68],[9902230081,69]]},
+  {"id":3047538644178,"t":{"ref":"701","name":"Bus 701: Grimmen Süd-Ost Hin","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","network":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":40,"s":[[8948948401,3],[9890106169,4],[12192556618,5],[13835265010,7],[9902230081,38]]},
+  {"id":3053773385601,"t":{"ref":"703","name":"703: Grimmen Bahnhof - Grimmen Bahnhof","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":49,"s":[[8948948401,3],[2022223094,6],[2022223095,8],[9902230081,47]]},
+  {"id":3095283903669,"t":{"ref":"703","name":"703: Grimmen Bahnhof - Grimmen Bahnhof","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":49,"s":[[8948948401,3],[2022223095,42],[2022223094,44],[9902230081,47]]},
+  {"id":3095775851961,"t":{"ref":"mv84","name":"Bus mv84: Greifswald => Grimmen => Sanitz","from":"Greifswald ZOB","to":"Sanitz ZOB","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Rügen mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[8948948401,3]]}
+]
+}

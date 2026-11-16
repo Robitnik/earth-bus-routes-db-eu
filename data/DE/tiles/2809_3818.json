@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2809,3818],
+"stops":[
+  {"id":2419244448,"lat":50.497586,"lon":10.903037,"k":"x"},
+  {"id":2900679531,"lat":50.495651,"lon":10.919137,"k":"p","n":"Heubach, Zentrale"},
+  {"id":2900679532,"lat":50.495785,"lon":10.937304,"k":"p","n":"Fehrenbach, Treffpunkt"},
+  {"id":2900679533,"lat":50.497593,"lon":10.903172,"k":"p","n":"Schnett"},
+  {"id":2900686441,"lat":50.490406,"lon":10.909752,"k":"p","n":"Einsiedel"},
+  {"id":2910581477,"lat":50.497646,"lon":10.902988,"k":"p","n":"Schnett"},
+  {"id":2910638532,"lat":50.49037,"lon":10.909979,"k":"p","n":"Einsiedel"},
+  {"id":2910638533,"lat":50.490387,"lon":10.909882,"k":"x","n":"Einsidel"},
+  {"id":2910650583,"lat":50.495455,"lon":10.91871,"k":"p","n":"Heubach, Zentrale"},
+  {"id":2910650584,"lat":50.495492,"lon":10.918709,"k":"x","n":"Heubach, Zentrale"},
+  {"id":2910650585,"lat":50.495614,"lon":10.919159,"k":"x","n":"Heubach, Zentrale"},
+  {"id":2910735216,"lat":50.49576,"lon":10.937459,"k":"p","n":"Fehrenbach, Treffpunkt"},
+  {"id":2910735218,"lat":50.495826,"lon":10.937488,"k":"x","n":"Fehrenbach, Treffpunkt"},
+  {"id":2912406097,"lat":50.495527,"lon":10.929214,"k":"p","n":"Fehrenbach, Schulbushaltestelle"},
+  {"id":2912406098,"lat":50.495522,"lon":10.929124,"k":"x"},
+  {"id":8485453997,"lat":50.453007,"lon":10.916227,"k":"p"},
+  {"id":8485453998,"lat":50.452784,"lon":10.915858,"k":"p"},
+  {"id":6006482161445,"lat":50.498592,"lon":10.941143,"k":"p","n":"Fehrenbach, Treffpunkt","g":1},
+  {"id":6014415438352,"lat":50.473145,"lon":10.911617,"k":"p","n":"Waffenrod, Schulbushaltestelle","g":1},
+  {"id":6020237013091,"lat":50.498592,"lon":10.941143,"k":"p","n":"Fehrenbach, Treffpunkt","g":1}
+],
+"routes":[
+  {"id":3817377,"t":{"ref":"206","name":"Bus 206: Masserberg => Fehrenbach => Heubach => Biberschlag => Schönbrunn","from":"Masserberg","to":"Schönbrunn","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[2900679532,3],[2912406097,4],[2900679531,5]]},
+  {"id":3820136,"t":{"ref":"206","name":"Bus 206: Schnett => Heubach => Einsiedel => Tellerhammer => Biberschlag => Engenstein => Schönbrunn","from":"Schnett","to":"Schönbrunn","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2900679533,1],[2900686441,4]]},
+  {"id":3820448,"t":{"ref":"206","name":"Bus 206: Schönbrunn => Engenstein => Biberschlag => Tellerhammer => Einsiedel => Heubach => Fehrenbach => Schnett","from":"Schönbrunn","to":"Schnett","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2900686441,6],[2910650583,7],[2900679533,10]]},
+  {"id":3820449,"t":{"ref":"206","name":"Bus 206: Schönbrunn => Lichtenau => Waldau => Engenstein => Biberschlag => Tellerhammer => Einsiedel => Heubach => -Schnett","from":"Schönbrunn","to":"Schnett","network":"WerraBus","operator":"Transdev GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[2910638532,7],[2910650583,8],[2910581477,11]]},
+  {"id":17645871,"t":{"ref":"207","name":"(Linie 207) Hildburghausen-Brattendorf-Masserberg","from":"Hildburghausen","to":"Masserberg","network":"WerraBus","operator":"WerraBus","colour":"#f8e45c","route":"bus"},"n":47,"s":[[2910638532,24],[2910638533,25],[2900686441,26],[2900679531,27],[2910650585,28],[2419244448,33],[2900679533,34],[2910581477,35],[2912406097,36],[2910735218,37],[2910735216,38],[2900679532,39]]},
+  {"id":3020482627315,"t":{"ref":"209","name":"209: Eisfeld, Bahnhof - Masserberg","from":"Eisfeld, Bahnhof","to":"Masserberg","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":16,"s":[[6014415438352,6],[2910638533,7],[2910650585,8,13],[2910581477,12],[6020237013091,14]]},
+  {"id":3029763625480,"t":{"ref":"209","name":"209: Masserberg - Eisfeld, Bahnhof","from":"Masserberg","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":11,"s":[[6006482161445,3],[2910650585,4],[2910638533,5],[6014415438352,6]]},
+  {"id":3093911360625,"t":{"ref":"209","name":"209: Masserberg - Eisfeld, Bahnhof","from":"Masserberg","to":"Eisfeld, Bahnhof","operator":"Werrabus","route":"bus","public_transport:version":"2"},"n":16,"s":[[6006482161445,3],[2910650585,4,9],[2910581477,5],[2910638533,10],[6014415438352,11]]}
+]
+}

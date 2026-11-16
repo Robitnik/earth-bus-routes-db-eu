@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2793,3848],
+"stops":[
+  {"id":7657193266,"lat":49.653261,"lon":12.438359,"k":"p","n":"Fuchsmühle"},
+  {"id":8582465874,"lat":49.653482,"lon":12.438678,"k":"p","n":"Fuchsmühle"},
+  {"id":8654542638,"lat":49.674949,"lon":12.400234,"k":"p","n":"Steinbach, Abzw Pleystein"},
+  {"id":8700975530,"lat":49.651568,"lon":12.40509,"k":"p","n":"Pingermühle"},
+  {"id":8700975532,"lat":49.65147,"lon":12.405271,"k":"p","n":"Pingermühle"},
+  {"id":8747605121,"lat":49.650267,"lon":12.41143,"k":"p","n":"Pleystein, Abzweigung Finkenhammer"},
+  {"id":9266328442,"lat":49.690261,"lon":12.400497,"k":"p","n":"Dimpfl"},
+  {"id":9514189850,"lat":49.654703,"lon":12.431127,"k":"p","n":"Miesbrunn, Wartehäuschen"},
+  {"id":10195133238,"lat":49.698268,"lon":12.43888,"k":"x","n":"Brünst, Bock"},
+  {"id":10195133239,"lat":49.698277,"lon":12.438842,"k":"p","n":"Brünst, Bock"},
+  {"id":10196494545,"lat":49.691455,"lon":12.435112,"k":"x","n":"Brünst, Kastanienhof"},
+  {"id":10196494546,"lat":49.691381,"lon":12.435094,"k":"p","n":"Brünst, Kastanienhof"},
+  {"id":6026728488271,"lat":49.652395,"lon":12.411968,"k":"p","n":"Pleystein, Abzw Finkenhammer","g":1},
+  {"id":6030737251154,"lat":49.696983,"lon":12.444236,"k":"p","n":"Brünst, Bock","g":1},
+  {"id":6049160264187,"lat":49.653046,"lon":12.441406,"k":"p","n":"Fuchsmühle b. Pleystein","g":1},
+  {"id":6058103287796,"lat":49.651418,"lon":12.404369,"k":"p","n":"Pleystein, Gsteinach","g":1},
+  {"id":6062730045242,"lat":49.65603,"lon":12.40506,"k":"p","n":"Vöslesrieth","g":1},
+  {"id":6072309255827,"lat":49.653046,"lon":12.441406,"k":"p","n":"Fuchsmühle b. Pleystein","g":1},
+  {"id":6074750541458,"lat":49.696983,"lon":12.443948,"k":"p","n":"Brünst, Bock","g":1},
+  {"id":6076781452053,"lat":49.652395,"lon":12.411968,"k":"p","n":"Pleystein, Abzw Finkenhammer","g":1},
+  {"id":6077124148803,"lat":49.690521,"lon":12.402186,"k":"p","n":"Dimpfl","g":1},
+  {"id":6079491256564,"lat":49.656146,"lon":12.404836,"k":"p","n":"Vöslesrieth","g":1},
+  {"id":6081207779176,"lat":49.692653,"lon":12.449617,"k":"p","n":"Brünst, Kreuzer","g":1},
+  {"id":6095024789703,"lat":49.690457,"lon":12.401036,"k":"p","n":"Dimpfl","g":1}
+],
+"routes":[
+  {"id":11223230,"t":{"ref":"1938","name":"Bus 1938: Lösselmühle -> Pleystein","from":"Lösselmühle","to":"Pleystein","network":"VGN","colour":"#EE1C25","route":"bus"},"n":7,"s":[[7657193266,6]]},
+  {"id":11228260,"t":{"ref":"1938","name":"Bus 1938: Pleystein -> Lösselmühle","from":"Pleystein","to":"Lösselmühle","network":"VGN","colour":"#EE1C25","route":"bus"},"n":7,"s":[[7657193266,2]]},
+  {"id":3015819857408,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Neustadt (Waldnaab)","from":"Zollhaus, Gem. Georgenberg","to":"Neustadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[6074750541458,3],[6081207779176,5],[6095024789703,11]]},
+  {"id":3035325993114,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Vohenstrauß, Marktplatz","from":"Schönsee, Rathaus/Post","to":"Vohenstrauß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[6074750541458,30],[6081207779176,32],[6095024789703,48],[6058103287796,58],[8700975530,59],[6062730045242,60],[6076781452053,63],[9514189850,64],[6049160264187,65]]},
+  {"id":3044593142085,"t":{"ref":"1981","name":"1981: Floß, Marktplatz - Zollhaus, Gem. Georgenberg","from":"Floß, Marktplatz","to":"Zollhaus, Gem. Georgenberg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[6077124148803,67],[6030737251154,75]]},
+  {"id":3053811177755,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Floß, Marktplatz","from":"Zollhaus, Gem. Georgenberg","to":"Floß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[6074750541458,3],[6081207779176,5],[6095024789703,11]]},
+  {"id":3056857914902,"t":{"ref":"1983","name":"1983: Schönsee, Rathaus/Post - Weiden (Oberpf)","from":"Schönsee, Rathaus/Post","to":"Weiden (Oberpf)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[6074750541458,30],[6081207779176,32],[6095024789703,48],[6058103287796,58],[8700975530,59],[6062730045242,60],[6076781452053,63],[9514189850,64],[6049160264187,65]]},
+  {"id":3059584409868,"t":{"ref":"1983","name":"1983: Weiden (Oberpf) - Schönsee, Rathaus/Post","from":"Weiden (Oberpf)","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":86,"s":[[6072309255827,22],[9514189850,23],[6026728488271,24],[6079491256564,27],[8700975532,28],[8700975530,29],[8654542638,34],[6077124148803,39],[6030737251154,57]]},
+  {"id":3095009573776,"t":{"ref":"1981","name":"1981: Neustadt (Waldnaab) - Zollhaus, Gem. Georgenberg","from":"Neustadt (Waldnaab)","to":"Zollhaus, Gem. Georgenberg","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[6077124148803,68],[6030737251154,76]]},
+  {"id":3096323727158,"t":{"ref":"1983","name":"1983: Vohenstrauß, Marktplatz - Schönsee, Rathaus/Post","from":"Vohenstrauß, Marktplatz","to":"Schönsee, Rathaus/Post","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":85,"s":[[6072309255827,21],[9514189850,22],[6026728488271,23],[6079491256564,26],[8700975532,27],[8700975530,28],[8654542638,33],[6077124148803,38],[6030737251154,56]]}
+]
+}

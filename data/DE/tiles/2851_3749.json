@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2851,3749],
+"stops":[
+  {"id":2539725960,"lat":52.586689,"lon":7.495243,"k":"x","n":"Drope/Alte Schule"},
+  {"id":4208759148,"lat":52.571738,"lon":7.495336,"k":"p","n":"Volksbank"},
+  {"id":4208795168,"lat":52.580393,"lon":7.496348,"k":"p","n":"Drope/Ort"},
+  {"id":7034626854,"lat":52.571147,"lon":7.493251,"k":"x","n":"Grundschule"},
+  {"id":7897800508,"lat":52.571742,"lon":7.495409,"k":"x","n":"Volksbank"},
+  {"id":8223595867,"lat":52.580392,"lon":7.496303,"k":"x","n":"Drope/Ort"},
+  {"id":8223595913,"lat":52.556924,"lon":7.477257,"k":"p","n":"Sopenhook"},
+  {"id":8223595914,"lat":52.556838,"lon":7.47701,"k":"p","n":"Sopenhook"},
+  {"id":8223595915,"lat":52.556937,"lon":7.477183,"k":"x","n":"Sopenhook"},
+  {"id":8223595916,"lat":52.556818,"lon":7.4771,"k":"x","n":"Sopenhook"},
+  {"id":8223640417,"lat":52.571111,"lon":7.493268,"k":"p","n":"Grundschule"},
+  {"id":8223640424,"lat":52.590707,"lon":7.471201,"k":"p","n":"Bregenbeck/L66"},
+  {"id":8223640425,"lat":52.590626,"lon":7.470999,"k":"p","n":"Bregenbeck/L66"},
+  {"id":8223640426,"lat":52.590692,"lon":7.471046,"k":"x","n":"Bregenbeck/L66"},
+  {"id":8223640427,"lat":52.590653,"lon":7.471162,"k":"x","n":"Bregenbeck/L66"},
+  {"id":13551193176,"lat":52.571052,"lon":7.495586,"k":"p"},
+  {"id":6036026065425,"lat":52.57292,"lon":7.469633,"k":"p","n":"Gersten, Stroothook","g":1},
+  {"id":6038285258161,"lat":52.59582,"lon":7.495723,"k":"p","n":"Gersten, Walge/Zum Free","g":1},
+  {"id":6064614470048,"lat":52.5876,"lon":7.461234,"k":"p","n":"Gersten, Bregenbeck","g":1},
+  {"id":6090602520811,"lat":52.59538,"lon":7.482593,"k":"p","n":"Gersten, Drope/BW-Depot","g":1}
+],
+"routes":[
+  {"id":12011748,"t":{"ref":"102","name":"Bus 102: Lengerich, Busbahnhof => Bawinkel, Schule","from":"Lengerich, Busbahnhof","to":"Bawinkel, Schule","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":13,"s":[[8223595913,6],[4208795168,7],[8223640424,8]]},
+  {"id":12011749,"t":{"ref":"102","name":"Bus 102: Bawinkel, Schule => Lengerich, Busbahnhof","from":"Bawinkel, Schule","to":"Lengerich, Busbahnhof","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":13,"s":[[8223640425,6],[4208795168,7],[4208759148,8],[8223595914,9]]},
+  {"id":12011922,"t":{"ref":"121","name":"Bus 121: Lingen, ZOB => Lengerich, Busbahnhof","from":"Lingen, ZOB","to":"Lengerich, Busbahnhof","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":13,"s":[[8223595913,11],[8223640417,12]]},
+  {"id":12011923,"t":{"ref":"121","name":"Bus 121: Wettrup, Kirche => Lingen, ZOB","from":"Wettrup, Kirche","to":"Lingen, ZOB","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":20,"s":[[8223640417,7],[8223595914,8]]},
+  {"id":12036139,"t":{"ref":"121","name":"Bus 121: Wettrup, Im Felde => Lingen, ZOB","from":"Wettrup, Im Felde","to":"Lingen, ZOB","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":20,"s":[[8223640417,8],[8223595914,9]]},
+  {"id":12036172,"t":{"ref":"121","name":"Bus 121: Wettrup, Im Felde => Baccum, Schule/Busbahnhof => Lingen, ZOB","from":"Wettrup, Im Felde","to":"Lingen, ZOB","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":18,"s":[[8223640417,8],[8223595914,9]]},
+  {"id":12036481,"t":{"ref":"121","name":"Bus 121: Lingen, ZOB => Wettrup, Im Felde","from":"Lingen, ZOB","to":"Wettrup, Im Felde","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":17,"s":[[8223595913,9],[8223640417,10]]},
+  {"id":12036482,"t":{"ref":"121","name":"Bus 121: Lingen, ZOB => Wettrup, Kirche","from":"Lingen, ZOB","to":"Wettrup, Kirche","network":"VGE-Süd","route":"bus","public_transport:version":"2"},"n":16,"s":[[8223595913,9],[8223640417,10]]},
+  {"id":3036953704892,"t":{"ref":"102","name":"102: Gersten, Grundschule - Gersten, Stroothook","from":"Gersten, Grundschule","to":"Gersten, Stroothook","operator":"Verkehrsgemeinschaft Emsland-Süd","route":"bus","public_transport:version":"2"},"n":14,"s":[[7034626854,1],[6038285258161,6],[2539725960,7],[8223595867,8],[6090602520811,10],[8223640424,11],[6064614470048,12],[6036026065425,14]]}
+]
+}

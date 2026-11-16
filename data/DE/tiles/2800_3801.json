@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2800,3801],
+"stops":[
+  {"id":738927892,"lat":50.006899,"lon":10.093716,"k":"p","n":"Rundelshausen"},
+  {"id":1703518025,"lat":50.010119,"lon":10.079708,"k":"p","n":"Eckartshausen"},
+  {"id":1718550075,"lat":50.018036,"lon":10.098363,"k":"p","n":"Schleerieth"},
+  {"id":1866354506,"lat":50.031898,"lon":10.090339,"k":"p","n":"Kirche"},
+  {"id":2924357752,"lat":50.042695,"lon":10.056167,"k":"p","n":"Kaisten Abzw. Brebersdorfer Straße"},
+  {"id":2924358799,"lat":50.032153,"lon":10.085754,"k":"p","n":"Egenhausen, Feuerwehrhaus"},
+  {"id":2924395293,"lat":50.006565,"lon":10.09377,"k":"p","n":"Rundelshausen"},
+  {"id":2924396965,"lat":50.010168,"lon":10.080502,"k":"p","n":"Eckarthausen Feuerwehr"},
+  {"id":4056579694,"lat":50.022176,"lon":10.052904,"k":"p","n":"Vasbühl Ortsmitte"},
+  {"id":4056579696,"lat":50.022134,"lon":10.053365,"k":"p"},
+  {"id":4056579697,"lat":50.020257,"lon":10.051039,"k":"p","n":"Vasbühl Sportplatz"},
+  {"id":8765519398,"lat":50.001354,"lon":10.06647,"k":"p","n":"Stettbach Ortsmitte"},
+  {"id":10829628789,"lat":50.003247,"lon":10.064195,"k":"p","n":"Stettbach Schraudenbacher Str."},
+  {"id":11179714739,"lat":50.015966,"lon":10.098515,"k":"p","n":"Schleerieth Schule"},
+  {"id":6007235415196,"lat":50.031795,"lon":10.088979,"k":"p","n":"Egenhausen Brunnenstraße","g":1},
+  {"id":6093344306831,"lat":50.031772,"lon":10.089078,"k":"p","n":"Egenhausen Brunnenstraße","g":1}
+],
+"routes":[
+  {"id":3008240741784,"t":{"ref":"239","name":"239: Brebersdorf Ortsmitte - Arnstein Schulzentrum","from":"Brebersdorf Ortsmitte","to":"Arnstein Schulzentrum","operator":"02","route":"bus","public_transport:version":"2"},"n":7,"s":[[2924357752,2]]},
+  {"id":3022350813187,"t":{"ref":"239","name":"239: Schwebenried Raiba - Schweinfurt Theater","from":"Schwebenried Raiba","to":"Schweinfurt Theater","operator":"02","route":"bus","public_transport:version":"2"},"n":12,"s":[[4056579694,2],[10829628789,3]]},
+  {"id":3027038676389,"t":{"ref":"239","name":"239: Arnstein Schulzentrum - Rundelshausen","from":"Arnstein Schulzentrum","to":"Rundelshausen","operator":"02","route":"bus","public_transport:version":"2"},"n":11,"s":[[10829628789,4],[4056579694,5],[2924357752,6],[6007235415196,8],[1718550075,9],[1703518025,10],[738927892,11]]},
+  {"id":3034312768274,"t":{"ref":"231","name":"231: Rundelshausen - Schweinfurt Hbf","from":"Rundelshausen","to":"Schweinfurt Hbf","operator":"02","route":"bus","public_transport:version":"2"},"n":12,"s":[[738927892,1],[1703518025,2],[1718550075,3]]},
+  {"id":3035037406842,"t":{"ref":"231","name":"231: Schweinfurt Hbf - Waigolshausen Bäckerei Wehner","from":"Schweinfurt Hbf","to":"Waigolshausen Bäckerei Wehner","operator":"02","route":"bus","public_transport:version":"2"},"n":23,"s":[[1718550075,15],[1703518025,16],[2924395293,17]]},
+  {"id":3035776760996,"t":{"ref":"239","name":"239: Rundelshausen - Arnstein Schulzentrum","from":"Rundelshausen","to":"Arnstein Schulzentrum","operator":"02","route":"bus","public_transport:version":"2"},"n":11,"s":[[2924395293,1],[1703518025,2],[1718550075,3],[6093344306831,4],[4056579694,5],[10829628789,6]]},
+  {"id":3038066204625,"t":{"ref":"239","name":"239: Schweinfurt Theater - Schwebenried Raiba","from":"Schweinfurt Theater","to":"Schwebenried Raiba","operator":"02","route":"bus","public_transport:version":"2"},"n":13,"s":[[10829628789,10],[4056579697,11],[4056579694,12]]},
+  {"id":3047333497808,"t":{"ref":"231","name":"231: Schweinfurt Hbf - Rundelshausen","from":"Schweinfurt Hbf","to":"Rundelshausen","operator":"02","route":"bus","public_transport:version":"2"},"n":17,"s":[[1718550075,15],[1703518025,16],[2924395293,17]]},
+  {"id":3063284970842,"t":{"ref":"239","name":"239: Burghausen Ortsmitte - Schweinfurt Theater","from":"Burghausen Ortsmitte","to":"Schweinfurt Theater","operator":"02","route":"bus","public_transport:version":"2"},"n":16,"s":[[2924357752,8],[2924358799,9],[1866354506,10]]},
+  {"id":3076183755885,"t":{"ref":"239","name":"239: Schweinfurt Theater - Burghausen Ortsmitte","from":"Schweinfurt Theater","to":"Burghausen Ortsmitte","operator":"02","route":"bus","public_transport:version":"2"},"n":13,"s":[[1866354506,7],[2924358799,8],[2924357752,9]]},
+  {"id":3084069654033,"t":{"ref":"239","name":"239: Schweinfurt Theater - Wülfershausen Ortsmitte","from":"Schweinfurt Theater","to":"Wülfershausen Ortsmitte","operator":"02","route":"bus","public_transport:version":"2"},"n":18,"s":[[1866354506,7],[2924358799,8],[2924357752,9],[4056579694,11],[4056579697,12],[10829628789,13]]}
+]
+}

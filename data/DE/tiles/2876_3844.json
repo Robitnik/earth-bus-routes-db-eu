@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2876,3844],
+"stops":[
+  {"id":376043624,"lat":53.842073,"lon":12.217508,"k":"p","n":"Sarmstorf","ref":"de:13072:970"},
+  {"id":586230986,"lat":53.801177,"lon":12.201359,"k":"p","n":"Güstrow, Waldweg","ref":"de:13072:342"},
+  {"id":2085738612,"lat":53.800562,"lon":12.243152,"k":"p","n":"Güstrow, Glasewitzer Burg"},
+  {"id":2085738615,"lat":53.800431,"lon":12.241251,"k":"p","n":"Güstrow, Glasewitzer Burg","ref":"de:13072:350"},
+  {"id":2085746950,"lat":53.803278,"lon":12.240462,"k":"x","n":"Güstrow, GWG Koppelweg","ref":"de:13072:3023"},
+  {"id":2085746954,"lat":53.805313,"lon":12.244777,"k":"p","n":"Güstrow, GWG Am Augraben","ref":"de:13072:1401"},
+  {"id":9781270015,"lat":53.842515,"lon":12.204867,"k":"p","n":"Sarmstorf, Dorf","ref":"de:13072:969"},
+  {"id":9781270016,"lat":53.842462,"lon":12.205013,"k":"p","n":"Sarmstorf, Dorf","ref":"de:13072:969"},
+  {"id":9781301917,"lat":53.842035,"lon":12.217597,"k":"p","n":"Sarmstorf","ref":"de:13072:970"},
+  {"id":9781301918,"lat":53.843266,"lon":12.218385,"k":"p","n":"Sarmstorf","ref":"de:13072:970"},
+  {"id":9781301919,"lat":53.842657,"lon":12.217215,"k":"p","n":"Sarmstorf","ref":"de:13072:970"},
+  {"id":9972197457,"lat":53.803251,"lon":12.240429,"k":"p","n":"Güstrow, GWG Koppelweg","ref":"de:13072:3023"},
+  {"id":9972197461,"lat":53.820307,"lon":12.211278,"k":"p","n":"Suckow","ref":"de:13072:1039"}
+],
+"routes":[
+  {"id":3022379721861,"t":{"ref":"204","name":"204: Güstrow, GWG Koppelweg - Güstrow, ZOB","from":"Güstrow, GWG Koppelweg","to":"Güstrow, ZOB","operator":"rebus","route":"bus","public_transport:version":"2"},"n":11,"s":[[9972197457,1],[2085738615,2],[586230986,5]]},
+  {"id":3026631910491,"t":{"ref":"204","name":"204: Güstrow, ZOB - Güstrow, GWG Koppelweg","from":"Güstrow, ZOB","to":"Güstrow, GWG Koppelweg","operator":"rebus","route":"bus","public_transport:version":"2"},"n":11,"s":[[2085738612,9],[2085746954,10],[9972197457,11]]},
+  {"id":3026728982145,"t":{"ref":"201","name":"Bus 201: KMG Klinikum => Bauhof Nord","from":"KMG Klinikum","to":"Bauhof Nord","network":"Verkehrsverbund Warnow","operator":"rebus Regionalbus Rostock","colour":"#009640","route":"bus","public_transport:version":"2"},"n":26,"s":[[586230986,7]]},
+  {"id":3052665316225,"t":{"ref":"200","name":"200: Laage, Breesener Straße - Güstrow, ZOB","from":"Laage, Breesener Straße","to":"Güstrow, ZOB","operator":"rebus","route":"bus","public_transport:version":"2"},"n":17,"s":[[9781301918,9],[9972197461,10]]},
+  {"id":3066475819988,"t":{"ref":"201","name":"Bus 201: KMG Klinikum => Bauhof Nord","from":"KMG Klinikum","to":"Bauhof Nord","network":"Verkehrsverbund Warnow","operator":"rebus Regionalbus Rostock","colour":"#009640","route":"bus","public_transport:version":"2"},"n":24,"s":[[586230986,5]]},
+  {"id":3069987147717,"t":{"ref":"200","name":"200: Güstrow, ZOB - Laage, Breesener Straße","from":"Güstrow, ZOB","to":"Laage, Breesener Straße","operator":"rebus","route":"bus","public_transport:version":"2"},"n":17,"s":[[376043624,7]]}
+]
+}

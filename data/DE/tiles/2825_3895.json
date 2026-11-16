@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3895],
+"stops":[
+  {"id":309063027,"lat":51.298756,"lon":14.780247,"k":"x","n":"See Grundschule"},
+  {"id":310454148,"lat":51.298802,"lon":14.780324,"k":"p","n":"See Grundschule"},
+  {"id":310519418,"lat":51.297312,"lon":14.777364,"k":"p","n":"See Untere Siedlung"},
+  {"id":310519421,"lat":51.297786,"lon":14.77675,"k":"p","n":"See Untere Siedlung"},
+  {"id":310519518,"lat":51.292956,"lon":14.783541,"k":"p","n":"See Am Schäferberg"},
+  {"id":310519519,"lat":51.293133,"lon":14.784568,"k":"p","n":"See Am Schäferberg"},
+  {"id":2908805015,"lat":51.290102,"lon":14.764719,"k":"p","n":"Sproitz Am Quarzitwerk"},
+  {"id":8475825353,"lat":51.290027,"lon":14.764042,"k":"p","n":"Sproitz Am Quarzitwerk"}
+],
+"routes":[
+  {"id":17583045,"t":{"ref":"S75","name":"Schulbus S75: Mücka => See","from":"Mücka Bahnhof","to":"See Grundschule","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":9,"s":[[2908805015,8],[310454148,9]]},
+  {"id":3002867325081,"t":{"ref":"S75","name":"S75: See Grundschule - Stannewisch Feuerwehr","from":"See Grundschule","to":"Stannewisch Feuerwehr","operator":"Omnibus Verkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[309063027,1]]},
+  {"id":3008571701385,"t":{"ref":"31","name":"TaktBus 31: Niesky => Weißenberg => Löbau","from":"Niesky Bahnhof","to":"Löbau Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":35,"s":[[310519519,5],[309063027,6],[310519421,8],[2908805015,9]]},
+  {"id":3020737763232,"t":{"ref":"S75","name":"Schulbus S75 : See => Mücka","from":"See Grundschule","to":"Mücka Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":9,"s":[[2908805015,8],[309063027,9]]},
+  {"id":3040046178831,"t":{"ref":"31","name":"TaktBus 31: Löbau => Weißenberg => Niesky","from":"Löbau Busbahnhof","to":"Niesky Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":34,"s":[[2908805015,26],[309063027,27],[310519421,29],[310519518,30]]},
+  {"id":3042162531203,"t":{"ref":"31","name":"TaktBus 31: Niesky => Weißenberg => Löbau","from":"Niesky Bahnhof","to":"Löbau Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2","bus":"yes"},"n":34,"s":[[310519519,5],[309063027,6],[310519421,8],[2908805015,9]]}
+]
+}

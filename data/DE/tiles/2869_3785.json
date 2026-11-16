@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2869,3785],
+"stops":[
+  {"id":886758329,"lat":53.488704,"lon":9.27342,"k":"x","n":"Essel, Brinkstraße"},
+  {"id":3809278342,"lat":53.491378,"lon":9.297535,"k":"p","n":"Bullenholz, Esseler Tannen"},
+  {"id":3809278343,"lat":53.491425,"lon":9.297531,"k":"x","n":"Bullenholz, Esseler Tannen"},
+  {"id":3809278344,"lat":53.491481,"lon":9.297533,"k":"p","n":"Bullenholz, Esseler Tannen"},
+  {"id":5396153785,"lat":53.488675,"lon":9.273434,"k":"p","n":"Essel, Brinkstraße"},
+  {"id":13285172031,"lat":53.464228,"lon":9.297921,"k":"x","n":"Abzweig Farven"},
+  {"id":13285172038,"lat":53.464203,"lon":9.297856,"k":"p","n":"Abzweig Farven"}
+],
+"routes":[
+  {"id":19799303,"t":{"ref":"815","name":"Bus 815: Sadersdorf => Hafen","from":"Sadersdorf","to":"Hafen","network":"VNN;VBN","operator":"OVA","route":"bus","public_transport:version":"2"},"n":9,"s":[[13285172038,1]]},
+  {"id":19799305,"t":{"ref":"815","name":"Bus 815: Sadersdorf => Farven => Schulzentrum","from":"Sadersdorf","to":"Schulzentrum","network":"VNN;VBN","operator":"OVA","route":"bus","public_transport:version":"2"},"n":20,"s":[[13285172038,1]]},
+  {"id":19799306,"t":{"ref":"815","name":"Bus 815: Schulzentrum => Farven => Sadersdorf","from":"Schulzentrum","to":"Sadersdorf, Abzweig Farven","network":"VNN;VBN","operator":"OVA","route":"bus","public_transport:version":"2"},"n":20,"s":[[13285172038,20]]},
+  {"id":19799307,"t":{"ref":"815","name":"Bus 815: Hafen => Sadersdorf","from":"Hafen","to":"Sadersdorf, Abzweig Farven","network":"VNN;VBN","operator":"OVA","route":"bus","public_transport:version":"2"},"n":8,"s":[[13285172038,8]]},
+  {"id":21702867,"t":{"ref":"2370","name":"Bus 2370: Kutenholz => Fredenbeck => Stade via Essel und Mulsum nur an Schultagen","from":"Kutenholz, Bahnhof","to":"Stade, Bahnhof","network":"Hamburger Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":34,"s":[[3809278344,5],[5396153785,6],[3809278342,7]]},
+  {"id":3005156984272,"t":{"ref":"2870-AST","name":"2870-AST: Fredenbeck, Grundschule Am Raakamp - Bf. Kutenholz","from":"Fredenbeck, Grundschule Am Raakamp","to":"Bf. Kutenholz","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":29,"s":[[3809278344,21],[886758329,22]]},
+  {"id":3007290273513,"t":{"ref":"2870-AST","name":"2870-AST: Bf. Kutenholz - Deinste, Feuerwehr","from":"Bf. Kutenholz","to":"Deinste, Feuerwehr","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":33,"s":[[5396153785,8],[3809278342,9]]},
+  {"id":3042104443281,"t":{"ref":"2870-AST","name":"2870-AST: Stade, Stadeum - Bf. Kutenholz","from":"Stade, Stadeum","to":"Bf. Kutenholz","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":54,"s":[[3809278344,46],[886758329,47]]},
+  {"id":3044106147572,"t":{"ref":"2370","name":"Bus 2370: Stade => Fredenbeck=> Kutenholz via Mulsum und Essel","from":"Stade, Bahnhof","to":"Kutenholz, Bahnhof","network":"Hamburger Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":32,"s":[[3809278344,26],[5396153785,27],[3809278342,28]]},
+  {"id":3044206198882,"t":{"ref":"2370","name":"Bus 2370: Stade => Fredenbeck=> Kutenholz via Mulsum und Essel","from":"Stade, Bahnhof","to":"Kutenholz, Bahnhof","network":"Hamburger Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":32,"s":[[3809278344,26],[5396153785,27],[3809278342,28]]},
+  {"id":3069672151002,"t":{"ref":"2870-AST","name":"2870-AST: Bf. Kutenholz - Stade, Stadeum","from":"Bf. Kutenholz","to":"Stade, Stadeum","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":47,"s":[[5396153785,8],[3809278342,9]]},
+  {"id":3077520522682,"t":{"ref":"2870-AST","name":"2870-AST: Bf. Kutenholz - Fredenbeck, Grundschule Am Raakamp","from":"Bf. Kutenholz","to":"Fredenbeck, Grundschule Am Raakamp","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":16,"s":[[5396153785,4]]},
+  {"id":3084206736576,"t":{"ref":"2865-AST","name":"2865-AST: Bf. Stade - Groß Aspe, Brester Straße","from":"Bf. Stade","to":"Groß Aspe, Brester Straße","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":67,"s":[[3809278344,54],[886758329,55]]},
+  {"id":3086940565127,"t":{"ref":"2870-AST","name":"2870-AST: Bf. Kutenholz - Stade, Stadeum","from":"Bf. Kutenholz","to":"Stade, Stadeum","operator":"KVG_HVV","route":"bus","public_transport:version":"2"},"n":53,"s":[[5396153785,8],[3809278342,9]]}
+]
+}

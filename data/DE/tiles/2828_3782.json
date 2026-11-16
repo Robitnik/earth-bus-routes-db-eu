@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2828,3782],
+"stops":[
+  {"id":588261163,"lat":51.408153,"lon":9.117078,"k":"x","n":"Bahnhof"},
+  {"id":1385285790,"lat":51.412441,"lon":9.115198,"k":"p","n":"Rathaus"},
+  {"id":1385285806,"lat":51.415516,"lon":9.112675,"k":"p","n":"Niederer Steinweg"},
+  {"id":1385285809,"lat":51.415501,"lon":9.112875,"k":"p","n":"Niederer Steinweg"},
+  {"id":1486347528,"lat":51.423676,"lon":9.123728,"k":"p","n":"Am Petersberg"},
+  {"id":1486347529,"lat":51.423454,"lon":9.123482,"k":"p","n":"Am Petersberg"},
+  {"id":1486352647,"lat":51.413953,"lon":9.119259,"k":"p","n":"Ev. Kirche"},
+  {"id":1486352648,"lat":51.415466,"lon":9.120755,"k":"p","n":"Krankenhaus"},
+  {"id":1486352649,"lat":51.415532,"lon":9.120995,"k":"p","n":"Krankenhaus"},
+  {"id":2417108045,"lat":51.403054,"lon":9.119064,"k":"p","n":"Lütersheimer Straße"},
+  {"id":6079759134,"lat":51.412495,"lon":9.115237,"k":"x","n":"Rathaus"},
+  {"id":6082559086,"lat":51.407829,"lon":9.127108,"k":"x","n":"Kugelsburgschule"},
+  {"id":6082559087,"lat":51.40787,"lon":9.127037,"k":"p","n":"Kugelsburgschule"},
+  {"id":5000233244926,"lat":51.412495,"lon":9.115174,"k":"p","n":"Rathaus"},
+  {"id":5000395692626,"lat":51.408171,"lon":9.11715,"k":"p","n":"Bahnhof"},
+  {"id":5000647753992,"lat":51.407917,"lon":9.127167,"k":"p","n":"Kugelsburgschule"},
+  {"id":6039279949436,"lat":51.428868,"lon":9.122491,"k":"p","n":"Volkmarsen Am Petersberg","g":1},
+  {"id":6048259934224,"lat":51.4146,"lon":9.120056,"k":"p","n":"Volkmarsen Krankenhaus","g":1},
+  {"id":6070351789463,"lat":51.428868,"lon":9.122491,"k":"p","n":"Volkmarsen Am Petersberg","g":1}
+],
+"routes":[
+  {"id":1689798,"t":{"ref":"565","name":"Bus 565: Volkmarsen => Vasbeck => Korbach","from":"Volkmarsen Bahnhof","to":"Korbach Hauptbahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000395692626,1],[1385285809,2]]},
+  {"id":1689857,"t":{"ref":"565","name":"Bus 565: Korbach => Vasbeck => Volkmarsen","from":"Korbach Hauptbahnhof","to":"Volkmarsen Kugelsburgschule","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":22,"s":[[1385285806,19],[5000233244926,20],[5000395692626,21],[5000647753992,22]]},
+  {"id":1734722,"t":{"ref":"130","name":"Bus 130: Volkmarsen => Grebenstein","from":"Volkmarsen Bahnhof","to":"Grebenstein Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000395692626,1]]},
+  {"id":1734731,"t":{"ref":"130","name":"Bus 130: Grebenstein => Volkmarsen","from":"Grebenstein Bahnhof","to":"Volkmarsen Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[1385285790,20],[5000395692626,21]]},
+  {"id":1772200,"t":{"ref":"W3","name":"Bus W3: Volkmarsen => Warburg","from":"Volkmarsen, Bahnhof","to":"Warburg, Bahnhof","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000395692626,1],[1486352647,2],[1486352649,3],[1486347528,4]]},
+  {"id":3011521388023,"t":{"ref":"W3","name":"Bus W3: Warburg => Volkmarsen","from":"Warburg, Bahnhof","to":"Volkmarsen, Bahnhof","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[588261163,1],[1486352649,2],[6039279949436,3]]},
+  {"id":3014560245730,"t":{"ref":"580","name":"Bus 580: Volkmarsen => Bad Arolsen => Diemelstadt => Rimbeck","from":"Volkmarsen Bahnhof","to":"Rimbeck, Mitte","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000395692626,1],[1385285809,2]]},
+  {"id":3034637218581,"t":{"ref":"W3","name":"Bus W3: Warburg => Volkmarsen","from":"Warburg, Bahnhof","to":"Volkmarsen, Bahnhof","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[6070351789463,9],[6048259934224,10],[5000233244926,11],[588261163,12]]},
+  {"id":3098128891185,"t":{"ref":"580","name":"Bus 580: Rimbeck - Diemelstadt - Bad Arolsen - Volkmarsen","to":"Volkmarsen Bahnhof","network":"Nordhessischer VerkehrsVerbund","route":"bus","public_transport:version":"2"},"n":41,"s":[[1385285806,39],[5000233244926,40],[5000395692626,41]]}
+]
+}

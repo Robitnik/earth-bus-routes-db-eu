@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2812,3803],
+"stops":[
+  {"id":258363720,"lat":50.624477,"lon":10.159824,"k":"x","n":"Kaltennordheim, Ernst-Thälmann-Straße"},
+  {"id":2142898603,"lat":50.627933,"lon":10.162219,"k":"p","n":"Kaltennordheim, Regelschule"},
+  {"id":2142898703,"lat":50.624448,"lon":10.159832,"k":"p","n":"Kaltennordheim, Ernst-Thälmann-Straße"},
+  {"id":2142898764,"lat":50.629624,"lon":10.158496,"k":"p","n":"Kaltennordheim, Bahnhof"},
+  {"id":6200657634,"lat":50.606268,"lon":10.155476,"k":"p","n":"Kaltensundheim, Gymnasium"},
+  {"id":6200657635,"lat":50.606304,"lon":10.155583,"k":"p","n":"Kaltensundheim, Gymnasium"},
+  {"id":7863201673,"lat":50.61468,"lon":10.164026,"k":"x","n":"Erbsmühle"},
+  {"id":7863201674,"lat":50.614697,"lon":10.164073,"k":"p","n":"Erbsmühle"},
+  {"id":7863201675,"lat":50.608335,"lon":10.159746,"k":"p","n":"Kaltensundheim, Pförtchen"},
+  {"id":11652332713,"lat":50.608308,"lon":10.159779,"k":"x"},
+  {"id":11652332714,"lat":50.60827,"lon":10.159826,"k":"p","n":"Kaltensundheim, Pförtchen"},
+  {"id":11652332715,"lat":50.606293,"lon":10.155534,"k":"x","n":"Kaltensundheim, Gymnasium"},
+  {"id":11652332716,"lat":50.614658,"lon":10.163969,"k":"p","n":"Erbsmühle"},
+  {"id":11652992942,"lat":50.640905,"lon":10.191748,"k":"x","n":"Kaltenlengsfeld"},
+  {"id":11652992943,"lat":50.640893,"lon":10.191722,"k":"p","n":"Kaltenlengsfeld"},
+  {"id":11652992946,"lat":50.627958,"lon":10.162251,"k":"x","n":"Kaltennordheim, Regelschule"},
+  {"id":11652992947,"lat":50.629603,"lon":10.158398,"k":"x","n":"Kaltennordheim, Bahnhof"},
+  {"id":11652992948,"lat":50.624499,"lon":10.159813,"k":"p","n":"Kaltennordheim, Ernst-Thälmann-Straße"},
+  {"id":6013031043208,"lat":50.630073,"lon":10.157815,"k":"p","n":"Kaltennordheim, Bahnhof","g":1},
+  {"id":6048173881750,"lat":50.629972,"lon":10.158087,"k":"p","n":"Kaltennordheim, Bahnhof","g":1}
+],
+"routes":[
+  {"id":11566097,"t":{"ref":"409","name":"Bus 409: Meiningen, Busbahnhof => Kaltennordheim","route":"bus","public_transport:version":"1+2"},"n":16,"s":[[6200657634,14],[7863201675,15],[7863201674,16]]},
+  {"id":17252904,"t":{"ref":"414","name":"Bus 414: Kaltensundheim, Gymnasium => Unterkatz","from":"Kaltensundheim, Gymnasium","to":"Unterkatz","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[6200657634,1]]},
+  {"id":17252906,"t":{"ref":"414","name":"Bus 414: Kaltensundheim, Gymnasium => Wasungen, Zentraler Busplatz","from":"Kaltensundheim, Gymnasium","to":"Wasungen, Zentraler Busplatz","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6200657634,1]]},
+  {"id":17252909,"t":{"ref":"414","name":"Bus 414: Wasungen, Zentraler Busplatz => Kaltensundheim, Gymnasium","from":"Wasungen, Zentraler Busplatz","to":"Kaltensundheim, Gymnasium","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[6200657634,15]]},
+  {"id":17256956,"t":{"ref":"413","name":"Bus 413: Kaltenlengsfeld => Kaltensundheim, Gymnasium","from":"Kaltenlengsfeld","to":"Kaltensundheim, Gymnasium","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[11652992943,1],[2142898764,2],[11652332716,3],[6200657634,4]]},
+  {"id":17256958,"t":{"ref":"413","name":"Bus 413: Kaltensundheim, Gymnasium => Oepfershausen, Schule","from":"Kaltensundheim, Gymnasium","to":"Oepfershausen, Schule","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[6200657634,1],[7863201674,2],[2142898603,3],[2142898764,4],[2142898703,5],[11652992943,6]]},
+  {"id":17256959,"t":{"ref":"413","name":"Bus 413: Kaltensundheim, Gymnasium => Kaltenlengsfeld","from":"Kaltensundheim, Gymnasium","to":"Kaltenlengsfeld","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6200657634,1],[7863201674,2],[2142898603,3],[2142898764,4],[2142898703,5],[11652992943,6]]},
+  {"id":3000624022172,"t":{"ref":"133","name":"133: Kaltennordheim, Bahnhof - Dermbach, Busbahnhof","from":"Kaltennordheim, Bahnhof","to":"Dermbach, Busbahnhof","operator":"Verkehrsunternehmen Wartburgmobil VUW gkAöR","route":"bus","public_transport:version":"2"},"n":22,"s":[[6048173881750,1]]},
+  {"id":3022200426364,"t":{"ref":"413","name":"Bus 413: Oepfershausen, Schule => Kaltensundheim, Gymnasium","from":"Oepfershausen, Schule","to":"Kaltensundheim, Gymnasium","network":"MBB","operator":"MBB Meininger Busbetriebs GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[11652992943,1],[6048173881750,2],[11652332716,3],[6200657634,4]]},
+  {"id":3027989103250,"t":{"ref":"133","name":"133: Dermbach, Busbahnhof - Kaltennordheim, Bahnhof","from":"Dermbach, Busbahnhof","to":"Kaltennordheim, Bahnhof","operator":"Verkehrsunternehmen Wartburgmobil VUW gkAöR","route":"bus","public_transport:version":"2"},"n":20,"s":[[6013031043208,20]]},
+  {"id":3067342005796,"t":{"ref":"411","name":"411: Meiningen, Busbahnhof - Kaltensundheim","from":"Meiningen, Busbahnhof","to":"Kaltensundheim","operator":"MBB GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[7863201673,20],[6048173881750,21],[11652332716,22],[7863201675,23],[11652332715,24]]},
+  {"id":3070811331324,"t":{"ref":"411","name":"411: Fladungen Rathaus - Kaltensundheim","from":"Fladungen Rathaus","to":"Kaltensundheim","operator":"MBB GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[11652332715,3]]}
+]
+}

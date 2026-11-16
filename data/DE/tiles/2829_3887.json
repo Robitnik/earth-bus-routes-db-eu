@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2829,3887],
+"stops":[
+  {"id":4951741409,"lat":51.491407,"lon":14.371907,"k":"p","n":"Burgneudorf Spremberger Straße"},
+  {"id":4951741410,"lat":51.495558,"lon":14.378217,"k":"p","n":"Burgneudorf Schule"},
+  {"id":4953345935,"lat":51.478817,"lon":14.365693,"k":"p","n":"Burghammer Bernsteinstraße"},
+  {"id":8926081198,"lat":51.491411,"lon":14.371997,"k":"x","n":"Burgneudorf Spremberger Straße"},
+  {"id":8926081199,"lat":51.491411,"lon":14.372101,"k":"p","n":"Burgneudorf Spremberger Straße"},
+  {"id":8926099460,"lat":51.478812,"lon":14.365723,"k":"x","n":"Burghammer Bernsteinstraße"},
+  {"id":6041425984221,"lat":51.490201,"lon":14.370925,"k":"p","n":"Burgneudorf Spremberger Straße","g":1},
+  {"id":6069900533713,"lat":51.490302,"lon":14.370898,"k":"p","n":"Burgneudorf Spremberger Straße","g":1}
+],
+"routes":[
+  {"id":8054995,"t":{"ref":"781","name":"Bus 781: Bluno => => Burgneudorf => Lohsa","from":"Bluno, Gasthaus","to":"Lohsa, Schule","network":"Verkehrsverbund Oberelbe","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":4,"s":[[4951741410,1]]},
+  {"id":3004620078947,"t":{"ref":"536","name":"PlusBus 536: Schleife => Burgneudorf => Hoyerswerda","from":"Schleife Schulzentrum","to":"Hoyerswerda Bahnhof","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[4951741410,10],[6069900533713,11],[8926099460,12]]},
+  {"id":3011052193436,"t":{"ref":"781","name":"781: Lohsa Schule - Bluno Gasthaus","from":"Lohsa Schule","to":"Bluno Gasthaus","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":20,"s":[[8926099460,10],[6069900533713,11],[4951741410,12]]},
+  {"id":3028340177960,"t":{"ref":"536","name":"PlusBus 536: Schleife => Burgneudorf => Hoyerswerda","from":"Schleife Schulzentrum","to":"Hoyerswerda Bahnhof","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":20,"s":[[6069900533713,10],[8926099460,11]]},
+  {"id":3031918027527,"t":{"ref":"536","name":"PlusBus 536: Hoyerswerda => Burgneudorf => Schleife","from":"Hoyerswerda Bahnhof","to":"Schleife Mühle","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[8926099460,10],[6041425984221,11],[4951741410,12]]},
+  {"id":3035269632611,"t":{"ref":"536","name":"PlusBus 536: Hoyerswerda => Burgneudorf => Schleife","from":"Hoyerswerda Bahnhof","to":"Schleife Mühle","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":20,"s":[[8926099460,10],[6041425984221,11]]},
+  {"id":3040798232040,"t":{"ref":"793","name":"793: Burgneudorf Schule - Spremberg, Bahnhof","from":"Burgneudorf Schule","to":"Spremberg, Bahnhof","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":12,"s":[[4951741410,1]]},
+  {"id":3054574515656,"t":{"ref":"536","name":"PlusBus 536: Schleife => Burgneudorf => Hoyerswerda","from":"Schleife Schulzentrum","to":"Hoyerswerda Bahnhof","network":"Verkehrsverbund Oberelbe;Verkehrsverbund Oberlausitz-Niederschlesien","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":24,"s":[[4951741410,13],[6069900533713,14],[8926099460,15]]},
+  {"id":3083114717180,"t":{"ref":"793","name":"793: Spremberg, Bahnhof - Burgneudorf Schule","from":"Spremberg, Bahnhof","to":"Burgneudorf Schule","operator":"RBO-Busverkehr","route":"bus","public_transport:version":"2"},"n":12,"s":[[4951741410,12]]}
+]
+}

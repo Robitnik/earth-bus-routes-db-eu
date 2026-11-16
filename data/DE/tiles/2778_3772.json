@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2778,3772],
+"stops":[
+  {"id":309089622,"lat":48.907054,"lon":8.649621,"k":"x","n":"Straßenmeisterei"},
+  {"id":309089633,"lat":48.906154,"lon":8.648204,"k":"x","n":"Göppinger Straße"},
+  {"id":370412650,"lat":48.934892,"lon":8.600435,"k":"p","n":"Wilferdingen Sperlingshof"},
+  {"id":1441701567,"lat":48.906153,"lon":8.648133,"k":"p","n":"Göppinger Straße"},
+  {"id":1441701574,"lat":48.906228,"lon":8.648277,"k":"p","n":"Göppinger Straße"},
+  {"id":2166062364,"lat":48.90702,"lon":8.649408,"k":"p","n":"Straßenmeisterei"},
+  {"id":2327105140,"lat":48.934902,"lon":8.600494,"k":"x","n":"Wilferdingen Sperlingshof"},
+  {"id":4555771498,"lat":48.903382,"lon":8.649786,"k":"x","n":"Offenburger Straße"},
+  {"id":8445933876,"lat":48.903372,"lon":8.649864,"k":"p","n":"Offenburger Straße"},
+  {"id":8445933877,"lat":48.903417,"lon":8.649748,"k":"p","n":"Offenburger Straße"},
+  {"id":6007776359174,"lat":48.929972,"lon":8.645083,"k":"p","n":"Ersingen Tankstelle","g":1},
+  {"id":6019611859931,"lat":48.948876,"lon":8.620341,"k":"p","n":"Bilfingen Bahnhof","g":1},
+  {"id":6043631174673,"lat":48.933327,"lon":8.63749,"k":"p","n":"Ersingen Untere Eisinger Str.","g":1}
+],
+"routes":[
+  {"id":4097767,"t":{"ref":"722s","name":"Bus 722s: Wilferdingen => Nöttingen","from":"Wilferdingen Bahnhof","to":"Nöttingen Schule","network":"Verkehrsverbund Pforzheim-Enzkreis","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[370412650,2]]},
+  {"id":6798231,"t":{"ref":"6","name":"Bus 6: Wilferdinger Höhe => Haidach","from":"Wilferdinger Höhe","to":"Haidach","network":"Verkehrsverbund Pforzheim-Enzkreis","operator":"RVS","route":"bus","public_transport:version":"2"},"n":37,"s":[[8445933876,1],[1441701574,2],[2166062364,3]]},
+  {"id":3004504189081,"t":{"ref":"6","name":"Bus 6: Haidach => Wilferdinger Höhe","from":"Haidach","to":"Wilferdinger Höhe","network":"Verkehrsverbund Pforzheim-Enzkreis","operator":"RVS","route":"bus","public_transport:version":"2"},"n":37,"s":[[4555771498,1],[309089633,2]]},
+  {"id":3065983324961,"t":{"ref":"922","name":"922: Singen Bergschule - Dietlingen Lessingstraße","from":"Singen Bergschule","to":"Dietlingen Lessingstraße","operator":"Regionalbusse","route":"bus","public_transport:version":"2"},"n":20,"s":[[2327105140,4]]},
+  {"id":3080442733226,"t":{"ref":"EVS5/S51","name":"EVS5/S51: Söllingen Reetzstraße - Pforzheim ZOB","from":"Söllingen Reetzstraße","to":"Pforzheim ZOB","operator":"Stadtbahn Karlsruhe SEV","route":"bus","public_transport:version":"2"},"n":12,"s":[[6019611859931,7],[6043631174673,8],[6007776359174,9]]},
+  {"id":3086299684925,"t":{"ref":"EVS5/S51","name":"EVS5/S51: Pforzheim ZOB - Söllingen Reetzstraße","from":"Pforzheim ZOB","to":"Söllingen Reetzstraße","operator":"Stadtbahn Karlsruhe SEV","route":"bus","public_transport:version":"2"},"n":12,"s":[[6007776359174,4],[6043631174673,5],[6019611859931,6]]},
+  {"id":3088557824018,"t":{"ref":"6","name":"Bus 6: Haidach => Wilferdinger Höhe","from":"Haidach","to":"Wilferdinger Höhe","network":"Verkehrsverbund Pforzheim-Enzkreis","operator":"RVS","route":"bus","public_transport:version":"2"},"n":37,"s":[[1441701567,36],[4555771498,37]]}
+]
+}

@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3826],
+"stops":[
+  {"id":1877270171,"lat":51.362772,"lon":11.310889,"k":"x","n":"Artern (Unstrut), Bahnhof"},
+  {"id":1877294444,"lat":51.362297,"lon":11.30671,"k":"x","n":"Artern, Rudolf-Breitscheid-Straße"},
+  {"id":1885359425,"lat":51.366004,"lon":11.300933,"k":"x","n":"Artern von-Fallersleben-Straße"},
+  {"id":8487156992,"lat":51.362306,"lon":11.306814,"k":"p","n":"Artern, Rudolf-Breitscheid-Straße"},
+  {"id":8487156993,"lat":51.362204,"lon":11.30678,"k":"p","n":"Artern, Rudolf-Breitscheid-Straße"},
+  {"id":8487156994,"lat":51.362851,"lon":11.310891,"k":"p","n":"Artern (Unstrut), Bahnhof"},
+  {"id":13120784899,"lat":51.392209,"lon":11.307703,"k":"p","n":"Voigtstedt"},
+  {"id":6016541699035,"lat":51.36324,"lon":11.310757,"k":"p","n":"Artern","g":1},
+  {"id":6091506524845,"lat":51.391632,"lon":11.306824,"k":"p","n":"Voigtstedt","g":1},
+  {"id":6093815181158,"lat":51.366838,"lon":11.302438,"k":"p","n":"Artern, Am Königstuhl","g":1}
+],
+"routes":[
+  {"id":3006262247236,"t":{"ref":"RE10","name":"RE10: Artern - Sangerhausen","from":"Artern","to":"Sangerhausen","operator":"DB Regio AG Südost","route":"bus","public_transport:version":"2"},"n":4,"s":[[8487156994,1],[13120784899,2]]},
+  {"id":3024523746736,"t":{"ref":"RB59","name":"RB59: Sangerhausen - Artern","from":"Sangerhausen","to":"Artern","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[6091506524845,3],[6016541699035,4]]},
+  {"id":3030282592640,"t":{"ref":"RB59","name":"RB59: Artern - Sangerhausen","from":"Artern","to":"Sangerhausen","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[6016541699035,1],[6091506524845,2]]},
+  {"id":3030443242517,"t":{"ref":"RB59","name":"RB59: Artern - Sangerhausen","from":"Artern","to":"Sangerhausen","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[6016541699035,1]]},
+  {"id":3036811367283,"t":{"ref":"484","name":"484: Artern, Bahnhof - Heldrungen, Bahnhof","from":"Artern, Bahnhof","to":"Heldrungen, Bahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":12,"s":[[8487156994,1],[8487156992,2]]},
+  {"id":3041416650455,"t":{"ref":"490","name":"490: Voigtstedt (Bushaltestelle) - Artern, Busbahnhof","from":"Voigtstedt (Bushaltestelle)","to":"Artern, Busbahnhof","operator":"Verkehrsgesellschaft Südharz","route":"bus","public_transport:version":"2"},"n":5,"s":[[13120784899,1]]},
+  {"id":3042269745831,"t":{"ref":"530","name":"Bus 530: Sondershausen => Bad Frankenhausen => Artern","from":"Sondershausen","to":"Artern","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[8487156993,15],[8487156994,16]]},
+  {"id":3042797733458,"t":{"ref":"481","name":"Bus 481: Artern => Ziegelroda","from":"Artern","to":"Ziegelroda","network":"Mitteldeutscher Verkehrsverbund","operator":"Verkehrsgesellschaft Südharz mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6093815181158,4],[8487156993,5],[8487156994,6]]},
+  {"id":3048368995582,"t":{"ref":"530","name":"Bus 530: Artern => Bad Frankenhausen => Sondershausen","from":"Artern","to":"Sondershausen","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[8487156994,1],[1877294444,2]]},
+  {"id":3049358934493,"t":{"ref":"530","name":"Bus 530: Sondershausen => Bad Frankenhausen => Artern","from":"Sondershausen","to":"Artern","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[8487156993,19],[8487156994,20]]},
+  {"id":3052135113332,"t":{"ref":"530","name":"Bus 530: Artern => Bad Frankenhausen => Sondershausen","from":"Artern","to":"Sondershausen","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[8487156994,1],[8487156992,2]]},
+  {"id":3082795950269,"t":{"ref":"RE10","name":"RE10: Sangerhausen - Artern","from":"Sangerhausen","to":"Artern","operator":"DB Regio AG Südost","route":"bus","public_transport:version":"2"},"n":4,"s":[[13120784899,3],[1877270171,4]]},
+  {"id":3083318190353,"t":{"ref":"RB59","name":"RB59: Sangerhausen - Artern","from":"Sangerhausen","to":"Artern","operator":"Abellio Rail Mitteldeutschland GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[6016541699035,2]]}
+]
+}

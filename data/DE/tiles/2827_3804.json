@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3804],
+"stops":[
+  {"id":1455236824,"lat":51.392133,"lon":10.231995,"k":"p","n":"Wingerode Lindenstraße"},
+  {"id":1455236825,"lat":51.392082,"lon":10.232198,"k":"p","n":"Wingerode Lindenstraße"},
+  {"id":1455236921,"lat":51.394401,"lon":10.219613,"k":"p","n":"Bodenrode Landstraße"},
+  {"id":1455236922,"lat":51.394539,"lon":10.219404,"k":"p","n":"Bodenrode Landstraße"},
+  {"id":1455256276,"lat":51.396051,"lon":10.209663,"k":"p","n":"Bodenrode Mitte"},
+  {"id":1455256281,"lat":51.39605,"lon":10.209975,"k":"p","n":"Bodenrode Mitte"},
+  {"id":6987580923,"lat":51.396038,"lon":10.209808,"k":"x","n":"Bodenrode Mitte"},
+  {"id":6987580924,"lat":51.398703,"lon":10.210706,"k":"x","n":"Schule"},
+  {"id":6987580925,"lat":51.398751,"lon":10.210729,"k":"p","n":"Schule"},
+  {"id":6987580926,"lat":51.392096,"lon":10.232115,"k":"x","n":"Wingerode Lindenstraße"},
+  {"id":6987580927,"lat":51.389979,"lon":10.244769,"k":"x","n":"Am Friedhof"},
+  {"id":6987580928,"lat":51.390031,"lon":10.244815,"k":"p","n":"Am Friedhof"},
+  {"id":6004820362369,"lat":51.391285,"lon":10.23945,"k":"p","n":"Wingerode, Wendeschleife","g":1},
+  {"id":6052689977080,"lat":51.396168,"lon":10.210556,"k":"p","n":"Bodenrode, Mitte","g":1}
+],
+"routes":[
+  {"id":10311790,"t":{"ref":"4","name":"Bus 4 (2-4): Heiligenstadt => Leinefelde Abbestraße","from":"Heiligenstadt ZOB","to":"Leinefelde Abbestraße","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":9,"s":[[1455256281,4],[1455236825,5]]},
+  {"id":10311791,"t":{"ref":"4","name":"Bus 4 (2-3): Heiligenstadt Göttinger Str. => Leinefelde via Beuren Schule","from":"Heiligenstadt Göttinger Straße","to":"Leinefelde ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":9,"s":[[1455256281,5],[1455236825,6]]},
+  {"id":10311793,"t":{"ref":"4","name":"Bus 4 (2-1): Heiligenstadt => Leinefelde","from":"Heiligenstadt ZOB","to":"Leinefelde ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":8,"s":[[1455256281,4],[1455236825,5]]},
+  {"id":10311794,"t":{"ref":"4","name":"Bus 4 (1-4): Leinefelde => Wingerode","from":"Leinefelde ZOB","to":"Wingerode Wendeschleife","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":4,"s":[[6987580928,4]]},
+  {"id":10311796,"t":{"ref":"4","name":"Bus 4 (1-3): Leinefelde Abbestraße => Heiligenstadt via Bodenrode Schule","from":"Leinefelde Abbestraße","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":11,"s":[[6987580928,5],[1455236824,6],[6987580925,7],[1455256276,8]]},
+  {"id":10311797,"t":{"ref":"4","name":"Bus 4 (1-2): Leinefelde Abbestraße => Heiligenstadt","from":"Leinefelde Abbestraße","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":10,"s":[[6987580928,5],[1455236824,6],[1455256276,7]]},
+  {"id":10311798,"t":{"ref":"4","name":"Bus 4 (1-1): Leinefelde => Heiligenstadt","from":"Leinefelde ZOB","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":9,"s":[[6987580928,4],[1455236824,5],[1455256276,6]]},
+  {"id":10318930,"t":{"ref":"3","name":"Bus 3 (2-6): Heiligenstadt => Günterode nicht via Heiligenstadt Marktplatz","from":"Heiligenstadt ZOB","to":"Günterode","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":9,"s":[[1455256281,3],[6987580925,4]]},
+  {"id":10318931,"t":{"ref":"3","name":"Bus 3 (2-5): Heiligenstadt => Glasehausen","from":"Heiligenstadt ZOB","to":"Glasehausen","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":10,"s":[[1455256281,4],[6987580925,5]]},
+  {"id":10318932,"t":{"ref":"3","name":"Bus 3 (2-4): Heiligenstadt => Günterode via T.-Riemenschn.-Schule","from":"Heiligenstadt ZOB","to":"Günterode","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":10,"s":[[1455256281,4],[6987580925,5]]},
+  {"id":10318933,"t":{"ref":"3","name":"Bus 3 (2-3): Heiligenstadt => Günterode via Westhausen","from":"Heiligenstadt ZOB","to":"Günterode","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":10,"s":[[1455256281,4],[6987580925,5]]},
+  {"id":10318934,"t":{"ref":"3","name":"Bus 3 (2-2): Heiligenstadt => Günterode","from":"Heiligenstadt ZOB","to":"Günterode","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":10,"s":[[1455256281,4],[6987580925,5]]},
+  {"id":10318935,"t":{"ref":"3","name":"Bus 3 (2-1): Geisleden => Günterode","from":"Geisleden","to":"Günterode","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":10,"s":[[1455256281,4],[6987580925,5]]},
+  {"id":10318936,"t":{"ref":"3","name":"Bus 3 (1-5): Günterode => Geisleden","from":"Günterode","to":"Geisleden","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":11,"s":[[6987580925,7],[1455256276,8]]},
+  {"id":10318937,"t":{"ref":"3","name":"Bus 3 (1-4): Bodenrode => Geisleden","from":"Bodenrode","to":"Geisleden","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":5,"s":[[6987580925,1],[1455256276,2]]},
+  {"id":10318938,"t":{"ref":"3","name":"Bus 3 (1-3): Günterode => Heiligenstadt","from":"Günterode","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":10,"s":[[6987580925,6],[1455256276,7]]},
+  {"id":10318939,"t":{"ref":"3","name":"Bus 3 (1-2): Reinholterode => Heiligenstadt","from":"Reinholterode","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":11,"s":[[6987580925,5],[1455256276,6]]},
+  {"id":10318940,"t":{"ref":"3","name":"Bus 3 (1-1): Glasehausen => Heiligenstadt","from":"Glasehausen","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"beige","route":"bus","public_transport:version":"2"},"n":12,"s":[[6987580925,7],[1455256276,8]]},
+  {"id":3058866624896,"t":{"ref":"4","name":"Bus 4 (1-5): Leinefelde => Heiligenstadt (Rufbus)","from":"Leinefelde ZOB","to":"Heiligenstadt ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":15,"s":[[6987580927,5],[6004820362369,6],[6987580926,7],[1455256276,8]]},
+  {"id":3061539662081,"t":{"ref":"4","name":"Bus 4 (2-5): Heiligenstadt => Leinefelde via Beuren Schule","from":"Heiligenstadt ZOB","to":"Leinefelde ZOB","network":"EW Bus","operator":"EW Bus","colour":"pink","route":"bus","public_transport:version":"2"},"n":16,"s":[[6052689977080,9],[1455236825,10],[6004820362369,11],[6987580927,12]]}
+]
+}

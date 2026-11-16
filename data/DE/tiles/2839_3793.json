@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2839,3793],
+"stops":[
+  {"id":5514957286,"lat":51.990394,"lon":9.651737,"k":"x","n":"Fölziehausen"},
+  {"id":5514957288,"lat":51.99158,"lon":9.658403,"k":"p","n":"Fölziehausen Forsthaus"},
+  {"id":8598543782,"lat":51.990392,"lon":9.651584,"k":"p","n":"Fölziehausen"},
+  {"id":8598543783,"lat":51.990368,"lon":9.651813,"k":"p","n":"Fölziehausen"},
+  {"id":8599355119,"lat":51.978357,"lon":9.652065,"k":"p","n":"Capellenhagen"},
+  {"id":8599355120,"lat":51.978321,"lon":9.652115,"k":"x","n":"Capellenhagen"}
+],
+"routes":[
+  {"id":8160852,"t":{"ref":"642","operator":"RVHi","route":"bus"},"n":3,"s":[[8598543783,1],[8598543782,2]]},
+  {"id":3008026536891,"t":{"ref":"641","name":"Bus 641: Capellenhagen → Gronau","from":"Capellenhagen","to":"Gronau","network":"ROSA","operator":"RVHI","colour":"orange","route":"bus","public_transport:version":"2"},"n":26,"s":[[8599355120,1],[5514957286,2]]},
+  {"id":3051795160521,"t":{"ref":"642","name":"642: Duingen/Bahnhof - Capellenhagen","from":"Duingen/Bahnhof","to":"Capellenhagen","operator":"RVHI Regionalverkehr Hildesheim GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[5514957286,3],[8599355120,4]]},
+  {"id":3063177276755,"t":{"ref":"642","name":"642: Delligsen Schulzentrum - Hoyershausen","from":"Delligsen Schulzentrum","to":"Hoyershausen","operator":"RVHI Regionalverkehr Hildesheim GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[5514957286,10],[8599355120,11]]},
+  {"id":3071009587315,"t":{"ref":"641","name":"Bus 641: Capellenhagen → Gronau","from":"Capellenhagen","to":"Gronau","network":"ROSA","operator":"RVHI","colour":"orange","route":"bus","public_transport:version":"2"},"n":25,"s":[[5514957286,24],[8599355120,25]]},
+  {"id":3091527344896,"t":{"ref":"642","name":"642: Capellenhagen - Duingen/Bahnhof","from":"Capellenhagen","to":"Duingen/Bahnhof","operator":"RVHI Regionalverkehr Hildesheim GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[8599355120,1],[5514957286,2]]}
+]
+}

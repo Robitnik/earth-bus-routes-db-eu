@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2797,3802],
+"stops":[
+  {"id":292570733,"lat":49.877613,"lon":10.1223,"k":"x"},
+  {"id":404528518,"lat":49.863624,"lon":10.128665,"k":"p","n":"Prosselsheim Amtskeller"},
+  {"id":404528525,"lat":49.863597,"lon":10.128609,"k":"p","n":"Prosselsheim Amtskeller"},
+  {"id":505640209,"lat":49.877596,"lon":10.122371,"k":"p","n":"Püssensheim Ort"},
+  {"id":505640216,"lat":49.877573,"lon":10.122262,"k":"p","n":"Püssensheim Ort"},
+  {"id":554244508,"lat":49.898322,"lon":10.124754,"k":"p","n":"Dipbach Ort","ref":"Linie 44"},
+  {"id":5460132250,"lat":49.864927,"lon":10.127675,"k":"p","n":"Prosselsheim Püssensheimer Str."},
+  {"id":5460132255,"lat":49.865011,"lon":10.127961,"k":"p","n":"Prosselsheim Püssensheimer Str."},
+  {"id":5460132257,"lat":49.865622,"lon":10.122317,"k":"p"},
+  {"id":6600068815,"lat":49.8978,"lon":10.124926,"k":"p","n":"Dipbach Ort","ref":"Linie 44"},
+  {"id":6600068816,"lat":49.898324,"lon":10.124829,"k":"x","n":"Dipbach Ort"},
+  {"id":6600068817,"lat":49.897777,"lon":10.124856,"k":"x"},
+  {"id":8856292200,"lat":49.862575,"lon":10.127823,"k":"p","n":"Prosselsheim Schulbus"},
+  {"id":8856292201,"lat":49.862631,"lon":10.127857,"k":"p","n":"Prosselsheim Schulbus"},
+  {"id":9445101128,"lat":49.854448,"lon":10.102866,"k":"p","n":"Seligenstadt (bei Würzburg)"},
+  {"id":12345114336,"lat":49.863607,"lon":10.12862,"k":"x","n":"Prosselsheim Amtskeller"}
+],
+"routes":[
+  {"id":6840755,"t":{"ref":"305/8305","name":"Bus 305: Würzburg => Gaibach","from":"Würzburg","to":"Gaibach","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":14,"s":[[404528525,4]]},
+  {"id":6840757,"t":{"ref":"305/8305","name":"Bus 305:Würzburg => Volkach Bahnhof 1_01","from":"Würzburg","to":"Volkach Bahnhof","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":12,"s":[[404528525,5]]},
+  {"id":6858680,"t":{"ref":"305/8305","name":"Bus 305: Volkach Kaserne => Würzburg","from":"Volkach Kaserne","to":"Würzburg","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":12,"s":[[404528518,9]]},
+  {"id":6858681,"t":{"ref":"305/8305","name":"Bus 305: Volkach Eichfelder Straße => Würzburg über Escherndorf 2_18","from":"Volkach Eichfelder Straße","to":"Würzburg","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":14,"s":[[404528518,11]]},
+  {"id":6858683,"t":{"ref":"305/8305","name":"Bus 305: Volkach Volksschule => Würzburg","from":"Volkach Volksschule","to":"Würzburg","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":14,"s":[[404528518,11]]},
+  {"id":6858684,"t":{"ref":"305/8305","name":"Bus 305: Volkach Volksschule => Würzburg über Oberpleichfeld","from":"Volkach Volksschule","to":"Würzburg","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":15,"s":[[404528518,11]]},
+  {"id":6858685,"t":{"ref":"305/8305","name":"Bus 305: Würzburg => Volkach Kaserne über Oberpleichfeld","from":"Würzburg","to":"Volkach Kaserne","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":16,"s":[[404528525,5]]},
+  {"id":18347135,"t":{"ref":"316/8316","name":"Bus 316: Dettelbach Realschule => Oberpleichfeld","from":"Dettelbach Realschule","to":"Oberpleichfeld","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":9,"s":[[404528525,5],[505640216,6],[554244508,7]]},
+  {"id":18347156,"t":{"ref":"316/8316","name":"Bus 316: Bergtheim Marktplatz => Dettelbach Realschule","from":"Bergtheim Marktplatz","to":"Dettelbach Realschule","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":8,"s":[[554244508,1],[505640216,2],[404528525,4]]},
+  {"id":3002185893192,"t":{"ref":"445","name":"445: Seligenstadt (b Würzburg) - Obereisenheim Mainfähre","from":"Seligenstadt (b Würzburg)","to":"Obereisenheim Mainfähre","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[9445101128,1],[5460132255,3],[505640209,4],[6600068815,5]]},
+  {"id":3010158388012,"t":{"ref":"445","name":"445: Obereisenheim Mainfähre - Seligenstadt (b Würzburg)","from":"Obereisenheim Mainfähre","to":"Seligenstadt (b Würzburg)","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[554244508,3],[505640216,4],[5460132255,5],[9445101128,7]]},
+  {"id":3043979414361,"t":{"ref":"305","name":"305: Volkach Volksschule - Würzburg, Hauptbahnhof ZOB","from":"Volkach Volksschule","to":"Würzburg, Hauptbahnhof ZOB","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":16,"s":[[404528518,11]]},
+  {"id":3044448223839,"t":{"ref":"238","name":"238: Dipbach Ort - Schweinfurt Theater","from":"Dipbach Ort","to":"Schweinfurt Theater","operator":"02","route":"bus","public_transport:version":"2"},"n":11,"s":[[6600068816,1]]},
+  {"id":3064472061428,"t":{"ref":"305","name":"305: Würzburg, Hauptbahnhof ZOB - Volkach Eichfelder Str.","from":"Würzburg, Hauptbahnhof ZOB","to":"Volkach Eichfelder Str.","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":15,"s":[[404528525,5]]},
+  {"id":3073397944278,"t":{"ref":"305","name":"305: Würzburg, Hauptbahnhof ZOB - Volkach Eichfelder Str.","from":"Würzburg, Hauptbahnhof ZOB","to":"Volkach Eichfelder Str.","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":14,"s":[[404528525,4]]},
+  {"id":3077580280386,"t":{"ref":"305","name":"305: Volkach Volksschule - Würzburg, Hauptbahnhof ZOB","from":"Volkach Volksschule","to":"Würzburg, Hauptbahnhof ZOB","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":14,"s":[[404528518,11]]},
+  {"id":3098185278411,"t":{"ref":"238","name":"238: Schweinfurt Theater - Dipbach Ort","from":"Schweinfurt Theater","to":"Dipbach Ort","operator":"02","route":"bus","public_transport:version":"2"},"n":19,"s":[[6600068816,19]]}
+]
+}

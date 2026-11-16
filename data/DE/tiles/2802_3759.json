@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2802,3759],
+"stops":[
+  {"id":1278514282,"lat":50.126675,"lon":7.992579,"k":"p","n":"Landhaus Dornbach"},
+  {"id":1278514943,"lat":50.12679,"lon":7.992812,"k":"p","n":"Landhaus Dornbach"},
+  {"id":2225075917,"lat":50.104285,"lon":7.990513,"k":"p","n":"Niedergladbach Kirche","ref":"211"},
+  {"id":4822486110,"lat":50.104272,"lon":7.990474,"k":"x","n":"Niedergladbach Kirche"},
+  {"id":4822486111,"lat":50.104497,"lon":7.989878,"k":"p","n":"Niedergladbach Kirche"},
+  {"id":4828648286,"lat":50.104536,"lon":7.989911,"k":"x","n":"Niedergladbach Kirche"},
+  {"id":7419491328,"lat":50.143182,"lon":7.9836,"k":"p","n":"Dorfgemeinschaftshaus"},
+  {"id":7419491329,"lat":50.143201,"lon":7.983934,"k":"p","n":"Dorfgemeinschaftshaus"},
+  {"id":7590206161,"lat":50.126726,"lon":7.992842,"k":"x","n":"Landhaus Dornbach"},
+  {"id":7590206162,"lat":50.126704,"lon":7.992576,"k":"x","n":"Landhaus Dornbach"},
+  {"id":7598730906,"lat":50.143224,"lon":7.983926,"k":"x","n":"Dorfgemeinschaftshaus"},
+  {"id":7598730907,"lat":50.143127,"lon":7.983639,"k":"x","n":"Dorfgemeinschaftshaus"},
+  {"id":14273253449,"lat":50.144835,"lon":7.992061,"k":"x","n":"Bhakti Marga Zentrum"},
+  {"id":14273253450,"lat":50.144853,"lon":7.992061,"k":"p","n":"Bhakti Marga Zentrum"},
+  {"id":6057157586377,"lat":50.143757,"lon":7.992809,"k":"p","n":"Heidenrod-Springen Bhakti Marga Zentrum","g":1}
+],
+"routes":[
+  {"id":2841500,"t":{"ref":"211","name":"Bus 211: Bad Schwalbach => Niedergladbach","from":"Bad Schwalbach","to":"Geroldstein","network":"Rhein-Main-Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":12,"s":[[2225075917,12]]},
+  {"id":2841549,"t":{"ref":"211","name":"Bus 211: Geroldstein => Bad Schwalbach","from":"Geroldstein","to":"Bad Schwalbach","network":"Rhein-Main-Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":13,"s":[[4822486111,2]]},
+  {"id":8955915,"t":{"ref":"175","name":"Bus 175: Georgenborn => Niedergladbach","from":"Georgenborn","to":"Niedergladbach","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"1"},"n":14,"s":[[2225075917,14]]},
+  {"id":9064825,"t":{"ref":"175","name":"Bus 175: Niedergladbach => Georgenborn","from":"Niedergladbach","to":"Georgenborn","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"1"},"n":13,"s":[[4822486111,1]]},
+  {"id":3000098330496,"t":{"ref":"205","name":"Bus 205: Espenschied => Kemel","from":"Espenschied Welteroder Weg","to":"Kemel Ehemalige Taunuskaserne","network":"RMV","operator":"Engelhardt","route":"bus","public_transport:version":"2"},"n":21,"s":[[1278514282,12],[7419491329,14],[6057157586377,15]]},
+  {"id":3002326450334,"t":{"ref":"173","name":"Bus 173: Niedergladbach => Eltville","from":"Niedergladbach","to":"Eltville","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"2"},"n":25,"s":[[4822486111,1]]},
+  {"id":3031314294259,"t":{"ref":"212","name":"Bus 212: Bad Schwalbach => (Hettenhain =>) Ramschied => Fischbach => Langenseifen => (Hettenhain =>) Bad Schwalbach","from":"Bad Schwalbach","to":"Bad Schwalbach","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"2"},"n":18,"s":[[1278514943,10]]},
+  {"id":3056940720569,"t":{"ref":"205","name":"Bus 205: Kemel => Espenschied","from":"Kemel Ehemalige Taunuskaserne","to":"Espenschied Welteroder Weg","network":"RMV","operator":"Engelhardt","route":"bus","public_transport:version":"2"},"n":20,"s":[[6057157586377,6],[7419491328,7]]},
+  {"id":3070263794848,"t":{"ref":"212","name":"Bus 212: Bad Schwalbach => (Hettenhain =>) Ramschied => Fischbach => Langenseifen => (Hettenhain =>) Bad Schwalbach","from":"Bad Schwalbach","to":"Bad Schwalbach","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"2"},"n":15,"s":[[1278514943,7]]},
+  {"id":3082805429469,"t":{"ref":"173","name":"Bus 173: Eltville => Niedergladbach","from":"Eltville","to":"Niedergladbach","network":"Rhein-Main-Verkehrsverbund","operator":"RTV","route":"bus","public_transport:version":"2"},"n":26,"s":[[2225075917,26]]}
+]
+}

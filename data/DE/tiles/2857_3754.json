@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2857,3754],
+"stops":[
+  {"id":2072030932,"lat":52.865734,"lon":7.708337,"k":"x","n":"Bockholter Straße"},
+  {"id":2072568496,"lat":52.869195,"lon":7.716745,"k":"x","n":"Kapelle"},
+  {"id":2211308109,"lat":52.86576,"lon":7.70832,"k":"p","n":"Bockholter Straße"},
+  {"id":2211368930,"lat":52.869241,"lon":7.716742,"k":"p","n":"Kapelle"},
+  {"id":8259798454,"lat":52.894576,"lon":7.7485,"k":"x","n":"Deters"},
+  {"id":8259882625,"lat":52.869223,"lon":7.717336,"k":"p","n":"Kapelle"},
+  {"id":8259882626,"lat":52.869269,"lon":7.717322,"k":"x","n":"Kapelle"},
+  {"id":6025277862198,"lat":52.866141,"lon":7.708587,"k":"p","n":"Werlte, Bockholter Str.","g":1}
+],
+"routes":[
+  {"id":12091296,"t":{"ref":"980","name":"Bus 980: Werlte, Busbahnhof => Vrees, Kirche => Papenburg, Schulzentrum Kleiststraße","from":"Werlte, Busbahnhof","to":"Papenburg, Schulzentrum Kleiststraße","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":36,"s":[[8259882625,2]]},
+  {"id":12091308,"t":{"ref":"980","name":"Bus 980: Papenburg, Bahnhof => Vrees, Kirche => Werlte, Busbahnhof","from":"Papenburg, Bahnhof","to":"Werlte, Busbahnhof","network":"Busverkehr Emsland-Mitte/Nord","operator":"Fischer Linienverkehre GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":41,"s":[[2211368930,40]]},
+  {"id":12111339,"t":{"ref":"931","name":"Bus 931: Vrees, Kirche => Sögel, Marktplatz","from":"Vrees, Kirche","to":"Sögel, Marktplatz","network":"Busverkehr Emsland-Mitte/Nord","operator":"Emsländische Eisenbahn GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2211368930,2],[2211308109,3]]},
+  {"id":3021801899982,"t":{"ref":"931","name":"Bus 931: Sögel, Marktplatz => Vrees, Kirche","from":"Sögel, Marktplatz","to":"Vrees, Kirche","network":"Busverkehr Emsland-Mitte/Nord","operator":"Emsländische Eisenbahn GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[8259882625,2],[6025277862198,3]]}
+]
+}

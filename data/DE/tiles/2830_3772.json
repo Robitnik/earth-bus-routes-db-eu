@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2830,3772],
+"stops":[
+  {"id":382744904,"lat":51.519495,"lon":8.642437,"k":"p","n":"Köpke"},
+  {"id":382744905,"lat":51.519356,"lon":8.643125,"k":"p","n":"Köpke"},
+  {"id":486811134,"lat":51.53326,"lon":8.61354,"k":"p","n":"Okental"},
+  {"id":486811135,"lat":51.533146,"lon":8.613573,"k":"p","n":"Okental"},
+  {"id":518970383,"lat":51.528541,"lon":8.62883,"k":"p","n":"Ort"},
+  {"id":518970414,"lat":51.530091,"lon":8.628416,"k":"x","n":"Kirche"},
+  {"id":518970417,"lat":51.530075,"lon":8.628336,"k":"p","n":"Kirche"},
+  {"id":4919603978,"lat":51.530056,"lon":8.624646,"k":"p","n":"Drift"},
+  {"id":4919603979,"lat":51.530409,"lon":8.624445,"k":"p","n":"Drift"},
+  {"id":9301745013,"lat":51.530429,"lon":8.628011,"k":"x","n":"Kirche"},
+  {"id":9301745014,"lat":51.530411,"lon":8.628095,"k":"p","n":"Kirche"},
+  {"id":6026202226085,"lat":51.528136,"lon":8.628902,"k":"p","n":"Bür-Hegensdorf, Ort","g":1},
+  {"id":6030183016373,"lat":51.533037,"lon":8.616254,"k":"p","n":"Bür-Hegensdorf, Okental","g":1},
+  {"id":6074002526147,"lat":51.533071,"lon":8.615769,"k":"p","n":"Bür-Hegensdorf, Okental","g":1}
+],
+"routes":[
+  {"id":1727896,"t":{"ref":"Bür5","name":"Bus Bür5: Hegensdorf => Büren","from":"Hegensdorf Kirche","to":"Büren Alte Post","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[9301745014,1],[486811134,2]]},
+  {"id":1727958,"t":{"ref":"Bür5","name":"Bus Bür5: Büren => Hegensdorf","from":"Büren Alte Post","to":"Hegensdorf Kirche","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[486811135,8],[518970417,9]]},
+  {"id":7337262,"t":{"ref":"465","name":"Bus 465: Fürstenberg Siedlung => Büren","from":"Fürstenberg Siedlung","to":"Büren Alte Post","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[382744905,11],[4919603979,12],[486811134,13]]},
+  {"id":7337263,"t":{"ref":"465","name":"Bus 465: Büren => Bad Wünnenberg","from":"Büren Alte Post","to":"Bad Wünnenberg Schäferstraße","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[486811135,5],[4919603978,6],[518970383,7],[518970417,8],[382744904,9]]},
+  {"id":13501540,"t":{"ref":"465","name":"Bus 465: Fürstenberg Kirche => Büren","from":"Fürstenberg Kirche","to":"Büren Alte Post","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[382744905,11],[4919603979,12],[486811134,13]]},
+  {"id":17161235,"t":{"ref":"410","name":"Bus 410: Bad Wünnenberg => Hegensdorf","from":"Bad Wünnenberg Schäferstraße","to":"Hegensdorf Kirche","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[382744905,7],[9301745014,8]]},
+  {"id":17161236,"t":{"ref":"410","name":"Bus 410: Hegensdorf => Bad Wünnenberg","from":"Hegensdorf Kirche","to":"Bad Wünnenberg Schäferstraße","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[518970417,1],[518970383,2],[382744904,3]]},
+  {"id":3005881909223,"t":{"ref":"Bu5","name":"Bu5: Bür-Hegensdorf, Kirche - Büren, Alte Post","from":"Bür-Hegensdorf, Kirche","to":"Büren, Alte Post","operator":"nph-Linienbündel 12","route":"bus","public_transport:version":"2"},"n":10,"s":[[518970417,1],[518970383,2],[4919603979,3]]},
+  {"id":3016700021509,"t":{"ref":"417","name":"417: Bür-Hegensdorf, Kirche - B.W-Fürstenberg, Kirche","from":"Bür-Hegensdorf, Kirche","to":"B.W-Fürstenberg, Kirche","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":14,"s":[[518970417,1],[6074002526147,2],[382744905,3]]},
+  {"id":3046236620211,"t":{"ref":"Bu5","name":"Bu5: Büren, Alte Post - Bür-Hegensdorf, Kirche","from":"Büren, Alte Post","to":"Bür-Hegensdorf, Kirche","operator":"nph-Linienbündel 12","route":"bus","public_transport:version":"2"},"n":9,"s":[[6030183016373,8],[9301745014,9]]},
+  {"id":3083787443672,"t":{"ref":"417","name":"417: B.W-Fürstenberg, Kirche - Bür-Hegensdorf, Kirche","from":"B.W-Fürstenberg, Kirche","to":"Bür-Hegensdorf, Kirche","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":14,"s":[[382744905,12],[6026202226085,13],[518970417,14]]}
+]
+}

@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2780,3784],
+"stops":[
+  {"id":92807868,"lat":49.002199,"lon":9.219843,"k":"x","n":"Ottmarsheimer Straße"},
+  {"id":534459439,"lat":49.014064,"lon":9.211149,"k":"x","n":"Carl-Zeiss-Straße"},
+  {"id":563325381,"lat":49.001756,"lon":9.204615,"k":"p","n":"Hessigheimer Straße"},
+  {"id":1626991147,"lat":49.011582,"lon":9.209136,"k":"x","n":"Carl-Benz-Straße"},
+  {"id":3703573097,"lat":49.001762,"lon":9.20479,"k":"p","n":"Hessigheimer Straße"},
+  {"id":4281906391,"lat":49.016777,"lon":9.202091,"k":"p","n":"Rathaus"},
+  {"id":4281973389,"lat":49.016709,"lon":9.203625,"k":"p","n":"Rathaus"},
+  {"id":4281975972,"lat":49.016786,"lon":9.206199,"k":"p","n":"Ilsfelder Straße"},
+  {"id":8862167625,"lat":49.036098,"lon":9.238009,"k":"p","n":"Pfahlhof"},
+  {"id":8862167626,"lat":49.036183,"lon":9.238091,"k":"p","n":"Pfahlhof"},
+  {"id":9084342280,"lat":49.002159,"lon":9.219862,"k":"p","n":"Ottmarsheimer Straße"},
+  {"id":9084342281,"lat":49.001771,"lon":9.204699,"k":"x","n":"Hessigheimer Straße"},
+  {"id":9879026303,"lat":49.002272,"lon":9.219779,"k":"p","n":"Ottmarsheimer Straße"},
+  {"id":13015123060,"lat":49.014044,"lon":9.211206,"k":"p","n":"Carl-Zeiss-Straße"},
+  {"id":13015123061,"lat":49.011551,"lon":9.209151,"k":"p","n":"Carl-Benz-Straße"}
+],
+"routes":[
+  {"id":3831404,"t":{"ref":"646","name":"Bus 646: Kirchheim => Untergruppenbach","from":"Kirchheim Bf.","to":"Untergruppenbach Kirche","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"RBS","route":"bus","public_transport:version":"2"},"n":18,"s":[[8862167625,4]]},
+  {"id":8672440,"t":{"ref":"568","name":"Bus 568: Freudental => Löchgau => Ottmarsheim","from":"Freudental","to":"Ottmarsheim","network":"Verkehrs- und Tarifverbund Stuttgart","route":"bus","public_transport:version":"2"},"n":12,"s":[[13015123061,12]]},
+  {"id":10587619,"t":{"ref":"N58","name":"Bus N58: Bietigheim ZOB => Kirchheim => Bietigheim ZOB","from":"Bietigheim ZOB","to":"Bietigheim ZOB","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":23,"s":[[4281975972,10],[4281906391,11]]},
+  {"id":11604382,"t":{"ref":"573","name":"Bus 573: Ottmarsheim => Gemmrigheim => Kirchheim","from":"Ottmarsheim","to":"Kirchheim","network":"Verkehrs- und Tarifverbund Stuttgart","route":"bus","public_transport:version":"2"},"n":7,"s":[[13015123061,1],[13015123060,2]]},
+  {"id":11604383,"t":{"ref":"573","name":"Bus 573: Kirchheim => Gemmrigheim => Ottmarsheim","from":"Kirchheim","to":"Ottmarsheim","network":"Verkehrs- und Tarifverbund Stuttgart","route":"bus","public_transport:version":"2"},"n":6,"s":[[13015123060,6]]},
+  {"id":13199666,"t":{"ref":"464","name":"Bus 464: Besigheim => Marbach","from":"Besigheim","to":"Marbach Bahnhof","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":17,"s":[[563325381,7],[9084342280,8]]},
+  {"id":14339959,"t":{"ref":"464","name":"Bus 464: Marbach => Besigheim","from":"Marbach Bahnhof","to":"Besigheim","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":17,"s":[[9879026303,10],[3703573097,11]]},
+  {"id":20165727,"t":{"ref":"N44","name":"Bus N44: Freiberg => Hessigheim => Freiberg","from":"Freiberg","to":"Freiberg","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"LVL","route":"bus","public_transport:version":"2"},"n":27,"s":[[3703573097,17]]},
+  {"id":3029160246918,"t":{"ref":"459","name":"Bus 459: Freiberg => Besigheim","from":"Freiberg","to":"Besigheim","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":18,"s":[[3703573097,11]]},
+  {"id":3031546819605,"t":{"ref":"459","name":"Bus 459: Freiberg => Besigheim","from":"Freiberg","to":"Besigheim","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":11,"s":[[563325381,1]]},
+  {"id":3039368604298,"t":{"ref":"646","name":"646: Auenstein Hauptstraße - Kirchheim (N)","from":"Auenstein Hauptstraße","to":"Kirchheim (N)","operator":"Bus (Region)","route":"bus","public_transport:version":"2"},"n":9,"s":[[8862167626,5]]},
+  {"id":3041818137040,"t":{"ref":"573","name":"573: Ottmarsheim Carl-Benz-Str. - Besigheim","from":"Ottmarsheim Carl-Benz-Str.","to":"Besigheim","operator":"Privatunternehmer-Bus (VVS)","route":"bus","public_transport:version":"2"},"n":13,"s":[[1626991147,1],[13015123060,2],[4281975972,3],[4281906391,4]]},
+  {"id":3044555609015,"t":{"ref":"646","name":"Bus 646: Untergruppenbach => Kirchheim","from":"Untergruppenbach Kirche","to":"Kirchheim Bf.","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"RBS","route":"bus","public_transport:version":"2"},"n":19,"s":[[8862167626,15]]},
+  {"id":3046726695326,"t":{"ref":"573","name":"573: Besigheim - Ottmarsheim Carl-Benz-Str.","from":"Besigheim","to":"Ottmarsheim Carl-Benz-Str.","operator":"Privatunternehmer-Bus (VVS)","route":"bus","public_transport:version":"2"},"n":9,"s":[[1626991147,9]]},
+  {"id":3058709947198,"t":{"ref":"459","name":"Bus 459: Besigheim => Freiberg","from":"Besigheim Bhf","to":"Freiberg","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":18,"s":[[563325381,8]]},
+  {"id":3061805203045,"t":{"ref":"646","name":"Bus 646: Untergruppenbach => Kirchheim","from":"Untergruppenbach Kirche","to":"Kirchheim Bf.","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"RBS","route":"bus","public_transport:version":"2"},"n":20,"s":[[8862167626,16]]},
+  {"id":3098558367485,"t":{"ref":"459","name":"Bus 459: Freiberg => Besigheim","from":"Freiberg","to":"Besigheim","network":"Verkehrs- und Tarifverbund Stuttgart","operator":"FMO","route":"bus","public_transport:version":"2"},"n":11,"s":[[3703573097,11]]}
+]
+}

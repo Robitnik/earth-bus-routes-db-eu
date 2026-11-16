@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2793,3793],
+"stops":[
+  {"id":653296711,"lat":49.69843,"lon":9.698385,"k":"p","n":"Schule"},
+  {"id":653296730,"lat":49.69612,"lon":9.695115,"k":"p","n":"Wenkheim Zellenrain"},
+  {"id":660145954,"lat":49.680444,"lon":9.679476,"k":"p","n":"Werbachhausen"},
+  {"id":1874258192,"lat":49.683414,"lon":9.693893,"k":"p","n":"Brunntal Ort"},
+  {"id":2452480151,"lat":49.696052,"lon":9.695254,"k":"p","n":"Wenkheim Zellenrain"},
+  {"id":9945227519,"lat":49.696088,"lon":9.695173,"k":"x","n":"Wenkheim Zellenrain"},
+  {"id":6033759099142,"lat":49.671316,"lon":9.656521,"k":"p","n":"Werbach, Welzmühle","g":1},
+  {"id":6035427046496,"lat":49.697105,"lon":9.692445,"k":"p","n":"Wenkheim, Zellenrain","g":1},
+  {"id":6044777510238,"lat":49.687795,"lon":9.685222,"k":"p","n":"Wenkheim, Emmentaler Mühle","g":1},
+  {"id":6091312909116,"lat":49.671177,"lon":9.655003,"k":"p","n":"Werbach, Welzmühle","g":1}
+],
+"routes":[
+  {"id":3195859,"t":{"ref":"492","name":"Bus 492: Würzburg => Wenkheim","from":"Würzburg Busbahnhof","to":"Wenkheim Zellenrain","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":15,"s":[[653296730,15]]},
+  {"id":3011629461289,"t":{"ref":"492","name":"492: Wenkheim, Zellenrain - Würzburg, Hauptbahnhof ZOB","from":"Wenkheim, Zellenrain","to":"Würzburg, Hauptbahnhof ZOB","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":19,"s":[[6035427046496,1]]},
+  {"id":3046943543602,"t":{"ref":"9876","name":"9876: Tauberbischofsheim, Abz. Külsh - Bronnbach, Kloster","from":"Tauberbischofsheim, Abz. Külsh","to":"Bronnbach, Kloster","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[6033759099142,17],[660145954,18],[1874258192,19],[6044777510238,20],[2452480151,21],[653296711,22]]},
+  {"id":3054069401871,"t":{"ref":"492","name":"492: Würzburg, Hauptbahnhof ZOB - Wenkheim, Zellenrain","from":"Würzburg, Hauptbahnhof ZOB","to":"Wenkheim, Zellenrain","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":20,"s":[[653296730,20]]},
+  {"id":3063645767248,"t":{"ref":"492","name":"492: Wenkheim, Zellenrain - Würzburg, Hauptbahnhof ZOB","from":"Wenkheim, Zellenrain","to":"Würzburg, Hauptbahnhof ZOB","operator":"Verkehrsgemeinschaft Main-Tauber","route":"bus","public_transport:version":"2"},"n":17,"s":[[2452480151,1]]},
+  {"id":3067172507667,"t":{"ref":"9876","name":"9876: Bronnbach, Kloster - Tauberbischofsheim, Abz. Külsh","from":"Bronnbach, Kloster","to":"Tauberbischofsheim, Abz. Külsh","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":30,"s":[[653296711,9],[2452480151,10],[6044777510238,11],[1874258192,12],[660145954,13],[6091312909116,14]]},
+  {"id":3080149061659,"t":{"ref":"492","name":"492: Würzburg, Hauptbahnhof ZOB - Wenkheim, Zellenrain","from":"Würzburg, Hauptbahnhof ZOB","to":"Wenkheim, Zellenrain","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":23,"s":[[6035427046496,23]]}
+]
+}

@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2815,3869],
+"stops":[
+  {"id":1762218111,"lat":50.771716,"lon":13.487339,"k":"x","n":"Nassau, Ölmühle"},
+  {"id":2413926430,"lat":50.79123,"lon":13.487154,"k":"x","n":"Dittersbach, Wendeplatz"},
+  {"id":2413932191,"lat":50.794291,"lon":13.482639,"k":"x","n":"Dittersbach, Schule"},
+  {"id":3020929603,"lat":50.755183,"lon":13.498954,"k":"p","n":"Clausnitz Bahnhof"},
+  {"id":3054151307,"lat":50.751127,"lon":13.494502,"k":"p","n":"Clausnitz Denkmal"},
+  {"id":3072270433,"lat":50.763015,"lon":13.450668,"k":"x","n":"Dorfchemnitz, Gaststätte"},
+  {"id":6362440099,"lat":50.791195,"lon":13.487118,"k":"p","n":"Dittersbach, Wendeplatz"},
+  {"id":6362440104,"lat":50.794268,"lon":13.482614,"k":"p","n":"Dittersbach, Schule"},
+  {"id":6362440105,"lat":50.794383,"lon":13.482559,"k":"p","n":"Dittersbach, Schule"},
+  {"id":6362440106,"lat":50.794337,"lon":13.482513,"k":"x","n":"Dittersbach, Schule"}
+],
+"routes":[
+  {"id":4006182,"t":{"ref":"739","name":"Bus 739: Rechenberg-Bienenmühle - Frauenstein","from":"Rechenberg-Bienenmühle, Schule","to":"Frauenstein, Markt","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":19,"s":[[3054151307,4],[3020929603,5],[1762218111,7]]},
+  {"id":4006203,"t":{"ref":"739","name":"Bus 739: Frauenstein - Rechenberg-Bienenmühle","from":"Frauenstein, Grundschule","to":"Rechenberg-Bienenmühle, Schule","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":19,"s":[[1762218111,13],[3020929603,15],[3054151307,16]]},
+  {"id":4022553,"t":{"ref":"732","name":"Bus 732: Freiberg - Lichtenberg - Frauenstein","from":"Freiberg, Am Bahnhof","to":"Kleinbobritzsch","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":25,"s":[[2413932191,19],[2413926430,20]]},
+  {"id":4033825,"t":{"ref":"738","name":"738 Brand-Erbisdorf - Mulda - Sayda - Rechenberg-Bienenmühle","from":"Brand-Erbisdorf, Str d.Friedens/Schule","to":"Rechenberg-Bienenmühle, Schule","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":32,"s":[[3072270433,14]]},
+  {"id":4033994,"t":{"ref":"738","name":"738 Abzweig Clausnitz, Bahnhof","from":"Bienenmühle, Bahnhof","to":"Clausnitz, Hauptstraße","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[3020929603,1],[3054151307,2]]},
+  {"id":4033995,"t":{"ref":"738","name":"738 Rechenberg-Bienenmühle - Sayda - Mulda - Brand-Erbisdorf","from":"Rechenberg-Bienenmühle, Schule","to":"Brand-Erbisdorf, Str d.Friedens/Schule","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":31,"s":[[3072270433,19]]},
+  {"id":9435480,"t":{"ref":"775","name":"Bus 775: Freiberg, Busbahnhof => Frauenstein, Markt","from":"Freiberg, Busbahnhof","to":"Frauenstein, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regiobus Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6362440104,26],[6362440099,27]]},
+  {"id":9441929,"t":{"ref":"775","name":"Bus 775: Freiberg, Busbahnhof => Frauenstein, Markt","from":"Freiberg, Busbahnhof","to":"Frauenstein, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regiobus Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[6362440104,28],[6362440099,29]]},
+  {"id":9442571,"t":{"ref":"775","name":"Bus 775: Frauenstein, Markt => Freiberg, Bahnhof","from":"Frauenstein, Markt","to":"Freiberg, Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regiobus Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":39,"s":[[6362440099,6],[6362440105,7]]},
+  {"id":9452061,"t":{"ref":"775","name":"Bus 775: Frauenstein, Markt => Oberbobritzsch, Abzw Burkersdorf","from":"Frauenstein, Markt","to":"Oberbobritzsch, Abzw Burkersdorf","network":"Verkehrsverbund Mittelsachsen","operator":"Regiobus Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[6362440099,7],[6362440105,8]]},
+  {"id":9452243,"t":{"ref":"775","name":"Bus 775: Frauenstein, Markt => Freiberg, Busbahnhof","from":"Frauenstein, Markt","to":"Freiberg, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regiobus Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[6362440099,6],[6362440105,7]]},
+  {"id":9452246,"t":{"ref":"775","name":"Bus 775: Frauenstein, Markt => Oberbobritzsch, Grundschule","from":"Frauenstein, Markt","to":"Oberbobritzsch, Grundschule","network":"Verkehrsverbund Mittelsachsen","operator":"Regiobus Mittelsachsen GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[6362440099,7],[6362440105,8]]},
+  {"id":3010494038818,"t":{"ref":"732","name":"Bus 732: Frauenstein - Lichtenberg - Freiberg","from":"Kleinbobritzsch","to":"Freiberg, Am Bahnhof","network":"Verkehrsverbund Mittelsachsen","route":"bus","public_transport:version":"2"},"n":29,"s":[[6362440099,5],[2413932191,6]]},
+  {"id":3051210453132,"t":{"ref":"732","name":"Bus 732: Frauenstein - Lichtenberg - Freiberg","from":"Kleinbobritzsch","to":"Freiberg, Am Bahnhof","network":"Verkehrsverbund Mittelsachsen","route":"bus","public_transport:version":"2"},"n":30,"s":[[6362440106,24],[6362440099,25],[2413932191,26]]}
+]
+}

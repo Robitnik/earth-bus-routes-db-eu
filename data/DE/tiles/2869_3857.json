@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2869,3857],
+"stops":[
+  {"id":6865268107,"lat":53.470644,"lon":12.871143,"k":"p","n":"Klockow"},
+  {"id":6868940534,"lat":53.489697,"lon":12.89154,"k":"p","n":"Bocksee"},
+  {"id":7418861096,"lat":53.48982,"lon":12.89145,"k":"p","n":"Bocksee"},
+  {"id":9633587237,"lat":53.470662,"lon":12.871108,"k":"x","n":"Klockow"},
+  {"id":11383354597,"lat":53.489747,"lon":12.891573,"k":"x","n":"Bocksee"}
+],
+"routes":[
+  {"id":11012844,"t":{"ref":"008","name":"Bus 008: Klockow => Kargow => Waren","from":"Klockow","to":"Waren, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"red","route":"bus","public_transport:version":"2"},"n":10,"s":[[6865268107,1],[6868940534,2]]},
+  {"id":11012845,"t":{"ref":"008","name":"Bus 008: Waren => Kargow => Klockow","from":"Waren, ZOB","to":"Klockow","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"red","route":"bus","public_transport:version":"2"},"n":10,"s":[[7418861096,9],[6865268107,10]]},
+  {"id":16766980,"t":{"ref":"026","name":"Bus 026: Waren => Möllenhagen","from":"Waren, Ostsiedlung","to":"Möllenhagen, Amt","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":10,"s":[[6868940534,5],[6865268107,7]]},
+  {"id":16769436,"t":{"ref":"026","name":"Bus 026: Waren => Penzlin","from":"Waren, Zentrum","to":"Penzlin, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":19,"s":[[6868940534,9]]},
+  {"id":3000029543113,"t":{"ref":"008","name":"008: Waren, ZOB - Klockow","from":"Waren, ZOB","to":"Klockow","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":17,"s":[[6868940534,16],[6865268107,17]]},
+  {"id":3013076926730,"t":{"ref":"008","name":"008: Klockow - Waren, ZOB","from":"Klockow","to":"Waren, ZOB","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":18,"s":[[9633587237,1],[6868940534,2]]}
+]
+}

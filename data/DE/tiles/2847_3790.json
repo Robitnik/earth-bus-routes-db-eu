@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2847,3790],
+"stops":[
+  {"id":30036644,"lat":52.36777,"lon":9.505394,"k":"x","n":"Ostermunzel / Dedenser Straße"},
+  {"id":31386597,"lat":52.397538,"lon":9.514943,"k":"x","n":"Dedensen/Uhlenbrauk"},
+  {"id":280056882,"lat":52.361702,"lon":9.541354,"k":"p","n":"Lathwehren / Mitte"},
+  {"id":280058496,"lat":52.361657,"lon":9.540997,"k":"p","n":"Lathwehren / Mitte"},
+  {"id":344431232,"lat":52.397542,"lon":9.515019,"k":"p","n":"Dedensen/Uhlenbrauk","ref":"4733"},
+  {"id":1038164447,"lat":52.367892,"lon":9.503624,"k":"p","n":"Ostermunzel / Dedenser Straße","ref":"5630"},
+  {"id":1038164453,"lat":52.367686,"lon":9.505477,"k":"p","n":"Ostermunzel / Dedenser Straße","ref":"5631"},
+  {"id":2473514645,"lat":52.36168,"lon":9.541038,"k":"x","n":"Lathwehren / Mitte"},
+  {"id":7816409215,"lat":52.361647,"lon":9.541351,"k":"x","n":"Lathwehren / Mitte"},
+  {"id":7816409216,"lat":52.367854,"lon":9.503648,"k":"x","n":"Ostermunzel / Dedenser Straße"},
+  {"id":6090589941302,"lat":52.367923,"lon":9.504553,"k":"p","n":"Ostermunzel Dedenser Straße","g":1}
+],
+"routes":[
+  {"id":49506,"t":{"ref":"573","name":"Seelze - Kirchwehren - Seelze","network":"Großraum-Verkehr Hannover","operator":"RegioBus Hannover","route":"bus"},"n":8,"s":[[7816409215,5],[280056882,6]]},
+  {"id":49511,"t":{"name":"RTaxi","route":"bus"},"n":4,"s":[[280058496,3],[280056882,4]]},
+  {"id":11578733,"t":{"ref":"570","name":"Bus 570: Ahlem => Barsinghausen / Bahnhof","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[280056882,11],[1038164447,12]]},
+  {"id":3017545194907,"t":{"ref":"RT","name":"RT: Velber Am Wehrgraben - Seelze Bahnhof","from":"Velber Am Wehrgraben","to":"Seelze Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[7816409215,13]]},
+  {"id":3021980373293,"t":{"ref":"573","name":"573: Lathwehren Mitte - Seelze Bahnhof","from":"Lathwehren Mitte","to":"Seelze Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[7816409215,1]]},
+  {"id":3027715600419,"t":{"ref":"570","name":"Bus 570: Barsinghausen / Bahnhof => Ahlem","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[6090589941302,7],[7816409215,8]]},
+  {"id":3041617566438,"t":{"ref":"570","name":"Bus 570: Barsinghausen / Bahnhof => Ahlem","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":23,"s":[[6090589941302,10],[7816409215,11]]},
+  {"id":3050034186272,"t":{"ref":"570","name":"Bus 570: Barsinghausen / Bahnhof => Ahlem","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":25,"s":[[6090589941302,12],[7816409215,13]]},
+  {"id":3055959715158,"t":{"ref":"570","name":"Bus 570: Barsinghausen / Bahnhof => Ahlem","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[7816409215,13],[6090589941302,14]]},
+  {"id":3059107227216,"t":{"ref":"N70","name":"N70: Dedensen Uhlenbrauk - Hannover Ahlem","from":"Dedensen Uhlenbrauk","to":"Hannover Ahlem","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[31386597,1]]},
+  {"id":3063417135203,"t":{"ref":"573","name":"573: Seelze Bahnhof - Lathwehren Mitte","from":"Seelze Bahnhof","to":"Lathwehren Mitte","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[7816409215,10]]},
+  {"id":3065312418259,"t":{"ref":"570","name":"Bus 570: Barsinghausen / Bahnhof => Ahlem","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":25,"s":[[7816409215,13],[6090589941302,14]]},
+  {"id":3065841938135,"t":{"ref":"700","name":"Bus 700: Dedensen/Uhlenbrauk => Hannover/ZOB","from":"Dedensen/Uhlenbrauk","to":"Hannover/ZOB","network":"Großraum-Verkehr Hannover","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[31386597,1]]},
+  {"id":3082255496231,"t":{"ref":"N57","name":"N57: Hannover Ahlem - Göxe","from":"Hannover Ahlem","to":"Göxe","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[7816409215,18],[6090589941302,19]]},
+  {"id":3083084376561,"t":{"ref":"573","name":"573: Lathwehren Mitte - Seelze Bahnhof","from":"Lathwehren Mitte","to":"Seelze Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[7816409215,1]]},
+  {"id":3084529185278,"t":{"ref":"RT","name":"RT: Seelze Bahnhof - Velber Am Wehrgraben","from":"Seelze Bahnhof","to":"Velber Am Wehrgraben","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[7816409215,13]]},
+  {"id":3097267426568,"t":{"ref":"570","name":"Bus 570: Barsinghausen / Bahnhof => Ahlem","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":23,"s":[[7816409215,13],[6090589941302,14]]},
+  {"id":3098796406210,"t":{"ref":"573","name":"573: Seelze Bahnhof - Lathwehren Mitte","from":"Seelze Bahnhof","to":"Lathwehren Mitte","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[7816409215,9]]}
+]
+}

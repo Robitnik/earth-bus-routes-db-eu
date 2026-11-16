@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2823,3837],
+"stops":[
+  {"id":413500294,"lat":51.193579,"lon":11.872618,"k":"x","n":"Goseck Bergschlösschen"},
+  {"id":423369245,"lat":51.179267,"lon":11.853886,"k":"x","n":"Eulau"},
+  {"id":432455271,"lat":51.152794,"lon":11.8571,"k":"p","n":"Neue Welt"},
+  {"id":5887332995,"lat":51.157515,"lon":11.89659,"k":"x","n":"Possenhain"},
+  {"id":5887332996,"lat":51.16021,"lon":11.869354,"k":"x","n":"Schönburg"},
+  {"id":5887332997,"lat":51.152806,"lon":11.857239,"k":"x","n":"Neue Welt"},
+  {"id":6839880613,"lat":51.197259,"lon":11.870313,"k":"x","n":"Goseck Koch's Garten"},
+  {"id":8252489769,"lat":51.152749,"lon":11.857237,"k":"p","n":"Neue Welt"},
+  {"id":11897945041,"lat":51.160224,"lon":11.869261,"k":"p","n":"Schönburg"},
+  {"id":11897966499,"lat":51.160163,"lon":11.869336,"k":"p","n":"Schönburg"},
+  {"id":13383379588,"lat":51.157515,"lon":11.896738,"k":"p","n":"node 0"},
+  {"id":13383379589,"lat":51.157505,"lon":11.896467,"k":"p","n":"Possenhain"},
+  {"id":13415474398,"lat":51.179304,"lon":11.853898,"k":"p","n":"Eulau"},
+  {"id":13415490603,"lat":51.179368,"lon":11.854689,"k":"p","n":"Eulau"},
+  {"id":13460416504,"lat":51.193586,"lon":11.872716,"k":"p","n":"Goseck Bergschlösschen"},
+  {"id":13460416510,"lat":51.197259,"lon":11.870257,"k":"p","n":"Goseck Koch's Garten"},
+  {"id":13460416511,"lat":51.19653,"lon":11.870525,"k":"p","n":"Goseck, Kochs Garten"},
+  {"id":6024074408912,"lat":51.155358,"lon":11.897753,"k":"p","n":"Possenhain (Schönburg)","g":1},
+  {"id":6060089192974,"lat":51.157774,"lon":11.897175,"k":"p","n":"Possenhain (Schönburg)","g":1}
+],
+"routes":[
+  {"id":8655209,"t":{"ref":"620","name":"Bus 620: Naumburg => Leißling","from":"Naumburg","to":"Leißling","network":"Mitteldeutscher Verkehrsverbund","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":2,"s":[[8252489769,1]]},
+  {"id":3007419564268,"t":{"ref":"620","name":"620: Leißling, EKZ - Naumburg (Saale), City-Busstop Hallesche Str.","from":"Leißling, EKZ","to":"Naumburg (Saale), City-Busstop Hallesche Str.","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":6,"s":[[6024074408912,3],[5887332996,4]]},
+  {"id":3044361640438,"t":{"ref":"623","name":"623: Naumburg (Saale), City-Busstop Hallesche Str. - Goseck, Bergschlösschen","from":"Naumburg (Saale), City-Busstop Hallesche Str.","to":"Goseck, Bergschlösschen","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":12,"s":[[13415490603,6],[6839880613,11],[413500294,12]]},
+  {"id":3070554789884,"t":{"ref":"792","name":"792: Goseck, Bergschlösschen - Weißenfels, Busbahnhof","from":"Goseck, Bergschlösschen","to":"Weißenfels, Busbahnhof","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":12,"s":[[413500294,1],[13460416511,2]]},
+  {"id":3078892647651,"t":{"ref":"792","name":"792: Weißenfels, Busbahnhof - Goseck, Bergschlösschen","from":"Weißenfels, Busbahnhof","to":"Goseck, Bergschlösschen","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":16,"s":[[6839880613,15],[413500294,16]]},
+  {"id":3083669688467,"t":{"ref":"623","name":"623: Goseck, Bergschlösschen - Naumburg (Saale), City-Busstop Hallesche Str.","from":"Goseck, Bergschlösschen","to":"Naumburg (Saale), City-Busstop Hallesche Str.","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":12,"s":[[413500294,1],[13460416511,2],[13415490603,6]]},
+  {"id":3097557152451,"t":{"ref":"620","name":"Bus 620: Leißling => Naumburg","from":"Leißling","to":"Naumburg","network":"Mitteldeutscher Verkehrsverbund","operator":"PVG Burgenlandkreis","route":"bus","public_transport:version":"2"},"n":6,"s":[[5887332996,3],[6060089192974,4]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2889,3786],
+"stops":[
+  {"id":349209866,"lat":54.460361,"lon":9.336641,"k":"p","n":"Hollingstedt, Ansgarweg"},
+  {"id":2294893191,"lat":54.455819,"lon":9.335885,"k":"p","n":"Hollingstedt, Wendeplatz"},
+  {"id":6259834359,"lat":54.460679,"lon":9.305289,"k":"x","n":"Ostenfeld, Frankhöft"},
+  {"id":6259834360,"lat":54.460723,"lon":9.305278,"k":"p","n":"Ostenfeld, Frankhöft"},
+  {"id":6259834361,"lat":54.460649,"lon":9.305309,"k":"p","n":"Ostenfeld, Frankhöft"},
+  {"id":6259834362,"lat":54.456693,"lon":9.33219,"k":"x","n":"Hollingstedt, Kirche"},
+  {"id":6259834363,"lat":54.456646,"lon":9.332183,"k":"p","n":"Hollingstedt, Kirche"},
+  {"id":6259834364,"lat":54.456758,"lon":9.332186,"k":"p","n":"Hollingstedt, Kirche"},
+  {"id":9005242077,"lat":54.455826,"lon":9.335992,"k":"x","n":"Hollingstedt, Wendeplatz"},
+  {"id":9005242078,"lat":54.460287,"lon":9.336465,"k":"p","n":"Hollingstedt, Ansgarweg"},
+  {"id":9892658542,"lat":54.462193,"lon":9.336943,"k":"p","n":"Hollingstedt, Höfnersweg"},
+  {"id":9892658543,"lat":54.462181,"lon":9.337081,"k":"p","n":"Hollingstedt, Höfnersweg"},
+  {"id":9892658544,"lat":54.477204,"lon":9.342019,"k":"p","n":"Stalloh"},
+  {"id":9892658545,"lat":54.477181,"lon":9.342169,"k":"p","n":"Stalloh"},
+  {"id":9892658546,"lat":54.489948,"lon":9.343817,"k":"p","n":"Rümland"},
+  {"id":9892658547,"lat":54.489871,"lon":9.344012,"k":"p","n":"Rümland"},
+  {"id":6038330327662,"lat":54.4931,"lon":9.321217,"k":"p","n":"Treia Goosholz","g":1},
+  {"id":6053994858825,"lat":54.496636,"lon":9.316304,"k":"p","n":"Treia Jörtle II","g":1}
+],
+"routes":[
+  {"id":11326985,"t":{"ref":"146","name":"Bus 146: Ostenfeld Schule => Hollingstedt Wendeplatz","from":"Ostenfeld Schule","to":"Hollingstedt Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","route":"bus","public_transport:version":"2"},"n":7,"s":[[6259834363,6],[2294893191,7]]},
+  {"id":11326987,"t":{"ref":"145","name":"Bus 145: Husum ZOB => Hollingstedt","from":"Husum ZOB","to":"Hollingstedt, Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":26,"s":[[6259834363,25],[2294893191,26]]},
+  {"id":14360630,"t":{"ref":"676","name":"Bus 676: Ellingstedt, Aussiedlung => Kropp, Schule/ZOB","from":"Ellingstedt, Aussiedlung","to":"Kropp, Schule/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":23,"s":[[9892658547,7],[9892658544,8],[9892658542,9],[9005242078,10],[2294893191,11]]},
+  {"id":3012019990615,"t":{"ref":"670","name":"670: Bergenhusen Kirche - Schleswig Stadtfeld/ZOB","from":"Bergenhusen Kirche","to":"Schleswig Stadtfeld/ZOB","operator":"Autokraft Kiel GmbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[9005242077,12]]},
+  {"id":3015523860973,"t":{"ref":"145","name":"Bus 145: Husum Bahnhof => Hollingstedt","from":"Husum Bahnhof","to":"Hollingstedt, Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":30,"s":[[6259834361,28],[6259834362,29],[9005242077,30]]},
+  {"id":3044347811724,"t":{"ref":"158","name":"158: Oster-Ohrstedt Schule - Oster-Ohrstedt Schule","from":"Oster-Ohrstedt Schule","to":"Oster-Ohrstedt Schule","operator":"Autokraft Kiel GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[6053994858825,17],[6038330327662,18]]},
+  {"id":3048913555480,"t":{"ref":"145","name":"Bus 145: Hollingstedt => Husum Bahnhof","from":"Hollingstedt, Wendeplatz","to":"Husum Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Husum","colour":"#007364","route":"bus","public_transport:version":"2"},"n":30,"s":[[9005242077,1],[6259834362,2]]},
+  {"id":3063490246942,"t":{"ref":"670","name":"670: Krelau Kaserne - Schleswig Stadtfeld/ZOB","from":"Krelau Kaserne","to":"Schleswig Stadtfeld/ZOB","operator":"Autokraft Kiel GmbH","route":"bus","public_transport:version":"2"},"n":47,"s":[[9005242077,25]]},
+  {"id":3070225698947,"t":{"ref":"670","name":"670: Schleswig Stadtfeld/ZOB - Bergenhusen Kirche","from":"Schleswig Stadtfeld/ZOB","to":"Bergenhusen Kirche","operator":"Autokraft Kiel GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[9005242077,22]]},
+  {"id":3097604731398,"t":{"ref":"670","name":"Bus 670: Schleswig => Bergenhusen => Krelau","from":"Schleswig ZOB","to":"Krelau, Kaserne","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#4664AF","route":"bus","public_transport:version":"2"},"n":45,"s":[[9005242077,22]]}
+]
+}

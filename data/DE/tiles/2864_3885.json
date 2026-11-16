@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2864,3885],
+"stops":[
+  {"id":2126795404,"lat":53.244979,"lon":14.251328,"k":"p","n":"Petershagen (UM) Dorf"},
+  {"id":10013395372,"lat":53.203849,"lon":14.289195,"k":"p","n":"Hohenselchow, Friedhof"},
+  {"id":10013395373,"lat":53.203763,"lon":14.289182,"k":"p","n":"Hohenselchow, Friedhof"},
+  {"id":6028818314946,"lat":53.203958,"lon":14.279681,"k":"p","n":"Hohenselchow, Kreuzung West","g":1},
+  {"id":6030239264646,"lat":53.204783,"lon":14.274369,"k":"p","n":"Hohenselchow, Casekower Str.","g":1},
+  {"id":6030623433714,"lat":53.204783,"lon":14.274369,"k":"p","n":"Hohenselchow, Casekower Str.","g":1},
+  {"id":6043563276436,"lat":53.204029,"lon":14.279858,"k":"p","n":"Hohenselchow, Kreuzung Süd","g":1},
+  {"id":6049477601610,"lat":53.20485,"lon":14.2743,"k":"p","n":"Hohenselchow, Casekower Str.","g":1},
+  {"id":6050047499076,"lat":53.203958,"lon":14.279681,"k":"p","n":"Hohenselchow, Kreuzung West","g":1},
+  {"id":6056581114895,"lat":53.204438,"lon":14.280213,"k":"p","n":"Hohenselchow, Kreuzung Nord","g":1},
+  {"id":6057326376504,"lat":53.240125,"lon":14.252853,"k":"p","n":"Petershagen (Uckermark)","g":1},
+  {"id":6058818978178,"lat":53.204385,"lon":14.280028,"k":"p","n":"Hohenselchow, Kreuzung Ost","g":1},
+  {"id":6070283992390,"lat":53.204385,"lon":14.280028,"k":"p","n":"Hohenselchow, Kreuzung Ost","g":1},
+  {"id":6085759947754,"lat":53.204029,"lon":14.279858,"k":"p","n":"Hohenselchow, Kreuzung Süd","g":1},
+  {"id":6086807848459,"lat":53.204438,"lon":14.280213,"k":"p","n":"Hohenselchow, Kreuzung Nord","g":1},
+  {"id":6091095418507,"lat":53.20485,"lon":14.2743,"k":"p","n":"Hohenselchow, Casekower Str.","g":1},
+  {"id":6097400103188,"lat":53.244288,"lon":14.250908,"k":"p","n":"Petershagen (UM), Dorf","g":1}
+],
+"routes":[
+  {"id":15430595,"t":{"ref":"467","name":"Bus 467: Casekow => Petershagen (UM)","from":"Casekow","to":"Petershagen (UM)","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[2126795404,4]]},
+  {"id":3007589563772,"t":{"ref":"RB66","name":"RB66: Angermünde, Bahnhof - Szczecin Dworzec autobusowy","from":"Angermünde, Bahnhof","to":"Szczecin Dworzec autobusowy","operator":"Nahreisezug","route":"bus","public_transport:version":"2"},"n":12,"s":[[6097400103188,6]]},
+  {"id":3008797876408,"t":{"ref":"467","name":"Bus 467: Petershagen (UM) => Casekow","from":"Petershagen (UM)","to":"Casekow","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[2126795404,3]]},
+  {"id":3017075466912,"t":{"ref":"RB66","name":"RB66: Angermünde, Bahnhof - Szczecin (PL), Krzysztofa Kolumba","from":"Angermünde, Bahnhof","to":"Szczecin (PL), Krzysztofa Kolumba","operator":"DB Regio AG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2126795404,6]]},
+  {"id":3023595011494,"t":{"ref":"467","name":"Bus 467: Petershagen (UM) => Casekow","from":"Petershagen (UM)","to":"Casekow","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[2126795404,3]]},
+  {"id":3027553644009,"t":{"ref":"471","name":"471: Gartz, Busbahnhof - Casekow, Bahnhof","from":"Gartz, Busbahnhof","to":"Casekow, Bahnhof","operator":"Uckermärkische Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":22,"s":[[10013395372,11],[6086807848459,12],[6085759947754,18],[6049477601610,19]]},
+  {"id":3030919183730,"t":{"ref":"467","name":"Bus 467: Petershagen (UM) => Casekow","from":"Petershagen (UM)","to":"Casekow","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[2126795404,1]]},
+  {"id":3036044031049,"t":{"ref":"471","name":"471: Casekow, Bahnhof - Gartz, Busbahnhof","from":"Casekow, Bahnhof","to":"Gartz, Busbahnhof","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6030623433714,5],[6028818314946,6],[6070283992390,12],[10013395373,13]]},
+  {"id":3044644449479,"t":{"ref":"ZKA REG","name":"ZKA REG: Angermünde - Szczecin Główny","from":"Angermünde","to":"Szczecin Główny","operator":"PolRegio","route":"bus","public_transport:version":"2"},"n":8,"s":[[6057326376504,5]]},
+  {"id":3059586480967,"t":{"ref":"471","name":"471: Gartz, Busbahnhof - Casekow, Bahnhof","from":"Gartz, Busbahnhof","to":"Casekow, Bahnhof","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[10013395372,11],[6056581114895,12],[6043563276436,18],[6091095418507,19]]},
+  {"id":3063432517241,"t":{"ref":"471","name":"471: Casekow, Bahnhof - Gartz, Busbahnhof","from":"Casekow, Bahnhof","to":"Gartz, Busbahnhof","operator":"Uckermärkische Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":23,"s":[[6030239264646,5],[6050047499076,6],[6058818978178,12],[10013395373,13]]},
+  {"id":3064252551793,"t":{"ref":"467","name":"Bus 467: Petershagen (UM) => Casekow","from":"Petershagen (UM)","to":"Casekow","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Uckermärkische Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[2126795404,1]]}
+]
+}

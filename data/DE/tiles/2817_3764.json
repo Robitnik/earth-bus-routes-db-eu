@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2817,3764],
+"stops":[
+  {"id":469675308,"lat":50.855072,"lon":8.219329,"k":"p","n":"Hainchen Ortsausgang"},
+  {"id":2804868939,"lat":50.855052,"lon":8.211854,"k":"p","n":"Hainchen Ortsmitte"},
+  {"id":2963952893,"lat":50.870527,"lon":8.222547,"k":"p","n":"Werthenbach Wende"},
+  {"id":2963959020,"lat":50.862504,"lon":8.200619,"k":"p","n":"Werthenbach Bahnhof"},
+  {"id":6467544996,"lat":50.855181,"lon":8.211602,"k":"p","n":"Hainchen Ortsmitte"},
+  {"id":6467592667,"lat":50.855593,"lon":8.205281,"k":"p","n":"Hainchen Schule"},
+  {"id":6469318168,"lat":50.854785,"lon":8.215559,"k":"p","n":"Hainchen Kirche"},
+  {"id":6469318169,"lat":50.851838,"lon":8.215816,"k":"p","n":"Hainchen Südstraße"},
+  {"id":6469318170,"lat":50.851058,"lon":8.212286,"k":"p","n":"Hainchen Kampenstraße/Dillweg"},
+  {"id":6469318171,"lat":50.853131,"lon":8.212866,"k":"p","n":"Hainchen Kampenstraße"},
+  {"id":6469318172,"lat":50.856464,"lon":8.212866,"k":"p","n":"Hainchen Abzweig Lahnhof"},
+  {"id":6469318173,"lat":50.856621,"lon":8.21234,"k":"p","n":"Hainchen Abzweig Lahnhof"},
+  {"id":6469318175,"lat":50.869895,"lon":8.219318,"k":"p","n":"Werthenbach Ort"},
+  {"id":6469318180,"lat":50.86904,"lon":8.214666,"k":"p","n":"Werthenbach Eichwaldstraße"},
+  {"id":6469318181,"lat":50.869247,"lon":8.215526,"k":"p","n":"Werthenbach Eichwaldstraße"},
+  {"id":6469319086,"lat":50.865492,"lon":8.204521,"k":"p","n":"Werthenbach Eichbornweg"},
+  {"id":6469319087,"lat":50.865502,"lon":8.204651,"k":"p","n":"Werthenbach Eichbornweg"},
+  {"id":6469319088,"lat":50.863088,"lon":8.201101,"k":"p","n":"Werthenbach Bahnhof"},
+  {"id":6469319089,"lat":50.862358,"lon":8.200387,"k":"p","n":"Werthenbach Bahnhof"},
+  {"id":6534024096,"lat":50.863151,"lon":8.200873,"k":"p","n":"Werthenbach Bahnhof"},
+  {"id":6551108455,"lat":50.898597,"lon":8.202115,"k":"p","n":"Walpersdorf Märzbecherweg"},
+  {"id":6551108456,"lat":50.898663,"lon":8.202043,"k":"p","n":"Walpersdorf Märzbecherweg"}
+],
+"routes":[
+  {"id":13342777,"t":{"ref":"R16","name":"Bus R16: Rudersdorf => Deuz","from":"Rudersdorf P+R Bahnhof","to":"Deuz Ortsmitte","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[2963959020,11]]},
+  {"id":3003439403590,"t":{"ref":"R16","name":"Bus R16: Deuz => Rudersdorf","from":"Deuz Ortsmitte","to":"Rudersdorf P+R Bahnhof","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":38,"s":[[6469319088,9,17],[6469319086,10,16],[6469318181,11,15],[6469318175,12,14],[2963952893,13],[6469319089,18],[6467592667,21,29],[2804868939,22,28],[6469318171,23],[6469318170,24],[6469318169,25],[469675308,26],[6469318168,27]]},
+  {"id":3047859669332,"t":{"ref":"R16","name":"Bus R16: Siegen => Gernsdorf","from":"Siegen ZOB","to":"Gernsdorf Ort","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":46,"s":[[6469319089,39],[6469318173,40],[2804868939,41],[6467592667,42]]},
+  {"id":3051140912125,"t":{"ref":"R16","name":"Bus R16: Siegen => Hainchen","from":"Siegen Hbf","to":"Hainchen Südstraße","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":46,"s":[[6469319089,39],[6467592667,42],[2804868939,43],[6469318171,44],[6469318170,45],[6469318169,46]]},
+  {"id":3052830661076,"t":{"ref":"R16","name":"Bus R16: Siegen => Hainchen","from":"Siegen Hbf","to":"Hainchen Südstraße","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":55,"s":[[6469319088,39,47],[6469319086,40,46],[6469318181,41,45],[6469318175,42,44],[2963952893,43],[6469319089,48],[6467592667,51],[2804868939,52],[6469318171,53],[6469318170,54],[6469318169,55]]},
+  {"id":3053747083370,"t":{"ref":"SB5","name":"Bus SB5: Siegen => Bad Laasphe","from":"Siegen ZOB (Bstg. D)","to":"Bad Laasphe ZOB (Bstg. 3)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":50,"s":[[6551108455,24]]},
+  {"id":3054457524452,"t":{"ref":"R16","name":"Bus R16: Gernsdorf => Siegen","from":"Gernsdorf Ort","to":"Siegen Hbf","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":42,"s":[[6467592667,6],[2804868939,7],[6469318173,8],[2963959020,9]]},
+  {"id":3060657421201,"t":{"ref":"R16","name":"Bus R16: Hainchen => Siegen","from":"Hainchen Südstraße","to":"Siegen Hbf","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":41,"s":[[6469318169,1],[469675308,2],[6469318168,3],[6469318173,4],[2963959020,5]]},
+  {"id":3071272509865,"t":{"ref":"L167","name":"Bus L167: Deuz => Walpersdorf","from":"Deuz Ortsmitte","to":"Walpersdorf Martinstraße","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[6551108455,9]]},
+  {"id":3083651402466,"t":{"ref":"L167","name":"Bus L167: Walpersdorf => Deuz","from":"Walpersdorf Martinstraße","to":"Deuz Ortsmitte","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[6551108456,3]]},
+  {"id":3092598065863,"t":{"ref":"SB5","name":"Bus SB5: Bad Laasphe => Siegen","from":"Bad Laasphe ZOB (Bstg. 3)","to":"Siegen ZOB (Bstg. E)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":50,"s":[[6551108456,27]]}
+]
+}

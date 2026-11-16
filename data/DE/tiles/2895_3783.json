@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2895,3783],
+"stops":[
+  {"id":390968839,"lat":54.787286,"lon":9.154556,"k":"x","n":"Horsbek"},
+  {"id":1119535843,"lat":54.759348,"lon":9.182749,"k":"p","ref":"100"},
+  {"id":1119535982,"lat":54.759392,"lon":9.181098,"k":"p","ref":"100"},
+  {"id":1221427962,"lat":54.778607,"lon":9.192174,"k":"p","n":"Instenweg"},
+  {"id":10647546831,"lat":54.757298,"lon":9.183821,"k":"x","n":"Schafflund, Nordhackstedter Straße"},
+  {"id":10647546833,"lat":54.757525,"lon":9.196621,"k":"x","n":"Schafflund, Schulzentrum"},
+  {"id":12229345673,"lat":54.75817,"lon":9.18915,"k":"p","ref":"894","n":"Schafflund Amt"},
+  {"id":12229345674,"lat":54.757382,"lon":9.196312,"k":"x","n":"Schafflund, Schulzentrum"},
+  {"id":12339331480,"lat":54.756467,"lon":9.183968,"k":"p","ref":"894","n":"Schafflund Nordhackstädter Straße"},
+  {"id":6001934385180,"lat":54.758134,"lon":9.188401,"k":"p","n":"Schafflund Amt","g":1},
+  {"id":6010932888795,"lat":54.759731,"lon":9.1794,"k":"p","n":"Schafflund B 199","g":1},
+  {"id":6034869318445,"lat":54.759736,"lon":9.179419,"k":"p","n":"Schafflund B 199","g":1}
+],
+"routes":[
+  {"id":15554974,"t":{"ref":"881","name":"Bus 881: Medelby => Schafflund","from":"Medelby Schule","to":"Schafflund, Schulzentrum","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"#0FAFDC","route":"bus","public_transport:version":"2"},"n":5,"s":[[390968839,4],[12229345674,5]]},
+  {"id":15573489,"t":{"ref":"891","name":"Bus 891: Wallsbüll => Schafflund => Handewitt","from":"Wallsbüll, Hauptstraße","to":"Handewitt, Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":7,"s":[[1119535982,6]]},
+  {"id":17299623,"t":{"ref":"883","name":"Bus 883: Schafflund => Hörup => Schafflund","from":"Schafflund, B199","to":"Schafflund, Amt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":4,"s":[[1119535843,1]]},
+  {"id":17299624,"t":{"ref":"883","name":"Bus 883: Schafflund => Hörup => Schafflund","from":"Schafflund, Schulzentrum","to":"Schafflund, B199","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","colour":"grey","route":"bus","public_transport:version":"2"},"n":3,"s":[[1119535982,3]]},
+  {"id":3020154646547,"t":{"ref":"880","name":"880: Handewitt B 199 - Nordhackstedt Kirche","from":"Handewitt B 199","to":"Nordhackstedt Kirche","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[12229345674,10],[12229345673,11],[10647546831,12]]},
+  {"id":3059000947561,"t":{"ref":"880","name":"880: Handewitt B 199 - Hörup Hörupfeld","from":"Handewitt B 199","to":"Hörup Hörupfeld","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[12229345674,10],[12229345673,11],[10647546831,12]]},
+  {"id":3084814443498,"t":{"ref":"880","name":"880: Nordhackstedt Kirche - Handewitt B 199","from":"Nordhackstedt Kirche","to":"Handewitt B 199","operator":"Verkehrsbetriebe Schleswig-Flensburg GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[12339331480,2],[6001934385180,3],[12229345674,4]]},
+  {"id":3087482692239,"t":{"ref":"100","name":"Bus 100 SchnellBus: Niebüll => Flensburg","from":"Niebüll, ZOB","to":"Flensburg, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#3C73B9","route":"bus","public_transport:version":"2"},"n":31,"s":[[6034869318445,22]]},
+  {"id":3087607887067,"t":{"ref":"100","name":"Bus 100 SchnellBus: Flensburg => Niebüll","from":"Flensburg, ZOB","to":"Niebüll, ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#3C73B9","route":"bus","public_transport:version":"2"},"n":32,"s":[[6010932888795,11]]}
+]
+}

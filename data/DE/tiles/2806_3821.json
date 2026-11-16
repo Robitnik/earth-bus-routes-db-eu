@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2806,3821],
+"stops":[
+  {"id":401253887,"lat":50.300338,"lon":11.06159,"k":"p","n":"Grundschule"},
+  {"id":920400936,"lat":50.336874,"lon":11.059937,"k":"x","n":"Höhn, Höhner Straße"},
+  {"id":920400961,"lat":50.336899,"lon":11.059958,"k":"p","n":"Höhner Straße"},
+  {"id":920415862,"lat":50.344987,"lon":11.063996,"k":"p","n":"Brüx"},
+  {"id":920415889,"lat":50.345019,"lon":11.06396,"k":"x","n":"Brüx"},
+  {"id":1574396087,"lat":50.302053,"lon":11.057087,"k":"x","ref":"3"},
+  {"id":1627081975,"lat":50.302373,"lon":11.057081,"k":"x","n":"Rödental, Gh. Wildpark","ref":"2"},
+  {"id":1627081977,"lat":50.302455,"lon":11.057257,"k":"x","n":"Rödental, Gh. Wildpark","ref":"1"},
+  {"id":2238520805,"lat":50.338329,"lon":11.056236,"k":"x","n":"Höhn, Bergdorfstraße;Bergdorfstraße"},
+  {"id":3488658274,"lat":50.3285,"lon":11.059086,"k":"x","n":"Rüttmannsdorf"},
+  {"id":8601507475,"lat":50.32142,"lon":11.095941,"k":"p","n":"Brunnhügel"},
+  {"id":10566068680,"lat":50.321325,"lon":11.095946,"k":"p","n":"Brunnhügel"},
+  {"id":10566068681,"lat":50.323769,"lon":11.096159,"k":"p","n":"Friedhof"},
+  {"id":10566068682,"lat":50.323732,"lon":11.096176,"k":"x","n":"Thann, Friedhof"},
+  {"id":10566068685,"lat":50.328467,"lon":11.059056,"k":"p","n":"Rüttmannsdorf"},
+  {"id":10566068690,"lat":50.33298,"lon":11.096032,"k":"p","n":"Waldweg"},
+  {"id":10566068691,"lat":50.333002,"lon":11.09608,"k":"x","n":"Ketschenbach, Waldweg"},
+  {"id":10566068692,"lat":50.335565,"lon":11.099353,"k":"x","n":"Ketschenbach, Am Brändlein"},
+  {"id":10566068693,"lat":50.335592,"lon":11.099356,"k":"p","n":"Am Brändlein"},
+  {"id":10566068699,"lat":50.324096,"lon":11.097223,"k":"x","n":"Thann, Friedhof"},
+  {"id":10566068700,"lat":50.324072,"lon":11.097277,"k":"p","n":"Friedhof"},
+  {"id":10566068701,"lat":50.321369,"lon":11.095941,"k":"x","n":"Thann, Brunnhügel"},
+  {"id":13467948687,"lat":50.302339,"lon":11.057171,"k":"p","n":"Rödental, Gh. Wildpark"},
+  {"id":13467948688,"lat":50.302488,"lon":11.057171,"k":"p","n":"Rödental, Gh. Wildpark"},
+  {"id":6036187234389,"lat":50.300031,"lon":11.056536,"k":"p","n":"Mönchröden Schulstr. 8","g":1},
+  {"id":6090850158179,"lat":50.30158,"lon":11.057462,"k":"p","n":"Rödental (Mönchröden) Bahnhof","g":1}
+],
+"routes":[
+  {"id":15335449,"t":{"ref":"A1","name":"Bus A1: Höhn Höhner Straße => Wildenscheid Schule","from":"Höhn, Höhner Straße","to":"Wildenheid, Schule","network":"OVG-SON","operator":"OVG-SON","route":"bus","public_transport:version":"2"},"n":21,"s":[[920400961,1],[920415862,2],[10566068685,4],[10566068690,5],[10566068681,7],[10566068680,8]]},
+  {"id":15335450,"t":{"ref":"A1","name":"Bus A1: Höhn Höhner Straße => Wildenscheid Schule","from":"Höhn, Höhner Straße","to":"Wildenheid, Schule","network":"OVG-SON","operator":"OVG-SON","route":"bus","public_transport:version":"2"},"n":23,"s":[[920400961,1],[920415862,2],[10566068685,4],[10566068690,5],[10566068681,7],[10566068680,8]]},
+  {"id":15335451,"t":{"ref":"A1","name":"Bus A1: Neustadt Arnoldplatz => Ketschenbach Waldweg","from":"Neustadt, Arnoldplatz","to":"Ketschenbach, Waldweg","network":"OVG-SON","operator":"OVG-SON","route":"bus","public_transport:version":"2"},"n":26,"s":[[8601507475,20],[10566068700,21],[10566068693,25],[10566068690,26]]},
+  {"id":15335452,"t":{"ref":"A1","name":"Bus A1: Neustadt Arnoldplatz => Ketschenbach Waldweg","from":"Neustadt, Arnoldplatz","to":"Ketschenbach, Waldweg","network":"OVG-SON","operator":"OVG-SON","route":"bus","public_transport:version":"2"},"n":26,"s":[[8601507475,20],[10566068700,21],[10566068693,25],[10566068690,26]]},
+  {"id":3029388170355,"t":{"ref":"A1-B","name":"A1-B: Neustadt (Cob.) Arnoldplatz - Ketschenbach Waldweg","from":"Neustadt (Cob.) Arnoldplatz","to":"Ketschenbach Waldweg","operator":"Omnibus Verkehrs Gesellschaft mbH Sonneberg/Thür.","route":"bus","public_transport:version":"2"},"n":19,"s":[[10566068701,13],[10566068700,14],[10566068692,18],[10566068690,19]]},
+  {"id":3051456790346,"t":{"ref":"1481","name":"1481: Rödental, Bahnhofsplatz - Rödental, Bahnhofsplatz","from":"Rödental, Bahnhofsplatz","to":"Rödental, Bahnhofsplatz","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":17,"s":[[6090850158179,6],[6036187234389,7],[401253887,8]]},
+  {"id":3054236123843,"t":{"ref":"1452","name":"1452: Coburg - Sonneberg (Thüringen) Hbf","from":"Coburg","to":"Sonneberg (Thüringen) Hbf","operator":"VRE24 Bus Region 1000er Linien","route":"bus","public_transport:version":"2"},"n":25,"s":[[1627081975,14]]}
+]
+}

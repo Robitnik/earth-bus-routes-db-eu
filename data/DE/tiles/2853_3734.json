@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2853,3734],
+"stops":[
+  {"id":668163764,"lat":52.663341,"lon":6.744858,"k":"p","n":"Kasteel"},
+  {"id":668163768,"lat":52.664011,"lon":6.743366,"k":"p","n":"Kasteel"},
+  {"id":668163771,"lat":52.661709,"lon":6.748242,"k":"p","n":"Binnenvree"},
+  {"id":668163776,"lat":52.661361,"lon":6.748593,"k":"p","n":"Binnenvree"},
+  {"id":673702833,"lat":52.660369,"lon":6.729257,"k":"p","n":"Trageldijk"},
+  {"id":673703046,"lat":52.660138,"lon":6.728917,"k":"p","n":"Trageldijk"},
+  {"id":4582022623,"lat":52.663266,"lon":6.736057,"k":"p","n":"Station"},
+  {"id":4582022624,"lat":52.663472,"lon":6.735997,"k":"p","n":"Station"},
+  {"id":4582022625,"lat":52.663716,"lon":6.735931,"k":"p","n":"Station"},
+  {"id":8154630979,"lat":52.663262,"lon":6.736114,"k":"x","n":"Coevorden, Station"},
+  {"id":8154630982,"lat":52.663481,"lon":6.736049,"k":"x","n":"Coevorden, Station"},
+  {"id":8223504656,"lat":52.66371,"lon":6.735995,"k":"x","n":"Coevorden, Station"},
+  {"id":8298216069,"lat":52.66348,"lon":6.736335,"k":"p","n":"Station"},
+  {"id":8429202439,"lat":52.663496,"lon":6.736363,"k":"x","n":"Coevorden, Station"}
+],
+"routes":[
+  {"id":361807,"t":{"ref":"129","name":"Bus 129: Dedemsvaart Busstation => Coevorden Station","from":"Dedemsvaart, Busstation","to":"Coevorden, Station","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":2,"s":[[673703046,1],[4582022624,2]]},
+  {"id":455143,"t":{"ref":"25","name":"Bus 25: Zweeloo Busstation => Coevorden Station","from":"Zweeloo, Busstation","to":"Coevorden, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":2,"s":[[8154630982,1],[4582022624,2]]},
+  {"id":455144,"t":{"ref":"25","name":"Bus 25: Coevorden Station => Zweeloo Busstation","from":"Coevorden, Station","to":"Zweeloo, Busstation","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":2,"s":[[8154630982,1],[4582022624,2]]},
+  {"id":455437,"t":{"ref":"33","name":"Bus 33: Coevorden Station => Hoogeveen Station","from":"Coevorden, Station","to":"Hoogeveen, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":2,"s":[[8298216069,1],[8429202439,2]]},
+  {"id":535188,"t":{"ref":"129","name":"Bus 129: Coevorden Station => Dedemsvaart Busstation","from":"Coevorden, Station","to":"Dedemsvaart, Busstation","network":"IJssel-Vecht","operator":"EBS","colour":"#00965E","route":"bus","public_transport:version":"2"},"n":2,"s":[[4582022624,1],[673702833,2]]},
+  {"id":11820272,"t":{"ref":"T11","name":"Bus T11: Emlichheim, Bahnhof => Coevorden, Station NS","from":"Emlichheim, Bahnhof","to":"Coevorden, Station NS","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#2f882a","route":"bus","public_transport:version":"2"},"n":34,"s":[[4582022623,34]]},
+  {"id":11820273,"t":{"ref":"T11","name":"Bus T11: Coevorden, Station NS => Emlichheim, Bahnhof","from":"Coevorden, Station NS","to":"Emlichheim, Bahnhof","network":"VGB","operator":"Bentheimer Eisenbahn AG","colour":"#2f882a","route":"bus","public_transport:version":"2"},"n":34,"s":[[4582022623,1]]},
+  {"id":12116785,"t":{"ref":"94","name":"Bus 94: Emmen Station => Coevorden Station","from":"Emmen, Station","to":"Coevorden, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":23,"s":[[668163771,21],[668163768,22],[4582022623,23]]},
+  {"id":12116844,"t":{"ref":"94","name":"Bus 94: Coevorden Station => Emmen Station","from":"Coevorden, Station","to":"Emmen, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":23,"s":[[4582022623,1],[668163764,2],[668163776,3]]},
+  {"id":21281533,"t":{"ref":"25","name":"Bus 25: Zweeloo Busstation => Coevorden Station","from":"Zweeloo, Busstation","to":"Coevorden, Station","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":4,"s":[[668163771,2],[668163768,3],[4582022624,4]]},
+  {"id":21281534,"t":{"ref":"25","name":"Bus 25: Coevorden Station => Zweeloo Busstation","from":"Coevorden, Station","to":"Zweeloo, Busstation","network":"Groningen-Drenthe","operator":"Qbuzz","route":"bus","public_transport:version":"2"},"n":4,"s":[[4582022624,1],[668163764,2],[668163776,3]]}
+]
+}

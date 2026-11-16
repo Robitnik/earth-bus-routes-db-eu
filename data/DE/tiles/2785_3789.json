@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2785,3789],
+"stops":[
+  {"id":298075924,"lat":49.269608,"lon":9.473413,"k":"p","n":"Eichach"},
+  {"id":298076524,"lat":49.25146,"lon":9.498034,"k":"p","n":"Pfahlbach"},
+  {"id":339798285,"lat":49.252479,"lon":9.455648,"k":"p","n":"Ohrnberg Siedlung"},
+  {"id":441711501,"lat":49.278855,"lon":9.479945,"k":"p","n":"Sindringen Am Kaibach"},
+  {"id":441711503,"lat":49.280219,"lon":9.477209,"k":"p","n":"Sindringen Post"},
+  {"id":441711506,"lat":49.28088,"lon":9.476331,"k":"p","n":"Sindringen Mühle"},
+  {"id":474386100,"lat":49.265722,"lon":9.49328,"k":"x"},
+  {"id":1324389063,"lat":49.293419,"lon":9.46072,"k":"x","n":"Pfitzhof Milchäusle"},
+  {"id":1354601153,"lat":49.27034,"lon":9.490006,"k":"p","n":"Schießhof"},
+  {"id":1354601154,"lat":49.265731,"lon":9.492866,"k":"p","n":"Schießhof Abzweig"},
+  {"id":2962800865,"lat":49.294473,"lon":9.47106,"k":"x","n":"Abzweig Pfitzhof"},
+  {"id":3491725404,"lat":49.295892,"lon":9.459892,"k":"x","n":"Pfitzhof Alte Schule"},
+  {"id":5200760094,"lat":49.252864,"lon":9.454511,"k":"p","n":"Ohrnberg Siedlung"},
+  {"id":5200785073,"lat":49.252037,"lon":9.45674,"k":"p","n":"Ohrnberg Kindergarten"},
+  {"id":6077963135,"lat":49.299061,"lon":9.482647,"k":"p","n":"Sindringen Aussiedler"},
+  {"id":8936145022,"lat":49.280333,"lon":9.477039,"k":"p","n":"Sindringen Post"},
+  {"id":8983161622,"lat":49.26579,"lon":9.492874,"k":"p","n":"Schießhof Abzweig"},
+  {"id":12530168741,"lat":49.278824,"lon":9.480045,"k":"x","n":"Sindringen Am Kaibach"},
+  {"id":12530168742,"lat":49.278641,"lon":9.480739,"k":"p","n":"Sindringen Am Kaibach"}
+],
+"routes":[
+  {"id":183611,"t":{"ref":"RB51","name":"RB 51010","from":"Öhringen Bahnhof","to":"Pfahlbach","route":"bus"},"n":14,"s":[[298076524,8],[474386100,9,11],[298075924,10],[1354601154,14]]},
+  {"id":13054322,"t":{"ref":"51","name":"Bus 51: Öhringen => Zweiflingen","from":"Öhringen Hbf","to":"Zweiflingen Schule","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":11,"s":[[298076524,9]]},
+  {"id":13054828,"t":{"ref":"51","name":"Bus 51: Orendelsall => Öhringen","from":"Orendelsall","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":11,"s":[[298076524,4]]},
+  {"id":13054851,"t":{"ref":"51","name":"Bus 51: Öhringen => Eichach => Zweiflingen","from":"Öhringen Hbf","to":"Zweiflingen Schule","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":14,"s":[[298076524,9],[8983161622,10],[298075924,11],[1354601154,12]]},
+  {"id":3005106411056,"t":{"ref":"6","name":"Bus 6: Öhringen => Forchtenberg => Künzelsau","from":"Öhringen Hbf","to":"Künzelsau Bf.","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":28,"s":[[441711503,11],[12530168741,12]]},
+  {"id":3006322663268,"t":{"ref":"6","name":"Bus 6: Öhringen => Forchtenberg => Künzelsau","from":"Öhringen Hbf","to":"Künzelsau Bf.","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":29,"s":[[5200785073,10],[441711503,12],[12530168741,13]]},
+  {"id":3011143767004,"t":{"ref":"6","name":"Bus 6: Künzelsau => Forchtenberg => Öhringen","from":"Künzelsau Bf.","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":27,"s":[[12530168741,15],[441711503,16],[339798285,18]]},
+  {"id":3037164671444,"t":{"ref":"51","name":"Bus 51: Orendelsall => Eichach => Öhringen","from":"Orendelsall","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":10,"s":[[298076524,8],[298075924,9]]},
+  {"id":3047254281521,"t":{"ref":"6","name":"6: Öhringen Hbf - Künzelsau Bahnhof","from":"Öhringen Hbf","to":"Künzelsau Bahnhof","operator":"Bus (Region)","route":"bus","public_transport:version":"2"},"n":34,"s":[[441711503,19],[12530168741,20]]},
+  {"id":3051129017974,"t":{"ref":"6","name":"Bus 6: Künzelsau => Forchtenberg => Öhringen","from":"Künzelsau Bf.","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":29,"s":[[12530168741,17],[441711503,18],[339798285,20]]},
+  {"id":3076652087420,"t":{"ref":"51","name":"Bus 51: Orendelsall => Eichach => Öhringen","from":"Orendelsall","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":12,"s":[[298075924,2],[298076524,3]]},
+  {"id":3082668766513,"t":{"ref":"51","name":"Bus 51: Orendelsall => Eichach => Öhringen","from":"Orendelsall","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":10,"s":[[298075924,2],[298076524,3]]},
+  {"id":3087101037432,"t":{"ref":"6","name":"Bus 6: Künzelsau => Forchtenberg => Öhringen","from":"Künzelsau Bf.","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":34,"s":[[12530168741,14],[441711503,15],[339798285,17]]},
+  {"id":3095474501021,"t":{"ref":"6","name":"Bus 6: Künzelsau => Forchtenberg => Öhringen","from":"Künzelsau Bf.","to":"Öhringen Hbf","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":28,"s":[[12530168741,16],[441711503,17],[339798285,19]]}
+]
+}

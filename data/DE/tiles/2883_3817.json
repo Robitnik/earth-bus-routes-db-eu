@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2883,3817],
+"stops":[
+  {"id":1344348559,"lat":54.161914,"lon":10.864797,"k":"x","n":"Groß Schlamin, Hauptstraße Süd"},
+  {"id":1753366348,"lat":54.161864,"lon":10.864872,"k":"p","n":"Groß Schlamin, Hauptstr. (Süd)"},
+  {"id":1753366349,"lat":54.161957,"lon":10.864733,"k":"p","n":"Groß Schlamin, Hauptstr. (Süd)"},
+  {"id":3051988229,"lat":54.197345,"lon":10.89476,"k":"p","n":"Beschendorf, Kirschenallee"},
+  {"id":3051988230,"lat":54.182434,"lon":10.878796,"k":"p","n":"Beschendorf, Ort"},
+  {"id":3051990136,"lat":54.195582,"lon":10.873826,"k":"p","n":"Nienrade, Ort"},
+  {"id":4014296944,"lat":54.197372,"lon":10.894763,"k":"x","n":"Beschendorf, Kirschenallee"},
+  {"id":4014296945,"lat":54.182431,"lon":10.878876,"k":"x","n":"Beschendorf, Ort"},
+  {"id":4014296959,"lat":54.195564,"lon":10.873895,"k":"x","n":"Nienrade, Ort"},
+  {"id":4083093753,"lat":54.194884,"lon":10.873737,"k":"p","n":"Nienrade, Ort"},
+  {"id":4083093754,"lat":54.194891,"lon":10.873662,"k":"x","n":"Nienrade, Ort"},
+  {"id":4321925420,"lat":54.182429,"lon":10.878936,"k":"p","n":"Beschendorf, Ort"},
+  {"id":9716414035,"lat":54.189608,"lon":10.876289,"k":"p","n":"Nienrade, An der Brücke"},
+  {"id":9716414036,"lat":54.189597,"lon":10.876208,"k":"x","n":"Nienrade, An der Brücke"},
+  {"id":10159060471,"lat":54.162469,"lon":10.888374,"k":"x","n":"Bentfeld"},
+  {"id":10974311638,"lat":54.165709,"lon":10.869828,"k":"p","n":"Groß Schlamin, Am Erlengrund"},
+  {"id":12299344961,"lat":54.16499,"lon":10.862802,"k":"p","n":"Groß Schlamin, Ortsmitte"},
+  {"id":13018816107,"lat":54.162441,"lon":10.88834,"k":"p","n":"Bentfeld"},
+  {"id":13037085507,"lat":54.165625,"lon":10.86965,"k":"p","n":"Groß Schlamin, Am Erlengrund"},
+  {"id":13037085508,"lat":54.16572,"lon":10.869772,"k":"x","n":"Groß Schlamin, Am Erlengrund"},
+  {"id":13037085509,"lat":54.165622,"lon":10.869705,"k":"x","n":"Groß Schlamin, Am Erlengrund"},
+  {"id":13037085510,"lat":54.165,"lon":10.862853,"k":"x","n":"Groß Schlamin, Ortsmitte"},
+  {"id":13037085511,"lat":54.170278,"lon":10.86467,"k":"x","n":"Groß Schlamin, Auf der Rampe"},
+  {"id":13037085512,"lat":54.170256,"lon":10.864645,"k":"p","n":"Groß Schlamin, Auf der Rampe"}
+],
+"routes":[
+  {"id":4003743,"t":{"ref":"556","name":"Bus 556: Nienrade => Kabelhorst => Lensahn","from":"Nienrade, Ort","to":"Lensahn, Schützenplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","colour":"#006978","route":"bus","public_transport:version":"2"},"n":12,"s":[[4083093753,1],[3051988229,2]]},
+  {"id":6306498,"t":{"ref":"556","name":"Bus 556: Lensahn => Beschendorf => Kabelhorst => Lensahn","from":"Lensahn, Schützenplatz","to":"Lensahn, Schützenplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","colour":"#006978","route":"bus","public_transport:version":"2"},"n":19,"s":[[3051990136,3],[3051988230,4],[4083093753,5],[3051988229,6]]},
+  {"id":6306499,"t":{"ref":"556","name":"Bus 556: Lensahn => Koselau => Lensahn","from":"Lensahn, Schützenplatz","to":"Lensahn, Schützenplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Rohde Verkehrsbetriebe","colour":"#006978","route":"bus","public_transport:version":"2"},"n":20,"s":[[3051990136,3],[3051988230,4],[4083093753,5],[3051988229,6]]},
+  {"id":20007216,"t":{"ref":"553","name":"Bus 553: Groß Schlamin => Grömitz","from":"Groß Schlamin, Am Erlengrund","to":"Grömitz, Grundschule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#008CD2","route":"bus","public_transport:version":"2"},"n":16,"s":[[13037085507,1],[1753366349,2],[13037085512,5],[12299344961,6],[1753366348,7],[13018816107,8]]},
+  {"id":3029165873455,"t":{"ref":"560","name":"Bus 560: Neustadt (Holstein) => Lensahn => Oldenburg (Holstein), Markt","from":"Neustadt (Holstein), ZOB/Bahnhof","to":"Oldenburg (Holstein), Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#91C86E","route":"bus","public_transport:version":"2"},"n":22,"s":[[13037085507,10],[4014296945,11],[9716414036,12],[4083093753,13]]},
+  {"id":3029927120910,"t":{"ref":"560","name":"Bus 560: Oldenburg (Holstein), Markt => Lensahn => Neustadt (Holstein)","from":"Oldenburg (Holstein), Markt","to":"Neustadt (Holstein), ZOB/Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#91C86E","route":"bus","public_transport:version":"2"},"n":24,"s":[[3051990136,12],[3051988230,13],[13037085507,14]]},
+  {"id":3030334988104,"t":{"ref":"560","name":"Bus 560: Oldenburg (Holstein), Markt => Lensahn => Neustadt (Holstein)","from":"Oldenburg (Holstein), Markt","to":"Neustadt (Holstein), ZOB/Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#91C86E","route":"bus","public_transport:version":"2"},"n":22,"s":[[3051990136,10],[3051988230,11],[13037085507,12]]},
+  {"id":3044961674895,"t":{"ref":"553","name":"Bus 553: Grömitz => Groß Schlamin","from":"Grömitz, Gemeinschaftsschule","to":"Groß Schlamin, Am Erlengrund","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#008CD2","route":"bus","public_transport:version":"2"},"n":18,"s":[[13018816107,9],[13037085507,10,18],[1753366349,11],[13037085510,12],[13037085512,13],[1753366348,17]]},
+  {"id":3083701072375,"t":{"ref":"560","name":"Bus 560: Neustadt (Holstein) => Lensahn => Oldenburg (Holstein), Markt","from":"Neustadt (Holstein), ZOB/Bahnhof","to":"Oldenburg (Holstein), Markt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#91C86E","route":"bus","public_transport:version":"2"},"n":25,"s":[[13037085507,10],[4014296945,11],[9716414036,12],[4083093753,13]]}
+]
+}

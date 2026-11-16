@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2807,3830],
+"stops":[
+  {"id":344433917,"lat":50.371344,"lon":11.505224,"k":"p","n":"Nordhalben Karolinenhöhe"},
+  {"id":344433919,"lat":50.37504,"lon":11.512235,"k":"p","n":"Lindenplatz"},
+  {"id":344433921,"lat":50.377508,"lon":11.508845,"k":"p","n":"Nordhalben Siedlung Nord"},
+  {"id":344433922,"lat":50.384793,"lon":11.509422,"k":"p","n":"Nordhalben Schwimmbad"},
+  {"id":344433929,"lat":50.368397,"lon":11.517452,"k":"p","n":"Bahnhof Nordhalben"},
+  {"id":344433933,"lat":50.357864,"lon":11.521168,"k":"p","n":"Stoffelsmühle"},
+  {"id":374289797,"lat":50.386436,"lon":11.52641,"k":"x","n":"Titschendorf"},
+  {"id":2807245353,"lat":50.371062,"lon":11.505211,"k":"p","n":"Nordhalben Karolinenhöhe"},
+  {"id":2807245354,"lat":50.371038,"lon":11.505294,"k":"x","n":"Nordhalben Karolinenhöhe"},
+  {"id":2807245355,"lat":50.37133,"lon":11.505155,"k":"x","n":"Nordhalben Karolinenhöhe"},
+  {"id":8679486448,"lat":50.377404,"lon":11.508742,"k":"p","n":"Nordhalben Siedlung Nord"},
+  {"id":8693219260,"lat":50.357974,"lon":11.520935,"k":"p","n":"Stoffelsmühle"},
+  {"id":8706949678,"lat":50.374951,"lon":11.512187,"k":"p","n":"Lindenplatz"},
+  {"id":9019653234,"lat":50.375648,"lon":11.541623,"k":"p","n":"Heinersberg"},
+  {"id":11151682415,"lat":50.384688,"lon":11.509555,"k":"p","n":"Nordhalben Schwimmbad"},
+  {"id":12807006516,"lat":50.386444,"lon":11.526492,"k":"p","n":"Titschendorf"},
+  {"id":6038173691863,"lat":50.378161,"lon":11.506538,"k":"p","n":"Nordhalben Siedlung Nord","g":1},
+  {"id":6052795837171,"lat":50.367693,"lon":11.51863,"k":"p","n":"Nordhalben Bf","g":1}
+],
+"routes":[
+  {"id":12863313,"t":{"ref":"612","name":"Bus 612: Titschendorf => Wurzbach, Markt","from":"Titschendorf","to":"Wurzbach, Markt","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":9,"s":[[12807006516,1]]},
+  {"id":12863809,"t":{"ref":"612","name":"Bus 612: Wurzbach, Markt => Titschendorf","from":"Wurzbach, Markt","to":"Titschendorf","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":9,"s":[[12807006516,9]]},
+  {"id":12867208,"t":{"ref":"640","name":"Bus 640: Titschendorf => Neundorf, Wartehalle => Bad Lobenstein, Busbahnhof","from":"Titschendorf","to":"Bad Lobenstein, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":7,"s":[[12807006516,1]]},
+  {"id":19076613,"t":{"ref":"640","name":"Bus 640: Bad Lobenstein, Busbahnhof => Neundorf, Wartehalle => Titschendorf","from":"Bad Lobenstein, Busbahnhof","to":"Titschendorf","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":5,"s":[[12807006516,5]]},
+  {"id":19077286,"t":{"ref":"612","name":"Bus 612: Titschendorf => Wurzbach, OT Dürrenbach => Wurzbach, OT Pröstrich => Wurzbach, Markt","from":"Titschendorf","to":"Wurzbach, Markt","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":11,"s":[[12807006516,1]]},
+  {"id":3019062665100,"t":{"ref":"1609","name":"1609: Nordhalben Bf - Kronach, Busbahnhof","from":"Nordhalben Bf","to":"Kronach, Busbahnhof","operator":"OVF","route":"bus","public_transport:version":"2"},"n":34,"s":[[6052795837171,1],[344433922,2],[6038173691863,3],[8706949678,4],[344433917,5]]},
+  {"id":3019420752946,"t":{"ref":"1609","name":"1609: Kronach, Busbahnhof - Nordhalben Bf","from":"Kronach, Busbahnhof","to":"Nordhalben Bf","operator":"OVF","route":"bus","public_transport:version":"2"},"n":32,"s":[[344433917,28],[8706949678,29],[6038173691863,30],[344433922,31],[6052795837171,32]]},
+  {"id":3023579708279,"t":{"ref":"1609","name":"1609: Bad Steben - Kronach, Busbahnhof","from":"Bad Steben","to":"Kronach, Busbahnhof","operator":"OVF","route":"bus","public_transport:version":"2"},"n":43,"s":[[344433933,11],[6052795837171,12],[344433922,13],[6038173691863,14],[8706949678,15],[344433917,16]]},
+  {"id":3036357333071,"t":{"ref":"1609","name":"1609: Nordhalben Karolinenhöhe - Kronach, Busbahnhof","from":"Nordhalben Karolinenhöhe","to":"Kronach, Busbahnhof","operator":"OVF","route":"bus","public_transport:version":"2"},"n":34,"s":[[344433917,1],[8706949678,2],[6038173691863,3],[344433922,4],[6052795837171,5],[344433933,6]]},
+  {"id":3054368612494,"t":{"ref":"1609","name":"1609: Kronach, Busbahnhof - Nordhalben Bf","from":"Kronach, Busbahnhof","to":"Nordhalben Bf","operator":"OVF","route":"bus","public_transport:version":"2"},"n":33,"s":[[344433917,29],[8706949678,30],[6038173691863,31],[344433922,32],[6052795837171,33]]},
+  {"id":3077733639217,"t":{"ref":"1609","name":"1609: Bad Steben - Kronach, Busbahnhof","from":"Bad Steben","to":"Kronach, Busbahnhof","operator":"OVF","route":"bus","public_transport:version":"2"},"n":41,"s":[[344433933,11],[6052795837171,12],[344433922,13],[6038173691863,14],[8706949678,15],[344433917,16]]},
+  {"id":3081615211529,"t":{"ref":"1609","name":"1609: Kronach, Busbahnhof - Bad Steben","from":"Kronach, Busbahnhof","to":"Bad Steben","operator":"OVF","route":"bus","public_transport:version":"2"},"n":41,"s":[[344433917,26],[8706949678,27],[6038173691863,28],[344433922,29],[6052795837171,30],[344433933,31]]}
+]
+}

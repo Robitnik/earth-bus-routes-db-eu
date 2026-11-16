@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3801],
+"stops":[
+  {"id":370318749,"lat":49.729844,"lon":10.088309,"k":"p","n":"Kaltensondheim Am Plärrer"},
+  {"id":462476134,"lat":49.706447,"lon":10.080377,"k":"p","n":"Erlach"},
+  {"id":1232617339,"lat":49.744691,"lon":10.065175,"k":"p","n":"Westheim Rahausplatz"},
+  {"id":7417565187,"lat":49.731161,"lon":10.091434,"k":"p"},
+  {"id":9463354099,"lat":49.744573,"lon":10.065186,"k":"p","n":"Westheim Rahausplatz"},
+  {"id":9883040865,"lat":49.729585,"lon":10.088534,"k":"p","n":"Kaltensondheim Am Plärrer"},
+  {"id":12344386211,"lat":49.706456,"lon":10.080476,"k":"x","n":"Erlach"},
+  {"id":12344386216,"lat":49.744627,"lon":10.065193,"k":"x","n":"Westheim","ref":"8101"},
+  {"id":12344386217,"lat":49.729798,"lon":10.088265,"k":"x","n":"Kaltensondheim Am Plärrer"}
+],
+"routes":[
+  {"id":16097025,"t":{"ref":"301/8301","name":"Bus 301 #2: Kitzingen Klinik Kitzinger Land => Rottendorf Bahnhofstraße über Kaltensondheim","from":"Kitzingen Klinik Kitzinger Land","to":"Rottendorf Bahnhofstraße","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","colour":"#C31824","route":"bus","public_transport:version":"2"},"n":14,"s":[[370318749,7],[1232617339,8]]},
+  {"id":18291379,"t":{"ref":"301/8301","name":"Bus 301: Zeubelried => Kitzingen Armin-Knab-Gymnasium","from":"Zeubelried","to":"Kitzingen Armin-Knab-Gymnasium","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"TAXI","colour":"#C31824","route":"bus","public_transport:version":"2"},"n":3,"s":[[462476134,2]]},
+  {"id":18291384,"t":{"ref":"301/8301","name":"Bus 301: Kaltensondheim Am Plärrer => Kitzingen Bahnhof","from":"Kaltensondheim Am Plärrer","to":"Kitzingen Klinik Kitzinger Land","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"OVF","colour":"#C31824","route":"bus","public_transport:version":"2"},"n":12,"s":[[370318749,1],[1232617339,2]]},
+  {"id":18330701,"t":{"ref":"301/8301","name":"Bus 301: Dettelbach Bahnhof => Kitzingen Rathaus","from":"Dettelbach Bahnhof","to":"Kitzingen Rathaus","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"AST","colour":"#C31824","route":"bus","public_transport:version":"2"},"n":5,"s":[[9463354099,3]]},
+  {"id":18538777,"t":{"ref":"301/8301","name":"Regionalbus 301: Rottendorf Bahnhofstraße => Klinik Kitzinger Land über Kaltensondheim","from":"Rottendorf","to":"Kitzingen Klinik Kitzinger Land","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","colour":"#C31824","route":"bus","public_transport:version":"2"},"n":12,"s":[[9463354099,6],[370318749,7]]},
+  {"id":18539030,"t":{"ref":"302/8302","name":"Regionalbus 302: Kaltensondheim => Münsterschwarzach Abtei","from":"Kaltensondheim","to":"Münsterschwarzach Abtei","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"Burlein & Sohn","route":"bus","public_transport:version":"2"},"n":10,"s":[[370318749,1]]},
+  {"id":18539036,"t":{"ref":"302/8302","name":"Regionalbus 302: Münsterschwarzach Abtei => Kaltensondheim","from":"Münsterschwarzach Abtei","to":"Kaltensondheim","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","operator":"Burlein & Sohn","route":"bus","public_transport:version":"2"},"n":12,"s":[[1232617339,11],[370318749,12]]},
+  {"id":18995491,"t":{"ref":"426","name":"Bus 426: Ochsenfurt => Erlach","from":"Ochsenfurt","to":"Erlach","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":12,"s":[[462476134,12]]},
+  {"id":18995492,"t":{"ref":"426","name":"Bus 426: Erlach => Ochsenfurt Berufsschule","from":"Erlach","to":"Ochsenfurt Berufsschule","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":5,"s":[[462476134,1]]},
+  {"id":18995493,"t":{"ref":"426","name":"Bus 426: Erlach => Ochsenfurt Bahnhofsvorplatz","from":"Erlach","to":"Ochsenfurt Bahnhofsvorplatz","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":5,"s":[[462476134,1]]},
+  {"id":18995931,"t":{"ref":"426","name":"Bus 426: Erlach => Ochsenfurt Grundschule","from":"Erlach","to":"Ochsenfurt Grundschule","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":7,"s":[[462476134,1]]},
+  {"id":3017208093405,"t":{"ref":"552","name":"Bus 552: Lindelbach => Theilheim => Würzburg","from":"Lindelbach","to":"Würzburg Busbahnhof Steig 9","network":"Nahverkehr Mainfranken","operator":"Burlein & Sohn Im Auftrag der APG","route":"bus","public_transport:version":"2"},"n":18,"s":[[1232617339,4]]},
+  {"id":3024544209081,"t":{"ref":"301","name":"301: Dettelbach Bahnhof - Kitzingen Rathaus","from":"Dettelbach Bahnhof","to":"Kitzingen Rathaus","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":7,"s":[[1232617339,4],[370318749,5]]},
+  {"id":3034171302431,"t":{"ref":"8101","name":"8101: Dettelbach Bahnhof - Kitzingen Rathaus","from":"Dettelbach Bahnhof","to":"Kitzingen Rathaus","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":7,"s":[[1232617339,4],[370318749,5]]},
+  {"id":3047684137673,"t":{"ref":"301 (8301)","name":"301 (8301): Dettelbach Bahnhof - Kitzingen Rathaus","from":"Dettelbach Bahnhof","to":"Kitzingen Rathaus","operator":"Bus12","route":"bus","public_transport:version":"2"},"n":7,"s":[[1232617339,4],[370318749,5]]},
+  {"id":3061711500764,"t":{"ref":"301","name":"301: KT Klinik Kitzinger Land - Rottendorf","from":"KT Klinik Kitzinger Land","to":"Rottendorf","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":13,"s":[[370318749,6],[9463354099,7]]},
+  {"id":3063365214747,"t":{"ref":"301 (8301)","name":"301 (8301): Kitzingen - Dettelbach Bahnhof","from":"Kitzingen","to":"Dettelbach Bahnhof","operator":"Bus12","route":"bus","public_transport:version":"2"},"n":7,"s":[[370318749,3],[9463354099,4]]},
+  {"id":3065239038671,"t":{"ref":"301","name":"301: Rottendorf Kitzinger Straße - KT Klinik Kitzinger Land","from":"Rottendorf Kitzinger Straße","to":"KT Klinik Kitzinger Land","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[1232617339,6],[370318749,7]]},
+  {"id":3081397042806,"t":{"ref":"301","name":"301: Kitzingen - Dettelbach Bahnhof","from":"Kitzingen","to":"Dettelbach Bahnhof","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":7,"s":[[370318749,3],[9463354099,4]]},
+  {"id":3081490296004,"t":{"ref":"8101","name":"8101: Kitzingen - Dettelbach Bahnhof","from":"Kitzingen","to":"Dettelbach Bahnhof","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":7,"s":[[370318749,3],[9463354099,4]]},
+  {"id":3095369838640,"t":{"ref":"551","name":"551: Lindelbach Unterer Bux - Würzburg, Hauptbahnhof ZOB","from":"Lindelbach Unterer Bux","to":"Würzburg, Hauptbahnhof ZOB","operator":"Würzburger Straßenbahn","route":"bus","public_transport:version":"2"},"n":26,"s":[[1232617339,4]]}
+]
+}

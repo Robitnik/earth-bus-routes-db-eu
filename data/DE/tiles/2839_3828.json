@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2839,3828],
+"stops":[
+  {"id":1954406832,"lat":51.95681,"lon":11.436311,"k":"x","n":"Egeln Nord, B81"},
+  {"id":1954406834,"lat":51.956817,"lon":11.436179,"k":"p","n":"Egeln Nord, B81"},
+  {"id":1954406838,"lat":51.958148,"lon":11.438398,"k":"p","n":"Egeln Nord, B81"},
+  {"id":1954406840,"lat":51.958198,"lon":11.438324,"k":"x","n":"Egeln Nord, B81"},
+  {"id":2140738666,"lat":51.97523,"lon":11.420914,"k":"p","n":"Etgersleben, Bahnhof"},
+  {"id":2140738667,"lat":51.975254,"lon":11.420966,"k":"x","n":"Etgersleben, Bahnhof"},
+  {"id":2140738668,"lat":51.975451,"lon":11.420851,"k":"x","n":"Etgersleben, Bahnhof"},
+  {"id":2140738669,"lat":51.975474,"lon":11.420942,"k":"p","n":"Etgersleben, Bahnhof"},
+  {"id":2140738670,"lat":51.984749,"lon":11.406858,"k":"p","n":"Etgersleben, Kreuzung"},
+  {"id":2140738671,"lat":51.98482,"lon":11.406803,"k":"x","n":"Etgersleben, Kreuzung"},
+  {"id":2140738672,"lat":51.984999,"lon":11.407798,"k":"x","n":"Etgersleben, Kreuzung"},
+  {"id":2140738673,"lat":51.985007,"lon":11.407727,"k":"p","n":"Etgersleben, Kreuzung"},
+  {"id":2140738675,"lat":51.979825,"lon":11.414128,"k":"p","n":"Etgersleben, Wartehalle"},
+  {"id":2140738682,"lat":51.979896,"lon":11.414087,"k":"x","n":"Etgersleben, Wartehalle"},
+  {"id":2195077582,"lat":51.956546,"lon":11.438079,"k":"p","n":"Egeln Nord, Abzweig Wolmirsleben"},
+  {"id":2195077583,"lat":51.956617,"lon":11.43814,"k":"x","n":"Egeln Nord, Abzweig Wolmirsleben"},
+  {"id":2195077584,"lat":51.956732,"lon":11.437589,"k":"x","n":"Egeln Nord, Abzweig Wolmirsleben"},
+  {"id":2195077585,"lat":51.956797,"lon":11.437628,"k":"p","n":"Egeln Nord, Abzweig Wolmirsleben"},
+  {"id":6048748975295,"lat":51.95983,"lon":11.436696,"k":"p","n":"Egeln, Nord, Neue Str.","g":1}
+],
+"routes":[
+  {"id":2463721,"t":{"ref":"161","name":"Bus 161: Magdeburg => Egeln => Hakeborn","from":"Magdeburg, ZOB","to":"Hakeborn","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[1954406834,6]]},
+  {"id":2464569,"t":{"ref":"161","name":"Bus 161: Hakeborn => Egeln => Magdeburg","from":"Hakeborn","to":"Magdeburg, ZOB","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[2140738675,6],[1954406834,7]]},
+  {"id":3001251102658,"t":{"ref":"161","name":"Bus 161: Magdeburg => Egeln => Etgersleben","from":"Magdeburg, ZOB","to":"Etgersleben","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[1954406838,3]]},
+  {"id":3015687279264,"t":{"ref":"654","name":"Bus 654: Oschersleben => Wanzleben","from":"Oschersleben, ZOB","to":"Wanzleben, Rudolf-Breitscheid-Str.","network":"marego","operator":"Kraftverkehrsgesellschaft mbH Börde-Bus","route":"bus","public_transport:version":"2"},"n":24,"s":[[2140738673,9]]},
+  {"id":3019820287770,"t":{"ref":"157","name":"Bus 157: Egeln => Staßfurt","from":"Egeln, ZOB","to":"Staßfurt, Bahnhof","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[2195077584,17]]},
+  {"id":3024966205981,"t":{"ref":"161","name":"Bus 161: Magdeburg => Egeln => Etgersleben","from":"Magdeburg, ZOB","to":"Etgersleben","operator":"Kreisverkehrsgesellschaft Salzland mbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[1954406832,3]]},
+  {"id":3093232889440,"t":{"ref":"156","name":"156: Egeln, ZOB - Egeln, ZOB","from":"Egeln, ZOB","to":"Egeln, ZOB","operator":"KVG Salzland","route":"bus","public_transport:version":"2"},"n":18,"s":[[1954406838,3],[6048748975295,4],[2140738668,5],[2140738675,6]]}
+]
+}

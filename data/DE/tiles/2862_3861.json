@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2862,3861],
+"stops":[
+  {"id":285967184,"lat":53.147918,"lon":13.053652,"k":"p","n":"Neuglobsow"},
+  {"id":1376769430,"lat":53.125416,"lon":13.07083,"k":"p","n":"Neuroofen, Wendeplatz"},
+  {"id":2208481618,"lat":53.142949,"lon":13.098279,"k":"x","n":"Altglobsow, Abzweig"},
+  {"id":2209998784,"lat":53.108644,"lon":13.056906,"k":"p","n":"Menz, Neuglobsower Straße"},
+  {"id":6672711000,"lat":53.148852,"lon":13.060805,"k":"x","n":"Dagow"},
+  {"id":7196046007,"lat":53.103375,"lon":13.051508,"k":"p","n":"Menz, Am Friedensplatz"},
+  {"id":7196046008,"lat":53.103428,"lon":13.051358,"k":"p","n":"Menz, Am Friedensplatz"},
+  {"id":13260414215,"lat":53.10985,"lon":13.058325,"k":"x","n":"Menz, Schule"},
+  {"id":14208496651,"lat":53.126801,"lon":13.06019,"k":"p","n":"Abzweig Neuroofen"},
+  {"id":14208496652,"lat":53.126712,"lon":13.060016,"k":"p","n":"Abzweig Neuroofen"}
+],
+"routes":[
+  {"id":10945365,"t":{"ref":"836","name":"Bus 836: Neuglobsow => Menz => Zernikow => Gransee","from":"Neuglobsow","to":"Gransee, Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[285967184,1],[1376769430,2],[2209998784,3],[7196046008,4]]},
+  {"id":10945403,"t":{"ref":"836","name":"Bus 836: Gransee => Zernikow => Menz => Neuglobsow","from":"Gransee, Bahnhof","to":"Neuglobsow","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[7196046007,22],[2209998784,23],[1376769430,24],[285967184,25]]},
+  {"id":3077591943013,"t":{"ref":"839","name":"839: Neuglobsow - Bredereiche, Templiner Str.","from":"Neuglobsow","to":"Bredereiche, Templiner Str.","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[285967184,1],[6672711000,2]]},
+  {"id":3087131248571,"t":{"ref":"839","name":"839: Bredereiche, Templiner Str. - Neuglobsow","from":"Bredereiche, Templiner Str.","to":"Neuglobsow","operator":"Oberhavel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[6672711000,20],[285967184,21]]}
+]
+}

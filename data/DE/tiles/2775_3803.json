@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2775,3803],
+"stops":[
+  {"id":503880720,"lat":48.796628,"lon":10.179498,"k":"p","n":"Oberkochener Straße"},
+  {"id":543360745,"lat":48.763733,"lon":10.199466,"k":"p","n":"Nietheim"},
+  {"id":1106125358,"lat":48.7951,"lon":10.18284,"k":"p","n":"Auffahrtsbühl"},
+  {"id":1106125375,"lat":48.79581,"lon":10.187554,"k":"p","n":"Dillingerstraße"},
+  {"id":1106125387,"lat":48.799082,"lon":10.187561,"k":"p","n":"Kirche"},
+  {"id":1106125393,"lat":48.798953,"lon":10.189679,"k":"p","n":"Beck + Schubert"},
+  {"id":13183569464,"lat":48.784503,"lon":10.190106,"k":"p","n":"Niesitz"},
+  {"id":6078750089343,"lat":48.797234,"lon":10.179969,"k":"p","n":"Ebnat, Oberkochener Str.","g":1}
+],
+"routes":[
+  {"id":304110,"t":{"ref":"52","name":"Bus 52: Heidenheim ZOH => Nietheim => Neresheim Post","from":"Heidenheim ZOH","to":"Neresheim Post","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":31,"s":[[543360745,15]]},
+  {"id":20780106,"t":{"ref":"52","name":"Bus 52: Neresheim Post => Nietheim => Heidenheim ZOH","from":"Neresheim Post","to":"Heidenheim ZOH","operator":"Süddeutsche Verkehrslinien","route":"bus","public_transport:version":"2"},"n":30,"s":[[543360745,17]]},
+  {"id":3026509970876,"t":{"ref":"110","name":"110: Neresheim, Kloster - Aalen, ZOB","from":"Neresheim, Kloster","to":"Aalen, ZOB","operator":"Beck + Schubert GmbH & CoKG","route":"bus","public_transport:version":"2"},"n":32,"s":[[1106125375,13],[1106125358,14],[6078750089343,15]]},
+  {"id":3039863185586,"t":{"ref":"106","name":"Bus 106: Neresheim => Aalen","from":"Neresheim Post","to":"Aalen ZOB","network":"OstalbMobil","operator":"Beck+Schubert","route":"bus","public_transport:version":"2"},"n":24,"s":[[1106125387,13]]},
+  {"id":3042509400986,"t":{"ref":"107","name":"Bus 107: Ebnat => Aalen","from":"Ebnat","to":"Aalen ZOB","network":"OstalbMobil","operator":"Beck+Schubert","route":"bus","public_transport:version":"2"},"n":22,"s":[[503880720,2],[1106125358,3],[1106125375,4]]},
+  {"id":3054635255421,"t":{"ref":"110","name":"110: Aalen, ZOB - Neresheim, Kloster","from":"Aalen, ZOB","to":"Neresheim, Kloster","operator":"Beck + Schubert GmbH & CoKG","route":"bus","public_transport:version":"2"},"n":34,"s":[[503880720,19],[1106125358,20],[1106125375,21]]},
+  {"id":3057323257326,"t":{"ref":"110","name":"110: Aalen, ZOB - Neresheim, Kloster","from":"Aalen, ZOB","to":"Neresheim, Kloster","operator":"Beck + Schubert GmbH & CoKG","route":"bus","public_transport:version":"2"},"n":32,"s":[[1106125393,19]]},
+  {"id":3060039490867,"t":{"ref":"106","name":"Bus 106: Aalen => Neresheim","from":"Aalen ZOB","to":"Neresheim Post","network":"OstalbMobil","operator":"Beck+Schubert","route":"bus","public_transport:version":"2"},"n":24,"s":[[1106125393,12]]},
+  {"id":3060408804048,"t":{"ref":"110","name":"110: Neresheim, Kloster - Aalen, ZOB","from":"Neresheim, Kloster","to":"Aalen, ZOB","operator":"Beck + Schubert GmbH & CoKG","route":"bus","public_transport:version":"2"},"n":30,"s":[[1106125387,13]]},
+  {"id":3061674077236,"t":{"ref":"116","name":"116: Ebnat, Ortsmitte - Ebnat, Ortsmitte","from":"Ebnat, Ortsmitte","to":"Ebnat, Ortsmitte","operator":"Beck + Schubert GmbH & CoKG","route":"bus","public_transport:version":"2"},"n":44,"s":[[1106125387,43]]},
+  {"id":3084569275191,"t":{"ref":"110","name":"110: Aalen, ZOB - Ebnat, Dillinger Str.","from":"Aalen, ZOB","to":"Ebnat, Dillinger Str.","operator":"Beck + Schubert GmbH & CoKG","route":"bus","public_transport:version":"2"},"n":21,"s":[[503880720,19],[1106125358,20],[1106125375,21]]},
+  {"id":3092125478582,"t":{"ref":"107","name":"Bus 107: Aalen => Ebnat","from":"Aalen ZOB","to":"Ebnat","network":"OstalbMobil","operator":"Beck+Schubert","route":"bus","public_transport:version":"2"},"n":22,"s":[[1106125375,19],[1106125358,20],[6078750089343,21]]}
+]
+}

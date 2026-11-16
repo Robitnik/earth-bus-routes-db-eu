@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2848,3802],
+"stops":[
+  {"id":333411477,"lat":52.411239,"lon":10.136649,"k":"p","n":"Schwüblingsen/An der Kapelle"},
+  {"id":333411484,"lat":52.414008,"lon":10.128676,"k":"p","n":"Schwüblingsen/Grafhornstraße"},
+  {"id":339177152,"lat":52.4061,"lon":10.13287,"k":"p","n":"Schwüblingsen/Arpker Straße"},
+  {"id":6053010175558,"lat":52.405079,"lon":10.131505,"k":"p","n":"Schwüblingsen Arpker Straße","g":1},
+  {"id":6068402483836,"lat":52.413825,"lon":10.124813,"k":"p","n":"Schwüblingsen Grafhornstraße","g":1}
+],
+"routes":[
+  {"id":170628,"t":{"ref":"950","name":"Linie 950 Dedenhausen - Uetze - Dollbergen - Schwüblingsen","from":"Schwüblingsen","to":"Dedenhausen","network":"Großraum-Verkehr Hannover","operator":"Regio Bus","route":"bus"},"n":34,"s":[[333411477,9],[333411484,10]]},
+  {"id":3007139073925,"t":{"ref":"950","name":"950: Dedenhausen Bahnhof - Schwüblingsen Grafhornstraße","from":"Dedenhausen Bahnhof","to":"Schwüblingsen Grafhornstraße","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[333411477,24],[6068402483836,25]]},
+  {"id":3041615930489,"t":{"ref":"950","name":"950: Schwüblingsen Grafhornstraße - Dedenhausen Bahnhof","from":"Schwüblingsen Grafhornstraße","to":"Dedenhausen Bahnhof","operator":"RegioBus Hannover GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[6068402483836,1],[333411477,2]]},
+  {"id":3096616228853,"t":{"ref":"946","name":"946 Dollbergen - Burgdorf","from":"Dollbergen","to":"Burgdorf","network":"Großraum-Verkehr Hannover","operator":"RegioBus","route":"bus","public_transport:version":"2"},"n":22,"s":[[6053010175558,16],[333411477,17]]}
+]
+}

@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2885,3783],
+"stops":[
+  {"id":419819513,"lat":54.251267,"lon":9.181318,"k":"x","n":"Linden Feuerwehr"},
+  {"id":419963858,"lat":54.254567,"lon":9.150584,"k":"x","n":"Hägen Högener Wisch"},
+  {"id":592625652,"lat":54.287874,"lon":9.151442,"k":"p","n":"Hennstedt (Dith) Klever Weg"},
+  {"id":592625658,"lat":54.278771,"lon":9.196966,"k":"p","n":"Gut Apeldör, Golf-Club"},
+  {"id":2344436788,"lat":54.283158,"lon":9.165407,"k":"p","n":"Hennstedt (Dith) Heider Straße"},
+  {"id":2403797455,"lat":54.281301,"lon":9.163103,"k":"p","n":"Hennstedt (Dith) Rolfsstraße"},
+  {"id":2403797467,"lat":54.284263,"lon":9.159681,"k":"p","n":"Hennstedt (Dith) Grüner Weg"},
+  {"id":6805201898,"lat":54.268291,"lon":9.157064,"k":"p","n":"Fedderingen, Hochfeld"},
+  {"id":6805201899,"lat":54.268105,"lon":9.156906,"k":"p","n":"Fedderingen, Hochfeld"},
+  {"id":13647148908,"lat":54.283386,"lon":9.165052,"k":"x","n":"Hennstedt (Dith), Mühlenstraße"},
+  {"id":13647148909,"lat":54.283856,"lon":9.169619,"k":"x","n":"Hennstedt (Dith), Polizei"},
+  {"id":6017415337275,"lat":54.283793,"lon":9.170533,"k":"p","n":"Hennstedt(Dithm) Polizei","g":1},
+  {"id":6030102769942,"lat":54.288305,"lon":9.164668,"k":"p","n":"Hennstedt(Dithm) Schule","g":1},
+  {"id":6080960670708,"lat":54.253088,"lon":9.188745,"k":"p","n":"Linden(Holst) Löken","g":1}
+],
+"routes":[
+  {"id":3114821,"t":{"ref":"224","name":"Bus 224: Heide => Hennstedt => St. Annen => Friedrichstadt","from":"Heide, Bahnhof","to":"Friedrichstadt","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#828723","route":"bus","public_transport:version":"2"},"n":25,"s":[[2344436788,7],[2403797455,8],[2403797467,9],[592625652,10]]},
+  {"id":3544148,"t":{"ref":"225","name":"Bus 225: Delve => Hennstedt => Heide","from":"Delve","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#85D0F5","route":"bus","public_transport:version":"2"},"n":7,"s":[[2344436788,1],[6805201899,2]]},
+  {"id":20221124,"t":{"ref":"225","name":"Bus 225: Heide => Hennstedt => Delve","from":"Heide, Bahnhof","to":"Delve","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#85D0F5","route":"bus","public_transport:version":"2"},"n":7,"s":[[6805201898,5],[2344436788,6],[2403797455,7]]},
+  {"id":20221126,"t":{"ref":"224","name":"Bus 224: St. Annen => Hennstedt => Heide","from":"St. Annen Zabel","to":"Heide, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#828723","route":"bus","public_transport:version":"2"},"n":8,"s":[[2344436788,3],[2403797455,4]]},
+  {"id":20321346,"t":{"ref":"235","name":"Bus 235: Tellingstedt => Lunden","from":"Tellingstedt,ZOB","to":"Lunden, Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"DB Regio Bus Nord","colour":"#8C191E","route":"bus","public_transport:version":"2"},"n":11,"s":[[592625658,5],[2403797467,6],[592625652,7]]},
+  {"id":3046255503260,"t":{"ref":"225","name":"225: Delve Ortsmitte - Heide(Holst) Bahnhof","from":"Delve Ortsmitte","to":"Heide(Holst) Bahnhof","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[592625658,6],[13647148909,7],[6030102769942,8],[2344436788,9],[6805201899,10],[419963858,11]]},
+  {"id":3050703973949,"t":{"ref":"230","name":"230: Erfde Dorfplatz - Heide(Holst) Bahnhof","from":"Erfde Dorfplatz","to":"Heide(Holst) Bahnhof","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6080960670708,13],[419819513,14]]},
+  {"id":3051200958196,"t":{"ref":"235","name":"235: Lunden Bahnhof - Tellingstedt ZOB","from":"Lunden Bahnhof","to":"Tellingstedt ZOB","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[592625652,7],[2403797467,8],[13647148908,9],[6017415337275,10],[592625658,11]]},
+  {"id":3085945809595,"t":{"ref":"235","name":"235: Tellingstedt ZOB - Lunden Bahnhof","from":"Tellingstedt ZOB","to":"Lunden Bahnhof","operator":"DB Regio Bus Nord GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[592625658,18],[13647148909,19],[13647148908,20],[2403797467,21],[592625652,22]]}
+]
+}

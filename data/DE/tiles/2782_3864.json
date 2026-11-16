@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2782,3864],
+"stops":[
+  {"id":360030593,"lat":49.11967,"lon":13.203049,"k":"x","n":"Bayerisch Eisenstein, Local-Bahn-Museum"},
+  {"id":975858038,"lat":49.121287,"lon":13.207868,"k":"x","n":"Bayerisch Eisenstein, Bahnhof"},
+  {"id":2201661113,"lat":49.119612,"lon":13.20305,"k":"p","n":"Bayerisch Eisenstein, Local-Bahn-Museum"},
+  {"id":3936172965,"lat":49.121269,"lon":13.207507,"k":"x","n":"Bayerisch Eisenstein, Bahnhof","ref":"3"},
+  {"id":3936172967,"lat":49.121378,"lon":13.207971,"k":"x","n":"Bayerisch Eisenstein, Bahnhof","ref":"1"},
+  {"id":6902780640,"lat":49.123632,"lon":13.207957,"k":"p","n":"Železná Ruda, Alžbětín, st.hr."},
+  {"id":6902780641,"lat":49.126084,"lon":13.213493,"k":"p","n":"Železná Ruda, Alžbětín"},
+  {"id":6902780642,"lat":49.12634,"lon":13.213686,"k":"p","n":"Železná Ruda, Alžbětín"},
+  {"id":7788510036,"lat":49.123273,"lon":13.207526,"k":"p","n":"Železná Ruda, Alžbětín, st.hr."},
+  {"id":8094362828,"lat":49.120975,"lon":13.202967,"k":"x","n":"Bayerisch Eisenstein, Ortsmitte"},
+  {"id":8094362829,"lat":49.121061,"lon":13.202997,"k":"p","n":"Bayerisch Eisenstein, Ortsmitte"},
+  {"id":8094362834,"lat":49.120924,"lon":13.202962,"k":"p","n":"Bayerisch Eisenstein, Ortsmitte"},
+  {"id":9814763672,"lat":49.123335,"lon":13.207453,"k":"x","n":"Železná Ruda, Alžbětín, st.hr."},
+  {"id":10905868600,"lat":49.11973,"lon":13.203034,"k":"p","n":"Bayerisch Eisenstein, Local-Bahn-Museum"},
+  {"id":13570557005,"lat":49.126137,"lon":13.213432,"k":"x","n":"Železná Ruda, Alžbětín"},
+  {"id":5000446838243,"lat":49.121393,"lon":13.208033,"k":"p","n":"Bayerisch Eisenstein, Bahnhof","ref":"1"},
+  {"id":6065088052657,"lat":49.122249,"lon":13.202944,"k":"p","n":"Bayer. Eisenstein, P-Grenzübergang","g":1},
+  {"id":6065737750807,"lat":49.119933,"lon":13.203959,"k":"p","n":"Bayer. Eisenstein, Local-Bahn-Museum","g":1},
+  {"id":6068999307930,"lat":49.121843,"lon":13.20227,"k":"p","n":"Bayer. Eisenstein, P-Grenzübergang","g":1}
+],
+"routes":[
+  {"id":5335441,"t":{"ref":"6197","name":"Bus RBO 6197: Regen-Zwiesel-Bayerisch Eisenstein","from":"Regen","to":"Bayerisch Eisenstein","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000446838243,11]]},
+  {"id":5389861,"t":{"ref":"6081/000036","name":"Bus RBO 6081/ARRIVA 000036: Železná Ruda-Bayer.Eisenstein-Arber Bergbahn","network":"Regionalbus Ostbayern;Verbundtarif DonauWald;Arriva Střední Čechy s.r.o.","operator":"RBO","route":"bus","public_transport:version":"2"},"n":11,"s":[[8094362834,1],[5000446838243,2],[2201661113,3]]},
+  {"id":5429703,"t":{"ref":"7710/000048","name":"Bus RBO 7710/ARRIVA 000048: Passau, Hbf. => Ruderting => Neukirchen v. W. => Schönberg => Rinchnach => Regen => Zwiesel=> Železná Ruda (CZ)","from":"Passau, Hbf.","to":"Železná Ruda (CZ)","network":"Regionalbus Ostbayern;Verbundtarif DonauWald;Arriva Střední Čechy s.r.o.","operator":"RBO;Arriva Stredni Cechny s.r.o.","route":"bus","public_transport:version":"2"},"n":89,"s":[[2201661113,88],[5000446838243,89]]},
+  {"id":5844216,"t":{"ref":"7710/000048","name":"Bus RBO 7710/ARRIVA 000048: Železná Ruda (CZ) => Zwiesel => Regen => Rinchnach => Schönberg => Neukirchen v. W. => Ruderting => Passau, Hbf.","from":"Železná Ruda (CZ)","to":"Passau, Hbf.","network":"Regionalbus Ostbayern;Verbundtarif DonauWald;Arriva Střední Čechy s.r.o.","operator":"RBO;Arriva Stredni Cechny s.r.o.","route":"bus","public_transport:version":"2"},"n":89,"s":[[5000446838243,1],[10905868600,2]]},
+  {"id":20227018,"t":{"ref":"430962","name":"Bus 962: Železná ruda, Alžbětín, st. hr. => Železná Ruda","from":"Železná ruda, Alžbětín, st. hr.","to":"Železná Ruda","network":"Integrovaná doprava Plzeňského kraje","operator":"Arriva Střední Čechy","route":"bus","public_transport:version":"2"},"n":2,"s":[[7788510036,1],[6902780641,2]]},
+  {"id":3000943519199,"t":{"ref":"6081","name":"6081: Bayerisch Eisenstein - Arber Bergbahn, Talstation","from":"Bayerisch Eisenstein","to":"Arber Bergbahn, Talstation","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000446838243,1],[6065737750807,2],[6065088052657,3]]},
+  {"id":3024171314589,"t":{"ref":"6081","name":"6081: Arber Bergbahn, Talstation - Bayerisch Eisenstein","from":"Arber Bergbahn, Talstation","to":"Bayerisch Eisenstein","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":9,"s":[[6068999307930,6],[360030593,8],[5000446838243,9]]},
+  {"id":3050123819508,"t":{"ref":"44","name":"44: Bayerisch Eisenstein - Zwiesel (Bay)","from":"Bayerisch Eisenstein","to":"Zwiesel (Bay)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":12,"s":[[975858038,1]]}
+]
+}

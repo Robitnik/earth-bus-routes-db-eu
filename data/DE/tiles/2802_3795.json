@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2802,3795],
+"stops":[
+  {"id":266911979,"lat":50.104847,"lon":9.78122,"k":"x","n":"Weickersgrüben Roßmühle"},
+  {"id":1601309090,"lat":50.102068,"lon":9.763214,"k":"p"},
+  {"id":5535251494,"lat":50.115725,"lon":9.767205,"k":"x","n":"Michelau Ort"},
+  {"id":5535251496,"lat":50.115722,"lon":9.767307,"k":"p","n":"Michelau Ort"},
+  {"id":5535251497,"lat":50.101635,"lon":9.791821,"k":"x","n":"Weickersgrüben Ortsmitte"},
+  {"id":5535251498,"lat":50.10164,"lon":9.791905,"k":"p","n":"Weickersgrüben Ortsmitte"},
+  {"id":5535251647,"lat":50.104956,"lon":9.78163,"k":"p","n":"Weickersgrüben Roßmühle"},
+  {"id":9114665578,"lat":50.101112,"lon":9.763971,"k":"p","n":"Neutzenbrunn"},
+  {"id":9116408588,"lat":50.104946,"lon":9.781696,"k":"p","n":"Weickersgrüben Roßmühle"},
+  {"id":9116441857,"lat":50.101574,"lon":9.791795,"k":"p","n":"Weickersgrüben Ortsmitte"},
+  {"id":11233178250,"lat":50.146169,"lon":9.779846,"k":"p","n":"Waizenbach"},
+  {"id":11233178251,"lat":50.146724,"lon":9.78085,"k":"p","n":"Waizenbach"},
+  {"id":6017830562901,"lat":50.117146,"lon":9.799066,"k":"p","n":"Morlesau","g":1},
+  {"id":6034127669686,"lat":50.116712,"lon":9.767679,"k":"p","n":"Michelaubrück","g":1},
+  {"id":6066568604473,"lat":50.107067,"lon":9.782546,"k":"p","n":"Weickersgrüben","g":1}
+],
+"routes":[
+  {"id":8187871,"t":{"ref":"642","name":"Bus 642: Gemünden(M) -> Weickersgrüben","from":"Gemünden (M), Bahnhof","to":"Weickersgrüben","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":8,"s":[[5535251496,7],[9116441857,8]]},
+  {"id":3005535571435,"t":{"ref":"641","name":"641: Gemünden (Main) - Weickersgrüben Ortsmitte","from":"Gemünden (Main)","to":"Weickersgrüben Ortsmitte","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":17,"s":[[5535251497,17]]},
+  {"id":3011137313381,"t":{"ref":"RB50","name":"RB50: Gemünden (Main) - Hammelburg","from":"Gemünden (Main)","to":"Hammelburg","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[6017830562901,5]]},
+  {"id":3025289749027,"t":{"ref":"642","name":"642: Weickersgrüben Ortsmitte - Gemünden (Main)","from":"Weickersgrüben Ortsmitte","to":"Gemünden (Main)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":15,"s":[[5535251497,1],[9114665578,3]]},
+  {"id":3027629387692,"t":{"ref":"RB50","name":"RB50: Hammelburg - Gemünden (Main)","from":"Hammelburg","to":"Gemünden (Main)","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[6017830562901,3]]},
+  {"id":3028796752722,"t":{"ref":"RB50","name":"RB50: Gräfendorf - Morlesau","from":"Gräfendorf","to":"Morlesau","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":5,"s":[[6034127669686,2],[6066568604473,3],[6017830562901,5]]},
+  {"id":3029908060758,"t":{"ref":"641","name":"641: Seifriedsburg Ortsmitte - Gemünden (Main)","from":"Seifriedsburg Ortsmitte","to":"Gemünden (Main)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":14,"s":[[9114665578,2]]},
+  {"id":3038905770052,"t":{"ref":"RB50","name":"RB50: Hammelburg - Gräfendorf","from":"Hammelburg","to":"Gräfendorf","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":4,"s":[[6066568604473,2],[6034127669686,3]]},
+  {"id":3043387395821,"t":{"ref":"RB50","name":"RB50: Morlesau - Gräfendorf","from":"Morlesau","to":"Gräfendorf","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":5,"s":[[6017830562901,1],[6066568604473,3],[6034127669686,4]]},
+  {"id":3049942923595,"t":{"ref":"641","name":"641: Gemünden (Main) - Weickersgrüben Ortsmitte","from":"Gemünden (Main)","to":"Weickersgrüben Ortsmitte","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[5535251497,12]]},
+  {"id":3051735542161,"t":{"ref":"RB50","name":"RB50: Gräfendorf - Hammelburg","from":"Gräfendorf","to":"Hammelburg","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":4,"s":[[6034127669686,2],[6066568604473,3]]},
+  {"id":3057087714142,"t":{"ref":"641","name":"641: Weyersfeld Kirche - Gemünden (Main)","from":"Weyersfeld Kirche","to":"Gemünden (Main)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":14,"s":[[9114665578,2]]},
+  {"id":3067667761439,"t":{"ref":"642","name":"642: Gemünden (Main) - Weickersgrüben Ortsmitte","from":"Gemünden (Main)","to":"Weickersgrüben Ortsmitte","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":12,"s":[[5535251497,12]]},
+  {"id":3072940442688,"t":{"ref":"641","name":"641: Neutzenbrunn - Gemünden (Main)","from":"Neutzenbrunn","to":"Gemünden (Main)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":8,"s":[[9114665578,1]]},
+  {"id":3075752841689,"t":{"ref":"641","name":"641: Gemünden (Main) - Weyersfeld Kirche","from":"Gemünden (Main)","to":"Weyersfeld Kirche","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":9,"s":[[9114665578,8]]},
+  {"id":3078325158090,"t":{"ref":"641","name":"641: Gemünden (Main) - Neutzenbrunn","from":"Gemünden (Main)","to":"Neutzenbrunn","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":9,"s":[[9114665578,9]]},
+  {"id":3086453766153,"t":{"ref":"641","name":"641: Weickersgrüben Ortsmitte - Gemünden (Main)","from":"Weickersgrüben Ortsmitte","to":"Gemünden (Main)","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":15,"s":[[5535251497,1],[9114665578,3]]}
+]
+}

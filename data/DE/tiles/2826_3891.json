@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2826,3891],
+"stops":[
+  {"id":2631904425,"lat":51.333163,"lon":14.596411,"k":"p","n":"Klitten Junkerkreuzung"},
+  {"id":3170407847,"lat":51.335646,"lon":14.590744,"k":"x","n":"Klein-Oelsa"},
+  {"id":4462575822,"lat":51.337892,"lon":14.562985,"k":"p","n":"Kaschel Ausbau"},
+  {"id":4462575823,"lat":51.341294,"lon":14.575074,"k":"p","n":"Kaschel"},
+  {"id":5756848700,"lat":51.333518,"lon":14.595872,"k":"p","n":"Klitten Junkerkreuzung"},
+  {"id":5756848711,"lat":51.341456,"lon":14.574911,"k":"p","n":"Kaschel"},
+  {"id":5756888860,"lat":51.337993,"lon":14.563094,"k":"p","n":"Kaschel Ausbau"},
+  {"id":8785037326,"lat":51.348355,"lon":14.589714,"k":"p","n":"Klitten Bahnhof"},
+  {"id":8785037327,"lat":51.348568,"lon":14.589241,"k":"p","n":"Klitten Bahnhof"},
+  {"id":8785115146,"lat":51.335637,"lon":14.590694,"k":"p","n":"Klein-Oelsa"},
+  {"id":8785115147,"lat":51.335666,"lon":14.590815,"k":"p","n":"Klein-Oelsa"},
+  {"id":8785242018,"lat":51.340914,"lon":14.5769,"k":"p","n":"Kaschel"},
+  {"id":8785242020,"lat":51.341083,"lon":14.576039,"k":"p","n":"Kaschel"},
+  {"id":12825650493,"lat":51.300257,"lon":14.553581,"k":"p"},
+  {"id":13158784486,"lat":51.348883,"lon":14.589479,"k":"p","n":"Klitten Bahnhof","ref":"3"}
+],
+"routes":[
+  {"id":17565825,"t":{"ref":"76","name":"Bus 76: Mücka => Förstgen => Klitten => Boxberg => Uhyst (Spree)","from":"Mücka Schule","to":"Uhyst (Spree) Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":21,"s":[[5756848700,7],[8785115147,8],[8785242018,9]]},
+  {"id":19627678,"t":{"ref":"WALEMO","name":"WALEMO Shuttle Klitten => Bärwalder See","from":"Klitten Bahnhof","to":"Klitten Bärwalder See Skan-Park","network":"Zweckverband Verkehrsverbund Oberlausitz-Niederschlesien","operator":"SCHMIDTSCHWARZ GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":2,"s":[[13158784486,1]]},
+  {"id":19648176,"t":{"ref":"WALEMO","name":"WALEMO Shuttle Bärwalder See => Klitten","from":"Klitten Bärwalder See Skan-Park","to":"Klitten Bahnhof","network":"Zweckverband Verkehrsverbund Oberlausitz-Niederschlesien","operator":"SCHMIDTSCHWARZ GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":2,"s":[[13158784486,2]]},
+  {"id":3014351455908,"t":{"ref":"76","name":"Bus 76: Uhyst (Spree) => Boxberg => Klitten => Förstgen => Mücka","from":"Uhyst (Spree) Bahnhof","to":"Mücka Schule","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":11,"s":[[2631904425,5],[3170407847,6],[8785242020,7]]},
+  {"id":3020897201648,"t":{"ref":"76","name":"Bus 76: Uhyst (Spree) => Boxberg => Klitten => Förstgen => Mücka","from":"Uhyst (Spree) Bahnhof","to":"Mücka Schule","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":11,"s":[[8785242020,5],[3170407847,6],[2631904425,7]]},
+  {"id":3034612679310,"t":{"ref":"W00","name":"W00: Klitten Bahnhof - Klitten Kirche","from":"Klitten Bahnhof","to":"Klitten Kirche","operator":"Schmidt-Reisen","route":"bus","public_transport:version":"2"},"n":3,"s":[[13158784486,1]]},
+  {"id":3087961311137,"t":{"ref":"W00","name":"W00: Klitten Kirche - Klitten Bahnhof","from":"Klitten Kirche","to":"Klitten Bahnhof","operator":"Schmidt-Reisen","route":"bus","public_transport:version":"2"},"n":3,"s":[[13158784486,3]]}
+]
+}

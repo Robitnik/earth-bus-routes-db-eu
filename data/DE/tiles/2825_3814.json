@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2825,3814],
+"stops":[
+  {"id":1707795342,"lat":51.265169,"lon":10.738504,"k":"x","n":"Billeben"},
+  {"id":1707795525,"lat":51.287157,"lon":10.741241,"k":"x","n":"Ebeleben, Bahnhof"},
+  {"id":2117410905,"lat":51.267376,"lon":10.701081,"k":"x","n":"Rockensußra"},
+  {"id":2117410917,"lat":51.267469,"lon":10.701481,"k":"x","n":"Rockensußra"},
+  {"id":4502525115,"lat":51.282405,"lon":10.731765,"k":"x","n":"Ebeleben, Markt"},
+  {"id":4502525138,"lat":51.282475,"lon":10.732196,"k":"x","n":"Ebeleben, Markt"},
+  {"id":4675904290,"lat":51.267383,"lon":10.701363,"k":"p","n":"Rockensußra"},
+  {"id":5207100772,"lat":51.267452,"lon":10.701085,"k":"p","n":"Rockensußra"},
+  {"id":7621828499,"lat":51.263281,"lon":10.738958,"k":"x","n":"Billeben"},
+  {"id":8405571100,"lat":51.282438,"lon":10.731751,"k":"p","n":"Ebeleben, Markt"},
+  {"id":8405571101,"lat":51.282422,"lon":10.732166,"k":"p","n":"Ebeleben, Markt"},
+  {"id":8405571102,"lat":51.287094,"lon":10.741264,"k":"p","n":"Ebeleben, Bahnhof"},
+  {"id":8405571103,"lat":51.287082,"lon":10.74092,"k":"p","n":"Ebeleben, Bahnhof"},
+  {"id":8405571104,"lat":51.287029,"lon":10.740976,"k":"x","n":"Ebeleben, Bahnhof"},
+  {"id":12536287079,"lat":51.26521,"lon":10.7384,"k":"p"},
+  {"id":12536287080,"lat":51.263183,"lon":10.739104,"k":"p","n":"Billeben"},
+  {"id":6004999780653,"lat":51.287385,"lon":10.741716,"k":"p","n":"Ebeleben, Bahnhof","g":1},
+  {"id":6016104811830,"lat":51.280995,"lon":10.736734,"k":"p","n":"Ebeleben, TGS","g":1},
+  {"id":6030662875738,"lat":51.287389,"lon":10.74172,"k":"p","n":"Ebeleben, Bahnhof","g":1},
+  {"id":6061068418602,"lat":51.264687,"lon":10.738494,"k":"p","n":"Billeben","g":1},
+  {"id":6068341526690,"lat":51.28106,"lon":10.736554,"k":"p","n":"Ebeleben, Grundschule","g":1}
+],
+"routes":[
+  {"id":18616018,"t":{"ref":"433","name":"Bus 433: Ebeleben - Rockstedt - Großenehrich - Wolferschwenda - Ebeleben","from":"Ebeleben","to":"Ebeleben","network":"RS","operator":"Regionalbus - Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus"},"n":8,"s":[[8405571101,1],[12536287080,8]]},
+  {"id":18633400,"t":{"ref":"422","name":"Bus 422: Sondershausen - Ebeleben - Keula","network":"RS","operator":"Regionalbus - Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus"},"n":7,"s":[[8405571100,1]]},
+  {"id":3014005030593,"t":{"ref":"130","name":"Bus 130: Mühlhausen => Sondershausen","from":"Mühlhausen","to":"Sondershausen","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[5207100772,14],[8405571100,15],[6004999780653,16]]},
+  {"id":3063017365030,"t":{"ref":"422","name":"422: Ebeleben, Bahnhof - Keula","from":"Ebeleben, Bahnhof","to":"Keula","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[6030662875738,1],[6068341526690,2],[6016104811830,3],[8405571100,4]]},
+  {"id":3077271718099,"t":{"ref":"422","name":"422: Keula - Sondershausen, ZOB","from":"Keula","to":"Sondershausen, ZOB","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[8405571100,7],[6004999780653,8]]},
+  {"id":3079683049445,"t":{"ref":"422","name":"422: Keula - Ebeleben, Bahnhof","from":"Keula","to":"Ebeleben, Bahnhof","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[8405571100,7],[6004999780653,8]]},
+  {"id":3093036234777,"t":{"ref":"433","name":"433: Ebeleben, Bahnhof - Ebeleben, Bahnhof","from":"Ebeleben, Bahnhof","to":"Ebeleben, Bahnhof","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6030662875738,1],[6068341526690,2],[6016104811830,3],[8405571100,4,12],[6061068418602,11],[6004999780653,13]]},
+  {"id":3096130798161,"t":{"ref":"130","name":"Bus 130: Sondershausen => Mühlhausen","from":"Sondershausen","to":"Mühlhausen","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[6030662875738,8],[8405571100,9],[5207100772,10]]}
+]
+}

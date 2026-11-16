@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2765,3800],
+"stops":[
+  {"id":268071624,"lat":48.298564,"lon":10.009355,"k":"x","n":"Steinberg, Gassenäcker"},
+  {"id":1911988788,"lat":48.279681,"lon":10.020404,"k":"p","n":"Dorndorf"},
+  {"id":1911988789,"lat":48.2798,"lon":10.019983,"k":"p","n":"Dorndorf"},
+  {"id":2266673184,"lat":48.265775,"lon":10.006643,"k":"x","n":"Beuren"},
+  {"id":2908548411,"lat":48.298585,"lon":10.009527,"k":"p","n":"Gassenäcker"},
+  {"id":2908548412,"lat":48.29869,"lon":10.00877,"k":"p","n":"Gassenäcker"},
+  {"id":6269663590,"lat":48.27969,"lon":10.020215,"k":"x","n":"Dorndorf"},
+  {"id":7110326378,"lat":48.29874,"lon":10.008804,"k":"x","n":"Steinberg, Gassenäcker"},
+  {"id":7110347596,"lat":48.279803,"lon":10.020104,"k":"x","n":"Dorndorf"},
+  {"id":7113053569,"lat":48.265739,"lon":10.006658,"k":"p","n":"Beuren"},
+  {"id":9934509188,"lat":48.265823,"lon":10.006434,"k":"p","n":"Beuren"},
+  {"id":9934509189,"lat":48.265766,"lon":10.006421,"k":"x","n":"Beuren"},
+  {"id":12093621979,"lat":48.270554,"lon":10.044957,"k":"p","n":"Schlössle Steig 1","ref":"1"},
+  {"id":12093621980,"lat":48.270673,"lon":10.044738,"k":"p","n":"Schlössle Steig 2","ref":"2"},
+  {"id":12554146009,"lat":48.270631,"lon":10.044765,"k":"x","n":"Illerrieden, Schlössle"},
+  {"id":12554146011,"lat":48.270625,"lon":10.045025,"k":"x","n":"Illerrieden, Schlössle"},
+  {"id":5000360373658,"lat":48.298582,"lon":10.00954,"k":"p","n":"Steinberg Gassenäcker"},
+  {"id":5000360582805,"lat":48.270574,"lon":10.044884,"k":"p","n":"Illerrieden Schlössle"},
+  {"id":5000360582807,"lat":48.270664,"lon":10.044827,"k":"p","n":"Illerrieden Schlössle"}
+],
+"routes":[
+  {"id":1424638,"t":{"ref":"723","name":"DING 723 - Vöhringen - Illerrieden - Dorndorf","from":"Vöhringen","to":"Dorndorf","network":"Donau-Iller-Nahverkehrsverbund","route":"bus"},"n":3,"s":[[12554146011,2]]},
+  {"id":3816434,"t":{"ref":"74","name":"Bus 74 Wiblingen-Oberkirchberg-Altheim/Staig-Wiblingen","from":"Wiblingen Schulzentrum","to":"Wiblingen Schulzentrum","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus"},"n":17,"s":[[2908548411,5],[5000360373658,11]]},
+  {"id":10551376,"t":{"ref":"74","name":"Bus 74 Wiblingen-Altheim/Staig-Oberkirchberg-Wiblingen","from":"Wiblingen Schulzentrum","to":"Wiblingen Schulzentrum","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":20,"s":[[2908548412,13]]},
+  {"id":3003038601419,"t":{"ref":"70","name":"DING 70 - Ulm ZOB => Illertissen","from":"Ulm ZOB, Steig L","to":"Illertissen","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000360373658,14],[1911988789,15],[5000360582805,16]]},
+  {"id":3011006374330,"t":{"ref":"23","name":"Bus 23: Vöhringen => Schnürpflingen => Ulm ZOB","from":"Vöhringen Realschule","to":"Ulm ZOB, Steig L","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","colour":"#CBD208","route":"bus","public_transport:version":"2"},"n":29,"s":[[12093621980,6],[9934509188,7],[2908548412,17]]},
+  {"id":3011450846620,"t":{"ref":"70","name":"DING 70 - Illertissen => Ulm ZOB","from":"Illertissen","to":"Ulm ZOB, Steig L","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":28,"s":[[12093621980,13],[1911988788,14],[2908548412,15]]},
+  {"id":3018125353187,"t":{"ref":"23","name":"Bus 23: Vöhringen => Schnürpflingen => Ulm ZOB","from":"Vöhringen Realschule","to":"Ulm ZOB, Steig L","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","colour":"#CBD208","route":"bus","public_transport:version":"2"},"n":23,"s":[[9934509188,1],[2908548412,11]]},
+  {"id":3045699921380,"t":{"ref":"70","name":"DING 70 - Illertissen => Ulm ZOB","from":"Illertissen","to":"Ulm ZOB, Steig L","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","route":"bus","public_transport:version":"2"},"n":27,"s":[[12093621980,12],[1911988788,13],[2908548412,14]]},
+  {"id":3061049986265,"t":{"ref":"23","name":"Bus 23: Ulm ZOB => Schnürpflingen => Vöhringen","from":"Ulm ZOB, Steig L","to":"Vöhringen Realschule","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","colour":"#CBD208","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000360373658,13],[7113053569,23],[5000360582805,24]]},
+  {"id":3070685875242,"t":{"ref":"23","name":"Bus 23: Vöhringen => Schnürpflingen => Ulm ZOB","from":"Vöhringen Realschule","to":"Ulm ZOB, Steig L","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","colour":"#CBD208","route":"bus","public_transport:version":"2"},"n":24,"s":[[9934509188,1],[2908548412,12]]},
+  {"id":3098393384530,"t":{"ref":"23","name":"Bus 23: Ulm ZOB => Schnürpflingen => Vöhringen","from":"Ulm ZOB, Steig L","to":"Vöhringen Realschule","network":"Donau-Iller-Nahverkehrsverbund","operator":"SVL","colour":"#CBD208","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000360373658,13],[7113053569,23]]}
+]
+}

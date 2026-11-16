@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2851,3813],
+"stops":[
+  {"id":316232640,"lat":52.551502,"lon":10.688856,"k":"x","n":"Grußendorf - Heideweg"},
+  {"id":316233722,"lat":52.560032,"lon":10.670455,"k":"x","n":"Stüde Bernsteinsee"},
+  {"id":1756279244,"lat":52.598401,"lon":10.673396,"k":"p"},
+  {"id":1756279252,"lat":52.598404,"lon":10.673651,"k":"p"},
+  {"id":1787601933,"lat":52.5984,"lon":10.668057,"k":"p","n":"Weißes Moor - Kanalstraße 7 / 9","ref":"line 131"},
+  {"id":2286371921,"lat":52.598669,"lon":10.68523,"k":"x","n":"Weißes Moor"},
+  {"id":2299486621,"lat":52.556044,"lon":10.677927,"k":"x","n":"Stüde - Alte Schule"},
+  {"id":3282508744,"lat":52.554135,"lon":10.676761,"k":"x","n":"Stüde - Alte Schulstraße"}
+],
+"routes":[
+  {"id":2216637,"t":{"ref":"166","name":"Bus 166: Gifhorn => Brome","from":"Gifhorn, Am Luckmoor","to":"Brome, Schule","network":"VRB","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","colour":"#008080","route":"bus"},"n":5,"s":[[2299486621,3],[316232640,4]]},
+  {"id":3039174963914,"t":{"ref":"131","name":"131: Knesebeck, Rathaus - Wahrenholz, Weißes Moor","from":"Knesebeck, Rathaus","to":"Wahrenholz, Weißes Moor","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[2286371921,7]]},
+  {"id":3042623952771,"t":{"ref":"172","name":"Bus 172: Stüde =>Jembke=>Weyhausen","from":"Stüde","to":"Weyhausen","network":"Verkehrsverbund Region Braunschweig","operator":"VLG","route":"bus","public_transport:version":"2"},"n":12,"s":[[316233722,1],[3282508744,2],[316232640,3]]},
+  {"id":3049893152275,"t":{"ref":"164","name":"164: Brome, Schule - Gifhorn, Stadt (Bahnhof)","from":"Brome, Schule","to":"Gifhorn, Stadt (Bahnhof)","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[316232640,14],[3282508744,15]]},
+  {"id":3070177884352,"t":{"ref":"164","name":"164: Gifhorn, Stadt (Bahnhof) - Brome, Schule","from":"Gifhorn, Stadt (Bahnhof)","to":"Brome, Schule","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":29,"s":[[3282508744,15],[316232640,16]]},
+  {"id":3082688925207,"t":{"ref":"172","name":"Bus 172: Stüde =>Jembke=>Weyhausen","from":"Stüde","to":"Weyhausen","network":"Verkehrsverbund Region Braunschweig","operator":"VLG","route":"bus","public_transport:version":"2"},"n":13,"s":[[316232640,11],[3282508744,12],[316233722,13]]}
+]
+}

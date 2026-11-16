@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2887,3818],
+"stops":[
+  {"id":2526733415,"lat":54.379764,"lon":10.949604,"k":"x","n":"Ferienpark/Spielplatz"},
+  {"id":4705809146,"lat":54.354194,"lon":10.926812,"k":"x","n":"Dazendorf Nord"},
+  {"id":4705809147,"lat":54.354142,"lon":10.92696,"k":"p","n":"Dazendorf Nord"},
+  {"id":4705809148,"lat":54.35425,"lon":10.926766,"k":"p","n":"Dazendorf Nord"},
+  {"id":7507231685,"lat":54.379789,"lon":10.949652,"k":"p","n":"Ferienpark/Spielplatz"},
+  {"id":11846864308,"lat":54.353167,"lon":10.927049,"k":"p","n":"Dazendorf, Ortsmitte"},
+  {"id":11846875491,"lat":54.353227,"lon":10.927795,"k":"p","n":"Dazendorf, Ortsmitte"}
+],
+"routes":[
+  {"id":6646730,"t":{"ref":"577","name":"Bus 577: Rossee => Gremersdorf","from":"Rossee","to":"Gremersdorf, Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#EE7D00","route":"bus","public_transport:version":"2"},"n":16,"s":[[11846864308,12]]},
+  {"id":14878044,"t":{"ref":"576","name":"Bus 576: Oldenburg => Dazendorf => Heiligenhafen","from":"Oldenburg (Holstein), ZOB/Bahnhof","to":"Heiligenhafen,Wilhelmsplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#814897","route":"bus","public_transport:version":"2"},"n":16,"s":[[4705809147,12]]},
+  {"id":14878048,"t":{"ref":"576","name":"Bus 576: Heiligenhafen => Dazendorf => Oldenburg","from":"Heiligenhafen,Warderschule","to":"Oldenburg (Holstein), ZOB/Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#814897","route":"bus","public_transport:version":"2"},"n":14,"s":[[4705809148,5]]},
+  {"id":15313298,"t":{"ref":"577","name":"Bus 577: Heiligenhafen => Gremersdorf","from":"Heiligenhafen,Warderschule","to":"Gremersdorf, Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#EE7D00","route":"bus","public_transport:version":"2"},"n":10,"s":[[4705809148,5],[11846864308,6]]},
+  {"id":20007504,"t":{"ref":"585","name":"Bus ALFA 585: Heiligenhafen <=> Johannistal","from":"Heiligenhafen, Wilhelmsplatz","to":"Heiligenhafen, Wilhelmsplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"grey","route":"bus","public_transport:version":"2"},"n":13,"s":[[11846864308,11]]},
+  {"id":3024647253258,"t":{"ref":"580","name":"Bus 580: Oldenburg (Holstein) => Heiligenhafen","from":"Oldenburg (Holstein), ZOB/Bahnhof","to":"Heiligenhafen, Ferienpark/Spielplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#5BC2DD","route":"bus","public_transport:version":"2"},"n":20,"s":[[2526733415,20]]},
+  {"id":3069393195712,"t":{"ref":"580","name":"Bus 580: Heiligenhafen => Oldenburg (Holstein)","from":"Heiligenhafen, Ferienpark/Spielplatz","to":"Oldenburg (Holstein), ZOB/Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Norddeutsche Verkehrsbetriebe","colour":"#5BC2DD","route":"bus","public_transport:version":"2"},"n":16,"s":[[2526733415,1]]}
+]
+}

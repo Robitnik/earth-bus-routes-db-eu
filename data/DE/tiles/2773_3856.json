@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2773,3856],
+"stops":[
+  {"id":5600032720,"lat":48.656389,"lon":12.821964,"k":"p","n":"Heimhart, Abzw."},
+  {"id":5600033021,"lat":48.664774,"lon":12.809768,"k":"p","n":"Wisselsdorf"},
+  {"id":5675888764,"lat":48.694761,"lon":12.805632,"k":"p","n":"Ettling, Kriegerdenkmal"},
+  {"id":5675888765,"lat":48.694687,"lon":12.80575,"k":"p","n":"Ettling, Kriegerdenkmal"},
+  {"id":5675924392,"lat":48.698742,"lon":12.815267,"k":"p","n":"Maria Bürg"},
+  {"id":5675924393,"lat":48.698754,"lon":12.815045,"k":"p","n":"Maria Bürg"},
+  {"id":5676024056,"lat":48.694234,"lon":12.804677,"k":"p","n":"Ettling, Mitte"},
+  {"id":5756904788,"lat":48.68683,"lon":12.836109,"k":"p","n":"Gneiding"},
+  {"id":7576720123,"lat":48.693223,"lon":12.801887,"k":"p","n":"Ettling, Feuerwehrhaus"},
+  {"id":10113662614,"lat":48.653031,"lon":12.840232,"k":"x","n":"Berg"},
+  {"id":10113662615,"lat":48.653019,"lon":12.840192,"k":"p","n":"Berg"},
+  {"id":10129703471,"lat":48.674228,"lon":12.842241,"k":"x","n":"Frauenholz"},
+  {"id":10129703476,"lat":48.674197,"lon":12.842204,"k":"p","n":"Frauenholz"},
+  {"id":10129710772,"lat":48.678895,"lon":12.83936,"k":"x","n":"Frauenholz 35"},
+  {"id":10129710773,"lat":48.678902,"lon":12.839449,"k":"p","n":"Frauenholz 35"},
+  {"id":10130007158,"lat":48.656335,"lon":12.821872,"k":"x","n":"Heimhart, Abzw."},
+  {"id":10130007161,"lat":48.656337,"lon":12.821783,"k":"p","n":"Heimhart, Abzw."},
+  {"id":10131875736,"lat":48.694708,"lon":12.805686,"k":"x","n":"Ettling, Kriegerdenkmal"},
+  {"id":10131989670,"lat":48.694196,"lon":12.804627,"k":"x","n":"Ettling, Mitte"},
+  {"id":10142627376,"lat":48.677429,"lon":12.822056,"k":"p","n":"Wildeneck Abzw."},
+  {"id":10164746540,"lat":48.660472,"lon":12.831526,"k":"p","n":"Heimhart, Schule"},
+  {"id":10164746542,"lat":48.660406,"lon":12.831583,"k":"p","n":"Heimhart, Schule"},
+  {"id":10196699799,"lat":48.668863,"lon":12.809245,"k":"p","n":"Wisseldorf Abzweigung Wildeneck"},
+  {"id":10196722149,"lat":48.664931,"lon":12.809691,"k":"p","n":"Wisselsdorf"},
+  {"id":6001907828084,"lat":48.660189,"lon":12.831006,"k":"p","n":"Heimhart, Schule","g":1}
+],
+"routes":[
+  {"id":8253471,"t":{"ref":"35","name":"Bus DGF 35 Wallersdorf - Karlshof - Wallersdorf","from":"Wallersdorf","to":"Karlshof","network":"Dingolfinger Regionalbusnetz","operator":"Fa. Reicheneder GmbH","route":"bus","public_transport:version":"1"},"n":11,"s":[[5676024056,3]]},
+  {"id":8253591,"t":{"ref":"28/28","name":"Bus DGF 28/VSL 28 Wallersdorfermoos - Ettling - Straubing","from":"Wallersdorfermoos","to":"Straubing","network":"Dingolfinger Regionalbusnetz;Verkehrsgemeinschaft Straubinger Land","operator":"Fa. Reicheneder GmbH","route":"bus","public_transport:version":"1"},"n":24,"s":[[7576720123,22]]},
+  {"id":8275690,"t":{"ref":"6235/03","name":"Bus RBO 6235/DGF 03 Landau(Isar) - Eichendorf - Kröhstorf","from":"Landau (Isar)","to":"Kröhstorf","network":"Regionalbus Ostbayern;Dingolfinger Regionalbusnetz;Verbundtarif DonauWald","operator":"RBO; Reicheneder; Stelzeneder; Unertl","route":"bus","public_transport:version":"1"},"n":90,"s":[[5600032720,35],[5600033021,36]]},
+  {"id":8276161,"t":{"ref":"6152/05","name":"Bus RBO 6152/DGF 05 Landau(Isar) - Eichendorf - Plattling","from":"Landau (Isar)","to":"Plattling","network":"Regionalbus Ostbayern;Dingolfinger Regionalbusnetz;Verbundtarif DonauWald","operator":"RBO; Reicheneder; Unertl","route":"bus","public_transport:version":"1"},"n":69,"s":[[5675924392,42],[5675924393,43],[5675888765,44],[5675888764,45]]},
+  {"id":3002042335126,"t":{"ref":"8224","name":"Rufbus RBO 8224 Buchhofen - Wallerfing - Oberpöring - Otzing - Plattling","from":"Buchhofen","to":"Plattling","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":36,"s":[[5675924393,19],[5756904788,23]]},
+  {"id":3006590190828,"t":{"ref":"44c","name":"44c: Eichendorf, Schule - Frauenholz","from":"Eichendorf, Schule","to":"Frauenholz","operator":"Ebenbeck Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":20,"s":[[10113662614,11],[6001907828084,12],[10130007161,13],[10196722149,14],[10196699799,16],[10142627376,17],[5756904788,18],[10129710772,19],[10129703476,20]]},
+  {"id":3040578733788,"t":{"ref":"8224","name":"Rufbus RBO 8224 Buchhofen - Wallerfing - Oberpöring - Otzing - Plattling","from":"Buchhofen","to":"Plattling","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":36,"s":[[5756904788,14],[5675924393,18]]}
+]
+}

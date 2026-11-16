@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2847,3835],
+"stops":[
+  {"id":1523655470,"lat":52.393935,"lon":11.786682,"k":"p","n":"Mahlwinkel, Bahnhof"},
+  {"id":1523655675,"lat":52.393952,"lon":11.786682,"k":"x","n":"Mahlwinkel, Bahnhof"},
+  {"id":2519020948,"lat":52.373759,"lon":11.771334,"k":"p","n":"Zibberick"},
+  {"id":2519020949,"lat":52.373779,"lon":11.7714,"k":"x","n":"Zibberick"},
+  {"id":2519020950,"lat":52.373801,"lon":11.771468,"k":"p","n":"Zibberick"},
+  {"id":10837392238,"lat":52.35399,"lon":11.785938,"k":"p","n":"Sandkrug"},
+  {"id":6025243097249,"lat":52.354014,"lon":11.787883,"k":"p","n":"Sandkrug (Angern)","g":1}
+],
+"routes":[
+  {"id":2702865,"t":{"ref":"625","name":"Bus 625: Bertingen => Angern/Rogätz Bhf","from":"Bertingen","to":"Angern/ Rogätz Bahnhof","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":7,"s":[[1523655470,2],[2519020948,3]]},
+  {"id":2705170,"t":{"ref":"624","name":"Bus 624: Burgstall => Mahlwinkel","from":"Burgstall, Schule","to":"Mahlwinkel, Bahnhof","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":4,"s":[[1523655470,4]]},
+  {"id":2705174,"t":{"ref":"624","name":"Bus 624: Mahlwinkel => Angern","from":"Mahlwinkel, Bahnhof","to":"Angern, Teich","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":9,"s":[[1523655470,1],[2519020948,6]]},
+  {"id":3049726414169,"t":{"ref":"625","name":"Bus 625: Angern/Rogätz Bhf => Bertingen","from":"Angern/Rogätz Bahnhof","to":"Bertingen","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":10,"s":[[6025243097249,7],[2519020950,8],[1523655470,9]]},
+  {"id":3054838336931,"t":{"ref":"625","name":"Bus 625: Angern/Rogätz Bhf => Bertingen","from":"Angern/Rogätz Bahnhof","to":"Bertingen","operator":"Ohrebus","route":"bus","public_transport:version":"2"},"n":10,"s":[[1523655470,2],[2519020949,3],[6025243097249,4]]}
+]
+}

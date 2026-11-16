@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2753,3758],
+"stops":[
+  {"id":370770224,"lat":47.678059,"lon":7.94526,"k":"p","n":"Am Schluchtensteig","ref":"de.08336081.amschluchtensteig"},
+  {"id":6627558096,"lat":47.69928,"lon":7.924388,"k":"p","n":"Ebnet"},
+  {"id":6627568593,"lat":47.698137,"lon":7.932227,"k":"p","n":"Post"},
+  {"id":6627568594,"lat":47.699128,"lon":7.924569,"k":"p","n":"Ebnet"},
+  {"id":11398930473,"lat":47.651813,"lon":7.92526,"k":"p","n":"Hornberger Weg/Kraftwerk"},
+  {"id":11398930474,"lat":47.651256,"lon":7.925123,"k":"p","n":"Hornberger Weg/Kraftwerk"}
+],
+"routes":[
+  {"id":289920,"t":{"ref":"7320","name":"Bus 7320","network":"Waldshuter Tarifverbund","operator":"Südbadenbus GmbH","colour":"#ffffff","route":"bus","public_transport:version":"1"},"n":2,"s":[[11398930474,1],[11398930473,2]]},
+  {"id":3037323760761,"t":{"ref":"7320","name":"7320: Todtmoos Busbahnhof - Wehr Bf (Bus)","from":"Todtmoos Busbahnhof","to":"Wehr Bf (Bus)","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":15,"s":[[370770224,10],[11398930473,11]]},
+  {"id":3043281549566,"t":{"ref":"7320","name":"7320: Wehr Bf (Bus) - Todtmoos Busbahnhof","from":"Wehr Bf (Bus)","to":"Todtmoos Busbahnhof","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":15,"s":[[11398930473,5],[370770224,6]]},
+  {"id":3079329268477,"t":{"ref":"7308","name":"7308: Schopfheim Busbahnhof - Gersbach Post","from":"Schopfheim Busbahnhof","to":"Gersbach Post","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":15,"s":[[6627558096,14],[6627568593,15]]},
+  {"id":3084750934917,"t":{"ref":"7308","name":"7308: Gersbach Post - Schopfheim Busbahnhof","from":"Gersbach Post","to":"Schopfheim Busbahnhof","operator":"SBG-Waldshut","route":"bus","public_transport:version":"2"},"n":15,"s":[[6627568593,1],[6627558096,2]]}
+]
+}

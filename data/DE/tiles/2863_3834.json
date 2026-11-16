@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2863,3834],
+"stops":[
+  {"id":995243161,"lat":53.159747,"lon":11.739157,"k":"p","n":"Karstädt (PR), Bahnhof"},
+  {"id":995247696,"lat":53.155171,"lon":11.749452,"k":"p","n":"Karstädt (PR), B 5"},
+  {"id":995247700,"lat":53.155253,"lon":11.749502,"k":"p","n":"Karstädt (PR), B 5"},
+  {"id":5169298928,"lat":53.163218,"lon":11.745722,"k":"p","n":"Karstädt (PR), Postliner Straße"},
+  {"id":7281103708,"lat":53.197091,"lon":11.707327,"k":"p","n":"Bootz"},
+  {"id":7281103709,"lat":53.172944,"lon":11.741077,"k":"p","n":"Postlin, Dargardter Straße"},
+  {"id":7281103710,"lat":53.163276,"lon":11.745857,"k":"p","n":"Karstädt (PR), Postliner Straße"},
+  {"id":7281127730,"lat":53.197059,"lon":11.707335,"k":"x","n":"Bootz"},
+  {"id":7281127731,"lat":53.172828,"lon":11.741103,"k":"p","n":"Postlin, Dargardter Straße"},
+  {"id":6007537696064,"lat":53.173093,"lon":11.743474,"k":"p","n":"Postlin, Dargardter Str.","g":1},
+  {"id":6012363963392,"lat":53.173085,"lon":11.742655,"k":"p","n":"Postlin, Dargardter Str.","g":1},
+  {"id":6012680960127,"lat":53.174296,"lon":11.749692,"k":"p","n":"Postlin, Dorf","g":1},
+  {"id":6039149564213,"lat":53.174441,"lon":11.749359,"k":"p","n":"Postlin, Dorf","g":1},
+  {"id":6063028743056,"lat":53.162461,"lon":11.746307,"k":"p","n":"Karstädt (PR), Postliner Str.","g":1},
+  {"id":6079816818146,"lat":53.162421,"lon":11.746269,"k":"p","n":"Karstädt (PR), Postliner Str.","g":1},
+  {"id":6085565121385,"lat":53.16873,"lon":11.745392,"k":"p","n":"Karstädt (PR), Gewerbeallee","g":1},
+  {"id":6091261084134,"lat":53.168743,"lon":11.745267,"k":"p","n":"Karstädt (PR), Gewerbeallee","g":1}
+],
+"routes":[
+  {"id":10811014,"t":{"ref":"951","name":"Bus 951: Karstädt (PR), Schule => Reckenzin => Groß Warnow, Schule","from":"Karstädt (PR), Schule","to":"Groß Warnow, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[995243161,1],[7281103710,2],[7281103709,3],[7281103708,4]]},
+  {"id":14972995,"t":{"ref":"948","name":"Bus 948","from":"Karstädt (PR), Bahnhof","to":"Berge (PR), Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"1"},"n":5,"s":[[995243161,1]]},
+  {"id":3005039551419,"t":{"ref":"951","name":"Bus 951: Groß Warnow, Schule => Reckenzin => Karstädt (PR), Bahnhof","from":"Groß Warnow, Schule","to":"Karstädt (PR), Bahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[995243161,1],[6063028743056,2],[6091261084134,3],[6012363963392,4],[7281103708,5]]},
+  {"id":3005508391401,"t":{"ref":"948","name":"948: Berge (PR), Schule - Karstädt (PR), Bahnhof","from":"Berge (PR), Schule","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[6039149564213,14],[6085565121385,15],[6079816818146,16],[995243161,17]]},
+  {"id":3013248930485,"t":{"ref":"946","name":"946: Perleberg, Bahnhof/ZOB - Karstädt (PR), Bahnhof","from":"Perleberg, Bahnhof/ZOB","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[995247700,9],[995243161,10]]},
+  {"id":3015143823240,"t":{"ref":"946","name":"946: Perleberg, Bahnhof/ZOB - Karstädt (PR), Bahnhof","from":"Perleberg, Bahnhof/ZOB","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[995247700,8],[995243161,9]]},
+  {"id":3025622871361,"t":{"ref":"948","name":"948: Karstädt (PR), Bahnhof - Dallmin, II","from":"Karstädt (PR), Bahnhof","to":"Dallmin, II","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[995243161,1],[6063028743056,2],[6091261084134,3],[6012680960127,4]]},
+  {"id":3029437657488,"t":{"ref":"946","name":"946: Perleberg, Bahnhof/ZOB - Karstädt (PR), Bahnhof","from":"Perleberg, Bahnhof/ZOB","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[995247700,9],[995243161,10]]},
+  {"id":3049009138378,"t":{"ref":"952","name":"952: Karstädt (PR), Bahnhof - Karstädt (PR), Bahnhof","from":"Karstädt (PR), Bahnhof","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[995243161,1,26],[6063028743056,2],[6091261084134,3],[6012363963392,4],[7281103708,19],[6007537696064,24],[6079816818146,25]]},
+  {"id":3064872957709,"t":{"ref":"946","name":"946: Karstädt (PR), Bahnhof - Perleberg, Bahnhof/ZOB","from":"Karstädt (PR), Bahnhof","to":"Perleberg, Bahnhof/ZOB","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[995243161,1],[995247696,2]]},
+  {"id":3070691860207,"t":{"ref":"946","name":"946: Karstädt (PR), Bahnhof - Perleberg, Bahnhof/ZOB","from":"Karstädt (PR), Bahnhof","to":"Perleberg, Bahnhof/ZOB","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[995243161,1],[995247696,2]]},
+  {"id":3071136029790,"t":{"ref":"948","name":"948: Berge (PR), Schule - Karstädt (PR), Bahnhof","from":"Berge (PR), Schule","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6039149564213,10],[6085565121385,11],[6079816818146,12],[995243161,13]]},
+  {"id":3086400171088,"t":{"ref":"948","name":"948: Dallmin, II - Karstädt (PR), Bahnhof","from":"Dallmin, II","to":"Karstädt (PR), Bahnhof","operator":"VG Prignitz mbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[6039149564213,4],[6085565121385,5],[6079816818146,6],[995243161,7]]}
+]
+}

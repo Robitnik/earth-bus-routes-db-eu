@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2837,3798],
+"stops":[
+  {"id":59744082,"lat":51.873626,"lon":9.924522,"k":"x","n":"Bruchhof, Landesstraße"},
+  {"id":843024375,"lat":51.859129,"lon":9.944204,"k":"p","n":"Greene, Kirche"},
+  {"id":1852614767,"lat":51.898381,"lon":9.933024,"k":"p","n":"Leinetal Siedlung"},
+  {"id":2383217493,"lat":51.853902,"lon":9.947207,"k":"p","n":"Greene, Lindenstraße"},
+  {"id":2383217901,"lat":51.853943,"lon":9.94727,"k":"p","n":"Greene, Lindenstraße"},
+  {"id":2383217924,"lat":51.852851,"lon":9.947143,"k":"p","n":"Greene, Schulzentrum"},
+  {"id":9357924189,"lat":51.859019,"lon":9.94418,"k":"p","n":"Greene, Kirche"},
+  {"id":9426146573,"lat":51.859063,"lon":9.944161,"k":"x","n":"Greene, Kirche"},
+  {"id":9426146574,"lat":51.859389,"lon":9.939775,"k":"x","n":"Greene, Steinweg"},
+  {"id":9426146575,"lat":51.859444,"lon":9.939733,"k":"p","n":"Greene, Steinweg"},
+  {"id":9440625840,"lat":51.853928,"lon":9.947242,"k":"x","n":"Greene, Lindenstraße"},
+  {"id":9447864722,"lat":51.864859,"lon":9.934665,"k":"x","n":"Greene, Bruchhofer Straße"},
+  {"id":9447864723,"lat":51.86488,"lon":9.934751,"k":"p","n":"Greene, Bruchhofer Straße"},
+  {"id":9447864726,"lat":51.873726,"lon":9.924597,"k":"p","n":"Bruchhof, Landesstraße"},
+  {"id":9447864727,"lat":51.874913,"lon":9.945715,"k":"x","n":"Beulshausen, Ortsmitte"},
+  {"id":9447864728,"lat":51.874893,"lon":9.945738,"k":"p","n":"Beulshausen, Ortsmitte"},
+  {"id":9447864729,"lat":51.890619,"lon":9.930243,"k":"x","n":"Erzhausen, Am Brinke"},
+  {"id":9447864730,"lat":51.890657,"lon":9.930224,"k":"p","n":"Erzhausen, Am Brinke"},
+  {"id":9450873047,"lat":51.860261,"lon":9.940522,"k":"x","n":"Greene, Grundschule"},
+  {"id":9450873048,"lat":51.860229,"lon":9.940592,"k":"p","n":"Greene, Grundschule"},
+  {"id":9463798469,"lat":51.85287,"lon":9.947201,"k":"x","n":"Greene, Schulzentrum"}
+],
+"routes":[
+  {"id":13698596,"t":{"ref":"254","name":"Bus 254: Stroit - Kreiensen","from":"Stroit","to":"Kreiensen","network":"Verkehrsverbund Süd-Niedersachsen","route":"bus","public_transport:version":"2"},"n":8,"s":[[9426146575,4],[9357924189,5]]},
+  {"id":13698632,"t":{"ref":"254","name":"Bus 254: Kreiensen - Stroit","from":"Kreiensen","to":"Stroit","network":"Verkehrsverbund Süd-Niedersachsen","route":"bus","public_transport:version":"2"},"n":8,"s":[[843024375,4],[9426146575,5]]},
+  {"id":13707991,"t":{"name":"Bus 275: Einbeck - Greene - Kreiensen - Bad Gandersheim","from":"Einbeck","to":"Bad Gandersheim","network":"Verkehrsverbund Süd-Niedersachsen","route":"bus","public_transport:version":"2"},"n":22,"s":[[2383217901,12],[9426146575,13],[9357924189,14]]},
+  {"id":13708073,"t":{"name":"Bus 275: Bad Gandersheim - Greene - Kreiensen - Einbeck","from":"Bad Gandersheim","to":"Einbeck","network":"Verkehrsverbund Süd-Niedersachsen","route":"bus","public_transport:version":"2"},"n":23,"s":[[843024375,9],[9426146575,10],[2383217493,11]]},
+  {"id":13725636,"t":{"ref":"276","name":"Bus 276: Bad Gandersheim - Greene - Kreiensen - Edesheim","from":"Bad Gandersheim","to":"Edesheim","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Scheithauer Reisen GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[843024375,11],[9450873048,12],[9447864723,13],[9447864726,14],[9447864730,15],[9447864728,16],[9426146575,17],[2383217493,18]]},
+  {"id":13743790,"t":{"ref":"263","name":"Bus 263: Echte - Opperhausen - Kreiensen - Greene","from":"Echte","to":"Greene","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Scheithauer Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[843024375,16],[2383217924,17]]},
+  {"id":13744553,"t":{"ref":"263","name":"Bus 263: Greene - Kreiensen - Opperhausen - Echte","from":"Greene","to":"Echte","network":"Verkehrsverbund Süd-Niedersachsen","operator":"Scheithauer Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[2383217924,1],[9357924189,2]]}
+]
+}

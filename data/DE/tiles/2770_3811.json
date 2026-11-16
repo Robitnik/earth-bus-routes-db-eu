@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2770,3811],
+"stops":[
+  {"id":290762397,"lat":48.51697,"lon":10.597125,"k":"x","n":"Wengen","ref":"A"},
+  {"id":846293543,"lat":48.525068,"lon":10.59359,"k":"p","n":"Riedsend","ref":"A"},
+  {"id":846293559,"lat":48.516797,"lon":10.597954,"k":"p","n":"Wengen","ref":"B"},
+  {"id":846293568,"lat":48.517003,"lon":10.59712,"k":"p","n":"Wengen","ref":"A"},
+  {"id":846293578,"lat":48.525035,"lon":10.593736,"k":"p","n":"Riedsend","ref":"B"},
+  {"id":1775031936,"lat":48.519572,"lon":10.557365,"k":"x","n":"Eppisburg"},
+  {"id":4725540032,"lat":48.516812,"lon":10.598084,"k":"x","n":"Wengen","ref":"B"},
+  {"id":4910033804,"lat":48.524914,"lon":10.593452,"k":"p"},
+  {"id":5747509056,"lat":48.52509,"lon":10.593689,"k":"x","n":"Riedsend","ref":"A;B"},
+  {"id":8859755856,"lat":48.519573,"lon":10.557277,"k":"p","n":"Eppisburg"}
+],
+"routes":[
+  {"id":930093,"t":{"ref":"505","name":"AVV-Regionalbus 505: Augsburg => Wertingen","from":"Augsburg, Hauptbahnhof","to":"Wertingen, Marktplatz","network":"Augsburger Verkehrs- und Tarifverbund","operator":"Ludwig Tours","route":"bus","public_transport:version":"2"},"n":36,"s":[[846293568,30],[846293578,31]]},
+  {"id":930118,"t":{"ref":"505","name":"AVV-Regionalbus 505: Wertingen => Augsburg","from":"Wertingen, Marktplatz","to":"Augsburg, Theater","network":"Augsburger Verkehrs- und Tarifverbund","operator":"Schwabenbus GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[846293543,6],[846293559,7]]},
+  {"id":1397981,"t":{"ref":"505","name":"AVV-Regionalbus 505: Wertingen => Augsburg","from":"Wertingen, Marktplatz","to":"Augsburg, Theater","network":"Augsburger Verkehrs- und Tarifverbund","operator":"Schwabenbus GmbH","route":"bus","public_transport:version":"2"},"n":36,"s":[[846293543,6],[846293559,7]]},
+  {"id":12590291,"t":{"ref":"9109","name":"9109: Lauingen => Eppisburg","from":"Lauingen","to":"Eppisburg","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[8859755856,3]]},
+  {"id":12590730,"t":{"ref":"9109","name":"9109: Eppisburg => Lauingen","from":"Eppisburg","to":"Lauingen","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[1775031936,1]]},
+  {"id":12590732,"t":{"ref":"9109","name":"9109: Binswangen => Glött","from":"Binswangen","to":"Glött","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[8859755856,1]]},
+  {"id":12590735,"t":{"ref":"9109A","name":"9109A: Weisingen Schule => Ellerbach","from":"Weisingen Schule","to":"Ellerbach","network":"Regionalbus Augsburg","operator":"Schwabenbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[1775031936,11]]}
+]
+}

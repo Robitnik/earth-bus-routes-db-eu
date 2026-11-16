@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2784,3796],
+"stops":[
+  {"id":30061111,"lat":49.244794,"lon":9.849309,"k":"x","n":"Bächlingen"},
+  {"id":286244976,"lat":49.225201,"lon":9.84776,"k":"x","n":"Nesselbach Steinacher Straße"},
+  {"id":908845644,"lat":49.205954,"lon":9.830516,"k":"p","n":"Niedersteinach"},
+  {"id":908846808,"lat":49.205831,"lon":9.831001,"k":"p","n":"Niedersteinach"},
+  {"id":3444933458,"lat":49.24487,"lon":9.849588,"k":"p","n":"Bächlingen"},
+  {"id":6449381545,"lat":49.225543,"lon":9.84759,"k":"p","n":"Nesselbach Steinacher Straße"},
+  {"id":6449381546,"lat":49.225988,"lon":9.846495,"k":"p","n":"Nesselbach Orlacher Straße"},
+  {"id":6449382029,"lat":49.225551,"lon":9.845912,"k":"p","n":"Nesselbach Alte Schule"},
+  {"id":6464530575,"lat":49.210648,"lon":9.81507,"k":"p","n":"Orlach Abzw. Braunsbach"},
+  {"id":6840215426,"lat":49.210619,"lon":9.81462,"k":"p","n":"Orlach Abzweigung"},
+  {"id":6842440406,"lat":49.210688,"lon":9.814645,"k":"x","n":"Orlach Abzweigung"},
+  {"id":6842440407,"lat":49.21058,"lon":9.815078,"k":"x","n":"Orlach Abzweigung"},
+  {"id":6842440415,"lat":49.225511,"lon":9.847487,"k":"x","n":"Nesselbach Steinacher Straße"},
+  {"id":6842440416,"lat":49.225158,"lon":9.847669,"k":"p","n":"Nesselbach Steinacher Straße"},
+  {"id":6842440419,"lat":49.244811,"lon":9.849241,"k":"p","n":"Bächlingen"},
+  {"id":6842440421,"lat":49.244892,"lon":9.849539,"k":"x","n":"Bächlingen"},
+  {"id":6894107804,"lat":49.211482,"lon":9.813958,"k":"x","n":"Orlach"},
+  {"id":6894107805,"lat":49.211472,"lon":9.81388,"k":"p","n":"Orlach"},
+  {"id":7731110712,"lat":49.225647,"lon":9.814209,"k":"p","n":"Zottishofen, Abzw.","ref":"102603"},
+  {"id":7731144037,"lat":49.244747,"lon":9.848329,"k":"p","n":"Bächlingen, Jagsttalstraße","ref":"102706"},
+  {"id":7731144038,"lat":49.244719,"lon":9.848357,"k":"p","n":"Bächlingen, Jagsttalstraße","ref":"102706"},
+  {"id":8974171807,"lat":49.230534,"lon":9.815902,"k":"p","n":"Zottishofen"}
+],
+"routes":[
+  {"id":10101571,"t":{"ref":"71","name":"Bus 71: Schwäbisch Hall => Schrozberg","from":"Schwäbisch Hall ZOB","to":"Schrozberg Schorren","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":35,"s":[[6840215426,10],[908846808,11],[6449381545,14],[3444933458,15]]},
+  {"id":10104238,"t":{"ref":"71","name":"Bus 71: Schrozberg => Schwäbisch Hall","from":"Schrozberg Schorren","to":"Schwäbisch Hall ZOB","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":37,"s":[[6842440419,22],[6842440416,23],[908845644,27],[6464530575,28]]},
+  {"id":10169408,"t":{"ref":"31","name":"Bus 31: Ilshofen => Schwäbisch Hall","from":"Ilshofen Steinbrunnen","to":"Schwäbisch Hall ZOB","network":"KreisVerkehr Schwäbisch Hall","route":"bus","public_transport:version":"2"},"n":22,"s":[[908845644,6],[6464530575,7],[6894107805,9],[8974171807,10]]},
+  {"id":10169411,"t":{"ref":"31","name":"Bus 31: Schwäbisch Hall => Ilshofen","from":"Schwäbisch Hall ZOB","to":"Ilshofen Steinbrunnen","network":"KreisVerkehr Schwäbisch Hall","route":"bus","public_transport:version":"2"},"n":18,"s":[[8974171807,11],[6840215426,12],[908846808,13]]},
+  {"id":3005883909638,"t":{"ref":"R26","name":"R26: Orlach Ort - Schwäbisch Hall Bahnhof","from":"Orlach Ort","to":"Schwäbisch Hall Bahnhof","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":21,"s":[[6894107804,1]]},
+  {"id":3006183735954,"t":{"ref":"R66","name":"R66: Langenburg Roseneck - Oberaspach Ort","from":"Langenburg Roseneck","to":"Oberaspach Ort","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":15,"s":[[6842440419,5],[6842440416,6]]},
+  {"id":3027496475251,"t":{"ref":"R26","name":"R26: Schwäbisch Hall Bahnhof - Orlach Ort","from":"Schwäbisch Hall Bahnhof","to":"Orlach Ort","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":17,"s":[[6894107804,17]]},
+  {"id":3041061268642,"t":{"ref":"R26","name":"R26: Orlach Ort - Schwäbisch Hall Bahnhof","from":"Orlach Ort","to":"Schwäbisch Hall Bahnhof","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":17,"s":[[6894107804,1]]},
+  {"id":3053859033362,"t":{"ref":"R26","name":"R26: Schwäbisch Hall Bahnhof - Orlach Ort","from":"Schwäbisch Hall Bahnhof","to":"Orlach Ort","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":22,"s":[[8974171807,21],[6894107804,22]]},
+  {"id":3060441218502,"t":{"ref":"R66","name":"R66: Oberaspach Ort - Langenburg Roseneck","from":"Oberaspach Ort","to":"Langenburg Roseneck","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":15,"s":[[6449381545,10],[3444933458,11]]},
+  {"id":3083062334045,"t":{"ref":"R66","name":"R66: Großallmerspann Ort - Amlishagen Ort","from":"Großallmerspann Ort","to":"Amlishagen Ort","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":16,"s":[[6449381545,7],[3444933458,8]]},
+  {"id":3098251444445,"t":{"ref":"R66","name":"R66: Amlishagen Ort - Großallmerspann Ort","from":"Amlishagen Ort","to":"Großallmerspann Ort","operator":"VSH1","route":"bus","public_transport:version":"2"},"n":16,"s":[[6842440419,9],[6842440416,10]]}
+]
+}

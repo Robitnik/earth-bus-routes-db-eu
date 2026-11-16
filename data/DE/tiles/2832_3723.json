@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2832,3723],
+"stops":[
+  {"id":384702293,"lat":51.613411,"lon":6.170051,"k":"p","n":"Grootestraße"},
+  {"id":822111825,"lat":51.625311,"lon":6.192625,"k":"p","n":"Karl-Arnold-Straße"},
+  {"id":822111834,"lat":51.625287,"lon":6.193412,"k":"p","n":"Karl-Arnold-Straße"},
+  {"id":1208681503,"lat":51.624605,"lon":6.198276,"k":"p","n":"Weeze Bahnhof"},
+  {"id":1208854722,"lat":51.624647,"lon":6.198225,"k":"x","n":"Weeze Bahnhof"},
+  {"id":1811644164,"lat":51.611171,"lon":6.173524,"k":"p","n":"Hees"},
+  {"id":1811644165,"lat":51.611255,"lon":6.17388,"k":"p","n":"Hees"},
+  {"id":3644625448,"lat":51.611156,"lon":6.173685,"k":"x","n":"Hees"},
+  {"id":3644625449,"lat":51.611265,"lon":6.173712,"k":"x","n":"Hees"},
+  {"id":3653679005,"lat":51.61345,"lon":6.170096,"k":"x"},
+  {"id":3653679010,"lat":51.613412,"lon":6.16021,"k":"p","n":"Baal 1"},
+  {"id":6254893741,"lat":51.624251,"lon":6.197288,"k":"x","n":"Weeze Bahnhof","ref":"2"},
+  {"id":6254893742,"lat":51.624296,"lon":6.197364,"k":"p","n":"Weeze Bahnhof"},
+  {"id":5000359830113,"lat":51.611214,"lon":6.173536,"k":"p","n":"Hees"},
+  {"id":5000359830114,"lat":51.611213,"lon":6.173869,"k":"p","n":"Hees"},
+  {"id":5000667980219,"lat":51.624269,"lon":6.197394,"k":"p","n":"Weeze Bahnhof"},
+  {"id":6041189907025,"lat":51.624294,"lon":6.197976,"k":"p","n":"Weeze Bahnhof","g":1}
+],
+"routes":[
+  {"id":3022479102634,"t":{"ref":"RE10","name":"RE10: Krefeld Hbf - Kleve Bahnhof","from":"Krefeld Hbf","to":"Kleve Bahnhof","operator":"RheinRuhrBahn","route":"bus","public_transport:version":"2"},"n":10,"s":[[6041189907025,7]]},
+  {"id":3032698308160,"t":{"ref":"SW1","name":"Bus SW1: Weeze Bahnhof => Airport","from":"Weeze Bahnhof","to":"Weeze Airport Terminal 1","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":6,"s":[[6254893742,1],[5000359830113,2]]},
+  {"id":3033000973370,"t":{"ref":"SW1","name":"Bus SW1: Weeze Airport => Bahnhof","from":"Weeze Airport Terminal 1","to":"Weeze Bahnhof","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":9,"s":[[6254893742,1],[5000359830113,2]]},
+  {"id":3043017836152,"t":{"ref":"BUE","name":"BUE: Uedem Markt - Weeze Bahnhof","from":"Uedem Markt","to":"Weeze Bahnhof","operator":"NIAG","route":"bus","public_transport:version":"2"},"n":7,"s":[[1208854722,7]]},
+  {"id":3053924715651,"t":{"ref":"SW1","name":"Bus SW1: Weeze Airport => Bahnhof","from":"Weeze Airport Terminal 1","to":"Weeze Bahnhof","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000359830114,8],[6254893742,9]]},
+  {"id":3069866649814,"t":{"ref":"SW1","name":"Bus SW1: Weeze Bahnhof => Airport","from":"Weeze Bahnhof","to":"Weeze Airport Terminal 1","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000359830114,1],[6254893742,2]]},
+  {"id":3079350854115,"t":{"ref":"SW1","name":"Bus SW1: Weeze Airport => Bahnhof","from":"Weeze Airport Terminal 1","to":"Weeze Bahnhof","network":"VRR","operator":"Niederrheinische Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000359830114,6],[6254893742,7]]}
+]
+}

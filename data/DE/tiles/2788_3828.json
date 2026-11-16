@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2788,3828],
+"stops":[
+  {"id":249633821,"lat":49.410027,"lon":11.407846,"k":"x","n":"Oberrieden"},
+  {"id":282973743,"lat":49.431327,"lon":11.418208,"k":"p","n":"Kucha"},
+  {"id":436536868,"lat":49.404658,"lon":11.436992,"k":"p","n":"Eismannsberg Ortsmitte"},
+  {"id":893304527,"lat":49.410063,"lon":11.408088,"k":"p","n":"Oberrieden"},
+  {"id":893304600,"lat":49.410049,"lon":11.407693,"k":"p","n":"Oberrieden"},
+  {"id":894686175,"lat":49.404625,"lon":11.43729,"k":"p","n":"Eismannsberg"},
+  {"id":894686448,"lat":49.408815,"lon":11.445016,"k":"p","n":"Wappeltshofen"},
+  {"id":9807115396,"lat":49.404285,"lon":11.445495,"k":"p","n":"Mauertsmühle"},
+  {"id":9838780614,"lat":49.404355,"lon":11.435068,"k":"p","n":"Eismannsberg (Altd.) Bäckerweg"},
+  {"id":10057847740,"lat":49.429879,"lon":11.427533,"k":"p","n":"Oberndorf (b. Offenhausen)"},
+  {"id":10058755273,"lat":49.40972,"lon":11.417767,"k":"p","n":"Oberrieden b. Altdorf Ost"},
+  {"id":10058755276,"lat":49.409771,"lon":11.417772,"k":"x","n":"Oberrieden b. Altdorf Ost"},
+  {"id":10230575194,"lat":49.449973,"lon":11.412633,"k":"p","n":"Offenhausen Mitte"},
+  {"id":10230575199,"lat":49.44974,"lon":11.413093,"k":"p","n":"Offenhausen Mitte"},
+  {"id":10244124825,"lat":49.442443,"lon":11.442337,"k":"p","n":"Breitenbrunn"},
+  {"id":11101864427,"lat":49.430325,"lon":11.410726,"k":"p","n":"Püscheldorf"},
+  {"id":11101864428,"lat":49.430444,"lon":11.410796,"k":"p","n":"Püscheldorf"},
+  {"id":13417917248,"lat":49.408848,"lon":11.445017,"k":"x","n":"Wappeltshofen"},
+  {"id":13417917250,"lat":49.404658,"lon":11.437291,"k":"x","n":"Eismannsberg Ortsmitte"}
+],
+"routes":[
+  {"id":20023192,"t":{"ref":"550","name":"Bus 550: Traunfeld => Altdorf","from":"Traunfeld","to":"Altdorf Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":15,"s":[[894686448,4],[436536868,5],[10058755273,6],[893304600,7]]},
+  {"id":20023193,"t":{"ref":"550","name":"Bus 550: Altdorf => Traunfeld","from":"Altdorf Bahnhof","to":"Traunfeld","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":10,"s":[[893304527,4],[10058755273,5],[894686175,6],[894686448,7]]},
+  {"id":20023194,"t":{"ref":"550","name":"Bus 550: Wappeltshofen => Altdorf (Hauptroute)","from":"Wappeltshofen","to":"Altdorf Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":12,"s":[[894686448,1],[436536868,2],[10058755273,3],[893304600,4]]},
+  {"id":20023195,"t":{"ref":"550","name":"Bus 550: Altdorf => Wappeltshofen (Hauptroute)","from":"Altdorf Bahnhof","to":"Wappeltshofen","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":12,"s":[[893304527,9],[10058755273,10],[894686175,11],[894686448,12]]},
+  {"id":3020058009621,"t":{"ref":"335","name":"335: Hersbruck, Lohweg - Kucha","from":"Hersbruck, Lohweg","to":"Kucha","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":14,"s":[[10230575194,12],[10244124825,13],[282973743,14]]},
+  {"id":3021989079623,"t":{"ref":"335","name":"335: Hersbruck, Lohweg - Kucha","from":"Hersbruck, Lohweg","to":"Kucha","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":14,"s":[[10230575194,12],[10244124825,13],[282973743,14]]},
+  {"id":3024018429721,"t":{"ref":"550","name":"Schulbus 550 Altdorf - Wappeltshofen","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[894686448,1],[894686175,2],[893304527,3]]},
+  {"id":3035613680158,"t":{"ref":"511","name":"511: Neumarkt (Oberpf) - Grafenbuch","from":"Neumarkt (Oberpf)","to":"Grafenbuch","operator":"Federl","route":"bus","public_transport:version":"2"},"n":46,"s":[[9807115396,40]]},
+  {"id":3037552224023,"t":{"ref":"550","name":"550: Wappeltshofen - Altdorf (b Nürnberg)","from":"Wappeltshofen","to":"Altdorf (b Nürnberg)","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":23,"s":[[894686448,1],[894686175,2],[893304527,3]]},
+  {"id":3048076972014,"t":{"ref":"335","name":"335: Kucha - Hersbruck, Lohweg","from":"Kucha","to":"Hersbruck, Lohweg","operator":"Bus6","route":"bus","public_transport:version":"2"},"n":13,"s":[[282973743,1],[10244124825,2],[10230575199,3]]},
+  {"id":3051243141608,"t":{"ref":"550","name":"Schulbus 550 Altdorf - Wappeltshofen","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[893304527,7],[10058755273,8],[894686175,9],[894686448,10]]},
+  {"id":3078497931737,"t":{"ref":"550","name":"550: Altdorf Neumarkter Str. - Wappeltshofen","from":"Altdorf Neumarkter Str.","to":"Wappeltshofen","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":24,"s":[[893304527,21],[10058755273,22],[894686175,23],[894686448,24]]},
+  {"id":3078552135547,"t":{"ref":"550","name":"550: Wappeltshofen - Altdorf (b Nürnberg)","from":"Wappeltshofen","to":"Altdorf (b Nürnberg)","operator":"Merz Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[894686448,1],[894686175,2],[893304527,3]]},
+  {"id":3097708468771,"t":{"ref":"550","name":"Schulbus 550 Altdorf - Wappeltshofen","network":"Verkehrsverbund Großraum Nürnberg","operator":"Merz Reisen","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[893304527,9],[10058755273,10],[894686175,11],[894686448,12]]}
+]
+}

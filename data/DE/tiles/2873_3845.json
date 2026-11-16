@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2873,3845],
+"stops":[
+  {"id":98181754,"lat":53.696188,"lon":12.274823,"k":"x","n":"Groß Grabow","ref":"de:13072:267"},
+  {"id":267038530,"lat":53.651644,"lon":12.265784,"k":"x"},
+  {"id":2596117731,"lat":53.66736,"lon":12.268207,"k":"x","n":"Krakow am See, Blechern Krug","ref":"de:13072:469"},
+  {"id":2596117732,"lat":53.667426,"lon":12.268303,"k":"p","n":"Krakow am See, Blechern Krug","ref":"de:13072:469"},
+  {"id":6018379327,"lat":53.667458,"lon":12.268047,"k":"p","n":"Krakow am See, Blechern Krug","ref":"de:13072:469"},
+  {"id":7459129650,"lat":53.695195,"lon":12.273493,"k":"x","n":"Groß Grabow","ref":"de:13072:267"},
+  {"id":7460234118,"lat":53.684947,"lon":12.268284,"k":"x","n":"Charlottenthal","ref":"de:13072:152"},
+  {"id":7460234120,"lat":53.685043,"lon":12.268338,"k":"x","n":"Charlottenthal","ref":"de:13072:152"},
+  {"id":7474350587,"lat":53.660914,"lon":12.267851,"k":"x","n":"Krakow am See, Güstrower Chaussee","ref":"de:13072:10005"},
+  {"id":7474350588,"lat":53.66085,"lon":12.267843,"k":"x","n":"Krakow am See, Güstrower Chaussee","ref":"de:13072:10005"},
+  {"id":7532725886,"lat":53.651768,"lon":12.265963,"k":"x"},
+  {"id":7532725887,"lat":53.651703,"lon":12.265872,"k":"x"},
+  {"id":9880581419,"lat":53.66083,"lon":12.267914,"k":"p","n":"Krakow am See, Güstrower Chaussee","ref":"de:13072:10005"},
+  {"id":9880581420,"lat":53.66095,"lon":12.267764,"k":"p","n":"Krakow am See, Güstrower Chaussee","ref":"de:13072:10005"},
+  {"id":9880581421,"lat":53.685049,"lon":12.268139,"k":"p","n":"Charlottenthal","ref":"de:13072:152"},
+  {"id":9880581422,"lat":53.68497,"lon":12.26837,"k":"p","n":"Charlottenthal","ref":"de:13072:152"},
+  {"id":9880581423,"lat":53.6952,"lon":12.273332,"k":"p","n":"Groß Grabow","ref":"de:13072:267"},
+  {"id":9880581424,"lat":53.696057,"lon":12.274784,"k":"p","n":"Groß Grabow","ref":"de:13072:267"},
+  {"id":5000590432029,"lat":53.651826,"lon":12.265901,"k":"p","n":"Krakow am See"},
+  {"id":5000590432030,"lat":53.651722,"lon":12.265726,"k":"p","n":"Krakow am See"}
+],
+"routes":[
+  {"id":16199446,"t":{"ref":"mv72","name":"Bus mv72: Güstrow, ZOB => Krakow am See","from":"Güstrow","to":"Krakow am See","network":"Verkehrsverbund Warnow;Regiobus MV","operator":"rebus Regionalbus Rostock GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[9880581423,14],[9880581421,15],[6018379327,16],[9880581420,17],[5000590432030,18]]},
+  {"id":3003887550892,"t":{"ref":"mv72","name":"Bus mv72: Güstrow, ZOB => Güstrow, Wildpark - MV => Krakow am See","from":"Güstrow","to":"Krakow am See","network":"Verkehrsverbund Warnow;Regiobus MV","operator":"rebus Regionalbus Rostock GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000590432030,1],[7474350588,2],[2596117732,3],[7460234120,4],[98181754,5]]},
+  {"id":3009014854354,"t":{"ref":"mv72","name":"Bus mv72: Güstrow, ZOB => Güstrow, Wildpark - MV => Krakow am See","from":"Güstrow","to":"Krakow am See","network":"Verkehrsverbund Warnow;Regiobus MV","operator":"rebus Regionalbus Rostock GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[9880581423,14],[7460234118,15],[2596117731,16],[9880581420,17],[5000590432030,18]]},
+  {"id":3044161849580,"t":{"ref":"mv72","name":"mv72: Linstow - Krakow am See","from":"Linstow","to":"Krakow am See","operator":"rebus","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000590432030,7]]},
+  {"id":3051287794573,"t":{"ref":"mv72","name":"mv72: Krakow am See - Linstow","from":"Krakow am See","to":"Linstow","operator":"rebus","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000590432030,1]]},
+  {"id":3053222400579,"t":{"ref":"mv73","name":"Bus mv73: Meyenburg, Bahnhof => Krakow am See, Bahnhof","from":"Meyenburg","to":"Krakow am See","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","colour":"#990099","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000590432030,20]]},
+  {"id":3064878024436,"t":{"ref":"mv73","name":"Bus mv73: Krakow am See, Bahnhof => Meyenburg, Bahnhof","from":"Krakow am See","to":"Meyenburg","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","colour":"#990099","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000590432030,1]]},
+  {"id":3080595200968,"t":{"ref":"mv72","name":"Bus mv72: Güstrow, ZOB => Güstrow, Wildpark - MV => Krakow am See","from":"Güstrow","to":"Krakow am See","network":"Verkehrsverbund Warnow;Regiobus MV","operator":"rebus Regionalbus Rostock GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[9880581423,17],[7460234118,18],[2596117731,19],[9880581420,20],[5000590432030,21]]}
+]
+}

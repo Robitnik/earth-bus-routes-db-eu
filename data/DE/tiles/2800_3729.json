@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2800,3729],
+"stops":[
+  {"id":298262605,"lat":50.010797,"lon":6.498203,"k":"x","n":"Ließem (Eifel), Abzw."},
+  {"id":5297629128,"lat":50.011405,"lon":6.498318,"k":"p","n":"Ließem (Eifel), Abzw."},
+  {"id":5297629341,"lat":50.010787,"lon":6.498275,"k":"p","n":"Ließem (Eifel), Abzw."},
+  {"id":5297629399,"lat":50.011368,"lon":6.498402,"k":"x","n":"Ließem (Eifel), Abzw."},
+  {"id":8320875346,"lat":50.019546,"lon":6.451581,"k":"p","n":"Biersdorf, Talstraße"},
+  {"id":8320875348,"lat":50.019372,"lon":6.452317,"k":"p","n":"Biersdorf, Kornmarkt"},
+  {"id":8320875349,"lat":50.016082,"lon":6.451754,"k":"p","n":"Biersdorf, Kirche"},
+  {"id":8320875350,"lat":50.006857,"lon":6.452894,"k":"p","n":"Wiersdorf, Reiterhof"},
+  {"id":8320875351,"lat":50.007835,"lon":6.454166,"k":"p","n":"Wiersdorf, Ort"},
+  {"id":6030067290541,"lat":50.02468,"lon":6.479898,"k":"p","n":"Ließem, Ort","g":1},
+  {"id":6088241612398,"lat":50.041523,"lon":6.471113,"k":"p","n":"Ehlenz, Mitte","g":1}
+],
+"routes":[
+  {"id":389435,"t":{"ref":"440","name":"Bus 440: Bitburg, ZOB => Prüm, Gerberweg","from":"Bitburg, ZOB","to":"Prüm, Gerberweg","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":19,"s":[[5297629341,6]]},
+  {"id":3012026333235,"t":{"ref":"440","name":"Bus 440: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":19,"s":[[5297629399,6]]},
+  {"id":3012643219372,"t":{"ref":"490 RufBus","name":"490 RufBus: Bitburg, ZOB - Seffern, Ort","from":"Bitburg, ZOB","to":"Seffern, Ort","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":12,"s":[[8320875351,2],[8320875349,3],[6030067290541,6],[6088241612398,7]]},
+  {"id":3016552705079,"t":{"ref":"490 RufBus","name":"490 RufBus: Seffern, Ort - Bitburg, ZOB","from":"Seffern, Ort","to":"Bitburg, ZOB","operator":"Eifel-Mosel Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":12,"s":[[6088241612398,6],[6030067290541,7],[8320875349,8],[8320875351,9]]},
+  {"id":3063533845053,"t":{"ref":"440","name":"Bus 440: Prüm, Gerberweg => Bitburg, ZOB","from":"Prüm, Gerberweg","to":"Bitburg, ZOB","network":"VRT","operator":"EMV Eifel-Mosel Verkehrsgesellschaft mbH","colour":"#AE5D65","route":"bus","public_transport:version":"2"},"n":20,"s":[[5297629399,15]]}
+]
+}

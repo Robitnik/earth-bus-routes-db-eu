@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2873,3830],
+"stops":[
+  {"id":23785199,"lat":53.695554,"lon":11.526191,"k":"x","n":"Cambs Schweriner Straße"},
+  {"id":289008093,"lat":53.657509,"lon":11.548519,"k":"x","n":"Langen Brütz"},
+  {"id":1241045066,"lat":53.678183,"lon":11.527885,"k":"p","n":"Zittow Dorf"},
+  {"id":1808834155,"lat":53.660475,"lon":11.516276,"k":"p","n":"Blumenberg"},
+  {"id":1808852125,"lat":53.657544,"lon":11.548488,"k":"p","n":"Langen Brütz"},
+  {"id":6654569700,"lat":53.695798,"lon":11.52643,"k":"p","n":"Cambs Schweriner Straße"},
+  {"id":11510530199,"lat":53.663145,"lon":11.502366,"k":"x"},
+  {"id":11510530200,"lat":53.662933,"lon":11.50166,"k":"x","n":"Leezen Abzweig Zittow"},
+  {"id":12173769120,"lat":53.657463,"lon":11.548538,"k":"p","n":"Langen Brütz"},
+  {"id":14123894842,"lat":53.695506,"lon":11.526276,"k":"p","n":"Cambs Schweriner Straße"},
+  {"id":14123894843,"lat":53.695672,"lon":11.526458,"k":"x","n":"Cambs Schweriner Straße"},
+  {"id":14123900099,"lat":53.691893,"lon":11.513518,"k":"p","n":"Zittow Abzweig"},
+  {"id":14123900100,"lat":53.692218,"lon":11.515107,"k":"p","n":"Zittow Abzweig"},
+  {"id":14123966001,"lat":53.691839,"lon":11.513631,"k":"x"},
+  {"id":14123966002,"lat":53.692261,"lon":11.515042,"k":"x"},
+  {"id":6063686328359,"lat":53.682205,"lon":11.52084,"k":"p","n":"Zittow Stützpunkt","g":1},
+  {"id":6074321063007,"lat":53.696578,"lon":11.526975,"k":"p","n":"Cambs Ventschower Str.","g":1}
+],
+"routes":[
+  {"id":2867907,"t":{"ref":"100","name":"VLP 100: Schwerin-Vorbeck-Leezen-Schwerin","network":"Verkehrsgemeinschaft Westmecklenburg","operator":"VLP","route":"bus"},"n":25,"s":[[1808852125,18]]},
+  {"id":21282468,"t":{"ref":"mv63","name":"Bus mv63: Sternberg => Schwerin","from":"Sternberg Mecklenburg Ring","to":"Schwerin Hauptbahnhof","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":19,"s":[[6654569700,16],[14123900099,17]]},
+  {"id":3018786216190,"t":{"ref":"mv63","name":"Bus mv63: Schwerin => Sternberg","from":"Schwerin Hauptbahnhof","to":"Sternberg Mecklenburg Ring","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[14123900100,8],[14123894842,9]]},
+  {"id":3029976234230,"t":{"ref":"846","name":"846: Cambs Schweriner Str. - Ventschow Bahnhof","from":"Cambs Schweriner Str.","to":"Ventschow Bahnhof","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":21,"s":[[14123894842,1],[6074321063007,2]]},
+  {"id":3038600642310,"t":{"ref":"846","name":"846: Ventschow Bahnhof - Cambs Schweriner Str.","from":"Ventschow Bahnhof","to":"Cambs Schweriner Str.","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":21,"s":[[6074321063007,20],[6654569700,21]]},
+  {"id":3057670592030,"t":{"ref":"845","name":"845: Cambs Schweriner Str. - Raben Steinfeld","from":"Cambs Schweriner Str.","to":"Raben Steinfeld","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":29,"s":[[14123894842,1],[6074321063007,3],[1241045066,6],[6063686328359,7],[11510530200,9],[1808834155,17],[289008093,19]]},
+  {"id":3057947100013,"t":{"ref":"845","name":"845: Raben Steinfeld - Cambs Schweriner Str.","from":"Raben Steinfeld","to":"Cambs Schweriner Str.","operator":"Verkehrsgesellschaft Ludwigslust-Parchim","route":"bus","public_transport:version":"2"},"n":29,"s":[[1808852125,11],[1808834155,13],[11510530200,21],[6063686328359,23],[1241045066,24],[6074321063007,27],[6654569700,29]]},
+  {"id":3072028058528,"t":{"ref":"mv63","name":"Bus mv63: Schwerin => Sternberg","from":"Schwerin Hauptbahnhof","to":"Sternberg Mecklenburg Ring","network":"Regiobus MV","operator":"Verkehrsgesellschaft Ludwigslust-Parchim mbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[6654569700,16],[14123900099,17]]}
+]
+}

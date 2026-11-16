@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2839,3812],
+"stops":[
+  {"id":4002358150,"lat":51.974899,"lon":10.620013,"k":"p","n":"Suderode, Dorfstraße"},
+  {"id":4002358151,"lat":51.97484,"lon":10.620181,"k":"x","n":"Suderode, Dorfstraße"},
+  {"id":4002358152,"lat":51.974878,"lon":10.620212,"k":"p","n":"Suderode, Dorfstraße"},
+  {"id":4002385077,"lat":51.981253,"lon":10.601435,"k":"p","n":"Wülperode, Zum Dören"},
+  {"id":4002385078,"lat":51.981279,"lon":10.601376,"k":"x","n":"Wülperode, Zum Dören"},
+  {"id":4104888792,"lat":51.995928,"lon":10.639578,"k":"p","n":"Bühne, An der Grundschule"},
+  {"id":4104888793,"lat":51.995938,"lon":10.639513,"k":"x","n":"Bühne, An der Grundschule"},
+  {"id":4104888794,"lat":51.995959,"lon":10.639526,"k":"x","n":"Bühne, An der Grundschule"},
+  {"id":4104888795,"lat":51.995911,"lon":10.639393,"k":"p","n":"Bühne, An der Grundschule"},
+  {"id":4105148459,"lat":51.997613,"lon":10.628931,"k":"p","n":"Rimbeck, Wülperoder Weg"},
+  {"id":4105148460,"lat":51.99765,"lon":10.628954,"k":"x","n":"Rimbeck, Wülperoder Weg"},
+  {"id":4105148461,"lat":51.997687,"lon":10.628981,"k":"p","n":"Rimbeck, Wülperoder Weg"},
+  {"id":4499982017,"lat":51.952549,"lon":10.609479,"k":"p","n":"Vienenburg Weißes Roß"},
+  {"id":4499982018,"lat":51.952489,"lon":10.609498,"k":"x","n":"Vienenburg Weißes Roß"},
+  {"id":10865105766,"lat":51.995658,"lon":10.63857,"k":"p"}
+],
+"routes":[
+  {"id":14293688,"t":{"ref":"211","name":"Bus 211: Schladen => Göddeckenrode => Bühne => Osterwieck","from":"Schladen","to":"Osterwieck","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[4105148459,4],[4104888792,5]]},
+  {"id":14293689,"t":{"ref":"211","name":"Bus 211: Bühne => Göddeckenrode => Wülperode","from":"Bühne","to":"Wülperode","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[4104888792,1],[4104888795,5],[4105148461,6]]},
+  {"id":14293690,"t":{"ref":"211","name":"Bus 211: Osterwieck => Bühne => Göddeckenrode => Schladen","from":"Osterwieck","to":"Schladen","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[4104888795,6],[4105148461,7]]},
+  {"id":14293691,"t":{"ref":"211","name":"Bus 211: Osterwieck => Bühne => Göddeckenrode => Wülperode","from":"Osterwieck","to":"Wülperode","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[4104888795,6],[4105148461,7],[4002385077,11]]},
+  {"id":3021316258110,"t":{"ref":"211","name":"Bus 211: Wülperode => Göddeckenrode => Bühne => Osterwieck","from":"Wülperode","to":"Osterwieck","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[4104888794,7],[4105148461,8],[4002385077,12]]},
+  {"id":3042866461599,"t":{"ref":"210","name":"HVB 210","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[4002385077,5],[4002358151,6]]},
+  {"id":3049491529118,"t":{"ref":"210","name":"HVB 210","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":27,"s":[[4002358152,22],[4002385077,23]]},
+  {"id":3052000243095,"t":{"ref":"AST 1","name":"AST 1: Osterwieck, Busbahnhof - Osterwieck, Busbahnhof","from":"Osterwieck, Busbahnhof","to":"Osterwieck, Busbahnhof","operator":"Harzer Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":14,"s":[[4104888794,3],[4105148461,4,11],[4104888792,12]]},
+  {"id":3052863685832,"t":{"ref":"211","name":"Bus 211: Wülperode => Bühne => Osterwieck","from":"Wülperode","to":"Osterwieck","network":"Verkehrs- und Tarifgemeinschaft Ostharz","operator":"Harzer Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[4002385077,1],[4105148461,2],[4104888792,3]]}
+]
+}

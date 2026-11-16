@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2800,3819],
+"stops":[
+  {"id":282485479,"lat":50.001195,"lon":10.967947,"k":"x","n":"Roth (bei Zapfendorf)"},
+  {"id":304764669,"lat":50.013451,"lon":10.977104,"k":"x"},
+  {"id":939125587,"lat":50.001213,"lon":10.968005,"k":"p","n":"Roth (bei Zapfendorf)"},
+  {"id":939125614,"lat":50.001195,"lon":10.967882,"k":"p","n":"Roth (bei Zapfendorf)"},
+  {"id":1002463220,"lat":50.032055,"lon":10.97152,"k":"p","n":"Oberleiterbach"},
+  {"id":1002463233,"lat":50.032081,"lon":10.971598,"k":"x","n":"Oberleiterbach"},
+  {"id":1002463238,"lat":50.040886,"lon":10.956217,"k":"p","n":"Weihersmühle"},
+  {"id":1002497477,"lat":50.012488,"lon":10.992077,"k":"p","n":"Oberoberndorf"},
+  {"id":1002497529,"lat":50.012513,"lon":10.991965,"k":"x","n":"Oberoberndorf"},
+  {"id":1002497559,"lat":50.013457,"lon":10.977005,"k":"p","n":"Kirchschletten"},
+  {"id":1002497565,"lat":50.021561,"lon":10.96811,"k":"x","n":"Reuthlos"},
+  {"id":1002497603,"lat":50.021568,"lon":10.968032,"k":"p","n":"Reuthlos"},
+  {"id":2604599852,"lat":50.012551,"lon":10.991882,"k":"p","n":"Oberoberndorf"},
+  {"id":3748726132,"lat":50.048591,"lon":10.98918,"k":"x","n":"Prächting"},
+  {"id":4080366856,"lat":50.048567,"lon":10.989129,"k":"p","n":"Prächting"},
+  {"id":5535118729,"lat":50.040917,"lon":10.956255,"k":"x"}
+],
+"routes":[
+  {"id":1208348,"t":{"ref":"953","name":"DE_VGN_953_2_07: Scheßlitz Schulzentrum => Medlitz Abzweig B 4","from":"Scheßlitz Schulzentrum","to":"Medlitz Abzweig B 4","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[939125587,5]]},
+  {"id":1277697,"t":{"ref":"962","name":"DE_VGN_962_1_02: Mürsbach => Scheßlitz Schulzentrum","from":"Mürsbach","to":"Scheßlitz Schulzentrum","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[939125587,8]]},
+  {"id":1277698,"t":{"ref":"962","name":"DE_VGN_962_1_03: Zapfendorf Schwimmbad => Scheßlitz Schulzentrum","from":"Zapfendorf Schwimmbad","to":"Scheßlitz Schulzentrum","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1002463220,5],[1002497603,6],[1002497559,7],[1002497477,8]]},
+  {"id":1277760,"t":{"ref":"962","name":"DE_VGN_962_1_04: Medlitz Ort => Scheßlitz Schulzentrum","from":"Medlitz Ort","to":"Scheßlitz Schulzentrum","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[1002463220,10],[1002497603,11],[1002497559,12],[1002497477,13]]},
+  {"id":1279023,"t":{"ref":"962","name":"DE_VGN_962_2_01: Scheßlitz Schulzentrum => Zapfendorf Schwimmbad","from":"Scheßlitz Schulzentrum","to":"Zapfendorf Schwimmbad","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[2604599852,3],[1002497559,4],[1002497603,5],[1002463220,6]]},
+  {"id":1279028,"t":{"ref":"962","name":"DE_VGN_962_2_02: Scheßlitz Schulzentrum => Mürsbach","from":"Scheßlitz Schulzentrum","to":"Mürsbach","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[939125587,3]]},
+  {"id":1279030,"t":{"ref":"962","name":"DE_VGN_962_2_04: Scheßlitz Schulzentrum => Gerach","from":"Scheßlitz Schulzentrum","to":"Gerach","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[2604599852,4],[1002497559,5],[1002497603,6],[1002463220,7]]},
+  {"id":4446588,"t":{"ref":"1251","name":"DE_VGN_1251_03: Ebensfeld Bahnhof => Ebensfeld Bahnhof","from":"Ebensfeld Bahnhof","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[4080366856,4,11]]},
+  {"id":10594471,"t":{"ref":"1251","name":"DE_VGN_1251_07: Ebensfeld Rathaus=> Ebensfeld Rathaus","from":"Ebensfeld Rathaus","to":"Ebensfeld Rathaus","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[4080366856,2,9]]},
+  {"id":10594472,"t":{"ref":"1251","name":"DE_VGN_1251_04: Dittersbrunn => Ebensfeld Bahnhof","from":"Dittersbrunn","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[4080366856,6]]},
+  {"id":10594473,"t":{"ref":"1251","name":"DE_VGN_1251_01: Oberküps => Ebensfeld Bahnhof","from":"Oberküps","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[4080366856,4]]},
+  {"id":10594531,"t":{"ref":"1251","name":"DE_VGN_1251_16: Ebensfeld Bahnhof => Oberküps","from":"Ebensfeld Bahnhof","to":"Oberküps","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[4080366856,4]]},
+  {"id":10594532,"t":{"ref":"1251","name":"DE_VGN_1251_14: Ebensfeld Bahnhof => Ebensfeld Rathaus => Ebensfeld Bahnhof","from":"Ebensfeld Bahnhof","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[4080366856,9,10]]},
+  {"id":10594533,"t":{"ref":"1251","name":"DE_VGN_1251_13: Ebensfeld Bahnhof => Ebensfeld Hauptstraße => Ebensfeld Bahnhof","from":"Ebensfeld Bahnhof","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[4080366856,10,11]]},
+  {"id":10594534,"t":{"ref":"1251","name":"DE_VGN_1251_12: Ebensfeld Rathaus => Oberküps","from":"Ebensfeld Rathaus","to":"Oberküps","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[4080366856,3]]},
+  {"id":10594535,"t":{"ref":"1251","name":"DE_VGN_1251_09: Ebensfeld Rathaus=> Ebensfeld Bahnhof","from":"Ebensfeld Rathaus","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[4080366856,8,9]]},
+  {"id":10594536,"t":{"ref":"1251","name":"DE_VGN_1251_11: Ebensfeld Rathaus=> Kutzenberg => Ebensfeld Bahnhof","from":"Ebensfeld Rathaus","to":"Ebensfeld Bahnhof","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[4080366856,3,10]]},
+  {"id":3095386630308,"t":{"ref":"1251","name":"DE_VGN_1251_02: Dittersbrunn => Bad Staffelstein Realschule","from":"Dittersbrunn","to":"Bad Staffelstein Realschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Frankenbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[4080366856,5,12]]}
+]
+}

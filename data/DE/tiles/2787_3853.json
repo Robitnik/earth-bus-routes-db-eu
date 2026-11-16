@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2787,3853],
+"stops":[
+  {"id":2891981020,"lat":49.378048,"lon":12.696086,"k":"x","n":"Waldmünchen"},
+  {"id":10315256597,"lat":49.361959,"lon":12.697577,"k":"p","n":"Abzw. Moosdorf"},
+  {"id":10315256598,"lat":49.362056,"lon":12.698273,"k":"p"},
+  {"id":11169885373,"lat":49.357817,"lon":12.683477,"k":"p","n":"Grub (Oberpf)"},
+  {"id":11169885374,"lat":49.357864,"lon":12.682891,"k":"p","n":"Grub (Oberpf)"},
+  {"id":11374132252,"lat":49.372934,"lon":12.66906,"k":"p","n":"Hochabrunn"},
+  {"id":11374132253,"lat":49.366032,"lon":12.669113,"k":"p","n":"Englmannsbrunn"},
+  {"id":11374224151,"lat":49.377552,"lon":12.679757,"k":"p","n":"Neue Ziegelhütte"},
+  {"id":11374238317,"lat":49.352931,"lon":12.659389,"k":"p","n":"Rannersdorf"},
+  {"id":11374239468,"lat":49.3809,"lon":12.673519,"k":"p","n":"Babelsäge"},
+  {"id":11378617679,"lat":49.384416,"lon":12.650395,"k":"p","n":"Waldmünchen, Hirschhöf"},
+  {"id":11387999686,"lat":49.38434,"lon":12.688985,"k":"p","n":"Hocha"},
+  {"id":11387999687,"lat":49.384071,"lon":12.689261,"k":"p","n":"Hocha"},
+  {"id":11393654301,"lat":49.377667,"lon":12.699579,"k":"p","n":"Abzw Bahnhof"},
+  {"id":11403616201,"lat":49.398177,"lon":12.67325,"k":"p","n":"Waldmünchen, Kümmersmühle"},
+  {"id":11403616214,"lat":49.398448,"lon":12.672748,"k":"p","n":"Waldmünchen, Kümmersmühle"},
+  {"id":5000480600955,"lat":49.378018,"lon":12.696076,"k":"p","n":"Waldmünchen","ref":"1"},
+  {"id":5001128457305,"lat":49.36206,"lon":12.698274,"k":"p"},
+  {"id":5001128457306,"lat":49.361961,"lon":12.697575,"k":"p"},
+  {"id":6013334800427,"lat":49.392437,"lon":12.668491,"k":"p","n":"Waldmünchen, Schäferei","g":1},
+  {"id":6073931272625,"lat":49.384526,"lon":12.687823,"k":"p","n":"Waldmünchen, Hocha","g":1},
+  {"id":6079810430327,"lat":49.39522,"lon":12.69801,"k":"p","n":"Waldmünchen, Perlsee, Campingplatz","g":1}
+],
+"routes":[
+  {"id":18503351,"t":{"ref":"420","from":"Waldmünchen","to":"Cham","route":"bus"},"n":28,"s":[[5001128457306,4],[11169885374,5]]},
+  {"id":18503352,"t":{"ref":"420","from":"Cham","to":"Waldmünchen","operator":"Regionalbus Ostbayern GmbH","route":"bus"},"n":25,"s":[[11169885373,20],[5001128457305,21],[5000480600955,25]]},
+  {"id":3002010623551,"t":{"ref":"450","name":"450: Furth im Wald - Waldmünchen","from":"Furth im Wald","to":"Waldmünchen","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":17,"s":[[2891981020,17]]},
+  {"id":3009563040752,"t":{"ref":"911","name":"911: Waldmünchen, Marktplatz - Tiefenbach, Trath","from":"Waldmünchen, Marktplatz","to":"Tiefenbach, Trath","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000480600955,3],[6073931272625,4],[6013334800427,5],[11403616214,6]]},
+  {"id":3020524447400,"t":{"ref":"450","name":"450: Furth im Wald - Waldmünchen","from":"Furth im Wald","to":"Waldmünchen","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":22,"s":[[2891981020,22]]},
+  {"id":3022054797166,"t":{"ref":"909","name":"909: Tiefenbach, Altenschneeberg - Waldmünchen, Marktplatz","from":"Tiefenbach, Altenschneeberg","to":"Waldmünchen, Marktplatz","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":42,"s":[[11378617679,36],[11374239468,37],[11374132252,38],[11374224151,39],[5000480600955,40]]},
+  {"id":3060412259666,"t":{"ref":"911","name":"911: Tiefenbach, Trath - Waldmünchen, Marktplatz","from":"Tiefenbach, Trath","to":"Waldmünchen, Marktplatz","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":30,"s":[[11403616214,25],[6013334800427,26],[6073931272625,27],[5000480600955,28]]},
+  {"id":3062006857625,"t":{"ref":"450","name":"450: Waldmünchen - Furth im Wald","from":"Waldmünchen","to":"Furth im Wald","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":23,"s":[[2891981020,1]]},
+  {"id":3062498468130,"t":{"ref":"909","name":"909: Waldmünchen, Marktplatz - Tiefenbach, Altenschneeberg","from":"Waldmünchen, Marktplatz","to":"Tiefenbach, Altenschneeberg","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000480600955,3],[11374224151,4],[11374132252,5],[11374239468,6],[11378617679,7]]},
+  {"id":3093659930799,"t":{"ref":"908","name":"908: Waldmünchen, Marktplatz - Waldm., Untergrafenried Grenze","from":"Waldmünchen, Marktplatz","to":"Waldm., Untergrafenried Grenze","operator":"Landkreis Cham","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000480600955,2],[6079810430327,6]]}
+]
+}

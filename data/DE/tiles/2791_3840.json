@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2791,3840],
+"stops":[
+  {"id":614676984,"lat":49.554821,"lon":12.003251,"k":"p","n":"Schnaittenbach, Kindlaser Weg"},
+  {"id":614676988,"lat":49.550893,"lon":12.020084,"k":"p","n":"Seblasmühle"},
+  {"id":3956850337,"lat":49.551186,"lon":12.012621,"k":"p"},
+  {"id":7631956867,"lat":49.598823,"lon":12.024916,"k":"p","n":"Kohlberg, Schlemm"},
+  {"id":7631956868,"lat":49.595834,"lon":12.024224,"k":"p","n":"Kohlberg, Roith"},
+  {"id":7631956869,"lat":49.591183,"lon":12.019045,"k":"p","n":"Kohlberg, Rathaus"},
+  {"id":8288653409,"lat":49.588799,"lon":12.040934,"k":"x","n":"Artesgrün, Ortsmitte"},
+  {"id":8465490352,"lat":49.591716,"lon":12.020268,"k":"p","n":"Kohlberg, Gh Maierhöfer"},
+  {"id":8769065725,"lat":49.588784,"lon":12.040957,"k":"p","n":"Artesgrün, Ortsmitte"},
+  {"id":8791975739,"lat":49.598198,"lon":12.042751,"k":"p","n":"Hannersgrün"},
+  {"id":8863343390,"lat":49.591178,"lon":12.019193,"k":"p","n":"Kohlberg, Rathaus"},
+  {"id":9182549133,"lat":49.598604,"lon":12.042209,"k":"p","n":"Hannersgrün, Ortsmitte"},
+  {"id":9182693372,"lat":49.598768,"lon":12.025052,"k":"p","n":"Kohlberg, Schlemm"},
+  {"id":9513808567,"lat":49.595948,"lon":12.024155,"k":"p","n":"Kohlberg, Roith"},
+  {"id":9785250297,"lat":49.556016,"lon":12.0018,"k":"p","n":"Schnaittenbach Brödlesfurth"},
+  {"id":9790486011,"lat":49.55784,"lon":12.006629,"k":"p","n":"Schnaittenbach KG St. Vitus"},
+  {"id":9873963412,"lat":49.550741,"lon":12.020381,"k":"p","n":"Seblasmühle"},
+  {"id":9949306497,"lat":49.592329,"lon":12.024238,"k":"p","n":"Kohlberg, Schule"},
+  {"id":6000907605068,"lat":49.589799,"lon":12.018973,"k":"p","n":"Kohlberg, kath. Kirche","g":1},
+  {"id":6024790080462,"lat":49.589799,"lon":12.018973,"k":"p","n":"Kohlberg, kath. Kirche","g":1},
+  {"id":6068407274791,"lat":49.591744,"lon":12.023528,"k":"p","n":"Kohlberg, Schule","g":1}
+],
+"routes":[
+  {"id":11234562,"t":{"ref":"455","name":"Bus 455: Amberg -> Schnaittenbach -> Weiden","from":"Amberg","to":"Weiden","network":"VGN","colour":"#F48365","route":"bus"},"n":57,"s":[[614676984,41],[7631956868,42]]},
+  {"id":11234563,"t":{"ref":"455","name":"Bus 455: Weiden -> Schnaittenbach -> Amberg","from":"Weiden","to":"Amberg","network":"VGN","colour":"#F48365","route":"bus"},"n":61,"s":[[7631956868,7],[7631956869,8],[614676984,18]]},
+  {"id":3009269155151,"t":{"ref":"490E","name":"490E: Amberg - Weiden Neues Rathaus","from":"Amberg","to":"Weiden Neues Rathaus","operator":"Bus Region (Private VU)","route":"bus","public_transport:version":"2"},"n":29,"s":[[614676984,27]]},
+  {"id":3023332423269,"t":{"ref":"1940","name":"Bus 1940: Weiden -> Etzenricht -> Kohlberg","from":"Weiden, Neues Rathaus","to":"Etzenricht - Kohlberg","network":"VGN","operator":"Wies","colour":"#AC599E","route":"bus","public_transport:version":"2"},"n":22,"s":[[7631956867,19],[9513808567,20],[6024790080462,21],[8465490352,22]]},
+  {"id":3023340378777,"t":{"ref":"1985","name":"1985: Schnaittenbach Rathaus - Luhe","from":"Schnaittenbach Rathaus","to":"Luhe","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":39,"s":[[6000907605068,3],[7631956869,4],[8465490352,5],[6068407274791,6],[9513808567,7],[7631956867,8],[8791975739,10],[8769065725,11]]},
+  {"id":3048519510338,"t":{"ref":"490E","name":"490E: Weiden Neues Rathaus - Amberg","from":"Weiden Neues Rathaus","to":"Amberg","operator":"Bus Region (Private VU)","route":"bus","public_transport:version":"2"},"n":28,"s":[[614676984,3]]},
+  {"id":3056052910899,"t":{"ref":"1986","name":"1986: Weißenbrunn, Ortsmitte - Etzenricht, Siedlung","from":"Weißenbrunn, Ortsmitte","to":"Etzenricht, Siedlung","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":38,"s":[[8769065725,2],[9182549133,3],[9513808567,6],[6068407274791,7],[8465490352,8],[7631956869,9],[6000907605068,10]]},
+  {"id":3062458675159,"t":{"ref":"1985","name":"1985: Luhe - Schnaittenbach Rathaus","from":"Luhe","to":"Schnaittenbach Rathaus","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":39,"s":[[8769065725,29],[8791975739,30],[9182693372,32],[7631956868,33],[6068407274791,34],[8465490352,35],[8863343390,36],[6000907605068,37]]},
+  {"id":3067824752285,"t":{"ref":"1940","name":"Bus 1940: Kohlberg -> Etzenricht -> Weiden","from":"Kohlberg","to":"Etzenricht - Weiden, NeuesRathaus","network":"VGN","operator":"Wies","colour":"#AC599E","route":"bus","public_transport:version":"2"},"n":23,"s":[[6024790080462,1],[8465490352,2],[7631956868,3],[9182693372,4]]},
+  {"id":3085335764967,"t":{"ref":"1986","name":"1986: Etzenricht, Siedlung - Weißenbrunn, Ortsmitte","from":"Etzenricht, Siedlung","to":"Weißenbrunn, Ortsmitte","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":38,"s":[[6000907605068,29],[8863343390,30],[8465490352,31],[6068407274791,32],[7631956868,33],[9182549133,36],[8769065725,37]]}
+]
+}

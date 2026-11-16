@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2805,3736],
+"stops":[
+  {"id":2523532332,"lat":50.292069,"lon":6.838925,"k":"p","n":"Bongard, Bodenbacher Str."},
+  {"id":4560132446,"lat":50.292036,"lon":6.839012,"k":"x","n":"Bongard, Bodenbacher Str."},
+  {"id":6250482422,"lat":50.292778,"lon":6.835975,"k":"p","n":"Bongard, Brunnentreff"},
+  {"id":7416768152,"lat":50.275237,"lon":6.809907,"k":"x","n":"Brück, Dorfbrunnen"},
+  {"id":7416768153,"lat":50.275249,"lon":6.80997,"k":"p","n":"Brück, Dorfbrunnen"},
+  {"id":7437898786,"lat":50.292816,"lon":6.836105,"k":"x","n":"Bongard, Brunnentreff"},
+  {"id":7437898818,"lat":50.290987,"lon":6.83995,"k":"x","n":"Bongard, Abzw."},
+  {"id":7437898819,"lat":50.290963,"lon":6.839893,"k":"p","n":"Bongard, Abzw."},
+  {"id":9457939740,"lat":50.272221,"lon":6.803387,"k":"x","n":"Brück (Kr Daun), Im Triesch"},
+  {"id":9457939741,"lat":50.27225,"lon":6.803355,"k":"p","n":"Brück (Kr Daun), Im Triesch"},
+  {"id":9458004486,"lat":50.295702,"lon":6.802744,"k":"x","n":"Heyroth, Ort"},
+  {"id":9458004491,"lat":50.295668,"lon":6.802771,"k":"p","n":"Heyroth, Ort"},
+  {"id":13423462453,"lat":50.272208,"lon":6.80345,"k":"p","n":"Brück, Auf dem Triesch"}
+],
+"routes":[
+  {"id":18606777,"t":{"ref":"516","from":"Brück","to":"Dockweiler","network":"Verkehrsverbund Region Trier GmbH","route":"bus"},"n":5,"s":[[7416768153,1],[9457939741,2]]},
+  {"id":18606853,"t":{"ref":"516","from":"Dockweiler","to":"Brück","network":"Verkehrsverbund Region Trier GmbH","operator":"DB Regio Bus Rhein-Mosel GmbH","route":"bus"},"n":5,"s":[[9457939741,4],[7416768153,5]]},
+  {"id":3003191204633,"t":{"ref":"509 Rufbus","name":"RMB 509 RufBus","from":"Nohn","to":"Kelberg","network":"Rhein-Mosel Bus","operator":"RMB","route":"bus","public_transport:version":"2"},"n":10,"s":[[6250482422,6],[4560132446,7]]},
+  {"id":3051343351875,"t":{"ref":"516 RufBus","name":"516 RufBus: Brück, Dorfbrunnen - Dockweiler, Grundsch. / Kita","from":"Brück, Dorfbrunnen","to":"Dockweiler, Grundsch. / Kita","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[7416768153,1]]},
+  {"id":3057756438826,"t":{"ref":"537 RufBus","name":"537 RufBus","from":"Dockweiler","to":"Dockweiler","network":"VRT","operator":"vrt","route":"bus","public_transport:version":"2"},"n":21,"s":[[9457939741,3,19],[7416768153,4,18],[9458004491,5,17]]},
+  {"id":3081021701032,"t":{"ref":"509 Rufbus","name":"RMB 509 RufBus","from":"Nohn","to":"Kelberg","network":"Rhein-Mosel Bus","operator":"RMB","route":"bus","public_transport:version":"2"},"n":10,"s":[[4560132446,4],[6250482422,5]]},
+  {"id":3088590366837,"t":{"ref":"537 RufBus","name":"537 RufBus","from":"Dockweiler","to":"Dockweiler","network":"VRT","operator":"vrt","route":"bus","public_transport:version":"2"},"n":21,"s":[[9457939741,3,19],[7416768153,4,18],[9458004491,5,17]]},
+  {"id":3092995686313,"t":{"ref":"509","name":"509: Kelberg, Kita - Borler, Brodgasse","from":"Kelberg, Kita","to":"Borler, Brodgasse","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[4560132446,7]]},
+  {"id":3094211821303,"t":{"ref":"516 RufBus","name":"516 RufBus: Dockweiler, Feuerwehr - Brück, Dorfbrunnen","from":"Dockweiler, Feuerwehr","to":"Brück, Dorfbrunnen","operator":"Rhein-Mosel Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[7416768153,4]]}
+]
+}

@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2802,3800],
+"stops":[
+  {"id":735171873,"lat":50.149048,"lon":10.020651,"k":"x","n":"Euerdorf, B 287 / Ringstr."},
+  {"id":5534446220,"lat":50.149057,"lon":10.020607,"k":"p","n":"B 287 / Ringstraße"},
+  {"id":5535578599,"lat":50.146586,"lon":10.023726,"k":"p","n":"Euerdorf Schweinf. Str."},
+  {"id":5535578600,"lat":50.14638,"lon":10.023817,"k":"x","n":"Euerdorf Schweinf. Str."},
+  {"id":5535578601,"lat":50.148465,"lon":10.021767,"k":"p","n":"Euerdorf Hammelburger Straße"},
+  {"id":5535578602,"lat":50.148076,"lon":10.020769,"k":"x","n":"Euerdorf Hammelburger Str."},
+  {"id":11226894038,"lat":50.149288,"lon":10.020592,"k":"p","n":"Euerdorf B 287 / Ringstraße"},
+  {"id":11226903861,"lat":50.146192,"lon":10.023925,"k":"p","n":"Euerdorf Schweinf. Str."},
+  {"id":11226910379,"lat":50.134928,"lon":10.034062,"k":"p","n":"Sulzthal, Siedlung"},
+  {"id":11226910380,"lat":50.135132,"lon":10.033861,"k":"p","n":"Sulzthal, Siedlung"},
+  {"id":11226926324,"lat":50.147669,"lon":10.021087,"k":"p","n":"Euerdorf Ringstraße"},
+  {"id":11226941754,"lat":50.142229,"lon":10.034696,"k":"p","n":"Euerdorf Schule"},
+  {"id":11227184631,"lat":50.148241,"lon":10.021539,"k":"p","n":"Euerdorf Hammelburger Straße"},
+  {"id":12793365248,"lat":50.148437,"lon":10.021832,"k":"x","n":"Euerdorf Hammelburger Straße"},
+  {"id":12793365249,"lat":50.14827,"lon":10.021522,"k":"x","n":"Euerdorf Hammelburger Straße"},
+  {"id":12793368652,"lat":50.135065,"lon":10.033972,"k":"x","n":"Sulzthal, Siedlung"},
+  {"id":6082158280365,"lat":50.149535,"lon":10.027633,"k":"p","n":"Euerdorf","g":1}
+],
+"routes":[
+  {"id":8184266,"t":{"ref":"8167","name":"Bus 8167: Hammelburg -> Euerdorf -> Bad Kissingen Berliner Platz","from":"Hammelburg ZOB","to":"Bad Kissingen Berliner Platz","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":10,"s":[[11226894038,8]]},
+  {"id":8186785,"t":{"ref":"8167","name":"Bus 8167: Saaletalbus: Hammelburg -> Ramsthal -> Bad Kissingen","from":"Hammelburg ZOB","to":"Bad Kissingen Berliner Platz","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":16,"s":[[5535578601,11],[11226910380,12]]},
+  {"id":19050819,"t":{"ref":"8167","name":"Bus 8167: Saaletalbus: Bad Kissingen -> Ramsthal -> Hammelburg","from":"Bad Kissingen Berliner Platz","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","route":"bus","public_transport:version":"2"},"n":16,"s":[[11226910380,5],[5535578601,6]]},
+  {"id":21399452,"t":{"ref":"741","name":"Bus 741: Wirmsthal -> Bad Kissingen","network":"Nahverkehr Mainfranken","colour":"#004d6d","route":"bus","public_transport:version":"2"},"n":11,"s":[[11226910380,4],[11226903861,5]]},
+  {"id":21399453,"t":{"ref":"741","name":"Bus 741: Bad Kissingen -> Wirmsthal -> Bad Kissingen","network":"Nahverkehr Mainfranken","colour":"#004d6d","route":"bus","public_transport:version":"2"},"n":17,"s":[[5535578599,7],[11226910380,8]]},
+  {"id":21406803,"t":{"ref":"747","name":"Bus 747: Schweinfurt -> Thulba","from":"Schweinfurt Hbf","to":"Thulba","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":17,"s":[[11226910380,7],[11226903861,8],[5535578601,9]]},
+  {"id":21406804,"t":{"ref":"747","name":"Bus 747: Schweinfurt -> Hammelburg","from":"Schweinfurt Berufsschule","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":16,"s":[[11226903861,7],[5535578601,8]]},
+  {"id":21406805,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Ramsthal","from":"Hammelburg ZOB","to":"Ramsthal","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":14,"s":[[11227184631,10],[5535578599,11],[11226910380,12]]},
+  {"id":21406806,"t":{"ref":"747","name":"Bus 747: Frankenbrunn -> Schweinfurt -> Hammelburg","from":"Frankenbrunn Abzw. Thulba","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":25,"s":[[11227184631,9],[5535578599,10],[11226910380,11],[11226903861,21],[11226926324,22]]},
+  {"id":21406807,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Schweinfurt","from":"Hammelburg ZOB","to":"Schweinfurt Hbf","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":13,"s":[[11227184631,8],[5535578599,9],[11226910380,10]]},
+  {"id":21406809,"t":{"ref":"747","name":"Bus 747: Frankenbrunn -> Schweinfurt","from":"Frankenbrunn","to":"Schweinfurt Galgenleite","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":17,"s":[[11227184631,10],[5535578599,11],[11226910380,12]]},
+  {"id":21406810,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Schweinfurt -> Hammelburg","from":"Hammelburg ZOB","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":22,"s":[[11226903861,18],[11226926324,19]]},
+  {"id":21406811,"t":{"ref":"747","name":"Bus 747: Hammelburg -> Schweinfurt -> Hammelburg","from":"Hammelburg ZOB","to":"Hammelburg ZOB","network":"Nahverkehr Mainfranken","colour":"#f7a600","route":"bus","public_transport:version":"2"},"n":30,"s":[[11226910380,18],[11226903861,19],[5535578601,20]]},
+  {"id":3024772362777,"t":{"ref":"RB50","name":"RB50: Gemünden (Main) - Bad Kissingen","from":"Gemünden (Main)","to":"Bad Kissingen","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":7,"s":[[6082158280365,6]]},
+  {"id":3033854075094,"t":{"ref":"RB50","name":"RB50: Ebenhausen (Unterfr) - Gemünden (Main)","from":"Ebenhausen (Unterfr)","to":"Gemünden (Main)","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":9,"s":[[6082158280365,4]]},
+  {"id":3078632907226,"t":{"ref":"RB50","name":"RB50: Gemünden (Main) - Ebenhausen (Unterfr)","from":"Gemünden (Main)","to":"Ebenhausen (Unterfr)","operator":"Erfurter Bahn","route":"bus","public_transport:version":"2"},"n":9,"s":[[6082158280365,6]]}
+]
+}

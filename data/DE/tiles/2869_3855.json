@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2869,3855],
+"stops":[
+  {"id":4207679914,"lat":53.462878,"lon":12.799966,"k":"p","n":"Schwarzenhof"},
+  {"id":6865268101,"lat":53.497465,"lon":12.773834,"k":"p","n":"Kargow, Unterdorf"},
+  {"id":6910305508,"lat":53.482958,"lon":12.761397,"k":"p","n":"Federow"},
+  {"id":6910305513,"lat":53.497549,"lon":12.773729,"k":"p","n":"Kargow, Unterdorf"},
+  {"id":6910305518,"lat":53.499238,"lon":12.762012,"k":"p","n":"Kargow, Bahnhof"},
+  {"id":9102199879,"lat":53.462864,"lon":12.799932,"k":"x","n":"Schwarzenhof"},
+  {"id":11381220810,"lat":53.483731,"lon":12.759326,"k":"x","n":"Federow"},
+  {"id":11381220811,"lat":53.483696,"lon":12.759357,"k":"p","n":"Federow"},
+  {"id":11381235047,"lat":53.482708,"lon":12.761252,"k":"p","n":"Federow"},
+  {"id":11381330928,"lat":53.482941,"lon":12.761264,"k":"p","n":"Federow"},
+  {"id":11381346405,"lat":53.482717,"lon":12.761473,"k":"p","n":"Federow"},
+  {"id":11381346406,"lat":53.482712,"lon":12.761366,"k":"x","n":"Federow"},
+  {"id":11381361088,"lat":53.48295,"lon":12.761314,"k":"x","n":"Federow"},
+  {"id":11381911422,"lat":53.497535,"lon":12.773797,"k":"x","n":"Kargow, Unterdorf"}
+],
+"routes":[
+  {"id":7405317,"t":{"ref":"009","name":"Bus 009: Rechlin => Waren, Steinmole","from":"Rechlin","to":"Waren, Steinmole","network":"MÜRITZ rundum","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"orange","route":"bus","public_transport:version":"2"},"n":20,"s":[[4207679914,14],[11381220811,15]]},
+  {"id":7405318,"t":{"ref":"009","name":"Bus 009: Waren, Steinmole => Rechlin","from":"Waren, Steinmole","to":"Rechlin","network":"MÜRITZ rundum","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"orange","route":"bus","public_transport:version":"2"},"n":20,"s":[[11381220811,6]]},
+  {"id":11012844,"t":{"ref":"008","name":"Bus 008: Klockow => Kargow => Waren","from":"Klockow","to":"Waren, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"red","route":"bus","public_transport:version":"2"},"n":10,"s":[[6910305518,5],[11381330928,6]]},
+  {"id":11012845,"t":{"ref":"008","name":"Bus 008: Waren => Kargow => Klockow","from":"Waren, ZOB","to":"Klockow","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"red","route":"bus","public_transport:version":"2"},"n":10,"s":[[6910305508,5],[6910305518,6]]},
+  {"id":16764819,"t":{"ref":"026","name":"Bus 026: Waren => Speck","from":"Waren, Sparkasse","to":"Speck","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":12,"s":[[6910305513,9],[11381235047,10]]},
+  {"id":16768071,"t":{"ref":"026","name":"Bus 026: Waren => Speck","from":"Waren, Zentrum","to":"Speck","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":13,"s":[[6910305513,10],[11381235047,11]]},
+  {"id":16769289,"t":{"ref":"026","name":"Bus 026: Waren => Speck","from":"Waren, Zentrum","to":"Speck","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":13,"s":[[6910305513,10],[11381235047,11]]},
+  {"id":16769320,"t":{"ref":"026","name":"Bus 026: Waren => Speck","from":"Waren, Zentrum","to":"Speck","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":13,"s":[[6910305513,10],[11381235047,11]]},
+  {"id":16770537,"t":{"ref":"026","name":"Bus 026: Groß Plasten => Federow","from":"Groß Plasten, Schule","to":"Federow","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","colour":"blue","route":"bus","public_transport:version":"2"},"n":11,"s":[[6910305513,10],[11381330928,11]]},
+  {"id":3000029543113,"t":{"ref":"008","name":"008: Waren, ZOB - Klockow","from":"Waren, ZOB","to":"Klockow","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":17,"s":[[11381346406,8],[6910305518,9],[6910305513,10]]},
+  {"id":3013076926730,"t":{"ref":"008","name":"008: Klockow - Waren, ZOB","from":"Klockow","to":"Waren, ZOB","operator":"Mecklenburg Vorpommersche VG","route":"bus","public_transport:version":"2"},"n":18,"s":[[6910305513,8],[6910305518,9],[11381346406,10]]}
+]
+}

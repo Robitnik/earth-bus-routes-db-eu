@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2792,3785],
+"stops":[
+  {"id":550467677,"lat":49.641741,"lon":9.253116,"k":"p","n":"Brunnrain"},
+  {"id":1803918936,"lat":49.605636,"lon":9.292537,"k":"p","n":"Linkenmühle"},
+  {"id":6614881978,"lat":49.640464,"lon":9.251412,"k":"p","n":"Dorfwiesenhaus"},
+  {"id":6614881979,"lat":49.640618,"lon":9.25875,"k":"p","n":"Roscheklinge"},
+  {"id":6616481185,"lat":49.623061,"lon":9.264823,"k":"p","n":"Kirche"},
+  {"id":6616481186,"lat":49.623032,"lon":9.264747,"k":"x","n":"Kirche"},
+  {"id":6691082317,"lat":49.621562,"lon":9.29273,"k":"p","n":"Rippberg, Schule"},
+  {"id":9190140834,"lat":49.64068,"lon":9.25904,"k":"p","n":"Roscheklinge"},
+  {"id":10946009819,"lat":49.640513,"lon":9.251402,"k":"x","n":"Dorfwiesenhaus"},
+  {"id":10948530785,"lat":49.641693,"lon":9.253135,"k":"x","n":"Brunnrain"},
+  {"id":10948530786,"lat":49.640718,"lon":9.259006,"k":"x","n":"Roscheklinge"},
+  {"id":10948530787,"lat":49.640602,"lon":9.258867,"k":"x","n":"Roscheklinge"},
+  {"id":12918760744,"lat":49.623372,"lon":9.292218,"k":"p"},
+  {"id":12918761296,"lat":49.62329,"lon":9.292184,"k":"p"},
+  {"id":6022074706719,"lat":49.624389,"lon":9.290475,"k":"p","n":"Rippberg, Bahnhof","g":1}
+],
+"routes":[
+  {"id":3215539,"t":{"ref":"849","name":"Bus 849: Walldürn => Wettersdorf","from":"Walldürn Bahnhof","to":"Wettersdorf","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":13,"s":[[1803918936,5]]},
+  {"id":3215540,"t":{"ref":"849","name":"Bus 849: Wettersdorf => Walldürn","from":"Wettersdorf Ort","to":"Walldürn","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":12,"s":[[6691082317,9],[1803918936,10]]},
+  {"id":15932013,"t":{"ref":"97","name":"Bus 97: Amorbach => Gottersdorf => Reichartshausen => Amorbach","from":"Amorbach, Schulzentrum","to":"Amorbach, Schulzentrum","network":"Verkehrsgemeinschaft am Bayerischen Untermain","operator":"Ehrlich","route":"bus","public_transport:version":"2"},"n":11,"s":[[6614881978,5]]},
+  {"id":15936995,"t":{"ref":"99","name":"Bus 99: Amorbach => Schneeberg => Amorbach","from":"Amorbach, Bahnhof","to":"Amorbach, Bahnhof","network":"Verkehrsgemeinschaft am Bayerischen Untermain","operator":"Ehrlich","route":"bus","public_transport:version":"2"},"n":17,"s":[[6614881978,8],[9190140834,9],[550467677,10]]},
+  {"id":3004975098501,"t":{"ref":"99","name":"Bus 99: Amorbach => Schneeberg => Hambrunn => Zittenfelden => Schneeberg => Amorbach","from":"Amorbach, Bahnhof","to":"Amorbach, Bahnhof","network":"Verkehrsgemeinschaft am Bayerischen Untermain","operator":"Ehrlich","route":"bus","public_transport:version":"2"},"n":17,"s":[[10946009819,8],[10948530786,9],[10948530785,10]]},
+  {"id":3019102915395,"t":{"ref":"8951","name":"8951: Buchen, Bahnhof - Buchen, Bahnhof","from":"Buchen, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[1803918936,6],[6691082317,7],[6022074706719,8]]},
+  {"id":3090830939241,"t":{"ref":"8951","name":"8951: Walldürn, Bahnhof - Buchen, Bahnhof","from":"Walldürn, Bahnhof","to":"Buchen, Bahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":20,"s":[[6022074706719,13],[6691082317,14],[1803918936,15]]}
+]
+}

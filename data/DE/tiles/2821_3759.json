@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2821,3759],
+"stops":[
+  {"id":477799985,"lat":51.099166,"lon":7.956448,"k":"p","n":"Mecklinghausen Abzw. Jäckelchen"},
+  {"id":477799987,"lat":51.0993,"lon":7.956728,"k":"p","n":"Mecklinghausen Abzw. Jäckelchen"},
+  {"id":736905551,"lat":51.081868,"lon":7.953615,"k":"p","n":"Oberveischede Attendorner Straße"},
+  {"id":736905577,"lat":51.082005,"lon":7.953667,"k":"p","n":"Oberveischede Attendorner Straße"},
+  {"id":823762236,"lat":51.07662,"lon":7.952242,"k":"p","n":"Oberveischede Hacke"},
+  {"id":823762557,"lat":51.07653,"lon":7.952255,"k":"p","n":"Oberveischede Hacke"},
+  {"id":3509875400,"lat":51.08982,"lon":7.996446,"k":"p","n":"Kirchveischede Cafe Sauerland"},
+  {"id":3509875402,"lat":51.089785,"lon":7.996749,"k":"p","n":"Kirchveischede Cafe Sauerland"},
+  {"id":3517101212,"lat":51.088488,"lon":7.9929,"k":"p","n":"Kirchveischede Buswende"},
+  {"id":5776382932,"lat":51.084921,"lon":7.968907,"k":"p","n":"Bruchhausen"},
+  {"id":6410417624,"lat":51.080989,"lon":7.961975,"k":"p","n":"Oberveischede Schmellenberger Weg"},
+  {"id":6410417625,"lat":51.080872,"lon":7.962403,"k":"p","n":"Oberveischede Schmellenberger Weg"},
+  {"id":6410449011,"lat":51.084098,"lon":7.967573,"k":"p","n":"Bruchhausen"}
+],
+"routes":[
+  {"id":2011860,"t":{"ref":"L524","name":"Bus L524 Helden - Oberveischede","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[823762236,5]]},
+  {"id":3031802412044,"t":{"ref":"SB3","name":"Bus SB3: Olpe => Altenhundem","from":"Olpe ZOB (Bstg. 15)","to":"Altenhundem ZOB (Bstg. 2a)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2","bus":"yes"},"n":22,"s":[[823762557,12],[6410417625,13],[6410449011,14],[3509875402,15]]},
+  {"id":3048053466906,"t":{"ref":"SB3","name":"Bus SB3: Altenhundem => Olpe","from":"Altenhundem ZOB (Bstg. 2a)","to":"Olpe ZOB (Bstg. 15)","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[3509875400,8],[5776382932,9],[6410417625,10],[823762236,11]]},
+  {"id":3052690668165,"t":{"ref":"L513","name":"Bus L513: Grevenbrück => Bilstein","from":"Lennestadt-Grevenbrück Bahnhof","to":"Bilstein Amtshausplatz","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[3509875400,11],[3517101212,12]]},
+  {"id":3061433032334,"t":{"ref":"L524","name":"L524: Helden Mitte - Oberveischede Hacke","from":"Helden Mitte","to":"Oberveischede Hacke","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[477799985,5],[736905551,6],[823762236,7]]},
+  {"id":3072014012391,"t":{"ref":"L524","name":"L524: Oberveischede Hacke - Helden Mitte","from":"Oberveischede Hacke","to":"Helden Mitte","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[823762557,1],[736905577,2],[477799987,3]]},
+  {"id":3081857180591,"t":{"ref":"L513","name":"Bus L513: Bilstein => Grevenbrück","from":"Bilstein Amtshausplatz","to":"Lennestadt-Grevenbrück Bahnhof","network":"WestfalenTarif","operator":"Verkehrsbetriebe Westfalen-Süd GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[3517101212,1],[3509875402,2]]}
+]
+}

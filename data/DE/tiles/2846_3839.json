@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2846,3839],
+"stops":[
+  {"id":1271321009,"lat":52.342552,"lon":11.97579,"k":"p","n":"Güsen, Siedlung"},
+  {"id":4197424050,"lat":52.342527,"lon":11.975718,"k":"x","n":"Güsen, Siedlung"},
+  {"id":4197424051,"lat":52.342522,"lon":11.975647,"k":"p","n":"Güsen, Siedlung"},
+  {"id":4197424052,"lat":52.342562,"lon":11.975721,"k":"x","n":"Güsen, Siedlung"},
+  {"id":4197424053,"lat":52.349883,"lon":11.97784,"k":"p","n":"Güsen, Siepeweg"},
+  {"id":4197424054,"lat":52.349875,"lon":11.977767,"k":"x","n":"Güsen, Siepeweg"},
+  {"id":4270137078,"lat":52.334754,"lon":11.976895,"k":"x","n":"Güsen Busbahnhof","ref":"1"},
+  {"id":4270137079,"lat":52.33476,"lon":11.977073,"k":"x","n":"Güsen Busbahnhof","ref":"2"},
+  {"id":5000042276007,"lat":52.334772,"lon":11.976865,"k":"p","n":"Güsen Busbahnhof","ref":"1"}
+],
+"routes":[
+  {"id":3033328760600,"t":{"ref":"706","name":"706: Güsen (b. Genthin), Busbahnhof - Burg (b. Magdeburg), Busbahnhof","from":"Güsen (b. Genthin), Busbahnhof","to":"Burg (b. Magdeburg), Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":16,"s":[[4270137079,1]]},
+  {"id":3067693737078,"t":{"ref":"706","name":"706: Burg (b. Magdeburg), Kreiskrankenhaus - Güsen (b. Genthin), Busbahnhof","from":"Burg (b. Magdeburg), Kreiskrankenhaus","to":"Güsen (b. Genthin), Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000042276007,17]]},
+  {"id":3074083007965,"t":{"ref":"706","name":"706: Güsen (b. Genthin), Busbahnhof - Burg (b. Magdeburg), Kreiskrankenhaus","from":"Güsen (b. Genthin), Busbahnhof","to":"Burg (b. Magdeburg), Kreiskrankenhaus","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":17,"s":[[4270137079,1]]},
+  {"id":3079836558752,"t":{"ref":"743","name":"Bus 743: Genthin Bahnhof => Hohenseeden Dorf","from":"Genthin Bahnhof","to":"Hohenseden Dorf","network":"Magdeburger Regionalverkehrsverbund","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[4197424052,14],[5000042276007,15]]},
+  {"id":3089086100027,"t":{"ref":"743","name":"Bus 743: Genthin Bahnhof => Hohenseeden Dorf","from":"Genthin Bahnhof","to":"Hohenseden Dorf","network":"Magdeburger Regionalverkehrsverbund","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000042276007,2],[1271321009,3]]}
+]
+}

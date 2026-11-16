@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2814,3869],
+"stops":[
+  {"id":260723969,"lat":50.746946,"lon":13.485141,"k":"x","n":"Clausnitz, Hauptstraße"},
+  {"id":385284284,"lat":50.722615,"lon":13.450513,"k":"x","n":"Friedebach, Feuerwehrdepot"},
+  {"id":385298129,"lat":50.727592,"lon":13.453445,"k":"x","n":"Friedebach, Schmiede"},
+  {"id":3044221276,"lat":50.704471,"lon":13.491503,"k":"x","n":"Cämmerswalde, Gh Meyer"},
+  {"id":3054151308,"lat":50.748534,"lon":13.486785,"k":"x","n":"Clausnitz Kreuzung"},
+  {"id":3054151309,"lat":50.746007,"lon":13.486409,"k":"x","n":"Clausnitz, Forstschmiede"},
+  {"id":3054194551,"lat":50.741635,"lon":13.490165,"k":"x","n":"Clausnitz Robotron"},
+  {"id":3054210217,"lat":50.735467,"lon":13.498345,"k":"x","n":"Clausnitz Mitte"},
+  {"id":3061410855,"lat":50.746953,"lon":13.485171,"k":"x","n":"Clausnitz, Hauptstraße"},
+  {"id":3072310940,"lat":50.73363,"lon":13.458347,"k":"x","n":"Friedebach, Gasthof Weißbach"},
+  {"id":3072310941,"lat":50.733563,"lon":13.458264,"k":"p"},
+  {"id":3072310946,"lat":50.733647,"lon":13.458412,"k":"p"},
+  {"id":7100223730,"lat":50.747018,"lon":13.485136,"k":"p","n":"Clausnitz, Hauptstraße"},
+  {"id":7100223731,"lat":50.74689,"lon":13.485186,"k":"p","n":"Clausnitz, Hauptstraße"},
+  {"id":7100223732,"lat":50.727556,"lon":13.453402,"k":"x","n":"Friedebach, Schmiede"},
+  {"id":7100223733,"lat":50.727592,"lon":13.453313,"k":"p","n":"Friedebach, Schmiede"},
+  {"id":7100223734,"lat":50.727554,"lon":13.453529,"k":"p","n":"Friedebach, Schmiede"},
+  {"id":7100223735,"lat":50.722641,"lon":13.450422,"k":"p","n":"Friedebach, Feuerwehrdepot"},
+  {"id":7100223736,"lat":50.722737,"lon":13.450587,"k":"x","n":"Friedebach, Feuerwehrdepot"},
+  {"id":7100223737,"lat":50.722726,"lon":13.450645,"k":"p","n":"Friedebach, Feuerwehrdepot"},
+  {"id":13059833477,"lat":50.74843,"lon":13.486575,"k":"p","n":"Clausnitz Kreuzung"},
+  {"id":13059833478,"lat":50.748517,"lon":13.486827,"k":"p","n":"Clausnitz Kreuzung"},
+  {"id":5000301355118,"lat":50.746017,"lon":13.48646,"k":"p"},
+  {"id":5000301358452,"lat":50.735474,"lon":13.498434,"k":"p"},
+  {"id":5000301555519,"lat":50.704389,"lon":13.491485,"k":"p"}
+],
+"routes":[
+  {"id":4006182,"t":{"ref":"739","name":"Bus 739: Rechenberg-Bienenmühle - Frauenstein","from":"Rechenberg-Bienenmühle, Schule","to":"Frauenstein, Markt","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":19,"s":[[3054151308,3]]},
+  {"id":4006203,"t":{"ref":"739","name":"Bus 739: Frauenstein - Rechenberg-Bienenmühle","from":"Frauenstein, Grundschule","to":"Rechenberg-Bienenmühle, Schule","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":19,"s":[[3054151308,17]]},
+  {"id":4007838,"t":{"ref":"739","name":"739 Abzweig Clausnitz, Wendeschleife","from":"Clausnitz, Kreuzung","to":"Clausnitz, Wendeschleife","network":"VMS","route":"bus"},"n":4,"s":[[3054151309,1],[3054194551,2],[3054210217,3]]},
+  {"id":4033825,"t":{"ref":"738","name":"738 Brand-Erbisdorf - Mulda - Sayda - Rechenberg-Bienenmühle","from":"Brand-Erbisdorf, Str d.Friedens/Schule","to":"Rechenberg-Bienenmühle, Schule","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":32,"s":[[385284284,28],[385298129,29],[3061410855,30]]},
+  {"id":4033955,"t":{"ref":"738","name":"738 Abzweig Dorfchemnitz, Neudörfel","from":"Dorfchemnitz, Abzw Voigtsdorf","to":"Friedebach, Gh Weißbach","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":7,"s":[[3072310940,2],[385298129,3],[385284284,4]]},
+  {"id":4033962,"t":{"ref":"738","name":"738 Abzweig Clausnitz, Wendeschleife","from":"Clausnitz, Hauptstraße","to":"Neuclausnitz, Gh Schweizerhof","network":"VMS","route":"bus"},"n":4,"s":[[3054151309,1],[3054194551,2],[3054210217,3]]},
+  {"id":4033995,"t":{"ref":"738","name":"738 Rechenberg-Bienenmühle - Sayda - Mulda - Brand-Erbisdorf","from":"Rechenberg-Bienenmühle, Schule","to":"Brand-Erbisdorf, Str d.Friedens/Schule","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":31,"s":[[3061410855,3],[385298129,4],[385284284,5]]},
+  {"id":3017850067620,"t":{"ref":"465","name":"Bus 465: Olbernhau, Busbahnhof => Frauenstein, Markt","from":"Olbernhau, Busbahnhof","to":"Frauenstein, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[7100223737,14],[7100223734,15],[7100223731,16]]},
+  {"id":3090485083088,"t":{"ref":"465","name":"Bus 465: Frauenstein, Markt => Olbernhau, Busbahnhof","from":"Frauenstein, Markt","to":"Olbernhau, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[260723969,3],[7100223732,4],[7100223735,5]]}
+]
+}

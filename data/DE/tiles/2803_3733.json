@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2803,3733],
+"stops":[
+  {"id":9402353400,"lat":50.195838,"lon":6.679461,"k":"p","n":"Büscheich, In der Joch"},
+  {"id":9402353410,"lat":50.195801,"lon":6.679486,"k":"x","n":"Büscheich, In der Joch"},
+  {"id":9402353481,"lat":50.197379,"lon":6.674889,"k":"x","n":"Büscheich, Kirche"},
+  {"id":9402353482,"lat":50.197332,"lon":6.675002,"k":"p","n":"Büscheich, Kirche"},
+  {"id":9402353485,"lat":50.199278,"lon":6.67354,"k":"x","n":"Büscheich, Gemeindehaus"},
+  {"id":9402353486,"lat":50.199302,"lon":6.6736,"k":"p","n":"Büscheich, Gemeindehaus"},
+  {"id":9402353487,"lat":50.199374,"lon":6.673439,"k":"x","n":"Büscheich, Gemeindehaus"},
+  {"id":9402353489,"lat":50.199356,"lon":6.673394,"k":"p","n":"Büscheich, Gemeindehaus"},
+  {"id":9403230803,"lat":50.186468,"lon":6.666581,"k":"x","n":"Michelbach (Gerolstein), Ort"},
+  {"id":9403230811,"lat":50.186527,"lon":6.666543,"k":"p","n":"Michelbach (Gerolstein), Ort"},
+  {"id":13398449946,"lat":50.152299,"lon":6.691205,"k":"x","n":"Salm, Gemeindehaus"},
+  {"id":13398449947,"lat":50.152275,"lon":6.691158,"k":"p","n":"Salm, Gemeindehaus"},
+  {"id":6064960599069,"lat":50.196632,"lon":6.67495,"k":"p","n":"Büscheich, Kirche","g":1},
+  {"id":6072567717573,"lat":50.195948,"lon":6.68042,"k":"p","n":"Büscheich, In der Joch","g":1}
+],
+"routes":[
+  {"id":19996304,"t":{"ref":"553","name":"Bus 553: Daun, ZOB => Manderscheid, Im Bungert","from":"Daun, ZOB","to":"Manderscheid, Im Bungert","network":"VRT","operator":"DB Regio Bus Rhein-Mosel GmbH","colour":"#80D07B","route":"bus","public_transport:version":"2"},"n":20,"s":[[13398449947,9]]},
+  {"id":19996604,"t":{"ref":"533","name":"Bus 533: Manderscheid, Dauner Straße -> Gerolstein, Bahnhof/ZOB","from":"Manderscheid, Dauner Straße","to":"Gerolstein, Bahnhof/ZOB","network":"VRT","operator":"DB Regio Bus Rhein-Mosel GmbH","colour":"#E6EF51","route":"bus","public_transport:version":"2"},"n":19,"s":[[13398449947,12],[9403230811,13],[9402353400,14],[9402353482,15],[9402353486,16]]},
+  {"id":21403572,"t":{"ref":"533","name":"Bus 533: Gerolstein, Bahnhof/ZOB => Manderscheid, Dauner Straße","from":"Gerolstein, Bahnhof/ZOB","to":"Manderscheid, Dauner Straße","network":"VRT","operator":"DB Regio Bus Rhein-Mosel GmbH","colour":"#E6EF51","route":"bus","public_transport:version":"2"},"n":17,"s":[[9402353489,4],[9403230811,5],[13398449947,6]]},
+  {"id":3000791159484,"t":{"ref":"553 RufBus","name":"553 RufBus: Manderscheid, Im Bungert - Daun, ZOB","from":"Manderscheid, Im Bungert","to":"Daun, ZOB","operator":"DB Regio Bus Mitte1","route":"bus","public_transport:version":"2"},"n":20,"s":[[13398449946,12]]},
+  {"id":3005013104153,"t":{"ref":"533 RufBus","name":"533 RufBus: Manderscheid, Dauner Straße - Gerolstein, Bahnhof/ZOB","from":"Manderscheid, Dauner Straße","to":"Gerolstein, Bahnhof/ZOB","operator":"DB Regio Bus Mitte1","route":"bus","public_transport:version":"2"},"n":19,"s":[[13398449946,12],[9403230803,13],[6072567717573,14],[6064960599069,15],[9402353485,16]]},
+  {"id":3013370016622,"t":{"ref":"532 RufBus","name":"532 RufBus: Gerolstein, BBS / EKZ - Gerolstein, BBS / EKZ","from":"Gerolstein, BBS / EKZ","to":"Gerolstein, BBS / EKZ","operator":"Linden Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[9403230803,10],[6072567717573,11],[6064960599069,12],[9402353485,13]]},
+  {"id":3041950474650,"t":{"ref":"532 RufBus","name":"532 RufBus: Gerolstein, BBS / EKZ - Gerolstein, BBS / EKZ","from":"Gerolstein, BBS / EKZ","to":"Gerolstein, BBS / EKZ","operator":"Linden Reisen","route":"bus","public_transport:version":"2"},"n":17,"s":[[9402353485,5],[6064960599069,6],[6072567717573,7],[9403230803,8]]},
+  {"id":3051061473919,"t":{"ref":"553 RufBus","name":"553 RufBus: Daun, ZOB - Manderscheid, Im Bungert","from":"Daun, ZOB","to":"Manderscheid, Im Bungert","operator":"DB Regio Bus Mitte1","route":"bus","public_transport:version":"2"},"n":20,"s":[[13398449946,9]]},
+  {"id":3066174427799,"t":{"ref":"533 RufBus","name":"533 RufBus: Gerolstein, Bahnhof/ZOB - Manderscheid, Dauner Straße","from":"Gerolstein, Bahnhof/ZOB","to":"Manderscheid, Dauner Straße","operator":"DB Regio Bus Mitte1","route":"bus","public_transport:version":"2"},"n":19,"s":[[9402353485,4],[6064960599069,5],[6072567717573,6],[9403230803,7],[13398449946,8]]}
+]
+}

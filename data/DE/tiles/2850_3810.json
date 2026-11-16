@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2850,3810],
+"stops":[
+  {"id":130150845,"lat":52.510385,"lon":10.539672,"k":"x","n":"Westerfeldweg"},
+  {"id":252291216,"lat":52.536198,"lon":10.521604,"k":"x","n":"Gifhorn, Kästorf, Diakonische Heime"},
+  {"id":1611043717,"lat":52.520563,"lon":10.537817,"k":"x","n":"Storchenblick"},
+  {"id":1611043792,"lat":52.525984,"lon":10.530595,"k":"x","n":"Gifhorn, Kästorf, Sportplatz"},
+  {"id":1611043844,"lat":52.544065,"lon":10.517524,"k":"x","n":"Gifhorn, Kästorf, Nord"},
+  {"id":1611043890,"lat":52.531045,"lon":10.524843,"k":"x","n":"Gifhorn, Kästorf, Meisenweg"},
+  {"id":1612203498,"lat":52.514892,"lon":10.539719,"k":"x","n":"Volksbank"},
+  {"id":2195323338,"lat":52.506329,"lon":10.529274,"k":"p","n":"Carl-Miele-Straße","ref":"100"},
+  {"id":2195323354,"lat":52.506321,"lon":10.529461,"k":"p","n":"Carl-Miele-Straße","ref":"100"},
+  {"id":2682379174,"lat":52.503636,"lon":10.541387,"k":"x","n":"Schöne Aussicht"},
+  {"id":2816278214,"lat":52.500607,"lon":10.531317,"k":"p","n":"Sportzentrum Nord"},
+  {"id":2816278215,"lat":52.500585,"lon":10.531527,"k":"p","n":"Sportzentrum Nord"},
+  {"id":6230666941,"lat":52.507388,"lon":10.53631,"k":"p","n":"Masurenweg","ref":"100"},
+  {"id":6230666942,"lat":52.507443,"lon":10.537308,"k":"p","n":"Masurenweg","ref":"100"},
+  {"id":6700542628,"lat":52.510655,"lon":10.539729,"k":"x","n":"Westerfeldweg"},
+  {"id":6767017373,"lat":52.500077,"lon":10.541872,"k":"p","n":"Im Paulsumpf"},
+  {"id":6879830063,"lat":52.520697,"lon":10.537472,"k":"p","n":"Storchenblick"},
+  {"id":6879830066,"lat":52.520444,"lon":10.538125,"k":"p","n":"Storchenblick"},
+  {"id":8308283918,"lat":52.503622,"lon":10.541267,"k":"p","n":"Schöne Aussicht"},
+  {"id":8308283919,"lat":52.503663,"lon":10.541492,"k":"p","n":"Schöne Aussicht"},
+  {"id":8701332442,"lat":52.535885,"lon":10.521863,"k":"p","n":"Kästorf, Kirche"},
+  {"id":6019403639837,"lat":52.519258,"lon":10.532387,"k":"p","n":"Kästorf, Masthoop","g":1},
+  {"id":6045958219667,"lat":52.518104,"lon":10.536331,"k":"p","n":"Kästorf, Berghoop","g":1},
+  {"id":6063565927232,"lat":52.517667,"lon":10.531049,"k":"p","n":"Kästorf, Silbereiche","g":1}
+],
+"routes":[
+  {"id":2757156,"t":{"ref":"102","name":"102","network":"Verkehrsverbund Region Braunschweig","operator":"VLG","route":"bus"},"n":4,"s":[[8308283919,3],[8308283918,4]]},
+  {"id":3005140657855,"t":{"ref":"108","name":"108: Gifhorn, Stadt (Bahnhof) - Kästorf, Storchenblick","from":"Gifhorn, Stadt (Bahnhof)","to":"Kästorf, Storchenblick","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[8308283919,8],[130150845,9],[1612203498,10],[6879830066,11]]},
+  {"id":3011295876383,"t":{"ref":"108","name":"108: Kästorf, Storchenblick - Gifhorn, Am Wittkopsberg","from":"Kästorf, Storchenblick","to":"Gifhorn, Am Wittkopsberg","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6879830066,1],[6019403639837,2],[6063565927232,3],[6045958219667,4],[1612203498,5],[130150845,6],[8308283918,7],[6767017373,8]]},
+  {"id":3052902754934,"t":{"ref":"100","name":"Bus 100: Gifhorn Bahnhof => Wesendorf","from":"Gifhorn Bahnhof (Süd)","to":"Wesendorf - Blumenstraße","network":"Verkehrsverbund Region Braunschweig","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[2816278215,17],[2195323354,18],[6230666941,19],[130150845,20],[1612203498,21],[6879830066,22],[1611043792,23],[1611043890,24],[8701332442,25],[1611043844,26]]},
+  {"id":3071196782118,"t":{"ref":"100","name":"Bus 100: Wesendorf => Gifhorn Bahnhof","from":"Wesendorf Blumenstraße","to":"Gifhorn Bahnhof (Süd)","network":"Verkehrsverbund Region Braunschweig","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[1611043844,8],[252291216,9],[1611043890,10],[1611043792,11],[1611043717,12],[1612203498,13],[130150845,14],[6230666942,15],[2195323338,16],[2816278214,17]]},
+  {"id":3092733637476,"t":{"ref":"102","name":"102: Gifhorn, Stadt (Bahnhof) - Wesendorf, Blumenstraße","from":"Gifhorn, Stadt (Bahnhof)","to":"Wesendorf, Blumenstraße","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[8308283919,8],[130150845,9],[1612203498,10],[6879830066,11],[1611043792,12],[1611043890,13],[8701332442,14],[1611043844,15]]},
+  {"id":3094432344632,"t":{"ref":"102","name":"102: Wesendorf, Blumenstraße - Gifhorn, Stadt (Bahnhof)","from":"Wesendorf, Blumenstraße","to":"Gifhorn, Stadt (Bahnhof)","operator":"Verkehrsgesellschaft Landkreis Gifhorn mbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[1611043844,12],[252291216,13],[1611043890,14],[1611043792,15],[1611043717,16],[1612203498,17],[130150845,18],[8308283918,19],[6767017373,20]]}
+]
+}

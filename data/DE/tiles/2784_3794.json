@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2784,3794],
+"stops":[
+  {"id":331263315,"lat":49.241099,"lon":9.706273,"k":"p","n":"Kubach"},
+  {"id":4789655600,"lat":49.228987,"lon":9.704008,"k":"p","n":"Feßbach Ort"},
+  {"id":4789655602,"lat":49.245204,"lon":9.703855,"k":"x","n":"Haag Aussiedler"},
+  {"id":4789655608,"lat":49.247741,"lon":9.702302,"k":"x","n":"Haag"},
+  {"id":6083963187,"lat":49.238485,"lon":9.741907,"k":"p","n":"Bühlingsweiler Abzweig"},
+  {"id":6083963188,"lat":49.249223,"lon":9.73955,"k":"p","n":"Etzlinsweiler"},
+  {"id":6083963189,"lat":49.241098,"lon":9.706337,"k":"x","n":"Kubach"},
+  {"id":6084145449,"lat":49.215277,"lon":9.732253,"k":"p","n":"Löschteig"},
+  {"id":6084145451,"lat":49.211042,"lon":9.729804,"k":"p","n":"Goggenbach Ort"},
+  {"id":6084145452,"lat":49.211021,"lon":9.730077,"k":"p","n":"Goggenbach Ort"},
+  {"id":6084145453,"lat":49.203606,"lon":9.740422,"k":"p","n":"Eschental"},
+  {"id":6084145454,"lat":49.203583,"lon":9.740615,"k":"p","n":"Eschental"},
+  {"id":6084145461,"lat":49.203777,"lon":9.727077,"k":"p","n":"Kohlwasen"},
+  {"id":6084148587,"lat":49.228714,"lon":9.702941,"k":"p","n":"Feßbach Ort"},
+  {"id":6084148588,"lat":49.233064,"lon":9.720522,"k":"p","n":"Feßbach Aussiedler"},
+  {"id":6084148589,"lat":49.233232,"lon":9.72107,"k":"p","n":"Feßbach Aussiedler"},
+  {"id":6084148590,"lat":49.232251,"lon":9.741298,"k":"p","n":"Rüblingen"},
+  {"id":6796026449,"lat":49.2452,"lon":9.703806,"k":"p","n":"Haag Aussiedler"},
+  {"id":6796026457,"lat":49.241041,"lon":9.706413,"k":"p","n":"Kubach"},
+  {"id":8992922718,"lat":49.249209,"lon":9.739656,"k":"p","n":"Etzlinsweiler"},
+  {"id":8992922719,"lat":49.232228,"lon":9.741421,"k":"p","n":"Rüblingen"},
+  {"id":6067541856349,"lat":49.248569,"lon":9.701068,"k":"p","n":"Haag","g":1},
+  {"id":6088416312868,"lat":49.247249,"lon":9.702641,"k":"p","n":"Haag","g":1},
+  {"id":6090425117789,"lat":49.229137,"lon":9.705111,"k":"p","n":"Feßbach Ort","g":1}
+],
+"routes":[
+  {"id":7153000,"t":{"ref":"7","name":"Bus 7: Künzelsau => Waldenburg","from":"Künzelsau","to":"Waldenburg","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":11,"s":[[6796026449,4],[331263315,5],[4789655600,6]]},
+  {"id":10166264,"t":{"ref":"29","name":"Bus 29: Kupferzell => Schwäbisch Hall","from":"Kupferzell Untere Vorstadt","to":"Schwäbisch Hall ZOB","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":19,"s":[[6084145451,4],[6084145453,5]]},
+  {"id":10166266,"t":{"ref":"29","name":"Bus 29: Schwäbisch Hall => Kupferzell","from":"Schwäbisch Hall ZOB","to":"Kupferzell Untere Vorstadt","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":19,"s":[[6084145454,15],[6084145452,16]]},
+  {"id":13061445,"t":{"ref":"7","name":"Bus 7: Waldenburg => Künzelsau","from":"Waldenburg Bahnhof","to":"Künzelsau Bahnhof","network":"Heilbronner Hohenloher Haller Nahverkehr","route":"bus","public_transport:version":"2"},"n":12,"s":[[6084148587,7],[6796026457,8]]},
+  {"id":13071476,"t":{"ref":"27","name":"Bus 27: Künzelsau => Etzlinsweiler => Kupferzell","from":"Künzelsau","to":"Kupferzell","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":10,"s":[[6083963188,5],[6083963187,6],[6084148590,7],[6084148589,8],[4789655600,9]]},
+  {"id":13071538,"t":{"ref":"27","name":"Bus 27: Kupferzell => Etzlinsweiler => Künzelsau","from":"Kupferzell","to":"Künzelsau","network":"Heilbronner Hohenloher Haller Nahverkehr","operator":"Nahverkehr Hohenlohekreis","route":"bus","public_transport:version":"2"},"n":9,"s":[[6084148587,1],[6084148588,2],[8992922719,3],[6083963187,4],[8992922718,5]]},
+  {"id":3011387723813,"t":{"ref":"70","name":"70: Waldzimmern Ost - Waldenburg(Württ)","from":"Waldzimmern Ost","to":"Waldenburg(Württ)","operator":"Bus (Region)","route":"bus","public_transport:version":"2"},"n":26,"s":[[6067541856349,14],[4789655602,15],[6796026457,16],[4789655600,17]]},
+  {"id":3033134683798,"t":{"ref":"70","name":"70: Waldenburg(Württ) - Waldzimmern Ost","from":"Waldenburg(Württ)","to":"Waldzimmern Ost","operator":"Bus (Region)","route":"bus","public_transport:version":"2"},"n":26,"s":[[6090425117789,10],[6796026457,11],[4789655602,12],[6088416312868,13]]}
+]
+}

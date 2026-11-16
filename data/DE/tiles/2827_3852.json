@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3852],
+"stops":[
+  {"id":274535043,"lat":51.35536,"lon":12.602036,"k":"p","n":"Posthausen (Machern)"},
+  {"id":366179642,"lat":51.359674,"lon":12.636063,"k":"x","n":"Machern, Schule"},
+  {"id":391116780,"lat":51.392031,"lon":12.626491,"k":"p","n":"Plagwitz"},
+  {"id":410733228,"lat":51.3984,"lon":12.649941,"k":"x","n":"Püchau, Hauptstarße"},
+  {"id":857127105,"lat":51.358377,"lon":12.625477,"k":"p","n":"Machern, Alte Leipziger Straße"},
+  {"id":1005332799,"lat":51.357236,"lon":12.627332,"k":"p","n":"Bahnhofstraße"},
+  {"id":2949014568,"lat":51.3984,"lon":12.649899,"k":"p","n":"Püchau, Hauptstraße"},
+  {"id":7640932496,"lat":51.396615,"lon":12.649731,"k":"p","n":"Püchau, Schule"},
+  {"id":8196468137,"lat":51.358312,"lon":12.625466,"k":"x","n":"Machern, Alte Leipziger Straße"},
+  {"id":8196468138,"lat":51.358225,"lon":12.625466,"k":"p","n":"Machern, Alte Leipziger Straße"},
+  {"id":9847990066,"lat":51.396625,"lon":12.649694,"k":"x","n":"Püchau, Schule"},
+  {"id":10632580957,"lat":51.357151,"lon":12.6274,"k":"p","n":"Bahnhofstraße"},
+  {"id":6013159053571,"lat":51.357337,"lon":12.629983,"k":"p","n":"Machern (Sachsen), S-Bahnhof/Zeititzer Weg","g":1},
+  {"id":6041613599728,"lat":51.351147,"lon":12.645934,"k":"p","n":"Zeititz (Bennewitz), NRZ","g":1},
+  {"id":6051346800622,"lat":51.351288,"lon":12.645871,"k":"p","n":"Zeititz (Bennewitz), NRZ","g":1},
+  {"id":6065434911054,"lat":51.357391,"lon":12.630012,"k":"p","n":"Machern (Sachsen), S-Bahnhof/Zeititzer Weg","g":1},
+  {"id":6083036043582,"lat":51.353469,"lon":12.641359,"k":"p","n":"Machern (Sachsen), Tannengrund","g":1},
+  {"id":6090560160295,"lat":51.353246,"lon":12.641705,"k":"p","n":"Machern (Sachsen), Tannengrund","g":1}
+],
+"routes":[
+  {"id":10744737,"t":{"ref":"682","name":"Bus 682: Machern => Brandis","from":"Machern, Schule","to":"Brandis, Schulzentrum","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[366179642,1,2]]},
+  {"id":11968882,"t":{"ref":"687","name":"Bus 687: Plagwitz => Wurzen","from":"Plagwitz","to":"Wurzen","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[391116780,1],[2949014568,2]]},
+  {"id":11982461,"t":{"ref":"691","name":"Bus 691: Wurzen => Leipzig","from":"Wurzen, Clara-Zetkin-Platz","to":"Leipzig, Sommerfeld","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[857127105,6]]},
+  {"id":11983247,"t":{"ref":"691","name":"Bus 691: Leipzig => Wurzen","from":"Leipzig, Sommerfeld","to":"Wurzen, Bahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[8196468138,7]]},
+  {"id":3005088618491,"t":{"ref":"691","name":"691: Wurzen, Bahnhof (Bus) - Borsdorf (Sachsen), Bahnhof (Bus)","from":"Wurzen, Bahnhof (Bus)","to":"Borsdorf (Sachsen), Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[6051346800622,13],[6083036043582,14],[6065434911054,15],[1005332799,16]]},
+  {"id":3005281305214,"t":{"ref":"680","name":"680: Wurzen, Clara-Zetkin-Platz - Brandis (b. Wurzen), Schulzentrum","from":"Wurzen, Clara-Zetkin-Platz","to":"Brandis (b. Wurzen), Schulzentrum","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6051346800622,14],[6083036043582,15],[6065434911054,16],[1005332799,17]]},
+  {"id":3040376379042,"t":{"ref":"683","name":"683: Brandis (b. Wurzen), Schulzentrum - Machern (Sachsen), Schule","from":"Brandis (b. Wurzen), Schulzentrum","to":"Machern (Sachsen), Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[274535043,4],[8196468138,8],[366179642,9]]},
+  {"id":3071640454641,"t":{"ref":"691","name":"691: Borsdorf (Sachsen), Bahnhof (Bus) - Wurzen, Bahnhof (Bus)","from":"Borsdorf (Sachsen), Bahnhof (Bus)","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":25,"s":[[10632580957,10],[6013159053571,11],[6090560160295,12],[6041613599728,13]]},
+  {"id":3075245266513,"t":{"ref":"682","name":"682: Wurzen, Clara-Zetkin-Platz - Machern (Sachsen), Schule","from":"Wurzen, Clara-Zetkin-Platz","to":"Machern (Sachsen), Schule","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[9847990066,10],[410733228,11],[391116780,12],[366179642,13]]},
+  {"id":3085088767389,"t":{"ref":"691","name":"691: Leipzig, Sommerfeld - Wurzen, Bahnhof (Bus)","from":"Leipzig, Sommerfeld","to":"Wurzen, Bahnhof (Bus)","operator":"Regionalbus Leipzig GmbH","route":"bus","public_transport:version":"2"},"n":31,"s":[[10632580957,16],[6013159053571,17],[6090560160295,18],[6041613599728,19]]}
+]
+}

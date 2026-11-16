@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2836,3847],
+"stops":[
+  {"id":885380448,"lat":51.835432,"lon":12.384896,"k":"p","n":"Drehberg"},
+  {"id":2976835068,"lat":51.803023,"lon":12.388609,"k":"p","n":"Oranienbaum, Krähenberg"},
+  {"id":2976835069,"lat":51.803071,"lon":12.389125,"k":"p","n":"Oranienbaum, Krähenberg"},
+  {"id":6549986790,"lat":51.808679,"lon":12.352826,"k":"x","n":"Oranienbaum Dessora-Park (Ditsch)"},
+  {"id":6549986793,"lat":51.808646,"lon":12.352737,"k":"p","n":"Oranienbaum Dessora-Park (Ditsch)"},
+  {"id":11020085123,"lat":51.844529,"lon":12.353563,"k":"p","n":"Vockerode, Siedlung"},
+  {"id":11020085124,"lat":51.844544,"lon":12.353459,"k":"x","n":"Vockerode, Siedlung"},
+  {"id":11020085125,"lat":51.844547,"lon":12.353372,"k":"p","n":"Vockerode, Siedlung"},
+  {"id":11020085126,"lat":51.843932,"lon":12.358011,"k":"p","n":"Vockerode, Kraftwerk"},
+  {"id":11020085127,"lat":51.843875,"lon":12.357937,"k":"x","n":"Vockerode, Kraftwerk"},
+  {"id":11020085128,"lat":51.843798,"lon":12.358491,"k":"p","n":"Vockerode, Kraftwerk"},
+  {"id":11020085129,"lat":51.843844,"lon":12.358534,"k":"x","n":"Vockerode, Kraftwerk"},
+  {"id":11020085130,"lat":51.835491,"lon":12.384975,"k":"x","n":"Drehberg"},
+  {"id":11020085131,"lat":51.835539,"lon":12.384955,"k":"p","n":"Drehberg"},
+  {"id":13408812526,"lat":51.808731,"lon":12.352906,"k":"p","n":"Oranienbaum Dessora-Park (Ditsch)"},
+  {"id":5000697424715,"lat":51.803036,"lon":12.389215,"k":"p","n":"Oranienbaum Krähenberg"}
+],
+"routes":[
+  {"id":14677168,"t":{"ref":"310","name":"Bus 310 Dessau => Gräfenhainichen","from":"Dessau, Hauptbahnhof","to":"Gräfenhainichen, S-Bf.","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe GmbH","route":"bus"},"n":19,"s":[[6549986793,2]]},
+  {"id":3002129533804,"t":{"ref":"304","name":"Bus 304: Dessau => Lutherstadt Wittenberg","from":"Dessau, Hauptbahnhof","to":"Lutherstadt Wittenberg, Hauptbahnhof","network":"Vetter Verkehrsbetriebe","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":37,"s":[[11020085124,15],[11020085129,16],[11020085130,17]]},
+  {"id":3002606534795,"t":{"ref":"310","name":"Bus 310 Gräfenhainichen => Dessau","from":"Gräfenhainichen, S-Bf.","to":"Dessau, Hauptbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6549986793,14],[2976835068,15]]},
+  {"id":3005663588483,"t":{"ref":"311","name":"311: Oranienbaum (Anhalt), Busbahnhof - Vockerode (Oranienbaum), Kapenweg","from":"Oranienbaum (Anhalt), Busbahnhof","to":"Vockerode (Oranienbaum), Kapenweg","operator":"Vetter GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[11020085131,12],[11020085127,13],[11020085124,14]]},
+  {"id":3012261669793,"t":{"ref":"304","name":"Bus 304: Dessau => Lutherstadt Wittenberg","from":"Dessau, Hauptbahnhof","to":"Lutherstadt Wittenberg, Hauptbahnhof","network":"Vetter Verkehrsbetriebe","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":21,"s":[[11020085124,15],[11020085129,16],[11020085130,17]]},
+  {"id":3056402183376,"t":{"ref":"310","name":"Bus 310 Gräfenhainichen => Dessau","from":"Gräfenhainichen, S-Bf.","to":"Dessau, Hauptbahnhof","network":"Mitteldeutscher Verkehrsverbund","operator":"Vetter Verkehrsbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000697424715,9],[6549986793,11]]},
+  {"id":3069566895310,"t":{"ref":"304","name":"Bus 304: Lutherstadt Wittenberg => Dessau","from":"Lutherstadt Wittenberg, Hauptbahnhof","to":"Dessau, Hauptbahnhof","network":"Vetter Verkehrsbetriebe","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":38,"s":[[11020085131,21],[11020085127,22],[11020085124,23]]},
+  {"id":3097674427618,"t":{"ref":"304","name":"Bus 304: Lutherstadt Wittenberg => Dessau","from":"Lutherstadt Wittenberg, Hauptbahnhof","to":"Dessau, Hauptbahnhof","network":"Vetter Verkehrsbetriebe","operator":"Vetter Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":22,"s":[[11020085131,5],[11020085127,6],[11020085124,7]]}
+]
+}

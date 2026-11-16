@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3769],
+"stops":[
+  {"id":370087905,"lat":49.74525,"lon":8.485002,"k":"x","n":"Nibelungenviertel"},
+  {"id":380693839,"lat":49.745251,"lon":8.485093,"k":"p","n":"Nibelungenviertel"},
+  {"id":1494197404,"lat":49.713076,"lon":8.476322,"k":"p","n":"Groß-Rohrheim Bahnhof Ostseite"},
+  {"id":2242721240,"lat":49.735388,"lon":8.490361,"k":"p","n":"Klein-Rohrheim"},
+  {"id":2242721241,"lat":49.735774,"lon":8.489892,"k":"p","n":"Klein-Rohrheim"},
+  {"id":2242721243,"lat":49.745254,"lon":8.484931,"k":"p","n":"Nibelungenviertel"},
+  {"id":3690784671,"lat":49.73543,"lon":8.490343,"k":"x","n":"Klein-Rohrheim"},
+  {"id":3690898297,"lat":49.735779,"lon":8.489785,"k":"x","n":"Klein-Rohrheim"},
+  {"id":4968864663,"lat":49.749476,"lon":8.485416,"k":"p","n":"Bleichstraße"},
+  {"id":11775282670,"lat":49.714386,"lon":8.476493,"k":"p","n":"Ruftaxi"},
+  {"id":13532424521,"lat":49.749554,"lon":8.485508,"k":"x","n":"Bleichstraße"},
+  {"id":6043216750118,"lat":49.71699,"lon":8.480168,"k":"p","n":"Groß-Rohrheim, Schücostraße","g":1},
+  {"id":6059693031331,"lat":49.716955,"lon":8.480267,"k":"p","n":"Groß-Rohrheim, Schücostraße","g":1},
+  {"id":6061183508766,"lat":49.720388,"lon":8.484121,"k":"p","n":"Groß-Rohrheim, Industriestraße","g":1},
+  {"id":6069275213952,"lat":49.719017,"lon":8.489807,"k":"p","n":"Groß-Rohrh., Werner-v.-S.-Str.","g":1},
+  {"id":6072971730706,"lat":49.720423,"lon":8.484193,"k":"p","n":"Groß-Rohrheim, Industriestraße","g":1},
+  {"id":6077454523016,"lat":49.713389,"lon":8.476665,"k":"p","n":"Groß-Rohrh., Bahnhof Ostseite","g":1},
+  {"id":6091662840024,"lat":49.719168,"lon":8.489295,"k":"p","n":"Groß-Rohrh., Werner-v.-S.-Str.","g":1}
+],
+"routes":[
+  {"id":11058129,"t":{"ref":"44","name":"Bus 44: Klein-Rohrheim => Gernsheim","from":"Klein-Rohrheim","to":"Gernsheim Johannes-Gutenberg-Schule","network":"Rhein-Main-Verkehrsverbund","operator":"Müller","route":"bus","public_transport:version":"2"},"n":6,"s":[[2242721241,1],[380693839,2],[4968864663,3]]},
+  {"id":11058130,"t":{"ref":"44","name":"Bus 44: Gernsheim => Klein-Rohrheim","from":"Gernsheim Johannes-Gutenberg-Schule","to":"Klein-Rohrheim","network":"Rhein-Main-Verkehrsverbund","operator":"Müller","route":"bus","public_transport:version":"2"},"n":6,"s":[[2242721243,5],[2242721240,6]]},
+  {"id":3003293776675,"t":{"ref":"49","name":"49: Gernsheim Bahnhof - Gernsheim-Allmendfeld Frankenfelder Weg","from":"Gernsheim Bahnhof","to":"Gernsheim-Allmendfeld Frankenfelder Weg","operator":"Müller Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":16,"s":[[4968864663,4]]},
+  {"id":3008988621989,"t":{"ref":"645","name":"645: Bensheim, Bahnhof - Biblis, Gewerbegebiet Nord","from":"Bensheim, Bahnhof","to":"Biblis, Gewerbegebiet Nord","operator":"Zarth GmbH2","route":"bus","public_transport:version":"2"},"n":25,"s":[[6091662840024,15],[6072971730706,16],[6043216750118,17],[1494197404,18]]},
+  {"id":3012455935999,"t":{"ref":"490","name":"Bus 490: Alsbach Am Hinkelstein => Klein-Rohrheim","from":"Alsbach Am Hinkelstein","to":"Klein-Rohrheim","network":"Rhein-Main-Verkehrsverbund","operator":"LNVG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2242721243,11],[2242721240,12]]},
+  {"id":3024618069684,"t":{"ref":"490","name":"Bus 490: Klein-Rohrheim => Alsbach Am Hinkelstein","from":"Klein-Rohrheim","to":"Alsbach Am Hinkelstein","network":"Rhein-Main-Verkehrsverbund","operator":"LNVG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2242721241,1],[380693839,2],[4968864663,3]]},
+  {"id":3034508949670,"t":{"ref":"49","name":"49: Gernsheim-Allmendfeld Frankenfelder Weg - Gernsheim Bahnhof","from":"Gernsheim-Allmendfeld Frankenfelder Weg","to":"Gernsheim Bahnhof","operator":"Müller Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":16,"s":[[4968864663,14]]},
+  {"id":3098682682704,"t":{"ref":"645","name":"645: Biblis, Gewerbegebiet Nord - Bensheim, Bahnhof","from":"Biblis, Gewerbegebiet Nord","to":"Bensheim, Bahnhof","operator":"Zarth GmbH2","route":"bus","public_transport:version":"2"},"n":25,"s":[[6077454523016,8],[6059693031331,9],[6061183508766,10],[6069275213952,11]]}
+]
+}

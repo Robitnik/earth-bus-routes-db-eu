@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2831,3776],
+"stops":[
+  {"id":539744658,"lat":51.596078,"lon":8.802326,"k":"p","n":"Atteln, Post"},
+  {"id":539744661,"lat":51.596277,"lon":8.802604,"k":"p","n":"Atteln, Post"},
+  {"id":736952545,"lat":51.566197,"lon":8.838718,"k":"p","n":"Dalheim, Mitte"},
+  {"id":1941645056,"lat":51.593158,"lon":8.814431,"k":"p","n":"Lichtenau-Husen, Sägewerk"},
+  {"id":1941645057,"lat":51.593183,"lon":8.814856,"k":"p","n":"Lichtenau-Husen, Sägewerk"},
+  {"id":2012446386,"lat":51.589399,"lon":8.828482,"k":"p","n":"Lichtenau-Husen, Kirche"},
+  {"id":2131632877,"lat":51.596547,"lon":8.805375,"k":"p","n":"Atteln, Neue Straße"},
+  {"id":2132319845,"lat":51.589513,"lon":8.830391,"k":"p","n":"Lichtenau-Husen, Sportplatz"},
+  {"id":3534004625,"lat":51.556179,"lon":8.829697,"k":"p","n":"Aussiedlerhof"},
+  {"id":3534004626,"lat":51.556185,"lon":8.829629,"k":"x","n":"Aussiedlerhof"},
+  {"id":3538792697,"lat":51.596344,"lon":8.805691,"k":"p","n":"Atteln, Neue Straße"},
+  {"id":3538792703,"lat":51.588879,"lon":8.835553,"k":"p","n":"Lichtenau-Husen, Siedlung"},
+  {"id":3538792704,"lat":51.589251,"lon":8.834006,"k":"p","n":"Lichtenau-Husen, Siedlung"},
+  {"id":6751251665,"lat":51.594531,"lon":8.80098,"k":"p","n":"Lichtenau-Atteln, Wendeplatz"},
+  {"id":10857900612,"lat":51.566162,"lon":8.838729,"k":"x","n":"Dalheim, Mitte"}
+],
+"routes":[
+  {"id":1751694,"t":{"ref":"419","name":"Bus 419: Büren => Haaren => Henglarn => Dalheim","from":"Büren","to":"Dalheim","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[539744658,14],[736952545,15]]},
+  {"id":9904289,"t":{"ref":"471","name":"Bus 471: Lichtenau-Dahlheim => Paderborn","from":"Lichtenau-Dalheim","to":"Paderborn","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[736952545,1],[3538792704,2],[2132319845,3],[1941645057,4],[2131632877,5],[539744661,6]]},
+  {"id":16143541,"t":{"ref":"471","name":"Bus 471: Lichtenau-Ebbinghausen => Paderborn-Elsen","from":"Lichtenau-Ebbinghausen","to":"Paderborn-Elsen","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[539744661,2]]},
+  {"id":16143542,"t":{"ref":"471","name":"Bus 471: Lichtenau-Atteln => Paderborn","from":"Lichtenau-Atteln","to":"Paderborn","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":28,"s":[[6751251665,1]]},
+  {"id":16146238,"t":{"ref":"471","name":"Bus 471: Paderborn-Elsen => Lichtenau-Atteln","from":"Paderborn-Elsen","to":"Lichtenau-Atteln","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6751251665,23]]},
+  {"id":16146239,"t":{"ref":"471","name":"Bus 471: Paderborn-Elsen => Lichtenau-Ebbinghausen","from":"Paderborn-Elsen","to":"Lichtenau-Ebbinghausen","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[539744658,23]]},
+  {"id":16146241,"t":{"ref":"471","name":"Bus 471: Paderborn => Lichtenau-Dalheim","from":"Paderborn","to":"Lichtenau-Dalheim","network":"WestfalenTarif","operator":"BVO Busverkehr Ostwestfalen GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[539744658,28],[3538792697,29],[1941645056,30],[2012446386,31],[3538792703,32],[736952545,33]]},
+  {"id":3008116488726,"t":{"ref":"481","name":"481: Lichtenau, Grundschule - Li-Dalheim, Mitte","from":"Lichtenau, Grundschule","to":"Li-Dalheim, Mitte","operator":"nph-Linienbündel 07","route":"bus","public_transport:version":"2"},"n":13,"s":[[539744661,6],[6751251665,7],[539744658,8],[3538792697,9],[1941645056,10],[2012446386,11],[3538792703,12],[10857900612,13]]},
+  {"id":3019158661184,"t":{"ref":"419","name":"419: Büren, Lindenstraße - Bad Wünnenberg, Eilern","from":"Büren, Lindenstraße","to":"Bad Wünnenberg, Eilern","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":27,"s":[[539744658,18],[3538792697,19],[1941645056,20],[2012446386,21],[3538792703,22],[10857900612,23],[3534004625,24]]},
+  {"id":3054561315181,"t":{"ref":"NE13","name":"NE13: Paderborn, Westerntor - Lichtenau, Stadtmitte","from":"Paderborn, Westerntor","to":"Lichtenau, Stadtmitte","operator":"nph-NachtExpress","route":"bus","public_transport:version":"2"},"n":23,"s":[[3538792697,14],[1941645056,15],[2012446386,16],[3538792703,17]]},
+  {"id":3081752334556,"t":{"ref":"R71","name":"R71: Li-Atteln, Wendeplatz - Paderborn, Hauptbahnhof","from":"Li-Atteln, Wendeplatz","to":"Paderborn, Hauptbahnhof","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":22,"s":[[6751251665,1]]},
+  {"id":3093718780444,"t":{"ref":"NE15","name":"Bus NE15: Paderborn => Borchen => Lichtenau-Atteln","from":"Paderborn","to":"Lichtenau-Atteln","network":"WestfalenTarif","operator":"go.on - Gesellschaft für Bus- und Schienenverkehr mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6751251665,23]]},
+  {"id":3093950697765,"t":{"ref":"484","name":"484: Li-Atteln, Grundschule - Lichtenau, Stadtmitte","from":"Li-Atteln, Grundschule","to":"Lichtenau, Stadtmitte","operator":"nph-Linienbündel 07","route":"bus","public_transport:version":"2"},"n":12,"s":[[6751251665,2],[539744658,3],[3538792697,4],[1941645056,5],[2012446386,6],[3538792703,7],[10857900612,8],[3534004625,9]]},
+  {"id":3095812573443,"t":{"ref":"R71","name":"R71: Paderborn, Hauptbahnhof - Li-Atteln, Wendeplatz","from":"Paderborn, Hauptbahnhof","to":"Li-Atteln, Wendeplatz","operator":"nph-Linienbündel 06","route":"bus","public_transport:version":"2"},"n":22,"s":[[6751251665,22]]}
+]
+}

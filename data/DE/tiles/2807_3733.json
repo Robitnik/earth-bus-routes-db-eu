@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2807,3733],
+"stops":[
+  {"id":332136639,"lat":50.356471,"lon":6.680125,"k":"x","n":"Mirbach"},
+  {"id":760432291,"lat":50.395482,"lon":6.678126,"k":"p","n":"Hüngersdorf Esser"},
+  {"id":760432292,"lat":50.394517,"lon":6.680586,"k":"p","n":"Hüngersdorf Schule"},
+  {"id":760432368,"lat":50.387224,"lon":6.660161,"k":"p","n":"Eldorfer Straße"},
+  {"id":760432369,"lat":50.387342,"lon":6.661072,"k":"p","n":"Eldorfer Straße"},
+  {"id":760432534,"lat":50.385802,"lon":6.655685,"k":"x","n":"Ripsdorf Kirche"},
+  {"id":760432535,"lat":50.385987,"lon":6.656026,"k":"x","n":"Ripsdorf Kirche"},
+  {"id":760432916,"lat":50.384072,"lon":6.652134,"k":"p","n":"Loheweg"},
+  {"id":1383417949,"lat":50.385014,"lon":6.656989,"k":"p","n":"Ripsdorf Schule"},
+  {"id":10875974478,"lat":50.385949,"lon":6.656063,"k":"p","n":"Ripsdorf Kirche"},
+  {"id":10875974479,"lat":50.385846,"lon":6.655619,"k":"p","n":"Ripsdorf Kirche"},
+  {"id":10875974480,"lat":50.356501,"lon":6.680066,"k":"p","n":"Mirbach"},
+  {"id":10915419622,"lat":50.387396,"lon":6.661025,"k":"x","n":"Eldorfer Straße"},
+  {"id":10915419623,"lat":50.387156,"lon":6.660211,"k":"x","n":"Eldorfer Straße"}
+],
+"routes":[
+  {"id":11612249,"t":{"ref":"770","name":"Wanderbus 770: Kall => Mirbach","from":"Kall Bahnhof","to":"Mirbach","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":9,"s":[[10875974480,9]]},
+  {"id":14187437,"t":{"ref":"770","name":"Wanderbus 770: Mirbach=> Kall","from":"Mirbach","to":"Kall Bahnhof","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":11,"s":[[10875974480,1],[10875974478,3]]},
+  {"id":15882088,"t":{"ref":"833","name":"Bus 833: Blankenheim => Waldorf","from":"Blankenheim Busbf","to":"Waldorf 2","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":10,"s":[[10875974479,6],[760432916,7]]},
+  {"id":19994776,"t":{"ref":"539 RufBus","name":"Linden Reisen 539 RufBus","from":"Mirbach, Bürgerhaus","to":"Hillesheim, ZOB","network":"VRT","operator":"VRT","route":"bus"},"n":14,"s":[[332136639,1],[10875974480,14]]},
+  {"id":19994965,"t":{"ref":"549 RufBus","name":"Linden Reisen 549 RufBus","from":"Mirbach, Bürgerhaus","to":"Jünkerath, Gr. von Mand. Str.","network":"VRT","operator":"VRT","route":"bus"},"n":18,"s":[[10875974480,1],[332136639,2]]},
+  {"id":3007583883230,"t":{"ref":"833","name":"Bus 833: Blankenheim => Dollendorf","from":"Blankenheim Finkenberg Schulzentrum","to":"Dollendorf Schule","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":16,"s":[[760432291,6,9],[760432292,8],[10915419623,10],[10875974479,11],[760432916,12],[1383417949,13]]},
+  {"id":3017727327775,"t":{"ref":"833","name":"Bus 833: Dollendorf => Blankenheim","from":"Dollendorf Schule","to":"Blankenheim Finkenberg Schulzentrum","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":13,"s":[[1383417949,4],[760432916,5],[10875974479,6],[760432369,7],[760432291,8]]},
+  {"id":3023836176580,"t":{"ref":"833","name":"Bus 833: Blankenheim => Dollendorf","from":"Blankenheim Finkenberg Schulzentrum","to":"Dollendorf Schule","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":22,"s":[[760432291,12,15],[760432292,14],[10915419623,16],[10875974479,17],[760432916,18],[1383417949,19]]},
+  {"id":3036847465294,"t":{"ref":"549 RufBus","name":"549 RufBus: Stadtkyll, Schwammertstraße - Stadtkyll, Schwammertstraße","from":"Stadtkyll, Schwammertstraße","to":"Stadtkyll, Schwammertstraße","operator":"Linden Reisen","route":"bus","public_transport:version":"2"},"n":25,"s":[[10875974480,11]]},
+  {"id":3047257871775,"t":{"ref":"833","name":"Bus 833: Dollendorf => Blankenheim","from":"Dollendorf Schule","to":"Blankenheim Finkenberg Schulzentrum","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":19,"s":[[1383417949,4],[760432916,5],[10875974479,6],[760432369,7],[760432291,8]]},
+  {"id":3065557242705,"t":{"ref":"549 RufBus","name":"549 RufBus: Stadtkyll, Schwammertstraße - Stadtkyll, Schwammertstraße","from":"Stadtkyll, Schwammertstraße","to":"Stadtkyll, Schwammertstraße","operator":"Linden Reisen","route":"bus","public_transport:version":"2"},"n":25,"s":[[10875974480,15]]},
+  {"id":3068016316284,"t":{"ref":"833","name":"Bus 833: Blankenheim => Dollendorf","from":"Blankenheim Finkenberg Schulzentrum","to":"Dollendorf Schule","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":14,"s":[[760432292,7],[760432291,8],[10915419623,9],[10875974479,10],[760432916,11]]},
+  {"id":3079936685807,"t":{"ref":"833","name":"Bus 833: Blankenheim => Dollendorf","from":"Blankenheim Finkenberg Schulzentrum","to":"Dollendorf Schule","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":14,"s":[[760432292,6],[760432291,7],[10915419623,8],[10875974479,9],[760432916,10],[1383417949,11]]},
+  {"id":3080772701472,"t":{"ref":"833","name":"Bus 833: Blankenheim => Dollendorf","from":"Blankenheim Finkenberg Schulzentrum","to":"Dollendorf Schule","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":20,"s":[[760432292,12],[760432291,13],[10915419623,14],[10875974479,15],[760432916,16],[1383417949,17]]},
+  {"id":3097541524530,"t":{"ref":"833","name":"Bus 833: Waldorf => Blankenheim","from":"Waldorf 2","to":"Blankenheim Busbf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":13,"s":[[760432916,4],[10875974479,5]]},
+  {"id":3097595767213,"t":{"ref":"833","name":"Bus 833: Waldorf => Blankenheim","from":"Waldorf 2","to":"Blankenheim Busbf","network":"VRS","operator":"RVK","route":"bus","public_transport:version":"2"},"n":12,"s":[[10875974479,8],[760432916,9]]}
+]
+}

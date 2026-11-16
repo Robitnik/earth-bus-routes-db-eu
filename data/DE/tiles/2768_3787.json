@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2768,3787],
+"stops":[
+  {"id":27590122,"lat":48.43132,"lon":9.380691,"k":"x","n":"Gächingen Rathaus"},
+  {"id":264496106,"lat":48.400038,"lon":9.370102,"k":"x","n":"Offenhausen"},
+  {"id":283339761,"lat":48.429077,"lon":9.38585,"k":"x","n":"Gächingen Eichberg"},
+  {"id":568142158,"lat":48.439775,"lon":9.370877,"k":"x","n":"Lonsingen Mitte"},
+  {"id":568142165,"lat":48.429119,"lon":9.386708,"k":"p"},
+  {"id":568142168,"lat":48.429136,"lon":9.385857,"k":"p","n":"Gächingen Eichberg"},
+  {"id":1992093242,"lat":48.43161,"lon":9.380469,"k":"p","n":"Gächingen Rathaus"},
+  {"id":3771539279,"lat":48.431555,"lon":9.380532,"k":"x","n":"Gächingen Rathaus"},
+  {"id":9451194780,"lat":48.439769,"lon":9.370975,"k":"p","n":"Lonsingen Mitte"},
+  {"id":9451194805,"lat":48.431251,"lon":9.380698,"k":"p","n":"Gächingen Rathaus"},
+  {"id":9451194807,"lat":48.429167,"lon":9.386597,"k":"x","n":"Gächingen Eichberg"},
+  {"id":9451194809,"lat":48.426348,"lon":9.398622,"k":"x","n":"Tiefental"},
+  {"id":9451194810,"lat":48.426285,"lon":9.39859,"k":"p","n":"Tiefental"},
+  {"id":9451194811,"lat":48.426245,"lon":9.399253,"k":"x","n":"Tiefental"},
+  {"id":9451194812,"lat":48.426265,"lon":9.399267,"k":"p","n":"Tiefental"},
+  {"id":5000044809882,"lat":48.429098,"lon":9.386586,"k":"p","n":"Gächingen Eichberg"},
+  {"id":5000044809883,"lat":48.429145,"lon":9.386036,"k":"p","n":"Gächingen Eichberg"},
+  {"id":5000045147704,"lat":48.400091,"lon":9.370162,"k":"p","n":"Offenhausen","ref":"7606"}
+],
+"routes":[
+  {"id":337854,"t":{"ref":"107","name":"DE_naldo_107_Gomadingen => Gächingen","from":"Gomadingen Rathaus","to":"Gächingen Rathaus","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Omnibusverkehr Stoss GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[9451194805,2]]},
+  {"id":338921,"t":{"ref":"107","name":"DE_naldo_107_Gächingen => Gomadingen","from":"Gächingen","to":"Gomadingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"Omnibusverkehr Stoss GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[1992093242,1]]},
+  {"id":3002237172089,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":21,"s":[[9451194811,10],[568142168,11],[1992093242,12],[568142158,13]]},
+  {"id":3005655090396,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Trailfingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":16,"s":[[568142158,2],[27590122,3],[9451194807,4],[9451194810,5]]},
+  {"id":3024036810819,"t":{"ref":"7643","name":"DE_naldo_7643_Bad Urach => Trailfingen => Münsingen","from":"Bad Urach","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":23,"s":[[568142158,9],[27590122,10],[9451194807,11],[9451194810,12]]},
+  {"id":3039939829965,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Trailfingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":17,"s":[[9451194811,13],[568142168,14],[1992093242,15],[568142158,16]]},
+  {"id":3042513742801,"t":{"ref":"7643","name":"DE_naldo_7643_Münsingen => Bad Urach","from":"Münsingen Bahnhof","to":"Bad Urach Busbahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":22,"s":[[9451194811,10],[568142168,11],[1992093242,12],[568142158,13]]},
+  {"id":3068672257755,"t":{"ref":"7643","name":"DE_naldo_7643_Bad Urach => Münsingen","from":"Bad Urach","to":"Münsingen Bahnhof","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#62308E","route":"bus","public_transport:version":"2"},"n":20,"s":[[568142158,9],[27590122,10],[9451194807,11],[9451194810,12]]},
+  {"id":3075115346536,"t":{"ref":"7606","name":"DE_naldo_7606_02: Reutlingen => Engstingen => Münsingen","from":"Reutlingen","to":"Münsingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#E72F2D","route":"bus","public_transport:version":"2"},"n":28,"s":[[264496106,22]]},
+  {"id":3084425556775,"t":{"ref":"7644","name":"7644: Eningen Eitlinger Str. - Gächingen Rathaus","from":"Eningen Eitlinger Str.","to":"Gächingen Rathaus","operator":"zz_Wenner Fahrservice","route":"bus","public_transport:version":"2"},"n":9,"s":[[568142158,8],[1992093242,9]]},
+  {"id":3088818857022,"t":{"ref":"7606","name":"DE_naldo_7606_02: Reutlingen => Engstingen => Münsingen","from":"Reutlingen","to":"Münsingen","network":"Verkehrsverbund Neckar-Alb-Donau","operator":"DB ZugBus Regionalverkehr Alb-Bodensee GmbH","colour":"#E72F2D","route":"bus","public_transport:version":"2"},"n":25,"s":[[264496106,21]]}
+]
+}

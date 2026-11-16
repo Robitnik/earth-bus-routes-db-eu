@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2795,3810],
+"stops":[
+  {"id":298132891,"lat":49.770153,"lon":10.51374,"k":"x","n":"Wasserberndorf Hutzelmühle"},
+  {"id":307453959,"lat":49.775658,"lon":10.544793,"k":"x","n":"Hohn am Berg"},
+  {"id":377602359,"lat":49.77332,"lon":10.535139,"k":"x","n":"Holzberndorf Am See"},
+  {"id":701253012,"lat":49.769115,"lon":10.526848,"k":"p","n":"Wasserberndorf Kriegerdenkmal"},
+  {"id":701253021,"lat":49.768057,"lon":10.54658,"k":"p","n":"Wasserberndorf Seramsmühle"},
+  {"id":701253033,"lat":49.768145,"lon":10.546558,"k":"p","n":"Wasserberndorf Seramsmühle"},
+  {"id":991442910,"lat":49.769068,"lon":10.526766,"k":"x","n":"Wasserberndorf Kriegerdenkmal"},
+  {"id":991443007,"lat":49.770202,"lon":10.5137,"k":"p","n":"Wasserberndorf Hutzelmühle"},
+  {"id":991443083,"lat":49.770092,"lon":10.513925,"k":"p","n":"Wasserberndorf Hutzelmühle"},
+  {"id":1073536281,"lat":49.795452,"lon":10.512863,"k":"x"},
+  {"id":1073536334,"lat":49.795456,"lon":10.512519,"k":"p","n":"Ilmenau (Geiselwind) Gemeinschaftshaus"},
+  {"id":1106253425,"lat":49.7821,"lon":10.52293,"k":"x"},
+  {"id":1106253518,"lat":49.782054,"lon":10.522972,"k":"p","n":"Burggrub (bei Geiselwind) Am Brunnen"},
+  {"id":1106264140,"lat":49.775623,"lon":10.544877,"k":"p","n":"Hohn am Berg"},
+  {"id":1106264189,"lat":49.773318,"lon":10.534924,"k":"p","n":"Holzberndorf Am See"},
+  {"id":1263997599,"lat":49.768096,"lon":10.54654,"k":"x"},
+  {"id":5940543714,"lat":49.781922,"lon":10.507162,"k":"x","n":"Neugrub Am Spielplatz"},
+  {"id":6700350670,"lat":49.781982,"lon":10.507157,"k":"p","n":"Neugrub Am Spielplatz"},
+  {"id":7572311962,"lat":49.761958,"lon":10.503691,"k":"p","n":"Hohnsberg Dorfplatz"},
+  {"id":7572311963,"lat":49.761913,"lon":10.50375,"k":"x","n":"Hohnsberg Dorfplatz"},
+  {"id":9319393293,"lat":49.782136,"lon":10.522963,"k":"p","n":"Burggrub (bei Geiselwind) Am Brunnen"},
+  {"id":9319553371,"lat":49.77335,"lon":10.535272,"k":"p","n":"Holzberndorf Am See"}
+],
+"routes":[
+  {"id":1244823,"t":{"ref":"992","name":"DE_VGN_992_1_01: Hohn am Berg => Ebrach Realschule","from":"Hohn am Berg","to":"Ebrach Realschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1106264140,1],[701253033,4],[1106264189,5],[1106253518,6],[1073536334,7]]},
+  {"id":1244834,"t":{"ref":"992","name":"DE_VGN_992_2_03: Ebrach Realschule => Rambach (bei Schlüsselfeld) => Hohn am Berg","from":"Ebrach Realschule","to":"Hohn am Berg","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[1073536334,5],[1106253518,6],[1106264189,7],[701253021,8],[1106264140,15]]},
+  {"id":1244844,"t":{"ref":"992","name":"DE_VGN_992_2_06: Ebrach Realschule => Hohn am Berg","from":"Ebrach Realschule","to":"Hohn am Berg","network":"Verkehrsverbund Großraum Nürnberg","operator":"Omnibusverkehr Franken GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[1073536334,5],[1106253518,6],[1106264189,7],[701253021,8],[1106264140,11]]},
+  {"id":9906788,"t":{"ref":"999","name":"DE_VGN_999_1_02: Neugrub Am Spielplatz=> Ebrach Realschule","from":"Neugrub Am Spielplatz","to":"Ebrach Realschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"BusClassic GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[6700350670,1],[701253012,2],[991443007,3],[7572311962,4]]},
+  {"id":9906990,"t":{"ref":"999","name":"DE_VGN_999_2_02: Ebrach Realschule => Neugrub Am Spielplatz","from":"Ebrach Realschule","to":"Neugrub Am Spielplatz","network":"Verkehrsverbund Großraum Nürnberg","operator":"BusClassic GmbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[991443007,14],[7572311962,15],[701253012,16],[6700350670,17]]},
+  {"id":12227314,"t":{"ref":"999","name":"DE_VGN_999_2_05: Ebrach Realschule => Kleingressingen => Neugrub Am Spielplatz","from":"Ebrach Realschule","to":"Neugrub Am Spielplatz","network":"Verkehrsverbund Großraum Nürnberg","operator":"BusClassic GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[991443007,15],[7572311962,16],[701253012,17],[6700350670,18]]},
+  {"id":18383034,"t":{"ref":"309/8309","name":"Bus 309: Wiesentheid Landschulheim => Geiselwind Drei-Franken-Schule","from":"Wiesentheid Landschulheim","to":"Geiselwind Drei-Franken-Schule","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":19,"s":[[701253012,13],[9319553371,14],[9319393293,15],[1073536334,16]]},
+  {"id":18383846,"t":{"ref":"144","name":"Bus 144: Wasserberndorf Kriegerdenkmal => Scheinfeld Post","from":"Wasserberndorf Kriegerdenkmal","to":"Scheinfeld Post","network":"Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":21,"s":[[701253012,1],[701253021,2]]},
+  {"id":18383876,"t":{"ref":"167","name":"Bus 167: Wasserberndorf Kriegerdenkmal => Scheinfeld Post","from":"Wasserberndorf Kriegerdenkmal","to":"Scheinfeld Post","network":"Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":10,"s":[[701253012,1]]},
+  {"id":18623274,"t":{"ref":"167","name":"Bus 167: Scheinfeld Post => Wasserberndorf Kriegerdenkmal","from":"Scheinfeld Post","to":"Wasserberndorf Kriegerdenkmal","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":19,"s":[[701253012,19]]},
+  {"id":18626484,"t":{"ref":"144","name":"Bus 144: Scheinfeld Berufsbildungsz. => Wasserberndorf Kriegerdenkmal","from":"Scheinfeld Berufsbildungsz.","to":"Wasserberndorf Kriegerdenkmal","network":"Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":20,"s":[[701253012,20]]},
+  {"id":18628054,"t":{"ref":"167","name":"Bus 167: Scheinfeld Post => Rehweiler => Wasserberndorf Kriegerdenkmal","from":"Scheinfeld Post","to":"Wasserberndorf Kriegerdenkmal","network":"Nahverkehr Mainfranken;Verkehrsverbund Großraum Nürnberg","route":"bus","public_transport:version":"2"},"n":18,"s":[[701253012,18]]}
+]
+}

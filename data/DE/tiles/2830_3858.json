@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2830,3858],
+"stops":[
+  {"id":430374085,"lat":51.528254,"lon":12.937006,"k":"p","n":"Melpitz, Dorfstraße"},
+  {"id":430374086,"lat":51.528192,"lon":12.937069,"k":"p","n":"Melpitz, Dorfstraße"},
+  {"id":563659665,"lat":51.516369,"lon":12.906965,"k":"p","n":"Klitzschen Dorfanger - Mockrehna"},
+  {"id":979754397,"lat":51.517951,"lon":12.904761,"k":"p","n":"Klitzschen, Gräfendorfer Weg"},
+  {"id":4398172238,"lat":51.528271,"lon":12.937328,"k":"p","n":"Melpitz (Torgau)"},
+  {"id":4399849575,"lat":51.516544,"lon":12.907552,"k":"p","n":"Klitzschen, Dorfanger"},
+  {"id":4399849587,"lat":51.516653,"lon":12.907347,"k":"p","n":"Klitzschen, Dorfanger"},
+  {"id":7286580748,"lat":51.518026,"lon":12.904668,"k":"x","n":"Klitzschen, Gräfendorfer Weg"},
+  {"id":7286580825,"lat":51.518094,"lon":12.904555,"k":"p","n":"Klitzschen, Gräfendorfer Weg"}
+],
+"routes":[
+  {"id":324692,"t":{"ref":"755","name":"Bus 755: Torgau <> Eilenburg","network":"Mitteldeutscher Verkehrsverbund","operator":"OVH","route":"bus","public_transport:version":"1"},"n":10,"s":[[430374085,7],[430374086,8],[563659665,9]]},
+  {"id":10844097,"t":{"ref":"753","name":"Bus 753: Schildau => Klitzschen => Mockrena","from":"Schildau","to":"Mockrehna Schule","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":6,"s":[[7286580825,5]]},
+  {"id":3064679214446,"t":{"ref":"755","name":"755: Torgau, Bahnhof (Bus) - Mockrehna, Schule","from":"Torgau, Bahnhof (Bus)","to":"Mockrehna, Schule","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":16,"s":[[430374086,7],[4399849587,8],[7286580748,9]]},
+  {"id":3079958729966,"t":{"ref":"753","name":"Bus 753: Mockrena => Klitzschen => Schildau","from":"Mockrena Schule","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":15,"s":[[979754397,9]]},
+  {"id":3089997682527,"t":{"ref":"753","name":"Bus 753: Mockrena => Klitzschen => Schildau","from":"Mockrena Schule","to":"Schildau","network":"Mitteldeutscher Verkehrsverbund","operator":"OHV","route":"bus","public_transport:version":"2"},"n":8,"s":[[7286580748,6]]},
+  {"id":3095564232448,"t":{"ref":"755","name":"755: Mockrehna, Schule - Torgau, Bahnhof (Bus)","from":"Mockrehna, Schule","to":"Torgau, Bahnhof (Bus)","operator":"Nordsachsen Mobil","route":"bus","public_transport:version":"2"},"n":13,"s":[[4399849575,5],[4398172238,6]]}
+]
+}

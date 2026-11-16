@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2787,3802],
+"stops":[
+  {"id":1586051758,"lat":49.354206,"lon":10.111071,"k":"p","n":"Bossendorf Ort"},
+  {"id":1586106331,"lat":49.360937,"lon":10.128054,"k":"p","n":"Schnepfendorf"},
+  {"id":4811158983,"lat":49.366483,"lon":10.10668,"k":"p","n":"Enzenweiler Ort"},
+  {"id":4811158984,"lat":49.35432,"lon":10.10989,"k":"p","n":"Bossendorf Kreuzung"},
+  {"id":4811158985,"lat":49.354102,"lon":10.11118,"k":"p","n":"Bossendorf Ort"},
+  {"id":5328153723,"lat":49.392951,"lon":10.116377,"k":"p","n":"Schwarzenbronn Ort"},
+  {"id":5328153724,"lat":49.392522,"lon":10.117544,"k":"p","n":"Schwarzenbronn Ort"},
+  {"id":5328153725,"lat":49.390842,"lon":10.137208,"k":"p","n":"Reutsachsen Ort"},
+  {"id":6720143745,"lat":49.362099,"lon":10.146555,"k":"p","n":"Brundorf Abzweig"},
+  {"id":6720143746,"lat":49.362033,"lon":10.146295,"k":"p","n":"Brundorf Abzweig"},
+  {"id":9698474205,"lat":49.359588,"lon":10.143259,"k":"p","n":"Abzw. Burgstall (b. Rothenb.)"},
+  {"id":9716346104,"lat":49.381289,"lon":10.148594,"k":"p","n":"Vorbach (b. Rothenburg o.d.T.)"},
+  {"id":9716752051,"lat":49.384085,"lon":10.142211,"k":"p","n":"Vorbach Abzw. Reutsachsen"},
+  {"id":9902059632,"lat":49.368435,"lon":10.139717,"k":"p","n":"Brundorf"},
+  {"id":9915364047,"lat":49.380956,"lon":10.134936,"k":"p","n":"Hemmendorf"},
+  {"id":9917024338,"lat":49.373606,"lon":10.130032,"k":"p","n":"Leuzenbronn"},
+  {"id":6067229864576,"lat":49.390449,"lon":10.137757,"k":"p","n":"Reutsachsen, Ort","g":1},
+  {"id":6094338364498,"lat":49.390619,"lon":10.137802,"k":"p","n":"Reutsachsen, Ort","g":1}
+],
+"routes":[
+  {"id":9927660,"t":{"ref":"102","name":"Bus 102: Schrozberg => Schrozberg","from":"Schrozberg ZOB","to":"Schrozberg ZOB","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":18,"s":[[4811158983,9],[4811158984,10]]},
+  {"id":9935013,"t":{"ref":"101","name":"Bus 101: Schrozberg => Rothenburg","from":"Schrozberg ZOB","to":"Rothenburg ob der Tauber Bahnhof","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":14,"s":[[4811158985,6],[6720143745,7]]},
+  {"id":9938548,"t":{"ref":"101","name":"Bus 101: Rothenburg => Schrozberg","from":"Rothenburg Obere Kaiserstraße","to":"Schrozberg ZOB","network":"KreisVerkehr Schwäbisch Hall","operator":"Röhler","route":"bus","public_transport:version":"2"},"n":25,"s":[[6720143746,6],[1586051758,7],[4811158983,8]]},
+  {"id":3009918918202,"t":{"ref":"9870","name":"9870: Creglingen, ZOB - Reutsachsen, Ort","from":"Creglingen, ZOB","to":"Reutsachsen, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":15,"s":[[5328153723,14],[6067229864576,15]]},
+  {"id":3010368223079,"t":{"ref":"9870","name":"9870: Rothenburg ob der Tauber - Creglingen, ZOB","from":"Rothenburg ob der Tauber","to":"Creglingen, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[6094338364498,7],[5328153723,8]]},
+  {"id":3025787179644,"t":{"ref":"9870","name":"9870: Creglingen, ZOB - Rothenburg ob der Tauber","from":"Creglingen, ZOB","to":"Rothenburg ob der Tauber","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":21,"s":[[5328153723,14],[6067229864576,15]]},
+  {"id":3055070663954,"t":{"ref":"9870","name":"9870: Reutsachsen, Ort - Creglingen, ZOB","from":"Reutsachsen, Ort","to":"Creglingen, ZOB","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":15,"s":[[6094338364498,1],[5328153723,2]]},
+  {"id":3085622417669,"t":{"ref":"9870","name":"9870: Creglingen, ZOB - Reutsachsen, Ort","from":"Creglingen, ZOB","to":"Reutsachsen, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":14,"s":[[5328153723,13],[6067229864576,14]]}
+]
+}

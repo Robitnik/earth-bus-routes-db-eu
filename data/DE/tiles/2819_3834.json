@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2819,3834],
+"stops":[
+  {"id":306589367,"lat":50.961331,"lon":11.744214,"k":"x","n":"Poxdorf"},
+  {"id":3839665249,"lat":50.9922,"lon":11.716244,"k":"p","n":"Tautenburg"},
+  {"id":4365182062,"lat":50.966684,"lon":11.701375,"k":"p","n":"Löberschütz Wartehalle"},
+  {"id":7909928575,"lat":50.992226,"lon":11.716159,"k":"x","n":"Tautenburg"},
+  {"id":12691194060,"lat":50.956758,"lon":11.720641,"k":"x","n":"Graitschen bei Bürgel"},
+  {"id":12691194061,"lat":50.956744,"lon":11.720576,"k":"p","n":"Graitschen bei Bürgel"},
+  {"id":12691194062,"lat":50.956962,"lon":11.72065,"k":"p","n":"Graitschen bei Bürgel"},
+  {"id":12691194064,"lat":50.956949,"lon":11.720583,"k":"x","n":"Graitschen bei Bürgel"},
+  {"id":12691194065,"lat":50.960514,"lon":11.71878,"k":"p","n":"Graitschen bei Bürgel, Gasthaus"},
+  {"id":12691194066,"lat":50.960529,"lon":11.718827,"k":"x","n":"Graitschen bei Bürgel, Gasthaus"},
+  {"id":12691205871,"lat":50.961368,"lon":11.74425,"k":"p","n":"Poxdorf"},
+  {"id":12691263102,"lat":50.966762,"lon":11.701306,"k":"p","n":"Löberschütz Wartehalle"},
+  {"id":12691263103,"lat":50.966727,"lon":11.701348,"k":"x","n":"Löberschütz Wartehalle"}
+],
+"routes":[
+  {"id":12218792,"t":{"ref":"420","name":"Bus 420: Camburg - Jena","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":2,"s":[[7909928575,1],[3839665249,2]]},
+  {"id":12218801,"t":{"ref":"420","name":"Bus 420: Jena - Camburg","from":"Jena, Burgaupark","to":"Camburg, Schießplatz","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":23,"s":[[3839665249,19]]},
+  {"id":12218802,"t":{"ref":"420","name":"Bus 420: Jena - Camburg","from":"Jena, Burgaupark","to":"Camburg, Schießplatz","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":29,"s":[[3839665249,21]]},
+  {"id":18878289,"t":{"ref":"431","name":"Bus 431: Kunitz => Bürgel, Wendeschleife","from":"Kunitz","to":"Bürgel, Wendeschleife","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":13,"s":[[4365182062,5],[12691194065,6],[12691194061,7,9],[12691205871,8]]},
+  {"id":18878290,"t":{"ref":"431","name":"Bus 431: Jena, Burgaupark => Bürgel, Wendeschleife","from":"Jena, Burgaupark","to":"Bürgel, Wendeschleife","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":27,"s":[[12691194065,22],[12691194061,23]]},
+  {"id":18878606,"t":{"ref":"432","name":"Bus 432: Beutnitz => Tautenburg","from":"Beutnitz","to":"Tautenburg","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":11,"s":[[3839665249,11]]},
+  {"id":18878607,"t":{"ref":"432","name":"Bus 432: Beutnitz => Dorndorf, Schule => Tautenburg","from":"Beutnitz","to":"Tautenburg","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":12,"s":[[3839665249,12]]},
+  {"id":18878611,"t":{"ref":"432","name":"Bus 432: Tautenburg => Beutnitz","from":"Tautenburg","to":"Beutnitz","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":9,"s":[[3839665249,1]]},
+  {"id":18878928,"t":{"ref":"431","name":"Bus 431: Bürgel, Wendeschleife => Poxdorf => Kunitz","from":"Bürgel, Wendeschleife","to":"Kunitz","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":14,"s":[[12691194062,6,8],[12691205871,7]]},
+  {"id":18878929,"t":{"ref":"431","name":"Bus 431: Bürgel, In den Satteln => Kunitz","from":"Bürgel, In den Satteln","to":"Kunitz","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":13,"s":[[12691194062,7]]},
+  {"id":3008044352070,"t":{"ref":"430","name":"Bus 430: Jena, Busbahnhof => Bürgel, In den Satteln","from":"Jena, Busbahnhof","to":"Bürgel, In den Satteln","network":"Verkehrsverbund Mittelthüringen","operator":"JES","route":"bus","public_transport:version":"2"},"n":23,"s":[[12691194066,17],[12691194060,18]]}
+]
+}

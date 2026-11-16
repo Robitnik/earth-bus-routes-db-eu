@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2808,3743],
+"stops":[
+  {"id":319798531,"lat":50.425644,"lon":7.155261,"k":"x","n":"Engeln Bahnhof, Kempenich"},
+  {"id":1764503447,"lat":50.408149,"lon":7.150948,"k":"p","n":"Weibern Steinmetzbahnhof"},
+  {"id":2008264472,"lat":50.432302,"lon":7.173792,"k":"p","n":"Brenk, Bürgerhaus"},
+  {"id":2008264487,"lat":50.428651,"lon":7.161977,"k":"p","n":"Brenk, Fußhölle"},
+  {"id":2008264488,"lat":50.43262,"lon":7.171319,"k":"p","n":"Brenk, Zum Steinbruch"},
+  {"id":2008264491,"lat":50.442297,"lon":7.189322,"k":"p","n":"Galenberg"},
+  {"id":2714858707,"lat":50.417491,"lon":7.164394,"k":"p","n":"Weibern Alter Güterbahnhof"},
+  {"id":2714858712,"lat":50.416848,"lon":7.17629,"k":"x","n":"Steinbergerhof Abzweig"},
+  {"id":6280468550,"lat":50.42569,"lon":7.154993,"k":"p","n":"Engeln Bahnhof, Kempenich"},
+  {"id":9161307841,"lat":50.412324,"lon":7.152874,"k":"p","n":"Weibern Gewerbegebiet"},
+  {"id":13726054002,"lat":50.412086,"lon":7.152957,"k":"p","n":"Weibern Gewerbegebiet"},
+  {"id":13904163493,"lat":50.416898,"lon":7.176331,"k":"p","n":"Steinbergerhof Abzweig","ref":"B"},
+  {"id":6048775993404,"lat":50.441781,"lon":7.19008,"k":"p","n":"Galenberg Neugasse","g":1},
+  {"id":6060014443868,"lat":50.407975,"lon":7.150212,"k":"p","n":"Weibern Steinmetzbahnhof","g":1}
+],
+"routes":[
+  {"id":20803858,"t":{"ref":"322","name":"Freizeitbus 322: Niedermendig => Kempenich","from":"Niedermendig","to":"Kempenich","network":"VRM","route":"bus","public_transport:version":"2"},"n":11,"s":[[13904163493,10]]},
+  {"id":3014998113563,"t":{"ref":"806","name":"806: Brenk Fußhölle - Niederzissen Busbahnhof","from":"Brenk Fußhölle","to":"Niederzissen Busbahnhof","operator":"Verkehrsbetriebe Mittelrhein AWV","route":"bus","public_transport:version":"2"},"n":7,"s":[[2008264487,1],[2008264488,2],[2008264472,3],[6048775993404,4]]},
+  {"id":3024387119639,"t":{"ref":"805","name":"Bus 805: Kempenich => Niederzissen","from":"Kempenich","to":"Niederzissen","network":"VRM","operator":"VRM","route":"bus","public_transport:version":"2"},"n":20,"s":[[319798531,1],[13726054002,3],[6060014443868,4]]},
+  {"id":3045783587949,"t":{"ref":"805","name":"Bus 805: Kempenich => Niederzissen","from":"Kempenich","to":"Niederzissen","network":"VRM","operator":"VRM","route":"bus","public_transport:version":"2"},"n":19,"s":[[1764503447,17],[13726054002,18],[319798531,19]]},
+  {"id":3063217856820,"t":{"ref":"820","name":"Bus 820 Kempenich-Mayen","from":"Kempenich","to":"Mayen","network":"VRM","operator":"Verkehrsbetriebe Mittelrhein","route":"bus","public_transport:version":"2"},"n":27,"s":[[1764503447,5],[13726054002,6],[2714858712,7]]},
+  {"id":3087758767416,"t":{"ref":"820","name":"Bus 820 Kempenich-Mayen","from":"Kempenich","to":"Mayen","network":"VRM","operator":"Verkehrsbetriebe Mittelrhein","route":"bus","public_transport:version":"2"},"n":24,"s":[[13904163493,18],[13726054002,19],[6060014443868,20]]}
+]
+}

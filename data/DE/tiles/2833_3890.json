@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2833,3890],
+"stops":[
+  {"id":751877895,"lat":51.666498,"lon":14.548999,"k":"x","n":"Mattendorf"},
+  {"id":2084582835,"lat":51.686598,"lon":14.507186,"k":"x","n":"Gablenz, Denkmal"},
+  {"id":2084583043,"lat":51.686921,"lon":14.50756,"k":"x","n":"Gablenz, Denkmal"},
+  {"id":4126346850,"lat":51.699571,"lon":14.500697,"k":"p","n":"Sergen, Kirche"},
+  {"id":4126382763,"lat":51.674786,"lon":14.536734,"k":"p","n":"Hauptstraße"},
+  {"id":5829908518,"lat":51.675567,"lon":14.537216,"k":"p","n":"Trebendorf, Wendeplatz"},
+  {"id":5868533488,"lat":51.677798,"lon":14.522448,"k":"p","n":"Trebendorf, Friedhof"},
+  {"id":6909863677,"lat":51.686968,"lon":14.50771,"k":"p","n":"Gablenz, Denkmal"},
+  {"id":9601773634,"lat":51.699708,"lon":14.500569,"k":"x","n":"Sergen, Kirche"},
+  {"id":9601773635,"lat":51.699703,"lon":14.500469,"k":"p","n":"Sergen, Kirche"},
+  {"id":9601773638,"lat":51.699566,"lon":14.500593,"k":"x","n":"Sergen, Kirche"},
+  {"id":9601773644,"lat":51.677845,"lon":14.522417,"k":"x","n":"Trebendorf, Friedhof"},
+  {"id":9601773645,"lat":51.677887,"lon":14.522382,"k":"p","n":"Trebendorf, Friedhof"},
+  {"id":9896294793,"lat":51.675528,"lon":14.53713,"k":"x","n":"Trebendorf, Wendeplatz"},
+  {"id":5000196677795,"lat":51.666558,"lon":14.548982,"k":"p","n":"Mattendorf"},
+  {"id":5000198310521,"lat":51.686585,"lon":14.507142,"k":"p","n":"Gablenz, Denkmal"}
+],
+"routes":[
+  {"id":2663877,"t":{"ref":"33","name":"Bus 33 (Baumaßnahme OU Cottbus): Cottbus, Hauptbahnhof (2) => Kahren => Koppatz => Komptendorf => Gablenz","from":"Cottbus, Hauptbahnhof","to":"Gablenz, Denkmal","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000198310521,33]]},
+  {"id":2664193,"t":{"ref":"33","name":"Bus 33 (Baumaßnahme OU Cottbus): Gablenz => Komptendorf => Koppatz => Kahren => Cottbus, Hauptbahnhof (2)","from":"Gablenz, Denkmal","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000198310521,1]]},
+  {"id":13956534,"t":{"ref":"849","name":"PlusBus 849: Cottbus Hauptbahnhof => Döbern Deutsches Haus","from":"Cottbus, Hauptbahnhof","to":"Döbern, Deutsches Haus","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":18,"s":[[9601773635,9],[5000198310521,10],[5868533488,11],[5000196677795,12]]},
+  {"id":13956535,"t":{"ref":"849","name":"PlusBus 849: Cottbus Hauptbahnhof => Döbern Deutsches Haus","from":"Cottbus, Hauptbahnhof","to":"Döbern, Deutsches Haus","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":17,"s":[[9601773635,8],[5000198310521,9],[5868533488,10],[5000196677795,11]]},
+  {"id":14015901,"t":{"ref":"857","name":"Bus 857: Klinge => Sergen, Kirche","from":"Klinge","to":"Sergen, Kirche","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":5,"s":[[9601773635,5]]},
+  {"id":14277131,"t":{"ref":"25","name":"Bus 25: Roggosen, Wendeplatz => Cottbus, Hauptbahnhof","from":"Roggosen, Wendeplatz","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[9601773635,5],[5000198310521,6]]},
+  {"id":14366945,"t":{"ref":"34","name":"Bus 34: Laubsdorf, Schule => Kathlow, Mühle","from":"Laubsdorf, Schule","to":"Kathlow, Mühle","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000198310521,9],[5868533488,10],[5829908518,11],[9601773645,12],[6909863677,13],[4126346850,14]]},
+  {"id":14366948,"t":{"ref":"34","name":"Bus 34: Kathlow, Mühle => Laubsdorf, Schule","from":"Kathlow, Mühle","to":"Laubsdorf, Schule","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[9601773635,5],[5000198310521,6]]},
+  {"id":3006935403432,"t":{"ref":"849","name":"PlusBus 849 (BM OU Cottbus): Döbern Deutsches Haus => Cottbus Hauptbahnhof","from":"Döbern, Deutsches Haus","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000196677795,7],[4126382763,8],[9601773645,9],[6909863677,10],[4126346850,11]]},
+  {"id":3009010807284,"t":{"ref":"880","name":"Bus 880: Laubsdorf, Schule => Spremberg, Busbahnhof","from":"Laubsdorf, Schule","to":"Spremberg, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[2084582835,4]]},
+  {"id":3012870430332,"t":{"ref":"849","name":"PlusBus 849 (BM OU Cottbus): Döbern Deutsches Haus => Cottbus Hauptbahnhof","from":"Döbern, Deutsches Haus","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[9601773635,11],[2084582835,12],[5868533488,13],[4126382763,14],[5000196677795,15]]},
+  {"id":3018742206386,"t":{"ref":"849","name":"PlusBus 849 (BM OU Cottbus): Döbern Deutsches Haus => Cottbus Hauptbahnhof","from":"Döbern, Deutsches Haus","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[9601773635,11],[2084582835,12],[5868533488,13],[4126382763,14],[5000196677795,15]]},
+  {"id":3061019826436,"t":{"ref":"849","name":"PlusBus 849 (BM OU Cottbus): Döbern Deutsches Haus => Cottbus Hauptbahnhof","from":"Döbern, Deutsches Haus","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000196677795,7],[4126382763,8],[9601773645,9],[6909863677,10],[4126346850,11]]},
+  {"id":3076908074438,"t":{"ref":"880","name":"Bus 880: Laubsdorf, Schule => Spremberg, Busbahnhof","from":"Laubsdorf, Schule","to":"Spremberg, Busbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Cottbusverkehr GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[2084582835,4]]},
+  {"id":3091356390830,"t":{"ref":"880","name":"880: Spremberg, Busbahnhof - Laubsdorf, Schule","from":"Spremberg, Busbahnhof","to":"Laubsdorf, Schule","operator":"Spree-Neiße-Cottbusverkehr","route":"bus","public_transport:version":"2"},"n":28,"s":[[2084582835,25]]},
+  {"id":3092447705471,"t":{"ref":"849","name":"PlusBus 849 (BM OU Cottbus): Döbern Deutsches Haus => Cottbus Hauptbahnhof","from":"Döbern, Deutsches Haus","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000196677795,7],[4126382763,8],[9601773645,9],[6909863677,10],[4126346850,11]]},
+  {"id":3094526782862,"t":{"ref":"880","name":"880: Spremberg, Busbahnhof - Laubsdorf, Schule","from":"Spremberg, Busbahnhof","to":"Laubsdorf, Schule","operator":"Spree-Neiße-Cottbusverkehr","route":"bus","public_transport:version":"2"},"n":28,"s":[[2084582835,25]]},
+  {"id":3095507297277,"t":{"ref":"849","name":"PlusBus 849 (BM OU Cottbus): Döbern Deutsches Haus => Cottbus Hauptbahnhof","from":"Döbern, Deutsches Haus","to":"Cottbus, Hauptbahnhof","network":"Verkehrsverbund Berlin-Brandenburg","operator":"Spree-Neißebus DB","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000196677795,7],[4126382763,8],[9601773645,9],[6909863677,10],[4126346850,11]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2814,3760],
+"stops":[
+  {"id":310797118,"lat":50.721624,"lon":8.023371,"k":"x","n":"Emmerzhausen Hauptstraße"},
+  {"id":1069959071,"lat":50.721452,"lon":8.023766,"k":"x","n":"Emmerzhausen Hauptstraße"},
+  {"id":11403385350,"lat":50.721722,"lon":8.02348,"k":"p","n":"Emmerzhausen Hauptstraße"},
+  {"id":11403385351,"lat":50.721388,"lon":8.023807,"k":"p","n":"Emmerzhausen Hauptstraße"},
+  {"id":11452140137,"lat":50.715373,"lon":8.000434,"k":"p","n":"Mauden Spichwiese"},
+  {"id":11452140147,"lat":50.715413,"lon":8.000843,"k":"p","n":"Mauden Spichwiese"}
+],
+"routes":[
+  {"id":16812385,"t":{"ref":"277","name":"Bus 277: Daaden => Emmerzhausen => Lippe","from":"Daaden Bf","to":"Lippe Ort","network":"VRM","operator":"Westerwaldbus des Kreises Altenkirchen GmbH","route":"bus","public_transport:version":"2"},"n":8,"s":[[11403385351,6]]},
+  {"id":16812388,"t":{"ref":"277","name":"Bus 277: Lippe => Emmerzhausen => Daaden","from":"Lippe Ort","to":"Daaden Bf","network":"VRM","operator":"Westerwaldbus des Kreises Altenkirchen GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[11403385350,2]]},
+  {"id":16815827,"t":{"ref":"277","name":"Bus 277: Daaden => Emmerzhausen => Nisterberg","from":"Daaden Bf","to":"Nisterberg Buswende","network":"VRM","operator":"Westerwaldbus des Kreises Altenkirchen GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[11403385350,6]]},
+  {"id":16871745,"t":{"ref":"277","name":"Bus 277: Daaden => Emmerzhausen => Mauden => Nisterberg","from":"Daaden Bf","to":"Nisterberg Buswende","network":"VRM","operator":"Westerwaldbus des Kreises Altenkirchen GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[11403385350,6],[11452140137,7]]},
+  {"id":3060214957173,"t":{"ref":"277","name":"Bus 277: Nisterberg => Emmerzhausen => Daaden","from":"Nisterberg Buswende","to":"Daaden Bf","network":"VRM","operator":"Westerwaldbus des Kreises Altenkirchen GmbH","route":"bus","public_transport:version":"2"},"n":12,"s":[[310797118,6]]},
+  {"id":3087795728389,"t":{"ref":"277","name":"Bus 277: Nisterberg => Mauden => Emmerzhausen => Daaden","from":"Nisterberg Buswende","to":"Daaden Bf","network":"VRM","operator":"Westerwaldbus des Kreises Altenkirchen GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[11452140147,7],[310797118,8]]}
+]
+}

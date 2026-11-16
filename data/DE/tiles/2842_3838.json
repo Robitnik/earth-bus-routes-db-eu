@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2842,3838],
+"stops":[
+  {"id":1895059602,"lat":52.140008,"lon":11.901964,"k":"x","n":"Zeddenick"},
+  {"id":1895059606,"lat":52.140056,"lon":11.901961,"k":"p","n":"Zeddenick"},
+  {"id":2721924508,"lat":52.121414,"lon":11.935342,"k":"p","n":"Lütnitz"},
+  {"id":2721924516,"lat":52.12142,"lon":11.935175,"k":"x","n":"Lütnitz"},
+  {"id":2721924522,"lat":52.12147,"lon":11.935293,"k":"x","n":"Lütnitz"},
+  {"id":2721924531,"lat":52.12147,"lon":11.93516,"k":"p","n":"Lütnitz"},
+  {"id":10940627260,"lat":52.11854,"lon":11.913291,"k":"x","n":"Wallwitz"},
+  {"id":10940627261,"lat":52.118546,"lon":11.913231,"k":"p","n":"Wallwitz"},
+  {"id":6059054977728,"lat":52.1411,"lon":11.94748,"k":"p","n":"Möckern (Jerichower Land), Magdeburger Str.","g":1},
+  {"id":6061015382705,"lat":52.14136,"lon":11.947,"k":"p","n":"Möckern (Jerichower Land), Magdeburger Str.","g":1}
+],
+"routes":[
+  {"id":2261622,"t":{"ref":"702","name":"Bus 702: Möckern => Gommern","from":"Möckern","to":"Gommern","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","colour":"#66FFFF","route":"bus","public_transport:version":"2"},"n":10,"s":[[1895059606,2]]},
+  {"id":3041003067757,"t":{"ref":"720","name":"Bus 720: Loburg => Magdeburg","from":"Loburg","to":"Magdeburg","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6061015382705,8],[1895059606,9]]},
+  {"id":3041210659868,"t":{"ref":"720","name":"Bus 720: Magdeburg => Loburg","from":"Magdeburg","to":"Loburg","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[1895059606,13],[6059054977728,14]]},
+  {"id":3047757284381,"t":{"ref":"710","name":"Bus 710: Burg => Wörmlitz => Königsborn => Möckern","from":"Burg, Busbahnhof","to":"Möckern, Bahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[1895059606,20],[6059054977728,21]]},
+  {"id":3066906269453,"t":{"ref":"712","name":"712: Gommern, Busbahnhof - Burg (b. Magdeburg), Busbahnhof","from":"Gommern, Busbahnhof","to":"Burg (b. Magdeburg), Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":24,"s":[[10940627261,5],[2721924508,6]]},
+  {"id":3067813678720,"t":{"ref":"710","name":"Bus 710: Möckern => Königsborn => Wörmlitz => Burg","from":"Möckern, Bahnhof","to":"Burg, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[6061015382705,2],[1895059606,3]]},
+  {"id":3079225146103,"t":{"ref":"720","name":"Bus 720: Magdeburg => Loburg","from":"Magdeburg","to":"Loburg","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[1895059606,14],[6059054977728,15]]},
+  {"id":3085053729798,"t":{"ref":"712","name":"712: Burg (b. Magdeburg), Busbahnhof - Gommern, Busbahnhof","from":"Burg (b. Magdeburg), Busbahnhof","to":"Gommern, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":22,"s":[[2721924516,17],[10940627261,18]]}
+]
+}

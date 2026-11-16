@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2806,3757],
+"stops":[
+  {"id":741094615,"lat":50.315863,"lon":7.85158,"k":"p","n":"Obernhof Bahnhof/Lahnbrücke"},
+  {"id":1675727093,"lat":50.340431,"lon":7.89775,"k":"p","n":"Dörnberg Hütte"},
+  {"id":1675727094,"lat":50.340558,"lon":7.897746,"k":"p","n":"Dörnberg Hütte"},
+  {"id":13831200232,"lat":50.343906,"lon":7.879728,"k":"p","n":"Charlottenberg Rathaus"},
+  {"id":6003194978493,"lat":50.342234,"lon":7.895679,"k":"p","n":"Dörnberg Hütte Nord","g":1},
+  {"id":6011190588688,"lat":50.307565,"lon":7.873015,"k":"p","n":"Seelbach (b. Nassau) Kirchstraße","g":1},
+  {"id":6012196026833,"lat":50.342148,"lon":7.895661,"k":"p","n":"Dörnberg Hütte Nord","g":1},
+  {"id":6015441674089,"lat":50.325559,"lon":7.883498,"k":"p","n":"Dörnberg Weiherstraße","g":1},
+  {"id":6038324758269,"lat":50.349887,"lon":7.895059,"k":"p","n":"Holzappel Bärenbrunnen","g":1},
+  {"id":6064116587748,"lat":50.333943,"lon":7.879123,"k":"p","n":"Dörnberg Birkenhof","g":1},
+  {"id":6075999694396,"lat":50.307513,"lon":7.872988,"k":"p","n":"Seelbach (b. Nassau) Kirchstraße","g":1},
+  {"id":6077349653206,"lat":50.333943,"lon":7.879177,"k":"p","n":"Dörnberg Birkenhof","g":1},
+  {"id":6077776637404,"lat":50.340605,"lon":7.897045,"k":"p","n":"Dörnberg Hütte Süd","g":1}
+],
+"routes":[
+  {"id":2088877,"t":{"ref":"458","name":"Bus 458: Montabaur => Laurenburg","from":"Montabaur","to":"Laurenburg","network":"VRM","operator":"RMV","route":"bus","public_transport:version":"1"},"n":6,"s":[[1675727093,3],[1675727094,4]]},
+  {"id":3004412859427,"t":{"ref":"591","name":"591: Laurenburg Bahnhof - Obernhof (Lahn) Bahnhof/Lahnbrücke","from":"Laurenburg Bahnhof","to":"Obernhof (Lahn) Bahnhof/Lahnbrücke","operator":"DB Regio Bus Rhein-Mosel GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[6011190588688,13],[741094615,14]]},
+  {"id":3032100077023,"t":{"ref":"578","name":"578: Laurenburg Bahnhof - Holzappel Esterauschule","from":"Laurenburg Bahnhof","to":"Holzappel Esterauschule","operator":"Martin Becker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":7,"s":[[6015441674089,2],[6077349653206,3],[13831200232,4]]},
+  {"id":3037788659507,"t":{"ref":"560","name":"560: Diez Bahnhof - Laurenburg Bahnhof","from":"Diez Bahnhof","to":"Laurenburg Bahnhof","operator":"Martin Becker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":20,"s":[[6012196026833,18],[1675727094,19]]},
+  {"id":3048232472813,"t":{"ref":"560","name":"560: Laurenburg Bahnhof - Diez Bahnhof","from":"Laurenburg Bahnhof","to":"Diez Bahnhof","operator":"Martin Becker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":21,"s":[[6077776637404,2],[6003194978493,3],[6038324758269,4]]},
+  {"id":3054906023229,"t":{"ref":"592","name":"592: Nassau (Lahn) Bahnhof - Obernhof (Lahn) Bahnhof/Lahnbrücke","from":"Nassau (Lahn) Bahnhof","to":"Obernhof (Lahn) Bahnhof/Lahnbrücke","operator":"DB Regio Bus Rhein-Mosel GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[741094615,9]]},
+  {"id":3055059836708,"t":{"ref":"592","name":"592: Obernhof (Lahn) Bahnhof/Lahnbrücke - Nassau (Lahn) Bahnhof","from":"Obernhof (Lahn) Bahnhof/Lahnbrücke","to":"Nassau (Lahn) Bahnhof","operator":"DB Regio Bus Rhein-Mosel GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[741094615,1]]},
+  {"id":3060921435881,"t":{"ref":"560","name":"560: Laurenburg Bahnhof - Diez Bahnhof","from":"Laurenburg Bahnhof","to":"Diez Bahnhof","operator":"Martin Becker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":23,"s":[[6077776637404,2],[6003194978493,3],[6038324758269,4]]},
+  {"id":3070340144377,"t":{"ref":"591","name":"591: Obernhof (Lahn) Bahnhof/Lahnbrücke - Laurenburg Bahnhof","from":"Obernhof (Lahn) Bahnhof/Lahnbrücke","to":"Laurenburg Bahnhof","operator":"DB Regio Bus Rhein-Mosel GmbH","route":"bus","public_transport:version":"2"},"n":14,"s":[[741094615,1],[6075999694396,2]]},
+  {"id":3077725028792,"t":{"ref":"560","name":"560: Diez Bahnhof - Laurenburg Bahnhof","from":"Diez Bahnhof","to":"Laurenburg Bahnhof","operator":"Martin Becker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":21,"s":[[6012196026833,19],[1675727094,20]]},
+  {"id":3078538084203,"t":{"ref":"578","name":"578: Holzappel Esterauschule - Laurenburg Bahnhof","from":"Holzappel Esterauschule","to":"Laurenburg Bahnhof","operator":"Martin Becker GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":7,"s":[[13831200232,4],[6064116587748,5],[6015441674089,6]]}
+]
+}

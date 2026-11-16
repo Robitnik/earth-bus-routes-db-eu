@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2841,3837],
+"stops":[
+  {"id":1816735880,"lat":52.070093,"lon":11.874465,"k":"p","n":"Dannigkow, Parkplatz"},
+  {"id":1816735881,"lat":52.070148,"lon":11.874519,"k":"x","n":"Dannigkow, Parkplatz"},
+  {"id":1816735899,"lat":52.070186,"lon":11.874598,"k":"p","n":"Dannigkow, Parkplatz"},
+  {"id":1816735904,"lat":52.061526,"lon":11.855932,"k":"x","n":"Dannigkow, Plattensee"},
+  {"id":1816735906,"lat":52.061544,"lon":11.855874,"k":"p","n":"Dannigkow, Plattensee"},
+  {"id":1820772146,"lat":52.061297,"lon":11.855725,"k":"p","n":"Dannigkow, Plattensee"},
+  {"id":1820772147,"lat":52.061326,"lon":11.855657,"k":"x","n":"Dannigkow, Plattensee"},
+  {"id":11044057521,"lat":52.055755,"lon":11.860867,"k":"p","n":"Dannigkow, Dornburger Straße"},
+  {"id":11044057522,"lat":52.055531,"lon":11.860727,"k":"p","n":"Dannigkow, Dornburger Straße"},
+  {"id":6051645994558,"lat":52.07255,"lon":11.86852,"k":"p","n":"Dannigkow, Klein Gommern","g":1},
+  {"id":6076156090866,"lat":52.072451,"lon":11.868445,"k":"p","n":"Dannigkow, Klein Gommern","g":1}
+],
+"routes":[
+  {"id":16239050,"t":{"ref":"705","name":"Bus 705: Dornburg => Gommern","from":"Dornburg Neuer Krug","to":"Gommern Bahnhof Bstg. 4","network":"marego","operator":"Nahverkehrsgesellschaft Jerichower Land mbH - NJL","colour":"#FF3399","route":"bus","public_transport:version":"2"},"n":7,"s":[[1816735899,6]]},
+  {"id":3016928443341,"t":{"ref":"705","name":"705: Gommern, Busbahnhof - Dornburg, Neuer Krug","from":"Gommern, Busbahnhof","to":"Dornburg, Neuer Krug","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":17,"s":[[6076156090866,2],[1816735880,3]]},
+  {"id":3024571650367,"t":{"ref":"707","name":"Bus 707: Gommern => Dannigkow","from":"Gommern, Bahnhof","to":"Dannigkow, Plattensee","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[1816735906,11]]},
+  {"id":3026566243946,"t":{"ref":"705","name":"705: Dornburg, Neuer Krug - Gommern, Busbahnhof","from":"Dornburg, Neuer Krug","to":"Gommern, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":6,"s":[[11044057522,2],[1816735880,3],[6051645994558,4]]},
+  {"id":3049041356018,"t":{"ref":"707","name":"Bus 707: Dannigkow => Gommern","from":"Dannigkow, Plattensee","to":"Gommern, Bahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1816735906,1]]},
+  {"id":3070501360295,"t":{"ref":"707","name":"Bus 707: Dannigkow => Gommern","from":"Dannigkow, Plattensee","to":"Gommern, Bahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[1816735906,1]]},
+  {"id":3076258270689,"t":{"ref":"705","name":"705: Dornburg, Neuer Krug - Gommern, Busbahnhof","from":"Dornburg, Neuer Krug","to":"Gommern, Busbahnhof","operator":"Nahverkehrsgesellschaft Jerichower Land","route":"bus","public_transport:version":"2"},"n":17,"s":[[1816735880,14],[6051645994558,15]]},
+  {"id":3080415031968,"t":{"ref":"707","name":"Bus 707: Gommern => Dannigkow","from":"Gommern, Bahnhof","to":"Dannigkow, Plattensee","operator":"Nahverkehrsgesellschaft Jerichower Land mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[1816735906,10]]}
+]
+}

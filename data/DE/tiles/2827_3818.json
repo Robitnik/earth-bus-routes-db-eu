@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2827,3818],
+"stops":[
+  {"id":1409979896,"lat":51.353228,"lon":10.909868,"k":"p","n":"Kalkhügel"},
+  {"id":1409979908,"lat":51.353534,"lon":10.910578,"k":"p","n":"Kalkhügel"},
+  {"id":1613079755,"lat":51.355395,"lon":10.903841,"k":"p","n":"Waldstraße"},
+  {"id":1613079762,"lat":51.35336,"lon":10.909816,"k":"x","n":"Kalkhügel"},
+  {"id":1613079766,"lat":51.353453,"lon":10.910717,"k":"x","n":"Kalkhügel"},
+  {"id":1722581552,"lat":51.353038,"lon":10.932998,"k":"x","n":"Berka, Bahnhof"},
+  {"id":4602701106,"lat":51.385483,"lon":10.909797,"k":"p","n":"Schersengut"},
+  {"id":4602701107,"lat":51.385329,"lon":10.909864,"k":"x","n":"Schersengut"},
+  {"id":8487156953,"lat":51.353008,"lon":10.933129,"k":"p","n":"Berka, Bahnhof"},
+  {"id":8487156954,"lat":51.353084,"lon":10.933119,"k":"p","n":"Berka, Bahnhof"},
+  {"id":8487156955,"lat":51.353054,"lon":10.933273,"k":"x","n":"Berka, Bahnhof"},
+  {"id":8487156998,"lat":51.352043,"lon":10.918648,"k":"p","n":"Berka, Schacht"},
+  {"id":8487156999,"lat":51.353014,"lon":10.916286,"k":"p","n":"Berka, Schacht","ref":"30"},
+  {"id":12522756656,"lat":51.351897,"lon":10.918784,"k":"x","n":"Berka, Schacht"},
+  {"id":12522756657,"lat":51.353041,"lon":10.916372,"k":"x","n":"Berka, Schacht","ref":"30"},
+  {"id":12522756670,"lat":51.352022,"lon":10.918616,"k":"p"},
+  {"id":6003151814484,"lat":51.353191,"lon":10.902675,"k":"p","n":"Sondershausen, Waldstraße","g":1},
+  {"id":6084363296508,"lat":51.352329,"lon":10.917897,"k":"p","n":"Berka (Wipper), Schacht","g":1},
+  {"id":6097840719929,"lat":51.352334,"lon":10.917915,"k":"p","n":"Berka (Wipper), Schacht","g":1}
+],
+"routes":[
+  {"id":2047693,"t":{"ref":"1","name":"1 Fahrten 03 - 21/25/29/33/37/41/45/49/53 - 57","network":"RS","operator":"Stadtbus - Gesellschaft Mühlhausen und Sondershausen mbH","route":"bus"},"n":12,"s":[[1409979908,1]]},
+  {"id":2047694,"t":{"ref":"1","name":"1 Fahrten 59","network":"RS","operator":"Stadtbus - Gesellschaft Mühlhausen und Sondershausen mbH","route":"bus"},"n":6,"s":[[1409979908,1]]},
+  {"id":18588650,"t":{"ref":"452","name":"Bus: 452 Sondershausen - Hachelbich - Göllingen (und zurück)","from":"Sondershausen","to":"Göllingen","network":"RS","operator":"Regionalbus – Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus"},"n":9,"s":[[8487156954,1],[8487156953,2],[8487156999,6]]},
+  {"id":3040377365017,"t":{"ref":"1","name":"1 Fahrten 23/27/31/35/39/43/47/51","network":"RS","operator":"Stadtbus - Gesellschaft Mühlhausen und Sondershausen mbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[1613079762,1]]},
+  {"id":3042216156055,"t":{"ref":"451","name":"451: Bad Frankenhausen, Busbahnhof - Sondershausen, ZOB","from":"Bad Frankenhausen, Busbahnhof","to":"Sondershausen, ZOB","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[8487156955,12],[6097840719929,14]]},
+  {"id":3042269745831,"t":{"ref":"530","name":"Bus 530: Sondershausen => Bad Frankenhausen => Artern","from":"Sondershausen","to":"Artern","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[8487156953,3]]},
+  {"id":3048368995582,"t":{"ref":"530","name":"Bus 530: Artern => Bad Frankenhausen => Sondershausen","from":"Artern","to":"Sondershausen","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[8487156955,16],[6097840719929,18]]},
+  {"id":3049358934493,"t":{"ref":"530","name":"Bus 530: Sondershausen => Bad Frankenhausen => Artern","from":"Sondershausen","to":"Artern","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[6084363296508,3],[1722581552,5]]},
+  {"id":3052135113332,"t":{"ref":"530","name":"Bus 530: Artern => Bad Frankenhausen => Sondershausen","from":"Artern","to":"Sondershausen","network":"RS","operator":"Regionalbus-Gesellschaft Unstrut-Hainich- und Kyffhäuserkreis mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[8487156954,14]]},
+  {"id":3067743524712,"t":{"ref":"1","name":"1: Sondershausen, Bebraer Teiche - Sondershausen, Kalkhügel","from":"Sondershausen, Bebraer Teiche","to":"Sondershausen, Kalkhügel","operator":"RB-Gesellschaft UHK mbH","route":"bus","public_transport:version":"2"},"n":17,"s":[[6003151814484,16],[1613079762,17]]}
+]
+}

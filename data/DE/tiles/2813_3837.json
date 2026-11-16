@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2813,3837],
+"stops":[
+  {"id":1341481769,"lat":50.650855,"lon":11.861072,"k":"p","n":"Tegau, Wartehalle"},
+  {"id":1341481771,"lat":50.651023,"lon":11.861398,"k":"p","n":"Tegau, Wartehalle"},
+  {"id":2613723098,"lat":50.67341,"lon":11.882757,"k":"x","n":"Krölpa, Wendeschleife"},
+  {"id":6263445366,"lat":50.676181,"lon":11.898132,"k":"p","n":"Muntscha, Ort"},
+  {"id":6263445367,"lat":50.67342,"lon":11.882822,"k":"p","n":"Krölpa, Wendeschleife"},
+  {"id":6263445369,"lat":50.677442,"lon":11.891203,"k":"p","n":"Muntscha, Abzweig"},
+  {"id":6263445370,"lat":50.677559,"lon":11.891405,"k":"x","n":"Muntscha, Abzweig"},
+  {"id":6263445371,"lat":50.6775,"lon":11.891147,"k":"x","n":"Muntscha, Abzweig"},
+  {"id":6263445372,"lat":50.67611,"lon":11.898171,"k":"p","n":"Muntscha, Ort"},
+  {"id":6263445373,"lat":50.676166,"lon":11.898223,"k":"x","n":"Muntscha, Ort"},
+  {"id":6860759514,"lat":50.67341,"lon":11.880847,"k":"x","n":"Krölpa (bei Auma)"},
+  {"id":12768481174,"lat":50.677614,"lon":11.891366,"k":"p","n":"Muntscha, Abzweig"},
+  {"id":12768481175,"lat":50.673463,"lon":11.880821,"k":"p","n":"Krölpa (bei Auma)"},
+  {"id":12768481176,"lat":50.673352,"lon":11.880893,"k":"p","n":"Krölpa (bei Auma)"},
+  {"id":12768481177,"lat":50.650953,"lon":11.861221,"k":"x","n":"Tegau, Wartehalle"}
+],
+"routes":[
+  {"id":9304488,"t":{"ref":"45","name":"Bus 45: Zeulenroda => Merkendorf => Stelzendorf => Auma => Piesigitz => Staitz","from":"Zeulenroda, Solleschule","to":"Staitz","network":"Verkehrsgemeinschaft des Landkreises Greiz","operator":"PRG","route":"bus","public_transport:version":"2"},"n":28,"s":[[6263445366,17]]},
+  {"id":9304489,"t":{"ref":"45","name":"Bus 45: Auma => Wenigenauma => Krölpa => Auma","from":"Auma, Markt","to":"Auma, Markt","network":"Verkehrsgemeinschaft des Landkreises Greiz","operator":"PRG","route":"bus","public_transport:version":"2"},"n":11,"s":[[6263445366,4],[12768481174,6],[6263445367,7],[6263445369,8]]},
+  {"id":19734999,"t":{"ref":"45","name":"Bus 45: Rufbus","network":"Verkehrsgemeinschaft des Landkreises Greiz","operator":"PRG","route":"bus"},"n":33,"s":[[6263445372,13],[6263445366,14]]},
+  {"id":19735001,"t":{"ref":"45","name":"Bus 45: Auma => Krölpa => Wenigenauma => Auma","from":"Auma, Markt","to":"Auma, Markt","network":"Verkehrsgemeinschaft des Landkreises Greiz","operator":"PRG","route":"bus","public_transport:version":"2"},"n":10,"s":[[12768481174,4],[6263445367,5],[6263445369,6],[6263445372,7]]},
+  {"id":3046419921983,"t":{"ref":"810","name":"Bus 810: Schleiz Busbahnhof => Gera, Busbahnhof","from":"Schleiz Busbahnhof","to":"Gera, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#008dd2","route":"bus","public_transport:version":"2"},"n":29,"s":[[1341481771,4],[6860759514,5],[6263445369,6]]},
+  {"id":3074506409611,"t":{"ref":"810","name":"Bus 810: Gera, Busbahnhof => Schleiz Busbahnhof","from":"Gera, Busbahnhof","to":"Schleiz Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#008dd2","route":"bus","public_transport:version":"2"},"n":30,"s":[[12768481174,24],[6860759514,25],[1341481771,26]]}
+]
+}

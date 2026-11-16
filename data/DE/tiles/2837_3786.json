@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2837,3786],
+"stops":[
+  {"id":323966400,"lat":51.859806,"lon":9.320349,"k":"p","n":"Köterberg"},
+  {"id":355104764,"lat":51.882524,"lon":9.330347,"k":"p","n":"Siedlung"},
+  {"id":355110636,"lat":51.882204,"lon":9.330711,"k":"p","n":"Siedlung"},
+  {"id":355163690,"lat":51.877471,"lon":9.328533,"k":"p","n":"Ehrenmal"},
+  {"id":355163691,"lat":51.87748,"lon":9.32866,"k":"p","n":"Ehrenmal"},
+  {"id":355163712,"lat":51.878127,"lon":9.331126,"k":"p","n":"Mitte"},
+  {"id":355257512,"lat":51.878759,"lon":9.330141,"k":"p","n":"Mitte"},
+  {"id":490527377,"lat":51.8896,"lon":9.302789,"k":"p","n":"Falkenhagen"},
+  {"id":6084902998385,"lat":51.889316,"lon":9.303357,"k":"p","n":"Lü-Falkenhagen","g":1}
+],
+"routes":[
+  {"id":73903,"t":{"ref":"761","name":"Bus 761: Rischenau => Bad Pyrmont","from":"Rischenau Post","to":"Bad Pyrmont Markt","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[490527377,3]]},
+  {"id":2671211,"t":{"ref":"761","name":"Bus 761: Bad Pyrmont => Rischenau","from":"Bad Pyrmont Markt","to":"Rischenau Post","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":24,"s":[[490527377,22]]},
+  {"id":13559089,"t":{"ref":"761","name":"Bus 761: Rischenau => Hummersen => Bad Pyrmont","from":"Rischenau Post","to":"Bad Pyrmont Markt","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":26,"s":[[355163691,3],[355163712,4],[355110636,5],[490527377,6]]},
+  {"id":13559090,"t":{"ref":"761","name":"Bus 761: Bad Pyrmont => Niese => Rischenau","from":"Bad Pyrmont Markt","to":"Rischenau Post","network":"WestfalenTarif","operator":"Karl Köhne Omnibusbetriebe GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[490527377,22],[355104764,23],[355257512,24],[355163690,25],[323966400,26]]},
+  {"id":3027909362798,"t":{"ref":"761","name":"761: Lü-Rischenau, Post - Bad Pyrmont, Markt","from":"Lü-Rischenau, Post","to":"Bad Pyrmont, Markt","operator":"Lippe3","route":"bus","public_transport:version":"2"},"n":24,"s":[[6084902998385,3]]},
+  {"id":3038179675488,"t":{"ref":"761","name":"761: Bad Pyrmont, Markt - Lü-Rischenau, Post","from":"Bad Pyrmont, Markt","to":"Lü-Rischenau, Post","operator":"Lippe3","route":"bus","public_transport:version":"2"},"n":24,"s":[[6084902998385,22]]}
+]
+}

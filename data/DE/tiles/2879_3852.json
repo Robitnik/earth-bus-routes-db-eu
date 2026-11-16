@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2879,3852],
+"stops":[
+  {"id":9697123445,"lat":53.97787,"lon":12.648051,"k":"x","n":"Klein Nieköhr","ref":"de:13072:1205"},
+  {"id":9697123446,"lat":53.977578,"lon":12.649391,"k":"x","n":"Klein Nieköhr","ref":"de:13072:1205"},
+  {"id":9697123447,"lat":53.977536,"lon":12.649365,"k":"p","n":"Klein Nieköhr","ref":"de:13072:1205"},
+  {"id":9697123448,"lat":53.977929,"lon":12.648115,"k":"p","n":"Klein Nieköhr","ref":"de:13072:1205"},
+  {"id":9701089405,"lat":53.981377,"lon":12.629651,"k":"p","n":"Samow, Abzweig","ref":"de:13072:1377"},
+  {"id":9701089406,"lat":53.981441,"lon":12.629678,"k":"x","n":"Samow, Abzweig","ref":"de:13072:1377"},
+  {"id":9701089407,"lat":53.981399,"lon":12.630548,"k":"p","n":"Samow, Abzweig","ref":"de:13072:1377"},
+  {"id":9701089408,"lat":53.981344,"lon":12.630402,"k":"x","n":"Samow, Abzweig","ref":"de:13072:1377"},
+  {"id":9701089409,"lat":53.982323,"lon":12.622913,"k":"x","n":"Gottesgabe, Abzweig","ref":"de:13072:1201"},
+  {"id":9701089410,"lat":53.982258,"lon":12.623394,"k":"x","n":"Gottesgabe, Abzweig","ref":"de:13072:1201"},
+  {"id":9701089411,"lat":53.982206,"lon":12.623265,"k":"p","n":"Gottesgabe, Abzweig","ref":"de:13072:1201"},
+  {"id":9701089412,"lat":53.982376,"lon":12.623056,"k":"p","n":"Gottesgabe, Abzweig","ref":"de:13072:1201"},
+  {"id":9899350060,"lat":53.974165,"lon":12.645405,"k":"p","n":"Groß Nieköhr","ref":"de:13072:1205"}
+],
+"routes":[
+  {"id":6689769,"t":{"ref":"304","name":"Bus 304: Demmin, ZOB => Rostock, ZOB","from":"Demmin, ZOB","to":"Rostock, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":56,"s":[[9697123448,26],[9701089407,27],[9701089412,28]]},
+  {"id":14079473,"t":{"ref":"304","name":"Bus 304: Rostock, ZOB => Demmin, ZOB => Demmin, Quitzerower Weg","from":"Rostock, ZOB","to":"Demmin, Quitzerower Weg","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":57,"s":[[9701089411,29],[9701089405,30],[9697123447,31]]},
+  {"id":14092384,"t":{"ref":"304","name":"Bus 304: Rostock, ZOB => Demmin, Devener Hof","from":"Rostock, ZOB","to":"Demmin, Devener Hof","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":50,"s":[[9701089411,29],[9701089405,30],[9697123447,31]]},
+  {"id":14092514,"t":{"ref":"304","name":"Bus 304: Demmin, Thomas-Mann-Straße => Demmin, ZOB => Rostock, ZOB","from":"Demmin, Thomas-Mann-Straße","to":"Rostock, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":59,"s":[[9697123448,29],[9701089407,30],[9701089412,31]]},
+  {"id":14092515,"t":{"ref":"304","name":"Bus 304: Demmin, Thomas-Mann-Straße => Demmin, Gymnasium An der Mühle => Demmin, ZOB => Rostock, ZOB","from":"Demmin, Thomas-Mann-Straße","to":"Rostock, ZOB","network":"Gemeinschaftstarif Mecklenburgische Seenplatte","operator":"Mecklenburg-Vorpommersche Verkehrsgesellschaft","route":"bus","public_transport:version":"2"},"n":62,"s":[[9697123448,32],[9701089407,33],[9701089412,34]]},
+  {"id":3051020005988,"t":{"ref":"220","name":"220: Gnoien ZOB - Tessin Bahnhof","from":"Gnoien ZOB","to":"Tessin Bahnhof","operator":"rebus","route":"bus","public_transport:version":"2"},"n":19,"s":[[9899350060,4],[9697123448,5],[9701089408,6],[9701089409,8]]},
+  {"id":3068283692137,"t":{"ref":"220","name":"220: Gnoien ZOB - Tessin Bahnhof","from":"Gnoien ZOB","to":"Tessin Bahnhof","operator":"rebus","route":"bus","public_transport:version":"2"},"n":18,"s":[[9697123448,4],[9701089408,5],[9701089409,7]]},
+  {"id":3082932584542,"t":{"ref":"220","name":"220: Tessin Bahnhof - Gnoien ZOB","from":"Tessin Bahnhof","to":"Gnoien ZOB","operator":"rebus","route":"bus","public_transport:version":"2"},"n":20,"s":[[9701089411,14],[9899350060,16],[9697123447,17]]}
+]
+}

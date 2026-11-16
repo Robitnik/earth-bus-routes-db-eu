@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2840,3791],
+"stops":[
+  {"id":2355139399,"lat":52.007832,"lon":9.571956,"k":"p","n":"Dohnsen(Holzminden) Kirchgraben"},
+  {"id":2355139400,"lat":52.007832,"lon":9.572166,"k":"p","n":"Dohnsen(Holzminden) Kirchgraben"},
+  {"id":9334771637,"lat":52.00502,"lon":9.553845,"k":"p","n":"Wegensen, Ort"},
+  {"id":12324181222,"lat":52.029466,"lon":9.557554,"k":"x","n":"Bremke, Hauptstraße"},
+  {"id":12324181223,"lat":52.029409,"lon":9.55749,"k":"p","n":"Bremke, Hauptstraße"},
+  {"id":12324181224,"lat":52.02954,"lon":9.557641,"k":"p","n":"Bremke, Hauptstraße"},
+  {"id":12324200210,"lat":52.037176,"lon":9.553469,"k":"x"},
+  {"id":12324200211,"lat":52.037242,"lon":9.553475,"k":"p","n":"Bremke, Welliehausen"},
+  {"id":12324200212,"lat":52.037109,"lon":9.553485,"k":"p","n":"Bremke, Welliehausen"},
+  {"id":12324253820,"lat":52.012938,"lon":9.557751,"k":"x","n":"Wegensen, Landesstraße"},
+  {"id":12324253821,"lat":52.012939,"lon":9.557645,"k":"p","n":"Wegensen, Landesstraße"},
+  {"id":12324253822,"lat":52.012935,"lon":9.557832,"k":"p","n":"Wegensen, Landesstraße"},
+  {"id":6065386994301,"lat":52.049397,"lon":9.595741,"k":"p","n":"Domäne Eggersen","g":1},
+  {"id":6066560165906,"lat":52.030584,"lon":9.557308,"k":"p","n":"Bremke(b Bodenwerder) Hauptstraße","g":1}
+],
+"routes":[
+  {"id":13543790,"t":{"ref":"525","name":"Bus 525: Bodenwerder - Halle - Heyen","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":22,"s":[[9334771637,19]]},
+  {"id":13546438,"t":{"ref":"525","name":"Bus 525: Heyen - Halle - Bodenwerder","network":"Verkehrsverbund Süd-Niedersachsen","operator":"RBB","route":"bus","public_transport:version":"2"},"n":21,"s":[[9334771637,4]]},
+  {"id":3058699241030,"t":{"ref":"51","name":"51: Bodenwerder Im Hagen - Bisperode, Schule","from":"Bodenwerder Im Hagen","to":"Bisperode, Schule","operator":"Kraftverkehrsgesellschaft Hameln mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[2355139399,9],[12324253822,10],[6066560165906,11],[12324200211,12]]},
+  {"id":3086520090538,"t":{"ref":"51","name":"51: Bisperode, Schule - Bodenwerder Im Hagen","from":"Bisperode, Schule","to":"Bodenwerder Im Hagen","operator":"Kraftverkehrsgesellschaft Hameln mbH","route":"bus","public_transport:version":"2"},"n":20,"s":[[12324200211,9],[12324181223,10],[12324253821,11],[2355139400,12]]},
+  {"id":3092552240520,"t":{"ref":"B72","name":"B72: Salzhemmendorf, Bahnhofsweg - Thüste, Schmiedebrink","from":"Salzhemmendorf, Bahnhofsweg","to":"Thüste, Schmiedebrink","operator":"Kraftverkehrsgesellschaft Hameln mbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6065386994301,4]]}
+]
+}

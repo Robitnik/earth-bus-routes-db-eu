@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2837,3740],
+"stops":[
+  {"id":1270781626,"lat":51.89851,"lon":7.034453,"k":"p","n":"Sparkasse"},
+  {"id":1496251940,"lat":51.897464,"lon":7.009011,"k":"p","n":"Klyer Damm"},
+  {"id":1496251941,"lat":51.897619,"lon":7.008042,"k":"p","n":"Klyer Damm"},
+  {"id":1496260093,"lat":51.899926,"lon":7.012528,"k":"p","n":"ven der Buss"},
+  {"id":1621590528,"lat":51.898516,"lon":7.034676,"k":"p","n":"Sparkasse"},
+  {"id":2552903569,"lat":51.897134,"lon":7.020814,"k":"p","n":"Autobahnbrücke"},
+  {"id":5298900688,"lat":51.898472,"lon":7.034525,"k":"x","n":"Sparkasse"},
+  {"id":5298900689,"lat":51.898546,"lon":7.034624,"k":"x","n":"Sparkasse"},
+  {"id":5364017413,"lat":51.896996,"lon":7.021111,"k":"p","n":"Autobahnbrücke"},
+  {"id":5364017414,"lat":51.897062,"lon":7.021114,"k":"x","n":"Autobahnbrücke"},
+  {"id":5364017415,"lat":51.897064,"lon":7.020814,"k":"x","n":"Autobahnbrücke"},
+  {"id":5364017416,"lat":51.897528,"lon":7.009017,"k":"x","n":"Klyer Damm"},
+  {"id":5364017417,"lat":51.89752,"lon":7.008046,"k":"x","n":"Klyer Damm"},
+  {"id":6008144690953,"lat":51.854268,"lon":7.039935,"k":"p","n":"Groß Reken, Espendiller","g":1},
+  {"id":6035526749088,"lat":51.854018,"lon":7.03088,"k":"p","n":"Groß Reken, Hendelshok","g":1},
+  {"id":6070564521914,"lat":51.867056,"lon":7.031051,"k":"p","n":"Preinhook, Papendyk","g":1},
+  {"id":6082749377961,"lat":51.875874,"lon":7.004973,"k":"p","n":"Velen, Brook","g":1}
+],
+"routes":[
+  {"id":1570546,"t":{"ref":"776","name":"Bus 776 Ahaus - Hochmoor","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","bus":"school"},"n":27,"s":[[1270781626,25]]},
+  {"id":1723796,"t":{"ref":"751","name":"Bus 751 Borken - Velen","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus"},"n":18,"s":[[2552903569,7],[1496251940,8],[1496251941,9],[1270781626,10]]},
+  {"id":7836750,"t":{"ref":"T75","name":"Bus T75: Velen, Ellinghaus => Maria Veen, B67n","from":"Velen, Ellinghaus","to":"Maria Veen, B67n","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[1621590528,2]]},
+  {"id":7943756,"t":{"ref":"R61","name":"Bus R61: Vreden, Busbahnhof => Coesfeld, Bahnhof","from":"Vreden, Busbahnhof","to":"Coesfeld, Bahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":34,"s":[[1270781626,25]]},
+  {"id":7943928,"t":{"ref":"R61","name":"Bus R61: Coesfeld, Bahnhof => Gescher, Schulzentrum => Vreden, Busbahnhof","from":"Coesfeld, Bahnhof","to":"Vreden, Busbahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":36,"s":[[1621590528,10]]},
+  {"id":7943933,"t":{"ref":"R61","name":"Bus R61: Coesfeld, Bahnhof => Vreden, Gymnasium","from":"Coesfeld, Bahnhof","to":"Vreden, Gymnasium","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":35,"s":[[1621590528,10]]},
+  {"id":7944006,"t":{"ref":"R61","name":"Bus R61: Vreden, Gymnasium => Coesfeld, Bahnhof","from":"Vreden, Gymnasium","to":"Coesfeld, Bahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":36,"s":[[1270781626,27]]},
+  {"id":3004561471161,"t":{"ref":"R51","name":"Bus R51: Coesfeld, Bahnhof => Bocholt, Bustreff","from":"Coesfeld, Bahnhof","to":"Bocholt, Bustreff","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":56,"s":[[1270781626,22],[1496251941,23]]},
+  {"id":3006208307594,"t":{"ref":"R61","name":"Bus R61: Coesfeld, Bahnhof => Vreden, Busbahnhof","from":"Coesfeld, Bahnhof","to":"Vreden, Busbahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":35,"s":[[5298900689,10]]},
+  {"id":3008331066686,"t":{"ref":"R51","name":"Bus R51: Bocholt, Bustreff => Coesfeld, Bahnhof","from":"Bocholt, Bustreff","to":"Coesfeld, Bahnhof","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":57,"s":[[1496251940,35],[5298900689,36]]},
+  {"id":3014966655855,"t":{"ref":"R61","name":"Bus R61: Coesfeld, Bahnhof => Vreden, Busbahnhof","from":"Coesfeld, Bahnhof","to":"Vreden, Busbahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":35,"s":[[1270781626,26]]},
+  {"id":3026514219161,"t":{"ref":"T75","name":"Bus T75: Maria Veen, B67n => Velen, Ellinghaus","from":"Maria Veen, B67n","to":"Velen, Ellinghaus","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[5298900689,2]]},
+  {"id":3032247585542,"t":{"ref":"SV08","name":"SV08: Maria Veen, Missionsschule - Nordvelen, Hante","from":"Maria Veen, Missionsschule","to":"Nordvelen, Hante","operator":"RVM Kreis Borken 31","route":"bus","public_transport:version":"2"},"n":16,"s":[[6008144690953,8],[6035526749088,9],[6070564521914,10],[6082749377961,11]]},
+  {"id":3061705391936,"t":{"ref":"R51","name":"Bus R51: Coesfeld, Bahnhof => Bocholt, Bustreff","from":"Coesfeld, Bahnhof","to":"Bocholt, Bustreff","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":57,"s":[[1270781626,22],[1496251941,23]]},
+  {"id":3062350909725,"t":{"ref":"N20","name":"Bus N20: Legden, Dorf Münsterland => Borken, Bahnhof","from":"Legden, Dorf Münsterland","to":"Borken, Bahnhof","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[1270781626,16]]},
+  {"id":3092270200518,"t":{"ref":"N20","name":"Bus N20: Borken, Bahnhof => Legden, Dorf Münsterland","from":"Borken, Bahnhof","to":"Legden, Dorf Münsterland","network":"WestfalenTarif","operator":"Regionalverkehr Münsterland GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[5298900689,8]]},
+  {"id":3096720742407,"t":{"ref":"T75","name":"Bus T75: Maria Veen, B67n => Velen, Ellinghaus","from":"Maria Veen, B67n","to":"Velen, Ellinghaus","network":"WestfalenTarif","operator":"WB Westfalen Bus GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[1270781626,2]]}
+]
+}

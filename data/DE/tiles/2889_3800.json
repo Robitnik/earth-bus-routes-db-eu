@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2889,3800],
+"stops":[
+  {"id":317143324,"lat":54.461381,"lon":10.005125,"k":"p","n":"Noer, Schloss"},
+  {"id":372473727,"lat":54.466249,"lon":10.046938,"k":"p","n":"Krusendorf, Wischkamp"},
+  {"id":372473731,"lat":54.466529,"lon":10.04721,"k":"p","n":"Krusendorf, Wischkamp"},
+  {"id":471261089,"lat":54.459372,"lon":10.046123,"k":"p","n":"Wasserwerk"},
+  {"id":784018069,"lat":54.459511,"lon":10.046931,"k":"p"},
+  {"id":8615931591,"lat":54.461469,"lon":10.00577,"k":"x","n":"Noer, Schloss"},
+  {"id":8615931593,"lat":54.46141,"lon":10.005804,"k":"p","n":"Noer, Schloss"},
+  {"id":8615931594,"lat":54.466864,"lon":10.035929,"k":"p","n":"Grönwohld, Gut"},
+  {"id":8615931595,"lat":54.466898,"lon":10.035929,"k":"x","n":"Grönwohld, Gut"},
+  {"id":8615931596,"lat":54.466898,"lon":10.035759,"k":"x","n":"Grönwohld Gut"},
+  {"id":8615931597,"lat":54.46695,"lon":10.035756,"k":"p","n":"Grönwohld, Gut"},
+  {"id":8615931598,"lat":54.466292,"lon":10.046891,"k":"x","n":"Krusendorf, Wischkamp"},
+  {"id":8615931599,"lat":54.466492,"lon":10.047298,"k":"x","n":"Krusendorf, Wischkamp"},
+  {"id":8674197761,"lat":54.452466,"lon":10.003077,"k":"x","n":"Noer, Brandhorst"},
+  {"id":8674197762,"lat":54.452389,"lon":10.003143,"k":"p","n":"Noer, Brandhorst"},
+  {"id":8674197763,"lat":54.451487,"lon":10.00177,"k":"x","n":"Noer, Brandhorst"},
+  {"id":8674197764,"lat":54.451565,"lon":10.001732,"k":"p","n":"Noer, Brandhorst"},
+  {"id":10665958711,"lat":54.461513,"lon":10.005117,"k":"p","n":"Noer, Schloss"},
+  {"id":10665958719,"lat":54.461536,"lon":10.005138,"k":"x","n":"Noer, Schloss"},
+  {"id":10671181008,"lat":54.461335,"lon":10.005152,"k":"x","n":"Noer, Schloss"},
+  {"id":6035485203030,"lat":54.451956,"lon":10.002385,"k":"p","n":"Noer Brandhorst","g":1},
+  {"id":6046455437984,"lat":54.451956,"lon":10.002385,"k":"p","n":"Noer Brandhorst","g":1},
+  {"id":6073099647960,"lat":54.461193,"lon":10.004475,"k":"p","n":"Noer Schloss","g":1},
+  {"id":6078301430837,"lat":54.466834,"lon":10.036889,"k":"p","n":"Schwedeneck-Grönwohld Gut","g":1},
+  {"id":6091732143927,"lat":54.466764,"lon":10.037525,"k":"p","n":"Schwedeneck-Grönwohld Gut","g":1}
+],
+"routes":[
+  {"id":17407831,"t":{"ref":"749","name":"Bus 749: Osdorf => Lindhöft","from":"Osdorf Ortsmitte","to":"Lindhöft Alte Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#29b8ce","route":"bus","public_transport:version":"2"},"n":6,"s":[[8674197762,2],[317143324,3]]},
+  {"id":3004986359911,"t":{"ref":"746","name":"Bus 746: Surendorf => Eckernförde, Bahnhof/ZOB","from":"Surendorf, Ortsmitte","to":"Eckernförde Bahnhof/ZOB","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#8ec89a","route":"bus","public_transport:version":"2"},"n":18,"s":[[8615931599,3],[6078301430837,4],[6073099647960,5]]},
+  {"id":3033478459233,"t":{"ref":"749","name":"Bus 749: Lindhöft => Osdorf","from":"Lindhöft Alte Schule","to":"Osdorf Ortsmitte","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#29b8ce","route":"bus","public_transport:version":"2"},"n":11,"s":[[10665958711,4],[6046455437984,5]]},
+  {"id":3043695965157,"t":{"ref":"746","name":"Bus 746: Eckernförde, Bahnhof/ZOB => Surendorf","from":"Eckernförde, Bahnhof/ZOB","to":"Surendorf, Ortsmitte","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#8ec89a","route":"bus","public_transport:version":"2"},"n":17,"s":[[8615931591,13],[6091732143927,14],[8615931599,15]]},
+  {"id":3045823478464,"t":{"ref":"749","name":"Bus 749: Osdorf => Stubbendorf => Lindhöft","from":"Osdorf Ortsmitte","to":"Lindhöft Alte Schule","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#29b8ce","route":"bus","public_transport:version":"2"},"n":12,"s":[[6035485203030,8],[6073099647960,9]]},
+  {"id":3045976603854,"t":{"ref":"747","name":"Bus 747: Gettorf, Bahnhof => Surendorf","from":"Gettorf, Bahnhof","to":"Surendorf, Ortsmitte","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#f7a941","route":"bus","public_transport:version":"2"},"n":14,"s":[[8615931591,10],[6091732143927,11],[8615931599,12]]},
+  {"id":3073337419704,"t":{"ref":"747","name":"Bus 747: Surendorf => Gettorf, Bahnhof","from":"Surendorf, Ortsmitte","to":"Gettorf Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH","colour":"#f7a941","route":"bus","public_transport:version":"2"},"n":14,"s":[[8615931599,3],[6078301430837,4],[6073099647960,5]]}
+]
+}

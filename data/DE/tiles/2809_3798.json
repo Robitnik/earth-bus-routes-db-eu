@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2809,3798],
+"stops":[
+  {"id":295882703,"lat":50.479614,"lon":9.943182,"k":"x","n":"Obernhausen"},
+  {"id":3662048964,"lat":50.45684,"lon":9.942175,"k":"p","n":"Sandberg"},
+  {"id":4921731103,"lat":50.479568,"lon":9.943357,"k":"p","n":"Obernhausen"},
+  {"id":4921731104,"lat":50.479697,"lon":9.943177,"k":"p","n":"Obernhausen"},
+  {"id":5602463093,"lat":50.479585,"lon":9.94327,"k":"x","n":"Obernhausen"},
+  {"id":5611449791,"lat":50.481783,"lon":9.909039,"k":"p","n":"Schwarzerden"},
+  {"id":5611449792,"lat":50.476474,"lon":9.909561,"k":"p","n":"Sommerberg"},
+  {"id":5611449793,"lat":50.465649,"lon":9.917917,"k":"p","n":"Schachen"},
+  {"id":5611449794,"lat":50.459953,"lon":9.922064,"k":"p","n":"Brembach"},
+  {"id":5611449798,"lat":50.465073,"lon":9.902775,"k":"p","n":"Maiersbach"},
+  {"id":8000762513,"lat":50.49858,"lon":9.946703,"k":"x","n":"Wasserkuppe"},
+  {"id":8978578938,"lat":50.465055,"lon":9.902827,"k":"x","n":"Maiersbach"},
+  {"id":8978578944,"lat":50.481744,"lon":9.909018,"k":"x","n":"Schwarzerden"},
+  {"id":8978578945,"lat":50.476461,"lon":9.909491,"k":"x","n":"Sommerberg"},
+  {"id":8978578946,"lat":50.465609,"lon":9.917908,"k":"x","n":"Schachen"},
+  {"id":8978578948,"lat":50.459941,"lon":9.922011,"k":"x","n":"Brembach"},
+  {"id":8978578949,"lat":50.456873,"lon":9.942221,"k":"x","n":"Sandberg"},
+  {"id":9007750616,"lat":50.464373,"lon":9.917496,"k":"p"},
+  {"id":13664524501,"lat":50.498611,"lon":9.946541,"k":"p","n":"Oberhausen Wasserkuppe"},
+  {"id":5000858234418,"lat":50.498565,"lon":9.946684,"k":"p","n":"Wasserkuppe"}
+],
+"routes":[
+  {"id":8255530,"t":{"ref":"37","name":"Bus 37: Gersfeld Bahnhof => Obernhausen Wasserkuppe","from":"Gersfeld Bahnhof","to":"Obernhausen Wasserkuppe","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":3,"s":[[4921731103,2],[5000858234418,3]]},
+  {"id":8289933,"t":{"ref":"37","name":"Bus 37: Obernhausen Wasserkuppe => Sandberg => Gersfeld Bahnhof","from":"Obernhausen Wasserkuppe","to":"Gersfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000858234418,1],[4921731104,2],[3662048964,3]]},
+  {"id":13053463,"t":{"ref":"37","name":"Bus 37: Wüstensachsen Rathaus => Gersfeld Bahnhof","from":"Wüstensachsen Rathaus","to":"Gersfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000858234418,2],[4921731104,3]]},
+  {"id":13053464,"t":{"ref":"37","name":"Bus 37: Obernhausen Wasserkuppe => Gersfeld Bahnhof","from":"Obernhausen Wasserkuppe","to":"Gersfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000858234418,1],[4921731104,2]]},
+  {"id":13053465,"t":{"ref":"37","name":"Bus 37: Gersfeld Bahnhof => Wüstensachsen Rathaus","from":"Gersfeld Bahnhof","to":"Wüstensachsen Rathaus","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":4,"s":[[4921731103,2],[5000858234418,3]]},
+  {"id":3014566594373,"t":{"ref":"37","name":"Bus 37: Gersfeld Bahnhof => Poppenhausen Kirche","from":"Gersfeld Bahnhof","to":"Poppenhausen Kirche","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":7,"s":[[5611449794,2],[5611449793,3],[5611449792,4],[5611449791,5]]},
+  {"id":3019694340450,"t":{"ref":"37","name":"Bus 37: Wüstensachsen Rathaus => Sandberg => Gersfeld Bahnhof","from":"Wüstensachsen Rathaus","to":"Gersfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":6,"s":[[8978578949,3],[4921731104,4],[5000858234418,5]]},
+  {"id":3043575869271,"t":{"ref":"90","name":"Rhönradbus 90: Gersfeld => Fulda","from":"Gersfeld","to":"Fulda ZOB","network":"Rhein-Main-Verkehrsverbund","operator":"RhönEnergie Fulda","route":"bus","public_transport:version":"2"},"n":38,"s":[[4921731104,2],[5000858234418,3]]},
+  {"id":3062271502515,"t":{"ref":"90","name":"Rhönradbus 90: Fulda => Gersfeld","from":"Fulda ZOB","to":"Gersfeld","network":"Rhein-Main-Verkehrsverbund","operator":"RhönEnergie Fulda","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000858234418,36],[4921731103,37]]},
+  {"id":3080518847188,"t":{"ref":"37","name":"Bus 37: Poppenhausen Kirche => Gersfeld Bahnhof","from":"Poppenhausen Kirche","to":"Gersfeld Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#2e3192","route":"bus","public_transport:version":"2"},"n":7,"s":[[5611449798,5]]},
+  {"id":3095735455784,"t":{"ref":"35","name":"Bus 35: Fulda ZOB => Obernhausen Wasserkuppe","from":"Fulda ZOB","to":"Obernhausen Wasserkuppe","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#b7473d","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000858234418,32]]},
+  {"id":3097959596759,"t":{"ref":"35","name":"Bus 35: Obernhausen Wasserkuppe => Fulda ZOB","from":"Obernhausen Wasserkuppe","to":"Fulda ZOB","network":"Rhein-Main-Verkehrsverbund","operator":"LNG Fulda","colour":"#b7473d","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000858234418,1]]}
+]
+}

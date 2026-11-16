@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2800,3739],
+"stops":[
+  {"id":817789006,"lat":50.012377,"lon":6.992877,"k":"p","n":"Bausendorf Kindergarten"},
+  {"id":1079462189,"lat":50.012981,"lon":6.995522,"k":"p","n":"Bausendorf Parkanlage","ref":"Linie 302"},
+  {"id":1079462443,"lat":50.014507,"lon":6.994529,"k":"p"},
+  {"id":1108889317,"lat":50.013562,"lon":6.997185,"k":"p","n":"Bausendorf Kirche","ref":"Linie 302"},
+  {"id":1212482276,"lat":50.01413,"lon":6.998878,"k":"p"},
+  {"id":1224117538,"lat":50.019505,"lon":6.983364,"k":"p","ref":"Linie 302","n":"Olkenbach, Feuerwehr"},
+  {"id":3126594302,"lat":50.043444,"lon":6.992783,"k":"p","n":"Krinkhof, Abzw."},
+  {"id":6113070617,"lat":50.043832,"lon":6.992642,"k":"x","n":"Krinkhof, Abzw."},
+  {"id":6113070618,"lat":50.043837,"lon":6.992523,"k":"p","n":"Krinkhof, Abzw."},
+  {"id":6113070619,"lat":50.043439,"lon":6.992638,"k":"x","n":"Krinkhof, Abzw."},
+  {"id":6027080534380,"lat":50.012807,"lon":6.994885,"k":"p","n":"Bausendorf, Parkanlage","g":1},
+  {"id":6069238213499,"lat":50.012275,"lon":6.992181,"k":"p","n":"Bausendorf, Kita","g":1}
+],
+"routes":[
+  {"id":3007182359328,"t":{"ref":"355 RufBus","name":"355 RufBus: Bengel, Birkenweg - Wittlich, ZOB","from":"Bengel, Birkenweg","to":"Wittlich, ZOB","operator":"BKR Mobility","route":"bus","public_transport:version":"2"},"n":10,"s":[[6027080534380,5]]},
+  {"id":3012842486924,"t":{"ref":"355","name":"355: Wittlich, ZOB - Bengel, Birkenweg","from":"Wittlich, ZOB","to":"Bengel, Birkenweg","operator":"BKR Mobility","route":"bus","public_transport:version":"2"},"n":11,"s":[[6069238213499,6],[1108889317,7]]},
+  {"id":3032211630869,"t":{"ref":"355","name":"355: Bengel, Birkenweg - Wittlich, ZOB","from":"Bengel, Birkenweg","to":"Wittlich, ZOB","operator":"BKR Mobility","route":"bus","public_transport:version":"2"},"n":10,"s":[[6027080534380,5]]},
+  {"id":3049643386643,"t":{"ref":"355 RufBus","name":"355 RufBus: Wittlich, ZOB - Bengel, Birkenweg","from":"Wittlich, ZOB","to":"Bengel, Birkenweg","operator":"BKR Mobility","route":"bus","public_transport:version":"2"},"n":11,"s":[[6069238213499,6],[1108889317,7]]},
+  {"id":3053822432433,"t":{"ref":"358 RufBus","name":"358 RufBus: Hontheim, Wittlicher Straße - Bausendorf, Parkanlage","from":"Hontheim, Wittlicher Straße","to":"Bausendorf, Parkanlage","operator":"BKR Mobility","route":"bus","public_transport:version":"2"},"n":9,"s":[[1108889317,7],[1224117538,8],[6027080534380,9]]},
+  {"id":3064184415771,"t":{"ref":"358 RufBus","name":"358 RufBus: Bausendorf, Kita - Hontheim/W, Bertricher Straße","from":"Bausendorf, Kita","to":"Hontheim/W, Bertricher Straße","operator":"BKR Mobility","route":"bus","public_transport:version":"2"},"n":9,"s":[[6069238213499,1],[1224117538,2],[1108889317,3]]}
+]
+}

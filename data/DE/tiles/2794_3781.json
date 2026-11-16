@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2794,3781],
+"stops":[
+  {"id":302280658,"lat":49.714448,"lon":9.096732,"k":"p","n":"Vielbrunn Römerstraße"},
+  {"id":302735950,"lat":49.718775,"lon":9.07303,"k":"p","n":"Kimbach Friedhof"},
+  {"id":302735954,"lat":49.721069,"lon":9.069596,"k":"p","n":"Kimbach Nußbaum"},
+  {"id":302735956,"lat":49.721152,"lon":9.069651,"k":"p","n":"Kimbach Nußbaum"},
+  {"id":302735959,"lat":49.723182,"lon":9.066367,"k":"p","n":"Kimbach Gasthaus Grüner Baum"},
+  {"id":302735961,"lat":49.727578,"lon":9.062201,"k":"p","n":"Kimbach Odenwaldbaumstraße"},
+  {"id":302735962,"lat":49.727544,"lon":9.062613,"k":"p","n":"Kimbach Odenwaldbaumstraße"},
+  {"id":528928420,"lat":49.701555,"lon":9.050124,"k":"x","n":"Weiten-Gesäß Berlieb"},
+  {"id":4766531964,"lat":49.723535,"lon":9.066354,"k":"p","n":"Kimbach Gasthaus Grüner Baum"},
+  {"id":4766531965,"lat":49.714717,"lon":9.086627,"k":"p","n":"Vielbrunn Kreuzung"},
+  {"id":4766531967,"lat":49.714568,"lon":9.087706,"k":"p","n":"Vielbrunn Kreuzung"},
+  {"id":4770786892,"lat":49.711658,"lon":9.09998,"k":"p","n":"Vielbrunn Schwimmbad"},
+  {"id":7188877128,"lat":49.714499,"lon":9.096496,"k":"p","n":"Vielbrunn Römerstraße"},
+  {"id":7191909595,"lat":49.70518,"lon":9.055765,"k":"p","n":"Weiten-Gesäß Am Zuckerbuckel"}
+],
+"routes":[
+  {"id":10680436,"t":{"ref":"41","name":"OREG-41","from":"Weiten-Gesäß","to":"Michelstadt Bienenmarkt","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"1"},"n":6,"s":[[528928420,1]]},
+  {"id":21223507,"t":{"ref":"6","name":"OREG 6","from":"Erlenbach","to":"Weiten-Gesäß","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"1"},"n":8,"s":[[528928420,7],[7191909595,8]]},
+  {"id":3005191520012,"t":{"ref":"37","name":"OREG 37","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":13,"s":[[4770786892,1],[7188877128,2],[4766531967,3],[302735950,4],[302735956,5],[4766531964,6],[302735962,7]]},
+  {"id":3007416559242,"t":{"ref":"6","name":"OREG 6","from":"Weiten-Gesäß","to":"Erlenbach","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":20,"s":[[7191909595,1],[528928420,2]]},
+  {"id":3040314470920,"t":{"ref":"37","name":"OREG 37","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":12,"s":[[4770786892,1],[7188877128,2],[4766531967,3],[302735956,4],[4766531964,5],[302735962,6]]},
+  {"id":3042067376265,"t":{"ref":"6","name":"OREG 6","from":"Weiten-Gesäß","to":"Erlenbach","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":22,"s":[[528928420,21],[7191909595,22]]},
+  {"id":3046259590496,"t":{"ref":"37","name":"OREG 37","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":12,"s":[[302735961,7],[302735959,8],[302735954,9],[4766531965,10],[302280658,11],[4770786892,12]]},
+  {"id":3048877205969,"t":{"ref":"49","name":"Bus 40: Vielbrunn => Erbach","from":"Vielbrunn / Schwimmbad","to":"Michelstadt Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":11,"s":[[4766531965,9],[302280658,10],[4770786892,11]]},
+  {"id":3065787676131,"t":{"ref":"37","name":"OREG 37","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":10,"s":[[302735961,7],[302735959,8],[302735954,9],[4770786892,10]]},
+  {"id":3075498962585,"t":{"ref":"49","name":"Bus 40: Vielbrunn => Erbach","from":"Vielbrunn / Schwimmbad","to":"Michelstadt Bahnhof","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":11,"s":[[4770786892,1],[7188877128,2],[4766531967,3]]},
+  {"id":3075762480245,"t":{"ref":"40","name":"Bus 40: Vielbrunn/Würzberg => Erbach","from":"Erbach","to":"Vielbrunn/Würzberg","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":26,"s":[[4766531965,24],[302280658,25],[4770786892,26]]},
+  {"id":3084025241962,"t":{"ref":"6","name":"OREG 6","from":"Weiten-Gesäß","to":"Erlenbach","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":17,"s":[[528928420,2]]},
+  {"id":3091136101621,"t":{"ref":"40","name":"Bus 40: Vielbrunn/Würzberg => Erbach","from":"Erbach","to":"Vielbrunn/Würzberg","network":"Rhein-Main-Verkehrsverbund","operator":"Odenwälder Verkehrsbetriebe","route":"bus","public_transport:version":"2"},"n":27,"s":[[4770786892,1],[7188877128,2],[4766531967,3]]}
+]
+}

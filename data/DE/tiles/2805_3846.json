@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2805,3846],
+"stops":[
+  {"id":1394184124,"lat":50.259073,"lon":12.300816,"k":"p","n":"Raun, Felsenkeller"},
+  {"id":2689873423,"lat":50.273104,"lon":12.330206,"k":"p","n":"Landwüst, Wende"},
+  {"id":5186582406,"lat":50.259081,"lon":12.300852,"k":"x","n":"Raun, Felsenkeller"},
+  {"id":8453909858,"lat":50.298571,"lon":12.327817,"k":"p","n":"Markneukirchen, Heiterer Blick"},
+  {"id":8715957486,"lat":50.258168,"lon":12.301621,"k":"x","n":"Raun, Felsenkeller"},
+  {"id":8715957487,"lat":50.258184,"lon":12.301653,"k":"p","n":"Raun, Felsenkeller"},
+  {"id":8739604833,"lat":50.27306,"lon":12.330134,"k":"x","n":"Landwüst, Wende"},
+  {"id":8739604836,"lat":50.288127,"lon":12.318129,"k":"x","n":"Schönlind, Haus Glier"},
+  {"id":8739604837,"lat":50.288196,"lon":12.318205,"k":"p","n":"Schönlind, Haus Glier"},
+  {"id":8739604838,"lat":50.288063,"lon":12.318061,"k":"p","n":"Schönlind, Haus Glier"},
+  {"id":8739604839,"lat":50.284008,"lon":12.314396,"k":"x","n":"Schönlind, Warte"},
+  {"id":8739604840,"lat":50.284049,"lon":12.314334,"k":"p","n":"Schönlind, Warte"},
+  {"id":8739604841,"lat":50.283958,"lon":12.314469,"k":"p","n":"Schönlind, Warte"},
+  {"id":8739604842,"lat":50.2986,"lon":12.327818,"k":"x","n":"Markneukirchen, Heiterer Blick"},
+  {"id":8739604843,"lat":50.298634,"lon":12.327814,"k":"p","n":"Markneukirchen, Heiterer Blick"}
+],
+"routes":[
+  {"id":12792100,"t":{"ref":"32","name":"Bus 32: Markneukirchen => Landwüst","from":"Markneukirchen, Gewerbegebiet","to":"Landwüst, Wende","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":10,"s":[[8739604843,7],[8739604838,8],[8739604841,9],[2689873423,10]]},
+  {"id":13804864,"t":{"ref":"32","name":"Bus 32: Landwüst => Markneukirchen => Erlbach","from":"Landwüst, Wende","to":"Erlbach, Schule","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":12,"s":[[2689873423,1],[8739604840,2],[8739604837,3],[8453909858,4]]},
+  {"id":13804865,"t":{"ref":"32","name":"Bus 32: Erlbach => Markneukirchen => Landwüst","from":"Erlbach, Schule","to":"Landwüst, Wende","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":13,"s":[[8739604843,10],[8739604838,11],[8739604841,12],[2689873423,13]]},
+  {"id":3015326947642,"t":{"ref":"32","name":"Bus 32: Landwüst => Markneukirchen","from":"Landwüst, Wende","to":"Markneukirchen, Gewerbegebiet","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":9,"s":[[8739604843,6],[8739604836,7],[8739604841,8],[2689873423,9]]},
+  {"id":3028339571200,"t":{"ref":"32","name":"Bus 32: Landwüst => Markneukirchen","from":"Landwüst, Wende","to":"Markneukirchen, Gewerbegebiet","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":10,"s":[[2689873423,1],[8739604841,2],[8739604836,3],[8453909858,4]]},
+  {"id":3029574388161,"t":{"ref":"32","name":"Bus 32: Landwüst => Markneukirchen","from":"Landwüst, Wende","to":"Markneukirchen, Gewerbegebiet","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":10,"s":[[8739604843,7],[8739604836,8],[8739604841,9],[2689873423,10]]},
+  {"id":3058308956831,"t":{"ref":"36","name":"Bus 36: Bad Brambach => Gürth","from":"Bad Brambach, Bahnhof","to":"Gürth, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":11,"s":[[8715957486,8]]},
+  {"id":3069834339382,"t":{"ref":"32","name":"Bus 32: Landwüst => Markneukirchen","from":"Landwüst, Wende","to":"Markneukirchen, Gewerbegebiet","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":9,"s":[[2689873423,1],[8739604841,2],[8739604836,3],[8453909858,4]]},
+  {"id":3099321139665,"t":{"ref":"36","name":"Bus 36: Gürth => Bad Brambach","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":11,"s":[[5186582406,4]]}
+]
+}

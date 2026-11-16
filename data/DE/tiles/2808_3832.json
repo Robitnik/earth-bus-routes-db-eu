@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2808,3832],
+"stops":[
+  {"id":276782057,"lat":50.448309,"lon":11.640516,"k":"x","n":"Bad Lobenstein, Leonberger Platz"},
+  {"id":494783684,"lat":50.448136,"lon":11.637416,"k":"x","n":"Bad Lobenstein, Neue Gasse"},
+  {"id":1278662449,"lat":50.405214,"lon":11.620994,"k":"p","n":"Schlegel, Wartehalle"},
+  {"id":1631209061,"lat":50.447651,"lon":11.634564,"k":"x","n":"Bad Lobenstein, Bayrische Straße"},
+  {"id":2710645741,"lat":50.437986,"lon":11.600714,"k":"x","n":"Neundorf, Wartehalle"},
+  {"id":4408178547,"lat":50.441627,"lon":11.632384,"k":"x","n":"Bad Lobenstein, Median Klinik"},
+  {"id":5468679941,"lat":50.449423,"lon":11.642037,"k":"x","n":"Bad Lobenstein, Ardesia Therme"},
+  {"id":5665187892,"lat":50.444765,"lon":11.632326,"k":"x","n":"Bad Lobenstein, Sieglitzweg"},
+  {"id":6468314524,"lat":50.405165,"lon":11.620956,"k":"p","n":"Schlegel, Wartehalle"},
+  {"id":8319052522,"lat":50.446348,"lon":11.635559,"k":"x","n":"Bad Lobenstein, Otto-Nuschke-Straße"},
+  {"id":8850745914,"lat":50.422812,"lon":11.640377,"k":"x","n":"Lichtenbrunn"},
+  {"id":9524154896,"lat":50.448276,"lon":11.640504,"k":"p","n":"Bad Lobenstein, Leonberger Platz"},
+  {"id":12532392061,"lat":50.447619,"lon":11.634612,"k":"p","n":"Bad Lobenstein, Bayrische Straße"},
+  {"id":12532392062,"lat":50.448093,"lon":11.637443,"k":"p","n":"Bad Lobenstein, Neue Gasse"},
+  {"id":12532392086,"lat":50.444741,"lon":11.632312,"k":"p","n":"Bad Lobenstein, Sieglitzweg"},
+  {"id":12532392087,"lat":50.441654,"lon":11.632384,"k":"p","n":"Bad Lobenstein, Median Klinik"},
+  {"id":12532392098,"lat":50.449398,"lon":11.642127,"k":"p","n":"Bad Lobenstein, Ardesia Therme"},
+  {"id":12806914469,"lat":50.422774,"lon":11.640398,"k":"p","n":"Lichtenbrunn"},
+  {"id":12807006555,"lat":50.405196,"lon":11.620978,"k":"x","n":"Schlegel, Wartehalle"},
+  {"id":12807006564,"lat":50.437959,"lon":11.600695,"k":"p","n":"Neundorf, Wartehalle"}
+],
+"routes":[
+  {"id":12867208,"t":{"ref":"640","name":"Bus 640: Titschendorf => Neundorf, Wartehalle => Bad Lobenstein, Busbahnhof","from":"Titschendorf","to":"Bad Lobenstein, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":7,"s":[[12807006564,4],[12532392061,5],[9524154896,6]]},
+  {"id":18612119,"t":{"ref":"L1","name":"Stadtmobil Bad Lobenstein L1: Bad Lobenstein, Einkaufszentrum => Bad Lobenstein, Einkaufszentrum","from":"Bad Lobenstein, Einkaufszentrum","to":"Bad Lobenstein, Einkaufszentrum","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#F07F3C","route":"bus","public_transport:version":"2"},"n":23,"s":[[9524154896,4,18],[12532392098,5,19]]},
+  {"id":18612120,"t":{"ref":"L1","name":"Stadtmobil Bad Lobenstein L1: Bad Lobenstein, Einkaufszentrum => Bad Lobenstein, Median Klinik => Bad Lobenstein, Einkaufszentrum","from":"Bad Lobenstein, Einkaufszentrum","to":"Bad Lobenstein, Einkaufszentrum","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#F07F3C","route":"bus","public_transport:version":"2"},"n":28,"s":[[9524154896,4,23],[12532392098,5,24],[12532392087,20],[12532392086,21],[12532392062,22]]},
+  {"id":19074890,"t":{"ref":"620","name":"Bus 620: Ziegenrück, Pößnecker Straße => Bad Lobenstein, Leonberger Platz","from":"Ziegenrück, Pößnecker Straße","to":"Bad Lobenstein, Leonberger Platz","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":14,"s":[[9524154896,14]]},
+  {"id":19076610,"t":{"ref":"640","name":"Bus 640: Blankenstein, Selbitzplatz => Neundorf, Wartehalle => Bad Lobenstein, Busbahnhof","from":"Blankenstein, Selbitzplatz","to":"Bad Lobenstein, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":9,"s":[[12807006564,6],[12532392061,7],[9524154896,8]]},
+  {"id":19076611,"t":{"ref":"640","name":"Bus 640: Blankenstein, Selbitzplatz => Lichtenbrunn => Neundorf, Wartehalle => Bad Lobenstein, Busbahnhof","from":"Blankenstein, Selbitzplatz","to":"Bad Lobenstein, Busbahnhof","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":10,"s":[[12806914469,4],[12807006564,7],[12532392061,8],[9524154896,9]]},
+  {"id":19076612,"t":{"ref":"640","name":"Bus 640: Bad Lobenstein, Busbahnhof => Neundorf, Wartehalle => Lichtenbrunn => Blankenstein, Selbitzplatz","from":"Bad Lobenstein, Busbahnhof","to":"Blankenstein, Selbitzplatz","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":10,"s":[[9524154896,2],[12807006564,3],[6468314524,4],[12806914469,7]]},
+  {"id":19076613,"t":{"ref":"640","name":"Bus 640: Bad Lobenstein, Busbahnhof => Neundorf, Wartehalle => Titschendorf","from":"Bad Lobenstein, Busbahnhof","to":"Titschendorf","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":5,"s":[[12807006564,2]]},
+  {"id":3016268948447,"t":{"ref":"640","name":"Bus 640: Bad Lobenstein, Busbahnhof => Neundorf, Wartehalle => Blankenstein, Selbitzplatz","from":"Bad Lobenstein, Busbahnhof","to":"Blankenstein, Selbitzplatz","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#f08143","route":"bus","public_transport:version":"2"},"n":8,"s":[[12807006555,7],[2710645741,8]]},
+  {"id":3055482760886,"t":{"ref":"620","name":"620: Bad Lobenstein, Busbahnhof - Blankenstein, Selbitzplatz","from":"Bad Lobenstein, Busbahnhof","to":"Blankenstein, Selbitzplatz","operator":"Kombus","route":"bus","public_transport:version":"2"},"n":6,"s":[[9524154896,2]]},
+  {"id":3064551798236,"t":{"ref":"620","name":"620: Blankenstein, Selbitzplatz - Bad Lobenstein, Busbahnhof","from":"Blankenstein, Selbitzplatz","to":"Bad Lobenstein, Busbahnhof","operator":"Kombus","route":"bus","public_transport:version":"2"},"n":6,"s":[[5468679941,5]]},
+  {"id":3098029140195,"t":{"ref":"L1","name":"Stadtmobil Bad Lobenstein L1: Bad Lobenstein, Einkaufszentrum => Unterlemnitz => Helmsgrün => Bad Lobenstein Median Klinik => Bad Lobenstein, Einkaufszentrum","from":"Bad Lobenstein, Einkaufszentrum","to":"Bad Lobenstein, Einkaufszentrum","network":"Verkehrsverbund Mittelthüringen","operator":"KomBus GmbH","colour":"#F07F3C","route":"bus","public_transport:version":"2"},"n":34,"s":[[9524154896,4,29],[5468679941,5,24],[4408178547,25],[12532392086,26],[1631209061,27],[12532392062,28],[12532392098,30]]}
+]
+}

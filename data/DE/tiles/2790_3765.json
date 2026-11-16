@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2790,3765],
+"stops":[
+  {"id":1875017617,"lat":49.516182,"lon":8.288236,"k":"p","n":"Lambsheim, Türmchen"},
+  {"id":2660117316,"lat":49.54721,"lon":8.262745,"k":"p","n":"Gerolsheim, Mitte"},
+  {"id":2660117318,"lat":49.547217,"lon":8.263524,"k":"p","n":"Gerolsheim, Mitte"},
+  {"id":2660117320,"lat":49.547513,"lon":8.265712,"k":"p","n":"Gerolsheim, Ost"},
+  {"id":2660117322,"lat":49.547547,"lon":8.26546,"k":"p","n":"Gerolsheim, Ost"},
+  {"id":2660117727,"lat":49.546739,"lon":8.258584,"k":"p","n":"Gerolsheim, Siedlung"},
+  {"id":2660117728,"lat":49.54681,"lon":8.258432,"k":"p","n":"Gerolsheim, Siedlung"},
+  {"id":4918258023,"lat":49.500605,"lon":8.291368,"k":"p","n":"Lambsheim, Süd"},
+  {"id":4918362973,"lat":49.504832,"lon":8.291386,"k":"p","n":"Lambsheim, Tankstelle"},
+  {"id":4918367472,"lat":49.508626,"lon":8.28781,"k":"p","n":"Lambsheim, Mühltorstraße"},
+  {"id":4918369562,"lat":49.50926,"lon":8.282883,"k":"p","n":"Lambsheim, Karl-Wendel-Schule"},
+  {"id":4918379278,"lat":49.512372,"lon":8.28679,"k":"p","n":"Lambsheim, Kirche"},
+  {"id":4918398687,"lat":49.516292,"lon":8.288213,"k":"p","n":"Lambsheim, Türmchen"},
+  {"id":4918412568,"lat":49.518213,"lon":8.287507,"k":"p","n":"Lambsheim, Friedhof"},
+  {"id":4918481576,"lat":49.519309,"lon":8.252132,"k":"p","n":"Weisenheim, Lambsheimer Straße"},
+  {"id":4923871853,"lat":49.512737,"lon":8.286862,"k":"p","n":"Lambsheim, Kirche"},
+  {"id":7905491900,"lat":49.518223,"lon":8.287358,"k":"p","n":"Lambsheim, Friedhof"},
+  {"id":7905491901,"lat":49.508619,"lon":8.287619,"k":"p","n":"Lambsheim, Mühltorstraße"},
+  {"id":7905491902,"lat":49.503841,"lon":8.291326,"k":"p","n":"Lambsheim, Tankstelle"},
+  {"id":7905491903,"lat":49.50062,"lon":8.291277,"k":"p","n":"Lambsheim, Süd"},
+  {"id":7905499705,"lat":49.519186,"lon":8.252269,"k":"p","n":"Weisenheim, Lambsheimer Straße"},
+  {"id":6086392904838,"lat":49.507719,"lon":8.288297,"k":"p","n":"Lambsheim, Mühltorstraße","g":1}
+],
+"routes":[
+  {"id":7336220,"t":{"ref":"482","name":"Bus 482: Maxdorf => Freinsheim","from":"Maxdorf","to":"Freinsheim","network":"Verkehrsverbund Rhein-Neckar","operator":"PalatinaBus","route":"bus","public_transport:version":"2"},"n":11,"s":[[4918258023,3],[4918362973,4],[4918367472,5],[4918379278,6],[4918398687,7],[4918412568,8],[4918481576,9]]},
+  {"id":7341956,"t":{"ref":"482","name":"Bus 482: Freinsheim => Maxdorf","from":"Freinsheim","to":"Maxdorf","network":"Verkehrsverbund Rhein-Neckar","operator":"PalatinaBus","route":"bus","public_transport:version":"2"},"n":12,"s":[[7905499705,4],[7905491900,5],[1875017617,6],[4923871853,7],[7905491901,8],[7905491902,9],[7905491903,10]]},
+  {"id":12102559,"t":{"ref":"452","name":"Bus 452: Grünstadt Bf. => Frankenthal Hbf.","from":"Grünstadt Bf.","to":"Frankenthal Hbf.","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","route":"bus","public_transport:version":"2"},"n":21,"s":[[7905499705,10],[7905491900,11]]},
+  {"id":13458218,"t":{"ref":"482","name":"Bus 482: Maxdorf => Gerolsheim => Freinsheim","from":"Maxdorf","to":"Freinsheim","network":"Verkehrsverbund Rhein-Neckar","operator":"PalatinaBus","route":"bus","public_transport:version":"2"},"n":6,"s":[[2660117322,2],[2660117316,3],[2660117728,4]]},
+  {"id":3005431792803,"t":{"ref":"4980","name":"4980: Maxdorf, Schulzentrum - Heuchelheim, Ort","from":"Maxdorf, Schulzentrum","to":"Heuchelheim, Ort","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":12,"s":[[7905491903,6],[4918362973,7],[4918367472,8],[4918398687,9],[4918412568,10]]},
+  {"id":3017655136634,"t":{"ref":"461","name":"Bus 461: Grünstadt Bf. => Heßheim Mitte => Oppau Endstelle","from":"Grünstadt Bf.","to":"Oppau Endstelle","network":"Verkehrsverbund Rhein-Neckar","colour":"#ff8834","route":"bus","public_transport:version":"2"},"n":27,"s":[[2660117727,8],[2660117318,9],[2660117320,10]]},
+  {"id":3041852847612,"t":{"ref":"461","name":"Bus 461: Oppau Endstelle => Heßheim Mitte => Grünstadt Bf.","from":"Oppau Endstelle","to":"Grünstadt Bf.","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#ff8834","route":"bus","public_transport:version":"2"},"n":21,"s":[[2660117320,12],[2660117316,13],[2660117727,14]]},
+  {"id":3042139102344,"t":{"ref":"461","name":"Bus 461: Oppau Endstelle => Heßheim Mitte => Grünstadt Bf.","from":"Oppau Endstelle","to":"Grünstadt Bf.","network":"Verkehrsverbund Rhein-Neckar","operator":"Verkehrsbetriebe Leininger Land – Eistal-Bus GmbH","colour":"#ff8834","route":"bus","public_transport:version":"2"},"n":25,"s":[[2660117320,16],[2660117316,17],[2660117727,18]]},
+  {"id":3067223002104,"t":{"ref":"461","name":"Bus 461: Grünstadt Bf. => Heßheim Mitte => Oppau Endstelle","from":"Grünstadt Bf.","to":"Oppau Endstelle","network":"Verkehrsverbund Rhein-Neckar","colour":"#ff8834","route":"bus","public_transport:version":"2"},"n":21,"s":[[2660117727,8],[2660117318,9],[2660117320,10]]},
+  {"id":3075691474266,"t":{"ref":"4980","name":"4980: Heuchelheim, Ort - Maxdorf, Schulzentrum","from":"Heuchelheim, Ort","to":"Maxdorf, Schulzentrum","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":13,"s":[[7905491900,3],[4918398687,4],[4918379278,5],[6086392904838,6],[4918362973,7],[7905491903,8]]}
+]
+}

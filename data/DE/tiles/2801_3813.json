@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2801,3813],
+"stops":[
+  {"id":266866244,"lat":50.094349,"lon":10.671756,"k":"x"},
+  {"id":1532956355,"lat":50.076367,"lon":10.660364,"k":"p","n":"Bühl (bei Königsberg)"},
+  {"id":1532956366,"lat":50.061782,"lon":10.672851,"k":"p","n":"Köslau"},
+  {"id":1532956376,"lat":50.050301,"lon":10.695471,"k":"p","n":"Pettstadt (bei Kirchlauter)"},
+  {"id":1532956388,"lat":50.050279,"lon":10.69542,"k":"x"},
+  {"id":1532956390,"lat":50.061797,"lon":10.672804,"k":"x","n":"Köslau Altes Rathaus"},
+  {"id":1532956391,"lat":50.076259,"lon":10.660573,"k":"x"},
+  {"id":4349392198,"lat":50.097412,"lon":10.665081,"k":"x"},
+  {"id":6110523749,"lat":50.097346,"lon":10.665053,"k":"p","n":"Bramberg"},
+  {"id":6110556496,"lat":50.094379,"lon":10.671467,"k":"p","n":"Abzw. Bramberg"},
+  {"id":10965618969,"lat":50.089603,"lon":10.689951,"k":"p","n":"Jesserndorf"},
+  {"id":6025228859506,"lat":50.0771,"lon":10.692108,"k":"p","n":"Weißenbrunn (b. Ebern) Dorfplatz","g":1},
+  {"id":6057667635284,"lat":50.077008,"lon":10.692755,"k":"p","n":"Weißenbrunn (b. Ebern) Dorfplatz","g":1},
+  {"id":6059420157301,"lat":50.097833,"lon":10.66453,"k":"p","n":"Bramberg Bramberger Hauptstr.","g":1},
+  {"id":6089154162851,"lat":50.097798,"lon":10.664395,"k":"p","n":"Bramberg Bramberger Hauptstr.","g":1},
+  {"id":6089747966189,"lat":50.097798,"lon":10.664395,"k":"p","n":"Bramberg Bramberger Hauptstr.","g":1}
+],
+"routes":[
+  {"id":1242092,"t":{"ref":"945","name":"DE_VGN_945_1_01: Pettstadt (bei Kirchlauter) => Ebern Parkplatz Mittelschule","from":"Pettstadt (bei Kirchlauter)","to":"Ebern Parkplatz Mittelschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Bernhard Hümmer Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":12,"s":[[1532956376,1],[1532956366,2],[1532956355,3]]},
+  {"id":1242100,"t":{"ref":"945","name":"DE_VGN_945_2_02: Ebern Parkplatz Mittelschule => Ebern Grundschule => Pettstadt (bei Kirchlauter)","from":"Ebern Parkplatz Mittelschule","to":"Pettstadt (bei Kirchlauter)","network":"Verkehrsverbund Großraum Nürnberg","operator":"Bernhard Hümmer Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":13,"s":[[1532956355,11],[1532956366,12],[1532956376,13]]},
+  {"id":3381294,"t":{"ref":"945","name":"DE_VGN_945_2_03: Ebern Parkplatz Mittelschule => Pettstadt (bei Kirchlauter)","from":"Ebern Parkplatz Mittelschule","to":"Pettstadt (bei Kirchlauter)","network":"Verkehrsverbund Großraum Nürnberg","operator":"Bernhard Hümmer Omnibusbetrieb","route":"bus","public_transport:version":"2"},"n":12,"s":[[1532956355,10],[1532956366,11],[1532956376,12]]},
+  {"id":9385982,"t":{"ref":"1172","name":"DE_VGN_1172_1_02: Gemünd => Ebern Grundschule","from":"Gemünd","to":"Ebern Grundschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[6110523749,2]]},
+  {"id":9385985,"t":{"ref":"1172","name":"DE_VGN_1172_1_01: Gemünd => Ebern Parkplatz Mittelschule","from":"Gemünd","to":"Ebern Parkplatz Mittelschule","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[6110523749,2]]},
+  {"id":9386019,"t":{"ref":"1172","name":"DE_VGN_1172_2_03: Ebern Parkplatz Mittelschule => Höchstädten","from":"Ebern Parkplatz Mittelschule","to":"Höchstädten","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[6110523749,3]]},
+  {"id":9386020,"t":{"ref":"1172","name":"DE_VGN_1172_2_02: Ebern Grundschule => Ebern Parkplatz Mittelschule => Höchstädten","from":"Ebern Grundschule","to":"Höchstädten","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":9,"s":[[6110523749,4]]},
+  {"id":9386022,"t":{"ref":"1172","name":"DE_VGN_1172_2_01: Ebern Grundschule => Höchstädten","from":"Ebern Grundschule","to":"Höchstädten","network":"Verkehrsverbund Großraum Nürnberg","operator":"Ebner Reisen","route":"bus","public_transport:version":"2"},"n":8,"s":[[6110523749,3]]},
+  {"id":3034035907680,"t":{"ref":"1158","name":"1158: Pettstadt Staatsstr. - Ebelsbach-Eltmann","from":"Pettstadt Staatsstr.","to":"Ebelsbach-Eltmann","operator":"Haßberge","route":"bus","public_transport:version":"2"},"n":17,"s":[[1532956376,1]]},
+  {"id":3034444524160,"t":{"ref":"1172 Rufbus","name":"1172 Rufbus: Höchstädten - Ebern, Grund-/Realschule","from":"Höchstädten","to":"Ebern, Grund-/Realschule","operator":"Huemmer","route":"bus","public_transport:version":"2"},"n":17,"s":[[6089747966189,7],[10965618969,8],[6057667635284,9]]},
+  {"id":3040124138700,"t":{"ref":"1158","name":"1158: Ebelsbach-Eltmann - Pettstadt Staatsstr.","from":"Ebelsbach-Eltmann","to":"Pettstadt Staatsstr.","operator":"Haßberge","route":"bus","public_transport:version":"2"},"n":17,"s":[[1532956376,17]]},
+  {"id":3066444202069,"t":{"ref":"1183","name":"1183: Königsberg Regiomontanusstr. - Köslau Altes Rathaus","from":"Königsberg Regiomontanusstr.","to":"Köslau Altes Rathaus","operator":"Wagenhäuser","route":"bus","public_transport:version":"2"},"n":5,"s":[[1532956355,4],[1532956390,5]]},
+  {"id":3071846469152,"t":{"ref":"1155","name":"1155: Ebern Realschule Parkplatz - Haßfurt Krankenhaus","from":"Ebern Realschule Parkplatz","to":"Haßfurt Krankenhaus","operator":"Wagenhäuser","route":"bus","public_transport:version":"2"},"n":15,"s":[[10965618969,7],[6110556496,8]]},
+  {"id":3086898865789,"t":{"ref":"1172 Rufbus","name":"1172 Rufbus: Ebern, Grund-/Realschule - Höchstädten","from":"Ebern, Grund-/Realschule","to":"Höchstädten","operator":"Huemmer","route":"bus","public_transport:version":"2"},"n":18,"s":[[6025228859506,9],[10965618969,10],[6059420157301,11]]},
+  {"id":3094039532111,"t":{"ref":"1155","name":"1155: Haßfurt - Ebern Realschule Parkplatz","from":"Haßfurt","to":"Ebern Realschule Parkplatz","operator":"Wagenhäuser","route":"bus","public_transport:version":"2"},"n":14,"s":[[6089154162851,7],[10965618969,8]]}
+]
+}

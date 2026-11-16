@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2821,3785],
+"stops":[
+  {"id":793000912,"lat":51.072175,"lon":9.25507,"k":"p","n":"Kleinenglis"},
+  {"id":847185727,"lat":51.072111,"lon":9.255036,"k":"x","n":"Kleinenglis"},
+  {"id":1736649597,"lat":51.078848,"lon":9.275401,"k":"p","n":"Großenenglis"},
+  {"id":1736649598,"lat":51.079403,"lon":9.275486,"k":"p","n":"Großenenglis"},
+  {"id":1736649600,"lat":51.076042,"lon":9.273528,"k":"p","n":"Mitte"},
+  {"id":1736649601,"lat":51.076331,"lon":9.273701,"k":"p","n":"Mitte"},
+  {"id":1736649675,"lat":51.080764,"lon":9.278413,"k":"p","n":"Udenbörner Straße"},
+  {"id":1736649676,"lat":51.080659,"lon":9.277738,"k":"p","n":"Udenbörner Straße"},
+  {"id":6717789092,"lat":51.065133,"lon":9.289188,"k":"p","n":"Gombeth"},
+  {"id":6717789093,"lat":51.065239,"lon":9.289371,"k":"p","n":"Gombeth"},
+  {"id":6736223161,"lat":51.075586,"lon":9.25827,"k":"p","n":"Grundschule"},
+  {"id":6736369740,"lat":51.056342,"lon":9.268405,"k":"p","n":"Kraftwerk"},
+  {"id":8939654893,"lat":51.050341,"lon":9.276751,"k":"p","n":"Bahnhof"}
+],
+"routes":[
+  {"id":3002116218672,"t":{"ref":"407","name":"407: Borken Schule - Borken-Lendorf","from":"Borken Schule","to":"Borken-Lendorf","operator":"Frölich Reisen GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[6736369740,3]]},
+  {"id":3006677720024,"t":{"ref":"407","name":"407: Borken-Kleinenglis Grundschule - Borken-Arnsbach","from":"Borken-Kleinenglis Grundschule","to":"Borken-Arnsbach","operator":"Frölich Reisen GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[6736223161,1],[1736649600,2],[1736649676,3]]},
+  {"id":3008223328486,"t":{"ref":"413","name":"413: Fritzlar Allee - Borken Schule","from":"Fritzlar Allee","to":"Borken Schule","operator":"Frölich Reisen GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[1736649597,6],[1736649601,7],[793000912,8],[6717789092,9]]},
+  {"id":3037167222606,"t":{"ref":"460","name":"460: Borken-Kleinenglis - Rauschenberg-Josbach Ortsmitte","from":"Borken-Kleinenglis","to":"Rauschenberg-Josbach Ortsmitte","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":13,"s":[[793000912,1]]},
+  {"id":3045701947929,"t":{"ref":"460","name":"460: Rauschenberg-Josbach Ortsmitte - Borken-Kleinenglis","from":"Rauschenberg-Josbach Ortsmitte","to":"Borken-Kleinenglis","operator":"Reisedienst Bonte","route":"bus","public_transport:version":"2"},"n":13,"s":[[793000912,13]]},
+  {"id":3069949438480,"t":{"ref":"413","name":"413: Borken Schule - Fritzlar Allee","from":"Borken Schule","to":"Fritzlar Allee","operator":"Frölich Reisen GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[6717789093,4],[793000912,5],[1736649600,6],[1736649598,7]]}
+]
+}

@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2782,3751],
+"stops":[
+  {"id":1371136007,"lat":49.116733,"lon":7.563458,"k":"p","n":"Eppenbrunn Haardtstr."},
+  {"id":1371136008,"lat":49.114815,"lon":7.566111,"k":"p","n":"Eppenbrunn Höhstraße"},
+  {"id":1371136009,"lat":49.115942,"lon":7.554055,"k":"p","n":"Eppenbrunn Bürgerhaus"},
+  {"id":1371136010,"lat":49.116247,"lon":7.557966,"k":"p","n":"Eppenbrunn Ortsmitte"},
+  {"id":1371136023,"lat":49.145285,"lon":7.572872,"k":"p","n":"Felsenbrunnerhof"},
+  {"id":1371136119,"lat":49.137972,"lon":7.574791,"k":"p","n":"Hochstellerhof"},
+  {"id":1371136190,"lat":49.138211,"lon":7.593547,"k":"p","n":"Kettrichhof"},
+  {"id":4432957519,"lat":49.137985,"lon":7.574895,"k":"x","n":"Hochstellerhof"},
+  {"id":7696517198,"lat":49.115899,"lon":7.554069,"k":"x","n":"Eppenbrunn Bürgerhaus"},
+  {"id":7696517199,"lat":49.115905,"lon":7.553694,"k":"x","n":"Eppenbrunn Bürgerhaus"},
+  {"id":7696517200,"lat":49.115851,"lon":7.553701,"k":"p","n":"Eppenbrunn Bürgerhaus"},
+  {"id":7696517201,"lat":49.116281,"lon":7.557955,"k":"x","n":"Eppenbrunn Ortsmitte"},
+  {"id":7696517202,"lat":49.116186,"lon":7.557488,"k":"x","n":"Eppenbrunn Ortsmitte"},
+  {"id":7696517203,"lat":49.116248,"lon":7.557473,"k":"p","n":"Eppenbrunn Ortsmitte"},
+  {"id":9017267398,"lat":49.114845,"lon":7.566127,"k":"x","n":"Eppenbrunn Höhstraße"},
+  {"id":6009379642683,"lat":49.14486,"lon":7.573076,"k":"p","n":"Felsenbrunnerhof, Ort","g":1},
+  {"id":6050511529065,"lat":49.144854,"lon":7.572924,"k":"p","n":"Felsenbrunnerhof, Ort","g":1}
+],
+"routes":[
+  {"id":3008191414069,"t":{"ref":"2563","name":"2563: Felsenbrunnerhof, Ort - Pirmasens, Hauptbahnhof","from":"Felsenbrunnerhof, Ort","to":"Pirmasens, Hauptbahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":8,"s":[[6050511529065,1],[4432957519,2],[1371136190,3]]},
+  {"id":3030413552430,"t":{"ref":"255","name":"Bus 255: Pirmasens => Eppenbrunn","from":"Pirmasens, Hauptbahnhof","to":"Eppenbrunn, Höhstraße","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":23,"s":[[7696517200,21],[1371136010,22],[1371136008,23]]},
+  {"id":3036053040076,"t":{"ref":"2563","name":"2563: Eppenbrunn, Ortsmitte - Pirmasens, Hauptbahnhof","from":"Eppenbrunn, Ortsmitte","to":"Pirmasens, Hauptbahnhof","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":33,"s":[[7696517203,1],[1371136008,2],[1371136007,3],[7696517199,4],[6050511529065,24],[4432957519,25],[1371136190,26]]},
+  {"id":3045443345813,"t":{"ref":"2563","name":"2563: Pirmasens, Hauptbahnhof - Hilst, Schule","from":"Pirmasens, Hauptbahnhof","to":"Hilst, Schule","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":11,"s":[[1371136190,6]]},
+  {"id":3054546264392,"t":{"ref":"2563","name":"2563: Pirmasens, Hauptbahnhof - Eppenbrunn, Ortsmitte","from":"Pirmasens, Hauptbahnhof","to":"Eppenbrunn, Ortsmitte","operator":"Ruftaxi","route":"bus","public_transport:version":"2"},"n":33,"s":[[1371136190,8],[4432957519,9],[6009379642683,10],[7696517199,30],[1371136007,31],[1371136008,32],[1371136010,33]]},
+  {"id":3088149698140,"t":{"ref":"255","name":"Bus 255: Eppenbrunn => Pirmasens","from":"Eppenbrunn, Höhstraße","to":"Pirmasens, Hauptbahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":26,"s":[[1371136008,1],[1371136007,2],[7696517203,3],[7696517199,4]]}
+]
+}

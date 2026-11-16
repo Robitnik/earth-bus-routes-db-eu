@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2820,3810],
+"stops":[
+  {"id":30584688,"lat":51.022933,"lon":10.519464,"k":"x","n":"Behringen, Schule"},
+  {"id":528700338,"lat":51.022805,"lon":10.525072,"k":"x","n":"Oesterbehringen"},
+  {"id":1069190571,"lat":51.021592,"lon":10.510534,"k":"x","n":"Behringen"},
+  {"id":1471258570,"lat":51.021698,"lon":10.512073,"k":"x","n":"Behringen"},
+  {"id":2806233566,"lat":51.018917,"lon":10.5069,"k":"p","n":"Wolfsbehringer Str."},
+  {"id":2806759566,"lat":51.02282,"lon":10.525752,"k":"p","n":"Oesterbehringen"},
+  {"id":3009920999,"lat":51.02164,"lon":10.512076,"k":"p","n":"Behringen"},
+  {"id":3009921001,"lat":51.044192,"lon":10.53585,"k":"p","n":"Reichenbach"},
+  {"id":3009921008,"lat":51.021653,"lon":10.510525,"k":"p","n":"Behringen"},
+  {"id":3009921010,"lat":51.022758,"lon":10.525022,"k":"p","n":"Oesterbehringen"},
+  {"id":8423386271,"lat":51.02299,"lon":10.519456,"k":"p","n":"Behringen, Schule"},
+  {"id":8423386272,"lat":51.022788,"lon":10.525737,"k":"x","n":"Oesterbehringen"},
+  {"id":8423386273,"lat":51.044206,"lon":10.535902,"k":"x","n":"Reichenbach"},
+  {"id":8433065775,"lat":51.044279,"lon":10.533969,"k":"p","n":"Reichenbach"},
+  {"id":8433065776,"lat":51.044289,"lon":10.533898,"k":"x","n":"Reichenbach"}
+],
+"routes":[
+  {"id":3000347189183,"t":{"ref":"821","name":"821: Behringen (Hainich), Schule - Gotha, Hauptbahnhof","from":"Behringen (Hainich), Schule","to":"Gotha, Hauptbahnhof","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":17,"s":[[30584688,1],[3009921010,2]]},
+  {"id":3042236259660,"t":{"ref":"822","name":"822: Wolfsbehringen - Gotha, Hauptbahnhof","from":"Wolfsbehringen","to":"Gotha, Hauptbahnhof","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":21,"s":[[2806233566,2],[3009920999,3],[30584688,4],[3009921010,5],[3009921001,6]]},
+  {"id":3042736591029,"t":{"ref":"821","name":"821: Gotha, Hauptbahnhof - Behringen (Hainich), Schule","from":"Gotha, Hauptbahnhof","to":"Behringen (Hainich), Schule","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":17,"s":[[2806759566,16],[30584688,17]]},
+  {"id":3045819879044,"t":{"ref":"822","name":"822: Gotha, Hauptbahnhof - Wolfsbehringen","from":"Gotha, Hauptbahnhof","to":"Wolfsbehringen","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":20,"s":[[8423386273,15],[2806759566,16],[30584688,17],[3009921008,18],[2806233566,19]]},
+  {"id":3065289745412,"t":{"ref":"150","name":"Bus 150: Bad Langensalza => Eisenach","from":"Bad Langensalza","to":"Eisenach","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":23,"s":[[8423386273,9],[2806759566,10],[30584688,11],[3009921008,12]]},
+  {"id":3067228732700,"t":{"ref":"150","name":"Bus 150: Eisenach => Bad Langensalza","from":"Eisenach","to":"Bad Langensalza","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":20,"s":[[3009920999,11],[30584688,12],[3009921010,13],[3009921001,14]]},
+  {"id":3080253168200,"t":{"ref":"150","name":"Bus 150: Eisenach => Bad Langensalza","from":"Eisenach","to":"Bad Langensalza","network":"Verkehrsgemeinschaft Wartburgregion","operator":"Verkehrsunternehmen Wartburgmobil","route":"bus","public_transport:version":"2"},"n":23,"s":[[3009920999,12],[30584688,13],[3009921010,14],[3009921001,15]]}
+]
+}

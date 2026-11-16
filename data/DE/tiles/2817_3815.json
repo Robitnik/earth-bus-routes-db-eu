@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2817,3815],
+"stops":[
+  {"id":3749450959,"lat":50.894515,"lon":10.77574,"k":"x","n":"Wechmar"},
+  {"id":3756022396,"lat":50.898005,"lon":10.76999,"k":"p","n":"Wechmar Schule"},
+  {"id":13107639732,"lat":50.89253,"lon":10.780542,"k":"p","n":"Wechmar, Lange Straße"},
+  {"id":13107639733,"lat":50.892557,"lon":10.780535,"k":"x"},
+  {"id":13107639743,"lat":50.89264,"lon":10.781329,"k":"x","n":"Wechmar, Lange Straße"},
+  {"id":13107639744,"lat":50.892673,"lon":10.781325,"k":"p"},
+  {"id":6002607864766,"lat":50.897639,"lon":10.766901,"k":"p","n":"Wechmar, Gewerbegebiet","g":1},
+  {"id":6071936045594,"lat":50.897674,"lon":10.766944,"k":"p","n":"Wechmar, Gewerbegebiet","g":1}
+],
+"routes":[
+  {"id":5525755,"t":{"ref":"871","name":"Bus 871: Gleichenhof => Wechmar => Gotha","network":"Verkehrsverbund Mittelthüringen","operator":"Verkehrsgemeinschaft Landkreis Gotha","route":"bus"},"n":25,"s":[[3749450959,6],[3756022396,7]]},
+  {"id":3014301331733,"t":{"ref":"870","name":"870: Gotha, Hauptbahnhof - Neudietendorf, Bahnhof","from":"Gotha, Hauptbahnhof","to":"Neudietendorf, Bahnhof","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":18,"s":[[6002607864766,5],[3749450959,6],[13107639732,7]]},
+  {"id":3032448721669,"t":{"ref":"854","name":"854: Emleben, Gartenstraße - Wechmar, Schule","from":"Emleben, Gartenstraße","to":"Wechmar, Schule","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":4,"s":[[3756022396,4]]},
+  {"id":3063240383157,"t":{"ref":"870","name":"870: Neudietendorf, Bahnhof - Gotha, Hauptbahnhof","from":"Neudietendorf, Bahnhof","to":"Gotha, Hauptbahnhof","operator":"Verkehrsgemeinschaft Landkreis Gotha GbR","route":"bus","public_transport:version":"2"},"n":19,"s":[[13107639743,12],[3749450959,13],[6071936045594,14]]}
+]
+}

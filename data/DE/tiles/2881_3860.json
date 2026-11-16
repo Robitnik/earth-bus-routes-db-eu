@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DE",
+"tile":[2881,3860],
+"stops":[
+  {"id":2021945521,"lat":54.099587,"lon":13.03758,"k":"p","n":"Grimmen, Südwest Wendeplatz"},
+  {"id":2022035602,"lat":54.097493,"lon":13.003813,"k":"p","n":"Jessin, Abzweig"},
+  {"id":2022041378,"lat":54.091177,"lon":13.016469,"k":"p","n":"Jessin, Dorf"},
+  {"id":2027095195,"lat":54.06484,"lon":13.035907,"k":"p","n":"Dönnie"},
+  {"id":2027095198,"lat":54.052258,"lon":13.046355,"k":"p","n":"Groß Rakow"},
+  {"id":2027105040,"lat":54.050762,"lon":13.036777,"k":"p","n":"Rakow, Alte Schule"},
+  {"id":9735842007,"lat":54.097314,"lon":13.004096,"k":"p","n":"Jessin, Abzweig"},
+  {"id":9890661552,"lat":54.050764,"lon":13.036723,"k":"x","n":"Rakow, Alte Schule"},
+  {"id":12192529100,"lat":54.052227,"lon":13.046485,"k":"x","n":"Groß Rakow"},
+  {"id":6092892005198,"lat":54.091229,"lon":13.013292,"k":"p","n":"Jessin Dorf","g":1}
+],
+"routes":[
+  {"id":3009516305954,"t":{"ref":"mv84","name":"Bus mv84: Greifswald => Grimmen => Sanitz","from":"Greifswald ZOB","to":"Sanitz ZOB","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Rügen mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[9735842007,3]]},
+  {"id":3010418480455,"t":{"ref":"701","name":"Bus 701: Grimmen Süd-Ost Hin","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","network":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":41,"s":[[12192529100,11]]},
+  {"id":3043604399483,"t":{"ref":"702","name":"702: Grimmen Bahnhof - Grimmen Bahnhof","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":34,"s":[[12192529100,30],[2027095195,31],[6092892005198,32],[9735842007,33]]},
+  {"id":3047538644178,"t":{"ref":"701","name":"Bus 701: Grimmen Süd-Ost Hin","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","network":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":40,"s":[[12192529100,31]]},
+  {"id":3057837012375,"t":{"ref":"702","name":"702: Grimmen Bahnhof - Grimmen Bahnhof","from":"Grimmen Bahnhof","to":"Grimmen Bahnhof","operator":"Verkehrsgesellschaft Vorpommern-Rügen","route":"bus","public_transport:version":"2"},"n":34,"s":[[9735842007,2],[6092892005198,3],[2027095195,4],[12192529100,5]]},
+  {"id":3097058848248,"t":{"ref":"mv84","name":"Bus mv84: Greifswald => Grimmen => Sanitz","from":"Greifswald ZOB","to":"Sanitz ZOB","network":"Regiobus MV","operator":"Verkehrsgesellschaft Vorpommern-Rügen mbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[9735842007,9]]}
+]
+}
