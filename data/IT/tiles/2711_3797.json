@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2711,3797],
+"stops":[
+  {"id":359688176,"lat":45.599623,"lon":9.88478,"k":"p","n":"Palazzolo - p.le Papa Giovanni XXIII"},
+  {"id":637314495,"lat":45.599304,"lon":9.885344,"k":"p","n":"Palazzolo via Torre del Popolo"},
+  {"id":637315697,"lat":45.595339,"lon":9.892767,"k":"p","n":"Palazzolo - p.le Kennedy"},
+  {"id":13505937092,"lat":45.560045,"lon":9.860627,"k":"p","n":"Pontoglio - bivio Santellone"},
+  {"id":13505937093,"lat":45.567733,"lon":9.857392,"k":"p","n":"Pontoglio - v.le Alighieri/Verdi"},
+  {"id":13505937094,"lat":45.57162,"lon":9.856651,"k":"p","n":"Pontoglio - v.le Alighieri, scuole"},
+  {"id":13505937095,"lat":45.576986,"lon":9.856909,"k":"p","n":"Pontoglio - via Palazzolo, industrie"},
+  {"id":13505937096,"lat":45.584204,"lon":9.864887,"k":"p","n":"Pontoglio - c.na Gonzere"},
+  {"id":13505937099,"lat":45.599246,"lon":9.885698,"k":"p","n":"Palazzolo - via Torre del Popolo"},
+  {"id":13505937100,"lat":45.596013,"lon":9.885675,"k":"p","n":"Palazzolo - via Matteotti"},
+  {"id":13506020401,"lat":45.592791,"lon":9.894894,"k":"p","n":"Palazzolo-v.brescia(unicar)"},
+  {"id":13507691517,"lat":45.592202,"lon":9.896375,"k":"p","n":"Palazzolo-v.brescia(benedetti)"},
+  {"id":13629313983,"lat":45.592559,"lon":9.8952,"k":"p","n":"Palazzolo - Via Brescia/Via Sauro (Dep)"},
+  {"id":13629313984,"lat":45.594145,"lon":9.872439,"k":"p","n":"Palazzolo - via palosco (rondò)"},
+  {"id":13629313985,"lat":45.592607,"lon":9.864907,"k":"p","n":"Palazzolo - via palosco"},
+  {"id":13808877859,"lat":45.595986,"lon":9.885656,"k":"p","n":"Palazzolo - via Matteotti"},
+  {"id":13951425262,"lat":45.584177,"lon":9.864982,"k":"p","n":"Pontoglio - c.na Gonzere"},
+  {"id":13951425263,"lat":45.576954,"lon":9.857153,"k":"p","n":"Pontoglio - via Palazzolo, industrie"},
+  {"id":13951425264,"lat":45.57164,"lon":9.856803,"k":"p","n":"Pontoglio - v.le Alighieri, scuole"},
+  {"id":13951425270,"lat":45.567548,"lon":9.857574,"k":"p","n":"Pontoglio - v.le Alighieri/Verdi"},
+  {"id":13951425271,"lat":45.560044,"lon":9.860772,"k":"p","n":"Pontoglio - bivio Santellone"}
+],
+"routes":[
+  {"id":20145655,"t":{"ref":"LS005","name":"Bus LS005: Palazzolo => Orzinuovi","from":"Palazzolo - via Torre del Popolo","to":"Orzinuovi - Andreana","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[637314495,1],[13808877859,2],[13505937096,3],[13505937095,4],[13505937094,5],[13505937093,6],[13505937092,7]]},
+  {"id":20145656,"t":{"ref":"LS005","name":"Bus LS005: Orzinuovi => Palazzolo","from":"Orzinuovi - Andreana","to":"Palazzolo - via Torre del Popolo","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":21,"s":[[13951425271,15],[13951425270,16],[13951425264,17],[13951425263,18],[13951425262,19],[13505937100,20],[13505937099,21]]},
+  {"id":20147712,"t":{"ref":"LS003","name":"Bus LS003: Iseo => Chiari","from":"Iseo vis Gorzoni","to":"Chiari, via del Granaio, stazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":38,"s":[[637314495,26],[13808877859,27],[13507691517,28]]},
+  {"id":20147713,"t":{"ref":"LS003","name":"Bus LS003: Chiari => Iseo","from":"Chiari, via del Granaio, stazione","to":"Iseo vis Gorzoni","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[13506020401,11],[13505937100,12],[13505937099,13]]},
+  {"id":20161333,"t":{"ref":"LS001","name":"Bus LS001: Sarnico=>Pontoglio","from":"Sarnico - Piazza Matteotti","to":"Palazzole Via Torre del Popolo","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[359688176,12]]},
+  {"id":20161334,"t":{"ref":"LS001","name":"Bus LS001: Pontoglio=>Sarnico","from":"Palazzole Via Torre del Popolo","to":"Sarnico - banca credito bergamasco","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13505937099,1]]},
+  {"id":20165286,"t":{"ref":"LS004","name":"Bus LS004: Palazzolo->Telgate->Palazzolo","from":"Palazzolo - via Torre del Popolo","to":"Palazzolo - via Torre del Popolo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[637314495,1],[13505937100,2],[637315697,3],[13507691517,4],[13505937099,12]]},
+  {"id":20177930,"t":{"ref":"LS026","name":"Bus LS026: Chiari->Brescia Variante Palazzolo Rovato","from":"Palazzolo - via Torre del Popolo","to":"Brescia Autostazione via Solferino","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":11,"s":[[637314495,1],[13808877859,2],[637315697,3],[13507691517,4]]},
+  {"id":20177931,"t":{"ref":"LS026","name":"Bus LS026: Brescia => Chiari","from":"Brescia Autostazione via Solferino","to":"Polazzola - via Torre del Popolo","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":10,"s":[[13506020401,8],[13505937100,9],[13505937099,10]]},
+  {"id":20301403,"t":{"ref":"Qa","name":"Bus Qa: Palazzolo => Bergamo","from":"Palazzolo - Via Brescia/Via Mameli (Dep)","to":"Bergamo - stazione autolinee (pens.10)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":30,"s":[[13629313983,1],[637314495,2],[13505937100,3],[13629313984,4],[13629313985,5]]},
+  {"id":20301404,"t":{"ref":"Qa","name":"Bus Qa: Bergamo => Palazzolo","from":"Bergamo - stazione autolinee (pens.10)","to":"Palazzolo - Via Brescia/Via Sauro (Dep)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":29,"s":[[13629313985,25],[13629313984,26],[13505937099,27],[13505937100,28],[13629313983,29]]}
+]
+}

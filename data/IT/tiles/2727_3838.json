@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2727,3838],
+"stops":[
+  {"id":3698469084,"lat":46.361828,"lon":11.91528,"k":"p","n":"Canale d'Agordo - Ponte"},
+  {"id":5120159245,"lat":46.363356,"lon":11.932472,"k":"p","n":"Celat di Vallada"},
+  {"id":5120159246,"lat":46.364059,"lon":11.941715,"k":"p","n":"Mas di Vallada"},
+  {"id":8414903122,"lat":46.364183,"lon":11.941567,"k":"p","n":"Mas di Vallada"},
+  {"id":8414903124,"lat":46.363465,"lon":11.932216,"k":"p","n":"Celat di Vallada"},
+  {"id":8414903125,"lat":46.361748,"lon":11.915295,"k":"p","n":"Canale d'Agordo - Ponte"},
+  {"id":9486117054,"lat":46.353877,"lon":11.912506,"k":"p","n":"Canale - Centro Pastorale Santa Giulia"},
+  {"id":9486117055,"lat":46.353858,"lon":11.91269,"k":"p","n":"Canale - Centro Pastorale Santa Giulia"},
+  {"id":9486117056,"lat":46.356649,"lon":11.913778,"k":"p","n":"Canale - Ristorante Alle Codole"},
+  {"id":9486117057,"lat":46.356644,"lon":11.913586,"k":"p","n":"Canale - Ristorante Alle Codole"},
+  {"id":9486117058,"lat":46.360293,"lon":11.914655,"k":"p","n":"Canale d'Agordo - piazza"},
+  {"id":9486117059,"lat":46.360491,"lon":11.914971,"k":"p","n":"Canale d'Agordo - piazza"}
+],
+"routes":[
+  {"id":7595642,"t":{"ref":"2","name":"Agordo -> Falcade","from":"Agordo","to":"Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":22,"s":[[8414903122,9],[8414903124,10],[3698469084,11]]},
+  {"id":7597905,"t":{"ref":"71","name":"Belluno -> Agordo -> Passo San Pellegrino -> Moena","from":"Belluno FS","to":"Moena","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":47,"s":[[8414903122,28],[8414903124,29],[3698469084,30]]},
+  {"id":12300136,"t":{"ref":"2","name":"Falcade -> Agordo","from":"Falcade","to":"Agordo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":21,"s":[[8414903125,11],[5120159245,12],[5120159246,13]]},
+  {"id":12937606,"t":{"ref":"2/3/4","name":"Falcade -> Caprile -> Marmolada","from":"Falcade Piazza","to":"Pian di Fedaia Rifugio Marmolada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[5120159245,2],[8414903125,3],[5120159246,4]]},
+  {"id":12937607,"t":{"ref":"2/3/4","name":"Marmolada -> Caprile -> Falcade","from":"Pian di Fedaia Rifugio Marmolada","to":"Falcade Piazza","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":34,"s":[[3698469084,7],[8414903124,8],[8414903122,9]]},
+  {"id":13218325,"t":{"ref":"71","name":"Moena -> Passo San Pellegrino -> Agordo -> Belluno","from":"Moena","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":48,"s":[[8414903125,18],[5120159245,19],[5120159246,20]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[8414903122,44],[8414903124,45],[3698469084,46]]},
+  {"id":13769454,"t":{"ref":"2Skibus","name":"Canale Hotel Valgares -> Molino Impianti","from":"Ponte Fedare","to":"Molino Impianti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":15,"s":[[9486117055,1],[9486117056,2],[9486117059,3]]},
+  {"id":13769455,"t":{"ref":"2Skibus","name":"Molino Impianti -> Canale Hotel Valgares","from":"Molino Impianti","to":"Ponte Ferade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":16,"s":[[9486117058,14],[9486117057,15],[9486117054,16]]}
+]
+}

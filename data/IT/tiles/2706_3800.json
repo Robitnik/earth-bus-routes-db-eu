@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2706,3800],
+"stops":[
+  {"id":13452731053,"lat":45.312786,"lon":10.009584,"k":"p","n":"Quinzano D' Oglio, P.za lV Novembre"},
+  {"id":13545396428,"lat":45.313952,"lon":10.003379,"k":"p","n":"Quinzano - carabinieri"},
+  {"id":13586236346,"lat":45.317748,"lon":10.012169,"k":"p","n":"Quinzano - via matteotti"},
+  {"id":13586236347,"lat":45.335533,"lon":10.025142,"k":"p","n":"Borgo s.g. - bivio verolavecchia"},
+  {"id":13586236348,"lat":45.342991,"lon":10.030539,"k":"p","n":"Motella - crocevia"}
+],
+"routes":[
+  {"id":20081901,"t":{"ref":"K209","name":"Bus K209: Quinzano => Casalbuttano => Cremona","from":"Quinzano d'Oglio","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":25,"s":[[13452731053,1]]},
+  {"id":20082088,"t":{"ref":"K209","name":"Bus K209: Cremona => Casalbuttano => Quinzano","from":"Cremona Autostazione","to":"Quinzano d'Oglio","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":27,"s":[[13452731053,27]]},
+  {"id":20202595,"t":{"ref":"LS012","name":"Linea LS012: Quinzano => Borgo S. Giacomo =>Brescia","from":"Quinzano piazza IV Novembre","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":35,"s":[[13452731053,1],[13545396428,2]]},
+  {"id":20202596,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":33,"s":[[13545396428,32],[13452731053,33]]},
+  {"id":20246649,"t":{"ref":"LS012","name":"Linea LS012: Quinzano => Borgo S. Giacomo =>Brescia Variante diretto","from":"Quinzano piazza IV Novembre","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":7,"s":[[13452731053,1],[13586236346,2],[13586236347,3],[13586236348,4]]},
+  {"id":20246650,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano Variante Quinzno diretto","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":9,"s":[[13586236348,6],[13586236347,7],[13586236346,8],[13452731053,9]]}
+]
+}

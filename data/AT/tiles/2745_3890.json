@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2745,3890],
+"stops":[
+  {"id":1984755133,"lat":47.255399,"lon":14.517523,"k":"x","n":"Unterzeiring Abzweigung Ort"},
+  {"id":5495893920,"lat":47.276259,"lon":14.507133,"k":"x","n":"St. Oswald Ort"},
+  {"id":8538144338,"lat":47.255368,"lon":14.517485,"k":"p","n":"Unterzeiring Abzweigung Ort"},
+  {"id":8538323019,"lat":47.274681,"lon":14.500702,"k":"x","n":"St. Oswald Abzw Altmannweg"},
+  {"id":8538323020,"lat":47.274649,"lon":14.500683,"k":"p","n":"St. Oswald Abzw Altmannweg"},
+  {"id":8538323023,"lat":47.276242,"lon":14.507173,"k":"p","n":"St. Oswald Ort"},
+  {"id":8538323028,"lat":47.263495,"lon":14.507314,"k":"x","n":"St. Oswald Propstei"},
+  {"id":8538323029,"lat":47.26349,"lon":14.507375,"k":"p","n":"St. Oswald Propstei"},
+  {"id":8538323030,"lat":47.262703,"lon":14.507264,"k":"x","n":"St. Oswald Propstei"},
+  {"id":8538323031,"lat":47.262703,"lon":14.507166,"k":"p","n":"St. Oswald Propstei"},
+  {"id":5000919288251,"lat":47.255404,"lon":14.517571,"k":"p","n":"Unterzeiring Abzweigung Ort"},
+  {"id":5000919308286,"lat":47.276315,"lon":14.507188,"k":"p","n":"St. Oswald Ort"}
+],
+"routes":[
+  {"id":12236843,"t":{"ref":"871","name":"Bus 871: Pöls - Möderbrugg - Trieben","from":"Pöls Ortsmitte","to":"Trieben Busbahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":37,"s":[[5000919288251,9]]},
+  {"id":12236844,"t":{"ref":"871","name":"Bus 871: Trieben - Möderbrugg - Pöls","from":"Trieben Busbahnhof","to":"Pöls Ortsmitte","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":38,"s":[[8538144338,30]]},
+  {"id":12467252,"t":{"ref":"871","name":"Bus 871: Variante über St. Oswald (Richtung Pöls)","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":4,"s":[[8538323020,2],[8538323023,3],[8538323031,4]]},
+  {"id":12467253,"t":{"ref":"871","name":"Bus 871: Variante über St. Oswald (Richtung Möderbrugg)","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":4,"s":[[8538323029,1],[5000919308286,2]]},
+  {"id":15348926,"t":{"ref":"846","name":"Bus 846: Möderbrugg Ort => Knittelfeld Bahnhof","from":"Möderbrugg Ort","to":"Knittelfeld Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","colour":"#ffffff","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000919288251,8]]},
+  {"id":15348927,"t":{"ref":"846","name":"Bus 846: Knittelfeld Bahnhof => Möderbrugg Ort","from":"Knittelfeld Bahnhof","to":"Möderbrugg Ort","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","colour":"#ffffff","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000919288251,34]]}
+]
+}

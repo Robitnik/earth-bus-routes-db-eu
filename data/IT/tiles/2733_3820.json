@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2733,3820],
+"stops":[
+  {"id":443422855,"lat":46.650364,"lon":11.005496,"k":"s","n":"Naturns, Rathaus - Naturno, Municipio"},
+  {"id":443424035,"lat":46.661359,"lon":11.039016,"k":"p","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":731942698,"lat":46.650322,"lon":11.005698,"k":"x","n":"Naturns, Rathaus - Naturno, Municipio"},
+  {"id":759467439,"lat":46.660835,"lon":11.037332,"k":"p","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":1932407809,"lat":46.656284,"lon":11.04191,"k":"x","n":"Plaus, Dorf - Plaus, Paese"},
+  {"id":5105612871,"lat":46.694615,"lon":11.049446,"k":"p","n":"Partschinser Wasserfall - Cascata di Parcines"},
+  {"id":5105619267,"lat":46.694648,"lon":11.049446,"k":"x","n":"Partschinser Wasserfall - Cascata di Parcines"},
+  {"id":5171033094,"lat":46.660353,"lon":11.038538,"k":"p","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":5171033095,"lat":46.660359,"lon":11.038614,"k":"x","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":5171123614,"lat":46.656326,"lon":11.04185,"k":"p","n":"Plaus, Dorf - Plaus, Paese"},
+  {"id":5171153277,"lat":46.660383,"lon":11.038672,"k":"p","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":5171169367,"lat":46.658304,"lon":11.032155,"k":"p","n":"Naturns, Stein - Naturno, Stein"},
+  {"id":5171169368,"lat":46.657072,"lon":11.028939,"k":"p","n":"Naturns, Stein - Naturno, Stein"},
+  {"id":5171169369,"lat":46.657014,"lon":11.029002,"k":"x","n":"Naturns, Stein - Naturno, Stein"},
+  {"id":5172336923,"lat":46.658374,"lon":11.032111,"k":"x","n":"Naturns, Stein - Naturno, Stein"},
+  {"id":5313248085,"lat":46.660726,"lon":11.037356,"k":"x","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":5313294302,"lat":46.650241,"lon":11.005711,"k":"x","n":"Naturns, Rathaus - Naturno, Municipio"},
+  {"id":9623885506,"lat":46.661439,"lon":11.038966,"k":"x","n":"Abzweigung Plaus - Bivio Plaus"},
+  {"id":12600505843,"lat":46.6503,"lon":11.005695,"k":"p","n":"Naturns, Rathaus - Naturno, Municipio"}
+],
+"routes":[
+  {"id":3560739,"t":{"ref":"261","name":"Bus 261: Merano => Naturns => Schnalstal","from":"Merano","to":"Schnalstal","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":41,"s":[[759467439,10],[5171169368,11],[12600505843,12]]},
+  {"id":7526896,"t":{"ref":"265","name":"Bus 265: Partschins, Texelbahn - Parcines, Funivia Texel => Partschinser Wasserfall - Cascata di Parcines","from":"Partschins, Texelbahn - Parcines, Funivia Texel","to":"Partschinser Wasserfall - Cascata di Parcines","network":"Verkehrsverbund Südtirol","operator":"SiMobil GmbH","route":"bus","public_transport:version":"2","bus":"minibus"},"n":7,"s":[[5105612871,7]]},
+  {"id":7526923,"t":{"ref":"265","name":"Bus 265: Partschinser Wasserfall - Cascata di Parcines => Partschins, Texelbahn - Parcines, Funivia Texel","from":"Partschinser Wasserfall - Cascata di Parcines","to":"Partschins, Texelbahn - Parcines, Funivia Texel","network":"Verkehrsverbund Südtirol","operator":"SiMobil GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[5105612871,1]]},
+  {"id":7853090,"t":{"ref":"251","name":"Bus 251: Meran => Staben","from":"Meran - Merano","to":"Staben - Stava","network":"TVS","operator":"SASA","route":"bus","public_transport:version":"2"},"n":15,"s":[[759467439,10],[5171169368,11],[12600505843,12]]},
+  {"id":7885864,"t":{"ref":"261","name":"Bus 261: Schnalstal => Naturns => Merano","from":"Schnalstal","to":"Merano","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":41,"s":[[12600505843,30],[5171169367,31],[443424035,32]]},
+  {"id":9393482,"t":{"ref":"266","name":"Bus 266: Texelbahn => Rabland => Plaus => Naturns","from":"Texelbahn","to":"Naturns","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":14,"s":[[5171033094,7],[5171123614,8],[5171153277,9],[759467439,10],[5171169368,11],[12600505843,14]]},
+  {"id":9395620,"t":{"ref":"266","name":"Bus 266: Naturns => Plaus => Rabland => Texelbahn","from":"Naturns","to":"Texelbahn","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":12,"s":[[12600505843,1],[5171169367,2],[5171033094,3],[5171123614,4],[5171153277,5],[443424035,6]]},
+  {"id":14014623,"t":{"ref":"251","name":"Bus 251: Staben => Meran","from":"Staben - Stava","to":"Meran - Merano","network":"TVS","operator":"SASA","route":"bus","public_transport:version":"2"},"n":15,"s":[[12600505843,4],[5171169367,5],[443424035,6]]},
+  {"id":18654357,"t":{"ref":"B250","name":"Bus B250: Mals => Laas => Meran","from":"Mals","to":"Meran","operator":"SAD Bus","route":"bus","public_transport:version":"2"},"n":18,"s":[[12600505843,13],[443424035,14]]},
+  {"id":18654926,"t":{"ref":"B250","name":"Bus B250: Meran => Laas => Mals","from":"Meran","to":"Mals","operator":"SAD Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[759467439,6],[5171169368,7],[12600505843,8]]},
+  {"id":18671433,"t":{"ref":"264","name":"Bus 264: Citybus Naturns","from":"Bahnhof Staben","to":"Bahnhof Staben","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":20,"s":[[12600505843,7]]}
+]
+}

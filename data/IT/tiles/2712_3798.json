@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3798],
+"stops":[
+  {"id":1104494893,"lat":45.613853,"lon":9.921164,"k":"p","n":"San pancrazio - bussola"},
+  {"id":1104495033,"lat":45.61396,"lon":9.921546,"k":"p","n":"San pancrazio - bussola"},
+  {"id":13507691533,"lat":45.631179,"lon":9.9422,"k":"p","n":"Capriolo - acquedotto"},
+  {"id":13507691534,"lat":45.633987,"lon":9.934944,"k":"p","n":"Capriolo - cinque vie"},
+  {"id":13507691535,"lat":45.624974,"lon":9.929768,"k":"p","n":"Capriolo - cave rossi"},
+  {"id":13507691536,"lat":45.61138,"lon":9.918225,"k":"p","n":"San pancrazio - farmacia"},
+  {"id":13507691537,"lat":45.60763,"lon":9.901997,"k":"p","n":"Palazzolobivio sgraffigna"},
+  {"id":13517064637,"lat":45.637457,"lon":9.933309,"k":"p","n":"Capriolo - municipio"},
+  {"id":13517064646,"lat":45.64234,"lon":9.934982,"k":"p","n":"Capriolo - trattoria sole"},
+  {"id":13517064647,"lat":45.637012,"lon":9.933345,"k":"p","n":"Capriolo - municipio"},
+  {"id":13519976017,"lat":45.636238,"lon":9.903051,"k":"p","n":"Castelli calepio, via locatell"},
+  {"id":13608941496,"lat":45.647472,"lon":9.909524,"k":"p","n":"Castelli Calepio - provinciale (orfeo)"},
+  {"id":13608941497,"lat":45.640554,"lon":9.903376,"k":"p","n":"Tagliuno - via dei mille (bar tabacchi)"},
+  {"id":13806554042,"lat":45.642357,"lon":9.934831,"k":"p","n":"Capriolo - trattoria sole"},
+  {"id":13808854970,"lat":45.611821,"lon":9.918545,"k":"p","n":"San pancrazio - farmacia"},
+  {"id":13808854971,"lat":45.624933,"lon":9.92958,"k":"p","n":"Capriolo - cave rossi"},
+  {"id":13808923092,"lat":45.633926,"lon":9.934874,"k":"p","n":"Capriolo - cinque vie"},
+  {"id":13808923093,"lat":45.631135,"lon":9.941952,"k":"p","n":"Capriolo - acquedotto"}
+],
+"routes":[
+  {"id":20147712,"t":{"ref":"LS003","name":"Bus LS003: Iseo => Chiari","from":"Iseo vis Gorzoni","to":"Chiari, via del Granaio, stazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":38,"s":[[13507691533,19],[13507691534,20],[13808854971,21],[1104494893,22],[13808854970,23]]},
+  {"id":20147713,"t":{"ref":"LS003","name":"Bus LS003: Chiari => Iseo","from":"Chiari, via del Granaio, stazione","to":"Iseo vis Gorzoni","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[13507691537,15],[13507691536,16],[1104495033,17],[13507691535,18],[13808923092,19],[13808923093,20]]},
+  {"id":20161333,"t":{"ref":"LS001","name":"Bus LS001: Sarnico=>Pontoglio","from":"Sarnico - Piazza Matteotti","to":"Palazzole Via Torre del Popolo","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13806554042,5],[13517064637,6],[13808854971,7],[1104494893,8],[13808854970,9]]},
+  {"id":20161334,"t":{"ref":"LS001","name":"Bus LS001: Pontoglio=>Sarnico","from":"Palazzole Via Torre del Popolo","to":"Sarnico - banca credito bergamasco","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13507691537,3],[13507691536,4],[1104495033,5],[13507691535,6],[13517064647,7],[13517064646,8]]},
+  {"id":20165286,"t":{"ref":"LS004","name":"Bus LS004: Palazzolo->Telgate->Palazzolo","from":"Palazzolo - via Torre del Popolo","to":"Palazzolo - via Torre del Popolo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13519976017,7]]},
+  {"id":20181190,"t":{"ref":"LS025","name":"Bus LS025: Paratico=>Brescia","from":"Paratico Verdelago","to":"Brescia Autostazione via Solferino","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":37,"s":[[13806554042,6],[13517064637,7],[13808923092,8],[13808923093,9]]},
+  {"id":20181191,"t":{"ref":"LS025","name":"Bus LS025: Brescia=>Paratico","from":"Brescia Autostazione via Solferino","to":"Paratico v.le Madruzza, 11","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":37,"s":[[13507691533,30],[13507691534,31],[13517064647,32],[13517064646,33]]},
+  {"id":20274568,"t":{"ref":"E","name":"Bus E: Bergamo => Tavernola","from":"Bergamo - Terminal Arriva","to":"Tavernola - via roma (molo)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":44,"s":[[13608941497,28],[13608941496,29]]},
+  {"id":20274894,"t":{"ref":"E","name":"Bus E: Tavernola => Bergamo","from":"Tavernola - via roma (banca bcc)","to":"Bergamo - Terminal Arriva","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":38,"s":[[13608941496,17],[13608941497,18]]},
+  {"id":21092542,"t":{"ref":"Eex","name":"Bus Eex: Bergamo -> Iseo","from":"Bergamo Autolinee (Pensilina 7)","to":"Iseo - via gorzoni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":16,"s":[[13608941497,4],[13608941496,5]]},
+  {"id":21092997,"t":{"ref":"Eex","name":"Bus Eex: Iseo => Bergamo","from":"Iseo - via gorzoni","to":"Iseo - via gorzoni Bergamo Autolinee (Pensilina 7)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":19,"s":[[13608941496,16],[13608941497,17]]}
+]
+}

@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2542,3905],
+"stops":[
+  {"id":2925493290,"lat":37.102564,"lon":15.29188,"k":"p","n":"Cassia nord 1"},
+  {"id":2925493291,"lat":37.101184,"lon":15.29088,"k":"p","n":"Cassia ovest 3"},
+  {"id":3109370991,"lat":37.101291,"lon":15.291052,"k":"p","n":"Cassia est 2"},
+  {"id":3264548724,"lat":37.10122,"lon":15.266303,"k":"p","n":"Scala Greca est 7"},
+  {"id":3264548746,"lat":37.101348,"lon":15.266076,"k":"p","n":"Scala Greca ovest 6"},
+  {"id":10582360081,"lat":37.101322,"lon":15.266091,"k":"p","n":"Siracusa Viale Scala Greca 394"},
+  {"id":10990071786,"lat":37.101182,"lon":15.266316,"k":"p","n":"Siracusa Viale Scala Greca 394"},
+  {"id":11234882145,"lat":37.100527,"lon":15.270542,"k":"p","n":"Rosolini"},
+  {"id":11257824277,"lat":37.102275,"lon":15.293736,"k":"p","n":"Cassia nord 2"},
+  {"id":11569614353,"lat":37.102408,"lon":15.291872,"k":"p","n":"Cassia est 3"}
+],
+"routes":[
+  {"id":16412400,"t":{"ref":"104","name":"Circolare Santa Panagia","network":"Sais Autolinee servizio urbano Siracusa","operator":"Sais Autolinee","route":"bus","public_transport:version":"2"},"n":39,"s":[[11234882145,19]]},
+  {"id":16412402,"t":{"ref":"103","name":"Circolare Scala Greca","network":"Sais Autolinee servizio urbano Siracusa","operator":"Sais Autolinee","route":"bus","public_transport:version":"2"},"n":37,"s":[[3264548724,18],[3264548746,19]]},
+  {"id":16412407,"t":{"ref":"101","name":"Circolare Grottasanta","network":"Sais Autolinee servizio urbano Siracusa","operator":"Sais Autolinee","route":"bus","public_transport:version":"2"},"n":52,"s":[[3109370991,21],[11569614353,22],[11257824277,23],[2925493290,24],[2925493291,25]]},
+  {"id":17992176,"t":{"name":"Siracusa => Aeroporto di Catania => Catania","from":"Siracusa","to":"Catania","operator":"Interbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[10990071786,9]]},
+  {"id":17992188,"t":{"name":"Catania => Aeroporto di Catania => Siracusa","from":"Catania","to":"Siracusa","operator":"Interbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[10582360081,3]]}
+]
+}

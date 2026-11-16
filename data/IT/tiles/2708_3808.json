@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3808],
+"stops":[
+  {"id":2091229151,"lat":45.409759,"lon":10.405909,"k":"p","n":"MONTICHIARI - Via Mantova, bv. Ospedale"},
+  {"id":2769261032,"lat":45.400947,"lon":10.443588,"k":"p","n":"TRE ARANCI - S.S. 236 Goitese Autoplanet"},
+  {"id":2973384290,"lat":45.409594,"lon":10.40587,"k":"p","n":"MONTICHIARI - Via Mantua bv. Via Trieste"},
+  {"id":4691978720,"lat":45.400263,"lon":10.442014,"k":"p","n":"Fermata bus scolastici"},
+  {"id":4691978721,"lat":45.400933,"lon":10.443136,"k":"p","n":"Tre Aranci - SS 236 Goitese Autoplanet"},
+  {"id":13418599119,"lat":45.43493,"lon":10.404417,"k":"p","n":"CAMPAGNOLO BIVIO - Strada Provinciale n.28"}
+],
+"routes":[
+  {"id":20019513,"t":{"ref":"LS33","name":"Linea LS33: Brescia => Montichiari => Carpenedolo","from":"Brescia Trataglia Via Gamba","to":"Carpenodolo Via Papa Giovanni XXIII","network":"OPAM","route":"bus","public_transport:version":"2"},"n":35,"s":[[2973384290,28],[4691978721,29]]},
+  {"id":20023225,"t":{"ref":"LS33","name":"Linea LS33: Carpenedolo => Montichiari => Brescia","to":"Brescia Trataglia Via Gamba","network":"OPAM","route":"bus","public_transport:version":"2"},"n":38,"s":[[2091229151,8]]},
+  {"id":20029114,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => S.EUFEMIA - Stazione Metro => Brescia","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"BRESCIA S.EUFEMIA - Stazione Metro;Brescia Autostatzione","network":"OPAM","route":"bus","public_transport:version":"2"},"n":37,"s":[[13418599119,10]]},
+  {"id":20029246,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => Desenzano (via Campagnolo Bivio)","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"Desenzano Via Anelli","network":"OPAM","route":"bus","public_transport:version":"2"},"n":23,"s":[[13418599119,9]]},
+  {"id":20040929,"t":{"ref":"LS34","name":"Linea LS34: Brescia => S.EUFEMIA - Stazione Metro => Carpenedolo Corsa 9","from":"Brescia Autostazione","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":30,"s":[[13418599119,21]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2707,3790],
+"stops":[
+  {"id":3363520328,"lat":45.395382,"lon":9.501489,"k":"p"},
+  {"id":3363520334,"lat":45.395461,"lon":9.501141,"k":"p"},
+  {"id":3396872429,"lat":45.363787,"lon":9.536956,"k":"p"},
+  {"id":3396907890,"lat":45.368566,"lon":9.541214,"k":"p","n":"Dovera - Via Umberto Primo / Via Gargioni"},
+  {"id":3396910396,"lat":45.368403,"lon":9.541082,"k":"p","n":"Dovera - Via Umberto Primo / Via Gargioni"},
+  {"id":3396921666,"lat":45.365115,"lon":9.541769,"k":"p","n":"Dovera - Via XIV Maggio (Municipio)"},
+  {"id":8383874237,"lat":45.363651,"lon":9.538077,"k":"p","n":"Dovera - Via Lodi / Via Colombo"},
+  {"id":8383874238,"lat":45.363731,"lon":9.539193,"k":"p","n":"Dovera - Via Lodi / Via Colombo"},
+  {"id":8383874239,"lat":45.363585,"lon":9.541787,"k":"p","n":"Dovera - Via Europa / Via XIV Maggio"},
+  {"id":8383874240,"lat":45.363525,"lon":9.541617,"k":"p","n":"Dovera - Via Europa / Via XIV Maggio","ref":"DVR006"},
+  {"id":8384281173,"lat":45.364974,"lon":9.541679,"k":"p","n":"Dovera - Via XIV Maggio (Municipio)"},
+  {"id":8635624097,"lat":45.363723,"lon":9.549136,"k":"p"},
+  {"id":8635624098,"lat":45.363176,"lon":9.54999,"k":"p","n":"Dovera - Via Europa civico 11"},
+  {"id":8655802052,"lat":45.363652,"lon":9.538061,"k":"p","n":"Dovera Roncadello - Via Lodi"},
+  {"id":9624158678,"lat":45.384734,"lon":9.545371,"k":"p","n":"Dovera - SP472 / SP415 Paullese"},
+  {"id":9737638611,"lat":45.363726,"lon":9.539219,"k":"p","n":"Dovera Roncadello - Via Lodi"},
+  {"id":14056204400,"lat":45.36367,"lon":9.539213,"k":"x","n":"Dovera Roncadello - Via Lodi"}
+],
+"routes":[
+  {"id":14135370,"t":{"ref":"S016","name":"Bus S016: Lodi => Treviglio","from":"Lodi","to":"Treviglio","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":12,"s":[[8383874237,9],[3396921666,10],[3396907890,11],[9624158678,12]]},
+  {"id":14135371,"t":{"ref":"S016","name":"Bus S016: Treviglio => Lodi","from":"Treviglio","to":"Lodi","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":11,"s":[[8383874238,9],[8384281173,10],[3396910396,11]]},
+  {"id":14135796,"t":{"ref":"K507","name":"Bus K507: Dovera => Crema","from":"Dovera Roncadello - Via Lodi","to":"Crema - Partigiani d'italia","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":7,"s":[[8655802052,1],[8383874240,2],[8635624098,3]]},
+  {"id":14150123,"t":{"ref":"K507","name":"Bus K507: Crema => Dovera","from":"Crema - Partigiani d'italia","to":"Dovera Roncadello - Via Lodi","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":18,"s":[[8635624097,16],[8383874239,17],[9737638611,18]]}
+]
+}

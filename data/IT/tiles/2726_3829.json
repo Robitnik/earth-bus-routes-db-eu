@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3829],
+"stops":[
+  {"id":3228035734,"lat":46.327207,"lon":11.484028,"k":"p","n":"Steva Bivio"},
+  {"id":3990144288,"lat":46.303614,"lon":11.45616,"k":"p","n":"Varena Alb. Alpino"},
+  {"id":7878601837,"lat":46.34733,"lon":11.454695,"k":"p","n":"Jochgrimm - Passo Oclini"},
+  {"id":10224309481,"lat":46.347343,"lon":11.454556,"k":"x","n":"Jochgrimm - Passo Oclini"},
+  {"id":10280670341,"lat":46.305377,"lon":11.458271,"k":"p","n":"Varena - Paese"},
+  {"id":10280670342,"lat":46.305554,"lon":11.45811,"k":"p","n":"Varena"},
+  {"id":11977968764,"lat":46.306763,"lon":11.466012,"k":"p"},
+  {"id":13003760771,"lat":46.32066,"lon":11.483148,"k":"p","n":"Chiusa"},
+  {"id":13003760772,"lat":46.31448,"lon":11.471502,"k":"p","n":"Bancoline Rist. La Baita"},
+  {"id":13003760773,"lat":46.307576,"lon":11.459985,"k":"p","n":"Varena Via Alpini dir. Lavazè"},
+  {"id":13003760774,"lat":46.302974,"lon":11.454265,"k":"p","n":"Varena Pizzeria La Catinetta"},
+  {"id":13003760776,"lat":46.300096,"lon":11.45023,"k":"p","n":"Daiano Parco Giochi"}
+],
+"routes":[
+  {"id":18514067,"t":{"ref":"189","name":"Bus 189: Jochgrimm => Bolzano","from":"Jochgrimm","to":"Bolzano","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":26,"s":[[7878601837,1]]},
+  {"id":18514154,"t":{"ref":"189","name":"Bus 189: Bolzano => Jochgrimm","from":"Bolzano","to":"Jochgrimm","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":26,"s":[[7878601837,26]]},
+  {"id":19357674,"t":{"ref":"B108","name":"Bus B108: Passo Oclini->Passo Lavacè->Varena->Daiano->Cavalese","from":"Passo Oclin","to":"Cavalese Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[3228035734,3],[13003760771,4],[13003760772,5],[13003760773,6],[10280670342,7],[3990144288,8],[13003760774,9],[13003760776,11]]},
+  {"id":19357675,"t":{"ref":"B108","name":"Bus B108: Cavalese->Daiano->Varena->Passo Lavacè->Passo Oclini","from":"Cavalese Autostazione","to":"Passo Oclini","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[13003760776,6],[13003760774,8],[3990144288,9],[10280670342,10],[13003760773,11],[13003760772,12],[13003760771,13],[3228035734,14]]}
+]
+}

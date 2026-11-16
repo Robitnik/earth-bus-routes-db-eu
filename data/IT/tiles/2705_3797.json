@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2705,3797],
+"stops":[
+  {"id":13453143292,"lat":45.26314,"lon":9.889695,"k":"p","n":"Barzaniga, Via Mazzolari"},
+  {"id":13453143293,"lat":45.264202,"lon":9.878018,"k":"p","n":"Grontorto"},
+  {"id":13453143294,"lat":45.282583,"lon":9.868721,"k":"p","n":"Soresina, Ospedale"},
+  {"id":13453143295,"lat":45.2835,"lon":9.855831,"k":"p","n":"Soresina, P.za della Repubblica"},
+  {"id":13455400558,"lat":45.264459,"lon":9.87761,"k":"p","n":"Grontorto, Bivio, S.P. 47"},
+  {"id":13455400559,"lat":45.263117,"lon":9.889814,"k":"p","n":"Barzaniga, P.za Mameli"},
+  {"id":13456424092,"lat":45.288362,"lon":9.865894,"k":"p","n":"Soresina, Via Trieste"},
+  {"id":13456424093,"lat":45.293907,"lon":9.861117,"k":"p","n":"Soresina, Via Sabotino"},
+  {"id":13456443517,"lat":45.293977,"lon":9.861235,"k":"p","n":"Soresina, Via Sabotino"},
+  {"id":13456443518,"lat":45.28852,"lon":9.866184,"k":"p","n":"Soresina, Via Trieste, 26"}
+],
+"routes":[
+  {"id":20082395,"t":{"ref":"K210","name":"Bus K210: Soresina => Paderno => Cremona","from":"Soresina Piazza della Republica","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":21,"s":[[13453143295,1],[13453143294,2],[13453143293,3],[13453143292,4]]},
+  {"id":20084187,"t":{"ref":"K210","name":"Bus K210: Cremona =>Paderno => Soresina","from":"Cremona Autostazione","to":"Soeesina Piazza della Republica","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":20,"s":[[13455400559,17],[13455400558,18],[13453143294,19],[13453143295,20]]},
+  {"id":20085470,"t":{"ref":"K212","name":"Bus K212: Crema => Fiesco => Soresina","from":"Crema P.za Martiri Liberta","to":"Soresina Piazza della Republica","network":"Arriva","operator":"Crema","route":"bus","public_transport:version":"2"},"n":21,"s":[[13456424093,18],[13456424092,19],[13453143294,20],[13453143295,21]]},
+  {"id":20085471,"t":{"ref":"K212","name":"Bus K212: Soresina => Fiesco => Crema","from":"Soresina Piazza della Republica","to":"Crema P.za Martiri Liberta","network":"Arriva","operator":"Crema","route":"bus","public_transport:version":"2"},"n":24,"s":[[13453143295,1],[13453143294,2],[13456443518,3],[13456443517,4]]}
+]
+}

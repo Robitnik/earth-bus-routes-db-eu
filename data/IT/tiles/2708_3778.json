@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3778],
+"stops":[
+  {"id":602834927,"lat":45.400819,"lon":8.913317,"k":"p","n":"Piazza Vittorio Veneto (Abbiategrasso)"},
+  {"id":1311945546,"lat":45.419906,"lon":8.939649,"k":"p","n":"Albairate - Via indipendenza"},
+  {"id":1311945624,"lat":45.418346,"lon":8.941096,"k":"p","n":"Via Baracca - Via San Francesco (Albairate)"},
+  {"id":4623892033,"lat":45.446321,"lon":8.926028,"k":"p"},
+  {"id":4623892049,"lat":45.446611,"lon":8.925863,"k":"p"},
+  {"id":4920929313,"lat":45.419646,"lon":8.936341,"k":"p"},
+  {"id":5431397814,"lat":45.420024,"lon":8.908077,"k":"p"},
+  {"id":12852567652,"lat":45.419259,"lon":8.93385,"k":"p"},
+  {"id":12852567653,"lat":45.420351,"lon":8.933428,"k":"p"},
+  {"id":13128802656,"lat":45.40281,"lon":8.917977,"k":"p"},
+  {"id":13135221953,"lat":45.404399,"lon":8.912293,"k":"p"}
+],
+"routes":[
+  {"id":2840552,"t":{"ref":"z552","name":"z552 Abbiategrasso, Piazza Vittorio Veneto","from":"Santo Stefano","to":"Abbiategrasso","network":"STIBM","operator":"STAV Autolinee","route":"bus","public_transport:version":"2"},"n":2,"s":[[602834927,2]]},
+  {"id":2880998,"t":{"ref":"z551","name":"Bus z551: Abbiategrasso => Milano Bisceglie M1","from":"Abbiategrasso","to":"Milano Bisceglie M1","network":"STIBM","operator":"Stav Autolinee","route":"bus","public_transport:version":"2"},"n":2,"s":[[602834927,1]]},
+  {"id":2880999,"t":{"ref":"z551","name":"Bus z551: Milano Bisceglie M1 => Abbiategrasso","from":"Milano Bisceglie M1","to":"Abbiategrasso","network":"STIBM","operator":"Stav Autolinee","route":"bus","public_transport:version":"2"},"n":2,"s":[[602834927,2]]},
+  {"id":7338802,"t":{"ref":"z554","name":"z554 Albairate, Via Marconi","network":"STIBM","operator":"STAV","route":"bus"},"n":6,"s":[[1311945624,4],[1311945546,5],[4920929313,6]]}
+]
+}

@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2724,3842],
+"stops":[
+  {"id":5143282310,"lat":46.22969,"lon":12.113941,"k":"p","n":"La Pissa"},
+  {"id":5143282311,"lat":46.212035,"lon":12.129205,"k":"p","n":"La Stanga"},
+  {"id":8411705740,"lat":46.21192,"lon":12.129438,"k":"p","n":"La Stanga"},
+  {"id":8411705744,"lat":46.229788,"lon":12.114163,"k":"p","n":"La Pissa"}
+],
+"routes":[
+  {"id":7597905,"t":{"ref":"71","name":"Belluno -> Agordo -> Passo San Pellegrino -> Moena","from":"Belluno FS","to":"Moena","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":47,"s":[[8411705740,11],[8411705744,12]]},
+  {"id":7682641,"t":{"ref":"1/3/30/31","name":"Belluno -> Agordo -> Cortina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":69,"s":[[8411705740,12],[8411705744,13]]},
+  {"id":12298361,"t":{"ref":"1","name":"Belluno -> Agordo","from":"Belluno FS","to":"Agordo Autostazione","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":19,"s":[[8411705740,12],[8411705744,13]]},
+  {"id":12298362,"t":{"ref":"1","name":"Agordo -> Belluno","from":"Agordo Autostazione","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[5143282310,7],[5143282311,8]]},
+  {"id":12896373,"t":{"ref":"1/3/30/31","name":"Tre Cime -> Cortina -> Agordo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":71,"s":[[5143282310,59],[5143282311,60]]},
+  {"id":12903375,"t":{"ref":"27b","name":"Cencenighe -> Lido di Jesolo","from":"Cencenighe","to":"Lido di Jesolo Autostazione","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":15,"s":[[5143282311,5]]},
+  {"id":12903376,"t":{"ref":"27b","name":"Lido di Jesolo -> Cencenighe","from":"Lido di Jesolo Autostazione","to":"Cencenighe","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":11,"s":[[8411705740,4]]},
+  {"id":13218325,"t":{"ref":"71","name":"Moena -> Passo San Pellegrino -> Agordo -> Belluno","from":"Moena","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":48,"s":[[5143282310,35],[5143282311,36]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[8411705740,28],[8411705744,29]]}
+]
+}

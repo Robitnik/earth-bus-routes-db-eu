@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3795],
+"stops":[
+  {"id":3008536865,"lat":45.479,"lon":9.773848,"k":"x"},
+  {"id":3294615344,"lat":45.476763,"lon":9.759853,"k":"p","n":"Isso - Via Roma/P.zza IV Novembre"},
+  {"id":5812179795,"lat":45.478963,"lon":9.77385,"k":"p","n":"Barbata - Via Leonardo Da Vinci"},
+  {"id":11634186865,"lat":45.484192,"lon":9.782429,"k":"p"},
+  {"id":13629998085,"lat":45.467765,"lon":9.799995,"k":"p","n":"Fontanella - s.s. 498 (cimitero)"},
+  {"id":13629998086,"lat":45.470434,"lon":9.7986,"k":"p","n":"Fontanella - via circonvallazione"},
+  {"id":13629998087,"lat":45.484648,"lon":9.788974,"k":"p","n":"Antegnate - Via L.Manara/P.za Cavour, fronte chiesa"},
+  {"id":13629998088,"lat":45.487646,"lon":9.784948,"k":"p","n":"Antegnate - Via della Lira 9"},
+  {"id":13629998089,"lat":45.495857,"lon":9.776448,"k":"p","n":"Covo - Via Alighieri (SS498)"},
+  {"id":13814424098,"lat":45.484688,"lon":9.789057,"k":"p","n":"Antegnate - Via L.Manara/P.za Cavour, chiesa"},
+  {"id":13814424099,"lat":45.484657,"lon":9.78901,"k":"x"},
+  {"id":13814424100,"lat":45.48468,"lon":9.789005,"k":"x"},
+  {"id":13850459322,"lat":45.476836,"lon":9.759693,"k":"p","n":"Isso - Via Roma - angolo Via Monte Grappa"}
+],
+"routes":[
+  {"id":20302500,"t":{"ref":"R","name":"Bus R: Soncino => Bergamo","from":"Soncino - autostazione","to":"Bergamo - stazione autolinee","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[13814424098,4]]},
+  {"id":20302501,"t":{"ref":"R","name":"Bus R: Bergamo => Soncino","from":"Bergamo - stazione autolinee (pens. 6)","to":"Soncino - via zanardi","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":35,"s":[[13629998089,25],[13629998088,26],[13629998087,27],[13629998086,28],[13629998085,29]]},
+  {"id":20667537,"t":{"ref":"T","name":"Bus T: Calcio => Treviglio","from":"Calcio - Viale Aldo Moro, Fabe","to":"Treviglio - Piazzale Mazzini, Stazione Ovest","network":"Bergamo Trasporti","operator":"SAI Treviglio","route":"bus","public_transport:version":"2"},"n":13,"s":[[13629998087,1],[13629998086,2]]},
+  {"id":20667538,"t":{"ref":"T","name":"Bus T: Treviglio => Calcio","from":"Treviglio - Piazzale Mazzini, Stazione Ovest","to":"Calcio - Via Papa Giov. XXIII - Chiesa","network":"Bergamo Trasporti","operator":"SAI Treviglio","route":"bus","public_transport:version":"2"},"n":25,"s":[[3294615344,23],[5812179795,24],[13814424098,25]]}
+]
+}

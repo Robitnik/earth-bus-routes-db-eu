@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2705,3804],
+"stops":[
+  {"id":2008891773,"lat":45.268418,"lon":10.214742,"k":"x","n":"Pralboino - chiesa (Via Roma, 48)"},
+  {"id":2008891781,"lat":45.268503,"lon":10.214734,"k":"p","n":"Pralboino - chiesa (Via Roma, 48)"},
+  {"id":13404126958,"lat":45.263289,"lon":10.222167,"k":"p","n":"Pralboino - cimiterio"},
+  {"id":13404126959,"lat":45.264621,"lon":10.218165,"k":"p","n":"Pralboino - via S.Rocco"},
+  {"id":13404126961,"lat":45.274022,"lon":10.201583,"k":"p","n":"Milzano - piazza Roma, municipio (Milzano, Via Fratelli Bandiera, 4 )"},
+  {"id":13404126962,"lat":45.273999,"lon":10.202115,"k":"p","n":"Milzano - via f.lli Bandiera, municipio (Via F.lli Bandiera Chiesa)"},
+  {"id":13404126963,"lat":45.270428,"lon":10.203198,"k":"p","n":"Milzano - via Dossi 8"},
+  {"id":13404126964,"lat":45.270122,"lon":10.203702,"k":"p","n":"Milzano - via Dossi (Milzano, Via Dossi, 8 )"},
+  {"id":13404399754,"lat":45.297517,"lon":10.211406,"k":"p","n":"Pavone mella - via per Pralboino"},
+  {"id":13404399755,"lat":45.271881,"lon":10.217371,"k":"p","n":"Pralboino - via Dante"},
+  {"id":13404399756,"lat":45.269024,"lon":10.21692,"k":"p","n":"Pralboino - via Cavour"},
+  {"id":13445021476,"lat":45.268344,"lon":10.214742,"k":"p","n":"Pralboino - chiesa"},
+  {"id":13445021477,"lat":45.27036,"lon":10.20344,"k":"p","n":"Milzano - Via Fonda"}
+],
+"routes":[
+  {"id":2568484,"t":{"ref":"LS016","name":"Bus LS016: Brescia => Pralboino => Ostiano","from":"Brescia","to":"Ostiano","network":"Arriva","route":"bus","public_transport:version":"2"},"n":48,"s":[[13404399754,34],[13404399755,35],[13404399756,36],[2008891781,37],[13404126964,38],[13404126962,39],[13404126961,42],[13404126963,43],[13404126959,44],[13404126958,45]]},
+  {"id":2568485,"t":{"ref":"LS016","name":"Bus LS016: Ostiano => Pralboino => Brescia","from":"Ostiano","to":"Brescia","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[13404126958,3],[2008891781,4],[13404399756,5],[13404399755,6],[13404399754,7]]},
+  {"id":20014850,"t":{"ref":"LS014","name":"Bus LS014: Manerbio =>Seniga","from":"Manerbio","to":"Seniga","network":"Arriva","route":"bus","public_transport:version":"2"},"n":24,"s":[[13404126962,16],[13404126963,17]]},
+  {"id":20062299,"t":{"ref":"K207","name":"Bus K207: Pralboino => Binanuova => Persichello => Cremona","from":"Pralboino, Via Dante","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":31,"s":[[2008891781,1],[13404126964,2],[13404126962,3],[13404126961,4]]},
+  {"id":20066396,"t":{"ref":"K207","name":"Bus K207: Cremona => Persichello=> Binanuova => Pralboino","from":"Cremona Autostazione","to":"Pralboino, Via Roma,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":32,"s":[[13445021477,26],[13404126962,27],[13404126961,30],[13404126963,31],[13445021476,32]]}
+]
+}

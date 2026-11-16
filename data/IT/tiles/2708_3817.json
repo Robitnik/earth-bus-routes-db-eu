@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3817],
+"stops":[
+  {"id":1438494308,"lat":45.445974,"lon":10.850724,"k":"p","n":"Crocioni Di Bussolengo"},
+  {"id":1438494312,"lat":45.446401,"lon":10.883343,"k":"p","n":"Bussolengo s.s.11 (Auchan)"},
+  {"id":2809340951,"lat":45.447,"lon":10.897846,"k":"p","n":"Via Bassone / Via della Tecnica","ref":"120"},
+  {"id":3285325136,"lat":45.415654,"lon":10.897033,"k":"p","n":"Caselle Via Roma","ref":"160019"},
+  {"id":3805323235,"lat":45.41615,"lon":10.897501,"k":"p"},
+  {"id":7265932468,"lat":45.415539,"lon":10.897035,"k":"p","n":"Caselle Via Roma","ref":"160020"},
+  {"id":7744164677,"lat":45.446535,"lon":10.899174,"k":"p","n":"Sant'Agata","ref":"164018"},
+  {"id":9630964076,"lat":45.446109,"lon":10.850838,"k":"p","n":"Crocioni Di Bussolengo"},
+  {"id":9630964077,"lat":45.446318,"lon":10.886141,"k":"p","n":"Bussolengo s.s.11 (Auchan)"},
+  {"id":12122068549,"lat":45.440837,"lon":10.864077,"k":"p"}
+],
+"routes":[
+  {"id":1908120,"t":{"ref":"24","name":"Bus 24: Caselle di Sommacampagna => Quinzano","from":"Caselle di Sommacampagna","to":"Quinzano","network":"ATV","operator":"ATV","colour":"#003399","route":"bus","public_transport:version":"2"},"n":46,"s":[[7265932468,1]]},
+  {"id":3862172,"t":{"ref":"160","name":"Bus 160: Volta Mantovana => Verona","from":"Volta Mantovana","to":"Verona","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":6,"s":[[7265932468,2]]},
+  {"id":8832901,"t":{"ref":"164","name":"Bus 164: Garda => Peschiera => Verona","from":"Garda","to":"Verona","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":39,"s":[[1438494308,25],[9630964077,26]]},
+  {"id":8832902,"t":{"ref":"164","name":"Bus 164: Verona => Peschiera => Garda","from":"Verona","to":"Garda","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":38,"s":[[7744164677,12],[1438494312,13],[9630964076,14]]},
+  {"id":8833165,"t":{"ref":"LN026","name":"Bus LN026: Desenzano => Peschiera => Verona","from":"Desenzano","to":"Verona","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":46,"s":[[1438494308,34],[9630964077,35]]},
+  {"id":8833166,"t":{"ref":"LN026","name":"Bus LN026: Verona => Peschiera => Desenzano","from":"Verona","to":"Desenzano","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[7744164677,10],[1438494312,11],[9630964076,12]]},
+  {"id":11343391,"t":{"ref":"90","name":"Bus 90: Basson => San Michele","from":"Basson","to":"San Michele","network":"ATV","operator":"ATV","colour":"#ee0000","route":"bus","public_transport:version":"2"},"n":51,"s":[[2809340951,2]]},
+  {"id":11343392,"t":{"ref":"90","name":"Bus 90: San Michele => Basson","from":"San Michele","to":"Basson","network":"ATV","operator":"ATV","colour":"#ee0000","route":"bus","public_transport:version":"2"},"n":46,"s":[[7744164677,45]]},
+  {"id":11346498,"t":{"ref":"33","name":"Bus 33: Basson => San Felice Extra","from":"Basson","to":"San Felice Extra","network":"ATV","operator":"ATV","colour":"#0099ff","route":"bus","public_transport:version":"2"},"n":51,"s":[[2809340951,2]]},
+  {"id":12360773,"t":{"ref":"24","name":"Bus 24: Quinzano => Caselle di Sommacampagna","from":"Quinzano","to":"Caselle di Sommacampagna","network":"ATV","operator":"ATV","colour":"#003399","route":"bus","public_transport:version":"2"},"n":47,"s":[[3285325136,47]]},
+  {"id":14045082,"t":{"ref":"160","name":"Bus 160: Verona => Volta Manovana","from":"Verona","to":"Volta Mantovana","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":7,"s":[[3285325136,6]]}
+]
+}

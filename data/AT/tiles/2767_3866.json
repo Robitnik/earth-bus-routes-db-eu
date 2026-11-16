@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2767,3866],
+"stops":[
+  {"id":1223685071,"lat":48.355132,"lon":13.347942,"k":"p","n":"Würding, Thalerstr."},
+  {"id":1223685131,"lat":48.35512,"lon":13.34786,"k":"x","n":"Würding, Thalerstr."},
+  {"id":1223704328,"lat":48.352773,"lon":13.345559,"k":"p","n":"Würding, Raiffeisenbank"},
+  {"id":2629912822,"lat":48.35274,"lon":13.345595,"k":"x","n":"Würding, Raiffeisenbank"},
+  {"id":4207856263,"lat":48.352708,"lon":13.345622,"k":"p","n":"Würding, Raiffeisenbank"},
+  {"id":6047095901,"lat":48.351889,"lon":13.341378,"k":"p","n":"Würding, Untere Inntalstraße/ Hochrainstraße"},
+  {"id":11222453792,"lat":48.354914,"lon":13.348265,"k":"x","n":"Würding, Thalerstr."},
+  {"id":14335715562,"lat":48.354916,"lon":13.348304,"k":"p","n":"Würding, Thalerstr."}
+],
+"routes":[
+  {"id":6258932,"t":{"ref":"6106","name":"Bus 6106 (007): Passau => Neuhaus => Hartkirchen => Bad Füssing","from":"Passau","to":"Bad Füssing","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":25,"s":[[1223685071,24],[1223704328,25]]},
+  {"id":6260770,"t":{"ref":"6106","name":"Bus 6106 (006): Würding => Passau","from":"Würding","to":"Passau","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":23,"s":[[1223685071,1],[1223704328,2]]},
+  {"id":7579165,"t":{"ref":"6207","name":"Bus RBO 6207: Bad Füssing => München, Hbf. Nord","from":"Bad Füssing","to":"München, Hbf. Nord","network":"Regionalbus Ostbayern","operator":"RBO","route":"bus","public_transport:version":"2"},"n":2,"s":[[2629912822,1],[4207856263,2]]},
+  {"id":13137743,"t":{"ref":"6207","name":"Bus RBO 6207: München, Hbf. Nord => Bad Füssing","from":"München, Hbf. Nord","to":"Bad Füssing","network":"Regionalbus Ostbayern","operator":"RBO","route":"bus","public_transport:version":"2"},"n":2,"s":[[2629912822,1],[4207856263,2]]},
+  {"id":21844664,"t":{"ref":"6212","name":"Bus 6212: Bad Füssing, Kath. Kirche => Pocking Bahnhof","from":"Bad Füssing, Kath. Kirche","to":"Pocking Bahnhof","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":5,"s":[[4207856263,4],[14335715562,5]]},
+  {"id":21844883,"t":{"ref":"6212","name":"Bus 6212: Pocking Bahnhof => Bad Füssing, Kath. Kirche","from":"Pocking Bahnhof","to":"Bad Füssing, Kath. Kirche","network":"Regionalbus Ostbayern;Verbundtarif DonauWald","operator":"RBO","route":"bus","public_transport:version":"2"},"n":5,"s":[[1223685071,1],[1223704328,2]]}
+]
+}

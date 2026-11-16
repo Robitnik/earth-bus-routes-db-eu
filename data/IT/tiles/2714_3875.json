@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3875],
+"stops":[
+  {"id":486314401,"lat":45.706236,"lon":13.76589,"k":"p","n":"Borgo Grotta Gigante"},
+  {"id":486314408,"lat":45.706131,"lon":13.766079,"k":"p","n":"Borgo Grotta Gigante"},
+  {"id":2751386045,"lat":45.726265,"lon":13.763065,"k":"p","n":"SP8 di Monrupino (bivio)","ref":"D7025"},
+  {"id":2751386046,"lat":45.725487,"lon":13.763114,"k":"p","n":"SP8 di Monrupino (bivio)","ref":"D7024"},
+  {"id":4079925508,"lat":45.704247,"lon":13.753572,"k":"p","n":"SP29 di Borgo Grotta (campo sportivo)"},
+  {"id":5223714721,"lat":45.721691,"lon":13.794952,"k":"p","n":"Kulturni dom"},
+  {"id":5223714722,"lat":45.721596,"lon":13.79534,"k":"p","n":"Kulturni dom"},
+  {"id":6260799132,"lat":45.70452,"lon":13.753895,"k":"p","n":"SP29 di Borgo Grotta (campo sportivo)"},
+  {"id":6993456262,"lat":45.720207,"lon":13.798256,"k":"p","n":"SP8 di Monrupino 95"},
+  {"id":6993456263,"lat":45.722175,"lon":13.793005,"k":"p","n":"Repen"},
+  {"id":6993456265,"lat":45.722335,"lon":13.792139,"k":"p","n":"Repen"},
+  {"id":6993456268,"lat":45.722537,"lon":13.788996,"k":"p","n":"SP8 di Monrupino (azienda agricola Volnik)"},
+  {"id":6993456269,"lat":45.721915,"lon":13.78816,"k":"p","n":"SP8 di Monrupino (azienda agricola Volnik)"},
+  {"id":6993456271,"lat":45.712697,"lon":13.771586,"k":"p","n":"SP8 di Monrupino (villaggio Girandole)"},
+  {"id":6993456273,"lat":45.712404,"lon":13.77138,"k":"p","n":"SP8 di Monrupino (villaggio Girandole)"},
+  {"id":9194097432,"lat":45.728903,"lon":13.758197,"k":"p","n":"SP8 di Monrupino 42","ref":"D7060"},
+  {"id":9194097433,"lat":45.72765,"lon":13.762873,"k":"p","n":"SP8 di Monrupino 20 (loc. Monrupino)","ref":"D7018"},
+  {"id":9194097434,"lat":45.727211,"lon":13.762834,"k":"p","n":"SP8 di Monrupino 20 (loc. Monrupino)","ref":"D7017"},
+  {"id":10285672239,"lat":45.703041,"lon":13.768832,"k":"p","n":"SP29 di Borgo Grotta (ex caserma Dardi)"},
+  {"id":10285672240,"lat":45.703322,"lon":13.76868,"k":"p","n":"SP29 di Borgo Grotta (ex caserma Dardi)"}
+],
+"routes":[
+  {"id":1916681,"t":{"ref":"42","name":"Bus 42: Opicina / Opčine → Piazza Oberdan / Trg Oberdan","from":"Opicina / Opčine","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":42,"s":[[10285672239,6],[486314401,7],[6260799132,8]]},
+  {"id":7289842,"t":{"ref":"42","name":"Bus 42: Opicina / Opčine → Piazza Oberdan / Trg Oberdan via Monte Grisa / Vejna","from":"Opicina / Opčine","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":43,"s":[[10285672239,6],[486314401,7],[6260799132,8]]},
+  {"id":7290536,"t":{"ref":"42","name":"Bus 42: Piazza Oberdan / Trg Oberdan → Opicina / Opčine via Fernetti / Fernetiči","from":"Piazza Oberdan","to":"Opicina / Opčine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1","bus":"yes"},"n":48,"s":[[4079925508,34],[486314408,35],[6993456271,36],[6993456269,37],[6993456263,38],[5223714721,39]]},
+  {"id":7298428,"t":{"ref":"42","name":"Bus 42: Piazza Oberdan / Trg Oberdan → Opicina / Opčine","from":"Piazza Oberdan / Trg Oberdan","to":"Opicina / Opčine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1","bus":"yes"},"n":41,"s":[[4079925508,34],[486314408,35],[10285672240,36]]},
+  {"id":13285673,"t":{"ref":"42","name":"Bus 42: Piazza Oberdan / Trg Oberdan → Opicina / Opčine via Repen","from":"Piazza Oberdan / Trg Oberdan","to":"Opicina / Opčine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1","bus":"yes"},"n":48,"s":[[4079925508,34],[486314408,35],[6993456271,36],[6993456269,37],[6993456263,38],[5223714721,39]]},
+  {"id":13302340,"t":{"ref":"46","name":"Bus 46: Prosecco / Prosek → Samatorza / Samatorca via Rupinpiccolo / Repnič","from":"Prosecco / Prosek","to":"Samatorza / Samatorca","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":28,"s":[[9194097432,9],[9194097434,10],[2751386046,11],[2751386045,12],[9194097433,13]]},
+  {"id":13302341,"t":{"ref":"46","name":"Bus 46: Samatorza / Samatorca → Prosecco / Prosek via Rupinpiccolo / Repnič","from":"Samatorza / Samatorca","to":"Prosecco / Prosek","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":26,"s":[[9194097432,14],[9194097434,15],[2751386046,16],[2751386045,17],[9194097433,18]]},
+  {"id":13305396,"t":{"ref":"46","name":"Bus 46: Samatorza / Samatorca → Piazza Oberdan / Trg Oberdan via Rupinpiccolo / Repnič","from":"Samatorza / Samatorca","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":54,"s":[[9194097432,14],[9194097434,15],[2751386046,16],[2751386045,17],[9194097433,18]]},
+  {"id":13307850,"t":{"ref":"42","name":"Bus 42: Piazza Oberdan / Trg Oberdan → Opicina / Opčine via Monte Grisa / Vejna","from":"Piazza Oberdan / Trg Oberdan","to":"Opicina / Opčine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1","bus":"yes"},"n":42,"s":[[4079925508,35],[486314408,36],[10285672240,37]]},
+  {"id":13388622,"t":{"ref":"46","name":"Bus 46: Prosecco / Prosek → Aurisina / Nabrežina via Rupinpiccolo / Repnič","from":"Prosecco / Prosek","to":"Aurisina Municipio / Nabrežina županstvo","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":51,"s":[[9194097432,9],[9194097434,10],[2751386046,11],[2751386045,12],[9194097433,13]]},
+  {"id":13395243,"t":{"ref":"46","name":"Bus 46: Aurisina / Nabrežina → Prosecco / Prosek via Rupinpiccolo / Repnič","from":"Aurisina Municipio / Nabrežina županstvo","to":"Prosecco / Prosek","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":51,"s":[[9194097432,39],[9194097434,40],[2751386046,41],[2751386045,42],[9194097433,43]]},
+  {"id":13403176,"t":{"ref":"46","name":"Bus 46: Piazza Oberdan / Trg Oberdan → Aurisina / Nabrežina via Rupinpiccolo / Repnič","from":"Piazza Oberdan / Trg Oberdan","to":"Aurisina Municipio / Nabrežina županstvo","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":78,"s":[[9194097432,36],[9194097434,37],[2751386046,38],[2751386045,39],[9194097433,40]]},
+  {"id":16007948,"t":{"ref":"42","name":"Bus 42: Opicina / Opčine → Fernetti / Fernetici → Piazza Oberdan / Trg Oberdan","from":"Opicina / Opčine","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","bus":"yes"},"n":50,"s":[[6993456262,10],[5223714722,11],[6993456265,12],[6993456268,13],[6993456273,14],[486314401,15],[6260799132,16]]},
+  {"id":16010900,"t":{"ref":"42","name":"Bus 42: Opicina / Opčine → Monrupino / Repen → Piazza Oberdan / Trg Oberdan","from":"Opicina / Opčine","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","bus":"yes"},"n":50,"s":[[6993456262,10],[5223714722,11],[6993456265,12],[6993456268,13],[6993456273,14],[486314401,15],[6260799132,16]]}
+]
+}

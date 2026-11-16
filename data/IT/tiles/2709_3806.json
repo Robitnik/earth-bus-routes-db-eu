@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3806],
+"stops":[
+  {"id":9652641384,"lat":45.499887,"lon":10.348369,"k":"p","n":"Ciliverghe - Auchan"},
+  {"id":9652641385,"lat":45.499959,"lon":10.348124,"k":"p","n":"Ciliverghe - Auchan"},
+  {"id":13415985488,"lat":45.454343,"lon":10.324348,"k":"p","n":"FASCIA D'ORO - S.S. 236 Goitese, Compl.Arredo"},
+  {"id":13415985489,"lat":45.46022,"lon":10.315352,"k":"p","n":"STAB. FRANCHI - S.S. 236 Goitese"},
+  {"id":13417952904,"lat":45.470127,"lon":10.300133,"k":"p","n":"CASTENEDOLO - Via Matteotti, Chiesa"}
+],
+"routes":[
+  {"id":14021393,"t":{"ref":"LN034","name":"Bus LN034: Brescia => Desenzano","from":"Brescia","to":"Desenzano","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":27,"s":[[9652641385,15]]},
+  {"id":14021394,"t":{"ref":"LN034","name":"Bus LN034: Desenzano => Brescia","from":"Desenzano","to":"Brescia","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":26,"s":[[9652641384,13]]},
+  {"id":20019513,"t":{"ref":"LS33","name":"Linea LS33: Brescia => Montichiari => Carpenedolo","from":"Brescia Trataglia Via Gamba","to":"Carpenodolo Via Papa Giovanni XXIII","network":"OPAM","route":"bus","public_transport:version":"2"},"n":35,"s":[[13417952904,21],[13415985489,22]]},
+  {"id":20023225,"t":{"ref":"LS33","name":"Linea LS33: Carpenedolo => Montichiari => Brescia","to":"Brescia Trataglia Via Gamba","network":"OPAM","route":"bus","public_transport:version":"2"},"n":38,"s":[[13415985489,19],[13417952904,20]]},
+  {"id":20029114,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => S.EUFEMIA - Stazione Metro => Brescia","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"BRESCIA S.EUFEMIA - Stazione Metro;Brescia Autostatzione","network":"OPAM","route":"bus","public_transport:version":"2"},"n":37,"s":[[13415985488,23],[13415985489,24],[13417952904,25]]},
+  {"id":20040929,"t":{"ref":"LS34","name":"Linea LS34: Brescia => S.EUFEMIA - Stazione Metro => Carpenedolo Corsa 9","from":"Brescia Autostazione","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":30,"s":[[13417952904,6],[13415985489,7],[13415985488,8]]}
+]
+}

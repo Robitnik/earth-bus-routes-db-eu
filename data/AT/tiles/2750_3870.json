@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2750,3870],
+"stops":[
+  {"id":9327432410,"lat":47.547131,"lon":13.510548,"k":"p","n":"Hintertal b.Gosau Freilichtmuseum"},
+  {"id":9327432411,"lat":47.54719,"lon":13.510466,"k":"p","n":"Hintertal b.Gosau Freilichtmuseum"},
+  {"id":9327432412,"lat":47.54501,"lon":13.50468,"k":"p","n":"Hintertal b.Gosau Zwieselalmbahn"},
+  {"id":10068686681,"lat":47.547157,"lon":13.51053,"k":"x","n":"Hintertal b.Gosau Freilichtmuseum"},
+  {"id":10068686682,"lat":47.54497,"lon":13.504782,"k":"x","n":"Hintertal b.Gosau Zwieselalmbahn"},
+  {"id":10068686683,"lat":47.545021,"lon":13.504736,"k":"p"},
+  {"id":10068686684,"lat":47.545048,"lon":13.504754,"k":"p","n":"Hintertal b.Gosau Zwieselalmbahn"}
+],
+"routes":[
+  {"id":6462860,"t":{"ref":"541","name":"Bus 541 (Sommerfahrplan): Bad Ischl - Bad Goisern - Gosausee","from":"Bad Ischl Bahnhof","to":"Gosausee","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":43,"s":[[9327432411,40],[10068686683,41]]},
+  {"id":6462861,"t":{"ref":"542","name":"Bus 542 (Sommerfahrplan): Gosausee - Bad Goisern - Bad Ischl","from":"Gosausee","to":"Bad Ischl Bahnhof","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":42,"s":[[10068686683,3],[9327432410,4]]},
+  {"id":13536110,"t":{"ref":"542","name":"Bus 542 (Winterfahrplan): Zwieselalm - Bad Goisern - Bad Ischl","from":"Gosau Zwieselalm","to":"Bad Ischl Bahnhof","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":40,"s":[[10068686683,1],[9327432410,2]]},
+  {"id":13536111,"t":{"ref":"541","name":"Bus 541 (Winterfahrplan): Bad Ischl - Bad Goisern - Zwieselalm","from":"Bad Ischl Bahnhof","to":"Gosau Zwieselalm","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":41,"s":[[9327432411,40],[10068686683,41]]},
+  {"id":17556741,"t":{"ref":"720","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 720: Gosausee - Gosau - Gosaumühle","from":"Gosausee","to":"Gosaumühle","network":"Salzkammergut-Shuttles","colour":"#00CCCC","route":"bus","public_transport:version":"2"},"n":12,"s":[[9327432412,2],[9327432410,3]]},
+  {"id":17556742,"t":{"ref":"720","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 720: Gosaumühle - Gosau - Gosausee","from":"Gosaumühle","to":"Gosausee","network":"Salzkammergut-Shuttles","colour":"#00CCCC","route":"bus","public_transport:version":"2"},"n":12,"s":[[9327432411,10],[10068686684,11]]}
+]
+}

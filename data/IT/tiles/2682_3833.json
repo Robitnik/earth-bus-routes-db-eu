@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2682,3833],
+"stops":[
+  {"id":7952269562,"lat":44.147176,"lon":11.688069,"k":"p","n":"San Cassiano_V"},
+  {"id":7952269563,"lat":44.147255,"lon":11.688379,"k":"p","n":"San Cassiano"},
+  {"id":7952269564,"lat":44.137091,"lon":11.683438,"k":"p","n":"Pedrosola"},
+  {"id":7952269565,"lat":44.137693,"lon":11.683413,"k":"p","n":"Pedrosola_V"},
+  {"id":7952269566,"lat":44.115669,"lon":11.677072,"k":"p","n":"Rugginara","ref":"MRR037"},
+  {"id":7952277385,"lat":44.112015,"lon":11.671466,"k":"p","n":"Rugginara_V"},
+  {"id":7952277386,"lat":44.10125,"lon":11.65495,"k":"p","n":"Sant'Adriano","ref":"MRR043"},
+  {"id":11259877787,"lat":44.123345,"lon":11.678163,"k":"p"},
+  {"id":11259877790,"lat":44.117908,"lon":11.672826,"k":"p"}
+],
+"routes":[
+  {"id":11684246,"t":{"name":"Bus: Fognano FS => Marradi","from":"Fognano FS","to":"Marradi","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":10,"s":[[7952269562,2],[7952269565,3],[7952269566,4],[7952277386,6]]},
+  {"id":11684247,"t":{"name":"Bus: Marradi => Fognano FS","from":"Marradi","to":"Fognano FS","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":12,"s":[[7952277386,6],[7952277385,8],[7952269564,9],[7952269563,10]]},
+  {"id":16480745,"t":{"ref":"199","name":"199: Imola Autostazione => Faenza => San Martino in Gattara","from":"Imola Autostazione","to":"San Martino in Gattara","operator":"Cooperativa Trasporti Riolo Terme","route":"bus","public_transport:version":"2"},"n":13,"s":[[7952269562,8],[11259877787,9],[11259877790,13]]}
+]
+}

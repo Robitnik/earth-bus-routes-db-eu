@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2746,3797],
+"stops":[
+  {"id":330006081,"lat":47.347837,"lon":9.890857,"k":"p","n":"Mellau Mischen"},
+  {"id":348252579,"lat":47.347817,"lon":9.890699,"k":"x","n":"Mellau Mischen"},
+  {"id":1714405739,"lat":47.348917,"lon":9.880136,"k":"x","n":"Mellau Lässer"},
+  {"id":1719736475,"lat":47.346466,"lon":9.881476,"k":"x","n":"Mellau Simma"},
+  {"id":1834766091,"lat":47.347811,"lon":9.890486,"k":"p","n":"Mellau Mischen"},
+  {"id":3184421900,"lat":47.346216,"lon":9.888663,"k":"p","n":"Mellau Bergbahnen"},
+  {"id":3192878872,"lat":47.346949,"lon":9.877203,"k":"x","n":"Mellau Kohler"},
+  {"id":4936483139,"lat":47.346301,"lon":9.888889,"k":"x","n":"Mellau Bergbahnen"},
+  {"id":7691212837,"lat":47.349809,"lon":9.882971,"k":"p","n":"Mellau Kanisfluh"},
+  {"id":7691212838,"lat":47.349824,"lon":9.882997,"k":"x","n":"Mellau Kanisfluh"}
+],
+"routes":[
+  {"id":2305730,"t":{"ref":"840","name":"Bus 840: Schoppernau => Bregenz","from":"Schoppernau Gemeindeamt","to":"Bregenz Bahnhof","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","colour":"#c82128","route":"bus","public_transport:version":"2"},"n":48,"s":[[330006081,11]]},
+  {"id":2305732,"t":{"ref":"850","name":"Bus 850: Schoppernau => Dornbirn","from":"Schoppernau Gemeindeamt","to":"Dornbirn Bahnhof","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":61,"s":[[330006081,17]]},
+  {"id":3340275,"t":{"ref":"850","name":"Bus 850: Dornbirn => Schoppernau","from":"Dornbirn Bahnhof","to":"Schoppernau Gemeindeamt","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":61,"s":[[1834766091,45]]},
+  {"id":3340724,"t":{"ref":"840","name":"Bus 840: Bregenz => Schoppernau","from":"Bregenz Bahnhof","to":"Schoppernau Gemeindeamt","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","colour":"#c82128","route":"bus","public_transport:version":"2"},"n":49,"s":[[1834766091,39]]},
+  {"id":4213868,"t":{"ref":"832","name":"Bus 832: Bezau => Mellau","from":"Bezau Seilbahn","to":"Mellau Bergbahnen","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":13,"s":[[3184421900,13]]},
+  {"id":11279192,"t":{"ref":"832","name":"Bus 832: Mellau => Bezau","from":"Mellau Bergbahnen","to":"Bezau Seilbahn","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":14,"s":[[3184421900,1]]},
+  {"id":11279265,"t":{"ref":"833","name":"Bus 833: Bizau → Mellau","from":"Bizau Oberdorf","to":"Mellau Bergbahnen","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Unterland","colour":"#ffff00","route":"bus","public_transport:version":"2"},"n":22,"s":[[7691212837,21],[3184421900,22]]},
+  {"id":11279292,"t":{"ref":"833","name":"Bus 833: Mellau → Bizau","from":"Mellau Bergbahnen","to":"Bizau Oberdorf","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Unterland","colour":"#ffff00","route":"bus","public_transport:version":"2"},"n":20,"s":[[3184421900,1]]},
+  {"id":16032245,"t":{"ref":"Dorfblitz","name":"Dorfblitz Mellau","from":"Mellau Kreuz","to":"Mellau Bergbahnen","operator":"Felder","route":"bus","public_transport:version":"2"},"n":5,"s":[[7691212837,4],[3184421900,5]]}
+]
+}

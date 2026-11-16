@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3820],
+"stops":[
+  {"id":692740840,"lat":45.843774,"lon":11.00861,"k":"p","n":"Marco officina/centro"},
+  {"id":692740841,"lat":45.840078,"lon":11.009643,"k":"p","n":"Marco Via alla Ghiffia"},
+  {"id":692740842,"lat":45.841497,"lon":11.008341,"k":"p","n":"Marco chiesa"},
+  {"id":12830187129,"lat":45.831431,"lon":11.010811,"k":"p","n":"Marco Zona Ind.le"},
+  {"id":12830187130,"lat":45.836847,"lon":11.011176,"k":"p","n":"Marco Via Varini"},
+  {"id":12830187131,"lat":45.809098,"lon":11.014915,"k":"p","n":"Serravalle"},
+  {"id":12830187132,"lat":45.806558,"lon":11.017643,"k":"p","n":"Serravalle Via G.Cantore 21"},
+  {"id":12830187133,"lat":45.800688,"lon":11.023536,"k":"p","n":"Serravalle Via Trento/Vanga"},
+  {"id":12830545634,"lat":45.849066,"lon":11.012308,"k":"p","n":"Marco Via li Novembre 30/Via Pinera"},
+  {"id":12940689009,"lat":45.807302,"lon":11.009835,"k":"p","n":"Viletta"},
+  {"id":12940689010,"lat":45.808936,"lon":11.008762,"k":"p","n":"Chizzola"},
+  {"id":12940689011,"lat":45.813258,"lon":11.008333,"k":"p","n":"Chizzola Euromobili"},
+  {"id":12940689012,"lat":45.817824,"lon":11.003843,"k":"p","n":"Chizzola SP90 Km 16.8"},
+  {"id":12940689013,"lat":45.819177,"lon":11.00023,"k":"p","n":"Chizzola Cave Cipriani"},
+  {"id":12941931400,"lat":45.80879,"lon":11.009164,"k":"p","n":"Chizzola Via de Gasperi"},
+  {"id":12949736854,"lat":45.842146,"lon":11.007695,"k":"p","n":"Marco chiesa"},
+  {"id":12949736855,"lat":45.849948,"lon":11.012764,"k":"p","n":"Marco nord"},
+  {"id":12951141987,"lat":45.843629,"lon":11.00719,"k":"p","n":"Marco Parco Ex De Bellat"},
+  {"id":12951141988,"lat":45.846324,"lon":11.004267,"k":"p","n":"Marco Via S.Romedio"},
+  {"id":14212237781,"lat":45.82542,"lon":11.01083,"k":"p"},
+  {"id":14212237782,"lat":45.825617,"lon":11.010998,"k":"p"},
+  {"id":14363298950,"lat":45.800385,"lon":11.023289,"k":"p"}
+],
+"routes":[
+  {"id":19121167,"t":{"ref":"B335","name":"Bus B335: Rovereto->Ala->Masi d'Avio->Rovereto","from":"Rovereto","to":"Rovereto","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":76,"s":[[12830545634,11],[692740840,12,68],[692740842,13,67],[12830187130,14],[12830187129,15,66],[12830187131,16,65],[12830187132,17,64],[12830187133,18,63]]},
+  {"id":19135048,"t":{"ref":"B334","name":"Bus B334: Rovereto->Ala->Sabbionara->Masi->Rovereto","from":"Rovereto","to":"Rovereto","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":86,"s":[[12830545634,11,77],[692740840,12,76],[692740842,13,75],[12830187130,14,74],[12830187129,15,73],[12830187131,16,72],[12830187132,17,71],[12830187133,18,70]]},
+  {"id":19272286,"t":{"ref":"B307","name":"Bus B307: Avio->Ala->Cornè->Chizzola->Mori->Rovereto","from":"Ala Stazione FS","to":"Rovetreto Stazione","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":29,"s":[[12940689009,10],[12940689010,11],[12940689011,12],[12940689012,13],[12940689013,14]]},
+  {"id":19272287,"t":{"ref":"B307","name":"Bus B307: Rovereto->Mori->Chizzola->Cornè->Ala->Avio","from":"Rovereto Via Manzoni","to":"ala Stazione FS","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":29,"s":[[12940689013,16],[12940689012,17],[12940689011,18],[12940689010,19],[12940689009,20]]},
+  {"id":19273494,"t":{"ref":"B307","name":"Bus B307: Variante: Cornè->Chizzola->Mori","from":"Corné","to":"Mori Bar Centrale","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":12,"s":[[12940689010,6],[12940689011,7],[12940689012,8],[12940689013,9]]},
+  {"id":19273495,"t":{"ref":"B307","name":"Bus B307: Variante: Mori->Chizzola->Cornè","from":"Mori Bar Centrale","to":"Cornè","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":20,"s":[[12940689013,4],[12940689012,5],[12940689011,6],[12940689010,7],[12830187131,8],[12941931400,9]]},
+  {"id":19283909,"t":{"ref":"1","name":"Bus 1: Marco->Lizzano->Staz.->Bettini->(Vizzana)","from":"Marco Via Varini","to":"Corso Bettini liceo","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":14,"s":[[12830187130,1],[692740840,2]]},
+  {"id":19283910,"t":{"ref":"1","name":"Bus 1: (Vizzana)->Bettini->Staz.->Lizzano->Marco","from":"Corso Bettini liceo","to":"Marco Via Varini","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[12830545634,15],[692740840,16],[12830187130,17]]},
+  {"id":19286060,"t":{"ref":"1","name":"Bus 1: Variante: Marco->industria->Recovercenter","from":"Marco Via Varini","to":"SS12 Recovercenter","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":14,"s":[[12830187130,1],[692740841,2],[692740842,3],[12951141987,4],[12951141988,5]]},
+  {"id":19286061,"t":{"ref":"1","name":"Bus 1: Variante: Recovercenter->industria->Marco","from":"SS12 Recovercenter","to":"Marco Via Varini","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[12951141988,9],[12951141987,10],[12949736854,11],[692740841,12],[12830187130,13]]}
+]
+}

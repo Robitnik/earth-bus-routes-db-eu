@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3825],
+"stops":[
+  {"id":963725924,"lat":45.993299,"lon":11.260625,"k":"p","n":"Via marconi VVF"},
+  {"id":1984744015,"lat":45.994635,"lon":11.256894,"k":"p"},
+  {"id":1984744017,"lat":45.995195,"lon":11.25669,"k":"p","n":"Caldonazzo - Via G. Marconi"},
+  {"id":1984744650,"lat":45.99647,"lon":11.259077,"k":"p","n":"Caldonazzo Distr. Fina"},
+  {"id":1984744651,"lat":45.996481,"lon":11.259657,"k":"p","n":"Caldonazzo Distr. Fina"},
+  {"id":1984744710,"lat":45.997108,"lon":11.264622,"k":"p","n":"Caldonazzo Viale Trento"},
+  {"id":1984744716,"lat":45.997211,"lon":11.264761,"k":"p","n":"Caldonazzo Viale Trento"},
+  {"id":4241437962,"lat":45.950368,"lon":11.263136,"k":"p","n":"Bertoldi"},
+  {"id":4241437963,"lat":45.950385,"lon":11.263289,"k":"p","n":"Bertoldi"},
+  {"id":5330179705,"lat":45.994569,"lon":11.2708,"k":"p"},
+  {"id":12107018892,"lat":45.997957,"lon":11.2792,"k":"p","n":"Caldonazzo SP1 Civ. 85/b"},
+  {"id":12107018893,"lat":45.998012,"lon":11.279455,"k":"p","n":"Caldonazzo SP1 Civ. 85/b"},
+  {"id":13039048157,"lat":45.960779,"lon":11.297391,"k":"p","n":"Monterovere"},
+  {"id":13039048158,"lat":45.954193,"lon":11.294289,"k":"p","n":"Masetti Bivio"}
+],
+"routes":[
+  {"id":16165886,"t":{"ref":"B306","name":"Bus B306: Rovereto->Callano->Folgaria->Lavarone","from":"Rovereto","to":"Lavarone","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":53,"s":[[4241437963,49]]},
+  {"id":19145869,"t":{"ref":"B306","name":"Bus B306: Lavarone->Folgario->Callano-->Rovereto","from":"Lavarone","to":"Rovereto Statione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":52,"s":[[4241437963,4]]},
+  {"id":19411492,"t":{"ref":"B303","name":"Bus B303: Trento->V.Catara->Carbonare->Lavorne->Luserna","from":"Trento Autostazione","to":"Luserna","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":57,"s":[[4241437962,47],[13039048158,54],[13039048157,55]]},
+  {"id":19411675,"t":{"ref":"B303","name":"Bus B303: Luserna->Lavarone->Carbnonare->V.Catara->Trento","from":"Lusern","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":60,"s":[[13039048157,3],[13039048158,4],[4241437963,11]]},
+  {"id":19412352,"t":{"ref":"B401","name":"Bus B401: Borgo V.->Levico->Pergine V.->Trento","from":"Borgo Valsugana","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":45,"s":[[12107018892,21],[1984744716,22],[1984744650,23]]},
+  {"id":19412353,"t":{"ref":"B401","name":"Bus B401: Trento->Pergine V.->Levico T.->Borgo V.","from":"Trento Autostazione","to":"Borgo Val Sugana","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":39,"s":[[1984744651,18],[1984744710,19],[12107018893,20]]},
+  {"id":19430735,"t":{"ref":"B329","name":"Bus B329: Lusern->Monterovere->Caldonazzo","from":"Lusern","to":"Caldonazzo Viale Trento","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":4,"s":[[13039048157,3],[1984744716,4]]},
+  {"id":19430736,"t":{"ref":"B329","name":"Bus B329: Caldonazzo->Monterovere->Lusern","from":"Caldonazzo Viale Trento","to":"Lusern","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":4,"s":[[1984744710,1],[13039048157,2]]}
+]
+}

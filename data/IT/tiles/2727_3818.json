@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2727,3818],
+"stops":[
+  {"id":614841383,"lat":46.353523,"lon":10.916936,"k":"x","n":"Malè, Nuova Stazione"},
+  {"id":1100567804,"lat":46.352824,"lon":10.91471,"k":"p","n":"Malè ex. Stazione Ftm"},
+  {"id":1805539498,"lat":46.366113,"lon":10.942659,"k":"p","n":"Caldes"},
+  {"id":1805539503,"lat":46.366302,"lon":10.942895,"k":"p","n":"Caldes"},
+  {"id":12981721495,"lat":46.353541,"lon":10.916998,"k":"p","n":"Malè, Nuova Stazione (tutti gli autobus)"},
+  {"id":12988185323,"lat":46.358198,"lon":10.925324,"k":"p","n":"Terzolas Bivio Paese"},
+  {"id":12988185338,"lat":46.360194,"lon":10.912653,"k":"p","n":"Magras Bivio"},
+  {"id":12988185339,"lat":46.358217,"lon":10.91765,"k":"p","n":"Terzolas Bivio Val di Rabbi"},
+  {"id":12997732162,"lat":46.365225,"lon":10.937437,"k":"p","n":"Samoclevo Bivio"}
+],
+"routes":[
+  {"id":19326011,"t":{"ref":"B642","name":"Bus B642: Madonna di Campiglio->Folgarida->Malè","from":"M.Campiglio Pietra Gr.","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[1100567804,24],[12981721495,25]]},
+  {"id":19326012,"t":{"ref":"B642","name":"Bus B642: Malè->Folgarida->Madonna di Campiglio","from":"Malè Nuovo Stazione","to":"M.Campiglio Pietra Gr.","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[12981721495,1],[1100567804,2]]},
+  {"id":19332987,"t":{"ref":"B643","name":"Bus B643: Malè->Mezzana->Marilleva 1400","from":"Malè Nuovo Stazione","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[12981721495,1],[1100567804,2]]},
+  {"id":19333735,"t":{"ref":"B643","name":"Bus B643: Marilleva 1400->Mezzana->Malè","from":"Marilleva 1400","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[1100567804,26],[12981721495,27]]},
+  {"id":19333820,"t":{"ref":"B641","name":"Bus B641: Bolentina->Malè","from":"Bolentina","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":6,"s":[[1100567804,5],[12981721495,6]]},
+  {"id":19333821,"t":{"ref":"B641","name":"Bus B641: Malè->Bolentina","from":"Malè Nuovo Stazione","to":"Bolentina","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12981721495,1],[1100567804,2]]},
+  {"id":19335704,"t":{"ref":"B640","name":"Bus B640: Somrabbi->Rabbi Bagni->Malè","from":"Somrabbi","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":28,"s":[[12988185338,25],[12988185339,26],[1100567804,27],[12981721495,28]]},
+  {"id":19335705,"t":{"ref":"B640","name":"Bus B640: Malè->Rabbi Bagni->Somrabbi","from":"Malè Nuovo Stazione","to":"Somrabbi","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":29,"s":[[12981721495,1],[1100567804,2],[12988185339,3],[12988185338,4]]},
+  {"id":19349186,"t":{"ref":"B601","name":"Bus B601: Trento->Dermulo->Cles->Male","from":"Trento Autostazione","to":"Male","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":29,"s":[[1805539503,26],[12997732162,27],[12988185323,28],[12981721495,29]]},
+  {"id":19349662,"t":{"ref":"B601","name":"Bus B601: Male->Cles->Dermulo->Trento","from":"Male","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":31,"s":[[12981721495,1],[12988185339,2],[1805539498,3]]}
+]
+}

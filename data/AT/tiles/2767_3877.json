@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2767,3877],
+"stops":[
+  {"id":3162975380,"lat":48.359643,"lon":13.862842,"k":"p","n":"Esthofen"},
+  {"id":3412520204,"lat":48.368337,"lon":13.875089,"k":"p","n":"Freiling"},
+  {"id":10302348691,"lat":48.385347,"lon":13.877912,"k":"p","n":"St. Agatha Ortsmitte"},
+  {"id":10302348692,"lat":48.385432,"lon":13.877548,"k":"p","n":"St. Agatha Ortsmitte"},
+  {"id":10302348693,"lat":48.389113,"lon":13.884525,"k":"p","n":"St. Agatha Minichweg"},
+  {"id":10302348694,"lat":48.388871,"lon":13.884073,"k":"p","n":"St. Agatha Minichweg"},
+  {"id":10308879933,"lat":48.379967,"lon":13.88067,"k":"p","n":"Königsdorf"},
+  {"id":10308879934,"lat":48.379838,"lon":13.880893,"k":"p","n":"Königsdorf"},
+  {"id":10308879935,"lat":48.368256,"lon":13.874786,"k":"p","n":"Freiling"},
+  {"id":10308879936,"lat":48.359284,"lon":13.862689,"k":"p","n":"Esthofen"}
+],
+"routes":[
+  {"id":15081975,"t":{"ref":"670","name":"Bus 670: Variante aus St. Agatha (Richtung Eferding)","route":"bus","public_transport:version":"2"},"n":13,"s":[[10302348691,1],[10302348693,2],[10308879934,13]]},
+  {"id":15081976,"t":{"ref":"670","name":"Bus 670: Variante nach St. Agatha (aus Eferding kommend)","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[10302348694,2],[10302348692,3]]},
+  {"id":15088935,"t":{"ref":"692","name":"Bus 692: Haibach/Donau - Waizenkirchen - Grieskirchen","from":"Haibach ob der Donau Ortsmitte","to":"Grieskirchen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[10302348694,3],[10302348692,4],[10308879933,5],[3412520204,6],[3162975380,7]]},
+  {"id":15088939,"t":{"ref":"692","name":"Bus 692: Grieskirchen - Waizenkirchen - Haibach/Donau","from":"Grieskirchen Bahnhof","to":"Haibach ob der Donau Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[10308879936,20],[10308879935,21],[10308879934,22],[10302348691,23],[10302348693,24]]},
+  {"id":15089706,"t":{"ref":"696","name":"Bus 696: St. Agatha => Eferding => Linz voestalpine","from":"St. Agatha Ortsmitte","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":33,"s":[[10302348691,1],[10302348693,2]]},
+  {"id":15089707,"t":{"ref":"696","name":"Bus 696: Linz voestalpine => Eferding => St. Agatha","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[10302348694,34],[10302348692,35]]}
+]
+}

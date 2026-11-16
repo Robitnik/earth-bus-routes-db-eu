@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3874],
+"stops":[
+  {"id":684571454,"lat":46.496068,"lon":13.7195,"k":"s","n":"Rateče Planica"},
+  {"id":912386227,"lat":46.497093,"lon":13.704836,"k":"p"},
+  {"id":4072233213,"lat":46.497332,"lon":13.702711,"k":"p","n":"Valico di Fusine"},
+  {"id":4108858559,"lat":46.497286,"lon":13.702726,"k":"x","n":"Valico di Fusine"},
+  {"id":14057027700,"lat":46.47622,"lon":13.724011,"k":"p","n":"Nordijski center Planica"},
+  {"id":14057042509,"lat":46.494361,"lon":13.73422,"k":"p","n":"AP Zelenci"}
+],
+"routes":[
+  {"id":6121355,"t":{"ref":"203","name":"SAF Linea 203 : Tarvisio => Valico di Fusine","from":"Tarvisio Scuole","to":"Valico di Fusine","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":13,"s":[[4072233213,13]]},
+  {"id":6125196,"t":{"ref":"203","name":"SAF Linea 203 : Valico di Fusine => Tarvisio","from":"Valico di Fusine","to":"Tarvisio Autostaziione","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":14,"s":[[4072233213,1]]},
+  {"id":6125211,"t":{"ref":"203","name":"SAF Linea 203 : Valico di Fusine => Lago Superiore di Fusine => Tarvisio","from":"Valico di Fusine","to":"Tarvisio Autostazione","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[4072233213,1]]},
+  {"id":7489858,"t":{"ref":"Alpetour","name":"Ljubljana - Kranj - Jesenice - Rateče Planica","operator":"Alpetour Potovalna agencija","route":"bus","public_transport:version":"1"},"n":3,"s":[[684571454,3]]},
+  {"id":21158425,"t":{"name":"Planica – Kranjska Gora","from":"Planica","to":"AP Kranjska Gora","operator":"Kranjska Gora","route":"bus","public_transport:version":"2"},"n":4,"s":[[14057027700,1],[684571454,2],[14057042509,3]]},
+  {"id":21167738,"t":{"name":"Mojstrana – Kranjska Gora – Planica","from":"AP Mercator Mojstrana","to":"Planica","operator":"Kranjska Gora","route":"bus","public_transport:version":"2"},"n":3,"s":[[684571454,2],[14057027700,3]]}
+]
+}

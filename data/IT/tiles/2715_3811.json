@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3811],
+"stops":[
+  {"id":7263218722,"lat":45.773645,"lon":10.575195,"k":"p","n":"Persone"},
+  {"id":7263218725,"lat":45.773522,"lon":10.57562,"k":"p","n":"Persone"},
+  {"id":12890546187,"lat":45.760524,"lon":10.595409,"k":"p","n":"Gargnano Turano piazza"},
+  {"id":12890546188,"lat":45.763983,"lon":10.591499,"k":"p","n":"Gargnano Bivio Armo"},
+  {"id":12890546189,"lat":45.762019,"lon":10.598154,"k":"p","n":"Gargnano Bersaglio"},
+  {"id":14132754746,"lat":45.763959,"lon":10.591721,"k":"p","n":"Gargnano Bivio Armo"},
+  {"id":14140330874,"lat":45.757895,"lon":10.580135,"k":"p","n":"Moerna cimitero"},
+  {"id":14140330879,"lat":45.757903,"lon":10.580239,"k":"p","n":"Moerna cimitero"},
+  {"id":14140839096,"lat":45.759179,"lon":10.582347,"k":"p","n":"Moerna, via Belvedere"},
+  {"id":14193426325,"lat":45.770716,"lon":10.594459,"k":"p","n":"Valvestino - Armo"},
+  {"id":14193426326,"lat":45.763961,"lon":10.591078,"k":"p","n":"Gargnano Bivio Armo"}
+],
+"routes":[
+  {"id":19216923,"t":{"ref":"LN015","name":"Bus LN015: Magasa->Gargnano","from":"Magasa","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12890546187,2],[12890546188,3],[12890546189,4]]},
+  {"id":19216924,"t":{"ref":"LN015","name":"Bus LN015: Gargnano->Magasa","from":"Gargnano","to":"Magasa","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12890546189,10],[12890546188,11],[12890546187,12]]},
+  {"id":21310224,"t":{"ref":"LN020","name":"Capovalle-Turano-Armo/Bollone","from":"Capovalle - Piazza Mercato","to":"Armo","operator":"Arriva Brescia","route":"bus"},"n":3,"s":[[12890546187,1],[14140839096,2]]},
+  {"id":21317180,"t":{"ref":"LN020","name":"Bus LN020: Capovalle->Armo","from":"Capovalle piazza Mercato","to":"Armo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":7,"s":[[14140330874,2],[14140839096,3],[7263218725,4],[12890546187,5],[14193426326,6],[14193426325,7]]},
+  {"id":21411312,"t":{"ref":"LN020","name":"Bus LN020: Armo->Capovalle","from":"Armo","to":"Capovalle piazza Mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":7,"s":[[14193426325,1],[14193426326,2],[12890546187,3],[7263218725,4],[14140839096,5],[14140330879,6]]},
+  {"id":21411319,"t":{"ref":"LN020","name":"Bus LN020: Bollone -> Turano variante","from":"Bollone","to":"Turano","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":5,"s":[[12890546189,3],[14132754746,4],[12890546187,5]]},
+  {"id":21411320,"t":{"ref":"LN020","name":"Bus LN020: Turano->Bollone variante","from":"Turano","to":"Bollone","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":5,"s":[[12890546187,1],[14132754746,2],[12890546189,3]]}
+]
+}

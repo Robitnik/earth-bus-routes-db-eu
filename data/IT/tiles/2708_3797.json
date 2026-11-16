@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3797],
+"stops":[
+  {"id":12258270927,"lat":45.401093,"lon":9.870579,"k":"p","n":"Soncino - via XXV Aprile"},
+  {"id":12258270928,"lat":45.401019,"lon":9.870754,"k":"p","n":"Soncino - via XXV Aprile"},
+  {"id":13075666387,"lat":45.448908,"lon":9.877156,"k":"p"}
+],
+"routes":[
+  {"id":20156065,"t":{"ref":"RL203B","name":"Bus RL203B: Brescia => Soncino","from":"Brescia Autostazione","to":"Soncino Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":40,"s":[[12258270927,39]]},
+  {"id":20156403,"t":{"ref":"RL203B","name":"Bus RL203B: Soncino->Brescia","from":"Soncino Autostazione","to":"Brescia Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[12258270928,2]]},
+  {"id":20302500,"t":{"ref":"R","name":"Bus R: Soncino => Bergamo","from":"Soncino - autostazione","to":"Bergamo - stazione autolinee","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[12258270928,2]]},
+  {"id":20302501,"t":{"ref":"R","name":"Bus R: Bergamo => Soncino","from":"Bergamo - stazione autolinee (pens. 6)","to":"Soncino - via zanardi","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":35,"s":[[12258270927,34]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3805],
+"stops":[
+  {"id":923155812,"lat":45.495563,"lon":10.276968,"k":"p","n":"Via Prima n 27","ref":"26"},
+  {"id":923156689,"lat":45.475183,"lon":10.261264,"k":"p","n":"Capodimonte via Monte Pasubio I.G.M.","ref":"879"},
+  {"id":923156717,"lat":45.499488,"lon":10.277964,"k":"p","n":"Via S.Benedetto n 2","ref":"66"},
+  {"id":923156727,"lat":45.467799,"lon":10.264494,"k":"p","n":"Via M.te Pasubio fr. capolinea","ref":"2116"},
+  {"id":923159437,"lat":45.494614,"lon":10.271592,"k":"p","n":"Via Serenissima (fianco Fabbro)","ref":"449"},
+  {"id":923159513,"lat":45.467781,"lon":10.264372,"k":"p","n":"Capodimonte via Monte Pasubio Chiesa CAP","ref":"283"},
+  {"id":923159764,"lat":45.477705,"lon":10.253516,"k":"p","n":"Via Molino Vecchio n 179","ref":"727"},
+  {"id":923161907,"lat":45.496787,"lon":10.274206,"k":"p","n":"Via Buffalora n 87 (ACLI)","ref":"450"},
+  {"id":923162882,"lat":45.499609,"lon":10.2646,"k":"p","n":"Via Bettole n 65","ref":"455"},
+  {"id":923163267,"lat":45.499303,"lon":10.264763,"k":"p","n":"Via Bettole n 102","ref":"448"},
+  {"id":923163496,"lat":45.496846,"lon":10.27403,"k":"p","n":"Via Buffalora fronte n 87 capolinea","ref":"475"},
+  {"id":923163658,"lat":45.495976,"lon":10.279032,"k":"p","n":"Via della Seriola Vescovada fr n 98","ref":"453"},
+  {"id":923165120,"lat":45.498138,"lon":10.281038,"k":"p","n":"Via della Seriola Vescovada angolo cimit","ref":"452"},
+  {"id":923167243,"lat":45.498784,"lon":10.276697,"k":"p","n":"Via Buffalora n 73/75","ref":"451"},
+  {"id":923168424,"lat":45.476843,"lon":10.260707,"k":"p","n":"Castenedolo Via Monte Pasubio n 104","ref":"683"},
+  {"id":923168461,"lat":45.470045,"lon":10.26327,"k":"p","n":"Via Monte Pasubio n 18","ref":"656"},
+  {"id":923168919,"lat":45.469973,"lon":10.26323,"k":"p","n":"Castenedolo Via Monte Pasubio fr.n 16","ref":"620"},
+  {"id":923169423,"lat":45.477639,"lon":10.253867,"k":"p","n":"Borgosatollo via Molino Vecchio fr.n 179","ref":"256"},
+  {"id":923170573,"lat":45.494735,"lon":10.270755,"k":"p","n":"Via Serenissima (bivio Bettole)","ref":"454"},
+  {"id":13415985490,"lat":45.479347,"lon":10.288922,"k":"p","n":"L'ALPINO - S.S. 236 Goitese,3"},
+  {"id":13415985491,"lat":45.485846,"lon":10.281036,"k":"p","n":"IPERSIMPLY - S.S. 236 Goitese, fronte"},
+  {"id":13415985492,"lat":45.49324,"lon":10.272319,"k":"p","n":"BETTOLE - S.S. 236 Goitese, Edicola"},
+  {"id":13415985493,"lat":45.498839,"lon":10.274105,"k":"p","n":"Via Serenissima, bv. Centro Sportivo"},
+  {"id":13415985494,"lat":45.497464,"lon":10.273778,"k":"p","n":"Via Serenissima, bv. Buffalora"},
+  {"id":13417952903,"lat":45.472853,"lon":10.296499,"k":"p","n":"CASTENEDOLO - S.S. 236 Gpitese bv. Via Manzoni"}
+],
+"routes":[
+  {"id":1627470,"t":{"ref":"9","name":"9 Violino - Buffalora","from":"Violino","to":"Buffalora","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#C6A1E0","route":"bus"},"n":65,"s":[[923163267,57],[923159437,58],[923161907,59],[923167243,60],[923156717,61],[923165120,62],[923163658,63],[923155812,64],[923163496,65]]},
+  {"id":1775029,"t":{"ref":"9","name":"9 Buffalora - Violino","from":"Buffalora","to":"Violino","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","route":"bus"},"n":56,"s":[[923163496,1],[923170573,2],[923162882,3]]},
+  {"id":2739021,"t":{"ref":"9","name":"9 Via Buffalora - Buffalora","from":"Via Buffalora","to":"Buffalora","network":"Brescia Mobilità","operator":"Brescia Mobilità","route":"bus"},"n":6,"s":[[923167243,1],[923156717,2],[923165120,3],[923163658,4],[923155812,5],[923163496,6]]},
+  {"id":19986629,"t":{"ref":"14","name":"14 Brescia - Borgosatollo","from":"Brescia","to":"Borgosatollo","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#A38989","route":"bus","public_transport:version":"2"},"n":39,"s":[[923169423,35],[923168424,36],[923168919,37],[923159513,38],[923156727,39]]},
+  {"id":19986630,"t":{"ref":"14","name":"14 Borgosatollo - Brescia","from":"Borgostollo","to":"Brescia","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#A38989","route":"bus","public_transport:version":"2"},"n":42,"s":[[923156727,1],[923159513,2],[923168461,3],[923168424,4],[923169423,5]]},
+  {"id":20019513,"t":{"ref":"LS33","name":"Linea LS33: Brescia => Montichiari => Carpenedolo","from":"Brescia Trataglia Via Gamba","to":"Carpenodolo Via Papa Giovanni XXIII","network":"OPAM","route":"bus","public_transport:version":"2"},"n":35,"s":[[13415985494,14],[13415985493,16],[13415985492,17],[13415985491,18],[13415985490,19],[13417952903,20]]},
+  {"id":20023225,"t":{"ref":"LS33","name":"Linea LS33: Carpenedolo => Montichiari => Brescia","to":"Brescia Trataglia Via Gamba","network":"OPAM","route":"bus","public_transport:version":"2"},"n":38,"s":[[13415985490,21],[13415985491,22],[13415985492,23],[13415985494,24],[13415985493,26]]},
+  {"id":20029114,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => S.EUFEMIA - Stazione Metro => Brescia","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"BRESCIA S.EUFEMIA - Stazione Metro;Brescia Autostatzione","network":"OPAM","route":"bus","public_transport:version":"2"},"n":37,"s":[[13415985490,26],[13415985491,27],[13415985492,28],[13415985494,29]]},
+  {"id":20040929,"t":{"ref":"LS34","name":"Linea LS34: Brescia => S.EUFEMIA - Stazione Metro => Carpenedolo Corsa 9","from":"Brescia Autostazione","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":30,"s":[[13415985494,2],[13415985492,3],[13415985491,4],[13415985490,5]]}
+]
+}

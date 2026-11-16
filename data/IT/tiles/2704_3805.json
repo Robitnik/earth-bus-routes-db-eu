@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2704,3805],
+"stops":[
+  {"id":377047359,"lat":45.220051,"lon":10.265337,"k":"p","n":"Redezza"},
+  {"id":13404126957,"lat":45.226625,"lon":10.251338,"k":"p","n":"Ostiano - via S.Rocco"},
+  {"id":13440275256,"lat":45.217236,"lon":10.275875,"k":"p","n":"Ostiano, Località Torricella"},
+  {"id":13440275257,"lat":45.219851,"lon":10.26534,"k":"p","n":"Redezza, Via Redezza, 7"},
+  {"id":13440275258,"lat":45.222432,"lon":10.256386,"k":"p","n":"Ostiano Via Beisolchi"},
+  {"id":13440275259,"lat":45.223758,"lon":10.253747,"k":"p","n":"Ostiano, Piazza Pari"},
+  {"id":13440275272,"lat":45.223658,"lon":10.250094,"k":"p","n":"Ostiano, P.za Marconi, 26"},
+  {"id":13440275273,"lat":45.22253,"lon":10.256569,"k":"p","n":"Ostiano Via Beisolchi"},
+  {"id":13440275274,"lat":45.217402,"lon":10.276079,"k":"p","n":"Ostiano, Località Torricella"},
+  {"id":13440275275,"lat":45.212667,"lon":10.29803,"k":"p","n":"Volongo, Via Garibaldi"}
+],
+"routes":[
+  {"id":2568484,"t":{"ref":"LS016","name":"Bus LS016: Brescia => Pralboino => Ostiano","from":"Brescia","to":"Ostiano","network":"Arriva","route":"bus","public_transport:version":"2"},"n":48,"s":[[13404126957,46]]},
+  {"id":2568485,"t":{"ref":"LS016","name":"Bus LS016: Ostiano => Pralboino => Brescia","from":"Ostiano","to":"Brescia","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[13404126957,2]]},
+  {"id":20060560,"t":{"ref":"K206","name":"Bus K206: Cremona => Ostiano => Gadesco=> Volongo","from":"Cremona Autostazione","to":"Volongo Via Gariabaldi,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":28,"s":[[13440275259,23],[13440275258,24],[13440275257,25],[13440275256,26],[13440275275,27]]},
+  {"id":20060561,"t":{"ref":"K206","name":"Bus K206: Volongo => Gadesco => Ostiano => Cremona","from":"Volongo Via Garibaldi,Chiesa","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":24,"s":[[13440275275,2],[13440275274,3],[377047359,4],[13440275273,5],[13440275272,6]]}
+]
+}

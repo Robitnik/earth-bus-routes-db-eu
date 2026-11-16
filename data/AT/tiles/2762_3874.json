@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2762,3874],
+"stops":[
+  {"id":5796545200,"lat":48.143919,"lon":13.703164,"k":"p","n":"Unteraffnang"},
+  {"id":8173923577,"lat":48.142354,"lon":13.736828,"k":"p","n":"Gaspoltshofen Ortsmitte"},
+  {"id":8204880687,"lat":48.101861,"lon":13.743964,"k":"p","n":"Niederthalheim Koppl"},
+  {"id":8204880693,"lat":48.102036,"lon":13.731411,"k":"p","n":"Niederthalheim Wufing"},
+  {"id":9330066056,"lat":48.141891,"lon":13.732702,"k":"p","n":"Gaspoltshofen Bezirksaltenheim"},
+  {"id":9330066058,"lat":48.141973,"lon":13.732703,"k":"p","n":"Gaspoltshofen Bezirksaltenheim"},
+  {"id":9330066061,"lat":48.142916,"lon":13.736337,"k":"p","n":"Gaspoltshofen Ortsmitte"},
+  {"id":9330066062,"lat":48.144793,"lon":13.702597,"k":"p","n":"Unteraffnang"},
+  {"id":5000813803272,"lat":48.13866,"lon":13.731346,"k":"p","n":"Gaspoltshofen Jeding","ref":"1"},
+  {"id":5000878636289,"lat":48.13876,"lon":13.731708,"k":"p","n":"Gaspoltshofen Jeding","ref":"2"}
+],
+"routes":[
+  {"id":2302628,"t":{"ref":"716","name":"Bus 716: Schwanenstadt - Atzbach - Niederthalheim - Schwanenstadt","from":"Schwanenstadt Bahnhof","to":"Schwanenstadt Mittelschule I","route":"bus","public_transport:version":"2"},"n":30,"s":[[8204880693,19],[8204880687,20]]},
+  {"id":11956148,"t":{"ref":"712","name":"Bus 712: Vöcklabruck - Thomasroith - Wolfsegg - Gaspoltshofen","from":"Vöcklabruck Busbahnhof (Öttlstraße)","to":"Gaspoltshofen Jeding Busterminal","route":"bus","public_transport:version":"2"},"n":34,"s":[[5796545200,33],[5000813803272,34]]},
+  {"id":11956272,"t":{"ref":"712","name":"Bus 712: Gaspoltshofen - Wolfsegg - Thomasroith - Vöcklabruck","from":"Gaspoltshofen Jeding Busterminal","to":"Vöcklabruck Busbahnhof (Öttlstraße)","route":"bus","public_transport:version":"2"},"n":36,"s":[[5000813803272,1],[9330066062,2]]},
+  {"id":15054229,"t":{"ref":"642","name":"Bus 642: Ried/Ikr. - Haag - Gaspoltshofen - Lambach","from":"Ried im Innkreis Bahnhof","to":"Lambach Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[5796545200,16],[9330066056,17],[9330066061,18],[5000878636289,19]]},
+  {"id":15054230,"t":{"ref":"642","name":"Bus 642: Lambach - Gaspoltshofen - Haag - Ried/Ikr.","from":"Lambach Bahnhof","to":"Ried im Innkreis Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":41,"s":[[5000813803272,17],[8173923577,18],[9330066058,19],[9330066062,20]]},
+  {"id":15054234,"t":{"ref":"640","name":"Bus 640: Variante aus Gaspoltshofen nach Offenhausen (Richtung Wels)","from":"Gaspoltshofen Jeding Busterminal","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000813803272,1],[9330066056,2],[9330066061,3]]},
+  {"id":15054237,"t":{"ref":"640","name":"Bus 640: Variante aus Offenhausen nach Gaspoltshofen","to":"Gaspoltshofen Jeding Busterminal","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[8173923577,9],[9330066058,10],[5000813803272,11]]},
+  {"id":15067004,"t":{"ref":"651","name":"Bus 651: Gaspoltshofen - Meggenhofen - Grieskirchen","from":"Gaspoltshofen Jeding Busterminal","to":"Grieskirchen Busbahnhof (Postamt)","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000813803272,1],[8173923577,2]]},
+  {"id":15067005,"t":{"ref":"651","name":"Bus 651: Grieskirchen - Meggenhofen - Altenhof","from":"Grieskirchen Busbahnhof (Postamt)","to":"Altenhof Bauhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":28,"s":[[9330066061,24],[5000878636289,25],[9330066062,26]]},
+  {"id":16876731,"t":{"ref":"717","name":"Bus 717: Schwanenstadt - Niederthalheim - Gaspoltshofen","from":"Schwanenstadt Stadtplatz","to":"Gaspoltshofen Jeding Busterminal","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000813803272,11]]},
+  {"id":16876732,"t":{"ref":"717","name":"Bus 717: Gaspoltshofen - Niederthalheim - Schwanenstadt","from":"Gaspoltshofen Ortsmitte","to":"Schwanenstadt Stadtplatz","route":"bus","public_transport:version":"2"},"n":12,"s":[[9330066061,1],[5000813803272,2]]}
+]
+}

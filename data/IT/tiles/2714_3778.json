@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3778],
+"stops":[
+  {"id":1863390291,"lat":45.703081,"lon":8.903308,"k":"p"},
+  {"id":1863489348,"lat":45.710376,"lon":8.906158,"k":"p"},
+  {"id":1863725616,"lat":45.710421,"lon":8.906188,"k":"p","n":"Tradate FN"},
+  {"id":1863725685,"lat":45.710523,"lon":8.906897,"k":"p"},
+  {"id":4361402432,"lat":45.719212,"lon":8.913571,"k":"p","n":"Piazza Gramsci (Istituti) (Tradate)"},
+  {"id":7605993989,"lat":45.703749,"lon":8.90702,"k":"p"},
+  {"id":11967105608,"lat":45.701391,"lon":8.918924,"k":"p","n":"Tradate, V. Fiume 1"},
+  {"id":11967105609,"lat":45.702109,"lon":8.917909,"k":"p","n":"Tradate, via Marconi 116"},
+  {"id":11967105610,"lat":45.709917,"lon":8.906992,"k":"p","n":"Tradate, Via Piave 16, Stazione FN"},
+  {"id":11983100169,"lat":45.72256,"lon":8.901171,"k":"p","n":"Tradate (Via XI Febbraio - Ospedale)"},
+  {"id":13784888085,"lat":45.723124,"lon":8.901114,"k":"p","n":"Tradate, XI Febbraio,Ospedale"},
+  {"id":13785019782,"lat":45.703772,"lon":8.907061,"k":"x"}
+],
+"routes":[
+  {"id":6520590,"t":{"ref":"C76","name":"C76 Olgiate Comasco","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":2,"s":[[1863725616,2]]},
+  {"id":6520591,"t":{"ref":"C76","name":"C76 Tradate FN","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":3,"s":[[4361402432,2],[1863725616,3]]},
+  {"id":17630663,"t":{"ref":"H204","from":"Saronno","to":"Tradate","network":"FNMA","operator":"Ferrovie Nord Milano Autoservizi","route":"bus"},"n":12,"s":[[1863725616,9],[11967105608,11],[11983100169,12]]},
+  {"id":17630664,"t":{"ref":"H204","from":"Tradate","to":"Saronno","network":"FNMA","operator":"Ferrovie Nord Milano Autoservizi","route":"bus"},"n":13,"s":[[11967105609,11],[11967105610,12],[11983100169,13]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2765,3879],
+"stops":[
+  {"id":1581529258,"lat":48.268023,"lon":13.98929,"k":"x","n":"Steinholz b. Eferding Aumühle"},
+  {"id":2991363498,"lat":48.27109,"lon":13.989906,"k":"p","n":"Kalköfen B134/Abzw. Ort"},
+  {"id":2991363499,"lat":48.271521,"lon":13.990198,"k":"p","n":"Kalköfen B134/Abzw. Ort"},
+  {"id":4069157937,"lat":48.257871,"lon":13.951901,"k":"p","n":"St. Marienkirchen Polsenz Unterfreundorf"},
+  {"id":4069294841,"lat":48.250365,"lon":13.968459,"k":"p","n":"Jungreith Kreisverkehr B134"},
+  {"id":4069294843,"lat":48.250701,"lon":13.967546,"k":"p","n":"Jungreith Kreisverkehr L1221"},
+  {"id":4069294844,"lat":48.250822,"lon":13.967332,"k":"p","n":"Jungreith Kreisverkehr L1221"},
+  {"id":5606168072,"lat":48.257869,"lon":13.952225,"k":"p","n":"St. Marienkirchen Polsenz Unterfreundorf"},
+  {"id":6700940497,"lat":48.271336,"lon":13.98967,"k":"p","n":"Kalköfen B134/Abzw. Ort"},
+  {"id":9991501665,"lat":48.261623,"lon":13.977858,"k":"p","n":"Breitenaich B134"},
+  {"id":9991501666,"lat":48.261657,"lon":13.977634,"k":"p","n":"Breitenaich B134"},
+  {"id":10299265291,"lat":48.276213,"lon":13.983536,"k":"p","n":"Kalköfen Greinecker"},
+  {"id":10299265292,"lat":48.276738,"lon":13.983286,"k":"p","n":"Kalköfen Greinecker"},
+  {"id":10299265293,"lat":48.279897,"lon":13.978838,"k":"p","n":"Kalköfen Dorfmayr"},
+  {"id":10299265294,"lat":48.280148,"lon":13.978524,"k":"p","n":"Kalköfen Dorfmayr"},
+  {"id":10299265295,"lat":48.28324,"lon":13.975603,"k":"p","n":"Limberg Landesstraße"},
+  {"id":10299265296,"lat":48.283363,"lon":13.974946,"k":"p","n":"Limberg Landesstraße"},
+  {"id":10299265297,"lat":48.288197,"lon":13.963781,"k":"p","n":"Untergallsbach"},
+  {"id":10299265298,"lat":48.288171,"lon":13.964043,"k":"p","n":"Untergallsbach"},
+  {"id":10299265307,"lat":48.268175,"lon":13.989322,"k":"p","n":"Steinholz b. Eferding Aumühle"},
+  {"id":10299283011,"lat":48.268234,"lon":13.989196,"k":"p","n":"Steinholz b. Eferding Aumühle"},
+  {"id":10299283029,"lat":48.254849,"lon":13.956069,"k":"p","n":"St. Marienkirchen Polsenz Polsenztal"},
+  {"id":13059927863,"lat":48.288229,"lon":13.963803,"k":"x","n":"Untergallsbach"},
+  {"id":13059927864,"lat":48.288146,"lon":13.964023,"k":"x","n":"Untergallsbach"}
+],
+"routes":[
+  {"id":2385395,"t":{"ref":"660","name":"Bus 660: Wels - Bad Schallerbach - Aschach","from":"Wels Kaiser-Josef-Platz (Rainerstraße)","to":"Aschach Kirchenplatz","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":35,"s":[[4069294841,17],[9991501665,18],[2991363498,19]]},
+  {"id":2390032,"t":{"ref":"660","name":"Bus 660: Aschach - Bad Schallerbach - Wels","from":"Aschach Kirchenplatz","to":"Wels Kaiser-Josef-Platz (Rainerstraße)","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":37,"s":[[2991363499,18],[9991501666,19]]},
+  {"id":2390478,"t":{"ref":"661","name":"Bus 661: Aschach => Pollham => Grieskirchen","from":"Aschach","to":"Grieskirchen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":22,"s":[[2991363499,10],[9991501666,11],[4069294844,12],[5606168072,13]]},
+  {"id":2390537,"t":{"ref":"661","name":"Bus 661: Grieskirchen => Pollham => Eferding","from":"Grieskirchen Busbahnhof (Postamt)","to":"Eferding Busterminal","network":"Oberösterreichischer Verkehrsverbund","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":20,"s":[[4069157937,11],[4069294843,12],[9991501665,13],[2991363498,14]]},
+  {"id":15073666,"t":{"ref":"663","name":"Bus 663: Variante über Jungreith (Richtung Eferding)","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[4069157937,10],[10299283029,11],[4069294843,12],[9991501665,14],[10299265307,15]]},
+  {"id":15073667,"t":{"ref":"663","name":"Bus 663: Prambachkirchen - Untergallsbach - Eferding","from":"Prambachkirchen Bahnhof","to":"Eferding Busterminal (Schulzentrum)","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":17,"s":[[10299265297,7],[10299265296,8],[10299265293,9],[10299265291,10],[6700940497,11]]},
+  {"id":15073669,"t":{"ref":"663","name":"Bus 663: Aschach - Eferding - Untergallsbach - Prambachkirchen","from":"Aschach Kirchenplatz","to":"Prambachkirchen Hauptstraße","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[2991363499,7],[10299265292,8],[10299265294,9],[10299265295,10],[10299265298,11]]},
+  {"id":15073670,"t":{"ref":"663","name":"Bus 663: Variante über Jungreith (Richtung Dachsberg)","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[10299283011,1],[9991501666,2],[4069294844,4],[10299283029,5],[5606168072,6]]},
+  {"id":15073674,"t":{"ref":"662","name":"Bus 662: Waizenkirchen - Bad Schallerbach - Wels","from":"Waizenkirchen Bahnhof","to":"Wels Kaiser-Josef-Platz (Rainerstraße)","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":30,"s":[[4069157937,16],[4069294843,17]]},
+  {"id":15073677,"t":{"ref":"662","name":"Bus 662: Wels - Bad Schallerbach - Waizenkirchen","from":"Wels Kaiser-Josef-Platz (Rainerstraße)","to":"Waizenkirchen","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":27,"s":[[4069294844,13],[5606168072,14]]}
+]
+}

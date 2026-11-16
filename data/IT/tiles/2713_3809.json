@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3809],
+"stops":[
+  {"id":412443096,"lat":45.650362,"lon":10.474845,"k":"p","n":"Vobarno loc. Carpeneda"},
+  {"id":412443097,"lat":45.650204,"lon":10.475143,"k":"p","n":"Vobarno loc. Carpeneda"},
+  {"id":13536248608,"lat":45.689658,"lon":10.453907,"k":"p","n":"Provaglio vs. (arveaco), 19"},
+  {"id":13536248609,"lat":45.685924,"lon":10.452708,"k":"p","n":"Livrio di provaglio v.s."}
+],
+"routes":[
+  {"id":19224354,"t":{"ref":"S202-2","name":"Bus S202-2: Salò->Roe'->Sabbio->Vestone (diramazione Brescia)","from":"Salò autostazione","to":"Vestone autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":24,"s":[[412443096,13]]},
+  {"id":19224587,"t":{"ref":"S202-2","name":"Bus S202-2: Vestone->Sabbio->Roe'->Salò (diramazione Brescia)","from":"Vestone autostazione","to":"Salò autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":26,"s":[[412443097,12]]},
+  {"id":20192635,"t":{"ref":"LN017","name":"Bus LN017: Provaglio Val Sabbia->Vestone","from":"Vestone Autostazione","to":"Provaglio vs. (arveaco), 19 Vestone Autostazione","operator":"Provaglio vs. (arveaco), 19","route":"bus","public_transport:version":"2"},"n":10,"s":[[13536248608,1],[13536248609,2]]},
+  {"id":20192636,"t":{"ref":"LN017","name":"Bus LN017: Vestone->Provaglio Val Sabbia","from":"Vestone Autostazione","to":"Provaglio vs. (arveaco), 19","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":10,"s":[[13536248609,9],[13536248608,10]]}
+]
+}

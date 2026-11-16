@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3878],
+"stops":[
+  {"id":2723295295,"lat":47.976829,"lon":13.945759,"k":"x","n":"Einsiedling Ort"},
+  {"id":3860776196,"lat":47.998659,"lon":13.921135,"k":"x","n":"Vorchdorf-Eggenberg"},
+  {"id":3860776200,"lat":47.998673,"lon":13.921285,"k":"x","n":"Vorchdorf-Eggenberg"},
+  {"id":8206372702,"lat":47.990648,"lon":13.921825,"k":"p","n":"Brauerei Schloss Eggenberg"},
+  {"id":8206372703,"lat":47.992892,"lon":13.900823,"k":"p","n":"Motorradmuseum"},
+  {"id":8237228362,"lat":47.991328,"lon":13.927004,"k":"p","n":"Eggenberg Im Kellerfeld"},
+  {"id":8237228363,"lat":47.991281,"lon":13.926921,"k":"p","n":"Eggenberg Im Kellerfeld"},
+  {"id":8237228364,"lat":47.983876,"lon":13.933214,"k":"x","n":"Eggenberg Pappelleiten"},
+  {"id":8237228365,"lat":47.98403,"lon":13.932983,"k":"x","n":"Eggenberg Pappelleiten"},
+  {"id":8237228366,"lat":47.984073,"lon":13.933054,"k":"p","n":"Eggenberg Pappelleiten"},
+  {"id":8237228367,"lat":47.983849,"lon":13.93318,"k":"p","n":"Eggenberg Pappelleiten"},
+  {"id":8237228368,"lat":47.976765,"lon":13.945682,"k":"p","n":"Einsiedling Ort"},
+  {"id":8237228369,"lat":47.976896,"lon":13.945836,"k":"p","n":"Einsiedling Ort"},
+  {"id":9181019357,"lat":47.96611,"lon":13.929261,"k":"p","n":"Heitzing"},
+  {"id":9181019358,"lat":47.98055,"lon":13.923417,"k":"p","n":"Seyrkam"},
+  {"id":9183609005,"lat":47.997535,"lon":13.940607,"k":"p","n":"Vorchdorf Fischböckau Brunnmühlstraße"},
+  {"id":11402935344,"lat":47.997543,"lon":13.938168,"k":"p","n":"Vorchdorf Fischböckau Almweg"},
+  {"id":11402935345,"lat":47.997577,"lon":13.938279,"k":"p","n":"Vorchdorf Fischböckau Almweg"},
+  {"id":11402935346,"lat":47.993061,"lon":13.92494,"k":"p","n":"Eggenberg Im Kellerfeld Nord"},
+  {"id":11402935347,"lat":47.992933,"lon":13.92552,"k":"p","n":"Eggenberg Im Kellerfeld Nord"},
+  {"id":5000382868766,"lat":47.998659,"lon":13.921191,"k":"p","n":"Vorchdorf-Eggenberg Bahnhof"},
+  {"id":5000882379386,"lat":47.998659,"lon":13.921129,"k":"p","n":"Vorchdorf-Eggenberg Bahnhof"}
+],
+"routes":[
+  {"id":1401446,"t":{"ref":"527","name":"Bus 527: Laakirchen - Vorchdorf","from":"Laakirchen Schule","to":"Vorchdorf Fischböckau","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000382868766,11],[11402935347,12],[11402935344,13],[9183609005,14]]},
+  {"id":10483115,"t":{"ref":"501","name":"Bus 501: Vorchdorf - Eberstalzell - Steinerkirchen - Wels","from":"Vorchdorf Bahnhof","to":"Wels Hauptbahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000882379386,1]]},
+  {"id":10483116,"t":{"ref":"501","name":"Bus 501: Wels - Steinerkirchen - Eberstalzell - Vorchdorf","from":"Wels Hauptbahnhof","to":"Vorchdorf Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000882379386,33]]},
+  {"id":11993764,"t":{"ref":"527","name":"Bus 527: Vorchdorf - Laakirchen - Ohlsdorf","from":"Vorchdorf Fischböckau","to":"Ohlsdorf Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":22,"s":[[9183609005,1],[11402935345,2],[11402935346,3],[5000382868766,4]]},
+  {"id":12031205,"t":{"ref":"481","name":"Bus 481: Vorchdorf - Pettenbach - Kirchdorf","from":"Vorchdorf Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000882379386,1],[8237228363,4],[8237228367,5],[8237228368,6]]},
+  {"id":12031206,"t":{"ref":"481","name":"Bus 481: Kirchdorf - Pettenbach - Vorchdorf","from":"Kirchdorf/Krems Pflichtschulzentrum","to":"Vorchdorf Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":27,"s":[[8237228369,22],[8237228366,23],[8237228362,24],[5000882379386,27]]},
+  {"id":13340111,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Hagenmühle - Vorchdorf - Almspitz","from":"Hagenmühle","to":"Lambach Almspitz","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[9181019357,2],[9181019358,3],[8206372702,4],[5000882379386,5],[8206372703,7]]},
+  {"id":13340112,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Almspitz - Vorchdorf - Hagenmühle","from":"Lambach Almspitz","to":"Hagenmühle","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[8206372703,9],[5000882379386,11],[8206372702,12],[9181019358,13],[9181019357,14]]},
+  {"id":13343458,"t":{"ref":"70","name":"Salzkammergut-Shuttle Traunsee-Almtal 70: Vorchdorf - Pettenbach - Scharnstein","from":"Wirt in der Edt","to":"Scharnstein Ortsmitte","network":"Salzkammergut-Shuttles","colour":"#0099CC","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000882379386,5],[8206372702,6],[9183609005,7]]},
+  {"id":13343459,"t":{"ref":"70","name":"Salzkammergut-Shuttle Traunsee-Almtal 70: Scharnstein - Pettenbach - Vorchdorf","from":"Scharnstein Ortsmitte","to":"Wirt in der Edt","network":"Salzkammergut-Shuttles","colour":"#0099CC","route":"bus","public_transport:version":"2"},"n":19,"s":[[9183609005,13],[8206372702,14],[5000882379386,15]]}
+]
+}

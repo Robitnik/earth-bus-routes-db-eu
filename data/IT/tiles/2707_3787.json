@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2707,3787],
+"stops":[
+  {"id":5098905498,"lat":45.379568,"lon":9.356502,"k":"p","n":"COLTURANO Balbiano - SP159/Melegnano","ref":"CLT014"},
+  {"id":5098905499,"lat":45.379598,"lon":9.355996,"k":"p","n":"COLTURANO Balbiano - SP159/Melegnano","ref":"CLT013"},
+  {"id":6770409996,"lat":45.37376,"lon":9.394541,"k":"p"},
+  {"id":6770409997,"lat":45.373494,"lon":9.394477,"k":"p"},
+  {"id":7034102971,"lat":45.380834,"lon":9.350018,"k":"p","n":"COLTURANO Balbiano - SP159/Roma","ref":"CLT011"},
+  {"id":7034127125,"lat":45.364522,"lon":9.364283,"k":"p","n":"CASALMAIOCCO SP159/SP138 Pandina","ref":"CSM008"},
+  {"id":7034127126,"lat":45.3643,"lon":9.364194,"k":"p","n":"CASALMAIOCCO SP159/SP138 Pandina","ref":"CSM006"},
+  {"id":7034127127,"lat":45.353383,"lon":9.366738,"k":"p","n":"CASALMAIOCCO SP159/Colombera","ref":"CSM010"},
+  {"id":7034127128,"lat":45.353173,"lon":9.366515,"k":"p","n":"CASALMAIOCCO SP159/Colombera","ref":"CSM009"},
+  {"id":8915924027,"lat":45.391445,"lon":9.387951,"k":"p"},
+  {"id":8915967237,"lat":45.390535,"lon":9.390772,"k":"p"},
+  {"id":8915967238,"lat":45.390445,"lon":9.390812,"k":"p"},
+  {"id":12059428603,"lat":45.375878,"lon":9.359023,"k":"p","n":"DRESANO SP159/Delle Margherite","ref":"DRS015"},
+  {"id":12059428604,"lat":45.375954,"lon":9.359235,"k":"p","n":"DRESANO SP159/Gramsci","ref":"DRS014"},
+  {"id":12330633598,"lat":45.364891,"lon":9.36072,"k":"p","n":"DRESANO SP138 Pandina/Genova","ref":"DRS012"},
+  {"id":12330633599,"lat":45.364987,"lon":9.361693,"k":"p","n":"CASALMAIOCCO SP138 Pandina/Genova","ref":"CSM007"},
+  {"id":12330633617,"lat":45.366662,"lon":9.363152,"k":"p","n":"DRESANO Madonnina - SP159/SP138","ref":"DRS010"},
+  {"id":12330633618,"lat":45.367226,"lon":9.363172,"k":"p","n":"DRESANO Madonnina - SP159/SP138","ref":"DRS009"},
+  {"id":12405092142,"lat":45.37073,"lon":9.35976,"k":"p","n":"DRESANO SP159/Da Vinci","ref":"DRS016"},
+  {"id":12405092143,"lat":45.372748,"lon":9.359436,"k":"p","n":"DRESANO SP159/Delle Vigne","ref":"DRS013"},
+  {"id":12405092153,"lat":45.365002,"lon":9.361769,"k":"p","n":"CASALMAIOCCO Via Pandina/Via Novara","ref":"cs3001"},
+  {"id":12593304240,"lat":45.37265,"lon":9.394452,"k":"p","n":"MULAZZANO SP138 Pandina/Cimitero"},
+  {"id":12593304251,"lat":45.373525,"lon":9.398132,"k":"p","n":"MULAZZANO SP138 Pandina (Comune)"},
+  {"id":12610738465,"lat":45.35192,"lon":9.369768,"k":"p","n":"CASALMAIOCCO Manzoni/Colombera","ref":"CSM011"},
+  {"id":12610738466,"lat":45.351824,"lon":9.369347,"k":"p","n":"CASALMAIOCCO Manzoni/Colombera","ref":"CSM005"},
+  {"id":12610738467,"lat":45.352122,"lon":9.373115,"k":"p","n":"CASALMAIOCCO Manzoni/D'Annunzio","ref":"CSM004"},
+  {"id":12610738468,"lat":45.352252,"lon":9.373447,"k":"p","n":"CASALMAIOCCO Manzoni/D'Annunzio","ref":"CSM011"}
+],
+"routes":[
+  {"id":18510644,"t":{"ref":"z415","name":"Bus z415: Milano => Melegnano","from":"Milano, Autostazione San Donato M3","to":"Melegnano, Viale Lombardia","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":27,"s":[[7034102971,15],[5098905499,16],[12059428603,17],[12405092142,18],[12330633617,19],[12330633598,20]]},
+  {"id":18510645,"t":{"ref":"z415","name":"z415 Melegnano → Milano","from":"Melegnano, Viale Lombardia","to":"Milano, Autostazione San Donato M3","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":28,"s":[[12330633599,9],[12330633618,10],[12405092143,11],[12059428604,12],[5098905498,13]]},
+  {"id":18674236,"t":{"ref":"z418","name":"z418 Melegnano → San Zenone FS","from":"Melegnano, Viale Lombardia","to":"San Zenone Al Lambro, Stazione FS","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":16,"s":[[12330633599,8],[12593304240,9],[7034127126,10],[7034127128,11],[12610738466,12],[12610738465,13],[12610738467,14],[12610738468,15]]},
+  {"id":18674237,"t":{"ref":"z418","name":"Bus z418: San Zenone FS => Melegnano","from":"San Zenone Al Lambro, Stazione FS","to":"Melegnano, Viale Lombardia","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":13,"s":[[12610738466,2],[12610738467,3],[7034127127,4],[7034127125,5],[12593304240,6],[12330633598,7]]},
+  {"id":18786197,"t":{"ref":"z415","name":"z415 Milano → S. Zenone FS","from":"Milano, Autostazione San Donato M3","to":"San Zenone al Lambro, Stazione FS","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":21,"s":[[7034102971,13],[5098905499,14],[12059428603,15],[12405092142,16],[12330633617,17],[7034127126,18],[7034127128,19]]},
+  {"id":18786198,"t":{"ref":"z415","name":"z415 S. Zenone FS → Milano","from":"San Zenone al Lambro, Stazione FS","to":"Milano, Autostazione San Donato M3","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":19,"s":[[7034127127,2],[7034127125,3],[12330633618,4],[12405092143,5],[12059428604,6],[5098905498,7]]}
+]
+}

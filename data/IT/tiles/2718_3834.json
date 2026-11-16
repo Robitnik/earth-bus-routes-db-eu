@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3834],
+"stops":[
+  {"id":277297158,"lat":45.901892,"lon":11.701936,"k":"x","n":"Pieretti"},
+  {"id":6893876602,"lat":45.911031,"lon":11.718068,"k":"p","n":"Collicello Prima","ref":"178"},
+  {"id":6896409556,"lat":45.915451,"lon":11.728478,"k":"p","n":"Bivio Cismon","ref":"65"},
+  {"id":6896410105,"lat":45.916969,"lon":11.730384,"k":"p","n":"Cismon del Grappa","ref":"174"},
+  {"id":6896410106,"lat":45.916939,"lon":11.730232,"k":"p","n":"Cismon del Grappa","ref":"R174"},
+  {"id":6896411348,"lat":45.941026,"lon":11.708897,"k":"p","n":"Enego","ref":"203"},
+  {"id":6896422404,"lat":45.949306,"lon":11.716238,"k":"p","n":"Enego - Crosare 2^","ref":"3333"},
+  {"id":6896422405,"lat":45.944335,"lon":11.714016,"k":"p","n":"Enego - Fosse di Mezzo","ref":"218"},
+  {"id":6896422406,"lat":45.943976,"lon":11.714312,"k":"p","n":"Enego - Fosse di Mezzo","ref":"218"},
+  {"id":6896453383,"lat":45.949437,"lon":11.716229,"k":"p","n":"Enego - Crosare 2^","ref":"R3333"},
+  {"id":6896466966,"lat":45.91557,"lon":11.728544,"k":"p","n":"Bivio Cismon","ref":"R65"},
+  {"id":8827503295,"lat":45.939612,"lon":11.745853,"k":"p","n":"Corlo"},
+  {"id":8827503296,"lat":45.939615,"lon":11.746071,"k":"p","n":"Corlo"},
+  {"id":8827503297,"lat":45.936636,"lon":11.744459,"k":"p","n":"La Cava"},
+  {"id":8827503298,"lat":45.936623,"lon":11.744631,"k":"p","n":"La Cava"},
+  {"id":8827503299,"lat":45.933436,"lon":11.741502,"k":"p","n":"Incino"},
+  {"id":11310636674,"lat":45.903896,"lon":11.710059,"k":"p","n":"Via Barbamarco"},
+  {"id":11310636675,"lat":45.914155,"lon":11.719926,"k":"p","n":"Collicello"}
+],
+"routes":[
+  {"id":10171456,"t":{"ref":"E49","name":"Linea extraurbana 49: Bassano - Valstagna - Costa - Collicello","from":"Bassano del Grappa","to":"Collicello","network":"Servizio Extraurbano di Vicenza","operator":"SVT - Società Vicentina Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[11310636674,15],[6893876602,16],[11310636675,17]]},
+  {"id":10174301,"t":{"ref":"E49","name":"Linea extraurbana 49: Collicello - Costa - Valstagna - Bassano","from":"Collicello","to":"Bassano del Grappa","network":"Servizio Extraurbano di Vicenza","operator":"SVT - Società Vicentina Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[11310636675,1],[6893876602,2],[11310636674,3]]},
+  {"id":10414198,"t":{"ref":"E48","name":"Linea extraurbana 48: Bassano - Primolano - Enego","from":"Bassano del Grappa","to":"Enego","network":"Servizio Extraurbano di Vicenza","operator":"SVT - Società Vicentina Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[6896409556,10],[6896410105,11],[6896422404,14],[6896422405,15],[6896411348,17]]},
+  {"id":10414379,"t":{"ref":"E48","name":"Linea extraurbana 48: Enego - Primolano - Bassano","from":"Enego","to":"Bassano del Grappa","network":"Società Vicentina Trasporti","operator":"Società Vicentina Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[6896411348,1],[6896422406,2],[6896453383,3],[6896410106,6],[6896466966,7]]},
+  {"id":12841896,"t":{"ref":"27","name":"Arsiè -> Incino","from":"Arsiè Feltrino","to":"Incino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":8,"s":[[8827503295,7],[8827503297,8]]},
+  {"id":12841897,"t":{"ref":"27","name":"Incino -> Arsiè","from":"Incino","to":"Arsiè Feltrino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":8,"s":[[8827503298,1],[8827503296,2]]}
+]
+}

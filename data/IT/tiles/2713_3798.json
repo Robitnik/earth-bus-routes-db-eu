@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3798],
+"stops":[
+  {"id":13608941491,"lat":45.671115,"lon":9.948587,"k":"p","n":"Sarnico - via suardo (colorificio)"},
+  {"id":13608941492,"lat":45.668613,"lon":9.938757,"k":"p","n":"Villongo - via italia (isola)"},
+  {"id":13608941493,"lat":45.665653,"lon":9.932727,"k":"p","n":"Villongo - via italia (tuste)"},
+  {"id":13608941494,"lat":45.66144,"lon":9.92854,"k":"p","n":"Credaro - via roma (municipio)"},
+  {"id":13608941495,"lat":45.650575,"lon":9.911449,"k":"p","n":"Calepio - provinciale/via fra ambrogio"},
+  {"id":13609036050,"lat":45.661717,"lon":9.928575,"k":"p","n":"Credaro - via roma (farmacia)"},
+  {"id":13609036051,"lat":45.665777,"lon":9.932628,"k":"p","n":"Villongo - via italia (creberg)"},
+  {"id":13609036052,"lat":45.671211,"lon":9.948976,"k":"p","n":"Sarnico - via suardo (colorificio)"},
+  {"id":13620788669,"lat":45.695505,"lon":9.907112,"k":"p","n":"Foresto sparso - piazza chiesa"},
+  {"id":13620788670,"lat":45.693216,"lon":9.91228,"k":"p","n":"Foresto sparso - via franzi"},
+  {"id":13620788671,"lat":45.688896,"lon":9.920155,"k":"p","n":"Foresto sparso - via tremellini"},
+  {"id":13620788672,"lat":45.681097,"lon":9.922103,"k":"p","n":"Foresto sparso - via s.giuseppe"},
+  {"id":13620788673,"lat":45.671675,"lon":9.929345,"k":"p","n":"Villongo - s.filastro (4 vie)"},
+  {"id":13620788674,"lat":45.669971,"lon":9.929976,"k":"p","n":"Villongo - via kennedy"},
+  {"id":13620788675,"lat":45.662021,"lon":9.92826,"k":"p","n":"Credaro - p.za indipendenza"},
+  {"id":13620883237,"lat":45.669376,"lon":9.939851,"k":"p","n":"Villongo - largo buelli (isola)"},
+  {"id":13620883244,"lat":45.699129,"lon":9.94635,"k":"p","n":"Adrara s.martino - via marconi (parch.)"},
+  {"id":13620883245,"lat":45.696237,"lon":9.947636,"k":"p","n":"Adrara s.martino - via marconi (scuole)"},
+  {"id":13620883250,"lat":45.681025,"lon":9.947503,"k":"p","n":"Sarnico - via fornace (casot)"},
+  {"id":13620883251,"lat":45.673098,"lon":9.940631,"k":"p","n":"Villongo - via verdi bivio cimitero"},
+  {"id":13620883252,"lat":45.669466,"lon":9.940101,"k":"p","n":"Villongo - largo buelli (isola)"},
+  {"id":14002931824,"lat":45.664941,"lon":9.904298,"k":"p","n":"Gandosso - via celatica (farmacia)"},
+  {"id":14002931825,"lat":45.666999,"lon":9.913176,"k":"p","n":"via camozzi/via roncaglia"}
+],
+"routes":[
+  {"id":20274568,"t":{"ref":"E","name":"Bus E: Bergamo => Tavernola","from":"Bergamo - Terminal Arriva","to":"Tavernola - via roma (molo)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":44,"s":[[13608941495,30],[13608941494,31],[13608941493,32],[13608941492,33],[13608941491,34]]},
+  {"id":20274894,"t":{"ref":"E","name":"Bus E: Tavernola => Bergamo","from":"Tavernola - via roma (banca bcc)","to":"Bergamo - Terminal Arriva","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":38,"s":[[13609036052,12],[13608941492,13],[13609036051,14],[13609036050,15],[13608941495,16]]},
+  {"id":20290487,"t":{"ref":"E20a","name":"Bus E20a: Foresto Sparso => Sarnico","from":"Foresto sparso - piazza chiesa","to":"Sarnico - via roma (municipio)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":11,"s":[[13620788669,1],[13620788670,2],[13620788671,3],[13620788672,4],[13620788673,5],[13620788674,6],[13620788675,7],[13608941493,8],[13608941492,9],[13608941491,10]]},
+  {"id":20290488,"t":{"ref":"E20a","name":"Bus E20a Sarnico => Foresto Sparso","from":"Sarnico - via roma (municipio)","to":"Foresto sparso - piazza chiesa","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":11,"s":[[13609036052,2],[13608941492,3],[13609036051,4],[13620788675,5],[13620788674,6],[13620788673,7],[13620788672,8],[13620788671,9],[13620788670,10],[13620788669,11]]},
+  {"id":20290773,"t":{"ref":"E20b","name":"Bus E20b: Andara => Sarnico","from":"Adrara s.rocco - piazza giovanni XXIII","to":"Sarnico - via roma (municipio)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[13620883245,4],[13620883237,7],[13608941491,8]]},
+  {"id":20290774,"t":{"ref":"E20b","name":"Bus E20b: Sarnico => Andrara","from":"Sarnico - via roma (municipio)","to":"Adrara s.rocco - piazza giovanni XXIII","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[13609036052,2],[13620883252,3],[13620883251,4],[13620883250,5],[13620883245,9],[13620883244,10]]},
+  {"id":21085498,"t":{"ref":"E20d","name":"Bus E20d: Grumello Monte => Sarnico","from":"Grumello del Monte FS - Via V. Veneto","to":"Sarnico - via roma (municipio)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[14002931824,9],[14002931825,10],[13620788675,11],[13608941493,12],[13608941492,13],[13608941491,14]]},
+  {"id":21085499,"t":{"ref":"E20d","name":"Bus E20d Sarnico => Grumello Monte","from":"Sarnico - via roma (municipio)","to":"Grumello del Monte FS - Via V. Veneto","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[13609036052,2],[13608941492,3],[13609036051,4],[13620788675,5],[14002931825,6],[14002931824,7]]},
+  {"id":21092542,"t":{"ref":"Eex","name":"Bus Eex: Bergamo -> Iseo","from":"Bergamo Autolinee (Pensilina 7)","to":"Iseo - via gorzoni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":16,"s":[[13608941495,6],[13608941494,7],[13608941492,8],[13608941491,9]]},
+  {"id":21092997,"t":{"ref":"Eex","name":"Bus Eex: Iseo => Bergamo","from":"Iseo - via gorzoni","to":"Iseo - via gorzoni Bergamo Autolinee (Pensilina 7)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":19,"s":[[13609036052,11],[13608941492,12],[13609036051,13],[13609036050,14],[13608941495,15]]}
+]
+}

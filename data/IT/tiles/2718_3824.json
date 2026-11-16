@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3824],
+"stops":[
+  {"id":2293027048,"lat":45.945597,"lon":11.238867,"k":"p","n":"Virti"},
+  {"id":12846557934,"lat":45.934253,"lon":11.226584,"k":"p","n":"Carbonare"},
+  {"id":12846557935,"lat":45.924972,"lon":11.212106,"k":"p","n":"S. Sebastiano"},
+  {"id":12846557936,"lat":45.919584,"lon":11.206516,"k":"p","n":"Passo del Sommo"},
+  {"id":12849543107,"lat":45.931401,"lon":11.245096,"k":"p","n":"Nossellari Alb. Al Bivio"},
+  {"id":12849543108,"lat":45.93496,"lon":11.22681,"k":"p","n":"Carbonare Via Manzoni"},
+  {"id":12849543109,"lat":45.929375,"lon":11.221338,"k":"p","n":"Morganti"},
+  {"id":12849543110,"lat":45.925433,"lon":11.214893,"k":"p","n":"S. Sebastiano Sez. Cacciatori"},
+  {"id":12849543111,"lat":45.923677,"lon":11.216011,"k":"p","n":"Bivio Cueli"},
+  {"id":12849610158,"lat":45.930798,"lon":11.224133,"k":"p","n":"Morganti Maso Romina"},
+  {"id":12849610159,"lat":45.943817,"lon":11.248535,"k":"p","n":"Lavarone Htl. Monte Rust"},
+  {"id":13039124333,"lat":45.949289,"lon":11.209225,"k":"p","n":"Fricca"}
+],
+"routes":[
+  {"id":16165886,"t":{"ref":"B306","name":"Bus B306: Rovereto->Callano->Folgaria->Lavarone","from":"Rovereto","to":"Lavarone","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":53,"s":[[12846557936,32],[12846557935,33],[12849543110,34],[12849543111,35],[12849543109,36],[12846557934,37],[12849543108,38],[12849543107,39]]},
+  {"id":19145869,"t":{"ref":"B306","name":"Bus B306: Lavarone->Folgario->Callano-->Rovereto","from":"Lavarone","to":"Rovereto Statione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":52,"s":[[12849543107,14],[12849543108,15],[12846557934,16],[12849610158,17],[12849543109,18],[12849543111,19],[12849543110,20],[12846557935,21],[12846557936,22]]},
+  {"id":19149030,"t":{"ref":"B306","name":"Bus B306: Variante: Virti->Carbonare","from":"Virti","to":"Carbonare","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[2293027048,1],[12846557934,2]]},
+  {"id":19149031,"t":{"ref":"B306","name":"Bus B306: Variante: Carbonare->Virti","from":"Carbonare","to":"Virti","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[12846557934,1],[2293027048,2]]},
+  {"id":19151495,"t":{"ref":"B306","name":"Bus B306: Variante: Gionghi -> Lavarone -> Virti","from":"Lavarone Capella","to":"Rovereto Statione FS","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":3,"s":[[2293027048,3]]},
+  {"id":19411492,"t":{"ref":"B303","name":"Bus B303: Trento->V.Catara->Carbonare->Lavorne->Luserna","from":"Trento Autostazione","to":"Luserna","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":57,"s":[[13039124333,33],[12846557934,34],[12849543108,35],[12849543107,36],[12849610159,44]]},
+  {"id":19411673,"t":{"ref":"B303","name":"B303: Variante: Fricca->Pian Dei Pradi diretto","from":"Luserna","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":6,"s":[[13039124333,1]]},
+  {"id":19411674,"t":{"ref":"B303","name":"B303: Variante: Pian Dei Pradi->Fricca diretto","from":"Trento Autostazione","to":"Lusern","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":6,"s":[[13039124333,6]]},
+  {"id":19411675,"t":{"ref":"B303","name":"Bus B303: Luserna->Lavarone->Carbnonare->V.Catara->Trento","from":"Lusern","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":60,"s":[[12849610159,14],[12849543107,22],[12849543108,23],[12846557934,24],[13039124333,25]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3866],
+"stops":[
+  {"id":2826172075,"lat":46.408458,"lon":13.310706,"k":"p","n":"Chiusaforte Centro"},
+  {"id":2826292580,"lat":46.408031,"lon":13.313401,"k":"p","n":"Raccolana"},
+  {"id":4076056391,"lat":46.408571,"lon":13.310813,"k":"p","n":"Chiusaforte Centro"},
+  {"id":4076057106,"lat":46.408487,"lon":13.310684,"k":"x","n":"Chiusaforte Centro"},
+  {"id":4080471904,"lat":46.437864,"lon":13.308505,"k":"p","n":"Dogna Località Vidali"},
+  {"id":4112013899,"lat":46.408542,"lon":13.310829,"k":"x","n":"Chiusaforte Centro"},
+  {"id":4112013902,"lat":46.437804,"lon":13.308723,"k":"x","n":"Dogna Località Vidali"},
+  {"id":6708214928,"lat":46.408006,"lon":13.313382,"k":"x","n":"Raccolana"},
+  {"id":8537171873,"lat":46.406459,"lon":13.30257,"k":"p","n":"Chiusaforte Via Roma Bivio Caserme"},
+  {"id":8537171874,"lat":46.406521,"lon":13.302542,"k":"x","n":"Chiusaforte Via Roma Bivio Caserme"}
+],
+"routes":[
+  {"id":6088673,"t":{"ref":"192","name":"SAF Linea 192 Chiusaforte - Roveredo - Resiutta","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[4076056391,1]]},
+  {"id":12466086,"t":{"ref":"191","name":"Linea 191: Chiusaforte => Sella Nevea","from":"Chiusaforte Centro","to":"Sella Nevea","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[2826172075,1],[2826292580,2]]},
+  {"id":12466087,"t":{"ref":"191","name":"Linea 191: Sella Nevea => Chiusaforte (via Chiusaforte Bivio Caserme)","from":"Sella Nevea Rifugio Julia","to":"Chiusaforte Centro","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":10,"s":[[2826292580,8],[8537171873,9],[2826172075,10]]},
+  {"id":12466088,"t":{"ref":"191","name":"Linea 191: Sella Nevea => Chiusaforte","from":"Sella Nevea Rifugio Julia","to":"Chiusaforte Centro","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[2826292580,8],[4076056391,9]]}
+]
+}

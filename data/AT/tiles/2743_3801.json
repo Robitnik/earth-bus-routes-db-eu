@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2743,3801],
+"stops":[
+  {"id":345179588,"lat":47.165236,"lon":10.062917,"k":"x","n":"Zug Dalaaser Staffel"},
+  {"id":1866917910,"lat":47.159489,"lon":10.073949,"k":"x","n":"Zug Spullersee"},
+  {"id":3013414256,"lat":47.19955,"lon":10.099559,"k":"p","n":"Zug Mautstelle"},
+  {"id":3013414258,"lat":47.199315,"lon":10.066551,"k":"x","n":"Zug Älpele"},
+  {"id":5250809759,"lat":47.199519,"lon":10.099569,"k":"x","n":"Zug Mautstelle"},
+  {"id":7920841404,"lat":47.199345,"lon":10.066495,"k":"p","n":"Zug Älpele"},
+  {"id":7928705522,"lat":47.165173,"lon":10.062985,"k":"p","n":"Zug Dalaaser Staffel"},
+  {"id":7928705523,"lat":47.159431,"lon":10.073928,"k":"p","n":"Zug Spullersee"},
+  {"id":12964940201,"lat":47.199477,"lon":10.085234,"k":"p","n":"Zuger Säge"}
+],
+"routes":[
+  {"id":6231232,"t":{"ref":"707","name":"Bus 707: Wanderbus Lech","from":"Zugertal Formarinsee","to":"Lech Dorfhus","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":7,"s":[[7920841404,4]]},
+  {"id":6231233,"t":{"ref":"702","name":"Bus 702: Lech am Arlberg => Zug","from":"Lech am Arlberg Postamt","to":"Zug Mautstelle","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":9,"s":[[3013414256,9]]},
+  {"id":6231234,"t":{"ref":"706","name":"Bus 706: Wanderbus Lech","from":"Lech Dorfhus","to":"Zug Spullersee","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":7,"s":[[7920841404,4],[7928705522,6],[7928705523,7]]},
+  {"id":11641832,"t":{"ref":"702","name":"Bus 702: Zug => Lech am Arlberg","from":"Zug Mautstelle","to":"Lech am Arlberg Postamt","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":9,"s":[[3013414256,1]]},
+  {"id":11652026,"t":{"ref":"706","name":"Bus 706: Wanderbus Lech","from":"Zug Spullersee","to":"Lech Dorfhus","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":7,"s":[[7928705523,1],[7928705522,2],[7920841404,4]]},
+  {"id":11652042,"t":{"ref":"707","name":"Bus 707: Wanderbus Lech","from":"Lech Rüfiplatz","to":"Zugertal Formarinsee","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":7,"s":[[7920841404,4]]}
+]
+}

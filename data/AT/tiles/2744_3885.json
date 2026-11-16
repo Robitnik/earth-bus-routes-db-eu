@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2744,3885],
+"stops":[
+  {"id":10284634988,"lat":47.20427,"lon":14.254675,"k":"p","n":"Mainhartsdorf"},
+  {"id":10284634989,"lat":47.204329,"lon":14.254437,"k":"p","n":"Mainhartsdorf"},
+  {"id":10284634996,"lat":47.223295,"lon":14.298445,"k":"p","n":"Salchau Pals"},
+  {"id":10284634997,"lat":47.223377,"lon":14.298431,"k":"p","n":"Salchau Pals"},
+  {"id":10284634998,"lat":47.21846,"lon":14.293877,"k":"p","n":"Salchau Spiegl"},
+  {"id":10284634999,"lat":47.21835,"lon":14.293774,"k":"p","n":"Salchau Spiegl"},
+  {"id":10284635000,"lat":47.215024,"lon":14.289286,"k":"p","n":"Salchau Brunner Kurve"},
+  {"id":10284635001,"lat":47.215029,"lon":14.289183,"k":"p","n":"Salchau Brunner Kurve"},
+  {"id":10284635002,"lat":47.202341,"lon":14.281411,"k":"p","n":"Oberwölz Volksschule"},
+  {"id":10284635003,"lat":47.201628,"lon":14.284239,"k":"p","n":"Oberwölz Hauptschule"}
+],
+"routes":[
+  {"id":15044788,"t":{"ref":"891","name":"Bus 891: Oberwölz => Pöllau am Greim => Oberwölz","from":"Oberwölz Hauptschule","to":"Oberwölz Hauptschule","network":"Verkehrsverbund Steiermark","operator":"Capellari","route":"bus","public_transport:version":"2"},"n":22,"s":[[10284635003,1,22],[10284634989,2],[10284634988,21]]},
+  {"id":15044791,"t":{"ref":"891","name":"Bus 891: Oberwölz => Scheifling","from":"Oberwölz Volksschule","to":"Scheifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"Capellari","route":"bus","public_transport:version":"2"},"n":12,"s":[[10284635002,1],[10284635003,2]]},
+  {"id":15044793,"t":{"ref":"891","name":"Bus 891: Scheifling => Oberwölz","from":"Scheifling Bahnhof","to":"Oberwölz Volksschule","network":"Verkehrsverbund Steiermark","operator":"Capellari","route":"bus","public_transport:version":"2"},"n":13,"s":[[10284635003,12],[10284635002,13]]}
+]
+}

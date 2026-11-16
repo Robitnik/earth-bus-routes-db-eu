@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2735,3884],
+"stops":[
+  {"id":335068342,"lat":46.775357,"lon":14.249347,"k":"x","n":"Wegscheiden Abzweigung Liebenfels"},
+  {"id":5402508760,"lat":46.750456,"lon":14.234411,"k":"x","n":"Liemberg Kapelle"},
+  {"id":7328513244,"lat":46.750434,"lon":14.2344,"k":"p","n":"Liemberg Kapelle"},
+  {"id":7328513245,"lat":46.750491,"lon":14.234322,"k":"x","n":"Liemberg Kapelle"},
+  {"id":7328513246,"lat":46.750521,"lon":14.234336,"k":"p","n":"Liemberg Kapelle"},
+  {"id":10315467847,"lat":46.775321,"lon":14.249277,"k":"p","n":"Wegscheiden Abzweigung Liebenfels"},
+  {"id":10315467848,"lat":46.775251,"lon":14.249459,"k":"p","n":"Wegscheiden Abzweigung Liebenfels"}
+],
+"routes":[
+  {"id":10902950,"t":{"ref":"5227","name":"Bus 5227: Liemberg => St. Veit an der Glan (ohne Pulst)","from":"Liemberg Kapelle","to":"St. Veit an der Glan Bahnhof","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[7328513244,1]]},
+  {"id":10902954,"t":{"ref":"5227","name":"Bus 5227: Liemberg => Pulst => St. Veit an der Glan","from":"Liemberg Kapelle","to":"St. Veit an der Glan Bahnhof","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[7328513244,1]]},
+  {"id":10903179,"t":{"ref":"5227","name":"Bus 5227: St. Veit an der Glan => Liemberg (ohne Pulst)","from":"St. Veit an der Glan Bahnhof","to":"Liemberg Kapelle","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":13,"s":[[7328513246,13]]},
+  {"id":10903180,"t":{"ref":"5227","name":"Bus 5227: St. Veit an der Glan => Pulst => Liemberg","from":"St. Veit an der Glan Bahnhof","to":"Liemberg Kapelle","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[7328513246,14]]},
+  {"id":15099509,"t":{"ref":"630","name":"Bus 630: Sankt Veit an der Glan Bahnhof => Hart Liebenfels","from":"Sankt Veit an der Glan Bahnhof","to":"Hart Liebenfels","network":"Verkehrsverbund Kärnten GesmbH","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":16,"s":[[10315467847,15]]},
+  {"id":15099510,"t":{"ref":"630","name":"Bus 630: Hart Liebenfels => Sankt Veit an der Glan Bahnhof","from":"Hart Liebenfels","to":"Sankt Veit an der Glan Bahnhof","network":"Verkehrsverbund Kärnten GesmbH","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":16,"s":[[10315467848,2]]}
+]
+}

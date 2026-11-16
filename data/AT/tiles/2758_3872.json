@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2758,3872],
+"stops":[
+  {"id":7997298504,"lat":47.946993,"lon":13.602682,"k":"p","n":"Schörfling Flößersteig"},
+  {"id":8047042499,"lat":47.947732,"lon":13.608354,"k":"p","n":"Schörfling Volksschule"},
+  {"id":8047042500,"lat":47.947652,"lon":13.6079,"k":"p","n":"Schörfling Volksschule"}
+],
+"routes":[
+  {"id":10837644,"t":{"ref":"562","name":"Bus 562: Unterach - Steinbach - Schörfling am Attersee","from":"Unterach Ortsmitte","to":"Schörfling Flößersteig","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[7997298504,20]]},
+  {"id":10837656,"t":{"ref":"562","name":"Bus 562: Schörfling am Attersee - Steinbach - Unterach","from":"Schörfling Flößersteig","to":"Unterach Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[7997298504,1]]},
+  {"id":11271146,"t":{"ref":"582","name":"Bus 582: Vöcklabruck - Aurach - Kammer","from":"Vöcklabruck Bahnhof","to":"Kammer Schörfling Bahnhst","route":"bus","public_transport:version":"2"},"n":20,"s":[[8047042500,18],[7997298504,19]]},
+  {"id":11271147,"t":{"ref":"582","name":"Bus 582: Kammer - Aurach - Vöcklabruck","from":"Kammer Schörfling Bahnhst","to":"Vöcklabruck Bahnhof","route":"bus","public_transport:version":"2"},"n":21,"s":[[7997298504,2],[8047042499,3]]},
+  {"id":11958786,"t":{"ref":"561","name":"Bus 561: Regau Kinocenter - Vöcklabruck - Schörfling","from":"Regau Kinocenter","to":"Schörfling Flößersteig","route":"bus","public_transport:version":"2"},"n":23,"s":[[7997298504,22]]},
+  {"id":11958787,"t":{"ref":"561","name":"Bus 561: Schörfling - Vöcklabruck - Regau Kinocenter","from":"Schörfling Flößersteig","to":"Regau Kinocenter","route":"bus","public_transport:version":"2"},"n":24,"s":[[7997298504,1]]}
+]
+}

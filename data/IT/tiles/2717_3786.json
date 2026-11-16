@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3786],
+"stops":[
+  {"id":2714854269,"lat":45.882855,"lon":9.301606,"k":"p","n":"Piazza Chiesa (Maisano) (Valbrona)"},
+  {"id":2809785110,"lat":45.882809,"lon":9.301799,"k":"p","n":"Piazza Chiesa (Maisano) (Valbrona)"},
+  {"id":3383308189,"lat":45.894734,"lon":9.336992,"k":"p","n":"Abbadia Lariana Marianin"},
+  {"id":3383308190,"lat":45.894764,"lon":9.337033,"k":"x","n":"Abbadia Lariana Marianin"},
+  {"id":3383308191,"lat":45.894767,"lon":9.337012,"k":"x","n":"Abbadia Lariana Marianin"},
+  {"id":3383308192,"lat":45.894831,"lon":9.337056,"k":"p","n":"Abbadia Lariana Marianin"},
+  {"id":3383310793,"lat":45.899607,"lon":9.33207,"k":"p","n":"Abbadia Lariana Municipio"},
+  {"id":3383310794,"lat":45.899553,"lon":9.332135,"k":"x","n":"Abbadia Lariana Municipio"},
+  {"id":3383310795,"lat":45.899579,"lon":9.332243,"k":"p","n":"Abbadia Lariana Municipio"},
+  {"id":6225328773,"lat":45.894614,"lon":9.338836,"k":"p"}
+],
+"routes":[
+  {"id":2780149,"t":{"ref":"C35","name":"C35 Canzo-Asso FN","network":"Rete extraurbana di Como","operator":"ASF Autolinee","route":"bus"},"n":10,"s":[[2714854269,10]]},
+  {"id":4648240,"t":{"ref":"D20","from":"Lecco","to":"Mandello del Lario","operator":"Linee Lecco S.p.a","route":"bus","public_transport:version":"2"},"n":9,"s":[[3383308190,5],[3383310794,6]]},
+  {"id":4651613,"t":{"ref":"D20","name":"Bus D20: Mandello del Lario - Lecco","from":"Mandello del Lario","to":"Lecco","operator":"Linee Lecco S.p.a","route":"bus","public_transport:version":"2"},"n":10,"s":[[3383310794,4],[3383308190,5]]},
+  {"id":6426267,"t":{"ref":"C35","name":"C35 Maisano","network":"Rete extraurbana di Como","operator":"ASF Autolinee","route":"bus"},"n":10,"s":[[2809785110,10]]},
+  {"id":6426279,"t":{"ref":"C35","name":"C35 Asso, Bivio per Onno","network":"Rete extraurbana di Como","operator":"ASF Autolinee","route":"bus"},"n":8,"s":[[2714854269,8]]},
+  {"id":6426281,"t":{"ref":"C35","name":"C35 Maisano","network":"Rete extraurbana di Como","operator":"ASF Autolinee","route":"bus"},"n":8,"s":[[2809785110,8]]},
+  {"id":20312063,"t":{"ref":"D120","name":"Bus D120: Mandello -> Lecco","from":"Somana, Mandello del Lario","to":"Lecco (via balicco)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":19,"s":[[3383310793,13],[3383308189,14]]},
+  {"id":20312176,"t":{"ref":"D120","name":"Bus D120: Lecco -> Mandello","from":"Lecco (via balicco)","to":"somana, Mandello del Lario","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[3383308192,5],[3383310795,6]]}
+]
+}

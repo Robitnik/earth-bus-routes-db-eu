@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2706,3799],
+"stops":[
+  {"id":13452731052,"lat":45.311552,"lon":9.998438,"k":"p","n":"Quinzano d'Oglio, Via Luigi Ciocca"},
+  {"id":13452825053,"lat":45.311318,"lon":9.998535,"k":"p","n":"Quinzano d'Oglio, Via Luigi Ciocca"},
+  {"id":13512644183,"lat":45.348613,"lon":9.970661,"k":"p","n":"Borgo s.g. - via roma"},
+  {"id":13512644200,"lat":45.348771,"lon":9.972542,"k":"p","n":"Borgo s.g. - via farfengo"},
+  {"id":13512686401,"lat":45.346562,"lon":9.97395,"k":"p","n":"Borgo s.g. - via piscioli"},
+  {"id":13512686402,"lat":45.349746,"lon":9.968009,"k":"p","n":"Borgo s.g. - municipio"},
+  {"id":13545396429,"lat":45.331241,"lon":9.979641,"k":"p","n":"Borgo s.g. - bivio acqualunga"},
+  {"id":14041835611,"lat":45.348857,"lon":9.962687,"k":"p"},
+  {"id":14041835612,"lat":45.349013,"lon":9.962896,"k":"p"},
+  {"id":14041835613,"lat":45.345878,"lon":9.962634,"k":"p"},
+  {"id":14041835614,"lat":45.345915,"lon":9.962551,"k":"p"}
+],
+"routes":[
+  {"id":20081901,"t":{"ref":"K209","name":"Bus K209: Quinzano => Casalbuttano => Cremona","from":"Quinzano d'Oglio","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":25,"s":[[13452731052,2]]},
+  {"id":20082088,"t":{"ref":"K209","name":"Bus K209: Cremona => Casalbuttano => Quinzano","from":"Cremona Autostazione","to":"Quinzano d'Oglio","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":27,"s":[[13452825053,26]]},
+  {"id":20153297,"t":{"ref":"LS011","name":"Bus LS011: Manerbio->Bargnano->Orzinuovi","from":"MANERBIO - Via Karl Marx Istituto Polivalente","to":"Orzinuovi - Via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13512644183,15],[13512686402,16]]},
+  {"id":20153298,"t":{"ref":"LS011","name":"Bus LS011: Orzinuovi->Bargnano->Manerbio","from":"Orzinuovi - Andreana","to":"MANERBIO - Via Karl Marx Istituto Polivalente","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":18,"s":[[13512686402,4],[13512686401,5],[13512644200,6]]},
+  {"id":20202595,"t":{"ref":"LS012","name":"Linea LS012: Quinzano => Borgo S. Giacomo =>Brescia","from":"Quinzano piazza IV Novembre","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":35,"s":[[13545396429,3],[13512686402,4],[13512644183,5],[13512686401,6]]},
+  {"id":20202596,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":33,"s":[[13512644183,29],[13512686402,30],[13545396429,31]]}
+]
+}

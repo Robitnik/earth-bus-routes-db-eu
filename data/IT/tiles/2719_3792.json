@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3792],
+"stops":[
+  {"id":3713159272,"lat":45.967752,"lon":9.648283,"k":"p","n":"Olmo al Brembo - via belotti (ponte)"},
+  {"id":3713190727,"lat":45.967689,"lon":9.64916,"k":"p","n":"Olmo al Brembo"},
+  {"id":12031359327,"lat":45.967684,"lon":9.649131,"k":"x","n":"Olmo al Brembo"},
+  {"id":12040014306,"lat":45.967716,"lon":9.64835,"k":"p","n":"Olmo al Brembo - via belotti (ponte)"},
+  {"id":13603453889,"lat":45.990529,"lon":9.601142,"k":"p","n":"Cusio - via colle maddalena (capolinea)"},
+  {"id":13603453890,"lat":45.990959,"lon":9.602693,"k":"p","n":"Cusio - p.za vittoria (municipio)"},
+  {"id":13603453891,"lat":45.9894,"lon":9.603775,"k":"p","n":"Cusio - via roma/via paleni"},
+  {"id":13603453892,"lat":45.980711,"lon":9.622124,"k":"p","n":"Santa Brigida - via foppa (bar)"},
+  {"id":13603453893,"lat":45.982632,"lon":9.625846,"k":"p","n":"Santa Brigida - via colla (municipio)"},
+  {"id":13603453894,"lat":45.983764,"lon":9.620909,"k":"p","n":"Santa Brigida - via carale"},
+  {"id":13603453895,"lat":45.985344,"lon":9.623047,"k":"p","n":"Santa Brigida - via casella (c.sportivo)"},
+  {"id":13603453896,"lat":45.988036,"lon":9.623573,"k":"p","n":"Santa Brigida - via bindo"},
+  {"id":13603453897,"lat":45.988738,"lon":9.631137,"k":"p","n":"Averara - via centro (rist. averara)"},
+  {"id":13603453898,"lat":45.984592,"lon":9.634404,"k":"p","n":"Averara - cà del romol"},
+  {"id":13603453899,"lat":45.971802,"lon":9.649385,"k":"p","n":"Olmo al Brembo - via roma bivio cusio"},
+  {"id":13603549843,"lat":45.966708,"lon":9.612962,"k":"p","n":"Cassiglio - via roma (chiesa)"}
+],
+"routes":[
+  {"id":12645000,"t":{"ref":"B50a","name":"Linea B50a Piazza Brembana -> Valtorta","from":"Piazza brembana - via locatelli (sab)","to":"Valtorta - via roma (uff.turistico)","route":"bus","public_transport:version":"2"},"n":11,"s":[[13603453899,4],[3713159272,5],[13603549843,6]]},
+  {"id":12646289,"t":{"ref":"B50b","name":"Linea B50b Piazza Brembana -> Cusio","from":"Piazza brembana - via locatelli (sab)","to":"Cusio - via colle maddalena (capolinea)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[3713190727,3],[13603453899,4],[13603453898,5],[13603453897,6],[13603453896,7],[13603453895,8],[13603453894,9],[13603453893,10],[13603453892,11],[13603453891,12],[13603453890,13],[13603453889,14]]},
+  {"id":17799846,"t":{"ref":"B50c","name":"Linea B50c Piazza Brembana -> Mezzoldo -> Piazzatorre","from":"Piazza Brembana - Stazione S.A.B.","to":"Piazzatorre Loc. Santa Lucia","network":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[3713190727,3],[13603453899,4]]},
+  {"id":20266879,"t":{"ref":"B50b","name":"Linea B50b Cusio -> Piazza Brembana","from":"Cusio - via colle maddalena (capolinea)","to":"Piazza Brembana - via locatelli (sab)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[13603453889,1],[13603453890,2],[13603453891,3],[13603453892,4],[13603453893,5],[13603453894,6],[13603453895,7],[13603453896,8],[13603453897,9],[13603453898,10],[13603453899,11],[3713190727,12]]},
+  {"id":20267199,"t":{"ref":"B50a","name":"Linea B50a Valtorta -> Piazza Brembana","from":"Valtorta - via roma (uff.turistico)","to":"Piazza brembana - via locatelli (sab)","route":"bus","public_transport:version":"2"},"n":8,"s":[[13603549843,5],[12040014306,6]]},
+  {"id":20268347,"t":{"ref":"B50c","name":"Linea B50c Piazzatorre ->Mezzolado->Piazza Brembana","from":"Piazzatorre - via santa lucia","to":"Piazza Brembana - Stazione S.A.B.","network":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[13603453899,19],[3713190727,20]]}
+]
+}

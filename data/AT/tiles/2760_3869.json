@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2760,3869],
+"stops":[
+  {"id":440018994,"lat":48.042549,"lon":13.487706,"k":"p","n":"Frankenburg Haslach Nord"},
+  {"id":1170909470,"lat":48.042544,"lon":13.487502,"k":"p","n":"Frankenburg Haslach Nord"},
+  {"id":9310925217,"lat":48.002128,"lon":13.484782,"k":"p","n":"Vöcklamarkt Ortsmitte"},
+  {"id":9327901816,"lat":48.037481,"lon":13.493458,"k":"p","n":"Frankenburg Abzw Zipf"},
+  {"id":9327920717,"lat":48.037575,"lon":13.493412,"k":"p","n":"Frankenburg Abzw Zipf"}
+],
+"routes":[
+  {"id":11962599,"t":{"ref":"586","name":"Bus 586: Straßwalchen - Hörgattern","from":"Straßwalchen Mittelschule","to":"Gampern Technologiepark","route":"bus","public_transport:version":"2"},"n":25,"s":[[9310925217,21]]},
+  {"id":11981597,"t":{"ref":"700","name":"Bus 700: Frankenburg - Neukirchen - Vöcklabruck","from":"Frankenburg Ortsmitte","to":"Vöcklabruck Busbahnhof (Schulzentrum Wagrain)","route":"bus","public_transport:version":"2"},"n":25,"s":[[1170909470,5],[9327901816,6]]},
+  {"id":11981598,"t":{"ref":"700","name":"Bus 700: Vöcklabruck - Neukirchen - Frankenburg","from":"Vöcklabruck Busbahnhof (Schulzentrum Wagrain)","to":"Frankenburg Ortsmitte","route":"bus","public_transport:version":"2"},"n":24,"s":[[9327920717,19],[440018994,20]]},
+  {"id":13562049,"t":{"ref":"586","name":"Bus 586: Variante durch Vöcklamarkt","route":"bus","public_transport:version":"2"},"n":2,"s":[[9310925217,1]]}
+]
+}

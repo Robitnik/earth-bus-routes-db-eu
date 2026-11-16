@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2636,3845],
+"stops":[
+  {"id":2962361633,"lat":41.800292,"lon":12.295818,"k":"p"},
+  {"id":3325520768,"lat":41.800143,"lon":12.27416,"k":"p","n":"Hilton Garden Inn"},
+  {"id":3325524562,"lat":41.800837,"lon":12.272919,"k":"p","n":"Cargo City","ref":"F18"}
+],
+"routes":[
+  {"id":2133381,"t":{"ref":"Maccarese - Parco Leonardo","name":"Bus: Parco Leonardo => Maccarese","from":"Parco Leonardo","to":"Stazione FS Maccarese","network":"ATAC","operator":"ATAC","route":"bus","public_transport:version":"2"},"n":2,"s":[[2962361633,1]]},
+  {"id":3707749,"t":{"ref":"24","name":"24 (Stazione Parco Leonardo)","from":"Ospedale Bambino Gesù","to":"Stazione Parco Leonardo","network":"Seatour","operator":"Seatour","route":"bus","public_transport:version":"1"},"n":2,"s":[[2962361633,2]]},
+  {"id":4549560,"t":{"ref":"Airport Shuttle","name":"Airport Shuttle","operator":"ADR","route":"bus","public_transport:version":"1"},"n":28,"s":[[3325520768,26],[3325524562,27]]}
+]
+}

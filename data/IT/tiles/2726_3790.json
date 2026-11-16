@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3790],
+"stops":[
+  {"id":984704021,"lat":46.33687,"lon":9.545882,"k":"p","n":"Ospedale Flin"},
+  {"id":984705902,"lat":46.341276,"lon":9.537586,"k":"p","n":"Soglio Paese"},
+  {"id":984706235,"lat":46.333414,"lon":9.514107,"k":"p","n":"Castasegna, Vecchia Dogana"},
+  {"id":3791759434,"lat":46.336942,"lon":9.549443,"k":"x","n":"Spino"},
+  {"id":4665152192,"lat":46.334425,"lon":9.518924,"k":"p","n":"Castasegna, Sura"},
+  {"id":8872965954,"lat":46.334385,"lon":9.53792,"k":"p","n":"Castasegna, Farzett"},
+  {"id":8872977856,"lat":46.33446,"lon":9.5362,"k":"p","n":"Castasegna, Farzett"},
+  {"id":9175537273,"lat":46.338502,"lon":9.533852,"k":"x","n":"Selva"},
+  {"id":9874244998,"lat":46.3413,"lon":9.537701,"k":"x","n":"Soglio Paese"},
+  {"id":13958793080,"lat":46.336912,"lon":9.54952,"k":"p","n":"Spino"},
+  {"id":13958793081,"lat":46.336918,"lon":9.545989,"k":"x","n":"Ospedale Flin"},
+  {"id":13958793083,"lat":46.338392,"lon":9.533462,"k":"p","n":"Selva"},
+  {"id":13958793084,"lat":46.338535,"lon":9.533849,"k":"p","n":"Selva"},
+  {"id":13958814333,"lat":46.338429,"lon":9.533482,"k":"x","n":"Selva"}
+],
+"routes":[
+  {"id":1126984,"t":{"ref":"631","name":"Bus 631: St. Moritz → Lugano","from":"St. Moritz, Bahnhof","to":"Lugano, Stazione Nord","network":"CH-GR;Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":13,"s":[[984706235,2]]},
+  {"id":1656135,"t":{"ref":"624","name":"Bus 624: Soglio => Promontogno","from":"Soglio, Paese","to":"Promontogno, Posta","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":5,"s":[[984705902,1],[13958793084,2],[984704021,3],[13958793080,4]]},
+  {"id":6949381,"t":{"ref":"604","name":"Bus 604: Pontresina => Chiavenna","from":"Pontresina, Post","to":"Chiavenna, Stazione","network":"CH-GR;Engadinmobil","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":15,"s":[[4665152192,2],[984706235,3]]},
+  {"id":12271585,"t":{"ref":"604","name":"Bus 604: Chiavenna => Pontresina","from":"Chiavenna, Stazione","to":"Pontresina, Post","network":"CH-GR;Engadinmobil","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":15,"s":[[984706235,13]]},
+  {"id":12278858,"t":{"ref":"624","name":"Bus 624: Promontogno => Soglio","from":"Promontogno, Posta","to":"Soglio, Paese","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":5,"s":[[13958793080,2],[984704021,3],[13958793083,4],[984705902,5]]}
+]
+}

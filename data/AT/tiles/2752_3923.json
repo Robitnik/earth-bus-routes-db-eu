@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2752,3923],
+"stops":[
+  {"id":26158419,"lat":47.615382,"lon":16.181704,"k":"x","n":"Kaltenberg Ort"},
+  {"id":4614443214,"lat":47.631552,"lon":16.197605,"k":"p","n":"Schlag bei Thernberg Nr. 260"},
+  {"id":4614443215,"lat":47.63159,"lon":16.197462,"k":"p","n":"Schlag bei Thernberg Nr. 260"},
+  {"id":4614443216,"lat":47.63157,"lon":16.197518,"k":"x","n":"Schlag bei Thernberg Nr. 260"},
+  {"id":4614443217,"lat":47.611703,"lon":16.188471,"k":"p","n":"Maierhöfen Abzweigung Kaltenberg"},
+  {"id":4614443218,"lat":47.611692,"lon":16.188381,"k":"p","n":"Maierhöfen Abzweigung Kaltenberg"},
+  {"id":4614443219,"lat":47.611699,"lon":16.188437,"k":"x","n":"Maierhöfen Abzweigung Kaltenberg"},
+  {"id":4614443222,"lat":47.643124,"lon":16.183175,"k":"p","n":"Eichberg bei Thernberg"},
+  {"id":4614443223,"lat":47.643138,"lon":16.183194,"k":"x","n":"Eichberg bei Thernberg"},
+  {"id":4614443224,"lat":47.643172,"lon":16.183218,"k":"p","n":"Eichberg bei Thernberg"},
+  {"id":7832714495,"lat":47.615404,"lon":16.181733,"k":"p","n":"Kaltenberg Ort"},
+  {"id":7832714496,"lat":47.615461,"lon":16.181113,"k":"p","n":"Kaltenberg Ort"},
+  {"id":8081674551,"lat":47.621635,"lon":16.16326,"k":"p","n":"Thomasberg Kienegg"},
+  {"id":11253609418,"lat":47.621845,"lon":16.163149,"k":"x","n":"Thomasberg Kienegg"},
+  {"id":11253609419,"lat":47.621861,"lon":16.163202,"k":"p","n":"Thomasberg Kienegg"},
+  {"id":11253609421,"lat":47.621645,"lon":16.163298,"k":"x","n":"Thomasberg Kienegg"}
+],
+"routes":[
+  {"id":11525848,"t":{"ref":"382","name":"Bus 382: Lichtenegg Ortsmitte => Hauptbahnhof","from":"Lichtenegg Ortsmitte","to":"Wiener Neustadt Hauptbahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[4614443217,2],[4614443214,3],[4614443224,4]]},
+  {"id":11525850,"t":{"ref":"382","name":"Bus 382: Wiener Neustadt Hauptbahnhof => Lichtenegg Ortsmitte","from":"Wiener Neustadt Hauptbahnhof","to":"Lichtenegg Ortsmitte","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[4614443222,22],[4614443215,23],[4614443218,24]]},
+  {"id":11526287,"t":{"ref":"389","name":"Bus 389: Lichtenegg Ortsmitte => Edlitz-Grimmenstein Bahnhof","from":"Lichtenegg Ortsmitte","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":6,"s":[[4614443217,2],[7832714495,3],[11253609419,4]]},
+  {"id":11526288,"t":{"ref":"389","name":"Bus 389: Edlitz-Grimmenstein Bahnhof => Lichtenegg Ortsmitte","from":"Edlitz-Grimmenstein Bahnhof","to":"Lichtenegg Ortsmitte","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":6,"s":[[8081674551,3],[7832714496,4],[4614443218,5]]},
+  {"id":11835385,"t":{"ref":"389","name":"Bus 389: Edlitz-Grimmenstein Bahnhof => Lichtenegg Schulen","from":"Edlitz-Grimmenstein Bahnhof","to":"Lichtenegg Schulen","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":7,"s":[[8081674551,3],[7832714496,4],[4614443218,5]]},
+  {"id":11835386,"t":{"ref":"389","name":"Bus 389: Lichtenegg Schulen => Edlitz-Grimmenstein Bahnhof","from":"Lichtenegg Schulen","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":7,"s":[[4614443217,3],[7832714495,4],[11253609419,5]]},
+  {"id":11835387,"t":{"ref":"389","name":"Bus 389: Thomasberg Kienegg => Lichtenegg Schulen","from":"Thomasberg Kienegg","to":"Lichtenegg Schulen","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":5,"s":[[8081674551,1],[7832714496,2],[4614443218,3]]}
+]
+}

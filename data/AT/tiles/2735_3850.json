@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2735,3850],
+"stops":[
+  {"id":370230388,"lat":46.756753,"lon":12.529523,"k":"x","n":"Abfaltersbach Gemeindeamt"},
+  {"id":378736320,"lat":46.752498,"lon":12.506335,"k":"x","n":"Straßen Thurnbach"},
+  {"id":378740571,"lat":46.755743,"lon":12.51356,"k":"x","n":"Abfaltersbach Geselhaus"},
+  {"id":1607441731,"lat":46.765267,"lon":12.541775,"k":"x","n":"Anras Asch"},
+  {"id":3025825555,"lat":46.756422,"lon":12.526686,"k":"p","n":"Abfaltersbach Mittelschule"},
+  {"id":3025825559,"lat":46.75637,"lon":12.526772,"k":"p","n":"Abfaltersbach Mittelschule"},
+  {"id":3025825564,"lat":46.756782,"lon":12.529556,"k":"p","n":"Abfaltersbach Gemeindeamt","ref":"962"},
+  {"id":3025825566,"lat":46.756691,"lon":12.529262,"k":"p","n":"Abfaltersbach Gemeindeamt","ref":"962"},
+  {"id":3025825567,"lat":46.752447,"lon":12.506474,"k":"p","n":"Strassen Thurnbach"},
+  {"id":3025825568,"lat":46.752475,"lon":12.50608,"k":"p","n":"Strassen Thurnbach"},
+  {"id":4000017377,"lat":46.765226,"lon":12.54185,"k":"p","n":"Anras Asch","ref":"962"},
+  {"id":5607415891,"lat":46.756393,"lon":12.526722,"k":"x","n":"Abfaltersbach Mittelschule"},
+  {"id":5620153253,"lat":46.755801,"lon":12.513788,"k":"p","n":"Abfaltersbach Geselhaus"},
+  {"id":5620153254,"lat":46.755701,"lon":12.513379,"k":"p","n":"Abfaltersbach Geselhaus"},
+  {"id":9025047116,"lat":46.758623,"lon":12.528595,"k":"p","n":"Abfaltersbach Bahnhof"},
+  {"id":9025079624,"lat":46.758154,"lon":12.528529,"k":"p","n":"Abfaltersbach Bahnhof"}
+],
+"routes":[
+  {"id":3968183,"t":{"ref":"960X","name":"960X Korridorbus Innsbruck - Lienz","from":"Innsbruck Hbf","to":"Lienz Bahnhof","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","colour":"#FCB040","route":"bus","public_transport:version":"2"},"n":10,"s":[[3025825566,7]]},
+  {"id":3970708,"t":{"ref":"960X","name":"960X Korridorbus Lienz - Innsbruck","from":"Lienz Bahnhof","to":"Innsbruck Hbf","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","colour":"#FCB040","route":"bus","public_transport:version":"2"},"n":11,"s":[[3025825564,4]]},
+  {"id":5967412,"t":{"ref":"961","name":"VVT Linie 961: Lienz - Sillian","from":"Lienz Bahnhof","to":"Sillian Marktplatz","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[3025825564,18],[5620153253,19],[3025825568,20]]},
+  {"id":8024359,"t":{"ref":"962","name":"VVT Linie 962: Teilstrecke Abfaltersbach Gemeindeamt – Lienz über Anras Gemeindeamt","from":"Abfaltersbach Gemeindeamt","to":"Lienz Bahnhof","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":20,"s":[[3025825564,1],[4000017377,2]]},
+  {"id":8024360,"t":{"ref":"962","name":"VVT Linie 962: Teilstrecke Lienz – Abfaltersbach Gemeindeamt über Anras Gemeindeamt","from":"Lienz Bahnhof","to":"Abfaltersbach Gemeindeamt","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[4000017377,25],[3025825566,26]]},
+  {"id":8024456,"t":{"ref":"962","name":"VVT Linie 962: Teilstrecke Abfaltersbach Gemeindeamt – Lienz über Pustertaler Höhenstraße","from":"Abfaltersbach Gemeindeamt","to":"Lienz Bahnhof","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":29,"s":[[3025825564,1],[4000017377,2]]},
+  {"id":8024457,"t":{"ref":"962","name":"VVT Linie 962: Teilstrecke Lienz –Abfaltersbach Gemeindeamt über Pustertaler Höhenstraße","from":"Lienz Bahnhof","to":"Abfaltersbach Gemeindeamt","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":28,"s":[[4000017377,27],[3025825566,28]]},
+  {"id":8301280,"t":{"ref":"961","name":"VVT Linie 961: Sillian - Lienz Peggetz","from":"Sillian Marktplatz","to":"Lienz Peggetz Fa. Liebherr","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":38,"s":[[3025825567,6],[5620153254,7],[3025825559,8],[3025825566,9]]},
+  {"id":8301292,"t":{"ref":"961","name":"VVT Linie 961: Sillian - Lienz","from":"Sillian Marktplatz","to":"Lienz Bahnhof","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[3025825567,6],[5620153254,7],[3025825559,8],[3025825566,9]]},
+  {"id":8301296,"t":{"ref":"961","name":"VVT Linie 961: Lienz (mit HAK) - Sillian","from":"Lienz Bahnhof","to":"Sillian Marktplatz","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[3025825564,19],[5620153253,20],[3025825568,21]]},
+  {"id":8303256,"t":{"ref":"901N","name":"VVT Nightliner 901N: Sillian - Lienz","from":"Sillian Marktplatz","to":"Lienz Bahnhof","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[3025825567,6],[5620153254,7],[3025825559,8],[3025825566,9]]},
+  {"id":8303257,"t":{"ref":"901N","name":"VVT Nightliner 901N: Sillian - Nikolsdorf","from":"Sillian Marktplatz","to":"Nikolsdorf Nörsach","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":41,"s":[[3025825567,6],[5620153254,7],[3025825559,8],[3025825566,9]]},
+  {"id":8303258,"t":{"ref":"901N","name":"VVT Nightliner 901N: Nikolsdorf - Sillian","from":"Nikolsdorf Nörsach","to":"Sillian Marktplatz","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":40,"s":[[3025825564,33],[5620153253,34],[3025825568,35]]}
+]
+}

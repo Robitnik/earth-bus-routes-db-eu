@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2734,3837],
+"stops":[
+  {"id":227246446,"lat":46.722536,"lon":11.891132,"k":"x","n":"Longega - Zwischenwasser"},
+  {"id":286417199,"lat":46.721946,"lon":11.891544,"k":"x","n":"Longega - Zwischenwasser"},
+  {"id":533734660,"lat":46.715535,"lon":11.887437,"k":"x","n":"Al Cöch"},
+  {"id":533734666,"lat":46.715641,"lon":11.887681,"k":"x","n":"Al Cöch"},
+  {"id":533747255,"lat":46.71577,"lon":11.882629,"k":"x","n":"Iachin"},
+  {"id":534358706,"lat":46.748649,"lon":11.865165,"k":"x","n":"Onach - Onies"},
+  {"id":2456183389,"lat":46.721974,"lon":11.89205,"k":"p","n":"Longega - Zwischenwasser"},
+  {"id":2456183390,"lat":46.722531,"lon":11.890982,"k":"p","n":"Longega - Zwischenwasser"},
+  {"id":3909668410,"lat":46.721912,"lon":11.891597,"k":"p","n":"Longega - Zwischenwasser"},
+  {"id":4275014451,"lat":46.715243,"lon":11.880282,"k":"p","n":"Rina - Welschellen"},
+  {"id":8682298770,"lat":46.721937,"lon":11.891855,"k":"p","n":"Longega - Zwischenwasser"},
+  {"id":10136307335,"lat":46.709704,"lon":11.878873,"k":"x","n":"Morgnun"},
+  {"id":10136307336,"lat":46.709661,"lon":11.878882,"k":"p","n":"Morgnun"},
+  {"id":10136307340,"lat":46.715823,"lon":11.882626,"k":"p","n":"Iachin"},
+  {"id":10136307343,"lat":46.715603,"lon":11.887448,"k":"p","n":"Al Cöch"},
+  {"id":10136307344,"lat":46.715589,"lon":11.887685,"k":"p","n":"Al Cöch"},
+  {"id":10184496832,"lat":46.748664,"lon":11.865071,"k":"p","n":"Onach - Onies"},
+  {"id":11953406568,"lat":46.715229,"lon":11.880235,"k":"x","n":"Rina - Welschellen"},
+  {"id":12473241255,"lat":46.721946,"lon":11.891966,"k":"x","n":"Longega - Zwischenwasser"}
+],
+"routes":[
+  {"id":5507040,"t":{"ref":"460","name":"Bus 460: Bruneck => Gadertal","from":"Bruneck","to":"Gadertal","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":42,"s":[[2456183390,13]]},
+  {"id":10541141,"t":{"ref":"460","name":"Bus 460: Gadertal => Bruneck","from":"Gadertal","to":"Bruneck","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":43,"s":[[3909668410,31]]},
+  {"id":14743531,"t":{"ref":"461","name":"Bus 461: Zwischenwasser => Enneberg Pfarre","from":"Zwischenwasser","to":"Enneberg Pfarre","network":"STA","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":19,"s":[[8682298770,1]]},
+  {"id":14743602,"t":{"ref":"461","name":"Bus 461: Enneberg => Sankt Vigil => Zwischenwasser","from":"Enneberg","to":"Zwischenwasser","network":"STA","route":"bus","public_transport:version":"2"},"n":18,"s":[[2456183389,18]]},
+  {"id":14743756,"t":{"ref":"467","name":"Bus 467: Rina => Longega","from":"Rina - Welschellen","to":"Longega - Zwischenwasser","route":"bus","public_transport:version":"2"},"n":4,"s":[[4275014451,1],[10136307336,2],[10136307344,3],[2456183390,4]]},
+  {"id":14743757,"t":{"ref":"467","name":"Bus 467: Longega => Rina","from":"Longega - Zwischenwasser","to":"Rina - Welschellen","route":"bus","public_transport:version":"2"},"n":4,"s":[[2456183390,1],[10136307343,2],[10136307340,3],[4275014451,4]]},
+  {"id":18489898,"t":{"ref":"424","name":"Bus 424: Sankt Lorenzen => Onach => Sonnenburg","from":"Sankt Lorenzen","to":"Sonnenburg","operator":"Gemeinde St. Lorenzen","route":"bus","public_transport:version":"2","bus":"minibus"},"n":21,"s":[[10184496832,9]]},
+  {"id":18501422,"t":{"ref":"462","name":"Bus 462: Pederù => Mareo => Longega","from":"Pederù","to":"Longega","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":16,"s":[[2456183389,15],[2456183390,16]]},
+  {"id":18501427,"t":{"ref":"462","name":"Bus 462: Longega => Mareo => Pederù","from":"Longega","to":"Pederù","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[8682298770,1]]},
+  {"id":18501472,"t":{"ref":"462","name":"Bus 462: Pederù => Mareo => Longega => Bruneck","from":"Pederù","to":"Bruneck","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[2456183389,15]]},
+  {"id":18501493,"t":{"ref":"462","name":"Bus 462: Bruneck => Longega => Mareo => Pederù","from":"Bruneck","to":"Pederù","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[2456183390,11],[8682298770,12]]}
+]
+}

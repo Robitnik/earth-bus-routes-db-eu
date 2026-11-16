@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2766,3878],
+"stops":[
+  {"id":5617504180,"lat":48.30245,"lon":13.923795,"k":"p","n":"Großsteingrub"},
+  {"id":5617504181,"lat":48.302294,"lon":13.923893,"k":"p","n":"Großsteingrub"},
+  {"id":5622454214,"lat":48.313969,"lon":13.904932,"k":"p","n":"Prambachkirchen Hauptstraße"},
+  {"id":5622454215,"lat":48.314102,"lon":13.904977,"k":"p","n":"Prambachkirchen Hauptstraße"},
+  {"id":10299265232,"lat":48.34758,"lon":13.947083,"k":"p","n":"Windischdorf Ost"},
+  {"id":10299265233,"lat":48.347305,"lon":13.947769,"k":"p","n":"Windischdorf Ost"},
+  {"id":10299283041,"lat":48.315385,"lon":13.901659,"k":"p","n":"Prambachkirchen-Bad Weinberg Bahnhof"},
+  {"id":10302724638,"lat":48.317586,"lon":13.906043,"k":"p","n":"Prambachkirchen Eferdinger Straße"},
+  {"id":10302724639,"lat":48.317625,"lon":13.904399,"k":"p","n":"Prambachkirchen Eferdinger Straße"},
+  {"id":10302724640,"lat":48.318334,"lon":13.913471,"k":"p","n":"Prambachkirchen Unterbruck"},
+  {"id":10302724641,"lat":48.317825,"lon":13.91271,"k":"p","n":"Prambachkirchen Unterbruck"},
+  {"id":10308879912,"lat":48.315385,"lon":13.901459,"k":"p","n":"Prambachkirchen-Bad Weinberg Bahnhof"},
+  {"id":13061842730,"lat":48.302371,"lon":13.923837,"k":"x","n":"Großsteingrub"}
+],
+"routes":[
+  {"id":15073662,"t":{"ref":"665","name":"Bus 665: Wögern - Stroheim - Eferding","from":"Wögern Abzw Knieparz","to":"Eferding Busterminal (Schulzentrum)","operator":"Hehenberger","route":"bus","public_transport:version":"2"},"n":20,"s":[[10299265232,6]]},
+  {"id":15073664,"t":{"ref":"665","name":"Bus 665: Eferding - Stroheim - Reith b.Stroheim","from":"Eferding Busterminal (Schulzentrum)","to":"Reith bei Stroheim","operator":"Hehenberger","route":"bus","public_transport:version":"2"},"n":19,"s":[[10299265233,15]]},
+  {"id":15073667,"t":{"ref":"663","name":"Bus 663: Prambachkirchen - Untergallsbach - Eferding","from":"Prambachkirchen Bahnhof","to":"Eferding Busterminal (Schulzentrum)","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":17,"s":[[10308879912,1],[5622454214,2],[5617504181,3]]},
+  {"id":15073669,"t":{"ref":"663","name":"Bus 663: Aschach - Eferding - Untergallsbach - Prambachkirchen","from":"Aschach Kirchenplatz","to":"Prambachkirchen Hauptstraße","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[5617504180,15],[5622454215,16]]},
+  {"id":15073674,"t":{"ref":"662","name":"Bus 662: Waizenkirchen - Bad Schallerbach - Wels","from":"Waizenkirchen Bahnhof","to":"Wels Kaiser-Josef-Platz (Rainerstraße)","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":30,"s":[[10308879912,4],[5622454214,5],[5617504181,6]]},
+  {"id":15073677,"t":{"ref":"662","name":"Bus 662: Wels - Bad Schallerbach - Waizenkirchen","from":"Wels Kaiser-Josef-Platz (Rainerstraße)","to":"Waizenkirchen","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":27,"s":[[5617504180,23],[5622454215,24],[10299283041,25]]},
+  {"id":15081972,"t":{"ref":"670","name":"Bus 670: Variante aus Peuerbach (Richtung Linz)","from":"Peuerbach Hauptstraße","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[10302724639,6],[10302724641,7]]},
+  {"id":15081973,"t":{"ref":"670","name":"Bus 670: Variante nach Waizenkirchen (aus Linz kommend)","to":"Waizenkirchen","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[10302724640,2],[10302724638,3]]},
+  {"id":15088929,"t":{"ref":"693","name":"Bus 693: Dachsberg - Prambachkirchen - Grieskirchen","from":"Dachsberg Gymnasium","to":"Grieskirchen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[5622454215,2],[10308879912,3],[5622454214,4]]},
+  {"id":15088930,"t":{"ref":"693","name":"Bus 693: Grieskirchen - Prambachkirchen","from":"Grieskirchen Bahnhof","to":"Prambachkirchen Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":18,"s":[[5622454215,17],[10299283041,18]]},
+  {"id":15088950,"t":{"ref":"690","name":"Bus 690: Variante aus Dachsberg (Richtung Neukirchen am Walde)","from":"Dachsberg Gymnasium","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[5622454215,2],[10299283041,3]]},
+  {"id":15089700,"t":{"ref":"699","name":"Bus 699: Peuerbach - Eferding - Linz voestalpine","from":"Peuerbach Ernst-Dreefs-Straße","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[10302724639,7],[10302724641,8]]},
+  {"id":15089701,"t":{"ref":"699","name":"Bus 699: Linz voestalpine - Eferding - Peuerbach","from":"Linz voestalpine","to":"Peuerbach Ernst-Dreefs-Straße","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":36,"s":[[10302724640,30],[10302724638,31]]},
+  {"id":15089704,"t":{"ref":"697","name":"Bus 697: Neukirchen/Walde - Eferding - Linz voestalpine","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":31,"s":[[10302724639,11],[10302724641,12]]},
+  {"id":15089705,"t":{"ref":"697","name":"Bus 697: Linz voestalpine - Eferding - Neukirchen/Walde","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":33,"s":[[10302724640,22],[10302724638,23]]}
+]
+}

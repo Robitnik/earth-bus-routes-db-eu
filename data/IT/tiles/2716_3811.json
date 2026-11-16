@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3811],
+"stops":[
+  {"id":12852373565,"lat":45.847043,"lon":10.581872,"k":"p","n":"Storo Strada V.di Ledro Civ 5"},
+  {"id":12852373566,"lat":45.848689,"lon":10.578404,"k":"p","n":"Storo"},
+  {"id":12852688831,"lat":45.842405,"lon":10.550623,"k":"p","n":"Darzo"},
+  {"id":12853543577,"lat":45.849136,"lon":10.559328,"k":"p","n":"Darzo Stork Club"},
+  {"id":12864852437,"lat":45.848724,"lon":10.558637,"k":"p","n":"Darzo Stork Club"},
+  {"id":12882816356,"lat":45.846429,"lon":10.582494,"k":"p"},
+  {"id":12882816357,"lat":45.846205,"lon":10.582476,"k":"p"},
+  {"id":12884449781,"lat":45.84847,"lon":10.574392,"k":"p","n":"Storo Via Sette Civ.8"},
+  {"id":12888100755,"lat":45.849447,"lon":10.57486,"k":"p"},
+  {"id":12895866219,"lat":45.841597,"lon":10.56494,"k":"p"}
+],
+"routes":[
+  {"id":9631373,"t":{"ref":"B214","name":"Bus B214: Riva->Pregasina->Bezzecca->Storo->Pieve di Bono","from":"Riva Autostazione","to":"Pieve di Bono","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":49,"s":[[12852373565,37],[12852373566,38]]},
+  {"id":19151869,"t":{"ref":"B214","name":"Bus B214: Pieve di Bono->Bezzecca->Storo-> Pregasina->Riva","from":"Pieve di Bono","to":"Riva del G. Autostazione","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":48,"s":[[12852373566,12],[12852373565,13]]},
+  {"id":19159593,"t":{"ref":"B214","name":"Bus B214: Variante: Baitoni->Storo","from":"Storo","to":"Storo","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":16,"s":[[12852688831,12],[12864852437,13],[12852373566,16]]},
+  {"id":19159594,"t":{"ref":"B214","name":"Bus B214: Variante: Stori>Baitoni","from":"Storo","to":"Baitoni","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":16,"s":[[12852373566,1],[12853543577,4]]},
+  {"id":19159595,"t":{"ref":"B214","name":"Bus B214: Variante: Baitoni->Storo direttamente","from":"Baitoni","to":"Riva Autostatzione","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":2,"s":[[12852373566,2]]},
+  {"id":19159596,"t":{"ref":"B214","name":"Bus B214: Variante: Storo->Baitone direttamente","from":"Riva Autostazione","to":"Baitoni","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":2,"s":[[12852373566,1]]},
+  {"id":19206421,"t":{"ref":"B215","name":"Bus B215: Tione->Pieve di Bono->Storo->Baitoni->Ponte Caffaro","from":"Tione Autostatione","to":"Ponte Caffaro","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":52,"s":[[12884449781,35],[12852373566,36],[12853543577,40]]},
+  {"id":19208804,"t":{"ref":"B215","name":"Bus B215: Ponte Caffaro->->Baitoni->Storo->Pieve di Bono->Tione","from":"Ponte Caffaro Baitoni","to":"Tione Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":50,"s":[[12852688831,12],[12864852437,13],[12852373566,16],[12884449781,17]]}
+]
+}

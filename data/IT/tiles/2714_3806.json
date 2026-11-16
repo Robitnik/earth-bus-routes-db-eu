@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3806],
+"stops":[
+  {"id":6236349811,"lat":45.70508,"lon":10.316578,"k":"p"},
+  {"id":13534486326,"lat":45.746189,"lon":10.326,"k":"p","n":"Pertica alta (navono)fr. 26"},
+  {"id":13534486342,"lat":45.745667,"lon":10.321485,"k":"p","n":"Lavino s.michele bv. marmentino"},
+  {"id":13534486343,"lat":45.744632,"lon":10.318512,"k":"p","n":"Pertica a. lavino"},
+  {"id":13534486344,"lat":45.741813,"lon":10.317916,"k":"p","n":"Noffo (pertica a.)"},
+  {"id":13534663922,"lat":45.746771,"lon":10.33674,"k":"p","n":"Odeno cappelletta-pertica a"},
+  {"id":13534663923,"lat":45.746876,"lon":10.336649,"k":"p","n":"Odeno (pertica a.)"},
+  {"id":13534663924,"lat":45.744849,"lon":10.3441,"k":"p","n":"Pertica alta (livemmo) albergo perla"},
+  {"id":13534663925,"lat":45.742247,"lon":10.344127,"k":"p","n":"Pertica alta (livemmo)"},
+  {"id":13534663926,"lat":45.742528,"lon":10.347319,"k":"p","n":"Livemmo bivio avenone"},
+  {"id":13537190341,"lat":45.713241,"lon":10.342032,"k":"p","n":"Mura (Capolinea), Mura"},
+  {"id":13537190342,"lat":45.710738,"lon":10.340063,"k":"p","n":"Mura (albergo)"},
+  {"id":13537190343,"lat":45.707444,"lon":10.334093,"k":"p","n":"Olsano-mura"},
+  {"id":13537190344,"lat":45.705778,"lon":10.330528,"k":"p","n":"Posico"},
+  {"id":13537190345,"lat":45.704943,"lon":10.321258,"k":"p","n":"Auro (casto)"},
+  {"id":13537190346,"lat":45.702155,"lon":10.320547,"k":"p","n":"Casto bivio auro"},
+  {"id":13542697687,"lat":45.701403,"lon":10.317777,"k":"p","n":"Briale"},
+  {"id":13542697688,"lat":45.704168,"lon":10.313204,"k":"p","n":"Bivio famea"},
+  {"id":13542697689,"lat":45.705235,"lon":10.305245,"k":"p","n":"Dòss dèl gròòm (casto)"},
+  {"id":13542697690,"lat":45.707307,"lon":10.30145,"k":"p","n":"Bivio comero (casto)"}
+],
+"routes":[
+  {"id":20190456,"t":{"ref":"LN023","name":"Bus LN023: Tavernole->Marmentino->Pertica Alta","from":"TAVERNOLE - piazza Mercato","to":"PERTICA ALTA - Noffo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534486342,11],[13534486343,12],[13534486326,13],[13534486344,14]]},
+  {"id":20190457,"t":{"ref":"LN023","name":"Bus LN023: Pertica Alta->Marmentino->Tavernole","from":"PERTICA ALTA - Noffo","to":"TAVERNOLE - piazza Mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534486344,1],[13534486343,2],[13534486342,3]]},
+  {"id":20190690,"t":{"ref":"LN016","name":"Bus LN016: Pertica Alta->Vestone","from":"PERTICA ALTA - Noffo","to":"Vestone Autostazioe","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534486344,1],[13534486326,2],[13534486343,3],[13534486342,4],[13534663922,5],[13534663924,6],[13534663925,7],[13534663926,8]]},
+  {"id":20190691,"t":{"ref":"LN016","name":"Bus LN016: Vestone->Pertica Alta","from":"Vestone Autostazioe","to":"PERTICA ALTA - Noffo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534663926,7],[13534663925,8],[13534663924,9],[13534663923,10],[13534486342,11],[13534486343,12],[13534486326,13],[13534486344,14]]},
+  {"id":20193928,"t":{"ref":"LN031-V","name":"Bus LN031-V: Vestone->Mura->Vestone","from":"Mura (Capolinea), Mura","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[13537190341,1],[13537190342,2],[13537190343,3],[13537190344,4],[13537190345,5],[13537190346,6]]},
+  {"id":20193929,"t":{"ref":"LN031-V","name":"Bus LN031-V: Vestone->Mura","from":"Vestone Autostazione","to":"Mura (Capolinea), Mura","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[13537190346,15],[13537190345,16],[13537190344,17],[13537190343,18],[13537190342,19],[13537190341,20]]},
+  {"id":20199539,"t":{"ref":"LN031","name":"Bus LN031: Mura->Gardone Val Trompia","from":"Mura (Capolinea), Mura","to":"Gardone V.T., Matteorri/M.ri Libertà","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":32,"s":[[13537190341,1],[13537190342,2],[13537190343,3],[13537190344,4],[13537190345,5],[13537190346,6],[13542697687,7],[13542697688,8],[13542697690,9]]},
+  {"id":20199540,"t":{"ref":"LN031","name":"Bus LN031: Gardone Val Trompia->Mura","from":"Gardone V.T., Matteorri/M.ri Libertà","to":"Mura (Capolinea), Mura","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":31,"s":[[13542697690,22],[13542697689,23],[13542697688,24],[13542697687,25],[13537190346,26],[13537190345,27],[13537190344,28],[13537190343,29],[13537190342,30],[13537190341,31]]}
+]
+}

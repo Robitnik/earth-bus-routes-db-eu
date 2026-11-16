@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2727,3864],
+"stops":[
+  {"id":4080486305,"lat":46.393464,"lon":13.221139,"k":"p","n":"Resiutta Via Nazionale"},
+  {"id":4084212530,"lat":46.398877,"lon":13.246987,"k":"p","n":"Roveredo di Chiusaforte Fontana"},
+  {"id":4084212957,"lat":46.398268,"lon":13.248971,"k":"p","n":"Roveredo di Chiusaforte Centro"},
+  {"id":4112013920,"lat":46.393493,"lon":13.22113,"k":"p","n":"Resiutta Via Nazionale"}
+],
+"routes":[
+  {"id":6088673,"t":{"ref":"192","name":"SAF Linea 192 Chiusaforte - Roveredo - Resiutta","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":9,"s":[[4084212957,5],[4084212530,6],[4080486305,9]]},
+  {"id":6089526,"t":{"ref":"194","name":"SAF Linea 194 Stolvizza - Carnia - Gemona","network":"ATAP","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":29,"s":[[4080486305,16]]},
+  {"id":6125919,"t":{"ref":"200","name":"SAF Linea 200 Coccau => Tarvisio => Carnia => Gemona","from":"Coccau","to":"Carnia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":3,"s":[[4112013920,2]]},
+  {"id":6125943,"t":{"ref":"200","name":"SAF Linea 200 Coccau => Tarvisio => Carnia => Gemona => Udine (senza Valbruna e Moggio Udinese)","from":"Coccau","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":4,"s":[[4112013920,3]]},
+  {"id":6126979,"t":{"ref":"200","name":"SAF Linea 200 Coccau => Tarvisio => Carnia => Gemona => Udine (senza Valbruna)","from":"Coccau","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":3,"s":[[4112013920,2]]},
+  {"id":6129068,"t":{"ref":"200","name":"SAF Linea 200 Coccau => Udine (tutte le stazioni)","from":"Coccau","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":2,"s":[[4112013920,1]]}
+]
+}

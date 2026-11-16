@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2765,3882],
+"stops":[
+  {"id":334426232,"lat":48.28801,"lon":14.144459,"k":"p","n":"Straßham Wehrgasse Bahnhst (Südseite)"},
+  {"id":3170456420,"lat":48.253915,"lon":14.114711,"k":"p","n":"Axberg Jonathanstraße"},
+  {"id":3891334771,"lat":48.291877,"lon":14.142793,"k":"p","n":"Straßham B129/Im Schönfeld"},
+  {"id":5792595993,"lat":48.287171,"lon":14.14277,"k":"p","n":"Straßham Am Dorfplatz"},
+  {"id":9500553595,"lat":48.287785,"lon":14.11181,"k":"p","n":"Alkoven Eferdinger Straße"},
+  {"id":9500553596,"lat":48.288126,"lon":14.11223,"k":"p","n":"Alkoven Eferdinger Straße"},
+  {"id":9500553597,"lat":48.292003,"lon":14.142742,"k":"p","n":"Straßham B129/Im Schönfeld"},
+  {"id":10302957143,"lat":48.27996,"lon":14.111501,"k":"p","n":"Alkoven Hartheim Axberger Straße"},
+  {"id":10308514188,"lat":48.286337,"lon":14.143579,"k":"p","n":"Straßham Binderweg"},
+  {"id":10308514189,"lat":48.286074,"lon":14.143776,"k":"p","n":"Straßham Binderweg"},
+  {"id":10308514201,"lat":48.256381,"lon":14.138366,"k":"p","n":"Schauersfreiling"},
+  {"id":10308514202,"lat":48.256332,"lon":14.138334,"k":"p","n":"Schauersfreiling"},
+  {"id":10308514203,"lat":48.255328,"lon":14.115468,"k":"p","n":"Axberg Abzw Schauersfreiling"},
+  {"id":11428190849,"lat":48.280688,"lon":14.130462,"k":"x"},
+  {"id":11428190850,"lat":48.280669,"lon":14.13052,"k":"p"}
+],
+"routes":[
+  {"id":1701081,"t":{"ref":"671","name":"Bus 671: Wilhering => Alkoven => Aschach","from":"Wilhering Stiftsgymnasium","to":"Aschach Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":13,"s":[[9500553596,2]]},
+  {"id":2341543,"t":{"ref":"682","name":"Bus 682: Hörsching Bahnhof - Kirchberg-Thening - Axberg - Hörsching","from":"Hörsching Bahnhst","to":"Hörsching Schulzentrum","operator":"sabtours","route":"bus","public_transport:version":"2"},"n":22,"s":[[10308514201,9],[3170456420,10]]},
+  {"id":2341545,"t":{"ref":"682","name":"Bus 682: Hörsching - Axberg - Kirchberg-Thening - Hörsching","from":"Hörsching Schulzentrum","to":"Hörsching Ortsmitte (Humerstraße)","operator":"sabtours","route":"bus","public_transport:version":"2"},"n":26,"s":[[10308514203,12],[10308514202,13]]},
+  {"id":4431362,"t":{"ref":"670","name":"Bus 670: Linz - Eferding - Engelhartszell - Passau","from":"Linz Bahnhof (Busterminal)","to":"Passau Hbf","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":52,"s":[[9500553597,9],[9500553596,10]]},
+  {"id":4431911,"t":{"ref":"670","name":"Bus 670: Passau - Wesenufer - Eferding - Linz","from":"Passau Hbf","to":"Linz Bahnhof (Busterminal)","route":"bus","public_transport:version":"2"},"n":48,"s":[[9500553595,35],[3891334771,36]]},
+  {"id":15082370,"t":{"ref":"671","name":"Bus 671: Hartheim => Wilhering","from":"Alkoven Hartheim Axberger Straße","to":"Wilhering Stiftsgymnasium","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":9,"s":[[10302957143,1],[334426232,2],[3891334771,3]]},
+  {"id":15082372,"t":{"ref":"671","name":"Bus 671: Aschach => Alkoven => Wilhering","from":"Aschach Bahnhof","to":"Wilhering Stiftsgymnasium","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":9,"s":[[9500553595,8]]},
+  {"id":15082373,"t":{"ref":"671","name":"Bus 671: Wilhering => Hartheim => Alkoven","from":"Wilhering Stiftsgymnasium","to":"Alkoven Eferdinger Straße","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":10,"s":[[9500553597,7],[5792595993,8],[10302957143,9],[9500553596,10]]},
+  {"id":15089700,"t":{"ref":"699","name":"Bus 699: Peuerbach - Eferding - Linz voestalpine","from":"Peuerbach Ernst-Dreefs-Straße","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[9500553595,16],[3891334771,17]]},
+  {"id":15089701,"t":{"ref":"699","name":"Bus 699: Linz voestalpine - Eferding - Peuerbach","from":"Linz voestalpine","to":"Peuerbach Ernst-Dreefs-Straße","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":36,"s":[[9500553597,21],[9500553596,22]]},
+  {"id":15089702,"t":{"ref":"698","name":"Bus 698: Aschach => Eferding => Linz voestalpine","from":"Hartkirchen Ortsmitte","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":32,"s":[[9500553595,14],[3891334771,15]]},
+  {"id":15089703,"t":{"ref":"698","name":"Bus 698: Linz voestalpine => Eferding => Aschach","from":"Linz voestalpine","to":"Hartkirchen Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":34,"s":[[9500553597,20],[9500553596,21]]},
+  {"id":15089704,"t":{"ref":"697","name":"Bus 697: Neukirchen/Walde - Eferding - Linz voestalpine","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":31,"s":[[9500553595,17],[10308514189,18]]},
+  {"id":15089705,"t":{"ref":"697","name":"Bus 697: Linz voestalpine - Eferding - Neukirchen/Walde","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":33,"s":[[10308514188,16],[9500553596,17]]},
+  {"id":15089706,"t":{"ref":"696","name":"Bus 696: St. Agatha => Eferding => Linz voestalpine","from":"St. Agatha Ortsmitte","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":33,"s":[[9500553595,16],[3891334771,17]]},
+  {"id":15089707,"t":{"ref":"696","name":"Bus 696: Linz voestalpine => Eferding => St. Agatha","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[9500553597,19],[9500553596,20]]}
+]
+}

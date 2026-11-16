@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3789],
+"stops":[
+  {"id":10710779599,"lat":45.961758,"lon":9.450528,"k":"p","n":"Introbio, Cademartori"},
+  {"id":10710779600,"lat":45.96268,"lon":9.45089,"k":"p","n":"Introbio, Cademartori"},
+  {"id":10712677891,"lat":45.97239,"lon":9.452363,"k":"p","n":"Introbio, Paese (Chiesa)"},
+  {"id":10712677892,"lat":45.972617,"lon":9.452308,"k":"p","n":"Introbio, Paese (Chiesa)"}
+],
+"routes":[
+  {"id":15507110,"t":{"ref":"D35","from":"Lecco","to":"Barzio / Taceno","operator":"Arriva Italia","route":"bus"},"n":46,"s":[[10712677892,35]]},
+  {"id":21062886,"t":{"ref":"D135","name":"Bus D135: Taceno->Lecco","from":"Taceno via Roma","to":"Lecco Via Ballico","operator":"Lecco Trasporti","route":"bus","public_transport:version":"2"},"n":55,"s":[[10712677891,15],[10710779599,16]]},
+  {"id":21062887,"t":{"ref":"D135","name":"Bus D135: Lecco ->Taceno","from":"Lecco Via Ballico","to":"Taceno via Roma","operator":"Lecco Trasporti","route":"bus","public_transport:version":"2"},"n":54,"s":[[10710779600,39],[10712677892,40]]}
+]
+}

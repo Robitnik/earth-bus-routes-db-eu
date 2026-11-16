@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2767,3872],
+"stops":[
+  {"id":4029704285,"lat":48.370975,"lon":13.638843,"k":"p","n":"Weeg"},
+  {"id":4038881107,"lat":48.351895,"lon":13.644184,"k":"p","n":"Raab Kommuneplatz"},
+  {"id":4038881108,"lat":48.352333,"lon":13.636936,"k":"p","n":"Brünning Straßenmeisterei"},
+  {"id":4040447471,"lat":48.35381,"lon":13.632396,"k":"p","n":"Brünning Moarhofstraße"},
+  {"id":4040447472,"lat":48.353755,"lon":13.632251,"k":"p","n":"Brünning Moarhofstraße"},
+  {"id":4051658423,"lat":48.351456,"lon":13.635813,"k":"p","n":"Brünning Straßenmeisterei"},
+  {"id":4108367239,"lat":48.354112,"lon":13.640617,"k":"p","n":"Raab Mittelschule"},
+  {"id":9448245924,"lat":48.360125,"lon":13.64778,"k":"p","n":"Raab Bründl"},
+  {"id":9448245925,"lat":48.360155,"lon":13.647978,"k":"p","n":"Raab Bründl"},
+  {"id":9458222745,"lat":48.355918,"lon":13.621352,"k":"p","n":"Niederham"},
+  {"id":9458222746,"lat":48.355791,"lon":13.620893,"k":"p","n":"Niederham"},
+  {"id":9458222747,"lat":48.358415,"lon":13.605351,"k":"p","n":"Schulleredt"},
+  {"id":9458222748,"lat":48.358213,"lon":13.605705,"k":"p","n":"Schulleredt"},
+  {"id":9458633149,"lat":48.370897,"lon":13.639318,"k":"p","n":"Weeg"},
+  {"id":9458633150,"lat":48.387841,"lon":13.647704,"k":"p","n":"Enzenkirchen Gemeindeamt"},
+  {"id":9458633151,"lat":48.380469,"lon":13.643468,"k":"p","n":"Bimmersdorf"},
+  {"id":9458633152,"lat":48.380652,"lon":13.643609,"k":"p","n":"Bimmersdorf"},
+  {"id":9458633153,"lat":48.378028,"lon":13.636031,"k":"p","n":"Jagern Ort"},
+  {"id":9458633154,"lat":48.378048,"lon":13.635267,"k":"p","n":"Jagern Ort"},
+  {"id":9458633155,"lat":48.377318,"lon":13.63128,"k":"p","n":"Jagern B129/Abzw Enzenkirchen"},
+  {"id":9458633156,"lat":48.377374,"lon":13.631112,"k":"p","n":"Jagern B129/Abzw Enzenkirchen"},
+  {"id":9458633157,"lat":48.384879,"lon":13.619317,"k":"p","n":"Unterhaigen"},
+  {"id":9458633158,"lat":48.38488,"lon":13.619057,"k":"p","n":"Unterhaigen"},
+  {"id":9458633159,"lat":48.389274,"lon":13.608807,"k":"p","n":"Thalmannsbach"},
+  {"id":9458633160,"lat":48.389502,"lon":13.606093,"k":"p","n":"Thalmannsbach"}
+],
+"routes":[
+  {"id":13729453,"t":{"ref":"844","name":"Bus 844: Raab - Taiskirchen - Ried","from":"Raab Kommuneplatz","to":"Ried im Innkreis Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":29,"s":[[4038881107,1],[4038881108,2]]},
+  {"id":13729454,"t":{"ref":"844","name":"Bus 844: Ried - Taiskirchen - Raab","from":"Ried im Innkreis Bahnhof","to":"Raab Kommuneplatz","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":30,"s":[[4051658423,29],[4038881107,30]]},
+  {"id":13735685,"t":{"ref":"820","name":"Bus 820: Variante über St. Willibald (Richtung Raab)","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":4,"s":[[9448245924,4]]},
+  {"id":13735687,"t":{"ref":"820","name":"Bus 820: Raab => Schärding Busterminal","from":"Raab Kommuneplatz","to":"Schärding Busterminal (Tummelplatzstraße)","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":17,"s":[[4038881107,1],[4040447471,2],[9458222745,3],[9458222747,4]]},
+  {"id":13735688,"t":{"ref":"820","name":"Bus 820: Variante über St. Willibald (Richtung Peuerbach)","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":4,"s":[[9448245925,1]]},
+  {"id":13735691,"t":{"ref":"820","name":"Bus 820: Schärding Busterminal => Raab","from":"Schärding Busterminal (Tummelplatzstraße)","to":"Raab Kommuneplatz","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":14,"s":[[9458222748,11],[9458222746,12],[4040447472,13],[4038881107,14]]},
+  {"id":13736216,"t":{"ref":"824","name":"Bus 824: Raab => Taufkirchen => Schärding Busterminal","from":"Raab Kommuneplatz","to":"Schärding Busterminal (Tummelplatzstraße)","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":36,"s":[[4038881107,1],[9458633149,8],[9458633155,9],[9458633153,10],[9458633151,11],[9458633150,12],[9458633152,13],[9458633154,14],[9458633156,15],[9458633157,16],[9458633160,17]]},
+  {"id":13736217,"t":{"ref":"824","name":"Bus 824: Schärding Busterminal => Taufkirchen => Raab","from":"Schärding Busterminal (Tummelplatzstraße)","to":"Raab Kommuneplatz","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":34,"s":[[9458633159,18],[9458633158,19],[9458633155,20],[9458633153,21],[9458633151,22],[9458633150,23],[9458633152,24],[9458633154,25],[9458633156,26],[4029704285,27],[4038881107,34]]}
+]
+}

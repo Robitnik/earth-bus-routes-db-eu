@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2720,3780],
+"stops":[
+  {"id":421863329,"lat":46.030434,"lon":9.049351,"k":"x","n":"Castello"},
+  {"id":822221624,"lat":46.00559,"lon":9.003003,"k":"x","n":"Gandria Paese"},
+  {"id":984001896,"lat":46.015068,"lon":9.019373,"k":"p","n":"Gandria, Dogana"},
+  {"id":984001900,"lat":46.005984,"lon":9.002203,"k":"p","n":"Strada"},
+  {"id":1405082217,"lat":46.021831,"lon":9.033897,"k":"p"},
+  {"id":1551016521,"lat":46.00604,"lon":9.002136,"k":"p","n":"Strada"},
+  {"id":5838621905,"lat":46.005563,"lon":9.003033,"k":"p","n":"Gandria Paese"},
+  {"id":13879282451,"lat":46.006021,"lon":9.00222,"k":"x","n":"Strada"},
+  {"id":13879282452,"lat":46.006004,"lon":9.002113,"k":"x","n":"Strada"}
+],
+"routes":[
+  {"id":1126984,"t":{"ref":"631","name":"Bus 631: St. Moritz → Lugano","from":"St. Moritz, Bahnhof","to":"Lugano, Stazione Nord","network":"CH-GR;Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":13,"s":[[984001896,10]]},
+  {"id":12278732,"t":{"ref":"631","name":"Bus 631: Lugano → St. Moritz","from":"Lugano, Stazione Nord","to":"St. Moritz, Bahnhof","network":"CH-GR;Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":12,"s":[[984001896,4]]},
+  {"id":20271084,"t":{"ref":"490","name":"Bus 490: Gandria → Lugano","from":"Gandria, Paese","to":"Lugano, Centro","network":"Arcobaleno","operator":"SNL Auto","route":"bus","public_transport:version":"2"},"n":10,"s":[[5838621905,1],[1551016521,2]]},
+  {"id":20271085,"t":{"ref":"490","name":"Bus 490: Lugano → Gandria","from":"Lugano, Centro","to":"Gandria, Paese","network":"Arcobaleno","operator":"SNL Auto","route":"bus","public_transport:version":"2"},"n":10,"s":[[984001900,9],[5838621905,10]]}
+]
+}

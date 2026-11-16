@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2752,3873],
+"stops":[
+  {"id":452931092,"lat":47.62292,"lon":13.693983,"k":"p","n":"Pötschenpass Passhöhe"},
+  {"id":1471061061,"lat":47.622618,"lon":13.69411,"k":"x","n":"Pötschenpass Passhöhe"},
+  {"id":3637977048,"lat":47.619231,"lon":13.670565,"k":"p","n":"Pötschen B145"},
+  {"id":3637977049,"lat":47.619303,"lon":13.670369,"k":"p","n":"Pötschen B145"},
+  {"id":7798061467,"lat":47.622909,"lon":13.693919,"k":"x","n":"Pötschenpass Passhöhe"},
+  {"id":8568517114,"lat":47.619272,"lon":13.670484,"k":"x","n":"Pötschen B145"},
+  {"id":8570579944,"lat":47.616486,"lon":13.658385,"k":"x","n":"Untersee bei Bad Goisern B145"},
+  {"id":11878770687,"lat":47.616542,"lon":13.666611,"k":"p","n":"Sarstein Wanderweg","ref":"57"},
+  {"id":11878770695,"lat":47.644971,"lon":13.67542,"k":"p","n":"Flohwiesen","ref":"57"},
+  {"id":11878770696,"lat":47.638502,"lon":13.669052,"k":"p","n":"Halleralm","ref":"57"},
+  {"id":11878770697,"lat":47.639906,"lon":13.650966,"k":"p","n":"Rehkogl Kreuzung","ref":"57"},
+  {"id":5000835446423,"lat":47.62257,"lon":13.69404,"k":"p","n":"Pötschenpass Passhöhe"},
+  {"id":5000835446424,"lat":47.616435,"lon":13.65833,"k":"p","n":"Untersee bei Bad Goisern B145"},
+  {"id":5000835446425,"lat":47.616549,"lon":13.658416,"k":"p","n":"Untersee bei Bad Goisern B145"}
+],
+"routes":[
+  {"id":11486297,"t":{"ref":"952","name":"Bus 952: Bad Aussee Postamt => Bad Goisern Jodschwefelbad Bahnhaltestelle","from":"Bad Aussee Postamt","to":"Bad Goisern Jodschwefelbad Bahnhaltestelle","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":22,"s":[[452931092,13],[3637977049,14],[5000835446425,15]]},
+  {"id":11486298,"t":{"ref":"952","name":"Bus 952: Bad Goisern Jodschwefelbad Bahnhaltestelle => Bad Aussee Postamt","from":"Bad Goisern Jodschwefelbad Bahnhaltestelle","to":"Bad Aussee Postamt","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000835446424,8],[3637977048,9],[5000835446423,10]]},
+  {"id":16864083,"t":{"ref":"810","name":"Salzkammergut-Shuttle Ausseerland 810: Variante ab der Pötschenhöhe","from":"GH Pötschenhöhe","network":"Salzkammergut-Shuttles","colour":"#FF00FF","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000835446423,1]]},
+  {"id":16864084,"t":{"ref":"810","name":"Salzkammergut-Shuttle Ausseerland 810: Variante zur Pötschenhöhe","to":"GH Pötschenhöhe","network":"Salzkammergut-Shuttles","colour":"#FF00FF","route":"bus","public_transport:version":"2"},"n":5,"s":[[452931092,5]]},
+  {"id":17556528,"t":{"ref":"710","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 710: Variante vom Pötschenpass","from":"Pötschenpass","network":"Salzkammergut-Shuttles","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[452931092,1],[11878770687,2]]},
+  {"id":17556529,"t":{"ref":"710","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 710: Variante auf den Pötschenpass","to":"Pötschenpass","network":"Salzkammergut-Shuttles","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[11878770687,1],[5000835446423,2]]},
+  {"id":17556536,"t":{"ref":"710","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 710: Variante ab Flohwiesen","from":"Flohwiesen","network":"Salzkammergut-Shuttles","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":5,"s":[[11878770695,1],[11878770696,2],[11878770697,3]]},
+  {"id":17556537,"t":{"ref":"710","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 710: Variante nach Flohwiesen","to":"Flohwiesen","network":"Salzkammergut-Shuttles","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":5,"s":[[11878770697,3],[11878770696,4],[11878770695,5]]}
+]
+}

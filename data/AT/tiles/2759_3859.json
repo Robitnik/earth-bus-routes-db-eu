@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3859],
+"stops":[
+  {"id":34824629,"lat":47.992844,"lon":12.956073,"k":"x","n":"Lamprechtshausen Ortsmitte"},
+  {"id":4056135551,"lat":47.977056,"lon":12.95141,"k":"p","n":"Lamprechtshausen Holzleiten"},
+  {"id":4056516567,"lat":47.976653,"lon":12.950838,"k":"p","n":"Lamprechtshausen Holzleiten"},
+  {"id":4139015770,"lat":47.951231,"lon":12.990694,"k":"p","n":"Göming Eberharten"},
+  {"id":4139015771,"lat":47.951375,"lon":12.990694,"k":"p","n":"Göming Eberharten"},
+  {"id":9394055426,"lat":47.990064,"lon":12.951279,"k":"p","n":"Lamprechtshausen Bahnhof"},
+  {"id":9394055427,"lat":47.992817,"lon":12.956169,"k":"p","n":"Lamprechtshausen Ortsmitte"},
+  {"id":9394055428,"lat":47.992888,"lon":12.955991,"k":"p","n":"Lamprechtshausen Ortsmitte"},
+  {"id":13103630700,"lat":47.98999,"lon":12.951254,"k":"x","n":"Lamprechtshausen Bahnhof"}
+],
+"routes":[
+  {"id":10315772,"t":{"ref":"131","name":"Bus 131: Lamprechtshausen => Hallwang","from":"Lamprechtshausen Bahnhof","to":"Hallwang-Elixhausen S-Bahn","network":"Salzburger Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":46,"s":[[9394055426,1],[9394055427,2]]},
+  {"id":10315776,"t":{"ref":"131","name":"Bus 131: Hallwang => Lamprechthausen","from":"Hallwang-Elixhausen S-Bahn","to":"Lamprechtshausen Bahnhof","network":"Salzburger Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":47,"s":[[9394055428,46],[9394055426,47]]},
+  {"id":13637501,"t":{"ref":"880","name":"Bus 880: Oberndorf - Eggelsberg - Braunau","from":"Oberndorf b. S. Bahnhof","to":"Braunau Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":39,"s":[[4056135551,5],[9394055426,6],[9394055427,7]]},
+  {"id":13637502,"t":{"ref":"880","name":"Bus 880: Braunau => Eggelsberg => Oberndorf","from":"Braunau Bahnhof","to":"Oberndorf b. S. Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":38,"s":[[9394055428,32],[9394055426,33],[4056516567,34]]},
+  {"id":21453643,"t":{"ref":"882","name":"Bus 882: Lamprechtshausen => Braunau","from":"Lamprechtshausen Bahnhof","to":"Braunau Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":33,"s":[[9394055426,1],[9394055427,2]]},
+  {"id":21453644,"t":{"ref":"882","name":"Bus 882: Geretsberg => Lamprechtshausen","from":"Geretsberg Ortsmitte","to":"Lamprechtshausen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":11,"s":[[9394055428,10],[9394055426,11]]}
+]
+}

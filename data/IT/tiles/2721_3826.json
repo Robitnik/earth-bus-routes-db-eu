@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2721,3826],
+"stops":[
+  {"id":11006215994,"lat":46.074961,"lon":11.302818,"k":"p"},
+  {"id":13018595249,"lat":46.07475,"lon":11.302153,"k":"p","n":"Kamauz"},
+  {"id":13018595250,"lat":46.072896,"lon":11.301434,"k":"p","n":"Kamauz Maso Frunt"},
+  {"id":13018595252,"lat":46.071545,"lon":11.302442,"k":"p","n":"Roveda Maso Stiopetteri"},
+  {"id":13018595253,"lat":46.071813,"lon":11.304029,"k":"p","n":"Roveda Maso Martinotti"},
+  {"id":13018595255,"lat":46.068925,"lon":11.301713,"k":"p","n":"Roveda Maso Kopper"},
+  {"id":13018595256,"lat":46.068091,"lon":11.30042,"k":"p","n":"Roveda"},
+  {"id":13018621966,"lat":46.095983,"lon":11.312329,"k":"p","n":"Fierzo Loc.Gaigheri"},
+  {"id":13018621967,"lat":46.094015,"lon":11.304127,"k":"p","n":"Frassilongo Maso Puech"},
+  {"id":13018621968,"lat":46.092557,"lon":11.302888,"k":"p","n":"Frassilongo Maso Doss Hecchi"},
+  {"id":13018805767,"lat":46.050223,"lon":11.318734,"k":"p","n":"Panarotta"}
+],
+"routes":[
+  {"id":19380845,"t":{"ref":"B418","name":"Bus B418: Kamauz->Pergine","from":"Kamauz","to":"Pergine Vals Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[13018595249,1],[13018595250,2],[13018595252,4],[13018595253,5],[13018595256,7]]},
+  {"id":19380846,"t":{"ref":"B418","name":"Bus B418: Pergine->Kamauz","from":"Pergine Vals Intermodale","to":"Kamauz","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[13018595256,18],[13018595255,19],[13018595253,21],[13018595252,22],[13018595250,24],[13018595249,25]]},
+  {"id":19380922,"t":{"ref":"B418","name":"Bus B418: Hacleri->S.Felice F.->Frassilongo->Pergine","from":"Hacleri","to":"Pergine Vals Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[13018621966,8],[13018621967,9],[13018621968,10]]},
+  {"id":19380923,"t":{"ref":"B418","name":"Bus B418: Pergine->Frassilongo->S.Felice F.->Hacleri","from":"Pergine Vals Intermodale","to":"Hacleri","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[13018621968,16],[13018621967,17],[13018621966,18]]},
+  {"id":19381246,"t":{"ref":"B416","name":"Bus B416: Vertiolo Terme->Compet->Levico Terme","from":"Panarotta","to":"Levico Terme Auotstazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13018805767,1]]},
+  {"id":19381247,"t":{"ref":"B416","name":"Bus B416: Levico Terme->Compet->Vertiolo Terme","from":"Levico Terme Auotstazione","to":"Panarotta","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13018805767,8]]}
+]
+}

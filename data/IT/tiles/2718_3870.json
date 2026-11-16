@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3870],
+"stops":[
+  {"id":2250319673,"lat":45.930139,"lon":13.52793,"k":"p","n":"Via D'Annunzio (Piazza Montesanto)","ref":"G2004"},
+  {"id":2250319674,"lat":45.930718,"lon":13.529273,"k":"p","n":"Via D'Annunzio (Piazza Montesanto)","ref":"02001"},
+  {"id":3826339463,"lat":45.938519,"lon":13.548579,"k":"p","n":"Mossa","ref":"01406"},
+  {"id":4278975535,"lat":45.93467,"lon":13.54587,"k":"p","n":"Via Olivers 78","ref":"01402"},
+  {"id":4278976399,"lat":45.934169,"lon":13.543366,"k":"p","n":"Via Olivers (angolo Via Campi)","ref":"01404"},
+  {"id":4278977229,"lat":45.935952,"lon":13.543254,"k":"p","n":"Via Zorutti (angolo Via Medeot)","ref":"01405"},
+  {"id":4280980917,"lat":45.932388,"lon":13.526446,"k":"p","n":"Via Boschetto (angolo Via Udine)","ref":"02005"},
+  {"id":6423289395,"lat":45.933545,"lon":13.500885,"k":"p","n":"Moraro via mameli","ref":"G1308"},
+  {"id":7132644768,"lat":45.939177,"lon":13.513317,"k":"p","n":"Capriva - via Cavour","ref":"G0101"},
+  {"id":7132644771,"lat":45.93476,"lon":13.547775,"k":"p","n":"Via Olivers 78","ref":"01402"},
+  {"id":7132660590,"lat":45.904298,"lon":13.539286,"k":"p","n":"Stradone della Manizza (Mainizza)"},
+  {"id":7132660591,"lat":45.90442,"lon":13.538613,"k":"p","n":"Stradone della Manizza (Mainizza)"},
+  {"id":7132660592,"lat":45.904172,"lon":13.529512,"k":"p","n":"Stradone della Manizza"},
+  {"id":7132660593,"lat":45.904332,"lon":13.528706,"k":"p","n":"Stradone della Manizza"},
+  {"id":7132660594,"lat":45.90328,"lon":13.519347,"k":"p","n":"Stradone della Manizza (Farra)"},
+  {"id":11262171504,"lat":45.903332,"lon":13.520917,"k":"p","n":"Stradone della Manizza (Farra)"},
+  {"id":11267322164,"lat":45.933352,"lon":13.524711,"k":"p","n":"San Lorenzo Isontino - Via Udine","ref":"G2003"},
+  {"id":11267322165,"lat":45.933203,"lon":13.52474,"k":"p","n":"San Lorenzo Isontino - Via Udine","ref":"G2002"},
+  {"id":11269425572,"lat":45.939017,"lon":13.513414,"k":"p","n":"Capriva - via Cavour"},
+  {"id":11269425573,"lat":45.934061,"lon":13.54349,"k":"p","n":"Via Olivers (angolo Via Campi)","ref":"01404"},
+  {"id":13825930002,"lat":45.933454,"lon":13.500171,"k":"p","n":"Moraro via mameli","ref":"G1301"},
+  {"id":14045126382,"lat":45.934761,"lon":13.547675,"k":"p","n":"G1403"}
+],
+"routes":[
+  {"id":6377718,"t":{"ref":"2","name":"CIRCOLARE ROSSA ESTERNA : Posta Centrale - Mossa","from":"Posta Centrale","to":"Mossa","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":25,"s":[[4278975535,22],[4278976399,23],[4278977229,24],[3826339463,25]]},
+  {"id":6383291,"t":{"ref":"4","name":"CIRCOLARE NERA ESTERNA : Mossa - Posta Centrale","from":"Mossa","to":"Posta Centrale","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":24,"s":[[3826339463,1]]},
+  {"id":9423109,"t":{"ref":"2","name":"CIRCOLARE ROSSA ESTERNA : Mossa - Ospedale - Posta Centrale","from":"MOSSA V. XXIV Maggio, 55","to":"C.so Verdi, 12 (Posta Centrale)","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":20,"s":[[3826339463,1]]},
+  {"id":9425819,"t":{"ref":"4","name":"CIRCOLARE NERA ESTERNA : Posta Centrale - Ospedale - Mossa","from":"Posta Centrale","to":"Mossa","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":21,"s":[[4278975535,18],[4278976399,19],[4278977229,20],[3826339463,21]]},
+  {"id":9426440,"t":{"ref":"4","name":"CIRCOLARE NERA ESTERNA : Posta Centrale - Ospedale - S.Lorenzo Is. - Mossa","from":"Posta Centrale","to":"Mossa","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[4278975535,18],[4278976399,19],[2250319674,20],[4280980917,21],[4278977229,22],[3826339463,23]]},
+  {"id":16487305,"t":{"ref":"G01","name":"Bus G01: Grado → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":45,"s":[[11262171504,38],[7132660592,39],[7132660590,40]]},
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11262171504,20],[7132660592,21],[7132660590,22]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[7132660591,6],[7132660593,7],[7132660594,8]]},
+  {"id":16501964,"t":{"ref":"G23","name":"Bus G23: Gorizia → Cormons → Cividale","from":"Gorizia","to":"Cividale","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":33,"s":[[4278975535,6],[2250319674,7],[11267322164,8],[7132644768,9]]},
+  {"id":16508185,"t":{"ref":"G23","name":"Bus G23: Cividale → Cormons → Gorizia","from":"Cormons","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":31,"s":[[11269425572,23],[11267322165,24],[2250319673,25],[7132644771,26]]},
+  {"id":20681492,"t":{"ref":"G02","name":"Gorizia - Marano del Friuli - Cormons","from":"Gorizia Centro Intermodale","to":"Cormons FS","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[4278975535,7],[2250319674,8],[11267322164,9],[7132644768,10],[13825930002,11]]}
+]
+}

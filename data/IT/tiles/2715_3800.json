@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3800],
+"stops":[
+  {"id":6680094973,"lat":45.799516,"lon":10.017077,"k":"p","n":"Endine gaiano - s.s.42 (pertegalli)"},
+  {"id":7474527846,"lat":45.799313,"lon":10.016915,"k":"p","n":"Endine gaiano - s.s.42 (pertegalli)"},
+  {"id":13620968081,"lat":45.781711,"lon":10.021988,"k":"p","n":"Solto Collina - p.za kennedy"},
+  {"id":13620968082,"lat":45.781098,"lon":10.039895,"k":"p","n":"Riva di solto - via IV novembre"},
+  {"id":13620968083,"lat":45.774048,"lon":10.038466,"k":"p","n":"Riva di solto - via giovanni XXIII (mun)"},
+  {"id":13620968084,"lat":45.761266,"lon":10.036933,"k":"p","n":"Riva di solto - via XXV aprile (rist.zù)"},
+  {"id":13621176132,"lat":45.779392,"lon":10.04395,"k":"p","n":"Riva di solto - via gargarino"},
+  {"id":13621213173,"lat":45.76652,"lon":10.029278,"k":"p","n":"Fonteno - poggio d'oro"},
+  {"id":13621213174,"lat":45.76374,"lon":10.028833,"k":"p","n":"Fonteno - via palazzine (belvedere)"},
+  {"id":13621213175,"lat":45.760828,"lon":10.025454,"k":"p","n":"Fonteno - via palazzine, 21"},
+  {"id":13621213176,"lat":45.759208,"lon":10.027911,"k":"p","n":"Fonteno - via palazzine, 10"},
+  {"id":13621213177,"lat":45.759593,"lon":10.022106,"k":"p","n":"Fonteno - via palazzine, 10"},
+  {"id":13621213178,"lat":45.758081,"lon":10.019869,"k":"p","n":"Fonteno - p.za ongaro (chiesa)"},
+  {"id":13622135116,"lat":45.789043,"lon":10.025647,"k":"p","n":"Esmate - largo pesenti (piazza)"},
+  {"id":13622135117,"lat":45.787188,"lon":10.027717,"k":"p","n":"Esmate - via s.defendente/furmignano"},
+  {"id":13622135118,"lat":45.783881,"lon":10.024327,"k":"p","n":"Esmate - via broletti/via s.defendente"}
+],
+"routes":[
+  {"id":12563569,"t":{"ref":"C","name":"Bus C: Bergamo => Boario","from":"Bergamo Pensilina 9","to":"Costa Volpino - Via Battisti 20 (Piano)","route":"bus","public_transport:version":"2"},"n":47,"s":[[7474527846,37]]},
+  {"id":20290819,"t":{"ref":"C40b","name":"Bus C40b: Fonteno -> Lovere","from":"Fonteno - p.za ongaro (chiesa)","to":"Lovere - Via Marconi (Carabinieri)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[13621213178,1],[13621213177,2],[13621213175,3],[13621213174,4],[13621213173,5],[13620968081,6],[7474527846,8]]},
+  {"id":20291124,"t":{"ref":"C40b","name":"Bus C40b: Lovere -> Tavernola","from":"Lovere - Via Marconi (Carabinieri) Tavernola","to":"Tavernola - via sarnico (carabinieri)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[6680094973,8],[13620968081,10],[13620968082,11],[13621176132,12],[13620968083,13],[13620968084,14]]},
+  {"id":20291172,"t":{"ref":"C40b","name":"Bus C40b: Lovere -> Fonteno","from":"Lovere - Via Marconi (Carabinieri)","to":"Fonteno - p.za ongaro (chiesa)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":21,"s":[[6680094973,8],[13620968081,10,16],[13622135118,11,15],[13622135117,12,14],[13622135116,13],[13621213173,17],[13621213174,18],[13621213175,19],[13621213177,20],[13621213178,21]]},
+  {"id":21067335,"t":{"ref":"LV923","name":"Bus LV923: Milano -> Edolo","from":"Sesto San Giovanni","to":"Edolo","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[7474527846,24]]},
+  {"id":21069296,"t":{"ref":"LV923","name":"Bus LV923: Edolo -> Milano","from":"Edolo","to":"Sesto San Giovanni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[6680094973,67]]},
+  {"id":21156515,"t":{"ref":"C","name":"Bus C: Boario => Bergamo","from":"Costa Volpino - Via Battisti 7 (Piano)","to":"BERGAMO Autolinee (Pensilina 9)","route":"bus","public_transport:version":"2"},"n":44,"s":[[6680094973,11]]}
+]
+}

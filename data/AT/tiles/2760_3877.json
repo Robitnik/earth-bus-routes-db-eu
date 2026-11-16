@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2760,3877],
+"stops":[
+  {"id":8205803021,"lat":48.014441,"lon":13.899605,"k":"p","n":"Unterhörbach 11"},
+  {"id":8205803023,"lat":48.016881,"lon":13.89662,"k":"p","n":"Unterhörbach Ort"},
+  {"id":8205803039,"lat":48.007563,"lon":13.899493,"k":"p","n":"Oberhörbach Ost"},
+  {"id":8205803040,"lat":48.007493,"lon":13.899423,"k":"p","n":"Oberhörbach Ost"},
+  {"id":8205803045,"lat":48.008491,"lon":13.895104,"k":"p","n":"Oberhörbach West"},
+  {"id":8205803050,"lat":48.007111,"lon":13.864065,"k":"p","n":"Laakirchen Reitern"},
+  {"id":8205803051,"lat":48.007041,"lon":13.864159,"k":"p","n":"Laakirchen Reitern"},
+  {"id":8228725038,"lat":48.042386,"lon":13.853073,"k":"p","n":"Unterpühret"},
+  {"id":8228725039,"lat":48.042239,"lon":13.85271,"k":"p","n":"Unterpühret"},
+  {"id":9181019361,"lat":48.035884,"lon":13.892979,"k":"p","n":"Kößlwang"},
+  {"id":9181019362,"lat":48.038632,"lon":13.882446,"k":"p","n":"Wim"},
+  {"id":10246831984,"lat":48.046402,"lon":13.859953,"k":"p","n":"Haidermoos"},
+  {"id":10246831985,"lat":48.046351,"lon":13.860078,"k":"p","n":"Haidermoos"},
+  {"id":10246831986,"lat":48.049118,"lon":13.864978,"k":"p","n":"Aichet"},
+  {"id":10246831987,"lat":48.049372,"lon":13.865252,"k":"p","n":"Aichet"},
+  {"id":11402935348,"lat":48.008606,"lon":13.895402,"k":"p","n":"Oberhörbach West"}
+],
+"routes":[
+  {"id":1401446,"t":{"ref":"527","name":"Bus 527: Laakirchen - Vorchdorf","from":"Laakirchen Schule","to":"Vorchdorf Fischböckau","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[8205803051,6],[8205803045,7],[8205803040,8]]},
+  {"id":11993763,"t":{"ref":"527","name":"Bus 527: Variante über Unterhörbach (Richtung Vorchdorf)","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":2,"s":[[8205803023,1],[8205803021,2]]},
+  {"id":11993764,"t":{"ref":"527","name":"Bus 527: Vorchdorf - Laakirchen - Ohlsdorf","from":"Vorchdorf Fischböckau","to":"Ohlsdorf Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":22,"s":[[8205803039,7],[11402935348,8],[8205803050,9]]},
+  {"id":13340111,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Hagenmühle - Vorchdorf - Almspitz","from":"Hagenmühle","to":"Lambach Almspitz","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[8205803021,8],[9181019361,9],[9181019362,10]]},
+  {"id":13340112,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Almspitz - Vorchdorf - Hagenmühle","from":"Lambach Almspitz","to":"Hagenmühle","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[9181019362,6],[9181019361,7],[8205803021,8]]},
+  {"id":13564744,"t":{"ref":"508","name":"Bus 508: Anschluss Roitham - Bad Wimsbach-Neydharting (weiter Richtung Stadl-Paura)","from":"Roitham Raiffeisenplatz","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":10,"s":[[8228725038,5],[10246831985,6],[10246831986,7]]},
+  {"id":14983439,"t":{"ref":"508","name":"Bus 508: Bad Wimsbach-Neydharting - Roitham","from":"Neydharting Moorbad","to":"Roitham Raiffeisenplatz","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":10,"s":[[10246831987,4],[10246831984,5],[8228725039,6]]}
+]
+}

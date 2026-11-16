@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3870],
+"stops":[
+  {"id":2250319670,"lat":45.890129,"lon":13.500978,"k":"p","n":"Viale Regina Elena (giardinetti)"},
+  {"id":2250319671,"lat":45.891124,"lon":13.500699,"k":"p","n":"Viale Regina Elena (giardinetti)"},
+  {"id":7132660595,"lat":45.897808,"lon":13.507697,"k":"p","n":"Stradone della Manizza (Molamatta)"},
+  {"id":7132660596,"lat":45.897888,"lon":13.507551,"k":"p","n":"Stradone della Manizza (Molamatta)"},
+  {"id":11264954312,"lat":45.88261,"lon":13.510229,"k":"p","n":"Poggio Terza Armata (ex stazione)"},
+  {"id":11264954313,"lat":45.882682,"lon":13.510041,"k":"p","n":"Poggio Terza Armata (ex stazione)"},
+  {"id":11264954314,"lat":45.886893,"lon":13.515286,"k":"p","n":"Poggio Terza Armata (Piazzale Marinai)"},
+  {"id":11264954315,"lat":45.886937,"lon":13.515111,"k":"p","n":"Poggio Terza Armata (Piazzale Marinai)"},
+  {"id":11264954316,"lat":45.894929,"lon":13.539308,"k":"p","n":"Peteano"},
+  {"id":11264954317,"lat":45.895008,"lon":13.539302,"k":"p","n":"Peteano"}
+],
+"routes":[
+  {"id":14302391,"t":{"ref":"G28","name":"Bus G28: Monfalcone → Villesse (centro commerciale)","from":"Monfalcone","to":"Viallesse (centro commerciale)","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":21,"s":[[2250319671,15],[2250319670,16]]},
+  {"id":14315506,"t":{"ref":"G28","name":"Bus G28: Villesse (centro commerciale) → Monfalcone","from":"Villesse (centro commerciale)","to":"Monfalcone","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[2250319671,6],[2250319670,7]]},
+  {"id":15614638,"t":{"ref":"G51","name":"Bus G51: Udine → Trieste Airport","from":"Udine","to":"Trieste Airport","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[2250319670,12]]},
+  {"id":15614639,"t":{"ref":"G51","name":"Bus G51: Trieste Airport → Udine","from":"Trieste Airport","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[2250319671,8]]},
+  {"id":16487305,"t":{"ref":"G01","name":"Bus G01: Grado → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":45,"s":[[2250319671,36],[7132660595,37]]},
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[2250319671,18],[7132660595,19]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[7132660596,9],[2250319670,10]]},
+  {"id":16494982,"t":{"ref":"G07","name":"Bus G07: Monfalcone → Sagrado → Gorizia","from":"Monfalcone","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11264954312,18],[11264954314,19],[11264954316,20]]},
+  {"id":16495089,"t":{"ref":"G07","name":"Bus G07: Gorizia → Sagrado → Monfalcone","from":"Gorizia","to":"Monfalcone","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":32,"s":[[11264954317,10],[11264954315,11],[11264954313,12]]}
+]
+}

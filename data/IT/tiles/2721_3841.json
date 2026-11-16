@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2721,3841],
+"stops":[
+  {"id":5870295101,"lat":46.060141,"lon":12.080605,"k":"p","n":"Mel - Puner"},
+  {"id":5871089489,"lat":46.050159,"lon":12.0687,"k":"p","n":"Ponte Terche"},
+  {"id":5871089490,"lat":46.055993,"lon":12.074302,"k":"p","n":"Gus"},
+  {"id":5871089491,"lat":46.056265,"lon":12.07414,"k":"p","n":"Gus"},
+  {"id":5885094793,"lat":46.065728,"lon":12.096929,"k":"p","n":"Mel Bivio Marcador"},
+  {"id":5885094794,"lat":46.065311,"lon":12.09549,"k":"p","n":"Mel Bivio Marcador"},
+  {"id":5988754244,"lat":46.059804,"lon":12.079873,"k":"p","n":"Mel - Puner"},
+  {"id":5988754245,"lat":46.063692,"lon":12.087597,"k":"p","n":"Mel Bivio"},
+  {"id":5988754246,"lat":46.063848,"lon":12.087892,"k":"p","n":"Mel Bivio"},
+  {"id":8375270112,"lat":46.0631,"lon":12.084141,"k":"p","n":"Mel scuole"},
+  {"id":8375270113,"lat":46.064703,"lon":12.081653,"k":"p","n":"Mel Quartiere Europa"},
+  {"id":8377981731,"lat":46.092974,"lon":12.096341,"k":"p","n":"Longano"},
+  {"id":8377981732,"lat":46.092881,"lon":12.096455,"k":"p","n":"Longano"},
+  {"id":8377981733,"lat":46.095891,"lon":12.086701,"k":"p","n":"Bribano FS"},
+  {"id":8377981734,"lat":46.095844,"lon":12.086453,"k":"p","n":"Bribano FS"},
+  {"id":8378130307,"lat":46.097918,"lon":12.087221,"k":"p","n":"Bribano"},
+  {"id":8378130308,"lat":46.098032,"lon":12.087621,"k":"p","n":"Bribano"},
+  {"id":8378959609,"lat":46.096645,"lon":12.070382,"k":"p","n":"Gravazze"},
+  {"id":8378959610,"lat":46.096516,"lon":12.070382,"k":"p","n":"Gravazze"},
+  {"id":9158146652,"lat":46.062169,"lon":12.079572,"k":"p"},
+  {"id":9165974885,"lat":46.095894,"lon":12.070318,"k":"p"}
+],
+"routes":[
+  {"id":12241986,"t":{"ref":"17","name":"Belluno -> Cesiomaggiore -> Feltre","from":"Belluno","to":"Feltre (via Cesiomaggiore)","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":53,"s":[[8378130307,12],[8378959609,13]]},
+  {"id":12241987,"t":{"ref":"13","name":"Belluno -> Sedico -> Feltre","from":"Belluno Fs","to":"Feltre FS (via Destra Piave)","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus","public_transport:version":"2"},"n":33,"s":[[8378130307,13],[8378959609,14]]},
+  {"id":12241988,"t":{"ref":"20","name":"Belluno -> Mel -> Feltre","from":"Belluno","to":"Feltre (via Sinistra Piave)","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":42,"s":[[5885094793,16],[5988754246,17],[8375270112,18],[8375270113,19],[5870295101,20],[5871089491,21],[5871089489,22]]},
+  {"id":12242092,"t":{"ref":"17","name":"Feltre -> Cesiomaggiore -> Belluno","from":"Feltre","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":52,"s":[[8378959610,40],[8378130308,41]]},
+  {"id":12242094,"t":{"ref":"20","name":"Feltre -> Mel -> Belluno","from":"Feltre (via Sinistra Piave)","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":40,"s":[[5871089490,22],[5988754244,23],[5988754245,24],[5885094794,25]]},
+  {"id":12242096,"t":{"ref":"13","name":"Feltre -> Sedico ->Belluno","from":"Feltre (via Destra Piave)","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":31,"s":[[8378130308,13],[8378959610,14]]},
+  {"id":12246275,"t":{"ref":"21","name":"Bivio Signa -> Trichiana -> Sedico -> Peron","from":"Bivio Signa","to":"Peron","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":32,"s":[[8377981731,17],[8377981733,18],[8378130308,19]]},
+  {"id":12246276,"t":{"ref":"21","name":"Peron-> Sedico -> Trichiana -> Bivio Signa","from":"Peron","to":"Bivio Signa","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":29,"s":[[8377981732,16],[8377981734,17],[8378130307,18]]},
+  {"id":12903378,"t":{"ref":"27b","name":"Feltre FS -> Mel -> Lido di Jesolo","from":"Feltre FS","to":"Lido di Jesolo Autostazione","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":17,"s":[[5988754245,13]]},
+  {"id":12903379,"t":{"ref":"27b","name":"Lido di Jesolo -> Mel -> Feltre FS","from":"Lido di Jesolo Autostazione","to":"Feltre FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":16,"s":[[5988754246,6]]}
+]
+}

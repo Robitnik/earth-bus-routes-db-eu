@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2647,3848],
+"stops":[
+  {"id":2238826772,"lat":42.388483,"lon":12.432006,"k":"p","n":"Gallese Industrie A"},
+  {"id":2239124883,"lat":42.380945,"lon":12.438572,"k":"p","n":"Gallese Teverina"},
+  {"id":2239124887,"lat":42.376225,"lon":12.442797,"k":"p","n":"Gallese Teverina B"},
+  {"id":2239124893,"lat":42.376257,"lon":12.442867,"k":"p","n":"Gallese Teverina B"},
+  {"id":2239124896,"lat":42.384972,"lon":12.435088,"k":"p","n":"Gallese Industrie B"},
+  {"id":2239124901,"lat":42.367806,"lon":12.449073,"k":"p","n":"Gallese Teverina C"},
+  {"id":2239124909,"lat":42.380723,"lon":12.438771,"k":"p","n":"Gallese Teverina"},
+  {"id":2239124910,"lat":42.380295,"lon":12.439047,"k":"p","n":"Gallese Teverina"},
+  {"id":2239124913,"lat":42.36781,"lon":12.448963,"k":"p","n":"Gallese Teverina C"},
+  {"id":2239470749,"lat":42.36099,"lon":12.442434,"k":"p","n":"Gallese SNAM"},
+  {"id":2239537645,"lat":42.372702,"lon":12.400893,"k":"p","n":"Gallese Centro"},
+  {"id":2239537649,"lat":42.373091,"lon":12.405807,"k":"p","n":"Gallese San Famiano"},
+  {"id":2239537657,"lat":42.375056,"lon":12.420484,"k":"p","n":"Gallese Valli B"},
+  {"id":2239537666,"lat":42.372183,"lon":12.401376,"k":"p","n":"Gallese Centro"},
+  {"id":2239537678,"lat":42.373403,"lon":12.425757,"k":"p","n":"Gallese Valli A"},
+  {"id":2239537681,"lat":42.372508,"lon":12.401269,"k":"p","n":"Gallese Centro"},
+  {"id":4701938847,"lat":42.37882,"lon":12.439628,"k":"p","n":"Gallese Teverina"},
+  {"id":6005161458,"lat":42.373001,"lon":12.405871,"k":"p","n":"Gallese San Famiano"}
+],
+"routes":[
+  {"id":2851116,"t":{"ref":"GA1","name":"SNAM ==> SCUOLE ==> MONTILAPI","from":"Gallese SNAM","to":"Gallese MONTILAPI","network":"Vitertur","operator":"Vitertur","colour":"red","route":"bus"},"n":12,"s":[[2239470749,1],[2239124901,2],[2239124893,3],[2239537678,4],[2239537649,5],[2239537666,6]]},
+  {"id":2851144,"t":{"ref":"GA1","name":"MONTILAPI ==> SNAM","from":"Gallese MONTILAPI","to":"Gallese SNAM","network":"Vitertur","operator":"Vitertur","colour":"red","route":"bus"},"n":11,"s":[[2239537681,4],[2239537678,5],[2238826772,6],[2239124896,7],[2239124909,8],[2239124887,9],[2239124913,10],[2239470749,11]]},
+  {"id":2851749,"t":{"ref":"Co.Tra.L. D1005","name":"Gallese ==> Soriano ==> Viterbo","from":"Gallese Teverina","to":"Viterbo Riello","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"1"},"n":46,"s":[[2239124883,1],[2239537678,2],[2239537657,3],[2239537649,4],[2239537645,5]]},
+  {"id":2854520,"t":{"ref":"Co.Tra.L. D1005","name":"Viterbo ==> Soriano ==> Gallese ==> Civita Castellana","from":"Viterbo Riello","to":"Civita Castellana Deposito (Via Palombara)","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"1"},"n":55,"s":[[2239537681,42],[6005161458,43],[2239537678,44],[4701938847,45],[2239124887,46],[2239124913,47]]},
+  {"id":2856839,"t":{"ref":"Co.Tra.L. D1005","name":"Soriano ==> Gallese ==> Orte FS","from":"Soriano Papacqua","to":"Orte FS","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":25,"s":[[2239537681,17],[6005161458,18],[2239537678,19],[2239124910,20]]},
+  {"id":2867751,"t":{"ref":"Co.Tra.L. D1005","name":"Orte FS ==> Gallese ==> Soriano ==> Viterbo","from":"Orte FS","to":"Viterbo Riello","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":51,"s":[[2239124909,6],[2239537678,7],[2239537657,8],[2239537649,9],[2239537645,10]]}
+]
+}

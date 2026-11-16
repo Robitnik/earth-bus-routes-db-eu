@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2732,3813],
+"stops":[
+  {"id":717700484,"lat":46.621675,"lon":10.693214,"k":"p","n":"Laas, Schwimmbad - Lasa, Piscina"},
+  {"id":1185387228,"lat":46.634049,"lon":10.691947,"k":"x","n":"Putz"},
+  {"id":2403976822,"lat":46.621603,"lon":10.693014,"k":"p","n":"Laas, Schwimmbad - Lasa, Piscina"},
+  {"id":2829385167,"lat":46.621644,"lon":10.693096,"k":"x","n":"Laas, Schwimmbad - Lasa, Piscina"},
+  {"id":2841997577,"lat":46.633933,"lon":10.692141,"k":"x","n":"Putz"},
+  {"id":2841999171,"lat":46.638868,"lon":10.672332,"k":"x","n":"Tanas"},
+  {"id":3476446686,"lat":46.633887,"lon":10.692123,"k":"p","n":"Putz"},
+  {"id":3476460494,"lat":46.634068,"lon":10.691994,"k":"p","n":"Putz"},
+  {"id":3476460507,"lat":46.638883,"lon":10.672288,"k":"p","n":"Tanas"},
+  {"id":3481746401,"lat":46.617301,"lon":10.698557,"k":"p","n":"Pfarrkirche - Parrocchia"},
+  {"id":3481746402,"lat":46.617337,"lon":10.698593,"k":"x","n":"Pfarrkirche - Parrocchia"},
+  {"id":3481746403,"lat":46.617359,"lon":10.69862,"k":"p","n":"Pfarrkirche - Parrocchia"},
+  {"id":6822484409,"lat":46.628819,"lon":10.650019,"k":"p","n":"Eyrs, Edelweiß - Oris, Edelweiß"},
+  {"id":7366402465,"lat":46.618517,"lon":10.695309,"k":"x","n":"Laas, Bahnhof - Lasa, Stazione"},
+  {"id":12554867185,"lat":46.618453,"lon":10.695292,"k":"p","n":"Laas, Bahnhof - Lasa, Stazione"}
+],
+"routes":[
+  {"id":3228358,"t":{"ref":"271","name":"Bus 271: Sulden => Stilfs => Prad => Spondinig => Laas","from":"Sulden","to":"Laas","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":24,"s":[[6822484409,23],[12554867185,24]]},
+  {"id":14391650,"t":{"ref":"271","name":"Bus 271: Laas => Spondinig => Prad => Stilfs => Sulden","from":"Laas","to":"Sulden","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":24,"s":[[12554867185,1],[717700484,2]]},
+  {"id":14713033,"t":{"ref":"272","name":"Bus 272: Laas => Spondinig => Prad => Glurns => Mals","from":"Laas","to":"Mals","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":14,"s":[[12554867185,1],[717700484,2]]},
+  {"id":14713034,"t":{"ref":"272","name":"Bus 272: Mals => Glurns => Prad => Spondinig => Laas","from":"Mals","to":"Laas","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":13,"s":[[6822484409,12],[12554867185,13]]},
+  {"id":18648035,"t":{"ref":"282","name":"Bus 282: Laas => Allitz => Tanas","from":"Laas","to":"Tanas","operator":"Gemeinde Laas","route":"bus","public_transport:version":"2"},"n":7,"s":[[12554867185,1],[3481746401,2],[3476460494,6],[3476460507,7]]},
+  {"id":18648038,"t":{"ref":"282","name":"Bus 282: Tanas => Allitz => Laas","from":"Tanas","to":"Laas","operator":"Gemeinde Laas","route":"bus","public_transport:version":"2"},"n":7,"s":[[3476460507,1],[3476446686,2],[3481746403,6],[12554867185,7]]},
+  {"id":18654357,"t":{"ref":"B250","name":"Bus B250: Mals => Laas => Meran","from":"Mals","to":"Meran","operator":"SAD Bus","route":"bus","public_transport:version":"2"},"n":18,"s":[[6822484409,4],[12554867185,5]]},
+  {"id":18654926,"t":{"ref":"B250","name":"Bus B250: Meran => Laas => Mals","from":"Meran","to":"Mals","operator":"SAD Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[12554867185,27]]},
+  {"id":18664551,"t":{"ref":"271","name":"Bus 271: Trafoi => Stilfs => Prad => Spondinig => Laas","from":"Trafoi","to":"Laas","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":19,"s":[[6822484409,18],[12554867185,19]]},
+  {"id":18664578,"t":{"ref":"271","name":"Bus 271: Laas => Spondinig => Prad => Stilfs => Trafoi","from":"Laas","to":"Trafoi","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":19,"s":[[12554867185,1],[717700484,2]]}
+]
+}

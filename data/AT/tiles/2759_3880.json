@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3880],
+"stops":[
+  {"id":28227029,"lat":47.958913,"lon":14.014891,"k":"x","n":"Pettenbach Scharnsteiner Straße"},
+  {"id":46956850,"lat":47.962256,"lon":14.013229,"k":"x","n":"Pettenbach Bahnhof"},
+  {"id":1767774193,"lat":47.956942,"lon":14.019853,"k":"p","n":"Pettenbach Scharzerstraße"},
+  {"id":1767840816,"lat":47.960211,"lon":14.023067,"k":"p","n":"PETA Bushaltestelle"},
+  {"id":4404627831,"lat":47.965964,"lon":14.007517,"k":"x","n":"Pettenbach Gewerbegebiet"},
+  {"id":8206372667,"lat":47.962269,"lon":14.01312,"k":"p","n":"Pettenbach Bahnhof"},
+  {"id":8206372668,"lat":47.962296,"lon":14.013315,"k":"p","n":"Pettenbach Bahnhof"},
+  {"id":8206372669,"lat":47.961254,"lon":14.01501,"k":"p","n":"Pettenbach Friedhof"},
+  {"id":8206372670,"lat":47.961295,"lon":14.015292,"k":"p","n":"Pettenbach Friedhof"},
+  {"id":8206372671,"lat":47.961264,"lon":14.015186,"k":"x","n":"Pettenbach Friedhof"},
+  {"id":8234865989,"lat":47.958945,"lon":14.014869,"k":"p","n":"Pettenbach Scharnsteiner Straße"},
+  {"id":8237228389,"lat":47.964482,"lon":14.000643,"k":"p","n":"Pettenbach Roßlauf"},
+  {"id":8237228390,"lat":47.964563,"lon":14.000569,"k":"p","n":"Pettenbach Roßlauf"},
+  {"id":8237228391,"lat":47.965946,"lon":14.00757,"k":"p","n":"Pettenbach Gewerbegebiet"},
+  {"id":8237228392,"lat":47.965994,"lon":14.00748,"k":"p","n":"Pettenbach Gewerbegebiet"},
+  {"id":9183609006,"lat":47.990992,"lon":14.021516,"k":"p","n":"Almtal Caming"},
+  {"id":9183609008,"lat":47.961997,"lon":14.011648,"k":"p","n":"Pettenbach Bahnhof"},
+  {"id":9183609009,"lat":47.961123,"lon":14.016334,"k":"p","n":"Pettenbach Ortsmitte"},
+  {"id":9672830320,"lat":47.981115,"lon":14.021979,"k":"x"},
+  {"id":9672830321,"lat":47.980866,"lon":14.02177,"k":"x"},
+  {"id":9672830322,"lat":47.980883,"lon":14.021728,"k":"p"},
+  {"id":9672830323,"lat":47.981108,"lon":14.022025,"k":"p"},
+  {"id":10284363785,"lat":47.9567,"lon":14.019984,"k":"p","n":"Pettenbach Scharzerstraße"},
+  {"id":5000885571950,"lat":47.958886,"lon":14.014935,"k":"p","n":"Pettenbach Scharnsteiner Straße"}
+],
+"routes":[
+  {"id":12028566,"t":{"ref":"480","name":"Bus 480: Kirchdorf - Pettenbach - Scharnstein","from":"Kirchdorf/Krems Busterminal Am Anger","to":"Scharnstein Ortsmitte","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":25,"s":[[1767774193,13],[8234865989,14]]},
+  {"id":12028567,"t":{"ref":"480","name":"Bus 480: Scharnstein - Pettenbach - Kirchdorf","from":"Scharnstein Ortsmitte","to":"Kirchdorf/Krems Pflichtschulzentrum","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000885571950,11],[10284363785,12]]},
+  {"id":12030835,"t":{"ref":"456","name":"Bus 456: Variante durch Pettenbach (Richtung Kirchdorf)","route":"bus","public_transport:version":"2"},"n":2,"s":[[8206372667,1],[8234865989,2]]},
+  {"id":12030836,"t":{"ref":"456","name":"Bus 456: Pettenbach - Steinbach - Kirchdorf","from":"Pettenbach Bahnhof","to":"Kirchdorf/Krems Bahnhof","route":"bus","public_transport:version":"2"},"n":24,"s":[[8206372668,1]]},
+  {"id":12030839,"t":{"ref":"456","name":"Bus 456: Kirchdorf - Steinbach - Pettenbach","from":"Kirchdorf/Krems Bahnhof","to":"Pettenbach Bahnhof","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000885571950,25],[8206372668,26]]},
+  {"id":12031205,"t":{"ref":"481","name":"Bus 481: Vorchdorf - Pettenbach - Kirchdorf","from":"Vorchdorf Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":28,"s":[[8237228389,11],[8237228391,12],[8206372667,13],[8206372669,14],[10284363785,15]]},
+  {"id":12031206,"t":{"ref":"481","name":"Bus 481: Kirchdorf - Pettenbach - Vorchdorf","from":"Kirchdorf/Krems Pflichtschulzentrum","to":"Vorchdorf Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":27,"s":[[1767774193,13],[8206372670,14],[8206372668,15],[8237228392,16],[8237228390,17]]},
+  {"id":13343458,"t":{"ref":"70","name":"Salzkammergut-Shuttle Traunsee-Almtal 70: Vorchdorf - Pettenbach - Scharnstein","from":"Wirt in der Edt","to":"Scharnstein Ortsmitte","network":"Salzkammergut-Shuttles","colour":"#0099CC","route":"bus","public_transport:version":"2"},"n":19,"s":[[9183609006,10],[9183609008,11],[9183609009,12]]},
+  {"id":13343459,"t":{"ref":"70","name":"Salzkammergut-Shuttle Traunsee-Almtal 70: Scharnstein - Pettenbach - Vorchdorf","from":"Scharnstein Ortsmitte","to":"Wirt in der Edt","network":"Salzkammergut-Shuttles","colour":"#0099CC","route":"bus","public_transport:version":"2"},"n":19,"s":[[9183609009,8],[9183609008,9],[9183609006,10]]}
+]
+}

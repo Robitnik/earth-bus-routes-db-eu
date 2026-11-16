@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2740,3863],
+"stops":[
+  {"id":1175110333,"lat":47.01455,"lon":13.185839,"k":"x"},
+  {"id":1821940851,"lat":47.003154,"lon":13.175031,"k":"x"},
+  {"id":1993953658,"lat":47.003152,"lon":13.175101,"k":"p","n":"Mallnitz Personalhäuser"},
+  {"id":2002416759,"lat":47.003456,"lon":13.174921,"k":"p","n":"Mallnitz Personalhäuser"},
+  {"id":2051504050,"lat":47.003456,"lon":13.174984,"k":"x"},
+  {"id":2080997601,"lat":47.013028,"lon":13.181586,"k":"p","n":"Mallnitz Raineralm"},
+  {"id":2080997602,"lat":47.013062,"lon":13.181508,"k":"p","n":"Mallnitz Raineralm"},
+  {"id":2080997607,"lat":47.013051,"lon":13.181544,"k":"x"},
+  {"id":2081008498,"lat":47.014516,"lon":13.185828,"k":"p","n":"Ankogelbahn Talstation"},
+  {"id":2081008499,"lat":47.014586,"lon":13.186419,"k":"p","n":"Ankogelbahn Talstation"}
+],
+"routes":[
+  {"id":2620846,"t":{"ref":"102","name":"Bus 102: Obervellach -> Mallnitz","from":"Obervellach","to":"Mallnitz","network":"Kärntner Linien","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":10,"s":[[1993953658,10]]},
+  {"id":2680769,"t":{"ref":"103","name":"Bus 103 Mallnitz -> Ankogelbahn Talstation","from":"Mallnitz-Obervellach Bahnhof","to":"Ankogelbahn Talstation","network":"Kärnten Linien","operator":"HPV","route":"bus","public_transport:version":"2"},"n":10,"s":[[1993953658,6],[2080997601,7],[2081008498,8]]},
+  {"id":2680770,"t":{"ref":"103","name":"Bus 103: Ankogelbahn => Mallnitz","from":"Ankogelbahn Talstation","to":"Rabisch","network":"Kärnten Linien","operator":"HPV","route":"bus","public_transport:version":"2"},"n":8,"s":[[2081008499,1],[2080997602,2],[2002416759,3]]},
+  {"id":3165307,"t":{"ref":"102","name":"Bus 102: Mallnitz -> Obervellach","from":"Mallnitz","to":"Obervellach","network":"Kärntner Linien","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":10,"s":[[2002416759,1]]}
+]
+}

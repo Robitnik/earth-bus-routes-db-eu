@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2755,3874],
+"stops":[
+  {"id":920294760,"lat":47.765423,"lon":13.716007,"k":"p","n":"Lahnstein/Traun Aritzbachstraße"},
+  {"id":920294868,"lat":47.766133,"lon":13.716648,"k":"p","n":"Lahnstein/Traun Aritzbachstraße"},
+  {"id":2328618325,"lat":47.774602,"lon":13.727482,"k":"p","n":"Lahnstein/Traun Traunsteg"},
+  {"id":7801619828,"lat":47.757108,"lon":13.703646,"k":"p","n":"Langwies/Traun Traunbrücke"},
+  {"id":8047577775,"lat":47.789018,"lon":13.749121,"k":"p","n":"Roith Kirche"},
+  {"id":8047630285,"lat":47.775161,"lon":13.727789,"k":"p","n":"Lahnstein/Traun Traunsteg"},
+  {"id":8071030657,"lat":47.776989,"lon":13.748236,"k":"p","n":"Einstieg Bromberg"},
+  {"id":8171340449,"lat":47.78329,"lon":13.737938,"k":"p","n":"Lahnstein Gewerbegebiet"},
+  {"id":8171340450,"lat":47.783999,"lon":13.738116,"k":"p","n":"Lahnstein Gewerbegebiet"},
+  {"id":9159258759,"lat":47.787159,"lon":13.741742,"k":"p","n":"Steinkogel Bahnhst"},
+  {"id":9159258760,"lat":47.786983,"lon":13.74173,"k":"p","n":"Steinkogel Bahnhst"},
+  {"id":9159258761,"lat":47.756973,"lon":13.703827,"k":"p","n":"Langwies/Traun Traunbrücke"},
+  {"id":9822576724,"lat":47.784875,"lon":13.731707,"k":"p","n":"River Wave"}
+],
+"routes":[
+  {"id":2971222,"t":{"ref":"555","name":"Bus 555: Bad Ischl - Ebensee","from":"Bad Ischl Bahnhof","to":"Ebensee Landungsplatz","route":"bus","public_transport:version":"2"},"n":19,"s":[[9159258761,5],[920294760,6],[2328618325,7],[8171340449,8],[9159258760,9]]},
+  {"id":2973577,"t":{"ref":"555","name":"Bus 555: Ebensee - Bad Ischl","from":"Ebensee Landungsplatz","to":"Bad Ischl Bahnhof","route":"bus","public_transport:version":"2"},"n":21,"s":[[8047577775,11],[9159258759,12],[8171340450,13],[8047630285,14],[920294868,15],[7801619828,16]]},
+  {"id":11363513,"t":{"ref":"41","name":"Salzkammergut-Shuttle Traunsee-Almtal 41: Ebensee - Offensee","from":"Ebensee Trauneck","to":"Offensee Parkplatz Ost","network":"Salzkammergut-Shuttles","colour":"#006699","route":"bus","public_transport:version":"2"},"n":10,"s":[[9159258759,5],[8071030657,6]]},
+  {"id":11975775,"t":{"ref":"41","name":"Salzkammergut-Shuttle Traunsee-Almtal 41: Offensee - Ebensee","from":"Offensee Parkplatz Ost","to":"Ebensee Trauneck","network":"Salzkammergut-Shuttles","colour":"#006699","route":"bus","public_transport:version":"2"},"n":10,"s":[[8071030657,5],[9159258759,6]]},
+  {"id":14258591,"t":{"ref":"41","name":"Salzkammergut-Shuttle Traunsee-Almtal 41: Variante von Langwies","from":"Langwies Traunbrücke","to":"Steinkogel Bahnhst","network":"Salzkammergut-Shuttles","colour":"#006699","route":"bus","public_transport:version":"2"},"n":4,"s":[[9159258761,2],[920294760,3],[9822576724,4]]},
+  {"id":14258592,"t":{"ref":"41","name":"Salzkammergut-Shuttle Traunsee-Almtal 41: Variante nach Langwies","from":"Steinkogel Bahnhst","to":"Langwies Traunbrücke","network":"Salzkammergut-Shuttles","colour":"#006699","route":"bus","public_transport:version":"2"},"n":4,"s":[[9822576724,1],[920294760,2],[9159258761,3]]},
+  {"id":14984193,"t":{"ref":"507","name":"Bus 507: Laakirchen - Gmunden - Bad Ischl","from":"Laakirchen Schulen","to":"Bad Ischl Bahnhof","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":51,"s":[[8047577775,42],[9159258759,43],[8047630285,44],[920294868,45],[7801619828,46]]},
+  {"id":14984194,"t":{"ref":"507","name":"Bus 507: Bad Ischl - Gmunden - Laakirchen","from":"Bad Ischl Bahnhof","to":"Laakirchen Schulen","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":47,"s":[[9159258761,5],[920294760,6],[2328618325,7],[9159258760,8]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2680,3830],
+"stops":[
+  {"id":3993514110,"lat":44.040975,"lon":11.548286,"k":"p","n":"Crespino del Lamone","ref":"MRR049"},
+  {"id":3993514129,"lat":44.03608,"lon":11.545791,"k":"p","n":"Crespino del Lamone_V"},
+  {"id":7951098136,"lat":44.037544,"lon":11.518005,"k":"p","n":"Casaglia","ref":"BSL139"},
+  {"id":7951098137,"lat":44.037507,"lon":11.517766,"k":"p","n":"Casaglia_V"},
+  {"id":11860552221,"lat":44.036971,"lon":11.504288,"k":"p"},
+  {"id":11860552222,"lat":44.037008,"lon":11.504464,"k":"p"}
+],
+"routes":[
+  {"id":11682648,"t":{"name":"Bus: Marradi => Crespino del Lamone => Casaglia","from":"Marradi","to":"Casaglia","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[3993514129,8],[7951098136,9]]},
+  {"id":11682792,"t":{"name":"Bus: Casaglia => Crespino del Lamone => Marradi","from":"Casaglia","to":"Marradi","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[7951098137,1],[3993514110,2]]},
+  {"id":11685104,"t":{"name":"Bus: Borgo San Lorenzo => Ronta => Casaglia","from":"Borgo San Lorenzo","to":"Casaglia","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":11,"s":[[11860552221,10],[7951098137,11]]},
+  {"id":11685105,"t":{"name":"Bus: Casaglia => Ronta => Borgo San Lorenzo","from":"Casaglia","to":"Borgo San Lorenzo","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":13,"s":[[7951098136,1],[7951098137,2],[11860552222,3]]}
+]
+}

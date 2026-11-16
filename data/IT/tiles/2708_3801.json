@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3801],
+"stops":[
+  {"id":1456217800,"lat":45.418449,"lon":10.080261,"k":"p"},
+  {"id":2094640637,"lat":45.418188,"lon":10.075911,"k":"p","n":"Dello - piazza"},
+  {"id":2095028711,"lat":45.418156,"lon":10.075922,"k":"x","n":"Dello - piazza"},
+  {"id":2157267890,"lat":45.418396,"lon":10.080255,"k":"x"},
+  {"id":4693254288,"lat":45.448394,"lon":10.078361,"k":"p"},
+  {"id":4693498446,"lat":45.449911,"lon":10.076912,"k":"p","n":"Mairano - municipio"},
+  {"id":4701935612,"lat":45.448347,"lon":10.079788,"k":"p","n":"Mairano - centro"},
+  {"id":12691522820,"lat":45.436752,"lon":10.060678,"k":"p","n":"Longhena - piazzetta"},
+  {"id":13510269082,"lat":45.404994,"lon":10.056406,"k":"p","n":"Barbariga - casa di riposo"},
+  {"id":13510269083,"lat":45.406211,"lon":10.051034,"k":"p","n":"Barbariga - piazza marconi"},
+  {"id":13510269087,"lat":45.438729,"lon":10.059664,"k":"p","n":"Longhena - via xxiv maggio"},
+  {"id":13545396432,"lat":45.400917,"lon":10.071309,"k":"p","n":"Dello - bivio per barbariga"},
+  {"id":13545396433,"lat":45.428241,"lon":10.087126,"k":"p","n":"Dello - loc.ponterosso"},
+  {"id":13546679634,"lat":45.428171,"lon":10.087362,"k":"p","n":"Dello - loc.ponterosso"},
+  {"id":13546679635,"lat":45.420607,"lon":10.075447,"k":"p","n":"Dello - via speri"},
+  {"id":13546679636,"lat":45.417814,"lon":10.075689,"k":"p","n":"Dello - centro"},
+  {"id":13547053183,"lat":45.420139,"lon":10.099206,"k":"p","n":"Quinzanello - incrocio"}
+],
+"routes":[
+  {"id":20150470,"t":{"ref":"LS010","name":"Bus LS010: Orzinuovi->Barbariga->Brandico->Brescia","from":"Orzinuovi - via XXIV Maggio","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13510269083,6,8],[13510269082,7],[12691522820,12],[13510269087,13],[4693498446,15],[4701935612,16]]},
+  {"id":20150471,"t":{"ref":"LS010","name":"Bus LS010: Brescia->Brandico-> Barbariga->Orzinuovi","from":"Brescia Autostazione Solferino","to":"Orzinuovi - via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":31,"s":[[4701935612,16],[4693498446,17],[13510269087,19],[12691522820,20],[13510269083,24,26],[13510269082,25]]},
+  {"id":20202595,"t":{"ref":"LS012","name":"Linea LS012: Quinzano => Borgo S. Giacomo =>Brescia","from":"Quinzano piazza IV Novembre","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":35,"s":[[13546679636,19],[13546679635,20],[13546679634,21]]},
+  {"id":20202596,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":33,"s":[[13545396433,15],[2094640637,16],[13545396432,17]]},
+  {"id":20204654,"t":{"ref":"LS015","name":"Linea LS015: Brescia =>Faverzano","from":"Brescia Autostazione Solferino","to":"Faverzano - capolinea","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":26,"s":[[13547053183,20]]},
+  {"id":20204655,"t":{"ref":"LS015","name":"Linea LS015: Faverzano => Brescia","from":"Faverzano - capolinea","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":26,"s":[[13547053183,7]]},
+  {"id":20246650,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano Variante Quinzno diretto","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":9,"s":[[13545396432,1]]}
+]
+}

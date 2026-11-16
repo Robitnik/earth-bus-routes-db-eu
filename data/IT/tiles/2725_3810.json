@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2725,3810],
+"stops":[
+  {"id":3741858867,"lat":46.257124,"lon":10.501716,"k":"p","n":"Ponte di Legno, Roma 27"},
+  {"id":3741858887,"lat":46.257224,"lon":10.501907,"k":"p","n":"Ponte di Legno, Roma 27"},
+  {"id":3741858936,"lat":46.25748,"lon":10.503018,"k":"p"},
+  {"id":13009533238,"lat":46.258207,"lon":10.508442,"k":"s"},
+  {"id":13627161899,"lat":46.258232,"lon":10.508433,"k":"p","n":"Ponte di Legno, Autostazione, Europa"},
+  {"id":13989806357,"lat":46.255249,"lon":10.509555,"k":"p","n":"Ponte di Legno, Cida, Cabinovia Tonale"},
+  {"id":13989975827,"lat":46.252412,"lon":10.541671,"k":"p","n":"Ponte di Legno, SS42 Case Sparse fr. 1"}
+],
+"routes":[
+  {"id":20299962,"t":{"ref":"LV924","name":"Bus LV924: Ponte di Legone -> Edolo","from":"Ponte di Legno, Autostazione, Europa","to":"Ponte di Legno, Cida, Cabinovia Tonale Edolo, FN Autostazione, Sora","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":21,"s":[[13989806357,1],[13627161899,2],[3741858887,3]]},
+  {"id":20299963,"t":{"ref":"LV924","name":"Bus LV924: Edolo -> Ponte di Legone","from":"Edolo, FN Autostazione, Sora","to":"Ponte di Legno, Autostazione, Europa","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":21,"s":[[3741858867,19],[13627161899,20],[13989806357,21]]},
+  {"id":21066604,"t":{"ref":"LV924","name":"Bus LV924: Ponte di Legone -> Passo Tonale","from":"Ponte di Legone","to":"Passo Tonale","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":4,"s":[[13989806357,1],[13989975827,2]]},
+  {"id":21066669,"t":{"ref":"LV924","name":"Bus LV924: Passo Tonale -> Ponte di Legone","from":"Passo Tonale","to":"Ponte di Legone","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":4,"s":[[13989975827,3],[13989806357,4]]}
+]
+}

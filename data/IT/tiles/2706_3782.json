@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2706,3782],
+"stops":[
+  {"id":2217688044,"lat":45.325634,"lon":9.13609,"k":"p","n":"Via Carlo Alberto,1 (Lacchiarella)"},
+  {"id":2217688062,"lat":45.325299,"lon":9.136114,"k":"p","n":"Via Carlo Alberto,1 (Lacchiarella)"},
+  {"id":2217688093,"lat":45.321646,"lon":9.137343,"k":"p","n":"Piazza Risorgimento (Lacchiarella)"},
+  {"id":2223302113,"lat":45.317975,"lon":9.138877,"k":"p","n":"Piazza Giovane Italia (Lacchiarella)"},
+  {"id":2386631345,"lat":45.331016,"lon":9.101658,"k":"p","n":"Binasco"},
+  {"id":9430687917,"lat":45.328135,"lon":9.131661,"k":"p"},
+  {"id":9430687918,"lat":45.327452,"lon":9.132331,"k":"p"},
+  {"id":11375700090,"lat":45.331564,"lon":9.134235,"k":"p","n":"Concorezzo (Lacchiarella)"},
+  {"id":11375700091,"lat":45.323013,"lon":9.13812,"k":"p","n":"Piazzolo Borromeo (Lacchiarella)"},
+  {"id":11375700092,"lat":45.321135,"lon":9.14003,"k":"p","n":"Via Milite Ignoto (Lacchiarella)"},
+  {"id":11377438700,"lat":45.331857,"lon":9.134005,"k":"p","n":"Concorezzo (Lacchiarella)"}
+],
+"routes":[
+  {"id":2836232,"t":{"ref":"z510","name":"z510 Lacchiarella → Milano","from":"Lacchiarella, Piazza Giovine Italia","to":"Milano, Autostazione Famagosta M2","network":"STIBM","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":12,"s":[[2223302113,1],[11375700092,2],[11375700091,3],[2217688044,4],[11375700090,5]]},
+  {"id":2836233,"t":{"ref":"z510","name":"z510 Milano → Lacchiarella","from":"Milano, Autostazione Famagosta M2","to":"Lacchiarella, Piazza Giovine Italia","network":"STIBM","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":13,"s":[[11377438700,10],[2217688062,11],[2217688093,12],[2223302113,13]]},
+  {"id":7330467,"t":{"ref":"z501","name":"z501 Milano → Binasco","from":"Milano, Autostazione Famagosta M2","to":"Binasco, Autostazione","network":"STIBM","operator":"STAR Mobility","route":"bus"},"n":3,"s":[[2386631345,3]]},
+  {"id":7330468,"t":{"ref":"z501","name":"z501 Binasco → Milano","from":"Binasco, Autostazione","to":"Milano, Autostazione Famagosta M2","network":"STIBM","operator":"STAR Mobility","route":"bus"},"n":2,"s":[[2386631345,2]]}
+]
+}

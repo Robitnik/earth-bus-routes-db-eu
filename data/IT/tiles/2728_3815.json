@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3815],
+"stops":[
+  {"id":12989003521,"lat":46.417042,"lon":10.776931,"k":"p","n":"Rabbi Coler"},
+  {"id":12989003522,"lat":46.410347,"lon":10.790766,"k":"p","n":"Segheria Veneziana"},
+  {"id":12989003523,"lat":46.408841,"lon":10.795721,"k":"p","n":"Campeggio Al Plan"}
+],
+"routes":[
+  {"id":19335704,"t":{"ref":"B640","name":"Bus B640: Somrabbi->Rabbi Bagni->Malè","from":"Somrabbi","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":28,"s":[[12989003523,12]]},
+  {"id":19335705,"t":{"ref":"B640","name":"Bus B640: Malè->Rabbi Bagni->Somrabbi","from":"Malè Nuovo Stazione","to":"Somrabbi","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":29,"s":[[12989003523,19]]},
+  {"id":19336728,"t":{"ref":"B639","name":"Bus B639: Coler->Plaze dei Forni","from":"Rabbi Coler","to":"Plaze dei Forni","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12989003521,1],[12989003522,2],[12989003523,3]]},
+  {"id":19336729,"t":{"ref":"B639","name":"Bus B639: Plaze dei Forni->Coler","from":"Plaze dei Forni","to":"Coler","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12989003523,3],[12989003522,4],[12989003521,5]]}
+]
+}

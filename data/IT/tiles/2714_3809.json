@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3809],
+"stops":[
+  {"id":2155939518,"lat":45.729287,"lon":10.465961,"k":"p"},
+  {"id":9932408961,"lat":45.734553,"lon":10.47022,"k":"p","n":"Lemprato"},
+  {"id":9934058785,"lat":45.736092,"lon":10.466629,"k":"p","n":"Idro - Lemprato, via Lungolago Italia"},
+  {"id":9972811101,"lat":45.737806,"lon":10.482767,"k":"p","n":"Idro - Coste"},
+  {"id":9977403772,"lat":45.735097,"lon":10.466867,"k":"p","n":"Idro - Lemprato, via Vittorio Veneto"},
+  {"id":9980185298,"lat":45.734584,"lon":10.457988,"k":"p","n":"Idro (Pieve, SP237)"},
+  {"id":9980211829,"lat":45.733457,"lon":10.458982,"k":"p"},
+  {"id":13536054786,"lat":45.729127,"lon":10.466802,"k":"p","n":"Idro - via Treviso, ist. Perlasca"},
+  {"id":13536054787,"lat":45.739956,"lon":10.479517,"k":"p","n":"Idro - Crone, via della Repubblica"},
+  {"id":13536054788,"lat":45.73545,"lon":10.472843,"k":"p","n":"Idro scuole (bv lemprato)"},
+  {"id":13536054789,"lat":45.735752,"lon":10.473011,"k":"p","n":"Idro scuole (via scuole)"},
+  {"id":13536054790,"lat":45.735182,"lon":10.46683,"k":"p","n":"Idro - Lemprato, via Vittorio Veneto"},
+  {"id":13536054791,"lat":45.734068,"lon":10.458302,"k":"p","n":"Idro - Pieve, via Bertini"},
+  {"id":13536317903,"lat":45.713177,"lon":10.458797,"k":"p","n":"Treviso b. (via roma,46)"},
+  {"id":13536317904,"lat":45.712679,"lon":10.471706,"k":"p","n":"Treviso b. (vico capolinea)"},
+  {"id":13536317905,"lat":45.712529,"lon":10.46234,"k":"p","n":"Treviso b. (municipio)"},
+  {"id":13536317906,"lat":45.713121,"lon":10.45865,"k":"p","n":"Treviso b. (via roma,83)"},
+  {"id":13536317907,"lat":45.717776,"lon":10.455642,"k":"p","n":"Treviso b.(bivio valledrane)"},
+  {"id":13536317908,"lat":45.732419,"lon":10.469279,"k":"p","n":"Idro - via Treviso, ist. Perlasca"},
+  {"id":14169831102,"lat":45.734425,"lon":10.469387,"k":"p"},
+  {"id":14175793790,"lat":45.729118,"lon":10.46691,"k":"p","n":"Idro - via Treviso, ist. Perlasca"}
+],
+"routes":[
+  {"id":19210135,"t":{"ref":"B245","name":"Bus B245: Ponte Caffaro->Ponte Caffaro->Anfo->Vestone","from":"Ponte Caffaro","to":"Vestone Autostazioe","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":15,"s":[[9980185298,10]]},
+  {"id":19210136,"t":{"ref":"B245","name":"Bus B245: Vestone->Idro>Anfo->Ponte Caffaro","from":"Vestone Autostazioe","to":"Ponte Caffaro","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[9980185298,6]]},
+  {"id":20192396,"t":{"ref":"LN014","name":"Bus LN014: Capovalle->Vestone","from":"Capovalle piazza Mercato","to":"Vestone Autostazioe","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":16,"s":[[9972811101,5],[13536054789,6],[13536054786,7],[13536054788,8],[13536054787,9],[9934058785,10],[13536054791,11]]},
+  {"id":20192397,"t":{"ref":"LN014","name":"Bus LN014: Vestone->Capovalle","from":"Vestone Autostazioe","to":"Capovalle piazza Mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":17,"s":[[13536054791,7],[13536054790,8],[13536054789,9],[13536054787,10],[13536054786,11],[13536054788,12],[9972811101,13]]},
+  {"id":20192721,"t":{"ref":"LN018","name":"Bus LN018: Treviso Bresciano->Vestone","from":"Treviso b. (vico capolinea)","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":13,"s":[[13536317904,1],[13536317905,2],[13536317903,3],[13536317907,4],[13536317908,6],[9934058785,7],[13536054791,8]]},
+  {"id":20192722,"t":{"ref":"LN018","name":"Bus LN018: Vestone->Treviso Bresciano","from":"Vestone Autostazione","to":"Treviso b. (vico capolinea)","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13536054791,6],[9977403772,7],[13536317908,8],[13536317907,9],[13536317906,10],[13536317905,11],[13536317904,12]]},
+  {"id":20199795,"t":{"ref":"LN013","name":"Bus LN013: Brescia->Odolo->Vestone->Bagolino","from":"Brescia Stazione metro Prealpino","to":"Bogolino via Mignano, stabilimenti","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":52,"s":[[9980185298,41]]},
+  {"id":20199796,"t":{"ref":"LN013","name":"Bus LN013: Bagolino->Vestone->Odolo->Brescia","from":"Bagolino via Mignano, stabilimenti","to":"Brescia Stazione metro Prealpino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":51,"s":[[9980185298,12]]}
+]
+}

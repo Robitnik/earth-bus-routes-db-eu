@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2699,3809],
+"stops":[
+  {"id":8909388564,"lat":44.997394,"lon":10.485881,"k":"p","n":"Via G. Gonzaga, 30 (C. Carabinieri)"},
+  {"id":8909430485,"lat":44.997457,"lon":10.485903,"k":"p","n":"Via G. Gonzaga, 30 (C. Carabinieri)"},
+  {"id":8909443389,"lat":44.994822,"lon":10.48869,"k":"p","n":"Via De Gasperi, 28"},
+  {"id":8909444509,"lat":44.996302,"lon":10.494216,"k":"p","n":"Via Villa Pasquali, Bar Stazione"},
+  {"id":8911758923,"lat":44.99477,"lon":10.488634,"k":"p","n":"Via De Gasperi, 28"},
+  {"id":8911758950,"lat":44.996252,"lon":10.4943,"k":"p","n":"Via Villa Pasquali, Bar Stazione"},
+  {"id":10814474503,"lat":44.961919,"lon":10.476869,"k":"p"},
+  {"id":13436344518,"lat":44.974423,"lon":10.453212,"k":"p","n":"Vicomoscano, Via Manzoni"},
+  {"id":13436344519,"lat":44.973618,"lon":10.465127,"k":"p","n":"Casalmaggiore, Vicomoscano, Bivio H"},
+  {"id":13436344520,"lat":44.974776,"lon":10.468753,"k":"p","n":"Vicomoscano, Ospedale Oglio Po"},
+  {"id":13436344521,"lat":44.961416,"lon":10.476215,"k":"p","n":"Casalbellotto, Via Federici"},
+  {"id":13437171460,"lat":44.970495,"lon":10.463523,"k":"p","n":"Casalmaggiore, Vicomoscano, Bivio H"},
+  {"id":13437171471,"lat":44.970742,"lon":10.462383,"k":"p","n":"Vicomoscano, Oglio Po, Bivio"},
+  {"id":13437171472,"lat":44.974806,"lon":10.450487,"k":"p","n":"Vicomoscano, Via Manzoni, 98"},
+  {"id":13658615498,"lat":44.991957,"lon":10.450888,"k":"p"},
+  {"id":13658667267,"lat":44.992066,"lon":10.450809,"k":"p"},
+  {"id":13658705799,"lat":44.995852,"lon":10.465767,"k":"p"},
+  {"id":13658726149,"lat":44.995764,"lon":10.465734,"k":"p"},
+  {"id":13658763716,"lat":44.993449,"lon":10.474315,"k":"p"}
+],
+"routes":[
+  {"id":12940373,"t":{"ref":"17S","name":"Bus 17S: Sabbioneta →Mantova","from":"Sabbioneta","to":"Mantova","network":"Rete interurbana di Mantova","operator":"APAM","route":"bus","public_transport:version":"2"},"n":24,"s":[[8909388564,1],[8911758923,2],[8911758950,3]]},
+  {"id":12940374,"t":{"ref":"17S","name":"Bus 17S: Mantova → Sabbioneta","from":"Mantova","to":"Sabbioneta","network":"Rete interurbana di Mantova","operator":"APAM","route":"bus","public_transport:version":"2"},"n":25,"s":[[8909444509,23],[8909443389,24],[8909430485,25]]},
+  {"id":20054751,"t":{"ref":"K201","name":"Bus K201: Viadana => Casalmaggiore => Spineda","from":"Viadana Autostazione","to":"Spineda Via Roma 20","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":25,"s":[[13436344521,9],[13436344520,10],[13437171460,11],[13436344518,12]]},
+  {"id":20055432,"t":{"ref":"K201","name":"Bus K201: Spineda => Casalmaggiore => Viadana","from":"Spineda Via Roma 20","to":"Spineda Via Roma 20 Viadana Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":26,"s":[[13437171472,15],[13437171471,16],[13436344520,17],[13436344521,18]]}
+]
+}

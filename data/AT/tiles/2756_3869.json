@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2756,3869],
+"stops":[
+  {"id":2648637025,"lat":47.802535,"lon":13.481253,"k":"p","n":"Unterach Elisabethallee"},
+  {"id":7291396100,"lat":47.804207,"lon":13.464554,"k":"p","n":"Unterach Rochuspoint"},
+  {"id":7291396106,"lat":47.803792,"lon":13.453797,"k":"p","n":"Unterach Au"},
+  {"id":7291396111,"lat":47.804095,"lon":13.453533,"k":"p","n":"Unterach Au"},
+  {"id":7997295551,"lat":47.807253,"lon":13.487523,"k":"p","n":"Unterach Kohlstatt"},
+  {"id":7997295552,"lat":47.807246,"lon":13.493237,"k":"p","n":"Unterach Ellend"},
+  {"id":8016381698,"lat":47.803993,"lon":13.463535,"k":"p","n":"Unterach Rochuspoint"},
+  {"id":8631826190,"lat":47.840955,"lon":13.471948,"k":"p","n":"Riedlbach"},
+  {"id":9142607318,"lat":47.80285,"lon":13.481827,"k":"p","n":"Unterach Elisabethallee"},
+  {"id":9142607319,"lat":47.804116,"lon":13.487651,"k":"p","n":"Unterach Ortsmitte"},
+  {"id":9212312410,"lat":47.83982,"lon":13.463124,"k":"p","n":"Oberwang Abzw Konradschwandt"},
+  {"id":9212312411,"lat":47.839798,"lon":13.462765,"k":"p","n":"Oberwang Abzw Konradschwandt"},
+  {"id":9212312412,"lat":47.840277,"lon":13.453543,"k":"p","n":"Oberwang Haslau"},
+  {"id":9212312413,"lat":47.840261,"lon":13.453372,"k":"p","n":"Oberwang Haslau"},
+  {"id":10269639799,"lat":47.802466,"lon":13.481365,"k":"p","n":"Unterach Elisabethallee"}
+],
+"routes":[
+  {"id":10829257,"t":{"ref":"548","name":"Bus 548: Bad Ischl - Unterach","from":"Bad Ischl Bahnhof","to":"Unterach Elisabethallee","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[2648637025,8]]},
+  {"id":10829258,"t":{"ref":"548","name":"Bus 548: Unterach - Bad Ischl","from":"Unterach Elisabethallee","to":"Bad Ischl Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[2648637025,1]]},
+  {"id":10837644,"t":{"ref":"562","name":"Bus 562: Unterach - Steinbach - Schörfling am Attersee","from":"Unterach Ortsmitte","to":"Schörfling Flößersteig","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[9142607319,1]]},
+  {"id":10837656,"t":{"ref":"562","name":"Bus 562: Schörfling am Attersee - Steinbach - Unterach","from":"Schörfling Flößersteig","to":"Unterach Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[9142607318,20],[9142607319,21]]},
+  {"id":11244772,"t":{"ref":"564","name":"Bus 564: Kammer - Nußdorf - Unterach","from":"Kammer Schörfling Bahnhst","to":"Unterach Ortsmitte","route":"bus","public_transport:version":"2"},"n":24,"s":[[7997295551,22],[9142607318,23],[9142607319,24]]},
+  {"id":11244773,"t":{"ref":"564","name":"Bus 564: Unterach - Nußdorf - Kammer","from":"Unterach Ortsmitte","to":"Kammer Schörfling Bahnhst","route":"bus","public_transport:version":"2"},"n":24,"s":[[9142607319,1],[7997295552,2]]},
+  {"id":11315163,"t":{"ref":"596","name":"Bus 596: Weißenbach - Unterach - Mondsee","from":"Weißenbach Wanderparkplatz","to":"Mondsee Schulzentrum","network":"Oberösterreichischer Verkehrsverbund","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":18,"s":[[2648637025,4],[7291396100,5],[7291396111,6]]},
+  {"id":11315164,"t":{"ref":"596","name":"Bus 596: Mondsee - Unterach - Weißenbach","from":"Mondsee Schulzentrum","to":"Weißenbach Wanderparkplatz","network":"Oberösterreichischer Verkehrsverbund","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":18,"s":[[7291396106,12],[8016381698,13],[9142607318,14],[9142607319,15]]},
+  {"id":12228032,"t":{"ref":"596","name":"Bus 596: Variante über Unterach Ortsmitte (Richtung Mondsee)","network":"Oberösterreichischer Verkehrsverbund","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":2,"s":[[9142607318,1],[9142607319,2]]},
+  {"id":12228033,"t":{"ref":"592","name":"Bus 592: Variante über Riedlbach","route":"bus","public_transport:version":"2"},"n":5,"s":[[9212312413,1],[9212312410,2],[8631826190,3],[9212312411,4],[9212312412,5]]},
+  {"id":14467121,"t":{"ref":"ML","name":"Postbus Shuttle Mondseeland","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus"},"n":47,"s":[[9212312413,15],[9212312410,16],[8631826190,17]]}
+]
+}

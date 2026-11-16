@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2710,3807],
+"stops":[
+  {"id":5548768568,"lat":45.519723,"lon":10.35581,"k":"p"},
+  {"id":12895283780,"lat":45.542882,"lon":10.387702,"k":"p","n":"Nuvolento Via Trento"},
+  {"id":12895283781,"lat":45.530157,"lon":10.373824,"k":"p","n":"Nuvolera cimitero"},
+  {"id":12895283782,"lat":45.527569,"lon":10.368902,"k":"p","n":"Nuvolera Scaiola"},
+  {"id":12895283783,"lat":45.519223,"lon":10.354904,"k":"p","n":"Mazzano centro-mat.edili"},
+  {"id":12896583955,"lat":45.549355,"lon":10.383507,"k":"p","n":"Nuvolento via ombrini"},
+  {"id":12896583956,"lat":45.548784,"lon":10.389649,"k":"p","n":"Nuvolento campo sportivo"},
+  {"id":12896583957,"lat":45.549043,"lon":10.393083,"k":"p","n":"Nuvolento Via Campagnoli"},
+  {"id":12964703518,"lat":45.509915,"lon":10.395867,"k":"p","n":"Bedizzole - loc. Bettoletto,industrie"},
+  {"id":12964703519,"lat":45.508997,"lon":10.375828,"k":"p","n":"Mazzano - loc. Patuzza"},
+  {"id":12964703520,"lat":45.504726,"lon":10.364152,"k":"p","n":"Mazzano - loc. Molinetto,centro"},
+  {"id":12964703521,"lat":45.502005,"lon":10.355305,"k":"p","n":"Mazzano - loc. Molinetto,residence"},
+  {"id":13427325253,"lat":45.509911,"lon":10.396022,"k":"p","n":"Bettoletto Ora"}
+],
+"routes":[
+  {"id":6736743,"t":{"ref":"LN009","name":"Bus LN009: Padenghe->Pedizzalo->Mezzano->Rezato->Brescia","from":"Padenghe Via Barbieri","to":"Brescia Autostzione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":29,"s":[[12964703518,12],[12964703519,13],[12964703520,14],[12964703521,15]]},
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[12895283783,16],[12895283782,17],[12895283781,18],[12895283780,19]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[12895283780,50],[12895283781,51],[12895283782,52],[12895283783,53]]},
+  {"id":19225280,"t":{"ref":"LN028","name":"Bus LN028: Serle->Nuvolento","from":"Serle (Casa sopra)","to":"Serle (Casa sopra)","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":17,"s":[[12896583955,14],[12896583956,15],[12896583957,16],[12895283780,17]]},
+  {"id":19225281,"t":{"ref":"LN028","name":"Bus LN028: Nuvolento->Serle","from":"Nuvolento via Trenta","to":"Serle (Casa sopra)","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":16,"s":[[12895283780,1],[12896583957,2],[12896583956,3],[12896583955,4]]},
+  {"id":19293738,"t":{"ref":"S202-1","name":"Bus S202-1: Variante: Prevalle->Nuvolento","from":"Prevalle Porgolungo","to":"Nuvolento via Trento","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":8,"s":[[12895283780,8]]},
+  {"id":19293739,"t":{"ref":"S202-1","name":"Bus S202-1: Variante: Nuvolenta ->Prevalle","from":"Nuvolento via Trento","to":"Prevalle Porgolungo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":8,"s":[[12895283780,1]]},
+  {"id":19307284,"t":{"ref":"LN009","name":"Bus LN009: Brescia->Rezzato->Manzano->Pedizzole->Padenghe","from":"Brescia Autostazione","to":"Portese Via Barbieri","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":29,"s":[[12964703521,15],[12964703520,16],[12964703519,17],[12964703518,18]]},
+  {"id":20041050,"t":{"ref":"LS34","name":"Bus LS34: Ponte San Marco => Lonato loc. Molini Variante","from":"Ponte San Marco Chiesa","to":"Lonato del Garda","operator":"APAM","route":"bus","public_transport:version":"2"},"n":10,"s":[[13427325253,2]]},
+  {"id":20046035,"t":{"ref":"LS34","name":"Bus LS34: Bettoletto => Ponte San Marco","from":"Bettoletto Ora","to":"Ponte San Marco Rotatoria","operator":"APAM","route":"bus","public_transport:version":"2"},"n":10,"s":[[13427325253,1]]}
+]
+}

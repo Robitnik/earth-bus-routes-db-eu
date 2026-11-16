@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2704,3803],
+"stops":[
+  {"id":9124989185,"lat":45.230708,"lon":10.178721,"k":"p","n":"Via Matteotti, 12"},
+  {"id":9124989186,"lat":45.230749,"lon":10.178859,"k":"p","n":"Binanuova, Molinetto, 2"},
+  {"id":9181035022,"lat":45.221146,"lon":10.164253,"k":"p","n":"Scandolara Ripa Oglio, Martiri Libertà"},
+  {"id":9181035341,"lat":45.221924,"lon":10.157191,"k":"p","n":"Scandolara Ripa Oglio, Via Umberto I, 3"},
+  {"id":13413210974,"lat":45.242418,"lon":10.177656,"k":"p","n":"Seniga - piazza XX Settembre (Via Roma, 13)"},
+  {"id":13413210975,"lat":45.246884,"lon":10.180635,"k":"p","n":"Seniga - via Umbertio I, industrie (Via Umberto l, 45 )"},
+  {"id":13441964571,"lat":45.201756,"lon":10.150799,"k":"p","n":"Grontardo, Via Trento, 1"},
+  {"id":13441964572,"lat":45.208854,"lon":10.151925,"k":"p","n":"Grontardo, S.P.83"},
+  {"id":13441964573,"lat":45.221838,"lon":10.171312,"k":"p","n":"Binanuova, Molinetto, 1"},
+  {"id":13441964574,"lat":45.223191,"lon":10.177369,"k":"p","n":"Binanuova, Menabue, Via Matteotti, 4"},
+  {"id":13445021480,"lat":45.246805,"lon":10.180947,"k":"p","n":"Seniga, Via Umberto l Ferrari"},
+  {"id":13445021481,"lat":45.242564,"lon":10.17798,"k":"p","n":"Seniga, P.za XX Settembre, 22"},
+  {"id":13445021482,"lat":45.223517,"lon":10.17758,"k":"p","n":"Binanuova, Menabue, Via Matteotti"},
+  {"id":13445021483,"lat":45.221672,"lon":10.171119,"k":"p","n":"Binanuova, Molinetto"},
+  {"id":13445021484,"lat":45.221085,"lon":10.16408,"k":"p","n":"Scandolara Ripa Oglio, Via Manzoni"},
+  {"id":13445021485,"lat":45.221821,"lon":10.157263,"k":"p","n":"Scandolara Ripa Oglio, Via Umberto I"},
+  {"id":13445021486,"lat":45.208833,"lon":10.152314,"k":"p","n":"Grontardo, S.P. 83, civico 1"},
+  {"id":13445021487,"lat":45.20168,"lon":10.150793,"k":"p","n":"Grontardo, Via Goi, 5"}
+],
+"routes":[
+  {"id":20014849,"t":{"ref":"LS014","name":"Bus LS014: Seniga => Manerbio","from":"Seniga","to":"Manerbio","network":"Arriva","route":"bus","public_transport:version":"2"},"n":16,"s":[[13413210974,1],[13413210975,2]]},
+  {"id":20014850,"t":{"ref":"LS014","name":"Bus LS014: Manerbio =>Seniga","from":"Manerbio","to":"Seniga","network":"Arriva","route":"bus","public_transport:version":"2"},"n":24,"s":[[13413210975,23],[13413210974,24]]},
+  {"id":20062299,"t":{"ref":"K207","name":"Bus K207: Pralboino => Binanuova => Persichello => Cremona","from":"Pralboino, Via Dante","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":31,"s":[[13413210975,8],[13413210974,9],[9124989185,10],[13441964574,11],[13441964573,12],[9181035022,13],[9181035341,14],[13441964572,15],[13441964571,16]]},
+  {"id":20066396,"t":{"ref":"K207","name":"Bus K207: Cremona => Persichello=> Binanuova => Pralboino","from":"Cremona Autostazione","to":"Pralboino, Via Roma,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":32,"s":[[13445021486,17],[13445021485,18],[13445021484,19],[13445021483,20],[13445021482,21],[13445021481,22],[13445021480,23]]}
+]
+}

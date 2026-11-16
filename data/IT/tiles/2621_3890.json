@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2621,3890],
+"stops":[
+  {"id":695418359,"lat":41.088575,"lon":14.500593,"k":"p","n":"Piazza Giovanni Paolo II","ref":"8"},
+  {"id":8339696580,"lat":41.08458,"lon":14.500698,"k":"p","n":"I.I.S. \"A. M. de' Liguori\""},
+  {"id":8341720545,"lat":41.08811,"lon":14.500782,"k":"s","n":"Terminal Autobus"},
+  {"id":14018829688,"lat":41.091292,"lon":14.500172,"k":"p","n":"SP121 (Ang. Via Cassinari)"}
+],
+"routes":[
+  {"id":11113981,"t":{"ref":"BVS","name":"BV Valle-Sant'Agata de' Goti","from":"Valle di Maddaloni","to":"Sant'Agata de' Goti","network":"BVS","operator":"AIR","colour":"green","route":"bus"},"n":9,"s":[[695418359,8],[8339696580,9]]},
+  {"id":12211186,"t":{"ref":"EBN005","name":"Sant'Agata de' Goti-Caserta","from":"Sant'Agata de' Goti","to":"Caserta","network":"EBN005","operator":"AIR Campania","colour":"blue","route":"bus","public_transport:version":"1"},"n":2,"s":[[8341720545,1]]},
+  {"id":21104070,"t":{"ref":"EBN005","name":"Caserta - Sant'Agata De' Goti","from":"Caserta","to":"Sant'Agata De' Goti","operator":"Air Campania","route":"bus"},"n":26,"s":[[695418359,3]]}
+]
+}

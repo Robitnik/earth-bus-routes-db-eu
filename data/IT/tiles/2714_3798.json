@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3798],
+"stops":[
+  {"id":8355821004,"lat":45.725248,"lon":9.900666,"k":"p","n":"Vigano s.martino - nazionale bivio grone"},
+  {"id":8355821005,"lat":45.7326,"lon":9.90699,"k":"p","n":"Vigano S.Martino - Nazionale (martina)"},
+  {"id":8355821006,"lat":45.733029,"lon":9.907258,"k":"p","n":"Vigano S.Martino - Nazionale (martina)"},
+  {"id":8355821007,"lat":45.742668,"lon":9.908334,"k":"p","n":"Casazza - s.s.42 (distrib.agip)"},
+  {"id":8355821008,"lat":45.742813,"lon":9.908545,"k":"p","n":"Casazza - s.s.42 (distrib.agip)"},
+  {"id":13620883243,"lat":45.70032,"lon":9.947442,"k":"p","n":"Adrara s.martino - p.za umberto I"},
+  {"id":14002769209,"lat":45.725806,"lon":9.929237,"k":"p","n":"Grone - provinciale (monte)"},
+  {"id":14002769210,"lat":45.723847,"lon":9.916199,"k":"p","n":"Grone - provinciale, 1 (ponte)"},
+  {"id":14002769211,"lat":45.726997,"lon":9.911336,"k":"p","n":"Grone - via giovanni XXIII (centro)"},
+  {"id":14002769212,"lat":45.726776,"lon":9.906578,"k":"p","n":"Grone - via giovanni XXIII (cà de righi)"},
+  {"id":14131212717,"lat":45.70026,"lon":9.947939,"k":"p","n":"Adrara s.martino - p.za umberto I"}
+],
+"routes":[
+  {"id":12563569,"t":{"ref":"C","name":"Bus C: Bergamo => Boario","from":"Bergamo Pensilina 9","to":"Costa Volpino - Via Battisti 20 (Piano)","route":"bus","public_transport:version":"2"},"n":47,"s":[[8355821004,28],[8355821006,29],[8355821008,30]]},
+  {"id":20290773,"t":{"ref":"E20b","name":"Bus E20b: Andara => Sarnico","from":"Adrara s.rocco - piazza giovanni XXIII","to":"Sarnico - via roma (municipio)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[13620883243,3]]},
+  {"id":20290774,"t":{"ref":"E20b","name":"Bus E20b: Sarnico => Andrara","from":"Sarnico - via roma (municipio)","to":"Adrara s.rocco - piazza giovanni XXIII","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[13620883243,11]]},
+  {"id":20299427,"t":{"ref":"C30a","name":"Bus C30a: Gaverina -> Casazza","from":"Gaverina - via colle gallo (capolinea)","to":"Casazza - via broli (scuole)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[8355821008,14]]},
+  {"id":20299428,"t":{"ref":"C30a","name":"Bus C30a: Casazza -> Gaverina","from":"Casazza - via broli (scuole)","to":"Gaverina - via colle gallo (capolinea)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":13,"s":[[8355821007,3]]},
+  {"id":21067335,"t":{"ref":"LV923","name":"Bus LV923: Milano -> Edolo","from":"Sesto San Giovanni","to":"Edolo","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8355821004,15],[8355821006,16],[8355821008,17]]},
+  {"id":21069296,"t":{"ref":"LV923","name":"Bus LV923: Edolo -> Milano","from":"Edolo","to":"Sesto San Giovanni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8355821007,74],[8355821006,75],[8355821004,76]]},
+  {"id":21085320,"t":{"ref":"C20d","name":"Bus C20d: Grona => Borgo di Terzo","from":"Grono provinciale (monte)","to":"Borgo di Terzo municipio","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":5,"s":[[14002769209,1],[14002769210,2],[14002769211,3],[14002769212,4]]},
+  {"id":21085321,"t":{"ref":"C20d","name":"Bus C20d: Borgo di Terzo => Grone","from":"Borgo di Terzo municipio","to":"Grono provinciale (monte)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":5,"s":[[14002769212,2],[14002769211,3],[14002769210,4],[14002769209,5]]},
+  {"id":21156515,"t":{"ref":"C","name":"Bus C: Boario => Bergamo","from":"Costa Volpino - Via Battisti 7 (Piano)","to":"BERGAMO Autolinee (Pensilina 9)","route":"bus","public_transport:version":"2"},"n":44,"s":[[8355821007,18],[8355821005,19],[8355821004,20]]}
+]
+}

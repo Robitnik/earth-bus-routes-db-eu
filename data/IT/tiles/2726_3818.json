@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3818],
+"stops":[
+  {"id":1852004605,"lat":46.345261,"lon":10.903945,"k":"p","n":"Croviana Via Nazionale"},
+  {"id":1852004607,"lat":46.349587,"lon":10.909303,"k":"p","n":"Malè Nord"},
+  {"id":12981721486,"lat":46.349942,"lon":10.909585,"k":"p","n":"Malè Nord"},
+  {"id":12981721494,"lat":46.341052,"lon":10.900235,"k":"p","n":"Croviana Sixtus Bar"}
+],
+"routes":[
+  {"id":19326011,"t":{"ref":"B642","name":"Bus B642: Madonna di Campiglio->Folgarida->Malè","from":"M.Campiglio Pietra Gr.","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[12981721494,21],[1852004605,22],[12981721486,23]]},
+  {"id":19326012,"t":{"ref":"B642","name":"Bus B642: Malè->Folgarida->Madonna di Campiglio","from":"Malè Nuovo Stazione","to":"M.Campiglio Pietra Gr.","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[1852004605,3,25],[12981721494,4]]},
+  {"id":19332987,"t":{"ref":"B643","name":"Bus B643: Malè->Mezzana->Marilleva 1400","from":"Malè Nuovo Stazione","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[12981721486,3],[1852004605,4],[12981721494,5]]},
+  {"id":19333735,"t":{"ref":"B643","name":"Bus B643: Marilleva 1400->Mezzana->Malè","from":"Marilleva 1400","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[12981721494,23],[1852004605,24],[1852004607,25]]}
+]
+}

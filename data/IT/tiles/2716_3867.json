@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3867],
+"stops":[
+  {"id":10080168673,"lat":45.825505,"lon":13.397472,"k":"p","n":"San Nicolò"},
+  {"id":10080168676,"lat":45.825477,"lon":13.396913,"k":"p","n":"San Nicolò"},
+  {"id":11262216634,"lat":45.809539,"lon":13.399871,"k":"p","n":"Via Sant'Antonio (angolo Via Pasteur)"},
+  {"id":11262216635,"lat":45.809573,"lon":13.399724,"k":"p","n":"Via Sant'Antonio (angolo Via Pasteur)"},
+  {"id":11262216636,"lat":45.817859,"lon":13.396736,"k":"p","n":"Via Gorizia (angolo Via Duca D'Aosta)"},
+  {"id":11262417137,"lat":45.817709,"lon":13.396716,"k":"p","n":"Via Gorizia (angolo Via Duca D'Aosta)"},
+  {"id":11262585380,"lat":45.822308,"lon":13.36558,"k":"p","n":"Scodovacca"},
+  {"id":11262585381,"lat":45.822263,"lon":13.365764,"k":"p","n":"Scodovacca"},
+  {"id":11262585382,"lat":45.818672,"lon":13.384066,"k":"p","n":"Capodisopra"},
+  {"id":11262681762,"lat":45.818764,"lon":13.384564,"k":"p","n":"Capodisopra"}
+],
+"routes":[
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11262216634,7],[11262216636,8],[10080168673,9]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[10080168676,20],[11262417137,21],[11262216635,22]]},
+  {"id":16490105,"t":{"ref":"G26","name":"Bus G26: Grado → Cervignano → Fiumicello → Monfalcone","from":"Grado","to":"Monfalcone","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":27,"s":[[11262585380,1],[11262417137,3],[11262216635,4],[11262585382,18]]},
+  {"id":16490166,"t":{"ref":"G26","name":"Bus G26: Monfalcone → Fiumicello → Cervignano → Grado","from":"Monfalcone","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":29,"s":[[11262585381,1],[11262216636,2],[11262216634,4],[11262681762,18]]}
+]
+}

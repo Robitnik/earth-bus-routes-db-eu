@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2761,3878],
+"stops":[
+  {"id":669091615,"lat":48.086318,"lon":13.948071,"k":"p","n":"Fischlham Sattledter Straße"},
+  {"id":2125554621,"lat":48.090544,"lon":13.929824,"k":"p","n":"Fischlham Zauset"},
+  {"id":4685786750,"lat":48.066948,"lon":13.902416,"k":"p","n":"Bad Wimsbach-Neydharting Sportstraße"},
+  {"id":7087864983,"lat":48.087097,"lon":13.94697,"k":"p","n":"Fischlham Sattledter Straße"},
+  {"id":8206372707,"lat":48.063852,"lon":13.903303,"k":"p","n":"Bad Wimsbach-Neydharting Bahnhof"},
+  {"id":8228525220,"lat":48.090078,"lon":13.920798,"k":"p","n":"Fischlham Abzw Hafeld"},
+  {"id":8228525238,"lat":48.092087,"lon":13.904592,"k":"p","n":"Edt b. Lambach Gerstnerstraße"},
+  {"id":8228725079,"lat":48.067027,"lon":13.902288,"k":"p","n":"Bad Wimsbach-Neydharting Sportstraße"},
+  {"id":9181019364,"lat":48.068912,"lon":13.922156,"k":"p","n":"Bad Wimsbach Agrarium"},
+  {"id":10246831993,"lat":48.062964,"lon":13.901636,"k":"p","n":"Bad Wimsbach-Neydharting Markt"},
+  {"id":10246831994,"lat":48.063323,"lon":13.901818,"k":"p","n":"Bad Wimsbach-Neydharting Markt"},
+  {"id":10246957491,"lat":48.092487,"lon":13.904061,"k":"p","n":"Edt b. Lambach Gerstnerstraße"},
+  {"id":10246957492,"lat":48.091418,"lon":13.914867,"k":"p","n":"Edt b. Lambach Graben"},
+  {"id":10246957493,"lat":48.091286,"lon":13.914906,"k":"p","n":"Edt b. Lambach Graben"},
+  {"id":10246957497,"lat":48.090225,"lon":13.920828,"k":"p","n":"Fischlham Abzw Hafeld"},
+  {"id":10246957501,"lat":48.090376,"lon":13.929837,"k":"p","n":"Fischlham Zauset"},
+  {"id":10246957502,"lat":48.091506,"lon":13.941335,"k":"p","n":"Fischlham Schlossmühle"},
+  {"id":10246957503,"lat":48.091705,"lon":13.941338,"k":"p","n":"Fischlham Schlossmühle"}
+],
+"routes":[
+  {"id":10483115,"t":{"ref":"501","name":"Bus 501: Vorchdorf - Eberstalzell - Steinerkirchen - Wels","from":"Vorchdorf Bahnhof","to":"Wels Hauptbahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":33,"s":[[669091615,19]]},
+  {"id":10485297,"t":{"ref":"503","name":"Bus 503: (Sattledt -) Steinerkirchen - Lambach","from":"Steinerkirchen","to":"Lambach","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[669091615,10],[10246957503,11],[2125554621,12],[10246957497,13],[10246957492,14],[10246957491,15]]},
+  {"id":10485298,"t":{"ref":"503","name":"Bus 503: Lambach - Steinerkirchen (-Sattledt)","from":"Lambach","to":"Steinerkirchen","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[8228525238,5],[10246957493,6],[8228525220,7],[10246957501,8],[10246957502,9],[7087864983,10]]},
+  {"id":13340111,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Hagenmühle - Vorchdorf - Almspitz","from":"Hagenmühle","to":"Lambach Almspitz","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[8206372707,13],[9181019364,14],[8228525220,15]]},
+  {"id":13340112,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Almspitz - Vorchdorf - Hagenmühle","from":"Lambach Almspitz","to":"Hagenmühle","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[8228525220,1],[9181019364,2],[8206372707,3]]},
+  {"id":13340113,"t":{"ref":"51","name":"Salzkammergut-Shuttle Traunsee-Almtal 51: Almspitz - Rüstorf - Laakirchen","from":"Lambach Almspitz","to":"Laakirchen Rathausplatz","network":"Salzkammergut-Shuttles","colour":"#FF33CC","route":"bus","public_transport:version":"2"},"n":21,"s":[[8228525220,1]]},
+  {"id":13340114,"t":{"ref":"51","name":"Salzkammergut-Shuttle Traunsee-Almtal 51: Laakirchen - Rüstorf - Almspitz","from":"Laakirchen Rathausplatz","to":"Lambach Almspitz","network":"Salzkammergut-Shuttles","colour":"#FF33CC","route":"bus","public_transport:version":"2"},"n":22,"s":[[8228525220,22]]},
+  {"id":14983438,"t":{"ref":"508","name":"Bus 508: Bad Wimsbach-Neydharting - Stadl-Paura","from":"Neydharting Moorbad","to":"Stadl-Paura Riesenberg","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":13,"s":[[10246831993,4],[4685786750,5]]},
+  {"id":14983440,"t":{"ref":"508","name":"Bus 508: Stadl-Paura - Bad Wimsbach-Neydharting","from":"Stadl-Paura Riesenberg","to":"Neydharting Moorbad","network":"Oberösterreichischer Verkehrsverbund","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":13,"s":[[8228725079,9],[10246831994,10]]}
+]
+}

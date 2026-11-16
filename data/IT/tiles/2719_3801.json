@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3801],
+"stops":[
+  {"id":4279183086,"lat":45.998739,"lon":10.098067,"k":"p","n":"Vilminore - via locatelli bivio pianezza"},
+  {"id":11906672049,"lat":45.974304,"lon":10.080693,"k":"p","n":"Colere - via tortola (monumento)"},
+  {"id":13584370874,"lat":45.997666,"lon":10.063235,"k":"p","n":"PEZZOLO - Via Pozzo"},
+  {"id":13584370875,"lat":45.995177,"lon":10.057552,"k":"p","n":"TEVENO - P.za San Bernardino"},
+  {"id":13584370876,"lat":45.993742,"lon":10.074436,"k":"p","n":"BUEGGIO - Piazza"},
+  {"id":13584370878,"lat":45.99695,"lon":10.091449,"k":"p","n":"Vilminore - Piazza Giovanni XXIII"},
+  {"id":13688766006,"lat":45.980574,"lon":10.092472,"k":"p","n":"Mangone"},
+  {"id":13688766007,"lat":45.980544,"lon":10.092497,"k":"x","n":"Mangone"},
+  {"id":13968105936,"lat":45.997949,"lon":10.092025,"k":"p","n":"Vilminore - via locatelli (scuole medie)"},
+  {"id":13968105937,"lat":45.997016,"lon":10.0915,"k":"p","n":"Vilminore - p.za giovanni XXIII (munic.)"},
+  {"id":13968105944,"lat":45.996024,"lon":10.09289,"k":"p","n":"Vilminore - Via Vittorio Emanuele/Arciprete"},
+  {"id":13968105949,"lat":45.972961,"lon":10.088212,"k":"p","n":"Colere - via valle (distribut. api)"}
+],
+"routes":[
+  {"id":12570680,"t":{"ref":"S70a","name":"Bus S70a: Bratto=>Magnone","from":"Bratto","to":"Magnone","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":2,"s":[[13688766006,2]]},
+  {"id":12575237,"t":{"ref":"S70d","name":"Linea S70d Vilminore->Bueggio->Teveno->Pezzolo->Nona","from":"Vilminore di Scalve","to":"Nona di Scalve","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":5,"s":[[13584370878,1],[13584370876,2],[13584370875,3],[13584370874,4]]},
+  {"id":12575443,"t":{"ref":"S70c","name":"Bus S70c: Castro=>Schilpario","from":"Castro (stabilimento Lucchini)","to":"Schilpario","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":41,"s":[[13968105944,30],[13968105937,31],[13968105936,32],[4279183086,33]]},
+  {"id":20243256,"t":{"ref":"S70d","name":"Linea S70d Nona->Pezzolo->Teveno->Bueggio->Vilminore","from":"Nona di Scalve","to":"Vilminore di Scalve","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":5,"s":[[13584370874,2],[13584370875,3],[13584370876,4],[13584370878,5]]},
+  {"id":21033909,"t":{"ref":"S70a","name":"Bus S70a: Bratto=>Schilpario","from":"Bratto - Via Confalonieri (Chiesa)","to":"Schilpario - nazionale (sc.medie)","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":43,"s":[[11906672049,17],[13968105949,18,19],[13968105944,28],[13968105937,29],[13968105936,30],[4279183086,31]]},
+  {"id":21034165,"t":{"ref":"S70a","name":"Bus S70a: Schilpario->Bratto","from":"Schilpario - nazionale (sc.medie)","to":"Bratto - Via Confalonieri (Chiesa)","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":42,"s":[[4279183086,12],[13968105936,13],[13968105937,14],[13968105944,15],[13968105949,24,25],[11906672049,26]]},
+  {"id":21034899,"t":{"ref":"S70c","name":"Bus S70c: Schilpario=>Schilpario","from":"Schilpario piazza major","to":"Castro - v.le roma (lucchini)","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":41,"s":[[4279183086,9],[13968105936,10],[13968105937,11],[13968105944,12]]}
+]
+}

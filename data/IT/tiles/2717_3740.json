@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3740],
+"stops":[
+  {"id":4952251921,"lat":45.870617,"lon":7.049758,"k":"p","n":"Arp Nouvaz"},
+  {"id":6580434327,"lat":45.853389,"lon":7.027772,"k":"p","n":"Bivio rifugio Bonatti"},
+  {"id":7781169654,"lat":45.862378,"lon":7.037333,"k":"p","n":"Ferrachez"},
+  {"id":8958481605,"lat":45.870621,"lon":7.049796,"k":"x","n":"Arp Nouvaz"},
+  {"id":8958530725,"lat":45.862358,"lon":7.037422,"k":"x","n":"Ferrachez"},
+  {"id":8958530734,"lat":45.853401,"lon":7.027756,"k":"x","n":"Bivio rifugio Bonatti"},
+  {"id":8958530737,"lat":45.853072,"lon":7.024901,"k":"x"},
+  {"id":8958530738,"lat":45.853074,"lon":7.02489,"k":"p"},
+  {"id":8958530755,"lat":45.850339,"lon":7.02158,"k":"x","n":"Lavachey"},
+  {"id":8958530756,"lat":45.850278,"lon":7.021266,"k":"p","n":"Lavachey"},
+  {"id":8958530757,"lat":45.850228,"lon":7.02128,"k":"x","n":"Lavachey"}
+],
+"routes":[
+  {"id":13030045,"t":{"name":"Bus: Planpincieux => Lavachey","from":"Hotel Miravalle","to":"Lavachey","operator":"Arriva","colour":"#006168","route":"bus","public_transport:version":"2"},"n":4,"s":[[8958530756,4]]},
+  {"id":13030046,"t":{"name":"Bus: Lavachey => Planpincieux","from":"Lavachey","to":"Hotel Miravalle","operator":"Arriva","colour":"#006168","route":"bus","public_transport:version":"2"},"n":4,"s":[[8958530756,1]]},
+  {"id":13030047,"t":{"name":"Bus: Arp Nouvaz => Planpincieux","from":"Arp Nouvaz","to":"Hotel Miravalle","operator":"Arriva","colour":"#90cc57","route":"bus","public_transport:version":"2"},"n":7,"s":[[4952251921,1],[7781169654,2],[6580434327,3],[8958530756,4]]},
+  {"id":13030049,"t":{"name":"Bus: Planpincieux => Arp Nouvaz","from":"Hotel Miravalle","to":"Arp Nouvaz","operator":"Arriva","colour":"#90cc57","route":"bus","public_transport:version":"2"},"n":7,"s":[[8958530756,4],[6580434327,5],[7781169654,6],[4952251921,7]]}
+]
+}

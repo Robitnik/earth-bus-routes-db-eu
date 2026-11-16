@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3844],
+"stops":[
+  {"id":173665038,"lat":46.46373,"lon":12.204904,"k":"x","n":"San Vito di Cadore - Centro"},
+  {"id":6327277483,"lat":46.463698,"lon":12.204858,"k":"p","n":"San Vito di Cadore - Centro","ref":"2510B"},
+  {"id":6327277484,"lat":46.463945,"lon":12.204641,"k":"p","n":"San Vito di Cadore - Centro","ref":"2510A"},
+  {"id":8804527130,"lat":46.453246,"lon":12.209312,"k":"p","n":"San Vito - Albergo Dolomiti"},
+  {"id":8804527131,"lat":46.453395,"lon":12.209256,"k":"p","n":"San Vito - Albergo Dolomiti"},
+  {"id":8804527132,"lat":46.457136,"lon":12.205963,"k":"x","n":"San Vito - Marcora"},
+  {"id":8804527133,"lat":46.457134,"lon":12.205775,"k":"x","n":"San Vito - Marcora"},
+  {"id":8804527134,"lat":46.468316,"lon":12.204875,"k":"p","n":"San Vito - bivio Mosigo"},
+  {"id":8804527135,"lat":46.468303,"lon":12.204658,"k":"p","n":"San Vito - bivio Mosigo"},
+  {"id":8804527136,"lat":46.474305,"lon":12.20317,"k":"p","n":"San Vito - Chiapuzza"},
+  {"id":8804527137,"lat":46.474236,"lon":12.202936,"k":"p","n":"San Vito - Chiapuzza"},
+  {"id":9486193315,"lat":46.463059,"lon":12.205087,"k":"p","n":"San Vito di Cadore - Centro"},
+  {"id":9487009477,"lat":46.459815,"lon":12.205018,"k":"p","n":"San Vito - Ufficio Informazioni"},
+  {"id":9487009478,"lat":46.459414,"lon":12.205255,"k":"p","n":"San Vito - Ufficio Informazioni"},
+  {"id":9487009481,"lat":46.462529,"lon":12.206102,"k":"p","n":"San Vito - Via Belvedere"},
+  {"id":9487009482,"lat":46.462596,"lon":12.206071,"k":"p","n":"San Vito - Via Belvedere"},
+  {"id":9487009485,"lat":46.461281,"lon":12.210302,"k":"p","n":"San Vito - Chiesetta Belvedere"},
+  {"id":9487009486,"lat":46.46131,"lon":12.210551,"k":"p","n":"San Vito - Chiesetta Belvedere"},
+  {"id":9487009496,"lat":46.460846,"lon":12.214369,"k":"p","n":"San Vito - Tambres"},
+  {"id":9487009497,"lat":46.460884,"lon":12.214314,"k":"p","n":"San Vito - Tambres"},
+  {"id":9487009498,"lat":46.463884,"lon":12.214526,"k":"p","n":"San Vito - Impianti"},
+  {"id":9487009499,"lat":46.463068,"lon":12.205219,"k":"p","n":"San Vito di Cadore - Centro"},
+  {"id":10201614781,"lat":46.463881,"lon":12.204689,"k":"x","n":"San Vito di Cadore - Centro"}
+],
+"routes":[
+  {"id":1948899,"t":{"ref":"30","name":"Calalzo -> Cortina","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":31,"s":[[8804527131,21],[8804527132,22],[6327277484,23],[8804527136,24],[8804527134,25]]},
+  {"id":9383387,"t":{"ref":"411","name":"Flixbus 411: Cortina d'Ampezzo, stazione centrale degli autobus => Milano, Lampugnano","from":"Cortina d'Ampezzo, stazione centrale degli autobus","to":"Milano, Lampugnano","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":4,"s":[[6327277483,1]]},
+  {"id":9383388,"t":{"ref":"411","name":"Flixbus 411: Milano, Lampugnano => Cortina d'Ampezzo, stazione centrale degli autobus","from":"Milano, Lampugnano","to":"Cortina d'Ampezzo, stazione centrale degli autobus","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[6327277484,5]]},
+  {"id":12798589,"t":{"ref":"30","name":"Cortina -> Calalzo","from":"Cortina","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[8804527130,18],[8804527133,19],[6327277483,20],[8804527137,21],[8804527135,22]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[8804527131,18],[8804527132,19],[6327277484,20],[8804527134,21],[8804527136,22]]},
+  {"id":13769827,"t":{"ref":"30Skibus","name":"Borca Villaggio -> San Vito Impianti","from":"Villaggio Agip - Albergo Boite","to":"San Vito - Impianti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":12,"s":[[8804527131,6],[8804527132,7],[9487009477,8],[9486193315,9],[9487009481,10],[9487009485,11],[9487009496,12]]},
+  {"id":13769828,"t":{"ref":"30Skibus","name":"San Vito Impianti -> Borca Villaggio","from":"San Vito - Impianti","to":"Villaggio Agip - Albergo Boite","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":12,"s":[[9487009497,1],[9487009486,2],[9487009482,3],[9487009499,4],[9487009478,5],[8804527133,6],[8804527130,7]]},
+  {"id":13791987,"t":{"ref":"30Skibus","name":"Borca Villaggio -> Cortina Autostazione -> Passo Falzarego","from":"Villaggio Agip - Albergo Boite","to":"Passo Falzarego","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[8804527131,6],[8804527132,7],[9487009477,8],[6327277483,9],[8804527136,10]]},
+  {"id":13791988,"t":{"ref":"30Skibus","name":"Passo Falzarego -> Cortina Autostazione -> Borca Villaggio","from":"Passo Falzarego","to":"Viaalggio Agip - Albergo Boite","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[8804527137,18],[8804527135,19],[6327277483,20],[9487009478,21],[8804527133,22],[8804527130,23]]}
+]
+}

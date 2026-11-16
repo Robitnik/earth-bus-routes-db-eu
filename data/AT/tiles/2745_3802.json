@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2745,3802],
+"stops":[
+  {"id":330002012,"lat":47.263114,"lon":10.10508,"k":"p","n":"Schröcken Alpenblick"},
+  {"id":1209958126,"lat":47.270619,"lon":10.13411,"k":"p","n":"Hochkrumbach Gasthaus Adler"},
+  {"id":1834766071,"lat":47.261798,"lon":10.1029,"k":"p","n":"Schröcken Neßlegg"},
+  {"id":2949137302,"lat":47.26311,"lon":10.105028,"k":"x","n":"Schröcken Alpenblick"},
+  {"id":3003087999,"lat":47.268319,"lon":10.127598,"k":"p","n":"Hochkrumbach Saloberlifte"},
+  {"id":4193740031,"lat":47.268369,"lon":10.127587,"k":"x","n":"Hochkrumbach Saloberlifte"},
+  {"id":4564653729,"lat":47.2706,"lon":10.133958,"k":"x","n":"Hochkrumbach Gasthaus Adler"},
+  {"id":7711136635,"lat":47.270631,"lon":10.133909,"k":"p","n":"Hochkrumbach Gasthaus Adler"},
+  {"id":7711136644,"lat":47.263054,"lon":10.104938,"k":"p","n":"Schröcken Alpenblick"},
+  {"id":7711136654,"lat":47.261881,"lon":10.10289,"k":"x","n":"Schröcken Neßlegg"},
+  {"id":7711136655,"lat":47.261954,"lon":10.102898,"k":"p","n":"Schröcken Neßlegg"},
+  {"id":9280497942,"lat":47.267404,"lon":10.14952,"k":"x","n":"Warth Jägeralpe"},
+  {"id":10273859369,"lat":47.267399,"lon":10.149557,"k":"p","n":"Warth Jägeralpe"}
+],
+"routes":[
+  {"id":6058206,"t":{"ref":"852","name":"Bus 852: Schoppernau => Lech","from":"Schoppernau Gemeindeamt","to":"Lech Schlosskopf","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":25,"s":[[1834766071,13],[330002012,14],[3003087999,15],[1209958126,16],[10273859369,17]]},
+  {"id":6231235,"t":{"ref":"709","name":"Bus 709: Lech am Arlberg => Warth","from":"Lech am Arlberg Schlosskopf","to":"Hochkrumbach Saloberlifte","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":12,"s":[[10273859369,10],[7711136635,11],[3003087999,12]]},
+  {"id":11301382,"t":{"ref":"852","name":"Bus 852: Lech => Schoppernau","from":"Lech Schlosskopf","to":"Schoppernau Gemeindeamt","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":25,"s":[[10273859369,9],[7711136635,10],[3003087999,11],[7711136644,12],[7711136655,13]]},
+  {"id":11648342,"t":{"ref":"709","name":"Bus 709: Warth => Lech am Arlberg","from":"Hochkrumbach Saloberlifte","to":"Lech am Arlberg Schlosskopf","network":"Verkehrsverbund Vorarlberg","operator":"Ortsbus Lech","route":"bus","public_transport:version":"2"},"n":12,"s":[[3003087999,1],[1209958126,2],[10273859369,3]]},
+  {"id":15999105,"t":{"ref":"Skibus","name":"Dorfbus Schröcken => Warth","from":"Schröcken Unterboden","to":"Warth Bildegg","route":"bus","public_transport:version":"2"},"n":15,"s":[[1834766071,8],[330002012,9],[3003087999,10],[1209958126,11],[10273859369,12]]},
+  {"id":15999137,"t":{"ref":"Skibus","name":"Dorfbus Warth => Schröcken","from":"Bildegg","to":"Unterboden","route":"bus","public_transport:version":"2"},"n":14,"s":[[10273859369,4],[7711136635,5],[3003087999,6],[7711136644,7],[7711136655,8]]},
+  {"id":17619623,"t":{"ref":"8R1","name":"Bus 8R1: Warth Steffisalpe => Bregenz Bahnhof","from":"Warth Steffisalpe","to":"Bregenz Bahnhof","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":17,"s":[[3003087999,2]]},
+  {"id":17619624,"t":{"ref":"8R1","name":"Bus 8R1: Bregenz Bahnhof => Warth Steffisalpe","from":"Bregenz Bahnhof","to":"Warth Steffisalpe","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":13,"s":[[3003087999,12]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3775],
+"stops":[
+  {"id":1340591383,"lat":45.446683,"lon":8.788891,"k":"p"},
+  {"id":6244608316,"lat":45.409652,"lon":8.772998,"k":"p","n":"Via Sozzago - Via Enrico Fermi (Cerano)","ref":"517"},
+  {"id":6244608317,"lat":45.409824,"lon":8.773431,"k":"p","n":"Via Sozzago - Via Enrico Fermi (Cerano)","ref":"518"},
+  {"id":6244608318,"lat":45.409787,"lon":8.776589,"k":"p","n":"Via Circonvallazione - Via Sozzago (Cerano)","ref":"515"},
+  {"id":6244608319,"lat":45.409613,"lon":8.776747,"k":"p","n":"Via Circonvallazione - Via Sozzago (Cerano)","ref":"514"},
+  {"id":6244608320,"lat":45.408114,"lon":8.781964,"k":"p","n":"Via Circonvallazione","ref":"513"},
+  {"id":6244608321,"lat":45.408307,"lon":8.782511,"k":"p","n":"Via Circonvallazione - Via Vigevano (Cerano)","ref":"512"},
+  {"id":6244608322,"lat":45.411051,"lon":8.782246,"k":"p","n":"Via IV Novembre (Cerano)","ref":"511"},
+  {"id":6244608323,"lat":45.411056,"lon":8.78203,"k":"p","n":"Via IV Novembre (Cerano)","ref":"510"},
+  {"id":6245122542,"lat":45.412655,"lon":8.780007,"k":"p","n":"Via IV Novembre - Piazza San Rocco (Cerano)"},
+  {"id":6245122543,"lat":45.412576,"lon":8.779922,"k":"p","n":"Via IV Novembre - Piazza San Rocco (Cerano)","ref":"508"},
+  {"id":6245122560,"lat":45.415063,"lon":8.776958,"k":"p","n":"Via Novara - Via Pietro Mascagni (Cerano)"},
+  {"id":6245122561,"lat":45.415139,"lon":8.77709,"k":"p","n":"Via Novara - Via Pietro Mascagni (Cerano)"},
+  {"id":6245194355,"lat":45.436802,"lon":8.752437,"k":"p","n":"Corso Roma - Via Ugo Ferrandi (Trecate)"},
+  {"id":6245194356,"lat":45.436434,"lon":8.751774,"k":"p","n":"Corso Roma - Via Dott. Cerina (Trecate)","ref":"486"},
+  {"id":6262459425,"lat":45.414852,"lon":8.778282,"k":"p","n":"Via Novara - Via Milano (Cerano)"},
+  {"id":6262459426,"lat":45.415775,"lon":8.778253,"k":"p","n":"Via Milano - Via Don Merlino","ref":"504"},
+  {"id":6262459428,"lat":45.421795,"lon":8.77934,"k":"p","n":"Via Milano 85 (Cerano)"},
+  {"id":6262459429,"lat":45.421976,"lon":8.779228,"k":"p","n":"Via Milano 85 (Cerano)","ref":"502"},
+  {"id":6262459431,"lat":45.425802,"lon":8.780768,"k":"p","n":"Via Vigevano 68"},
+  {"id":6262459432,"lat":45.426237,"lon":8.780816,"k":"p","n":"Via Vigevano 68","ref":"500"},
+  {"id":6262459433,"lat":45.436082,"lon":8.785219,"k":"p","n":"Via Vigevano"},
+  {"id":6262459434,"lat":45.438622,"lon":8.786199,"k":"p","n":"Via Vigevano"}
+],
+"routes":[
+  {"id":9275685,"t":{"ref":"8","from":"Sozzago","to":"Lumellogno","operator":"SUN S.p.A.","colour":"#FF9900","route":"bus"},"n":45,"s":[[6244608318,6],[6244608320,7],[6244608322,8],[6245122542,9],[6244608316,12],[6245122561,13],[6245194355,14]]},
+  {"id":9302621,"t":{"ref":"8","from":"Lumellogno","to":"Sozzago","operator":"SUN S.p.A.","colour":"#FF9900","route":"bus"},"n":45,"s":[[6245194356,5],[6245122543,6],[6244608323,7],[6244608321,8],[6244608319,9],[6244608317,10],[6245122560,44]]},
+  {"id":9302760,"t":{"ref":"8","from":"Cerano","to":"San Martino di Trecate","operator":"SUN S.p.A.","route":"bus"},"n":4,"s":[[6262459425,1],[6262459428,2],[6262459431,3],[6262459433,4]]},
+  {"id":9317046,"t":{"ref":"8","from":"San Martino di Trecate","to":"Cerano","operator":"SUN S.p.A.","route":"bus"},"n":4,"s":[[6262459434,1],[6262459432,2],[6262459429,3],[6262459426,4]]},
+  {"id":9325779,"t":{"ref":"9","from":"Cameri","to":"Sozzago","operator":"SUN S.p.A.","colour":"#993366","route":"bus"},"n":29,"s":[[6245194356,10],[6262459432,11],[6262459426,12],[6245122543,13],[6244608323,14],[6244608321,15],[6244608317,16],[6244608319,28]]},
+  {"id":11375247,"t":{"ref":"87","from":"Novara","to":"Vigevano","operator":"Autoguidovie S.p.A.","colour":"#2a4d9c","route":"bus"},"n":19,"s":[[6245122560,5],[6245122543,6]]},
+  {"id":11375248,"t":{"ref":"87","from":"Vigevano","to":"Novara","operator":"Autoguidovie S.p.A.","colour":"#2a4d9c","route":"bus"},"n":17,"s":[[6245122561,6],[6245122542,7]]}
+]
+}

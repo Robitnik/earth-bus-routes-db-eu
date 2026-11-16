@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3811],
+"stops":[
+  {"id":393013594,"lat":45.618363,"lon":10.560397,"k":"p","n":"Gardone Rivera"},
+  {"id":393013601,"lat":45.62616,"lon":10.581913,"k":"p","n":"Gordone Riviera Fasano"},
+  {"id":614881980,"lat":45.635271,"lon":10.599709,"k":"p","n":"Maderno piazza San Marco"},
+  {"id":2261326634,"lat":45.618538,"lon":10.561696,"k":"p","n":"Gardone Riviera"},
+  {"id":2407392167,"lat":45.615529,"lon":10.553465,"k":"p"},
+  {"id":4776616862,"lat":45.624014,"lon":10.57265,"k":"p","n":"Gardone Riv. Casino"},
+  {"id":8953454568,"lat":45.631111,"lon":10.588746,"k":"p","n":"Maderno hotel Rock"},
+  {"id":12894258601,"lat":45.622747,"lon":10.570253,"k":"p","n":"Gardone Riviera casinò"},
+  {"id":12894258602,"lat":45.620697,"lon":10.566471,"k":"p","n":"Gordone Riviera villa Alba"},
+  {"id":12894258603,"lat":45.617236,"lon":10.55714,"k":"p","n":"Gardone Riviera corso Zanardelli"},
+  {"id":12894258604,"lat":45.614371,"lon":10.550743,"k":"p","n":"Salò Barbano"},
+  {"id":12894260590,"lat":45.62561,"lon":10.575569,"k":"p","n":"Fasano (viilla delle rose)"},
+  {"id":12897982978,"lat":45.639693,"lon":10.550548,"k":"p","n":"San Michele (Gardone Riviera)"},
+  {"id":12897982980,"lat":45.630543,"lon":10.555804,"k":"p","n":"Tresnico (Gardone Riviera)"},
+  {"id":12897982981,"lat":45.629394,"lon":10.566623,"k":"p","n":"Pasture (Gardone Riviera)"},
+  {"id":12897982982,"lat":45.628885,"lon":10.570999,"k":"p","n":"Fontanone (Gardone Riviera)"},
+  {"id":12897982983,"lat":45.623354,"lon":10.563588,"k":"p","n":"Gordone Riviera pzza. Vittoriale"},
+  {"id":13703127850,"lat":45.636344,"lon":10.550755,"k":"p"}
+],
+"routes":[
+  {"id":9606130,"t":{"ref":"LN027","name":"Bus LN027: Salò->Riva del Garda","from":"Salò autostazione","to":"Riva del Garda autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[12894258604,4],[12894258603,5],[12894258601,6],[12894260590,7],[393013601,8],[8953454568,9],[614881980,10]]},
+  {"id":13163886,"t":{"name":"SLink 202","from":"Brescia-Via-Solferino-Autostazione","to":"Riva del Garda / Vestone","network":"Arriva","operator":"Arriva","route":"bus"},"n":2,"s":[[614881980,1]]},
+  {"id":13164015,"t":{"ref":"027","name":"LN027","from":"Desenzano Stazione","to":"Riva del Garda-Autostazione","operator":"DB Arriva","route":"bus"},"n":2,"s":[[614881980,1]]},
+  {"id":19221090,"t":{"ref":"LN027","name":"Bus LN027: Riva del Garda-> Salò","from":"Riva del Garda autostazione","to":"Salò autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":33,"s":[[614881980,24],[8953454568,25],[393013601,26],[12894260590,27],[12894258601,28],[12894258602,29],[12894258603,30],[12894258604,31]]},
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[12894258604,40],[12894258603,41],[12894258602,42],[12894258601,43],[12894260590,44],[393013601,45],[8953454568,46],[614881980,47]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[614881980,25],[8953454568,26],[393013601,27],[12894260590,28],[12894258601,29],[12894258602,30],[12894258603,31],[12894258604,32]]},
+  {"id":19227589,"t":{"ref":"LN005","name":"Bus LN005: San Michele->Gardone Riviera->Salò","from":"Salò Via Zane, mercato","to":"San Michele - Gardone Riviera","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12897982978,1],[12897982981,3],[12897982982,4],[12897982983,5],[12894258601,6],[12894258602,7],[12894258603,8],[12894258604,9]]},
+  {"id":19227590,"t":{"ref":"LN005","name":"Bus LN005: Salò->Gardone Riviera->San Michele","from":"Salò Via Zane, mercato","to":"San Michele","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12894258604,5],[12894258603,6],[12894258602,7],[12894258601,8],[12897982983,9],[12897982982,10],[12897982981,11],[12897982978,13]]}
+]
+}

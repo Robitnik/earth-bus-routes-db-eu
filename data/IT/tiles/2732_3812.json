@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2732,3812],
+"stops":[
+  {"id":296330680,"lat":46.634432,"lon":10.611515,"k":"p","n":"Bahnhof Spondinig - Stazione Spondigna"},
+  {"id":4596357192,"lat":46.634233,"lon":10.611401,"k":"p","n":"Bahnhof Spondinig - Stazione Spondigna"},
+  {"id":6822484410,"lat":46.628951,"lon":10.649675,"k":"p","n":"Eyrs, Edelweiß - Oris, Edelweiß"},
+  {"id":7416709373,"lat":46.626698,"lon":10.646467,"k":"x","n":"Bahnhof Eyrs - Stazione Oris"},
+  {"id":9911203889,"lat":46.634404,"lon":10.611448,"k":"x","n":"Bahnhof Spondinig - Stazione Spondigna"},
+  {"id":9911203890,"lat":46.634331,"lon":10.611389,"k":"x","n":"Bahnhof Spondinig - Stazione Spondigna"},
+  {"id":12557260142,"lat":46.628906,"lon":10.649595,"k":"x","n":"Eyrs, Edelweiß - Oris, Edelweiß"},
+  {"id":12557260143,"lat":46.628858,"lon":10.649973,"k":"x","n":"Eyrs, Edelweiß - Oris, Edelweiß"},
+  {"id":12557260144,"lat":46.63,"lon":10.640308,"k":"p","n":"Eyrs, Tuftweg - Oris, Via Tuft"},
+  {"id":12557260145,"lat":46.6301,"lon":10.640506,"k":"p","n":"Eyrs, Tuftweg - Oris, Via Tuft"},
+  {"id":12557260146,"lat":46.630064,"lon":10.640391,"k":"x","n":"Eyrs, Tuftweg - Oris, Via Tuft"}
+],
+"routes":[
+  {"id":3228358,"t":{"ref":"271","name":"Bus 271: Sulden => Stilfs => Prad => Spondinig => Laas","from":"Sulden","to":"Laas","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":24,"s":[[4596357192,21],[12557260144,22]]},
+  {"id":14391650,"t":{"ref":"271","name":"Bus 271: Laas => Spondinig => Prad => Stilfs => Sulden","from":"Laas","to":"Sulden","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":24,"s":[[6822484410,3],[12557260145,4],[4596357192,5]]},
+  {"id":14713033,"t":{"ref":"272","name":"Bus 272: Laas => Spondinig => Prad => Glurns => Mals","from":"Laas","to":"Mals","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":14,"s":[[6822484410,3],[12557260145,4],[296330680,5]]},
+  {"id":14713034,"t":{"ref":"272","name":"Bus 272: Mals => Glurns => Prad => Spondinig => Laas","from":"Mals","to":"Laas","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":13,"s":[[4596357192,10],[12557260144,11]]},
+  {"id":18654357,"t":{"ref":"B250","name":"Bus B250: Mals => Laas => Meran","from":"Mals","to":"Meran","operator":"SAD Bus","route":"bus","public_transport:version":"2"},"n":18,"s":[[4596357192,3]]},
+  {"id":18654926,"t":{"ref":"B250","name":"Bus B250: Meran => Laas => Mals","from":"Meran","to":"Mals","operator":"SAD Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[6822484410,28],[4596357192,29]]},
+  {"id":18664551,"t":{"ref":"271","name":"Bus 271: Trafoi => Stilfs => Prad => Spondinig => Laas","from":"Trafoi","to":"Laas","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":19,"s":[[4596357192,16],[12557260144,17]]},
+  {"id":18664578,"t":{"ref":"271","name":"Bus 271: Laas => Spondinig => Prad => Stilfs => Trafoi","from":"Laas","to":"Trafoi","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":19,"s":[[6822484410,3],[12557260145,4],[4596357192,5]]}
+]
+}

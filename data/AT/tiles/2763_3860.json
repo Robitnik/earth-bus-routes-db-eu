@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2763,3860],
+"stops":[
+  {"id":9394055467,"lat":48.151986,"lon":13.035804,"k":"p","n":"Neukirchen Oberguggen"},
+  {"id":9394055468,"lat":48.15128,"lon":13.034864,"k":"p","n":"Neukirchen Oberguggen"},
+  {"id":9394055469,"lat":48.166299,"lon":13.04826,"k":"p","n":"Neukirchen Dietzing"},
+  {"id":9394055473,"lat":48.166281,"lon":13.048366,"k":"p","n":"Neukirchen Dietzing"},
+  {"id":9394055475,"lat":48.178273,"lon":13.047364,"k":"p","n":"Neukirchen an der Enknach Ortsmitte"},
+  {"id":9394055489,"lat":48.19998,"lon":13.042513,"k":"p","n":"Enknach Bundesstraße/Abzw Ort"},
+  {"id":9467372898,"lat":48.152,"lon":13.035761,"k":"x","n":"Neukirchen Oberguggen"},
+  {"id":9467372899,"lat":48.151402,"lon":13.035076,"k":"x","n":"Neukirchen Oberguggen"},
+  {"id":9467372900,"lat":48.151441,"lon":13.035016,"k":"p","n":"Neukirchen Oberguggen"}
+],
+"routes":[
+  {"id":13637497,"t":{"ref":"881","name":"Bus 881: Neukirchen/Enknach - Mattighofen","from":"Neukirchen an der Enknach Ortsmitte","to":"Mattighofen Busbahnhof","route":"bus","public_transport:version":"2"},"n":13,"s":[[9394055475,1]]},
+  {"id":13637498,"t":{"ref":"881","name":"Bus 881: Mattighofen - Neukirchen/E. - Braunau","from":"Mattighofen Busbahnhof","to":"Braunau Busbahnhof (Kolpingstraße)","route":"bus","public_transport:version":"2"},"n":24,"s":[[9394055475,13]]},
+  {"id":13637501,"t":{"ref":"880","name":"Bus 880: Oberndorf - Eggelsberg - Braunau","from":"Oberndorf b. S. Bahnhof","to":"Braunau Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":39,"s":[[9394055467,24],[9394055473,25],[9394055475,26]]},
+  {"id":13637502,"t":{"ref":"880","name":"Bus 880: Braunau => Eggelsberg => Oberndorf","from":"Braunau Bahnhof","to":"Oberndorf b. S. Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":38,"s":[[9394055489,10],[9394055475,13],[9394055469,14],[9394055468,15]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3828],
+"stops":[
+  {"id":3161483470,"lat":46.348341,"lon":11.405739,"k":"x","n":"Stadt"},
+  {"id":10049894139,"lat":46.342606,"lon":11.40016,"k":"p","n":"Grube"},
+  {"id":12481885206,"lat":46.348291,"lon":11.405767,"k":"p","n":"Stadt"},
+  {"id":12481885207,"lat":46.34838,"lon":11.405719,"k":"p","n":"Stadt"},
+  {"id":12481885208,"lat":46.342437,"lon":11.400032,"k":"x","n":"Grube"},
+  {"id":13003760775,"lat":46.300934,"lon":11.447789,"k":"p","n":"Daiano"},
+  {"id":13003891603,"lat":46.301189,"lon":11.404297,"k":"p","n":"Cela Aguai paese"}
+],
+"routes":[
+  {"id":18519175,"t":{"ref":"145","name":"Bus 145: Aldein => Kaltenbrunn => Radein","from":"Aldein","to":"Radein","operator":"Gemeinde Aldein","route":"bus","public_transport:version":"2"},"n":10,"s":[[12481885207,9]]},
+  {"id":18519191,"t":{"ref":"145","name":"Bus 145: Radein => Kaltenbrunn => Aldein","from":"Radein","to":"Aldein","operator":"Gemeinde Aldein","route":"bus","public_transport:version":"2"},"n":10,"s":[[12481885206,2],[10049894139,3]]},
+  {"id":19250035,"t":{"ref":"145","name":"Bus 145: Radein => Kaltenbrunn => Aldein => Geoparc Bletterbach => Schmieder Alm","from":"Radein","to":"Schmieder Alm","operator":"Gemeinde Aldein","route":"bus","public_transport:version":"2"},"n":17,"s":[[12481885206,2],[10049894139,3]]},
+  {"id":19250036,"t":{"ref":"145","name":"Bus 145: Schmieder Alm => Geoparc Bletterbach => Aldein => Kaltenbrunn => Radein","from":"Schmieder Alm","to":"Radein","operator":"Gemeinde Aldein","route":"bus","public_transport:version":"2"},"n":17,"s":[[12481885207,16]]},
+  {"id":19357674,"t":{"ref":"B108","name":"Bus B108: Passo Oclini->Passo Lavacè->Varena->Daiano->Cavalese","from":"Passo Oclin","to":"Cavalese Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[13003760775,10]]},
+  {"id":19357675,"t":{"ref":"B108","name":"Bus B108: Cavalese->Daiano->Varena->Passo Lavacè->Passo Oclini","from":"Cavalese Autostazione","to":"Passo Oclini","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[13003760775,7]]},
+  {"id":19357843,"t":{"ref":"B111","name":"Bus B111: Cavalese->Carano->Villagio Veronza","from":"Cavalese Autostazione","to":"Villagio Veronza Htl. Veronza Aguai","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":11,"s":[[13003891603,11]]}
+]
+}

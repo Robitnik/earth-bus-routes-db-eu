@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2746,3800],
+"stops":[
+  {"id":279251960,"lat":47.315757,"lon":10.009718,"k":"x","n":"Schoppernau Niederau"},
+  {"id":330004945,"lat":47.314459,"lon":10.012726,"k":"p","n":"Schoppernau Riese"},
+  {"id":500678662,"lat":47.31017,"lon":10.021384,"k":"p","n":"Schoppernau Oberdorf"},
+  {"id":500678939,"lat":47.314397,"lon":10.01268,"k":"x","n":"Schoppernau Riese"},
+  {"id":1834766073,"lat":47.312139,"lon":10.016564,"k":"p","n":"Schoppernau Gemeindeamt"},
+  {"id":1834766074,"lat":47.314357,"lon":10.012689,"k":"p","n":"Schoppernau Riese"},
+  {"id":2304054960,"lat":47.31011,"lon":10.021365,"k":"x","n":"Schoppernau Oberdorf"},
+  {"id":3003060206,"lat":47.316595,"lon":10.008176,"k":"p","n":"Schoppernau Diedamskopfbahn"},
+  {"id":4918581054,"lat":47.307647,"lon":10.023973,"k":"x","n":"Schoppernau Hinterm Stein"},
+  {"id":6594221267,"lat":47.315842,"lon":10.009626,"k":"p","n":"Schoppernau Niederau"},
+  {"id":7709919541,"lat":47.31225,"lon":10.016569,"k":"x","n":"Schoppernau Gemeindeamt"},
+  {"id":7709919543,"lat":47.312313,"lon":10.016508,"k":"p","n":"Schoppernau Gemeindeamt"},
+  {"id":7709919557,"lat":47.316578,"lon":10.008241,"k":"x","n":"Schoppernau Diedamskopfbahn"},
+  {"id":7710161572,"lat":47.307657,"lon":10.024021,"k":"p","n":"Schoppernau Hinterm Stein"},
+  {"id":7710161573,"lat":47.307576,"lon":10.023962,"k":"p","n":"Schoppernau Hinterm Stein"}
+],
+"routes":[
+  {"id":2305730,"t":{"ref":"840","name":"Bus 840: Schoppernau => Bregenz","from":"Schoppernau Gemeindeamt","to":"Bregenz Bahnhof","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","colour":"#c82128","route":"bus","public_transport:version":"2"},"n":48,"s":[[7709919543,1],[330004945,2],[6594221267,3],[3003060206,4]]},
+  {"id":2305732,"t":{"ref":"850","name":"Bus 850: Schoppernau => Dornbirn","from":"Schoppernau Gemeindeamt","to":"Dornbirn Bahnhof","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":61,"s":[[7709919543,1],[330004945,2],[6594221267,3],[3003060206,4]]},
+  {"id":3340275,"t":{"ref":"850","name":"Bus 850: Dornbirn => Schoppernau","from":"Dornbirn Bahnhof","to":"Schoppernau Gemeindeamt","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":61,"s":[[3003060206,58],[6594221267,59],[1834766074,60],[1834766073,61]]},
+  {"id":3340724,"t":{"ref":"840","name":"Bus 840: Bregenz => Schoppernau","from":"Bregenz Bahnhof","to":"Schoppernau Gemeindeamt","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","colour":"#c82128","route":"bus","public_transport:version":"2"},"n":49,"s":[[3003060206,46],[6594221267,47],[1834766074,48],[1834766073,49]]},
+  {"id":6058206,"t":{"ref":"852","name":"Bus 852: Schoppernau => Lech","from":"Schoppernau Gemeindeamt","to":"Lech Schlosskopf","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":25,"s":[[1834766073,1],[500678662,2],[7710161573,3]]},
+  {"id":11301382,"t":{"ref":"852","name":"Bus 852: Lech => Schoppernau","from":"Lech Schlosskopf","to":"Schoppernau Gemeindeamt","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":25,"s":[[7710161572,23],[500678662,24],[7709919543,25]]},
+  {"id":17619623,"t":{"ref":"8R1","name":"Bus 8R1: Warth Steffisalpe => Bregenz Bahnhof","from":"Warth Steffisalpe","to":"Bregenz Bahnhof","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":17,"s":[[7709919543,4]]},
+  {"id":17619624,"t":{"ref":"8R1","name":"Bus 8R1: Bregenz Bahnhof => Warth Steffisalpe","from":"Bregenz Bahnhof","to":"Warth Steffisalpe","network":"Verkehrsverbund Vorarlberg","operator":"Landbus Bregenzerwald","route":"bus","public_transport:version":"2"},"n":13,"s":[[1834766073,10]]}
+]
+}

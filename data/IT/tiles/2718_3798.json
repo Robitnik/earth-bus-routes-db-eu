@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3798],
+"stops":[
+  {"id":451761973,"lat":45.945095,"lon":9.924989,"k":"p","n":"Ardesio - ponte seghe (bivio valcanale)"},
+  {"id":451765525,"lat":45.934734,"lon":9.924763,"k":"p","n":"Ardesio - via lombardia (carpignolo)"},
+  {"id":451765526,"lat":45.926667,"lon":9.926325,"k":"p","n":"Ardesio - via valzella (bivio ludrigno)"},
+  {"id":13965425310,"lat":45.937862,"lon":9.929756,"k":"p","n":"Ardesio - p.za monte grappa"},
+  {"id":13965425329,"lat":45.945197,"lon":9.925641,"k":"p","n":"Ardesio - ponte seghe (bivio gromo)"},
+  {"id":13965425330,"lat":45.940297,"lon":9.930014,"k":"p","n":"Ardesio - via leonardo (scuole)"},
+  {"id":13965425331,"lat":45.937948,"lon":9.929793,"k":"p","n":"Ardesio - p.za monte grappa"},
+  {"id":13965425346,"lat":45.933151,"lon":9.930294,"k":"p","n":"Ardesio - via locatelli (discoteca)"},
+  {"id":13965425347,"lat":45.930845,"lon":9.927384,"k":"p","n":"Ardesio - via locatelli (distribut.)"},
+  {"id":13965425348,"lat":45.916292,"lon":9.925029,"k":"p","n":"Valzella - provinciale (semaforo)"},
+  {"id":13965425349,"lat":45.911572,"lon":9.924883,"k":"p","n":"Ardesio - via gazza (more)"},
+  {"id":13965425350,"lat":45.906435,"lon":9.926891,"k":"p","n":"Villa d'Ogna - bv.valbondione"},
+  {"id":13965425351,"lat":45.907385,"lon":9.930702,"k":"p","n":"Villa d'Ogna - v. rimembranze (munic.)"},
+  {"id":13967779774,"lat":45.948347,"lon":9.902509,"k":"p","n":"Rizzoli - via val las"},
+  {"id":13967779794,"lat":45.947946,"lon":9.914609,"k":"p","n":"Marinoni - chiesa"},
+  {"id":13967779795,"lat":45.947167,"lon":9.922732,"k":"p","n":"Ardesio - via ponte acqualina"},
+  {"id":13967779796,"lat":45.938769,"lon":9.924273,"k":"p","n":"Ardesio - via lombardia (vetek)"},
+  {"id":13967779797,"lat":45.932147,"lon":9.925834,"k":"p","n":"Ardesio - via lombardia (centrale enel)"},
+  {"id":13983811289,"lat":45.903004,"lon":9.923492,"k":"p","n":"Villa d'Ogna - provinciale/via rasini"},
+  {"id":14002119114,"lat":45.910785,"lon":9.932228,"k":"p","n":"Villa d'Ogna - via battisti (ogna)"},
+  {"id":14002119121,"lat":45.915115,"lon":9.944676,"k":"p","n":"Oltressenda Alta - via foppello"},
+  {"id":14002119122,"lat":45.914405,"lon":9.942879,"k":"p","n":"Oltressenda Alta - provinc.le/beccarelli"},
+  {"id":14002119123,"lat":45.911516,"lon":9.940521,"k":"p","n":"Oltressenda Alta - via cima ba"}
+],
+"routes":[
+  {"id":12585480,"t":{"ref":"S50a","name":"Bus S50a: San Lorenzo=>Parre","from":"San Lorenzo","to":"Parre","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":37,"s":[[13965425351,29],[13965425350,30],[13983811289,31]]},
+  {"id":12591763,"t":{"ref":"S60b","name":"Bus S60b: Ardesio->Valcanale Babes","from":"Ardesio Monte Grappa","to":"Valcanale Babes","operator":"Bergamo trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[13965425310,1],[13965425346,2],[13965425347,3],[13967779797,4],[451765525,5],[451761973,6],[13967779795,7],[13967779794,8],[13967779774,9]]},
+  {"id":12593058,"t":{"ref":"S60a","name":"Bus S60a: Clusone-Stazione -> Lizzola -> Via Manina (Bucaneve)","from":"Clusone - Stazione","to":"Lizzola - Via Manina (Bucaneve)","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":41,"s":[[13965425351,11],[13965425350,12],[13965425349,13],[13965425348,14],[451765526,15],[13965425347,16],[13965425346,17],[13965425331,18],[13965425330,19],[13965425329,20]]},
+  {"id":21031137,"t":{"ref":"S60a","name":"Bus S60a: Via Manina (Bucaneve) -> Stazione=>Lizzola -> Clusone","from":"Lizzola - Via Manina (Bucaneve)","to":"Clusone - Stazione","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":42,"s":[[13965425329,22],[13965425330,23],[13965425310,24],[13965425346,25],[13965425347,26],[451765526,27],[13965425348,28],[13965425349,29],[13965425350,30],[13965425351,31]]},
+  {"id":21033617,"t":{"ref":"S60b","name":"Bus S60b: Valcanale Babes->Ardesio","from":"Valcanale Babes","to":"Valcanale Babes Ardesio Monte Grappa","operator":"Bergamo Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[13967779774,9],[13967779794,10],[13967779795,11],[451761973,12],[451765525,13],[13967779797,14],[13965425347,15],[13965425346,16],[13965425331,17]]},
+  {"id":21057895,"t":{"ref":"S50a","name":"Bus S50a: Parre=>San Lorenzo","from":"Parre","to":"San Lorenzo","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13983811289,7],[13965425350,8],[13965425351,9]]},
+  {"id":21084258,"t":{"ref":"S50d","name":"Bus S50d: Oltressenda->Clusone","from":"Oltressenda Alta - via foppello","to":"Clusone stazione","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":16,"s":[[14002119121,1],[14002119122,2],[14002119123,3],[14002119114,4],[13965425351,5]]},
+  {"id":21084259,"t":{"ref":"S50d","name":"Bus S50d: Clusone->Oltressenda","from":"Clusone - Stazione","to":"OLTRESSENDA ALTA Foppello","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":15,"s":[[13965425351,11],[14002119114,12],[14002119123,13],[14002119122,14],[14002119121,15]]}
+]
+}

@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3868],
+"stops":[
+  {"id":7686928674,"lat":45.928161,"lon":13.402398,"k":"p"},
+  {"id":7686928678,"lat":45.90008,"lon":13.419545,"k":"p","n":"Versa"},
+  {"id":10742660376,"lat":45.932422,"lon":13.445953,"k":"p","n":"Borgnano"},
+  {"id":10742660377,"lat":45.932367,"lon":13.446072,"k":"p","n":"Borgnano","ref":"G0201"},
+  {"id":13825930007,"lat":45.908958,"lon":13.440083,"k":"p","n":"Fratta di Romans","ref":"G1512"},
+  {"id":13825930008,"lat":45.91727,"lon":13.426576,"k":"p","n":"Medea Via XXIV Maggio","ref":"G1101"}
+],
+"routes":[
+  {"id":15614638,"t":{"ref":"G51","name":"Bus G51: Udine → Trieste Airport","from":"Udine","to":"Trieste Airport","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[10742660376,8]]},
+  {"id":15614639,"t":{"ref":"G51","name":"Bus G51: Trieste Airport → Udine","from":"Trieste Airport","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[10742660377,12]]},
+  {"id":20681492,"t":{"ref":"G02","name":"Gorizia - Marano del Friuli - Cormons","from":"Gorizia Centro Intermodale","to":"Cormons FS","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[13825930007,18],[13825930008,19],[10742660377,20]]}
+]
+}

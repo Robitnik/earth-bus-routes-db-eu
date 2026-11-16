@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3832],
+"stops":[
+  {"id":250314606,"lat":46.337237,"lon":11.609336,"k":"x","n":"Mezzavalle B SKI-146"},
+  {"id":250314608,"lat":46.337632,"lon":11.609938,"k":"x","n":"Mezzavalle A SKI-146"},
+  {"id":2308972577,"lat":46.347364,"lon":11.625572,"k":"x","n":"Forno B SKI-11x"},
+  {"id":4392421926,"lat":46.311485,"lon":11.616605,"k":"p","n":"Predazzo Baldiss"},
+  {"id":4692005823,"lat":46.309853,"lon":11.604547,"k":"x","n":"Predazzo Autostazione SKI-148"},
+  {"id":4692005824,"lat":46.328554,"lon":11.600223,"k":"x","n":"Predazzo Stalimen Impianti Latemar Ski-147"},
+  {"id":4692005828,"lat":46.347283,"lon":11.62484,"k":"x","n":"Forno A SKI-113"},
+  {"id":13005115240,"lat":46.314635,"lon":11.647278,"k":"p","n":"Bellamonte Albergo Zaluna"},
+  {"id":13005115241,"lat":46.311427,"lon":11.615483,"k":"p","n":"Predezzo Piscina Com."},
+  {"id":13005115242,"lat":46.309792,"lon":11.604577,"k":"p","n":"Predazzo Autostazione (tutti gli autobus)"},
+  {"id":13046464897,"lat":46.328541,"lon":11.600312,"k":"p","n":"Predazzo Implanti Latemar"},
+  {"id":13046464898,"lat":46.347274,"lon":11.62527,"k":"p","n":"Forno"},
+  {"id":13046464899,"lat":46.337716,"lon":11.610138,"k":"p","n":"Mezzavalle"}
+],
+"routes":[
+  {"id":113579,"t":{"ref":"B101","name":"Bus B101: (Trento)->Cavalese->Predazzo->Campitello->Canazei->Penia","from":"Trento Autostazione","to":"Penia","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":50,"s":[[13005115242,15],[13046464897,19],[13046464899,20],[13046464898,21]]},
+  {"id":6980895,"t":{"ref":"B101","name":"Bus B101: Penia ->Canazei->Capitello->Predazzo->Cavalese ->(Trento)","from":"Penia","to":"Cavalese","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":46,"s":[[13046464898,31],[13046464899,32],[13046464897,33],[13005115242,37]]},
+  {"id":6991200,"t":{"ref":"Ski-1R Val di Fassa","name":"SKIBUS-1R Predazzo - Penia","operator":"SkiBus_Val di Fassa","route":"bus","public_transport:version":"2"},"n":52,"s":[[4692005823,1],[4692005824,2],[250314606,3],[2308972577,4]]},
+  {"id":19359535,"t":{"ref":"B122","name":"Bus B122: Fiera di Primiero->S.Martino di C.->P.Rolle->Fiera di Primiero->Predazzo","from":"Fiera di Primiero","to":"Predazo Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":33,"s":[[13005115240,31],[13005115241,32],[13005115242,33]]},
+  {"id":19359536,"t":{"ref":"B122","name":"Bus B122: Pedazzo->P. Rolle->S.Martino di C.->Fiera di Primiero","from":"Predazo Autostazione","to":"Fiera di Primiero","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":33,"s":[[13005115242,1],[13005115241,2],[13005115240,3]]}
+]
+}

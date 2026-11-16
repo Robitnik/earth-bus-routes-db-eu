@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3820],
+"stops":[
+  {"id":6125013165,"lat":46.405352,"lon":11.017576,"k":"p","n":"Livio"},
+  {"id":9952865732,"lat":46.449585,"lon":11.009076,"k":"p","n":"Scassio"},
+  {"id":9952865733,"lat":46.449517,"lon":11.008916,"k":"p","n":"Scassio"},
+  {"id":12993687426,"lat":46.448754,"lon":11.011455,"k":"p","n":"Corte Superiore Bivio"},
+  {"id":12993687427,"lat":46.446632,"lon":11.012624,"k":"p","n":"Marcena Du Park"},
+  {"id":12993687428,"lat":46.439084,"lon":11.02625,"k":"p","n":"Corte Inferiore Bivio"},
+  {"id":12993687429,"lat":46.437066,"lon":11.027961,"k":"p","n":"Mione"},
+  {"id":12993687430,"lat":46.440859,"lon":11.021991,"k":"p","n":"Marcena Ori"},
+  {"id":12993687431,"lat":46.442029,"lon":11.017107,"k":"p","n":"Marcena"},
+  {"id":12993687432,"lat":46.445224,"lon":11.009614,"k":"p","n":"Marcena Molini"},
+  {"id":12993687433,"lat":46.432548,"lon":11.01903,"k":"p","n":"Livio SP6 Al Km 6"},
+  {"id":12993687434,"lat":46.409824,"lon":11.016653,"k":"p","n":"Preghena Nord"},
+  {"id":12993687436,"lat":46.408969,"lon":11.010672,"k":"p","n":"Preghena Ovest"},
+  {"id":12993687437,"lat":46.407209,"lon":11.011943,"k":"p","n":"Preghena SP68 Bivio"},
+  {"id":12993722505,"lat":46.400056,"lon":11.002409,"k":"p","n":"Cis"}
+],
+"routes":[
+  {"id":19343125,"t":{"ref":"B634","name":"Bus B634: Variante: Praghena Nord->Livio diretto","from":"Marcena;Praghena Nord","to":"Livio","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12993687431,1],[12993687432,2],[12993687433,3],[12993687434,4],[6125013165,5]]},
+  {"id":19343126,"t":{"ref":"B634","name":"Bus B634: Variante: Livo->Praghena Nord diretto","from":"Livio","to":"Praghena Nord;Marcena","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[6125013165,1],[12993687434,2],[12993687433,3],[12993687432,4],[12993687431,5]]},
+  {"id":19343127,"t":{"ref":"B634","name":"Bus B634: Lanza di Rumo->Bresimo->Livio->Cles","from":"Lanza di Rumo","to":"Cles - Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":23,"s":[[9952865733,3],[12993687426,4],[12993687427,5],[12993687429,6],[12993687428,7],[12993687430,8],[12993687431,9],[12993687432,10],[12993687433,11],[12993687434,12],[12993687436,16],[12993687437,17],[6125013165,18]]},
+  {"id":19343128,"t":{"ref":"B634","name":"Bus B634: Cles->Livo->Bresimo->Lanza di Rumo","from":"Cles - Autostazione","to":"Lanza di Rumo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":22,"s":[[6125013165,5],[12993687437,6],[12993687436,7],[12993687434,11],[12993687433,12],[12993687432,13],[12993687431,14],[12993687430,15],[12993687429,16],[12993687428,17],[12993687427,18],[12993687426,19],[9952865732,20]]},
+  {"id":19343177,"t":{"ref":"B633","name":"Bus B633: Cis->Mestizzolo-Cles","from":"Cis","to":"Cles - Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":3,"s":[[12993722505,1]]},
+  {"id":19343178,"t":{"ref":"B633","name":"Bus B633: Cles->Mestizzolo-Cis","from":"Cles - Autostazione","to":"Cis","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":3,"s":[[12993722505,3]]}
+]
+}

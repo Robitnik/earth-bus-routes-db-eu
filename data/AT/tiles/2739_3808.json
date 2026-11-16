@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2739,3808],
+"stops":[
+  {"id":287558049,"lat":46.960182,"lon":10.402979,"k":"x","n":"Compatsch Kirche"},
+  {"id":287558060,"lat":46.960535,"lon":10.404694,"k":"x","n":"Compatsch Dorf"},
+  {"id":984712877,"lat":46.960797,"lon":10.420168,"k":"x","n":"Spissermühle"},
+  {"id":984713305,"lat":46.960069,"lon":10.401753,"k":"p","n":"Erlebnisbad"},
+  {"id":984713640,"lat":46.960563,"lon":10.40469,"k":"p","n":"Compatsch Dorf"},
+  {"id":1457327212,"lat":46.957896,"lon":10.438484,"k":"x","n":"Spiss Abzw Dorf"},
+  {"id":1495977021,"lat":46.959522,"lon":10.430658,"k":"x","n":"Spiss Dorf"},
+  {"id":8187767064,"lat":46.959547,"lon":10.43056,"k":"p","n":"Spiss Dorf"},
+  {"id":8187767070,"lat":46.957967,"lon":10.438515,"k":"p","n":"Spiss Abzw Dorf"},
+  {"id":8407547562,"lat":46.960147,"lon":10.402962,"k":"p","n":"Compatsch Kirche"},
+  {"id":8407582978,"lat":46.958263,"lon":10.402728,"k":"p","n":"Compatsch Abzweigung"},
+  {"id":11118810102,"lat":46.960769,"lon":10.420123,"k":"p","n":"Spissermühle"},
+  {"id":13990611889,"lat":46.958287,"lon":10.402822,"k":"x","n":"Compatsch Abzweigung"},
+  {"id":13990611892,"lat":46.96014,"lon":10.401703,"k":"x","n":"Erlebnisbad"},
+  {"id":13992772321,"lat":46.957894,"lon":10.438756,"k":"x","n":"Spiss Abzw Dorf"},
+  {"id":13992772322,"lat":46.957846,"lon":10.438732,"k":"p","n":"Spiss Abzw Dorf"}
+],
+"routes":[
+  {"id":2459154,"t":{"ref":"921","name":"Bus 921: Ftan → Samnaun-Dorf","from":"Ftan, Cumün","to":"Samnaun-Dorf, Post","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":9,"s":[[8187767070,6],[11118810102,7],[984713640,8],[984713305,9]]},
+  {"id":11972354,"t":{"ref":"212","name":"Bus 212: Spiss => Pfunds","from":"Spiss Dorf","to":"Pfunds Stuben Kirche","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[8187767064,1],[13992772322,2]]},
+  {"id":11972356,"t":{"ref":"212","name":"Bus 212: Pfunds => Spiss","from":"Pfunds Stuben Kirche","to":"Spiss Dorf","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[8187767070,4],[8187767064,5]]},
+  {"id":12293158,"t":{"ref":"921","name":"Bus 921: Scuol-Tarasp → Sent → Samnaun-Dorf","from":"Scuol-Tarasp, Staziun","to":"Samnaun-Dorf, Post","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":9,"s":[[8187767070,6],[11118810102,7],[984713640,8],[984713305,9]]},
+  {"id":12293173,"t":{"ref":"921","name":"Bus 921: Samnaun-Dorf → Sent → Scuol-Tarasp","from":"Samnaun-Dorf, Post","to":"Scuol-Tarasp, Staziun","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":9,"s":[[984713305,1],[984713640,2],[11118810102,3],[13992772322,4]]},
+  {"id":12293177,"t":{"ref":"951","name":"Bus 951: Samnaun-Dorf, Pra Grond → Samnaun-Compatsch, Erlebnisbad","from":"Samnaun-Dorf, Pra Grond","to":"Samnaun-Compatsch, Erlebnisbad","network":"CH-GR","operator":"PAG","colour":"#EB3323","route":"bus","public_transport:version":"2"},"n":2,"s":[[13990611892,2]]},
+  {"id":12293416,"t":{"ref":"951","name":"Bus 951: Samnaun-Compatsch, Erlebnisbad → Samnaun-Dorf, Musella","from":"Samnaun-Compatsch, Erlebnisbad","to":"Samnaun-Dorf, Musella","network":"CH-GR","operator":"PAG","colour":"#EB3323","route":"bus","public_transport:version":"2"},"n":3,"s":[[984713305,1],[8407547562,2],[984713640,3]]},
+  {"id":12293417,"t":{"ref":"951","name":"Bus 951: Samnaun-Dorf, Musella → Samnaun-Compatsch, Erlebnisbad","from":"Samnaun-Dorf, Musella","to":"Samnaun-Compatsch, Erlebnisbad","network":"CH-GR","operator":"PAG","colour":"#EB3323","route":"bus","public_transport:version":"2"},"n":2,"s":[[13990611892,2]]},
+  {"id":12293418,"t":{"ref":"921","name":"Bus 921: Samnaun-Dorf → Ftan","from":"Samnaun-Dorf, Post","to":"Ftan, Cumün","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":9,"s":[[984713305,1],[984713640,2],[11118810102,3],[13992772322,4]]},
+  {"id":12293513,"t":{"ref":"952","name":"Bus 952: Samnaun-Compatsch → Samnaun-Dorf","from":"Samnaun-Compatsch, Abzweigung","to":"Samnaun-Dorf, Musella","network":"CH-GR","operator":"PAG","colour":"#2C70BA","route":"bus","public_transport:version":"2"},"n":2,"s":[[13990611889,1],[8407582978,2]]},
+  {"id":12293514,"t":{"ref":"952","name":"Bus 952: Samnaun-Dorf → Samnaun-Compatsch","from":"Samnaun-Dorf, Musella","to":"Samnaun-Compatsch, Abzweigung","network":"CH-GR","operator":"PAG","colour":"#2C70BA","route":"bus","public_transport:version":"2"},"n":2,"s":[[984713640,1],[8407582978,2]]},
+  {"id":12293515,"t":{"ref":"952","name":"Bus 952: Samnaun-Dorf → Samnaun-Compatsch","from":"Samnaun-Dorf, Musella","to":"Samnaun-Compatsch, Abzweigung","network":"CH-GR","operator":"PAG","colour":"#2C70BA","route":"bus","public_transport:version":"2"},"n":2,"s":[[13990611889,1],[8407582978,2]]},
+  {"id":21069725,"t":{"ref":"951","name":"Bus 951: Samnaun-Compatsch, Erlebnisbad → Samnaun-Dorf, Pra Grond","from":"Samnaun-Compatsch, Erlebnisbad","to":"Samnaun-Dorf, Pra Grond","network":"CH-GR","operator":"PAG","colour":"#EB3323","route":"bus","public_transport:version":"2"},"n":3,"s":[[984713305,1],[8407547562,2],[984713640,3]]}
+]
+}

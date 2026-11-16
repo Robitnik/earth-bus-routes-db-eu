@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3822],
+"stops":[
+  {"id":449657276,"lat":45.916824,"lon":11.135133,"k":"p","n":"Mezzomonte di Sotto"},
+  {"id":449657872,"lat":45.916517,"lon":11.138829,"k":"p","n":"Mezzomonte (di Sopra)"},
+  {"id":670422958,"lat":45.936623,"lon":11.10991,"k":"p","n":"Besenello sud dir. Rovereto"},
+  {"id":670422964,"lat":45.946568,"lon":11.105781,"k":"p","n":"Besenello nord dir. Rovereto"},
+  {"id":670422965,"lat":45.946662,"lon":11.105866,"k":"p","n":"Besenello nord dir. Trento"},
+  {"id":670422966,"lat":45.942688,"lon":11.108661,"k":"p","n":"Besenello dir. Trento"},
+  {"id":670422967,"lat":45.941804,"lon":11.109957,"k":"p","n":"Besenello dir. Rovereto"},
+  {"id":1399421531,"lat":45.917609,"lon":11.137891,"k":"p","n":"Mezzomonte(di Sopra)"},
+  {"id":3009949834,"lat":45.919504,"lon":11.141736,"k":"p","n":"Mezzamonte Az. Agricola (La Fonte)"},
+  {"id":6252054365,"lat":45.926942,"lon":11.118741,"k":"p","n":"Dietrobeseno"},
+  {"id":6252054369,"lat":45.926984,"lon":11.118585,"k":"p","n":"Dietrobeseno"},
+  {"id":6252054990,"lat":45.925022,"lon":11.120524,"k":"p","n":"Dietrabesena Chiesetta"},
+  {"id":6252054991,"lat":45.925131,"lon":11.120548,"k":"p","n":"Dietrabesena Chiesetta"},
+  {"id":10946928631,"lat":45.937407,"lon":11.110885,"k":"p","n":"Besenello sud dir. Trento"},
+  {"id":12694815643,"lat":45.919316,"lon":11.145001,"k":"p","n":"Peneri"},
+  {"id":12694815644,"lat":45.919001,"lon":11.145178,"k":"p","n":"Peneri"},
+  {"id":12848271962,"lat":45.907345,"lon":11.132389,"k":"p","n":"Guardia"},
+  {"id":12849543118,"lat":45.922915,"lon":11.135275,"k":"p","n":"Mezzamonte Loc Barco"}
+],
+"routes":[
+  {"id":16165886,"t":{"ref":"B306","name":"Bus B306: Rovereto->Callano->Folgaria->Lavarone","from":"Rovereto","to":"Lavarone","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":53,"s":[[6252054369,13],[6252054990,14],[449657276,15],[449657872,16],[12849543118,17],[3009949834,18],[12694815644,19]]},
+  {"id":19145869,"t":{"ref":"B306","name":"Bus B306: Lavarone->Folgario->Callano-->Rovereto","from":"Lavarone","to":"Rovereto Statione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":52,"s":[[12694815643,35],[3009949834,36],[12849543118,37],[1399421531,38],[449657276,39],[6252054991,40],[6252054365,41]]},
+  {"id":19149032,"t":{"ref":"B306","name":"Bus B306: Variante: Guardia->Mezzamonte","from":"Guardia di Folgaria","to":"Mezzamonte di Sopra","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[12848271962,1],[449657872,2]]},
+  {"id":19149033,"t":{"ref":"B306","name":"Bus B306: Variante: Mezzamonte->Guardia","from":"Mezzamonte","to":"Guardia di Folgaria","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[449657872,1],[12848271962,2]]},
+  {"id":19151494,"t":{"ref":"B306","name":"Bus B306: Variante: Folgaria->Mezzamonte direttamenta","from":"Folgaria Capella","to":"Rovereto Statione FS","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[1399421531,2]]},
+  {"id":19271847,"t":{"ref":"B301","name":"Bus B301: Rovereto->Calliano->Besenello->Trento","from":"Trento Autostazione","to":"Trento Autostzione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":29,"s":[[10946928631,11],[670422966,12],[670422965,13]]},
+  {"id":19271848,"t":{"ref":"B301","name":"Bus B301: Trento->Besenello->Calliano->Rovereto","from":"Trento Autostazione","to":"Rovereto Via Manzoni","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[670422964,13],[670422967,14],[670422958,15]]},
+  {"id":19286695,"t":{"ref":"V","name":"Bus V:Volano->Besenello->Calliano->Nomi","from":"Volana Des Tor","to":"Nomi piazza Springa","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":15,"s":[[670422964,10],[670422967,11],[670422958,12]]}
+]
+}

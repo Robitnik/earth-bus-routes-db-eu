@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2718,3869],
+"stops":[
+  {"id":1594345633,"lat":45.913269,"lon":13.459687,"k":"p","n":"Mariano del Friuli (via Manzoni)"},
+  {"id":1594345634,"lat":45.917828,"lon":13.457894,"k":"p","n":"Mariano del Friuli (municipio)"},
+  {"id":2639402899,"lat":45.924596,"lon":13.497422,"k":"p","n":"Moraro Cimitero","ref":"G1304"},
+  {"id":3085762367,"lat":45.917778,"lon":13.457758,"k":"p","n":"Mariano del Friuli (municipio)"},
+  {"id":6423275111,"lat":45.928707,"lon":13.494544,"k":"p","n":"Moraro Via Gradisca"},
+  {"id":6423275112,"lat":45.930324,"lon":13.495483,"k":"p","n":"Moraro"},
+  {"id":7691942496,"lat":45.946662,"lon":13.482955,"k":"p","n":"Cormons - via Isonzo"},
+  {"id":7691942498,"lat":45.946849,"lon":13.482598,"k":"p","n":"Cormons - via Isonzo"},
+  {"id":10742660379,"lat":45.91324,"lon":13.459832,"k":"p","n":"Mariano del Friuli (via Manzoni)"},
+  {"id":10941987432,"lat":45.91768,"lon":13.458419,"k":"p","n":"Mariano del Friuli via Roma (fronte 9, municipio)","ref":"G1003"},
+  {"id":13825930003,"lat":45.928373,"lon":13.494714,"k":"p","n":"Moraro via Gradisca","ref":"G1303"},
+  {"id":13825930004,"lat":45.930419,"lon":13.49539,"k":"p","n":"Moraro via Petrarca (centro)","ref":"G1302"},
+  {"id":13825930005,"lat":45.919409,"lon":13.481227,"k":"p","n":"Corona Via campo sportivo","ref":"G1001"},
+  {"id":13825930006,"lat":45.918205,"lon":13.463383,"k":"p","n":"Marano del Friuli (scuole)","ref":"G1002"}
+],
+"routes":[
+  {"id":15614638,"t":{"ref":"G51","name":"Bus G51: Udine → Trieste Airport","from":"Udine","to":"Trieste Airport","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[3085762367,9],[1594345633,10]]},
+  {"id":15614639,"t":{"ref":"G51","name":"Bus G51: Trieste Airport → Udine","from":"Trieste Airport","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[10742660379,10],[1594345634,11]]},
+  {"id":16501964,"t":{"ref":"G23","name":"Bus G23: Gorizia → Cormons → Cividale","from":"Gorizia","to":"Cividale","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":33,"s":[[7691942498,10]]},
+  {"id":16508185,"t":{"ref":"G23","name":"Bus G23: Cividale → Cormons → Gorizia","from":"Cormons","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":31,"s":[[7691942496,22]]},
+  {"id":20681492,"t":{"ref":"G02","name":"Gorizia - Marano del Friuli - Cormons","from":"Gorizia Centro Intermodale","to":"Cormons FS","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[13825930004,12],[13825930003,13],[2639402899,14],[10941987432,15],[13825930006,16],[13825930005,17]]}
+]
+}

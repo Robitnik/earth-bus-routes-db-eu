@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2761,3871],
+"stops":[
+  {"id":3277004240,"lat":48.099867,"lon":13.569196,"k":"p","n":"Ampflwang Wassenbach"},
+  {"id":3771679847,"lat":48.078478,"lon":13.56395,"k":"p","n":"Ort b. Ampflwang"},
+  {"id":3771679853,"lat":48.085628,"lon":13.56294,"k":"p","n":"Ampflwang Siedlung"},
+  {"id":4210307723,"lat":48.052437,"lon":13.570955,"k":"p","n":"Puchkirchen Mairigen"},
+  {"id":4275117889,"lat":48.068976,"lon":13.568201,"k":"p","n":"Scheiblwies b.Ampflwang"},
+  {"id":4275117937,"lat":48.069294,"lon":13.568144,"k":"p","n":"Scheiblwies b.Ampflwang"},
+  {"id":4429423278,"lat":48.064469,"lon":13.567409,"k":"p","n":"Puchkirchen Pichl"},
+  {"id":4432467079,"lat":48.05992,"lon":13.568748,"k":"p","n":"Puchkirchen Hendorf"},
+  {"id":5459453926,"lat":48.07712,"lon":13.598797,"k":"p","n":"Zell am Pettenfirst Ortsmitte"},
+  {"id":7572775888,"lat":48.099516,"lon":13.569214,"k":"p","n":"Ampflwang Wassenbach"},
+  {"id":7575247596,"lat":48.09404,"lon":13.567441,"k":"p","n":"Ampflwang Volksschule"},
+  {"id":7575247597,"lat":48.094031,"lon":13.567765,"k":"p","n":"Ampflwang Volksschule"},
+  {"id":8173228150,"lat":48.085655,"lon":13.56696,"k":"p","n":"Ampflwang Scharamühl"},
+  {"id":8173228159,"lat":48.085769,"lon":13.565987,"k":"p","n":"Ampflwang Scharamühl"},
+  {"id":8173228164,"lat":48.084681,"lon":13.563123,"k":"p","n":"Ampflwang Siedlung"},
+  {"id":8173228169,"lat":48.078903,"lon":13.563666,"k":"p","n":"Ort b. Ampflwang"},
+  {"id":8173228175,"lat":48.064342,"lon":13.567315,"k":"p","n":"Puchkirchen Pichl"},
+  {"id":8173228176,"lat":48.059852,"lon":13.568927,"k":"p","n":"Puchkirchen Hendorf"},
+  {"id":8173228177,"lat":48.051956,"lon":13.571319,"k":"p","n":"Puchkirchen Mairigen"},
+  {"id":8173457976,"lat":48.07561,"lon":13.581028,"k":"p","n":"Zell am Pettenfirst Bruck"},
+  {"id":8173457981,"lat":48.07602,"lon":13.581465,"k":"p","n":"Zell am Pettenfirst Bruck"},
+  {"id":8173457990,"lat":48.077188,"lon":13.598882,"k":"p","n":"Zell am Pettenfirst Ortsmitte"},
+  {"id":9327901811,"lat":48.05067,"lon":13.557586,"k":"p","n":"Neukirchen Waltersdorf"},
+  {"id":9327901812,"lat":48.050737,"lon":13.557051,"k":"p","n":"Neukirchen Waltersdorf"}
+],
+"routes":[
+  {"id":11795537,"t":{"ref":"583","name":"Bus 583: Neukirchen Kogl - Gampern","route":"bus","public_transport:version":"2"},"n":19,"s":[[9327901811,3]]},
+  {"id":11955554,"t":{"ref":"708","name":"Bus 708: Ampflwang - Timelkam - Vöcklabruck","from":"Ampflwang Volksschule","to":"Vöcklabruck Busbahnhof (Schulzentrum Wagrain)","route":"bus","public_transport:version":"2"},"n":23,"s":[[7575247596,1],[8173228150,2],[8173228164,3],[8173228169,4],[4275117937,5],[8173228175,6],[4432467079,7],[4210307723,8]]},
+  {"id":11955555,"t":{"ref":"708","name":"Bus 708: Vöcklabruck - Timelkam - Ampflwang","from":"Vöcklabruck Busbahnhof (Schulzentrum Wagrain)","to":"Ampflwang Volksschule","route":"bus","public_transport:version":"2"},"n":23,"s":[[8173228177,16],[8173228176,17],[4429423278,18],[4275117889,19],[3771679847,20],[3771679853,21],[8173228159,22],[7575247596,23]]},
+  {"id":11955738,"t":{"ref":"706","name":"Bus 706: Ampflwang - Zell - Pilsbach - Vöcklabruck","from":"Ampflwang Volksschule","to":"Vöcklabruck Busbahnhof (Öttlstraße)","route":"bus","public_transport:version":"2"},"n":20,"s":[[7575247596,1],[8173228150,2],[8173228164,3],[8173228169,4],[8173457976,5],[5459453926,6]]},
+  {"id":11955739,"t":{"ref":"706","name":"Bus 706: Vöcklabruck - Pilsbach - Zell - Ampflwang","from":"Vöcklabruck Busbahnhof (Öttlstraße)","to":"Ampflwang Volksschule","route":"bus","public_transport:version":"2"},"n":19,"s":[[8173457990,14],[8173457981,15],[3771679847,16],[3771679853,17],[8173228159,18],[7575247596,19]]},
+  {"id":11981595,"t":{"ref":"700","name":"Bus 700: Variante über Waltersdorf (Richtung Vöcklabruck)","route":"bus","public_transport:version":"2"},"n":6,"s":[[9327901812,4]]},
+  {"id":11981596,"t":{"ref":"700","name":"Bus 700: Variante über Waltersdorf (Richtung Frankenburg)","route":"bus","public_transport:version":"2"},"n":6,"s":[[9327901811,3]]},
+  {"id":12241288,"t":{"ref":"852","name":"Bus 852: Ried - Eberschwang - Ampflwang","from":"Ried im Innkreis Volksfeststraße","to":"Ampflwang Siedlung","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":25,"s":[[7572775888,22],[7575247596,23],[8173228150,24],[8173228164,25]]},
+  {"id":12241289,"t":{"ref":"852","name":"Bus 852: Ampflwang - Eberschwang - Ried","from":"Ampflwang Siedlung","to":"Ried im Innkreis Volksfeststraße","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":27,"s":[[3771679853,1],[8173228159,2],[7575247597,3],[3277004240,4]]},
+  {"id":16863622,"t":{"ref":"583","name":"Bus 583: Gampern Kirchenplatz - Neukirchen Kogl","route":"bus","public_transport:version":"2"},"n":15,"s":[[9327901812,13]]}
+]
+}

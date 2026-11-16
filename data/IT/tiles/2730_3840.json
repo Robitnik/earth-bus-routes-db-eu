@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2730,3840],
+"stops":[
+  {"id":1826356451,"lat":46.518723,"lon":12.008818,"k":"p","n":"Passo Falzarego"},
+  {"id":5190394697,"lat":46.514155,"lon":12.001648,"k":"p","n":"Albergo Sass de Stria"},
+  {"id":5190515842,"lat":46.519935,"lon":12.019238,"k":"p","n":"Col Gallina"},
+  {"id":5190515843,"lat":46.519113,"lon":12.027591,"k":"p","n":"Ra Nona"},
+  {"id":5190515844,"lat":46.520512,"lon":12.03882,"k":"p","n":"Cinque Torri"},
+  {"id":5190515845,"lat":46.522125,"lon":12.047825,"k":"p","n":"Sotto Rozes"},
+  {"id":8367652654,"lat":46.518985,"lon":12.008708,"k":"p","n":"Passo Falzarego"},
+  {"id":8904978986,"lat":46.520391,"lon":12.03889,"k":"p","n":"Cinque Torri"},
+  {"id":8904978987,"lat":46.521999,"lon":12.047934,"k":"p","n":"Sotto Rozes"},
+  {"id":8904978988,"lat":46.519116,"lon":12.027391,"k":"p","n":"Ra Nona"},
+  {"id":8904978989,"lat":46.519986,"lon":12.019011,"k":"p","n":"Col Gallina"},
+  {"id":8904978991,"lat":46.51404,"lon":12.00127,"k":"p","n":"Albergo Sass de Stria"},
+  {"id":11338997239,"lat":46.518963,"lon":12.008791,"k":"x","n":"Passo Falzarego"}
+],
+"routes":[
+  {"id":7682641,"t":{"ref":"1/3/30/31","name":"Belluno -> Agordo -> Cortina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":69,"s":[[5190394697,39],[1826356451,40],[8904978989,41],[8904978988,42],[8904978986,43],[8904978987,44]]},
+  {"id":12896373,"t":{"ref":"1/3/30/31","name":"Tre Cime -> Cortina -> Agordo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":71,"s":[[5190515845,19],[5190515844,20],[5190515843,21],[5190515842,22],[8367652654,23],[8904978991,24]]},
+  {"id":13016641,"t":{"ref":"30/31","name":"Passo Falzarego -> Cortina -> Tre Cime","from":"Passo Falzarego","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":21,"s":[[8904978986,18],[8904978987,19],[8904978989,20],[8904978988,21]]},
+  {"id":13016642,"t":{"ref":"30/31","name":"Tre Cime -> Cortina -> Passo Falzarego","from":"Tre Cime - Rifugio Auronzo","to":"Passo Falzarego","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":21,"s":[[5190515845,15],[5190515844,16],[5190515842,20],[5190515843,21]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[1826356451,72],[8904978989,73],[8904978988,74],[8904978986,75],[8904978987,76]]},
+  {"id":13763143,"t":{"ref":"72","name":"Cortina (per S.Cassiano)/Falcade -> Agordo -> Belluno -> Venezia P.le Roma","from":"Cortina - Autostazione","to":"Venezia Piazzale Roma","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":10,"s":[[5190515845,5],[5190515844,6],[5190515843,7],[5190515842,8],[8367652654,9]]},
+  {"id":13791987,"t":{"ref":"30Skibus","name":"Borca Villaggio -> Cortina Autostazione -> Passo Falzarego","from":"Villaggio Agip - Albergo Boite","to":"Passo Falzarego","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[5190515845,25],[5190515844,26],[5190515843,27],[5190515842,28]]},
+  {"id":13791988,"t":{"ref":"30Skibus","name":"Passo Falzarego -> Cortina Autostazione -> Borca Villaggio","from":"Passo Falzarego","to":"Viaalggio Agip - Albergo Boite","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[8904978989,1],[8904978988,2],[8904978986,3],[8904978987,4]]},
+  {"id":14745332,"t":{"ref":"465","name":"Bus 465: Corvara => La Ila => San Ćascian => Passo Falzarego","from":"Corvara","to":"Passo Falzarego","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":17,"s":[[8367652654,17]]},
+  {"id":14745743,"t":{"ref":"465","name":"Bus 465: Passo Falzarego => San Ćascian => La Ila => Corvara","from":"Passo Falzarego","to":"Corvara","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":17,"s":[[8367652654,1]]},
+  {"id":18502778,"t":{"ref":"468","name":"Bus 468: Passo Falzarego => La Ila => Badia => Picolin","from":"Passo Falzarego","to":"Picolin","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[8367652654,1]]}
+]
+}

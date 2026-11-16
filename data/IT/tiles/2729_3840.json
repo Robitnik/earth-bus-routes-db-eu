@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3840],
+"stops":[
+  {"id":2963354803,"lat":46.450559,"lon":12.022309,"k":"x"},
+  {"id":5153081159,"lat":46.450493,"lon":12.022354,"k":"p","n":"Pian di Colle"},
+  {"id":5153081160,"lat":46.45131,"lon":12.034819,"k":"p","n":"Selva di Cadore"},
+  {"id":5153081161,"lat":46.450338,"lon":12.043592,"k":"p","n":"Passadora"},
+  {"id":5201868074,"lat":46.484722,"lon":12.046937,"k":"p","n":"Rifugio Piezza"},
+  {"id":5201868075,"lat":46.487257,"lon":12.035186,"k":"p","n":"Fedare Impianti"},
+  {"id":8849285073,"lat":46.450593,"lon":12.022256,"k":"p","n":"Pian di Colle"},
+  {"id":8849285075,"lat":46.451402,"lon":12.034871,"k":"p","n":"Selva di Cadore"},
+  {"id":8849285077,"lat":46.450513,"lon":12.043406,"k":"p","n":"Passadora"},
+  {"id":8933695586,"lat":46.48734,"lon":12.035123,"k":"p","n":"Fedare Impianti"},
+  {"id":8942218701,"lat":46.484619,"lon":12.046929,"k":"p","n":"Rifugio Piezza"}
+],
+"routes":[
+  {"id":7633729,"t":{"ref":"4","name":"Caprile -> Colle Santa Lucia -> Pescul","from":"Caprile","to":"Pescul","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":11,"s":[[2963354803,4],[5153081160,5],[5153081161,6],[5153081159,11]]},
+  {"id":7698233,"t":{"ref":"30/4","name":"Cortina -> Passo Giau -> Selva di Cadore -> Pescul","from":"Cortina Autostazione","to":"Pescul","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":13,"s":[[8933695586,7],[5201868074,9],[5153081161,12],[5153081160,13]]},
+  {"id":12865271,"t":{"ref":"4","name":"Pescul -> Colle Santa Lucia -> Caprile","from":"Pescul","to":"Caprile","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":10,"s":[[8849285077,5],[8849285075,6],[8849285073,7]]},
+  {"id":12938115,"t":{"ref":"10","name":"Caprile -> Colle S.Lucia -> Longarone -> Aeroporto -> Venezia P.le Roma","from":"caprile","to":"Venezia Piazzale Roma","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[5153081160,3],[5153081161,4],[5153081159,9]]},
+  {"id":12938116,"t":{"ref":"10","name":"Venezia P.le Roma -> Aeroporto -> Longarone -> Colle S.Lucia -> Caprile","from":"Venezia Piazzale Roma","to":"Caprile","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":35,"s":[[8849285073,5],[8849285075,6],[8849285077,7]]},
+  {"id":12991681,"t":{"ref":"30/4","name":"Pescul -> Selva di Cadore -> Passo Giau -> Cortina d'Ampezzo","from":"Pescul","to":"Cortina d'Ampezzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":12,"s":[[5201868075,7],[8942218701,8],[8849285075,9],[8849285077,10]]},
+  {"id":13892159,"t":{"ref":"4Skibus","name":"Pescul Impianti -> Fedare Impianti","from":"Pescul Impianti","to":"Fedare Impianti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":5,"s":[[8849285077,4],[8849285075,5]]},
+  {"id":13892529,"t":{"ref":"4Skibus","name":"Fedare Impianti -> Pescul Impianti","from":"Fedare Impianti","to":"Pescul Impianti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":5,"s":[[5153081160,1],[5153081161,2]]}
+]
+}

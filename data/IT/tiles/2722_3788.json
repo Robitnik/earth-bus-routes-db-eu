@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2722,3788],
+"stops":[
+  {"id":12019734372,"lat":46.130337,"lon":9.445921,"k":"p","n":"Tavani Poncina (Delebio, Valeriana fr. 17 )"},
+  {"id":12019734373,"lat":46.131873,"lon":9.438529,"k":"p","n":"Tavani (Piantedo, V. Emanuele II/fr. Roma)"},
+  {"id":12019734374,"lat":46.134011,"lon":9.432845,"k":"p","n":"Piantedo centro"},
+  {"id":12019734375,"lat":46.138133,"lon":9.425539,"k":"p","n":"Piantedo Veronesa (Piantedo, Volta/S.Giovanni Bosco)"},
+  {"id":13930886910,"lat":46.137255,"lon":9.404828,"k":"p","n":"COLICO, Al Confine/fr. Str. Granda"},
+  {"id":13930886912,"lat":46.141864,"lon":9.415947,"k":"p","n":"GERA LARIO, Tre Confini, Centro Comm."},
+  {"id":13930886921,"lat":46.134006,"lon":9.432127,"k":"p","n":"PIANTEDO, V. Emanuele II/fr. Roma"},
+  {"id":13941753407,"lat":46.130709,"lon":9.44232,"k":"p","n":"Delebio, Tavani, Valeriana 21"},
+  {"id":13941753408,"lat":46.138103,"lon":9.425398,"k":"p","n":"Piantedo, S.Giovanni Bosco/Colico"}
+],
+"routes":[
+  {"id":2749830,"t":{"ref":"A10","name":"A10 Morbegno -> Delebio -> Colico","from":"Morbegno Stazione Ferroviaria","network":"STPS","operator":"STPS","route":"bus","public_transport:version":"2"},"n":24,"s":[[12019734372,16],[13941753407,17],[12019734373,18],[13930886921,19],[12019734375,20],[13930886912,21],[13930886910,22]]},
+  {"id":20970482,"t":{"ref":"A10","name":"A10 Colico -> Delebio -> Morbegno","from":"Morbegno Stazione Ferroviaria","network":"STPS","operator":"STPS","route":"bus","public_transport:version":"2"},"n":23,"s":[[13930886912,3],[13941753408,4],[13930886921,5],[12019734373,6],[13941753407,7],[12019734372,8]]},
+  {"id":21040678,"t":{"ref":"D122","name":"Bus D122: Linea urbana Colico Olgiasca->Cent.Com.","from":"Olgiasca","to":"Centro Commerciale","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[13930886912,15]]},
+  {"id":21040679,"t":{"ref":"D122","name":"Bus D122: Linea urbana Colico Cent.Com.->Olgiasca","from":"Centro Commerciale","to":"Olgiasca","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[13930886912,1]]}
+]
+}

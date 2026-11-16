@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3793],
+"stops":[
+  {"id":516021397,"lat":45.986037,"lon":9.671945,"k":"x","n":"Piazzolo - SS470 (Bivio Piazzolo)"},
+  {"id":1579324792,"lat":45.991893,"lon":9.689687,"k":"p","n":"Piazzatorre - via santa lucia"},
+  {"id":1827282785,"lat":45.979909,"lon":9.670324,"k":"x","n":"Piazzolo - via galli (piazza)"},
+  {"id":3713194930,"lat":45.966532,"lon":9.652394,"k":"x","n":"Olmo al Brembo - via frola"},
+  {"id":12023231158,"lat":45.99097,"lon":9.684964,"k":"p"},
+  {"id":12023231159,"lat":45.991257,"lon":9.687709,"k":"p"},
+  {"id":12023279671,"lat":45.989295,"lon":9.681955,"k":"p","n":"Piazzatorre - via santa lucia (centro)"},
+  {"id":12023279672,"lat":45.990495,"lon":9.682522,"k":"p","n":"Via Quattro Novembre"},
+  {"id":12023279673,"lat":45.979845,"lon":9.670241,"k":"p","n":"Piazzolo - via galli (piazza)"},
+  {"id":12031112444,"lat":45.990529,"lon":9.682465,"k":"x","n":"Via Quattro Novembre"},
+  {"id":12031112445,"lat":45.989243,"lon":9.681962,"k":"x","n":"Piazzatorre - via santa lucia (centro)"},
+  {"id":12031112446,"lat":45.991911,"lon":9.689754,"k":"x","n":"Piazzatorre - via santa lucia"},
+  {"id":13603453900,"lat":45.961741,"lon":9.659367,"k":"p","n":"Olmo al Brembo - bivio frola"},
+  {"id":13603549844,"lat":45.966551,"lon":9.652403,"k":"p","n":"Olmo al Brembo - via frola"},
+  {"id":13604795733,"lat":45.988856,"lon":9.672185,"k":"p","n":"Piazzatorre - provinciale bivio p.bremb."},
+  {"id":13604795734,"lat":45.992935,"lon":9.677019,"k":"p","n":"Piazzatorre - via IV novembre (piazzole)"},
+  {"id":13604795740,"lat":45.986041,"lon":9.671973,"k":"p","n":"Piazzolo - SS470 (Bivio Piazzolo)"},
+  {"id":13604795741,"lat":45.981151,"lon":9.665834,"k":"p","n":"Olmo al Brembo - via tasso (ai)"},
+  {"id":13604795742,"lat":45.977857,"lon":9.660558,"k":"p","n":"Olmo al Brembo - via tasso (malpasso)"},
+  {"id":13604795743,"lat":45.974565,"lon":9.654681,"k":"p","n":"Olmo al Brembo - via donizetti (brina"}
+],
+"routes":[
+  {"id":12645000,"t":{"ref":"B50a","name":"Linea B50a Piazza Brembana -> Valtorta","from":"Piazza brembana - via locatelli (sab)","to":"Valtorta - via roma (uff.turistico)","route":"bus","public_transport:version":"2"},"n":11,"s":[[13603453900,2],[13603549844,3]]},
+  {"id":12646289,"t":{"ref":"B50b","name":"Linea B50b Piazza Brembana -> Cusio","from":"Piazza brembana - via locatelli (sab)","to":"Cusio - via colle maddalena (capolinea)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[13603453900,2]]},
+  {"id":17799846,"t":{"ref":"B50c","name":"Linea B50c Piazza Brembana -> Mezzoldo -> Piazzatorre","from":"Piazza Brembana - Stazione S.A.B.","to":"Piazzatorre Loc. Santa Lucia","network":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[13603453900,2],[13604795743,5],[13604795742,6],[13604795741,7],[13604795740,8,10],[12023279673,9],[13604795733,11],[13604795734,19],[12023279672,20],[12023279671,21],[1579324792,22]]},
+  {"id":20266879,"t":{"ref":"B50b","name":"Linea B50b Cusio -> Piazza Brembana","from":"Cusio - via colle maddalena (capolinea)","to":"Piazza Brembana - via locatelli (sab)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[13603453900,13]]},
+  {"id":20267199,"t":{"ref":"B50a","name":"Linea B50a Valtorta -> Piazza Brembana","from":"Valtorta - via roma (uff.turistico)","to":"Piazza brembana - via locatelli (sab)","route":"bus","public_transport:version":"2"},"n":8,"s":[[13603453900,7]]},
+  {"id":20268346,"t":{"ref":"B50c","name":"Linea B50c Piazzatorre ->Mezzolado->Piazza Brembana Variante diretto","from":"Piazzatorre - via santa lucia","to":"Piazza Brembana - Stazione S.A.B.","network":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":4,"s":[[12023279671,1],[12023279672,2],[13604795734,3],[13604795733,4]]},
+  {"id":20268347,"t":{"ref":"B50c","name":"Linea B50c Piazzatorre ->Mezzolado->Piazza Brembana","from":"Piazzatorre - via santa lucia","to":"Piazza Brembana - Stazione S.A.B.","network":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[1579324792,1],[12023279671,2],[12023279672,3],[13604795734,4],[13604795733,12],[13604795740,13,15],[12023279673,14],[13604795741,16],[13604795742,17],[13604795743,18],[13603453900,21]]}
+]
+}

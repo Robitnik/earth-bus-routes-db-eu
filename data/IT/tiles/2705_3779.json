@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2705,3779],
+"stops":[
+  {"id":2231969233,"lat":45.290829,"lon":8.986656,"k":"p","n":"Via De Gasperi - Via Borgomaneri (Motta Visconti)"},
+  {"id":2231969236,"lat":45.285986,"lon":8.993441,"k":"p"},
+  {"id":2231969238,"lat":45.290624,"lon":8.986594,"k":"p","n":"Via De Gasperi - Via Borgomaneri (Motta Visconti)"},
+  {"id":2231969240,"lat":45.287376,"lon":8.992928,"k":"p","n":"Via Soriani, (Motta Visconti)"},
+  {"id":2231969246,"lat":45.285957,"lon":8.993356,"k":"p"}
+],
+"routes":[
+  {"id":2846182,"t":{"ref":"z556","name":"z556 Motta Visconti","network":"STIBM","operator":"STAV Autolinee","route":"bus"},"n":2,"s":[[2231969238,1]]},
+  {"id":2846183,"t":{"ref":"z556","name":"z556 Abbiategrasso","network":"STIBM","operator":"STAV Autolinee","route":"bus"},"n":2,"s":[[2231969233,1]]},
+  {"id":7330141,"t":{"ref":"z516","name":"Bus z516 Milano Famagosta => Besate","from":"Milano Famagosta M2","to":"Besate","network":"STIBM","operator":"PMT","route":"bus","public_transport:version":"2"},"n":6,"s":[[2231969240,4],[2231969233,5]]},
+  {"id":7330142,"t":{"ref":"z516","name":"z516 Famagosta M2","from":"Besate","network":"STIBM","operator":"PMT","route":"bus"},"n":4,"s":[[2231969238,2]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2723,3826],
+"stops":[
+  {"id":2677152491,"lat":46.178442,"lon":11.324691,"k":"p","n":"Brusago Via Alighieri 12"},
+  {"id":2677152561,"lat":46.179311,"lon":11.325327,"k":"p","n":"Brusago Via Alighieri 12"},
+  {"id":2677152905,"lat":46.182294,"lon":11.325957,"k":"p","n":"Brusago"},
+  {"id":2677152928,"lat":46.182488,"lon":11.325897,"k":"p","n":"Brusago"},
+  {"id":7467977577,"lat":46.186537,"lon":11.329616,"k":"p","n":"Brusago Civ. 4 Montepeloso"},
+  {"id":13016690740,"lat":46.158172,"lon":11.303827,"k":"p","n":"Regnana Via dei Tamagi"},
+  {"id":13016690741,"lat":46.154155,"lon":11.310017,"k":"p","n":"Regnana"},
+  {"id":13016690742,"lat":46.156181,"lon":11.308928,"k":"p","n":"Regnana Via Redebus 9"},
+  {"id":13016690743,"lat":46.160819,"lon":11.302295,"k":"p","n":"Centrale di Bedollo"},
+  {"id":13029274964,"lat":46.19931,"lon":11.327231,"k":"p","n":"Sette Fontane Bivio"},
+  {"id":13029274965,"lat":46.194299,"lon":11.327725,"k":"p","n":"Brusago Maso Gabart"},
+  {"id":13029274966,"lat":46.175819,"lon":11.321384,"k":"p","n":"Brusago Via Verdi"},
+  {"id":13029274967,"lat":46.17304,"lon":11.317146,"k":"p","n":"Bedello Villagio"},
+  {"id":13029274968,"lat":46.170072,"lon":11.31256,"k":"p","n":"Bedello Bivio"},
+  {"id":13029274969,"lat":46.168684,"lon":11.309352,"k":"p","n":"Bedollo Via Ronchi Civ. 4"},
+  {"id":13029274970,"lat":46.165038,"lon":11.301367,"k":"p","n":"Bedollo"}
+],
+"routes":[
+  {"id":19377115,"t":{"ref":"B429","name":"Bus B429: Regnana->Centrale","from":"Regnana","to":"Centrale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[13016690741,1],[13016690742,2],[13016690740,3],[13016690743,5]]},
+  {"id":19377116,"t":{"ref":"B429","name":"Bus B429: Centrale->Regnana","from":"Centrale","to":"Regnana","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[13016690743,1],[13016690740,3],[13016690742,4],[13016690741,5]]},
+  {"id":19386406,"t":{"ref":"B402","name":"Bus B402: Trento->Rovarè->Baselgo di Pinè->Montesover","from":"Trento Autostazione","to":"Montesover","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":39,"s":[[13016690743,22],[13029274970,23],[13029274969,24],[13029274968,25],[13029274967,26],[13029274966,27],[2677152561,28],[2677152905,29],[7467977577,30],[13029274965,31],[13029274964,32]]},
+  {"id":19395827,"t":{"ref":"B402","name":"Bus B402: Montesover->Baselgo di Pinè->Rovarè->Trento","from":"Montesover","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":38,"s":[[13029274964,8],[13029274965,9],[7467977577,10],[2677152928,11],[2677152491,12],[13029274966,13],[13029274967,14],[13029274968,15],[13029274969,16],[13016690743,17]]},
+  {"id":19414081,"t":{"ref":"B403","name":"Bus B403: Trento->Pergine->Baselga di Pinè->Montesover","from":"Trento Autostazione","to":"Montesover","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":55,"s":[[13016690743,39],[13029274970,40],[13029274969,41],[13029274967,42],[13029274966,43],[2677152561,44],[2677152905,45],[7467977577,46],[13029274965,47],[13029274964,48]]},
+  {"id":19414190,"t":{"ref":"B403","name":"Bus B403: Montesover->Baselga di Pinè->Pergine->Trento","from":"Montesover","to":"Trento Aitostzione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":57,"s":[[13029274964,8],[13029274965,9],[7467977577,10],[2677152928,11],[2677152491,12],[13029274966,13],[13029274967,14],[13029274968,15],[13029274969,16],[13029274970,17],[13016690743,18]]}
+]
+}

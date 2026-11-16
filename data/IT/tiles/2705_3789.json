@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2705,3789],
+"stops":[
+  {"id":2324369477,"lat":45.26412,"lon":9.459616,"k":"p"},
+  {"id":3547340621,"lat":45.277503,"lon":9.457117,"k":"p","n":"Pieve Fissiraga - Via Isola Rota/Via Bocconi"},
+  {"id":3650663172,"lat":45.268622,"lon":9.457982,"k":"p"},
+  {"id":4433849922,"lat":45.284891,"lon":9.489503,"k":"p","n":"Cornegliano Laudense - SP186"},
+  {"id":4433849923,"lat":45.285024,"lon":9.489134,"k":"p","n":"Cornegliano Laudense - SP186"},
+  {"id":4454679225,"lat":45.277386,"lon":9.457238,"k":"p","n":"Pieve Fissiraga - Via Isola Rota/Via Bocconi"},
+  {"id":4630860395,"lat":45.26217,"lon":9.490398,"k":"p","n":"Massalengo - Via Amendola"},
+  {"id":4630860450,"lat":45.260984,"lon":9.49379,"k":"p","n":"Massalengo - Viale Liberazione"},
+  {"id":4630865705,"lat":45.264383,"lon":9.495766,"k":"p","n":"Massalengo - Pensilina"},
+  {"id":5784480257,"lat":45.299517,"lon":9.499918,"k":"p","n":"Via Tobagi 14"},
+  {"id":8807888992,"lat":45.264536,"lon":9.488114,"k":"p","n":"Massalengo - Via IV Novembre"},
+  {"id":10059303581,"lat":45.262619,"lon":9.487677,"k":"p","n":"Massalengo - Piazza Chiesa"},
+  {"id":12640985758,"lat":45.290245,"lon":9.474734,"k":"p"},
+  {"id":12640985759,"lat":45.29003,"lon":9.47472,"k":"p"},
+  {"id":13687315258,"lat":45.280093,"lon":9.463143,"k":"p","n":"Pieve Fissiraga - Via Pavia/Via Bologna"},
+  {"id":13687315259,"lat":45.280793,"lon":9.464845,"k":"p","n":"Pieve Fissiraga - Via Pavia/Via Bologna"},
+  {"id":13687315260,"lat":45.284243,"lon":9.470277,"k":"p","n":"Cornegliano Laudense - Piazza Giovanni XXIII"},
+  {"id":13784906114,"lat":45.281676,"lon":9.472181,"k":"p","n":"Cornegliano L. Muzza - Olimpia (C. Sport)"}
+],
+"routes":[
+  {"id":5924728,"t":{"ref":"3","name":"Bus 3","operator":"Line","route":"bus"},"n":14,"s":[[5784480257,12]]},
+  {"id":20385919,"t":{"ref":"S005","name":"Bus S005: San Colombano al Lambro => Milano San Donato M3","from":"San Colombano al Lambro","to":"S. Donato M3","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":18,"s":[[4630865705,11],[4433849923,13],[13687315260,14],[13687315258,15],[3547340621,16]]},
+  {"id":20610941,"t":{"ref":"S005","name":"Bus S005: Milano San Donato M3 => San Colombano al Lambro","from":"S. Donato M3","to":"San Colombano al Lambro","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":19,"s":[[4454679225,4],[13687315259,5],[13784906114,6],[4433849922,7],[4630865705,9]]},
+  {"id":20623478,"t":{"ref":"S013","name":"Bus S013: Massalengo => Lodi","from":"Massalengo - Via IV Novembre","to":"Lodi FS","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":10,"s":[[8807888992,1],[10059303581,2],[4630860395,3],[4630860450,4],[4630865705,5]]},
+  {"id":20623479,"t":{"ref":"S013","name":"Bus S013: Lodi => Massalengo","from":"Lodi FS","to":"Massalengo - Via IV Novembre","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":5,"s":[[8807888992,5]]},
+  {"id":20663216,"t":{"ref":"S013","name":"Bus S013: Graffignana => Lodi","from":"Graffignana","to":"Lodi","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":28,"s":[[4630860395,21],[4630860450,22],[4630865705,23]]},
+  {"id":20663217,"t":{"ref":"S013","name":"Bus S013: Lodi => Graffignana","from":"Lodi","to":"Graffignana","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":26,"s":[[4630860395,5],[4630860450,6],[4630865705,7]]}
+]
+}

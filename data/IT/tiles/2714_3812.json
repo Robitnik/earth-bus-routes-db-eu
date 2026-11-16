@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3812],
+"stops":[
+  {"id":5469911522,"lat":45.73538,"lon":10.606034,"k":"p","n":"Gargnano Cola"},
+  {"id":12890546192,"lat":45.733655,"lon":10.640436,"k":"p","n":"Gargnano Costa"},
+  {"id":12890546193,"lat":45.713787,"lon":10.636386,"k":"p","n":"Gargnano passa di Magno"},
+  {"id":14136941948,"lat":45.735292,"lon":10.606156,"k":"p","n":"Gargnano Cola"}
+],
+"routes":[
+  {"id":19216923,"t":{"ref":"LN015","name":"Bus LN015: Magasa->Gargnano","from":"Magasa","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[5469911522,6]]},
+  {"id":19216924,"t":{"ref":"LN015","name":"Bus LN015: Gargnano->Magasa","from":"Gargnano","to":"Magasa","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[5469911522,8]]},
+  {"id":19216925,"t":{"ref":"LN015","name":"Bus LN015: Costa->Gargnago","from":"Costa (Gargnano)","to":"Gargnago","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[12890546192,1],[12890546193,2]]},
+  {"id":19216926,"t":{"ref":"LN015","name":"Bus LN015: Gargnano->Costa","from":"Gargnano","to":"Costa","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[12890546193,11],[12890546192,12]]}
+]
+}

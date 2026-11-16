@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3898],
+"stops":[
+  {"id":279692520,"lat":47.965563,"lon":14.946167,"k":"x","n":"Haselgraben Amosreith"},
+  {"id":279694102,"lat":47.952394,"lon":14.92639,"k":"x","n":"Haselgraben Abzweigung Maria Seesal"},
+  {"id":279694122,"lat":47.95242,"lon":14.926869,"k":"x","n":"Haselgraben Abzweigung Maria Seesal"},
+  {"id":2429799162,"lat":47.965617,"lon":14.946176,"k":"p","n":"Haselgraben Amosreith"},
+  {"id":2429799163,"lat":47.965594,"lon":14.946897,"k":"p","n":"Haselgraben Amosreith"},
+  {"id":3506437518,"lat":47.952344,"lon":14.926914,"k":"p","n":"Haselgraben Abzweigung Maria Seesal"},
+  {"id":3506437519,"lat":47.952463,"lon":14.926397,"k":"p","n":"Haselgraben Abzweigung Maria Seesal"},
+  {"id":7744072256,"lat":47.965638,"lon":14.94687,"k":"x","n":"Haselgraben Amosreith"},
+  {"id":7900403642,"lat":47.952938,"lon":14.920703,"k":"p","n":"Haselgraben Zehentmühle"},
+  {"id":7900403643,"lat":47.952875,"lon":14.920692,"k":"x","n":"Haselgraben Zehentmühle"},
+  {"id":7900403644,"lat":47.952805,"lon":14.920337,"k":"p","n":"Haselgraben Zehentmühle"},
+  {"id":7900403645,"lat":47.952866,"lon":14.92033,"k":"x","n":"Haselgraben Zehentmühle"},
+  {"id":7900507522,"lat":47.964251,"lon":14.939472,"k":"x","n":"Haselgraben Abzweigung Mehlhaselbach"},
+  {"id":7900507523,"lat":47.964262,"lon":14.939371,"k":"p","n":"Haselgraben Abzweigung Mehlhaselbach"}
+],
+"routes":[
+  {"id":11343237,"t":{"ref":"652","name":"Bus 652: Hollenstein an der Ybbs Unterleiten => Kirchberg an der Pielach Bahnhof","from":"Hollenstein an der Ybbs Unterleiten","to":"Kirchberg an der Pielach Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":20,"s":[[3506437518,8]]},
+  {"id":11343238,"t":{"ref":"652","name":"Bus 652: Kirchberg an der Pielach Bahnhof => Hollenstein an der Ybbs Unterleiten","from":"Kirchberg an der Pielach Bahnhof","to":"Hollenstein an der Ybbs Unterleiten","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":19,"s":[[3506437519,12]]},
+  {"id":11612705,"t":{"ref":"650","name":"Bus 650: Waidhofen an der Ybbs Bahnhof => Gresten Unteramt/Firma Welser","from":"Waidhofen an der Ybbs Bahnhof","to":"Gresten Unteramt/Firma Welser","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":23,"s":[[7900403644,18],[3506437518,19],[2429799163,20]]},
+  {"id":11612708,"t":{"ref":"650","name":"Bus 650: Waidhofen an der Ybbs Gymnasium/HAK => Scheibbs Bahnhof","from":"Waidhofen an der Ybbs Gymnasium/HAK","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":40,"s":[[7900403644,16],[3506437518,17],[2429799163,18]]},
+  {"id":11612711,"t":{"ref":"650","name":"Bus 650: Waidhofen an der Ybbs Bahnhof => Scheibbs Bahnhof (nicht über Reinsberg Schnalle)","from":"Waidhofen an der Ybbs Bahnhof","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":35,"s":[[7900403644,17],[3506437518,18],[2429799163,19]]},
+  {"id":11612712,"t":{"ref":"650","name":"Bus 650: Waidhofen an der Ybbs Bahnhof => Gresten Schulen","from":"Waidhofen an der Ybbs Bahnhof","to":"Gresten Schulen","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":23,"s":[[7900403644,18],[3506437518,19],[2429799163,20]]},
+  {"id":11612713,"t":{"ref":"650","name":"Bus 650: Waidhofen an der Ybbs Gymnasium/HAK => Gresten Unteramt/Firma Welser","from":"Waidhofen an der Ybbs Gymnasium/HAK","to":"Gresten Unteramt/Firma Welser","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":21,"s":[[7900403644,16],[3506437518,17],[2429799163,18]]},
+  {"id":11612714,"t":{"ref":"650","name":"Bus 650: Waidhofen an der Ybbs Bahnhof => Scheibbs Bahnhof","from":"Waidhofen an der Ybbs Bahnhof","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":42,"s":[[7900403644,18],[3506437518,19],[2429799163,20]]},
+  {"id":11612864,"t":{"ref":"650","name":"Bus 650: Gresten Unteramt/Firma Welser => Gresten Busbahnhof => Waidhofen an der Ybbs Gymnasium/HAK","from":"Gresten Unteramt/Firma Welser","to":"Waidhofen an der Ybbs Gymnasium/HAK","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":23,"s":[[2429799162,5],[7900507523,6],[3506437519,7],[7900403642,8]]},
+  {"id":11612865,"t":{"ref":"650","name":"Bus 650: Gresten Busbahnhof => Waidhofen an der Ybbs Bahnhof","from":"Gresten Busbahnhof","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":23,"s":[[2429799162,4],[7900507523,5],[3506437519,6],[7900403642,7]]},
+  {"id":11612867,"t":{"ref":"650","name":"Bus 650: Scheibbs Bahnhof => Gresten Schulen => Waidhofen an der Ybbs Bahnhof","from":"Scheibbs Bahnhof","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":42,"s":[[2429799162,23],[7900507523,24],[3506437519,25],[7900403642,26]]},
+  {"id":11612868,"t":{"ref":"650","name":"Bus 650: Scheibbsbach Töpperpark => Waidhofen an der Ybbs Bahnhof","from":"Scheibbsbach Töpperpark","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":42,"s":[[2429799162,24],[7900507523,25],[3506437519,26],[7900403642,27]]},
+  {"id":11612869,"t":{"ref":"650","name":"Bus 650: Scheibbs Bahnhof => Waidhofen an der Ybbs Bahnhof (nicht über Reinsberg Schnalle)","from":"Scheibbs Bahnhof","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":36,"s":[[2429799162,17],[7900507523,18],[3506437519,19],[7900403642,20]]},
+  {"id":11612872,"t":{"ref":"650","name":"Bus 650: Gresten Unteramt/Firma Welser => Waidhofen an der Ybbs Gymnasium/HAK","from":"Gresten Unteramt/Firma Welser","to":"Waidhofen an der Ybbs Gymnasium/HAK","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":22,"s":[[2429799162,4],[7900507523,5],[3506437519,6],[7900403642,7]]},
+  {"id":11612873,"t":{"ref":"650","name":"Bus 650: Gresten Busbahnhof => Waidhofen an der Ybbs Gymnasium/HAK","from":"Gresten Busbahnhof","to":"Waidhofen an der Ybbs Gymnasium/HAK","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":22,"s":[[2429799162,4],[7900507523,5],[3506437519,6],[7900403642,7]]},
+  {"id":11612874,"t":{"ref":"650","name":"Bus 650: Scheibbs Bahnhof => Waidhofen an der Ybbs Gymnasium/HAK","from":"Scheibbs Bahnhof","to":"Waidhofen an der Ybbs Gymnasium/HAK","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":41,"s":[[2429799162,23],[7900507523,24],[3506437519,25],[7900403642,26]]},
+  {"id":11612875,"t":{"ref":"650","name":"Bus 650: Scheibbs Bahnhof => Waidhofen an der Ybbs Bahnhof","from":"Scheibbs Bahnhof","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner","route":"bus","public_transport:version":"2"},"n":42,"s":[[2429799162,23],[7900507523,24],[3506437519,25],[7900403642,26]]}
+]
+}

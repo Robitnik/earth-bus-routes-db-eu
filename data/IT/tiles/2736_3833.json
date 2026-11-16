@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2736,3833],
+"stops":[
+  {"id":8722121474,"lat":46.80196,"lon":11.671817,"k":"x","n":"Mühlbach, Sonnleiten"},
+  {"id":8722121475,"lat":46.801962,"lon":11.671899,"k":"p","n":"Mühlbach, Sonnleiten"},
+  {"id":8778646356,"lat":46.815001,"lon":11.663931,"k":"p","n":"Meransen, Seilbahn - Maranza, Funivia"},
+  {"id":9522418702,"lat":46.81661,"lon":11.665463,"k":"p","n":"Lindenweg-Wiesenrain"},
+  {"id":9522428756,"lat":46.819323,"lon":11.668523,"k":"p"},
+  {"id":9803604205,"lat":46.815,"lon":11.663859,"k":"x","n":"Meransen, Seilbahn - Maranza, Funivia"},
+  {"id":12463852365,"lat":46.815341,"lon":11.664053,"k":"x","n":"Meransen, Seilbahn - Maranza, Funivia"},
+  {"id":12463852366,"lat":46.815357,"lon":11.663965,"k":"p","n":"Meransen, Seilbahn - Maranza, Funivia"},
+  {"id":12463852367,"lat":46.816608,"lon":11.665403,"k":"x","n":"Lindenweg-Wiesenrain"},
+  {"id":12463852368,"lat":46.816614,"lon":11.66534,"k":"p","n":"Lindenweg-Wiesenrain"},
+  {"id":12463852369,"lat":46.821142,"lon":11.665143,"k":"x","n":"Kabinenbahn Gitschberg - Cabinovia Gitschberg"},
+  {"id":12463852370,"lat":46.821119,"lon":11.665071,"k":"p","n":"Kabinenbahn Gitschberg - Cabinovia Gitschberg"},
+  {"id":13139965319,"lat":46.815445,"lon":11.671956,"k":"p","n":"Via Huber"},
+  {"id":13139965320,"lat":46.814896,"lon":11.67164,"k":"p","n":"Via Huber"},
+  {"id":13139965332,"lat":46.81489,"lon":11.671701,"k":"x","n":"Meranza, Via Huber"},
+  {"id":13139965333,"lat":46.815455,"lon":11.67189,"k":"x","n":"Meranza, Via Huber"}
+],
+"routes":[
+  {"id":12771212,"t":{"ref":"412","name":"Bus 412: Rodeneck => Mühlbach => Vals","from":"Rodeneck","to":"Vals","operator":"Pizzinini","route":"bus","public_transport:version":"2"},"n":21,"s":[[8722121475,14]]},
+  {"id":18484599,"t":{"ref":"413","name":"Bus 413: Mühlbach => Meransen","from":"Mühlbach","to":"Meransen","operator":"Pizzinini","route":"bus","public_transport:version":"2"},"n":5,"s":[[8722121475,3],[8778646356,4],[12463852370,5]]},
+  {"id":18484605,"t":{"ref":"413","name":"Bus 413: Meransen => Mühlbach","from":"Meransen","to":"Mühlbach","operator":"Pizzinini","route":"bus","public_transport:version":"2"},"n":5,"s":[[12463852370,1],[12463852366,2],[13139965320,3]]}
+]
+}

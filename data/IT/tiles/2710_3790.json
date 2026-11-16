@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2710,3790],
+"stops":[
+  {"id":836369864,"lat":45.526401,"lon":9.515616,"k":"p","n":"Via Milano - Viale Europa (Cassano d'Adda)"},
+  {"id":1037186376,"lat":45.524884,"lon":9.511434,"k":"p","n":"Via Da Vinci - Via Zappatoni (Cassano d'Adda)"},
+  {"id":1381610839,"lat":45.524289,"lon":9.54617,"k":"p","n":"Strada Padana Superiore (Cascina Costanza)"},
+  {"id":1992360758,"lat":45.526085,"lon":9.522816,"k":"p"},
+  {"id":2141796068,"lat":45.51412,"lon":9.5115,"k":"x","n":"Cassano D'Adda FS"},
+  {"id":2141796073,"lat":45.514173,"lon":9.511762,"k":"x"},
+  {"id":2291530583,"lat":45.530048,"lon":9.502014,"k":"p","n":"Via Milano - Via Einstein (Cassano d'Adda)"},
+  {"id":2461093272,"lat":45.524944,"lon":9.537218,"k":"p","n":"Via Treviglio - Viale Bergamo (Cascina Taranta)"},
+  {"id":4237817024,"lat":45.515869,"lon":9.509688,"k":"p","n":"Via Trecella - Via Pola (Cassano D'Adda)"},
+  {"id":4237817039,"lat":45.520699,"lon":9.511316,"k":"p","n":"Viale Europa - Via Colombo (Cassano D'Adda)"},
+  {"id":4237817041,"lat":45.520675,"lon":9.511163,"k":"p","n":"Viale Europa - Via Colombo (Cassano D'Adda)"},
+  {"id":4468363255,"lat":45.526213,"lon":9.515974,"k":"p","n":"Via Milano - Viale Europa (Cassano d'Adda)"},
+  {"id":5564079762,"lat":45.524428,"lon":9.547128,"k":"p","n":"Strada Padana Superiore (Cascina Costanza)"},
+  {"id":5564079763,"lat":45.525019,"lon":9.537401,"k":"p","n":"Via Treviglio - Viale Bergamo (Cascina Taranta)"},
+  {"id":6406525574,"lat":45.524897,"lon":9.522192,"k":"p","n":"Veneto /Garibaldi"},
+  {"id":7232531291,"lat":45.507864,"lon":9.50044,"k":"p"},
+  {"id":8098094871,"lat":45.527809,"lon":9.536995,"k":"p"},
+  {"id":8391093120,"lat":45.527787,"lon":9.537068,"k":"x"},
+  {"id":9973731962,"lat":45.537403,"lon":9.517536,"k":"p","n":"Via Papa Giovanni Ventitreesimo - Liceo Scientifico \"Giordano Bruno'"},
+  {"id":10036110611,"lat":45.514631,"lon":9.512808,"k":"p"},
+  {"id":13961588546,"lat":45.514193,"lon":9.511778,"k":"p","n":"Cassano D'Adda FS"},
+  {"id":13961588547,"lat":45.514152,"lon":9.51146,"k":"p","n":"Cassano D'Adda FS"}
+],
+"routes":[
+  {"id":6306416,"t":{"ref":"z309","name":"Bus z309: Cassano d'Adda FS => Trezzo s/A","from":"Cassano D'Adda, Stazione FS","to":"Trezzo sull'Adda, Via Carlo Biffi","network":"STIBM","operator":"Nord Est Trasporti","colour":"turquoise","route":"bus","public_transport:version":"2"},"n":6,"s":[[13961588547,1],[4237817024,2],[4237817039,3]]},
+  {"id":6306417,"t":{"ref":"z309","name":"Bus z309: Trezzo s/A => Cassano d'Adda FS","from":"Trezzo sull'Adda, Via Carlo Biffi","to":"Cassano d'Adda, Stazione FS","network":"STIBM","operator":"Nord Est Trasporti","colour":"turquoise","route":"bus","public_transport:version":"2"},"n":8,"s":[[9973731962,6],[4237817041,7],[13961588546,8]]},
+  {"id":6676376,"t":{"ref":"z405","name":"Bus z405: Gessate M2 => Cassano d'Adda","from":"Gessate M2","to":"Cassano d'Adda, Via Milano","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":6,"s":[[2291530583,3],[1037186376,4],[836369864,5]]},
+  {"id":6676377,"t":{"ref":"z405","name":"Bus z405: Gessate M2 => Treviglio FS","from":"Gessate M2","to":"Treviglio FS","network":"STIBM","operator":"Sudest Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[2291530583,4],[1037186376,5],[4468363255,6],[6406525574,7],[2461093272,8],[1381610839,9]]},
+  {"id":6677964,"t":{"ref":"z405","name":"Bus z405: Treviglio FS => Cassano d'Adda","from":"Via Alcide De Gasperi","to":"Via Milano","network":"STIBM","operator":"Sudest Trasporti","route":"bus","public_transport:version":"2"},"n":4,"s":[[5564079762,2],[5564079763,3],[836369864,4]]},
+  {"id":6677995,"t":{"ref":"z405","name":"Bus z405: Cassano d'Adda => Gessate M2","from":"Cassano d'Adda, Via Milano","to":"Gessate M2","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":9,"s":[[13961588547,1],[4237817024,2],[836369864,3]]}
+]
+}

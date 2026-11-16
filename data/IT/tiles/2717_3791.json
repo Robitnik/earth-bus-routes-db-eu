@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3791],
+"stops":[
+  {"id":1113108401,"lat":45.873387,"lon":9.563933,"k":"p","n":"Peghera Capolinea"},
+  {"id":7375658055,"lat":45.889476,"lon":9.582907,"k":"p","n":"Ponte del Becco"},
+  {"id":7375658056,"lat":45.889463,"lon":9.583038,"k":"p","n":"Ponte del Becco"},
+  {"id":7375658057,"lat":45.888726,"lon":9.572577,"k":"p","n":"Casa Crocc"},
+  {"id":7375658058,"lat":45.888698,"lon":9.572481,"k":"p","n":"Casa Crocc"},
+  {"id":7375658059,"lat":45.890473,"lon":9.56544,"k":"p","n":"Sottochiesa Sud"},
+  {"id":7375658060,"lat":45.890287,"lon":9.5654,"k":"p","n":"Sottochiesa Sud"},
+  {"id":7375658082,"lat":45.885737,"lon":9.566746,"k":"p","n":"Costa d'Olda"},
+  {"id":7376267875,"lat":45.851514,"lon":9.583404,"k":"p","n":"Case Sala (Gerosa - provinciale km.27 )"},
+  {"id":7376267879,"lat":45.850395,"lon":9.573953,"k":"p","n":"Gerosa - via costa bivio centro"},
+  {"id":7376299189,"lat":45.850645,"lon":9.578571,"k":"p","n":"Gerosa - via costa/zicogna"},
+  {"id":7376299190,"lat":45.853169,"lon":9.579998,"k":"p","n":"Gerosa - via martire/bura"},
+  {"id":7376299191,"lat":45.85705,"lon":9.581645,"k":"p","n":"Gerosa - via martire"},
+  {"id":7376299192,"lat":45.874054,"lon":9.579105,"k":"p","n":"Peghera - via arnoldi bivio costa"},
+  {"id":7376299193,"lat":45.873098,"lon":9.574778,"k":"p","n":"Peghera - via arnoldi, 67"},
+  {"id":7376299194,"lat":45.872624,"lon":9.573936,"k":"p","n":"Peghera - via arnoldi/via asturi"},
+  {"id":7376299195,"lat":45.872717,"lon":9.570535,"k":"p","n":"Peghera - via arnoldi (ufficio pt)"},
+  {"id":7379557650,"lat":45.892749,"lon":9.563839,"k":"p","n":"Taleggio - sottochiesa (pro loco)"},
+  {"id":13970842760,"lat":45.867347,"lon":9.57702,"k":"p","n":"Peghera - costavalli"},
+  {"id":13983025617,"lat":45.887129,"lon":9.559484,"k":"p","n":"Olda - via roma (farmacia)"}
+],
+"routes":[
+  {"id":10968553,"t":{"ref":"B40a","name":"Bus B40a: San Giovanni Bianco -> Sottochiesa -> Olda -> Vedeseta","from":"San Giovanni Bianco","to":"Vedeseta","operator":"SAB","route":"bus","public_transport:version":"2"},"n":14,"s":[[7375658055,7],[7375658057,8],[7375658059,9],[7379557650,10],[7375658082,11],[13983025617,12]]},
+  {"id":10969181,"t":{"ref":"B10a","name":"Linea B10a: (old) Brembilla -> Peghera","from":"Bergamo","to":"Brembilla","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[7376267875,8],[7376299190,9],[7376299191,10],[7376299192,11],[7376299195,12],[1113108401,13]]},
+  {"id":21038128,"t":{"ref":"B10a","name":"Linea B10a: Zogno -> Peghera","from":"Zogno stazione","to":"Peghera - prato (capolinea)","operator":"Bergamo trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[7376267875,16],[7376267879,18],[7376299189,19],[7376299190,20],[7376299191,21],[13970842760,22],[7376299192,23],[7376299193,24],[7376299194,25],[7376299195,26],[1113108401,27]]},
+  {"id":21038130,"t":{"ref":"B10a","name":"Linea B10a: Peghera -> Zogno","from":"Peghera - prato (capolinea)","to":"Zogno stazione","operator":"Bergamo trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[1113108401,1],[7376299195,2],[7376299194,3],[7376299193,4],[7376299192,5],[13970842760,6],[7376299191,7],[7376299190,8],[7376299189,9],[7376267879,10],[7376267875,12]]},
+  {"id":21056252,"t":{"ref":"B40a","name":"Bus B40a: Vedeseta-> Olda -> Sottochiesa -> San Giovanni Bianco","from":"Vedeseta","to":"San Giovanni Bianco","operator":"SAB","route":"bus","public_transport:version":"2"},"n":14,"s":[[13983025617,3],[7375658082,4],[7379557650,5],[7375658060,6],[7375658058,7],[7375658056,8]]}
+]
+}

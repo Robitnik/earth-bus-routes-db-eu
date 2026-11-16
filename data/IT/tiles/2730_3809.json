@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2730,3809],
+"stops":[
+  {"id":984712897,"lat":46.527675,"lon":10.451868,"k":"p","n":"Stilfserjoch - Passo dello Stelvio"},
+  {"id":1944920241,"lat":46.532168,"lon":10.48031,"k":"p","n":"Stilfs, Franzenshöhe - Stelvio, Sottostelvio"},
+  {"id":3183043687,"lat":46.527505,"lon":10.451962,"k":"p","n":"Stilfserjoch - Passo dello Stelvio"},
+  {"id":9903988138,"lat":46.532195,"lon":10.480245,"k":"x","n":"Stilfs, Franzenshöhe - Stelvio, Sottostelvio"},
+  {"id":13143205488,"lat":46.527627,"lon":10.451835,"k":"x","n":"Stilfserjoch - Passo dello Stelvio"}
+],
+"routes":[
+  {"id":2462307,"t":{"ref":"821","name":"Bus 821: Müstair → Tirano","from":"Müstair, Clostra Son Jon","to":"Tirano, Stazione","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":14,"s":[[984712897,10]]},
+  {"id":12289916,"t":{"ref":"821","name":"Bus 821: Tirano → Müstair","from":"Tirano, Stazione","to":"Müstair, Clostra Son Jon","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":14,"s":[[984712897,5]]},
+  {"id":14383252,"t":{"ref":"270","name":"Bus 270: Stilfserjoch=> Trafoi => Stilfs","from":"Stilfserjoch - Passo Stelvio","to":"Stilfs - Stelvio","network":"TVS","route":"bus","public_transport:version":"2"},"n":9,"s":[[984712897,1],[1944920241,2]]},
+  {"id":14383253,"t":{"ref":"270","name":"Bus 270: Stilfs => Trafoi => Stilfserjoch","from":"Stilfs - Stelvio","to":"Stilfserjoch - Passo Stelvio","network":"TVS","route":"bus","public_transport:version":"2"},"n":7,"s":[[1944920241,6],[984712897,7]]}
+]
+}

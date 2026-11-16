@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2770,3923],
+"stops":[
+  {"id":1121745532,"lat":48.530972,"lon":16.162241,"k":"x","n":"Porrau Ortsmitte"},
+  {"id":1121745560,"lat":48.53113,"lon":16.162463,"k":"x","n":"Porrau Ortsmitte"},
+  {"id":3244488323,"lat":48.524793,"lon":16.198769,"k":"x","n":"Füllersdorf Ort"},
+  {"id":5092595300,"lat":48.524831,"lon":16.198743,"k":"p","n":"Füllersdorf Ort"},
+  {"id":5092595301,"lat":48.530998,"lon":16.162152,"k":"p","n":"Porrau Ortsmitte"},
+  {"id":5092595302,"lat":48.531109,"lon":16.162493,"k":"p","n":"Porrau Ortsmitte"},
+  {"id":5557011977,"lat":48.513634,"lon":16.164009,"k":"p","n":"Bergau bei Göllersdorf Ortsmitte"},
+  {"id":5557011978,"lat":48.513628,"lon":16.163941,"k":"x","n":"Bergau bei Göllersdorf Ortsmitte"},
+  {"id":5557011979,"lat":48.513622,"lon":16.163876,"k":"p","n":"Bergau bei Göllersdorf Ortsmitte"},
+  {"id":5557011980,"lat":48.500062,"lon":16.178077,"k":"p","n":"Obergrub Ort"},
+  {"id":5557011981,"lat":48.500094,"lon":16.178038,"k":"x","n":"Obergrub Ort"},
+  {"id":5557057479,"lat":48.500117,"lon":16.177984,"k":"p","n":"Obergrub Ort"}
+],
+"routes":[
+  {"id":7558823,"t":{"ref":"810","name":"Bus 810: Hollabrunn HTL => Großmugl Gemeindeamt","from":"Hollabrunn HTL","to":"Großmugl Gemeindeamt","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":8,"s":[[5092595300,5]]},
+  {"id":7558824,"t":{"ref":"810","name":"Bus 810: Hollabrunn HTL => Großmugl Volksschule","from":"Hollabrunn HTL","to":"Großmugl Volksschule","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[5092595300,5]]},
+  {"id":7558830,"t":{"ref":"810","name":"Bus 810: Hollabrunn Bahnhof => Großmugl Volksschule","from":"Hollabrunn Bahnhof","to":"Großmugl Volksschule","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":11,"s":[[5092595301,8],[5092595300,9]]},
+  {"id":7558834,"t":{"ref":"810","name":"Bus 810: Hollabrunn Bahnhof => Hollabrunn Mittelschule => Großmugl Volksschule","from":"Hollabrunn Bahnhof","to":"Großmugl Volksschule","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":14,"s":[[5092595301,11],[5092595300,12]]},
+  {"id":7559193,"t":{"ref":"810","name":"Bus 810: Großmugl Volksschule => Hollabrunn Bahnhof","from":"Großmugl Volksschule","to":"Hollabrunn Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":8,"s":[[5092595300,3]]},
+  {"id":7559195,"t":{"ref":"810","name":"Bus 810: Großmugl Volksschule => Füllersdorf Ort","from":"Großmugl Volksschule","to":"Füllersdorf Ort","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":3,"s":[[5092595300,3]]},
+  {"id":8214249,"t":{"ref":"818","name":"Bus 818: Göllersdorf Abzweigung Bahnhof => Göllersdorf Schulen => Porrau Ortsmitte","from":"Göllersdorf Abzweigung Bahnhof","to":"Porrau Ortsmitte","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[5557011980,5],[5557011977,6],[5092595302,7]]},
+  {"id":8214250,"t":{"ref":"818","name":"Bus 818: Göllersdorf Hauptplatz => Göllersdorf Schulen => Porrau Ortsmitte","from":"Göllersdorf Hauptplatz","to":"Porrau Ortsmitte","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[5557011980,5],[5557011977,6],[5092595302,7]]},
+  {"id":8214251,"t":{"ref":"818","name":"Bus 818: Göllersdorf Hauptplatz => Porrau Ortsmitte","from":"Göllersdorf Hauptplatz","to":"Porrau Ortsmitte","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[5557011980,5],[5557011977,6],[5092595302,7]]},
+  {"id":8214275,"t":{"ref":"818","name":"Bus 818: Porrau Ortsmitte => Göllersdorf Schulen","from":"Porrau Ortsmitte","to":"Göllersdorf Schulen","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[5092595301,1],[5557011979,2],[5557057479,3]]},
+  {"id":8214276,"t":{"ref":"818","name":"Bus 818: Porrau Ortsmitte => Göllersdorf Hauptplatz","from":"Porrau Ortsmitte","to":"Göllersdorf Hauptplatz","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[5092595301,1],[5557011979,2],[5557057479,3]]},
+  {"id":8278696,"t":{"ref":"827","name":"Bus 827: Stockerau Bahnhof => Füllersdorf Ort => Ernstbrunn Hauptplatz","from":"Stockerau Bahnhof","to":"Ernstbrunn Hauptplatz","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":22,"s":[[5092595300,13]]},
+  {"id":8278697,"t":{"ref":"827","name":"Bus 827: Stockerau Bahnhof => Füllersdorf Ort => Maisbirbaum Ortsmitte => Ernstbrunn Hauptplatz","from":"Stockerau Bahnhof","to":"Ernstbrunn Hauptplatz","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":23,"s":[[5092595300,13]]},
+  {"id":8278699,"t":{"ref":"827","name":"Bus 827: Stockerau Bahnhof => Roseldorf Ortsmitte => Füllersdorf Ort => Ernstbrunn Hauptplatz","from":"Stockerau Bahnhof","to":"Ernstbrunn Hauptplatz","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":23,"s":[[5092595300,14]]},
+  {"id":8279142,"t":{"ref":"827","name":"Bus 827: Ernstbrunn Hauptplatz => Stockerau Bahnhof","from":"Ernstbrunn Hauptplatz","to":"Stockerau Bahnhof","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":21,"s":[[5092595300,10]]},
+  {"id":8279145,"t":{"ref":"827","name":"Bus 827: Ernstbrunn Hauptplatz => Stockerau Bahnhof (nicht über Stockerau Judithastraße)","from":"Ernstbrunn Hauptplatz","to":"Stockerau Bahnhof","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":20,"s":[[5092595300,10]]},
+  {"id":8279146,"t":{"ref":"827","name":"Bus 827: Ernstbrunn Hauptplatz => Ernstbrunn Schulen => Großmugl Volksschule => Stockerau Bahnhof","from":"Ernstbrunn Hauptplatz","to":"Stockerau Bahnhof","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":23,"s":[[5092595300,12]]},
+  {"id":20133079,"t":{"ref":"810","name":"Bus 810: Hollabrunn Bahnhof => Hollabrunn Kirchenplatz => Großmugl Volksschule (nicht über Wieselsfeld Ortsmitte)","from":"Hollabrunn Bahnhof","to":"Großmugl Volksschule","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":8,"s":[[5092595301,5],[5092595300,6]]},
+  {"id":20133080,"t":{"ref":"810","name":"Bus 810: Großmugl Volksschule => Geitzendorf Ort => Füllersdorf Ort","from":"Großmugl Volksschule","to":"Füllersdorf Ort","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5092595300,5]]}
+]
+}

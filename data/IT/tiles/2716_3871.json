@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3871],
+"stops":[
+  {"id":2260065501,"lat":45.801858,"lon":13.550439,"k":"x"},
+  {"id":3978801458,"lat":45.801804,"lon":13.550439,"k":"x"},
+  {"id":7686928642,"lat":45.801854,"lon":13.550818,"k":"p","n":"Via Valentinis (Solvay)"},
+  {"id":7686928646,"lat":45.821084,"lon":13.579327,"k":"p","n":"Jamiano","ref":"SS55"},
+  {"id":7691942489,"lat":45.806604,"lon":13.581105,"k":"p","n":"Sablici"},
+  {"id":7691942491,"lat":45.821104,"lon":13.579179,"k":"p","n":"Jamiano"},
+  {"id":7691942502,"lat":45.837391,"lon":13.565689,"k":"p","n":"Bonetti"},
+  {"id":7691942503,"lat":45.8062,"lon":13.581495,"k":"p","n":"Sablici"},
+  {"id":7691942504,"lat":45.801751,"lon":13.550439,"k":"p","n":"Via Valentinis (Solvay)"},
+  {"id":9847210464,"lat":45.804184,"lon":13.550302,"k":"p","n":"Via Romana 173 (angolo Via Redentore)"},
+  {"id":9847210465,"lat":45.803339,"lon":13.55286,"k":"p","n":"Via Romana (Piazza Tommaseo)"},
+  {"id":9847210466,"lat":45.802924,"lon":13.551982,"k":"p","n":"Via delle Mandrie (angolo Via delle Vigne)"},
+  {"id":9847966916,"lat":45.802284,"lon":13.557345,"k":"p","n":"Via Romana 154 (angolo Via Flavia)"},
+  {"id":11264888594,"lat":45.836749,"lon":13.565753,"k":"p","n":"Bonetti / Boneti"}
+],
+"routes":[
+  {"id":3757933,"t":{"ref":"G51","name":"Bus G51: Aeroporto → Trieste","from":"Trieste Airport","to":"Trieste (stazione autocorriere)","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[7691942504,10]]},
+  {"id":6363357,"t":{"ref":"G51","name":"Bus G51: Trieste/Trst → Aeroporto","from":"Trieste","to":"Aeroporto","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":29,"s":[[7686928642,20]]},
+  {"id":14294957,"t":{"ref":"CC","name":"Bus CC: Circolare centro","from":"Piazza Unità","to":"Piazza Unità","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":28,"s":[[9847210464,21],[9847210466,22],[7686928642,23]]},
+  {"id":14296028,"t":{"ref":"CL","name":"Bus CL: Circolare Lisert","from":"Stazione ferroviaria","to":"Stazione ferroviaria","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":25,"s":[[9847210464,4],[9847210465,5],[9847966916,6],[7686928642,12]]},
+  {"id":14318010,"t":{"ref":"G21","name":"Bus G21: Trieste → Grado","from":"Trieste","to":"Grado","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":51,"s":[[7686928642,19]]},
+  {"id":14341380,"t":{"ref":"G21","name":"Bus G21: Grado → Trieste","from":"Grado","to":"Trieste","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":50,"s":[[7691942504,33]]},
+  {"id":16494888,"t":{"ref":"G06","name":"Bus G06: Monfalcone → Jamiano → Gorizia","from":"Monfalcone","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":24,"s":[[7691942504,10],[7691942503,11],[7686928646,12],[7691942502,13]]},
+  {"id":16494889,"t":{"ref":"G06","name":"Bus G06: Gorizia → Jamiano → Monfalcone","from":"Gorizia","to":"Monfalcone","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":24,"s":[[11264888594,11],[7691942491,12],[7691942489,13],[7686928642,14]]}
+]
+}

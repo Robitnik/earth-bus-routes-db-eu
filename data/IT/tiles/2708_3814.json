@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3814],
+"stops":[
+  {"id":728700401,"lat":45.44401,"lon":10.706026,"k":"x","n":"Peschiera - Ospedale"},
+  {"id":824363714,"lat":45.438851,"lon":10.702313,"k":"p","n":"Peschiera - Stazione F.S."},
+  {"id":1438082875,"lat":45.438053,"lon":10.726895,"k":"p","n":"Cavalcaselle"},
+  {"id":1438082876,"lat":45.438749,"lon":10.714645,"k":"p","n":"Cavalcaselle - Istituto Benacus"},
+  {"id":2291833297,"lat":45.43881,"lon":10.702114,"k":"x","n":"Peschiera - Stazione F.S."},
+  {"id":2355885475,"lat":45.437758,"lon":10.738684,"k":"p","n":"Cavalcaselle - Confine"},
+  {"id":2355885484,"lat":45.440936,"lon":10.700788,"k":"x","n":"Peschiera - Bivio Stazione F.S."},
+  {"id":5984930339,"lat":45.438858,"lon":10.702109,"k":"p","n":"Peschiera - Stazione F.S."},
+  {"id":5984930340,"lat":45.440931,"lon":10.70071,"k":"p","n":"Peschiera - bivio stazione"},
+  {"id":5984930341,"lat":45.44404,"lon":10.705973,"k":"p","n":"Peschiera - Ospedale"},
+  {"id":5984930342,"lat":45.444031,"lon":10.706161,"k":"p","n":"Peschiera - Ospedale"},
+  {"id":6991699081,"lat":45.437646,"lon":10.738919,"k":"p","n":"Cavalcaselle - Confine"},
+  {"id":7113008121,"lat":45.437588,"lon":10.72869,"k":"p","n":"Cavalcaselle"},
+  {"id":9630964070,"lat":45.438572,"lon":10.716211,"k":"p","n":"Cavalcaselle - Istituto Benacus"},
+  {"id":11154569121,"lat":45.423413,"lon":10.713927,"k":"p"},
+  {"id":12886223303,"lat":45.444439,"lon":10.700161,"k":"p"}
+],
+"routes":[
+  {"id":4546150,"t":{"ref":"46","name":"Bus 46: Peschiera => Mantova","from":"Peschiera del Garda","to":"Mantova","network":"Rete extraurbana di Mantova","operator":"APAM","route":"bus","public_transport:version":"2"},"n":22,"s":[[5984930339,1]]},
+  {"id":4586001,"t":{"ref":"46","name":"Bus 46: Mantova => Peschiera","from":"Mantova","to":"Peschiera del Garda","network":"Rete extraurbana di Mantova","operator":"APAM","route":"bus","public_transport:version":"2"},"n":3,"s":[[5984930339,3]]},
+  {"id":8832730,"t":{"ref":"483","name":"Bus 483: Malcesine => Garda => Peschiera","from":"Malcesine","to":"Peschiera","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":49,"s":[[5984930341,44],[5984930340,45]]},
+  {"id":8832731,"t":{"ref":"483","name":"Bus 483: Peschiera => Garda => Malcesine","from":"Peschiera","to":"Malcesine","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":50,"s":[[5984930342,6]]},
+  {"id":8832901,"t":{"ref":"164","name":"Bus 164: Garda => Peschiera => Verona","from":"Garda","to":"Verona","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":39,"s":[[5984930341,16],[5984930340,17],[5984930339,18],[9630964070,19],[7113008121,20],[6991699081,21]]},
+  {"id":8832902,"t":{"ref":"164","name":"Bus 164: Verona => Peschiera => Garda","from":"Verona","to":"Garda","network":"ATV","operator":"ATV","route":"bus","public_transport:version":"2"},"n":38,"s":[[2355885475,18],[1438082875,19],[1438082876,20],[5984930339,21],[5984930342,22]]},
+  {"id":8833165,"t":{"ref":"LN026","name":"Bus LN026: Desenzano => Peschiera => Verona","from":"Desenzano","to":"Verona","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":46,"s":[[9630964070,27],[7113008121,28],[6991699081,29]]},
+  {"id":8833166,"t":{"ref":"LN026","name":"Bus LN026: Verona => Peschiera => Desenzano","from":"Verona","to":"Desenzano","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[2355885475,17],[1438082875,18],[1438082876,19],[5984930340,20]]},
+  {"id":9215022,"t":{"ref":"407","name":"Flixbus 407: Merano, Therme => Torino, Vittorio Emanuele","from":"Merano, Therme","to":"Torino, Vittorio Emanuele","network":"Flixbus","operator":"Air Pullman","route":"bus","public_transport:version":"2"},"n":10,"s":[[824363714,5]]},
+  {"id":9218550,"t":{"ref":"407","name":"Flixbus 407: Torino, Vittorio Emanuele => Merano, Therme","from":"Torino, Vittorio Emanuele","to":"Merano, Therme","network":"Flixbus","operator":"Air Pullman","route":"bus","public_transport:version":"2"},"n":10,"s":[[5984930339,6]]},
+  {"id":9735798,"t":{"ref":"451","name":"Flixbus 451: Sirmione Colombare 201 => München, ZOB","from":"Sirmione Colombare 201","to":"München, ZOB","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[5984930339,4]]},
+  {"id":9735799,"t":{"ref":"451","name":"Flixbus 451: München, ZOB => Sirmione Colombare 201","from":"München, ZOB","to":"Sirmione Colombare 201","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[824363714,6]]},
+  {"id":9790950,"t":{"ref":"545","name":"Flixbus 545: Bologna, Autostazione => Gardasee/Lago di Garda => Wien Erdberg, Busterminal VIB","from":"Bologna, Autostazione","to":"Wien Erdberg, Busterminal VIB","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[5984930339,3]]},
+  {"id":9790951,"t":{"ref":"545","name":"Flixbus 545: Wien Erdberg, Busterminal VIB => Gardasee/Lago di Garda => Bologna, Autostazione","from":"Wien Erdberg, Busterminal VIB","to":"Bologna, Autostazione","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":11,"s":[[824363714,9]]}
+]
+}

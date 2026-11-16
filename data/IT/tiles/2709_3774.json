@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3774],
+"stops":[
+  {"id":1536374123,"lat":45.460706,"lon":8.724665,"k":"p","n":"Romentino (capolinea)","ref":"460"},
+  {"id":1553407639,"lat":45.459975,"lon":8.720963,"k":"p","n":"Via XXIV Maggio - Via Roma (Romentino)","ref":"458"},
+  {"id":1553407640,"lat":45.460081,"lon":8.720993,"k":"p","n":"Via XXIV Maggio - Via Roma (Romentino)","ref":"459"},
+  {"id":1553407642,"lat":45.462385,"lon":8.716909,"k":"p","n":"Via Marconi - Via Beldi (Romentino)","ref":"457"},
+  {"id":1553623954,"lat":45.462381,"lon":8.716774,"k":"p","n":"Via Marconi - Via Beldi, Romentino","ref":"456"},
+  {"id":6073287080,"lat":45.461798,"lon":8.708482,"k":"p","n":"Via Romentino (IIS Pascal), Romentino","ref":"451"},
+  {"id":6073288504,"lat":45.46198,"lon":8.708411,"k":"p","n":"Via Romentino (IIS Pascal), Romentino","ref":"450"},
+  {"id":6203339857,"lat":45.490317,"lon":8.708394,"k":"p","n":"Galliate, via Fauser (capolinea)"},
+  {"id":6204097932,"lat":45.462556,"lon":8.713041,"k":"p","n":"Via Gambaro 49 (Romentino)","ref":"455"},
+  {"id":6204097933,"lat":45.462493,"lon":8.713237,"k":"p","n":"Via Gambaro 36, Romentino","ref":"454"},
+  {"id":6225752042,"lat":45.487846,"lon":8.708998,"k":"p","n":"Via Ticino 135 (Galliate)","ref":"581"},
+  {"id":6225752044,"lat":45.48795,"lon":8.709384,"k":"p","n":"Via Ticino 120 (Galliate)","ref":"582"},
+  {"id":6225752045,"lat":45.484189,"lon":8.703738,"k":"p","n":"Via Ticino - Via Cottolengo (Galliate)","ref":"579"},
+  {"id":6225752046,"lat":45.484024,"lon":8.703698,"k":"p","n":"Via Ticino - Via Cottolengo (Galliate)"},
+  {"id":8914529639,"lat":45.469312,"lon":8.703829,"k":"p","n":"Via Trieste 100","ref":"447"}
+],
+"routes":[
+  {"id":9236003,"t":{"ref":"4","from":"Romentino","to":"Via Ancona (Novara)","operator":"SUN S.p.A.","colour":"#FF0000","route":"bus"},"n":35,"s":[[1536374123,2],[1553407640,3],[1553407642,4],[6204097932,5],[6073288504,6]]},
+  {"id":9241263,"t":{"ref":"4","from":"Galliate","to":"Via Ancona","operator":"SUN S.p.A.","colour":"#ff0000","route":"bus"},"n":35,"s":[[6203339857,2],[6225752042,3],[6225752045,4]]},
+  {"id":9244233,"t":{"ref":"4","from":"Via Ancona","to":"Romentino","operator":"SUN S.p.A.","colour":"#ff0000","route":"bus"},"n":33,"s":[[1553623954,1],[1553407639,2],[6073287080,27],[6204097933,28],[1536374123,29]]},
+  {"id":9244234,"t":{"ref":"4","from":"Via Ancona","to":"Galliate","operator":"SUN S.p.A.","colour":"#ff0000","route":"bus"},"n":31,"s":[[6203339857,1],[6225752046,28],[6225752044,29]]},
+  {"id":9325779,"t":{"ref":"9","from":"Cameri","to":"Sozzago","operator":"SUN S.p.A.","colour":"#993366","route":"bus"},"n":29,"s":[[6203339857,1],[6225752042,2],[6225752045,3],[1553623954,5],[1553407639,6],[8914529639,27]]}
+]
+}

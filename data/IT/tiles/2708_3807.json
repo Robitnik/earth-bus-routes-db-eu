@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3807],
+"stops":[
+  {"id":2097228841,"lat":45.416279,"lon":10.389076,"k":"p","n":"Montichiari - via Brescia, 20 \"Beauty Star\""},
+  {"id":2189621576,"lat":45.420468,"lon":10.378437,"k":"p","n":"Montichiari - S.S. 236 Goitese, Mercato"},
+  {"id":2189621577,"lat":45.421391,"lon":10.376582,"k":"p","n":"Montichiari - S.S. 236 Goitese, Mercato"},
+  {"id":2559939110,"lat":45.415588,"lon":10.38498,"k":"p","n":"Montichiari - v.le Marconi, istituti (IPSIA)"},
+  {"id":2682276560,"lat":45.405305,"lon":10.357094,"k":"p","n":"Montichiari - SP668, S. Antonio"},
+  {"id":4716441124,"lat":45.427031,"lon":10.36737,"k":"p","n":"Via San Giovanni, Edicola"},
+  {"id":13412938882,"lat":45.403625,"lon":10.375181,"k":"p","n":"Montichiari - stab.comazoo"},
+  {"id":13412938883,"lat":45.405546,"lon":10.388163,"k":"p","n":"Montichiari - v.le Marconi/Branca"},
+  {"id":13412938884,"lat":45.413718,"lon":10.395899,"k":"p","n":"Montichiari - via Mantova, 36"},
+  {"id":13412989488,"lat":45.407316,"lon":10.396972,"k":"p","n":"Montichiari - via Tre Innocenti"},
+  {"id":13415985486,"lat":45.405527,"lon":10.387858,"k":"p","n":"BORGOSOTTO - Via Marconi, bv.Via T.Speri"},
+  {"id":13415985487,"lat":45.41234,"lon":10.386726,"k":"p","n":"MONTICHIARI - Via Marconi, 108"},
+  {"id":13417836492,"lat":45.416409,"lon":10.38896,"k":"p","n":"MONTICHIARI - Via Brescia, 24 \"Beauty Star\""},
+  {"id":13417836493,"lat":45.414204,"lon":10.394579,"k":"p","n":"MONTICHIARI - Via Mantova, fronte civ. 26/28"},
+  {"id":13417952901,"lat":45.412039,"lon":10.39974,"k":"p","n":"MONTICHIARI - Via Mantova, 141"},
+  {"id":13417952902,"lat":45.426882,"lon":10.367113,"k":"p","n":"VIGHIZZOLO - Via Brescia, Parcheggio"},
+  {"id":13418599108,"lat":45.432333,"lon":10.365343,"k":"p","n":"VIGHIZZOLO - Via S.Giovanni, 91"},
+  {"id":13418599109,"lat":45.436587,"lon":10.365225,"k":"p","n":"VIGHIZZOLO - Via S.Giovanni, 193"},
+  {"id":13418599110,"lat":45.445033,"lon":10.36824,"k":"p","n":"VIGHIZZOLO - Via S.Giovanni, 306"},
+  {"id":13418599120,"lat":45.418049,"lon":10.395185,"k":"p","n":"MONTICHIARI CANTONCINO - Via Cavallotti, 89"},
+  {"id":13427190092,"lat":45.436737,"lon":10.36545,"k":"p","n":"VIGHIZZOLO - Via S.Giovanni, 206 scuole"}
+],
+"routes":[
+  {"id":20014196,"t":{"ref":"LS019","name":"Bus LS019: Montichiari => Verolavecchia","from":"Montichiari via Mantova 46","to":"Verolavecchia via Nazario Sauro","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[13412938884,1],[2097228841,2],[2559939110,3],[13412938883,4],[13412938882,5],[2682276560,6]]},
+  {"id":20014333,"t":{"ref":"LS019","name":"Bus LS019: Verolavecchia => Montichiari","from":"Verolavecchia Via Nazario Sauro","to":"Montichiari Via Brescia 20","network":"Arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[2682276560,30],[13412938882,31],[13412989488,32],[13412938884,33],[2097228841,34]]},
+  {"id":20019513,"t":{"ref":"LS33","name":"Linea LS33: Brescia => Montichiari => Carpenedolo","from":"Brescia Trataglia Via Gamba","to":"Carpenodolo Via Papa Giovanni XXIII","network":"OPAM","route":"bus","public_transport:version":"2"},"n":35,"s":[[13417952902,23],[2189621577,24],[2097228841,25],[13412938884,26],[13417952901,27]]},
+  {"id":20023225,"t":{"ref":"LS33","name":"Linea LS33: Carpenedolo => Montichiari => Brescia","to":"Brescia Trataglia Via Gamba","network":"OPAM","route":"bus","public_transport:version":"2"},"n":38,"s":[[13417952901,9],[13417836493,10],[13417836492,11],[13412938884,12],[13415985486,13],[13415985487,14],[2559939110,15],[2097228841,16],[2189621577,17],[13417952902,18]]},
+  {"id":20029114,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => S.EUFEMIA - Stazione Metro => Brescia","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"BRESCIA S.EUFEMIA - Stazione Metro;Brescia Autostatzione","network":"OPAM","route":"bus","public_transport:version":"2"},"n":37,"s":[[13412989488,7],[13417836493,8],[13418599120,9],[13418599110,19],[13418599109,20],[13418599108,21],[13417952902,22]]},
+  {"id":20029246,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => Desenzano (via Campagnolo Bivio)","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"Desenzano Via Anelli","network":"OPAM","route":"bus","public_transport:version":"2"},"n":23,"s":[[2559939110,7],[13418599120,8]]},
+  {"id":20040929,"t":{"ref":"LS34","name":"Linea LS34: Brescia => S.EUFEMIA - Stazione Metro => Carpenedolo Corsa 9","from":"Brescia Autostazione","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":30,"s":[[13417952902,9],[13418599108,10],[13418599109,11],[13418599110,12],[13418599120,22],[13417836493,23],[13412989488,24]]},
+  {"id":20040930,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => Desenzano (via Vighizzolo)","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"Desenzano Via Anelli","network":"OPAM","route":"bus","public_transport:version":"2"},"n":29,"s":[[13412989488,7],[13417836493,8],[13417836492,9],[2189621577,10],[4716441124,11],[13418599108,12],[13427190092,13],[13418599110,14]]},
+  {"id":20046036,"t":{"ref":"LS34","name":"Linea LS34: Desenzano => Carpenodolo","from":"Desenzano V.Michelangelo, Ist. Alberghiero","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":29,"s":[[13418599110,16],[13418599109,17],[13418599108,18],[4716441124,19],[2189621577,20],[2097228841,21],[13412938884,22],[13412989488,23]]},
+  {"id":20111960,"t":{"ref":"LS33","name":"Linea LS33: Carpenedolo => Montichiari => Brescia Variante via San Giorgo","to":"Brescia Trataglia Via Gamba","network":"OPAM","route":"bus","public_transport:version":"2"},"n":5,"s":[[13412989488,4],[13412938884,5]]},
+  {"id":20111961,"t":{"ref":"LS33","name":"Linea LS33: Carpenedolo => Montichiari => Brescia Variante via Via Marconi","to":"Brescia Trataglia Via Gamba","network":"OPAM","route":"bus","public_transport:version":"2"},"n":3,"s":[[13412938883,1],[2559939110,2],[13415985487,3]]}
+]
+}

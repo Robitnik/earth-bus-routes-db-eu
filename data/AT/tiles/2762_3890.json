@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2762,3890],
+"stops":[
+  {"id":333050745,"lat":48.139035,"lon":14.526167,"k":"x","n":"Klessdorf"},
+  {"id":529509282,"lat":48.102726,"lon":14.546209,"k":"p","n":"Stadt Haag Abzweigung Pinnersdorf"},
+  {"id":3236281125,"lat":48.102776,"lon":14.546134,"k":"x","n":"Stadt Haag Abzweigung Pinnersdorf"},
+  {"id":6857584129,"lat":48.102065,"lon":14.545325,"k":"p","n":"Stadt Haag Abzweigung Pinnersdorf"},
+  {"id":6857584130,"lat":48.102046,"lon":14.545418,"k":"x","n":"Stadt Haag Abzweigung Pinnersdorf"},
+  {"id":7825855718,"lat":48.1024,"lon":14.501832,"k":"p","n":"Dorf an der Enns Burg"},
+  {"id":7825855720,"lat":48.102365,"lon":14.501818,"k":"x","n":"Dorf an der Enns Burg"},
+  {"id":7829219933,"lat":48.128904,"lon":14.515699,"k":"p","n":"Aigenfließen Süd"},
+  {"id":7829219934,"lat":48.128906,"lon":14.515764,"k":"x","n":"Aigenfließen Süd"},
+  {"id":7829219939,"lat":48.139815,"lon":14.526136,"k":"p","n":"Klessdorf"},
+  {"id":7829219940,"lat":48.139817,"lon":14.526075,"k":"x","n":"Klessdorf"},
+  {"id":7829219977,"lat":48.139029,"lon":14.526115,"k":"p","n":"Klessdorf"},
+  {"id":11238643643,"lat":48.128906,"lon":14.515824,"k":"p","n":"Aigenfließen Süd"}
+],
+"routes":[
+  {"id":10123934,"t":{"ref":"623","name":"Bus 623: Steyr City Point => Schönauerstraße => Stadt Haag Bahnhof","from":"City Point","to":"Stadt Haag Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":23,"s":[[529509282,16]]},
+  {"id":10132248,"t":{"ref":"623","name":"Bus 623: Stadt Haag Bahnhof => Steyr City Point","from":"Stadt Haag Bahnhof","to":"City Point","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":21,"s":[[6857584129,8]]},
+  {"id":11519233,"t":{"ref":"620","name":"Bus 620: Haidershofen Ort => Steyr City Point","from":"Haidershofen Ort","to":"City Point","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[7825855718,9]]},
+  {"id":11519235,"t":{"ref":"620","name":"Bus 620: Steyr City Point => Haidershofen Ort","from":"City Point","to":"Haidershofen Ort","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[7825855718,16]]},
+  {"id":16430755,"t":{"ref":"619","name":"Bus 619: Langenhart Schulen => Weindlau Abzweigung Ort","from":"Langenhart Schulen","to":"Weindlau Abzweigung Ort","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[7829219977,8],[11238643643,9]]},
+  {"id":16430936,"t":{"ref":"619","name":"Bus 619: Neu-Rubring Irisstraße => Langenhart Schulen","from":"Neu-Rubring Irisstraße","to":"Langenhart Schulen","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":18,"s":[[7829219933,9],[7829219939,10]]},
+  {"id":16431136,"t":{"ref":"620","name":"Bus 620: Haidershofen Ort => Haidershofen Ort","from":"Haidershofen Ort","to":"Haidershofen Ort","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":19,"s":[[7825855718,9]]},
+  {"id":16431137,"t":{"ref":"620","name":"Bus 620: Haidershofen Ort => Steyr Bahnhof","from":"Haidershofen Ort","to":"Steyr Bahnhof (Busterminal Parkdeck)","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[7825855718,9]]},
+  {"id":16431787,"t":{"ref":"623","name":"Bus 623: Stadt Haag Bahnhof => Schönauerstraße => Steyr Bahnhof (nicht über Stadt Haag Schulen)","from":"Stadt Haag Bahnhof","to":"Steyr Bahnhof (Busterminal Parkdeck)","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":19,"s":[[6857584129,6]]},
+  {"id":16431789,"t":{"ref":"623","name":"Bus 623: Stadt Haag Schulen => Steyr City Point","from":"Stadt Haag Schulen","to":"City Point","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":18,"s":[[6857584129,5]]},
+  {"id":16431790,"t":{"ref":"623","name":"Bus 623: Stadt Haag Schulen => Steyr Bahnhof","from":"Stadt Haag Schulen","to":"Steyr Bahnhof (Busterminal Parkdeck)","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":17,"s":[[6857584129,5]]},
+  {"id":16431791,"t":{"ref":"623","name":"Bus 623: Stadt Haag Bahnhof => Steyr Bahnhof","from":"Stadt Haag Bahnhof","to":"Steyr Bahnhof (Busterminal Parkdeck)","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":20,"s":[[6857584129,8]]},
+  {"id":16431793,"t":{"ref":"623","name":"Bus 623: Steyr Bahnhof => Stadt Haag Schulen","from":"Steyr Bahnhof (Busterminal Parkdeck)","to":"Stadt Haag Schulen","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":19,"s":[[529509282,14]]},
+  {"id":16431794,"t":{"ref":"623","name":"Bus 623: Steyr Bahnhof => Stadt Haag Bahnhof","from":"Steyr Bahnhof (Busterminal Parkdeck)","to":"Stadt Haag Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":21,"s":[[529509282,14]]},
+  {"id":16431795,"t":{"ref":"623","name":"Bus 623: Steyr City Point => Stadt Haag Bahnhof","from":"City Point","to":"Stadt Haag Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":22,"s":[[529509282,15]]},
+  {"id":16431796,"t":{"ref":"623","name":"Bus 623: Steyr Bahnhof => Schönauerstraße => Stadt Haag Bahnhof","from":"Steyr Bahnhof (Busterminal Parkdeck)","to":"Stadt Haag Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":22,"s":[[529509282,15]]}
+]
+}

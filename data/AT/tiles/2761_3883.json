@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2761,3883],
+"stops":[
+  {"id":455479111,"lat":48.088838,"lon":14.193177,"k":"p","n":"Halbarting"},
+  {"id":458376995,"lat":48.069001,"lon":14.190573,"k":"x","n":"Rohr - Bad Hall Bahnhof"},
+  {"id":3799954073,"lat":48.058888,"lon":14.173602,"k":"x","n":"Oberrohr im Kremstal"},
+  {"id":4111041419,"lat":48.08883,"lon":14.193255,"k":"x","n":"Halbarting"},
+  {"id":5000893740608,"lat":48.069075,"lon":14.19067,"k":"p","n":"Rohr - Bad Hall Bahnhof"},
+  {"id":5000893740610,"lat":48.058852,"lon":14.173686,"k":"p","n":"Oberrohr im Kremstal"},
+  {"id":5000893740611,"lat":48.058937,"lon":14.173522,"k":"p","n":"Oberrohr im Kremstal"},
+  {"id":5000896910533,"lat":48.088835,"lon":14.193344,"k":"p"}
+],
+"routes":[
+  {"id":2358092,"t":{"ref":"450","name":"Bus 450: Steyr => Rohr-Bad Hall","from":"Steyr","to":"Rohr","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000893740608,27]]},
+  {"id":2358514,"t":{"ref":"450","name":"Bus 450: Rohr- Bad Hall => Steyr","from":"Rohr-Bad Hall Bahnhof","to":"Steyr City Point","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000893740608,1]]},
+  {"id":9820939,"t":{"ref":"455","name":"Bus 455: Wels => Sattledt => Rohr","from":"Wels Hauptbahnhof","to":"Rohr Bahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000893740610,25],[5000893740608,26]]},
+  {"id":9823893,"t":{"ref":"455","name":"Bus 455: Rohr => Sattledt => Wels","from":"Rohr Bahnhof","to":"Wels Hauptbahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000893740608,1],[5000893740611,2]]},
+  {"id":12163192,"t":{"ref":"452","name":"Bus 452: Steinbach/Steyr - Bad Hall - Rohr","from":"Steinbach an der Steyr Schulsiedlung","to":"Rohr-Bad Hall Bahnhof","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000893740608,21]]},
+  {"id":12163195,"t":{"ref":"452","name":"Bus 452: Rohr - Bad Hall - Steinbach/Steyr","from":"Rohr-Bad Hall Bahnhof","to":"Steinbach an der Steyr Schulsiedlung","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000893740608,1]]},
+  {"id":12208413,"t":{"ref":"457","name":"Bus 457: Bad Hall - Kematen - Traun","from":"Bad Hall Busterminal","to":"Leonding Meixnerkreuzung","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":21,"s":[[5000893740608,8],[5000896910533,9]]},
+  {"id":12208415,"t":{"ref":"453","name":"Bus 453: Kirchdorf - Kremsmünster - Rohr","from":"Kirchdorf Busterminal Am Anger","to":"Rohr-Bad Hall Bahnhof","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000893740610,21],[5000893740608,22]]},
+  {"id":12208891,"t":{"ref":"453","name":"Bus 453: Bad Hall - Kremsmünster - Kirchdorf","from":"Bad Hall Busterminal","to":"Kirchdorf Busterminal Am Anger","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000893740611,4]]},
+  {"id":12208892,"t":{"ref":"457","name":"Bus 457: Traun - Kematen - Bad Hall","from":"Traun Hauptplatz","to":"Bad Hall Busterminal","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":23,"s":[[455479111,12],[5000893740608,13]]}
+]
+}

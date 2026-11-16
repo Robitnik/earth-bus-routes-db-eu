@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3869],
+"stops":[
+  {"id":1594345630,"lat":45.857761,"lon":13.484313,"k":"p","n":"Via Terza Armata (bivio per Polazzo)"},
+  {"id":1594345632,"lat":45.875166,"lon":13.484771,"k":"p","n":"Sagrado"},
+  {"id":2250319666,"lat":45.880999,"lon":13.485365,"k":"p","n":"Viale Trieste (angolo Via Lungh'Isonzo)"},
+  {"id":2250319667,"lat":45.881219,"lon":13.485573,"k":"p","n":"Viale Trieste (angolo Via Lungh'Isonzo)"},
+  {"id":2250319668,"lat":45.885616,"lon":13.495703,"k":"p","n":"Viale Trieste 121 (grattacielo)","ref":"G0810"},
+  {"id":2676808803,"lat":45.864766,"lon":13.481863,"k":"p","n":"Via Redipuglia (chiesa di Fogliano)"},
+  {"id":2676808804,"lat":45.864951,"lon":13.481999,"k":"p","n":"Via Redipuglia (chiesa di Fogliano)"},
+  {"id":5377550788,"lat":45.853962,"lon":13.485552,"k":"p","n":"Via Terza Armata (stazione di Redipuglia)"},
+  {"id":7035561680,"lat":45.892744,"lon":13.47623,"k":"p"},
+  {"id":7035561681,"lat":45.892768,"lon":13.476367,"k":"p"},
+  {"id":7035561684,"lat":45.853572,"lon":13.485506,"k":"p","n":"Via Terza Armata (stazione di Redipuglia)"},
+  {"id":7035578485,"lat":45.857723,"lon":13.484155,"k":"p","n":"Via Terza Armata (bivio per Polazzo)"},
+  {"id":7132660598,"lat":45.885456,"lon":13.495064,"k":"p","n":"Viale Trieste (fronte 137, grattacielo)","ref":"G0803"},
+  {"id":7686928682,"lat":45.88116,"lon":13.477311,"k":"p","n":"Via Palmanova (Bauer)"},
+  {"id":7686928684,"lat":45.881224,"lon":13.471073,"k":"p","n":"Via Palmanova (bivio per Romans)"},
+  {"id":7686943985,"lat":45.881276,"lon":13.470441,"k":"p","n":"Via Palmanova (bivio per Romans)"},
+  {"id":9862095241,"lat":45.872892,"lon":13.48397,"k":"p","n":"Viale Stazione (stazione di Sagrado)"},
+  {"id":9862095242,"lat":45.872892,"lon":13.483764,"k":"p","n":"Viale Stazione (stazione di Sagrado)"},
+  {"id":9862095243,"lat":45.881368,"lon":13.476995,"k":"p","n":"Via Palmanova (Bauer)"},
+  {"id":10742660380,"lat":45.893146,"lon":13.497373,"k":"p","n":"Gradisca (scuola agraria)"},
+  {"id":10742660381,"lat":45.893356,"lon":13.497196,"k":"p","n":"Gradisca (scuola agraria)"},
+  {"id":11262417142,"lat":45.88817,"lon":13.451953,"k":"p","n":"Viale Trieste"},
+  {"id":11262417143,"lat":45.888493,"lon":13.451465,"k":"p","n":"Viale Trieste"}
+],
+"routes":[
+  {"id":14302391,"t":{"ref":"G28","name":"Bus G28: Monfalcone → Villesse (centro commerciale)","from":"Monfalcone","to":"Viallesse (centro commerciale)","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":21,"s":[[5377550788,9],[1594345630,10],[2676808804,11],[9862095241,12],[2250319666,13],[2250319668,14],[7132660598,17],[2250319667,18],[9862095243,19],[7686943985,20]]},
+  {"id":14315506,"t":{"ref":"G28","name":"Bus G28: Villesse (centro commerciale) → Monfalcone","from":"Villesse (centro commerciale)","to":"Monfalcone","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[7686928684,2],[7686928682,3],[2250319666,4],[2250319668,5],[7132660598,8],[2250319667,9],[9862095242,10],[2676808803,11],[7035578485,12],[7035561684,13]]},
+  {"id":15614638,"t":{"ref":"G51","name":"Bus G51: Udine → Trieste Airport","from":"Udine","to":"Trieste Airport","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[10742660380,11],[7132660598,13],[2250319667,14],[2676808803,15],[7035578485,16],[7035561684,17]]},
+  {"id":15614639,"t":{"ref":"G51","name":"Bus G51: Trieste Airport → Udine","from":"Trieste Airport","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[5377550788,3],[1594345630,4],[2676808804,5],[2250319666,6],[2250319668,7],[10742660381,9]]},
+  {"id":16487305,"t":{"ref":"G01","name":"Bus G01: Grado → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":45,"s":[[5377550788,31],[1594345630,32],[2676808804,33],[2250319666,34],[2250319668,35]]},
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11262417142,13],[7686928684,14],[7686928682,15],[2250319666,16],[2250319668,17]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[7132660598,11],[2250319667,12],[9862095243,13],[7686943985,14],[11262417143,15]]},
+  {"id":16494982,"t":{"ref":"G07","name":"Bus G07: Monfalcone → Sagrado → Gorizia","from":"Monfalcone","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[2676808804,17]]},
+  {"id":16495089,"t":{"ref":"G07","name":"Bus G07: Gorizia → Sagrado → Monfalcone","from":"Gorizia","to":"Monfalcone","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":32,"s":[[1594345632,13],[2676808803,14]]}
+]
+}

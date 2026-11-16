@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2723,3834],
+"stops":[
+  {"id":2258926786,"lat":46.15663,"lon":11.74588,"k":"p","n":"Berni","ref":"5128"},
+  {"id":2258926797,"lat":46.16175,"lon":11.71429,"k":"p","n":"Canal S.Bovo (Loc. Giaroni)","ref":"40023"},
+  {"id":2258926798,"lat":46.15953,"lon":11.72756,"k":"p","n":"Canal San Bovo (Somprà)","ref":"40016"},
+  {"id":2258926801,"lat":46.16709,"lon":11.71014,"k":"p","n":"Canal S.Bovo Loc.Al Lago","ref":"43097"},
+  {"id":2258926802,"lat":46.154752,"lon":11.733085,"k":"p","n":"Canal S.Bovo","ref":"40014"},
+  {"id":2258926805,"lat":46.15497,"lon":11.733,"k":"p","n":"Canal S.Bovo","ref":"5117"},
+  {"id":2258926807,"lat":46.151344,"lon":11.734373,"k":"p","n":"Canal S.Bovo-Sc.Unica A Lausen","ref":"40015"},
+  {"id":2258926809,"lat":46.15606,"lon":11.73173,"k":"p","n":"Canal S.Bovo-Via Roma","ref":"44669"},
+  {"id":2258926821,"lat":46.160342,"lon":11.743655,"k":"p","n":"Cicona (Albergo Cima D'Asta)","ref":"44715"},
+  {"id":2258926822,"lat":46.162602,"lon":11.743908,"k":"p","n":"Cicona","ref":"5114"},
+  {"id":2258926937,"lat":46.16249,"lon":11.72233,"k":"p","n":"Pianazzi Bivio","ref":"40022"},
+  {"id":2258926946,"lat":46.15147,"lon":11.74163,"k":"p","n":"Prade Bivio","ref":"5115"},
+  {"id":2258926949,"lat":46.157298,"lon":11.740516,"k":"p","n":"Prade","ref":"5113"},
+  {"id":2258926950,"lat":46.152994,"lon":11.747631,"k":"p","n":"Revedea Sp 79 Civ. 18","ref":"45384"},
+  {"id":2258926953,"lat":46.153099,"lon":11.746071,"k":"p","n":"Revedea","ref":"40024"},
+  {"id":2258926959,"lat":46.15333,"lon":11.71963,"k":"p","n":"Ronco Fosse","ref":"5118"},
+  {"id":2258927080,"lat":46.16384,"lon":11.74728,"k":"p","n":"Zortea di Mezzo","ref":"40013"},
+  {"id":13011346193,"lat":46.160457,"lon":11.740721,"k":"p","n":"Cicona SP Km 2.4"}
+],
+"routes":[
+  {"id":19368284,"t":{"ref":"B504","name":"Bus B504: Ronc Chiesa->Canal S.Bovo","from":"Ronco Chiesa","to":"Canal S.Bovo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[2258926959,4],[2258926797,5],[2258926937,6],[2258926798,7],[2258926805,8]]},
+  {"id":19368285,"t":{"ref":"B504","name":"Bus B504: Canal S.Bovo->Ronco Chiesa","from":"Canal S.Bovo","to":"Ronco Chiesa (Caoria)","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":12,"s":[[2258926805,1],[2258926798,2],[2258926937,3],[2258926797,4],[2258926959,5],[2258926801,9]]},
+  {"id":19368438,"t":{"ref":"B506","name":"Bus B506: Caoria->Lago Calaita->Canal S.Bovo->Fiera di P.","from":"Caoria","to":"Fiera di Primero","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[2258926937,4],[2258926802,5],[2258926946,7],[2258926786,8],[2258926949,9],[13011346193,10],[2258926821,11],[2258926822,12],[2258927080,13]]},
+  {"id":19368439,"t":{"ref":"B506","name":"Bus B506: Fiera di P.->Canal S.Bovo->Lago Calaita->Caoria","from":"Fiera di Primero","to":"Caoria","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[2258927080,12],[2258926822,13],[2258926821,14],[13011346193,15],[2258926949,16],[2258926786,17],[2258926946,18],[2258926805,20],[2258926937,21]]},
+  {"id":19368504,"t":{"ref":"B506","name":"Bus B506: Variante: Canal S.Bovo->Imer diretto","from":"Canal S.Bovo","to":"Imer","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[2258926802,1]]},
+  {"id":19368505,"t":{"ref":"B506","name":"Bus B506: Variante: Imer->Canal S.Bovo diretto","from":"Imer","to":"Canal S.Bovo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[2258926805,7]]},
+  {"id":19369135,"t":{"ref":"B503","name":"Bus B503: Agordo->Passo Cereda->Fiera P->Caoria","from":"Sagron","to":"(Caoria) Imer","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":34,"s":[[2258926946,28],[2258926805,30],[2258926937,31]]},
+  {"id":19369136,"t":{"ref":"B503","name":"Bus B503: Caoria->Fiera P.->Passo Cereda->Agordo","from":"(Caoria) Imer","to":"Sagron","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":34,"s":[[2258926937,4],[2258926802,5],[2258926946,7]]},
+  {"id":19369557,"t":{"ref":"B511","name":"Bus B511: Canal S.B.->P.Imer->Fiero->Siror","from":"Canal San Bovo","to":"Siror","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[2258926802,1]]},
+  {"id":19369558,"t":{"ref":"B511","name":"Bus B511: Siror->Fiero->P.Imer->Canal S.B.","from":"Siror","to":"Canal San Bovo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[2258926805,16]]}
+]
+}

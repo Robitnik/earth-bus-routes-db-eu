@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2754,3915],
+"stops":[
+  {"id":319399318,"lat":47.700599,"lon":15.793895,"k":"x","n":"Reichenau Knappenhof","ref":"04"},
+  {"id":736870807,"lat":47.734416,"lon":15.792011,"k":"p","n":"Höllental Kaiserbrunn"},
+  {"id":1450940226,"lat":47.746062,"lon":15.770696,"k":"p","n":"Höllental Abzweigung Weichtalhaus"},
+  {"id":4345062435,"lat":47.746376,"lon":15.769413,"k":"p","n":"Höllental Abzweigung Weichtalhaus"},
+  {"id":7685451390,"lat":47.746003,"lon":15.770676,"k":"x","n":"Höllental Abzweigung Weichtalhaus"},
+  {"id":7685451391,"lat":47.746417,"lon":15.769454,"k":"x","n":"Höllental Abzweigung Weichtalhaus"},
+  {"id":7685451392,"lat":47.734418,"lon":15.792096,"k":"x","n":"Höllental Kaiserbrunn"},
+  {"id":7685451393,"lat":47.734884,"lon":15.792021,"k":"x","n":"Höllental Kaiserbrunn"},
+  {"id":7685451394,"lat":47.734891,"lon":15.792071,"k":"p","n":"Höllental Kaiserbrunn"},
+  {"id":11235475513,"lat":47.747195,"lon":15.769501,"k":"x","n":"Reichenau Weichtalhaus","ref":"10"}
+],
+"routes":[
+  {"id":11274209,"t":{"ref":"341","name":"Bus 341: Schwarzau => Hinternaßwald => Payerbach","from":"Schwarzau im Gebirge Ortsmitte","to":"Payerbach-Reichenau Bahnhof","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":27,"s":[[4345062435,12],[736870807,13]]},
+  {"id":11274210,"t":{"ref":"341","name":"Bus 341: Schwarzau => Schulen => Payerbach","from":"Schwarzau im Gebirge Ortsmitte","to":"Payerbach-Reichenau Bahnhof","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":23,"s":[[4345062435,7],[736870807,8]]},
+  {"id":11274211,"t":{"ref":"341","name":"Bus 341: Schwarzau => Payerbach","from":"Schwarzau im Gebirge Ortsmitte","to":"Payerbach-Reichenau Bahnhof","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":22,"s":[[4345062435,7],[736870807,8]]},
+  {"id":11274556,"t":{"ref":"341","name":"Bus 341: Payerbach => Schulen => Schwarzau","from":"Payerbach-Reichenau Bahnhof","to":"Schwarzau im Gebirge Ortsmitte","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":24,"s":[[7685451394,16],[1450940226,17]]},
+  {"id":11274557,"t":{"ref":"341","name":"Bus 341: Payerbach => Hinternaßwald => Schwarzau","from":"Payerbach-Reichenau Bahnhof","to":"Schwarzau im Gebirge Ortsmitte","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":28,"s":[[7685451394,14],[1450940226,15]]},
+  {"id":11274558,"t":{"ref":"341","name":"Bus 341: Payerbach => Schwarzau","from":"Payerbach-Reichenau Bahnhof","to":"Schwarzau im Gebirge Ortsmitte","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":22,"s":[[7685451394,14],[1450940226,15]]},
+  {"id":14344043,"t":{"ref":"341","name":"Bus 341: Payerbach => Hinternaßwald","from":"Payerbach-Reichenau Bahnhof","to":"Hinternaßwald Wendestelle","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":21,"s":[[7685451394,14],[1450940226,15]]},
+  {"id":14449553,"t":{"ref":"341","name":"Bus 341: Singerin => Payerbach","from":"Singerin Abzweigung Naßwald","to":"Payerbach-Reichenau Bahnhof","network":"VOR","operator":"Retter Linien","route":"bus","public_transport:version":"2"},"n":18,"s":[[4345062435,3],[736870807,4]]},
+  {"id":16413962,"t":{"ref":"RUFbus","name":"RUFbus Rax-Semmering","route":"bus","public_transport:version":"2"},"n":118,"s":[[319399318,4],[11235475513,10],[7685451392,11]]}
+]
+}

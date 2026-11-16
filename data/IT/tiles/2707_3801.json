@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2707,3801],
+"stops":[
+  {"id":13512644189,"lat":45.353789,"lon":10.093222,"k":"p","n":"Breda libera - zona industriale"},
+  {"id":13512644190,"lat":45.358849,"lon":10.057509,"k":"p","n":"Cadignano - bar baffo"},
+  {"id":13545396431,"lat":45.378085,"lon":10.056149,"k":"p","n":"Scarpizzolo - madonnina"},
+  {"id":13546679637,"lat":45.399926,"lon":10.070898,"k":"p","n":"Dello - bivio per barbariga"},
+  {"id":13546679639,"lat":45.377985,"lon":10.056337,"k":"p","n":"Scarpizzolo - madonnina"},
+  {"id":13547053177,"lat":45.377172,"lon":10.083442,"k":"p","n":"Faverzano - capolinea"},
+  {"id":13547053178,"lat":45.377558,"lon":10.086828,"k":"p","n":"Faverzano - via senatore longo"},
+  {"id":13547053179,"lat":45.376962,"lon":10.098182,"k":"p","n":"Cignano - via per faverzano"}
+],
+"routes":[
+  {"id":20153297,"t":{"ref":"LS011","name":"Bus LS011: Manerbio->Bargnano->Orzinuovi","from":"MANERBIO - Via Karl Marx Istituto Polivalente","to":"Orzinuovi - Via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13512644189,3],[13512644190,4]]},
+  {"id":20153298,"t":{"ref":"LS011","name":"Bus LS011: Orzinuovi->Bargnano->Manerbio","from":"Orzinuovi - Andreana","to":"MANERBIO - Via Karl Marx Istituto Polivalente","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":18,"s":[[13512644190,16],[13512644189,17]]},
+  {"id":20202595,"t":{"ref":"LS012","name":"Linea LS012: Quinzano => Borgo S. Giacomo =>Brescia","from":"Quinzano piazza IV Novembre","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":35,"s":[[13546679639,17],[13546679637,18]]},
+  {"id":20202596,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":33,"s":[[13545396431,18]]},
+  {"id":20204654,"t":{"ref":"LS015","name":"Linea LS015: Brescia =>Faverzano","from":"Brescia Autostazione Solferino","to":"Faverzano - capolinea","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":26,"s":[[13547053179,24],[13547053178,25],[13547053177,26]]},
+  {"id":20204655,"t":{"ref":"LS015","name":"Linea LS015: Faverzano => Brescia","from":"Faverzano - capolinea","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":26,"s":[[13547053177,1],[13547053178,2],[13547053179,3]]},
+  {"id":20246649,"t":{"ref":"LS012","name":"Linea LS012: Quinzano => Borgo S. Giacomo =>Brescia Variante diretto","from":"Quinzano piazza IV Novembre","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":7,"s":[[13546679639,7]]},
+  {"id":20246651,"t":{"ref":"LS012","name":"Linea LS012: Brescia => Borgo S. Giacomo =>Quinzano Variante Cadignano","from":"Brescia Autostazione Solferino","to":"Quinzano piazza IV Novembre","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":7,"s":[[13545396431,1],[13512644190,4]]}
+]
+}

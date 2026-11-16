@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2706,3780],
+"stops":[
+  {"id":4913513428,"lat":45.328274,"lon":9.016746,"k":"p","n":"Via Europa (Bubbiano)"},
+  {"id":4920929312,"lat":45.348958,"lon":9.013889,"k":"p","n":"Via Circonvallazione - Via Dante (Rosate)"},
+  {"id":4920929314,"lat":45.349016,"lon":9.013492,"k":"p","n":"Via Circonvallazione - Via Dante (Rosate)"},
+  {"id":13031131879,"lat":45.312054,"lon":9.038077,"k":"p","n":"Moncucco - Grossoni/Tobagi"},
+  {"id":13031144365,"lat":45.31169,"lon":9.038044,"k":"p"}
+],
+"routes":[
+  {"id":7330140,"t":{"ref":"z516","name":"Bus z516 Milano Famagosta M2 => Bubbiano","from":"Milano Famagosta M2","to":"Bubbiano","network":"STIBM","operator":"PMT","route":"bus","public_transport:version":"2"},"n":3,"s":[[4920929314,2],[4913513428,3]]},
+  {"id":7330141,"t":{"ref":"z516","name":"Bus z516 Milano Famagosta => Besate","from":"Milano Famagosta M2","to":"Besate","network":"STIBM","operator":"PMT","route":"bus","public_transport:version":"2"},"n":6,"s":[[4920929314,2],[4913513428,3]]},
+  {"id":7330142,"t":{"ref":"z516","name":"z516 Famagosta M2","from":"Besate","network":"STIBM","operator":"PMT","route":"bus"},"n":4,"s":[[4920929312,4]]},
+  {"id":7330143,"t":{"ref":"z516","name":"z516 Famagosta M2","from":"Bubbiano","network":"STIBM","operator":"PMT","route":"bus","public_transport:version":"2"},"n":3,"s":[[4913513428,2],[4920929312,3]]},
+  {"id":7338801,"t":{"ref":"z554","name":"z554 Bubbiano, Via Europa","network":"STIBM","operator":"STAV","route":"bus"},"n":2,"s":[[4913513428,1],[4920929314,2]]},
+  {"id":7338802,"t":{"ref":"z554","name":"z554 Albairate, Via Marconi","network":"STIBM","operator":"STAV","route":"bus"},"n":6,"s":[[4913513428,1],[4920929312,2]]}
+]
+}

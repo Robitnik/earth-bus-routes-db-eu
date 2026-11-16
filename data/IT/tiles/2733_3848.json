@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2733,3848],
+"stops":[
+  {"id":3408910813,"lat":46.656657,"lon":12.41899,"k":"p","n":"Kreuzbergpass - Passo di Monte Croce di Comélico"},
+  {"id":8268095683,"lat":46.656623,"lon":12.418955,"k":"x","n":"Kreuzbergpass - Passo di Monte Croce di Comélico"},
+  {"id":14312463785,"lat":46.656208,"lon":12.41955,"k":"p","n":"Passo Monte Croce"},
+  {"id":14312463786,"lat":46.656568,"lon":12.419377,"k":"p","n":"Passo Monte Croce"}
+],
+"routes":[
+  {"id":1171108,"t":{"ref":"446","name":"Bus 446: Toblach => Innichen => Sexten => Kreuzbergpass","from":"Toblach","to":"Kreuzbergpass","network":"SII","operator":"Holzer","route":"bus","public_transport:version":"2","bus":"yes"},"n":28,"s":[[3408910813,28]]},
+  {"id":8516632,"t":{"ref":"446","name":"Bus 446: Kreuzbergpass => Sexten => Innichen => Toblach","from":"Kreuzbergpass","to":"Toblach Busbahnhof","network":"SII","operator":"SII","route":"bus","public_transport:version":"2","bus":"yes"},"n":27,"s":[[3408910813,1]]},
+  {"id":18493950,"t":{"ref":"440","name":"Bus 440: Kreuzbergpass => Fischleintal => Sexten","from":"Kreuzbergpass","to":"Sexten","operator":"Holzer","route":"bus","public_transport:version":"2"},"n":16,"s":[[3408910813,1]]},
+  {"id":18493967,"t":{"ref":"440","name":"Bus 440: Sexten => Fischleintal => Kreuzbergpass","from":"Sexten","to":"Kreuzbergpass","operator":"Holzer","route":"bus","public_transport:version":"2"},"n":16,"s":[[3408910813,16]]},
+  {"id":20032386,"t":{"ref":"SALTO 610","name":"Skibus SALTO 610","colour":"#ef9100","route":"bus"},"n":4,"s":[[3408910813,1]]},
+  {"id":21772986,"t":{"ref":"73","name":"Linea 73","from":"Santo Stefano di Cadore","to":"San Candido","route":"bus","public_transport:version":"2"},"n":31,"s":[[14312463786,18]]},
+  {"id":21773520,"t":{"ref":"73","name":"Linea 73","from":"San Candido","to":"Santo Stefano di Cadore","route":"bus","public_transport:version":"2"},"n":34,"s":[[14312463785,14]]}
+]
+}

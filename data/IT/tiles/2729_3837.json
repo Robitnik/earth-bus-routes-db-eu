@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3837],
+"stops":[
+  {"id":360588777,"lat":46.497475,"lon":11.874326,"k":"x","n":"Arabba"},
+  {"id":666122557,"lat":46.497458,"lon":11.874388,"k":"p","n":"Arabba"},
+  {"id":3958089288,"lat":46.498253,"lon":11.895603,"k":"p","n":"Alfauro"},
+  {"id":4945705519,"lat":46.453833,"lon":11.888437,"k":"p","n":"Rifugio Passo Fedaia"},
+  {"id":4945768906,"lat":46.454832,"lon":11.897584,"k":"p","n":"Pian De Lobia"},
+  {"id":5143498144,"lat":46.463993,"lon":11.862197,"k":"p","n":"Pian di Fedaia Rifugio Marmolada (Lago di Fedaia)"},
+  {"id":8777640550,"lat":46.498178,"lon":11.895566,"k":"p","n":"Alfauro"},
+  {"id":8777640556,"lat":46.4975,"lon":11.874253,"k":"p","n":"Arabba"},
+  {"id":8909960319,"lat":46.45468,"lon":11.89751,"k":"p","n":"Pian De Lobia"},
+  {"id":8909960321,"lat":46.453724,"lon":11.888417,"k":"p","n":"Rifugio Passo Fedaia"},
+  {"id":8909960323,"lat":46.463921,"lon":11.862194,"k":"p","n":"Pian di Fedaia Rifugio Marmolada (Lago di Fedaia)"}
+],
+"routes":[
+  {"id":4587693,"t":{"ref":"3/72","name":"Agordo -> Arabba -> Colfosco","from":"Agordo","to":"Colfosco","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":39,"s":[[3958089288,32],[666122557,33]]},
+  {"id":12769674,"t":{"ref":"3/72","name":"Colfosco -> Arabba -> Agordo","from":"Colfosco","to":"Agordo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":41,"s":[[8777640550,38],[8777640556,39]]},
+  {"id":12937606,"t":{"ref":"2/3/4","name":"Falcade -> Caprile -> Marmolada","from":"Falcade Piazza","to":"Pian di Fedaia Rifugio Marmolada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[4945768906,26],[4945705519,28]]},
+  {"id":12937607,"t":{"ref":"2/3/4","name":"Marmolada -> Caprile -> Falcade","from":"Pian di Fedaia Rifugio Marmolada","to":"Falcade Piazza","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":34,"s":[[8909960319,32],[8909960321,34]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[3958089288,97],[666122557,98]]},
+  {"id":18503393,"t":{"ref":"472","name":"Bus 472: Corvara => Passo Campolongo => Arabba => Jouf de Pordoi","from":"Corvara","to":"Jouf de Pordoi","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":16,"s":[[8777640556,14]]},
+  {"id":18503399,"t":{"ref":"472","name":"Bus 472: Jouf de Pordoi => Arabba => Passo Campolongo => Corvara","from":"Jouf de Pordoi","to":"Corvara","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[666122557,3]]},
+  {"id":19365295,"t":{"ref":"B131","name":"Bus B131: Passo Fedaia->Penia","from":"Passo Fedaia","to":"Penia Str. Pian Trevisan","network":"Servizio Extraurbano","operator":"Trentino Trasporti (Bus Privato)","route":"bus","public_transport:version":"2"},"n":7,"s":[[4945705519,1],[8909960321,2],[8909960323,3]]},
+  {"id":19365296,"t":{"ref":"B131","name":"Bus B131: Penia->Passo Fedaia","from":"Penia Str. Pian Trevisan","to":"Passo Fedaia","network":"Servizio Extraurbano","operator":"Trentino Trasporti (Bus Privato)","route":"bus","public_transport:version":"2"},"n":7,"s":[[8909960323,5],[8909960321,6],[4945705519,7]]}
+]
+}

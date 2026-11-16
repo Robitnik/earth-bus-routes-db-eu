@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3815],
+"stops":[
+  {"id":415496949,"lat":46.313906,"lon":10.797292,"k":"p","n":"Ski bus"},
+  {"id":415496950,"lat":46.313827,"lon":10.797258,"k":"p","n":"Ski bus"},
+  {"id":1852004567,"lat":46.311285,"lon":10.758034,"k":"p","n":"Pellizano"},
+  {"id":1852004569,"lat":46.311344,"lon":10.757628,"k":"p","n":"Pellizano"},
+  {"id":1852004572,"lat":46.312536,"lon":10.776886,"k":"p","n":"Claiano Bivio"},
+  {"id":1852004576,"lat":46.316704,"lon":10.798369,"k":"p","n":"Mezzana Ovest"},
+  {"id":1852004578,"lat":46.316722,"lon":10.798561,"k":"p","n":"Mezzana Ovest"},
+  {"id":6341429184,"lat":46.316073,"lon":10.796213,"k":"p"},
+  {"id":6341429285,"lat":46.316648,"lon":10.796673,"k":"p","n":"Mezzana Parco Giochi"},
+  {"id":6341429286,"lat":46.316656,"lon":10.796417,"k":"p","n":"Mezzana Parco Giochi"},
+  {"id":11101220090,"lat":46.321356,"lon":10.781919,"k":"p","n":"Castello bivio di Stavel"},
+  {"id":11101253530,"lat":46.32621,"lon":10.78495,"k":"p","n":"Ortisè"},
+  {"id":11101275839,"lat":46.328299,"lon":10.786267,"k":"p","n":"Menas"},
+  {"id":11129428017,"lat":46.31632,"lon":10.765465,"k":"p","n":"Termagno"},
+  {"id":11129496199,"lat":46.321744,"lon":10.774414,"k":"p","n":"Castello di Pellizano"},
+  {"id":11129501646,"lat":46.316535,"lon":10.765774,"k":"p","n":"Termagno"},
+  {"id":12986288302,"lat":46.315421,"lon":10.764949,"k":"p","n":"Termagno Sud"},
+  {"id":12986288303,"lat":46.316406,"lon":10.773114,"k":"p","n":"Clainano Nord SP140"}
+],
+"routes":[
+  {"id":19326875,"t":{"ref":"B646","name":"Bus B646: Passo Tonale->Vermiglio->Fucine->Mezzana->Malè","from":"Passo Tonale","to":"Mezzana Staz. Ftm","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":18,"s":[[1852004569,14],[1852004567,15],[1852004572,16],[6341429286,17]]},
+  {"id":19326876,"t":{"ref":"B646","name":"Bus B646: Malè->Mezzana->Fucine->Vermiglio->Passo Tonale","from":"Mezzana Staz. Ftm","to":"Passo Tonale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[6341429285,2],[1852004572,3],[1852004569,4]]},
+  {"id":19332891,"t":{"ref":"B6464","name":"Bus B644: Menas->Pellizano","from":"Menas","to":"Pellizzano","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":9,"s":[[11101275839,1],[11101253530,2],[11101220090,3],[11129496199,4],[11129501646,5],[12986288302,6],[12986288303,7],[1852004572,8],[1852004569,9]]},
+  {"id":19332892,"t":{"ref":"B6464","name":"Bus B644: Pellizano->Menas","from":"Pellizano","to":"Menas","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":9,"s":[[1852004567,1],[1852004572,2],[12986288303,3],[12986288302,4],[11129428017,5],[11129496199,6],[11101220090,7],[11101253530,8],[11101275839,9]]},
+  {"id":19332987,"t":{"ref":"B643","name":"Bus B643: Malè->Mezzana->Marilleva 1400","from":"Malè Nuovo Stazione","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[1852004578,16],[1852004576,17]]},
+  {"id":19333735,"t":{"ref":"B643","name":"Bus B643: Marilleva 1400->Mezzana->Malè","from":"Marilleva 1400","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[1852004578,11],[1852004576,12]]},
+  {"id":19333783,"t":{"ref":"B645","name":"Bus B645: Peio->Cogolo->Fucine->Mezzaa->Malè","from":"Peio","to":"Mezzana Staz. Ftm","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[1852004567,13],[1852004572,14],[6341429286,15]]},
+  {"id":19333784,"t":{"ref":"B645","name":"Bus B645: Malè->Mezzana->Fucine->Cogolo->Peio","from":"Mezzana Staz. Ftm","to":"Peio","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[6341429285,2],[1852004572,3],[1852004569,4]]}
+]
+}

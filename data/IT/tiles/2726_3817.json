@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3817],
+"stops":[
+  {"id":1852004592,"lat":46.323781,"lon":10.851913,"k":"p","n":"Degginao Bivio"},
+  {"id":1852004593,"lat":46.327863,"lon":10.870378,"k":"p","n":"Dimaro Sporthotel Rosatti"},
+  {"id":1852004595,"lat":46.327999,"lon":10.870304,"k":"p","n":"Dimaro Sporthotel Rosatti"},
+  {"id":1852004596,"lat":46.328921,"lon":10.872226,"k":"p"},
+  {"id":1852004598,"lat":46.331876,"lon":10.87944,"k":"p","n":"Presson"},
+  {"id":1852004599,"lat":46.332568,"lon":10.881361,"k":"p"},
+  {"id":1852004601,"lat":46.333361,"lon":10.888939,"k":"p","n":"Monclassico"},
+  {"id":1852004602,"lat":46.333427,"lon":10.888624,"k":"p","n":"Monclassico"},
+  {"id":1852004604,"lat":46.336109,"lon":10.893353,"k":"p","n":"Monclassico Sud"},
+  {"id":2429895941,"lat":46.325944,"lon":10.874242,"k":"p"},
+  {"id":2429895943,"lat":46.325329,"lon":10.874861,"k":"p","n":"Dimaro Piazza Centrale"},
+  {"id":2666923365,"lat":46.327202,"lon":10.872321,"k":"p","n":"Dimaro Coop"},
+  {"id":2666923380,"lat":46.327279,"lon":10.87242,"k":"p","n":"Dimaro Coop"},
+  {"id":6221172557,"lat":46.303836,"lon":10.859243,"k":"x","n":"Folgarida, Ski"},
+  {"id":6221172558,"lat":46.303876,"lon":10.859205,"k":"p","n":"Folgarida, Ski"},
+  {"id":6268737685,"lat":46.329946,"lon":10.87426,"k":"p"},
+  {"id":9062283263,"lat":46.305533,"lon":10.863394,"k":"p","n":"Folgarida"},
+  {"id":12981721489,"lat":46.30463,"lon":10.866978,"k":"p","n":"Sun Valley"},
+  {"id":12981721490,"lat":46.317546,"lon":10.867662,"k":"p","n":"Costa Rotian"},
+  {"id":12981721491,"lat":46.321121,"lon":10.872342,"k":"p","n":"Località Bonetei"},
+  {"id":12981721492,"lat":46.322929,"lon":10.875513,"k":"p","n":"Dimaro Via Campiglio"},
+  {"id":12981721493,"lat":46.33236,"lon":10.879781,"k":"p","n":"Presson"},
+  {"id":12987081197,"lat":46.340247,"lon":10.875531,"k":"p","n":"Montes"},
+  {"id":12987081199,"lat":46.344204,"lon":10.883508,"k":"p","n":"Bolentina"},
+  {"id":12987081200,"lat":46.344911,"lon":10.889575,"k":"p","n":"Bolentina Sud"}
+],
+"routes":[
+  {"id":165016,"t":{"ref":"B201old","name":"B201old: Trento - Tione - Pinzolo - Madonna di Campiglio - Campo Carlo Magno","from":"Trento","to":"Campo Carlo Magno","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":9,"s":[[2666923380,9]]},
+  {"id":19326011,"t":{"ref":"B642","name":"Bus B642: Madonna di Campiglio->Folgarida->Malè","from":"M.Campiglio Pietra Gr.","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":25,"s":[[12981721489,11],[9062283263,12],[12981721490,13],[12981721491,14],[12981721492,15],[2429895943,16],[2666923380,17],[12981721493,18],[1852004601,19],[1852004604,20]]},
+  {"id":19326012,"t":{"ref":"B642","name":"Bus B642: Malè->Folgarida->Madonna di Campiglio","from":"Malè Nuovo Stazione","to":"M.Campiglio Pietra Gr.","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[1852004604,5],[1852004602,6],[12981721493,7],[2666923365,8],[2429895943,9],[12981721492,10],[12981721491,11],[12981721490,12],[9062283263,13],[12981721489,14]]},
+  {"id":19332987,"t":{"ref":"B643","name":"Bus B643: Malè->Mezzana->Marilleva 1400","from":"Malè Nuovo Stazione","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[1852004604,6],[1852004602,7],[12981721493,8],[1852004595,9],[1852004592,10]]},
+  {"id":19333735,"t":{"ref":"B643","name":"Bus B643: Marilleva 1400->Mezzana->Malè","from":"Marilleva 1400","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[1852004592,18],[1852004593,19],[12981721493,20],[1852004601,21],[1852004604,22]]},
+  {"id":19333820,"t":{"ref":"B641","name":"Bus B641: Bolentina->Malè","from":"Bolentina","to":"Malè Nuovo Stazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":6,"s":[[12987081199,1],[12987081197,2],[12987081200,3]]},
+  {"id":19333821,"t":{"ref":"B641","name":"Bus B641: Malè->Bolentina","from":"Malè Nuovo Stazione","to":"Bolentina","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12987081200,4],[12987081199,5]]}
+]
+}

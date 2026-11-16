@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3835],
+"stops":[
+  {"id":8824663026,"lat":45.987028,"lon":11.787973,"k":"p","n":"Case Lira"},
+  {"id":8824663027,"lat":45.987235,"lon":11.788223,"k":"p","n":"Case Lira"},
+  {"id":8824663051,"lat":45.980799,"lon":11.781128,"k":"p","n":"Arsiè - bivio Agana"},
+  {"id":8824663052,"lat":45.980665,"lon":11.781135,"k":"p","n":"Arsiè - bivio Agana"},
+  {"id":8825406057,"lat":45.981111,"lon":11.765253,"k":"p","n":"Arsiè - case ENEL"},
+  {"id":8825406058,"lat":45.981209,"lon":11.765457,"k":"p","n":"Arsiè - case ENEL"},
+  {"id":8825406059,"lat":45.983508,"lon":11.757536,"k":"p","n":"Arsiè Feltrino"},
+  {"id":8825406060,"lat":45.983504,"lon":11.757906,"k":"p","n":"Arsiè Feltrino"},
+  {"id":8827503283,"lat":45.974339,"lon":11.759533,"k":"p","n":"Rocca d'Arsiè - via dei Martiri"},
+  {"id":8827503284,"lat":45.972418,"lon":11.759138,"k":"p","n":"Rocca d'Arsiè - via dei Martiri"},
+  {"id":8827503285,"lat":45.96611,"lon":11.757691,"k":"p","n":"Rocca d'Arsiè - Villaggio"},
+  {"id":8827503286,"lat":45.966035,"lon":11.757854,"k":"p","n":"Rocca d'Arsiè - Villaggio"},
+  {"id":8827503287,"lat":45.961565,"lon":11.755544,"k":"p","n":"Stua"},
+  {"id":8827503288,"lat":45.961681,"lon":11.755838,"k":"p","n":"Stua"},
+  {"id":8827503289,"lat":45.957437,"lon":11.752591,"k":"p","n":"Al Ponte"},
+  {"id":8827503290,"lat":45.957309,"lon":11.752698,"k":"p","n":"Al Ponte"},
+  {"id":8827503293,"lat":45.95077,"lon":11.751465,"k":"p","n":"Rocca d'Arsiè - Al lavatoio"},
+  {"id":8827503294,"lat":45.950633,"lon":11.751358,"k":"p","n":"Rocca d'Arsiè - Al lavatoio"},
+  {"id":8827503305,"lat":45.992157,"lon":11.758026,"k":"p","n":"Rivai Crocetta"},
+  {"id":8827503306,"lat":45.992042,"lon":11.75757,"k":"p","n":"Rivai Crocetta"},
+  {"id":8827503307,"lat":45.994359,"lon":11.764176,"k":"p","n":"Rivai Soras"},
+  {"id":8827503308,"lat":45.994408,"lon":11.763814,"k":"p","n":"Rivai Soras"},
+  {"id":8827503309,"lat":45.994621,"lon":11.760621,"k":"p","n":"Rivai"}
+],
+"routes":[
+  {"id":12829393,"t":{"ref":"27","name":"Feltre -> Primolano","from":"Feltre FS","to":"Primolano FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":29,"s":[[8824663026,19],[8824663051,20],[8825406058,21],[8825406059,22]]},
+  {"id":12829394,"t":{"ref":"27","name":"Primolano -> Feltre","from":"Primolano FS","to":"Feltre FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":32,"s":[[8825406060,8],[8825406057,9],[8824663052,10],[8824663027,11]]},
+  {"id":12841896,"t":{"ref":"27","name":"Arsiè -> Incino","from":"Arsiè Feltrino","to":"Incino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":8,"s":[[8827503284,1],[8827503285,2],[8827503287,3],[8827503289,4],[8827503294,6]]},
+  {"id":12841897,"t":{"ref":"27","name":"Incino -> Arsiè","from":"Incino","to":"Arsiè Feltrino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":8,"s":[[8827503293,3],[8827503290,5],[8827503288,6],[8827503286,7],[8827503283,8]]},
+  {"id":12841898,"t":{"ref":"27","name":"Arsiè -> Rivai","from":"Arsiè Feltrino","to":"Rivai","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":4,"s":[[8827503306,3],[8827503307,4]]},
+  {"id":12841899,"t":{"ref":"27","name":"Rivai -> Arsiè","from":"Rivai","to":"Arsiè Feltrino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":4,"s":[[8827503308,1],[8827503305,2]]}
+]
+}

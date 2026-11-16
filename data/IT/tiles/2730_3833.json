@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2730,3833],
+"stops":[
+  {"id":338969904,"lat":46.533949,"lon":11.697358,"k":"x","n":"Prise"},
+  {"id":338977694,"lat":46.53135,"lon":11.671298,"k":"x","n":"Florian"},
+  {"id":338977782,"lat":46.531141,"lon":11.677841,"k":"x","n":"Saltner"},
+  {"id":497249818,"lat":46.53781,"lon":11.653632,"k":"p","n":"Wiedner Egg"},
+  {"id":497249821,"lat":46.538258,"lon":11.659258,"k":"p","n":"Rauch"},
+  {"id":497249823,"lat":46.537981,"lon":11.654037,"k":"p","n":"Wiedner Egg"},
+  {"id":497249825,"lat":46.538341,"lon":11.658401,"k":"p","n":"Rauch"},
+  {"id":1133968613,"lat":46.531727,"lon":11.669276,"k":"x","n":"Saltria"},
+  {"id":1180986011,"lat":46.537844,"lon":11.653747,"k":"x","n":"Wiedner Egg"},
+  {"id":4268226212,"lat":46.538284,"lon":11.658866,"k":"x","n":"Rauch"},
+  {"id":4268226227,"lat":46.531511,"lon":11.669467,"k":"p","n":"Saltria"},
+  {"id":7734686083,"lat":46.531293,"lon":11.671393,"k":"p","n":"Florian"},
+  {"id":10228126250,"lat":46.531753,"lon":11.669226,"k":"p","n":"Saltria"},
+  {"id":12476340652,"lat":46.531534,"lon":11.669435,"k":"x","n":"Saltria"},
+  {"id":12480058953,"lat":46.533975,"lon":11.697404,"k":"p","n":"Prise"},
+  {"id":12480058954,"lat":46.533913,"lon":11.697379,"k":"p","n":"Prise"},
+  {"id":12480058955,"lat":46.5311,"lon":11.677838,"k":"p","n":"Saltner"},
+  {"id":12480058956,"lat":46.531187,"lon":11.677868,"k":"p","n":"Saltner"},
+  {"id":12481140971,"lat":46.5314,"lon":11.671382,"k":"p","n":"Florian"}
+],
+"routes":[
+  {"id":3518295,"t":{"ref":"11","name":"Bus 11: Kompatsch => Saltria","operator":"Silbernagl","route":"bus","public_transport:version":"2"},"n":7,"s":[[497249818,5],[497249825,6],[10228126250,7]]},
+  {"id":10429778,"t":{"ref":"12","name":"Bus 12: Saltria => Monte Pana","operator":"Silbernagl","route":"bus","public_transport:version":"2"},"n":5,"s":[[10228126250,1],[7734686083,2],[12480058955,3],[12480058954,4]]},
+  {"id":10431015,"t":{"ref":"11","name":"Bus 11: Saltria => Kompatsch","operator":"Silbernagl","route":"bus","public_transport:version":"2"},"n":7,"s":[[10228126250,1],[497249821,2],[497249823,3]]},
+  {"id":10431022,"t":{"ref":"12","name":"Bus 12: Monte Pana => Saltria","operator":"Silbernagl","route":"bus","public_transport:version":"2"},"n":5,"s":[[12480058953,2],[12480058956,3],[12481140971,4],[10228126250,5]]},
+  {"id":14953630,"t":{"ref":"179","name":"Bus 179: Seis => Seiseralm","from":"Seis","to":"Seiseralm","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":27,"s":[[497249818,25],[497249825,26],[4268226227,27]]},
+  {"id":18507074,"t":{"ref":"179","name":"Bus 179: Seiseralm => Kastelruth","from":"Seiseralm","to":"Kastelruth","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":25,"s":[[10228126250,1],[497249821,2],[497249823,3]]}
+]
+}

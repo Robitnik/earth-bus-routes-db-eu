@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2711,3808],
+"stops":[
+  {"id":5587515530,"lat":45.574294,"lon":10.436622,"k":"p","n":"Gavardo Via Quarena 191"},
+  {"id":5587515531,"lat":45.577821,"lon":10.437144,"k":"p","n":"Gavardo Via Quarena 155"},
+  {"id":5587515532,"lat":45.584736,"lon":10.436614,"k":"p","n":"Gavardo Piazza Marconi"},
+  {"id":5587515533,"lat":45.587804,"lon":10.438126,"k":"p","n":"Gavardo ospedale"},
+  {"id":5587515534,"lat":45.588736,"lon":10.438906,"k":"p","n":"Gavardo ospedale"},
+  {"id":12895283775,"lat":45.596131,"lon":10.445373,"k":"p","n":"Villanuova bastone"},
+  {"id":12895283776,"lat":45.565938,"lon":10.433739,"k":"p","n":"Gavardo mobili ziglioli"},
+  {"id":12895283777,"lat":45.560901,"lon":10.423107,"k":"p","n":"Prevalle Porgolungo s.s."},
+  {"id":12895283778,"lat":45.55683,"lon":10.413644,"k":"p","n":"Prevalle bivio Prevalle"},
+  {"id":12895283779,"lat":45.552591,"lon":10.404098,"k":"p","n":"Paitone centro (bar)"},
+  {"id":12896744945,"lat":45.598928,"lon":10.438817,"k":"p","n":"Sopraponte bivio Monte Magno"},
+  {"id":12896744946,"lat":45.596836,"lon":10.440351,"k":"p","n":"Gavardo sopraponte v.s. S.Lucia"},
+  {"id":12896744947,"lat":45.585501,"lon":10.441175,"k":"p"},
+  {"id":12948873434,"lat":45.551993,"lon":10.447378,"k":"p","n":"Muscoline Burago"},
+  {"id":12948873435,"lat":45.555213,"lon":10.44274,"k":"p","n":"Muscoline Ca`Nova"},
+  {"id":12948993720,"lat":45.586203,"lon":10.446222,"k":"p","n":"Gvardo via Roma 139"},
+  {"id":12948993721,"lat":45.584867,"lon":10.442285,"k":"p","n":"Gvardo via Roma 1"},
+  {"id":12956511050,"lat":45.557288,"lon":10.426701,"k":"p","n":"Prevalle Via Republica"},
+  {"id":12956511051,"lat":45.550632,"lon":10.422152,"k":"p","n":"Prevalle Via Bonsignori"},
+  {"id":14246290155,"lat":45.552445,"lon":10.404097,"k":"p","n":"Paitone centro (bar)"}
+],
+"routes":[
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[12895283778,20],[14246290155,21],[12895283777,22],[12895283776,23],[5587515530,24],[5587515531,25],[5587515532,26],[5587515534,27],[12895283775,28]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[12895283775,41],[5587515534,42],[5587515532,43],[5587515531,44],[5587515530,45],[12895283776,46],[12895283777,47],[12895283778,48],[12895283779,49]]},
+  {"id":19225555,"t":{"ref":"LN002","name":"Bus LN002: Vallio->Gavardo","from":"Vallio Porle rotonda","to":"Gavardo Piazza","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":12,"s":[[12896744945,9],[12896744946,10],[5587515533,11],[5587515532,12]]},
+  {"id":19225556,"t":{"ref":"LN002","name":"Bus LN002: Gavardo->Vallio","from":"Gavardo Piazza","to":"Vallio Porle rotonda","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":12,"s":[[5587515532,1],[5587515533,2],[12896744946,3],[12896744945,4]]},
+  {"id":19282819,"t":{"ref":"LN004","name":"Bus LN004: Gavardo->Muscoline->Calvagese->Muscoline->Gavardo","from":"Gavardo piazza Marconi","to":"Cavalgese piazza Roma","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":20,"s":[[5587515532,1,20],[12948873435,6],[12948873434,7],[5587515531,19]]},
+  {"id":19282918,"t":{"ref":"LN003","name":"Bus LN003: Gavardo->San Quirico->Gavardo","from":"Gavardo piazza Marconi","to":"San Quirico","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":20,"s":[[5587515532,1,20],[12948993721,2,18],[12948993720,3,17],[5587515531,19]]},
+  {"id":19293738,"t":{"ref":"S202-1","name":"Bus S202-1: Variante: Prevalle->Nuvolento","from":"Prevalle Porgolungo","to":"Nuvolento via Trento","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":8,"s":[[12895283777,1],[12956511050,2]]},
+  {"id":19293739,"t":{"ref":"S202-1","name":"Bus S202-1: Variante: Nuvolenta ->Prevalle","from":"Nuvolento via Trento","to":"Prevalle Porgolungo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":8,"s":[[12956511050,7],[12895283777,8]]}
+]
+}

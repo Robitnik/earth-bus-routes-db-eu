@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2721,3867],
+"stops":[
+  {"id":1342996082,"lat":46.085637,"lon":13.3666,"k":"x","n":"Via Nazionale (direzione Udine)"},
+  {"id":10162596830,"lat":46.085587,"lon":13.367513,"k":"x","n":"Via Nazionale 19 (direzione Cividale)"},
+  {"id":13144183140,"lat":46.085537,"lon":13.367505,"k":"p","n":"Via Nazionale 19 (direzione Cividale)"},
+  {"id":13144455279,"lat":46.067995,"lon":13.39803,"k":"x","n":"via Fiore dei Liberi 95","ref":"36335"},
+  {"id":13144455280,"lat":46.067941,"lon":13.398077,"k":"p","n":"Via Fiore dei Liberi 66"},
+  {"id":13144471214,"lat":46.063526,"lon":13.396446,"k":"x","n":"Via Fiore dei Liberi 49"},
+  {"id":13144471215,"lat":46.063539,"lon":13.396391,"k":"p","n":"Via Fiore dei Liberi 49"},
+  {"id":13144526871,"lat":46.057854,"lon":13.394215,"k":"x","n":"Piazza Guglielmo Marconi","ref":"36341"},
+  {"id":13149376186,"lat":46.06359,"lon":13.39657,"k":"p","n":"via Fiore dei Libero 30 (Coop)"},
+  {"id":13149376187,"lat":46.058396,"lon":13.394214,"k":"x","n":"via Fiore dei Liberi (fronte","ref":"36302"},
+  {"id":13149376188,"lat":46.058385,"lon":13.394292,"k":"p"}
+],
+"routes":[
+  {"id":19593599,"t":{"ref":"300","name":"Linea 300","from":"Cividale","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":5,"s":[[1342996082,2]]},
+  {"id":19604607,"t":{"ref":"302","name":"Linea 302 (Andata)","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":10,"s":[[13144455279,2],[13144526871,3]]},
+  {"id":19611325,"t":{"ref":"302","name":"Linea 302 (Ritorno)","to":"Udine","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":11,"s":[[13149376187,8],[13144471214,9],[13144455279,10]]}
+]
+}

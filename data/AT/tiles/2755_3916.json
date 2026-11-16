@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2755,3916],
+"stops":[
+  {"id":1453449906,"lat":47.792122,"lon":15.83201,"k":"x","n":"Losenheim Sesselbahn"},
+  {"id":1631845885,"lat":47.790741,"lon":15.843525,"k":"p","n":"Puchberg Losenheim"},
+  {"id":7699142655,"lat":47.792132,"lon":15.832066,"k":"p","n":"Losenheim Sesselbahn"},
+  {"id":7699361770,"lat":47.790758,"lon":15.843725,"k":"x","n":"Puchberg Losenheim"},
+  {"id":7699361771,"lat":47.7908,"lon":15.84368,"k":"p","n":"Puchberg Losenheim"},
+  {"id":7699361772,"lat":47.790774,"lon":15.843614,"k":"x","n":"Puchberg Losenheim"}
+],
+"routes":[
+  {"id":11287041,"t":{"ref":"350","name":"Bus 350: Losenheim Sesselbahn => Puchberg am Schneeberg Bahnhof","from":"Losenheim Sesselbahn","to":"Puchberg am Schneeberg Bahnhof","network":"VOR","operator":"Retter Linien;Geldner","route":"bus","public_transport:version":"2"},"n":6,"s":[[7699142655,1],[1631845885,2]]},
+  {"id":11287042,"t":{"ref":"350","name":"Bus 350: Losenheim Sesselbahn => Neunkirchen Busbahnhof","from":"Losenheim Sesselbahn","to":"Neunkirchen Busbahnhof","network":"VOR","operator":"Retter Linien;Geldner","route":"bus","public_transport:version":"2"},"n":27,"s":[[7699142655,1],[1631845885,2]]},
+  {"id":11295796,"t":{"ref":"350","name":"Bus 350: Neunkirchen Busbahnhof => Losenheim Sesselbahn","from":"Neunkirchen Busbahnhof","to":"Losenheim Sesselbahn","network":"VOR","operator":"Retter Linien;Geldner","route":"bus","public_transport:version":"2"},"n":28,"s":[[7699361771,27],[7699142655,28]]},
+  {"id":11295797,"t":{"ref":"350","name":"Bus 350: Puchberg am Schneeberg Bahnhof => Losenheim Sesselbahn","from":"Puchberg am Schneeberg Bahnhof","to":"Losenheim Sesselbahn","network":"VOR","operator":"Retter Linien;Geldner","route":"bus","public_transport:version":"2"},"n":6,"s":[[7699361771,5],[7699142655,6]]}
+]
+}

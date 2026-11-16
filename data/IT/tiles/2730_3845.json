@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2730,3845],
+"stops":[
+  {"id":472594227,"lat":46.535878,"lon":12.295359,"k":"p","n":"Auronzo San Marco"},
+  {"id":8872481158,"lat":46.532856,"lon":12.290326,"k":"p","n":"Villa Gregoriana"},
+  {"id":8872481159,"lat":46.532689,"lon":12.290497,"k":"p","n":"Villa Gregoriana"},
+  {"id":8872481160,"lat":46.535758,"lon":12.295488,"k":"p","n":"Auronzo San Marco"}
+],
+"routes":[
+  {"id":11331300,"t":{"ref":"9/31","name":"Belluno -> Calalzo -> Auronzo -> Misurina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":71,"s":[[8872481158,5],[472594227,6]]},
+  {"id":12896371,"t":{"ref":"9/31","name":"Tre Cime -> Misurina -> Auronzo -> Calalzo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":73,"s":[[8872481159,7],[8872481160,8]]},
+  {"id":13016644,"t":{"ref":"33/31/30","name":"Cima Sappada -> Auronzo -> Tre Cime","from":"Cima Sappada","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":50,"s":[[472594227,7],[8872481158,8]]},
+  {"id":13016645,"t":{"ref":"33/31/30","name":"Tre Cime -> Auronzo -> Cima Sappada","from":"Tre Cime - Rifugio Auronzo","to":"Cima Sappada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":49,"s":[[8872481159,7],[8872481160,8]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[8872481159,37],[8872481160,38]]}
+]
+}

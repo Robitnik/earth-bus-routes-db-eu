@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2764,3877],
+"stops":[
+  {"id":4191314101,"lat":48.223392,"lon":13.867307,"k":"p","n":"Schlüßlberg Ort"},
+  {"id":10292932398,"lat":48.200778,"lon":13.850773,"k":"p","n":"Pichl bei Wels Oberndorf"},
+  {"id":10292932399,"lat":48.200827,"lon":13.850341,"k":"p","n":"Pichl bei Wels Oberndorf"},
+  {"id":10292932401,"lat":48.200056,"lon":13.868313,"k":"p","n":"Pichl bei Wels Sulzbach West"},
+  {"id":10293062155,"lat":48.221037,"lon":13.889777,"k":"p","n":"Schlüßlberg Kröpflmühle"},
+  {"id":10293062156,"lat":48.221024,"lon":13.890156,"k":"p","n":"Schlüßlberg Kröpflmühle"},
+  {"id":10293062157,"lat":48.223299,"lon":13.875142,"k":"p","n":"Schlüßlberg Hiererberg"},
+  {"id":10293062158,"lat":48.223212,"lon":13.875994,"k":"p","n":"Schlüßlberg Hiererberg"},
+  {"id":10293062159,"lat":48.224844,"lon":13.866111,"k":"p","n":"Schlüßlberg Straßfeld"},
+  {"id":10293062160,"lat":48.225233,"lon":13.865077,"k":"p","n":"Schlüßlberg Straßfeld"},
+  {"id":10293062164,"lat":48.227717,"lon":13.85426,"k":"p","n":"Rosenau bei Schlüßlberg"},
+  {"id":10293062165,"lat":48.227532,"lon":13.854496,"k":"p","n":"Rosenau bei Schlüßlberg"}
+],
+"routes":[
+  {"id":15059787,"t":{"ref":"647","name":"Bus 647: Gallspach => Wels Schulzentrum","from":"Gallspach Styria-Wohnhaus","to":"Wels Wallerer Straße/Schulzentrum","operator":"Postbus","route":"bus","public_transport:version":"2","bus":"yes"},"n":12,"s":[[10292932398,5]]},
+  {"id":15059788,"t":{"ref":"647","name":"Bus 647: Wels Hauptbahnhof => Gallspach","from":"Wels Hauptbahnhof","to":"Gallspach Styria-Wohnhaus","operator":"Postbus","route":"bus","public_transport:version":"2","bus":"yes"},"n":11,"s":[[10292932401,5],[10292932399,6]]},
+  {"id":15060003,"t":{"ref":"650","name":"Bus 650: Wallern - Grieskirchen","from":"Breitwiesen B134","to":"Grieskirchen Busbahnhof (Postamt)","network":"Oberösterreichischer Verkehrsverbund","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":22,"s":[[10293062155,11],[10293062158,12],[4191314101,13],[10293062160,14],[10293062164,15]]},
+  {"id":15060004,"t":{"ref":"650","name":"Bus 650: Grieskirchen - Wallern","from":"Grieskirchen Busbahnhof (Postamt)","to":"Breitwiesen B134","network":"Oberösterreichischer Verkehrsverbund","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":18,"s":[[10293062165,4],[10293062159,5],[4191314101,6],[10293062157,7],[10293062156,8]]},
+  {"id":15073673,"t":{"ref":"662","name":"Bus 662: Variante nach Schlüßlberg (aus Waizenkirchen kommend)","to":"Schlüßlberg Ort","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[10293062156,7],[4191314101,8],[10293062164,9]]},
+  {"id":15073675,"t":{"ref":"662","name":"Bus 662: Variante aus Schlüßlberg (Richtung Waizenkirchen)","from":"Schlüßlberg Ort","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":10,"s":[[4191314101,1],[10293062156,2],[10293062165,10]]}
+]
+}

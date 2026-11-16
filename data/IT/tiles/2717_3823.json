@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3823],
+"stops":[
+  {"id":6000638346,"lat":45.873517,"lon":11.16466,"k":"p","n":"Bivio Stedileri"},
+  {"id":6000638347,"lat":45.874184,"lon":11.163654,"k":"p","n":"Bivio Stedileri"},
+  {"id":6000638351,"lat":45.875784,"lon":11.160661,"k":"p","n":"Camperi"},
+  {"id":6724439195,"lat":45.896298,"lon":11.155745,"k":"p","n":"Serrada bivio Fondogrande"},
+  {"id":6724439196,"lat":45.896352,"lon":11.15548,"k":"p","n":"Serrada bivio Fondogrande"},
+  {"id":11711726490,"lat":45.888976,"lon":11.153184,"k":"p","n":"Serrada Via Pasubio"},
+  {"id":12857102110,"lat":45.890695,"lon":11.153864,"k":"p","n":"Serrada"},
+  {"id":12857102118,"lat":45.878929,"lon":11.152357,"k":"p","n":"Piazza di Terragnolo"},
+  {"id":12857105481,"lat":45.872085,"lon":11.166457,"k":"p","n":"Stedlieri"},
+  {"id":12857105482,"lat":45.864952,"lon":11.170263,"k":"p","n":"Geroli"},
+  {"id":12857105483,"lat":45.865468,"lon":11.188266,"k":"p","n":"Zoreri Soldati"},
+  {"id":12857105484,"lat":45.866379,"lon":11.184814,"k":"p","n":"Zoreri"},
+  {"id":12857105485,"lat":45.867294,"lon":11.181475,"k":"p","n":"Baisi"},
+  {"id":12857105486,"lat":45.867123,"lon":11.180461,"k":"p","n":"Baisi prima"},
+  {"id":12857105487,"lat":45.877159,"lon":11.158376,"k":"p","n":"Puechem"},
+  {"id":12857105488,"lat":45.877693,"lon":11.155573,"k":"p","n":"Dosso"},
+  {"id":12858135608,"lat":45.865737,"lon":11.17552,"k":"p","n":"Sega"},
+  {"id":12858204315,"lat":45.881528,"lon":11.157265,"k":"p","n":"Zencheri"},
+  {"id":12858204316,"lat":45.881644,"lon":11.155184,"k":"p","n":"Bengheri"},
+  {"id":12858204317,"lat":45.882081,"lon":11.153735,"k":"p","n":"Valle"}
+],
+"routes":[
+  {"id":19149034,"t":{"ref":"B306","name":"Bus B306: Variante: Serrada->Folgaria","from":"Serrada","to":"Folgaria","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[11711726490,1],[6724439195,2]]},
+  {"id":19149035,"t":{"ref":"B306","name":"Bus B306: Variante: Folgaria->Serrada","from":"Folgaria","to":"Serrado","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[6724439196,4],[11711726490,5]]},
+  {"id":19164469,"t":{"ref":"B315","name":"Bus B315: Variante: Zoeri-Soldati->Piazza di Terragnolo","from":"Zoeri-Soldati","to":"Piazza di Terragnolo","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[12857105483,1],[12857105484,2],[12857105485,3],[6000638347,4],[6000638351,5],[12857105487,6],[12857105488,7],[12857102118,8]]},
+  {"id":19164470,"t":{"ref":"B315","name":"Bus B315: Variante: Geroli->Piazza di Terragnolo","from":"Geroli","to":"Terragnolo","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[12857105482,1],[12858135608,2],[12857105481,3],[6000638347,4],[6000638351,5],[12857105487,6],[12857105488,7],[12857102118,8]]},
+  {"id":19164471,"t":{"ref":"B315","name":"Bus B315: Variante: Piazza di Terragnolo->Zencheri","from":"Piazza di Terragnolo","to":"Zencheri","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12857102118,1],[12858204317,3],[12858204316,4],[12858204315,5]]},
+  {"id":19164472,"t":{"ref":"B315","name":"Bus B315: Variante: Piazza di Terragnolo->Zoreri-Soldati","from":"Piazza di Terragnolo","to":"Zoreri-Soldati","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":9,"s":[[12857102118,1],[12857105488,2],[12857105487,3],[6000638351,4],[6000638347,5],[12857105486,6],[12857105485,7],[12857105484,8],[12857105483,9]]},
+  {"id":19164473,"t":{"ref":"B315","name":"Bus B315: Folgaria->Serrada->Terragnolo->Rovereto","from":"Folgaria Via Battisti","to":"Rovereto Stazione FS","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":32,"s":[[6724439196,7],[12857102110,8],[11711726490,9],[12857102118,15]]},
+  {"id":19164474,"t":{"ref":"B315","name":"Bus B315: Rovereto->Terragnolo->Serrada->Folgaria","to":"Folgaria Via Battisti","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":31,"s":[[12857102118,17],[11711726490,23],[12857102110,24],[6724439195,25]]},
+  {"id":19166765,"t":{"ref":"B315","name":"Bus B315: Variante: Piazza di Terragnolo->Geroli","from":"Terragnoli Pizza","to":"Geroli","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[12857102118,1],[12857105488,2],[12857105487,3],[6000638351,4],[6000638347,5],[12857105481,6],[12858135608,7],[12857105482,8]]},
+  {"id":19166766,"t":{"ref":"B315","name":"Bus B315: Variante: Zencheri->Piazza di Terragnolo","from":"Zencheri","to":"Piazza di Terragnolo","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":5,"s":[[12858204315,1],[12858204316,2],[12858204317,3],[12857102118,5]]}
+]
+}

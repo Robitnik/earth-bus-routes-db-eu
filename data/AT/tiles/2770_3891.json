@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2770,3891],
+"stops":[
+  {"id":54158690,"lat":48.501533,"lon":14.575912,"k":"x","n":"St.Oswald b.Freistadt Mayrhöfen"},
+  {"id":54158877,"lat":48.504215,"lon":14.564051,"k":"x","n":"St.Oswald b.Freistadt Thumayr"},
+  {"id":1630170571,"lat":48.504361,"lon":14.563864,"k":"p","n":"St.Oswald b.Freistadt Thumayr"},
+  {"id":1630170595,"lat":48.502003,"lon":14.587851,"k":"p","n":"St.Oswald b.Freistadt Schule"},
+  {"id":1630170761,"lat":48.501587,"lon":14.575626,"k":"p","n":"St.Oswald b.Freistadt Mayrhöfen"},
+  {"id":1630170793,"lat":48.501849,"lon":14.587877,"k":"p","n":"St.Oswald b.Freistadt Schule"},
+  {"id":1647497902,"lat":48.527239,"lon":14.572458,"k":"x","n":"Grünbach bei Freistadt Oberrauchenödt"},
+  {"id":2693284837,"lat":48.501463,"lon":14.575939,"k":"p","n":"St.Oswald b.Freistadt Mayrhöfen"},
+  {"id":2693284842,"lat":48.504166,"lon":14.563984,"k":"p","n":"St.Oswald b.Freistadt Thumayr"},
+  {"id":3562109688,"lat":48.501878,"lon":14.587832,"k":"x","n":"St.Oswald b.Freistadt Schule"},
+  {"id":4801633040,"lat":48.527286,"lon":14.57242,"k":"p","n":"Grünbach bei Freistadt Oberrauchenödt"},
+  {"id":7702599198,"lat":48.527202,"lon":14.572278,"k":"x","n":"Grünbach bei Freistadt Oberrauchenödt"},
+  {"id":7702599199,"lat":48.527156,"lon":14.572299,"k":"p","n":"Grünbach bei Freistadt Oberrauchenödt"},
+  {"id":8614536622,"lat":48.501154,"lon":14.593395,"k":"p","n":"St.Oswald b.Freistadt Pendlerparkplatz"},
+  {"id":10694951279,"lat":48.501531,"lon":14.575631,"k":"x","n":"St.Oswald b.Freistadt Mayrhöfen"},
+  {"id":10694984015,"lat":48.501955,"lon":14.587969,"k":"x","n":"St.Oswald b.Freistadt Schule"},
+  {"id":10694984016,"lat":48.504304,"lon":14.563801,"k":"x","n":"St.Oswald b.Freistadt Thumayr"}
+],
+"routes":[
+  {"id":7165097,"t":{"ref":"327","name":"Bus 327: Freistadt => Grünbach => Mairspindt b.Windhaag","from":"Freistadt","to":"Mairspindt b.Windhaag","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[4801633040,5]]},
+  {"id":7165098,"t":{"ref":"327","name":"Bus 327: Mairspindt b.Windhaag => Grünbach => Freistadt","from":"Mairspindt b.Windhaag","to":"Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":14,"s":[[4801633040,10]]},
+  {"id":7165190,"t":{"ref":"330","name":"Bus 330: Liebenau - Sandl - Freistadt","from":"Liebenau","to":"Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"Adelheid Leitner GmbH","route":"bus","public_transport:version":"2"},"n":23,"s":[[4801633040,18]]},
+  {"id":7165191,"t":{"ref":"330","name":"Bus 330: Freistadt - Sandl - Liebenau","from":"Freistadt","to":"Liebenau","network":"Oberösterreichischer Verkehrsverbund","operator":"Adelheid Leitner GmbH","route":"bus","public_transport:version":"2"},"n":22,"s":[[7702599199,6]]},
+  {"id":7166539,"t":{"ref":"329","name":"Bus 329: Linz voestalpine => Freistadt => Arbesbach","from":"Linz voestalpine","to":"Arbesbach","network":"Oberösterreichischer Verkehrsverbund","operator":"Leitner Adelheid","route":"bus","public_transport:version":"2"},"n":44,"s":[[7702599199,24]]},
+  {"id":7166540,"t":{"ref":"329","name":"Bus 329: Arbesbach => Freistadt => Linz voestalpine","from":"Arbesbach","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Leitner Adelheid","route":"bus","public_transport:version":"2"},"n":46,"s":[[4801633040,22]]},
+  {"id":11290229,"t":{"ref":"758","name":"Bus 758: Gmünd Bezirkshauptmannschaft => Weinviertl bei Sandl => Freistadt Busterminal","from":"Gmünd Bezirkshauptmannschaft","to":"Freistadt Busterminal (Stifterplatz)","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":43,"s":[[4801633040,37]]},
+  {"id":11290494,"t":{"ref":"758","name":"Bus 758: Freistadt Busterminal => Weinviertl bei Sandl => Gmünd Bezirkshauptmannschaft","from":"Freistadt Busterminal (Stifterplatz)","to":"Gmünd Bezirkshauptmannschaft","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":42,"s":[[7702599199,7]]},
+  {"id":12275790,"t":{"ref":"346","name":"Bus 346: Linz voestalpine => St. Oswald => Weitersfelden","from":"Linz voestalpine","to":"Weitersfelden","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":44,"s":[[1630170793,36],[8614536622,37]]},
+  {"id":12275791,"t":{"ref":"346","name":"Bus 346: Weitersfelden => St. Oswald => Linz voestalpine","from":"Weitersfelden","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":39,"s":[[8614536622,8],[1630170595,9]]},
+  {"id":14125825,"t":{"ref":"329","name":"Bus 329: Schanz => Freistadt => Linz voestalpine","from":"Schanz","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Leitner Adelheid","route":"bus","public_transport:version":"2"},"n":41,"s":[[4801633040,17]]},
+  {"id":14194204,"t":{"ref":"329","name":"Bus 329: Linz voestalpine => Freistadt => Schanz","from":"Linz voestalpine","to":"Schanz","network":"Oberösterreichischer Verkehrsverbund","operator":"Leitner Adelheid","route":"bus","public_transport:version":"2"},"n":39,"s":[[7702599199,24]]},
+  {"id":15535722,"t":{"ref":"333","name":"Bus 333: Königswiesen Kirche => Freistadt Busterminal (Stifterplatz)","from":"Königswiesen Kirche","to":"Freistadt Busterminal (Stifterplatz)","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","colour":"#ffffff","route":"bus","public_transport:version":"2"},"n":21,"s":[[1630170595,16],[1630170761,17],[1630170571,18]]},
+  {"id":15535723,"t":{"ref":"333","name":"Bus 333: Freistadt Busterminal (Stifterplatz) => Königswiesen Kirche","from":"Freistadt Busterminal (Stifterplatz)","to":"Königswiesen Kirche","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":21,"s":[[2693284842,4],[2693284837,5],[1630170793,6]]},
+  {"id":19564452,"t":{"ref":"334","name":"Bus 334: Freistadt - St. Leonhard bei Freistadt","from":"Freistadt","to":"St. Leonhard bei Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"OÖVV","route":"bus"},"n":29,"s":[[3562109688,22],[1630170793,23],[2693284837,24],[54158690,25]]},
+  {"id":19564453,"t":{"ref":"334","name":"Bus 334: Weitersfelden – Freistadt","from":"Weitersfelden","to":"Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"OÖVV","route":"bus"},"n":19,"s":[[10694984015,11],[1630170595,12],[1630170761,13],[10694951279,14]]}
+]
+}

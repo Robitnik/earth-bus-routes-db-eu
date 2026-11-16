@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2637,3861],
+"stops":[
+  {"id":425839785,"lat":41.874263,"lon":13.065456,"k":"x"},
+  {"id":1862203917,"lat":41.874294,"lon":13.065355,"k":"p","n":"ROIATE (p.zza della Libertà)"},
+  {"id":1958550124,"lat":41.866756,"lon":13.066617,"k":"p","n":"Roiate -Case Popolari"},
+  {"id":1958550129,"lat":41.877698,"lon":13.065818,"k":"p","n":"Roiate - Cimitero"},
+  {"id":1958550131,"lat":41.866644,"lon":13.066971,"k":"p","n":"Roiate -Case Popolari"},
+  {"id":1958550133,"lat":41.877829,"lon":13.065619,"k":"p","n":"Roiate - Cimitero"},
+  {"id":1958550135,"lat":41.869712,"lon":13.066563,"k":"p","n":"Roiate - via della Morra Rossa"},
+  {"id":1958550140,"lat":41.869936,"lon":13.06681,"k":"p","n":"Roiate - via della Morra Rossa"},
+  {"id":2025475423,"lat":41.886515,"lon":13.053407,"k":"p","n":"Bellegra | Via Roiate, Via Maremmana","ref":"f14319"},
+  {"id":2025475424,"lat":41.886523,"lon":13.053236,"k":"p","n":"Bellegra | Via Roiate, Via Maremmana","ref":"f14315"},
+  {"id":2025475425,"lat":41.886719,"lon":13.053349,"k":"p","n":"Bellegra | Via Maremmana, Via Roiate","ref":"f14331"},
+  {"id":2025475426,"lat":41.886861,"lon":13.053375,"k":"p","n":"Bellegra | Via Maremmana, Via Roiate","ref":"f14330"}
+],
+"routes":[
+  {"id":2345679,"t":{"ref":"CoTraL P3102","name":"Co.Tra.L. P3102 (Genazzano Stz → Roiate)","from":"Genazzano Deposito - ex Stazione","to":"Roiate - Piazza della Liberazione","network":"Co.Tra.L.","operator":"Co.Tra.L. S.p.A.","colour":"blue","route":"bus"},"n":20,"s":[[1958550131,18],[1958550140,19],[1862203917,20]]},
+  {"id":2345685,"t":{"ref":"CoTraL P3102","name":"Co.Tra.L. P3102 (Roiate → Genazzano Stz)","from":"Roiate - Piazza della Liberazione","to":"Genazzano Deposito - ex Stazione","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":20,"s":[[1862203917,1],[1958550135,2],[1958550124,3]]},
+  {"id":2569107,"t":{"ref":"P0001","name":"Co.Tra.L. P0001 (Roiate → Roma Anagnina, tutte le deviazioni via Casilina)","from":"Roiate - Piazza della Liberazione","to":"Roma Anagnina","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"1"},"n":79,"s":[[1862203917,1],[1958550129,2],[2025475423,3]]},
+  {"id":2588335,"t":{"ref":"P0001","name":"Co.Tra.L. P0001 (Roma Anagnina → Roiate, deviata Palestrina via Casilina)","from":"Roma Anagnina","to":"Roiate - Piazza della Liberazione","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"2"},"n":75,"s":[[2025475424,73],[1958550133,74],[1862203917,75]]},
+  {"id":2588336,"t":{"ref":"P0001","name":"Co.Tra.L. P0001 (Roma Anagnina → Roiate, tutte le deviazioni via Casilina)","from":"Roma Anagnina","to":"Roiate - Piazza della Liberazione","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"2"},"n":77,"s":[[2025475424,75],[1958550133,76],[1862203917,77]]},
+  {"id":2588363,"t":{"ref":"P0001","name":"Co.Tra.L. P0001 (Roiate → Roma Anagnina deviata Palestrina via San Quirico)","from":"Roiate - Piazza della Liberazione","to":"Roma Anagnina","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"2"},"n":53,"s":[[1862203917,1],[1958550135,2],[1958550124,3]]},
+  {"id":6052718,"t":{"ref":"P0001","name":"Co.Tra.L. P0001 (Roiate → Roma Anagnina, deviata Palestrina via Casilina)","from":"Roiate - Piazza della Liberazione","to":"Roma Anagnina","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"2"},"n":76,"s":[[1862203917,1],[1958550129,2],[2025475423,3]]},
+  {"id":6052719,"t":{"ref":"P0001","name":"Co.Tra.L. P0001 (Roma Anagnina → Roiate, deviata Palestrina via A1)","from":"Roma Anagnina","to":"Roiate - Piazza della Liberazione","operator":"Co.Tra.L.","colour":"blue","route":"bus","public_transport:version":"2"},"n":61,"s":[[2025475424,59],[1958550133,60],[1862203917,61]]},
+  {"id":6132589,"t":{"ref":"CoTraL P3102","name":"Co.Tra.L. P3102 (Roiate → Palestrina Ist)","from":"Roiate - Piazza della Liberazione","to":"Palestrina Ist","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":44,"s":[[1862203917,1],[1958550129,2],[2025475423,3]]}
+]
+}

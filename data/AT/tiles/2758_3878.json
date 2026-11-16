@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2758,3878],
+"stops":[
+  {"id":8196829073,"lat":47.901508,"lon":13.949335,"k":"p","n":"Scharnstein Sperrhölzl"},
+  {"id":8196829083,"lat":47.906999,"lon":13.930384,"k":"p","n":"Scharnstein Abzw Rathberg"},
+  {"id":8196829088,"lat":47.906825,"lon":13.929411,"k":"p","n":"Scharnstein Abzw Rathberg"},
+  {"id":8206372688,"lat":47.928689,"lon":13.948749,"k":"p","n":"Bäckerberg GOMDE"},
+  {"id":8206372689,"lat":47.909264,"lon":13.909243,"k":"p","n":"St.Konrad Dürnberg"},
+  {"id":9178493222,"lat":47.944573,"lon":13.924297,"k":"p","n":"Hagenmühle"},
+  {"id":10760920970,"lat":47.9094,"lon":13.909359,"k":"p","n":"St.Konrad Dürnberg"},
+  {"id":11407552265,"lat":47.904508,"lon":13.938778,"k":"p","n":"Scharnstein In der Thann"},
+  {"id":11407552266,"lat":47.905218,"lon":13.938303,"k":"p","n":"Scharnstein In der Thann"}
+],
+"routes":[
+  {"id":1350990,"t":{"ref":"533","name":"Bus 533: Gmunden - Scharnstein - Grünau","from":"Gmunden Keramik","to":"Grünau im Almtal Bahnhof","route":"bus","public_transport:version":"2"},"n":29,"s":[[8196829088,14],[11407552265,15],[8196829073,21]]},
+  {"id":11984679,"t":{"ref":"533","name":"Bus 533: Grünau - Scharnstein - Gmunden","from":"Grünau im Almtal Bahnhof","to":"Gmunden Keramik","route":"bus","public_transport:version":"2"},"n":29,"s":[[8196829073,14],[11407552266,15],[8196829083,16]]},
+  {"id":12028223,"t":{"ref":"535","name":"Bus 535: Viechtwang Bahnhst - St. Konrad - Laakirchen","route":"bus","public_transport:version":"2"},"n":21,"s":[[8196829073,4],[11407552266,5],[8196829083,6]]},
+  {"id":12028225,"t":{"ref":"535","name":"Bus 535: Laakirchen - St. Konrad - Viechtwang Bahnhst","from":"Laakirchen Schule","to":"Viechtwang Bahnhst","route":"bus","public_transport:version":"2"},"n":26,"s":[[8196829088,19],[11407552265,20]]},
+  {"id":13335879,"t":{"ref":"52","name":"Salzkammergut-Shuttle Traunsee-Almtal 52: Variante von St. Konrad","from":"St. Konrad Imbissstube","to":"Kirchham Ortsplatz","network":"Salzkammergut-Shuttles","colour":"yellow","route":"bus","public_transport:version":"2"},"n":6,"s":[[8206372689,1]]},
+  {"id":13335880,"t":{"ref":"52","name":"Salzkammergut-Shuttle Traunsee-Almtal 52: Variante nach St. Konrad","from":"Kirchham Dorfplatz","to":"St. Konrad Imbissstube","network":"Salzkammergut-Shuttles","colour":"yellow","route":"bus","public_transport:version":"2"},"n":6,"s":[[8206372689,6]]},
+  {"id":13335881,"t":{"ref":"52","name":"Salzkammergut-Shuttle Traunsee-Almtal 52: Scharnstein - Laakirchen","from":"Scharnstein-Mühldorf Bahnhst","to":"Laakirchen Rathausplatz","network":"Salzkammergut-Shuttles","colour":"yellow","route":"bus","public_transport:version":"2"},"n":12,"s":[[8206372688,6],[9178493222,7]]},
+  {"id":13335882,"t":{"ref":"52","name":"Salzkammergut-Shuttle Traunsee-Almtal 52: Laakirchen - Scharnstein","from":"Laakirchen Rathausplatz","to":"Scharnstein-Mühldorf Bahnhst","network":"Salzkammergut-Shuttles","colour":"yellow","route":"bus","public_transport:version":"2"},"n":12,"s":[[9178493222,6],[8206372688,7]]},
+  {"id":13340111,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Hagenmühle - Vorchdorf - Almspitz","from":"Hagenmühle","to":"Lambach Almspitz","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[9178493222,1]]},
+  {"id":13340112,"t":{"ref":"80","name":"Salzkammergut-Shuttle Traunsee-Almtal 80: Almspitz - Vorchdorf - Hagenmühle","from":"Lambach Almspitz","to":"Hagenmühle","network":"Salzkammergut-Shuttles","colour":"#990033","route":"bus","public_transport:version":"2"},"n":15,"s":[[9178493222,15]]}
+]
+}

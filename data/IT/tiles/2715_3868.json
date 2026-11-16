@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3868],
+"stops":[
+  {"id":4159251548,"lat":45.791765,"lon":13.406962,"k":"p","n":"Fiumicello"},
+  {"id":10080206731,"lat":45.799897,"lon":13.40395,"k":"p","n":"Borgo Sant'Antonio"},
+  {"id":11262216633,"lat":45.791877,"lon":13.406912,"k":"p","n":"Fiumicello"},
+  {"id":11262585383,"lat":45.795036,"lon":13.416186,"k":"p","n":"Via Trieste"},
+  {"id":11262681761,"lat":45.795427,"lon":13.416194,"k":"p","n":"Via Trieste"},
+  {"id":13232582300,"lat":45.774802,"lon":13.408609,"k":"p"}
+],
+"routes":[
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11262216633,5]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[10080206731,23],[4159251548,24]]},
+  {"id":16490105,"t":{"ref":"G26","name":"Bus G26: Grado → Cervignano → Fiumicello → Monfalcone","from":"Grado","to":"Monfalcone","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":27,"s":[[10080206731,5],[4159251548,13],[11262585383,22]]},
+  {"id":16490166,"t":{"ref":"G26","name":"Bus G26: Monfalcone → Fiumicello → Cervignano → Grado","from":"Monfalcone","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":29,"s":[[11262216633,11],[11262681761,22]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3868],
+"stops":[
+  {"id":7686928677,"lat":45.899844,"lon":13.419649,"k":"p","n":"Versa"},
+  {"id":8510110088,"lat":45.867594,"lon":13.446364,"k":"x"},
+  {"id":8510110089,"lat":45.867596,"lon":13.446452,"k":"p","n":"Via Diaz (angolo Via Cividale)"},
+  {"id":8510284885,"lat":45.865093,"lon":13.442455,"k":"x"},
+  {"id":8510284889,"lat":45.865237,"lon":13.442725,"k":"x"},
+  {"id":8510284890,"lat":45.865254,"lon":13.442818,"k":"p","n":"Via Diaz (farmacia)"},
+  {"id":8510284891,"lat":45.865124,"lon":13.442392,"k":"p","n":"Via Diaz (farmacia)"},
+  {"id":9517960119,"lat":45.864792,"lon":13.433736,"k":"x","n":"Tiare"},
+  {"id":9517960120,"lat":45.864846,"lon":13.433697,"k":"p","n":"Tiare"},
+  {"id":11262415728,"lat":45.867633,"lon":13.446269,"k":"p","n":"Via Diaz (angolo Via Cividale)"},
+  {"id":11262417138,"lat":45.859799,"lon":13.438094,"k":"p","n":"Via Roma (chiesa)"},
+  {"id":11262417139,"lat":45.859729,"lon":13.438177,"k":"p","n":"Via Roma (chiesa)"},
+  {"id":11262417140,"lat":45.890081,"lon":13.443307,"k":"p","n":"Romans d'Isonzo"},
+  {"id":11262417141,"lat":45.890275,"lon":13.442992,"k":"p","n":"Romans d'Isonzo"}
+],
+"routes":[
+  {"id":13824143,"t":{"name":"Bus Tiare Shopping → Trieste Piazza Oberdan","from":"Tiare Shopping","to":"Trieste Piazza Oberdan","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":2,"s":[[9517960120,1]]},
+  {"id":13824144,"t":{"name":"Bus Trieste Piazza Oberdan → Tiare Shopping","from":"Trieste Piazza Oberdan","to":"Tiare Shopping","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":2,"s":[[9517960120,2]]},
+  {"id":14302391,"t":{"ref":"G28","name":"Bus G28: Monfalcone → Villesse (centro commerciale)","from":"Monfalcone","to":"Viallesse (centro commerciale)","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":21,"s":[[9517960120,21]]},
+  {"id":14315506,"t":{"ref":"G28","name":"Bus G28: Villesse (centro commerciale) → Monfalcone","from":"Villesse (centro commerciale)","to":"Monfalcone","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":23,"s":[[9517960120,1]]},
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[11262417139,10],[8510284890,11],[8510110089,12],[11262417140,27]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[11262417141,16],[11262415728,17],[8510284891,18],[11262417138,19]]}
+]
+}

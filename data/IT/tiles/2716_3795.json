@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3795],
+"stops":[
+  {"id":11191606674,"lat":45.800274,"lon":9.770405,"k":"x","n":"Aviatico Municipio"},
+  {"id":11191606675,"lat":45.800287,"lon":9.770433,"k":"p","n":"Aviatico Municipio"},
+  {"id":13970303303,"lat":45.801943,"lon":9.754701,"k":"p","n":"Rigosa - s.p.28 (capolinea)"},
+  {"id":13970303304,"lat":45.800668,"lon":9.750752,"k":"p","n":"Rigosa - s.p.28 (campo sportivo)"}
+],
+"routes":[
+  {"id":16330635,"t":{"ref":"S20c","name":"Bus S20c: Selvino => Aviatico","from":"Selvino Funivia","to":"Aviatico Municipio","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus"},"n":6,"s":[[11191606674,6]]},
+  {"id":16330636,"t":{"ref":"S20c","name":"Bus S20c: Aviatico => Selvino","from":"Aviatico Municipio","to":"Selvino Funivia","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus"},"n":6,"s":[[11191606674,1]]},
+  {"id":21037288,"t":{"ref":"B20d","name":"Linea B20d: Zogno -> Rigosa","from":"Zogno stazione","to":"Rigosa Capolinea","operator":"Bergamo trasporti","route":"bus","public_transport:version":"2"},"n":20,"s":[[13970303304,19],[13970303303,20]]},
+  {"id":21037317,"t":{"ref":"B20d","name":"Linea B20d: Rigosa -> Zogno","from":"Rigosa Capolinea","to":"Rigosa Capolinea Zogno stazione","operator":"Bergamo trasporti","route":"bus","public_transport:version":"2"},"n":20,"s":[[13970303303,1],[13970303304,2]]},
+  {"id":21084466,"t":{"ref":"C40b","name":"Bus S20a: ALTIPIANO DI SELVINO","from":"Selvino Funivia","to":"Selvino Funivia","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":25,"s":[[13970303303,5,21],[13970303304,6,20]]}
+]
+}

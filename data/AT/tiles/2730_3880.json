@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2730,3880],
+"stops":[
+  {"id":5028331460,"lat":46.535304,"lon":14.042436,"k":"p","n":"Rosenbach Bahndurchlass"},
+  {"id":5028331461,"lat":46.535245,"lon":14.042628,"k":"p","n":"Rosenbach Bahndurchlass"},
+  {"id":5028331462,"lat":46.530588,"lon":14.035517,"k":"p","n":"Rosenbach Bahnhof (Vorplatz)"},
+  {"id":7288085659,"lat":46.549308,"lon":14.010295,"k":"x","n":"Oberwinkl im Rosental Ort"},
+  {"id":7288085660,"lat":46.549386,"lon":14.010242,"k":"p","n":"Oberwinkl im Rosental Ort"},
+  {"id":7288085661,"lat":46.549196,"lon":14.010201,"k":"p","n":"Oberwinkl im Rosental Ort"},
+  {"id":7288085662,"lat":46.549266,"lon":14.010158,"k":"x","n":"Oberwinkl im Rosental Ort"},
+  {"id":7288452784,"lat":46.535242,"lon":14.042493,"k":"x","n":"Rosenbach Bahndurchlass"},
+  {"id":7288461285,"lat":46.535288,"lon":14.042594,"k":"x","n":"Rosenbach Bahndurchlass"},
+  {"id":7444751802,"lat":46.530575,"lon":14.035567,"k":"x","n":"Rosenbach Bahnhof (Vorplatz)"}
+],
+"routes":[
+  {"id":12592813,"t":{"ref":"5194","name":"Bus 5194: Rosenbach => Villach 10.-Oktober-Straße","from":"Rosenbach Bahnhof","to":"Villach 10.-Oktober-Straße","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":40,"s":[[5028331462,1],[5028331461,2],[7288085660,8]]},
+  {"id":12592814,"t":{"ref":"301","name":"Bus 301: St. Jakob Ost => Villach 10.-Oktober-Straße","from":"St. Jakob im Rosental Ost","to":"Villach 10.-Oktober-Straße","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":38,"s":[[7288085660,6]]},
+  {"id":12594047,"t":{"ref":"5194","name":"Bus 5194: Villach 10. Oktober-Straße => Rosenbach Bahnhof (via Finkenstein Hauptschule)","from":"Villach 10.-Oktober-Straße","to":"Rosenbach Bahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":32,"s":[[7288085661,24],[5028331460,31],[5028331462,32]]},
+  {"id":12594048,"t":{"ref":"5194","name":"Bus 5194: Villach 10. Oktober-Straße => Rosenbach Bahnhof","from":"Villach 10.-Oktober-Straße","to":"Rosenbach Bahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":31,"s":[[7288085661,23],[5028331460,30],[5028331462,31]]},
+  {"id":12594049,"t":{"ref":"5194","name":"Bus 5194: Villach 10. Oktober-Straße => St. Jakob im Rosental Ost (via Finkenstein Hauptschule)","from":"Villach 10.-Oktober-Straße","to":"St. Jakob im Rosental Ost","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":29,"s":[[7288085661,24]]},
+  {"id":12594050,"t":{"ref":"5194","name":"Bus 5194: Villach 10. Oktober-Straße => St. Jakob im Rosental Ost","from":"Villach 10.-Oktober-Straße","to":"St. Jakob im Rosental Ost","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":28,"s":[[7288085661,23]]},
+  {"id":12596851,"t":{"ref":"5194","name":"Bus 5194: Rosenbach => Ledenitzen Bahnhst (ohne St. Jakob Ost)","from":"Rosenbach Bahnhof","to":"Ledenitzen Bahnhaltestelle","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":11,"s":[[5028331462,1],[5028331461,2],[7288085660,7]]},
+  {"id":12596852,"t":{"ref":"5194","name":"Bus 5194: Rosenbach => St. Jakob im Rosental Ost","from":"Rosenbach Bahnhof","to":"St. Jakob im Rosental Ost","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":3,"s":[[5028331462,1],[5028331461,2]]},
+  {"id":12596853,"t":{"ref":"5194","name":"Bus 5194: Rosenbach => Villach 10.-Oktober-Straße (via Infineon, ohne St. Jakob Ost)","from":"Rosenbach Bahnhof","to":"Villach 10.-Oktober-Straße","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":40,"s":[[5028331462,1],[5028331461,2],[7288085660,7]]},
+  {"id":12596854,"t":{"ref":"301","name":"Bus 301: St. Jakob Ost => Ledenitzen Bahnhst","from":"St. Jakob im Rosental Ost","to":"Ledenitzen Bahnhaltestelle","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":11,"s":[[7288085660,6]]},
+  {"id":12596855,"t":{"ref":"301","name":"Bus 301: St. Jakob Ost => Ledenitzen Feuerwehr","from":"St. Jakob im Rosental Ost","to":"Ledenitzen Feuerwehr","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":10,"s":[[7288085660,6]]},
+  {"id":12596856,"t":{"ref":"5194","name":"Bus 5194: St. Jakob Ost => Villach Hbf (direkt, via Infineon)","from":"St. Jakob im Rosental Ost","to":"Villach Hauptbahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":28,"s":[[7288085660,6]]},
+  {"id":12596857,"t":{"ref":"5194","name":"Bus 5194: St. Jakob Ost => Villach Hbf (direkt, via Infineon, Maria Gail VS)","from":"St. Jakob im Rosental Ost","to":"Villach Hauptbahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":29,"s":[[7288085660,6]]},
+  {"id":12597824,"t":{"ref":"301","name":"Bus 301: Ledenitzen Bahnhaltestelle => St. Jakob Ost (via Ledenitzen Feuerwehr)","from":"Ledenitzen Bahnhaltestelle","to":"St. Jakob im Rosental Ost","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":11,"s":[[7288085661,6]]},
+  {"id":12597830,"t":{"ref":"5194","name":"Bus 5194: Villach Hauptbahnhof => Rosenbach Bahnhof (ohne Ledenitzen Bahnhst)","from":"Villach Hauptbahnhof","to":"Rosenbach Bahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[7288085661,21]]},
+  {"id":12597831,"t":{"ref":"5194","name":"Bus 5194: Villach Hauptbahnhof => St. Jakob im Rosental Ost","from":"Villach Hauptbahnhof","to":"St. Jakob im Rosental Ost","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":28,"s":[[7288085661,23]]},
+  {"id":12599146,"t":{"ref":"5194","name":"Bus 5194: Unterwinkl Ort => Villach Infineon","from":"Unterwinkl im Rosental Ort","to":"Villach Siemensstraße/Infineon","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":21,"s":[[7288085660,2]]}
+]
+}

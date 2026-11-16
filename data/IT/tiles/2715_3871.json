@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3871],
+"stops":[
+  {"id":3057057154,"lat":45.788838,"lon":13.590561,"k":"p","n":"San Giovanni di Duino / Štivan"},
+  {"id":7006022399,"lat":45.788843,"lon":13.590758,"k":"p","n":"San Giovanni di Duino / Štivan"},
+  {"id":7006022401,"lat":45.778986,"lon":13.598816,"k":"p","n":"Duino / Devin (bivio per Villaggio Pescatore / križišče za Ribiško Naselje)"},
+  {"id":7006022402,"lat":45.778865,"lon":13.598699,"k":"p","n":"Duino / Devin (bivio per Villaggio Pescatore / križišče za Ribiško Naselje)"},
+  {"id":7731104996,"lat":45.797296,"lon":13.560656,"k":"p","n":"Via Consiglio d'Europa 17 (marina Lepanto)"},
+  {"id":9125018111,"lat":45.793521,"lon":13.583359,"k":"p","n":"Cartiera del Timavo"},
+  {"id":9125210875,"lat":45.78069,"lon":13.587026,"k":"p","n":"Villaggio del Pescatore / Ribiško naselje"},
+  {"id":9847973417,"lat":45.797314,"lon":13.552833,"k":"p","n":"Via Timavo 46"},
+  {"id":9847973418,"lat":45.792464,"lon":13.560839,"k":"p","n":"Via Timavo (azienda porto)"},
+  {"id":9847973419,"lat":45.796063,"lon":13.572407,"k":"p","n":"Via Consiglio d'Europa 90"},
+  {"id":9847973420,"lat":45.798714,"lon":13.560574,"k":"p","n":"Via III Armata"}
+],
+"routes":[
+  {"id":1916782,"t":{"ref":"43","name":"Bus 43: Ceroglie / Cerovlje → San Giovanni del Timavo / Štivan","from":"Ceroglie / Cerovlje","to":"San Giovanni del Timavo / Štivan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1","bus":"yes"},"n":46,"s":[[7006022401,43],[9125210875,44],[7006022399,45],[9125018111,46]]},
+  {"id":1916912,"t":{"ref":"44","name":"Bus 44: San Giovanni di Duino / Štivan → Piazza Oberdan / Trg Oberdan","from":"San Giovanni di Duino / Štivan","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":66,"s":[[3057057154,1],[7006022402,2]]},
+  {"id":3757933,"t":{"ref":"G51","name":"Bus G51: Aeroporto → Trieste","from":"Trieste Airport","to":"Trieste (stazione autocorriere)","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[9125018111,11],[3057057154,12],[7006022402,13]]},
+  {"id":6363357,"t":{"ref":"G51","name":"Bus G51: Trieste/Trst → Aeroporto","from":"Trieste","to":"Aeroporto","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":29,"s":[[7006022401,17],[7006022399,18],[9125018111,19]]},
+  {"id":10306412,"t":{"ref":"44","name":"Bus 44: Piazza Oberdan / Trg Oberdan → San Giovanni di Duino / Štivan","from":"Piazza Oberdan / Trg Oberdan","to":"San Giovanni di Duino / Štivan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":64,"s":[[7006022401,63],[3057057154,64]]},
+  {"id":13294504,"t":{"ref":"44v","name":"Bus 44: San Giovanni di Duino / Štivan → Piazza Oberdan / Trg Oberdan via ⤳ Visogliano / Vižovlje","from":"San Giovanni di Duino / Štivan","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":70,"s":[[3057057154,1],[7006022402,2]]},
+  {"id":14296028,"t":{"ref":"CL","name":"Bus CL: Circolare Lisert","from":"Stazione ferroviaria","to":"Stazione ferroviaria","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":25,"s":[[9847973417,7],[9847973418,8],[7731104996,9],[9847973419,10],[9847973420,11]]},
+  {"id":14318010,"t":{"ref":"G21","name":"Bus G21: Trieste → Grado","from":"Trieste","to":"Grado","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":51,"s":[[7006022401,17],[7006022399,18]]},
+  {"id":14341380,"t":{"ref":"G21","name":"Bus G21: Grado → Trieste","from":"Grado","to":"Trieste","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":50,"s":[[3057057154,34],[7006022402,35]]},
+  {"id":14887834,"t":{"ref":"44v","name":"Bus 44: Piazza Oberdan / Trg Oberdan → San Giovanni di Duino / Štivan via Visogliano / Vižovlje","from":"Piazza Oberdan / Trg Oberdan","to":"San Giovanni di Duino / Štivan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":68,"s":[[7006022401,67],[3057057154,68]]},
+  {"id":14888781,"t":{"ref":"44","name":"Bus 44: San Giovanni di Duino / Štivan → Piazza Oberdan / Trg Oberdan via Aurisina Stazione / Nabrežina postaja","from":"San Giovanni di Duino / Štivan","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":75,"s":[[3057057154,1],[7006022402,2]]},
+  {"id":14888782,"t":{"ref":"44","name":"Bus 44: Piazza Oberdan / Trg Oberdan → San Giovanni di Duino / Štivan via Aurisina Stazione / Nabrežina postaja","from":"Piazza Oberdan / Trg Oberdan","to":"San Giovanni di Duino / Štivan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":73,"s":[[7006022401,72],[3057057154,73]]},
+  {"id":14888866,"t":{"ref":"44","name":"Bus 44: San Giovanni di Duino / Štivan → Piazza Oberdan / Trg Oberdan via Villaggio del Pescatore / Ribiško naselje","from":"San Giovanni di Duino / Štivan","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":67,"s":[[3057057154,1],[9125210875,2],[7006022402,3]]},
+  {"id":14889083,"t":{"ref":"44","name":"Bus 44: Piazza Oberdan / Trg Oberdan → San Giovanni di Duino / Štivan via Villaggio del Pescatore / Ribiško naselje","from":"Piazza Oberdan / Trg Oberdan","to":"San Giovanni di Duino / Štivan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":65,"s":[[7006022401,63],[9125210875,64],[3057057154,65]]},
+  {"id":14939721,"t":{"ref":"44","name":"Bus 44: Piazza Oberdan / Trg Oberdan → Sistiana mare / Sesljan morje → San Giovanni di Duino / Štivan","from":"Piazza Oberdan / Trg Oberdan","to":"San Giovanni di Duino / Štivan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":69,"s":[[7006022401,68],[3057057154,69]]},
+  {"id":14939760,"t":{"ref":"44","name":"Bus 44: San Giovanni di Duino / Štivan → Sistiana mare / Sesljan morje → Piazza Oberdan / Trg Oberdan","from":"San Giovanni di Duino / Štivan","to":"Piazza Oberdan / Trg Oberdan","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":71,"s":[[3057057154,1],[7006022402,2]]}
+]
+}

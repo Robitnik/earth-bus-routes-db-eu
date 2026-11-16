@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3802],
+"stops":[
+  {"id":3769813041,"lat":45.835642,"lon":10.134203,"k":"p"},
+  {"id":3769813055,"lat":45.836008,"lon":10.134772,"k":"p"},
+  {"id":3769836367,"lat":45.831044,"lon":10.1267,"k":"p"},
+  {"id":8223212873,"lat":45.84928,"lon":10.121832,"k":"p","n":"Rondinera (Chiesa)"},
+  {"id":8223212874,"lat":45.849238,"lon":10.121928,"k":"p","n":"Rondinera (fr. Chiesa)"},
+  {"id":8223213055,"lat":45.84855,"lon":10.112596,"k":"p","n":"Rogno (Castelfranco)"},
+  {"id":8223890228,"lat":45.843254,"lon":10.113319,"k":"p","n":"Costa Volpino (Fermata Castello)"},
+  {"id":8229227624,"lat":45.839906,"lon":10.13883,"k":"p"},
+  {"id":8229227625,"lat":45.839878,"lon":10.138905,"k":"p"},
+  {"id":8229227945,"lat":45.843203,"lon":10.113481,"k":"p","n":"Costa Volpino (Fermata Castello)"},
+  {"id":8229227971,"lat":45.830727,"lon":10.102416,"k":"p","n":"Costa Volpino (ponte Barcotto)"},
+  {"id":8229227972,"lat":45.830185,"lon":10.102647,"k":"p","n":"Costa Volpino (ponte Barcotto)"},
+  {"id":8229227994,"lat":45.828287,"lon":10.107459,"k":"p","n":"Costa Volpino (Piano)"},
+  {"id":8229227995,"lat":45.828002,"lon":10.107483,"k":"p","n":"Costa Volpino (Piano)"},
+  {"id":8229228146,"lat":45.848532,"lon":10.112864,"k":"x","n":"Rogno (Castelfranco)"},
+  {"id":10844165709,"lat":45.814302,"lon":10.106863,"k":"p"},
+  {"id":12080319409,"lat":45.81268,"lon":10.102104,"k":"p"},
+  {"id":13968499054,"lat":45.849423,"lon":10.122236,"k":"p","n":"Rogno - s.s.42 (rondinera)"},
+  {"id":13968499055,"lat":45.830651,"lon":10.102472,"k":"p","n":"Costa Volpino - s.s.42 (p.barcotto)"}
+],
+"routes":[
+  {"id":12022119,"t":{"ref":"C","name":"Bus C: Costa Volpino => Darfo Boario Terme","from":"Costa Volpino (Piano)","to":"Darfo Boario Terme (autostazione)","network":"Bergamo Trasporti Est","operator":"SAB Autoservizi","route":"bus","public_transport:version":"2"},"n":9,"s":[[8229227994,1],[8229227971,2],[8229227945,3],[8223212874,4]]},
+  {"id":12022124,"t":{"ref":"C","name":"Bus C: Darfo Boario Terme => Costa Volpino","from":"Darfo Boario Terme (autostazione)","to":"Costa Volpino (Piano)","network":"Bergamo Trasporti Est","operator":"SAB Autoservizi","route":"bus","public_transport:version":"2"},"n":9,"s":[[8223212873,6],[8223890228,7],[8229227972,8],[8229227995,9]]},
+  {"id":12022126,"t":{"ref":"L","name":"Bus L: Lovere => Rogno (San Vigilio)","from":"Lovere","to":"Rogno (San Vigilio)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":8,"s":[[8229227971,4],[8229227945,5],[8223213055,6]]},
+  {"id":12022127,"t":{"ref":"L","name":"Bus L: Rogno (San Vigilio) => Castro","from":"Rogno (San Vigilio)","to":"Castro (stabilimento Lucchini)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":9,"s":[[8223890228,2],[8229227972,3]]},
+  {"id":12022128,"t":{"ref":"L","name":"Bus L: Rogno (San Vigilio) => Lovere","from":"Rogno (San Vigilio)","to":"Lovere (piazza XIII Martiri)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":7,"s":[[8223890228,2],[8229227972,3]]},
+  {"id":12025355,"t":{"ref":"L","name":"Bus L: Castro => Costa Volpino (Ceratello)","from":"Castro (stabilimento Lucchini)","to":"Costa Volpino (Ceratello)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":11,"s":[[8229227971,7]]},
+  {"id":12025356,"t":{"ref":"L","name":"Bus L: Costa Volpino (Ceratello) => Castro","from":"Costa Volpino (Ceratello)","to":"Castro (stabilimento Lucchini)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":15,"s":[[8229227972,11]]},
+  {"id":12563569,"t":{"ref":"C","name":"Bus C: Bergamo => Boario","from":"Bergamo Pensilina 9","to":"Costa Volpino - Via Battisti 20 (Piano)","route":"bus","public_transport:version":"2"},"n":47,"s":[[8229227995,47]]},
+  {"id":12575443,"t":{"ref":"S70c","name":"Bus S70c: Castro=>Schilpario","from":"Castro (stabilimento Lucchini)","to":"Schilpario","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":41,"s":[[8229227971,9],[8229227945,10],[13968499054,11]]},
+  {"id":21034899,"t":{"ref":"S70c","name":"Bus S70c: Schilpario=>Schilpario","from":"Schilpario piazza major","to":"Castro - v.le roma (lucchini)","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":41,"s":[[13968499054,33],[8223890228,34],[8229227972,37]]},
+  {"id":21067335,"t":{"ref":"LV923","name":"Bus LV923: Milano -> Edolo","from":"Sesto San Giovanni","to":"Edolo","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8229227971,34],[8229227945,35],[8223212874,36]]},
+  {"id":21069296,"t":{"ref":"LV923","name":"Bus LV923: Edolo -> Milano","from":"Edolo","to":"Sesto San Giovanni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8223212873,55],[8223890228,56],[8229227972,57]]},
+  {"id":21156515,"t":{"ref":"C","name":"Bus C: Boario => Bergamo","from":"Costa Volpino - Via Battisti 7 (Piano)","to":"BERGAMO Autolinee (Pensilina 9)","route":"bus","public_transport:version":"2"},"n":44,"s":[[8229227994,1]]}
+]
+}

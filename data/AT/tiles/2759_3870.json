@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3870],
+"stops":[
+  {"id":2208443498,"lat":47.996082,"lon":13.546325,"k":"p","n":"Witzling"},
+  {"id":8042667898,"lat":47.957297,"lon":13.541289,"k":"p","n":"Kemating b.Seewalchen"},
+  {"id":8042667901,"lat":47.961036,"lon":13.53008,"k":"p","n":"Baum b.Seewalchen/Attersee"},
+  {"id":8179073720,"lat":47.994901,"lon":13.501496,"k":"p","n":"Haid (B1)"},
+  {"id":8179073724,"lat":47.994878,"lon":13.501007,"k":"p","n":"Haid (B1)"},
+  {"id":8937955205,"lat":47.951027,"lon":13.522915,"k":"p","n":"Eisenpalmsdorf"},
+  {"id":8937955206,"lat":47.95124,"lon":13.522994,"k":"p","n":"Eisenpalmsdorf"},
+  {"id":8937955207,"lat":47.960902,"lon":13.530156,"k":"p","n":"Baum b.Seewalchen/Attersee"},
+  {"id":8937955209,"lat":47.95761,"lon":13.540849,"k":"p","n":"Kemating b.Seewalchen"},
+  {"id":9155853801,"lat":47.969532,"lon":13.523332,"k":"p","n":"Berg im Attergau Rubensdorf"},
+  {"id":9310877414,"lat":47.996368,"lon":13.546496,"k":"p","n":"Witzling"}
+],
+"routes":[
+  {"id":11793158,"t":{"ref":"584","name":"Bus 584: Gampern - Timelkam - Vöcklabruck","from":"Gampern Kirchenplatz","to":"Vöcklabruck Busbahnhof Schulzentrum","route":"bus","public_transport:version":"2"},"n":18,"s":[[9310877414,3]]},
+  {"id":11793159,"t":{"ref":"584","name":"Bus 584: Vöcklabruck - Timelkam - Gampern","from":"Vöcklabruck Poschenhof","to":"Gampern Kirchenplatz","route":"bus","public_transport:version":"2"},"n":19,"s":[[2208443498,16]]},
+  {"id":11795537,"t":{"ref":"583","name":"Bus 583: Neukirchen Kogl - Gampern","route":"bus","public_transport:version":"2"},"n":19,"s":[[2208443498,16]]},
+  {"id":11962599,"t":{"ref":"586","name":"Bus 586: Straßwalchen - Hörgattern","from":"Straßwalchen Mittelschule","to":"Gampern Technologiepark","route":"bus","public_transport:version":"2"},"n":25,"s":[[8179073720,23]]},
+  {"id":11963111,"t":{"ref":"586","name":"Bus 586: Hörgattern - Straßwalchen","from":"Gampern Gewerbepark","to":"Straßwalchen Marktplatz","route":"bus","public_transport:version":"2"},"n":22,"s":[[8179073724,4]]},
+  {"id":13301547,"t":{"ref":"565","name":"Bus 565: Lenzing - Kammer - Kemating - St. Georgen","from":"Pichlwang Beethovenstraße","to":"St. Georgen Schulzentrum","route":"bus","public_transport:version":"2"},"n":20,"s":[[8937955209,13],[8042667901,14],[8937955206,15]]},
+  {"id":13301548,"t":{"ref":"565","name":"Bus 565: St. Georgen - Kemating - Kammer - Lenzing","from":"St. Georgen Schulzentrum","to":"Lenzing AG Tor 1","route":"bus","public_transport:version":"2"},"n":17,"s":[[8937955205,6],[8937955207,7],[8042667898,8]]},
+  {"id":13301549,"t":{"ref":"563","name":"Bus 563 \"Nachtschwärmer\": Attersee => St. Georgen im Attergau => Vöcklabruck => Schwanenstadt","from":"St. Georgen Freizeitzentrum","to":"Schwanenstadt Stadtplatz","route":"bus","public_transport:version":"2"},"n":46,"s":[[8937955205,10],[8937955207,11],[8042667898,12]]},
+  {"id":16863620,"t":{"ref":"583","name":"Bus 583: Lenzing - Gampern - Neukirchen","route":"bus","public_transport:version":"2"},"n":16,"s":[[9310877414,7]]},
+  {"id":16863622,"t":{"ref":"583","name":"Bus 583: Gampern Kirchenplatz - Neukirchen Kogl","route":"bus","public_transport:version":"2"},"n":15,"s":[[2208443498,3]]},
+  {"id":16863623,"t":{"ref":"584","name":"Bus 584: Variante ab Rubensdorf","to":"Rubensdorf","route":"bus","public_transport:version":"2"},"n":2,"s":[[9155853801,1]]},
+  {"id":16863624,"t":{"ref":"584","name":"Bus 584: Fortsetzung nach Rubensdorf","to":"Rubensdorf","route":"bus","public_transport:version":"2"},"n":2,"s":[[9155853801,2]]}
+]
+}

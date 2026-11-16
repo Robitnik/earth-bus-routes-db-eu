@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2720,3836],
+"stops":[
+  {"id":2258926778,"lat":46.00825,"lon":11.83117,"k":"p","n":"Arten","ref":"5030"},
+  {"id":2258926780,"lat":46.008564,"lon":11.831656,"k":"p","n":"Arten"},
+  {"id":2258926844,"lat":46.01665,"lon":11.80255,"k":"p","n":"Fonzaso - Loc. S.Antonio"},
+  {"id":2258926960,"lat":46.00329,"lon":11.84064,"k":"p","n":"S.Lucia"},
+  {"id":7156587327,"lat":46.008631,"lon":11.831445,"k":"p","n":"Arten"},
+  {"id":7156589037,"lat":46.016558,"lon":11.802497,"k":"p","n":"Fonzaso - Loc. S.Antonio"},
+  {"id":8821787540,"lat":46.003295,"lon":11.841062,"k":"p","n":"S.Lucia"},
+  {"id":8824609397,"lat":46.005389,"lon":11.835747,"k":"p","n":"Arten - fontana"},
+  {"id":8824609398,"lat":46.005389,"lon":11.835964,"k":"p","n":"Arten - fontana"},
+  {"id":8824609399,"lat":46.013283,"lon":11.813156,"k":"p","n":"Fonzaso - Filanda"},
+  {"id":8824609400,"lat":46.013345,"lon":11.813417,"k":"p","n":"Fonzaso - Filanda"},
+  {"id":8824609403,"lat":46.003495,"lon":11.804887,"k":"p","n":"Fenadora"}
+],
+"routes":[
+  {"id":12829393,"t":{"ref":"27","name":"Feltre -> Primolano","from":"Feltre FS","to":"Primolano FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":29,"s":[[8821787540,12],[8824609398,13],[2258926780,14],[8824609400,15],[2258926844,16],[8824609403,18]]},
+  {"id":12829394,"t":{"ref":"27","name":"Primolano -> Feltre","from":"Primolano FS","to":"Feltre FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":32,"s":[[7156589037,14],[8824609399,15],[7156587327,16],[8824609397,17],[2258926960,18]]},
+  {"id":12829395,"t":{"ref":"28","name":"Feltre -> Faller","from":"Feltre FS","to":"Faller","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":26,"s":[[8824609398,11],[8821787540,12],[2258926780,13],[8824609400,14],[2258926844,15]]},
+  {"id":12829396,"t":{"ref":"28","name":"Faller -> Feltre","from":"Faller","to":"Feltre FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":23,"s":[[7156587327,8],[7156589037,9],[8824609399,10],[2258926960,11],[8824609397,12]]},
+  {"id":12846854,"t":{"ref":"16/29","name":"Feltre -> Servo di Sovaramonte -> Fonzaso -> Feltre","from":"Feltre FS","to":"Fonzaso/Feltre FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":47,"s":[[7156589037,28],[7156587327,29],[8824609399,30],[8824609397,31],[2258926960,32]]},
+  {"id":12846855,"t":{"ref":"16/29","name":"Feltre -> Fonzaso -> Servo di Sovramonte -> Feltre","from":"Fonzaso","to":"Servo di Sovramonte","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":50,"s":[[8821787540,11],[8824609398,12],[2258926780,13],[8824609400,14],[2258926844,15]]},
+  {"id":12887236,"t":{"ref":"26","name":"Villapaiera -> Feltre -> Fonzaso -> Lamon -> Bivio Caravaggio","from":"Villapaiera","to":"Bivio Caravaggio","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":35,"s":[[8821787540,13],[8824609398,14],[2258926780,15],[8824609400,16],[2258926844,17]]},
+  {"id":12887237,"t":{"ref":"26","name":"Bivio Caravaggio -> Lamon -> Fonzaso -> Fonzaso -> Villapaiera","from":"Bivio Caravaggio","to":"Villapaiera","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":36,"s":[[7156589037,20],[7156587327,21],[8824609399,22],[2258926960,23],[8824609397,24]]},
+  {"id":19366207,"t":{"ref":"B501","name":"Bus B501: Feltre->Fiera di Primero->S.Martino di Castrozza","from":"Feltre Stazione FS","to":"S.Martino di Castrozza","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":38,"s":[[8821787540,6],[2258926780,7],[2258926844,8]]},
+  {"id":19366208,"t":{"ref":"B501","name":"Bus B501: S.Martino di Castrozza->Fiera di Primero->Feltre","from":"S.Martino di Castrozza","to":"Feltre Stazione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":40,"s":[[7156589037,32],[7156587327,33],[2258926960,34]]},
+  {"id":19374490,"t":{"ref":"B512","name":"Bus B512: Feltre->Arten->Borgo Val Sugana->Trento","from":"Feltere Staz.FS","to":"Borgo Valsugano C.Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[8821787540,5],[2258926778,6]]},
+  {"id":19374491,"t":{"ref":"B512","name":"Bus B512: Trento->Borgo Val Sugana->Arten->Feltere","from":"Borgo Valsugano C.Intermodale","to":"Feltere Staz.FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[2258926778,2],[2258926960,3]]},
+  {"id":19375800,"t":{"ref":"B514","name":"Bus B514: Trento->Borgo V.->Arten->Fiera di P.->S.M.di Castrozza","from":"Borgo Valsugano C.Intermodale","to":"San Martino di Castrozza","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":33,"s":[[2258926780,2],[2258926844,3]]},
+  {"id":19375875,"t":{"ref":"B514","name":"Bus B514: S.M.di Castrozza->Fiera di P.>Arten->Borgo V.->Fiera di P.->Trento","from":"San Martino di Castrozza","to":"Valsugano C.Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":33,"s":[[7156589037,32],[7156587327,33]]}
+]
+}

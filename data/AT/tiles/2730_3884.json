@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2730,3884],
+"stops":[
+  {"id":5028196761,"lat":46.539392,"lon":14.249281,"k":"p","n":"Weizelsdorf Abzweigung Kappel an der Drau"},
+  {"id":5028196762,"lat":46.539268,"lon":14.249856,"k":"p","n":"Weizelsdorf Abzweigung Kappel an der Drau"},
+  {"id":5028196764,"lat":46.539606,"lon":14.242863,"k":"p","n":"Weizelsdorf Bahnhof (Vorplatz)"},
+  {"id":5028279784,"lat":46.53771,"lon":14.226766,"k":"p","n":"Weizelsdorf Ortsmitte"},
+  {"id":5028279785,"lat":46.537531,"lon":14.2276,"k":"p","n":"Weizelsdorf Ortsmitte"},
+  {"id":5028279786,"lat":46.526932,"lon":14.208357,"k":"p","n":"St.Johann im Rosental Ort"},
+  {"id":5028279787,"lat":46.526852,"lon":14.208717,"k":"p","n":"St.Johann im Rosental Ort"},
+  {"id":5215139079,"lat":46.526872,"lon":14.208364,"k":"x","n":"St.Johann im Rosental Ort"},
+  {"id":5240104836,"lat":46.53759,"lon":14.227604,"k":"x","n":"Weizelsdorf Ortsmitte"},
+  {"id":5256630355,"lat":46.539315,"lon":14.249841,"k":"x","n":"Weizelsdorf Abzweigung Kappel an der Drau"},
+  {"id":7297734413,"lat":46.526907,"lon":14.208708,"k":"x","n":"St.Johann im Rosental Ort"},
+  {"id":7297734414,"lat":46.539319,"lon":14.249277,"k":"x","n":"Weizelsdorf Abzweigung Kappel an der Drau"},
+  {"id":7297734416,"lat":46.539655,"lon":14.242875,"k":"x","n":"Weizelsdorf Bahnhof (Vorplatz)"},
+  {"id":7297734418,"lat":46.537634,"lon":14.226752,"k":"x","n":"Weizelsdorf Ortsmitte"},
+  {"id":7444507861,"lat":46.534739,"lon":14.24885,"k":"x","n":"Kappel an der Drau Ort"},
+  {"id":7444507862,"lat":46.534765,"lon":14.24885,"k":"p","n":"Kappel an der Drau Ort"}
+],
+"routes":[
+  {"id":11177789,"t":{"ref":"553","name":"Bus 553: Bodental => Weizelsdorf Bahnhof","from":"Bodenthal Gh Sereinig","to":"Weizelsdorf Bahnhof","network":"Kärntner Linien","operator":"Juwan","route":"bus","public_transport:version":"2"},"n":16,"s":[[5028196761,15],[5028196764,16]]},
+  {"id":11177801,"t":{"ref":"553","name":"Bus 553: Weizelsdorf Bahnhof => Bodental","from":"Weizelsdorf Bahnhof","to":"Bodental Gh Sereinig","network":"Kärntner Linien","operator":"Juwan","route":"bus","public_transport:version":"2"},"n":16,"s":[[5028196764,1],[5028196762,2]]},
+  {"id":11178115,"t":{"ref":"553","name":"Bus 553: Bodental => Weizelsdorf Bahnhof (über Loibltal)","from":"Bodenthal Gh Sereinig","to":"Weizelsdorf Bahnhof","network":"Kärntner Linien","operator":"Juwan","route":"bus","public_transport:version":"2"},"n":18,"s":[[5028196761,17],[5028196764,18]]},
+  {"id":11818277,"t":{"ref":"551","name":"Bus 551: Abtei Bundesstraße => Ferlach Busbahnhof","from":"Abtei Bundesstraße","to":"Ferlach Busbahnhof","network":"Kärntner Linien","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":29,"s":[[5028196761,28],[5028196764,29]]},
+  {"id":11820809,"t":{"ref":"551","name":"Bus 551: Weizelsdorf Bf => Abtei Bundesstraße","from":"Weizelsdorf Bahnhof","to":"Abtei Bundesstraße","network":"Kärntner Linien","operator":"Klagenfurt Mobil GmbH","route":"bus","public_transport:version":"2"},"n":30,"s":[[5028196764,1],[5028196762,2]]},
+  {"id":11820810,"t":{"ref":"551","name":"Bus 551: Weizelsdorf Bf => Gallizien (via Schulzentrum)","from":"Weizelsdorf Bahnhof","to":"Gallizien Ortsmitte","network":"Kärntner Linien","operator":"Klagenfurt Mobil GmbH","route":"bus","public_transport:version":"2"},"n":32,"s":[[5028196764,1],[5028196762,2]]},
+  {"id":12045195,"t":{"ref":"550","name":"Bus 550: Ferlach Busbahnhof => Reßnig => Ferlach (ohne Nostalgiebahnhof)","from":"Ferlach Busbahnhof","to":"Ferlach Busbahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":30,"s":[[7444507862,17],[5028196761,19],[5028196764,20],[5028196762,21]]},
+  {"id":12045196,"t":{"ref":"550","name":"Bus 550: Ferlach Busbahnhof => Reßnig => Ferlach (via Nostalgiebahnhof)","from":"Ferlach Busbahnhof","to":"Ferlach Busbahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":33,"s":[[7444507862,20],[5028196761,22],[5028196764,23],[5028196762,24]]},
+  {"id":12048877,"t":{"ref":"541","name":"Bus 541: Lind-Rosegg => Weizelsdorf Bahnhof (via Velden Bbf)","from":"Lind-Rosegg Bahnhaltestelle","to":"Weizelsdorf Bahnhof","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":32,"s":[[5028279787,30],[5028279785,31],[5028196764,32]]},
+  {"id":12048879,"t":{"ref":"541","name":"Bus 541: Weizelsdorf Bahnhof => Lind-Rosegg Bahnhaltestelle (via Feistritz Volksschule)","from":"Weizelsdorf Bahnhof","to":"Lind-Rosegg Bahnhaltestelle","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":28,"s":[[5028196764,1],[5028279784,2],[5028279786,3]]},
+  {"id":12079060,"t":{"ref":"552","name":"Bus 552: Terkl Freibach => Weizelsdorf Bahnhof","from":"Terkl Freibach","to":"Weizelsdorf Bahnhof","network":"Kärntner Linien","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[5028196761,24],[5028196764,25]]},
+  {"id":12079061,"t":{"ref":"552","name":"Bus 552: Weizelsdorf Bf => Terkl Freibach (via Zell-Pfarre Oberwinkel)","from":"Weizelsdorf Bahnhof","to":"Terkl Freibach","network":"Kärntner Linien","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":27,"s":[[5028196764,1],[5028196762,2]]},
+  {"id":12079062,"t":{"ref":"552","name":"Bus 552: Weizelsdorf Bf => Terkl Freibach","from":"Weizelsdorf Bahnhof","to":"Terkl Freibach","network":"Kärntner Linien","operator":"Kärnten Bus","route":"bus","public_transport:version":"2"},"n":26,"s":[[5028196764,1],[5028196762,2]]},
+  {"id":12177081,"t":{"ref":"550","name":"Bus 550: Ferlach Busbahnhof => Weizelsdorf Bahnhof (ohne Nostalgiebahnhof und Kappel)","from":"Ferlach Busbahnhof","to":"Weizelsdorf Bahnhof","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":19,"s":[[5028196761,18],[5028196764,19]]},
+  {"id":12177082,"t":{"ref":"550","name":"Bus 550: Kappel Ort => Ferlach Schulzentrum","from":"Ferlach Busbahnhof","to":"Ferlach Schulzentrum","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":12,"s":[[7444507862,1]]},
+  {"id":19968038,"t":{"ref":"541","name":"Bus 541: Weizelsdorf Bahnhof => Lind-Rosegg Bahnhaltestelle (via Velden Bbf)","from":"Weizelsdorf Bahnhof","to":"Lind-Rosegg Bahnhaltestelle","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":33,"s":[[5028196764,1],[5028279784,2],[5028279786,3]]}
+]
+}

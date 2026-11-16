@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3838],
+"stops":[
+  {"id":625175445,"lat":46.430859,"lon":11.908276,"k":"p","n":"Malga Ciapela Hotel Roy (Impianti)"},
+  {"id":625175451,"lat":46.428004,"lon":11.912758,"k":"p","n":"Malga CiapelaMarmolada"},
+  {"id":5143498141,"lat":46.425901,"lon":11.945794,"k":"p","n":"Palue"},
+  {"id":5143498142,"lat":46.425364,"lon":11.940719,"k":"p","n":"Sottoguda Bivio"},
+  {"id":5143498143,"lat":46.434616,"lon":11.908982,"k":"p","n":"Pensione Al Gigio"},
+  {"id":8845903833,"lat":46.425845,"lon":11.945931,"k":"p","n":"Palue"},
+  {"id":8872795606,"lat":46.434552,"lon":11.908891,"k":"x","n":"Pensione Al Gigio"},
+  {"id":8909945181,"lat":46.425429,"lon":11.940558,"k":"p","n":"Sottoguda Bivio"},
+  {"id":8909945201,"lat":46.428078,"lon":11.912917,"k":"p","n":"Malga CiapelaMarmolada"},
+  {"id":8909945214,"lat":46.430884,"lon":11.908076,"k":"p","n":"Malga Ciapela Hotel Roy (Impianti)"},
+  {"id":8909945215,"lat":46.434616,"lon":11.908797,"k":"p","n":"Pensione Al Gigio"},
+  {"id":9556120514,"lat":46.445117,"lon":11.907542,"k":"p","n":"Partenza seggiovia Padon"},
+  {"id":9556120515,"lat":46.445035,"lon":11.907423,"k":"p","n":"Partenza seggiovia Padon"}
+],
+"routes":[
+  {"id":7633697,"t":{"ref":"4","name":"Caprile -> Rocca Pietore -> Sottoguda bivio","from":"Caprile","to":"Sottoguda bivio","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":7,"s":[[5143498141,5]]},
+  {"id":12861908,"t":{"ref":"4","name":"Sottoguda bivio -> Rocca Pietore -> Caprile","from":"Sottoguda bivio","to":"Caprile","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":7,"s":[[8845903833,6]]},
+  {"id":12937606,"t":{"ref":"2/3/4","name":"Falcade -> Caprile -> Marmolada","from":"Falcade Piazza","to":"Pian di Fedaia Rifugio Marmolada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[5143498141,21],[8909945181,22],[8909945201,23],[5143498143,24],[625175445,25]]},
+  {"id":12937607,"t":{"ref":"2/3/4","name":"Marmolada -> Caprile -> Falcade","from":"Pian di Fedaia Rifugio Marmolada","to":"Falcade Piazza","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":34,"s":[[8845903833,27],[5143498142,28],[625175451,29],[8909945215,30],[8909945214,31]]},
+  {"id":13892531,"t":{"ref":"2/3/4Skibus","name":"Masarè -> Alleghe -> Malga Ciapela -> Seggiovia Padon","from":"Masarè Al Camping","to":"Partenza seggiovia Padon","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":18,"s":[[5143498141,14],[8909945181,15],[8909945201,16],[625175445,17],[5143498143,18]]},
+  {"id":13892952,"t":{"ref":"2/3/4Skibus","name":"Seggiovia Padon -> Malga Ciapela -> Alleghe -> Masarè","from":"Partenza seggiovia Padon","to":"Masarè Al Camping","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":18,"s":[[8909945215,1],[8909945214,2],[625175451,3],[5143498142,4],[8845903833,5]]}
+]
+}

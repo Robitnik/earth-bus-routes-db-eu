@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3801],
+"stops":[
+  {"id":984712166,"lat":46.411416,"lon":10.050581,"k":"p","n":"La Motta Dogana"},
+  {"id":984712170,"lat":46.409013,"lon":10.056779,"k":"p","n":"Li Mason"},
+  {"id":984712386,"lat":46.401463,"lon":10.066852,"k":"p","n":"La Rösa"},
+  {"id":984713824,"lat":46.44128,"lon":10.056215,"k":"p","n":"Forcola Dogana Italiana"},
+  {"id":1807738422,"lat":46.401485,"lon":10.066634,"k":"p","n":"La Rösa"},
+  {"id":2361397819,"lat":46.411447,"lon":10.050702,"k":"x","n":"La Motta Dogana"},
+  {"id":9262934594,"lat":46.409014,"lon":10.057002,"k":"x","n":"Li Mason"},
+  {"id":13960966152,"lat":46.401453,"lon":10.066759,"k":"x","n":"La Rösa"},
+  {"id":13960966408,"lat":46.41133,"lon":10.050651,"k":"x","n":"La Motta Dogana"},
+  {"id":13960966409,"lat":46.441227,"lon":10.056144,"k":"x","n":"Forcola Dogana Italiana"},
+  {"id":13960966411,"lat":46.44174,"lon":10.055363,"k":"x","n":"Forcola Dogana Italiana"},
+  {"id":13960966412,"lat":46.441771,"lon":10.055242,"k":"p","n":"Forcola Dogana Italiana"}
+],
+"routes":[
+  {"id":2257824,"t":{"ref":"701","name":"Bus 701: Samedan → Le Prese","from":"Samedan, Bahnhof","to":"Le Prese, Stazione","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":10,"s":[[984712166,2],[984712170,3],[1807738422,4]]},
+  {"id":12285472,"t":{"ref":"701","name":"Bus 701: Le Prese → Samedan","from":"Le Prese, Stazione","to":"Samedan, Bahnhof","network":"CH-GR","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":10,"s":[[984712386,7],[984712170,8],[984712166,9]]},
+  {"id":12286033,"t":{"ref":"705","name":"Bus 705: St. Moritz → Livigno","from":"St. Moritz, Bahnhof","to":"Livigno, Centro Bus Station","network":"CH-GR","operator":"ASL","route":"bus","public_transport:version":"2"},"n":7,"s":[[984712166,2],[984713824,3]]},
+  {"id":12286056,"t":{"ref":"705","name":"Bus 705: Livigno → St. Moritz","from":"Livigno, Centro Bus Station","to":"St. Moritz, Bahnhof","network":"CH-GR","operator":"ASL","route":"bus","public_transport:version":"2"},"n":5,"s":[[13960966412,3],[984712166,4]]},
+  {"id":12286083,"t":{"ref":"707","name":"Bus 707: Tirano → Livigno","from":"Tirano, Stazione","to":"Livigno, Centro Bus Station","network":"CH-GR","operator":"ASL","route":"bus","public_transport:version":"2"},"n":5,"s":[[984712166,3],[984713824,4]]},
+  {"id":12286084,"t":{"ref":"707","name":"Bus 707: Livigno → Tirano","from":"Livigno, Centro Bus Station","to":"Tirano, Stazione","network":"CH-GR","operator":"ASL","route":"bus","public_transport:version":"2"},"n":5,"s":[[13960966412,2],[984712166,3]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2727,3836],
+"stops":[
+  {"id":5120159239,"lat":46.359943,"lon":11.848299,"k":"p","n":"Le Frate"},
+  {"id":5120159248,"lat":46.37626,"lon":11.820536,"k":"p","n":"Zingari"},
+  {"id":5120159249,"lat":46.378865,"lon":11.813851,"k":"p","n":"Bivio Valfreda"},
+  {"id":5186683704,"lat":46.360188,"lon":11.844588,"k":"p","n":"Bivio Passo Valles"},
+  {"id":8414903148,"lat":46.359837,"lon":11.848165,"k":"p","n":"Le Frate"},
+  {"id":9024957724,"lat":46.360035,"lon":11.844668,"k":"p","n":"Bivio Passo Valles"},
+  {"id":9024957725,"lat":46.360014,"lon":11.844974,"k":"p","n":"Bivio Passo Valles"},
+  {"id":9084468673,"lat":46.376298,"lon":11.820587,"k":"p","n":"Zingari"},
+  {"id":9084468674,"lat":46.378901,"lon":11.813676,"k":"p","n":"Bivio valfreda"},
+  {"id":9095299721,"lat":46.378776,"lon":11.813724,"k":"p","n":"Bivio valfreda"},
+  {"id":9095299722,"lat":46.376321,"lon":11.820388,"k":"p","n":"Zingari"},
+  {"id":12403467783,"lat":46.379086,"lon":11.802182,"k":"p","n":"Col Margherita--SKI 108"},
+  {"id":13008826922,"lat":46.378994,"lon":11.801891,"k":"p","n":"Passo San Pellegrino Fun"}
+],
+"routes":[
+  {"id":7597905,"t":{"ref":"71","name":"Belluno -> Agordo -> Passo San Pellegrino -> Moena","from":"Belluno FS","to":"Moena","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":47,"s":[[5120159239,41],[9084468673,42],[9084468674,43]]},
+  {"id":7678025,"t":{"ref":"123","name":"MOENA - SAN PELLEGRINO - FALCADE","network":"Trentino Trasporti","operator":"Trentino Trasporti","route":"bus"},"n":4,"s":[[8414903148,4]]},
+  {"id":13113176,"t":{"ref":"2 est","name":"Falcade -> Passo Valles","from":"Falcade Piazza","to":"Passo Valles","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":5,"s":[[5120159239,4],[9024957724,5]]},
+  {"id":13113177,"t":{"ref":"2 est","name":"Passo Valles -> Falcade","from":"Passo Valles","to":"falcade Piazza","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":5,"s":[[9024957725,1],[8414903148,2]]},
+  {"id":13218325,"t":{"ref":"71","name":"Moena -> Passo San Pellegrino -> Agordo -> Belluno","from":"Moena","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":48,"s":[[9095299721,5],[9095299722,6],[8414903148,7]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[5120159239,81]]},
+  {"id":19365252,"t":{"ref":"B123","name":"Bus B123: Passo S.Pellegrino->Moeno","from":"Passo San Pellegrino","to":"Moeno Albergo Trentino","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[13008826922,1]]},
+  {"id":19365253,"t":{"ref":"B123","name":"Bus B123: Moeno->Passo S.Pellegrino","from":"Moeno Albergo Trentino","to":"Passo San Pellegrino","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[13008826922,10]]}
+]
+}

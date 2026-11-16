@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2711,3790],
+"stops":[
+  {"id":1992363865,"lat":45.598003,"lon":9.534992,"k":"p","n":"Crespi - via Manzoni, 5"},
+  {"id":4243241839,"lat":45.578388,"lon":9.521673,"k":"p","n":"Via Marconi, 60 (Vaprio d'Adda)"},
+  {"id":4243241840,"lat":45.575761,"lon":9.526422,"k":"p","n":"Via Perego - Via Cimitero (Vaprio d'Adda)"},
+  {"id":4243241844,"lat":45.575755,"lon":9.5263,"k":"p","n":"Via Perego - Via Cimitero (Vaprio d'Adda)"},
+  {"id":4243241848,"lat":45.575751,"lon":9.52643,"k":"x","n":"Via Perego - Via Cimitero (Vaprio d'Adda)"},
+  {"id":4243241858,"lat":45.578298,"lon":9.521863,"k":"p","n":"Via Marconi, 60 (Vaprio d'Adda)"},
+  {"id":6470503568,"lat":45.583657,"lon":9.521441,"k":"p"},
+  {"id":6474019785,"lat":45.567332,"lon":9.519627,"k":"p"},
+  {"id":6474019786,"lat":45.568031,"lon":9.51986,"k":"p"},
+  {"id":8098094345,"lat":45.577838,"lon":9.546627,"k":"p"},
+  {"id":8518246592,"lat":45.598092,"lon":9.523074,"k":"p","n":"scuolabus"},
+  {"id":8570618472,"lat":45.578338,"lon":9.521867,"k":"x","n":"Via Marconi, 60 (Vaprio d'Adda)"},
+  {"id":8890652285,"lat":45.596979,"lon":9.53734,"k":"p","n":"Crespi - Piazza Vittorio Veneto, 3"},
+  {"id":8912007940,"lat":45.59802,"lon":9.535077,"k":"p","n":"Crespi - via Manzoni, 18"},
+  {"id":9009511505,"lat":45.575267,"lon":9.5385,"k":"p","n":"Canonica d'Adda - Via Lodi 40, lato municipio"},
+  {"id":9010400424,"lat":45.575512,"lon":9.538434,"k":"p","n":"Canonica d'Adda - Via Lodi 40"},
+  {"id":9010553622,"lat":45.576949,"lon":9.537207,"k":"p"},
+  {"id":9028586775,"lat":45.576884,"lon":9.5371,"k":"p"},
+  {"id":9178894718,"lat":45.584091,"lon":9.52136,"k":"p"},
+  {"id":9235145917,"lat":45.555,"lon":9.534553,"k":"p","n":"Farà Gera d'Adda - Via Antonio Locatelli"},
+  {"id":9235145918,"lat":45.55525,"lon":9.534751,"k":"p","n":"Fara Gera d'Adda - Via Antonio Locatelli"},
+  {"id":9973479004,"lat":45.595443,"lon":9.512516,"k":"p","n":"TREZZO V.le Lombardia","ref":"19152"},
+  {"id":9973479005,"lat":45.595171,"lon":9.512142,"k":"p","n":"TREZZO V.le Lombardia","ref":"19151"},
+  {"id":11047862084,"lat":45.560477,"lon":9.533981,"k":"x","n":"Fara Gera d'Adda - Via Bergamo"},
+  {"id":11047862085,"lat":45.560489,"lon":9.534023,"k":"p","n":"Fara Gera d'Adda - Via Bergamo"}
+],
+"routes":[
+  {"id":2122216,"t":{"ref":"z310","name":"z310 Gessate M2 → Trezzo s/A","from":"Trezzo sull'Adda, Via Biffi","to":"Gessate M2","network":"STIBM","operator":"Nord Est Trasporti","colour":"#c6a0cb","route":"bus","public_transport:version":"2"},"n":17,"s":[[9973479004,3]]},
+  {"id":6306416,"t":{"ref":"z309","name":"Bus z309: Cassano d'Adda FS => Trezzo s/A","from":"Cassano D'Adda, Stazione FS","to":"Trezzo sull'Adda, Via Carlo Biffi","network":"STIBM","operator":"Nord Est Trasporti","colour":"turquoise","route":"bus","public_transport:version":"2"},"n":6,"s":[[4243241839,4]]},
+  {"id":6306417,"t":{"ref":"z309","name":"Bus z309: Trezzo s/A => Cassano d'Adda FS","from":"Trezzo sull'Adda, Via Carlo Biffi","to":"Cassano d'Adda, Stazione FS","network":"STIBM","operator":"Nord Est Trasporti","colour":"turquoise","route":"bus","public_transport:version":"2"},"n":8,"s":[[4243241858,4],[4243241844,5]]},
+  {"id":6313144,"t":{"ref":"z311","name":"Bus z311: Vaprio d'Adda => Gessate M2","network":"STIBM","operator":"NET","route":"bus","public_transport:version":"2"},"n":4,"s":[[4243241840,1],[4243241839,2]]},
+  {"id":6313145,"t":{"ref":"z311","name":"Bus z311: Gessate M2 => Vaprio d'Adda","network":"STIBM","operator":"NET","route":"bus","public_transport:version":"2"},"n":5,"s":[[4243241858,4],[4243241840,5]]},
+  {"id":14497904,"t":{"ref":"V","name":"Bus V: Trezzo sull'Adda => Bergamo","from":"Trezzo sull'Adda","to":"Bergamo","network":"TBSO","operator":"Locatelli","colour":"#8ff0a4","route":"bus","public_transport:version":"2"},"n":21,"s":[[1992363865,3],[8890652285,4],[8912007940,5]]},
+  {"id":17954126,"t":{"ref":"z310","name":"Bus z310: Trezzo s/A => Gessate M2","from":"Trezzo sull'Adda, via Biffi","to":"Gessate M2","network":"STIBM","operator":"Nord Est Trasporti","colour":"#c6a0cb","route":"bus","public_transport:version":"2"},"n":17,"s":[[9973479004,3]]},
+  {"id":20032286,"t":{"ref":"F","name":"Bus F: Verdellino FS =>Treviglio FS","from":"Verdellino FS","to":"Treviglio FS","network":"Bergamo Trasporti Sud","operator":"SAI Autolinee","route":"bus","public_transport:version":"2"},"n":7,"s":[[9010400424,4],[9235145917,5]]},
+  {"id":20032287,"t":{"ref":"F","name":"Bus F: Caravaggio => Verdellino FS","from":"Caravaggio - Via Zenale e Buttinone","to":"Verdellino FS","network":"Bergamo Trasporti Sud","operator":"SAI Autolinee","route":"bus","public_transport:version":"2"},"n":15,"s":[[9235145918,10],[11047862085,11],[9009511505,12]]}
+]
+}

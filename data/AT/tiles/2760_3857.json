@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2760,3857],
+"stops":[
+  {"id":268590616,"lat":48.008928,"lon":12.865585,"k":"p","n":"Wildshut Ortsmitte"},
+  {"id":268590617,"lat":48.008403,"lon":12.865878,"k":"p","n":"Wildshut Ortsmitte"},
+  {"id":1231312037,"lat":48.046152,"lon":12.86073,"k":"p","n":"Gumpling"},
+  {"id":2677830952,"lat":48.008845,"lon":12.865518,"k":"x","n":"Wildshut Ortsmitte"},
+  {"id":7216834898,"lat":48.044879,"lon":12.881744,"k":"p","n":"Haigermoos Ortsmitte"},
+  {"id":7216834899,"lat":48.044808,"lon":12.882177,"k":"p","n":"Haigermoos Ortsmitte"},
+  {"id":9396970193,"lat":48.048992,"lon":12.852632,"k":"p","n":"Ostermiething Ernsting"},
+  {"id":9396970194,"lat":48.049459,"lon":12.851566,"k":"p","n":"Ostermiething Ernsting"},
+  {"id":9396970195,"lat":48.046382,"lon":12.860566,"k":"p","n":"Gumpling"},
+  {"id":9555594437,"lat":48.008441,"lon":12.86591,"k":"x","n":"Wildshut Ortsmitte"},
+  {"id":14130869297,"lat":48.001652,"lon":12.884434,"k":"p","n":"St. Pantaleon Reith S-Bahn (SEV)"},
+  {"id":14130869298,"lat":48.001663,"lon":12.884615,"k":"p","n":"St. Pantaleon Reith S-Bahn (SEV)"},
+  {"id":14130887945,"lat":48.001664,"lon":12.884528,"k":"x","n":"St. Pantaleon Reith S-Bahn (SEV)"}
+],
+"routes":[
+  {"id":10003659,"t":{"ref":"112","name":"Bus 112: Oberndorf => Ostermiething","from":"Oberndorf b. S. Bahnhof","to":"Ostermiething S-Bahn","network":"Salzburger Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":18,"s":[[268590616,13]]},
+  {"id":10004299,"t":{"ref":"112","name":"Bus 112: Ostermiething => Oberndorf","from":"Ostermiething S-Bahn","to":"Oberndorf b. S. Bahnhof","network":"Salzburger Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":18,"s":[[268590617,6]]},
+  {"id":10714547,"t":{"ref":"884","name":"Bus 884: Ostermiething - St. Radegund - Braunau","from":"Wildshut Ort","to":"Braunau Busbahnhof (Kolpingstraße)","route":"bus","public_transport:version":"2"},"n":34,"s":[[268590616,1]]},
+  {"id":10714548,"t":{"ref":"885","name":"Bus 885: Ostermiething => Hochburg => Braunau","from":"Ostermiething S-Bahn","to":"Braunau Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":36,"s":[[268590616,1]]},
+  {"id":10714549,"t":{"ref":"882","name":"Bus 882: Braunau => Geretsberg => Ostermiething","from":"Braunau Bahnhof","to":"Ostermiething Nord","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":34,"s":[[7216834898,28],[9396970195,29],[9396970193,30]]},
+  {"id":10714550,"t":{"ref":"882","name":"Bus 882: Ostermiething - Geretsberg - Braunau","from":"Ostermiething Nord","to":"Braunau Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":35,"s":[[9396970194,5],[1231312037,6],[7216834899,7]]}
+]
+}

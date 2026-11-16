@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2766,3868],
+"stops":[
+  {"id":9440546277,"lat":48.347727,"lon":13.401869,"k":"p","n":"Antiesenhofen Bahnhof"},
+  {"id":9440546278,"lat":48.346027,"lon":13.400816,"k":"p","n":"Antiesenhofen Gemeindeamt"},
+  {"id":9441929551,"lat":48.312601,"lon":13.441099,"k":"p","n":"Ort Stött"},
+  {"id":9441929552,"lat":48.312518,"lon":13.439918,"k":"p","n":"Ort Stött"},
+  {"id":9441929555,"lat":48.316099,"lon":13.434072,"k":"p","n":"Ort Ort"},
+  {"id":9441929560,"lat":48.31563,"lon":13.434296,"k":"p","n":"Ort Ort"},
+  {"id":9441929561,"lat":48.316298,"lon":13.425845,"k":"p","n":"Hart Abzw Ort"},
+  {"id":9441929565,"lat":48.316322,"lon":13.425467,"k":"p","n":"Hart Abzw Ort"}
+],
+"routes":[
+  {"id":13707657,"t":{"ref":"845","name":"Bus 845: Antiesenhofen - Altheim","from":"Antiesenhofen Bahnhof","to":"Altheim Rathaus","route":"bus","public_transport:version":"2"},"n":16,"s":[[9440546277,1]]},
+  {"id":13707658,"t":{"ref":"845","name":"Bus 845: Altheim - Antiesenhofen","from":"Altheim Rathaus","to":"Antiesenhofen Bahnhof","route":"bus","public_transport:version":"2"},"n":17,"s":[[9440546278,16],[9440546277,17]]},
+  {"id":13709389,"t":{"ref":"840","name":"Bus 840: Antiesenhofen - Osternach - Ried","from":"Antiesenhofen Bahnhof","to":"Ried im Innkreis Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":24,"s":[[9440546277,1],[9441929560,3],[9441929552,4],[9441929551,6],[9441929555,7],[9441929565,8]]},
+  {"id":13709391,"t":{"ref":"840","name":"Bus 840: Ried - Osternach - Antiesenhofen","from":"Ried im Innkreis Bahnhof","to":"Antiesenhofen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":28,"s":[[9441929561,20],[9441929560,21],[9441929552,22],[9441929551,24],[9441929555,25],[9440546278,27],[9440546277,28]]}
+]
+}

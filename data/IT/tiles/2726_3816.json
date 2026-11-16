@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3816],
+"stops":[
+  {"id":1852004575,"lat":46.315868,"lon":10.8027,"k":"p","n":"Mezzana Despar"},
+  {"id":1852004579,"lat":46.317061,"lon":10.806315,"k":"p","n":"Mezzana Est"},
+  {"id":1852004581,"lat":46.31715,"lon":10.806759,"k":"p","n":"Mezzana Est"},
+  {"id":1852004582,"lat":46.320217,"lon":10.825822,"k":"p","n":"Piano di Commezzadura"},
+  {"id":1852004584,"lat":46.320557,"lon":10.825139,"k":"p","n":"Piano di Commezzadura"},
+  {"id":1852004586,"lat":46.321338,"lon":10.839416,"k":"p","n":"Mestriago"},
+  {"id":1852004587,"lat":46.321379,"lon":10.840312,"k":"p","n":"Mestriago"},
+  {"id":1852004589,"lat":46.321915,"lon":10.84622,"k":"p"},
+  {"id":1852004590,"lat":46.322401,"lon":10.847562,"k":"p","n":"Mastellina"},
+  {"id":4317627238,"lat":46.313276,"lon":10.800541,"k":"p","n":"Mezzana Statzione Ftm"},
+  {"id":6341426184,"lat":46.315612,"lon":10.801183,"k":"p","n":"Mezzana Caseifizio"},
+  {"id":12986425628,"lat":46.304282,"lon":10.809238,"k":"p","n":"Marilleva Solaria"},
+  {"id":12986425629,"lat":46.303671,"lon":10.809292,"k":"p","n":"Marilleva 1400 Resid.Lores"},
+  {"id":12986425630,"lat":46.302396,"lon":10.810359,"k":"p","n":"Marilleva 1400 Ag.Alpitour"},
+  {"id":12986425631,"lat":46.300806,"lon":10.813731,"k":"p","n":"Marilleva \"Telecabina\""},
+  {"id":12986425633,"lat":46.303904,"lon":10.831758,"k":"p","n":"Marilleva SP206 Km 6.4"},
+  {"id":12986425634,"lat":46.314281,"lon":10.811923,"k":"p","n":"Marilleva 900"},
+  {"id":12987015845,"lat":46.304656,"lon":10.81044,"k":"p","n":"Marilleva 1400"}
+],
+"routes":[
+  {"id":19326875,"t":{"ref":"B646","name":"Bus B646: Passo Tonale->Vermiglio->Fucine->Mezzana->Malè","from":"Passo Tonale","to":"Mezzana Staz. Ftm","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":18,"s":[[4317627238,18]]},
+  {"id":19326876,"t":{"ref":"B646","name":"Bus B646: Malè->Mezzana->Fucine->Vermiglio->Passo Tonale","from":"Mezzana Staz. Ftm","to":"Passo Tonale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[4317627238,1]]},
+  {"id":19332987,"t":{"ref":"B643","name":"Bus B643: Malè->Mezzana->Marilleva 1400","from":"Malè Nuovo Stazione","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[1852004590,11],[1852004587,12],[1852004584,13],[1852004579,14],[1852004575,15],[6341426184,18],[1852004581,19],[12986425634,20],[12986425633,21],[12986425631,23],[12986425630,24],[12986425629,25],[12986425628,26]]},
+  {"id":19333735,"t":{"ref":"B643","name":"Bus B643: Marilleva 1400->Mezzana->Malè","from":"Marilleva 1400","to":"Marilleva 1400","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[12986425628,1],[12987015845,2],[12986425629,3],[12986425630,4],[12986425631,5],[12986425633,7],[12986425634,8],[1852004579,9],[1852004575,10],[6341426184,13],[1852004581,14],[1852004582,15],[1852004586,16],[1852004590,17]]},
+  {"id":19333783,"t":{"ref":"B645","name":"Bus B645: Peio->Cogolo->Fucine->Mezzaa->Malè","from":"Peio","to":"Mezzana Staz. Ftm","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[4317627238,16]]},
+  {"id":19333784,"t":{"ref":"B645","name":"Bus B645: Malè->Mezzana->Fucine->Cogolo->Peio","from":"Mezzana Staz. Ftm","to":"Peio","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[4317627238,1]]}
+]
+}

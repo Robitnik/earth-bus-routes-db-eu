@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2769,3887],
+"stops":[
+  {"id":2246018031,"lat":48.464752,"lon":14.365441,"k":"p","n":"Ottenschlag im Mühlkreis Holzmühle"},
+  {"id":2246018044,"lat":48.46513,"lon":14.365712,"k":"p","n":"Ottenschlag im Mühlkreis Holzmühle"},
+  {"id":2267120326,"lat":48.466657,"lon":14.386448,"k":"p","n":"Ottenschlag im Mühlkreis Ort"},
+  {"id":5766505979,"lat":48.452638,"lon":14.352614,"k":"p","n":"Reichenau im Mühlkreis - Sagmühle"},
+  {"id":5766505985,"lat":48.452177,"lon":14.352923,"k":"p","n":"Reichenau im Mühlkreis - Sagmühle"},
+  {"id":8693026874,"lat":48.499365,"lon":14.361133,"k":"p","n":"Schenkenfelden Linzer Straße"},
+  {"id":8693026877,"lat":48.49955,"lon":14.361478,"k":"p","n":"Schenkenfelden Linzer Straße"}
+],
+"routes":[
+  {"id":4432517,"t":{"ref":"305","name":"Bus 305: Linz => Altenberg => Reichenau","from":"Linz","to":"Reichenau","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":23,"s":[[5766505979,21]]},
+  {"id":4432731,"t":{"ref":"305","name":"Bus 305 Reichenau => Altenberg => Linz","from":"Reichenau","to":"Linz","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":23,"s":[[5766505985,2]]},
+  {"id":12662133,"t":{"ref":"317","name":"Bus 317: Bad Leonfelden => Gallneukirchen","from":"Bad Leonfelden","to":"Gallneukirchen","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":14,"s":[[8693026874,4],[5766505985,10]]},
+  {"id":12662134,"t":{"ref":"317","name":"Bus 317: Gallneukirchen => Bad Leonfelden","from":"Gallneukirchen","to":"Bad Leonfelden","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[5766505979,6],[8693026877,12]]},
+  {"id":14321568,"t":{"ref":"317","name":"Bus 317: Hirschbach => Bad Leonfelden","from":"Hirschbach","to":"Bad Leonfelden","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":12,"s":[[2267120326,2],[2246018031,3],[8693026877,9]]}
+]
+}

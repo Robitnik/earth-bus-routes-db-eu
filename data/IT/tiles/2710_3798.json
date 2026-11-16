@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2710,3798],
+"stops":[
+  {"id":5431926222,"lat":45.545386,"lon":9.925126,"k":"p","n":"Chiari - via Cologne/Comini"},
+  {"id":5434367657,"lat":45.539123,"lon":9.933056,"k":"p"},
+  {"id":13483249685,"lat":45.53945,"lon":9.924845,"k":"p","n":"Chiari - via del Granaio, stazione"},
+  {"id":13483249686,"lat":45.538044,"lon":9.931874,"k":"p","n":"Chiari - viale mellini"},
+  {"id":13483249687,"lat":45.53253,"lon":9.931852,"k":"p","n":"Chiari - via rota"},
+  {"id":13483249688,"lat":45.527863,"lon":9.937785,"k":"p","n":"Chiari - cimitero"},
+  {"id":13483949074,"lat":45.5017,"lon":9.949638,"k":"p","n":"Castelcovati-v.de gasperi 104"},
+  {"id":13483949075,"lat":45.501982,"lon":9.944263,"k":"p","n":"Castelcovati - via de gasperi (semaforo)"},
+  {"id":13483949076,"lat":45.50458,"lon":9.944081,"k":"p","n":"Castelcovati - via chiari"},
+  {"id":13483949077,"lat":45.514565,"lon":9.943775,"k":"p","n":"Castelcovati - via castelcovati"},
+  {"id":13483949078,"lat":45.525347,"lon":9.940387,"k":"p","n":"Chiari - cavalcavia"},
+  {"id":13505937089,"lat":45.542632,"lon":9.925808,"k":"p","n":"Chiari - via Cologne, istituti"},
+  {"id":13505937090,"lat":45.54337,"lon":9.908461,"k":"p","n":"Chiari - via Pontoglio"},
+  {"id":13506020409,"lat":45.542813,"lon":9.925744,"k":"p","n":"Chiari - via Cologne, istituti"},
+  {"id":13507691514,"lat":45.545567,"lon":9.924911,"k":"p","n":"Chiari - via Cologne/Comini"},
+  {"id":13508506885,"lat":45.543441,"lon":9.908484,"k":"p","n":"Chiari - via Pontoglio"},
+  {"id":13508704858,"lat":45.507069,"lon":9.943957,"k":"p","n":"Castelcovati - municipio"},
+  {"id":13508704859,"lat":45.525327,"lon":9.940222,"k":"p","n":"Chiari - cavalcavia"},
+  {"id":13508704860,"lat":45.527695,"lon":9.937775,"k":"p","n":"Chiari - cimitero"},
+  {"id":13508704861,"lat":45.532549,"lon":9.931645,"k":"p","n":"Chiari - via rota"},
+  {"id":13527009075,"lat":45.539528,"lon":9.935385,"k":"p","n":"Chiari - ospedale"},
+  {"id":13808703085,"lat":45.539404,"lon":9.935441,"k":"p","n":"Chiari - ospedale"}
+],
+"routes":[
+  {"id":1589936,"t":{"ref":"LS024","name":"Bus LS024: Brescia->Travagliato->Castrezato->Chiari","from":"Brescia Autostazione","to":"Chiari, via del Granaio, stazione","operator":"Trasporti Brescia west","route":"bus","public_transport:version":"2"},"n":44,"s":[[13483249688,41],[13483249687,42],[13483249686,43],[13483249685,44]]},
+  {"id":20136527,"t":{"ref":"LS024","name":"Bus LS024: Brescia->Travagliato->Castrezato->Chiari Variante Castelcovati","from":"Brescia Autostazione","to":"Chiari, via del Granaio, stazione","operator":"Trasporti Brescia west","route":"bus","public_transport:version":"2"},"n":8,"s":[[13483949074,3],[13483949075,4],[13483949077,5],[13483949078,6],[13483249688,7],[13483249687,8]]},
+  {"id":20136528,"t":{"ref":"LS024","name":"Bus LS024: Chiari->Castrezato->Travagliato->Brescia Variante Castelcovati","from":"Chiari, via del Granaio, stazione","to":"Brescia Autostazione","operator":"Trasporti Brescia","route":"bus","public_transport:version":"2"},"n":9,"s":[[13483249687,1],[13483249688,2],[13483949078,3],[13483949077,4],[13483949076,5],[13483949075,6],[13483949074,7]]},
+  {"id":20136529,"t":{"ref":"LS024","name":"Bus LS024: Chiari->Castrezato->Travagliato->Brescia","from":"Chiari, via del Granaio, stazione","to":"Brescia Autostazione","operator":"Trasporti Brescia","route":"bus","public_transport:version":"2"},"n":54,"s":[[13483249685,1],[13483249686,2],[13483249687,3],[13483249688,4]]},
+  {"id":20145655,"t":{"ref":"LS005","name":"Bus LS005: Palazzolo => Orzinuovi","from":"Palazzolo - via Torre del Popolo","to":"Orzinuovi - Andreana","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[13505937090,9],[13505937089,10],[13483249685,11]]},
+  {"id":20145656,"t":{"ref":"LS005","name":"Bus LS005: Orzinuovi => Palazzolo","from":"Orzinuovi - Andreana","to":"Palazzolo - via Torre del Popolo","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":21,"s":[[13483249685,11],[13506020409,12],[13508506885,13]]},
+  {"id":20147712,"t":{"ref":"LS003","name":"Bus LS003: Iseo => Chiari","from":"Iseo vis Gorzoni","to":"Chiari, via del Granaio, stazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":38,"s":[[13507691514,36],[13505937089,37],[13483249685,38]]},
+  {"id":20147713,"t":{"ref":"LS003","name":"Bus LS003: Chiari => Iseo","from":"Chiari, via del Granaio, stazione","to":"Iseo vis Gorzoni","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[13483249685,1],[13506020409,2],[5431926222,3]]},
+  {"id":20148630,"t":{"ref":"LS006","name":"Bus LS006: Trenzano->Cizzago->Castelcovati-->Chiari","from":"Trenzano - scuole","to":"Chiari - via del Granaio, stazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":24,"s":[[13483949074,16],[13483949075,17],[13483949076,18],[13483949077,19],[13483949078,20],[13483249688,21],[13483249687,22],[13483249686,23],[13483249685,24]]},
+  {"id":20148631,"t":{"ref":"LS006","name":"Bus LS006: Chiari->Castelcovati->Cizzago->Trenzano","from":"Chiari via Cologne instituti","to":"Trenzano piazza IV Novembre, scuole","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[13505937089,1],[13483249685,2],[13483249686,3],[13508704861,4],[13508704860,5],[13508704859,6],[13483949077,7],[13508704858,8],[13483949075,9]]},
+  {"id":20177065,"t":{"ref":"LS026","name":"Bus LS026: Chiari->Brescia","from":"Chiari via del Granaio, stazione","to":"Brescia Autostazione via Solferino","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":26,"s":[[13483249685,1],[13506020409,2],[13505937089,3],[13808703085,4]]},
+  {"id":20177066,"t":{"ref":"LS026","name":"Bus LS026: Brescia->Chiari","from":"Brescia Autostazione via Solferino","to":"Chiari via del Granaio, stazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":27,"s":[[13527009075,26],[13483249685,27]]}
+]
+}

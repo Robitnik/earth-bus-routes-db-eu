@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2725,3811],
+"stops":[
+  {"id":4751825051,"lat":46.259906,"lon":10.585983,"k":"p","n":"Hotel Angelo"},
+  {"id":9954916687,"lat":46.258877,"lon":10.58386,"k":"p","n":"Passo Tonale"},
+  {"id":9954957314,"lat":46.258694,"lon":10.583288,"k":"p","n":"Passo Tonale"},
+  {"id":12982847308,"lat":46.260042,"lon":10.586499,"k":"p","n":"Passo Tonale Sud"},
+  {"id":12982847309,"lat":46.261308,"lon":10.594356,"k":"p","n":"Passo Tonale Locatori"},
+  {"id":13989975826,"lat":46.257468,"lon":10.576953,"k":"p","n":"Ponte di Legno, SS42 Case Sparse 96"}
+],
+"routes":[
+  {"id":19326875,"t":{"ref":"B646","name":"Bus B646: Passo Tonale->Vermiglio->Fucine->Mezzana->Malè","from":"Passo Tonale","to":"Mezzana Staz. Ftm","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":18,"s":[[9954957314,1],[12982847308,2],[12982847309,3]]},
+  {"id":19326876,"t":{"ref":"B646","name":"Bus B646: Malè->Mezzana->Fucine->Vermiglio->Passo Tonale","from":"Mezzana Staz. Ftm","to":"Passo Tonale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[12982847309,15],[12982847308,16],[9954957314,17]]},
+  {"id":21066604,"t":{"ref":"LV924","name":"Bus LV924: Ponte di Legone -> Passo Tonale","from":"Ponte di Legone","to":"Passo Tonale","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":4,"s":[[13989975826,3],[9954916687,4]]},
+  {"id":21066669,"t":{"ref":"LV924","name":"Bus LV924: Passo Tonale -> Ponte di Legone","from":"Passo Tonale","to":"Ponte di Legone","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":4,"s":[[9954957314,1],[13989975826,2]]}
+]
+}

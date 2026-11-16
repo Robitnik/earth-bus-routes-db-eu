@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3836],
+"stops":[
+  {"id":1352349666,"lat":46.483825,"lon":11.822911,"k":"x","n":"Albergo Lezuo"},
+  {"id":4691822518,"lat":46.456732,"lon":11.801524,"k":"x","n":"Penia Panarel Ski-2"},
+  {"id":6009454307,"lat":46.487028,"lon":11.800357,"k":"p","n":"Hotel Pordoi"},
+  {"id":6009454308,"lat":46.487062,"lon":11.800548,"k":"p","n":"Hotel Pordoi"},
+  {"id":6009465234,"lat":46.487876,"lon":11.811738,"k":"p","n":"Jouf de Pordoi - Passo Pordoi - Pordoijoch"},
+  {"id":6009465235,"lat":46.487551,"lon":11.811974,"k":"p","n":"Jouf de Pordoi - Passo Pordoi - Pordoijoch"},
+  {"id":7066421172,"lat":46.487741,"lon":11.811843,"k":"x","n":"Jouf de Pordoi - Passo Pordoi - Pordoijoch"},
+  {"id":7066421173,"lat":46.487022,"lon":11.800418,"k":"x","n":"Hotel Pordoi"},
+  {"id":9837966650,"lat":46.462102,"lon":11.832802,"k":"p","n":"Pian Trevisan Bivio"},
+  {"id":12474331788,"lat":46.48371,"lon":11.82302,"k":"p","n":"Albergo Lezuo"},
+  {"id":12474331789,"lat":46.483877,"lon":11.822922,"k":"p","n":"Albergo Lezuo"},
+  {"id":13008871228,"lat":46.461242,"lon":11.828086,"k":"p","n":"Pian Trevisan Bar El Cosinat"},
+  {"id":13008871229,"lat":46.456626,"lon":11.801623,"k":"p","n":"Penia Htl. Panarel"}
+],
+"routes":[
+  {"id":6986154,"t":{"ref":"Ski-2","name":"SKIBUS-2 Penia--Campitello","colour":"#000080","route":"bus"},"n":15,"s":[[4691822518,1]]},
+  {"id":6986526,"t":{"ref":"Ski-2","name":"SKIBUS-2 Campitello--Penia","colour":"#000080","route":"bus"},"n":22,"s":[[4691822518,1]]},
+  {"id":6986933,"t":{"ref":"Ski-5","name":"SKIBUS-5 Penia - Pozza Vac","colour":"#000080","route":"bus"},"n":21,"s":[[4691822518,1]]},
+  {"id":6990158,"t":{"ref":"Ski-1A","name":"SKIBUS-1A Penia--Vigo funivia Catinaccio-Pozza h. Valacia","operator":"SkiBus_Val di Fassa","route":"bus","public_transport:version":"2"},"n":21,"s":[[4691822518,1]]},
+  {"id":6991200,"t":{"ref":"Ski-1R Val di Fassa","name":"SKIBUS-1R Predazzo - Penia","operator":"SkiBus_Val di Fassa","route":"bus","public_transport:version":"2"},"n":52,"s":[[4691822518,51]]},
+  {"id":6995961,"t":{"ref":"Ski-3","name":"SKIBUS-3 Penia Alta - Canazei - Chalet Pineta","operator":"SkiBus_Val di Fassa","route":"bus","public_transport:version":"2"},"n":13,"s":[[4691822518,2]]},
+  {"id":6996022,"t":{"ref":"Ski-3","name":"SKIBUS-3 Chalet Pineta - Canazei - Penia Alta","operator":"SkiBus_Val di Fassa","route":"bus","public_transport:version":"2"},"n":14,"s":[[4691822518,13]]},
+  {"id":7029171,"t":{"ref":"Ski-1A","name":"SKIBUS-1A Penia--Pozza h. Valacia","operator":"SkiBus_Val di Fassa","route":"bus","public_transport:version":"2"},"n":29,"s":[[4691822518,2]]},
+  {"id":10430785,"t":{"ref":"471","name":"Bus 471: Gherdëina => Jëuf de Sela => Jouf de Pordoi","from":"Gherdëina","to":"Jouf de Pordoi","network":"südtirolmobil - altoadigemobilità - südtirolmubiltà","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":34,"s":[[6009454308,33],[6009465235,34]]},
+  {"id":10430872,"t":{"ref":"471","name":"Bus 471: Jouf de Pordoi => Jëuf de Sela => Gherdëina","from":"Jouf de Pordoi","to":"Gherdëina","network":"südtirolmobil - altoadigemobilità - südtirolmubiltà","operator":"Simobil","route":"bus","public_transport:version":"2"},"n":33,"s":[[6009465234,1],[6009454307,2]]},
+  {"id":18503393,"t":{"ref":"472","name":"Bus 472: Corvara => Passo Campolongo => Arabba => Jouf de Pordoi","from":"Corvara","to":"Jouf de Pordoi","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":16,"s":[[12474331789,15],[6009465234,16]]},
+  {"id":18503399,"t":{"ref":"472","name":"Bus 472: Jouf de Pordoi => Arabba => Passo Campolongo => Corvara","from":"Jouf de Pordoi","to":"Corvara","operator":"Kronplatz Mobility AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[6009465235,1],[12474331788,2]]},
+  {"id":19365295,"t":{"ref":"B131","name":"Bus B131: Passo Fedaia->Penia","from":"Passo Fedaia","to":"Penia Str. Pian Trevisan","network":"Servizio Extraurbano","operator":"Trentino Trasporti (Bus Privato)","route":"bus","public_transport:version":"2"},"n":7,"s":[[9837966650,4],[13008871228,5],[13008871229,6]]},
+  {"id":19365296,"t":{"ref":"B131","name":"Bus B131: Penia->Passo Fedaia","from":"Penia Str. Pian Trevisan","to":"Passo Fedaia","network":"Servizio Extraurbano","operator":"Trentino Trasporti (Bus Privato)","route":"bus","public_transport:version":"2"},"n":7,"s":[[13008871229,2],[13008871228,3],[9837966650,4]]},
+  {"id":19365356,"t":{"ref":"B130","name":"Bus B130: Passo Pordoi->Canazei","from":"Passo Prodoi","to":"Canazai","network":"Servizio Extraurbano","operator":"Trentino Trasporti (Bus Privato)","route":"bus","public_transport:version":"2"},"n":6,"s":[[6009465235,1],[6009454307,2]]},
+  {"id":19365357,"t":{"ref":"B130","name":"Bus B130: Canazei->Passo Pordoi","from":"Parcheggio","to":"Passo Pordoi","network":"Servizio Extraurbano","operator":"Trentino Trasporti (Bus Privato)","route":"bus","public_transport:version":"2"},"n":6,"s":[[6009454308,5],[6009465235,6]]}
+]
+}

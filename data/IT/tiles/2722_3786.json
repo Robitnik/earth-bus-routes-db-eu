@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2722,3786],
+"stops":[
+  {"id":984708494,"lat":46.148307,"lon":9.305853,"k":"p","n":"Piazza San Rocco"},
+  {"id":1935813127,"lat":46.114117,"lon":9.317349,"k":"p","n":"Olgiasca - rist. crottino"},
+  {"id":1936958975,"lat":46.11603,"lon":9.31598,"k":"p","n":"Olgiasca"},
+  {"id":13542942101,"lat":46.144854,"lon":9.300575,"k":"p","n":"statale Regina 44"},
+  {"id":13546593801,"lat":46.148063,"lon":9.302342,"k":"p","n":"Via Cerviano"},
+  {"id":13972506452,"lat":46.101083,"lon":9.317957,"k":"p","n":"Dorio - municipio"}
+],
+"routes":[
+  {"id":1126984,"t":{"ref":"631","name":"Bus 631: St. Moritz → Lugano","from":"St. Moritz, Bahnhof","to":"Lugano, Stazione Nord","network":"CH-GR;Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":13,"s":[[984708494,6]]},
+  {"id":12278732,"t":{"ref":"631","name":"Bus 631: Lugano → St. Moritz","from":"Lugano, Stazione Nord","to":"St. Moritz, Bahnhof","network":"CH-GR;Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":12,"s":[[984708494,8]]},
+  {"id":21040676,"t":{"ref":"D125","name":"Bus D125: Bellano->Olgiasca","from":"Bellano stazione FS","to":"Olgiasca - rist. crottino","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[13972506452,8],[1935813127,9]]},
+  {"id":21040677,"t":{"ref":"D125","name":"Bus D125: Olgiasca->Bellano","from":"Olgiasca - rist. crottino","to":"Bellano stazione FS","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[1935813127,1],[13972506452,2]]},
+  {"id":21040678,"t":{"ref":"D122","name":"Bus D122: Linea urbana Colico Olgiasca->Cent.Com.","from":"Olgiasca","to":"Centro Commerciale","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[1936958975,1]]},
+  {"id":21040679,"t":{"ref":"D122","name":"Bus D122: Linea urbana Colico Cent.Com.->Olgiasca","from":"Centro Commerciale","to":"Olgiasca","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[1936958975,15]]}
+]
+}

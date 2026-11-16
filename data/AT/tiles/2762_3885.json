@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2762,3885],
+"stops":[
+  {"id":6654737738,"lat":48.145921,"lon":14.27945,"k":"p","n":"St. Marien Ortsmitte"},
+  {"id":8375004317,"lat":48.149003,"lon":14.276086,"k":"p","n":"St. Marien Tischlerstraße"},
+  {"id":10303260425,"lat":48.144833,"lon":14.279283,"k":"p","n":"St. Marien Volksschule"},
+  {"id":10303260426,"lat":48.149264,"lon":14.275388,"k":"p","n":"St. Marien Tischlerstraße"}
+],
+"routes":[
+  {"id":4458389,"t":{"ref":"415","name":"Bus 415: St. Marien - Niederneukirchen","from":"St. Marien Ortsmitte","to":"Niederneukirchen Ort","route":"bus","public_transport:version":"2"},"n":8,"s":[[6654737738,1]]},
+  {"id":12230903,"t":{"ref":"415","name":"Bus 415: Niederneukirchen - St. Marien","from":"Niederneukirchen Ortsmitte","to":"St. Marien Ortsmitte","route":"bus","public_transport:version":"2"},"n":8,"s":[[6654737738,8]]},
+  {"id":12248304,"t":{"ref":"413","name":"Bus 413: St. Marien => St. Florian","from":"St. Marien Ortsmitte","to":"St. Florian Am Bäckerberg","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":14,"s":[[6654737738,1]]},
+  {"id":12248305,"t":{"ref":"413","name":"Bus 413: St. Florian => St. Marien","from":"St. Florian Karl-Geisz-Straße","to":"St. Marien Ortsmitte","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":13,"s":[[6654737738,13]]},
+  {"id":12248306,"t":{"ref":"414","name":"Bus 414: Neuhofen - St. Marien","from":"Neuhofen Kirchengasse","to":"St. Marien Ortsmitte","route":"bus","public_transport:version":"2"},"n":7,"s":[[10303260426,6],[6654737738,7]]},
+  {"id":12248307,"t":{"ref":"414","name":"Bus 414: St. Marien - Neuhofen","from":"Niederneukirchen Ortsmitte","to":"Neuhofen Kirchengasse","route":"bus","public_transport:version":"2"},"n":7,"s":[[6654737738,1],[8375004317,2]]},
+  {"id":15082787,"t":{"ref":"614","name":"Bus 614: Nettingsdorf - Nöstlbach - St. Marien","from":"Nettingsdorf Bahnhof","to":"St. Marien Volksschule","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":15,"s":[[10303260426,14],[10303260425,15]]},
+  {"id":15082788,"t":{"ref":"614","name":"Bus 614: St. Marien - Nöstlbach - Nettingsdorf","from":"St. Marien Volksschule","to":"Nettingsdorf Bahnhof","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":15,"s":[[10303260425,1],[8375004317,2]]}
+]
+}

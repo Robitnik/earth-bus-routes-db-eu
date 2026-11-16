@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2724,3841],
+"stops":[
+  {"id":5143255740,"lat":46.248527,"lon":12.085762,"k":"p","n":"Torner"},
+  {"id":5143255742,"lat":46.246869,"lon":12.099261,"k":"p","n":"La Muda"},
+  {"id":8411705756,"lat":46.24697,"lon":12.099264,"k":"p","n":"La Muda"},
+  {"id":8411705758,"lat":46.249172,"lon":12.088091,"k":"p","n":"Torner"}
+],
+"routes":[
+  {"id":7597905,"t":{"ref":"71","name":"Belluno -> Agordo -> Passo San Pellegrino -> Moena","from":"Belluno FS","to":"Moena","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":47,"s":[[8411705756,13],[8411705758,14]]},
+  {"id":7682641,"t":{"ref":"1/3/30/31","name":"Belluno -> Agordo -> Cortina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":69,"s":[[8411705756,14],[8411705758,15]]},
+  {"id":12298361,"t":{"ref":"1","name":"Belluno -> Agordo","from":"Belluno FS","to":"Agordo Autostazione","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":19,"s":[[8411705756,14],[8411705758,15]]},
+  {"id":12298362,"t":{"ref":"1","name":"Agordo -> Belluno","from":"Agordo Autostazione","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[5143255740,5],[5143255742,6]]},
+  {"id":12896373,"t":{"ref":"1/3/30/31","name":"Tre Cime -> Cortina -> Agordo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":71,"s":[[5143255740,57],[5143255742,58]]},
+  {"id":13218325,"t":{"ref":"71","name":"Moena -> Passo San Pellegrino -> Agordo -> Belluno","from":"Moena","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":48,"s":[[5143255740,33],[5143255742,34]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[8411705756,30],[8411705758,31]]}
+]
+}

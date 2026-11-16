@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2732,3849],
+"stops":[
+  {"id":1351522266,"lat":46.630203,"lon":12.453114,"k":"x","n":"Valgrande"},
+  {"id":3144480767,"lat":46.630185,"lon":12.453087,"k":"p","n":"Valgrande"},
+  {"id":7236795133,"lat":46.604684,"lon":12.477393,"k":"p"},
+  {"id":8809008012,"lat":46.605509,"lon":12.479929,"k":"p","n":"Padola Sport Hotel"},
+  {"id":8809008013,"lat":46.605597,"lon":12.479733,"k":"p","n":"Padola Sport Hotel"},
+  {"id":8809008014,"lat":46.601804,"lon":12.478676,"k":"p","n":"Padola Piazza"},
+  {"id":8809008015,"lat":46.601714,"lon":12.479356,"k":"p","n":"Padola - piazza"},
+  {"id":14312291481,"lat":46.607185,"lon":12.48031,"k":"p","n":"Padola Bivio Valgrande"},
+  {"id":14312463787,"lat":46.618734,"lon":12.472338,"k":"p","n":"Moiè di Padola"},
+  {"id":14322706425,"lat":46.606736,"lon":12.480907,"k":"p","n":"Padola Bivio Valgrande"},
+  {"id":14322709982,"lat":46.602032,"lon":12.479408,"k":"p","n":"Padola Piazza"},
+  {"id":14322729084,"lat":46.619545,"lon":12.471803,"k":"p","n":"Moiè di Padola"}
+],
+"routes":[
+  {"id":1945563,"t":{"ref":"32","name":"Tai di Cadore -> Padola -> Danta","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":39,"s":[[8809008014,31],[8809008013,32]]},
+  {"id":12799073,"t":{"ref":"32","name":"Danta -> Padola -> Tai di Cadore","from":"Padola","to":"Tai di Cadore","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[8809008015,26],[8809008012,27]]},
+  {"id":20032386,"t":{"ref":"SALTO 610","name":"Skibus SALTO 610","colour":"#ef9100","route":"bus"},"n":4,"s":[[3144480767,2],[7236795133,3]]},
+  {"id":21772986,"t":{"ref":"73","name":"Linea 73","from":"Santo Stefano di Cadore","to":"San Candido","route":"bus","public_transport:version":"2"},"n":31,"s":[[8809008013,13],[8809008014,14],[8809008012,15],[14322706425,16],[14312463787,17]]},
+  {"id":21773520,"t":{"ref":"73","name":"Linea 73","from":"San Candido","to":"Santo Stefano di Cadore","route":"bus","public_transport:version":"2"},"n":34,"s":[[14322729084,15],[14312463787,16],[14312291481,17],[8809008013,18],[8809008014,19],[14322709982,20],[8809008012,21]]}
+]
+}

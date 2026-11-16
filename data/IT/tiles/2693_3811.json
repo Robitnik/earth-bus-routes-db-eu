@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2693,3811],
+"stops":[
+  {"id":364039858,"lat":44.659156,"lon":10.58749,"k":"p","n":"Rivalta - Incrocio Via Garlassi"},
+  {"id":606172319,"lat":44.657726,"lon":10.588931,"k":"x","n":"Rivalta"},
+  {"id":1942326041,"lat":44.657501,"lon":10.584155,"k":"x","n":"Rivalta - Via Oddone"},
+  {"id":2166753226,"lat":44.69471,"lon":10.595336,"k":"p"},
+  {"id":2435406322,"lat":44.691568,"lon":10.562338,"k":"p","n":"Codemondo"},
+  {"id":2480655270,"lat":44.690551,"lon":10.550267,"k":"p","n":"Codemondo - Inc. Via Antica"},
+  {"id":2480655271,"lat":44.690642,"lon":10.550257,"k":"x","n":"Codemondo - Inc. Via Antica"},
+  {"id":3006509930,"lat":44.653845,"lon":10.585148,"k":"p","n":"Rivalta PEEP"},
+  {"id":5928115918,"lat":44.653864,"lon":10.585095,"k":"x","n":"Rivalta PEEP"},
+  {"id":6539067106,"lat":44.672071,"lon":10.599673,"k":"p","n":"Via Tenni"},
+  {"id":7903057076,"lat":44.665915,"lon":10.595978,"k":"p","n":"Rivalta - il Casale"},
+  {"id":7903057077,"lat":44.664183,"lon":10.592527,"k":"p","n":"Rivalta - il Palazzone"},
+  {"id":7903057078,"lat":44.66191,"lon":10.589889,"k":"p","n":"Rivalta - la Locanda"},
+  {"id":7903057508,"lat":44.695272,"lon":10.593482,"k":"p","n":"Reggio E. - Roncina"},
+  {"id":7903057509,"lat":44.694997,"lon":10.5965,"k":"p","n":"Incrocio Via Gorizia"},
+  {"id":7903057511,"lat":44.694072,"lon":10.58179,"k":"p","n":"Reggio E. - Inc. Via Perotti"},
+  {"id":7903057512,"lat":44.693005,"lon":10.569291,"k":"p","n":"Reggio E. - Incrocio Via dell'Inferno"}
+],
+"routes":[
+  {"id":3241042,"t":{"ref":"1","name":"Bus 1: Albinea => Cavriago","network":"SETA","operator":"SETA","route":"bus"},"n":4,"s":[[2480655270,1]]},
+  {"id":4525063,"t":{"ref":"5","name":"Bus 5: Rivalta PEEP => Mancasale Fiera","from":"Rivalta PEEP","to":"Mancasale Fiera","network":"SETA","operator":"SETA","route":"bus","public_transport:version":"2"},"n":9,"s":[[3006509930,1]]},
+  {"id":5820926,"t":{"ref":"10","name":"Bus 10: Deposito SETA => Via Tenni","from":"Deposito SETA","to":"Via Tenni","network":"local","operator":"SETA","route":"bus","public_transport:version":"2"},"n":10,"s":[[6539067106,10]]},
+  {"id":8749194,"t":{"ref":"10","name":"Bus 10: Via Tenni => Deposito SETA","from":"ViaTenni","to":"Deposito SETA","network":"local","operator":"SETA","route":"bus","public_transport:version":"2"},"n":11,"s":[[6539067106,1]]}
+]
+}

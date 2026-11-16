@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3807],
+"stops":[
+  {"id":923157490,"lat":45.668887,"lon":10.397804,"k":"p","n":"Preseglie","ref":"3004"},
+  {"id":13536411848,"lat":45.650097,"lon":10.38598,"k":"p","n":"Odolo leali acciaieri"},
+  {"id":13536411849,"lat":45.654334,"lon":10.384448,"k":"p","n":"Preseglie -rondò x sabbio"},
+  {"id":13536411850,"lat":45.655257,"lon":10.385087,"k":"p","n":"Preseglie-bv.gazzane"},
+  {"id":13536411851,"lat":45.665809,"lon":10.393109,"k":"p","n":"Preseglie centro"},
+  {"id":13536411852,"lat":45.669016,"lon":10.39783,"k":"p","n":"Preseglie isola bella-cr.v.fante"}
+],
+"routes":[
+  {"id":1644078,"t":{"ref":"7","name":"7 Barghe - Stazione","from":"Barghe","to":"Stazione","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#65A2A3","route":"bus"},"n":32,"s":[[923157490,2]]},
+  {"id":1645022,"t":{"ref":"7","name":"7 Preseglie - Roncadelle","from":"Preseglie","to":"Roncadelle","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#65A2A3","route":"bus"},"n":54,"s":[[923157490,1]]},
+  {"id":1646494,"t":{"ref":"7","name":"7 Roncadelle - Preseglie","from":"Roncadelle","to":"Preseglie","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#65A2A3","route":"bus"},"n":61,"s":[[923157490,61]]},
+  {"id":1647175,"t":{"ref":"7","name":"7 Stazione - Barghe","from":"Stazione","to":"Barghe","network":"Brescia Mobilità","operator":"Brescia Mobilità SpA","colour":"#65A2A3","route":"bus"},"n":40,"s":[[923157490,39]]},
+  {"id":20192853,"t":{"ref":"LN019","name":"Bus LN019: Vestone->Bione","from":"Vestone Autostazione","to":"Bione muncipio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[13536411852,7],[13536411851,8],[13536411850,9],[13536411849,10],[13536411848,11]]},
+  {"id":20193432,"t":{"ref":"LN019","name":"Bus LN019: Bione->Vestone","from":"Bione muncipio","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[13536411848,13],[13536411849,14],[13536411850,15],[13536411851,16],[13536411852,17]]},
+  {"id":20199795,"t":{"ref":"LN013","name":"Bus LN013: Brescia->Odolo->Vestone->Bagolino","from":"Brescia Stazione metro Prealpino","to":"Bogolino via Mignano, stabilimenti","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":52,"s":[[13536411848,25],[13536411849,26],[13536411850,27],[13536411851,28],[13536411852,29]]},
+  {"id":20199796,"t":{"ref":"LN013","name":"Bus LN013: Bagolino->Vestone->Odolo->Brescia","from":"Bagolino via Mignano, stabilimenti","to":"Brescia Stazione metro Prealpino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":51,"s":[[13536411852,23],[13536411851,24],[13536411850,25],[13536411849,26],[13536411848,27]]},
+  {"id":20265099,"t":{"ref":"RL201V","name":"Bus RL201V Lumezzane => Vestone","from":"Lumezzane Saleri","to":"Vestone Autostazioe","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":33,"s":[[13536411848,22],[13536411849,23]]},
+  {"id":20265100,"t":{"ref":"RL201V","name":"Bus RL201V: Vestone =>Lumezzane (Gardone Val Trompia)","from":"Vestone Autostazione","to":"Lumezzane Saleri","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":34,"s":[[13536411849,11],[13536411848,12]]}
+]
+}

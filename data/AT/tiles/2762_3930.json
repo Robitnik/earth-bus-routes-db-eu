@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2762,3930],
+"stops":[
+  {"id":1634481326,"lat":48.136341,"lon":16.506862,"k":"x","n":"Mannswörth Bahnhof"},
+  {"id":2216630017,"lat":48.127971,"lon":16.543809,"k":"p","n":"Flughafen Wien AUA Haupteingang"},
+  {"id":2216630018,"lat":48.125286,"lon":16.548743,"k":"p","n":"Flughafen Wien AUA Schleuse / CP-West"},
+  {"id":2216842128,"lat":48.146533,"lon":16.516609,"k":"p","n":"Mannswörth Schule"},
+  {"id":2216842129,"lat":48.146526,"lon":16.516943,"k":"x","n":"Mannswörth Schule"},
+  {"id":3329357418,"lat":48.136508,"lon":16.506238,"k":"x","n":"Mannswörth Bahnhof"},
+  {"id":3683464733,"lat":48.148076,"lon":16.512473,"k":"p","n":"Mannswörth Danubiastraße"},
+  {"id":3683464734,"lat":48.148123,"lon":16.512489,"k":"x","n":"Mannswörth Danubiastraße"},
+  {"id":3683464735,"lat":48.148205,"lon":16.512546,"k":"p","n":"Mannswörth Danubiastraße"},
+  {"id":3683464737,"lat":48.143568,"lon":16.523866,"k":"p","n":"Mannswörth Zainethbrückengasse"},
+  {"id":3683464741,"lat":48.146615,"lon":16.516985,"k":"p","n":"Mannswörth Schule"},
+  {"id":4255807231,"lat":48.127921,"lon":16.543972,"k":"x","n":"Flughafen Wien AUA Haupteingang"},
+  {"id":4255807232,"lat":48.125239,"lon":16.548714,"k":"x","n":"Flughafen Wien AUA Schleuse / CP-West"},
+  {"id":9806175751,"lat":48.146584,"lon":16.516633,"k":"x","n":"Mannswörth Schule"},
+  {"id":12053897959,"lat":48.129578,"lon":16.541102,"k":"x","n":"Flughafen Wien Mazur Parkplatz"},
+  {"id":12087350798,"lat":48.143594,"lon":16.523852,"k":"x","n":"Mannswörth Zainethbrückengasse"},
+  {"id":13319439571,"lat":48.126077,"lon":16.54802,"k":"p"},
+  {"id":13319439574,"lat":48.125999,"lon":16.5482,"k":"p"},
+  {"id":13319441997,"lat":48.128413,"lon":16.547378,"k":"p"},
+  {"id":5001451952912,"lat":48.129573,"lon":16.541037,"k":"p","n":"Flughafen Wien Mazur Parkplatz"}
+],
+"routes":[
+  {"id":5416551,"t":{"ref":"279","name":"Bus 279: Kaiserebersdorf => OMV => Mannswörth","from":"Bahnhof Kaiserebersdorf","to":"Mannswörth Zainethbrückengasse","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":9,"s":[[3683464733,7],[2216842128,8],[3683464737,9]]},
+  {"id":5416552,"t":{"ref":"279","name":"Bus 279: Kaiserebersdorf => Schwechat Bahnhof => Albern => Mannswörth","from":"Bahnhof Kaiserebersdorf","to":"Mannswörth Zainethbrückengasse","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":16,"s":[[3683464733,14],[2216842128,15],[3683464737,16]]},
+  {"id":5416553,"t":{"ref":"279","name":"Bus 279: Mannswörth => Albern => Schwechat Bahnhof => Kaiserebersdorf","from":"Mannswörth Zainethbrückengasse","to":"Bahnhof Kaiserebersdorf","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":17,"s":[[3683464737,1],[3683464741,2],[3683464735,3]]},
+  {"id":5416554,"t":{"ref":"279","name":"Bus 279: Mannswörth => Albern => Kaiserebersdorf","from":"Mannswörth Zainethbrückengasse","to":"Bahnhof Kaiserebersdorf","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":14,"s":[[3683464737,1],[3683464741,2],[3683464735,3]]},
+  {"id":5416555,"t":{"ref":"279","name":"Bus 279: Mannswörth => OMV => Kaiserebersdorf","from":"Mannswörth Zainethbrückengasse","to":"Bahnhof Kaiserebersdorf","network":"VOR","operator":"Dr. Richard","route":"bus","public_transport:version":"2"},"n":10,"s":[[3683464737,1],[3683464741,2],[3683464735,3]]},
+  {"id":6336527,"t":{"ref":"as","name":"Bus airport shuttle: Flughafen Wien Busterminal => Mazur Parkplatz","from":"Flughafen Wien Busterminal","to":"Flughafen Wien Mazur Parkplatz","operator":"Blaguss","colour":"#d01d3e","route":"bus","public_transport:version":"2"},"n":5,"s":[[2216630018,3],[2216630017,4],[5001451952912,5]]},
+  {"id":6336528,"t":{"ref":"as","name":"Bus airport shuttle: Mazur Parkplatz => Flughafen Wien Busterminal","from":"Flughafen Wien Mazur Parkplatz","to":"Flughafen Wien Busterminal","operator":"Blaguss","colour":"#d01d3e","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001451952912,1],[2216630017,2]]}
+]
+}

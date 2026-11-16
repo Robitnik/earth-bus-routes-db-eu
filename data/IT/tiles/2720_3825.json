@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2720,3825],
+"stops":[
+  {"id":570193910,"lat":46.006259,"lon":11.291591,"k":"p","n":"Levico T. (Rist. Brenta)"},
+  {"id":570193911,"lat":46.006273,"lon":11.29183,"k":"p","n":"Levico T. (Rist. Brenta)"},
+  {"id":961403467,"lat":46.015963,"lon":11.291478,"k":"p"},
+  {"id":961403478,"lat":46.016086,"lon":11.291451,"k":"p"},
+  {"id":965397920,"lat":46.004731,"lon":11.274947,"k":"p","n":"Brenta Bivio"},
+  {"id":965398157,"lat":46.004793,"lon":11.274453,"k":"p","n":"Brenta Bivio"},
+  {"id":4581451483,"lat":46.042085,"lon":11.251141,"k":"p","n":"Zava"},
+  {"id":4585114920,"lat":46.012845,"lon":11.266781,"k":"p","n":"Tenna"},
+  {"id":6219164549,"lat":46.029563,"lon":11.255935,"k":"p","n":"Alberè di Tenna"},
+  {"id":6219164550,"lat":46.028992,"lon":11.256907,"k":"p","n":"Alberè di Tenna"},
+  {"id":7589001014,"lat":46.014096,"lon":11.260389,"k":"p","n":"Ischia - Alle Terrazze"},
+  {"id":7589001030,"lat":46.012664,"lon":11.261713,"k":"p","n":"Ischia - Alle Terrazze"},
+  {"id":11031875492,"lat":46.010038,"lon":11.298832,"k":"s","n":"Levico Terme (Autostazione)"},
+  {"id":13016747158,"lat":46.044582,"lon":11.277192,"k":"p","n":"Vignola"},
+  {"id":13018536884,"lat":46.017141,"lon":11.266152,"k":"p","n":"Tenna SP16 al Km 4"},
+  {"id":13018536885,"lat":46.023301,"lon":11.261949,"k":"p","n":"Tenna Bivio Pontara Sarafini"},
+  {"id":13018536886,"lat":46.03178,"lon":11.251963,"k":"p","n":"Alberè Maso Roveri"},
+  {"id":13018536890,"lat":46.00998,"lon":11.298776,"k":"x","n":"Levico Terme (Autostazione) (tutti gli autobus)"},
+  {"id":13018805768,"lat":46.039395,"lon":11.299932,"k":"p","n":"Compet"},
+  {"id":13018805772,"lat":46.014165,"lon":11.296896,"k":"p","n":"Terme di Levico"},
+  {"id":13052380318,"lat":46.014371,"lon":11.294674,"k":"p","n":"Levico T. Alb.Miralago"},
+  {"id":13052380319,"lat":46.032326,"lon":11.267062,"k":"p","n":"Visintainer Bivio"}
+],
+"routes":[
+  {"id":19377222,"t":{"ref":"B425","name":"Bus B425: Falesina->Vignola->Assizzi->Masetti->Pergine Vals","from":"Falesina","to":"Pergine V.Intermodale","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[13016747158,2]]},
+  {"id":19377223,"t":{"ref":"B425","name":"Bus B425: Pergine Vals->Masetti->Assizzi->Vignola->Falesina","from":"Pergine V.Intermodale","to":"Falesina","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[13016747158,6]]},
+  {"id":19380760,"t":{"ref":"B423","name":"Bus B423: Levico Terme->Tenna->Ischia->Pergine V.","from":"Levico Terme Via Rovigo","to":"Pergine Vals Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[570193910,2],[4585114920,3],[13018536884,4],[13018536885,5],[6219164549,6],[13018536886,7]]},
+  {"id":19380761,"t":{"ref":"B423","name":"Bus B423: Pergine Vals->Ischia->Tenna->Lovico Terme","from":"Pergine Vals Intermodale","to":"Levico Terme Via Avancini","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":15,"s":[[13018536886,9],[6219164550,10],[13018536885,11],[13018536884,12],[4585114920,13],[570193911,14]]},
+  {"id":19381246,"t":{"ref":"B416","name":"Bus B416: Vertiolo Terme->Compet->Levico Terme","from":"Panarotta","to":"Levico Terme Auotstazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13018805768,2],[13018805772,8]]},
+  {"id":19381247,"t":{"ref":"B416","name":"Bus B416: Levico Terme->Compet->Vertiolo Terme","from":"Levico Terme Auotstazione","to":"Panarotta","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13018805772,1],[13018805768,7]]},
+  {"id":19412352,"t":{"ref":"B401","name":"Bus B401: Borgo V.->Levico->Pergine V.->Trento","from":"Borgo Valsugana","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":45,"s":[[570193911,20]]},
+  {"id":19412353,"t":{"ref":"B401","name":"Bus B401: Trento->Pergine V.->Levico T.->Borgo V.","from":"Trento Autostazione","to":"Borgo Val Sugana","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":39,"s":[[570193911,21]]},
+  {"id":19431937,"t":{"ref":"B401","name":"Bus B401: Variante: Pergine->Levico T. diretto","from":"Trento Autostazione","to":"Borgo Valsugana","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[7589001030,8],[965398157,9],[570193911,10]]},
+  {"id":19431938,"t":{"ref":"B401","name":"Bus B401: Variante: Levico T.->Perine via Masetti","from":"Borgo Valsugana","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[13052380318,1],[13052380319,2]]},
+  {"id":19431939,"t":{"ref":"B401","name":"Bus B401: Variante: Levico->Pergine V. diretto","from":"Borgo Valsugana","to":"Borgo Valsugana Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[570193910,1],[965397920,2],[7589001014,3]]},
+  {"id":19431940,"t":{"ref":"B401","name":"Bus B401: Variante: Pergine V.->Levico via Masetti","from":"Trento Autostazione","to":"Borgo Valsugana","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13052380319,7],[13052380318,8]]}
+]
+}

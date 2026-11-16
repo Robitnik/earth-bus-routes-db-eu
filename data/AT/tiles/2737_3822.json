@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2737,3822],
+"stops":[
+  {"id":80051780,"lat":46.882298,"lon":11.112255,"k":"x","n":"Moos i. P. Oberglanegg Kehre - Moso in P. Tornante Oberglanegg"},
+  {"id":80051781,"lat":46.882127,"lon":11.112212,"k":"x","n":"Moos i. P. Oberglanegg Kehre - Moso in P. Tornante Oberglanegg"},
+  {"id":445416948,"lat":46.88164,"lon":11.114586,"k":"x","n":"Moos i. P. Seeber Kehre - Moso in P. Tornante Seeber"},
+  {"id":3428429250,"lat":46.881583,"lon":11.114608,"k":"p","n":"Moos i. P. Seeber Kehre - Moso in P. Tornante Seeber"},
+  {"id":3428437186,"lat":46.881693,"lon":11.114429,"k":"p","n":"Moos i. P. Seeber Kehre - Moso in P. Tornante Seeber"},
+  {"id":5271645523,"lat":46.881734,"lon":11.114394,"k":"x","n":"Moos i. P. Seeber Kehre - Moso in P. Tornante Seeber"},
+  {"id":5271652868,"lat":46.882099,"lon":11.112231,"k":"p","n":"Moos i. P. Oberglanegg Kehre - Moso in P. Tornante Oberglanegg"},
+  {"id":5271652869,"lat":46.882241,"lon":11.1123,"k":"p","n":"Moos i. P. Oberglanegg Kehre - Moso in P. Tornante Oberglanegg"}
+],
+"routes":[
+  {"id":3981162,"t":{"ref":"335","name":"Bus 335: Obergurgl Zentrum => Moos Dorf","from":"Obergurgl, Zentrum","to":"Moos, Dorf","network":"Verkehrsverbund Tirol","operator":"Ötztaler Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[5271652868,9],[3428429250,10]]},
+  {"id":9280414,"t":{"ref":"335","name":"Bus 335: Moos Dorf => Obergurgl Zentrum","from":"Moos, Dorf","to":"Obergurgl, Zentrum","network":"Verkehrsverbund Tirol","operator":"Ötztaler Verkehrsgesellschaft mbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[3428437186,1],[5271652869,2]]},
+  {"id":18578995,"t":{"ref":"242","name":"Bus 242: Moos => Stuls => Timmelsjoch","from":"Moos","to":"Timmelsjoch","operator":"SASA","route":"bus","public_transport:version":"2"},"n":3,"s":[[3428437186,1],[5271652869,2]]},
+  {"id":18578999,"t":{"ref":"242","name":"Bus 242: Timmelsjoch => Stuls => Moos","from":"Timmelsjoch","to":"Moos","operator":"SASA","route":"bus","public_transport:version":"2","bus":"minibus"},"n":3,"s":[[5271652868,2],[3428429250,3]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3815],
+"stops":[
+  {"id":393013166,"lat":45.807822,"lon":10.78766,"k":"p","n":"Limone bivio per Tremosine"},
+  {"id":393013263,"lat":45.814009,"lon":10.791797,"k":"p","n":"Limone"},
+  {"id":393013524,"lat":45.803872,"lon":10.783803,"k":"p","n":"Limone via Tamas"},
+  {"id":393013535,"lat":45.802274,"lon":10.7866,"k":"p","n":"Limone Hotel Leonardo"},
+  {"id":3674901166,"lat":45.813983,"lon":10.791691,"k":"p","n":"Limone"},
+  {"id":3674901167,"lat":45.814006,"lon":10.791742,"k":"x","n":"Limone"},
+  {"id":4941771841,"lat":45.805334,"lon":10.787443,"k":"p","n":"Limone camping garda"},
+  {"id":6486181298,"lat":45.80762,"lon":10.787301,"k":"p","n":"Limone bivio per Tremosine"},
+  {"id":12890372333,"lat":45.807785,"lon":10.788205,"k":"p","n":"Limone centro, ufficio turistico"},
+  {"id":12890372334,"lat":45.807832,"lon":10.788047,"k":"p","n":"Limone centro, ufficio turistico"},
+  {"id":13752262136,"lat":45.803911,"lon":10.784035,"k":"p","n":"Limone via Tamas"}
+],
+"routes":[
+  {"id":9606130,"t":{"ref":"LN027","name":"Bus LN027: Salò->Riva del Garda","from":"Salò autostazione","to":"Riva del Garda autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[4941771841,27],[12890372333,28]]},
+  {"id":19216121,"t":{"ref":"LN012","name":"Bus LN012: Tremosine->Limone->Gargnano","from":"Tremosine","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":29,"s":[[393013524,18],[6486181298,19],[12890372334,20],[393013535,21]]},
+  {"id":19216122,"t":{"ref":"LN012","name":"Bus LN012: Gargnano->Limone->Tremosine","from":"Gargnano","to":"Tremosine","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":30,"s":[[393013535,8],[4941771841,9],[12890372334,10],[393013166,11],[393013524,12]]},
+  {"id":19221090,"t":{"ref":"LN027","name":"Bus LN027: Riva del Garda-> Salò","from":"Riva del Garda autostazione","to":"Salò autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":33,"s":[[12890372334,7],[393013535,8]]},
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[393013535,64],[4941771841,65],[12890372333,66]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[12890372334,7],[4941771841,8],[393013535,9]]}
+]
+}

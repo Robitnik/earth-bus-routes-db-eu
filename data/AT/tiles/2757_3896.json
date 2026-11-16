@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2757,3896],
+"stops":[
+  {"id":298177605,"lat":47.875366,"lon":14.826751,"k":"x","n":"Opponitz Oberes Dorf"},
+  {"id":5111174294,"lat":47.876819,"lon":14.823648,"k":"x","n":"Opponitz Ortsmitte"},
+  {"id":5111174708,"lat":47.882916,"lon":14.821703,"k":"x","n":"Opponitz Busbahnhof"},
+  {"id":7741359167,"lat":47.875341,"lon":14.82674,"k":"p","n":"Opponitz Oberes Dorf"},
+  {"id":7741359169,"lat":47.875333,"lon":14.827057,"k":"p","n":"Opponitz Oberes Dorf"},
+  {"id":7741359170,"lat":47.875303,"lon":14.82704,"k":"x","n":"Opponitz Oberes Dorf"},
+  {"id":7741359172,"lat":47.876855,"lon":14.823645,"k":"p","n":"Opponitz Ortsmitte"},
+  {"id":7741359173,"lat":47.876809,"lon":14.823328,"k":"p","n":"Opponitz Ortsmitte"},
+  {"id":7741359174,"lat":47.876845,"lon":14.82335,"k":"x","n":"Opponitz Ortsmitte"},
+  {"id":7741359176,"lat":47.882922,"lon":14.821755,"k":"p","n":"Opponitz Busbahnhof"},
+  {"id":7741359177,"lat":47.890959,"lon":14.828792,"k":"p","n":"Mirenau Bundesstraße"},
+  {"id":7741359178,"lat":47.890934,"lon":14.828827,"k":"x","n":"Mirenau Bundesstraße"},
+  {"id":7741359179,"lat":47.890869,"lon":14.828769,"k":"p","n":"Mirenau Bundesstraße"},
+  {"id":7741359180,"lat":47.890892,"lon":14.828757,"k":"x","n":"Mirenau Bundesstraße"},
+  {"id":7756185838,"lat":47.874464,"lon":14.802453,"k":"p","n":"Opponitz Abzweigung Gstadt"},
+  {"id":7756185839,"lat":47.874487,"lon":14.802437,"k":"x","n":"Opponitz Abzweigung Gstadt"}
+],
+"routes":[
+  {"id":11340152,"t":{"ref":"164","name":"Bus 164: Lunz am See Schulen => Waidhofen an der Ybbs Bahnhof","from":"Lunz am See Schulen","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[7741359169,12],[7741359172,13],[7741359176,14],[7741359179,15]]},
+  {"id":11340153,"t":{"ref":"164","name":"Bus 164: Waidhofen an der Ybbs Bahnhof => Lunz am See Schulen","from":"Waidhofen an der Ybbs Bahnhof","to":"Lunz am See Schulen","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[7741359177,11],[7741359176,12],[7741359173,13],[7741359167,14]]},
+  {"id":11353668,"t":{"ref":"641","name":"Bus 641: Opponitz Busbahnhof => St. Georgen am Reith Dorf","from":"Opponitz Busbahnhof","to":"St. Georgen am Reith Dorf","network":"VOR","operator":"N-BUS GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[7741359176,1],[7756185838,2]]},
+  {"id":11353670,"t":{"ref":"641","name":"Bus 641: St. Georgen am Reith Dorf => Opponitz Busbahnhof","from":"St. Georgen am Reith Dorf","to":"Opponitz Busbahnhof","network":"VOR","operator":"N-BUS GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[7756185838,12],[7741359176,13]]},
+  {"id":11482158,"t":{"ref":"640","name":"Bus 640: Opponitz Ortsmitte => Waidhofen an der Ybbs Bahnhof","from":"Opponitz Ortsmitte","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner;Daurer Reisen","route":"bus","public_transport:version":"2"},"n":13,"s":[[7741359172,1],[7741359176,2],[7741359179,3]]},
+  {"id":11482159,"t":{"ref":"640","name":"Bus 640: Hollenstein an der Ybbs Feuerwehr => Waidhofen an der Ybbs Bahnhof","from":"Hollenstein an der Ybbs Feuerwehr","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner;Daurer Reisen","route":"bus","public_transport:version":"2"},"n":23,"s":[[7756185838,7],[7741359173,8],[7741359167,9],[7741359169,10],[7741359172,11],[7741359176,12],[7741359179,13]]},
+  {"id":11482160,"t":{"ref":"640","name":"Bus 640: Lunz am See Schulen => Waidhofen an der Ybbs Bahnhof","from":"Lunz am See Schulen","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner;Daurer Reisen","route":"bus","public_transport:version":"2"},"n":35,"s":[[7756185838,19],[7741359173,20],[7741359167,21],[7741359169,22],[7741359172,23],[7741359176,24],[7741359179,25]]},
+  {"id":11482161,"t":{"ref":"640","name":"Bus 640: Waidhofen an der Ybbs Bahnhof => Hollenstein an der Ybbs Feuerwehr (nicht über Opponitz Ortsmitte)","from":"Waidhofen an der Ybbs Bahnhof","to":"Hollenstein an der Ybbs Feuerwehr","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner;Daurer Reisen","route":"bus","public_transport:version":"2"},"n":20,"s":[[7741359177,12],[7741359176,13],[7756185838,14]]},
+  {"id":11482162,"t":{"ref":"640","name":"Bus 640: Waidhofen an der Ybbs Bahnhof => Opponitz => Hollenstein an der Ybbs Feuerwehr","from":"Waidhofen an der Ybbs Bahnhof","to":"Hollenstein an der Ybbs Feuerwehr","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner;Daurer Reisen","route":"bus","public_transport:version":"2"},"n":24,"s":[[7741359177,12],[7741359176,13],[7741359173,14],[7741359167,15],[7741359169,16],[7741359172,17],[7756185838,18]]},
+  {"id":11482163,"t":{"ref":"640","name":"Bus 640: Waidhofen an der Ybbs Bahnhof => Lunz am See Schulen","from":"Waidhofen an der Ybbs Bahnhof","to":"Lunz am See Schulen","network":"VOR","operator":"Österreichische Postbus AG;Rettensteiner;Daurer Reisen","route":"bus","public_transport:version":"2"},"n":35,"s":[[7741359177,12],[7741359176,13],[7741359173,14],[7741359167,15],[7741359169,16],[7741359172,17],[7756185838,18]]},
+  {"id":11516458,"t":{"ref":"656","name":"Bus 656: Lunz am See Friedhof/B25 => Waidhofen an der Ybbs Bahnhof","from":"Lunz am See Friedhof/B25","to":"Waidhofen an der Ybbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[7741359176,5]]},
+  {"id":11516459,"t":{"ref":"656","name":"Bus 656: Waidhofen an der Ybbs Bahnhof => Lunz am See Friedhof/B25","from":"Waidhofen an der Ybbs Bahnhof","to":"Lunz am See Friedhof/B25","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[7741359176,3]]}
+]
+}

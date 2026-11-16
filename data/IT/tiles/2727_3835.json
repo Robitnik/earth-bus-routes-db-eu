@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2727,3835],
+"stops":[
+  {"id":2092891849,"lat":46.378345,"lon":11.794132,"k":"p","n":"Passo San Pellegrino"},
+  {"id":4690860453,"lat":46.378208,"lon":11.790241,"k":"p","n":"Passo San Pellegrino - Hotel Arnika"},
+  {"id":9084468675,"lat":46.378947,"lon":11.785088,"k":"p","n":"Passo San Pellegrino Costabella"},
+  {"id":9084468676,"lat":46.378336,"lon":11.793776,"k":"p","n":"Passo San Pellegrino (Chiesetta)"},
+  {"id":9084468677,"lat":46.378282,"lon":11.790112,"k":"p","n":"Passo San Pellegrino Hotel Arnika"},
+  {"id":9095299718,"lat":46.378771,"lon":11.785196,"k":"p","n":"Passo San Pellegrino Costabella"},
+  {"id":9095299719,"lat":46.378148,"lon":11.790416,"k":"p","n":"Passo San Pellegrino Hotel Arnika"},
+  {"id":9095299720,"lat":46.378244,"lon":11.794137,"k":"p","n":"Passo San Pellegrino (Chiesetta)"},
+  {"id":11503366170,"lat":46.378861,"lon":11.785003,"k":"x","n":"Costabella Impianti/Lifts"},
+  {"id":13008826923,"lat":46.374726,"lon":11.752185,"k":"p","n":"Fango Alp Negritella"}
+],
+"routes":[
+  {"id":6989038,"t":{"ref":"Ski-12A","name":"SKIBUS-12A S. Pellegrino - Lusia - Moena","route":"bus"},"n":12,"s":[[4690860453,1],[11503366170,2]]},
+  {"id":7004008,"t":{"ref":"Ski-12R","name":"SKIBUS-12R Moena - Lusia - S. Pellegrino","route":"bus"},"n":12,"s":[[4690860453,1],[11503366170,2]]},
+  {"id":7597905,"t":{"ref":"71","name":"Belluno -> Agordo -> Passo San Pellegrino -> Moena","from":"Belluno FS","to":"Moena","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":47,"s":[[9084468676,44],[9084468677,45],[9084468675,46]]},
+  {"id":13218325,"t":{"ref":"71","name":"Moena -> Passo San Pellegrino -> Agordo -> Belluno","from":"Moena","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":48,"s":[[9095299718,2],[9095299719,3],[9095299720,4]]},
+  {"id":17005187,"t":{"name":"SKIBUS 9: Lusia - San Pellegrino","route":"bus","public_transport:version":"2"},"n":3,"s":[[9095299718,2],[4690860453,3]]},
+  {"id":19365252,"t":{"ref":"B123","name":"Bus B123: Passo S.Pellegrino->Moeno","from":"Passo San Pellegrino","to":"Moeno Albergo Trentino","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[9084468676,2],[4690860453,3],[9084468675,4],[13008826923,5]]},
+  {"id":19365253,"t":{"ref":"B123","name":"Bus B123: Moeno->Passo S.Pellegrino","from":"Moeno Albergo Trentino","to":"Passo San Pellegrino","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[13008826923,6],[9095299718,7],[4690860453,8],[9084468676,9]]}
+]
+}

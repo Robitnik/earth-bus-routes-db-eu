@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3779],
+"stops":[
+  {"id":2513874202,"lat":45.755454,"lon":8.977477,"k":"p","n":"Via Caduti Oltronesi - Via Roma (Oltrona di San Mamette)"},
+  {"id":2513874220,"lat":45.755671,"lon":8.980814,"k":"p","n":"Via Roma - Via del Cantone (Oltrona di San Mamette)"},
+  {"id":2513874223,"lat":45.755789,"lon":8.981316,"k":"p","n":"Via Roma - Via del Cantone (Oltrona di San Mamette)"},
+  {"id":2513874249,"lat":45.755503,"lon":8.977636,"k":"p","n":"Via Caduti Oltronesi - Via Roma (Oltrona di San Mamette)"},
+  {"id":4321938080,"lat":45.779661,"lon":8.965393,"k":"p","n":"Via Segantini - Via Milano (Liceo) (Olgiate Comasco)"},
+  {"id":4360580214,"lat":45.783275,"lon":8.968278,"k":"p","n":"Via Milano - Via Roma (Olgiate Comasco)"},
+  {"id":9231404708,"lat":45.770416,"lon":8.957841,"k":"p","n":"Beregazzo via Volta 6"},
+  {"id":9231596453,"lat":45.770474,"lon":8.957527,"k":"p"}
+],
+"routes":[
+  {"id":2758148,"t":{"ref":"C70","name":"Bus C70: Appiano Gentili, Via Puccini => Como, San Giovanni FS","from":"Appiano Gentili, Via Puccini","to":"Como, San Giovanni FS","network":"Rete extraurbana di Como","operator":"ASF Autolinee","route":"bus","public_transport:version":"1"},"n":27,"s":[[2513874249,2],[2513874220,3]]},
+  {"id":6439106,"t":{"ref":"C64","name":"C64 Lomazzo FNM","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":5,"s":[[2513874202,4],[4321938080,5]]},
+  {"id":6439107,"t":{"ref":"C64","name":"Bus C64: Olgiate Comasco => Lomazzo","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus","public_transport:version":"2"},"n":5,"s":[[2513874249,4],[4321938080,5]]},
+  {"id":6443160,"t":{"ref":"C70","name":"C70 Appiano Gentile","network":"Rete extraurbana di Como","operator":"ASF Autolinee","route":"bus","public_transport:version":"1"},"n":29,"s":[[2513874223,27],[2513874202,28]]},
+  {"id":6520590,"t":{"ref":"C76","name":"C76 Olgiate Comasco","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":2,"s":[[4360580214,1]]},
+  {"id":6520591,"t":{"ref":"C76","name":"C76 Tradate FN","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":3,"s":[[4360580214,1]]}
+]
+}

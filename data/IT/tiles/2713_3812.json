@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3812],
+"stops":[
+  {"id":3478569437,"lat":45.669446,"lon":10.649962,"k":"p","n":"Gargnano bivio per Roina"},
+  {"id":4941758878,"lat":45.655083,"lon":10.633303,"k":"p","n":"Toscolano Casetta","ref":"461093"},
+  {"id":10007461106,"lat":45.655071,"lon":10.633468,"k":"p","n":"Toscolano Casetta","ref":"461098"},
+  {"id":11134372473,"lat":45.687014,"lon":10.640524,"k":"p"},
+  {"id":12890546191,"lat":45.684024,"lon":10.621752,"k":"p","n":"Gargnano Vercellina"},
+  {"id":12890546194,"lat":45.689802,"lon":10.634819,"k":"p","n":"Gargnano Formaga"},
+  {"id":12890546195,"lat":45.690732,"lon":10.636941,"k":"p","n":"Gargnano Liano bivio"},
+  {"id":12890546197,"lat":45.690574,"lon":10.643156,"k":"p","n":"Gargnano bivio per Sasso"},
+  {"id":12890546198,"lat":45.68486,"lon":10.633607,"k":"p","n":"Gargnano Navazzo"},
+  {"id":12890546200,"lat":45.688674,"lon":10.647984,"k":"p","n":"Gargnano bivio per Musaga"},
+  {"id":12894209199,"lat":45.654443,"lon":10.631772,"k":"p","n":"Toscolano scale per Cecina"}
+],
+"routes":[
+  {"id":9606130,"t":{"ref":"LN027","name":"Bus LN027: Salò->Riva del Garda","from":"Salò autostazione","to":"Riva del Garda autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[12894209199,15],[3478569437,16]]},
+  {"id":19216923,"t":{"ref":"LN015","name":"Bus LN015: Magasa->Gargnano","from":"Magasa","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12890546191,7],[12890546198,8],[12890546200,9,11]]},
+  {"id":19216924,"t":{"ref":"LN015","name":"Bus LN015: Gargnano->Magasa","from":"Gargnano","to":"Magasa","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12890546200,3,5],[12890546198,6],[12890546191,7]]},
+  {"id":19216925,"t":{"ref":"LN015","name":"Bus LN015: Costa->Gargnago","from":"Costa (Gargnano)","to":"Gargnago","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[12890546194,3],[12890546195,4],[12890546197,6],[12890546198,7],[12890546200,8,10]]},
+  {"id":19216926,"t":{"ref":"LN015","name":"Bus LN015: Gargnano->Costa","from":"Gargnano","to":"Costa","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[12890546200,3,5],[12890546198,6],[12890546197,7],[12890546195,9],[12890546194,10]]},
+  {"id":19221090,"t":{"ref":"LN027","name":"Bus LN027: Riva del Garda-> Salò","from":"Riva del Garda autostazione","to":"Salò autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":33,"s":[[3478569437,18],[12894209199,19]]},
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[12894209199,52],[3478569437,53]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[3478569437,19],[12894209199,20]]}
+]
+}

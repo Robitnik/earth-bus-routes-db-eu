@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2720,3826],
+"stops":[
+  {"id":568433885,"lat":46.01653,"lon":11.331243,"k":"p","n":"Levico T. SP228"},
+  {"id":570193913,"lat":46.009255,"lon":11.308268,"k":"p","n":"Levico T. (Via Rovigo)"},
+  {"id":960789697,"lat":46.008846,"lon":11.315369,"k":"p","n":"Levico T. (Cimitero)"},
+  {"id":1106771302,"lat":46.006067,"lon":11.304607,"k":"p","n":"Levico Terme (Stazione FS)"},
+  {"id":1108366043,"lat":46.041469,"lon":11.309794,"k":"p","n":"Terme di Vetriolo"},
+  {"id":1108425634,"lat":46.042003,"lon":11.317693,"k":"p","n":"Vetriolo Terme"},
+  {"id":1108425657,"lat":46.041997,"lon":11.317237,"k":"p"},
+  {"id":1984998267,"lat":46.041524,"lon":11.309777,"k":"p","n":"Terme di Vetriolo"},
+  {"id":6323281190,"lat":46.008777,"lon":11.308498,"k":"p","n":"Levico T. (Via Avancini)"},
+  {"id":13018805769,"lat":46.031612,"lon":11.34185,"k":"p","n":"Ristorante Cacciatore"},
+  {"id":13018805770,"lat":46.029681,"lon":11.333564,"k":"p","n":"Baiti di Vetriolo"},
+  {"id":13018805771,"lat":46.016486,"lon":11.315017,"k":"p","n":"Levico T. Rist.Scarano"},
+  {"id":13020288485,"lat":46.001771,"lon":11.309117,"k":"p","n":"Leviso Terme Bicchigrill"},
+  {"id":13020288490,"lat":46.00443,"lon":11.335383,"k":"p","n":"Barco"},
+  {"id":13020288491,"lat":46.008524,"lon":11.303505,"k":"p","n":"Levico Terme Corco Centrale 15"},
+  {"id":13039590455,"lat":46.017736,"lon":11.341753,"k":"p","n":"Levico T. Via delle Alte"}
+],
+"routes":[
+  {"id":19380760,"t":{"ref":"B423","name":"Bus B423: Levico Terme->Tenna->Ischia->Pergine V.","from":"Levico Terme Via Rovigo","to":"Pergine Vals Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[570193913,1]]},
+  {"id":19380761,"t":{"ref":"B423","name":"Bus B423: Pergine Vals->Ischia->Tenna->Lovico Terme","from":"Pergine Vals Intermodale","to":"Levico Terme Via Avancini","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":15,"s":[[6323281190,15]]},
+  {"id":19381246,"t":{"ref":"B416","name":"Bus B416: Vertiolo Terme->Compet->Levico Terme","from":"Panarotta","to":"Levico Terme Auotstazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[1108366043,3],[1108425634,4],[13018805769,5],[13018805770,6],[13018805771,7]]},
+  {"id":19381247,"t":{"ref":"B416","name":"Bus B416: Levico Terme->Compet->Vertiolo Terme","from":"Levico Terme Auotstazione","to":"Panarotta","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13018805771,2],[13018805770,3],[13018805769,4],[1108425634,5],[1984998267,6]]},
+  {"id":19383340,"t":{"ref":"B415","name":"Bus B415: Variante: Stazione Fs->Autostazione","from":"Via Rovigo","to":"Levico Terme Auotstazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[570193913,1],[1106771302,2]]},
+  {"id":19383341,"t":{"ref":"B415","name":"Bus B415: Variante: Barco->Bichigrill","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":2,"s":[[13020288490,1],[13020288485,2]]},
+  {"id":19383342,"t":{"ref":"B415","name":"Bus B415: Lochere->S.Giuliana->Barco->Levico Terme","from":"Lochere Barco","to":"Levico Terme Auotstazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":8,"s":[[13020288490,5],[960789697,6],[570193913,7],[13020288491,8]]},
+  {"id":19383343,"t":{"ref":"B415","name":"Bus B415: Levico Terme->Barco->S.Giuliana->Lochere","from":"Levico Terme Auotstazione","to":"Barco Lochere","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[13020288491,1],[6323281190,2],[13020288490,3]]},
+  {"id":19412352,"t":{"ref":"B401","name":"Bus B401: Borgo V.->Levico->Pergine V.->Trento","from":"Borgo Valsugana","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":45,"s":[[13039590455,16],[568433885,17],[960789697,18],[570193913,19]]},
+  {"id":19412353,"t":{"ref":"B401","name":"Bus B401: Trento->Pergine V.->Levico T.->Borgo V.","from":"Trento Autostazione","to":"Borgo Val Sugana","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":39,"s":[[6323281190,22],[960789697,23],[568433885,24],[13039590455,25]]}
+]
+}

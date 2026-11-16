@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3836],
+"stops":[
+  {"id":329656271,"lat":45.481067,"lon":11.843429,"k":"p","n":"Limena / Municipio"},
+  {"id":329656282,"lat":45.472668,"lon":11.847007,"k":"p","n":"Limena / Bar K2"},
+  {"id":617907391,"lat":45.455833,"lon":11.824846,"k":"p","n":"Taggì di Sotto / Chiesa"},
+  {"id":617907392,"lat":45.451885,"lon":11.827453,"k":"p","n":"Taggì di Sotto / Autostrada"},
+  {"id":617907393,"lat":45.452135,"lon":11.827132,"k":"p","n":"Taggì di Sotto / Autostrada"},
+  {"id":617907394,"lat":45.455964,"lon":11.824549,"k":"p","n":"Taggì di Sotto / Chiesa"},
+  {"id":1992169330,"lat":45.475606,"lon":11.846463,"k":"p","n":"Limena / Chiesa"},
+  {"id":1992169341,"lat":45.484645,"lon":11.838188,"k":"p","n":"Limena / Monte Grappa"},
+  {"id":1992169351,"lat":45.472923,"lon":11.847032,"k":"p","n":"Limena / Bar K2"},
+  {"id":1992169364,"lat":45.48455,"lon":11.836102,"k":"p","n":"Limena / Basso"},
+  {"id":1992169368,"lat":45.482681,"lon":11.837226,"k":"p","n":"Limena / Cabrelle"},
+  {"id":1992169377,"lat":45.468091,"lon":11.849625,"k":"p","n":"Limena / Lamborghini"},
+  {"id":1992169381,"lat":45.482763,"lon":11.842007,"k":"p","n":"Limena / Ponte"},
+  {"id":6777255838,"lat":45.495665,"lon":11.830677,"k":"p","n":"Bivio Piazzola","ref":"E000479R"},
+  {"id":6777255839,"lat":45.495257,"lon":11.831003,"k":"p","n":"Bivio Piazzola","ref":"E0000479"},
+  {"id":6777255841,"lat":45.485731,"lon":11.837164,"k":"p","n":"Limena Peep","ref":"E0000478"},
+  {"id":6777255842,"lat":45.484597,"lon":11.838273,"k":"p","n":"Limena Peep","ref":"E000478R"},
+  {"id":6777255843,"lat":45.481119,"lon":11.843398,"k":"p","n":"Limena Municipio","ref":"E000477R"},
+  {"id":6777255844,"lat":45.482805,"lon":11.841937,"k":"p","n":"Limena Municipio","ref":"E0000477"},
+  {"id":6777255845,"lat":45.475654,"lon":11.846451,"k":"p","n":"Limena Banca Antonveneta","ref":"E0000476"},
+  {"id":6777255846,"lat":45.476012,"lon":11.846226,"k":"p","n":"Limena Banca Antonveneta","ref":"E000476R"},
+  {"id":6777255847,"lat":45.472639,"lon":11.84702,"k":"p","n":"Limena Bar K2","ref":"E000475R"},
+  {"id":6777255848,"lat":45.47289,"lon":11.847055,"k":"p","n":"Limena Bar K2","ref":"E0000475"},
+  {"id":6777551479,"lat":45.467996,"lon":11.849634,"k":"p","n":"Central Pantamarchet","ref":"E000474R"},
+  {"id":8223127596,"lat":45.467834,"lon":11.849714,"k":"p"},
+  {"id":10287720034,"lat":45.481201,"lon":11.841151,"k":"p"}
+],
+"routes":[
+  {"id":381007,"t":{"ref":"11","name":"Bus 11: Taggi => Via De Lazara","from":"Taggì di Sotto","to":"Via De Lazara","network":"Busitalia Veneto","operator":"Busitalia Veneto","colour":"#006332","route":"bus"},"n":67,"s":[[617907394,1,67],[617907393,2],[617907392,65],[617907391,66]]},
+  {"id":2545404,"t":{"ref":"13","name":"Bus 13: Via Boccaccio => Limena","from":"Via Boccaccio","to":"Limena","network":"Busitalia Veneto","operator":"Busitalia Veneto","colour":"#1baa40","route":"bus"},"n":9,"s":[[1992169351,5],[1992169330,6],[1992169381,7],[1992169364,8],[1992169368,9]]},
+  {"id":2545405,"t":{"ref":"13","name":"Bus 13: Limena => Via Boccaccio","from":"Limena","to":"Via Boccaccio","network":"Busitalia Veneto","operator":"Busitalia Veneto","colour":"#1baa40","route":"bus"},"n":8,"s":[[1992169368,1],[1992169341,2],[329656271,3],[329656282,4],[1992169377,5]]},
+  {"id":10011659,"t":{"ref":"E021","name":"Linea extraurbana 21: Bassano - Cittadella - Padova","from":"Bassano","to":"Padova","network":"Busitalia Veneto","operator":"Busitalia Veneto","route":"bus","public_transport:version":"2"},"n":53,"s":[[6777255838,39],[6777255842,40],[6777255843,41],[6777255846,42],[6777255847,43],[6777551479,44]]},
+  {"id":10012087,"t":{"ref":"E021","name":"Linea extraurbana 21: Padova - Cittadella - Bassano","from":"Padova","to":"Bassano","network":"Busitalia Veneto","route":"bus","public_transport:version":"2"},"n":52,"s":[[6777255848,9],[6777255845,10],[6777255844,11],[6777255841,12],[6777255839,13]]},
+  {"id":21173107,"t":{"ref":"E021","name":"Busitalia extraurbana E021 Cittadella Polo Scolastico","from":"Bassano","to":"Padova","network":"Busitalia Veneto","operator":"Busitalia Veneto","route":"bus"},"n":54,"s":[[6777255838,40],[6777255842,41],[6777255843,42],[6777255846,43],[6777255847,44],[6777551479,45]]}
+]
+}

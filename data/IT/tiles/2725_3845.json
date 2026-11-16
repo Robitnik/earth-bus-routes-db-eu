@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2725,3845],
+"stops":[
+  {"id":2490136183,"lat":46.264147,"lon":12.29969,"k":"p","n":"Pirago"},
+  {"id":2490194669,"lat":46.262391,"lon":12.29812,"k":"p"},
+  {"id":6768955019,"lat":46.282968,"lon":12.295141,"k":"p"},
+  {"id":7208388887,"lat":46.256176,"lon":12.298927,"k":"p","n":"Villanova"},
+  {"id":7208388888,"lat":46.256403,"lon":12.298803,"k":"p","n":"Villanova"},
+  {"id":8361753711,"lat":46.282732,"lon":12.296326,"k":"p","n":"Podenzoi"},
+  {"id":8364672922,"lat":46.263821,"lon":12.283969,"k":"p","n":"Igne Bivio"},
+  {"id":8364672923,"lat":46.263907,"lon":12.283674,"k":"p","n":"Igne Bivio"},
+  {"id":8364672924,"lat":46.264288,"lon":12.277795,"k":"p","n":"Igne paese"},
+  {"id":8364672925,"lat":46.264285,"lon":12.278023,"k":"p","n":"Igne paese"}
+],
+"routes":[
+  {"id":1948898,"t":{"ref":"9","name":"Belluno -> Calalzo","from":"Belluno","to":"Calalzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":33,"s":[[7208388887,14]]},
+  {"id":10714360,"t":{"ref":"25","name":"Pecol -> Belluno","from":"Pecol","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":31,"s":[[7208388888,7],[8364672922,9],[8364672924,10]]},
+  {"id":10714361,"t":{"ref":"25","name":"Belluno -> Pecol","from":"Belluno","to":"Pecol","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":30,"s":[[7208388887,8],[2490136183,9],[8364672923,10],[8364672925,11]]},
+  {"id":11331300,"t":{"ref":"9/31","name":"Belluno -> Calalzo -> Auronzo -> Misurina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":71,"s":[[7208388887,58]]},
+  {"id":12896371,"t":{"ref":"9/31","name":"Tre Cime -> Misurina -> Auronzo -> Calalzo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":73,"s":[[7208388888,59]]},
+  {"id":12938115,"t":{"ref":"10","name":"Caprile -> Colle S.Lucia -> Longarone -> Aeroporto -> Venezia P.le Roma","from":"caprile","to":"Venezia Piazzale Roma","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[8364672924,29],[8364672922,30]]},
+  {"id":12938116,"t":{"ref":"10","name":"Venezia P.le Roma -> Aeroporto -> Longarone -> Colle S.Lucia -> Caprile","from":"Venezia Piazzale Roma","to":"Caprile","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":35,"s":[[8364672925,29],[8364672923,30],[2490136183,31]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2763,3876],
+"stops":[
+  {"id":1411623254,"lat":48.154665,"lon":13.835788,"k":"p","n":"Offenhausen Feuerwehr"},
+  {"id":2012082295,"lat":48.178055,"lon":13.822769,"k":"p","n":"Meggenhofen Zwisl"},
+  {"id":2012082296,"lat":48.178199,"lon":13.822762,"k":"p","n":"Meggenhofen Zwisl"},
+  {"id":2012082402,"lat":48.174377,"lon":13.842045,"k":"p","n":"Steinerkirchen am Innbach Feuerwehr"},
+  {"id":2012082403,"lat":48.174361,"lon":13.842842,"k":"p","n":"Steinerkirchen/Innbach Feuerwehr"},
+  {"id":2012156599,"lat":48.177789,"lon":13.811761,"k":"p","n":"Meggenhofen Abzw Straß"},
+  {"id":2012156605,"lat":48.177903,"lon":13.812177,"k":"p","n":"Meggenhofen Abzw Straß"},
+  {"id":3584446635,"lat":48.18007,"lon":13.803209,"k":"p","n":"Meggenhofen Kirchberg"},
+  {"id":10290256901,"lat":48.151677,"lon":13.833414,"k":"p","n":"Offenhausen Abzw Fils"},
+  {"id":10290256905,"lat":48.151606,"lon":13.83302,"k":"p","n":"Offenhausen Abzw Fils"}
+],
+"routes":[
+  {"id":2389918,"t":{"ref":"646","name":"Bus 646: Wels Hauptbahnhof => Aistersheim => Ried/Ikr.","from":"Wels Hauptbahnhof","to":"Ried im Innkreis Promenade","operator":"Postbus","route":"bus","public_transport:version":"2","bus":"yes"},"n":45,"s":[[2012082403,23],[2012082296,24],[2012156605,25],[3584446635,26]]},
+  {"id":5259744,"t":{"ref":"646","name":"Bus 646: Ried/Ikr. => Aistersheim => Wels Hauptbahnhof","from":"Ried im Innkreis Gartenstraße/SZ","to":"Wels Hauptbahnhof","operator":"Postbus","route":"bus","public_transport:version":"2","bus":"yes"},"n":47,"s":[[3584446635,21],[2012156599,22],[2012082295,23],[2012082402,24]]},
+  {"id":15054232,"t":{"ref":"641","name":"Bus 641: Offenhausen - Bachmanning - Wels","from":"Offenhausen Feuerwehr","to":"Wels Hauptbahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[1411623254,1],[10290256905,2]]},
+  {"id":15054233,"t":{"ref":"641","name":"Bus 641: Wels - Bachmanning - Offenhausen","from":"Wels Hauptbahnhof","to":"Offenhausen Feuerwehr","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":26,"s":[[10290256901,24],[1411623254,25]]},
+  {"id":15054235,"t":{"ref":"640","name":"Bus 640: Lambach - Offenhausen - Wels","from":"Lambach Bahnhof","to":"Wels Hauptbahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":34,"s":[[10290256901,11],[1411623254,12]]},
+  {"id":15054238,"t":{"ref":"640","name":"Bus 640: Wels - Offenhausen - Lambach","from":"Wels Hauptbahnhof","to":"Lambach Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":32,"s":[[1411623254,20],[10290256905,21]]},
+  {"id":15067004,"t":{"ref":"651","name":"Bus 651: Gaspoltshofen - Meggenhofen - Grieskirchen","from":"Gaspoltshofen Jeding Busterminal","to":"Grieskirchen Busbahnhof (Postamt)","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":28,"s":[[3584446635,9]]},
+  {"id":15067005,"t":{"ref":"651","name":"Bus 651: Grieskirchen - Meggenhofen - Altenhof","from":"Grieskirchen Busbahnhof (Postamt)","to":"Altenhof Bauhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":28,"s":[[3584446635,17]]}
+]
+}

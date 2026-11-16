@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3811],
+"stops":[
+  {"id":12890546190,"lat":45.745214,"lon":10.59128,"k":"p","n":"Gargnano Molino di Ballone"},
+  {"id":14135628631,"lat":45.739864,"lon":10.581449,"k":"p","n":"Bollone"},
+  {"id":14136598262,"lat":45.74499,"lon":10.591327,"k":"p","n":"Gargnano Molino di Ballone"}
+],
+"routes":[
+  {"id":19216923,"t":{"ref":"LN015","name":"Bus LN015: Magasa->Gargnano","from":"Magasa","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12890546190,5]]},
+  {"id":19216924,"t":{"ref":"LN015","name":"Bus LN015: Gargnano->Magasa","from":"Gargnano","to":"Magasa","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":13,"s":[[12890546190,9]]},
+  {"id":21411319,"t":{"ref":"LN020","name":"Bus LN020: Bollone -> Turano variante","from":"Bollone","to":"Turano","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":5,"s":[[14135628631,1],[14136598262,2]]},
+  {"id":21411320,"t":{"ref":"LN020","name":"Bus LN020: Turano->Bollone variante","from":"Turano","to":"Bollone","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":5,"s":[[14136598262,4],[14135628631,5]]}
+]
+}

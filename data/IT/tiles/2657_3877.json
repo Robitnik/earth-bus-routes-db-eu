@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2657,3877],
+"stops":[
+  {"id":9687762881,"lat":42.899324,"lon":13.856312,"k":"p","n":"Centobuchi-Bivio Monteprandone"},
+  {"id":9687762882,"lat":42.899376,"lon":13.856024,"k":"p","n":"Centobuchi-Bivio Monteprandone"},
+  {"id":10033923405,"lat":42.851076,"lon":13.857193,"k":"p","n":"Controguerra - SP4 - Civ.103","ref":"67020201"},
+  {"id":10033923411,"lat":42.851055,"lon":13.857396,"k":"p","n":"Controguerra - SP4 - Civ.103","ref":"67020202"},
+  {"id":11892296836,"lat":42.888186,"lon":13.878172,"k":"p","n":"San Giovanni Colonnella, 110","ref":"CN3001"},
+  {"id":11892296837,"lat":42.888191,"lon":13.877715,"k":"p","n":"San Giovanni Colonnella, 110","ref":"CN3501"},
+  {"id":12213452635,"lat":42.896045,"lon":13.883626,"k":"p","n":"Porto D'Ascoli (Località San Giovanni)"},
+  {"id":12559749571,"lat":42.898255,"lon":13.852174,"k":"p","n":"Centobuchi-Farmacia"},
+  {"id":12559749572,"lat":42.898252,"lon":13.851857,"k":"p","n":"Centobuchi-Farmacia"}
+],
+"routes":[
+  {"id":812798,"t":{"ref":"01 EXTR","name":"01 EXTR Ascoli Piceno - San Benedetto del Tronto","from":"Ascoli Piceno - Stazione FS","to":"San Benedetto del Tronto - Stazione FS","network":"Extraurbano Ascoli Piceno","operator":"Start","route":"bus","public_transport:version":"2"},"n":52,"s":[[12559749571,37],[9687762881,38]]},
+  {"id":13430304,"t":{"ref":"01 EXTR","name":"01 EXTR San Benedetto del Tronto - Ascoli Piceno","from":"San Benedetto del Tronto - Stazione FS","to":"Ascoli Piceno - Viale De Gasperi","network":"Extraurbano Ascoli Piceno","operator":"Start","route":"bus","public_transport:version":"2"},"n":52,"s":[[9687762882,16],[12559749572,17]]},
+  {"id":14595166,"t":{"ref":"3021","name":"Bus 3021: Controguerra → Gabbiano","from":"Controguerra","to":"Gabbiano","network":"TUA","operator":"TUA","route":"bus","public_transport:version":"2"},"n":7,"s":[[10033923405,4]]},
+  {"id":14595167,"t":{"ref":"3021","name":"Bus 3021: Gabbiano → Controguerra","from":"Gabbiano","to":"Controguerra","network":"TUA","operator":"TUA","route":"bus","public_transport:version":"2"},"n":7,"s":[[10033923411,3]]}
+]
+}

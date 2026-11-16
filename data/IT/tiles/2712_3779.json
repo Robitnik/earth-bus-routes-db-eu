@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3779],
+"stops":[
+  {"id":3204852563,"lat":45.640264,"lon":8.994696,"k":"p"},
+  {"id":3204852588,"lat":45.640307,"lon":8.994777,"k":"p"},
+  {"id":8542614116,"lat":45.613554,"lon":8.996221,"k":"p","n":"Uboldo - Via 4 Novembre 166","ref":"UBO_02"},
+  {"id":8542649781,"lat":45.616165,"lon":8.958493,"k":"p","n":"Rescaldina - Via Kennedy 59","ref":"RES_14"},
+  {"id":8542714288,"lat":45.61955,"lon":8.954391,"k":"p","n":"Rescaldina - Via De Gasperi 10","ref":"RES_06"},
+  {"id":8544790715,"lat":45.620067,"lon":8.953588,"k":"p","n":"Rescaldina - Via De Gasperi fr. 18 / v. della Vittoria","ref":"RES_26"},
+  {"id":8575811535,"lat":45.620709,"lon":8.950648,"k":"p","n":"Rescaldina - Via Montello fr. 45","ref":"RES_17"},
+  {"id":8582999063,"lat":45.616121,"lon":8.958371,"k":"p","n":"Rescaldina - Via Kennedy 56","ref":"RES_13"},
+  {"id":8583012215,"lat":45.613477,"lon":8.996771,"k":"p","n":"Uboldo - Via 4 Novembre 131","ref":"UBO_01"},
+  {"id":10025389107,"lat":45.645866,"lon":8.996531,"k":"p","n":"Via Clerici, 9 (Gerenzano)"},
+  {"id":10025389108,"lat":45.64578,"lon":8.996378,"k":"p","n":"Via Clerici, 9 (Gerenzano)"},
+  {"id":11907123366,"lat":45.615936,"lon":8.950275,"k":"p","n":"Rescaldina - Via Barbara Melzi fr. 4 (Municipio)","ref":"RES_04"}
+],
+"routes":[
+  {"id":3157429,"t":{"ref":"C67","name":"C67 Lomazzo FNM","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":31,"s":[[10025389107,17]]},
+  {"id":6440656,"t":{"ref":"C67","name":"C67 Saronno FNM","network":"Rete extraurbana di Como","operator":"FNMA Autoservizi","route":"bus"},"n":32,"s":[[10025389108,18]]},
+  {"id":12466133,"t":{"ref":"z112","name":"Bus z112: Saronno FN → Legnano Ospedale","from":"Saronno FN","to":"Legnano Ospedale","network":"STIBM","operator":"Air Pullman","route":"bus","public_transport:version":"2"},"n":27,"s":[[8542614116,5],[8542649781,6],[8542714288,7],[8544790715,14],[11907123366,15]]},
+  {"id":12492271,"t":{"ref":"z112","name":"Bus z112: Legnano Ospedale → Saronno FN","from":"Legnano Ospedale","to":"Saronno FNM","network":"STIBM","operator":"Air Pullman","route":"bus"},"n":26,"s":[[8575811535,13],[8544790715,20],[8582999063,21],[8583012215,22]]},
+  {"id":17630663,"t":{"ref":"H204","from":"Saronno","to":"Tradate","network":"FNMA","operator":"Ferrovie Nord Milano Autoservizi","route":"bus"},"n":12,"s":[[10025389107,4]]},
+  {"id":17630664,"t":{"ref":"H204","from":"Tradate","to":"Saronno","network":"FNMA","operator":"Ferrovie Nord Milano Autoservizi","route":"bus"},"n":13,"s":[[10025389108,4]]}
+]
+}

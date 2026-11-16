@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2751,3890],
+"stops":[
+  {"id":750483513,"lat":47.597235,"lon":14.503316,"k":"x","n":"Weng Wengerwirt"},
+  {"id":1414021323,"lat":47.583963,"lon":14.523896,"k":"x","n":"Gesäuseeingang Untere Krumau"},
+  {"id":4336914276,"lat":47.583476,"lon":14.518424,"k":"x","n":"Gesäuseeingang Untere Krumau Mitte"},
+  {"id":4336914371,"lat":47.58448,"lon":14.532887,"k":"x","n":"Gesäuseeingang Geißenbachbrücke"},
+  {"id":4512997524,"lat":47.583417,"lon":14.517707,"k":"x","n":"Gesäuseeingang Untere Krumau Mitte"},
+  {"id":4615269482,"lat":47.597207,"lon":14.502969,"k":"x","n":"Weng Wengerwirt"},
+  {"id":8280612090,"lat":47.597184,"lon":14.503313,"k":"p","n":"Weng Wengerwirt"},
+  {"id":8280747798,"lat":47.598041,"lon":14.511208,"k":"x","n":"Weng Peer"},
+  {"id":8280747799,"lat":47.598092,"lon":14.511176,"k":"p","n":"Weng Peer"},
+  {"id":8283228115,"lat":47.583092,"lon":14.538866,"k":"x","n":"Gesäuseeingang Lauferbauerbrücke"},
+  {"id":8283228116,"lat":47.583065,"lon":14.538816,"k":"p","n":"Gesäuseeingang Lauferbauerbrücke"},
+  {"id":8283228117,"lat":47.583308,"lon":14.538565,"k":"p","n":"Gesäuseeingang Lauferbauerbrücke"},
+  {"id":8283228118,"lat":47.583264,"lon":14.538543,"k":"x","n":"Gesäuseeingang Lauferbauerbrücke"},
+  {"id":8283228119,"lat":47.58448,"lon":14.532517,"k":"x","n":"Gesäuseeingang Geißenbachbrücke"},
+  {"id":8283228120,"lat":47.584433,"lon":14.532868,"k":"p","n":"Gesäuseeingang Geißenbachbrücke"},
+  {"id":8283228121,"lat":47.584507,"lon":14.532509,"k":"p","n":"Gesäuseeingang Geißenbachbrücke"},
+  {"id":8283228122,"lat":47.584004,"lon":14.523886,"k":"p","n":"Gesäuseeingang Untere Krumau"},
+  {"id":8283228123,"lat":47.583942,"lon":14.523678,"k":"x","n":"Gesäuseeingang Untere Krumau"},
+  {"id":8283228124,"lat":47.583907,"lon":14.52367,"k":"p","n":"Gesäuseeingang Untere Krumau"},
+  {"id":8283228125,"lat":47.58344,"lon":14.518457,"k":"p","n":"Gesäuseeingang Untere Krumau Mitte"},
+  {"id":8283228126,"lat":47.583469,"lon":14.517667,"k":"p","n":"Gesäuseeingang Untere Krumau Mitte"},
+  {"id":5000890942144,"lat":47.597239,"lon":14.502995,"k":"p","n":"Weng Wengerwirt"}
+],
+"routes":[
+  {"id":12119415,"t":{"ref":"Schibus Kaiserau","name":"Schibus Kaiserau: Kaiserau - Admont - Weng","from":"Kaiseraulifte Parkplatz","to":"Weng Wengerwirt","route":"bus","public_transport:version":"2"},"n":8,"s":[[8280612090,8]]},
+  {"id":12119416,"t":{"ref":"Schibus Kaiserau","name":"Schibus Kaiserau: Weng - Admont - Kaiserau","from":"Weng Wengerwirt","to":"Kaiseraulifte Parkplatz","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000890942144,1]]},
+  {"id":12119783,"t":{"ref":"910","name":"Bus 910: Altenmarkt => St. Gallen => Admont","from":"Altenmarkt Ort","to":"Admont Bahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000890942144,20]]},
+  {"id":12119784,"t":{"ref":"910","name":"Bus 910: Admont => St. Gallen => Altenmarkt","from":"Admont Bahnhof","to":"Altenmarkt Ort","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":30,"s":[[8280612090,11]]},
+  {"id":12123113,"t":{"ref":"912","name":"Bus 912: Admont Kasteneck => Weißenbach-Sankt Gallen Bahnhof","from":"Admont Kasteneck","to":"Weißenbach-Sankt Gallen Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[8283228125,4],[8283228124,5],[8283228120,6],[8283228116,7]]},
+  {"id":12123257,"t":{"ref":"912","name":"Bus 912: Admont Kasteneck => Altenmarkt Ort (via Mooslandl Freizeitpark Landl)","from":"Admont Kasteneck","to":"Altenmarkt Ort","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":37,"s":[[8283228125,4],[8283228124,5],[8283228120,6],[8283228116,7]]},
+  {"id":12123258,"t":{"ref":"912","name":"Bus 912: Weißenbach-Sankt Gallen Bahnhof => Admont Kasteneck","from":"Weißenbach-Sankt Gallen Bahnhof","to":"Admont Kasteneck","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[8283228117,34],[8283228121,35],[8283228122,36],[8283228126,37]]},
+  {"id":12123370,"t":{"ref":"912","name":"Bus 912: Kleinreifling Bahnhof => Admont Kasteneck","from":"Kleinreifling Bahnhof","to":"Admont Kasteneck","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[8283228117,34],[8283228121,35],[8283228122,36],[8283228126,37]]},
+  {"id":12123371,"t":{"ref":"912","name":"Bus 912: Admont Kasteneck => Kleinreifling Bahnhof","from":"Admont Kasteneck","to":"Kleinreifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":39,"s":[[8283228125,4],[8283228124,5],[8283228120,6],[8283228116,7]]}
+]
+}

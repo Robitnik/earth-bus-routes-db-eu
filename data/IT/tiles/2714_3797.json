@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3797],
+"stops":[
+  {"id":1667034939,"lat":45.713855,"lon":9.881377,"k":"p","n":"Luzzana - via Nazionale"},
+  {"id":1667034944,"lat":45.714526,"lon":9.882071,"k":"p","n":"Luzzana - via Nazionale"},
+  {"id":1938007771,"lat":45.720338,"lon":9.89237,"k":"p","n":"Borgo di terzo - municipio"},
+  {"id":1938007777,"lat":45.720539,"lon":9.892427,"k":"p","n":"Borgo di terzo - municipio"},
+  {"id":3429371846,"lat":45.749695,"lon":9.865975,"k":"x","n":"Casale Via Endine"},
+  {"id":9388531789,"lat":45.748751,"lon":9.852374,"k":"x","n":"Dossello Bivio"},
+  {"id":9388531790,"lat":45.748735,"lon":9.852406,"k":"p","n":"Ponte Lujo Via Lunga"},
+  {"id":9388531793,"lat":45.747118,"lon":9.869215,"k":"x","n":"Casale Capolinea (Rondò)"},
+  {"id":9388531794,"lat":45.747154,"lon":9.869189,"k":"p","n":"Casale Capolinea (Rondò)"},
+  {"id":9388531810,"lat":45.749706,"lon":9.866023,"k":"p","n":"Casale Via Endine"},
+  {"id":9388531811,"lat":45.749663,"lon":9.865903,"k":"p","n":"Casale Via Endine"},
+  {"id":13883954852,"lat":45.708748,"lon":9.87236,"k":"p","n":"Entratico - Via Nazionale 13 (Bivio Entratico)"},
+  {"id":13883995697,"lat":45.703575,"lon":9.858294,"k":"p","n":"Trescore - Fornaci"},
+  {"id":14002845383,"lat":45.70924,"lon":9.873547,"k":"p","n":"Entratico - Via Nazionale 13 (Bivio Entratico)"}
+],
+"routes":[
+  {"id":12563569,"t":{"ref":"C","name":"Bus C: Bergamo => Boario","from":"Bergamo Pensilina 9","to":"Costa Volpino - Via Battisti 20 (Piano)","route":"bus","public_transport:version":"2"},"n":47,"s":[[13883995697,24],[14002845383,25],[1667034939,26],[1938007771,27]]},
+  {"id":13630236,"t":{"ref":"S30c","name":"Bus S30c: Albino I.S.I.S. => Casale","from":"Albino","to":"Casale","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"1"},"n":23,"s":[[9388531790,17],[9388531811,22],[9388531794,23]]},
+  {"id":13630237,"t":{"name":"Bus S30c: Albino Stazione => Casale","from":"Albino Stazione","to":"Casale","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":19,"s":[[9388531789,13],[3429371846,18],[9388531793,19]]},
+  {"id":13630430,"t":{"ref":"S30c","name":"Bus S30c: Casale => Albino Stazione","from":"Casale","to":"Albino Stazione","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":19,"s":[[9388531794,1],[9388531810,2],[9388531790,7]]},
+  {"id":21067335,"t":{"ref":"LV923","name":"Bus LV923: Milano -> Edolo","from":"Sesto San Giovanni","to":"Edolo","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[13883995697,11],[13883954852,12],[1667034939,13],[1938007771,14]]},
+  {"id":21069296,"t":{"ref":"LV923","name":"Bus LV923: Edolo -> Milano","from":"Edolo","to":"Sesto San Giovanni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[1938007777,77],[1667034944,78],[13883954852,79],[13883995697,80]]},
+  {"id":21085320,"t":{"ref":"C20d","name":"Bus C20d: Grona => Borgo di Terzo","from":"Grono provinciale (monte)","to":"Borgo di Terzo municipio","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":5,"s":[[1938007777,5]]},
+  {"id":21085321,"t":{"ref":"C20d","name":"Bus C20d: Borgo di Terzo => Grone","from":"Borgo di Terzo municipio","to":"Grono provinciale (monte)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":5,"s":[[1938007771,1]]},
+  {"id":21156515,"t":{"ref":"C","name":"Bus C: Boario => Bergamo","from":"Costa Volpino - Via Battisti 7 (Piano)","to":"BERGAMO Autolinee (Pensilina 9)","route":"bus","public_transport:version":"2"},"n":44,"s":[[1938007777,21],[1667034944,22],[14002845383,23],[13883995697,24]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2742,3888],
+"stops":[
+  {"id":31239809,"lat":47.126809,"lon":14.439749,"k":"x","n":"Puchfeld Siedlung"},
+  {"id":4471011575,"lat":47.12715,"lon":14.439109,"k":"x","n":"Puchfeld Siedlung"},
+  {"id":9156151882,"lat":47.119434,"lon":14.449444,"k":"x","n":"Perchau am Sattel Hasenbach"},
+  {"id":9156151883,"lat":47.119381,"lon":14.449332,"k":"p","n":"Perchau am Sattel Hasenbach"},
+  {"id":9159473621,"lat":47.128993,"lon":14.437304,"k":"x","n":"Puchfeld Straßenwärterhaus"},
+  {"id":9159473622,"lat":47.129007,"lon":14.43716,"k":"p","n":"Puchfeld Straßenwärterhaus"},
+  {"id":9159473623,"lat":47.128987,"lon":14.437442,"k":"p","n":"Puchfeld Straßenwärterhaus"},
+  {"id":9159473638,"lat":47.127208,"lon":14.439195,"k":"p","n":"Puchfeld Siedlung"},
+  {"id":9159473641,"lat":47.126716,"lon":14.439698,"k":"p","n":"Puchfeld Siedlung"},
+  {"id":10200141170,"lat":47.139252,"lon":14.426328,"k":"p","n":"Puchfeld Schachenweg"},
+  {"id":10200141171,"lat":47.139316,"lon":14.426349,"k":"x","n":"Puchfeld Schachenweg"},
+  {"id":10200141172,"lat":47.139361,"lon":14.426366,"k":"p","n":"Puchfeld Schachenweg"},
+  {"id":10284665846,"lat":47.14647,"lon":14.417155,"k":"p","n":"Scheifling Kalvarienberg"},
+  {"id":10284665847,"lat":47.148341,"lon":14.418125,"k":"p","n":"Scheifling Bahnhof"},
+  {"id":10542792697,"lat":47.146339,"lon":14.417143,"k":"p","n":"Scheifling Kalvarienberg"},
+  {"id":12520614564,"lat":47.146419,"lon":14.417103,"k":"x","n":"Scheifling Kalvarienberg"},
+  {"id":12520614565,"lat":47.148331,"lon":14.41804,"k":"x","n":"Scheifling Bahnhof"}
+],
+"routes":[
+  {"id":15044791,"t":{"ref":"891","name":"Bus 891: Oberwölz => Scheifling","from":"Oberwölz Volksschule","to":"Scheifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"Capellari","route":"bus","public_transport:version":"2"},"n":12,"s":[[10284665847,12]]},
+  {"id":15044793,"t":{"ref":"891","name":"Bus 891: Scheifling => Oberwölz","from":"Scheifling Bahnhof","to":"Oberwölz Volksschule","network":"Verkehrsverbund Steiermark","operator":"Capellari","route":"bus","public_transport:version":"2"},"n":13,"s":[[10284665847,1]]},
+  {"id":15268924,"t":{"ref":"890","name":"Bus 880: Unzmarkt => Neumarkt","from":"Unzmarkt Bahnhof","to":"Neumarkt Busbahnhof","network":"Verkehrsverbund Steiermark","operator":"Steiermarkbahn und Bus","route":"bus","public_transport:version":"2"},"n":16,"s":[[10200141170,6],[9159473622,7],[9159473641,8],[9156151883,9]]},
+  {"id":15268926,"t":{"ref":"890","name":"Bus 890: Murau Bahnhof => Scheifling Bahnhof","from":"Murau Bahnhof B","to":"Scheifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":24,"s":[[10542792697,23],[10284665847,24]]},
+  {"id":15268947,"t":{"ref":"890","name":"Bus 890: Unzmarkt Bahnhof => Murau Bahnhof (via Scheifling Ortsmitte)","from":"Unzmarkt Bahnhof","to":"Murau Bahnhof B","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":27,"s":[[10542792697,7]]},
+  {"id":16467001,"t":{"ref":"880","name":"Bus 880: Scheifling => Perchau","from":"Scheifling Bahnhof","to":"Perchau am Sattel Gemeindeamt","network":"Verkehrsverbund Steiermark","operator":"Steiermarkbahn und Bus","route":"bus","public_transport:version":"2"},"n":6,"s":[[10284665847,1],[10200141170,2],[9159473622,3],[9159473641,4],[9156151883,5]]},
+  {"id":16467002,"t":{"ref":"890","name":"Bus 880: Scheifling => Neumarkt","from":"Scheifling Ritter-Ilsung-Platz","to":"Neumarkt Busbahnhof","network":"Verkehrsverbund Steiermark","operator":"Steiermarkbahn und Bus","route":"bus","public_transport:version":"2"},"n":13,"s":[[10542792697,2],[10200141170,3],[9159473622,4],[9159473641,5],[9156151883,6]]},
+  {"id":16467003,"t":{"ref":"880","name":"Bus 880: Neumarkt => Scheifling Ritter-Ilsung-Platz","from":"Neumarkt Busbahnhof","to":"Scheifling Ritter-Ilsung-Platz","network":"Verkehrsverbund Steiermark","operator":"Steiermarkbahn und Bus","route":"bus","public_transport:version":"2"},"n":13,"s":[[9159473638,9],[9159473623,10],[10200141172,11],[10284665846,12]]},
+  {"id":16467005,"t":{"ref":"890","name":"Bus 890: Scheifling Bahnhof => Murau Bahnhof","from":"Scheifling Bahnhof","to":"Murau Bahnhof B","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":23,"s":[[10284665847,1],[10284665846,2]]},
+  {"id":16467006,"t":{"ref":"880","name":"Bus 880: Neumarkt => Scheifling Bahnhof","from":"Neumarkt Busbahnhof","to":"Scheifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"Steiermarkbahn und Bus","route":"bus","public_transport:version":"2"},"n":12,"s":[[9159473638,9],[9159473623,10],[10200141172,11],[10284665847,12]]},
+  {"id":19931581,"t":{"ref":"890","name":"Bus 890: Murau Bahnhof => Unzmarkt Bahnhof (via Murau Abzweigung Stolzalpe)","from":"Murau Bahnhof B","to":"Unzmarkt Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":28,"s":[[10284665846,22]]},
+  {"id":19931582,"t":{"ref":"890","name":"Bus 890: Murau Bahnhof => Unzmarkt Bahnhof (via Scheifling Kalvarienberg)","from":"Murau Bahnhof B","to":"Unzmarkt Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":27,"s":[[10284665846,21]]},
+  {"id":19931584,"t":{"ref":"890","name":"Bus 890: Murau Bahnhof => Scheifling Bahnhof (zusätzlicher Halt in Triebendorf)","from":"Murau Bahnhof B","to":"Scheifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":25,"s":[[10542792697,24],[10284665847,25]]}
+]
+}

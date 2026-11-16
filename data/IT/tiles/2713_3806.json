@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3806],
+"stops":[
+  {"id":13536411827,"lat":45.673111,"lon":10.339744,"k":"p","n":"Bione municipio"},
+  {"id":13536411828,"lat":45.670587,"lon":10.342217,"k":"p","n":"Bione, via don giuseppe bazzoli"},
+  {"id":13536411829,"lat":45.664941,"lon":10.34156,"k":"p","n":"Bione, via oddone grazioli 16"},
+  {"id":13536411830,"lat":45.658639,"lon":10.344341,"k":"p","n":"Agnosine bivio bione"},
+  {"id":13536411831,"lat":45.655013,"lon":10.346203,"k":"p","n":"Agnosine, via roma 136"},
+  {"id":13536411841,"lat":45.651016,"lon":10.349743,"k":"p","n":"Agnosine via circonvallazione"},
+  {"id":13536775629,"lat":45.650881,"lon":10.349486,"k":"p","n":"Agnosine, via circonvallazione 21"},
+  {"id":13536775630,"lat":45.654968,"lon":10.345892,"k":"p","n":"Ristorante miravalle"},
+  {"id":13536775631,"lat":45.663918,"lon":10.337303,"k":"p","n":"Mad.della rupe"},
+  {"id":13536775632,"lat":45.670107,"lon":10.337577,"k":"p","n":"Bione, via santi 14"},
+  {"id":13537190347,"lat":45.699129,"lon":10.322074,"k":"p","n":"Casto piane"},
+  {"id":13537190348,"lat":45.696927,"lon":10.317605,"k":"p","n":"Casto bivio v.paolo vi"},
+  {"id":13537190349,"lat":45.694893,"lon":10.31919,"k":"p","n":"Casto piazza"},
+  {"id":13537190350,"lat":45.696154,"lon":10.331585,"k":"p","n":"Malpaga"},
+  {"id":13537190351,"lat":45.698008,"lon":10.337325,"k":"p","n":"Casto (s.p. iii, n 85)"},
+  {"id":13537190352,"lat":45.69874,"lon":10.341968,"k":"p","n":"Zanetti"},
+  {"id":13602123316,"lat":45.654541,"lon":10.345259,"k":"p","n":"Agnosine bivio s.andrea"},
+  {"id":13602123331,"lat":45.655313,"lon":10.344915,"k":"p","n":"Agnosine bivio s.andrea"}
+],
+"routes":[
+  {"id":20192853,"t":{"ref":"LN019","name":"Bus LN019: Vestone->Bione","from":"Vestone Autostazione","to":"Bione muncipio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[13536411841,18],[13536411831,19],[13536411830,20],[13536411829,21],[13536411828,22],[13536411827,23]]},
+  {"id":20193432,"t":{"ref":"LN019","name":"Bus LN019: Bione->Vestone","from":"Bione muncipio","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[13536411827,1],[13536775632,2],[13536775631,3],[13536411830,4],[13536411831,5],[13536775629,6]]},
+  {"id":20193843,"t":{"ref":"LN024","name":"Bus LN024: Bione->Brescia","from":"Bione, via oddone grazioli 16","to":"Brescia Stazione Metro Prealpino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":32,"s":[[13536411829,1],[13536411828,2],[13536411827,3],[13536775632,4],[13536775631,5],[13536411830,6],[13536775630,7],[13536775629,8]]},
+  {"id":20193844,"t":{"ref":"LN024","name":"Bus LN024: Brescia->Bione","from":"Brescia Stazione Metro Prealpino","to":"Bione Mad.della rupe","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":34,"s":[[13536411841,27],[13536411831,28],[13536411830,29],[13536411829,30],[13536411828,31],[13536411827,32],[13536775632,33],[13536775631,34]]},
+  {"id":20193928,"t":{"ref":"LN031-V","name":"Bus LN031-V: Vestone->Mura->Vestone","from":"Mura (Capolinea), Mura","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[13537190347,7],[13537190348,8],[13537190349,9],[13537190350,10],[13537190351,11],[13537190352,12]]},
+  {"id":20193929,"t":{"ref":"LN031-V","name":"Bus LN031-V: Vestone->Mura","from":"Vestone Autostazione","to":"Mura (Capolinea), Mura","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[13537190352,9],[13537190351,10],[13537190350,11],[13537190349,12],[13537190348,13],[13537190347,14]]},
+  {"id":20265099,"t":{"ref":"RL201V","name":"Bus RL201V Lumezzane => Vestone","from":"Lumezzane Saleri","to":"Vestone Autostazioe","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":33,"s":[[13602123316,13],[13536411830,14],[13536411841,15]]},
+  {"id":20265100,"t":{"ref":"RL201V","name":"Bus RL201V: Vestone =>Lumezzane (Gardone Val Trompia)","from":"Vestone Autostazione","to":"Lumezzane Saleri","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":34,"s":[[13536411841,19],[13536411831,20],[13536411830,21],[13602123331,22]]}
+]
+}

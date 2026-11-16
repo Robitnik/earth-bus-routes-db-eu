@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2761,3881],
+"stops":[
+  {"id":3257693708,"lat":48.073546,"lon":14.052785,"k":"p","n":"Sattledt B122/Friedhofstraße"},
+  {"id":3257693717,"lat":48.073842,"lon":14.054005,"k":"p","n":"Sattledt B122/Friedhofstraße"},
+  {"id":6638595673,"lat":48.073982,"lon":14.057539,"k":"p","n":"Sattledt Bahnhof"},
+  {"id":8938548597,"lat":48.071123,"lon":14.05585,"k":"p","n":"Sattledt Schule"},
+  {"id":8938548598,"lat":48.067431,"lon":14.088719,"k":"p","n":"Sattledt Heiligenkreuz"},
+  {"id":8938548599,"lat":48.067415,"lon":14.088183,"k":"p","n":"Sattledt Heiligenkreuz"},
+  {"id":8938548600,"lat":48.072309,"lon":14.068942,"k":"p","n":"Sattledt Hoferstraße"},
+  {"id":8938548601,"lat":48.07216,"lon":14.068268,"k":"p","n":"Sattledt Hoferstraße"},
+  {"id":8938548608,"lat":48.052063,"lon":14.056924,"k":"p","n":"Großendorf Industriegebiet"},
+  {"id":8938548609,"lat":48.052732,"lon":14.056201,"k":"p","n":"Großendorf Industriegebiet"},
+  {"id":8938548610,"lat":48.060404,"lon":14.052591,"k":"p","n":"Sattledt Maidorf"},
+  {"id":8938548611,"lat":48.060994,"lon":14.052508,"k":"p","n":"Sattledt Maidorf"}
+],
+"routes":[
+  {"id":9820939,"t":{"ref":"455","name":"Bus 455: Wels => Sattledt => Rohr","from":"Wels Hauptbahnhof","to":"Rohr Bahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":27,"s":[[3257693708,15],[6638595673,16],[8938548601,17],[8938548599,18]]},
+  {"id":9823893,"t":{"ref":"455","name":"Bus 455: Rohr => Sattledt => Wels","from":"Rohr Bahnhof","to":"Wels Hauptbahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":26,"s":[[8938548598,9],[8938548600,10],[6638595673,11],[3257693717,12]]},
+  {"id":10474914,"t":{"ref":"483","name":"Bus 483: Sattledt => Ried/Traunkreis => Kirchdorf/Krems","from":"Wels Hauptbahnhof","to":"Kirchdorf/Krems Busterminal Kino","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":25,"s":[[6638595673,1],[8938548597,2],[8938548611,3],[8938548609,4]]},
+  {"id":10474915,"t":{"ref":"483","name":"Bus 483: Kirchdorf/Krems => Ried/Traunkreis => Sattledt","from":"Kirchdorf/Krems Busbahnhof Kino","to":"Wels Hauptbahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":27,"s":[[8938548608,24],[8938548610,25],[8938548597,26],[6638595673,27]]},
+  {"id":10485297,"t":{"ref":"503","name":"Bus 503: (Sattledt -) Steinerkirchen - Lambach","from":"Steinerkirchen","to":"Lambach","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[6638595673,1],[3257693717,2]]},
+  {"id":10485298,"t":{"ref":"503","name":"Bus 503: Lambach - Steinerkirchen (-Sattledt)","from":"Lambach","to":"Steinerkirchen","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[3257693708,18],[6638595673,19]]}
+]
+}

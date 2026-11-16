@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3807],
+"stops":[
+  {"id":9652641378,"lat":45.478159,"lon":10.392731,"k":"p","n":"Ponte San Marco - Biemme"},
+  {"id":9652641379,"lat":45.47792,"lon":10.392974,"k":"p","n":"Ponte San Marco - Biemme"},
+  {"id":9652641380,"lat":45.481364,"lon":10.386144,"k":"p","n":"Ponte San Marco - San Giorgio"},
+  {"id":9652641381,"lat":45.4819,"lon":10.384972,"k":"p","n":"Ponte San Marco - San Giorgio"},
+  {"id":9652641382,"lat":45.492377,"lon":10.3619,"k":"p","n":"Mazzano - Loc. Santellone"},
+  {"id":9652641383,"lat":45.492013,"lon":10.362312,"k":"p","n":"Mazzano - Loc. Santellone"},
+  {"id":13418599111,"lat":45.459503,"lon":10.386353,"k":"p","n":"GARLETTI - Via Mazzini, Pizzeria"},
+  {"id":13418599112,"lat":45.45758,"lon":10.398629,"k":"p","n":"CALCINATELLO - Via S.Maria, 77"},
+  {"id":13418599113,"lat":45.459623,"lon":10.393823,"k":"p","n":"CALCINATELLO - P.za Europa, Banca"},
+  {"id":13427190090,"lat":45.459562,"lon":10.393083,"k":"p","n":"CALCINATELLO - Via S.Maria, 219"},
+  {"id":13427190091,"lat":45.45742,"lon":10.383571,"k":"p","n":"GARLETTI - Via Mazzini, 9/11","ref":"0162017"},
+  {"id":13535098126,"lat":45.457749,"lon":10.383717,"k":"p","n":"GARLETTI - Via Mazzini, pensilina","ref":"0162018"}
+],
+"routes":[
+  {"id":14021393,"t":{"ref":"LN034","name":"Bus LN034: Brescia => Desenzano","from":"Brescia","to":"Desenzano","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":27,"s":[[9652641383,16],[9652641381,17],[9652641379,18]]},
+  {"id":14021394,"t":{"ref":"LN034","name":"Bus LN034: Desenzano => Brescia","from":"Desenzano","to":"Brescia","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":26,"s":[[9652641378,10],[9652641380,11],[9652641382,12]]},
+  {"id":20029114,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => S.EUFEMIA - Stazione Metro => Brescia","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"BRESCIA S.EUFEMIA - Stazione Metro;Brescia Autostatzione","network":"OPAM","route":"bus","public_transport:version":"2"},"n":37,"s":[[13418599112,16],[13418599113,17],[13418599111,18]]},
+  {"id":20040929,"t":{"ref":"LS34","name":"Linea LS34: Brescia => S.EUFEMIA - Stazione Metro => Carpenedolo Corsa 9","from":"Brescia Autostazione","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":30,"s":[[13418599111,13],[13418599113,14],[13418599112,15]]},
+  {"id":20040930,"t":{"ref":"LS34","name":"Linea LS34: Carpenedolo => Desenzano (via Vighizzolo)","from":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","to":"Desenzano Via Anelli","network":"OPAM","route":"bus","public_transport:version":"2"},"n":29,"s":[[13427190091,15],[13427190090,16],[13418599112,17]]},
+  {"id":20046036,"t":{"ref":"LS34","name":"Linea LS34: Desenzano => Carpenodolo","from":"Desenzano V.Michelangelo, Ist. Alberghiero","to":"CARPENEDOLO - Via Papa Giovanni XXIII, 127/118","network":"OPAM","route":"bus","public_transport:version":"2"},"n":29,"s":[[13418599112,13],[13418599113,14],[13418599111,15]]}
+]
+}

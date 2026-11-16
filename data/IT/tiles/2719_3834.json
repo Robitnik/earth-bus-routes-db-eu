@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2719,3834],
+"stops":[
+  {"id":6896415051,"lat":45.965559,"lon":11.702483,"k":"p","n":"Primolano - Stazione FS","ref":"418"},
+  {"id":6896423069,"lat":45.960098,"lon":11.708806,"k":"p","n":"Primolano","ref":"417"},
+  {"id":8825406061,"lat":45.987603,"lon":11.733114,"k":"p","n":"Arsiè - Mezzavia"},
+  {"id":8825406062,"lat":45.987407,"lon":11.732815,"k":"p","n":"Arsiè - Mezzavia"},
+  {"id":8825406063,"lat":45.977548,"lon":11.719854,"k":"p","n":"Fastro - Tre Case"},
+  {"id":8825406064,"lat":45.977597,"lon":11.720137,"k":"p","n":"Fastro - Tre Case"},
+  {"id":8825406065,"lat":45.973344,"lon":11.717329,"k":"p","n":"Fastro"},
+  {"id":8825406066,"lat":45.97306,"lon":11.717029,"k":"p","n":"Fastro"},
+  {"id":8825406067,"lat":45.969271,"lon":11.716674,"k":"p","n":"Fastro - Chiesa S.S."},
+  {"id":8825406068,"lat":45.968989,"lon":11.716742,"k":"p","n":"Fastro - Chiesa S.S."},
+  {"id":8825406069,"lat":45.964232,"lon":11.711793,"k":"p","n":"Primolano - Mezzascala"},
+  {"id":8825406070,"lat":45.964276,"lon":11.711614,"k":"p","n":"Primolano - Mezzascala"},
+  {"id":8825591125,"lat":45.965653,"lon":11.701164,"k":"p","n":"Primolano FS"},
+  {"id":8825591126,"lat":45.960549,"lon":11.71401,"k":"p","n":"S. Vito d'Arsiè"},
+  {"id":8827503291,"lat":45.951381,"lon":11.749993,"k":"p","n":"Rocca d'Arsiè - S. Antonio"},
+  {"id":8827503292,"lat":45.951754,"lon":11.749664,"k":"p","n":"Rocca d'Arsiè - S. Antonio"},
+  {"id":8827503301,"lat":45.990083,"lon":11.745948,"k":"p","n":"Mellame"},
+  {"id":8827503302,"lat":45.990012,"lon":11.745838,"k":"p","n":"Mellame"},
+  {"id":8827503303,"lat":45.991588,"lon":11.74624,"k":"p","n":"Mellame cooperativa"},
+  {"id":8827503304,"lat":45.99156,"lon":11.74639,"k":"p","n":"Mellame cooperativa"},
+  {"id":13019356362,"lat":45.965384,"lon":11.706684,"k":"p","n":"Primolano A.Giardino"},
+  {"id":13019356363,"lat":45.965841,"lon":11.701363,"k":"p","n":"Pri olano Albdego Valsugana"}
+],
+"routes":[
+  {"id":10414198,"t":{"ref":"E48","name":"Linea extraurbana 48: Bassano - Primolano - Enego","from":"Bassano del Grappa","to":"Enego","network":"Servizio Extraurbano di Vicenza","operator":"SVT - Società Vicentina Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[6896415051,12],[6896423069,13]]},
+  {"id":10414379,"t":{"ref":"E48","name":"Linea extraurbana 48: Enego - Primolano - Bassano","from":"Enego","to":"Bassano del Grappa","network":"Società Vicentina Trasporti","operator":"Società Vicentina Trasporti","route":"bus","public_transport:version":"2"},"n":17,"s":[[6896415051,4],[6896423069,5]]},
+  {"id":12829393,"t":{"ref":"27","name":"Feltre -> Primolano","from":"Feltre FS","to":"Primolano FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":29,"s":[[8825406061,23],[8825406063,24],[8825406066,25],[8825406067,26],[8825591126,27],[8825406069,28],[8825591125,29]]},
+  {"id":12829394,"t":{"ref":"27","name":"Primolano -> Feltre","from":"Primolano FS","to":"Feltre FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":32,"s":[[8825591125,1],[8825406070,2],[8825406068,3],[8825591126,4],[8825406065,5],[8825406064,6],[8825406062,7]]},
+  {"id":12841896,"t":{"ref":"27","name":"Arsiè -> Incino","from":"Arsiè Feltrino","to":"Incino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":8,"s":[[8827503292,5]]},
+  {"id":12841897,"t":{"ref":"27","name":"Incino -> Arsiè","from":"Incino","to":"Arsiè Feltrino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":8,"s":[[8827503291,4]]},
+  {"id":12841898,"t":{"ref":"27","name":"Arsiè -> Rivai","from":"Arsiè Feltrino","to":"Rivai","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":4,"s":[[8827503301,1],[8827503304,2]]},
+  {"id":12841899,"t":{"ref":"27","name":"Rivai -> Arsiè","from":"Rivai","to":"Arsiè Feltrino","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF6600","route":"bus"},"n":4,"s":[[8827503303,3],[8827503302,4]]},
+  {"id":19382158,"t":{"ref":"B410","name":"Bus B410: Primolano->Tezze->Borgo Valsugana","from":"Primolano","to":"Borgo Valsugana C.Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":27,"s":[[13019356362,1],[13019356363,2]]},
+  {"id":19382159,"t":{"ref":"B410","name":"Bus B410: Borgo Valsugana->Tezze->Primolano","from":"Borgo Valsugana C.Intermodale","to":"Primolano","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[13019356363,25],[13019356362,26]]}
+]
+}

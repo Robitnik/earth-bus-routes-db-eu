@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2731,3847],
+"stops":[
+  {"id":8807018840,"lat":46.573546,"lon":12.393811,"k":"p","n":"Auronzo - Ligonto/via Velma"},
+  {"id":8807018841,"lat":46.573875,"lon":12.393675,"k":"p","n":"Auronzo - Ligonto/via Velma"},
+  {"id":8807018842,"lat":46.576447,"lon":12.386018,"k":"p","n":"Auronzo - Giralba cabina telefonica"},
+  {"id":8807018843,"lat":46.576378,"lon":12.386339,"k":"p","n":"Auronzo - Giralba cabina telefonica"},
+  {"id":8807018844,"lat":46.577334,"lon":12.380241,"k":"p","n":"Auronzo - Giralba","ref":"263"},
+  {"id":8807401530,"lat":46.577535,"lon":12.380345,"k":"p","n":"Auronzo - Giralba","ref":"263"},
+  {"id":8807401544,"lat":46.577213,"lon":12.375117,"k":"p","n":"Auronzo - Giralba Grava Secca"},
+  {"id":8872481163,"lat":46.57713,"lon":12.365329,"k":"p","n":"Auronzo Bivio Val Marzon"},
+  {"id":8872481164,"lat":46.577234,"lon":12.364807,"k":"p","n":"Auronzo Bivio Val Marzon"}
+],
+"routes":[
+  {"id":1945558,"t":{"ref":"31","name":"Tai di Cadore -> Auronzo","from":"Tai di Cadore - Piazzale Dolomiti","to":"Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":38,"s":[[8807018841,38]]},
+  {"id":11331299,"t":{"ref":"940","name":"Urbano Auronzo Giralba -> S. Caterina","from":"Auronzo - Giralba Grava Secca","to":"Auronzo - S. Caterina","network":"urbano","operator":"Dolomitibus s.p.a.","route":"bus"},"n":18,"s":[[8807018840,16],[8807018842,17],[8807018844,18]]},
+  {"id":11331300,"t":{"ref":"9/31","name":"Belluno -> Calalzo -> Auronzo -> Misurina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":71,"s":[[8872481164,8],[8807401530,9],[8807018843,10],[8807018841,11]]},
+  {"id":12795208,"t":{"ref":"31","name":"Auronzo -> Tai di Cadore","from":"Auronzo","to":"Tai di Cadore - Piazzale Dolomiti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[8807018840,34],[8807018842,35]]},
+  {"id":12812604,"t":{"ref":"940","name":"Urbano Auronzo S. Caterina -> Giralba","from":"Auronzo - S. Caterina","to":"Auronzo - Giralba Grava Secca","network":"urbano","operator":"Dolomitibus s.p.a.","route":"bus"},"n":19,"s":[[8807018841,13],[8807401530,14],[8807018843,15]]},
+  {"id":12896371,"t":{"ref":"9/31","name":"Tre Cime -> Misurina -> Auronzo -> Calalzo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":73,"s":[[8872481163,10],[8807018844,11],[8807018842,12],[8807018840,13]]},
+  {"id":13016644,"t":{"ref":"33/31/30","name":"Cima Sappada -> Auronzo -> Tre Cime","from":"Cima Sappada","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":50,"s":[[8872481164,10],[8807401530,11],[8807018843,12],[8807018841,13]]},
+  {"id":13016645,"t":{"ref":"33/31/30","name":"Tre Cime -> Auronzo -> Cima Sappada","from":"Tre Cime - Rifugio Auronzo","to":"Cima Sappada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":49,"s":[[8872481163,10],[8807018844,11],[8807018842,12],[8807018840,13]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[8872481163,40],[8807018844,41],[8807018842,42],[8807018840,43]]}
+]
+}

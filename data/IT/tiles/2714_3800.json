@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3800],
+"stops":[
+  {"id":13608941482,"lat":45.708874,"lon":10.046868,"k":"p","n":"Tavernola - via roma (molo)"},
+  {"id":13609036055,"lat":45.707918,"lon":10.046906,"k":"p","n":"Tavernola - via roma (banca bcc)"},
+  {"id":13620444914,"lat":45.739207,"lon":10.033146,"k":"p","n":"Parzanica - Via piazzetta"},
+  {"id":13620444915,"lat":45.73808,"lon":10.036483,"k":"p","n":"Parzanica, Parzanica"},
+  {"id":13620444916,"lat":45.73805,"lon":10.042571,"k":"p","n":"Parzanica - Belvedere"},
+  {"id":13620444917,"lat":45.734276,"lon":10.044535,"k":"p","n":"Parzanica - Acquaiolo"},
+  {"id":13620444918,"lat":45.733377,"lon":10.047893,"k":"p","n":"Parzanica - Spiglia"},
+  {"id":13620447725,"lat":45.716394,"lon":10.021798,"k":"p","n":"Vigolo - p.za giovanni XXIII (munic.), Vigol"},
+  {"id":13620447726,"lat":45.715379,"lon":10.028399,"k":"p","n":"Vigolo - via colosio bivio parzanica"},
+  {"id":13620447727,"lat":45.715162,"lon":10.03644,"k":"p","n":"Vigolo - via vicolo (polnerone)"},
+  {"id":13620447728,"lat":45.713866,"lon":10.034493,"k":"p","n":"Cambianica - via calchere (foppe)"},
+  {"id":13620447729,"lat":45.714697,"lon":10.038736,"k":"p","n":"Cambianica - via calchere (sicolo"},
+  {"id":13620447730,"lat":45.712416,"lon":10.040801,"k":"p","n":"Cambianica - via calchere"},
+  {"id":13620447731,"lat":45.71236,"lon":10.043435,"k":"p","n":"Cambianica - via rivolta (parcheggio)"},
+  {"id":13620447732,"lat":45.712225,"lon":10.045431,"k":"p","n":"Cambianica - via cambianica"},
+  {"id":13620968086,"lat":45.722287,"lon":10.049127,"k":"p","n":"Tavernola - via riva di solto (pontel)"}
+],
+"routes":[
+  {"id":20274568,"t":{"ref":"E","name":"Bus E: Bergamo => Tavernola","from":"Bergamo - Terminal Arriva","to":"Tavernola - via roma (molo)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":44,"s":[[13608941482,44]]},
+  {"id":20274894,"t":{"ref":"E","name":"Bus E: Tavernola => Bergamo","from":"Tavernola - via roma (banca bcc)","to":"Bergamo - Terminal Arriva","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":38,"s":[[13608941482,1],[13609036055,2]]},
+  {"id":20290147,"t":{"ref":"C40a","name":"Bus C40a: Vignolo ->Tavernola","from":"Vigolo - p.za giovanni XXIII (munic.), Vigolo","to":"Tavernola - via roma (molo)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[13620447725,1],[13620447726,2],[13620447727,3],[13620447728,4],[13620447729,5],[13620447730,6],[13620447731,7],[13620447732,8],[13608941482,9]]},
+  {"id":20290148,"t":{"ref":"C40a","name":"Bus C40a: Tavernola -> Vignolo","from":"Tavernola - via roma (molo)","to":"Vigolo - p.za giovanni XXIII (munic.)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[13608941482,1],[13620447732,2],[13620447731,3],[13620447730,4],[13620447729,5],[13620447728,6],[13620447727,7],[13620447726,8],[13620447725,9]]},
+  {"id":20290221,"t":{"ref":"C40a","name":"Bus C40a: Parzanica ->Tavernola","from":"Parzanica - Via piazzett","to":"Tavernola - via sarnico (carabinieri)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":7,"s":[[13620444914,2],[13620444915,3],[13620444916,4],[13620444917,5],[13620444918,6],[13608941482,7]]},
+  {"id":20290222,"t":{"ref":"C40a","name":"Bus C40a: Tavernola -> Parzanica","from":"Tavernola - via sarnico (carabinieri)","to":"Parzanica - Via piazzett","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":7,"s":[[13608941482,2],[13620444918,3],[13620444917,4],[13620444916,5],[13620444915,6],[13620444914,7]]},
+  {"id":20291124,"t":{"ref":"C40b","name":"Bus C40b: Lovere -> Tavernola","from":"Lovere - Via Marconi (Carabinieri) Tavernola","to":"Tavernola - via sarnico (carabinieri)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[13620968086,16],[13609036055,17]]}
+]
+}

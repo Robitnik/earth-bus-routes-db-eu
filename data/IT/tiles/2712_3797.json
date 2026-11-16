@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3797],
+"stops":[
+  {"id":13507691505,"lat":45.603059,"lon":9.893076,"k":"p","n":"Palazzolo - via delle Calci, stazione"},
+  {"id":13507691507,"lat":45.605234,"lon":9.897705,"k":"p","n":"Palazzolobivio sgraffigna"},
+  {"id":13507691538,"lat":45.602612,"lon":9.89378,"k":"p","n":"Palazzolo - via Marconi, stazione"},
+  {"id":13519976013,"lat":45.627942,"lon":9.855031,"k":"p","n":"Telgate - via dante"},
+  {"id":13519976014,"lat":45.63607,"lon":9.873215,"k":"p","n":"Grumello - piazza camozzi (via roma (creberg) )"},
+  {"id":13519976015,"lat":45.637338,"lon":9.882127,"k":"p","n":"Grumello - zerbimark (via roma (b.p.sondrio))"},
+  {"id":13519976016,"lat":45.63738,"lon":9.893626,"k":"p","n":"Castelli calepio, via aldo moro"},
+  {"id":13519976018,"lat":45.612139,"lon":9.88939,"k":"p","n":"Cividino - cimitero"},
+  {"id":13519976019,"lat":45.60083,"lon":9.88065,"k":"p","n":"Palazzolo - piazza mazzini"},
+  {"id":13519976020,"lat":45.600692,"lon":9.880984,"k":"p","n":"Palazzolo - piazza mazzini"},
+  {"id":13608941498,"lat":45.638794,"lon":9.893371,"k":"p","n":"Tagliuno (fronte supermercato)"},
+  {"id":13608941499,"lat":45.637209,"lon":9.881972,"k":"p","n":"Grumello monte - via roma (b.p.sondrio)"},
+  {"id":13608941500,"lat":45.635714,"lon":9.868362,"k":"p","n":"Grumello monte - via v.veneto, 53"},
+  {"id":14002931817,"lat":45.633744,"lon":9.863586,"k":"p","n":"Grumello del Monte FS - Via V. Veneto"},
+  {"id":14002931818,"lat":45.63816,"lon":9.869274,"k":"p","n":"Grumello monte - via moro (calvario)"},
+  {"id":14002931819,"lat":45.64724,"lon":9.868147,"k":"p","n":"Grumello monte - via besane"},
+  {"id":14002931820,"lat":45.64964,"lon":9.871286,"k":"p","n":"Grumello monte - san pantaleone"}
+],
+"routes":[
+  {"id":20147712,"t":{"ref":"LS003","name":"Bus LS003: Iseo => Chiari","from":"Iseo vis Gorzoni","to":"Chiari, via del Granaio, stazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":38,"s":[[13507691507,24],[13507691505,25]]},
+  {"id":20147713,"t":{"ref":"LS003","name":"Bus LS003: Chiari => Iseo","from":"Chiari, via del Granaio, stazione","to":"Iseo vis Gorzoni","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[13507691538,14]]},
+  {"id":20161333,"t":{"ref":"LS001","name":"Bus LS001: Sarnico=>Pontoglio","from":"Sarnico - Piazza Matteotti","to":"Palazzole Via Torre del Popolo","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13507691507,10],[13507691505,11]]},
+  {"id":20161334,"t":{"ref":"LS001","name":"Bus LS001: Pontoglio=>Sarnico","from":"Palazzole Via Torre del Popolo","to":"Sarnico - banca credito bergamasco","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13507691538,2]]},
+  {"id":20165286,"t":{"ref":"LS004","name":"Bus LS004: Palazzolo->Telgate->Palazzolo","from":"Palazzolo - via Torre del Popolo","to":"Palazzolo - via Torre del Popolo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13519976020,5],[13519976018,6],[13519976016,8],[13519976015,9],[13519976014,10],[13608941500,11]]},
+  {"id":20274568,"t":{"ref":"E","name":"Bus E: Bergamo => Tavernola","from":"Bergamo - Terminal Arriva","to":"Tavernola - via roma (molo)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":44,"s":[[13608941500,25],[13608941499,26],[13608941498,27]]},
+  {"id":20274894,"t":{"ref":"E","name":"Bus E: Tavernola => Bergamo","from":"Tavernola - via roma (banca bcc)","to":"Bergamo - Terminal Arriva","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":38,"s":[[13608941498,19],[13519976015,20],[13519976014,21]]},
+  {"id":20292293,"t":{"ref":"D","name":"Bus D: Bergamo->Telgate","from":"Bergamo - stazione autolinee (pens. 8)","to":"Telgate - via dante (capolinea)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":23,"s":[[13519976013,23]]},
+  {"id":20292959,"t":{"ref":"D","name":"Bus D: Telgate -> Bergamo","from":"Telgate - via dante (capolinea)","to":"Bergamo - stazione autolinee (pens. 8)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":23,"s":[[13519976013,1]]},
+  {"id":21085498,"t":{"ref":"E20d","name":"Bus E20d: Grumello Monte => Sarnico","from":"Grumello del Monte FS - Via V. Veneto","to":"Sarnico - via roma (municipio)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[14002931817,1],[13608941500,2],[14002931818,3],[14002931819,4],[14002931820,5]]},
+  {"id":21085499,"t":{"ref":"E20d","name":"Bus E20d Sarnico => Grumello Monte","from":"Sarnico - via roma (municipio)","to":"Grumello del Monte FS - Via V. Veneto","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[14002931820,11],[14002931819,12],[14002931818,13],[13608941500,14],[14002931817,15]]},
+  {"id":21092542,"t":{"ref":"Eex","name":"Bus Eex: Bergamo -> Iseo","from":"Bergamo Autolinee (Pensilina 7)","to":"Iseo - via gorzoni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":16,"s":[[13608941498,3]]}
+]
+}

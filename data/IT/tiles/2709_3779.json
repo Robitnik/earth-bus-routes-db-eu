@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3779],
+"stops":[
+  {"id":1323030148,"lat":45.499501,"lon":8.996585,"k":"p"},
+  {"id":2417963581,"lat":45.484959,"lon":8.959337,"k":"p","n":"Via Milano (Vittuone)"},
+  {"id":2417963583,"lat":45.487552,"lon":8.976994,"k":"p","n":"Via Fagnani (Sedriano)"},
+  {"id":2417963588,"lat":45.48559,"lon":8.996845,"k":"p","n":"Via Novara (Bareggio)"},
+  {"id":2417963589,"lat":45.485792,"lon":8.996668,"k":"p","n":"Via Novara (Bareggio)"},
+  {"id":2417963590,"lat":45.487383,"lon":8.976804,"k":"p","n":"Via Fagnani (Sedriano)"},
+  {"id":2417963591,"lat":45.486912,"lon":8.967657,"k":"p","n":"Via Magenta (Sedriano)"},
+  {"id":2417963592,"lat":45.487055,"lon":8.967652,"k":"p","n":"Via Magenta (Sedriano)"},
+  {"id":2417963595,"lat":45.485314,"lon":8.961336,"k":"p","n":"Via Milano (Vittuone)"},
+  {"id":3789311582,"lat":45.477682,"lon":8.997879,"k":"p","n":"Via Roma - Corso Italia (Bareggio)","ref":"15791"},
+  {"id":11092202703,"lat":45.483511,"lon":8.953568,"k":"p"},
+  {"id":11092202704,"lat":45.483362,"lon":8.953635,"k":"p"},
+  {"id":11098012244,"lat":45.486337,"lon":8.985314,"k":"p"},
+  {"id":11098012245,"lat":45.486208,"lon":8.985443,"k":"p"},
+  {"id":12633396736,"lat":45.477686,"lon":8.997925,"k":"x","n":"Via Roma - Corso Italia (Bareggio)","ref":"15791"},
+  {"id":12716546551,"lat":45.485287,"lon":8.996113,"k":"p","n":"Bareggio (Via Roma)","ref":"16319"},
+  {"id":12716546552,"lat":45.485302,"lon":8.996189,"k":"x","n":"Bareggio (Via Roma)","ref":"16319"},
+  {"id":12718560243,"lat":45.484551,"lon":8.996414,"k":"p","n":"Bareggio (Via Roma)","ref":"16344"},
+  {"id":12718560244,"lat":45.484544,"lon":8.996354,"k":"x","n":"Bareggio (Via Roma)","ref":"16344"},
+  {"id":12718560245,"lat":45.479372,"lon":8.99843,"k":"x","n":"Via Gallina - Via Roma (Bareggio)","ref":"16343"},
+  {"id":12718560246,"lat":45.479434,"lon":8.998393,"k":"p","n":"Via Gallina - Via Roma (Bareggio)","ref":"16343"}
+],
+"routes":[
+  {"id":2919887,"t":{"ref":"424","name":"424 Bareggio → Molino Dorino M1","from":"Bareggio, Via Francesco Gallina","to":"Miano, Autostazione Molino Dorino M1","network":"STIBM","operator":"ATM","route":"bus","public_transport:version":"2"},"n":11,"s":[[3789311582,2]]},
+  {"id":3139644,"t":{"ref":"z620","name":"z620 Magenta → Milano","from":"Magenta, via Walter Tobagi (dep. Movibus)","to":"Milano, Autostazione Molino Dorino M1","network":"STIBM","operator":"Movibus","route":"bus","public_transport:version":"2"},"n":11,"s":[[11092202704,2],[2417963595,3],[2417963591,4],[2417963590,5],[2417963588,7]]},
+  {"id":3139647,"t":{"ref":"z620","name":"z620 Milano → Magenta","from":"Milano, Autostazione Molino Dorino M1","to":"Magenta, via Walter Tobagi (dep. Movibus)","network":"STIBM","operator":"Movibus","route":"bus","public_transport:version":"2"},"n":11,"s":[[2417963581,7],[11092202703,8],[2417963592,9],[2417963583,10],[2417963589,11]]},
+  {"id":7701166,"t":{"ref":"z622","name":"Bus z622: Cuggiono => Vittuone","from":"Cuggione","to":"Vittuone","network":"STIBM","operator":"Movibus","colour":"#4BBCCD","route":"bus","public_transport:version":"2"},"n":4,"s":[[11092202703,4]]},
+  {"id":7701167,"t":{"ref":"z622","name":"Bus z622: Vittuone => Cuggiono","from":"Vittuone","to":"Cuggiono","network":"STIBM","operator":"Movibus","colour":"#4BBCCD","route":"bus","public_transport:version":"2"},"n":3,"s":[[11092202704,1]]},
+  {"id":18919371,"t":{"ref":"431","name":"431 Bareggio → Rho","from":"Bareggio, Via Roma","to":"Rho, frazione Passirana","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":22,"s":[[12716546551,1],[3789311582,2]]},
+  {"id":18922950,"t":{"ref":"431","name":"431 Rho → Bareggio","from":"Rho, frazione Passirana","to":"Bareggio, Via Roma","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":22,"s":[[12718560246,20],[12718560243,21],[12716546551,22]]}
+]
+}

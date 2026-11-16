@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2762,3862],
+"stops":[
+  {"id":728506078,"lat":48.131383,"lon":13.145433,"k":"p","n":"Furth Gh Kronberger"},
+  {"id":728506093,"lat":48.130964,"lon":13.14572,"k":"p","n":"Furth Gh Kronberger (ehem.)"},
+  {"id":747259476,"lat":48.112174,"lon":13.102207,"k":"p","n":"Humertsham"},
+  {"id":4413976658,"lat":48.107679,"lon":13.149525,"k":"x","n":"Mattighofen Busbahnhof"},
+  {"id":5044786331,"lat":48.109245,"lon":13.104485,"k":"p","n":"Stapfing"},
+  {"id":5044786332,"lat":48.109284,"lon":13.10464,"k":"p","n":"Stapfing"},
+  {"id":5044805217,"lat":48.11224,"lon":13.102339,"k":"p","n":"Humertsham"},
+  {"id":5145306446,"lat":48.101569,"lon":13.136736,"k":"p","n":"Mattighofen Mattigstraße"},
+  {"id":5145306451,"lat":48.101481,"lon":13.136758,"k":"p","n":"Mattighofen Mattigstraße"},
+  {"id":6837967677,"lat":48.107649,"lon":13.149617,"k":"p","n":"Mattighofen Busbahnhof"},
+  {"id":6837967678,"lat":48.107716,"lon":13.149409,"k":"p","n":"Mattighofen Busbahnhof"},
+  {"id":9402154920,"lat":48.148282,"lon":13.124423,"k":"p","n":"Uttendorf/Mattig Höfen"},
+  {"id":9402154921,"lat":48.147836,"lon":13.124471,"k":"p","n":"Uttendorf/Mattig Höfen"}
+],
+"routes":[
+  {"id":10098127,"t":{"ref":"875","name":"Bus 875: Mattighofen - Palting - Mattsee","from":"Mattighofen Busbahnhof","to":"Mattsee Seeparkplatz Nord","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":19,"s":[[6837967677,1]]},
+  {"id":10098144,"t":{"ref":"875","name":"Bus 875: Palting - Mattighofen","from":"Palting Ortsmitte (Mattseer Straße)","to":"Mattighofen Busbahnhof","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":13,"s":[[6837967677,13]]},
+  {"id":13631006,"t":{"ref":"876","name":"Bus 876: Frauschereck - Oberminathal - Maria Schmolln - Mattighofen","from":"Frauschereck","to":"Mattighofen Busbahnhof","route":"bus","public_transport:version":"2"},"n":24,"s":[[6837967678,20],[6837967677,24]]},
+  {"id":13631007,"t":{"ref":"876","name":"Bus 876: St. Johann - Sollach - Maria Schmolln - Mattighofen","from":"St. Johann am Walde Ortsmitte","to":"Mattighofen Busbahnhof","route":"bus","public_transport:version":"2"},"n":14,"s":[[6837967678,14]]},
+  {"id":13633126,"t":{"ref":"872","name":"Bus 872: Mattighofen - Straßwalchen","from":"Mattighofen Busbahnhof","to":"Straßwalchen BORG","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[6837967678,1]]},
+  {"id":13633127,"t":{"ref":"872","name":"Bus 872: Straßwalchen - Mattighofen","from":"Straßwalchen BORG","to":"Mattighofen Busbahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[6837967677,21]]},
+  {"id":13633132,"t":{"ref":"876","name":"Bus 876: Mattighofen - Maria Schmolln - Sollach - Frauschereck","from":"Mattighofen Mittelschule","to":"Frauschereck","route":"bus","public_transport:version":"2"},"n":20,"s":[[6837967677,3]]},
+  {"id":13633133,"t":{"ref":"876","name":"Bus 876: Mattighofen - Maria Schmolln - Oberminathal - Frauschereck","from":"Mattighofen Mittelschule","to":"Frauschereck","route":"bus","public_transport:version":"2"},"n":24,"s":[[6837967677,3]]},
+  {"id":13634280,"t":{"ref":"874","name":"Bus 874: Perwang - Mattighofen","from":"Perwang am Grabensee Ortsmitte","to":"Mattighofen Busbahnhof","route":"bus","public_transport:version":"2"},"n":14,"s":[[5145306451,11],[6837967677,14]]},
+  {"id":13634281,"t":{"ref":"874","name":"Bus 874: Mattighofen - Perwang","from":"Mattighofen Busbahnhof","to":"Perwang am Grabensee Ortsmitte","route":"bus","public_transport:version":"2"},"n":15,"s":[[6837967678,1],[5145306446,4]]},
+  {"id":13634283,"t":{"ref":"873","name":"Bus 873: Mattighofen - Straßwalchen","from":"Mattighofen Busbahnhof","to":"Straßwalchen BORG","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[6837967678,1]]},
+  {"id":13634284,"t":{"ref":"873","name":"Bus 873: Straßwalchen - Mattighofen","from":"Straßwalchen BORG","to":"Mattighofen Busbahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"OÖVV","route":"bus","public_transport:version":"2"},"n":20,"s":[[6837967677,20]]},
+  {"id":13637497,"t":{"ref":"881","name":"Bus 881: Neukirchen/Enknach - Mattighofen","from":"Neukirchen an der Enknach Ortsmitte","to":"Mattighofen Busbahnhof","route":"bus","public_transport:version":"2"},"n":13,"s":[[747259476,6],[5044786331,7],[5145306451,10],[6837967677,13]]},
+  {"id":13637498,"t":{"ref":"881","name":"Bus 881: Mattighofen - Neukirchen/E. - Braunau","from":"Mattighofen Busbahnhof","to":"Braunau Busbahnhof (Kolpingstraße)","route":"bus","public_transport:version":"2"},"n":24,"s":[[6837967678,1],[5145306446,4],[5044786332,7],[5044805217,8]]},
+  {"id":13649116,"t":{"ref":"861","name":"Bus 861: Mattighofen - Mauerkirchen - Braunau","from":"Mattighofen Busbahnhof","to":"Braunau Busbahnhof (Kolpingstraße)","route":"bus","public_transport:version":"2"},"n":24,"s":[[6837967677,3],[728506078,5],[9402154920,6]]},
+  {"id":13649119,"t":{"ref":"861","name":"Bus 861: Braunau - Mauerkirchen - Mattighofen","from":"Braunau Busbahnhof (Kolpingplatz)","to":"Mattighofen Busbahnhof","route":"bus","public_transport:version":"2"},"n":22,"s":[[9402154921,18],[6837967678,20]]}
+]
+}

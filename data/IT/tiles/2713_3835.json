@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3835],
+"stops":[
+  {"id":848668250,"lat":45.65036,"lon":11.794999,"k":"p","n":"Da gamba"},
+  {"id":854449987,"lat":45.667962,"lon":11.791818,"k":"p"},
+  {"id":3702581958,"lat":45.678359,"lon":11.755794,"k":"p","n":"Laghi"},
+  {"id":4048727671,"lat":45.678113,"lon":11.756182,"k":"p"},
+  {"id":6776800840,"lat":45.696675,"lon":11.76955,"k":"p","n":"Cusinati","ref":"E000504R"},
+  {"id":6776800841,"lat":45.696496,"lon":11.76978,"k":"p","n":"Cusinati","ref":"E0000504"},
+  {"id":6776807666,"lat":45.690879,"lon":11.771444,"k":"p","n":"Noviziato","ref":"E000503R"},
+  {"id":6776807667,"lat":45.691433,"lon":11.771501,"k":"p","n":"Noviziato","ref":"E0000503"},
+  {"id":6776807668,"lat":45.681797,"lon":11.773834,"k":"p","n":"Belvedere di Tezze","ref":"E000502R"},
+  {"id":6776807669,"lat":45.681942,"lon":11.773964,"k":"p","n":"Belvedere di Tezze","ref":"E0000502"},
+  {"id":6776807670,"lat":45.673783,"lon":11.776018,"k":"p","n":"Ca' Moro","ref":"E000501R"},
+  {"id":6776807671,"lat":45.674467,"lon":11.775907,"k":"p","n":"Ca' Moro","ref":"E0000501"},
+  {"id":6777056758,"lat":45.664108,"lon":11.779624,"k":"p","n":"Pozzetto","ref":"E000500R"},
+  {"id":6777056759,"lat":45.665074,"lon":11.779555,"k":"p","n":"Pozzetto","ref":"E0000500"},
+  {"id":6777659893,"lat":45.650075,"lon":11.786894,"k":"p","n":"Cittadella Porta Treviso","ref":"E0000816"},
+  {"id":12888730382,"lat":45.655664,"lon":11.781974,"k":"p"},
+  {"id":12953999462,"lat":45.650512,"lon":11.795182,"k":"p","n":"Da gamba"},
+  {"id":12959296169,"lat":45.651534,"lon":11.784915,"k":"p","n":"Cittadella Riva Grappa"},
+  {"id":12959350803,"lat":45.650381,"lon":11.77683,"k":"p","n":"Cittadella Istituto Girardi"}
+],
+"routes":[
+  {"id":10011659,"t":{"ref":"E021","name":"Linea extraurbana 21: Bassano - Cittadella - Padova","from":"Bassano","to":"Padova","network":"Busitalia Veneto","operator":"Busitalia Veneto","route":"bus","public_transport:version":"2"},"n":53,"s":[[6776800840,12],[6776807666,13],[6776807668,14],[6776807670,15],[6777056758,16]]},
+  {"id":10012087,"t":{"ref":"E021","name":"Linea extraurbana 21: Padova - Cittadella - Bassano","from":"Padova","to":"Bassano","network":"Busitalia Veneto","route":"bus","public_transport:version":"2"},"n":52,"s":[[6777659893,36],[6777056759,38],[6776807671,39],[6776807669,40],[6776807667,41],[6776800841,42]]},
+  {"id":18463505,"t":{"ref":"106b","name":"Bus 106B: Castelfranco Veneto - Vicenza","from":"Castelfranco Veneto","to":"Vicenza","network":"Extraurbano MOM","operator":"Mobilità di Marca","colour":"#ca5462","route":"bus","public_transport:version":"2"},"n":40,"s":[[12953999462,12],[12959296169,14]]},
+  {"id":19290979,"t":{"ref":"150","name":"Bus 150: Castelfranco Veneto - Cittadella","from":"Castelfranco Veneto","to":"Cittadella","network":"Extraurbano MOM","operator":"Mobilità di Marca (MOM)","colour":"#e9a2c8","route":"bus","public_transport:version":"2"},"n":23,"s":[[12953999462,18],[12959296169,21],[12959350803,22]]},
+  {"id":19298332,"t":{"ref":"149","name":"Bus 149: Castelfranco Veneto - Cittadella","from":"Castelfranco Veneto","to":"Cittadella","network":"Extraurbano MOM","operator":"Mobilità di Marca (MOM)","colour":"#1587aa","route":"bus","public_transport:version":"2"},"n":39,"s":[[12953999462,33],[12959296169,36]]},
+  {"id":19298697,"t":{"ref":"150","name":"Bus 150: Cittadella - Castelfranco Veneto","from":"Cittadella","to":"Castelfranco Veneto","network":"Extraurbano MOM","operator":"Mobilità di Marca (MOM)","colour":"#e9a2c8","route":"bus","public_transport:version":"2"},"n":21,"s":[[12959350803,1],[848668250,4]]},
+  {"id":19299212,"t":{"ref":"149","name":"Linea Estiva Bus 149: Cittadella - Castelfranco Veneto","from":"Cittadella","to":"Castelfranco Veneto","network":"Extraurbano MOM","operator":"Mobilità di Marca (MOM)","colour":"#1587aa","route":"bus","public_transport:version":"2"},"n":38,"s":[[848668250,3]]},
+  {"id":19411416,"t":{"ref":"106b","name":"Bus 106B: Vicenza - Castelfranco Veneto","from":"Vicenza","to":"Castelfranco Veneto","network":"Extraurbano MOM","operator":"Mobilità di Marca","colour":"#ca5462","route":"bus","public_transport:version":"2"},"n":38,"s":[[848668250,26]]},
+  {"id":21173107,"t":{"ref":"E021","name":"Busitalia extraurbana E021 Cittadella Polo Scolastico","from":"Bassano","to":"Padova","network":"Busitalia Veneto","operator":"Busitalia Veneto","route":"bus"},"n":54,"s":[[6776800840,12],[6776807666,13],[6776807668,14],[6776807670,15],[6777056758,16]]},
+  {"id":21231769,"t":{"ref":"149","name":"Extraurbana MOM 149 completa","from":"Cittadella Polo Scolastico","to":"Castelfranco","network":"Extraurbana MOM","operator":"Mobilità di Marca (MOM)","colour":"#1587aa","route":"bus"},"n":49,"s":[[848668250,6],[12959350803,48]]},
+  {"id":21239136,"t":{"ref":"149","name":"Extraurbana MOM 149","from":"Cittadella Polo Scolastico","to":"Castelfranco","network":"Extraurbana MOM","operator":"Mobilità di Marca (MOM)","colour":"#1587aa","route":"bus"},"n":35,"s":[[12959350803,2],[848668250,7]]}
+]
+}

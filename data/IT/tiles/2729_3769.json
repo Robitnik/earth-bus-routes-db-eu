@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3769],
+"stops":[
+  {"id":983984404,"lat":46.485923,"lon":8.474115,"k":"p","n":"All'Acqua"},
+  {"id":9957149129,"lat":46.485986,"lon":8.474091,"k":"x","n":"All'Acqua"},
+  {"id":13829893492,"lat":46.490483,"lon":8.485242,"k":"x","n":"Cioss Prato"}
+],
+"routes":[
+  {"id":8972280,"t":{"ref":"111","name":"Bus 111: Airolo → Nufenen Passhöhe → Oberwald","from":"Airolo, Stazione","to":"Oberwald, Bahnhof","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[983984404,1]]},
+  {"id":8972314,"t":{"ref":"111","name":"Bus 111: Oberwald → Nufenen Passhöhe → Airolo","from":"Oberwald, Bahnhof","to":"Airolo, Stazione","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[983984404,4]]},
+  {"id":8972364,"t":{"ref":"112","name":"Bus 112: All'Acqua → Airolo","from":"All'Acqua","to":"Airolo","network":"Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[9957149129,1],[13829893492,2]]},
+  {"id":8972365,"t":{"ref":"112","name":"Bus 112: Airolo → All'Acqua","from":"Airolo, Stazione","to":"All'Acqua","network":"Arcobaleno","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[13829893492,1],[9957149129,2]]}
+]
+}

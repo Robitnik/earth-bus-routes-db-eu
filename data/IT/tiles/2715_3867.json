@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3867],
+"stops":[
+  {"id":770033425,"lat":45.766958,"lon":13.36959,"k":"p","n":"Aquileia"},
+  {"id":770033437,"lat":45.766626,"lon":13.369993,"k":"p","n":"Aquileia"},
+  {"id":771188074,"lat":45.775696,"lon":13.364794,"k":"p","n":"Aquileia Porte"},
+  {"id":771188075,"lat":45.775739,"lon":13.364638,"k":"p","n":"Aquileia Porte"},
+  {"id":8973928053,"lat":45.798217,"lon":13.351815,"k":"p","n":"Terzo d'Aquileia"},
+  {"id":8973928054,"lat":45.798107,"lon":13.35208,"k":"p","n":"Terzo d'Aquileia"},
+  {"id":10137480861,"lat":45.775837,"lon":13.369908,"k":"p","n":"Aquileia via Gemina"},
+  {"id":11262415729,"lat":45.775747,"lon":13.369337,"k":"p","n":"Aquileia via Gemina"},
+  {"id":11262415730,"lat":45.766583,"lon":13.369828,"k":"p","n":"Aquileia"}
+],
+"routes":[
+  {"id":16488848,"t":{"ref":"G22","name":"Bus G22: Grado → Villesse → Gorizia","from":"Grado","to":"Gorizia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":28,"s":[[770033437,3],[10137480861,4]]},
+  {"id":16488884,"t":{"ref":"G22","name":"Bus G22: Gorizia → Villesse → Grado","from":"Gorizia","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":29,"s":[[11262415729,25],[11262415730,26]]},
+  {"id":16490105,"t":{"ref":"G26","name":"Bus G26: Grado → Cervignano → Fiumicello → Monfalcone","from":"Grado","to":"Monfalcone","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":27,"s":[[771188074,9],[770033437,11],[8973928054,19]]},
+  {"id":16490166,"t":{"ref":"G26","name":"Bus G26: Monfalcone → Fiumicello → Cervignano → Grado","from":"Monfalcone","to":"Grado","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":29,"s":[[771188075,8],[11262415730,10],[8973928053,20]]},
+  {"id":16494156,"t":{"ref":"G59","name":"Bus G59: Grado → Cervignano","from":"Grado","to":"Cervignano","network":"APT","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":8,"s":[[770033437,3],[8973928054,4],[771188074,5]]},
+  {"id":16494157,"t":{"ref":"G59","name":"Bus G59: Cervignano → Grado","from":"Cervignano","to":"Grado","network":"APT","operator":"TPL FVG","route":"bus"},"n":8,"s":[[8973928053,4],[771188075,5],[11262415730,6]]}
+]
+}

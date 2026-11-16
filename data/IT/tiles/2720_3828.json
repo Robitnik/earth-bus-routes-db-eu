@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2720,3828],
+"stops":[
+  {"id":662775991,"lat":46.049883,"lon":11.406716,"k":"p","n":"Rencognio Chiesa"},
+  {"id":666816284,"lat":46.04958,"lon":11.411056,"k":"p","n":"Roncegno Terme"},
+  {"id":1621460451,"lat":46.048827,"lon":11.421791,"k":"p","n":"Roncegno Centro Polisportivo"},
+  {"id":1621460464,"lat":46.048965,"lon":11.421646,"k":"p","n":"Roncegno Centro Polisportivo"},
+  {"id":1621460500,"lat":46.049567,"lon":11.411194,"k":"p","n":"Roncegno Terme"},
+  {"id":13039590450,"lat":46.044847,"lon":11.407006,"k":"p","n":"Roncegno Via Ciocca"}
+],
+"routes":[
+  {"id":19382312,"t":{"ref":"B409","name":"Bus B409: Ronchi->Roncegno->Borgo Valsugana","from":"Ronchi","to":"Borgo Valsugana C.Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[662775991,8],[1621460500,10],[1621460451,11]]},
+  {"id":19382313,"t":{"ref":"B409","name":"Bus B409: Borgo Valsugana->Roncegno->Ronchi","from":"Borgo Valsugana C.Intermodale","to":"Ronchi","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[1621460464,3],[666816284,4],[662775991,6]]},
+  {"id":19412352,"t":{"ref":"B401","name":"Bus B401: Borgo V.->Levico->Pergine V.->Trento","from":"Borgo Valsugana","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":45,"s":[[1621460464,5],[666816284,6],[13039590450,7]]},
+  {"id":19412353,"t":{"ref":"B401","name":"Bus B401: Trento->Pergine V.->Levico T.->Borgo V.","from":"Trento Autostazione","to":"Borgo Val Sugana","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":39,"s":[[13039590450,33],[1621460500,34],[1621460451,35]]}
+]
+}

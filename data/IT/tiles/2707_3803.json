@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2707,3803],
+"stops":[
+  {"id":2433650825,"lat":45.398189,"lon":10.191106,"k":"p","n":"Porzano - centro"},
+  {"id":13404738432,"lat":45.374029,"lon":10.151764,"k":"p","n":"Manerbio - le cupole"},
+  {"id":13404738433,"lat":45.390865,"lon":10.16208,"k":"p","n":"Manerbio - bivio Offlaga"},
+  {"id":13404738434,"lat":45.395858,"lon":10.165186,"k":"p","n":"Bagnolo m. - cascina tesa"},
+  {"id":13412938873,"lat":45.361215,"lon":10.160143,"k":"p","n":"Manerbio - via Leno, industrie"},
+  {"id":13412938874,"lat":45.363401,"lon":10.171763,"k":"p","n":"Manerbio - bivio per milzanello"},
+  {"id":13412938875,"lat":45.365376,"lon":10.192882,"k":"p","n":"Leno - casc.torchio/mirabella"}
+],
+"routes":[
+  {"id":2568484,"t":{"ref":"LS016","name":"Bus LS016: Brescia => Pralboino => Ostiano","from":"Brescia","to":"Ostiano","network":"Arriva","route":"bus","public_transport:version":"2"},"n":48,"s":[[2433650825,22]]},
+  {"id":20003896,"t":{"ref":"LS013","name":"Bus LS013: Brescia => Manerbio => Cremona","from":"Brescia autostatione","to":"Cremona autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[13404738434,19],[13404738433,20],[13404738432,21]]},
+  {"id":20004357,"t":{"ref":"LS013","name":"Bus LS013: Cremona => Manobio => Brescia","from":"Cremona autostazione","to":"Brescia autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":44,"s":[[13404738432,26],[13404738433,27],[13404738434,28]]},
+  {"id":20011013,"t":{"ref":"LS017","name":"Bus LS017: Brescia => Asola","from":"Brescia autostszione","to":"Asola ospedale","network":"Arriva","route":"bus","public_transport:version":"2"},"n":55,"s":[[2433650825,22]]},
+  {"id":20014196,"t":{"ref":"LS019","name":"Bus LS019: Montichiari => Verolavecchia","from":"Montichiari via Mantova 46","to":"Verolavecchia via Nazario Sauro","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[13412938875,19],[13412938874,20],[13412938873,21]]},
+  {"id":20014333,"t":{"ref":"LS019","name":"Bus LS019: Verolavecchia => Montichiari","from":"Verolavecchia Via Nazario Sauro","to":"Montichiari Via Brescia 20","network":"Arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[13412938873,15],[13412938874,16],[13412938875,17]]}
+]
+}

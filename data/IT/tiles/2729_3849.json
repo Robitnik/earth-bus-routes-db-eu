@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2729,3849],
+"stops":[
+  {"id":941477267,"lat":46.493854,"lon":12.452247,"k":"p","n":"Ponte Nuovo","ref":"266"},
+  {"id":941477272,"lat":46.494079,"lon":12.452262,"k":"p","n":"Ponte Nuovo","ref":"266"},
+  {"id":4755051628,"lat":46.476544,"lon":12.461196,"k":"p","n":"Villapiccola - bar Roma","ref":"272"},
+  {"id":4755051634,"lat":46.479522,"lon":12.460842,"k":"p","n":"Lorenzago - Albergo Trieste"},
+  {"id":4755051635,"lat":46.480363,"lon":12.45866,"k":"p","n":"Lorenzago - piazza","ref":"271"},
+  {"id":4755051636,"lat":46.486476,"lon":12.463631,"k":"p","n":"Lorenzago - segheria"},
+  {"id":4767951753,"lat":46.463597,"lon":12.482347,"k":"x","n":"SAF Lorenzago pista \"Pineta\""},
+  {"id":4784835624,"lat":46.475452,"lon":12.463594,"k":"p","n":"Villapiccola","ref":"272"},
+  {"id":7734136376,"lat":46.489038,"lon":12.460707,"k":"p","n":"Pelos scuole"},
+  {"id":7734136377,"lat":46.489088,"lon":12.460603,"k":"x"},
+  {"id":7734136378,"lat":46.489816,"lon":12.460018,"k":"p","n":"Pelos piazza","ref":"270"},
+  {"id":8815307987,"lat":46.49698,"lon":12.478611,"k":"p","n":"Laggio Piazza"},
+  {"id":8815307989,"lat":46.499594,"lon":12.471717,"k":"p","n":"Vigo di Cadore"},
+  {"id":8815307990,"lat":46.499756,"lon":12.471237,"k":"p","n":"Vigo di Cadore"},
+  {"id":8815307991,"lat":46.489971,"lon":12.459965,"k":"p","n":"Pelos piazza","ref":"270"},
+  {"id":8818011240,"lat":46.476575,"lon":12.461269,"k":"p","n":"Villapiccola - bar Roma","ref":"272"},
+  {"id":8818011242,"lat":46.479458,"lon":12.460689,"k":"p","n":"Lorenzago - Albergo Trieste"},
+  {"id":8818011243,"lat":46.480379,"lon":12.4585,"k":"p","n":"Lorenzago - piazza","ref":"271"},
+  {"id":8818011244,"lat":46.48646,"lon":12.463955,"k":"p","n":"Lorenzago - segheria"}
+],
+"routes":[
+  {"id":1945558,"t":{"ref":"31","name":"Tai di Cadore -> Auronzo","from":"Tai di Cadore - Piazzale Dolomiti","to":"Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":38,"s":[[941477272,17]]},
+  {"id":1945560,"t":{"ref":"33","name":"Tai di Cadore -> Cima Sappada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":41,"s":[[941477272,16]]},
+  {"id":1945561,"t":{"ref":"35","name":"Tai di Cadore -> Laggio -> Villapiccola","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":25,"s":[[941477272,16,25],[7734136377,17],[7734136378,19],[8815307989,20],[4755051628,21],[8818011243,22],[8818011242,23],[4755051636,24]]},
+  {"id":1945563,"t":{"ref":"32","name":"Tai di Cadore -> Padola -> Danta","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":39,"s":[[941477272,16]]},
+  {"id":11331300,"t":{"ref":"9/31","name":"Belluno -> Calalzo -> Auronzo -> Misurina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":71,"s":[[941477272,32]]},
+  {"id":12795208,"t":{"ref":"31","name":"Auronzo -> Tai di Cadore","from":"Auronzo","to":"Tai di Cadore - Piazzale Dolomiti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[941477267,14]]},
+  {"id":12799071,"t":{"ref":"35","name":"Villapiccola -> Laggio -> Tai di Cadore","from":"Laggio","to":"Tai di Cadore","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":22,"s":[[8815307990,7],[8815307991,8],[7734136376,9],[941477267,10],[8815307987,18],[8818011244,19],[4755051635,20],[4755051634,21],[8818011240,22]]},
+  {"id":12799073,"t":{"ref":"32","name":"Danta -> Padola -> Tai di Cadore","from":"Padola","to":"Tai di Cadore","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[941477267,12]]},
+  {"id":12896371,"t":{"ref":"9/31","name":"Tre Cime -> Misurina -> Auronzo -> Calalzo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":73,"s":[[941477267,34]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[941477267,64]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3818],
+"stops":[
+  {"id":442927434,"lat":45.874026,"lon":10.906342,"k":"p","n":"Passo S. Giovanni"},
+  {"id":2886630671,"lat":45.855632,"lon":10.930056,"k":"p","n":"Lopio"},
+  {"id":2886630672,"lat":45.854905,"lon":10.946915,"k":"p","n":"Mori - Difr.Discoteca Fanum"},
+  {"id":2886630674,"lat":45.855075,"lon":10.946302,"k":"p","n":"Mori - Difr.Discoteca Fanum"},
+  {"id":2886630675,"lat":45.855483,"lon":10.930106,"k":"p","n":"Lopio"},
+  {"id":2889185674,"lat":45.85588,"lon":10.932184,"k":"p","n":"Loppio Bivio"},
+  {"id":2889185675,"lat":45.855765,"lon":10.932291,"k":"p","n":"Loppio Bivio"},
+  {"id":2889197222,"lat":45.860748,"lon":10.937338,"k":"p","n":"Piantino"},
+  {"id":2889197223,"lat":45.860703,"lon":10.937455,"k":"p","n":"Piantino"},
+  {"id":5111592738,"lat":45.85452,"lon":10.934219,"k":"p"},
+  {"id":10020212122,"lat":45.85478,"lon":10.948809,"k":"p","n":"Mori Loc. Palù"},
+  {"id":11953515755,"lat":45.867936,"lon":10.939953,"k":"p","n":"Valle S. Velice Cimitero"},
+  {"id":11953515756,"lat":45.86783,"lon":10.939989,"k":"p","n":"Valle S. Velice Cimitero"},
+  {"id":11953547270,"lat":45.868973,"lon":10.938305,"k":"p","n":"Valle S. Velice"},
+  {"id":11953547281,"lat":45.896185,"lon":10.940962,"k":"p","n":"Santa Barbara"},
+  {"id":11960146534,"lat":45.886819,"lon":10.946423,"k":"p","n":"Ronzo Chienis-Consortio Ortofrutta"},
+  {"id":11960146535,"lat":45.886903,"lon":10.946952,"k":"p","n":"Ronzo Chienis-Consortio Ortofrutta"},
+  {"id":11980849991,"lat":45.881568,"lon":10.938589,"k":"p","n":"Varano"},
+  {"id":11980849992,"lat":45.881204,"lon":10.938145,"k":"p","n":"Varano"},
+  {"id":11984840951,"lat":45.888759,"lon":10.948749,"k":"p","n":"Ronzo Chienis-Via Longa"},
+  {"id":11984840953,"lat":45.888648,"lon":10.948796,"k":"p","n":"Ronzo Chienis-Via Longa"},
+  {"id":12028966396,"lat":45.877205,"lon":10.934077,"k":"p","n":"Pannone"},
+  {"id":12029028914,"lat":45.877367,"lon":10.934538,"k":"x"}
+],
+"routes":[
+  {"id":9741898,"t":{"ref":"B332","name":"Bus B332: Bolognano->Rovereto","from":"Bolognano","to":"Rovereto","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":41,"s":[[442927434,24],[2886630675,25],[2886630672,26],[10020212122,27]]},
+  {"id":17671108,"t":{"ref":"B310","name":"Bus B310: Rovereto->Mori-->S.Felice->Nomesino->Ronzo Chienis","from":"Rovereto","to":"Ronzo-Chienis (St. Barbara)","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":33,"s":[[10020212122,14],[2886630674,15],[2889185675,17],[2889197223,18],[11953547270,19],[11953515756,20],[11953515755,26],[12028966396,27],[11960146535,28],[11984840953,29],[11953547281,33]]},
+  {"id":17716481,"t":{"ref":"B318","name":"BUS 318: Valle S.Felice->Manzano->Nomesino","from":"Valle S. Velice","to":"Nomesino","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":5,"s":[[11953547270,1],[11953515756,2]]},
+  {"id":19080408,"t":{"ref":"B318","name":"BUS 318: Nomesino->Manzano->Valle S.Felice","from":"Nomesino","to":"Valle S. Velice","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":5,"s":[[11953515755,4],[11953547270,5]]},
+  {"id":19084513,"t":{"ref":"B310","name":"Bus B310: Ronzo Chienis->S.Felice->Mori->Rovereto","from":"Ronzo-Chienis (St. Barbara)","to":"Rovereto","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":28,"s":[[11953547281,1],[11984840951,5],[11960146534,6],[12028966396,7],[11953547270,8],[2889197222,9],[2889185674,10],[2886630672,12],[10020212122,13]]},
+  {"id":19084514,"t":{"ref":"B310","name":"Bus B310: Rovereto->Mori-->S.Felice->Ronzo Chienis","from":"Rovereto","to":"Ronzo-Chienis (St. Barbara)","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":26,"s":[[10020212122,14],[2886630674,15],[2889185675,17],[2889197223,18],[11953547270,19],[12028966396,20],[11960146535,21],[11984840953,22],[11953547281,26]]},
+  {"id":19084515,"t":{"ref":"B310","name":"Bus B310: Ronzo Chienis->S.Felice->Nomesino->Mori->Rovereto","from":"Ronzo-Chienis (St. Barbara)","to":"Rovereto","operator":"Trentino Trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":35,"s":[[11953547281,1],[11984840951,5],[11960146534,6],[12028966396,7],[11953515756,8],[11953515755,14],[11953547270,15],[2889197222,16],[2889185674,17],[2886630672,19],[10020212122,20]]},
+  {"id":19087066,"t":{"ref":"B332","name":"Bus B332: Rovereto->Bolgnano","to":"Bolgnano","operator":"Trentino trasporti S.p.A.","route":"bus","public_transport:version":"2"},"n":39,"s":[[10020212122,16],[2886630674,17],[2886630671,18],[442927434,19]]}
+]
+}

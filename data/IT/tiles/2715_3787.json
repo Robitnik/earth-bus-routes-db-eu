@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3787],
+"stops":[
+  {"id":5409559321,"lat":45.763118,"lon":9.363178,"k":"p","n":"Colle Brianza - nava"},
+  {"id":11099253167,"lat":45.770228,"lon":9.367552,"k":"p","n":"Ravellino - via san rocco"},
+  {"id":11099253168,"lat":45.772466,"lon":9.368714,"k":"p","n":"Ravellino","ref":"L00194"},
+  {"id":13630313115,"lat":45.791344,"lon":9.37417,"k":"p","n":"Villa Vergano - via colle brianza"},
+  {"id":13630313116,"lat":45.793936,"lon":9.375093,"k":"p","n":"Galbiate, Galbiate × Villa Vergano - piazza"},
+  {"id":13630313117,"lat":45.798166,"lon":9.374101,"k":"p","n":"Galbiate - palestra"},
+  {"id":13633318853,"lat":45.797437,"lon":9.358689,"k":"p","n":"Oggiono - imberido (provinciale)"},
+  {"id":13633318854,"lat":45.794968,"lon":9.356865,"k":"p","n":"Oggiono - guarnera"},
+  {"id":13633318866,"lat":45.791556,"lon":9.352159,"k":"p","n":"Oggiono - piazza garibaldi"},
+  {"id":13633318867,"lat":45.795866,"lon":9.361918,"k":"p","n":"Imberido (paese)"}
+],
+"routes":[
+  {"id":16175159,"t":{"ref":"D84","from":"Olgiate Molgora F.S.","to":"Ravellino","network":"Merate e dintorni","operator":"Arriva Italia","route":"bus"},"n":3,"s":[[11099253167,1],[11099253168,2]]},
+  {"id":20303037,"t":{"ref":"D155","name":"Bus D155: Colle Brianza -> Lecco","from":"Colle Briianza nave","to":"Lecco (via balicco)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":17,"s":[[5409559321,1],[11099253168,2],[13630313115,3],[13630313116,4],[13630313117,5]]},
+  {"id":20303038,"t":{"ref":"D155","name":"Bus D155: Lecco -> Colle Brianza","from":"Lecco (via balicco)","to":"Colle Brianza nava","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[13630313117,14],[13630313116,15],[13630313115,16],[11099253168,17],[5409559321,18]]},
+  {"id":20305537,"t":{"ref":"D155","name":"Bus D155: Annone Brianza -> Lecco","from":"Annone Brianza posta","to":"Lecco (via balicco)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":25,"s":[[13633318866,9],[13633318854,10],[13633318853,11]]},
+  {"id":20305538,"t":{"ref":"D155","name":"Bus D155: Lecco -> Annone Brianza","from":"Lecco (via balicco)","to":"Annone Brianza posta","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":26,"s":[[13633318867,16],[13633318866,17]]}
+]
+}

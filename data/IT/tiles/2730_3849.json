@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2730,3849],
+"stops":[
+  {"id":8804912245,"lat":46.507269,"lon":12.457587,"k":"p","n":"Tre Ponti"},
+  {"id":8804912246,"lat":46.507175,"lon":12.457827,"k":"p","n":"Tre Ponti"},
+  {"id":8804912247,"lat":46.511918,"lon":12.461594,"k":"p","n":"Cima Gogna Zona Industriale"},
+  {"id":8804912248,"lat":46.51204,"lon":12.46143,"k":"p","n":"Cima Gogna Zona Industriale"},
+  {"id":8804912249,"lat":46.516184,"lon":12.464218,"k":"p","n":"Cima Gogna bivio"},
+  {"id":8804912250,"lat":46.516401,"lon":12.4642,"k":"p","n":"Cima Gogna bivio"},
+  {"id":8806748477,"lat":46.5408,"lon":12.462856,"k":"p","n":"Auronzo - S. Caterina"},
+  {"id":8806748478,"lat":46.541059,"lon":12.462808,"k":"p","n":"Auronzo - S. Caterina"},
+  {"id":8806748479,"lat":46.54383,"lon":12.45932,"k":"p","n":"Auronzo - via Cella"},
+  {"id":8806748480,"lat":46.543861,"lon":12.459381,"k":"p","n":"Auronzo - via Cella"},
+  {"id":8806748481,"lat":46.5454,"lon":12.457496,"k":"p","n":"Auronzo - S. Lucano"},
+  {"id":8806748482,"lat":46.545167,"lon":12.457478,"k":"p","n":"Auronzo - S. Lucano"},
+  {"id":8806748483,"lat":46.546652,"lon":12.45417,"k":"p","n":"Auronzo - Villapiccola"},
+  {"id":8806748484,"lat":46.546873,"lon":12.453921,"k":"p","n":"Auronzo - Villapiccola"},
+  {"id":8807401528,"lat":46.540794,"lon":12.463348,"k":"p","n":"Auronzo - S. Caterina"}
+],
+"routes":[
+  {"id":1945558,"t":{"ref":"31","name":"Tai di Cadore -> Auronzo","from":"Tai di Cadore - Piazzale Dolomiti","to":"Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":38,"s":[[8804912246,18],[8804912247,19],[8804912249,20],[8806748478,21],[8806748480,22],[8806748481,23],[8806748484,24]]},
+  {"id":1945560,"t":{"ref":"33","name":"Tai di Cadore -> Cima Sappada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":41,"s":[[8804912246,18],[8804912247,19],[8804912249,20]]},
+  {"id":1945563,"t":{"ref":"32","name":"Tai di Cadore -> Padola -> Danta","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":39,"s":[[8804912246,18],[8804912247,19],[8804912249,20]]},
+  {"id":11331299,"t":{"ref":"940","name":"Urbano Auronzo Giralba -> S. Caterina","from":"Auronzo - Giralba Grava Secca","to":"Auronzo - S. Caterina","network":"urbano","operator":"Dolomitibus s.p.a.","route":"bus"},"n":18,"s":[[8806748479,1],[8806748483,2]]},
+  {"id":11331300,"t":{"ref":"9/31","name":"Belluno -> Calalzo -> Auronzo -> Misurina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":71,"s":[[8806748484,24],[8806748481,26],[8806748480,27],[8806748478,28],[8804912247,29],[8804912249,30],[8804912246,31]]},
+  {"id":12795208,"t":{"ref":"31","name":"Auronzo -> Tai di Cadore","from":"Auronzo","to":"Tai di Cadore - Piazzale Dolomiti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[8804912245,15],[8804912250,16],[8804912248,17],[8806748482,18],[8806748483,19],[8806748479,20],[8806748477,21]]},
+  {"id":12799073,"t":{"ref":"32","name":"Danta -> Padola -> Tai di Cadore","from":"Padola","to":"Tai di Cadore","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[8804912245,13],[8804912250,14],[8804912248,15]]},
+  {"id":12812604,"t":{"ref":"940","name":"Urbano Auronzo S. Caterina -> Giralba","from":"Auronzo - S. Caterina","to":"Auronzo - Giralba Grava Secca","network":"urbano","operator":"Dolomitibus s.p.a.","route":"bus"},"n":19,"s":[[8806748480,1],[8806748481,2],[8806748484,3]]},
+  {"id":12819506,"t":{"ref":"31/33","name":"Auronzo -> S. Stefano di Cadore","from":"Auronzo - Reane","to":"S. Stefano","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":15,"s":[[8806748483,9],[8806748482,10],[8806748479,11],[8806748477,12],[8804912247,13],[8804912249,14]]},
+  {"id":12819507,"t":{"ref":"31/33","name":"S. Stefano di Cadore -> Auronzo","from":"S. Stefano","to":"Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":15,"s":[[8806748484,9],[8806748478,10],[8806748480,11],[8806748481,12],[8804912247,13],[8804912250,14]]},
+  {"id":12896371,"t":{"ref":"9/31","name":"Tre Cime -> Misurina -> Auronzo -> Calalzo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":73,"s":[[8806748483,27],[8806748482,28],[8806748477,29],[8806748479,30],[8804912250,31],[8804912248,32],[8804912245,33]]},
+  {"id":13016644,"t":{"ref":"33/31/30","name":"Cima Sappada -> Auronzo -> Tre Cime","from":"Cima Sappada","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":50,"s":[[8806748484,27],[8806748481,28],[8806748480,29],[8806748478,30]]},
+  {"id":13016645,"t":{"ref":"33/31/30","name":"Tre Cime -> Auronzo -> Cima Sappada","from":"Tre Cime - Rifugio Auronzo","to":"Cima Sappada","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":49,"s":[[8806748483,27],[8806748482,28],[8806748479,29],[8806748477,30]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[8806748483,57],[8806748482,58],[8806748479,59],[8806748477,60],[8804912250,61],[8804912248,62],[8804912245,63]]}
+]
+}

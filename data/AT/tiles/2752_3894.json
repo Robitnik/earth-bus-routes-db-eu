@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2752,3894],
+"stops":[
+  {"id":240400786,"lat":47.607524,"lon":14.737462,"k":"x","n":"Hieflau Bahnhof"},
+  {"id":240400791,"lat":47.607718,"lon":14.742678,"k":"x","n":"Hieflau Abzweigung Bahnhof"},
+  {"id":680019909,"lat":47.606543,"lon":14.74415,"k":"p","n":"Hieflau Postamt"},
+  {"id":680020932,"lat":47.615207,"lon":14.747305,"k":"p","n":"Wandau Kapelle"},
+  {"id":680020933,"lat":47.615982,"lon":14.748376,"k":"p","n":"Wandau Kapelle"},
+  {"id":680031591,"lat":47.64905,"lon":14.749224,"k":"p","n":"Kirchenlandl Umspannwerk"},
+  {"id":904439500,"lat":47.606489,"lon":14.744083,"k":"x","n":"Hieflau Postamt"},
+  {"id":1937150592,"lat":47.607675,"lon":14.742661,"k":"p","n":"Hieflau Abzweigung Bahnhof"},
+  {"id":1937150594,"lat":47.607819,"lon":14.743787,"k":"x","n":"Hieflau Abzweigung Bahnhof"},
+  {"id":5157747353,"lat":47.615139,"lon":14.747352,"k":"x","n":"Wandau Kapelle"},
+  {"id":7204249608,"lat":47.649097,"lon":14.749219,"k":"x","n":"Kirchenlandl Umspannwerk"},
+  {"id":7234775587,"lat":47.616018,"lon":14.748304,"k":"x","n":"Wandau Kapelle"},
+  {"id":8283228075,"lat":47.607499,"lon":14.737525,"k":"p","n":"Hieflau Bahnhof"},
+  {"id":8283228076,"lat":47.607575,"lon":14.737513,"k":"p","n":"Hieflau Bahnhof"},
+  {"id":8285912979,"lat":47.606158,"lon":14.744366,"k":"x","n":"Hieflau Postamt"},
+  {"id":5000891208187,"lat":47.64916,"lon":14.749206,"k":"p","n":"Kirchenlandl Umspannwerk"},
+  {"id":5000891208201,"lat":47.607858,"lon":14.743678,"k":"p","n":"Hieflau Abzweigung Bahnhof"},
+  {"id":5000891468080,"lat":47.606129,"lon":14.744331,"k":"p","n":"Hieflau Postamt"}
+],
+"routes":[
+  {"id":2350272,"t":{"ref":"920","name":"Bus 920: Eisenerz => Hieflau","from":"Eisenerz Busbahnhof","to":"Hieflau Bahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":17,"s":[[680019909,16],[8283228076,17]]},
+  {"id":2350273,"t":{"ref":"920","name":"Bus 920: Hieflau => Eisenerz","from":"Hieflau Bahnhof","to":"Eisenerz Busbahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":18,"s":[[8283228076,1],[1937150592,2],[5000891468080,3]]},
+  {"id":12123113,"t":{"ref":"912","name":"Bus 912: Admont Kasteneck => Weißenbach-Sankt Gallen Bahnhof","from":"Admont Kasteneck","to":"Weißenbach-Sankt Gallen Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[8283228075,13],[1937150592,14],[680020933,15],[5000891208187,21]]},
+  {"id":12123257,"t":{"ref":"912","name":"Bus 912: Admont Kasteneck => Altenmarkt Ort (via Mooslandl Freizeitpark Landl)","from":"Admont Kasteneck","to":"Altenmarkt Ort","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":37,"s":[[8283228075,13],[1937150592,14],[680020933,15],[5000891208187,22]]},
+  {"id":12123258,"t":{"ref":"912","name":"Bus 912: Weißenbach-Sankt Gallen Bahnhof => Admont Kasteneck","from":"Weißenbach-Sankt Gallen Bahnhof","to":"Admont Kasteneck","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[680031591,20],[680020932,26],[5000891208201,27],[8283228076,28]]},
+  {"id":12123370,"t":{"ref":"912","name":"Bus 912: Kleinreifling Bahnhof => Admont Kasteneck","from":"Kleinreifling Bahnhof","to":"Admont Kasteneck","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[680031591,20],[680020932,26],[5000891208201,27],[8283228076,28]]},
+  {"id":12123371,"t":{"ref":"912","name":"Bus 912: Admont Kasteneck => Kleinreifling Bahnhof","from":"Admont Kasteneck","to":"Kleinreifling Bahnhof","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":39,"s":[[8283228075,13],[1937150592,14],[680020933,15],[5000891208187,21]]},
+  {"id":12127870,"t":{"ref":"920","name":"Rufbus 920: Hieflau => Eisenerz","from":"Hieflau Bahnhof","to":"Eisenerz Abenteuer Erzberg","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":20,"s":[[8283228076,1],[1937150592,2],[5000891468080,3]]},
+  {"id":12127871,"t":{"ref":"920","name":"Rufbus 920: Eisenerz => Hieflau","from":"Eisenerz Abenteuer Erzberg","to":"Hieflau Bahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":19,"s":[[680019909,18],[8283228076,19]]},
+  {"id":12128951,"t":{"ref":"920","name":"Rufbus 920: Radmer - Hieflau","from":"Hinterradmer Größingerbühel","to":"Hieflau Bahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":17,"s":[[680019909,16],[8283228075,17]]},
+  {"id":12128952,"t":{"ref":"920","name":"Rufbus 920: Hieflau - Radmer","from":"Hieflau Bahnhof","to":"Hinterradmer Größingerbühel","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":18,"s":[[8283228075,1],[1937150592,2],[5000891468080,3]]},
+  {"id":12132596,"t":{"ref":"922","name":"Rufbus 922: Wildalpen - Hieflau","from":"Hinterwildalpen Ort","to":"Hieflau Bahnhof","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":25,"s":[[680020932,23],[5000891208201,24],[8283228075,25]]},
+  {"id":12132597,"t":{"ref":"922","name":"Rufbus 922: Hieflau - Wildalpen","from":"Hieflau Bahnhof","to":"Hinterwildalpen Ort","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":25,"s":[[8283228075,1],[1937150592,2],[680020933,3]]},
+  {"id":18577977,"t":{"ref":"920","name":"Bus 920: Eisenerz => Hieflau => Radmer","from":"Eisenerz Busbahnhof","to":"Radmer/Hasel Größingerbühel","network":"Verkehrsverbund Steiermark","route":"bus","public_transport:version":"2"},"n":40,"s":[[680019909,22],[8283228076,23],[1937150592,24],[5000891468080,25]]}
+]
+}

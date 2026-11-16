@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3867],
+"stops":[
+  {"id":2372986219,"lat":47.988277,"lon":13.374644,"k":"p","n":"Pöndorf Abzw Ort"},
+  {"id":2373014229,"lat":47.987995,"lon":13.390556,"k":"p","n":"Schwaigern (B1)"},
+  {"id":6991943171,"lat":47.956496,"lon":13.352589,"k":"p","n":"Straßwalchen Hüttenedt Feuerwehr"},
+  {"id":7817719771,"lat":47.987983,"lon":13.391457,"k":"p","n":"Schwaigern (B1)"},
+  {"id":7817719779,"lat":47.982006,"lon":13.387037,"k":"p","n":"Frankenmarkt Schwaigererbrücke"},
+  {"id":8110647344,"lat":47.98718,"lon":13.391277,"k":"p","n":"Frankenmarkt Schwaigern Abzw Ort"},
+  {"id":8179069883,"lat":47.993957,"lon":13.35087,"k":"p","n":"Obermühlham"},
+  {"id":8179069884,"lat":47.993626,"lon":13.352268,"k":"p","n":"Obermühlham"},
+  {"id":8179069889,"lat":47.989446,"lon":13.36427,"k":"p","n":"Untermühlham"},
+  {"id":8179069895,"lat":47.988993,"lon":13.365785,"k":"p","n":"Untermühlham"},
+  {"id":8179069899,"lat":47.988633,"lon":13.374095,"k":"p","n":"Pöndorf Abzw Ort"},
+  {"id":9104169145,"lat":47.956431,"lon":13.352746,"k":"x","n":"Straßwalchen Hüttenedt Feuerwehr"},
+  {"id":9310925249,"lat":47.982217,"lon":13.38691,"k":"p","n":"Frankenmarkt Schwaigererbrücke"},
+  {"id":9310925250,"lat":47.963868,"lon":13.375983,"k":"p","n":"Weißenkirchen Schrankbaum"},
+  {"id":9310925251,"lat":47.963802,"lon":13.375337,"k":"p","n":"Weißenkirchen Schrankbaum"},
+  {"id":11446330675,"lat":47.994783,"lon":13.370305,"k":"p","n":"Pöndorf Kirchham Ort"}
+],
+"routes":[
+  {"id":10317540,"t":{"ref":"135","name":"Bus 135: Straßwalchen => Hüttenedt","from":"Straßwalchen BORG","to":"Straßwalchen Hüttenedt Käserei","network":"Salzburger Verkehrsverbund","operator":"Fischwenger","route":"bus","public_transport:version":"2"},"n":15,"s":[[6991943171,15]]},
+  {"id":10317670,"t":{"ref":"135","name":"Bus 135: Hüttenedt => Straßwalchen","from":"Straßwalchen Hüttenedt Käserei","to":"Straßwalchen BORG","network":"Salzburger Verkehrsverbund","operator":"Fischwenger","route":"bus","public_transport:version":"2"},"n":15,"s":[[6991943171,1]]},
+  {"id":11511033,"t":{"ref":"594","name":"Bus 594: Frankenmarkt - Mondsee","from":"Frankenmarkt Bahnhof","to":"Mondsee Busterminal","route":"bus","public_transport:version":"2"},"n":25,"s":[[8110647344,5],[9310925249,6],[9310925251,7]]},
+  {"id":11511034,"t":{"ref":"594","name":"Bus 594: Mondsee - Frankenmarkt","from":"Mondsee Busterminal","to":"Frankenmarkt Bahnhof","route":"bus","public_transport:version":"2"},"n":25,"s":[[9310925250,19],[7817719779,20],[7817719771,21]]},
+  {"id":11962599,"t":{"ref":"586","name":"Bus 586: Straßwalchen - Hörgattern","from":"Straßwalchen Mittelschule","to":"Gampern Technologiepark","route":"bus","public_transport:version":"2"},"n":25,"s":[[8179069883,11],[8179069895,12],[2372986219,13],[7817719771,14]]},
+  {"id":11963111,"t":{"ref":"586","name":"Bus 586: Hörgattern - Straßwalchen","from":"Gampern Gewerbepark","to":"Straßwalchen Marktplatz","route":"bus","public_transport:version":"2"},"n":22,"s":[[2373014229,11],[8179069899,12],[8179069889,13],[8179069884,14]]}
+]
+}

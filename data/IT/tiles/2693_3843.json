@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2693,3843],
+"stops":[
+  {"id":960134268,"lat":44.696628,"lon":12.175347,"k":"p","n":"Comacchio Ex Mutua","ref":"606054"},
+  {"id":960134271,"lat":44.691913,"lon":12.182897,"k":"p","n":"Comacchio Trepponti","ref":"606060"},
+  {"id":960134290,"lat":44.694569,"lon":12.178762,"k":"p","n":"Comacchio Ciambellino","ref":"606058"},
+  {"id":960134303,"lat":44.689651,"lon":12.188248,"k":"p","n":"Comacchio Dispensario","ref":"606062"},
+  {"id":960134312,"lat":44.686285,"lon":12.193425,"k":"p","n":"Raibosola - Villaggio Delle Rose","ref":"606067"},
+  {"id":960134314,"lat":44.69672,"lon":12.175491,"k":"p","n":"Comacchio Ex Mutua","ref":"606055"},
+  {"id":960134318,"lat":44.685795,"lon":12.193833,"k":"p","n":"Raibosola - Villaggio Delle Rose","ref":"606066"},
+  {"id":960134321,"lat":44.694657,"lon":12.178908,"k":"p","n":"Comacchio Ciambellino","ref":"606059"},
+  {"id":960134331,"lat":44.699225,"lon":12.167705,"k":"p","n":"Comacchio Zuccherificio","ref":"606053"},
+  {"id":960134360,"lat":44.691768,"lon":12.182176,"k":"p","n":"Comacchio Trepponti","ref":"606061"},
+  {"id":960134370,"lat":44.690559,"lon":12.187194,"k":"p","n":"Comacchio Dispensario","ref":"606065"},
+  {"id":960134387,"lat":44.699121,"lon":12.16796,"k":"p","n":"Comacchio Zuccherificio","ref":"606052"},
+  {"id":960134401,"lat":44.695052,"lon":12.189227,"k":"p","n":"Comacchio Ospedale","ref":"606048"},
+  {"id":960134410,"lat":44.695216,"lon":12.189201,"k":"p","n":"Comacchio Ospedale","ref":"690006"},
+  {"id":2433767478,"lat":44.690947,"lon":12.190879,"k":"p","n":"Comacchio Monte Grappa","ref":"690014"},
+  {"id":2434344650,"lat":44.694494,"lon":12.183761,"k":"p","n":"Comacchio Via Folegatti"},
+  {"id":2435188303,"lat":44.688232,"lon":12.195218,"k":"p","n":"Comacchio Via Barina Ostriche"},
+  {"id":2775120123,"lat":44.661332,"lon":12.187309,"k":"p","n":"Bettolino (provv.)"},
+  {"id":10265084523,"lat":44.688441,"lon":12.195205,"k":"p","n":"Comacchio Via Barina Ostriche"}
+],
+"routes":[
+  {"id":1464617,"t":{"ref":"333","name":"333 Codigoro - Lagosanto- Comacchio - Ravenna","from":"Codigoro","to":"Ravenna","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":45,"s":[[960134387,28]]},
+  {"id":1503505,"t":{"ref":"TX_1","name":"Comacchio - Lido Nazioni","from":"Comacchio","to":"Lido Nazioni","network":"AMI","route":"bus","public_transport:version":"2"},"n":2,"s":[[960134401,1]]},
+  {"id":1503545,"t":{"ref":"TX_2","name":"Comacchio - Lido Spina","from":"Comacchio","to":"Lido Spina","network":"AMI","route":"bus","public_transport:version":"2"},"n":2,"s":[[960134410,1]]},
+  {"id":1992229,"t":{"ref":"330","name":"330 Ferrara (Superstrada) - Porto Garibaldi","from":"Ferrara","to":"Lido Spina","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"1"},"n":71,"s":[[960134387,49],[960134268,50],[960134290,51],[960134271,52],[960134303,53],[960134318,54]]},
+  {"id":2804728,"t":{"ref":"Taxibus 10","name":"Ospedale del Delta -> Comacchio Ospedale","from":"Ospedale del Delta","to":"Comacchio Ospedale","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":24,"s":[[960134387,18],[960134268,19],[960134290,20],[960134271,21],[960134303,22],[2433767478,23],[960134410,24]]},
+  {"id":3155537,"t":{"ref":"349","name":"Voghenza - Portomaggiore - Lido di Spina","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":14,"s":[[960134387,11],[960134271,12]]},
+  {"id":3518584,"t":{"ref":"LineaCosta","name":"Lido Spina - Lido Nazioni - Bettolino - Gorino","network":"AMI Ferrara","route":"bus","public_transport:version":"1"},"n":62,"s":[[960134312,10],[2775120123,11],[960134271,12],[960134303,13],[960134318,14]]},
+  {"id":9885945,"t":{"ref":"331","name":"Bus 331: Ferrara → Ostellato → Lidi comacchiesi","from":"Ferrara","to":"Lidi comacchiesi","network":"TPER","operator":"TPER","route":"bus","public_transport:version":"2"},"n":14,"s":[[960134271,11]]},
+  {"id":9885946,"t":{"ref":"331","name":"Bus 331: Lidi comacchiesi → Ostellato → Ferrara","from":"Lidi comacchiesi","to":"Ferrara","network":"TPER","operator":"TPER","route":"bus","public_transport:version":"2"},"n":12,"s":[[960134360,4]]},
+  {"id":19254850,"t":{"ref":"Taxibus 10","name":"Comacchio Ospedale -> Ospedale del Delta","from":"Comacchio Ospedale","to":"Ospedale del Delta","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":24,"s":[[960134410,1],[2433767478,2],[960134370,3],[960134360,4],[960134321,5],[960134314,6],[960134331,7]]},
+  {"id":19259893,"t":{"ref":"TX_2","name":"Lido Spina ->Comacchio","from":"Comacchio","to":"Lido Spina","network":"AMI","route":"bus","public_transport:version":"2"},"n":2,"s":[[960134410,2]]},
+  {"id":19268032,"t":{"ref":"331","name":"331 Ostellato - Lido Spina","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":14,"s":[[960134387,7]]},
+  {"id":19268045,"t":{"ref":"331","name":"331 Ostellato - Lido Spina","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":12,"s":[[960134387,7]]},
+  {"id":19285333,"t":{"ref":"331","name":"331 Ostellato - Lido Spina","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":13,"s":[[960134387,7]]},
+  {"id":19286973,"t":{"ref":"331","name":"331 Ostellato- Lido Estensi","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":12,"s":[[960134387,7]]}
+]
+}

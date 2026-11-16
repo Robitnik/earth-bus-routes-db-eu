@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2761,3880],
+"stops":[
+  {"id":8938548605,"lat":48.075852,"lon":14.044401,"k":"p","n":"Sattledt Waldstraße"},
+  {"id":8938548606,"lat":48.07525,"lon":14.016583,"k":"p","n":"Wollsberg b.Steinerkirchen"},
+  {"id":8938548607,"lat":48.075184,"lon":14.015844,"k":"p","n":"Wollsberg b.Steinerkirchen"},
+  {"id":8938548612,"lat":48.075495,"lon":14.047045,"k":"p","n":"Sattledt Bäck im Holz"},
+  {"id":8938548613,"lat":48.076834,"lon":14.046756,"k":"p","n":"Sattledt Bäck im Holz"},
+  {"id":8938549018,"lat":48.089977,"lon":14.043117,"k":"p","n":"Unterhart b.Sattledt Bahnhst"},
+  {"id":8938549019,"lat":48.089038,"lon":14.043252,"k":"p","n":"Unterhart b.Sattledt Bahnhst"}
+],
+"routes":[
+  {"id":9820939,"t":{"ref":"455","name":"Bus 455: Wels => Sattledt => Rohr","from":"Wels Hauptbahnhof","to":"Rohr Bahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":27,"s":[[8938549019,13],[8938548612,14]]},
+  {"id":9823893,"t":{"ref":"455","name":"Bus 455: Rohr => Sattledt => Wels","from":"Rohr Bahnhof","to":"Wels Hauptbahnhof","operator":"Stern & Hafferl","route":"bus","public_transport:version":"2"},"n":26,"s":[[8938548613,13],[8938549018,14]]},
+  {"id":10485297,"t":{"ref":"503","name":"Bus 503: (Sattledt -) Steinerkirchen - Lambach","from":"Steinerkirchen","to":"Lambach","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[8938548605,3],[8938548606,4]]},
+  {"id":10485298,"t":{"ref":"503","name":"Bus 503: Lambach - Steinerkirchen (-Sattledt)","from":"Lambach","to":"Steinerkirchen","operator":"Sabtours","route":"bus","public_transport:version":"2"},"n":19,"s":[[8938548607,16],[8938548612,17]]}
+]
+}

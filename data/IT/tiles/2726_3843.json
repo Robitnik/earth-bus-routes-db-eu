@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2726,3843],
+"stops":[
+  {"id":6417729385,"lat":46.345966,"lon":12.176164,"k":"p","n":"Forno di Zoldo"},
+  {"id":8365112702,"lat":46.345664,"lon":12.186232,"k":"p","n":"Forno Bivio per Zoppè"},
+  {"id":8365112703,"lat":46.345524,"lon":12.186345,"k":"p","n":"Forno Bivio per Zoppè"},
+  {"id":8365112706,"lat":46.345421,"lon":12.194791,"k":"p","n":"Fornesighe Hotel Corinna"},
+  {"id":8365112707,"lat":46.345227,"lon":12.194686,"k":"p","n":"Fornesighe Hotel Corinna"},
+  {"id":8365112708,"lat":46.346053,"lon":12.176327,"k":"p","n":"Forno di Zoldo"},
+  {"id":8365112709,"lat":46.346229,"lon":12.171254,"k":"p","n":"Forno Scuola Media"},
+  {"id":8365112710,"lat":46.346367,"lon":12.170915,"k":"p","n":"Forno Scuola Media"},
+  {"id":8786578515,"lat":46.348166,"lon":12.188049,"k":"p","n":"Sommariva"},
+  {"id":8786578516,"lat":46.349719,"lon":12.184596,"k":"p","n":"Campo di Zoldo bivio"},
+  {"id":8786593418,"lat":46.349876,"lon":12.182531,"k":"p","n":"Pieve di Zoldo"},
+  {"id":8786593419,"lat":46.349389,"lon":12.184732,"k":"p","n":"Campo di Zoldo bivio"},
+  {"id":8786593420,"lat":46.347847,"lon":12.188192,"k":"p","n":"Sommariva"}
+],
+"routes":[
+  {"id":10714360,"t":{"ref":"25","name":"Pecol -> Belluno","from":"Pecol","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":31,"s":[[8365112703,13],[8365112707,15],[6417729385,16],[8365112709,17]]},
+  {"id":10714361,"t":{"ref":"25","name":"Belluno -> Pecol","from":"Belluno","to":"Pecol","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":30,"s":[[8365112702,14],[8365112706,16],[8365112708,17],[8365112710,18]]},
+  {"id":12792226,"t":{"ref":"40","name":"Forno di Zoldo -> Zoppè di Cadore","from":"Forno di Zoldo","to":"Zoppè di Cadore","network":"extraurbano","operator":"Dolomitibus","route":"bus"},"n":7,"s":[[8365112703,1],[8786578515,2],[8786578516,3],[8786593418,5]]},
+  {"id":12792227,"t":{"ref":"40","name":"Zoppè di Cadore -> Forno di Zoldo","from":"Zoppè di Cadore","to":"Forno di Zoldo","network":"extraurbano","operator":"Dolomitibus","route":"bus"},"n":7,"s":[[8786593418,1],[8786593419,2],[8786593420,3],[8365112702,4]]},
+  {"id":12938115,"t":{"ref":"10","name":"Caprile -> Colle S.Lucia -> Longarone -> Aeroporto -> Venezia P.le Roma","from":"caprile","to":"Venezia Piazzale Roma","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":36,"s":[[8365112709,22],[6417729385,23],[8365112703,24],[8365112707,25]]},
+  {"id":12938116,"t":{"ref":"10","name":"Venezia P.le Roma -> Aeroporto -> Longarone -> Colle S.Lucia -> Caprile","from":"Venezia Piazzale Roma","to":"Caprile","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":35,"s":[[8365112710,22],[8365112708,23],[8365112702,24],[8365112706,25]]}
+]
+}

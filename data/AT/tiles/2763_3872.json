@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2763,3872],
+"stops":[
+  {"id":2086119218,"lat":48.198497,"lon":13.621516,"k":"p"},
+  {"id":2086119226,"lat":48.198602,"lon":13.621554,"k":"p"},
+  {"id":3149115051,"lat":48.182835,"lon":13.643485,"k":"p","n":"Haag am Hausruck Schulzentrum"},
+  {"id":4074781255,"lat":48.15188,"lon":13.632864,"k":"p","n":"Geboltskirchen Teichweg"},
+  {"id":4839816007,"lat":48.199053,"lon":13.60478,"k":"p","n":"Pramer Straße"},
+  {"id":4959290875,"lat":48.198538,"lon":13.621537,"k":"x"},
+  {"id":5793707102,"lat":48.154102,"lon":13.64225,"k":"p","n":"Geboltskirchen Abzw Stein"},
+  {"id":5793707103,"lat":48.154151,"lon":13.641864,"k":"p","n":"Geboltskirchen Abzw Stein"},
+  {"id":5793759662,"lat":48.156466,"lon":13.649992,"k":"p","n":"Piesing"},
+  {"id":9053356726,"lat":48.182991,"lon":13.647387,"k":"s","n":"Haag am Hausruck Bahnhofstraße"},
+  {"id":9388370728,"lat":48.198984,"lon":13.604948,"k":"p","n":"Pramerdorf"},
+  {"id":9388370729,"lat":48.198544,"lon":13.636418,"k":"p","n":"Reischau"},
+  {"id":9388370730,"lat":48.198392,"lon":13.636599,"k":"p","n":"Reischau"},
+  {"id":9388370731,"lat":48.191367,"lon":13.642574,"k":"p","n":"Haag Steinpoint"},
+  {"id":9388370732,"lat":48.19128,"lon":13.642733,"k":"p","n":"Haag Steinpoint"},
+  {"id":9388370733,"lat":48.18603,"lon":13.642006,"k":"p","n":"Haag am Hausruck Abzw Schloss"},
+  {"id":9388370734,"lat":48.186045,"lon":13.641887,"k":"p","n":"Haag am Hausruck Abzw Schloss"},
+  {"id":9388370735,"lat":48.182258,"lon":13.643907,"k":"p","n":"Haag am Hausruck Schulzentrum"},
+  {"id":9388370736,"lat":48.179237,"lon":13.647612,"k":"p","n":"Haag Hochfeldsiedlung"},
+  {"id":9388370737,"lat":48.17936,"lon":13.647789,"k":"p","n":"Haag Hochfeldsiedlung"}
+],
+"routes":[
+  {"id":2389918,"t":{"ref":"646","name":"Bus 646: Wels Hauptbahnhof => Aistersheim => Ried/Ikr.","from":"Wels Hauptbahnhof","to":"Ried im Innkreis Promenade","operator":"Postbus","route":"bus","public_transport:version":"2","bus":"yes"},"n":45,"s":[[9388370737,37],[9053356726,38]]},
+  {"id":5259744,"t":{"ref":"646","name":"Bus 646: Ried/Ikr. => Aistersheim => Wels Hauptbahnhof","from":"Ried im Innkreis Gartenstraße/SZ","to":"Wels Hauptbahnhof","operator":"Postbus","route":"bus","public_transport:version":"2","bus":"yes"},"n":47,"s":[[9053356726,8],[9388370735,9],[9388370736,10]]},
+  {"id":12230904,"t":{"ref":"853","name":"Bus 853: Geboltskirchen - Haag - Ried","from":"Geboltskirchen Teichweg","route":"bus","public_transport:version":"2"},"n":32,"s":[[4074781255,1],[5793707102,2],[9388370737,7],[9053356726,8],[9388370733,9],[9388370732,10],[9388370730,11],[4839816007,12]]},
+  {"id":12241291,"t":{"ref":"853","name":"Bus 853: Ried - Haag - Geboltskirchen","to":"Geboltskirchen Teichweg","route":"bus","public_transport:version":"2"},"n":32,"s":[[9388370728,21],[9388370729,22],[9388370731,23],[9388370734,24],[9388370735,25],[9053356726,26],[9388370736,27],[5793759662,30],[5793707103,31],[4074781255,32]]},
+  {"id":15054229,"t":{"ref":"642","name":"Bus 642: Ried/Ikr. - Haag - Gaspoltshofen - Lambach","from":"Ried im Innkreis Bahnhof","to":"Lambach Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[9388370734,7],[9053356726,8],[9388370736,9]]},
+  {"id":15054230,"t":{"ref":"642","name":"Bus 642: Lambach - Gaspoltshofen - Haag - Ried/Ikr.","from":"Lambach Bahnhof","to":"Ried im Innkreis Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":41,"s":[[9388370737,28],[9053356726,29],[9388370733,30]]},
+  {"id":15066994,"t":{"ref":"654","name":"Bus 654: Haag - Taufkirchen - Grieskirchen","from":"Haag am Hausruck Bahnhofstraße","to":"Grieskirchen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[9053356726,1]]},
+  {"id":15066997,"t":{"ref":"654","name":"Bus 654: Grieskirchen - Taufkirchen - Haag","from":"Grieskirchen Bahnhof","to":"Haag am Hausruck Bahnhofstraße","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":21,"s":[[9053356726,21]]},
+  {"id":15066998,"t":{"ref":"653","name":"Bus 653: Geboltskirchen - Hofkirchen/Trattnach - Grieskirchen","from":"Geboltskirchen Teichweg","to":"Grieskirchen Bahnhof","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":17,"s":[[4074781255,1],[5793707102,2]]},
+  {"id":15066999,"t":{"ref":"653","name":"Bus 653: Grieskirchen - Hofkirchen/Trattnach - Geboltskirchen","from":"Grieskirchen Bahnhof","to":"Geboltskirchen Teichweg","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":18,"s":[[5793759662,16],[5793707103,17],[4074781255,18]]},
+  {"id":15067000,"t":{"ref":"653","name":"Bus 653: Haag/Hausruck - Hofkirchen/Trattnach - Grieskirchen","from":"Haag am Hausruck Bahnhofstraße","to":"Grieskirchen Schulzentrum","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":15,"s":[[9053356726,1],[9388370736,2]]},
+  {"id":15067001,"t":{"ref":"653","name":"Bus 653: Hofkirchen/Trattnach - Haag/Hausruck","from":"Hofkirchen an der Trattnach Gemeindeamt","to":"Haag am Hausruck Bahnhofstraße","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[9388370737,11],[9053356726,12]]}
+]
+}

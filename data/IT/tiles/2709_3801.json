@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3801],
+"stops":[
+  {"id":2144825853,"lat":45.483003,"lon":10.052743,"k":"p","n":"Lograto - Piazza Roma (centro)"},
+  {"id":2144825854,"lat":45.48644,"lon":10.060461,"k":"p","n":"Lograto - villa morando"},
+  {"id":2144825865,"lat":45.492142,"lon":10.072819,"k":"p","n":"Lograto - zona artigianale"},
+  {"id":2144825866,"lat":45.486345,"lon":10.060038,"k":"p","n":"Lograto - villa morando"},
+  {"id":2144825870,"lat":45.483302,"lon":10.053622,"k":"p","n":"Lograto - Piazza Roma (centro)"},
+  {"id":2144825874,"lat":45.492238,"lon":10.072786,"k":"p","n":"Lograto - zona artigianale"},
+  {"id":4693498445,"lat":45.450016,"lon":10.076647,"k":"p"},
+  {"id":4711878785,"lat":45.450544,"lon":10.082189,"k":"p","n":"Mairano - centro","ref":"Verso Orzinuovi"},
+  {"id":13510269088,"lat":45.452213,"lon":10.053692,"k":"p","n":"Brandico - bivio mairano"},
+  {"id":13510269089,"lat":45.461001,"lon":10.084981,"k":"p","n":"Pievidizio Chiesa","ref":"Verso Orzinuovi"},
+  {"id":13510269090,"lat":45.460755,"lon":10.090696,"k":"p","n":"Pievidizio Centro","ref":"Verso Brescia"},
+  {"id":13514009370,"lat":45.494481,"lon":10.07759,"k":"p","n":"Lograto - loc.navate"},
+  {"id":13514009371,"lat":45.497297,"lon":10.083518,"k":"p","n":"Travagliato - vivaio giardineria"},
+  {"id":13514009372,"lat":45.499705,"lon":10.088846,"k":"p","n":"Torbole c. - deretti"},
+  {"id":13514150979,"lat":45.499689,"lon":10.089054,"k":"p","n":"Torbole c. - deretti"},
+  {"id":13603613194,"lat":45.460867,"lon":10.084906,"k":"p","n":"Pievedizio chiesa","ref":"Verso Brescia"},
+  {"id":13603613195,"lat":45.460794,"lon":10.090695,"k":"p","n":"Pievedizio Centro","ref":"Verso Orzinuovi"},
+  {"id":13603613196,"lat":45.450351,"lon":10.082565,"k":"p","n":"Mairano Centro","ref":"Verso Brescia"}
+],
+"routes":[
+  {"id":20150470,"t":{"ref":"LS010","name":"Bus LS010: Orzinuovi->Barbariga->Brandico->Brescia","from":"Orzinuovi - via XXIV Maggio","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13510269088,14],[4711878785,17],[13510269089,18],[13510269090,19]]},
+  {"id":20150471,"t":{"ref":"LS010","name":"Bus LS010: Brescia->Brandico-> Barbariga->Orzinuovi","from":"Brescia Autostazione Solferino","to":"Orzinuovi - via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":31,"s":[[13510269090,13],[13510269089,14],[4711878785,15],[13510269088,18]]},
+  {"id":20156065,"t":{"ref":"RL203B","name":"Bus RL203B: Brescia => Soncino","from":"Brescia Autostazione","to":"Soncino Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":40,"s":[[13514009372,17],[13514009371,18],[13514009370,19],[2144825874,20],[2144825866,21],[2144825853,22]]},
+  {"id":20156403,"t":{"ref":"RL203B","name":"Bus RL203B: Soncino->Brescia","from":"Soncino Autostazione","to":"Brescia Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[2144825870,19],[2144825854,20],[2144825865,21],[13514009370,22],[13514150979,23]]},
+  {"id":20157687,"t":{"ref":"RL203A","name":"Bus RL203A: Rudiano->Cizzago->Maclodio->Brescia","from":"Rudiano Via Brescia 21","to":"Rudiano Via Brescia 21","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":43,"s":[[2144825870,24],[2144825854,25],[2144825865,26],[13514009370,27],[13514150979,28]]},
+  {"id":20157688,"t":{"ref":"RL203A","name":"Bus RL203A: Brescia->Maclodio->Cizzago->Rudiano","from":"Brescia Autostazione","to":"Rudiano Via Brescia 21","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":44,"s":[[13514009372,17],[13514009371,18],[13514009370,19],[2144825874,20],[2144825866,21],[2144825853,22]]}
+]
+}

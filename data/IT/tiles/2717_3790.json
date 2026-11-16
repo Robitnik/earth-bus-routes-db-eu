@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3790],
+"stops":[
+  {"id":7375658086,"lat":45.890869,"lon":9.540306,"k":"p","n":"Vedeseta Centro"},
+  {"id":13644614982,"lat":45.855004,"lon":9.500215,"k":"p","n":"Brumano - via morella/via orso"},
+  {"id":13644614983,"lat":45.853332,"lon":9.500999,"k":"p","n":"Brumano - provinciale (municipio)"},
+  {"id":13647086660,"lat":45.852674,"lon":9.528303,"k":"p","n":"Fuipiano Imagna - p.za europa"},
+  {"id":13647086661,"lat":45.855406,"lon":9.528046,"k":"p","n":"Fuipiano - Via Resegone 27"},
+  {"id":13647086662,"lat":45.851174,"lon":9.526675,"k":"p","n":"Fuipiano Imagna - via giovanni XXII"},
+  {"id":13983025616,"lat":45.887615,"lon":9.545915,"k":"p","n":"Vedeseta - via cavallo"}
+],
+"routes":[
+  {"id":10968553,"t":{"ref":"B40a","name":"Bus B40a: San Giovanni Bianco -> Sottochiesa -> Olda -> Vedeseta","from":"San Giovanni Bianco","to":"Vedeseta","operator":"SAB","route":"bus","public_transport:version":"2"},"n":14,"s":[[13983025616,13],[7375658086,14]]},
+  {"id":20317713,"t":{"ref":"B00a","name":"Bus B00a: Selino Basso -> Brumano","from":"Selino basso - via fonti (campo sport.)","to":"Brumano - via morella/via orso","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":11,"s":[[13644614983,10],[13644614982,11]]},
+  {"id":20321224,"t":{"ref":"B00a","name":"Bus B00a: Brumano -> Selino Basso","from":"Brumano - via morella/via orso","to":"Selino basso - via fonti (campo sport.)","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[13644614982,1],[13644614983,2]]},
+  {"id":20321262,"t":{"ref":"B00b","name":"Bus B00b: Fuipiano Imagna -> Selino Basso","from":"Fuipiano - Via Resegone 27","to":"Selino basso - via v.veneto (scuole)","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":18,"s":[[13647086661,1],[13647086660,2],[13647086662,3]]},
+  {"id":20321263,"t":{"ref":"B00b","name":"Bus B00b: Selino Basso -> Fuipiano Imagna","from":"Selino basso - via v.veneto (scuole)","to":"Fuipiano Imagna - via giovanni XXIII","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":15,"s":[[13647086662,15]]},
+  {"id":21056252,"t":{"ref":"B40a","name":"Bus B40a: Vedeseta-> Olda -> Sottochiesa -> San Giovanni Bianco","from":"Vedeseta","to":"San Giovanni Bianco","operator":"SAB","route":"bus","public_transport:version":"2"},"n":14,"s":[[7375658086,1],[13983025616,2]]}
+]
+}

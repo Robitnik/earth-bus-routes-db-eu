@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2727,3829],
+"stops":[
+  {"id":1375182563,"lat":46.391279,"lon":11.467985,"k":"x","n":"Schwarzenbach - Rio Nero"},
+  {"id":1375182596,"lat":46.391888,"lon":11.468541,"k":"x","n":"Schwarzenbach - Rio Nero"},
+  {"id":1375182603,"lat":46.391811,"lon":11.464618,"k":"x","n":"Ganischger"},
+  {"id":1375182610,"lat":46.391915,"lon":11.465387,"k":"x","n":"Ganischger"},
+  {"id":1375243907,"lat":46.387164,"lon":11.496265,"k":"x","n":"Rauth - Novale"},
+  {"id":2382614586,"lat":46.394516,"lon":11.478238,"k":"x","n":"Abzweigung Deutschnofen - Bivio Nova Ponente"},
+  {"id":2953059768,"lat":46.394521,"lon":11.478046,"k":"p","n":"Abzweigung Deutschnofen - Bivio Nova Ponente"},
+  {"id":2953059769,"lat":46.392941,"lon":11.4592,"k":"p","n":"Kasbach"},
+  {"id":2953059770,"lat":46.392032,"lon":11.465381,"k":"p","n":"Ganischger"},
+  {"id":2953059773,"lat":46.391859,"lon":11.46866,"k":"p","n":"Schwarzenbach - Rio Nero"},
+  {"id":3338308595,"lat":46.352254,"lon":11.484393,"k":"x","n":"Varena, Malga Varena (Passo Oclini)"},
+  {"id":3613269108,"lat":46.394158,"lon":11.477584,"k":"p","n":"Abzweigung Deutschnofen - Bivio Nova Ponente"},
+  {"id":3613269110,"lat":46.39362,"lon":11.458429,"k":"p","n":"Kasbach"},
+  {"id":3613271213,"lat":46.387214,"lon":11.496306,"k":"p","n":"Rauth - Novale"},
+  {"id":6014957327,"lat":46.393622,"lon":11.458526,"k":"x","n":"Kasbach"},
+  {"id":6014964544,"lat":46.39288,"lon":11.459123,"k":"x","n":"Kasbach"},
+  {"id":6438649943,"lat":46.391737,"lon":11.464657,"k":"p","n":"Ganischger"},
+  {"id":6438654523,"lat":46.391285,"lon":11.46786,"k":"p","n":"Schwarzenbach - Rio Nero"},
+  {"id":10223171466,"lat":46.394227,"lon":11.477528,"k":"x","n":"Abzweigung Deutschnofen - Bivio Nova Ponente"},
+  {"id":10224229540,"lat":46.386659,"lon":11.496604,"k":"p","n":"Rauth - Novale"},
+  {"id":10224229542,"lat":46.38676,"lon":11.496565,"k":"x","n":"Rauth - Novale"},
+  {"id":10224309475,"lat":46.354428,"lon":11.492105,"k":"p","n":"Passo Lavazè - Lavazèjoch"},
+  {"id":10224309476,"lat":46.35448,"lon":11.491909,"k":"p","n":"Passo Lavazè - Lavazèjoch"},
+  {"id":10224309477,"lat":46.35446,"lon":11.491988,"k":"x","n":"Passo Lavazè - Lavazèjoch"},
+  {"id":10224309479,"lat":46.35225,"lon":11.484606,"k":"p","n":"Varena, Malga Varena (Passo Oclini)"},
+  {"id":10224309480,"lat":46.352285,"lon":11.484256,"k":"p","n":"Varena, Malga Varena (Passo Oclini)"}
+],
+"routes":[
+  {"id":14944210,"t":{"ref":"181","name":"Bus 181: Bolzano => Birchabruck => Deutschnofen => Weißenstein","from":"Bolzano","to":"Weißenstein","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":33,"s":[[2953059768,14],[6438654523,15],[2953059770,16],[2953059769,17]]},
+  {"id":14946000,"t":{"ref":"184","name":"Bus 184: Karerpass => Birchabruck => Obereggen => Weißenstein","from":"Karerpass","to":"Weißenstein","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":49,"s":[[3613271213,29],[2953059768,30],[6438654523,31],[2953059770,32],[2953059769,33]]},
+  {"id":18507464,"t":{"ref":"181","name":"Bus 181: Weißenstein => Deutschnofen => Birchabruck => Bolzano","from":"Weißenstein","to":"Bolzano","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":31,"s":[[3613269110,16],[6438649943,17],[2953059773,18],[3613269108,19]]},
+  {"id":18509773,"t":{"ref":"184","name":"Bus 184: Weißenstein => Obereggen => Birchabruck => Karerpass","from":"Weißenstein","to":"Karerpass","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":49,"s":[[3613269110,17],[6438649943,18],[2953059773,19],[3613269108,20],[10224229540,21]]},
+  {"id":18514067,"t":{"ref":"189","name":"Bus 189: Jochgrimm => Bolzano","from":"Jochgrimm","to":"Bolzano","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":26,"s":[[10224309479,2],[10224309475,3],[10224229540,4]]},
+  {"id":18514154,"t":{"ref":"189","name":"Bus 189: Bolzano => Jochgrimm","from":"Bolzano","to":"Jochgrimm","operator":"Consorzio Alto Adige Autonoleggiatori","route":"bus","public_transport:version":"2"},"n":26,"s":[[10224309476,24],[10224309480,25]]},
+  {"id":19357674,"t":{"ref":"B108","name":"Bus B108: Passo Oclini->Passo Lavacè->Varena->Daiano->Cavalese","from":"Passo Oclin","to":"Cavalese Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[10224309480,1],[10224309476,2]]},
+  {"id":19357675,"t":{"ref":"B108","name":"Bus B108: Cavalese->Daiano->Varena->Passo Lavacè->Passo Oclini","from":"Cavalese Autostazione","to":"Passo Oclini","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[10224309476,15],[10224309480,16]]}
+]
+}

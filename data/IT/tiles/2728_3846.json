@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3846],
+"stops":[
+  {"id":8792152839,"lat":46.419346,"lon":12.343216,"k":"p","n":"Nebbiù birreria"},
+  {"id":8792152840,"lat":46.419176,"lon":12.343437,"k":"p","n":"Nebbiù birreria"},
+  {"id":8792152841,"lat":46.417365,"lon":12.331797,"k":"p","n":"Valle di Cadore centro","ref":"246"},
+  {"id":8792152842,"lat":46.417229,"lon":12.331691,"k":"p","n":"Valle di Cadore centro","ref":"246"},
+  {"id":8792152843,"lat":46.414182,"lon":12.322761,"k":"p","n":"Valle - Sebbie"},
+  {"id":8792152844,"lat":46.414319,"lon":12.322825,"k":"p","n":"Valle - Sebbie"},
+  {"id":9335679196,"lat":46.420279,"lon":12.348924,"k":"p","n":"Tai Bivio Nebbiù"},
+  {"id":9335679197,"lat":46.420377,"lon":12.348538,"k":"p","n":"Tai Bivio Nebbiù"},
+  {"id":9335679198,"lat":46.421108,"lon":12.347605,"k":"p","n":"Nebbiù Da Viani"},
+  {"id":9335679212,"lat":46.424016,"lon":12.345595,"k":"p","n":"Colonia Mari"},
+  {"id":9335679213,"lat":46.423876,"lon":12.34547,"k":"p","n":"Colonia Mari"},
+  {"id":9335688523,"lat":46.427405,"lon":12.342935,"k":"p","n":"Nebbiù"}
+],
+"routes":[
+  {"id":1948899,"t":{"ref":"30","name":"Calalzo -> Cortina","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":31,"s":[[8792152839,11],[8792152841,12],[8792152844,13]]},
+  {"id":1948900,"t":{"ref":"36","name":"Calalzo -> Cibiana","from":"Calalzo Fs","to":"Cibiana di Cadore","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":17,"s":[[8792152839,9],[8792152841,10],[8792152844,11]]},
+  {"id":12798589,"t":{"ref":"30","name":"Cortina -> Calalzo","from":"Cortina","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[8792152843,10],[8792152842,11],[8792152840,12]]},
+  {"id":12798590,"t":{"ref":"36","name":"Cibiana -> Calalzo","from":"Cibiana","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":16,"s":[[8792152843,10],[8792152842,11],[8792152840,12]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[8792152841,9],[8792152839,10],[8792152844,11]]},
+  {"id":13547100,"t":{"ref":"922/923","name":"Calalzo FS -> Nebbiù","from":"Calalzo FS","to":"Nebbiù","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":9,"s":[[9335679197,7],[9335679198,8],[9335679212,9]]},
+  {"id":13547101,"t":{"ref":"922/923","name":"Nebbiù -> Calalzo FS","from":"Nebbiù","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":10,"s":[[9335679196,9],[9335679213,10]]}
+]
+}

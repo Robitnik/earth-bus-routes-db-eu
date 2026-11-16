@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3814],
+"stops":[
+  {"id":956793568,"lat":45.742273,"lon":10.730619,"k":"p","n":"Tignale santuario"},
+  {"id":956794683,"lat":45.738479,"lon":10.722309,"k":"p","n":"Tignale-Gardola"},
+  {"id":956795222,"lat":45.738275,"lon":10.729404,"k":"p","n":"Tignale panorama"},
+  {"id":956796135,"lat":45.734931,"lon":10.720886,"k":"p","n":"Tignale Oldesio"},
+  {"id":956797154,"lat":45.730788,"lon":10.705653,"k":"p","n":"SP38 bivio per Piovere"},
+  {"id":956798071,"lat":45.713008,"lon":10.700506,"k":"p","n":"Gargnano SP38 Gardesana bivio Tignale"},
+  {"id":3752102193,"lat":45.734646,"lon":10.720321,"k":"p","n":"Tignale Oldesio"},
+  {"id":8957244262,"lat":45.713456,"lon":10.701005,"k":"p","n":"Gargnano Gardesana bivio Tignale"},
+  {"id":8963838617,"lat":45.727987,"lon":10.718638,"k":"p","n":"Tignale Gardesana Prà de la Farm"},
+  {"id":10000676416,"lat":45.71888,"lon":10.705141,"k":"p"},
+  {"id":10000678117,"lat":45.719144,"lon":10.705763,"k":"p"},
+  {"id":12890372335,"lat":45.735968,"lon":10.734485,"k":"p","n":"Tignale Forbisicle"},
+  {"id":12890372337,"lat":45.736465,"lon":10.71943,"k":"p"},
+  {"id":12890372339,"lat":45.731653,"lon":10.714906,"k":"p"},
+  {"id":12890372342,"lat":45.731377,"lon":10.714708,"k":"p"},
+  {"id":12894260593,"lat":45.713456,"lon":10.70089,"k":"p","n":"Gargnano Gardesana bivio Tignale"},
+  {"id":13477145065,"lat":45.738102,"lon":10.709861,"k":"p"},
+  {"id":13479396301,"lat":45.727928,"lon":10.708885,"k":"p"}
+],
+"routes":[
+  {"id":9606130,"t":{"ref":"LN027","name":"Bus LN027: Salò->Riva del Garda","from":"Salò autostazione","to":"Riva del Garda autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[8957244262,22],[8963838617,23],[12890372335,24]]},
+  {"id":19216121,"t":{"ref":"LN012","name":"Bus LN012: Tremosine->Limone->Gargnano","from":"Tremosine","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":29,"s":[[12890372335,24],[8963838617,25],[956798071,26]]},
+  {"id":19216122,"t":{"ref":"LN012","name":"Bus LN012: Gargnano->Limone->Tremosine","from":"Gargnano","to":"Tremosine","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":30,"s":[[8957244262,3],[8963838617,4],[12890372335,5]]},
+  {"id":19216785,"t":{"ref":"LN011","name":"Bus LN011: Tgnale->Gargniano","from":"Tignale","to":"Gargniano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":10,"s":[[956793568,2],[956794683,3],[956795222,4],[3752102193,5],[956797154,6],[956798071,7]]},
+  {"id":19216786,"t":{"ref":"LN011","name":"Bus LN011: Gargnano->Tignale","from":"Gargnano","to":"Tignale","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":10,"s":[[956798071,4],[956797154,5],[3752102193,6],[956795222,7],[956794683,8],[956793568,9]]},
+  {"id":19221090,"t":{"ref":"LN027","name":"Bus LN027: Riva del Garda-> Salò","from":"Riva del Garda autostazione","to":"Salò autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":33,"s":[[8963838617,11],[12894260593,12]]},
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[8957244262,59],[8963838617,60],[12890372335,61]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[8963838617,12],[12894260593,13]]}
+]
+}

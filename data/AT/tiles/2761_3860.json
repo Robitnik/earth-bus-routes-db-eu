@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2761,3860],
+"stops":[
+  {"id":410402872,"lat":48.067344,"lon":13.044765,"k":"x","n":"Feldkirchen bei Mattighofen Ortsmitte"},
+  {"id":6766600475,"lat":48.067268,"lon":13.044692,"k":"p","n":"Feldkirchen bei Mattighofen Ortsmitte"},
+  {"id":6766600476,"lat":48.06742,"lon":13.044839,"k":"p","n":"Feldkirchen bei Mattighofen Ortsmitte"},
+  {"id":9394055545,"lat":48.084319,"lon":13.048709,"k":"p","n":"Feldkirchen Ottenhausen"},
+  {"id":9394055546,"lat":48.084459,"lon":13.048455,"k":"p","n":"Feldkirchen Ottenhausen"}
+],
+"routes":[
+  {"id":9993080,"t":{"ref":"111","name":"Bus 111: Feldkirchen => Salzburg","from":"Feldkirchen Ortsmitte","to":"Salzburg Hauptbahnhof","network":"Salzburger Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":42,"s":[[6766600475,1]]},
+  {"id":9993086,"t":{"ref":"111","name":"Bus 111: Salzburg => Feldkirchen","from":"Salzburg Hauptbahnhof","to":"Feldkirchen Ortsmitte","network":"Salzburger Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":42,"s":[[6766600476,42]]},
+  {"id":13637503,"t":{"ref":"878","name":"Bus 878: Geretsberg - Wagenham","from":"Pischelsdorf Wagenham","to":"Pischelsdorf Ortsmitte","route":"bus","public_transport:version":"2"},"n":8,"s":[[6766600476,4],[9394055545,5]]},
+  {"id":13637504,"t":{"ref":"878","name":"Bus 878: Pischelsdorf - Geretsberg","from":"Pischelsdorf Ortsmitte","to":"Geretsberg Ortsmitte","route":"bus","public_transport:version":"2"},"n":9,"s":[[9394055546,5],[6766600475,6]]}
+]
+}

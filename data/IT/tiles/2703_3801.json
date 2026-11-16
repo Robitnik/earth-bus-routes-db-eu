@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2703,3801],
+"stops":[
+  {"id":377044369,"lat":45.150414,"lon":10.091953,"k":"p","n":"San Marino, Via Mantova Ferrari"},
+  {"id":13404738413,"lat":45.199223,"lon":10.052125,"k":"p","n":"Pozzaglio-v.roma bv.v.Brescia (ed Uniti)"},
+  {"id":13436217978,"lat":45.150221,"lon":10.092037,"k":"p","n":"San Marino, Via Mantova, Casa Cantoniera"},
+  {"id":13441964560,"lat":45.150026,"lon":10.050755,"k":"p","n":"Cremona, Maristella"},
+  {"id":13441964561,"lat":45.153611,"lon":10.056739,"k":"p","n":"Cremona, Via Persico, 66, Porcellasco"},
+  {"id":13441964562,"lat":45.158074,"lon":10.063745,"k":"p","n":"Cremona, Maristella, Case Nuove"},
+  {"id":13441964563,"lat":45.166577,"lon":10.07523,"k":"p","n":"Persichello, Largo Ostiano, 72"},
+  {"id":13441964564,"lat":45.169777,"lon":10.079978,"k":"p","n":"Persichello, Largo Ostiano, 297"},
+  {"id":13441964565,"lat":45.17582,"lon":10.089515,"k":"p","n":"Persichello, Via Gramsci, 65"},
+  {"id":13445021493,"lat":45.172515,"lon":10.068213,"k":"p","n":"Persico, Piazza Mons. Avosani"},
+  {"id":13445021494,"lat":45.175559,"lon":10.089725,"k":"p","n":"Persichello, Via Gramsci"},
+  {"id":13445021495,"lat":45.16958,"lon":10.080278,"k":"p","n":"Persichello, Largo Ostiano"},
+  {"id":13445021496,"lat":45.1665,"lon":10.075386,"k":"p","n":"Persichello, Largo Ostiano, 183"},
+  {"id":13445021497,"lat":45.157946,"lon":10.064024,"k":"p","n":"Cremona, Via Persico Casenuove, 185"},
+  {"id":13445021498,"lat":45.152767,"lon":10.055913,"k":"p","n":"Cremona, Via Persico, 101"}
+],
+"routes":[
+  {"id":20003896,"t":{"ref":"LS013","name":"Bus LS013: Brescia => Manerbio => Cremona","from":"Brescia autostatione","to":"Cremona autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[13404738413,39]]},
+  {"id":20004357,"t":{"ref":"LS013","name":"Bus LS013: Cremona => Manobio => Brescia","from":"Cremona autostazione","to":"Brescia autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":44,"s":[[13404738413,6]]},
+  {"id":20050572,"t":{"ref":"K205","name":"Bus K205: Asola => Isola Dovarese => Cremona","from":"Asola, Piazzale Forchini","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":32,"s":[[377044369,28]]},
+  {"id":20060560,"t":{"ref":"K206","name":"Bus K206: Cremona => Ostiano => Gadesco=> Volongo","from":"Cremona Autostazione","to":"Volongo Via Gariabaldi,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":28,"s":[[13436217978,6]]},
+  {"id":20060561,"t":{"ref":"K206","name":"Bus K206: Volongo => Gadesco => Ostiano => Cremona","from":"Volongo Via Garibaldi,Chiesa","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":24,"s":[[377044369,20]]},
+  {"id":20062299,"t":{"ref":"K207","name":"Bus K207: Pralboino => Binanuova => Persichello => Cremona","from":"Pralboino, Via Dante","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":31,"s":[[13441964565,22],[13441964564,23],[13441964563,24],[13441964562,25],[13441964561,26],[13441964560,27]]},
+  {"id":20066396,"t":{"ref":"K207","name":"Bus K207: Cremona => Persichello=> Binanuova => Pralboino","from":"Cremona Autostazione","to":"Pralboino, Via Roma,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":32,"s":[[13441964560,5],[13445021498,6],[13445021497,7],[13445021496,8],[13445021495,9],[13445021493,10],[13445021494,11]]},
+  {"id":20079221,"t":{"ref":"K214","name":"Bus K214: Cremona => Pontevicio => Pavone Mella => Brescia","from":"Cremona Autostazione","to":"Pontevicio","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":24,"s":[[13404738413,7]]},
+  {"id":20079222,"t":{"ref":"K214","name":"Bus K214: Brescia => Pavone Mella => Pontevicio => Cremona","from":"Pontevicio","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":19,"s":[[13404738413,13]]},
+  {"id":20110498,"t":{"ref":"K205","name":"Bus K205: Cremona => Isola Dovarese => Asola Variante Ardole San Marino","from":"Cremona Autostazione","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":13,"s":[[13436217978,3]]}
+]
+}

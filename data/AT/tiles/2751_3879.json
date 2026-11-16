@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2751,3879],
+"stops":[
+  {"id":14005301,"lat":47.552025,"lon":13.971058,"k":"x","n":"Krungl Bundesstraße"},
+  {"id":66210858,"lat":47.593358,"lon":13.985817,"k":"x","n":"Tauplitzalm Hollhaus"},
+  {"id":337936273,"lat":47.553712,"lon":13.959834,"k":"x","n":"Zauchen Ost"},
+  {"id":2036203291,"lat":47.553712,"lon":13.959689,"k":"p","n":"Zauchen Ost"},
+  {"id":2132529190,"lat":47.593418,"lon":13.98583,"k":"p","n":"Tauplitzalm Hollhaus"},
+  {"id":2137895087,"lat":47.596305,"lon":13.998791,"k":"x"},
+  {"id":3391666580,"lat":47.579778,"lon":13.975601,"k":"x","n":"Zauchen Mittersteinbahn Talstation"},
+  {"id":3704128924,"lat":47.552346,"lon":13.989725,"k":"p","n":"Kohlmühle"},
+  {"id":3704128934,"lat":47.552402,"lon":13.989433,"k":"x","n":"Kohlmühle"},
+  {"id":3704129101,"lat":47.553709,"lon":13.95993,"k":"p","n":"Zauchen Ost"},
+  {"id":3706060568,"lat":47.553902,"lon":13.954227,"k":"x","n":"Zauchen Zauchenwirt"},
+  {"id":7858342954,"lat":47.552013,"lon":13.970464,"k":"x","n":"Krungl Bundesstraße"},
+  {"id":8150823370,"lat":47.57981,"lon":13.975576,"k":"p","n":"Zauchen Mittersteinbahn Talstation"},
+  {"id":8227103211,"lat":47.552467,"lon":13.989367,"k":"p","n":"Kohlmühle"},
+  {"id":8227103212,"lat":47.553978,"lon":13.954368,"k":"p","n":"Zauchen Zauchenwirt"},
+  {"id":8227103214,"lat":47.553871,"lon":13.954265,"k":"p","n":"Zauchen Zauchenwirt"},
+  {"id":11677461057,"lat":47.552417,"lon":13.989734,"k":"x","n":"Kohlmühle"},
+  {"id":5000366430265,"lat":47.552109,"lon":13.971059,"k":"p","n":"Krungl Bundesstraße"},
+  {"id":5000842338975,"lat":47.551936,"lon":13.970482,"k":"p","n":"Krungl Bundesstraße"},
+  {"id":5000884671946,"lat":47.552474,"lon":13.989477,"k":"p","n":"Kohlmühle"},
+  {"id":5000884671947,"lat":47.553968,"lon":13.954324,"k":"p","n":"Zauchen Zauchenwirt"},
+  {"id":5000884671948,"lat":47.553861,"lon":13.954185,"k":"p","n":"Zauchen Zauchenwirt"}
+],
+"routes":[
+  {"id":8718146,"t":{"ref":"950","name":"Bus 950: Bad Aussee Postamt => Stainach Hauptplatz","from":"Bad Aussee Postamt","to":"Stainach Hauptplatz","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":43,"s":[[5000884671948,24],[2036203291,25],[5000842338975,26],[3704128924,27]]},
+  {"id":9045008,"t":{"ref":"950","name":"Bus 950: Stainach-Irdning Bahnhof => Bad Aussee Postamt","from":"Stainach-Irdning Bahnhof","to":"Bad Aussee Postamt","network":"Verkehrsverbund Steiermark","operator":"RegioBus Steiermark","route":"bus","public_transport:version":"2"},"n":43,"s":[[5000884671946,17],[5000366430265,18],[3704129101,19],[5000884671947,20]]},
+  {"id":12024578,"t":{"ref":"8610","name":"Bus 8610 (Sommerfahrplan): Tauplitzalm - Bad Mitterndorf","from":"Thörl Alpenstraße","to":"Tauplitzalm Hollhaus","route":"bus","public_transport:version":"2"},"n":2,"s":[[2132529190,1]]},
+  {"id":12024579,"t":{"ref":"8610","name":"Bus 8610 (Sommerfahrplan): Bad Mitterndorf - Tauplitzalm","from":"Thörl Alpenstraße","to":"Tauplitzalm Hollhaus","route":"bus","public_transport:version":"2"},"n":2,"s":[[2132529190,2]]},
+  {"id":12024580,"t":{"ref":"8610","name":"Bus 8610 (Winterfahrplan): Tauplitzalm - Thörl","from":"Thörl Alpenstraße","to":"Tauplitzalm Hollhaus","route":"bus","public_transport:version":"2"},"n":3,"s":[[2132529190,1],[8150823370,2]]},
+  {"id":12024581,"t":{"ref":"8610","name":"Bus 8610 (Winterfahrplan): Thörl - Tauplitzalm","from":"Thörl Alpenstraße","to":"Tauplitzalm Hollhaus","route":"bus","public_transport:version":"2"},"n":3,"s":[[8150823370,2],[2132529190,3]]},
+  {"id":12940200,"t":{"name":"Bummelzug Tauplitzalm","from":"Tauplitzalm Hollaus","to":"Steirerbankerl","operator":"Hollhaus, GH Hierzegger","route":"share_taxi","public_transport:version":"2"},"n":2,"s":[[2132529190,1,2]]},
+  {"id":16896627,"t":{"ref":"850","name":"Salzkammergut-Shuttle Ausseerland 850: Gnanitz Schranken - Tauplitz - Bad Mitterndorf","from":"Gnanitz Schranken","to":"Bad Mitterndorf Grimminghalle","network":"Salzkammergut-Shuttles","colour":"#999900","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000884671947,11]]},
+  {"id":16896628,"t":{"ref":"850","name":"Salzkammergut-Shuttle Ausseerland 850: Bad Mitterndorf - Tauplitz - Gnanitz Schranken","from":"Bad Mitterndorf Grimminghalle","to":"Gnanitz Schranken","network":"Salzkammergut-Shuttles","colour":"#999900","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000884671948,5]]}
+]
+}

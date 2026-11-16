@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3797],
+"stops":[
+  {"id":282379180,"lat":45.750712,"lon":9.861587,"k":"x","n":"Casale Bivio Via del Cereto"},
+  {"id":282379184,"lat":45.75099,"lon":9.862211,"k":"x","n":"Casale Bivio Via del Cereto"},
+  {"id":9388531796,"lat":45.752876,"lon":9.865469,"k":"x","n":"Casale Pensilina"},
+  {"id":9388531799,"lat":45.752741,"lon":9.865468,"k":"x","n":"Casale Pensilina"},
+  {"id":9388531800,"lat":45.752888,"lon":9.865513,"k":"p","n":"Casale Pensilina"},
+  {"id":9388531801,"lat":45.752718,"lon":9.865505,"k":"p","n":"Casale Pensilina"},
+  {"id":9388531802,"lat":45.750512,"lon":9.854013,"k":"p","n":"Ponte Lujo Via Gavazzuolo"},
+  {"id":9388531803,"lat":45.75052,"lon":9.8539,"k":"p","n":"Ponte Lujo Via Gavazzuolo"},
+  {"id":9388531804,"lat":45.75052,"lon":9.853957,"k":"x","n":"Ponte Lujo Via Gavazzuolo"},
+  {"id":9388531805,"lat":45.75354,"lon":9.858813,"k":"x","n":"Dossello Bivio Via Gotte"},
+  {"id":9388531806,"lat":45.753577,"lon":9.858864,"k":"p","n":"Dossello Bivio Via Gotte"},
+  {"id":9388531807,"lat":45.753498,"lon":9.858769,"k":"p","n":"Dossello Bivio Via Gotte"},
+  {"id":9388531808,"lat":45.750999,"lon":9.862118,"k":"p","n":"Casale Bivio Via del Cereto"},
+  {"id":9388531809,"lat":45.750677,"lon":9.861546,"k":"p","n":"Casale Bivio Via del Cereto"},
+  {"id":13626929436,"lat":45.760951,"lon":9.895696,"k":"p","n":"Gaverina - via garibaldi (trate)"},
+  {"id":13626929437,"lat":45.759842,"lon":9.897418,"k":"p","n":"Gaverina - via giovanni XXIII (trate)"},
+  {"id":13626929438,"lat":45.76094,"lon":9.881414,"k":"p","n":"Gaverina - via colle gallo (capolinea)"},
+  {"id":13626929439,"lat":45.760487,"lon":9.884219,"k":"p","n":"Gaverina - via s.vittore (piano)"},
+  {"id":13626929440,"lat":45.759533,"lon":9.882787,"k":"p","n":"Gaverina - via s.vittore/via patelli"},
+  {"id":13626929441,"lat":45.758745,"lon":9.884817,"k":"p","n":"Gaverina - via cortinovis (chiesa)"},
+  {"id":13626929442,"lat":45.757939,"lon":9.885549,"k":"p","n":"Gaverina - via cortinovis (municipio)"},
+  {"id":13626929443,"lat":45.756887,"lon":9.886676,"k":"p","n":"Gaverina - via cortinovis/via s.rocco"},
+  {"id":13626929444,"lat":45.755491,"lon":9.885989,"k":"p","n":"Gaverina - via vittoria"},
+  {"id":13626929445,"lat":45.755371,"lon":9.887556,"k":"p","n":"Gaverina - via cortinovis"},
+  {"id":13626929446,"lat":45.756449,"lon":9.891579,"k":"p","n":"Gaverina - via cortinovis/via chiesa"},
+  {"id":13626929447,"lat":45.75615,"lon":9.894055,"k":"p","n":"Gaverina - via drione (fonti)"},
+  {"id":13971925438,"lat":45.798996,"lon":9.899138,"k":"p","n":"Peia - via ca' zenucchi (centro)"}
+],
+"routes":[
+  {"id":13630236,"t":{"ref":"S30c","name":"Bus S30c: Albino I.S.I.S. => Casale","from":"Albino","to":"Casale","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"1"},"n":23,"s":[[9388531802,18],[9388531807,19],[9388531809,20],[9388531801,21]]},
+  {"id":13630237,"t":{"name":"Bus S30c: Albino Stazione => Casale","from":"Albino Stazione","to":"Casale","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":19,"s":[[9388531804,14],[9388531805,15],[282379180,16],[9388531799,17]]},
+  {"id":13630430,"t":{"ref":"S30c","name":"Bus S30c: Casale => Albino Stazione","from":"Casale","to":"Albino Stazione","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":19,"s":[[9388531800,3],[9388531808,4],[9388531806,5],[9388531803,6]]},
+  {"id":20299427,"t":{"ref":"C30a","name":"Bus C30a: Gaverina -> Casazza","from":"Gaverina - via colle gallo (capolinea)","to":"Casazza - via broli (scuole)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[13626929438,1],[13626929439,2],[13626929440,3],[13626929441,4],[13626929442,5],[13626929443,6],[13626929444,7],[13626929445,8],[13626929446,9],[13626929447,10],[13626929437,11,13],[13626929436,12]]},
+  {"id":20299428,"t":{"ref":"C30a","name":"Bus C30a: Casazza -> Gaverina","from":"Casazza - via broli (scuole)","to":"Gaverina - via colle gallo (capolinea)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":13,"s":[[13626929447,4],[13626929446,5],[13626929445,6],[13626929444,7],[13626929443,8],[13626929442,9],[13626929441,10],[13626929440,11],[13626929439,12],[13626929438,13]]},
+  {"id":21039695,"t":{"ref":"S40b","name":"Bus S40b: Gazzaniga -> Peia","from":"Peia - via ca' zenucchi (centro)","to":"Gazzaniga Stazione","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":11,"s":[[13971925438,1]]},
+  {"id":21039696,"t":{"ref":"S40b","name":"Bus S40b: Gazzaniga -> Peia","from":"Gazzaniga Stazione","to":"Peia - via ca' zenucchi (centro)","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":9,"s":[[13971925438,9]]}
+]
+}

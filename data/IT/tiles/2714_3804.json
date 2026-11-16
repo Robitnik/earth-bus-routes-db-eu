@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3804],
+"stops":[
+  {"id":12368687203,"lat":45.748053,"lon":10.240583,"k":"p","n":"Tavernole - Via IV Novembre"},
+  {"id":12374669742,"lat":45.748023,"lon":10.240603,"k":"p","n":"Tavernole - Via IV Novembre"},
+  {"id":12374669743,"lat":45.744547,"lon":10.239247,"k":"p","n":"Tavernole - Case Marcolini"},
+  {"id":12374669744,"lat":45.744124,"lon":10.238146,"k":"p","n":"Tavernole - Case Marcolini"},
+  {"id":12374669745,"lat":45.740771,"lon":10.237881,"k":"p","n":"Tavernole - Ferriere"},
+  {"id":12374669746,"lat":45.74075,"lon":10.237993,"k":"p","n":"Tavernole - Ferriere"},
+  {"id":12374669747,"lat":45.726736,"lon":10.232617,"k":"p","n":"Brozzo - San Carlo"},
+  {"id":12374669760,"lat":45.725495,"lon":10.232769,"k":"p","n":"Brozzo - San Carlo"},
+  {"id":12374669761,"lat":45.721913,"lon":10.230225,"k":"p","n":"Brozzo -Via Garibaldi, Chiesa"},
+  {"id":12374669762,"lat":45.721748,"lon":10.230213,"k":"p","n":"Brozzo -Via Garibaldi, Chiesa"},
+  {"id":12374669764,"lat":45.718783,"lon":10.227728,"k":"p","n":"Brozzo - Via Garibaldi 30"},
+  {"id":12374669765,"lat":45.718781,"lon":10.227974,"k":"p","n":"Brozzo - Via Garibaldi 30"},
+  {"id":12379483398,"lat":45.704,"lon":10.2113,"k":"p","n":"Marcheno - Via Zanardelli 159"},
+  {"id":12379483399,"lat":45.703745,"lon":10.211262,"k":"p","n":"Marcheno - Via Zanardelli 159"},
+  {"id":12379483400,"lat":45.709356,"lon":10.21767,"k":"p","n":"Marcheno - Via Martiri dell'Indipendenza"},
+  {"id":12379483401,"lat":45.709356,"lon":10.217895,"k":"p","n":"Marcheno - Via Martiri dell'Indipendenza"},
+  {"id":12379483402,"lat":45.701152,"lon":10.207286,"k":"p","n":"Marcheno - Via Zanardelli 203"},
+  {"id":12379483403,"lat":45.701166,"lon":10.207692,"k":"p","n":"Marcheno - Via Zanardelli 203"},
+  {"id":13534486331,"lat":45.74886,"lon":10.240406,"k":"p","n":"Tavernole Piazza Mercato"},
+  {"id":13542702801,"lat":45.717121,"lon":10.239257,"k":"p","n":"Brozzo Ghidini"},
+  {"id":13542702802,"lat":45.719787,"lon":10.232135,"k":"p","n":"Brozzo-V.Chiesa Cr.V.Canossi"},
+  {"id":13542702803,"lat":45.72202,"lon":10.230474,"k":"p","n":"Brozzo bivio Lodrino"}
+],
+"routes":[
+  {"id":18038884,"t":{"ref":"RL201","name":"Bus RL201: San Colombano => Brescia","from":"San Colombano PiazzaSanta Barbara","to":"Brescia - Autostazione","network":"R-Link","operator":"Arriva Italia","colour":"red","route":"bus","public_transport:version":"2"},"n":59,"s":[[12368687203,19],[12374669744,20],[12374669745,21],[12374669747,22],[12374669762,23],[12374669764,24],[12379483400,25],[12379483398,26],[12379483402,27]]},
+  {"id":20190456,"t":{"ref":"LN023","name":"Bus LN023: Tavernole->Marmentino->Pertica Alta","from":"TAVERNOLE - piazza Mercato","to":"PERTICA ALTA - Noffo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534486331,1]]},
+  {"id":20190457,"t":{"ref":"LN023","name":"Bus LN023: Pertica Alta->Marmentino->Tavernole","from":"PERTICA ALTA - Noffo","to":"TAVERNOLE - piazza Mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534486331,14]]},
+  {"id":20196274,"t":{"ref":"LN025","name":"Bus LN025: Irma->Tavernole","from":"Irma piazza","to":"Tavernole Piazza mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":9,"s":[[13534486331,9]]},
+  {"id":20196275,"t":{"ref":"LN025","name":"Bus LN025: Tavernole->Irma","from":"Tavernole Piazza mercato","to":"Irma piazza , Irma Tratoria Forelli","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13534486331,1]]},
+  {"id":20196407,"t":{"ref":"LN033","name":"Bus LN033: Pezzero->Tavernole","from":"Pezzero capolinea","to":"Tavernole Piazza mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13534486331,19]]},
+  {"id":20196408,"t":{"ref":"LN033","name":"Bus LN033: Tavernole->Pezzero","from":"Tavernole Piazza mercato","to":"Pezzoro capolinea","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13534486331,1]]},
+  {"id":20199539,"t":{"ref":"LN031","name":"Bus LN031: Mura->Gardone Val Trompia","from":"Mura (Capolinea), Mura","to":"Gardone V.T., Matteorri/M.ri Libertà","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":32,"s":[[13542702801,22],[13542702802,23],[13542702803,24],[12374669764,25],[12379483400,26],[12379483398,27],[12379483402,28]]},
+  {"id":20199540,"t":{"ref":"LN031","name":"Bus LN031: Gardone Val Trompia->Mura","from":"Gardone V.T., Matteorri/M.ri Libertà","to":"Mura (Capolinea), Mura","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":31,"s":[[12379483403,5],[12379483399,6],[12379483401,7],[12374669765,8],[13542702803,9],[13542702802,10],[13542702801,11]]},
+  {"id":20248781,"t":{"ref":"RL201","name":"Bus RL201: Brescia -> San Colombano","from":"Brescia - autostazione via Togni","to":"San Colombano Piazza Santa Barbara","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":57,"s":[[12379483403,31],[12379483399,32],[12379483401,33],[12374669765,34],[12374669761,35],[12374669760,36],[12374669746,37],[12374669743,38],[12368687203,39]]}
+]
+}

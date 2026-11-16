@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2730,3871],
+"stops":[
+  {"id":4069141715,"lat":46.504377,"lon":13.594332,"k":"p","n":"Tarvisio via Dante"},
+  {"id":4069146651,"lat":46.504433,"lon":13.598996,"k":"p","n":"Boscoverde"},
+  {"id":4072442288,"lat":46.506433,"lon":13.560525,"k":"p","n":"Tarvisio Case Fanfani"},
+  {"id":4072512185,"lat":46.504046,"lon":13.582325,"k":"p"},
+  {"id":4072546566,"lat":46.50388,"lon":13.587911,"k":"p","n":"Tarvisio Basso"},
+  {"id":4107972415,"lat":46.505243,"lon":13.572308,"k":"p","n":"Tarvisio Bivio Pitacco"},
+  {"id":4107972417,"lat":46.505336,"lon":13.572329,"k":"p","n":"Tarvisio Bivio Pitacco"},
+  {"id":4108357789,"lat":46.504326,"lon":13.598932,"k":"p","n":"Boscoverde"},
+  {"id":4108548691,"lat":46.503932,"lon":13.587921,"k":"x","n":"Tarvisio Basso"},
+  {"id":4108576591,"lat":46.504365,"lon":13.598969,"k":"x","n":"Boscoverde"},
+  {"id":4108576597,"lat":46.504348,"lon":13.594209,"k":"x","n":"Tarvisio via Dante"},
+  {"id":4108837961,"lat":46.503994,"lon":13.587936,"k":"p","n":"Tarvisio Basso"},
+  {"id":4112013922,"lat":46.506546,"lon":13.560608,"k":"x","n":"Tarvisio Case Fanfani"},
+  {"id":6169553324,"lat":46.504539,"lon":13.577622,"k":"x","n":"Tarvisio Autostazione"},
+  {"id":6169553329,"lat":46.504508,"lon":13.577583,"k":"p","n":"Tarvisio Autostazione"}
+],
+"routes":[
+  {"id":6114919,"t":{"ref":"202","name":"SAF Linea 202 : Coccau => Bivio Pitacco => Tarvisio","from":"Valico di Coccau","to":"Tarvisio Autostaziione","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":6,"s":[[4107972415,5],[6169553329,6]]},
+  {"id":6121324,"t":{"ref":"203","name":"SAF Linea 203 : Tarvisio => Rutte","from":"Tarvisio Autostazione","to":"Rutte","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":5,"s":[[6169553329,1],[4072546566,2],[4069141715,3],[4108357789,4]]},
+  {"id":6121329,"t":{"ref":"203","name":"SAF Linea 203 : Rutte => Tarvisio","from":"Rutte","to":"Tarvisio Autostaziione","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":5,"s":[[4069146651,2],[4069141715,3],[4108837961,4],[6169553329,5]]},
+  {"id":6121355,"t":{"ref":"203","name":"SAF Linea 203 : Tarvisio => Valico di Fusine","from":"Tarvisio Scuole","to":"Valico di Fusine","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":13,"s":[[6169553329,1],[4072546566,2],[4108357789,3]]},
+  {"id":6125196,"t":{"ref":"203","name":"SAF Linea 203 : Valico di Fusine => Tarvisio","from":"Valico di Fusine","to":"Tarvisio Autostaziione","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":14,"s":[[4069146651,11],[4069141715,12],[4108837961,13],[6169553329,14]]},
+  {"id":6125211,"t":{"ref":"203","name":"SAF Linea 203 : Valico di Fusine => Lago Superiore di Fusine => Tarvisio","from":"Valico di Fusine","to":"Tarvisio Autostazione","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":19,"s":[[4069146651,16],[4069141715,17],[4108837961,18],[6169553329,19]]},
+  {"id":6125334,"t":{"ref":"204","name":"SAF Linea 204 : Tarvisio => Lago di Cave del Predil","from":"Tarvisio","to":"Cave del Predil","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":6,"s":[[6169553329,1],[4072546566,2]]},
+  {"id":6125351,"t":{"ref":"204","name":"SAF Linea 204 : Lago di Cave del Predil => Tarvisio","from":"Cave del Predil","to":"Tarvisio","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":6,"s":[[4108837961,5],[6169553329,6]]},
+  {"id":9161854,"t":{"ref":"202","name":"SAF Linea 202 : Coccau => Tarvisio","from":"Valico di Coccau","to":"Tarvisio Autostaziione","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":5,"s":[[6169553329,5]]},
+  {"id":9161855,"t":{"ref":"202","name":"SAF Linea 202 : Tarvisio => Bivio Pitacco => Coccau","from":"Tarvisio Autostazione","to":"Coccau","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":6,"s":[[6169553329,1],[4107972417,2]]},
+  {"id":9161856,"t":{"ref":"202","name":"SAF Linea 202 : Tarvisio => Coccau","from":"Tarvisio Autostazione","to":"Coccau","network":"Arriva Udine","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":5,"s":[[6169553329,1]]},
+  {"id":9906469,"t":{"ref":"N1545","name":"Flixbus N1545: Bologna, Autostazione => Praha, ÚAN Florenc","from":"Bologna, Autostazione","to":"Praha, ÚAN Florenc","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[6169553329,6]]},
+  {"id":9906470,"t":{"ref":"N1545","name":"Flixbus N1545: Praha, ÚAN Florenc => Bologna, Autostazione","from":"Praha, ÚAN Florenc","to":"Bologna, Autostazione","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[6169553329,1]]}
+]
+}

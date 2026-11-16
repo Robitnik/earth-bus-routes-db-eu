@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2737,3877],
+"stops":[
+  {"id":3840630048,"lat":46.853103,"lon":13.89326,"k":"p","n":"Ebene Reichenau Ortsmitte"},
+  {"id":5043387985,"lat":46.853659,"lon":13.893943,"k":"p","n":"Ebene Reichenau Ortsmitte"},
+  {"id":7297719129,"lat":46.897369,"lon":13.876832,"k":"x","n":"Ebene Reichenau Holzboden/Straßenwärterhaus"},
+  {"id":7297719130,"lat":46.897404,"lon":13.876731,"k":"p","n":"Ebene Reichenau Holzboden/Straßenwärterhaus"},
+  {"id":7297719131,"lat":46.897928,"lon":13.877153,"k":"p","n":"Ebene Reichenau Holzboden/Straßenwärterhaus"},
+  {"id":7297719132,"lat":46.89793,"lon":13.877058,"k":"x","n":"Ebene Reichenau Holzboden/Straßenwärterhaus"},
+  {"id":7297719133,"lat":46.85309,"lon":13.89329,"k":"x","n":"Ebene Reichenau Ortsmitte"},
+  {"id":7297719134,"lat":46.85367,"lon":13.893873,"k":"x","n":"Ebene Reichenau Ortsmitte"},
+  {"id":7297719135,"lat":46.885567,"lon":13.881495,"k":"p","n":"Ebene Reichenau Saureggen"},
+  {"id":7297719136,"lat":46.885586,"lon":13.881587,"k":"x","n":"Ebene Reichenau Saureggen"},
+  {"id":7297719137,"lat":46.885689,"lon":13.881542,"k":"x","n":"Ebene Reichenau Saureggen"},
+  {"id":7297719138,"lat":46.885705,"lon":13.881643,"k":"p","n":"Ebene Reichenau Saureggen"},
+  {"id":8291682610,"lat":46.868437,"lon":13.884519,"k":"p","n":"Ebene Reichenau Winkl"},
+  {"id":8291682611,"lat":46.868443,"lon":13.884607,"k":"x","n":"Ebene Reichenau Winkl"},
+  {"id":8291682612,"lat":46.86845,"lon":13.884704,"k":"p","n":"Ebene Reichenau Winkl"}
+],
+"routes":[
+  {"id":12134908,"t":{"ref":"420","name":"Bus 420: Ebene Reichenau => Feldkirchen/Kärnten","from":"Ebene Reichenau Ortsmitte","to":"Feldkirchen in Kärnten Bahnhof","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":30,"s":[[3840630048,1]]},
+  {"id":12134909,"t":{"ref":"420","name":"Bus 420: Feldkirchen/Kärnten => Ebene Reichenau","from":"Feldkirchen in Kärnten Bahnhof","to":"Ebene Reichenau Ortsmitte","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":30,"s":[[5043387985,30]]},
+  {"id":12134945,"t":{"ref":"420","name":"Bus 420: Ebene Reichenau => Turracher Höhe","from":"Ebene Reichenau Ortsmitte","to":"Turracher Höhe Gasthaus Siegl","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5043387985,1],[8291682612,2],[7297719138,3],[7297719131,4]]},
+  {"id":12134946,"t":{"ref":"420","name":"Bus 420: Turracher Höhe => Ebene Reichenau","from":"Turracher Höhe Gasthaus Siegl","to":"Ebene Reichenau Ortsmitte","network":"Kärntner Linien","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[7297719130,2],[7297719135,3],[8291682610,4],[3840630048,5]]},
+  {"id":12135046,"t":{"ref":"420","name":"Bus 420: Ebene Reichenau => Himmelberg Tiffnerwinkl => Feldkirchen/Kärnten","from":"Ebene Reichenau Ortsmitte","to":"Feldkirchen in Kärnten Bahnhof","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":36,"s":[[3840630048,1]]},
+  {"id":12135047,"t":{"ref":"420","name":"Bus 420: Feldkirchen/Kärnten => Himmelberg Tiffnerwinkl => Ebene Reichenau Volksschule","from":"Feldkirchen in Kärnten Bahnhof","to":"Ebene Reichenau Volksschule","network":"Kärntner Linien","operator":"ÖBB Postbus","route":"bus","public_transport:version":"2"},"n":36,"s":[[5043387985,36]]}
+]
+}

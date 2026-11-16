@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2710,3789],
+"stops":[
+  {"id":3381016864,"lat":45.500821,"lon":9.490958,"k":"p"},
+  {"id":3389120067,"lat":45.515456,"lon":9.460149,"k":"p","n":"POZZUOLO MARTESANA Moro/Nenni","ref":"PZM008"},
+  {"id":3389178753,"lat":45.515856,"lon":9.464439,"k":"p","n":"POZZUOLO MARTESANA Pieregrosso/Taranto","ref":"PZM002"},
+  {"id":3389179071,"lat":45.515173,"lon":9.460214,"k":"p","n":"POZZUOLO MARTESANA Moro/Rossa","ref":"PZM008"},
+  {"id":3389179100,"lat":45.515067,"lon":9.464212,"k":"p","n":"POZZUOLO MARTESANA Pieregrosso/Bergamo","ref":"PZM001"},
+  {"id":3389179106,"lat":45.512053,"lon":9.454176,"k":"p"},
+  {"id":3389246022,"lat":45.508761,"lon":9.456624,"k":"p","n":"Pozzuolo Martesana FS"},
+  {"id":3688560850,"lat":45.543748,"lon":9.473834,"k":"p"},
+  {"id":3688584854,"lat":45.541781,"lon":9.474286,"k":"p","n":"INZAGO SP11 Padana Sup./Cavour","ref":"INZ004"},
+  {"id":3688607976,"lat":45.537321,"lon":9.479561,"k":"p","n":"INZAGO SP11 Padana Sup./Verdi","ref":"INZ006"},
+  {"id":3688607993,"lat":45.537445,"lon":9.479723,"k":"p","n":"INZAGO SP11 Padana Sup./Marchesi","ref":"INZ005"},
+  {"id":4517286174,"lat":45.526344,"lon":9.465821,"k":"p","n":"INZAGO Villaggio Res. - Delle Ortensie","ref":"INZ002"},
+  {"id":4517286181,"lat":45.5262,"lon":9.466046,"k":"p","n":"INZAGO Villaggio Res. - Delle Ortensie","ref":"INZ001"},
+  {"id":6475104435,"lat":45.541948,"lon":9.474294,"k":"p","n":"INZAGO SP11 Padana Sup./Cavour","ref":"INZ003"},
+  {"id":6701036499,"lat":45.534821,"lon":9.488849,"k":"p","n":"INZAGO SP11 Padana Sup./E. Filiberto","ref":"INZ008"},
+  {"id":8889819549,"lat":45.536632,"lon":9.47789,"k":"p","n":"INZAGO Verdi/SP11 Padana Sup.","ref":"INZ010"},
+  {"id":12469093145,"lat":45.536862,"lon":9.478254,"k":"p","n":"INZAGO Verdi/SP11 Padana Sup.","ref":"INZ009"},
+  {"id":12470318369,"lat":45.534257,"lon":9.491237,"k":"p","n":"INZAGO SP11 Padana Sup./E. Filiberto","ref":"INZ007"}
+],
+"routes":[
+  {"id":6562410,"t":{"ref":"z404","name":"z404 Melzo FS → Gessate M2","network":"STIBM","operator":"Sudest Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[3389179071,8],[3389179100,9],[4517286181,10]]},
+  {"id":6562411,"t":{"ref":"z404","name":"z404 Gessate M2 → Melzo FS","network":"STIBM","operator":"Sudest Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[4517286174,4],[3389178753,5],[3389120067,6]]},
+  {"id":6676376,"t":{"ref":"z405","name":"Bus z405: Gessate M2 => Cassano d'Adda","from":"Gessate M2","to":"Cassano d'Adda, Via Milano","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":6,"s":[[3688607976,6]]},
+  {"id":6676377,"t":{"ref":"z405","name":"Bus z405: Gessate M2 => Treviglio FS","from":"Gessate M2","to":"Treviglio FS","network":"STIBM","operator":"Sudest Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[3688607976,3]]},
+  {"id":6677995,"t":{"ref":"z405","name":"Bus z405: Cassano d'Adda => Gessate M2","from":"Cassano d'Adda, Via Milano","to":"Gessate M2","network":"STIBM","operator":"Autoguidovie","route":"bus","public_transport:version":"2"},"n":9,"s":[[12470318369,4],[3688607993,5],[6475104435,6]]}
+]
+}

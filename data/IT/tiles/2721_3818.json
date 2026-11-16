@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2721,3818],
+"stops":[
+  {"id":427524217,"lat":46.095701,"lon":10.931724,"k":"p","n":"Lago Nembia"},
+  {"id":427524218,"lat":46.096256,"lon":10.932655,"k":"p","n":"Lago Nembia"},
+  {"id":770720925,"lat":46.076452,"lon":10.907712,"k":"p","n":"S.Lorenzo Dorsino"},
+  {"id":770720958,"lat":46.076336,"lon":10.907602,"k":"p","n":"S.Lorenzo Dorsino"},
+  {"id":2378390651,"lat":46.076616,"lon":10.908863,"k":"p","n":"S.Lorenzo chiesa"},
+  {"id":2378390715,"lat":46.076736,"lon":10.909196,"k":"p","n":"S.Lorenzo chiesa"},
+  {"id":4362322400,"lat":46.064039,"lon":10.942463,"k":"p","n":"Ranzo"},
+  {"id":8394011843,"lat":46.064032,"lon":10.942543,"k":"p","n":"Ranzo"}
+],
+"routes":[
+  {"id":19141798,"t":{"ref":"B203","name":"Bus B203: Margone->Ranzo->Vezzano","from":"Margane","to":"Vezzano sud","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[8394011843,3]]},
+  {"id":19141799,"t":{"ref":"B203","name":"Bus B203: Vazzano->Ciago->Ranzo->Margone","from":"Vazzano Apt","to":"Margone","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[8394011843,9]]},
+  {"id":19201373,"t":{"ref":"B208","name":"Bus B208: S.Lorenzo in B.-Molveno->Ponte Arche","from":"Molveno","to":"Ponte Arche Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":21,"s":[[2378390715,4],[770720958,5]]},
+  {"id":19201374,"t":{"ref":"B208","name":"Bus B208: Ponte Arche->S.Lorenzo in B.-Molveno","from":"Ponte Arche Autostazione","to":"Molveno","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[770720925,17],[2378390651,18],[427524217,19]]},
+  {"id":19266275,"t":{"ref":"B261","name":"Bus B261: Variante: Vezzano->Ciago->Ranzo","from":"Vezzano Ciago","to":"Ranzo","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":4,"s":[[8394011843,4]]},
+  {"id":19266276,"t":{"ref":"B261","name":"Bus B261: Variante: Ranzo->Ciago->Vezzano","from":"Ranzo","to":"Ciago Vezzano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":4,"s":[[8394011843,1]]},
+  {"id":19266390,"t":{"ref":"B230","name":"Bus B230: Trento->Ciago->M.Terlago->Ranzo->Margone","from":"Trento Autostzione","to":"Margone","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[4362322400,25]]},
+  {"id":19267626,"t":{"ref":"B230","name":"Bus B230: Ranzo->Trento->M.Terlago->Ciago","from":"Ranzo","to":"Trento Autostzione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[4362322400,1]]}
+]
+}

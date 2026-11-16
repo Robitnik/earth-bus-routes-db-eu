@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2740,3830],
+"stops":[
+  {"id":31387600,"lat":47.013598,"lon":11.507152,"k":"x","n":"Brennersee Venntal"},
+  {"id":261958074,"lat":47.049867,"lon":11.521839,"k":"x","n":"Vals Volksschule"},
+  {"id":261958125,"lat":47.046542,"lon":11.527183,"k":"x","n":"Vals Abzw Padaunerweg"},
+  {"id":261958163,"lat":47.045458,"lon":11.532977,"k":"x","n":"Vals Abzw Padaunerstraße"},
+  {"id":261958208,"lat":47.044425,"lon":11.538787,"k":"x","n":"Vals Gmoarn"},
+  {"id":261958251,"lat":47.043092,"lon":11.544314,"k":"x","n":"Vals Hof"},
+  {"id":553072608,"lat":47.023335,"lon":11.501798,"k":"p","n":"Lueg Mühlsteiger"},
+  {"id":1675562890,"lat":47.002805,"lon":11.504969,"k":"p","n":"Brenner, Bahnhof - Brennero, Stazione"},
+  {"id":8257940656,"lat":47.013799,"lon":11.507093,"k":"p","n":"Brennersee Venntal"},
+  {"id":8776426831,"lat":47.002836,"lon":11.504896,"k":"x","n":"Brenner, Bahnhof - Brennero, Stazione"},
+  {"id":9697251333,"lat":47.007149,"lon":11.506618,"k":"p","n":"Brenner Staatsgrenze"},
+  {"id":12294796291,"lat":47.013191,"lon":11.507111,"k":"p","n":"Brennersee Venntal"}
+],
+"routes":[
+  {"id":6583768,"t":{"ref":"572","name":"Bus 572: Steinach a. Br. Bhf => Vals Touristenrast","from":"Steinach am Brenner Bahnhof","to":"Vals Touristenrast","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":16,"s":[[261958074,9],[261958125,10],[261958163,11],[261958208,12],[261958251,13]]},
+  {"id":8311060,"t":{"ref":"313","name":"Bus 313: Brenner => Gossensass => Sterzing","from":"Brenner","to":"Sterzing","route":"bus","public_transport:version":"2"},"n":2,"s":[[8776426831,1]]},
+  {"id":8311061,"t":{"ref":"313","name":"Bus 313: Sterzing => Gossensass => Brenner","from":"Sterzing","to":"Brenner","route":"bus","public_transport:version":"2"},"n":2,"s":[[8776426831,2]]},
+  {"id":19436694,"t":{"ref":"B100","name":"Bus B100: Brenner, Bahnhof Brenner => Brixen, Bahnhof Brixen","from":"Brenner, Bahnhof - Brennero, Stazione","to":"Brixen, Bahnhof - Bressanone, Stazione","operator":"SAD/TI","route":"bus","public_transport:version":"2"},"n":2,"s":[[8776426831,1],[1675562890,2]]},
+  {"id":19436722,"t":{"ref":"B100","name":"Bus B100: Brixen, Bahnhof Brixen => Brenner, Bahnhof Brenner","from":"Brixen, Bahnhof - Bressanone, Stazione","to":"Brenner, Bahnhof - Brennero, Stazione","operator":"SAD/TI","route":"bus","public_transport:version":"2"},"n":2,"s":[[8776426831,1],[1675562890,2]]}
+]
+}

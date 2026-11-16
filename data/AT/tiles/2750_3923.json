@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2750,3923],
+"stops":[
+  {"id":561535144,"lat":47.523638,"lon":16.192693,"k":"p","n":"Krumbach Ortsmitte"},
+  {"id":561535293,"lat":47.522801,"lon":16.190769,"k":"p","n":"Krumbach Königseggstraße"},
+  {"id":7832757443,"lat":47.522755,"lon":16.190645,"k":"x","n":"Krumbach Königseggstraße"},
+  {"id":7832757444,"lat":47.523124,"lon":16.190309,"k":"p","n":"Krumbach Königseggstraße"},
+  {"id":7832757445,"lat":47.523187,"lon":16.190361,"k":"x","n":"Krumbach Königseggstraße"},
+  {"id":7832757450,"lat":47.508606,"lon":16.199137,"k":"p","n":"Krumbach Unterhaus"},
+  {"id":7832757451,"lat":47.508588,"lon":16.199107,"k":"x","n":"Krumbach Unterhaus"},
+  {"id":7832757452,"lat":47.508976,"lon":16.19886,"k":"p","n":"Krumbach Unterhaus"},
+  {"id":7832757453,"lat":47.508954,"lon":16.198951,"k":"x","n":"Krumbach Unterhaus"},
+  {"id":7832757456,"lat":47.523679,"lon":16.19273,"k":"x","n":"Krumbach Ortsmitte"},
+  {"id":7832757457,"lat":47.523383,"lon":16.193295,"k":"p","n":"Krumbach Ortsmitte"},
+  {"id":7832757458,"lat":47.523354,"lon":16.193265,"k":"x","n":"Krumbach Ortsmitte"},
+  {"id":7843011599,"lat":47.536883,"lon":16.167001,"k":"p","n":"Krumbach Ponholzweg"},
+  {"id":7843011600,"lat":47.536817,"lon":16.166947,"k":"x","n":"Krumbach Ponholzweg"},
+  {"id":7843011605,"lat":47.536922,"lon":16.166342,"k":"p","n":"Krumbach Ponholzweg"},
+  {"id":7843011606,"lat":47.537027,"lon":16.166413,"k":"x","n":"Krumbach Ponholzweg"},
+  {"id":7843011607,"lat":47.540936,"lon":16.155898,"k":"p","n":"Krumbach Weißes Kreuz"},
+  {"id":7843011608,"lat":47.540973,"lon":16.155964,"k":"x","n":"Krumbach Weißes Kreuz"},
+  {"id":7843011613,"lat":47.541311,"lon":16.155664,"k":"p","n":"Krumbach Weißes Kreuz"},
+  {"id":7843011614,"lat":47.541266,"lon":16.15557,"k":"x","n":"Krumbach Weißes Kreuz"},
+  {"id":8199772751,"lat":47.533633,"lon":16.154409,"k":"x","n":"Krumbach Eisgreissler"},
+  {"id":5001220494948,"lat":47.533654,"lon":16.154484,"k":"p","n":"Krumbach Eisgreissler"}
+],
+"routes":[
+  {"id":11526371,"t":{"ref":"394","name":"Bus 394: Krumbach Ortsmitte => Gschaidt Ort","from":"Krumbach Ortsmitte","to":"Gschaidt Ort","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":7,"s":[[561535144,1]]},
+  {"id":11526372,"t":{"ref":"394","name":"Bus 394: Gschaidt Ort => Krumbach Ortsmitte","from":"Gschaidt Ort","to":"Krumbach Ortsmitte","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":7,"s":[[7832757457,7]]},
+  {"id":11543320,"t":{"ref":"390","name":"Bus 390: Kirchschlag in der Buckligen Welt Gemeindeamt => Krumbach Eisgreissler => Edlitz-Grimmenstein Bahnhof","from":"Kirchschlag in der Buckligen Welt Gemeindeamt","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":18,"s":[[7832757457,10],[7843011599,11],[5001220494948,12],[7843011613,13]]},
+  {"id":11543321,"t":{"ref":"390","name":"Bus 390: Kirchschlag in der Buckligen Welt Gemeindeamt => Edlitz-Grimmenstein Bahnhof","from":"Kirchschlag in der Buckligen Welt Gemeindeamt","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":19,"s":[[7832757450,10],[7832757457,11],[7843011599,12],[7843011613,13]]},
+  {"id":11543322,"t":{"ref":"390","name":"Bus 390: Kirchschlag Schulen => Kirchschlag Habich => Edlitz-Grimmenstein Bahnhof","from":"Kirchschlag Schulen","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[7832757450,16],[7832757457,17],[7843011599,18],[7843011613,19]]},
+  {"id":11543323,"t":{"ref":"390","name":"Bus 390: Edlitz-Grimmenstein Bahnhof => Krumbach Eisgreissler => Kirchschlag in der Buckligen Welt Gemeindeamt","from":"Edlitz-Grimmenstein Bahnhof","to":"Kirchschlag in der Buckligen Welt Gemeindeamt","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":18,"s":[[5001220494948,6],[7843011607,7],[7843011605,8],[561535144,9]]},
+  {"id":11543324,"t":{"ref":"390","name":"Bus 390: Edlitz-Grimmenstein Bahnhof => Kirchschlag in der Buckligen Welt Gemeindeamt","from":"Edlitz-Grimmenstein Bahnhof","to":"Kirchschlag in der Buckligen Welt Gemeindeamt","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":19,"s":[[7843011607,7],[7843011605,8],[561535144,9],[7832757452,10]]},
+  {"id":11543325,"t":{"ref":"390","name":"Bus 390: Edlitz-Grimmenstein Bahnhof => Kirchschlag Habich => Kirchschlag Schulen","from":"Edlitz-Grimmenstein Bahnhof","to":"Kirchschlag Schulen","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[7843011607,7],[7843011605,8],[561535144,9]]},
+  {"id":12449058,"t":{"ref":"390","name":"Bus 390: Kirchschlag in der Buckligen Welt Gemeindeamt => Krumbach Hohe Brücke => Edlitz-Grimmenstein Bahnhof","from":"Kirchschlag in der Buckligen Welt Gemeindeamt","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":19,"s":[[7832757457,11],[7843011599,12],[7843011613,13]]},
+  {"id":16318137,"t":{"ref":"B23","name":"Bus B23: Wien Hauptbahnhof => Lockenhaus","from":"Wien Hauptbahnhof","to":"Lockenhaus Hauptplatz","network":"VOR","operator":"Verkehrsbetriebe Burgenland;Blaguss","colour":"#f2ed8f","route":"bus","public_transport:version":"2"},"n":23,"s":[[7843011607,7],[7843011605,8],[7832757444,9]]},
+  {"id":16318139,"t":{"ref":"B23","name":"Bus B23: Lockenhaus => Wien Hauptbahnhof","from":"Lockenhaus Hauptplatz","to":"Wien Hauptbahnhof","network":"VOR","operator":"Verkehrsbetriebe Burgenland;Blaguss","colour":"#f2ed8f","route":"bus","public_transport:version":"2"},"n":23,"s":[[561535293,15],[7843011599,16],[7843011613,17]]}
+]
+}

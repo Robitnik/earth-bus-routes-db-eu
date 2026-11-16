@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2769,3893],
+"stops":[
+  {"id":1630241785,"lat":48.493961,"lon":14.654456,"k":"p","n":"Amesreith b.St.Oswald Ort"},
+  {"id":3572681712,"lat":48.494238,"lon":14.655221,"k":"x","n":"Amesreith b.St.Oswald Ort"},
+  {"id":10694951283,"lat":48.494299,"lon":14.65517,"k":"p","n":"Amesreith b.St.Oswald Ort"},
+  {"id":10694984010,"lat":48.494012,"lon":14.654414,"k":"x","n":"Amesreith b.St.Oswald Ort"},
+  {"id":13119217153,"lat":48.47267,"lon":14.696994,"k":"x","n":"Waldfeld b.Weitersfelden"},
+  {"id":13119217154,"lat":48.472651,"lon":14.696955,"k":"p","n":"Waldfeld b.Weitersfelden"},
+  {"id":13119217155,"lat":48.477547,"lon":14.686896,"k":"p","n":"Freudenthal b.Weitersfelden Landesstraße"},
+  {"id":13119217156,"lat":48.477578,"lon":14.686914,"k":"x","n":"Freudenthal b.Weitersfelden Landesstraße"}
+],
+"routes":[
+  {"id":12275790,"t":{"ref":"346","name":"Bus 346: Linz voestalpine => St. Oswald => Weitersfelden","from":"Linz voestalpine","to":"Weitersfelden","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":44,"s":[[1630241785,41]]},
+  {"id":12275791,"t":{"ref":"346","name":"Bus 346: Weitersfelden => St. Oswald => Linz voestalpine","from":"Weitersfelden","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":39,"s":[[10694951283,4]]},
+  {"id":15535722,"t":{"ref":"333","name":"Bus 333: Königswiesen Kirche => Freistadt Busterminal (Stifterplatz)","from":"Königswiesen Kirche","to":"Freistadt Busterminal (Stifterplatz)","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","colour":"#ffffff","route":"bus","public_transport:version":"2"},"n":21,"s":[[10694951283,12]]},
+  {"id":15535723,"t":{"ref":"333","name":"Bus 333: Freistadt Busterminal (Stifterplatz) => Königswiesen Kirche","from":"Freistadt Busterminal (Stifterplatz)","to":"Königswiesen Kirche","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":21,"s":[[1630241785,10]]},
+  {"id":19564452,"t":{"ref":"334","name":"Bus 334: Freistadt - St. Leonhard bei Freistadt","from":"Freistadt","to":"St. Leonhard bei Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"OÖVV","route":"bus"},"n":29,"s":[[13119217153,10],[13119217154,11],[13119217155,12],[13119217156,13],[10694984010,14],[1630241785,15]]},
+  {"id":19564453,"t":{"ref":"334","name":"Bus 334: Weitersfelden – Freistadt","from":"Weitersfelden","to":"Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"OÖVV","route":"bus"},"n":19,"s":[[3572681712,7],[10694951283,8]]}
+]
+}

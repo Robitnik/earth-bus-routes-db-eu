@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2769,3882],
+"stops":[
+  {"id":419135551,"lat":48.490014,"lon":14.130059,"k":"p","n":"St.Johann am Wimberg Ortsmitte"},
+  {"id":419138700,"lat":48.495953,"lon":14.108972,"k":"p","n":"St.Peter am Wimberg Neundling"},
+  {"id":681490511,"lat":48.467767,"lon":14.139352,"k":"x","n":"Schindlberg im Mühlkreis Bühlerkreuz"},
+  {"id":681490513,"lat":48.468045,"lon":14.139446,"k":"x","n":"Schindlberg im Mühlkreis Bühlerkreuz"},
+  {"id":1096201083,"lat":48.450944,"lon":14.12266,"k":"p","n":"Niederwaldkirchen Görlitzer"},
+  {"id":1096201098,"lat":48.465707,"lon":14.11963,"k":"p","n":"Uttendorf b.Niederwaldkirchen Windsteig"},
+  {"id":1096201112,"lat":48.460088,"lon":14.123236,"k":"p","n":"Uttendorf b.Niederwaldkirchen Ort"},
+  {"id":1096201142,"lat":48.459728,"lon":14.123305,"k":"p","n":"Uttendorf b.Niederwaldkirchen Ort"},
+  {"id":1096201171,"lat":48.450877,"lon":14.122431,"k":"p","n":"Niederwaldkirchen Görlitzer"},
+  {"id":1096201188,"lat":48.465671,"lon":14.119813,"k":"p","n":"Uttendorf b.Niederwaldkirchen Windsteig"},
+  {"id":1097091861,"lat":48.474556,"lon":14.139713,"k":"p","n":"St.Johann am Wimberg Abzw Hansberg"},
+  {"id":1911522699,"lat":48.494483,"lon":14.126676,"k":"p","n":"St.Johann am Wimberg Pesenbachstraße"},
+  {"id":3989548742,"lat":48.490156,"lon":14.130167,"k":"p","n":"St.Johann am Wimberg Ortsmitte"},
+  {"id":8696784790,"lat":48.495887,"lon":14.108393,"k":"p","n":"St.Peter am Wimberg Neundling"},
+  {"id":8696784792,"lat":48.494522,"lon":14.126393,"k":"p","n":"St.Johann am Wimberg Pesenbachstraße"},
+  {"id":8696784794,"lat":48.487074,"lon":14.134716,"k":"p","n":"St.Johann am Wimberg Friedhof"},
+  {"id":8696784795,"lat":48.47452,"lon":14.139551,"k":"p","n":"St.Johann am Wimberg Abzw Hansberg"},
+  {"id":8701306367,"lat":48.467408,"lon":14.138691,"k":"p","n":"Schindlberg im Mühlkreis Bühlerkreuz"},
+  {"id":8701306368,"lat":48.467296,"lon":14.134629,"k":"p","n":"Schindlberg im Mühlkreis Güterweg Schütz"},
+  {"id":8701306370,"lat":48.467383,"lon":14.134289,"k":"p","n":"Schindlberg im Mühlkreis Güterweg Schütz"},
+  {"id":8701306371,"lat":48.467688,"lon":14.140217,"k":"p","n":"Schindlberg im Mühlkreis Bühlerkreuz"},
+  {"id":8745058288,"lat":48.487109,"lon":14.134559,"k":"p","n":"St.Johann am Wimberg Friedhof"},
+  {"id":5000180699803,"lat":48.467814,"lon":14.139291,"k":"p","n":"Schindlberg im Mühlkreis Bühlerkreuz"},
+  {"id":5000180699804,"lat":48.467993,"lon":14.13952,"k":"p","n":"Schindlberg im Mühlkreis Bühlerkreuz"}
+],
+"routes":[
+  {"id":2415642,"t":{"ref":"250","name":"Bus 250: Linz => St. Peter am Wimberg","from":"Linz/Donau Hbf (Busterminal)","to":"St. Peter am Wimberg Pendlerparkplatz","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000180699804,11],[1097091861,12],[3989548742,13],[1911522699,14],[419138700,15]]},
+  {"id":2427413,"t":{"ref":"250","name":"Bus 250: St. Peter am Wimberg => Linz","from":"St. Peter am Wimberg Pendlerparkplatz","to":"Linz/Donau Hbf (Busterminal)","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[8696784790,4],[8696784792,5],[419135551,6],[8696784795,7],[5000180699803,8]]},
+  {"id":2430135,"t":{"ref":"251","name":"Bus 251: Linz => St. Peter am Wimberg","from":"Linz/Donau Hbf (Busterminal)","to":"St. Peter am Wimberg Pendelerparkplatz","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000180699804,12],[1097091861,13],[3989548742,14],[1911522699,15],[419138700,16]]},
+  {"id":2430136,"t":{"ref":"251","name":"Bus 251: St. Peter am Wimberg => Linz","from":"St. Peter am Wimberg Pendlerparkplatz","to":"Linz/Donau Hbf (Busterminal)","network":"Oberösterreichischer Verkehrsverbund","route":"bus","public_transport:version":"2"},"n":21,"s":[[8696784790,4],[8696784792,5],[419135551,6],[8696784795,7],[5000180699803,8]]},
+  {"id":12669968,"t":{"ref":"247","name":"Bus 247: Niederwaldkirchen => St.Veit im Mühlkreis","from":"Niederwaldkirchen","to":"St.Veit im Mühlkreis","network":"Oberösterreichischer Verkehrsverbund","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":9,"s":[[1096201083,4],[1096201112,5],[1096201188,6],[8701306368,7],[8701306367,8]]},
+  {"id":12669969,"t":{"ref":"247","name":"Bus 247: St.Veit im Mühlkreis => Niederwaldkirchen","from":"St.Veit im Mühlkreis","to":"Niederwaldkirchen","network":"Oberösterreichischer Verkehrsverbund","operator":"Wilhelm Welser","route":"bus","public_transport:version":"2"},"n":9,"s":[[8701306371,2],[8701306370,3],[1096201098,4],[1096201142,5],[1096201171,6]]},
+  {"id":12730627,"t":{"ref":"249","name":"Bus 249: St. Peter/Wimberg => Linz voestalpine","from":"St. Peter/Wimberg","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Leitner Adelheid","route":"bus","public_transport:version":"2"},"n":39,"s":[[8696784790,4],[8696784792,5],[419135551,6],[8745058288,7],[8696784795,8],[5000180699803,9],[1096201098,10],[1096201142,11]]},
+  {"id":12730628,"t":{"ref":"249","name":"Bus 249: Linz voestalpine => St. Peter/Wimberg","from":"Linz voestalpine","to":"St. Peter/Wimberg","network":"Oberösterreichischer Verkehrsverbund","operator":"Leitner Adelheid","route":"bus","public_transport:version":"2"},"n":37,"s":[[1096201112,27],[1096201188,28],[5000180699804,29],[1097091861,30],[8696784794,31],[3989548742,32],[1911522699,33],[419138700,34]]}
+]
+}

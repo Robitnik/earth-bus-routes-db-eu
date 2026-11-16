@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2776,3913],
+"stops":[
+  {"id":7470898886,"lat":48.823598,"lon":15.675285,"k":"p","n":"Kottaun Ortsmitte"},
+  {"id":7470898887,"lat":48.823627,"lon":15.675296,"k":"x","n":"Kottaun Ortsmitte"},
+  {"id":7674314728,"lat":48.849998,"lon":15.66438,"k":"p","n":"Wolfsbach bei Drosendorf Ort"}
+],
+"routes":[
+  {"id":11224170,"t":{"ref":"887","name":"Bus 887: Geras Volksschule => Hötzelsdorf Pulkaubrücke => Geras Hauptstraße/Stift","from":"Geras Volksschule","to":"Geras Hauptstraße/Stift","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":16,"s":[[7470898886,2]]},
+  {"id":11224171,"t":{"ref":"887","name":"Bus 887: Geras Volksschule => Hötzelsdorf Pulkaubrücke => Geras Volksschule","from":"Geras Volksschule","to":"Geras Volksschule","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":18,"s":[[7470898886,5]]},
+  {"id":11261955,"t":{"ref":"886","name":"Bus 886: Drosendorf Schulen => Wolfsbach bei Drosendorf Ort => Horn Bahnhof","from":"Drosendorf Schulen","to":"Horn Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":21,"s":[[7674314728,4]]},
+  {"id":11261956,"t":{"ref":"886","name":"Bus 886: Drosendorf Schulen => Wolfsbach bei Drosendorf Ort => Kottaun Ortsmitte => Dallein Kapelle => Horn Bahnhof","from":"Drosendorf Schulen","to":"Horn Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":23,"s":[[7674314728,4],[7470898886,5]]},
+  {"id":11261957,"t":{"ref":"886","name":"Bus 886: Drosendorf Schulen => Horn Hauptplatz","from":"Drosendorf Schulen","to":"Horn Hauptplatz","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":25,"s":[[7674314728,4],[7470898886,5]]},
+  {"id":11261962,"t":{"ref":"886","name":"Bus 886: Horn Hauptplatz => Drosendorf Schulen (alle Stationen)","from":"Horn Hauptplatz","to":"Drosendorf Schulen","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":26,"s":[[7470898886,22]]}
+]
+}

@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2724,3822],
+"stops":[
+  {"id":387881896,"lat":46.213596,"lon":11.11651,"k":"p"},
+  {"id":387882476,"lat":46.217419,"lon":11.126624,"k":"p"},
+  {"id":859546164,"lat":46.207519,"lon":11.128468,"k":"p","n":"Mezzocorona Stazione FS"},
+  {"id":940214013,"lat":46.207734,"lon":11.128356,"k":"p"},
+  {"id":946553470,"lat":46.20637,"lon":11.127448,"k":"p","n":"Mezzocorona Stazione FTM"},
+  {"id":972488135,"lat":46.229945,"lon":11.140976,"k":"p","n":"Maso Nuovo"},
+  {"id":972488212,"lat":46.224892,"lon":11.133615,"k":"p","n":"Mezzocorona Furlan Legnami"},
+  {"id":972488307,"lat":46.229832,"lon":11.141018,"k":"p","n":"Maso Nuovo"},
+  {"id":972488356,"lat":46.222129,"lon":11.134036,"k":"p"},
+  {"id":972488399,"lat":46.224342,"lon":11.133661,"k":"p","n":"Mezzocorona Pineta"},
+  {"id":1023263133,"lat":46.214993,"lon":11.119113,"k":"p","n":"Mezzocorona Borgata"},
+  {"id":1023263896,"lat":46.215108,"lon":11.119059,"k":"p","n":"Mezzocorona Borgata"},
+  {"id":1627571366,"lat":46.217184,"lon":11.128833,"k":"p","n":"Mezzocorona Via Borgo Nuova"},
+  {"id":9797141418,"lat":46.218485,"lon":11.118628,"k":"p"}
+],
+"routes":[
+  {"id":19347277,"t":{"ref":"B611","name":"Bus B611:Variante: Mezzolombardo->Mezzocorona->Trento","from":"Mezzolombardo","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":14,"s":[[859546164,2]]},
+  {"id":19347278,"t":{"ref":"B611","name":"Bus B611:Variante: Trento->Mezzocorona->Mezzolombardo","from":"Trento Autostazione","to":"Mezzolombardo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[859546164,14],[1023263896,15]]},
+  {"id":19349186,"t":{"ref":"B601","name":"Bus B601: Trento->Dermulo->Cles->Male","from":"Trento Autostazione","to":"Male","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":29,"s":[[859546164,10],[1023263896,11]]},
+  {"id":19349662,"t":{"ref":"B601","name":"Bus B601: Male->Cles->Dermulo->Trento","from":"Male","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":31,"s":[[1023263133,19],[859546164,20]]},
+  {"id":19350902,"t":{"ref":"B620","name":"Bus B620: Cles->Campedenno->Mezzolombardo","from":"Cles - Autostazione","to":"Mezzocorona Statzione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":32,"s":[[859546164,32]]},
+  {"id":19350903,"t":{"ref":"B620","name":"Bus B620: Mezzolombardo->Campedenno->Cles","from":"Mezzocorona Statzione FS","to":"Cles - Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":32,"s":[[859546164,1]]},
+  {"id":19351180,"t":{"ref":"B620","name":"Bus B620: Cles->Denno->Mezzolombardo","from":"Cles - Autostazione","to":"Mezzocorona Statzione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":26,"s":[[859546164,26]]},
+  {"id":19351181,"t":{"ref":"B620","name":"Bus B620: Mezzolombardo->Denno->Cles","from":"Mezzocorona Statzione FS","to":"Cles - Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":23,"s":[[859546164,1]]},
+  {"id":19352780,"t":{"ref":"B106","name":"Bus B106: Pineta->Faedo->S.Michele->Mezzocorona","from":"Faedo Pineta","to":"Mezzocorna FTM","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":12,"s":[[946553470,12]]},
+  {"id":19352781,"t":{"ref":"B106","name":"Bus B106: Mezzocorona->S.Michele->Faedo->Pineta","from":"Mezzocorna FTM","to":"Faedo Pineta","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":12,"s":[[946553470,1]]},
+  {"id":19354010,"t":{"ref":"B107","name":"Bus B107: Roverè della Luna->Mezzolombardo","from":"Mezzolombardo Roverè Trentinolatte","to":"Mezzolombardo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":11,"s":[[972488135,5],[972488212,6],[972488399,7],[1627571366,8],[1023263133,9],[859546164,10]]},
+  {"id":19354011,"t":{"ref":"B107","name":"Bus B107: Mezzocorona->Roverè della Luna","from":"Mezzolombardo","to":"$roverè Trentinolatte","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":9,"s":[[859546164,2],[1023263133,3],[1627571366,4],[972488307,5]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3796],
+"stops":[
+  {"id":12712905171,"lat":45.633239,"lon":9.823541,"k":"p","n":"Bolgare - via dante (s.chierico)"},
+  {"id":13622325536,"lat":45.628805,"lon":9.849951,"k":"p","n":"Telgate - via arici (parcheggio)"},
+  {"id":13622325537,"lat":45.63038,"lon":9.837205,"k":"p","n":"Telgate - via verdi (zona industriale)"},
+  {"id":13622325538,"lat":45.633995,"lon":9.816705,"k":"p","n":"Bolgare - via dante (municipio)"},
+  {"id":13622325539,"lat":45.634238,"lon":9.810386,"k":"p","n":"Bolgare - via giovanni XXIII"},
+  {"id":13622325540,"lat":45.644618,"lon":9.807867,"k":"p","n":"Bolgare - (Mecca)"},
+  {"id":13623153267,"lat":45.644603,"lon":9.8082,"k":"p","n":"Costa Mezzate - via europa"},
+  {"id":13629313979,"lat":45.619985,"lon":9.801167,"k":"p","n":"Calcinate - via degli olmi (farmacia)"},
+  {"id":13629313980,"lat":45.619996,"lon":9.804257,"k":"p","n":"Calcinate - via olmi/via biagi"},
+  {"id":13629313981,"lat":45.601409,"lon":9.809724,"k":"p","n":"Mornico - via baraccone/bergamo"},
+  {"id":13629313987,"lat":45.601064,"lon":9.809992,"k":"p","n":"Mornico - via baraccone/bergamo"},
+  {"id":13629313988,"lat":45.619831,"lon":9.805676,"k":"p","n":"Calcinate - via olmi/via biagi"}
+],
+"routes":[
+  {"id":20292293,"t":{"ref":"D","name":"Bus D: Bergamo->Telgate","from":"Bergamo - stazione autolinee (pens. 8)","to":"Telgate - via dante (capolinea)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":23,"s":[[13622325540,18],[13622325538,19],[12712905171,20],[13622325537,21],[13622325536,22]]},
+  {"id":20292959,"t":{"ref":"D","name":"Bus D: Telgate -> Bergamo","from":"Telgate - via dante (capolinea)","to":"Bergamo - stazione autolinee (pens. 8)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":23,"s":[[13622325536,2],[13622325537,3],[12712905171,4],[13622325538,5],[13622325539,6],[13623153267,7]]},
+  {"id":20301403,"t":{"ref":"Qa","name":"Bus Qa: Palazzolo => Bergamo","from":"Palazzolo - Via Brescia/Via Mameli (Dep)","to":"Bergamo - stazione autolinee (pens.10)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":30,"s":[[13629313987,13],[13629313980,14],[13629313979,15]]},
+  {"id":20301404,"t":{"ref":"Qa","name":"Bus Qa: Bergamo => Palazzolo","from":"Bergamo - stazione autolinee (pens.10)","to":"Palazzolo - Via Brescia/Via Sauro (Dep)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":29,"s":[[13629313988,17],[13629313987,18]]}
+]
+}

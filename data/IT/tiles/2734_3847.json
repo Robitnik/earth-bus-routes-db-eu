@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2734,3847],
+"stops":[
+  {"id":141499593,"lat":46.701995,"lon":12.350157,"k":"x","n":"Sexten, Hauptplatz - Sesto, Piazza Principale"},
+  {"id":668982591,"lat":46.743726,"lon":12.393136,"k":"p","n":"Arnbach Abzw Weitlanbrunn"},
+  {"id":905831866,"lat":46.74148,"lon":12.359592,"k":"p","n":"Winnebach, Dorf - Prato alla Drava, Paese"},
+  {"id":965475273,"lat":46.740617,"lon":12.373397,"k":"x","n":"Arnbach Staatsgrenze"},
+  {"id":2954567320,"lat":46.74387,"lon":12.39305,"k":"p","n":"Arnbach Abzw Weitlanbrunn"},
+  {"id":3025889310,"lat":46.740549,"lon":12.373458,"k":"p","n":"Arnbach Staatsgrenze"},
+  {"id":3025889311,"lat":46.740676,"lon":12.373297,"k":"p","n":"Arnbach Staatsgrenze"},
+  {"id":5533924822,"lat":46.743812,"lon":12.393088,"k":"x","n":"Arnbach Abzw Weitlanbrunn"},
+  {"id":5812929244,"lat":46.701604,"lon":12.350452,"k":"p","n":"Sexten, Hauptplatz - Sesto, Piazza Principale"},
+  {"id":5812929245,"lat":46.702013,"lon":12.350229,"k":"p","n":"Sexten, Hauptplatz - Sesto, Piazza Principale"},
+  {"id":8268095671,"lat":46.70154,"lon":12.350535,"k":"x","n":"Sexten, Hauptplatz - Sesto, Piazza Principale"},
+  {"id":10144784945,"lat":46.739075,"lon":12.365148,"k":"x","n":"Winnebach, Camping - Prato alla Drava, Camping"},
+  {"id":10144784946,"lat":46.739143,"lon":12.365201,"k":"p","n":"Winnebach, Camping - Prato alla Drava, Camping"},
+  {"id":10144784947,"lat":46.739119,"lon":12.366079,"k":"x","n":"Winnebach, Camping - Prato alla Drava, Camping"},
+  {"id":10144784948,"lat":46.73907,"lon":12.366096,"k":"p","n":"Winnebach, Camping - Prato alla Drava, Camping"},
+  {"id":10144784955,"lat":46.741411,"lon":12.359583,"k":"x","n":"Winnebach, Dorf - Prato alla Drava, Paese"}
+],
+"routes":[
+  {"id":1171108,"t":{"ref":"446","name":"Bus 446: Toblach => Innichen => Sexten => Kreuzbergpass","from":"Toblach","to":"Kreuzbergpass","network":"SII","operator":"Holzer","route":"bus","public_transport:version":"2","bus":"yes"},"n":28,"s":[[5812929244,15]]},
+  {"id":3968183,"t":{"ref":"960X","name":"960X Korridorbus Innsbruck - Lienz","from":"Innsbruck Hbf","to":"Lienz Bahnhof","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","colour":"#FCB040","route":"bus","public_transport:version":"2"},"n":2,"s":[[668982591,1]]},
+  {"id":3970708,"t":{"ref":"960X","name":"960X Korridorbus Lienz - Innsbruck","from":"Lienz Bahnhof","to":"Innsbruck Hbf","network":"Verkehrsverbund Tirol","operator":"Österreichische Postbus AG","colour":"#FCB040","route":"bus","public_transport:version":"2"},"n":2,"s":[[2954567320,2]]},
+  {"id":8516632,"t":{"ref":"446","name":"Bus 446: Kreuzbergpass => Sexten => Innichen => Toblach","from":"Kreuzbergpass","to":"Toblach Busbahnhof","network":"SII","operator":"SII","route":"bus","public_transport:version":"2","bus":"yes"},"n":27,"s":[[5812929245,14]]},
+  {"id":14756207,"t":{"ref":"447","name":"Bus 447: Innichen => Winnebach","from":"Innichen - San Candido","to":"Winnebach - Prato alla Drava","route":"bus","public_transport:version":"2"},"n":11,"s":[[905831866,10],[10144784948,11]]},
+  {"id":14756256,"t":{"ref":"447","name":"Bus 447: Winnebach => Innichen","from":"Winnebach - Prato alla Drava","to":"Innichen - San Candido","route":"bus","public_transport:version":"2"},"n":11,"s":[[10144784946,1],[905831866,2]]},
+  {"id":18493950,"t":{"ref":"440","name":"Bus 440: Kreuzbergpass => Fischleintal => Sexten","from":"Kreuzbergpass","to":"Sexten","operator":"Holzer","route":"bus","public_transport:version":"2"},"n":16,"s":[[5812929245,14]]},
+  {"id":18493967,"t":{"ref":"440","name":"Bus 440: Sexten => Fischleintal => Kreuzbergpass","from":"Sexten","to":"Kreuzbergpass","operator":"Holzer","route":"bus","public_transport:version":"2"},"n":16,"s":[[5812929244,3]]},
+  {"id":21772986,"t":{"ref":"73","name":"Linea 73","from":"Santo Stefano di Cadore","to":"San Candido","route":"bus","public_transport:version":"2"},"n":31,"s":[[5812929245,24]]},
+  {"id":21773520,"t":{"ref":"73","name":"Linea 73","from":"San Candido","to":"Santo Stefano di Cadore","route":"bus","public_transport:version":"2"},"n":34,"s":[[5812929244,8]]}
+]
+}

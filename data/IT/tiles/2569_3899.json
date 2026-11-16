@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2569,3899],
+"stops":[
+  {"id":759589400,"lat":38.488553,"lon":14.96421,"k":"p","n":"Canneto Stop 3"},
+  {"id":759589524,"lat":38.47066,"lon":14.954509,"k":"p","n":"Lipari (Terminal Bus Porto)"},
+  {"id":1022411014,"lat":38.459009,"lon":14.956525,"k":"p"},
+  {"id":1704848682,"lat":38.490206,"lon":14.962706,"k":"p","n":"Canneto"},
+  {"id":1780657235,"lat":38.485886,"lon":14.967852,"k":"p","n":"Canneto Stop 1"},
+  {"id":1780657237,"lat":38.491614,"lon":14.961514,"k":"p"},
+  {"id":1780657238,"lat":38.488738,"lon":14.963969,"k":"p","n":"Canneto Stop 3"},
+  {"id":1780657239,"lat":38.48703,"lon":14.96595,"k":"p","n":"Canneto Stop 2"},
+  {"id":2317584465,"lat":38.490069,"lon":14.962715,"k":"p","n":"Canneto"},
+  {"id":2320159597,"lat":38.496812,"lon":14.961233,"k":"p"},
+  {"id":2320159717,"lat":38.489794,"lon":14.962939,"k":"p","n":"Unknown"},
+  {"id":2321234861,"lat":38.494595,"lon":14.96177,"k":"p","n":"Liparabus per vivere L'isola"},
+  {"id":4929127028,"lat":38.464772,"lon":14.954134,"k":"p"},
+  {"id":12753929686,"lat":38.470996,"lon":14.954402,"k":"p","n":"Lipari (Terminal Bus Porto)"},
+  {"id":12753936358,"lat":38.486891,"lon":14.966218,"k":"p","n":"Canneto Stop 2"},
+  {"id":12771793527,"lat":38.464853,"lon":14.951953,"k":"p"},
+  {"id":12772267930,"lat":38.468195,"lon":14.951634,"k":"p"}
+],
+"routes":[
+  {"id":18990161,"t":{"ref":"Servizio Urbano","name":"Servizio Urbano Lipari","from":"Lipari (Terminal Bus Porto)","to":"Acquacalda","network":"Lipari Bus","operator":"URSO","route":"bus","public_transport:version":"2"},"n":12,"s":[[12753929686,1],[12753936358,2],[759589400,3],[1704848682,4],[1780657237,5],[2320159597,6]]},
+  {"id":18990241,"t":{"name":"Extraurbano Lipari forward","from":"Lipari","to":"Quattropani","network":"Lipari Bus","operator":"URSO","route":"bus","public_transport:version":"2"},"n":6,"s":[[759589524,1]]},
+  {"id":19012892,"t":{"name":"Extraurbano return","from":"Quattropani","to":"Lipari","network":"Lipari Bus","operator":"URSO","route":"bus","public_transport:version":"2"},"n":7,"s":[[759589524,7]]}
+]
+}

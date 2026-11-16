@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2704,3804],
+"stops":[
+  {"id":9125012602,"lat":45.214968,"lon":10.222748,"k":"p","n":"Gabbioneta, Via Grandi"},
+  {"id":9125012603,"lat":45.21488,"lon":10.22272,"k":"p","n":"Gabbioneta, Piazza Europa"},
+  {"id":13404126954,"lat":45.223629,"lon":10.249911,"k":"p","n":"Ostiano - municipio"},
+  {"id":13404126955,"lat":45.223707,"lon":10.249496,"k":"p","n":"Ostiano, Piazza Marconi, 11"},
+  {"id":13404126956,"lat":45.22078,"lon":10.24798,"k":"p","n":"Ostiano - via xxv aprile"},
+  {"id":13440275260,"lat":45.210339,"lon":10.217296,"k":"p","n":"Gabbioneta, Ceramica, Dir. Volongo"},
+  {"id":13440275269,"lat":45.202361,"lon":10.200055,"k":"p","n":"Pescarolo, S.P. 3"},
+  {"id":13440275270,"lat":45.210441,"lon":10.217199,"k":"p","n":"Gabbioneta, Ceramica, Dir. Cremona"},
+  {"id":13440275271,"lat":45.220852,"lon":10.24775,"k":"p","n":"Ostiano, Via XXV Aprile, 20"}
+],
+"routes":[
+  {"id":2568484,"t":{"ref":"LS016","name":"Bus LS016: Brescia => Pralboino => Ostiano","from":"Brescia","to":"Ostiano","network":"Arriva","route":"bus","public_transport:version":"2"},"n":48,"s":[[13404126954,47],[13404126955,48]]},
+  {"id":2568485,"t":{"ref":"LS016","name":"Bus LS016: Ostiano => Pralboino => Brescia","from":"Ostiano","to":"Brescia","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[13404126954,1]]},
+  {"id":20060560,"t":{"ref":"K206","name":"Bus K206: Cremona => Ostiano => Gadesco=> Volongo","from":"Cremona Autostazione","to":"Volongo Via Gariabaldi,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":28,"s":[[13440275269,18],[13440275260,19],[9125012603,20],[13404126956,21],[13404126955,22]]},
+  {"id":20060561,"t":{"ref":"K206","name":"Bus K206: Volongo => Gadesco => Ostiano => Cremona","from":"Volongo Via Garibaldi,Chiesa","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":24,"s":[[13440275271,7],[9125012602,8],[13440275270,9],[13440275269,10]]}
+]
+}

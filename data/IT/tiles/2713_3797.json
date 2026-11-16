@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3797],
+"stops":[
+  {"id":13608970401,"lat":45.650686,"lon":9.850445,"k":"p","n":"Chiuduno - p.za roma (asilo)"},
+  {"id":13626448766,"lat":45.680724,"lon":9.87733,"k":"p","n":"Zandobbio - selva (p.za moro)"},
+  {"id":13626448767,"lat":45.684687,"lon":9.862719,"k":"p","n":"Zandobbio - via selva/via sei"},
+  {"id":13626448768,"lat":45.68836,"lon":9.852639,"k":"p","n":"Zandobbio - p.za monumento"},
+  {"id":14002931821,"lat":45.656318,"lon":9.891107,"k":"p","n":"Gandosso - Via Zanoli 66"},
+  {"id":14002931822,"lat":45.659777,"lon":9.888001,"k":"p","n":"Gandosso - via giovanni XXIII (asilo)"},
+  {"id":14002931823,"lat":45.662797,"lon":9.890066,"k":"p","n":"Gandosso - via bossoletti boni'"}
+],
+"routes":[
+  {"id":20274568,"t":{"ref":"E","name":"Bus E: Bergamo => Tavernola","from":"Bergamo - Terminal Arriva","to":"Tavernola - via roma (molo)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":44,"s":[[13608970401,24]]},
+  {"id":20274894,"t":{"ref":"E","name":"Bus E: Tavernola => Bergamo","from":"Tavernola - via roma (banca bcc)","to":"Bergamo - Terminal Arriva","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":38,"s":[[13608970401,22]]},
+  {"id":20297864,"t":{"ref":"C20a","name":"Bus C20a: Zandobbio->Seriate","from":"Zandobbio - selva (p.za moro)","to":"Zandobbio - selva (p.za moro) Seriate - v.le lombardia (cimitero)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":17,"s":[[13626448766,1],[13626448767,2],[13626448768,3]]},
+  {"id":20297865,"t":{"ref":"C20a","name":"Bus C20a: Seriate => Zandobbio","from":"Seriate - v.le lombardia (cimitero)","to":"Zandobbio - selva (p.za moro)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[13626448768,16],[13626448767,17],[13626448766,18]]},
+  {"id":21085498,"t":{"ref":"E20d","name":"Bus E20d: Grumello Monte => Sarnico","from":"Grumello del Monte FS - Via V. Veneto","to":"Sarnico - via roma (municipio)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[14002931821,6],[14002931822,7],[14002931823,8]]},
+  {"id":21085499,"t":{"ref":"E20d","name":"Bus E20d Sarnico => Grumello Monte","from":"Sarnico - via roma (municipio)","to":"Grumello del Monte FS - Via V. Veneto","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[14002931823,8],[14002931822,9],[14002931821,10]]}
+]
+}

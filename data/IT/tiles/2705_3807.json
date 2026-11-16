@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2705,3807],
+"stops":[
+  {"id":470643467,"lat":45.281408,"lon":10.370452,"k":"p","n":"Remed.sopra -ist.bonsignori,"},
+  {"id":470643469,"lat":45.275723,"lon":10.368335,"k":"p","n":"Remed.sopra - via rossi - bresciapla"},
+  {"id":470643530,"lat":45.262344,"lon":10.370265,"k":"p","n":"Remed.sopra-bv.remed.sotto"},
+  {"id":13406450927,"lat":45.279041,"lon":10.372354,"k":"p","n":"Remedello, Remedello"},
+  {"id":13410118987,"lat":45.283666,"lon":10.372177,"k":"p","n":"Remed.sopra - via tonini"},
+  {"id":13410118988,"lat":45.282511,"lon":10.371856,"k":"p","n":"Remed.sopra - via tonini"},
+  {"id":13410118990,"lat":45.278684,"lon":10.369892,"k":"p","n":"Remed.sopra - le arcate"},
+  {"id":13410118991,"lat":45.279477,"lon":10.359979,"k":"p","n":"Remed.sopra - p. asolana"},
+  {"id":13410118992,"lat":45.279197,"lon":10.365075,"k":"p","n":"Remed.sopra - casc. madonnina"},
+  {"id":13410118993,"lat":45.279711,"lon":10.353005,"k":"p","n":"Remed.sopra - casc.grillo"}
+],
+"routes":[
+  {"id":20005542,"t":{"ref":"LS020","name":"Bus LS020: Brescia => Isorella => Remedello","from":"Brescia autostazione via Solferino","to":"Remedello sopra","network":"Arriva","route":"bus","public_transport:version":"2"},"n":52,"s":[[13410118988,51],[470643467,52]]},
+  {"id":20007265,"t":{"ref":"LS020","name":"Bus LS020: Remedello => Isorella => Brescia","from":"Brescia","to":"Brescia Autostazione Via Solferiono","network":"Arriva","route":"bus","public_transport:version":"2"},"n":50,"s":[[470643467,1],[13410118987,2]]},
+  {"id":20010909,"t":{"ref":"LS020","name":"Bus LS020: Variante Remedello => Isorella diretto","from":"Remedello","to":"Isorello","network":"Arriva","route":"bus","public_transport:version":"2"},"n":9,"s":[[470643467,1],[13410118988,2],[13410118990,3],[13410118992,4],[13410118991,5],[13410118993,6]]},
+  {"id":20010910,"t":{"ref":"LS020","name":"Bus LS020: Variante Isorella => Remedello diretto","from":"Isorella","to":"Ramadello","network":"Arriva","route":"bus","public_transport:version":"2"},"n":8,"s":[[13410118993,4],[13410118991,5],[13410118992,6],[13410118990,7],[470643467,8]]},
+  {"id":20012396,"t":{"ref":"LS017","name":"Bus LS017: Asola => Brescia","from":"Asola ospedale","to":"Brescia - Autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":58,"s":[[470643530,4,11],[470643469,5,10],[13410118990,6,9],[470643467,7],[13410118988,8]]}
+]
+}

@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2750,3874],
+"stops":[
+  {"id":3716637250,"lat":47.548396,"lon":13.704913,"k":"p","n":"Obertraun Dachsteinseilbahn"},
+  {"id":6759530683,"lat":47.548457,"lon":13.70481,"k":"x","n":"Obertraun Dachsteinseilbahn"}
+],
+"routes":[
+  {"id":11486397,"t":{"ref":"544","name":"Bus 544 (Winterfahrplan): Obertraun - Hallstatt - Gosaumühle","from":"Obertraun Dachsteinseilbahn","to":"Gosaumühle","route":"bus","public_transport:version":"2"},"n":12,"s":[[3716637250,1]]},
+  {"id":11486398,"t":{"ref":"543","name":"Bus 543 (Winterfahrplan): Gosaumühle - Hallstatt - Obertraun","from":"Gosaumühle","to":"Obertraun Dachsteinseilbahn","route":"bus","public_transport:version":"2"},"n":12,"s":[[3716637250,12]]},
+  {"id":17556735,"t":{"ref":"730","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 730: Variante ab der Dachsteinseilbahn","from":"Dachsteinseilbahn","network":"Salzkammergut-Shuttles","colour":"#FF0099","route":"bus","public_transport:version":"2"},"n":2,"s":[[6759530683,1],[3716637250,2]]},
+  {"id":17556736,"t":{"ref":"730","name":"Salzkammergut-Shuttle Dachstein-Salzkammergut 730: Variante zur Dachsteinseilbahn","to":"Dachsteinseilbahn","network":"Salzkammergut-Shuttles","colour":"#FF0099","route":"bus","public_transport:version":"2"},"n":2,"s":[[6759530683,1],[3716637250,2]]}
+]
+}

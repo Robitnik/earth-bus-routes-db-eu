@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2710,3795],
+"stops":[
+  {"id":633179914,"lat":45.528741,"lon":9.756331,"k":"p","n":"Romano Lombardia - via duca aosta, 111"},
+  {"id":2216149759,"lat":45.521605,"lon":9.751531,"k":"x","n":"Romano - Via Balilla"},
+  {"id":3409174688,"lat":45.523681,"lon":9.753782,"k":"p","n":"Romano Stazione FS"},
+  {"id":5684946937,"lat":45.521966,"lon":9.754531,"k":"p","n":"Romano Lombardia - via piave"},
+  {"id":5684946938,"lat":45.521886,"lon":9.753545,"k":"x","n":"Romano di Lombardia - Via Piave"},
+  {"id":5684946939,"lat":45.521576,"lon":9.751525,"k":"p","n":"Romano - Via Balilla"},
+  {"id":12319513865,"lat":45.539423,"lon":9.785297,"k":"p","n":"Cortenuova - Via Romano 8"},
+  {"id":12319513880,"lat":45.539302,"lon":9.785606,"k":"p","n":"Cortenuova - Via Romano 8"},
+  {"id":13629998078,"lat":45.528163,"lon":9.753558,"k":"p","n":"Romano - Viale Alighieri 52 (Chiesa)"},
+  {"id":13629998090,"lat":45.50021,"lon":9.778301,"k":"p","n":"Covo - Via Campo Rampino/Via Viola"},
+  {"id":13629998091,"lat":45.519967,"lon":9.759744,"k":"p","n":"Romano Lombardia - via indipendenza"},
+  {"id":13629998092,"lat":45.546462,"lon":9.759593,"k":"p","n":"Martinengo - s.s. 498 (distr.esso)"},
+  {"id":13647570501,"lat":45.51993,"lon":9.759739,"k":"x","n":"Romano Lombardia - via indipendenza"},
+  {"id":13818741584,"lat":45.521917,"lon":9.753542,"k":"p","n":"Romano di Lombardia - Via Piave"},
+  {"id":13827929724,"lat":45.539343,"lon":9.7856,"k":"x","n":"Cortenuova - Via Romano 8"},
+  {"id":13827929725,"lat":45.539396,"lon":9.785318,"k":"x","n":"Cortenuova - Via Romano 8"}
+],
+"routes":[
+  {"id":19971753,"t":{"ref":"T30","name":"Bus T30: Treviglio => Cividate al Piano","from":"Treviglio Ovest FS","to":"Cividate al Piano","network":"BTS - Bergamo Trasporti Sud","operator":"SAI Treviglio","route":"bus","public_transport:version":"2"},"n":16,"s":[[3409174688,14],[5684946937,15],[12319513880,16]]},
+  {"id":20302500,"t":{"ref":"R","name":"Bus R: Soncino => Bergamo","from":"Soncino - autostazione","to":"Bergamo - stazione autolinee","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[13629998091,5],[3409174688,6],[13629998078,7]]},
+  {"id":20302501,"t":{"ref":"R","name":"Bus R: Bergamo => Soncino","from":"Bergamo - stazione autolinee (pens. 6)","to":"Soncino - via zanardi","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":35,"s":[[13629998092,20],[633179914,21],[3409174688,22],[5684946937,23],[13629998090,24]]},
+  {"id":20316193,"t":{"ref":"M","name":"Bus M: Romano di Lombardia => Cologno","from":"Romano di Lombardia - via calvi (staz. fs)","to":"Cologno scuole","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":9,"s":[[3409174688,1]]},
+  {"id":20316194,"t":{"ref":"M","name":"Bus M: Cologno => Romano di Lombardia","from":"Cologno scuole","to":"Romano di Lombardia - via calvi (staz. fs)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":14,"s":[[5684946939,12],[5684946937,13],[3409174688,14]]},
+  {"id":20669018,"t":{"ref":"T30","name":"Bus T30: Cividate al Piano => Treviglio","from":"Cividate al Piano - Via Marconi, scuola","to":"Treviglio - Piazzale Mazzini, Stazione Ovest","network":"Bergamo Trasporti","operator":"SAI Treviglio","route":"bus","public_transport:version":"2"},"n":19,"s":[[12319513865,1],[633179914,2],[13818741584,3]]}
+]
+}

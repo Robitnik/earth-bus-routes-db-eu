@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2752,3921],
+"stops":[
+  {"id":975665302,"lat":47.615465,"lon":16.098046,"k":"p","n":"Hochegg Reha-Zentrum"},
+  {"id":2574846408,"lat":47.615469,"lon":16.098122,"k":"x","n":"Hochegg Reha-Zentrum"},
+  {"id":2576323435,"lat":47.613798,"lon":16.091104,"k":"x","n":"Hochegg Himberger Straße"},
+  {"id":2576323521,"lat":47.614147,"lon":16.094994,"k":"p","n":"Hochegg Abzweigung Reha-Zentrum"},
+  {"id":2578549142,"lat":47.613762,"lon":16.091155,"k":"p","n":"Hochegg Himberger Straße"},
+  {"id":2578549143,"lat":47.613664,"lon":16.090663,"k":"p","n":"Hochegg Himberger Straße"},
+  {"id":2591976748,"lat":47.614161,"lon":16.094996,"k":"x","n":"Hochegg Abzweigung Reha-Zentrum"},
+  {"id":7832821911,"lat":47.616836,"lon":16.087684,"k":"p","n":"Hochegg Universitätsklinikum"},
+  {"id":7832821912,"lat":47.616867,"lon":16.08768,"k":"x","n":"Hochegg Landesklinikum"},
+  {"id":7832821913,"lat":47.613635,"lon":16.090673,"k":"x","n":"Hochegg Himberger Straße"},
+  {"id":7863712182,"lat":47.614296,"lon":16.088105,"k":"p","n":"Hochegg Abzweigung Landeskrankenhaus"},
+  {"id":7863712183,"lat":47.614328,"lon":16.08814,"k":"x","n":"Hochegg Abzweigung Landeskrankenhaus"}
+],
+"routes":[
+  {"id":11526526,"t":{"ref":"388","name":"Bus 388: Hochegg Landesklinikum => Hochegg Reha-Zentrum => Edlitz-Grimmenstein Bahnhof","from":"Hochegg Landesklinikum","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":9,"s":[[7832821911,1],[7863712182,2],[2578549142,3],[975665302,4]]},
+  {"id":11526527,"t":{"ref":"388","name":"Bus 388: Hochegg Landesklinikum => Edlitz-Grimmenstein Bahnhof","from":"Hochegg Landesklinikum","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":9,"s":[[7832821911,1],[7863712182,2],[2578549142,3],[2576323521,4]]},
+  {"id":11526528,"t":{"ref":"388","name":"Bus 388: Hochegg Landesklinikum => Edlitz Schulen","from":"Hochegg Landesklinikum","to":"Edlitz Schulen","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":10,"s":[[7832821911,1],[7863712182,2],[2578549142,3],[2576323521,4]]},
+  {"id":11526529,"t":{"ref":"388","name":"Bus 388: Edlitz-Grimmenstein Bahnhof => Hochegg Reha-Zentrum => Hochegg Landesklinikum","from":"Edlitz-Grimmenstein Bahnhof","to":"Hochegg Landesklinikum","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":9,"s":[[975665302,7],[2578549143,8],[7832821911,9]]},
+  {"id":11526530,"t":{"ref":"388","name":"Bus 388: Edlitz-Grimmenstein Bahnhof => Hochegg Landesklinikum","from":"Edlitz-Grimmenstein Bahnhof","to":"Hochegg Landesklinikum","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":8,"s":[[2578549143,7],[7832821911,8]]},
+  {"id":11526531,"t":{"ref":"388","name":"Bus 388: Edlitz Schulen => Hochegg Landesklinikum","from":"Edlitz Schulen","to":"Hochegg Landesklinikum","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":9,"s":[[2578549143,8],[7832821911,9]]}
+]
+}

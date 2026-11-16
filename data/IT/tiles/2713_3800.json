@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3800],
+"stops":[
+  {"id":3376698779,"lat":45.65915,"lon":10.004208,"k":"p","n":"Clusane - ex primavera"},
+  {"id":3384633032,"lat":45.659863,"lon":10.003531,"k":"p","n":"Clusane - ex primavera"},
+  {"id":3384633033,"lat":45.660627,"lon":10.002473,"k":"p","n":"Clusane - trattoria sole"},
+  {"id":3384633034,"lat":45.659957,"lon":10.002093,"k":"p","n":"Clusane - chiesa"},
+  {"id":11660961745,"lat":45.656359,"lon":10.048094,"k":"p","n":"Via Mier"},
+  {"id":11660961746,"lat":45.656281,"lon":10.046498,"k":"p","n":"Iseo - Via Gorzoni"},
+  {"id":13507691513,"lat":45.655816,"lon":10.037183,"k":"p","n":"Iseo - sassabanek"},
+  {"id":13507691518,"lat":45.655867,"lon":10.042041,"k":"p","n":"Iseo - scuole superiori"},
+  {"id":13507691519,"lat":45.655649,"lon":10.037204,"k":"p","n":"Iseo - sassabanek"},
+  {"id":13507691520,"lat":45.652148,"lon":10.021071,"k":"p","n":"Cremignane - loc.ciochet"},
+  {"id":13517109313,"lat":45.652331,"lon":10.02099,"k":"p","n":"Cremignane - loc.ciochet"},
+  {"id":13608941485,"lat":45.68043,"lon":10.01944,"k":"p","n":"Predore - p.za v.veneto (municipio)"},
+  {"id":13608941486,"lat":45.679298,"lon":10.005251,"k":"p","n":"Predore - via sarnico (garden)"},
+  {"id":13808631040,"lat":45.66001,"lon":10.001969,"k":"p","n":"Clusane - chiesa"},
+  {"id":13817522082,"lat":45.655883,"lon":10.042136,"k":"p","n":"Iseo - scuole superiori"},
+  {"id":13937742252,"lat":45.660545,"lon":10.002373,"k":"p","n":"Clusane - trattoria sole"}
+],
+"routes":[
+  {"id":17257826,"t":{"ref":"L62","name":"L62: Iseo => Brescia","from":"Iseo","to":"Brescia","network":"FNMAutostrasporti","route":"bus"},"n":9,"s":[[11660961745,3],[11660961746,4]]},
+  {"id":20147712,"t":{"ref":"LS003","name":"Bus LS003: Iseo => Chiari","from":"Iseo vis Gorzoni","to":"Chiari, via del Granaio, stazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":38,"s":[[11660961746,1],[13817522082,2],[13507691513,3],[13517109313,4],[3384633032,5],[13808631040,6]]},
+  {"id":20147713,"t":{"ref":"LS003","name":"Bus LS003: Chiari => Iseo","from":"Chiari, via del Granaio, stazione","to":"Iseo vis Gorzoni","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":39,"s":[[3384633034,34],[3376698779,35],[13507691520,36],[13507691519,37],[13507691518,38],[11660961746,39]]},
+  {"id":20161498,"t":{"ref":"LS002","name":"Bus LS002: Sarnico->Iseo","from":"Sarnico Piazza Matteotti","to":"Iseo vis Gorzoni","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":10,"s":[[13937742252,5],[3376698779,6],[13507691520,7],[13507691519,8],[13507691518,9],[11660961746,10]]},
+  {"id":20161499,"t":{"ref":"LS002","name":"Bus LS002: Iseo->Sarnico","from":"Iseo vis Gorzoni","to":"Sarnico Piazza Matteotti","network":"Arriva","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":10,"s":[[11660961746,1],[13817522082,2],[13507691513,3],[13517109313,4],[3384633032,5],[3384633033,6]]},
+  {"id":20167589,"t":{"ref":"LS027","name":"Bus LS027: Brescia->Ospitaletto->Crusane","from":"Brescia Autostazione","to":"Crusane chiesa","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":41,"s":[[3384633034,41]]},
+  {"id":20167683,"t":{"ref":"LS027","name":"Bus LS027: Clusane->Ospitaletto->Brescia","from":"Clusane chiesa","to":"Brescia Autostazione","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":41,"s":[[3384633032,1],[13808631040,2]]},
+  {"id":20274568,"t":{"ref":"E","name":"Bus E: Bergamo => Tavernola","from":"Bergamo - Terminal Arriva","to":"Tavernola - via roma (molo)","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":44,"s":[[13608941486,40],[13608941485,41]]},
+  {"id":20274894,"t":{"ref":"E","name":"Bus E: Tavernola => Bergamo","from":"Tavernola - via roma (banca bcc)","to":"Bergamo - Terminal Arriva","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":38,"s":[[13608941485,5],[13608941486,6]]},
+  {"id":21092542,"t":{"ref":"Eex","name":"Bus Eex: Bergamo -> Iseo","from":"Bergamo Autolinee (Pensilina 7)","to":"Iseo - via gorzoni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":16,"s":[[3376698779,13],[13507691520,14],[13507691519,15],[11660961746,16]]},
+  {"id":21092997,"t":{"ref":"Eex","name":"Bus Eex: Iseo => Bergamo","from":"Iseo - via gorzoni","to":"Iseo - via gorzoni Bergamo Autolinee (Pensilina 7)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":19,"s":[[11660961746,1],[13817522082,2],[13507691513,3],[13517109313,4],[3376698779,5],[3384633033,6]]}
+]
+}

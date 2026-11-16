@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2716,3797],
+"stops":[
+  {"id":1856885803,"lat":45.813788,"lon":9.858819,"k":"p","n":"Colzate - Via Roma (Bivio Centro)"},
+  {"id":1856885824,"lat":45.813573,"lon":9.858944,"k":"p","n":"Colzate - Via Roma (Bivio Centro)"},
+  {"id":1878986935,"lat":45.808122,"lon":9.8535,"k":"p","n":"Vertova"},
+  {"id":1901950854,"lat":45.80786,"lon":9.853342,"k":"x","n":"Vertova - Via Stazione/Via Ferrari"},
+  {"id":5051070933,"lat":45.807235,"lon":9.852575,"k":"p","n":"Vertova"},
+  {"id":10835635090,"lat":45.814475,"lon":9.866591,"k":"p","n":"Casnigo - via ruggeri (municipio)"},
+  {"id":13226609336,"lat":45.807811,"lon":9.853434,"k":"p","n":"Vertova - Via Stazione/Via Ferrari"},
+  {"id":13649062859,"lat":45.813359,"lon":9.874349,"k":"p","n":"Cazzano s.andrea - s.p. 45/via leonardo"},
+  {"id":13649062860,"lat":45.812922,"lon":9.885174,"k":"p","n":"Cazzano s.andrea - provinciale (chiesa)"},
+  {"id":13649062861,"lat":45.811254,"lon":9.887728,"k":"p","n":"Cazzano s.andrea - via moro/via tacchini"},
+  {"id":13649062862,"lat":45.808626,"lon":9.89667,"k":"p","n":"Gandino - via moro"},
+  {"id":13649062863,"lat":45.809489,"lon":9.899226,"k":"p","n":"Gandino - via rimembranze (ufficio pt)"},
+  {"id":13649062864,"lat":45.806277,"lon":9.893124,"k":"p","n":"Gandino - provinciale (arredamenti)"},
+  {"id":13649062865,"lat":45.802394,"lon":9.885786,"k":"p","n":"Leffe - via roma (scaletta)"},
+  {"id":13649062866,"lat":45.802721,"lon":9.879796,"k":"p","n":"Leffe - via roma (centex)"},
+  {"id":13649062867,"lat":45.805387,"lon":9.870007,"k":"p","n":"Casnigo - via lungo romna bv.via carrali"},
+  {"id":13649062868,"lat":45.801012,"lon":9.855597,"k":"p","n":"Casnigo - via lungo romna (dobenga)"},
+  {"id":13686840296,"lat":45.813742,"lon":9.858922,"k":"x","n":"Colzate - Via Roma (Bivio Centro)"},
+  {"id":13686864238,"lat":45.813599,"lon":9.858897,"k":"x","n":"Colzate - Via Roma (Bivio Centro)"},
+  {"id":13971925435,"lat":45.805378,"lon":9.871371,"k":"p","n":"Casnigo - via lungo romna bv.via carrali"},
+  {"id":13971925436,"lat":45.800978,"lon":9.898596,"k":"p","n":"Peia - via ca' zenucchi (municipio)"},
+  {"id":13971925437,"lat":45.800212,"lon":9.899272,"k":"p","n":"Peia - via ca' zenucchi/ca' orazio"},
+  {"id":13971925439,"lat":45.802844,"lon":9.893103,"k":"p","n":"Peia - via locatelli"},
+  {"id":13971925440,"lat":45.800245,"lon":9.890694,"k":"p","n":"Leffe - via locatelli/battisti"},
+  {"id":13971925441,"lat":45.800529,"lon":9.885212,"k":"p","n":"Leffe - p.za libertà (centro)"},
+  {"id":13975140037,"lat":45.830926,"lon":9.865492,"k":"p","n":"Casnigo - SS671 (Filatura Semonte)"}
+],
+"routes":[
+  {"id":20326088,"t":{"ref":"S40a","name":"Bus S40a: Casnigo -> Gazzaniga","from":"Casnigo - via ruggeri (municipio)","to":"Gazzaniga - p.le stazione (stazione sab)","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[10835635090,1],[13649062859,2],[13649062860,3],[13649062861,4],[13649062863,5],[13649062862,6],[13649062864,7],[13649062865,8],[13649062866,9],[13649062867,10],[13649062868,11]]},
+  {"id":20326089,"t":{"ref":"S40a","name":"Bus S40a: Gazzaniga -> Casnigo","from":"Gazzaniga - p.le stazione (stazione sab)","to":"Casnigo - via ruggeri (municipio)","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[13649062868,4],[13649062867,5],[13649062866,6],[13649062865,7],[13649062864,8],[13649062863,9],[13649062862,10],[13649062861,11],[13649062860,12],[13649062859,13],[10835635090,14]]},
+  {"id":20384952,"t":{"ref":"S","name":"Bus S: Bergamo FS=>Bratto","from":"Bergamo - Pensilina 6","to":"Bratto","network":"Bergamo Trasporti","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":49,"s":[[13226609336,24],[1856885824,25],[13975140037,26]]},
+  {"id":21039695,"t":{"ref":"S40b","name":"Bus S40b: Gazzaniga -> Peia","from":"Peia - via ca' zenucchi (centro)","to":"Gazzaniga Stazione","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":11,"s":[[13971925437,2],[13971925436,3],[13971925439,4],[13971925440,5],[13971925441,6],[13649062866,7],[13971925435,8],[13649062868,9]]},
+  {"id":21039696,"t":{"ref":"S40b","name":"Bus S40b: Gazzaniga -> Peia","from":"Gazzaniga Stazione","to":"Peia - via ca' zenucchi (centro)","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":9,"s":[[13649062868,3],[13649062867,4],[13649062866,5],[13971925441,6],[13971925440,7],[13971925439,8]]},
+  {"id":21044961,"t":{"ref":"S","name":"Bus S: Bratto=>Bergamo FS","from":"Bratto","to":"Bergamo - Pensilina 6","network":"Bergamo Trasporti","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":50,"s":[[13975140037,24],[1856885803,25],[13226609336,26]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2722,3825],
+"stops":[
+  {"id":2308782850,"lat":46.13578,"lon":11.250059,"k":"p","n":"Baselga di Piné (Lago)"},
+  {"id":2308782857,"lat":46.135956,"lon":11.250057,"k":"p","n":"Baselga di Pinè. Lago"},
+  {"id":2674510759,"lat":46.149514,"lon":11.269147,"k":"p","n":"Campolongo"},
+  {"id":2717292909,"lat":46.146076,"lon":11.263619,"k":"p","n":"Rizzolaga"},
+  {"id":2717292915,"lat":46.149706,"lon":11.269718,"k":"p","n":"Campolongo"},
+  {"id":2967475227,"lat":46.125141,"lon":11.25221,"k":"p","n":"Miola, St. Ghiaccio"},
+  {"id":2968095579,"lat":46.125435,"lon":11.253229,"k":"p","n":"Miola, St. Ghiaccio"},
+  {"id":11958844793,"lat":46.141773,"lon":11.258578,"k":"p","n":"Sternigo Bivio"},
+  {"id":11958844794,"lat":46.14159,"lon":11.257989,"k":"p","n":"Sternigo Bivio"},
+  {"id":11958844795,"lat":46.146248,"lon":11.263973,"k":"p","n":"Rizzolaga"},
+  {"id":13018700161,"lat":46.102455,"lon":11.298269,"k":"p","n":"S.Orsola (Loc. Bertoldi)"},
+  {"id":13022304701,"lat":46.112914,"lon":11.253742,"k":"p","n":"Faida Rauta"},
+  {"id":13022304702,"lat":46.109419,"lon":11.251242,"k":"p","n":"Faida"}
+],
+"routes":[
+  {"id":5549289,"t":{"ref":"B417","name":"Bus B417: Pergine->Canezza ->Viarago->S.Orsola->Palù","from":"Pergine V.Intermodale","to":"Battisti","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":31,"s":[[13018700161,18]]},
+  {"id":19381093,"t":{"ref":"B417","name":"Bus B417: Palù->Canezza->S.Orsola->Viargo->Pergine","from":"Battisti","to":"Pergine V.Intermodale","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":31,"s":[[13018700161,14]]},
+  {"id":19386192,"t":{"ref":"B404","name":"Bus B404: Faida->Balsega di Pinè","from":"Faida","to":"Balsega di Pinè","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":6,"s":[[13022304702,1],[13022304701,2],[2967475227,3]]},
+  {"id":19386193,"t":{"ref":"B404","name":"Bus B404: Balsega di Pinè->Faida","from":"Balsega di Pinè","to":"Faida","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":6,"s":[[2967475227,4],[13022304701,5],[13022304702,6]]},
+  {"id":19386406,"t":{"ref":"B402","name":"Bus B402: Trento->Rovarè->Baselgo di Pinè->Montesover","from":"Trento Autostazione","to":"Montesover","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":39,"s":[[2308782850,16],[11958844793,17],[11958844795,18],[2674510759,19]]},
+  {"id":19395827,"t":{"ref":"B402","name":"Bus B402: Montesover->Baselgo di Pinè->Rovarè->Trento","from":"Montesover","to":"Trento Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":38,"s":[[2717292915,20],[2717292909,21],[11958844794,22],[2308782850,23]]},
+  {"id":19414081,"t":{"ref":"B403","name":"Bus B403: Trento->Pergine->Baselga di Pinè->Montesover","from":"Trento Autostazione","to":"Montesover","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":55,"s":[[2308782850,32],[11958844793,33],[11958844795,34],[2674510759,35]]},
+  {"id":19414190,"t":{"ref":"B403","name":"Bus B403: Montesover->Baselga di Pinè->Pergine->Trento","from":"Montesover","to":"Trento Aitostzione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":57,"s":[[2717292915,22],[2717292909,23],[11958844794,24],[2308782857,25]]}
+]
+}

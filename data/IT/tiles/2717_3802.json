@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3802],
+"stops":[
+  {"id":8223212984,"lat":45.857226,"lon":10.133551,"k":"p","n":"Rogno (ex monumento)"},
+  {"id":8223212985,"lat":45.857588,"lon":10.133882,"k":"p","n":"Rogno (fr. Municipio) (chiesa)"},
+  {"id":8223212996,"lat":45.865695,"lon":10.147365,"k":"p","n":"Bessimo Inferiore (via cav.v.veneto bivio bessimo )"},
+  {"id":8223212997,"lat":45.865895,"lon":10.147373,"k":"p","n":"Bessimo Inferiore (via cav.v.veneto bivio bessimo )"},
+  {"id":8223213083,"lat":45.860118,"lon":10.120942,"k":"p","n":"Rogno (San Vigilio)"},
+  {"id":8223213084,"lat":45.868283,"lon":10.131821,"k":"p","n":"Rogno (Monti)"},
+  {"id":8225788421,"lat":45.85123,"lon":10.118835,"k":"p"},
+  {"id":13968499042,"lat":45.897408,"lon":10.139268,"k":"p","n":"Angolo terme - via acquisto"},
+  {"id":13968499043,"lat":45.891617,"lon":10.145764,"k":"p","n":"Angolo terme - p.za caduti"}
+],
+"routes":[
+  {"id":12022119,"t":{"ref":"C","name":"Bus C: Costa Volpino => Darfo Boario Terme","from":"Costa Volpino (Piano)","to":"Darfo Boario Terme (autostazione)","network":"Bergamo Trasporti Est","operator":"SAB Autoservizi","route":"bus","public_transport:version":"2"},"n":9,"s":[[8223212985,5],[8223212996,6]]},
+  {"id":12022124,"t":{"ref":"C","name":"Bus C: Darfo Boario Terme => Costa Volpino","from":"Darfo Boario Terme (autostazione)","to":"Costa Volpino (Piano)","network":"Bergamo Trasporti Est","operator":"SAB Autoservizi","route":"bus","public_transport:version":"2"},"n":9,"s":[[8223212997,4],[8223212984,5]]},
+  {"id":12022126,"t":{"ref":"L","name":"Bus L: Lovere => Rogno (San Vigilio)","from":"Lovere","to":"Rogno (San Vigilio)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":8,"s":[[8223213083,7]]},
+  {"id":12022127,"t":{"ref":"L","name":"Bus L: Rogno (San Vigilio) => Castro","from":"Rogno (San Vigilio)","to":"Castro (stabilimento Lucchini)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":9,"s":[[8223213083,1]]},
+  {"id":12022128,"t":{"ref":"L","name":"Bus L: Rogno (San Vigilio) => Lovere","from":"Rogno (San Vigilio)","to":"Lovere (piazza XIII Martiri)","network":"Bergamo Trasporti Est","operator":"SAV Visinoni","route":"bus","public_transport:version":"2"},"n":7,"s":[[8223213083,1]]},
+  {"id":12575443,"t":{"ref":"S70c","name":"Bus S70c: Castro=>Schilpario","from":"Castro (stabilimento Lucchini)","to":"Schilpario","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":41,"s":[[8223212985,12],[8223212996,13],[13968499043,24],[13968499042,25]]},
+  {"id":21034899,"t":{"ref":"S70c","name":"Bus S70c: Schilpario=>Schilpario","from":"Schilpario piazza major","to":"Castro - v.le roma (lucchini)","operator":"Arriva SAB","route":"bus","public_transport:version":"2"},"n":41,"s":[[13968499042,17],[13968499043,18],[8223212997,31],[8223212984,32]]},
+  {"id":21067335,"t":{"ref":"LV923","name":"Bus LV923: Milano -> Edolo","from":"Sesto San Giovanni","to":"Edolo","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8223212985,37],[8223212996,38]]},
+  {"id":21069296,"t":{"ref":"LV923","name":"Bus LV923: Edolo -> Milano","from":"Edolo","to":"Sesto San Giovanni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8223212997,51],[8223212996,53],[8223212984,54]]}
+]
+}

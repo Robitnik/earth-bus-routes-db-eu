@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2723,3842],
+"stops":[
+  {"id":5143282312,"lat":46.163958,"lon":12.124908,"k":"p","n":"Peron"},
+  {"id":5143282313,"lat":46.153936,"lon":12.125937,"k":"p","n":"Mas"},
+  {"id":8387685830,"lat":46.150113,"lon":12.130073,"k":"p","n":"Mas campo sportivo"},
+  {"id":8387685831,"lat":46.150167,"lon":12.130244,"k":"p","n":"Mas campo sportivo"},
+  {"id":8387685838,"lat":46.153943,"lon":12.125708,"k":"p","n":"Mas"},
+  {"id":8387685839,"lat":46.151716,"lon":12.117033,"k":"p","n":"Brustolada"},
+  {"id":8387685840,"lat":46.151788,"lon":12.116877,"k":"p","n":"Brustolada"},
+  {"id":8405509254,"lat":46.159342,"lon":12.101844,"k":"p","n":"Vedana Bivio"},
+  {"id":8405509255,"lat":46.159115,"lon":12.101938,"k":"p","n":"Vedana Bivio"},
+  {"id":8405509258,"lat":46.155163,"lon":12.101919,"k":"p","n":"Torbe"},
+  {"id":8405509259,"lat":46.155287,"lon":12.101784,"k":"p","n":"Torbe"},
+  {"id":8411705736,"lat":46.163915,"lon":12.124738,"k":"p","n":"Peron"},
+  {"id":8411705737,"lat":46.163446,"lon":12.129729,"k":"p","n":"Peron via Casate Capitello"},
+  {"id":8411705738,"lat":46.163508,"lon":12.129839,"k":"p","n":"Peron via Casate Capitello"},
+  {"id":8871996615,"lat":46.158071,"lon":12.128577,"k":"p","n":"Peron via Casate incrocio SS"}
+],
+"routes":[
+  {"id":7597905,"t":{"ref":"71","name":"Belluno -> Agordo -> Passo San Pellegrino -> Moena","from":"Belluno FS","to":"Moena","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":47,"s":[[5143282313,9],[5143282312,10]]},
+  {"id":7682641,"t":{"ref":"1/3/30/31","name":"Belluno -> Agordo -> Cortina -> Tre Cime","from":"Belluno FS","to":"Tre Cime - Rifugio Auronzo","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":69,"s":[[5143282313,10],[5143282312,11]]},
+  {"id":12241200,"t":{"ref":"11","name":"Belluno -> Barp -> Mas","from":"Belluno","to":"Barp","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":18,"s":[[8387685831,17]]},
+  {"id":12241201,"t":{"ref":"11","name":"Mas -> Barp -> Belluno","from":"Barp","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":18,"s":[[8387685830,18]]},
+  {"id":12241990,"t":{"ref":"12","name":"Belluno -> Sospirolo -> Santa Giustina","from":"Belluno","to":"Santa Giustina","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":34,"s":[[5143282313,10],[8387685840,11]]},
+  {"id":12242088,"t":{"ref":"12","name":"Santa Giustina -> Sospirolo -> Belluno","from":"Santa Giustina","to":"Belluno","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":37,"s":[[8387685838,10],[8387685839,11],[8405509255,24],[8405509259,26]]},
+  {"id":12246275,"t":{"ref":"21","name":"Bivio Signa -> Trichiana -> Sedico -> Peron","from":"Bivio Signa","to":"Peron","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":32,"s":[[5143282313,30],[8871996615,31],[8411705738,32]]},
+  {"id":12246276,"t":{"ref":"21","name":"Peron-> Sedico -> Trichiana -> Bivio Signa","from":"Peron","to":"Bivio Signa","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":29,"s":[[8387685838,29]]},
+  {"id":12298361,"t":{"ref":"1","name":"Belluno -> Agordo","from":"Belluno FS","to":"Agordo Autostazione","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":19,"s":[[5143282313,10],[5143282312,11]]},
+  {"id":12298362,"t":{"ref":"1","name":"Agordo -> Belluno","from":"Agordo Autostazione","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":20,"s":[[8411705736,9],[8387685838,10]]},
+  {"id":12896373,"t":{"ref":"1/3/30/31","name":"Tre Cime -> Cortina -> Agordo -> Belluno","from":"Tre Cime - Rifugio Auronzo","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ff6600","route":"bus"},"n":71,"s":[[8411705736,61],[8387685838,62]]},
+  {"id":12903375,"t":{"ref":"27b","name":"Cencenighe -> Lido di Jesolo","from":"Cencenighe","to":"Lido di Jesolo Autostazione","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":15,"s":[[8411705736,6],[8387685838,7]]},
+  {"id":12903376,"t":{"ref":"27b","name":"Lido di Jesolo -> Cencenighe","from":"Lido di Jesolo Autostazione","to":"Cencenighe","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":11,"s":[[5143282313,2],[5143282312,3]]},
+  {"id":13218325,"t":{"ref":"71","name":"Moena -> Passo San Pellegrino -> Agordo -> Belluno","from":"Moena","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":48,"s":[[8411705736,37],[8387685838,38]]},
+  {"id":13738583,"t":{"ref":"72","name":"Venezia P.le Roma -> Belluno -> Cortina(per S. Cassiano)/Falcade","from":"Venezia Piazzale Roma","to":"Cortina/Falcade","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":98,"s":[[5143282313,26],[5143282312,27]]},
+  {"id":20266690,"t":{"ref":"12","name":"Belluno -> Sospirolo -> Santa Giustina Variante Casera","from":"Belluno","to":"Santa Giustina","network":"DolomitiBus","operator":"DolomitiBus","route":"bus","public_transport:version":"2"},"n":5,"s":[[8405509258,3]]}
+]
+}

@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3807],
+"stops":[
+  {"id":11948542613,"lat":45.626781,"lon":10.370964,"k":"p","n":"Odolo (bivio binzago)"},
+  {"id":12896744937,"lat":45.606771,"lon":10.380701,"k":"p","n":"Vallio Terme Porle (rotatoria)"},
+  {"id":12896744938,"lat":45.610065,"lon":10.38661,"k":"p","n":"Vallio Terme bivio per santuario"},
+  {"id":12896744939,"lat":45.610306,"lon":10.390277,"k":"p","n":"Vallio Terme municipo"},
+  {"id":13536411842,"lat":45.649197,"lon":10.351481,"k":"p","n":"Agnosine centro"},
+  {"id":13536411843,"lat":45.647637,"lon":10.357441,"k":"p","n":"Agnosine renzana"},
+  {"id":13536411844,"lat":45.646358,"lon":10.361481,"k":"p","n":"Agnosine bolperti"},
+  {"id":13536411845,"lat":45.640033,"lon":10.374218,"k":"p","n":"Odolo ca' de odol -bv. agnosine"},
+  {"id":13536411846,"lat":45.645346,"lon":10.382418,"k":"p","n":"Odolo gnutti ex. ilfo"},
+  {"id":13536411847,"lat":45.647071,"lon":10.388743,"k":"p","n":"Odolo centro"},
+  {"id":13536775626,"lat":45.646619,"lon":10.388893,"k":"p","n":"Odolo centro"},
+  {"id":13536775627,"lat":45.645413,"lon":10.38319,"k":"p","n":"Odolo ilfo acciaieria"},
+  {"id":13536775628,"lat":45.640009,"lon":10.374371,"k":"p","n":"Odolo ca de odol/agnosine"},
+  {"id":13537110626,"lat":45.60976,"lon":10.361635,"k":"p","n":"Vallio c.le s. eusebio bv.vallio"},
+  {"id":13537110627,"lat":45.637935,"lon":10.374184,"k":"p","n":"Odolo-bv.agnosine trattoria"},
+  {"id":13537110629,"lat":45.627252,"lon":10.373824,"k":"p","n":"Odolo trattoria il fiasco"},
+  {"id":13537110630,"lat":45.621361,"lon":10.372215,"k":"p","n":"Vallio croce (s.eusebio)"},
+  {"id":13537110631,"lat":45.609761,"lon":10.361829,"k":"p","n":"Vallio colle s. eusebio (bivio vallio)"},
+  {"id":13537110632,"lat":45.612687,"lon":10.350779,"k":"p","n":"Caino rist. miramonti"}
+],
+"routes":[
+  {"id":19225555,"t":{"ref":"LN002","name":"Bus LN002: Vallio->Gavardo","from":"Vallio Porle rotonda","to":"Gavardo Piazza","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":12,"s":[[12896744937,1],[12896744938,2],[12896744939,3]]},
+  {"id":19225556,"t":{"ref":"LN002","name":"Bus LN002: Gavardo->Vallio","from":"Gavardo Piazza","to":"Vallio Porle rotonda","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":12,"s":[[12896744939,10],[12896744938,11],[12896744937,12]]},
+  {"id":20192853,"t":{"ref":"LN019","name":"Bus LN019: Vestone->Bione","from":"Vestone Autostazione","to":"Bione muncipio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[13536411847,12],[13536411846,13],[13536411845,14],[13536411844,15],[13536411843,16],[13536411842,17]]},
+  {"id":20193432,"t":{"ref":"LN019","name":"Bus LN019: Bione->Vestone","from":"Bione muncipio","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[13536411842,7],[13536411843,8],[13536411844,9],[13536775628,10],[13536775627,11],[13536775626,12]]},
+  {"id":20193843,"t":{"ref":"LN024","name":"Bus LN024: Bione->Brescia","from":"Bione, via oddone grazioli 16","to":"Brescia Stazione Metro Prealpino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":32,"s":[[13536411842,9],[13536411843,10],[13536411844,11],[13537110627,12],[11948542613,13],[13537110629,14],[13537110630,15],[13537110626,16],[13537110632,17]]},
+  {"id":20193844,"t":{"ref":"LN024","name":"Bus LN024: Brescia->Bione","from":"Brescia Stazione Metro Prealpino","to":"Bione Mad.della rupe","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":34,"s":[[13537110632,18],[13537110631,19],[13537110630,20],[13537110629,21],[11948542613,22],[13537110627,23],[13536411844,24],[13536411843,25],[13536411842,26]]},
+  {"id":20199795,"t":{"ref":"LN013","name":"Bus LN013: Brescia->Odolo->Vestone->Bagolino","from":"Brescia Stazione metro Prealpino","to":"Bogolino via Mignano, stabilimenti","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":52,"s":[[13537110632,17],[13537110631,18],[13537110626,19],[13537110630,20],[13537110629,21],[11948542613,22],[13536775628,23],[13536775626,24]]},
+  {"id":20199796,"t":{"ref":"LN013","name":"Bus LN013: Bagolino->Vestone->Odolo->Brescia","from":"Bagolino via Mignano, stabilimenti","to":"Brescia Stazione metro Prealpino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":51,"s":[[13536411847,28],[13536411846,29],[13536411845,30],[11948542613,31],[13537110629,32],[13537110630,33],[13537110626,34],[13537110632,35]]},
+  {"id":20265099,"t":{"ref":"RL201V","name":"Bus RL201V Lumezzane => Vestone","from":"Lumezzane Saleri","to":"Vestone Autostazioe","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":33,"s":[[13536411842,16],[13536411843,17],[13536411844,18],[13536775628,19],[13536775627,20],[13536775626,21]]},
+  {"id":20265100,"t":{"ref":"RL201V","name":"Bus RL201V: Vestone =>Lumezzane (Gardone Val Trompia)","from":"Vestone Autostazione","to":"Lumezzane Saleri","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":34,"s":[[13536411847,13],[13536411846,14],[13536411845,15],[13536411844,16],[13536411843,17],[13536411842,18]]}
+]
+}

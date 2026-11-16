@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3859],
+"stops":[
+  {"id":282643940,"lat":45.632568,"lon":12.998957,"k":"p","n":"Viale Ginepri (angolo Viale Primule)","ref":"3"},
+  {"id":282643954,"lat":45.632069,"lon":12.996985,"k":"p","n":"Via Ginepri (angolo Passeggiata Mare)","ref":"2"},
+  {"id":285293080,"lat":45.631659,"lon":12.995145,"k":"p","n":"Baseleghe","ref":"1"},
+  {"id":285293289,"lat":45.631995,"lon":12.996991,"k":"p","n":"Via Ginepri (angolo Passeggiata Mare)","ref":"2"},
+  {"id":4513720175,"lat":45.63267,"lon":12.998905,"k":"p","n":"Viale Ginepri (angolo Viale Primule)","ref":"3"},
+  {"id":11854344801,"lat":45.624627,"lon":12.958847,"k":"p"}
+],
+"routes":[
+  {"id":6745100,"t":{"ref":"1","name":"Bus 1: Autostazione → Baseleghe","from":"Autostazione","to":"Baseleghe","network":"ATVO","operator":"ATVO","route":"bus","public_transport:version":"2"},"n":26,"s":[[4513720175,24],[282643954,25],[285293080,26]]},
+  {"id":6745101,"t":{"ref":"1","name":"Bus 1: Baseleghe → Autostazione","from":"Baseleghe","to":"Autostazione","network":"ATVO","operator":"ATVO","route":"bus","public_transport:version":"2"},"n":26,"s":[[285293080,1],[285293289,2],[282643940,3]]},
+  {"id":6803600,"t":{"ref":"7","name":"Linea 7/S. Michele - Bibione","from":"S. Michele","to":"Bibione","route":"bus","public_transport:version":"2"},"n":10,"s":[[4513720175,9],[285293080,10]]},
+  {"id":6803603,"t":{"ref":"7","name":"Linea 7/Latisana - Baseleghe","from":"Latisana","to":"Baseleghe","route":"bus","public_transport:version":"2"},"n":11,"s":[[4513720175,10],[285293080,11]]},
+  {"id":6803605,"t":{"ref":"7","name":"Linea 7/Baseleghe - Latisana","from":"Baseleghe","to":"Latisana","route":"bus","public_transport:version":"2"},"n":10,"s":[[285293080,1],[282643940,2]]},
+  {"id":6803607,"t":{"ref":"7","name":"Linea 7/Baseleghe - Latisana via Bevazzana Centro","from":"Baseleghe","to":"Latisana","route":"bus","public_transport:version":"2"},"n":10,"s":[[285293080,1],[282643940,2]]},
+  {"id":9481749,"t":{"ref":"39","name":"Bus 39: Bibione-Lugugnana-Portogruaro","network":"ATVO","operator":"ATVO","route":"bus","public_transport:version":"1"},"n":48,"s":[[285293080,1],[285293289,4],[282643954,5],[282643940,6]]}
+]
+}

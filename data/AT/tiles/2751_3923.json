@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2751,3923],
+"stops":[
+  {"id":1414587701,"lat":47.598885,"lon":16.199768,"k":"x","n":"Lichtenegg Schulen"},
+  {"id":4614443220,"lat":47.599843,"lon":16.197177,"k":"p","n":"Lichtenegg Ortsmitte"},
+  {"id":4614443221,"lat":47.599862,"lon":16.197236,"k":"x","n":"Lichtenegg Ortsmitte"},
+  {"id":8081674543,"lat":47.598915,"lon":16.19975,"k":"p","n":"Lichtenegg Schulen"},
+  {"id":11253609415,"lat":47.599888,"lon":16.197312,"k":"p","n":"Lichtenegg Ortsmitte"}
+],
+"routes":[
+  {"id":11525848,"t":{"ref":"382","name":"Bus 382: Lichtenegg Ortsmitte => Hauptbahnhof","from":"Lichtenegg Ortsmitte","to":"Wiener Neustadt Hauptbahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[11253609415,1]]},
+  {"id":11525850,"t":{"ref":"382","name":"Bus 382: Wiener Neustadt Hauptbahnhof => Lichtenegg Ortsmitte","from":"Wiener Neustadt Hauptbahnhof","to":"Lichtenegg Ortsmitte","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[4614443220,25]]},
+  {"id":11526287,"t":{"ref":"389","name":"Bus 389: Lichtenegg Ortsmitte => Edlitz-Grimmenstein Bahnhof","from":"Lichtenegg Ortsmitte","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":6,"s":[[11253609415,1]]},
+  {"id":11526288,"t":{"ref":"389","name":"Bus 389: Edlitz-Grimmenstein Bahnhof => Lichtenegg Ortsmitte","from":"Edlitz-Grimmenstein Bahnhof","to":"Lichtenegg Ortsmitte","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":6,"s":[[4614443220,6]]},
+  {"id":11835385,"t":{"ref":"389","name":"Bus 389: Edlitz-Grimmenstein Bahnhof => Lichtenegg Schulen","from":"Edlitz-Grimmenstein Bahnhof","to":"Lichtenegg Schulen","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":7,"s":[[4614443220,6],[8081674543,7]]},
+  {"id":11835386,"t":{"ref":"389","name":"Bus 389: Lichtenegg Schulen => Edlitz-Grimmenstein Bahnhof","from":"Lichtenegg Schulen","to":"Edlitz-Grimmenstein Bahnhof","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":7,"s":[[8081674543,1],[11253609415,2]]},
+  {"id":11835387,"t":{"ref":"389","name":"Bus 389: Thomasberg Kienegg => Lichtenegg Schulen","from":"Thomasberg Kienegg","to":"Lichtenegg Schulen","network":"VOR","operator":"Oberger;SAD","route":"bus","public_transport:version":"2"},"n":5,"s":[[4614443220,4],[8081674543,5]]}
+]
+}

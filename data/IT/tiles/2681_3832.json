@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2681,3832],
+"stops":[
+  {"id":7951098123,"lat":44.077033,"lon":11.613229,"k":"p","n":"Marradi Ufficio Turistico"},
+  {"id":7951098124,"lat":44.074642,"lon":11.611198,"k":"p","n":"Marradi Ospedale_V","ref":"MRR081"},
+  {"id":7951098125,"lat":44.074577,"lon":11.611042,"k":"p","n":"Marradi Ospedale"},
+  {"id":7951098126,"lat":44.074054,"lon":11.612062,"k":"p","n":"Marradi Scuole"},
+  {"id":7951098127,"lat":44.073977,"lon":11.612113,"k":"p","n":"Marradi Scuole_V"},
+  {"id":7951098128,"lat":44.066861,"lon":11.603245,"k":"p","n":"Biforco","ref":"MRR08"},
+  {"id":7951098129,"lat":44.066963,"lon":11.603527,"k":"p","n":"Biforco_V","ref":"MRR02"},
+  {"id":7951209883,"lat":44.077156,"lon":11.61379,"k":"p","n":"Marradi Teatro P"},
+  {"id":7952277387,"lat":44.094543,"lon":11.63968,"k":"p","n":"Popolano_V"},
+  {"id":7952277388,"lat":44.094535,"lon":11.639382,"k":"p","n":"Popolano"},
+  {"id":7952277393,"lat":44.079758,"lon":11.618704,"k":"p","n":"Marradi Stazione Fs"},
+  {"id":7952911792,"lat":44.078422,"lon":11.616147,"k":"p","n":"Materna Marradi_V"},
+  {"id":7952911793,"lat":44.07792,"lon":11.614338,"k":"p","n":"Bivio Palazzuolo_V"},
+  {"id":7952911794,"lat":44.077916,"lon":11.61401,"k":"p","n":"Bivio Palazzuolo"},
+  {"id":13947213139,"lat":44.079692,"lon":11.618575,"k":"p"}
+],
+"routes":[
+  {"id":11682648,"t":{"name":"Bus: Marradi => Crespino del Lamone => Casaglia","from":"Marradi","to":"Casaglia","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[7951098123,1],[7951098126,2],[7951098125,3],[7951098128,4]]},
+  {"id":11682792,"t":{"name":"Bus: Casaglia => Crespino del Lamone => Marradi","from":"Casaglia","to":"Marradi","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[7951098129,6],[7951098127,7],[7951098124,8],[7951098123,9]]},
+  {"id":11684246,"t":{"name":"Bus: Fognano FS => Marradi","from":"Fognano FS","to":"Marradi","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":10,"s":[[7952277388,7],[7952277393,8],[7951209883,9],[7951098127,10]]},
+  {"id":11684247,"t":{"name":"Bus: Marradi => Fognano FS","from":"Marradi","to":"Fognano FS","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":12,"s":[[7951098126,1],[7951209883,2],[7952277393,3],[7952277387,5]]},
+  {"id":11685020,"t":{"name":"Bus: Marradi FS => Palazzuolo sul Senio","from":"Marradi FS","to":"Palazzuolo sul Senio","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":9,"s":[[7952277393,1],[7952911792,2],[7952911793,3]]},
+  {"id":11685021,"t":{"name":"Bus: Palazzuolo sul Senio => Marradi FS","from":"Palazzuolo sul Senio","to":"Marradi FS","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":8,"s":[[7952911794,7],[7952277393,8]]},
+  {"id":11685024,"t":{"name":"Bus: Marradi => Cancelli => Marradi","from":"Marradi","to":"Marradi","operator":"ColBus","route":"bus","public_transport:version":"2"},"n":4,"s":[[7951209883,1],[7952277393,2]]}
+]
+}

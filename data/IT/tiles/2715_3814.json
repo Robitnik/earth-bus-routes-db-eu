@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3814],
+"stops":[
+  {"id":393013536,"lat":45.752921,"lon":10.74914,"k":"p","n":"Campione Via Tavernini chiesa"},
+  {"id":956791999,"lat":45.751219,"lon":10.731102,"k":"p"},
+  {"id":2478244798,"lat":45.760484,"lon":10.744742,"k":"p","n":"Tremosine Pregasio"},
+  {"id":3761968044,"lat":45.789329,"lon":10.749199,"k":"p","n":"Tremosine bivio per Villa"},
+  {"id":3761968045,"lat":45.78934,"lon":10.748707,"k":"p","n":"Tremosine bivio per Villa"},
+  {"id":3761968051,"lat":45.789452,"lon":10.748665,"k":"p","n":"Tremosine bivio per Villa"},
+  {"id":3761968378,"lat":45.790696,"lon":10.747457,"k":"p"},
+  {"id":3761968392,"lat":45.790777,"lon":10.747225,"k":"p"},
+  {"id":3801129126,"lat":45.763844,"lon":10.749666,"k":"p","n":"Tremosine via Belvedere/Pralonc"},
+  {"id":3801129128,"lat":45.764125,"lon":10.749725,"k":"p","n":"Tremosine via Belvedere/Pralonc"},
+  {"id":9175018193,"lat":45.791734,"lon":10.739396,"k":"p"},
+  {"id":10000676415,"lat":45.782489,"lon":10.749427,"k":"p"},
+  {"id":12890372325,"lat":45.792705,"lon":10.742792,"k":"p","n":"Tremosine p.za. V.Veneto"},
+  {"id":12890372326,"lat":45.786608,"lon":10.735976,"k":"p","n":"Tremosine Voiandes"},
+  {"id":12890372327,"lat":45.782549,"lon":10.725575,"k":"p","n":"Tremosine Bolzone"},
+  {"id":12890372328,"lat":45.775156,"lon":10.72286,"k":"p","n":"Tremosine Sermerio"},
+  {"id":12890372329,"lat":45.764578,"lon":10.737682,"k":"p","n":"Tremosine bivio per Cadignano"},
+  {"id":12890372330,"lat":45.760821,"lon":10.742344,"k":"p","n":"Tremosine via XXV Aprile, Pregasio"},
+  {"id":12890372332,"lat":45.789612,"lon":10.744607,"k":"p","n":"Villa di Vesio bivio Limone"},
+  {"id":12890432578,"lat":45.792541,"lon":10.747113,"k":"p","n":"Tremosine via Orsino"},
+  {"id":12890432579,"lat":45.794493,"lon":10.749484,"k":"p","n":"Tremosine via Dalvra"},
+  {"id":12890502563,"lat":45.752848,"lon":10.731108,"k":"p","n":"Tignale Brabione via Bezzecca"}
+],
+"routes":[
+  {"id":19216121,"t":{"ref":"LN012","name":"Bus LN012: Tremosine->Limone->Gargnano","from":"Tremosine","to":"Gargnano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":29,"s":[[3801129126,4],[2478244798,5],[12890372330,6],[12890372329,7],[12890372328,8],[12890372327,9],[12890372326,10],[12890372325,11],[3761968045,13],[393013536,23]]},
+  {"id":19216122,"t":{"ref":"LN012","name":"Bus LN012: Gargnano->Limone->Tremosine","from":"Gargnano","to":"Tremosine","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":30,"s":[[3761968051,17],[12890372332,18],[3801129126,23],[2478244798,24],[12890372330,25],[12890372329,26],[12890372328,27],[12890372327,28],[12890372326,29],[12890372325,30]]},
+  {"id":19216683,"t":{"ref":"LN012","name":"Bus LN012: Variante: Vesio->Voltino via Campi","from":"Tremosine Pieve","to":"Limone","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":6,"s":[[12890372325,1],[12890432578,2],[12890432579,3]]},
+  {"id":19216684,"t":{"ref":"LN012","name":"Bus LN012: Variante: Voltino->Vesio via Campi","from":"Limone","to":"Tremosine Pieve","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":6,"s":[[12890432579,4],[12890432578,5],[12890372325,6]]},
+  {"id":19216685,"t":{"ref":"LN012","name":"Bus LN012: Variante: Bivio per Villa->Tremosine via Villa","from":"Limone","to":"Tremosine","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":12,"s":[[3761968044,1],[12890372325,2],[12890372326,3],[12890372327,4],[12890372328,5],[12890372329,6],[12890372330,7],[2478244798,8],[3801129128,9]]},
+  {"id":19216686,"t":{"ref":"LN012","name":"Bus LN012: Variante: Tremosine->bivio per Villa direttamente","from":"Tremosine Pieve","to":"Limone","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":4,"s":[[12890372332,3],[3761968045,4]]},
+  {"id":19216785,"t":{"ref":"LN011","name":"Bus LN011: Tgnale->Gargniano","from":"Tignale","to":"Gargniano","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":10,"s":[[12890502563,1]]},
+  {"id":19216786,"t":{"ref":"LN011","name":"Bus LN011: Gargnano->Tignale","from":"Gargnano","to":"Tignale","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":10,"s":[[12890502563,10]]},
+  {"id":19221090,"t":{"ref":"LN027","name":"Bus LN027: Riva del Garda-> Salò","from":"Riva del Garda autostazione","to":"Salò autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":33,"s":[[393013536,10]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[393013536,11]]}
+]
+}

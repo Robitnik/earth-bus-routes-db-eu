@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2710,3809],
+"stops":[
+  {"id":6137561394,"lat":45.526499,"lon":10.45603,"k":"p","n":"fermata scuolabus"},
+  {"id":6137646631,"lat":45.526089,"lon":10.457,"k":"p","n":"scuolabus"},
+  {"id":8626856888,"lat":45.525334,"lon":10.456861,"k":"p","n":"Carcago - centro"},
+  {"id":12948873430,"lat":45.549909,"lon":10.467589,"k":"p","n":"Muscoline Castrezzone"},
+  {"id":12948873431,"lat":45.547501,"lon":10.46477,"k":"p","n":"Muscoline Castrezzone industrie"},
+  {"id":12948873432,"lat":45.5465,"lon":10.452866,"k":"p","n":"Cavalgese Terzago"},
+  {"id":12964703507,"lat":45.5064,"lon":10.489342,"k":"p","n":"Padenghe - via Mazzardi,pieve"},
+  {"id":12964703508,"lat":45.506557,"lon":10.474015,"k":"p","n":"Lonato - loc. Morti della Selva, chiesa"},
+  {"id":12964703509,"lat":45.506453,"lon":10.461575,"k":"p","n":"Pedizzole - crocevia per Carzago"},
+  {"id":12964784923,"lat":45.527398,"lon":10.452159,"k":"p","n":"Carcago - via Battisti"},
+  {"id":12964784927,"lat":45.523172,"lon":10.459816,"k":"p","n":"Carcago - campagna"},
+  {"id":12964784928,"lat":45.517253,"lon":10.461987,"k":"p","n":"Carcago - polveriera"},
+  {"id":12964784929,"lat":45.506328,"lon":10.461634,"k":"p","n":"Pedizzole - crocevia per Carzago"}
+],
+"routes":[
+  {"id":6736743,"t":{"ref":"LN009","name":"Bus LN009: Padenghe->Pedizzalo->Mezzano->Rezato->Brescia","from":"Padenghe Via Barbieri","to":"Brescia Autostzione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":29,"s":[[12964703507,2],[12964703508,3],[12964703509,4]]},
+  {"id":19282819,"t":{"ref":"LN004","name":"Bus LN004: Gavardo->Muscoline->Calvagese->Muscoline->Gavardo","from":"Gavardo piazza Marconi","to":"Cavalgese piazza Roma","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":20,"s":[[12948873432,9],[12948873431,10],[12948873430,11]]},
+  {"id":19307284,"t":{"ref":"LN009","name":"Bus LN009: Brescia->Rezzato->Manzano->Pedizzole->Padenghe","from":"Brescia Autostazione","to":"Portese Via Barbieri","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":29,"s":[[12964784929,26],[12964703508,27],[12964703507,28]]},
+  {"id":19307425,"t":{"ref":"LN009-C","name":"Bus LN009-C: Calvagese->Carcago-> Pedizzole (crocevia)-","from":"Calvagese piazza Municipio","to":"Pedizzole crocevia per Carzago","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":9,"s":[[12964784923,5],[8626856888,6],[12964784927,7],[12964784928,8],[12964703509,9]]},
+  {"id":19307426,"t":{"ref":"LN009-C","name":"Bus LN009-C: Pedizzole (crocevia)->Carcago->Calvagese","from":"Pedizzole crocevia per Carzago","to":"Calvagese piazza Municipio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":9,"s":[[12964703509,1],[12964784928,2],[12964784927,3],[12964784923,4],[8626856888,5]]}
+]
+}

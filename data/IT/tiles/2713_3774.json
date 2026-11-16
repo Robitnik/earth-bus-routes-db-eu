@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2713,3774],
+"stops":[
+  {"id":440399428,"lat":45.682534,"lon":8.710946,"k":"p","n":"Somma Lombardo, Milano/Sant'Agnese 34"},
+  {"id":2356367195,"lat":45.688431,"lon":8.70154,"k":"p"},
+  {"id":2356367209,"lat":45.686262,"lon":8.712932,"k":"p"},
+  {"id":2785496833,"lat":45.681091,"lon":8.71106,"k":"p"},
+  {"id":2785496867,"lat":45.681167,"lon":8.711521,"k":"p"},
+  {"id":3232095301,"lat":45.682652,"lon":8.711021,"k":"p"},
+  {"id":4607476743,"lat":45.673092,"lon":8.745314,"k":"p"},
+  {"id":6593623990,"lat":45.650108,"lon":8.722426,"k":"p","n":"Malpensa Aeroporto T2","ref":"7"},
+  {"id":6593623991,"lat":45.650215,"lon":8.722522,"k":"x","n":"Malpensa Aeroporto T2","ref":"7"},
+  {"id":11916466585,"lat":45.689288,"lon":8.73256,"k":"p","n":"Arsago Seprio (Via Monici, 2)"},
+  {"id":11916466586,"lat":45.688288,"lon":8.732885,"k":"p","n":"Arsago Seprio (Via Matteotti, 16)"},
+  {"id":11940592611,"lat":45.685971,"lon":8.718715,"k":"p","n":"Via Vito Binaghi, 18 (Somma Lombardo)"},
+  {"id":11940592615,"lat":45.686065,"lon":8.718686,"k":"p","n":"Via Vito Binaghi, 18 (Somma Lombardo)"},
+  {"id":11985417474,"lat":45.682581,"lon":8.710974,"k":"p"},
+  {"id":13157804621,"lat":45.650196,"lon":8.722404,"k":"p","n":"Terminal 2"},
+  {"id":13970465684,"lat":45.673342,"lon":8.744526,"k":"p"},
+  {"id":14000629859,"lat":45.653618,"lon":8.724471,"k":"p","n":"P6 Smart Up (per T1-T2)"}
+],
+"routes":[
+  {"id":1891504,"t":{"ref":"A","name":"Linea A: Terminal 2 -> Terminal 1","from":"Terminal 2","to":"Terminal 1","network":"Malpensa Airport Shuttle","operator":"SEA","route":"bus","public_transport:version":"2"},"n":9,"s":[[13157804621,1]]},
+  {"id":9759646,"t":{"ref":"544","name":"Flixbus 544: Bologna, Autostazione => Torino, Vittorio Emanuele","from":"Bologna, Autostazione","to":"Torino, Vittorio Emanuele","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[6593623990,3]]},
+  {"id":9759647,"t":{"ref":"544","name":"Flixbus 544: Torino, Vittorio Emanuele => Bologna, Autostazione","from":"Torino, Vittorio Emanuele","to":"Bologna, Autostazione","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[6593623990,6]]},
+  {"id":9823714,"t":{"ref":"470","name":"Flixbus 470: Torino, Vittorio Emanuele => Zürich HB (Carpark Sihlquai)","from":"Torino, Vittorio Emanuele","to":"Zürich HB (Carpark Sihlquai)","network":"Flixbus","operator":"Morandi Tour","route":"bus","public_transport:version":"2"},"n":7,"s":[[6593623990,6]]},
+  {"id":9823715,"t":{"ref":"470","name":"Flixbus 470: Zürich HB (Carpark Sihlquai) => Torino, Vittorio Emanuele","from":"Zürich HB (Carpark Sihlquai)","to":"Torino, Vittorio Emanuele","network":"Flixbus","operator":"Morandi Tour","route":"bus","public_transport:version":"2"},"n":7,"s":[[6593623990,2]]},
+  {"id":9833446,"t":{"ref":"N492","name":"Flixbus N492: Milano, Aeroporto di Malpensa Terminal 2 => München Flughafen","from":"Milano, Aeroporto di Malpensa Terminal 2","to":"München Flughafen","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[6593623990,1]]},
+  {"id":9833447,"t":{"ref":"N492","name":"Flixbus N492: München, Flughafen => Milano, Aeroporto di Malpensa Terminal 2","from":"München, Flughafen","to":"Milano, Aeroporto di Malpensa Terminal 2","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[6593623990,3]]},
+  {"id":9881564,"t":{"ref":"495","name":"Flixbus 495: Savona, Piazza, Aldo Moro => Zürich HB, Carpark Sihlquai","from":"Savona, Piazza, Aldo Moro","to":"Zürich HB, Carpark Sihlquai","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":4,"s":[[6593623990,3]]},
+  {"id":9881565,"t":{"ref":"495","name":"Flixbus 495: Zürich HB, Carpark Sihlquai => Savona, Piazza Aldo Moro","from":"Zürich HB, Carpark Sihlquai","to":"Savona, Piazza Aldo Moro","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":4,"s":[[6593623990,2]]},
+  {"id":9881636,"t":{"ref":"474","name":"Flixbus 474: Genova, Fanti d'Italia/Principe => Lugano, Via Ciani","from":"Genova, Fanti d'Italia / Principe","to":"Lugano, Via Ciani","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[6593623990,2]]},
+  {"id":9881637,"t":{"ref":"474","name":"Flixbus 474: Lugano, Via Ciani => Genova, Fanti d'Italia / Principe","from":"Lugano, Via Ciani","to":"Genova, Fanti d'Italia / Principe","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":3,"s":[[6593623990,2]]},
+  {"id":11560985,"t":{"ref":"N474","name":"Flixbus N474: Torino, Vittorio Emanuele => Frankfurt (Main) Hauptbahnhof","from":"Torino, Vittorio Emanuele","to":"Frankfurt (Main) Hauptbahnhof","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":7,"s":[[6593623990,6]]},
+  {"id":11560986,"t":{"ref":"N474","name":"Flixbus N474: Frankfurt (Main) Hauptbahnhof => Torino, Vittorio Emanuele","from":"Frankfurt (Main) Hauptbahnhof","to":"Torino, Vittorio Emanuele","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":7,"s":[[6593623990,2]]},
+  {"id":3025203483802,"t":{"ref":"FlixBus 1470","name":"FlixBus 1470: Turin (Vittorio Emanuele) - Venice Mestre (Stazione FS)","from":"Turin (Vittorio Emanuele)","to":"Venice Mestre (Stazione FS)","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":6,"s":[[6593623990,3]]},
+  {"id":3028577567757,"t":{"ref":"FlixBus 470","name":"FlixBus 470: Turin (Vittorio Emanuele) - Lugano (Via Ciani)","from":"Turin (Vittorio Emanuele)","to":"Lugano (Via Ciani)","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":6,"s":[[6593623990,4]]},
+  {"id":3095625172373,"t":{"ref":"FlixBus 495","name":"FlixBus 495: Como - Genoa (Fanti d'Italia/Principe bus station)","from":"Como","to":"Genoa (Fanti d'Italia/Principe bus station)","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":5,"s":[[6593623990,3]]},
+  {"id":3098541015329,"t":{"ref":"FlixBus 495","name":"FlixBus 495: Genoa (Fanti d'Italia/Principe bus station) - Como","from":"Genoa (Fanti d'Italia/Principe bus station)","to":"Como","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":5,"s":[[6593623990,3]]}
+]
+}

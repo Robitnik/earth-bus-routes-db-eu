@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2720,3815],
+"stops":[
+  {"id":770561224,"lat":46.047908,"lon":10.764564,"k":"p","n":"Preore Loc. Molina"},
+  {"id":770561229,"lat":46.046109,"lon":10.758026,"k":"p","n":"Preore"},
+  {"id":770561254,"lat":46.047792,"lon":10.764648,"k":"p","n":"Preore Loc. Molina"},
+  {"id":770697936,"lat":46.049927,"lon":10.785946,"k":"p","n":"Ponte Ragoli SS237 dir. Saone","ref":"2240"},
+  {"id":770697982,"lat":46.044702,"lon":10.752376,"k":"p","n":"Preore \"loc.Signor\"","ref":"2251"},
+  {"id":4441313377,"lat":46.042493,"lon":10.766244,"k":"p","n":"Saone","ref":"2260"},
+  {"id":4441313380,"lat":46.042686,"lon":10.767169,"k":"p","n":"Saone","ref":"2260"},
+  {"id":4441313525,"lat":46.044912,"lon":10.752934,"k":"p","n":"Preore \"loc. Signor\"","ref":"2251"},
+  {"id":12881437478,"lat":46.046213,"lon":10.756777,"k":"p","n":"Preore Bivio Montagne"},
+  {"id":12881437480,"lat":46.041979,"lon":10.753578,"k":"p","n":"Zuclo Morace Antichità R"},
+  {"id":12979653651,"lat":46.046303,"lon":10.758228,"k":"p","n":"Preore"}
+],
+"routes":[
+  {"id":19205081,"t":{"ref":"B216","name":"Bus B216: Tione->Bolbeno->Ragoli->Bolbeno->Montagne","from":"Tione Autostazione","to":"Montagne, Binio","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[12881437480,9],[4441313380,10],[770561224,19],[770561229,20],[12881437478,21]]},
+  {"id":19205082,"t":{"ref":"B216","name":"Bus B216: Variante: Montagne->Tione direttamente","from":"Montagne, Binio","to":"Tione Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[12881437478,4],[770697982,5]]},
+  {"id":19205083,"t":{"ref":"B216","name":"Bus B216: Montagne->Ragoli->Bolbeno->Tione","from":"Montagen, Binio","to":"Tione Autostazione","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":23,"s":[[12881437478,4],[770561229,5],[770561254,6],[4441313380,15],[12881437480,16]]},
+  {"id":19205084,"t":{"ref":"B216","name":"Bus B216: Variante: Tione->Montagne direttamente","from":"Tione Autostazione","to":"Montagen, Binio","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":10,"s":[[4441313525,6],[12881437478,7]]},
+  {"id":19324042,"t":{"ref":"B201","name":"Bus B201: Tione->Sarche->Vazzano->Trento diretto","from":"Tione Autostazione","to":"Trento Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[12881437480,6],[4441313377,7]]},
+  {"id":19324141,"t":{"ref":"B201","name":"B201: Variante: Tione->Preore->Ragoli->Ponte Arche","from":"Tione Autostazione","to":"Ponte Arche Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[4441313525,6],[770561229,7],[770561254,8]]},
+  {"id":19324142,"t":{"ref":"B201","name":"B201: Variante: Ponte Arche->Ragoli->Preore->Tione","from":"Ponte Arche Autostazione","to":"Tione Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":13,"s":[[770561224,6],[12979653651,7],[770697982,8]]},
+  {"id":19324270,"t":{"ref":"B201","name":"Bus B201: Trento->Vignole->Vazzano->Sarche diretto","from":"Trento Autostazione","to":"Tione Autostazione","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":15,"s":[[770697936,8],[4441313380,9],[12881437480,10]]}
+]
+}

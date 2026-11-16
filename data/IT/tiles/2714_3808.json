@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3808],
+"stops":[
+  {"id":12886171134,"lat":45.73872,"lon":10.437395,"k":"p","n":"Lavenone Via Nazionale"},
+  {"id":12886171135,"lat":45.73875,"lon":10.437941,"k":"p","n":"Lavenone"},
+  {"id":12886171136,"lat":45.724742,"lon":10.428726,"k":"p","n":"Lavenone Casa Cantoniera"},
+  {"id":12886171137,"lat":45.714655,"lon":10.412972,"k":"p","n":"Vestone Loc. Capparola"},
+  {"id":12886171140,"lat":45.708149,"lon":10.403488,"k":"p","n":"Vestone Autostazione (tutti gli autobus)"},
+  {"id":13534881434,"lat":45.710019,"lon":10.404981,"k":"p","n":"Vestone v.molino-chiesa"},
+  {"id":13536054780,"lat":45.730878,"lon":10.4343,"k":"p","n":"Lavenone loc. pozza"},
+  {"id":13536317902,"lat":45.717192,"lon":10.44677,"k":"p","n":"Treviso b. (valledrane)"},
+  {"id":14170328867,"lat":45.731541,"lon":10.434204,"k":"p"},
+  {"id":14175412494,"lat":45.724841,"lon":10.428715,"k":"p","n":"Lavenone Casa Cantoniera"}
+],
+"routes":[
+  {"id":19210135,"t":{"ref":"B245","name":"Bus B245: Ponte Caffaro->Ponte Caffaro->Anfo->Vestone","from":"Ponte Caffaro","to":"Vestone Autostazioe","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":15,"s":[[12886171135,11],[12886171134,12],[12886171136,13],[12886171137,14],[12886171140,15]]},
+  {"id":19210136,"t":{"ref":"B245","name":"Bus B245: Vestone->Idro>Anfo->Ponte Caffaro","from":"Vestone Autostazioe","to":"Ponte Caffaro","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[12886171140,1],[12886171137,2],[12886171136,3],[12886171134,4],[12886171135,5]]},
+  {"id":19224354,"t":{"ref":"S202-2","name":"Bus S202-2: Salò->Roe'->Sabbio->Vestone (diramazione Brescia)","from":"Salò autostazione","to":"Vestone autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":24,"s":[[12886171140,24]]},
+  {"id":19224587,"t":{"ref":"S202-2","name":"Bus S202-2: Vestone->Sabbio->Roe'->Salò (diramazione Brescia)","from":"Vestone autostazione","to":"Salò autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":26,"s":[[12886171140,1]]},
+  {"id":20190690,"t":{"ref":"LN016","name":"Bus LN016: Pertica Alta->Vestone","from":"PERTICA ALTA - Noffo","to":"Vestone Autostazioe","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[12886171140,14]]},
+  {"id":20190691,"t":{"ref":"LN016","name":"Bus LN016: Vestone->Pertica Alta","from":"Vestone Autostazioe","to":"PERTICA ALTA - Noffo","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":14,"s":[[12886171140,1]]},
+  {"id":20191039,"t":{"ref":"LN001","name":"Bus LN001: Vestone->Pertica Bassa","from":"Vestone Scuola","to":"Pertica Bassa Avenone","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":10,"s":[[12886171140,4]]},
+  {"id":20191096,"t":{"ref":"LN001","name":"Bus LN001: Pertica Bassa->Vestone","from":"Pertica Bassa Avenone","to":"Vestone scuole","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":10,"s":[[12886171140,7]]},
+  {"id":20192396,"t":{"ref":"LN014","name":"Bus LN014: Capovalle->Vestone","from":"Capovalle piazza Mercato","to":"Vestone Autostazioe","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":16,"s":[[12886171134,12],[13536054780,13],[12886171136,14],[12886171137,15],[12886171140,16]]},
+  {"id":20192397,"t":{"ref":"LN014","name":"Bus LN014: Vestone->Capovalle","from":"Vestone Autostazioe","to":"Capovalle piazza Mercato","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":17,"s":[[12886171140,1],[12886171137,5],[12886171134,6]]},
+  {"id":20192635,"t":{"ref":"LN017","name":"Bus LN017: Provaglio Val Sabbia->Vestone","from":"Vestone Autostazione","to":"Provaglio vs. (arveaco), 19 Vestone Autostazione","operator":"Provaglio vs. (arveaco), 19","route":"bus","public_transport:version":"2"},"n":10,"s":[[12886171140,10]]},
+  {"id":20192636,"t":{"ref":"LN017","name":"Bus LN017: Vestone->Provaglio Val Sabbia","from":"Vestone Autostazione","to":"Provaglio vs. (arveaco), 19","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":10,"s":[[12886171140,1]]},
+  {"id":20192721,"t":{"ref":"LN018","name":"Bus LN018: Treviso Bresciano->Vestone","from":"Treviso b. (vico capolinea)","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":13,"s":[[13536317902,5],[12886171134,9],[13536054780,10],[12886171136,11],[12886171137,12],[12886171140,13]]},
+  {"id":20192722,"t":{"ref":"LN018","name":"Bus LN018: Vestone->Treviso Bresciano","from":"Vestone Autostazione","to":"Treviso b. (vico capolinea)","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":12,"s":[[12886171140,1],[12886171137,2],[12886171136,3],[13536054780,4],[12886171134,5]]},
+  {"id":20192853,"t":{"ref":"LN019","name":"Bus LN019: Vestone->Bione","from":"Vestone Autostazione","to":"Bione muncipio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[12886171140,1]]},
+  {"id":20193432,"t":{"ref":"LN019","name":"Bus LN019: Bione->Vestone","from":"Bione muncipio","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":23,"s":[[12886171140,23]]},
+  {"id":20193928,"t":{"ref":"LN031-V","name":"Bus LN031-V: Vestone->Mura->Vestone","from":"Mura (Capolinea), Mura","to":"Vestone Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[12886171140,20]]},
+  {"id":20193929,"t":{"ref":"LN031-V","name":"Bus LN031-V: Vestone->Mura","from":"Vestone Autostazione","to":"Mura (Capolinea), Mura","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[12886171140,1]]},
+  {"id":20199795,"t":{"ref":"LN013","name":"Bus LN013: Brescia->Odolo->Vestone->Bagolino","from":"Brescia Stazione metro Prealpino","to":"Bogolino via Mignano, stabilimenti","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":52,"s":[[12886171140,36],[12886171137,37],[12886171136,38],[13536054780,39],[12886171134,40]]},
+  {"id":20199796,"t":{"ref":"LN013","name":"Bus LN013: Bagolino->Vestone->Odolo->Brescia","from":"Bagolino via Mignano, stabilimenti","to":"Brescia Stazione metro Prealpino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":51,"s":[[12886171134,13],[13536054780,14],[12886171136,15],[12886171137,16],[12886171140,17]]},
+  {"id":20265099,"t":{"ref":"RL201V","name":"Bus RL201V Lumezzane => Vestone","from":"Lumezzane Saleri","to":"Vestone Autostazioe","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":33,"s":[[12886171140,33]]},
+  {"id":20265100,"t":{"ref":"RL201V","name":"Bus RL201V: Vestone =>Lumezzane (Gardone Val Trompia)","from":"Vestone Autostazione","to":"Lumezzane Saleri","operator":"Arriva Brescia","colour":"red","route":"bus","public_transport:version":"2"},"n":34,"s":[[12886171140,1]]}
+]
+}

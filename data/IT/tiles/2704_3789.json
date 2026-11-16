@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2704,3789],
+"stops":[
+  {"id":5507126759,"lat":45.237811,"lon":9.481167,"k":"p","n":"VILLANOVA S. Della Vittoria/XI Febbraio"},
+  {"id":5507126760,"lat":45.237848,"lon":9.481011,"k":"p","n":"VILLANOVA S. Della Vittoria/XI Febbraio"},
+  {"id":7108236920,"lat":45.240622,"lon":9.486311,"k":"p","n":"VILLANOVA S. Cascinetta - SP167"},
+  {"id":7108236921,"lat":45.240395,"lon":9.486288,"k":"p","n":"VILLANOVA S. Cascinetta - SP167"},
+  {"id":8791331920,"lat":45.24853,"lon":9.491777,"k":"p","n":"VILLANOVA S. S.Tommaso - SP167"},
+  {"id":8791331921,"lat":45.248381,"lon":9.491811,"k":"p","n":"VILLANOVA S. S.Tommaso - SP167"},
+  {"id":8807918958,"lat":45.209958,"lon":9.450537,"k":"p","n":"Graffignana - via Sant’Angelo/via Miradolo"},
+  {"id":8807918959,"lat":45.210246,"lon":9.450629,"k":"p","n":"Graffignana - via Sant’Angelo/via Miradolo"},
+  {"id":8807918960,"lat":45.205036,"lon":9.454773,"k":"p","n":"Graffignana - via San Colombano/via Roma"},
+  {"id":8807918961,"lat":45.205352,"lon":9.454385,"k":"p","n":"Graffignana - via San Colombano/via Roma"},
+  {"id":8807924542,"lat":45.202484,"lon":9.456996,"k":"p","n":"Graffignana - SP 19/Knoll International Italia"},
+  {"id":9022419958,"lat":45.213364,"lon":9.499887,"k":"p","n":"Borghetto Lodigiano - Via Mazzini/Via Garibaldi"},
+  {"id":9022419961,"lat":45.213312,"lon":9.499996,"k":"p","n":"Borghetto Lodigiano - Via Mazzini/Via Garibaldi"},
+  {"id":13687315263,"lat":45.217495,"lon":9.49903,"k":"p","n":"Borghetto Lodigiano - Via Mazzini (SP23)"},
+  {"id":13687315264,"lat":45.21669,"lon":9.499177,"k":"p","n":"Borghetto Lodigiano"},
+  {"id":13784906112,"lat":45.211422,"lon":9.49467,"k":"p","n":"Borghetto Lodigiano - Via Fossadolto/Via San Rocco"},
+  {"id":13784906113,"lat":45.211497,"lon":9.494556,"k":"p","n":"Borghetto Lodigiano - Via Fossadolto/Via San Rocco"},
+  {"id":13809589970,"lat":45.200608,"lon":9.457319,"k":"p","n":"Graffignana - Marcora/S.Colombano"},
+  {"id":13809589971,"lat":45.200491,"lon":9.457662,"k":"p","n":"Graffignana - Marcora/S.Colombano"},
+  {"id":13809589972,"lat":45.20306,"lon":9.456766,"k":"p","n":"Graffignana - SP 19/Knoll International Italia"},
+  {"id":13809589979,"lat":45.243471,"lon":9.460309,"k":"p","n":"VILLANOVA S. Monticelli S. - SP167"},
+  {"id":13809589980,"lat":45.24353,"lon":9.460284,"k":"p","n":"VILLANOVA S. Monticelli S. - SP167"}
+],
+"routes":[
+  {"id":20364121,"t":{"ref":"S006","name":"Bus S006: Lodi => San Colombano al Lambro","from":"Lodi","to":"Chignolo Po","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":19,"s":[[13687315263,9],[9022419958,10],[13784906113,11]]},
+  {"id":20385919,"t":{"ref":"S005","name":"Bus S005: San Colombano al Lambro => Milano San Donato M3","from":"San Colombano al Lambro","to":"S. Donato M3","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":18,"s":[[9022419961,4],[13784906112,5],[13687315264,6]]},
+  {"id":20610941,"t":{"ref":"S005","name":"Bus S005: Milano San Donato M3 => San Colombano al Lambro","from":"S. Donato M3","to":"San Colombano al Lambro","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":19,"s":[[13687315263,13],[13687315264,14],[9022419958,15],[13784906113,16]]},
+  {"id":20639248,"t":{"ref":"S006","name":"Bus S006: San Colombano al Lambro => Lodi","from":"San Colombano al Lambro","to":"Lodi FS","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":15,"s":[[9022419958,4],[13784906113,5],[13687315264,6]]},
+  {"id":20663216,"t":{"ref":"S013","name":"Bus S013: Graffignana => Lodi","from":"Graffignana","to":"Lodi","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":28,"s":[[13809589970,1],[8807924542,2],[8807918961,3],[8807918959,4],[13809589979,14],[5507126759,15],[7108236921,16],[8791331921,17]]},
+  {"id":20663217,"t":{"ref":"S013","name":"Bus S013: Lodi => Graffignana","from":"Lodi","to":"Graffignana","operator":"STAR Mobility","route":"bus","public_transport:version":"2"},"n":26,"s":[[8791331920,11],[7108236920,12],[5507126760,13],[13809589980,14],[8807918958,23],[8807918960,24],[13809589972,25],[13809589971,26]]}
+]
+}

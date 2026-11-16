@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2708,3798],
+"stops":[
+  {"id":5314603738,"lat":45.402716,"lon":9.914323,"k":"p"},
+  {"id":5314604193,"lat":45.400703,"lon":9.910638,"k":"p","n":"Orzinuovi - andreana"},
+  {"id":12389830584,"lat":45.400601,"lon":9.90219,"k":"p","n":"Orzinuovi - via Milano, Andreana"},
+  {"id":12389830585,"lat":45.400454,"lon":9.902454,"k":"p","n":"Orzinuovi - via Milano, Andreana"},
+  {"id":13505937097,"lat":45.405694,"lon":9.925725,"k":"p","n":"Orzinuovi - Montello/Bellometti"},
+  {"id":13505937098,"lat":45.407503,"lon":9.92593,"k":"p","n":"Orzinuovi - via Francesca"},
+  {"id":13506020415,"lat":45.4075,"lon":9.926037,"k":"p","n":"Orzinuovi - via Francesca"},
+  {"id":13508794226,"lat":45.400693,"lon":9.921746,"k":"p","n":"Orzinuovi - via XXIV Maggio"},
+  {"id":13510269079,"lat":45.40011,"lon":9.927612,"k":"p","n":"Orzinuovi - v.le Bainsizza"},
+  {"id":13514009348,"lat":45.405173,"lon":9.926396,"k":"p","n":"Orzinuovi - Piave/Montello"},
+  {"id":13514009349,"lat":45.409743,"lon":9.933734,"k":"p","n":"Orzinuovi - carrefour"},
+  {"id":13514150987,"lat":45.409384,"lon":9.933443,"k":"p","n":"Orzinuovi - carrefour"},
+  {"id":13514150988,"lat":45.405275,"lon":9.92642,"k":"p","n":"Orzinuovi - Piave/Montello"},
+  {"id":13514863346,"lat":45.449224,"lon":9.932007,"k":"p","n":"Ludriano - via Fornace Vecchia"},
+  {"id":13514863347,"lat":45.449207,"lon":9.932139,"k":"p","n":"Ludriano - via Fornace Vecchia"},
+  {"id":13514863348,"lat":45.446472,"lon":9.935119,"k":"p","n":"Ludriano - p.zza Vittoria"},
+  {"id":13937742248,"lat":45.400824,"lon":9.910693,"k":"p","n":"Orzinuovi - andreana"}
+],
+"routes":[
+  {"id":20145655,"t":{"ref":"LS005","name":"Bus LS005: Palazzolo => Orzinuovi","from":"Palazzolo - via Torre del Popolo","to":"Orzinuovi - Andreana","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":23,"s":[[13505937098,21],[13505937097,22],[12389830584,23]]},
+  {"id":20145656,"t":{"ref":"LS005","name":"Bus LS005: Orzinuovi => Palazzolo","from":"Orzinuovi - Andreana","to":"Palazzolo - via Torre del Popolo","network":"Arriva","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":21,"s":[[5314604193,1],[13506020415,2]]},
+  {"id":20148738,"t":{"ref":"LS009","name":"Bus LS009: Orzinuovi->Villachiara->Orzinuovi (antiorario)","from":"Orzinuovi - Andreana","to":"Orzinuovi - Andreana","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":15,"s":[[5314604193,1,15],[13508794226,2,14]]},
+  {"id":20148739,"t":{"ref":"LS009","name":"Bus LS009: Orzinuovi->Villachiara->Orzinuovi (in senso orario)","from":"Orzinuovi - Andreana","to":"Orzinuovi - Andreana","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":15,"s":[[5314604193,1,15],[13508794226,2,14]]},
+  {"id":20150470,"t":{"ref":"LS010","name":"Bus LS010: Orzinuovi->Barbariga->Brandico->Brescia","from":"Orzinuovi - via XXIV Maggio","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13508794226,1],[13510269079,3]]},
+  {"id":20150471,"t":{"ref":"LS010","name":"Bus LS010: Brescia->Brandico-> Barbariga->Orzinuovi","from":"Brescia Autostazione Solferino","to":"Orzinuovi - via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":31,"s":[[13510269079,29],[13508794226,31]]},
+  {"id":20153297,"t":{"ref":"LS011","name":"Bus LS011: Manerbio->Bargnano->Orzinuovi","from":"MANERBIO - Via Karl Marx Istituto Polivalente","to":"Orzinuovi - Via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13508794226,19]]},
+  {"id":20153298,"t":{"ref":"LS011","name":"Bus LS011: Orzinuovi->Bargnano->Manerbio","from":"Orzinuovi - Andreana","to":"MANERBIO - Via Karl Marx Istituto Polivalente","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":18,"s":[[5314604193,1],[13508794226,2]]},
+  {"id":20156065,"t":{"ref":"RL203B","name":"Bus RL203B: Brescia => Soncino","from":"Brescia Autostazione","to":"Soncino Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":40,"s":[[13514009349,31],[13514009348,32],[13510269079,33],[13508794226,35],[12389830584,36]]},
+  {"id":20156403,"t":{"ref":"RL203B","name":"Bus RL203B: Soncino->Brescia","from":"Soncino Autostazione","to":"Brescia Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[12389830585,4],[13508794226,5],[13510269079,7],[13514150988,8],[13505937097,9],[13514150987,10]]},
+  {"id":20157687,"t":{"ref":"RL203A","name":"Bus RL203A: Rudiano->Cizzago->Maclodio->Brescia","from":"Rudiano Via Brescia 21","to":"Rudiano Via Brescia 21","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":43,"s":[[13514863346,7],[13514863348,8],[13514863347,9]]},
+  {"id":20157688,"t":{"ref":"RL203A","name":"Bus RL203A: Brescia->Maclodio->Cizzago->Rudiano","from":"Brescia Autostazione","to":"Rudiano Via Brescia 21","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":44,"s":[[13514863346,36],[13514863348,37],[13514863347,38]]}
+]
+}

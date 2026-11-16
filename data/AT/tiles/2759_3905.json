@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2759,3905],
+"stops":[
+  {"id":6008310718,"lat":47.950574,"lon":15.259623,"k":"x","n":"Winterbach Abzweigung Frankenfels"},
+  {"id":7744039384,"lat":47.950528,"lon":15.259637,"k":"p","n":"Winterbach Abzweigung Frankenfels"},
+  {"id":7744072185,"lat":47.950638,"lon":15.259611,"k":"p","n":"Winterbach Abzweigung Frankenfels"},
+  {"id":7744561402,"lat":47.952142,"lon":15.285021,"k":"x","n":"Laubenbachmühle Bahnhof"},
+  {"id":7744561403,"lat":47.952086,"lon":15.285165,"k":"p","n":"Laubenbachmühle Bahnhof"}
+],
+"routes":[
+  {"id":11492000,"t":{"ref":"654","name":"Bus 654: Scheibbs Bahnhof => Laubenbachmühle Bahnhof","from":"Scheibbs Bahnhof","to":"Laubenbachmühle Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":14,"s":[[7744039384,13],[7744561403,14]]},
+  {"id":11492001,"t":{"ref":"654","name":"Bus 654: Scheibbs Bahnhof => Winterbach Abzweigung Bahnhof => Laubenbachmühle Bahnhof","from":"Scheibbs Bahnhof","to":"Laubenbachmühle Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[7744039384,13],[7744561403,15]]},
+  {"id":11492004,"t":{"ref":"654","name":"Bus 654: Scheibbsbach Töpperpark => Puchenstuben Postamt","from":"Scheibbsbach Töpperpark","to":"Puchenstuben Postamt","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":14,"s":[[7744039384,11]]},
+  {"id":11492005,"t":{"ref":"654","name":"Bus 654: Scheibbsbach Töpperpark => Scheibbs Bahnhof => Puchenstuben Postamt","from":"Scheibbsbach Töpperpark","to":"Puchenstuben Postamt","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[7744039384,12]]},
+  {"id":11492058,"t":{"ref":"654","name":"Bus 654: Puchenstuben Postamt => Scheibbs Bahnhof","from":"Puchenstuben Postamt","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":16,"s":[[7744072185,4]]},
+  {"id":11492059,"t":{"ref":"654","name":"Bus 654: Laubenbachmühle Bahnhof => Winterbach Abzweigung Bahnhof => Scheibbs Bahnhof","from":"Laubenbachmühle Bahnhof","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":15,"s":[[7744561403,1],[7744072185,3]]},
+  {"id":11492060,"t":{"ref":"654","name":"Bus 654: Laubenbachmühle Bahnhof => Scheibbs Bahnhof","from":"Laubenbachmühle Bahnhof","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":14,"s":[[7744561403,1],[7744072185,2]]},
+  {"id":11492061,"t":{"ref":"654","name":"Bus 654: Frankenfels Ortsmitte => Scheibbs Bahnhof","from":"Frankenfels Ortsmitte","to":"Scheibbs Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":16,"s":[[7744561403,3],[7744072185,4]]}
+]
+}

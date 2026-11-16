@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2712,3812],
+"stops":[
+  {"id":393013600,"lat":45.642993,"lon":10.61515,"k":"p","n":"Toscolano centro commerciale"},
+  {"id":614881979,"lat":45.636772,"lon":10.604891,"k":"p","n":"Maderno Via Statale sottopasso"},
+  {"id":4309636296,"lat":45.640463,"lon":10.608631,"k":"p","n":"Maderno (Toscolano) ponte"},
+  {"id":4309658263,"lat":45.640536,"lon":10.608389,"k":"p","n":"Maderno (Toscolano) ponte"},
+  {"id":9062523809,"lat":45.635005,"lon":10.601575,"k":"p","n":"Maderno"},
+  {"id":12894209200,"lat":45.644588,"lon":10.617074,"k":"p","n":"Toscolano chiesa"},
+  {"id":12894260592,"lat":45.642721,"lon":10.614188,"k":"p","n":"Toscolano scuole medie"},
+  {"id":13045144331,"lat":45.636508,"lon":10.604761,"k":"p"}
+],
+"routes":[
+  {"id":9606130,"t":{"ref":"LN027","name":"Bus LN027: Salò->Riva del Garda","from":"Salò autostazione","to":"Riva del Garda autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[614881979,11],[4309636296,12],[393013600,13],[12894209200,14]]},
+  {"id":13163886,"t":{"name":"SLink 202","from":"Brescia-Via-Solferino-Autostazione","to":"Riva del Garda / Vestone","network":"Arriva","operator":"Arriva","route":"bus"},"n":2,"s":[[9062523809,2]]},
+  {"id":13164015,"t":{"ref":"027","name":"LN027","from":"Desenzano Stazione","to":"Riva del Garda-Autostazione","operator":"DB Arriva","route":"bus"},"n":2,"s":[[9062523809,2]]},
+  {"id":19221090,"t":{"ref":"LN027","name":"Bus LN027: Riva del Garda-> Salò","from":"Riva del Garda autostazione","to":"Salò autostazione","network":"Arriva","operator":"arriva","route":"bus","public_transport:version":"2"},"n":33,"s":[[12894209200,20],[12894260592,21],[4309658263,22],[614881979,23]]},
+  {"id":19222139,"t":{"ref":"S202-1","name":"Bus S202-1: Brescia->Salò->Gargnano->Riva","from":"Brescia autostazione via Solferino","to":"Riva autostazione","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":72,"s":[[614881979,48],[4309636296,49],[393013600,50],[12894209200,51]]},
+  {"id":19223342,"t":{"ref":"S202-1","name":"Bus S202-1: Riva->Gargnano->Salò->Brescia","from":"Riva autostazione","to":"Riva autostazioneBrescia autostazione via Solferino","operator":"Trasporti Brescia Nord","route":"bus","public_transport:version":"2"},"n":67,"s":[[12894209200,21],[12894260592,22],[4309658263,23],[614881979,24]]}
+]
+}

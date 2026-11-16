@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2722,3835],
+"stops":[
+  {"id":2169733455,"lat":46.14765,"lon":11.75818,"k":"p","n":"Passo Gobbera","ref":"5112"},
+  {"id":2169733462,"lat":46.14762,"lon":11.75764,"k":"p","n":"Passo Gobbera","ref":"40011"},
+  {"id":2258926848,"lat":46.14055,"lon":11.77364,"k":"p","n":"Imer - Loc. Busarel","ref":"45732"},
+  {"id":2258926851,"lat":46.14978,"lon":11.79168,"k":"p","n":"Imer Via Nazionale 144","ref":"45306"},
+  {"id":2258926852,"lat":46.148726,"lon":11.796624,"k":"p","n":"Imer Zona Sportiva","ref":"45790"},
+  {"id":2258926881,"lat":46.14536,"lon":11.78607,"k":"p","n":"Masi di Imer","ref":"40009"},
+  {"id":2258926884,"lat":46.14527,"lon":11.78575,"k":"p","n":"Masi di Imer","ref":"5111"},
+  {"id":2258926944,"lat":46.10673,"lon":11.77404,"k":"p","n":"Pontet","ref":"5100"},
+  {"id":2258927026,"lat":46.131426,"lon":11.769032,"k":"p","n":"S.Silvestro","ref":"40002"},
+  {"id":7156352354,"lat":46.131465,"lon":11.768882,"k":"p","n":"S.Silvestro"},
+  {"id":7156605204,"lat":46.149354,"lon":11.791191,"k":"p","n":"Imer Via Nazionale 144"},
+  {"id":7156683577,"lat":46.140512,"lon":11.773777,"k":"p","n":"Busarel"}
+],
+"routes":[
+  {"id":19366207,"t":{"ref":"B501","name":"Bus B501: Feltre->Fiera di Primero->S.Martino di Castrozza","from":"Feltre Stazione FS","to":"S.Martino di Castrozza","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":38,"s":[[2258926944,15],[2258927026,16],[7156683577,17],[2258926881,18],[2258926851,19]]},
+  {"id":19366208,"t":{"ref":"B501","name":"Bus B501: S.Martino di Castrozza->Fiera di Primero->Feltre","from":"S.Martino di Castrozza","to":"Feltre Stazione FS","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":40,"s":[[7156605204,21],[2258926881,22],[7156352354,23],[2258926848,24],[2258926944,25]]},
+  {"id":19368438,"t":{"ref":"B506","name":"Bus B506: Caoria->Lago Calaita->Canal S.Bovo->Fiera di P.","from":"Caoria","to":"Fiera di Primero","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[2169733462,17]]},
+  {"id":19368439,"t":{"ref":"B506","name":"Bus B506: Fiera di P.->Canal S.Bovo->Lago Calaita->Caoria","from":"Fiera di Primero","to":"Caoria","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":24,"s":[[2169733455,8]]},
+  {"id":19368504,"t":{"ref":"B506","name":"Bus B506: Variante: Canal S.Bovo->Imer diretto","from":"Canal S.Bovo","to":"Imer","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[2258926848,4],[2258926881,5],[2258926851,6]]},
+  {"id":19368505,"t":{"ref":"B506","name":"Bus B506: Variante: Imer->Canal S.Bovo diretto","from":"Imer","to":"Canal S.Bovo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":7,"s":[[7156605204,2],[2258926884,3],[2258926848,4]]},
+  {"id":19369135,"t":{"ref":"B503","name":"Bus B503: Agordo->Passo Cereda->Fiera P->Caoria","from":"Sagron","to":"(Caoria) Imer","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":34,"s":[[7156605204,25],[2258926884,26],[2258926848,27]]},
+  {"id":19369136,"t":{"ref":"B503","name":"Bus B503: Caoria->Fiera P.->Passo Cereda->Agordo","from":"(Caoria) Imer","to":"Sagron","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":34,"s":[[7156683577,8],[2258926881,9],[2258926851,10]]},
+  {"id":19369557,"t":{"ref":"B511","name":"Bus B511: Canal S.B.->P.Imer->Fiero->Siror","from":"Canal San Bovo","to":"Siror","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[7156683577,3],[2258926881,4],[2258926851,5]]},
+  {"id":19369558,"t":{"ref":"B511","name":"Bus B511: Siror->Fiero->P.Imer->Canal S.B.","from":"Siror","to":"Canal San Bovo","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":16,"s":[[7156605204,12],[2258926884,13],[2258926848,14]]},
+  {"id":19375800,"t":{"ref":"B514","name":"Bus B514: Trento->Borgo V.->Arten->Fiera di P.->S.M.di Castrozza","from":"Borgo Valsugano C.Intermodale","to":"San Martino di Castrozza","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":33,"s":[[2258926944,10],[2258927026,11],[7156683577,12],[2258926881,13],[2258926851,14]]},
+  {"id":19375875,"t":{"ref":"B514","name":"Bus B514: S.M.di Castrozza->Fiera di P.>Arten->Borgo V.->Fiera di P.->Trento","from":"San Martino di Castrozza","to":"Valsugano C.Intermodale","network":"Servizio Extraurbano","operator":"Trentino Trasporti","route":"bus","public_transport:version":"2"},"n":33,"s":[[7156605204,20],[2258926884,21],[7156683577,22],[2258926848,23],[7156352354,24],[2258926944,25]]}
+]
+}

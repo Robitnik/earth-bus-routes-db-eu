@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2703,3800],
+"stops":[
+  {"id":10159329895,"lat":45.150499,"lon":10.00188,"k":"p","n":"Cremona, Via Seminario, Itis"},
+  {"id":11218605062,"lat":45.151076,"lon":10.030401,"k":"p"},
+  {"id":11888588413,"lat":45.154188,"lon":10.005053,"k":"p"},
+  {"id":11888588414,"lat":45.154327,"lon":10.0051,"k":"p"},
+  {"id":11888588415,"lat":45.152845,"lon":10.006907,"k":"p"},
+  {"id":11888588416,"lat":45.152907,"lon":10.007093,"k":"p","n":"Cremona, Via Bergamo, 131"},
+  {"id":12213551682,"lat":45.150086,"lon":10.032595,"k":"p"},
+  {"id":13404738410,"lat":45.155381,"lon":10.038671,"k":"p","n":"Cremona-v.brescia"},
+  {"id":13404738411,"lat":45.173561,"lon":10.044704,"k":"p","n":"Persico dosimo-bettenesco-bv v.cremona"},
+  {"id":13404738412,"lat":45.17998,"lon":10.046911,"k":"p","n":"Persico dosimo-Bettensco ss45 bis"},
+  {"id":13450932486,"lat":45.179645,"lon":10.046866,"k":"p","n":"Bettenesco, Via Brescia, 11"},
+  {"id":13450932487,"lat":45.173485,"lon":10.044728,"k":"p","n":"Bettenesco, S.P. Ex SS45 bis"},
+  {"id":13450932488,"lat":45.154222,"lon":10.038476,"k":"p","n":"Cremona, Via Brescia, 227 S.P. Ex S.S.45"},
+  {"id":13450932489,"lat":45.154239,"lon":10.038264,"k":"p","n":"Cremona, S.P. Ex S.S.45 Bis"},
+  {"id":13450932490,"lat":45.173529,"lon":10.044594,"k":"p","n":"Bettenesco, S.P. Ex S.S.45 bis, Via Cr"},
+  {"id":13450932491,"lat":45.179927,"lon":10.046833,"k":"p","n":"Bettenesco, Via Brescia"},
+  {"id":13452731034,"lat":45.153172,"lon":10.010025,"k":"p","n":"Cremona, Via Bergamo, 142"},
+  {"id":13452731035,"lat":45.161403,"lon":10.011184,"k":"p","n":"Cremona, Migliaro, Via Bergamo"},
+  {"id":13452731036,"lat":45.1752,"lon":10.003427,"k":"p","n":"Cremona, Crocetta, Via Bergamo , 366"},
+  {"id":13452825052,"lat":45.161377,"lon":10.011533,"k":"p","n":"Migliaro, Via Bergamo, 221"},
+  {"id":13452825064,"lat":45.175155,"lon":10.003942,"k":"p","n":"Cremona, Crocetta Alta, Via Bergamo, 365"},
+  {"id":13452825065,"lat":45.153142,"lon":10.010374,"k":"p","n":"Cremona, Via Bergamo, 131"}
+],
+"routes":[
+  {"id":20003896,"t":{"ref":"LS013","name":"Bus LS013: Brescia => Manerbio => Cremona","from":"Brescia autostatione","to":"Cremona autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[13404738412,40],[13404738411,41],[13404738410,42]]},
+  {"id":20004357,"t":{"ref":"LS013","name":"Bus LS013: Cremona => Manobio => Brescia","from":"Cremona autostazione","to":"Brescia autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":44,"s":[[13404738410,3],[13404738411,4],[13404738412,5]]},
+  {"id":20079221,"t":{"ref":"K214","name":"Bus K214: Cremona => Pontevicio => Pavone Mella => Brescia","from":"Cremona Autostazione","to":"Pontevicio","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":24,"s":[[13450932488,4],[13450932487,5],[13450932486,6]]},
+  {"id":20079222,"t":{"ref":"K214","name":"Bus K214: Brescia => Pavone Mella => Pontevicio => Cremona","from":"Pontevicio","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":19,"s":[[13450932491,14],[13450932490,15],[13450932489,16]]},
+  {"id":20081901,"t":{"ref":"K209","name":"Bus K209: Quinzano => Casalbuttano => Cremona","from":"Quinzano d'Oglio","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":25,"s":[[13452731036,22],[13452731035,23],[13452731034,24]]},
+  {"id":20082088,"t":{"ref":"K209","name":"Bus K209: Cremona => Casalbuttano => Quinzano","from":"Cremona Autostazione","to":"Quinzano d'Oglio","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":27,"s":[[13452825065,3],[13452825052,4],[13452825064,5]]},
+  {"id":20082395,"t":{"ref":"K210","name":"Bus K210: Soresina => Paderno => Cremona","from":"Soresina Piazza della Republica","to":"Cremona Autostazione","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":21,"s":[[13452731036,15],[13452731035,16],[13452731034,17],[10159329895,18]]},
+  {"id":20084187,"t":{"ref":"K210","name":"Bus K210: Cremona =>Paderno => Soresina","from":"Cremona Autostazione","to":"Soeesina Piazza della Republica","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":20,"s":[[11888588416,3],[13452825052,4],[13452825064,5]]}
+]
+}

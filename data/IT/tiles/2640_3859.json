@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2640,3859],
+"stops":[
+  {"id":2559999243,"lat":42.023182,"lon":12.989425,"k":"p","n":"Bivio per Anticoli C./Roviano"},
+  {"id":2559999244,"lat":42.035806,"lon":12.951554,"k":"p","n":"Bivio per Cineto"},
+  {"id":2559999245,"lat":42.035857,"lon":12.952303,"k":"p","n":"Bivio per Cineto"},
+  {"id":2559999246,"lat":42.035882,"lon":12.951634,"k":"p","n":"Bivio per Cineto"},
+  {"id":2559999247,"lat":42.036018,"lon":12.952251,"k":"p","n":"Bivio per Cineto"},
+  {"id":2559999278,"lat":42.02079,"lon":12.994149,"k":"p","n":"Tiburtina km 56.000"},
+  {"id":2559999279,"lat":42.020906,"lon":12.994253,"k":"p","n":"Tiburtina km 56.000"},
+  {"id":2562059514,"lat":42.00583,"lon":12.952231,"k":"p","n":"Campo Sportivo"},
+  {"id":2562059519,"lat":42.006001,"lon":12.952189,"k":"p","n":"Campo Sportivo"},
+  {"id":2562059522,"lat":42.002798,"lon":12.953844,"k":"s","n":"Saracinesco - Piazza G. Ferraris"},
+  {"id":2562089329,"lat":42.046,"lon":12.9552,"k":"p","n":"Cimitero"},
+  {"id":2562089332,"lat":42.046141,"lon":12.9553,"k":"p","n":"Cimitero"},
+  {"id":2562089334,"lat":42.049573,"lon":12.961853,"k":"s","n":"Cineto Romano - Via G. Verdi"},
+  {"id":2830340718,"lat":42.023358,"lon":12.989477,"k":"p","n":"Bivio Roviano"},
+  {"id":4086609845,"lat":42.023432,"lon":12.989967,"k":"p","n":"BIVIO PER ROVIANO (Tiburtina)"},
+  {"id":4086609846,"lat":42.02356,"lon":12.989914,"k":"p","n":"BIVIO PER ROVIANO (Tiburtina)"},
+  {"id":4086609847,"lat":42.026028,"lon":12.994464,"k":"p","n":"ROVIANO (p.zza della Repubblica)"},
+  {"id":4086609848,"lat":42.023656,"lon":12.99449,"k":"p","n":"Roviano, vle Trieste"},
+  {"id":4086609849,"lat":42.023759,"lon":12.994532,"k":"p","n":"Roviano, vle Trieste"}
+],
+"routes":[
+  {"id":3354135,"t":{"ref":"CoTraL L0001","name":"Co.Tra.L. L0001 (Roma Ponte Mammolo → Camerata Nuova)","from":"Roma Ponte Mammolo","to":"Camerata Nuova","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":31,"s":[[2559999245,9],[2559999243,10],[2559999278,11]]},
+  {"id":3354191,"t":{"ref":"CoTraL L0001","name":"Co.Tra.L. L0001 (Camerata Nuova → Roma Ponte Mammolo)","from":"Roma Ponte Mammolo","to":"Camerata Nuova","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":30,"s":[[2559999279,21],[2559999247,22]]},
+  {"id":3356975,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Mandela Scalo Stazione → Saracinesco)","from":"Mandela Scalo Stazione","to":"Saracinesco","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":3,"s":[[2562059519,2],[2562059522,3]]},
+  {"id":3356981,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Cineto Romano → Mandela Scalo Stazione)","from":"Cineto Romano","to":"Mandela Scalo Stazione","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":7,"s":[[2562089334,1],[2562089332,2],[2559999244,3]]},
+  {"id":3357001,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Mandela Scalo Stazione → Cineto Romano)","from":"Mandela Scalo Stazione","to":"Cineto Romano","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":7,"s":[[2559999246,5],[2562089329,6],[2562089334,7]]},
+  {"id":3357034,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Saracinesco → Mandela Scalo Stazione)","from":"Saracinesco","to":"Mandela Scalo Stazione","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":3,"s":[[2562059522,1],[2562059514,2]]},
+  {"id":6091926,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Bivio per Roviano → Roviano)","from":"Bivio per Roviano","to":"Roviano","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":3,"s":[[4086609845,1],[4086609849,2],[4086609847,3]]},
+  {"id":6091927,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Roviano → Bivio per Roviano)","from":"Roviano","to":"Bivio per Roviano","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":3,"s":[[4086609847,1],[4086609848,2],[4086609846,3]]},
+  {"id":6092084,"t":{"ref":"CoTraL L3005","name":"Co.Tra.L. L3005 (Cineto → Roviano)","from":"Cineto Romano","to":"Roviano","network":"Co.Tra.L.","operator":"Co.Tra.L.","colour":"blue","route":"bus"},"n":7,"s":[[2562089334,1],[2562089332,2],[2559999244,3],[2559999243,4],[4086609845,5],[4086609849,6],[4086609847,7]]}
+]
+}

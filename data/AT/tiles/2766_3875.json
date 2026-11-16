@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"AT",
+"tile":[2766,3875],
+"stops":[
+  {"id":5678476361,"lat":48.345198,"lon":13.770915,"k":"x"},
+  {"id":5678476362,"lat":48.345258,"lon":13.770885,"k":"p"},
+  {"id":9458222731,"lat":48.345395,"lon":13.771978,"k":"p","n":"Peuerbach Graben"},
+  {"id":9458222732,"lat":48.340551,"lon":13.76791,"k":"p","n":"Peuerbach Ernst-Dreefs-Straße"},
+  {"id":9458222733,"lat":48.337856,"lon":13.770519,"k":"p","n":"Peuerbach Bahnhof"},
+  {"id":9458222734,"lat":48.344816,"lon":13.77103,"k":"p","n":"Peuerbach Hauptstraße"},
+  {"id":9458222735,"lat":48.344581,"lon":13.771152,"k":"p","n":"Peuerbach Hauptstraße"},
+  {"id":10302724632,"lat":48.345053,"lon":13.78294,"k":"p","n":"Peuerbach Lilienstraße"},
+  {"id":10302724633,"lat":48.345132,"lon":13.782657,"k":"p","n":"Peuerbach Lilienstraße"},
+  {"id":10308879991,"lat":48.334441,"lon":13.771332,"k":"p","n":"Peuerbach Grieskirchner Straße"},
+  {"id":10308879992,"lat":48.33376,"lon":13.771602,"k":"p","n":"Peuerbach Grieskirchner Straße"},
+  {"id":10308879993,"lat":48.327696,"lon":13.772997,"k":"p","n":"Bruck an der Aschach Ort"},
+  {"id":10308879994,"lat":48.327812,"lon":13.772553,"k":"p","n":"Bruck an der Aschach Ort"},
+  {"id":10308879995,"lat":48.323217,"lon":13.774377,"k":"p","n":"Bruck Gewerbegebiet"},
+  {"id":10308879996,"lat":48.323169,"lon":13.774251,"k":"p","n":"Bruck Gewerbegebiet"},
+  {"id":10308880000,"lat":48.309248,"lon":13.769569,"k":"p","n":"Bruck Hub"},
+  {"id":10308880001,"lat":48.309321,"lon":13.769367,"k":"p","n":"Bruck Hub"},
+  {"id":10308880002,"lat":48.302123,"lon":13.764281,"k":"p","n":"Bruck Eckartsroith"},
+  {"id":10308880003,"lat":48.302498,"lon":13.764314,"k":"p","n":"Bruck Eckartsroith"}
+],
+"routes":[
+  {"id":13735686,"t":{"ref":"820","name":"Bus 820: Peuerbach - Raab","from":"Peuerbach Bahnhof","to":"Raab Kommuneplatz","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[9458222733,1],[9458222735,2],[9458222734,3]]},
+  {"id":13735690,"t":{"ref":"820","name":"Bus 820: Raab - Peuerbach","from":"Raab Kommuneplatz","to":"Peuerbach Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":6,"s":[[9458222735,5],[9458222733,6]]},
+  {"id":15081972,"t":{"ref":"670","name":"Bus 670: Variante aus Peuerbach (Richtung Linz)","from":"Peuerbach Hauptstraße","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":8,"s":[[9458222735,1],[10302724632,2]]},
+  {"id":15088942,"t":{"ref":"690","name":"Bus 690: Variante nach Dachsberg (aus Neukirchen am Walde kommend)","to":"Dachsberg Gymnasium","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":9,"s":[[10302724632,1]]},
+  {"id":15088944,"t":{"ref":"690","name":"Bus 690: Waldkirchen/Wesen - Peuerbach - Grieskirchen","from":"Waldkirchen am Wesen Aichberg","to":"Grieskirchen Bahnhof","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":28,"s":[[9458222735,11],[9458222733,12],[10308879991,13],[10308879994,14],[10308879996,15],[10308880001,16],[10308880002,17]]},
+  {"id":15088950,"t":{"ref":"690","name":"Bus 690: Variante aus Dachsberg (Richtung Neukirchen am Walde)","from":"Dachsberg Gymnasium","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":12,"s":[[10302724633,10],[9458222731,11],[9458222735,12]]},
+  {"id":15088951,"t":{"ref":"690","name":"Bus 690: Grieskirchen - Peuerbach - Waldkirchen/Wesen","from":"Grieskirchen Fa. Pöttinger/Werkseinfahrt","to":"Waldkirchen am Wesen Aichberg","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":30,"s":[[10308880003,14],[10308880000,15],[10308879995,16],[10308879993,17],[10308879992,18],[9458222733,19],[9458222734,20]]},
+  {"id":15089700,"t":{"ref":"699","name":"Bus 699: Peuerbach - Eferding - Linz voestalpine","from":"Peuerbach Ernst-Dreefs-Straße","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":35,"s":[[9458222732,1],[9458222735,2],[10302724632,3]]},
+  {"id":15089701,"t":{"ref":"699","name":"Bus 699: Linz voestalpine - Eferding - Peuerbach","from":"Linz voestalpine","to":"Peuerbach Ernst-Dreefs-Straße","network":"Oberösterreichischer Verkehrsverbund","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":36,"s":[[10302724633,35],[9458222732,36]]},
+  {"id":15089704,"t":{"ref":"697","name":"Bus 697: Neukirchen/Walde - Eferding - Linz voestalpine","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":31,"s":[[9458222735,6],[10302724632,7]]},
+  {"id":15089705,"t":{"ref":"697","name":"Bus 697: Linz voestalpine - Eferding - Neukirchen/Walde","from":"Linz voestalpine","to":"St. Agatha Ortsmitte","operator":"Postbus","route":"bus","public_transport:version":"2"},"n":33,"s":[[10302724633,27],[9458222731,28]]}
+]
+}

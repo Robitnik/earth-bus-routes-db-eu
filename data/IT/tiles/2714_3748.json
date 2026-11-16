@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2714,3748],
+"stops":[
+  {"id":303734206,"lat":45.740751,"lon":7.412161,"k":"x","n":"Quart Villefranche SS26"},
+  {"id":303735887,"lat":45.740165,"lon":7.441089,"k":"x","n":"SS26 - Bivio St.Marcel"},
+  {"id":1039051171,"lat":45.734333,"lon":7.402943,"k":"x","n":"Bivio Petit Banc"},
+  {"id":1400870997,"lat":45.740157,"lon":7.439634,"k":"x","n":"SS26 - Bivio St.Marcel"},
+  {"id":1776247348,"lat":45.740402,"lon":7.411879,"k":"x","n":"Quart Villefranche SS26"},
+  {"id":2513319809,"lat":45.73803,"lon":7.41709,"k":"x","n":"Bivio Quart"},
+  {"id":2513319810,"lat":45.738036,"lon":7.417231,"k":"x","n":"Bivio Quart"},
+  {"id":2516127565,"lat":45.73667,"lon":7.407727,"k":"x","n":"Passerin"},
+  {"id":2516130869,"lat":45.734493,"lon":7.415917,"k":"x","n":"Pâcou"},
+  {"id":2516135628,"lat":45.732108,"lon":7.414464,"k":"x","n":"Neyran"},
+  {"id":6461570450,"lat":45.738065,"lon":7.417451,"k":"p"},
+  {"id":14338981010,"lat":45.739609,"lon":7.423892,"k":"p","n":"Villefranche Est/A"}
+],
+"routes":[
+  {"id":3303109,"t":{"ref":"1","name":"Bus 1: Aosta => Brissogne","from":"Piazza Manzetti","to":"Neyran","operator":"SVAP","route":"bus","public_transport:version":"2"},"n":32,"s":[[1039051171,28],[2516127565,29],[2513319809,30],[2516130869,31],[2516135628,32]]},
+  {"id":6376434,"t":{"ref":"1","name":"Bus 1: Brissogne => Aosta","from":"Neyran","to":"Aosta","operator":"SVAP","route":"bus","public_transport:version":"2"},"n":32,"s":[[2516135628,1],[2516130869,2],[2513319810,3],[2516127565,4],[1039051171,5]]},
+  {"id":8350157,"t":{"ref":"110","name":"Bus 110: Aosta => Pont-Saint-Martin","from":"Aosta Autostazione platform 7","to":"Pont-Saint-Martin FS","network":"Vallée d'Aoste Transports","operator":"Arriva; V.I.T.A. SpA","route":"bus","public_transport:version":"2"},"n":45,"s":[[1776247348,9],[303735887,10]]},
+  {"id":8359724,"t":{"ref":"110","name":"Bus 110: Aosta => Pont-Saint-Martin","from":"Aosta Autostazione platform 7","to":"Pont-Saint-Martin FS","network":"Vallée d'Aoste Transports","operator":"Arriva; V.I.T.A. SpA","route":"bus","public_transport:version":"2"},"n":45,"s":[[1776247348,9],[303735887,10]]},
+  {"id":8359797,"t":{"ref":"110","name":"Bus 110: Pont-Saint-Martin => Aosta","from":"Pont-Saint-Martin FS","to":"Aosta Autostazione","network":"Vallée d'Aoste Transports","operator":"Arriva;V.I.T.A. SpA","route":"bus","public_transport:version":"2"},"n":43,"s":[[1400870997,34],[303734206,35]]},
+  {"id":8359804,"t":{"ref":"110","name":"Bus 110: Pont-Saint-Martin => Aosta","from":"Pont-Saint-Martin FS","to":"Aosta Autostazione","network":"Vallée d'Aoste Transports","operator":"Arriva; V.I.T.A. SpA","route":"bus","public_transport:version":"2"},"n":44,"s":[[1400870997,35],[303734206,36]]},
+  {"id":21077235,"t":{"ref":"29","name":"29: Saint-Pierre => Villefranche","from":"Saint-Pierre","to":"Villefranche","operator":"SVAP","route":"bus"},"n":29,"s":[[14338981010,29]]},
+  {"id":21858126,"t":{"ref":"29","name":"29: Villefranche => Saint-Pierre","from":"Villefranche","to":"Saint-Pierre","operator":"SVAP","route":"bus"},"n":30,"s":[[14338981010,1],[303734206,2]]}
+]
+}

@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2705,3806],
+"stops":[
+  {"id":377050958,"lat":45.272108,"lon":10.336477,"k":"p"},
+  {"id":377050975,"lat":45.293847,"lon":10.328503,"k":"p"},
+  {"id":2437296337,"lat":45.255045,"lon":10.300645,"k":"p","n":"Gambara - posta (Via Mantua)"},
+  {"id":9695063609,"lat":45.271428,"lon":10.328795,"k":"p"},
+  {"id":9695085375,"lat":45.272069,"lon":10.336348,"k":"p"},
+  {"id":13410118994,"lat":45.289426,"lon":10.334905,"k":"p","n":"Remed.sopra - vivaio"},
+  {"id":13410118995,"lat":45.292192,"lon":10.328554,"k":"p","n":"Isorella - loc.bocche"},
+  {"id":13411109655,"lat":45.255359,"lon":10.319788,"k":"p","n":"Fiesse - bivio piloni"}
+],
+"routes":[
+  {"id":20010909,"t":{"ref":"LS020","name":"Bus LS020: Variante Remedello => Isorella diretto","from":"Remedello","to":"Isorello","network":"Arriva","route":"bus","public_transport:version":"2"},"n":9,"s":[[13410118994,7],[13410118995,8]]},
+  {"id":20010910,"t":{"ref":"LS020","name":"Bus LS020: Variante Isorella => Remedello diretto","from":"Isorella","to":"Ramadello","network":"Arriva","route":"bus","public_transport:version":"2"},"n":8,"s":[[13410118995,2],[13410118994,3]]},
+  {"id":20011013,"t":{"ref":"LS017","name":"Bus LS017: Brescia => Asola","from":"Brescia autostszione","to":"Asola ospedale","network":"Arriva","route":"bus","public_transport:version":"2"},"n":55,"s":[[2437296337,44],[13411109655,45]]},
+  {"id":20012396,"t":{"ref":"LS017","name":"Bus LS017: Asola => Brescia","from":"Asola ospedale","to":"Brescia - Autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":58,"s":[[13411109655,20],[2437296337,21]]},
+  {"id":20112155,"t":{"ref":"K206","name":"Bus K206: Cremona => Ostiano => Gadesco=> Volongo Variante Gambara Fiesse","from":"Cremona Autostazione","to":"Volongo Via Gariabaldi,Chiesa","network":"Arriva","operator":"Arriva Cremona","route":"bus","public_transport:version":"2"},"n":4,"s":[[2437296337,2]]}
+]
+}

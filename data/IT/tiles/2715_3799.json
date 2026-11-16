@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2715,3799],
+"stops":[
+  {"id":8513557355,"lat":45.787534,"lon":9.999444,"k":"p","n":"Piangaiano - via gaiano bivio lovere"},
+  {"id":8513557356,"lat":45.787693,"lon":9.999371,"k":"p","n":"Piangaiano - via gaiano bivio lovere"},
+  {"id":8537097884,"lat":45.787915,"lon":9.997639,"k":"p","n":"Piangaiano - via tonale/Via Gaiano (tabacchi)"},
+  {"id":8537097885,"lat":45.788003,"lon":9.997614,"k":"p","n":"Piangaiano - via tonale/Via Gaiano (tabacchi)"},
+  {"id":8537278002,"lat":45.790504,"lon":9.977742,"k":"p","n":"Endine gaiano - via tonale (bar diana)"},
+  {"id":8537278007,"lat":45.790675,"lon":9.976444,"k":"p","n":"Endine gaiano - via tonale (bar diana)"}
+],
+"routes":[
+  {"id":12563569,"t":{"ref":"C","name":"Bus C: Bergamo => Boario","from":"Bergamo Pensilina 9","to":"Costa Volpino - Via Battisti 20 (Piano)","route":"bus","public_transport:version":"2"},"n":47,"s":[[8537278002,35],[8537097884,36]]},
+  {"id":20290819,"t":{"ref":"C40b","name":"Bus C40b: Fonteno -> Lovere","from":"Fonteno - p.za ongaro (chiesa)","to":"Lovere - Via Marconi (Carabinieri)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":15,"s":[[8513557356,7]]},
+  {"id":20291124,"t":{"ref":"C40b","name":"Bus C40b: Lovere -> Tavernola","from":"Lovere - Via Marconi (Carabinieri) Tavernola","to":"Tavernola - via sarnico (carabinieri)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":18,"s":[[8513557355,9]]},
+  {"id":20291172,"t":{"ref":"C40b","name":"Bus C40b: Lovere -> Fonteno","from":"Lovere - Via Marconi (Carabinieri)","to":"Fonteno - p.za ongaro (chiesa)","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":21,"s":[[8513557355,9]]},
+  {"id":21067335,"t":{"ref":"LV923","name":"Bus LV923: Milano -> Edolo","from":"Sesto San Giovanni","to":"Edolo","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8537278002,22],[8537097884,23]]},
+  {"id":21069296,"t":{"ref":"LV923","name":"Bus LV923: Edolo -> Milano","from":"Edolo","to":"Sesto San Giovanni","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":90,"s":[[8537097885,68],[8537278002,69]]},
+  {"id":21156515,"t":{"ref":"C","name":"Bus C: Boario => Bergamo","from":"Costa Volpino - Via Battisti 7 (Piano)","to":"BERGAMO Autolinee (Pensilina 9)","route":"bus","public_transport:version":"2"},"n":44,"s":[[8537097885,12],[8537278007,13]]}
+]
+}

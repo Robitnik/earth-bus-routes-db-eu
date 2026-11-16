@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2728,3844],
+"stops":[
+  {"id":6327278085,"lat":46.436159,"lon":12.223738,"k":"p","n":"Borca di Cadore"},
+  {"id":8804527124,"lat":46.420697,"lon":12.244875,"k":"p","n":"Vodo centro"},
+  {"id":8804527125,"lat":46.420923,"lon":12.244813,"k":"p","n":"Vodo centro"},
+  {"id":8804527126,"lat":46.435743,"lon":12.223546,"k":"x","n":"Borca di Cadore"},
+  {"id":8804527127,"lat":46.435725,"lon":12.223501,"k":"p","n":"Borca di Cadore"},
+  {"id":8804527128,"lat":46.437982,"lon":12.219567,"k":"p","n":"Borca di Cadore centro"},
+  {"id":8804527129,"lat":46.43788,"lon":12.219511,"k":"p","n":"Borca di Cadore centro"},
+  {"id":9486193307,"lat":46.429869,"lon":12.238441,"k":"p","n":"Villaggio Agip - Albergo Boite"},
+  {"id":9486193308,"lat":46.428341,"lon":12.235749,"k":"p","n":"Villaggio Agip - Residence"},
+  {"id":9486193309,"lat":46.428475,"lon":12.235573,"k":"p","n":"Villaggio Agip - Residence"},
+  {"id":9486193310,"lat":46.430064,"lon":12.235516,"k":"p","n":"Villaggio Agip - Pensilina"},
+  {"id":9486193311,"lat":46.429728,"lon":12.235632,"k":"p","n":"Villaggio Agip - Pensilina"},
+  {"id":9486193313,"lat":46.435698,"lon":12.224059,"k":"p","n":"Bivio Villaggio Agip"},
+  {"id":9486193314,"lat":46.435909,"lon":12.223892,"k":"p","n":"Bivio Villaggio Agip"},
+  {"id":9487009483,"lat":46.446723,"lon":12.211136,"k":"p","n":"San Vito - San Pio X"},
+  {"id":9487009484,"lat":46.446709,"lon":12.211061,"k":"p","n":"San Vito - San Pio X"},
+  {"id":10201614782,"lat":46.436119,"lon":12.22359,"k":"x","n":"Borca di Cadore"}
+],
+"routes":[
+  {"id":1948899,"t":{"ref":"30","name":"Calalzo -> Cortina","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":31,"s":[[8804527125,18],[6327278085,19],[8804527128,20]]},
+  {"id":9383387,"t":{"ref":"411","name":"Flixbus 411: Cortina d'Ampezzo, stazione centrale degli autobus => Milano, Lampugnano","from":"Cortina d'Ampezzo, stazione centrale degli autobus","to":"Milano, Lampugnano","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":4,"s":[[8804527127,2]]},
+  {"id":9383388,"t":{"ref":"411","name":"Flixbus 411: Milano, Lampugnano => Cortina d'Ampezzo, stazione centrale degli autobus","from":"Milano, Lampugnano","to":"Cortina d'Ampezzo, stazione centrale degli autobus","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[6327278085,4]]},
+  {"id":12798589,"t":{"ref":"30","name":"Cortina -> Calalzo","from":"Cortina","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[8804527124,15],[8804527127,16],[8804527129,17]]},
+  {"id":13113179,"t":{"ref":"31BIKE","name":"Calalzo -> Cortina -> Auronzo -> Calalzo","from":"Calalzo FS","to":"Calalzo FS","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":70,"s":[[8804527125,16],[6327278085,17]]},
+  {"id":13769827,"t":{"ref":"30Skibus","name":"Borca Villaggio -> San Vito Impianti","from":"Villaggio Agip - Albergo Boite","to":"San Vito - Impianti","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":12,"s":[[9486193308,1],[9486193311,2],[9486193313,3],[8804527128,4],[9487009483,5]]},
+  {"id":13769828,"t":{"ref":"30Skibus","name":"San Vito Impianti -> Borca Villaggio","from":"San Vito - Impianti","to":"Villaggio Agip - Albergo Boite","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":12,"s":[[9487009484,8],[8804527129,9],[9486193314,10],[9486193310,11],[9486193309,12]]},
+  {"id":13791987,"t":{"ref":"30Skibus","name":"Borca Villaggio -> Cortina Autostazione -> Passo Falzarego","from":"Villaggio Agip - Albergo Boite","to":"Passo Falzarego","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[9486193308,1],[9486193311,2],[9486193313,3],[8804527128,4],[9487009483,5]]},
+  {"id":13791988,"t":{"ref":"30Skibus","name":"Passo Falzarego -> Cortina Autostazione -> Borca Villaggio","from":"Passo Falzarego","to":"Viaalggio Agip - Albergo Boite","network":"DolomitiBus","operator":"DolomitiBus","route":"bus"},"n":28,"s":[[9487009484,24],[8804527129,25],[9486193314,26],[9486193310,27],[9486193309,28]]}
+]
+}

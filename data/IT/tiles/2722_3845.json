@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2722,3845],
+"stops":[
+  {"id":4818121502,"lat":46.124782,"lon":12.297836,"k":"p","n":"Quantin"},
+  {"id":7232543393,"lat":46.14224,"lon":12.283502,"k":"p","n":"Losego"},
+  {"id":7232543394,"lat":46.132024,"lon":12.294692,"k":"p","n":"Quantin Cimitero"},
+  {"id":7232543395,"lat":46.127329,"lon":12.294943,"k":"p","n":"Quantin Bivio"},
+  {"id":7232543396,"lat":46.12737,"lon":12.295078,"k":"p","n":"Quantin Bivio"},
+  {"id":7232543397,"lat":46.124756,"lon":12.297826,"k":"x"},
+  {"id":7232543398,"lat":46.124612,"lon":12.298647,"k":"p","n":"Quantin"},
+  {"id":8435407968,"lat":46.148869,"lon":12.25588,"k":"p","n":"Levego nuova"},
+  {"id":8569145487,"lat":46.124035,"lon":12.25342,"k":"p","n":"Sossai"}
+],
+"routes":[
+  {"id":8346803,"t":{"ref":"42","name":"Belluno -> Losego -> Quantin","from":"Belluno FS","to":"Quantin","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":21,"s":[[7232543397,2],[7232543393,12],[7232543394,13],[7232543395,14]]},
+  {"id":10714363,"t":{"ref":"42","name":"Losego -> Quantin -> Belluno","from":"Quantin","to":"Belluno FS","network":"DolomitiBus","operator":"DolomitiBus","colour":"#da9010","route":"bus"},"n":17,"s":[[7232543396,8],[4818121502,9]]},
+  {"id":12319450,"t":{"ref":"J","name":"Urbano Belluno linea Gialla","from":"Via Dante FS","to":"Cirvoi","network":"DolomitiBus","operator":"DolomitiBus","colour":"#ffff00","route":"bus"},"n":25,"s":[[8569145487,19]]},
+  {"id":12319451,"t":{"ref":"L","name":"Urbano Belluno linea Lilla","from":"Giazzoi","to":"Sagrogna Zona Industriale","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF00FF","route":"bus"},"n":30,"s":[[8435407968,18]]},
+  {"id":12320758,"t":{"ref":"L","name":"Urbano Belluno linea Lilla","from":"Sagrogna Zona Industriale","to":"Giazzoi","network":"DolomitiBus","operator":"DolomitiBus","colour":"#FF00FF","route":"bus"},"n":28,"s":[[8435407968,16]]}
+]
+}

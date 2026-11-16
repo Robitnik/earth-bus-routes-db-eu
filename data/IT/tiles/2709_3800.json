@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2709,3800],
+"stops":[
+  {"id":13508704845,"lat":45.476689,"lon":10.002348,"k":"p","n":"Trenzano - via marconi"},
+  {"id":13508704846,"lat":45.477326,"lon":10.010192,"k":"p","n":"Trenzano - scuole"},
+  {"id":13508704847,"lat":45.477229,"lon":10.010162,"k":"p","n":"Trenzano - scuole"},
+  {"id":13508704848,"lat":45.47669,"lon":10.002592,"k":"p","n":"Trenzano - via marconi"},
+  {"id":13514009367,"lat":45.460409,"lon":10.024069,"k":"p","n":"Corzano - casc. fenilnuovo"},
+  {"id":13514009368,"lat":45.468182,"lon":10.033264,"k":"p","n":"Brandico - bivio bettolino"},
+  {"id":13514009369,"lat":45.476354,"lon":10.04307,"k":"p","n":"Maclodio - s.p.235/via roma"},
+  {"id":13514150980,"lat":45.477241,"lon":10.044342,"k":"p","n":"Maclodio - s.p.235/via roma"},
+  {"id":13514150981,"lat":45.469287,"lon":10.034841,"k":"p","n":"Brandico - bivio bettolino"},
+  {"id":13514863342,"lat":45.477807,"lon":10.018355,"k":"p","n":"Trenzano - via veneto mattina"},
+  {"id":13514863350,"lat":45.477932,"lon":10.018442,"k":"p","n":"Trenzano - via veneto mattina"},
+  {"id":13514863351,"lat":45.477535,"lon":10.03976,"k":"p","n":"Maclodio - via rudiana"}
+],
+"routes":[
+  {"id":20148630,"t":{"ref":"LS006","name":"Bus LS006: Trenzano->Cizzago->Castelcovati-->Chiari","from":"Trenzano - scuole","to":"Chiari - via del Granaio, stazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":24,"s":[[13508704846,1],[13508704845,2]]},
+  {"id":20148631,"t":{"ref":"LS006","name":"Bus LS006: Chiari->Castelcovati->Cizzago->Trenzano","from":"Chiari via Cologne instituti","to":"Trenzano piazza IV Novembre, scuole","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":20,"s":[[13508704848,19],[13508704847,20]]},
+  {"id":20156065,"t":{"ref":"RL203B","name":"Bus RL203B: Brescia => Soncino","from":"Brescia Autostazione","to":"Soncino Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":40,"s":[[13514009369,23],[13514009368,24],[13514009367,25]]},
+  {"id":20156403,"t":{"ref":"RL203B","name":"Bus RL203B: Soncino->Brescia","from":"Soncino Autostazione","to":"Brescia Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13514009367,16],[13514150981,17],[13514150980,18]]},
+  {"id":20157687,"t":{"ref":"RL203A","name":"Bus RL203A: Rudiano->Cizzago->Maclodio->Brescia","from":"Rudiano Via Brescia 21","to":"Rudiano Via Brescia 21","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":43,"s":[[13508704848,19],[13508704847,20],[13514863342,21],[13514863351,22],[13514150980,23]]},
+  {"id":20157688,"t":{"ref":"RL203A","name":"Bus RL203A: Brescia->Maclodio->Cizzago->Rudiano","from":"Brescia Autostazione","to":"Rudiano Via Brescia 21","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":44,"s":[[13514863351,23],[13514863350,24],[13508704846,25],[13508704845,26]]}
+]
+}

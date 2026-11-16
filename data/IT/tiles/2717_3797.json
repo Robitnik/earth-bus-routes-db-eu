@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2717,3797],
+"stops":[
+  {"id":1811031335,"lat":45.863948,"lon":9.882898,"k":"p","n":"Ponte Nossa - Via Europa (Sottopasso)"},
+  {"id":12893487857,"lat":45.864246,"lon":9.88287,"k":"p","n":"Ponte Nossa - Via Europa (Sottopasso)"},
+  {"id":13686890431,"lat":45.863993,"lon":9.882796,"k":"x","n":"Ponte Nossa - Via Europa (Sottopasso)"},
+  {"id":13686890432,"lat":45.864194,"lon":9.882977,"k":"x","n":"Ponte Nossa - Via Europa (Sottopasso)"},
+  {"id":13688736841,"lat":45.874288,"lon":9.872666,"k":"p","n":"Premolo - Via Bratte"},
+  {"id":13688860475,"lat":45.87571,"lon":9.891609,"k":"p","n":"Parre - Via Duca d'Aosta (Campo Sportivo)"},
+  {"id":13688860476,"lat":45.875724,"lon":9.891565,"k":"x","n":"Parre - Via Duca d'Aosta (Campo Sportivo)"},
+  {"id":13975140036,"lat":45.872721,"lon":9.898054,"k":"p","n":"Parre - Ponte Selva"},
+  {"id":13983811285,"lat":45.875273,"lon":9.889101,"k":"p","n":"Parre - via roma (rist.belvedere)"},
+  {"id":13983811286,"lat":45.87364,"lon":9.889125,"k":"p","n":"Parre - via duca d'aosta"},
+  {"id":13983863685,"lat":45.874193,"lon":9.890072,"k":"p","n":"Parre - via duca aosta/risorgimento"},
+  {"id":13984735338,"lat":45.858775,"lon":9.855753,"k":"p","n":"Gorno - via fondo ripa bivio riso"},
+  {"id":13984735360,"lat":45.859387,"lon":9.869826,"k":"p","n":"Ponte Nossa - s.p. zambla (pontenossa)"},
+  {"id":13984735361,"lat":45.859087,"lon":9.867048,"k":"p","n":"Gorno - via prealpina inferiore"},
+  {"id":13984735389,"lat":45.859332,"lon":9.878323,"k":"p","n":"Ponte Nossa - s.p. zambla (ponte riso)"},
+  {"id":13984794938,"lat":45.870354,"lon":9.872552,"k":"p","n":"Premolo - via dell'agro/grumello"},
+  {"id":13984794939,"lat":45.870865,"lon":9.874209,"k":"p","n":"Premolo - via dell'agro, 23"},
+  {"id":13984794940,"lat":45.869093,"lon":9.875711,"k":"p","n":"Premolo - via valzella (cimitero)"},
+  {"id":13984794941,"lat":45.866476,"lon":9.878608,"k":"p","n":"Premolo - via moro, 11"},
+  {"id":13984794942,"lat":45.866465,"lon":9.880518,"k":"p","n":"Ponte Nossa - via cavour (bivio capra)"}
+],
+"routes":[
+  {"id":12585480,"t":{"ref":"S50a","name":"Bus S50a: San Lorenzo=>Parre","from":"San Lorenzo","to":"Parre","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":37,"s":[[13983811286,35],[13983811285,36],[13688860475,37]]},
+  {"id":20384952,"t":{"ref":"S","name":"Bus S: Bergamo FS=>Bratto","from":"Bergamo - Pensilina 6","to":"Bratto","network":"Bergamo Trasporti","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":49,"s":[[1811031335,27],[13975140036,28]]},
+  {"id":21044961,"t":{"ref":"S","name":"Bus S: Bratto=>Bergamo FS","from":"Bratto","to":"Bergamo - Pensilina 6","network":"Bergamo Trasporti","operator":"Arriva","route":"bus","public_transport:version":"2"},"n":50,"s":[[13975140036,22],[12893487857,23]]},
+  {"id":21057895,"t":{"ref":"S50a","name":"Bus S50a: Parre=>San Lorenzo","from":"Parre","to":"San Lorenzo","network":"Bergamo Trasporti","operator":"Arriva Italia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13983863685,1],[13688860475,2],[13983811286,3]]},
+  {"id":21059091,"t":{"ref":"S50e","name":"Bus S50e: Passo Zambla=>Ponte Nossa","from":"Passo Zamblo","to":"Ponte Nossa","operator":"SAB","route":"bus","public_transport:version":"2"},"n":24,"s":[[13984735338,20],[13984735361,21],[13984735360,22],[13984735389,23],[1811031335,24]]},
+  {"id":21059092,"t":{"ref":"S50e","name":"Bus S50e: Ponte Nossa=>Passo Zambla","from":"Ponte Nossa","to":"Passo Zambla","operator":"SAB","route":"bus","public_transport:version":"2"},"n":24,"s":[[12893487857,1],[13984735389,2],[13984735360,3],[13984735361,4],[13984735338,5]]},
+  {"id":21059145,"t":{"ref":"S50b","name":"Bus S50b: Parre->Ponte Nossa","from":"Parre Campo Sportivo","to":"Ponte Nossa","operator":"SAB","route":"bus","public_transport:version":"2"},"n":7,"s":[[13688860475,1],[13983863685,2],[13983811286,3],[13975140036,6],[1811031335,7]]},
+  {"id":21059146,"t":{"ref":"S50b","name":"Bus S50b: Ponte Nossa=>Parre","from":"Ponte Nossa","to":"Parre","operator":"SAB","route":"bus","public_transport:version":"2"},"n":7,"s":[[1811031335,1],[13975140036,2],[13983811286,5],[13983811285,6],[13688860475,7]]},
+  {"id":21059147,"t":{"ref":"S50c","name":"Bus S50c: Premolo=>Ponte Nossa","from":"Premolo","to":"Ponte Nossa","operator":"SAB","route":"bus","public_transport:version":"2"},"n":7,"s":[[13688736841,1],[13984794938,2],[13984794939,3],[13984794940,4],[13984794941,5],[13984794942,6],[1811031335,7]]},
+  {"id":21059148,"t":{"ref":"S50c","name":"Bus S50c: Ponte Nossa=>Premolo","from":"Ponte Nossa","to":"Premolo","operator":"SAB","route":"bus","public_transport:version":"2"},"n":7,"s":[[1811031335,1],[13984794942,2],[13984794941,3],[13984794940,4],[13984794939,5],[13984794938,6],[13688736841,7]]}
+]
+}

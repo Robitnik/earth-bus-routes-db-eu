@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2707,3802],
+"stops":[
+  {"id":12574627837,"lat":45.360633,"lon":10.147402,"k":"p","n":"Manerbio - via S. Martino del Carso"},
+  {"id":12574627838,"lat":45.360565,"lon":10.147484,"k":"p","n":"Manerbio - via S. Martino del Carso"},
+  {"id":13404738429,"lat":45.350475,"lon":10.138965,"k":"p","n":"Manerbio - casa cantoniera"},
+  {"id":13404738430,"lat":45.35452,"lon":10.141405,"k":"p","n":"Manerbio - piazza Italia"},
+  {"id":13404738431,"lat":45.36074,"lon":10.145402,"k":"p","n":"Manerbio - rotatoria per Len"},
+  {"id":13412989489,"lat":45.353276,"lon":10.147816,"k":"p","n":"Manerbio - strada dei Roncagnani"},
+  {"id":13428463787,"lat":45.360951,"lon":10.145756,"k":"p","n":"Manerbio - rotatoria"},
+  {"id":13512644188,"lat":45.351821,"lon":10.146668,"k":"p","n":"Manerbio - via Carlo Marx, istituti"},
+  {"id":13547053174,"lat":45.386698,"lon":10.116638,"k":"p","n":"Offlaga - piazza"},
+  {"id":13547053175,"lat":45.385647,"lon":10.116808,"k":"p","n":"Offlaga - scuole medie"},
+  {"id":13547053176,"lat":45.376723,"lon":10.104783,"k":"p","n":"Cignano - piazza vittoria"},
+  {"id":13547053180,"lat":45.376753,"lon":10.105405,"k":"p","n":"Cignano - piazza vittoria"},
+  {"id":13547053181,"lat":45.385525,"lon":10.116771,"k":"p","n":"Offlaga - scuole medie"},
+  {"id":13547053182,"lat":45.38655,"lon":10.116579,"k":"p","n":"Offlaga - piazza"}
+],
+"routes":[
+  {"id":20003896,"t":{"ref":"LS013","name":"Bus LS013: Brescia => Manerbio => Cremona","from":"Brescia autostatione","to":"Cremona autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[13404738430,22],[13404738429,23]]},
+  {"id":20004357,"t":{"ref":"LS013","name":"Bus LS013: Cremona => Manobio => Brescia","from":"Cremona autostazione","to":"Brescia autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":44,"s":[[13404738429,23],[13404738430,24],[13428463787,25]]},
+  {"id":20014196,"t":{"ref":"LS019","name":"Bus LS019: Montichiari => Verolavecchia","from":"Montichiari via Mantova 46","to":"Verolavecchia via Nazario Sauro","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[12574627837,22],[13404738430,23],[13404738429,24]]},
+  {"id":20014333,"t":{"ref":"LS019","name":"Bus LS019: Verolavecchia => Montichiari","from":"Verolavecchia Via Nazario Sauro","to":"Montichiari Via Brescia 20","network":"Arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[13404738429,11],[13404738430,12],[13412989489,13],[12574627838,14]]},
+  {"id":20014849,"t":{"ref":"LS014","name":"Bus LS014: Seniga => Manerbio","from":"Seniga","to":"Manerbio","network":"Arriva","route":"bus","public_transport:version":"2"},"n":16,"s":[[13404738429,15],[13404738430,16]]},
+  {"id":20014850,"t":{"ref":"LS014","name":"Bus LS014: Manerbio =>Seniga","from":"Manerbio","to":"Seniga","network":"Arriva","route":"bus","public_transport:version":"2"},"n":24,"s":[[13404738430,1]]},
+  {"id":20153297,"t":{"ref":"LS011","name":"Bus LS011: Manerbio->Bargnano->Orzinuovi","from":"MANERBIO - Via Karl Marx Istituto Polivalente","to":"Orzinuovi - Via XXIV Maggio","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":19,"s":[[13512644188,1],[13404738430,2]]},
+  {"id":20153298,"t":{"ref":"LS011","name":"Bus LS011: Orzinuovi->Bargnano->Manerbio","from":"Orzinuovi - Andreana","to":"MANERBIO - Via Karl Marx Istituto Polivalente","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":18,"s":[[13512644188,18]]},
+  {"id":20204654,"t":{"ref":"LS015","name":"Linea LS015: Brescia =>Faverzano","from":"Brescia Autostazione Solferino","to":"Faverzano - capolinea","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":26,"s":[[13547053182,21],[13547053175,22],[13547053180,23]]},
+  {"id":20204655,"t":{"ref":"LS015","name":"Linea LS015: Faverzano => Brescia","from":"Faverzano - capolinea","to":"Brescia Autostazione Solferino","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":26,"s":[[13547053176,4],[13547053181,5],[13547053174,6]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2706,3802],
+"stops":[
+  {"id":13404738425,"lat":45.312597,"lon":10.116665,"k":"p","n":"Bassano Bresciano - Bettolino sud"},
+  {"id":13404738426,"lat":45.327908,"lon":10.125597,"k":"p","n":"Bassano Bresciano - via Mazzini"},
+  {"id":13404738427,"lat":45.335782,"lon":10.130081,"k":"p","n":"Bassano Bresciano - via Brescia"},
+  {"id":13404738428,"lat":45.344571,"lon":10.135392,"k":"p","n":"Manerbio - Arcate"},
+  {"id":13405306112,"lat":45.34551,"lon":10.136207,"k":"p","n":"Manerbio - Arcate"},
+  {"id":13405306113,"lat":45.340352,"lon":10.133107,"k":"p","n":"Bassano b. - Vivaio"},
+  {"id":13405306114,"lat":45.300943,"lon":10.110147,"k":"p","n":"Pontevico - Bettegno bivio"},
+  {"id":13412938871,"lat":45.318712,"lon":10.100641,"k":"p","n":"Verolanuova - S. Donino, industrie"},
+  {"id":13412938872,"lat":45.314789,"lon":10.115855,"k":"p","n":"Verolanuova - Bettolino ovest"},
+  {"id":13413210987,"lat":45.307644,"lon":10.149297,"k":"p","n":"San Gervasio - via Cicogne, 11"},
+  {"id":13413210988,"lat":45.311945,"lon":10.148621,"k":"p","n":"San Gervasio - via Vittorio Emanuele"},
+  {"id":13413210989,"lat":45.311718,"lon":10.117638,"k":"p","n":"Bassano Bresciano - Bettolino est"}
+],
+"routes":[
+  {"id":20003896,"t":{"ref":"LS013","name":"Bus LS013: Brescia => Manerbio => Cremona","from":"Brescia autostatione","to":"Cremona autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":45,"s":[[13404738428,24],[13404738427,25],[13404738426,26],[13404738425,27]]},
+  {"id":20004357,"t":{"ref":"LS013","name":"Bus LS013: Cremona => Manobio => Brescia","from":"Cremona autostazione","to":"Brescia autostazione","network":"Arriva","route":"bus","public_transport:version":"2"},"n":44,"s":[[13405306114,17],[13404738425,18],[13404738426,19],[13404738427,20],[13405306113,21],[13405306112,22]]},
+  {"id":20014196,"t":{"ref":"LS019","name":"Bus LS019: Montichiari => Verolavecchia","from":"Montichiari via Mantova 46","to":"Verolavecchia via Nazario Sauro","network":"Arriva","route":"bus","public_transport:version":"2"},"n":36,"s":[[13404738428,25],[13404738427,26],[13404738426,27],[13412938872,28],[13412938871,29]]},
+  {"id":20014333,"t":{"ref":"LS019","name":"Bus LS019: Verolavecchia => Montichiari","from":"Verolavecchia Via Nazario Sauro","to":"Montichiari Via Brescia 20","network":"Arriva","route":"bus","public_transport:version":"2"},"n":34,"s":[[13412938871,6],[13412938872,7],[13404738426,8],[13404738427,9],[13404738428,10]]},
+  {"id":20014849,"t":{"ref":"LS014","name":"Bus LS014: Seniga => Manerbio","from":"Seniga","to":"Manerbio","network":"Arriva","route":"bus","public_transport:version":"2"},"n":16,"s":[[13413210987,10],[13413210989,11],[13404738426,12],[13405306113,13],[13405306112,14]]},
+  {"id":20014850,"t":{"ref":"LS014","name":"Bus LS014: Manerbio =>Seniga","from":"Manerbio","to":"Seniga","network":"Arriva","route":"bus","public_transport:version":"2"},"n":24,"s":[[13404738428,2],[13404738427,3],[13404738426,4],[13413210989,5],[13413210988,6],[13413210987,7]]},
+  {"id":20043119,"t":{"ref":"LS018","name":"Bus LS018: Pavone Mella => Verolanuova","from":"Pavone Mella Centro","to":"Verolanuova Via Stadio","network":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[13413210987,9],[13413210988,10],[13413210989,11],[13412938872,12],[13412938871,13]]},
+  {"id":20043120,"t":{"ref":"LS018","name":"Bus LS018: Verolanuova => Pavone Mella","from":"Verolanuova Via Stadio","to":"Pavone Mella Centro","network":"Arriva","route":"bus","public_transport:version":"2"},"n":15,"s":[[13412938871,3],[13412938872,4],[13413210989,5],[13413210988,6],[13413210987,7]]}
+]
+}

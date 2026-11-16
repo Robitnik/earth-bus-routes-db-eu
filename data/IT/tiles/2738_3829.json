@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2738,3829],
+"stops":[
+  {"id":297761378,"lat":46.901049,"lon":11.470811,"k":"x","n":"Oberwiesen - Prati di Sopra"},
+  {"id":737440397,"lat":46.921846,"lon":11.450325,"k":"x","n":"Ried, Prantner - Novale, Prantner"},
+  {"id":2070591937,"lat":46.924246,"lon":11.450423,"k":"x","n":"Ried, Schlosshof - Novale, Castel Strada"},
+  {"id":2303888084,"lat":46.900139,"lon":11.481206,"k":"x","n":"Abzweigung Tulfer - Bivio Tulve"},
+  {"id":4831427489,"lat":46.90967,"lon":11.457335,"k":"x","n":"Braunhof"},
+  {"id":4876731200,"lat":46.900002,"lon":11.462515,"k":"p","n":"Wiesen, Rathaus - Prati, Municipio"},
+  {"id":5628843110,"lat":46.900204,"lon":11.450409,"k":"p","n":"Schloss Moos - Castel Palù"},
+  {"id":5628843113,"lat":46.901053,"lon":11.47106,"k":"p","n":"Oberwiesen - Prati di Sopra"},
+  {"id":5628843114,"lat":46.900088,"lon":11.481267,"k":"p","n":"Abzweigung Tulfer - Bivio Tulve"},
+  {"id":5629028281,"lat":46.909705,"lon":11.457212,"k":"p","n":"Braunhof"},
+  {"id":8773829025,"lat":46.900189,"lon":11.481138,"k":"p","n":"Abzweigung Tulfer - Bivio Tulve"},
+  {"id":8773829036,"lat":46.901063,"lon":11.470592,"k":"p","n":"Oberwiesen - Prati di Sopra"},
+  {"id":8773829038,"lat":46.900725,"lon":11.465645,"k":"x","n":"Wiesen, Daniel-Sailer-Weg - Prati, Via Daniel Sailer"},
+  {"id":8773829039,"lat":46.900698,"lon":11.465775,"k":"p","n":"Wiesen, Daniel-Sailer-Weg - Prati, Via Daniel Sailer"},
+  {"id":8773829040,"lat":46.900757,"lon":11.465533,"k":"p","n":"Wiesen, Daniel-Sailer-Weg - Prati, Via Daniel Sailer"},
+  {"id":8777668261,"lat":46.921877,"lon":11.450293,"k":"p","n":"Ried, Prantner - Novale, Prantner"},
+  {"id":8777668262,"lat":46.900215,"lon":11.450364,"k":"x","n":"Schloss Moos - Castel Palù"},
+  {"id":8777668263,"lat":46.900095,"lon":11.450145,"k":"x","n":"Schloss Moos - Castel Palù"},
+  {"id":8777668265,"lat":46.900117,"lon":11.450107,"k":"p","n":"Schloss Moos - Castel Palù"},
+  {"id":12480058962,"lat":46.924246,"lon":11.450492,"k":"p","n":"Ried, Schlosshof - Novale, Castel Strada"},
+  {"id":12487376609,"lat":46.921803,"lon":11.450387,"k":"p","n":"Ried, Prantner - Novale, Prantner"}
+],
+"routes":[
+  {"id":8311257,"t":{"ref":"311","name":"Bus 311: Sterzing => Wiesen => Pfitsch","from":"Sterzing","to":"Pfitsch","route":"bus","public_transport:version":"2"},"n":30,"s":[[8773829039,7],[5628843113,8],[5628843114,9]]},
+  {"id":8311258,"t":{"ref":"311","name":"Bus 311: Pfitsch => Wiesen => Sterzing","from":"Pfitsch","to":"Sterzing","route":"bus","public_transport:version":"2"},"n":30,"s":[[8773829025,22],[8773829036,23],[8773829040,24],[4876731200,25]]},
+  {"id":14932955,"t":{"ref":"316","name":"Bus 316: Balneum => Braunhof","from":"Sterzing, Balneum","to":"Braunhof","colour":"brown","route":"bus","public_transport:version":"2"},"n":25,"s":[[5628843110,20],[5629028281,25]]},
+  {"id":14933090,"t":{"ref":"316","name":"Bus 316: Braunhof => Balneum","from":"Braunhof","to":"Sterzing, Balneum","colour":"brown","route":"bus","public_transport:version":"2"},"n":24,"s":[[5629028281,1],[8777668265,6]]},
+  {"id":14936512,"t":{"ref":"318","name":"Bus 318: Prantner => Nordpark","from":"Ried, Prantner","to":"Sterzing, Nordpark","route":"bus","public_transport:version":"2"},"n":3,"s":[[8777668261,1]]},
+  {"id":14936513,"t":{"ref":"318","name":"Bus 318: Nordpark => Prantner","from":"Sterzing, Nordpark","to":"Ried, Prantner","route":"bus","public_transport:version":"2"},"n":3,"s":[[12487376609,3]]}
+]
+}

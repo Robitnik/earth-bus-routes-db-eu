@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2695,3833],
+"stops":[
+  {"id":725052468,"lat":44.750376,"lon":11.652779,"k":"p","n":"Ca Camparella","ref":"600084"},
+  {"id":725052477,"lat":44.767364,"lon":11.650379,"k":"p","n":"Possessione Vigna","ref":"600086"},
+  {"id":725052483,"lat":44.763828,"lon":11.65359,"k":"p","n":"Gaibanella","ref":"600083"},
+  {"id":725052518,"lat":44.750369,"lon":11.652532,"k":"p","n":"Ca Camparella","ref":"600059"},
+  {"id":725052527,"lat":44.767223,"lon":11.650324,"k":"p","n":"Possessione Vigna","ref":"600057"},
+  {"id":725052529,"lat":44.755305,"lon":11.65315,"k":"p","n":"Borgo Pancaldi","ref":"600058"},
+  {"id":725052577,"lat":44.764612,"lon":11.653211,"k":"p","n":"Gaibanella","ref":"600082"},
+  {"id":725052583,"lat":44.75528,"lon":11.653337,"k":"p","n":"Borgo Pancaldi","ref":"600085"},
+  {"id":1068825586,"lat":44.753392,"lon":11.655125,"k":"p","n":"Gaibana","ref":"600740"},
+  {"id":1068825617,"lat":44.766887,"lon":11.654195,"k":"p","n":"Gaibanella","ref":"600737"},
+  {"id":1068825625,"lat":44.764758,"lon":11.655983,"k":"p","n":"Gaibanella","ref":"600738"},
+  {"id":1068825700,"lat":44.753465,"lon":11.655338,"k":"p","n":"Gaibana","ref":"600741"},
+  {"id":1446993310,"lat":44.798152,"lon":11.695915,"k":"p","n":"Ospedale Ambulatori","ref":"600921"},
+  {"id":1446993323,"lat":44.799884,"lon":11.694183,"k":"p","n":"Ospedale Degenze","ref":"600929"}
+],
+"routes":[
+  {"id":912755,"t":{"ref":"348","name":"Spinazzino - S. Bartolomeo - S. Egidio - Ferrara (P.Kennedy)","from":"Spinazzino","to":"Ferrara (P.Kennedy)","network":"AMI","operator":"ATC","route":"bus"},"n":37,"s":[[725052468,15],[725052583,16],[725052577,17],[725052477,18]]},
+  {"id":1766974,"t":{"ref":"6","name":"Cona Ospedale - Villa Fulvia - Stazione FS - Porotto","from":"Ospedale Cona","to":"Porotto","network":"AMI Ferrara","operator":"Tper","colour":"#b6db09","route":"bus","public_transport:version":"1"},"n":43,"s":[[1446993310,1],[1446993323,2]]},
+  {"id":1766976,"t":{"ref":"6","name":"Porotto - Stazione FS - Villa Fulvia - Cona Ospedale","from":"Porotto","to":"Ospedale Cona","network":"AMI Ferrara","operator":"Tper","colour":"#b6db09","route":"bus","public_transport:version":"1"},"n":38,"s":[[1446993323,37],[1446993310,38]]},
+  {"id":1766979,"t":{"ref":"6","name":"Stazione F.S. - Ospedale Cona","from":"Stazione F.S.","to":"Ospedale Cona","network":"AMI","operator":"ATC","colour":"#b6db09","route":"bus","public_transport:version":"1"},"n":22,"s":[[1446993323,21],[1446993310,22]]},
+  {"id":1785211,"t":{"ref":"6","name":"Ospedale Cona - Stazione F.S.","from":"Ospedale Cona","to":"Stazione F.S.","network":"AMI","operator":"ATC","colour":"#b6db09","route":"bus","public_transport:version":"1"},"n":24,"s":[[1446993310,1],[1446993323,2]]},
+  {"id":2963765,"t":{"ref":"342","name":"Portomaggiore - Ospedale Degenze - Ferrara","from":"Portomaggiore","to":"Ferrara Autostazione Rampari","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":2,"s":[[1446993323,2]]},
+  {"id":3157554,"t":{"ref":"345","name":"Ferrara - Molinella - Santa Maria Codifiume","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":16,"s":[[1068825617,7],[1068825586,8]]},
+  {"id":19266998,"t":{"ref":"331","name":"331 Ferrara Ospedale Ostellato","network":"AMI Ferrara","operator":"Tper","route":"bus","public_transport:version":"2"},"n":7,"s":[[1446993323,6]]}
+]
+}

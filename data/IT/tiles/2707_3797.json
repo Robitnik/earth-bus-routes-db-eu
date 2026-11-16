@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"IT",
+"tile":[2707,3797],
+"stops":[
+  {"id":3966898838,"lat":45.399806,"lon":9.878393,"k":"p","n":"Soncino - via Brescia/Gazzuoli"},
+  {"id":9338856637,"lat":45.371212,"lon":9.858658,"k":"p"},
+  {"id":9338856639,"lat":45.371225,"lon":9.858822,"k":"p"},
+  {"id":13514009346,"lat":45.399171,"lon":9.866026,"k":"p","n":"Soncino - autostazione"},
+  {"id":13514009347,"lat":45.398989,"lon":9.889551,"k":"p","n":"Soncino - ponte Oglio"},
+  {"id":13514150989,"lat":45.399299,"lon":9.891711,"k":"p","n":"Soncino - ponte Oglio"},
+  {"id":13629998080,"lat":45.399202,"lon":9.867033,"k":"p","n":"Soncino - via zanardi"},
+  {"id":14175110426,"lat":45.399143,"lon":9.865981,"k":"x","n":"Soncino - autostazione"}
+],
+"routes":[
+  {"id":20156065,"t":{"ref":"RL203B","name":"Bus RL203B: Brescia => Soncino","from":"Brescia Autostazione","to":"Soncino Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":40,"s":[[13514009347,37],[3966898838,38],[13514009346,40]]},
+  {"id":20156403,"t":{"ref":"RL203B","name":"Bus RL203B: Soncino->Brescia","from":"Soncino Autostazione","to":"Brescia Autostazione","operator":"Arriva Brescia","route":"bus","public_transport:version":"2"},"n":38,"s":[[13514009346,1],[13514150989,3]]},
+  {"id":20302500,"t":{"ref":"R","name":"Bus R: Soncino => Bergamo","from":"Soncino - autostazione","to":"Bergamo - stazione autolinee","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":22,"s":[[13514009346,1]]},
+  {"id":20302501,"t":{"ref":"R","name":"Bus R: Bergamo => Soncino","from":"Bergamo - stazione autolinee (pens. 6)","to":"Soncino - via zanardi","network":"Bergamo Trasporti","operator":"Arriva Bergamo","route":"bus","public_transport:version":"2"},"n":35,"s":[[13514009346,35]]}
+]
+}
