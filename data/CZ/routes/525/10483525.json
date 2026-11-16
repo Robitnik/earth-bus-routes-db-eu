@@ -5,7 +5,7 @@
 "mode":"bus",
 "t":{"ref":"453","name":"Bus 453: Olbernhau, Bahnhof => Deutschneudorf => Kurort Seiffen => Olbernhau, Bahnhof","from":"Olbernhau, Bahnhof","to":"Olbernhau, Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","public_transport:version":"2","route":"bus","via":"Deutschneudorf;Kurort Seiffen"},
 "ways":[
-  {"g":"svctHo{ppAA{AzAcSEmAe@_DeAmFQu@y@oACq@^qBf@cHByJd@kFl@kEr@uCbK_YxAyEdD}LLgA@qI","t":{"maxspeed":"50"}},
+  {"g":"eqdtH}bnpAnAyDjDmElJ{Mh@sAxAuFPuARwUhAqNBkAQsIzAcSEmAe@_DeAmFQu@y@oACq@^qBf@cHByJd@kFl@kEXqArAeEhI}TxAyEdD}LLgA@qI","t":{"maxspeed":"50"}},
   {"g":"s~btHsmupAA{MGyC?sBJwFJ{B~@aIJaBNu@","t":{"maxspeed":"70"}},
   {"g":"i{btHk_wpA\\Q~@H","t":{"maxspeed":"30"}},
   {"g":"kxbtHs_wpAxApA","t":{"maxspeed":"70"}},
@@ -31,6 +31,9 @@
   {"g":"ia`tHyfiqANyBZ}BFuA","t":{"maxspeed":"50"}},
   {"g":"of`tHuzhqAz@aBn@}Af@cBP_B","t":{"maxspeed":"50"}},
   {"g":"cp`tHmqhqAzFiFv@}@","t":{"maxspeed:type":"DE:rural"}},
+  {"g":"cjatHaygqA~XkW","t":{"maxspeed:type":"DE:rural"}},
+  {"g":"onatHiugqAjCwB","t":{"maxspeed:type":"DE:urban"}},
+  {"g":"}fbtH{kfqAnAmCp@iBxAkI`@sAdDaIdBgD~@oAXShDgA","t":{"maxspeed":"50"}},
   {"g":"mc_tHudzpA@{BIuB]cBc@_AaCyCgAeAsDqBiDsA[Wi@cAm@yDWu@[c@oAcAk@UgBMa@[g@sAsBuIk@oA_@[u@aAc@{@gEgKoBiG{AwFa@y@i@i@_Bw@}EoAoDk@m@a@UY","t":{"maxspeed":"100"}},
   {"g":"qc_tHybzpAB{@","t":{"maxspeed":"100"}},
   {"g":"shatHocxpAlCiGdAiBzDoFhEaF^{@bAaEl@cArTiF~CsAzEaBjAs@~A{AfBaDpBoC","t":{"maxspeed":"100"}},
@@ -68,9 +71,20 @@
   {"g":"auctHejqpAf@iGEmA","t":{"maxspeed":"50"}},
   {"g":"muctHegqpAJ_B","t":{"maxspeed":"50"}},
   {"g":"uvctHk~ppAf@yG","t":{"maxspeed":"50"}},
-  {"g":"svctHo{ppAA{A","t":{"maxspeed":"50"}}
+  {"g":"svctHo{ppAA{A","t":{"maxspeed":"50"}},
+  {"g":"swctHqhppAj@yGBkAOwF","t":{"maxspeed":"50"}},
+  {"g":"cxctHieppANgB","t":{"maxspeed":"50"}},
+  {"g":"kxctHscppAFu@","t":{"maxspeed":"50"}},
+  {"g":"qxctHyappADy@","t":{"maxspeed":"50"}},
+  {"g":"wxctHa`ppADw@","t":{"maxspeed":"50"}},
+  {"g":"yxctHe|opA@{B","t":{"maxspeed":"50"}},
+  {"g":"eyctHakopAJcP","t":{"maxspeed":"50"}},
+  {"g":"a_dtHo|npAd@q@h@sAxAuFPuA","t":{"maxspeed":"50"}},
+  {"g":"eqdtH}bnpAnAyDjDmEfIiL","t":{"maxspeed":"50"}}
 ],
 "stops":[
+  {"s":5296722112,"r":"stop","la":50.652348,"lo":13.352337,"n":"Olbernhau, Gasthof Löser"},
+  {"s":5296722114,"r":"platform","la":50.652325,"lo":13.352289,"n":"Olbernhau, Gasthof Löser"},
   {"s":2097392717,"r":"stop","la":50.650594,"lo":13.364794,"n":"Grünthal, Bahnhof"},
   {"s":5296574807,"r":"platform","la":50.650508,"lo":13.364767,"n":"Grünthal, Bahnhof"},
   {"s":1076399742,"r":"stop","la":50.651136,"lo":13.370413,"n":"Olbernhau, Kulturhalle"},
@@ -103,6 +117,10 @@
   {"s":588337967,"r":"platform","la":50.630496,"lo":13.494428,"n":"Deutscheinsiedel, Warte"},
   {"s":7086257614,"r":"stop","la":50.631833,"lo":13.491469,"n":"Deutscheinsiedel, Landwarenhaus"},
   {"s":356533669,"r":"platform","la":50.631902,"lo":13.491495,"n":"Deutscheinsiedel, Landwarenhaus"},
+  {"s":7086257615,"r":"stop","la":50.634463,"lo":13.483876,"n":"Deutscheinsiedel, Eberhardweg"},
+  {"s":7086257616,"r":"platform","la":50.634478,"lo":13.48391,"n":"Deutscheinsiedel, Eberhardweg"},
+  {"s":260298437,"r":"stop","la":50.641363,"lo":13.477229,"n":"Kurort Seiffen, Freilichtmuseum"},
+  {"s":587645237,"r":"platform","la":50.641394,"lo":13.477245,"n":"Kurort Seiffen, Freilichtmuseum"},
   {"s":2760497772,"r":"stop","la":50.627298,"lo":13.411315,"n":"Niederlochmühle, Forsthaus"},
   {"s":7084887155,"r":"platform","la":50.627333,"lo":13.411304,"n":"Niederlochmühle, Forsthaus"},
   {"s":1076393438,"r":"stop","la":50.640355,"lo":13.396862,"n":"Hirschberg, Post"},
@@ -112,7 +130,9 @@
   {"s":1076399818,"r":"stop","la":50.651321,"lo":13.36973,"n":"Olbernhau, Kulturhalle"},
   {"s":1707347218,"r":"platform","la":50.651375,"lo":13.369759,"n":"Olbernhau, Kulturhalle"},
   {"s":5296574810,"r":"stop","la":50.650825,"lo":13.362864,"n":"Grünthal, Bahnhof"},
-  {"s":2097393627,"r":"platform","la":50.650905,"lo":13.362776,"n":"Grünthal, Bahnhof"}
+  {"s":2097393627,"r":"platform","la":50.650905,"lo":13.362776,"n":"Grünthal, Bahnhof"},
+  {"s":460472388,"r":"stop","la":50.652462,"lo":13.352193,"n":"Olbernhau, Gasthof Löser"},
+  {"s":5296722115,"r":"platform","la":50.652496,"lo":13.352262,"n":"Olbernhau, Gasthof Löser"}
 ],
 "src":[{"k":"osm","id":"r10483525"}]
 }

@@ -3,7 +3,14 @@
 "cc":"CZ",
 "tile":[2771,3891],
 "stops":[
-  {"id":4800063697,"lat":48.599009,"lon":14.56441,"k":"p","n":"Mairspindt b. Windhaag"}
+  {"id":1382205033,"lat":48.585385,"lon":14.56125,"k":"p","n":"Windhaag b. Freistadt Ortsmitte"},
+  {"id":1382205035,"lat":48.585784,"lon":14.561824,"k":"p","n":"Windhaag b. Freistadt Ortsmitte"},
+  {"id":4800063697,"lat":48.599009,"lon":14.56441,"k":"p","n":"Mairspindt b. Windhaag"},
+  {"id":9734164660,"lat":48.585738,"lon":14.561866,"k":"x","n":"Windhaag b. Freistadt Ortsmitte"}
 ],
-"routes":[]
+"routes":[
+  {"id":7165097,"t":{"ref":"327","name":"Bus 327: Freistadt => Grünbach => Mairspindt b.Windhaag","from":"Freistadt","to":"Mairspindt b.Windhaag","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":2,"s":[[1382205033,1],[4800063697,2]]},
+  {"id":7165098,"t":{"ref":"327","name":"Bus 327: Mairspindt b.Windhaag => Grünbach => Freistadt","from":"Mairspindt b.Windhaag","to":"Freistadt","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":2,"s":[[4800063697,1],[1382205035,2]]},
+  {"id":7165186,"t":{"ref":"319","name":"Bus 319: Windhaag => Freistadt => Linz voestalpine","from":"Windhaag","to":"Linz voestalpine","network":"Oberösterreichischer Verkehrsverbund","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":2,"s":[[9734164660,1],[1382205035,2]]}
+]
 }

@@ -3,9 +3,15 @@
 "cc":"CZ",
 "tile":[2777,3873],
 "stops":[
+  {"id":1138067340,"lat":48.863395,"lon":13.685256,"k":"x"},
+  {"id":7029670550,"lat":48.863339,"lon":13.68563,"k":"p","n":"Philippsreut Kricklsäge"},
+  {"id":9846505053,"lat":48.868084,"lon":13.679698,"k":"p","n":"Philippsreut Ortsmitte"},
+  {"id":9846505054,"lat":48.868487,"lon":13.680006,"k":"p","n":"Philippsreut Ortsmitte"},
+  {"id":9850222686,"lat":48.863444,"lon":13.685296,"k":"p","n":"Philippsreut Kricklsäge"},
   {"id":9979386351,"lat":48.876539,"lon":13.695375,"k":"p","n":"Philippsreut Marchhäuser"},
   {"id":9979422789,"lat":48.88491,"lon":13.653536,"k":"p","n":"Philippsreut Neuhäusel"},
   {"id":9979422790,"lat":48.884757,"lon":13.653652,"k":"p","n":"Philippsreut Neuhäusel"},
+  {"id":9979462539,"lat":48.870369,"lon":13.685555,"k":"p","n":"Philippsreut, B12"},
   {"id":9979493417,"lat":48.883511,"lon":13.655467,"k":"p","n":"Philippsreut Vorderfirmiansreut Örtlweg"},
   {"id":9979498399,"lat":48.882515,"lon":13.657229,"k":"p","n":"Philippsreut Vorderfirmiansreut Hochsteiner Weg"},
   {"id":9979498400,"lat":48.882362,"lon":13.657269,"k":"p","n":"Philippsreut Vorderfirmiansreut Hochsteiner Weg"},
@@ -13,7 +19,9 @@
   {"id":10143416841,"lat":48.876966,"lon":13.665799,"k":"p","n":"Philippsreut Vorderfirmiansreut"}
 ],
 "routes":[
-  {"id":2348761,"t":{"ref":"605","name":"Igelbus 605: Philippsreut Ortsmitte=>Freyung Bahnhof","from":"Philippsreut Ortsmitte","to":"Freyung Bahnhof","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[9979422790,1]]},
-  {"id":2348762,"t":{"ref":"605","name":"Igelbus 605: Freyung Bahnhof=>Philippsreut Ortsmitte","from":"Freyung Bahnhof","to":"Philippsreut Ortsmitte","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[9979422789,2]]}
+  {"id":2317497,"t":{"ref":"606","name":"Igelbus 606: Waldkirchen Busbahnhof => Philippsreut Ortsmitte","from":"Waldkirchen Busbahnhof","to":"Philippsreut Ortsmitte","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[9846505053,11]]},
+  {"id":2317498,"t":{"ref":"606","name":"Igelbus 606: Philippsreut Ortsmitte => Waldkirchen Busbahnhof","from":"Philippsreut Ortsmitte","to":"Waldkirchen Busbahnhof","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":11,"s":[[9846505054,1]]},
+  {"id":2348761,"t":{"ref":"605","name":"Igelbus 605: Philippsreut Ortsmitte=>Freyung Bahnhof","from":"Philippsreut Ortsmitte","to":"Freyung Bahnhof","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[9846505053,1],[9979422790,2]]},
+  {"id":2348762,"t":{"ref":"605","name":"Igelbus 605: Freyung Bahnhof=>Philippsreut Ortsmitte","from":"Freyung Bahnhof","to":"Philippsreut Ortsmitte","network":"Verbundtarif DonauWald","operator":"Dafinger GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[9979422789,3],[9846505053,4]]}
 ]
 }

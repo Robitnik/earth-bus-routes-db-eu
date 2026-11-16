@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"CZ",
+"tile":[2821,3887],
+"stops":[
+  {"id":2662097954,"lat":51.053843,"lon":14.38327,"k":"p","n":"Wehrsdorf Erbgericht"},
+  {"id":2662097955,"lat":51.05371,"lon":14.383142,"k":"p","n":"Wehrsdorf Erbgericht"},
+  {"id":2662100503,"lat":51.059422,"lon":14.355127,"k":"p","n":"Steinigtwolmsdorf Viebig"},
+  {"id":2662100504,"lat":51.058996,"lon":14.355599,"k":"p","n":"Steinigtwolmsdorf Viebig"},
+  {"id":2675387784,"lat":51.054715,"lon":14.375219,"k":"p","n":"Wehrsdorf Möbelwerk"},
+  {"id":8488592816,"lat":51.054978,"lon":14.373676,"k":"p","n":"Wehrsdorf Möbelwerk"},
+  {"id":8488611279,"lat":51.055208,"lon":14.381493,"k":"p","n":"Wehrsdorf Grundschule"},
+  {"id":12071389132,"lat":51.054693,"lon":14.375061,"k":"x","n":"Wehrsdorf Möbelwerk"},
+  {"id":12071389133,"lat":51.05502,"lon":14.373698,"k":"x","n":"Wehrsdorf Möbelwerk"},
+  {"id":12891814121,"lat":51.059412,"lon":14.354955,"k":"x","n":"Steinigtwolmsdorf Viebig"},
+  {"id":12891814122,"lat":51.058991,"lon":14.355764,"k":"x","n":"Steinigtwolmsdorf Viebig"},
+  {"id":12892164945,"lat":51.053793,"lon":14.383188,"k":"x","n":"Wehrsdorf Erbgericht"},
+  {"id":12988247669,"lat":51.055164,"lon":14.381498,"k":"x","n":"Wehrsdorf Grundschule"}
+],
+"routes":[
+  {"id":13677786,"t":{"ref":"722","name":"Bus 722: Wehrsdorf => Neukirch => Wilthen => Kirschau","from":"Wehrsdorf Eltwerk","to":"Kirschau Postplatz","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":3,"s":[[2662097954,1],[2675387784,2],[2662100503,3]]},
+  {"id":13677788,"t":{"ref":"722","name":"Bus 722: Kirschau => Wilthen => Neukirch => Wehrsdorf","from":"Kirschau Postplatz","to":"Wehrsdorf Eltwerk","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":3,"s":[[2662100504,1],[8488592816,2],[2662097955,3]]},
+  {"id":17869900,"t":{"ref":"511","name":"PlusBus 511: Bautzen => Kirschau => Sohland => Wehrsdorf","from":"Bautzen Busbahnhof","to":"Wehrsdorf Möbelwerk","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":6,"s":[[2662097954,5],[2675387784,6]]},
+  {"id":17869901,"t":{"ref":"511","name":"PlusBus 511: Wehrsdorf => Sohland => Kirschau => Bautzen","from":"Wehrsdorf Möbelwerk","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":6,"s":[[8488592816,1],[2662097955,2]]},
+  {"id":19205394,"t":{"ref":"724","name":"Bus 724: Bautzen => Gaußig => Neukirch => Wehrsdorf","from":"Bautzen Busbahnhof","to":"Wehrsdorf Eltwerk","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":2,"s":[[8488592816,1],[2662097955,2]]},
+  {"id":19205395,"t":{"ref":"724","name":"Bus 724: Wehrsdorf => Neukirch => Gaußig => Bautzen","from":"Wehrsdorf Eltwerk","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":3,"s":[[2662097954,1],[2675387784,2],[2662100503,3]]},
+  {"id":19335708,"t":{"ref":"725","name":"Bus 725: Wehrsdorf => Taubenheim => Oppach","from":"Wehrsdorf Grundschule","to":"Oppach Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":15,"s":[[8488611279,1],[2675387784,2],[2662097955,3]]},
+  {"id":19335709,"t":{"ref":"725","name":"Bus 725: Oppach => Taubenheim => Wehrsdorf","from":"Oppach Busbahnhof","to":"Wehrsdorf Grundschule","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":15,"s":[[2662097954,13],[8488592816,14],[8488611279,15]]},
+  {"id":20685316,"t":{"ref":"736","name":"Bus 736: Bischofswerda => Neukirch => Wehrsdorf => Sohland","from":"Bischofswerda Bahnhof","to":"Sohland Bahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":3,"s":[[2662100504,1],[8488592816,2],[2662097955,3]]},
+  {"id":20685317,"t":{"ref":"736","name":"Bus 736: Sohland => Wehrsdorf => Neukirch => Bischofswerda","from":"Sohland Bahnhof","to":"Bischofswerda Bahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":3,"s":[[2662097954,1],[2675387784,2],[2662100503,3]]}
+]
+}

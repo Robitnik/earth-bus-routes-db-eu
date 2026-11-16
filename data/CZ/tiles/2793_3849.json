@@ -4,15 +4,16 @@
 "tile":[2793,3849],
 "stops":[
   {"id":7639773240,"lat":49.690063,"lon":12.457866,"k":"p","n":"Brünst, Kastanienhof"},
+  {"id":7678119622,"lat":49.684163,"lon":12.462388,"k":"p","n":"Zollhaus, Gem. Georgenberg"},
   {"id":10195637709,"lat":49.689244,"lon":12.463248,"k":"x","n":"Zollhaus"},
   {"id":10195637710,"lat":49.689261,"lon":12.463207,"k":"p","n":"Zollhaus"},
   {"id":11373413134,"lat":49.690124,"lon":12.459497,"k":"p","n":"Leßlohe, Kastanienhof"}
 ],
 "routes":[
-  {"id":11223206,"t":{"ref":"1937","name":"Bus 1937: Brünst -> Neuenhammer -> Pleystein -> Vohenstrauß","from":"Brünst","to":"Vohenstrauß","network":"VGN","colour":"#46A6AE","route":"bus"},"n":3,"s":[[7639773240,1]]},
-  {"id":11223230,"t":{"ref":"1938","name":"Bus 1938: Lösselmühle -> Pleystein","from":"Lösselmühle","to":"Pleystein","network":"VGN","colour":"#EE1C25","route":"bus"},"n":2,"s":[[7639773240,2]]},
-  {"id":11228260,"t":{"ref":"1938","name":"Bus 1938: Pleystein -> Lösselmühle","from":"Pleystein","to":"Lösselmühle","network":"VGN","colour":"#EE1C25","route":"bus"},"n":2,"s":[[7639773240,1]]},
-  {"id":3015819857408,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Neustadt (Waldnaab)","from":"Zollhaus, Gem. Georgenberg","to":"Neustadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[10195637709,1],[11373413134,2],[7639773240,4]]},
-  {"id":3053811177755,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Floß, Marktplatz","from":"Zollhaus, Gem. Georgenberg","to":"Floß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[10195637709,1],[11373413134,2],[7639773240,4]]}
+  {"id":11223206,"t":{"ref":"1937","name":"Bus 1937: Brünst -> Neuenhammer -> Pleystein -> Vohenstrauß","from":"Brünst","to":"Vohenstrauß","network":"VGN","colour":"#46A6AE","route":"bus"},"n":4,"s":[[7639773240,1]]},
+  {"id":11223230,"t":{"ref":"1938","name":"Bus 1938: Lösselmühle -> Pleystein","from":"Lösselmühle","to":"Pleystein","network":"VGN","colour":"#EE1C25","route":"bus"},"n":3,"s":[[7639773240,2],[7678119622,3]]},
+  {"id":11228260,"t":{"ref":"1938","name":"Bus 1938: Pleystein -> Lösselmühle","from":"Pleystein","to":"Lösselmühle","network":"VGN","colour":"#EE1C25","route":"bus"},"n":3,"s":[[7678119622,1],[7639773240,2]]},
+  {"id":3058159916350,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Floß, Marktplatz","from":"Zollhaus, Gem. Georgenberg","to":"Floß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[10195637709,1],[11373413134,2],[7639773240,4]]},
+  {"id":3059649821854,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Neustadt (Waldnaab)","from":"Zollhaus, Gem. Georgenberg","to":"Neustadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[10195637709,1],[11373413134,2],[7639773240,4]]}
 ]
 }

@@ -4,9 +4,28 @@
 "tile":[2774,3936],
 "stops":[
   {"id":2503482311,"lat":48.721108,"lon":16.800915,"k":"x","n":"Valtice, Boří Dvůr"},
+  {"id":3544990823,"lat":48.700463,"lon":16.827692,"k":"x","n":"Reintal Ackerberg"},
+  {"id":4160562847,"lat":48.700425,"lon":16.827692,"k":"p","n":"Reintal Ackerberg"},
+  {"id":4160562849,"lat":48.700011,"lon":16.822986,"k":"p","n":"Reintal Meierhofgasse"},
+  {"id":4161452803,"lat":48.700614,"lon":16.827731,"k":"p","n":"Reintal Ackerberg"},
   {"id":11763116907,"lat":48.721155,"lon":16.800873,"k":"p","n":"Valtice, Boří Dvůr"}
 ],
 "routes":[
-  {"id":5322372,"t":{"ref":"555","name":"Bus 555: Valtice, Boří Dvůr => Podivín, železniční stanice","from":"Valtice, Boří Dvůr","to":"Podivín, železniční stanice","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:BORS Břeclav;cz:VYDOS;cz:ČSAD Hodonín","route":"bus","public_transport:version":"2"},"n":2,"s":[[11763116907,1]]}
+  {"id":5322372,"t":{"ref":"555","name":"Bus 555: Valtice, Boří Dvůr => Podivín, železniční stanice","from":"Valtice, Boří Dvůr","to":"Podivín, železniční stanice","network":"Integrovaný dopravní systém Jihomoravského kraje","operator":"cz:BORS Břeclav;cz:VYDOS;cz:ČSAD Hodonín","route":"bus","public_transport:version":"2"},"n":2,"s":[[11763116907,1]]},
+  {"id":12501452,"t":{"ref":"150","name":"Bus 150: Bernhardsthal Bahnhof => Wien Floridsdorf","from":"Bernhardsthal Bahnhof","to":"Wien Floridsdorf","network":"VOR","operator":"Gschwindl","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12501453,"t":{"ref":"150","name":"Bus 150: Wien Floridsdorf => Bernhardsthal Bahnhof","from":"Wien Floridsdorf","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl","route":"bus","public_transport:version":"2"},"n":9,"s":[[4160562847,6]]},
+  {"id":12507889,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Katzelsdorf im Weinviertel Ortsmitte","from":"Bernhardsthal Bahnhof","to":"Katzelsdorf im Weinviertel Ortsmitte","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":7,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12507890,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Bernhardsthal Kirche => Poysdorf Mittelschule => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":10,"s":[[4161452803,5],[4160562849,6]]},
+  {"id":12507891,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Mistelbach Alleegasse => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12507892,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12507893,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Poysdorf Mittelschule","from":"Bernhardsthal Bahnhof","to":"Poysdorf Mittelschule","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":11,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12512645,"t":{"ref":"560","name":"Bus 560: Mistelbach Bahnhof => Bernhardsthal Kirche (Volksschule) => Bernhardsthal Bahnhof","from":"Mistelbach Bahnhof","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":10,"s":[[4160562847,6]]},
+  {"id":12512646,"t":{"ref":"560","name":"Bus 560: Mistelbach Bahnhof => Bernhardsthal Bahnhof","from":"Mistelbach Bahnhof","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":11,"s":[[4160562847,8]]},
+  {"id":12512648,"t":{"ref":"560","name":"Bus 560: Poysdorf Dreifaltigkeitsplatz => Bernhardsthal Bahnhof","from":"Poysdorf Dreifaltigkeitsplatz","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":9,"s":[[4160562847,6]]},
+  {"id":12512649,"t":{"ref":"560","name":"Bus 560: Poysdorf Volksschule => Bernhardsthal Bahnhof","from":"Poysdorf Volksschule","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":11,"s":[[4160562847,8]]},
+  {"id":12524330,"t":{"ref":"566","name":"Bus 566: Bernhardsthal Bahnhof => Althöflein Ortsmitte => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":7,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12524331,"t":{"ref":"566","name":"Bus 566: Bernhardsthal Bahnhof => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":7,"s":[[4161452803,4],[4160562849,5]]},
+  {"id":12524332,"t":{"ref":"566","name":"Bus 566: Großkrut Schulen => Bernhardsthal Bahnhof","from":"Großkrut Schulen","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":7,"s":[[4160562847,4]]},
+  {"id":12524333,"t":{"ref":"566","name":"Bus 566: Mistelbach Bahnhof => Bernhardsthal Bahnhof","from":"Mistelbach Bahnhof","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":7,"s":[[4160562847,4]]}
 ]
 }

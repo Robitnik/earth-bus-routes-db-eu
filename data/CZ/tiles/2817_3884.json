@@ -3,24 +3,36 @@
 "cc":"CZ",
 "tile":[2817,3884],
 "stops":[
+  {"id":27300158,"lat":50.896822,"lon":14.225114,"k":"x","n":"Schmilka, Ortsanfang"},
   {"id":27300200,"lat":50.866875,"lon":14.231391,"k":"x","n":"Hřensko, Na výsluní"},
   {"id":390842316,"lat":50.8739,"lon":14.242527,"k":"p","n":"Hřensko, střed"},
   {"id":390842317,"lat":50.874202,"lon":14.242835,"k":"p","n":"Hřensko, střed"},
+  {"id":390842318,"lat":50.896848,"lon":14.225153,"k":"p","n":"Ortsanfang"},
+  {"id":390842319,"lat":50.897258,"lon":14.2245,"k":"p","n":"Ortsanfang"},
+  {"id":475139833,"lat":50.892009,"lon":14.229769,"k":"p","n":"Grenzübergang"},
   {"id":526154761,"lat":50.874126,"lon":14.242819,"k":"x","n":"Hřensko, střed"},
   {"id":2971960682,"lat":50.859015,"lon":14.225042,"k":"p","n":"Děčín, Dolní Žleb, hranice"},
   {"id":2971978084,"lat":50.873069,"lon":14.235444,"k":"p","n":"Hřensko, nábřeží","ref":"Hřensko, nábřezi"},
   {"id":2971978085,"lat":50.873563,"lon":14.235864,"k":"p","n":"Hřensko, nábřeží","ref":"Hřensko, nábřezi"},
+  {"id":4083574856,"lat":50.892029,"lon":14.229823,"k":"x","n":"Schmilka, Grenzübergang"},
   {"id":6630851083,"lat":50.881949,"lon":14.237451,"k":"p","n":"Hřensko, přívoz"},
+  {"id":8408661617,"lat":50.897301,"lon":14.224576,"k":"x","n":"Schmilka, Ortsanfang"},
   {"id":9662593831,"lat":50.866841,"lon":14.231475,"k":"p","n":"Hřensko, Na výsluní","ref":"Hřensko, Na výsluní"},
   {"id":9662593836,"lat":50.866894,"lon":14.231342,"k":"p","n":"Hřensko, Na výsluní","ref":"Hřensko, Na výsluní"},
   {"id":9981188330,"lat":50.859,"lon":14.224931,"k":"p","n":"Děčín, Dolní Žleb, hranice"},
   {"id":12154731029,"lat":50.875408,"lon":14.236744,"k":"x","n":"Hřensko,přívoz"}
 ],
 "routes":[
-  {"id":6897025,"t":{"ref":"435","from":"Schmilka,Grenzübergang","to":"Hřensko,Mezná","network":"Doprava Ústeckého kraje","operator":"DÚK","route":"bus"},"n":8,"s":[[390842316,7],[390842317,8]]},
-  {"id":3012016839194,"t":{"ref":"438","name":"438: Hřensko,Mezná - Děčín,aut.nádr.","from":"Hřensko,Mezná","to":"Děčín,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":17,"s":[[526154761,6],[2971978085,7],[27300200,8],[2971960682,9]]},
-  {"id":3083289117236,"t":{"ref":"438","name":"438: Děčín,aut.nádr. - Hřensko,Mezná","from":"Děčín,aut.nádr.","to":"Hřensko,Mezná","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[2971960682,10],[27300200,11],[2971978085,12],[526154761,13]]},
-  {"id":3095270825646,"t":{"ref":"434","name":"434: Děčín,aut.nádr. - Krásná Lípa,nám.","from":"Děčín,aut.nádr.","to":"Krásná Lípa,nám.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":41,"s":[[2971960682,10],[27300200,11],[2971978085,12],[526154761,13]]},
-  {"id":3097987883731,"t":{"ref":"434","name":"434: Krásná Lípa,nám. - Děčín,aut.nádr.","from":"Krásná Lípa,nám.","to":"Děčín,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":40,"s":[[526154761,29],[2971978085,30],[27300200,31],[2971960682,32]]}
+  {"id":6087818,"t":{"ref":"252","name":"Bus 252: Schmilka Grenzübergang => Schöna Dorfplatz","from":"Schmilka, Grenzübergang","to":"Schöna, Dorfplatz","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[475139833,1],[390842318,2]]},
+  {"id":6897025,"t":{"ref":"435","from":"Schmilka,Grenzübergang","to":"Hřensko,Mezná","network":"Doprava Ústeckého kraje","operator":"DÚK","route":"bus"},"n":9,"s":[[475139833,7],[390842316,8],[390842317,9]]},
+  {"id":12294728,"t":{"ref":"252","name":"Bus 252: Schöna Dorfplatz => Schmilka Grenzübergang","from":"Schöna, Dorfplatz","to":"Schmilka, Grenzübergang","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[390842319,1],[475139833,2]]},
+  {"id":12294729,"t":{"ref":"252","name":"Bus 252: Schöna Dorfplatz => Schmilka Grenzübergang","from":"Schöna, Dorfplatz","to":"Schmilka, Grenzübergang","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[390842319,1],[475139833,2]]},
+  {"id":12294731,"t":{"ref":"252","name":"Bus 252: Schmilka Grenzübergang => Königstein Reißigerplatz/Bahnhof","from":"Schmilka, Grenzübergang","to":"Königstein, Reißigerplatz/Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[475139833,1],[390842318,2]]},
+  {"id":12294732,"t":{"ref":"252","name":"Bus 252: Schmilka Grenzübergang => Schöna Dorfplatz","from":"Schmilka, Grenzübergang","to":"Schöna, Dorfplatz","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[475139833,1],[390842318,2]]},
+  {"id":16756942,"t":{"name":"Nationalparkexpress: Königstein => Bad Schandau => Hrensko => Mezní Louka","route":"bus","public_transport:version":"2"},"n":3,"s":[[475139833,1]]},
+  {"id":3015290434125,"t":{"ref":"438","name":"438: Děčín,aut.nádr. - Hřensko,Mezná","from":"Děčín,aut.nádr.","to":"Hřensko,Mezná","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[2971960682,10],[27300200,11],[2971978085,12],[526154761,13]]},
+  {"id":3021811499958,"t":{"ref":"434","name":"434: Děčín,aut.nádr. - Krásná Lípa,nám.","from":"Děčín,aut.nádr.","to":"Krásná Lípa,nám.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":41,"s":[[2971960682,10],[27300200,11],[2971978085,12],[526154761,13]]},
+  {"id":3059607005946,"t":{"ref":"438","name":"438: Hřensko,Mezná - Děčín,aut.nádr.","from":"Hřensko,Mezná","to":"Děčín,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":17,"s":[[526154761,6],[2971978085,7],[27300200,8],[2971960682,9]]},
+  {"id":3079148547239,"t":{"ref":"434","name":"434: Krásná Lípa,nám. - Děčín,aut.nádr.","from":"Krásná Lípa,nám.","to":"Děčín,aut.nádr.","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":40,"s":[[526154761,29],[2971978085,30],[27300200,31],[2971960682,32]]}
 ]
 }

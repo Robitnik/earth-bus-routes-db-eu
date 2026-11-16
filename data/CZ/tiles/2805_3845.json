@@ -3,17 +3,26 @@
 "cc":"CZ",
 "tile":[2805,3845],
 "stops":[
+  {"id":5191715762,"lat":50.274298,"lon":12.275663,"k":"x","n":"Sohl, Friedhof"},
   {"id":6806156082,"lat":50.274703,"lon":12.252165,"k":"p","n":"Reuth, Untere Reuth"},
+  {"id":8715829952,"lat":50.274284,"lon":12.27574,"k":"p","n":"Sohl, Friedhof"},
+  {"id":8715829953,"lat":50.274323,"lon":12.275583,"k":"p","n":"Sohl, Friedhof"},
+  {"id":8715829954,"lat":50.275086,"lon":12.267661,"k":"x","n":"Reuth, Wende"},
+  {"id":8715829955,"lat":50.275099,"lon":12.26771,"k":"p","n":"Reuth, Wende"},
   {"id":8715829956,"lat":50.274624,"lon":12.252319,"k":"x","n":"Reuth, Untere Reuth"},
   {"id":8715829957,"lat":50.27454,"lon":12.252557,"k":"p","n":"Reuth, Untere Reuth"},
-  {"id":6049824635148,"lat":50.257171,"lon":12.292088,"k":"p","n":"Raun, Wende","g":1},
-  {"id":6069886358138,"lat":50.255075,"lon":12.288342,"k":"p","n":"Raun, Milchhaus","g":1}
+  {"id":8715957488,"lat":50.255085,"lon":12.288357,"k":"x","n":"Raun, Milchhaus"},
+  {"id":13971363617,"lat":50.273005,"lon":12.281716,"k":"x","n":"Sohl, Am Teich"},
+  {"id":13971363618,"lat":50.271051,"lon":12.277895,"k":"x","n":"Sohl, Schwarzenbrunn"},
+  {"id":13971363619,"lat":50.271068,"lon":12.277873,"k":"p","n":"Sohl, Schwarzenbrunn"},
+  {"id":13971363620,"lat":50.272992,"lon":12.281741,"k":"p","n":"Sohl, Am Teich"},
+  {"id":6049824635148,"lat":50.257171,"lon":12.292088,"k":"p","n":"Raun, Wende","g":1}
 ],
 "routes":[
-  {"id":12790337,"t":{"ref":"94","name":"Bus 94: Adorf => Sohl => Bad Elster","from":"Adorf, Bahnhof","to":"Bad Elster, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[6806156082,1]]},
-  {"id":12790339,"t":{"ref":"94","name":"Bus 94: Bad Elster => Sohl => Adorf","from":"Bad Elster, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[8715829957,2]]},
-  {"id":12790524,"t":{"ref":"95","name":"Bus 95: Bärenloh => Bad Elster => Sohl","from":"Bad Elster, Obere Bärenloh","to":"Sohl, Wende","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[8715829957,7]]},
-  {"id":12790526,"t":{"ref":"95","name":"Bus 95: Sohl => Bad Elster => Bärenloh","from":"Sohl, Wende","to":"Bad Elster, Obere Bärenloh","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[6806156082,1]]},
-  {"id":3006735195742,"t":{"ref":"36","name":"36: Gürth, Warte - Bad Brambach, Bahnhof","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","operator":"POB Vnetz Hauptlinien","route":"bus","public_transport:version":"2"},"n":11,"s":[[6069886358138,2],[6049824635148,3]]}
+  {"id":12790337,"t":{"ref":"94","name":"Bus 94: Adorf => Sohl => Bad Elster","from":"Adorf, Bahnhof","to":"Bad Elster, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":17,"s":[[8715829953,1],[8715829955,2],[6806156082,3]]},
+  {"id":12790339,"t":{"ref":"94","name":"Bus 94: Bad Elster => Sohl => Adorf","from":"Bad Elster, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":15,"s":[[8715829957,13],[8715829955,14],[8715829952,15]]},
+  {"id":12790524,"t":{"ref":"95","name":"Bus 95: Bärenloh => Bad Elster => Sohl","from":"Bad Elster, Obere Bärenloh","to":"Sohl, Wende","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":36,"s":[[8715829957,32],[8715829955,33],[8715829952,34],[13971363619,35],[13971363620,36]]},
+  {"id":12790526,"t":{"ref":"95","name":"Bus 95: Sohl => Bad Elster => Bärenloh","from":"Sohl, Wende","to":"Bad Elster, Obere Bärenloh","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":36,"s":[[13971363619,1],[13971363620,2],[8715829953,3],[8715829955,4],[6806156082,5]]},
+  {"id":3097416295925,"t":{"ref":"36","name":"Bus 36: Gürth => Bad Brambach","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":11,"s":[[8715957488,2],[6049824635148,3]]}
 ]
 }

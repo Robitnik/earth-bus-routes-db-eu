@@ -3,11 +3,30 @@
 "cc":"CZ",
 "tile":[2775,3919],
 "stops":[
-  {"id":1071118545,"lat":48.796858,"lon":15.987859,"k":"p","n":"Hnánice"}
+  {"id":1071118545,"lat":48.796858,"lon":15.987859,"k":"p","n":"Hnánice"},
+  {"id":1864281722,"lat":48.769227,"lon":15.99579,"k":"x","n":"Unterretzbach Hauptstraße"},
+  {"id":1977049685,"lat":48.782754,"lon":15.976108,"k":"p","n":"Mitterretzbach Ortsmitte"},
+  {"id":1977049700,"lat":48.781959,"lon":15.972605,"k":"p","n":"Oberretzbach Hauptstraße"},
+  {"id":1977049702,"lat":48.781879,"lon":15.972699,"k":"p","n":"Oberretzbach Hauptstraße"},
+  {"id":1977049703,"lat":48.782857,"lon":15.976231,"k":"p","n":"Mitterretzbach Ortsmitte"},
+  {"id":5647446155,"lat":48.769371,"lon":15.995473,"k":"x","n":"Unterretzbach Hauptstraße"},
+  {"id":5647446156,"lat":48.769412,"lon":15.995514,"k":"p","n":"Unterretzbach Hauptstraße"},
+  {"id":5647446183,"lat":48.769192,"lon":15.995764,"k":"p","n":"Unterretzbach Hauptstraße"},
+  {"id":5647446184,"lat":48.782832,"lon":15.97618,"k":"x","n":"Mitterretzbach Ortsmitte"},
+  {"id":5647446185,"lat":48.781914,"lon":15.972651,"k":"x","n":"Oberretzbach Hauptstraße"}
 ],
 "routes":[
-  {"id":3036975270941,"t":{"ref":"818","name":"818: Šatov,ObÚ - Znojmo,aut.nádr.","from":"Šatov,ObÚ","to":"Znojmo,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":10,"s":[[1071118545,3]]},
-  {"id":3047033492347,"t":{"ref":"818","name":"818: Znojmo,aut.nádr. - Šatov,ObÚ","from":"Znojmo,aut.nádr.","to":"Šatov,ObÚ","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":10,"s":[[1071118545,8]]},
-  {"id":3066382762671,"t":{"ref":"818","name":"818: Šatov,ObÚ - Znojmo,aut.nádr.","from":"Šatov,ObÚ","to":"Znojmo,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[1071118545,3]]}
+  {"id":8334335,"t":{"ref":"815","name":"Bus 815: Unterretzbach Bahnstraße => Retz Bahnhof","from":"Unterretzbach Bahnstraße","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334336,"t":{"ref":"815","name":"Bus 815: Kleinriedenthal Ort => Retz Bahnhof","from":"Kleinriedenthal Ort","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334338,"t":{"ref":"815","name":"Bus 815: Jetzelsdorf Kriegerdenkmal => Retz Schulen => Retz Bahnhof (nicht über Pfaffendorf Kirchenplatz)","from":"Jetzelsdorf Kriegerdenkmal","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334339,"t":{"ref":"815","name":"Bus 815: Jetzelsdorf Kriegerdenkmal => Retz Bahnhof","from":"Jetzelsdorf Kriegerdenkmal","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334340,"t":{"ref":"815","name":"Bus 815: Jetzelsdorf Kriegerdenkmal => Retz Schulen => Retz Bahnhof","from":"Jetzelsdorf Kriegerdenkmal","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334341,"t":{"ref":"815","name":"Bus 815: Jetzelsdorf Kriegerdenkmal => Pfaffendorf Franz-Ecker-Siedlung => Retz Schulen => Retz Bahnhof","from":"Jetzelsdorf Kriegerdenkmal","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334344,"t":{"ref":"815","name":"Bus 815: Haugsdorf Mittelschule => Retz Bahnhof","from":"Haugsdorf Mittelschule","to":"Retz Bahnhof","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[5647446156,3],[1977049703,4],[1977049700,5]]},
+  {"id":8334347,"t":{"ref":"815","name":"Bus 815: Retz Bahnhof => Jetzelsdorf Kriegerdenkmal","from":"Retz Bahnhof","to":"Jetzelsdorf Kriegerdenkmal","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[1977049702,1],[1977049685,2],[5647446183,3]]},
+  {"id":8334348,"t":{"ref":"815","name":"Bus 815: Retz Bahnhof => Pfaffendorf Kirchenplatz => Jetzelsdorf Kriegerdenkmal","from":"Retz Bahnhof","to":"Jetzelsdorf Kriegerdenkmal","network":"VOR","operator":"Österreichische Postbus AG","route":"bus","public_transport:version":"2"},"n":5,"s":[[1977049702,1],[1977049685,2],[5647446183,3]]},
+  {"id":3002611561150,"t":{"ref":"818","name":"818: Šatov,ObÚ - Znojmo,aut.nádr.","from":"Šatov,ObÚ","to":"Znojmo,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":13,"s":[[1071118545,3]]},
+  {"id":3019550736696,"t":{"ref":"818","name":"818: Znojmo,aut.nádr. - Šatov,ObÚ","from":"Znojmo,aut.nádr.","to":"Šatov,ObÚ","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":10,"s":[[1071118545,8]]},
+  {"id":3063444673787,"t":{"ref":"818","name":"818: Šatov,ObÚ - Znojmo,aut.nádr.","from":"Šatov,ObÚ","to":"Znojmo,aut.nádr.","operator":"BDS-BUS, s.r.o.","route":"bus","public_transport:version":"2"},"n":10,"s":[[1071118545,3]]}
 ]
 }

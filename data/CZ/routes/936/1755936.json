@@ -5,6 +5,8 @@
 "mode":"bus",
 "t":{"ref":"367","name":"Bus 367: Kurort Kipsdorf Bahnhof => Geising Bahnhof","from":"Kurort Kipsdorf, Bahnhof","to":"Geising, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","public_transport:version":"2","route":"bus"},
 "ways":[
+  {"g":"crwtHka~rA|CdErB`C|AbAjAZhIb@","t":{"maxspeed":"70"}},
+  {"g":"uvvtHsr}rAgBK","t":{"maxspeed:forward":"70","maxspeed:backward":"50"}},
   {"g":"uvvtHsr}rAHmARaAh@_Av@_@~UaBtBLxBr@x@h@xDdDvAv@fBd@`BHvBUlDoAz@g@fGaG"},
   {"g":"clttHux~rApAxKFr@CpAKh@_@~@}@vAmBvB","t":{"maxspeed":"50","maxspeed:type":"sign"}},
   {"g":"umttHgz~rAFd@VPPE"},
@@ -16,15 +18,27 @@
   {"g":"kmttHua_sA@H","t":{"maxspeed":"50","maxspeed:type":"sign"}},
   {"g":"umttHcp_sABl@EdAJxI","t":{"maxspeed":"50","maxspeed:type":"sign"}},
   {"g":"srttHyp_sA|ALl@IPP","t":{"maxspeed":"50","maxspeed:type":"sign"}},
-  {"g":"}zutHiv`sA~AtBlBhB~@~Bv@tChBhFh@|@jAtA`CxA`Bp@lCZfCbAhFnA"}
+  {"g":"}zutHiv`sA~AtBlBhB~@~Bv@tChBhFh@|@jAtA`CxA`Bp@lCZfCbAhFnA"},
+  {"g":"m{utHiw`sAN^","t":{"maxspeed:type":"DE:urban"}},
+  {"g":"}svtHo}asAf@nAhAdF\\jERrAxBnGb@\\zDdBhE~Ah@l@\\lA"},
+  {"g":"gtvtHa~asAHP"},
+  {"g":"o|vtH}gcsAdAhD\\zADfAAzDZ~CBpEFbAnAjHf@nA"},
+  {"g":"yjwtHgfdsAtDpMl@`B~D~Hd@tA"},
+  {"g":"y`xtHq|dsAnGxCbGfDTZ^dAtBdH"}
 ],
 "stops":[
   {"s":315888487,"r":"stop","la":50.744521,"lo":13.757065,"n":"Zinnwald-Georgenfeld, Zollhof"},
+  {"s":8454244391,"r":"platform","la":50.744521,"lo":13.756985,"n":"Zollhof"},
   {"s":2116650337,"r":"stop","la":50.737113,"lo":13.756974,"n":"Zinnwald, Zum Lugstein"},
   {"s":2116650420,"r":"platform","la":50.73708,"lo":13.75688,"n":"Zum Lugstein"},
   {"s":2130912092,"r":"stop","la":50.736433,"lo":13.7618,"n":"Zinnwald, Wendeplatz"},
   {"s":8485351253,"r":"platform","la":50.736494,"lo":13.761771,"n":"Wendeplatz"},
-  {"s":489592124,"r":"stop","la":50.743186,"lo":13.770822,"n":"Zinnwald, Geisingstraße"}
+  {"s":489592124,"r":"stop","la":50.743186,"lo":13.770822,"n":"Zinnwald, Geisingstraße"},
+  {"s":8485351252,"r":"platform","la":50.743154,"lo":13.770888,"n":"Geisingstraße"},
+  {"s":489602805,"r":"stop","la":50.74783,"lo":13.777967,"n":"Geisling, Teplitzer Straße"},
+  {"s":8485351250,"r":"platform","la":50.747802,"lo":13.77799,"n":"Teplitzer Straße"},
+  {"s":3523912779,"r":"stop","la":50.751309,"lo":13.78927,"n":"Geising, Siedlung"},
+  {"s":8485351248,"r":"platform","la":50.751272,"lo":13.789287,"n":"Siedlung"}
 ],
 "src":[{"k":"osm","id":"r1755936"}]
 }

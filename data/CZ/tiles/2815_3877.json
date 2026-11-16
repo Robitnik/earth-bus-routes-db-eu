@@ -3,9 +3,21 @@
 "cc":"CZ",
 "tile":[2815,3877],
 "stops":[
+  {"id":212694706,"lat":50.758188,"lon":13.873423,"k":"x","n":"Fürstenwalde, Oberdorf"},
+  {"id":1434984776,"lat":50.759096,"lon":13.86255,"k":"x","n":"Fürstenwalde, Erbgericht"},
+  {"id":3516008265,"lat":50.761534,"lon":13.854255,"k":"x","n":"Fürstenwalde, Kratzhammer"},
+  {"id":8485351218,"lat":50.759067,"lon":13.862569,"k":"p","n":"Erbgericht"},
+  {"id":8485351219,"lat":50.759126,"lon":13.862505,"k":"p","n":"Erbgericht"},
+  {"id":8485351220,"lat":50.758234,"lon":13.873412,"k":"p","n":"Oberdorf"},
+  {"id":8485351221,"lat":50.758148,"lon":13.873435,"k":"p","n":"Oberdorf"},
   {"id":6030415345318,"lat":50.78301,"lon":13.89839,"k":"p","n":"Krásný Les,CLO","g":1}
 ],
 "routes":[
-  {"id":3096428952860,"t":{"ref":"263","name":"263: Praha,ÚAN Florenc - Berlin,ZOB am Funkturm","from":"Praha,ÚAN Florenc","to":"Berlin,ZOB am Funkturm","operator":"STUDENT AGENCY k.s.","route":"bus","public_transport:version":"2"},"n":6,"s":[[6030415345318,2]]}
+  {"id":1754499,"t":{"ref":"368","name":"Bus 368: Glashütte Bahnhof => Kurort Altenberg Bahnhof","from":"Glashütte, Bahnhof/Busbahnhof","to":"Kurort Altenberg, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[8485351220,1],[8485351219,2]]},
+  {"id":12396687,"t":{"ref":"368","name":"Bus 368: Kurort Altenberg Bahnhof => Glashütte Bahnhof","from":"Kurort Altenberg, Bahnhof","to":"Glashütte, Bahnhof/Busbahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[8485351218,5],[8485351221,6]]},
+  {"id":12396688,"t":{"ref":"368","name":"Bus 368: Kurort Altenberg Bahnhof => Glashütte Bahnhof","from":"Kurort Altenberg, Bahnhof","to":"Glashütte, Bahnhof/Busbahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[8485351218,6],[8485351221,7]]},
+  {"id":12396689,"t":{"ref":"368","name":"Bus 368: Glashütte Bahnhof => Kurort Altenberg Bahnhof","from":"Glashütte, Bahnhof/Busbahnhof","to":"Kurort Altenberg, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[8485351220,1],[8485351219,2]]},
+  {"id":3018828746413,"t":{"ref":"263","name":"263: Krásný Les,CLO - Praha,ÚAN Florenc","from":"Krásný Les,CLO","to":"Praha,ÚAN Florenc","operator":"STUDENT AGENCY k.s.","route":"bus","public_transport:version":"2"},"n":2,"s":[[6030415345318,1]]},
+  {"id":3042867134288,"t":{"ref":"263","name":"263: Praha,ÚAN Florenc - Krásný Les,CLO","from":"Praha,ÚAN Florenc","to":"Krásný Les,CLO","operator":"STUDENT AGENCY k.s.","route":"bus","public_transport:version":"2"},"n":2,"s":[[6030415345318,2]]}
 ]
 }

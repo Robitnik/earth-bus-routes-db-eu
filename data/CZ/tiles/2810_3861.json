@@ -3,13 +3,27 @@
 "cc":"CZ",
 "tile":[2810,3861],
 "stops":[
+  {"id":2089226402,"lat":50.514385,"lon":13.089692,"k":"p","n":"Jöhstadt, Markt"},
   {"id":2584160085,"lat":50.501194,"lon":13.060496,"k":"x","n":"Jöhstadt, Berghof"},
+  {"id":7228583770,"lat":50.511738,"lon":13.09761,"k":"x","n":"Jöhstadt, Einkaufsmarkt"},
+  {"id":7228583771,"lat":50.511769,"lon":13.097587,"k":"p","n":"Jöhstadt, Einkaufsmarkt"},
+  {"id":7228583772,"lat":50.511859,"lon":13.097971,"k":"x","n":"Jöhstadt, Einkaufsmarkt"},
+  {"id":7228583773,"lat":50.511818,"lon":13.098003,"k":"p","n":"Jöhstadt, Einkaufsmarkt"},
+  {"id":7228583775,"lat":50.514362,"lon":13.089736,"k":"x","n":"Jöhstadt, Markt"},
+  {"id":7228583777,"lat":50.523592,"lon":13.075476,"k":"x","n":"Jöhstadt, Schullandheim"},
+  {"id":7228583779,"lat":50.522871,"lon":13.076051,"k":"x","n":"Jöhstadt, Schullandheim"},
   {"id":7333315988,"lat":50.501179,"lon":13.060395,"k":"x","n":"Jöhstadt, Berghof"},
   {"id":7333315989,"lat":50.501215,"lon":13.060387,"k":"p","n":"Jöhstadt, Berghof"},
   {"id":7333315990,"lat":50.501151,"lon":13.060516,"k":"p","n":"Jöhstadt, Berghof"}
 ],
 "routes":[
-  {"id":10915338,"t":{"ref":"429","name":"Bus 429: Jöhstadt => Kurort Oberwiesenthal","from":"Jöhstadt, Markt","to":"Kurort Oberwiesenthal, Am Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[7333315989,1]]},
-  {"id":10915339,"t":{"ref":"429","name":"Bus 429: Kurort Oberwiesenthal => Jöhstadt","from":"Kurort Oberwiesenthal, Am Bahnhof","to":"Jöhstadt, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[7333315990,15]]}
+  {"id":10731392,"t":{"ref":"430","name":"Bus 430: Jöhstadt, Markt => Grumbach, Arnsfelder Straße","from":"Jöhstadt, Markt","to":"Grumbach, Arnsfelder Straße","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[7228583775,1],[2089226402,2]]},
+  {"id":10731393,"t":{"ref":"430","name":"Bus 430: Annaberg-Buchholz, Busbahnhof => Grumbach => Jöhstadt => Königswalde => Annaberg-Buchholz, Busbahnhof","from":"Annaberg-Buchholz, Busbahnhof","to":"Annaberg-Buchholz, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[7228583775,1],[7228583779,2]]},
+  {"id":10731394,"t":{"ref":"430","name":"Bus 430: Königswalde, Unterdorf => Jöhstadt, Markt","from":"Königswalde, Unterdorf","to":"Jöhstadt, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[7228583777,1],[7228583775,2]]},
+  {"id":10731396,"t":{"ref":"430","name":"Bus 430: Annaberg-Buchholz, Busbahnhof => Königswalde => Jöhstadt => Grumbach => Annaberg-Buchholz, Busbahnhof","from":"Annaberg-Buchholz, Busbahnhof","to":"Annaberg-Buchholz, Busbahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2089226402,1],[7228583773,2]]},
+  {"id":10758172,"t":{"ref":"422","name":"Bus 422: Oberschmiedeberg, Talstraße => Jöhstadt, Markt","from":"Oberschmiedeberg, Talstraße","to":"Jöhstadt, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[7228583771,5],[2089226402,6]]},
+  {"id":10758173,"t":{"ref":"422","name":"Bus 422: Jöhstadt, Markt => Oberschmiedeberg, Talstraße","from":"Jöhstadt, Markt","to":"Oberschmiedeberg, Talstraße","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[2089226402,1],[7228583773,2]]},
+  {"id":10915338,"t":{"ref":"429","name":"Bus 429: Jöhstadt => Kurort Oberwiesenthal","from":"Jöhstadt, Markt","to":"Kurort Oberwiesenthal, Am Bahnhof","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[2089226402,1],[7333315989,2]]},
+  {"id":10915339,"t":{"ref":"429","name":"Bus 429: Kurort Oberwiesenthal => Jöhstadt","from":"Kurort Oberwiesenthal, Am Bahnhof","to":"Jöhstadt, Markt","network":"Verkehrsverbund Mittelsachsen","operator":"Regionalverkehr Erzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":16,"s":[[7333315990,15],[2089226402,16]]}
 ]
 }

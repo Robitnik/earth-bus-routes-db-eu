@@ -3,9 +3,20 @@
 "cc":"CZ",
 "tile":[2821,3890],
 "stops":[
-  {"id":6050461183570,"lat":51.057539,"lon":14.501378,"k":"p","n":"Oppach Dresdener Straße","g":1}
+  {"id":451607116,"lat":51.06379,"lon":14.51058,"k":"p","n":"Oppach Gasthaus Pursche"},
+  {"id":451607118,"lat":51.063348,"lon":14.51011,"k":"p","n":"Oppach Gasthaus Pursche"},
+  {"id":451607119,"lat":51.060157,"lon":14.503945,"k":"p","n":"Oppach Auenmühle"},
+  {"id":451607121,"lat":51.060077,"lon":14.503408,"k":"p","n":"Oppach Auenmühle"},
+  {"id":451607136,"lat":51.057531,"lon":14.501404,"k":"p","n":"Oppach Dresdener Straße"},
+  {"id":451612617,"lat":51.050378,"lon":14.509183,"k":"p","n":"Oppach Heiterer Blick"},
+  {"id":451612619,"lat":51.050368,"lon":14.50941,"k":"p","n":"Oppach Heiterer Blick"}
 ],
 "routes":[
-  {"id":3079610727413,"t":{"ref":"513","name":"513: Taubenheim Bahnhof - Bautzen Busbahnhof","from":"Taubenheim Bahnhof","to":"Bautzen Busbahnhof","operator":"S.Wilhelm-OBB","route":"bus","public_transport:version":"2"},"n":33,"s":[[6050461183570,6]]}
+  {"id":1319267,"t":{"ref":"50","name":"PlusBus 50: Löbau => Oppach => Ebersbach => Neugersdorf","from":"Löbau Busbahnhof","to":"Neugersdorf Marktplatz","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":23,"s":[[451607116,1],[451607121,2],[451607136,4],[451612617,5]]},
+  {"id":1319268,"t":{"ref":"50","name":"PlusBus 50: Neugersdorf => Ebersbach => Oppach => Löbau","from":"Neugersdorf Marktplatz","to":"Löbau Busbahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":22,"s":[[451612619,18],[451607136,20],[451607119,21],[451607118,22]]},
+  {"id":14217367,"t":{"ref":"513","name":"TaktBus 513: Taubenheim => Oppach => Großpostwitz => Singwitz => Bautzen","from":"Taubenheim Bahnhof","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Omnibusbetrieb Siegfried Wilhelm","route":"bus","public_transport:version":"2"},"n":6,"s":[[451607136,6]]},
+  {"id":17590233,"t":{"ref":"S33","name":"Schulbus S33: Beiersdorf => Dürrhennersdorf => Neusalza-Spremberg => Oppach","from":"Beiersdorf Kretscham","to":"Oppach Busbahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":7,"s":[[451612619,6]]},
+  {"id":17590234,"t":{"ref":"S33","name":"Schulbus S33: Oppach => Neusalza-Spremberg => Dürrhennersdorf => Beiersdorf","from":"Oppach Busbahnhof","to":"Beiersdorf Kretscham","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":6,"s":[[451612617,2]]},
+  {"id":3073491071938,"t":{"ref":"513","name":"513: Taubenheim Bahnhof - Bautzen Busbahnhof","from":"Taubenheim Bahnhof","to":"Bautzen Busbahnhof","operator":"S.Wilhelm-OBB","route":"bus","public_transport:version":"2"},"n":33,"s":[[451607136,6]]}
 ]
 }

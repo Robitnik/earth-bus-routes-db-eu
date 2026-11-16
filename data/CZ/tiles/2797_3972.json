@@ -3,8 +3,36 @@
 "cc":"CZ",
 "tile":[2797,3972],
 "stops":[
+  {"id":9525654091,"lat":49.869433,"lon":18.624784,"k":"p","n":"Zebrzydowice PKP"},
+  {"id":9525654094,"lat":49.875359,"lon":18.61726,"k":"p","n":"Zebrzydowice Szkoła"},
+  {"id":9525654095,"lat":49.87491,"lon":18.617754,"k":"p","n":"Zebrzydowice Szkoła"},
+  {"id":9525654096,"lat":49.877422,"lon":18.611876,"k":"p","n":"Zebrzydowice Kino"},
+  {"id":9525654097,"lat":49.87768,"lon":18.608361,"k":"p","n":"Zebrzydowice Kino"},
+  {"id":9525654098,"lat":49.878624,"lon":18.601872,"k":"p","n":"Zebrzydowice Skrzyżowanie"},
+  {"id":9525654099,"lat":49.879128,"lon":18.602187,"k":"p","n":"Zebrzydowice Skrzyżowanie"},
+  {"id":9525654104,"lat":49.87774,"lon":18.60051,"k":"p","n":"Zebrzydowice Skotnica"},
+  {"id":9525654115,"lat":49.856981,"lon":18.610019,"k":"p","n":"Kończyce Podlesie"},
+  {"id":9525654116,"lat":49.856931,"lon":18.609833,"k":"p","n":"Kończyce Podlesie"},
+  {"id":11998061890,"lat":49.869341,"lon":18.624767,"k":"x","n":"Zebrzydowice PKP"},
   {"id":11998685966,"lat":49.853769,"lon":18.600781,"k":"p","n":"Kaczyce Las"},
-  {"id":11998685967,"lat":49.85395,"lon":18.601339,"k":"p","n":"Kaczyce Las"}
+  {"id":11998685967,"lat":49.85395,"lon":18.601339,"k":"p","n":"Kaczyce Las"},
+  {"id":12014963797,"lat":49.895393,"lon":18.602852,"k":"x","n":"Zebrzydowice Poziomkowa"},
+  {"id":12014963798,"lat":49.894783,"lon":18.602923,"k":"x","n":"Zebrzydowice Poziomkowa"},
+  {"id":12014963799,"lat":49.889168,"lon":18.60348,"k":"x","n":"Zebrzydowice Słowicza"},
+  {"id":12014963800,"lat":49.889708,"lon":18.603498,"k":"x","n":"Zebrzydowice Słowicza"},
+  {"id":12014963801,"lat":49.878622,"lon":18.601994,"k":"x","n":"Zebrzydowice Skrzyżowanie"},
+  {"id":12014963802,"lat":49.879143,"lon":18.602089,"k":"x","n":"Zebrzydowice Skrzyżowanie"},
+  {"id":12015213397,"lat":49.877743,"lon":18.608363,"k":"x","n":"Zebrzydowice Kino"},
+  {"id":12015213398,"lat":49.877359,"lon":18.611811,"k":"x","n":"Zebrzydowice Kino"},
+  {"id":12015213399,"lat":49.874968,"lon":18.617822,"k":"x","n":"Zebrzydowice Szkoła"},
+  {"id":12015213400,"lat":49.875303,"lon":18.617172,"k":"x","n":"Zebrzydowice Szkoła"}
 ],
-"routes":[]
+"routes":[
+  {"id":2465758,"t":{"ref":"R10","name":"R10 - kier. Zebrzydowice","from":"Chlebowa Pętla","to":"Zebrzydowice PKP","network":"MZK Jastrzębie-Zdrój","operator":"Międzygminny Związek Komunikacyjny z siedzibą w Jastrzębiu-Zdroju","route":"bus","public_transport:version":"2"},"n":4,"s":[[9525654091,1],[9525654098,2],[9525654097,3],[9525654095,4]]},
+  {"id":2465795,"t":{"ref":"R11","name":"R11 - kier. Zebrzydowice","from":"Chlebowa Pętla","to":"Zebrzydowice Skrzyżowanie k. Słowicza","network":"MZK Jastrzębie-Zdrój","operator":"Międzygminny Związek Komunikacyjny z siedzibą w Jastrzębiu-Zdroju","route":"bus","public_transport:version":"2"},"n":4,"s":[[12014963797,1],[12014963799,2],[12014963801,3],[9525654098,4]]},
+  {"id":17745548,"t":{"ref":"R10","name":"R10 - kier. Chlebowa","from":"Zebrzydowice PKP","to":"Chlebowa Pętla","network":"MZK Jastrzębie-Zdrój","operator":"Międzygminny Związek Komunikacyjny z siedzibą w Jastrzębiu-Zdroju","route":"bus","public_transport:version":"2"},"n":9,"s":[[9525654091,1],[9525654094,2,9],[9525654096,3,8],[9525654099,4,7]]},
+  {"id":17981968,"t":{"ref":"R11","name":"R11 - kier. Chlebowa","from":"Zebrzydowice Skrzyżowanie","to":"Chlebowa Pętla","network":"MZK Jastrzębie-Zdrój","operator":"Międzygminny Związek Komunikacyjny z siedzibą w Jastrzębiu-Zdroju","route":"bus","public_transport:version":"2"},"n":4,"s":[[12014963798,1],[12014963800,2],[12014963802,3],[9525654099,4]]},
+  {"id":21360351,"t":{"name":"Linea-Trans Jastrzębie-Cieszyn przez Zebrzydowice, Kończyce","from":"Jastrzębie","to":"Cieszyn","operator":"Linea-Trans","route":"bus","public_transport:version":"2"},"n":3,"s":[[9525654098,1],[9525654097,2]]},
+  {"id":21360352,"t":{"name":"Linea-Trans Cieszyn-Jastrzębie przez Kończyce, Zebrzydowice","from":"Cieszyn","to":"Jastrzębie","operator":"Linea-Trans","route":"bus","public_transport:version":"2"},"n":5,"s":[[9525654096,4],[9525654099,5]]}
+]
 }

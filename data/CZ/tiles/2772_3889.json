@@ -3,10 +3,17 @@
 "cc":"CZ",
 "tile":[2772,3889],
 "stops":[
+  {"id":2670202799,"lat":48.626702,"lon":14.471203,"k":"p","n":"Leitmannsdorf"},
+  {"id":2670202866,"lat":48.626888,"lon":14.470576,"k":"p","n":"Leitmannsdorf"},
+  {"id":4799923454,"lat":48.612687,"lon":14.483376,"k":"p","n":"Dorf Leopoldschlag Ortsmitte"},
+  {"id":4799923455,"lat":48.613172,"lon":14.492161,"k":"p","n":"Dorf Leopoldschlag Abzw Edlbach"},
+  {"id":4799927376,"lat":48.625443,"lon":14.478049,"k":"p","n":"Hiltschen Ost"},
+  {"id":4799927377,"lat":48.623505,"lon":14.474165,"k":"p","n":"Hiltschen West"},
+  {"id":4799937095,"lat":48.636737,"lon":14.457826,"k":"p","n":"Wullowitz Ort"},
   {"id":4799937096,"lat":48.641895,"lon":14.453689,"k":"p","n":"Wullowitz Staatsgrenze"}
 ],
 "routes":[
-  {"id":7165093,"t":{"ref":"326","name":"326: Freistadt - Wullowitz","from":"Freistadt Busterminal Stifterplatz","to":"Wullowitz Staatsgrenze","route":"bus","public_transport:version":"1"},"n":2,"s":[[4799937096,2]]},
-  {"id":7165094,"t":{"ref":"326","name":"326: Wullowitz - Freistadt","from":"Wullowitz Staatsgrenze","to":"Freistadt Busterminal Stifterplatz","route":"bus","public_transport:version":"1"},"n":2,"s":[[4799937096,2]]}
+  {"id":7165093,"t":{"ref":"326","name":"326: Freistadt - Wullowitz","from":"Freistadt Busterminal Stifterplatz","to":"Wullowitz Staatsgrenze","route":"bus","public_transport:version":"1"},"n":8,"s":[[4799923454,1],[4799923455,2],[4799927376,4],[4799927377,5],[2670202866,6],[4799937095,7],[4799937096,8]]},
+  {"id":7165094,"t":{"ref":"326","name":"326: Wullowitz - Freistadt","from":"Wullowitz Staatsgrenze","to":"Freistadt Busterminal Stifterplatz","route":"bus","public_transport:version":"1"},"n":8,"s":[[4799923454,1],[4799923455,2],[4799927376,4],[4799927377,5],[2670202799,6],[4799937095,7],[4799937096,8]]}
 ]
 }

@@ -3,11 +3,37 @@
 "cc":"CZ",
 "tile":[2774,3934],
 "stops":[
+  {"id":248725336,"lat":48.725772,"lon":16.718591,"k":"x","n":"Schrattenberg Gemeindeamt"},
+  {"id":248725417,"lat":48.724538,"lon":16.720925,"k":"x","n":"Schrattenberg Volksschule"},
+  {"id":1118675580,"lat":48.723707,"lon":16.722707,"k":"x","n":"Schrattenberg Kirchenplatz"},
+  {"id":4160562850,"lat":48.723677,"lon":16.72271,"k":"p","n":"Schrattenberg Kirchenplatz"},
+  {"id":4161452804,"lat":48.723766,"lon":16.722664,"k":"p","n":"Schrattenberg Kirchenplatz"},
+  {"id":8569291165,"lat":48.720103,"lon":16.715604,"k":"p","n":"Schrattenberg Friedhof"},
+  {"id":8569291166,"lat":48.720032,"lon":16.715681,"k":"p","n":"Schrattenberg Friedhof"},
+  {"id":8569291167,"lat":48.720068,"lon":16.715636,"k":"x","n":"Schrattenberg Friedhof"},
+  {"id":8572965953,"lat":48.724509,"lon":16.720915,"k":"p","n":"Schrattenberg Volksschule"},
+  {"id":12504113203,"lat":48.725715,"lon":16.718538,"k":"p","n":"Schrattenberg Gemeindeamt"},
   {"id":6069677364064,"lat":48.741519,"lon":16.705681,"k":"p","n":"Valtice,Úvaly","g":1},
   {"id":6093204510415,"lat":48.738816,"lon":16.73331,"k":"p","n":"Valtice,celnice","g":1}
 ],
 "routes":[
-  {"id":3021032483403,"t":{"ref":"555","name":"555: Valtice,Úvaly,na konci - Podivín,žel.st.","from":"Valtice,Úvaly,na konci","to":"Podivín,žel.st.","operator":"Znojemská dopravní společnost - PSOTA, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6069677364064,2],[6093204510415,3]]},
-  {"id":3088154606406,"t":{"ref":"555","name":"555: Podivín,žel.st. - Valtice,Úvaly,na konci","from":"Podivín,žel.st.","to":"Valtice,Úvaly,na konci","operator":"Znojemská dopravní společnost - PSOTA, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6093204510415,12],[6069677364064,13]]}
+  {"id":12501452,"t":{"ref":"150","name":"Bus 150: Bernhardsthal Bahnhof => Wien Floridsdorf","from":"Bernhardsthal Bahnhof","to":"Wien Floridsdorf","network":"VOR","operator":"Gschwindl","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161452804,8],[8569291165,9]]},
+  {"id":12501453,"t":{"ref":"150","name":"Bus 150: Wien Floridsdorf => Bernhardsthal Bahnhof","from":"Wien Floridsdorf","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl","route":"bus","public_transport:version":"2"},"n":9,"s":[[8569291166,1],[4160562850,2]]},
+  {"id":12507890,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Bernhardsthal Kirche => Poysdorf Mittelschule => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":10,"s":[[4161452804,9],[8569291165,10]]},
+  {"id":12507891,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Mistelbach Alleegasse => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161452804,8],[8569291165,9]]},
+  {"id":12507892,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Mistelbach Bahnhof","from":"Bernhardsthal Bahnhof","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":9,"s":[[4161452804,8],[8569291165,9]]},
+  {"id":12507893,"t":{"ref":"560","name":"Bus 560: Bernhardsthal Bahnhof => Poysdorf Mittelschule","from":"Bernhardsthal Bahnhof","to":"Poysdorf Mittelschule","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":11,"s":[[12504113203,8],[8572965953,9],[4161452804,10],[8569291165,11]]},
+  {"id":12507896,"t":{"ref":"560","name":"Bus 560: Schrattenberg Kirchenplatz => Mistelbach Bahnhof","from":"Schrattenberg Kirchenplatz","to":"Mistelbach Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":2,"s":[[4161452804,1],[8569291165,2]]},
+  {"id":12507897,"t":{"ref":"560","name":"Bus 560: Schrattenberg Volksschule => Herrnbaumgarten Volksschule","from":"Schrattenberg Volksschule","to":"Herrnbaumgarten Volksschule","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":2,"s":[[8572965953,1],[8569291165,2]]},
+  {"id":12512643,"t":{"ref":"560","name":"Bus 560: Herrnbaumgarten Hauptstraße 5a => Schrattenberg Volksschule","from":"Herrnbaumgarten Hauptstraße 5a","to":"Schrattenberg Volksschule","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":4,"s":[[8569291166,1],[4160562850,2],[12504113203,3],[8572965953,4]]},
+  {"id":12512644,"t":{"ref":"560","name":"Bus 560: Herrnbaumgarten Volksschule => Schrattenberg Volksschule","from":"Herrnbaumgarten Volksschule","to":"Schrattenberg Volksschule","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":4,"s":[[8569291166,1],[4160562850,2],[12504113203,3],[8572965953,4]]},
+  {"id":12512645,"t":{"ref":"560","name":"Bus 560: Mistelbach Bahnhof => Bernhardsthal Kirche (Volksschule) => Bernhardsthal Bahnhof","from":"Mistelbach Bahnhof","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":10,"s":[[8569291166,1],[4160562850,2]]},
+  {"id":12512646,"t":{"ref":"560","name":"Bus 560: Mistelbach Bahnhof => Bernhardsthal Bahnhof","from":"Mistelbach Bahnhof","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":11,"s":[[8569291166,1],[4160562850,2],[12504113203,3],[8572965953,4]]},
+  {"id":12512648,"t":{"ref":"560","name":"Bus 560: Poysdorf Dreifaltigkeitsplatz => Bernhardsthal Bahnhof","from":"Poysdorf Dreifaltigkeitsplatz","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":9,"s":[[8569291166,1],[4160562850,2]]},
+  {"id":12512649,"t":{"ref":"560","name":"Bus 560: Poysdorf Volksschule => Bernhardsthal Bahnhof","from":"Poysdorf Volksschule","to":"Bernhardsthal Bahnhof","network":"VOR","operator":"Gschwindl;Komet","route":"bus","public_transport:version":"2"},"n":11,"s":[[8569291166,1],[4160562850,2],[12504113203,3],[8572965953,4]]},
+  {"id":12534748,"t":{"ref":"582","name":"Bus 582: Schrattenberg Kirchenplatz => Laa an der Thaya Gymnasium","from":"Schrattenberg Kirchenplatz","to":"Laa an der Thaya Gymnasium","network":"VOR","operator":"Dr. Richard NÖ","route":"bus","public_transport:version":"2"},"n":7,"s":[[4161452804,1]]},
+  {"id":12534834,"t":{"ref":"582","name":"Bus 582: Laa an der Thaya Bahnhof => Schrattenberg Kirchenplatz","from":"Laa an der Thaya Bahnhof","to":"Schrattenberg Kirchenplatz","network":"VOR","operator":"Dr. Richard NÖ","route":"bus","public_transport:version":"2"},"n":7,"s":[[4160562850,7]]},
+  {"id":3018163277589,"t":{"ref":"555","name":"555: Valtice,Úvaly,na konci - Podivín,žel.st.","from":"Valtice,Úvaly,na konci","to":"Podivín,žel.st.","operator":"Znojemská dopravní společnost - PSOTA, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6069677364064,2],[6093204510415,3]]},
+  {"id":3074980874044,"t":{"ref":"555","name":"555: Podivín,žel.st. - Valtice,Úvaly,na konci","from":"Podivín,žel.st.","to":"Valtice,Úvaly,na konci","operator":"Znojemská dopravní společnost - PSOTA, s.r.o.","route":"bus","public_transport:version":"2"},"n":14,"s":[[6093204510415,12],[6069677364064,13]]}
 ]
 }

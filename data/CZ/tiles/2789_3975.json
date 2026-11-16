@@ -3,10 +3,28 @@
 "cc":"CZ",
 "tile":[2789,3975],
 "stops":[
+  {"id":696795417,"lat":49.493522,"lon":18.770551,"k":"x","n":"Svrčinovec, Zatky"},
+  {"id":1434027640,"lat":49.46834,"lon":18.762073,"k":"x","n":"Milošová, Huľany"},
+  {"id":1986281775,"lat":49.472786,"lon":18.755331,"k":"x","n":"Milošová, pod Jamkami"},
+  {"id":4052292191,"lat":49.493976,"lon":18.770221,"k":"x","n":"Svrčinovec, Zatky"},
+  {"id":4052292192,"lat":49.491078,"lon":18.782248,"k":"p","n":"Svrčinovec, u Liščáka"},
+  {"id":4052292193,"lat":49.491411,"lon":18.781944,"k":"p","n":"Svrčinovec, u Liščáka"},
+  {"id":4246396988,"lat":49.491316,"lon":18.781936,"k":"x","n":"Svrčinovec, u Liščáka"},
   {"id":9024293441,"lat":49.499912,"lon":18.763054,"k":"p","n":"Mosty u Jablunkova, celnice"},
+  {"id":10031190276,"lat":49.472818,"lon":18.7554,"k":"p","n":"Milošová, pod Jamkami"},
+  {"id":10139290572,"lat":49.494014,"lon":18.770236,"k":"p","n":"Svrčinovec, Zatky"},
+  {"id":10139290573,"lat":49.491134,"lon":18.782286,"k":"x","n":"Svrčinovec, u Liščáka"},
+  {"id":10588571454,"lat":49.493445,"lon":18.770496,"k":"p","n":"Svrčinovec, Zatky"},
   {"id":6051840649266,"lat":49.49568,"lon":18.765364,"k":"p","n":"Mosty u Jablunkova,CLO","g":1}
 ],
 "routes":[
-  {"id":3061712851172,"t":{"ref":"289","name":"289: Teplice,Hlavní nádraží - Dubove,AS","from":"Teplice,Hlavní nádraží","to":"Dubove,AS","operator":"LLC TRANS NATSIONAL LTD","route":"bus","public_transport:version":"2"},"n":17,"s":[[6051840649266,6]]}
+  {"id":6045186,"t":{"ref":"239","name":"Bus 239: Čadca, Pribinova ul. => Svrčinovec, Zatky","from":"Čadca, Pribinova ul.","to":"Svrčinovec, Zatky","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[4052292193,1],[10139290572,2]]},
+  {"id":8427003,"t":{"ref":"204","name":"Bus 204: Čadca, námestie => Čadca,Milošová,Megoňky","from":"Čadca, námestie","to":"Čadca,Milošová,Megoňky","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":8,"s":[[1434027640,1],[1986281775,2]]},
+  {"id":8427004,"t":{"ref":"204","name":"Bus 204: Čadca,Milošová,Megoňky => Čadca, námestiev","from":"Čadca,Milošová,Megoňky","to":"Čadca, námestie","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":8,"s":[[1986281775,7],[1434027640,8]]},
+  {"id":9681100,"t":{"ref":"239","name":"Bus 239: Svrčinovec, Zatky => Čadca, Pribinova ul.","from":"Svrčinovec, Zatky","to":"Čadca, Pribinova ul.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[10139290572,1],[4052292192,2]]},
+  {"id":15016043,"t":{"ref":"982","name":"Bus 982: Návsí, žel. st. => Čadca, Pribinova ul.","from":"Návsí, žel. st.","to":"Čadca, Pribinova ul.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[10588571454,2],[4052292192,3]]},
+  {"id":15016044,"t":{"ref":"982","name":"Bus 982: Čadca, Pribinova ul. => Návsí, žel. st.","from":"Čadca, Pribinova ul.","to":"Návsí, žel. st.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[4052292193,1],[10139290572,2]]},
+  {"id":3038780043568,"t":{"ref":"289","name":"289: Teplice,Hlavní nádraží - Mosty u Jablunkova,CLO","from":"Teplice,Hlavní nádraží","to":"Mosty u Jablunkova,CLO","operator":"LLC TRANS NATSIONAL LTD","route":"bus","public_transport:version":"2"},"n":5,"s":[[6051840649266,5]]},
+  {"id":3079880265891,"t":{"ref":"289","name":"289: Mosty u Jablunkova,CLO - Teplice,Hlavní nádraží","from":"Mosty u Jablunkova,CLO","to":"Teplice,Hlavní nádraží","operator":"LLC TRANS NATSIONAL LTD","route":"bus","public_transport:version":"2"},"n":5,"s":[[6051840649266,1]]}
 ]
 }

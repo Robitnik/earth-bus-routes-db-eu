@@ -5,24 +5,34 @@
 "stops":[
   {"id":246052541,"lat":50.324583,"lon":12.18769,"k":"x","n":"Gettengrün, Wende"},
   {"id":266929434,"lat":50.325856,"lon":12.156092,"k":"x","n":"Ebmath, Wagenhalle"},
+  {"id":297767346,"lat":50.348701,"lon":12.172316,"k":"x","n":"Eichigt, Bürgerhaus"},
+  {"id":297767365,"lat":50.346323,"lon":12.167846,"k":"x","n":"Eichigt, Tannenberg"},
+  {"id":997629828,"lat":50.337885,"lon":12.189803,"k":"x","n":"Bergen, Ort"},
   {"id":1492450318,"lat":50.3258,"lon":12.156031,"k":"p","n":"Ebmath, Wagenhalle"},
   {"id":8711020033,"lat":50.322259,"lon":12.193117,"k":"x","n":"Gettengrün, Trafohaus"},
   {"id":8711020034,"lat":50.322319,"lon":12.193146,"k":"p","n":"Gettengrün, Trafohaus"},
   {"id":8711020035,"lat":50.324621,"lon":12.187735,"k":"p","n":"Gettengrün, Wende"},
+  {"id":8711020036,"lat":50.337877,"lon":12.189853,"k":"p","n":"Bergen, Ort"},
+  {"id":8744257995,"lat":50.34344,"lon":12.161558,"k":"x","n":"Eichigt, Höhe"},
+  {"id":8744257996,"lat":50.343406,"lon":12.161701,"k":"p","n":"Eichigt, Höhe"},
+  {"id":8744257997,"lat":50.343473,"lon":12.161423,"k":"p","n":"Eichigt, Höhe"},
   {"id":8751393688,"lat":50.326211,"lon":12.150258,"k":"x","n":"Ebmath, Ort"},
   {"id":8751393689,"lat":50.326213,"lon":12.15005,"k":"p","n":"Ebmath, Ort"},
   {"id":8751393690,"lat":50.326221,"lon":12.150471,"k":"p","n":"Ebmath, Ort"},
   {"id":9132751926,"lat":50.30623,"lon":12.176544,"k":"p","n":"Hranice, hotel Praha"},
   {"id":9132751927,"lat":50.306253,"lon":12.176382,"k":"p","n":"Hranice, hotel Praha"},
-  {"id":9642506602,"lat":50.301985,"lon":12.175658,"k":"p","n":"Hranice, rozc."}
+  {"id":9642506602,"lat":50.301985,"lon":12.175658,"k":"p","n":"Hranice, rozc."},
+  {"id":10591709860,"lat":50.339328,"lon":12.162366,"k":"p"}
 ],
 "routes":[
-  {"id":12793212,"t":{"ref":"38","name":"Bus 38: Adorf => Bergen => Gettengrün => Adorf","from":"Adorf, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":3,"s":[[8711020035,1],[8711020034,2]]},
-  {"id":12793213,"t":{"ref":"39","name":"Bus 39: Adorf => Gettengrün => Bergen => Adorf","from":"Adorf, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":3,"s":[[8711020034,2],[8711020035,3]]},
-  {"id":12812162,"t":{"ref":"56","name":"Bus 56: Tiefenbrunn => Ährenfeld => Oelsnitz","from":"Tiefenbrunn, Ortsteil Pabstleithen","to":"Oelsnitz, Gymnasium","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":4,"s":[[8751393690,3],[1492450318,4]]},
-  {"id":12812163,"t":{"ref":"56","name":"Bus 56: Oelsnitz => Ährenfeld => Tiefenbrunn","from":"Oelsnitz, Karl-Marx-Platz","to":"Tiefenbrunn, Ortsteil Kugelreuth","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":4,"s":[[1492450318,1],[8751393689,2]]},
-  {"id":13806780,"t":{"ref":"56","name":"Bus 56: Haselrain => Hundsgrün => Oelsnitz","from":"Haselrain, Ortseingang","to":"Oelsnitz, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":4,"s":[[8751393690,3],[1492450318,4]]},
-  {"id":13806781,"t":{"ref":"56","name":"Bus 56: Oelsnitz => Hundsgrün => Haselrain","from":"Oelsnitz, Bahnhof","to":"Haselrain, Ortseingang","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":4,"s":[[1492450318,1],[8751393689,2]]},
-  {"id":3075244749681,"t":{"ref":"104","name":"104: Aš,žel.st. - Hranice,pod školou","from":"Aš,žel.st.","to":"Hranice,pod školou","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":21,"s":[[9642506602,20]]}
+  {"id":12793212,"t":{"ref":"38","name":"Bus 38: Adorf => Bergen => Gettengrün => Adorf","from":"Adorf, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":6,"s":[[8711020036,1],[8711020035,2],[8711020034,3]]},
+  {"id":12793213,"t":{"ref":"39","name":"Bus 39: Adorf => Gettengrün => Bergen => Adorf","from":"Adorf, Bahnhof","to":"Adorf, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":6,"s":[[8711020034,4],[8711020035,5],[8711020036,6]]},
+  {"id":12812162,"t":{"ref":"56","name":"Bus 56: Tiefenbrunn => Ährenfeld => Oelsnitz","from":"Tiefenbrunn, Ortsteil Pabstleithen","to":"Oelsnitz, Gymnasium","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":7,"s":[[8751393690,4],[1492450318,5],[8711020036,6],[8744257997,7]]},
+  {"id":12812163,"t":{"ref":"56","name":"Bus 56: Oelsnitz => Ährenfeld => Tiefenbrunn","from":"Oelsnitz, Karl-Marx-Platz","to":"Tiefenbrunn, Ortsteil Kugelreuth","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":8,"s":[[8744257996,1],[8711020036,2],[1492450318,3],[8751393689,4]]},
+  {"id":13806779,"t":{"ref":"56","name":"Bus 56: Eichigt => Lauterbach => Oelsnitz","from":"Eichigt, Schule","to":"Oelsnitz, Gymnasium","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":3,"s":[[297767346,1],[297767365,2],[8744257995,3]]},
+  {"id":13806780,"t":{"ref":"56","name":"Bus 56: Haselrain => Hundsgrün => Oelsnitz","from":"Haselrain, Ortseingang","to":"Oelsnitz, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":9,"s":[[8751393690,6],[1492450318,7],[8711020036,8],[8744257996,9]]},
+  {"id":13806781,"t":{"ref":"56","name":"Bus 56: Oelsnitz => Hundsgrün => Haselrain","from":"Oelsnitz, Bahnhof","to":"Haselrain, Ortseingang","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":9,"s":[[8744257997,1],[8711020036,2],[1492450318,3],[8751393689,4]]},
+  {"id":3086522052785,"t":{"ref":"104","name":"104: Aš,žel.st. - Hranice,rozc.","from":"Aš,žel.st.","to":"Hranice,rozc.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":20,"s":[[9642506602,20]]},
+  {"id":3092003947257,"t":{"ref":"104","name":"104: Hranice,rozc. - Aš,žel.st.","from":"Hranice,rozc.","to":"Aš,žel.st.","operator":"Dopravní podnik Karlovy Vary, a.s.","route":"bus","public_transport:version":"2"},"n":20,"s":[[9642506602,1]]}
 ]
 }

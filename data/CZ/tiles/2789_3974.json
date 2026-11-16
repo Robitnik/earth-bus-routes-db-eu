@@ -3,10 +3,16 @@
 "cc":"CZ",
 "tile":[2789,3974],
 "stops":[
+  {"id":369887682,"lat":49.476187,"lon":18.748738,"k":"x","n":"Milošová, pod Dejovkou"},
   {"id":540673693,"lat":49.48454,"lon":18.735,"k":"x","n":"Milošová, u Prívary"},
+  {"id":2384654802,"lat":49.478117,"lon":18.741465,"k":"x","n":"Milošová, u Kadlubca"},
   {"id":2384654846,"lat":49.494521,"lon":18.723045,"k":"x","n":"Milošová, Megoňky"},
   {"id":2384654859,"lat":49.494567,"lon":18.723103,"k":"p","n":"Čadca,Milošová,Megoňky"},
+  {"id":2384654860,"lat":49.476121,"lon":18.748653,"k":"p","n":"Milošová,pod Dejovkou"},
   {"id":5238113769,"lat":49.496,"lon":18.742075,"k":"x","n":"Mosty u Jablunkova, Šance, opevnění"},
+  {"id":10031190277,"lat":49.47821,"lon":18.741198,"k":"p","n":"Milošová, u Kadlubca"},
+  {"id":10031190278,"lat":49.48033,"lon":18.735899,"k":"p","n":"Milošová, ŽS"},
+  {"id":10031190279,"lat":49.48038,"lon":18.735981,"k":"x","n":"Milošová, ZŠ"},
   {"id":10031190280,"lat":49.490226,"lon":18.730186,"k":"x","n":"Milošová, pod Megoňkami"},
   {"id":12885582103,"lat":49.496246,"lon":18.742033,"k":"p","n":"Mosty u Jablunkova, Šance, opevnění"},
   {"id":12885582104,"lat":49.496078,"lon":18.741868,"k":"p","n":"Mosty u Jablunkova, Šance, opevnění"}
@@ -14,11 +20,11 @@
 "routes":[
   {"id":7418955,"t":{"ref":"781","name":"Bus 781: Mosty u Jablunkova, Šance, konečná => Třinec aut.st. pod Kanadou","from":"Mosty u Jablunkova, Šance, konečná","to":"Třinec aut.st. pod Kanadou","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":3,"s":[[12885582103,1]]},
   {"id":7418956,"t":{"ref":"781","name":"Bus 781: Třinec aut.st. pod Kanadou => Mosty u Jablunkova, Šance, konečná","from":"Třinec aut.st. pod Kanadou","to":"Mosty u Jablunkova, Šance, konečná","network":"Integrovaný dopravní systém Moravskoslezského kraje","operator":"Transdev Slezsko","route":"bus","public_transport:version":"2"},"n":4,"s":[[12885582104,4]]},
-  {"id":8427003,"t":{"ref":"204","name":"Bus 204: Čadca, námestie => Čadca,Milošová,Megoňky","from":"Čadca, námestie","to":"Čadca,Milošová,Megoňky","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[540673693,1],[10031190280,2],[2384654846,3]]},
-  {"id":8427004,"t":{"ref":"204","name":"Bus 204: Čadca,Milošová,Megoňky => Čadca, námestiev","from":"Čadca,Milošová,Megoňky","to":"Čadca, námestie","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[2384654846,1],[10031190280,2],[540673693,3]]},
-  {"id":3029994500493,"t":{"ref":"781","name":"781: Návsí,žel.st. - Hrčava,konečná","from":"Návsí,žel.st.","to":"Hrčava,konečná","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":31,"s":[[12885582103,18]]},
-  {"id":3038790958015,"t":{"ref":"781","name":"781: Návsí,žel.st. - Mosty u Jablunkova,Šance,opevnění","from":"Návsí,žel.st.","to":"Mosty u Jablunkova,Šance,opevnění","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":18,"s":[[12885582103,18]]},
-  {"id":3087271906438,"t":{"ref":"781","name":"781: Hrčava,konečná - Třinec,aut.st.pod Kanadou","from":"Hrčava,konečná","to":"Třinec,aut.st.pod Kanadou","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":44,"s":[[12885582103,14]]},
-  {"id":3095193692078,"t":{"ref":"781","name":"781: Mosty u Jablunkova,Šance,opevnění - Návsí,žel.st.","from":"Mosty u Jablunkova,Šance,opevnění","to":"Návsí,žel.st.","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":19,"s":[[12885582103,1]]}
+  {"id":8427003,"t":{"ref":"204","name":"Bus 204: Čadca, námestie => Čadca,Milošová,Megoňky","from":"Čadca, námestie","to":"Čadca,Milošová,Megoňky","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":8,"s":[[369887682,3],[2384654802,4],[10031190279,5],[540673693,6],[10031190280,7],[2384654846,8]]},
+  {"id":8427004,"t":{"ref":"204","name":"Bus 204: Čadca,Milošová,Megoňky => Čadca, námestiev","from":"Čadca,Milošová,Megoňky","to":"Čadca, námestie","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":8,"s":[[2384654846,1],[10031190280,2],[540673693,3],[10031190279,4],[2384654802,5],[369887682,6]]},
+  {"id":3013144112373,"t":{"ref":"781","name":"781: Návsí,žel.st. - Mosty u Jablunkova,Šance,opevnění","from":"Návsí,žel.st.","to":"Mosty u Jablunkova,Šance,opevnění","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":18,"s":[[12885582103,18]]},
+  {"id":3023676524471,"t":{"ref":"781","name":"781: Návsí,žel.st. - Hrčava,konečná","from":"Návsí,žel.st.","to":"Hrčava,konečná","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":31,"s":[[12885582103,18]]},
+  {"id":3085847880674,"t":{"ref":"781","name":"781: Mosty u Jablunkova,Šance,opevnění - Návsí,žel.st.","from":"Mosty u Jablunkova,Šance,opevnění","to":"Návsí,žel.st.","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":19,"s":[[12885582103,1]]},
+  {"id":3089602423439,"t":{"ref":"781","name":"781: Hrčava,konečná - Třinec,aut.st.pod Kanadou","from":"Hrčava,konečná","to":"Třinec,aut.st.pod Kanadou","operator":"Transdev Slezsko a.s.","route":"bus","public_transport:version":"2"},"n":44,"s":[[12885582103,14]]}
 ]
 }

@@ -3,16 +3,26 @@
 "cc":"CZ",
 "tile":[2814,3870],
 "stops":[
+  {"id":222655272,"lat":50.716591,"lon":13.517974,"k":"x","n":"Cämmerswalde, Halbe Metze"},
   {"id":2349288008,"lat":50.702106,"lon":13.521511,"k":"x","n":"Neuwernsdorf, Wendeschleife"},
+  {"id":2467422489,"lat":50.724703,"lon":13.526193,"k":"x","n":"Cämmerswalde Klötzerberg"},
   {"id":3037147174,"lat":50.707485,"lon":13.539444,"k":"x","n":"Deutschgeorgenthal Gasthof"},
+  {"id":3050741513,"lat":50.724643,"lon":13.52628,"k":"p"},
   {"id":3982113090,"lat":50.707138,"lon":13.542276,"k":"x","n":"Český Jiřetín"},
   {"id":3982122965,"lat":50.707615,"lon":13.547405,"k":"p","n":"Český Jiřetín, požární zbrojnice"},
-  {"id":3982122966,"lat":50.707562,"lon":13.547216,"k":"p","n":"Český Jiřetín, požární zbrojnice"}
+  {"id":3982122966,"lat":50.707562,"lon":13.547216,"k":"p","n":"Český Jiřetín, požární zbrojnice"},
+  {"id":5384762652,"lat":50.724756,"lon":13.526205,"k":"p","n":"Cämmerswalde Klötzerberg"},
+  {"id":5384762659,"lat":50.717069,"lon":13.51915,"k":"p","n":"Cämmerswalde, Halbe Metze"},
+  {"id":5384762660,"lat":50.717096,"lon":13.519115,"k":"x","n":"Cämmerswalde, Halbe Metze"},
+  {"id":5384762664,"lat":50.71662,"lon":13.517958,"k":"p","n":"Cämmerswalde, Halbe Metze"},
+  {"id":5000300965682,"lat":50.724658,"lon":13.526157,"k":"p","n":"Cämmerswalde Klötzerberg"}
 ],
 "routes":[
-  {"id":4009791,"t":{"ref":"736","name":"736 Neuhausen - Oberholzhau","from":"Dittersbach, Warte","to":"Holzhau, Oberholzhau, Wendeplatz","network":"Verkehrsverbund Mittelsachsen","route":"bus","public_transport:version":"2"},"n":2,"s":[[2349288008,1],[3037147174,2]]},
-  {"id":4011546,"t":{"ref":"736","name":"736 Oberholzhau - Neuhausen","from":"Holzhau, Oberholzhau, Wendeplatz","to":"Dittersbach, Warte","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[3037147174,1],[2349288008,2]]},
-  {"id":3032845034273,"t":{"ref":"523","name":"523: Litvínov,nádraží - Český Jiřetín","from":"Litvínov,nádraží","to":"Český Jiřetín","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[3982122965,17],[3982113090,18]]},
-  {"id":3067077803382,"t":{"ref":"523","name":"523: Český Jiřetín - Litvínov,nádraží","from":"Český Jiřetín","to":"Litvínov,nádraží","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[3982113090,1],[3982122965,2]]}
+  {"id":4009791,"t":{"ref":"736","name":"736 Neuhausen - Oberholzhau","from":"Dittersbach, Warte","to":"Holzhau, Oberholzhau, Wendeplatz","network":"Verkehrsverbund Mittelsachsen","route":"bus","public_transport:version":"2"},"n":4,"s":[[2349288008,1],[3037147174,2],[2467422489,3]]},
+  {"id":4011504,"t":{"ref":"736","name":"736 Abzweig Cämmerswalde, Halbe Metze II","from":"Cämmerswalde, Gemeindeverwaltung","to":"Bienenmühle, Bahnhof","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[5384762664,1],[5384762659,2]]},
+  {"id":4011505,"t":{"ref":"736","name":"736 Abzweig Cämmerswalde, Halbe Metze","from":"Cämmerswalde, Klötzerberg","to":"Cämmerswalde, Gemeindeverwaltung","network":"VMS","route":"bus"},"n":2,"s":[[5384762664,1],[5384762659,2]]},
+  {"id":4011546,"t":{"ref":"736","name":"736 Oberholzhau - Neuhausen","from":"Holzhau, Oberholzhau, Wendeplatz","to":"Dittersbach, Warte","network":"Verkehrsverbund Mittelsachsen","route":"bus"},"n":2,"s":[[3050741513,1],[5000300965682,2]]},
+  {"id":3038023306499,"t":{"ref":"523","name":"523: Český Jiřetín - Litvínov,nádraží","from":"Český Jiřetín","to":"Litvínov,nádraží","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[3982113090,1],[3982122965,2]]},
+  {"id":3077135952330,"t":{"ref":"523","name":"523: Litvínov,nádraží - Český Jiřetín","from":"Litvínov,nádraží","to":"Český Jiřetín","operator":"Dopravní společnost Ústeckého kraje, příspěvková organizace","route":"bus","public_transport:version":"2"},"n":18,"s":[[3982122965,17],[3982113090,18]]}
 ]
 }

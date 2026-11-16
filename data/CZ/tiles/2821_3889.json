@@ -3,16 +3,39 @@
 "cc":"CZ",
 "tile":[2821,3889],
 "stops":[
+  {"id":477128363,"lat":51.056433,"lon":14.484979,"k":"p","n":"Taubenheim Wassergrund"},
+  {"id":477128364,"lat":51.056625,"lon":14.485502,"k":"p","n":"Taubenheim Wassergrund"},
+  {"id":2301929921,"lat":51.054419,"lon":14.483187,"k":"x","n":"Taubenheim Birkenhügel"},
+  {"id":3646214661,"lat":51.056428,"lon":14.499214,"k":"p","n":"Oppach Busbahnhof"},
+  {"id":11838288517,"lat":51.054439,"lon":14.483116,"k":"p","n":"Taubenheim Birkenhügel"},
+  {"id":11838288518,"lat":51.056415,"lon":14.499177,"k":"x","n":"Oppach Busbahnhof"},
+  {"id":11901801793,"lat":51.056383,"lon":14.499087,"k":"x","n":"Oppach Busbahnhof"},
+  {"id":11901801794,"lat":51.056445,"lon":14.499262,"k":"x","n":"Oppach Busbahnhof"},
+  {"id":11901801795,"lat":51.056475,"lon":14.499347,"k":"x","n":"Oppach Busbahnhof"},
+  {"id":11901801796,"lat":51.056396,"lon":14.499123,"k":"p","n":"Oppach Busbahnhof"},
+  {"id":11901801797,"lat":51.056459,"lon":14.499302,"k":"p","n":"Oppach Busbahnhof"},
+  {"id":11901801798,"lat":51.056489,"lon":14.499389,"k":"p","n":"Oppach Busbahnhof"},
+  {"id":13018862171,"lat":51.054397,"lon":14.483234,"k":"p","n":"Taubenheim Birkenhügel"},
+  {"id":13018862177,"lat":51.056512,"lon":14.48504,"k":"x","n":"Taubenheim Wassergrund"},
+  {"id":13018862178,"lat":51.056545,"lon":14.48549,"k":"x","n":"Taubenheim Wassergrund"},
+  {"id":13378242316,"lat":51.056266,"lon":14.499554,"k":"p","n":"Oppach Busbahnhof"},
   {"id":6005615103473,"lat":51.070789,"lon":14.492197,"k":"p","n":"Oppach Sportschule","g":1},
-  {"id":6035785525206,"lat":51.056472,"lon":14.485029,"k":"p","n":"Taubenheim Wassergrund","g":1},
   {"id":6038935184863,"lat":51.097537,"lon":14.470036,"k":"p","n":"Halbendorf (Gebirge)","g":1},
-  {"id":6052879482119,"lat":51.056398,"lon":14.499114,"k":"p","n":"Oppach Busbahnhof","g":1},
   {"id":6062368111242,"lat":51.097537,"lon":14.476459,"k":"p","n":"Weigsdorf-Köblitz Busplatz","g":1},
   {"id":6083136014670,"lat":51.08184,"lon":14.484579,"k":"p","n":"Wurbis","g":1},
-  {"id":6085778346550,"lat":51.054377,"lon":14.483205,"k":"p","n":"Taubenheim Birkenhügel","g":1},
   {"id":6091139919562,"lat":51.093627,"lon":14.475156,"k":"p","n":"Weigsdorf-Köbl.A-Schweitzer-Si","g":1}
 ],
 "routes":[
-  {"id":3079610727413,"t":{"ref":"513","name":"513: Taubenheim Bahnhof - Bautzen Busbahnhof","from":"Taubenheim Bahnhof","to":"Bautzen Busbahnhof","operator":"S.Wilhelm-OBB","route":"bus","public_transport:version":"2"},"n":33,"s":[[6085778346550,3],[6035785525206,4],[6052879482119,5],[6005615103473,7],[6083136014670,8],[6091139919562,9],[6062368111242,10],[6038935184863,11]]}
+  {"id":1319267,"t":{"ref":"50","name":"PlusBus 50: Löbau => Oppach => Ebersbach => Neugersdorf","from":"Löbau Busbahnhof","to":"Neugersdorf Marktplatz","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":23,"s":[[3646214661,3]]},
+  {"id":1319268,"t":{"ref":"50","name":"PlusBus 50: Neugersdorf => Ebersbach => Oppach => Löbau","from":"Neugersdorf Marktplatz","to":"Löbau Busbahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":22,"s":[[3646214661,19]]},
+  {"id":13677785,"t":{"ref":"513","name":"TaktBus 513: Bautzen => Singwitz => Großpostwitz => Oppach => Taubenheim","from":"Bautzen Busbahnhof","to":"Taubenheim Bahnhof","network":"ZVON","operator":"Omnibusbetrieb Siegfried Wilhelm","route":"bus","public_transport:version":"2"},"n":5,"s":[[3646214661,1],[477128364,2],[11838288517,3]]},
+  {"id":14217367,"t":{"ref":"513","name":"TaktBus 513: Taubenheim => Oppach => Großpostwitz => Singwitz => Bautzen","from":"Taubenheim Bahnhof","to":"Bautzen Busbahnhof","network":"ZVON","operator":"Omnibusbetrieb Siegfried Wilhelm","route":"bus","public_transport:version":"2"},"n":6,"s":[[13018862171,3],[477128363,4],[3646214661,5]]},
+  {"id":17590233,"t":{"ref":"S33","name":"Schulbus S33: Beiersdorf => Dürrhennersdorf => Neusalza-Spremberg => Oppach","from":"Beiersdorf Kretscham","to":"Oppach Busbahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":7,"s":[[11901801798,7]]},
+  {"id":17590234,"t":{"ref":"S33","name":"Schulbus S33: Oppach => Neusalza-Spremberg => Dürrhennersdorf => Beiersdorf","from":"Oppach Busbahnhof","to":"Beiersdorf Kretscham","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2"},"n":6,"s":[[11901801798,1]]},
+  {"id":19335708,"t":{"ref":"725","name":"Bus 725: Wehrsdorf => Taubenheim => Oppach","from":"Wehrsdorf Grundschule","to":"Oppach Busbahnhof","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":15,"s":[[13018862171,13],[477128363,14],[11901801798,15]]},
+  {"id":19335709,"t":{"ref":"725","name":"Bus 725: Oppach => Taubenheim => Wehrsdorf","from":"Oppach Busbahnhof","to":"Wehrsdorf Grundschule","network":"ZVON","operator":"Regionalbus Oberlausitz","route":"bus","public_transport:version":"2"},"n":15,"s":[[11901801798,1],[477128364,2],[11838288517,3]]},
+  {"id":19395247,"t":{"ref":"726","name":"Bus 726: Wilthen => Taubenheim => Oppach","from":"Wilthen Schulzentrum","to":"Oppach Busbahnhof","network":"ZVON","operator":"Omnibusbetrieb Siegfried Wilhelm","route":"bus","public_transport:version":"2"},"n":8,"s":[[13018862171,6],[477128363,7],[3646214661,8]]},
+  {"id":19395248,"t":{"ref":"726","name":"Bus 726: Oppach => Taubenheim => Wilthen","from":"Oppach Busbahnhof","to":"Wilthen Schulzentrum","network":"ZVON","operator":"Omnibusbetrieb Siegfried Wilhelm","route":"bus","public_transport:version":"2"},"n":8,"s":[[3646214661,1],[477128364,2],[11838288517,3]]},
+  {"id":3073491071938,"t":{"ref":"513","name":"513: Taubenheim Bahnhof - Bautzen Busbahnhof","from":"Taubenheim Bahnhof","to":"Bautzen Busbahnhof","operator":"S.Wilhelm-OBB","route":"bus","public_transport:version":"2"},"n":33,"s":[[13018862171,3],[13018862177,4],[11901801796,5],[6005615103473,7],[6083136014670,8],[6091139919562,9],[6062368111242,10],[6038935184863,11]]}
 ]
 }

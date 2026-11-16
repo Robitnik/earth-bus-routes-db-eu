@@ -3,13 +3,17 @@
 "cc":"CZ",
 "tile":[2795,3847],
 "stops":[
-  {"id":6005170367954,"lat":49.758808,"lon":12.388873,"k":"p","n":"Silberhütte","g":1},
+  {"id":7644742928,"lat":49.758731,"lon":12.388881,"k":"p","n":"Silberhütte"},
+  {"id":9207597853,"lat":49.758711,"lon":12.388767,"k":"p","n":"Silberhütte"},
+  {"id":9514085761,"lat":49.768166,"lon":12.388722,"k":"p","n":"Altglashütte, Freibad"},
   {"id":6021628924562,"lat":49.752912,"lon":12.359309,"k":"p","n":"St. Ötzen","g":1},
   {"id":6038761008895,"lat":49.757485,"lon":12.360612,"k":"p","n":"Hildweinsreuth","g":1},
   {"id":6072697894214,"lat":49.750648,"lon":12.385693,"k":"p","n":"Diensthütte","g":1}
 ],
 "routes":[
-  {"id":3015819857408,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Neustadt (Waldnaab)","from":"Zollhaus, Gem. Georgenberg","to":"Neustadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[6005170367954,26],[6072697894214,27],[6038761008895,29],[6021628924562,30]]},
-  {"id":3053811177755,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Floß, Marktplatz","from":"Zollhaus, Gem. Georgenberg","to":"Floß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[6005170367954,26],[6072697894214,27],[6038761008895,29],[6021628924562,30]]}
+  {"id":11223291,"t":{"ref":"1922","name":"Bus 1922: Weiden -> Neustadt -> Floß -> Silberhütte","from":"Weiden","to":"Silberhütte","network":"VGN","colour":"#F58346","route":"bus"},"n":2,"s":[[7644742928,2]]},
+  {"id":11228387,"t":{"ref":"1922","name":"Bus 1922: Silberhütte -> Floß -> Neustadt -> Weiden","from":"Silberhütte","to":"Weiden","network":"VGN","colour":"#F58346","route":"bus"},"n":2,"s":[[7644742928,1]]},
+  {"id":3058159916350,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Floß, Marktplatz","from":"Zollhaus, Gem. Georgenberg","to":"Floß, Marktplatz","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":77,"s":[[7644742928,26],[6072697894214,27],[6038761008895,29],[6021628924562,30]]},
+  {"id":3059649821854,"t":{"ref":"1981","name":"1981: Zollhaus, Gem. Georgenberg - Neustadt (Waldnaab)","from":"Zollhaus, Gem. Georgenberg","to":"Neustadt (Waldnaab)","operator":"Bus8","route":"bus","public_transport:version":"2"},"n":78,"s":[[7644742928,26],[6072697894214,27],[6038761008895,29],[6021628924562,30]]}
 ]
 }

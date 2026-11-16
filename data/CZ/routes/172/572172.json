@@ -5,17 +5,31 @@
 "mode":"bus",
 "t":{"ref":"R","name":"Bus R: Busbahnhof => Kräutervitalbad => Krankenhaus => Busbahnhof","from":"Sebnitz, Busbahnhof","to":"Sebnitz, Busbahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","public_transport:version":"2","route":"bus","via":"Sebnitz, Kräutervitalbad;Sebnitz, Krankenhaus"},
 "ways":[
-  {"g":"usbvHovbvAhBoNLsDEsBQsCWwAq@kBm@s@sC}@mCOg@a@]m@","t":{"maxspeed":"30","zone:maxspeed":"DE:30"}},
+  {"g":"epavHcgbvAOE_A|@"},
+  {"g":"uravHkebvAgHqAa@Dm@p@MIOBM^","t":{"maxspeed":"50","maxspeed:type":"DE:urban"}},
+  {"g":"y_bvHkebvAu@CyAa@eFE_Co@cAeAm@_@|@uEcAeAMeAhBoNLsDEsBQsCWwAq@kBm@s@sC}@mCOg@a@]m@","t":{"maxspeed":"30","zone:maxspeed":"DE:30"}},
   {"g":"u_cvHq`dvAa@k@u@q@","t":{"maxspeed":"50","zone:maxspeed":"DE:30"}},
   {"g":"mbcvHocdvAaA{@u@}AK_ADyAy@D]N}AdAu@p@IR?\\dElXGH{HnCy@NYAkBk@gAIkFn@o@T_An@iC`Cg@r@aAtCu@nDmDfT{@pGYzC_@dH?rBL`C","t":{"maxspeed":"50"}},
   {"g":"qtdvHqr`vAqAmO","t":{"maxspeed":"50","maxspeed:type":"DE:urban"}},
   {"g":"isdvHcn`vAW{@OqA","t":{"maxspeed":"50","maxspeed:type":"DE:urban"}},
   {"g":"{bdvHyp`vA}H}Bm@Ds@d@i@v@cAnB","t":{"maxspeed":"50"}},
   {"g":"madvHip`vAm@O","t":{"maxspeed":"50"}},
-  {"g":"ydcvHa`bvAz@xGA`@","t":{"maxspeed":"50"}},
-  {"g":"ydcvHa`bvAFs@m@eHUIQ_@]}DSU?gAQeBF}@ZYn@Qn@MF^NXp@l@j@jA~@zC\\`@v@d@JVR~AdB|CPLz@Nd@M","t":{"maxspeed":"50"}}
+  {"g":"u|cvHkn`vAwC}@","t":{"maxspeed":"50"}},
+  {"g":"g|cvHgq`vAMzA","t":{"maxspeed":"50"}},
+  {"g":"oocvH}_avA_AnAiArCg@~@q@l@gC`ASNWp@","t":{"maxspeed":"50"}},
+  {"g":"{ncvHo`avASP","t":{"maxspeed":"50"}},
+  {"g":"kjcvHmeavA[l@sBnB","t":{"maxspeed":"50"}},
+  {"g":"oecvHcravA{CtK","t":{"maxspeed":"50"}},
+  {"g":"oecvHcravAh@{AV_@LE@a@{@yGFs@m@eHUIQ_@]}DSU?gAQeBF}@ZY~A_@F^NXp@l@j@jA~@zC\\`@v@d@JVR~AdB|CPLz@Nd@MTZ","t":{"maxspeed":"50"}},
+  {"g":"ktbvHeebvAjAtCNDNc@ZcBRuBcAeAm@_@|@uEzAx@jCn@lBDhAAnASdEeAzCdAzB^v@Z","t":{"maxspeed":"30","zone:maxspeed":"DE:30"}},
+  {"g":"}pavHmmbvAfAj@b@D`@Id@c@b@M_@tH","t":{"maxspeed":"50"}},
+  {"g":"ekavHadbvA_DaB"}
 ],
 "stops":[
+  {"s":703836666,"r":"stop","la":50.967227,"lo":14.270741,"n":"Sebnitz, Busbahnhof"},
+  {"s":703836630,"r":"platform","la":50.967212,"lo":14.270807,"n":"Busbahnhof"},
+  {"s":1550009257,"r":"stop","la":50.972579,"lo":14.271275,"n":"Sebnitz, Markt"},
+  {"s":8225404774,"r":"platform","la":50.972556,"lo":14.27133,"n":"Markt"},
   {"s":8225404773,"r":"stop","la":50.972426,"lo":14.27787,"n":"Sebnitz, Lange Straße"},
   {"s":704316951,"r":"platform","la":50.972394,"lo":14.277879,"n":"Lange Straße"},
   {"s":1774508508,"r":"stop","la":50.974988,"lo":14.280137,"n":"Sebnitz, Kräutervitalbad"},
@@ -32,8 +46,14 @@
   {"s":704316957,"r":"platform","la":50.98387,"lo":14.265616,"n":"Sebnitz Krankenhaus"},
   {"s":8132828437,"r":"stop","la":50.98275,"lo":14.262175,"n":"Sebnitz, Dr.-Steudner-Straße"},
   {"s":703743545,"r":"platform","la":50.9827,"lo":14.262087,"n":"Dr.-Steudner-Straße"},
+  {"s":8225404769,"r":"stop","la":50.976342,"lo":14.265834,"n":"Sebnitz, Gartenstraße"},
+  {"s":704316931,"r":"platform","la":50.9763,"lo":14.265789,"n":"Gartenstraße"},
   {"s":8408656944,"r":"stop","la":50.975828,"lo":14.271243,"n":"Sebnitz, Bahnhof"},
-  {"s":704316954,"r":"platform","la":50.975782,"lo":14.271257,"n":"Sebnitz Bahnhof"}
+  {"s":704316954,"r":"platform","la":50.975782,"lo":14.271257,"n":"Sebnitz Bahnhof"},
+  {"s":1550009257,"r":"stop","la":50.972579,"lo":14.271275,"n":"Sebnitz, Markt"},
+  {"s":8225404774,"r":"platform","la":50.972556,"lo":14.27133,"n":"Markt"},
+  {"s":703836666,"r":"stop","la":50.967227,"lo":14.270741,"n":"Sebnitz, Busbahnhof"},
+  {"s":703836630,"r":"platform","la":50.967212,"lo":14.270807,"n":"Busbahnhof"}
 ],
 "src":[{"k":"osm","id":"r572172"}]
 }

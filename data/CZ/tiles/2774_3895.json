@@ -3,11 +3,22 @@
 "cc":"CZ",
 "tile":[2774,3895],
 "stops":[
+  {"id":677244997,"lat":48.710008,"lon":14.798476,"k":"x","n":"Moorbad Harbach Ortsmitte"},
   {"id":923638711,"lat":48.728663,"lon":14.772823,"k":"p"},
+  {"id":7649805169,"lat":48.709977,"lon":14.798489,"k":"p","n":"Moorbad Harbach Ortsmitte"},
+  {"id":7649805183,"lat":48.710054,"lon":14.798437,"k":"p","n":"Moorbad Harbach Ortsmitte"},
   {"id":11039512086,"lat":48.742364,"lon":14.754649,"k":"p","n":"Horní Stropnice, Dlouhá Stropnice, č.38"},
-  {"id":11039512087,"lat":48.742399,"lon":14.754679,"k":"p","n":"Horní Stropnice, Dlouhá Stropnice, č.38"}
+  {"id":11039512087,"lat":48.742399,"lon":14.754679,"k":"p","n":"Horní Stropnice, Dlouhá Stropnice, č.38"},
+  {"id":11212154568,"lat":48.701762,"lon":14.789021,"k":"p","n":"Moorbad Harbach Kurhaus"},
+  {"id":11212154569,"lat":48.701165,"lon":14.794995,"k":"p","n":"Moorbad Harbach Abzw. Maißen"}
 ],
 "routes":[
+  {"id":11232966,"t":{"ref":"759","name":"Bus 759: Moorbad Harbach Ortsmitte => Weitra Schulen","from":"Moorbad Harbach Ortsmitte","to":"Weitra Schulen","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":2,"s":[[677244997,1],[7649805169,2]]},
+  {"id":11232967,"t":{"ref":"759","name":"Bus 759: Moorbad Harbach Ortsmitte => Gmünd Bezirkshauptmannschaft","from":"Moorbad Harbach Ortsmitte","to":"Gmünd Bezirkshauptmannschaft","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":13,"s":[[7649805169,1]]},
+  {"id":11232968,"t":{"ref":"759","name":"Bus 759: Moorbad Harbach Ortsmitte => Eichberg bei Gmünd Ort => Gmünd Bezirkshauptmannschaft","from":"Moorbad Harbach Ortsmitte","to":"Gmünd Bezirkshauptmannschaft","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":11,"s":[[7649805169,1]]},
+  {"id":11232969,"t":{"ref":"759","name":"Bus 759: Weitra Schulen => Moorbad Harbach Ortsmitte","from":"Weitra Schulen","to":"Moorbad Harbach Ortsmitte","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":2,"s":[[677244997,1],[7649805183,2]]},
+  {"id":11232970,"t":{"ref":"759","name":"Bus 759: Weitra Schulen => Moorbad Harbach Ortsmitte => Weitra Busbahnhof","from":"Weitra Schulen","to":"Weitra Busbahnhof","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":2,"s":[[7649805183,1],[7649805169,2]]},
+  {"id":11232971,"t":{"ref":"759","name":"Bus 759: Gmünd Bezirkshauptmannschaft => Moorbad Harbach Ortsmitte => Gmünd Bahnhof","from":"Gmünd Bezirkshauptmannschaft","to":"Gmünd Bahnhof","network":"VOR","operator":"Österreichische Postbus AG;Frank Reisen","route":"bus","public_transport:version":"2"},"n":18,"s":[[7649805183,12],[7649805169,13]]},
   {"id":20367410,"t":{"ref":"320166","name":"Žár - Horní Stropnice, Šejby","from":"Žár","to":"Šejby","operator":"GW BUS a.s.","route":"bus","public_transport:version":"2"},"n":7,"s":[[11039512086,1]]}
 ]
 }

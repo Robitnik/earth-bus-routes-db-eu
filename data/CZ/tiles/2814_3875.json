@@ -5,6 +5,7 @@
 "stops":[
   {"id":315888487,"lat":50.744521,"lon":13.757065,"k":"x","n":"Zinnwald-Georgenfeld, Zollhof"},
   {"id":489592124,"lat":50.743186,"lon":13.770822,"k":"x","n":"Zinnwald, Geisingstraße"},
+  {"id":489602805,"lat":50.74783,"lon":13.777967,"k":"x","n":"Geisling, Teplitzer Straße"},
   {"id":2116650337,"lat":50.737113,"lon":13.756974,"k":"x","n":"Zinnwald, Zum Lugstein"},
   {"id":2116650419,"lat":50.736573,"lon":13.757701,"k":"p","n":"Zum Lugstein"},
   {"id":2116650420,"lat":50.73708,"lon":13.75688,"k":"p","n":"Zum Lugstein"},
@@ -16,8 +17,14 @@
   {"id":3303932024,"lat":50.725282,"lon":13.765545,"k":"p","n":"České pomezí"},
   {"id":3303932028,"lat":50.700239,"lon":13.762573,"k":"p","n":"Dubí, žel. st."},
   {"id":3303932029,"lat":50.700295,"lon":13.762703,"k":"x","n":"Dubí, žel. st."},
+  {"id":8454244390,"lat":50.744523,"lon":13.757131,"k":"p","n":"Zollhof"},
+  {"id":8454244391,"lat":50.744521,"lon":13.756985,"k":"p","n":"Zollhof"},
   {"id":8454244392,"lat":50.736531,"lon":13.757587,"k":"x","n":"Zinnwald, Zum Lugstein"},
   {"id":8454244393,"lat":50.736304,"lon":13.76167,"k":"x","n":"Zinnwald, Wendeplatz"},
+  {"id":8485351249,"lat":50.747863,"lon":13.777914,"k":"p","n":"Teplitzer Straße"},
+  {"id":8485351250,"lat":50.747802,"lon":13.77799,"k":"p","n":"Teplitzer Straße"},
+  {"id":8485351251,"lat":50.743201,"lon":13.770786,"k":"p","n":"Geisingstraße"},
+  {"id":8485351252,"lat":50.743154,"lon":13.770888,"k":"p","n":"Geisingstraße"},
   {"id":8485351253,"lat":50.736494,"lon":13.761771,"k":"p","n":"Wendeplatz"},
   {"id":8554440632,"lat":50.725331,"lon":13.765449,"k":"x","n":"Cínovec, České pomezí"},
   {"id":12852867001,"lat":50.732798,"lon":13.768967,"k":"p","n":"Cínovec, CLO"},
@@ -25,10 +32,10 @@
   {"id":13588231202,"lat":50.732774,"lon":13.76891,"k":"x","n":"Cínovec, CLO"}
 ],
 "routes":[
-  {"id":1755930,"t":{"ref":"367","name":"Bus 367: Geising Bahnhof => Kurort Kipsdorf Bahnhof","from":"Geising, Bahnhof","to":"Kurort Kipsdorf, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[3097288327,1],[2116650419,2]]},
-  {"id":1755936,"t":{"ref":"367","name":"Bus 367: Kurort Kipsdorf Bahnhof => Geising Bahnhof","from":"Kurort Kipsdorf, Bahnhof","to":"Geising, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[2116650420,1],[8485351253,2]]},
-  {"id":2278707,"t":{"ref":"+360","name":"PlusBus 360: Zinnwald Wendeplatz => Dresden Ammons-/Budapester Straße","from":"Zinnwald, Wendeplatz","to":"Dresden, Ammons-/Budapester Straße","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[3097288327,1],[2116650419,2]]},
-  {"id":4489136,"t":{"ref":"398","name":"Bus 398: Kurort Altenberg Bahnhof => Teplice Hlavní nádraží (Bahnhof)","from":"Kurort Altenberg, Bahnhof","to":"Teplice, Hlavní nádraží (Bahnhof)","network":"Verkehrsverbund Oberelbe;DÚK","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":9,"s":[[2116650420,1],[8485351253,2],[12852867101,3],[3303932022,4],[3303932028,5]]},
-  {"id":3083835953223,"t":{"ref":"398","name":"Bus 398: Teplice Hlavní nádraží (Bahnhof) => Kurort Altenberg Bahnhof","from":"Teplice, Hlavní nádraží (Bahnhof)","to":"Kurort Altenberg, Bahnhof","network":"Verkehrsverbund Oberelbe;DÚK","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[3303932024,6],[2468554020,7],[8485351253,8],[2116650419,9],[315888487,10]]}
+  {"id":1755930,"t":{"ref":"367","name":"Bus 367: Geising Bahnhof => Kurort Kipsdorf Bahnhof","from":"Geising, Bahnhof","to":"Kurort Kipsdorf, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[8485351249,2],[8485351251,3],[3097288327,4],[2116650419,5],[8454244390,6]]},
+  {"id":1755936,"t":{"ref":"367","name":"Bus 367: Kurort Kipsdorf Bahnhof => Geising Bahnhof","from":"Kurort Kipsdorf, Bahnhof","to":"Geising, Bahnhof","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":6,"s":[[8454244391,1],[2116650420,2],[8485351253,3],[8485351252,4],[8485351250,5]]},
+  {"id":2278707,"t":{"ref":"+360","name":"PlusBus 360: Zinnwald Wendeplatz => Dresden Ammons-/Budapester Straße","from":"Zinnwald, Wendeplatz","to":"Dresden, Ammons-/Budapester Straße","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[3097288327,1],[2116650419,2],[8454244390,3]]},
+  {"id":4489136,"t":{"ref":"398","name":"Bus 398: Kurort Altenberg Bahnhof => Teplice Hlavní nádraží (Bahnhof)","from":"Kurort Altenberg, Bahnhof","to":"Teplice, Hlavní nádraží (Bahnhof)","network":"Verkehrsverbund Oberelbe;DÚK","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":10,"s":[[8454244391,1],[2116650420,2],[8485351253,3],[12852867101,4],[3303932022,5],[3303932028,6]]},
+  {"id":3012273511316,"t":{"ref":"398","name":"Bus 398: Teplice Hlavní nádraží (Bahnhof) => Kurort Altenberg Bahnhof","from":"Teplice, Hlavní nádraží (Bahnhof)","to":"Kurort Altenberg, Bahnhof","network":"Verkehrsverbund Oberelbe;DÚK","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":13,"s":[[3303932024,6],[2468554020,7],[8485351253,8],[2116650419,9],[8454244390,10]]}
 ]
 }

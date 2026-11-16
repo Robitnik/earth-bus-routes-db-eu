@@ -3,6 +3,14 @@
 "cc":"CZ",
 "tile":[2817,3895],
 "stops":[
+  {"id":370829699,"lat":50.859525,"lon":14.795011,"k":"p","n":"Eichgraben Abzweig Olbersdorf"},
+  {"id":1871187747,"lat":50.862988,"lon":14.79939,"k":"p","n":"Eichgraben Festplatz"},
+  {"id":7839049170,"lat":50.863114,"lon":14.799382,"k":"p","n":"Eichgraben Festplatz"},
+  {"id":7839049171,"lat":50.859138,"lon":14.794305,"k":"p","n":"Eichgraben Abzweig Olbersdorf"},
+  {"id":7957973350,"lat":50.859089,"lon":14.794335,"k":"x","n":"Eichgraben Abzweig Olbersdorf"},
+  {"id":8602029257,"lat":50.863096,"lon":14.799422,"k":"x","n":"Eichgraben Festplatz"},
+  {"id":8602029258,"lat":50.863037,"lon":14.799347,"k":"x","n":"Eichgraben Festplatz"},
+  {"id":8602029259,"lat":50.859585,"lon":14.794974,"k":"x","n":"Eichgraben Abzweig Olbersdorf"},
   {"id":6014451526340,"lat":50.874465,"lon":14.757335,"k":"p","n":"Olbersdorf Am Heizhaus","g":1},
   {"id":6015222851492,"lat":50.858534,"lon":14.75543,"k":"p","n":"Kurort Oybin Niederdorf","g":1},
   {"id":6016545105467,"lat":50.882429,"lon":14.77973,"k":"p","n":"Olbersdorf Poststraße","g":1},
@@ -30,10 +38,12 @@
   {"id":6098190134425,"lat":50.864572,"lon":14.759994,"k":"p","n":"Olbersdorf Wendeplatz","g":1}
 ],
 "routes":[
-  {"id":3001159532890,"t":{"ref":"14","name":"14: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":37,"s":[[6043608782314,27],[6072938003276,28],[6027810768315,29],[6031959069660,30],[6051918435609,31]]},
-  {"id":3048850903601,"t":{"ref":"16","name":"16: Lückendorf Wendeplatz - Zittau Bahnhof","from":"Lückendorf Wendeplatz","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":28,"s":[[6020074690575,10],[6015222851492,11],[6098190134425,12],[6097414195259,13],[6060595986547,14],[6014451526340,15],[6081977809633,16],[6078593412440,17],[6085765038247,18],[6045964602016,19],[6081918797356,20],[6016545105467,21],[6093031272730,22],[6094973687116,23],[6030771375140,24]]},
-  {"id":3052213337432,"t":{"ref":"15","name":"15: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[6098190134425,12],[6097414195259,13],[6060595986547,14],[6014451526340,15],[6081977809633,16],[6078593412440,17],[6081746593719,18],[6072594847268,19],[6042807739328,20],[6087869047238,21]]},
-  {"id":3063783534549,"t":{"ref":"19","name":"19: Ebersbach (Spree) Krankenhaus - Zittau Bahnhof","from":"Ebersbach (Spree) Krankenhaus","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":35,"s":[[6027810768315,29],[6051918435609,30]]},
-  {"id":3065635799281,"t":{"ref":"15","name":"15: Waltersdorf b ZI Skiheim - Olbersdorf Wendeplatz","from":"Waltersdorf b ZI Skiheim","to":"Olbersdorf Wendeplatz","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":12,"s":[[6017926420801,12]]}
+  {"id":105012,"t":{"ref":"3","name":"Stadtbus 3: Zittau Bahnhof => Süd => Hartau => Eichgraben => Süd => Zittau Bahnhof","from":"Zittau Bahnhof","to":"Zittau Bahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","colour":"#05498c","route":"bus","public_transport:version":"1"},"n":13,"s":[[370829699,8],[1871187747,9]]},
+  {"id":3188304,"t":{"ref":"S17","name":"Schulbus S17: Lückendorf => Eichgraben => Zittau","from":"Lückendorf Wendeplatz","to":"Zittau Bahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"1","bus":"yes"},"n":10,"s":[[370829699,5],[1871187747,6]]},
+  {"id":3006520204362,"t":{"ref":"15","name":"TaktBus 15: Waltersdorf => Jonsdorf => Olbersdorf => Zittau","from":"Waltersdorf bei Zittau Skiheim","to":"Zittau Bahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":12,"s":[[6017926420801,12]]},
+  {"id":3018535251237,"t":{"ref":"14","name":"14: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":37,"s":[[6043608782314,27],[6072938003276,28],[6027810768315,29],[6031959069660,30],[6051918435609,31]]},
+  {"id":3030294654470,"t":{"ref":"16","name":"16: Lückendorf Wendeplatz - Zittau Bahnhof","from":"Lückendorf Wendeplatz","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":28,"s":[[6020074690575,10],[6015222851492,11],[6098190134425,12],[6097414195259,13],[6060595986547,14],[6014451526340,15],[6081977809633,16],[6078593412440,17],[6085765038247,18],[6045964602016,19],[6081918797356,20],[6016545105467,21],[6093031272730,22],[6094973687116,23],[6030771375140,24]]},
+  {"id":3081491045099,"t":{"ref":"15","name":"15: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[6098190134425,12],[6097414195259,13],[6060595986547,14],[6014451526340,15],[6081977809633,16],[6078593412440,17],[6081746593719,18],[6072594847268,19],[6042807739328,20],[6087869047238,21]]},
+  {"id":3090308616352,"t":{"ref":"19","name":"19: Ebersbach (Spree) Krankenhaus - Zittau Bahnhof","from":"Ebersbach (Spree) Krankenhaus","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":35,"s":[[6027810768315,29],[6051918435609,30]]}
 ]
 }

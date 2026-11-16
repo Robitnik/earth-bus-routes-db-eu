@@ -3,10 +3,22 @@
 "cc":"CZ",
 "tile":[2816,3878],
 "stops":[
+  {"id":599318081,"lat":50.808749,"lon":13.929982,"k":"p","n":"Ortsmitte"},
+  {"id":599318132,"lat":50.805684,"lon":13.925424,"k":"p","n":"Wendeplatz"},
+  {"id":8289751377,"lat":50.83247,"lon":13.94622,"k":"x","n":"Bad Gottleuba, Hellendorfer Straße"},
+  {"id":8289751386,"lat":50.812858,"lon":13.93199,"k":"x","n":"Oelsen, Ortsanfang"},
+  {"id":8289751388,"lat":50.808631,"lon":13.929755,"k":"x","n":"Oelsen, Ortsmitte"},
+  {"id":8289751389,"lat":50.808706,"lon":13.930007,"k":"x","n":"Oelsen, Ortsmitte"},
+  {"id":8289751390,"lat":50.808577,"lon":13.929784,"k":"p","n":"Ortsmitte"},
+  {"id":8289751391,"lat":50.805712,"lon":13.925399,"k":"x","n":"Oelsen, Wendeplatz"},
   {"id":6031846572435,"lat":50.846323,"lon":13.94444,"k":"p","n":"Bad Gottleuba Schule","g":1},
   {"id":6052380506786,"lat":50.844032,"lon":13.945446,"k":"p","n":"Bad Gottleuba Friedhof","g":1}
 ],
 "routes":[
-  {"id":3006983285235,"t":{"ref":"219","name":"219: Grenzübergang Bahratal - Pirna ZOB / Bahnhof","from":"Grenzübergang Bahratal","to":"Pirna ZOB / Bahnhof","operator":"Busübernahme OVPS","route":"bus","public_transport:version":"2"},"n":24,"s":[[6052380506786,5],[6031846572435,6]]}
+  {"id":1755888,"t":{"ref":"214","name":"Bus 214: Bad Gottleuba Hackebeilstraße => Bad Gottleuba Hackebeilstraße","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":4,"s":[[599318081,2],[599318132,3],[8289751390,4]]},
+  {"id":6300447,"t":{"ref":"247","name":"Bus 247: Bad Gottleuba Hackebeilstraße => Rosenthal Mühlsteig","from":"Bad Gottleuba, Hackebeilstraße","to":"Rosenthal, Mühlsteig","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":7,"s":[[599318081,1],[599318132,2],[8289751390,3]]},
+  {"id":12132476,"t":{"ref":"214","name":"Bus 214: Bad Gottleuba Hackebeilstraße => Oelsen Wendeplatz","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[599318081,1],[599318132,2]]},
+  {"id":12132477,"t":{"ref":"214","name":"Bus 214: Oelsen Wendeplatz => Bad Gottleuba Hackebeilstraße","network":"Verkehrsverbund Oberelbe","operator":"Regionalverkehr Sächsische Schweiz-Osterzgebirge GmbH","route":"bus","public_transport:version":"2"},"n":3,"s":[[599318132,1],[8289751390,2]]},
+  {"id":3034411309123,"t":{"ref":"219","name":"219: Grenzübergang Bahratal - Pirna ZOB / Bahnhof","from":"Grenzübergang Bahratal","to":"Pirna ZOB / Bahnhof","operator":"Busübernahme OVPS","route":"bus","public_transport:version":"2"},"n":24,"s":[[6052380506786,5],[6031846572435,6]]}
 ]
 }

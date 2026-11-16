@@ -3,8 +3,10 @@
 "cc":"CZ",
 "tile":[2817,3898],
 "stops":[
+  {"id":3152504814,"lat":50.880981,"lon":14.935904,"k":"p","n":"Opolno tbs"},
   {"id":4136734789,"lat":50.865321,"lon":14.90173,"k":"p","n":"Hrádek n.Nisou, Václavice, Uhelná"},
   {"id":4138756814,"lat":50.855999,"lon":14.913642,"k":"p","n":"Václavice, u váhy"},
+  {"id":4739969317,"lat":50.881299,"lon":14.936755,"k":"p","n":"Opolno tbs"},
   {"id":6765075899,"lat":50.856339,"lon":14.913073,"k":"p","n":"Václavice, u váhy"},
   {"id":8238323208,"lat":50.854734,"lon":14.920399,"k":"p","n":"Václavice, hostinec"},
   {"id":8238323209,"lat":50.858429,"lon":14.905657,"k":"p","n":"Václavice, rozcestí Uhelná"},
@@ -15,10 +17,8 @@
   {"id":9195826198,"lat":50.876319,"lon":14.900899,"k":"x","n":"Bialopole"},
   {"id":9195826199,"lat":50.876254,"lon":14.901019,"k":"p","n":"Białopole"},
   {"id":9195826200,"lat":50.876396,"lon":14.900764,"k":"p","n":"Białopole"},
-  {"id":6005953900997,"lat":50.881166,"lon":14.936365,"k":"p","n":"Bogatynia,Opolno-Zdrój,TBS","g":1},
   {"id":6017292173614,"lat":50.8812,"lon":14.928771,"k":"p","n":"Bogatynia,Opolno-Zdrój","g":1},
-  {"id":6051051113698,"lat":50.881204,"lon":14.928814,"k":"p","n":"Opolno-Zdroj Kosciol","g":1},
-  {"id":6053809956307,"lat":50.881267,"lon":14.936585,"k":"p","n":"Opolno-Zdroj TBS","g":1}
+  {"id":6051051113698,"lat":50.881204,"lon":14.928814,"k":"p","n":"Opolno-Zdroj Kosciol","g":1}
 ],
 "routes":[
   {"id":17737834,"t":{"ref":"73","name":"Bus 73: Chrastava => Uhelná => Grabštejn,hrad => Hrádek n.Nisou","from":"Chrastava,,aut.nádr.","to":"Hrádek n.Nisou,,aut.nádr.","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":14,"s":[[8238330322,6],[6765075899,7],[4136734789,8],[8238330323,9],[8238330325,10]]},
@@ -37,10 +37,10 @@
   {"id":17737851,"t":{"ref":"73","name":"Bus 73: Hrádek n.Nisou => Grabštejn,hrad => Chrastava,,aut.nádr.","from":"Hrádek n.Nisou,,aut.nádr.","to":"Chrastava,,aut.nádr.","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":12,"s":[[8238330319,5],[8238323209,6],[4138756814,7],[8238323208,8]]},
   {"id":17737854,"t":{"ref":"73","name":"Bus 73: Oldřichov na Hr. => Chrastava","from":"Hrádek n.Nisou,Oldřichov na Hr.,obrat.","to":"Chrastava,,žel.st.","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":19,"s":[[8238330319,10],[8238323209,11],[4136734789,12],[4138756814,13],[8238323208,14]]},
   {"id":17737855,"t":{"ref":"73","name":"Bus 73: Hrádek n.Nisou => Chrastava,,žel.st.","from":"Hrádek n.Nisou,,aut.nádr","to":"Chrastava,,žel.st.","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":18,"s":[[8238330319,10],[8238323209,11],[4138756814,12],[8238323208,13]]},
-  {"id":3017915328340,"t":{"ref":"73","name":"Bus 73: Chrastava => Hrádek n.Nisou,,pošta => Hrádek n.Nisou","from":"Chrastava,,aut.nádr","to":"Hrádek n.Nisou,,aut.nádr.","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":14,"s":[[8238323208,6],[6765075899,7],[8238330323,8],[8238330319,9]]},
-  {"id":3047793713676,"t":{"ref":"831","name":"831: Kopaczow, Kosciol - Bogatynia II Armii W.P. BOK","from":"Kopaczow, Kosciol","to":"Bogatynia II Armii W.P. BOK","operator":"BIELAWA","route":"bus","public_transport:version":"2"},"n":12,"s":[[9195826198,6],[6051051113698,7],[6053809956307,8]]},
-  {"id":3048132955096,"t":{"ref":"73","name":"Bus 73: Chrastava,,žel.st. => Grabštejn,hrad => Hrádek n.Nisou","from":"Chrastava,,žel.st.","to":"Hrádek n.Nisou,,aut.nádr","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":14,"s":[[8238323208,7],[6765075899,8],[8238330323,9],[8238330319,10]]},
-  {"id":3054624689261,"t":{"ref":"692","name":"692: Frydlant,,aut.nadr. - Zittau Bahnhof","from":"Frydlant,,aut.nadr.","to":"Zittau Bahnhof","operator":"CSAD-Liberec","route":"bus","public_transport:version":"2"},"n":15,"s":[[6053809956307,9],[6051051113698,10]]},
-  {"id":3098232352015,"t":{"ref":"692","name":"692: Frýdlant,aut.nádr. - Zittau,Bahnhof","from":"Frýdlant,aut.nádr.","to":"Zittau,Bahnhof","operator":"ČSAD Liberec, a.s.","route":"bus","public_transport:version":"2"},"n":16,"s":[[6005953900997,10],[6017292173614,11]]}
+  {"id":3020252259572,"t":{"ref":"831","name":"831: Kopaczow, Kosciol - Bogatynia II Armii W.P. BOK","from":"Kopaczow, Kosciol","to":"Bogatynia II Armii W.P. BOK","operator":"BIELAWA","route":"bus","public_transport:version":"2"},"n":12,"s":[[9195826198,6],[6051051113698,7],[4739969317,8]]},
+  {"id":3067593847338,"t":{"ref":"692","name":"692: Frýdlant,aut.nádr. - Porajów,przy kościele","from":"Frýdlant,aut.nádr.","to":"Porajów,przy kościele","operator":"ČSAD Liberec, a.s.","route":"bus","public_transport:version":"2"},"n":14,"s":[[4739969317,10],[6017292173614,11]]},
+  {"id":3068985551258,"t":{"ref":"73","name":"Bus 73: Chrastava => Hrádek n.Nisou,,pošta => Hrádek n.Nisou","from":"Chrastava,,aut.nádr","to":"Hrádek n.Nisou,,aut.nádr.","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":14,"s":[[8238323208,6],[6765075899,7],[8238330323,8],[8238330319,9]]},
+  {"id":3089545006252,"t":{"ref":"73","name":"Bus 73: Chrastava,,žel.st. => Grabštejn,hrad => Hrádek n.Nisou","from":"Chrastava,,žel.st.","to":"Hrádek n.Nisou,,aut.nádr","network":"Integrovaná doprava Libereckého kraje","operator":"ČSAD Liberec, a.s","route":"bus","public_transport:version":"2"},"n":14,"s":[[8238323208,7],[6765075899,8],[8238330323,9],[8238330319,10]]},
+  {"id":3092965338665,"t":{"ref":"692","name":"692: Frydlant,,aut.nadr. - Zittau Bahnhof","from":"Frydlant,,aut.nadr.","to":"Zittau Bahnhof","operator":"CSAD-Liberec","route":"bus","public_transport:version":"2"},"n":15,"s":[[4739969317,9],[6051051113698,10]]}
 ]
 }

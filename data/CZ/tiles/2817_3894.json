@@ -3,23 +3,28 @@
 "cc":"CZ",
 "tile":[2817,3894],
 "stops":[
+  {"id":366604487,"lat":50.854775,"lon":14.701321,"k":"p","n":"Jonsdorf Kurhaus"},
+  {"id":366604492,"lat":50.854853,"lon":14.701399,"k":"p","n":"Jonsdorf Kurhaus"},
+  {"id":366604496,"lat":50.854533,"lon":14.705817,"k":"p","n":"Jonsdorf Bahnhof"},
+  {"id":366604500,"lat":50.855069,"lon":14.706267,"k":"p","n":"Jonsdorf Bahnhof"},
+  {"id":6837721160,"lat":50.853459,"lon":14.705696,"k":"p","n":"Kurort Jonsdorf Bahnhof"},
   {"id":6000790795656,"lat":50.87858,"lon":14.717917,"k":"p","n":"Bertsdorf Resselschmiede","g":1},
   {"id":6004312796387,"lat":50.89,"lon":14.74395,"k":"p","n":"Bertsdorf Niederdorf","g":1},
   {"id":6008958796727,"lat":50.898001,"lon":14.748972,"k":"p","n":"Hörnitz Straße der Jugend","g":1},
   {"id":6009174237805,"lat":50.887807,"lon":14.737563,"k":"p","n":"Bertsdorf Strauß","g":1},
   {"id":6012567766957,"lat":50.860694,"lon":14.717279,"k":"p","n":"Kurort Jonsdorf Eissporthalle","g":1},
   {"id":6012588320103,"lat":50.880009,"lon":14.721501,"k":"p","n":"Bertsdorf Hirsch","g":1},
-  {"id":6022672573082,"lat":50.855108,"lon":14.706275,"k":"p","n":"Kurort Jonsdorf Bahnhof","g":1},
   {"id":6035235418254,"lat":50.86866,"lon":14.74519,"k":"p","n":"Olbersdorf Bahnhof Bertsdorf","g":1},
   {"id":6035591992247,"lat":50.876721,"lon":14.709095,"k":"p","n":"Bertsdorf Viebig","g":1},
   {"id":6048424496515,"lat":50.862259,"lon":14.725615,"k":"p","n":"Kurort Jonsdorf Hutungswiese","g":1},
   {"id":6062494301072,"lat":50.894924,"lon":14.749798,"k":"p","n":"Hörnitz Kremser","g":1},
-  {"id":6067345326228,"lat":50.85478,"lon":14.701325,"k":"p","n":"Kurort Jonsdorf Kurhaus","g":1},
   {"id":6077932906306,"lat":50.882944,"lon":14.72893,"k":"p","n":"Bertsdorf Sattlerschenke","g":1}
 ],
 "routes":[
-  {"id":3001159532890,"t":{"ref":"14","name":"14: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":37,"s":[[6035591992247,17],[6000790795656,18],[6012588320103,19],[6077932906306,20],[6009174237805,21],[6004312796387,22],[6062494301072,23],[6008958796727,24]]},
-  {"id":3052213337432,"t":{"ref":"15","name":"15: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[6067345326228,7],[6022672573082,8],[6012567766957,9],[6048424496515,10],[6035235418254,11]]},
-  {"id":3065635799281,"t":{"ref":"15","name":"15: Waltersdorf b ZI Skiheim - Olbersdorf Wendeplatz","from":"Waltersdorf b ZI Skiheim","to":"Olbersdorf Wendeplatz","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":12,"s":[[6067345326228,7],[6022672573082,8],[6012567766957,9],[6048424496515,10],[6035235418254,11]]}
+  {"id":105240,"t":{"ref":"15","name":"TaktBus 15: Zittau => Olbersdorf => Jonsdorf => Waltersdorf","from":"Zittau Bahnhof","to":"Waltersdorf bei Zittau Skiheim","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":13,"s":[[366604496,1],[366604492,2]]},
+  {"id":16752688,"t":{"name":"Zittauer Naturpark Express","operator":"Frank Nuhn Freizeit und Tourismus e.K.","route":"bus","public_transport:version":"2"},"n":19,"s":[[366604492,4],[366604487,16],[366604500,17]]},
+  {"id":3006520204362,"t":{"ref":"15","name":"TaktBus 15: Waltersdorf => Jonsdorf => Olbersdorf => Zittau","from":"Waltersdorf bei Zittau Skiheim","to":"Zittau Bahnhof","network":"ZVON","operator":"Deutsche Bahn Regio Bus Ost","route":"bus","public_transport:version":"2","bus":"yes"},"n":12,"s":[[366604487,7],[366604500,8],[6012567766957,9],[6048424496515,10],[6035235418254,11]]},
+  {"id":3018535251237,"t":{"ref":"14","name":"14: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":37,"s":[[6035591992247,17],[6000790795656,18],[6012588320103,19],[6077932906306,20],[6009174237805,21],[6004312796387,22],[6062494301072,23],[6008958796727,24]]},
+  {"id":3081491045099,"t":{"ref":"15","name":"15: Waltersdorf b ZI Skiheim - Zittau Bahnhof","from":"Waltersdorf b ZI Skiheim","to":"Zittau Bahnhof","operator":"KVG-Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[366604487,7],[366604500,8],[6012567766957,9],[6048424496515,10],[6035235418254,11]]}
 ]
 }

@@ -3,17 +3,19 @@
 "cc":"CZ",
 "tile":[2804,3845],
 "stops":[
+  {"id":1245388647,"lat":50.224226,"lon":12.29904,"k":"x","n":"Bad Brambach, Klinik"},
   {"id":1394184129,"lat":50.249263,"lon":12.266818,"k":"p","n":"Gürth, Warte"},
   {"id":5186906223,"lat":50.249208,"lon":12.266896,"k":"x","n":"Gürth, Warte"},
   {"id":8715957466,"lat":50.221106,"lon":12.298045,"k":"x","n":"Bad Brambach, Kurmittelhaus"},
   {"id":8715957467,"lat":50.221184,"lon":12.298011,"k":"p","n":"Bad Brambach, Kurmittelhaus"},
-  {"id":9132752185,"lat":50.221896,"lon":12.256304,"k":"p","n":"Aš, Horní Paseky"},
-  {"id":6069852585154,"lat":50.226457,"lon":12.296876,"k":"p","n":"Bad Brambach,Vogtland-Residenz","g":1}
+  {"id":8715957477,"lat":50.224229,"lon":12.29901,"k":"p","n":"Bad Brambach, Klinik"},
+  {"id":8715957478,"lat":50.226421,"lon":12.296878,"k":"x","n":"Bad Brambach, Vogtland-Residenz"},
+  {"id":8715957479,"lat":50.226455,"lon":12.29688,"k":"p","n":"Bad Brambach, Vogtland-Residenz"},
+  {"id":9132752185,"lat":50.221896,"lon":12.256304,"k":"p","n":"Aš, Horní Paseky"}
 ],
 "routes":[
-  {"id":12792141,"t":{"ref":"36","name":"Bus 36: Gürth => Bad Brambach","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[1394184129,1]]},
-  {"id":12792142,"t":{"ref":"36","name":"Bus 36: Bad Brambach => Gürth","from":"Bad Brambach, Bahnhof","to":"Gürth, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[1394184129,2]]},
-  {"id":12793174,"t":{"ref":"34","name":"Bus 34: Bad Brambach, Bahnhof => Festhalle => Kirchplatz => Bad Brambach, Bahnhof","from":"Bad Brambach, Bahnhof","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":2,"s":[[8715957466,1],[8715957467,2]]},
-  {"id":3006735195742,"t":{"ref":"36","name":"36: Gürth, Warte - Bad Brambach, Bahnhof","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","operator":"POB Vnetz Hauptlinien","route":"bus","public_transport:version":"2"},"n":11,"s":[[5186906223,1],[6069852585154,7]]}
+  {"id":12792142,"t":{"ref":"36","name":"Bus 36: Bad Brambach => Gürth","from":"Bad Brambach, Bahnhof","to":"Gürth, Warte","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":8,"s":[[8715957479,5],[1394184129,8]]},
+  {"id":12793174,"t":{"ref":"34","name":"Bus 34: Bad Brambach, Bahnhof => Festhalle => Kirchplatz => Bad Brambach, Bahnhof","from":"Bad Brambach, Bahnhof","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":10,"s":[[8715957467,5],[8715957477,6]]},
+  {"id":3097416295925,"t":{"ref":"36","name":"Bus 36: Gürth => Bad Brambach","from":"Gürth, Warte","to":"Bad Brambach, Bahnhof","network":"Verkehrsverbund Vogtland","operator":"POB","route":"bus","public_transport:version":"2"},"n":11,"s":[[5186906223,1],[8715957479,7]]}
 ]
 }
