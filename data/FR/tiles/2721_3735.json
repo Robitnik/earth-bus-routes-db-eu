@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2721,3735],
+"stops":[
+  {"id":1404520768,"lat":46.058185,"lon":6.755677,"k":"x","n":"Balme Dessus"},
+  {"id":3021665889,"lat":46.058145,"lon":6.755779,"k":"p","n":"Balme Dessus"},
+  {"id":3022846328,"lat":46.052032,"lon":6.772897,"k":"p","n":"Chemin de la Chapelle"},
+  {"id":3045975222,"lat":46.058476,"lon":6.785787,"k":"p"},
+  {"id":3045979115,"lat":46.062686,"lon":6.793777,"k":"p"},
+  {"id":3435034875,"lat":46.055261,"lon":6.775252,"k":"p","n":"Maison de la Montagne"},
+  {"id":4188950960,"lat":46.05433,"lon":6.772716,"k":"p","n":"École de Sixt"},
+  {"id":4197019095,"lat":46.053857,"lon":6.773894,"k":"s","n":"Gare routière de Sixt-Fer-à-Cheval"},
+  {"id":4197019359,"lat":46.053938,"lon":6.773958,"k":"x","n":"Sixt-Fer-à-Cheval Gare routière"},
+  {"id":6687776687,"lat":46.059533,"lon":6.791925,"k":"p","n":"L'Echarny"},
+  {"id":7988175413,"lat":46.055224,"lon":6.775266,"k":"x","n":"Maison de la Montagne"},
+  {"id":10303430183,"lat":46.053879,"lon":6.773727,"k":"p","n":"Sixt-Fer-à-Cheval Gare Routière"},
+  {"id":10807223968,"lat":46.058134,"lon":6.755617,"k":"p","n":"Balme Dessus"},
+  {"id":13994868313,"lat":46.056605,"lon":6.779495,"k":"p","n":"Aire de camping car"}
+],
+"routes":[
+  {"id":4758539,"t":{"ref":"Rouge","name":"Bus Ligne Rouge : Samoëns → Salvagny","from":"Samoëns","to":"Salvagny","network":"Navette Skibus Grand Massif","operator":"SAT","colour":"#ff0000","route":"bus","public_transport:version":"2"},"n":6,"s":[[3435034875,3]]},
+  {"id":4758540,"t":{"ref":"Verte","name":"Bus Ligne Verte : Sixt-Fer-à-Cheval → Samoëns","from":"Sixt-Fer-à-Cheval","to":"Samoëns","network":"Navette Skibus Grand Massif","operator":"SAT","colour":"#92d050","route":"bus","public_transport:version":"2"},"n":3,"s":[[3435034875,1]]},
+  {"id":11739731,"t":{"ref":"Rouge","name":"Bus Ligne Rouge : Sixt-Fer-à-Cheval → Samoëns","from":"Samoëns","to":"Sixt-Fer-à-Cheval","network":"Navette Skibus Grand Massif","operator":"SAT","colour":"#ff0000","route":"bus","public_transport:version":"2"},"n":7,"s":[[3435034875,5]]},
+  {"id":11739732,"t":{"ref":"Rouge","name":"Bus Ligne Rouge : Samoëns → Sixt-Fer-à-Cheval","from":"Samoëns","to":"Sixt-Fer-à-Cheval","network":"Navette Skibus Grand Massif","operator":"SAT","colour":"#ff0000","route":"bus","public_transport:version":"2"},"n":7,"s":[[3435034875,3]]},
+  {"id":11739733,"t":{"ref":"Rouge","name":"Bus Ligne Rouge : Salvagny → Samoëns","from":"Salvagny","to":"Samoëns","network":"Navette Skibus Grand Massif","operator":"SAT","colour":"#ff0000","route":"bus","public_transport:version":"2"},"n":9,"s":[[3435034875,4]]},
+  {"id":3005133523474,"t":{"ref":"Y94","name":"Bus Y94 : Sixt-Fer-à-Cheval → Samoëns → Cluses","from":"Sixt-Fer-à-Cheval","to":"Cluses","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#46778b","route":"bus","public_transport:version":"2"},"n":25,"s":[[10303430183,1],[1404520768,2]]},
+  {"id":3027909624716,"t":{"ref":"Y02","name":"Bus Y02 : Annemasse → Sixt-Fer-à-Cheval","from":"Annemasse","to":"Sixt-Fer-à-Cheval","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[10303430183,33]]},
+  {"id":3033335461998,"t":{"ref":"Y94","name":"Bus Y94 : Cluses → Samoëns → Sixt-Fer-à-Cheval","from":"Cluses","to":"Sixt-Fer-à-Cheval","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#46778b","route":"bus","public_transport:version":"2"},"n":25,"s":[[10807223968,24],[10303430183,25]]},
+  {"id":3033461195026,"t":{"ref":"Y02","name":"Bus Y02 : Sixt-Fer-à-Cheval → Annemasse","from":"Sixt-Fer-à-Cheval","to":"Annemasse","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[10303430183,1]]},
+  {"id":3036542679630,"t":{"ref":"Y02","name":"Bus Y02 : Sixt-Fer-à-Cheval → Annemasse","from":"Sixt-Fer-à-Cheval","to":"Annemasse","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[10303430183,1]]},
+  {"id":3037545490890,"t":{"ref":"L8ROUGE","name":"L8ROUGE: SAMOENS - GRAND MASSIF EXPRESS - SAMOENS - GRAND MASSIF EXPRESS","from":"SAMOENS - GRAND MASSIF EXPRESS","to":"SAMOENS - GRAND MASSIF EXPRESS","operator":"","route":"bus","public_transport:version":"2"},"n":15,"s":[[7988175413,4],[3435034875,12]]},
+  {"id":3041807673374,"t":{"ref":"Y02","name":"Bus Y02 : Annemasse → Sixt-Fer-à-Cheval","from":"Annemasse","to":"Sixt-Fer-à-Cheval","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[10303430183,33]]},
+  {"id":3064240679681,"t":{"ref":"Y94","name":"Bus Y94 : Sixt-Fer-à-Cheval → Samoëns → Cluses","from":"Sixt-Fer-à-Cheval","to":"Cluses","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#46778b","route":"bus","public_transport:version":"2"},"n":25,"s":[[10303430183,1],[1404520768,2]]},
+  {"id":3091404657963,"t":{"ref":"Y94","name":"Bus Y94 : Cluses → Samoëns → Sixt-Fer-à-Cheval","from":"Cluses","to":"Sixt-Fer-à-Cheval","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#46778b","route":"bus","public_transport:version":"2"},"n":25,"s":[[10807223968,24],[10303430183,25]]}
+]
+}

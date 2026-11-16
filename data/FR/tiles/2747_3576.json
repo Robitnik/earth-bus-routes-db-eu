@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2747,3576],
+"stops":[
+  {"id":5442858727,"lat":47.377304,"lon":-1.172412,"k":"p","n":"Ancenis - ZI Pierre et Marie Curie - Hôpital"},
+  {"id":5442858728,"lat":47.377431,"lon":-1.172801,"k":"p","n":"Ancenis - ZI Bd Pierre et Marie Curie - Hôpital"},
+  {"id":5442858729,"lat":47.377358,"lon":-1.172648,"k":"x","n":"Ancenis - ZI Bd Pierre et Marie Curie - Hôpital"},
+  {"id":5442858730,"lat":47.368996,"lon":-1.177139,"k":"x","n":"Ancenis - Gare SNCF"},
+  {"id":5442858731,"lat":47.369086,"lon":-1.177362,"k":"p","n":"Ancenis - Gare SNCF"},
+  {"id":9876495381,"lat":47.366666,"lon":-1.176509,"k":"p"},
+  {"id":9876554871,"lat":47.363751,"lon":-1.1877,"k":"p"},
+  {"id":9878818500,"lat":47.379379,"lon":-1.187363,"k":"p"},
+  {"id":11541225910,"lat":47.371881,"lon":-1.163047,"k":"p"},
+  {"id":11541225911,"lat":47.37193,"lon":-1.161976,"k":"p"},
+  {"id":6010561482035,"lat":47.38302,"lon":-1.179356,"k":"p","n":"Hermitage","g":1},
+  {"id":6018342462289,"lat":47.372846,"lon":-1.172951,"k":"p","n":"Hôpital","g":1},
+  {"id":6023459473162,"lat":47.383018,"lon":-1.179356,"k":"p","n":"Hermitage / Ancenis","g":1},
+  {"id":6045602617654,"lat":47.372845,"lon":-1.172951,"k":"p","n":"Hôpital / Ancenis","g":1}
+],
+"routes":[
+  {"id":8056269,"t":{"ref":"408","name":"Car Aléop 408 : Cholet → Ancenis","from":"Cholet (Les Halles)","to":"Ancenis - ZI Bd Pierre et Marie Curie - Hôpital","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#F3975D","route":"bus","public_transport:version":"2"},"n":15,"s":[[5442858731,13,14],[5442858728,15]]},
+  {"id":8063781,"t":{"ref":"408","name":"Car Aléop 408 : Ancenis → Cholet","from":"Ancenis - ZI Bd Pierre et Marie Curie - Hôpital","to":"Cholet (Les Halles)","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#F3975D","route":"bus","public_transport:version":"2"},"n":14,"s":[[5442858728,1],[5442858731,2]]},
+  {"id":3012401186789,"t":{"ref":"413","name":"413: Hermitage / Ancenis - Saint Martin / Beaupréau","from":"Hermitage / Ancenis","to":"Saint Martin / Beaupréau","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":14,"s":[[6023459473162,1],[6045602617654,2],[5442858731,3]]},
+  {"id":3034718992156,"t":{"ref":"413","name":"413: Hermitage - Saint Martin","from":"Hermitage","to":"Saint Martin","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":14,"s":[[6010561482035,1],[6018342462289,2],[5442858731,3]]}
+]
+}

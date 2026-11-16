@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2787,3665],
+"stops":[
+  {"id":2330781951,"lat":49.399562,"lon":3.298414,"k":"p","n":"Glycines"},
+  {"id":2330781953,"lat":49.397816,"lon":3.295682,"k":"p","n":"Longpont"},
+  {"id":10892787412,"lat":49.381797,"lon":3.285225,"k":"x","n":"Avenue de Compiègne"},
+  {"id":10892787413,"lat":49.381722,"lon":3.285229,"k":"p","n":"Avenue de Compiègne"},
+  {"id":10892787414,"lat":49.393155,"lon":3.26837,"k":"x","n":"Pommiers - Église"},
+  {"id":10892787415,"lat":49.393117,"lon":3.268452,"k":"p","n":"Pommiers - Église"},
+  {"id":10892787416,"lat":49.393181,"lon":3.268276,"k":"p","n":"Pommiers - Église"},
+  {"id":10893609947,"lat":49.381782,"lon":3.285793,"k":"x","n":"Avenue de Compiègne"},
+  {"id":10893609948,"lat":49.381845,"lon":3.285796,"k":"p","n":"Avenue de Compiègne"},
+  {"id":12647163350,"lat":49.379416,"lon":3.298983,"k":"p","n":"Les Bains du Lac"},
+  {"id":12769980234,"lat":49.381389,"lon":3.29981,"k":"p"},
+  {"id":6067236864941,"lat":49.399161,"lon":3.298575,"k":"p","n":"Glycines R / PASLY","g":1}
+],
+"routes":[
+  {"id":2959348,"t":{"ref":"2","name":"Bus 2 : Les Bains du Lac => Pôle Emploi","from":"Les Bains du Lac","to":"Pôle Emploi","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#F5CF46","route":"bus","public_transport:version":"2"},"n":21,"s":[[12647163350,1]]},
+  {"id":2959833,"t":{"ref":"5","name":"Bus 5 : Gare => Pasly","from":"Gare","to":"Glycines","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#217C76","route":"bus","public_transport:version":"2"},"n":19,"s":[[2330781953,14],[2330781951,19]]},
+  {"id":8187297,"t":{"ref":"652","name":"Ligne 652: Soissons → Compiègne (ne déssert pas Autrêches)","from":"Gare","to":"Compiègne - Gare Routière","network":"Libéo","operator":"Transdev","colour":"#8DC04C","route":"bus","public_transport:version":"2"},"n":22,"s":[[10893609948,3],[10892787416,4]]},
+  {"id":8187299,"t":{"ref":"652","name":"Ligne 652: Compiègne → Autrêches → Soissons","from":"Compiègne - Gare Routière","to":"Gare","network":"Libéo","operator":"Transdev","colour":"#8DC04C","route":"bus","public_transport:version":"2"},"n":24,"s":[[10892787415,21],[10892787413,22]]},
+  {"id":8189487,"t":{"ref":"5","name":"Bus 5 : Pasly => Gare","from":"Glycines","to":"Gare","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#217C76","route":"bus","public_transport:version":"2"},"n":20,"s":[[2330781953,1],[2330781951,6]]},
+  {"id":15850893,"t":{"ref":"652","name":"Ligne 652: Soissons → Autrêches → Compiègne","from":"Gare","to":"Compiègne - Gare Routière","network":"Libéo","operator":"Transdev","colour":"#8DC04C","route":"bus","public_transport:version":"2"},"n":25,"s":[[10893609948,3],[10892787416,4]]},
+  {"id":15851691,"t":{"ref":"650","name":"Ligne 650: Compiègne → Soissons","from":"Compiègne","to":"Soissons","network":"Réseau Oise","operator":"Transdev","colour":"#1154A0","route":"bus","public_transport:version":"2"},"n":16,"s":[[10892787413,14]]},
+  {"id":17537139,"t":{"ref":"2","name":"Bus 2 : Saint-Médard => Les Bains du Lac","from":"Saint-Médard","to":"Les Bains du Lac","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#F5CF46","route":"bus","public_transport:version":"2"},"n":20,"s":[[12647163350,20]]},
+  {"id":3063416557417,"t":{"ref":"L5","name":"L5: Longpont R / PASLY - PEM3/Soissons","from":"Longpont R / PASLY","to":"PEM3/Soissons","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":20,"s":[[2330781953,1],[6067236864941,6]]},
+  {"id":3067919091114,"t":{"ref":"L2","name":"L2: Saint Médard A / SOISSONS - Les Bains du Lac A / SOISSONS","from":"Saint Médard A / SOISSONS","to":"Les Bains du Lac A / SOISSONS","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":20,"s":[[12647163350,20]]},
+  {"id":3068155988658,"t":{"ref":"L2","name":"L2: Les Bains du Lac A / SOISSONS - Saint Médard A / SOISSONS","from":"Les Bains du Lac A / SOISSONS","to":"Saint Médard A / SOISSONS","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":19,"s":[[12647163350,1]]}
+]
+}

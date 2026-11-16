@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2750,3748],
+"stops":[
+  {"id":4641793966,"lat":47.511099,"lon":7.416737,"k":"p","n":"Bettlach - Romains"},
+  {"id":4641793967,"lat":47.511035,"lon":7.416789,"k":"p","n":"Bettlach - Romains"},
+  {"id":4641793968,"lat":47.508816,"lon":7.413316,"k":"p","n":"Bettlach Mairie"},
+  {"id":4641793969,"lat":47.508669,"lon":7.413285,"k":"p","n":"BETTLACH - Mairie"},
+  {"id":4641793970,"lat":47.505831,"lon":7.409793,"k":"p"},
+  {"id":4641793971,"lat":47.506141,"lon":7.410329,"k":"p"},
+  {"id":7046734784,"lat":47.547987,"lon":7.439075,"k":"p","n":"Césarhof"},
+  {"id":7046742185,"lat":47.548009,"lon":7.439188,"k":"p","n":"FOLGENSBOURG - Cesarhof"},
+  {"id":9445849752,"lat":47.547175,"lon":7.401114,"k":"p","n":"MUESPACH-LE-HAUT - Mairie"},
+  {"id":9445849753,"lat":47.547068,"lon":7.400551,"k":"p","n":"Muespach-le-Haut Mairie"},
+  {"id":9997169827,"lat":47.549298,"lon":7.443812,"k":"p","n":"FOLGENSBOURG - Folgensbourg Centre"},
+  {"id":9997169828,"lat":47.54928,"lon":7.44403,"k":"p","n":"Folgensbourg Centre"},
+  {"id":6012942342032,"lat":47.549516,"lon":7.444704,"k":"p","n":"Folgensbourg Centre","g":1},
+  {"id":6039068266866,"lat":47.501518,"lon":7.40375,"k":"p","n":"BETTLACH - Saint Blaise Eglise","g":1},
+  {"id":6055941015840,"lat":47.501518,"lon":7.40375,"k":"p","n":"BETTLACH - Saint Blaise Eglise","g":1}
+],
+"routes":[
+  {"id":7017325,"t":{"ref":"12","name":"12 : Saint-Louis Gare → Folgensbourg Césarhof","from":"Saint-Louis Gare","to":"Césarhof","network":"Distribus","operator":"Transdev Grand Est","colour":"#5AC8D2","route":"bus"},"n":11,"s":[[7046734784,10],[9997169827,11]]},
+  {"id":10395516,"t":{"ref":"12","name":"12 : Folgensbourg Césarhof → Saint-Louis Gare","from":"Césarhof","to":"Saint-Louis Gare","network":"Distribus","operator":"Transdev Grand Est","colour":"#5AC8D2","route":"bus"},"n":11,"s":[[7046742185,9],[9997169828,11]]},
+  {"id":13670428,"t":{"ref":"68R070","name":"Bus 68R070: SAINT-LOUIS - Gare => FERRETTE - Gare Routière","from":"SAINT-LOUIS - Gare","to":"FERRETTE - Gare Routière","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#DC004B","route":"bus","public_transport:version":"2"},"n":24,"s":[[9445849752,11]]},
+  {"id":13670429,"t":{"ref":"68R070","name":"Bus 68R070: FERRETTE - Gare Routière => SAINT-LOUIS - Gare","from":"FERRETTE - Gare Routière","to":"SAINT-LOUIS - Gare","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#DC004B","route":"bus","public_transport:version":"2"},"n":24,"s":[[9445849752,14]]},
+  {"id":13670430,"t":{"ref":"68R071","name":"Bus 68R071: SAINT-LOUIS - Gare => BIEDERTHAL - Mairie","from":"SAINT-LOUIS - Gare","to":"BIEDERTHAL - Mairie","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#11539C","route":"bus","public_transport:version":"2"},"n":23,"s":[[9997169827,10],[7046742185,11],[4641793967,12],[4641793969,13]]},
+  {"id":13670431,"t":{"ref":"68R071","name":"Bus 68R071: BIEDERTHAL - Mairie => SAINT-LOUIS - Gare","from":"BIEDERTHAL - Mairie","to":"SAINT-LOUIS - Gare","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#11539C","route":"bus","public_transport:version":"2"},"n":23,"s":[[4641793969,11],[4641793967,12],[7046742185,13],[9997169827,14]]},
+  {"id":16117219,"t":{"ref":"68R071","name":"Bus 68R071: OLTINGUE - Poste / CMDP => SAINT-LOUIS - Gare","from":"OLTINGUE - Poste / CMDP","to":"SAINT-LOUIS - Gare","network":"FLUO 68","colour":"#11539C","route":"bus"},"n":19,"s":[[4641793969,7],[4641793967,8],[7046742185,9],[9997169827,10]]},
+  {"id":16117286,"t":{"ref":"68R070","name":"Bus 68R070: SAINT-LOUIS - Gare => WALDIGHOFEN - Eglise","from":"SAINT-LOUIS - Gare","to":"WALDIGHOFEN - Eglise","network":"FLUO 68","colour":"#DC004B","route":"bus"},"n":16,"s":[[9445849752,11]]},
+  {"id":16117335,"t":{"ref":"68R070","name":"Bus 68R070: WALDIGHOFEN - Eglise => SAINT-LOUIS - Gare","from":"WALDIGHOFEN - Eglise","to":"SAINT-LOUIS - Gare","network":"FLUO 68","colour":"#DC004B","route":"bus"},"n":16,"s":[[9445849752,6]]},
+  {"id":16117348,"t":{"ref":"68R071","name":"Bus 68R071: SAINT-LOUIS - Gare => OLTINGUE - Poste / CMDP","from":"SAINT-LOUIS - Gare","to":"OLTINGUE - Poste / CMDP","network":"FLUO 68","colour":"#11539C","route":"bus"},"n":19,"s":[[9997169827,10],[7046742185,11],[4641793967,12],[4641793969,13]]},
+  {"id":3016544386253,"t":{"ref":"8463","name":"8463: ALTKIRCH - Gare routiere lycées - MUESPACH-LE-HAUT - Ruisseau","from":"ALTKIRCH - Gare routiere lycées","to":"MUESPACH-LE-HAUT - Ruisseau","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":13,"s":[[9445849752,12]]},
+  {"id":3034719304545,"t":{"ref":"8458","name":"8458: ALTKIRCH - Gare routiere lycées - BIEDERTHAL - Mairie","from":"ALTKIRCH - Gare routiere lycées","to":"BIEDERTHAL - Mairie","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":21,"s":[[6039068266866,17],[4641793969,18]]},
+  {"id":3036631158907,"t":{"ref":"8458","name":"8458: ALTKIRCH - Gare routiere lycées - BIEDERTHAL - Mairie","from":"ALTKIRCH - Gare routiere lycées","to":"BIEDERTHAL - Mairie","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":21,"s":[[6055941015840,17],[4641793969,18]]},
+  {"id":3038858909853,"t":{"ref":"8463","name":"8463: ALTKIRCH - Gare routiere lycées - MUESPACH-LE-HAUT - Ruisseau","from":"ALTKIRCH - Gare routiere lycées","to":"MUESPACH-LE-HAUT - Ruisseau","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":13,"s":[[9445849752,12]]},
+  {"id":3062118060263,"t":{"ref":"123","name":"123: Collège des Trois Pays - Knoeringue Centre","from":"Collège des Trois Pays","to":"Knoeringue Centre","operator":"DISTRIBUS","route":"bus","public_transport:version":"2"},"n":7,"s":[[6012942342032,6]]},
+  {"id":3080051200427,"t":{"ref":"8463","name":"8463: ALTKIRCH - Gare routiere lycées - MUESPACH-LE-HAUT - Ruisseau","from":"ALTKIRCH - Gare routiere lycées","to":"MUESPACH-LE-HAUT - Ruisseau","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":13,"s":[[9445849752,12]]}
+]
+}

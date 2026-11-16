@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3708],
+"stops":[
+  {"id":4965873499,"lat":44.093039,"lon":5.408912,"k":"p","n":"Sault - Place des Aires"},
+  {"id":5898975691,"lat":44.093052,"lon":5.409031,"k":"x","n":"Sault - Place des Aires"},
+  {"id":7609184680,"lat":44.090958,"lon":5.415817,"k":"x","n":"Collège Pays de Sault"},
+  {"id":7609185490,"lat":44.091045,"lon":5.415886,"k":"p","n":"Collège Pays de Sault"},
+  {"id":8358904099,"lat":44.092464,"lon":5.410501,"k":"x","n":"Crédit Agricole"},
+  {"id":8358904100,"lat":44.092392,"lon":5.410487,"k":"p","n":"Crédit Agricole"},
+  {"id":8358904101,"lat":44.092501,"lon":5.410468,"k":"p","n":"Crédit Agricole"}
+],
+"routes":[
+  {"id":7390329,"t":{"ref":"916","name":"Bus 916 : Sault => Apt","from":"Sault","to":"Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[4965873499,1]]},
+  {"id":7390330,"t":{"ref":"916","name":"Bus 916 : Apt => Sault","from":"Apt","to":"Sault","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[4965873499,11]]},
+  {"id":12230405,"t":{"ref":"912","name":"Bus 912 : Carpentras => Sault","from":"Carpentras","to":"Sault","network":"Zou !","operator":"Voyages Arnaud","colour":"#f8e925","route":"bus","public_transport:version":"2"},"n":23,"s":[[8358904100,22],[7609185490,23]]},
+  {"id":12230406,"t":{"ref":"912","name":"Bus 912 : Sault => Carpentras","from":"Sault","to":"Carpentras","network":"Zou !","operator":"Voyages Arnaud","colour":"#f8e925","route":"bus","public_transport:version":"2"},"n":26,"s":[[7609185490,1],[8358904101,2]]},
+  {"id":16006941,"t":{"ref":"916","name":"Bus 916 : Sault - Crédit Agricole => Apt","from":"Sault - Crédit Agricole","to":"Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[8358904101,1]]},
+  {"id":16006942,"t":{"ref":"916","name":"Bus 916 : Apt => Sault - Crédit Agricole","from":"Apt","to":"Sault - Crédit Agricole","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[8358904100,11]]},
+  {"id":3026756185586,"t":{"ref":"912","name":"Bus 912 : Sault => Place des Aires => Carpentras","from":"Sault","to":"Carpentras","network":"Zou !","operator":"Voyages Arnaud","colour":"#f8e925","route":"bus","public_transport:version":"2"},"n":26,"s":[[7609184680,1],[4965873499,2]]},
+  {"id":3063214296075,"t":{"ref":"912","name":"Bus 912 : Carpentras => Place des Aires => Sault","from":"Carpentras","to":"Sault","network":"Zou !","operator":"Voyages Arnaud","colour":"#f8e925","route":"bus","public_transport:version":"2"},"n":23,"s":[[4965873499,22],[7609184680,23]]}
+]
+}

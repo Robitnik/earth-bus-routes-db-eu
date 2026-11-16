@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2679,3716],
+"stops":[
+  {"id":700172160,"lat":43.972592,"lon":5.811697,"k":"x","n":"Forcalquier - Les Tourettes"},
+  {"id":1012972887,"lat":43.997206,"lon":5.840579,"k":"x","n":"Sigonce - Place"},
+  {"id":1012974254,"lat":43.994047,"lon":5.846478,"k":"x","n":"Sigonce - La Charité"},
+  {"id":1012974392,"lat":43.993879,"lon":5.846989,"k":"x","n":"Sigonce - La Charité"},
+  {"id":4761315141,"lat":43.953995,"lon":5.845317,"k":"x","n":"Pierrerue - Piberard"},
+  {"id":10612127187,"lat":43.95499,"lon":5.834163,"k":"p","n":"Pierrerue - École primaire"},
+  {"id":10612127188,"lat":43.954974,"lon":5.83414,"k":"x","n":"Pierrerue - École primaire"},
+  {"id":10612127189,"lat":43.966991,"lon":5.828355,"k":"p","n":"Pierrerue - Les Magnans"},
+  {"id":10612127190,"lat":43.966945,"lon":5.828362,"k":"x","n":"Pierrerue - Les Magnans"},
+  {"id":10612127191,"lat":43.968467,"lon":5.82512,"k":"p","n":"Pierrerue - La Draille"},
+  {"id":10612127192,"lat":43.968502,"lon":5.825181,"k":"x","n":"Pierrerue - La Draille"},
+  {"id":10612127203,"lat":43.967129,"lon":5.839307,"k":"p","n":"Pierrerue - Saint-Pierre La Chapelle"},
+  {"id":10612127204,"lat":43.96716,"lon":5.839304,"k":"x","n":"Pierrerue - Saint-Pierre La Chapelle"},
+  {"id":10612332371,"lat":43.997188,"lon":5.840557,"k":"p","n":"Sigonce - Place"},
+  {"id":10633768824,"lat":43.972619,"lon":5.811691,"k":"p","n":"Forcalquier - Les Tourettes"},
+  {"id":10633768825,"lat":43.969841,"lon":5.808703,"k":"p","n":"Forcalquier - Les Escuyers"},
+  {"id":10633768826,"lat":43.96986,"lon":5.808739,"k":"x","n":"Forcalquier - Les Escuyers"},
+  {"id":10633768827,"lat":43.967519,"lon":5.832489,"k":"p","n":"Pierrerue - Les Nevières"},
+  {"id":10633768828,"lat":43.967552,"lon":5.832486,"k":"x","n":"Pierrerue - Les Nevières"},
+  {"id":10633768830,"lat":43.954678,"lon":5.834378,"k":"x","n":"Pierrerue - Place du Village"},
+  {"id":10633768831,"lat":43.954703,"lon":5.834331,"k":"p","n":"Pierrerue - Place du Village"},
+  {"id":10633768834,"lat":43.95402,"lon":5.845293,"k":"p","n":"Pierrerue - Piberard"},
+  {"id":10646813168,"lat":43.994011,"lon":5.846464,"k":"p","n":"Sigonce - La Charité"},
+  {"id":10646813169,"lat":43.993905,"lon":5.847029,"k":"p","n":"Sigonce - La Charité"},
+  {"id":10646813171,"lat":43.997339,"lon":5.840489,"k":"p","n":"Sigonce - Place"},
+  {"id":10646813172,"lat":43.997318,"lon":5.840445,"k":"x","n":"Sigonce - Place"}
+],
+"routes":[
+  {"id":15442179,"t":{"ref":"4805","name":"Bus 4805 : Niozelles => Pierrerue => Niozelles","from":"Niozelles","to":"Niozelles","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10612127203,2],[10612127189,3],[10612127191,4],[10612127187,5]]},
+  {"id":15442180,"t":{"ref":"4805","name":"Bus 4805 : Pierrerue => Niozelles => Pierrerue","from":"Pierrerue","to":"Pierrerue","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10612127203,1],[10612127189,2],[10612127191,3],[10612127187,4,6]]},
+  {"id":15442267,"t":{"ref":"4806","name":"Bus 4806 : Lurs - École => Sigonce => Lurs - Village","from":"Lurs - École","to":"Lurs - Village","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10612332371,2]]},
+  {"id":15442268,"t":{"ref":"4806","name":"Bus 4806 : Lurs - Village => Sigonce => Lurs - École","from":"Lurs - Village","to":"Lurs - École","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10612332371,3]]},
+  {"id":15456560,"t":{"ref":"4810","name":"Bus 4810 : Forcalquier => Pierrerue","from":"Forcalquier","to":"Pierrerue","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10633768825,2],[10633768824,3],[10612127191,4],[10633768827,5],[10612127203,6],[10633768831,7],[10633768834,8]]},
+  {"id":15456561,"t":{"ref":"4810","name":"Bus 4810 : Pierrerue => Forcalquier","from":"Pierrerue","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10633768824,1],[10633768825,2],[10612127203,3],[10633768827,4],[10612127191,5],[10633768831,6]]},
+  {"id":15460228,"t":{"ref":"4811","name":"Bus 4811 : Sigonce => Forcalquier","from":"Sigonce","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10646813169,1],[10646813171,2]]},
+  {"id":15460229,"t":{"ref":"4811","name":"Bus 4811 : Forcalquier => Sigonce","from":"Forcalquier","to":"Sigonce","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10612332371,4]]}
+]
+}

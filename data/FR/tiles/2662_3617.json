@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2662,3617],
+"stops":[
+  {"id":9910093079,"lat":43.110315,"lon":0.867464,"k":"p","n":"Le Baron - Beauchalot","ref":"5001"},
+  {"id":9922174855,"lat":43.110298,"lon":0.866563,"k":"p","n":"Le Baron - Beauchalot","ref":"5002"},
+  {"id":10047009386,"lat":43.143557,"lon":0.895648,"k":"p","n":"Église"},
+  {"id":12590480446,"lat":43.134468,"lon":0.858495,"k":"p","n":"École"},
+  {"id":12590480447,"lat":43.134383,"lon":0.858498,"k":"p","n":"École"},
+  {"id":12590480469,"lat":43.143634,"lon":0.895665,"k":"p","n":"Église"}
+],
+"routes":[
+  {"id":6605625,"t":{"ref":"379","name":"Car ligne 379 : Mauran => Cazères => Saint-Gaudens - Service 37902","from":"Salle des Fêtes - Mauran","to":"Jardin Public","network":"liO","operator":"Transports Ducos Frères","colour":"#89817f","route":"bus","public_transport:version":"2"},"n":26,"s":[[9910093079,20]]},
+  {"id":14405429,"t":{"ref":"379","name":"Car ligne 379 : Saint-Gaudens => Cazères => Mauran - Service 37901","from":"Lycée Agricole - Saint-Gaudens","to":"Salle des Fêtes - Mauran","network":"liO","operator":"Transports Ducos Frères","colour":"#89817f","route":"bus","public_transport:version":"2"},"n":26,"s":[[9922174855,8]]},
+  {"id":18638016,"t":{"ref":"314","name":"Car ligne 314 : Castagnède - Poste => Saint-Gaudens - Jardin Public","from":"Poste","to":"Jardin Public","network":"liO","operator":".liO 31","colour":"#F69B27","route":"bus","public_transport:version":"2"},"n":21,"s":[[9910093079,20]]},
+  {"id":18664774,"t":{"ref":"314","name":"Car ligne 314 : Saint-Gaudens - Jardin Public => Castagnède - Poste","from":"Jardin Public","to":"Poste","network":"liO","operator":".liO 31","colour":"#F69B27","route":"bus","public_transport:version":"2"},"n":21,"s":[[9922174855,2]]},
+  {"id":18709262,"t":{"ref":"316","name":"Car ligne 316 : Saint-Gaudens - Jardin Public => Betchat - Place","from":"Jardin Public","to":"Betchat - Place","network":"liO","operator":"liO Occitanie 31","colour":"#EC0975","route":"bus","public_transport:version":"2"},"n":11,"s":[[12590480446,4],[10047009386,7]]},
+  {"id":18709263,"t":{"ref":"316","name":"Car ligne 316 : Betchat - Place => Saint-Gaudens - Jardin Public","from":"Betchat - Place","to":"Jardin Public","network":"liO","operator":"liO Occitanie 31","colour":"#EC0975","route":"bus","public_transport:version":"2"},"n":11,"s":[[12590480469,5],[12590480447,8]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2717,3720],
+"stops":[
+  {"id":631037056,"lat":45.888802,"lon":6.041901,"k":"x","n":"Étang"},
+  {"id":3268004024,"lat":45.879826,"lon":6.042989,"k":"x","n":"La Foire"},
+  {"id":3268006812,"lat":45.889861,"lon":6.039995,"k":"x","n":"Chavanod"},
+  {"id":3268006813,"lat":45.884116,"lon":6.038793,"k":"x","n":"La Croix"},
+  {"id":3268006814,"lat":45.881073,"lon":6.039553,"k":"x","n":"Les Golières"},
+  {"id":3268046672,"lat":45.866745,"lon":6.042499,"k":"x","n":"Crévion"},
+  {"id":3268046674,"lat":45.860985,"lon":6.044323,"k":"x","n":"Relais des Lanches"},
+  {"id":7099937194,"lat":45.853214,"lon":6.019653,"k":"p"},
+  {"id":11673300520,"lat":45.888213,"lon":6.010549,"k":"p","n":"Étercy Les Tennis"},
+  {"id":11673300521,"lat":45.875191,"lon":6.011989,"k":"p","n":"Croix de Joudrain"},
+  {"id":11673300522,"lat":45.875103,"lon":6.012156,"k":"p","n":"Croix de Joudrain"},
+  {"id":12091008857,"lat":45.882362,"lon":6.049351,"k":"p","n":"Chavanod Fier"},
+  {"id":12258327186,"lat":45.898333,"lon":6.041728,"k":"p"},
+  {"id":12856240926,"lat":45.870863,"lon":6.004358,"k":"p","n":"Les Prailles"},
+  {"id":12856240927,"lat":45.870936,"lon":6.004145,"k":"p","n":"Les Prailles"},
+  {"id":13276114221,"lat":45.888185,"lon":6.010538,"k":"x"},
+  {"id":5001305472488,"lat":45.882291,"lon":6.049657,"k":"p","n":"CHAVANOD - FIER"},
+  {"id":6010100925205,"lat":45.873521,"lon":6.001864,"k":"p","n":"Marcellaz Chef Lieu","g":1},
+  {"id":6020917577149,"lat":45.873521,"lon":6.001864,"k":"p","n":"Marcellaz Chef Lieu","g":1},
+  {"id":6022584923927,"lat":45.873435,"lon":6.001718,"k":"p","n":"Marcellaz Chef Lieu","g":1},
+  {"id":6060866186186,"lat":45.873435,"lon":6.001718,"k":"p","n":"Marcellaz Chef Lieu","g":1}
+],
+"routes":[
+  {"id":19800842,"t":{"name":"Ligne J4 : Chavanod Stade -> Gare Rumilly","colour":"#F08C42","route":"bus"},"n":3,"s":[[11673300520,3]]},
+  {"id":19800843,"t":{"ref":"J4","name":"Ligne J4 : Gare Rumilly -> Chavanod Stade","from":"Gare Rumilly","to":"Chavanod Stade","network":"J’ybus","colour":"#F08C42","route":"bus"},"n":3,"s":[[11673300520,3]]},
+  {"id":19800844,"t":{"ref":"J4","name":"Ligne J4 : Gare Rumilly -> Lycée Baudelaire","from":"Gare Rumilly","to":"Lycée Baudelaire","network":"J’ybus","colour":"#F08C42","route":"bus"},"n":3,"s":[[11673300520,3]]},
+  {"id":19800845,"t":{"ref":"J4","name":"Ligne J4 : Lycée Baudelaire -> Gare Rumilly","from":"Lycée Baudelaire","to":"Gare Rumilly","network":"J’ybus","colour":"#F08C42","route":"bus"},"n":3,"s":[[11673300520,3]]},
+  {"id":3002850294688,"t":{"ref":"3","name":"Bus 3 : Novel -> Chavanod Fier","from":"Novel","to":"Chavanod Fier","network":"Sibra","operator":"Sibra","colour":"#2581C4","route":"bus","public_transport:version":"2"},"n":31,"s":[[5001305472488,31]]},
+  {"id":3003560033986,"t":{"ref":"J4","name":"J4: Gare - Stade","from":"Gare","to":"Stade","operator":"RUMILLY - J'ybus","route":"bus","public_transport:version":"2"},"n":18,"s":[[6060866186186,14],[12856240927,15],[11673300522,16],[11673300520,17]]},
+  {"id":3007396743339,"t":{"ref":"J4","name":"J4: Gare - Chavanod Stade","from":"Gare","to":"Chavanod Stade","operator":"JYBUS","route":"bus","public_transport:version":"2"},"n":18,"s":[[6022584923927,14],[12856240927,15],[11673300522,16],[11673300520,17]]},
+  {"id":3035246243477,"t":{"ref":"J4","name":"J4: Chavanod Stade - Gare","from":"Chavanod Stade","to":"Gare","operator":"JYBUS","route":"bus","public_transport:version":"2"},"n":18,"s":[[11673300520,2],[11673300521,3],[12856240927,4],[6020917577149,5]]},
+  {"id":3060847895630,"t":{"ref":"J4","name":"J4: Stade - Gare","from":"Stade","to":"Gare","operator":"RUMILLY - J'ybus","route":"bus","public_transport:version":"2"},"n":18,"s":[[11673300520,2],[11673300521,3],[12856240927,4],[6010100925205,5]]},
+  {"id":3081526073107,"t":{"ref":"3","name":"Bus 3 : Chavanod Fier -> Novel","from":"Chavanod Fier","to":"Novel","network":"Sibra","operator":"Sibra","colour":"#2581C4","route":"bus","public_transport:version":"2"},"n":32,"s":[[5001305472488,1]]}
+]
+}

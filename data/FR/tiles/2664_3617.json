@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2664,3617],
+"stops":[
+  {"id":1253167232,"lat":43.216204,"lon":0.883274,"k":"x","n":"Poste - Aurignac"},
+  {"id":7002920135,"lat":43.221176,"lon":0.895818,"k":"p","n":"Camp d'Armas"},
+  {"id":7002920136,"lat":43.221254,"lon":0.895706,"k":"p","n":"Camp d'Armas"},
+  {"id":10733060888,"lat":43.216148,"lon":0.883164,"k":"p","n":"Poste - Aurignac"},
+  {"id":12612369885,"lat":43.244425,"lon":0.888517,"k":"p","n":"Salle Polyvalente"},
+  {"id":12612369886,"lat":43.221111,"lon":0.852241,"k":"p","n":"Moulin"},
+  {"id":12612389422,"lat":43.221179,"lon":0.8522,"k":"p","n":"Moulin"},
+  {"id":12612389425,"lat":43.244524,"lon":0.888434,"k":"p","n":"Salle Polyvalente"},
+  {"id":12923591880,"lat":43.216192,"lon":0.881354,"k":"p","n":"École Maternelle"}
+],
+"routes":[
+  {"id":17035328,"t":{"ref":"320","name":"Car Ligne 320 : Aurignac => Boussens SNCF","from":"Poste - Aurignac","to":"Gare SNCF - Boussens","network":"liO","operator":"RRT31","colour":"#86c783","route":"bus","public_transport:version":"2"},"n":9,"s":[[10733060888,1]]},
+  {"id":17045553,"t":{"ref":"320","name":"Car Ligne 320 : Boussens SNCF => Aurignac - Service 32001","from":"Gare SNCF - Boussens","to":"Poste - Aurignac","network":"liO","operator":"RRT31","colour":"#86c783","route":"bus","public_transport:version":"2"},"n":9,"s":[[10733060888,9]]},
+  {"id":18742982,"t":{"ref":"317","name":"Car ligne 317: Estancarbon - Centre Leclerc => Bachas - Église","from":"Estancarbon - Centre Leclerc","to":"Bachas - Église","network":"liO","operator":".liO 31","colour":"#4D499D","route":"bus","public_transport:version":"2"},"n":12,"s":[[12612369886,5],[12612369885,6]]},
+  {"id":18742983,"t":{"ref":"317","name":"Car ligne 317 : Bachas - Église => Saint-Gaudens - Jardin Public","from":"Bachas - Église","to":"Saint-Gaudens - Jardin Public","network":"liO","operator":".liO 31","colour":"#4D499D","route":"bus","public_transport:version":"2"},"n":12,"s":[[12612389425,7],[12612389422,8]]},
+  {"id":19266142,"t":{"ref":"391","name":"Car ligne 391 : Alan - Église => Saint-Gaudens - Lycée Bagatelle","from":"Église","to":"Collège Leclerc","network":"liO","operator":"liO Occitanie 31","colour":"#F57F25","route":"bus","public_transport:version":"2"},"n":15,"s":[[7002920136,3],[12923591880,4]]},
+  {"id":19307287,"t":{"ref":"391","name":"Car ligne 391 : Saint-Gaudens - Lycée Bagatelle => Alan - Église","from":"Saint-Gaudens Lycée Bagatelle","to":"Église","network":"liO","operator":"liO Occitanie 31","colour":"#F57F25","route":"bus","public_transport:version":"2"},"n":17,"s":[[12923591880,14],[7002920135,15]]}
+]
+}

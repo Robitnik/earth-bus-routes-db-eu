@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2783,3683],
+"stops":[
+  {"id":7184279575,"lat":49.189952,"lon":4.15111,"k":"x","n":"Sucrerie","ref":"CUCR"},
+  {"id":7184279576,"lat":49.189986,"lon":4.151206,"k":"p","n":"Sucrerie"},
+  {"id":7184397980,"lat":49.197193,"lon":4.179697,"k":"p","n":"Mairie Prunay"},
+  {"id":7277606723,"lat":49.197246,"lon":4.179754,"k":"x","n":"Mairie Prunay"},
+  {"id":6003793487947,"lat":49.196458,"lon":4.183686,"k":"p","n":"PRUNAY","g":1},
+  {"id":6017549645170,"lat":49.173508,"lon":4.186025,"k":"p","n":"BEAUMONT/VESLE","g":1},
+  {"id":6090915597153,"lat":49.196458,"lon":4.183686,"k":"p","n":"PRUNAY","g":1},
+  {"id":6095109567319,"lat":49.173508,"lon":4.186025,"k":"p","n":"BEAUMONT/VESLE","g":1}
+],
+"routes":[
+  {"id":10805127,"t":{"ref":"16","name":"CITURA Ligne 16 - Reims Opéra-Cathédrale → Prunay Mairie","from":"Reims Opéra","to":"Prunay Mairie","network":"CITURA","operator":"Transdev Reims","colour":"#00A896","route":"bus","public_transport:version":"2"},"n":16,"s":[[7184397980,16]]},
+  {"id":3009995342551,"t":{"ref":"E5","name":"E5: VAL-DE-VESLE - SAINT-SYMPHORIEN","from":"VAL-DE-VESLE","to":"SAINT-SYMPHORIEN","operator":"Transdev Reims","route":"bus","public_transport:version":"2"},"n":19,"s":[[6095109567319,3],[7184279576,4]]},
+  {"id":3037178695266,"t":{"ref":"E5","name":"E5: SAINT-SYMPHORIEN - VAL-DE-VESLE","from":"SAINT-SYMPHORIEN","to":"VAL-DE-VESLE","operator":"Transdev Reims","route":"bus","public_transport:version":"2"},"n":18,"s":[[6003793487947,16]]},
+  {"id":3050338439280,"t":{"ref":"E5","name":"E5: VAL-DE-VESLE - SAINT-SYMPHORIEN","from":"VAL-DE-VESLE","to":"SAINT-SYMPHORIEN","operator":"Transdev Reims","route":"bus","public_transport:version":"2"},"n":19,"s":[[6017549645170,3],[7184279576,4]]},
+  {"id":3086388215462,"t":{"ref":"E5","name":"E5: PRUNAY - SAINT-SYMPHORIEN","from":"PRUNAY","to":"SAINT-SYMPHORIEN","operator":"Transdev Reims","route":"bus","public_transport:version":"2"},"n":21,"s":[[6090915597153,1],[6095109567319,5],[7184279576,6]]},
+  {"id":3088319331411,"t":{"ref":"E5","name":"E5: SAINT-SYMPHORIEN - VAL-DE-VESLE","from":"SAINT-SYMPHORIEN","to":"VAL-DE-VESLE","operator":"Transdev Reims","route":"bus","public_transport:version":"2"},"n":18,"s":[[6090915597153,16]]}
+]
+}

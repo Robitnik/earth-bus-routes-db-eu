@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2659,3622],
+"stops":[
+  {"id":619843826,"lat":42.984001,"lon":1.142585,"k":"p","n":"Bus SNCF Saint-Girons Centre","ref":"35"},
+  {"id":1640963095,"lat":42.988321,"lon":1.139466,"k":"p","n":"Saint-Girons - PEM (ancienne Gare)","ref":"33"},
+  {"id":1640965324,"lat":42.986223,"lon":1.143441,"k":"p","n":"Bus Ariège Saint-Girons Centre"},
+  {"id":2816319573,"lat":42.988692,"lon":1.139499,"k":"p","n":"Bus SNCF Gare Saint-Girons","ref":"34"},
+  {"id":2816488209,"lat":42.984031,"lon":1.142612,"k":"x","n":"Saint-Girons - Place des Capots"},
+  {"id":3679451267,"lat":42.987433,"lon":1.139863,"k":"p","n":"Bus Ariège Gare Saint-Girons","ref":"1"},
+  {"id":5936570245,"lat":42.988259,"lon":1.139669,"k":"p","n":"Saint-Girons - PEM (ancienne Gare)"},
+  {"id":7486385967,"lat":42.988236,"lon":1.139183,"k":"s","n":"Gare Routière"},
+  {"id":7577979560,"lat":42.984024,"lon":1.142673,"k":"p","n":"Bus SNCF Saint-Girons Centre","ref":"36"},
+  {"id":10007146301,"lat":42.966959,"lon":1.101549,"k":"p","n":"Moulis - Aubert"},
+  {"id":10012218339,"lat":42.966997,"lon":1.102527,"k":"p","n":"Moulis - Aubert"},
+  {"id":10015142481,"lat":42.966892,"lon":1.101459,"k":"x"},
+  {"id":11161445221,"lat":42.967103,"lon":1.102569,"k":"x","n":"Moulis - Aubert"},
+  {"id":11161445222,"lat":42.988259,"lon":1.139302,"k":"x","n":"Saint-Girons - PEM (ancienne gare)"},
+  {"id":6012373409359,"lat":42.966768,"lon":1.100716,"k":"p","n":"MOULIS - Aubert","g":1},
+  {"id":6048910141237,"lat":42.983927,"lon":1.141438,"k":"p","n":"SAINT-GIRONS - Boulevard Général de Gaulle","g":1},
+  {"id":6058812914232,"lat":42.983872,"lon":1.141336,"k":"p","n":"SAINT-GIRONS - Boulevard Général de Gaulle","g":1}
+],
+"routes":[
+  {"id":5412885,"t":{"ref":"457","name":"Ligne 457 : Saint-Girons => Aulus-les-Bains","from":"Saint-Girons","to":"Aulus-les-Bains","network":"liO","operator":"Denamiel","colour":"#7F7F7F","route":"bus","public_transport:version":"2"},"n":14,"s":[[619843826,2]]},
+  {"id":9188042,"t":{"ref":"457","name":"Ligne 457 : Aulus-les-Bains => Saint-Girons","from":"Aulus-les-Bains","to":"Saint-Girons","network":"liO","operator":"Denamiel","colour":"#7F7F7F","route":"bus","public_transport:version":"2"},"n":15,"s":[[7577979560,14]]},
+  {"id":9188202,"t":{"ref":"452","name":"Ligne 452 : Saint-Girons => Boussens","from":"Saint-Girons","to":"Bus SNCF Gare Boussens","network":"liO","operator":"Ortet","colour":"#e20227","route":"bus","public_transport:version":"2"},"n":26,"s":[[7577979560,1],[2816319573,2]]},
+  {"id":9189661,"t":{"ref":"454","name":"Ligne 454 : Saint-Girons => Foix","from":"Saint-Girons","to":"Foix","network":"liO","operator":"Keolis / Ortet","colour":"#FF00FF","route":"bus","public_transport:version":"2"},"n":10,"s":[[3679451267,1],[1640965324,2]]},
+  {"id":14554198,"t":{"ref":"455","name":"Ligne 455 : Seintein => Saint-Girons","from":"Place - Sentein","to":"Saint-Girons - LP Camel","network":"liO","operator":"Rives","colour":"#8CCA87","route":"bus","public_transport:version":"2"},"n":17,"s":[[10012218339,13],[5936570245,14],[619843826,15]]},
+  {"id":16268157,"t":{"ref":"456","name":"Ligne 456 : Saint-Girons => Saint-Lary","from":"Saint-Girons - LP Camel","to":"Saint-Lary - Village","network":"liO","colour":"#FF8363","route":"bus","public_transport:version":"2"},"n":20,"s":[[7577979560,3],[5936570245,4],[10007146301,5]]},
+  {"id":16268158,"t":{"ref":"456","name":"Ligne 456 : Saint-Lary => Saint-Girons","from":"Saint-Lary - Village","to":"Saint-Girons - LP Camel","network":"liO","colour":"#FF8363","route":"bus","public_transport:version":"2"},"n":20,"s":[[10012218339,16],[5936570245,17],[619843826,18]]},
+  {"id":3000613487325,"t":{"ref":"455","name":"Ligne 455 : Saint-Girons => Seintein","from":"LP Camel - Saint-Girons","to":"Place - Sentein","network":"liO","operator":"Rives","colour":"#8CCA87","route":"bus","public_transport:version":"2"},"n":9,"s":[[6012373409359,7],[5936570245,8],[6058812914232,9]]},
+  {"id":3003678010141,"t":{"ref":"452","name":"Ligne 452 : Boussens => Saint-Girons","from":"Bus SNCF Gare Boussens","to":"Saint-Girons Centre","network":"liO","operator":"Ortet","colour":"#e20227","route":"bus","public_transport:version":"2"},"n":17,"s":[[3679451267,16],[6058812914232,17]]},
+  {"id":3019419644768,"t":{"ref":"454","name":"Ligne 454 : Foix => Saint-Girons","from":"Foix","to":"Saint-Girons","network":"liO","operator":"Keolis / Ortet","colour":"#7F7F7F","route":"bus","public_transport:version":"2"},"n":15,"s":[[1640965324,14],[5936570245,15]]},
+  {"id":3021576076766,"t":{"ref":"452","name":"Ligne 452 : Boussens => Saint-Girons","from":"Bus SNCF Gare Boussens","to":"Saint-Girons Centre","network":"liO","operator":"Ortet","colour":"#e20227","route":"bus","public_transport:version":"2"},"n":18,"s":[[6048910141237,2],[3679451267,3]]},
+  {"id":3054766283616,"t":{"ref":"455","name":"Ligne 455 : Saint-Girons => Seintein","from":"LP Camel - Saint-Girons","to":"Place - Sentein","network":"liO","operator":"Rives","colour":"#8CCA87","route":"bus","public_transport:version":"2"},"n":8,"s":[[5936570245,1],[6012373409359,2]]},
+  {"id":3057900885388,"t":{"ref":"452","name":"Ligne 452 : Boussens => Saint-Girons","from":"Bus SNCF Gare Boussens","to":"Saint-Girons Centre","network":"liO","operator":"Ortet","colour":"#e20227","route":"bus","public_transport:version":"2"},"n":17,"s":[[6048910141237,1],[3679451267,2]]},
+  {"id":3072348109763,"t":{"ref":"454","name":"Ligne 454 : Foix => Saint-Girons","from":"Foix","to":"Saint-Girons","network":"liO","operator":"Keolis / Ortet","colour":"#7F7F7F","route":"bus","public_transport:version":"2"},"n":15,"s":[[1640963095,1],[1640965324,2]]}
+]
+}

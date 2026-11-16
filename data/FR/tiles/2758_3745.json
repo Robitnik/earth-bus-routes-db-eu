@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2758,3745],
+"stops":[
+  {"id":4465043571,"lat":47.910635,"lon":7.292744,"k":"x"},
+  {"id":4465043724,"lat":47.90592,"lon":7.28878,"k":"x","n":"MERXHEIM - Rue des Alouettes"},
+  {"id":4465043989,"lat":47.911098,"lon":7.292774,"k":"x","n":"MERXHEIM - Mairie"},
+  {"id":10308386501,"lat":47.902399,"lon":7.253194,"k":"p","n":"ISSENHEIM - Mairie"},
+  {"id":11214989628,"lat":47.908164,"lon":7.255684,"k":"p","n":"ISSENHEIM - Rue de Rouffach"},
+  {"id":6000841702704,"lat":47.92692,"lon":7.295893,"k":"p","n":"GUNDOLSHEIM - Saint Blaise","g":1},
+  {"id":6011748458935,"lat":47.92692,"lon":7.295893,"k":"p","n":"GUNDOLSHEIM - Saint Blaise","g":1},
+  {"id":6041877750663,"lat":47.902844,"lon":7.253648,"k":"p","n":"ISSENHEIM - Mairie","g":1},
+  {"id":6042624917636,"lat":47.902844,"lon":7.253648,"k":"p","n":"ISSENHEIM - Mairie","g":1},
+  {"id":6091082113217,"lat":47.902844,"lon":7.253648,"k":"p","n":"ISSENHEIM - Mairie","g":1}
+],
+"routes":[
+  {"id":16117230,"t":{"ref":"68R040","name":"Bus 68R040: ROUFFACH - Gare SNCF => GUEBWILLER - Parc de la Marseillaise","from":"ROUFFACH - Gare SNCF","to":"GUEBWILLER - Parc de la Marseillaise","network":"FLUO 68","route":"bus","public_transport:version":"2"},"n":10,"s":[[10308386501,5]]},
+  {"id":16117234,"t":{"ref":"68R040","name":"Bus 68R040: GUEBWILLER - Monument aux Morts => ROUFFACH - CHS","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - CHS","network":"FLUO 68","route":"bus","public_transport:version":"2"},"n":10,"s":[[10308386501,6]]},
+  {"id":16374097,"t":{"ref":"68R040","name":"Bus 68R040: GUEBWILLER - Monument aux Morts => ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","network":"FLUO 68","colour":"#DD0A7B","route":"bus","public_transport:version":"2"},"n":8,"s":[[10308386501,6],[11214989628,7]]},
+  {"id":16374117,"t":{"ref":"68R040","name":"Bus 68R040: ROUFFACH - Gare SNCF => GUEBWILLER - Monument aux Morts","from":"ROUFFACH - Gare SNCF","to":"GUEBWILLER - Monument aux Morts","network":"FLUO 68","colour":"#DD0A7B","route":"bus","public_transport:version":"2"},"n":10,"s":[[11214989628,5],[10308386501,6]]},
+  {"id":16374128,"t":{"ref":"68R040","name":"Bus 68R040: GUEBWILLER - Monument aux Morts => ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","network":"FLUO 68","colour":"#DD0A7B","route":"bus","public_transport:version":"2"},"n":10,"s":[[10308386501,6],[11214989628,7]]},
+  {"id":3002849714981,"t":{"ref":"8185","name":"8185: GUEBWILLER - Lycée Kastler - REGUISHEIM - Rue d'Ensisheim","from":"GUEBWILLER - Lycée Kastler","to":"REGUISHEIM - Rue d'Ensisheim","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":13,"s":[[4465043724,4],[4465043989,5],[6000841702704,6]]},
+  {"id":3008424642917,"t":{"ref":"8185","name":"8185: GUEBWILLER - Lycée Kastler - REGUISHEIM - Rue d'Ensisheim","from":"GUEBWILLER - Lycée Kastler","to":"REGUISHEIM - Rue d'Ensisheim","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":13,"s":[[4465043724,4],[4465043989,5],[6011748458935,6]]},
+  {"id":3033388089736,"t":{"ref":"840","name":"840: GUEBWILLER - Monument aux Morts - ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":8,"s":[[6041877750663,6],[11214989628,7]]},
+  {"id":3043242186873,"t":{"ref":"840","name":"840: ROUFFACH - Gare SNCF - GUEBWILLER - Monument aux Morts","from":"ROUFFACH - Gare SNCF","to":"GUEBWILLER - Monument aux Morts","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":10,"s":[[11214989628,5],[6091082113217,6]]},
+  {"id":3063028966557,"t":{"ref":"840","name":"840: GUEBWILLER - Monument aux Morts - ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":8,"s":[[6091082113217,6],[11214989628,7]]},
+  {"id":3065924111774,"t":{"ref":"840","name":"840: GUEBWILLER - Monument aux Morts - ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":8,"s":[[6042624917636,6],[11214989628,7]]},
+  {"id":3068324150472,"t":{"ref":"8187","name":"8187: GUEBWILLER - Crédit Mutuel - ORSCHWIHR - Rue de Bergholtz Zell","from":"GUEBWILLER - Crédit Mutuel","to":"ORSCHWIHR - Rue de Bergholtz Zell","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":11,"s":[[6041877750663,6],[11214989628,7]]},
+  {"id":3074297333147,"t":{"ref":"840","name":"840: ROUFFACH - Gare SNCF - GUEBWILLER - Monument aux Morts","from":"ROUFFACH - Gare SNCF","to":"GUEBWILLER - Monument aux Morts","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":10,"s":[[11214989628,5],[6041877750663,6]]},
+  {"id":3080447857003,"t":{"ref":"840","name":"840: ROUFFACH - Gare SNCF - GUEBWILLER - Monument aux Morts","from":"ROUFFACH - Gare SNCF","to":"GUEBWILLER - Monument aux Morts","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":10,"s":[[11214989628,5],[6042624917636,6]]},
+  {"id":3081062082796,"t":{"ref":"840","name":"840: GUEBWILLER - Monument aux Morts - ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":10,"s":[[6042624917636,6],[11214989628,7]]},
+  {"id":3081288230700,"t":{"ref":"8187","name":"8187: GUEBWILLER - Crédit Mutuel - ORSCHWIHR - Rue de Bergholtz Zell","from":"GUEBWILLER - Crédit Mutuel","to":"ORSCHWIHR - Rue de Bergholtz Zell","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":11,"s":[[6091082113217,6],[11214989628,7]]},
+  {"id":3091146100817,"t":{"ref":"840","name":"840: GUEBWILLER - Monument aux Morts - ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":10,"s":[[6091082113217,6],[11214989628,7]]},
+  {"id":3097945604681,"t":{"ref":"840","name":"840: GUEBWILLER - Monument aux Morts - ROUFFACH - Gare SNCF","from":"GUEBWILLER - Monument aux Morts","to":"ROUFFACH - Gare SNCF","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":10,"s":[[6041877750663,6],[11214989628,7]]}
+]
+}

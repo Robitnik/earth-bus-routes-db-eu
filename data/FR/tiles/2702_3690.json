@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2702,3690],
+"stops":[
+  {"id":1494228805,"lat":45.120525,"lon":4.534408,"k":"p","n":"Lalouvesc - Centre"},
+  {"id":1528811501,"lat":45.102131,"lon":4.541557,"k":"p","n":"Col du Faux"},
+  {"id":7944698412,"lat":45.102073,"lon":4.541748,"k":"p","n":"Col du Faux"},
+  {"id":7947636371,"lat":45.122802,"lon":4.539419,"k":"p","n":"Lalouvesc - Le Bruchon"},
+  {"id":7947636372,"lat":45.123009,"lon":4.539411,"k":"p","n":"Lalouvesc - Le Bruchon"}
+],
+"routes":[
+  {"id":1876942,"t":{"ref":"LR11","name":"Ligne LR11: Lalouvesc → St Félicien → Tournon","from":"Lalouvesc - Centre","to":"Hôpital - Tournon","network":"Arche Agglo","operator":"Les Cars du Vivarais","colour":"#FC4079","route":"bus","public_transport:version":"2"},"n":41,"s":[[1494228805,1],[1528811501,2]]},
+  {"id":1877100,"t":{"ref":"LR11","name":"Ligne LR11: Hôpital - Tournon → St Félicien → Lalouvesc","from":"Hôptial - Tournon","to":"Lalouvesc - Centre","network":"Arche Agglo","operator":"Les Cars du Vivarais","colour":"#FC4079","route":"bus","public_transport:version":"2"},"n":39,"s":[[7944698412,38],[1494228805,39]]},
+  {"id":11672282,"t":{"ref":"LR11","name":"Ligne LR11: Gare Routière - Tournon → St Félicien → Lalouvesc","from":"Gare Routière - Tournon","to":"Lalouvesc - Centre","network":"Arche Agglo","operator":"Les Cars du Vivarais","colour":"#FC4079","route":"bus","public_transport:version":"2"},"n":33,"s":[[7944698412,32],[1494228805,33]]},
+  {"id":11679052,"t":{"ref":"8","name":"Car 8: Annonay → Saint-Alban-d'Ay → Lalouvesc","from":"Annonay","to":"Lalouvesc","network":"Cars Région Ardèche","operator":"Autocars Stephanois","colour":"#9cc44b","route":"bus","public_transport:version":"2"},"n":23,"s":[[7947636371,22],[1494228805,23]]},
+  {"id":11679053,"t":{"ref":"8","name":"Car 8: Annonay → Quintenas → Saint-Romain-d'Ay → Lalouvesc","from":"Annonay","to":"Lalouvesc","network":"Cars Région Ardèche","operator":"Autocars Stephanois","colour":"#9cc44b","route":"bus","public_transport:version":"2"},"n":24,"s":[[7947636371,23],[1494228805,24]]},
+  {"id":11679054,"t":{"ref":"8","name":"GACar 8: Lalouvesc → Saint-Romain-d'Ay → Quintenas → Annonay","from":"Lalouvesc - Centre","to":"Annonay","network":"Cars Région Ardèche","operator":"Autocars Stephanois","colour":"#9cc44b","route":"bus","public_transport:version":"2"},"n":23,"s":[[1494228805,1],[7947636372,2]]},
+  {"id":11679055,"t":{"ref":"8","name":"Car 8: Lalouvesc → Saint-Alban-d'Ay → Annonay","from":"Lalouvesc - Centre","to":"Annonay","network":"Cars Région Ardèche","operator":"Autocars Stephanois","colour":"#9cc44b","route":"bus","public_transport:version":"2"},"n":23,"s":[[1494228805,1],[7947636372,2]]}
+]
+}

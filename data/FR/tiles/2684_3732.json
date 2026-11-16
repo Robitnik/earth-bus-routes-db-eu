@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2684,3732],
+"stops":[
+  {"id":1929139937,"lat":44.201624,"lon":6.636105,"k":"x","n":"Colmars-les-Alpes - Chaumie RD908"},
+  {"id":5602513871,"lat":44.241877,"lon":6.627112,"k":"x","n":"Allos - Village / Le Pradas"},
+  {"id":5602513872,"lat":44.241916,"lon":6.627044,"k":"x","n":"Allos - Village / Le Pradas"},
+  {"id":5695934285,"lat":44.24188,"lon":6.627016,"k":"p","n":"Allos - Village / Le Pradas","ref":"20"},
+  {"id":5695934286,"lat":44.241904,"lon":6.627153,"k":"p","n":"Allos - Village / Le Pradas","ref":"20"},
+  {"id":10718746045,"lat":44.201727,"lon":6.63605,"k":"p","n":"Colmars-les-Alpes - Chaumie RD908"},
+  {"id":10718746047,"lat":44.201076,"lon":6.633307,"k":"p","n":"Colmars-les-Alpes - Chaumie RD426"},
+  {"id":10718746048,"lat":44.201074,"lon":6.633267,"k":"x","n":"Colmars-les-Alpes - Chaumie RD426"},
+  {"id":10743394935,"lat":44.244304,"lon":6.624905,"k":"p","n":"Allos - Garage DDE"},
+  {"id":10743394939,"lat":44.244282,"lon":6.624834,"k":"x","n":"Allos - Garage DDE"},
+  {"id":10743394943,"lat":44.244526,"lon":6.624697,"k":"x","n":"Allos - Garage DDE"},
+  {"id":10743394944,"lat":44.244521,"lon":6.624654,"k":"p","n":"Allos - Garage DDE"},
+  {"id":10743394945,"lat":44.201688,"lon":6.636172,"k":"p","n":"Colmars-les-Alpes - Chaumie RD908"},
+  {"id":10743484792,"lat":44.240964,"lon":6.629126,"k":"p","n":"Allos - École"},
+  {"id":10743484793,"lat":44.240988,"lon":6.629105,"k":"x","n":"Allos - École"}
+],
+"routes":[
+  {"id":8279172,"t":{"ref":"430","name":"Bus 430 : Thorame-Haute - Gare => La Foux d'Allos","from":"Thorame-Haute - Gare","to":"La Foux d'Allos","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695934286,9]]},
+  {"id":8279173,"t":{"ref":"430","name":"Bus 430 : La Foux d'Allos => Thorame-Haute - Gare","from":"La Foux d'Allos","to":"Thorame-Haute - Gare","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695934285,2]]},
+  {"id":15584608,"t":{"ref":"4302","name":"Bus 4302 : École Primaire => Chaumie","from":"École Primaire","to":"Chaumie","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10718746047,3]]},
+  {"id":15584609,"t":{"ref":"4302","name":"Bus 4302 : Chaumie => École Primaire","from":"Chaumie","to":"École Primaire","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10718746047,1]]},
+  {"id":15616365,"t":{"ref":"4306","name":"Bus 4306 : Saint-André-les-Alpes => Colmars-les-Alpes => Allos","from":"Saint-André-les-Alpes","to":"Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10743394945,4],[5695934286,5],[10743394935,6]]},
+  {"id":15616366,"t":{"ref":"4306","name":"Bus 4306 : Allos => Colmars-les-Alpes => Saint-André-les-Alpes","from":"Allos","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10743394944,5],[5695934285,6],[10718746045,7]]},
+  {"id":15616469,"t":{"ref":"4308","name":"Bus 4308 : Allos => La Foux d'Allos","from":"Allos","to":"La Foux d'Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10743484792,1]]},
+  {"id":15616470,"t":{"ref":"4308","name":"Bus 4308 : La Foux d'Allos => Allos","from":"La Foux d'Allos","to":"Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10743484792,3]]}
+]
+}

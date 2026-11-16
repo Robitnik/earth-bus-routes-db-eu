@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2695,3730],
+"stops":[
+  {"id":348317757,"lat":44.754151,"lon":6.537225,"k":"x","n":"Freissinières - École"},
+  {"id":348317848,"lat":44.752037,"lon":6.539918,"k":"x","n":"Freissinières - Les Meyries"},
+  {"id":413929439,"lat":44.752071,"lon":6.524143,"k":"x","n":"Freissinières - Les Bellons"},
+  {"id":2347228073,"lat":44.782655,"lon":6.549972,"k":"x","n":"L'Argentière - La Magdeleine"},
+  {"id":6650022492,"lat":44.752087,"lon":6.536035,"k":"x","n":"Freissinières - Les Ribes"},
+  {"id":10815936998,"lat":44.752083,"lon":6.539874,"k":"p","n":"Freissinières - Les Meyries"},
+  {"id":10815965718,"lat":44.751993,"lon":6.539927,"k":"p","n":"Freissinières - Les Meyries"},
+  {"id":10815965719,"lat":44.752156,"lon":6.536014,"k":"p","n":"Freissinières - Les Ribes"},
+  {"id":10815965722,"lat":44.754109,"lon":6.537221,"k":"p","n":"Freissinières - École"},
+  {"id":12475357095,"lat":44.782966,"lon":6.549128,"k":"x","n":"L'Argentière - Rue du Portin"},
+  {"id":12475357096,"lat":44.78292,"lon":6.549028,"k":"p","n":"L'Argentière - Rue du Portin"},
+  {"id":14173780362,"lat":44.752039,"lon":6.524314,"k":"p","n":"Freissinières - Les Bellons"},
+  {"id":14173780363,"lat":44.752092,"lon":6.52404,"k":"p","n":"Freissinières - Les Bellons"},
+  {"id":14175819332,"lat":44.752035,"lon":6.536022,"k":"p","n":"Freissinières - Les Ribes"}
+],
+"routes":[
+  {"id":15729519,"t":{"ref":"5402","name":"Bus 5402 : L'Argentière - Collège Les Giraudes => Freissinières - École","from":"L'Argentière - Collège Les Giraudes","to":"Freissinières - École","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10815936998,9],[10815965719,10],[10815965722,11]]},
+  {"id":15729520,"t":{"ref":"5402","name":"Bus 5402 : Freissinières - École => L'Argentière - Collège Les Giraudes","from":"Freissinières - École","to":"L'Argentière - Collège Les Giraudes","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10815965722,1],[10815965719,2],[10815965718,3]]},
+  {"id":15730303,"t":{"ref":"5403","name":"Bus 5403 : Freissinières - École => Champcella - École de Champcella => Freissinières - École","from":"Freissinières - École","to":"Freissinières - École","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10815965722,1,8]]},
+  {"id":15730304,"t":{"ref":"5403","name":"Bus 5403 : Champcella - École de Champcella => Freissinières - École => Champcella - École de Champcella","from":"Champcella - École de Champcella","to":"Champcella - École de Champcella","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10815965722,5],[10815965719,6]]},
+  {"id":15730319,"t":{"ref":"5403","name":"Bus 5403 : Freissinières - École => Champcella - École de Champcella","from":"Freissinières - École","to":"Champcella - École de Champcella","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10815965722,1]]},
+  {"id":15730320,"t":{"ref":"5403","name":"Bus 5403 : Champcella - École de Champcella => Freissinières - École","from":"Champcella - École de Champcella","to":"Freissinières - École","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10815965722,5]]},
+  {"id":21382435,"t":{"ref":"B Estibus","name":"Estibus B : L’Argentière - Gare SNCF => Parking Dormillouse","from":"L’Argentière - Gare SNCF","to":"Parking Dormillouse","network":"Pays des Écrins","operator":"Communauté de Communes du Pays des Écrins","colour":"#EE7601","route":"bus","public_transport:version":"2"},"n":12,"s":[[10815965719,9],[14173780363,10]]},
+  {"id":21385264,"t":{"ref":"B Estibus","name":"Estibus B : Parking Dormillouse => L’Argentière - Gare SNCF","from":"Parking Dormillouse","to":"L’Argentière - Gare SNCF","network":"Pays des Écrins","operator":"Communauté de Communes du Pays des Écrins","colour":"#EE7601","route":"bus","public_transport:version":"2"},"n":12,"s":[[14173780362,3],[14175819332,4]]},
+  {"id":21385265,"t":{"ref":"B Estibus","name":"Estibus B : Parking Dormillouse => La Roche-de-Rame => L’Argentière - Gare SNCF","from":"Parking Dormillouse","to":"L’Argentière - Gare SNCF","network":"Pays des Écrins","operator":"Communauté de Communes du Pays des Écrins","colour":"#EE7601","route":"bus","public_transport:version":"2"},"n":16,"s":[[14173780362,3],[14175819332,4]]},
+  {"id":21385266,"t":{"ref":"B Estibus","name":"Estibus B : L’Argentière - Gare SNCF => La Roche-de-Rame => Parking Dormillouse","from":"L’Argentière - Gare SNCF","to":"Parking Dormillouse","network":"Pays des Écrins","operator":"Communauté de Communes du Pays des Écrins","colour":"#EE7601","route":"bus","public_transport:version":"2"},"n":16,"s":[[10815965719,13],[14173780363,14]]},
+  {"id":3023479874849,"t":{"ref":"L2","name":"L2: Pra Reboul - La Gare","from":"Pra Reboul","to":"La Gare","operator":"","route":"bus","public_transport:version":"2"},"n":10,"s":[[2347228073,7]]},
+  {"id":3051269500632,"t":{"ref":"L2","name":"L2: La Gare - Pra Reboul","from":"La Gare","to":"Pra Reboul","operator":"","route":"bus","public_transport:version":"2"},"n":10,"s":[[2347228073,4]]}
+]
+}

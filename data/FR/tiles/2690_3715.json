@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2690,3715],
+"stops":[
+  {"id":749784060,"lat":44.541547,"lon":5.77867,"k":"x","n":"Aspres-sur-Buëch - Centre de Formation"},
+  {"id":2100029297,"lat":44.52071,"lon":5.752947,"k":"x","n":"Aspres-sur-Buëch - Avenue de la Gare"},
+  {"id":2100029381,"lat":44.51956,"lon":5.754564,"k":"x","n":"Aspres-sur-Buëch - Gare SNCF"},
+  {"id":2100046142,"lat":44.525706,"lon":5.76119,"k":"x","n":"Aspres-sur-Buëch - Le Peyssier"},
+  {"id":6875599525,"lat":44.520792,"lon":5.752926,"k":"p","n":"Aspres-sur-Buëch - Avenue de la Gare"},
+  {"id":6876244413,"lat":44.525785,"lon":5.761237,"k":"p","n":"Aspres-sur-Buëch - Le Peyssier"},
+  {"id":6876244414,"lat":44.525756,"lon":5.761389,"k":"p","n":"Aspres-sur-Buëch - Le Peyssier"},
+  {"id":6876268110,"lat":44.541544,"lon":5.778605,"k":"p","n":"Aspres-sur-Buëch - Centre de Formation"},
+  {"id":6876268111,"lat":44.540983,"lon":5.778834,"k":"p","n":"Aspres-sur-Buëch - Centre de Formation"},
+  {"id":8446619944,"lat":44.541054,"lon":5.778751,"k":"x","n":"Aspres-sur-Buëch - Centre de Formation"},
+  {"id":9287016895,"lat":44.52583,"lon":5.761424,"k":"x","n":"Aspres-sur-Buëch - Le Peyssier"},
+  {"id":10314535103,"lat":44.521338,"lon":5.751676,"k":"p","n":"Aspres-sur-Buëch - Village"},
+  {"id":10314535104,"lat":44.521355,"lon":5.751557,"k":"x","n":"Aspres-sur-Buëch - Village"},
+  {"id":10314535113,"lat":44.521733,"lon":5.751968,"k":"p","n":"Aspres-sur-Buëch - Village"},
+  {"id":10314535114,"lat":44.521704,"lon":5.751997,"k":"x","n":"Aspres-sur-Buëch - Village"},
+  {"id":10693255613,"lat":44.52086,"lon":5.752602,"k":"x","n":"Aspres-sur-Buëch - Office de Tourisme"},
+  {"id":11755337398,"lat":44.51949,"lon":5.754598,"k":"p","n":"Aspres-sur-Buëch - Gare SNCF"},
+  {"id":11756626458,"lat":44.520912,"lon":5.752607,"k":"p","n":"Aspres-sur-Buëch - Office de Tourisme"}
+],
+"routes":[
+  {"id":9303120,"t":{"ref":"TER 63 CAR","name":"TER 63 Car : Gap => Clelles-Mens via Aspres-sur-Buëch","from":"Gap - Gare SNCF","to":"Clelles - Gare SNCF","network":"TER Auvergne-Rhône-Alpes","operator":"SNCF Voyageurs","colour":"#3e3d40","route":"bus","public_transport:version":"2"},"n":5,"s":[[11755337398,3]]},
+  {"id":9303121,"t":{"ref":"TER 63 CAR","name":"TER 63 Car : Clelles-Mens => Gap via Aspres-sur-Buëch","from":"Clelles - Gare SNCF","to":"Gap - Gare SNCF","network":"TER Auvergne-Rhône-Alpes","operator":"SNCF Voyageurs","colour":"#3e3d40","route":"bus","public_transport:version":"2"},"n":5,"s":[[11755337398,3]]},
+  {"id":10151930,"t":{"ref":"512","name":"Bus 512 : La Faurie => Veynes => Gap","from":"La Faurie","to":"Gap","network":"Zou !","operator":"Pinet Tourisme","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":23,"s":[[6876244413,2],[10314535113,3]]},
+  {"id":10151931,"t":{"ref":"512","name":"Bus 512 : Gap => Veynes => La Faurie","from":"Gap","to":"La Faurie","network":"Zou !","operator":"Pinet Tourisme","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":12,"s":[[10314535103,10],[6876244414,11]]},
+  {"id":15533000,"t":{"ref":"5130","name":"Bus 5130 : Veynes - Place du 19 Mars 1962 => Lus-la-Croix-Haute - Salle Polyvalente","from":"Veynes - Place du 19 Mars 1962","to":"Lus-la-Croix-Haute - Salle Polyvalente","network":"Zou !","operator":"BUËCH AUTOCARS","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[11756626458,2],[6876244414,3]]},
+  {"id":15533001,"t":{"ref":"5130","name":"Bus 5130 : Lus-la-Croix-Haute - Salle Polyvalente => Veynes - Place du 19 Mars 1962","from":"Lus-la-Croix-Haute - Salle Polyvalente","to":"Veynes - Place du 19 Mars 1962","network":"Zou !","operator":"BUËCH AUTOCARS","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[6876244413,4],[11756626458,5]]},
+  {"id":15555510,"t":{"ref":"511","name":"Bus 511 : Laragne-Montéglin => Veynes","from":"Laragne-Montéglin","to":"Veynes","network":"Zou !","operator":"Pinet Tourisme","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":12,"s":[[6875599525,10]]},
+  {"id":21358071,"t":{"ref":"5128","name":"Bus 5128 : Aspres-sur-Buëch - Office de Tourisme => La Beaume - La Bégüe","from":"Aspres-sur-Buëch - Office de Tourisme","to":"La Beaume - La Bégüe","network":"Zou !","operator":"BUËCH AUTOCARS","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[11756626458,1]]},
+  {"id":21358072,"t":{"ref":"5128","name":"Bus 5128 : St-Pierre d'Argençon - Font Vineuse => Aspres-sur-Buëch - Office de Tourisme","from":"St-Pierre d'Argençon - Font Vineuse","to":"Aspres-sur-Buëch - Office de Tourisme","network":"Zou !","operator":"BUËCH AUTOCARS","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[11756626458,7]]}
+]
+}

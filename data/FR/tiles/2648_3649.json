@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2648,3649],
+"stops":[
+  {"id":505802984,"lat":42.40388,"lon":2.480351,"k":"x","n":"Prats de Molló"},
+  {"id":5178075809,"lat":42.40786,"lon":2.469681,"k":"p","n":"Camping Can Nadal"},
+  {"id":5250279623,"lat":42.404015,"lon":2.480224,"k":"p"},
+  {"id":7142429830,"lat":42.40769,"lon":2.469619,"k":"p","n":"Camping Can Nadal"},
+  {"id":9530374160,"lat":42.403761,"lon":2.490492,"k":"p","n":"Saint-Martin","ref":"St Martin"},
+  {"id":13114930686,"lat":42.410359,"lon":2.463848,"k":"p","n":"Les Tilleuls"},
+  {"id":13114930687,"lat":42.41061,"lon":2.463451,"k":"p","n":"Les Tilleuls"},
+  {"id":13114930688,"lat":42.405411,"lon":2.473558,"k":"p","n":"Les 4 routes"},
+  {"id":13114930689,"lat":42.405453,"lon":2.473877,"k":"p","n":"Les 4 routes"},
+  {"id":13114930690,"lat":42.403562,"lon":2.480106,"k":"p","n":"Arrêt \"Prats de Mollo\""},
+  {"id":13114930691,"lat":42.403939,"lon":2.480337,"k":"p","n":"Foiral"},
+  {"id":14178452980,"lat":42.404108,"lon":2.491658,"k":"p","n":"Saint-Martin","ref":"St Martin"}
+],
+"routes":[
+  {"id":19760155,"t":{"ref":"C5","name":"C5 Connect. Camprodon => Prats de Molló","from":"Camprodon","to":"Prats de Molló","operator":"Teisa","route":"bus","public_transport:version":"2"},"n":4,"s":[[13114930691,4]]},
+  {"id":19760178,"t":{"ref":"C5","name":"C5 Connect. Prats de Molló => Camprodon","from":"Prats de Molló","to":"Camprodon","operator":"Teisa","route":"bus","public_transport:version":"2"},"n":5,"s":[[13114930691,1]]},
+  {"id":21389312,"t":{"ref":"536","name":"Bus 536: Prats-de-Mollo-la-Preste Les Thermes → Prats-de-Mollo-la-Preste Foiral","from":"Prats-de-Mollo-la-Preste Les Thermes","to":"Prats-de-Mollo-la-Preste Foiral","network":"liO","colour":"#89d2cb","route":"bus","public_transport:version":"2"},"n":7,"s":[[13114930686,4],[7142429830,5],[13114930688,6],[13114930691,7]]},
+  {"id":21389313,"t":{"ref":"536","name":"Bus 536: Prats-de-Mollo-la-Preste Foiral → Prats-de-Mollo-la-Preste Les Thermes","from":"Prats-de-Mollo-la-Preste Foiral","to":"Prats-de-Mollo-la-Preste Les Thermes","network":"liO","colour":"#89d2cb","route":"bus","public_transport:version":"2"},"n":7,"s":[[13114930691,1],[13114930689,2],[5178075809,3],[13114930687,4]]},
+  {"id":3010788614495,"t":{"ref":"531","name":"Bus 531: Arles-sur-Tech Gare Routière → Prats-de-Mollo-la-Preste Foiral","from":"Arles-sur-Tech Gare Routière","to":"Prats-de-Mollo-la-Preste Foiral","network":"liO","colour":"#89d2cb","route":"bus","public_transport:version":"2"},"n":9,"s":[[14178452980,8],[13114930691,9]]},
+  {"id":3055124329915,"t":{"ref":"531","name":"Bus 531: Prats-de-Mollo-la-Preste Foiral → Arles-sur-Tech Gare Routière","from":"Prats-de-Mollo-la-Preste Foiral","to":"Arles-sur-Tech Gare Routière","network":"liO","colour":"#89d2cb","route":"bus","public_transport:version":"2"},"n":10,"s":[[13114930690,1],[9530374160,2]]}
+]
+}

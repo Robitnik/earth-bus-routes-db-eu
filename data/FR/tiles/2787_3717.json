@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2787,3717],
+"stops":[
+  {"id":137910659,"lat":49.356159,"lon":5.869869,"k":"x","n":"Malavillers, Mairie"},
+  {"id":2114222253,"lat":49.367187,"lon":5.890029,"k":"x"},
+  {"id":2864633363,"lat":49.37142,"lon":5.88942,"k":"p","n":"College"},
+  {"id":3892210601,"lat":49.366895,"lon":5.891195,"k":"x","n":"Audun-le-Roman"},
+  {"id":4427465324,"lat":49.369461,"lon":5.895157,"k":"x","n":"Audun-le-Roman, Église"},
+  {"id":4427465325,"lat":49.369518,"lon":5.895314,"k":"x","n":"Audun-le-Roman, Église"},
+  {"id":4427465326,"lat":49.369497,"lon":5.895122,"k":"p","n":"Audun-le-Roman, Église"},
+  {"id":4427465347,"lat":49.356209,"lon":5.869845,"k":"p","n":"Malavillers, Mairie"},
+  {"id":4427465348,"lat":49.356267,"lon":5.870383,"k":"p","n":"Malavillers, Mairie"},
+  {"id":4427465377,"lat":49.356333,"lon":5.870387,"k":"x","n":"Malavillers, Mairie"},
+  {"id":5036824147,"lat":49.369483,"lon":5.895368,"k":"p","n":"Audun-le-Roman, Église"},
+  {"id":8740646910,"lat":49.372248,"lon":5.899417,"k":"p","n":"L'Étang"},
+  {"id":8740646913,"lat":49.372075,"lon":5.899,"k":"p","n":"L'Étang"},
+  {"id":8740647959,"lat":49.369915,"lon":5.895505,"k":"p","n":"Église"},
+  {"id":8740647960,"lat":49.369891,"lon":5.894979,"k":"p","n":"Église"},
+  {"id":8740647986,"lat":49.367196,"lon":5.889915,"k":"p","n":"Gare SNCF"},
+  {"id":13039946931,"lat":49.36725,"lon":5.890305,"k":"p","n":"Gare SNCF"},
+  {"id":13039946932,"lat":49.367307,"lon":5.890246,"k":"x"}
+],
+"routes":[
+  {"id":5742235,"t":{"ref":"TER 27","name":"Bus TER 27 : Thionville - Audun-le-Roman","network":"TER Grand Est","operator":"SNCF Voyageurs","colour":"#61d6f7","route":"bus","public_transport:version":"1"},"n":6,"s":[[3892210601,4],[4427465326,5]]},
+  {"id":6312227,"t":{"ref":"603","name":"RGTR 603: Luxembourg, Gare Centrale => Piennes, Zone d'activités","from":"Luxembourg, Gare Centrale","to":"Piennes, Zone d'activités","network":"RGTR","operator":"Voyages Emile Weber","colour":"#1FBCE1","route":"bus","public_transport:version":"2"},"n":12,"s":[[4427465326,6],[4427465347,7]]},
+  {"id":6623237,"t":{"ref":"603","name":"RGTR 603: Piennes, Zone d'activités => Luxembourg, Gare Centrale","from":"Piennes, Zone d'activités","to":"Luxembourg, Gare Centrale","network":"RGTR","operator":"Voyages Emile Weber","colour":"#1FBCE1","route":"bus","public_transport:version":"2"},"n":12,"s":[[4427465348,6],[5036824147,7]]},
+  {"id":19412900,"t":{"ref":"104","name":"Bus 104: Audun-le-Roman Gare SNCF → Val-de-Briey Saint-Exupéry","from":"Audun-le-Roman Gare SNCF","to":"Val-de-Briey Saint-Exupéry","network":"Le Fil","route":"bus","public_transport:version":"2"},"n":27,"s":[[13039946931,1],[8740647959,2]]},
+  {"id":19412901,"t":{"ref":"104","name":"Bus 104: Val-de-Briey Saint-Exupéry → Audun-le-Roman Gare SNCF","from":"Val-de-Briey Saint-Exupéry","to":"Audun-le-Roman Gare SNCF","network":"Le Fil","route":"bus","public_transport:version":"2"},"n":27,"s":[[8740647960,26],[8740647986,27]]}
+]
+}

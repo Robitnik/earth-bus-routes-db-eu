@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2782,3746],
+"stops":[
+  {"id":906645367,"lat":49.139622,"lon":7.309454,"k":"p","n":"Riesweiler Ortsmitte"},
+  {"id":906649796,"lat":49.127836,"lon":7.30087,"k":"p","n":"Utweiler Brunnen"},
+  {"id":8276440166,"lat":49.12963,"lon":7.300615,"k":"p","n":"Utweiler Abzweigung"},
+  {"id":8276440205,"lat":49.139657,"lon":7.309439,"k":"x","n":"Riesweiler Ortsmitte"},
+  {"id":8277222202,"lat":49.129379,"lon":7.300533,"k":"p","n":"Utweiler Abzweigung"},
+  {"id":14092658212,"lat":49.109105,"lon":7.343307,"k":"p","n":"Volmunster, Weiskirch"},
+  {"id":14092658213,"lat":49.134712,"lon":7.325742,"k":"p","n":"Ormersviller, Église"},
+  {"id":14092658214,"lat":49.112055,"lon":7.31638,"k":"p","n":"Epping, Centre"}
+],
+"routes":[
+  {"id":13117580,"t":{"ref":"237","name":"Bus 237: Zweibrücken => Riesweiler","from":"Zweibrücken","to":"Riesweiler","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":11,"s":[[8277222202,10],[906645367,11]]},
+  {"id":13117725,"t":{"ref":"237","name":"Bus 237: Riesweiler => Zweibrücken","from":"Riesweiler","to":"Zweibrücken","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":10,"s":[[8276440166,1]]},
+  {"id":13298375,"t":{"ref":"577","name":"Bus 577: Blieskastel-Altheim-Riesweiler => Blieskastel","from":"Blieskastel Busbahnhof","to":"Blieskastel Busbahnhof","network":"Saarländischer Verkehrsverbund","operator":"Bliestalverkehr GbR","route":"bus","public_transport:version":"2"},"n":16,"s":[[8277222202,10],[906645367,11]]},
+  {"id":21225388,"t":{"ref":"57R087","name":"Bus 87: Volmunster => Sarreguemines","from":"Volmunster, Weiskirch","to":"Sarreguemines, Gare Routière","network":"Fluo Grand Est","route":"bus"},"n":20,"s":[[14092658212,1],[14092658213,3],[14092658214,4]]}
+]
+}

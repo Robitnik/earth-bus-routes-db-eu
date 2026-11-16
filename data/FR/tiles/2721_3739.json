@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2721,3739],
+"stops":[
+  {"id":280980819,"lat":46.067469,"lon":6.983987,"k":"x","n":"Route de Litroz"},
+  {"id":280980865,"lat":46.061613,"lon":6.964512,"k":"x","n":"Bifurcation Route de Finhaut"},
+  {"id":343039065,"lat":46.077514,"lon":6.954559,"k":"x","n":"Le Pas"},
+  {"id":473493298,"lat":46.080202,"lon":6.964811,"k":"x","n":"La Léchère"},
+  {"id":473493304,"lat":46.083849,"lon":6.971192,"k":"x","n":"Les Fontaines"},
+  {"id":499122112,"lat":46.085552,"lon":6.982051,"k":"x","n":"Le Léamont"},
+  {"id":528362695,"lat":46.059123,"lon":6.960316,"k":"p","n":"Le Châtelard"},
+  {"id":814655474,"lat":46.067725,"lon":6.969142,"k":"x","n":"Le Plan"},
+  {"id":944985302,"lat":46.070904,"lon":6.950452,"k":"x","n":"Corbes"},
+  {"id":945001627,"lat":46.071457,"lon":6.975781,"k":"x","n":"Tête-Noire"},
+  {"id":983828023,"lat":46.061937,"lon":6.990895,"k":"x","n":"Trient Camping"},
+  {"id":983829164,"lat":46.052961,"lon":6.950281,"k":"x","n":"Le Châtelard Frontière"},
+  {"id":2640246889,"lat":46.058042,"lon":6.958123,"k":"x","n":"Le Châtelard, Village"}
+],
+"routes":[
+  {"id":5477305,"t":{"ref":"230","name":"Bus 230: Lac d'Emosson => Finhaut, gare","from":"Lac d'Emosson","to":"Finhaut, gare","network":"CH-VS","operator":"TMR","route":"bus","public_transport:version":"2"},"n":6,"s":[[343039065,2],[944985302,3],[473493298,4],[473493304,5],[499122112,6]]},
+  {"id":5477306,"t":{"ref":"230","name":"Bus 230: Finhaut, gare => Lac d'Emosson","from":"Finhaut, gare","to":"Lac d'Emosson","network":"CH-VS","operator":"TMR","route":"bus","public_transport:version":"2"},"n":6,"s":[[499122112,1],[473493304,2],[473493298,3],[944985302,4],[343039065,5]]},
+  {"id":5479281,"t":{"ref":"213","name":"Bus 213: Le Châtelard VS, Frontière => Trient => Martigny, gare","from":"Le Châtelard VS, Frontière","to":"Martigny, gare","network":"CH-VS","operator":"PAG","route":"bus","public_transport:version":"2"},"n":8,"s":[[983829164,1],[2640246889,2],[280980865,3],[814655474,4],[945001627,5],[280980819,6],[983828023,7]]},
+  {"id":5479282,"t":{"ref":"213","name":"Bus 213: Martigny, gare => Trient => Le Châtelard VS, Frontière","from":"Martigny, gare","to":"Le Châtelard VS, Frontière","network":"CH-VS","operator":"PAG","route":"bus","public_transport:version":"2"},"n":8,"s":[[983828023,2],[280980819,3],[945001627,4],[814655474,5],[280980865,6],[2640246889,7],[983829164,8]]}
+]
+}

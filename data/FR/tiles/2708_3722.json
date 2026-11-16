@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2708,3722],
+"stops":[
+  {"id":60325557,"lat":45.43759,"lon":6.116647,"k":"x","n":"Pont du Bens"},
+  {"id":60325602,"lat":45.429296,"lon":6.10008,"k":"x","n":"Revit"},
+  {"id":326062944,"lat":45.406286,"lon":6.129088,"k":"x","n":"Pré Rond"},
+  {"id":2116628695,"lat":45.427621,"lon":6.107107,"k":"x","n":"Montgaren"},
+  {"id":2235530474,"lat":45.434535,"lon":6.125616,"k":"x","n":"Plan Baron"},
+  {"id":2974960523,"lat":45.442485,"lon":6.120805,"k":"x","n":"Place Saint-Roch"},
+  {"id":9259465365,"lat":45.430642,"lon":6.123518,"k":"x","n":"Plan Poucet"},
+  {"id":12525907693,"lat":45.442399,"lon":6.120968,"k":"x","n":"Place Saint-Roch"},
+  {"id":12626375731,"lat":45.441484,"lon":6.120212,"k":"x"},
+  {"id":13041871833,"lat":45.428094,"lon":6.124116,"k":"x","n":"Beauvoir"},
+  {"id":13074931510,"lat":45.429408,"lon":6.100192,"k":"x","n":"Revit"},
+  {"id":5000293917985,"lat":45.442489,"lon":6.120867,"k":"p","n":"Place Saint-Roch"},
+  {"id":5000293917987,"lat":45.442483,"lon":6.120764,"k":"p","n":"Place Saint-Roch"},
+  {"id":5001422728675,"lat":45.429426,"lon":6.100175,"k":"p","n":"Revit"},
+  {"id":5001422728676,"lat":45.429293,"lon":6.100124,"k":"p","n":"Revit"}
+],
+"routes":[
+  {"id":6762695,"t":{"ref":"N97","name":"N97 : Collet -> Pontcharra","from":"Le Collet d'Allevard − Super Collet","to":"Pontcharra − Le Coléo","network":"M réso","operator":"Europe-Autocars","colour":"#86bc25","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000293917985,6]]},
+  {"id":6762696,"t":{"ref":"N97","name":"N97 : Pontcharra -> Collet","from":"Pontcharra − Le Coléo","to":"Le Collet d'Allevard − Super Collet","network":"M réso","operator":"Europe-Autocars","colour":"#86bc25","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000293917987,5]]},
+  {"id":19415577,"t":{"ref":"363","name":"363 : Chapelle -> Montgaren","from":"La Chapelle-du-Bard - École","to":"La Chapelle-du-Bard - Montgaren","network":"M réso","operator":"Europe-Autocars","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":5,"s":[[2116628695,5]]},
+  {"id":19415581,"t":{"ref":"363","name":"363 : Montgaren -> Chapelle","from":"La Chapelle-du-Bard - Montgaren","to":"La Chapelle-du-Bard - École","network":"M réso","operator":"Europe-Autocars","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":5,"s":[[2116628695,1]]},
+  {"id":19469238,"t":{"ref":"366","name":"366 : École -> Bens","from":"La Chapelle-du-Bard - École","to":"La Chapelle-du-Bard - Pont du Bens","network":"M réso","operator":"Europe-Autocars","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":4,"s":[[60325602,3],[60325557,4]]},
+  {"id":19469239,"t":{"ref":"366","name":"366 : Bens -> École","from":"La Chapelle-du-Bard - Pont du Bens","to":"La Chapelle-du-Bard - École","network":"M réso","operator":"Europe-Autocars","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":4,"s":[[60325557,1],[13074931510,2]]},
+  {"id":19511426,"t":{"ref":"S03","name":"S03 : Arvillard -> Pontcharra","from":"Arvillard - Place","to":"Pontcharra - Gare SNCF","network":"Cars Région Savoie","operator":"Europe-Autocars","colour":"#ffee20","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000293917985,1]]},
+  {"id":19511427,"t":{"ref":"S03","name":"S03 : Pontcharra -> Arvillard","from":"Pontcharra - Gare SNCF","to":"Arvillard - Place","network":"Cars Région Savoie","operator":"Europe-Autocars","colour":"#ffee20","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000293917987,5]]}
+]
+}

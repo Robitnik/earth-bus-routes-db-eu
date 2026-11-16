@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2752,3609],
+"stops":[
+  {"id":1011377064,"lat":47.615846,"lon":0.474912,"k":"x","n":"Saint-Christophe-sur-le-Nais - Centre"},
+  {"id":4052518434,"lat":47.616534,"lon":0.469545,"k":"x","n":"Hilarion"},
+  {"id":4052518452,"lat":47.61567,"lon":0.475202,"k":"x","n":"Saint-Christophe-sur-le-Nais - Centre"},
+  {"id":4052518454,"lat":47.603253,"lon":0.476466,"k":"x","n":"Saint-Paterne-Racan − Piscine"},
+  {"id":4086054193,"lat":47.603886,"lon":0.478747,"k":"x","n":"Saint-Paterne-Racan"},
+  {"id":10250883351,"lat":47.602996,"lon":0.481205,"k":"p"},
+  {"id":10250883352,"lat":47.603047,"lon":0.481176,"k":"x","n":"Mairie - Saint-Paterne-Racan"},
+  {"id":5000402849711,"lat":47.616502,"lon":0.469538,"k":"p","n":"Hilarion"},
+  {"id":5000402849756,"lat":47.615882,"lon":0.474921,"k":"p","n":"Saint-Christophe-sur-le-Nais − Centre"},
+  {"id":5000402849759,"lat":47.615646,"lon":0.475097,"k":"p","n":"Saint-Christophe-sur-le-Nais − Centre"},
+  {"id":5000402849762,"lat":47.615819,"lon":0.474899,"k":"p","n":"Saint-Christophe-sur-le-Nais − Centre"},
+  {"id":5000402849774,"lat":47.61568,"lon":0.475296,"k":"p","n":"Saint-Christophe-sur-le-Nais − Centre"},
+  {"id":5000402849778,"lat":47.603288,"lon":0.476488,"k":"p","n":"Saint-Paterne-Racan − Piscine"},
+  {"id":5000402849782,"lat":47.603221,"lon":0.476431,"k":"p","n":"Saint-Paterne-Racan − Piscine"},
+  {"id":5000402849785,"lat":47.60289,"lon":0.484071,"k":"p","n":"Saint-Paterne-Racan − Place"},
+  {"id":5000402849786,"lat":47.602801,"lon":0.484123,"k":"p","n":"Saint-Paterne-Racan − Place"},
+  {"id":5000406548436,"lat":47.603863,"lon":0.478708,"k":"p","n":"Saint-Paterne-Racan"},
+  {"id":6012626957805,"lat":47.60313,"lon":0.48178,"k":"p","n":"Mairie","g":1},
+  {"id":6044974276553,"lat":47.60313,"lon":0.48178,"k":"p","n":"Mairie","g":1},
+  {"id":6048222022321,"lat":47.603107,"lon":0.481785,"k":"p","n":"Mairie","g":1},
+  {"id":6090571709283,"lat":47.603107,"lon":0.481785,"k":"p","n":"Mairie","g":1}
+],
+"routes":[
+  {"id":6039659,"t":{"ref":"M","name":"M : Saint-Christophe -> Tours","from":"Saint-Christophe-sur-le-Nais − Hilarion","to":"Tours − Halte Routière","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000402849711,1],[5000402849762,2],[5000402849782,3],[5000402849786,4]]},
+  {"id":6039662,"t":{"ref":"M","name":"M : Tours -> Saint-Christophe","from":"Tours − Halte Routière","to":"Saint-Christophe-sur-le-Nais − Hilarion","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000402849785,20],[5000402849778,21],[5000402849756,22]]},
+  {"id":6090990,"t":{"ref":"TER 2.8","name":"Car TER 2.8 : Château-du-Loir → Tours","from":"Château-du-Loir − Gare","to":"Tours − Halte Routière","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000402849759,1],[5000406548436,2]]},
+  {"id":6090991,"t":{"ref":"TER 2.8","name":"Car TER 2.8 : Tours → Château-du-Loir","from":"Tours − Halte Routière","to":"Château-du-Loir − Gare","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000406548436,4],[5000402849774,5]]},
+  {"id":3007036626115,"t":{"ref":"M","name":"M : Tours -> Saint-Christophe via Saint-Antoine","from":"Tours − Halte Routière","to":"Saint-Christophe-sur-le-Nais − Hilarion","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":18,"s":[[6012626957805,15],[5000402849778,16],[1011377064,17],[5000402849711,18]]},
+  {"id":3015094484757,"t":{"ref":"M","name":"M : Tours -> Saint-Christophe via Saint-Antoine","from":"Tours − Halte Routière","to":"Saint-Christophe-sur-le-Nais − Hilarion","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":18,"s":[[6044974276553,15],[5000402849778,16],[1011377064,17],[5000402849711,18]]},
+  {"id":3043807072911,"t":{"ref":"M","name":"M : Tours -> Saint-Christophe via Saint-Antoine","from":"Tours − Halte Routière","to":"Saint-Christophe-sur-le-Nais − Hilarion","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":23,"s":[[6044974276553,20],[5000402849778,21],[1011377064,22],[5000402849711,23]]},
+  {"id":3044140132203,"t":{"ref":"M","name":"M : Saint-Christophe -> Tours via Saint-Antoine","from":"Saint-Christophe-sur-le-Nais − Hilarion","to":"Tours − Halte Routière","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000402849711,1],[4052518452,2],[4052518454,3],[6090571709283,4]]},
+  {"id":3054197405746,"t":{"ref":"M","name":"M : Tours -> Saint-Christophe via Saint-Antoine","from":"Tours − Halte Routière","to":"Saint-Christophe-sur-le-Nais − Hilarion","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":23,"s":[[6012626957805,20],[5000402849778,21],[1011377064,22],[5000402849711,23]]},
+  {"id":3060951655011,"t":{"ref":"M","name":"M : Saint-Christophe -> Tours via Saint-Antoine","from":"Saint-Christophe-sur-le-Nais − Hilarion","to":"Tours − Halte Routière","network":"Rémi","colour":"#9748a4","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000402849711,1],[4052518452,2],[4052518454,3],[6048222022321,4]]}
+]
+}

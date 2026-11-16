@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2688,3687],
+"stops":[
+  {"id":301688158,"lat":44.418204,"lon":4.359882,"k":"x","n":"Vallon-Pont-d'Arc - Mas de Jaulet"},
+  {"id":1853381663,"lat":44.429508,"lon":4.358201,"k":"p","n":"Sampzon - Le Pont"},
+  {"id":1853381666,"lat":44.429449,"lon":4.357851,"k":"p","n":"Sampzon - Le Pont"},
+  {"id":1853381667,"lat":44.429525,"lon":4.358118,"k":"x","n":"Sampzon - Le Pont"},
+  {"id":1853837781,"lat":44.411373,"lon":4.377907,"k":"p","n":"Vallon-Pont-d'Arc - Croisement Les Mazes"},
+  {"id":1853837782,"lat":44.411555,"lon":4.377895,"k":"p","n":"Vallon-Pont-d'Arc - Croisement Les Mazes"},
+  {"id":1853837852,"lat":44.41146,"lon":4.377787,"k":"x","n":"Vallon-Pont-d'Arc - Croisement Les Mazes"},
+  {"id":1853837854,"lat":44.411527,"lon":4.377818,"k":"x","n":"Vallon-Pont-d'Arc - Croisement Les Mazes"},
+  {"id":6614968400,"lat":44.405304,"lon":4.398295,"k":"p","n":"Gare Routière"},
+  {"id":6614968401,"lat":44.405382,"lon":4.398102,"k":"p","n":"Gare Routière"},
+  {"id":6614968402,"lat":44.405457,"lon":4.397915,"k":"p","n":"Gare Routière"},
+  {"id":6614968403,"lat":44.405532,"lon":4.397733,"k":"p","n":"Gare Routière"},
+  {"id":6614968404,"lat":44.405609,"lon":4.397544,"k":"p","n":"Gare Routière"},
+  {"id":6614968405,"lat":44.405679,"lon":4.397363,"k":"p","n":"Gare Routière"},
+  {"id":6614968406,"lat":44.405504,"lon":4.396982,"k":"p","n":"Gare Routière"},
+  {"id":6614968407,"lat":44.405647,"lon":4.397092,"k":"p","n":"Gare Routière"},
+  {"id":7973644572,"lat":44.405478,"lon":4.397673,"k":"x","n":"Vallon-Pont-d'Arc - Gare Routière"},
+  {"id":7974925550,"lat":44.418154,"lon":4.36001,"k":"p","n":"Vallon-Pont-d'Arc - Mas de Jaulet"},
+  {"id":7974925551,"lat":44.418249,"lon":4.35989,"k":"p","n":"Vallon-Pont-d'Arc - Mas de Jaulet"},
+  {"id":9581970935,"lat":44.429466,"lon":4.357917,"k":"x","n":"Sampzon - Le Pont"}
+],
+"routes":[
+  {"id":11717975,"t":{"ref":"X76","name":"Ligne X76 : Vallon-Pont-d'Arc Gare Routière → Valence TGV","from":"Vallon-Pont-d'Arc - Gare Routière","to":"Valence TGV Rhône-Alpes Sud","network":"Cars Région Express","operator":"Société Rhodanienne des Cars Ginhoux","colour":"#55366f","route":"bus","public_transport:version":"2"},"n":11,"s":[[6614968403,1],[1853381663,2]]},
+  {"id":11717976,"t":{"ref":"X76","name":"Ligne X76 : Valence TGV → Vallon-Pont-d'Arc Gare Routière","from":"Valence TGV Rhône-Alpes Sud","to":"Vallon-Pont-d'Arc - Gare Routière","network":"Cars Région Express","operator":"Société Rhodanienne des Cars Ginhoux","colour":"#55366f","route":"bus","public_transport:version":"2"},"n":11,"s":[[1853381666,10],[6614968403,11]]},
+  {"id":11718861,"t":{"ref":"E15","name":"Car E15: Avignon → Vallon-Pont-d'Arc","from":"Avignon - Gare Routière","to":"Vallon-Pont-d'Arc - Gare Routière","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":6,"s":[[6614968403,6]]},
+  {"id":11718863,"t":{"ref":"E15","name":"Car E15: Vallon-Pont-d'Arc → Avignon","from":"Vallon-Pont-d'Arc - Gare Routière","to":"Avignon - Gare Routière","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":6,"s":[[6614968403,1]]},
+  {"id":11718865,"t":{"ref":"E15","name":"Car E15: Avignon → Vallon-Pont-d'Arc → Ruoms → Aubenas","from":"Avignon - Gare Routière","to":"Aubenas - Place de la Paix","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":27,"s":[[6614968403,6],[1853837782,7],[7974925551,8],[1853381663,9]]},
+  {"id":11718866,"t":{"ref":"E15","name":"Car E15: Aubenas → Ruoms → Vallon-Pont-d'Arc → Avignon","from":"Aubenas - Place de la Paix","to":"Avignon - Gare Routière","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":27,"s":[[1853381666,19],[7974925550,20],[1853837781,21],[6614968403,22]]},
+  {"id":3025436264813,"t":{"ref":"E15","name":"Car E15: Vallon-Pont-d'Arc → Ruoms → Aubenas","from":"Vallon-Pont-d'Arc - Gare Routière","to":"Aubenas - Place de la Paix","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":22,"s":[[6614968403,1],[1853837782,2],[7974925551,3],[1853381663,4]]},
+  {"id":3033898191083,"t":{"ref":"E15","name":"Car E15: Vallon-Pont-d'Arc → Ruoms → Aubenas","from":"Vallon-Pont-d'Arc - Gare Routière","to":"Aubenas - Place de la Paix","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":22,"s":[[6614968403,1],[1853837782,2],[7974925551,3],[1853381663,4]]},
+  {"id":3081759976655,"t":{"ref":"E15","name":"Car E15: Aubenas → Ruoms → Vallon-Pont-d'Arc","from":"Aubenas - Place de la Paix","to":"Valon-Pont-D'Arc - Gare ROutière","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":22,"s":[[1853381666,19],[7974925550,20],[1853837781,21],[6614968403,22]]},
+  {"id":3090226017980,"t":{"ref":"E15","name":"Car E15: Aubenas → Ruoms → Vallon-Pont-d'Arc","from":"Aubenas - Place de la Paix","to":"Valon-Pont-D'Arc - Gare ROutière","network":"Cars Région Ardèche","operator":"Autocars Ginhoux","colour":"#E85595","route":"bus","public_transport:version":"2"},"n":22,"s":[[1853381666,19],[7974925550,20],[1853837781,21],[6614968403,22]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2646,3783],
+"stops":[
+  {"id":8916992930,"lat":42.301037,"lon":9.15267,"k":"p","n":"Faubourg Saint Antoine"},
+  {"id":12031926017,"lat":42.301097,"lon":9.15156,"k":"x","n":"Faubourg Saint Antoine"},
+  {"id":12031926124,"lat":42.301071,"lon":9.152687,"k":"x","n":"Faubourg Saint Antoine"},
+  {"id":12031926127,"lat":42.301147,"lon":9.151618,"k":"p","n":"Faubourg Saint Antoine"},
+  {"id":12033134184,"lat":42.303788,"lon":9.15741,"k":"x","n":"Corte, Gare"},
+  {"id":12033546479,"lat":42.303762,"lon":9.157328,"k":"p","n":"Corte, Gare"},
+  {"id":13894255101,"lat":42.302882,"lon":9.154302,"k":"p"},
+  {"id":14213516701,"lat":42.303776,"lon":9.157318,"k":"p","n":"Restonica Shuttle"}
+],
+"routes":[
+  {"id":5510208,"t":{"name":"Navette saisonnière : Corti → Bocca à Verghju","from":"Corti, Gara","to":"Col de Vergio","operator":"Autocars Cortenais","route":"bus","public_transport:version":"2"},"n":2,"s":[[12033546479,1]]},
+  {"id":17803040,"t":{"ref":"C13","name":"Ligne C13 : Frasseta → Gari","from":"Frasseta","to":"Corti, Gara","operator":"Autocars Cortenais","route":"bus","public_transport:version":"2"},"n":6,"s":[[8916992930,5],[12033546479,6]]},
+  {"id":17803041,"t":{"ref":"C13","name":"Ligne C13 : Gari → Frasseta","from":"Corti, Gara","to":"Frasseta","operator":"Autocars Cortenais","route":"bus","public_transport:version":"2"},"n":6,"s":[[12033546479,1],[12031926127,2]]},
+  {"id":19685053,"t":{"name":"Navette saisonnière : Bocca à Verghju → Corti","from":"Col de Vergio","to":"Corti, Gara","operator":"Autocars Cortenais","route":"bus","public_transport:version":"2"},"n":2,"s":[[12033546479,2]]}
+]
+}

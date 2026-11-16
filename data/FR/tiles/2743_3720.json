@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2743,3720],
+"stops":[
+  {"id":377072380,"lat":47.190056,"lon":6.045025,"k":"x","n":"Canton Viennet"},
+  {"id":1354659167,"lat":47.193403,"lon":6.035278,"k":"x","n":"Château Rose"},
+  {"id":1354747920,"lat":47.191338,"lon":6.040495,"k":"x","n":"Corne au Vaux"},
+  {"id":2177144284,"lat":47.190106,"lon":6.044953,"k":"p","n":"Canton Viennet"},
+  {"id":3406762697,"lat":47.193234,"lon":6.000141,"k":"p","n":"Vierge"},
+  {"id":3406768697,"lat":47.197138,"lon":6.00105,"k":"p","n":"Village"},
+  {"id":3406772337,"lat":47.197334,"lon":6.001028,"k":"p","n":"Village"},
+  {"id":3408956122,"lat":47.185681,"lon":6.049653,"k":"p","n":"Forêt"},
+  {"id":4347689109,"lat":47.199543,"lon":6.019345,"k":"p","n":"Fontain"},
+  {"id":7775649679,"lat":47.191286,"lon":6.040576,"k":"p","n":"Corne au Vaux"},
+  {"id":12612739228,"lat":47.197387,"lon":6.001114,"k":"x","n":"Village"},
+  {"id":12612739231,"lat":47.197137,"lon":6.000966,"k":"x","n":"Village"},
+  {"id":12612739234,"lat":47.193282,"lon":6.000243,"k":"x","n":"Vierge"},
+  {"id":12612739235,"lat":47.199439,"lon":6.019506,"k":"x","n":"Fontain"},
+  {"id":12612739236,"lat":47.199424,"lon":6.019625,"k":"p","n":"Fontain"},
+  {"id":12612739237,"lat":47.199486,"lon":6.019527,"k":"x","n":"Fontain"},
+  {"id":12612739238,"lat":47.185591,"lon":6.049628,"k":"x","n":"Forêt"},
+  {"id":12612739243,"lat":47.193475,"lon":6.03526,"k":"p","n":"Château Rose"},
+  {"id":6087086842387,"lat":47.188953,"lon":6.047401,"k":"p","n":"Fontain - Chantoubin","g":1}
+],
+"routes":[
+  {"id":3001714927836,"t":{"ref":"D405","name":"D405: Larnod - Lotissement - Micropolis","from":"Larnod - Lotissement","to":"Micropolis","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":12,"s":[[3406762697,6],[3406768697,7]]},
+  {"id":3006175610685,"t":{"ref":"D404","name":"D404: Fontain - Fontaine - Victor Gallois","from":"Fontain - Fontaine","to":"Victor Gallois","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":8,"s":[[12612739237,1]]},
+  {"id":3012153641935,"t":{"ref":"85","name":"Bus 85: Fontain, Le Croc => Besançon, Chamars","from":"Le Croc","to":"Chamars","network":"Ginko","operator":"Keolis Besançon","colour":"#009037","route":"bus","public_transport:version":"2"},"n":15,"s":[[12612739237,2],[3406762697,3],[3406768697,4]]},
+  {"id":3018475744331,"t":{"ref":"D421","name":"D421: Collège Lumière - Fontain - Vierge","from":"Collège Lumière","to":"Fontain - Vierge","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":11,"s":[[12612739231,10],[3406762697,11]]},
+  {"id":3026989688814,"t":{"ref":"D404","name":"D404: Orchamps - Fontain - Fontaine","from":"Orchamps","to":"Fontain - Fontaine","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":6,"s":[[12612739237,6]]},
+  {"id":3050859231189,"t":{"ref":"85","name":"Bus 85: Besançon, Chamars => Fontain, Le Croc","from":"Chamars","to":"Le Croc","network":"Ginko","operator":"Keolis Besançon","colour":"#009037","route":"bus","public_transport:version":"2"},"n":21,"s":[[12612739231,12],[3406762697,13],[12612739235,14],[12612739243,16],[7775649679,17],[2177144284,18],[3408956122,19]]},
+  {"id":3060835753392,"t":{"ref":"D410","name":"D410: Saône - Collège de Saône - Fontain - Le Croc","from":"Saône - Collège de Saône","to":"Fontain - Le Croc","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":9,"s":[[12612739235,3],[7775649679,4],[2177144284,5],[6087086842387,6],[12612739238,7]]},
+  {"id":3065491685508,"t":{"ref":"85","name":"Bus 85: Fontain, Le Croc => Besançon, Chamars","from":"Le Croc","to":"Chamars","network":"Ginko","operator":"Keolis Besançon","colour":"#009037","route":"bus","public_transport:version":"2"},"n":21,"s":[[3408956122,2],[2177144284,4],[7775649679,5],[12612739243,6],[12612739237,8],[3406762697,9],[3406768697,10]]},
+  {"id":3068317143532,"t":{"ref":"85","name":"Bus 85: Besançon, Chamars => Fontain, Le Croc","from":"Chamars","to":"Le Croc","network":"Ginko","operator":"Keolis Besançon","colour":"#009037","route":"bus","public_transport:version":"2"},"n":15,"s":[[12612739231,12],[3406762697,13],[12612739235,14]]},
+  {"id":3077334710081,"t":{"ref":"D421","name":"D421: Fontain - Vierge - Collège Lumière","from":"Fontain - Vierge","to":"Collège Lumière","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":11,"s":[[3406762697,1],[3406768697,2]]},
+  {"id":3086678771866,"t":{"ref":"Proxi I","name":"Proxi I: Fontain - Le Croc - Saône - Marais","from":"Fontain - Le Croc","to":"Saône - Marais","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":15,"s":[[12612739238,2],[7775649679,4],[12612739243,5],[12612739235,6]]},
+  {"id":3093942585205,"t":{"ref":"D410","name":"D410: Fontain - Le Croc - Saône - Collège de Saône","from":"Fontain - Le Croc","to":"Saône - Collège de Saône","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":9,"s":[[3408956122,2],[6087086842387,4],[2177144284,5],[7775649679,6],[12612739237,7]]},
+  {"id":3099828502823,"t":{"ref":"Proxi I","name":"Proxi I: Saône - Marais - Fontain - Le Croc","from":"Saône - Marais","to":"Fontain - Le Croc","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":15,"s":[[12612739237,10],[12612739243,11],[7775649679,12],[12612739238,14]]}
+]
+}

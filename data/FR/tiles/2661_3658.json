@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2661,3658],
+"stops":[
+  {"id":1554427218,"lat":43.050109,"lon":2.923723,"k":"x","n":"Tamaroque"},
+  {"id":4498110053,"lat":43.061796,"lon":2.920162,"k":"x","n":"La Pascuale"},
+  {"id":4498110058,"lat":43.061847,"lon":2.920122,"k":"p","n":"La Pascuale"},
+  {"id":4498110074,"lat":43.057661,"lon":2.922084,"k":"x","n":"Coopérative"},
+  {"id":4498110075,"lat":43.057621,"lon":2.922043,"k":"p","n":"Coopérative"},
+  {"id":4498110081,"lat":43.054052,"lon":2.922323,"k":"x","n":"Aire"},
+  {"id":4498110082,"lat":43.053953,"lon":2.922398,"k":"p","n":"Aire"},
+  {"id":4498110993,"lat":43.050233,"lon":2.923613,"k":"p","n":"Tamaroque"},
+  {"id":7729247279,"lat":43.05428,"lon":2.92233,"k":"p","n":"Aire"},
+  {"id":7729247281,"lat":43.054275,"lon":2.922365,"k":"x","n":"Aire"},
+  {"id":7729247282,"lat":43.057967,"lon":2.921976,"k":"p","n":"Coopérative"},
+  {"id":7729247283,"lat":43.057922,"lon":2.921946,"k":"x","n":"Coopérative"},
+  {"id":7797385063,"lat":43.08987,"lon":2.94607,"k":"p","n":"ZI Peyriac"},
+  {"id":10878389023,"lat":43.089841,"lon":2.945981,"k":"x","n":"ZI Peyriac"},
+  {"id":10936214155,"lat":43.067368,"lon":2.939696,"k":"p","n":"Cathares"},
+  {"id":6021930478798,"lat":43.056808,"lon":2.922538,"k":"p","n":"Coopérative","g":1},
+  {"id":6024910948957,"lat":43.057022,"lon":2.9224,"k":"p","n":"Coopérative","g":1}
+],
+"routes":[
+  {"id":3003405444749,"t":{"ref":"BC141","name":"BC141: Coopérative - Louise Michel","from":"Coopérative","to":"Louise Michel","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":14,"s":[[6021930478798,1],[4498110058,2],[10878389023,3]]},
+  {"id":3008691499665,"t":{"ref":"BC141","name":"BC141: Louise Michel - Tamaroque","from":"Louise Michel","to":"Tamaroque","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":16,"s":[[10878389023,12],[4498110058,13],[6024910948957,14],[4498110081,15],[1554427218,16]]},
+  {"id":3010743138858,"t":{"ref":"14","name":"Bus 14 : Narbonne - Montesquieu → Port-la-Nouvelle - Gare SNCF","from":"Montesquieu","to":"Gare SNCF","network":"Citibus","operator":"Keolis Narbonne","colour":"#642781","route":"bus","public_transport:version":"2"},"n":39,"s":[[10878389023,13],[4498110058,14],[6024910948957,15],[4498110081,16],[1554427218,17]]},
+  {"id":3011822757777,"t":{"ref":"BC201","name":"BC201: SIGEAN Hameau du Lac - Collège des Corbières","from":"SIGEAN Hameau du Lac","to":"Collège des Corbières","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":3,"s":[[10936214155,2]]},
+  {"id":3028321768627,"t":{"ref":"BC210","name":"BC210: La Pascuale - Collège des Corbières","from":"La Pascuale","to":"Collège des Corbières","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":5,"s":[[4498110058,1],[6024910948957,2],[4498110081,3],[1554427218,4]]},
+  {"id":3033461904201,"t":{"ref":"BC201","name":"BC201: Collège des Corbières - SIGEAN Cathares","from":"Collège des Corbières","to":"SIGEAN Cathares","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":3,"s":[[10936214155,3]]},
+  {"id":3049595823038,"t":{"ref":"BC210","name":"BC210: Collège des Corbières - La Pascuale","from":"Collège des Corbières","to":"La Pascuale","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":5,"s":[[4498110082,3],[6021930478798,4],[4498110058,5]]},
+  {"id":3059781406283,"t":{"ref":"14","name":"Bus 14 : Narbonne - Montesquieu → Port-la-Nouvelle - Gare SNCF","from":"Montesquieu","to":"Gare SNCF","network":"Citibus","operator":"Keolis Narbonne","colour":"#642781","route":"bus","public_transport:version":"2"},"n":38,"s":[[10878389023,12],[4498110058,13],[6024910948957,14],[4498110081,15],[1554427218,16]]},
+  {"id":3071834115801,"t":{"ref":"BC141","name":"BC141: Tamaroque - Louise Michel","from":"Tamaroque","to":"Louise Michel","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":15,"s":[[4498110082,2],[6021930478798,3],[4498110058,4]]},
+  {"id":3075308804816,"t":{"ref":"14","name":"Bus 14 : Port-la-Nouvelle - Gare SNCF - Tamaroque → Narbonne - Montesquieu","from":"Gare SNCF","to":"Montesquieu","network":"Citibus","operator":"Keolis Narbonne","colour":"#642781","route":"bus","public_transport:version":"2"},"n":39,"s":[[4498110082,25],[6021930478798,26],[4498110058,27]]},
+  {"id":3086964944134,"t":{"ref":"BC141","name":"BC141: Tamaroque - Louise Michel","from":"Tamaroque","to":"Louise Michel","operator":"Citibus","route":"bus","public_transport:version":"2"},"n":18,"s":[[4498110082,2],[6021930478798,3],[4498110058,4],[10878389023,5]]},
+  {"id":3088290672528,"t":{"ref":"14","name":"Bus 14 : Port-la-Nouvelle - Gare SNCF - Tamaroque → Narbonne - Montesquieu","from":"Gare SNCF","to":"Montesquieu","network":"Citibus","operator":"Keolis Narbonne","colour":"#642781","route":"bus","public_transport:version":"2"},"n":38,"s":[[4498110082,25],[6021930478798,26],[4498110058,27]]}
+]
+}

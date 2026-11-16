@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2723,3694],
+"stops":[
+  {"id":2742134212,"lat":46.175905,"lon":4.741691,"k":"p","n":"La Gare"},
+  {"id":2742134216,"lat":46.175695,"lon":4.747604,"k":"p","n":"Les Bulands"},
+  {"id":2742134225,"lat":46.182386,"lon":4.748982,"k":"p","n":"Cardinal","ref":"Linge P4"},
+  {"id":2742547444,"lat":46.192182,"lon":4.739782,"k":"p","n":"La Rivière"},
+  {"id":2742547451,"lat":46.198266,"lon":4.739581,"k":"p","n":"Les Fargets"},
+  {"id":2742547472,"lat":46.188398,"lon":4.739335,"k":"p","n":"Les Ecoles"},
+  {"id":2742547476,"lat":46.183383,"lon":4.746054,"k":"p","n":"Pont Belouze"},
+  {"id":3399306111,"lat":46.192354,"lon":4.703854,"k":"p","n":"Fleurie - La Serve des Places"},
+  {"id":6424251164,"lat":46.194001,"lon":4.739295,"k":"p","n":"Les Guillatières"},
+  {"id":6424251323,"lat":46.189933,"lon":4.736611,"k":"p","n":"Place des Mines"},
+  {"id":10289135553,"lat":46.18215,"lon":4.748808,"k":"p","n":"Maison Blanche"},
+  {"id":10289135554,"lat":46.181778,"lon":4.749047,"k":"p","n":"Maison Blanche"},
+  {"id":10298299053,"lat":46.181424,"lon":4.749181,"k":"p","n":"Maison Blanche"},
+  {"id":12853026657,"lat":46.170426,"lon":4.713275,"k":"x","n":"Lancié Bourg"},
+  {"id":13072293957,"lat":46.170497,"lon":4.713286,"k":"p","n":"Lancié Bourg"},
+  {"id":13361033140,"lat":46.170402,"lon":4.713282,"k":"p","n":"Lancié Bourg"},
+  {"id":13361033141,"lat":46.173489,"lon":4.714884,"k":"p","n":"Lancié - Les Pasquiers"},
+  {"id":13361033142,"lat":46.173361,"lon":4.714995,"k":"p","n":"Lancié - Les Pasquiers"},
+  {"id":13361033143,"lat":46.173427,"lon":4.714942,"k":"x","n":"Lancié - Les Pasquiers"},
+  {"id":13361033144,"lat":46.176112,"lon":4.741735,"k":"p","n":"Romanèche-Thorins Gare"},
+  {"id":13361033145,"lat":46.176124,"lon":4.741662,"k":"x","n":"Romanèche-Thorins Gare"},
+  {"id":14292321104,"lat":46.181772,"lon":4.749192,"k":"x","n":"Maison Blanche"},
+  {"id":14292321105,"lat":46.181457,"lon":4.749096,"k":"x","n":"Maison Blanche"},
+  {"id":6034832321219,"lat":46.187997,"lon":4.739532,"k":"p","n":"Romanèche Thorins les Ecoles","g":1}
+],
+"routes":[
+  {"id":19933016,"t":{"ref":"238","name":"238 : Belleville ⇒ Fleurie","from":"Belleville Gare","to":"Fleurie Bourg","network":"TCL","operator":"Keolis Lyon","colour":"#F191A3","route":"bus"},"n":9,"s":[[13361033140,6],[13361033141,7],[13361033144,8]]},
+  {"id":19933017,"t":{"ref":"238","name":"238 : Fleurie ⇒ Belleville","from":"Fleurie Bourg","to":"Belleville Gare","network":"TCL","operator":"Keolis Lyon","colour":"#F191A3","route":"bus"},"n":9,"s":[[13361033144,2],[13361033141,3],[13072293957,4]]},
+  {"id":21699767,"t":{"ref":"X25","name":"X25 : Mâcon-Loché TGV -> Villefranche-sur-Saône","from":"Mâcon-Loché TGV","to":"Villefranche-sur-Saône - Gare Routière","network":"Cars Région Express","route":"bus"},"n":10,"s":[[10289135554,4]]},
+  {"id":3012630374383,"t":{"ref":"X25","name":"X25 : Villefranche-sur-Saône -> Mâcon-Loché TGV","from":"Villefranche-sur-Saône - Gare Routière","to":"Mâcon-Loché TGV","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":9,"s":[[13361033144,4]]},
+  {"id":3017719449940,"t":{"ref":"X25","name":"X25 : Villefranche-sur-Saône -> Mâcon-Loché TGV","from":"Villefranche-sur-Saône - Gare Routière","to":"Mâcon-Loché TGV","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":9,"s":[[13361033144,6]]},
+  {"id":3043369138446,"t":{"ref":"P4","name":"P4","from":"ROMANÈCHE-THORINS Place des Mines","to":"MÂCON Gare SNCF","network":"TréMA","operator":"Mâconnais-Beaujolais Mobilités","colour":"#80bf6f","route":"bus","public_transport:version":"2"},"n":15,"s":[[6424251323,1],[6034832321219,2],[2742134225,3]]},
+  {"id":3053652508378,"t":{"ref":"X25","name":"X25 : Villefranche-sur-Saône -> Mâcon-Loché TGV","from":"Villefranche-sur-Saône - Gare Routière","to":"Mâcon-Loché TGV","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":9,"s":[[13361033144,4]]},
+  {"id":3082415441873,"t":{"ref":"P4","name":"P4","from":"ROMANÈCHE-THORINS Place des Mines","to":"MÂCON Gare SNCF","network":"TréMA","operator":"Mâconnais-Beaujolais Mobilités","colour":"#80bf6f","route":"bus","public_transport:version":"2"},"n":15,"s":[[2742134225,13],[6034832321219,14],[6424251323,15]]},
+  {"id":3090313165067,"t":{"ref":"X25","name":"X25 : Villefranche-sur-Saône -> Mâcon-Loché TGV","from":"Villefranche-sur-Saône - Gare Routière","to":"Mâcon-Loché TGV","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":9,"s":[[13361033144,6]]}
+]
+}

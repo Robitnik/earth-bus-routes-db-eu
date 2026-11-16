@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2739,3614],
+"stops":[
+  {"id":2857621733,"lat":46.975168,"lon":0.700407,"k":"x","n":"Pierre-Ballue"},
+  {"id":8730305362,"lat":46.979636,"lon":0.703528,"k":"x","n":"Kennedy 2"},
+  {"id":10307437990,"lat":46.976601,"lon":0.706195,"k":"x","n":"École de la Côte des Granges"},
+  {"id":12980878874,"lat":46.971254,"lon":0.701854,"k":"p","n":"Saint-Lazare"},
+  {"id":12982106706,"lat":46.976551,"lon":0.706241,"k":"x","n":"École de la Côte des Granges"},
+  {"id":12982106711,"lat":46.971219,"lon":0.701777,"k":"x","n":"Saint-Lazare"},
+  {"id":12982106722,"lat":46.979657,"lon":0.703484,"k":"p","n":"Kennedy 2"},
+  {"id":12982106723,"lat":46.976629,"lon":0.706266,"k":"p","n":"École de la Côte des Granges"},
+  {"id":12982106725,"lat":46.976543,"lon":0.70616,"k":"p","n":"École de la Côte des Granges"},
+  {"id":12982106726,"lat":46.97531,"lon":0.702729,"k":"x","n":"La Commanderie"},
+  {"id":12982106727,"lat":46.97533,"lon":0.702769,"k":"p","n":"La Commanderie"},
+  {"id":5000401053093,"lat":46.975206,"lon":0.700456,"k":"p","n":"Pierre-Ballue"}
+],
+"routes":[
+  {"id":6018835,"t":{"ref":"H1","name":"H1 : Tournon -> Sainte-Maure","from":"Tournon-Saint-Pierre − Mairie","to":"Sainte-Maure-de-Touraine − Carrefour des 4 routes","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000401053093,6]]},
+  {"id":6059504,"t":{"ref":"TC","name":"TC : Descartes -> Genillé via Mouzay","from":"Descartes - Pierre-Ballue","to":"Genillé - Centre","network":"Rémi","colour":"#ff793a","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000401053093,1]]},
+  {"id":6059505,"t":{"ref":"TC","name":"TC : Descartes -> Genillé","from":"Descartes - Pierre-Ballue","to":"Genillé - Centre","network":"Rémi","colour":"#ff793a","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000401053093,1]]},
+  {"id":19326430,"t":{"ref":"1","name":"Bus 1 : Maison Médicale → Avenue Pierre Mendès France","from":"Maison Médicale","to":"Avenue Pierre Mendès France","network":"Phil'O'Bus","colour":"#ff7f00","route":"bus","public_transport:version":"2"},"n":14,"s":[[12982106722,3],[12982106725,4],[12980878874,5]]},
+  {"id":19326431,"t":{"ref":"1","name":"Bus 1 : Avenue Pierre Mendès France → Maison Médicale","from":"Avenue Pierre Mendès France","to":"Maison Médicale","network":"Phil'O'Bus","colour":"#ff7f00","route":"bus","public_transport:version":"2"},"n":14,"s":[[12980878874,9],[12982106727,10],[12982106723,11],[12982106722,12]]},
+  {"id":3023015489251,"t":{"ref":"H","name":"H: Halte Routière - Pierre Ballue","from":"Halte Routière","to":"Pierre Ballue","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":31,"s":[[2857621733,31]]},
+  {"id":3026233915575,"t":{"ref":"H","name":"H: Pierre Ballue - Halte Routière","from":"Pierre Ballue","to":"Halte Routière","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":32,"s":[[2857621733,1]]},
+  {"id":3068829148293,"t":{"ref":"H","name":"H: Halte Routière - Pierre Ballue","from":"Halte Routière","to":"Pierre Ballue","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":31,"s":[[2857621733,31]]},
+  {"id":3080821665486,"t":{"ref":"H","name":"H: Pierre Ballue - Halte Routière","from":"Pierre Ballue","to":"Halte Routière","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":32,"s":[[2857621733,1]]}
+]
+}

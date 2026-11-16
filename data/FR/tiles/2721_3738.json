@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2721,3738],
+"stops":[
+  {"id":455613178,"lat":46.067959,"lon":6.936449,"k":"x","n":"Lac d'Émosson"},
+  {"id":960732286,"lat":46.066862,"lon":6.91324,"k":"x","n":"Collecteur Ouest"}
+],
+"routes":[
+  {"id":5475183,"t":{"ref":"Navette","name":"Navette : Emosson => Vieux","from":"Col de la Gueulaz (Emosson)","to":"Collecteur Ouest (Route du Vieux-Emosson)","network":"Emosson","operator":"TMR","route":"bus","public_transport:version":"2"},"n":2,"s":[[455613178,1],[960732286,2]]},
+  {"id":5475185,"t":{"ref":"Navette","name":"Navette : Vieux => Emosson","from":"Collecteur Ouest (Route du Vieux-Emosson)","to":"Col de la Gueulaz (Emosson)","network":"Emosson","operator":"TMR","route":"bus","public_transport:version":"2"},"n":2,"s":[[960732286,1],[455613178,2]]},
+  {"id":5477305,"t":{"ref":"230","name":"Bus 230: Lac d'Emosson => Finhaut, gare","from":"Lac d'Emosson","to":"Finhaut, gare","network":"CH-VS","operator":"TMR","route":"bus","public_transport:version":"2"},"n":6,"s":[[455613178,1]]},
+  {"id":5477306,"t":{"ref":"230","name":"Bus 230: Finhaut, gare => Lac d'Emosson","from":"Finhaut, gare","to":"Lac d'Emosson","network":"CH-VS","operator":"TMR","route":"bus","public_transport:version":"2"},"n":6,"s":[[455613178,6]]}
+]
+}

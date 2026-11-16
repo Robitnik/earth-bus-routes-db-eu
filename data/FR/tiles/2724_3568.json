@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2724,3568],
+"stops":[
+  {"id":869000444,"lat":46.240852,"lon":-1.555707,"k":"p","n":"Saint-Clément-des-Baleines - Phare des Baleines"},
+  {"id":4965509222,"lat":46.240765,"lon":-1.554903,"k":"p","n":"Saint-Clément-des-Baleines - Phare des Baleines"},
+  {"id":8993554727,"lat":46.24159,"lon":-1.556512,"k":"p","n":"Saint-Clément-des-Baleines - Parking"},
+  {"id":8993554728,"lat":46.24307,"lon":-1.558688,"k":"p","n":"Saint-Clément-des-Baleines - Parking"},
+  {"id":13751715108,"lat":46.238422,"lon":-1.553629,"k":"p","n":"Saint-Clément-des-Baleines - Le Gillieux"},
+  {"id":13751715109,"lat":46.238451,"lon":-1.553567,"k":"p","n":"Saint-Clément-des-Baleines - Le Gillieux"}
+],
+"routes":[
+  {"id":7940794,"t":{"ref":"151","name":"Ligne 151 (été): Les Portes-en-Ré - Saint-Martin-de-Ré - La Rochelle","network":"Cars Régionaux 17 - Charente-Maritime","operator":"Keolis","route":"bus","public_transport:version":"1"},"n":48,"s":[[869000444,28],[4965509222,29]]},
+  {"id":13072075,"t":{"ref":"Navettes du phare des Baleines","name":"Navette du phare des Baleines : Parking → Phare","from":"Saint-Clément-des-Baleines - Parking","to":"Saint-Clément-des-Baleines - Phare","network":"RespiRé","colour":"#A5C816","route":"bus"},"n":2,"s":[[8993554727,1],[8993554728,2]]},
+  {"id":13072076,"t":{"ref":"Navettes du phare des Baleines","name":"Navette du phare des Baleines : Phare → Parking","from":"Saint-Clément-des-Baleines - Phare","to":"Saint-Clément-des-Baleines - Parking","network":"RespiRé","colour":"#A5C816","route":"bus"},"n":2,"s":[[8993554728,1],[8993554727,2]]},
+  {"id":20572779,"t":{"ref":"E","name":"Navette E: Saint-Clément-des-Baleines => Ars-en-Ré","from":"Plage de la Conche","to":"Le Port","network":"RespiRé","colour":"#e171f5","route":"bus","public_transport:version":"1"},"n":3,"s":[[869000444,1]]},
+  {"id":20572780,"t":{"ref":"E","name":"Navette E: Ars-en-Ré => Saint-Clément-des-Baleines","from":"Le Port","to":"Plage de la Conche","network":"RespiRé","colour":"#e171f5","route":"bus","public_transport:version":"1"},"n":7,"s":[[13751715109,4],[869000444,5]]},
+  {"id":20572782,"t":{"ref":"F","name":"Navette F: Les Portes-en-Ré => Saint-Clément-des-Baleines","from":"Plage de Trousse-Chemise","to":"Phare des Baleines","network":"RespiRé","colour":"#5267ba","route":"bus","public_transport:version":"1"},"n":3,"s":[[869000444,3]]},
+  {"id":3009940140163,"t":{"ref":"150","name":"Ligne 150 : Les Portes-en-Ré - Saint-Martin-de-Ré - La Rochelle","network":"Cars Régionaux 17 - Charente-Maritime","operator":"Keolis","route":"bus","public_transport:version":"2"},"n":35,"s":[[4965509222,31]]},
+  {"id":3047576119145,"t":{"ref":"150","name":"Ligne 150 : Les Portes-en-Ré - Saint-Martin-de-Ré - La Rochelle","network":"Cars Régionaux 17 - Charente-Maritime","operator":"Keolis","route":"bus","public_transport:version":"2"},"n":35,"s":[[4965509222,31]]}
+]
+}

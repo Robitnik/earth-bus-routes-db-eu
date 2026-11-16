@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2692,3733],
+"stops":[
+  {"id":223870268,"lat":44.643503,"lon":6.660381,"k":"x","n":"Guillestre - Peyre Haute"},
+  {"id":223954914,"lat":44.602241,"lon":6.694231,"k":"x","n":"Vars - Sainte-Catherine École"},
+  {"id":454117916,"lat":44.60783,"lon":6.68839,"k":"x","n":"Vars - Saint-Marcellin"},
+  {"id":703739947,"lat":44.601974,"lon":6.693131,"k":"x","n":"Vars - Sainte-Catherine"},
+  {"id":3964210960,"lat":44.611334,"lon":6.687467,"k":"p","n":"Vars - Châlet Val d'Escreins"},
+  {"id":5327394669,"lat":44.611208,"lon":6.687654,"k":"p","n":"Vars - Châlet Val d'Escreins"},
+  {"id":8461599252,"lat":44.611247,"lon":6.687568,"k":"x","n":"Vars - Châlet Val d'Escreins"},
+  {"id":10761495650,"lat":44.607787,"lon":6.688483,"k":"p","n":"Vars - Saint-Marcellin"},
+  {"id":10761495651,"lat":44.607864,"lon":6.688333,"k":"p","n":"Vars - Saint-Marcellin"},
+  {"id":10892870147,"lat":44.602147,"lon":6.694287,"k":"p","n":"Vars - Sainte-Catherine École"},
+  {"id":10902724442,"lat":44.64338,"lon":6.660445,"k":"p","n":"Guillestre - Peyre Haute"},
+  {"id":10902724459,"lat":44.643635,"lon":6.6604,"k":"p","n":"Guillestre - Peyre Haute"},
+  {"id":10902724464,"lat":44.602003,"lon":6.693198,"k":"p","n":"Vars - Sainte-Catherine"},
+  {"id":12917349958,"lat":44.607741,"lon":6.688372,"k":"x","n":"Vars - Saint-Marcellin"}
+],
+"routes":[
+  {"id":5575930,"t":{"ref":"571","name":"Bus 571 (hiver) : Vars => Mont-Dauphin","from":"Vars - Le Fournet","to":"Mont-Dauphin - Gare SNCF","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":8,"s":[[10761495650,5],[5327394669,6]]},
+  {"id":7889312,"t":{"ref":"571","name":"Bus 571 (hiver) : Mont-Dauphin => Vars","from":"Mont-Dauphin - Gare SNCF","to":"Vars - Le Fournet","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":8,"s":[[3964210960,3],[10761495651,4]]},
+  {"id":15850048,"t":{"ref":"5707","name":"Bus 5707 : Vars - Sainte-Catherine École => Vars - Saint-Marcellin","from":"Vars - Sainte-Catherine École","to":"Vars - Saint-Marcellin","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10892870147,1],[10761495650,7]]},
+  {"id":15850049,"t":{"ref":"5707","name":"Bus 5707 : Vars - Saint-Marcellin => Vars - Sainte-Catherine École","from":"Vars - Saint-Marcellin","to":"Vars - Sainte-Catherine École","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10761495651,1],[10892870147,7]]},
+  {"id":15863467,"t":{"ref":"5717","name":"Bus 5717 : Guillestre - Collège Hautes Vallées => Vars - Saint-Marcellin","from":"Guillestre - Collège Hautes Vallées","to":"Vars - Saint-Marcellin","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10902724464,2],[10761495650,7]]},
+  {"id":15863468,"t":{"ref":"5717","name":"Bus 5717 : Vars - Saint-Marcellin => Guillestre - Collège Hautes Vallées","from":"Vars - Saint-Marcellin","to":"Guillestre - Collège Hautes Vallées","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10761495651,1],[10902724464,6]]},
+  {"id":17693106,"t":{"ref":"571","name":"Bus 571 (été) : Vars => Mont-Dauphin","from":"Vars - Le Fournet","to":"Mont-Dauphin - Gare SNCF","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":9,"s":[[10761495650,5],[5327394669,6]]},
+  {"id":17693107,"t":{"ref":"571","name":"Bus 571 (été) : Mont-Dauphin => Vars","from":"Mont-Dauphin - Gare SNCF","to":"Vars - Le Fournet","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":9,"s":[[3964210960,4],[10761495651,5]]},
+  {"id":21602905,"t":{"ref":"VE","name":"Navette de Vars : Val d'Escreins => Vars - Saint-Marcellin","from":"Val d'Escreins","to":"Vars - Saint-Marcellin","network":"Navettes Queyras","colour":"#AD7FA9","route":"bus","public_transport:version":"2"},"n":3,"s":[[3964210960,2],[10761495651,3]]},
+  {"id":21602906,"t":{"ref":"VE","name":"Navette de Vars : Vars - Saint-Marcellin => Val d'Escreins","from":"Vars - Saint-Marcellin","to":"Val d'Escreins","network":"Navettes Queyras","colour":"#AD7FA9","route":"bus","public_transport:version":"2"},"n":3,"s":[[10761495650,1],[5327394669,2]]}
+]
+}

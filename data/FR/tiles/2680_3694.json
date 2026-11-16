@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2680,3694],
+"stops":[
+  {"id":1998501374,"lat":44.007489,"lon":4.741512,"k":"x","n":"Beauchamps"},
+  {"id":2010229591,"lat":44.02396,"lon":4.747008,"k":"x","n":"Le Porge"},
+  {"id":5257373981,"lat":44.011128,"lon":4.701562,"k":"p","n":"Centre","ref":"123"},
+  {"id":5257373982,"lat":44.011196,"lon":4.701595,"k":"p","n":"Centre","ref":"123"},
+  {"id":5257373983,"lat":44.010633,"lon":4.707995,"k":"p","n":"Tavel - Cave Coopérative"},
+  {"id":5257373984,"lat":44.01056,"lon":4.707893,"k":"p","n":"Tavel - Cave Coopérative"},
+  {"id":5257373985,"lat":44.016328,"lon":4.732216,"k":"p","n":"Domaine Acquéria"},
+  {"id":7572038939,"lat":44.007456,"lon":4.741417,"k":"p","n":"Beauchamps"},
+  {"id":10709290467,"lat":44.010595,"lon":4.708038,"k":"x","n":"Tavel - Cave Coopérative"},
+  {"id":11738504174,"lat":44.007514,"lon":4.741544,"k":"p","n":"Beauchamps"},
+  {"id":11881104896,"lat":44.023987,"lon":4.746923,"k":"p","n":"Le Porge"},
+  {"id":11881104917,"lat":44.037492,"lon":4.735632,"k":"p","n":"Le Coquillon"},
+  {"id":11881104918,"lat":44.037462,"lon":4.735554,"k":"x","n":"Le Coquillon"},
+  {"id":11881104939,"lat":44.039823,"lon":4.741432,"k":"p","n":"Boucarut"},
+  {"id":11881104940,"lat":44.039836,"lon":4.741362,"k":"x","n":"Boucarut"},
+  {"id":11881104960,"lat":44.041334,"lon":4.748826,"k":"p","n":"Cavallière"},
+  {"id":11881104961,"lat":44.041375,"lon":4.748777,"k":"x","n":"Cavallière"},
+  {"id":11881104968,"lat":44.038945,"lon":4.749096,"k":"p","n":"La Barotte"},
+  {"id":11881166069,"lat":44.038976,"lon":4.749153,"k":"x","n":"La Barotte"},
+  {"id":11881166082,"lat":44.032894,"lon":4.746849,"k":"p","n":"La Gallinière"},
+  {"id":11881166126,"lat":44.032938,"lon":4.746857,"k":"x","n":"La Gallinière"}
+],
+"routes":[
+  {"id":11138095,"t":{"ref":"25","name":"Bus 25 : Pujaut => Avignon Poste","from":"Pujaut","to":"Avignon Poste","network":"Orizo","operator":"Técélys","colour":"#2f86cb","route":"bus","public_transport:version":"2"},"n":19,"s":[[11738504174,1]]},
+  {"id":11138097,"t":{"ref":"25","name":"Bus 25 : Avignon Poste => Pujaut","from":"Avignon Poste","to":"Pujaut","network":"Orizo","operator":"Técélys","colour":"#2f86cb","route":"bus","public_transport:version":"2"},"n":19,"s":[[7572038939,19]]},
+  {"id":17531949,"t":{"ref":"PJ1","name":"Bus PJ1 : Institut Sancta Maria => Beauchamps","from":"Institut Sancta Maria","to":"Beauchamps","network":"Orizo","operator":"Técélys","colour":"#1d1d1b","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[7572038939,9]]},
+  {"id":17531952,"t":{"ref":"PJ1","name":"Bus PJ1 : Beauchamps => Institut Sancta Maria","from":"Beauchamps","to":"Institut Sancta Maria","network":"Orizo","operator":"Técélys","colour":"#1d1d1b","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[11738504174,1]]},
+  {"id":17531953,"t":{"ref":"PJ1","name":"Bus PJ1 : Beauchamps => Collège Mourion","from":"Beauchamps","to":"Collège Mourion","network":"Orizo","operator":"Técélys","colour":"#1d1d1b","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[11738504174,1]]},
+  {"id":17561314,"t":{"ref":"RO2","name":"Bus RO2 : Le Coquillon => Collège Paul Valéry","from":"Le Coquillon","to":"Collège Paul Valéry","network":"Orizo","operator":"Técélys","colour":"#f39200","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[11881104917,1],[11881104939,2],[11881104960,3],[11881104968,4],[11881166082,5]]},
+  {"id":17561824,"t":{"ref":"RO2","name":"Bus RO2 : Collège Paul Valéry => Roquemaure => La Gallinière","from":"Collège Paul Valéry","to":"La Gallinière","network":"Orizo","operator":"Técélys","colour":"#f39200","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[11881104917,7],[11881104939,8],[11881104960,9],[11881104968,10],[11881166082,11]]},
+  {"id":18296841,"t":{"ref":"RO2","name":"Bus RO2 : Collège Paul Valéry => La Gallinière","from":"Collège Paul Valéry","to":"La Gallinière","network":"Orizo","operator":"Técélys","colour":"#f39200","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[11881104917,5],[11881104939,6],[11881104960,7],[11881104968,8],[11881166082,9]]},
+  {"id":18515541,"t":{"ref":"RO2","name":"Bus RO2 : Le Coquillon => Roquemaure => Collège Paul Valéry","from":"Le Coquillon","to":"Collège Paul Valéry","network":"Orizo","operator":"Técélys","colour":"#f39200","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[11881104917,1],[11881104939,2],[11881104960,3],[11881104968,4],[11881166082,5]]},
+  {"id":3069275584984,"t":{"ref":"123","name":"Ligne 123 : Bagnols-sur-Cèze → Avignon","from":"Bagnols-Sur-Cèze - Gymnase","to":"Avignon - Gare Routière","network":"liO","operator":"liO","colour":"#7b475f","route":"bus","public_transport:version":"2"},"n":29,"s":[[5257373984,20]]},
+  {"id":3091407033791,"t":{"ref":"123","name":"Ligne 123 : Avignon → Bagnols-sur-Cèze","from":"Avignon - Gare Routière","to":"Bagnols-Sur-Cèze - Vigan Braquet","network":"liO","operator":"liO","colour":"#7b475f","route":"bus","public_transport:version":"2"},"n":30,"s":[[5257373984,11],[5257373981,12]]},
+  {"id":3096637807844,"t":{"ref":"123","name":"Ligne 123 : Bagnols-sur-Cèze → Avignon","from":"Bagnols-Sur-Cèze - Gymnase","to":"Avignon - Gare Routière","network":"liO","operator":"liO","colour":"#7b475f","route":"bus","public_transport:version":"2"},"n":28,"s":[[5257373984,19]]}
+]
+}

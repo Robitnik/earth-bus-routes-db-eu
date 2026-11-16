@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2703,3690],
+"stops":[
+  {"id":469932165,"lat":45.175746,"lon":4.50333,"k":"x","n":"Saint-Julien-Vocance"},
+  {"id":11930650817,"lat":45.175754,"lon":4.503231,"k":"p","n":"Saint-Julien-Vocance"},
+  {"id":11930650818,"lat":45.175697,"lon":4.503403,"k":"p","n":"Saint-Julien-Vocance"},
+  {"id":11932707894,"lat":45.193167,"lon":4.539001,"k":"x","n":"Le Monestier"},
+  {"id":11932707895,"lat":45.193138,"lon":4.538989,"k":"p","n":"Le Monestier"},
+  {"id":13198246975,"lat":45.193166,"lon":4.539244,"k":"p","n":"Route de Boiray"},
+  {"id":13198246976,"lat":45.187672,"lon":4.525902,"k":"p","n":"Charpentier"},
+  {"id":6047880233546,"lat":45.198601,"lon":4.531752,"k":"p","n":"MONESTIER - Mairie","g":1}
+],
+"routes":[
+  {"id":17632549,"t":{"ref":"TAD1","name":"Ligne TAD1 : Saint-Julien-Vocance → Annonay","from":"Saint-Julien-Vocance","to":"Gare Routière Annonay","network":"CoqueliGO","operator":"Régie des Transports CoqueliGO","colour":"#831d82","route":"bus","public_transport:version":"2"},"n":7,"s":[[11930650818,1]]},
+  {"id":17632550,"t":{"ref":"TAD1","name":"Ligne TAD1 : Annonay → Saint-Julien-Vocance","from":"Gare Routière Annonay","to":"Saint-Julien-Vocance","network":"CoqueliGO","operator":"Régie des Transports CoqueliGO","colour":"#831d82","route":"bus","public_transport:version":"2"},"n":7,"s":[[11930650817,7]]},
+  {"id":17635580,"t":{"ref":"TAD2","name":"Ligne TAD2 : Annonay → Le Monestier","from":"Gare Routière Annonay","to":"Le Monestier","network":"CoqueliGO","operator":"Régie des Transports CoqueliGO","colour":"#77c7c8","route":"bus","public_transport:version":"2"},"n":7,"s":[[11932707895,7]]},
+  {"id":17635581,"t":{"ref":"TAD2","name":"Ligne TAD2 : Le Monestier → Annonay","from":"Le Monestier","to":"Gare Routière Annonay","network":"CoqueliGO","operator":"Régie des Transports CoqueliGO","colour":"#77c7c8","route":"bus","public_transport:version":"2"},"n":7,"s":[[11932707895,1]]},
+  {"id":3005730651354,"t":{"ref":"TAD 1","name":"TAD 1: ANNONAY - Gare routière - SAINT-JULIEN-VOCANCE - Mairie","from":"ANNONAY - Gare routière","to":"SAINT-JULIEN-VOCANCE - Mairie","operator":"CoqueliGO","route":"bus","public_transport:version":"2"},"n":10,"s":[[6047880233546,9],[469932165,10]]},
+  {"id":3031001209734,"t":{"ref":"TAD 1","name":"TAD 1: SAINT-JULIEN-VOCANCE - Mairie - ANNONAY - Gare routière","from":"SAINT-JULIEN-VOCANCE - Mairie","to":"ANNONAY - Gare routière","operator":"CoqueliGO","route":"bus","public_transport:version":"2"},"n":10,"s":[[469932165,1],[6047880233546,2]]}
+]
+}

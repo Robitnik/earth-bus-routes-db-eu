@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2678,3719],
+"stops":[
+  {"id":3786300174,"lat":43.933884,"lon":5.967385,"k":"x","n":"Le Castellet - Les Itardes"},
+  {"id":3786300175,"lat":43.933746,"lon":5.9672,"k":"x","n":"Le Castellet - Les Itardes"},
+  {"id":3786313441,"lat":43.93811,"lon":5.980042,"k":"x","n":"Le Castellet - Place du Barri"},
+  {"id":5660464993,"lat":43.933899,"lon":5.967354,"k":"p","n":"Le Castellet - Les Itardes"},
+  {"id":5660464994,"lat":43.933716,"lon":5.967232,"k":"p","n":"Le Castellet - Les Itardes"},
+  {"id":5660464995,"lat":43.938107,"lon":5.980018,"k":"p","n":"Le Castellet - Place du Barri"},
+  {"id":7092873309,"lat":43.938862,"lon":5.982403,"k":"p","n":"Le Castellet - Carrière"},
+  {"id":9017876156,"lat":43.938789,"lon":5.982409,"k":"p","n":"Le Castellet - Carrière"},
+  {"id":9017876157,"lat":43.938834,"lon":5.98239,"k":"x","n":"Le Castellet - Carrière"}
+],
+"routes":[
+  {"id":6780261,"t":{"ref":"125","name":"Bus 125 : Brunet => Oraison","from":"Brunet - Le Couvent","to":"Oraison - Le Kiosque","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"yellowgreen","route":"bus","public_transport:version":"2"},"n":6,"s":[[5660464995,4],[5660464993,5]]},
+  {"id":6780262,"t":{"ref":"125","name":"Bus 125 : Oraison => Brunet","from":"Oraison - Le Kiosque","to":"Brunet - Le Couvent","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"yellowgreen","route":"bus","public_transport:version":"2"},"n":6,"s":[[5660464994,2],[5660464995,3]]},
+  {"id":13104900,"t":{"ref":"166 S","name":"Bus 166 S : Entrevennes => Puimichel => Oraison","from":"Entrevennes","to":"Oraison","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[7092873309,5],[5660464993,6]]},
+  {"id":13104901,"t":{"ref":"166 S","name":"Bus 166 S : Oraison => Entrevennes => Puimichel","from":"Oraison","to":"Puimichel","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[5660464994,2],[9017876156,3]]},
+  {"id":13479688,"t":{"ref":"184 RPI","name":"Bus 184 RPI : Puimichel => Le Castellet => Puimichel","from":"Puimichel","to":"Puimichel","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[7092873309,2,4]]},
+  {"id":13479689,"t":{"ref":"184 RPI","name":"Bus 184 RPI : Le Castellet => Puimichel => Le Castellet","from":"Le Castellet","to":"Le Castellet","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[9017876156,1],[7092873309,3,4]]},
+  {"id":13479691,"t":{"ref":"185 RPI","name":"Bus 185 RPI : Entrevennes - Blancs => Le Castellet => Entrevennes","from":"Entrevennes - Blancs","to":"Entrevennes","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[7092873309,2,4]]},
+  {"id":13479692,"t":{"ref":"185 RPI","name":"Bus 185 RPI : Entrevennes => Le Castellet => Entrevennes - Blancs","from":"Entrevennes","to":"Entrevennes - Blancs","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[7092873309,2,4]]}
+]
+}

@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2703,3628],
+"stops":[
+  {"id":1768543196,"lat":45.162557,"lon":1.417191,"k":"x","n":"Saint-Pantaléon-de-Larche - Gumond"},
+  {"id":8955149057,"lat":45.162527,"lon":1.417181,"k":"p","n":"Saint-Pantaléon-de-Larche - Gumond","q":1},
+  {"id":8977358987,"lat":45.195905,"lon":1.446628,"k":"x","n":"Varetz - Pharmacie"},
+  {"id":8977358988,"lat":45.195931,"lon":1.446644,"k":"p","n":"Varetz - Pharmacie"},
+  {"id":8977358989,"lat":45.195844,"lon":1.446513,"k":"p","n":"Varetz - Pharmacie"},
+  {"id":6000737270412,"lat":45.194962,"lon":1.446616,"k":"p","n":"8 MAI 1945","g":1},
+  {"id":6008630446604,"lat":45.191334,"lon":1.447614,"k":"p","n":"VARETZ GARE","g":1},
+  {"id":6011626687009,"lat":45.194962,"lon":1.446616,"k":"p","n":"8 MAI 1945","g":1},
+  {"id":6021544322288,"lat":45.191334,"lon":1.447614,"k":"p","n":"VARETZ GARE","g":1},
+  {"id":6064435657855,"lat":45.194996,"lon":1.446715,"k":"p","n":"8 MAI 1945","g":1},
+  {"id":6078375579510,"lat":45.194996,"lon":1.446715,"k":"p","n":"8 MAI 1945","g":1}
+],
+"routes":[
+  {"id":13026235,"t":{"ref":"TAD","name":"TAD 5 : Mansac → Brive","from":"Mansac - Place du 11 Novembre","to":"Place du 14 Juiillet","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":10,"s":[[8955149057,2]]},
+  {"id":13026286,"t":{"ref":"TAD","name":"TAD 5 : Brive → Mansac","from":"Place du 14 Juiillet","to":"Mansac - Place du 11 Novembre","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":10,"s":[[8955149057,3]]},
+  {"id":13049872,"t":{"ref":"239","name":"Ligne 239 : Salagnac → Objat → Brive-la-Gaillarde","from":"Salagnac - Clarvivre","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":22,"s":[[8977358989,14]]},
+  {"id":13052658,"t":{"ref":"239","name":"Ligne 239 : Lubersac → Objat → Brive-la-Gaillarde","from":"Lubersac - Place du Foirail","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":20,"s":[[8977358989,12]]},
+  {"id":13052961,"t":{"ref":"239","name":"Ligne 239 : Objat → Brive-la-Gaillarde","from":"Objat - Place Jean Lagarde","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":12,"s":[[8977358989,4]]},
+  {"id":13055046,"t":{"ref":"239","name":"Ligne 239 : Brive-la-Gaillarde → Objat → Salagnac","from":"Gare SNCF","to":"Salagnac - Clarvivre","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":17,"s":[[8977358988,4]]},
+  {"id":13055141,"t":{"ref":"239","name":"Ligne 239 : Brive-la-Gaillarde → Objat → Lubersac","from":"Place du 14 Juiillet","to":"Lubersac - Place du Foirail","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":15,"s":[[8977358988,4]]},
+  {"id":13055779,"t":{"ref":"239","name":"Ligne 239 : Brive-la-Gaillarde → Objat","from":"Gare SNCF","to":"Objat - Place Jean Lagarde","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":6,"s":[[8977358988,4]]},
+  {"id":3061202914006,"t":{"ref":"8","name":"8: GARE SUD - VARETZ GARE","from":"GARE SUD","to":"VARETZ GARE","operator":"Libeo (Brive)","route":"bus","public_transport:version":"2"},"n":34,"s":[[6078375579510,33],[6021544322288,34]]},
+  {"id":3078078090143,"t":{"ref":"8","name":"8: VARETZ GARE - GARE SUD","from":"VARETZ GARE","to":"GARE SUD","operator":"Libeo (Brive)","route":"bus","public_transport:version":"2"},"n":36,"s":[[6021544322288,1],[6000737270412,2]]},
+  {"id":3088637462942,"t":{"ref":"8","name":"8: VARETZ GARE - GARE SUD","from":"VARETZ GARE","to":"GARE SUD","operator":"Libeo (Brive)","route":"bus","public_transport:version":"2"},"n":36,"s":[[6008630446604,1],[6011626687009,2]]},
+  {"id":3096434644441,"t":{"ref":"8","name":"8: GARE SUD - VARETZ GARE","from":"GARE SUD","to":"VARETZ GARE","operator":"Libeo (Brive)","route":"bus","public_transport:version":"2"},"n":34,"s":[[6064435657855,33],[6008630446604,34]]}
+]
+}

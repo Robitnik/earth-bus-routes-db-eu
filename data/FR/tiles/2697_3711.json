@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2697,3711],
+"stops":[
+  {"id":278245024,"lat":44.870105,"lon":5.596796,"k":"x","n":"Village"},
+  {"id":1037721127,"lat":44.8989,"lon":5.553173,"k":"x","n":"Parking \"B\" Pierre Blanche"},
+  {"id":1037764804,"lat":44.898515,"lon":5.554979,"k":"x","n":"Centaurées"},
+  {"id":1037764893,"lat":44.899975,"lon":5.556199,"k":"x","n":"Les Gentianes"},
+  {"id":2666612501,"lat":44.897884,"lon":5.554353,"k":"x","n":"Gresse - Foyer de Ski de Fond (Abribus)"}
+],
+"routes":[
+  {"id":7916872,"t":{"ref":"Navette liaison","name":"Navette liaison : Gare de Monestier-de-Clermont - Gresse-en-Vercors Station","from":"Monestier-de-Clermont - Gare SNCF","to":"Gresse-en-Vercors - Station","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":5,"s":[[1037764893,3]]},
+  {"id":7916982,"t":{"ref":"Navette liaison","name":"Navette liaison : Gresse-en-Vercors Station - Gare de Monestier-de-Clermont","from":"Gresse-en-Vercors - Station","to":"Monestier-de-Clermont - Gare SNCF","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":6,"s":[[1037764893,2]]},
+  {"id":7917152,"t":{"ref":"Navette station","name":"Navette station : Gresse-en-Vercors Station - Gresse-en-Vercors Église","from":"Gresse-en-Vercors - Station","to":"Gresse-en-Vercors - Église","network":"Navettes Gresse-en-Vercors","colour":"#3DB717","route":"bus","public_transport:version":"2"},"n":6,"s":[[1037764804,2],[1037764893,3],[1037721127,4]]},
+  {"id":7917153,"t":{"ref":"Navette station","name":"Navette station : Gresse-en-Vercors Église - Gresse-en-Vercors Station","from":"Gresse-en-Vercors - Église","to":"Gresse-en-Vercors - Station","network":"Navettes Gresse-en-Vercors","colour":"#3DB717","route":"bus","public_transport:version":"2"},"n":7,"s":[[1037764893,3],[1037721127,5],[1037764804,6]]},
+  {"id":7917236,"t":{"ref":"Navette station samedi","name":"Navette station samedi : Gresse-en-Vercors Station - Gresse-en-Vercors Église","from":"Gresse-en-Vercors - Station","to":"Gresse-en-Vercors - Église","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":6,"s":[[1037764804,2],[1037764893,3]]},
+  {"id":7917237,"t":{"ref":"Navette station samedi","name":"Navette station samedi : Gresse-en-Vercors Église - Gresse-en-Vercors Station","from":"Gresse-en-Vercors - Église","to":"Gresse-en-Vercors - Station","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":6,"s":[[1037764893,3],[1037764804,5]]},
+  {"id":7917276,"t":{"ref":"MON02","name":"MON02 : Monestier-de-Clermont => Gresse-en-Vercors","from":"Monestier-de-Clermont - Collège-Écoles","to":"Gresse-en-Vercors - Les Dolomites","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"2"},"n":7,"s":[[2666612501,7]]},
+  {"id":7917335,"t":{"ref":"MON02","name":"MON02 : Monestier-de-Clermont => Saint-Michel-les-Portes","from":"Monestier-de-Clermont - Collège-Écoles","to":"Saint-Michel-les-Portes - Vicaire et Gerbaud","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"1"},"n":7,"s":[[278245024,5]]},
+  {"id":7917360,"t":{"ref":"MON02","name":"MON02 : Saint-Michel-les-Portes => Monestier-de-Clermont via Savouraire","from":"Saint-Michel-les-Portes - Les Granges","to":"Monestier-de-Clermont - Collège-Écoles","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"1"},"n":6,"s":[[278245024,3]]},
+  {"id":7917361,"t":{"ref":"MON02","name":"MON02 : Saint-Michel-les-Portes => Monestier-de-Clermont via Vicaire et Gerbaud","from":"Saint-Michel-les-Portes - Village","to":"Monestier-de-Clermont - Collège-Écoles","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"1"},"n":3,"s":[[278245024,1]]},
+  {"id":18617436,"t":{"ref":"TAGV","name":"TAGV : Gresse => Grenoble","from":"Gresse-en-Vercors","to":"Grenoble - Gare Routière","network":"Transaltitude","operator":"VFD","colour":"#43c5b5","route":"bus","public_transport:version":"2"},"n":4,"s":[[2666612501,2]]},
+  {"id":18617437,"t":{"ref":"TAGV","name":"TAGV : Grenoble => Gresse","from":"Grenoble - Gare Routière","to":"Gresse-en-Vercors","network":"Transaltitude","operator":"VFD","colour":"#43c5b5","route":"bus","public_transport:version":"2"},"n":4,"s":[[2666612501,3]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2676,3702],
+"stops":[
+  {"id":4568654054,"lat":43.849025,"lon":5.115954,"k":"p","n":"Robion - Cimetière"},
+  {"id":4568654055,"lat":43.84909,"lon":5.115603,"k":"p","n":"Robion - Cimetière"},
+  {"id":4589515758,"lat":43.846927,"lon":5.105372,"k":"p","n":"Robion - Saint-Roch"},
+  {"id":4589527637,"lat":43.847042,"lon":5.105202,"k":"p","n":"Robion - Saint-Roch"},
+  {"id":5760039793,"lat":43.84524,"lon":5.139857,"k":"x","n":"Maubec - Centre"},
+  {"id":5804035029,"lat":43.849076,"lon":5.115897,"k":"x","n":"Robion - Cimetière"},
+  {"id":7398846118,"lat":43.845193,"lon":5.139917,"k":"p","n":"Maubec - Centre"},
+  {"id":7398846119,"lat":43.8453,"lon":5.139733,"k":"p","n":"Maubec - Centre"},
+  {"id":7600854457,"lat":43.849034,"lon":5.11564,"k":"x","n":"Robion - Cimetière"},
+  {"id":7600854470,"lat":43.847023,"lon":5.105521,"k":"x","n":"Robion - Saint-Roch"},
+  {"id":8354230924,"lat":43.84696,"lon":5.105168,"k":"x","n":"Robion - Saint-Roch"},
+  {"id":8366645502,"lat":43.849741,"lon":5.121013,"k":"p","n":"Robion - Survitrage"},
+  {"id":8366645503,"lat":43.849777,"lon":5.120914,"k":"x","n":"Robion - Survitrage"},
+  {"id":8366645504,"lat":43.849866,"lon":5.120562,"k":"p","n":"Robion - Survitrage"},
+  {"id":8366645505,"lat":43.849846,"lon":5.120577,"k":"x","n":"Robion - Survitrage"},
+  {"id":13056497568,"lat":43.84583,"lon":5.12534,"k":"p","n":"Robion - Le Bouteiller"},
+  {"id":13056497730,"lat":43.845799,"lon":5.125414,"k":"x","n":"Robion - Le Bouteiller"}
+],
+"routes":[
+  {"id":7323143,"t":{"ref":"907","name":"Bus 907 : Coustellet => Cavaillon => Agroparc => Z.A. La Cristole => Avignon","from":"Coustellet","to":"Avignon","network":"Zou !","operator":"Voyages Raoux","colour":"#575756","route":"bus","public_transport:version":"2"},"n":34,"s":[[13056497568,3],[4568654055,4],[4589527637,5]]},
+  {"id":7385632,"t":{"ref":"918","name":"Bus 918 : Apt => Bonnieux => Coustellet","from":"Apt","to":"Coustellet","network":"Zou !","operator":"Transdev Vaucluse","colour":"#f39122","route":"bus","public_transport:version":"2"},"n":13,"s":[[7398846119,12]]},
+  {"id":7385633,"t":{"ref":"918","name":"Bus 918 : Coustellet => Bonnieux => Apt","from":"Coustellet","to":"Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#f39122","route":"bus","public_transport:version":"2"},"n":13,"s":[[7398846118,2]]},
+  {"id":15949646,"t":{"ref":"907","name":"Bus 907 : Avignon => Agroparc => Cavaillon => Coustellet","from":"Avignon","to":"Coustellet","network":"Zou !","operator":"Voyages Raoux","colour":"#575756","route":"bus","public_transport:version":"2"},"n":30,"s":[[4589515758,25],[4568654054,26],[13056497568,27]]},
+  {"id":15949647,"t":{"ref":"907","name":"Bus 907 : Avignon => Agroparc => Caumont => Cavaillon => Coustellet","from":"Avignon","to":"Coustellet","network":"Zou !","operator":"Voyages Raoux","colour":"#575756","route":"bus","public_transport:version":"2"},"n":39,"s":[[4589515758,34],[4568654054,35],[13056497568,36]]},
+  {"id":15949748,"t":{"ref":"907","name":"Bus 907 : Coustellet => Cavaillon => Avignon","from":"Coustellet","to":"Avignon","network":"Zou !","operator":"Voyages Raoux","colour":"#575756","route":"bus","public_transport:version":"2"},"n":22,"s":[[13056497568,3],[4568654055,4],[4589527637,5]]},
+  {"id":18702669,"t":{"ref":"NAV","name":"Bus NAV : Robion - Saint-Roch => Cavaillon - Gare Routière-SNCF","from":"Robion - Saint-Roch","to":"Cavaillon - Gare Routière-SNCF","network":"C mon bus","operator":"Voyages Arnaud","colour":"#5F0127","route":"bus","public_transport:version":"2"},"n":5,"s":[[4589527637,1]]},
+  {"id":18702670,"t":{"ref":"NAV","name":"Bus NAV : Cavaillon - Gare Routière-SNCF => Robion - Saint-Roch","from":"Cavaillon - Gare Routière-SNCF","to":"Robion - Saint-Roch","network":"C mon bus","operator":"Voyages Arnaud","colour":"#5F0127","route":"bus","public_transport:version":"2"},"n":5,"s":[[4589515758,5]]},
+  {"id":3028222175461,"t":{"ref":"CMNA","name":"CMNA: Robion - Gares","from":"Robion","to":"Gares","operator":"Cmonbus – LMV","route":"bus","public_transport:version":"2"},"n":5,"s":[[7600854470,1]]},
+  {"id":3061921942919,"t":{"ref":"CMNA","name":"CMNA: Gares - Robion","from":"Gares","to":"Robion","operator":"Cmonbus – LMV","route":"bus","public_transport:version":"2"},"n":5,"s":[[7600854470,5]]}
+]
+}

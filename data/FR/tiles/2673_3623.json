@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2673,3623],
+"stops":[
+  {"id":392382094,"lat":43.665137,"lon":1.190471,"k":"x"},
+  {"id":5005931635,"lat":43.667194,"lon":1.194744,"k":"p","n":"La Halle"},
+  {"id":5005931723,"lat":43.667161,"lon":1.194717,"k":"x","n":"La Halle","ref":"03741"},
+  {"id":5445332430,"lat":43.676639,"lon":1.190798,"k":"x","n":"Menville - Montlezun"},
+  {"id":5445352714,"lat":43.66123,"lon":1.18712,"k":"x","n":"Lévignac - Lacassagne"},
+  {"id":5445352719,"lat":43.661177,"lon":1.186733,"k":"x","n":"Lévignac - Lacassagne"},
+  {"id":5445358672,"lat":43.667133,"lon":1.192274,"k":"x","n":"Lévignac - Place du Moulin"},
+  {"id":5445358673,"lat":43.665436,"lon":1.192724,"k":"x","n":"Lévignac - Place du Padouenc"},
+  {"id":6700191217,"lat":43.665486,"lon":1.192662,"k":"p","n":"Lévignac - Place du Padouenc"},
+  {"id":6700206384,"lat":43.667184,"lon":1.1923,"k":"p","n":"Lévignac - Place du Moulin"},
+  {"id":6700218479,"lat":43.661272,"lon":1.186612,"k":"p","n":"Lévignac - Lacassagne"},
+  {"id":6700218480,"lat":43.661198,"lon":1.187201,"k":"p","n":"Lévignac - Lacassagne"},
+  {"id":6700220327,"lat":43.676622,"lon":1.190889,"k":"p","n":"Montlezun - Menville"},
+  {"id":9359004724,"lat":43.666984,"lon":1.192444,"k":"p","n":"Place du Moulin - Levignac"},
+  {"id":9359004725,"lat":43.676686,"lon":1.190777,"k":"p","n":"Montlezun - Menville"},
+  {"id":9359004728,"lat":43.665374,"lon":1.192779,"k":"p","n":"Lévignac - Place du Padouenc"},
+  {"id":10944424021,"lat":43.695135,"lon":1.194052,"k":"p","n":"Rd 1g/Ch Buffevent"},
+  {"id":6020994947664,"lat":43.669106,"lon":1.197315,"k":"p","n":"Lévignac Ancienne Gare","g":1},
+  {"id":6021020041393,"lat":43.680337,"lon":1.194927,"k":"p","n":"MENVILLE - Le Chevreuil","g":1},
+  {"id":6052454538825,"lat":43.668821,"lon":1.197199,"k":"p","n":"Lévignac Ancienne Gare","g":1},
+  {"id":6053770429200,"lat":43.665154,"lon":1.192261,"k":"p","n":"Place du Padouenc","g":1},
+  {"id":6066289431740,"lat":43.680169,"lon":1.194725,"k":"p","n":"MENVILLE - Le Chevreuil","g":1},
+  {"id":6094468225407,"lat":43.668799,"lon":1.197378,"k":"p","n":"Lévignac Ancienne Gare","g":1}
+],
+"routes":[
+  {"id":7433599,"t":{"ref":"S7002","name":"transport scolaire - Lycée Agricole Ondes → Lévignac S7002R01","from":"Ondes - Lycée Agricole","to":"La Halle","network":"transport scolaire 31","operator":"RDT31","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[5005931635,13]]},
+  {"id":13539074,"t":{"ref":"S7002","name":"transport scolaire - Lévignac → Lycée Agricole Ondes S7002A01","from":"La Halle","to":"Ondes - Lycée Agricole","network":"transport scolaire 31","operator":"RDT31","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[5005931635,1]]},
+  {"id":15927704,"t":{"ref":"S7128","name":"Ligne S7128R01 transport scolaire Collège de Cadours => Bretx","from":"Collège Joseph Rey","to":"n0352 Plano des Salos","network":"transport scolaire 31","operator":"Cars Gers Garonne","route":"bus","public_transport:version":"2"},"n":8,"s":[[10944424021,5]]},
+  {"id":15927705,"t":{"ref":"S7128","name":"Ligne S7128A01 transport scolaire Bretx => Collège Cadours","from":"RD64b/Impasse Pradasses","to":"Collège Joseph Rey","network":"transport scolaire 31","operator":"Cars Gers Garonne","route":"bus","public_transport:version":"2"},"n":8,"s":[[10944424021,2]]},
+  {"id":3027281093239,"t":{"ref":"403","name":"403: Lévignac Ancienne Gare - Mérenvielle Gare","from":"Lévignac Ancienne Gare","to":"Mérenvielle Gare","operator":"Tisséo","route":"bus","public_transport:version":"2"},"n":6,"s":[[6020994947664,1],[6052454538825,2],[6053770429200,3],[6700218479,4]]},
+  {"id":3031820364270,"t":{"ref":"369","name":"Car Ligne 369 Lasserre => Montaigut/Save => Toulouse service 36974","from":"Mairie-Ecoles - Lasserre-Pradere","to":"Toulouse Gare Routière","network":"liO","operator":"Régie Départementale des Transports de la Haute-Garonne","colour":"#008dcf","route":"bus","public_transport:version":"2"},"n":30,"s":[[5445352714,1],[5445358673,2],[5445358672,3],[6066289431740,4]]},
+  {"id":3034513154108,"t":{"ref":"403","name":"403: Mérenvielle Gare - Lévignac Ancienne Gare","from":"Mérenvielle Gare","to":"Lévignac Ancienne Gare","operator":"Tisséo","route":"bus","public_transport:version":"2"},"n":6,"s":[[6700218480,3],[9359004728,4],[6094468225407,5],[6020994947664,6]]},
+  {"id":3073226340095,"t":{"ref":"369","name":"Car Ligne 369 Toulouse => Montaigut/Save => Lasserre service 36909","from":"Toulouse Gare Routière","to":"Mairie-Ecoles - Lasserre-Pradere","network":"liO","operator":"Régie Départementale des Transports de la Haute-Garonne","colour":"#008dcf","route":"bus","public_transport:version":"2"},"n":31,"s":[[6021020041393,27],[5445358672,28],[5445358673,29],[5445352719,30]]}
+]
+}

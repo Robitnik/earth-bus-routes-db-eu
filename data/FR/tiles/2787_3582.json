@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2787,3582],
+"stops":[
+  {"id":921210854,"lat":49.359703,"lon":-0.882932,"k":"x","n":"Avenue de la Libération"},
+  {"id":5876371691,"lat":49.354721,"lon":-0.853019,"k":"p","n":"Cimetière Américain","ref":"14COL21A"},
+  {"id":11359049449,"lat":49.354722,"lon":-0.85294,"k":"x","n":"Cimetière Américain"},
+  {"id":11359068060,"lat":49.359659,"lon":-0.882962,"k":"p","n":"Avenue de la Libération","ref":"14SLM04A"},
+  {"id":11359068061,"lat":49.359102,"lon":-0.880871,"k":"x","n":"Avenue de la Libération"},
+  {"id":11359068062,"lat":49.359172,"lon":-0.88084,"k":"p","n":"Avenue de la Libération","ref":"14SLM04B"},
+  {"id":14225235660,"lat":49.370343,"lon":-0.880173,"k":"p","n":"Plage","ref":"14SLM20B"},
+  {"id":14225235682,"lat":49.358973,"lon":-0.882011,"k":"p","n":"Place Parkplatz","ref":"7813393A"},
+  {"id":14225235683,"lat":49.358979,"lon":-0.881957,"k":"x","n":"Place Parkplatz"},
+  {"id":14225235684,"lat":49.37037,"lon":-0.880306,"k":"p","n":"Plage","ref":"14SLM20A"},
+  {"id":14225235685,"lat":49.370364,"lon":-0.880219,"k":"x","n":"Plage"}
+],
+"routes":[
+  {"id":16710924,"t":{"ref":"120","name":"Car Nomad 120: BAYEUX Gare Sncf → COLLEVILLE-SUR-MER Musée Overlord","from":"Gare Sncf","to":"Musée Overlord","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":16,"s":[[5876371691,15]]},
+  {"id":16710928,"t":{"ref":"120","name":"Car Nomad 120: BAYEUX Gare Sncf → GRANDCAMP-MAISY Maisy Église via Église","from":"Gare Sncf","to":"Maisy Église","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":27,"s":[[11359068062,16]]},
+  {"id":16710929,"t":{"ref":"120","name":"Car Nomad 120: BAYEUX Gare Sncf → COLLEVILLE-SUR-MER Cimetière Américain","from":"Gare Sncf","to":"Cimetière Américain","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":15,"s":[[5876371691,15]]},
+  {"id":16710930,"t":{"ref":"120","name":"Car Nomad 120: BAYEUX Gare Sncf → GRANDCAMP-MAISY Maisy Église via PORT-EN-BESSIN - Avenue Général de Gaulle, VIERVILLE-SUR-MER Mairie","from":"Gare Sncf","to":"Maisy Église","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":27,"s":[[5876371691,14],[11359068062,16]]},
+  {"id":16710931,"t":{"ref":"120","name":"Car Nomad 120: COLLEVILLE-SUR-MER Cimetière Américain → BAYEUX Saint-Patrice","from":"Cimetière Américain","to":"Saint-Patrice","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":14,"s":[[5876371691,1]]},
+  {"id":16710932,"t":{"ref":"120","name":"Car Nomad 120: COLLEVILLE-SUR-MER Cimetière Américain → BAYEUX Gare Sncf","from":"Cimetière Américain","to":"Gare Sncf","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":17,"s":[[5876371691,1]]},
+  {"id":16710934,"t":{"ref":"120","name":"Car Nomad 120: GRANDCAMP-MAISY Maisy Église → BAYEUX Saint-Patrice","from":"Maisy Église","to":"Saint-Patrice","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":26,"s":[[11359068060,12]]},
+  {"id":16710936,"t":{"ref":"120","name":"Car Nomad 120: GRANDCAMP-MAISY Maisy Église → BAYEUX Gare Sncf via Mairie","from":"Maisy Église","to":"Gare Sncf","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":28,"s":[[11359068060,12]]},
+  {"id":16710937,"t":{"ref":"120","name":"Car Nomad 120: GRANDCAMP-MAISY Maisy Église → BAYEUX Gare Sncf via A de Caumont","from":"Maisy Église","to":"Gare Sncf","network":"Nomad Car","operator":"Région Normandie","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":29,"s":[[11359068060,12]]},
+  {"id":21451126,"t":{"ref":"125","name":"Car Nomad 125: COURSEULLES-SUR-MER Collège → GRANDCAMP-MAISY Maisy Église","from":"Collège","to":"Maisy Église","network":"Nomad Car","colour":"#E99A46","route":"bus","public_transport:version":"2"},"n":33,"s":[[5876371691,22],[11359068062,24],[14225235660,25]]},
+  {"id":21451127,"t":{"ref":"125","name":"Car Nomad 125: GRANDCAMP-MAISY Maisy Église → COURSEULLES-SUR-MER Collège","from":"Maisy Église","to":"Collège","network":"Nomad Car","colour":"#E99A46","route":"bus","public_transport:version":"2"},"n":33,"s":[[14225235684,9],[14225235682,10],[5876371691,13]]},
+  {"id":21866476,"t":{"ref":"120","name":"Car Nomad 120: BAYEUX Gare Sncf → GRANDCAMP-MAISY Maisy Église via COLLEVILLE-SUR-MER Plage","from":"Gare Sncf","to":"Maisy Église","network":"Nomad Car","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":30,"s":[[5876371691,15],[11359068062,17],[14225235660,18]]},
+  {"id":21866477,"t":{"ref":"120","name":"Car Nomad 120: GRANDCAMP-MAISY Maisy Église → BAYEUX Gare Sncf via GRANDCAMP-MAISY Mairie","from":"Maisy Église","to":"Gare Sncf","network":"Nomad Car","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":28,"s":[[14225235684,13],[14225235682,14]]},
+  {"id":21866478,"t":{"ref":"120","name":"Car Nomad 120: GRANDCAMP-MAISY Maisy Église → BAYEUX Gare Sncf via COLLEVILLE-SUR-MER Plage","from":"Maisy Église","to":"Gare Sncf","network":"Nomad Car","colour":"#20B14A","route":"bus","public_transport:version":"2"},"n":30,"s":[[14225235684,13],[14225235682,14],[5876371691,17]]}
+]
+}

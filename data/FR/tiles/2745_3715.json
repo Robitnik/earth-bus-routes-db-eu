@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2745,3715],
+"stops":[
+  {"id":4988223904,"lat":47.290047,"lon":5.76961,"k":"p","n":"Marnay Place"},
+  {"id":12893713814,"lat":47.295677,"lon":5.764623,"k":"p","n":"Marnay Lotissement"},
+  {"id":12893713818,"lat":47.283884,"lon":5.793404,"k":"p","n":"Ruffey-le-Château Oratoire"},
+  {"id":12893713819,"lat":47.284094,"lon":5.793237,"k":"p","n":"Ruffey-le-Château Oratoire"},
+  {"id":12898526322,"lat":47.295664,"lon":5.764527,"k":"x","n":"Marnay Lotissement"}
+],
+"routes":[
+  {"id":11481274,"t":{"ref":"LR 205","name":"LR 205 : Besançon => Gray via Marnay","from":"Besançon","to":"Gray","network":"Mobigo","route":"bus"},"n":5,"s":[[12893713814,5]]},
+  {"id":19228591,"t":{"ref":"LR 205","name":"LR 205 : Gray => Besançon via Marnay","from":"Gray","to":"Besançon","network":"Mobigo","route":"bus"},"n":5,"s":[[12893713814,3]]},
+  {"id":3019363058318,"t":{"ref":"205","name":"205: Centre St-Pierre - Gare Routiere","from":"Centre St-Pierre","to":"Gare Routiere","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":16,"s":[[12893713818,7],[4988223904,8],[12893713814,9]]},
+  {"id":3076679973172,"t":{"ref":"205","name":"205: Gare Routiere - Centre St-Pierre","from":"Gare Routiere","to":"Centre St-Pierre","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":16,"s":[[12893713814,8],[4988223904,9],[12893713818,10]]}
+]
+}

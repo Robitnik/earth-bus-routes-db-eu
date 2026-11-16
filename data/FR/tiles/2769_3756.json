@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2769,3756],
+"stops":[
+  {"id":2555570681,"lat":48.466179,"lon":7.80332,"k":"p","n":"Altenheim, Lindengasse"},
+  {"id":2732567335,"lat":48.466159,"lon":7.803426,"k":"x","n":"Altenheim, Lindengasse"},
+  {"id":4298763751,"lat":48.466194,"lon":7.803235,"k":"x","n":"Altenheim, Lindengasse"},
+  {"id":4298763752,"lat":48.466748,"lon":7.808606,"k":"x","n":"Altenheim, Vogesenstraße"},
+  {"id":4300868419,"lat":48.497816,"lon":7.821305,"k":"p","n":"Goldscheuer, Gewerbegebiet Basic"},
+  {"id":4300868420,"lat":48.497804,"lon":7.821191,"k":"x","n":"Goldscheuer, Gewerbegebiet Basic"},
+  {"id":4300868421,"lat":48.497629,"lon":7.821229,"k":"x","n":"Goldscheuer, Gewerbegebiet Basic"},
+  {"id":4300868422,"lat":48.497575,"lon":7.821156,"k":"p","n":"Goldscheuer, Gewerbegebiet Basic"},
+  {"id":9241904096,"lat":48.497533,"lon":7.834188,"k":"x","n":"Kittersburg-Süd"},
+  {"id":9241904097,"lat":48.497558,"lon":7.834145,"k":"p","n":"Kittersburg-Süd"},
+  {"id":9241904098,"lat":48.497566,"lon":7.8343,"k":"p","n":"Kittersburg-Süd"},
+  {"id":12121610112,"lat":48.497234,"lon":7.828037,"k":"x","n":"Eschauer Allee"},
+  {"id":13831360601,"lat":48.49711,"lon":7.827994,"k":"x","n":"Eschauer Allee"},
+  {"id":5001514044216,"lat":48.497159,"lon":7.828088,"k":"p","n":"Eschauer Allee"},
+  {"id":5001514044223,"lat":48.497184,"lon":7.827946,"k":"p","n":"Eschauer Allee"}
+],
+"routes":[
+  {"id":75635,"t":{"ref":"R2","name":"Bus R2: Offenburg, Bahnhof/ZOB - Schutterwald - Altenheim - Ichenheim","from":"Offenburg, Bahnhof/ZOB","to":"Ichenheim","network":"Tarifverbund Ortenau","operator":"Südwestdeutsche Landesverkehrs-AG Mittelbaden Lahr","route":"bus","public_transport:version":"1"},"n":3,"s":[[4298763752,1],[4298763751,2],[2732567335,3]]},
+  {"id":6407600,"t":{"ref":"106","name":"Linie 106 Altenheim => Kehl, Rathaus","from":"Altenheim","to":"Kehl, Rathaus","network":"Tarifverbund Ortenau","operator":"Südwestdeutsche Landesverkehrs-AG Mittelbaden Lahr","colour":"#059ADB","route":"bus","public_transport:version":"2"},"n":20,"s":[[2555570681,1],[4300868419,2]]},
+  {"id":6698943,"t":{"ref":"106","name":"Linie 106 Kehl, Rathaus => Altenheim","from":"Kehl, Rathaus","to":"Altenheim","network":"Tarifverbund Ortenau","operator":"Südwestdeutsche Landesverkehrs-AG Mittelbaden Lahr","colour":"#059ADB","route":"bus","public_transport:version":"2"},"n":19,"s":[[4300868422,18],[2555570681,19]]},
+  {"id":12528869,"t":{"ref":"R2","name":"Bus R2: Ichenheim - Altenheim - Schutterwald - Offenburg, Bahnhof/ZOB","from":"Ichenheim","to":"Offenburg, Bahnhof/ZOB","network":"Tarifverbund Ortenau","operator":"Südwestdeutsche Landesverkehrs-AG Mittelbaden Lahr","route":"bus","public_transport:version":"1"},"n":2,"s":[[4298763751,1],[4298763752,2]]},
+  {"id":13427193,"t":{"ref":"301","name":"Bus 301: Offenburg, Bahnhof/ZOB - Kittersburg - Kehl, Rathaus","from":"Offenburg, Bahnhof/ZOB","to":"Kehl, Rathaus","network":"Tarifverbund Ortenau","operator":"Südwestdeutsche Landesverkehrs-AG","route":"bus","public_transport:version":"2"},"n":22,"s":[[5001514044216,1],[9241904098,2]]},
+  {"id":13427194,"t":{"ref":"301","name":"Bus 301: Kehl, Rathaus - Kittersburg - Offenburg, Bahnhof/ZOB","from":"Kehl, Rathaus","to":"Offenburg, Bahnhof/ZOB","network":"Tarifverbund Ortenau","operator":"Südwestdeutsche Landesverkehrs-AG","route":"bus","public_transport:version":"2"},"n":22,"s":[[9241904097,21],[5001514044223,22]]}
+]
+}

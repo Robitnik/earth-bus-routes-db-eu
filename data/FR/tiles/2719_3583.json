@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2719,3583],
+"stops":[
+  {"id":2101611318,"lat":45.961359,"lon":-0.826996,"k":"p","n":"Lussant - Valentin"},
+  {"id":2101611584,"lat":45.983709,"lon":-0.822428,"k":"p","n":"Les Forges"},
+  {"id":2101611586,"lat":45.961996,"lon":-0.839358,"k":"p","n":"Le Grand Géant"},
+  {"id":2101611589,"lat":45.958517,"lon":-0.848573,"k":"p","n":"Les Pibles"},
+  {"id":2101611590,"lat":45.958476,"lon":-0.822234,"k":"p","n":"Église"},
+  {"id":2101611594,"lat":45.953306,"lon":-0.834528,"k":"p","n":"Gabras"},
+  {"id":2101611600,"lat":45.961061,"lon":-0.822538,"k":"p","n":"Lussant - Bourg"},
+  {"id":2134834351,"lat":45.953341,"lon":-0.834409,"k":"x","n":"Gabras"},
+  {"id":2679562609,"lat":45.98389,"lon":-0.822307,"k":"x","n":"Les Forges"},
+  {"id":3139858832,"lat":45.971971,"lon":-0.804306,"k":"p","n":"Mairie","ref":"Mairie de Moragne"},
+  {"id":5408113103,"lat":45.961699,"lon":-0.829528,"k":"p","n":"Lussant - Valentin"},
+  {"id":5408113104,"lat":45.961079,"lon":-0.821491,"k":"p","n":"Lussant - Bourg"},
+  {"id":12227777046,"lat":45.959782,"lon":-0.821903,"k":"p","n":"École"},
+  {"id":13386923186,"lat":45.971963,"lon":-0.804329,"k":"x","n":"Mairie"},
+  {"id":13386923194,"lat":45.9593,"lon":-0.8218,"k":"x","n":"École"},
+  {"id":13386944407,"lat":45.9586,"lon":-0.8477,"k":"x","n":"Les Pibles"},
+  {"id":13386944408,"lat":45.96205,"lon":-0.8394,"k":"x","n":"Le Grand Géant"},
+  {"id":13386944409,"lat":45.9616,"lon":-0.8284,"k":"x","n":"Valentin"},
+  {"id":13386944410,"lat":45.9617,"lon":-0.829,"k":"p","n":"Valentin"},
+  {"id":13386944411,"lat":45.96105,"lon":-0.822,"k":"x","n":"LUS Bourg"},
+  {"id":13386944412,"lat":45.9611,"lon":-0.8214,"k":"p","n":"Bourg Lussant"}
+],
+"routes":[
+  {"id":8016030,"t":{"ref":"174","name":"Ligne 174 : Saint-Jean-d'Angély - Rochefort","network":"Cars Régionaux 17 - Charente-Maritime","route":"bus"},"n":21,"s":[[2101611318,9],[5408113103,10],[2101611600,11],[5408113104,12]]},
+  {"id":20261261,"t":{"ref":"S2","name":"Ligne S2 : Joliot Curie → Les Forges","from":"Joliot Curie","to":"Les Forges","network":"R'bus","operator":"Transdev Rochefort Océan","colour":"#F4B084","route":"bus","public_transport:version":"2","bus":"yes"},"n":10,"s":[[2101611586,9],[2101611584,10]]},
+  {"id":20261262,"t":{"ref":"S2","name":"Ligne S2 : Merleau Grimaux G.R. → Les Forges","from":"Merleau Grimaux G.R.","to":"Les Forges","network":"R'bus","operator":"Transdev Rochefort Océan","colour":"#F4B084","route":"bus","public_transport:version":"2","bus":"yes"},"n":13,"s":[[2101611586,12],[2101611584,13]]},
+  {"id":20261263,"t":{"ref":"S2","name":"Ligne S2 : Mairie Saint Coutant → Merleau Grimaux G.R.","from":"Mairie Saint Coutant","to":"Merleau Grimaux G.R.","network":"R'bus","operator":"Transdev Rochefort Océan","colour":"#F4B084","route":"bus","public_transport:version":"2","bus":"yes"},"n":11,"s":[[3139858832,2],[13386944412,3],[13386944410,4],[2101611586,5],[2101611594,6],[2101611589,7]]},
+  {"id":20270151,"t":{"ref":"RPI 2","name":"Ligne RPI 2 : Mairie Moragne → Mairie Saint Coutant","from":"Mairie Moragne","to":"Mairie Saint Coutant","network":"R'Bus","operator":"Transdev Rochefort Océan","colour":"#7B9713","route":"bus","public_transport:version":"2","bus":"yes"},"n":3,"s":[[3139858832,1],[12227777046,2]]},
+  {"id":20270152,"t":{"ref":"RPI 2","name":"Ligne RPI 2 : Mairie Saint Coutant → Mairie Moragne","from":"Mairie Saint Coutant","to":"Mairie Moragne","network":"R'Bus","operator":"Transdev Rochefort Océan","colour":"#7B9713","route":"bus","public_transport:version":"2","bus":"yes"},"n":3,"s":[[12227777046,2],[3139858832,3]]}
+]
+}

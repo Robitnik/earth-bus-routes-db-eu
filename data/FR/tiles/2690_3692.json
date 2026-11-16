@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2690,3692],
+"stops":[
+  {"id":273190367,"lat":44.503185,"lon":4.629582,"k":"x","n":"Saint-Thomé - Les Crottes"},
+  {"id":7990106855,"lat":44.503388,"lon":4.629178,"k":"x","n":"Saint-Thomé - Les Crottes"},
+  {"id":7990106856,"lat":44.503429,"lon":4.629215,"k":"p","n":"Saint-Thomé - Les Crottes"},
+  {"id":7990106857,"lat":44.503164,"lon":4.629498,"k":"p","n":"Saint-Thomé - Les Crottes"},
+  {"id":14115394691,"lat":44.501333,"lon":4.623131,"k":"x","n":"Saint-Thomé - Village"},
+  {"id":14115394693,"lat":44.501431,"lon":4.623279,"k":"x","n":"Saint-Thomé - Village"},
+  {"id":14115423406,"lat":44.501392,"lon":4.623283,"k":"p","n":"Saint-Thomé - Village"},
+  {"id":14115423407,"lat":44.501371,"lon":4.623125,"k":"p","n":"Saint-Thomé - Village"}
+],
+"routes":[
+  {"id":11734802,"t":{"ref":"E19","name":"Ligne E19: Montélimar → Le-Teil → Viviers → Saint-Thomé","from":"Montélimar","to":"Saint-Thomé","network":"Cars Région Ardèche","operator":"Keolis Portes du Dauphiné","colour":"#87BA25","route":"bus","public_transport:version":"2"},"n":17,"s":[[7990106856,17]]},
+  {"id":11734803,"t":{"ref":"E19","name":"Ligne E19: Saint-Thomé → Viviers → Le-Teil → Montélimar","from":"Saint-Thomé","to":"Montélimar","network":"Cars Région Ardèche","operator":"Keolis Portes du Dauphiné","colour":"#87BA25","route":"bus","public_transport:version":"2"},"n":15,"s":[[7990106857,1]]},
+  {"id":21269601,"t":{"ref":"Turquoise","name":"M'arc : Le Teil - Rond-Point Bénistant → Valvignères - Village","from":"Le Teil - Rond-Point Bénistant","to":"Valvignères - Village","network":"M'arc","operator":"Société Rhodanienne des Cars Ginhoux","colour":"#66c4a9","route":"bus","public_transport:version":"2"},"n":9,"s":[[7990106856,7],[14115423407,8]]},
+  {"id":21269704,"t":{"ref":"Turquoise","name":"M'arc : Valvignères - Village → Le Teil - Rond-Point Bénistant","from":"Valvignères - Village","to":"Le Teil - Rond-Point Bénistant","network":"M'arc","operator":"Société Rhodanienne des Cars Ginhoux","colour":"#66c4a9","route":"bus","public_transport:version":"2"},"n":10,"s":[[14115423406,2],[7990106857,3]]},
+  {"id":21293514,"t":{"ref":"Orange","name":"M'arc : Le Teil - Zone Commercial Nord → Saint-Thomé - Les Crottes","from":"Zone Commerciale Nord","to":"Saint-Thomé - Les Crottes","network":"M'arc","operator":"Société Rhodanienne des Cars Ginhoux","colour":"#fbac2c","route":"bus","public_transport:version":"2"},"n":18,"s":[[14115423406,17],[7990106857,18]]},
+  {"id":21294315,"t":{"ref":"Orange","name":"M'arc : Saint-Thomé - Les Crottes → Le Teil - Zone Commerciale Nord","from":"Saint-Thomé - Les Crottes","to":"Zone Commerciale Nord","network":"M'arc","operator":"Société Rhodanienne des Cars Ginhoux","colour":"#fbac2c","route":"bus","public_transport:version":"2"},"n":18,"s":[[7990106856,1],[14115423407,2]]}
+]
+}

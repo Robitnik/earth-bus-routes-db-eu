@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2680,3731],
+"stops":[
+  {"id":5602360905,"lat":44.0416,"lon":6.5645,"k":"x","n":"Thorame-Haute - Gare CP"},
+  {"id":5695972445,"lat":44.041614,"lon":6.564505,"k":"p","n":"Thorame-Haute - Gare CP","ref":"1213"},
+  {"id":10743564041,"lat":44.008407,"lon":6.561306,"k":"p","n":"Allons - Pont d'Allons"},
+  {"id":10743564042,"lat":44.008279,"lon":6.5613,"k":"p","n":"Allons - Pont d'Allons"},
+  {"id":10743564043,"lat":44.008358,"lon":6.561302,"k":"x","n":"Allons - Pont d'Allons"}
+],
+"routes":[
+  {"id":8279172,"t":{"ref":"430","name":"Bus 430 : Thorame-Haute - Gare => La Foux d'Allos","from":"Thorame-Haute - Gare","to":"La Foux d'Allos","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695972445,1]]},
+  {"id":8279173,"t":{"ref":"430","name":"Bus 430 : La Foux d'Allos => Thorame-Haute - Gare","from":"La Foux d'Allos","to":"Thorame-Haute - Gare","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695972445,10]]},
+  {"id":15616449,"t":{"ref":"4307","name":"Bus 4307 : Saint-André-les-Alpes => Villars-Colmars","from":"Saint-André-les-Alpes","to":"Villars-Colmars","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[5695972445,2]]},
+  {"id":15616450,"t":{"ref":"4307","name":"Bus 4307 : Villars-Colmars => Saint-André-les-Alpes","from":"Villars-Colmars","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[5695972445,10]]},
+  {"id":15616763,"t":{"ref":"4202","name":"Bus 4202 : Saint-André-les-Alpes => Allons","from":"Saint-André-les-Alpes","to":"Allons","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10743564042,3]]},
+  {"id":15616764,"t":{"ref":"4202","name":"Bus 4202 : Allons => Saint-André-les-Alpes","from":"Allons","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10743564041,2]]}
+]
+}

@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2745,3615],
+"stops":[
+  {"id":315293282,"lat":47.290169,"lon":0.787697,"k":"p","n":"Esvres - Salle Multi-Accueil"},
+  {"id":2431058720,"lat":47.284531,"lon":0.781976,"k":"p","n":"Esvres - Gare SNCF"},
+  {"id":3940501870,"lat":47.284289,"lon":0.78789,"k":"p","n":"Esvres - Écoles"},
+  {"id":4012938211,"lat":47.288806,"lon":0.781801,"k":"p","n":"Esvres - Rue de Tours"},
+  {"id":4046484701,"lat":47.286913,"lon":0.789729,"k":"x","n":"Esvres - Rue du Vallon-Lavoir"},
+  {"id":4046523746,"lat":47.283942,"lon":0.785397,"k":"p","n":"Esvres - Centre"},
+  {"id":10044827463,"lat":47.265732,"lon":0.796436,"k":"p","n":"Courty"},
+  {"id":10557782492,"lat":47.279679,"lon":0.786444,"k":"p","n":"Port Joie"},
+  {"id":10737349486,"lat":47.277632,"lon":0.779058,"k":"p","n":"L'Hommais"},
+  {"id":13136235880,"lat":47.295027,"lon":0.76637,"k":"p","n":"Nantilly"},
+  {"id":13136235881,"lat":47.299231,"lon":0.768656,"k":"p","n":"La Guerinière"},
+  {"id":5000400780827,"lat":47.283906,"lon":0.785389,"k":"p","n":"Esvres - Centre"},
+  {"id":5000400780829,"lat":47.284475,"lon":0.781943,"k":"p","n":"Esvres - Gare SNCF"},
+  {"id":5000400780830,"lat":47.284545,"lon":0.782021,"k":"p","n":"Esvres - Gare SNCF"}
+],
+"routes":[
+  {"id":6085365,"t":{"ref":"TER 2.3","name":"Car TER 2.3 : Loches -> Tours Via Montbazon","from":"Loches - Gare SNCF","to":"Tours - Halte Routière","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000400780830,8]]},
+  {"id":6085367,"t":{"ref":"TER 2.3","name":"Car TER 2.3 : Tours -> Loches via Montbazon","from":"Tours - Halte Routière","to":"Loches - Gare SNCF","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000400780829,4]]},
+  {"id":3013556707655,"t":{"ref":"800","name":"800: Gare SNCF - Gare Routière","from":"Gare SNCF","to":"Gare Routière","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":15,"s":[[2431058720,12]]},
+  {"id":3020064428265,"t":{"ref":"800","name":"800: Gare Routière - Gare SNCF","from":"Gare Routière","to":"Gare SNCF","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000400780829,4]]},
+  {"id":3022255463172,"t":{"ref":"800","name":"800: Gare Routière - Gare SNCF","from":"Gare Routière","to":"Gare SNCF","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000400780829,4]]},
+  {"id":3044876523994,"t":{"ref":"F","name":"F : Tours -> Esvres","from":"Tours - Halte Routière","to":"Esvres - Rue de Tours","network":"Rémi","colour":"#f4441b","route":"bus","public_transport:version":"2"},"n":18,"s":[[2431058720,17],[4046523746,18]]},
+  {"id":3074148568815,"t":{"ref":"F","name":"F : Tours -> Esvres","from":"Tours - Halte Routière","to":"Esvres - Rue de Tours","network":"Rémi","colour":"#f4441b","route":"bus","public_transport:version":"2"},"n":21,"s":[[2431058720,17],[4046523746,18],[4046484701,19],[315293282,20],[4012938211,21]]},
+  {"id":3081305242005,"t":{"ref":"F","name":"F : Tours -> Esvres","from":"Tours - Halte Routière","to":"Esvres - Rue de Tours","network":"Rémi","colour":"#f4441b","route":"bus","public_transport:version":"2"},"n":21,"s":[[2431058720,17],[4046523746,18],[4046484701,19],[315293282,20],[4012938211,21]]},
+  {"id":3081766358089,"t":{"ref":"F","name":"F : Tours -> Esvres","from":"Tours - Halte Routière","to":"Esvres - Rue de Tours","network":"Rémi","colour":"#f4441b","route":"bus","public_transport:version":"2"},"n":18,"s":[[2431058720,17],[4046523746,18]]},
+  {"id":3082210479005,"t":{"ref":"F","name":"F : Esvres -> Tours","from":"Esvres - Centre","to":"Tours - Halte Routière","network":"Rémi","colour":"#f4441b","route":"bus","public_transport:version":"2"},"n":22,"s":[[4046523746,1],[4046484701,2],[315293282,3],[4012938211,4],[5000400780830,5]]},
+  {"id":3089755201151,"t":{"ref":"800","name":"800: Gare SNCF - Gare Routière","from":"Gare SNCF","to":"Gare Routière","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":15,"s":[[2431058720,12]]},
+  {"id":3091497063444,"t":{"ref":"F","name":"F : Esvres -> Tours","from":"Esvres - Centre","to":"Tours - Halte Routière","network":"Rémi","colour":"#f4441b","route":"bus","public_transport:version":"2"},"n":22,"s":[[4046523746,1],[4046484701,2],[315293282,3],[4012938211,4],[5000400780830,5]]}
+]
+}

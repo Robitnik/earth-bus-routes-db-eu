@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2678,3715],
+"stops":[
+  {"id":1907155807,"lat":43.903465,"lon":5.787005,"k":"p","n":"Dauphin - Village","ref":"376"},
+  {"id":1907156343,"lat":43.903431,"lon":5.787175,"k":"p","n":"Dauphin - Village","ref":"377"},
+  {"id":1907172925,"lat":43.936316,"lon":5.766582,"k":"x","n":"Mane - La Burlière"},
+  {"id":1907176848,"lat":43.936278,"lon":5.765174,"k":"x","n":"Mane - Le Lavoir"},
+  {"id":2897468824,"lat":43.900465,"lon":5.783795,"k":"x","n":"Dauphin - Salle polyvalente"},
+  {"id":4551316285,"lat":43.902491,"lon":5.789876,"k":"x","n":"Saint-Maime - Les Quatre Reines"},
+  {"id":4822825505,"lat":43.93626,"lon":5.765194,"k":"p","n":"Mane - Le Lavoir"},
+  {"id":4908036994,"lat":43.936289,"lon":5.765145,"k":"p","n":"Mane - Le Lavoir"},
+  {"id":5403602690,"lat":43.901128,"lon":5.792592,"k":"x","n":"Saint-Maime - Salle polyvalente"},
+  {"id":5405055454,"lat":43.903488,"lon":5.787041,"k":"x","n":"Dauphin - Village"},
+  {"id":5405055455,"lat":43.903403,"lon":5.787132,"k":"x","n":"Dauphin - Village"},
+  {"id":5667071223,"lat":43.902467,"lon":5.789898,"k":"p","n":"Saint-Maime - Les Quatre Reines","ref":"997"},
+  {"id":5667071224,"lat":43.902519,"lon":5.789852,"k":"p","n":"Saint-Maime - Les Quatre Reines","ref":"998"},
+  {"id":5667072020,"lat":43.901128,"lon":5.792649,"k":"p","n":"Saint-Maime - Salle polyvalente","ref":"999"},
+  {"id":5667077221,"lat":43.901096,"lon":5.792536,"k":"p","n":"Saint-Maime - Salle polyvalente","ref":"999"},
+  {"id":5667148656,"lat":43.936113,"lon":5.767504,"k":"p","n":"Mane - La Burlière","ref":"633"},
+  {"id":5667148657,"lat":43.936345,"lon":5.766593,"k":"p","n":"Mane - La Burlière","ref":"634"},
+  {"id":6806223587,"lat":43.90041,"lon":5.783845,"k":"p","n":"Dauphin - Salle polyvalente","ref":"375"},
+  {"id":6806223588,"lat":43.902247,"lon":5.78649,"k":"p","n":"Dauphin - La Poste","ref":"373"},
+  {"id":10584566661,"lat":43.902338,"lon":5.786372,"k":"x","n":"Dauphin - La Poste"},
+  {"id":10584566670,"lat":43.936152,"lon":5.767519,"k":"x","n":"Mane - La Burlière"}
+],
+"routes":[
+  {"id":6834049,"t":{"ref":"470","name":"Bus 470 : Banon => Manosque","from":"Banon","to":"Manosque","network":"Zou !","operator":"SUMIAN","colour":"#ff872f","route":"bus","public_transport:version":"2"},"n":14,"s":[[1907155807,6],[5667071223,7]]},
+  {"id":6834050,"t":{"ref":"470","name":"Bus 470 : Manosque => Banon","from":"Manosque","to":"Banon","network":"Zou !","operator":"SUMIAN","colour":"#ff872f","route":"bus","public_transport:version":"2"},"n":14,"s":[[5667071224,8],[1907156343,9]]},
+  {"id":15396032,"t":{"ref":"4801","name":"Bus 4801 : Dauphin => Volx","from":"Dauphin","to":"Volx","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":2,"s":[[6806223587,1]]},
+  {"id":15396033,"t":{"ref":"4801","name":"Bus 4801 : Volx => Dauphin","from":"Volx","to":"Dauphin","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[6806223587,2],[6806223588,3]]},
+  {"id":15396035,"t":{"ref":"4803","name":"Bus 4803 : Mane => Saint-Maime => Volx","from":"Mane","to":"Volx","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[5667148656,1],[5667071223,2],[5667077221,3]]},
+  {"id":15396036,"t":{"ref":"4803","name":"Bus 4803 : Volx => Saint-Maime => Mane","from":"Volx","to":"Mane","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[5667072020,4],[5667071224,5],[5667148657,6]]},
+  {"id":3000445146676,"t":{"ref":"915","name":"Bus 915 : Forcalquier => Apt => Avignon - Gare TGV","from":"Forcalquier","to":"Avignon - Gare TGV","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[4908036994,3]]},
+  {"id":3009615928082,"t":{"ref":"480","name":"Bus 480 : Manosque => Forcalquier","from":"Manosque","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#f26802","route":"bus","public_transport:version":"2"},"n":10,"s":[[5667071224,5],[1907156343,6],[5667148657,7]]},
+  {"id":3053618387167,"t":{"ref":"480","name":"Bus 480 : Manosque => Forcalquier","from":"Manosque","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#f26802","route":"bus","public_transport:version":"2"},"n":15,"s":[[5667077221,9],[5667071224,10],[1907156343,11],[5667148657,12]]},
+  {"id":3066058645195,"t":{"ref":"480","name":"Bus 480 : Forcalquier => Manosque","from":"Forcalquier","to":"Manosque","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#f26802","route":"bus","public_transport:version":"2"},"n":10,"s":[[5667148656,4],[1907155807,5],[5667071223,6]]},
+  {"id":3093539798854,"t":{"ref":"915","name":"Bus 915 : Avignon - Gare TGV => Apt => La Brillanne - Gare SNCF","from":"Avignon - Gare TGV","to":"La Brillanne - Gare SNCF","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[1907176848,29]]}
+]
+}

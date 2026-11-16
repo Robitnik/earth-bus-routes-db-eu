@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2711,3724],
+"stops":[
+  {"id":5417207223,"lat":45.595557,"lon":6.239357,"k":"x","n":"Grésy-sur-Isère Fontaines"},
+  {"id":5417207224,"lat":45.595334,"lon":6.238976,"k":"x","n":"Grésy-sur-Isère Fontaines"},
+  {"id":5417207225,"lat":45.595326,"lon":6.238983,"k":"p","n":"Grésy-sur-Isère Fontaines"},
+  {"id":5417207226,"lat":45.595588,"lon":6.239329,"k":"p","n":"Grésy-sur-Isère Fontaines"},
+  {"id":5427717956,"lat":45.583826,"lon":6.212054,"k":"p","n":"Fréterive Rond Point (arrêt scolaire)"},
+  {"id":5427717957,"lat":45.583855,"lon":6.212044,"k":"x","n":"Fréterive Rond Point (arrêt scolaire)"},
+  {"id":5427717958,"lat":45.583898,"lon":6.212031,"k":"p","n":"Fréterive Rond Point (arrêt scolaire)"},
+  {"id":5427717959,"lat":45.586721,"lon":6.218819,"k":"x","n":"La Fiardière (arrêt scolaire)"},
+  {"id":5427717960,"lat":45.586741,"lon":6.218801,"k":"p","n":"La Fiardière (arrêt scolaire)"},
+  {"id":5427717961,"lat":45.59187,"lon":6.230892,"k":"x","n":"Les Moulins (arrêt scolaire)"},
+  {"id":5427717962,"lat":45.591897,"lon":6.230872,"k":"p","n":"Les Moulins (arrêt scolaire)"},
+  {"id":5427717963,"lat":45.591926,"lon":6.231118,"k":"p","n":"Les Moulins (arrêt scolaire)"},
+  {"id":5427717964,"lat":45.591953,"lon":6.231096,"k":"x","n":"Les Moulins (arrêt scolaire)"},
+  {"id":5429068755,"lat":45.586681,"lon":6.218853,"k":"p","n":"La Fiardière (arrêt scolaire)"},
+  {"id":5429125280,"lat":45.583443,"lon":6.204412,"k":"p","n":"Colombière (arrêt scolaire)"},
+  {"id":5429125281,"lat":45.583463,"lon":6.204379,"k":"x","n":"Colombière (arrêt scolaire)"},
+  {"id":5429125282,"lat":45.583745,"lon":6.204652,"k":"x","n":"Colombière (arrêt scolaire)"},
+  {"id":5429125283,"lat":45.583772,"lon":6.204591,"k":"p","n":"Colombière (arrêt scolaire)"},
+  {"id":5436115915,"lat":45.557449,"lon":6.206998,"k":"x","n":"Chamousset Gare"},
+  {"id":7913681701,"lat":45.551651,"lon":6.20843,"k":"p"},
+  {"id":5001511014885,"lat":45.557488,"lon":6.206991,"k":"p","n":"Chamousset Gare"}
+],
+"routes":[
+  {"id":8045741,"t":{"ref":"7","name":"Bus 7: Albertville => Grésy-sur-Isère => Fontaines","from":"Albertville","to":"Grésy-sur-Isère Fontaines","network":"Transports Région Arlysère","operator":"Transdev Albertville","colour":"#cf007f","route":"bus","public_transport:version":"2"},"n":20,"s":[[5417207226,20]]},
+  {"id":8046296,"t":{"ref":"7","name":"Bus 7: Fontaines => Grésy-sur-Isère => Albertville","from":"Grésy-sur-Isère Fontaines","to":"Albertville","network":"Transports Région Arlysère","operator":"Transdev Albertville","colour":"#cf007f","route":"bus","public_transport:version":"2"},"n":20,"s":[[5417207225,1]]},
+  {"id":20665373,"t":{"ref":"TER 53","name":"TER 53 : St-Jean -> St-Pierre","from":"St-Jean-de-Maurienne","to":"Saint-Pierre-d'Albigny","network":"TER Auvergne-Rhône-Alpes","colour":"#008be0","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001511014885,2]]},
+  {"id":20665375,"t":{"ref":"TER 53","name":"TER 53 : Épierre -> Chambéry","from":"Épierre","to":"Chambéry Challes les Eaux","network":"TER Auvergne-Rhône-Alpes","colour":"#008be0","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001511014885,3]]},
+  {"id":20665376,"t":{"ref":"TER 53","name":"TER 53 : Modane -> Chambéry via Chamousset, Montmélian","from":"Modane","to":"Chambéry Challes les Eaux","network":"TER Auvergne-Rhône-Alpes","colour":"#008be0","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001511014885,3]]},
+  {"id":20665377,"t":{"ref":"TER 53","name":"TER 53 : Modane -> Chambéry via Chamousset","from":"Modane","to":"Chambéry Challes les Eaux","network":"TER Auvergne-Rhône-Alpes","colour":"#008be0","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001511014885,3]]},
+  {"id":20665384,"t":{"ref":"TER 53","name":"TER 53 : Chambéry -> Modane via Chamousset","from":"Chambéry Challes les Eaux","to":"Modane","network":"TER Auvergne-Rhône-Alpes","colour":"#008be0","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001511014885,2]]},
+  {"id":20665385,"t":{"ref":"TER 53","name":"TER 53 : Chambéry -> Modane via Montmélian, Chamousset","from":"Chambéry Challes les Eaux","to":"Modane","network":"TER Auvergne-Rhône-Alpes","colour":"#008be0","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001511014885,3]]},
+  {"id":3011226054199,"t":{"ref":"ARL_L7","name":"ARL_L7: Fontaines - _ Gare routière","from":"Fontaines","to":"_ Gare routière","operator":"ALBERTVILLE - TRA Mobilité","route":"bus","public_transport:version":"2"},"n":17,"s":[[5417207223,1]]},
+  {"id":3067006226677,"t":{"ref":"ARL_L7","name":"ARL_L7: Fontaines - _ Gare routière","from":"Fontaines","to":"_ Gare routière","operator":"ALBERTVILLE - TRA Mobilité","route":"bus","public_transport:version":"2"},"n":17,"s":[[5417207223,1]]},
+  {"id":3075688855940,"t":{"ref":"ARL_L7","name":"ARL_L7: _ Gare routière - Fontaines","from":"_ Gare routière","to":"Fontaines","operator":"ALBERTVILLE - TRA Mobilité","route":"bus","public_transport:version":"2"},"n":19,"s":[[5417207223,19]]},
+  {"id":3084079841199,"t":{"ref":"ARL_L7","name":"ARL_L7: _ Gare routière - Fontaines","from":"_ Gare routière","to":"Fontaines","operator":"ALBERTVILLE - TRA Mobilité","route":"bus","public_transport:version":"2"},"n":19,"s":[[5417207223,19]]}
+]
+}

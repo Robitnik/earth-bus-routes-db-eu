@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2682,3613],
+"stops":[
+  {"id":1920399284,"lat":44.132974,"lon":0.6601,"k":"x","n":"Place de Salens"},
+  {"id":4708488146,"lat":44.133043,"lon":0.662424,"k":"p","n":"Etigny"},
+  {"id":4708488147,"lat":44.133082,"lon":0.662282,"k":"p","n":"Etigny"},
+  {"id":4708488148,"lat":44.133064,"lon":0.662364,"k":"x","n":"Etigny"},
+  {"id":4709984769,"lat":44.133326,"lon":0.660559,"k":"p","n":"Layrac","ref":"Tempo"},
+  {"id":9663841892,"lat":44.133004,"lon":0.660173,"k":"p","n":"Place de Salens","ref":"343220010"}
+],
+"routes":[
+  {"id":6983788,"t":{"ref":"5","name":"Bus 5 : Monbran => Layrac","from":"Monbran","to":"Layrac","network":"Tempo","operator":"Keolis Agen","route":"bus"},"n":25,"s":[[4708488147,19],[4709984769,20]]},
+  {"id":6983830,"t":{"ref":"5","name":"Bus 5 : Layrac => Préfecture","from":"Place de Salens","to":"Préfecture quai E","network":"Tempo","operator":"Keolis Agen","route":"bus"},"n":14,"s":[[9663841892,1],[4708488146,2]]},
+  {"id":7021133,"t":{"ref":"5","name":"Bus 5 : Préfecture => Layrac","from":"Préfecture","to":"Layrac","network":"Tempo","operator":"Keolis Agen","route":"bus"},"n":20,"s":[[4708488147,19],[4709984769,20]]},
+  {"id":7021134,"t":{"ref":"5","name":"Bus 5 : Layrac => Préfecture","from":"Layrac","to":"Préfecture","network":"Tempo","operator":"Keolis Agen","route":"bus"},"n":22,"s":[[4709984769,1],[4708488146,2]]},
+  {"id":3069946707250,"t":{"ref":"P158","name":"P158: Agen - Auch","from":"Agen","to":"Auch","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":16,"s":[[9663841892,3]]},
+  {"id":3081801682140,"t":{"ref":"932","name":"932: AUCH - Gare Routière - AGEN - Gare SNCF","from":"AUCH - Gare Routière","to":"AGEN - Gare SNCF","operator":".liO 32","route":"bus","public_transport:version":"2"},"n":16,"s":[[4708488147,14]]},
+  {"id":3082048685016,"t":{"ref":"P158","name":"P158: Auch - Agen","from":"Auch","to":"Agen","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":16,"s":[[9663841892,14]]},
+  {"id":3098702029034,"t":{"ref":"932","name":"932: AGEN - Gare SNCF - AUCH - Gare Routière","from":"AGEN - Gare SNCF","to":"AUCH - Gare Routière","operator":".liO 32","route":"bus","public_transport:version":"2"},"n":16,"s":[[4708488147,3]]}
+]
+}

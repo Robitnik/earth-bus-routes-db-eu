@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2727,3722],
+"stops":[
+  {"id":527421695,"lat":46.350583,"lon":6.132345,"k":"x","n":"Arbère"},
+  {"id":983750553,"lat":46.3534,"lon":6.137008,"k":"p","n":"Divonne-les-Bains - Ancienne gare"},
+  {"id":2080973342,"lat":46.35617,"lon":6.145181,"k":"p","n":"Perdtemps"},
+  {"id":2080973365,"lat":46.350402,"lon":6.132293,"k":"p","n":"Arbère"},
+  {"id":2080973366,"lat":46.353548,"lon":6.136856,"k":"p","n":"Divonne-les-Bains - Ancienne gare"},
+  {"id":2080973368,"lat":46.353104,"lon":6.143248,"k":"p","n":"Piscine"},
+  {"id":2080973369,"lat":46.353069,"lon":6.14357,"k":"p","n":"Piscine"},
+  {"id":2080973371,"lat":46.355915,"lon":6.144804,"k":"p","n":"Perdtemps"},
+  {"id":2080973372,"lat":46.350614,"lon":6.132246,"k":"p","n":"Arbère"},
+  {"id":6259510434,"lat":46.35589,"lon":6.144855,"k":"x","n":"Perdtemps"},
+  {"id":6488230875,"lat":46.356199,"lon":6.14513,"k":"x","n":"Perdtemps"},
+  {"id":7632926666,"lat":46.353494,"lon":6.136862,"k":"x","n":"Divonne-les-Bains - Ancienne gare"},
+  {"id":8041631585,"lat":46.35042,"lon":6.132229,"k":"x","n":"Arbère"},
+  {"id":8041631589,"lat":46.353465,"lon":6.137015,"k":"x","n":"Divonne-les-Bains - Ancienne gare"},
+  {"id":10005109717,"lat":46.360885,"lon":6.146244,"k":"p","n":"Rue de La Scie"},
+  {"id":10005109718,"lat":46.360914,"lon":6.146259,"k":"x","n":"Rue de La Scie"},
+  {"id":10005109719,"lat":46.360822,"lon":6.146466,"k":"p","n":"Rue de La Scie"},
+  {"id":10005109720,"lat":46.360794,"lon":6.146458,"k":"x","n":"Rue de La Scie"},
+  {"id":11421650425,"lat":46.353055,"lon":6.143266,"k":"x","n":"Piscine"},
+  {"id":11421650427,"lat":46.353094,"lon":6.143513,"k":"x","n":"Piscine"}
+],
+"routes":[
+  {"id":1435925,"t":{"ref":"X33","name":"Ligne X33 : Bellegarde - Gare Routère → Divonne-les-Bains - Ancinne gare","from":"Bellegarde - Gare Routière","to":"Divonne-les-Bains - Ancienne gare","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":11,"s":[[983750553,11]]},
+  {"id":11950838,"t":{"ref":"X33","name":"Ligne X33 : Divonne-les-Bains - Ancienne gare → Bellegarde - Gare Routière","from":"Divonne-les-Bains - Ancienne gare","to":"Bellegarde - Gare Routière","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":11,"s":[[2080973366,1]]},
+  {"id":11950839,"t":{"ref":"X33","name":"Ligne X33 : Bellegarde - Gare Routière → Farges → Divonne-les-Bains - Ancienne gare","from":"Bellegarde - Gare Routière","to":"Divonne-les-Bains - Ancienne Gare","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":19,"s":[[983750553,19]]},
+  {"id":12460309,"t":{"ref":"814","name":"Bus 814: Coppet → Divonne-les-Bains","from":"Coppet, Gare","to":"Divonne-les-Bains, Arbère","network":"Mobilis","operator":"TPN","route":"bus","public_transport:version":"2"},"n":11,"s":[[2080973369,8],[2080973371,9],[2080973366,10],[2080973372,11]]},
+  {"id":12460310,"t":{"ref":"814","name":"Bus 814: Divonne-les-Bains → Coppet","from":"Divonne-les-Bains, Arbère","to":"Coppet, Gare","network":"Mobilis","operator":"TPN","route":"bus","public_transport:version":"2"},"n":11,"s":[[2080973365,1],[983750553,2],[2080973342,3],[2080973368,4]]},
+  {"id":14316851,"t":{"ref":"818","name":"Bus 818: Gex → Nyon","from":"Gex, Centre","to":"Nyon, Gare","network":"Mobilis","operator":"TPN","route":"bus","public_transport:version":"2"},"n":12,"s":[[2080973365,4],[983750553,5],[2080973342,6],[10005109719,7]]},
+  {"id":14316852,"t":{"ref":"818","name":"Bus 818: Nyon → Gex","from":"Nyon, Gare","to":"Gex, Centre","network":"Mobilis","operator":"TPN","route":"bus","public_transport:version":"2"},"n":11,"s":[[10005109717,5],[2080973371,6],[2080973366,7],[2080973372,8]]},
+  {"id":18543661,"t":{"ref":"818","name":"Bus 818: Divonne-les-Bains → Nyon","from":"Divonne-les-Bains - Ancienne gare","to":"Nyon, Gare","network":"Mobilis","operator":"TPN","route":"bus","public_transport:version":"2"},"n":8,"s":[[983750553,1],[2080973342,2],[10005109719,3]]},
+  {"id":18543662,"t":{"ref":"818","name":"Bus 818: Nyon → Divonne-les-Bains","from":"Nyon, Gare","to":"Divonne-les-Bains - Ancienne Gare","network":"Mobilis","operator":"TPN","route":"bus","public_transport:version":"2"},"n":7,"s":[[10005109717,5],[2080973371,6],[2080973366,7]]},
+  {"id":3031507762633,"t":{"ref":"X33","name":"Ligne X33 : Divonne-les-Bains - Ancienne gare → Farges → Bellegarde - Gare Routière","from":"Divonne-les-Bains - Ancienne gare","to":"Bellegarde - Gare Routière","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":15,"s":[[8041631589,1]]},
+  {"id":3049338737066,"t":{"ref":"X33","name":"Ligne X33 : Divonne-les-Bains - Ancienne gare → Farges → Bellegarde - Gare Routière","from":"Divonne-les-Bains - Ancienne gare","to":"Bellegarde - Gare Routière","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":16,"s":[[8041631589,16]]},
+  {"id":3077442442329,"t":{"ref":"X33","name":"Ligne X33 : Divonne-les-Bains - Ancienne gare → Farges → Bellegarde - Gare Routière","from":"Divonne-les-Bains - Ancienne gare","to":"Bellegarde - Gare Routière","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":15,"s":[[8041631589,1]]},
+  {"id":3089160793322,"t":{"ref":"X33","name":"Ligne X33 : Divonne-les-Bains - Ancienne gare → Farges → Bellegarde - Gare Routière","from":"Divonne-les-Bains - Ancienne gare","to":"Bellegarde - Gare Routière","network":"Cars Région Express","route":"bus","public_transport:version":"2"},"n":16,"s":[[8041631589,16]]}
+]
+}

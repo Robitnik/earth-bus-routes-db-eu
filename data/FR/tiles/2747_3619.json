@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2747,3619],
+"stops":[
+  {"id":2293904466,"lat":47.391955,"lon":0.979331,"k":"x","n":"Pagode"},
+  {"id":5861654164,"lat":47.398983,"lon":0.966627,"k":"x"},
+  {"id":7411980086,"lat":47.399283,"lon":0.981972,"k":"s","n":"Gare Routière"},
+  {"id":10209349125,"lat":47.398603,"lon":0.972882,"k":"x"},
+  {"id":11132599462,"lat":47.399473,"lon":0.981661,"k":"x","n":"Gare routière"},
+  {"id":12676769966,"lat":47.398699,"lon":0.973137,"k":"x"},
+  {"id":12676769976,"lat":47.396765,"lon":0.984327,"k":"x","n":"Amboise — Médiathèque"},
+  {"id":13714653114,"lat":47.398979,"lon":0.96661,"k":"p"},
+  {"id":5000400563670,"lat":47.391982,"lon":0.979478,"k":"p","n":"Pagode"}
+],
+"routes":[
+  {"id":3107977,"t":{"ref":"TA","name":"TA : Amboise -> Chateau","from":"Amboise — Pagode","to":"Château-Renault — Gare SNCF","network":"Rémi","colour":"#3c6727","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000400563670,1]]},
+  {"id":6012626,"t":{"ref":"C","name":"C : Tours -> Montrichard via Mini-Chateaux","from":"Tours – Halte Routière","to":"Montrichard – Place de Gaulle","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000400563670,20]]},
+  {"id":6012765,"t":{"ref":"C","name":"C : Montrichard -> Tours via Mini-Chateaux","from":"Montrichard – Place de Gaulle","to":"Tours – Halte Routière","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000400563670,6]]},
+  {"id":6050609,"t":{"ref":"TA","name":"TA : Chateau -> Amboise","from":"Château-Renault — Gare SNCF","to":"Amboise — Pagode","network":"Rémi","colour":"#3c6727","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000400563670,19]]},
+  {"id":6050982,"t":{"ref":"TB","name":"TB : Amboise -> Athée","from":"Amboise — Gare SNCF","to":"Athée-sur-Cher — Église","network":"Rémi","colour":"#6f85c5","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000400563670,4]]},
+  {"id":6050983,"t":{"ref":"TB","name":"TB : Athée -> Amboise","from":"Athée-sur-Cher — Église","to":"Amboise — Gare SNCF","network":"Rémi","colour":"#6f85c5","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000400563670,8]]},
+  {"id":6074193,"t":{"ref":"LMC","name":"LMC : Amboise -> Rilly","from":"Amboise − Lycées","to":"Rilly-sur-Vienne − Mairie","network":"Rémi","colour":"#efa23c","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000400563670,1]]},
+  {"id":6074194,"t":{"ref":"LMC","name":"LMC : Rilly -> Amboise","from":"Rilly-sur-Vienne − Mairie","to":"Amboise − Lycées","network":"Rémi","colour":"#efa23c","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000400563670,8]]},
+  {"id":3006035126165,"t":{"ref":"C","name":"C : Montrichard -> Tours","from":"Montrichard – Place de Gaulle","to":"Tours – Halte Routière","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000400563670,5],[11132599462,6]]},
+  {"id":3018895084274,"t":{"ref":"C","name":"C : Tours -> Amboise","from":"Tours − Halte Routière","to":"Amboise − Pagode","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":24,"s":[[11132599462,24]]},
+  {"id":3019427758554,"t":{"ref":"C","name":"C : Tours -> Montlouis via Émile Zola","from":"Tours − Halte Routière","to":"Montlouis-sur-Loire − Husseau","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":10,"s":[[11132599462,1]]},
+  {"id":3022038353726,"t":{"ref":"C","name":"C : Montrichard -> Tours","from":"Montrichard – Place de Gaulle","to":"Tours – Halte Routière","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000400563670,5],[11132599462,6]]},
+  {"id":3046150060592,"t":{"ref":"C","name":"C : Tours -> Montrichard","from":"Tours – Halte Routière","to":"Montrichard – Place de Gaulle","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":30,"s":[[11132599462,25],[5000400563670,26]]},
+  {"id":3069010472099,"t":{"ref":"C","name":"C : Tours -> Montlouis via Émile Zola","from":"Tours − Halte Routière","to":"Montlouis-sur-Loire − Husseau","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":10,"s":[[11132599462,1]]},
+  {"id":3074683917802,"t":{"ref":"C","name":"C : Tours -> Amboise","from":"Tours − Halte Routière","to":"Amboise − Pagode","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":24,"s":[[11132599462,24]]},
+  {"id":3081247834250,"t":{"ref":"C","name":"C : Amboise -> Tours","from":"Amboise − Pagode","to":"Tours − Halte Routière","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":25,"s":[[11132599462,1]]},
+  {"id":3093427900710,"t":{"ref":"C","name":"C : Tours -> Montrichard","from":"Tours – Halte Routière","to":"Montrichard – Place de Gaulle","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":30,"s":[[11132599462,25],[5000400563670,26]]},
+  {"id":3095174362368,"t":{"ref":"C","name":"C : Amboise -> Tours","from":"Amboise − Pagode","to":"Tours − Halte Routière","network":"Rémi","colour":"#5ed2e9","route":"bus","public_transport:version":"2"},"n":25,"s":[[11132599462,1]]}
+]
+}

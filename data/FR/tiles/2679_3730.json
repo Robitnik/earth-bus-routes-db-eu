@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2679,3730],
+"stops":[
+  {"id":3496892240,"lat":43.966829,"lon":6.506906,"k":"x","n":"Saint-André-les-Alpes"},
+  {"id":3496892953,"lat":43.966151,"lon":6.506746,"k":"x","n":"Saint-André-les-Alpes"},
+  {"id":3710277070,"lat":43.98305,"lon":6.526886,"k":"p","n":"La Mure-Argens"},
+  {"id":3710277071,"lat":43.983036,"lon":6.527005,"k":"p","n":"La Mure-Argens"},
+  {"id":3887885938,"lat":43.969934,"lon":6.506425,"k":"x","n":"Saint-André-les-Alpes - Gare"},
+  {"id":5698453943,"lat":43.96992,"lon":6.506452,"k":"p","n":"Saint-André-les-Alpes - Gare","ref":"967"},
+  {"id":5698459471,"lat":43.966825,"lon":6.506963,"k":"p","n":"Saint-André-les-Alpes"},
+  {"id":5698459472,"lat":43.966148,"lon":6.506697,"k":"p","n":"Saint-André-les-Alpes"},
+  {"id":10743394946,"lat":43.969865,"lon":6.511496,"k":"p","n":"Saint-André-les-Alpes - Collège René Cassin"},
+  {"id":10743394947,"lat":43.969882,"lon":6.511466,"k":"x","n":"Saint-André-les-Alpes - Collège René Cassin"},
+  {"id":10743564044,"lat":43.968509,"lon":6.508436,"k":"p","n":"Saint-André-les-Alpes - École"},
+  {"id":10743564045,"lat":43.968483,"lon":6.508418,"k":"x","n":"Saint-André-les-Alpes - École"}
+],
+"routes":[
+  {"id":8279851,"t":{"ref":"451","name":"Bus 451 : Castellane => Saint-André-les-Alpes","from":"Castellane","to":"Saint-André-les-Alpes","network":"Zou !","operator":"CDC Voyages","colour":"#fd8813","route":"bus","public_transport:version":"2"},"n":3,"s":[[5698453943,3]]},
+  {"id":10058252,"t":{"ref":"451","name":"Bus 451 : Saint-André-les-Alpes => Castellane","from":"Saint-André-les-Alpes","to":"Castellane","network":"Zou !","operator":"CDC Voyages","colour":"#fd8813","route":"bus","public_transport:version":"2"},"n":3,"s":[[5698453943,1]]},
+  {"id":15098286,"t":{"ref":"51","name":"Bus 51 : Nice - Aéroport => Digne-les-Bains - Gare Routière","from":"Nice - Aéroport","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"SCAL;Phocéens Cars","colour":"#61cef6","route":"bus","public_transport:version":"2"},"n":20,"s":[[5698453943,14]]},
+  {"id":15098287,"t":{"ref":"51","name":"Bus 51 : Digne-les-Bains - Gare Routière => Nice - Aéroport","from":"Digne-les-Bains - Gare Routière","to":"Nice - Aéroport","network":"Zou !","operator":"SCAL;Phocéens Cars","colour":"#61cef6","route":"bus","public_transport:version":"2"},"n":21,"s":[[5698453943,7]]},
+  {"id":15616365,"t":{"ref":"4306","name":"Bus 4306 : Saint-André-les-Alpes => Colmars-les-Alpes => Allos","from":"Saint-André-les-Alpes","to":"Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10743394946,1]]},
+  {"id":15616366,"t":{"ref":"4306","name":"Bus 4306 : Allos => Colmars-les-Alpes => Saint-André-les-Alpes","from":"Allos","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10743394946,10]]},
+  {"id":15616449,"t":{"ref":"4307","name":"Bus 4307 : Saint-André-les-Alpes => Villars-Colmars","from":"Saint-André-les-Alpes","to":"Villars-Colmars","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10743394946,1]]},
+  {"id":15616450,"t":{"ref":"4307","name":"Bus 4307 : Villars-Colmars => Saint-André-les-Alpes","from":"Villars-Colmars","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10743394946,11]]},
+  {"id":15616592,"t":{"ref":"4203","name":"Bus 4203 : Saint-André-les-Alpes => Barrême","from":"Saint-André-les-Alpes","to":"Barrême","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10743394946,1]]},
+  {"id":15616593,"t":{"ref":"4203","name":"Bus 4203 : Barrême => Saint-André-les-Alpes","from":"Barrême","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10743394946,3]]},
+  {"id":15616763,"t":{"ref":"4202","name":"Bus 4202 : Saint-André-les-Alpes => Allons","from":"Saint-André-les-Alpes","to":"Allons","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10743564044,1],[10743394946,2]]},
+  {"id":15616764,"t":{"ref":"4202","name":"Bus 4202 : Allons => Saint-André-les-Alpes","from":"Allons","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10743394946,3],[10743564044,4]]},
+  {"id":15623340,"t":{"ref":"4204","name":"Bus 4204 : Saint-André-les-Alpes => Moriez","from":"Saint-André-les-Alpes","to":"Moriez","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":2,"s":[[10743564044,1]]},
+  {"id":15623341,"t":{"ref":"4204","name":"Bus 4204 : Moriez => Saint-André-les-Alpes","from":"Moriez","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":2,"s":[[10743564044,2]]},
+  {"id":15626975,"t":{"ref":"4208","name":"Bus 4208 : Saint-André-les-Alpes => Saint-Julien-du-Verdon => Vergons","from":"Saint-André-les-Alpes","to":"Vergons","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10743564044,1],[10743394946,2]]},
+  {"id":15626976,"t":{"ref":"4208","name":"Bus 4208 : Vergons => Saint-Julien-du-Verdon => Saint-André-les-Alpes","from":"Vergons","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10743394946,4],[10743564044,5]]}
+]
+}

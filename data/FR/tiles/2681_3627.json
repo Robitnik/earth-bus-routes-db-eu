@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3627],
+"stops":[
+  {"id":2705649707,"lat":44.053402,"lon":1.359011,"k":"p","n":"Birac"},
+  {"id":2705649709,"lat":44.055766,"lon":1.360257,"k":"p","n":"École Birac"},
+  {"id":2705649710,"lat":44.055411,"lon":1.363179,"k":"p","n":"Ch. Fustié"},
+  {"id":2705649712,"lat":44.050668,"lon":1.360236,"k":"p","n":"Ch. Birac"},
+  {"id":6710270934,"lat":44.055327,"lon":1.397232,"k":"p","n":"Mimosas"},
+  {"id":6710293160,"lat":44.050416,"lon":1.385487,"k":"p","n":"Frayé"},
+  {"id":6710293161,"lat":44.050063,"lon":1.385488,"k":"p","n":"Frayé"},
+  {"id":6710304088,"lat":44.05212,"lon":1.386109,"k":"p","n":"Granes"},
+  {"id":6710306553,"lat":44.054499,"lon":1.394757,"k":"p","n":"Coquelicots"},
+  {"id":6033529771166,"lat":44.057713,"lon":1.399862,"k":"p","n":"LARROQUE","g":1},
+  {"id":6062415545384,"lat":44.057543,"lon":1.399862,"k":"p","n":"LARROQUE","g":1},
+  {"id":6073873829710,"lat":44.051734,"lon":1.386382,"k":"p","n":"GRANES","g":1},
+  {"id":6090374827664,"lat":44.051694,"lon":1.386632,"k":"p","n":"GRANES","g":1}
+],
+"routes":[
+  {"id":3560105,"t":{"ref":"7","name":"Bus Ligne 7 Birac → Prax Paris Sud","network":"Le Bus TM","operator":"SEMTM","colour":"#7B4946","route":"bus"},"n":22,"s":[[2705649707,1]]},
+  {"id":3560106,"t":{"ref":"7","name":"Bus Ligne 7 Prax Paris Sud → Birac","from":"Prax Paris Sud","to":"Birac","network":"Le Bus TM","operator":"SEMTM","colour":"#7B4946","route":"bus","public_transport:version":"2"},"n":22,"s":[[2705649712,19],[2705649710,20],[2705649709,21],[2705649707,22]]},
+  {"id":3000585537551,"t":{"ref":"F","name":"F: BIRAC - MONTBETON PLACE ALIBERT","from":"BIRAC","to":"MONTBETON PLACE ALIBERT","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":32,"s":[[2705649707,1]]},
+  {"id":3032634240165,"t":{"ref":"F","name":"F: BIRAC - PONT DE L'AVENIR","from":"BIRAC","to":"PONT DE L'AVENIR","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":27,"s":[[2705649707,1]]},
+  {"id":3043134144219,"t":{"ref":"H","name":"H: FONNEUVE CENTRE - RAMIEROU","from":"FONNEUVE CENTRE","to":"RAMIEROU","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":35,"s":[[6033529771166,2],[6710270934,3],[6710306553,4],[6090374827664,5],[6710293161,6]]},
+  {"id":3060795010207,"t":{"ref":"F","name":"F: MONTBETON PLACE ALIBERT - CHEMIN BIRAC","from":"MONTBETON PLACE ALIBERT","to":"CHEMIN BIRAC","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":30,"s":[[2705649712,30]]},
+  {"id":3064621168162,"t":{"ref":"F","name":"F: CHEMIN BIRAC - BIRAC","from":"CHEMIN BIRAC","to":"BIRAC","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":4,"s":[[2705649712,1],[2705649710,2],[2705649709,3],[2705649707,4]]},
+  {"id":3065247561504,"t":{"ref":"H","name":"H: RAMIEROU - FONNEUVE CENTRE","from":"RAMIEROU","to":"FONNEUVE CENTRE","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":34,"s":[[6710293160,29],[6073873829710,30],[6710306553,31],[6710270934,32],[6062415545384,33]]},
+  {"id":3094930492984,"t":{"ref":"F","name":"F: PONT DE L'AVENIR - CHEMIN BIRAC","from":"PONT DE L'AVENIR","to":"CHEMIN BIRAC","operator":"SEMTM","route":"bus","public_transport:version":"2"},"n":25,"s":[[2705649712,25]]}
+]
+}

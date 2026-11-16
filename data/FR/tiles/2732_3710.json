@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2732,3710],
+"stops":[
+  {"id":3707402732,"lat":46.626869,"lon":5.529768,"k":"p","n":"Village"},
+  {"id":5627346861,"lat":46.642108,"lon":5.501665,"k":"p","n":"CFA"},
+  {"id":5627346862,"lat":46.641846,"lon":5.501708,"k":"p","n":"Garage"},
+  {"id":5689191685,"lat":46.648406,"lon":5.536541,"k":"p","n":"Revermont"},
+  {"id":5691967502,"lat":46.64577,"lon":5.539576,"k":"p","n":"Groupe scolaire"},
+  {"id":5691967690,"lat":46.64436,"lon":5.540242,"k":"p","n":"Place Jean Moulin"},
+  {"id":10707742167,"lat":46.642104,"lon":5.501798,"k":"x","n":"CFA"},
+  {"id":10707742168,"lat":46.641786,"lon":5.501548,"k":"x","n":"Garage"},
+  {"id":10707742170,"lat":46.626431,"lon":5.529902,"k":"p","n":"Village"},
+  {"id":10707742171,"lat":46.626887,"lon":5.529886,"k":"x","n":"Village"},
+  {"id":10707834533,"lat":46.648438,"lon":5.536288,"k":"x","n":"Revermont"},
+  {"id":10707834535,"lat":46.645819,"lon":5.539387,"k":"x","n":"Groupe scolaire"},
+  {"id":10707834536,"lat":46.644338,"lon":5.540202,"k":"x","n":"Place Jean Moulin"},
+  {"id":12097193412,"lat":46.636239,"lon":5.507134,"k":"p","n":"École"},
+  {"id":12097193414,"lat":46.636316,"lon":5.507154,"k":"x","n":"École"},
+  {"id":6066851752408,"lat":46.642529,"lon":5.502185,"k":"p","n":"CFA","g":1},
+  {"id":6069188035194,"lat":46.642528,"lon":5.502185,"k":"p","n":"CFA","g":1}
+],
+"routes":[
+  {"id":17873026,"t":{"ref":"104a","name":"Scolaire 104 : Geruge → Macornay","from":"Geruge","to":"Macornay","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10707742170,1],[5691967502,3]]},
+  {"id":17873106,"t":{"ref":"104a","name":"Scolaire 104 : Macornay → Bornay","from":"Bornay","to":"Macornay","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5691967502,1],[3707402732,2]]},
+  {"id":17873107,"t":{"ref":"104b","name":"Scolaire 104 : Vernantois → Macornay","from":"Vernantois","to":"Macornay","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5691967502,3]]},
+  {"id":17873112,"t":{"ref":"104b","name":"Scolaire 104 : Macornay → Vernantois","from":"Macornay","to":"Vernantois","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5691967502,1]]},
+  {"id":17916452,"t":{"ref":"106c","name":"Scolaire 106 : Cesancey Mairie → Cesancey Mairie","from":"Condamine","to":"Lons-le-Saunier","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[12097193412,3]]},
+  {"id":17916453,"t":{"ref":"106b","name":"Scolaire 106 : Cesancey Mairie → Cesancey Bas","from":"Condamine","to":"Lons-le-Saunier","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[12097193412,1]]},
+  {"id":17916454,"t":{"ref":"106a","name":"Scolaire 106 : Gevingey → Cesancey","from":"Condamine","to":"Lons-le-Saunier","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[12097193412,1,4]]},
+  {"id":17916488,"t":{"ref":"101a","name":"Scolaire 101 : Geruge → Lons-le-Saunier","from":"Geruge","to":"Lons-le-Saunier","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10707742170,1],[5691967690,3]]},
+  {"id":17916540,"t":{"ref":"101b","name":"Scolaire 101 : Vernantois → Lons-le-Saunier","from":"Vernantois","to":"Lons-le-Saunier","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[5689191685,2]]},
+  {"id":17916556,"t":{"ref":"101a","name":"Scolaire 101 : Lons-le-Saunier → Bornay","from":"Lons-le-Saunier","to":"Bornay","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[5691967690,6],[3707402732,7]]},
+  {"id":17918825,"t":{"ref":"101d","name":"Scolaire 101 : Lons-le-Saunier Gare SNCF → Vernantois (par Geruge et Bornay)","from":"Lons-le-Saunier Gare SNCF","to":"Vernantois","network":"ECLA Lons Agglo Mobilités","operator":"Mobilités Bourgogne-Franche-Comté","colour":"#AF158E","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[5691967690,2],[3707402732,3]]},
+  {"id":19147711,"t":{"name":"Ligne Mobigo 303 : Bourg-en-Bresse Express => Lons-le-Saunier","from":"Bourg-en-Bresse - Labalme","to":"Lons-le-Saunier - Thurel","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#ff00ff","route":"bus","public_transport:version":"2"},"n":37,"s":[[5627346862,31]]},
+  {"id":3004925773560,"t":{"ref":"303","name":"Ligne Mobigo 303 : Lons-le-Saunier => Bourg-en-Bresse Express","from":"Lons-le-Saunier - Thurel","to":"Bourg-en-Bresse - Labalme","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#ff00ff","route":"bus","public_transport:version":"2"},"n":33,"s":[[6069188035194,6]]},
+  {"id":3006073604320,"t":{"ref":"303","name":"Ligne Mobigo 303 : Lons-le-Saunier => Bourg-en-Bresse Express","from":"Lons-le-Saunier - Thurel","to":"Bourg-en-Bresse - Labalme","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#ff00ff","route":"bus","public_transport:version":"2"},"n":34,"s":[[6066851752408,6]]}
+]
+}

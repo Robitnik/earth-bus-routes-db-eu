@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2760,3585],
+"stops":[
+  {"id":3792810116,"lat":48.044702,"lon":-0.742198,"k":"p","n":"Chainais"},
+  {"id":3792810117,"lat":48.038501,"lon":-0.737983,"k":"p","n":"Croix Bataille"},
+  {"id":3792810118,"lat":48.041397,"lon":-0.733574,"k":"p","n":"Belle Plante"},
+  {"id":3792810119,"lat":48.041022,"lon":-0.736104,"k":"p","n":"Vendéens"},
+  {"id":3792810120,"lat":48.042057,"lon":-0.739342,"k":"p","n":"Ste Hélène"},
+  {"id":7549563189,"lat":48.033703,"lon":-0.748517,"k":"p","n":"Étronnier"},
+  {"id":7549563190,"lat":48.033484,"lon":-0.704721,"k":"p","n":"Bourg"},
+  {"id":7549563191,"lat":48.033309,"lon":-0.704792,"k":"p","n":"Bourg"},
+  {"id":8059392479,"lat":48.02735,"lon":-0.735586,"k":"p","n":"Montauciel"},
+  {"id":12458570463,"lat":48.036703,"lon":-0.711522,"k":"p"},
+  {"id":6012482879190,"lat":48.014805,"lon":-0.730668,"k":"p","n":"Riblay","g":1},
+  {"id":6017994700923,"lat":48.014803,"lon":-0.730668,"k":"p","n":"Riblay","g":1},
+  {"id":6024261345164,"lat":48.000603,"lon":-0.716342,"k":"p","n":"Salle des Fêtes","g":1},
+  {"id":6072593004097,"lat":48.000604,"lon":-0.716342,"k":"p","n":"Salle des Fêtes","g":1}
+],
+"routes":[
+  {"id":19532104,"t":{"ref":"109E","name":"Car Aléop 109E : Gare Routière SNCF départ → École Fratellini","from":"Gare Routière SNCF départ","to":"École Fratellini","network":"Aléop","operator":"Aléop","colour":"#831F82","route":"bus","public_transport:version":"2"},"n":8,"s":[[7549563191,5]]},
+  {"id":19532105,"t":{"ref":"109E","name":"Car Aléop 109E : École Fratellini → Gare Routière SNCF arrivée","from":"École Fratellini","to":"Gare Routière SNCF arrivée","network":"Aléop","operator":"Aléop","colour":"#831F82","route":"bus","public_transport:version":"2"},"n":8,"s":[[7549563190,4]]},
+  {"id":19532106,"t":{"ref":"109","name":"Car Aléop 109 : Gare Routière SNCF départ → Poste","from":"Gare Routière SNCF départ","to":"Poste","network":"Aléop","operator":"Aléop","colour":"#831F82","route":"bus","public_transport:version":"2"},"n":13,"s":[[7549563191,4]]},
+  {"id":19532107,"t":{"ref":"109","name":"Car Aléop 109 : Poste → Gare Routière SNCF arrivée","from":"Poste","to":"Gare Routière SNCF arrivée","network":"Aléop","operator":"Aléop","colour":"#831F82","route":"bus","public_transport:version":"2"},"n":16,"s":[[7549563190,10]]},
+  {"id":3002005840965,"t":{"ref":"Z3.","name":"Z3.: Riblay - Alain Gerbault","from":"Riblay","to":"Alain Gerbault","operator":"TUL","route":"bus","public_transport:version":"2"},"n":7,"s":[[6017994700923,1]]},
+  {"id":3011462350855,"t":{"ref":"Z3.","name":"Z3.: Tannerie - Alain Gerbault","from":"Tannerie","to":"Alain Gerbault","operator":"TUL","route":"bus","public_transport:version":"2"},"n":5,"s":[[7549563190,3]]},
+  {"id":3013297612795,"t":{"ref":"Z3.","name":"Z3.: Riblay - 11 Novembre","from":"Riblay","to":"11 Novembre","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6012482879190,1],[6024261345164,2],[8059392479,6]]},
+  {"id":3028770897789,"t":{"ref":"Z3.","name":"Z3.: Picouillère - Ridelleries","from":"Picouillère","to":"Ridelleries","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[7549563190,6]]},
+  {"id":3036170979619,"t":{"ref":"Z3.","name":"Z3.: Salle des Fêtes - Alain Gerbault","from":"Salle des Fêtes","to":"Alain Gerbault","operator":"TUL","route":"bus","public_transport:version":"2"},"n":6,"s":[[6024261345164,1],[7549563190,3]]},
+  {"id":3045321564496,"t":{"ref":"Z3.","name":"Z3.: Riblay - 11 Novembre Verdun","from":"Riblay","to":"11 Novembre Verdun","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6017994700923,1],[6072593004097,2],[8059392479,6]]},
+  {"id":3052677155542,"t":{"ref":"Z3.","name":"Z3.: Riblay - Alain Gerbault","from":"Riblay","to":"Alain Gerbault","operator":"TUL","route":"bus","public_transport:version":"2"},"n":8,"s":[[6012482879190,1],[8059392479,5]]},
+  {"id":3064160248113,"t":{"ref":"E109","name":"E109: Villebois Mareuil - Gare Routière SNCF arrivée","from":"Villebois Mareuil","to":"Gare Routière SNCF arrivée","operator":"Aléop en Mayenne","route":"bus","public_transport:version":"2"},"n":9,"s":[[7549563191,5]]},
+  {"id":3071713735392,"t":{"ref":"Z3.","name":"Z3.: Riblay - Grat","from":"Riblay","to":"Grat","operator":"TUL","route":"bus","public_transport:version":"2"},"n":11,"s":[[6017994700923,1],[6072593004097,2],[8059392479,6]]},
+  {"id":3071819253750,"t":{"ref":"Z3.","name":"Z3.: Hydouze - Montauciel","from":"Hydouze","to":"Montauciel","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6017994700923,7],[6072593004097,8],[8059392479,12]]},
+  {"id":3078193220068,"t":{"ref":"Z3.","name":"Z3.: Hydouze - Montauciel","from":"Hydouze","to":"Montauciel","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6012482879190,7],[6024261345164,8],[8059392479,12]]},
+  {"id":3079569634114,"t":{"ref":"Z3.","name":"Z3.: Salle des Fêtes - Alain Gerbault","from":"Salle des Fêtes","to":"Alain Gerbault","operator":"TUL","route":"bus","public_transport:version":"2"},"n":6,"s":[[6072593004097,1],[7549563190,3]]},
+  {"id":3090371232918,"t":{"ref":"Z3.","name":"Z3.: Tannerie - Alain Gerbault","from":"Tannerie","to":"Alain Gerbault","operator":"TUL","route":"bus","public_transport:version":"2"},"n":5,"s":[[7549563190,3]]},
+  {"id":3094456267643,"t":{"ref":"Z3.","name":"Z3.: Picouillère - Ridelleries","from":"Picouillère","to":"Ridelleries","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[7549563190,6]]},
+  {"id":3094796816672,"t":{"ref":"E109","name":"E109: Villebois Mareuil - Gare Routière SNCF arrivée","from":"Villebois Mareuil","to":"Gare Routière SNCF arrivée","operator":"Aléop en Mayenne","route":"bus","public_transport:version":"2"},"n":9,"s":[[7549563191,5]]},
+  {"id":3097007797550,"t":{"ref":"Z3.","name":"Z3.: Riblay - Grat","from":"Riblay","to":"Grat","operator":"TUL","route":"bus","public_transport:version":"2"},"n":11,"s":[[6012482879190,1],[6024261345164,2],[8059392479,6]]}
+]
+}

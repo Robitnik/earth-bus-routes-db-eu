@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2666,3667],
+"stops":[
+  {"id":4218728994,"lat":43.314183,"lon":3.377827,"k":"p","n":"La Source"},
+  {"id":10799383519,"lat":43.320431,"lon":3.353298,"k":"p","n":"Aéroport"},
+  {"id":10799383520,"lat":43.320501,"lon":3.353255,"k":"x","n":"Aéroport"},
+  {"id":10831752861,"lat":43.314765,"lon":3.37729,"k":"x","n":"Embranchement de Preignes"},
+  {"id":10831752862,"lat":43.314807,"lon":3.377235,"k":"p","n":"Embranchement de Preignes"},
+  {"id":10831752863,"lat":43.314704,"lon":3.380367,"k":"p","n":"Embranchement de Preignes"},
+  {"id":10831752864,"lat":43.314779,"lon":3.380195,"k":"x","n":"Embranchement de Preignes"},
+  {"id":10831752865,"lat":43.314208,"lon":3.361323,"k":"x","n":"Dragonnière"},
+  {"id":10831752866,"lat":43.31427,"lon":3.3612,"k":"p","n":"Dragonnière"},
+  {"id":10831752867,"lat":43.314091,"lon":3.359743,"k":"x","n":"Dragonnière"},
+  {"id":10831752868,"lat":43.314023,"lon":3.359858,"k":"p","n":"Dragonnière"},
+  {"id":6062940832582,"lat":43.314715,"lon":3.378771,"k":"p","n":"VIAS - Emb. Preignes","g":1}
+],
+"routes":[
+  {"id":14432403,"t":{"ref":"660","name":"Ligne 660 (Navette Aéroport) : Aéroport → Marseillan","from":"Aéroport","to":"Marseillan - Gare Routière","network":"liO","operator":"liO","colour":"#ce1f7e","route":"bus","public_transport:version":"2"},"n":4,"s":[[10799383519,1]]},
+  {"id":14432405,"t":{"ref":"660","name":"Bus 660 (Navette Aéroport) : Aéroport → Béziers","from":"Aéroport","to":"Béziers - Gare SNCF Bas","network":"liO","operator":"liO","colour":"#ce1f7e","route":"bus","public_transport:version":"2"},"n":2,"s":[[10799383519,1]]},
+  {"id":14432406,"t":{"ref":"660","name":"Ligne 660 (Navette Aéroport) : Marseillan → Aéroport","from":"Marseillan - Gare Routière","to":"Aéroport","network":"liO","operator":"liO","colour":"#ce1f7e","route":"bus","public_transport:version":"2"},"n":4,"s":[[10799383519,4]]},
+  {"id":14474692,"t":{"ref":"660","name":"Ligne 660 (Navette Aéroport) : Béziers → Aéroport","from":"Béziers - Gare SNCF Bas","to":"Aéroport","network":"liO","operator":"liO","colour":"#ce1f7e","route":"bus","public_transport:version":"2"},"n":2,"s":[[10799383519,2]]},
+  {"id":14480502,"t":{"ref":"650","name":"Ligne 650 : Marseillan → Béziers","from":"Marseillan - Écoles","to":"Béziers - De Gaulle","network":"liO","operator":"liO","colour":"#4b708b","route":"bus","public_transport:version":"2"},"n":14,"s":[[10831752862,9],[10831752866,10]]},
+  {"id":15753175,"t":{"ref":"650","name":"Ligne 650 : Béziers → Marseillan","from":"Béziers - Frédéric Mistral","to":"Marseillan - Avenue des Amants","network":"liO","operator":"liO","colour":"#4b708b","route":"bus","public_transport:version":"2"},"n":14,"s":[[10831752868,5],[10831752863,6]]},
+  {"id":3084553194594,"t":{"ref":"650","name":"650: BEZIERS - Gare Routière De Gaulle - MARSEILLAN - Ecoles","from":"BEZIERS - Gare Routière De Gaulle","to":"MARSEILLAN - Ecoles","operator":"Herault Transport","route":"bus","public_transport:version":"2"},"n":26,"s":[[10831752865,5],[6062940832582,6]]}
+]
+}

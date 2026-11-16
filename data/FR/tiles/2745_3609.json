@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2745,3609],
+"stops":[
+  {"id":280722412,"lat":47.263278,"lon":0.456149,"k":"x","n":"La Scierie"},
+  {"id":296140104,"lat":47.262288,"lon":0.466081,"k":"x","n":"Azay-le-Rideau - Mairie/Centre"},
+  {"id":610453772,"lat":47.263197,"lon":0.456545,"k":"x","n":"La Scierie"},
+  {"id":837948000,"lat":47.264777,"lon":0.471152,"k":"x"},
+  {"id":992381949,"lat":47.266457,"lon":0.4735,"k":"x","n":"Rue Georges Jehan"},
+  {"id":1348994583,"lat":47.252272,"lon":0.465142,"k":"x","n":"Cheillé − Salle des Fêtes"},
+  {"id":1742575724,"lat":47.262386,"lon":0.466127,"k":"x","n":"Azay-le-Rideau - Mairie/Centre"},
+  {"id":4045683881,"lat":47.26508,"lon":0.471307,"k":"x","n":"Allée des Tilleuls"},
+  {"id":4045683882,"lat":47.266518,"lon":0.471518,"k":"x","n":"Bellevue"},
+  {"id":4045683883,"lat":47.254852,"lon":0.462517,"k":"x","n":"Cheillé − Mairie"},
+  {"id":5000392257727,"lat":47.263293,"lon":0.456211,"k":"p","n":"La Scierie"},
+  {"id":5000392257728,"lat":47.263162,"lon":0.456554,"k":"p","n":"La Scierie"},
+  {"id":5000395817976,"lat":47.26236,"lon":0.466168,"k":"p","n":"Azay-le-Rideau − Mairie-Centre"},
+  {"id":5000395817981,"lat":47.262307,"lon":0.466029,"k":"p","n":"Azay-le-Rideau − Mairie-Centre"},
+  {"id":5000402144704,"lat":47.265096,"lon":0.471278,"k":"p","n":"Allée des Tilleuls"},
+  {"id":5000402144706,"lat":47.266501,"lon":0.471526,"k":"p","n":"Bellevue"},
+  {"id":5000402144707,"lat":47.266551,"lon":0.47149,"k":"p","n":"Bellevue"},
+  {"id":5000402144708,"lat":47.254823,"lon":0.462542,"k":"p","n":"Cheillé − Mairie"},
+  {"id":5000402144709,"lat":47.254899,"lon":0.462487,"k":"p","n":"Cheillé − Mairie"},
+  {"id":5000402144710,"lat":47.252181,"lon":0.464988,"k":"p","n":"Cheillé − Salle des Fêtes"}
+],
+"routes":[
+  {"id":6032683,"t":{"ref":"iV","name":"iV : Azay -> Villaines","from":"Azay-le-Rideau - Gare SNCF","to":"Villaines-les-Rochers − Mairie","network":"Rémi","colour":"#ffa32d","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000395817976,2],[5000402144704,3],[5000402144709,4],[5000402144710,5]]},
+  {"id":6032684,"t":{"ref":"iV","name":"iV : Villaines -> Azay","from":"Villaines-les-Rochers - Mairie","to":"Azay-le-Rideau − Gare SNCF","network":"Rémi","colour":"#ffa32d","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000402144708,2],[5000402144704,3],[5000395817981,4]]},
+  {"id":6064991,"t":{"ref":"TF","name":"TF : Chinon -> Cléré","from":"Chinon - Lycée Rabelais","to":"Cléré-les-Pins − Centre","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000392257727,6]]},
+  {"id":6064992,"t":{"ref":"TF","name":"TF : Chinon -> Langeais via Azay","from":"Chinon − Lycée Rabelais","to":"Langeais − Kiosque","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000402144708,6],[5000395817976,7],[5000402144706,8],[5000392257727,9]]},
+  {"id":6064993,"t":{"ref":"TF","name":"TF : Chinon -> Saint-Patrice","from":"Chinon - Lycée Rabelais","to":"Saint-Patrice − Gare","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000392257727,6]]},
+  {"id":6064994,"t":{"ref":"TF","name":"TF : Cléré -> Chinon","from":"Cléré-les-Pins − Centre","to":"Chinon − Collège Saint Joseph","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000392257728,3]]},
+  {"id":6064995,"t":{"ref":"TF","name":"TF : Langeais -> Chinon via Azay","from":"Langeais - Kiosque","to":"Chinon − Lycée Rabelais","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000392257728,3],[5000402144707,4],[5000395817981,5],[5000402144709,6]]},
+  {"id":6064996,"t":{"ref":"TF","name":"TF : Langeais -> Chinon","from":"Langeais − Kiosque","to":"Chinon − Lycée Rabelais","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000392257728,1]]},
+  {"id":6064997,"t":{"ref":"TF","name":"TF : Saint-Patrice -> Chinon","from":"Saint-Patrice − Gare","to":"Chinon − Lycée Rabelais","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000392257728,3]]},
+  {"id":6065022,"t":{"ref":"TF","name":"TF : Collège -> Cléré","from":"Chinon - Collège Jean Zay","to":"Cléré-les-Pins − Centre","network":"Rémi","colour":"#fca3cd","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000392257727,5]]},
+  {"id":6085563,"t":{"ref":"TER 2.7","name":"Car TER 2.7 : Chinon → Tours via SPDC","from":"Chinon − Gare SNCF","to":"Tours − Halte Routière","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000395817976,3]]},
+  {"id":6085564,"t":{"ref":"TER 2.7","name":"Car TER 2.7 : Chinon → Tours","from":"Chinon − Gare SNCF","to":"Tours − Halte Routière","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000395817976,3]]},
+  {"id":6085565,"t":{"ref":"TER 2.7","name":"Car TER 2.7 : Tours → Chinon via SPDC","from":"Tours − Halte Routière","to":"Chinon − Gare SNCF","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000395817981,5]]},
+  {"id":6085566,"t":{"ref":"TER 2.7","name":"Car TER 2.7 : Tours → Chinon","from":"Tours − Halte Routière","to":"Chinon − Gare SNCF","network":"Car TER Centre - Val de Loire","operator":"SNCF Voyageurs","colour":"#039fe0","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000395817981,5]]}
+]
+}

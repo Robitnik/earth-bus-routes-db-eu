@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2710,3720],
+"stops":[
+  {"id":266713181,"lat":45.541058,"lon":6.037495,"k":"x"},
+  {"id":697658592,"lat":45.501234,"lon":6.027636,"k":"x","n":"Croix Leschaud"},
+  {"id":2252706189,"lat":45.517733,"lon":6.001933,"k":"x","n":"Chignin"},
+  {"id":2617617563,"lat":45.502958,"lon":6.043336,"k":"x","n":"Gare de Montmélian"},
+  {"id":4809981223,"lat":45.528709,"lon":6.037916,"k":"p","n":"Nécuidet"},
+  {"id":4809981225,"lat":45.530872,"lon":6.046249,"k":"p","n":"Morion Haut"},
+  {"id":4809981230,"lat":45.541096,"lon":6.03743,"k":"p","n":"La Guillère"},
+  {"id":4809981231,"lat":45.541725,"lon":6.037325,"k":"p","n":"La Guillère"},
+  {"id":4809981232,"lat":45.54361,"lon":6.03552,"k":"p","n":"Monthoux"},
+  {"id":4809981237,"lat":45.539851,"lon":6.004819,"k":"p","n":"Boisserette"},
+  {"id":6231214249,"lat":45.500541,"lon":6.04914,"k":"x","n":"Espace François Mitterrand"},
+  {"id":8882483212,"lat":45.500988,"lon":6.004964,"k":"p"},
+  {"id":10775265376,"lat":45.549852,"lon":6.041546,"k":"p","n":"Entrenants"},
+  {"id":10775287501,"lat":45.541115,"lon":6.036918,"k":"p","n":"La Guillère"},
+  {"id":10944256837,"lat":45.530771,"lon":6.045018,"k":"p","n":"Morion Bas"},
+  {"id":10945948034,"lat":45.543475,"lon":6.035437,"k":"p","n":"Monthoux"},
+  {"id":10945993861,"lat":45.539772,"lon":6.005048,"k":"p","n":"Boisserette"},
+  {"id":12590002225,"lat":45.543509,"lon":6.035471,"k":"x"},
+  {"id":14141584077,"lat":45.50103,"lon":6.027319,"k":"x","n":"Croix Leschaud"},
+  {"id":5001423671275,"lat":45.500489,"lon":6.04916,"k":"p","n":"Espace François Mitterrand"}
+],
+"routes":[
+  {"id":19484175,"t":{"ref":"Mont'Bus","name":"Mont'Bus","from":"Montmélian - La Chaîne","to":"Montmélian - La Chaîne","network":"Mont'Bus","route":"bus","public_transport:version":"2"},"n":29,"s":[[5001423671275,6]]},
+  {"id":3001962926695,"t":{"ref":"Nav'espace","name":"Nav'espace: Gare de Montmelian - Mermoz","from":"Gare de Montmelian","to":"Mermoz","operator":"cc-coeurdesavoie","route":"bus","public_transport:version":"2"},"n":11,"s":[[2617617563,1]]},
+  {"id":3005141915656,"t":{"ref":"Montbus","name":"Montbus: La Chaine - Dupuy","from":"La Chaine","to":"Dupuy","operator":"cc-coeurdesavoie","route":"bus","public_transport:version":"2"},"n":24,"s":[[6231214249,6],[2617617563,21]]},
+  {"id":3009978410327,"t":{"ref":"14","name":"14 : Collège Jean Mermoz - La Thuile","from":"Collège J. Mermoz","to":"La Guillère","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#f18d7d","route":"bus","public_transport:version":"2"},"n":29,"s":[[10945993861,16],[10945948034,21],[4809981223,22],[10944256837,23],[4809981225,24],[4809981230,29]]},
+  {"id":3025948163393,"t":{"ref":"14","name":"14 : Collège Jean Mermoz - La Thuile","from":"Collège J. Mermoz","to":"La Guillère","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#f18d7d","route":"bus","public_transport:version":"2"},"n":29,"s":[[10945993861,16],[10945948034,21],[4809981223,22],[10944256837,23],[4809981225,24],[4809981230,29]]},
+  {"id":3030480083148,"t":{"ref":"13","name":"13 : Collège Jean Mermoz - La Guillière","from":"Collège J. Mermoz","to":"La Guillère","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#8b7db9","route":"bus","public_transport:version":"2"},"n":21,"s":[[4809981231,21]]},
+  {"id":3031443961970,"t":{"ref":"13","name":"13 : La Guillière - Collège Jean Mermoz","from":"La Guillère","to":"Collège J. Mermoz","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#8b7db9","route":"bus","public_transport:version":"2"},"n":21,"s":[[4809981231,1],[10775265376,2]]},
+  {"id":3032995533493,"t":{"ref":"Nav'espace","name":"Nav'espace: Lavoisier - Amelie Gex","from":"Lavoisier","to":"Amelie Gex","operator":"cc-coeurdesavoie","route":"bus","public_transport:version":"2"},"n":11,"s":[[2617617563,10]]},
+  {"id":3066093816646,"t":{"ref":"13","name":"13 : La Guillière - Collège Jean Mermoz","from":"La Guillère","to":"Collège J. Mermoz","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#8b7db9","route":"bus","public_transport:version":"2"},"n":21,"s":[[4809981231,1],[10775265376,2]]},
+  {"id":3084008231729,"t":{"ref":"13","name":"13 : Collège Jean Mermoz - La Guillière","from":"Collège J. Mermoz","to":"La Guillère","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#8b7db9","route":"bus","public_transport:version":"2"},"n":21,"s":[[4809981231,21]]},
+  {"id":3088708221748,"t":{"ref":"14","name":"14 : La Thuile - Collège Jean Mermoz","from":"Nécuidet","to":"Collège J. Mermoz","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#f18d7d","route":"bus","public_transport:version":"2"},"n":28,"s":[[4809981223,1],[10944256837,2],[4809981225,3],[4809981230,8],[10945948034,9],[4809981237,14]]},
+  {"id":3097942198927,"t":{"ref":"14","name":"14 : La Thuile - Collège Jean Mermoz","from":"Nécuidet","to":"Collège J. Mermoz","network":"Synchro Bus","operator":"Keolis Chambéry","colour":"#f18d7d","route":"bus","public_transport:version":"2"},"n":28,"s":[[4809981223,1],[10944256837,2],[4809981225,3],[4809981230,8],[10945948034,9],[4809981237,14]]}
+]
+}

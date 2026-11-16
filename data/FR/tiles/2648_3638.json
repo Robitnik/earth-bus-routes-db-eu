@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2648,3638],
+"stops":[
+  {"id":2401081887,"lat":42.429554,"lon":1.924827,"k":"p","n":"Puigcerdà - Estació"},
+  {"id":2401081889,"lat":42.433873,"lon":1.927255,"k":"p","n":"Puigcerdà - Plaça"},
+  {"id":3311952814,"lat":42.432446,"lon":1.919559,"k":"x"},
+  {"id":3619230495,"lat":42.433863,"lon":1.927298,"k":"x","n":"Puigcerdà - Plaça"},
+  {"id":4351610450,"lat":42.433411,"lon":1.945262,"k":"p","n":"La Poste"},
+  {"id":8933235283,"lat":42.447467,"lon":1.945586,"k":"p","n":"Z.C. les Arses"},
+  {"id":8985956003,"lat":42.433368,"lon":1.945029,"k":"p","n":"La Poste"},
+  {"id":9802146618,"lat":42.432512,"lon":1.919564,"k":"p"},
+  {"id":12090997323,"lat":42.44363,"lon":1.931212,"k":"x","n":"Puigcerdà (Hospital Transfonterer)"},
+  {"id":12090997324,"lat":42.443649,"lon":1.931154,"k":"p","n":"Puigcerdà (Hospital Transfonterer)"},
+  {"id":12090997325,"lat":42.429587,"lon":1.924881,"k":"x","n":"Puigcerdà - Estació"},
+  {"id":13944696961,"lat":42.435005,"lon":1.927353,"k":"p"}
+],
+"routes":[
+  {"id":17892849,"t":{"ref":"L0576","name":"L0576 Llívia - Puigcerdà - La Seu - Lleida","from":"Llívia","to":"Lleida","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[2401081889,2],[12090997324,3],[2401081887,4]]},
+  {"id":17894162,"t":{"ref":"L0576","name":"L0576 Lleida - La Seu - Puigcerdà - Llívia","from":"Lleida","to":"Llívia","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":5,"s":[[2401081887,2],[2401081889,3],[12090997324,4]]},
+  {"id":19946891,"t":{"ref":"569","name":"Bus 569: Err Place → Formiguères Place","from":"Err Place","to":"Formiguères Place","network":"liO","operator":"liO","colour":"#ec73a9","route":"bus","public_transport:version":"2"},"n":26,"s":[[4351610450,6],[8933235283,7],[12090997324,8]]},
+  {"id":19946893,"t":{"ref":"569","name":"Bus 569: Formiguères Place → Err Place","from":"Formiguères Place","to":"Err Place","network":"liO","operator":"liO","colour":"#ec73a9","route":"bus","public_transport:version":"2"},"n":25,"s":[[8933235283,18],[12090997324,19],[8985956003,20]]},
+  {"id":19953916,"t":{"ref":"566","name":"Bus 566: Mont-Louis Porte de France → Puigcerdà Hopital","from":"Mont-Louis Porte de France","to":"Puigcerdà Hopital","network":"liO","operator":"liO","colour":"#fd7e22","route":"bus","public_transport:version":"2"},"n":11,"s":[[4351610450,10],[12090997324,11]]},
+  {"id":19953917,"t":{"ref":"566","name":"Bus 566: Mont-Louis Porte de France → Porté-Puymorens Castel Izard","from":"Mont-Louis Porte de France","to":"Porté-Puymorens Castel Izard","network":"liO","operator":"liO","colour":"#fd7e22","route":"bus","public_transport:version":"2"},"n":18,"s":[[4351610450,10],[8933235283,11]]},
+  {"id":19953919,"t":{"ref":"566","name":"Bus 566: Porté-Puymorens Castel Izard → Mont-Louis Porte de France","from":"Porté-Puymorens Castel Izard","to":"Mont-Louis Porte de France","network":"liO","operator":"liO","colour":"#fd7e22","route":"bus","public_transport:version":"2"},"n":18,"s":[[8933235283,8],[8985956003,9]]},
+  {"id":20276844,"t":{"ref":"560","name":"Bus 560: Prades Gare Routière → Latour-de-Carol Foyer","from":"Prades Gare Routière","to":"Latour-de-Carol Foyer","network":"liO","operator":"liO","colour":"#8a76b5","route":"bus","public_transport:version":"2"},"n":29,"s":[[4351610450,23],[8933235283,24]]},
+  {"id":20276846,"t":{"ref":"560","name":"Bus 560: Perpignan Gare Routière → Porté-Puymorens Castel Izard","from":"Perpignan Gare Routière","to":"Porté-Puymorens Castel Izard","network":"liO","operator":"liO","colour":"#8a76b5","route":"bus","public_transport:version":"2"},"n":43,"s":[[4351610450,35],[8933235283,36]]},
+  {"id":20513576,"t":{"ref":"L0462","name":"L0462 Barcelona - Puigcerdà - Llívia","from":"Barcelona","to":"Llívia","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[2401081887,1],[2401081889,2]]},
+  {"id":20513577,"t":{"ref":"L0462","name":"L0462 Llívia - Puigcerdà - Barcelona","from":"Llívia","to":"Barcelona","network":"Alsa","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[2401081889,2],[2401081887,3]]},
+  {"id":20605941,"t":{"ref":"L0577","name":"L0577 Llívia - Puigcerdà - Ripoll - Girona","from":"Llívia","to":"Girona","route":"bus","public_transport:version":"2"},"n":3,"s":[[2401081887,2]]},
+  {"id":21857576,"t":{"ref":"L0604","name":"L0604: Llívia => Ripoll","from":"Llívia","to":"Ripoll","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[2401081887,2]]},
+  {"id":21861488,"t":{"ref":"L0604","name":"L0604: Ripoll => Llívia","from":"Ripoll","to":"Llívia","operator":"Alsa","route":"bus","public_transport:version":"2"},"n":3,"s":[[2401081887,2]]},
+  {"id":3041094131418,"t":{"ref":"560","name":"Bus 560: Porté-Puymorens Castel Izard → Perpignan Gare Routière","from":"Porté-Puymorens Castel Izard","to":"Perpignan Gare Routière","network":"liO","operator":"liO","colour":"#8a76b5","route":"bus","public_transport:version":"2"},"n":35,"s":[[8933235283,8],[8985956003,9]]},
+  {"id":3068682955990,"t":{"ref":"566","name":"Bus 566: Puigcerdà Hopital → Mont-Louis Porte de France","from":"Puigcerdà Hopital","to":"Mont-Louis Porte de France","network":"liO","operator":"liO","colour":"#fd7e22","route":"bus","public_transport:version":"2"},"n":10,"s":[[8985956003,1]]}
+]
+}

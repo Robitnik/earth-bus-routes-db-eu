@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2686,3640],
+"stops":[
+  {"id":3423253722,"lat":44.347574,"lon":2.036219,"k":"x","n":"Villefranche-de-Rouergue - Gare SNCF"},
+  {"id":8936328287,"lat":44.347493,"lon":2.036331,"k":"p","n":"Villefranche-de-Rouergue - Gare SNCF"},
+  {"id":9788460876,"lat":44.343995,"lon":2.034461,"k":"p","n":"Bosquet"},
+  {"id":9788497786,"lat":44.343019,"lon":2.032048,"k":"p","n":"Hôpital Chartreuse"},
+  {"id":9788497787,"lat":44.337932,"lon":2.032733,"k":"p","n":"Caylet"},
+  {"id":9788497788,"lat":44.334123,"lon":2.03073,"k":"p","n":"Foirail Madeleine"},
+  {"id":9788497790,"lat":44.335201,"lon":2.02521,"k":"p","n":"Gravasses"},
+  {"id":9788497811,"lat":44.332974,"lon":2.018731,"k":"p","n":"Les Granges"},
+  {"id":9788497812,"lat":44.336945,"lon":2.021893,"k":"p","n":"Croix de Polier"},
+  {"id":9788497814,"lat":44.344573,"lon":2.02557,"k":"p","n":"Aqualudis Camping"},
+  {"id":9788596629,"lat":44.348826,"lon":2.026557,"k":"p","n":"Verdun"},
+  {"id":9788596637,"lat":44.349309,"lon":2.029339,"k":"p","n":"Sainte-Claire"},
+  {"id":6009942997931,"lat":44.34611,"lon":2.00594,"k":"p","n":"VILLEFRANCHE_MAS DE BONNET (URB)","g":1},
+  {"id":6018114394449,"lat":44.349207,"lon":2.030041,"k":"p","n":"VILLEFRANCHE - SAINTE CLAIRE (URB)","g":1},
+  {"id":6022118634964,"lat":44.338571,"lon":2.032637,"k":"p","n":"VILLEFRANCHE - CAYLET (URB)","g":1},
+  {"id":6051980137151,"lat":44.34695,"lon":2.02231,"k":"p","n":"VILLEFRANCHE_SENECHAL (URB)","g":1},
+  {"id":6056301753062,"lat":44.347772,"lon":2.036848,"k":"p","n":"VILLEFRANCHE - GARE (URB)","g":1},
+  {"id":6066286676398,"lat":44.344399,"lon":2.033662,"k":"p","n":"VILLEFRANCHE - BOSQUETS (URB)","g":1},
+  {"id":6083614416712,"lat":44.337139,"lon":2.022396,"k":"p","n":"VILLEFRANCHE - CROIX DE POLIER (URB)","g":1}
+],
+"routes":[
+  {"id":12245969,"t":{"ref":"812","name":"Car ligne 812 : Villefranche-de-Rouergue → Montauban","from":"Place de la Liberté","to":"Gare SNCF - Autocars","network":"liO","operator":"Conseil régional Occitanie","colour":"#ffce05","route":"bus","public_transport:version":"2"},"n":12,"s":[[8936328287,1]]},
+  {"id":12245970,"t":{"ref":"812","name":"Car ligne 812 : Montauban → Villefranche-de-Rouergue","from":"Montauban - Jean Jaurès","to":"Villefranche-de-Rouergue Gare SNCF","network":"liO","operator":"Conseil régional Occitanie","colour":"#ffce05","route":"bus","public_transport:version":"2"},"n":14,"s":[[8936328287,6]]},
+  {"id":14209597,"t":{"name":"Ligne 01","from":"Gare","to":"Gare","network":"Bastibus","operator":"Transports Gauchy","colour":"blue","route":"bus","public_transport:version":"2"},"n":16,"s":[[9788497786,2],[9788497787,3],[9788497788,4],[9788497790,5],[9788497811,6],[9788497812,7],[9788497814,8],[9788596629,9],[9788596637,10]]},
+  {"id":14209932,"t":{"name":"Ligne 03","from":"Gare","to":"Gare","network":"Bastibus","operator":"Transports Gauchy","colour":"green","route":"bus","public_transport:version":"2"},"n":8,"s":[[9788596629,7]]},
+  {"id":14710269,"t":{"ref":"221","name":"Car ligne 221 : Villefranche-de-Rouergue → Rodez","from":"Villefranche-de-Rouergue - Place de la Liberté","to":"Rodez - Pôle multimodal Gare SNCF","network":"liO","colour":"#e43417","route":"bus","public_transport:version":"2"},"n":16,"s":[[8936328287,2]]},
+  {"id":14710507,"t":{"ref":"221","name":"Car ligne 221 : Rodez → Villefranche-de-Rouergue","from":"Rodez - Pôle multimodal Gare SNCF","to":"Villefranche-de-Rouergue - Place de la Liberté","network":"liO","colour":"#e43417","route":"bus","public_transport:version":"2"},"n":15,"s":[[8936328287,14]]},
+  {"id":3006825667802,"t":{"ref":"1","name":"1: VILLEFRANCHE - GARE (URB) - VILLEFRANCHE - GARE (URB)","from":"VILLEFRANCHE - GARE (URB)","to":"VILLEFRANCHE - GARE (URB)","operator":"Bastibus","route":"bus","public_transport:version":"2"},"n":23,"s":[[6056301753062,1,23],[9788497786,2],[6022118634964,3],[9788497788,4],[9788497790,5],[9788497811,6],[6083614416712,7],[9788497814,8],[9788596629,9],[6018114394449,10]]},
+  {"id":3007627961330,"t":{"ref":"2","name":"2: VILLEFRANCHE - GARE (URB) - VILLEFRANCHE - GARE (URB)","from":"VILLEFRANCHE - GARE (URB)","to":"VILLEFRANCHE - GARE (URB)","operator":"Bastibus","route":"bus","public_transport:version":"2"},"n":17,"s":[[6056301753062,1,17],[6066286676398,2,16]]},
+  {"id":3029054426049,"t":{"ref":"205","name":"Car ligne 205 : Villefranche-de-Rouergue → Figeac","from":"Villefranche-de-Rouergue - Gare SNCF","to":"Figeac - Gare SNCF","network":"liO","operator":"Région Occitanie","colour":"#4d499d","route":"bus","public_transport:version":"2"},"n":8,"s":[[8936328287,8]]},
+  {"id":3036968092133,"t":{"ref":"2","name":"2: VILLEFRANCHE - GARE (URB) - VILLEFRANCHE - GARE (URB)","from":"VILLEFRANCHE - GARE (URB)","to":"VILLEFRANCHE - GARE (URB)","operator":"Bastibus","route":"bus","public_transport:version":"2"},"n":20,"s":[[6056301753062,1,20],[6009942997931,12],[6051980137151,15],[9788596629,17],[6018114394449,18]]},
+  {"id":3039734419056,"t":{"ref":"203","name":"Car ligne 203 : Rodez → Villefranche-de-Rouergue","from":"Rodez - Gare Routière de Rodez","to":"Villefranche-de-Rouergue - Gare SNCF","network":"liO","operator":"Région Occitanie","colour":"#ee7f00","route":"bus","public_transport:version":"2"},"n":17,"s":[[8936328287,17]]},
+  {"id":3054443808913,"t":{"ref":"203","name":"Car ligne 203 : Villefranche-de-Rouergue → Rodez","from":"Villefranche-de-Rouergue - Gare SNCF","to":"Rodez - Gare Routière de Rodez","network":"liO","operator":"Région Occitanie","colour":"#ee7f00","route":"bus","public_transport:version":"2"},"n":17,"s":[[8936328287,1]]},
+  {"id":3079539698307,"t":{"ref":"222","name":"Car ligne 222 : Villefranche-de-Rouergue → Decazeville","from":"Villefranche-de-Rouergue - Gare SNCF","to":"Decazeville - Place Jarlan - Gare Routière","network":"liO","colour":"#8cca87","route":"bus","public_transport:version":"2"},"n":17,"s":[[8936328287,1]]},
+  {"id":3085555628812,"t":{"ref":"205","name":"Car ligne 205 : Figeac → Villefranche-de-Rouergue","from":"Figeac - Gare SNCF","to":"Villefranche-de-Rouergue - Gare SNCF","network":"liO","operator":"Région Occitanie","colour":"#4d499d","route":"bus","public_transport:version":"2"},"n":8,"s":[[8936328287,1]]},
+  {"id":3093342986587,"t":{"ref":"222","name":"Car ligne 222 : Decazeville → Villefranche-de-Rouergue","from":"Decazeville - Place Jarlan - Gare Routière","to":"Villefranche-de-Rouergue - Gare SNCF","network":"liO","colour":"#8cca87","route":"bus","public_transport:version":"2"},"n":18,"s":[[8936328287,18]]}
+]
+}

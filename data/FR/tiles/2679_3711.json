@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2679,3711],
+"stops":[
+  {"id":4936724057,"lat":43.981312,"lon":5.560999,"k":"p","n":"Rotonde"},
+  {"id":5899069248,"lat":43.981384,"lon":5.560972,"k":"p","n":"Rotonde"},
+  {"id":6736545788,"lat":43.989283,"lon":5.587492,"k":"x","n":"Simiane-la-Rotonde - Les Buissonnades"},
+  {"id":8365580892,"lat":43.98135,"lon":5.560987,"k":"x","n":"Rotonde"},
+  {"id":10588728706,"lat":43.964263,"lon":5.591427,"k":"p","n":"Simiane-la-Rotonde - Boulinette"},
+  {"id":10588728707,"lat":43.964264,"lon":5.591518,"k":"x","n":"Simiane-la-Rotonde - Boulinette"},
+  {"id":10588728708,"lat":43.989593,"lon":5.5881,"k":"p","n":"Simiane-la-Rotonde - Les Buissonnades"},
+  {"id":10588728709,"lat":43.989643,"lon":5.588023,"k":"x","n":"Simiane-la-Rotonde - Les Buissonnades"},
+  {"id":10588728710,"lat":43.989317,"lon":5.587441,"k":"p","n":"Simiane-la-Rotonde - Les Buissonnades"},
+  {"id":10594709309,"lat":43.979403,"lon":5.564382,"k":"p","n":"Simiane-la-Rotonde - École"},
+  {"id":10594709310,"lat":43.979411,"lon":5.564437,"k":"x","n":"Simiane-la-Rotonde - École"}
+],
+"routes":[
+  {"id":7357752,"t":{"ref":"926","name":"Bus 926 : Banon => Apt","from":"Banon","to":"Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[10594709309,3]]},
+  {"id":7357753,"t":{"ref":"926","name":"Bus 926 : Apt => Banon","from":"Apt","to":"Banon","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":10,"s":[[10594709309,8]]},
+  {"id":15401285,"t":{"ref":"4705","name":"Bus 4705 : Banon => Simiane-la-Rotonde => Oppedette","from":"Banon","to":"Oppedette","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10588728710,4],[10594709309,5],[10588728706,6]]},
+  {"id":15401286,"t":{"ref":"4705","name":"Bus 4705 : Oppedette => Simiane-la-Rotonde => Banon","from":"Oppedette","to":"Banon","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10588728706,2],[10594709309,3],[10588728708,4]]},
+  {"id":15414622,"t":{"ref":"4701","name":"Bus 4701 : Simiane-la-Rotonde - École => La Lave","from":"Simiane-la-Rotonde - École","to":"La Lave","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10594709309,1]]},
+  {"id":15414623,"t":{"ref":"4701","name":"Bus 4701 : Chavon Hameau => Simiane-la-Rotonde - École","from":"Chavon Hameau","to":"Simiane-la-Rotonde - École","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10594709309,3]]}
+]
+}

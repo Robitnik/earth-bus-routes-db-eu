@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2683,3683],
+"stops":[
+  {"id":4403950229,"lat":44.168029,"lon":4.158489,"k":"p","n":"Jeanne d'Arc","ref":"2"},
+  {"id":8814825618,"lat":44.178212,"lon":4.163545,"k":"p","n":"Vigouroux","ref":"778"},
+  {"id":8814825619,"lat":44.173416,"lon":4.155831,"k":"p","n":"Pont SNCF","ref":"924"},
+  {"id":8814825818,"lat":44.177016,"lon":4.165085,"k":"p","n":"Transhumance","ref":"1115;1116"},
+  {"id":8814836217,"lat":44.181667,"lon":4.158438,"k":"p"},
+  {"id":8814845518,"lat":44.187099,"lon":4.198337,"k":"p","n":"Mas Chabert"},
+  {"id":10727546745,"lat":44.176786,"lon":4.150123,"k":"p","n":"Saut du Loup","ref":"1055"},
+  {"id":10727546758,"lat":44.186993,"lon":4.197833,"k":"x","n":"Mas Chabert"},
+  {"id":10727546759,"lat":44.186929,"lon":4.197949,"k":"p","n":"Mas Chabert"},
+  {"id":10727546760,"lat":44.186999,"lon":4.198335,"k":"x","n":"Mas Chabert"},
+  {"id":11497942991,"lat":44.178212,"lon":4.178874,"k":"p"},
+  {"id":12063226471,"lat":44.158688,"lon":4.196307,"k":"p","n":"L'Olivier","ref":"2520"},
+  {"id":12063226472,"lat":44.158694,"lon":4.196399,"k":"p","n":"L'Olivier","ref":"2521"},
+  {"id":12091614892,"lat":44.168777,"lon":4.160684,"k":"p","n":"Mistral","ref":"797"},
+  {"id":12091614893,"lat":44.170057,"lon":4.1617,"k":"p","n":"Mistral","ref":"795"},
+  {"id":12091614894,"lat":44.173355,"lon":4.164383,"k":"p","n":"Gascut","ref":"335"},
+  {"id":12091614895,"lat":44.173029,"lon":4.164174,"k":"p","n":"Gascut","ref":"334"},
+  {"id":12091614896,"lat":44.177413,"lon":4.1649,"k":"p","n":"Provence","ref":"2920"},
+  {"id":12091614897,"lat":44.17352,"lon":4.157133,"k":"p","n":"Libération","ref":"2919"},
+  {"id":12091614898,"lat":44.175217,"lon":4.154558,"k":"p","n":"Jalabert","ref":"376"},
+  {"id":12091614899,"lat":44.177411,"lon":4.154476,"k":"p","n":"La Croisée","ref":"400"},
+  {"id":12091761608,"lat":44.176808,"lon":4.150073,"k":"x","n":"Saut du Loup"}
+],
+"routes":[
+  {"id":11188280,"t":{"ref":"113","name":"Ligne 113 : Alès → Barjac","from":"Gare Routière d'Alès","to":"Barjac - Place du 8 Mai","network":"liO","operator":"liO","colour":"#f19fc1","route":"bus","public_transport:version":"2"},"n":16,"s":[[10727546745,4],[10727546759,5]]},
+  {"id":11188281,"t":{"ref":"113","name":"Ligne 113 : Barjac → Alès","from":"Barjac - Pharmacie","to":"Gare Routière d'Alès","network":"liO","operator":"liO","colour":"#f19fc1","route":"bus","public_transport:version":"2"},"n":19,"s":[[8814845518,13]]},
+  {"id":15592651,"t":{"ref":"113","name":"Ligne 113 : Méjannes-La-Clape → Saint-Ambroix","from":"Méjannes-La-Clap - Mairie","to":"Saint-Ambroix - Mairie","network":"liO","operator":"liO","colour":"#f19fc1","route":"bus","public_transport:version":"2"},"n":17,"s":[[8814845518,13]]},
+  {"id":15592694,"t":{"ref":"113","name":"Ligne 113 : Saint-Ambroix → Tharaux","from":"Saint-Ambroix - Mairie","to":"Tharaux - Cimetière","network":"liO","operator":"liO","colour":"#f19fc1","route":"bus","public_transport:version":"2"},"n":16,"s":[[8814845518,5]]},
+  {"id":17906829,"t":{"ref":"20","name":"Bus 20 : Gare Routière → Rousson","from":"Gare Routière d'Alès","to":"Chanteclair","network":"Ales'y","colour":"#814A41","route":"bus","public_transport:version":"2"},"n":37,"s":[[10727546745,24],[12091614899,25],[12091614898,26],[8814825619,27],[12091614897,28],[12091614896,29],[12091614894,30],[12091614892,31],[4403950229,32],[12091614893,33],[12091614895,34],[8814825818,35],[8814825618,36]]},
+  {"id":17906830,"t":{"ref":"20","name":"Bus 20 : Gare Routière → Salindres","from":"Gare Routière d'Alès","to":"La Croisée","network":"Ales'y","colour":"#814A41","route":"bus","public_transport:version":"2"},"n":25,"s":[[10727546745,24],[12091614899,25]]},
+  {"id":17906831,"t":{"ref":"20","name":"Bus 20 : Salindres → Gare Routière","from":"La Croisée","to":"Gare Routière d'Alès","network":"Ales'y","colour":"#814A41","route":"bus","public_transport:version":"2"},"n":34,"s":[[12091614899,1],[12091614898,2],[8814825619,3],[12091614897,4],[12091614896,5],[8814825818,6,12],[12091614894,7],[12091614892,8],[4403950229,9],[12091614893,10],[12091614895,11],[8814825618,13]]},
+  {"id":17929951,"t":{"ref":"310","name":"Bus 310 : Daudet → Vallérargues","from":"Daudet","to":"Lescruvielle","network":"Ales'y","operator":"Ales'y","colour":"#9CA2D2","route":"bus","public_transport:version":"2"},"n":24,"s":[[12063226472,13]]},
+  {"id":17929956,"t":{"ref":"310","name":"Bus 310 : Vallérargues → Lycée Jean-Baptiste Dumas","from":"Lescruvielle","to":"Dumas","network":"Ales'y","operator":"Ales'y","colour":"#9CA2D2","route":"bus","public_transport:version":"2"},"n":22,"s":[[12063226471,12]]},
+  {"id":3011258824474,"t":{"ref":"020","name":"020: La Croisee - Gare Routiere - Quai D","from":"La Croisee","to":"Gare Routiere - Quai D","operator":"ALES'Y(SMTBA)","route":"bus","public_transport:version":"2"},"n":39,"s":[[12091614899,1],[12091614898,2],[8814825619,3],[12091614897,4],[12091614896,5],[8814825818,6,12],[12091614895,7,11],[12091614893,8,10],[4403950229,9],[8814825618,13],[12091761608,15]]},
+  {"id":3029033226029,"t":{"ref":"020","name":"020: Gare Routiere - Quai D - La Croisee","from":"Gare Routiere - Quai D","to":"La Croisee","operator":"ALES'Y(SMTBA)","route":"bus","public_transport:version":"2"},"n":25,"s":[[10727546745,24],[12091614899,25]]}
+]
+}

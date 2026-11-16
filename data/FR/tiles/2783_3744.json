@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2783,3744],
+"stops":[
+  {"id":343634979,"lat":49.154328,"lon":7.232599,"k":"x","n":"Walsheim Im Pfarrgarten"},
+  {"id":906649774,"lat":49.15399,"lon":7.210554,"k":"p","n":"Gersheim Industriegebiet"},
+  {"id":906649795,"lat":49.151513,"lon":7.229983,"k":"p","n":"Walsheim Brauereistraße"},
+  {"id":906649798,"lat":49.154411,"lon":7.232579,"k":"p","n":"Walsheim Im Pfarrgarten"},
+  {"id":906649847,"lat":49.15526,"lon":7.236059,"k":"p","n":"Walsheim Sportplatz"},
+  {"id":8185092188,"lat":49.153959,"lon":7.210735,"k":"p","n":"Gersheim Industriegebiet"},
+  {"id":8285860990,"lat":49.151277,"lon":7.228949,"k":"p","n":"Walsheim Brauereistraße"},
+  {"id":8285860999,"lat":49.154328,"lon":7.232658,"k":"p","n":"Walsheim Im Pfarrgarten"},
+  {"id":13198784654,"lat":49.15507,"lon":7.236249,"k":"p","n":"Walsheim Sportplatz"},
+  {"id":6011251415923,"lat":49.190216,"lon":7.224449,"k":"p","n":"Im Gassengarten, Wolfersheim Blieskastel","g":1},
+  {"id":6011683559534,"lat":49.193345,"lon":7.249058,"k":"p","n":"Am Sportplatz, Breitfurt Blieskastel","g":1},
+  {"id":6012758809367,"lat":49.173498,"lon":7.237725,"k":"p","n":"Kirche, Bliesdalheim Gersheim","g":1},
+  {"id":6019969100460,"lat":49.18646,"lon":7.249438,"k":"p","n":"Kirchheimer Hof, Breitfurt Blieskastel","g":1},
+  {"id":6062782311056,"lat":49.196263,"lon":7.24691,"k":"p","n":"Kirche, Breitfurt Blieskastel","g":1},
+  {"id":6076723382333,"lat":49.166133,"lon":7.226161,"k":"p","n":"Saargemünder Str., Herbitzheim Gersheim","g":1},
+  {"id":6077185558864,"lat":49.191668,"lon":7.228789,"k":"p","n":"Friedhof, Wolfersheim Blieskastel","g":1},
+  {"id":6077628310331,"lat":49.170476,"lon":7.232427,"k":"p","n":"In der Talsbach, Bliesdalheim Gersheim","g":1}
+],
+"routes":[
+  {"id":1108389,"t":{"ref":"501","name":"Bus 501: Erbach Bosch Werk Ost => Kleinblittersdorf Bahnhof","from":"Erbach Bosch Werk Ost","to":"Kleinblittersdorf Bahnhof","network":"Saarländischer Verkehrsverbund","operator":"Bliestalverkehr GbR","colour":"#1C6434","route":"bus","public_transport:version":"2"},"n":27,"s":[[906649774,1]]},
+  {"id":3857117,"t":{"ref":"504","name":"Bus 504: St. Ingbert Rendezvous-Platz => Walsheim Im Pfarrgarten","from":"St. Ingbert Rendezvous-Platz","to":"Walsheim Im Pfarrgarten","network":"saarVV","operator":"Saar-Mobil GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649774,1],[906649795,4],[906649798,5]]},
+  {"id":4792646,"t":{"ref":"503","name":"Bus 503: Blieskastel Busbahnhof => Walsheim Im Pfarrgarten","from":"Blieskastel Busbahnhof","to":"Walsheim Im Pfarrgarten","network":"saarVV","operator":"Bliestalverkehr GbR","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649774,1],[906649795,4],[906649798,5]]},
+  {"id":4792649,"t":{"ref":"503","name":"Bus 503: Walsheim Im Pfarrgarten => Blieskastel Busbahnhof","from":"Walsheim Im Pfarrgarten","to":"Blieskastel Busbahnhof","network":"saarVV","operator":"Bliestalverkehr GbR","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649798,1],[8285860990,2],[8185092188,5]]},
+  {"id":11969198,"t":{"ref":"501","name":"Bus 501: Homburg (Saar) Hauptbahnhof => Blickweiler => Kleinblittersdorf Bahnhof","from":"Homburg (Saar) Hauptbahnhof","to":"Kleinblittersdorf Bahnhof","network":"saarVV","operator":"Bliestalverkehr GbR","colour":"#1C6434","route":"bus","public_transport:version":"2"},"n":27,"s":[[906649774,1]]},
+  {"id":11970994,"t":{"ref":"501","name":"Bus 501: Kleinblittersdorf Bahnhof => Blickweiler => Homburg (Saar) Hauptbahnhof","from":"Kleinblittersdorf Bahnhof","to":"Homburg (Saar) Hauptbahnhof","network":"saarVV","operator":"Bliestalverkehr GbR","colour":"#1C6434","route":"bus","public_transport:version":"2"},"n":28,"s":[[8185092188,28]]},
+  {"id":13823992,"t":{"ref":"578","name":"Bus 578: Gersheim-Altheim-Brenschelbach (=> Gersheim)","from":"Gersheim","to":"Brenschelbach","network":"Saarländischer Verkehrsverbund","operator":"Reise Fischer GmbH","route":"bus","public_transport:version":"2"},"n":15,"s":[[906649795,4],[8285860999,5],[13198784654,6]]},
+  {"id":13880690,"t":{"ref":"504","name":"Bus 504: Walsheim Im Pfarrgarten => St. Ingbert Rendezvous-Platz","from":"Walsheim Im Pfarrgarten","to":"St. Ingbert Rendezvous-Platz","network":"saarVV","operator":"Saar-Mobil GmbH & Co. KG","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649798,1],[8285860990,2],[8185092188,5]]},
+  {"id":15346477,"t":{"ref":"551","name":"Bus 551: Bexbach Waldorfschule => Walsheim Im Pfarrgarten","from":"Bexbach Waldorfschule","to":"Walsheim Im Pfarrgarten","network":"Saarländischer Verkehrsverbund","operator":"Bliestalverkehr GbR","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649774,1],[906649795,4],[8285860999,5]]},
+  {"id":15346478,"t":{"ref":"551","name":"Bus 551: Walsheim Im Pfarrgarten => Bexbach Waldorfschule","from":"Walsheim Im Pfarrgarten","to":"Bexbach Waldorfschule","network":"Saarländischer Verkehrsverbund","operator":"Bliestalverkehr GbR","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649798,1],[8285860990,2],[8185092188,5]]},
+  {"id":15346479,"t":{"ref":"551","name":"Bus 551: Walsheim Im Pfarrgarten => Homburg Hauptbahnhof","from":"Walsheim Im Pfarrgarten","to":"Homburg Hauptbahnhof","network":"Saarländischer Verkehrsverbund","operator":"Bliestalverkehr GbR","route":"bus","public_transport:version":"2"},"n":5,"s":[[906649798,1],[8285860990,2],[8185092188,5]]},
+  {"id":19649217,"t":{"ref":"X55","name":"X55: Saarbrücken => Walsheim","from":"Saarbrücken Hauptbahnhof Nord","to":"Walsheim Im Pfarrgarten","network":"Saarländischer Verkehrsverbund","operator":"Saar-Mobil","colour":"#88339e","route":"bus","public_transport:version":"2"},"n":8,"s":[[906649774,4],[906649795,7],[906649798,8]]},
+  {"id":19649218,"t":{"ref":"X55","name":"X55: Walsheim => Saarbrücken","from":"Walsheim Im Pfarrgarten","to":"Saarbrücken Hauptbahnhof Nord","network":"Saarländischer Verkehrsverbund","operator":"Saar-Mobil","colour":"#88339e","route":"bus","public_transport:version":"2"},"n":8,"s":[[906649798,1],[8285860990,2],[8185092188,5]]},
+  {"id":3013373357505,"t":{"ref":"501","name":"501: Kleinblittersdorf Bf - Hauptbahnhof, Homburg","from":"Kleinblittersdorf Bf","to":"Hauptbahnhof, Homburg","operator":"Reise Fischer GmbH","route":"bus","public_transport:version":"2"},"n":66,"s":[[8185092188,28],[6076723382333,29],[6077628310331,30],[6012758809367,31],[6019969100460,32],[6011683559534,33],[6062782311056,34]]},
+  {"id":3038280857705,"t":{"ref":"501","name":"501: Kleinblittersdorf Bf - Hauptbahnhof, Homburg","from":"Kleinblittersdorf Bf","to":"Hauptbahnhof, Homburg","operator":"Reise Fischer GmbH","route":"bus","public_transport:version":"2"},"n":63,"s":[[8185092188,28],[6076723382333,29],[6077628310331,30],[6012758809367,31],[6011251415923,32],[6077185558864,33]]}
+]
+}

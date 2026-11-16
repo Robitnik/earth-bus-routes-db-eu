@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2736,3607],
+"stops":[
+  {"id":2481325938,"lat":46.814968,"lon":0.365346,"k":"p","n":"Gare - RD 725"},
+  {"id":2481325959,"lat":46.814761,"lon":0.365488,"k":"p","n":"Gare - RD 725"},
+  {"id":10021422052,"lat":46.819294,"lon":0.368205,"k":"p","n":"Saint-Genest-d'Ambière - Mairie"},
+  {"id":10704416367,"lat":46.811876,"lon":0.398711,"k":"p","n":"Scorbé-Clairvaux - Vignaux"}
+],
+"routes":[
+  {"id":17538195,"t":{"ref":"116","name":"116 : Châtellerault -> Loudun","from":"Châtellerault - Gare SNCF","to":"Loudun - Aire d'échange Du Bellay","network":"Cars Régionaux 86 - Vienne","operator":"Région Nouvelle-Aquitaine","route":"bus","public_transport:version":"2"},"n":16,"s":[[2481325938,10]]},
+  {"id":17538288,"t":{"ref":"116","name":"116 : Loudun -> Châtellerault","from":"Loudun - Aire d'échange Du Bellay","to":"Châtellerault - Gare SNCF","network":"Cars Régionaux 86 - Vienne","operator":"Région Nouvelle-Aquitaine","route":"bus","public_transport:version":"2"},"n":16,"s":[[2481325959,8]]},
+  {"id":3025186737391,"t":{"ref":"20","name":"Bus 20 : Lencloître - Mairie → Hôtel de Ville","from":"Lencloître - Mairie","to":"Hôtel de Ville","route":"bus","public_transport:version":"2"},"n":14,"s":[[2481325959,4],[10021422052,5],[10704416367,6]]},
+  {"id":3056110502399,"t":{"ref":"20","name":"Bus 20 : Hôtel de Ville → Lencloître - Mairie","from":"Hôtel de Ville","to":"Lencloître - Mairie","route":"bus","public_transport:version":"2"},"n":14,"s":[[10704416367,9],[10021422052,10],[2481325938,11]]}
+]
+}

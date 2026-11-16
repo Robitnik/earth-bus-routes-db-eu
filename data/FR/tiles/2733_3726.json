@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2733,3726],
+"stops":[
+  {"id":336633566,"lat":46.665639,"lon":6.331036,"k":"x","n":"Le Pont Église"},
+  {"id":447957227,"lat":46.668374,"lon":6.324806,"k":"x","n":"Le Pont Gare"},
+  {"id":3297437149,"lat":46.665041,"lon":6.331123,"k":"x","n":"Le Pont Église"},
+  {"id":3363307941,"lat":46.66718,"lon":6.331168,"k":"p","n":"Le Pont Église"},
+  {"id":3450862148,"lat":46.662228,"lon":6.32807,"k":"x","n":"Les Fougères"},
+  {"id":11150775996,"lat":46.692092,"lon":6.340443,"k":"x","n":"Mont d'Orzeires"},
+  {"id":12069824331,"lat":46.662387,"lon":6.32827,"k":"x","n":"Les Fougères"},
+  {"id":12148117822,"lat":46.668692,"lon":6.324872,"k":"p","n":"Le Pont Gare"},
+  {"id":12148117823,"lat":46.692134,"lon":6.340425,"k":"p","n":"Mont d'Orzeires"},
+  {"id":5000959816415,"lat":46.668438,"lon":6.324697,"k":"p","n":"Le Pont Gare"}
+],
+"routes":[
+  {"id":12904526,"t":{"ref":"750","name":"Bus 750: Cossonay-Penthalaz → Le Pont","from":"Cossonay-Penthalaz, Gare","to":"Le Pont, Gare","network":"Mobilis","operator":"MBC Auto","colour":"#293d9b","route":"bus","public_transport:version":"2"},"n":2,"s":[[447957227,1],[5000959816415,2]]},
+  {"id":12909496,"t":{"ref":"750","name":"Bus 750: Le Pont → Cossonay-Penthalaz","from":"Le Pont, Gare","to":"Cossonay-Penthalaz, Gare","network":"Mobilis","operator":"MBC Auto","colour":"#293d9b","route":"bus","public_transport:version":"2"},"n":2,"s":[[447957227,1],[5000959816415,2]]},
+  {"id":17965866,"t":{"ref":"690","name":"Bus 690: Le Sentier-L'Orient → Le Pont","from":"Le Sentier-L'Orient, Gare","to":"Le Pont, Gare","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":5,"s":[[3363307941,4],[5000959816415,5]]},
+  {"id":17965867,"t":{"ref":"690","name":"Bus 690: Le Pont → Le Sentier-L'Orient","from":"Le Pont, Gare","to":"Le Sentier-L'Orient, Gare","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000959816415,1]]},
+  {"id":17965868,"t":{"ref":"690","name":"Bus 690: Le Pont → Le Brassus","from":"Le Pont, Gare","to":"Le Brassus, Marchairuz","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000959816415,1]]},
+  {"id":17965869,"t":{"ref":"690","name":"Bus 690: Le Brassus → Le Pont","from":"Le Brassus, Marchairuz","to":"Le Pont, Gare","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":5,"s":[[3363307941,4],[5000959816415,5]]},
+  {"id":17992420,"t":{"ref":"683","name":"Bus 683: Orbe => Vaulion => Mont d'Orzeires","from":"Orbe, Poste","to":"Vallorbe, Mont d'Orzeires","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[12148117822,3],[12148117823,4]]},
+  {"id":17992421,"t":{"ref":"683","name":"Bus 683: Mont d'Orzeires => Vaulion => Orbe","from":"Vallorbe, Mont d'Orzeires","to":"Orbe, Poste","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[12148117823,1],[12148117822,2]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2727,3734],
+"stops":[
+  {"id":1362811372,"lat":46.390386,"lon":6.715356,"k":"x","n":"Thollon-les-Mémises Station"},
+  {"id":3734595546,"lat":46.390793,"lon":6.705105,"k":"p","n":"LE NOUY"},
+  {"id":3932764990,"lat":46.389684,"lon":6.702512,"k":"x","n":"Le Nouy"},
+  {"id":4401261422,"lat":46.390407,"lon":6.715236,"k":"p","n":"Thollons-les-Mémises station"},
+  {"id":10294766405,"lat":46.389645,"lon":6.702589,"k":"p","n":"Le Nouy"},
+  {"id":10294766407,"lat":46.389685,"lon":6.703128,"k":"p","n":"Le Nouy"},
+  {"id":10294766408,"lat":46.389649,"lon":6.702984,"k":"x","n":"Le Nouy"},
+  {"id":10294766709,"lat":46.390329,"lon":6.715439,"k":"p","n":"Thollon-les-Mémises Station"},
+  {"id":14101052247,"lat":46.390358,"lon":6.715257,"k":"x","n":"Thollon-les-Mémises Station"},
+  {"id":6017490603167,"lat":46.390431,"lon":6.708279,"k":"p","n":"LES AIRES","g":1},
+  {"id":6027060607491,"lat":46.391262,"lon":6.733462,"k":"p","n":"LAJOUX","g":1},
+  {"id":6030527638711,"lat":46.390431,"lon":6.708279,"k":"p","n":"LES AIRES","g":1},
+  {"id":6074621164454,"lat":46.390615,"lon":6.708088,"k":"p","n":"LES AIRES","g":1},
+  {"id":6080609209927,"lat":46.391262,"lon":6.733462,"k":"p","n":"THOLLON-LES-MEMISES LAJOUX","g":1},
+  {"id":6098907386545,"lat":46.390615,"lon":6.708088,"k":"p","n":"LES AIRES","g":1}
+],
+"routes":[
+  {"id":10718595,"t":{"ref":"T","name":"Bus T : Cité de l'Eau → Thollon-les-Mémises Station","from":"Cité de l'Eau","to":"Thollon-les-Mémises Station","network":"EVA'D","operator":"Transdev;SAT","colour":"#857db4","route":"bus","public_transport:version":"2"},"n":18,"s":[[10294766405,17],[10294766709,18]]},
+  {"id":13118734,"t":{"ref":"T","name":"Bus T : Thollon-les-Mémises Station → Cité de l'Eau","from":"Thollon-les-Mémises Station","to":"Cité de l'Eau","network":"EVA'D","operator":"Transdev;SAT","colour":"#857db4","route":"bus","public_transport:version":"2"},"n":19,"s":[[4401261422,1],[10294766407,2]]},
+  {"id":3003947370793,"t":{"ref":"11T","name":"11T: THOLLON-LES-MEMISES LAJOUX - GARE SNCF EVIAN","from":"THOLLON-LES-MEMISES LAJOUX","to":"GARE SNCF EVIAN","operator":"EVAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[6080609209927,1],[4401261422,2],[6030527638711,3],[3734595546,4]]},
+  {"id":3026522657645,"t":{"ref":"11T","name":"11T: GARE SNCF EVIAN - THOLLON-LES-MEMISES LAJOUX","from":"GARE SNCF EVIAN","to":"THOLLON-LES-MEMISES LAJOUX","operator":"EVAD","route":"bus","public_transport:version":"2"},"n":25,"s":[[3734595546,22],[6098907386545,23],[14101052247,24],[6080609209927,25]]},
+  {"id":3078024543015,"t":{"ref":"11T","name":"11T: GARE SNCF EVIAN - LAJOUX","from":"GARE SNCF EVIAN","to":"LAJOUX","operator":"EVIAN - ÉVA'D","route":"bus","public_transport:version":"2"},"n":25,"s":[[3734595546,22],[6074621164454,23],[14101052247,24],[6027060607491,25]]},
+  {"id":3098514201583,"t":{"ref":"11T","name":"11T: LAJOUX - GARE SNCF EVIAN","from":"LAJOUX","to":"GARE SNCF EVIAN","operator":"EVIAN - ÉVA'D","route":"bus","public_transport:version":"2"},"n":25,"s":[[6027060607491,1],[4401261422,2],[6017490603167,3],[3734595546,4]]}
+]
+}

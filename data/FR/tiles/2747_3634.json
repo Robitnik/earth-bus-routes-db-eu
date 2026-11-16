@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2747,3634],
+"stops":[
+  {"id":6790230057,"lat":47.368932,"lon":1.739241,"k":"p"},
+  {"id":6790230058,"lat":47.359397,"lon":1.744416,"k":"p"},
+  {"id":9512197284,"lat":47.355311,"lon":1.739316,"k":"p","n":"SNCF"},
+  {"id":13866723628,"lat":47.36937,"lon":1.739093,"k":"p","n":"Lycée Claude de France"},
+  {"id":13866723663,"lat":47.385108,"lon":1.738048,"k":"p","n":"Gebdarmerie"},
+  {"id":13867548831,"lat":47.366211,"lon":1.72089,"k":"p","n":"Avebue de Blois"},
+  {"id":13867548832,"lat":47.36605,"lon":1.722305,"k":"p","n":"Avebue de Blois"},
+  {"id":13867665376,"lat":47.363938,"lon":1.731065,"k":"p","n":"Les Aubiers"},
+  {"id":13867665377,"lat":47.363815,"lon":1.73114,"k":"p","n":"Les Aubiers"},
+  {"id":13867665379,"lat":47.360938,"lon":1.739404,"k":"p","n":"Bd du Maréchal Lyautey"},
+  {"id":6033929823479,"lat":47.371567,"lon":1.715169,"k":"p","n":"ZAC de la Grange (Centre Cial Sud)","g":1},
+  {"id":6041127623860,"lat":47.376408,"lon":1.736517,"k":"p","n":"Avenue de Paris (ex Centre Cial Nord)","g":1},
+  {"id":6052192845400,"lat":47.371567,"lon":1.715169,"k":"p","n":"ZAC de la Grange (Centre Cial Sud)","g":1},
+  {"id":6081029388428,"lat":47.376408,"lon":1.736517,"k":"p","n":"Avenue de Paris (ex Centre Cial Nord)","g":1}
+],
+"routes":[
+  {"id":20734042,"t":{"ref":"429","name":"Ligne 429 Romorantin → Nouan-le-Fuzelier","from":"SNCF (Romorantin-Lanthenay)","to":"SNCF (Nouan-le-Fuzelier)","network":"Rémi","colour":"#eac63a","route":"bus"},"n":6,"s":[[9512197284,1],[13866723628,2],[13866723663,3]]},
+  {"id":20734043,"t":{"ref":"429","name":"Ligne 429 Nouan-le-Fuzelier → Romorantin","from":"SNCF (Nouan-le-Fuzelier)","to":"SNCF (Romorantin-Lanthenay)","network":"Rémi","colour":"#eac63a","route":"bus"},"n":5,"s":[[9512197284,1],[13866723628,2]]},
+  {"id":20734811,"t":{"ref":"4","name":"ligne 4 Blois → Romorantin","from":"CFA (Blois)","to":"Plaisance (Romorantin)","network":"Rémi","operator":"rémi","colour":"#a5363d","route":"bus"},"n":18,"s":[[13867548832,8],[13867665377,9],[9512197284,10]]},
+  {"id":3020323522652,"t":{"ref":"4","name":"ligne 4 Romorantin → Blois","from":"Plaisance (Romorantin)","to":"SNCF - Gare routière (Blois)","network":"Rémi","operator":"rémi","colour":"#a5363d","route":"bus","public_transport:version":"2"},"n":18,"s":[[9512197284,1],[13867665379,2],[13866723628,3],[6041127623860,4],[6033929823479,5]]},
+  {"id":3028803495770,"t":{"ref":"431","name":"431: SNCF - SNCF","from":"SNCF","to":"SNCF","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":17,"s":[[9512197284,17]]},
+  {"id":3029098449624,"t":{"ref":"431","name":"431: SNCF - SNCF","from":"SNCF","to":"SNCF","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":17,"s":[[9512197284,17]]},
+  {"id":3031132415234,"t":{"ref":"431","name":"431: SNCF - Forum","from":"SNCF","to":"Forum","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":18,"s":[[9512197284,1]]},
+  {"id":3034964500308,"t":{"ref":"431","name":"431: SNCF - SNCF Arrêt Urbain","from":"SNCF","to":"SNCF Arrêt Urbain","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":17,"s":[[9512197284,1]]},
+  {"id":3050799004458,"t":{"ref":"431","name":"431: SNCF - SNCF Arrêt Urbain","from":"SNCF","to":"SNCF Arrêt Urbain","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":17,"s":[[9512197284,1]]},
+  {"id":3054173741627,"t":{"ref":"431","name":"431: SNCF - Forum","from":"SNCF","to":"Forum","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":18,"s":[[9512197284,1]]},
+  {"id":3077769631035,"t":{"ref":"4","name":"ligne 4 Romorantin → Blois","from":"Plaisance (Romorantin)","to":"SNCF - Gare routière (Blois)","network":"Rémi","operator":"rémi","colour":"#a5363d","route":"bus","public_transport:version":"2"},"n":18,"s":[[9512197284,1],[13867665379,2],[13866723628,3],[6081029388428,4],[6052192845400,5]]},
+  {"id":3081945269041,"t":{"ref":"431","name":"431: Forum - SNCF","from":"Forum","to":"SNCF","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":18,"s":[[9512197284,18]]},
+  {"id":3087162252529,"t":{"ref":"431","name":"431: Forum - SNCF","from":"Forum","to":"SNCF","operator":"Rémi 41","route":"bus","public_transport:version":"2"},"n":18,"s":[[9512197284,18]]}
+]
+}

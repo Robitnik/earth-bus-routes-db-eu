@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2750,3585],
+"stops":[
+  {"id":5892834902,"lat":47.527192,"lon":-0.748495,"k":"x","n":"Guérandais"},
+  {"id":5892834904,"lat":47.527122,"lon":-0.748484,"k":"p","n":"Guérandais"},
+  {"id":5892834905,"lat":47.527248,"lon":-0.748518,"k":"p","n":"Guérandais"},
+  {"id":5892834906,"lat":47.524815,"lon":-0.745618,"k":"p","n":"St-Clément Église"},
+  {"id":5892834907,"lat":47.524859,"lon":-0.745633,"k":"x","n":"St-Clément Église"},
+  {"id":5892834908,"lat":47.524798,"lon":-0.745197,"k":"x","n":"St-Clément Église"},
+  {"id":5892834909,"lat":47.524864,"lon":-0.745196,"k":"p","n":"St-Clément Église"},
+  {"id":11034850183,"lat":47.529572,"lon":-0.745232,"k":"p","n":"Moulin"},
+  {"id":11034850184,"lat":47.529602,"lon":-0.74525,"k":"x","n":"Moulin"},
+  {"id":13107743855,"lat":47.522407,"lon":-0.742231,"k":"p","n":"Pinelier"},
+  {"id":13107743856,"lat":47.523334,"lon":-0.743455,"k":"p","n":"Pinelier"},
+  {"id":13159558428,"lat":47.529884,"lon":-0.74509,"k":"p","n":"Moulin"},
+  {"id":13163208396,"lat":47.522399,"lon":-0.742253,"k":"x","n":"Pinelier"},
+  {"id":13163208401,"lat":47.523313,"lon":-0.743493,"k":"x","n":"Pinelier"},
+  {"id":13163208403,"lat":47.529834,"lon":-0.745119,"k":"x","n":"Moulin"},
+  {"id":6017341472520,"lat":47.509906,"lon":-0.716932,"k":"p","n":"Fromioux","g":1},
+  {"id":6031842224892,"lat":47.509995,"lon":-0.716868,"k":"p","n":"Fromioux","g":1},
+  {"id":6036873130545,"lat":47.509907,"lon":-0.716932,"k":"p","n":"Fromioux","g":1},
+  {"id":6038702325413,"lat":47.509901,"lon":-0.716879,"k":"p","n":"Fromioux","g":1},
+  {"id":6050123088106,"lat":47.509048,"lon":-0.714996,"k":"p","n":"Fromioux","g":1},
+  {"id":6056288160874,"lat":47.509899,"lon":-0.716879,"k":"p","n":"Fromioux","g":1}
+],
+"routes":[
+  {"id":8523249,"t":{"ref":"425","name":"Car Aléop 425 : Angers → Brain-sur-Longuenée","from":"Gare Routière SNCF","to":"Brain-sur-Longuenée","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#D3D800","route":"bus","public_transport:version":"2"},"n":15,"s":[[5892834909,11],[5892834905,12]]},
+  {"id":9134588,"t":{"ref":"425","name":"Car Aléop 425 : Brain-sur-Longuenée → Angers","from":"Brain-sur-Longuenée","to":"Gare Routière SNCF","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#D3D800","route":"bus","public_transport:version":"2"},"n":14,"s":[[5892834904,5],[5892834906,6]]},
+  {"id":3010340448509,"t":{"ref":"38","name":"Bus Irigo 38 : Moulin → Le Quai","from":"Moulin","to":"Le Quai","network":"Irigo","operator":"RD Angers","colour":"#008E8C","route":"bus","public_transport:version":"2"},"n":15,"s":[[5892834904,2],[5892834906,3],[13163208401,4],[6050123088106,5]]},
+  {"id":3017294094626,"t":{"ref":"38","name":"Bus Irigo 38 : Le Quai → Rochette","from":"Le Quai","to":"Rochette","network":"Irigo","operator":"RD Angers","colour":"#008E8C","route":"bus","public_transport:version":"2"},"n":16,"s":[[6031842224892,12],[13107743855,13],[5892834909,14],[5892834905,15]]},
+  {"id":3023226667313,"t":{"ref":"425","name":"425: 8 rue d'Anjou - Gare Routière et SNCF","from":"8 rue d'Anjou","to":"Gare Routière et SNCF","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":19,"s":[[5892834902,5],[5892834906,6],[13107743856,7],[6038702325413,8]]},
+  {"id":3025735787355,"t":{"ref":"425","name":"425: Gare Routière et SNCF - 8 rue d'Anjou","from":"Gare Routière et SNCF","to":"8 rue d'Anjou","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":20,"s":[[6017341472520,13],[13107743855,14],[5892834909,15],[5892834904,16]]},
+  {"id":3036956188426,"t":{"ref":"425","name":"425: 8 rue d'Anjou / Brain-sur-Longuenée - Gare Routière et SNCF","from":"8 rue d'Anjou / Brain-sur-Longuenée","to":"Gare Routière et SNCF","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":19,"s":[[5892834902,5],[5892834906,6],[13107743856,7],[6056288160874,8]]},
+  {"id":3057248278417,"t":{"ref":"38","name":"Bus Irigo 38 : Le Quai → Moulin","from":"Le Quai","to":"Moulin","network":"Irigo","operator":"RD Angers","colour":"#008E8C","route":"bus","public_transport:version":"2"},"n":16,"s":[[6031842224892,12],[13107743855,13],[5892834909,14],[5892834905,15],[13163208403,16]]},
+  {"id":3085986582876,"t":{"ref":"38","name":"Bus Irigo 38 : Moulin → Le Quai","from":"Moulin","to":"Le Quai","network":"Irigo","operator":"RD Angers","colour":"#008E8C","route":"bus","public_transport:version":"2"},"n":16,"s":[[13163208403,1],[5892834904,3],[5892834906,4],[13163208401,5],[6050123088106,6]]},
+  {"id":3096938226673,"t":{"ref":"425","name":"425: Gare Routière et SNCF - 8 rue d'Anjou / Brain-sur-Longuenée","from":"Gare Routière et SNCF","to":"8 rue d'Anjou / Brain-sur-Longuenée","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":20,"s":[[6036873130545,13],[13107743855,14],[5892834909,15],[5892834904,16]]}
+]
+}

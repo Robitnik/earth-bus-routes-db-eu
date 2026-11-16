@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2732,3724],
+"stops":[
+  {"id":983788663,"lat":46.600128,"lon":6.220689,"k":"p","n":"Chez-le-Maître"},
+  {"id":983788931,"lat":46.604121,"lon":6.226808,"k":"p","n":"Sentier, Le, Les Tours"},
+  {"id":983788934,"lat":46.602044,"lon":6.22276,"k":"p","n":"Hôpital"},
+  {"id":2622206217,"lat":46.608528,"lon":6.231944,"k":"p","n":"Temple"},
+  {"id":2636854297,"lat":46.608487,"lon":6.231708,"k":"p","n":"Temple"},
+  {"id":3545601396,"lat":46.605944,"lon":6.23121,"k":"p","n":"Le Sentier-L'Orient Gare"},
+  {"id":9310411156,"lat":46.61184,"lon":6.23612,"k":"x","n":"La Golisse"},
+  {"id":12132045731,"lat":46.602013,"lon":6.222705,"k":"x","n":"Hôpital"},
+  {"id":12132045744,"lat":46.600093,"lon":6.220612,"k":"x","n":"Chez-le-Maître"},
+  {"id":12132045751,"lat":46.605967,"lon":6.231149,"k":"x","n":"Le Sentier-L'Orient Gare"},
+  {"id":12132045755,"lat":46.608455,"lon":6.231752,"k":"x","n":"Temple"},
+  {"id":12132045756,"lat":46.608556,"lon":6.231899,"k":"x","n":"Temple"},
+  {"id":12132045779,"lat":46.61184,"lon":6.236176,"k":"p","n":"La Golisse"},
+  {"id":13977755978,"lat":46.6012,"lon":6.237583,"k":"x","n":"L'Orient Centre"},
+  {"id":13977755979,"lat":46.601033,"lon":6.237775,"k":"x","n":"L'Orient Centre"}
+],
+"routes":[
+  {"id":17965866,"t":{"ref":"690","name":"Bus 690: Le Sentier-L'Orient → Le Pont","from":"Le Sentier-L'Orient, Gare","to":"Le Pont, Gare","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":5,"s":[[3545601396,1],[2622206217,2],[12132045779,3]]},
+  {"id":17965867,"t":{"ref":"690","name":"Bus 690: Le Pont → Le Sentier-L'Orient","from":"Le Pont, Gare","to":"Le Sentier-L'Orient, Gare","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":4,"s":[[12132045779,2],[2636854297,3],[3545601396,4]]},
+  {"id":17965868,"t":{"ref":"690","name":"Bus 690: Le Pont → Le Brassus","from":"Le Pont, Gare","to":"Le Brassus, Marchairuz","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":4,"s":[[12132045779,2],[2636854297,3],[3545601396,4]]},
+  {"id":17965869,"t":{"ref":"690","name":"Bus 690: Le Brassus → Le Pont","from":"Le Brassus, Marchairuz","to":"Le Pont, Gare","network":"Mobilis","operator":"AVJ","route":"bus","public_transport:version":"2"},"n":5,"s":[[3545601396,1],[2622206217,2],[12132045779,3]]},
+  {"id":18478868,"t":{"ref":"840","name":"Bus 840: Le Sentier → Gimel → Rolle","from":"Le Sentier-L'Orient, Gare","to":"Rolle, Gare nord","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[3545601396,1],[983788663,2]]},
+  {"id":18478869,"t":{"ref":"840","name":"Bus 840: Rolle → Gimel → Le Sentier","from":"Rolle, Gare nord","to":"Le Sentier-L'Orient, Gare","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[983788663,1],[3545601396,2]]}
+]
+}

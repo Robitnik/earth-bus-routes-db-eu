@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2723,3735],
+"stops":[
+  {"id":2098284370,"lat":46.189896,"lon":6.752877,"k":"p","n":"Les Prodains d'en Bas"},
+  {"id":4576101372,"lat":46.193175,"lon":6.770843,"k":"x","n":"Avoriaz Station"},
+  {"id":10301363251,"lat":46.193179,"lon":6.770895,"k":"p","n":"Avoriaz Station"},
+  {"id":10301363252,"lat":46.189189,"lon":6.756244,"k":"x","n":"Les Prodains"},
+  {"id":10301363253,"lat":46.189295,"lon":6.756114,"k":"p","n":"Les Prodains"},
+  {"id":12437271439,"lat":46.18962,"lon":6.75236,"k":"p","n":"Les Prodain d'en Bas"}
+],
+"routes":[
+  {"id":9747304,"t":{"route":"bus"},"n":10,"s":[[12437271439,9]]},
+  {"id":10725391,"t":{"ref":"Y91","name":"Bus Y91 : Thonon-les Bains → Les Prodains","from":"Thonon-les Bains","to":"Les Prodains","network":"Cars Région Haute-Savoie","operator":"SAT Thonon","colour":"#7a2f99","route":"bus","public_transport:version":"2"},"n":4,"s":[[10301363253,2]]},
+  {"id":10725392,"t":{"ref":"Y91","name":"Bus Y91 : Thonon-les Bains → Avoriaz","from":"Thonon-les Bains","to":"Avoriaz","network":"Cars Région Haute-Savoie","operator":"SAT Thonon","colour":"#7a2f99","route":"bus","public_transport:version":"2"},"n":3,"s":[[10301363251,2]]},
+  {"id":15081001,"t":{"ref":"Y91","name":"Bus Y91 : Les Prodains → Thonon-les Bains","from":"Les Prodains","to":"Thonon-les Bains","network":"Cars Région Haute-Savoie","operator":"SAT Thonon","colour":"#7a2f99","route":"bus","public_transport:version":"2"},"n":2,"s":[[10301363252,1],[10301363253,2]]},
+  {"id":15081002,"t":{"ref":"Y91","name":"Bus Y91 : Avoriaz → Thonon-les Bains","from":"Avoriaz","to":"Thonon-les Bains","network":"Cars Région Haute-Savoie","operator":"SAT Thonon","colour":"#7a2f99","route":"bus","public_transport:version":"2"},"n":2,"s":[[10301363251,1]]},
+  {"id":15090191,"t":{"ref":"Y92","name":"Bus Y92 : Les Prodains → Cluses","from":"Les Prodains","to":"Cluses","network":"Cars Région Haute-Savoie","operator":"Autocars Jacquet","colour":"#ed6b43","route":"bus","public_transport:version":"2"},"n":12,"s":[[10301363253,1]]},
+  {"id":15090192,"t":{"ref":"Y92","name":"Bus Y92 : Cluses → Les Prodains","from":"Cluses","to":"Les Prodains","network":"Cars Région Haute-Savoie","operator":"Autocars Jacquet","colour":"#ed6b43","route":"bus","public_transport:version":"2"},"n":12,"s":[[10301363253,12]]}
+]
+}

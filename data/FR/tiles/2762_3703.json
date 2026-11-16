@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2762,3703],
+"stops":[
+  {"id":3249646085,"lat":48.121752,"lon":5.150351,"k":"x","n":"Abattoirs"},
+  {"id":5865842183,"lat":48.121743,"lon":5.150415,"k":"p","n":"Abattoirs"},
+  {"id":5865842184,"lat":48.121512,"lon":5.150383,"k":"p","n":"Abattoirs"},
+  {"id":5907502024,"lat":48.101603,"lon":5.151392,"k":"x","n":"Savigny"},
+  {"id":5935054304,"lat":48.10816,"lon":5.168449,"k":"p","n":"Choignes Lotissement"},
+  {"id":5935054305,"lat":48.108099,"lon":5.168211,"k":"p","n":"Choignes Lotissement"},
+  {"id":5935078253,"lat":48.105874,"lon":5.160496,"k":"p","n":"Paquis Bas"},
+  {"id":5948875520,"lat":48.100167,"lon":5.154805,"k":"p","n":"Chagall"},
+  {"id":9268909046,"lat":48.121516,"lon":5.150433,"k":"x","n":"Abattoirs"},
+  {"id":9308846704,"lat":48.103451,"lon":5.160889,"k":"x","n":"Lycée Agricole"},
+  {"id":9308846705,"lat":48.103421,"lon":5.160887,"k":"p","n":"Lycée Agricole"},
+  {"id":9308846706,"lat":48.101554,"lon":5.156426,"k":"x","n":"Tri Postal"},
+  {"id":9308846707,"lat":48.10152,"lon":5.156459,"k":"p","n":"Tri Postal"},
+  {"id":9308846708,"lat":48.101675,"lon":5.156613,"k":"x","n":"Tri Postal"},
+  {"id":9308846709,"lat":48.101723,"lon":5.156606,"k":"p","n":"Tri Postal"},
+  {"id":9308885626,"lat":48.101555,"lon":5.151441,"k":"p","n":"Savigny"},
+  {"id":9308885627,"lat":48.101661,"lon":5.151325,"k":"p","n":"Savigny"},
+  {"id":6023581493436,"lat":48.10374,"lon":5.160134,"k":"p","n":"Lycée Agricole","g":1},
+  {"id":6055601616124,"lat":48.10374,"lon":5.160134,"k":"p","n":"Lycée Agricole","g":1},
+  {"id":6056940342167,"lat":48.104818,"lon":5.151087,"k":"p","n":"DE LATTRE TASSIGNY","g":1},
+  {"id":6088140887320,"lat":48.104818,"lon":5.151087,"k":"p","n":"DE LATTRE TASSIGNY","g":1}
+],
+"routes":[
+  {"id":13460030,"t":{"ref":"1","name":"Ligne 1 : Fauvettes -> Oudinot","from":"Fauvettes","to":"Oudinot","network":"CMonbus","operator":"Kéolis Chaumont","route":"bus","public_transport:version":"2"},"n":24,"s":[[5865842183,2]]},
+  {"id":13476103,"t":{"ref":"1","name":"Ligne 1 : De Gaulle -> Fauvettes","from":"De Gaulle","to":"Fauvettes","network":"CMonbus","operator":"Kéolis Chaumont","route":"bus","public_transport:version":"2"},"n":24,"s":[[5865842184,21]]},
+  {"id":13507088,"t":{"ref":"5","name":"Ligne 5 : Lycée Agricole -> Valéry","from":"Lycée Agricole","to":"Valéry","network":"CMonbus","operator":"Kéolis Chaumont","route":"bus","public_transport:version":"2"},"n":19,"s":[[9308846705,1],[9308846709,2],[9308885627,7]]},
+  {"id":13507089,"t":{"ref":"5","name":"Ligne 5 : Valéry -> Lycée Agricole","from":"Valéry","to":"Lycée Agricole","network":"C.mon Bus","operator":"Kéolis Chaumont","route":"bus","public_transport:version":"2"},"n":17,"s":[[9308885626,11],[9308846707,16],[9308846705,17]]},
+  {"id":3027488190001,"t":{"ref":"03","name":"03: Lycée Agricole - Valery","from":"Lycée Agricole","to":"Valery","operator":"CMONBUS","route":"bus","public_transport:version":"2"},"n":14,"s":[[6023581493436,1],[9308846709,2],[5948875520,3],[6088140887320,5]]},
+  {"id":3048289741814,"t":{"ref":"03","name":"03: Valery - Lycée Agricole","from":"Valery","to":"Lycée Agricole","operator":"CMONBUS","route":"bus","public_transport:version":"2"},"n":15,"s":[[6056940342167,11],[9308846707,14],[6055601616124,15]]},
+  {"id":3051650804629,"t":{"ref":"03","name":"03: Valery - Lycée Agricole","from":"Valery","to":"Lycée Agricole","operator":"CMONBUS","route":"bus","public_transport:version":"2"},"n":15,"s":[[6088140887320,11],[9308846707,14],[6023581493436,15]]},
+  {"id":3073488138831,"t":{"ref":"03","name":"03: Lycée Agricole - Valery","from":"Lycée Agricole","to":"Valery","operator":"CMONBUS","route":"bus","public_transport:version":"2"},"n":14,"s":[[6055601616124,1],[9308846709,2],[5948875520,3],[6056940342167,5]]}
+]
+}

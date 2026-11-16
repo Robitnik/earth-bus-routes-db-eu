@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2747,3738],
+"stops":[
+  {"id":983670000,"lat":47.392065,"lon":6.94123,"k":"p","n":"Grandfontaine Poste"},
+  {"id":983670049,"lat":47.375495,"lon":6.922198,"k":"p","n":"Réclère Village"},
+  {"id":983670064,"lat":47.380605,"lon":6.947256,"k":"p","n":"Bifurcation Roche d'Or"},
+  {"id":983670067,"lat":47.390638,"lon":6.938823,"k":"p","n":"Grandfontaine Bas du Village"},
+  {"id":983670090,"lat":47.392364,"lon":6.937839,"k":"p","n":"Grandfontaine Haut du Village"},
+  {"id":6610142569,"lat":47.375542,"lon":6.923101,"k":"x","n":"Réclère Village"},
+  {"id":8637788678,"lat":47.37549,"lon":6.923132,"k":"p","n":"Réclère Village"},
+  {"id":8637788680,"lat":47.37542,"lon":6.92222,"k":"x","n":"Réclère Village"},
+  {"id":8637790031,"lat":47.358627,"lon":6.915463,"k":"x","n":"Les Grottes"},
+  {"id":8637790032,"lat":47.358681,"lon":6.915388,"k":"p","n":"Les Grottes"},
+  {"id":11537650659,"lat":47.3805,"lon":6.947322,"k":"x","n":"Bifurcation Roche d'Or"},
+  {"id":11537650661,"lat":47.380212,"lon":6.947114,"k":"x","n":"Bifurcation Roche d'Or"},
+  {"id":11537650662,"lat":47.380158,"lon":6.947114,"k":"p","n":"Bifurcation Roche d'Or"},
+  {"id":11537650668,"lat":47.390691,"lon":6.93885,"k":"x","n":"Grandfontaine Bas du Village"},
+  {"id":11537727476,"lat":47.392385,"lon":6.937907,"k":"x","n":"Grandfontaine Haut du Village"},
+  {"id":11537727485,"lat":47.392023,"lon":6.941212,"k":"x","n":"Grandfontaine Poste"}
+],
+"routes":[
+  {"id":12592973,"t":{"ref":"73","name":"Bus 73: Grandfontaine → Porrentruy","from":"Grandfontaine, Bas du Village","to":"Porrentruy, Gare","network":"Vagabond","operator":"PAG","colour":"#FC801F","route":"bus","public_transport:version":"2"},"n":8,"s":[[983670067,1]]},
+  {"id":12592974,"t":{"ref":"73","name":"Bus 73: Porrentruy → Grandfontaine","from":"Porrentruy, Gare","to":"Grandfontaine, Bas du Village","network":"Vagabond","operator":"PAG","colour":"#FC801F","route":"bus","public_transport:version":"2"},"n":10,"s":[[983670000,8],[983670090,9],[983670067,10]]},
+  {"id":12592975,"t":{"ref":"73","name":"Bus 73: Damvant → Grandfontaine → Porrentruy","from":"Damvant, église","to":"Porrentruy, Gare","network":"Vagabond","operator":"PAG","colour":"#FC801F","route":"bus","public_transport:version":"2"},"n":14,"s":[[8637790032,2],[8637788678,3],[11537650662,4],[983670000,5],[983670090,6],[983670067,7]]},
+  {"id":12592976,"t":{"ref":"73","name":"Bus 73: Porrentruy → Grandfontaine → Damvant","from":"Porrentruy, Gare","to":"Damvant, Église","network":"Vagabond","operator":"PAG","colour":"#FC801F","route":"bus","public_transport:version":"2"},"n":14,"s":[[983670000,8],[983670090,9],[983670067,10],[983670064,11],[983670049,12],[8637790032,13]]},
+  {"id":17061696,"t":{"ref":"73","name":"Bus 73: Porrentruy → Damvant","from":"Porrentruy, Gare","to":"Damvant, Église","network":"Vagabond","operator":"PAG","colour":"#FC801F","route":"bus","public_transport:version":"2"},"n":13,"s":[[983670000,8],[983670090,9],[983670067,10],[983670064,11],[983670049,12]]},
+  {"id":17061697,"t":{"ref":"78","name":"Bus 78: Grandfontaine → Les Grottes → Damvant","from":"Grandfontaine, Bas du Village","to":"Damvant, Église","network":"Vagabond","operator":"PAG","colour":"#AAF9BF","route":"bus","public_transport:version":"2"},"n":5,"s":[[983670067,1],[983670064,2],[983670049,3],[8637790032,4]]},
+  {"id":17061698,"t":{"ref":"78","name":"Bus 78: Damvant → Les Grottes → Grandfontaine","from":"Damvant, Église","to":"Grandfontaine, Bas du Village","network":"Vagabond","operator":"PAG","colour":"#AAF9BF","route":"bus","public_transport:version":"2"},"n":7,"s":[[8637790032,2],[8637788678,3],[11537650662,4],[983670000,5],[983670090,6],[983670067,7]]},
+  {"id":17061699,"t":{"ref":"78","name":"Bus 78: Damvant → Grandfontaine","from":"Damvant, Église","to":"Grandfontaine, Bas du Village","network":"Vagabond","operator":"PAG","colour":"#AAF9BF","route":"bus","public_transport:version":"2"},"n":6,"s":[[8637788678,2],[11537650662,3],[983670000,4],[983670090,5],[983670067,6]]},
+  {"id":17061700,"t":{"ref":"78","name":"Bus 78: Grandfontaine → Damvant","from":"Grandfontaine, Bas du Village","to":"Damvant, Église","network":"Vagabond","operator":"PAG","colour":"#AAF9BF","route":"bus","public_transport:version":"2"},"n":4,"s":[[983670067,1],[983670064,2],[983670049,3]]}
+]
+}

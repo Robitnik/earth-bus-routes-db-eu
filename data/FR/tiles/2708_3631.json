@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2708,3631],
+"stops":[
+  {"id":282698337,"lat":45.435315,"lon":1.564354,"k":"x","n":"Uzerche - Pont des Malades"},
+  {"id":600380314,"lat":45.440858,"lon":1.57004,"k":"p","n":"Uzerche - Gare SNCF"},
+  {"id":601537100,"lat":45.421972,"lon":1.5631,"k":"p","n":"Uzerche - Crédit Agricole"},
+  {"id":601537108,"lat":45.42834,"lon":1.565813,"k":"p","n":"Uzerche - Centre"},
+  {"id":7067459234,"lat":45.428134,"lon":1.565634,"k":"x","n":"Uzerche - Centre"},
+  {"id":8829499982,"lat":45.428106,"lon":1.565544,"k":"p","n":"Uzerche - Centre"},
+  {"id":8829594541,"lat":45.42834,"lon":1.56572,"k":"x","n":"Uzerche - Centre"},
+  {"id":8829600317,"lat":45.44059,"lon":1.56993,"k":"x","n":"Uzerche - Gare SNCF"},
+  {"id":8829600318,"lat":45.440862,"lon":1.569999,"k":"x","n":"Uzerche - Gare SNCF"},
+  {"id":8829600319,"lat":45.440585,"lon":1.569984,"k":"p","n":"Uzerche - Gare SNCF"},
+  {"id":8986675957,"lat":45.435311,"lon":1.56426,"k":"p","n":"Uzerche - Pont des Malades"},
+  {"id":8986690018,"lat":45.415101,"lon":1.567024,"k":"x","n":"Uzerche - Route du Stade"},
+  {"id":8986690019,"lat":45.415095,"lon":1.56692,"k":"p","n":"Uzerche - Route du Stade"},
+  {"id":8986690020,"lat":45.42199,"lon":1.563141,"k":"x","n":"Uzerche - Crédit Agricole"},
+  {"id":8986743173,"lat":45.412273,"lon":1.567806,"k":"x","n":"Uzerche - Maubec"},
+  {"id":8986743174,"lat":45.412271,"lon":1.567727,"k":"p","n":"Uzerche - Maubec"}
+],
+"routes":[
+  {"id":12843178,"t":{"ref":"272","name":"Ligne 272 : Tulle → Limoges - Ciel","from":"Tulle - Gare","to":"Limoges - Ciel","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#0489b1","route":"bus","public_transport:version":"2"},"n":9,"s":[[601537108,8]]},
+  {"id":12843844,"t":{"ref":"272","name":"Ligne 272 : Tulle → Limoges - Place W. Churchill","from":"Tulle - Gare","to":"Limoges - Place W. Churchill","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#0489b1","route":"bus","public_transport:version":"2"},"n":11,"s":[[601537108,8]]},
+  {"id":12843849,"t":{"ref":"272","name":"Ligne 272 : Limoges - Place W. Churchill → Tulle","from":"Limoges - Place W. Churchill","to":"Tulle - Gare","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#0489b1","route":"bus","public_transport:version":"2"},"n":11,"s":[[8829499982,4]]},
+  {"id":12844000,"t":{"ref":"272","name":"Ligne 272 : Limoges - Ciel → Tulle","from":"Limoges - Ciel","to":"Tulle - Gare","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#0489b1","route":"bus","public_transport:version":"2"},"n":9,"s":[[8829499982,2]]},
+  {"id":12844135,"t":{"ref":"272","name":"Ligne 272 : Tulle → Uzerche","from":"Tulle - Gare","to":"Uzerche - Gare","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#0489b1","route":"bus","public_transport:version":"2"},"n":9,"s":[[601537108,8],[600380314,9]]},
+  {"id":12844186,"t":{"ref":"272","name":"Ligne 272 : Uzerche → Tulle","from":"Uzerche - Gare","to":"Tulle - Gare","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#0489b1","route":"bus","public_transport:version":"2"},"n":9,"s":[[600380314,1],[8829499982,2]]},
+  {"id":13064121,"t":{"ref":"221","name":"Ligne 221 : Uzerche → Brive-la-Gaillarde","from":"Uzerche - Pont des Malades","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#fa5882","route":"bus","public_transport:version":"2"},"n":28,"s":[[8986675957,1],[8829499982,2],[601537100,3],[8986690019,4],[8986743174,5]]},
+  {"id":13066140,"t":{"ref":"221","name":"Ligne 221 : Brive-la-Gaillarde → Uzerche","from":"Gare SNCF","to":"Uzerche - Pont des Malades","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#fa5882","route":"bus","public_transport:version":"2"},"n":28,"s":[[8986743174,24],[8986690019,25],[601537100,26],[601537108,27],[8986675957,28]]}
+]
+}

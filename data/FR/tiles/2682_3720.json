@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2682,3720],
+"stops":[
+  {"id":1897921862,"lat":44.107322,"lon":6.004341,"k":"p","n":"Volonne - RN 85"},
+  {"id":1897922262,"lat":44.106529,"lon":6.004726,"k":"p","n":"Volonne - RN 85"},
+  {"id":3999485271,"lat":44.111683,"lon":6.012185,"k":"p","n":"Volonne - Village / Quartier Fumuy"},
+  {"id":3999492287,"lat":44.101622,"lon":6.008787,"k":"p","n":"Le Carillon / Font Robert"},
+  {"id":4316308115,"lat":44.105736,"lon":6.01806,"k":"p"},
+  {"id":4316308978,"lat":44.111591,"lon":6.012132,"k":"x","n":"Volonne - Village / Quartier Fumuy"},
+  {"id":7149049729,"lat":44.106622,"lon":6.004761,"k":"x","n":"Volonne - RN 85"},
+  {"id":7149049730,"lat":44.10727,"lon":6.004254,"k":"x","n":"Volonne - RN 85"},
+  {"id":8405639355,"lat":44.101568,"lon":6.008826,"k":"x","n":"Le Carillon / Font Robert"},
+  {"id":10839430869,"lat":44.1479,"lon":6.015436,"k":"p","n":"Sourribes - Village"},
+  {"id":10839430870,"lat":44.14788,"lon":6.015467,"k":"x","n":"Sourribes - Village"},
+  {"id":12314471701,"lat":44.103696,"lon":6.006723,"k":"p","n":"Place Saint-Sébastien Font-Robert"},
+  {"id":12314480101,"lat":44.101469,"lon":6.008629,"k":"p","n":"Place du Commerce"}
+],
+"routes":[
+  {"id":6627302,"t":{"ref":"401","name":"Bus 401 : Digne-les-Bains => Sisteron","from":"Digne-les-Bains - Gare Routière","to":"Sisteron - Gare Routière","network":"Zou !","operator":"Autocars PAYAN","colour":"#ffe866","route":"bus","public_transport:version":"2"},"n":21,"s":[[1897921862,15]]},
+  {"id":6627303,"t":{"ref":"401","name":"Bus 401 : Sisteron => Digne-les-Bains","from":"Sisteron - Gare Routière","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"Autocars PAYAN","colour":"#ffe866","route":"bus","public_transport:version":"2"},"n":22,"s":[[1897922262,7]]},
+  {"id":6631223,"t":{"ref":"400","name":"Bus 400 : Digne => Gap","from":"Digne-les-Bains - Gare Routière","to":"Gap - Gare Routière","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":26,"s":[[1897921862,12]]},
+  {"id":6631224,"t":{"ref":"400","name":"Bus 400 : Gap => Digne","from":"Gap - Gare Routière","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":25,"s":[[1897922262,13]]},
+  {"id":7808739,"t":{"ref":"S1","name":"Bus S1 : Volonne => Digne-les-Bains","from":"Volonne","to":"Digne-les-Bains","network":"PAA","operator":"Provence Alpes Agglomération","colour":"#32cd32","route":"bus","public_transport:version":"2"},"n":6,"s":[[3999485271,1]]},
+  {"id":7808740,"t":{"ref":"S1","name":"Bus S1 : Digne-les-Bains => Volonne","from":"Digne-les-Bains","to":"Volonne","network":"PAA","operator":"Provence Alpes Agglomération","colour":"#32cd32","route":"bus","public_transport:version":"2"},"n":5,"s":[[3999485271,5]]},
+  {"id":12290060,"t":{"ref":"S1","name":"Bus S1 : Château-Arnoux => Digne-les-Bains","from":"Château-Arnoux","to":"Digne-les-Bains","network":"PAA","operator":"Provence Alpes Agglomération","colour":"#32cd32","route":"bus","public_transport:version":"2"},"n":7,"s":[[3999492287,1]]},
+  {"id":12290061,"t":{"ref":"S1","name":"Bus S1 : Digne-les-Bains => Château-Arnoux","from":"Digne-les-Bains","to":"Château-Arnoux","network":"PAA","operator":"Provence Alpes Agglomération","colour":"#32cd32","route":"bus","public_transport:version":"2"},"n":6,"s":[[3999492287,6]]},
+  {"id":15790772,"t":{"ref":"4911","name":"Bus 4911 : Entrepierres => Salignac => Sourribes","from":"Entrepierres","to":"Sourribes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10839430869,5]]},
+  {"id":15790773,"t":{"ref":"4911","name":"Bus 4911 : Sourribes => Salignac","from":"Sourribes","to":"Salignac","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10839430869,1]]},
+  {"id":15790826,"t":{"ref":"4912","name":"Bus 4912 : Les Demesses => Sourribes","from":"Les Demesses","to":"Sourribes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10839430869,2,4]]},
+  {"id":15790827,"t":{"ref":"4912","name":"Bus 4912 : Sourribes => Les Demesses","from":"Sourribes","to":"Les Demesses","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10839430869,1,3]]},
+  {"id":18483054,"t":{"name":"Navette communale","operator":"Commune de Château-Arnoux-Saint-Auban","route":"bus"},"n":22,"s":[[12314480101,21],[12314471701,22]]},
+  {"id":3050327958398,"t":{"ref":"400","name":"Bus 400 : Digne => Veynes","from":"Digne-les-Bains - Gare Routière","to":"Veynes - Gare SNCF","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":14,"s":[[1897921862,9]]},
+  {"id":3060129918428,"t":{"ref":"400","name":"Bus 400 : Veynes => Digne","from":"Veynes - Gare SNCF","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":27,"s":[[1897922262,16]]},
+  {"id":3072772445636,"t":{"ref":"400","name":"Bus 400 : Digne => Veynes","from":"Digne-les-Bains - Gare Routière","to":"Veynes - Gare SNCF","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":24,"s":[[1897921862,9]]}
+]
+}

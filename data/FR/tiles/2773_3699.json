@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2773,3699],
+"stops":[
+  {"id":5402032465,"lat":48.655363,"lon":4.964957,"k":"x","n":"HOPITAL"},
+  {"id":5651705596,"lat":48.651562,"lon":4.974289,"k":"p","n":"Bettancourt Mairie"},
+  {"id":5651705597,"lat":48.655859,"lon":4.96936,"k":"p","n":"Denis Mougeot"},
+  {"id":5651705598,"lat":48.655361,"lon":4.964872,"k":"p","n":"Hôpital"},
+  {"id":10078330524,"lat":48.652338,"lon":4.97442,"k":"p","n":"BETTANCOURT MAIRIE"},
+  {"id":10078330529,"lat":48.652497,"lon":4.974307,"k":"p"},
+  {"id":11169528653,"lat":48.655186,"lon":4.966557,"k":"p","n":"Orgères"},
+  {"id":11169528654,"lat":48.650199,"lon":4.960213,"k":"p","n":"Val d'Ornel"},
+  {"id":6012419791879,"lat":48.655459,"lon":4.967272,"k":"p","n":"ORGERES","g":1},
+  {"id":6030273744918,"lat":48.662321,"lon":4.975947,"k":"p","n":"BETTANCOURT-LA-FERREE - ZAC","g":1},
+  {"id":6037930224304,"lat":48.662321,"lon":4.975947,"k":"p","n":"BETTANCOURT-LA-FERREE - ZAC","g":1},
+  {"id":6041491338659,"lat":48.662321,"lon":4.975947,"k":"p","n":"BETTANCOURT-LA-FERREE - ZAC","g":1},
+  {"id":6048518686429,"lat":48.66841,"lon":4.985849,"k":"p","n":"CHANCENAY - Bas","g":1},
+  {"id":6064788521618,"lat":48.66841,"lon":4.985849,"k":"p","n":"CHANCENAY - Bas","g":1},
+  {"id":6076691355295,"lat":48.655459,"lon":4.967272,"k":"p","n":"ORGERES","g":1},
+  {"id":6086893703787,"lat":48.66841,"lon":4.985849,"k":"p","n":"CHANCENAY - Bas","g":1}
+],
+"routes":[
+  {"id":8330347,"t":{"ref":"2","name":"TICEA Bus Ligne 2 - St-Exupery -> Bettancourt Hôpital","network":"Ticéa","operator":"TICEA","colour":"blue","route":"bus"},"n":26,"s":[[5651705596,23],[5651705597,24],[5651705598,25]]},
+  {"id":3010050461617,"t":{"ref":"519","name":"519: BAR-LE-DUC - Gare Multimodale - SAINT-DIZIER - SNCF","from":"BAR-LE-DUC - Gare Multimodale","to":"SAINT-DIZIER - SNCF","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6086893703787,6],[6037930224304,7]]},
+  {"id":3010997624295,"t":{"ref":"519","name":"519: SAINT-DIZIER - SNCF - BAR-LE-DUC - Gare Multimodale","from":"SAINT-DIZIER - SNCF","to":"BAR-LE-DUC - Gare Multimodale","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6037930224304,2],[6086893703787,3]]},
+  {"id":3015050436382,"t":{"ref":"1","name":"1: HOPITAL - HOPITAL","from":"HOPITAL","to":"HOPITAL","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":42,"s":[[5402032465,1,42],[11169528653,2],[11169528654,3],[10078330524,40],[5651705597,41]]},
+  {"id":3015860789709,"t":{"ref":"519","name":"519: SAINT-DIZIER - SNCF - BAR-LE-DUC - Gare Multimodale","from":"SAINT-DIZIER - SNCF","to":"BAR-LE-DUC - Gare Multimodale","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6030273744918,2],[6064788521618,3]]},
+  {"id":3036882507187,"t":{"ref":"1","name":"1: HOPITAL - HOPITAL","from":"HOPITAL","to":"HOPITAL","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":42,"s":[[5402032465,1,42],[5651705597,2],[10078330524,3],[6012419791879,41]]},
+  {"id":3042551876073,"t":{"ref":"WASSY","name":"WASSY: BROUSSEVAL RUE DU GENERAL DE GAULLE - HOPITAL","from":"BROUSSEVAL RUE DU GENERAL DE GAULLE","to":"HOPITAL","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":21,"s":[[5402032465,21]]},
+  {"id":3053658042877,"t":{"ref":"519","name":"519: BAR-LE-DUC - Gare Multimodale - SAINT-DIZIER - SNCF","from":"BAR-LE-DUC - Gare Multimodale","to":"SAINT-DIZIER - SNCF","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6064788521618,6],[6030273744918,7]]},
+  {"id":3058079609250,"t":{"ref":"WASSY","name":"WASSY: BROUSSEVAL RUE DU GENERAL DE GAULLE - HOPITAL","from":"BROUSSEVAL RUE DU GENERAL DE GAULLE","to":"HOPITAL","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":21,"s":[[5402032465,21]]},
+  {"id":3060502715131,"t":{"ref":"WASSY","name":"WASSY: HOPITAL - BROUSSEVAL RUE DU GENERAL DE GAULLE","from":"HOPITAL","to":"BROUSSEVAL RUE DU GENERAL DE GAULLE","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":22,"s":[[5402032465,1]]},
+  {"id":3078747535410,"t":{"ref":"519","name":"519: BAR-LE-DUC - Gare Multimodale - SAINT-DIZIER - SNCF","from":"BAR-LE-DUC - Gare Multimodale","to":"SAINT-DIZIER - SNCF","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6048518686429,6],[6041491338659,7]]},
+  {"id":3080638525169,"t":{"ref":"519","name":"519: SAINT-DIZIER - SNCF - BAR-LE-DUC - Gare Multimodale","from":"SAINT-DIZIER - SNCF","to":"BAR-LE-DUC - Gare Multimodale","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6041491338659,2],[6048518686429,3]]},
+  {"id":3084689624904,"t":{"ref":"1","name":"1: HOPITAL - HOPITAL","from":"HOPITAL","to":"HOPITAL","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":42,"s":[[5402032465,1,42],[5651705597,2],[10078330524,3],[6076691355295,41]]},
+  {"id":3086373727848,"t":{"ref":"1","name":"1: HOPITAL - HOPITAL","from":"HOPITAL","to":"HOPITAL","operator":"RESEAU URBAIN TICEA","route":"bus","public_transport:version":"2"},"n":42,"s":[[5402032465,1,42],[11169528653,2],[11169528654,3],[10078330524,40],[5651705597,41]]}
+]
+}

@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2731,3639],
+"stops":[
+  {"id":5416533455,"lat":46.581892,"lon":1.983673,"k":"p","n":"La Châtre - Champ de Foire"},
+  {"id":6565557424,"lat":46.5784,"lon":1.97422,"k":"p","n":"Arrêt du Moulin à Vent"},
+  {"id":12840167180,"lat":46.565553,"lon":1.958047,"k":"p","n":"Le Magny"},
+  {"id":6066138343399,"lat":46.56921,"lon":1.98533,"k":"p","n":"Hôpital","g":1},
+  {"id":6078917948186,"lat":46.56921,"lon":1.98533,"k":"p","n":"Hôpital","g":1}
+],
+"routes":[
+  {"id":10585792,"t":{"ref":"035-01","name":"Ligne Saint-Août - La Châtre","from":"Saint-Août","to":"La Châtre","network":"Rémi 36","operator":"Rémi 36","route":"bus","public_transport:version":"1"},"n":2,"s":[[5416533455,2]]},
+  {"id":3013103607209,"t":{"ref":"F","name":"F: Gare Routière - Place de la Résistance","from":"Gare Routière","to":"Place de la Résistance","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":13,"s":[[5416533455,10],[6066138343399,11]]},
+  {"id":3020908820683,"t":{"ref":"F","name":"F: Gare Routière - Place de la Résistance","from":"Gare Routière","to":"Place de la Résistance","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":13,"s":[[5416533455,10],[6078917948186,11]]},
+  {"id":3022442791891,"t":{"ref":"F","name":"F: Hôpital - Gare Routière","from":"Hôpital","to":"Gare Routière","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":11,"s":[[6078917948186,1],[5416533455,2]]},
+  {"id":3033664061819,"t":{"ref":"F","name":"F: Hôpital - Gare Routière","from":"Hôpital","to":"Gare Routière","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":11,"s":[[6066138343399,1],[5416533455,2]]},
+  {"id":3077944083007,"t":{"ref":"F","name":"F: Gare Routière - Hôpital","from":"Gare Routière","to":"Hôpital","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":11,"s":[[5416533455,10],[6078917948186,11]]},
+  {"id":3081190504398,"t":{"ref":"F","name":"F: Place de la Résistance - Gare Routière","from":"Place de la Résistance","to":"Gare Routière","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":13,"s":[[6078917948186,3],[5416533455,4]]},
+  {"id":3086846420089,"t":{"ref":"F","name":"F: Gare Routière - Hôpital","from":"Gare Routière","to":"Hôpital","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":11,"s":[[5416533455,10],[6066138343399,11]]},
+  {"id":3092979723280,"t":{"ref":"F","name":"F: Place de la Résistance - Gare Routière","from":"Place de la Résistance","to":"Gare Routière","operator":"Rémi 36","route":"bus","public_transport:version":"2"},"n":13,"s":[[6066138343399,3],[5416533455,4]]}
+]
+}

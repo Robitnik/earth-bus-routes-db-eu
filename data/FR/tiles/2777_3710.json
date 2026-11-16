@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2777,3710],
+"stops":[
+  {"id":3335811663,"lat":48.89468,"lon":5.537133,"k":"x","n":"Saint-Mihiel - Ancienne Gare"},
+  {"id":3983982038,"lat":48.882064,"lon":5.532171,"k":"x","n":"Centre de Détention"},
+  {"id":6584089477,"lat":48.893134,"lon":5.541804,"k":"p","n":"ligne 14"},
+  {"id":6584089478,"lat":48.882044,"lon":5.53182,"k":"p","n":"Centre de Détention"},
+  {"id":6657702752,"lat":48.864924,"lon":5.538422,"k":"p"},
+  {"id":8678820605,"lat":48.861809,"lon":5.521537,"k":"p","n":"ligne 14"},
+  {"id":6029760189404,"lat":48.8887,"lon":5.54194,"k":"p","n":"Saint-Mihiel","g":1},
+  {"id":6030408527008,"lat":48.895906,"lon":5.537743,"k":"p","n":"SAINT-MIHIEL - Ancienne Gare Navette TGV","g":1},
+  {"id":6058621999818,"lat":48.888698,"lon":5.54194,"k":"p","n":"Saint-Mihiel","g":1},
+  {"id":6059793934104,"lat":48.895906,"lon":5.537743,"k":"p","n":"SAINT-MIHIEL - Ancienne Gare Navette TGV","g":1},
+  {"id":6069581337613,"lat":48.885058,"lon":5.536063,"k":"p","n":"Saint-Mihiel Détention","g":1},
+  {"id":6069607897984,"lat":48.885056,"lon":5.536063,"k":"p","n":"Saint-Mihiel Détention","g":1},
+  {"id":6078143148513,"lat":48.895906,"lon":5.537743,"k":"p","n":"SAINT-MIHIEL - Ancienne Gare Navette TGV","g":1}
+],
+"routes":[
+  {"id":5939173,"t":{"ref":"Navette","name":"Navette Commercy − Meuse TGV","operator":"Rapides de la Meuse","route":"bus","public_transport:version":"1"},"n":4,"s":[[3983982038,2]]},
+  {"id":3002327296471,"t":{"ref":"553","name":"553: COMMERCY - Gare - LES TROIS-DOMAINES - Gare Meuse TGV","from":"COMMERCY - Gare","to":"LES TROIS-DOMAINES - Gare Meuse TGV","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6584089478,4],[6078143148513,5]]},
+  {"id":3015448330966,"t":{"ref":"514","name":"514: VERDUN - Gare Multimodale - VOID-VACON - Void Vacon - Monument","from":"VERDUN - Gare Multimodale","to":"VOID-VACON - Void Vacon - Monument","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":23,"s":[[6584089477,12],[6584089478,13],[8678820605,14]]},
+  {"id":3016661723597,"t":{"ref":"553","name":"553: LES TROIS-DOMAINES - Gare Meuse TGV - COMMERCY - Gare","from":"LES TROIS-DOMAINES - Gare Meuse TGV","to":"COMMERCY - Gare","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6078143148513,4],[6584089478,5]]},
+  {"id":3017870607660,"t":{"ref":"514","name":"514: VERDUN - Gare Multimodale - VOID-VACON - Void Vacon - Monument","from":"VERDUN - Gare Multimodale","to":"VOID-VACON - Void Vacon - Monument","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":23,"s":[[6584089477,12],[6584089478,13],[8678820605,14]]},
+  {"id":3017915149429,"t":{"ref":"514","name":"514: VOID-VACON - Void Vacon - Monument - VERDUN - Gare Multimodale","from":"VOID-VACON - Void Vacon - Monument","to":"VERDUN - Gare Multimodale","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":23,"s":[[8678820605,10],[6584089478,11],[6584089477,12]]},
+  {"id":3022072913522,"t":{"ref":"553","name":"553: COMMERCY - Gare - LES TROIS-DOMAINES - Gare Meuse TGV","from":"COMMERCY - Gare","to":"LES TROIS-DOMAINES - Gare Meuse TGV","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6584089478,4],[6059793934104,5]]},
+  {"id":3022776066197,"t":{"ref":"E01","name":"E01: Commercy - Meuse TGV","from":"Commercy","to":"Meuse TGV","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":8,"s":[[6069581337613,4],[6029760189404,5]]},
+  {"id":3042673727889,"t":{"ref":"514","name":"514: VERDUN - Gare Multimodale - VOID-VACON - Void Vacon - Monument","from":"VERDUN - Gare Multimodale","to":"VOID-VACON - Void Vacon - Monument","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":23,"s":[[6584089477,12],[6584089478,13],[8678820605,14]]},
+  {"id":3051968114407,"t":{"ref":"E01","name":"E01: Commercy - Meuse TGV","from":"Commercy","to":"Meuse TGV","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":8,"s":[[6069607897984,4],[6058621999818,5]]},
+  {"id":3052794320461,"t":{"ref":"514","name":"514: VOID-VACON - Void Vacon - Monument - VERDUN - Gare Multimodale","from":"VOID-VACON - Void Vacon - Monument","to":"VERDUN - Gare Multimodale","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":23,"s":[[8678820605,10],[6584089478,11],[6584089477,12]]},
+  {"id":3052827661151,"t":{"ref":"553","name":"553: LES TROIS-DOMAINES - Gare Meuse TGV - COMMERCY - Gare","from":"LES TROIS-DOMAINES - Gare Meuse TGV","to":"COMMERCY - Gare","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6059793934104,4],[6584089478,5]]},
+  {"id":3056942766938,"t":{"ref":"E01","name":"E01: Meuse TGV - Commercy","from":"Meuse TGV","to":"Commercy","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":8,"s":[[6029760189404,4],[6069581337613,5]]},
+  {"id":3074281111318,"t":{"ref":"553","name":"553: LES TROIS-DOMAINES - Gare Meuse TGV - COMMERCY - Gare","from":"LES TROIS-DOMAINES - Gare Meuse TGV","to":"COMMERCY - Gare","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6030408527008,4],[6584089478,5]]},
+  {"id":3074475897387,"t":{"ref":"553","name":"553: COMMERCY - Gare - LES TROIS-DOMAINES - Gare Meuse TGV","from":"COMMERCY - Gare","to":"LES TROIS-DOMAINES - Gare Meuse TGV","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":8,"s":[[6584089478,4],[6030408527008,5]]},
+  {"id":3075312371635,"t":{"ref":"E01","name":"E01: Meuse TGV - Commercy","from":"Meuse TGV","to":"Commercy","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":8,"s":[[6058621999818,4],[6069607897984,5]]},
+  {"id":3092171643851,"t":{"ref":"514","name":"514: VOID-VACON - Void Vacon - Monument - VERDUN - Gare Multimodale","from":"VOID-VACON - Void Vacon - Monument","to":"VERDUN - Gare Multimodale","operator":"Fluo Grand Est 55","route":"bus","public_transport:version":"2"},"n":23,"s":[[8678820605,10],[6584089478,11],[6584089477,12]]}
+]
+}

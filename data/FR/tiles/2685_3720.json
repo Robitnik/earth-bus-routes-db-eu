@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2685,3720],
+"stops":[
+  {"id":668413949,"lat":44.281786,"lon":6.018688,"k":"x","n":"Nibles - Village","ref":"492"},
+  {"id":1272227368,"lat":44.276927,"lon":6.010364,"k":"x","n":"Châteaufort"},
+  {"id":4034680756,"lat":44.281768,"lon":6.018705,"k":"p","n":"Nibles - Village"},
+  {"id":4037901533,"lat":44.276925,"lon":6.010312,"k":"p","n":"Châteaufort","ref":"1345"},
+  {"id":5794000738,"lat":44.276917,"lon":6.010421,"k":"p","n":"Châteaufort","ref":"1345"}
+],
+"routes":[
+  {"id":6888028,"t":{"ref":"493","name":"Bus 493 : Sisteron => Bayons","from":"Sisteron","to":"Bayons","network":"Zou !","operator":"PAYAN","colour":"#6a2000","route":"bus","public_transport:version":"2"},"n":11,"s":[[4034680756,5]]},
+  {"id":6888030,"t":{"ref":"493","name":"Bus 493 : Bayons => Sisteron","from":"Bayons","to":"Sisteron","network":"Zou !","operator":"PAYAN","colour":"#6a2000","route":"bus","public_transport:version":"2"},"n":11,"s":[[4034680756,7]]},
+  {"id":12425905,"t":{"ref":"492","name":"Bus 492 : Turriers => Nibles => Sisteron","from":"Turriers","to":"Sisteron","network":"Zou !","operator":"PAYAN","colour":"#962e01","route":"bus","public_transport:version":"2"},"n":13,"s":[[4034680756,10],[4037901533,11]]},
+  {"id":12425906,"t":{"ref":"492","name":"Bus 492 : Sisteron => Nibles => Turriers","from":"Sisteron","to":"Turriers","network":"Zou !","operator":"PAYAN","colour":"#962e01","route":"bus","public_transport:version":"2"},"n":14,"s":[[5794000738,4],[4034680756,5]]}
+]
+}

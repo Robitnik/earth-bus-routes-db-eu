@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2678,3712],
+"stops":[
+  {"id":294964137,"lat":43.931654,"lon":5.636903,"k":"x","n":"Vachères - Place"},
+  {"id":6763554502,"lat":43.931665,"lon":5.636791,"k":"p","n":"Vachères - Place"},
+  {"id":7498893516,"lat":43.90856,"lon":5.616226,"k":"p","n":"Sainte-Croix-à-Lauze - Village"},
+  {"id":7498893517,"lat":43.914288,"lon":5.62327,"k":"p","n":"Sainte-Croix-à-Lauze - Le Brec"},
+  {"id":10588658829,"lat":43.908612,"lon":5.616259,"k":"x","n":"Sainte-Croix-à-Lauze - Village"},
+  {"id":10588658830,"lat":43.914282,"lon":5.623321,"k":"x","n":"Sainte-Croix-à-Lauze - Le Brec"}
+],
+"routes":[
+  {"id":6780522,"t":{"ref":"460","name":"Bus 460 : Vachères => Reillanne => Manosque - Lycée Les Iscles","from":"Vachères","to":"Manosque - Lycée Les Iscles","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":10,"s":[[6763554502,1]]},
+  {"id":6780553,"t":{"ref":"460","name":"Bus 460 : Manosque - Gare Routière => Reillanne => Vachères","from":"Manosque - Gare Routière","to":"Vachères","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":9,"s":[[6763554502,9]]},
+  {"id":15401151,"t":{"ref":"4704","name":"Bus 4704 : Banon => Sainte-Croix-à-Lauze","from":"Banon","to":"Sainte-Croix-à-Lauze","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[6763554502,6],[7498893517,7],[7498893516,8]]},
+  {"id":15401152,"t":{"ref":"4704","name":"Bus 4704 : Sainte-Croix-à-Lauze => Banon","from":"Sainte-Croix-à-Lauze","to":"Banon","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[7498893517,1],[7498893516,2],[6763554502,3]]}
+]
+}

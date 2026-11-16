@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2664,3642],
+"stops":[
+  {"id":2461630836,"lat":43.24176,"lon":2.123617,"k":"p","n":"Bram"},
+  {"id":4003432320,"lat":43.243696,"lon":2.119163,"k":"x","n":"Bram - Gare SNCF"},
+  {"id":13092410487,"lat":43.200386,"lon":2.145494,"k":"x","n":"Montréal - Porte Esquive"},
+  {"id":13092410488,"lat":43.200421,"lon":2.145421,"k":"p","n":"Montréal - Porte Esquive"},
+  {"id":13092410489,"lat":43.200374,"lon":2.146006,"k":"p","n":"Montréal - Porte Esquive"},
+  {"id":13092410490,"lat":43.200427,"lon":2.145903,"k":"x","n":"Montréal - Porte Esquive"},
+  {"id":13092410493,"lat":43.200462,"lon":2.141958,"k":"x","n":"Montréal - Place de la République"},
+  {"id":13092410494,"lat":43.200461,"lon":2.141866,"k":"p","n":"Montréal - Place de la République"},
+  {"id":13092410499,"lat":43.200345,"lon":2.141374,"k":"x","n":"Montréal - Place de la République"},
+  {"id":13092410500,"lat":43.200305,"lon":2.14148,"k":"p","n":"Montréal - Place de la République"},
+  {"id":13192242125,"lat":43.243779,"lon":2.119296,"k":"p","n":"Bram - Gare SNCF"}
+],
+"routes":[
+  {"id":19542606,"t":{"ref":"405","name":"Ligne 405 : Carcassonne → Mirepoix","from":"Carcassonne - Boulevard de Varsovie","to":"Mirepoix - Cours Petitpied","network":"liO","operator":"liO","colour":"#38761d","route":"bus","public_transport:version":"2"},"n":8,"s":[[13092410488,3],[13092410494,4]]},
+  {"id":19542687,"t":{"ref":"405","name":"Ligne 405 : Mirepoix → Carcassonne","from":"Mirepoix - Cours Petitpied","to":"Carcassonne - Boulevard de Varsovie","network":"liO","operator":"liO","colour":"#38761d","route":"bus","public_transport:version":"2"},"n":8,"s":[[13092410500,5],[13092410489,6]]},
+  {"id":19699534,"t":{"ref":"411","name":"Ligne 411 : Limoux → Bram","from":"Limoux - Lycée Jacques Ruffié","to":"Bram - Gare SNCF","network":"liO","operator":"liO","colour":"#2da6dd","route":"bus","public_transport:version":"2"},"n":14,"s":[[13092410500,13],[13192242125,14]]},
+  {"id":19699588,"t":{"ref":"411","name":"Ligne 411 : Bram → Limoux","from":"Bram - Gare SNCF","to":"Limoux - Lycée Jacques Ruffié","network":"liO","operator":"liO","colour":"#2da6dd","route":"bus","public_transport:version":"2"},"n":14,"s":[[13192242125,1],[13092410494,2]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3742],
+"stops":[
+  {"id":2054522361,"lat":44.054629,"lon":7.120885,"k":"p","n":"Rimplas"},
+  {"id":2054522369,"lat":44.054677,"lon":7.12162,"k":"p","n":"Rimplas"},
+  {"id":2054644329,"lat":44.082732,"lon":7.105729,"k":"p","n":"Saint-Sauveur-sur-Tinée"},
+  {"id":2054644339,"lat":44.083368,"lon":7.105312,"k":"p","n":"Saint-Sauveur-sur-Tinée"},
+  {"id":5506318017,"lat":44.054631,"lon":7.12164,"k":"x","n":"Rimplas"},
+  {"id":8018359261,"lat":44.054707,"lon":7.120866,"k":"x","n":"Rimplas"},
+  {"id":9681023248,"lat":44.082754,"lon":7.105753,"k":"x","n":"Saint-Sauveur-sur-Tinée"},
+  {"id":9794437152,"lat":44.08474,"lon":7.105224,"k":"p","n":"Collège Saint-Blaise"},
+  {"id":9794437153,"lat":44.084763,"lon":7.105219,"k":"x","n":"Collège Saint-Blaise"},
+  {"id":14203130507,"lat":44.082736,"lon":7.105727,"k":"p","n":"Saint-Sauveur-sur-Tinée"},
+  {"id":14203130511,"lat":44.083359,"lon":7.105324,"k":"p","n":"Saint-Sauveur-sur-Tinée"},
+  {"id":14288780923,"lat":44.06417,"lon":7.132719,"k":"p","n":"Rimplas Village"}
+],
+"routes":[
+  {"id":8124998,"t":{"ref":"91","name":"Bus 91 : Auron => Nice","from":"Auron","to":"Les Arboras / Université","network":"Lignes d'Azur","operator":"Régie Ligne d'Azur","colour":"#a76434","route":"bus","public_transport:version":"2"},"n":26,"s":[[2054644329,11],[2054522361,12]]},
+  {"id":8124999,"t":{"ref":"91","name":"Bus 91 : Nice => Auron","from":"Les Arboras / Université","to":"Auron","network":"Lignes d'Azur","operator":"Régie Ligne d'Azur","colour":"#a76434","route":"bus","public_transport:version":"2"},"n":26,"s":[[2054522369,14],[2054644339,15]]},
+  {"id":14217137,"t":{"ref":"741","name":"Bus 741 : Saint-Sauveur-sur-Tinée - Collège Saint-Blaise => Nice - Vauban","from":"Saint-Sauveur-sur-Tinée - Collège Saint-Blaise","to":"Nice - Vauban","network":"Lignes d'Azur","operator":"Régie Ligne d'Azur","colour":"#567bbd","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[9794437152,1]]},
+  {"id":14217138,"t":{"ref":"741","name":"Bus 741 : Nice - Vauban => Saint-Sauveur-sur-Tinée - Collège Saint-Blaise","from":"Nice - Vauban","to":"Saint-Sauveur-sur-Tinée - Collège Saint-Blaise","network":"Lignes d'Azur","operator":"Régie Ligne d'Azur","colour":"#567bbd","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[9794437152,9]]},
+  {"id":14217185,"t":{"ref":"742","name":"Bus 742 : Saint-Étienne-de-Tinée - Collège Jean Franco => Nice - Vauban","from":"Saint-Étienne-de-Tinée - Collège Jean Franco","to":"Nice - Vauban","network":"Lignes d'Azur","operator":"Régie Ligne d'Azur","colour":"#567bbd","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[2054644329,2],[2054522361,3]]},
+  {"id":14217186,"t":{"ref":"742","name":"Bus 742 : Nice - Vauban => Saint-Étienne-de-Tinée - Collège Jean Franco","from":"Nice - Vauban","to":"Saint-Étienne-de-Tinée - Collège Jean Franco","network":"Lignes d'Azur","operator":"Régie Ligne d'Azur","colour":"#567bbd","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[2054522369,10],[2054644339,11]]},
+  {"id":21422065,"t":{"ref":"C32","name":"Bus C32: Praréon - Saint-Saveur-sur-Tinée","from":"Praréon","to":"Saint-Sauveur-sur-Tinée","network":"Lignes d'Azur","route":"bus","public_transport:version":"1+2"},"n":7,"s":[[14203130507,7]]},
+  {"id":21422066,"t":{"ref":"C32","name":"Bus C32: Saint-Saveur-sur-Tinée - Praréon","from":"Saint-Sauveur-sur-Tinée","to":"Praréon","network":"Lignes d'Azur","route":"bus","public_transport:version":"1+2"},"n":7,"s":[[14203130511,1]]}
+]
+}

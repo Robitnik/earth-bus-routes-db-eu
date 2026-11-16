@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2742,3711],
+"stops":[
+  {"id":747099115,"lat":47.126962,"lon":5.561831,"k":"p","n":"Rochefort - Petite Croix"},
+  {"id":3793692194,"lat":47.129118,"lon":5.556326,"k":"x","n":"Rochefort - Z.I. Rochefort"},
+  {"id":4754901543,"lat":47.134515,"lon":5.585795,"k":"p","n":"Audelange Centre"},
+  {"id":4956204620,"lat":47.12753,"lon":5.561733,"k":"p"},
+  {"id":4956204921,"lat":47.127531,"lon":5.561637,"k":"p"},
+  {"id":5639331221,"lat":47.10249,"lon":5.562934,"k":"p"},
+  {"id":6572138314,"lat":47.125081,"lon":5.560518,"k":"p"},
+  {"id":6572138315,"lat":47.125078,"lon":5.560403,"k":"p"},
+  {"id":12997244926,"lat":47.129147,"lon":5.556219,"k":"p","n":"Rochefort - Z.I. Rochefort"},
+  {"id":12997244927,"lat":47.129119,"lon":5.556481,"k":"p","n":"Rochefort - Z.I. Rochefort"}
+],
+"routes":[
+  {"id":19348886,"t":{"ref":"LIZIA","name":"Ligne LIZIA : Rochefort => Solvay","from":"Rochefort - Zone des Tappes","to":"Solvay","network":"TCP","operator":"Keolis Monts-Jura","colour":"#f39200","route":"bus","public_transport:version":"2"},"n":11,"s":[[12997244927,1]]},
+  {"id":19349125,"t":{"ref":"LIZIA","name":"Ligne LIZIA : Solvay => Rochefort","from":"Solvay","to":"Rochefort - Zone des Tappes","network":"TCP","operator":"Keolis Monts-Jura","colour":"#f39200","route":"bus","public_transport:version":"2"},"n":12,"s":[[12997244926,11]]},
+  {"id":3028501680069,"t":{"ref":"LZ","name":"LZ: Rochefort Zone des Toppes - Tavaux Solvay","from":"Rochefort Zone des Toppes","to":"Tavaux Solvay","operator":"grandole-mobilités","route":"bus","public_transport:version":"2"},"n":16,"s":[[3793692194,2]]},
+  {"id":3030574924931,"t":{"ref":"LZ","name":"LZ: Tavaux Solvay - Rochefort Zone des Toppes","from":"Tavaux Solvay","to":"Rochefort Zone des Toppes","operator":"grandole-mobilités","route":"bus","public_transport:version":"2"},"n":16,"s":[[12997244926,15]]}
+]
+}

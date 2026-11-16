@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3731],
+"stops":[
+  {"id":5602392673,"lat":44.096424,"lon":6.555271,"k":"x","n":"Thorame-Haute - Village"},
+  {"id":5602392674,"lat":44.096464,"lon":6.555222,"k":"x","n":"Thorame-Haute - Village"},
+  {"id":5695957051,"lat":44.096403,"lon":6.555247,"k":"p","n":"Thorame-Haute - Village","ref":"1214"},
+  {"id":5695957052,"lat":44.096505,"lon":6.555289,"k":"p","n":"Thorame-Haute - Village","ref":"1214"},
+  {"id":10733332644,"lat":44.096587,"lon":6.554371,"k":"p","n":"Thorame-Haute - École"},
+  {"id":10733332645,"lat":44.096527,"lon":6.554438,"k":"x","n":"Thorame-Haute - École"},
+  {"id":10743477962,"lat":44.088588,"lon":6.555538,"k":"p","n":"Thorame-Haute - Le Coulet des Fourches"},
+  {"id":10743477963,"lat":44.088597,"lon":6.555442,"k":"x","n":"Thorame-Haute - Le Coulet des Fourches"}
+],
+"routes":[
+  {"id":8279172,"t":{"ref":"430","name":"Bus 430 : Thorame-Haute - Gare => La Foux d'Allos","from":"Thorame-Haute - Gare","to":"La Foux d'Allos","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695957052,2]]},
+  {"id":8279173,"t":{"ref":"430","name":"Bus 430 : La Foux d'Allos => Thorame-Haute - Gare","from":"La Foux d'Allos","to":"Thorame-Haute - Gare","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695957051,9]]},
+  {"id":15616186,"t":{"ref":"4304","name":"Bus 4304 : Thorame-Haute - Village => Thorame-Basse","from":"Thorame-Haute - Village","to":"Thorame-Basse","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[5695957052,1]]},
+  {"id":15616187,"t":{"ref":"4304","name":"Bus 4304 : Thorame-Basse => Thorame-Haute - Village","from":"Thorame-Basse","to":"Thorame-Haute - Village","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[5695957051,6]]},
+  {"id":15616188,"t":{"ref":"4303","name":"Bus 4303 : Thorame-Haute - École => Thorame-Basse","from":"Thorame-Haute - École","to":"Thorame-Basse","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10733332644,1]]},
+  {"id":15616189,"t":{"ref":"4303","name":"Bus 4303 : Thorame-Basse => Thorame-Haute - École","from":"Thorame-Basse","to":"Thorame-Haute - École","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10733332644,6]]},
+  {"id":15616449,"t":{"ref":"4307","name":"Bus 4307 : Saint-André-les-Alpes => Villars-Colmars","from":"Saint-André-les-Alpes","to":"Villars-Colmars","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10743477962,3],[5695957052,4]]},
+  {"id":15616450,"t":{"ref":"4307","name":"Bus 4307 : Villars-Colmars => Saint-André-les-Alpes","from":"Villars-Colmars","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[5695957051,8],[10743477962,9]]}
+]
+}

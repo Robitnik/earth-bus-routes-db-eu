@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2711,3589],
+"stops":[
+  {"id":2346754599,"lat":45.578184,"lon":-0.539396,"k":"x","n":"Pons - Gare SNCF"},
+  {"id":4995684576,"lat":45.572912,"lon":-0.547751,"k":"p","n":"Pons - Saint-Vivien (Rond-Point des Pèlerins)"},
+  {"id":4995684577,"lat":45.57271,"lon":-0.548313,"k":"p","n":"Pons - Saint-Vivien (Rond-Point des Pèlerins)"},
+  {"id":5428245245,"lat":45.552276,"lon":-0.507426,"k":"p","n":"Avy - Rue du Médoc"},
+  {"id":5429692643,"lat":45.578153,"lon":-0.539432,"k":"p","n":"Pons - Gare SNCF"},
+  {"id":6566359728,"lat":45.596673,"lon":-0.513603,"k":"x","n":"Bougneau - École"},
+  {"id":7682495137,"lat":45.553281,"lon":-0.509443,"k":"x"},
+  {"id":7682495138,"lat":45.553302,"lon":-0.509266,"k":"x"},
+  {"id":9519528503,"lat":45.596673,"lon":-0.513763,"k":"x","n":"Bougneau - École"},
+  {"id":9519528504,"lat":45.59662,"lon":-0.513738,"k":"p","n":"Bougneau - École"},
+  {"id":9519528505,"lat":45.596727,"lon":-0.513819,"k":"p","n":"Bougneau - École"}
+],
+"routes":[
+  {"id":4771072,"t":{"ref":"LRR03","name":"Car LRR03 : Pons → Jonzac → Angoulême","from":"Pons","to":"Angoulême","network":"Cars régionaux de Nouvelle-Aquitaine","operator":"Région Nouvelle-Aquitaine","colour":"#f24dae","route":"bus","public_transport:version":"2"},"n":5,"s":[[5429692643,1]]},
+  {"id":8040274,"t":{"ref":"156","name":"Ligne 156 : Saintes - Pons","network":"Cars Régionaux 17 - Charente-Maritime","route":"bus"},"n":23,"s":[[4995684577,21],[4995684576,22],[5429692643,23]]},
+  {"id":8047189,"t":{"ref":"157","name":"Ligne 157 : Pons - Jonzac","network":"Cars Régionaux 17 - Charente-Maritime","route":"bus"},"n":15,"s":[[4995684577,2],[4995684576,3],[5429692643,4],[5428245245,5]]},
+  {"id":13711731,"t":{"ref":"LRR03","name":"Car LRR03 : Angoulême → Jonzac → Pons","from":"Angoulême","to":"Pons","network":"Cars régionaux de Nouvelle-Aquitaine","operator":"Région Nouvelle-Aquitaine","colour":"#f24dae","route":"bus","public_transport:version":"2"},"n":5,"s":[[5429692643,5]]},
+  {"id":13826058,"t":{"ref":"164","name":"Ligne 164 : Cognac → Pons","from":"Cognac","to":"Pons","network":"Cars Régionaux 16 - Charente","operator":"Citram Charente","colour":"#5857b0","route":"bus","public_transport:version":"2"},"n":4,"s":[[9519528505,3],[5429692643,4]]},
+  {"id":13826828,"t":{"ref":"164","name":"Ligne 164 : Pons → Cognac","from":"Pons","to":"Cognac","network":"Cars Régionaux 16 - Charente","operator":"Citram Charente","colour":"#5857b0","route":"bus","public_transport:version":"2"},"n":4,"s":[[5429692643,1],[9519528504,2]]}
+]
+}

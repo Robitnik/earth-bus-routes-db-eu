@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2722,3729],
+"stops":[
+  {"id":1381894622,"lat":46.13633,"lon":6.477771,"k":"p","n":"Pont du Risse"},
+  {"id":7041953304,"lat":46.138217,"lon":6.458095,"k":"p","n":"Saint-Jeoire Poste"},
+  {"id":7880631959,"lat":46.136204,"lon":6.477845,"k":"x","n":"Pont du Risse"},
+  {"id":7880631960,"lat":46.136139,"lon":6.477799,"k":"p","n":"Pont du Risse"},
+  {"id":7880631961,"lat":46.136298,"lon":6.47759,"k":"x","n":"Pont du Risse"},
+  {"id":7880631962,"lat":46.138268,"lon":6.458091,"k":"x","n":"Saint-Jeoire Poste"},
+  {"id":7880640060,"lat":46.138331,"lon":6.457964,"k":"p","n":"Saint-Jeoire Poste"},
+  {"id":8036584141,"lat":46.135775,"lon":6.478929,"k":"p"},
+  {"id":8493024566,"lat":46.137312,"lon":6.45171,"k":"p","n":"Ancienne Gare"},
+  {"id":8493024574,"lat":46.137274,"lon":6.451722,"k":"x","n":"Ancienne Gare"},
+  {"id":8493024583,"lat":46.13725,"lon":6.451753,"k":"p","n":"Ancienne Gare"},
+  {"id":9388471905,"lat":46.136299,"lon":6.466558,"k":"x","n":"Trémercier"},
+  {"id":10276876352,"lat":46.136223,"lon":6.4666,"k":"p","n":"Trémercier"},
+  {"id":10303430181,"lat":46.13626,"lon":6.467105,"k":"p","n":"Trémercier"},
+  {"id":10303430182,"lat":46.136217,"lon":6.467091,"k":"x","n":"Trémercier"},
+  {"id":11079668703,"lat":46.119939,"lon":6.495898,"k":"p","n":"École Giffre"},
+  {"id":11079668704,"lat":46.12008,"lon":6.496075,"k":"p","n":"École Giffre"},
+  {"id":12801933198,"lat":46.146753,"lon":6.466892,"k":"p","n":"Pouilly Herbette"},
+  {"id":12801933199,"lat":46.146666,"lon":6.466995,"k":"p","n":"Pouilly Herbette"},
+  {"id":12801933200,"lat":46.146664,"lon":6.466921,"k":"x","n":"Pouilly Herbette"},
+  {"id":12802000501,"lat":46.146748,"lon":6.466978,"k":"x","n":"Pouilly Herbette"},
+  {"id":14109269230,"lat":46.117179,"lon":6.492062,"k":"p","n":"Cormand"},
+  {"id":14109269231,"lat":46.117147,"lon":6.492003,"k":"p","n":"Cormand"},
+  {"id":14109269232,"lat":46.117163,"lon":6.492032,"k":"x","n":"Cormand"}
+],
+"routes":[
+  {"id":12406577,"t":{"ref":"C","name":"Bus C : Pers-Jussy → Saint-Jeoire","from":"Pers-Jussy","to":"Saint-Jeoire","network":"Proxim'iTi","operator":"SM4CC","colour":"#0abaee","route":"bus","public_transport:version":"2"},"n":18,"s":[[8493024583,17],[7041953304,18]]},
+  {"id":12409460,"t":{"ref":"C","name":"Bus C : Saint-Jeoire → Fillinges → Pers-Jussy","from":"Pers-Jussy","to":"Saint-Jeoire","network":"Proxim'iTi","operator":"SM4CC","colour":"#0abaee","route":"bus","public_transport:version":"2"},"n":19,"s":[[7880640060,1],[8493024566,2]]},
+  {"id":12409461,"t":{"ref":"C","name":"Bus C : Saint-Jeoire → Pers-Jussy","from":"Pers-Jussy","to":"Saint-Jeoire","network":"Proxim'iTi","operator":"SM4CC","colour":"#0abaee","route":"bus","public_transport:version":"2"},"n":18,"s":[[7880640060,1],[8493024566,2]]},
+  {"id":12409462,"t":{"ref":"C","name":"Bus C : Pers-Jussy → Fillinges → Saint-Jeoire","from":"Pers-Jussy","to":"Saint-Jeoire","network":"Proxim'iTi","operator":"SM4CC","colour":"#0abaee","route":"bus","public_transport:version":"2"},"n":19,"s":[[8493024583,18],[7041953304,19]]},
+  {"id":16147317,"t":{"ref":"G","name":"G : Marignier → Viuz-En-Sallaz","from":"Marignier","to":"Viuz-En-Sallaz","network":"Proxim'iTi","operator":"SM4CC","colour":"#4564ad","route":"bus","public_transport:version":"2"},"n":13,"s":[[11079668704,2],[1381894622,3],[10303430181,4],[7880640060,5],[8493024566,6]]},
+  {"id":16148155,"t":{"ref":"G","name":"G : Viuz-En-Sallaz → Marignier","from":"Viuz-En-Sallaz","to":"Marignier","network":"Proxim'iTi","operator":"SM4CC","colour":"#4564ad","route":"bus","public_transport:version":"2"},"n":13,"s":[[8493024583,8],[7041953304,9],[10276876352,10],[7880631960,11],[11079668703,12]]},
+  {"id":3027909624716,"t":{"ref":"Y02","name":"Bus Y02 : Annemasse → Sixt-Fer-à-Cheval","from":"Annemasse","to":"Sixt-Fer-à-Cheval","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[7880631962,13],[10276876352,14],[7880631960,15]]},
+  {"id":3033461195026,"t":{"ref":"Y02","name":"Bus Y02 : Sixt-Fer-à-Cheval → Annemasse","from":"Sixt-Fer-à-Cheval","to":"Annemasse","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[1381894622,19],[10303430182,20],[7880640060,21]]},
+  {"id":3036542679630,"t":{"ref":"Y02","name":"Bus Y02 : Sixt-Fer-à-Cheval → Annemasse","from":"Sixt-Fer-à-Cheval","to":"Annemasse","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[1381894622,19],[10303430182,20],[7880640060,21]]},
+  {"id":3041807673374,"t":{"ref":"Y02","name":"Bus Y02 : Annemasse → Sixt-Fer-à-Cheval","from":"Annemasse","to":"Sixt-Fer-à-Cheval","network":"Cars Région Haute-Savoie","operator":"Jacquet","colour":"#afca00","route":"bus","public_transport:version":"2"},"n":33,"s":[[7880631962,13],[10276876352,14],[7880631960,15]]}
+]
+}

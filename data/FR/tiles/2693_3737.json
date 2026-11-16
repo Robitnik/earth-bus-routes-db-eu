@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2693,3737],
+"stops":[
+  {"id":282933961,"lat":44.699778,"lon":6.865921,"k":"x","n":"Saint-Véran - Beauregard"},
+  {"id":282967082,"lat":44.698958,"lon":6.868201,"k":"x","n":"Saint-Véran - Boulangerie"},
+  {"id":1861601904,"lat":44.698379,"lon":6.871319,"k":"x","n":"Saint-Véran - Chalet Le Villard"},
+  {"id":1861922904,"lat":44.697672,"lon":6.872228,"k":"p","n":"Navette Hiver Pierre_Belle"},
+  {"id":5029553144,"lat":44.695483,"lon":6.874782,"k":"p","n":"Sainte-Luce"},
+  {"id":7764594985,"lat":44.699888,"lon":6.866002,"k":"p","n":"Saint-Véran - Beauregard"},
+  {"id":7837181159,"lat":44.678643,"lon":6.897197,"k":"x","n":"Parking Chateau Renard"},
+  {"id":7837253688,"lat":44.699236,"lon":6.862622,"k":"x","n":"Saint-Véran - Le Raux"},
+  {"id":9270020608,"lat":44.695468,"lon":6.874825,"k":"x","n":"Sainte-Luce"},
+  {"id":9272075009,"lat":44.699168,"lon":6.862615,"k":"p","n":"Saint-Véran - Le Raux"},
+  {"id":9272075010,"lat":44.699025,"lon":6.861887,"k":"p","n":"Saint-Véran - Le Raux"},
+  {"id":9272075011,"lat":44.699069,"lon":6.861938,"k":"x","n":"Saint-Véran - Le Raux"},
+  {"id":10892763080,"lat":44.698442,"lon":6.871303,"k":"p","n":"Saint-Véran - Chalet Le Villard"},
+  {"id":10892763081,"lat":44.69834,"lon":6.871323,"k":"p","n":"Saint-Véran - Chalet Le Villard"},
+  {"id":10893665655,"lat":44.698939,"lon":6.868241,"k":"p","n":"Saint-Véran - Boulangerie"},
+  {"id":13955562348,"lat":44.678633,"lon":6.897117,"k":"p","n":"Parking Chateau Renard"}
+],
+"routes":[
+  {"id":7464541,"t":{"ref":"CLE","name":"Navette de Clausis : Cabane de la Lavaïte => Sainte-Luce","from":"Cabane de la Lavaïte","to":"Sainte Luce","network":"Navettes Queyras","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":3,"s":[[13955562348,2],[5029553144,3]]},
+  {"id":7464542,"t":{"ref":"CLE","name":"Navette de Clausis : Sainte-Luce => Cabane de la Lavaïte","from":"Sainte Luce","to":"Cabane de la Lavaïte","network":"Navettes Queyras","colour":"#FF6600","route":"bus","public_transport:version":"2"},"n":3,"s":[[5029553144,1],[13955562348,2]]},
+  {"id":13464243,"t":{"ref":"575","name":"Bus 575 (hiver) : Saint-Véran => Château-Ville-Vieille","from":"Saint-Véran","to":"Château-Ville-Vieille","network":"Zou !","operator":"Transports Petit Mathieu","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":8,"s":[[7764594985,1],[9272075009,2]]},
+  {"id":13464244,"t":{"ref":"575","name":"Bus 575 (hiver) : Château-Ville-Vieille => Saint-Véran","from":"Château-Ville-Vieille","to":"Saint-Véran","network":"Zou !","operator":"Transports Petit Mathieu","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":8,"s":[[9272075010,7],[7764594985,8]]},
+  {"id":13469840,"t":{"ref":"AIE","name":"Navette Vallée des Aigues : Saint-Véran-Beauregard => Ville-Vieille","from":"Saint-Véran-Beauregard","to":"Ville-Vieille","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#FBBA00","route":"bus","public_transport:version":"2"},"n":9,"s":[[7764594985,1],[9272075009,2]]},
+  {"id":13469842,"t":{"ref":"AIE","name":"Navette Vallée des Aigues : Ville-Vieille => Saint-Véran-Beauregard","from":"Ville-Vieille","to":"Saint-Véran-Beauregard","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#FBBA00","route":"bus","public_transport:version":"2"},"n":9,"s":[[9272075010,8],[7764594985,9]]},
+  {"id":15849859,"t":{"ref":"5706","name":"Bus 5706 : Saint-Véran - École => Molines-en-Queyras => Saint-Véran - École","from":"Saint-Véran - École","to":"Saint-Véran - École","network":"Zou !","operator":"Transports Petit Mathieu","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":15,"s":[[10892763080,2],[7764594985,3,13],[9272075009,4],[9272075010,12],[10892763081,14]]},
+  {"id":15849860,"t":{"ref":"5706","name":"Bus 5706 : Molines-en-Queyras - École => Saint-Véran => Molines-en-Queyras - École","from":"Molines-en-Queyras - École","to":"Molines-en-Queyras - École","network":"Zou !","operator":"Transports Petit Mathieu","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":15,"s":[[9272075010,5],[7764594985,6,10],[10892763081,7],[10892763080,9],[9272075009,11]]},
+  {"id":15850890,"t":{"ref":"5708","name":"Bus 5708 : Ville-Vieille - Gare Routière => Saint-Véran - La Madeleine","from":"Ville-Vieille - Gare Routière","to":"Saint-Véran - La Madeleine","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[9272075010,7],[7764594985,8],[10893665655,9]]},
+  {"id":15850891,"t":{"ref":"5708","name":"Bus 5708 : Saint-Véran - La Madeleine => Ville-Vieille - Gare Routière","from":"Saint-Véran - La Madeleine","to":"Ville-Vieille - Gare Routière","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10893665655,2],[7764594985,3],[9272075009,4]]},
+  {"id":17693138,"t":{"ref":"575","name":"Bus 575 (été) : Saint-Véran => Château-Ville-Vieille","from":"Saint-Véran","to":"Château-Ville-Vieille","network":"Zou !","operator":"Transports Petit Mathieu","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":8,"s":[[7764594985,1],[9272075009,2]]},
+  {"id":17693139,"t":{"ref":"575","name":"Bus 575 (été) : Château-Ville-Vieille => Saint-Véran","from":"Château-Ville-Vieille","to":"Saint-Véran","network":"Zou !","operator":"Transports Petit Mathieu","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":8,"s":[[9272075010,7],[7764594985,8]]},
+  {"id":21298616,"t":{"ref":"AIH","name":"Navette Vallée des Aigues (hiver) : Ville-Vieille => Saint-Véran-Beauregard","from":"Ville-Vieille","to":"Saint-Véran-Beauregard","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#FBBA00","route":"bus","public_transport:version":"2"},"n":9,"s":[[9272075010,8],[7764594985,9]]},
+  {"id":21298617,"t":{"ref":"AIH","name":"Navette Vallée des Aigues (hiver) : Saint-Véran-Beauregard => Ville-Vieille","from":"Saint-Véran-Beauregard","to":"Ville-Vieille","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#FBBA00","route":"bus","public_transport:version":"2"},"n":9,"s":[[7764594985,1],[9272075009,2]]}
+]
+}

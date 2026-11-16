@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2736,3698],
+"stops":[
+  {"id":1256973255,"lat":46.830268,"lon":4.921079,"k":"x"},
+  {"id":1257132847,"lat":46.8273,"lon":4.918883,"k":"p","n":"Rue du Moulin Sassenay","ref":"SARUM1"},
+  {"id":2745718394,"lat":46.803877,"lon":4.940218,"k":"p","n":"Bif.N73-Rue sur les Étangs"},
+  {"id":2745718397,"lat":46.811996,"lon":4.934929,"k":"p","n":"Bois Verdenet"},
+  {"id":2745718521,"lat":46.806688,"lon":4.949538,"k":"p","n":"Le Piochy"},
+  {"id":2745718532,"lat":46.815008,"lon":4.939298,"k":"p","n":"Le Port"},
+  {"id":2745718584,"lat":46.803847,"lon":4.940139,"k":"p","n":"Rue sur les Étangs"},
+  {"id":2745718588,"lat":46.812444,"lon":4.947345,"k":"p","n":"Vieille Ferme"},
+  {"id":2878369299,"lat":46.827232,"lon":4.918842,"k":"x"},
+  {"id":9667546679,"lat":46.834083,"lon":4.93021,"k":"p","n":"Les Cannetières","ref":"SACAN2"},
+  {"id":9667885493,"lat":46.83035,"lon":4.921133,"k":"p","n":"La Poste","ref":"SAPOS1"},
+  {"id":9667885494,"lat":46.830213,"lon":4.92094,"k":"p","n":"La Poste","ref":"SAPOS2"},
+  {"id":9667885495,"lat":46.827214,"lon":4.918889,"k":"p","n":"Rue du Moulin Sassenay","ref":"SARUM2"},
+  {"id":9667885496,"lat":46.835205,"lon":4.912082,"k":"p","n":"Brondeault","ref":"SABRO1"},
+  {"id":9767186040,"lat":46.834056,"lon":4.930198,"k":"x","n":"LES CANNETIERES"},
+  {"id":11022357454,"lat":46.84744,"lon":4.945534,"k":"x"},
+  {"id":11022357455,"lat":46.847483,"lon":4.945543,"k":"p","n":"Bougerot RD","ref":"GEBOR1"},
+  {"id":11022357456,"lat":46.84611,"lon":4.949795,"k":"x"},
+  {"id":11022357457,"lat":46.846104,"lon":4.949758,"k":"p","n":"Bougerot Bourg","ref":"GEBOB1"},
+  {"id":11023647403,"lat":46.84756,"lon":4.901979,"k":"x"},
+  {"id":11023674711,"lat":46.83523,"lon":4.912117,"k":"x","n":"BRONDEAULT"},
+  {"id":11023674712,"lat":46.84758,"lon":4.902037,"k":"p","n":"Chemenot","ref":"SACHE1"},
+  {"id":6017132641631,"lat":46.828684,"lon":4.920596,"k":"p","n":"RUE DU MOULIN SASSENAY","g":1},
+  {"id":6044697916201,"lat":46.846652,"lon":4.949987,"k":"p","n":"BOUGEROT BOURG","g":1},
+  {"id":6044786388378,"lat":46.827144,"lon":4.917918,"k":"p","n":"BRONDEAULT","g":1},
+  {"id":6062829782414,"lat":46.828684,"lon":4.920596,"k":"p","n":"RUE DU MOULIN SASSENAY","g":1},
+  {"id":6076061078065,"lat":46.846589,"lon":4.949958,"k":"p","n":"BOUGEROT BOURG","g":1}
+],
+"routes":[
+  {"id":16052128,"t":{"ref":"L","name":"Ligne L : Chalon Collège Le Devoir → Sassenay","from":"Collège Le Devoir","to":"Sassenay - Les Cannetières","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[1257132847,7],[9667885493,8],[9667546679,9]]},
+  {"id":16052143,"t":{"ref":"L","name":"Ligne L : Sassenay → Chalon Collège Le Devoir","from":"Sassenay - Les Cannetières","to":"Collège Le Devoir","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[9667546679,1],[9667885493,2],[1257132847,3]]},
+  {"id":16053594,"t":{"ref":"M","name":"Ligne M : Chalon Pôle Colisée → Sassenay","from":"Pôle Colisée","to":"Sassenay - Brondeault","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":11,"s":[[11023674712,10],[9667885496,11]]},
+  {"id":16053595,"t":{"ref":"M","name":"Ligne M : Sassenay → Chalon Pôle Colisée","from":"Sassenay - Brondeault","to":"Pôle Colisée","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":11,"s":[[9667885496,1],[11023674712,2]]},
+  {"id":3008539810965,"t":{"ref":"RésaPN","name":"RésaPN: PLACE MATHIAS - AVENUE DES VOYAGEURS","from":"PLACE MATHIAS","to":"AVENUE DES VOYAGEURS","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":54,"s":[[6017132641631,12],[9667885494,13],[9767186040,14],[6044786388378,15],[11022357455,30],[6076061078065,31]]},
+  {"id":3058942299894,"t":{"ref":"RésaPN","name":"RésaPN: AVENUE DES VOYAGEURS - PLACE MATHIAS","from":"AVENUE DES VOYAGEURS","to":"PLACE MATHIAS","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":54,"s":[[6044697916201,24],[11022357455,25],[11023674711,40],[9767186040,41],[9667885493,42],[6062829782414,43]]}
+]
+}

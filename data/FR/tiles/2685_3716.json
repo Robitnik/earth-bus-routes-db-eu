@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2685,3716],
+"stops":[
+  {"id":280244140,"lat":44.261697,"lon":5.822813,"k":"x","n":"Val Buëch Méouge - Les Boisillons"},
+  {"id":1282850078,"lat":44.272532,"lon":5.812537,"k":"p","n":"Val Buëch-Méouge - Le Plan"},
+  {"id":1282926766,"lat":44.288761,"lon":5.822647,"k":"x","n":"Val Buëch Méouge - Pré Gauthier"},
+  {"id":4034359861,"lat":44.264516,"lon":5.841182,"k":"x"},
+  {"id":4823656257,"lat":44.2645,"lon":5.841185,"k":"p","n":"Mison - Village"},
+  {"id":6715840113,"lat":44.272474,"lon":5.812629,"k":"p","n":"Val Buëch-Méouge - Le Plan"},
+  {"id":6864034933,"lat":44.284707,"lon":5.820595,"k":"p","n":"Val Buëch-Méouge - Ancienne École"},
+  {"id":6864034934,"lat":44.284686,"lon":5.820361,"k":"p","n":"Val Buëch-Méouge - Ancienne École"},
+  {"id":8443405503,"lat":44.272483,"lon":5.812586,"k":"x","n":"Val Buëch-Méouge - Le Plan"},
+  {"id":8443405504,"lat":44.284658,"lon":5.82046,"k":"x","n":"Val Buëch-Méouge - Ancienne École"},
+  {"id":8443405505,"lat":44.28459,"lon":5.820429,"k":"x","n":"Val Buëch-Méouge - Ancienne École"},
+  {"id":9276288448,"lat":44.288327,"lon":5.822241,"k":"x","n":"Val Buëch Méouge - Pré Gauthier"},
+  {"id":10595072824,"lat":44.261848,"lon":5.822848,"k":"p","n":"Val Buëch Méouge - Les Boisillons"},
+  {"id":10595072825,"lat":44.261772,"lon":5.822775,"k":"x","n":"Val Buëch Méouge - Les Boisillons"},
+  {"id":10595072826,"lat":44.26162,"lon":5.822738,"k":"p","n":"Val Buëch Méouge - Les Boisillons"},
+  {"id":10595072838,"lat":44.288748,"lon":5.822747,"k":"p","n":"Val Buëch Méouge - Pré Gauthier"},
+  {"id":10595072839,"lat":44.288289,"lon":5.822099,"k":"p","n":"Val Buëch Méouge - Pré Gauthier"}
+],
+"routes":[
+  {"id":9928086,"t":{"ref":"D43","name":"Bus D43 : Mévouillon => Laragne-Montéglin","from":"Mévouillon","to":"Laragne-Montéglin","network":"Cars Région Drôme","operator":"Communauté de communes des Baronnies en Drôme provençale","colour":"#f0e620","route":"bus","public_transport:version":"2"},"n":12,"s":[[6715840113,11]]},
+  {"id":9928087,"t":{"ref":"D43","name":"Bus D43 : Laragne-Montéglin => Mévouillon","from":"Laragne-Montéglin","to":"Mévouillon","network":"Cars Région Drôme","operator":"Communauté de communes des Baronnies en Drôme provençale","colour":"#f0e620","route":"bus","public_transport:version":"2"},"n":12,"s":[[1282850078,2]]},
+  {"id":10132841,"t":{"ref":"500","name":"Bus 500 : Ribiers => Gap","from":"Ribiers","to":"Gap","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":19,"s":[[6715840113,2],[6864034933,3]]},
+  {"id":10132842,"t":{"ref":"500","name":"Bus 500 : Gap => Ribiers","from":"Gap","to":"Ribiers","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":21,"s":[[6864034934,19],[1282850078,20]]},
+  {"id":15411625,"t":{"ref":"5000","name":"Bus 5000 : Lycée/Collège Paul Arène => Laragne-Montéglin - Carrefour des Alpes","from":"Sisteron - Lycée/Collège Paul Arène","to":"Laragne-Montéglin - Carrefour des Alpes","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[10595072824,8],[6715840113,9],[6864034933,10],[10595072838,11]]},
+  {"id":15411626,"t":{"ref":"5000","name":"Bus 5000 : Carrefour des Alpes => Sisteron - Lycée/Collège Paul Arène","from":"Laragne-Montéglin - Carrefour des Alpes","to":"Sisteron - Lycée/Collège Paul Arène","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[10595072839,3],[6864034934,4],[1282850078,5],[10595072826,6]]},
+  {"id":15430200,"t":{"ref":"5005","name":"Bus 5005 : Ribiers 2 Colombes => Laragne-Montéglin - Collège Hauts de Plaine","from":"Ribiers 2 Colombes","to":"Laragne-Montéglin - Collège Hauts de Plaine","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10595072824,4],[6715840113,5],[6864034933,6],[10595072838,7]]},
+  {"id":15430201,"t":{"ref":"5005","name":"Bus 5005 : Laragne-Montéglin - Collège Hauts de Plaine => Ribiers 2 Colombes","from":"Laragne-Montéglin - Collège Hauts de Plaine","to":"Ribiers 2 Colombes","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10595072839,3],[6864034934,4],[1282850078,5],[10595072826,6]]},
+  {"id":15435037,"t":{"ref":"5007","name":"Bus 5007 : Éourres - Village => Val Buëch-Méouge - Ancienne École","from":"Éourres - Village","to":"Val Buëch-Méouge - Ancienne École","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[6864034933,11]]},
+  {"id":15555259,"t":{"ref":"500","name":"Bus 500 : La Saulce => Ribiers","from":"La Saulce","to":"Ribiers","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":17,"s":[[6864034934,15],[1282850078,16]]},
+  {"id":15555260,"t":{"ref":"500","name":"Bus 500 : Ribiers => La Saulce","from":"Ribiers","to":"La Saulce","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":15,"s":[[6715840113,2],[6864034933,3]]}
+]
+}

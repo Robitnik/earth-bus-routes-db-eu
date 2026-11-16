@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2706,3720],
+"stops":[
+  {"id":249166725,"lat":45.347917,"lon":6.040525,"k":"x","n":"La Cassey"},
+  {"id":249166760,"lat":45.340928,"lon":6.033285,"k":"x","n":"Les Amicons"},
+  {"id":249166775,"lat":45.344321,"lon":6.027707,"k":"x","n":"Les Charpieux"},
+  {"id":249166848,"lat":45.331375,"lon":6.02698,"k":"x","n":"Col de Barioz"},
+  {"id":251134244,"lat":45.312349,"lon":6.009156,"k":"x","n":"Le Carret"},
+  {"id":726837055,"lat":45.332085,"lon":6.049877,"k":"x","n":"Le Grand Plan"},
+  {"id":1127893957,"lat":45.348448,"lon":6.031734,"k":"x","n":"Le Levet"},
+  {"id":1454710135,"lat":45.344156,"lon":6.038087,"k":"x","n":"Le Voley"},
+  {"id":1925056731,"lat":45.321464,"lon":6.018352,"k":"x","n":"Les Vincents"},
+  {"id":1925056794,"lat":45.323555,"lon":6.023589,"k":"x","n":"La Coche"},
+  {"id":2616778118,"lat":45.32508,"lon":6.047386,"k":"x","n":"Foyer de Fond"},
+  {"id":2943452498,"lat":45.307102,"lon":6.003357,"k":"x","n":"Le Gre"},
+  {"id":3143857491,"lat":45.316293,"lon":6.012793,"k":"x","n":"Pont du Rouge"},
+  {"id":5001371632109,"lat":45.312344,"lon":6.009197,"k":"p","n":"Le Carret"},
+  {"id":5001371632111,"lat":45.31248,"lon":6.009029,"k":"p","n":"Le Carret"},
+  {"id":5001371632113,"lat":45.323563,"lon":6.023645,"k":"p","n":"La Coche"}
+],
+"routes":[
+  {"id":3867253,"t":{"ref":"401","name":"401 : Goncelin => Theys","from":"Goncelin - Gare","to":"Theys, Hurtières","network":"M réso","operator":"GR4 Mobilités","colour":"#e7679c","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001371632109,4]]},
+  {"id":3867254,"t":{"ref":"401","name":"401 : Theys => Goncelin","from":"Theys, Hurtières","to":"Goncelin - Gare","network":"M réso","operator":"GR4 Mobilités","colour":"#e7679c","route":"bus","public_transport:version":"2"},"n":6,"s":[[5001371632113,2],[5001371632111,3]]},
+  {"id":3904826,"t":{"ref":"600","name":"600 : St Pierre -> Crets","from":"Saint-Pierre Écoles","to":"Crets-en-Belledonne","network":"M réso","operator":"GR4 Mobilités","colour":"#e7679c","route":"bus","public_transport:version":"2"},"n":20,"s":[[1127893957,8],[249166775,9],[249166760,10],[1454710135,11],[249166725,12]]},
+  {"id":3904828,"t":{"ref":"600","name":"600 : Crets -> St Pierre","from":"Créts-en-Belledonne","to":"Saint-Pierre Écoles","network":"M réso","operator":"GR4 Mobilités","colour":"#e7679c","route":"bus","public_transport:version":"2"},"n":20,"s":[[249166725,9],[1454710135,10],[249166760,11],[249166775,12],[1127893957,13]]},
+  {"id":19277028,"t":{"ref":"329","name":"329 : Lycée -> Theys","from":"Villard-Bonnot - Lycée Marie Reynoard","to":"Theys - La Coche","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001371632109,4],[5001371632113,5]]},
+  {"id":19277030,"t":{"ref":"329","name":"329 : Collège -> Theys","from":"Villard-Bonnot - Collège Belledonne","to":"Theys - La Coche","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":10,"s":[[5001371632109,9],[5001371632113,10]]},
+  {"id":19277032,"t":{"ref":"329","name":"329 : Theys -> Lycée via Collège","from":"Theys - Pont du Rouge","to":"Villard-Bonnot - Lycée Marie Reynoard","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":10,"s":[[5001371632113,1],[5001371632111,2]]},
+  {"id":19344888,"t":{"ref":"342","name":"342 : Collège -> Coche","from":"Goncelin - Collège Icare","to":"Theys - La Coche","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001371632109,4],[5001371632113,5]]},
+  {"id":19344892,"t":{"ref":"342","name":"342 : Pont -> Collège","from":"Theys - Pont du Rouge","to":"Goncelin - Collège Icare","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":5,"s":[[5001371632113,1],[5001371632111,2]]},
+  {"id":19344899,"t":{"ref":"341","name":"341 : Écoles -> Coche","from":"Theys - Écoles","to":"Theys - La Coche","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001371632109,2],[5001371632113,3]]},
+  {"id":19344900,"t":{"ref":"341","name":"341 : Pont -> Ecole","from":"Theys - Pont du Rouge","to":"Theys - Écoles","network":"M réso","operator":"Dalbon-Goulaz","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":3,"s":[[5001371632113,1],[5001371632111,2]]},
+  {"id":19413087,"t":{"ref":"360","name":"360 : Amicons -> Saint-Pierre","from":"Crêts-en-Belledonne - Les Amicons","to":"Crêts-en-Belledonne - Saint-Pierre Écoles","network":"M réso","operator":"Europe-Autocars","colour":"#c0921a","route":"bus","public_transport:version":"2"},"n":9,"s":[[249166760,1],[1454710135,2],[249166725,3]]}
+]
+}

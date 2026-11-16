@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2683,3717],
+"stops":[
+  {"id":1732055402,"lat":44.170713,"lon":5.887291,"k":"p","n":"Bevons - EREA"},
+  {"id":4034331261,"lat":44.170849,"lon":5.887231,"k":"p","n":"Bevons - EREA"},
+  {"id":4034332194,"lat":44.173023,"lon":5.897181,"k":"p","n":"Bevons - Village","ref":"118"},
+  {"id":5793891077,"lat":44.173153,"lon":5.897532,"k":"x","n":"Bevons - Village"},
+  {"id":5793891078,"lat":44.173089,"lon":5.897161,"k":"x","n":"Bevons - Village"},
+  {"id":5793891079,"lat":44.173185,"lon":5.897519,"k":"p","n":"Bevons - Village","ref":"119"},
+  {"id":8503311163,"lat":44.170793,"lon":5.887255,"k":"x","n":"Bevons - EREA"},
+  {"id":10864499140,"lat":44.172176,"lon":5.890312,"k":"x","n":"Bevons - École"},
+  {"id":10864499141,"lat":44.172218,"lon":5.890315,"k":"p","n":"Bevons - École"},
+  {"id":13525739699,"lat":44.173459,"lon":5.897694,"k":"p","n":"Saint Michel"}
+],
+"routes":[
+  {"id":6877735,"t":{"ref":"491","name":"Bus 491 : Sisteron => Les Omergues","from":"Sisteron","to":"Les Omergues","network":"Zou !","operator":"PAYAN","colour":"#ba3801","route":"bus","public_transport:version":"2"},"n":16,"s":[[5793891079,3],[4034331261,4]]},
+  {"id":12424893,"t":{"ref":"491","name":"Bus 491 : Séderon => Sisteron","from":"Séderon","to":"Sisteron","network":"Zou !","operator":"PAYAN","colour":"#ba3801","route":"bus","public_transport:version":"2"},"n":17,"s":[[1732055402,14],[4034332194,15]]},
+  {"id":15802269,"t":{"ref":"4914","name":"Bus 4914 : Noyers-sur-Jabron => Valbelle => Bevons","from":"Noyers-sur-Jabron","to":"Bevons","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10864499141,2,8]]},
+  {"id":15802270,"t":{"ref":"4914","name":"Bus 4914 : Bevons => Valbelle => Noyers-sur-Jabron => Bevons","from":"Bevons","to":"Bevons","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10864499141,1,6]]},
+  {"id":15850821,"t":{"ref":"4923","name":"Bus 4923 : Sisteron => Bevons","from":"Sisteron","to":"Bevons","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[4034331261,4]]},
+  {"id":15850822,"t":{"ref":"4923","name":"Bus 4923 : Bevons => Sisteron","from":"Bevons","to":"Sisteron","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[1732055402,1]]}
+]
+}

@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2779,3765],
+"stops":[
+  {"id":332754227,"lat":48.986804,"lon":8.253574,"k":"p","n":"Neuburg, Kehlstraße"},
+  {"id":332754230,"lat":48.986728,"lon":8.253696,"k":"p","n":"Neuburg, Kehlstraße"},
+  {"id":402566680,"lat":48.967856,"lon":8.261561,"k":"p","n":"Neuburgweier Breslauer Straße"},
+  {"id":2728484794,"lat":48.969554,"lon":8.267326,"k":"p","n":"Neuburgweier Mitte"},
+  {"id":3991093483,"lat":48.969794,"lon":8.267623,"k":"p","n":"Neuburgweier Mitte"},
+  {"id":9179891841,"lat":48.967884,"lon":8.261487,"k":"x","n":"Neuburgweier Breslauer Straße"},
+  {"id":9629268052,"lat":48.969632,"lon":8.267413,"k":"x","n":"Neuburgweier Mitte"},
+  {"id":13316949784,"lat":48.969731,"lon":8.267609,"k":"x","n":"Neuburgweier Mitte"}
+],
+"routes":[
+  {"id":67594,"t":{"ref":"549","name":"Bus 549: Kandel => Wörth","from":"Kandel Bahnhof","to":"Wörth Berufsschule","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[332754230,9]]},
+  {"id":4212666,"t":{"ref":"106","name":"Bus 106: Ettlingen => Neuburgweier","from":"Ettlingen Stadtbahnhof","to":"Neuburgweier Breslauer Straße","network":"Karlsruher Verkehrsverbund","operator":"SüdwestBus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3991093483,1],[402566680,2]]},
+  {"id":7623765,"t":{"ref":"225","name":"225 ALT (Au am Rhein - Neuburgweier)","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Walz GmbH","route":"bus"},"n":4,"s":[[402566680,1]]},
+  {"id":11785923,"t":{"ref":"549","name":"Bus 549: Wörth => Kandel","from":"Wörth Berufsschule","to":"Kandel Bahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[332754227,1]]},
+  {"id":13338700,"t":{"ref":"106","name":"Bus 106: Neuburgweier => Ettlingen","from":"Neuburgweier Breslauer Straße","to":"Ettlingen Stadt","network":"Karlsruher Verkehrsverbund","operator":"SüdwestBus","route":"bus","public_transport:version":"2"},"n":2,"s":[[402566680,1],[2728484794,2]]}
+]
+}

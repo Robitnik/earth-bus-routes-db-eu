@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2690,3735],
+"stops":[
+  {"id":839736883,"lat":44.516047,"lon":6.754324,"k":"x","n":"Saint-Paul - Foyer de Ski de Fond"},
+  {"id":2172135270,"lat":44.537865,"lon":6.782739,"k":"x","n":"Saint-Paul-sur-Ubaye - Croisement Pont du Châtelet"},
+  {"id":2327083175,"lat":44.531179,"lon":6.777435,"k":"x","n":"Saint-Paul-sur-Ubaye - Serennes"},
+  {"id":2712417534,"lat":44.52465,"lon":6.796827,"k":"x","n":"Saint-Paul-sur-Ubaye - Fouillouse"},
+  {"id":4001219217,"lat":44.515993,"lon":6.754392,"k":"p","n":"Saint-Paul - Foyer de Ski de Fond"},
+  {"id":4001219218,"lat":44.514616,"lon":6.750814,"k":"p","n":"Saint-Paul - Mairie"},
+  {"id":10769119832,"lat":44.51526,"lon":6.752176,"k":"p","n":"Saint-Paul-sur-Ubaye - École"},
+  {"id":10769119833,"lat":44.515215,"lon":6.752226,"k":"x","n":"Saint-Paul-sur-Ubaye - École"},
+  {"id":10779259321,"lat":44.524716,"lon":6.79681,"k":"p","n":"Saint-Paul-sur-Ubaye - Fouillouse"},
+  {"id":10779259322,"lat":44.537883,"lon":6.78293,"k":"p","n":"Saint-Paul-sur-Ubaye - Croisement Pont du Châtelet"},
+  {"id":10779259323,"lat":44.531195,"lon":6.7774,"k":"p","n":"Saint-Paul-sur-Ubaye - Serennes"},
+  {"id":10779259324,"lat":44.53116,"lon":6.777505,"k":"p","n":"Saint-Paul-sur-Ubaye - Serennes"},
+  {"id":10779259325,"lat":44.519475,"lon":6.758942,"k":"p","n":"Saint-Paul-sur-Ubaye - Pont de l'Estrech"},
+  {"id":10779259326,"lat":44.51941,"lon":6.759037,"k":"p","n":"Saint-Paul-sur-Ubaye - Pont de l'Estrech"},
+  {"id":10779259327,"lat":44.519448,"lon":6.758988,"k":"x","n":"Saint-Paul-sur-Ubaye - Pont de l'Estrech"},
+  {"id":10802543851,"lat":44.515267,"lon":6.750057,"k":"p","n":"Saint-Paul-sur-Ubaye - Garages communaux"},
+  {"id":10802543852,"lat":44.515231,"lon":6.750122,"k":"x","n":"Saint-Paul-sur-Ubaye - Garages communaux"}
+],
+"routes":[
+  {"id":9173859,"t":{"ref":"L4","name":"Navette L4 : Barcelonnette => Saint-Paul","from":"Barcelonnette","to":"Saint-Paul","network":"CCVUSP","operator":"SCAL","colour":"#874f9b","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001219217,7]]},
+  {"id":9173860,"t":{"ref":"L4","name":"Navette L4 : Saint-Paul => Barcelonnette","from":"Saint-Paul-sur-Ubaye","to":"Barcelonnette","network":"CCVUSP","operator":"SCAL","colour":"#874f9b","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001219217,1]]},
+  {"id":15656850,"t":{"ref":"4101","name":"Bus 4101 : Larche => La Condamine-Chatelard => Saint-Paul-sur-Ubaye","from":"Larche","to":"Saint-Paul-sur-Ubaye","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10769119832,4]]},
+  {"id":15656851,"t":{"ref":"4101","name":"Bus 4101 : Saint-Paul-sur-Ubaye => La Condamine-Chatelard => Larche","from":"Saint-Paul-sur-Ubaye","to":"Larche","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10769119832,1]]},
+  {"id":15677827,"t":{"ref":"4102","name":"Bus 4102 : Saint-Paul-sur-Ubaye => Jausiers","from":"Saint-Paul-sur-Ubaye","to":"Jausiers","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10769119832,1,3],[10779259326,4],[10779259324,5],[10779259322,6],[10779259321,7]]},
+  {"id":15677828,"t":{"ref":"4102","name":"Bus 4102 : Jausiers => Saint-Paul-sur-Ubaye","from":"Jausiers","to":"Saint-Paul-sur-Ubaye","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10779259321,5],[10779259322,6],[10779259323,7],[10779259325,8],[10769119832,9,11]]},
+  {"id":15709629,"t":{"ref":"4111","name":"Bus 4111 : Guillestre => Barcelonnette","from":"Guillestre","to":"Barcelonnette","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10802543851,2]]}
+]
+}

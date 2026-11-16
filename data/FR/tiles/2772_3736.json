@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2772,3736],
+"stops":[
+  {"id":1054753841,"lat":48.63384,"lon":6.813389,"k":"x","n":"Igney − Centre"},
+  {"id":2386372884,"lat":48.64628,"lon":6.805896,"k":"x","n":"Igney-Avricourt"},
+  {"id":4933304334,"lat":48.632923,"lon":6.811079,"k":"x"},
+  {"id":14005096468,"lat":48.646285,"lon":6.805955,"k":"p","n":"Igney - Avricourt"},
+  {"id":6011150703768,"lat":48.646701,"lon":6.805306,"k":"p","n":"Igney - Avricourt","g":1},
+  {"id":6050098829557,"lat":48.646701,"lon":6.805306,"k":"p","n":"Igney - Avricourt","g":1}
+],
+"routes":[
+  {"id":5739266,"t":{"ref":"TER 24","name":"TER 24 : Sarrebourg − Igney-Avricourt","network":"TER Grand Est","operator":"SNCF Voyageurs","colour":"#33b866","route":"bus","public_transport:version":"1"},"n":12,"s":[[2386372884,11],[1054753841,12]]},
+  {"id":3030910379731,"t":{"ref":"P836","name":"P836: Sarrebourg - Igney Mairie","from":"Sarrebourg","to":"Igney Mairie","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":14,"s":[[6011150703768,13],[1054753841,14]]},
+  {"id":3034426890275,"t":{"ref":"P836","name":"P836: Igney Mairie - Sarrebourg","from":"Igney Mairie","to":"Sarrebourg","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":14,"s":[[1054753841,1],[6050098829557,2]]},
+  {"id":3063887915791,"t":{"ref":"P836","name":"P836: Sarrebourg - Igney Mairie","from":"Sarrebourg","to":"Igney Mairie","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":14,"s":[[6050098829557,13],[1054753841,14]]},
+  {"id":3093184795968,"t":{"ref":"P836","name":"P836: Igney Mairie - Sarrebourg","from":"Igney Mairie","to":"Sarrebourg","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":14,"s":[[1054753841,1],[6011150703768,2]]}
+]
+}

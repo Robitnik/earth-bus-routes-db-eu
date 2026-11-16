@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2776,3762],
+"stops":[
+  {"id":28902684,"lat":48.823532,"lon":8.138715,"k":"x","n":"Iffezheim Karlstraße"},
+  {"id":380017905,"lat":48.843539,"lon":8.13542,"k":"p","n":"Wintersdorf Abzweig Bahnhof"},
+  {"id":400973919,"lat":48.822494,"lon":8.142291,"k":"p","n":"Iffezheim Rennbahnstraße"},
+  {"id":400973921,"lat":48.822658,"lon":8.141768,"k":"p","n":"Iffezheim Rennbahnstraße"},
+  {"id":401434808,"lat":48.821028,"lon":8.142,"k":"p","n":"Iffezheim Festhalle"},
+  {"id":401435361,"lat":48.821044,"lon":8.14175,"k":"p","n":"Iffezheim Festhalle"},
+  {"id":402309320,"lat":48.823604,"lon":8.13873,"k":"p","n":"Iffezheim Karlstraße"},
+  {"id":402309323,"lat":48.823473,"lon":8.138677,"k":"p","n":"Iffezheim Karlstraße"},
+  {"id":402309326,"lat":48.828229,"lon":8.131042,"k":"p","n":"Oktorfeld"},
+  {"id":563749774,"lat":48.84628,"lon":8.136071,"k":"p","n":"Wintersdorf, Bannwaldstraße"},
+  {"id":563749776,"lat":48.847135,"lon":8.13894,"k":"p","n":"Wintersdorf Kirche"},
+  {"id":8420868412,"lat":48.822533,"lon":8.142269,"k":"x","n":"Iffezheim Rennbahnstraße"},
+  {"id":8420868413,"lat":48.822598,"lon":8.141788,"k":"x","n":"Iffezheim Rennbahnstraße"},
+  {"id":8420879825,"lat":48.816461,"lon":8.14631,"k":"x","n":"Iffezheim Bruchweg"},
+  {"id":8420879826,"lat":48.820961,"lon":8.141951,"k":"x","n":"Iffezheim Festhalle"},
+  {"id":8420879827,"lat":48.821083,"lon":8.141772,"k":"x","n":"Iffezheim Festhalle"},
+  {"id":8760118906,"lat":48.847112,"lon":8.13906,"k":"x","n":"Wintersdorf Kirche"},
+  {"id":8760135638,"lat":48.843553,"lon":8.135344,"k":"x","n":"Wintersdorf Abzweig Bahnhof"},
+  {"id":10732767431,"lat":48.846225,"lon":8.135652,"k":"p","n":"Wintersdorf, Bannwaldstraße"},
+  {"id":10732767432,"lat":48.846988,"lon":8.13893,"k":"p","n":"Wintersdorf Kirche"}
+],
+"routes":[
+  {"id":1945675,"t":{"ref":"234","name":"Bus 234: Schwarzach => Rastatt","from":"Schwarzach","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"blue","route":"bus","public_transport:version":"2"},"n":19,"s":[[401434808,18],[400973919,19]]},
+  {"id":3267580,"t":{"ref":"231","name":"Bus 231: Rastatt => Seltz","from":"Rastatt","to":"Seltz","network":"Karlsruher Verkehrsverbund","operator":"VERA","colour":"#38CC25","route":"bus","public_transport:version":"2"},"n":8,"s":[[563749774,2],[380017905,3]]},
+  {"id":4035055,"t":{"ref":"234","name":"Bus 234: Rastatt => Schwarzach","from":"Rastatt","to":"Schwarzach","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"blue","route":"bus","public_transport:version":"2"},"n":19,"s":[[400973921,1],[401435361,2]]},
+  {"id":12311821,"t":{"ref":"218","name":"Bus 218: Baden-Baden => Iffezheim","from":"Baden-Baden","to":"Iffezheim","network":"Karlsruher Verkehrsverbund","operator":"Stadtwerke Baden-Baden","route":"bus","public_transport:version":"2"},"n":2,"s":[[400973921,1],[402309320,2]]},
+  {"id":12311822,"t":{"ref":"218","name":"Bus 218: Iffezheim => Baden-Baden","from":"Iffezheim","to":"Baden-Baden","network":"Karlsruher Verkehrsverbund","operator":"Stadtwerke Baden-Baden","route":"bus","public_transport:version":"2"},"n":2,"s":[[402309323,1],[401435361,2]]},
+  {"id":13273663,"t":{"ref":"231","name":"Bus 231: Seltz => Rastatt","from":"Seltz","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"VERA","colour":"#38CC25","route":"bus","public_transport:version":"2"},"n":9,"s":[[380017905,6],[563749774,7],[563749776,8]]},
+  {"id":13274777,"t":{"ref":"231","name":"Bus 231: Wintersdorf => Rastatt Bf. => Rastatt Fruchthalle","from":"Wintersdorf","to":"Rastatt Fruchthalle","network":"Karlsruher Verkehrsverbund","operator":"VERA","colour":"#38CC25","route":"bus","public_transport:version":"2"},"n":5,"s":[[563749776,1],[563749774,2],[380017905,3]]},
+  {"id":13274794,"t":{"ref":"231","name":"Bus 231: Rastatt Bf. => Rastatt Zay => Wintersdorf","from":"Rastatt Bf.","to":"Wintersdorf","network":"Karlsruher Verkehrsverbund","operator":"VERA","colour":"#38CC25","route":"bus","public_transport:version":"2"},"n":5,"s":[[563749774,4],[380017905,5]]},
+  {"id":3022443527529,"t":{"ref":"231","name":"231: Roeschwoog - Rastatt","from":"Roeschwoog","to":"Rastatt","operator":"Bus VERA","route":"bus","public_transport:version":"2"},"n":18,"s":[[8760135638,4],[563749774,5],[10732767432,6]]},
+  {"id":3028662024205,"t":{"ref":"231","name":"231: Seltz Le Seltzbach - Rastatt Mercedes-Benz Montage 4.0","from":"Seltz Le Seltzbach","to":"Rastatt Mercedes-Benz Montage 4.0","operator":"Bus VERA","route":"bus","public_transport:version":"2"},"n":16,"s":[[8760135638,6],[563749774,7],[10732767432,8]]},
+  {"id":3031829088758,"t":{"ref":"231","name":"231: Soufflenheim Centre de secours - Rastatt","from":"Soufflenheim Centre de secours","to":"Rastatt","operator":"Bus VERA","route":"bus","public_transport:version":"2"},"n":22,"s":[[8760135638,8],[563749774,9],[10732767432,10]]},
+  {"id":3050097847851,"t":{"ref":"231","name":"231: Soufflenheim Centre de secours - Rastatt","from":"Soufflenheim Centre de secours","to":"Rastatt","operator":"Bus VERA","route":"bus","public_transport:version":"2"},"n":22,"s":[[8760135638,8],[563749774,9],[10732767432,10]]},
+  {"id":3098190348113,"t":{"ref":"231","name":"231: Soufflenheim Centre de secours - Rastatt","from":"Soufflenheim Centre de secours","to":"Rastatt","operator":"Bus VERA","route":"bus","public_transport:version":"2"},"n":20,"s":[[8760135638,8],[563749774,9],[10732767432,10]]},
+  {"id":3098671028658,"t":{"ref":"231","name":"231: Roppenheim Village de Marques - Rastatt","from":"Roppenheim Village de Marques","to":"Rastatt","operator":"Bus VERA","route":"bus","public_transport:version":"2"},"n":16,"s":[[8760135638,2],[563749774,3],[10732767432,4]]}
+]
+}

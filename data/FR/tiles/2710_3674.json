@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2710,3674],
+"stops":[
+  {"id":443987209,"lat":45.549692,"lon":3.735066,"k":"p","n":"Ambert - Gare SNCF"},
+  {"id":1583198654,"lat":45.549679,"lon":3.735171,"k":"x","n":"Ambert - Gare SNCF"},
+  {"id":5696119064,"lat":45.513114,"lon":3.727419,"k":"p","n":"Saint-Ferréol-des-Côtes - Puvic D906"},
+  {"id":5696119528,"lat":45.500843,"lon":3.727093,"k":"p","n":"Marsac-en-Livradois - Flaittes D906"},
+  {"id":5696119568,"lat":45.540619,"lon":3.748626,"k":"p","n":"Ambert - Collège Jules Romains"},
+  {"id":5696119762,"lat":45.546939,"lon":3.738899,"k":"p","n":"Ambert - Collège Saint-Joseph"},
+  {"id":5696119847,"lat":45.545118,"lon":3.746034,"k":"p","n":"Ambert - Lycée Blaise Pascal"},
+  {"id":5696119885,"lat":45.545944,"lon":3.745415,"k":"p","n":"Lycée Polyvalent"},
+  {"id":5696578852,"lat":45.539009,"lon":3.728049,"k":"x","n":"Ambert - Piscine"},
+  {"id":11807087735,"lat":45.546943,"lon":3.738952,"k":"x","n":"Ambert - Collège Saint-Joseph"},
+  {"id":11807118315,"lat":45.540621,"lon":3.748566,"k":"x","n":"Ambert - Collège Jules Romains"},
+  {"id":11807125519,"lat":45.545095,"lon":3.74607,"k":"x","n":"Ambert - Lycée Blaise Pascal"},
+  {"id":11807148768,"lat":45.539809,"lon":3.728167,"k":"x","n":"Ambert - Piscine"},
+  {"id":11807151362,"lat":45.513148,"lon":3.727335,"k":"x","n":"Saint-Ferréol-des-Côtes - Puvic D906"},
+  {"id":11807151363,"lat":45.513502,"lon":3.727343,"k":"x","n":"Saint-Ferréol-des-Côtes - Puvic D906"},
+  {"id":11807151364,"lat":45.513502,"lon":3.727247,"k":"p","n":"Saint-Ferréol-des-Côtes - Puvic D906"},
+  {"id":11807154969,"lat":45.539849,"lon":3.728223,"k":"p","n":"Ambert - Piscine"},
+  {"id":11807154970,"lat":45.538999,"lon":3.72799,"k":"p","n":"Ambert - Piscine"},
+  {"id":11807182453,"lat":45.500838,"lon":3.72699,"k":"x","n":"Marsac-en-Livradois - Flaittes D906"},
+  {"id":11807182454,"lat":45.500831,"lon":3.726905,"k":"p","n":"Marsac-en-Livradois - Flaittes D906"}
+],
+"routes":[
+  {"id":3731146,"t":{"ref":"P02","name":"P02 : Ambert → Clermont-Ferrand Vendredi","from":"Ambert - Lycée Blaise Pascal","to":"Clermont-Ferrand - Gare Routière","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":30,"s":[[5696119847,1]]},
+  {"id":4161212,"t":{"ref":"P02","name":"P02 : Clermont-Ferrand → Arlanc","from":"Clermont-Ferrand - Gare Routière","to":"Arlanc - Place Charles de Gaulle","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":39,"s":[[443987209,30],[11807154970,31],[11807151364,32],[11807182454,33]]},
+  {"id":8391715,"t":{"ref":"P15","name":"P15 : Valcivières - Ambert","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#7EB6DE","route":"bus","public_transport:version":"2"},"n":2,"s":[[443987209,2]]},
+  {"id":8391716,"t":{"ref":"P13","name":"P13 : Vertolaye - Ambert","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#e19e97","route":"bus","public_transport:version":"2"},"n":2,"s":[[443987209,1]]},
+  {"id":19784746,"t":{"ref":"P02","name":"P02 : Arlanc → Ambert → Clermont-Ferrand Standard","from":"Arlanc - Place Charles de Gaulle","to":"Clermont-Ferrand Gare Routière","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":31,"s":[[5696119528,7],[5696119064,8],[11807154969,9],[443987209,10],[5696119762,11],[5696119568,12],[5696119847,13]]},
+  {"id":20182960,"t":{"ref":"H27","name":"H27 : Le Puy-en-Velay → Ambert","from":"Le Puy-en-Velay - Pôle Multimodal","to":"Ambert - Gare","network":"Cars Région Haute-Loire","operator":"Berger Voyages","colour":"#8C2685","route":"bus","public_transport:version":"2"},"n":20,"s":[[11807154969,19],[443987209,20]]},
+  {"id":20183406,"t":{"ref":"H27","name":"H27 : Ambert → Le Puy-en-Velay","from":"Ambert - Gare","to":"Le Puy-en-Velay - Pôle Multimodal","network":"Cars Région Haute-Loire","operator":"Berger Voyages","colour":"#8C2685","route":"bus","public_transport:version":"2"},"n":21,"s":[[443987209,1],[11807154970,2]]},
+  {"id":20221131,"t":{"ref":"P02","name":"P02 : Ambert → Dore-l'Église","from":"Ambert - Collège Saint-Joseph","to":"Dore-l'Église - Centre","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":14,"s":[[5696119762,1],[5696119568,2],[5696119847,3],[443987209,4],[11807154970,5],[11807151364,6],[11807182454,7]]},
+  {"id":20223212,"t":{"ref":"P02","name":"P02 : Clermont-Ferrand → Arlanc via Thiers","from":"Clermont-Ferrand - Gare Routière","to":"Arlanc - Place Charles de Gaulle","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":27,"s":[[443987209,18],[11807154970,19],[11807151364,20],[11807182454,21]]},
+  {"id":20249865,"t":{"ref":"P02","name":"P02 : Dore-l'Église → Ambert","from":"Dore-l'Église - Centre","to":"Ambert - Collège Saint-Joseph","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":14,"s":[[5696119528,8],[5696119064,9],[11807154969,10],[443987209,11],[5696119568,12],[5696119847,13],[5696119762,14]]},
+  {"id":20249878,"t":{"ref":"P02","name":"P02 : Arlanc → Courpière","from":"Arlanc - Place Charles de Gaulle","to":"Courpière - Gare SNCF","network":"Cars Région Puy-de-Dôme","operator":"Keolis Loisirs & Voyages","colour":"#BDA2D8","route":"bus","public_transport:version":"2"},"n":21,"s":[[5696119528,7],[5696119064,8],[11807154969,9],[443987209,10]]},
+  {"id":3016498813286,"t":{"ref":"P03","name":"P03 : Vichy → Thiers → Ambert → Arlanc","from":"Vichy - Gare Routière","to":"Arlanc - Place Charles de Gaulle","network":"Cars Région Puy-de-Dôme","operator":"Keolis","colour":"#dbe283","route":"bus","public_transport:version":"2"},"n":24,"s":[[1583198654,21],[11807154970,22]]},
+  {"id":3067751886697,"t":{"ref":"P03","name":"P03 : Arlanc → Ambert → Thiers → Vichy","from":"Arlanc - Place Charles de Gaulle","to":"Vichy - Gare Routière","network":"Cars Région Puy-de-Dôme","operator":"Keolis","colour":"#dbe283","route":"bus","public_transport:version":"2"},"n":24,"s":[[11807148768,3],[1583198654,4]]}
+]
+}

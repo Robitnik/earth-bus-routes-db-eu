@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2740,3616],
+"stops":[
+  {"id":4034270793,"lat":47.042301,"lon":0.818937,"k":"x","n":"Ligueil - Centre"},
+  {"id":4034275851,"lat":47.046444,"lon":0.816964,"k":"x","n":"Balthazar Besnard"},
+  {"id":4034275853,"lat":47.048394,"lon":0.813092,"k":"x","n":"Bellevue"},
+  {"id":5000400935017,"lat":47.046435,"lon":0.816926,"k":"p","n":"Balthazar Besnard"},
+  {"id":5000400935018,"lat":47.046453,"lon":0.816997,"k":"p","n":"Balthazar Besnard"},
+  {"id":5000400935059,"lat":47.042348,"lon":0.818925,"k":"p","n":"Ligueil - Centre"}
+],
+"routes":[
+  {"id":6017981,"t":{"ref":"G","name":"G : Ligueil -> Charnizay","from":"Ligueil - Centre","to":"Charnizay - Centre","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":5,"s":[[4034270793,1]]},
+  {"id":6059504,"t":{"ref":"TC","name":"TC : Descartes -> Genillé via Mouzay","from":"Descartes - Pierre-Ballue","to":"Genillé - Centre","network":"Rémi","colour":"#ff793a","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000400935059,4],[5000400935018,5]]},
+  {"id":6059505,"t":{"ref":"TC","name":"TC : Descartes -> Genillé","from":"Descartes - Pierre-Ballue","to":"Genillé - Centre","network":"Rémi","colour":"#ff793a","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000400935059,4],[5000400935018,5]]},
+  {"id":6059506,"t":{"ref":"TC","name":"TC : Genillé -> Descartes via Mouzay","from":"Genillé - Centre","to":"Descartes - Pierre-Ballue","network":"Rémi","colour":"#ff793a","route":"bus","public_transport:version":"2"},"n":9,"s":[[5000400935017,6],[5000400935059,7]]},
+  {"id":6059507,"t":{"ref":"TC","name":"TC : Genillé -> Descartes","from":"Genillé - Centre","to":"Descartes - Pierre-Ballue","network":"Rémi","colour":"#ff793a","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000400935017,5],[5000400935059,6]]},
+  {"id":3001683472346,"t":{"ref":"G","name":"G : Ligueil -> Tours","from":"Ligueil - Centre","to":"Tours - Halte Routière","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":27,"s":[[4034270793,1],[5000400935018,2],[4034275853,3]]},
+  {"id":3034319455309,"t":{"ref":"G","name":"G : Tours -> Ligueil","from":"Tours - Halte Routière","to":"Ligueil - Centre","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":26,"s":[[4034275853,24],[4034275851,25],[4034270793,26]]},
+  {"id":3036536441082,"t":{"ref":"G","name":"G : Preuilly -> Tours","from":"Preuilly-sur-Claise - Place des Halles","to":"Tours - Halte Routière","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034270793,6],[5000400935018,7],[4034275853,8]]},
+  {"id":3061769913935,"t":{"ref":"G","name":"G : Ligueil -> Tours","from":"Ligueil - Centre","to":"Tours - Halte Routière","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":27,"s":[[4034270793,1],[5000400935018,2],[4034275853,3]]},
+  {"id":3063868553972,"t":{"ref":"G","name":"G : Tours -> Preuilly","from":"Tours - Halte Routière","to":"Preuilly-sur-Claise - Place des Halles","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034275853,14],[4034275851,15],[4034270793,16]]},
+  {"id":3072512348458,"t":{"ref":"G","name":"G : Preuilly -> Tours","from":"Preuilly-sur-Claise - Place des Halles","to":"Tours - Halte Routière","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034270793,6],[5000400935018,7],[4034275853,8]]},
+  {"id":3076134195501,"t":{"ref":"G","name":"G : Tours -> Preuilly","from":"Tours - Halte Routière","to":"Preuilly-sur-Claise - Place des Halles","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034275853,14],[4034275851,15],[4034270793,16]]},
+  {"id":3087643287466,"t":{"ref":"G","name":"G : Tours -> Ligueil","from":"Tours - Halte Routière","to":"Ligueil - Centre","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":26,"s":[[4034275853,24],[4034275851,25],[4034270793,26]]}
+]
+}

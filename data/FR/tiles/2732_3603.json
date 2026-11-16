@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2732,3603],
+"stops":[
+  {"id":1766700624,"lat":46.646622,"lon":0.169998,"k":"x","n":"Vouillé (Beauregard)"},
+  {"id":1791461812,"lat":46.632264,"lon":0.160316,"k":"p"},
+  {"id":9952265418,"lat":46.64673,"lon":0.169619,"k":"p"},
+  {"id":9952265427,"lat":46.64651,"lon":0.170313,"k":"p"},
+  {"id":9952362716,"lat":46.645848,"lon":0.181441,"k":"p"},
+  {"id":11886498435,"lat":46.630841,"lon":0.184987,"k":"p","n":"Traversonne Centre"},
+  {"id":11886498438,"lat":46.632364,"lon":0.179932,"k":"p","n":"Traversonne Coméré"},
+  {"id":11886498439,"lat":46.638707,"lon":0.167401,"k":"p","n":"Rue Clovis"},
+  {"id":11886498440,"lat":46.638674,"lon":0.167482,"k":"x","n":"Rue Clovis"},
+  {"id":13109378291,"lat":46.645717,"lon":0.181402,"k":"p","n":"Pôle Multimodal de Vouillé"}
+],
+"routes":[
+  {"id":4770733,"t":{"ref":"R1","name":"R1 : Poitiers- Nantes","from":"Poitiers","to":"Nantes","network":"TER Nouvelle-Aquitaine","operator":"SNCF Voyageurs","colour":"#f94c9e","route":"bus","public_transport:version":"1"},"n":24,"s":[[1766700624,11]]},
+  {"id":17565409,"t":{"ref":"113","name":"113 : Poitiers -> Chalandray","from":"Poitiers - Gare routière (Pôle multimodal)","to":"Chalandray - Centre","network":"Cars Régionaux 86 - Vienne","operator":"Région Nouvelle-Aquitaine","route":"bus","public_transport:version":"2"},"n":16,"s":[[11886498435,11],[11886498438,15],[9952362716,16]]},
+  {"id":17570860,"t":{"ref":"113","name":"113 : Chalandray -> Poitiers","from":"Chalandray - Centre","to":"Poitiers - Gare routière (Pôle multimodal)","network":"Cars Régionaux 86 - Vienne","operator":"Région Nouvelle-Aquitaine","route":"bus","public_transport:version":"2"},"n":16,"s":[[9952362716,1],[11886498439,2],[11886498438,3],[11886498435,4]]},
+  {"id":19544797,"t":{"ref":"07","name":"Car Aléop 07 : Poitiers Gare SNCF → Nantes Gare SNCF","from":"Gare SNCF","to":"Nantes Gare SNCF","network":"Aléop","operator":"Aléop","colour":"#009BB9","route":"bus","public_transport:version":"2"},"n":11,"s":[[13109378291,3]]},
+  {"id":19544798,"t":{"ref":"07","name":"Car Aléop 07 : Nantes Gare SNCF → Poitiers Gare SNCF","from":"Nantes Gare SNCF","to":"Gare SNCF","network":"Aléop","operator":"Aléop","colour":"#009BB9","route":"bus","public_transport:version":"2"},"n":12,"s":[[13109378291,9]]},
+  {"id":3003344135423,"t":{"ref":"L7","name":"L7: Gare de Poitiers - Gare routière","from":"Gare de Poitiers","to":"Gare routière","operator":"Aléop Lignes Express régionales","route":"bus","public_transport:version":"2"},"n":11,"s":[[13109378291,3]]},
+  {"id":3008935135671,"t":{"ref":"7","name":"7: GARE SNCF SUD - GARE ROUTIÈRE TER QUAI B1","from":"GARE SNCF SUD","to":"GARE ROUTIÈRE TER QUAI B1","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":12,"s":[[13109378291,9]]},
+  {"id":3009950716321,"t":{"ref":"7","name":"7: GARE ROUTIÈRE TER QUAI B1 - GARE SNCF SUD","from":"GARE ROUTIÈRE TER QUAI B1","to":"GARE SNCF SUD","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":11,"s":[[13109378291,3]]},
+  {"id":3021794953159,"t":{"ref":"100","name":"100: GARE ROUTIERE - Pôle Multimodal/SNCF/CV","from":"GARE ROUTIERE","to":"Pôle Multimodal/SNCF/CV","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":9,"s":[[13109378291,6]]},
+  {"id":3024509362947,"t":{"ref":"7","name":"7: GARE ROUTIÈRE TER QUAI B1 - GARE SNCF SUD","from":"GARE ROUTIÈRE TER QUAI B1","to":"GARE SNCF SUD","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":11,"s":[[13109378291,3]]},
+  {"id":3030149423650,"t":{"ref":"L7","name":"L7: Gare routière - Gare de Poitiers","from":"Gare routière","to":"Gare de Poitiers","operator":"Aléop Lignes Express régionales","route":"bus","public_transport:version":"2"},"n":12,"s":[[13109378291,9]]},
+  {"id":3047837081940,"t":{"ref":"7","name":"7: GARE SNCF SUD - GARE ROUTIÈRE TER QUAI B1","from":"GARE SNCF SUD","to":"GARE ROUTIÈRE TER QUAI B1","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":12,"s":[[13109378291,9]]},
+  {"id":3056817942303,"t":{"ref":"100","name":"100: GARE ROUTIERE - Gare SNCF","from":"GARE ROUTIERE","to":"Gare SNCF","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":9,"s":[[13109378291,6]]},
+  {"id":3056877737227,"t":{"ref":"100","name":"100: GARE ROUTIERE - Pôle Multimodal/SNCF/CV","from":"GARE ROUTIERE","to":"Pôle Multimodal/SNCF/CV","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":9,"s":[[13109378291,6]]},
+  {"id":3069885966700,"t":{"ref":"L7","name":"L7: Gare de Poitiers - Gare routière","from":"Gare de Poitiers","to":"Gare routière","operator":"Aléop Lignes Express régionales","route":"bus","public_transport:version":"2"},"n":11,"s":[[13109378291,3]]},
+  {"id":3084374062776,"t":{"ref":"L7","name":"L7: Gare routière - Gare de Poitiers","from":"Gare routière","to":"Gare de Poitiers","operator":"Aléop Lignes Express régionales","route":"bus","public_transport:version":"2"},"n":12,"s":[[13109378291,9]]},
+  {"id":3091178549336,"t":{"ref":"100","name":"100: GARE ROUTIERE - Gare SNCF","from":"GARE ROUTIERE","to":"Gare SNCF","operator":"Cars régionaux 79 - Deux Sèvres","route":"bus","public_transport:version":"2"},"n":9,"s":[[13109378291,6]]}
+]
+}

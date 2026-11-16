@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2685,3731],
+"stops":[
+  {"id":1470879515,"lat":44.276381,"lon":6.579041,"k":"x","n":"Allos - La Foux Village"},
+  {"id":4529796175,"lat":44.258583,"lon":6.588942,"k":"x","n":"Allos - La Baumelle"},
+  {"id":5602547813,"lat":44.287795,"lon":6.570435,"k":"x","n":"Allos - La Foux Gare Routière"},
+  {"id":5695926882,"lat":44.287768,"lon":6.57038,"k":"p","n":"Allos - La Foux Gare Routière","ref":"14"},
+  {"id":10743394923,"lat":44.276781,"lon":6.578423,"k":"p","n":"Allos - La Foux Village"},
+  {"id":10743394924,"lat":44.276792,"lon":6.578497,"k":"x","n":"Allos - La Foux Village"},
+  {"id":10743394926,"lat":44.276444,"lon":6.579189,"k":"p","n":"Allos - La Foux Village"},
+  {"id":10743394927,"lat":44.26831,"lon":6.580552,"k":"p","n":"Allos - Les Gays"},
+  {"id":10743394928,"lat":44.268314,"lon":6.580597,"k":"x","n":"Allos - Les Gays"},
+  {"id":10743394929,"lat":44.268317,"lon":6.580659,"k":"p","n":"Allos - Les Gays"},
+  {"id":10743394930,"lat":44.258189,"lon":6.590442,"k":"p","n":"Allos - La Baumelle"},
+  {"id":10743394931,"lat":44.258116,"lon":6.590374,"k":"x","n":"Allos - La Baumelle"},
+  {"id":10743394933,"lat":44.258576,"lon":6.588847,"k":"p","n":"Allos - La Baumelle"}
+],
+"routes":[
+  {"id":8279172,"t":{"ref":"430","name":"Bus 430 : Thorame-Haute - Gare => La Foux d'Allos","from":"Thorame-Haute - Gare","to":"La Foux d'Allos","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695926882,10]]},
+  {"id":8279173,"t":{"ref":"430","name":"Bus 430 : La Foux d'Allos => Thorame-Haute - Gare","from":"La Foux d'Allos","to":"Thorame-Haute - Gare","network":"Zou !","operator":"Haut Verdon Voyages","colour":"#f2b353","route":"bus","public_transport:version":"2"},"n":10,"s":[[5695926882,1]]},
+  {"id":15616365,"t":{"ref":"4306","name":"Bus 4306 : Saint-André-les-Alpes => Colmars-les-Alpes => Allos","from":"Saint-André-les-Alpes","to":"Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10743394930,7],[10743394929,8],[10743394926,9],[5695926882,10]]},
+  {"id":15616366,"t":{"ref":"4306","name":"Bus 4306 : Allos => Colmars-les-Alpes => Saint-André-les-Alpes","from":"Allos","to":"Saint-André-les-Alpes","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[5695926882,1],[10743394923,2],[10743394927,3],[10743394933,4]]},
+  {"id":15616469,"t":{"ref":"4308","name":"Bus 4308 : Allos => La Foux d'Allos","from":"Allos","to":"La Foux d'Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[10743394926,2],[5695926882,3]]},
+  {"id":15616470,"t":{"ref":"4308","name":"Bus 4308 : La Foux d'Allos => Allos","from":"La Foux d'Allos","to":"Allos","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5695926882,1],[10743394923,2]]}
+]
+}

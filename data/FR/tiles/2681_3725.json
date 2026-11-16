@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3725],
+"stops":[
+  {"id":1276522647,"lat":44.079488,"lon":6.263291,"k":"x","n":"Les Thermes"},
+  {"id":2155730932,"lat":44.079475,"lon":6.26324,"k":"p","n":"Les Thermes"},
+  {"id":2441311898,"lat":44.083183,"lon":6.253498,"k":"p","n":"Le Refuge de Sources"},
+  {"id":2441311902,"lat":44.084188,"lon":6.253164,"k":"p","n":"Vallon des Sources"},
+  {"id":8400141877,"lat":44.083192,"lon":6.253508,"k":"x","n":"Tonic Hôtel"},
+  {"id":8400141878,"lat":44.084178,"lon":6.253116,"k":"x","n":"Vallon des Sources"}
+],
+"routes":[
+  {"id":6937497,"t":{"ref":"2","name":"Bus 2 : Champourcin => Les Thermes","from":"Champourcin","to":"Les Thermes","network":"RTUD","operator":"RTUD","colour":"green","route":"bus","public_transport:version":"2"},"n":17,"s":[[2441311898,16],[2155730932,17]]},
+  {"id":6937498,"t":{"ref":"2","name":"Bus 2 : Les Thermes => Champourcin","from":"Les Thermes","to":"Champourcin","network":"RTUD","operator":"RTUD","colour":"green","route":"bus","public_transport:version":"2"},"n":15,"s":[[2155730932,1],[2441311902,2]]},
+  {"id":3014999179920,"t":{"ref":"L2","name":"L2: Les Thermes - Champourcin","from":"Les Thermes","to":"Champourcin","operator":"RTUD","route":"bus","public_transport:version":"2"},"n":15,"s":[[1276522647,1],[2441311902,2]]},
+  {"id":3019212006499,"t":{"ref":"L2","name":"L2: Les Thermes - Les Eaux Chaudes","from":"Les Thermes","to":"Les Eaux Chaudes","operator":"RTUD","route":"bus","public_transport:version":"2"},"n":7,"s":[[1276522647,1],[2441311902,2]]},
+  {"id":3029326562578,"t":{"ref":"L2","name":"L2: Les Thermes - Champourcin","from":"Les Thermes","to":"Champourcin","operator":"RTUD","route":"bus","public_transport:version":"2"},"n":16,"s":[[1276522647,1],[2441311902,2]]},
+  {"id":3031295905150,"t":{"ref":"L2","name":"L2: Gare Routière - Les Thermes","from":"Gare Routière","to":"Les Thermes","operator":"RTUD","route":"bus","public_transport:version":"2"},"n":8,"s":[[2441311898,7],[1276522647,8]]},
+  {"id":3068605455002,"t":{"ref":"L2","name":"L2: Champourcin - Les Thermes","from":"Champourcin","to":"Les Thermes","operator":"RTUD","route":"bus","public_transport:version":"2"},"n":13,"s":[[2441311898,12],[1276522647,13]]}
+]
+}

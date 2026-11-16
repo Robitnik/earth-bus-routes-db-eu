@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2735,3695],
+"stops":[
+  {"id":1596815908,"lat":46.769429,"lon":4.785627,"k":"p","n":"Corcassey"},
+  {"id":2173120413,"lat":46.797815,"lon":4.792748,"k":"x"},
+  {"id":2290462032,"lat":46.797685,"lon":4.783125,"k":"x"},
+  {"id":2353399525,"lat":46.797573,"lon":4.761058,"k":"x","n":"DRACY MAIRIE"},
+  {"id":2353410603,"lat":46.797603,"lon":4.779749,"k":"x"},
+  {"id":2353834126,"lat":46.794148,"lon":4.78801,"k":"x"},
+  {"id":2427886957,"lat":46.78421,"lon":4.753516,"k":"p"},
+  {"id":2439495807,"lat":46.795233,"lon":4.758704,"k":"p","n":"Les Vignes d'Or"},
+  {"id":2439495812,"lat":46.79531,"lon":4.75889,"k":"p","n":"Les Vignes d'Or"},
+  {"id":10998510940,"lat":46.797634,"lon":4.78314,"k":"p","n":"Pôle Santé","ref":"DRDRC1"},
+  {"id":10998510941,"lat":46.797604,"lon":4.779906,"k":"p","n":"Dracy-le-Fort - Centre Orthopédique"},
+  {"id":10998510942,"lat":46.797589,"lon":4.779603,"k":"p","n":"Dracy-le-Fort - Centre Orthopédique"},
+  {"id":10998510943,"lat":46.794194,"lon":4.787991,"k":"p","n":"Z.A. Tuileries","ref":"DRZAT1"},
+  {"id":11009060915,"lat":46.799487,"lon":4.765687,"k":"p","n":"Dracy-le-Fort - Château","ref":"DRCHA1"},
+  {"id":11009060916,"lat":46.799546,"lon":4.765629,"k":"x","n":"LE CHATEAU DRACY"},
+  {"id":11009060924,"lat":46.797546,"lon":4.760961,"k":"p","n":"Dracy-le-Fort - Mairie","ref":"DRDRM2"},
+  {"id":11009060925,"lat":46.797558,"lon":4.761207,"k":"p","n":"Dracy-le-Fort - Mairie","ref":"DRDRM1"},
+  {"id":6002778564302,"lat":46.784107,"lon":4.781228,"k":"p","n":"MOULIN MADAME","g":1},
+  {"id":6068378054917,"lat":46.784107,"lon":4.781228,"k":"p","n":"MOULIN MADAME","g":1}
+],
+"routes":[
+  {"id":16009030,"t":{"ref":"Nav OUEST","name":"Navette Ouest : Dracy-le-Fort Pôle Santé → Châtenoy-le-Royal Condorcet","from":"Pôle Santé","to":"Condorcet","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[10998510940,1],[10998510943,3]]},
+  {"id":16009031,"t":{"ref":"Nav OUEST","name":"Navette Ouest : Châtenoy-le-Royal Condorcet → Dracy-le-Fort Pôle Santé","from":"Condorcet","to":"Pôle Santé","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[10998510943,7],[10998510940,9]]},
+  {"id":16022713,"t":{"ref":"D","name":"Ligne D : Chalon Pôle Bellevue → Saint-Denis-de-Vaux Monument","from":"Pôle Bellevue","to":"Saint-Denis-de-Vaux Monument","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":11,"s":[[10998510942,4],[11009060915,5],[11009060924,6]]},
+  {"id":16022714,"t":{"ref":"D","name":"Ligne D : Saint-Denis-de-Vaux Monument → Chalon Pôle Bellevue","from":"Saint-Denis-de-Vaux Monument","to":"Pôle Bellevue","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":11,"s":[[11009060925,6],[11009060915,7],[10998510941,8]]},
+  {"id":3024938483000,"t":{"ref":"RésaCCN","name":"RésaCCN: GARE - MONUMENT ST DENIS DE VAUX","from":"GARE","to":"MONUMENT ST DENIS DE VAUX","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":46,"s":[[11009060916,27],[2353399525,28]]},
+  {"id":3043484245893,"t":{"ref":"RésaCCN","name":"RésaCCN: MONUMENT ST DENIS DE VAUX - GARE","from":"MONUMENT ST DENIS DE VAUX","to":"GARE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":46,"s":[[11009060924,19],[11009060915,20]]},
+  {"id":3063677110252,"t":{"ref":"RésaCCS","name":"RésaCCS: PLACE DU CREUX - GARE","from":"PLACE DU CREUX","to":"GARE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":15,"s":[[6002778564302,9],[1596815908,12]]},
+  {"id":3067325071888,"t":{"ref":"12","name":"12: DRACY CLINIQUE - GARE ROUTIERE","from":"DRACY CLINIQUE","to":"GARE ROUTIERE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":19,"s":[[10998510940,1]]},
+  {"id":3075141421934,"t":{"ref":"RésaCCS","name":"RésaCCS: GARE - PLACE DU CREUX","from":"GARE","to":"PLACE DU CREUX","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":15,"s":[[1596815908,4],[6068378054917,7]]},
+  {"id":3085401214569,"t":{"ref":"12","name":"12: GARE - DRACY CLINIQUE","from":"GARE","to":"DRACY CLINIQUE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":19,"s":[[10998510940,19]]}
+]
+}

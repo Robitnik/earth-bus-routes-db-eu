@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2778,3723],
+"stops":[
+  {"id":3937729748,"lat":48.947961,"lon":6.169444,"k":"x","n":"Gare Lorraine TGV"},
+  {"id":3937729749,"lat":48.948045,"lon":6.169895,"k":"x","n":"Gare Lorraine TGV"},
+  {"id":5000390608301,"lat":48.948011,"lon":6.169916,"k":"p","n":"Gare Lorraine TGV"},
+  {"id":5000390608302,"lat":48.947923,"lon":6.169466,"k":"p","n":"Gare Lorraine TGV"},
+  {"id":6023292446947,"lat":48.90419,"lon":6.162103,"k":"p","n":"PORT/SEILLE - Cimetiere","g":1},
+  {"id":6039048593166,"lat":48.903043,"lon":6.164669,"k":"p","n":"PORT/SEILLE - Mairie","g":1},
+  {"id":6040316280113,"lat":48.901381,"lon":6.158897,"k":"p","n":"PORT/SEILLE - Poney Club","g":1},
+  {"id":6052280448404,"lat":48.90419,"lon":6.162103,"k":"p","n":"PORT/SEILLE - Cimetiere","g":1},
+  {"id":6059470332823,"lat":48.916562,"lon":6.156478,"k":"p","n":"MORVILLE/SEILLE - Mairie","g":1},
+  {"id":6067958202809,"lat":48.903043,"lon":6.16467,"k":"p","n":"PORT/SEILLE - Mairie","g":1},
+  {"id":6072122344645,"lat":48.901382,"lon":6.158897,"k":"p","n":"PORT/SEILLE - Poney Club","g":1},
+  {"id":6083215320284,"lat":48.916562,"lon":6.156478,"k":"p","n":"MORVILLE/SEILLE - Mairie","g":1}
+],
+"routes":[
+  {"id":5847229,"t":{"name":"Navette Metz − Gare Lorraine TGV","operator":"SNCF Voyageurs","route":"bus","public_transport:version":"1"},"n":2,"s":[[5000390608302,1],[5000390608301,2]]},
+  {"id":5847230,"t":{"name":"Navette Nancy - Gare Lorraine TGV","operator":"SNCF Voyageurs","route":"bus","public_transport:version":"1"},"n":2,"s":[[5000390608302,1],[5000390608301,2]]},
+  {"id":3011284427405,"t":{"ref":"E03","name":"E03: Lorraine TGV - Metz","from":"Lorraine TGV","to":"Metz","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,1]]},
+  {"id":3017562747829,"t":{"ref":"E02","name":"E02: Nancy - Lorraine TGV","from":"Nancy","to":"Lorraine TGV","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,2]]},
+  {"id":3025534728858,"t":{"ref":"57R057","name":"57R057: LOUVIGNY - Gare Tgv - METZ - Gare Sncf","from":"LOUVIGNY - Gare Tgv","to":"METZ - Gare Sncf","operator":"Fluo Grand Est 57","route":"bus","public_transport:version":"2"},"n":4,"s":[[3937729749,1]]},
+  {"id":3027110705062,"t":{"ref":"TAD1","name":"TAD1: CHAMPEY - Mairie - PAM - Fonderie Bureau","from":"CHAMPEY - Mairie","to":"PAM - Fonderie Bureau","operator":"LEBUS","route":"bus","public_transport:version":"2"},"n":39,"s":[[6083215320284,3],[6052280448404,4],[6039048593166,5],[6040316280113,6]]},
+  {"id":3029036839246,"t":{"ref":"57R057","name":"57R057: METZ - Gare Sncf - LOUVIGNY - Gare Tgv","from":"METZ - Gare Sncf","to":"LOUVIGNY - Gare Tgv","operator":"Fluo Grand Est 57","route":"bus","public_transport:version":"2"},"n":4,"s":[[3937729749,4]]},
+  {"id":3033930563152,"t":{"ref":"E02","name":"E02: Lorraine TGV - Nancy","from":"Lorraine TGV","to":"Nancy","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,1]]},
+  {"id":3038336934474,"t":{"ref":"TAD1","name":"TAD1: CHAMPEY - Mairie - PAM - Fonderie Bureau","from":"CHAMPEY - Mairie","to":"PAM - Fonderie Bureau","operator":"LEBUS","route":"bus","public_transport:version":"2"},"n":39,"s":[[6059470332823,3],[6023292446947,4],[6067958202809,5],[6072122344645,6]]},
+  {"id":3039012934887,"t":{"ref":"57R057","name":"57R057: METZ - Gare Sncf - LOUVIGNY - Gare Tgv","from":"METZ - Gare Sncf","to":"LOUVIGNY - Gare Tgv","operator":"Fluo Grand Est 57","route":"bus","public_transport:version":"2"},"n":4,"s":[[3937729749,4]]},
+  {"id":3039043145179,"t":{"ref":"E02","name":"E02: Nancy - Lorraine TGV","from":"Nancy","to":"Lorraine TGV","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,2]]},
+  {"id":3049687663929,"t":{"ref":"E03","name":"E03: Metz - Lorraine TGV","from":"Metz","to":"Lorraine TGV","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,2]]},
+  {"id":3066359031791,"t":{"ref":"57R057","name":"57R057: LOUVIGNY - Gare Tgv - METZ - Gare Sncf","from":"LOUVIGNY - Gare Tgv","to":"METZ - Gare Sncf","operator":"Fluo Grand Est 57","route":"bus","public_transport:version":"2"},"n":4,"s":[[3937729749,1]]},
+  {"id":3071073481113,"t":{"ref":"E03","name":"E03: Metz - Lorraine TGV","from":"Metz","to":"Lorraine TGV","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,2]]},
+  {"id":3073979610697,"t":{"ref":"57R057","name":"57R057: METZ - Gare Sncf - LOUVIGNY - Gare Tgv","from":"METZ - Gare Sncf","to":"LOUVIGNY - Gare Tgv","operator":"Fluo Grand Est 57","route":"bus","public_transport:version":"2"},"n":4,"s":[[3937729749,4]]},
+  {"id":3076617006071,"t":{"ref":"E02","name":"E02: Lorraine TGV - Nancy","from":"Lorraine TGV","to":"Nancy","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,1]]},
+  {"id":3078575019969,"t":{"ref":"E03","name":"E03: Lorraine TGV - Metz","from":"Lorraine TGV","to":"Metz","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000390608302,1]]},
+  {"id":3095539029628,"t":{"ref":"57R057","name":"57R057: LOUVIGNY - Gare Tgv - METZ - Gare Sncf","from":"LOUVIGNY - Gare Tgv","to":"METZ - Gare Sncf","operator":"Fluo Grand Est 57","route":"bus","public_transport:version":"2"},"n":4,"s":[[3937729749,1]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2695,3738],
+"stops":[
+  {"id":3080368935,"lat":44.788991,"lon":6.931103,"k":"x","n":"Abriès - La Garcine"},
+  {"id":3461978641,"lat":44.788928,"lon":6.93106,"k":"p","n":"Abriès - La Garcine"},
+  {"id":3461978648,"lat":44.793734,"lon":6.927783,"k":"x","n":"Abriès - Office de Tourisme"},
+  {"id":3461978649,"lat":44.793707,"lon":6.927871,"k":"p","n":"Abriès - Office de Tourisme"},
+  {"id":3461978650,"lat":44.794079,"lon":6.926739,"k":"p","n":"Abriès - Place du Glacis"},
+  {"id":3461978651,"lat":44.794133,"lon":6.926712,"k":"x","n":"Abriès - Place du Glacis"},
+  {"id":3927746998,"lat":44.79078,"lon":6.929395,"k":"p","n":"Abriès - Station"},
+  {"id":10892627315,"lat":44.789031,"lon":6.931137,"k":"p","n":"Abriès - La Garcine"},
+  {"id":11462426867,"lat":44.790848,"lon":6.929406,"k":"x","n":"Abriès - Station"},
+  {"id":14135119581,"lat":44.794913,"lon":6.927378,"k":"p","n":"Monument aux Morts"},
+  {"id":14135119592,"lat":44.794955,"lon":6.927323,"k":"p","n":"Monument aux Morts"},
+  {"id":14135119593,"lat":44.794936,"lon":6.927347,"k":"x","n":"Monument aux Morts"},
+  {"id":14135119599,"lat":44.790956,"lon":6.929366,"k":"p","n":"Abriès - Station"}
+],
+"routes":[
+  {"id":4801653,"t":{"ref":"HGE","name":"Navette Vallée du Haut Guil : Ville-Vieille => L'Echalp","from":"Ville-Vieille","to":"L'Echalp","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#2E7D32","route":"bus","public_transport:version":"2"},"n":9,"s":[[3461978650,5],[3927746998,6]]},
+  {"id":4801654,"t":{"ref":"HGE","name":"Navette Vallée du Haut Guil : L'Echalp => Ville-Vielle","from":"L'Echalp","to":"Ville-Vielle","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#2E7D32","route":"bus","public_transport:version":"2"},"n":9,"s":[[14135119599,4],[3461978649,5]]},
+  {"id":13455607,"t":{"ref":"573","name":"Bus 573 (hiver) : Ristolas => Château-Ville-Vieille => Mont-Dauphin","from":"Ristolas","to":"Mont-Dauphin","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":9,"s":[[3461978649,2]]},
+  {"id":13455608,"t":{"ref":"573","name":"Bus 573 (hiver) : Mont-Dauphin => Château-Ville-Vieille => Ristolas","from":"Mont-Dauphin","to":"Ristolas","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":9,"s":[[3461978650,8]]},
+  {"id":13465893,"t":{"ref":"HGE","name":"Navette Vallée du Haut Guil : Ville-Vieille => Le Roux => L'Echalp","from":"Ville-Vieille","to":"L'Echalp","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#2E7D32","route":"bus","public_transport:version":"2"},"n":11,"s":[[14135119581,5],[3461978650,7],[3927746998,8]]},
+  {"id":13465894,"t":{"ref":"HGE","name":"Navette Vallée du Haut Guil : L'Echalp => Le Roux => Ville-Vielle","from":"L'Echalp","to":"Ville-Vielle","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#2E7D32","route":"bus","public_transport:version":"2"},"n":11,"s":[[14135119599,4],[3461978649,5],[14135119592,7]]},
+  {"id":15848896,"t":{"ref":"5704","name":"Bus 5704 : Mont-Dauphin - Gare SNCF => Ristolas - Cayre de l'Ours","from":"Mont-Dauphin - Gare SNCF","to":"Ristolas - Cayre de l'Ours","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[3461978650,11],[3461978641,12]]},
+  {"id":15848897,"t":{"ref":"5704","name":"Bus 5704 : Ristolas - Cayre de l'Ours => Mont-Dauphin - Gare SNCF","from":"Ristolas - Cayre de l'Ours","to":"Mont-Dauphin - Gare SNCF","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":14,"s":[[10892627315,2],[3461978649,3]]},
+  {"id":15848981,"t":{"ref":"5705","name":"Bus 5705 : Gap - Pôle d'Échanges Reynier => Ristolas - Cayre de l'Ours","from":"Gap - Pôle d'Échanges Reynier","to":"Ristolas - Cayre de l'Ours","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":18,"s":[[3461978650,17]]},
+  {"id":15848982,"t":{"ref":"5705","name":"Bus 5705 : Abriès - Office de Tourisme => Gap - Collège Mauzan","from":"Abriès - Office de Tourisme","to":"Gap - Collège Mauzan","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":17,"s":[[3461978649,1]]},
+  {"id":17693112,"t":{"ref":"573","name":"Bus 573 (été) : Ristolas => Château-Ville-Vieille => Mont-Dauphin","from":"Ristolas","to":"Mont-Dauphin","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":9,"s":[[3461978649,2]]},
+  {"id":17693113,"t":{"ref":"573","name":"Bus 573 (été) : Mont-Dauphin => Château-Ville-Vieille => Ristolas","from":"Mont-Dauphin","to":"Ristolas","network":"Zou !","operator":"Autocars Audier","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":10,"s":[[3461978650,9]]},
+  {"id":21603078,"t":{"ref":"HGH","name":"Navette Vallée du Haut Guil : L'Echalp => Château-Ville-Vieille","from":"L'Echalp","to":"Château-Ville-Vieille","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#2E7D32","route":"bus","public_transport:version":"2"},"n":10,"s":[[10892627315,4],[14135119599,5],[3461978649,6]]},
+  {"id":21603079,"t":{"ref":"HGH","name":"Navette Vallée du Haut Guil : Château-Ville-Vieille => L'Echalp","from":"Château-Ville-Vieille","to":"L'Echalp","network":"Navettes Queyras","operator":"Autocars Audier","colour":"#2E7D32","route":"bus","public_transport:version":"2"},"n":11,"s":[[3461978650,6],[3927746998,7],[3461978641,8]]}
+]
+}

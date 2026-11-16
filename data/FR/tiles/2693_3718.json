@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2693,3718],
+"stops":[
+  {"id":860227922,"lat":44.693128,"lon":5.941267,"k":"x","n":"Saint-Étienne - Mairie"},
+  {"id":1156275921,"lat":44.688038,"lon":5.945413,"k":"x","n":"Centre de Secours"},
+  {"id":1156275975,"lat":44.67785,"lon":5.926856,"k":"x","n":"Superdévoluy - Les Issarts"},
+  {"id":1156275993,"lat":44.675336,"lon":5.932474,"k":"x","n":"Superdévoluy - Chalet Margot"},
+  {"id":3514374361,"lat":44.693012,"lon":5.94118,"k":"p","n":"Saint-Étienne - Mairie"},
+  {"id":3547847049,"lat":44.675295,"lon":5.93241,"k":"p","n":"Superdévoluy - Chalet Margot"},
+  {"id":3550421011,"lat":44.688287,"lon":5.945376,"k":"p","n":"Centre de Secours"},
+  {"id":3550421012,"lat":44.687966,"lon":5.945354,"k":"p","n":"Centre de Secours"},
+  {"id":3550517023,"lat":44.677964,"lon":5.926939,"k":"p","n":"Superdévoluy - Les Issarts"},
+  {"id":6927315692,"lat":44.693149,"lon":5.941324,"k":"p","n":"Saint-Étienne - Mairie"},
+  {"id":6927515297,"lat":44.688211,"lon":5.945302,"k":"x","n":"Centre de Secours"},
+  {"id":7228399159,"lat":44.693052,"lon":5.94126,"k":"x","n":"Saint-Étienne - Mairie"},
+  {"id":9250072053,"lat":44.675384,"lon":5.932526,"k":"p","n":"Superdévoluy - Chalet Margot"}
+],
+"routes":[
+  {"id":13438076,"t":{"ref":"515","name":"Bus 515 (hiver) : Le Dévoluy => Veynes","from":"Le Dévoluy","to":"Veynes","network":"Zou !","operator":"Dévoluy Voyages","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":13,"s":[[3550517023,1],[3547847049,2],[3550421011,3],[6927315692,4]]},
+  {"id":13438077,"t":{"ref":"515","name":"Bus 515 (hiver) : Veynes => Le Dévoluy","from":"Veynes","to":"Le Dévoluy","network":"Zou !","operator":"Dévoluy Voyages","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":13,"s":[[3514374361,10],[3550421012,11],[9250072053,12],[3550517023,13]]},
+  {"id":15508312,"t":{"ref":"5120","name":"Bus 5120 : Saint-Étienne - Mairie => La Cluse - L'Oche","from":"Saint-Étienne - Mairie","to":"La Cluse - L'Oche","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[6927315692,1]]},
+  {"id":15508313,"t":{"ref":"5120","name":"Bus 5120 : La Cluse - L'Oche => Saint-Étienne - Mairie","from":"La Cluse - L'Oche","to":"Saint-Étienne - Mairie","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[3514374361,12]]},
+  {"id":15508382,"t":{"ref":"5121","name":"Bus 5121 : École d'Agnières => Superdévoluy - Les Issarts","from":"École d'Agnières","to":"Superdévoluy - Les Issarts","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":14,"s":[[3514374361,8],[3550421012,9],[9250072053,13],[3550517023,14]]},
+  {"id":15508383,"t":{"ref":"5121","name":"Bus 5121 : Superdévoluy - Les Issarts => École d'Agnières","from":"Superdévoluy - Les Issarts","to":"École d'Agnières","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":14,"s":[[3550517023,1],[3547847049,2],[3550421011,6],[6927315692,7]]},
+  {"id":15508412,"t":{"ref":"5122","name":"Bus 5122 : Veynes - Gare SNCF => Superdévoluy - Les Issarts","from":"Veynes - Gare SNCF","to":"Superdévoluy - Les Issarts","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[3514374361,10],[3550421012,11],[9250072053,12],[3550517023,13]]},
+  {"id":15508413,"t":{"ref":"5122","name":"Bus 5122 : Superdévoluy - Les Issarts => Veynes - Gare SNCF","from":"Superdévoluy - Les Issarts","to":"Veynes - Gare SNCF","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[3550517023,1],[3547847049,2],[3550421011,3],[6927315692,4]]},
+  {"id":15534687,"t":{"ref":"5132","name":"Bus 5132 : Montmaur - Village => Centre de Secours","from":"Montmaur - Village","to":"Centre de Secours","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[3514374361,10],[3550421012,11]]},
+  {"id":15534688,"t":{"ref":"5132","name":"Bus 5132 : Centre de Secours => Montmaur - Village","from":"Centre de Secours","to":"Montmaur - Village","network":"Zou !","operator":"Dévoluy Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[3550421011,1],[6927315692,2]]},
+  {"id":17692893,"t":{"ref":"515","name":"Bus 515 (été) : Le Dévoluy => Veynes","from":"Le Dévoluy","to":"Veynes","network":"Zou !","operator":"Dévoluy Voyages","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":13,"s":[[3550517023,1],[3547847049,2],[3550421011,3],[6927315692,4]]},
+  {"id":17692894,"t":{"ref":"515","name":"Bus 515 (été) : Veynes => Le Dévoluy","from":"Veynes","to":"Le Dévoluy","network":"Zou !","operator":"Dévoluy Voyages","colour":"#00b8cf","route":"bus","public_transport:version":"2"},"n":13,"s":[[3514374361,10],[3550421012,11],[9250072053,12],[3550517023,13]]}
+]
+}

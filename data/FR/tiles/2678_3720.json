@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2678,3720],
+"stops":[
+  {"id":4546790324,"lat":43.937817,"lon":6.024337,"k":"x","n":"Entrevennes - Village"},
+  {"id":5660496137,"lat":43.937817,"lon":6.024375,"k":"p","n":"Entrevennes - Village"},
+  {"id":5660496138,"lat":43.937829,"lon":6.024302,"k":"p","n":"Entrevennes - Village"},
+  {"id":9017867403,"lat":43.949568,"lon":6.035322,"k":"p","n":"Entrevennes - Blancs"},
+  {"id":9017867404,"lat":43.949541,"lon":6.035336,"k":"x","n":"Entrevennes - Blancs"}
+],
+"routes":[
+  {"id":6780261,"t":{"ref":"125","name":"Bus 125 : Brunet => Oraison","from":"Brunet - Le Couvent","to":"Oraison - Le Kiosque","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"yellowgreen","route":"bus","public_transport:version":"2"},"n":6,"s":[[5660496138,2]]},
+  {"id":6780262,"t":{"ref":"125","name":"Bus 125 : Oraison => Brunet","from":"Oraison - Le Kiosque","to":"Brunet - Le Couvent","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"yellowgreen","route":"bus","public_transport:version":"2"},"n":6,"s":[[5660496137,5]]},
+  {"id":13104900,"t":{"ref":"166 S","name":"Bus 166 S : Entrevennes => Puimichel => Oraison","from":"Entrevennes","to":"Oraison","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[5660496138,1],[9017867403,2]]},
+  {"id":13104901,"t":{"ref":"166 S","name":"Bus 166 S : Oraison => Entrevennes => Puimichel","from":"Oraison","to":"Puimichel","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[5660496137,4],[9017867403,6]]},
+  {"id":13479691,"t":{"ref":"185 RPI","name":"Bus 185 RPI : Entrevennes - Blancs => Le Castellet => Entrevennes","from":"Entrevennes - Blancs","to":"Entrevennes","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[9017867403,1],[5660496137,3,5]]},
+  {"id":13479692,"t":{"ref":"185 RPI","name":"Bus 185 RPI : Entrevennes => Le Castellet => Entrevennes - Blancs","from":"Entrevennes","to":"Entrevennes - Blancs","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[5660496138,1,3],[9017867403,5]]}
+]
+}

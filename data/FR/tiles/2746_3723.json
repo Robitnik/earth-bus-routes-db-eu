@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2746,3723],
+"stops":[
+  {"id":509263414,"lat":47.305929,"lon":6.150284,"k":"x","n":"Fontaine"},
+  {"id":7475540261,"lat":47.330526,"lon":6.169518,"k":"p"},
+  {"id":7775156126,"lat":47.339056,"lon":6.159497,"k":"p","n":"Fontaine du Haut"},
+  {"id":7775385804,"lat":47.301127,"lon":6.154545,"k":"p","n":"Les Mirabelles"},
+  {"id":7775385805,"lat":47.301001,"lon":6.154784,"k":"p","n":"Les Mirabelles"},
+  {"id":7775385806,"lat":47.30467,"lon":6.151633,"k":"p","n":"Prairie"},
+  {"id":7775385807,"lat":47.305005,"lon":6.15159,"k":"p","n":"Prairie"},
+  {"id":7775385809,"lat":47.305967,"lon":6.150279,"k":"p","n":"Fontaine"},
+  {"id":11960224401,"lat":47.338985,"lon":6.159626,"k":"x","n":"Marchaux-Chaudefontaine - Fontaine du Haut"},
+  {"id":12615626347,"lat":47.304756,"lon":6.151655,"k":"x","n":"Prairie"},
+  {"id":12615626348,"lat":47.304986,"lon":6.151551,"k":"x","n":"Prairie"},
+  {"id":12615626349,"lat":47.300921,"lon":6.1548,"k":"x","n":"Les Mirabelles"},
+  {"id":12615626350,"lat":47.301186,"lon":6.154568,"k":"x","n":"Les Mirabelles"}
+],
+"routes":[
+  {"id":4730761,"t":{"ref":"71","name":"Bus 71: Orchamps => Fontaine du Haut","from":"Orchamps","to":"Fontaine du Haut","network":"Ginko","operator":"Keolis Besançon","route":"bus","public_transport:version":"2"},"n":10,"s":[[7775156126,10]]},
+  {"id":3002257467075,"t":{"ref":"D324","name":"D324: Courtils - Marchaux-Chaudefontaine - Fontaine du Haut","from":"Courtils","to":"Marchaux-Chaudefontaine - Fontaine du Haut","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":7,"s":[[7775156126,7]]},
+  {"id":3006737068598,"t":{"ref":"71","name":"Bus 71: Fontaine du Haut => Orchamps","from":"Fontaine du Haut","to":"Orchamps","network":"Ginko","operator":"Keolis Besançon","route":"bus","public_transport:version":"2"},"n":11,"s":[[11960224401,11]]},
+  {"id":3009652682791,"t":{"ref":"73","name":"Bus 73: Amagney, Malmaison => Besançon, Orchamps","from":"Amagney-Malmaison","to":"Orchamps","network":"Ginko","operator":"Keolis Besançon","colour":"#d2528b","route":"bus","public_transport:version":"2"},"n":17,"s":[[7775385805,2],[12615626348,3],[509263414,4]]},
+  {"id":3015125239948,"t":{"ref":"73","name":"Bus 73: Besançon, Orchamps => Amagney, Malmaison","from":"Orchamps","to":"Malmaison","network":"Ginko","operator":"Keolis Besançon","colour":"#d2528b","route":"bus","public_transport:version":"2"},"n":18,"s":[[509263414,15],[7775385806,16],[7775385805,17]]},
+  {"id":3054561695643,"t":{"ref":"73","name":"Bus 73: Besançon, Orchamps => Amagney, Malmaison","from":"Orchamps","to":"Malmaison","network":"Ginko","operator":"Keolis Besançon","colour":"#d2528b","route":"bus","public_transport:version":"2"},"n":16,"s":[[509263414,13],[7775385806,14],[7775385805,15]]},
+  {"id":3056490271635,"t":{"ref":"D324","name":"D324: Marchaux-Chaudefontaine - Fontaine du Haut - Courtils","from":"Marchaux-Chaudefontaine - Fontaine du Haut","to":"Courtils","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":7,"s":[[11960224401,1]]},
+  {"id":3057480907182,"t":{"ref":"73","name":"Bus 73: Amagney, Malmaison => Besançon, Orchamps","from":"Amagney-Malmaison","to":"Orchamps","network":"Ginko","operator":"Keolis Besançon","colour":"#d2528b","route":"bus","public_transport:version":"2"},"n":18,"s":[[7775385805,2],[12615626348,3],[509263414,4]]},
+  {"id":3063982949484,"t":{"ref":"73","name":"Bus 73: Amagney, Malmaison => Besançon, Orchamps","from":"Amagney-Malmaison","to":"Orchamps","network":"Ginko","operator":"Keolis Besançon","colour":"#d2528b","route":"bus","public_transport:version":"2"},"n":16,"s":[[7775385805,2],[12615626348,3],[509263414,4]]},
+  {"id":3065904023380,"t":{"ref":"71","name":"Bus 71: Fontaine du Haut => Orchamps","from":"Fontaine du Haut","to":"Orchamps","network":"Ginko","operator":"Keolis Besançon","route":"bus","public_transport:version":"2"},"n":11,"s":[[11960224401,1]]}
+]
+}

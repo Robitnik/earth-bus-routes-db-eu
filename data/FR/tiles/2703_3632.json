@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2703,3632],
+"stops":[
+  {"id":8931296718,"lat":45.181978,"lon":1.641425,"k":"p","n":"Aubazine-Saint-Hilaire"},
+  {"id":8931296728,"lat":45.182135,"lon":1.642976,"k":"p"},
+  {"id":8953372949,"lat":45.153756,"lon":1.61476,"k":"p","n":"La Chapelle-aux-Brocs - Pont du Cayre","q":1},
+  {"id":8953372950,"lat":45.166373,"lon":1.629957,"k":"p","n":"Dampniat - Parking Cimetière","q":1},
+  {"id":8953372951,"lat":45.168037,"lon":1.632469,"k":"p","n":"Dampniat - Centre Bourg Mairie","q":1},
+  {"id":8953372952,"lat":45.19502,"lon":1.61963,"k":"p","n":"Vénarsal - Écoles","q":1},
+  {"id":8964006957,"lat":45.153702,"lon":1.614705,"k":"x","n":"La Chapelle-aux-Brocs - Pont du Cayre"},
+  {"id":8964123439,"lat":45.153661,"lon":1.614694,"k":"p","n":"La Chapelle-aux-Brocs - Pont du Cayre","q":1},
+  {"id":9013208527,"lat":45.182031,"lon":1.641393,"k":"x","n":"Aubazine-Saint-Hilaire"},
+  {"id":9456261479,"lat":45.195158,"lon":1.623406,"k":"x"}
+],
+"routes":[
+  {"id":13023894,"t":{"ref":"TAD","name":"TAD 2 : Sainte-Féréole → Brive","from":"Sainte-Féréole - Le Bourg","to":"Place du 14 Juiillet","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":12,"s":[[8953372952,8],[8953372951,9],[8953372950,10],[8953372949,11]]},
+  {"id":13024070,"t":{"ref":"TAD","name":"TAD 2 : Brive → Sainte-Féréole","from":"Place du 14 Juiillet","to":"Sainte-Féréole - Le Bourg","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":12,"s":[[8953372952,8],[8953372951,9],[8953372950,10],[8953372949,11]]},
+  {"id":13034714,"t":{"ref":"225","name":"Ligne 225 : Saint-Privat → Argentat → Brive-la-Gaillarde","from":"Saint-Privas - Le Bourg","to":"Brive - Gare SNCF","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#088a85","route":"bus","public_transport:version":"2"},"n":16,"s":[[8953372949,14]]},
+  {"id":13038733,"t":{"ref":"225","name":"Ligne 225 : Brive-la-Gaillarde → Argentat → Saint-Privat","from":"Brive - Gare SNCF","to":"Saint-Privat - Le Bourg","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","route":"bus","public_transport:version":"2"},"n":16,"s":[[8964123439,3]]},
+  {"id":13066277,"t":{"ref":"222","name":"Ligne 222 : Beaulieu-sur-Dordogne → Brive-la-Gaillarde","from":"Beaulieu-sur-Dordogne - Le Bourg","to":"Place du 14 Juiillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6e6e6e","route":"bus","public_transport:version":"2"},"n":18,"s":[[8953372949,14]]},
+  {"id":13067388,"t":{"ref":"222","name":"Ligne 222 : Brive-la-Gaillarde → Beaulieu-sur-Dordogne","from":"Place du 14 Juiillet","to":"Beaulieu-sur-Dordogne - Le Bourg","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6e6e6e","route":"bus","public_transport:version":"2"},"n":18,"s":[[8964123439,5]]},
+  {"id":13097962,"t":{"ref":"TER 27","name":"TER 27 : Ussel → Brive","from":"Ussel","to":"Brive-la-Gaillarde","network":"TER Nouvelle-Aquitaine","operator":"SNCF Voyageurs","colour":"#f5c400","route":"bus","public_transport:version":"2"},"n":15,"s":[[8931296718,14]]}
+]
+}

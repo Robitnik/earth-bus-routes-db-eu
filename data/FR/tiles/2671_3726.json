@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2671,3726],
+"stops":[
+  {"id":251342087,"lat":43.553961,"lon":6.301811,"k":"x","n":"Villecroze - Château Thuerry"},
+  {"id":957692522,"lat":43.597695,"lon":6.330324,"k":"x","n":"Saint-Pierre"},
+  {"id":4455406954,"lat":43.553038,"lon":6.301872,"k":"p","n":"Villecroze - Les Esparrus (RD 557)"},
+  {"id":4455408439,"lat":43.552752,"lon":6.30116,"k":"p","n":"Villecroze - Les Esparrus (RD 560)"},
+  {"id":5953741917,"lat":43.552795,"lon":6.30126,"k":"p","n":"Villecroze - Les Esparrus (RD 560)"},
+  {"id":8118817784,"lat":43.55401,"lon":6.3019,"k":"p","n":"Villecroze - Château Thuerry"},
+  {"id":8120371134,"lat":43.552773,"lon":6.301197,"k":"x","n":"Villecroze - Les Esparrus (RD 560)"},
+  {"id":8496868421,"lat":43.553024,"lon":6.30194,"k":"x","n":"Villecroze - Les Esparrus (RD 557)"},
+  {"id":8971575010,"lat":43.589341,"lon":6.305356,"k":"p","n":"Tourtour - Rond-Point Sainte-Anne"},
+  {"id":8971575619,"lat":43.589313,"lon":6.305382,"k":"x","n":"Tourtour - Rond-Point Sainte-Anne"},
+  {"id":8971974934,"lat":43.597674,"lon":6.330427,"k":"p","n":"Saint-Pierre"},
+  {"id":8971974935,"lat":43.597732,"lon":6.330245,"k":"p","n":"Saint-Pierre"}
+],
+"routes":[
+  {"id":8770908,"t":{"ref":"812","name":"Bus 812 : Draguignan => Aups","from":"Draguignan","to":"Aups","network":"Zou !","operator":"Transdev Var","colour":"#29439b","route":"bus","public_transport:version":"2"},"n":13,"s":[[5953741917,5]]},
+  {"id":11894155,"t":{"ref":"8121","name":"Bus 8121 : Villecroze - Les Esparus => Aups - Collège Henri Nans","from":"Villecroze - Les Esparus","to":"Aups - Collège Henri Nans","network":"Zou !","operator":"Transdev Brémond","colour":"#4682b4","route":"bus","public_transport:version":"2"},"n":10,"s":[[5953741917,1]]},
+  {"id":11894156,"t":{"ref":"8121","name":"Bus 8121 : Aups => Villecroze - Les Esparus","from":"Aups","to":"Villecroze - Les Esparus","network":"Zou !","operator":"Transdev Brémond","colour":"#4682b4","route":"bus","public_transport:version":"2"},"n":10,"s":[[4455408439,10]]},
+  {"id":11894157,"t":{"ref":"8121","name":"Bus 8121 : Villecroze - Château Thuerry => Aups","from":"Villecroze - Château Thuerry","to":"Aups - Collège Henri Nans","network":"Zou !","operator":"Transdev Brémond","colour":"#4682b4","route":"bus","public_transport:version":"2"},"n":6,"s":[[8118817784,1]]},
+  {"id":11894158,"t":{"ref":"8121","name":"Bus 8121 : Aups => Villecroze - Les Esparrus","from":"Aups - Collège Henri Nans","to":"Villecroze - Les Esparrus (RD 560)","network":"Zou !","operator":"Transdev Brémond","colour":"#4682b4","route":"bus","public_transport:version":"2"},"n":5,"s":[[5953741917,5]]},
+  {"id":13015933,"t":{"ref":"8122","name":"Bus 8122 : Régusse => Draguignan","from":"Régusse - Mairie","to":"Draguignan","network":"Zou !","operator":"Transdev Var","colour":"#faa61a","route":"bus","public_transport:version":"2"},"n":13,"s":[[4455406954,9]]},
+  {"id":13017275,"t":{"ref":"8122","name":"Bus 8122 : Draguignan => Régusse","from":"Draguignan","to":"Régusse - Mairie","network":"Zou !","operator":"Transdev Var","colour":"#faa61a","route":"bus","public_transport:version":"2"},"n":14,"s":[[8118817784,4]]},
+  {"id":13042546,"t":{"ref":"8123","name":"Bus 8123 : Lorgues => Régusse","from":"Lorgues","to":"Régusse - Mairie","network":"Zou !","operator":"Transdev Var","colour":"#baac09","route":"bus","public_transport:version":"2"},"n":11,"s":[[5953741917,2]]},
+  {"id":13042547,"t":{"ref":"8123","name":"Bus 8123 : Régusse => Lorgues","from":"Régusse - Mairie","to":"Lorgues","network":"Zou !","operator":"Transdev Var","colour":"#baac09","route":"bus","public_transport:version":"2"},"n":9,"s":[[4455408439,8]]},
+  {"id":13042658,"t":{"ref":"8125","name":"Bus 8125 : Tourtour => Lorgues","from":"Tourtour","to":"Lorgues","network":"Zou !","operator":"Transdev Var","colour":"#149bd2","route":"bus","public_transport:version":"2"},"n":6,"s":[[8971575010,1],[4455406954,5]]},
+  {"id":13042659,"t":{"ref":"8125","name":"Bus 8125 : Lorgues => Tourtour","from":"Lorgues","to":"Tourtour","network":"Zou !","operator":"Transdev Var","colour":"#149bd2","route":"bus","public_transport:version":"2"},"n":8,"s":[[8118817784,2],[8971575010,8]]},
+  {"id":13043560,"t":{"ref":"8212","name":"Bus 8212 : Aups => Ampus","from":"Aups","to":"Ampus","network":"Zou !","operator":"Transdev Var","colour":"#cb6aa2","route":"bus","public_transport:version":"2"},"n":3,"s":[[8971575010,2],[8971974934,3]]},
+  {"id":13043561,"t":{"ref":"8212","name":"Bus 8212 : Ampus => Aups","from":"Ampus","to":"Aups","network":"Zou !","operator":"Transdev Var","colour":"#cb6aa2","route":"bus","public_transport:version":"2"},"n":3,"s":[[8971974935,1],[8971575010,2]]},
+  {"id":3038385585304,"t":{"ref":"812","name":"812: Gare Routière - Martin Bidoure","from":"Gare Routière","to":"Martin Bidoure","operator":"ZOU ! Proximité","route":"bus","public_transport:version":"2"},"n":18,"s":[[5953741917,8]]},
+  {"id":3052316077549,"t":{"ref":"812","name":"Bus 812 : Aups => Draguignan","from":"Aups","to":"Draguignan","network":"Zou !","operator":"Transdev Var","colour":"#29439b","route":"bus","public_transport:version":"2"},"n":18,"s":[[4455408439,11]]}
+]
+}

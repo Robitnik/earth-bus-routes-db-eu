@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2677,3714],
+"stops":[
+  {"id":3699795972,"lat":43.88705,"lon":5.719657,"k":"x","n":"Saint-Michel-l'Observatoire - Potier RD 105"},
+  {"id":5667021366,"lat":43.858439,"lon":5.700849,"k":"p","n":"Villemus - Place / Village"},
+  {"id":5667051174,"lat":43.887004,"lon":5.71975,"k":"x","n":"Saint-Michel-l'Observatoire - Potier RD 105"},
+  {"id":5667051175,"lat":43.887055,"lon":5.719787,"k":"p","n":"Saint-Michel-l'Observatoire - Potier RD 105","ref":"1009"},
+  {"id":5667051176,"lat":43.887033,"lon":5.71961,"k":"p","n":"Saint-Michel-l'Observatoire - Potier RD 105","ref":"1008"},
+  {"id":5667059124,"lat":43.889581,"lon":5.707086,"k":"p","n":"Saint-Michel-l'Observatoire - Lincel","ref":"1011"},
+  {"id":6761952631,"lat":43.850745,"lon":5.73243,"k":"p","n":"Saint-Martin-les-Eaux - Les Plaines","ref":"1004"},
+  {"id":6761955024,"lat":43.851768,"lon":5.730018,"k":"p","n":"Saint-Martin-les-Eaux - EDF","ref":"1426"},
+  {"id":8361646024,"lat":43.889564,"lon":5.707076,"k":"x","n":"Saint-Michel-l'Observatoire - Lincel"},
+  {"id":8409642497,"lat":43.851836,"lon":5.730082,"k":"x","n":"Saint-Martin-les-Eaux - EDF"},
+  {"id":8409642498,"lat":43.850692,"lon":5.732369,"k":"x","n":"Saint-Martin-les-Eaux - Les Plaines"},
+  {"id":10587259845,"lat":43.858465,"lon":5.700899,"k":"x","n":"Villemus - Place / Village"}
+],
+"routes":[
+  {"id":6780522,"t":{"ref":"460","name":"Bus 460 : Vachères => Reillanne => Manosque - Lycée Les Iscles","from":"Vachères","to":"Manosque - Lycée Les Iscles","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":10,"s":[[6761955024,4]]},
+  {"id":6780553,"t":{"ref":"460","name":"Bus 460 : Manosque - Gare Routière => Reillanne => Vachères","from":"Manosque - Gare Routière","to":"Vachères","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":9,"s":[[6761952631,6]]},
+  {"id":6834049,"t":{"ref":"470","name":"Bus 470 : Banon => Manosque","from":"Banon","to":"Manosque","network":"Zou !","operator":"SUMIAN","colour":"#ff872f","route":"bus","public_transport:version":"2"},"n":14,"s":[[5667059124,4],[5667051176,5]]},
+  {"id":6834050,"t":{"ref":"470","name":"Bus 470 : Manosque => Banon","from":"Manosque","to":"Banon","network":"Zou !","operator":"SUMIAN","colour":"#ff872f","route":"bus","public_transport:version":"2"},"n":14,"s":[[5667051175,10],[5667059124,11]]},
+  {"id":12422646,"t":{"ref":"460","name":"Bus 460 : Reillanne => Manosque - Hôpital Louis Raffalli","from":"Reillanne","to":"Manosque - Hôpital Louis Raffalli","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":7,"s":[[6761955024,3]]},
+  {"id":12422647,"t":{"ref":"460","name":"Bus 460 : Manosque - Hôpital Louis Raffalli => Reillanne","from":"Manosque - Hôpital Louis Raffalli","to":"Reillanne","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":7,"s":[[6761952631,5]]},
+  {"id":12422865,"t":{"ref":"460","name":"Bus 460 : Reillanne => Manosque - Lycée Les Iscles","from":"Reillanne","to":"Manosque - Lycée Les Iscles","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":9,"s":[[6761955024,3]]},
+  {"id":12422866,"t":{"ref":"460","name":"Bus 460 : Manosque - Collège Jean Giono => Reillanne","from":"Manosque - Collège Jean Giono","to":"Reillanne","network":"Zou !","operator":"SUMIAN","colour":"#fb8d15","route":"bus","public_transport:version":"2"},"n":9,"s":[[6761952631,7]]},
+  {"id":15396333,"t":{"ref":"4813","name":"Bus 4813 : Aubenas-les-Alpes => Saint-Michel-l'Observatoire => Forcalquier","from":"Aubenas-les-Alpes","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[5667059124,5],[5667051176,6]]},
+  {"id":15396334,"t":{"ref":"4813","name":"Bus 4813 : Forcalquier => Saint-Michel-l'Observatoire => Aubenas-les-Alpes","from":"Forcalquier","to":"Aubenas-les-Alpes","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[5667051175,3]]},
+  {"id":15396335,"t":{"ref":"4813","name":"Bus 4813 : Forcalquier => Lincel => Saint-Michel-l'Observatoire - Village => Aubenas-les-Alpes","from":"Forcalquier","to":"Aubenas-les-Alpes","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[5667051175,3],[5667059124,4]]},
+  {"id":15399681,"t":{"ref":"4603","name":"Bus 4603 : Forcalquier => Reillanne => Villemus","from":"Forcalquier","to":"Villemus","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[5667021366,5]]},
+  {"id":15399682,"t":{"ref":"4603","name":"Bus 4603 : Villemus => Reillanne => Forcalquier","from":"Villemus","to":"Forcalquier","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[5667021366,1]]}
+]
+}

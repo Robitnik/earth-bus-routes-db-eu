@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2740,3578],
+"stops":[
+  {"id":6186093276,"lat":47.016624,"lon":-1.066548,"k":"p","n":"Lycée Champ Blanc"},
+  {"id":6186093277,"lat":47.016665,"lon":-1.066534,"k":"x"},
+  {"id":6186151706,"lat":47.018168,"lon":-1.065761,"k":"x","n":"Route de Toucharette"},
+  {"id":6186151707,"lat":47.018149,"lon":-1.065502,"k":"p","n":"Route de Toucharette"},
+  {"id":6186151708,"lat":47.032059,"lon":-1.092846,"k":"x"},
+  {"id":6186151709,"lat":47.032009,"lon":-1.092876,"k":"p","n":"Gare de Torfou - Tiffauges"},
+  {"id":6313877584,"lat":47.016868,"lon":-1.059726,"k":"p"},
+  {"id":6313877585,"lat":47.016896,"lon":-1.059765,"k":"x"},
+  {"id":13107744055,"lat":47.032496,"lon":-1.093858,"k":"p","n":"Gare de Torfou - Tiffauges"}
+],
+"routes":[
+  {"id":9188018,"t":{"ref":"428","name":"Car Aléop 428 : Le Longeron → Cholet","from":"Sèvremoine - Lycée Champblanc (Le Longeron)","to":"Créac'h Ferarri","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#009E3D","route":"bus","public_transport:version":"2"},"n":4,"s":[[6186093276,1]]},
+  {"id":9188023,"t":{"ref":"428","name":"Car Aléop 428 : Cholet → Le Longeron","from":"Créac'h Ferarri","to":"Sèvremoine - Lycée Champblanc (Le Longeron)","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#009E3D","route":"bus","public_transport:version":"2"},"n":4,"s":[[6186093276,4]]},
+  {"id":9188115,"t":{"ref":"428","name":"Car Aléop 428 : Cholet → Torfou","from":"Trémolières","to":"Sèvremoine - Route de Toucharette (Le Longeron)","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#009E3D","route":"bus","public_transport:version":"2"},"n":7,"s":[[6186151709,6],[6186151707,7]]},
+  {"id":9188155,"t":{"ref":"428","name":"Car Aléop 428 : Torfou → Cholet","from":"Sèvremoine - Route de Toucharette (Le Longeron)","to":"Trémolières","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#009E3D","route":"bus","public_transport:version":"2"},"n":6,"s":[[6186151707,1],[6186151709,2]]},
+  {"id":19703007,"t":{"ref":"A2","name":"Car Mooj A2 : Place du 11 Novembre → Gare de Torfou","from":"Place du 11 Novembre","to":"Gare de Torfou","network":"Mooj","operator":"Voyages Cordier","colour":"#00A9B8","route":"bus","public_transport:version":"2"},"n":8,"s":[[13107744055,8]]},
+  {"id":19703008,"t":{"ref":"A2","name":"Car Mooj A2 : Gare de Torfou → Rue Alfred Nobel","from":"Gare de Torfou","to":"Rue Alfred Nobel","network":"Mooj","operator":"Voyages Cordier","colour":"#00A9B8","route":"bus","public_transport:version":"2"},"n":8,"s":[[13107744055,1]]},
+  {"id":3061893934976,"t":{"ref":"428","name":"428: Route de Toucharette - Saint Pierre (avenue des Câlins)","from":"Route de Toucharette","to":"Saint Pierre (avenue des Câlins)","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":8,"s":[[6186151706,1],[13107744055,3]]},
+  {"id":3062643668602,"t":{"ref":"428","name":"428: Route de Toucharette - Saint Pierre (avenue des Câlins) / Cholet","from":"Route de Toucharette","to":"Saint Pierre (avenue des Câlins) / Cholet","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":8,"s":[[6186151706,1],[13107744055,3]]},
+  {"id":3064962517181,"t":{"ref":"428","name":"428: Saint Pierre (avenue des Câlins) / Cholet - Route de Toucharette","from":"Saint Pierre (avenue des Câlins) / Cholet","to":"Route de Toucharette","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":8,"s":[[13107744055,6],[6186151706,8]]},
+  {"id":3096416950025,"t":{"ref":"428","name":"428: Saint Pierre (avenue des Câlins) - Route de Toucharette","from":"Saint Pierre (avenue des Câlins)","to":"Route de Toucharette","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":8,"s":[[13107744055,6],[6186151706,8]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2711,3729],
+"stops":[
+  {"id":5559983104,"lat":45.59077,"lon":6.452705,"k":"p","n":"Cevins La Poste"},
+  {"id":5559983105,"lat":45.590801,"lon":6.452646,"k":"x"},
+  {"id":5559983107,"lat":45.591367,"lon":6.456845,"k":"p","n":"Cevins Chef-lieu Église"},
+  {"id":5559983108,"lat":45.591383,"lon":6.4568,"k":"x","n":"Cevins Chef-lieu Église"},
+  {"id":5559983109,"lat":45.591397,"lon":6.456775,"k":"p","n":"Cevins Chef-lieu Église"},
+  {"id":5559983110,"lat":45.588892,"lon":6.455718,"k":"x","n":"Lotissement Le Clos"},
+  {"id":5559983111,"lat":45.588894,"lon":6.455754,"k":"p","n":"Lotissement Le Clos"},
+  {"id":5560025826,"lat":45.564652,"lon":6.46351,"k":"p","n":"La Rochette"},
+  {"id":5560025827,"lat":45.564654,"lon":6.463539,"k":"x","n":"La Rochette"},
+  {"id":5560025828,"lat":45.564656,"lon":6.463577,"k":"p","n":"La Rochette"},
+  {"id":5560025833,"lat":45.5805,"lon":6.452465,"k":"x","n":"Varambon"},
+  {"id":5560025834,"lat":45.580511,"lon":6.45248,"k":"p","n":"Varambon"},
+  {"id":5560025835,"lat":45.580606,"lon":6.452303,"k":"p","n":"Varambon"},
+  {"id":5560025836,"lat":45.580621,"lon":6.45233,"k":"x","n":"Varambon"},
+  {"id":5570906383,"lat":45.591448,"lon":6.452776,"k":"p","n":"Cevins Boulangerie"},
+  {"id":5570906384,"lat":45.591476,"lon":6.452776,"k":"x","n":"Cevins Boulangerie"},
+  {"id":5570906385,"lat":45.591503,"lon":6.452774,"k":"p","n":"Cevins Boulangerie"},
+  {"id":5570906386,"lat":45.588888,"lon":6.455681,"k":"p","n":"Lotissement Le Clos"},
+  {"id":5777508941,"lat":45.552712,"lon":6.453631,"k":"p"},
+  {"id":5777508942,"lat":45.552726,"lon":6.453611,"k":"x"},
+  {"id":5777508943,"lat":45.55289,"lon":6.453822,"k":"x"},
+  {"id":5777508944,"lat":45.5529,"lon":6.453815,"k":"p"},
+  {"id":5777511948,"lat":45.550931,"lon":6.455918,"k":"x"},
+  {"id":5777511949,"lat":45.550944,"lon":6.456014,"k":"p"},
+  {"id":5777511950,"lat":45.550969,"lon":6.455755,"k":"p"},
+  {"id":5777511951,"lat":45.55102,"lon":6.455773,"k":"x"},
+  {"id":11787992473,"lat":45.558651,"lon":6.469075,"k":"x","n":"Feissons-sur-Isère - Mairie"}
+],
+"routes":[
+  {"id":8235780,"t":{"ref":"5","name":"Bus 5: Albertville => Cevins => Le Clos","from":"Gare Routière","to":"Lotissement Le Clos","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":21,"s":[[5570906383,19],[5559983109,20],[5570906386,21]]},
+  {"id":9169134,"t":{"ref":"5","name":"Bus 5: Le Clos > Cevins > Albertville","from":"Le Clos","to":"Albertville","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":19,"s":[[5559983111,1],[5559983107,2],[5570906385,3]]},
+  {"id":9169403,"t":{"ref":"6","name":"Bus 6: Albertville => La Rochette","from":"Albertville","to":"La Rochette","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":23,"s":[[5560025835,22],[5560025826,23]]},
+  {"id":9169439,"t":{"ref":"6","name":"Bus 6: La Rochette => Albertville","from":"La Rochette","to":"Albertville","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":22,"s":[[5560025828,1],[5560025834,2]]},
+  {"id":9197149,"t":{"ref":"5","name":"Bus 5: Le Clos => Cevins => Albertville (via Collège Privé)","from":"Le Clos","to":"Albertville","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":21,"s":[[5559983111,1],[5559983107,2],[5570906385,3]]},
+  {"id":9197150,"t":{"ref":"5","name":"Bus 5: Cevins => Albertville (via Collège Privé)","from":"Le Clos","to":"Albertville","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":20,"s":[[5559983107,1],[5570906385,2]]},
+  {"id":9197151,"t":{"ref":"5","name":"Bus 5: Albertville => Cevins (via Collège Privé)","from":"Gare Routière","to":"Lotissement Le Clos","network":"Transports Région Arlysère","operator":"Transdev Albertville","route":"bus","public_transport:version":"2"},"n":21,"s":[[5570906383,20],[5559983109,21]]}
+]
+}

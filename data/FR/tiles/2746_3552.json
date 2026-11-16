@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2746,3552],
+"stops":[
+  {"id":1705865742,"lat":47.344817,"lon":-2.353008,"k":"p","n":"Cogéa","ref":"LIL10629O"},
+  {"id":1705865775,"lat":47.344646,"lon":-2.35273,"k":"p","n":"Cogéa","ref":"LIL10629N"},
+  {"id":1705868582,"lat":47.300553,"lon":-2.386092,"k":"p","n":"Haut Brivin","ref":"LIL10656N"},
+  {"id":1705868621,"lat":47.3007,"lon":-2.385917,"k":"p","n":"Haut Brivin","ref":"LIL10656O"},
+  {"id":1705869538,"lat":47.304379,"lon":-2.378526,"k":"p","n":"Villeneuve","ref":"LIL25388N"},
+  {"id":1705869560,"lat":47.304333,"lon":-2.378823,"k":"p","n":"Villeneuve","ref":"LIL25388O"},
+  {"id":1705880093,"lat":47.345876,"lon":-2.399804,"k":"p","n":"Petit-Poissevin","ref":"LIL10613N"},
+  {"id":1705880107,"lat":47.345771,"lon":-2.399686,"k":"p","n":"Petit-Poissevin","ref":"LIL10613O"},
+  {"id":1705883725,"lat":47.301275,"lon":-2.371297,"k":"p","n":"Saint-Servais","ref":"LIL10660N"},
+  {"id":1705883732,"lat":47.301128,"lon":-2.3713,"k":"p","n":"Saint-Servais","ref":"LIL10660O"},
+  {"id":1705885057,"lat":47.302679,"lon":-2.383131,"k":"p","n":"Kerquessaud","ref":"LIL10648O"},
+  {"id":8168972969,"lat":47.333396,"lon":-2.379582,"k":"p"},
+  {"id":12320867761,"lat":47.302571,"lon":-2.373115,"k":"p","n":"Ker Rvaud","ref":"LIL25388O"},
+  {"id":6079312870220,"lat":47.300113,"lon":-2.386078,"k":"p","n":"Haut Brivin","g":1}
+],
+"routes":[
+  {"id":2122361,"t":{"ref":"N","name":"Car Ligne N La Baule Bus : Saint-Servais -> Mairie du Guézy","from":"Saint-Servais","to":"Mairie du Guézy","network":"Lila Presqu'île","operator":"Keolis Atlantique","colour":"#9C8700","route":"bus","public_transport:version":"1"},"n":7,"s":[[1705868582,4]]},
+  {"id":2122362,"t":{"ref":"N","name":"Car Ligne N La Baule Bus : Mairie du Guézy -> Saint-Servais","network":"Lila Presqu'île","operator":"Keolis Atlantique","colour":"#9C8700","route":"bus","public_transport:version":"2"},"n":8,"s":[[1705868621,4],[1705885057,8]]},
+  {"id":2130936,"t":{"ref":"2","name":"Car Ligne 2 : Saint-Nazaire <-> Guérande <-> Herbignac","network":"Lila Presqu'île","operator":"Transdev","colour":"#e2101a","route":"bus","public_transport:version":"2","bus":"long_distance"},"n":11,"s":[[1705880093,7],[1705880107,10]]},
+  {"id":2131039,"t":{"ref":"20","name":"Ligne 20 La Baule Bus : Gare de Pornichet <-> Place des Palmiers","network":"Lila Presqu'île","operator":"Maury","route":"bus","public_transport:version":"1","bus":"urban"},"n":22,"s":[[1705869560,1],[1705883725,3],[1705883732,7],[1705885057,8],[1705869538,11],[1705868621,13],[1705868582,20]]},
+  {"id":3000936713263,"t":{"ref":"2","name":"2: Gare de St Nazaire - Brière","from":"Gare de St Nazaire","to":"Brière","operator":"Lila","route":"bus","public_transport:version":"2"},"n":23,"s":[[1705880093,10]]},
+  {"id":3003427918961,"t":{"ref":"20Ouest","name":"20Ouest: Gare SNCF Sud - Gare SNCF Sud","from":"Gare SNCF Sud","to":"Gare SNCF Sud","operator":"Lila","route":"bus","public_transport:version":"2"},"n":35,"s":[[6079312870220,4],[1705885057,5],[1705869560,6],[12320867761,7],[1705883732,8]]},
+  {"id":3027182749574,"t":{"ref":"2","name":"2: Gare de St Nazaire - Brière","from":"Gare de St Nazaire","to":"Brière","operator":"Lila","route":"bus","public_transport:version":"2"},"n":23,"s":[[1705880093,10]]},
+  {"id":3060668330325,"t":{"ref":"2","name":"2: Ranrouët - Gare de St Nazaire","from":"Ranrouët","to":"Gare de St Nazaire","operator":"Lila","route":"bus","public_transport:version":"2"},"n":23,"s":[[1705880093,14]]},
+  {"id":3095041570973,"t":{"ref":"2","name":"2: Ranrouët - Gare de St Nazaire","from":"Ranrouët","to":"Gare de St Nazaire","operator":"Lila","route":"bus","public_transport:version":"2"},"n":23,"s":[[1705880093,14]]}
+]
+}

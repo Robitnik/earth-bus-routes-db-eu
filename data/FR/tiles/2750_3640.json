@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2750,3640],
+"stops":[
+  {"id":6790230047,"lat":47.534114,"lon":2.033458,"k":"p","n":"SNCF"},
+  {"id":10793079482,"lat":47.534053,"lon":2.033712,"k":"p","n":"SNCF"},
+  {"id":11253938244,"lat":47.536615,"lon":2.038423,"k":"p"}
+],
+"routes":[
+  {"id":20722530,"t":{"ref":"3","name":"Ligne 3 Salbris → Blois","from":"SNCF (Salbris)","to":"SNCF - Gare Routière (Blois)","network":"Rémi","operator":"Rémi","colour":"#2eab4e","route":"bus"},"n":35,"s":[[10793079482,3]]},
+  {"id":20722531,"t":{"ref":"3","name":"Ligne 3 Blois → Salbris","from":"SNCF - Gare Routière (Blois)","to":"SNCF (Salbris)","network":"Rémi","operator":"Rémi","colour":"#2eab4e","route":"bus"},"n":30,"s":[[6790230047,3]]},
+  {"id":20734042,"t":{"ref":"429","name":"Ligne 429 Romorantin → Nouan-le-Fuzelier","from":"SNCF (Romorantin-Lanthenay)","to":"SNCF (Nouan-le-Fuzelier)","network":"Rémi","colour":"#eac63a","route":"bus"},"n":6,"s":[[6790230047,6]]},
+  {"id":20734043,"t":{"ref":"429","name":"Ligne 429 Nouan-le-Fuzelier → Romorantin","from":"SNCF (Nouan-le-Fuzelier)","to":"SNCF (Romorantin-Lanthenay)","network":"Rémi","colour":"#eac63a","route":"bus"},"n":5,"s":[[10793079482,5]]}
+]
+}

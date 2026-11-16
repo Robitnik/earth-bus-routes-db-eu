@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2662,3615],
+"stops":[
+  {"id":2429433785,"lat":43.132196,"lon":0.781906,"k":"p","n":"École de Landorthe"},
+  {"id":2429433786,"lat":43.104397,"lon":0.785948,"k":"p","n":"Église Estancabon"},
+  {"id":2429433802,"lat":43.105474,"lon":0.78582,"k":"p"},
+  {"id":12590480420,"lat":43.132118,"lon":0.781892,"k":"p","n":"École"},
+  {"id":12612369887,"lat":43.11747,"lon":0.760606,"k":"p","n":"Centre Leclerc"},
+  {"id":12612369888,"lat":43.11743,"lon":0.760679,"k":"x","n":"Estancarbon - Centre Leclerc"},
+  {"id":13812042515,"lat":43.113904,"lon":0.758515,"k":"p","n":"Aire de covoiturage"},
+  {"id":13812047009,"lat":43.113968,"lon":0.758373,"k":"p","n":"Aire de covoiturage"},
+  {"id":13812131671,"lat":43.112729,"lon":0.754793,"k":"p","n":"Futuropôle"},
+  {"id":6027412929797,"lat":43.114323,"lon":0.781824,"k":"p","n":"LANDORTHE - Zone Europa","g":1},
+  {"id":6045587018753,"lat":43.114668,"lon":0.768175,"k":"p","n":"ESTANCARBON - Bd des Landes 2","g":1},
+  {"id":6049408548142,"lat":43.115114,"lon":0.760737,"k":"p","n":"ESTANCARBON - Bd des Landes 1","g":1},
+  {"id":6072092258686,"lat":43.113018,"lon":0.768911,"k":"p","n":"ESTANCARBON - Av. de Béguine","g":1}
+],
+"routes":[
+  {"id":18709262,"t":{"ref":"316","name":"Car ligne 316 : Saint-Gaudens - Jardin Public => Betchat - Place","from":"Jardin Public","to":"Betchat - Place","network":"liO","operator":"liO Occitanie 31","colour":"#EC0975","route":"bus","public_transport:version":"2"},"n":11,"s":[[12590480420,2]]},
+  {"id":18709263,"t":{"ref":"316","name":"Car ligne 316 : Betchat - Place => Saint-Gaudens - Jardin Public","from":"Betchat - Place","to":"Jardin Public","network":"liO","operator":"liO Occitanie 31","colour":"#EC0975","route":"bus","public_transport:version":"2"},"n":11,"s":[[2429433785,10]]},
+  {"id":18742981,"t":{"ref":"317","name":"Car ligne 317 : Saint-Gaudens - Renaissance => Estancarbon - Centre Leclerc","from":"Renaissance","to":"Estancarbon - Centre Leclerc","network":"liO","operator":"liO Occitanie 31","colour":"#4D499D","route":"bus","public_transport:version":"2"},"n":3,"s":[[12612369887,3]]},
+  {"id":18742982,"t":{"ref":"317","name":"Car ligne 317: Estancarbon - Centre Leclerc => Bachas - Église","from":"Estancarbon - Centre Leclerc","to":"Bachas - Église","network":"liO","operator":".liO 31","colour":"#4D499D","route":"bus","public_transport:version":"2"},"n":12,"s":[[12612369887,1]]},
+  {"id":3012337359818,"t":{"ref":"A","name":"A: LANDORTHE - Zone Europa - SAINT-GAUDENS - Bd Charles de Gaulle","from":"LANDORTHE - Zone Europa","to":"SAINT-GAUDENS - Bd Charles de Gaulle","operator":".liO TIL","route":"bus","public_transport:version":"2"},"n":8,"s":[[6027412929797,1],[6049408548142,2],[6045587018753,3],[13812131671,4]]},
+  {"id":3024811750346,"t":{"ref":"A","name":"A: SAINT-GAUDENS - Bd Charles de Gaulle - LANDORTHE - Zone Europa","from":"SAINT-GAUDENS - Bd Charles de Gaulle","to":"LANDORTHE - Zone Europa","operator":".liO TIL","route":"bus","public_transport:version":"2"},"n":14,"s":[[12612369888,10],[6049408548142,11],[6045587018753,12],[6072092258686,13],[6027412929797,14]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2675,3680],
+"stops":[
+  {"id":275871924,"lat":43.792545,"lon":4.02455,"k":"x","n":"Coopérative"},
+  {"id":1642669551,"lat":43.769979,"lon":4.002325,"k":"x","n":"Fontbonne"},
+  {"id":2042880819,"lat":43.755632,"lon":4.011857,"k":"x","n":"Saint-Hilaire-de-Beauvoir - Centre"},
+  {"id":2298599273,"lat":43.771679,"lon":4.01036,"k":"p","n":"Cave Coopérative","ref":"111"},
+  {"id":2298599274,"lat":43.770396,"lon":4.020969,"k":"p","n":"Poste"},
+  {"id":2298599288,"lat":43.770068,"lon":4.002284,"k":"p","n":"Fontbonne"},
+  {"id":2298599300,"lat":43.770328,"lon":4.004961,"k":"p","n":"Église","ref":"111"},
+  {"id":5059072904,"lat":43.771628,"lon":4.010302,"k":"p","n":"Cave Coopérative","ref":"111"},
+  {"id":6419609379,"lat":43.795004,"lon":4.014018,"k":"p","n":"École"},
+  {"id":6419609897,"lat":43.795123,"lon":4.01397,"k":"p","n":"École"},
+  {"id":9081843324,"lat":43.770303,"lon":4.020886,"k":"p","n":"Poste"},
+  {"id":9081843325,"lat":43.770368,"lon":4.020968,"k":"x","n":"Poste"},
+  {"id":9081846321,"lat":43.787554,"lon":4.030162,"k":"p","n":"Mairie"},
+  {"id":9081846322,"lat":43.787532,"lon":4.030033,"k":"x","n":"Mairie"},
+  {"id":9081846329,"lat":43.792576,"lon":4.024726,"k":"p","n":"Coopérative"},
+  {"id":9081846330,"lat":43.792465,"lon":4.024588,"k":"p","n":"Coopérative"},
+  {"id":9081846331,"lat":43.795044,"lon":4.014026,"k":"x","n":"École"},
+  {"id":9312462670,"lat":43.771654,"lon":4.010344,"k":"x","n":"Cave Coopérative"},
+  {"id":9670184490,"lat":43.755647,"lon":4.011775,"k":"p","n":"Saint-Hilaire-de-Beauvoir - Centre"},
+  {"id":9876706074,"lat":43.769721,"lon":4.003829,"k":"x","n":"École"},
+  {"id":9876706075,"lat":43.769709,"lon":4.003884,"k":"p","n":"École"}
+],
+"routes":[
+  {"id":13194112,"t":{"ref":"L6","name":"Bus L6 : Galargues→Garrigues→Campagne→Sommières","from":"Poste","to":"Place des Aires","network":"Transports intercommunaux du Pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#7B3E90","route":"bus","public_transport:version":"2"},"n":6,"s":[[9081843324,1],[6419609379,2],[9081846330,3],[9081846321,4]]},
+  {"id":13194113,"t":{"ref":"L6","name":"Bus L6 : Sommières→Campagne→Garrigues→Galargues","from":"Place des Aires","to":"Poste","network":"Transports intercommunaux du Pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#7B3E90","route":"bus","public_transport:version":"2"},"n":6,"s":[[9081846321,3],[9081846329,4],[6419609897,5],[2298599274,6]]},
+  {"id":14336371,"t":{"ref":"611","name":"Ligne 611 : Campagne → Castenlnau-Le-Lez","from":"Campagne - Mairie","to":"Castenlnau-Le-Lez - Georges Pompidou","network":"liO","operator":"liO","colour":"#7d2f92","route":"bus","public_transport:version":"2"},"n":22,"s":[[9081846321,1],[6419609897,2],[2298599274,3],[9670184490,4]]},
+  {"id":14336719,"t":{"ref":"611","name":"Ligne 611 : Castelnau-Le-Lez → Campagne","from":"Castelnau-Le-Lez - Georges Pompidou","to":"Campagne - Mairie","network":"liO","operator":"liO","colour":"#7d2f92","route":"bus","public_transport:version":"2"},"n":21,"s":[[9876706075,17],[5059072904,18],[9081843324,19],[6419609379,20],[9081846321,21]]},
+  {"id":14337080,"t":{"ref":"611","name":"Ligne 611 : Buzignargues → Clapiers","from":"Buzignargues - Fontbonne","to":"Clapiers","network":"liO","operator":"liO","colour":"#7d2f92","route":"bus","public_transport:version":"2"},"n":22,"s":[[2298599288,1]]},
+  {"id":14339366,"t":{"ref":"611","name":"Ligne 611 : Castenlnau-Le-Lez → Saint-Hilaire-de-Beauvoir","from":"Castenlnau-Le-Lez - Georges Pompidou","to":"Saint-Hilaire-de-Beauvoir - Centre","network":"liO","operator":"liO","colour":"#7d2f92","route":"bus","public_transport:version":"2"},"n":16,"s":[[9670184490,16]]}
+]
+}

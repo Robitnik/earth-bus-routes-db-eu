@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2792,3709],
+"stops":[
+  {"id":3079147777,"lat":49.619379,"lon":5.456024,"k":"p","n":"Gérouville Ferme La Barrière"},
+  {"id":3079147778,"lat":49.619445,"lon":5.455814,"k":"p","n":"Gérouville Ferme La Barrière"},
+  {"id":3079148761,"lat":49.606046,"lon":5.471977,"k":"p","n":"Meix-devant-Virton Pargé"},
+  {"id":3079148762,"lat":49.606238,"lon":5.470776,"k":"p","n":"Meix-devant-Virton Pargé"}
+],
+"routes":[
+  {"id":17823872,"t":{"ref":"33","name":"Bus 33: Saint-Mard Centre Sportif → Marbehan Gare","from":"Saint-Mard Centre Sportif","to":"Marbehan Gare","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":6,"s":[[3079148762,6]]},
+  {"id":17823924,"t":{"ref":"33","name":"Bus 33: Marbehan Gare → Saint-Mard Centre Sportif","from":"Marbehan Gare","to":"Saint-Mard Centre Sportif","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":6,"s":[[3079148762,1]]},
+  {"id":18728226,"t":{"ref":"234","name":"Bus 234: Virton Arcades → Izel Athénée","from":"Virton Arcades","to":"Izel Athénée","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":25,"s":[[3079148761,1],[3079147777,2]]},
+  {"id":18728227,"t":{"ref":"234","name":"Bus 234: Izel Athénée → Virton Arcades","from":"Izel Athénée","to":"Virton Arcades","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":25,"s":[[3079147778,24],[3079148762,25]]},
+  {"id":18730280,"t":{"ref":"333","name":"Bus 333: Virton Pierrard → Gérouville Place du Tilleul","from":"Virton Pierrard","to":"Gérouville Place du Tilleul","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":4,"s":[[3079148761,1],[3079147777,2]]},
+  {"id":18730281,"t":{"ref":"333","name":"Bus 333: Gérouville Place du Tilleul → Virton Pierrard","from":"Gérouville Place du Tilleul","to":"Virton Pierrard","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":4,"s":[[3079147778,3],[3079148762,4]]}
+]
+}

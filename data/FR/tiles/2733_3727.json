@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2733,3727],
+"stops":[
+  {"id":447903420,"lat":46.690629,"lon":6.391872,"k":"p","n":"Sur la Creusaz"},
+  {"id":983805146,"lat":46.688432,"lon":6.389426,"k":"p","n":"Vaulion Centre"},
+  {"id":2409970148,"lat":46.686576,"lon":6.386656,"k":"x","n":"Vaulion Collège"},
+  {"id":2721423200,"lat":46.685259,"lon":6.387004,"k":"x","n":"Vaulion Poste"},
+  {"id":8722001012,"lat":46.686512,"lon":6.386624,"k":"p","n":"Vaulion Collège"}
+],
+"routes":[
+  {"id":12698993,"t":{"ref":"683","name":"Bus 683: Bofflens, Laiterie => Vaulion","from":"Bofflens, Laiterie","to":"Vaulion, Poste","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":3,"s":[[447903420,1],[983805146,2],[8722001012,3]]},
+  {"id":12699730,"t":{"ref":"683","name":"Bus 683: Vaulion => Croy-Romainmôtier => Orbe","from":"Vaulion, Poste","to":"Orbe, Poste","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[983805146,1],[447903420,2]]},
+  {"id":12699731,"t":{"ref":"683","name":"Bus 683: Vaulion => Bofflens, Laiterie","from":"Vaulion, Collège","to":"Bofflens, Laiterie","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":3,"s":[[8722001012,1],[983805146,2],[447903420,3]]},
+  {"id":12699732,"t":{"ref":"683","name":"Bus 683: Orbe => Croy-Romainmôtier => Vaulion","from":"Orbe, Poste","to":"Vaulion, Poste","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":2,"s":[[447903420,1],[983805146,2]]},
+  {"id":17992420,"t":{"ref":"683","name":"Bus 683: Orbe => Vaulion => Mont d'Orzeires","from":"Orbe, Poste","to":"Vallorbe, Mont d'Orzeires","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[447903420,1],[983805146,2]]},
+  {"id":17992421,"t":{"ref":"683","name":"Bus 683: Mont d'Orzeires => Vaulion => Orbe","from":"Vallorbe, Mont d'Orzeires","to":"Orbe, Poste","network":"Mobilis","operator":"PAG","colour":"#FFCC00","route":"bus","public_transport:version":"2"},"n":4,"s":[[983805146,3],[447903420,4]]}
+]
+}

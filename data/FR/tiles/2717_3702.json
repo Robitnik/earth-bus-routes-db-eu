@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2717,3702],
+"stops":[
+  {"id":4615927423,"lat":45.852942,"lon":5.143727,"k":"p"},
+  {"id":4615927766,"lat":45.851363,"lon":5.14726,"k":"p"},
+  {"id":6774645002,"lat":45.852983,"lon":5.129431,"k":"p","n":"Rond Point"},
+  {"id":6774645003,"lat":45.852999,"lon":5.129153,"k":"p","n":"Rond Point"},
+  {"id":6774645004,"lat":45.853007,"lon":5.129314,"k":"x","n":"Rond Point"},
+  {"id":11679045396,"lat":45.864596,"lon":5.145447,"k":"p"},
+  {"id":12059480551,"lat":45.867189,"lon":5.128175,"k":"p","n":"Béligneux Village"},
+  {"id":6008523142121,"lat":45.852996,"lon":5.11444,"k":"p","n":"ZAE 2 B NORD (DIRECTION DAGNEUX)","g":1},
+  {"id":6010957470532,"lat":45.85259,"lon":5.128738,"k":"p","n":"La Valbonne Rond-point","g":1},
+  {"id":6012038995144,"lat":45.852271,"lon":5.129287,"k":"p","n":"MAIRIE (DIRECTION BELIGNEUX)","g":1},
+  {"id":6012495899474,"lat":45.852996,"lon":5.11444,"k":"p","n":"ZAE 2 B NORD (DIRECTION BELIGNEUX)","g":1},
+  {"id":6032016884650,"lat":45.852271,"lon":5.129287,"k":"p","n":"MAIRIE (DIRECTION BELIGNEUX)","g":1},
+  {"id":6036755785033,"lat":45.851431,"lon":5.113147,"k":"p","n":"ZAE 2 B SUD (DIRECTION BELIGNEUX)","g":1},
+  {"id":6041495160599,"lat":45.852011,"lon":5.129317,"k":"p","n":"MAIRIE (DIRECTION DAGNEUX)","g":1},
+  {"id":6042434789990,"lat":45.85259,"lon":5.128738,"k":"p","n":"La Valbonne Rond-point","g":1},
+  {"id":6055857589264,"lat":45.852996,"lon":5.11444,"k":"p","n":"ZAE 2 B NORD (DIRECTION DAGNEUX)","g":1},
+  {"id":6062265042676,"lat":45.851431,"lon":5.113147,"k":"p","n":"ZAE 2 B SUD (DIRECTION BELIGNEUX)","g":1},
+  {"id":6066189287619,"lat":45.851411,"lon":5.113146,"k":"p","n":"ZAE 2 B SUD (DIRECTION DAGNEUX)","g":1},
+  {"id":6069111114547,"lat":45.852011,"lon":5.129317,"k":"p","n":"MAIRIE (DIRECTION DAGNEUX)","g":1},
+  {"id":6074021585895,"lat":45.852996,"lon":5.11444,"k":"p","n":"ZAE 2 B NORD (DIRECTION BELIGNEUX)","g":1},
+  {"id":6092106993496,"lat":45.851411,"lon":5.113146,"k":"p","n":"ZAE 2 B SUD (DIRECTION DAGNEUX)","g":1}
+],
+"routes":[
+  {"id":17847692,"t":{"ref":"TICO bus","name":"Ligne TICO bus : Béligneux Village -> Mairie Dagneux","from":"Béligneux Village","to":"Mairie Dagneux","network":"TICO","operator":"Philibert","colour":"#ca482c","route":"bus"},"n":2,"s":[[12059480551,1]]},
+  {"id":17847693,"t":{"ref":"TICO bus","name":"Ligne TICO bus : Mairie Dagneux -> Béligneux Village","from":"Mairie Dagneux","to":"Béligneux Village","network":"TICO","operator":"Philibert","colour":"#ca482a","route":"bus"},"n":3,"s":[[12059480551,1]]},
+  {"id":3006833700028,"t":{"ref":"TICO","name":"TICO: VILLAGE (DIRECTION DAGNEUX) - MAIRIE (DIRECTION DAGNEUX)","from":"VILLAGE (DIRECTION DAGNEUX)","to":"MAIRIE (DIRECTION DAGNEUX)","operator":"MONTLUEL - TICO 3CM","route":"bus","public_transport:version":"2"},"n":22,"s":[[12059480551,1],[6069111114547,2],[6055857589264,4],[6092106993496,5]]},
+  {"id":3016665718002,"t":{"ref":"A32","name":"Ligne A32 : Bourg-en-Bresse -> Lyon","from":"Carré Amiot","to":"Lyon","network":"Cars Région Ain","operator":"Philibert","colour":"purple","route":"bus","public_transport:version":"2"},"n":79,"s":[[6774645003,25]]},
+  {"id":3032223067837,"t":{"ref":"A32","name":"Ligne A32 : Lyon -> Bourg-en-Bresse","from":"Lyon","to":"Carré Amiot","network":"Cars Région Ain","operator":"Philibert","colour":"purple","route":"bus","public_transport:version":"2"},"n":76,"s":[[6042434789990,51]]},
+  {"id":3033469687794,"t":{"ref":"A32","name":"Ligne A32 : Lyon -> Bourg-en-Bresse","from":"Lyon","to":"Carré Amiot","network":"Cars Région Ain","operator":"Philibert","colour":"purple","route":"bus","public_transport:version":"2"},"n":76,"s":[[6010957470532,51]]},
+  {"id":3038675076103,"t":{"ref":"TICO","name":"TICO: VILLAGE (DIRECTION DAGNEUX) - MAIRIE (DIRECTION DAGNEUX)","from":"VILLAGE (DIRECTION DAGNEUX)","to":"MAIRIE (DIRECTION DAGNEUX)","operator":"MONTLUEL - TICO 3CM","route":"bus","public_transport:version":"2"},"n":22,"s":[[12059480551,1],[6041495160599,2],[6008523142121,4],[6066189287619,5]]},
+  {"id":3048584441528,"t":{"ref":"TICO","name":"TICO: MAIRIE (DIRECTION BELIGNEUX) - VILLAGE (DIRECTION BELIGNEUX)","from":"MAIRIE (DIRECTION BELIGNEUX)","to":"VILLAGE (DIRECTION BELIGNEUX)","operator":"MONTLUEL - TICO 3CM","route":"bus","public_transport:version":"2"},"n":22,"s":[[6074021585895,18],[6062265042676,19],[6032016884650,21],[12059480551,22]]},
+  {"id":3082099936702,"t":{"ref":"A32","name":"Ligne A32 : Bourg-en-Bresse -> Lyon","from":"Carré Amiot","to":"Lyon","network":"Cars Région Ain","operator":"Philibert","colour":"purple","route":"bus","public_transport:version":"2"},"n":79,"s":[[6774645003,25]]},
+  {"id":3087709727930,"t":{"ref":"TICO","name":"TICO: MAIRIE (DIRECTION BELIGNEUX) - VILLAGE (DIRECTION BELIGNEUX)","from":"MAIRIE (DIRECTION BELIGNEUX)","to":"VILLAGE (DIRECTION BELIGNEUX)","operator":"MONTLUEL - TICO 3CM","route":"bus","public_transport:version":"2"},"n":22,"s":[[6012495899474,18],[6036755785033,19],[6012038995144,21],[12059480551,22]]}
+]
+}

@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2766,3660],
+"stops":[
+  {"id":3101545134,"lat":48.329127,"lon":3.000479,"k":"p","n":"Fresnes"},
+  {"id":4320073287,"lat":48.344194,"lon":3.019854,"k":"p","n":"Mairie"},
+  {"id":5542862985,"lat":48.343694,"lon":3.023584,"k":"p","n":"Château"},
+  {"id":5542862986,"lat":48.345326,"lon":3.019791,"k":"p","n":"École"},
+  {"id":5542862987,"lat":48.344938,"lon":3.016487,"k":"p","n":"Rue des Sablons"},
+  {"id":5542863014,"lat":48.329292,"lon":3.000872,"k":"p","n":"Fresnes"},
+  {"id":5542863015,"lat":48.344956,"lon":3.016406,"k":"p","n":"Rue des Sablons"},
+  {"id":5542863019,"lat":48.339981,"lon":3.026819,"k":"p","n":"Route de Chevinois"},
+  {"id":5542863020,"lat":48.337179,"lon":3.032427,"k":"p","n":"Hameau de Chevinois"}
+],
+"routes":[
+  {"id":4074278,"t":{"ref":"3310","name":"Bus 3310 : Gare de Montereau-Fault-Yonne → Route de Chevinois","from":"Montereau SNCF","to":"Barbey","network":"Pays de Montereau","operator":"Francilité Pays de Montereau","colour":"#006DB8","route":"bus","public_transport:version":"2"},"n":5,"s":[[3101545134,4],[4320073287,5]]},
+  {"id":4074279,"t":{"ref":"3311","name":"Bus 3311 : Montereau Église → Hameau de Chevinois","from":"Gare de Montereau","to":"Chateau de Barbey","network":"Pays de Montereau","operator":"Francilité Pays de Montereau","colour":"#87D3DF","route":"bus","public_transport:version":"2"},"n":22,"s":[[3101545134,16],[5542862987,17],[5542862986,18],[5542863020,19],[5542862985,20],[5542863019,21],[4320073287,22]]},
+  {"id":8123025,"t":{"ref":"3311","name":"Bus 3311 : Hameau de Chevinois → Montereau Église","from":"Chateau de Barbey","to":"Gare de Montereau","network":"Pays de Montereau","operator":"Francilité Pays de Montereau","colour":"#87D3DF","route":"bus","public_transport:version":"2"},"n":21,"s":[[5542863020,1],[5542863019,3],[5542862986,4],[5542862985,5],[4320073287,6],[5542863015,7],[5542863014,8]]},
+  {"id":8123026,"t":{"ref":"3310","name":"Bus 3310 : Route de Chevinois → Gare de Montereau-Fault-Yonne","from":"Barbey","to":"Montereau SNCF","network":"Pays de Montereau","operator":"Francilité Pays de Montereau","colour":"#006DB8","route":"bus","public_transport:version":"2"},"n":4,"s":[[3101545134,4]]}
+]
+}

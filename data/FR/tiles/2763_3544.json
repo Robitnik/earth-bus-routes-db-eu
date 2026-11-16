@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2763,3544],
+"stops":[
+  {"id":4164997150,"lat":48.177826,"lon":-2.757781,"k":"p","n":"Loudéac - Champ de Foire"},
+  {"id":5809834304,"lat":48.172991,"lon":-2.752834,"k":"p","n":"Bd Victor Etienne"},
+  {"id":5809847330,"lat":48.174659,"lon":-2.750858,"k":"p","n":"Route de la Chèze"},
+  {"id":5935288469,"lat":48.180373,"lon":-2.76258,"k":"p","n":"Loudéac - Gare SNCF"},
+  {"id":5935288479,"lat":48.161634,"lon":-2.754256,"k":"p","n":"Zi Sud Hippodrome"},
+  {"id":5935288798,"lat":48.161625,"lon":-2.754457,"k":"p","n":"Zi Sud Hippodrome"},
+  {"id":8137899697,"lat":48.191437,"lon":-2.76217,"k":"p","n":"Ker Hervé"},
+  {"id":8137899698,"lat":48.191462,"lon":-2.76232,"k":"p","n":"Ker Hervé"},
+  {"id":13830975808,"lat":48.19758,"lon":-2.75345,"k":"p","n":"La Fourchette - Vers Saint-Brieuc"},
+  {"id":13830975809,"lat":48.197596,"lon":-2.753675,"k":"p","n":"La Fourchette - Vers Vannes/Lorient"}
+],
+"routes":[
+  {"id":8751534,"t":{"ref":"LRRNav4","name":"Car BreizhGo Saint-Brieuc <> Loudéac <>Pontivy <> Lorient","from":"Saint-Brieuc","to":"Lorient","network":"BreizhGo","operator":"Keolis Armor","route":"bus","public_transport:version":"2"},"n":12,"s":[[5935288469,5],[5935288798,6]]},
+  {"id":8759380,"t":{"ref":"LRRNav4","name":"Car BreizhGo Saint-Brieuc <> Loudéac <>Pontivy <> Lorient","from":"Saint-Brieuc","to":"Vannes","network":"BreizhGo","operator":"Keolis Armor","route":"bus","public_transport:version":"2"},"n":15,"s":[[5935288469,4],[5935288798,5],[13830975809,13],[13830975808,14]]},
+  {"id":14194690,"t":{"ref":"220","name":"Car BreizhGo 20 Loudéac - Rostrenen - Carhaix : Loudéac (Gare) => Carhaix-Plouguer (Gare)","from":"Loudéac (Gare)","to":"Carhaix-Plouguer (Gare)","network":"BREIZHGO_CAR_22","operator":"CAT 22;Voyage Rouillard;Jézéquel Tourisme;CAT 29 (CFTA);Keolis Armor","colour":"#7E7DAB","route":"bus","public_transport:version":"2"},"n":27,"s":[[4164997150,1],[8137899697,2]]},
+  {"id":21273914,"t":{"ref":"220","name":"Car BreizhGo 220 Loudéac - Rostrenen - Carhaix : Loudéac (Champ de Foire) => Carhaix-Plouguer (Gare SNCF)","from":"Loudéac (Champ de Foire)","to":"Carhaix-Plouguer (Gare SNCF)","network":"BREIZHGO_CAR_56","operator":"Transdev - Compagnie de Transport du Morbihan","colour":"#FFB3B3","route":"bus","public_transport:version":"2"},"n":31,"s":[[4164997150,1],[8137899697,2]]},
+  {"id":21273915,"t":{"ref":"220","name":"Car BreizhGo 220 Loudéac - Rostrenen - Carhaix : Carhaix-Plouguer (Gare SNCF) => Loudéac (Champ de Foire)","from":"Carhaix-Plouguer (Gare SNCF)","to":"Loudéac (Champ de Foire)","network":"BREIZHGO_CAR_56","operator":"Transdev - Compagnie de Transport du Morbihan","colour":"#FFB3B3","route":"bus","public_transport:version":"2"},"n":33,"s":[[8137899698,32],[4164997150,33]]},
+  {"id":3027159538726,"t":{"ref":"229","name":"229: Gare routière - Gare SNCF","from":"Gare routière","to":"Gare SNCF","operator":"BreizhGo en Ille-et-Vilaine","route":"bus","public_transport:version":"2"},"n":10,"s":[[4164997150,6]]},
+  {"id":3047523715345,"t":{"ref":"603","name":"603: Gare SNCF - Place de la Libération","from":"Gare SNCF","to":"Place de la Libération","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":22,"s":[[13830975809,7],[4164997150,8],[5935288798,9]]},
+  {"id":3052752305225,"t":{"ref":"603","name":"603: Gare SNCF - Place de la Libération","from":"Gare SNCF","to":"Place de la Libération","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":22,"s":[[13830975809,7],[4164997150,8],[5935288798,9]]},
+  {"id":3055423504847,"t":{"ref":"603","name":"603: Gare SNCF - Place de la Libération","from":"Gare SNCF","to":"Place de la Libération","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":19,"s":[[13830975809,7],[4164997150,8],[5935288798,9]]},
+  {"id":3059718154754,"t":{"ref":"603","name":"603: Place de la Libération - Gare SNCF","from":"Place de la Libération","to":"Gare SNCF","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":17,"s":[[5935288479,9],[4164997150,10],[13830975808,11]]},
+  {"id":3059748074785,"t":{"ref":"603","name":"603: Gare SNCF - Place de la Libération","from":"Gare SNCF","to":"Place de la Libération","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":19,"s":[[13830975809,7],[4164997150,8],[5935288798,9]]},
+  {"id":3074056758495,"t":{"ref":"229","name":"229: Gare SNCF - Gare routière","from":"Gare SNCF","to":"Gare routière","operator":"BreizhGo en Ille-et-Vilaine","route":"bus","public_transport:version":"2"},"n":10,"s":[[4164997150,5]]},
+  {"id":3076118793850,"t":{"ref":"603","name":"603: Place de la Libération - Gare SNCF","from":"Place de la Libération","to":"Gare SNCF","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":22,"s":[[5935288479,14],[4164997150,15],[13830975808,16]]},
+  {"id":3078758909910,"t":{"ref":"603","name":"603: Place de la Libération - Gare SNCF","from":"Place de la Libération","to":"Gare SNCF","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":18,"s":[[5935288479,10],[4164997150,11],[13830975808,12]]},
+  {"id":3083569078411,"t":{"ref":"229","name":"229: Gare SNCF - Gare routière","from":"Gare SNCF","to":"Gare routière","operator":"BreizhGo en Ille-et-Vilaine","route":"bus","public_transport:version":"2"},"n":10,"s":[[4164997150,5]]},
+  {"id":3083882670838,"t":{"ref":"229","name":"229: Gare routière - Gare SNCF","from":"Gare routière","to":"Gare SNCF","operator":"BreizhGo en Ille-et-Vilaine","route":"bus","public_transport:version":"2"},"n":10,"s":[[4164997150,6]]},
+  {"id":3084349323178,"t":{"ref":"603","name":"603: Place de la Libération - Gare SNCF","from":"Place de la Libération","to":"Gare SNCF","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":22,"s":[[5935288479,14],[4164997150,15],[13830975808,16]]},
+  {"id":3084936564148,"t":{"ref":"229","name":"229: Gare routière - Gare SNCF","from":"Gare routière","to":"Gare SNCF","operator":"BreizhGo en Ille-et-Vilaine","route":"bus","public_transport:version":"2"},"n":10,"s":[[4164997150,6]]},
+  {"id":3090281977225,"t":{"ref":"603","name":"603: Place de la Libération - Gare SNCF","from":"Place de la Libération","to":"Gare SNCF","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":18,"s":[[5935288479,10],[4164997150,11],[13830975808,12]]},
+  {"id":3090767216393,"t":{"ref":"603","name":"603: Place de la Libération - Gare SNCF","from":"Place de la Libération","to":"Gare SNCF","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":17,"s":[[5935288479,9],[4164997150,10],[13830975808,11]]},
+  {"id":3091251916209,"t":{"ref":"603","name":"603: Gare SNCF - Place de la Libération","from":"Gare SNCF","to":"Place de la Libération","operator":"BreizhGo en Morbihan","route":"bus","public_transport:version":"2"},"n":18,"s":[[13830975809,7],[4164997150,8],[5935288798,9]]},
+  {"id":3096347142787,"t":{"ref":"229","name":"229: Gare SNCF - Gare routière","from":"Gare SNCF","to":"Gare routière","operator":"BreizhGo en Ille-et-Vilaine","route":"bus","public_transport:version":"2"},"n":10,"s":[[4164997150,5]]}
+]
+}

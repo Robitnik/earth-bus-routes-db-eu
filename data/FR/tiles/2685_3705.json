@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2685,3705],
+"stops":[
+  {"id":417019267,"lat":44.2652,"lon":5.261504,"k":"x","n":"Buis-les-Baronnies - La Palun"},
+  {"id":1636422988,"lat":44.277928,"lon":5.273683,"k":"x","n":"Buis-les-Baronnies - Collège Henri Barbusse"},
+  {"id":1925035490,"lat":44.253928,"lon":5.254321,"k":"x","n":"Buis-les-Baronnies - Cost"},
+  {"id":1946149160,"lat":44.274937,"lon":5.271973,"k":"x","n":"Buis-les-Baronnies - Pharmacie"},
+  {"id":1946149165,"lat":44.275184,"lon":5.272263,"k":"x","n":"Buis-les-Baronnies - Boulevard Michel Eysseric"},
+  {"id":6716129763,"lat":44.253889,"lon":5.25437,"k":"p","n":"Buis-les-Baronnies - Cost"},
+  {"id":6716129764,"lat":44.254071,"lon":5.254223,"k":"p","n":"Buis-les-Baronnies - Cost"},
+  {"id":6716135853,"lat":44.275184,"lon":5.272335,"k":"p","n":"Buis-les-Baronnies - Boulevard Michel Eysseric"},
+  {"id":6716135854,"lat":44.274974,"lon":5.271957,"k":"p","n":"Buis-les-Baronnies - Pharmacie"},
+  {"id":6716135855,"lat":44.265204,"lon":5.261421,"k":"p","n":"Buis-les-Baronnies - La Palun"},
+  {"id":6716135856,"lat":44.265196,"lon":5.261579,"k":"p","n":"Buis-les-Baronnies - La Palun"},
+  {"id":9925236251,"lat":44.277952,"lon":5.273657,"k":"p","n":"Buis-les-Baronnies - Collège Henri Barbusse"},
+  {"id":9925236252,"lat":44.277374,"lon":5.277076,"k":"x","n":"Buis-les-Baronnies - Platanes"},
+  {"id":9930165027,"lat":44.254049,"lon":5.254284,"k":"x","n":"Buis-les-Baronnies - Cost"},
+  {"id":9930165033,"lat":44.275016,"lon":5.272069,"k":"x","n":"Buis-les-Baronnies - Pharmacie"},
+  {"id":13471857205,"lat":44.277359,"lon":5.277132,"k":"p","n":"Buis-les-Baronnies - Platanes"}
+],
+"routes":[
+  {"id":9928187,"t":{"ref":"D39","name":"Bus D39 : Lachau => Nyons","from":"Lachau","to":"Nyons","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":25,"s":[[13471857205,14],[6716135854,15],[6716135855,16],[6716129764,17]]},
+  {"id":9928188,"t":{"ref":"D39","name":"Bus D39 : Vaison-la-Romaine => Nyons => Lachau","from":"Vaison-la-Romaine","to":"Lachau","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":27,"s":[[6716129763,10],[6716135856,11],[6716135853,12],[13471857205,13]]},
+  {"id":14420280,"t":{"ref":"D39","name":"Bus D39 : Buis-les-Baronnies - Boulevard Eysseric => Lachau","from":"Buis-les-Baronnies - Boulevard Eysseric","to":"Lachau","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":14,"s":[[6716135853,1],[13471857205,2]]},
+  {"id":14420281,"t":{"ref":"D39","name":"Bus D39 : Nyons => Lachau","from":"Nyons","to":"Lachau","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":25,"s":[[6716129763,8],[6716135856,9],[6716135853,10],[13471857205,11]]},
+  {"id":14420282,"t":{"ref":"D39","name":"Bus D39 : Buis-les-Baronnies - Allée des Platanes => Lachau","from":"Buis-les-Baronnies - Allée des Platanes","to":"Lachau","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":17,"s":[[13471857205,1],[9925236251,2],[6716135854,3]]},
+  {"id":14420283,"t":{"ref":"D39","name":"Bus D39 : Nyons => Buis-les-Baronnies - Collège","from":"Nyons","to":"Buis-les-Baronnies - Collège","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":11,"s":[[6716129763,8],[6716135856,9],[6716135853,10],[9925236251,11]]},
+  {"id":14431503,"t":{"ref":"D39","name":"Bus D39 : Buis-les-Baronnies - Collège => Nyons","from":"Buis-les-Baronnies - Collège","to":"Nyons","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":12,"s":[[9925236251,1],[6716135854,2],[13471857205,3],[6716135855,4],[6716129764,5]]},
+  {"id":14431504,"t":{"ref":"D39","name":"Bus D39 : Buis-les-Baronnies - Collège => Vaison-la-Romaine","from":"Buis-les-Baronnies - Collège","to":"Vaison-la-Romaine","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":9,"s":[[9925236251,1],[6716135854,2],[6716135855,3],[6716129764,4]]},
+  {"id":14431505,"t":{"ref":"D39","name":"Bus D39 : Lachau => Buis-les-Baronnies","from":"Lachau","to":"Buis-les-Baronnies","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":15,"s":[[13471857205,15]]},
+  {"id":14431506,"t":{"ref":"D39","name":"Bus D39 : Buis-les-Baronnies - Pharmacie => Nyons","from":"Buis-les-Baronnies - Pharmacie","to":"Nyons","network":"Cars Région Drôme","operator":"Les Autocars du Petit Nice","colour":"#9b0000","route":"bus","public_transport:version":"2"},"n":12,"s":[[6716135854,1],[13471857205,2],[6716135855,3],[6716129764,4]]},
+  {"id":19564915,"t":{"ref":"904","name":"Bus 904 : Buis-les-Baronnies => Vaison-la-Romaine => Orange","from":"Buis-les-Baronnies","to":"Orange","network":"Zou !","operator":"Autocars Lieutaud","colour":"#f8bca7","route":"bus","public_transport:version":"2"},"n":16,"s":[[9925236251,1]]},
+  {"id":19564916,"t":{"ref":"904","name":"Bus 904 : Orange => Vaison-la-Romaine => Buis-les-Baronnies","from":"Orange","to":"Buis-les-Baronnies","network":"Zou !","operator":"Autocars Lieutaud","colour":"#f8bca7","route":"bus","public_transport:version":"2"},"n":16,"s":[[9925236251,16]]}
+]
+}

@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2783,3716],
+"stops":[
+  {"id":597414873,"lat":49.164117,"lon":5.839604,"k":"p","n":"ZAC Conflans"},
+  {"id":597414877,"lat":49.164196,"lon":5.839556,"k":"p","n":"ZAC Conflans"},
+  {"id":2560748716,"lat":49.198481,"lon":5.846513,"k":"x"},
+  {"id":6362053184,"lat":49.198647,"lon":5.846341,"k":"x"},
+  {"id":7319881680,"lat":49.164447,"lon":5.835799,"k":"x"},
+  {"id":13025222387,"lat":49.164427,"lon":5.835835,"k":"p","n":"Locomotive CC 14161"},
+  {"id":13025222388,"lat":49.165332,"lon":5.84549,"k":"p","n":"Pross"},
+  {"id":13025222389,"lat":49.165195,"lon":5.844265,"k":"p","n":"Pross"},
+  {"id":13025222390,"lat":49.166073,"lon":5.848993,"k":"p","n":"Logis Conflanais"},
+  {"id":13025222391,"lat":49.166038,"lon":5.848234,"k":"p","n":"Logis Conflanais"},
+  {"id":6023039438912,"lat":49.163925,"lon":5.838589,"k":"p","n":"CONFLANS EN JARNISY ZAC de Conflans","g":1},
+  {"id":6023508462411,"lat":49.164982,"lon":5.843567,"k":"p","n":"CONFLANS EN JARNISY Pross","g":1},
+  {"id":6024470086088,"lat":49.163925,"lon":5.838589,"k":"p","n":"CONFLANS EN JARNISY ZAC de Conflans","g":1},
+  {"id":6067452079994,"lat":49.164982,"lon":5.843567,"k":"p","n":"CONFLANS EN JARNISY Pross","g":1},
+  {"id":6083450467017,"lat":49.163966,"lon":5.838585,"k":"p","n":"CONFLANS EN JARNISY ZAC de Conflans","g":1},
+  {"id":6088330338386,"lat":49.163966,"lon":5.838585,"k":"p","n":"CONFLANS EN JARNISY ZAC de Conflans","g":1}
+],
+"routes":[
+  {"id":19389871,"t":{"ref":"FIL3","name":"Bus FIL3: Conflans La Locomotive CC1461 → Jarny Droitaumont","from":"Conflans La Locomotive CC1461","to":"Jarny Droitaumont","network":"Le Fil","colour":"#0C9BD8","route":"bus","public_transport:version":"2"},"n":20,"s":[[13025222387,1],[597414873,2],[13025222388,3],[13025222390,4]]},
+  {"id":19389872,"t":{"ref":"FIL3","name":"Bus FIL3: Jarny Droitaumont → Conflans La Locomotive CC1461","from":"Jarny Droitaumont","to":"Conflans La Locomotive CC1461","network":"Le Fil","colour":"#0C9BD8","route":"bus","public_transport:version":"2"},"n":20,"s":[[13025222391,17],[13025222389,18],[597414877,19],[13025222387,20]]},
+  {"id":19412904,"t":{"ref":"102","name":"Bus 102: Conflans La Locomotive CC14161 → Val de Briey Mancieulles Mairie","from":"Conflans La Locomotive CC14161","to":"Val de Briey Mancieulles Mairie","network":"Le Fil","route":"bus","public_transport:version":"2"},"n":30,"s":[[13025222387,1],[597414873,2]]},
+  {"id":19412905,"t":{"ref":"102","name":"Bus 102: Val de Briey Mancieulles Mairie → Conflans La Locomotive CC14161","from":"Val de Briey Mancieulles Mairie","to":"Conflans La Locomotive CC14161","network":"Le Fil","route":"bus","public_transport:version":"2"},"n":29,"s":[[597414877,28],[13025222387,29]]},
+  {"id":3000615688322,"t":{"ref":"FIL 3","name":"FIL 3: JARNY Droitaumont - CONFLANS EN JARNISY - Locomotive CC 14161","from":"JARNY Droitaumont","to":"CONFLANS EN JARNISY - Locomotive CC 14161","operator":"TGE MEUSE MOSELLE","route":"bus","public_transport:version":"2"},"n":20,"s":[[13025222391,17],[6067452079994,18],[6088330338386,19],[13025222387,20]]},
+  {"id":3010118270877,"t":{"ref":"FIL 3","name":"FIL 3: CONFLANS EN JARNISY - Locomotive CC 14161 - JARNY Droitaumont","from":"CONFLANS EN JARNISY - Locomotive CC 14161","to":"JARNY Droitaumont","operator":"TGE MEUSE MOSELLE","route":"bus","public_transport:version":"2"},"n":20,"s":[[13025222387,1],[6024470086088,2],[6067452079994,3],[13025222390,4]]},
+  {"id":3016704974855,"t":{"ref":"L102","name":"L102: CONFLANS EN JARNISY - Locomotive CC 14161 - MANCIEULLES - MAIRIE","from":"CONFLANS EN JARNISY - Locomotive CC 14161","to":"MANCIEULLES - MAIRIE","operator":"TGE MEUSE MOSELLE","route":"bus","public_transport:version":"2"},"n":30,"s":[[13025222387,1],[6023039438912,2]]},
+  {"id":3060095222918,"t":{"ref":"FIL 3","name":"FIL 3: CONFLANS EN JARNISY - Locomotive CC 14161 - JARNY Droitaumont","from":"CONFLANS EN JARNISY - Locomotive CC 14161","to":"JARNY Droitaumont","operator":"TGE MEUSE MOSELLE","route":"bus","public_transport:version":"2"},"n":20,"s":[[13025222387,1],[6023039438912,2],[6023508462411,3],[13025222390,4]]},
+  {"id":3065087370501,"t":{"ref":"FIL 3","name":"FIL 3: JARNY Droitaumont - CONFLANS EN JARNISY - Locomotive CC 14161","from":"JARNY Droitaumont","to":"CONFLANS EN JARNISY - Locomotive CC 14161","operator":"TGE MEUSE MOSELLE","route":"bus","public_transport:version":"2"},"n":20,"s":[[13025222391,17],[6023508462411,18],[6083450467017,19],[13025222387,20]]},
+  {"id":3068396734673,"t":{"ref":"L102","name":"L102: MANCIEULLES - MAIRIE - CONFLANS EN JARNISY - Locomotive CC 14161","from":"MANCIEULLES - MAIRIE","to":"CONFLANS EN JARNISY - Locomotive CC 14161","operator":"TGE MEUSE MOSELLE","route":"bus","public_transport:version":"2"},"n":30,"s":[[6083450467017,29],[13025222387,30]]}
+]
+}

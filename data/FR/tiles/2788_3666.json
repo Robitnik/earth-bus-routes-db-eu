@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2788,3666],
+"stops":[
+  {"id":2322207428,"lat":49.400095,"lon":3.322596,"k":"p","n":"Martigny"},
+  {"id":2322209634,"lat":49.40079,"lon":3.321908,"k":"p","n":"Martigny"},
+  {"id":2322217670,"lat":49.400954,"lon":3.342332,"k":"p","n":"Les Gloriettes"},
+  {"id":2322217671,"lat":49.401061,"lon":3.342948,"k":"p","n":"Les Gloriettes"},
+  {"id":2333208071,"lat":49.406291,"lon":3.319607,"k":"p","n":"Cuffies Mairie"},
+  {"id":2333208072,"lat":49.404554,"lon":3.319879,"k":"p","n":"Dabremont"},
+  {"id":2333208073,"lat":49.403745,"lon":3.322971,"k":"p","n":"Montantin"},
+  {"id":5536832108,"lat":49.406321,"lon":3.319647,"k":"x"},
+  {"id":12634417067,"lat":49.400833,"lon":3.329144,"k":"p","n":"IUT"},
+  {"id":12768812711,"lat":49.405301,"lon":3.322605,"k":"p"}
+],
+"routes":[
+  {"id":2959360,"t":{"ref":"1","name":"Bus 1 : IUT Cuffies => Léon Blum","from":"IUT","to":"Léon Blum","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#009FE3","route":"bus","public_transport:version":"2"},"n":28,"s":[[12634417067,1]]},
+  {"id":2960695,"t":{"ref":"7","name":"Bus 7 : Gare de Soissons => Crouy","from":"Gare","to":"Le Chalet","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#954B97","route":"bus","public_transport:version":"2"},"n":19,"s":[[2322217671,13]]},
+  {"id":2961746,"t":{"ref":"3","name":"Bus 3 : Cuffies => Zone Commerciale de Vauxbuin","from":"Dabremont","to":"Maisons Rouges","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#F1AB22","route":"bus","public_transport:version":"2"},"n":27,"s":[[2333208072,1],[2333208071,2],[2333208073,3],[2322209634,4]]},
+  {"id":8188848,"t":{"ref":"3","name":"Bus 3 : Zone Commerciale de Vauxbuin => Cuffies","from":"Maisons Rouges","to":"Montantin","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#F1AB22","route":"bus","public_transport:version":"2"},"n":29,"s":[[2322207428,26],[2333208072,27],[2333208071,28],[2333208073,29]]},
+  {"id":8188849,"t":{"ref":"1","name":"Bus 1 : Presles => IUT Cuffies","from":"Docteur Roy","to":"IUT","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#009FE3","route":"bus","public_transport:version":"2"},"n":28,"s":[[12634417067,28]]},
+  {"id":17536973,"t":{"ref":"7","name":"Bus 7 : Crouy => Gare de Soissons","from":"Le Chalet","to":"Gare","network":"TUS","operator":"Les Courriers Automobiles Picards","colour":"#954B97","route":"bus","public_transport:version":"2"},"n":21,"s":[[2322217670,7]]},
+  {"id":3024291937439,"t":{"ref":"L1","name":"L1: Docteur Roy R / SOISSONS - IUT / CUFFIES","from":"Docteur Roy R / SOISSONS","to":"IUT / CUFFIES","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":27,"s":[[12634417067,27]]},
+  {"id":3038728770281,"t":{"ref":"L7","name":"L7: PEM4/Soissons - Le Chalet R / CROUY","from":"PEM4/Soissons","to":"Le Chalet R / CROUY","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":21,"s":[[2322217671,15]]},
+  {"id":3071683982787,"t":{"ref":"L7","name":"L7: Le Chalet R / CROUY - PEM4/Soissons","from":"Le Chalet R / CROUY","to":"PEM4/Soissons","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":21,"s":[[2322217670,7]]},
+  {"id":3076243969314,"t":{"ref":"L1","name":"L1: IUT / CUFFIES - Léon Blum R / SOISSONS","from":"IUT / CUFFIES","to":"Léon Blum R / SOISSONS","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":28,"s":[[12634417067,1]]},
+  {"id":3085044545609,"t":{"ref":"L3","name":"L3: Dabremont R / CUFFIES - Maisons Rouges R / VAUXBUIN","from":"Dabremont R / CUFFIES","to":"Maisons Rouges R / VAUXBUIN","operator":"Transports Urbains Soissonnais","route":"bus","public_transport:version":"2"},"n":27,"s":[[2333208072,1],[2333208071,2],[2333208073,3],[2322209634,4]]}
+]
+}

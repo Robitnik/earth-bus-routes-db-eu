@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2735,3694],
+"stops":[
+  {"id":241872452,"lat":46.774629,"lon":4.73805,"k":"x","n":"Givry - Mortières"},
+  {"id":2374821871,"lat":46.753834,"lon":4.711612,"k":"x","n":"BOURG SAINT DESERT"},
+  {"id":2427886955,"lat":46.783882,"lon":4.749731,"k":"p"},
+  {"id":2440209669,"lat":46.781828,"lon":4.747086,"k":"p","n":"Givry - Centre","ref":"GIGIV1"},
+  {"id":2440209670,"lat":46.781943,"lon":4.747033,"k":"p","n":"Givry - Centre","ref":"GIGIV2"},
+  {"id":2465556946,"lat":46.781396,"lon":4.749267,"k":"p","n":"Givry - Gare","ref":"Ligne B et 7"},
+  {"id":2465556947,"lat":46.78155,"lon":4.749089,"k":"p","n":"Givry - Gare","ref":"Ligne B et 7"},
+  {"id":2466676872,"lat":46.781372,"lon":4.740066,"k":"x"},
+  {"id":2466686398,"lat":46.774476,"lon":4.738065,"k":"p","n":"Givry - Mortières","ref":"GIMOR1"},
+  {"id":2466686399,"lat":46.774752,"lon":4.738041,"k":"p","n":"Givry - Mortières","ref":"GIMOR2"},
+  {"id":2477976668,"lat":46.781391,"lon":4.749316,"k":"p","n":"Givry - Voie Verte"},
+  {"id":2483835037,"lat":46.7739,"lon":4.724399,"k":"p"},
+  {"id":2483835060,"lat":46.773175,"lon":4.726458,"k":"p"},
+  {"id":2570140053,"lat":46.777606,"lon":4.748224,"k":"p"},
+  {"id":2761913099,"lat":46.754968,"lon":4.718617,"k":"p","n":"Cimetière","ref":"STCIM1"},
+  {"id":2801952033,"lat":46.770704,"lon":4.700713,"k":"p","n":"Jambles - La Rivière","ref":"JARIV2"},
+  {"id":2801952034,"lat":46.770843,"lon":4.700541,"k":"p","n":"Jambles - La Rivière","ref":"JARIV1"},
+  {"id":3666958250,"lat":46.755681,"lon":4.703426,"k":"p"},
+  {"id":11006334933,"lat":46.781871,"lon":4.747085,"k":"x","n":"Givry - Centre"},
+  {"id":11006334944,"lat":46.753823,"lon":4.711666,"k":"p","n":"Saint-Désert - Le Bourg","ref":"STBOD2"},
+  {"id":11006334945,"lat":46.753814,"lon":4.711571,"k":"p","n":"Saint-Désert - Le Bourg","ref":"STBOD1"},
+  {"id":11006334946,"lat":46.754953,"lon":4.718643,"k":"x","n":"Cimetière"},
+  {"id":11006334947,"lat":46.770751,"lon":4.700656,"k":"x"},
+  {"id":6008541759669,"lat":46.75618,"lon":4.70502,"k":"p","n":"MAISON DE SANTE","g":1},
+  {"id":6008733641146,"lat":46.75618,"lon":4.70502,"k":"p","n":"MAISON DE SANTE","g":1}
+],
+"routes":[
+  {"id":1873679,"t":{"ref":"LR701","name":"Bus LR701: Chalon-sur-Saône => Cluny => Mâcon","from":"Gare Routière Chalon-sur-Saône","to":"Mâcon","network":"Mobigo","operator":"Région Bourgogne Franche-Comté","colour":"267300ff","route":"bus","public_transport:version":"2"},"n":14,"s":[[2440209670,6],[2466686399,7],[2761913099,8]]},
+  {"id":1878399,"t":{"ref":"LR701","name":"Bus LR701: Mâcon => Cluny => Chalon-sur-Saône","from":"Mâcon","to":"Chalon-sur-Saône","network":"Mobigo","operator":"Région Bourgogne Franche-Comté","colour":"267300ff","route":"bus","public_transport:version":"2"},"n":14,"s":[[2761913099,7],[2466686398,8],[2440209669,9]]},
+  {"id":2807522,"t":{"ref":"B","name":"Ligne B : Jambles Place du Creux → Chalon Gare Routière","from":"Place du Creux","to":"Gare Routière","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":10,"s":[[2801952033,3],[11006334945,4],[2466686398,5],[2440209669,6]]},
+  {"id":16019178,"t":{"ref":"B","name":"Ligne B : Chalon Gare Routière → Jambles Place du Creux","from":"Gare Routière","to":"Place du Creux","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":10,"s":[[2440209670,5],[2466686399,6],[11006334945,7],[2801952033,8]]},
+  {"id":16019180,"t":{"ref":"B","name":"Ligne B : Chalon Prés Devant → Jambles Place du Creux","from":"Prés Devant","to":"Place du Creux","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":10,"s":[[2440209670,5],[2466686399,6],[11006334945,7],[2801952033,8]]},
+  {"id":16019181,"t":{"ref":"B","name":"Ligne B : Jambles Place du Creux → Chalon Prés Devant","from":"Place du Creux","to":"Prés Devant","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":10,"s":[[2801952033,3],[11006334945,4],[2466686398,5],[2440209669,6]]},
+  {"id":3053572901058,"t":{"ref":"701","name":"701: Gare Routière - Gare Routière","from":"Gare Routière","to":"Gare Routière","operator":"CAR Mobigo (71)","route":"bus","public_transport:version":"2"},"n":31,"s":[[11006334946,25],[241872452,26],[2440209669,27]]},
+  {"id":3063677110252,"t":{"ref":"RésaCCS","name":"RésaCCS: PLACE DU CREUX - GARE","from":"PLACE DU CREUX","to":"GARE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":15,"s":[[2801952034,3],[11006334945,4],[2761913099,5],[6008733641146,6],[2466686399,7],[2440209669,8]]},
+  {"id":3075141421934,"t":{"ref":"RésaCCS","name":"RésaCCS: GARE - PLACE DU CREUX","from":"GARE","to":"PLACE DU CREUX","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":15,"s":[[2440209670,8],[241872452,9],[6008541759669,10],[2761913099,11],[2374821871,12],[2801952033,13]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2675,3721],
+"stops":[
+  {"id":1012919860,"lat":43.77779,"lon":6.096342,"k":"x","n":"Montagnac - Stade"},
+  {"id":2382489072,"lat":43.779962,"lon":6.094829,"k":"x","n":"Montagnac - Rabassière"},
+  {"id":4360659368,"lat":43.753027,"lon":6.088057,"k":"x","n":"Montpezat - Calade"},
+  {"id":5664308071,"lat":43.753028,"lon":6.088093,"k":"p","n":"Montpezat - Calade"},
+  {"id":5664308072,"lat":43.753015,"lon":6.08802,"k":"p","n":"Montpezat - Calade"},
+  {"id":5664313438,"lat":43.779992,"lon":6.094836,"k":"p","n":"Montagnac - Rabassière"},
+  {"id":7092829734,"lat":43.777837,"lon":6.09636,"k":"p","n":"Montagnac - Stade"}
+],
+"routes":[
+  {"id":6831978,"t":{"ref":"134","name":"Bus 134 : Esparron-de-Verdon => Riez","from":"Esparron-de-Verdon - Commerces","to":"Riez - Pré de Foire","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#009ad6","route":"bus","public_transport:version":"2"},"n":6,"s":[[5664308071,4],[5664313438,5]]},
+  {"id":6831979,"t":{"ref":"134","name":"Bus 134 : Riez => Esparron-de-Verdon","from":"Riez - Pré de Foire","to":"Esparron-de-Verdon - Commerces","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#009ad6","route":"bus","public_transport:version":"2"},"n":6,"s":[[5664313438,2],[5664308072,3]]},
+  {"id":10847583,"t":{"ref":"143 S","name":"Bus 143 S : Montpezat => Montagnac => Riez","from":"Montpezat","to":"Riez","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5664308071,1],[7092829734,2]]},
+  {"id":10847584,"t":{"ref":"143 S","name":"Bus 143 S : Riez => Montagnac => Montpezat","from":"Riez","to":"Montpezat","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[7092829734,2],[5664308072,3]]},
+  {"id":13463394,"t":{"ref":"181 RPI","name":"Bus 181 RPI : Allemagne-en-Provence => Montagnac => Allemagne-en-Provence","from":"Allemagne-en-Provence","to":"Allemagne-en-Provence","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5664313438,2]]},
+  {"id":13463395,"t":{"ref":"181 RPI","name":"Bus 181 RPI : Montagnac => Allemagne-en-Provence => Montagnac","from":"Montagnac","to":"Montagnac","network":"Trans'Agglo","operator":"Durance Luberon Verdon Agglomération","colour":"#00bfff","route":"bus","public_transport:version":"2","bus":"school"},"n":3,"s":[[5664313438,1,3]]},
+  {"id":3002991260845,"t":{"ref":"134 TAD","name":"134 TAD: PRÉ DE FOIRE - VILLAGE COMMERCES ESPARRON","from":"PRÉ DE FOIRE","to":"VILLAGE COMMERCES ESPARRON","operator":"TRANSAGGLO","route":"bus","public_transport:version":"2"},"n":6,"s":[[2382489072,2],[5664308071,3]]},
+  {"id":3020943510501,"t":{"ref":"134 TAD","name":"134 TAD: VILLAGE COMMERCES ESPARRON - PRÉ DE FOIRE","from":"VILLAGE COMMERCES ESPARRON","to":"PRÉ DE FOIRE","operator":"TRANSAGGLO","route":"bus","public_transport:version":"2"},"n":6,"s":[[5664308071,4],[2382489072,5]]},
+  {"id":3022972872690,"t":{"ref":"134 TAD","name":"134 TAD: PRÉ DE FOIRE - VILLAGE COMMERCES ESPARRON","from":"PRÉ DE FOIRE","to":"VILLAGE COMMERCES ESPARRON","operator":"TRANSAGGLO","route":"bus","public_transport:version":"2"},"n":6,"s":[[2382489072,2],[5664308071,3]]},
+  {"id":3088171842011,"t":{"ref":"134 TAD","name":"134 TAD: VILLAGE COMMERCES ESPARRON - PRÉ DE FOIRE","from":"VILLAGE COMMERCES ESPARRON","to":"PRÉ DE FOIRE","operator":"TRANSAGGLO","route":"bus","public_transport:version":"2"},"n":6,"s":[[5664308071,4],[2382489072,5]]}
+]
+}

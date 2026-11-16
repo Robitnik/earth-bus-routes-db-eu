@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2673,3683],
+"stops":[
+  {"id":1832408415,"lat":43.66328,"lon":4.167503,"k":"p","n":"Cigales"},
+  {"id":1832408423,"lat":43.663664,"lon":4.176237,"k":"p","n":"Charles Corbières"},
+  {"id":3134111709,"lat":43.663077,"lon":4.170929,"k":"p","n":"Prés"},
+  {"id":3134111710,"lat":43.66672,"lon":4.175365,"k":"p","n":"Léopold Diot"},
+  {"id":4935112634,"lat":43.663179,"lon":4.170277,"k":"p","n":"Prés"},
+  {"id":4935112638,"lat":43.663096,"lon":4.167814,"k":"p","n":"Cigales"},
+  {"id":7617906577,"lat":43.663125,"lon":4.167792,"k":"x","n":"Cigales"},
+  {"id":7617906578,"lat":43.663204,"lon":4.167524,"k":"x","n":"Cigales"},
+  {"id":7617906582,"lat":43.663137,"lon":4.170295,"k":"x","n":"Prés"},
+  {"id":7617906583,"lat":43.663103,"lon":4.170892,"k":"x","n":"Prés"},
+  {"id":7617967268,"lat":43.663684,"lon":4.176178,"k":"x","n":"Charles Corbières"},
+  {"id":7617967269,"lat":43.666691,"lon":4.17541,"k":"x","n":"Léopold Diot"},
+  {"id":7630288415,"lat":43.660983,"lon":4.180715,"k":"p","n":"Capelan"},
+  {"id":7630288416,"lat":43.661036,"lon":4.180778,"k":"x","n":"Capelan"},
+  {"id":7639977623,"lat":43.682817,"lon":4.152926,"k":"p","n":"Centre Commercial Portes de la Mer"},
+  {"id":7639977624,"lat":43.682857,"lon":4.152936,"k":"x","n":"Centre Commercial Portes de la Mer"},
+  {"id":7744843319,"lat":43.66374,"lon":4.17749,"k":"p","n":"Bascule"},
+  {"id":7744843320,"lat":43.663732,"lon":4.177426,"k":"x","n":"Bascule"}
+],
+"routes":[
+  {"id":942619,"t":{"ref":"L2","name":"Bus L2: Lunel→Marsillargues","from":"Gare Multimodale","to":"Charles Corbière","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#E75E30","route":"bus","public_transport:version":"2"},"n":5,"s":[[4935112638,3],[3134111709,4],[1832408423,5]]},
+  {"id":10048972,"t":{"ref":"L2","name":"Bus L2: Marsillargues→Lunel","from":"Charles Corbières","to":"Gare Multimodale","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#E75E30","route":"bus","public_transport:version":"2"},"n":10,"s":[[1832408423,1],[3134111710,2],[4935112634,3],[1832408415,4]]},
+  {"id":11199619,"t":{"ref":"L2","name":"Bus L2: Lunel→Marsillargues","from":"Gare Multimodale","to":"Charles Corbière","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#E75E30","route":"bus","public_transport:version":"2"},"n":19,"s":[[4935112638,17],[3134111709,18],[1832408423,19]]},
+  {"id":11223478,"t":{"ref":"L4","name":"Bus L4: Lunel→Entre-Vignes→Boisseron→Saussines","from":"Centre Commercial Portes de la Mer","to":"Écoles","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#7A973B","route":"bus","public_transport:version":"2"},"n":14,"s":[[7639977623,1]]},
+  {"id":11223479,"t":{"ref":"L4","name":"Bus L4: Saussines→Boisseron→Entre-Vignes→Lunel","from":"Écoles","to":"Centre Commercial Portes de la Mer","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#7A973B","route":"bus","public_transport:version":"2"},"n":14,"s":[[7639977623,14]]},
+  {"id":11247187,"t":{"ref":"L5","name":"Bus L5: Saint-Sériès→Saturargues→Villetelle→Lunel","from":"Mairie","to":"Centre Commercial Portes de la Mer","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","colour":"#008ED0","route":"bus","public_transport:version":"2"},"n":13,"s":[[7639977623,13]]},
+  {"id":11247188,"t":{"ref":"L5","name":"Bus L5: Lunel→Villetelle→Saturargues→Saint-Sériès","from":"Centre Commercial Portes de la Mer","to":"Mairie","network":"Transports intercommunaux du pays de Lunel","operator":"Communauté de Communes du Pays de Lunel","route":"bus","public_transport:version":"2"},"n":13,"s":[[7639977623,1]]},
+  {"id":11321768,"t":{"ref":"601","name":"Ligne 601 : Marsillargues → Castelnau-le-Lez","from":"Charles Corbière","to":"Notre-Dame de Sablassou","network":"liO","operator":"liO","colour":"#EE7F00","route":"bus","public_transport:version":"2"},"n":20,"s":[[1832408423,1],[4935112634,2],[1832408415,3]]},
+  {"id":3039642104193,"t":{"ref":"2","name":"2: LUNEL - Gare Multimodale - MARSILLARGUES - Charles Corbière","from":"LUNEL - Gare Multimodale","to":"MARSILLARGUES - Charles Corbière","operator":"galeo","route":"bus","public_transport:version":"2"},"n":19,"s":[[4935112638,17],[3134111709,18],[7617967268,19]]},
+  {"id":3060411274302,"t":{"ref":"4","name":"4: SAUSSINES - Ecoles - LUNEL - CC Portes de la Mer","from":"SAUSSINES - Ecoles","to":"LUNEL - CC Portes de la Mer","operator":"galeo","route":"bus","public_transport:version":"2"},"n":15,"s":[[7639977623,15]]},
+  {"id":3073855773849,"t":{"ref":"2","name":"2: MARSILLARGUES - Charles Corbière - LUNEL - Gare Multimodale","from":"MARSILLARGUES - Charles Corbière","to":"LUNEL - Gare Multimodale","operator":"galeo","route":"bus","public_transport:version":"2"},"n":10,"s":[[7617967268,1],[3134111710,2],[7617906583,3],[1832408415,4]]},
+  {"id":3080610030888,"t":{"ref":"5","name":"5: SAINT-SERIES - Mairie - LUNEL - CC Portes de la Mer","from":"SAINT-SERIES - Mairie","to":"LUNEL - CC Portes de la Mer","operator":"galeo","route":"bus","public_transport:version":"2"},"n":13,"s":[[7639977623,13]]},
+  {"id":3084962238906,"t":{"ref":"2","name":"2: LUNEL - Gare Multimodale - MARSILLARGUES - Charles Corbière","from":"LUNEL - Gare Multimodale","to":"MARSILLARGUES - Charles Corbière","operator":"galeo","route":"bus","public_transport:version":"2"},"n":5,"s":[[4935112638,3],[3134111709,4],[7617967268,5]]},
+  {"id":3093043172329,"t":{"ref":"4","name":"4: LUNEL - CC Portes de la Mer - SAUSSINES - Ecoles","from":"LUNEL - CC Portes de la Mer","to":"SAUSSINES - Ecoles","operator":"galeo","route":"bus","public_transport:version":"2"},"n":15,"s":[[7639977623,1]]},
+  {"id":3094048434879,"t":{"ref":"5","name":"5: LUNEL - CC Portes de la Mer - SAINT-SERIES - Mairie","from":"LUNEL - CC Portes de la Mer","to":"SAINT-SERIES - Mairie","operator":"galeo","route":"bus","public_transport:version":"2"},"n":13,"s":[[7639977623,1]]}
+]
+}

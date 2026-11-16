@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2783,3750],
+"stops":[
+  {"id":1371136227,"lat":49.151127,"lon":7.530193,"k":"p","n":"Kröppen Gh Knerr"},
+  {"id":1371136520,"lat":49.154114,"lon":7.538548,"k":"p","n":"Luthersbrunn"},
+  {"id":1580657452,"lat":49.151782,"lon":7.530056,"k":"p","n":"Kröppen Gh Knerr"},
+  {"id":1594776692,"lat":49.154014,"lon":7.53848,"k":"p","n":"Luthersbrunn"},
+  {"id":9016422840,"lat":49.173999,"lon":7.508475,"k":"p","n":"Stausteinerhof"},
+  {"id":9016422841,"lat":49.174067,"lon":7.508522,"k":"p","n":"Stausteinerhof"},
+  {"id":12139705793,"lat":49.176707,"lon":7.504705,"k":"p","n":"Pirmannsteinerhof"},
+  {"id":12139705794,"lat":49.176608,"lon":7.504618,"k":"p","n":"Pirmannsteinerhof"}
+],
+"routes":[
+  {"id":13102893,"t":{"ref":"242","name":"Bus 242: Pirmasens => Riedelberg","from":"Pirmasens Exerzierplatz","to":"Riedelberg","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":8,"s":[[9016422841,1]]},
+  {"id":13102983,"t":{"ref":"242","name":"Bus 242: Riedelberg => Pirmasens","from":"Riedelberg","to":"Pirmasens HbF","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[9016422840,9]]},
+  {"id":13103619,"t":{"ref":"255","name":"Bus 255: Pirmasens => Eppenbrunn","from":"Pirmasens, Hauptbahnhof","to":"Eppenbrunn, Höhstraße","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":11,"s":[[1371136520,1],[1371136227,2]]},
+  {"id":13103722,"t":{"ref":"255","name":"Bus 255: Eppenbrunn => Pirmasens","from":"Eppenbrunn, Höhstraße","to":"Pirmasens, Hauptbahnhof","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":12,"s":[[1580657452,11],[1594776692,12]]},
+  {"id":17976170,"t":{"ref":"233","name":"Bus 233","to":"IGS Contwig","network":"Verkehrsverbund Rhein-Neckar","operator":"VGZ","route":"bus"},"n":46,"s":[[12139705794,19],[12139705793,20]]}
+]
+}

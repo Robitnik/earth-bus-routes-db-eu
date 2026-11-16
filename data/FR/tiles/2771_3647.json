@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2771,3647],
+"stops":[
+  {"id":269422476,"lat":48.595375,"lon":2.369088,"k":"p","n":"Parc de Tréville"},
+  {"id":283826055,"lat":48.555637,"lon":2.368579,"k":"x","n":"Gymnase"},
+  {"id":1244776908,"lat":48.551266,"lon":2.366796,"k":"p","n":"Mairie"},
+  {"id":1246350819,"lat":48.567346,"lon":2.355401,"k":"p","n":"Berthault"},
+  {"id":1352881714,"lat":48.551297,"lon":2.366627,"k":"p","n":"Mairie"},
+  {"id":2366154998,"lat":48.554489,"lon":2.367475,"k":"x","n":"Marcel Charon"},
+  {"id":2366155007,"lat":48.551289,"lon":2.366705,"k":"x","n":"Mairie"},
+  {"id":3398591226,"lat":48.55445,"lon":2.367491,"k":"p","n":"Marcel Charon"},
+  {"id":3398591227,"lat":48.555674,"lon":2.368628,"k":"p","n":"Gymnase"},
+  {"id":3398591229,"lat":48.553784,"lon":2.362957,"k":"x","n":"Haut de Vigne"},
+  {"id":4317452199,"lat":48.57648,"lon":2.356903,"k":"p","n":"Noues"},
+  {"id":5312206959,"lat":48.572643,"lon":2.358745,"k":"p","n":"Marquants / Croix boissée"},
+  {"id":5312206960,"lat":48.578153,"lon":2.360957,"k":"p","n":"Guichet"},
+  {"id":5312206962,"lat":48.574651,"lon":2.353408,"k":"p","n":"Botteaux"},
+  {"id":5312206966,"lat":48.571096,"lon":2.35336,"k":"p","n":"Coquelicots"},
+  {"id":5480974929,"lat":48.578119,"lon":2.361064,"k":"p","n":"Guichet"},
+  {"id":6666613796,"lat":48.553807,"lon":2.362875,"k":"p","n":"Haut de Vigne"},
+  {"id":6666613797,"lat":48.553305,"lon":2.363409,"k":"p","n":"Haut de Vigne"},
+  {"id":12482343514,"lat":48.589329,"lon":2.393012,"k":"p","n":"Centre de Traitement"},
+  {"id":12482343515,"lat":48.594769,"lon":2.377135,"k":"p","n":"Semardel"}
+],
+"routes":[
+  {"id":69321,"t":{"ref":"4215","name":"Bus 4215 : Évry-Courcouronnes Centre → Vert-le-Grand","from":"Évry-Courcouronnes Centre","to":"Centre de Traitement (Vert-le-Grand)","network":"Évry Centre Essonne","operator":"Keolis TISSE","colour":"#ff82b4","route":"bus","public_transport:version":"2"},"n":9,"s":[[269422476,7],[12482343515,8],[12482343514,9]]},
+  {"id":1240493,"t":{"ref":"4530","name":"Bus 4530 : Brétigny-sur-Orge Gare Place (circulaire via Vert-le-Grand puis Bondoufle)","from":"Gare de Brétigny-sur-Orge - Place","to":"Gare de Brétigny-sur-Orge - Place","network":"Cœur d'Essonne","operator":"Transdev Cœur Essonne","colour":"#a0006e","route":"bus","public_transport:version":"2"},"n":27,"s":[[269422476,5,13],[5312206960,6],[5312206959,7],[1246350819,8],[5312206966,9],[5312206962,10],[4317452199,11],[5480974929,12]]},
+  {"id":3045272,"t":{"ref":"4301","name":"Bus 4301 : Gare de Marolles → Collège Doisneau","from":"Gare de Marolles","to":"Collège Doisneau","network":"Essonne Sud Est","operator":"Keolis Val d'Essonne Deux Vallées","colour":"#82dc73","route":"bus","public_transport:version":"2"},"n":21,"s":[[6666613797,8],[3398591226,9],[3398591227,10],[6666613796,11],[1352881714,12]]},
+  {"id":3045489,"t":{"ref":"4301","name":"Bus 4301 : Le Parc (Saint-Vrain) → Gare de Marolles","from":"Le Parc","to":"Gare de Marolles","network":"Essonne Sud Est","operator":"Keolis Val d'Essonne Deux Vallées","colour":"#82dc73","route":"bus","public_transport:version":"2"},"n":21,"s":[[1244776908,10],[3398591226,11],[3398591227,12],[6666613796,13]]},
+  {"id":8131560,"t":{"ref":"4215","name":"Bus 4215 : Vert-le-Grand → Évry-Courcouronnes Centre","from":"Centre de Traitement (Vert-le-Grand)","to":"Évry-Courcouronnes Centre","network":"Évry Centre Essonne","operator":"Keolis TISSE","colour":"#ff82b4","route":"bus","public_transport:version":"2"},"n":9,"s":[[12482343514,1],[12482343515,2],[269422476,3]]},
+  {"id":17392224,"t":{"ref":"4530","name":"Bus 4530 : Brétigny-sur-Orge Gare Place (circulaire via Bondoufle puis Vert-le-Grand)","from":"Gare de Brétigny-sur-Orge - Place","to":"Gare de Brétigny-sur-Orge - Place","network":"Cœur d'Essonne","operator":"Transdev Cœur Essonne","colour":"#a0006e","route":"bus","public_transport:version":"2"},"n":26,"s":[[269422476,5,13],[5312206960,6],[5312206959,7],[1246350819,8],[5312206966,9],[5312206962,10],[4317452199,11],[5480974929,12]]},
+  {"id":21530499,"t":{"ref":"TàD 4301","name":"Bus TàD 4301/4530 : Collège Doisneau → Gare de Brétigny-sur-Orge Place","from":"Collège Doisneau","to":"Gare de Brétigny Place","network":"Essonne Sud Est","operator":"Keolis Val d'Essonne Deux Vallées","colour":"#ffbe00","route":"bus","public_transport:version":"2"},"n":27,"s":[[1244776908,12],[3398591226,13],[3398591227,14],[6666613796,15],[5312206966,19],[5312206962,20],[4317452199,21],[5480974929,22],[269422476,23]]},
+  {"id":21530500,"t":{"ref":"TàD 4301","name":"Bus TàD 4301/4530 : Gare de Brétigny-sur-Orge Place → Collège Doisneau","from":"Gare de Brétigny Place","to":"Collège Doisneau","network":"Essonne Sud Est","operator":"Keolis Val d'Essonne Deux Vallées","colour":"#ffbe00","route":"bus","public_transport:version":"2"},"n":26,"s":[[269422476,5],[5312206960,6],[5312206959,7],[1246350819,8],[6666613797,11],[3398591226,12],[3398591227,13],[6666613796,14],[1352881714,15]]}
+]
+}

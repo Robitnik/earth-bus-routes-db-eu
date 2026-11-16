@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2737,3693],
+"stops":[
+  {"id":1637824647,"lat":46.893115,"lon":4.676095,"k":"x"},
+  {"id":2342375905,"lat":46.878634,"lon":4.663149,"k":"x"},
+  {"id":2741850192,"lat":46.878693,"lon":4.663085,"k":"p","n":"Saint-Gilles","ref":"STSTG1"},
+  {"id":2741850220,"lat":46.866603,"lon":4.687696,"k":"p","n":"D 109 Le Bourg"},
+  {"id":2741850263,"lat":46.890493,"lon":4.680415,"k":"x","n":"Le Pont"},
+  {"id":2741926584,"lat":46.898774,"lon":4.690224,"k":"p","n":"Corchanu"},
+  {"id":2741926585,"lat":46.89317,"lon":4.676109,"k":"p","n":"Cheilly-lès-Maranges - Gare SNCF","ref":"CHCHY1"},
+  {"id":2741926590,"lat":46.896777,"lon":4.668819,"k":"x","n":"Place de la Mairie"},
+  {"id":2741926591,"lat":46.894306,"lon":4.67141,"k":"p","n":"Place des"},
+  {"id":11010063647,"lat":46.867139,"lon":4.681528,"k":"p","n":"Chamilly - Mairie","ref":"CHCHM1"},
+  {"id":11010063648,"lat":46.867174,"lon":4.681581,"k":"x"}
+],
+"routes":[
+  {"id":16024044,"t":{"ref":"D1","name":"Ligne D1 : Chalon Pôle Bellevue → Chamilly","from":"Pôle Bellevue","to":"Chamilly - Mairie","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":12,"s":[[11010063647,12]]},
+  {"id":16024045,"t":{"ref":"D1","name":"Ligne D1 : Chamilly → Chalon Pôle Bellevue","from":"Chamilly - Mairie","to":"Pôle Bellevue","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":13,"s":[[11010063647,1]]},
+  {"id":16024387,"t":{"ref":"D3","name":"Ligne D3 : Chalon Pôle Bellevue → Cheilly-lès-Maranges","from":"Pôle Bellevue","to":"Cheilly-lès-Maranges - Gare SNCF","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":7,"s":[[2741850192,6],[2741926585,7]]},
+  {"id":16024388,"t":{"ref":"D3","name":"Ligne D3 : Cheilly-lès-Maranges → Chalon Pôle Bellevue","from":"Cheilly-lès-Maranges - Gare SNCF","to":"Pôle Bellevue","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":7,"s":[[2741926585,1],[2741850192,2]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2698,3711],
+"stops":[
+  {"id":1037594215,"lat":44.902082,"lon":5.566804,"k":"p","n":"Gresse-en-Vercors Le Village"},
+  {"id":1037594257,"lat":44.90242,"lon":5.566717,"k":"x","n":"Le Village"},
+  {"id":2666613007,"lat":44.912554,"lon":5.568677,"k":"x","n":"Fruitière"},
+  {"id":5349630578,"lat":44.900821,"lon":5.555051,"k":"x","n":"Les Dolomites"},
+  {"id":5349691239,"lat":44.901244,"lon":5.560594,"k":"x","n":"Côte Belette"},
+  {"id":5349691240,"lat":44.902121,"lon":5.56703,"k":"p","n":"Le Village"},
+  {"id":5349691249,"lat":44.902114,"lon":5.567054,"k":"p","n":"Église"},
+  {"id":5349937252,"lat":44.909524,"lon":5.56957,"k":"p","n":"Chaumeil"},
+  {"id":5349937254,"lat":44.919495,"lon":5.570871,"k":"x","n":"Les Fraisses"},
+  {"id":12183701385,"lat":44.901191,"lon":5.560627,"k":"p","n":"Côte Belette"},
+  {"id":13397392632,"lat":44.94831,"lon":5.59189,"k":"p","n":"Grosse Pierre"},
+  {"id":13397392633,"lat":44.9482,"lon":5.59266,"k":"p","n":"Grosse Pierre"}
+],
+"routes":[
+  {"id":7916872,"t":{"ref":"Navette liaison","name":"Navette liaison : Gare de Monestier-de-Clermont - Gresse-en-Vercors Station","from":"Monestier-de-Clermont - Gare SNCF","to":"Gresse-en-Vercors - Station","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":5,"s":[[2666613007,2],[5349630578,4]]},
+  {"id":7916982,"t":{"ref":"Navette liaison","name":"Navette liaison : Gresse-en-Vercors Station - Gare de Monestier-de-Clermont","from":"Gresse-en-Vercors - Station","to":"Monestier-de-Clermont - Gare SNCF","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":6,"s":[[5349630578,3],[5349691249,4],[2666613007,5]]},
+  {"id":7917152,"t":{"ref":"Navette station","name":"Navette station : Gresse-en-Vercors Station - Gresse-en-Vercors Église","from":"Gresse-en-Vercors - Station","to":"Gresse-en-Vercors - Église","network":"Navettes Gresse-en-Vercors","colour":"#3DB717","route":"bus","public_transport:version":"2"},"n":6,"s":[[5349630578,5],[5349691240,6]]},
+  {"id":7917153,"t":{"ref":"Navette station","name":"Navette station : Gresse-en-Vercors Église - Gresse-en-Vercors Station","from":"Gresse-en-Vercors - Église","to":"Gresse-en-Vercors - Station","network":"Navettes Gresse-en-Vercors","colour":"#3DB717","route":"bus","public_transport:version":"2"},"n":7,"s":[[5349691249,1],[5349691239,2],[5349630578,4]]},
+  {"id":7917236,"t":{"ref":"Navette station samedi","name":"Navette station samedi : Gresse-en-Vercors Station - Gresse-en-Vercors Église","from":"Gresse-en-Vercors - Station","to":"Gresse-en-Vercors - Église","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":6,"s":[[5349630578,4],[5349691239,5],[5349691249,6]]},
+  {"id":7917237,"t":{"ref":"Navette station samedi","name":"Navette station samedi : Gresse-en-Vercors Église - Gresse-en-Vercors Station","from":"Gresse-en-Vercors - Église","to":"Gresse-en-Vercors - Station","network":"Navettes Gresse-en-Vercors","colour":"#F79546","route":"bus","public_transport:version":"2"},"n":6,"s":[[5349691249,1],[5349691239,2],[5349630578,4]]},
+  {"id":7917276,"t":{"ref":"MON02","name":"MON02 : Monestier-de-Clermont => Gresse-en-Vercors","from":"Monestier-de-Clermont - Collège-Écoles","to":"Gresse-en-Vercors - Les Dolomites","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"2"},"n":7,"s":[[5349937254,2],[2666613007,3],[1037594257,4],[5349691239,5],[5349630578,6]]},
+  {"id":7917285,"t":{"ref":"MON02","name":"MON02 : Gresse-en-Vercors => Monestier-de-Clermont","from":"Gresse-en-Vercors - Les Dolomites","to":"Monestier-de-Clermont - Collège-Écoles","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"2"},"n":3,"s":[[12183701385,1],[5349691240,2],[5349937252,3]]}
+]
+}

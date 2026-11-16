@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2736,3694],
+"stops":[
+  {"id":517194448,"lat":46.836188,"lon":4.705674,"k":"x","n":"Les Cèdres","ref":"11353"},
+  {"id":1448868152,"lat":46.817294,"lon":4.71533,"k":"x"},
+  {"id":1448896201,"lat":46.809984,"lon":4.740987,"k":"x","n":"LES PRES DE CLIPOT"},
+  {"id":1449414137,"lat":46.808946,"lon":4.708616,"k":"x"},
+  {"id":1449414154,"lat":46.81222,"lon":4.716038,"k":"x"},
+  {"id":2370787888,"lat":46.8356,"lon":4.702961,"k":"x"},
+  {"id":2440113307,"lat":46.828378,"lon":4.731256,"k":"p","n":"Mercurey - Bourg Bassot","ref":"BABOU1"},
+  {"id":2440113308,"lat":46.83653,"lon":4.716892,"k":"p","n":"Mercurey - Place Genappe","ref":"MEPLA1"},
+  {"id":2440113309,"lat":46.836565,"lon":4.71695,"k":"p","n":"Mercurey - Place Genappe","ref":"MEPLA2"},
+  {"id":2517511835,"lat":46.814835,"lon":4.749258,"k":"p"},
+  {"id":2535129843,"lat":46.832742,"lon":4.723513,"k":"p","n":"Mercurey - Mairie","ref":"MEMAI1"},
+  {"id":11009060928,"lat":46.810054,"lon":4.741091,"k":"p","n":"Mellecey - Les Prés de Clipot","ref":"MEPRE1"},
+  {"id":11009060929,"lat":46.811006,"lon":4.727945,"k":"x","n":"MAIRIE MELLECEY"},
+  {"id":11009060930,"lat":46.811022,"lon":4.728054,"k":"p","n":"Mellecey - Mairie","ref":"MEMAM1"},
+  {"id":11009060932,"lat":46.812331,"lon":4.716044,"k":"p","n":"Saint-Martin-sous-Montaigu - Suzeau","ref":"STSUZ1"},
+  {"id":11009060933,"lat":46.809034,"lon":4.708932,"k":"p","n":"Saint-Martin-sous-Montaigu - Lotissement La Maladière","ref":"STLOM1"},
+  {"id":11010063640,"lat":46.828358,"lon":4.731225,"k":"x","n":"BOURG BASSOT"},
+  {"id":11010063644,"lat":46.832687,"lon":4.72354,"k":"x","n":"MAIRIE MERCUREY"},
+  {"id":11010063645,"lat":46.836533,"lon":4.716947,"k":"x","n":"PLACE GENAPPE"},
+  {"id":11010063646,"lat":46.835553,"lon":4.702908,"k":"p","n":"Mercurey - CIFA","ref":"MECIF1"},
+  {"id":11010122183,"lat":46.817335,"lon":4.715486,"k":"p","n":"Saint-Martin-sous-Montaigu - École","ref":"STECO1"},
+  {"id":6041232316808,"lat":46.836712,"lon":4.707976,"k":"p","n":"LES CEDRES","g":1},
+  {"id":6081476433280,"lat":46.836735,"lon":4.708,"k":"p","n":"LES CEDRES","g":1}
+],
+"routes":[
+  {"id":16022713,"t":{"ref":"D","name":"Ligne D : Chalon Pôle Bellevue → Saint-Denis-de-Vaux Monument","from":"Pôle Bellevue","to":"Saint-Denis-de-Vaux Monument","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":11,"s":[[11009060928,8],[11009060930,9]]},
+  {"id":16022714,"t":{"ref":"D","name":"Ligne D : Saint-Denis-de-Vaux Monument → Chalon Pôle Bellevue","from":"Saint-Denis-de-Vaux Monument","to":"Pôle Bellevue","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":11,"s":[[11009060930,3],[11009060928,4]]},
+  {"id":16024042,"t":{"ref":"D1","name":"Ligne D1 : Chalon Gare routière → Mercurey CIFA","from":"Gare routière","to":"Mercurey - CIFA","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":3,"s":[[11010063646,3]]},
+  {"id":16024043,"t":{"ref":"D1","name":"Ligne D1 : Mercurey CIFA → Chalon Gare routière","from":"Mercurey - CIFA","to":"Gare routière","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":3,"s":[[11010063646,1]]},
+  {"id":16024044,"t":{"ref":"D1","name":"Ligne D1 : Chalon Pôle Bellevue → Chamilly","from":"Pôle Bellevue","to":"Chamilly - Mairie","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":12,"s":[[2440113307,8],[2535129843,9],[2440113309,10]]},
+  {"id":16024045,"t":{"ref":"D1","name":"Ligne D1 : Chamilly → Chalon Pôle Bellevue","from":"Chamilly - Mairie","to":"Pôle Bellevue","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":13,"s":[[11010063646,3],[2440113308,4],[2535129843,5],[2440113307,6]]},
+  {"id":3024938483000,"t":{"ref":"RésaCCN","name":"RésaCCN: GARE - MONUMENT ST DENIS DE VAUX","from":"GARE","to":"MONUMENT ST DENIS DE VAUX","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":46,"s":[[2440113307,29],[2535129843,30],[2440113309,31],[6081476433280,32],[11009060928,35],[11009060929,36],[11009060932,37],[11010122183,38],[11009060933,39]]},
+  {"id":3043484245893,"t":{"ref":"RésaCCN","name":"RésaCCN: MONUMENT ST DENIS DE VAUX - GARE","from":"MONUMENT ST DENIS DE VAUX","to":"GARE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":46,"s":[[11009060933,8],[11010122183,9],[11009060932,10],[11009060929,11],[1448896201,12],[6041232316808,15],[11010063645,16],[11010063644,17],[11010063640,18]]}
+]
+}

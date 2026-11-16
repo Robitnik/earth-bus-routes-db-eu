@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2685,3717],
+"stops":[
+  {"id":765384961,"lat":44.291982,"lon":5.897393,"k":"p","n":"Le Poët - Village Mairie"},
+  {"id":1306241391,"lat":44.282633,"lon":5.891001,"k":"x","n":"Lotissement Cléa Les Fourniers"},
+  {"id":1328040595,"lat":44.291539,"lon":5.897569,"k":"p","n":"Le Poët - Village Mairie"},
+  {"id":1399810190,"lat":44.287098,"lon":5.895331,"k":"x","n":"Lotissement Pré Nozière"},
+  {"id":2268294272,"lat":44.267643,"lon":5.858357,"k":"x","n":"Mison - Les Armands"},
+  {"id":4034361982,"lat":44.255523,"lon":5.88164,"k":"x","n":"Mison - La Clapisse"},
+  {"id":4034369902,"lat":44.260595,"lon":5.863167,"k":"x","n":"Mison - Girolles"},
+  {"id":4823656224,"lat":44.267942,"lon":5.857641,"k":"p","n":"Mison - Les Armands"},
+  {"id":4823656225,"lat":44.267696,"lon":5.858358,"k":"p","n":"Mison - Les Armands","ref":"712"},
+  {"id":4823656227,"lat":44.260554,"lon":5.863114,"k":"p","n":"Mison - Girolles","ref":"715"},
+  {"id":4823656255,"lat":44.255556,"lon":5.88165,"k":"p","n":"Mison - La Clapisse","ref":"710"},
+  {"id":6864134576,"lat":44.291969,"lon":5.897278,"k":"x","n":"Le Poët - Village Mairie"},
+  {"id":6864134577,"lat":44.291609,"lon":5.897604,"k":"x","n":"Le Poët - Village Mairie"},
+  {"id":10314535079,"lat":44.268025,"lon":5.857627,"k":"x","n":"Mison - Les Armands"},
+  {"id":10604160801,"lat":44.282548,"lon":5.890952,"k":"p","n":"Lotissement Cléa les Fourniers"},
+  {"id":10605562642,"lat":44.287037,"lon":5.89539,"k":"p","n":"Lotissement Pré Nozière"},
+  {"id":10605562643,"lat":44.287121,"lon":5.895257,"k":"p","n":"Lotissement Pré Nozière"},
+  {"id":10824029873,"lat":44.26577,"lon":5.857632,"k":"p","n":"Mison - École"},
+  {"id":10824029874,"lat":44.26576,"lon":5.857671,"k":"x","n":"Mison - École"}
+],
+"routes":[
+  {"id":6877340,"t":{"ref":"490","name":"Bus 490 : Mison => Sisteron","from":"Mison","to":"Sisteron","network":"Zou !","operator":"PAYAN","colour":"#d64101","route":"bus","public_transport:version":"2"},"n":9,"s":[[4823656255,1],[4823656225,2],[4823656227,3]]},
+  {"id":6877341,"t":{"ref":"490","name":"Bus 490 : Sisteron => Mison","from":"Sisteron","to":"Mison","network":"Zou !","operator":"PAYAN","colour":"#d64101","route":"bus","public_transport:version":"2"},"n":9,"s":[[4823656255,5],[4823656225,6],[4823656227,7]]},
+  {"id":10132841,"t":{"ref":"500","name":"Bus 500 : Ribiers => Gap","from":"Ribiers","to":"Gap","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":19,"s":[[765384961,9]]},
+  {"id":10132842,"t":{"ref":"500","name":"Bus 500 : Gap => Ribiers","from":"Gap","to":"Ribiers","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":21,"s":[[765384961,13]]},
+  {"id":15427738,"t":{"ref":"5003","name":"Bus 5003 : Lotissement les Blaches => Laragne-Montéglin - Collège Hauts de Plaine","from":"Lotissement les Blaches","to":"Laragne-Montéglin - Collège Hauts de Plaine","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10605562643,3],[10604160801,4],[765384961,5]]},
+  {"id":15427739,"t":{"ref":"5003","name":"Bus 5003 : Laragne-Montéglin - Collège Hauts de Plaine => Les Donnets","from":"Laragne-Montéglin - Collège Hauts de Plaine","to":"Les Donnets","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[1328040595,7],[10605562643,8],[10604160801,9]]},
+  {"id":15430176,"t":{"ref":"5004","name":"Bus 5004 : Sisteron - Lycée/Collège Paul Arène => Monetier-Allemont - La Cantonnière","from":"Sisteron - Lycée/Collège Paul Arène","to":"Monetier-Allemont - La Cantonnière","network":"Zou !","operator":"Autocars du Laragnais;Plattey Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10604160801,3],[10605562642,4],[765384961,5]]},
+  {"id":15430177,"t":{"ref":"5004","name":"Bus 5004 : Monetier-Allemont - La Cantonnière => Sisteron - Lycée/Collège Paul Arène","from":"Monetier-Allemont - La Cantonnière","to":"Sisteron - Lycée/Collège Paul Arène","network":"Zou !","operator":"Autocars du Laragnais;Plattey Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[1328040595,6],[10605562643,7],[10604160801,8]]},
+  {"id":15555259,"t":{"ref":"500","name":"Bus 500 : La Saulce => Ribiers","from":"La Saulce","to":"Ribiers","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":17,"s":[[765384961,9]]},
+  {"id":15555260,"t":{"ref":"500","name":"Bus 500 : Ribiers => La Saulce","from":"Ribiers","to":"La Saulce","network":"Zou !","operator":"JACOB","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":15,"s":[[765384961,9]]},
+  {"id":15743556,"t":{"ref":"4903","name":"Bus 4903 : École => ZA les Grandes Blaches","from":"École","to":"ZA les Grandes Blaches","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10824029873,1]]},
+  {"id":15743557,"t":{"ref":"4903","name":"Bus 4903 : Bramafan => École","from":"Bramafan","to":"École","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10824029873,5]]},
+  {"id":21228298,"t":{"ref":"5004","name":"Bus 5004 : Sisteron - Parking Donnet => Monetier-Allemont - La Cantonnière","from":"Sisteron - Parking Donnet","to":"Monetier-Allemont - La Cantonnière","network":"Zou !","operator":"Autocars du Laragnais;Plattey Voyages","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[10604160801,3],[10605562642,4],[765384961,5]]},
+  {"id":3060129918428,"t":{"ref":"400","name":"Bus 400 : Veynes => Digne","from":"Veynes - Gare SNCF","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":27,"s":[[10314535079,9]]},
+  {"id":3072772445636,"t":{"ref":"400","name":"Bus 400 : Digne => Veynes","from":"Digne-les-Bains - Gare Routière","to":"Veynes - Gare SNCF","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":24,"s":[[4823656225,16]]}
+]
+}

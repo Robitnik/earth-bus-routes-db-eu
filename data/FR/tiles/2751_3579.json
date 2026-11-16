@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2751,3579],
+"stops":[
+  {"id":2354137467,"lat":47.556684,"lon":-1.033457,"k":"x"},
+  {"id":2354137846,"lat":47.560485,"lon":-1.034152,"k":"x","n":"Gendarmerie"},
+  {"id":5456650926,"lat":47.560452,"lon":-1.03424,"k":"p","n":"Gendarmerie"},
+  {"id":13107743848,"lat":47.560323,"lon":-1.042183,"k":"p","n":"Place de l'Église"},
+  {"id":13107744049,"lat":47.560475,"lon":-1.033851,"k":"p","n":"Gendarmerie"}
+],
+"routes":[
+  {"id":8081155,"t":{"ref":"409","name":"Car Aléop 409 : Angers → Candé","from":"Gare Routière SNCF","to":"Candé - Place de l'église","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#768F53","route":"bus","public_transport:version":"2"},"n":6,"s":[[5456650926,6]]},
+  {"id":8085465,"t":{"ref":"409","name":"Car Aléop 409 : Candé → Angers","from":"Candé - Place de l'église","to":"Gare Routière SNCF","network":"Aléop en Maine-et-Loire","operator":"Aléop","colour":"#768F53","route":"bus","public_transport:version":"2"},"n":5,"s":[[5456650926,1]]},
+  {"id":3013047433040,"t":{"ref":"409","name":"409: Gare Routière - Gare Routière et SNCF","from":"Gare Routière","to":"Gare Routière et SNCF","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":9,"s":[[13107743848,3],[2354137846,4]]},
+  {"id":3046960496370,"t":{"ref":"409","name":"409: Gare Routière - Gare Routière et SNCF","from":"Gare Routière","to":"Gare Routière et SNCF","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":9,"s":[[13107743848,3],[13107744049,4]]},
+  {"id":3067911664184,"t":{"ref":"409","name":"409: Gare Routière et SNCF - Gare Routière","from":"Gare Routière et SNCF","to":"Gare Routière","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":9,"s":[[5456650926,6],[13107743848,7]]},
+  {"id":3070630539735,"t":{"ref":"409","name":"409: Gare Routière et SNCF - Gare Routière","from":"Gare Routière et SNCF","to":"Gare Routière","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":9,"s":[[5456650926,6],[13107743848,7]]},
+  {"id":3078969556579,"t":{"ref":"409","name":"409: Place de l'Église - Gare Routière et SNCF","from":"Place de l'Église","to":"Gare Routière et SNCF","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":7,"s":[[13107743848,1],[13107744049,2]]},
+  {"id":3098844207315,"t":{"ref":"409","name":"409: Place de l'Église - Gare Routière et SNCF","from":"Place de l'Église","to":"Gare Routière et SNCF","operator":"Aléop en Maine-et-Loire","route":"bus","public_transport:version":"2"},"n":7,"s":[[13107743848,1],[2354137846,2]]}
+]
+}

@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2794,3674],
+"stops":[
+  {"id":10210544626,"lat":49.72622,"lon":3.720915,"k":"x","n":"Voyenne"},
+  {"id":11983822447,"lat":49.726238,"lon":3.720952,"k":"p","n":"Voyenne"},
+  {"id":11983822448,"lat":49.726084,"lon":3.721132,"k":"p","n":"Voyenne"},
+  {"id":11983822449,"lat":49.726126,"lon":3.721154,"k":"x","n":"Voyenne"},
+  {"id":6060824500372,"lat":49.723842,"lon":3.730776,"k":"p","n":"Voyenne Ecole","g":1},
+  {"id":6090851633277,"lat":49.727376,"lon":3.714676,"k":"p","n":"Erlon","g":1}
+],
+"routes":[
+  {"id":5572387,"t":{"ref":"P64","name":"TER P64 : Laon → Hirson","from":"Laon","to":"Hirson","network":"TER Hauts-de-France","operator":"SNCF Voyageurs Étoile d'Amiens","colour":"#006600","route":"bus","public_transport:version":"2"},"n":10,"s":[[11983822448,5]]},
+  {"id":17722069,"t":{"ref":"P64","name":"TER P64 : Hirson → Laon","from":"Hirson","to":"Laon","network":"TER Hauts-de-France","operator":"SNCF Voyageurs Étoile d'Amiens","colour":"#006600","route":"bus","public_transport:version":"2"},"n":10,"s":[[11983822447,6]]},
+  {"id":3043346652558,"t":{"ref":"P64","name":"P64: Laon - Hirson","from":"Laon","to":"Hirson","operator":"SNCF Voyageurs EA","route":"bus","public_transport:version":"2"},"n":12,"s":[[6090851633277,5],[10210544626,6],[6060824500372,7]]},
+  {"id":3044674271622,"t":{"ref":"P64","name":"P64: Hirson - Laon","from":"Hirson","to":"Laon","operator":"SNCF Voyageurs EA","route":"bus","public_transport:version":"2"},"n":12,"s":[[6060824500372,6],[10210544626,7],[6090851633277,8]]}
+]
+}

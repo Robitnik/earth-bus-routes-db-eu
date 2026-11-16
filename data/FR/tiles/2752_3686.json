@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2752,3686],
+"stops":[
+  {"id":3489111100,"lat":47.618994,"lon":4.336966,"k":"x","n":"Montbard - Gare SNCF"},
+  {"id":5721354665,"lat":47.626476,"lon":4.339663,"k":"x"},
+  {"id":9916498816,"lat":47.622934,"lon":4.340161,"k":"p","n":"Lycée -"},
+  {"id":12037752809,"lat":47.62569,"lon":4.349757,"k":"p","n":"Montbard Corbeton"}
+],
+"routes":[
+  {"id":4851147,"t":{"ref":"TER 16","name":"TER 16 : Châtillon - Montbard - Avallon","network":"TER Bourgogne","operator":"SNCF Voyageurs","colour":"orange","route":"bus","public_transport:version":"1"},"n":16,"s":[[3489111100,16]]},
+  {"id":3072222759843,"t":{"ref":"120","name":"120: Gare SNCF - - Place Charles De Gaulle -","from":"Gare SNCF -","to":"Place Charles De Gaulle -","operator":"MOBIGO 21","route":"bus","public_transport:version":"2"},"n":9,"s":[[3489111100,1]]},
+  {"id":3074398128010,"t":{"ref":"126","name":"126: Gare SNCF - - Gare SNCF -","from":"Gare SNCF -","to":"Gare SNCF -","operator":"MOBIGO 21","route":"bus","public_transport:version":"2"},"n":9,"s":[[3489111100,1],[9916498816,2]]},
+  {"id":3088555299628,"t":{"ref":"126","name":"126: Gare SNCF - - Gare SNCF -","from":"Gare SNCF -","to":"Gare SNCF -","operator":"MOBIGO 21","route":"bus","public_transport:version":"2"},"n":9,"s":[[9916498816,8],[3489111100,9]]},
+  {"id":3092735615169,"t":{"ref":"126","name":"126: Gare SNCF - - Gare SNCF -","from":"Gare SNCF -","to":"Gare SNCF -","operator":"MOBIGO 21","route":"bus","public_transport:version":"2"},"n":9,"s":[[9916498816,8],[3489111100,9]]}
+]
+}

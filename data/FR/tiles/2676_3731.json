@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2676,3731],
+"stops":[
+  {"id":1221172341,"lat":43.810702,"lon":6.553146,"k":"x","n":"Castellane - Eoulx hameau"},
+  {"id":4426815312,"lat":43.811112,"lon":6.5986,"k":"x","n":"Peyroules - La Bâtie"},
+  {"id":4426815313,"lat":43.811873,"lon":6.598114,"k":"x","n":"Peyroules - La Bâtie"},
+  {"id":4426815499,"lat":43.830438,"lon":6.557633,"k":"p","n":"La Garde - Village"},
+  {"id":4426815500,"lat":43.830496,"lon":6.55748,"k":"x","n":"La Garde - Village"},
+  {"id":4426815501,"lat":43.830574,"lon":6.557458,"k":"p","n":"La Garde - Village"},
+  {"id":7560584009,"lat":43.81191,"lon":6.598022,"k":"p","n":"Peyroules - La Bâtie"},
+  {"id":7560584010,"lat":43.811114,"lon":6.598681,"k":"p","n":"Peyroules - La Bâtie"},
+  {"id":10678093124,"lat":43.811822,"lon":6.598739,"k":"p","n":"Peyroules - La Bâtie"},
+  {"id":10678093125,"lat":43.811835,"lon":6.598835,"k":"x","n":"Peyroules - La Bâtie"},
+  {"id":10678093997,"lat":43.824584,"lon":6.569976,"k":"p","n":"La Garde - Camping Les Collines"},
+  {"id":10678093998,"lat":43.824455,"lon":6.570011,"k":"p","n":"La Garde - Camping Les Collines"},
+  {"id":10678093999,"lat":43.824517,"lon":6.569971,"k":"x","n":"La Garde - Camping Les Collines"},
+  {"id":10678094000,"lat":43.824514,"lon":6.570019,"k":"x","n":"La Garde - Camping Les Collines"},
+  {"id":10683769978,"lat":43.810653,"lon":6.55306,"k":"p","n":"Castellane - Eoulx hameau"},
+  {"id":10683769979,"lat":43.823703,"lon":6.562095,"k":"p","n":"La Garde - Le Clavet"},
+  {"id":10683769980,"lat":43.823781,"lon":6.561886,"k":"p","n":"La Garde - Le Clavet"},
+  {"id":10683769981,"lat":43.823688,"lon":6.56203,"k":"x","n":"La Garde - Le Clavet"},
+  {"id":10683769982,"lat":43.823804,"lon":6.561943,"k":"x","n":"La Garde - Le Clavet"}
+],
+"routes":[
+  {"id":15098286,"t":{"ref":"51","name":"Bus 51 : Nice - Aéroport => Digne-les-Bains - Gare Routière","from":"Nice - Aéroport","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"SCAL;Phocéens Cars","colour":"#61cef6","route":"bus","public_transport:version":"2"},"n":20,"s":[[7560584010,10],[4426815501,11]]},
+  {"id":15098287,"t":{"ref":"51","name":"Bus 51 : Digne-les-Bains - Gare Routière => Nice - Aéroport","from":"Digne-les-Bains - Gare Routière","to":"Nice - Aéroport","network":"Zou !","operator":"SCAL;Phocéens Cars","colour":"#61cef6","route":"bus","public_transport:version":"2"},"n":21,"s":[[4426815499,10],[7560584009,11]]},
+  {"id":15513213,"t":{"ref":"4503","name":"Bus 4503 : Peyroules => La Garde => Castellane - Collège","from":"Peyroules","to":"Castellane - Collège","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10678093124,5],[10678093997,6],[4426815501,7]]},
+  {"id":15513214,"t":{"ref":"4503","name":"Bus 4503 : Castellane => La Garde => Peyroules","from":"Castellane","to":"Peyroules","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[4426815499,5],[10678093998,6],[7560584009,7]]},
+  {"id":15513215,"t":{"ref":"4503","name":"Bus 4503 : Peyroules => La Garde => Castellane","from":"Peyroules","to":"Castellane","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10678093124,5],[10678093997,6],[4426815501,7]]},
+  {"id":15517700,"t":{"ref":"4505","name":"Bus 4505 : Castellane => Eoulx","from":"Castellane","to":"Eoulx","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10683769979,5],[10683769978,6]]},
+  {"id":15517701,"t":{"ref":"4505","name":"Bus 4505 : Eoulx => Castellane - Collège","from":"Eoulx","to":"Castellane - Collège","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10683769978,4],[10683769979,5]]},
+  {"id":15517702,"t":{"ref":"4505","name":"Bus 4505 : Eoulx => Castellane","from":"Eoulx","to":"Castellane","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10683769978,4],[10683769979,5]]}
+]
+}

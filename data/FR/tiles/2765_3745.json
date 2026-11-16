@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2765,3745],
+"stops":[
+  {"id":3948661465,"lat":48.270151,"lon":7.269314,"k":"p","n":"LIÈPVRE - Rue Guth"},
+  {"id":13355494789,"lat":48.2702,"lon":7.285369,"k":"p","n":"LIÈPVRE - Groupe Schmidt"},
+  {"id":13355727280,"lat":48.270031,"lon":7.269751,"k":"p","n":"LIÈPVRE - Rue Guth"},
+  {"id":13355727281,"lat":48.270734,"lon":7.280221,"k":"p","n":"LIÈPVRE - Pharmacie"},
+  {"id":13355727282,"lat":48.270865,"lon":7.280836,"k":"p","n":"LIÈPVRE - Centre"},
+  {"id":6049126651736,"lat":48.270932,"lon":7.282034,"k":"p","n":"Lièpvre Centre","g":1},
+  {"id":6092701661356,"lat":48.270932,"lon":7.282034,"k":"p","n":"Lièpvre Centre","g":1}
+],
+"routes":[
+  {"id":5865346,"t":{"ref":"A 20","name":"TER A 20 : Sélestat - Sainte-Marie-aux-Mines","from":"Sélestat","to":"Sainte-Marie-aux-Mines","network":"TER Grand Est","operator":"SNCF Voyageurs","colour":"#fed452","route":"bus","public_transport:version":"2"},"n":10,"s":[[3948661465,1]]},
+  {"id":5865347,"t":{"ref":"A 21","name":"TER A 21 : Sélestat - Sainte-Marie-aux-Mines - Saint-Dié-des-Vosges","from":"Sélestat","to":"Saint Dié des Vosges","network":"TER Grand Est","operator":"SNCF Voyageurs","colour":"#fed452","route":"bus","public_transport:version":"2"},"n":11,"s":[[3948661465,1]]},
+  {"id":19914769,"t":{"ref":"ELSA D1","name":"ELSA D1 : MUTTERSHOLTZ - Route de Hilsenheim -> LIÈPVRE - Groupe Schmidt","from":"MUTTERSHOLTZ - Route de Hilsenheim","to":"LIÈPVRE - Groupe Schmidt","network":"TIS","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,12]]},
+  {"id":19921100,"t":{"ref":"ELSA D2","name":"ELSA D2 : LA VANCELLE - La Vancelle Gare -> SAINTE-MARIE-AUX-MINES - Théâtre","from":"LA VANCELLE - La Vancelle Gare","to":"SAINTE-MARIE-AUX-MINES - Théâtre","network":"TIS","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,3],[13355727282,4],[3948661465,5]]},
+  {"id":19921102,"t":{"ref":"ELSA D1","name":"ELSA D1 : LIÈPVRE - Groupe Schmidt -> MUTTERSHOLTZ - Route de Hilsenheim","from":"LIÈPVRE - Groupe Schmidt","to":"MUTTERSHOLTZ - Route de Hilsenheim","network":"TIS","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,1]]},
+  {"id":3006718556154,"t":{"ref":"P811","name":"P811: Sélestat - Ste-Marie-aux-Ms P. de Gaulle","from":"Sélestat","to":"Ste-Marie-aux-Ms P. de Gaulle","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":14,"s":[[6092701661356,5],[3948661465,6]]},
+  {"id":3020036945709,"t":{"ref":"D1","name":"D1: Cuisines Schmidt - Hilsenheim","from":"Cuisines Schmidt","to":"Hilsenheim","operator":"CCSelestat","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,1]]},
+  {"id":3024167746639,"t":{"ref":"D1","name":"D1: Cuisines Schmidt - Hilsenheim","from":"Cuisines Schmidt","to":"Hilsenheim","operator":"ELSA","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,1]]},
+  {"id":3042114860132,"t":{"ref":"D2","name":"D2: Theatre - La Vancelle Gare","from":"Theatre","to":"La Vancelle Gare","operator":"ELSA","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355727280,8],[13355727281,9],[13355494789,10]]},
+  {"id":3052932512637,"t":{"ref":"D1","name":"D1: Hilsenheim - Cuisines Schmidt","from":"Hilsenheim","to":"Cuisines Schmidt","operator":"CCSelestat","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,12]]},
+  {"id":3055074450656,"t":{"ref":"P811","name":"P811: Saint-Dié-des-Vosges - Sélestat","from":"Saint-Dié-des-Vosges","to":"Sélestat","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":23,"s":[[3948661465,18],[13355727282,19]]},
+  {"id":3055303817538,"t":{"ref":"D2","name":"D2: La Vancelle Gare - Theatre","from":"La Vancelle Gare","to":"Theatre","operator":"ELSA","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,3],[13355727282,4],[13355727280,5]]},
+  {"id":3058346274952,"t":{"ref":"D1","name":"D1: Hilsenheim - Cuisines Schmidt","from":"Hilsenheim","to":"Cuisines Schmidt","operator":"ELSA","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,12]]},
+  {"id":3061723393232,"t":{"ref":"D2","name":"D2: La Vancelle Gare - Theatre","from":"La Vancelle Gare","to":"Theatre","operator":"CCSelestat","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355494789,3],[13355727282,4],[13355727280,5]]},
+  {"id":3077263874619,"t":{"ref":"P811","name":"P811: Sélestat - Ste-Marie-aux-Ms P. de Gaulle","from":"Sélestat","to":"Ste-Marie-aux-Ms P. de Gaulle","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":14,"s":[[6049126651736,5],[3948661465,6]]},
+  {"id":3086618629752,"t":{"ref":"P811","name":"P811: Saint-Dié-des-Vosges - Sélestat","from":"Saint-Dié-des-Vosges","to":"Sélestat","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":23,"s":[[3948661465,18],[13355727282,19]]},
+  {"id":3089078161609,"t":{"ref":"P811","name":"P811: Sélestat - Saint-Dié-des-Vosges","from":"Sélestat","to":"Saint-Dié-des-Vosges","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":23,"s":[[6092701661356,5],[3948661465,6]]},
+  {"id":3089737637257,"t":{"ref":"P811","name":"P811: Ste-Marie-aux-Mines Mairie - Sélestat","from":"Ste-Marie-aux-Mines Mairie","to":"Sélestat","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":15,"s":[[3948661465,10],[13355727282,11]]},
+  {"id":3091077823619,"t":{"ref":"P811","name":"P811: Ste-Marie-aux-Mines Mairie - Sélestat","from":"Ste-Marie-aux-Mines Mairie","to":"Sélestat","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":15,"s":[[3948661465,10],[13355727282,11]]},
+  {"id":3093284324345,"t":{"ref":"P811","name":"P811: Sélestat - Saint-Dié-des-Vosges","from":"Sélestat","to":"Saint-Dié-des-Vosges","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":23,"s":[[6049126651736,5],[3948661465,6]]},
+  {"id":3098735566727,"t":{"ref":"D2","name":"D2: Theatre - La Vancelle Gare","from":"Theatre","to":"La Vancelle Gare","operator":"CCSelestat","route":"bus","public_transport:version":"2"},"n":12,"s":[[13355727280,8],[13355727281,9],[13355494789,10]]}
+]
+}

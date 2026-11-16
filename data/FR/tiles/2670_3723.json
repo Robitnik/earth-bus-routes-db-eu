@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2670,3723],
+"stops":[
+  {"id":5868715320,"lat":43.526897,"lon":6.151543,"k":"p","n":"Cotignac - Place Joseph Sigaud"},
+  {"id":5868715321,"lat":43.526981,"lon":6.151465,"k":"p","n":"Cotignac - Place Joseph Sigaud"},
+  {"id":5868715322,"lat":43.526949,"lon":6.151571,"k":"x","n":"Cotignac - Place Joseph Sigaud"},
+  {"id":5868715323,"lat":43.526918,"lon":6.151416,"k":"x","n":"Cotignac - Place Joseph Sigaud"},
+  {"id":6013960109519,"lat":43.510312,"lon":6.156582,"k":"p","n":"Loup à Loup","g":1},
+  {"id":6038433816222,"lat":43.526704,"lon":6.150228,"k":"p","n":"Place de la République","g":1},
+  {"id":6039238934149,"lat":43.526637,"lon":6.150075,"k":"p","n":"Place de la République","g":1}
+],
+"routes":[
+  {"id":8620125,"t":{"ref":"103","name":"Bus 103 : Cotignac => Brignoles","from":"Cotignac","to":"Brignoles","network":"Mouv'enbus","operator":"Communauté d’Agglomération de la Provence Verte","colour":"#0093d4","route":"bus","public_transport:version":"2"},"n":7,"s":[[5868715321,1]]},
+  {"id":8620126,"t":{"ref":"103","name":"Bus 103 : Brignoles => Cotignac","from":"Brignoles","to":"Cotignac","network":"Mouv'enbus","operator":"Communauté d’Agglomération de la Provence Verte","colour":"#0093d4","route":"bus","public_transport:version":"2"},"n":8,"s":[[5868715320,8]]},
+  {"id":12705385,"t":{"ref":"103","name":"Bus 103 : Brignoles => Saint-Jean => Cotignac","from":"Brignoles","to":"Cotignac","network":"Mouv'enbus","operator":"Communauté d’Agglomération de la Provence Verte","colour":"#0093d4","route":"bus","public_transport:version":"2"},"n":7,"s":[[5868715320,7]]},
+  {"id":13387243,"t":{"ref":"8423","name":"Bus 8423 : Cotignac => Lorgues","from":"Cotignac","to":"Lorgues","network":"Zou !","operator":"Autocars Blanc","colour":"#b9d431","route":"bus","public_transport:version":"2"},"n":8,"s":[[5868715320,1]]},
+  {"id":13389667,"t":{"ref":"8423","name":"Bus 8423 : Lorgues => Cotignac","from":"Lorgues","to":"Cotignac","network":"Zou !","operator":"Autocars Blanc","colour":"#b9d431","route":"bus","public_transport:version":"2"},"n":8,"s":[[5868715321,8]]},
+  {"id":3056536309438,"t":{"ref":"R103","name":"R103: Place Péri - Carcès - Place Clemenceau (Ets Jeanne d'Arc)","from":"Place Péri - Carcès","to":"Place Clemenceau (Ets Jeanne d'Arc)","operator":"MOUVENBUS 2","route":"bus","public_transport:version":"2"},"n":10,"s":[[6038433816222,3],[6013960109519,4]]},
+  {"id":3059746595056,"t":{"ref":"R103","name":"R103: Place Clemenceau (Ets Jeanne d'Arc) - Place Péri - Carcès","from":"Place Clemenceau (Ets Jeanne d'Arc)","to":"Place Péri - Carcès","operator":"MOUVENBUS 2","route":"bus","public_transport:version":"2"},"n":11,"s":[[6013960109519,8],[6039238934149,9]]}
+]
+}

@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2694,3732],
+"stops":[
+  {"id":282339249,"lat":44.7072,"lon":6.604305,"k":"p","n":"Saint-Crépin - Gare RN 94"},
+  {"id":4438199581,"lat":44.706337,"lon":6.604522,"k":"p","n":"Saint-Crépin - Gare RN 94"},
+  {"id":6983023110,"lat":44.706257,"lon":6.608104,"k":"p","n":"Saint-Crépin - Place du Village"},
+  {"id":6983023111,"lat":44.706196,"lon":6.608033,"k":"p","n":"Saint-Crépin - Place du Village"},
+  {"id":8414303570,"lat":44.707141,"lon":6.604172,"k":"x","n":"Saint-Crépin - Gare RN 94"},
+  {"id":8414303571,"lat":44.706342,"lon":6.604646,"k":"x","n":"Saint-Crépin - Gare RN 94"},
+  {"id":8414303572,"lat":44.706208,"lon":6.608075,"k":"x","n":"Saint-Crépin - Place du Village"},
+  {"id":10750038479,"lat":44.70192,"lon":6.609237,"k":"p","n":"Saint-Crépin - Rd Point / Ets Queyras"},
+  {"id":10750038480,"lat":44.70212,"lon":6.609371,"k":"p","n":"Saint-Crépin - Rd Point / Ets Queyras"},
+  {"id":10750038481,"lat":44.702057,"lon":6.60929,"k":"x","n":"Saint-Crépin - Rd Point / Ets Queyras"},
+  {"id":10750038485,"lat":44.701979,"lon":6.609314,"k":"x","n":"Saint-Crépin - Rd Point / Ets Queyras"}
+],
+"routes":[
+  {"id":15624096,"t":{"ref":"540","name":"Bus 540 : Briançon => Collège Les Giraudes => Embrun","from":"Briançon","to":"Embrun","network":"Zou !","operator":"Resalp","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":25,"s":[[4438199581,19]]},
+  {"id":15624097,"t":{"ref":"540","name":"Bus 540 : Briançon => Embrun => Lycée des Métiers","from":"Briançon","to":"Lycée des Métiers","network":"Zou !","operator":"Resalp","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":25,"s":[[4438199581,18]]},
+  {"id":15624098,"t":{"ref":"540","name":"Bus 540 : Briançon => Saint-Martin-de-Queyrières => Embrun","from":"Briançon","to":"Embrun","network":"Zou !","operator":"Resalp","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":26,"s":[[4438199581,18],[10750038479,19]]},
+  {"id":15624099,"t":{"ref":"540","name":"Bus 540 : Lycée des Métiers => Embrun => Briançon","from":"Lycée des Métiers","to":"Briançon","network":"Zou !","operator":"Resalp","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":26,"s":[[282339249,8]]},
+  {"id":15859480,"t":{"ref":"5714","name":"Bus 5714 : Guillestre - Collège Hautes Vallées => Réotier - Saint-Thomas","from":"Guillestre - Collège Hautes Vallées","to":"Réotier - Saint-Thomas","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10750038480,7],[6983023110,8]]},
+  {"id":15859481,"t":{"ref":"5714","name":"Bus 5714 : Eygliers - Chapelle St-Guillaume => Guillestre - Collège Hautes Vallées","from":"Eygliers - Chapelle St-Guillaume","to":"Guillestre - Collège Hautes Vallées","network":"Zou !","operator":"Autocars Imbert","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[6983023111,5],[10750038479,6]]},
+  {"id":3012435567775,"t":{"ref":"540","name":"Bus 540 : Briançon => Puy-Saint-André => Embrun","from":"Briançon","to":"Embrun","network":"Zou !","operator":"Resalp","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":24,"s":[[8414303571,18]]},
+  {"id":3044004007189,"t":{"ref":"69","name":"69: Gare SNCF - Gare Routiere","from":"Gare SNCF","to":"Gare Routiere","operator":"LER ! ZOU","route":"bus","public_transport:version":"2"},"n":28,"s":[[8414303570,8]]},
+  {"id":3066329810929,"t":{"ref":"540","name":"Bus 540 : Embrun => Briançon","from":"Embrun","to":"Briançon","network":"Zou !","operator":"Resalp","colour":"#f6951d","route":"bus","public_transport:version":"2"},"n":25,"s":[[8414303570,7]]},
+  {"id":3084774448946,"t":{"ref":"69","name":"69: Gare Routiere - Gare SNCF","from":"Gare Routiere","to":"Gare SNCF","operator":"LER ! ZOU","route":"bus","public_transport:version":"2"},"n":29,"s":[[8414303571,21]]}
+]
+}

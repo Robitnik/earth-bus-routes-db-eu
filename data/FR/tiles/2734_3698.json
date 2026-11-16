@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2734,3698],
+"stops":[
+  {"id":849599607,"lat":46.701335,"lon":4.926357,"k":"x","n":"CROIX DU TILLEUL"},
+  {"id":1692542879,"lat":46.744768,"lon":4.909972,"k":"x"},
+  {"id":2056650697,"lat":46.731288,"lon":4.924837,"k":"p","n":"Le Grand Mont"},
+  {"id":2056650698,"lat":46.731324,"lon":4.924468,"k":"p","n":"Le Grand Mont"},
+  {"id":2756139045,"lat":46.745159,"lon":4.909098,"k":"p","n":"La Rongère"},
+  {"id":2756139063,"lat":46.749985,"lon":4.901686,"k":"p","n":"Mairie","ref":"EPMAI1"},
+  {"id":9870511063,"lat":46.74073,"lon":4.913724,"k":"x"},
+  {"id":11012592366,"lat":46.703003,"lon":4.917961,"k":"x","n":"RUE DE L'EGLISE"},
+  {"id":11012592367,"lat":46.702956,"lon":4.917982,"k":"p","n":"Marnay - Rue de l'Église","ref":"MARUE1"},
+  {"id":11012592368,"lat":46.701327,"lon":4.926425,"k":"p","n":"Marnay - Croix du Tilleul","ref":"MACRT1"},
+  {"id":11013109544,"lat":46.744905,"lon":4.910107,"k":"p","n":"La Rongère","ref":"EPRON1"},
+  {"id":11013109545,"lat":46.740833,"lon":4.913673,"k":"p","n":"Le Grand Chêne","ref":"EPGRA1"}
+],
+"routes":[
+  {"id":3996305,"t":{"ref":"H","name":"Ligne H : Épervans → Chalon Pôle Colisée","from":"Le Grand Chêne","to":"Pôle Colisée","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[11013109545,1],[11013109544,2],[2756139063,3]]},
+  {"id":16028789,"t":{"ref":"G","name":"Ligne G : Chalon Prés Devant → Saint-Cyr","from":"Gigny-sur-Saône - Café","to":"Prés Devant","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":15,"s":[[11012592367,8],[11012592368,9]]},
+  {"id":16028790,"t":{"ref":"G","name":"Ligne G : Saint-Rémy CES Pasteur → Marnay","from":"Collège Pasteur","to":"Marnay - Croix du Platre","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":15,"s":[[11012592367,13],[11012592368,14]]},
+  {"id":16028792,"t":{"ref":"G","name":"Ligne G : Marnay → Saint-Rémy CES Pasteur","from":"Marnay - Les Attraits","to":"Collège Pasteur","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":15,"s":[[11012592368,4],[11012592367,5]]},
+  {"id":16028804,"t":{"ref":"G","name":"Ligne G : Gigny-sur-Saône → Chalon Prés Devant","from":"Gigny-sur-Saône - Café","to":"Prés Devant","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":14,"s":[[11012592368,9],[11012592367,10]]},
+  {"id":16029386,"t":{"ref":"H","name":"Ligne H : Chalon Place Mathias → Épervans","from":"Place Mathias","to":"Le Grand Chêne","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[2756139063,7],[11013109544,8],[11013109545,9]]},
+  {"id":16029387,"t":{"ref":"H","name":"Ligne H : Chalon Dunant → Épervans","from":"Dunant","to":"Le Grand Chêne","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":5,"s":[[2756139063,3],[11013109544,4],[11013109545,5]]},
+  {"id":16029388,"t":{"ref":"H","name":"Ligne H : Chalon Pôle Colisée → Épervans","from":"Pôle Colisée","to":"Le Grand Chêne","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":9,"s":[[2756139063,7],[11013109544,8],[11013109545,9]]},
+  {"id":16029389,"t":{"ref":"H","name":"Ligne H : Épervans → Chalon Hilaire de Chardonnet","from":"Le Grand Chêne","to":"Hilaire de Chardonnet","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":5,"s":[[11013109545,1],[11013109544,2],[2756139063,3]]},
+  {"id":3023877948975,"t":{"ref":"RésaPS","name":"RésaPS: CHATEAU LA CHARMEE - GARE","from":"CHATEAU LA CHARMEE","to":"GARE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":27,"s":[[849599607,7],[11012592366,8]]},
+  {"id":3025368242113,"t":{"ref":"703","name":"703: Gare Routière - Gare SNCF","from":"Gare Routière","to":"Gare SNCF","operator":"CAR Mobigo (71)","route":"bus","public_transport:version":"2"},"n":16,"s":[[2056650698,4]]},
+  {"id":3026621744232,"t":{"ref":"703","name":"703: Gare SNCF - Gare Routière","from":"Gare SNCF","to":"Gare Routière","operator":"CAR Mobigo (71)","route":"bus","public_transport:version":"2"},"n":16,"s":[[2056650698,13]]},
+  {"id":3037035181611,"t":{"ref":"RésaBC","name":"RésaBC: PLACE MATHIAS - LE GRAND CHENE","from":"PLACE MATHIAS","to":"LE GRAND CHENE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":28,"s":[[2756139063,26],[11013109544,27],[11013109545,28]]},
+  {"id":3037208559619,"t":{"ref":"RésaBC","name":"RésaBC: LE GRAND CHENE - PLACE MATHIAS","from":"LE GRAND CHENE","to":"PLACE MATHIAS","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":28,"s":[[11013109545,1],[11013109544,2]]},
+  {"id":3049660354040,"t":{"ref":"RésaPS","name":"RésaPS: GARE - CHATEAU LA CHARMEE","from":"GARE","to":"CHATEAU LA CHARMEE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":27,"s":[[11012592367,20],[11012592368,21]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2740,3724],
+"stops":[
+  {"id":7146760245,"lat":47.045084,"lon":6.241924,"k":"p","n":"Gaz et Eau"},
+  {"id":8270647043,"lat":47.044957,"lon":6.241837,"k":"p","n":"Gaz et Eau"},
+  {"id":8270647044,"lat":47.043711,"lon":6.249803,"k":"p","n":"Hôtel de France"},
+  {"id":9299988669,"lat":47.025489,"lon":6.20635,"k":"p"},
+  {"id":12620679035,"lat":47.045008,"lon":6.241888,"k":"x","n":"Gaz et Eau"},
+  {"id":12620679036,"lat":47.043756,"lon":6.249839,"k":"x","n":"Hôtel de France"},
+  {"id":12620679037,"lat":47.043796,"lon":6.249852,"k":"p","n":"Hôtel de France"},
+  {"id":13275448581,"lat":47.00084,"lon":6.226266,"k":"p"}
+],
+"routes":[
+  {"id":659693,"t":{"ref":"LR 204","name":"Ligne LR 204 : Besançon => Pontarlier via Ornans","from":"Besançon","to":"Pontarlier via Ornans","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#FF8040","route":"bus","public_transport:version":"2"},"n":20,"s":[[8270647043,12],[8270647044,13]]},
+  {"id":8597603,"t":{"ref":"LR 204","name":"Ligne LR 204 : Pontarlier => Besançon via Ornans","from":"Pontarlier","to":"Besançon via Ornans","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#FF8040","route":"bus","public_transport:version":"2"},"n":20,"s":[[12620679037,8],[7146760245,9]]},
+  {"id":3000331216033,"t":{"ref":"204","name":"204: PEM Gare - PEM Viotte","from":"PEM Gare","to":"PEM Viotte","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":20,"s":[[12620679037,8],[12620679035,9]]},
+  {"id":3013628531249,"t":{"ref":"204","name":"204: PEM Viotte - PEM Gare","from":"PEM Viotte","to":"PEM Gare","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":20,"s":[[12620679035,12],[12620679037,13]]}
+]
+}

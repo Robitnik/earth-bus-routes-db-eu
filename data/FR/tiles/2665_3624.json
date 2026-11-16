@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2665,3624],
+"stops":[
+  {"id":3052107903,"lat":43.296156,"lon":1.217762,"k":"p","n":"La Barre","ref":"10713"},
+  {"id":3052107904,"lat":43.296342,"lon":1.217889,"k":"p","n":"La Barre"},
+  {"id":3092551992,"lat":43.289136,"lon":1.206059,"k":"p","n":"La Terrasse"},
+  {"id":3092551993,"lat":43.288891,"lon":1.205824,"k":"p","n":"La Terrasse","ref":"10716"},
+  {"id":3141915776,"lat":43.295734,"lon":1.226078,"k":"p","n":"Jardin Public","ref":"10711"},
+  {"id":3162610263,"lat":43.298198,"lon":1.212599,"k":"p","n":"Gare SNCF"},
+  {"id":3285456717,"lat":43.2989,"lon":1.225048,"k":"p"},
+  {"id":4752128192,"lat":43.253562,"lon":1.200329,"k":"p","n":"Maison de Retraite - Rieux-Volvestre"},
+  {"id":8894491517,"lat":43.253484,"lon":1.200303,"k":"p","n":"Maison de Retraite - Rieux-Volvestre"},
+  {"id":8894491526,"lat":43.295898,"lon":1.22509,"k":"p","n":"Jardin Public - Carbonne"},
+  {"id":11071144057,"lat":43.298162,"lon":1.212589,"k":"x","n":"Gare SNCF"},
+  {"id":11153672452,"lat":43.295894,"lon":1.225202,"k":"x","n":"Jardin Public - Carbonne"},
+  {"id":13947740726,"lat":43.288919,"lon":1.205755,"k":"x","n":"La Terrasse"},
+  {"id":13947740727,"lat":43.289114,"lon":1.206172,"k":"x","n":"La Terrasse"},
+  {"id":13947740728,"lat":43.29615,"lon":1.217684,"k":"x","n":"La Barre"},
+  {"id":13947740729,"lat":43.296356,"lon":1.217953,"k":"x","n":"La Barre"}
+],
+"routes":[
+  {"id":4154532,"t":{"ref":"380","name":"Car Ligne 380 : Couladère → Carbonne","from":"Couladère - Pont","to":"Carbonne - Gare SNCF","network":"liO","operator":"RDT31","colour":"#783896","route":"bus","public_transport:version":"2"},"n":9,"s":[[3092551993,7],[3052107903,8],[3162610263,9]]},
+  {"id":15708786,"t":{"ref":"380","name":"Car Ligne 380 : Carbonne → Couladère","from":"Carbonne - Gare SNCF","to":"Couladère - Pont","network":"liO","operator":"RDT31","colour":"#783896","route":"bus","public_transport:version":"2"},"n":9,"s":[[3162610263,1],[3052107904,2],[3092551992,3]]},
+  {"id":16254823,"t":{"ref":"322","name":"Car Ligne 322 Carbonne → Montesquieu Volvestre (service 32201)","from":"Jardin Public - Carbonne","to":"Place Brindejonc - Montesquieu-Volvestre","network":"liO","operator":"RDT31","colour":"#ef72aa","route":"bus","public_transport:version":"2"},"n":8,"s":[[8894491526,1],[3162610263,2],[8894491517,5]]},
+  {"id":16254824,"t":{"ref":"322","name":"Car Ligne 322 Montesquieu Volvestre → Carbonne SNCF (service 32202)","from":"Place Brindejonc - Montesquieu-Volvestre","to":"Gare SNCF","network":"liO","operator":"RDT31","colour":"#ef72aa","route":"bus","public_transport:version":"2"},"n":10,"s":[[4752128192,4],[3052107903,7],[8894491526,9],[3162610263,10]]},
+  {"id":16260005,"t":{"ref":"322","name":"Car Ligne 322 Carbonne → Montesquieu Volvestre (service 32203)","from":"Jardin Public - Carbonne","to":"Place Brindejonc - Montesquieu-Volvestre","network":"liO","operator":"RDT31","colour":"#ef72aa","route":"bus","public_transport:version":"2"},"n":7,"s":[[3162610263,1],[8894491517,4]]},
+  {"id":16260006,"t":{"ref":"322","name":"Car Ligne 322 Montesquieu Volvestre → Carbonne (service 32204)","from":"Place Brindejonc - Montesquieu-Volvestre","to":"Gare SNCF","network":"liO","operator":"RDT31","colour":"#ef72aa","route":"bus","public_transport:version":"2"},"n":7,"s":[[4752128192,4],[3162610263,7]]},
+  {"id":16271083,"t":{"ref":"322","name":"Car Ligne 322 Le Mas d'Azil → Montesquieu Volvestre → Carbonne (service 32214)","from":"Grotte - Le Mas-D'Azil","to":"Gare SNCF","network":"liO","operator":"RDT31","colour":"#ef72aa","route":"bus","public_transport:version":"2"},"n":14,"s":[[4752128192,11],[3162610263,14]]},
+  {"id":16271084,"t":{"ref":"322","name":"Car Ligne 322 Carbonne → Montesquieu Volvestre → Le Mas d'Azil (service 32213)","from":"Gare SNCF","to":"Grotte - Le Mas-D'Azil","network":"liO","operator":"RDT31","colour":"#ef72aa","route":"bus","public_transport:version":"2"},"n":15,"s":[[3162610263,1],[8894491517,4]]},
+  {"id":16465882,"t":{"ref":"323","name":"Car Ligne 323 : Le Fousseret > Gratens > Carbonne SNCF (service 32308)","from":"Benque - Le Fousseret","to":"Gare SNCF","network":"liO","operator":"RDT31","colour":"#0eb48e","route":"bus","public_transport:version":"2"},"n":11,"s":[[3162610263,11]]},
+  {"id":16465883,"t":{"ref":"323","name":"Car Ligne 323 : Le Fousseret > Gratens > Carbonne SNCF (service 32302)","from":"Benque - Le Fousseret","to":"Gare SNCF","network":"liO","operator":"RDT31","colour":"#0eb48e","route":"bus","public_transport:version":"2"},"n":11,"s":[[3162610263,11]]},
+  {"id":16481694,"t":{"ref":"323","name":"Car Ligne 323 : Carbonne SNCF > Gratens > Le Fousseret (service 32303)","from":"Gare SNCF","to":"Benque - Le Fousseret","network":"liO","operator":"RDT31","colour":"#0eb48e","route":"bus","public_transport:version":"2"},"n":11,"s":[[3162610263,1]]},
+  {"id":16481695,"t":{"ref":"323","name":"Car Ligne 323 : Carbonne SNCF > Gratens > Le Fousseret (service 32301)","from":"Gare SNCF","to":"Benque - Le Fousseret","network":"liO","operator":"RDT31","colour":"#0eb48e","route":"bus","public_transport:version":"2"},"n":11,"s":[[3162610263,1]]},
+  {"id":3050079755583,"t":{"ref":"359","name":"Car ligne 359 : Toulouse → Noé → Carbonne → Montesquieu (service 35903)","from":"Toulouse Gare Routière","to":"Montesquieu-Volvestre Place Brindejonc","network":"liO","operator":"RDT31","colour":"#b74425","route":"bus","public_transport:version":"2"},"n":22,"s":[[11153672452,15],[3052107904,16],[8894491517,18]]},
+  {"id":3054520081101,"t":{"ref":"359","name":"Car ligne 359 Montesquieu → Carbonne → Noé → Toulouse (service 35902)","from":"Montesquieu-Volvestre Place Brindejonc","to":"Toulouse Gare Routière","network":"liO","operator":"RDT31","colour":"#b74425","route":"bus","public_transport:version":"2"},"n":23,"s":[[4752128192,5],[13947740728,7],[3141915776,8]]}
+]
+}

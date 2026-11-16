@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2655,3611],
+"stops":[
+  {"id":342353022,"lat":42.791125,"lon":0.591138,"k":"x"},
+  {"id":469795361,"lat":42.797408,"lon":0.595923,"k":"x","n":"Luchon Gare SNCF"},
+  {"id":1153470766,"lat":42.799332,"lon":0.576631,"k":"p"},
+  {"id":2955597396,"lat":42.78787,"lon":0.591299,"k":"p","n":"Télécabine Luchon-Superbagnères"},
+  {"id":6092881322,"lat":42.791578,"lon":0.588775,"k":"p"},
+  {"id":6307856003,"lat":42.791516,"lon":0.597851,"k":"p","n":"Bagnères-de-Luchon - Lycée"},
+  {"id":6314050105,"lat":42.788446,"lon":0.592445,"k":"p"},
+  {"id":6316337538,"lat":42.791659,"lon":0.588965,"k":"p"},
+  {"id":6317805817,"lat":42.792074,"lon":0.591393,"k":"p"},
+  {"id":8745617426,"lat":42.788864,"lon":0.594854,"k":"p","n":"Bus stop Maréchal de Richelieu"},
+  {"id":9948273711,"lat":42.795398,"lon":0.59685,"k":"p"},
+  {"id":9948273712,"lat":42.794376,"lon":0.596664,"k":"p"},
+  {"id":9948273713,"lat":42.791687,"lon":0.59783,"k":"p"},
+  {"id":9948273714,"lat":42.789579,"lon":0.597425,"k":"p"},
+  {"id":9948273715,"lat":42.786286,"lon":0.598221,"k":"p"},
+  {"id":9948276625,"lat":42.791949,"lon":0.587448,"k":"p"},
+  {"id":9948276635,"lat":42.79023,"lon":0.591642,"k":"p"},
+  {"id":12430329971,"lat":42.797296,"lon":0.596333,"k":"p","n":"Bagnère-de-Luchon - Gare"},
+  {"id":12430329973,"lat":42.79146,"lon":0.597759,"k":"x","n":"Bagnères-de-Luchon - Lycée"}
+],
+"routes":[
+  {"id":17434239,"t":{"ref":"LiO 394","name":"Ligne Luchon > Montréjeau > Saint-Gaudens","from":"Bagnères-de-Luchon - Lycée","to":"Saint-Gaudens - Rennaissance","network":"liO","operator":"liO Occitanie 31","colour":"#FFCE05","route":"bus","public_transport:version":"2"},"n":41,"s":[[6307856003,1],[12430329971,2]]},
+  {"id":18435100,"t":{"ref":"LiO 394","name":"Ligne Saint-Gaudens - Montréjeau - Luchon","from":"Saint-Gaudens - Renaissance","to":"Bagnères-de-Luchon - Lycée","network":"liO","operator":"liO Occitanie 31","colour":"#FFCE05","route":"bus","public_transport:version":"2"},"n":42,"s":[[12430329971,41],[6307856003,42]]},
+  {"id":3019869234955,"t":{"ref":"394","name":"394: BAGNÈRES-DE-LUCHON - Lycée - SAINT-GAUDENS - Renaissance","from":"BAGNÈRES-DE-LUCHON - Lycée","to":"SAINT-GAUDENS - Renaissance","operator":".liO 31","route":"bus","public_transport:version":"2"},"n":42,"s":[[12430329973,1],[12430329971,2]]},
+  {"id":3024830046947,"t":{"ref":"394","name":"394: SAINT-GAUDENS - Renaissance - BAGNÈRES-DE-LUCHON - Lycée","from":"SAINT-GAUDENS - Renaissance","to":"BAGNÈRES-DE-LUCHON - Lycée","operator":".liO 31","route":"bus","public_transport:version":"2"},"n":42,"s":[[12430329971,41],[12430329973,42]]}
+]
+}

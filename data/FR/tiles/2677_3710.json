@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2677,3710],
+"stops":[
+  {"id":4822825500,"lat":43.852102,"lon":5.520438,"k":"p","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":4938160897,"lat":43.860416,"lon":5.512991,"k":"p","n":"Saint-Martin-de-Castillon - Centre"},
+  {"id":4938195568,"lat":43.851713,"lon":5.519184,"k":"p","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":5807521490,"lat":43.85208,"lon":5.520057,"k":"p","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":5899024647,"lat":43.852121,"lon":5.519632,"k":"p","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":5899041095,"lat":43.860009,"lon":5.512695,"k":"p","n":"Saint-Martin-de-Castillon - Centre"},
+  {"id":7617954745,"lat":43.860356,"lon":5.512912,"k":"x","n":"Saint-Martin-de-Castillon - Centre"},
+  {"id":8365587461,"lat":43.851736,"lon":5.519277,"k":"x","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":8365587462,"lat":43.852143,"lon":5.519575,"k":"x","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":8365587463,"lat":43.85212,"lon":5.520072,"k":"x","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":10588534849,"lat":43.852051,"lon":5.520386,"k":"x","n":"Saint-Martin-de-Castillon - La Bégude"},
+  {"id":11017383511,"lat":43.860019,"lon":5.512756,"k":"x","n":"Saint-Martin-de-Castillon - Centre"},
+  {"id":13057064288,"lat":43.853588,"lon":5.515513,"k":"p"}
+],
+"routes":[
+  {"id":7357752,"t":{"ref":"926","name":"Bus 926 : Banon => Apt","from":"Banon","to":"Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[4938160897,7],[4938195568,8]]},
+  {"id":7357753,"t":{"ref":"926","name":"Bus 926 : Apt => Banon","from":"Apt","to":"Banon","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":10,"s":[[5899024647,4],[5899041095,5]]},
+  {"id":15401124,"t":{"ref":"4602","name":"Bus 4602 : Apt => Céreste","from":"Apt","to":"Céreste","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[5807521490,4]]},
+  {"id":15401125,"t":{"ref":"4602","name":"Bus 4602 : Céreste => Apt","from":"Céreste","to":"Apt","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[4822825500,5]]},
+  {"id":3000445146676,"t":{"ref":"915","name":"Bus 915 : Forcalquier => Apt => Avignon - Gare TGV","from":"Forcalquier","to":"Avignon - Gare TGV","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[4822825500,7]]},
+  {"id":3039047890040,"t":{"ref":"989","name":"989: Gare Routière - Village","from":"Gare Routière","to":"Village","operator":"ZOU ! Proximité","route":"bus","public_transport:version":"2"},"n":47,"s":[[4822825500,27],[7617954745,28]]},
+  {"id":3093539798854,"t":{"ref":"915","name":"Bus 915 : Avignon - Gare TGV => Apt => La Brillanne - Gare SNCF","from":"Avignon - Gare TGV","to":"La Brillanne - Gare SNCF","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[5899024647,25]]},
+  {"id":3095426540779,"t":{"ref":"989","name":"Bus 989 : Pays d'Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#e71a84","route":"bus","public_transport:version":"2"},"n":43,"s":[[4822825500,25],[7617954745,26]]}
+]
+}

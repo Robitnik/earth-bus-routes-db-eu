@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2724,3572],
+"stops":[
+  {"id":864946296,"lat":46.205823,"lon":-1.365038,"k":"p","n":"Saint-Martin-de-Ré - Le Port"},
+  {"id":4317378717,"lat":46.20584,"lon":-1.36499,"k":"x","n":"Saint-Martin-de-Ré - Le Port"},
+  {"id":9012105892,"lat":46.201667,"lon":-1.367335,"k":"p","n":"Hôpital"},
+  {"id":9012105895,"lat":46.203384,"lon":-1.367187,"k":"p","n":"Dechezeau"},
+  {"id":13546586340,"lat":46.201623,"lon":-1.367364,"k":"x","n":"Hôpital"},
+  {"id":13546586341,"lat":46.203399,"lon":-1.367182,"k":"x","n":"Dechezeau"},
+  {"id":6020019605600,"lat":46.205444,"lon":-1.362757,"k":"p","n":"Parking Vauban","g":1},
+  {"id":6036198582707,"lat":46.205444,"lon":-1.362757,"k":"p","n":"Parking Vauban","g":1}
+],
+"routes":[
+  {"id":7940794,"t":{"ref":"151","name":"Ligne 151 (été): Les Portes-en-Ré - Saint-Martin-de-Ré - La Rochelle","network":"Cars Régionaux 17 - Charente-Maritime","operator":"Keolis","route":"bus","public_transport:version":"1"},"n":48,"s":[[864946296,19]]},
+  {"id":20513126,"t":{"ref":"D1","name":"Navette D1: Saint-Martin-de-Ré => La Flotte => Sainte-Marie-de-Ré => Le Bois-Plage-en-Ré => Saint-Martin-de-Ré","from":"Saint-Martin-de-Ré","to":"Saint-Martin-de-Ré","network":"RespiRé","colour":"orange","route":"bus","public_transport:version":"1"},"n":12,"s":[[4317378717,1]]},
+  {"id":20513127,"t":{"ref":"D2","name":"Navette D2: Saint-Martin-de-Ré => Le Bois-Plage-en-Ré => Sainte-Marie-de-Ré => La Flotte => Saint-Martin-de-Ré","from":"Saint-Martin-de-Ré","to":"Saint-Martin-de-Ré","operator":"RespiRé","colour":"orange","route":"bus","public_transport:version":"1"},"n":13,"s":[[4317378717,2]]},
+  {"id":3009940140163,"t":{"ref":"150","name":"Ligne 150 : Les Portes-en-Ré - Saint-Martin-de-Ré - La Rochelle","network":"Cars Régionaux 17 - Charente-Maritime","operator":"Keolis","route":"bus","public_transport:version":"2"},"n":35,"s":[[6036198582707,14]]},
+  {"id":3027509305776,"t":{"ref":"A","name":"Navette A: Collège Les Salières => Le Port","from":"Collège Les Salières","to":"Le Port","network":"RespiRé","colour":"#878787","route":"bus","public_transport:version":"2"},"n":6,"s":[[9012105892,4],[13546586341,5],[864946296,6]]},
+  {"id":3047576119145,"t":{"ref":"150","name":"Ligne 150 : Les Portes-en-Ré - Saint-Martin-de-Ré - La Rochelle","network":"Cars Régionaux 17 - Charente-Maritime","operator":"Keolis","route":"bus","public_transport:version":"2"},"n":35,"s":[[6020019605600,14]]},
+  {"id":3052724278223,"t":{"ref":"A","name":"Navette A: Le Port => Collège Les Salières","from":"Le Port","to":"Collège Les Salières","network":"RespiRé","colour":"#878787","route":"bus","public_transport:version":"2"},"n":7,"s":[[864946296,1],[9012105892,2],[13546586341,3]]}
+]
+}

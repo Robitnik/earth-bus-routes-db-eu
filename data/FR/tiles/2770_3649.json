@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2770,3649],
+"stops":[
+  {"id":1909426418,"lat":48.503231,"lon":2.495734,"k":"p"},
+  {"id":2473359816,"lat":48.527599,"lon":2.49294,"k":"p","n":"La Mare"},
+  {"id":2473359818,"lat":48.509114,"lon":2.46727,"k":"p","n":"Louteville Pavillons"},
+  {"id":2473359821,"lat":48.509264,"lon":2.466648,"k":"p","n":"Louteville Pavillons"},
+  {"id":2473359890,"lat":48.511301,"lon":2.460525,"k":"p","n":"IME"},
+  {"id":2473359893,"lat":48.511525,"lon":2.45997,"k":"p","n":"IME"},
+  {"id":2473359895,"lat":48.513109,"lon":2.451086,"k":"p","n":"La Bigotte"},
+  {"id":2473359899,"lat":48.51319,"lon":2.451116,"k":"p","n":"La Bigotte"},
+  {"id":2475331008,"lat":48.528163,"lon":2.452897,"k":"p"},
+  {"id":2475331011,"lat":48.528386,"lon":2.452447,"k":"p"},
+  {"id":4326570541,"lat":48.5306,"lon":2.493036,"k":"p","n":"Bouletterie"},
+  {"id":6222171207,"lat":48.505768,"lon":2.493831,"k":"p","n":"Château (Nainville-les-Roches)"},
+  {"id":6222171208,"lat":48.527752,"lon":2.492804,"k":"p","n":"La Mare"},
+  {"id":6222171210,"lat":48.52981,"lon":2.493124,"k":"p","n":"Bouletterie"},
+  {"id":6222171211,"lat":48.505714,"lon":2.493945,"k":"p","n":"Château (Nainville-les-Roches)"},
+  {"id":10121641360,"lat":48.528051,"lon":2.492419,"k":"p"}
+],
+"routes":[
+  {"id":3230967,"t":{"ref":"01-603","from":"Auvernaux","to":"Champcueil","network":"local","operator":"Scol'R","route":"bus","public_transport:version":"2"},"n":5,"s":[[2473359816,1],[2473359818,3]]},
+  {"id":3230968,"t":{"ref":"01-603","from":"Champcueil","to":"Auvernaux","network":"local","operator":"Scol'R","route":"bus","public_transport:version":"2"},"n":6,"s":[[2473359821,4],[2473359816,5],[6222171208,6]]},
+  {"id":9236310,"t":{"ref":"4308","name":"Bus 4308 : Auvernaux - Bouletterie → Écharcon - Château","from":"Auvernaux - Bouletterie","to":"Écharcon - Château","network":"Essonne Sud Est","operator":"Keolis Val d'Essonne Deux Vallées","colour":"#3c91dc","route":"bus","public_transport:version":"2"},"n":21,"s":[[4326570541,1],[6222171208,2],[6222171207,3],[2473359818,5],[2473359893,6],[2473359899,7]]},
+  {"id":9236311,"t":{"ref":"4308","name":"Bus 4308 : Écharcon - Château → Auvernaux - Bouletterie","from":"Écharcon - Château","to":"Auvernaux - Bouletterie","network":"Essonne Sud Est","operator":"Keolis Val d'Essonne Deux Vallées","colour":"#3c91dc","route":"bus","public_transport:version":"2"},"n":20,"s":[[2473359895,15],[2473359890,16],[2473359821,17],[6222171211,19],[6222171210,20]]}
+]
+}

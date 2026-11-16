@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2705,3628],
+"stops":[
+  {"id":846601551,"lat":45.261767,"lon":1.438993,"k":"x","n":"Allassac - Le Puy"},
+  {"id":8949408013,"lat":45.264784,"lon":1.407721,"k":"x","n":"Objat - Gare"},
+  {"id":8949408014,"lat":45.26479,"lon":1.407617,"k":"p","n":"Objat - Gare"},
+  {"id":8949501105,"lat":45.259713,"lon":1.409992,"k":"x","n":"Objat - Place Jean Lagarde"},
+  {"id":8949501106,"lat":45.259723,"lon":1.409914,"k":"p","n":"Objat - Place Jean Lagarde"},
+  {"id":8958236844,"lat":45.291407,"lon":1.436344,"k":"p","n":"Voutezac - Bourg","q":1},
+  {"id":8959349915,"lat":45.261728,"lon":1.439013,"k":"p","n":"Allassac - Le Puy","q":1},
+  {"id":8978103727,"lat":45.291434,"lon":1.436349,"k":"x","n":"Voutezac - Bourg"}
+],
+"routes":[
+  {"id":13018204,"t":{"ref":"TAD","name":"TAD 1 : Objat → Brive","from":"Objat - Gare","to":"Place du 14 Juiillet","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":14,"s":[[8949408014,1],[8949501106,2]]},
+  {"id":13022299,"t":{"ref":"TAD","name":"TAD 1 : Brive → Objat","from":"Place du 14 Juiillet","to":"Objat - Gare","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":14,"s":[[8949501106,7],[8949408014,8]]},
+  {"id":13027625,"t":{"ref":"TAD","name":"TAD 6 : Allassac-Voutezac → Brive","from":"Allassac-Voutézac - Le Saillant","to":"Place du 14 Juiillet","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":9,"s":[[8958236844,9]]},
+  {"id":13029686,"t":{"ref":"TAD","name":"TAD 6 : Brive → Allassac-Voutezac","from":"Place du 14 Juiillet","to":"Allassac-Voutézac - Le Saillant","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":9,"s":[[8958236844,9]]},
+  {"id":13030586,"t":{"ref":"TAD","name":"TAD 9 : Marché d'Allassac (Saint-Laurent → Place de la République)","from":"Allassac - Saint-Laurent","to":"Allassac - Place de la République","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":15,"s":[[8959349915,6]]},
+  {"id":13030745,"t":{"ref":"TAD","name":"TAD 9 : Marché d'Allassac (Place de la République → Saint-Laurent)","from":"Allassac - Place de la République","to":"Allassac - Saint-Laurent","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":15,"s":[[8959349915,4]]},
+  {"id":13033810,"t":{"ref":"TAD","name":"TAD 10 : Objat → Brive","from":"Objat - Gare","to":"Place du 14 Juiillet","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":16,"s":[[8949408014,1],[8949501106,2]]},
+  {"id":13033893,"t":{"ref":"TAD","name":"TAD 10 : Brive → Objat","from":"Place du 14 Juiillet","to":"Objat - Gare","network":"Libéo","operator":"Transdev","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":16,"s":[[8949501106,7],[8949408014,8]]},
+  {"id":13049872,"t":{"ref":"239","name":"Ligne 239 : Salagnac → Objat → Brive-la-Gaillarde","from":"Salagnac - Clarvivre","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":22,"s":[[8949501106,11]]},
+  {"id":13052658,"t":{"ref":"239","name":"Ligne 239 : Lubersac → Objat → Brive-la-Gaillarde","from":"Lubersac - Place du Foirail","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":20,"s":[[8958236844,8],[8949501106,9]]},
+  {"id":13052961,"t":{"ref":"239","name":"Ligne 239 : Objat → Brive-la-Gaillarde","from":"Objat - Place Jean Lagarde","to":"Place du 14 Juillet","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":12,"s":[[8949501106,1]]},
+  {"id":13052976,"t":{"ref":"239","name":"Ligne 239 : Lubersac → Objat","from":"Lubersac - Place du Foirail","to":"Objat - Place Jean Lagarde","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":9,"s":[[8958236844,8],[8949501106,9]]},
+  {"id":13055046,"t":{"ref":"239","name":"Ligne 239 : Brive-la-Gaillarde → Objat → Salagnac","from":"Gare SNCF","to":"Salagnac - Clarvivre","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":17,"s":[[8949501106,7]]},
+  {"id":13055141,"t":{"ref":"239","name":"Ligne 239 : Brive-la-Gaillarde → Objat → Lubersac","from":"Place du 14 Juiillet","to":"Lubersac - Place du Foirail","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":15,"s":[[8949501106,7],[8958236844,8]]},
+  {"id":13055586,"t":{"ref":"239","name":"Ligne 239 : Objat → Lubersac","from":"Objat - Place Jean Lagarde","to":"Lubersac - Place du Foirail","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":9,"s":[[8949501106,1],[8958236844,2]]},
+  {"id":13055779,"t":{"ref":"239","name":"Ligne 239 : Brive-la-Gaillarde → Objat","from":"Gare SNCF","to":"Objat - Place Jean Lagarde","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2"},"n":6,"s":[[8949501106,6]]},
+  {"id":13056424,"t":{"ref":"239","name":"Ligne 239 : Objat → Salagnac","from":"Objat - Place Jean Lagarde","to":"Salagnac - Clarvivre","network":"Cars Régionaux 19 - Corrèze","operator":"Région Nouvelle-Aquitaine","colour":"#6ab8bc","route":"bus","public_transport:version":"2","bus":"on_demand"},"n":11,"s":[[8949501106,1]]},
+  {"id":13082190,"t":{"ref":"TER 23","name":"TER 23 : Saint-Yrieix-la-Perche → Objat","from":"Saint-Yrieix-La-Perche","to":"Objat","network":"TER Nouvelle-Aquitaine","operator":"SNCF Voyageurs","route":"bus","public_transport:version":"2"},"n":6,"s":[[8949408013,6]]},
+  {"id":13082867,"t":{"ref":"TER 23","name":"TER 23 : Pompadour → Objat","from":"Pompadour","to":"Objat","network":"TER Nouvelle-Aquitaine","operator":"SNCF Voyageurs","route":"bus","public_transport:version":"2"},"n":3,"s":[[8949408013,3]]},
+  {"id":13083531,"t":{"ref":"TER 23","name":"TER 23 : Objat → Saint-Yrieix-la-Perche","from":"Objat - Gare","to":"Saint-Yrieix-La-Perche - Gare","network":"TER Nouvelle-Aquitaine","operator":"SNCF Voyageurs","route":"bus","public_transport:version":"2"},"n":6,"s":[[8949408013,1]]},
+  {"id":13083550,"t":{"ref":"TER 23","name":"TER 23 : Objat → Pompadour","from":"Objat - Gare","to":"Arnac-Pompadour - Gare","network":"TER Nouvelle-Aquitaine","operator":"SNCF Voyageurs","route":"bus","public_transport:version":"2"},"n":3,"s":[[8949408013,1]]}
+]
+}

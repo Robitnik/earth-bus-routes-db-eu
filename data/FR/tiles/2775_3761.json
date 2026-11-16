@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2775,3761],
+"stops":[
+  {"id":416978741,"lat":48.766137,"lon":8.051837,"k":"p","n":"Stollhofen Leiberstunger Str."},
+  {"id":416978743,"lat":48.765992,"lon":8.051868,"k":"p","n":"Stollhofen Leiberstunger Str."},
+  {"id":440242435,"lat":48.76757,"lon":8.096936,"k":"p","n":"Schiftung Kirche"},
+  {"id":440266154,"lat":48.782037,"lon":8.097672,"k":"p","n":"Airpark Eisstadion"},
+  {"id":440266155,"lat":48.782006,"lon":8.097944,"k":"p","n":"Airpark Eisstadion"},
+  {"id":467687402,"lat":48.778478,"lon":8.060513,"k":"p","n":"Söllingen Kirche"},
+  {"id":467687403,"lat":48.778996,"lon":8.06079,"k":"p","n":"Söllingen Kirche"},
+  {"id":557212234,"lat":48.77834,"lon":8.088275,"k":"p","n":"Airpark Terminal (FKB)"},
+  {"id":4462134109,"lat":48.767635,"lon":8.097056,"k":"p","n":"Schiftung Kirche"},
+  {"id":5841714985,"lat":48.778523,"lon":8.060424,"k":"x","n":"Söllingen Kirche"},
+  {"id":5841714986,"lat":48.778963,"lon":8.060878,"k":"x","n":"Söllingen Kirche"},
+  {"id":8220652160,"lat":48.778308,"lon":8.088344,"k":"x","n":"Airpark Terminal (FKB)"},
+  {"id":8220652161,"lat":48.781999,"lon":8.097779,"k":"x","n":"Airpark Eisstadion"},
+  {"id":8220652162,"lat":48.781857,"lon":8.097647,"k":"x","n":"Airpark Eisstadion"},
+  {"id":8369394329,"lat":48.766082,"lon":8.051828,"k":"x","n":"Stollhofen Leiberstunger Str."},
+  {"id":8369394331,"lat":48.766046,"lon":8.051973,"k":"x","n":"Stollhofen Leiberstunger Str."},
+  {"id":9339859755,"lat":48.76761,"lon":8.096999,"k":"x","n":"Schiftung Kirche"}
+],
+"routes":[
+  {"id":1945675,"t":{"ref":"234","name":"Bus 234: Schwarzach => Rastatt","from":"Schwarzach","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"blue","route":"bus","public_transport:version":"2"},"n":19,"s":[[467687402,7],[440266154,9],[557212234,10],[440266155,11]]},
+  {"id":3267253,"t":{"ref":"267","name":"Bus 267: Söllingen => Bühl","from":"Söllingen","to":"Bühl","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"#808080","route":"bus","public_transport:version":"2"},"n":2,"s":[[467687403,1],[416978743,2]]},
+  {"id":4035055,"t":{"ref":"234","name":"Bus 234: Rastatt => Schwarzach","from":"Rastatt","to":"Schwarzach","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"blue","route":"bus","public_transport:version":"2"},"n":19,"s":[[440266154,9],[557212234,10],[440266155,11],[467687403,13]]},
+  {"id":4035180,"t":{"ref":"267","name":"Bus 267: Bühl => Söllingen","from":"Bühl","to":"Söllingen","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"#808080","route":"bus","public_transport:version":"2"},"n":2,"s":[[416978741,1],[467687402,2]]},
+  {"id":5837182,"t":{"ref":"215","name":"Bus 215: Baden-Baden => Hügelsheim => Baden Airpark","from":"Baden-Baden","to":"Baden Airpark","network":"Karlsruher Verkehrsverbund","operator":"Stadtwerke Baden-Baden","route":"bus","public_transport:version":"2"},"n":8,"s":[[440266154,7],[557212234,8]]},
+  {"id":6090763,"t":{"ref":"293","name":"Bus 293 (ALT): Schiftung => Müllhofen => Sinzheim","from":"Schiftung","to":"Sinzheim","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","route":"bus","public_transport:version":"2"},"n":2,"s":[[9339859755,1],[4462134109,2]]},
+  {"id":6599231,"t":{"ref":"292","name":"Bus 292: Schiftung => Sinzheim","from":"Schiftung","to":"Sinzheim","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#227503","route":"bus","public_transport:version":"2"},"n":2,"s":[[9339859755,1],[4462134109,2]]},
+  {"id":8545238,"t":{"ref":"268s","name":"Bus 268s: Bühl => Vimbuch => Schwarzach => Söllingen","from":"Bühl, Bahnhof","to":"Söllingen, Kirche","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"#CB8347","route":"bus","public_transport:version":"2"},"n":7,"s":[[467687402,7]]},
+  {"id":8545254,"t":{"ref":"268s","name":"Bus 268s: Bühl => Balzhofen => Söllingen","from":"Bühl, Gymnasium","to":"Söllingen, Kirche","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"#CB8347","route":"bus","public_transport:version":"2"},"n":7,"s":[[467687402,7]]},
+  {"id":8547967,"t":{"ref":"268s","name":"Bus 268s: Söllingen => Schwarzach => Vimbuch => Bühl","from":"Söllingen, Kirche","to":"Bühl, Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","colour":"#CB8347","route":"bus","public_transport:version":"2"},"n":8,"s":[[467687403,1]]},
+  {"id":9086715,"t":{"ref":"108","name":"Flixbus 108: Frankfurt (Main) Hbf => Zürich HB (Carpark Sihlquai)","from":"Frankfurt (Main) Hbf","to":"Zürich HB (Carpark Sihlquai)","network":"Flixbus","operator":"Josy Transport","route":"bus","public_transport:version":"2"},"n":7,"s":[[557212234,1]]},
+  {"id":9520099,"t":{"ref":"108","name":"Flixbus 108: Zürich HB (Carpark Sihlquai) => Frankfurt (Main) Hbf","from":"Zürich HB (Carpark Sihlquai)","to":"Frankfurt (Main) Hbf","network":"Flixbus","operator":"Josy Transport","route":"bus","public_transport:version":"2"},"n":7,"s":[[557212234,7]]},
+  {"id":12006016,"t":{"ref":"X34","name":"Bus X34: Bühl => Rastatt","from":"Bühl","to":"Rastatt","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[467687402,3],[557212234,5],[440266155,6]]},
+  {"id":12006017,"t":{"ref":"X34","name":"Bus X34: Rastatt => Bühl","from":"Rastatt","to":"Bühl","network":"Karlsruher Verkehrsverbund","operator":"Südwestdeutsche Landesverkehrs-AG","route":"bus","public_transport:version":"2"},"n":7,"s":[[440266154,2],[557212234,3],[467687403,5]]},
+  {"id":13257513,"t":{"ref":"215","name":"Bus 215: Baden Airpark => Hügelsheim => Baden-Baden","from":"Baden Airpark","to":"Baden-Baden Bahnhof","network":"Karlsruher Verkehrsverbund","operator":"Stadtwerke Baden-Baden","route":"bus","public_transport:version":"2"},"n":8,"s":[[557212234,1],[440266155,2]]},
+  {"id":13552875,"t":{"ref":"292","name":"Bus 292: Schiftung => Sinzheim => Baden-Baden","from":"Schiftung","to":"Baden-Baden","network":"Karlsruher Verkehrsverbund","operator":"Nahverkehr Mittelbaden Walz GmbH","colour":"#227503","route":"bus","public_transport:version":"2"},"n":2,"s":[[9339859755,1],[4462134109,2]]}
+]
+}

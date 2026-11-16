@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2783,3662],
+"stops":[
+  {"id":1720755920,"lat":49.181118,"lon":3.123805,"k":"p","n":"Saint-Lazare"},
+  {"id":5220228407,"lat":49.176076,"lon":3.125921,"k":"p","n":"Le Maille"},
+  {"id":5220256510,"lat":49.170607,"lon":3.103708,"k":"p","n":"Bourneville Centre"},
+  {"id":5790243963,"lat":49.179273,"lon":3.12117,"k":"p","n":"Gare de la Ferté-Milon"},
+  {"id":5790243999,"lat":49.176036,"lon":3.126054,"k":"p","n":"Le Maille"},
+  {"id":5790244000,"lat":49.155197,"lon":3.111051,"k":"p","n":"Bourneville"},
+  {"id":9792084991,"lat":49.178163,"lon":3.125086,"k":"p","n":"Mairie de la Ferté-Milon"},
+  {"id":9792084992,"lat":49.179372,"lon":3.121391,"k":"p","n":"Gare de la Ferté-Milon"},
+  {"id":6005407519576,"lat":49.184667,"lon":3.121148,"k":"p","n":"CARREFOUR CONTACT","g":1},
+  {"id":6045043384230,"lat":49.184667,"lon":3.121148,"k":"p","n":"CARREFOUR CONTACT","g":1},
+  {"id":6085462333625,"lat":49.175477,"lon":3.12909,"k":"p","n":"LA FERTE-MILON - PLACE DU PORT AU BLE","g":1}
+],
+"routes":[
+  {"id":20155864,"t":{"ref":"500","name":"Ligne 500 - La Ferté-Milon (Gare SNCF) → Fismes (Gare SNCF)","from":"La Ferté-Milon (Gare SNCF)","to":"Fismes (Gare SNCF)","route":"bus","public_transport:version":"2"},"n":8,"s":[[9792084992,1]]},
+  {"id":20166297,"t":{"ref":"500","name":"Ligne 500 - Fismes (Gare SNCF) → La Ferté-Milon (Gare SNCF)","from":"Fismes (Gare SNCF)","to":"La Ferté-Milon (Gare SNCF)","route":"bus","public_transport:version":"2"},"n":8,"s":[[9792084992,8]]},
+  {"id":3041259114416,"t":{"ref":"D","name":"D: LA FERTE-MILON - PLACE DU PORT AU BLE - CHATEAU","from":"LA FERTE-MILON - PLACE DU PORT AU BLE","to":"CHATEAU","operator":"VILLEO-RETZEO","route":"bus","public_transport:version":"2"},"n":7,"s":[[6085462333625,1],[9792084991,2],[5790243963,3],[6045043384230,4]]},
+  {"id":3076238651320,"t":{"ref":"D","name":"D: CHATEAU - LA FERTE-MILON - PLACE DU PORT AU BLE","from":"CHATEAU","to":"LA FERTE-MILON - PLACE DU PORT AU BLE","operator":"VILLEO-RETZEO","route":"bus","public_transport:version":"2"},"n":7,"s":[[6005407519576,4],[5790243963,5],[9792084991,6],[6085462333625,7]]}
+]
+}

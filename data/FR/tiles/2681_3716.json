@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3716],
+"stops":[
+  {"id":3064831926,"lat":44.063028,"lon":5.83706,"k":"x","n":"Cruis - Village"},
+  {"id":5682694231,"lat":44.06305,"lon":5.837055,"k":"p","n":"Cruis - Village","ref":"353"},
+  {"id":5682694232,"lat":44.062995,"lon":5.83706,"k":"p","n":"Cruis - Village","ref":"352"},
+  {"id":10601925637,"lat":44.059419,"lon":5.821194,"k":"p","n":"Cruis - Le Janigou/Bayard"},
+  {"id":10601925638,"lat":44.05944,"lon":5.821187,"k":"x","n":"Cruis - Le Janigou/Bayard"},
+  {"id":10601925639,"lat":44.059669,"lon":5.821671,"k":"p","n":"Cruis - Le Janigou/Bayard"},
+  {"id":10601925640,"lat":44.059633,"lon":5.821702,"k":"x","n":"Cruis - Le Janigou/Bayard"}
+],
+"routes":[
+  {"id":6866791,"t":{"ref":"481","name":"Bus 481 : Cruis => Forcalquier","from":"Cruis","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#ff450f","route":"bus","public_transport:version":"2"},"n":4,"s":[[5682694231,1]]},
+  {"id":6866792,"t":{"ref":"481","name":"Bus 481 : Forcalquier => Cruis","from":"Forcalquier","to":"Cruis","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#ff450f","route":"bus","public_transport:version":"2"},"n":4,"s":[[5682694232,4]]},
+  {"id":15422830,"t":{"ref":"4707","name":"Bus 4707 : Digne-les-Bains => Banon","from":"Digne-les-Bains","to":"Banon","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[5682694231,5]]},
+  {"id":15422831,"t":{"ref":"4707","name":"Bus 4707 : Banon => Digne-les-Bains","from":"Banon","to":"Digne-les-Bains","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[5682694232,5]]},
+  {"id":15423147,"t":{"ref":"4802","name":"Bus 4802 : Forcalquier - La Cheneraie => Saint-Étienne-les-Orgues => Cruis","from":"Forcalquier - La Cheneraie","to":"Cruis","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":12,"s":[[10601925637,11],[5682694232,12]]},
+  {"id":15423148,"t":{"ref":"4802","name":"Bus 4802 : Manosque => Saint-Étienne-les-Orgues => Cruis","from":"Manosque","to":"Cruis","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":15,"s":[[10601925637,14],[5682694232,15]]},
+  {"id":15423149,"t":{"ref":"4802","name":"Bus 4802 : Cruis => Saint-Étienne-les-Orgues => Manosque","from":"Cruis","to":"Manosque","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":15,"s":[[5682694231,1],[10601925639,2]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2689,3734],
+"stops":[
+  {"id":1408683429,"lat":44.471578,"lon":6.724567,"k":"x","n":"Le Belvédère"},
+  {"id":4001208274,"lat":44.458182,"lon":6.745415,"k":"p","n":"La Condamine-Châtelard"},
+  {"id":4001208275,"lat":44.458145,"lon":6.745999,"k":"p","n":"La Condamine-Châtelard"},
+  {"id":4001209578,"lat":44.458764,"lon":6.737462,"k":"p","n":"Le Châtelard"},
+  {"id":4001209579,"lat":44.458632,"lon":6.737446,"k":"p","n":"Le Châtelard"},
+  {"id":4001213826,"lat":44.471508,"lon":6.724597,"k":"p","n":"Le Belvédère"},
+  {"id":4001214657,"lat":44.466747,"lon":6.721403,"k":"x","n":"Sainte-Anne"},
+  {"id":7280356516,"lat":44.458489,"lon":6.744982,"k":"p","n":"La Condamine-Châtelard - École"},
+  {"id":8398970286,"lat":44.458193,"lon":6.745991,"k":"x","n":"La Condamine-Châtelard"},
+  {"id":8398970287,"lat":44.45811,"lon":6.74544,"k":"x","n":"La Condamine-Châtelard"},
+  {"id":8398970289,"lat":44.458724,"lon":6.737462,"k":"x","n":"Le Châtelard"},
+  {"id":8398970290,"lat":44.466715,"lon":6.721323,"k":"p","n":"Sainte-Anne"},
+  {"id":9010615397,"lat":44.466764,"lon":6.721467,"k":"p","n":"Sainte-Anne"},
+  {"id":10769150719,"lat":44.458262,"lon":6.745682,"k":"p","n":"La Condamine-Châtelard - Place Mairie"},
+  {"id":10769150720,"lat":44.458257,"lon":6.74579,"k":"x","n":"La Condamine-Châtelard - Place Mairie"},
+  {"id":10769150721,"lat":44.45845,"lon":6.744969,"k":"x","n":"La Condamine-Châtelard - École"}
+],
+"routes":[
+  {"id":7212950,"t":{"ref":"L3","name":"Navette L3 : Barcelonnette => Larche","from":"Barcelonnette - Place Aimé Gassier","to":"Val d'Oronaye - Larche","network":"CCVUSP","operator":"SCAL","colour":"#46a547","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001208275,5]]},
+  {"id":7212951,"t":{"ref":"L3","name":"Navette L3 : Larche => Barcelonnette","from":"Val d'Oronaye - Larche","to":"Barcelonnette - Place Aimé Gassier","network":"CCVUSP","operator":"SCAL","colour":"#46a547","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001208274,3]]},
+  {"id":9173857,"t":{"ref":"L5","name":"Navette L5 : Barcelonnette => Sainte-Anne","from":"Barcelonnette","to":"Sainte-Anne","network":"CCVUSP","operator":"SCAL","colour":"#4169e1","route":"bus","public_transport:version":"2"},"n":8,"s":[[4001208275,5],[4001209578,6],[4001213826,7],[9010615397,8]]},
+  {"id":9173858,"t":{"ref":"L5","name":"Navette L5 : Sainte-Anne => Barcelonnette","from":"Sainte-Anne","to":"Barcelonnette","network":"CCVUSP","operator":"SCAL","colour":"#4169e1","route":"bus","public_transport:version":"2"},"n":7,"s":[[8398970290,1],[4001209579,2],[4001208274,3]]},
+  {"id":9173859,"t":{"ref":"L4","name":"Navette L4 : Barcelonnette => Saint-Paul","from":"Barcelonnette","to":"Saint-Paul","network":"CCVUSP","operator":"SCAL","colour":"#874f9b","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001208275,6]]},
+  {"id":9173860,"t":{"ref":"L4","name":"Navette L4 : Saint-Paul => Barcelonnette","from":"Saint-Paul-sur-Ubaye","to":"Barcelonnette","network":"CCVUSP","operator":"SCAL","colour":"#874f9b","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001208274,2]]},
+  {"id":15656850,"t":{"ref":"4101","name":"Bus 4101 : Larche => La Condamine-Chatelard => Saint-Paul-sur-Ubaye","from":"Larche","to":"Saint-Paul-sur-Ubaye","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10769150719,3]]},
+  {"id":15656851,"t":{"ref":"4101","name":"Bus 4101 : Saint-Paul-sur-Ubaye => La Condamine-Chatelard => Larche","from":"Saint-Paul-sur-Ubaye","to":"Larche","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10769150719,2]]},
+  {"id":15677827,"t":{"ref":"4102","name":"Bus 4102 : Saint-Paul-sur-Ubaye => Jausiers","from":"Saint-Paul-sur-Ubaye","to":"Jausiers","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10769150719,8]]},
+  {"id":15677828,"t":{"ref":"4102","name":"Bus 4102 : Jausiers => Saint-Paul-sur-Ubaye","from":"Jausiers","to":"Saint-Paul-sur-Ubaye","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10769150719,4]]},
+  {"id":15683513,"t":{"ref":"4106","name":"Bus 4106 : Barcelonnette => Saint-Paul-sur-Ubaye","from":"Barcelonnette","to":"Saint-Paul-sur-Ubaye","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10769150719,6]]},
+  {"id":15683514,"t":{"ref":"4106","name":"Bus 4106 : Saint-Paul-sur-Ubaye => Barcelonnette","from":"Saint-Paul-sur-Ubaye","to":"Barcelonnette","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[10769150719,2]]}
+]
+}

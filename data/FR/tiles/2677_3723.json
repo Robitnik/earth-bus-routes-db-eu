@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2677,3723],
+"stops":[
+  {"id":10587185081,"lat":43.89844,"lon":6.180216,"k":"p","n":"Saint-Jurs - Camping Vauvenieres"},
+  {"id":10587185082,"lat":43.898476,"lon":6.180206,"k":"x","n":"Saint-Jurs - Camping Vauvenieres"},
+  {"id":10587185084,"lat":43.89814,"lon":6.195845,"k":"p","n":"Saint-Jurs - Village"},
+  {"id":10587185085,"lat":43.898236,"lon":6.195885,"k":"x","n":"Saint-Jurs - Village"},
+  {"id":10686667750,"lat":43.855042,"lon":6.191756,"k":"p","n":"Moustiers-Sainte-Marie - Arrêt du Col"},
+  {"id":10686667753,"lat":43.85486,"lon":6.19168,"k":"x","n":"Moustiers-Sainte-Marie - Arrêt du Col"},
+  {"id":10686667756,"lat":43.854813,"lon":6.191696,"k":"p","n":"Moustiers-Sainte-Marie - Arrêt du Col"},
+  {"id":10686667757,"lat":43.855006,"lon":6.191792,"k":"x","n":"Moustiers-Sainte-Marie - Arrêt du Col"},
+  {"id":10686667758,"lat":43.851482,"lon":6.176517,"k":"x","n":"Moustiers-Sainte-Marie - Mas des Segries"},
+  {"id":10686667759,"lat":43.851462,"lon":6.176488,"k":"p","n":"Moustiers-Sainte-Marie - Mas des Segries"}
+],
+"routes":[
+  {"id":15399531,"t":{"ref":"4510","name":"Bus 4510 : Bras-d'Asse => Saint-Jurs => Riez","from":"Bras-d'Asse","to":"Riez","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10587185081,4],[10587185084,5]]},
+  {"id":15399532,"t":{"ref":"4510","name":"Bus 4510 : Riez => Saint-Jurs => Bras-d'Asse","from":"Riez","to":"Bras-d'Asse","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[10587185081,2],[10587185084,3]]},
+  {"id":15521388,"t":{"ref":"450","name":"Bus 450 : Riez => Moustiers-Sainte-Marie => Roumoules","from":"Riez","to":"Roumoules","network":"Zou !","operator":"SUMIAN","colour":"#fea347","route":"bus","public_transport:version":"2","bus":"yes"},"n":9,"s":[[10686667759,4],[10686667756,5]]},
+  {"id":15521389,"t":{"ref":"450","name":"Bus 450 : Moustiers-Sainte-Marie => Riez","from":"Moustiers-Sainte-Marie","to":"Riez","network":"Zou !","operator":"SUMIAN","colour":"#fea347","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10686667750,4]]}
+]
+}

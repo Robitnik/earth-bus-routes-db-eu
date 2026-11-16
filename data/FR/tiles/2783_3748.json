@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2783,3748],
+"stops":[
+  {"id":1371136079,"lat":49.1908,"lon":7.444013,"k":"p","n":"Großsteinhausen Mühle"},
+  {"id":1371136656,"lat":49.178172,"lon":7.447468,"k":"x","n":"Riedelberg"},
+  {"id":1371136657,"lat":49.184663,"lon":7.44542,"k":"p","n":"Dietrichingen Zollhaus"},
+  {"id":5030095088,"lat":49.188018,"lon":7.413869,"k":"p","n":"Dietrichingen Ort"},
+  {"id":8899211602,"lat":49.191514,"lon":7.443499,"k":"p","n":"Großsteinhausen Mühle"},
+  {"id":8959966717,"lat":49.191439,"lon":7.443515,"k":"p","n":"Großsteinhausen Mühle"},
+  {"id":9016422850,"lat":49.184686,"lon":7.445537,"k":"p","n":"Dietrichingen Zollhaus"},
+  {"id":9027696315,"lat":49.188002,"lon":7.413984,"k":"p","n":"Dietrichingen Ort"},
+  {"id":9027696316,"lat":49.189836,"lon":7.414538,"k":"p","n":"Dietrichingen Hauptstraße"},
+  {"id":9027708617,"lat":49.189525,"lon":7.414369,"k":"p","n":"Dietrichingen Hauptstraße"},
+  {"id":12141725233,"lat":49.178123,"lon":7.447638,"k":"p","n":"Riedelberg"}
+],
+"routes":[
+  {"id":13102893,"t":{"ref":"242","name":"Bus 242: Pirmasens => Riedelberg","from":"Pirmasens Exerzierplatz","to":"Riedelberg","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":8,"s":[[8899211602,7],[1371136657,8]]},
+  {"id":13102983,"t":{"ref":"242","name":"Bus 242: Riedelberg => Pirmasens","from":"Riedelberg","to":"Pirmasens HbF","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[9016422850,1],[1371136079,2]]},
+  {"id":13117315,"t":{"ref":"235","name":"Bus 235: Zweibrücken => Walshausen","from":"Zweibrücken Hbf.","to":"Walshausen","network":"Verkehrsverbund Rhein-Neckar","operator":"VGZ","route":"bus","public_transport:version":"2"},"n":11,"s":[[9027696315,5],[9027708617,6],[1371136079,7]]},
+  {"id":13117403,"t":{"ref":"235","name":"Bus 235: Walshausen => Zweibrücken","from":"Walshausen","to":"Zweibrücken Hbf.","network":"Verkehrsverbund Rhein-Neckar","route":"bus","public_transport:version":"2"},"n":9,"s":[[5030095088,5]]},
+  {"id":17976170,"t":{"ref":"233","name":"Bus 233","to":"IGS Contwig","network":"Verkehrsverbund Rhein-Neckar","operator":"VGZ","route":"bus"},"n":46,"s":[[9027708617,11],[9027696316,12],[9027696315,13],[5030095088,14],[9016422850,15],[1371136657,16],[8959966717,32],[8899211602,33]]}
+]
+}

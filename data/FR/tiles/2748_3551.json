@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2748,3551],
+"stops":[
+  {"id":1705866878,"lat":47.402019,"lon":-2.445633,"k":"p","n":"Fontaine Braz","ref":"LIL10214N"},
+  {"id":1705866884,"lat":47.402019,"lon":-2.445633,"k":"p","n":"Fontaine Braz","ref":"LIL10214O"},
+  {"id":1705881129,"lat":47.41472,"lon":-2.400087,"k":"p","n":"Pont d'Armes","ref":"LIL10494O"},
+  {"id":6024344741023,"lat":47.439644,"lon":-2.431414,"k":"p","n":"Caire","g":1},
+  {"id":6030943912103,"lat":47.439688,"lon":-2.431405,"k":"p","n":"Caire","g":1},
+  {"id":6051599601451,"lat":47.446881,"lon":-2.449596,"k":"p","n":"Pont Mahé","g":1},
+  {"id":6066297238006,"lat":47.415283,"lon":-2.40021,"k":"p","n":"Pont d'Armes","g":1}
+],
+"routes":[
+  {"id":2122420,"t":{"ref":"D","name":"Car Ligne D : Pénestin -> Guérande -> La Baule","from":"Pénestin","to":"La Baule","network":"Lila Presqu'île","operator":"LILA","colour":"#871F21","route":"bus","public_transport:version":"2"},"n":4,"s":[[1705881129,4]]},
+  {"id":2130156,"t":{"ref":"7","name":"Ligne 7 : Guérande <-> Pénestin","from":"Guérande","to":"Pénestin","network":"Lila Presqu'île","operator":"Maury","route":"bus","public_transport:version":"2","bus":"long_distance"},"n":18,"s":[[1705881129,6]]},
+  {"id":2130971,"t":{"ref":"9","name":"Ligne 9 : Guérande <-> Mesquer","network":"Lila Presqu'île","operator":"Maury","route":"bus","public_transport:version":"2","bus":"long_distance"},"n":39,"s":[[1705866884,39]]},
+  {"id":3001523196463,"t":{"ref":"7","name":"7: Athanor - Phare de Tréhiguier","from":"Athanor","to":"Phare de Tréhiguier","operator":"Lila","route":"bus","public_transport:version":"2"},"n":22,"s":[[6066297238006,11],[6030943912103,14]]},
+  {"id":3078871244146,"t":{"ref":"7","name":"7: Phare de Tréhiguier - Athanor","from":"Phare de Tréhiguier","to":"Athanor","operator":"Lila","route":"bus","public_transport:version":"2"},"n":22,"s":[[6051599601451,8],[6024344741023,9],[1705881129,12]]}
+]
+}

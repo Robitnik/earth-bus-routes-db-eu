@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2687,3719],
+"stops":[
+  {"id":912727543,"lat":44.377837,"lon":5.953198,"k":"x","n":"Claret - Quartier Bouchet"},
+  {"id":912727611,"lat":44.371883,"lon":5.954953,"k":"x","n":"Claret - École"},
+  {"id":3769059209,"lat":44.395068,"lon":5.975422,"k":"x","n":"Claret - Les Roches"},
+  {"id":4037908532,"lat":44.352077,"lon":5.991738,"k":"p","n":"Melve - Place du Village"},
+  {"id":5794001032,"lat":44.352053,"lon":5.991715,"k":"x","n":"Melve - Place du Village"},
+  {"id":7635731176,"lat":44.371925,"lon":5.954959,"k":"p","n":"Claret - École"},
+  {"id":7635731177,"lat":44.377691,"lon":5.95299,"k":"p","n":"Claret - Quartier Bouchet"},
+  {"id":7635731178,"lat":44.377793,"lon":5.953304,"k":"p","n":"Claret - Quartier Bouchet"},
+  {"id":7635731179,"lat":44.395017,"lon":5.975372,"k":"p","n":"Claret - Les Roches"},
+  {"id":8477141571,"lat":44.377683,"lon":5.953052,"k":"x","n":"Claret - Quartier Bouchet"},
+  {"id":10873672590,"lat":44.371547,"lon":5.956466,"k":"x","n":"Claret - Place du Village"},
+  {"id":10873672591,"lat":44.371582,"lon":5.956372,"k":"p","n":"Claret - Place du Village"}
+],
+"routes":[
+  {"id":6888031,"t":{"ref":"492","name":"Bus 492 : Turriers => Sigoyer => Sisteron","from":"Turriers","to":"Sisteron","network":"Zou !","operator":"PAYAN","colour":"#962e01","route":"bus","public_transport:version":"2"},"n":17,"s":[[4037908532,11]]},
+  {"id":6888032,"t":{"ref":"492","name":"Bus 492 : Sisteron => Sigoyer => Turriers","from":"Sisteron","to":"Turriers","network":"Zou !","operator":"PAYAN","colour":"#962e01","route":"bus","public_transport:version":"2"},"n":17,"s":[[4037908532,7]]},
+  {"id":11218271,"t":{"ref":"137","name":"Bus 137 : Claret - Les Roches => Claret - École","from":"Claret - Les Roches","to":"Claret - École","network":"L'Agglo en bus","operator":"GRIMAUD","colour":"#ff1493","route":"bus","public_transport:version":"2"},"n":3,"s":[[7635731179,1],[7635731177,2],[7635731176,3]]},
+  {"id":11218272,"t":{"ref":"137","name":"Bus 137 : Claret - École => Claret - Les Roches","from":"Claret - École","to":"Claret - Les Roches","network":"L'Agglo en bus","operator":"GRIMAUD","colour":"#ff1493","route":"bus","public_transport:version":"2"},"n":3,"s":[[7635731176,1],[7635731178,2],[7635731179,3]]},
+  {"id":15427529,"t":{"ref":"5002","name":"Bus 5002 : Claret - École => Ventavon - Village École => Claret - École","from":"Claret - École","to":"Claret - École","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[7635731176,1,11]]},
+  {"id":15427530,"t":{"ref":"5002","name":"Bus 5002 : Ventavon - Village École => Claret - École => Ventavon - Village École","from":"Ventavon - Village École","to":"Ventavon - Village École","network":"Zou !","operator":"Autocars du Laragnais","colour":"#0099ff","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[7635731176,6]]},
+  {"id":15818807,"t":{"ref":"4920","name":"Bus 4920 : La Motte-du-Caire => Claret => Vaumeilh","from":"La Motte-du-Caire","to":"Vaumeilh","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[4037908532,2],[10873672591,3]]},
+  {"id":15818808,"t":{"ref":"4920","name":"Bus 4920 : Vaumeilh => Claret => La Motte-du-Caire","from":"Vaumeilh","to":"La Motte-du-Caire","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10873672591,6],[4037908532,7]]},
+  {"id":15852032,"t":{"ref":"4926","name":"Bus 4926 : La Motte-du-Caire => Melve","from":"La Motte-du-Caire","to":"Melve","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[4037908532,4]]},
+  {"id":15852033,"t":{"ref":"4926","name":"Bus 4926 : La Motte-du-Caire => Melve => La Motte-du-Caire","from":"La Motte-du-Caire","to":"La Motte-du-Caire","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[4037908532,2]]}
+]
+}

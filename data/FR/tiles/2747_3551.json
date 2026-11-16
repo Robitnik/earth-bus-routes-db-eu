@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2747,3551],
+"stops":[
+  {"id":1705865279,"lat":47.38895,"lon":-2.426495,"k":"p","n":"Cimetière","ref":"LIL10512N"},
+  {"id":1705865284,"lat":47.388925,"lon":-2.426577,"k":"p","n":"Cimetière","ref":"LIL10512O"},
+  {"id":1705869604,"lat":47.398415,"lon":-2.446817,"k":"p","n":"Kerroué","ref":"LIL10215N"},
+  {"id":1705869614,"lat":47.398558,"lon":-2.446699,"k":"p","n":"Kerroué","ref":"LIL10215O"},
+  {"id":1705869663,"lat":47.373721,"lon":-2.434467,"k":"p","n":"Kervolan","ref":"LILNav2442"},
+  {"id":1705878591,"lat":47.391382,"lon":-2.424781,"k":"p","n":"Église","ref":"LIL10508O"},
+  {"id":1705879039,"lat":47.355547,"lon":-2.433089,"k":"p","n":"Miroux","ref":"LIL10340O"},
+  {"id":1705884543,"lat":47.394497,"lon":-2.449051,"k":"p","n":"Trevin","ref":"LIL10233O"},
+  {"id":1705884549,"lat":47.394361,"lon":-2.449238,"k":"p","n":"Trevin","ref":"LIL10233N"},
+  {"id":6984958600,"lat":47.358088,"lon":-2.449612,"k":"p","n":"arrêt de bus brézéan"},
+  {"id":6984958601,"lat":47.357859,"lon":-2.449362,"k":"p","n":"arrèt de bus brézéan"},
+  {"id":6008740808148,"lat":47.395266,"lon":-2.42085,"k":"p","n":"Pont Belles Filles","g":1},
+  {"id":6021115541887,"lat":47.352705,"lon":-2.431291,"k":"p","n":"Kervabon","g":1},
+  {"id":6030262477530,"lat":47.373648,"lon":-2.432881,"k":"p","n":"Kervolan","g":1},
+  {"id":6033161014104,"lat":47.351845,"lon":-2.421527,"k":"p","n":"Kerdando","g":1},
+  {"id":6034015747211,"lat":47.352651,"lon":-2.431834,"k":"p","n":"Kervabon","g":1},
+  {"id":6036541656154,"lat":47.394924,"lon":-2.421207,"k":"p","n":"Pont Belles Filles","g":1},
+  {"id":6054831309006,"lat":47.391162,"lon":-2.425294,"k":"p","n":"Eglise","g":1},
+  {"id":6063317232623,"lat":47.373723,"lon":-2.432997,"k":"p","n":"Kervolan","g":1},
+  {"id":6093079677694,"lat":47.352022,"lon":-2.421499,"k":"p","n":"Kerdando","g":1}
+],
+"routes":[
+  {"id":2122420,"t":{"ref":"D","name":"Car Ligne D : Pénestin -> Guérande -> La Baule","from":"Pénestin","to":"La Baule","network":"Lila Presqu'île","operator":"LILA","colour":"#871F21","route":"bus","public_transport:version":"2"},"n":4,"s":[[1705865284,1]]},
+  {"id":2122421,"t":{"ref":"D","name":"Car Ligne D : La Baule -> Guérande -> Pénestin","from":"La Baule","to":"Pénestin","network":"Lila Presqu'île","operator":"LILA","colour":"#871F21","route":"bus","public_transport:version":"2"},"n":4,"s":[[1705865279,1],[1705869663,2]]},
+  {"id":2130156,"t":{"ref":"7","name":"Ligne 7 : Guérande <-> Pénestin","from":"Guérande","to":"Pénestin","network":"Lila Presqu'île","operator":"Maury","route":"bus","public_transport:version":"2","bus":"long_distance"},"n":18,"s":[[1705878591,1],[1705879039,3],[1705865284,4],[1705865279,5],[1705869663,13]]},
+  {"id":3001523196463,"t":{"ref":"7","name":"7: Athanor - Phare de Tréhiguier","from":"Athanor","to":"Phare de Tréhiguier","operator":"Lila","route":"bus","public_transport:version":"2"},"n":22,"s":[[6033161014104,4],[6034015747211,5],[1705879039,6],[6030262477530,7],[1705865284,8],[1705878591,9],[6036541656154,10]]},
+  {"id":3012113036677,"t":{"ref":"9","name":"Car Ligne 9 : La Baule -> Guérande -> Mesquer","from":"La Baule","to":"Mesquer","network":"Lila Presqu'île","operator":"Maury","colour":"#0D7E54","route":"bus","public_transport:version":"2"},"n":13,"s":[[6984958601,4]]},
+  {"id":3014675077195,"t":{"ref":"9","name":"Car Ligne 9 : La Baule -> Guérande -> Mesquer","from":"La Baule","to":"Mesquer","network":"Lila Presqu'île","operator":"Maury","colour":"#0D7E54","route":"bus","public_transport:version":"2"},"n":13,"s":[[6984958600,10]]},
+  {"id":3078871244146,"t":{"ref":"7","name":"7: Phare de Tréhiguier - Athanor","from":"Phare de Tréhiguier","to":"Athanor","operator":"Lila","route":"bus","public_transport:version":"2"},"n":22,"s":[[6008740808148,13],[6054831309006,14],[1705865284,15],[6063317232623,16],[1705879039,17],[6021115541887,18],[6093079677694,19]]}
+]
+}

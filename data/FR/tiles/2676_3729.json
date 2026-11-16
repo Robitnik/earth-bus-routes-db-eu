@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2676,3729],
+"stops":[
+  {"id":5698471950,"lat":43.839371,"lon":6.493857,"k":"p","n":"Castellane - Camping du Verdon"},
+  {"id":5698471951,"lat":43.839186,"lon":6.493586,"k":"p","n":"Castellane - Camping du Verdon"},
+  {"id":8404429131,"lat":43.839398,"lon":6.493794,"k":"x","n":"Castellane - Camping du Verdon"},
+  {"id":8404429132,"lat":43.839177,"lon":6.493654,"k":"x","n":"Castellane - Camping du Verdon"},
+  {"id":10655968797,"lat":43.830545,"lon":6.453761,"k":"x","n":"Castellane - Pont de Taloire"},
+  {"id":10655968798,"lat":43.830499,"lon":6.45375,"k":"p","n":"Castellane - Pont de Taloire"},
+  {"id":10655968799,"lat":43.830585,"lon":6.453771,"k":"p","n":"Castellane - Pont de Taloire"}
+],
+"routes":[
+  {"id":6795787,"t":{"ref":"450","name":"Bus 450 : Castellane => Riez","from":"Castellane","to":"Riez","network":"Zou !","operator":"SUMIAN","colour":"#fea347","route":"bus","public_transport:version":"2"},"n":10,"s":[[5698471951,2]]},
+  {"id":6795788,"t":{"ref":"450","name":"Bus 450 : Riez => Castellane","from":"Riez","to":"Castellane","network":"Zou !","operator":"SUMIAN","colour":"#fea347","route":"bus","public_transport:version":"2"},"n":10,"s":[[5698471950,9]]},
+  {"id":15475196,"t":{"ref":"4502","name":"Bus 4502 : Castellane => Rougon => La Palud-sur-Verdon","from":"Castellane","to":"La Palud-sur-Verdon","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10655968799,4]]},
+  {"id":15475197,"t":{"ref":"4502","name":"Bus 4502 : La Palud-sur-Verdon => Rougon => Castellane - Collège","from":"La Palud-sur-Verdon","to":"Castellane - Collège","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":9,"s":[[10655968798,8]]},
+  {"id":15475198,"t":{"ref":"4502","name":"Bus 4502 : La Palud-sur-Verdon => Rougon => Castellane","from":"La Palud-sur-Verdon","to":"Castellane","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":11,"s":[[10655968798,8]]}
+]
+}

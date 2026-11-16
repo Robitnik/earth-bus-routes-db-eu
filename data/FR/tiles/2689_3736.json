@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2689,3736],
+"stops":[
+  {"id":1120313068,"lat":44.450201,"lon":6.84851,"k":"x","n":"Larche"},
+  {"id":4001226623,"lat":44.450209,"lon":6.848523,"k":"p","n":"Larche"},
+  {"id":6178648236,"lat":44.481431,"lon":6.80762,"k":"p","n":"Saint-Ours"},
+  {"id":9007678291,"lat":44.481441,"lon":6.807657,"k":"x","n":"Saint-Ours"},
+  {"id":10769119829,"lat":44.451236,"lon":6.845992,"k":"p","n":"Val-d'Oronaye - Larche Village"},
+  {"id":10769119830,"lat":44.451171,"lon":6.845915,"k":"p","n":"Val-d'Oronaye - Larche Village"},
+  {"id":10769119831,"lat":44.451202,"lon":6.845951,"k":"x","n":"Val-d'Oronaye - Larche Village"}
+],
+"routes":[
+  {"id":7212950,"t":{"ref":"L3","name":"Navette L3 : Barcelonnette => Larche","from":"Barcelonnette - Place Aimé Gassier","to":"Val d'Oronaye - Larche","network":"CCVUSP","operator":"SCAL","colour":"#46a547","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001226623,7]]},
+  {"id":7212951,"t":{"ref":"L3","name":"Navette L3 : Larche => Barcelonnette","from":"Val d'Oronaye - Larche","to":"Barcelonnette - Place Aimé Gassier","network":"CCVUSP","operator":"SCAL","colour":"#46a547","route":"bus","public_transport:version":"2"},"n":7,"s":[[4001226623,1]]},
+  {"id":15656850,"t":{"ref":"4101","name":"Bus 4101 : Larche => La Condamine-Chatelard => Saint-Paul-sur-Ubaye","from":"Larche","to":"Saint-Paul-sur-Ubaye","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10769119829,1]]},
+  {"id":15656851,"t":{"ref":"4101","name":"Bus 4101 : Saint-Paul-sur-Ubaye => La Condamine-Chatelard => Larche","from":"Saint-Paul-sur-Ubaye","to":"Larche","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":4,"s":[[10769119830,4]]},
+  {"id":15685735,"t":{"ref":"4108","name":"Bus 4108 : Barcelonnette => Jausiers => Larche","from":"Barcelonnette","to":"Larche","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10769119830,8]]},
+  {"id":15685736,"t":{"ref":"4108","name":"Bus 4108 : Larche => Jausiers => Barcelonnette","from":"Larche","to":"Barcelonnette","network":"Zou !","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10769119829,1]]}
+]
+}

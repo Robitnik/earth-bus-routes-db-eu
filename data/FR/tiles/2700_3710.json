@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2700,3710],
+"stops":[
+  {"id":49313807,"lat":45.024723,"lon":5.518048,"k":"x","n":"Hauts Plateaux"},
+  {"id":49331970,"lat":45.031994,"lon":5.527325,"k":"x","n":"Corrençon − Office du Tourisme"},
+  {"id":49331972,"lat":45.031765,"lon":5.527176,"k":"x","n":"Corrençon − Office du Tourisme"},
+  {"id":389048629,"lat":45.049752,"lon":5.547575,"k":"x","n":"Les Guillets"},
+  {"id":505038392,"lat":45.020452,"lon":5.528913,"k":"x","n":"Clos de la Balme"},
+  {"id":1250481414,"lat":45.024481,"lon":5.518104,"k":"x","n":"Hauts Plateaux"},
+  {"id":4653973549,"lat":45.027361,"lon":5.521378,"k":"p"},
+  {"id":11561116897,"lat":45.049728,"lon":5.547638,"k":"p"},
+  {"id":11561116898,"lat":45.049927,"lon":5.547439,"k":"p"},
+  {"id":13397392673,"lat":45.04991,"lon":5.5431,"k":"p","n":"Font de la Maie"},
+  {"id":13397392674,"lat":45.04952,"lon":5.54323,"k":"p","n":"Font de la Maie"},
+  {"id":13418833894,"lat":45.03636,"lon":5.53389,"k":"p","n":"Les Traverses"},
+  {"id":13418833895,"lat":45.03634,"lon":5.53398,"k":"p","n":"Les Traverses"},
+  {"id":13418864728,"lat":45.02861,"lon":5.52288,"k":"p","n":"Les Ritons"},
+  {"id":13418864729,"lat":45.02858,"lon":5.52296,"k":"p","n":"Les Ritons"},
+  {"id":13418864778,"lat":45.03337,"lon":5.53112,"k":"p","n":"Les Maréchaux"},
+  {"id":13418864779,"lat":45.0333,"lon":5.53114,"k":"p","n":"Les Maréchaux"},
+  {"id":5000399684337,"lat":45.024722,"lon":5.518099,"k":"p","n":"Hauts Plateaux"},
+  {"id":5000399684338,"lat":45.020408,"lon":5.528933,"k":"p","n":"Clos de la Balme"},
+  {"id":5000399684339,"lat":45.024408,"lon":5.518016,"k":"p","n":"Hauts Plateaux"},
+  {"id":5000399684362,"lat":45.032003,"lon":5.527292,"k":"p","n":"Corrençon − Office du Tourisme"},
+  {"id":5000399684363,"lat":45.031743,"lon":5.527217,"k":"p","n":"Corrençon − Office du Tourisme"}
+],
+"routes":[
+  {"id":18607375,"t":{"ref":"TAVC","name":"TAVC : Valence -> Corrençon","from":"Valence TGV","to":"Corrençon en Vercors","network":"Transaltitude","operator":"VFD","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000399684362,5],[5000399684338,6]]},
+  {"id":18607376,"t":{"ref":"TAVC","name":"TAVC : Corrençon -> Valence","from":"Corrençon en Vercors","to":"Valence TGV","network":"Transaltitude","operator":"VFD","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000399684338,1],[5000399684363,2]]},
+  {"id":19169348,"t":{"ref":"T64","name":"T64 : Corençon => Grenoble via Grandes Côtes","from":"Corrençon en Vercors - Clos de la Balme","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#EC2A2F","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000399684338,1],[5000399684337,2],[5000399684363,3]]},
+  {"id":19169351,"t":{"ref":"T64","name":"T64 : Grenoble => Corrençon via Jean Prévost","from":"Grenoble - Gare Routière","to":"Corrençon-en-Vercors - Clos de la Balme","network":"Cars Région Isère","operator":"VFD","colour":"#60B667","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000399684362,27],[5000399684339,28],[5000399684338,29]]},
+  {"id":19169352,"t":{"ref":"T64","name":"T64 : Corençon => Grenoble via Jean Prévost","from":"Corrençon en Vercors - Clos de la Balme","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#EC2A2F","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000399684338,1],[5000399684337,2],[5000399684363,3]]},
+  {"id":3005366795343,"t":{"ref":"T64","name":"T64 : Grenoble => Corrençon","from":"Grenoble - Gare Routière","to":"Corrençon-en-Vercors - Clos de la Balme","network":"Cars Région Isère","operator":"VFD","colour":"#60B667","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000399684362,28],[1250481414,29],[505038392,30]]},
+  {"id":3006830920885,"t":{"ref":"T64","name":"T64 : Corençon => Grenoble","from":"Corrençon en Vercors - Clos de la Balme","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#EC2A2F","route":"bus","public_transport:version":"2"},"n":30,"s":[[505038392,1],[5000399684337,2],[5000399684363,3]]},
+  {"id":3073484906814,"t":{"ref":"T64","name":"T64 : Corençon => Grenoble","from":"Corrençon en Vercors - Clos de la Balme","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#EC2A2F","route":"bus","public_transport:version":"2"},"n":30,"s":[[505038392,1],[5000399684337,2],[5000399684363,3]]},
+  {"id":3078359956974,"t":{"ref":"T64","name":"T64 : Grenoble => Corrençon","from":"Grenoble - Gare Routière","to":"Corrençon-en-Vercors - Clos de la Balme","network":"Cars Région Isère","operator":"VFD","colour":"#60B667","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000399684362,28],[1250481414,29],[505038392,30]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3752],
+"stops":[
+  {"id":6638737860,"lat":44.062442,"lon":7.606193,"k":"p","n":"La Brigue - Gare SNCF"},
+  {"id":7415277270,"lat":44.06252,"lon":7.60618,"k":"p","n":"La Brigue - Gare SNCF"},
+  {"id":7415277271,"lat":44.063048,"lon":7.611376,"k":"p","n":"Le Mirval"},
+  {"id":7415277272,"lat":44.063114,"lon":7.611352,"k":"p","n":"Le Mirval"},
+  {"id":7415277277,"lat":44.063277,"lon":7.617079,"k":"p","n":"La Brigue - Place de Nice"},
+  {"id":7415277278,"lat":44.063339,"lon":7.617179,"k":"p","n":"La Brigue - Place de Nice"},
+  {"id":8710463427,"lat":44.062482,"lon":7.606186,"k":"x","n":"La Brigue - Gare SNCF"},
+  {"id":8710463428,"lat":44.063097,"lon":7.611358,"k":"x","n":"Le Mirval"},
+  {"id":8710463429,"lat":44.063288,"lon":7.616964,"k":"x","n":"La Brigue - Place de Nice"},
+  {"id":6019554387345,"lat":44.087746,"lon":7.649437,"k":"p","n":"Morignole","g":1},
+  {"id":6047421854434,"lat":44.063473,"lon":7.621379,"k":"p","n":"ADAPEI","g":1}
+],
+"routes":[
+  {"id":19328749,"t":{"ref":"23","name":"Bus 23 : Castérino => La Brigue Gare => Tende","from":"Castérino","to":"Tende","network":"Zest","operator":"Keolis Alpes-Maritimes","route":"bus","public_transport:version":"2"},"n":9,"s":[[7415277270,4]]},
+  {"id":19345284,"t":{"ref":"23","name":"Bus 23 : Tende => La Brigue Gare => Castérino","from":"Tende","to":"Castérino","network":"Zest","operator":"Keolis Alpes-Maritimes","route":"bus","public_transport:version":"2"},"n":9,"s":[[7415277270,6]]},
+  {"id":3044556277597,"t":{"ref":"25","name":"Bus 25 : Tende => Menton","from":"Tende","to":"Menton - Gare Routière","network":"Zest","operator":"Keolis Alpes-Maritimes","colour":"#dc143c","route":"bus","public_transport:version":"2"},"n":35,"s":[[8710463427,7],[7415277272,8],[8710463429,9],[6047421854434,10],[7415277271,11],[7415277270,12]]},
+  {"id":3059071647841,"t":{"ref":"25","name":"Bus 25 : Tende => Menton","from":"Tende","to":"Menton - Gare Routière","network":"Zest","operator":"Keolis Alpes-Maritimes","colour":"#dc143c","route":"bus","public_transport:version":"2"},"n":27,"s":[[8710463427,7],[7415277272,8],[8710463429,9],[6047421854434,10],[7415277271,11],[7415277270,12]]},
+  {"id":3060920396877,"t":{"ref":"25","name":"Bus 25 : Tende => Menton","from":"Tende","to":"Menton - Gare Routière","network":"Zest","operator":"Keolis Alpes-Maritimes","colour":"#dc143c","route":"bus","public_transport:version":"2"},"n":27,"s":[[8710463427,16],[7415277272,17],[8710463429,18],[6047421854434,19],[7415277271,20],[7415277270,21]]},
+  {"id":3090242101014,"t":{"ref":"25","name":"Bus 25 : Menton => Tende","from":"Menton - Gare Routière","to":"Tende","network":"Zest","operator":"Keolis Alpes-Maritimes","colour":"#dc143c","route":"bus","public_transport:version":"2"},"n":35,"s":[[8710463427,24],[7415277272,25],[8710463429,26],[6047421854434,27],[7415277271,28],[7415277270,29]]},
+  {"id":3099438891125,"t":{"ref":"LB1","name":"LB1: Morignole - St Dalmas de Tende","from":"Morignole","to":"St Dalmas de Tende","operator":"Zest","route":"bus","public_transport:version":"2"},"n":2,"s":[[6019554387345,1]]}
+]
+}

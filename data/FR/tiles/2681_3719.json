@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2681,3719],
+"stops":[
+  {"id":1910592126,"lat":44.06258,"lon":5.976943,"k":"p","n":"Montfort - RD 4096 / Les Alexis"},
+  {"id":1910592245,"lat":44.062484,"lon":5.977193,"k":"p","n":"Montfort - RD 4096 / Les Alexis"},
+  {"id":2927546460,"lat":44.073767,"lon":5.991212,"k":"p","n":"Château-Arnoux-Saint-Auban - MJC-CMS","ref":"282"},
+  {"id":2927581205,"lat":44.051413,"lon":5.963426,"k":"x","n":"La Cassine"},
+  {"id":2927581206,"lat":44.051393,"lon":5.963464,"k":"x","n":"La Cassine"},
+  {"id":3999333044,"lat":44.064291,"lon":5.975781,"k":"p","n":"Montfort - Village"},
+  {"id":3999497925,"lat":44.080454,"lon":5.997161,"k":"p","n":"Collège Camille Reymond"},
+  {"id":5807675774,"lat":44.073709,"lon":5.991322,"k":"p","n":"Château-Arnoux-Saint-Auban - MJC-CMS","ref":"283"},
+  {"id":5807675775,"lat":44.073726,"lon":5.991291,"k":"x","n":"Château-Arnoux-Saint-Auban - MJC-CMS"},
+  {"id":7533561407,"lat":44.062497,"lon":5.977171,"k":"x","n":"Montfort - RD 4096 / Les Alexis"},
+  {"id":7533561408,"lat":44.062571,"lon":5.976959,"k":"x","n":"Montfort - RD 4096 / Les Alexis"},
+  {"id":12463429451,"lat":44.095233,"lon":5.999228,"k":"p","n":"Cimetière du Blachon"},
+  {"id":12463429452,"lat":44.068281,"lon":5.985481,"k":"p","n":"La Casse / Rue des Pénitents"},
+  {"id":12463429453,"lat":44.067117,"lon":5.989313,"k":"p","n":"Joie et Soleil"},
+  {"id":12463429454,"lat":44.068914,"lon":5.991074,"k":"p","n":"Avenue du Stade / Ecole Paul Lapie"},
+  {"id":12463429455,"lat":44.070813,"lon":5.993481,"k":"p","n":"Centre Aéré"},
+  {"id":12463429456,"lat":44.061623,"lon":5.996829,"k":"p","n":"Gare SNCF Saint Auban"},
+  {"id":12463429457,"lat":44.071679,"lon":5.996389,"k":"p","n":"Les Halles Place Péchiney"}
+],
+"routes":[
+  {"id":6627302,"t":{"ref":"401","name":"Bus 401 : Digne-les-Bains => Sisteron","from":"Digne-les-Bains - Gare Routière","to":"Sisteron - Gare Routière","network":"Zou !","operator":"Autocars PAYAN","colour":"#ffe866","route":"bus","public_transport:version":"2"},"n":21,"s":[[2927546460,13]]},
+  {"id":6627303,"t":{"ref":"401","name":"Bus 401 : Sisteron => Digne-les-Bains","from":"Sisteron - Gare Routière","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"Autocars PAYAN","colour":"#ffe866","route":"bus","public_transport:version":"2"},"n":22,"s":[[2927546460,11]]},
+  {"id":12290056,"t":{"ref":"S1","name":"Bus S1 : Montfort => Digne-les-Bains","from":"Montfort","to":"Digne-les-Bains","network":"PAA","operator":"Provence Alpes Agglomération","colour":"#32cd32","route":"bus","public_transport:version":"2"},"n":9,"s":[[1910592245,1],[5807675774,2]]},
+  {"id":12290057,"t":{"ref":"S1","name":"Bus S1 : Digne-les-Bains => Montfort","from":"Digne-les-Bains","to":"Montfort","network":"PAA","operator":"Provence Alpes Agglomération","colour":"#32cd32","route":"bus","public_transport:version":"2"},"n":8,"s":[[2927546460,7],[1910592126,8]]},
+  {"id":18483054,"t":{"name":"Navette communale","operator":"Commune de Château-Arnoux-Saint-Auban","route":"bus"},"n":22,"s":[[12463429457,1],[12463429456,2],[12463429455,3],[12463429454,4],[12463429453,5],[12463429452,6],[5807675774,7],[2927546460,8],[12463429451,14]]},
+  {"id":3060129918428,"t":{"ref":"400","name":"Bus 400 : Veynes => Digne","from":"Veynes - Gare SNCF","to":"Digne-les-Bains - Gare Routière","network":"Zou !","operator":"SCAL","colour":"#ffd8b0","route":"bus","public_transport:version":"2"},"n":27,"s":[[5807675774,20]]}
+]
+}

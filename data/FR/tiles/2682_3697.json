@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2682,3697],
+"stops":[
+  {"id":1270591675,"lat":44.11177,"lon":4.850151,"k":"p","n":"Orange Les Vignes"},
+  {"id":2199873527,"lat":44.112968,"lon":4.898185,"k":"p","n":"Jonquières MJC"},
+  {"id":5634852396,"lat":44.115712,"lon":4.896656,"k":"p","n":"Jonquières - Le Village"},
+  {"id":5634852397,"lat":44.115607,"lon":4.896673,"k":"p","n":"Jonquières - Le Village"},
+  {"id":5634867844,"lat":44.116664,"lon":4.887993,"k":"p","n":"Les Paluds"},
+  {"id":5634867845,"lat":44.116531,"lon":4.88788,"k":"p","n":"Les Paluds"},
+  {"id":5634875609,"lat":44.116968,"lon":4.879429,"k":"p","n":"Chemin du Liot"},
+  {"id":5634875610,"lat":44.116862,"lon":4.879848,"k":"p","n":"Chemin du Liot"},
+  {"id":6210724564,"lat":44.111816,"lon":4.850178,"k":"x","n":"Orange Les Vignes"},
+  {"id":6652996716,"lat":44.115668,"lon":4.896631,"k":"x","n":"Jonquières - Le Village"},
+  {"id":7605265832,"lat":44.116585,"lon":4.88805,"k":"x","n":"Les Paluds"},
+  {"id":7605265833,"lat":44.116544,"lon":4.888008,"k":"x","n":"Les Paluds"},
+  {"id":7605265837,"lat":44.116905,"lon":4.879782,"k":"x","n":"Chemin du Liot"},
+  {"id":7605265838,"lat":44.116909,"lon":4.879532,"k":"x","n":"Chemin du Liot"}
+],
+"routes":[
+  {"id":9220539,"t":{"ref":"1","name":"Bus 1 : Aygues => Orange Les Vignes","from":"Aygues","to":"Orange Les Vignes","network":"TCVO","operator":"Transdev Vaucluse","colour":"#0f75bb","route":"bus","public_transport:version":"2"},"n":30,"s":[[1270591675,30]]},
+  {"id":9220540,"t":{"ref":"1","name":"Bus 1 : Orange Les Vignes => Aygues","from":"Orange Les Vignes","to":"Aygues","network":"TCVO","operator":"Transdev Vaucluse","colour":"#0f75bb","route":"bus","public_transport:version":"2"},"n":27,"s":[[1270591675,1]]},
+  {"id":9220755,"t":{"ref":"4","name":"Bus 4 : Parking du Bourbonnais => Orange Les Vignes","from":"Parking du Bourbonnais","to":"Orange Les Vignes","network":"TCVO","operator":"Transdev Vaucluse","colour":"#f08023","route":"bus","public_transport:version":"2"},"n":24,"s":[[1270591675,24]]},
+  {"id":9220756,"t":{"ref":"4","name":"Bus 4 : Orange Les Vignes => Parking du Bourbonnais","from":"Orange Les Vignes","to":"Parking du Bourbonnais","network":"TCVO","operator":"Transdev Vaucluse","colour":"#f08023","route":"bus","public_transport:version":"2"},"n":23,"s":[[1270591675,1]]},
+  {"id":19566767,"t":{"ref":"910","name":"Bus 910 : Orange => Carpentras - Route d'Orange => Carpentras","from":"Orange","to":"Carpentras","network":"Zou !","operator":"Voyages Arnaud","colour":"#009e4d","route":"bus","public_transport:version":"2"},"n":32,"s":[[5634875610,5],[5634867845,6],[5634852397,7]]},
+  {"id":19566768,"t":{"ref":"910","name":"Bus 910 : Carpentras => Carpentras - Route d'Orange => Orange","from":"Carpentras","to":"Orange","network":"Zou !","operator":"Voyages Arnaud","colour":"#009e4d","route":"bus","public_transport:version":"2"},"n":26,"s":[[5634852396,20],[5634867844,21],[5634875609,22]]},
+  {"id":3004038685900,"t":{"ref":"TCVO L1","name":"TCVO L1: ORANGE Aygues - ORANGE Les Vignes","from":"ORANGE Aygues","to":"ORANGE Les Vignes","operator":"Transports en Commun de la Ville d'Orange","route":"bus","public_transport:version":"2"},"n":28,"s":[[6210724564,28]]},
+  {"id":3006595615870,"t":{"ref":"TCVO L1","name":"TCVO L1: ORANGE Aygues - ORANGE Les Vignes","from":"ORANGE Aygues","to":"ORANGE Les Vignes","operator":"Transports en Commun de la Ville d'Orange","route":"bus","public_transport:version":"2"},"n":30,"s":[[6210724564,30]]},
+  {"id":3029614246364,"t":{"ref":"TCVO L4","name":"TCVO L4: ORANGE Parking Du Bourbonnais - ORANGE Les Vignes","from":"ORANGE Parking Du Bourbonnais","to":"ORANGE Les Vignes","operator":"Transports en Commun de la Ville d'Orange","route":"bus","public_transport:version":"2"},"n":24,"s":[[6210724564,24]]},
+  {"id":3042613463664,"t":{"ref":"TCVO L4","name":"TCVO L4: ORANGE Les Vignes - ORANGE Parking Du Bourbonnais","from":"ORANGE Les Vignes","to":"ORANGE Parking Du Bourbonnais","operator":"Transports en Commun de la Ville d'Orange","route":"bus","public_transport:version":"2"},"n":23,"s":[[6210724564,1]]},
+  {"id":3054447694125,"t":{"ref":"910","name":"Bus 910 : Orange => Carpentras","from":"Orange","to":"Carpentras","network":"Zou !","operator":"Voyages Arnaud","colour":"#009e4d","route":"bus","public_transport:version":"2"},"n":31,"s":[[5634875609,5],[5634867845,6],[6652996716,7]]},
+  {"id":3066808041520,"t":{"ref":"910","name":"Bus 910 : Carpentras => Orange","from":"Carpentras","to":"Orange","network":"Zou !","operator":"Voyages Arnaud","colour":"#009e4d","route":"bus","public_transport:version":"2"},"n":25,"s":[[6652996716,19],[5634867844,20],[5634875609,21]]},
+  {"id":3077116548755,"t":{"ref":"TCVO L1","name":"TCVO L1: ORANGE Les Vignes - ORANGE Aygues","from":"ORANGE Les Vignes","to":"ORANGE Aygues","operator":"Transports en Commun de la Ville d'Orange","route":"bus","public_transport:version":"2"},"n":27,"s":[[6210724564,1]]},
+  {"id":3080968764965,"t":{"ref":"TCVO L1","name":"TCVO L1: ORANGE Les Vignes - ORANGE Aygues","from":"ORANGE Les Vignes","to":"ORANGE Aygues","operator":"Transports en Commun de la Ville d'Orange","route":"bus","public_transport:version":"2"},"n":29,"s":[[6210724564,1]]}
+]
+}

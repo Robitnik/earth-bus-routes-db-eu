@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2799,3681],
+"stops":[
+  {"id":10032144752,"lat":49.984956,"lon":4.093583,"k":"x"},
+  {"id":10032144759,"lat":49.984938,"lon":4.093534,"k":"p","n":"Anor Gare"},
+  {"id":10033439029,"lat":49.990668,"lon":4.098157,"k":"p","n":"Anor Place du 11 Novembre"},
+  {"id":10033439030,"lat":49.990931,"lon":4.098649,"k":"p","n":"Anor Place du 11 Novembre"},
+  {"id":10033439031,"lat":49.992149,"lon":4.09269,"k":"p","n":"Anor Saint-Gorgon"},
+  {"id":10035944271,"lat":49.991921,"lon":4.095942,"k":"p","n":"Anor Parc du Général Dépret"},
+  {"id":10035944272,"lat":49.991947,"lon":4.096044,"k":"p","n":"Anor Parc du Général Dépret"},
+  {"id":10059221823,"lat":49.992083,"lon":4.092639,"k":"p","n":"Anor Saint-Gorgon"}
+],
+"routes":[
+  {"id":14620820,"t":{"ref":"952E","name":"952E : Maubeuge – Lycée Pierre Forest → Anor – Gare","from":"Lycée Pierre Forest","to":"Anor – Gare","network":"Arc-en-Ciel 4","operator":"Transdev Nord","colour":"#003E63","route":"bus","public_transport:version":"2"},"n":9,"s":[[10032144759,9]]},
+  {"id":14620867,"t":{"ref":"952E","name":"952E : Anor – Gare → Maubeuge – Lycée Pierre Forest","from":"Anor – Gare","to":"Lycée Pierre Forest","network":"Arc-en-Ciel 4","operator":"Transdev Nord","colour":"#003E63","route":"bus","public_transport:version":"2"},"n":9,"s":[[10032144759,1]]},
+  {"id":14634926,"t":{"ref":"956","name":"Arc-en-Ciel 956 [1] Anor → Fourmies → Trélon","from":"Anor Point du Jour","to":"Trélon Clémenceau","network":"Arc-en-Ciel","operator":"Arc en ciel","route":"bus","public_transport:version":"2"},"n":25,"s":[[10033439029,5],[10033439031,6]]},
+  {"id":14634927,"t":{"ref":"956","name":"Arc-en-Ciel 956 [2] Trélon → Fourmies → Anor","from":"Trélon Clémenceau","to":"Anor La Galoperie","network":"Arc-en-Ciel","operator":"Arc en ciel","route":"bus","public_transport:version":"2"},"n":19,"s":[[10059221823,16],[10033439030,17]]},
+  {"id":14651253,"t":{"ref":"983","name":"983 [1] Liessies → Eppe-Sauvage → Trélon → Anor → Fourmies","from":"Liessies Centre","to":"Fourmies Hôtel de Ville","network":"Arc-en-Ciel","operator":"arc en ciel","route":"bus","public_transport:version":"2"},"n":15,"s":[[10035944271,11],[10033439029,13],[10033439031,14]]},
+  {"id":14654412,"t":{"ref":"983","name":"983 [2] Fourmies → Anor → Trelon → Eppe-Sauvage → Liessies","from":"Fourmies Hôtel de Ville","to":"Liessies Centre","network":"Arc-en-Ciel","operator":"arc en ciel","route":"bus","public_transport:version":"2"},"n":15,"s":[[10059221823,2],[10033439029,4],[10035944272,5]]}
+]
+}

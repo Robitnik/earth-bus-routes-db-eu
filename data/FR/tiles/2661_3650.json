@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2661,3650],
+"stops":[
+  {"id":3979688509,"lat":43.091982,"lon":2.549876,"k":"x","n":"Château de Villemagne"},
+  {"id":12959243063,"lat":43.088494,"lon":2.518801,"k":"x","n":"Serviès-en-Val - Abreuvoir"},
+  {"id":12959243064,"lat":43.088451,"lon":2.518794,"k":"p","n":"Serviès-en-Val - Abreuvoir"},
+  {"id":12959243069,"lat":43.088516,"lon":2.518816,"k":"p","n":"Serviès-en-Val - Abreuvoir"},
+  {"id":12959243072,"lat":43.091955,"lon":2.549903,"k":"p","n":"Château de Villemagne"},
+  {"id":12959311716,"lat":43.081204,"lon":2.53035,"k":"x","n":"Rieux-en-Val - Fontaine"},
+  {"id":12959311717,"lat":43.081174,"lon":2.530342,"k":"p","n":"Rieux-en-Val - Fontaine"},
+  {"id":12959311718,"lat":43.081233,"lon":2.530345,"k":"p","n":"Rieux-en-Val - Fontaine"},
+  {"id":12959311730,"lat":43.056492,"lon":2.526002,"k":"x","n":"Mayronnes"},
+  {"id":12959311731,"lat":43.05649,"lon":2.526054,"k":"p","n":"Mayronnes"},
+  {"id":12959311762,"lat":43.076887,"lon":2.505774,"k":"x","n":"Taurize"},
+  {"id":12959311763,"lat":43.076874,"lon":2.505744,"k":"p","n":"Taurize"}
+],
+"routes":[
+  {"id":19324170,"t":{"ref":"I","name":"Bus I : Lagrasse => Carcassonne","from":"Lagrasse - Esplanade","to":"Carcassonne - Le Dôme","network":"Carcassone Agglo","operator":"Keolis","colour":"#8c59b3","route":"bus","public_transport:version":"2"},"n":19,"s":[[12959243072,2],[12959243069,3]]},
+  {"id":19324279,"t":{"ref":"I","name":"Bus I : Fajac-en-Val =>Serviès-en-Val","from":"Fajac-en-Val","to":"Serviès-en-Val - Abreuvoir","network":"Carcassone Agglo","operator":"Keolis","colour":"#8c59b3","route":"bus","public_transport:version":"2"},"n":10,"s":[[12959311763,6],[12959311731,7],[12959311718,9],[12959243069,10]]},
+  {"id":3039501887077,"t":{"ref":"I","name":"Bus I : Serviès-en-Val => Fajac-en-Val","from":"Serviès-en-Val - Abreuvoir","to":"Fajac-en-Val","network":"Carcassone Agglo","operator":"Keolis","colour":"#8c59b3","route":"bus","public_transport:version":"2"},"n":10,"s":[[12959243064,1],[12959311716,2],[12959311730,4],[12959311762,5]]},
+  {"id":3050139322804,"t":{"ref":"I","name":"Bus I : Serviès-en-Val => Fajac-en-Val","from":"Serviès-en-Val - Abreuvoir","to":"Fajac-en-Val","network":"Carcassone Agglo","operator":"Keolis","colour":"#8c59b3","route":"bus","public_transport:version":"2"},"n":10,"s":[[12959311762,6],[12959311730,7],[12959311716,9],[12959243069,10]]},
+  {"id":3051958455469,"t":{"ref":"I","name":"Bus I : Carcassonne => Lagrasse","from":"Gambetta - Jean Jaurès","to":"Lagrasse - Esplanade","network":"Carcassone Agglo","operator":"Keolis","colour":"#8c59b3","route":"bus","public_transport:version":"2"},"n":21,"s":[[3979688509,2],[12959243069,3]]},
+  {"id":3057917693494,"t":{"ref":"I","name":"Bus I : Carcassonne => Lagrasse","from":"Gambetta - Jean Jaurès","to":"Lagrasse - Esplanade","network":"Carcassone Agglo","operator":"Keolis","colour":"#8c59b3","route":"bus","public_transport:version":"2"},"n":21,"s":[[12959243069,19],[3979688509,20]]}
+]
+}

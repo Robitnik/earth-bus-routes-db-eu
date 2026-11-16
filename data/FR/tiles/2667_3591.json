@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2667,3591],
+"stops":[
+  {"id":1632772150,"lat":43.381397,"lon":-0.407973,"k":"x","n":"Allias"},
+  {"id":1632772153,"lat":43.376651,"lon":-0.403014,"k":"x","n":"Bruscos"},
+  {"id":3386197998,"lat":43.382122,"lon":-0.413273,"k":"p","n":"Aéroport Pau Pyrénées","ref":"1903"},
+  {"id":3934812105,"lat":43.382159,"lon":-0.41323,"k":"x","n":"Aéroport Pau Pyrénées"},
+  {"id":3934812106,"lat":43.37659,"lon":-0.403003,"k":"p","n":"Bruscos","ref":"1705"},
+  {"id":3934812107,"lat":43.377247,"lon":-0.403792,"k":"x","n":"Bruscos"},
+  {"id":3934812108,"lat":43.377324,"lon":-0.403816,"k":"p","n":"Bruscos","ref":"1706"},
+  {"id":5916122889,"lat":43.381657,"lon":-0.408121,"k":"x","n":"Allias"},
+  {"id":5916122890,"lat":43.381588,"lon":-0.408144,"k":"p","n":"Allias","ref":"1901"},
+  {"id":7901664642,"lat":43.381471,"lon":-0.407945,"k":"p","n":"Allias","ref":"1902"},
+  {"id":10607093046,"lat":43.399885,"lon":-0.433487,"k":"x","n":"UZEIN Salle Polyvalente"},
+  {"id":10607093047,"lat":43.39982,"lon":-0.433516,"k":"p","n":"UZEIN Salle Polyvalente"},
+  {"id":10607093048,"lat":43.398005,"lon":-0.435634,"k":"p","n":"UZEIN Place du Lanot"},
+  {"id":10607093049,"lat":43.39795,"lon":-0.435657,"k":"x","n":"UZEIN Place du Lanot"},
+  {"id":10607093050,"lat":43.396551,"lon":-0.431151,"k":"p","n":"Rue Calonge"},
+  {"id":10607093051,"lat":43.396481,"lon":-0.431199,"k":"p","n":"Rue Calonge"},
+  {"id":10607093052,"lat":43.396524,"lon":-0.43117,"k":"x","n":"Rue Calonge"},
+  {"id":10607093053,"lat":43.386919,"lon":-0.414242,"k":"x","n":"Lotissement Icare"},
+  {"id":10607093054,"lat":43.386911,"lon":-0.414259,"k":"p","n":"Lotissement Icare"},
+  {"id":6015954149676,"lat":43.381005,"lon":-0.407652,"k":"p","n":"Allias","g":1},
+  {"id":6067580071413,"lat":43.381004,"lon":-0.407652,"k":"p","n":"Allias","g":1}
+],
+"routes":[
+  {"id":12010804,"t":{"ref":"531","name":"Bus 531 : Pau → Agen","from":"Pau - Pôle Multimodal - Gare SNCF","to":"Agen - Gare SNCF","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","colour":"#faf050","route":"bus","public_transport:version":"2"},"n":36,"s":[[3386197998,4]]},
+  {"id":12010805,"t":{"ref":"531","name":"Bus 531 : Agen → Pau","from":"Agen - Gare SNCF","to":"Pau - Pôle Multimodal - Gare SNCF","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","colour":"#faf050","route":"bus","public_transport:version":"2"},"n":36,"s":[[3386197998,33]]},
+  {"id":12010820,"t":{"ref":"530","name":"Bus 530 : Pau → Mont-de-Marsan","from":"Pau - Pôle Multimodal - Gare SNCF","to":"Mont-de-Marsan - Gare SNCF","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","operator":"Keolis Gascogne","colour":"#33d47f","route":"bus","public_transport:version":"2"},"n":20,"s":[[3386197998,4]]},
+  {"id":15430785,"t":{"ref":"207","name":"Ligne 207 : LESCAR Collège S. Palay → UZEIN Salle Polyvalente","from":"LESCAR Collège S. Palay","to":"UZEIN Salle Polyvalente","network":"Scolaris","colour":"#009fe3","route":"bus","public_transport:version":"2","bus":"school"},"n":5,"s":[[10607093050,3],[10607093048,4],[10607093047,5]]},
+  {"id":15436528,"t":{"ref":"207","name":"Ligne 207 : SAUVAGNON Boulangerie → LESCAR Collège S. Palay","from":"SAUVAGNON Boulangerie","to":"LESCAR Collège S. Palay","network":"Scolaris","colour":"#009fe3","route":"bus","public_transport:version":"2","bus":"school"},"n":13,"s":[[10607093048,8],[10607093047,9],[10607093051,10],[10607093054,11]]},
+  {"id":3033151005754,"t":{"ref":"17","name":"Ligne 17 : UZEIN Aéroport Pau Pyrénées → PAU Bosquet","from":"UZEIN Aéroport Pau Pyrénées","to":"PAU Bosquet","network":"Idelis","operator":"STAP","colour":"#ec694b","route":"bus","public_transport:version":"2"},"n":28,"s":[[3386197998,1],[5916122889,2],[1632772153,3]]},
+  {"id":3039075239841,"t":{"ref":"530","name":"Bus 530 : Mont-de-Marsan → Pau","from":"Mont-de-Marsan - Gare SNCF","to":"Pau - Pôle Multimodal - Gare SNCF","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","operator":"Keolis Gascogne","colour":"#33d47f","route":"bus","public_transport:version":"2"},"n":17,"s":[[3386197998,14]]},
+  {"id":3070277033584,"t":{"ref":"17","name":"Ligne 17 : UZEIN Aéroport Pau Pyrénées → PAU Bosquet","from":"UZEIN Aéroport Pau Pyrénées","to":"PAU Bosquet","network":"Idelis","operator":"STAP","colour":"#ec694b","route":"bus","public_transport:version":"2"},"n":28,"s":[[3386197998,1],[5916122889,2],[1632772153,3]]},
+  {"id":3070305743306,"t":{"ref":"530","name":"Bus 530 : Mont-de-Marsan → Pau","from":"Mont-de-Marsan - Gare SNCF","to":"Pau - Pôle Multimodal - Gare SNCF","network":"Cars Régionaux 64 - Pyrénées-Atlantiques","operator":"Keolis Gascogne","colour":"#33d47f","route":"bus","public_transport:version":"2"},"n":17,"s":[[3386197998,14]]},
+  {"id":3082515505768,"t":{"ref":"17","name":"Ligne 17 : PAU Bosquet → UZEIN Aéroport Pau Pyrénées","from":"PAU Bosquet","to":"UZEIN Aéroport Pau Pyrénées","network":"Idelis","operator":"STAP","colour":"#ec694b","route":"bus","public_transport:version":"2"},"n":28,"s":[[3934812108,26],[6067580071413,27],[3386197998,28]]},
+  {"id":3089711965335,"t":{"ref":"17","name":"Ligne 17 : PAU Bosquet → UZEIN Aéroport Pau Pyrénées","from":"PAU Bosquet","to":"UZEIN Aéroport Pau Pyrénées","network":"Idelis","operator":"STAP","colour":"#ec694b","route":"bus","public_transport:version":"2"},"n":28,"s":[[3934812108,26],[6015954149676,27],[3386197998,28]]}
+]
+}

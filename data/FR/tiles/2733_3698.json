@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2733,3698],
+"stops":[
+  {"id":743420620,"lat":46.654558,"lon":4.941566,"k":"x"},
+  {"id":743422213,"lat":46.661763,"lon":4.941481,"k":"x"},
+  {"id":2213351339,"lat":46.696366,"lon":4.906655,"k":"x"},
+  {"id":2213351637,"lat":46.698503,"lon":4.927451,"k":"x","n":"CROIX DU PLATRE"},
+  {"id":2213352043,"lat":46.699891,"lon":4.918579,"k":"x"},
+  {"id":2752707991,"lat":46.654097,"lon":4.943644,"k":"x","n":"Château d'Eau"},
+  {"id":2752708202,"lat":46.661597,"lon":4.940988,"k":"p","n":"Le Bourg"},
+  {"id":2752708330,"lat":46.653623,"lon":4.941682,"k":"x","n":"Nouvelle Église"},
+  {"id":8589898764,"lat":46.696272,"lon":4.906702,"k":"p","n":"Marnay - Les Attraits","ref":"MAATT1"},
+  {"id":11012592369,"lat":46.698553,"lon":4.927258,"k":"p","n":"Marnay - Croix du Platre","ref":"MACRP1"},
+  {"id":11012592370,"lat":46.699853,"lon":4.91857,"k":"p","n":"Marnay - Croix de Pierre","ref":"MACRX1"},
+  {"id":11012592374,"lat":46.654647,"lon":4.94131,"k":"p","n":"Gigny-sur-Saône - Château d'eau","ref":"GICHG1"},
+  {"id":11012592375,"lat":46.661706,"lon":4.94175,"k":"p","n":"Gigny-sur-Saône - Café","ref":"GICAF1"},
+  {"id":6033212529274,"lat":46.699654,"lon":4.915912,"k":"p","n":"CROIX DE PIERRE","g":1},
+  {"id":6059337861179,"lat":46.699824,"lon":4.916153,"k":"p","n":"CROIX DE PIERRE","g":1}
+],
+"routes":[
+  {"id":16028789,"t":{"ref":"G","name":"Ligne G : Chalon Prés Devant → Saint-Cyr","from":"Gigny-sur-Saône - Café","to":"Prés Devant","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":15,"s":[[8589898764,6],[11012592370,7],[11012592369,10],[11012592375,11],[11012592374,12]]},
+  {"id":16028790,"t":{"ref":"G","name":"Ligne G : Saint-Rémy CES Pasteur → Marnay","from":"Collège Pasteur","to":"Marnay - Croix du Platre","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":15,"s":[[8589898764,11],[11012592370,12],[11012592369,15]]},
+  {"id":16028792,"t":{"ref":"G","name":"Ligne G : Marnay → Saint-Rémy CES Pasteur","from":"Marnay - Les Attraits","to":"Collège Pasteur","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":15,"s":[[8589898764,1],[11012592370,2],[11012592369,3]]},
+  {"id":16028804,"t":{"ref":"G","name":"Ligne G : Gigny-sur-Saône → Chalon Prés Devant","from":"Gigny-sur-Saône - Café","to":"Prés Devant","network":"Zoom","operator":"Transdev STAC","route":"bus","public_transport:version":"2"},"n":14,"s":[[11012592375,1],[11012592374,2],[8589898764,6],[11012592370,7],[11012592369,8]]},
+  {"id":3023877948975,"t":{"ref":"RésaPS","name":"RésaPS: CHATEAU LA CHARMEE - GARE","from":"CHATEAU LA CHARMEE","to":"GARE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":27,"s":[[2213351637,6],[6059337861179,9],[8589898764,10]]},
+  {"id":3049660354040,"t":{"ref":"RésaPS","name":"RésaPS: GARE - CHATEAU LA CHARMEE","from":"GARE","to":"CHATEAU LA CHARMEE","operator":"Société de Transport de l'Agglomération Chalonnais","route":"bus","public_transport:version":"2"},"n":27,"s":[[8589898764,18],[6033212529274,19],[2213351637,22]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2787,3627],
+"stops":[
+  {"id":3672793154,"lat":49.389843,"lon":1.350345,"k":"p"},
+  {"id":7632758396,"lat":49.39189,"lon":1.376014,"k":"p"},
+  {"id":7632758397,"lat":49.391778,"lon":1.376499,"k":"p"},
+  {"id":7972977102,"lat":49.360295,"lon":1.357348,"k":"p","n":"Centre","ref":"2701577B"},
+  {"id":7972977103,"lat":49.360388,"lon":1.357114,"k":"p","n":"RD6014/Hôtel Vexin","ref":"2701577A"},
+  {"id":10841378509,"lat":49.37051,"lon":1.386794,"k":"p"},
+  {"id":14235359205,"lat":49.360279,"lon":1.357309,"k":"x","n":"Centre"},
+  {"id":14235363526,"lat":49.360407,"lon":1.357198,"k":"x","n":"RD6014/Hôtel Vexin"},
+  {"id":14255129976,"lat":49.370455,"lon":1.382156,"k":"x","n":"Centre"},
+  {"id":14255129977,"lat":49.370395,"lon":1.382188,"k":"p","n":"Centre","ref":"7610081A"},
+  {"id":14255129978,"lat":49.391958,"lon":1.382116,"k":"x","n":"Transières"},
+  {"id":14255129979,"lat":49.391988,"lon":1.382116,"k":"p","n":"Transières","ref":"7614508A"}
+],
+"routes":[
+  {"id":21464045,"t":{"ref":"220","name":"Car Nomad 220: Rouen - Gare Routière → Les Andelys - Petit Andelys","from":"Rouen - Gare Routière","to":"Les Andelys - Petit Andelys","network":"Nomad Car","operator":"Auzoux Voyages","colour":"#FDCB36","route":"bus","public_transport:version":"2"},"n":11,"s":[[7972977103,5]]},
+  {"id":21464046,"t":{"ref":"220","name":"Car Nomad 220: Les Andelys - Petit Andelys → Rouen - Gare Routière","from":"Les Andelys - Petit Andelys","to":"Rouen - Gare Routière","network":"Nomad Car","operator":"Auzoux Voyages","colour":"#FDCB36","route":"bus","public_transport:version":"2"},"n":11,"s":[[7972977102,7]]},
+  {"id":21516403,"t":{"ref":"512","name":"Car Nomad 512: LE MESNIL-ESNARD La Providence (Groupe Scolaire) → PERRIERS-SUR-ANDELLE Centre","from":"La Providence (Groupe Scolaire)","to":"Centre","network":"Nomad Car","colour":"#5665AB","route":"bus","public_transport:version":"2"},"n":15,"s":[[7972977102,12],[14255129977,13],[14255129979,14]]},
+  {"id":21516405,"t":{"ref":"512","name":"Car Nomad 512: FRANQUEVILLE-SAINT-PIERRE Lycée Galilée → PERRIERS-SUR-ANDELLE Centre","from":"Lycée Galilée","to":"Centre","network":"Nomad Car","colour":"#5665AB","route":"bus","public_transport:version":"2"},"n":16,"s":[[7972977102,13],[14255129977,14],[14255129979,15]]},
+  {"id":21516407,"t":{"ref":"512","name":"Car Nomad 512: PERRIERS-SUR-ANDELLE Centre → LE MESNIL-ESNARD La Providence (Groupe Scolaire)","from":"Centre","to":"La Providence (Groupe Scolaire)","network":"Nomad Car","colour":"#5665AB","route":"bus","public_transport:version":"2"},"n":16,"s":[[14255129979,2],[14255129977,3],[7972977102,4]]},
+  {"id":21516408,"t":{"ref":"512","name":"Car Nomad 512: PERRIERS-SUR-ANDELLE Centre → FRANQUEVILLE-SAINT-PIERRE Lycée Galilée","from":"Centre","to":"Lycée Galilée","network":"Nomad Car","colour":"#5665AB","route":"bus","public_transport:version":"2"},"n":10,"s":[[14255129979,2],[14255129977,3],[7972977102,4]]},
+  {"id":3057789703806,"t":{"ref":"219","name":"219: Gare Routiere - Gare Sncf","from":"Gare Routiere","to":"Gare Sncf","operator":"Nomad Car (Région Normandie)","route":"bus","public_transport:version":"2"},"n":22,"s":[[14235363526,8]]},
+  {"id":3086529811880,"t":{"ref":"219","name":"219: Gare Routiere - Gare Sncf","from":"Gare Routiere","to":"Gare Sncf","operator":"Nomad Car (Région Normandie)","route":"bus","public_transport:version":"2"},"n":22,"s":[[14235363526,8]]}
+]
+}

@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2749,3746],
+"stops":[
+  {"id":2034396421,"lat":47.488725,"lon":7.312219,"k":"p"},
+  {"id":3178544891,"lat":47.49466,"lon":7.313852,"k":"p","n":"FERRETTE - Gare Routière"},
+  {"id":3178544895,"lat":47.495,"lon":7.313908,"k":"p","n":"Ferrette Gare Routière"},
+  {"id":3178544938,"lat":47.49879,"lon":7.308572,"k":"p"},
+  {"id":3178544949,"lat":47.499173,"lon":7.30782,"k":"p","n":"FERRETTE - Pompiers"},
+  {"id":6154301287,"lat":47.473534,"lon":7.3107,"k":"p","ref":"Ligsdorf Croisement","n":"LIGSDORF - Croisement"},
+  {"id":6222027556,"lat":47.491502,"lon":7.319625,"k":"x","n":"FERRETTE - Office du Tourisme"},
+  {"id":9445849767,"lat":47.482413,"lon":7.334471,"k":"p","n":"Sondersdorf Rue de Ferrette"},
+  {"id":9445849768,"lat":47.482362,"lon":7.33406,"k":"p","n":"Sondersdorf Rue de Ferrette"},
+  {"id":6012111285429,"lat":47.488663,"lon":7.311639,"k":"p","n":"FERRETTE - Don Bosco","g":1},
+  {"id":6028145528871,"lat":47.491442,"lon":7.320923,"k":"p","n":"FERRETTE - Médiatheque","g":1},
+  {"id":6048461722023,"lat":47.488663,"lon":7.311639,"k":"p","n":"FERRETTE - Don Bosco","g":1},
+  {"id":6071698347783,"lat":47.491442,"lon":7.320923,"k":"p","n":"FERRETTE - Médiatheque","g":1},
+  {"id":6083198504685,"lat":47.488663,"lon":7.311639,"k":"p","n":"FERRETTE - Don Bosco","g":1}
+],
+"routes":[
+  {"id":13670428,"t":{"ref":"68R070","name":"Bus 68R070: SAINT-LOUIS - Gare => FERRETTE - Gare Routière","from":"SAINT-LOUIS - Gare","to":"FERRETTE - Gare Routière","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#DC004B","route":"bus","public_transport:version":"2"},"n":24,"s":[[3178544891,24]]},
+  {"id":13670429,"t":{"ref":"68R070","name":"Bus 68R070: FERRETTE - Gare Routière => SAINT-LOUIS - Gare","from":"FERRETTE - Gare Routière","to":"SAINT-LOUIS - Gare","network":"Fluo Grand Est","operator":"Transdev Grand Est","colour":"#DC004B","route":"bus","public_transport:version":"2"},"n":24,"s":[[3178544891,1]]},
+  {"id":16117240,"t":{"ref":"68R063","name":"Bus 68R063: FERRETTE - Gare Routière => MULHOUSE - Gare Centrale","from":"FERRETTE - Gare Routière","to":"MULHOUSE - Gare Centrale","network":"FLUO 68","route":"bus"},"n":43,"s":[[3178544891,1],[3178544949,2]]},
+  {"id":16117280,"t":{"ref":"68R063","name":"Bus 68R063: MULHOUSE - Gare Centrale => FERRETTE - Gare Routière","from":"MULHOUSE - Gare Centrale","to":"FERRETTE - Gare Routière","network":"FLUO 68","colour":"#F2A21C","route":"bus"},"n":43,"s":[[3178544949,42],[3178544891,43]]},
+  {"id":3000040545234,"t":{"ref":"8455","name":"8455: ALTKIRCH - Gare routiere lycées - KIFFIS - Sapeurs Pompiers","from":"ALTKIRCH - Gare routiere lycées","to":"KIFFIS - Sapeurs Pompiers","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":15,"s":[[3178544949,7],[3178544891,8],[6222027556,9],[6048461722023,10],[6154301287,11],[9445849768,12]]},
+  {"id":3006297121443,"t":{"ref":"863","name":"863: FERRETTE - Médiatheque - MULHOUSE - Gare Centrale","from":"FERRETTE - Médiatheque","to":"MULHOUSE - Gare Centrale","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":48,"s":[[6028145528871,1],[3178544891,2],[3178544949,3]]},
+  {"id":3025628636219,"t":{"ref":"863","name":"863: MULHOUSE - Gare Centrale - FERRETTE - Médiatheque","from":"MULHOUSE - Gare Centrale","to":"FERRETTE - Médiatheque","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":48,"s":[[3178544949,46],[3178544891,47],[6028145528871,48]]},
+  {"id":3043241955625,"t":{"ref":"863","name":"863: FERRETTE - Médiatheque - MULHOUSE - Gare Centrale","from":"FERRETTE - Médiatheque","to":"MULHOUSE - Gare Centrale","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":48,"s":[[6071698347783,1],[3178544891,2],[3178544949,3]]},
+  {"id":3057676930476,"t":{"ref":"863","name":"863: MULHOUSE - Gare Centrale - FERRETTE - Médiatheque","from":"MULHOUSE - Gare Centrale","to":"FERRETTE - Médiatheque","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":48,"s":[[3178544949,46],[3178544891,47],[6071698347783,48]]},
+  {"id":3092022480690,"t":{"ref":"8455","name":"8455: ALTKIRCH - Gare routiere lycées - KIFFIS - Sapeurs Pompiers","from":"ALTKIRCH - Gare routiere lycées","to":"KIFFIS - Sapeurs Pompiers","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":15,"s":[[3178544949,7],[3178544891,8],[6222027556,9],[6012111285429,10],[6154301287,11],[9445849768,12]]},
+  {"id":3099519402747,"t":{"ref":"8455","name":"8455: ALTKIRCH - Gare routiere lycées - KIFFIS - Sapeurs Pompiers","from":"ALTKIRCH - Gare routiere lycées","to":"KIFFIS - Sapeurs Pompiers","operator":"REGION GRAND EST","route":"bus","public_transport:version":"2"},"n":15,"s":[[3178544949,7],[3178544891,8],[6222027556,9],[6083198504685,10],[6154301287,11],[9445849768,12]]}
+]
+}

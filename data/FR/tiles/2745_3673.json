@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2745,3673],
+"stops":[
+  {"id":1347760866,"lat":47.254783,"lon":3.677635,"k":"x","n":"Corbigny Gare SNCF"},
+  {"id":11092018709,"lat":47.254708,"lon":3.677601,"k":"p","n":"Gare SNCF"},
+  {"id":6056852374212,"lat":47.259619,"lon":3.681534,"k":"p","n":"Abbaye","g":1}
+],
+"routes":[
+  {"id":4851145,"t":{"ref":"TER 14","name":"TER 14 : Corbigny - Sermizelles","network":"TER Bourgogne","operator":"SNCF Voyageurs","colour":"orange","route":"bus","public_transport:version":"1"},"n":5,"s":[[1347760866,1]]},
+  {"id":16163627,"t":{"ref":"LR 505","name":"Bus LR 505: Gare SN => Gare SNCF","from":"Gare SN","to":"Gare SNCF","network":"MOBIGO (58)","route":"bus","public_transport:version":"2"},"n":7,"s":[[11092018709,7]]},
+  {"id":16163633,"t":{"ref":"LR 505","name":"Bus LR 505: Gare SN => Gare SNCF","from":"Gare SN","to":"Gare SNCF","network":"MOBIGO (58)","route":"bus","public_transport:version":"2"},"n":7,"s":[[11092018709,7]]},
+  {"id":16163676,"t":{"ref":"LR 505","name":"Bus LR 505: Gare SNCF => Gare SN","from":"Gare SNCF","to":"Gare SN","network":"MOBIGO (58)","route":"bus","public_transport:version":"2"},"n":7,"s":[[11092018709,1]]},
+  {"id":16163678,"t":{"ref":"LR 505","name":"Bus LR 505: Gare SNCF => Gare SN","from":"Gare SNCF","to":"Gare SN","network":"MOBIGO (58)","route":"bus","public_transport:version":"2"},"n":7,"s":[[11092018709,1]]},
+  {"id":3000458386265,"t":{"ref":"P85","name":"P85: Corbigny - Clamecy","from":"Corbigny","to":"Clamecy","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":4,"s":[[11092018709,1]]},
+  {"id":3004503506884,"t":{"ref":"505","name":"505: Gare - Gare","from":"Gare","to":"Gare","operator":"MOBIGO 58","route":"bus","public_transport:version":"2"},"n":8,"s":[[11092018709,1],[6056852374212,2]]},
+  {"id":3005058899578,"t":{"ref":"505","name":"505: Gare - Gare","from":"Gare","to":"Gare","operator":"MOBIGO 58","route":"bus","public_transport:version":"2"},"n":8,"s":[[6056852374212,7],[11092018709,8]]},
+  {"id":3097380963711,"t":{"ref":"P85","name":"P85: Clamecy - Corbigny","from":"Clamecy","to":"Corbigny","operator":"SNCF VOYAGEURS","route":"bus","public_transport:version":"2"},"n":4,"s":[[11092018709,4]]}
+]
+}

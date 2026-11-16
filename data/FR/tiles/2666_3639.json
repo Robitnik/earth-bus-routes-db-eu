@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2666,3639],
+"stops":[
+  {"id":310866586,"lat":43.315187,"lon":1.961674,"k":"x","n":"Castelnaudary - Hôpital"},
+  {"id":310867001,"lat":43.312658,"lon":1.951009,"k":"x","n":"Gare SNCF - Castelnaudary"},
+  {"id":2111852025,"lat":43.3126,"lon":1.950953,"k":"p","n":"Gare SNCF - Castelnaudary","ref":"60109"},
+  {"id":2130454431,"lat":43.315172,"lon":1.961603,"k":"p","n":"Castelnaudary - Hôpital"},
+  {"id":2130454432,"lat":43.315223,"lon":1.961671,"k":"p","n":"Castelnaudary - Hôpital"},
+  {"id":5593980931,"lat":43.316667,"lon":1.955618,"k":"x","n":"Monument aux morts - Castelnaudary"},
+  {"id":8446521180,"lat":43.321056,"lon":1.950846,"k":"p","n":"Lapasset - Castelnaudary","ref":"60110"},
+  {"id":9621337654,"lat":43.316679,"lon":1.955707,"k":"p","n":"Monument aux Morts - Castelnaudary"},
+  {"id":9819193773,"lat":43.312571,"lon":1.950705,"k":"x","n":"Gare SNCF - Castelnaudary"},
+  {"id":13060071321,"lat":43.315214,"lon":1.961597,"k":"x","n":"Castelnaudary - Hôpital"},
+  {"id":13061550737,"lat":43.317113,"lon":1.958984,"k":"x","n":"Castelnaudary - Boulevard Mauléon"},
+  {"id":13061550738,"lat":43.31713,"lon":1.95901,"k":"p","n":"Castelnaudary - Boulevard Mauléon"}
+],
+"routes":[
+  {"id":406810,"t":{"ref":"350","name":"Car ligne 350 : Castelnaudary => Toulouse - Service 35036","from":"Gare SNCF - Castelnaudary","to":"Université P Sabatier Métro","network":"liO","operator":"Keolis Garonne","colour":"#4d499d","route":"bus","public_transport:version":"2"},"n":59,"s":[[2111852025,1],[8446521180,2]]},
+  {"id":12349217,"t":{"ref":"350","name":"Car Ligne 350 Castelnaudary => Montferrand : Service 35060","from":"Monument aux morts - Castelnaudary","to":"École - Montferrand","network":"liO","operator":"Keolis Garonne","colour":"#4d499d","route":"bus","public_transport:version":"2"},"n":7,"s":[[9621337654,1],[8446521180,2]]},
+  {"id":19754873,"t":{"ref":"414","name":"Ligne 414 : Revel → Castelnaudary","from":"Revel - Claude Nougaro","to":"Castelnaudary - Pôle Tillion","network":"liO","operator":"liO","colour":"#837a75","route":"bus","public_transport:version":"2"},"n":6,"s":[[2130454432,4],[2111852025,5]]},
+  {"id":19755122,"t":{"ref":"414","name":"Ligne 414 : Castelnaudary → Vaudreuille","from":"Castelnaudary - Gare SNCF","to":"Vaudreuille - Saint-Ferréol","network":"liO","operator":"liO","colour":"#837a75","route":"bus","public_transport:version":"2"},"n":7,"s":[[2111852025,1],[2130454431,2]]},
+  {"id":19755198,"t":{"ref":"414","name":"Ligne 414 : Vaudreuille → Castelnaudary","from":"Vaudreuille - Saint-Ferréol","to":"Castelnaudary - Gare SNCF","network":"liO","operator":"liO","colour":"#837a75","route":"bus","public_transport:version":"2"},"n":7,"s":[[2130454432,6],[2111852025,7]]},
+  {"id":3073923846567,"t":{"ref":"403","name":"Car ligne 403 : Castelnaudary → Carcassonne","from":"Castelnaudary - Pôle Tillion","to":"Carcassonne - Boulevard de Varsovie","network":"liO","operator":"liO","colour":"#8acb87","route":"bus","public_transport:version":"2"},"n":17,"s":[[310867001,2],[13060071321,3]]},
+  {"id":3079634490043,"t":{"ref":"414","name":"Ligne 414 : Castelnaudary → Revel","from":"Castelnaudary - Pôle Tillion","to":"Revel - Claude Nougaro","network":"liO","operator":"liO","colour":"#837a75","route":"bus","public_transport:version":"2"},"n":5,"s":[[13060071321,4],[310867001,5]]},
+  {"id":3083756466312,"t":{"ref":"414","name":"Ligne 414 : Castelnaudary → Revel","from":"Castelnaudary - Pôle Tillion","to":"Revel - Claude Nougaro","network":"liO","operator":"liO","colour":"#837a75","route":"bus","public_transport:version":"2"},"n":5,"s":[[310867001,1],[13060071321,2]]},
+  {"id":3088271328144,"t":{"ref":"403","name":"Car ligne 403 : Carcassonne → Castelnaudary","from":"Carcassonne - Boulevard de Varsovie","to":"Castelnaudary - Pôle Tillion","network":"liO","operator":"liO","colour":"#8acb87","route":"bus","public_transport:version":"2"},"n":18,"s":[[13060071321,16],[310867001,17]]}
+]
+}

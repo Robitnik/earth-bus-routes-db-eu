@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2677,3711],
+"stops":[
+  {"id":292075778,"lat":43.895601,"lon":5.565786,"k":"p","n":"Viens - Centre"},
+  {"id":1798694438,"lat":43.85613,"lon":5.591818,"k":"x","n":"Céreste - Place du Général de Gaulle"},
+  {"id":3264432436,"lat":43.857647,"lon":5.599107,"k":"p","n":"Céreste - Le Moulin"},
+  {"id":3264432437,"lat":43.857514,"lon":5.599192,"k":"p","n":"Céreste - Le Moulin"},
+  {"id":4822825499,"lat":43.856473,"lon":5.589361,"k":"p","n":"Céreste - Village"},
+  {"id":5807526786,"lat":43.856397,"lon":5.589316,"k":"p","n":"Céreste - Village"},
+  {"id":5807526787,"lat":43.856434,"lon":5.589336,"k":"x","n":"Céreste - Village"},
+  {"id":5899058811,"lat":43.895629,"lon":5.565873,"k":"p","n":"Viens - Centre"},
+  {"id":6806182347,"lat":43.856968,"lon":5.58275,"k":"p","n":"Céreste - Place de l'Europe"},
+  {"id":6806182348,"lat":43.85611,"lon":5.591719,"k":"p","n":"Céreste - Place du Général de Gaulle"},
+  {"id":8365587422,"lat":43.895603,"lon":5.565823,"k":"x","n":"Viens - Centre"},
+  {"id":8409642496,"lat":43.857588,"lon":5.599151,"k":"x","n":"Céreste - Le Moulin"},
+  {"id":8637500462,"lat":43.856146,"lon":5.591885,"k":"p","n":"Céreste - Place du Général de Gaulle"},
+  {"id":10587473348,"lat":43.856966,"lon":5.582685,"k":"x","n":"Céreste - Place de l'Europe"},
+  {"id":10587555607,"lat":43.855691,"lon":5.563825,"k":"p","n":"Céreste - Vieille Route d'Apt Montblanc"},
+  {"id":10587555608,"lat":43.855714,"lon":5.563879,"k":"p","n":"Céreste - Vieille Route d'Apt Montblanc"},
+  {"id":10587555609,"lat":43.855702,"lon":5.56385,"k":"x","n":"Céreste - Vieille Route d'Apt Montblanc"},
+  {"id":6075679873282,"lat":43.85667,"lon":5.58874,"k":"p","n":"Village","g":1}
+],
+"routes":[
+  {"id":7357752,"t":{"ref":"926","name":"Bus 926 : Banon => Apt","from":"Banon","to":"Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":11,"s":[[292075778,4]]},
+  {"id":7357753,"t":{"ref":"926","name":"Bus 926 : Apt => Banon","from":"Apt","to":"Banon","network":"Zou !","operator":"Transdev Vaucluse","colour":"#827e7c","route":"bus","public_transport:version":"2"},"n":10,"s":[[5899058811,7]]},
+  {"id":15399834,"t":{"ref":"4601","name":"Bus 4601 : Manosque => Collège Jean Giono => Céreste","from":"Manosque","to":"Céreste","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[3264432436,6],[6806182348,7],[6806182347,8]]},
+  {"id":15399835,"t":{"ref":"4601","name":"Bus 4601 : Manosque => Céreste","from":"Manosque","to":"Céreste","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":7,"s":[[3264432436,5],[6806182348,6],[6806182347,7]]},
+  {"id":15399836,"t":{"ref":"4601","name":"Bus 4601 : Céreste => Manosque","from":"Céreste","to":"Manosque","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[6806182347,1],[8637500462,2],[3264432437,3]]},
+  {"id":15401124,"t":{"ref":"4602","name":"Bus 4602 : Apt => Céreste","from":"Apt","to":"Céreste","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[10587555607,5],[6806182347,6],[8637500462,7],[3264432437,8]]},
+  {"id":15401125,"t":{"ref":"4602","name":"Bus 4602 : Céreste => Apt","from":"Céreste","to":"Apt","network":"Zou !","operator":"SUMIAN","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":10,"s":[[3264432436,1],[6806182348,2],[6806182347,3],[10587555608,4]]},
+  {"id":3000445146676,"t":{"ref":"915","name":"Bus 915 : Forcalquier => Apt => Avignon - Gare TGV","from":"Forcalquier","to":"Avignon - Gare TGV","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[6075679873282,6]]},
+  {"id":3039047890040,"t":{"ref":"989","name":"989: Gare Routière - Village","from":"Gare Routière","to":"Village","operator":"ZOU ! Proximité","route":"bus","public_transport:version":"2"},"n":47,"s":[[8365587422,34]]},
+  {"id":3093539798854,"t":{"ref":"915","name":"Bus 915 : Avignon - Gare TGV => Apt => La Brillanne - Gare SNCF","from":"Avignon - Gare TGV","to":"La Brillanne - Gare SNCF","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[5807526787,26]]},
+  {"id":3095426540779,"t":{"ref":"989","name":"Bus 989 : Pays d'Apt","network":"Zou !","operator":"Transdev Vaucluse","colour":"#e71a84","route":"bus","public_transport:version":"2"},"n":43,"s":[[8365587422,31]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2678,3714],
+"stops":[
+  {"id":3699809361,"lat":43.908514,"lon":5.717644,"k":"p","n":"Saint-Michel-l'Observatoire - Village","ref":"1012"},
+  {"id":4589576667,"lat":43.902618,"lon":5.744036,"k":"p","n":"Saint-Michel-l'Observatoire - Carrefour Saint-Michel Rimourelle"},
+  {"id":4723677391,"lat":43.90452,"lon":5.745487,"k":"x","n":"Saint-Michel-l'Observatoire - Rimourelle"},
+  {"id":4822825629,"lat":43.904522,"lon":5.745335,"k":"p","n":"Saint-Michel-l'Observatoire - Rimourelle"},
+  {"id":8465497965,"lat":43.902905,"lon":5.74416,"k":"x","n":"Saint-Michel-l'Observatoire - Carrefour Saint-Michel Rimourelle"},
+  {"id":10584783809,"lat":43.904581,"lon":5.713673,"k":"p","n":"Saint-Michel-l'Observatoire - Le Claus"},
+  {"id":10584783810,"lat":43.904524,"lon":5.71374,"k":"p","n":"Saint-Michel-l'Observatoire - Le Claus"},
+  {"id":10584783811,"lat":43.904556,"lon":5.713702,"k":"x","n":"Saint-Michel-l'Observatoire - Le Claus"},
+  {"id":13254385378,"lat":43.908592,"lon":5.717642,"k":"x","n":"Saint-Michel-l'Observatoire - Village"}
+],
+"routes":[
+  {"id":6834049,"t":{"ref":"470","name":"Bus 470 : Banon => Manosque","from":"Banon","to":"Manosque","network":"Zou !","operator":"SUMIAN","colour":"#ff872f","route":"bus","public_transport:version":"2"},"n":14,"s":[[3699809361,3]]},
+  {"id":6834050,"t":{"ref":"470","name":"Bus 470 : Manosque => Banon","from":"Manosque","to":"Banon","network":"Zou !","operator":"SUMIAN","colour":"#ff872f","route":"bus","public_transport:version":"2"},"n":14,"s":[[3699809361,12]]},
+  {"id":15396333,"t":{"ref":"4813","name":"Bus 4813 : Aubenas-les-Alpes => Saint-Michel-l'Observatoire => Forcalquier","from":"Aubenas-les-Alpes","to":"Forcalquier","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[3699809361,3],[10584783809,4],[4589576667,7]]},
+  {"id":15396334,"t":{"ref":"4813","name":"Bus 4813 : Forcalquier => Saint-Michel-l'Observatoire => Aubenas-les-Alpes","from":"Forcalquier","to":"Aubenas-les-Alpes","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":6,"s":[[4822825629,2],[3699809361,4]]},
+  {"id":15396335,"t":{"ref":"4813","name":"Bus 4813 : Forcalquier => Lincel => Saint-Michel-l'Observatoire - Village => Aubenas-les-Alpes","from":"Forcalquier","to":"Aubenas-les-Alpes","network":"Zou !","operator":"Transdev Alpes Durance","colour":"#16c1f3","route":"bus","public_transport:version":"2","bus":"school"},"n":8,"s":[[4822825629,2],[10584783810,5],[3699809361,6]]},
+  {"id":3000445146676,"t":{"ref":"915","name":"Bus 915 : Forcalquier => Apt => Avignon - Gare TGV","from":"Forcalquier","to":"Avignon - Gare TGV","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[4723677391,4]]},
+  {"id":3093539798854,"t":{"ref":"915","name":"Bus 915 : Avignon - Gare TGV => Apt => La Brillanne - Gare SNCF","from":"Avignon - Gare TGV","to":"La Brillanne - Gare SNCF","network":"Zou !","operator":"Transdev Vaucluse","colour":"#fff042","route":"bus","public_transport:version":"2"},"n":31,"s":[[4589576667,28]]}
+]
+}

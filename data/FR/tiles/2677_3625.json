@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2677,3625],
+"stops":[
+  {"id":6914808220,"lat":43.87,"lon":1.279314,"k":"p","n":"Dieupentale - Le Plateau"},
+  {"id":6914808221,"lat":43.861776,"lon":1.269562,"k":"p","n":"RD 813 - Dieupentale","ref":"60806"},
+  {"id":9585626303,"lat":43.865676,"lon":1.276407,"k":"p","n":"Dieupentale - SNCF","ref":"8217218"},
+  {"id":9585727854,"lat":43.86573,"lon":1.276445,"k":"x","n":"Dieupentale - SNCF"},
+  {"id":10006961157,"lat":43.861953,"lon":1.269678,"k":"p","n":"RD 813 - Dieupentale","ref":"60805"},
+  {"id":6022866129698,"lat":43.86236,"lon":1.268706,"k":"p","n":"DIEUPENTALE - RD Pt Rd813","g":1},
+  {"id":6035825188596,"lat":43.880123,"lon":1.256617,"k":"p","n":"BESSENS - Rd Pt D813","g":1},
+  {"id":6067826764966,"lat":43.859019,"lon":1.272982,"k":"p","n":"DIEUPENTALE - Aire de Covoiturage","g":1}
+],
+"routes":[
+  {"id":13933790,"t":{"ref":"849","name":"Car Ligne 849 : Dieupentale → Beaumont-de-Lomagne","from":"Dieupentale - SNCF","to":"Beaumont de Lomagne - Place Jean Moulin","network":"liO","operator":"Translomagne","colour":"#FF80C0","route":"bus","public_transport:version":"2"},"n":5,"s":[[9585626303,1]]},
+  {"id":13933848,"t":{"ref":"849","name":"Car Ligne 849 : Beaumont-de-Lomagne → Dieupentale","from":"Beaumont de Lomagne - Place Jean Moulin","to":"Dieupentale - SNCF","network":"liO","operator":"Translomagne","colour":"#FF80C0","route":"bus","public_transport:version":"2"},"n":5,"s":[[9585626303,5]]},
+  {"id":3020664972838,"t":{"ref":"814","name":"814: POMPIGNAN - Mairie - CASTELSARRASIN - Place des Belges","from":"POMPIGNAN - Mairie","to":"CASTELSARRASIN - Place des Belges","operator":".liO 82","route":"bus","public_transport:version":"2"},"n":16,"s":[[6067826764966,3],[10006961157,4],[6035825188596,5]]},
+  {"id":3052720285984,"t":{"ref":"811","name":"811: VERDUN-SUR-GARONNE - Stade - MONTAUBAN - Gare SNCF","from":"VERDUN-SUR-GARONNE - Stade","to":"MONTAUBAN - Gare SNCF","operator":".liO 82","route":"bus","public_transport:version":"2"},"n":8,"s":[[6022866129698,2]]},
+  {"id":3062830624538,"t":{"ref":"377","name":"Car Ligne 377 Toulouse → Verdun-Sur-Garonne - Service 37701","from":"Toulouse Gare Routière","to":"Verdun-sur-Garonne - Centre","network":"liO","operator":"Régie Départementale des Transport","colour":"#d38449","route":"bus","public_transport:version":"2"},"n":20,"s":[[6067826764966,18],[10006961157,19]]},
+  {"id":3085138063856,"t":{"ref":"377","name":"Car Ligne 377 : Verdun-Sur-Garonne → Toulouse - Service 37706","from":"Centre - Cimetière - Verdun-Sur-Garonne","to":"Toulouse Gare Routière","network":"liO","operator":"Régie Départementale des Transport","colour":"#d38449","route":"bus","public_transport:version":"2"},"n":19,"s":[[10006961157,2],[6067826764966,3]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2690,3655],
+"stops":[
+  {"id":2424035409,"lat":44.520318,"lon":2.762405,"k":"s","n":"Halte Routière"},
+  {"id":4552370464,"lat":44.521199,"lon":2.772725,"k":"x"},
+  {"id":9054550662,"lat":44.517133,"lon":2.767274,"k":"p","n":"Ancienne Gare","ref":"1"},
+  {"id":9054550669,"lat":44.519122,"lon":2.765229,"k":"p","n":"Campus Connecté","ref":"2"},
+  {"id":9054550670,"lat":44.521456,"lon":2.763251,"k":"p","n":"Centre Ville","ref":"3"},
+  {"id":9054550671,"lat":44.524638,"lon":2.765307,"k":"p","n":"Espace Bessière"},
+  {"id":9054550681,"lat":44.524904,"lon":2.762587,"k":"p","n":"Écoles - Hôpital"},
+  {"id":9054550682,"lat":44.527902,"lon":2.758553,"k":"p","n":"Combefouillouse"},
+  {"id":9054550685,"lat":44.52928,"lon":2.753745,"k":"p","n":"Cité Rives d'Olt"},
+  {"id":9054626829,"lat":44.522868,"lon":2.754978,"k":"p","n":"La Roseraie"},
+  {"id":9054626851,"lat":44.520713,"lon":2.761291,"k":"p","n":"Hôtel de Ville","ref":"14"},
+  {"id":9054626852,"lat":44.520433,"lon":2.764673,"k":"p","n":"Foirail 1","ref":"15"},
+  {"id":9054626853,"lat":44.521651,"lon":2.770004,"k":"p","n":"Piscine","ref":"17"},
+  {"id":9054626854,"lat":44.52111,"lon":2.77281,"k":"p","n":"Stades","ref":"16"},
+  {"id":9054626855,"lat":44.51883,"lon":2.767979,"k":"p","n":"Jardins Partagés","ref":"19"},
+  {"id":9054626856,"lat":44.516854,"lon":2.769899,"k":"p","n":"Cimetière","ref":"20"},
+  {"id":11210253857,"lat":44.520592,"lon":2.761182,"k":"p","n":"Espalion - Boulevard Joseph Poulenc"},
+  {"id":11210253858,"lat":44.520381,"lon":2.760822,"k":"p","n":"Espalion - Boulevard Joseph Poulenc"},
+  {"id":13895636977,"lat":44.520561,"lon":2.761071,"k":"x","n":"Espalion - Boulevard Joseph Poulenc"},
+  {"id":13895636978,"lat":44.520395,"lon":2.76091,"k":"x","n":"Espalion - Boulevard Joseph Poulenc"},
+  {"id":13895636979,"lat":44.524949,"lon":2.762616,"k":"p","n":"Centre Francis Poulenc"},
+  {"id":13895636980,"lat":44.524966,"lon":2.762549,"k":"x","n":"Centre Francis Poulenc"}
+],
+"routes":[
+  {"id":13156098,"t":{"name":"Nav'Olt","from":"Ancienne gare","to":"Cimetière (Espalion)","network":"Nav'Olt","operator":"Landes Bus","colour":"yellow","route":"bus","public_transport:version":"2"},"n":20,"s":[[9054550662,1,20],[9054550669,2],[9054550670,3],[9054550671,4],[9054550681,5],[9054550682,6],[9054550685,7],[9054626829,12],[9054626851,13],[9054626852,14,17],[9054626853,15],[9054626854,16],[9054626855,18],[9054626856,19]]},
+  {"id":13885609,"t":{"ref":"201","name":"Car ligne 201 : Rodez → Laguiole","from":"Rodez - Gare Routière de Rodez","to":"Laguiole - Foirail","network":"liO","operator":"Région Occitanie","colour":"#b0c638","route":"bus","public_transport:version":"2"},"n":14,"s":[[11210253857,8],[13895636979,9]]},
+  {"id":14466032,"t":{"name":"Nav'Olt (trajet du matin)","from":"Foirail","to":"Écoles - Hôpital (Espalion)","network":"Nav'Olt","operator":"Landes Bus","colour":"yellow","route":"bus","public_transport:version":"2"},"n":15,"s":[[9054626852,1],[9054626853,2],[9054550670,3],[9054550671,4,14],[9054550681,5,15],[9054550682,6],[9054550685,7],[9054626829,12],[9054626851,13]]},
+  {"id":14610301,"t":{"ref":"212","name":"Car ligne 212 : Espalion → Mur-de-Barrez","from":"Espalion - Boulevard Joseph Poulenc","to":"Mur-de-Barrez - Place de Monaco","network":"liO","operator":"Région Occitanie","colour":"#f69b27","route":"bus","public_transport:version":"2"},"n":8,"s":[[11210253857,1],[13895636979,2]]},
+  {"id":14625215,"t":{"ref":"212","name":"Car ligne 212 : Mur-de-Barrez → Espalion","from":"Mur-de-Barrez - Place de Monaco","to":"Espalion - Boulevard Joseph Poulenc","network":"liO","operator":"Région Occitanie","colour":"#f69b27","route":"bus","public_transport:version":"2"},"n":8,"s":[[13895636979,7],[11210253858,8]]},
+  {"id":3016478427351,"t":{"ref":"201","name":"Car ligne 201 : Laguiole → Rodez","from":"Laguiole - Foirail","to":"Rodez - Gare Routière de Rodez","network":"liO","operator":"Région Occitanie","colour":"#b0c638","route":"bus","public_transport:version":"2"},"n":9,"s":[[11210253858,1]]}
+]
+}

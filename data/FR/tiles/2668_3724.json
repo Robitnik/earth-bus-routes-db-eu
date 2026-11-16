@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2668,3724],
+"stops":[
+  {"id":382660704,"lat":43.428682,"lon":6.223386,"k":"x","n":"Cabasse - Cave Coopérative"},
+  {"id":483522753,"lat":43.425893,"lon":6.220798,"k":"x","n":"Cabasse - Gare des Cars"},
+  {"id":1750960806,"lat":43.425852,"lon":6.220697,"k":"p","n":"Cabasse - Gare des Cars"},
+  {"id":5612591427,"lat":43.423619,"lon":6.208723,"k":"p","n":"Cabasse - Les Florettes"},
+  {"id":5612591428,"lat":43.423657,"lon":6.208715,"k":"x","n":"Cabasse - Les Florettes"},
+  {"id":5612591429,"lat":43.423695,"lon":6.208982,"k":"x","n":"Cabasse - Les Florettes"},
+  {"id":5612591430,"lat":43.423741,"lon":6.208954,"k":"p","n":"Cabasse - Les Florettes"},
+  {"id":5612591431,"lat":43.425031,"lon":6.214715,"k":"x","n":"Cabasse - Les Vanneaux"},
+  {"id":5612591432,"lat":43.42509,"lon":6.214796,"k":"p","n":"Cabasse - Les Vanneaux"},
+  {"id":9213654415,"lat":43.428504,"lon":6.223092,"k":"x","n":"Cabasse - Cave Coopérative"},
+  {"id":9213654416,"lat":43.42851,"lon":6.22319,"k":"p","n":"Cabasse - Cave Coopérative"},
+  {"id":9213656719,"lat":43.428639,"lon":6.223253,"k":"p","n":"Cabasse - Cave Coopérative"},
+  {"id":9213656722,"lat":43.424991,"lon":6.214926,"k":"p","n":"Cabasse - Les Vanneaux"}
+],
+"routes":[
+  {"id":13389843,"t":{"ref":"8420","name":"Bus 8420 : Cabasse => Garcès","from":"Cabasse","to":"Garcès","network":"Zou !","operator":"Les Lignes du Var","colour":"#c9252b","route":"bus","public_transport:version":"2"},"n":3,"s":[[1750960806,1],[9213654416,2]]},
+  {"id":13389844,"t":{"ref":"8420","name":"Bus 8420 : Cabasse - Les Florettes => Garcès","from":"Cabasse - Les Florettes","to":"Garcès","network":"Zou !","operator":"Les Lignes du Var","colour":"#c9252b","route":"bus","public_transport:version":"2"},"n":3,"s":[[5612591427,1],[9213656722,2]]},
+  {"id":13389845,"t":{"ref":"8420","name":"Bus 8420 : Garcès => Cabasse - Les Florettes","from":"Garcès","to":"Cabasse - Les Florettes","network":"Zou !","operator":"Les Lignes du Var","colour":"#c9252b","route":"bus","public_transport:version":"2"},"n":3,"s":[[5612591432,2],[5612591430,3]]},
+  {"id":13389846,"t":{"ref":"8420","name":"Bus 8420 : Garcès => Cabasse","from":"Garcès","to":"Cabasse","network":"Zou !","operator":"Les Lignes du Var","colour":"#c9252b","route":"bus","public_transport:version":"2"},"n":3,"s":[[9213656719,2],[1750960806,3]]},
+  {"id":13397695,"t":{"ref":"8544","name":"Bus 8544 : Cabasse => Brignoles","from":"Cabasse","to":"Brignoles","network":"Zou !","operator":"Les Lignes du Var","colour":"#87c979","route":"bus","public_transport:version":"2"},"n":6,"s":[[9213656719,1],[1750960806,2],[5612591432,3],[5612591430,4]]},
+  {"id":3004762928310,"t":{"ref":"B","name":"B: Carnoules - Gare SNCF - Cabasse - Les Florettes","from":"Carnoules - Gare SNCF","to":"Cabasse - Les Florettes","operator":"Autocars Bleu Voyages","route":"bus","public_transport:version":"2"},"n":9,"s":[[483522753,7],[5612591432,8],[5612591428,9]]},
+  {"id":3012013383918,"t":{"ref":"B","name":"B: Cabasse - Les Florettes - Carnoules - Gare SNCF","from":"Cabasse - Les Florettes","to":"Carnoules - Gare SNCF","operator":"Autocars Bleu Voyages","route":"bus","public_transport:version":"2"},"n":9,"s":[[5612591428,1],[5612591432,2],[483522753,3]]},
+  {"id":3062443969674,"t":{"ref":"8544","name":"Bus 8544 : Brignoles => Cabasse","from":"Brignoles","to":"Cabasse","network":"Zou !","operator":"Les Lignes du Var","colour":"#87c979","route":"bus","public_transport:version":"2"},"n":6,"s":[[9213656722,3],[5612591429,4],[1750960806,5],[382660704,6]]}
+]
+}

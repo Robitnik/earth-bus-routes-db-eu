@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2692,3696],
+"stops":[
+  {"id":2314384381,"lat":44.603368,"lon":4.819794,"k":"p","n":"Sauzet - Village"},
+  {"id":2355733454,"lat":44.603501,"lon":4.819942,"k":"p","n":"Sauzet - Village"},
+  {"id":10056650880,"lat":44.6034,"lon":4.819783,"k":"x","n":"Sauzet - Village"},
+  {"id":10056650881,"lat":44.603468,"lon":4.819989,"k":"x","n":"Sauzet - Village"},
+  {"id":10056650904,"lat":44.60553,"lon":4.825861,"k":"p","n":"Sauzet - Chemin des Oliviers"},
+  {"id":10056650905,"lat":44.605593,"lon":4.825821,"k":"p","n":"Sauzet - Chemin des Oliviers"},
+  {"id":10056650906,"lat":44.605545,"lon":4.825788,"k":"x","n":"Sauzet - Chemin des Oliviers"},
+  {"id":10056650907,"lat":44.605569,"lon":4.82585,"k":"x","n":"Sauzet - Chemin des Oliviers"},
+  {"id":10073345654,"lat":44.609368,"lon":4.846387,"k":"p","n":"La Laupie - Mairie"},
+  {"id":10073345655,"lat":44.609149,"lon":4.846339,"k":"p","n":"La Laupie - Mairie"},
+  {"id":10073345656,"lat":44.609283,"lon":4.846319,"k":"x","n":"La Laupie - Mairie"},
+  {"id":10073345657,"lat":44.609186,"lon":4.846357,"k":"x","n":"La Laupie - Mairie"},
+  {"id":12669158405,"lat":44.637866,"lon":4.812303,"k":"p","n":"Condillac Village"}
+],
+"routes":[
+  {"id":14637571,"t":{"ref":"32","name":"Bus 32 : Sauzet => Savasse => Montélimar","from":"Sauzet","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#22ceec","route":"bus","public_transport:version":"2"},"n":19,"s":[[10056650905,1],[2355733454,2]]},
+  {"id":14637572,"t":{"ref":"32","name":"Bus 32 : Montélimar => Savasse => Sauzet","from":"Montélimar","to":"Sauzet","network":"Montélibus","operator":"STAMontélibus","colour":"#22ceec","route":"bus","public_transport:version":"2"},"n":19,"s":[[2314384381,18],[10056650904,19]]},
+  {"id":14650908,"t":{"ref":"33","name":"Bus 33 : Charols => Manas => Sauzet => Montélimar","from":"Charols","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#2f802b","route":"bus","public_transport:version":"2"},"n":19,"s":[[10073345654,6],[10056650905,7],[2355733454,8]]},
+  {"id":14650909,"t":{"ref":"33","name":"Bus 33 : Charols => Pont-de-Barret => Manas => Sauzet => Montélimar","from":"Charols","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#2f802b","route":"bus","public_transport:version":"2"},"n":20,"s":[[10073345654,7],[10056650905,8],[2355733454,9]]},
+  {"id":14650911,"t":{"ref":"33","name":"Bus 33 : Montélimar => Sauzet => La Laupie => Manas","from":"Montélimar","to":"Manas","network":"Montélibus","operator":"STAMontélibus","colour":"#2f802b","route":"bus","public_transport:version":"2"},"n":21,"s":[[2314384381,14],[10056650904,15],[10073345655,16]]},
+  {"id":14650914,"t":{"ref":"33","name":"Bus 33 : Montélimar => Savasse => Sauzet => Bonlieu-sur-Roubion => Manas","from":"Montélimar","to":"Manas","network":"Montélibus","operator":"STAMontélibus","colour":"#2f802b","route":"bus","public_transport:version":"2"},"n":33,"s":[[2314384381,19],[10056650904,20]]},
+  {"id":14673131,"t":{"ref":"34","name":"Bus 34 : Montélimar => Cléon-d'Andran","from":"Montélimar","to":"Cléon-d'Andran","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":23,"s":[[2314384381,10],[10056650904,11],[10073345655,12]]},
+  {"id":14673132,"t":{"ref":"34","name":"Bus 34 : Montélimar => Cléon-d'Andran => La Laupie","from":"Montélimar","to":"La Laupie","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":27,"s":[[2314384381,10],[10056650904,11],[10073345655,12]]},
+  {"id":14673133,"t":{"ref":"34","name":"Bus 34 : Montélimar => Cléon-d'Andran => Puy-Saint-Martin => La Laupie","from":"Montélimar","to":"La Laupie","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":27,"s":[[2314384381,10],[10056650904,11],[10073345655,12]]},
+  {"id":14673135,"t":{"ref":"34","name":"Bus 34 : La Laupie => Cléon-d'Andran => Montélimar","from":"La Laupie","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":19,"s":[[10073345654,16]]},
+  {"id":14673139,"t":{"ref":"34","name":"Bus 34 : La Laupie => Cléon-d'Andran => Sauzet => Montélimar","from":"La Laupie","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":28,"s":[[10073345654,16],[10056650905,17],[2355733454,18]]},
+  {"id":3000343294856,"t":{"ref":"34","name":"Bus 34 : Cléon-d'Andran => La Laupie => Montélimar","from":"Cléon-d'Andran","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":15,"s":[[10073345656,5],[10056650905,6],[10056650881,7]]},
+  {"id":3003618391738,"t":{"ref":"34","name":"Bus 34 : Puy-Saint-Martin => Cléon-d'Andran => Marsanne => Montélimar","from":"Puy-Saint-Martin","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":23,"s":[[10073345656,13],[10056650905,14],[10056650881,15]]},
+  {"id":3004775674762,"t":{"ref":"34","name":"Bus 34 : Bonlieu-sur-Roubion => Montélimar","from":"Bonlieu-sur-Roubion","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":11,"s":[[10073345656,1],[10056650905,2],[10056650881,3]]},
+  {"id":3036417269446,"t":{"ref":"34","name":"Bus 34 : La Laupie => Marsanne => Cléon-d'Andran => Montélimar","from":"La Laupie","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":23,"s":[[10056650880,9],[10056650906,10],[10073345655,11]]},
+  {"id":3052465929112,"t":{"ref":"34","name":"Bus 34 : Bonlieu-sur-Roubion => Montélimar","from":"Bonlieu-sur-Roubion","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":11,"s":[[10056650880,9],[10056650906,10],[10073345655,11]]},
+  {"id":3053132151930,"t":{"ref":"34","name":"Bus 34 : Bonlieu-sur-Roubion => Montélimar","from":"Bonlieu-sur-Roubion","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":11,"s":[[10073345656,1],[10056650905,2],[10056650881,3]]},
+  {"id":3053424021512,"t":{"ref":"34","name":"Bus 34 : La Laupie => Marsanne => Cléon-d'Andran => Montélimar","from":"La Laupie","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":23,"s":[[10056650880,9],[10056650906,10],[10073345655,11]]},
+  {"id":3053871269213,"t":{"ref":"34","name":"Bus 34 : Cléon-d'Andran => La Laupie => Montélimar","from":"Cléon-d'Andran","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":15,"s":[[10073345656,5],[10056650905,6],[10056650881,7]]},
+  {"id":3088515588962,"t":{"ref":"34","name":"Bus 34 : Puy-Saint-Martin => Cléon-d'Andran => Marsanne => Montélimar","from":"Puy-Saint-Martin","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":22,"s":[[10073345656,12],[10056650905,13],[10056650881,14]]},
+  {"id":3095566476704,"t":{"ref":"34","name":"Bus 34 : Bonlieu-sur-Roubion => Montélimar","from":"Bonlieu-sur-Roubion","to":"Montélimar","network":"Montélibus","operator":"STAMontélibus","colour":"#eaaa15","route":"bus","public_transport:version":"2"},"n":11,"s":[[10056650880,9],[10056650906,10],[10073345655,11]]}
+]
+}

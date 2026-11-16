@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2680,3650],
+"stops":[
+  {"id":1453572371,"lat":44.031695,"lon":2.538292,"k":"x","n":"Place Prosper Boissonnade"},
+  {"id":1453574543,"lat":44.034024,"lon":2.535551,"k":"p","n":"Réquista - Abribus Avenue de Rodez"},
+  {"id":3889229087,"lat":44.034836,"lon":2.529874,"k":"p","n":"RÉQUISTA - Maison de Retraite"},
+  {"id":9045498690,"lat":44.031636,"lon":2.538433,"k":"p","n":"Place Prosper Boissonnade"},
+  {"id":11407616010,"lat":44.034028,"lon":2.535474,"k":"x","n":"Réquista - Abribus Avenue de Rodez"},
+  {"id":11755169539,"lat":44.034832,"lon":2.502009,"k":"x","n":"La Clauze"},
+  {"id":6046292954698,"lat":44.033924,"lon":2.531635,"k":"p","n":"RÉQUISTA - Maison de Retraite","g":1},
+  {"id":6082053042950,"lat":44.030925,"lon":2.535812,"k":"p","n":"RÉQUISTA - Église","g":1}
+],
+"routes":[
+  {"id":14695788,"t":{"ref":"219","name":"Car ligne 219 : Rodez → Réquista","from":"Rodez - Gare Routière de Rodez","to":"Réquista – Place Prosper Boissonnade","network":"liO","operator":"liO","colour":"#2da6dd","route":"bus","public_transport:version":"2"},"n":10,"s":[[1453574543,9],[9045498690,10]]},
+  {"id":14695789,"t":{"ref":"219","name":"Car ligne 219 : Réquista → Rodez","from":"Réquista – Place Prosper Boissonnade","to":"Rodez - Gare Routière de Rodez","network":"liO","operator":"liO","colour":"#2da6dd","route":"bus","public_transport:version":"2"},"n":10,"s":[[9045498690,1],[1453574543,2]]},
+  {"id":3056517252336,"t":{"ref":"706","name":"706: RÉQUISTA - Église - ALBI - Gare Routière","from":"RÉQUISTA - Église","to":"ALBI - Gare Routière","operator":".liO 81","route":"bus","public_transport:version":"2"},"n":22,"s":[[6082053042950,1],[1453572371,2],[3889229087,3]]},
+  {"id":3084004979188,"t":{"ref":"706","name":"706: ALBI - Gare Routière - RÉQUISTA - Église","from":"ALBI - Gare Routière","to":"RÉQUISTA - Église","operator":".liO 81","route":"bus","public_transport:version":"2"},"n":21,"s":[[6046292954698,19],[1453572371,20],[6082053042950,21]]}
+]
+}

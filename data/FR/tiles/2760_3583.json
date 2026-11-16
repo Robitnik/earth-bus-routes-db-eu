@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2760,3583],
+"stops":[
+  {"id":1293834495,"lat":48.031297,"lon":-0.80817,"k":"p","n":"La Prise Roland"},
+  {"id":1293834587,"lat":48.015909,"lon":-0.825951,"k":"p","n":"Haut Chêne"},
+  {"id":7109668768,"lat":48.016555,"lon":-0.826411,"k":"p","n":"Haut Chêne"},
+  {"id":13101567336,"lat":48.017401,"lon":-0.825775,"k":"p","n":"Le Haut Chêne"},
+  {"id":13101567337,"lat":48.017401,"lon":-0.825641,"k":"p","n":"Le Haut Chêne"},
+  {"id":13101567362,"lat":48.031391,"lon":-0.808305,"k":"p","n":"La Prise Roland"},
+  {"id":6000372539709,"lat":48.001408,"lon":-0.811468,"k":"p","n":"Calvaire","g":1},
+  {"id":6001726847171,"lat":48.0344,"lon":-0.844897,"k":"p","n":"Ménarderie","g":1},
+  {"id":6003764964746,"lat":48.001409,"lon":-0.811468,"k":"p","n":"Calvaire","g":1},
+  {"id":6025355819843,"lat":48.034401,"lon":-0.844897,"k":"p","n":"Ménarderie","g":1},
+  {"id":6029245295664,"lat":48.009071,"lon":-0.814102,"k":"p","n":"Primevères","g":1},
+  {"id":6034064903163,"lat":48.006958,"lon":-0.81091,"k":"p","n":"Pétoulet","g":1},
+  {"id":6065617137186,"lat":48.01083,"lon":-0.81519,"k":"p","n":"Trois Fontaines","g":1},
+  {"id":6072675649037,"lat":48.010829,"lon":-0.81519,"k":"p","n":"Trois Fontaines","g":1},
+  {"id":6096612722497,"lat":48.006959,"lon":-0.81091,"k":"p","n":"Pont Patry","g":1},
+  {"id":6099967235833,"lat":48.009072,"lon":-0.814102,"k":"p","n":"Primevères","g":1}
+],
+"routes":[
+  {"id":19532076,"t":{"ref":"140","name":"Car Aléop 140 : Gare Routière SNCF départ → Gare SNCF","from":"Gare Routière SNCF départ","to":"Gare SNCF","network":"Aléop en Mayenne","operator":"Aléop","colour":"#589DD6","route":"bus","public_transport:version":"2"},"n":23,"s":[[13101567362,6],[13101567336,7]]},
+  {"id":19532077,"t":{"ref":"140","name":"Car Aléop 140 : Gare SNCF → Gare Routière SNCF arrivée","from":"Gare SNCF","to":"Gare Routière SNCF arrivée","network":"Aléop en Mayenne","operator":"Aléop","colour":"#589DD6","route":"bus","public_transport:version":"2"},"n":22,"s":[[13101567337,16],[1293834495,17]]},
+  {"id":3004724208276,"t":{"ref":"Z4.","name":"Z4.: Auberge - Saint-Martin","from":"Auberge","to":"Saint-Martin","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[6001726847171,5]]},
+  {"id":3006636719920,"t":{"ref":"Z4.","name":"Z4.: Hôpital - Haut de Chêne","from":"Hôpital","to":"Haut de Chêne","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[1293834495,2],[6000372539709,5],[6034064903163,6],[6029245295664,7],[6065617137186,8],[1293834587,9]]},
+  {"id":3010669501566,"t":{"ref":"Z4.","name":"Z4.: Saint-Martin - Ménarderie","from":"Saint-Martin","to":"Ménarderie","operator":"TUL","route":"bus","public_transport:version":"2"},"n":6,"s":[[6001726847171,6]]},
+  {"id":3011980007785,"t":{"ref":"Z4.","name":"Z4.: Hôpital - Ménarderie","from":"Hôpital","to":"Ménarderie","operator":"TUL","route":"bus","public_transport:version":"2"},"n":6,"s":[[6025355819843,6]]},
+  {"id":3026789372305,"t":{"ref":"Z4.","name":"Z4.: Anjou - 11 Novembre Verdun","from":"Anjou","to":"11 Novembre Verdun","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6096612722497,3],[6099967235833,4],[6072675649037,5],[1293834587,6],[1293834495,7]]},
+  {"id":3033330238783,"t":{"ref":"Z4.","name":"Z4.: Anjou - Saint-Martin","from":"Anjou","to":"Saint-Martin","operator":"TUL","route":"bus","public_transport:version":"2"},"n":10,"s":[[6000372539709,3],[6034064903163,4],[6029245295664,5],[6065617137186,6],[1293834587,7],[1293834495,8]]},
+  {"id":3034362169117,"t":{"ref":"Z4.","name":"Z4.: Anjou - Saint-Martin","from":"Anjou","to":"Saint-Martin","operator":"TUL","route":"bus","public_transport:version":"2"},"n":10,"s":[[6003764964746,3],[6096612722497,4],[6099967235833,5],[6072675649037,6],[1293834587,7],[1293834495,8]]},
+  {"id":3034604546933,"t":{"ref":"Z4.","name":"Z4.: Saint-Martin - Ménarderie","from":"Saint-Martin","to":"Ménarderie","operator":"TUL","route":"bus","public_transport:version":"2"},"n":6,"s":[[6025355819843,6]]},
+  {"id":3047947139063,"t":{"ref":"Z4.","name":"Z4.: Anjou - Hôpital","from":"Anjou","to":"Hôpital","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[6000372539709,3],[6034064903163,4],[6029245295664,5],[6065617137186,6],[1293834587,7],[1293834495,8]]},
+  {"id":3050751709594,"t":{"ref":"Z4.","name":"Z4.: Anjou - Collège La Salle","from":"Anjou","to":"Collège La Salle","operator":"TUL","route":"bus","public_transport:version":"2"},"n":11,"s":[[6000372539709,3],[6034064903163,4],[6029245295664,5],[6065617137186,6],[1293834587,7],[1293834495,8]]},
+  {"id":3053035478428,"t":{"ref":"Z4.","name":"Z4.: Hôpital - Haut Chêne","from":"Hôpital","to":"Haut Chêne","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[1293834495,2],[6003764964746,5],[6096612722497,6],[6099967235833,7],[6072675649037,8],[1293834587,9]]},
+  {"id":3056350865763,"t":{"ref":"Z4.","name":"Z4.: Anjou - Hôpital","from":"Anjou","to":"Hôpital","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[6003764964746,3],[6096612722497,4],[6099967235833,5],[6072675649037,6],[1293834587,7],[1293834495,8]]},
+  {"id":3056532750560,"t":{"ref":"Z4.","name":"Z4.: Anjou - 11 Novembre","from":"Anjou","to":"11 Novembre","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6034064903163,3],[6029245295664,4],[6065617137186,5],[1293834587,6],[1293834495,7]]},
+  {"id":3071270215893,"t":{"ref":"Z4.","name":"Z4.: Auberge - Saint-Martin","from":"Auberge","to":"Saint-Martin","operator":"TUL","route":"bus","public_transport:version":"2"},"n":9,"s":[[6025355819843,5]]},
+  {"id":3073899010322,"t":{"ref":"Z4.","name":"Z4.: Anjou - Collège La Salle","from":"Anjou","to":"Collège La Salle","operator":"TUL","route":"bus","public_transport:version":"2"},"n":12,"s":[[6003764964746,3],[6096612722497,4],[6099967235833,5],[6072675649037,6],[1293834587,7],[1293834495,8]]},
+  {"id":3097018641515,"t":{"ref":"Z4.","name":"Z4.: Hôpital - Ménarderie","from":"Hôpital","to":"Ménarderie","operator":"TUL","route":"bus","public_transport:version":"2"},"n":6,"s":[[6001726847171,6]]}
+]
+}

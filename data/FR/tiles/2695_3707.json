@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2695,3707],
+"stops":[
+  {"id":314219409,"lat":44.758457,"lon":5.363417,"k":"x","n":"Die - Gare SNCF"},
+  {"id":2852355095,"lat":44.760281,"lon":5.358337,"k":"p","n":"Die - Cave Coopérative"},
+  {"id":2852355096,"lat":44.760652,"lon":5.35724,"k":"p","n":"Die - Cave Coopérative"},
+  {"id":2852355097,"lat":44.758252,"lon":5.363304,"k":"p","n":"Die - Gare SNCF"},
+  {"id":10147221756,"lat":44.755895,"lon":5.368672,"k":"p","n":"Die - Quartier Saint-Pierre"},
+  {"id":10147221758,"lat":44.755928,"lon":5.368622,"k":"x","n":"Die - Quartier Saint-Pierre"},
+  {"id":10180305425,"lat":44.760607,"lon":5.357222,"k":"x","n":"Die - Cave Coopérative"},
+  {"id":10180305429,"lat":44.760331,"lon":5.358353,"k":"x","n":"Die - Cave Coopérative"}
+],
+"routes":[
+  {"id":14866042,"t":{"ref":"D29","name":"Bus D29 : Die => Beaurières","from":"Die","to":"Beaurières","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":14,"s":[[10147221756,1]]},
+  {"id":14866043,"t":{"ref":"D29","name":"Bus D29 : Beaurières => Die","from":"Beaurières","to":"Die","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":15,"s":[[10147221756,15]]},
+  {"id":14878461,"t":{"ref":"D29","name":"Bus D29 : Die => Luzerand => Luc-en-Diois","from":"Die","to":"Luc-en-Diois","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":11,"s":[[2852355097,1],[10147221756,2]]},
+  {"id":14878462,"t":{"ref":"D29","name":"Bus D29 : Die => Châtillon-en-Diois","from":"Die","to":"Châtillon-en-Diois","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":9,"s":[[10147221756,1]]},
+  {"id":14878463,"t":{"ref":"D29","name":"Bus D29 : Die - Gare SNCF => Die - Quartier Saint-Pierre => Luc-en-Diois - Les Horts","from":"Die - Gare SNCF","to":"Luc-en-Diois - Les Horts","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":9,"s":[[2852355097,1],[10147221756,2]]},
+  {"id":14878556,"t":{"ref":"D29","name":"Bus D29 : Châtillon-en-Diois => Die","from":"Châtillon-en-Diois","to":"Die","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":10,"s":[[10147221756,10]]},
+  {"id":14878557,"t":{"ref":"D29","name":"Bus D29 : Luc-en-Diois => Luzerand => Die","from":"Luc-en-Diois","to":"Die","network":"Cars Région Drôme","operator":"Les Rapid'Verts","colour":"#e81318","route":"bus","public_transport:version":"2"},"n":12,"s":[[10147221756,11],[2852355097,12]]},
+  {"id":14891915,"t":{"ref":"D28","name":"Bus D28 : Crest => Die","from":"Crest","to":"Die","network":"Cars Région Drôme","operator":"Keolis Drôme Ardèche","colour":"#7ed035","route":"bus","public_transport:version":"2"},"n":17,"s":[[2852355095,15],[2852355097,16],[10147221756,17]]},
+  {"id":21824884,"t":{"name":"Navettes des Neiges : Col de Rousset -> Die - Gare SNCF","route":"bus","public_transport:version":"2"},"n":3,"s":[[10147221758,2],[314219409,3]]},
+  {"id":21824885,"t":{"name":"Navettes des Neiges : Die - Gare SNCF -> Col de Rousset","from":"Die - Gare SNCF","to":"Col de Rousset","route":"bus","public_transport:version":"2"},"n":3,"s":[[314219409,1],[10147221758,2]]},
+  {"id":3013841330704,"t":{"ref":"D28","name":"Bus D28 : Crest => Saillans - Gare La Mûre => Die","from":"Crest","to":"Die","network":"Cars Région Drôme","operator":"Keolis Drôme Ardèche","colour":"#7ed035","route":"bus","public_transport:version":"2"},"n":21,"s":[[2852355095,19],[314219409,20],[10147221758,21]]},
+  {"id":3035050084560,"t":{"ref":"D28","name":"Bus D28 : Crest => Saillans - Gare La Mûre => Die","from":"Crest","to":"Die","network":"Cars Région Drôme","operator":"Keolis Drôme Ardèche","colour":"#7ed035","route":"bus","public_transport:version":"2"},"n":21,"s":[[2852355095,19],[314219409,20],[10147221758,21]]},
+  {"id":3059551768332,"t":{"ref":"D28","name":"Bus D28 : Die => Crest","from":"Die","to":"Crest","network":"Cars Région Drôme","operator":"Keolis Drôme Ardèche","colour":"#7ed035","route":"bus","public_transport:version":"2"},"n":21,"s":[[314219409,1],[10147221758,2],[2852355096,3]]},
+  {"id":3090968890320,"t":{"ref":"D28","name":"Bus D28 : Die => Crest","from":"Die","to":"Crest","network":"Cars Région Drôme","operator":"Keolis Drôme Ardèche","colour":"#7ed035","route":"bus","public_transport:version":"2"},"n":21,"s":[[314219409,1],[10147221758,2],[2852355096,3]]}
+]
+}

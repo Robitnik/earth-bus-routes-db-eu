@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2703,3721],
+"stops":[
+  {"id":1116026625,"lat":45.163688,"lon":6.088547,"k":"x","n":"La Villette"},
+  {"id":1116026848,"lat":45.151564,"lon":6.065139,"k":"x","n":"Le Perrier"},
+  {"id":1116027158,"lat":45.157323,"lon":6.073112,"k":"x","n":"L'Église"},
+  {"id":1116027237,"lat":45.164855,"lon":6.089213,"k":"x","n":"Haut de la Villette"},
+  {"id":1116080129,"lat":45.168675,"lon":6.094701,"k":"x","n":"Le Collet-Tennis"},
+  {"id":1823797131,"lat":45.159035,"lon":6.079662,"k":"x","n":"HLM"},
+  {"id":1823797150,"lat":45.160451,"lon":6.082497,"k":"x","n":"Le Rochas"},
+  {"id":2688265113,"lat":45.157587,"lon":6.073392,"k":"x","n":"L'Église"},
+  {"id":2688265129,"lat":45.15756,"lon":6.07835,"k":"x","n":"Station Téléphérique"},
+  {"id":13412886468,"lat":45.16012,"lon":6.08169,"k":"p","n":"Le Rochas"},
+  {"id":13412886491,"lat":45.15214,"lon":6.06331,"k":"p","n":"Le Perrier"},
+  {"id":5000263202859,"lat":45.157599,"lon":6.073373,"k":"p","n":"L'Église"},
+  {"id":5000263202860,"lat":45.157318,"lon":6.073179,"k":"p","n":"L'Église"},
+  {"id":5000263202883,"lat":45.157597,"lon":6.078444,"k":"p","n":"Station Téléphérique"},
+  {"id":5001354478680,"lat":45.157506,"lon":6.078254,"k":"p","n":"Station Téléphérique"}
+],
+"routes":[
+  {"id":3548180,"t":{"ref":"T71","name":"T71 : Le Bourg-d'Oisans => Vaujany via Pernière","from":"Le Bourg-d'Oisans - Office du Tourisme","to":"Vaujany - Station Téléphérique","network":"Cars Région Isère","operator":"VFD","colour":"#36af3d","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000263202860,18],[5000263202883,19]]},
+  {"id":3548182,"t":{"ref":"T71","name":"T71 : Vaujany => Rochetaillée via Pernière","from":"Vaujany - Station Téléphérique","to":"Le Bourg-d'Oisans - Rochetaillée","network":"Cars Région Isère","operator":"VFD","colour":"#36af3d","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000263202883,1],[5000263202859,2]]},
+  {"id":7791577,"t":{"ref":"BDO04","name":"BDO04 : Bourg-d'Oisans => Haut de la Villette","from":"Bourg d'Oisans - Collège Les 6 Vallées","to":"Vaujany - Haut de la Villette","network":"Cars Région Isère","operator":"VFD","colour":"#00aee7","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000263202860,5]]},
+  {"id":7791578,"t":{"ref":"BDO04","name":"BDO04 : Haut de la Villette => Bourg-d'Oisans","from":"Vaujany - Haut de la Villette","to":"Bourg d'Oisans - Collège Les 6 Vallées","network":"Cars Région Isère","operator":"VFD","colour":"#00aee7","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000263202859,1]]},
+  {"id":7791630,"t":{"ref":"PALMA","name":"PALMA : Allemont -> Le Collet","from":"Allemont - Groupe Scolaire Les Ardoisières","to":"Vaujany - Le Collet-Tennis","network":"Cars Région Isère","operator":"VFD","colour":"#00aee7","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000263202860,5]]},
+  {"id":7791632,"t":{"ref":"PALMA","name":"PALMA : Le Collet -> Allemont","from":"Vaujany - Le Collet-Tennis","to":"Allemont - Groupe Scolaire Les Ardoisières","network":"Cars Région Isère","operator":"VFD","colour":"#00aee7","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000263202859,1]]},
+  {"id":10039832,"t":{"ref":"T71/T76","name":"T71/T76 : Vaujany => L'Alpe d'Huez","from":"Vaujany - Station Téléphérique","to":"Huez - Paganon","network":"Cars Région Isère","operator":"VFD","colour":"#ff7a00","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000263202883,1],[5000263202859,2]]},
+  {"id":10039833,"t":{"ref":"T71/T76","name":"T71/T76 : L'Alpe d'Huez => Vaujany","from":"Huez - Paganon","to":"Vaujany - Station Téléphérique","network":"Cars Région Isère","operator":"VFD","colour":"#ff7a00","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000263202860,25],[5000263202883,26]]},
+  {"id":10039834,"t":{"ref":"T71/T76","name":"T71/T76 : L'Alpe d'Huez => Vaujany via la Pernière","from":"Huez - Paganon","to":"Vaujany - Station Téléphérique","network":"Cars Région Isère","operator":"VFD","colour":"#ff7a00","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000263202860,28],[5000263202883,29]]},
+  {"id":10039866,"t":{"ref":"T71/T76","name":"T71/T76 : L'Alpe d'Huez => Vaujany","from":"Huez - Paganon","to":"Vaujany - Station Téléphérique","network":"Cars Région Isère","operator":"VFD","colour":"#1a3950","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000263202860,25],[5000263202883,26]]},
+  {"id":18615461,"t":{"ref":"TAVA","name":"TAVA : Grenoble => Vaujany","from":"Grenoble - Gare Routière","to":"Vaujany - Station Téléphérique","network":"Transaltitude","operator":"VFD","colour":"#43c5b5","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001354478680,4]]},
+  {"id":18615462,"t":{"ref":"TAVA","name":"TAVA : Vaujany => Grenoble","from":"Vaujany - Station Téléphérique","to":"Grenoble - Gare Routière","network":"Transaltitude","operator":"VFD","colour":"#43c5b5","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000263202883,1]]},
+  {"id":3018949866486,"t":{"ref":"T70","name":"T70 : Le Bourg-d'Oisans => Vaujany","from":"Le Bourg-d'Oisans - Office du Tourisme","to":"Vaujany - Station Téléphérique","network":"Cars Région Isère","operator":"VFD","colour":"#1a3950","route":"bus","public_transport:version":"2"},"n":18,"s":[[1116026848,16],[5000263202860,17],[2688265129,18]]},
+  {"id":3022898225625,"t":{"ref":"T70","name":"T70 : Vaujany => Le Bourg-d'Oisans","from":"Vaujany - Station Téléphérique","to":"Le Bourg-d'Oisans - Office du Tourisme","network":"Cars Région Isère","operator":"VFD","colour":"#1a3950","route":"bus","public_transport:version":"2"},"n":18,"s":[[2688265129,1],[5000263202859,2],[13412886491,3]]},
+  {"id":3068339903905,"t":{"ref":"T70","name":"T70 : Le Bourg-d'Oisans => Vaujany","from":"Le Bourg-d'Oisans - Office du Tourisme","to":"Vaujany - Station Téléphérique","network":"Cars Région Isère","operator":"VFD","colour":"#1a3950","route":"bus","public_transport:version":"2"},"n":18,"s":[[1116026848,16],[5000263202860,17],[2688265129,18]]},
+  {"id":3099377197895,"t":{"ref":"T70","name":"T70 : Vaujany => Le Bourg-d'Oisans","from":"Vaujany - Station Téléphérique","to":"Le Bourg-d'Oisans - Office du Tourisme","network":"Cars Région Isère","operator":"VFD","colour":"#1a3950","route":"bus","public_transport:version":"2"},"n":18,"s":[[2688265129,1],[5000263202859,2],[13412886491,3]]}
+]
+}

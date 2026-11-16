@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2690,3698],
+"stops":[
+  {"id":2607912437,"lat":44.522779,"lon":4.902957,"k":"p","n":"Portes Guerguy"},
+  {"id":2607912438,"lat":44.528763,"lon":4.91101,"k":"p","n":"Portes en Valdaine - Village"},
+  {"id":2607912440,"lat":44.538928,"lon":4.907684,"k":"p","n":"Portes La Treille"},
+  {"id":3125882747,"lat":44.546448,"lon":4.924406,"k":"p","n":"La Bégude-de-Mazenc - La Pierre Plantée"},
+  {"id":3125882748,"lat":44.542567,"lon":4.947781,"k":"p","n":"La Bégude-de-Mazenc - Le Sage"},
+  {"id":3125882749,"lat":44.542692,"lon":4.947749,"k":"p","n":"La Bégude-de-Mazenc - Le Sage"},
+  {"id":3125882750,"lat":44.545124,"lon":4.932883,"k":"p","n":"La Bégude-de-Mazenc - Le Village"},
+  {"id":6482098457,"lat":44.546245,"lon":4.925784,"k":"p","n":"La Bégude-de-Mazenc - La Pierre Plantée"},
+  {"id":9887643625,"lat":44.546384,"lon":4.924404,"k":"x","n":"La Bégude-de-Mazenc - La Pierre Plantée"},
+  {"id":9887643626,"lat":44.546311,"lon":4.925797,"k":"x","n":"La Bégude-de-Mazenc - La Pierre Plantée"},
+  {"id":9891428509,"lat":44.545057,"lon":4.93286,"k":"x","n":"La Bégude-de-Mazenc - Le Village"},
+  {"id":9891428511,"lat":44.54502,"lon":4.933009,"k":"x","n":"La Bégude-de-Mazenc - Le Village"},
+  {"id":9891428512,"lat":44.544955,"lon":4.932982,"k":"p","n":"La Bégude-de-Mazenc - Le Village"},
+  {"id":9891464645,"lat":44.542645,"lon":4.947726,"k":"x","n":"La Bégude-de-Mazenc - Le Sage"},
+  {"id":9891464646,"lat":44.542626,"lon":4.947804,"k":"x","n":"La Bégude-de-Mazenc - Le Sage"},
+  {"id":10146816105,"lat":44.52884,"lon":4.910904,"k":"x","n":"Portes en Valdaine - Village"}
+],
+"routes":[
+  {"id":14359000,"t":{"ref":"D35","name":"Bus D35 : Valréas => Montélimar","from":"Valréas","to":"Montélimar","network":"Cars Région Drôme","operator":"SRADDA","colour":"#e657bb","route":"bus","public_transport:version":"2"},"n":22,"s":[[3125882750,10]]},
+  {"id":14359001,"t":{"ref":"D35","name":"Bus D35 : Montélimar => Valréas","from":"Montélimar","to":"Valréas","network":"Cars Région Drôme","operator":"SRADDA","colour":"#e657bb","route":"bus","public_transport:version":"2"},"n":23,"s":[[9891428512,14]]},
+  {"id":14365443,"t":{"ref":"D35","name":"Bus D35 : Dieulefit => Montboucher - Village => Montélimar","from":"Dieulefit","to":"Montélimar","network":"Cars Région Drôme","operator":"SRADDA","colour":"#e657bb","route":"bus","public_transport:version":"2"},"n":18,"s":[[3125882750,4]]},
+  {"id":14365444,"t":{"ref":"D35","name":"Bus D35 : Montélimar => Montboucher - Village => Dieulefit","from":"Montélimar","to":"Dieulefit","network":"Cars Région Drôme","operator":"SRADDA","colour":"#e657bb","route":"bus","public_transport:version":"2"},"n":17,"s":[[9891428512,14]]},
+  {"id":14365445,"t":{"ref":"D35","name":"Bus D35 : Dieulefit => La Bégude-de-Mazenc - Les Plots => Montélimar","from":"Dieulefit","to":"Montélimar","network":"Cars Région Drôme","operator":"SRADDA","colour":"#e657bb","route":"bus","public_transport:version":"2"},"n":17,"s":[[3125882750,4]]},
+  {"id":14365446,"t":{"ref":"D35","name":"Bus D35 : Montélimar => La Bégude-de-Mazenc - Les Plots => Dieulefit","from":"Montélimar","to":"Dieulefit","network":"Cars Région Drôme","operator":"SRADDA","colour":"#e657bb","route":"bus","public_transport:version":"2"},"n":16,"s":[[9891428512,13]]},
+  {"id":14614343,"t":{"ref":"27","name":"Bus 27 : La Bâtie-Rolland => Cléon-d'Andran","from":"La Bâtie-Rolland","to":"Cléon-d'Andran","network":"Montélibus","operator":"STAMontélibus","colour":"#1313ec","route":"bus","public_transport:version":"2"},"n":13,"s":[[6482098457,7],[9891428512,8]]},
+  {"id":14614345,"t":{"ref":"27","name":"Bus 27 : Cléon-d'Andran => La Bâtie-Rolland","from":"Cléon-d'Andran","to":"La Bâtie-Rolland","network":"Montélibus","operator":"STAMontélibus","colour":"#1313ec","route":"bus","public_transport:version":"2"},"n":14,"s":[[3125882750,7],[3125882747,8]]},
+  {"id":14758161,"t":{"ref":"54","name":"Bus 54 (RPI) : Portes-en-Valdaine => Rochefort-en-Valdaine => Portes-en-Valdaine","from":"Portes-en-Valdaine","to":"Portes-en-Valdaine","network":"Montélibus","operator":"STAMontélibus","colour":"#f5bc70","route":"bus","public_transport:version":"2"},"n":9,"s":[[2607912438,1,9]]},
+  {"id":3024025344654,"t":{"ref":"D35","name":"D35: Gare Routière SNCF - Gare","from":"Gare Routière SNCF","to":"Gare","operator":"REGION - cars Région Drôme","route":"bus","public_transport:version":"2"},"n":30,"s":[[6482098457,16],[9891428512,17],[3125882748,18]]},
+  {"id":3037038334640,"t":{"ref":"D35","name":"D35: Gare - Gare Routière SNCF","from":"Gare","to":"Gare Routière SNCF","operator":"REGION - cars Région Drôme","route":"bus","public_transport:version":"2"},"n":30,"s":[[3125882749,13],[3125882750,14],[3125882747,15]]},
+  {"id":3061180090485,"t":{"ref":"D35","name":"D35: Gare Routière SNCF - Gare","from":"Gare Routière SNCF","to":"Gare","operator":"REGION - cars Région Drôme","route":"bus","public_transport:version":"2"},"n":30,"s":[[6482098457,16],[9891428512,17],[3125882748,18]]},
+  {"id":3083270318402,"t":{"ref":"D35","name":"D35: Gare - Gare Routière SNCF","from":"Gare","to":"Gare Routière SNCF","operator":"REGION - cars Région Drôme","route":"bus","public_transport:version":"2"},"n":30,"s":[[3125882749,13],[3125882750,14],[3125882747,15]]}
+]
+}

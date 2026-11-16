@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2756,3708],
+"stops":[
+  {"id":534404668,"lat":47.801459,"lon":5.425889,"k":"x","n":"Marceau"},
+  {"id":3833895661,"lat":47.810337,"lon":5.443308,"k":"x","n":"Culmont - Chalindrey Gare"},
+  {"id":3959153718,"lat":47.807452,"lon":5.445014,"k":"x","n":"République"},
+  {"id":3959153720,"lat":47.804591,"lon":5.435356,"k":"x","n":"Verdun"},
+  {"id":14031670276,"lat":47.810308,"lon":5.443263,"k":"p","n":"Culmont - Chalindrey Gare"}
+],
+"routes":[
+  {"id":5659755,"t":{"ref":"TER 23","name":"TER 23 : Culmont-Chalindray − Gray","network":"TER Champagne-Ardenne","operator":"SNCF Voyageurs","colour":"#f2cc05","route":"bus","public_transport:version":"1"},"n":7,"s":[[3833895661,1]]},
+  {"id":5662969,"t":{"ref":"TER 18","name":"TER 18 : Culmont-Chalindray − Vitrey-Vernois − Vesoul","network":"TER Champagne-Ardenne","operator":"SNCF Voyageurs","colour":"#f2cc05","route":"bus","public_transport:version":"1"},"n":6,"s":[[3833895661,4]]},
+  {"id":5888228,"t":{"ref":"TER 11","name":"TER 11 : Gray − Culmont-Chalindray","network":"TER Franche-Comté","operator":"SNCF Voyageurs","colour":"#e00018","route":"bus","public_transport:version":"1"},"n":18,"s":[[3833895661,1],[3959153718,8],[3959153720,9],[534404668,10]]},
+  {"id":5893233,"t":{"ref":"LR606","name":"LR606 : Vesoul − Culmont-Chalindray","network":"Mobigo","operator":"SNCF Voyageurs","colour":"#e00018","route":"bus","public_transport:version":"1"},"n":24,"s":[[3833895661,1]]},
+  {"id":3023116728367,"t":{"ref":"190A","name":"190A: Nancy - Lyon Perrache","from":"Nancy","to":"Lyon Perrache","operator":"Trains Express Régionaux","route":"bus","public_transport:version":"2"},"n":9,"s":[[14031670276,4]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2748,3711],
+"stops":[
+  {"id":457833139,"lat":47.447807,"lon":5.596152,"k":"s","n":"Gare routière"},
+  {"id":677663683,"lat":47.442438,"lon":5.590144,"k":"p","n":"Place des Tilleuls"},
+  {"id":7513857006,"lat":47.445717,"lon":5.597943,"k":"p","n":"Les Îles"},
+  {"id":7514821160,"lat":47.43273,"lon":5.591231,"k":"p","n":"Capucins - Pharmacie"},
+  {"id":7793724057,"lat":47.44242,"lon":5.590097,"k":"x"},
+  {"id":12893846451,"lat":47.435348,"lon":5.59329,"k":"p","n":"Capucins - Boulangerie"},
+  {"id":12893846454,"lat":47.445591,"lon":5.592231,"k":"x","n":"Hôtel de ville"},
+  {"id":12893846455,"lat":47.445616,"lon":5.592232,"k":"p","n":"Hôtel de ville"},
+  {"id":12893846456,"lat":47.448948,"lon":5.593155,"k":"p","n":"Lavoir Île Sauzay"},
+  {"id":12893846457,"lat":47.447608,"lon":5.589794,"k":"p","n":"Place Edmond Bour"},
+  {"id":12893846459,"lat":47.447726,"lon":5.586675,"k":"x"},
+  {"id":12893846460,"lat":47.446249,"lon":5.587365,"k":"p","n":"Rue de l'Arsenal"},
+  {"id":12893846461,"lat":47.437095,"lon":5.596331,"k":"p","n":"Cimetière"},
+  {"id":12893846462,"lat":47.432777,"lon":5.5912,"k":"x","n":"Capucins - Pharmacie"},
+  {"id":12893846463,"lat":47.449544,"lon":5.58611,"k":"x","n":"Quai Mavia"},
+  {"id":12893846468,"lat":47.441022,"lon":5.591029,"k":"x"},
+  {"id":12893846469,"lat":47.44156,"lon":5.590853,"k":"p","n":"Place des Tilleuls"},
+  {"id":12893846470,"lat":47.44952,"lon":5.586093,"k":"p","n":"Quai Mavia"},
+  {"id":6035250423011,"lat":47.440337,"lon":5.599992,"k":"p","n":"Zone Commerciale","g":1},
+  {"id":6058805858669,"lat":47.447958,"lon":5.596191,"k":"p","n":"Gare Routiere","g":1},
+  {"id":6064645073589,"lat":47.441922,"lon":5.590797,"k":"p","n":"Tilleuls","g":1}
+],
+"routes":[
+  {"id":5888228,"t":{"ref":"TER 11","name":"TER 11 : Gray − Culmont-Chalindray","network":"TER Franche-Comté","operator":"SNCF Voyageurs","colour":"#e00018","route":"bus","public_transport:version":"1"},"n":18,"s":[[677663683,18]]},
+  {"id":11481274,"t":{"ref":"LR 205","name":"LR 205 : Besançon => Gray via Marnay","from":"Besançon","to":"Gray","network":"Mobigo","route":"bus"},"n":5,"s":[[677663683,1]]},
+  {"id":19220442,"t":{"name":"Ligne de bus urbain de Gray","network":"Bus urbain de Gray","operator":"Danh Tourisme","colour":"#e1cc23","route":"bus"},"n":3,"s":[[12893846455,1],[12893846470,3]]},
+  {"id":19228591,"t":{"ref":"LR 205","name":"LR 205 : Gray => Besançon via Marnay","from":"Gray","to":"Besançon","network":"Mobigo","route":"bus"},"n":5,"s":[[677663683,1]]},
+  {"id":3019363058318,"t":{"ref":"205","name":"205: Centre St-Pierre - Gare Routiere","from":"Centre St-Pierre","to":"Gare Routiere","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":16,"s":[[6035250423011,14],[6064645073589,15],[6058805858669,16]]},
+  {"id":3076679973172,"t":{"ref":"205","name":"205: Gare Routiere - Centre St-Pierre","from":"Gare Routiere","to":"Centre St-Pierre","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":16,"s":[[6058805858669,1],[6064645073589,2],[6035250423011,3]]}
+]
+}

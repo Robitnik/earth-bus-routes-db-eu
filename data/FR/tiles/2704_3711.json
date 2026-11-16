@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2704,3711],
+"stops":[
+  {"id":269253950,"lat":45.249407,"lon":5.554225,"k":"x","n":"Le Coing"},
+  {"id":269264627,"lat":45.218393,"lon":5.578654,"k":"x","n":"Caisse de la Noire"},
+  {"id":269264747,"lat":45.226286,"lon":5.580541,"k":"x","n":"TS de la Quoi - Les Sabots"},
+  {"id":528905145,"lat":45.201183,"lon":5.570604,"k":"x","n":"Les Prud'hommes"},
+  {"id":770472446,"lat":45.213306,"lon":5.560068,"k":"x","n":"Plateau de Gève"},
+  {"id":3381862827,"lat":45.229786,"lon":5.581798,"k":"x","n":"Stade des Neiges Sure"},
+  {"id":9814338226,"lat":45.249082,"lon":5.554158,"k":"x","n":"Le Coing"},
+  {"id":5000331129489,"lat":45.201228,"lon":5.570747,"k":"p","n":"Les Prudhommes"},
+  {"id":5000331129492,"lat":45.213323,"lon":5.560009,"k":"p","n":"Plateau de Gève"},
+  {"id":5000331129494,"lat":45.229778,"lon":5.581873,"k":"p","n":"Stade des Neiges Sure"},
+  {"id":5001056186642,"lat":45.249424,"lon":5.554188,"k":"p","n":"Le Coing"},
+  {"id":5001069217485,"lat":45.249063,"lon":5.554178,"k":"p","n":"Le Coing"}
+],
+"routes":[
+  {"id":4646251,"t":{"ref":"Alpin","name":"Alpin aller","from":"Les Franques","to":"La Sure","network":"Autrans","colour":"blue","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000331129489,11],[5000331129494,12]]},
+  {"id":4646252,"t":{"ref":"Alpin","name":"Alpin retour","from":"La Sure","to":"Les Franques","network":"Autrans","colour":"blue","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000331129494,1]]},
+  {"id":4646253,"t":{"ref":"Direct","name":"Direct aller","from":"Centre Nordique","to":"Gève","network":"Autrans","colour":"orange","route":"bus","public_transport:version":"2"},"n":2,"s":[[5000331129492,2]]},
+  {"id":4646254,"t":{"ref":"Direct","name":"Direct retour","from":"Gève","to":"Centre Nordique","network":"Autrans","colour":"orange","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000331129492,1]]},
+  {"id":4646255,"t":{"ref":"Village","name":"Village aller","from":"Centre Nordique","to":"Gève","network":"Autrans","colour":"pink","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000331129492,7]]},
+  {"id":4646256,"t":{"ref":"Village","name":"Village retour","from":"Gève","to":"Centre Nordique","network":"Autrans","colour":"pink","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000331129492,1]]},
+  {"id":14092482,"t":{"ref":"TUL01","name":"TUL01-03 : Tullins -> Montaud","from":"Tullins - Collège Condorcet","to":"Montaud - Le Coing","network":"Cars Région Isère","operator":"Perraud","route":"bus","public_transport:version":"2"},"n":12,"s":[[5001056186642,12]]},
+  {"id":14092483,"t":{"ref":"TUL01","name":"TUL01-00 : Montaud -> Tullins","from":"Montaud - Le Coing","to":"Tullins - Collège Condorcet","network":"Cars Région Isère","operator":"Perraud","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001069217485,1]]},
+  {"id":20222521,"t":{"ref":"TUL01","name":"TUL01-01 : Tullins -> Montaud","from":"Tullins - Collège Condorcet","to":"Montaud - Le Coing","network":"Cars Région Isère","operator":"Perraud","route":"bus","public_transport:version":"2"},"n":11,"s":[[5001056186642,11]]}
+]
+}

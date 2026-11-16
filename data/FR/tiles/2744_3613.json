@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2744,3613],
+"stops":[
+  {"id":281338007,"lat":47.209012,"lon":0.675546,"k":"x","n":"La Rémerie"},
+  {"id":692627762,"lat":47.228798,"lon":0.676878,"k":"x","n":"Lassy"},
+  {"id":692700337,"lat":47.233453,"lon":0.684807,"k":"x","n":"Beau Chêne"},
+  {"id":1759531204,"lat":47.211641,"lon":0.65198,"k":"x","n":"Bas Bry"},
+  {"id":4034270799,"lat":47.243116,"lon":0.696463,"k":"x","n":"Sorigny - Salle des Fêtes"},
+  {"id":4035244560,"lat":47.241213,"lon":0.69355,"k":"x","n":"Sorigny - Centre"},
+  {"id":4035244561,"lat":47.226861,"lon":0.685549,"k":"x","n":"Sorigny - La Poste"},
+  {"id":4035244799,"lat":47.207948,"lon":0.674937,"k":"x","n":"La Rémerie"},
+  {"id":6723647782,"lat":47.24409,"lon":0.699475,"k":"p","n":"Voie Dieu"},
+  {"id":5000400935086,"lat":47.243172,"lon":0.696464,"k":"p","n":"Sorigny - Salle des Fêtes"},
+  {"id":5000400935087,"lat":47.24309,"lon":0.696442,"k":"p","n":"Sorigny - Salle des Fêtes"},
+  {"id":5000401053026,"lat":47.207922,"lon":0.675033,"k":"p","n":"La Rémerie"},
+  {"id":5000401053029,"lat":47.2091,"lon":0.675458,"k":"p","n":"La Rémerie"},
+  {"id":5000401053168,"lat":47.241227,"lon":0.693476,"k":"p","n":"Sorigny - Centre"},
+  {"id":5000401053169,"lat":47.241202,"lon":0.693648,"k":"p","n":"Sorigny - Centre"},
+  {"id":6012375209180,"lat":47.240658,"lon":0.693251,"k":"p","n":"Centre","g":1},
+  {"id":6070671354884,"lat":47.240673,"lon":0.693411,"k":"p","n":"Centre","g":1},
+  {"id":6083212923901,"lat":47.240673,"lon":0.693411,"k":"p","n":"Centre","g":1},
+  {"id":6092200573138,"lat":47.240658,"lon":0.693251,"k":"p","n":"Centre","g":1}
+],
+"routes":[
+  {"id":6018829,"t":{"ref":"H","name":"H : Sorigny -> Tours","from":"Sorigny - Salle des Fêtes","to":"Tours - Halte Routière","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000400935086,1]]},
+  {"id":6018832,"t":{"ref":"H","name":"H : Tours -> Sainte-Maure","from":"Tours - Halte Routière","to":"Sainte-Maure-de-Touraine - Carrefour des 4 routes","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000401053168,15],[5000401053029,16]]},
+  {"id":6018833,"t":{"ref":"H","name":"H : Villeperdue -> Tours","from":"Villeperdue - Gare SNCF","to":"Tours - Halte Routière","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":19,"s":[[5000401053026,4],[5000401053169,5]]},
+  {"id":3018689473479,"t":{"ref":"H","name":"H : Tours -> Sainte-Maure via Villeperdue","from":"Tours - Halte Routière","to":"Sainte-Maure-de-Touraine - Carrefour des 4 routes","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":23,"s":[[6012375209180,16],[4035244799,17]]},
+  {"id":3023015489251,"t":{"ref":"H","name":"H: Halte Routière - Pierre Ballue","from":"Halte Routière","to":"Pierre Ballue","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":31,"s":[[6092200573138,16],[4035244799,17]]},
+  {"id":3026233915575,"t":{"ref":"H","name":"H: Pierre Ballue - Halte Routière","from":"Pierre Ballue","to":"Halte Routière","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000401053026,15],[6083212923901,16]]},
+  {"id":3036536441082,"t":{"ref":"G","name":"G : Preuilly -> Tours","from":"Preuilly-sur-Claise - Place des Halles","to":"Tours - Halte Routière","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034270799,17]]},
+  {"id":3038256131413,"t":{"ref":"H","name":"H : Tours -> Sainte-Maure via Villeperdue","from":"Tours - Halte Routière","to":"Sainte-Maure-de-Touraine - Carrefour des 4 routes","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":23,"s":[[6092200573138,16],[4035244799,17]]},
+  {"id":3063868553972,"t":{"ref":"G","name":"G : Tours -> Preuilly","from":"Tours - Halte Routière","to":"Preuilly-sur-Claise - Place des Halles","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034270799,5]]},
+  {"id":3068829148293,"t":{"ref":"H","name":"H: Halte Routière - Pierre Ballue","from":"Halte Routière","to":"Pierre Ballue","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":31,"s":[[6012375209180,16],[4035244799,17]]},
+  {"id":3072512348458,"t":{"ref":"G","name":"G : Preuilly -> Tours","from":"Preuilly-sur-Claise - Place des Halles","to":"Tours - Halte Routière","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034270799,17]]},
+  {"id":3076134195501,"t":{"ref":"G","name":"G : Tours -> Preuilly","from":"Tours - Halte Routière","to":"Preuilly-sur-Claise - Place des Halles","network":"Rémi","colour":"#c7d94c","route":"bus","public_transport:version":"2"},"n":21,"s":[[4034270799,5]]},
+  {"id":3080821665486,"t":{"ref":"H","name":"H: Pierre Ballue - Halte Routière","from":"Pierre Ballue","to":"Halte Routière","operator":"Rémi 37","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000401053026,15],[6070671354884,16]]},
+  {"id":3082701842632,"t":{"ref":"H","name":"H : Sainte-Maure -> Tours","from":"Sainte-Maure-de-Touraine - Carrefour des 4 routes","to":"Tours - Halte Routière","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000401053026,7],[6083212923901,8]]},
+  {"id":3090294269695,"t":{"ref":"H","name":"H : Sainte-Maure -> Tours","from":"Sainte-Maure-de-Touraine - Carrefour des 4 routes","to":"Tours - Halte Routière","network":"Rémi","colour":"#153792","route":"bus","public_transport:version":"2"},"n":24,"s":[[5000401053026,7],[6070671354884,8]]}
+]
+}

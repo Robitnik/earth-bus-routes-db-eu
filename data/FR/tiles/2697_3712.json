@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2697,3712],
+"stops":[
+  {"id":278249792,"lat":44.867204,"lon":5.604993,"k":"x","n":"La Batie d'Ambet - RN75"},
+  {"id":1911430294,"lat":44.860449,"lon":5.602382,"k":"x","n":"Les Granges"},
+  {"id":1911650636,"lat":44.87606,"lon":5.611354,"k":"x","n":"Ferme Dumas"},
+  {"id":2246919615,"lat":44.895689,"lon":5.615958,"k":"x","n":"Le Fau"},
+  {"id":2246922147,"lat":44.85359,"lon":5.618136,"k":"x","n":"Condamine"},
+  {"id":5349982426,"lat":44.872117,"lon":5.607749,"k":"x","n":"Savouraire"},
+  {"id":5349982427,"lat":44.870979,"lon":5.621208,"k":"x","n":"Vicaire et Gerbaud"},
+  {"id":7432292451,"lat":44.880302,"lon":5.648959,"k":"p"},
+  {"id":7432292453,"lat":44.883758,"lon":5.641801,"k":"p"},
+  {"id":13347770202,"lat":44.88605,"lon":5.63918,"k":"p","n":"Bourg"},
+  {"id":13386527262,"lat":44.85159,"lon":5.62081,"k":"p","n":"Condamine (Stat.Oyo)"},
+  {"id":13386557325,"lat":44.86709,"lon":5.6156,"k":"p","n":"Chauvinet"},
+  {"id":13397392553,"lat":44.8518,"lon":5.62756,"k":"p","n":"La Chabannerie"},
+  {"id":13397392554,"lat":44.86759,"lon":5.60582,"k":"p","n":"La Bâtie d'Ambel RN75"},
+  {"id":13397392584,"lat":44.88532,"lon":5.63047,"k":"p","n":"L'Homme"},
+  {"id":13397392585,"lat":44.88521,"lon":5.63018,"k":"p","n":"L'Homme"},
+  {"id":13408142564,"lat":44.89471,"lon":5.6169,"k":"p","n":"Le Fau"},
+  {"id":13418864750,"lat":44.8889,"lon":5.62162,"k":"p","n":"Les Peyrouses 2"},
+  {"id":13418864751,"lat":44.8873,"lon":5.62463,"k":"p","n":"Les Peyrouses"},
+  {"id":13418864800,"lat":44.885075,"lon":5.642642,"k":"p","n":"Les Hauches"},
+  {"id":5000256628768,"lat":44.867641,"lon":5.605886,"k":"p","n":"La Batie d'Ambet","ref":"N75"},
+  {"id":5000256628769,"lat":44.867122,"lon":5.60498,"k":"p","n":"La Batie d'Ambet","ref":"N75"},
+  {"id":6070738584759,"lat":44.85368,"lon":5.617584,"k":"p","n":"Condamine (Stat.Oyo)","g":1},
+  {"id":6085754511829,"lat":44.85368,"lon":5.617584,"k":"p","n":"Condamine (Stat.Oyo)","g":1}
+],
+"routes":[
+  {"id":7917335,"t":{"ref":"MON02","name":"MON02 : Monestier-de-Clermont => Saint-Michel-les-Portes","from":"Monestier-de-Clermont - Collège-Écoles","to":"Saint-Michel-les-Portes - Vicaire et Gerbaud","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"1"},"n":7,"s":[[278249792,2],[1911430294,3],[5349982427,4],[5349982426,6],[1911650636,7]]},
+  {"id":7917360,"t":{"ref":"MON02","name":"MON02 : Saint-Michel-les-Portes => Monestier-de-Clermont via Savouraire","from":"Saint-Michel-les-Portes - Les Granges","to":"Monestier-de-Clermont - Collège-Écoles","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"1"},"n":6,"s":[[1911430294,1],[278249792,2],[5349982426,4],[1911650636,5]]},
+  {"id":7917361,"t":{"ref":"MON02","name":"MON02 : Saint-Michel-les-Portes => Monestier-de-Clermont via Vicaire et Gerbaud","from":"Saint-Michel-les-Portes - Village","to":"Monestier-de-Clermont - Collège-Écoles","network":"Cars Région Isère","colour":"#000000","route":"bus","public_transport:version":"1"},"n":3,"s":[[5349982427,2]]},
+  {"id":9313241,"t":{"ref":"T95","name":"T95 : Grenoble => Mens via A51N","from":"Grenoble - Gare Routière","to":"Mens - Roger Brachet","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000256628768,13]]},
+  {"id":9313242,"t":{"ref":"T95","name":"T95 : Grenoble => Mens via Sinard","from":"Grenoble - Gare Routière","to":"Mens - Roger Brachet","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000256628768,25]]},
+  {"id":9313314,"t":{"ref":"T95","name":"T95 : Mens => Grenoble via A51N","from":"Mens - Roger Brachet","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000256628769,4]]},
+  {"id":3005288458447,"t":{"ref":"T95","name":"T95 : Grenoble => Mens via Saint-Martin-de-la-Cluze","from":"Grenoble - Gare Routière","to":"Mens - Roger Brachet","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":40,"s":[[2246919615,29],[13397392554,30],[6070738584759,31]]},
+  {"id":3010736815992,"t":{"ref":"T95","name":"T95 : Mens => Grenoble via Saint-Martin-de-la-Cluze","from":"Mens - Roger Brachet","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":41,"s":[[13386527262,10],[278249792,11],[13408142564,12]]},
+  {"id":3025992810811,"t":{"ref":"T95","name":"T95 : Mens => Grenoble via Saint-Martin-de-la-Cluze","from":"Mens - Roger Brachet","to":"Grenoble - Gare Routière","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":41,"s":[[13386527262,10],[278249792,11],[13408142564,12]]},
+  {"id":3039507916771,"t":{"ref":"T95","name":"T95 : Grenoble => Mens via Saint-Martin-de-la-Cluze","from":"Grenoble - Gare Routière","to":"Mens - Roger Brachet","network":"Cars Région Isère","operator":"VFD","colour":"#00A1DA","route":"bus","public_transport:version":"2"},"n":40,"s":[[2246919615,29],[13397392554,30],[6085754511829,31]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"FR",
+"tile":[2743,3722],
+"stops":[
+  {"id":1814857553,"lat":47.157519,"lon":6.114084,"k":"p","n":"Tarcenay Abribus"},
+  {"id":1814857556,"lat":47.157543,"lon":6.114338,"k":"p","n":"Tarcenay Abribus"},
+  {"id":3502663398,"lat":47.195157,"lon":6.149757,"k":"p","n":"Le Noret"},
+  {"id":4523719207,"lat":47.183321,"lon":6.137456,"k":"p","n":"Le Gratteris"},
+  {"id":5799683869,"lat":47.184478,"lon":6.109979,"k":"p","n":"La Baraque des Violons"},
+  {"id":6525381636,"lat":47.167503,"lon":6.149545,"k":"p"},
+  {"id":12620474853,"lat":47.157372,"lon":6.114316,"k":"x","n":"Tarcenay Abribus"},
+  {"id":12620474854,"lat":47.157585,"lon":6.11412,"k":"x","n":"Tarcenay Abribus"},
+  {"id":6032601124871,"lat":47.183056,"lon":6.136111,"k":"p","n":"Le Gratteris - Le Gratteris","g":1}
+],
+"routes":[
+  {"id":659693,"t":{"ref":"LR 204","name":"Ligne LR 204 : Besançon => Pontarlier via Ornans","from":"Besançon","to":"Pontarlier via Ornans","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#FF8040","route":"bus","public_transport:version":"2"},"n":20,"s":[[1814857553,5]]},
+  {"id":8597603,"t":{"ref":"LR 204","name":"Ligne LR 204 : Pontarlier => Besançon via Ornans","from":"Pontarlier","to":"Besançon via Ornans","network":"Mobigo","operator":"Keolis Monts Jura","colour":"#FF8040","route":"bus","public_transport:version":"2"},"n":20,"s":[[1814857556,16]]},
+  {"id":3000331216033,"t":{"ref":"204","name":"204: PEM Gare - PEM Viotte","from":"PEM Gare","to":"PEM Viotte","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":20,"s":[[12620474854,16]]},
+  {"id":3002094073801,"t":{"ref":"D412","name":"D412: Le Gratteris - Le Gratteris - Saône - Collège de Saône","from":"Le Gratteris - Le Gratteris","to":"Saône - Collège de Saône","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":6,"s":[[4523719207,1]]},
+  {"id":3012990604204,"t":{"ref":"Proxi K","name":"Proxi K: Le Gratteris - Le Gratteris - Saône - Gare","from":"Le Gratteris - Le Gratteris","to":"Saône - Gare","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":4,"s":[[4523719207,1],[3502663398,2]]},
+  {"id":3013628531249,"t":{"ref":"204","name":"204: PEM Viotte - PEM Gare","from":"PEM Viotte","to":"PEM Gare","operator":"MOBIGO 25","route":"bus","public_transport:version":"2"},"n":20,"s":[[12620474854,5]]},
+  {"id":3021212535368,"t":{"ref":"Proxi K","name":"Proxi K: Saône - Gare - Le Gratteris - Le Gratteris","from":"Saône - Gare","to":"Le Gratteris - Le Gratteris","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":4,"s":[[3502663398,3],[6032601124871,4]]},
+  {"id":3047003978051,"t":{"ref":"D412","name":"D412: Saône - Collège de Saône - Le Gratteris - Le Gratteris","from":"Saône - Collège de Saône","to":"Le Gratteris - Le Gratteris","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":6,"s":[[4523719207,6]]},
+  {"id":3055106883435,"t":{"ref":"D407","name":"D407: Le Gratteris - Le Gratteris - Victor Gallois","from":"Le Gratteris - Le Gratteris","to":"Victor Gallois","operator":"Ginko","route":"bus","public_transport:version":"2"},"n":13,"s":[[4523719207,1]]}
+]
+}
