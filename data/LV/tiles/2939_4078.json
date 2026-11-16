@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2939,4078],
+"stops":[
+  {"id":364776655,"lat":56.951739,"lon":23.913363,"k":"p","n":"Jaunā iela","q":1},
+  {"id":445305382,"lat":56.993355,"lon":23.914146,"k":"p","n":"Kuģu iela"},
+  {"id":445305660,"lat":56.99333,"lon":23.915241,"k":"p","n":"Jūrnieku iela"},
+  {"id":445305662,"lat":56.994381,"lon":23.916663,"k":"p","n":"Enkuru iela"},
+  {"id":1237655308,"lat":56.993312,"lon":23.90041,"k":"p","n":"33. līnija"},
+  {"id":2440603959,"lat":56.995199,"lon":23.921799,"k":"p","n":"Buļļuciems"},
+  {"id":2440603960,"lat":56.995225,"lon":23.922086,"k":"p","n":"Buļļuciems"},
+  {"id":3222291723,"lat":56.977139,"lon":23.903923,"k":"p","n":"Baldones iela"},
+  {"id":7678086473,"lat":56.950626,"lon":23.936082,"k":"p","n":"Priežciems","q":1}
+],
+"routes":[
+  {"id":11186742,"t":{"ref":"4","name":"Bus 4: Piņķi => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":28,"s":[[364776655,3]]},
+  {"id":11288331,"t":{"ref":"32","name":"Bus 32: Piņķi => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":23,"s":[[364776655,3],[7678086473,4]]},
+  {"id":11292339,"t":{"ref":"43","name":"Bus 43: Skulte => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":26,"s":[[7678086473,7]]},
+  {"id":11510104,"t":{"ref":"1","name":"Bus 1: Priedaine –> Buļļuciems","route":"bus","public_transport:version":"2"},"n":21,"s":[[3222291723,1],[1237655308,19],[445305660,20],[2440603960,21]]},
+  {"id":11510105,"t":{"ref":"1","name":"Bus 1: Viestura iela (RIMI \"Lielupe\") –> Buļļuciems","route":"bus","public_transport:version":"2"},"n":15,"s":[[1237655308,13],[445305660,14],[2440603960,15]]},
+  {"id":11510106,"t":{"ref":"1","name":"Bus 1: Bulduri –> Buļļuciems","route":"bus","public_transport:version":"2"},"n":12,"s":[[1237655308,10],[445305660,11],[2440603960,12]]},
+  {"id":11510107,"t":{"ref":"1","name":"Bus 1: Buļļuciems –> Priedaine","route":"bus","public_transport:version":"2"},"n":21,"s":[[2440603959,1],[445305662,2],[445305382,3],[3222291723,21]]},
+  {"id":11510108,"t":{"ref":"1","name":"Bus 1: Buļļuciems –> Viestura iela (RIMI \"Lielupe\")","route":"bus","public_transport:version":"2"},"n":14,"s":[[2440603959,1],[445305662,2],[445305382,3]]},
+  {"id":11510109,"t":{"ref":"1","name":"Bus 1: Buļļuciems –> Bulduri","route":"bus","public_transport:version":"2"},"n":12,"s":[[2440603959,1],[445305662,2],[445305382,3]]},
+  {"id":11514323,"t":{"ref":"5","name":"Bus 5: Buļļuciems –> Ķemeru stacija","from":"Buļļuciems","to":"Ķemeru stacija","route":"bus","public_transport:version":"2"},"n":25,"s":[[2440603959,1]]},
+  {"id":11514461,"t":{"ref":"7","name":"Bus 7: SIVA koledža –> Priedaine","route":"bus","public_transport:version":"2"},"n":24,"s":[[3222291723,24]]},
+  {"id":11514462,"t":{"ref":"7","name":"Bus 7: Priedaine –> SIVA koledža","route":"bus","public_transport:version":"2"},"n":24,"s":[[3222291723,1]]},
+  {"id":11535761,"t":{"ref":"5","name":"Bus 5: Kauguru vidusskola –> Buļļuciems","route":"bus","public_transport:version":"2"},"n":16,"s":[[2440603960,16]]},
+  {"id":11535763,"t":{"ref":"5","name":"Bus 5: Ķemeru stacija –> Buļļuciems","route":"bus","public_transport:version":"2"},"n":24,"s":[[2440603960,24]]},
+  {"id":11535764,"t":{"ref":"5","name":"Bus 5: Priedaine –> Kauguru vidusskola","route":"bus","public_transport:version":"2"},"n":21,"s":[[3222291723,1]]},
+  {"id":11535765,"t":{"ref":"5","name":"Bus 5: Priedaine –> Ķemeru stacija","route":"bus","public_transport:version":"2"},"n":32,"s":[[3222291723,1]]},
+  {"id":11535766,"t":{"ref":"5","name":"Bus 5: Buļļuciems –> Kauguru vidusskola","route":"bus","public_transport:version":"2"},"n":15,"s":[[2440603959,1]]},
+  {"id":11535767,"t":{"ref":"5","name":"Bus 5: Buļļuciems –> Jāņa Rozentāla iela -> Ķemeru stacija","from":"Buļļuciems","to":"Ķemeru stacija","route":"bus","public_transport:version":"2"},"n":26,"s":[[2440603959,1]]}
+]
+}

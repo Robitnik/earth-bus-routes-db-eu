@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2872,3466],
+"stops":[
+  {"id":747949220,"lat":53.635062,"lon":-6.665505,"k":"p","n":"Kilcarn","ref":"135711"},
+  {"id":2755885662,"lat":53.629878,"lon":-6.688921,"k":"p","n":"109 Bus Éireann"},
+  {"id":2755885681,"lat":53.642479,"lon":-6.688306,"k":"p"},
+  {"id":3404988796,"lat":53.647041,"lon":-6.699783,"k":"p"},
+  {"id":8133214228,"lat":53.643937,"lon":-6.672808,"k":"p","n":"Navan (Ma Dwyer's)"},
+  {"id":8133214229,"lat":53.644071,"lon":-6.663095,"k":"p","n":"Johnstown (Meath County Council)"},
+  {"id":8133214230,"lat":53.642824,"lon":-6.659769,"k":"p","n":"Johnstown Centre","ref":"101371"},
+  {"id":8133214231,"lat":53.639577,"lon":-6.658207,"k":"p","n":"Boyne View","ref":"136571"},
+  {"id":8140409200,"lat":53.639313,"lon":-6.657811,"k":"p","n":"Boyne View","ref":"136581"},
+  {"id":8140409201,"lat":53.643434,"lon":-6.659435,"k":"p","n":"Johnstown Centre","ref":"135681"},
+  {"id":8140409202,"lat":53.644167,"lon":-6.66351,"k":"p","n":"Johnstown (Meath County Council)"},
+  {"id":8140409203,"lat":53.643351,"lon":-6.672034,"k":"p","n":"Navan (Ma Dwyer's)"},
+  {"id":8144619033,"lat":53.641215,"lon":-6.670365,"k":"p","n":"Navan Ardboyne Hotel","ref":"136961"},
+  {"id":8147467850,"lat":53.631867,"lon":-6.663187,"k":"p","n":"Kilcarn","ref":"101811"},
+  {"id":8147467851,"lat":53.641973,"lon":-6.670722,"k":"p","n":"Navan Ardboyne Hotel","ref":"101801"},
+  {"id":11026313580,"lat":53.646811,"lon":-6.69938,"k":"p"},
+  {"id":12629443656,"lat":53.649591,"lon":-6.686207,"k":"p"},
+  {"id":12629443659,"lat":53.649185,"lon":-6.685886,"k":"p"}
+],
+"routes":[
+  {"id":11905994,"t":{"ref":"NX","name":"Bus NX: Dublin → Navan","from":"Dublin","to":"Navan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":18,"s":[[8133214231,14],[8133214230,15],[8133214229,16],[8133214228,17]]},
+  {"id":11909708,"t":{"ref":"NX","name":"Bus NX: Navan → Dublin","from":"Navan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":19,"s":[[8140409203,2],[8140409202,3],[8140409201,4],[8140409200,5]]},
+  {"id":11914310,"t":{"ref":"109","name":"Bus 109: Dublin → Kells","from":"Dublin","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":40,"s":[[747949220,26],[8144619033,27]]},
+  {"id":11917881,"t":{"ref":"109","name":"Bus 109: Kells → Dublin","from":"Kells","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[8147467851,12],[8147467850,13]]},
+  {"id":11921773,"t":{"ref":"109X","name":"Bus 109X: Cavan → Navan → Dublin","from":"Cavan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":30,"s":[[8147467851,21]]},
+  {"id":11921775,"t":{"ref":"109X","name":"Bus 109X: Dublin → Navan → Cavan","from":"Dublin","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":30,"s":[[8144619033,9]]},
+  {"id":21071275,"t":{"ref":"109","name":"Bus 109: Kells → Dublin (UCD)","from":"Kells","to":"Dublin (UCD)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":38,"s":[[8147467851,12],[8147467850,13]]},
+  {"id":21071276,"t":{"ref":"109","name":"Bus 109: Dublin → Virginia","from":"Dublin","to":"Virginia","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":46,"s":[[747949220,26],[8144619033,27]]},
+  {"id":21071277,"t":{"ref":"109","name":"Bus 109: Dublin (Mountjoy) → Kells","from":"Dublin (Mountjoy)","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[747949220,25],[8144619033,26]]},
+  {"id":21074938,"t":{"ref":"109A","name":"Bus 109A: Dublin → Kells","from":"Dublin Airport","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":42,"s":[[747949220,30],[8144619033,31]]},
+  {"id":21074939,"t":{"ref":"109A","name":"Bus 109A: Kells → Dublin","from":"Kells","to":"Dublin Airport","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":44,"s":[[8147467851,12],[8147467850,13]]},
+  {"id":21074940,"t":{"ref":"109A","name":"Bus 109A: Kells → Dublin Airport","from":"Kells","to":"Dublin Airport","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":39,"s":[[8147467851,12],[8147467850,13]]},
+  {"id":21074941,"t":{"ref":"109A","name":"Bus 109A: Dublin Airport → Kells","from":"Dublin Airport","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":39,"s":[[747949220,27],[8144619033,28]]},
+  {"id":21239830,"t":{"ref":"109X","name":"Bus 109X: Cavan → Navan → Parkway Station → Dublin","from":"Cavan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":32,"s":[[8147467851,27]]},
+  {"id":21242191,"t":{"ref":"110D","name":"Bus 110D: Navan → DCU","from":"Navan","to":"DCU","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":7,"s":[[8140409201,2],[8140409200,3]]},
+  {"id":21242192,"t":{"ref":"110D","name":"Bus 110D: DCU → Navan","from":"DCU","to":"Navan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":7,"s":[[8133214231,5],[8133214230,6]]}
+]
+}

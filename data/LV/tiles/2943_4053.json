@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2943,4053],
+"stops":[
+  {"id":293360661,"lat":57.169806,"lon":22.660469,"k":"p","n":"Lībagi"},
+  {"id":293360662,"lat":57.158648,"lon":22.679357,"k":"p","n":"Andumu mežniecība"},
+  {"id":293360668,"lat":57.152129,"lon":22.690546,"k":"p","n":"Sknābe"},
+  {"id":1969704443,"lat":57.159475,"lon":22.678446,"k":"p","n":"Andumu mežniecība"},
+  {"id":1969704476,"lat":57.170577,"lon":22.659314,"k":"p","n":"Lībagi"},
+  {"id":1969704496,"lat":57.153848,"lon":22.687218,"k":"p","n":"Sknābe"},
+  {"id":11808109462,"lat":57.170509,"lon":22.659205,"k":"x","n":"Lībagi"},
+  {"id":11808109468,"lat":57.169864,"lon":22.660562,"k":"x","n":"Lībagi"},
+  {"id":11813509366,"lat":57.170608,"lon":22.658046,"k":"x","n":"Lībagi"}
+],
+"routes":[
+  {"id":17090036,"t":{"ref":"5122","name":"Bus 5122: Talsi => Strazde => Jaunpagasts => Stende => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[293360661,5],[293360668,6]]},
+  {"id":17090038,"t":{"ref":"5122","name":"Bus 5122: Talsi => Sknābe => Jaunpagasts => Strazde => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[293360661,6],[293360668,11],[1969704496,12],[1969704476,13]]},
+  {"id":17464618,"t":{"ref":"5121","name":"Bus 5121: Talsi => Strazde => Jaunpagasts => Krūziņi => Lībagi => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":17,"s":[[293360661,5],[1969704476,6],[293360668,7]]},
+  {"id":17464620,"t":{"ref":"5122","name":"Bus 5122: Talsi => Strazde => Jaunpagasts => Sknābe => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[293360661,6],[293360668,7],[1969704496,12],[1969704476,13]]},
+  {"id":21221330,"t":{"ref":"7684","name":"Autobuss 7684: Ventspils – Blāzma – Talsi – Kandava – Tukums – Jelgava","from":"Ventspils AO","to":"Jelgavas AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":47,"s":[[293360668,24]]},
+  {"id":21221331,"t":{"ref":"7684","name":"Autobuss 7684: Jelgava – Tukums – Kandava – Talsi – Blāzma – Ventspils","from":"Jelgavas AO","to":"Ventspils AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":45,"s":[[1969704496,22]]}
+]
+}

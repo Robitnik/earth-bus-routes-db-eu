@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2934,4149],
+"stops":[
+  {"id":11646904304,"lat":56.724034,"lon":27.481508,"k":"p","n":"Bliseņi"},
+  {"id":11646904405,"lat":56.742687,"lon":27.456391,"k":"p","n":"Dekteri"},
+  {"id":11646904406,"lat":56.742612,"lon":27.456343,"k":"p","n":"Dekteri"},
+  {"id":13121884776,"lat":56.742646,"lon":27.456391,"k":"x","n":"Dekteri"},
+  {"id":13121884795,"lat":56.72397,"lon":27.48149,"k":"x"},
+  {"id":13121884796,"lat":56.742646,"lon":27.456343,"k":"x","n":"Dekteri"},
+  {"id":13128866088,"lat":56.723872,"lon":27.48249,"k":"x"},
+  {"id":13128866089,"lat":56.723803,"lon":27.482466,"k":"p","n":"Bliseņi"}
+],
+"routes":[
+  {"id":19569316,"t":{"ref":"5137","name":"bus 5137: Rēzekne => Rogovka => Dekteri => Strūžāni => Rēzekne","from":"Rēzekne","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":20,"s":[[11646904405,9]]},
+  {"id":19569319,"t":{"ref":"5137","name":"bus 5137: Rēzekne => Strūžāni => Dekteri => Rogovka => Rēzekne","from":"Rēzekne","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":21,"s":[[11646904406,12],[11646904304,13]]},
+  {"id":19580136,"t":{"ref":"5759","name":"bus 5759: Bliseņi => Makašāni => Rēzekne","from":"Bliseņi","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":13,"s":[[11646904304,1]]},
+  {"id":19580144,"t":{"ref":"5759","name":"bus 5759: Rēzekne => Makašāni => Bliseņi","from":"Rēzekne","to":"Bliseņi","route":"bus","public_transport:version":"2"},"n":13,"s":[[13128866089,13]]},
+  {"id":19779698,"t":{"ref":"5633","name":"5633 Rogovka – Padole – Ludza","from":"Rogovka","to":"Ludzas AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":12,"s":[[13128866089,3]]},
+  {"id":19779708,"t":{"ref":"5633","name":"5633 Ludza – Padole – Rogovka","from":"Ludzas AO","to":"Rogovka","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":12,"s":[[11646904304,10]]}
+]
+}

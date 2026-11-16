@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2879,3452],
+"stops":[
+  {"id":2444799912,"lat":53.990248,"lon":-7.363328,"k":"p","n":"Cavan Bus Station","ref":"141451"},
+  {"id":8147974768,"lat":53.99041,"lon":-7.36371,"k":"p","n":"Cavan Bus Station","ref":"135861"},
+  {"id":8150181122,"lat":53.983061,"lon":-7.355458,"k":"p","n":"Breffni Retail Park","ref":"101591"},
+  {"id":8150181123,"lat":53.982824,"lon":-7.356153,"k":"p","n":"Breffni Retail Park","ref":"101571"},
+  {"id":9893688507,"lat":53.990573,"lon":-7.360304,"k":"p","n":"Cavan Town Centre"},
+  {"id":11501158115,"lat":53.988858,"lon":-7.37461,"k":"p"},
+  {"id":11869047706,"lat":53.999408,"lon":-7.374981,"k":"p","n":"Cavan Hospital Gate","ref":"108161"},
+  {"id":12333436352,"lat":53.994471,"lon":-7.360789,"k":"p","n":"Cavan Cathedral","ref":"10010"},
+  {"id":12333436353,"lat":53.993889,"lon":-7.360989,"k":"p","n":"Cavan Cathedral","ref":"10009"},
+  {"id":12333436354,"lat":53.990272,"lon":-7.363095,"k":"p","n":"Cavan Bus Station","ref":"141471"},
+  {"id":12333436355,"lat":53.994805,"lon":-7.368166,"k":"p","n":"Farnham Road","ref":"11482"},
+  {"id":12333436356,"lat":53.994828,"lon":-7.368037,"k":"p","n":"Farnham Road","ref":"11483"}
+],
+"routes":[
+  {"id":11921773,"t":{"ref":"109X","name":"Bus 109X: Cavan → Navan → Dublin","from":"Cavan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":30,"s":[[8147974768,1],[8150181122,2]]},
+  {"id":11921774,"t":{"ref":"109X","name":"Bus 109X: Cavan → Kells → Dublin","from":"Cavan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":28,"s":[[8147974768,1],[8150181122,2]]},
+  {"id":11921775,"t":{"ref":"109X","name":"Bus 109X: Dublin → Navan → Cavan","from":"Dublin","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":30,"s":[[8150181123,29],[8147974768,30]]},
+  {"id":11921776,"t":{"ref":"109X","name":"Bus 109X: Dublin → Kells → Cavan","from":"Dublin","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":28,"s":[[8150181123,27],[8147974768,28]]},
+  {"id":18280283,"t":{"ref":"176","name":"Bus 176: Monaghan → Cavan","from":"Monaghan","to":"Cavan","network":"Transport for Ireland","operator":"Local Link Cavan Monaghan","route":"bus","public_transport:version":"2"},"n":28,"s":[[12333436353,25],[12333436354,26],[12333436355,27]]},
+  {"id":18280284,"t":{"ref":"176","name":"Bus 176: Cavan → Monaghan","from":"Cavan","to":"Monaghan","network":"Transport for Ireland","operator":"Local Link Cavan Monaghan","route":"bus","public_transport:version":"2"},"n":30,"s":[[11869047706,2],[12333436356,3],[2444799912,4],[12333436352,5]]},
+  {"id":18334746,"t":{"ref":"175","name":"Bus 175: Monaghan → Cavan","from":"Monaghan","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":11,"s":[[11869047706,10],[2444799912,11]]},
+  {"id":18334747,"t":{"ref":"175","name":"Bus 175: Cavan → Monaghan","from":"Monaghan","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":9,"s":[[2444799912,1]]},
+  {"id":18466747,"t":{"ref":"65","name":"Bus 65: Monaghan → Cavan","from":"Monaghan","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":4,"s":[[8147974768,4]]},
+  {"id":18466748,"t":{"ref":"65","name":"Bus 65: Cavan → Monaghan","from":"Cavan","to":"Monaghan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":4,"s":[[8147974768,1]]},
+  {"id":18466749,"t":{"ref":"175A","name":"Bus 175A: Cavan → Monaghan","from":"Cavan","to":"Monaghan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":5,"s":[[2444799912,1]]},
+  {"id":18467241,"t":{"ref":"270","name":"Bus 270: Cavan → Belfast","from":"Cavan","to":"Belfast","network":"Goldliner","operator":"Translink","colour":"gold","route":"bus","public_transport:version":"2"},"n":6,"s":[[8147974768,1]]},
+  {"id":18467243,"t":{"ref":"271","name":"Bus 271: Belfast → Cavan","from":"Belfast","to":"Cavan","network":"Goldliner","operator":"Translink","colour":"gold","route":"bus","public_transport:version":"2"},"n":6,"s":[[8147974768,6]]},
+  {"id":18472934,"t":{"ref":"65","name":"Bus 65: Cavan → Galway","from":"Cavan","to":"Galway","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":14,"s":[[8147974768,1]]},
+  {"id":18472935,"t":{"ref":"65","name":"Bus 65: Galway → Cavan","from":"Galway","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":14,"s":[[8147974768,14]]},
+  {"id":21239829,"t":{"ref":"109X","name":"Bus 109X: Dublin → Cavan","from":"Dublin","to":"Cavan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":24,"s":[[8150181123,23],[8147974768,24]]},
+  {"id":21239830,"t":{"ref":"109X","name":"Bus 109X: Cavan → Navan → Parkway Station → Dublin","from":"Cavan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":32,"s":[[8147974768,1],[8150181122,2]]},
+  {"id":21239832,"t":{"ref":"109X","name":"Bus 109X: Cavan → Kells → Dublin (Merrion Row)","from":"Cavan","to":"Dublin (Merrion Row)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":28,"s":[[8147974768,1],[8150181122,2]]},
+  {"id":21239833,"t":{"ref":"109X","name":"Bus 109X: Cavan → Dublin","from":"Cavan","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":25,"s":[[8147974768,1],[8150181122,2]]}
+]
+}

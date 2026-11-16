@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2763,3949],
+"stops":[
+  {"id":27246419,"lat":48.19745,"lon":17.450286,"k":"x","n":"Kráľová pri Senci, Kostol"},
+  {"id":27246439,"lat":48.197836,"lon":17.45798,"k":"x","n":"Kráľová pri Senci, Výhon"},
+  {"id":281323116,"lat":48.197897,"lon":17.458796,"k":"x","n":"Kráľová pri Senci, Výhon"},
+  {"id":3775336467,"lat":48.181671,"lon":17.482014,"k":"p","n":"Hrubá Borša, Park"},
+  {"id":3775336468,"lat":48.181487,"lon":17.48285,"k":"x","n":"Hrubá Borša, Park"},
+  {"id":3775336469,"lat":48.181536,"lon":17.482813,"k":"p","n":"Hrubá Borša, Park"},
+  {"id":3844518168,"lat":48.197795,"lon":17.458016,"k":"p","n":"Kráľová pri Senci, Výhon"},
+  {"id":3844518169,"lat":48.197941,"lon":17.458757,"k":"p","n":"Kráľová pri Senci, Výhon"},
+  {"id":3844518170,"lat":48.19749,"lon":17.451117,"k":"p","n":"Kráľová pri Senci, Kostol"},
+  {"id":3844518171,"lat":48.197595,"lon":17.450968,"k":"x","n":"Kráľová pri Senci, Kostol"},
+  {"id":3844518172,"lat":48.197704,"lon":17.450867,"k":"p","n":"Kráľová pri Senci, Kostol"},
+  {"id":3886227814,"lat":48.181742,"lon":17.482064,"k":"x","n":"Hrubá Borša, Park"},
+  {"id":3901556295,"lat":48.197448,"lon":17.450177,"k":"p","n":"Kráľová pri Senci, Kostol"},
+  {"id":8008867270,"lat":48.181114,"lon":17.494866,"k":"x","n":"Hrubá Borša, Golfová"},
+  {"id":8008867271,"lat":48.181178,"lon":17.494793,"k":"p","n":"Hrubá Borša, Golfová"},
+  {"id":8008867272,"lat":48.181102,"lon":17.496472,"k":"x","n":"Hrubá Borša, Golfová"},
+  {"id":8008867273,"lat":48.181039,"lon":17.496516,"k":"p","n":"Hrubá Borša, Golfová"},
+  {"id":9325006422,"lat":48.197451,"lon":17.450388,"k":"p","n":"Kráľová pri Senci, Kostol"}
+],
+"routes":[
+  {"id":5676333,"t":{"ref":"657","name":"Bus 657: Nový Svet => Senec","from":"Nový Svet","to":"Senec","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[3844518170,2],[3844518169,3],[3844518172,4]]},
+  {"id":5676334,"t":{"ref":"657","name":"Bus 657: Senec => Nový Svet","from":"Senec","to":"Nový Svet","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":10,"s":[[3844518170,7],[3844518168,8],[3844518172,9]]},
+  {"id":8508383,"t":{"ref":"659","name":"Bus 659: Jelka => Senec","from":"Jelka","to":"Senec","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":22,"s":[[8008867271,13],[3775336469,14],[3844518169,15],[3844518172,16]]},
+  {"id":8508385,"t":{"ref":"658","name":"Bus 658: Veľké Uľany => Senec","from":"Veľké Úľany","to":"Senec","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":23,"s":[[3775336469,15],[3844518169,16],[3844518172,17]]},
+  {"id":8508386,"t":{"ref":"659","name":"Bus 659: Senec => Jelka","from":"Senec","to":"Veľké Úľany","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":22,"s":[[3844518170,7],[3844518168,8],[3775336467,9],[8008867273,10]]},
+  {"id":8508388,"t":{"ref":"658","name":"Bus 658: Senec => Veľké Úľany","from":"Senec","to":"Veľké Úľany","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":23,"s":[[3844518170,7],[3844518168,8],[3775336467,9]]},
+  {"id":9093192,"t":{"ref":"609","name":"Bus 609: Jelka => Bratislava","from":"Jelka","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":23,"s":[[8008867271,13],[3775336469,14],[3844518169,15],[3844518172,16]]},
+  {"id":9093193,"t":{"ref":"609","name":"Bus 609: Bratislava => Jelka","from":"Bratislava","to":"Veľké Úľany","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":23,"s":[[3844518170,8],[3844518168,9],[3775336467,10],[8008867273,11]]},
+  {"id":14864811,"t":{"ref":"648","name":"Bus 648: Zlaté Klasy => Kráľová pri Senci => Senec","from":"Zlaté Klasy","to":"Senec","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":19,"s":[[9325006422,13]]},
+  {"id":14864813,"t":{"ref":"648","name":"Bus 648: Senec => Kráľová pri Senci => Zlaté Klasy","from":"Senec","to":"Zlaté Klasy","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":19,"s":[[3901556295,7]]}
+]
+}

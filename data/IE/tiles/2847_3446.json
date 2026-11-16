@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2847,3446],
+"stops":[
+  {"id":2133706740,"lat":52.360878,"lon":-7.699502,"k":"p","n":"Clonmel"},
+  {"id":7781885043,"lat":52.354978,"lon":-7.693356,"k":"p","n":"Clonmel (Army Barracks)","ref":"331901"},
+  {"id":7781885044,"lat":52.35504,"lon":-7.692729,"k":"p","n":"Clonmel Showgrounds","ref":"331911"},
+  {"id":9563239104,"lat":52.354906,"lon":-7.693362,"k":"x"},
+  {"id":11130735309,"lat":52.354908,"lon":-7.69325,"k":"p","n":"Clonmel Davis Road"},
+  {"id":12828477773,"lat":52.35353,"lon":-7.696563,"k":"p","n":"Parnell Street","ref":"11446"},
+  {"id":12828528844,"lat":52.353871,"lon":-7.697244,"k":"p","n":"Parnell Street","ref":"11447"},
+  {"id":12954391580,"lat":52.360929,"lon":-7.699483,"k":"p","n":"Rail Station"}
+],
+"routes":[
+  {"id":12726765,"t":{"ref":"717","name":"717 Dublin Airport - Clonmel","from":"Dublin Airport (Coach Park - Zone 16)","to":"Clonmel (Army Barracks)","operator":"J.J. Kavanagh","route":"bus","public_transport:version":"2"},"n":6,"s":[[11130735309,6]]},
+  {"id":13905051,"t":{"ref":"717","name":"717 Clonmel - Dublin Airport","from":"Clonmel (Army Barracks)","to":"Dublin Airport (Coach Park - Zone 16)","operator":"J.J. Kavanagh","route":"bus","public_transport:version":"2"},"n":4,"s":[[7781885043,1]]},
+  {"id":16221582,"t":{"ref":"255","to":"Waterford","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":6,"s":[[7781885043,6]]},
+  {"id":16221703,"t":{"ref":"355","from":"Waterford Bus Station","to":"Cahir","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":6,"s":[[7781885044,5],[2133706740,6]]},
+  {"id":20137415,"t":{"ref":"55","name":"55: Limerick -> Waterford -> Limerick (Bus Éireann)","from":"Limerick Bus Station","to":"Waterford Bus Station","network":"Expressway","operator":"Bus Éireann","route":"bus"},"n":16,"s":[[2133706740,2],[12954391580,3]]}
+]
+}

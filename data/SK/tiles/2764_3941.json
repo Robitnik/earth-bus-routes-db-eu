@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2764,3941],
+"stops":[
+  {"id":1494115123,"lat":48.249233,"lon":17.062401,"k":"p","n":"Marianka, Námestie"},
+  {"id":2524918720,"lat":48.201718,"lon":17.098444,"k":"p","n":"Lesopark","q":1},
+  {"id":2524918721,"lat":48.201718,"lon":17.098358,"k":"x","n":"Lesopark"},
+  {"id":2920926378,"lat":48.203554,"lon":17.073121,"k":"x","n":"Kačínska dolina"},
+  {"id":3023054344,"lat":48.24922,"lon":17.062307,"k":"x","n":"Marianka, Námestie"},
+  {"id":3593385124,"lat":48.203614,"lon":17.073099,"k":"p","n":"Kačínska dolina","q":1},
+  {"id":8573204145,"lat":48.203476,"lon":17.073177,"k":"p","n":"Kačínska dolina","q":1},
+  {"id":8573204146,"lat":48.214851,"lon":17.068483,"k":"x","n":"Kačín"},
+  {"id":8573204148,"lat":48.214869,"lon":17.068482,"k":"p","n":"Kačín","q":1}
+],
+"routes":[
+  {"id":131430,"t":{"ref":"43","name":"Bus 43: Patrónka => Lesopark","from":"Patrónka","to":"Lesopark","network":"MHD Bratislava","operator":"DPB","colour":"#898989","route":"bus","public_transport:version":"2"},"n":11,"s":[[2524918720,11]]},
+  {"id":3316161,"t":{"ref":"43","name":"Bus 43: Lesopark => Patrónka","from":"Lesopark","to":"Patrónka","network":"MHD Bratislava","operator":"DPB","colour":"#898989","route":"bus","public_transport:version":"2"},"n":11,"s":[[2524918720,1]]},
+  {"id":3967774,"t":{"ref":"215","name":"Bus 215: Bratislava => Marianka","from":"Bratislava","to":"Marianka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":10,"s":[[1494115123,10]]},
+  {"id":3967775,"t":{"ref":"215","name":"Bus 215: Marianka => Bratislava","from":"Marianka","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[1494115123,1]]},
+  {"id":5278871,"t":{"ref":"43","name":"Bus 43: Patrónka => Železná studnička => Kačín","from":"Patrónka","to":"Kačín","network":"MHD Bratislava","operator":"DPB","colour":"#898989","route":"bus","public_transport:version":"2"},"n":8,"s":[[3593385124,7],[8573204148,8]]},
+  {"id":12508060,"t":{"ref":"43","name":"Bus 43: Kačín => Železná studnička => Patrónka","from":"Kačín","to":"Patrónka","network":"MHD Bratislava","operator":"DPB","colour":"#898989","route":"bus","public_transport:version":"2"},"n":8,"s":[[8573204148,1],[8573204145,2]]},
+  {"id":14482056,"t":{"ref":"216","name":"Bus 216: Stupava => Marianka","from":"Stupava","to":"Marianka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":7,"s":[[1494115123,7]]},
+  {"id":16054679,"t":{"ref":"216","name":"Bus 216: Marianka => Stupava","from":"Marianka","to":"Stupava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":8,"s":[[1494115123,1]]},
+  {"id":21039449,"t":{"ref":"215","name":"Bus 215: Bratislava => Marianka (cez MiÚ ZB)","from":"Bratislava","to":"Marianka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[1494115123,11]]}
+]
+}

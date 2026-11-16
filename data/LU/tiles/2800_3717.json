@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"LU",
+"tile":[2800,3717],
+"stops":[
+  {"id":1374528753,"lat":50.04559,"lon":5.876625,"k":"x","n":"Troine-Route, Op der Strooss"},
+  {"id":1374528819,"lat":50.045566,"lon":5.876593,"k":"p","n":"Troine-Route, Op der Strooss"},
+  {"id":1693734185,"lat":50.016113,"lon":5.857645,"k":"p","n":"Oberwampach, Bréck"},
+  {"id":5770585120,"lat":50.016056,"lon":5.860866,"k":"x","n":"Oberwampach, Duerefstrooss Belzen"},
+  {"id":5770585122,"lat":50.01611,"lon":5.860851,"k":"p","n":"Oberwampach, Duerefstrooss Belzen"},
+  {"id":5770585123,"lat":50.015985,"lon":5.857528,"k":"p","n":"Oberwampach, Bréck"},
+  {"id":5773107726,"lat":50.009662,"lon":5.884568,"k":"p","n":"Derenbach, Groëstaen"},
+  {"id":5773107729,"lat":50.035502,"lon":5.870229,"k":"p","n":"Allerborn, Duerefstrooss"},
+  {"id":5773107730,"lat":50.034587,"lon":5.872489,"k":"p","n":"Allerborn, Kräizung"},
+  {"id":5773107731,"lat":50.036291,"lon":5.877989,"k":"p","n":"Allerborn, Bläiminnestrooss"},
+  {"id":5773107732,"lat":50.036182,"lon":5.877975,"k":"p","n":"Allerborn, Bläiminnestrooss"},
+  {"id":5773107733,"lat":50.036137,"lon":5.886521,"k":"p","n":"Allerborn, Féitsch"},
+  {"id":5773107734,"lat":50.036114,"lon":5.88666,"k":"p","n":"Allerborn, Féitsch"},
+  {"id":5773107735,"lat":50.011457,"lon":5.883356,"k":"p","n":"Derenbach, Chapelle"},
+  {"id":5773107736,"lat":50.011212,"lon":5.88364,"k":"p","n":"Derenbach, Chapelle"},
+  {"id":5773107737,"lat":50.00944,"lon":5.894329,"k":"p","n":"Derenbach, Weischent"},
+  {"id":5783796046,"lat":50.04488,"lon":5.896413,"k":"p","n":"Hamiville, Beim Toutschewee"},
+  {"id":5783856158,"lat":50.014544,"lon":5.888973,"k":"p","n":"Derenbach, Bei der Kirich"},
+  {"id":9369637279,"lat":50.01108,"lon":5.884776,"k":"p","n":"Derenbach, Am Dueref","ref":"629"},
+  {"id":10241826727,"lat":50.014554,"lon":5.883398,"k":"p","n":"Derenbach, Beim Wämperwee"},
+  {"id":11382361484,"lat":50.01477,"lon":5.883318,"k":"p","n":"Derenbach, Beim Wämperwee"},
+  {"id":11382361485,"lat":50.014651,"lon":5.888776,"k":"p","n":"Derenbach, Bei der Kirich"},
+  {"id":12492784204,"lat":50.009772,"lon":5.887729,"k":"p","n":"Derenbach, Groëstaen"}
+],
+"routes":[
+  {"id":8461769,"t":{"ref":"142","name":"RGTR 142: Oberwampach, Belzen => Wiltz, Lycée du Nord","from":"Oberwampach, Belzen","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":11,"s":[[5770585122,1],[1693734185,2]]},
+  {"id":8461770,"t":{"ref":"142","name":"RGTR 142: Wiltz, Lycée du Nord => Oberwampach, Belzen","from":"Wiltz, Lycée du Nord","to":"Oberwampach, Belzen","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":11,"s":[[5770585123,10],[5770585122,11]]},
+  {"id":8463484,"t":{"ref":"176","name":"RGTR 176: Troisvierges, Gare => Troine-Route, Op der Strooss","from":"Troisvierges, Gare","to":"Troine-Route, Op der Strooss","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":17,"s":[[1374528819,17]]},
+  {"id":8463485,"t":{"ref":"176","name":"RGTR 176: Troine-Route, Op der Strooss => Troisvierges, Gare","from":"Troine-Route, Op der Strooss","to":"Troisvierges, Gare","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":17,"s":[[1374528819,1]]},
+  {"id":8475400,"t":{"ref":"140","name":"RGTR 140: Troisvierges, Gare => Wiltz, Lycée du Nord","from":"Troisvierges, Gare","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":19,"s":[[5783796046,9],[5773107733,10],[11382361484,11],[5773107735,12]]},
+  {"id":8475401,"t":{"ref":"140","name":"RGTR 140: Wiltz, Lycée du Nord => Troisvierges, Gare","from":"Wiltz, Lycée du Nord","to":"Troisvierges, Gare","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":22,"s":[[5773107736,10],[10241826727,11],[5773107734,12],[5783796046,13]]},
+  {"id":8475433,"t":{"ref":"151","name":"RGTR 151: Niederwampach, A Beetel => Wincrange, Centre Médical","from":"Niederwampach, A Beetel","to":"Wincrange, Centre Médical","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":17,"s":[[5770585123,3],[5770585122,4],[11382361484,5],[5773107735,6],[5783856158,7],[11382361485,10],[5773107736,11],[10241826727,12],[5773107734,13],[5783796046,14]]},
+  {"id":8475434,"t":{"ref":"151","name":"RGTR 151: Wincrange, Centre Médical => Niederwampach, A Beetel","from":"Wincrange, Centre Médical","to":"Niederwampach, A Beetel","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":16,"s":[[5783796046,4],[5773107733,5],[11382361484,6],[5773107735,7],[5783856158,8],[11382361485,11],[5773107736,12],[5770585122,13],[1693734185,14]]},
+  {"id":8545340,"t":{"ref":"161","name":"RGTR 161: Marnach, Geschäftszenter => Pommerloch, Theis","from":"Marnach, Geschäftszenter","to":"Pommerloch, Theis","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":30,"s":[[5783796046,20],[5773107731,21],[5773107729,22],[5773107730,23],[5773107733,24],[11382361484,25],[5773107735,26]]},
+  {"id":8545341,"t":{"ref":"161","name":"RGTR 161: Pommerloch, Theis => Marnach, Geschäftszenter","from":"Pommerloch, Theis","to":"Marnach, Geschäftszenter","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":29,"s":[[5773107736,4],[10241826727,5],[5773107734,6],[5773107731,7],[5773107730,8],[5773107729,9],[5783796046,10]]}
+]
+}

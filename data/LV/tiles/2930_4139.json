@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2930,4139],
+"stops":[
+  {"id":530819808,"lat":56.529598,"lon":26.95407,"k":"p","n":"Podlizovka"},
+  {"id":530819814,"lat":56.529856,"lon":26.951492,"k":"p","n":"Podlizovka"},
+  {"id":530819824,"lat":56.520552,"lon":26.970333,"k":"p","n":"Murāni"},
+  {"id":530819829,"lat":56.521202,"lon":26.969959,"k":"p","n":"Murāni"},
+  {"id":11603564252,"lat":56.517266,"lon":26.981685,"k":"p","n":"Strupļi"},
+  {"id":11603564253,"lat":56.517669,"lon":26.981079,"k":"x"},
+  {"id":11603564254,"lat":56.517717,"lon":26.98116,"k":"p","n":"Strupļi"},
+  {"id":11887563624,"lat":56.517302,"lon":26.981751,"k":"x"}
+],
+"routes":[
+  {"id":19558456,"t":{"ref":"5135","name":"bus 5135: Strupļi => Viļāni => Ančupāni => Rēzekne","from":"Strupļi","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":9,"s":[[11603564254,1]]},
+  {"id":19558457,"t":{"ref":"5135","name":"bus 5135: Rēzekne => Ančupāni => Viļāni => Strupļi","from":"Rēzekne","to":"Strupļi","route":"bus","public_transport:version":"2"},"n":9,"s":[[11603564252,9]]},
+  {"id":19565719,"t":{"ref":"5136","name":"bus 5136: Rēzekne => Malta => Ružina => Viļāni => Rēzekne","from":"Rēzekne","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":26,"s":[[11603564254,14],[530819829,15],[530819814,16]]},
+  {"id":19565732,"t":{"ref":"5136","name":"bus 5136: Malta => Ružina => Viļāni => Rēzekne","from":"Malta","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":21,"s":[[11603564254,10],[530819829,11],[530819814,12]]},
+  {"id":19565733,"t":{"ref":"5136","name":"bus 5136: Rēzekne => Viļāni => Ružina => Malta => Rēzekne","from":"Rēzekne","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":26,"s":[[530819808,11],[530819824,12],[11603564254,13]]},
+  {"id":19565736,"t":{"ref":"5136","name":"bus 5136: Rēzekne => Viļāni => Ružina => Malta","from":"Rēzekne","to":"Malta","route":"bus","public_transport:version":"2"},"n":21,"s":[[530819808,10],[530819824,11],[11603564254,12]]},
+  {"id":19755369,"t":{"ref":"6530","name":"6530 Viļāni – Strupļi – Ciskādi – Rēzekne","from":"Viļānu AO","to":"Rēzeknes AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":12,"s":[[530819808,2],[530819824,3],[11603564252,4]]},
+  {"id":19755380,"t":{"ref":"6530","name":"6530 Viļāni – Strupļi – Deneliški – Rēzekne","from":"Viļānu AO","to":"Rēzeknes AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":13,"s":[[530819808,2],[530819824,3],[11603564252,4]]},
+  {"id":19755381,"t":{"ref":"6530","name":"6530 Rēzekne – Deneliški – Strupļi – Viļāni","from":"Rēzeknes AO","to":"Viļānu AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":13,"s":[[11603564254,10],[530819829,11],[530819814,12]]},
+  {"id":19755392,"t":{"ref":"6530","name":"6530 Rēzekne – Ciskādi – Strupļi – Viļāni","from":"Rēzeknes AO","to":"Viļānu AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":12,"s":[[11603564254,9],[530819829,10],[530819814,11]]}
+]
+}

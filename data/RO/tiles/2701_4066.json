@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2701,4066],
+"stops":[
+  {"id":448885855,"lat":45.07013,"lon":23.308562,"k":"p","n":"Artego"},
+  {"id":1893015927,"lat":45.06995,"lon":23.308585,"k":"p","n":"Artego"},
+  {"id":2287808208,"lat":45.075341,"lon":23.300836,"k":"x","n":"Pod Turcinești"},
+  {"id":2549811937,"lat":45.066645,"lon":23.338298,"k":"x","n":"Preajba"},
+  {"id":2549832431,"lat":45.067641,"lon":23.346608,"k":"x","n":"Intersecție Aviatorilor"},
+  {"id":2561761039,"lat":45.070036,"lon":23.308574,"k":"x","n":"Artego"},
+  {"id":3090658662,"lat":45.074263,"lon":23.345365,"k":"x","n":"Preajba Capăt Linie"},
+  {"id":9928434941,"lat":45.075364,"lon":23.300872,"k":"p","n":"Pod Turcinești"},
+  {"id":9928512370,"lat":45.066631,"lon":23.338396,"k":"p","n":"Preajba"},
+  {"id":9928512371,"lat":45.06669,"lon":23.338236,"k":"p","n":"Preajba"},
+  {"id":9928512372,"lat":45.067626,"lon":23.346645,"k":"p","n":"Intersecție Aviatorilor"},
+  {"id":9928512373,"lat":45.067705,"lon":23.346558,"k":"p","n":"Intersecție Aviatorilor"},
+  {"id":9928512374,"lat":45.074232,"lon":23.345298,"k":"p","n":"Preajba Capăt Linie"}
+],
+"routes":[
+  {"id":14416180,"t":{"ref":"1","name":"Bus 1: Artego => 9 Mai","from":"Artego","to":"9 Mai","operator":"Transloc SA","route":"trolleybus","public_transport:version":"2"},"n":14,"s":[[448885855,1],[9928434941,2]]},
+  {"id":14416181,"t":{"ref":"1","name":"Bus 1: 9 Mai => Artego","from":"9 Mai","to":"Artego","operator":"Transloc SA","route":"trolleybus","public_transport:version":"2"},"n":14,"s":[[1893015927,14]]},
+  {"id":14416215,"t":{"ref":"8","name":"Bus 8: ANL => Dedeman","from":"ANL","to":"Dedeman","operator":"Transloc SA","route":"bus","public_transport:version":"2"},"n":16,"s":[[448885855,2],[9928434941,3]]},
+  {"id":14416216,"t":{"ref":"8","name":"Bus 8: Dedeman => ANL","from":"Dedeman","to":"ANL","operator":"Transloc SA","route":"bus","public_transport:version":"2"},"n":18,"s":[[1893015927,17]]},
+  {"id":14416258,"t":{"ref":"7","name":"Bus 7: Românești => Preajba","from":"Românești Capăt Linie","to":"Preajba Capăt Linie","operator":"Transloc SA","route":"bus","public_transport:version":"2"},"n":23,"s":[[1893015927,20],[9928512370,21],[9928512372,22],[9928512374,23]]},
+  {"id":14416259,"t":{"ref":"7","name":"Bus 7: Preajba => Românești","from":"Preajba Capăt Linie","to":"Românești Capăt Linie","operator":"Transloc SA","route":"bus","public_transport:version":"2"},"n":21,"s":[[9928512374,1],[9928512373,2],[9928512371,3],[448885855,4],[9928434941,5]]}
+]
+}

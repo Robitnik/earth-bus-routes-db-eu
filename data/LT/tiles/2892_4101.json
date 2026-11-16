@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2892,4101],
+"stops":[
+  {"id":445169216,"lat":54.646123,"lon":25.098643,"k":"p","n":"Bališkės"},
+  {"id":2350878010,"lat":54.619508,"lon":25.068301,"k":"p","n":"Lentvario kryžkelė"},
+  {"id":2350878014,"lat":54.620019,"lon":25.064913,"k":"p","n":"Lentvario kryžkelė"},
+  {"id":2510614954,"lat":54.619741,"lon":25.090498,"k":"p","n":"Dobūklė"},
+  {"id":2510614982,"lat":54.619805,"lon":25.089535,"k":"p","n":"Dobūklė"},
+  {"id":3606877780,"lat":54.64627,"lon":25.099529,"k":"p","n":"Bališkės"},
+  {"id":3606877788,"lat":54.645051,"lon":25.055001,"k":"p","n":"Lentvaris"},
+  {"id":3606878394,"lat":54.643953,"lon":25.090299,"k":"p","n":"Stasio Krasausko st."},
+  {"id":3606878395,"lat":54.644443,"lon":25.091279,"k":"p","n":"Stasio Krasausko st."},
+  {"id":3606878401,"lat":54.644276,"lon":25.06487,"k":"p","n":"1-asis Lentvaris"},
+  {"id":3606878402,"lat":54.644359,"lon":25.065515,"k":"p","n":"1-asis Lentvaris"},
+  {"id":3805325311,"lat":54.607522,"lon":25.085603,"k":"p","n":"Dobrovolė"},
+  {"id":3805325317,"lat":54.608788,"lon":25.087078,"k":"p","n":"Dobrovolė"},
+  {"id":7418934228,"lat":54.638125,"lon":25.056545,"k":"p","n":"„Lenstata“"},
+  {"id":7418934229,"lat":54.639486,"lon":25.055996,"k":"p","n":"„Lenstata“"},
+  {"id":8592916642,"lat":54.643898,"lon":25.078536,"k":"p","n":"Mačiuliškių st."},
+  {"id":8592916643,"lat":54.643683,"lon":25.080529,"k":"p","n":"Mačiuliškių st."},
+  {"id":9275274619,"lat":54.645121,"lon":25.053555,"k":"p","n":"Lentvaris"},
+  {"id":12382209856,"lat":54.625804,"lon":25.066904,"k":"p","n":"Fabriko st."},
+  {"id":13380760098,"lat":54.633609,"lon":25.058811,"k":"p"}
+],
+"routes":[
+  {"id":5301798,"t":{"ref":"68","name":"Bus 68: Lazdynai => Grigiškės","from":"Lazdynai","to":"Grigiškių žiedas","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":21,"s":[[445169216,11],[3606878394,12],[8592916642,13],[3606878402,14],[9275274619,15]]},
+  {"id":5301799,"t":{"ref":"68","name":"Bus 68: Grigiškės => Lazdynai","from":"Grigiškių žiedas","to":"Lazdynai","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":25,"s":[[3606877788,8],[3606878401,9],[8592916643,10],[3606878395,11],[3606877780,12]]},
+  {"id":18344548,"t":{"ref":"51","name":"Bus 51: Fabriko g. => Žemieji Paneriai","from":"Fabriko st.","to":"Vaduvos st.","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":11,"s":[[12382209856,1],[2350878010,2],[2510614954,3]]},
+  {"id":18344549,"t":{"ref":"51","name":"Bus 51: Žemieji Paneriai => Fabriko g.","from":"Vaduvos st.","to":"Fabriko st.","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":11,"s":[[2510614982,10],[12382209856,11]]},
+  {"id":18697384,"t":{"ref":"239","name":"Bus 239: Šventininkai => Žemieji Paneriai","from":"2-ieji Šventininkai","to":"Vaduvos st.","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3805325317,3]]},
+  {"id":18697385,"t":{"ref":"239","name":"Bus 239: Šventininkai => Lygainiai => Žemieji Paneriai","from":"2-ieji Šventininkai","to":"Vaduvos st.","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805325317,7]]},
+  {"id":18697386,"t":{"ref":"239","name":"Bus 239: Žemieji Paneriai => Šventininkai","from":"Vaduvos st.","to":"2-ieji Šventininkai","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3805325311,4]]},
+  {"id":18697387,"t":{"ref":"239","name":"Bus 239: Žemieji Paneriai => Lygainiai => Šventininkai","from":"Vaduvos st.","to":"2-ieji Šventininkai","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805325311,4]]},
+  {"id":18727411,"t":{"ref":"279","name":"Bus 279: Vilnius => Trakai","from":"Vilniaus autobusų stotis","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":16,"s":[[2510614982,12],[2350878014,13]]},
+  {"id":18727412,"t":{"ref":"279","name":"Bus 279: Trakai => Vilnius","from":"Trakų autobusų stotis","to":"Vilniaus autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":16,"s":[[2350878010,4],[2510614954,5]]},
+  {"id":18727413,"t":{"ref":"300","name":"Bus 300: Vilnius => Lentvaris","from":"Vilniaus autobusų stotis","to":"Vilties g.","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":16,"s":[[2510614982,12],[7418934229,13]]},
+  {"id":18727414,"t":{"ref":"300","name":"Bus 300: Lentvaris => Vilnius","from":"Vilties g.","to":"Vilniaus autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":17,"s":[[7418934228,4],[2350878010,5],[2510614954,6]]},
+  {"id":18727415,"t":{"ref":"299","name":"Bus 299: Vilnius => Trakai","from":"Vilniaus autobusų stotis","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":23,"s":[[2510614982,12],[7418934229,13]]},
+  {"id":18727416,"t":{"ref":"299","name":"Bus 299: Trakai => Vilnius","from":"Trakų autobusų stotis","to":"Vilniaus autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":25,"s":[[7418934228,12],[2350878010,13],[2510614954,14]]}
+]
+}

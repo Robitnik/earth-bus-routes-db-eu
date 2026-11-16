@@ -1,0 +1,18 @@
+{
+"v":1,
+"cc":"GR",
+"tile":[2538,4119],
+"stops":[
+  {"id":1308916498,"lat":36.916762,"lon":25.983659,"k":"p","n":"THOLARIA"},
+  {"id":9891888417,"lat":36.901178,"lon":25.975797,"k":"p","n":"AEGIALI"},
+  {"id":12041499670,"lat":36.906297,"lon":25.999335,"k":"p","n":"LAGADA"}
+],
+"routes":[
+  {"id":17815265,"t":{"name":"KATAPOLA → AEGIALI","from":"KATAPOLA","to":"AEGIALI","network":"KTEL Amorgos","operator":"Amorgos Bus Company","route":"bus","public_transport:version":"2"},"n":4,"s":[[9891888417,4]]},
+  {"id":17815266,"t":{"name":"AEGIALI → KATAPOLA","from":"AEGIALI","to":"KATAPOLA","network":"KTEL Amorgos","operator":"Amorgos Bus Company","route":"bus","public_transport:version":"2"},"n":4,"s":[[9891888417,1]]},
+  {"id":17815606,"t":{"name":"AEGIALI → THOLARIA","from":"AEGIALI","to":"THOLARIA","network":"KTEL Amorgos","operator":"Amorgos Bus Company","route":"bus","public_transport:version":"2"},"n":2,"s":[[9891888417,1],[1308916498,2]]},
+  {"id":17815607,"t":{"name":"THOLARIA → AEGIALI","from":"THOLARIA","to":"AEGIALI","network":"KTEL Amorgos","operator":"Amorgos Bus Company","route":"bus","public_transport:version":"2"},"n":2,"s":[[1308916498,1],[9891888417,2]]},
+  {"id":17815624,"t":{"name":"AEGIALI → LAGADA","from":"AEGIALI","to":"LAGADA","network":"KTEL Amorgos","operator":"Amorgos Bus Company","route":"bus","public_transport:version":"2"},"n":2,"s":[[9891888417,1],[12041499670,2]]},
+  {"id":17815625,"t":{"name":"LAGADA → AEGIALI","from":"LAGADA","to":"AEGIALI","network":"KTEL Amorgos","operator":"Amorgos Bus Company","route":"bus","public_transport:version":"2"},"n":2,"s":[[12041499670,1],[9891888417,2]]}
+]
+}

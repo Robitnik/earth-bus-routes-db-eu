@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2870,3469],
+"stops":[
+  {"id":474580706,"lat":53.512433,"lon":-6.539319,"k":"p","n":"Dunshaughlin","ref":"104651"},
+  {"id":474581524,"lat":53.513367,"lon":-6.540086,"k":"p","n":"Dunshaughlin","ref":"133381"},
+  {"id":1489205398,"lat":53.512924,"lon":-6.538874,"k":"p","n":"Dunshaughlin","ref":"105601"},
+  {"id":3055061731,"lat":53.505743,"lon":-6.539958,"k":"p","n":"Seachnall Abbey","ref":"101341"},
+  {"id":6010348874,"lat":53.516772,"lon":-6.544693,"k":"p","n":"Grange Hall","ref":"133151"},
+  {"id":6010348875,"lat":53.517561,"lon":-6.545441,"k":"p","n":"Grange Hall","ref":"105591"},
+  {"id":8147467846,"lat":53.505906,"lon":-6.53976,"k":"p","n":"Seachnall Abbey","ref":"101871"},
+  {"id":9470175053,"lat":53.502247,"lon":-6.535495,"k":"p","n":"The Willows","ref":"133371"},
+  {"id":9470175055,"lat":53.502625,"lon":-6.535812,"k":"p","n":"The Willows","ref":"104631"},
+  {"id":10547890554,"lat":53.514407,"lon":-6.543105,"k":"p"}
+],
+"routes":[
+  {"id":11914310,"t":{"ref":"109","name":"Bus 109: Dublin → Kells","from":"Dublin","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":40,"s":[[9470175053,17],[3055061731,18],[474581524,19],[6010348874,20]]},
+  {"id":11917881,"t":{"ref":"109","name":"Bus 109: Kells → Dublin","from":"Kells","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[6010348875,19],[474580706,20],[8147467846,21],[9470175055,22]]},
+  {"id":11918173,"t":{"ref":"109B","name":"Bus 109B: Dublin → Athboy","from":"Dublin","to":"Athboy","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":34,"s":[[9470175053,17],[3055061731,18],[474581524,19],[6010348874,20]]},
+  {"id":11918267,"t":{"ref":"109B","name":"Bus 109B: Athboy → Dublin (Merrion Row)","from":"Athboy","to":"Dublin (Merrion Row)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":32,"s":[[6010348875,14],[474580706,15],[8147467846,16],[9470175055,17]]},
+  {"id":11918268,"t":{"ref":"109B","name":"Bus 109B: Athboy → Dublin (Busáras)","from":"Athboy","to":"Dublin (Busáras)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":32,"s":[[6010348875,14],[474580706,15],[8147467846,16],[9470175055,17]]},
+  {"id":21071275,"t":{"ref":"109","name":"Bus 109: Kells → Dublin (UCD)","from":"Kells","to":"Dublin (UCD)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":38,"s":[[6010348875,19],[474580706,20],[8147467846,21],[9470175055,22]]},
+  {"id":21071276,"t":{"ref":"109","name":"Bus 109: Dublin → Virginia","from":"Dublin","to":"Virginia","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":46,"s":[[9470175053,17],[3055061731,18],[474581524,19],[6010348874,20]]},
+  {"id":21071277,"t":{"ref":"109","name":"Bus 109: Dublin (Mountjoy) → Kells","from":"Dublin (Mountjoy)","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[9470175053,16],[3055061731,17],[474581524,18],[6010348874,19]]},
+  {"id":21071278,"t":{"ref":"109","name":"Bus 109: Dunshaughlin → Dublin","from":"Dunshaughlin","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":18,"s":[[474580706,1],[8147467846,2],[9470175055,3]]},
+  {"id":21071279,"t":{"ref":"109","name":"Bus 109: Dublin → Dunshaughlin","from":"Dublin","to":"Dunshaughlin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":19,"s":[[9470175053,17],[3055061731,18],[474581524,19]]},
+  {"id":21074938,"t":{"ref":"109A","name":"Bus 109A: Dublin → Kells","from":"Dublin Airport","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":42,"s":[[474581524,23],[6010348874,24]]},
+  {"id":21074939,"t":{"ref":"109A","name":"Bus 109A: Kells → Dublin","from":"Kells","to":"Dublin Airport","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":44,"s":[[6010348875,19],[1489205398,20]]},
+  {"id":21074940,"t":{"ref":"109A","name":"Bus 109A: Kells → Dublin Airport","from":"Kells","to":"Dublin Airport","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":39,"s":[[6010348875,19],[1489205398,20]]},
+  {"id":21074941,"t":{"ref":"109A","name":"Bus 109A: Dublin Airport → Kells","from":"Dublin Airport","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":39,"s":[[474581524,20],[6010348874,21]]},
+  {"id":21242193,"t":{"ref":"109D","name":"Bus 109D: Trim → DCU","from":"Trim","to":"DCU","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":15,"s":[[1489205398,2]]},
+  {"id":21242194,"t":{"ref":"109D","name":"Bus 109D: DCU → Trim","from":"DCU","to":"Trim","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":15,"s":[[474581524,14]]}
+]
+}

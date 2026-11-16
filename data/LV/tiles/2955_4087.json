@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2955,4087],
+"stops":[
+  {"id":658836974,"lat":57.756928,"lon":24.362331,"k":"p","n":"Salacgrīva"},
+  {"id":1618386815,"lat":57.79412,"lon":24.351158,"k":"p","n":"Kuiviži"},
+  {"id":1836363316,"lat":57.79296,"lon":24.351488,"k":"p","n":"Kuiviži"},
+  {"id":3503143217,"lat":57.784631,"lon":24.354846,"k":"p","n":"Dārzniecība"},
+  {"id":3503143221,"lat":57.750818,"lon":24.357954,"k":"p","n":"Katoļu baznīca"},
+  {"id":3503143222,"lat":57.751152,"lon":24.358247,"k":"p","n":"Katoļu baznīca"},
+  {"id":3583786095,"lat":57.754937,"lon":24.388315,"k":"p"},
+  {"id":3583786098,"lat":57.755049,"lon":24.373324,"k":"p"},
+  {"id":3583786099,"lat":57.755074,"lon":24.387581,"k":"p"},
+  {"id":3583786101,"lat":57.755186,"lon":24.372543,"k":"p"},
+  {"id":9959269851,"lat":57.783504,"lon":24.354506,"k":"p","n":"Dārzniecība"},
+  {"id":12674252532,"lat":57.794104,"lon":24.351035,"k":"x","n":"Kuiviži"},
+  {"id":12674252533,"lat":57.756848,"lon":24.362406,"k":"x","n":"Salacgrīva"},
+  {"id":12840589353,"lat":57.751143,"lon":24.358135,"k":"x","n":"Katoļu baznīca"},
+  {"id":12840589381,"lat":57.750825,"lon":24.358069,"k":"x","n":"Katoļu baznīca"},
+  {"id":12840589382,"lat":57.792985,"lon":24.35163,"k":"x","n":"Kuiviži"},
+  {"id":12899137110,"lat":57.765571,"lon":24.356146,"k":"x","n":"Vidusskola"},
+  {"id":12899137111,"lat":57.765568,"lon":24.356005,"k":"p","n":"Vidusskola"},
+  {"id":12899137170,"lat":57.767586,"lon":24.355957,"k":"x","n":"Vidusskola"},
+  {"id":12899137171,"lat":57.76759,"lon":24.356119,"k":"p","n":"Vidusskola"}
+],
+"routes":[
+  {"id":18851669,"t":{"ref":"5066","name":"bus 5066: Salacgrīva => Ainaži => Staicele","from":"Salacgrīva","to":"Staicele","route":"bus","public_transport:version":"2"},"n":10,"s":[[658836974,1],[1618386815,2]]},
+  {"id":19135208,"t":{"ref":"5078","name":"bus 5078: Limbaži => Mežmaļi => Ķirbiži => Salacgrīva","from":"Limbaži","to":"Salacgrīva","route":"bus","public_transport:version":"2"},"n":13,"s":[[3503143222,12],[658836974,13]]},
+  {"id":19135222,"t":{"ref":"5078","name":"bus 5078: Ainaži => Salacgrīva => Ķirbiži => Mežmaļi => Limbaži","from":"Ainaži","to":"Limbaži","route":"bus","public_transport:version":"2"},"n":15,"s":[[1836363316,2],[658836974,3],[3503143221,4]]},
+  {"id":19138975,"t":{"ref":"5178","name":"bus 5178: Limbaži => Radziņi => Ķirbiži => Salacgrīva","from":"Limbaži","to":"Salacgrīva","route":"bus","public_transport:version":"2"},"n":12,"s":[[3503143222,11],[658836974,12]]},
+  {"id":19138981,"t":{"ref":"5178","name":"bus 5178: Ainaži => Salacgrīva => Ķirbiži => Radziņi => Limbaži","from":"Ainaži","to":"Limbaži","route":"bus","public_transport:version":"2"},"n":14,"s":[[1836363316,2],[658836974,3],[3503143221,4]]},
+  {"id":19229386,"t":{"ref":"6684","name":"bus 6684: Salacgrīva => Svētciems => Vecsalaca => Maurīši => Pāle => Viļķene => Limbaži","from":"Salacgrīva","to":"Limbaži","route":"bus","public_transport:version":"2"},"n":22,"s":[[12899137111,1],[658836974,2],[3503143221,3]]},
+  {"id":19229397,"t":{"ref":"6684","name":"bus 6684: Salacgrīva => Korģene => Pāle => Viļķene => Radziņi => Limbaži","from":"Salacgrīva","to":"Limbaži","route":"bus","public_transport:version":"2"},"n":16,"s":[[658836974,1]]},
+  {"id":19229402,"t":{"ref":"6684","name":"bus 6684: Limbaži => Viļķene => Pāle => Maurīši => Vecsalaca => Svētciems => Salacgrīva","from":"Limbaži","to":"Salacgrīva","route":"bus","public_transport:version":"2"},"n":21,"s":[[3503143222,20],[658836974,21]]},
+  {"id":19229404,"t":{"ref":"6684","name":"bus 6684: Limbaži => Radziņi => Viļķene => Pāle => Korģene => Salacgrīva => Vidusskola","from":"Limbaži","to":"Vidusskola","route":"bus","public_transport:version":"2"},"n":17,"s":[[658836974,16],[12899137171,17]]},
+  {"id":19229416,"t":{"ref":"6684","name":"bus 6684: Limbaži => Radziņi => Viļķene => Pāle => Korģene => Salacgrīva","from":"Limbaži","to":"Salacgrīva","route":"bus","public_transport:version":"2"},"n":16,"s":[[658836974,16]]},
+  {"id":21251730,"t":{"ref":"E7","name":"Bus E7: Salacgrīva - Ainaži","from":"Salacgrīva","to":"Ainaži","operator":"MK Autobuss","route":"bus","public_transport:version":"2"},"n":9,"s":[[658836974,1],[12899137171,2],[3503143217,3],[1618386815,4]]},
+  {"id":21251731,"t":{"ref":"E7","name":"Bus E7: Ainaži - Salacgrīva","from":"Ainaži","to":"Salacgrīva","operator":"MK Autobuss","route":"bus","public_transport:version":"2"},"n":9,"s":[[658836974,1],[12899137111,2],[9959269851,3],[1836363316,4]]}
+]
+}

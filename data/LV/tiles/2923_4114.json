@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2923,4114],
+"stops":[
+  {"id":2363298004,"lat":56.161928,"lon":25.74167,"k":"p","n":"Baznīca"},
+  {"id":6367541444,"lat":56.173482,"lon":25.708691,"k":"p"},
+  {"id":6367541445,"lat":56.172812,"lon":25.710077,"k":"p"},
+  {"id":8541031798,"lat":56.160699,"lon":25.748983,"k":"p","n":"Aknīste"},
+  {"id":10989788759,"lat":56.162477,"lon":25.740397,"k":"p","n":"Baznīca"},
+  {"id":13058588209,"lat":56.162536,"lon":25.740486,"k":"x","n":"Baznīca"},
+  {"id":13075020587,"lat":56.16188,"lon":25.741548,"k":"x","n":"Baznīca"}
+],
+"routes":[
+  {"id":19429700,"t":{"ref":"6929","name":"bus 6929: Gārsene => Aknīste","from":"Gārsene","to":"Aknīste","route":"bus","public_transport:version":"2"},"n":4,"s":[[8541031798,4]]},
+  {"id":19429704,"t":{"ref":"6929","name":"bus 6929: Aknīste => Gārsene","from":"Aknīste","to":"Gārsene","route":"bus","public_transport:version":"2"},"n":4,"s":[[8541031798,1]]},
+  {"id":19441698,"t":{"ref":"6930","name":"bus 6930: Gārsene => Grāvlejas => Jēkabpils","from":"Gārsene","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":23,"s":[[8541031798,5,7],[10989788759,6]]},
+  {"id":19441710,"t":{"ref":"6930","name":"bus 6930: Jēkabpils => Grāvlejas => Gārsene","from":"Jēkabpils","to":"Gārsene","route":"bus","public_transport:version":"2"},"n":20,"s":[[8541031798,17]]},
+  {"id":19444614,"t":{"ref":"6931","name":"bus 6931: Gārsene => Viesīte => Jēkabpils","from":"Gārsene","to":"Jēkabpils","operator":"SIA Tukuma auto","route":"bus","public_transport:version":"2"},"n":22,"s":[[8541031798,4]]},
+  {"id":19454694,"t":{"ref":"6941","name":"bus 6941: Aknīste => Viesīte => Jēkabpils","from":"Aknīste","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":19,"s":[[8541031798,1]]},
+  {"id":19454701,"t":{"ref":"6941","name":"bus 6941: Jēkabpils => Viesīte => Aknīste","from":"Jēkabpils","to":"Aknīste","route":"bus","public_transport:version":"2"},"n":19,"s":[[8541031798,19]]},
+  {"id":19469426,"t":{"ref":"6942","name":"bus 6942: Aknīste => Rubeņi => Zasa => Jēkabpils","from":"Aknīste","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":25,"s":[[8541031798,1]]},
+  {"id":19469431,"t":{"ref":"6942","name":"bus 6942: Aknīste => Rubeņi => Zasa => Jēkabpils","from":"Aknīste","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":26,"s":[[10989788759,1],[8541031798,2]]},
+  {"id":19469432,"t":{"ref":"6942","name":"bus 6942: Jēkabpils => Zasa => Rubeņi => Aknīste","from":"Jēkabpils","to":"Aknīste","route":"bus","public_transport:version":"2"},"n":26,"s":[[8541031798,26]]},
+  {"id":19469447,"t":{"ref":"6942","name":"bus 6942: Jēkabpils => Zasa => Rubeņi => Aknīste","from":"Jēkabpils","to":"Aknīste","route":"bus","public_transport:version":"2"},"n":26,"s":[[8541031798,25],[2363298004,26]]},
+  {"id":19884911,"t":{"ref":"5505","name":"5505 Daugavpils – Ilūkste – Subate – Gārsene – Aknīste","from":"Daugavpils AO","to":"Aknīste","network":"ATD","operator":"SIA Daugavpils autobusu parks","route":"bus","public_transport:version":"2"},"n":26,"s":[[8541031798,26]]},
+  {"id":21222196,"t":{"ref":"5505","name":"5505 Aknīste – Gārsene – Subate – Ilūkste – Daugavpils","from":"Aknīste","to":"Daugavpils AO","network":"ATD","operator":"SIA Daugavpils autobusu parks","route":"bus","public_transport:version":"2"},"n":26,"s":[[8541031798,1]]}
+]
+}

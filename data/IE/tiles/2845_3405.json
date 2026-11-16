@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2845,3405],
+"stops":[
+  {"id":2437379784,"lat":52.266948,"lon":-9.709674,"k":"p","n":"Brandon Carpark Request Bus Stop"},
+  {"id":2522768302,"lat":52.268012,"lon":-9.707259,"k":"p","n":"Tesco Square"},
+  {"id":2557333702,"lat":52.269438,"lon":-9.70502,"k":"p","n":"The Mall"},
+  {"id":2563943730,"lat":52.27662,"lon":-9.718037,"k":"p"},
+  {"id":5081346559,"lat":52.268045,"lon":-9.707246,"k":"x","n":"Tesco Square"},
+  {"id":10921495218,"lat":52.266828,"lon":-9.706416,"k":"p","n":"Bus Stop 11011, Tralee, Denny Street","ref":"11011"},
+  {"id":12309784913,"lat":52.265766,"lon":-9.710587,"k":"p"},
+  {"id":12309784914,"lat":52.265793,"lon":-9.710705,"k":"x"},
+  {"id":13522408580,"lat":52.280293,"lon":-9.702375,"k":"p","n":"Monavalley Industrial Estate"},
+  {"id":13522408582,"lat":52.272359,"lon":-9.711005,"k":"p","n":"St John's NS"}
+],
+"routes":[
+  {"id":3350787,"t":{"ref":"290A","name":"People's Bus No. 2","from":"Tesco Square","to":"Tesco Square","network":"Tralee Peoples Bus Service","operator":"Tralee Peoples Bus Service","route":"bus","public_transport:version":"2"},"n":5,"s":[[2522768302,1,5],[2557333702,2]]},
+  {"id":3350818,"t":{"ref":"290B","name":"People's Bus no. 1","from":"Tesco Square","to":"Tesco Square","network":"Tralee Peoples Bus Service","operator":"Tralee Peoples Bus Service","route":"bus","public_transport:version":"2"},"n":7,"s":[[2522768302,1,7],[2563943730,5],[2557333702,6]]},
+  {"id":18246520,"t":{"ref":"300","name":"M7 Express Tralee - Dublin","from":"Tralee","to":"Dublin","network":"The Green Bus","operator":"Dublin Coach","colour":"lightgreen","route":"bus","public_transport:version":"2"},"n":10,"s":[[12309784913,1]]},
+  {"id":19980059,"t":{"ref":"278","name":"Bus 278: Fenit => Tralee","from":"Fenit","to":"Tralee","route":"bus","public_transport:version":"2"},"n":2,"s":[[10921495218,2]]},
+  {"id":19980060,"t":{"ref":"278","name":"Bus 278: Tralee => Fenit","from":"Tralee","to":"Fenit","route":"bus","public_transport:version":"2"},"n":2,"s":[[10921495218,1]]},
+  {"id":19980061,"t":{"ref":"278","name":"Bus 278: Fenit => Tralee","from":"Fenit","to":"Tralee","route":"bus","public_transport:version":"2"},"n":2,"s":[[10921495218,2]]},
+  {"id":19980062,"t":{"ref":"278","name":"Bus 278: Tralee => Fenit","from":"Tralee","to":"Fenit","route":"bus","public_transport:version":"2"},"n":2,"s":[[10921495218,1]]},
+  {"id":20169528,"t":{"ref":"274","name":"274: Tralee -> Tarbert","from":"Tralee Bus Station","to":"Tarbert","network":"Transport for Ireland","route":"bus","public_transport:version":"2"},"n":16,"s":[[10921495218,2],[13522408582,3]]},
+  {"id":20169529,"t":{"ref":"274","name":"274: Tarbert -> Tralee","from":"Tarbert","to":"Tralee Bus Station","network":"Transport for Ireland","route":"bus","public_transport:version":"2"},"n":17,"s":[[13522408580,13]]},
+  {"id":21407198,"t":{"ref":"300","name":"M7 Express Dublin - Tralee","from":"Dublin","to":"Tralee","network":"The Green Bus","operator":"Dublin Coach","colour":"lightgreen","route":"bus","public_transport:version":"2"},"n":10,"s":[[12309784913,10]]}
+]
+}

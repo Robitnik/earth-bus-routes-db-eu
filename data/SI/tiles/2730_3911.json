@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"SI",
+"tile":[2730,3911],
+"stops":[
+  {"id":1678441147,"lat":46.54746,"lon":15.593945,"k":"p","n":"Pekre"},
+  {"id":1678447087,"lat":46.548654,"lon":15.594071,"k":"p","n":"Pekre","ref":"131"},
+  {"id":1678447106,"lat":46.548488,"lon":15.594329,"k":"p","n":"Pekre","ref":"130"},
+  {"id":1679030529,"lat":46.533166,"lon":15.599718,"k":"p","n":"Vzpenjača","ref":"148"},
+  {"id":1681641800,"lat":46.541654,"lon":15.590244,"k":"p","n":"Bezjakova"},
+  {"id":1681641810,"lat":46.538193,"lon":15.589024,"k":"p","n":"Lesjakova 1"},
+  {"id":1681648795,"lat":46.53949,"lon":15.598355,"k":"p","n":"Ob ribniku"},
+  {"id":1681648815,"lat":46.537225,"lon":15.591936,"k":"p","n":"Lesjakova 2"},
+  {"id":1681648821,"lat":46.537086,"lon":15.596973,"k":"p","n":"Zvezna ulica"},
+  {"id":9762626281,"lat":46.547272,"lon":15.597327,"k":"p","n":"Lackova - Ul. Jelenčevih"},
+  {"id":9762626282,"lat":46.547364,"lon":15.597163,"k":"p","n":"Lackova - Ul. Jelenčevih"},
+  {"id":10566625894,"lat":46.540322,"lon":15.589451,"k":"p","n":"Bezjakova"},
+  {"id":10566625895,"lat":46.538459,"lon":15.588519,"k":"p","n":"Lesjakova 1"},
+  {"id":10566625896,"lat":46.537228,"lon":15.592237,"k":"p","n":"Lesjakova 2"},
+  {"id":10566625897,"lat":46.535944,"lon":15.596265,"k":"p","n":"Zvezna ulica"},
+  {"id":10566625898,"lat":46.539619,"lon":15.598388,"k":"p","n":"Ob ribniku"}
+],
+"routes":[
+  {"id":2026238,"t":{"ref":"P8","name":"P8: Avtobusna postaja ⇒ Limbuš ⇒ Pekre","from":"Avtobusna postaja","to":"Limbuš ⇒ Pekre","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":17,"s":[[1678447106,17]]},
+  {"id":2026239,"t":{"ref":"P8","name":"P8: Pekre ⇒ Limbuš ⇒ Avtobusna postaja","from":"Pekre","to":"Limbuš ⇒ Avtobusna postaja","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":16,"s":[[1678447087,1]]},
+  {"id":3717804,"t":{"ref":"G6","name":"G6: Avtobusna postaja ⇒ Vzpenjača","from":"Avtobusna postaja","to":"Vzpenjača","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":16,"s":[[1679030529,16]]},
+  {"id":3717805,"t":{"ref":"G6","name":"G6: Vzpenjača ⇒ Avtobusna postaja","from":"Vzpenjača","to":"Avtobusna postaja","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":16,"s":[[1679030529,1]]},
+  {"id":3718563,"t":{"ref":"P18","name":"P18: Univerzitetni Kampus ⇒ Pekre","from":"Univerzitetni Kampus","to":"Pekre","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":27,"s":[[10566625898,22],[10566625897,23],[10566625896,24],[10566625895,25],[10566625894,26],[1678441147,27]]},
+  {"id":3718564,"t":{"ref":"P18","name":"P18: Pekre ⇒ Univerzitetni Kampus","from":"Pekre","to":"Univerzitetni Kampus","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":26,"s":[[1678441147,1],[1681641800,2],[1681641810,3],[1681648815,4],[1681648821,5],[1681648795,6]]},
+  {"id":3723727,"t":{"ref":"P14","name":"P14: Limbuš ⇒ E.Leclerc - Merkur","from":"Limbuš","to":"E.Leclerc - Merkur","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":26,"s":[[1678447106,3],[9762626281,4]]},
+  {"id":3723728,"t":{"ref":"P14","name":"P14: E.Leclerc - Merkur ⇒ Limbuš","from":"E.Leclerc - Merkur","to":"Limbuš","network":"MPP Maribor","operator":"MARPROM","route":"bus","public_transport:version":"2"},"n":26,"s":[[9762626282,23],[1678447087,24]]}
+]
+}

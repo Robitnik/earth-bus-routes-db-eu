@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2845,3406],
+"stops":[
+  {"id":2437027709,"lat":52.267566,"lon":-9.684319,"k":"p","n":"University Hospital Kerry","ref":"635081"},
+  {"id":2437027713,"lat":52.267372,"lon":-9.684208,"k":"p","n":"University Hospital Kerry"},
+  {"id":2452414281,"lat":52.270592,"lon":-9.698588,"k":"p","n":"Tralee Bus Station","ref":"635061"},
+  {"id":2563971423,"lat":52.271499,"lon":-9.686294,"k":"p"},
+  {"id":2623647497,"lat":52.265617,"lon":-9.687463,"k":"x","n":"University Hospital Kerry"},
+  {"id":4726986280,"lat":52.267658,"lon":-9.686602,"k":"p","n":"Marian Park"},
+  {"id":4726997405,"lat":52.283669,"lon":-9.694794,"k":"p","n":"Rathonnane"},
+  {"id":6726961685,"lat":52.265586,"lon":-9.687475,"k":"p","n":"University Hospital Kerry"},
+  {"id":6727044958,"lat":52.270728,"lon":-9.698514,"k":"x","n":"Tralee Bus Station"},
+  {"id":10971925965,"lat":52.26332,"lon":-9.677103,"k":"p"},
+  {"id":13512381406,"lat":52.285525,"lon":-9.674053,"k":"p","n":"MTU Kerry (North Campus)"}
+],
+"routes":[
+  {"id":558006,"t":{"ref":"40","name":"Bus 40: Tralee => Cork","from":"Tralee","to":"Cork","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":13,"s":[[2452414281,1],[2437027709,5]]},
+  {"id":558152,"t":{"ref":"275","name":"Route 275: Tralee-Dingle","from":"Tralee Bus Station","to":"Dingle","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":5,"s":[[2452414281,1]]},
+  {"id":558188,"t":{"ref":"13","name":"Route 13: Limerick-Tralee","from":"Limerick","to":"Tralee","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":5,"s":[[2452414281,5]]},
+  {"id":3147725,"t":{"ref":"40","name":"Bus 40: Cork => Tralee","from":"Cork","to":"Tralee","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":11,"s":[[2437027713,10],[2452414281,11]]},
+  {"id":3157820,"t":{"ref":"13","name":"Route 13: Tralee-Limerick","from":"Tralee","to":"Limerick","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":5,"s":[[2452414281,1]]},
+  {"id":3160143,"t":{"ref":"275","name":"Route 275: Dingle-Tralee","from":"Dingle","to":"Tralee Bus Station","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":5,"s":[[2452414281,5]]},
+  {"id":3350787,"t":{"ref":"290A","name":"People's Bus No. 2","from":"Tesco Square","to":"Tesco Square","network":"Tralee Peoples Bus Service","operator":"Tralee Peoples Bus Service","route":"bus","public_transport:version":"2"},"n":5,"s":[[4726986280,3],[6726961685,4]]},
+  {"id":3350818,"t":{"ref":"290B","name":"People's Bus no. 1","from":"Tesco Square","to":"Tesco Square","network":"Tralee Peoples Bus Service","operator":"Tralee Peoples Bus Service","route":"bus","public_transport:version":"2"},"n":7,"s":[[4726997405,2],[6726961685,3],[2563971423,4]]},
+  {"id":19980059,"t":{"ref":"278","name":"Bus 278: Fenit => Tralee","from":"Fenit","to":"Tralee","route":"bus","public_transport:version":"2"},"n":2,"s":[[2452414281,1]]},
+  {"id":19980060,"t":{"ref":"278","name":"Bus 278: Tralee => Fenit","from":"Tralee","to":"Fenit","route":"bus","public_transport:version":"2"},"n":2,"s":[[2452414281,2]]},
+  {"id":19980061,"t":{"ref":"278","name":"Bus 278: Fenit => Tralee","from":"Fenit","to":"Tralee","route":"bus","public_transport:version":"2"},"n":2,"s":[[2452414281,1]]},
+  {"id":19980062,"t":{"ref":"278","name":"Bus 278: Tralee => Fenit","from":"Tralee","to":"Fenit","route":"bus","public_transport:version":"2"},"n":2,"s":[[2452414281,2]]},
+  {"id":20131207,"t":{"ref":"279","name":"Route 279: Tralee -> Killarney via Killorglin","from":"Tralee Bus Station","to":"Killarney Bus Station","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":9,"s":[[2452414281,1],[2563971423,2],[2437027709,3]]},
+  {"id":20131208,"t":{"ref":"279","name":"Route 279: 279: Killarney -> Tralee via Killorglin","from":"Killarney Bus Station","to":"Tralee Bus Station","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":8,"s":[[2437027713,7],[2452414281,8]]},
+  {"id":20152675,"t":{"ref":"272","name":"Route 272: Tralee -> Ballybunion -> Tralee","from":"Tralee;Ballybunion","to":"Ballybunion;Tralee","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":11,"s":[[2452414281,1],[13512381406,2]]},
+  {"id":20169528,"t":{"ref":"274","name":"274: Tralee -> Tarbert","from":"Tralee Bus Station","to":"Tarbert","network":"Transport for Ireland","route":"bus","public_transport:version":"2"},"n":16,"s":[[2452414281,1]]},
+  {"id":20169529,"t":{"ref":"274","name":"274: Tarbert -> Tralee","from":"Tarbert","to":"Tralee Bus Station","network":"Transport for Ireland","route":"bus","public_transport:version":"2"},"n":17,"s":[[13512381406,14],[2563971423,15],[2437027713,16],[2452414281,17]]},
+  {"id":21240862,"t":{"ref":"283","name":"Bus 283: Tralee => Currow","from":"Tralee","to":"Currow","route":"bus","public_transport:version":"2"},"n":4,"s":[[2437027709,1]]},
+  {"id":21240863,"t":{"ref":"283","name":"Bus 283: Currow => Tralee","from":"Currow","to":"Tralee","route":"bus","public_transport:version":"2"},"n":3,"s":[[2437027713,3]]}
+]
+}

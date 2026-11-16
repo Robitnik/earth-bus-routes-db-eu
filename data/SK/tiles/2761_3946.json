@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2761,3946],
+"stops":[
+  {"id":703230802,"lat":48.086387,"lon":17.311797,"k":"p","n":"Miloslavov, Škola"},
+  {"id":3047774760,"lat":48.086343,"lon":17.311686,"k":"x","n":"Miloslavov, Škola"},
+  {"id":3846992444,"lat":48.084973,"lon":17.303207,"k":"p","n":"Miloslavov, Žel. stanica"},
+  {"id":3846992445,"lat":48.085008,"lon":17.303158,"k":"x","n":"Miloslavov, Žel. stanica"},
+  {"id":3846992446,"lat":48.085035,"lon":17.303085,"k":"p","n":"Miloslavov, Žel. stanica"},
+  {"id":3846992447,"lat":48.086292,"lon":17.311675,"k":"p","n":"Miloslavov, Škola"},
+  {"id":4771145744,"lat":48.065954,"lon":17.346992,"k":"p","n":"Hviezdoslavov,,Hlavná 22"},
+  {"id":4771145745,"lat":48.065971,"lon":17.346802,"k":"p","n":"Hviezdoslavov,,Hlavná 22"},
+  {"id":4771145746,"lat":48.065951,"lon":17.346887,"k":"x","n":"Hviezdoslavov,,Hlavná 22"},
+  {"id":4771145750,"lat":48.057243,"lon":17.342473,"k":"x","n":"Kvetoslavov, Kostol"},
+  {"id":4771145751,"lat":48.057291,"lon":17.342522,"k":"p","n":"Kvetoslavov, Kostol","ref":"1"},
+  {"id":4771145752,"lat":48.057515,"lon":17.342149,"k":"p","n":"Kvetoslavov, Kostol","ref":"2"},
+  {"id":4771145753,"lat":48.057534,"lon":17.342281,"k":"x","n":"Kvetoslavov, Kostol"}
+],
+"routes":[
+  {"id":5679327,"t":{"ref":"725","name":"Bus 725: Bratislava => Miloslavov","from":"Bratislava","to":"Miloslavov","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":17,"s":[[3846992444,15],[3846992447,16]]},
+  {"id":5679328,"t":{"ref":"725","name":"Bus 725: Miloslavov => Bratislava","from":"Miloslavov","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":18,"s":[[703230802,2],[3846992446,3]]},
+  {"id":13434293,"t":{"ref":"799","name":"Bus 799: Bratislava => Hamuliakovo => Šamorín","from":"Bratislava","to":"Šamorín","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#000000","route":"bus","public_transport:version":"2"},"n":27,"s":[[703230802,15],[3846992446,16]]},
+  {"id":13434294,"t":{"ref":"799","name":"Bus 799: Šamorín => Hamuliakovo => Bratislava","from":"Šamorín","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#000000","route":"bus","public_transport:version":"2"},"n":27,"s":[[3846992444,12],[3846992447,13]]}
+]
+}

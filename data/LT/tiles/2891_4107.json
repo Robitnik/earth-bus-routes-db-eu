@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2891,4107],
+"stops":[
+  {"id":929289535,"lat":54.595929,"lon":25.363455,"k":"p","n":"Draugystės st."},
+  {"id":929289754,"lat":54.595949,"lon":25.364196,"k":"p","n":"Draugystės st."},
+  {"id":2420758158,"lat":54.551183,"lon":25.379925,"k":"p","n":"1-oji Žalioji"},
+  {"id":2420758181,"lat":54.552025,"lon":25.378838,"k":"p","n":"1-oji Žalioji"},
+  {"id":3805260220,"lat":54.569939,"lon":25.363187,"k":"p","n":"Pakalniai"},
+  {"id":3805325323,"lat":54.569047,"lon":25.363093,"k":"p","n":"Pakalniai"},
+  {"id":7418934235,"lat":54.583491,"lon":25.362309,"k":"p","n":"Čekėnai"},
+  {"id":7418934236,"lat":54.583359,"lon":25.363508,"k":"p","n":"Čekėnai"},
+  {"id":7418934238,"lat":54.582936,"lon":25.357194,"k":"p","n":"2-oji Rudamina"},
+  {"id":7418934239,"lat":54.583653,"lon":25.356081,"k":"p","n":"2-oji Rudamina"},
+  {"id":7418934240,"lat":54.583516,"lon":25.357078,"k":"p","n":"2-oji Rudamina"}
+],
+"routes":[
+  {"id":174637,"t":{"ref":"12","name":"Bus 12: Stotis => Skaidiškės","from":"Stotis","to":"Skaidiškės","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":20,"s":[[929289754,12]]},
+  {"id":4600683,"t":{"ref":"14","name":"Bus 14: Rudamina => Arimų g.","from":"Rudamina","to":"Arimų g.","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":28,"s":[[929289754,2]]},
+  {"id":5280931,"t":{"ref":"14","name":"Bus 14: Arimų g. => Rudamina","from":"Arimų g.","to":"Rudamina","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":30,"s":[[929289535,29]]},
+  {"id":5280936,"t":{"ref":"16","name":"Bus 16: Stotis => Rudamina","from":"Stotis","to":"Rudamina","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":17,"s":[[929289535,16]]},
+  {"id":13469060,"t":{"ref":"12","name":"Bus 12: Skaidiškės => Stotis","from":"Skaidiškės","to":"Stotis","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":20,"s":[[929289535,3]]},
+  {"id":18692603,"t":{"ref":"217","name":"Bus 217: Šveicarai => Vilniaus autobusų stotis","from":"2-ieji Šveicarai","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":16,"s":[[7418934235,3],[7418934239,4]]},
+  {"id":18692604,"t":{"ref":"217","name":"Bus 217: Vilniaus autobusų stotis => Šveicarai","from":"Vilniaus autobusų stotis","to":"2-ieji Šveicarai","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":16,"s":[[7418934240,13],[7418934236,14]]},
+  {"id":18692605,"t":{"ref":"215","name":"Bus 215: Akmeniškės => Vilniaus autobusų stotis","from":"3-osios Akmeniškės","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":21,"s":[[2420758181,7],[3805260220,8],[7418934239,9]]},
+  {"id":18692606,"t":{"ref":"212","name":"Bus 212: Tabariškės => Vilniaus autobusų stotis","from":"Tabariškės","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":30,"s":[[2420758181,16],[3805260220,17],[7418934239,18]]},
+  {"id":18692607,"t":{"ref":"212A","name":"Bus 212A: Tabariškės => Vilniaus autobusų stotis","from":"Tabariškės","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":34,"s":[[2420758181,20],[3805260220,21],[7418934239,22]]},
+  {"id":18692608,"t":{"ref":"212A","name":"Bus 212A: Tabariškės => Akmeniškės => Vilniaus autobusų stotis","from":"Tabariškės","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":35,"s":[[2420758181,21],[3805260220,22],[7418934239,23]]},
+  {"id":18692609,"t":{"ref":"215","name":"Bus 215: Vilniaus autobusų stotis => Akmeniškės","from":"Vilniaus autobusų stotis","to":"3-osios Akmeniškės","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":22,"s":[[7418934238,13],[3805325323,14],[2420758158,15]]},
+  {"id":18692610,"t":{"ref":"212","name":"Bus 212: Minsko plentas => Tabariškės","from":"Žirnių st.","to":"Tabariškės","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":27,"s":[[7418934238,10],[3805325323,11],[2420758158,12]]},
+  {"id":18692611,"t":{"ref":"212A","name":"Bus 212A: Vilniaus autobusų stotis => Tabariškės","from":"Vilniaus autobusų stotis","to":"Tabariškės","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":35,"s":[[7418934238,13],[3805325323,14],[2420758158,15]]}
+]
+}

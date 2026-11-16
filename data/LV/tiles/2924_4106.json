@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2924,4106],
+"stops":[
+  {"id":5301133590,"lat":56.225383,"lon":25.320763,"k":"p","n":"Jakelāni"},
+  {"id":5301133591,"lat":56.242509,"lon":25.329959,"k":"p","n":"Visdarbi"},
+  {"id":5702716027,"lat":56.249964,"lon":25.334789,"k":"p","n":"Rūpkombināts"},
+  {"id":6367515955,"lat":56.225839,"lon":25.320773,"k":"p","n":"Jakelāni"},
+  {"id":9385811885,"lat":56.202183,"lon":25.307226,"k":"p","n":"Nereta"},
+  {"id":11883270457,"lat":56.202114,"lon":25.30703,"k":"x","n":"Nereta"},
+  {"id":12104397150,"lat":56.241835,"lon":25.329385,"k":"p","n":"Visdarbi"},
+  {"id":13034905014,"lat":56.225401,"lon":25.320655,"k":"x","n":"Jakelāni"},
+  {"id":13034905027,"lat":56.22582,"lon":25.320883,"k":"x","n":"Jakelāni"},
+  {"id":13034905028,"lat":56.249933,"lon":25.334876,"k":"x","n":"Rūpkombināts"}
+],
+"routes":[
+  {"id":16609670,"t":{"ref":"5001","name":"Bus 5001: Pilskalne => Kalpaki => Brūveri => Nereta => Pilkalne","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":13,"s":[[9385811885,5,11]]},
+  {"id":16609671,"t":{"ref":"5001","name":"Bus 5001: Nereta => Kalpaki => Brūveri => Nereta => Pilskalne","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":11,"s":[[9385811885,1,7]]},
+  {"id":16915975,"t":{"ref":"5091","name":"Bus 5091: Nereta => Pilskalne","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":6,"s":[[9385811885,1]]},
+  {"id":16915976,"t":{"ref":"5091","name":"Bus 5091: Pilskalne => Nereta","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":6,"s":[[9385811885,6]]},
+  {"id":19405418,"t":{"ref":"5494","name":"bus 5494: Nereta => Lone => Viesīte => Jēkabpils","from":"Nereta","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":21,"s":[[9385811885,1],[5301133590,2]]},
+  {"id":19405420,"t":{"ref":"5494","name":"bus 5494: Jēkabpils => Ošāni => Lone => Nereta","from":"Jēkabpils","to":"Nereta","route":"bus","public_transport:version":"2"},"n":22,"s":[[5702716027,20],[6367515955,21],[9385811885,22]]},
+  {"id":19405429,"t":{"ref":"5494","name":"bus 5494: Jēkabpils => Viesīte => Lone => Nereta","from":"Jēkabpils","to":"Nereta","route":"bus","public_transport:version":"2"},"n":21,"s":[[5702716027,19],[6367515955,20],[9385811885,21]]},
+  {"id":19412985,"t":{"ref":"5495","name":"bus 5495: Nereta => Lone => Sauka => Viesīte => Jēkabpils","from":"Nereta","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":21,"s":[[9385811885,1],[5301133590,2]]},
+  {"id":19412988,"t":{"ref":"5495","name":"bus 5495: Jēkabpils => Viesīte => Sauka => Lone => Nereta","from":"Jēkabpils","to":"Nereta","route":"bus","public_transport:version":"2"},"n":21,"s":[[5702716027,19],[6367515955,20],[9385811885,21]]},
+  {"id":19418223,"t":{"ref":"5496","name":"bus 5496: Nereta => Rite => Sauka => Viesīte => Jēkabpils","from":"Nereta","to":"Jēkabpils","route":"bus","public_transport:version":"2"},"n":25,"s":[[9385811885,1]]},
+  {"id":19418232,"t":{"ref":"5496","name":"bus 5496: Jēkabpils => Viesīte => Sauka => Rite => Nereta","from":"Jēkabpils","to":"Nereta","route":"bus","public_transport:version":"2"},"n":24,"s":[[9385811885,24]]}
+]
+}

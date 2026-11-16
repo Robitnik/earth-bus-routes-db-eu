@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2924,3803],
+"stops":[
+  {"id":830475211,"lat":56.211302,"lon":10.172935,"k":"p","n":"Motorvejen/Randersvej"},
+  {"id":1987892906,"lat":56.200558,"lon":10.181384,"k":"x"},
+  {"id":4912901105,"lat":56.222316,"lon":10.164181,"k":"p","n":"Lisbjerg"},
+  {"id":4912901106,"lat":56.221955,"lon":10.164055,"k":"p","n":"Lisbjerg"},
+  {"id":7239724172,"lat":56.240076,"lon":10.158913,"k":"p","n":"Øster Møllevej/Randersvej"},
+  {"id":7239724173,"lat":56.239975,"lon":10.158683,"k":"p","n":"Øster Møllevej/Randersvej"},
+  {"id":7271766053,"lat":56.211274,"lon":10.172433,"k":"p","n":"Motorvejen/Randersvej"},
+  {"id":7271766054,"lat":56.20058,"lon":10.181666,"k":"p","n":"Skejbyvej/Randersvej"},
+  {"id":7279516652,"lat":56.209831,"lon":10.156266,"k":"p","n":"Ny Møllevej/Søftenvej"},
+  {"id":7279516653,"lat":56.210558,"lon":10.154572,"k":"p","n":"Ny Møllevej/Søftenvej"},
+  {"id":8390858838,"lat":56.222285,"lon":10.164002,"k":"x","n":"Lisbjerg"},
+  {"id":8390858839,"lat":56.221979,"lon":10.164243,"k":"x","n":"Lisbjerg"},
+  {"id":8390858840,"lat":56.211301,"lon":10.172581,"k":"x","n":"Motorvejen/Randersvej"},
+  {"id":8390858841,"lat":56.211265,"lon":10.172775,"k":"x","n":"Motorvejen/Randersvej"},
+  {"id":12431167987,"lat":56.203841,"lon":10.182212,"k":"x","n":"Johan Gutenbergsvej/Graham Bells Vej"},
+  {"id":12431167988,"lat":56.203867,"lon":10.182382,"k":"p","n":"Johan Gutenbergsvej/Graham Bells Vej"},
+  {"id":12431167989,"lat":56.203744,"lon":10.18209,"k":"p","n":"Johan Gutenbergsvej/Graham Bells Vej"},
+  {"id":5000843333691,"lat":56.211321,"lon":10.172874,"k":"p","n":"Motorvejen/Randersvej"},
+  {"id":5000843333692,"lat":56.211148,"lon":10.172609,"k":"p","n":"Motorvejen/Randersvej"},
+  {"id":5001338038642,"lat":56.222281,"lon":10.164145,"k":"p"},
+  {"id":5001338038643,"lat":56.221966,"lon":10.164105,"k":"p"}
+],
+"routes":[
+  {"id":2155079,"t":{"ref":"2A","name":"Bus 2A: Holme / Karetmagertoften => Trige via Kalkærparken","from":"Holme/Karetmagertoften","to":"Trige","network":"Midttrafik","operator":"AarBus","colour":"#e52b18","route":"bus","public_transport:version":"2"},"n":50,"s":[[830475211,41],[5001338038642,42]]},
+  {"id":2535056,"t":{"ref":"918X","name":"Bus 918X: Aarhus => Aalborg","from":"Aarhus","to":"Aalborg","network":"Midttrafik","operator":"Midttrafik","route":"bus"},"n":3,"s":[[1987892906,3]]},
+  {"id":3114888,"t":{"ref":"200","name":"Bus 200: Hinnerup => Aarhus => Skanderborg","from":"Hinnerup","to":"Skanderborg","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":66,"s":[[7279516652,20]]},
+  {"id":10713142,"t":{"ref":"118","name":"Bus 118: Aarhus => Randers","from":"Aarhus","to":"Randers","network":"Midttrafik","operator":"Vikingbus Danmark","route":"bus","public_transport:version":"2"},"n":40,"s":[[7271766054,12],[5000843333691,13],[5000843333692,14],[5001338038642,15],[7239724172,16]]},
+  {"id":10713144,"t":{"ref":"118","name":"Bus 118: Aarhus => Hadsten => Randers","from":"Aarhus","to":"Randers","network":"Midttrafik","operator":"Vikingbus Danmark","route":"bus","public_transport:version":"2"},"n":39,"s":[[7271766054,12],[5000843333691,13],[5001338038642,14],[7239724172,15]]},
+  {"id":10867612,"t":{"ref":"200","name":"Bus 200: Skanderborg => Aarhus => Hinnerup","from":"Skanderborg","to":"Hinnerup","network":"Midttrafik","operator":"Arriva;Keolis","route":"bus","public_transport:version":"2"},"n":67,"s":[[7271766054,45],[7279516653,46]]},
+  {"id":12270710,"t":{"ref":"2A","name":"Bus 2A: Trige => Holme / Karetmagertoften via Nygårdsvej","from":"Trige","to":"Holme/Karetmagertoften","network":"Midttrafik","operator":"AarBus","colour":"#e52b18","route":"bus","public_transport:version":"2"},"n":48,"s":[[5001338038643,9],[7271766053,10]]},
+  {"id":12270715,"t":{"ref":"2A","name":"Bus 2A: Holme / Karetmagertoften => Trige via Nygårdsvej","from":"Holme/Karetmagertoften","to":"Trige","network":"Midttrafik","operator":"AarBus","colour":"#e52b18","route":"bus","public_transport:version":"2"},"n":50,"s":[[830475211,41],[5001338038642,42]]},
+  {"id":12270716,"t":{"ref":"2A","name":"Bus 2A: Trige => Holme / Karetmagertoften via Kalkærparken","from":"Trige","to":"Holme/Karetmagertoften","network":"Midttrafik","operator":"AarBus","colour":"#e52b18","route":"bus","public_transport:version":"2"},"n":48,"s":[[5001338038643,9],[7271766053,10]]},
+  {"id":13855733,"t":{"ref":"118","name":"Bus 118: Randers => Hadsten => Aarhus","from":"Randers","to":"Aarhus","network":"Midttrafik","operator":"Vikingbus Danmark","route":"bus","public_transport:version":"2"},"n":37,"s":[[7239724173,25],[5001338038643,26],[7271766053,27]]},
+  {"id":13855734,"t":{"ref":"118","name":"Bus 118: Randers => Aarhus","from":"Randers","to":"Aarhus","network":"Midttrafik","operator":"Vikingbus Danmark","route":"bus","public_transport:version":"2"},"n":36,"s":[[7239724173,24],[5001338038643,25],[7271766053,26]]}
+]
+}

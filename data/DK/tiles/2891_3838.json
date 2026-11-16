@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2891,3838],
+"stops":[
+  {"id":450015873,"lat":54.575411,"lon":11.929919,"k":"p","n":"Gedser, Torvet"},
+  {"id":3009063096,"lat":54.573739,"lon":11.924632,"k":"x","n":"Gedser Leje Vest"},
+  {"id":4047756227,"lat":54.578348,"lon":11.926966,"k":"p","n":"Allevej"},
+  {"id":4047756228,"lat":54.578388,"lon":11.927092,"k":"p","n":"Allevej"},
+  {"id":4047756230,"lat":54.582018,"lon":11.926695,"k":"p","n":"Vesterhave"},
+  {"id":4047756231,"lat":54.58091,"lon":11.925864,"k":"p","n":"Vesterhave"},
+  {"id":4047756233,"lat":54.574464,"lon":11.924678,"k":"p","n":"Gedser Færge"},
+  {"id":4562016823,"lat":54.575524,"lon":11.92999,"k":"p","n":"Gedser, Torvet"}
+],
+"routes":[
+  {"id":4474980,"t":{"ref":"740","name":"Bus 740: Gedser => Nykøbing Falster St.","from":"Gedser","to":"Nykøbing Falster St.","network":"Movia","route":"bus","public_transport:version":"2"},"n":2,"s":[[4047756233,1]]},
+  {"id":10744510,"t":{"ref":"N1376","name":"Flixbus N1376(part DK): Gedser, færgehavn => København, Ingerslevsgade","from":"Gedser, færgehavn","to":"København, Ingerslevsgade","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3009063096,1]]},
+  {"id":10744513,"t":{"ref":"N1376","name":"Flixbus N1376(part DK): København, Ingerslevsgade => Gedser, færgehavn","from":"København, Ingerslevsgade","to":"Gedser, færgehavn","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3009063096,2]]},
+  {"id":10744514,"t":{"ref":"N232","name":"Flixbus N232(part DK): Gedser, færgehavn => København, Ingerslevsgade","from":"Gedser, færgehavn","to":"København, Ingerslevsgade","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3009063096,1]]},
+  {"id":10744517,"t":{"ref":"N232","name":"Flixbus N232(part DK): København, Ingerslevsgade => Gedser, færgehavn","from":"København, Ingerslevsgade","to":"Gedser, færgehavn","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3009063096,2]]},
+  {"id":10744523,"t":{"ref":"N32","name":"Flixbus N32 (Skandinaviska delen): Stockholm, Cityterminalen => Gedser Færgehavn","from":"Stockholm, Cityterminalen","to":"Gedser, Fährhafen","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3009063096,2]]},
+  {"id":10744524,"t":{"ref":"N32","name":"Flixbus N32 (part Scandinavia): Gedser, Færgehavn => Stockholm, Cityterminalen","from":"Gedser, Fährhafen","to":"Stockholm, Cityterminalen","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":2,"s":[[3009063096,1]]},
+  {"id":10744527,"t":{"ref":"032","name":"Flixbus 032 (part Scandinavia): Malmö, Centralstation => Gedser Færgehavn","from":"Malmö, Centralstation","to":"Gedser, Fährhafen","network":"Flixbus","operator":"Umbrella Coach & Buses, KDE Reisen","route":"bus","public_transport:version":"2"},"n":3,"s":[[3009063096,3]]},
+  {"id":10744529,"t":{"ref":"032","name":"Flixbus 032 (part Scandinavia): Gedser, Fährhafen => Malmö, Centralstation","from":"Gedser, Fährhafen","to":"Malmö, Centralstation","network":"Flixbus","operator":"Umbrella Coach & Buses, KDE Reisen","route":"bus","public_transport:version":"2"},"n":3,"s":[[3009063096,1]]},
+  {"id":17927241,"t":{"ref":"743","name":"Bus 743: Gedser - Marielyst","from":"Gedser Færge","to":"Marielyst Torv","network":"Movia","route":"bus","public_transport:version":"2"},"n":24,"s":[[4047756233,1],[4047756230,2],[4047756228,12],[4562016823,13]]},
+  {"id":18764214,"t":{"ref":"743","name":"Bus 743: Marielyst - Gedser","from":"Marielyst Torv","to":"Gedser Færge","network":"Movia","route":"bus","public_transport:version":"2"},"n":24,"s":[[4047756231,21],[4047756227,22],[450015873,23],[4047756233,24]]}
+]
+}

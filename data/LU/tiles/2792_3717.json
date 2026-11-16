@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"LU",
+"tile":[2792,3717],
+"stops":[
+  {"id":270591356,"lat":49.604844,"lon":5.877955,"k":"p","n":"Clemency, Schock"},
+  {"id":828437797,"lat":49.60487,"lon":5.877886,"k":"x","n":"Clemency, Schock"},
+  {"id":2988976955,"lat":49.637717,"lon":5.887825,"k":"p","n":"Sterpenich IKEA"},
+  {"id":3175519666,"lat":49.637743,"lon":5.887762,"k":"x"},
+  {"id":4446542935,"lat":49.634881,"lon":5.890417,"k":"p","n":"Grass Zoning"},
+  {"id":4446542936,"lat":49.634954,"lon":5.89086,"k":"p","n":"Grass Zoning"},
+  {"id":5109105215,"lat":49.602069,"lon":5.875693,"k":"p","n":"Clemency, Eecherwee"},
+  {"id":5109105216,"lat":49.602355,"lon":5.876117,"k":"p","n":"Clemency, Eecherwee"},
+  {"id":7083070391,"lat":49.602332,"lon":5.850887,"k":"p","n":"Sélange Quatre Vents"},
+  {"id":7083070392,"lat":49.602526,"lon":5.850929,"k":"p","n":"Sélange Quatre Vents"},
+  {"id":8767464052,"lat":49.631458,"lon":5.8924,"k":"p","n":"Grass, Rue de Kleinbettingen"},
+  {"id":11394665700,"lat":49.631516,"lon":5.89236,"k":"p","n":"Grass, Rue de Kleinbettingen"},
+  {"id":11394665701,"lat":49.631489,"lon":5.892377,"k":"x","n":"Grass, Rue de Kleinbettingen"},
+  {"id":12026292533,"lat":49.637834,"lon":5.887648,"k":"p","n":"Sterpenich IKEA"},
+  {"id":12026292534,"lat":49.638656,"lon":5.886928,"k":"p","n":"Sterpenich Decathlon"},
+  {"id":14268384325,"lat":49.630623,"lon":5.891481,"k":"p","n":"Grass, Um Camping"},
+  {"id":14268384326,"lat":49.630641,"lon":5.891553,"k":"p","n":"Grass, Um Camping"}
+],
+"routes":[
+  {"id":3898914,"t":{"ref":"832","name":"RGTR 832: Redange, Atert Lycée => Sterpenich, rue de Grass","from":"Redange, Atert Lycée","to":"Sterpenich, rue de Grass","network":"RGTR","operator":"Demy Schandeler","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":30,"s":[[8767464052,29],[2988976955,30]]},
+  {"id":6542883,"t":{"ref":"832","name":"RGTR 832: Sterpenich, rue de Grass => Redange, Atert Lycée","from":"Sterpenich, rue de Grass","to":"Redange, Atert Lycée","network":"RGTR","operator":"Demy Schandeler","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":31,"s":[[12026292533,1],[8767464052,2]]},
+  {"id":7579115,"t":{"ref":"821","name":"RGTR 821: Clemency, Schock => Luxembourg, Stäreplaz / Étoile","from":"Clemency, Schock","to":"Luxembourg, Stäreplaz / Étoile","network":"RGTR","operator":"Sales","colour":"#F173AC","route":"bus","public_transport:version":"2"},"n":31,"s":[[270591356,1],[5109105215,2]]},
+  {"id":7579116,"t":{"ref":"821","name":"RGTR 821: Luxembourg, Stäreplaz / Étoile => Clemency, Schock","from":"Luxembourg, Stäreplaz / Étoile","to":"Clemency, Schock","network":"RGTR","operator":"Sales","colour":"#F173AC","route":"bus","public_transport:version":"2"},"n":32,"s":[[5109105216,31],[270591356,32]]},
+  {"id":9910178,"t":{"ref":"15","name":"TICE-15: Clemency => Esch","from":"Clemency, Schock","to":"Esch, Gare","network":"TICE","operator":"TICE","colour":"#66CCFF","route":"bus","public_transport:version":"2"},"n":47,"s":[[270591356,1],[5109105215,2]]},
+  {"id":9910179,"t":{"ref":"15","name":"TICE-15: Esch => Clemency","from":"Esch, Gare","to":"Clemency, Schock","network":"TICE","operator":"TICE","colour":"#66CCFF","route":"bus","public_transport:version":"2"},"n":47,"s":[[5109105216,45],[270591356,46]]},
+  {"id":18501717,"t":{"ref":"24","name":"Bus 24: Sterpenich Decathlon → Arlon Delhaize","from":"Sterpenich Decathlon","to":"Arlon Delhaize","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":7,"s":[[12026292534,1],[4446542936,2]]},
+  {"id":19323934,"t":{"ref":"24","name":"Bus 24: Arlon Delhaize → Sterpenich Decathlon","from":"Arlon Delhaize","to":"Sterpenich Decathlon","network":"TECX","operator":"TEC","route":"bus","public_transport:version":"2"},"n":7,"s":[[4446542935,6],[12026292534,7]]}
+]
+}

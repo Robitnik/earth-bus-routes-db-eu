@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2891,4101],
+"stops":[
+  {"id":2991928728,"lat":54.592204,"lon":25.086606,"k":"p","n":"Užubrastis"},
+  {"id":3792983405,"lat":54.583021,"lon":25.062622,"k":"p","n":"Šventininkų kryžkelė / 1-ieji Šventininkai"},
+  {"id":3798305852,"lat":54.584018,"lon":25.064102,"k":"p","n":"Šventininkų kryžkelė / 1-ieji Šventininkai"},
+  {"id":3805445902,"lat":54.583961,"lon":25.0514,"k":"p","n":"2-ieji Šventininkai"},
+  {"id":3805446282,"lat":54.575758,"lon":25.052966,"k":"p","n":"Gardino kelio kryžkelė / 2-ieji Šventininkai"},
+  {"id":3805548100,"lat":54.574746,"lon":25.051088,"k":"p","n":"Gardino kelio kryžkelė / 2-ieji Šventininkai"},
+  {"id":12582763925,"lat":54.558515,"lon":25.056659,"k":"p","n":"Mažieji Lygainiai"},
+  {"id":12582763926,"lat":54.558459,"lon":25.056806,"k":"p","n":"Mažieji Lygainiai"},
+  {"id":12582763927,"lat":54.567976,"lon":25.074663,"k":"p","n":"Didieji Lygainiai"},
+  {"id":12582763928,"lat":54.567979,"lon":25.074479,"k":"p","n":"Didieji Lygainiai"},
+  {"id":12582763929,"lat":54.588407,"lon":25.093219,"k":"p","n":"Juodbaliai"},
+  {"id":12582763930,"lat":54.588305,"lon":25.093133,"k":"p","n":"Juodbaliai"},
+  {"id":12582763931,"lat":54.592603,"lon":25.087417,"k":"p","n":"Užubrastis"},
+  {"id":12598773779,"lat":54.575867,"lon":25.052008,"k":"p","n":"Gardino kelio kryžkelė"},
+  {"id":12598773788,"lat":54.584489,"lon":25.051264,"k":"p","n":"2-ieji Šventininkai"}
+],
+"routes":[
+  {"id":18697384,"t":{"ref":"239","name":"Bus 239: Šventininkai => Žemieji Paneriai","from":"2-ieji Šventininkai","to":"Vaduvos st.","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3805446282,1],[3798305852,2]]},
+  {"id":18697385,"t":{"ref":"239","name":"Bus 239: Šventininkai => Lygainiai => Žemieji Paneriai","from":"2-ieji Šventininkai","to":"Vaduvos st.","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":10,"s":[[3805548100,1],[12582763926,3],[12582763927,4],[12582763929,5],[2991928728,6]]},
+  {"id":18697386,"t":{"ref":"239","name":"Bus 239: Žemieji Paneriai => Šventininkai","from":"Vaduvos st.","to":"2-ieji Šventininkai","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3792983405,5],[3805548100,6]]},
+  {"id":18697387,"t":{"ref":"239","name":"Bus 239: Žemieji Paneriai => Lygainiai => Šventininkai","from":"Vaduvos st.","to":"2-ieji Šventininkai","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":10,"s":[[12582763931,5],[12582763930,6],[12582763928,7],[12582763925,8],[3805446282,10]]},
+  {"id":18722829,"t":{"ref":"263","name":"Bus 263: Trakai => Šventininkai","from":"Trakų autobusų stotis","to":"Gardino kelio kryžkelė","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":12,"s":[[12598773779,12]]},
+  {"id":18722833,"t":{"ref":"280","name":"Bus 280: Trakai => Strakiškės, Šventininkai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":15,"s":[[3805548100,12]]},
+  {"id":18722835,"t":{"ref":"263","name":"Bus 263: Šventininkai => Trakai","from":"Gardino kelio kryžkelė","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":9,"s":[[12598773779,1],[3805445902,2]]},
+  {"id":18722836,"t":{"ref":"272","name":"Bus 272: Šventininkai => Trakai","from":"Gardino kelio kryžkelė","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":9,"s":[[12598773779,1],[3805445902,2]]},
+  {"id":18722837,"t":{"ref":"272","name":"Bus 272: Trakai => Šventininkai","from":"Trakų autobusų stotis","to":"Gardino kelio kryžkelė","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":9,"s":[[12598773788,8],[12598773779,9]]},
+  {"id":18722838,"t":{"ref":"286","name":"Bus 286: Trakai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":17,"s":[[12598773788,8],[3805548100,9]]},
+  {"id":18722839,"t":{"ref":"268","name":"Bus 268: Paluknys => Trakai","from":"Paluknys","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":23,"s":[[3805446282,9],[3798305852,10],[12582763931,11],[12582763929,12],[2991928728,13],[3792983405,14],[12598773779,15],[3805445902,16]]},
+  {"id":18722840,"t":{"ref":"268","name":"Bus 268: Trakai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":23,"s":[[12598773788,8],[3805446282,9],[3798305852,10],[12582763931,11],[12582763929,12],[2991928728,13],[3792983405,14],[3805548100,15]]}
+]
+}

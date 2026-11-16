@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2945,4040],
+"stops":[
+  {"id":883069878,"lat":57.273443,"lon":22.039168,"k":"p","n":"Pienotava"},
+  {"id":883069881,"lat":57.278437,"lon":22.021817,"k":"p","n":"Ugāle"},
+  {"id":889392908,"lat":57.273784,"lon":22.038115,"k":"p","n":"Pienotava"},
+  {"id":12947469303,"lat":57.269407,"lon":22.046965,"k":"x","n":"Aptieka"},
+  {"id":12947469306,"lat":57.269447,"lon":22.047051,"k":"p","n":"Aptieka"},
+  {"id":12947469307,"lat":57.252514,"lon":22.046477,"k":"x","n":"Kalnu skola"},
+  {"id":12947469308,"lat":57.252493,"lon":22.046572,"k":"p","n":"Kalnu skola"},
+  {"id":12947469328,"lat":57.278956,"lon":22.022185,"k":"x"},
+  {"id":12947469329,"lat":57.278941,"lon":22.022312,"k":"p","n":"Ugāle"},
+  {"id":12947469423,"lat":57.252576,"lon":22.046525,"k":"x","n":"Kalnu skola"},
+  {"id":12947469424,"lat":57.252593,"lon":22.04645,"k":"p","n":"Kalnu skola"},
+  {"id":12947469445,"lat":57.269701,"lon":22.046372,"k":"x","n":"Aptieka"},
+  {"id":12947469446,"lat":57.269664,"lon":22.04632,"k":"p","n":"Aptieka"},
+  {"id":12947469499,"lat":57.263813,"lon":22.047862,"k":"x","n":"Ugāles mehāniskās darbnīcas"},
+  {"id":12947469500,"lat":57.26383,"lon":22.048,"k":"p","n":"Ugāles mehāniskās darbnīcas"},
+  {"id":12947469502,"lat":57.278419,"lon":22.021963,"k":"x"}
+],
+"routes":[
+  {"id":19281785,"t":{"ref":"6083","name":"bus 6083: Ugāles mehāniskās darbnīcas => Blāzma => Jaunmuiža => Ventspils","from":"Ugāles mehāniskās darbnīcas","to":"Ventspils","route":"bus","public_transport:version":"2"},"n":18,"s":[[12947469500,1],[12947469329,2]]},
+  {"id":19281786,"t":{"ref":"6083","name":"bus 6083: Ugāles mehāniskās darbnīcas => Blāzma => Ventspils","from":"Ugāles mehāniskās darbnīcas","to":"Ventspils","route":"bus","public_transport:version":"2"},"n":16,"s":[[12947469500,1],[12947469306,2],[12947469329,3]]},
+  {"id":19281794,"t":{"ref":"6083","name":"bus 6083: Ugāle => Usma => Ugāle => Blāzma => Ventspils","from":"Ugāle","to":"Ventspils","route":"bus","public_transport:version":"2"},"n":27,"s":[[883069881,1],[12947469308,11],[12947469500,12],[12947469306,13],[12947469329,14]]},
+  {"id":19281803,"t":{"ref":"6083","name":"bus 6083: Ugāles mehāniskās darbnīcas => Blāzma => Ventspils","from":"Ugāles mehāniskās darbnīcas","to":"Ventspils","route":"bus","public_transport:version":"2"},"n":12,"s":[[12947469500,1],[12947469329,2]]},
+  {"id":19281817,"t":{"ref":"6083","name":"bus 6083: Ventspils => Jaunmuiža => Blāzma => Usma => Ugāle","from":"Ventspils","to":"Ugāle","route":"bus","public_transport:version":"2"},"n":31,"s":[[883069881,18],[12947469446,19],[12947469500,20],[12947469424,21],[12947469329,31]]},
+  {"id":19281824,"t":{"ref":"6083","name":"bus 6083: Ventspils => Jaunmuiža => Blāzma => Ugāles mehāniskās darbnīcas","from":"Ventspils","to":"Ugāles mehāniskās darbnīcas","route":"bus","public_transport:version":"2"},"n":18,"s":[[883069881,17],[12947469500,18]]},
+  {"id":19281836,"t":{"ref":"6083","name":"bus 6083: Ventspils => Blāzma => Ugāles mehāniskās darbnīcas","from":"Ventspils","to":"Ugāles mehāniskās darbnīcas","route":"bus","public_transport:version":"2"},"n":12,"s":[[883069881,11],[12947469500,12]]},
+  {"id":21167224,"t":{"ref":"7511","name":"Autobuss 7511: Talsi – Ugāle – Ventspils","from":"Talsu AO","to":"Ventspils AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":21,"s":[[12947469329,12]]},
+  {"id":21167225,"t":{"ref":"7511","name":"Autobuss 7511: Ventspils – Ugāle – Talsi","from":"Ventspils AO","to":"Talsu AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":21,"s":[[883069881,10]]},
+  {"id":21221330,"t":{"ref":"7684","name":"Autobuss 7684: Ventspils – Blāzma – Talsi – Kandava – Tukums – Jelgava","from":"Ventspils AO","to":"Jelgavas AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":47,"s":[[883069881,12]]},
+  {"id":21221331,"t":{"ref":"7684","name":"Autobuss 7684: Jelgava – Tukums – Kandava – Talsi – Blāzma – Ventspils","from":"Jelgavas AO","to":"Ventspils AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":45,"s":[[12947469329,34]]}
+]
+}

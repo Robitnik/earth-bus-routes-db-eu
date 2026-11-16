@@ -1,0 +1,15 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2846,3452],
+"stops":[
+  {"id":11130574260,"lat":52.349687,"lon":-7.397768,"k":"p","n":"Dunbane Road","ref":"331961"},
+  {"id":12586120059,"lat":52.349976,"lon":-7.396002,"k":"p","n":"Dunbane Road","ref":"331971"}
+],
+"routes":[
+  {"id":16221582,"t":{"ref":"255","to":"Waterford","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":6,"s":[[11130574260,4]]},
+  {"id":18690939,"t":{"ref":"891","name":"891 Kilkenny to Fiddown","from":"Kilkenny","to":"Fiddown","network":"Transport for Ireland","operator":"JJ Kavanagh","route":"bus","public_transport:version":"2"},"n":14,"s":[[11130574260,12]]},
+  {"id":18702764,"t":{"name":"891 Fiddown - Kilkenny","from":"Fiddown","to":"Kilkenny","route":"bus","public_transport:version":"2"},"n":15,"s":[[12586120059,3]]},
+  {"id":20137415,"t":{"ref":"55","name":"55: Limerick -> Waterford -> Limerick (Bus Éireann)","from":"Limerick Bus Station","to":"Waterford Bus Station","network":"Expressway","operator":"Bus Éireann","route":"bus"},"n":16,"s":[[11130574260,10],[12586120059,11]]}
+]
+}

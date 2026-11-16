@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"LU",
+"tile":[2799,3717],
+"stops":[
+  {"id":1693711686,"lat":49.989942,"lon":5.856216,"k":"p","n":"Schleif, Schleef"},
+  {"id":2317705814,"lat":49.967795,"lon":5.884819,"k":"p","n":"Winseler, Rosskämmchen"},
+  {"id":2317705815,"lat":49.96785,"lon":5.884867,"k":"p","n":"Winseler, Rosskämmchen"},
+  {"id":2317705818,"lat":49.974188,"lon":5.851746,"k":"p"},
+  {"id":2317959649,"lat":49.989873,"lon":5.85609,"k":"p","n":"Schleif, Schleef"},
+  {"id":2355238809,"lat":49.960282,"lon":5.859758,"k":"p","n":"Pommerloch, Theis"},
+  {"id":2628839379,"lat":49.963297,"lon":5.858923,"k":"p","n":"Pommerloch, Knauf"},
+  {"id":2628839382,"lat":49.963524,"lon":5.859088,"k":"p","n":"Pommerloch, Knauf"},
+  {"id":3068460133,"lat":49.974142,"lon":5.851101,"k":"p"},
+  {"id":5746557448,"lat":49.960767,"lon":5.859886,"k":"p","n":"Pommerloch, Theis"},
+  {"id":5770526272,"lat":49.959158,"lon":5.860246,"k":"p","n":"Pommerloch, Trëntelhaff"},
+  {"id":5770526273,"lat":49.953108,"lon":5.857936,"k":"p","n":"Berlé, Um Dréisch"},
+  {"id":5770585126,"lat":49.967091,"lon":5.890869,"k":"p","n":"Winseler, Beim Burren"},
+  {"id":5770585127,"lat":49.966944,"lon":5.891201,"k":"p","n":"Winseler, Beim Burren"},
+  {"id":5783856159,"lat":49.984589,"lon":5.871621,"k":"p","n":"Gruemelscheid, Hoboesch"},
+  {"id":11380238127,"lat":49.960284,"lon":5.859813,"k":"x","n":"Pommerloch, Theis"},
+  {"id":11380238128,"lat":49.960761,"lon":5.859814,"k":"x","n":"Pommerloch, Theis"}
+],
+"routes":[
+  {"id":8434903,"t":{"ref":"130","name":"RGTR 130: Bastogne, Centre Sportif => Ettelbruck, Gare","from":"Bastogne Centre Sportif","to":"Ettelbruck, Gare","network":"RGTR","operator":"Sales-Lentz","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":27,"s":[[2628839379,1],[2355238809,2]]},
+  {"id":8434904,"t":{"ref":"130","name":"RGTR 130: Ettelbruck, Gare => Bastogne, Centre Sportif","from":"Ettelbruck, Gare","to":"Bastogne Centre Sportif","network":"RGTR","operator":"Sales-Lentz","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":27,"s":[[5746557448,26],[2628839382,27]]},
+  {"id":8454824,"t":{"ref":"120","name":"RGTR 120: Redange, Atert Lycée => Wiltz, Lycée du Nord","from":"Redange, Atert Lycée","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":33,"s":[[5746557448,23],[2628839382,24],[2317705814,25],[5770585127,26]]},
+  {"id":8454825,"t":{"ref":"120","name":"RGTR 120: Wiltz, Lycée du Nord => Redange, Atert Lycée","from":"Wiltz, Lycée du Nord","to":"Redange, Atert Lycée","network":"RGTR","operator":"Sales-Lentz","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":34,"s":[[5770585126,8],[2317705815,9],[2628839379,10],[2355238809,11]]},
+  {"id":8461732,"t":{"ref":"141","name":"RGTR 141: Martelange, Gare => Wiltz, Lycée du Nord","from":"Martelange, Gare","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":33,"s":[[2628839379,26],[2355238809,27],[5770526273,28]]},
+  {"id":8461733,"t":{"ref":"141","name":"RGTR 141: Wiltz, Lycée du Nord => Martelange, Gare","from":"Wiltz, Lycée du Nord","to":"Martelange, Gare","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":35,"s":[[5770526273,7],[5746557448,8],[2628839382,9]]},
+  {"id":8461769,"t":{"ref":"142","name":"RGTR 142: Oberwampach, Belzen => Wiltz, Lycée du Nord","from":"Oberwampach, Belzen","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":11,"s":[[5783856159,5]]},
+  {"id":8461770,"t":{"ref":"142","name":"RGTR 142: Wiltz, Lycée du Nord => Oberwampach, Belzen","from":"Wiltz, Lycée du Nord","to":"Oberwampach, Belzen","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":11,"s":[[5783856159,7]]},
+  {"id":8475400,"t":{"ref":"140","name":"RGTR 140: Troisvierges, Gare => Wiltz, Lycée du Nord","from":"Troisvierges, Gare","to":"Wiltz, Lycée du Nord","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":19,"s":[[2317959649,13],[2628839379,14],[2355238809,15]]},
+  {"id":8475401,"t":{"ref":"140","name":"RGTR 140: Wiltz, Lycée du Nord => Troisvierges, Gare","from":"Wiltz, Lycée du Nord","to":"Troisvierges, Gare","network":"RGTR","operator":"Sales-Lentz;Autobus Stephany","colour":"#EF3744","route":"bus","public_transport:version":"2"},"n":22,"s":[[5746557448,7],[2628839382,8],[1693711686,9]]},
+  {"id":8545340,"t":{"ref":"161","name":"RGTR 161: Marnach, Geschäftszenter => Pommerloch, Theis","from":"Marnach, Geschäftszenter","to":"Pommerloch, Theis","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":30,"s":[[2317959649,27],[2628839379,28],[2355238809,29]]},
+  {"id":8545341,"t":{"ref":"161","name":"RGTR 161: Pommerloch, Theis => Marnach, Geschäftszenter","from":"Pommerloch, Theis","to":"Marnach, Geschäftszenter","network":"RGTR","operator":"Sales-Lentz","colour":"#9ACA3C","route":"bus","public_transport:version":"2"},"n":29,"s":[[5746557448,1],[2628839382,2],[1693711686,3]]}
+]
+}

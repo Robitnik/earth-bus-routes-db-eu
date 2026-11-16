@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2939,4052],
+"stops":[
+  {"id":683269202,"lat":56.960007,"lon":22.615299,"k":"p","n":"Pūces"},
+  {"id":683269222,"lat":56.965322,"lon":22.622618,"k":"p","n":"Strīķi"},
+  {"id":683269240,"lat":56.979456,"lon":22.630474,"k":"p","n":"Grunduļi"},
+  {"id":683269242,"lat":56.978958,"lon":22.629181,"k":"p","n":"Grunduļi"},
+  {"id":683269259,"lat":56.996413,"lon":22.638883,"k":"p","n":"Buses pagrieziens"},
+  {"id":683269279,"lat":56.996899,"lon":22.639461,"k":"p","n":"Buses pagrieziens"},
+  {"id":683375367,"lat":56.95104,"lon":22.642458,"k":"p","n":"Amula"},
+  {"id":683375369,"lat":56.950661,"lon":22.642786,"k":"p","n":"Amula"},
+  {"id":683443318,"lat":56.967276,"lon":22.604333,"k":"p","n":"Viesturi"},
+  {"id":3536176045,"lat":56.966661,"lon":22.62349,"k":"p","n":"Strīķi"},
+  {"id":8589518586,"lat":56.960067,"lon":22.615016,"k":"p","n":"Pūces"},
+  {"id":8589518587,"lat":56.978918,"lon":22.629263,"k":"x","n":"Grunduļi"},
+  {"id":8589518596,"lat":56.979509,"lon":22.630385,"k":"x","n":"Grunduļi"},
+  {"id":13095003327,"lat":56.99692,"lon":22.639336,"k":"x","n":"Buses pagrieziens"},
+  {"id":13095003338,"lat":56.996389,"lon":22.638988,"k":"x","n":"Buses pagrieziens"}
+],
+"routes":[
+  {"id":12532118,"t":{"ref":"7258","name":"Bus 7258: Kandava -> Saldus AO","from":"Kandava","to":"Saldus AO","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":15,"s":[[683269242,4],[8589518586,5]]},
+  {"id":12532134,"t":{"ref":"7258","name":"Bus 7258: Saldus AO -> Kandava","from":"Saldus AO","to":"Kandava","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":15,"s":[[683269202,11],[683269240,12]]},
+  {"id":19521908,"t":{"ref":"6037","name":"bus 6037: Kandava => Matkule => Vāne => Varieba => Kandava","from":"Kandava","to":"Kandava","route":"bus","public_transport:version":"2"},"n":17,"s":[[683269259,4],[8589518586,5,7],[683269202,13],[683269279,14]]},
+  {"id":19521915,"t":{"ref":"6037","name":"bus 6037: Kandava => Varieba => Vāne => Matkule => Kandava","from":"Kandava","to":"Kandava","route":"bus","public_transport:version":"2"},"n":17,"s":[[683269259,4],[8589518586,5],[683269202,11,13],[683269279,14]]},
+  {"id":20246110,"t":{"ref":"6039","name":"6039 Vāne – Zemīte – Tukums","from":"Vāne","to":"Tukuma AO","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":13,"s":[[683269202,3]]},
+  {"id":20246123,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Vāne","from":"Tukuma AO","to":"Vāne","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":13,"s":[[8589518586,11]]},
+  {"id":21104635,"t":{"ref":"6039","name":"6039 Matkule – Varieba – Vāne – Zemīte – Tukums","from":"Matkule","to":"Tukuma AO","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":21,"s":[[8589518586,4],[683269202,11]]},
+  {"id":21104636,"t":{"ref":"6039","name":"6039 Matkule – Vāne – Zemīte – Tukums","from":"Matkule","to":"Tukuma AO","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":16,"s":[[8589518586,2],[683269202,6]]},
+  {"id":21104637,"t":{"ref":"6039","name":"6039 Vāne – Matkule – Zemīte – Tukums","from":"Vāne","to":"Tukuma AO","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":15,"s":[[683269202,3,5]]},
+  {"id":21104638,"t":{"ref":"6039","name":"6039 Vāne – Varieba – Matkule – Zemīte – Tukums","from":"Vāne","to":"Tukuma AO","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":20,"s":[[683269202,6,10]]},
+  {"id":21104639,"t":{"ref":"6039","name":"6039 Vāne – Matkule – Zemīte – Tukums","from":"Vāne","to":"Tukuma AO","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":17,"s":[[683269202,3,7]]},
+  {"id":21104640,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Matkule – Varieba – Vāne","from":"Tukuma AO","to":"Vāne","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":20,"s":[[8589518586,11,15]]},
+  {"id":21104641,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Vāne – Varieba – Matkule","from":"Tukuma AO","to":"Matkule","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":21,"s":[[8589518586,11],[683269202,18]]},
+  {"id":21104642,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Pūces – Varieba – Vāne","from":"Tukuma AO","to":"Vāne","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":16,"s":[[8589518586,11]]},
+  {"id":21104643,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Matkule – Vāne","from":"Tukuma AO","to":"Vāne","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":15,"s":[[8589518586,11,13]]},
+  {"id":21104644,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Matkule – Vāne","from":"Tukuma AO","to":"Vāne","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":17,"s":[[8589518586,11,15]]},
+  {"id":21104645,"t":{"ref":"6039","name":"6039 Tukums – Zemīte – Vāne – Matkule","from":"Tukuma AO","to":"Matkule","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":16,"s":[[8589518586,11],[683269202,15]]},
+  {"id":21189012,"t":{"ref":"7512","name":"Autobuss 7512: Talsi – Vāne – Kuldīga – Aizpute – Liepāja","from":"Talsu AO","to":"Liepājas AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":39,"s":[[8589518586,9]]}
+]
+}

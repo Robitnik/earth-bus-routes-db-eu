@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2915,3778],
+"stops":[
+  {"id":1252451715,"lat":55.758994,"lon":8.931506,"k":"s","n":"Grindsted Rutebilstation"},
+  {"id":8852195620,"lat":55.759375,"lon":8.931451,"k":"x"},
+  {"id":8852195621,"lat":55.759279,"lon":8.931528,"k":"x"},
+  {"id":8852195622,"lat":55.759173,"lon":8.93162,"k":"x","n":"Grindsted Rutebilstation"},
+  {"id":8852195623,"lat":55.759066,"lon":8.931716,"k":"x","n":"Grindsted Rutebilstation"},
+  {"id":8852195624,"lat":55.758959,"lon":8.931806,"k":"x"},
+  {"id":8852195625,"lat":55.758853,"lon":8.931896,"k":"x"},
+  {"id":8852195626,"lat":55.758747,"lon":8.932004,"k":"x"},
+  {"id":8852195627,"lat":55.758644,"lon":8.932082,"k":"x"},
+  {"id":8910083993,"lat":55.752931,"lon":8.922232,"k":"p","n":"Tinghusgade (Grindsted)"},
+  {"id":8910083994,"lat":55.753144,"lon":8.92113,"k":"p","n":"Tinghusgade (Grindsted)"},
+  {"id":8910083995,"lat":55.758322,"lon":8.923495,"k":"p","n":"Vestergade v Vestre Allé (Grindsted)"},
+  {"id":8910083996,"lat":55.758771,"lon":8.924917,"k":"p","n":"Vestre Allé v Vestergade (Grindsted)"},
+  {"id":8910083997,"lat":55.761908,"lon":8.93138,"k":"p","n":"Tårnvej v Chr Lundgaardsvej (Grindsted)"},
+  {"id":8910083998,"lat":55.762133,"lon":8.933009,"k":"p","n":"Tårnvej v Chr Lundgaardsvej (Grindsted)"},
+  {"id":8910083999,"lat":55.760941,"lon":8.941085,"k":"p","n":"Tårnvej v produktionsskolen (Grindsted)"},
+  {"id":8910084000,"lat":55.760799,"lon":8.941081,"k":"p","n":"Tårnvej v produktionsskolen (Grindsted)"},
+  {"id":8910084001,"lat":55.758242,"lon":8.944174,"k":"p","n":"Tårnvej v Industrivej (Grindsted)"},
+  {"id":8910084002,"lat":55.756416,"lon":8.945201,"k":"p","n":"Ribersvej v Dalsøvej (Grindsted)"},
+  {"id":8910084003,"lat":55.755419,"lon":8.944847,"k":"p","n":"Ribersvej v Dalsøvej (Grindsted)"},
+  {"id":5000956496413,"lat":55.759458,"lon":8.931392,"k":"p"},
+  {"id":5000956496414,"lat":55.759344,"lon":8.931488,"k":"p"},
+  {"id":5000956496415,"lat":55.75924,"lon":8.931579,"k":"p","n":"Grindsted Rutebilstation"},
+  {"id":5000956496416,"lat":55.759135,"lon":8.93167,"k":"p","n":"Grindsted Rutebilstation"}
+],
+"routes":[
+  {"id":12861214,"t":{"ref":"81","name":"Grindsted - Herning","from":"Grindsted","to":"Herning","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":16,"s":[[5000956496413,1]]},
+  {"id":12862276,"t":{"ref":"81","name":"Herning - Grindsted via Sandet","from":"Herning","to":"Grindsted","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000956496414,17]]},
+  {"id":12862944,"t":{"ref":"81","name":"Sønder Felding - Grindsted","from":"Sønder Felding","to":"Grindsted","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000956496413,8]]},
+  {"id":12938058,"t":{"ref":"144","name":"Bus 144: Esbjerg Busterminal -> Billund Centret -> Billund Lufthavn","from":"Esbjerg Busterminal","to":"Billund Lufthavn","network":"Sydtrafik","operator":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":46,"s":[[8910083994,32],[8910083995,33],[5000956496415,34],[8910083998,35],[8910084000,36],[8910084003,37]]},
+  {"id":13024415,"t":{"ref":"144","name":"Bus 144: Billund Lufthavn - Esbjerg Busterminal","from":"Billund Lufthavn","to":"Esbjerg Busterminal","network":"Sydtrafik","operator":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":46,"s":[[8910084002,7],[8910083999,8],[8910083997,9],[5000956496416,10],[8910083996,11],[8910083993,12]]},
+  {"id":13025328,"t":{"ref":"144","name":"144 Grindsted - Agerbæk","from":"Grindsted Rutebilstation","to":"Agerbæk, Jernbanegade v Storegade","network":"Sydtrafik","operator":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000956496416,1],[8910083996,2],[8910083993,3]]},
+  {"id":13027401,"t":{"ref":"144","name":"Bus 144: Billund Lufthavn - Gjesing - Esbjerg Busterminal","from":"Billund Lufthavn","to":"Esbjerg Busterminal","network":"Sydtrafik","operator":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":43,"s":[[8910084002,7],[8910083999,8],[8910083997,9],[5000956496416,10],[8910083996,11],[8910083993,12]]},
+  {"id":13028908,"t":{"ref":"144","name":"Bus 144: Esbjerg Busterminal -> Billund Lufthavn","from":"Esbjerg Busterminal","to":"Billund Lufthavn","network":"Sydtrafik","operator":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":45,"s":[[8910083994,31],[8910083995,32],[5000956496415,33],[8910083998,34],[8910084000,35],[8910084003,36]]},
+  {"id":13030810,"t":{"ref":"144","name":"Bus 144: Esbjerg Busterminal -> Billund Lufthavn","from":"Esbjerg Busterminal","to":"Billund Lufthavn","network":"Sydtrafik","operator":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":40,"s":[[8910083994,32],[8910083995,33],[5000956496415,34],[8910083998,35],[8910084000,36],[8910084003,37]]}
+]
+}

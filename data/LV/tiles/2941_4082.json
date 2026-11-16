@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2941,4082],
+"stops":[
+  {"id":321346955,"lat":57.052956,"lon":24.144808,"k":"p","n":"Langa","q":1},
+  {"id":321346959,"lat":57.052749,"lon":24.143779,"k":"p","n":"Langa","q":1},
+  {"id":321346985,"lat":57.05263,"lon":24.137557,"k":"p","n":"Kalēji","q":1},
+  {"id":321346988,"lat":57.051412,"lon":24.127986,"k":"p","n":"Līgeri","q":1},
+  {"id":321346999,"lat":57.05102,"lon":24.12715,"k":"p","n":"Līgeri","q":1},
+  {"id":1365075592,"lat":57.052448,"lon":24.13855,"k":"p","n":"Kalēji","q":1},
+  {"id":1385267633,"lat":57.076532,"lon":24.111908,"k":"p","n":"Vecāķi","q":1},
+  {"id":1460757950,"lat":57.070615,"lon":24.105009,"k":"p","n":"Pagrieziens uz Mangaļsalu","q":1},
+  {"id":1837779555,"lat":57.05589,"lon":24.104473,"k":"p","n":"Skanstnieki","q":1},
+  {"id":1837779567,"lat":57.059027,"lon":24.105657,"k":"p","n":"Vecdaugavas stacija","q":1},
+  {"id":1852384950,"lat":57.050537,"lon":24.101871,"k":"p","n":"Ķīļu iela","q":1},
+  {"id":1852384952,"lat":57.050502,"lon":24.101991,"k":"p","n":"Ķīļu iela","q":1},
+  {"id":1852384955,"lat":57.070329,"lon":24.104812,"k":"p","n":"Vecāķu prospekts","q":1},
+  {"id":1852384958,"lat":57.064189,"lon":24.105854,"k":"p","n":"Zvejas iela","q":1},
+  {"id":6354121172,"lat":57.055373,"lon":24.1045,"k":"p","n":"Skanstnieki","q":1},
+  {"id":6354170305,"lat":57.059136,"lon":24.105953,"k":"p","n":"Vecdaugavas stacija","q":1},
+  {"id":6356138803,"lat":57.063735,"lon":24.106198,"k":"p","n":"Zvejas iela","q":1},
+  {"id":13997276893,"lat":57.074682,"lon":24.106762,"k":"p","n":"Paceplīša iela"}
+],
+"routes":[
+  {"id":11261892,"t":{"ref":"11","name":"Bus 11: Jaunciema kapi => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":40,"s":[[321346955,9],[321346985,10],[321346999,11]]},
+  {"id":11261893,"t":{"ref":"11","name":"Bus 11: Suži => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":41,"s":[[321346955,10],[321346985,11],[321346999,12]]},
+  {"id":11261894,"t":{"ref":"11","name":"Bus 11: Abrenes iela => Jaunciema kapi","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":40,"s":[[321346988,30],[1365075592,31],[321346959,32]]},
+  {"id":11261895,"t":{"ref":"11","name":"Bus 11: Abrenes iela => Suži","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":41,"s":[[321346988,30],[1365075592,31],[321346959,32]]},
+  {"id":11272828,"t":{"ref":"24","name":"Bus 24: Mangaļsala => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":45,"s":[[1852384955,9],[1852384958,10],[1837779567,11],[1837779555,12],[1852384950,13]]},
+  {"id":11272829,"t":{"ref":"24","name":"Bus 24: Abrenes iela => Mangaļsala","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":45,"s":[[1852384952,33],[6354121172,34],[6354170305,35],[6356138803,36],[1460757950,37]]},
+  {"id":11281289,"t":{"ref":"29","name":"Bus 29: Vecmīlgrāvis => Jaunciema kapi => Mežciems","from":"Vecmīlgrāvis","to":"Mežciems","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":46,"s":[[321346988,13],[1365075592,14],[321346959,15]]},
+  {"id":11281290,"t":{"ref":"29","name":"Bus 29: Vecmīlgrāvis => Mežciems","from":"Vecmīlgrāvis","to":"Mežciems","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":44,"s":[[321346988,13],[1365075592,14],[321346959,15]]},
+  {"id":11281291,"t":{"ref":"29","name":"Bus 29: Mežciems => Vecmīlgrāvis","from":"Mežciems","to":"Vecmīlgrāvis","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":46,"s":[[321346955,31],[321346985,32],[321346999,33]]},
+  {"id":11281292,"t":{"ref":"29","name":"Bus 29: Mežciems => Jaunciema kapi => Vecmīlgrāvis","from":"Mežciems","to":"Vecmīlgrāvis","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":48,"s":[[321346955,33],[321346985,34],[321346999,35]]},
+  {"id":21199446,"t":{"ref":"58","name":"Bus 58: Purvciems => Vecmīlgrāvis => Vecāķi","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":30,"s":[[1852384952,24],[6354121172,25],[6354170305,26],[6356138803,27],[1460757950,28],[13997276893,29],[1385267633,30]]},
+  {"id":21199447,"t":{"ref":"58","name":"Bus 58: Vecāķi => Vecmīlgrāvis => Purvciems","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":25,"s":[[1385267633,1],[1852384955,2],[1852384958,3],[1837779567,4],[1837779555,5],[1852384950,6]]}
+]
+}

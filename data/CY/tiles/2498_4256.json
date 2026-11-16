@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"CY",
+"tile":[2498,4256],
+"stops":[
+  {"id":5415059377,"lat":34.949792,"lon":32.832609,"k":"p","n":"Prodromos Vilalge Center 1","ref":"11171"},
+  {"id":10556997189,"lat":34.917608,"lon":32.813757,"k":"p","n":"Agios Georgios Kapourallis Church","ref":"11734"},
+  {"id":10556997193,"lat":34.925294,"lon":32.809535,"k":"p","n":"Agios Dimitrios 1","ref":"11733"},
+  {"id":10556997194,"lat":34.925483,"lon":32.809579,"k":"p","n":"Agios Dimitrios 2","ref":"11732"},
+  {"id":10557014061,"lat":34.949918,"lon":32.832741,"k":"p","n":"Κέντρο Προδρόμου 2","ref":"11738"}
+],
+"routes":[
+  {"id":8024651,"t":{"ref":"81","from":"Prodromos","to":"Atsas","network":"NPT","operator":"CPT","colour":"#FF0080","route":"bus","public_transport:version":"2"},"n":14,"s":[[5415059377,1]]},
+  {"id":8027586,"t":{"ref":"61","name":"61 Σαιττας - Πρόδρομος","network":"Λεμεσός","operator":"Ε.Μ.Ε.Λ.","route":"bus","public_transport:version":"2"},"n":2,"s":[[5415059377,1]]},
+  {"id":15405650,"t":{"ref":"62A","name":"Bus 62A: Agios Dimitrios - Treis Elies - Kaminaria","from":"Agios Dimitrios","to":"Kaminaria","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#804000","route":"bus","public_transport:version":"2"},"n":5,"s":[[10556997189,1],[10556997193,2]]},
+  {"id":15405651,"t":{"name":"Bus 62A: Agios Dimitrios - Treis Elies - Kaminaria","from":"Kaminaria","to":"Agios Dimitrios","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#804000","route":"bus","public_transport:version":"2"},"n":5,"s":[[10556997189,1],[10556997193,2]]},
+  {"id":16293515,"t":{"ref":"62A","name":"Bus 62A: Kaminaria - Treis Elies - Agios Dimitrios","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#804000","route":"bus","public_transport:version":"2"},"n":5,"s":[[10556997194,4],[10556997189,5]]},
+  {"id":20217856,"t":{"ref":"81","from":"Atsas","to":"Prodromos","network":"NPT","operator":"CPT","colour":"#FF0080","route":"bus","public_transport:version":"2"},"n":14,"s":[[5415059377,14]]}
+]
+}

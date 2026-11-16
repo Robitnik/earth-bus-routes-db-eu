@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2863,3463],
+"stops":[
+  {"id":917121130,"lat":53.17416,"lon":-6.805913,"k":"p"},
+  {"id":917121163,"lat":53.174229,"lon":-6.805837,"k":"p","n":"Moorefield Road","ref":"40-543;103941"},
+  {"id":958790454,"lat":53.176554,"lon":-6.81345,"k":"p","n":"Rapid Town Link"},
+  {"id":972499151,"lat":53.182896,"lon":-6.805175,"k":"p","n":"Rapid Town Link"},
+  {"id":972499163,"lat":53.182787,"lon":-6.805224,"k":"p","n":"Rapid Town Link"},
+  {"id":979920585,"lat":53.176742,"lon":-6.802811,"k":"p","n":"Newbridge Retail Park","ref":"104101"},
+  {"id":1127158164,"lat":53.174542,"lon":-6.803402,"k":"p"},
+  {"id":1127158167,"lat":53.174602,"lon":-6.803071,"k":"p"},
+  {"id":1212230942,"lat":53.189861,"lon":-6.808312,"k":"p"},
+  {"id":2752960478,"lat":53.1693,"lon":-6.80939,"k":"p","n":"Green Road"},
+  {"id":2752960479,"lat":53.169321,"lon":-6.809221,"k":"p","n":"Green Road"},
+  {"id":2752960533,"lat":53.173043,"lon":-6.807708,"k":"p","n":"Moorefield Crescent","ref":"136991"},
+  {"id":2752970937,"lat":53.173034,"lon":-6.807721,"k":"p","n":"Rapid Town Link","ref":"136991"},
+  {"id":8502350646,"lat":53.157359,"lon":-6.817148,"k":"p","n":"Saint Brigid's Hospice"},
+  {"id":8502350660,"lat":53.157364,"lon":-6.817408,"k":"p","n":"Saint Brigid's Hospice"},
+  {"id":8502350661,"lat":53.177909,"lon":-6.801056,"k":"p","n":"Edward Street","ref":"103931"}
+],
+"routes":[
+  {"id":1312766,"t":{"name":"Newbridge to Kilcullen","operator":"J.J. Kavanagh & Sons","route":"bus"},"n":5,"s":[[972499163,5]]},
+  {"id":12423393,"t":{"ref":"126","name":"Bus 126: Kildare → Dublin","from":"Kildare","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350646,8],[2752960478,9],[2752960533,10],[979920585,11]]},
+  {"id":12423394,"t":{"ref":"126","name":"Bus 126: Dublin → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350661,33],[917121163,34],[2752960479,35],[8502350660,36]]},
+  {"id":12527518,"t":{"ref":"126","name":"Bus 126: Dublin → Kildare → Rathangan","from":"Dublin","to":"Rathangan","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":43,"s":[[8502350661,33],[917121163,34],[2752960479,35],[8502350660,36]]},
+  {"id":12527519,"t":{"ref":"126","name":"Bus 126: Rathangan → Kildare → Dublin","from":"Rathangan","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":43,"s":[[8502350646,9],[2752960478,10],[2752960533,11],[979920585,12]]},
+  {"id":12528080,"t":{"ref":"126E","name":"Bus 126E: Kildare → Dublin","from":"Kildare","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":34,"s":[[8502350646,8],[2752960478,9],[2752960533,10],[979920585,11]]},
+  {"id":14320799,"t":{"ref":"726","from":"Dublin","to":"Portlaoise","operator":"Dublin Coach","route":"bus","public_transport:version":"2"},"n":12,"s":[[917121130,9]]},
+  {"id":14460374,"t":{"ref":"126","name":"Bus 126: Kildare → Kill","from":"Kildare","to":"Kill","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":31,"s":[[8502350646,8],[2752960478,9],[2752960533,10],[979920585,11]]},
+  {"id":14460376,"t":{"ref":"126","name":"Bus 126: Kill → Kildare","from":"Kill","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":30,"s":[[8502350661,21],[917121163,22],[2752960479,23],[8502350660,24]]},
+  {"id":14460405,"t":{"ref":"126A","name":"Bus 126A: Dublin → Japanese Gardens → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350661,33],[917121163,34],[2752960479,35],[8502350660,36]]},
+  {"id":14460406,"t":{"ref":"126A","name":"Bus 126A: Rathangan → Japanese Gardens → Dublin","from":"Rathangan","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350646,8],[2752960478,9],[2752960533,10],[979920585,11]]},
+  {"id":14460466,"t":{"ref":"126D","name":"Bus 126D: Dublin → Suncroft → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":41,"s":[[8502350661,33],[917121163,34],[2752960479,35],[8502350660,36]]},
+  {"id":14460467,"t":{"ref":"126B","name":"Bus 126B: Kildare → Suncroft → Dublin","from":"Kildare","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":40,"s":[[8502350646,6],[2752960478,7],[2752960533,8],[979920585,9]]},
+  {"id":14460495,"t":{"ref":"126U","name":"Bus 126U: Kildare → Dublin (UCD)","from":"Kildare","to":"Dublin (UCD)","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":46,"s":[[8502350646,8],[2752960478,9],[2752960533,10],[979920585,11]]},
+  {"id":14460580,"t":{"ref":"126T","name":"Bus 126T: Dublin → Tallaght Hospital → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":41,"s":[[8502350661,33],[917121163,34],[2752960479,35],[8502350660,36]]}
+]
+}

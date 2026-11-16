@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2906,3816],
+"stops":[
+  {"id":5103280122,"lat":55.31321,"lon":10.803194,"k":"x","n":"Nyborg Station"},
+  {"id":5103280125,"lat":55.313169,"lon":10.803117,"k":"x","n":"Nyborg Station"},
+  {"id":5103280128,"lat":55.313127,"lon":10.80304,"k":"x","n":"Nyborg Station"},
+  {"id":5103280131,"lat":55.313085,"lon":10.802957,"k":"x","n":"Nyborg Station"},
+  {"id":5103280133,"lat":55.313049,"lon":10.802889,"k":"x","n":"Nyborg Station"},
+  {"id":7778709814,"lat":55.30789,"lon":10.809802,"k":"x","n":"Nyborg"},
+  {"id":11341533127,"lat":55.309738,"lon":10.804401,"k":"p","n":"Banegårdsalléen S"},
+  {"id":11341533128,"lat":55.309706,"lon":10.804542,"k":"p","n":"Banegårdsalléen N"},
+  {"id":12614684014,"lat":55.313192,"lon":10.803435,"k":"p","n":"Nyborg Station","ref":"1"},
+  {"id":5000524403626,"lat":55.31307,"lon":10.8032,"k":"p","n":"Nyborg Station","ref":"4"},
+  {"id":5000524403632,"lat":55.312989,"lon":10.803044,"k":"p","n":"Nyborg Station","ref":"6"},
+  {"id":6092407040922,"lat":55.309914,"lon":10.805283,"k":"p","n":"Nyborg FlixBus stop (Circle K)","g":1}
+],
+"routes":[
+  {"id":1756620,"t":{"ref":"1","name":"1 Skovparken - Nyborg Station - Bavnehøjalle","from":"Skovparken","to":"Bavnehøjalle","network":"FynBus","operator":"Fynbus","colour":"#0071BB","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000524403632,14]]},
+  {"id":6250070,"t":{"ref":"900A","name":"900A - Rudkøbing - Svendborg - Nyborg","from":"Rudkøbing","to":"Nyborg","network":"FynBus","operator":"Fynbus","colour":"#3e7182","route":"bus","public_transport:version":"2"},"n":4,"s":[[11341533128,3],[5000524403626,4]]},
+  {"id":6250152,"t":{"ref":"800A","name":"800A - Faaborg - Svendborg - Nyborg","from":"Faaborg","to":"Nyborg","network":"FynBus","operator":"Fynbus","colour":"#064D87","route":"bus","public_transport:version":"2"},"n":45,"s":[[5000524403626,45]]},
+  {"id":6428616,"t":{"ref":"195","name":"195 - Nyborg - Langeskov - Odense","from":"Nyborg","to":"Odense","network":"FynBus","operator":"Fynbus","colour":"#adcb57","route":"bus","public_transport:version":"2"},"n":2,"s":[[5103280122,1]]},
+  {"id":17027717,"t":{"ref":"800A","name":"800A - Nyborg - Svendborg - Faaborg","from":"Nyborg","to":"Faaborg","network":"FynBus","operator":"Fynbus","colour":"#064D87","route":"bus","public_transport:version":"2"},"n":44,"s":[[5000524403626,1]]},
+  {"id":3004787593988,"t":{"ref":"FlixBus 628","name":"FlixBus 628: Copenhagen Airport - Rudkøbing Færge Terminal","from":"Copenhagen Airport","to":"Rudkøbing Færge Terminal","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":8,"s":[[6092407040922,3]]},
+  {"id":3016229159073,"t":{"ref":"FlixBus 628","name":"FlixBus 628: Rudkøbing Færge Terminal - Copenhagen Airport","from":"Rudkøbing Færge Terminal","to":"Copenhagen Airport","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":8,"s":[[6092407040922,6]]}
+]
+}

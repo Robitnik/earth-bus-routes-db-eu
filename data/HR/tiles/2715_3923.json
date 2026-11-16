@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2715,3923],
+"stops":[
+  {"id":748334725,"lat":45.750478,"lon":16.156403,"k":"p","n":"Strmec Bukevski"},
+  {"id":3027378822,"lat":45.799662,"lon":16.150805,"k":"p","n":"Dumovec"},
+  {"id":3741907148,"lat":45.79348,"lon":16.155869,"k":"p","n":"IKEA"},
+  {"id":4406826739,"lat":45.780744,"lon":16.158247,"k":"p"},
+  {"id":4968950649,"lat":45.767396,"lon":16.183666,"k":"p","n":"Čista Mlaka"},
+  {"id":8441738541,"lat":45.750267,"lon":16.156492,"k":"p","n":"Strmec Bukevski"},
+  {"id":8857080161,"lat":45.783336,"lon":16.152065,"k":"p","n":"Sop"},
+  {"id":8857080162,"lat":45.780521,"lon":16.158907,"k":"p"},
+  {"id":8857080163,"lat":45.778945,"lon":16.166735,"k":"p"},
+  {"id":8857080164,"lat":45.780052,"lon":16.173663,"k":"p"},
+  {"id":8857080165,"lat":45.77634,"lon":16.177133,"k":"p"},
+  {"id":8857080166,"lat":45.771846,"lon":16.176188,"k":"p"},
+  {"id":8857080167,"lat":45.764157,"lon":16.192013,"k":"p","n":"Struga Nartska"}
+],
+"routes":[
+  {"id":1750105,"t":{"ref":"276","name":"Bus 276: Kvaternikov trg => Dumovec","from":"Kvaternikov trg","to":"Dumovec","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":25,"s":[[3741907148,23],[3027378822,24]]},
+  {"id":1777748,"t":{"ref":"307","name":"Bus 307: Zapruđe => Strmec Bukevski","from":"Zapruđe","to":"Strmec Bukevski","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":25,"s":[[8441738541,24]]},
+  {"id":1777765,"t":{"ref":"15","name":"Bus 15: Velika Gorica => Strmec Bukevski","from":"Velika Gorica","to":"Strmec Bukevski","network":"Arriva","operator":"Arriva City bus Velika Gorica","route":"bus","public_transport:version":"2"},"n":12,"s":[[8441738541,11]]},
+  {"id":12343202,"t":{"ref":"307","name":"Bus 307: Strmec Bukevski => Zapruđe","from":"Strmec Bukevski","to":"Zapruđe","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":25,"s":[[748334725,2]]},
+  {"id":12345810,"t":{"ref":"15","name":"Bus 15: Strmec Bukevski => Velika Gorica","from":"Strmec Bukevski","to":"Velika Gorica","network":"Arriva","operator":"Arriva City bus Velika Gorica","route":"bus","public_transport:version":"2"},"n":11,"s":[[748334725,2]]},
+  {"id":12476719,"t":{"ref":"307","name":"Bus 307: Strmec Bukevski => Sasi => Zapruđe","from":"Strmec Bukevski","to":"Zapruđe","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":34,"s":[[748334725,2]]},
+  {"id":12476720,"t":{"ref":"307","name":"Bus 307: Zapruđe => Sasi => Strmec Bukevski","from":"Zapruđe","to":"Strmec Bukevski","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":34,"s":[[8441738541,33]]},
+  {"id":12476817,"t":{"ref":"284","name":"Bus 284: Sesvete => Sesvetska Selnica => Ivanja Reka => Dumovec","from":"Sesvete","to":"Dumovec","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":18,"s":[[3027378822,17]]},
+  {"id":12873499,"t":{"name":"Bus Čazmatrans: Zagreb => Prevlaka","from":"Zagreb A.K.","to":"Prevlaka","network":"Čazmatrans","operator":"Čazmatrans","route":"bus","public_transport:version":"2"},"n":24,"s":[[8857080161,7],[8857080162,8],[8857080163,9],[8857080164,10],[8857080165,11],[8857080166,12],[4968950649,13],[8857080167,14]]},
+  {"id":18304570,"t":{"ref":"284","name":"Bus 284: Sesvete => Ivanja Reka => Dumovec","from":"Sesvete","to":"Dumovec","network":"ZET","operator":"ZET","route":"bus"},"n":12,"s":[[3027378822,11]]}
+]
+}

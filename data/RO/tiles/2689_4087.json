@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2689,4087],
+"stops":[
+  {"id":2642957452,"lat":44.46416,"lon":24.383284,"k":"x","n":"Satul Nou"},
+  {"id":3422353909,"lat":44.452041,"lon":24.368972,"k":"x","n":"Eroilor"},
+  {"id":6411500582,"lat":44.452059,"lon":24.368862,"k":"p","n":"Eroilor"},
+  {"id":6411500583,"lat":44.460147,"lon":24.382995,"k":"s","n":"Stația Podgoriilor"},
+  {"id":6411501292,"lat":44.464238,"lon":24.383301,"k":"p","n":"Satul Nou","ref":"4"},
+  {"id":10833552344,"lat":44.451899,"lon":24.369017,"k":"s"}
+],
+"routes":[
+  {"id":13360843,"t":{"ref":"3","name":"Bus 3: LPS => Eroilor","from":"LPS","to":"Eroilor","network":"Loctrans Slatina","operator":"Loctrans Slatina","route":"bus","public_transport:version":"2"},"n":4,"s":[[6411500582,4]]},
+  {"id":13360844,"t":{"ref":"3","name":"Bus 3: Eroilor => LPS","from":"Eroilor","to":"LPS","network":"Loctrans Slatina","operator":"Loctrans Slatina","route":"bus","public_transport:version":"2"},"n":7,"s":[[6411500582,1]]},
+  {"id":13360994,"t":{"ref":"4","name":"Bus 4: Satul Nou => Catedrală","from":"Satul Nou","to":"Catedrală","network":"Loctrans Slatina","operator":"Loctrans Slatina","route":"bus","public_transport:version":"2"},"n":11,"s":[[6411501292,1]]},
+  {"id":13360995,"t":{"ref":"4","name":"Bus 4: Catedrală => Satul Nou","from":"Catedrală","to":"Satul Nou","network":"Loctrans Slatina","operator":"Loctrans Slatina","route":"bus","public_transport:version":"2"},"n":11,"s":[[6411501292,11]]}
+]
+}

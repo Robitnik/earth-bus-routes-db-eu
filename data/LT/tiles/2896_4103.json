@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2896,4103],
+"stops":[
+  {"id":1764384963,"lat":54.805546,"lon":25.199821,"k":"p","n":"Mažoji Riešė"},
+  {"id":1789595462,"lat":54.804159,"lon":25.159343,"k":"x"},
+  {"id":1789595491,"lat":54.804105,"lon":25.159118,"k":"p","n":"Putiniškės"},
+  {"id":1789595669,"lat":54.804324,"lon":25.15985,"k":"p","n":"Putiniškės"},
+  {"id":3544229414,"lat":54.815023,"lon":25.19867,"k":"p","n":"Kirzinė"},
+  {"id":3544229435,"lat":54.817955,"lon":25.172368,"k":"p","n":"Markiškės"},
+  {"id":3544229440,"lat":54.817453,"lon":25.173742,"k":"p","n":"Markiškės"},
+  {"id":3544229470,"lat":54.828249,"lon":25.157242,"k":"p","n":"Pieno punktas"},
+  {"id":3544229472,"lat":54.814254,"lon":25.198824,"k":"p","n":"Kirzinė"},
+  {"id":3544229595,"lat":54.804449,"lon":25.156659,"k":"p","n":"Putiniškės"},
+  {"id":3544229602,"lat":54.804096,"lon":25.199343,"k":"p","n":"Mažoji Riešė"},
+  {"id":3544229609,"lat":54.82907,"lon":25.156955,"k":"p","n":"Pieno punktas"},
+  {"id":4087040431,"lat":54.804243,"lon":25.159613,"k":"x"},
+  {"id":7418981166,"lat":54.808109,"lon":25.16419,"k":"p","n":"Gandrų st."},
+  {"id":12000340077,"lat":54.80512,"lon":25.16206,"k":"p","n":"Galinė"}
+],
+"routes":[
+  {"id":17748358,"t":{"ref":"111","name":"Bus 111: Sudervė => Šeškinės poliklinika","from":"Sudervė","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":15,"s":[[1789595491,7]]},
+  {"id":17748359,"t":{"ref":"111","name":"Bus 111: Šeškinės poliklinika => Sudervė","from":"Šeškinės poliklinika","to":"Sudervė","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":15,"s":[[3544229595,9]]},
+  {"id":17749378,"t":{"ref":"124","name":"Bus 124: Karvys => Vilnius Grand Resort => Šeškinės poliklinika","from":"2-asis Karvys","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":17,"s":[[12000340077,7],[7418981166,8],[1789595491,9]]},
+  {"id":17749379,"t":{"ref":"124","name":"Bus 124: Šeškinės poliklinika => Vilnius Grand Resort => Karvys","from":"Šeškinės poliklinika","to":"2-asis Karvys","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":17,"s":[[12000340077,9],[7418981166,10],[1789595669,11]]},
+  {"id":17749380,"t":{"ref":"124","name":"Bus 124: Šeškinės poliklinika => Karvys","from":"Šeškinės poliklinika","to":"2-asis Karvys","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":16,"s":[[12000340077,9],[7418981166,10],[1789595669,11]]},
+  {"id":17749381,"t":{"ref":"124","name":"Bus 124: Karvys => Šeškinės poliklinika","from":"2-asis Karvys","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":16,"s":[[12000340077,6],[7418981166,7],[1789595491,8]]},
+  {"id":17749382,"t":{"ref":"124","name":"Bus 124: Vilniaus autobusų stotis => Karvys","from":"Vilniaus autobusų stotis","to":"2-asis Karvys","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":21,"s":[[12000340077,14],[7418981166,15],[1789595669,16]]},
+  {"id":17749477,"t":{"ref":"117","name":"Bus 117: Maišiagala => Šeškinės poliklinika","from":"Maišiagala","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":20,"s":[[3544229470,5],[3544229440,6],[3544229472,7],[3544229602,8]]},
+  {"id":17749478,"t":{"ref":"117","name":"Bus 117: Maišiagala => Vilniaus autobusų stotis","from":"Maišiagala","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":26,"s":[[3544229470,5],[3544229440,6],[3544229472,7],[3544229602,8]]},
+  {"id":17749479,"t":{"ref":"117","name":"Bus 117: Šeškinės poliklinika => Maišiagala","from":"Šeškinės poliklinika","to":"Maišiagala","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":20,"s":[[1764384963,13],[3544229414,14],[3544229435,15],[3544229609,16]]},
+  {"id":17749480,"t":{"ref":"117","name":"Bus 117: Vilniaus autobusų stotis => Maišiagala","from":"Vilniaus autobusų stotis","to":"Maišiagala","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":25,"s":[[1764384963,18],[3544229414,19],[3544229435,20],[3544229609,21]]},
+  {"id":17749481,"t":{"ref":"118","name":"Bus 118: Miežionys => Riešė => Šeškinės poliklinika","from":"Miežionys","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":34,"s":[[3544229470,15],[3544229440,16],[3544229472,17],[3544229602,18]]},
+  {"id":17749482,"t":{"ref":"118","name":"Bus 118: Miežionys => Šeškinės poliklinika","from":"Miežionys","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":30,"s":[[3544229470,15],[3544229440,16],[3544229472,17],[3544229602,18]]},
+  {"id":17749483,"t":{"ref":"118","name":"Bus 118: Šeškinės poliklinika => Miežionys","from":"Šeškinės poliklinika","to":"Miežionys","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":30,"s":[[1764384963,13],[3544229414,14],[3544229435,15],[3544229609,16]]},
+  {"id":17749484,"t":{"ref":"118","name":"Bus 118: Miežionys => Vilniaus autobusų stotis","from":"Miežionys","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":36,"s":[[3544229470,15],[3544229440,16],[3544229472,17],[3544229602,18]]},
+  {"id":17749485,"t":{"ref":"118","name":"Bus 118: Vilniaus autobusų stotis => Miežionys","from":"Vilniaus autobusų stotis","to":"Miežionys","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":35,"s":[[1764384963,18],[3544229414,19],[3544229435,20],[3544229609,21]]},
+  {"id":17749486,"t":{"ref":"122","name":"Bus 122: Kernavė => Šeškinės poliklinika","from":"Kernavė","to":"Šeškinės poliklinika","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":32,"s":[[3544229470,17],[3544229440,18],[3544229472,19],[3544229602,20]]},
+  {"id":17749487,"t":{"ref":"122","name":"Bus 122: Kernavė => Vilniaus autobusų stotis","from":"Kernavė","to":"Vilniaus autobusų stotis","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":38,"s":[[3544229470,17],[3544229440,18],[3544229472,19],[3544229602,20]]},
+  {"id":17749488,"t":{"ref":"122","name":"Bus 122: Vilniaus autobusų stotis => Kernavė","from":"Vilniaus autobusų stotis","to":"Kernavė","network":"Vilniaus rajono savivaldybė","operator":"Šalčininkų autobusų parkas","route":"bus","public_transport:version":"2"},"n":37,"s":[[1764384963,18],[3544229414,19],[3544229435,20],[3544229609,21]]}
+]
+}

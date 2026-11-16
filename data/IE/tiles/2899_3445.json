@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2899,3445],
+"stops":[
+  {"id":791530089,"lat":54.9542,"lon":-7.728754,"k":"p","n":"Coach and Local Bus Stop"},
+  {"id":795319872,"lat":54.950897,"lon":-7.72085,"k":"p","n":"ATU Letterkenny"},
+  {"id":806716757,"lat":54.951427,"lon":-7.739843,"k":"p","n":"Cathedral Square Bus Stop"},
+  {"id":1922629619,"lat":54.953017,"lon":-7.728281,"k":"p"},
+  {"id":8431622784,"lat":54.950786,"lon":-7.721331,"k":"p","n":"ATU Letterkenny"},
+  {"id":8763050934,"lat":54.953795,"lon":-7.72841,"k":"p","n":"Letterkenny Bus Station"},
+  {"id":12043648088,"lat":54.964339,"lon":-7.745133,"k":"p"},
+  {"id":13335635648,"lat":54.960644,"lon":-7.732551,"k":"x","n":"Letterkenny Hospital"}
+],
+"routes":[
+  {"id":12752302,"t":{"ref":"32","name":"Bus 32: Letterkenny → Dublin","from":"Letterkenny","to":"Dublin","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":12,"s":[[8763050934,1],[795319872,2]]},
+  {"id":12752303,"t":{"ref":"32","name":"Bus 32: Dublin → Letterkenny","from":"Dublin","to":"Letterkenny","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":12,"s":[[8431622784,11],[8763050934,12]]},
+  {"id":18468362,"t":{"ref":"X32","name":"Bus X32: Letterkenny → Dublin","from":"Letterkenny","to":"Dublin","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":7,"s":[[8763050934,1],[795319872,2]]},
+  {"id":18468363,"t":{"ref":"X32","name":"Bus X32: Dublin → Letterkenny","from":"Dublin","to":"Letterkenny","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":6,"s":[[8431622784,5],[8763050934,6]]},
+  {"id":19891121,"t":{"ref":"264","name":"Ballyshannon to Letterkenny","from":"Ballyshannon","to":"Letterkenny","operator":"Local Link","route":"bus","public_transport:version":"2"},"n":4,"s":[[791530089,4]]},
+  {"id":19891122,"t":{"ref":"971","name":"Ailt An Chorráin to Letterkenny","from":"Ailt An Chorráin","to":"Letterkenny","operator":"TFI local Link","route":"bus","public_transport:version":"2"},"n":7,"s":[[8763050934,7]]},
+  {"id":20293495,"t":{"ref":"64","name":"Bus 64: Galway → Derry/Londonderry","from":"Galway","to":"Derry/Londonderry","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":25,"s":[[8763050934,21],[795319872,22]]}
+]
+}

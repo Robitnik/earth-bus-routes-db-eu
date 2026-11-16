@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2895,4108],
+"stops":[
+  {"id":1438627865,"lat":54.783067,"lon":25.403169,"k":"p","n":"Miškas"},
+  {"id":1438628029,"lat":54.792911,"lon":25.429189,"k":"p","n":"Balžio st."},
+  {"id":1438628056,"lat":54.783405,"lon":25.40458,"k":"p","n":"Miškas"},
+  {"id":1438628104,"lat":54.794202,"lon":25.436781,"k":"p","n":"Balžio žiedas"},
+  {"id":1438628227,"lat":54.792879,"lon":25.428733,"k":"p","n":"Balžio st."},
+  {"id":2876281016,"lat":54.750028,"lon":25.401428,"k":"p","n":"Žemoji Veržuva"},
+  {"id":2876281017,"lat":54.750025,"lon":25.401207,"k":"p","n":"Žemoji Veržuva"},
+  {"id":5042002979,"lat":54.794167,"lon":25.436783,"k":"x"},
+  {"id":7412298501,"lat":54.753783,"lon":25.414011,"k":"p","n":"Miškadvaris"},
+  {"id":7412298502,"lat":54.753015,"lon":25.415306,"k":"p","n":"Inovacijų pramonės parkas"},
+  {"id":7412298503,"lat":54.752211,"lon":25.416554,"k":"p","n":"Vismaliukai"},
+  {"id":7418981117,"lat":54.773145,"lon":25.403444,"k":"p","n":"SB „Karačiūnai“"},
+  {"id":7418981118,"lat":54.77313,"lon":25.403835,"k":"p","n":"SB „Karačiūnai“"},
+  {"id":11983615163,"lat":54.755242,"lon":25.416607,"k":"p","n":"Tujų st."},
+  {"id":12025770777,"lat":54.793989,"lon":25.436743,"k":"p","n":"Balžio žiedas"},
+  {"id":12025770783,"lat":54.771212,"lon":25.445862,"k":"p","n":"Tapelių ežeras"},
+  {"id":12025770784,"lat":54.771108,"lon":25.446466,"k":"p","n":"Tapelių ežeras"}
+],
+"routes":[
+  {"id":5280938,"t":{"ref":"39","name":"Bus 39: Balžio g. => Antakalnis","from":"Balžio žiedas","to":"Antakalnio žiedas","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":15,"s":[[1438628104,1],[1438628227,2],[1438627865,3]]},
+  {"id":5280939,"t":{"ref":"39","name":"Bus 39: Antakalnis => Balžio g.","from":"Antakalnio žiedas","to":"Balžio žiedas","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":15,"s":[[1438628056,13],[1438628029,14],[1438628104,15]]},
+  {"id":5281311,"t":{"ref":"114","name":"Bus 114: Vinciūniškės => Šiaurės miestelis","from":"Vinciūniškės","to":"Povilo Lukšio st.","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":29,"s":[[2876281017,3]]},
+  {"id":5281312,"t":{"ref":"114","name":"Bus 114: Šiaurės miestelis => Vinciūniškės","from":"Povilo Lukšio st.","to":"Vinciūniškės","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":26,"s":[[2876281016,24]]},
+  {"id":5281314,"t":{"ref":"38","name":"Bus 38: Antakalnis => Vismaliukai => Šilėnų g.","from":"Antakalnio žiedas","to":"Aukštoji Veržuva","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":23,"s":[[2876281016,17],[7412298502,18],[11983615163,19],[7412298501,20],[7412298503,21]]},
+  {"id":5281315,"t":{"ref":"38","name":"Bus 38: Šilėnų g. => Vismaliukai => Antakalnis","from":"Aukštoji Veržuva","to":"Antakalnio žiedas","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":24,"s":[[7412298502,3],[11983615163,4],[7412298501,5],[7412298503,6],[2876281017,7]]},
+  {"id":11004841,"t":{"ref":"38","name":"Bus 38: Šilėnų g. => Antakalnis","from":"Aukštoji Veržuva","to":"Antakalnio žiedas","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","route":"bus","public_transport:version":"2"},"n":20,"s":[[2876281017,3]]},
+  {"id":11004842,"t":{"ref":"38","name":"Bus 38: Antakalnis => Šilėnų g.","from":"Antakalnio žiedas","to":"Aukštoji Veržuva","network":"Vilniaus miesto savivaldybė","operator":"Transrevis","colour":"blue","route":"bus","public_transport:version":"2"},"n":19,"s":[[2876281016,17]]},
+  {"id":17790397,"t":{"ref":"172","name":"Bus 172: Bezdonys => Antakalnis","from":"Bezdonys","to":"Antakalnio žiedas","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":14,"s":[[12025770783,7],[7418981117,8]]},
+  {"id":17790398,"t":{"ref":"172","name":"Bus 172: Antakalnis => Bezdonys","from":"Antakalnio žiedas","to":"Bezdonys","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":13,"s":[[7418981118,6],[12025770784,7]]},
+  {"id":17790399,"t":{"ref":"174","name":"Bus 174: Bezdonys => Antakalnis","from":"Bezdonys","to":"Antakalnio žiedas","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":15,"s":[[1438628104,8],[1438628227,9]]},
+  {"id":17790400,"t":{"ref":"174","name":"Bus 174: Antakalnis => Bezdonys","from":"Antakalnio žiedas","to":"Bezdonys","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":15,"s":[[1438628029,7],[12025770777,8]]}
+]
+}

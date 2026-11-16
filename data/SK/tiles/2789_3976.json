@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2789,3976],
+"stops":[
+  {"id":1432471748,"lat":49.470649,"lon":18.803372,"k":"x","n":"Svrčinovec, u Kullov"},
+  {"id":2002018877,"lat":49.464588,"lon":18.814166,"k":"x","n":"Čadečka,pod Sosnami"},
+  {"id":2033700706,"lat":49.495277,"lon":18.826765,"k":"p","n":"Čierne, Ondráši"},
+  {"id":2385698429,"lat":49.464574,"lon":18.814246,"k":"p","n":"Čadečka,pod Sosnami"},
+  {"id":2385698430,"lat":49.466179,"lon":18.824574,"k":"p","n":"Čadečka,u Kliešča"},
+  {"id":2385698431,"lat":49.46249,"lon":18.807944,"k":"p","n":"Čadca,Čadečka,Škradné rázcestie"},
+  {"id":4052304990,"lat":49.475922,"lon":18.810588,"k":"p","n":"Svrčinovec, Závršie, Liščák"},
+  {"id":4052304991,"lat":49.470649,"lon":18.803488,"k":"p","n":"Svrčinovec, u Kullov"},
+  {"id":4772358626,"lat":49.491134,"lon":18.820363,"k":"p","n":"Čierne, zdrav. stredisko"},
+  {"id":4772358627,"lat":49.487566,"lon":18.814622,"k":"p","n":"Čierne, Budoš"},
+  {"id":6455914749,"lat":49.467765,"lon":18.802832,"k":"p","n":"Svrčinovec,Škradné Mariňák"},
+  {"id":6455914752,"lat":49.46654,"lon":18.834606,"k":"p","n":"Čadečka,u Miškoňa"},
+  {"id":6455914753,"lat":49.465151,"lon":18.843923,"k":"p","n":"Čadečka,u Hapčáka"},
+  {"id":6474588169,"lat":49.475918,"lon":18.81042,"k":"x","n":"Svrčinovec, Závršie, Liščák"},
+  {"id":6499425520,"lat":49.494695,"lon":18.819478,"k":"p","n":"Čierne,žel.st."},
+  {"id":6499425522,"lat":49.498248,"lon":18.826123,"k":"p","n":"Čierne, u Kadelov"},
+  {"id":6810776421,"lat":49.457323,"lon":18.816523,"k":"p","n":"Drahošanka"},
+  {"id":10031314454,"lat":49.467772,"lon":18.80291,"k":"x","n":"Svrčinovec,Škradné Mariňák"},
+  {"id":10031314456,"lat":49.462461,"lon":18.807738,"k":"x","n":"Čadca,Čadečka,Škradné rázcestie"},
+  {"id":10031314457,"lat":49.466242,"lon":18.824664,"k":"x","n":"Čadečka,u Kliešča"},
+  {"id":10031314458,"lat":49.466512,"lon":18.83473,"k":"x","n":"Čadečka,u Miškoňa"},
+  {"id":10031314459,"lat":49.465158,"lon":18.843714,"k":"x","n":"Čadečka,u Hapčáka"}
+],
+"routes":[
+  {"id":8427001,"t":{"ref":"207","name":"Bus 207: Čadca,Čadečka,U Králi => Čadca, námestie","from":"Čadca,Čadečka,U Králi","to":"Čadca, námestie","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":13,"s":[[10031314459,3],[10031314458,4],[10031314457,5],[2002018877,6],[10031314456,7]]},
+  {"id":8427002,"t":{"ref":"207","name":"Bus 207: Čadca, námestie => Čadca,Čadečka,U Králi","from":"Čadca, námestie","to":"Čadca,Čadečka,U Králi","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":12,"s":[[10031314456,6],[2002018877,7],[10031314457,8],[10031314458,9],[10031314459,10]]},
+  {"id":9681101,"t":{"ref":"240","name":"Bus 240: Svrčinovec, Závršie, Liščák => Čadca, Pribinova ul.","from":"Svrčinovec, Závršie, Liščák","to":"Čadca, Pribinova ul.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[4052304990,1]]},
+  {"id":9681102,"t":{"ref":"240","name":"Bus 240: Čadca, Pribinova ul. => Svrčinovec, Závršie, Liščák","from":"Čadca, Pribinova ul.","to":"Svrčinovec, Závršie, Liščák","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[6474588169,2]]},
+  {"id":9681104,"t":{"ref":"207","name":"Bus 207: Čadca, námestie => Čadca,Čadečka,U Králi","from":"Čadca, námestie","to":"Čadca,Čadečka,U Králi","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":15,"s":[[10031314456,6],[10031314454,7],[1432471748,8],[6474588169,9],[2002018877,10],[10031314457,11],[10031314458,12],[10031314459,13]]},
+  {"id":10056942,"t":{"ref":"Drahošanka","name":"Bus: Drahošanka => Čadca, námestie","from":"Drahošanka","to":"Čadca, námestie","network":"MHD Čadca","operator":"MiPol autobusová doprava","route":"bus","public_transport:version":"2"},"n":2,"s":[[6810776421,1]]},
+  {"id":10056943,"t":{"ref":"Drahošanka","name":"Bus: Čadca, námestie => Drahošanka","from":"Čadca, námestie","to":"Drahošanka","network":"MHD Čadca","operator":"MiPol autobusová doprava","route":"bus","public_transport:version":"2"},"n":2,"s":[[6810776421,2]]}
+]
+}

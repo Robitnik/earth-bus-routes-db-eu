@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2942,4054],
+"stops":[
+  {"id":293361729,"lat":57.143574,"lon":22.724927,"k":"p","n":"Pastiņi"},
+  {"id":293361730,"lat":57.131191,"lon":22.737071,"k":"p","n":"Strazde"},
+  {"id":1969704491,"lat":57.144194,"lon":22.723629,"k":"p","n":"Pastiņi"},
+  {"id":1969704501,"lat":57.132205,"lon":22.736921,"k":"p","n":"Strazde"},
+  {"id":3483757483,"lat":57.101416,"lon":22.742811,"k":"p","n":"Līgciems"},
+  {"id":11544281128,"lat":57.130296,"lon":22.724387,"k":"p","n":"Strazdes skola"},
+  {"id":11555195088,"lat":57.130187,"lon":22.724384,"k":"p","n":"Strazdes skola"},
+  {"id":11808109457,"lat":57.130253,"lon":22.724395,"k":"x","n":"Strazdes skola"},
+  {"id":11808109465,"lat":57.130254,"lon":22.724377,"k":"x","n":"Strazdes skola"}
+],
+"routes":[
+  {"id":17090036,"t":{"ref":"5122","name":"Bus 5122: Talsi => Strazde => Jaunpagasts => Stende => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[293361730,7],[11544281128,8]]},
+  {"id":17090038,"t":{"ref":"5122","name":"Bus 5122: Talsi => Sknābe => Jaunpagasts => Strazde => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[11555195088,9],[1969704501,10]]},
+  {"id":17464618,"t":{"ref":"5121","name":"Bus 5121: Talsi => Strazde => Jaunpagasts => Krūziņi => Lībagi => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":17,"s":[[293361730,8],[11544281128,9]]},
+  {"id":17464620,"t":{"ref":"5122","name":"Bus 5122: Talsi => Strazde => Jaunpagasts => Sknābe => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[293361730,8],[11544281128,9]]},
+  {"id":20106644,"t":{"ref":"5183","name":"5183 Kandava – Griepciems – Līgciems – Cēre – Kandava","from":"Kandava","to":"Kandava","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":19,"s":[[3483757483,11]]},
+  {"id":20106660,"t":{"ref":"5183","name":"5183 Kandava – Cēre – Līgciems – Griepciems – Kandava","from":"Kandava","to":"Kandava","network":"ATD","operator":"SIA HANSABUSS Latvija","route":"bus","public_transport:version":"2"},"n":19,"s":[[3483757483,9]]},
+  {"id":21221330,"t":{"ref":"7684","name":"Autobuss 7684: Ventspils – Blāzma – Talsi – Kandava – Tukums – Jelgava","from":"Ventspils AO","to":"Jelgavas AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":47,"s":[[293361730,25]]},
+  {"id":21221331,"t":{"ref":"7684","name":"Autobuss 7684: Jelgava – Tukums – Kandava – Talsi – Blāzma – Ventspils","from":"Jelgavas AO","to":"Ventspils AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":45,"s":[[1969704501,21]]}
+]
+}

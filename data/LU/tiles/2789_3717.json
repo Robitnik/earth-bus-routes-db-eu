@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"LU",
+"tile":[2789,3717],
+"stops":[
+  {"id":5202362428,"lat":49.494053,"lon":5.870873,"k":"x","n":"Hussigny, Place de l’Église"},
+  {"id":5202362429,"lat":49.497799,"lon":5.86733,"k":"p","n":"Hussigny, Mines"},
+  {"id":5202362430,"lat":49.497961,"lon":5.867163,"k":"p","n":"Hussigny, Mines"},
+  {"id":12029696814,"lat":49.498684,"lon":5.864396,"k":"p","n":"Cité Michel"},
+  {"id":12029696815,"lat":49.498786,"lon":5.864268,"k":"p","n":"Cité Michel"},
+  {"id":12029696816,"lat":49.49874,"lon":5.864342,"k":"x","n":"Cité Michel"}
+],
+"routes":[
+  {"id":7698755,"t":{"ref":"606","name":"RGTR 606: Hussigny, Place de l’Eglise => Luxembourg, Monterey","from":"Hussigny, Place de l’Eglise","to":"Luxembourg, Monterey","network":"RGTR","operator":"Sales-Lentz","colour":"#1FBCE1","route":"bus","public_transport:version":"2"},"n":25,"s":[[5202362430,1]]},
+  {"id":7698756,"t":{"ref":"606","name":"RGTR 606: Luxembourg, Monterey => Hussigny, Place de l’Eglise","from":"Luxembourg, Monterey","to":"Hussigny, Place de l’Eglise","network":"RGTR","operator":"Sales-Lentz","colour":"#1FBCE1","route":"bus","public_transport:version":"2"},"n":26,"s":[[5202362429,26]]},
+  {"id":17796564,"t":{"ref":"C","name":"C: Europe / Bel Arbre =>Bertin / Barbusse","from":"Longwy","to":"Villerupt","network":"Transport du Grand Longwy","operator":"TGL","colour":"#000000","route":"bus"},"n":2,"s":[[12029696814,1],[12029696816,2]]},
+  {"id":17826641,"t":{"ref":"C","name":"C: Bertin / Barbusse => Europe / Bel Arbre / Bus Espace Bus","from":"Villerupt","to":"Longwy","network":"Transport du Grand Longwy","operator":"TGL","colour":"#000000","route":"bus"},"n":2,"s":[[12029696816,1],[12029696815,2]]}
+]
+}

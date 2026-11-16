@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2893,4100],
+"stops":[
+  {"id":928347892,"lat":54.692473,"lon":25.033439,"k":"p","n":"Moluvėnai"},
+  {"id":3606877784,"lat":54.653641,"lon":25.046489,"k":"p","n":"Kilimų fabrikas"},
+  {"id":3606877785,"lat":54.655192,"lon":25.045679,"k":"p","n":"Kilimų fabrikas"},
+  {"id":3606878396,"lat":54.658067,"lon":25.048709,"k":"p","n":"Vandenų st. / Katilinė"},
+  {"id":3805448742,"lat":54.6765,"lon":25.0085,"k":"p","n":"Kariotiškės"},
+  {"id":3805548279,"lat":54.675111,"lon":25.013664,"k":"p","n":"Kariotiškės"},
+  {"id":4385522425,"lat":54.691696,"lon":25.034154,"k":"p","n":"Moluvėnai"},
+  {"id":12600973212,"lat":54.654784,"lon":25.045324,"k":"p","n":"Kilimų fabrikas"},
+  {"id":12600973213,"lat":54.659952,"lon":25.035913,"k":"p","n":"7-asis kilometras"},
+  {"id":12600973214,"lat":54.659804,"lon":25.036149,"k":"p","n":"7-asis kilometras"},
+  {"id":12600973217,"lat":54.675584,"lon":25.010369,"k":"p","n":"Kariotiškės"},
+  {"id":12600973235,"lat":54.657987,"lon":25.048803,"k":"x"}
+],
+"routes":[
+  {"id":5301798,"t":{"ref":"68","name":"Bus 68: Lazdynai => Grigiškės","from":"Lazdynai","to":"Grigiškių žiedas","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":21,"s":[[3606877784,17]]},
+  {"id":5301799,"t":{"ref":"68","name":"Bus 68: Grigiškės => Lazdynai","from":"Grigiškių žiedas","to":"Lazdynai","network":"Vilniaus miesto savivaldybė","operator":"Vilniaus viešasis transportas","colour":"blue","route":"bus","public_transport:version":"2"},"n":25,"s":[[3606878396,5],[3606877785,6]]},
+  {"id":18727401,"t":{"ref":"255","name":"Bus 255: Rykantai => Vilnius","from":"Rykantų paštas","to":"Vilniaus geležinkelio stotis","network":"Trakų rajono savivaldybė","operator":"Centvalis","route":"bus","public_transport:version":"2"},"n":20,"s":[[4385522425,2]]},
+  {"id":18727403,"t":{"ref":"269","name":"Bus 269: Lentvaris => Vilnius","from":"Dzūkų g.","to":"Vilniaus geležinkelio stotis","network":"Trakų rajono savivaldybė","operator":"Centvalis","route":"bus","public_transport:version":"2"},"n":22,"s":[[3606877784,2]]},
+  {"id":18727404,"t":{"ref":"269","name":"Bus 269: Vilnius => Lentvaris","from":"Vilniaus geležinkelio stotis","to":"Dzūkų g.","network":"Trakų rajono savivaldybė","operator":"Centvalis","route":"bus","public_transport:version":"2"},"n":22,"s":[[3606878396,20],[3606877785,21]]},
+  {"id":18727405,"t":{"ref":"288","name":"Bus 288: Lentvaris => Kariotiškės","from":"Lentvario paštas","to":"Kariotiškės","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":5,"s":[[3606877784,3],[12600973213,4],[12600973217,5]]},
+  {"id":18727406,"t":{"ref":"288","name":"Bus 288: Lentvaris => Rykantai","from":"Lentvario paštas","to":"Rykantų paštas","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":7,"s":[[3606877784,3],[12600973213,4],[12600973217,5]]},
+  {"id":18727407,"t":{"ref":"288","name":"Bus 288: Lentvaris => Trakai","from":"Lentvario paštas","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":16,"s":[[3606877784,3],[12600973213,4],[12600973217,5]]},
+  {"id":18727408,"t":{"ref":"288","name":"Bus 288: Kariotiškės => Lentvaris","from":"Kariotiškės","to":"Lentvario paštas","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":5,"s":[[12600973217,1],[12600973214,2],[12600973212,3]]},
+  {"id":18727409,"t":{"ref":"288","name":"Bus 288: Rykantai => Lentvaris","from":"Rykantų paštas","to":"Lentvario paštas","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":7,"s":[[12600973217,3],[12600973214,4],[12600973212,5]]},
+  {"id":18727410,"t":{"ref":"288","name":"Bus 288: Trakai => Kilimų fabrikas","from":"Trakų autobusų stotis","to":"Katilinė","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":17,"s":[[12600973217,12],[3606878396,17]]},
+  {"id":18727417,"t":{"ref":"293","name":"Bus 293: Kilimų fabrikas => Trakai","from":"Katilinė","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":13,"s":[[3606878396,1],[3606877785,2]]},
+  {"id":18727418,"t":{"ref":"293","name":"Bus 293: Trakai => Kilimų fabrikas","from":"Trakų autobusų stotis","to":"Katilinė","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":14,"s":[[3606877784,13],[3606878396,14]]},
+  {"id":18771803,"t":{"ref":"203","name":"Bus 203: Vilnius => Elektrėnai","from":"Vilniaus autobusų stotis","to":"Elektrėnų centras","network":"Elektrėnų savivaldybė","operator":"Elektrėnų autobusų parkas","route":"bus","public_transport:version":"2"},"n":21,"s":[[928347892,9]]},
+  {"id":18771804,"t":{"ref":"203","name":"Bus 203: Elektrėnai => Vilnius","from":"Elektrėnų centras","to":"Vilniaus autobusų stotis","network":"Elektrėnų savivaldybė","operator":"Elektrėnų autobusų parkas","route":"bus","public_transport:version":"2"},"n":23,"s":[[4385522425,13]]}
+]
+}

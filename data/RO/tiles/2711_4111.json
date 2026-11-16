@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2711,4111],
+"stops":[
+  {"id":3708889570,"lat":45.594803,"lon":25.553265,"k":"p","n":"Poiana Brașov"},
+  {"id":4045238059,"lat":45.594851,"lon":25.553244,"k":"x","n":"Poiana Brașov"},
+  {"id":9171470092,"lat":45.594988,"lon":25.553633,"k":"x","n":"Poiana Brașov"},
+  {"id":9171470093,"lat":45.594965,"lon":25.553666,"k":"p","n":"Poiana Brașov"},
+  {"id":9171470094,"lat":45.58789,"lon":25.551356,"k":"x","n":"Telecabina"},
+  {"id":9171470095,"lat":45.587849,"lon":25.551292,"k":"p","n":"Telecabina"},
+  {"id":10586930356,"lat":45.59493,"lon":25.553236,"k":"x","n":"Poiana Brașov"},
+  {"id":10586930357,"lat":45.594872,"lon":25.553243,"k":"p","n":"Poiana Brașov"}
+],
+"routes":[
+  {"id":5387306,"t":{"ref":"20","name":"20: Livada Poștei => Poiana Brașov","from":"Livada Poștei","to":"Poiana Brașov","network":"RAT Brașov","operator":"RAT Brașov","colour":"#96d700","route":"bus","public_transport:version":"2"},"n":9,"s":[[3708889570,9]]},
+  {"id":5387307,"t":{"ref":"20","name":"20: Poiana Brașov => Livada Poștei","from":"Poiana Brașov","to":"Livada Poștei","network":"RAT Brașov","operator":"RAT Brașov","colour":"#96d700","route":"bus","public_transport:version":"2"},"n":9,"s":[[3708889570,1]]},
+  {"id":13326483,"t":{"ref":"60","name":"60: Silver Mountain => Telecabina","from":"Silver Mountain","to":"Telecabina","network":"RAT Brașov","operator":"RAT Brașov","colour":"#6b99ba","route":"bus","public_transport:version":"2"},"n":4,"s":[[10586930357,3],[9171470095,4]]},
+  {"id":13326484,"t":{"ref":"60","name":"60: Telecabina => Silver Mountain","from":"Telecabina","to":"Silver Mountain","network":"RAT Brașov","operator":"RAT Brașov","colour":"#6b99ba","route":"bus","public_transport:version":"2"},"n":4,"s":[[9171470095,1],[9171470093,2]]},
+  {"id":13688025,"t":{"ref":"100","name":"100: Telecabina => Terminal Gară","from":"Telecabina","to":"Terminal Gară","network":"RAT Brașov","operator":"RAT Brașov","colour":"#0085ca","route":"bus","public_transport:version":"2"},"n":12,"s":[[9171470095,1],[9171470093,2]]},
+  {"id":13688026,"t":{"ref":"100","name":"100: Terminal Gară => Telecabina","from":"Terminal Gară","to":"Telecabina","network":"RAT Brașov","operator":"RAT Brașov","colour":"#0085ca","route":"bus","public_transport:version":"2"},"n":12,"s":[[10586930357,11],[9171470095,12]]},
+  {"id":15548829,"t":{"ref":"130M","name":"130M: Poiana Brașov => Parcare Cetate Râșnov","from":"Poiana Brașov","to":"Parcare Cetate Râșnov","network":"RAT Brașov","operator":"RAT Brașov","colour":"#07edfa","route":"bus","public_transport:version":"2"},"n":2,"s":[[10586930357,1]]},
+  {"id":15548830,"t":{"ref":"130M","name":"130M: Parcare Cetate Râșnov => Poiana Brașov","from":"Parcare Cetate Râșnov","to":"Poiana Brașov","network":"RAT Brașov","operator":"RAT Brașov","colour":"#07edfa","route":"bus","public_transport:version":"2"},"n":2,"s":[[10586930357,2]]},
+  {"id":15548831,"t":{"ref":"100M","name":"100M: Poiana Brașov => Terminal Gară","from":"Poiana Brașov","to":"Terminal Gară","network":"RAT Brașov","operator":"RAT Brașov","colour":"#07edfa","route":"bus","public_transport:version":"2"},"n":11,"s":[[10586930357,1]]},
+  {"id":15548832,"t":{"ref":"100M","name":"100M: Terminal Gară => Poiana Brașov","from":"Terminal Gară","to":"Poiana Brașov","network":"RAT Brașov","operator":"RAT Brașov","colour":"#07edfa","route":"bus","public_transport:version":"2"},"n":11,"s":[[10586930357,11]]},
+  {"id":15548833,"t":{"ref":"20M","name":"20M: Poiana Brașov => Livada Poștei","from":"Poiana Brașov","to":"Livada Poștei","network":"RAT Brașov","operator":"RAT Brașov","colour":"#07edfa","route":"bus","public_transport:version":"2"},"n":9,"s":[[3708889570,1]]},
+  {"id":15548834,"t":{"ref":"20M","name":"20M: Livada Poștei => Poiana Brașov","from":"Livada Poștei","to":"Poiana Brașov","network":"RAT Brașov","operator":"RAT Brașov","colour":"#07edfa","route":"bus","public_transport:version":"2"},"n":9,"s":[[3708889570,9]]},
+  {"id":15628902,"t":{"ref":"60","name":"60: Telecabina => Poiana Mică","from":"Telecabina","to":"Poiana Mică","network":"RAT Brașov","operator":"RAT Brașov","colour":"#6b99ba","route":"bus","public_transport:version":"2"},"n":4,"s":[[9171470095,1],[9171470093,2]]},
+  {"id":15628903,"t":{"ref":"60","name":"60: Poiana Mică => Telecabina","from":"Poiana Mică","to":"Telecabina","network":"RAT Brașov","operator":"RAT Brașov","colour":"#6b99ba","route":"bus","public_transport:version":"2"},"n":3,"s":[[10586930357,2],[9171470095,3]]}
+]
+}

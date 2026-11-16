@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2931,4153],
+"stops":[
+  {"id":8949551326,"lat":56.552292,"lon":27.695588,"k":"p","n":"Soikāna iela"},
+  {"id":8949551328,"lat":56.558424,"lon":27.696218,"k":"p","n":"Ezerkrasts"},
+  {"id":8949551330,"lat":56.562322,"lon":27.696375,"k":"p","n":"Ezerkrasts 2"},
+  {"id":9556811315,"lat":56.558661,"lon":27.696443,"k":"p","n":"Ezerkrasts"},
+  {"id":9556816417,"lat":56.552268,"lon":27.695763,"k":"p","n":"Soikāna iela"},
+  {"id":13273068494,"lat":56.585451,"lon":27.671594,"k":"p","n":"Zvirgzdene"},
+  {"id":13273082120,"lat":56.585319,"lon":27.672037,"k":"p","n":"Zvirgzdene"},
+  {"id":13305417125,"lat":56.575152,"lon":27.687286,"k":"p","n":"Zvirgzdene 1"},
+  {"id":13305417142,"lat":56.575344,"lon":27.686503,"k":"p","n":"Zvirgzdene 1"}
+],
+"routes":[
+  {"id":16404897,"t":{"ref":"3001","name":"3001: Ludzas AO–Evertova–Ezerkrasts","from":"Ludzas AO","to":"Ezerkrasts","operator":"SIA Ludzas autotransporta uzņēmums","route":"bus","public_transport:version":"2"},"n":8,"s":[[9556816417,6],[9556811315,7],[8949551330,8]]},
+  {"id":16404934,"t":{"ref":"3001","name":"3001: Ezerkrasts–Evertova–Ludzas AO","from":"Ezerkrasts","to":"Ludzas AO","operator":"SIA Ludzas autotransporta uzņēmums","route":"bus","public_transport:version":"2"},"n":8,"s":[[8949551330,1],[8949551328,2],[8949551326,3]]},
+  {"id":16404940,"t":{"ref":"3001","name":"3001: Ludzas AO–Ludzas pilsētas kapi–Evertova–Ezerkrasts","from":"Ludzas AO","to":"Ezerkrasts","operator":"SIA Ludzas autotransporta uzņēmums","route":"bus","public_transport:version":"2"},"n":9,"s":[[9556816417,7],[9556811315,8],[8949551330,9]]},
+  {"id":16405011,"t":{"ref":"3001","name":"3001: Ezerkrasts–Evertova–Ludzas pilsētas kapi–Ludzas AO","from":"Ezerkrasts","to":"Ludzas AO","operator":"SIA Ludzas autotransporta uzņēmums","route":"bus","public_transport:version":"2"},"n":9,"s":[[8949551330,1],[8949551328,2],[8949551326,3]]},
+  {"id":19779698,"t":{"ref":"5633","name":"5633 Rogovka – Padole – Ludza","from":"Rogovka","to":"Ludzas AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":12,"s":[[13273068494,11]]},
+  {"id":19779708,"t":{"ref":"5633","name":"5633 Ludza – Padole – Rogovka","from":"Ludzas AO","to":"Rogovka","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":12,"s":[[13273082120,2]]},
+  {"id":19838870,"t":{"ref":"6593","name":"6593 Ludza – Biņeva – Stiglova – Kārsava","from":"Ludzas AO","to":"Kārsavas AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":13,"s":[[13305417125,2],[13273082120,3]]},
+  {"id":19838879,"t":{"ref":"6593","name":"6593 Kārsava – Stiglova – Biņeva – Ludza","from":"Kārsavas AO","to":"Ludzas AO","network":"ATD","operator":"AS Rēzeknes autobusu parks","route":"bus","public_transport:version":"2"},"n":13,"s":[[13273068494,11],[13305417142,12]]}
+]
+}

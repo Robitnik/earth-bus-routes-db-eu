@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"EE",
+"tile":[2978,4088],
+"stops":[
+  {"id":4640420245,"lat":58.918311,"lon":24.447522,"k":"p","n":"Orgita"},
+  {"id":4640420246,"lat":58.918649,"lon":24.448956,"k":"p","n":"Orgita"},
+  {"id":4640421517,"lat":58.900605,"lon":24.420707,"k":"p","n":"Lemmiku","ref":"7000285-1"},
+  {"id":4641856121,"lat":58.900564,"lon":24.42077,"k":"x","n":"Lemmiku","ref":"7000285-1"},
+  {"id":12983170922,"lat":58.910705,"lon":24.432894,"k":"p","n":"Kirikuvärava","ref":"7000174-1"},
+  {"id":12983170923,"lat":58.910713,"lon":24.432762,"k":"x","n":"Kirikuvärava","ref":"7000174-1"},
+  {"id":12983170927,"lat":58.910528,"lon":24.432607,"k":"p","n":"Kirikuvärava","ref":"7000175-1"},
+  {"id":12983170928,"lat":58.910524,"lon":24.432746,"k":"x","n":"Kirikuvärava","ref":"7000175-1"},
+  {"id":12983170942,"lat":58.904888,"lon":24.428533,"k":"p","n":"Märjamaa","ref":"7000355-1"},
+  {"id":12983170959,"lat":58.904928,"lon":24.428477,"k":"x","n":"Märjamaa","ref":"7000355-1"}
+],
+"routes":[
+  {"id":3339869,"t":{"ref":"153","name":"Bus 153: Tartu => Haapsalu","from":"Tartu bussijaam","to":"Haapsalu bussijaam","network":"Põhja-Eesti Ühistranspordikeskus","operator":"MK Reis OÜ","colour":"#69b3d9","route":"bus","public_transport:version":"2"},"n":29,"s":[[12983170942,19]]},
+  {"id":3340110,"t":{"ref":"153","name":"Bus 153: Haapsalu => Tartu","from":"Haapsalu bussijaam","to":"Tartu bussijaam","network":"Põhja-Eesti Ühistranspordikeskus","operator":"MK Reis OÜ","colour":"#69b3d9","route":"bus","public_transport:version":"2"},"n":30,"s":[[12983170942,10]]},
+  {"id":19327234,"t":{"ref":"37","name":"Bus 37: Rapla => Märjamaa","from":"Rapla bussijaam","to":"Lemmiku","network":"Rapla maakond","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":19,"s":[[4640420245,16],[12983170927,17],[12983170942,18],[4640421517,19]]},
+  {"id":19327235,"t":{"ref":"37","name":"Bus 37: Märjamaa => Rapla","from":"Lemmiku","to":"Rapla bussijaam","network":"Rapla maakond","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":20,"s":[[4640421517,1],[12983170942,2],[12983170922,3],[4640420246,4]]},
+  {"id":19337249,"t":{"ref":"351","name":"Bus 351: Märjamaa => Tallinn","from":"Lemmiku","to":"Estonia","network":"Põhja-Eesti Ühistranspordikeskus","operator":"GoBus AS","colour":"#69b3d9","route":"bus","public_transport:version":"2"},"n":27,"s":[[4640421517,1],[12983170942,2],[12983170922,3],[4640420246,4]]},
+  {"id":19337250,"t":{"ref":"351","name":"Bus 351: Tallinn => Märjamaa","from":"Estonia 5","to":"Lemmiku","network":"Põhja-Eesti Ühistranspordikeskus","operator":"GoBus AS","colour":"#69b3d9","route":"bus","public_transport:version":"2"},"n":27,"s":[[4640420245,24],[12983170927,25],[12983170942,26],[4640421517,27]]}
+]
+}

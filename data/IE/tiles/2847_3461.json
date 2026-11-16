@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2847,3461],
+"stops":[
+  {"id":865438005,"lat":52.393565,"lon":-6.9477,"k":"p"},
+  {"id":2856366804,"lat":52.396658,"lon":-6.934979,"k":"p","n":"New Ross (Apex)","ref":"300422"},
+  {"id":4354619101,"lat":52.397149,"lon":-6.934293,"k":"p"},
+  {"id":4354619105,"lat":52.397289,"lon":-6.934695,"k":"p"},
+  {"id":4354619229,"lat":52.394178,"lon":-6.946502,"k":"p","n":"New Ross (The Quay)","ref":"355471"},
+  {"id":4391201005,"lat":52.394961,"lon":-6.946144,"k":"p","n":"The Quay"},
+  {"id":5004056336,"lat":52.396739,"lon":-6.934671,"k":"p","n":"New Ross (Apex)","ref":"300421"},
+  {"id":5004056337,"lat":52.396205,"lon":-6.934469,"k":"p"},
+  {"id":8741815365,"lat":52.394416,"lon":-6.946521,"k":"p","n":"New Ross (Supervalue The Quay)"},
+  {"id":10930283127,"lat":52.394941,"lon":-6.946159,"k":"p","n":"New Ross (The Quay)","ref":"355461"},
+  {"id":12512689161,"lat":52.397959,"lon":-6.937843,"k":"p","n":"Irishtown Monument","ref":"11638"},
+  {"id":12512689191,"lat":52.398265,"lon":-6.937861,"k":"p","n":"Irishtown Monument","ref":"11637"},
+  {"id":13088653072,"lat":52.39494,"lon":-6.945988,"k":"x"}
+],
+"routes":[
+  {"id":6501503,"t":{"ref":"372","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus"},"n":2,"s":[[865438005,1],[4391201005,2]]},
+  {"id":8210745,"t":{"ref":"340","name":"Bus 340: Wexford → Waterford","from":"Wexford","to":"Waterford","network":"Wexford Bus","operator":"Wexford Bus","route":"bus","public_transport:version":"2"},"n":11,"s":[[10930283127,6]]},
+  {"id":15907651,"t":{"ref":"340","name":"Bus 340: Waterford → Wexford","from":"Waterford","to":"Wexford","network":"Wexford Bus","operator":"Wexford Bus","route":"bus","public_transport:version":"2"},"n":10,"s":[[4354619229,5]]},
+  {"id":17378224,"t":{"ref":"887","name":"Bus 887: Carlow → New Ross","from":"Carlow","to":"New Ross","network":"TFI Local Link","operator":"TFI Local Link Carlow Kilkenny Wicklow","route":"bus","public_transport:version":"2"},"n":18,"s":[[5004056336,17],[10930283127,18]]},
+  {"id":17378225,"t":{"ref":"887","name":"Bus 887: New Ross → Carlow","from":"New Ross","to":"Carlow","network":"TFI Local Link","operator":"TFI Local Link Carlow Kilkenny Wicklow","route":"bus","public_transport:version":"2"},"n":18,"s":[[4354619229,1],[2856366804,2]]},
+  {"id":18572418,"t":{"ref":"359","name":"Bus 359: Enniscorthy → Rathnure → New Ross","from":"Enniscorthy","to":"Enniscorthy","network":"TFI Local Link","operator":"TFI Local Link Wexford","route":"bus","public_transport:version":"2"},"n":24,"s":[[12512689161,23],[10930283127,24]]},
+  {"id":18572419,"t":{"ref":"359","name":"Bus 359: New Ross → Rathnure → Enniscorthy","from":"New Ross","to":"Enniscorthy","network":"TFI Local Link","operator":"TFI Local Link Wexford","route":"bus","public_transport:version":"2"},"n":24,"s":[[10930283127,1],[12512689191,2]]}
+]
+}

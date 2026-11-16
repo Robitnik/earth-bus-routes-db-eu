@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2786,3976],
+"stops":[
+  {"id":822220460,"lat":49.313222,"lon":18.803376,"k":"x","n":"Povina, Jednota"},
+  {"id":1440238660,"lat":49.338606,"lon":18.812282,"k":"x","n":"Kysucký Lieskovec, Jednota"},
+  {"id":1440238661,"lat":49.338901,"lon":18.812232,"k":"x","n":"Kysucký Lieskovec, Jednota"},
+  {"id":2431485130,"lat":49.337273,"lon":18.811556,"k":"p","n":"Kysucký Lieskovec,Jednota"},
+  {"id":2431485265,"lat":49.338057,"lon":18.812302,"k":"p"},
+  {"id":2955757857,"lat":49.313707,"lon":18.804406,"k":"p","n":"Povina, Jednota"},
+  {"id":2955757858,"lat":49.30845,"lon":18.823645,"k":"p"},
+  {"id":2955760230,"lat":49.310597,"lon":18.813615,"k":"p","n":"Povina, kostol"},
+  {"id":7880182260,"lat":49.313277,"lon":18.803565,"k":"p","n":"Povina, Jednota"},
+  {"id":7880182261,"lat":49.313129,"lon":18.803135,"k":"p","n":"Povina, Jednota"},
+  {"id":7880182300,"lat":49.337803,"lon":18.808941,"k":"p"},
+  {"id":7880182301,"lat":49.337511,"lon":18.808584,"k":"p"},
+  {"id":9023256699,"lat":49.338892,"lon":18.812102,"k":"p","n":"Kysucký Lieskovec, Jednota"},
+  {"id":9023256700,"lat":49.338613,"lon":18.812421,"k":"p","n":"Kysucký Lieskovec, Jednota"},
+  {"id":9105834109,"lat":49.346789,"lon":18.807764,"k":"p","n":"Ochodnica, žel. st."},
+  {"id":9105834110,"lat":49.347284,"lon":18.806129,"k":"p","n":"Ochodnica, žel. st."},
+  {"id":11649938687,"lat":49.31359,"lon":18.804418,"k":"p","n":"Povina, Jednota"},
+  {"id":13049809661,"lat":49.347444,"lon":18.806191,"k":"p","n":"Ochodnica, žel. st."},
+  {"id":13243944723,"lat":49.348134,"lon":18.803331,"k":"p","n":"Ochodnica, ZŠ"},
+  {"id":13243944724,"lat":49.348051,"lon":18.803184,"k":"p","n":"Ochodnica, ZŠ"}
+],
+"routes":[
+  {"id":10030290,"t":{"ref":"121","name":"Bus 121: Kysucké Nové Mesto, AS => Ochodnica, konečná","from":"Kysucké Nové Mesto, AS","to":"Ochodnica, konečná","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[13049809661,2]]},
+  {"id":10030291,"t":{"ref":"121","name":"Bus 121: Ochodnica, konečná => Ochodnica, žel.st.","from":"Ochodnica, konečná","to":"Ochodnica, žel.st.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[9105834110,2]]},
+  {"id":10030292,"t":{"ref":"121","name":"Bus 121: Ochodnica, žel.st. => Ochodnica, konečná","from":"Ochodnica, žel.st.","to":"Ochodnica, konečná","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[9105834110,1]]},
+  {"id":10031398,"t":{"ref":"232","name":"Bus 232: Lodno, Trnovec => Ochodnica, žel.st.","from":"Lodno, Trnovec","to":"Ochodnica, žel.st.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[1440238660,1],[13049809661,2]]},
+  {"id":10031399,"t":{"ref":"232","name":"Bus 232: Ochodnica, žel.st. => Lodno, Trnovec","from":"Ochodnica, žel.st.","to":"Lodno, Trnovec","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[9105834110,1],[1440238661,2]]},
+  {"id":10031400,"t":{"ref":"232","name":"Bus 232: Lodno, Trnovec => Kysucké Nové Mesto, AS","from":"Lodno, Trnovec","to":"Kysucké Nové Mesto, AS","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[822220460,1]]},
+  {"id":10031401,"t":{"ref":"232","name":"Bus 232: Kysucké Nové Mesto, AS => Lodno, Trnovec","from":"Kysucké Nové Mesto, AS","to":"Lodno, Trnovec","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":2,"s":[[822220460,2]]},
+  {"id":10031402,"t":{"ref":"115","name":"Bus 115: Povina, konečná => Kysucké Nové Mesto, Schaeffler II.","from":"Povina, konečná","to":"Kysucké Nové Mesto, Schaeffler II.","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[2955757857,1]]},
+  {"id":10031405,"t":{"ref":"115","name":"Bus 115: Kysucké Nové Mesto, AS => Povina, konečná","from":"Kysucké Nové Mesto, AS","to":"Povina, konečná","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[7880182260,1]]},
+  {"id":14651012,"t":{"ref":"112","name":"Bus 112: Kysucké Nové Mesto, AS => Čadca, AS","from":"Kysucké Nové Mesto, AS","to":"Čadca, AS","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":12,"s":[[822220460,3],[1440238660,4]]},
+  {"id":14651013,"t":{"ref":"112","name":"Bus 112: Čadca, AS => Kysucké Nové Mesto, AS","from":"Čadca, AS","to":"Kysucké Nové Mesto, AS","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":3,"s":[[7880182261,3]]},
+  {"id":14651014,"t":{"ref":"112","name":"Bus 112: Kysucké Nové Mesto, AS => Čadca, nemocnica","from":"Čadca, nemocnica","to":"Kysucké Nové Mesto, AS","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":5,"s":[[1440238660,2]]},
+  {"id":14651015,"t":{"ref":"112","name":"Bus 112: Čadca, nemocnica => Kysucké Nové Mesto, AS","from":"Čadca, nemocnica","to":"Kysucké Nové Mesto, AS","network":"Integrovaný dopravný systém Plus","operator":"Slovenská autobusová doprava Žilina","route":"bus","public_transport:version":"2"},"n":4,"s":[[1440238661,3]]}
+]
+}

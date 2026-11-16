@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2670,3926],
+"stops":[
+  {"id":278675213,"lat":43.546425,"lon":16.31864,"k":"x","n":"Kaštel Štafilić - Koludrovac"},
+  {"id":278675223,"lat":43.549701,"lon":16.327973,"k":"x","n":"K. Štafilić 1"},
+  {"id":2515983078,"lat":43.548873,"lon":16.326295,"k":"x","n":"Kaštel Štafilić - Nehaj 1"},
+  {"id":2515983079,"lat":43.542944,"lon":16.311931,"k":"x","n":"Resnik"},
+  {"id":2519179383,"lat":43.546447,"lon":16.318625,"k":"p","n":"Kaštel Štafilić - Koludrovac 1"},
+  {"id":2519217115,"lat":43.546362,"lon":16.318652,"k":"p","n":"Kaštel Štafilić - Koludrovac 2"},
+  {"id":3342764657,"lat":43.51141,"lon":16.306751,"k":"p"},
+  {"id":3342768665,"lat":43.508965,"lon":16.315668,"k":"p"},
+  {"id":3342770193,"lat":43.501012,"lon":16.329195,"k":"p"},
+  {"id":5045043221,"lat":43.537515,"lon":16.304244,"k":"p","n":"Zračna Luka 1"},
+  {"id":11054512559,"lat":43.511341,"lon":16.306981,"k":"p"},
+  {"id":13510946767,"lat":43.504911,"lon":16.322409,"k":"p"},
+  {"id":5000244619904,"lat":43.548953,"lon":16.326303,"k":"p","n":"Kaštel Štafilić - Nehaj 1"},
+  {"id":5000244622394,"lat":43.542993,"lon":16.311852,"k":"p","n":"Resnik 1"},
+  {"id":5000244623592,"lat":43.5429,"lon":16.312029,"k":"p","n":"Resnik 2"},
+  {"id":5000244626094,"lat":43.549661,"lon":16.328016,"k":"p"}
+],
+"routes":[
+  {"id":3302552,"t":{"ref":"37","name":"Bus 37: Split => Trogir","from":"Autobusni Terminal Sukoišan","to":"Trogir","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000244619904,28],[2519179383,29],[5000244622394,30]]},
+  {"id":3303399,"t":{"ref":"37","name":"Bus 37: Trogir => Split","from":"Trogir","to":"Sukoišan","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000244623592,4],[2519217115,5],[5000244626094,6]]},
+  {"id":3307550,"t":{"ref":"38","name":"Bus 38: Split => K.Stari => Zračna Luka","from":"Autobusni Terminal Sukoišan","to":"Zračna Luka Okretište","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000244619904,30],[2519179383,31],[5000244622394,32]]},
+  {"id":3307723,"t":{"ref":"38","name":"Bus 38: Zračna Luka => K.Stari => Split","from":"Zračna Luka Okretište","to":"Autobusni Terminal Sukoišan","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000244623592,3],[2519217115,4],[5000244626094,5]]},
+  {"id":14728056,"t":{"ref":"2","name":"Bus 2: Zračna luka => Strinje => Split (Spinut)","from":"Sukoišan Terminal","to":"Studentski Dom","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000244623592,3],[2519217115,4]]},
+  {"id":14728057,"t":{"ref":"2","name":"Bus 2: Zračna luka => Strinje => Split","from":"Sukoišan Terminal","to":"Zračna Luka Okretište","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000244623592,3],[2519217115,4]]},
+  {"id":14728058,"t":{"ref":"2","name":"Bus 2: Split → Strinje → Zračna luka","from":"Sukoišan Terminal","to":"Zračna Luka Okretište","route":"bus","public_transport:version":"2"},"n":26,"s":[[2519179383,23],[5000244622394,24]]},
+  {"id":14765711,"t":{"ref":"38","name":"Bus 38: Zračna Luka => Split => Općina => Vukovarska - Vrh Sućidra (Velebitska)","from":"Zračna Luka Okretište","to":"Velebitska - Pujanke","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":36,"s":[[5000244623592,3],[2519217115,4],[5000244626094,5]]},
+  {"id":14765982,"t":{"ref":"37","name":"Bus 37: Trogir => Split => Trznica","from":"Trogir","to":"Pazar","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":35,"s":[[5000244623592,4],[2519217115,5],[5000244626094,6]]},
+  {"id":14765984,"t":{"ref":"37","name":"Bus 37: Kaštel Stari => Trogir","from":"Kaštel Stari - Centar","to":"Trogir","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":8,"s":[[5000244619904,4],[2519179383,5],[5000244622394,6]]}
+]
+}

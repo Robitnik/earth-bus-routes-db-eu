@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2897,3791],
+"stops":[
+  {"id":115623921,"lat":54.896386,"lon":9.55807,"k":"x","n":"Rinkenæs, Sejrsvej v Vårhøj"},
+  {"id":804038125,"lat":54.857089,"lon":9.590343,"k":"p","n":"Drei"},
+  {"id":9136322812,"lat":54.862704,"lon":9.590737,"k":"p","n":"Holnis Dreifeld"},
+  {"id":9136322813,"lat":54.863215,"lon":9.590978,"k":"p","n":"Holnis Dreifeld"},
+  {"id":9136322816,"lat":54.860537,"lon":9.57312,"k":"p","n":"Schausende, Leuchtturm"},
+  {"id":9506641118,"lat":54.857046,"lon":9.590413,"k":"x","n":"Drei"},
+  {"id":9800460226,"lat":54.860578,"lon":9.573037,"k":"x","n":"Schausende, Leuchtturm"},
+  {"id":10995828722,"lat":54.896323,"lon":9.558193,"k":"p","n":"Rinkenæs, Sejrsvej v Vårhøj"},
+  {"id":10995828723,"lat":54.89592,"lon":9.557026,"k":"p","n":"Rinkenæs, Sejrsvej v Vårhøj"},
+  {"id":12098576775,"lat":54.895875,"lon":9.557111,"k":"x","n":"Rinkenæs, Sejrsvej v Vårhøj"}
+],
+"routes":[
+  {"id":13279192,"t":{"ref":"21","name":"Bus 21: Flensburg Bahnhof => Holnis Wendeplatz","from":"Flensburg Bahnhof","to":"Holnis Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#009641","route":"bus","public_transport:version":"2"},"n":11,"s":[[804038125,9],[9136322812,10]]},
+  {"id":13279193,"t":{"ref":"21","name":"Bus 21 Sa/So-Linie: Flensburg => Schausende => Holnis","from":"Flensburg Bahnhof","to":"Holnis Wendeplatz","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#009641","route":"bus","public_transport:version":"2"},"n":12,"s":[[9136322816,9],[804038125,10],[9136322812,11]]},
+  {"id":13279194,"t":{"ref":"21","name":"Bus 21: Holnis Wendeplatz => Flensburg Bahnhof","from":"Holnis Wendeplatz","to":"Flensburg Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#009641","route":"bus","public_transport:version":"2"},"n":11,"s":[[9136322813,2],[804038125,3]]},
+  {"id":13279195,"t":{"ref":"21","name":"Bus 21 Sa/So-Linie: Holnis => Schausende => Flensburg","from":"Holnis Wendeplatz","to":"Flensburg Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#009641","route":"bus","public_transport:version":"2"},"n":12,"s":[[9136322813,2],[804038125,3],[9136322816,4]]},
+  {"id":13279199,"t":{"ref":"21","name":"Bus 21: Flensburg Bahnhof => Schausende Leuchtturm","from":"Flensburg Bahnhof","to":"Schausende, Leuchtturm","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#009641","route":"bus","public_transport:version":"2"},"n":9,"s":[[9136322816,9]]},
+  {"id":13279200,"t":{"ref":"21","name":"Bus 21: Schausende Leuchtturm => Flensburg Bahnhof","from":"Schausende, Leuchtturm","to":"Flensburg Bahnhof","network":"Nahverkehrsverbund Schleswig-Holstein","operator":"Autokraft GmbH Flensburg","colour":"#009641","route":"bus","public_transport:version":"2"},"n":9,"s":[[9136322816,1]]},
+  {"id":17919229,"t":{"ref":"110","name":"110: Sønderborg => Flensburg","from":"Sønderborg Busstation","to":"Flensburg ZOB","network":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":16,"s":[[10995828723,9]]},
+  {"id":17919230,"t":{"ref":"110","name":"110: Flensburg => Sønderborg","from":"Flensburg ZOB","to":"Sønderborg Busstation","network":"Sydtrafik","route":"bus","public_transport:version":"2"},"n":16,"s":[[10995828722,8]]}
+]
+}

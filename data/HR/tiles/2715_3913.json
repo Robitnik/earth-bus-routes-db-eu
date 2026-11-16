@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2715,3913],
+"stops":[
+  {"id":27134070,"lat":45.769571,"lon":15.691972,"k":"p"},
+  {"id":509260003,"lat":45.798704,"lon":15.662281,"k":"p","n":"Vikend naselje"},
+  {"id":715847976,"lat":45.757615,"lon":15.658019,"k":"p","n":"Braslovje"},
+  {"id":990614406,"lat":45.753681,"lon":15.692178,"k":"p","n":"Terihaji-okretište"},
+  {"id":1036210567,"lat":45.782436,"lon":15.686174,"k":"p","n":"Rude - Barutana"},
+  {"id":1581685299,"lat":45.757868,"lon":15.674502,"k":"p","n":"Manja Vas"},
+  {"id":1581685363,"lat":45.775826,"lon":15.691917,"k":"x"},
+  {"id":3211084240,"lat":45.752131,"lon":15.672321,"k":"p","n":"Kotari"},
+  {"id":3211084241,"lat":45.752083,"lon":15.672148,"k":"p","n":"Kotari"},
+  {"id":3211084244,"lat":45.779314,"lon":15.693393,"k":"p"},
+  {"id":3531787680,"lat":45.798987,"lon":15.695414,"k":"p","n":"Rudarska draga - Gračec"},
+  {"id":3927638738,"lat":45.7674,"lon":15.674684,"k":"p","n":"Rude - centar"},
+  {"id":4287521809,"lat":45.795329,"lon":15.690923,"k":"p","n":"Rudarska draga - Kristal"},
+  {"id":7046256576,"lat":45.771262,"lon":15.682949,"k":"p","n":"Rude - 5. kilometar"},
+  {"id":7070338480,"lat":45.762094,"lon":15.664025,"k":"x","n":"Gornje Rude"},
+  {"id":7078541643,"lat":45.799698,"lon":15.684049,"k":"p","n":"Hamor"},
+  {"id":7078541644,"lat":45.799732,"lon":15.683305,"k":"p","n":"Hamor"},
+  {"id":7078672589,"lat":45.794983,"lon":15.656252,"k":"p","n":"Smerovišće - Belak"},
+  {"id":8185079575,"lat":45.774397,"lon":15.688271,"k":"p","n":"Rude - Vukovići"},
+  {"id":9063648523,"lat":45.792499,"lon":15.650655,"k":"p","n":"Smerovišće - pješčanik"}
+],
+"routes":[
+  {"id":2788156,"t":{"ref":"142","name":"142: Samobor - Klake - Terihaji","from":"Samobor","to":"Terihaji","network":"Samobor","operator":"Autoturist","route":"bus"},"n":4,"s":[[990614406,4]]},
+  {"id":4236180,"t":{"ref":"158","name":"158: Samobor - Cerje - Bukovje","network":"Samobor","operator":"Samoborček","route":"bus"},"n":3,"s":[[3211084244,1],[1581685363,2],[27134070,3]]},
+  {"id":10440600,"t":{"ref":"143","name":"143: Samobor - Rude","from":"Samobor","to":"Rude","network":"Samobor","operator":"Samoborček","route":"bus","public_transport:version":"2"},"n":10,"s":[[3531787680,4],[8185079575,5],[7046256576,6],[3927638738,7],[7070338480,8],[4287521809,9],[1036210567,10]]},
+  {"id":10440741,"t":{"ref":"143","name":"143: Rude - Samobor","from":"Rude","to":"Samobor","network":"Samobor","operator":"Samoborček","route":"bus","public_transport:version":"2"},"n":10,"s":[[7070338480,1],[3927638738,2],[7046256576,3],[8185079575,4],[3531787680,5],[4287521809,9],[1036210567,10]]},
+  {"id":10462652,"t":{"ref":"144","name":"144: Samobor - Smerovišće - Lipovec","from":"Samobor","to":"Lipovec","network":"Samobor","operator":"Samoborček","route":"bus","public_transport:version":"2"},"n":15,"s":[[7078541644,5],[7078672589,6],[509260003,12],[9063648523,13]]},
+  {"id":10462736,"t":{"ref":"144","name":"144: Lipovec - Smerovišće - Samobor","from":"Lipovec","to":"Samobor","network":"Samobor","operator":"Samoborček","route":"bus","public_transport:version":"2"},"n":15,"s":[[9063648523,7],[7078672589,8],[509260003,9],[7078541643,11]]}
+]
+}

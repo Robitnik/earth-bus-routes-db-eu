@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2898,3814],
+"stops":[
+  {"id":277296070,"lat":54.932029,"lon":10.724152,"k":"x"},
+  {"id":277296425,"lat":54.927356,"lon":10.733598,"k":"p"},
+  {"id":277296426,"lat":54.930367,"lon":10.727796,"k":"p"},
+  {"id":277296428,"lat":54.935499,"lon":10.730177,"k":"p","n":"Hine Bakkevej","ref":"3503"},
+  {"id":287359211,"lat":54.941552,"lon":10.731329,"k":"p"},
+  {"id":287360625,"lat":54.940461,"lon":10.724812,"k":"p"},
+  {"id":290747005,"lat":54.938621,"lon":10.708597,"k":"s","n":"Rudkøbing busstation"},
+  {"id":917365565,"lat":54.913127,"lon":10.749556,"k":"p"},
+  {"id":3790164902,"lat":54.941008,"lon":10.72195,"k":"p","n":"Rudkøbing","ref":"7874"},
+  {"id":3790164907,"lat":54.941055,"lon":10.721661,"k":"p","n":"Rudkøbing","ref":"7871"},
+  {"id":5313701862,"lat":54.936109,"lon":10.720005,"k":"p","n":"Rudkøbing Rådhus","ref":"1924"},
+  {"id":5313701863,"lat":54.936111,"lon":10.719841,"k":"p","n":"Rudkøbing Rådhus","ref":"3499"},
+  {"id":5335713509,"lat":54.905061,"lon":10.735679,"k":"p"},
+  {"id":5335713511,"lat":54.917295,"lon":10.732817,"k":"p"},
+  {"id":5335713514,"lat":54.905204,"lon":10.735352,"k":"p"},
+  {"id":5335714523,"lat":54.911959,"lon":10.730331,"k":"p","n":"Henninge"},
+  {"id":5335714530,"lat":54.912541,"lon":10.730334,"k":"p","n":"Henninge"},
+  {"id":5335714531,"lat":54.917005,"lon":10.732826,"k":"p"},
+  {"id":7149724471,"lat":54.94276,"lon":10.738959,"k":"p","n":"Kulepilevej","ref":"3491"},
+  {"id":7149724472,"lat":54.942633,"lon":10.738411,"k":"p","n":"Kulepilevej","ref":"3492"},
+  {"id":7778709811,"lat":54.937351,"lon":10.704187,"k":"x","n":"Rudkøbing Færge Terminal"},
+  {"id":7778709812,"lat":54.937398,"lon":10.704154,"k":"p","n":"Rudkøbing Færge Terminal"},
+  {"id":7778709813,"lat":54.941026,"lon":10.721789,"k":"x","n":"Rudkøbing"},
+  {"id":9556148329,"lat":54.935598,"lon":10.730209,"k":"p","n":"Hine Bakkevej","ref":"7212"},
+  {"id":9556148330,"lat":54.93375,"lon":10.733638,"k":"p","n":"Ørstedskolen","ref":"7930"}
+],
+"routes":[
+  {"id":6250029,"t":{"ref":"913","name":"913 - Rudkøbing - Lohals","from":"Rudkøbing","to":"Lohals","network":"FynBus","operator":"Fynbus","colour":"#adcb57","route":"bus","public_transport:version":"2"},"n":2,"s":[[7778709813,1],[3790164902,2]]},
+  {"id":6250032,"t":{"ref":"912","name":"912 - Rudkøbing - Bagenkop","from":"Rudkøbing","to":"Bagenkop","network":"FynBus","operator":"Fynbus","colour":"#adcb57","route":"bus","public_transport:version":"2"},"n":6,"s":[[3790164907,1],[5335714530,2]]},
+  {"id":6250070,"t":{"ref":"900A","name":"900A - Rudkøbing - Svendborg - Nyborg","from":"Rudkøbing","to":"Nyborg","network":"FynBus","operator":"Fynbus","colour":"#3e7182","route":"bus","public_transport:version":"2"},"n":4,"s":[[3790164902,1]]},
+  {"id":6862916,"t":{"ref":"591","name":"591 - Rudkøbing - Rudkøbing","from":"Rudkøbing","to":"Rudkøbing","network":"FynBus","operator":"Fynbus","colour":"gray","route":"bus","public_transport:version":"2"},"n":2,"s":[[7778709811,1],[7778709813,2]]},
+  {"id":11374882,"t":{"ref":"628","name":"Flixbus 628: Rudkøbing Færge Terminal => Københavns Lufthavn","from":"Rudkøbing Færge Terminal","to":"Københavns Lufthavn","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":6,"s":[[7778709812,1],[3790164902,2]]},
+  {"id":11374883,"t":{"ref":"628","name":"Flixbus 628: Københavns Lufthavn => Rudkøbing Færge Terminal","from":"Københavns Lufthavn","to":"Rudkøbing Færge Terminal","network":"Flixbus","operator":"Flixbus","route":"bus","public_transport:version":"2"},"n":5,"s":[[3790164907,4],[7778709812,5]]},
+  {"id":3004787593988,"t":{"ref":"FlixBus 628","name":"FlixBus 628: Copenhagen Airport - Rudkøbing Færge Terminal","from":"Copenhagen Airport","to":"Rudkøbing Færge Terminal","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":8,"s":[[7778709813,7],[7778709812,8]]},
+  {"id":3016229159073,"t":{"ref":"FlixBus 628","name":"FlixBus 628: Rudkøbing Færge Terminal - Copenhagen Airport","from":"Rudkøbing Færge Terminal","to":"Copenhagen Airport","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":8,"s":[[7778709812,1],[7778709813,2]]}
+]
+}

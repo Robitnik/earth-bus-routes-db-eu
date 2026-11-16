@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2708,4159],
+"stops":[
+  {"id":14090544321,"lat":45.401818,"lon":27.989035,"k":"s","n":"Gara Barboși"},
+  {"id":14090544322,"lat":45.401835,"lon":27.988993,"k":"x","n":"Gara Barboși stop (=> Releu)"},
+  {"id":14090544323,"lat":45.405222,"lon":27.992435,"k":"s","n":"Releu"},
+  {"id":14090544324,"lat":45.405231,"lon":27.992422,"k":"x","n":"Releu stop (=> Poligon)"},
+  {"id":14090544325,"lat":45.408057,"lon":27.998179,"k":"s","n":"Poligon"},
+  {"id":14090544326,"lat":45.408071,"lon":27.998188,"k":"x","n":"Poligon stop (=> Grădinița Prichindel)"},
+  {"id":14090544327,"lat":45.405261,"lon":27.992393,"k":"s","n":"Releu"},
+  {"id":14090544328,"lat":45.405237,"lon":27.992432,"k":"x","n":"Releu stop (=> Gara Barboși)"},
+  {"id":14090544329,"lat":45.408096,"lon":27.998087,"k":"x","n":"Poligon stop (=> Releu)"},
+  {"id":14090544330,"lat":45.408107,"lon":27.998093,"k":"s","n":"Poligon"},
+  {"id":14090544331,"lat":45.401896,"lon":27.98857,"k":"s","n":"Gara Barboși"},
+  {"id":14090544332,"lat":45.401876,"lon":27.988604,"k":"x","n":"Gara Barboși stop (=> Barboși)"},
+  {"id":14093112481,"lat":45.408386,"lon":27.99422,"k":"p","n":"Tirighina"},
+  {"id":14093112482,"lat":45.408439,"lon":27.994204,"k":"x","n":"Tirighina stop (=> Grădinița Prichindel)"},
+  {"id":14093112483,"lat":45.40644,"lon":27.988447,"k":"p","n":"Str. Brăilei"},
+  {"id":14093112484,"lat":45.406499,"lon":27.988463,"k":"x","n":"Str. Brăilei stop (=> Tirighina)"},
+  {"id":14093112485,"lat":45.408005,"lon":27.977015,"k":"x","n":"ADA Motors (Borcan) stop (=> Str. Brăilei)"},
+  {"id":14093112486,"lat":45.40797,"lon":27.97702,"k":"p","n":"ADA Motors (Borcan)"},
+  {"id":14093112487,"lat":45.40808,"lon":27.977038,"k":"p","n":"ADA Motors (Borcan)"},
+  {"id":14093112488,"lat":45.408009,"lon":27.977045,"k":"x","n":"ADA Motors (Borcan) stop"},
+  {"id":14093112489,"lat":45.40661,"lon":27.988187,"k":"p","n":"Str. Brăilei"},
+  {"id":14093112490,"lat":45.40654,"lon":27.988194,"k":"x","n":"Str. Brăilei stop (=> ADA Motors (Borcan))"},
+  {"id":14093112491,"lat":45.408418,"lon":27.99397,"k":"p","n":"Tirighina"},
+  {"id":14093112492,"lat":45.408389,"lon":27.993992,"k":"x","n":"Tirighina stop (=> Str. Brăilei)"}
+],
+"routes":[
+  {"id":21222268,"t":{"ref":"31","name":"Autobuz 31: Barboși => Micro 19","from":"Barboși","to":"Micro 19","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":6,"s":[[14090544321,2],[14090544323,3],[14090544325,4]]},
+  {"id":21222269,"t":{"ref":"31","name":"Autobuz 31: Micro 19 => Barboși","from":"Micro 19","to":"Barboși","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":6,"s":[[14090544330,3],[14090544327,4],[14090544331,5]]},
+  {"id":21226358,"t":{"ref":"30","name":"Autobuz 30: ADA Motors (Borcan) => Micro 19","from":"ADA Motors (Borcan)","to":"Micro 19","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":5,"s":[[14093112486,1],[14093112483,2],[14093112481,3]]},
+  {"id":21226359,"t":{"ref":"30","name":"Autobuz 30: Micro 19 => ADA Motors (Borcan)","from":"Micro 19","to":"ADA Motors (Borcan)","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":5,"s":[[14093112491,3],[14093112489,4],[14093112487,5]]}
+]
+}

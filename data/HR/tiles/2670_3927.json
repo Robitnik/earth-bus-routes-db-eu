@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2670,3927],
+"stops":[
+  {"id":538061797,"lat":43.549632,"lon":16.390718,"k":"x","n":"Kaštel Gomilica - Škola 2"},
+  {"id":734890932,"lat":43.508218,"lon":16.38936,"k":"p","n":"Institut 2"},
+  {"id":1274128320,"lat":43.508395,"lon":16.38939,"k":"p"},
+  {"id":1274128327,"lat":43.508459,"lon":16.395805,"k":"p"},
+  {"id":1274128333,"lat":43.508389,"lon":16.394879,"k":"p","n":"Park Marjan - jug 1"},
+  {"id":1274128340,"lat":43.508437,"lon":16.394864,"k":"p","ref":"12"},
+  {"id":1274128342,"lat":43.508503,"lon":16.395802,"k":"x"},
+  {"id":1274128353,"lat":43.508395,"lon":16.389322,"k":"p","n":"Institut 1"},
+  {"id":2515959840,"lat":43.548839,"lon":16.3971,"k":"x","n":"Kaštel Gomilica 1"},
+  {"id":2515959845,"lat":43.549523,"lon":16.391717,"k":"x","n":"Kaštel Gomilica - Škola 1"},
+  {"id":2516595456,"lat":43.549011,"lon":16.396029,"k":"x","n":"Kaštel Gomilica 2"},
+  {"id":12142070473,"lat":43.508418,"lon":16.395044,"k":"x"},
+  {"id":5000244618456,"lat":43.548858,"lon":16.397153,"k":"p","n":"Kaštel Gomilica 1"},
+  {"id":5000244618457,"lat":43.549583,"lon":16.391797,"k":"p","n":"Kaštel Gomilica - Škola 1"},
+  {"id":5000244627359,"lat":43.548981,"lon":16.39597,"k":"p","n":"Kaštel Gomilica 2"},
+  {"id":5000244627360,"lat":43.549571,"lon":16.390724,"k":"p","n":"Kaštel Gomilica - Škola 2"}
+],
+"routes":[
+  {"id":2048009,"t":{"ref":"12","name":"Bus 12: Sv.Frane - Bene - Sv.Frane","network":"Promet Split","operator":"Promet Split","route":"bus"},"n":26,"s":[[1274128353,2],[734890932,3],[12142070473,4],[1274128342,5]]},
+  {"id":3302552,"t":{"ref":"37","name":"Bus 37: Split => Trogir","from":"Autobusni Terminal Sukoišan","to":"Trogir","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000244618456,17],[5000244618457,18]]},
+  {"id":3303399,"t":{"ref":"37","name":"Bus 37: Trogir => Split","from":"Trogir","to":"Sukoišan","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000244627360,16],[5000244627359,17]]},
+  {"id":3307550,"t":{"ref":"38","name":"Bus 38: Split => K.Stari => Zračna Luka","from":"Autobusni Terminal Sukoišan","to":"Zračna Luka Okretište","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000244618456,19],[5000244618457,20]]},
+  {"id":3307723,"t":{"ref":"38","name":"Bus 38: Zračna Luka => K.Stari => Split","from":"Zračna Luka Okretište","to":"Autobusni Terminal Sukoišan","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000244627360,14],[5000244627359,15]]},
+  {"id":14765709,"t":{"ref":"38","name":"Bus 38: Split => K.Stari","from":"Autobusni Terminal Sukoišan","to":"Kaštel Stari - Centar","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000244618456,19],[5000244618457,20]]},
+  {"id":14765710,"t":{"ref":"38","name":"Bus 38: Kaštel Stari => Split => Općina => Vukovarska - Vrh Sućidra (Velebitska)","from":"Kaštel Stari - Centar 2","to":"Velebitska - Pujanke","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000244627360,8],[5000244627359,9]]},
+  {"id":14765711,"t":{"ref":"38","name":"Bus 38: Zračna Luka => Split => Općina => Vukovarska - Vrh Sućidra (Velebitska)","from":"Zračna Luka Okretište","to":"Velebitska - Pujanke","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":36,"s":[[5000244627360,14],[5000244627359,15]]},
+  {"id":14765982,"t":{"ref":"37","name":"Bus 37: Trogir => Split => Trznica","from":"Trogir","to":"Pazar","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":35,"s":[[5000244627360,16],[5000244627359,17]]}
+]
+}

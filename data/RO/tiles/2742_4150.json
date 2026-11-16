@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2742,4150],
+"stops":[
+  {"id":2384615622,"lat":47.146151,"lon":27.527959,"k":"p","n":"Primăria Miroslava"},
+  {"id":2384615626,"lat":47.145853,"lon":27.525212,"k":"p","n":"Tess Conex"},
+  {"id":2390742663,"lat":47.146193,"lon":27.531976,"k":"p","n":"Strada Constantin Langa"},
+  {"id":2398982004,"lat":47.142247,"lon":27.513845,"k":"p","n":"Transanapet"},
+  {"id":6708778531,"lat":47.145024,"lon":27.538959,"k":"x","n":"Strada Viilor"},
+  {"id":10537953300,"lat":47.145053,"lon":27.540249,"k":"p","n":"Strada Viilor"},
+  {"id":10537953301,"lat":47.145774,"lon":27.549476,"k":"p","n":"Complex Sun City"},
+  {"id":10537953302,"lat":47.145861,"lon":27.549438,"k":"p","n":"Complex Sun City"},
+  {"id":10537962110,"lat":47.145051,"lon":27.538941,"k":"p","n":"Strada Viilor"},
+  {"id":10537962111,"lat":47.146294,"lon":27.531902,"k":"p","n":"Strada Constantin Langa"},
+  {"id":10537962112,"lat":47.145307,"lon":27.526057,"k":"p","n":"Strada Profesor Anton Nițu"},
+  {"id":10538023010,"lat":47.143952,"lon":27.523496,"k":"p","n":"Parc Joacă - Miroslava"},
+  {"id":10538023011,"lat":47.141447,"lon":27.52904,"k":"p","n":"Vulcanizare - Balciu"},
+  {"id":10538023012,"lat":47.141467,"lon":27.52915,"k":"p","n":"Vulcanizare - Balciu"},
+  {"id":10538023013,"lat":47.127296,"lon":27.542108,"k":"p","n":"Strada Mărului"},
+  {"id":10538023014,"lat":47.127361,"lon":27.542155,"k":"p","n":"Strada Mărului"},
+  {"id":10538023015,"lat":47.124866,"lon":27.546058,"k":"p","n":"Cinci Drumuri"},
+  {"id":10538023016,"lat":47.1249,"lon":27.546116,"k":"p","n":"Cinci Drumuri"},
+  {"id":10538109409,"lat":47.142194,"lon":27.513974,"k":"p","n":"Transanapet"},
+  {"id":10574697394,"lat":47.143949,"lon":27.523437,"k":"x","n":"Parc Joacă - Miroslava"},
+  {"id":10574697395,"lat":47.141484,"lon":27.529099,"k":"x","n":"Vulcanizare - Balciu"},
+  {"id":10574697396,"lat":47.127348,"lon":27.54211,"k":"x","n":"Strada Mărului"},
+  {"id":10574697397,"lat":47.124876,"lon":27.546112,"k":"x","n":"Cinci Drumuri"},
+  {"id":10574697400,"lat":47.145334,"lon":27.526116,"k":"x","n":"Primăria Miroslava"},
+  {"id":10574697401,"lat":47.14623,"lon":27.531934,"k":"x","n":"Strada Constantin Langa"},
+  {"id":10574697402,"lat":47.145114,"lon":27.540245,"k":"x","n":"Strada Viilor"},
+  {"id":10574697403,"lat":47.145799,"lon":27.549393,"k":"x","n":"Complex Sun City"}
+],
+"routes":[
+  {"id":15258824,"t":{"ref":"23","name":"Bus 23: Podu Roș => Primăria Miroslava","from":"Podu Roș 3","to":"Primăria Miroslava","network":"CTP Iași","route":"bus","public_transport:version":"2"},"n":10,"s":[[10537953302,7],[10537962110,8],[10537962111,9],[10537962112,10]]},
+  {"id":15258890,"t":{"ref":"23","name":"Bus 23: Primăria Miroslava => Podu Roș","from":"Primăria Miroslava","to":"Podu Roș 3","network":"CTP Iași","route":"bus","public_transport:version":"2"},"n":11,"s":[[10537962112,1],[2384615622,2],[2390742663,3],[10537953300,4],[10537953301,5]]},
+  {"id":15259074,"t":{"ref":"503","name":"Bus 503: Tehnopolis => Valea Adâncă => Miroslava","from":"Tehnopolis","to":"Primăria Miroslava","network":"AMTPI","operator":"AMTPI","route":"bus","public_transport:version":"2"},"n":9,"s":[[10538023016,5],[10538023014,6],[10538023012,7],[10538023010,8],[10537962112,9]]},
+  {"id":15259075,"t":{"ref":"503","name":"Bus 503: Miroslava => Valea Adâncă => Tehnopolis","from":"Primăria Miroslava","to":"Tehnopolis","network":"AMTPI","operator":"AMTPI","route":"bus","public_transport:version":"2"},"n":8,"s":[[10537962112,1],[10538023011,2],[10538023013,3],[10538023015,4]]},
+  {"id":15259223,"t":{"ref":"501","name":"Bus 501: Podu Roș => Miroslava => Vorovești","from":"Podu Roș","to":"Vorovești","network":"CTP Iași","route":"bus"},"n":13,"s":[[2384615626,1],[10537962111,2],[10537962110,3],[10537953302,4],[2398982004,13]]},
+  {"id":15259224,"t":{"ref":"501","name":"Bus 501: Vorovești => Miroslava => Podu Roș","from":"Vorovești","to":"Podu Roș","network":"CTP Iași","route":"bus"},"n":12,"s":[[2384615622,1],[2390742663,2],[10537953300,3],[10537953301,4],[10538109409,12]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2862,3465],
+"stops":[
+  {"id":612469050,"lat":53.129967,"lon":-6.74594,"k":"p","n":"Kilcullen"},
+  {"id":613568047,"lat":53.130132,"lon":-6.746082,"k":"p","n":"Kilcullen","ref":"136431"},
+  {"id":4962804976,"lat":53.130112,"lon":-6.746107,"k":"p","n":"Rapid Town Link"},
+  {"id":8740870931,"lat":53.141939,"lon":-6.734655,"k":"p","n":"Luí na Gréine","ref":"136391"},
+  {"id":8740870932,"lat":53.130122,"lon":-6.746095,"k":"p","n":"Kilcullen","ref":"136431"},
+  {"id":8740870940,"lat":53.129984,"lon":-6.745924,"k":"p","n":"Kilcullen","ref":"132641"},
+  {"id":8740870941,"lat":53.142018,"lon":-6.73426,"k":"p","n":"Luí na Gréine"},
+  {"id":8740870942,"lat":53.14989,"lon":-6.720132,"k":"p","n":"Carnalway"},
+  {"id":9953768755,"lat":53.149859,"lon":-6.720314,"k":"p","n":"Carnalway"}
+],
+"routes":[
+  {"id":383470,"t":{"ref":"736","name":"Tramore - Waterford - Dublin Airport","from":"Tramore","to":"Dublin Airport","network":"J.J. Kavanagh & Sons","operator":"J.J. Kavanagh & Sons","route":"bus","public_transport:version":"2"},"n":16,"s":[[613568047,13]]},
+  {"id":405696,"t":{"name":"Dublin Airport - Waterford - Tramore","from":"Dublin Airport","to":"Tramore","operator":"J.J. Kavanagh & Sons","route":"bus","public_transport:version":"2"},"n":15,"s":[[612469050,5]]},
+  {"id":12725645,"t":{"ref":"130","name":"Bus 130: Kilcullen → Naas","from":"Kilcullen","to":"Naas","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":6,"s":[[8740870932,1],[8740870931,2]]},
+  {"id":12725646,"t":{"ref":"130","name":"Bus 130: Athy → Naas","from":"Athy","to":"Naas","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":9,"s":[[8740870932,4],[8740870931,5]]},
+  {"id":12725647,"t":{"ref":"130","name":"Bus 130: Kilcullen → Dublin","from":"Kilcullen","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":18,"s":[[8740870932,1],[8740870931,2]]},
+  {"id":12725648,"t":{"ref":"130","name":"Bus 130: Athy → Dublin","from":"Athy","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":21,"s":[[8740870932,4],[8740870931,5]]},
+  {"id":12725649,"t":{"ref":"130","name":"Bus 130: Naas → Athy","from":"Naas","to":"Athy","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":9,"s":[[9953768755,4],[8740870941,5],[8740870940,6]]},
+  {"id":12725650,"t":{"ref":"130","name":"Bus 130: Dublin → Kilcullen","from":"Dublin","to":"Kilcullen","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":18,"s":[[9953768755,16],[8740870941,17],[8740870940,18]]},
+  {"id":12725651,"t":{"ref":"130","name":"Bus 130: Dublin → Athy","from":"Dublin","to":"Athy","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":21,"s":[[9953768755,16],[8740870941,17],[8740870940,18]]},
+  {"id":12725659,"t":{"ref":"130A","name":"Bus 130A: Athy → Dublin","from":"Athy","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":20,"s":[[8740870932,4],[8740870931,5]]}
+]
+}

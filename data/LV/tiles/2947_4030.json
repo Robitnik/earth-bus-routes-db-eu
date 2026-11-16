@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2947,4030],
+"stops":[
+  {"id":262294453,"lat":57.385632,"lon":21.545956,"k":"p","n":"Ventspils augstskola"},
+  {"id":301843582,"lat":57.38426,"lon":21.549469,"k":"p","n":"Inženieru iela"},
+  {"id":1568327996,"lat":57.384723,"lon":21.548776,"k":"p","n":"Inženieru iela"},
+  {"id":1568328001,"lat":57.392193,"lon":21.539688,"k":"p","n":"Loču iela"},
+  {"id":1568328023,"lat":57.387987,"lon":21.543502,"k":"p","n":"Slimnīca"},
+  {"id":1568384853,"lat":57.396718,"lon":21.532708,"k":"p","n":"Dienvidu mols"},
+  {"id":1568384856,"lat":57.390623,"lon":21.5389,"k":"p","n":"Medņu iela"},
+  {"id":1569155050,"lat":57.388316,"lon":21.543815,"k":"p","n":"Slimnīca"},
+  {"id":1569155056,"lat":57.391563,"lon":21.549079,"k":"p","n":"Karlīnes iela"},
+  {"id":1818921142,"lat":57.39346,"lon":21.540956,"k":"p"},
+  {"id":1888118024,"lat":57.375871,"lon":21.548956,"k":"p","n":"Kalns"},
+  {"id":7855507531,"lat":57.370587,"lon":21.54963,"k":"p","n":"Bucher"},
+  {"id":7856883196,"lat":57.391765,"lon":21.549109,"k":"p","n":"Karlīnes iela"},
+  {"id":7859400770,"lat":57.385276,"lon":21.538941,"k":"p","n":"Brīvdabas muzejs"},
+  {"id":7859400771,"lat":57.379715,"lon":21.535959,"k":"p","n":"Meža kapi"},
+  {"id":7859400782,"lat":57.379893,"lon":21.546039,"k":"p","n":"Jaunie Meža kapi"}
+],
+"routes":[
+  {"id":11556030,"t":{"ref":"2","name":"Bus 2: Bucher –> Celtnieku iela","route":"bus","public_transport:version":"2"},"n":20,"s":[[7855507531,1]]},
+  {"id":11557992,"t":{"ref":"4A","name":"Bus 4A: Centrs –> Selga","from":"Centrs","to":"Selga","route":"bus","public_transport:version":"2"},"n":15,"s":[[7856883196,3],[1569155050,4],[262294453,5],[301843582,6]]},
+  {"id":11557993,"t":{"ref":"4A","name":"Bus 4A: Selga –> Centrs","route":"bus","public_transport:version":"2"},"n":14,"s":[[1568327996,9],[1568328023,10],[1569155056,11]]},
+  {"id":11558825,"t":{"ref":"5","name":"Bus 5: Siguldas iela –> Inženieru iela","route":"bus","public_transport:version":"2"},"n":17,"s":[[7856883196,14],[1569155050,15],[262294453,16],[301843582,17]]},
+  {"id":11558826,"t":{"ref":"5","name":"Bus 5: Inženieru iela –> Siguldas iela","route":"bus","public_transport:version":"2"},"n":20,"s":[[301843582,1]]},
+  {"id":11561662,"t":{"ref":"6","name":"Bus 6: Ventbunkers –> Saules iela","route":"bus","public_transport:version":"2"},"n":21,"s":[[7856883196,16],[1569155050,17],[7859400770,18],[7859400771,19],[7859400782,20]]},
+  {"id":11561776,"t":{"ref":"6A","name":"Bus 6A: Meža kapi –> Ventbunkers","route":"bus","public_transport:version":"2"},"n":23,"s":[[7859400771,1],[262294453,2],[301843582,3]]},
+  {"id":11561827,"t":{"ref":"6AP","name":"Bus 6AP: Viesnīca \"Vilnis\" –> Bucher","route":"bus","public_transport:version":"2"},"n":22,"s":[[301843582,4],[262294453,5],[7856883196,7],[1888118024,15],[7855507531,19],[1569155050,20]]}
+]
+}

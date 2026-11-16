@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2863,3461],
+"stops":[
+  {"id":582559953,"lat":53.154057,"lon":-6.917295,"k":"p","n":"Kildare Village Outlet"},
+  {"id":3791498655,"lat":53.154152,"lon":-6.919031,"k":"p","n":"Kildare Village Outlet"},
+  {"id":3791498959,"lat":53.154159,"lon":-6.919141,"k":"x","n":"Kildare Village"},
+  {"id":5143815721,"lat":53.156895,"lon":-6.910627,"k":"p","n":"Kildare Town"},
+  {"id":8502350652,"lat":53.154843,"lon":-6.903179,"k":"p","n":"Curragh Road","ref":"126"},
+  {"id":8502350654,"lat":53.154758,"lon":-6.903271,"k":"p","n":"Curragh Road"},
+  {"id":8502350655,"lat":53.156875,"lon":-6.910494,"k":"p","n":"Kildare"},
+  {"id":8586234197,"lat":53.156765,"lon":-6.910647,"k":"p","n":"Kildare","ref":"155261"}
+],
+"routes":[
+  {"id":5595053,"t":{"ref":"300","name":"M7 Express Dublin - Ennis","from":"Dublin","to":"Ennis","network":"The Green Bus","operator":"Dublin Coach","colour":"lightgreen","route":"bus","public_transport:version":"2"},"n":7,"s":[[3791498655,3]]},
+  {"id":12423393,"t":{"ref":"126","name":"Bus 126: Kildare → Dublin","from":"Kildare","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350655,1],[8502350652,2]]},
+  {"id":12423394,"t":{"ref":"126","name":"Bus 126: Dublin → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350654,41],[8586234197,42]]},
+  {"id":12527518,"t":{"ref":"126","name":"Bus 126: Dublin → Kildare → Rathangan","from":"Dublin","to":"Rathangan","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":43,"s":[[8502350654,41],[8586234197,42]]},
+  {"id":12527519,"t":{"ref":"126","name":"Bus 126: Rathangan → Kildare → Dublin","from":"Rathangan","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":43,"s":[[8502350655,2],[8502350652,3]]},
+  {"id":12528080,"t":{"ref":"126E","name":"Bus 126E: Kildare → Dublin","from":"Kildare","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":34,"s":[[8502350655,1],[8502350652,2]]},
+  {"id":14320799,"t":{"ref":"726","from":"Dublin","to":"Portlaoise","operator":"Dublin Coach","route":"bus","public_transport:version":"2"},"n":12,"s":[[8586234197,10]]},
+  {"id":14460374,"t":{"ref":"126","name":"Bus 126: Kildare → Kill","from":"Kildare","to":"Kill","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":31,"s":[[8502350655,1],[8502350652,2]]},
+  {"id":14460376,"t":{"ref":"126","name":"Bus 126: Kill → Kildare","from":"Kill","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":30,"s":[[8502350654,29],[8586234197,30]]},
+  {"id":14460405,"t":{"ref":"126A","name":"Bus 126A: Dublin → Japanese Gardens → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8586234197,42]]},
+  {"id":14460406,"t":{"ref":"126A","name":"Bus 126A: Rathangan → Japanese Gardens → Dublin","from":"Rathangan","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":42,"s":[[8502350655,2]]},
+  {"id":14460466,"t":{"ref":"126D","name":"Bus 126D: Dublin → Suncroft → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":41,"s":[[8586234197,41]]},
+  {"id":14460467,"t":{"ref":"126B","name":"Bus 126B: Kildare → Suncroft → Dublin","from":"Kildare","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":40,"s":[[8502350655,1]]},
+  {"id":14460495,"t":{"ref":"126U","name":"Bus 126U: Kildare → Dublin (UCD)","from":"Kildare","to":"Dublin (UCD)","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":46,"s":[[8502350655,1],[8502350652,2]]},
+  {"id":14460580,"t":{"ref":"126T","name":"Bus 126T: Dublin → Tallaght Hospital → Kildare","from":"Dublin","to":"Kildare","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":41,"s":[[8586234197,41]]},
+  {"id":14594177,"t":{"ref":"735","from":"Dublin Airport (Zone 16)","to":"Limerick","network":"Transport for Ireland","operator":"J.J. Kavanagh","route":"bus","public_transport:version":"2"},"n":11,"s":[[3791498655,6]]},
+  {"id":18246520,"t":{"ref":"300","name":"M7 Express Tralee - Dublin","from":"Tralee","to":"Dublin","network":"The Green Bus","operator":"Dublin Coach","colour":"lightgreen","route":"bus","public_transport:version":"2"},"n":10,"s":[[3791498655,8]]},
+  {"id":18246521,"t":{"ref":"300","name":"M7 Express Limerick - Dublin","from":"Limerick","to":"Dublin","network":"The Green Bus","operator":"Dublin Coach","colour":"lightgreen","route":"bus","public_transport:version":"2"},"n":3,"s":[[3791498655,2]]},
+  {"id":21407198,"t":{"ref":"300","name":"M7 Express Dublin - Tralee","from":"Dublin","to":"Tralee","network":"The Green Bus","operator":"Dublin Coach","colour":"lightgreen","route":"bus","public_transport:version":"2"},"n":10,"s":[[3791498655,3]]}
+]
+}

@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2716,4026],
+"stops":[
+  {"id":2075244177,"lat":45.810112,"lon":21.319195,"k":"x","n":"Aeroport Terminal Interne"},
+  {"id":2075404681,"lat":45.810171,"lon":21.319301,"k":"p","n":"Aeroport Terminal Interne"},
+  {"id":3173052922,"lat":45.842849,"lon":21.313827,"k":"x","n":"Bătrână Giarmata"},
+  {"id":3174699310,"lat":45.848519,"lon":21.319867,"k":"x","n":"Girație Calea Bencecului Giarmata"},
+  {"id":6732263274,"lat":45.808964,"lon":21.322656,"k":"x","n":"Aeroport Terminal Schengen"},
+  {"id":7029204182,"lat":45.802133,"lon":21.300308,"k":"x","n":"Giarmata Vii Carpenului"},
+  {"id":7029204183,"lat":45.802106,"lon":21.300264,"k":"p","n":"Giarmata Vii Carpenului"},
+  {"id":12094097241,"lat":45.80901,"lon":21.322671,"k":"p","n":"Aeroport Terminal Schengen"},
+  {"id":13272312181,"lat":45.836724,"lon":21.310782,"k":"x","n":"Cămin cultural Giarmata"},
+  {"id":13272312182,"lat":45.836798,"lon":21.310829,"k":"p","n":"Cămin cultural Giarmata"},
+  {"id":13272312183,"lat":45.842095,"lon":21.317408,"k":"x","n":"Biserica Catolică Giarmata"},
+  {"id":13272312184,"lat":45.842123,"lon":21.317266,"k":"p","n":"Biserica Catolică Giarmata"},
+  {"id":13272312185,"lat":45.84854,"lon":21.319754,"k":"p","n":"Girație Calea Bencecului Giarmata"},
+  {"id":13272312186,"lat":45.849722,"lon":21.314916,"k":"x","n":"Calea Bencecului Giarmata"},
+  {"id":13272312187,"lat":45.849655,"lon":21.3149,"k":"p","n":"Calea Bencecului Giarmata"},
+  {"id":13272312188,"lat":45.842878,"lon":21.313927,"k":"p","n":"Bătrână Giarmata"},
+  {"id":13272312189,"lat":45.837401,"lon":21.310745,"k":"x","n":"Centru Giarmata"},
+  {"id":13272312190,"lat":45.837362,"lon":21.310821,"k":"p","n":"Centru Giarmata"},
+  {"id":13272383405,"lat":45.837719,"lon":21.301029,"k":"x","n":"Morii Giarmata"},
+  {"id":13272383406,"lat":45.837772,"lon":21.301032,"k":"p","n":"Morii Giarmata"},
+  {"id":14004521392,"lat":45.836813,"lon":21.310828,"k":"x","n":"Cămin cultural Giarmata"},
+  {"id":14004521396,"lat":45.836661,"lon":21.31075,"k":"x","n":"Cămin cultural Giarmata"}
+],
+"routes":[
+  {"id":5594012,"t":{"ref":"E4","name":"E4: Aeroport => Bastion","from":"Aeroport","to":"Bastion","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":13,"s":[[12094097241,1],[2075404681,2]]},
+  {"id":5594013,"t":{"ref":"E4","name":"E4: Bastion => Aeroport","from":"Bastion","to":"Aeroport","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":13,"s":[[12094097241,13]]},
+  {"id":5594099,"t":{"ref":"M35","name":"M35: Bastion → Giarmata Vii","from":"Bastion","to":"Giarmata Vii","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":21,"s":[[7029204183,19]]},
+  {"id":5660209,"t":{"ref":"E4B","name":"E4B: Aeroport => Gheorghe Barițiu","from":"Aeroport","to":"Gheorghe Barițiu","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":14,"s":[[12094097241,1],[2075404681,2]]},
+  {"id":5660210,"t":{"ref":"E4B","name":"E4B: Gheorghe Barițiu => Aeroport","from":"Gheorghe Barițiu","to":"Aeroport","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":12,"s":[[12094097241,12]]},
+  {"id":19777869,"t":{"ref":"M49","name":"M49: Timișoara → Giarmata","from":"Timișoara","to":"Giarmata","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":17,"s":[[13272312190,14],[13272312188,15],[13272312187,16],[13272312185,17]]},
+  {"id":19777906,"t":{"ref":"M49","name":"M49: Giarmata → Timișoara","from":"Giarmata","to":"Timișoara","network":"S.T.P.T.","operator":"S.T.P.T.","route":"bus","public_transport:version":"2"},"n":13,"s":[[13272312185,1],[13272312184,2],[13272312182,3],[13272383406,4]]}
+]
+}

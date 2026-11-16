@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2929,4057],
+"stops":[
+  {"id":3659304274,"lat":56.460246,"lon":22.895892,"k":"x","n":"Auces stacija"},
+  {"id":5003724628,"lat":56.460246,"lon":22.895944,"k":"p","n":"Auces stacija"},
+  {"id":11267258715,"lat":56.464822,"lon":22.893673,"k":"p","n":"Auce"},
+  {"id":13730883187,"lat":56.464628,"lon":22.89341,"k":"p","n":"Auce"}
+],
+"routes":[
+  {"id":12526447,"t":{"ref":"7254","name":"Bus 7254: Auces stacija -> Saldus AO","from":"Auces stacija","to":"Saldus AO","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[5003724628,1]]},
+  {"id":12526463,"t":{"ref":"7254","name":"Bus 7254: Saldus AO -> Auces stacija","from":"Saldus AO","to":"Auces stacija","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[5003724628,26]]},
+  {"id":12538770,"t":{"ref":"7347","name":"Bus 7347: Auces stacija -> Jelgavas AO","from":"Auces stacija","to":"Jelgavas AO","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":13,"s":[[5003724628,1]]},
+  {"id":12538774,"t":{"ref":"7347","name":"Bus 7347: Jelgavas AO -> Auces stacija","from":"Jelgavas AO","to":"Auces stacija","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":13,"s":[[5003724628,13]]},
+  {"id":21045643,"t":{"ref":"6746","name":"6746 Auce – Jaunauces centrs – Saldus","from":"Auce","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":20,"s":[[13730883187,1]]},
+  {"id":21045645,"t":{"ref":"6746","name":"6746 Saldus – Jaunauces centrs – Auce","from":"Saldus AO","to":"Auce","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":20,"s":[[11267258715,20]]}
+]
+}

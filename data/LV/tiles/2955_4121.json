@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2955,4121],
+"stops":[
+  {"id":419771376,"lat":57.774763,"lon":26.052334,"k":"p","n":"Valga bussijaam","ref":"8200688-1"},
+  {"id":4632978745,"lat":57.778025,"lon":26.057443,"k":"p","n":"Petseri"},
+  {"id":4632979406,"lat":57.76722,"lon":26.077621,"k":"p","n":"Laatsi"},
+  {"id":4632979407,"lat":57.767168,"lon":26.076864,"k":"p","n":"Laatsi"},
+  {"id":4632979408,"lat":57.768749,"lon":26.070005,"k":"p","n":"Pagari"},
+  {"id":4632979409,"lat":57.770471,"lon":26.061856,"k":"p","n":"Andrese"},
+  {"id":4632979410,"lat":57.770584,"lon":26.061734,"k":"p","n":"Andrese"},
+  {"id":4632979416,"lat":57.770466,"lon":26.065909,"k":"p","n":"Saabuvad autobussid"},
+  {"id":4632979817,"lat":57.771429,"lon":26.054936,"k":"p","n":"Tiigi"},
+  {"id":4632979818,"lat":57.771573,"lon":26.054827,"k":"p","n":"Tiigi"},
+  {"id":4632980223,"lat":57.76954,"lon":26.067756,"k":"p","n":"Pagari"},
+  {"id":4632980224,"lat":57.778071,"lon":26.057642,"k":"p","n":"Petseri"},
+  {"id":4632980854,"lat":57.761277,"lon":26.095176,"k":"p","n":"Toogipalu"},
+  {"id":9882125481,"lat":57.77481,"lon":26.05227,"k":"x","n":"Valga bussijaam","ref":"8200688-1"},
+  {"id":9893166352,"lat":57.775225,"lon":26.052865,"k":"p","n":"Jaama","ref":"8200102-1"},
+  {"id":9893166353,"lat":57.775324,"lon":26.052434,"k":"p","n":"Jaama","ref":"8200103-1"},
+  {"id":11021771968,"lat":57.761277,"lon":26.095685,"k":"p","n":"Toogipalu"},
+  {"id":11093664849,"lat":57.762935,"lon":26.089946,"k":"p","n":"Aiamaa"},
+  {"id":11093664850,"lat":57.763421,"lon":26.088968,"k":"p","n":"Aiamaa"},
+  {"id":12065182724,"lat":57.763376,"lon":26.08888,"k":"x"},
+  {"id":12065182725,"lat":57.762979,"lon":26.090054,"k":"x"},
+  {"id":13116230049,"lat":57.775243,"lon":26.052854,"k":"x","n":"Jaama","ref":"8200102-1"},
+  {"id":13116230051,"lat":57.775306,"lon":26.052436,"k":"x","n":"Jaama","ref":"8200103-1"}
+],
+"routes":[
+  {"id":14345929,"t":{"ref":"101","name":"Bus 101: Valga =>Tallinn","from":"Valga bussijaam","to":"Tallinna Bussijaam","network":"Eesti kaugliinid","operator":"GoBus AS","colour":"#5a0e03","route":"bus","public_transport:version":"2"},"n":2,"s":[[419771376,1]]},
+  {"id":14345930,"t":{"ref":"101","name":"Bus 101: Tallinn => Valga","from":"Tallinna Bussijaam","to":"Valga bussijaam","network":"Eesti kaugliinid","operator":"GoBus AS","colour":"#5a0e03","route":"bus","public_transport:version":"2"},"n":4,"s":[[419771376,4]]},
+  {"id":14361553,"t":{"ref":"1","name":"Bus 1: Tolli => Tolli","from":"Tolli","to":"Rükkeli","network":"Valga MV","operator":"ATG Bussiliinid OÜ","route":"bus","public_transport:version":"2"},"n":23,"s":[[4632978745,4],[9893166353,5],[9893166352,13],[4632980224,14]]},
+  {"id":14361554,"t":{"ref":"1","name":"Bus 1: Tolli => Tolli","from":"Tolli","to":"Rükkeli","network":"Valga MV","operator":"ATG Bussiliinid OÜ","route":"bus","public_transport:version":"2"},"n":25,"s":[[4632978745,5],[9893166353,6],[9893166352,14],[4632980224,15]]},
+  {"id":14361555,"t":{"ref":"1","name":"Bus 1: Tolli => Tolli","from":"Rükkeli","to":"Kampuse","network":"Valga MV","operator":"ATG Bussiliinid OÜ","route":"bus","public_transport:version":"2"},"n":24,"s":[[4632978745,6],[9893166353,7],[9893166352,15],[4632980224,16]]},
+  {"id":14361556,"t":{"ref":"1","name":"Bus 1: Tolli => Tolli","from":"Tolli","to":"Rükkeli","network":"Valga MV","operator":"ATG Bussiliinid OÜ","route":"bus","public_transport:version":"2"},"n":23,"s":[[4632978745,4],[9893166353,5],[9893166352,13],[4632980224,14]]},
+  {"id":19560680,"t":{"ref":"80","name":"Bus 80: Valga => Viljandi","from":"Valga bussijaam","to":"Viljandi bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":9,"s":[[419771376,1]]},
+  {"id":19560681,"t":{"ref":"80","name":"Bus 80: Viljandi => Valga","from":"Viljandi bussijaam","to":"Valga bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":9,"s":[[419771376,9]]}
+]
+}

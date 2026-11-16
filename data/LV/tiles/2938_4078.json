@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2938,4078],
+"stops":[
+  {"id":321607328,"lat":56.924003,"lon":23.913992,"k":"p","n":"Brīvkalni","q":1},
+  {"id":321635444,"lat":56.92822,"lon":23.916208,"k":"p","n":"Brīvkalni","q":1},
+  {"id":321641843,"lat":56.943882,"lon":23.922893,"k":"p","n":"Pagrieziens uz Piņķiem","q":1},
+  {"id":2789900132,"lat":56.942888,"lon":23.904143,"k":"p","n":"Meistaru iela","q":1},
+  {"id":2841668330,"lat":56.946024,"lon":23.92286,"k":"p","n":"Pagrieziens uz Piņķiem","q":1},
+  {"id":2841668332,"lat":56.92013,"lon":23.94421,"k":"p","n":"Silkalēji","q":1},
+  {"id":2841668333,"lat":56.920327,"lon":23.942583,"k":"p","n":"Silkalēji","q":1},
+  {"id":2841668336,"lat":56.919634,"lon":23.949514,"k":"p","n":"Skultes stadions","q":1},
+  {"id":2841668337,"lat":56.919935,"lon":23.947548,"k":"p","n":"Skultes stadions","q":1},
+  {"id":3562913093,"lat":56.930022,"lon":23.913354,"k":"p","n":"Beberbeķu kapi"},
+  {"id":8592815035,"lat":56.943905,"lon":23.922753,"k":"x","n":"Pagrieziens uz Piņķiem"},
+  {"id":8699277628,"lat":56.930004,"lon":23.913467,"k":"x","n":"Beberbeķu kapi"},
+  {"id":8848835113,"lat":56.944225,"lon":23.910209,"k":"p","n":"Piņķi","q":1},
+  {"id":8848835114,"lat":56.944286,"lon":23.910192,"k":"x","n":"Piņķi"},
+  {"id":8848856117,"lat":56.944377,"lon":23.910343,"k":"p","n":"Piņķi","q":1},
+  {"id":8848856118,"lat":56.944302,"lon":23.910366,"k":"x","n":"Piņķi"},
+  {"id":8848856123,"lat":56.945637,"lon":23.918863,"k":"p","n":"Pagrieziens uz Piņķiem","q":1},
+  {"id":8848856124,"lat":56.945587,"lon":23.918926,"k":"x","n":"Pagrieziens uz Piņķiem"}
+],
+"routes":[
+  {"id":11186742,"t":{"ref":"4","name":"Bus 4: Piņķi => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":28,"s":[[2789900132,1],[8848835113,2]]},
+  {"id":11186743,"t":{"ref":"4","name":"Bus 4: Abrenes iela => Piņķi","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":26,"s":[[8848856123,24],[8848856117,25],[2789900132,26]]},
+  {"id":11288331,"t":{"ref":"32","name":"Bus 32: Piņķi => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":23,"s":[[2789900132,1],[8848835113,2]]},
+  {"id":11288332,"t":{"ref":"32","name":"Bus 32: Abrenes iela => Piņķi","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":22,"s":[[8848856123,20],[8848856117,21],[2789900132,22]]},
+  {"id":11292339,"t":{"ref":"43","name":"Bus 43: Skulte => Abrenes iela","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":26,"s":[[2841668337,3],[2841668333,4],[321635444,5],[321641843,6]]},
+  {"id":11292340,"t":{"ref":"43","name":"Bus 43: Abrenes iela => Skulte","operator":"Rīgas satiksme","colour":"#F4B427","route":"bus","public_transport:version":"2"},"n":25,"s":[[2841668330,20],[321607328,21],[2841668332,22],[2841668336,23]]},
+  {"id":18528603,"t":{"ref":"7959","name":"bus 7959: Rīga => Pagrieziens uz Kalnciemu => Standarts","from":"Rīga","to":"Standarts","route":"bus","public_transport:version":"2"},"n":25,"s":[[8848856117,7]]},
+  {"id":18528604,"t":{"ref":"7959","name":"bus 7959: Standarts => Pagrieziens uz Kalnciemu => Rīga","from":"Standarts","to":"Rīga","route":"bus","public_transport:version":"2"},"n":25,"s":[[8848835113,19]]}
+]
+}

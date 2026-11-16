@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"EE",
+"tile":[2979,4096],
+"stops":[
+  {"id":2546558705,"lat":58.991973,"lon":24.830257,"k":"p","n":"Rapla jaam","ref":"7000473-1"},
+  {"id":2546558706,"lat":58.99244,"lon":24.829182,"k":"p","n":"Rapla jaam","ref":"7000472-1"},
+  {"id":3094140566,"lat":58.993397,"lon":24.832297,"k":"p","n":"Rapla raudteejaam","ref":"7000474-1"},
+  {"id":3132109973,"lat":58.993367,"lon":24.832252,"k":"x","n":"Rapla raudteejaam","ref":"7000474-1"},
+  {"id":4640419361,"lat":58.952463,"lon":24.832877,"k":"p","n":"Kumma"},
+  {"id":4640420265,"lat":58.980094,"lon":24.845466,"k":"p","n":"Öökulli"},
+  {"id":4640420266,"lat":58.980869,"lon":24.845227,"k":"p","n":"Öökulli"},
+  {"id":4640420267,"lat":58.993594,"lon":24.824595,"k":"p","n":"Telliskivi","ref":"7000527-1"},
+  {"id":4640420268,"lat":58.996942,"lon":24.81086,"k":"p","n":"Vesiroosi","ref":"7000630-1"},
+  {"id":4640420269,"lat":58.997348,"lon":24.810424,"k":"p","n":"Vesiroosi","ref":"7000629-1"},
+  {"id":4640420854,"lat":58.99583,"lon":24.847112,"k":"p","n":"Loomvaru"},
+  {"id":4640420857,"lat":58.99594,"lon":24.848333,"k":"p","n":"Loomvaru"},
+  {"id":4640421998,"lat":58.952408,"lon":24.83276,"k":"p","n":"Kumma"},
+  {"id":4640421999,"lat":58.960656,"lon":24.842271,"k":"p","n":"Kaerepere"},
+  {"id":4640422000,"lat":58.960666,"lon":24.842498,"k":"p","n":"Kaerepere"},
+  {"id":4640422056,"lat":58.999968,"lon":24.803759,"k":"p","n":"Välja","ref":"7000638-1"},
+  {"id":10098328990,"lat":58.993224,"lon":24.825394,"k":"p","n":"Telliskivi","ref":"7000526-1"},
+  {"id":13687165144,"lat":58.992068,"lon":24.830348,"k":"x","n":"Rapla jaam"}
+],
+"routes":[
+  {"id":3339869,"t":{"ref":"153","name":"Bus 153: Tartu => Haapsalu","from":"Tartu bussijaam","to":"Haapsalu bussijaam","network":"Põhja-Eesti Ühistranspordikeskus","operator":"MK Reis OÜ","colour":"#69b3d9","route":"bus","public_transport:version":"2"},"n":29,"s":[[2546558706,15]]},
+  {"id":3340110,"t":{"ref":"153","name":"Bus 153: Haapsalu => Tartu","from":"Haapsalu bussijaam","to":"Tartu bussijaam","network":"Põhja-Eesti Ühistranspordikeskus","operator":"MK Reis OÜ","colour":"#69b3d9","route":"bus","public_transport:version":"2"},"n":30,"s":[[2546558705,14]]},
+  {"id":19326576,"t":{"ref":"1","name":"Bus 1: Rapla raudteejaam => Rapla bussijaam","from":"Rapla raudteejaam","to":"Rapla bussijaam","network":"Rapla maakond","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":8,"s":[[3094140566,1],[2546558706,2],[4640420267,3],[4640420269,4]]},
+  {"id":19326577,"t":{"ref":"1","name":"Bus 1: Rapla bussijaam => Rapla raudteejaam","from":"Rapla bussijaam","to":"Rapla raudteejaam","network":"Rapla maakond","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":7,"s":[[4640422056,4],[4640420268,5],[10098328990,6],[3094140566,7]]},
+  {"id":19326594,"t":{"ref":"3","name":"Bus 3: Rapla raudteejaam => Rapla bussijaam => Alu","from":"Rapla raudteejaam","to":"Rapla bussijaam","network":"Rapla maakond","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":10,"s":[[3094140566,1],[2546558706,2],[4640420267,3],[4640420269,4]]},
+  {"id":19326595,"t":{"ref":"3","name":"Bus 3: Alu => Rapla bussijaam => Rapla raudteejaam","from":"Rapla bussijaam","to":"Rapla raudteejaam","network":"Rapla maakond","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":9,"s":[[4640422056,6],[4640420268,7],[10098328990,8],[3094140566,9]]}
+]
+}

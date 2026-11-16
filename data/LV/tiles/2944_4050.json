@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2944,4050],
+"stops":[
+  {"id":9312794807,"lat":57.225721,"lon":22.520836,"k":"p","n":"Pastende (Skolas iela)"},
+  {"id":11808109449,"lat":57.225727,"lon":22.520722,"k":"x","n":"Pastende (Skolas iela)"},
+  {"id":14062270378,"lat":57.226491,"lon":22.522102,"k":"p","n":"Pastende"},
+  {"id":14062270379,"lat":57.226031,"lon":22.520464,"k":"p","n":"Pastende"}
+],
+"routes":[
+  {"id":16537873,"t":{"ref":"3200","name":"Bus 3200: Talsu AO => Zvirgzdi => Poliklīnika => Pastende => Talsu AO","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":10,"s":[[9312794807,8]]},
+  {"id":17464617,"t":{"ref":"3200","name":"Bus 3200: Talsu AO => Pastende => Poliklīnika => Zvirgzdi => Talsu AO","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":9,"s":[[9312794807,2]]},
+  {"id":21167224,"t":{"ref":"7511","name":"Autobuss 7511: Talsi – Ugāle – Ventspils","from":"Talsu AO","to":"Ventspils AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":21,"s":[[14062270378,2]]},
+  {"id":21167225,"t":{"ref":"7511","name":"Autobuss 7511: Ventspils – Ugāle – Talsi","from":"Ventspils AO","to":"Talsu AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":21,"s":[[14062270379,20]]},
+  {"id":21221330,"t":{"ref":"7684","name":"Autobuss 7684: Ventspils – Blāzma – Talsi – Kandava – Tukums – Jelgava","from":"Ventspils AO","to":"Jelgavas AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":47,"s":[[14062270379,21]]},
+  {"id":21221331,"t":{"ref":"7684","name":"Autobuss 7684: Jelgava – Tukums – Kandava – Talsi – Blāzma – Ventspils","from":"Jelgavas AO","to":"Ventspils AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":45,"s":[[14062270378,25]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2866,3458],
+"stops":[
+  {"id":2970557933,"lat":53.343492,"lon":-7.058453,"k":"p","n":"Edenderry Shopping Centre"},
+  {"id":8231837332,"lat":53.343122,"lon":-7.050455,"k":"p","n":"Edenderry Town Hall"},
+  {"id":8298352032,"lat":53.34074,"lon":-7.059274,"k":"p","n":"Saint Mary's School"},
+  {"id":8298352033,"lat":53.340874,"lon":-7.059247,"k":"p","n":"Saint Mary's School"},
+  {"id":8298352034,"lat":53.341239,"lon":-7.066375,"k":"p","n":"Saint Teresa's Terrace"},
+  {"id":8298352035,"lat":53.341214,"lon":-7.067491,"k":"p","n":"Saint Teresa's Terrace"},
+  {"id":8298352036,"lat":53.341156,"lon":-7.073867,"k":"p","n":"Cokery Lane"},
+  {"id":8298352037,"lat":53.341524,"lon":-7.072571,"k":"p","n":"Saint Patrick's Road"}
+],
+"routes":[
+  {"id":2075414,"t":{"ref":"120","name":"Bus 120: Edenderry → Dublin","from":"Edenderry","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":46,"s":[[2970557933,1]]},
+  {"id":12025074,"t":{"ref":"120","name":"Bus 120: Dublin → Edenderry","from":"Dublin","to":"Edenderry","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":47,"s":[[8231837332,46],[2970557933,47]]},
+  {"id":12048460,"t":{"ref":"120X","name":"Bus 120X: Edenderry → Dublin","from":"Edenderry","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":38,"s":[[2970557933,1]]},
+  {"id":12048461,"t":{"ref":"120X","name":"Bus 120X: Dublin → Edenderry","from":"Dublin","to":"Edenderry","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":39,"s":[[8231837332,38],[2970557933,39]]},
+  {"id":12083122,"t":{"ref":"120A","name":"Bus 120A: Edenderry → Dublin","from":"Edenderry","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":50,"s":[[2970557933,1]]},
+  {"id":12083146,"t":{"ref":"120E","name":"Bus 120E: Edenderry → Dublin","from":"Edenderry","to":"Dublin","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":39,"s":[[2970557933,1]]},
+  {"id":12144439,"t":{"ref":"120C","name":"Bus 120C: Enfield → Tullamore","from":"Enfield","to":"Tullamore","network":"Dublin Commuter","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":18,"s":[[8231837332,6],[2970557933,7],[8298352032,8],[8298352035,9],[8298352036,10]]},
+  {"id":12144440,"t":{"ref":"120C","name":"Bus 120C: Tullamore → Enfield","from":"Tullamore","to":"Enfield","network":"Dublin Commuter","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":18,"s":[[8298352037,9],[8298352034,10],[8298352033,11],[2970557933,12]]},
+  {"id":12144444,"t":{"ref":"120D","name":"Bus 120D: Edenderry → Tullamore","from":"Edenderry","to":"Tullamore","network":"Dublin Commuter","operator":"Go-Ahead Ireland","route":"bus","public_transport:version":"2"},"n":6,"s":[[8231837332,1]]}
+]
+}

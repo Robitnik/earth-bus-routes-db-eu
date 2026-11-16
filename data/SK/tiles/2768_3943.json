@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2768,3943],
+"stops":[
+  {"id":259074746,"lat":48.425639,"lon":17.159961,"k":"x","n":"Kuchyňa, Rázcestie Vývrat"},
+  {"id":268011812,"lat":48.433255,"lon":17.159985,"k":"x","n":"Rohožník, Priehrada"},
+  {"id":2505889888,"lat":48.406642,"lon":17.155445,"k":"p","n":"Kuchyňa, Kostol"},
+  {"id":2509560941,"lat":48.403298,"lon":17.155104,"k":"p","n":"Kuchyňa, Škola"},
+  {"id":2509560942,"lat":48.403374,"lon":17.155338,"k":"p","n":"Kuchyňa, Škola"},
+  {"id":2660068769,"lat":48.406629,"lon":17.15564,"k":"x","n":"Kuchyňa, Kostol"},
+  {"id":2666141349,"lat":48.425675,"lon":17.160026,"k":"p","n":"Kuchyňa, Rázcestie Vývrat"},
+  {"id":3060875093,"lat":48.407458,"lon":17.16008,"k":"p","n":"Kuchyňa, Obecný úrad"},
+  {"id":3060875094,"lat":48.407468,"lon":17.160026,"k":"x","n":"Kuchyňa, Obecný úrad"},
+  {"id":3060875096,"lat":48.403366,"lon":17.155202,"k":"x","n":"Kuchyňa, Škola"},
+  {"id":3060875120,"lat":48.433228,"lon":17.160055,"k":"p","n":"Rohožník, Priehrada"},
+  {"id":3060875121,"lat":48.433284,"lon":17.159896,"k":"p","n":"Rohožník, Priehrada"},
+  {"id":3328373968,"lat":48.406531,"lon":17.155668,"k":"p","n":"Kuchyňa, Kostol"},
+  {"id":10116901525,"lat":48.425607,"lon":17.159888,"k":"p","n":"Kuchyňa, Rázcestie Vývrat"}
+],
+"routes":[
+  {"id":4580808,"t":{"ref":"259","name":"Bus 259: Kuchyňa => Pernek => Malacky","from":"Kuchyňa","to":"Malacky","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[3060875093,1],[2505889888,2],[2509560941,3]]},
+  {"id":4580809,"t":{"ref":"259","name":"Bus 259: Kuchyňa => Pernek => Kuchyňa, Letecká základňa => Malacky","from":"Kuchyňa","to":"Malacky","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[3060875093,1],[2505889888,2],[2509560941,3]]},
+  {"id":4580810,"t":{"ref":"259","name":"Bus 259: Malacky => Pernek => Kuchyňa","from":"Malacky","to":"Kuchyňa","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[2509560942,9],[3328373968,10],[3060875093,11]]},
+  {"id":4580811,"t":{"ref":"259","name":"Bus 259: Malacky => Kuchyňa, Letecká základňa => Pernek => Kuchyňa","from":"Malacky","to":"Kuchyňa","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[2509560942,9],[3328373968,10],[3060875093,11]]},
+  {"id":4580812,"t":{"ref":"269","name":"Bus 269: Bratislava => Rohožník","from":"Bratislava","to":"Rohožník","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#a2d9f7","route":"bus","public_transport:version":"2"},"n":24,"s":[[2509560942,19],[3328373968,20],[2666141349,21],[3060875120,22]]},
+  {"id":4580813,"t":{"ref":"209","name":"Bus 209: Bratislava => Rohožník","from":"Bratislava","to":"Rohožník","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":14,"s":[[2509560942,9],[3328373968,10],[2666141349,11],[3060875120,12]]},
+  {"id":4580814,"t":{"ref":"209","name":"Bus 209: Rohožník => Bratislava","from":"Rohožník","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":16,"s":[[3060875121,3],[10116901525,4],[2505889888,5],[2509560941,6]]},
+  {"id":4580815,"t":{"ref":"269","name":"Bus 269: Rohožník => Bratislava","from":"Rohožník","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#a2d9f7","route":"bus","public_transport:version":"2"},"n":27,"s":[[3060875121,3],[10116901525,4],[2505889888,5],[2509560941,6]]},
+  {"id":20750130,"t":{"ref":"280","name":"Bus 280: Plavecké Podhradie => Bratislava","from":"Plavecké Podhradie","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[2509560941,5]]},
+  {"id":20750131,"t":{"ref":"280","name":"Bus 280: Bratislava => Plavecké Podhradie","from":"Bratislava","to":"Plavecké Podhradie","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[2509560942,7]]}
+]
+}

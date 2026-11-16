@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2696,4096],
+"stops":[
+  {"id":9995431628,"lat":44.849688,"lon":24.847746,"k":"p","n":"Trivale Complex II 1"},
+  {"id":9995431629,"lat":44.84863,"lon":24.8432,"k":"p","n":"Trivale"},
+  {"id":14071557471,"lat":44.848858,"lon":24.843491,"k":"p","n":"Cap Linie Trivale 1"}
+],
+"routes":[
+  {"id":14533705,"t":{"ref":"8","name":"Linia 8: Gara Sud → Trivale","from":"Cap Linie Gara Sud","to":"Cap Linie Trivale 1","network":"Urban","operator":"Publitrans 2000 SA","colour":"#36ca14","route":"bus","public_transport:version":"2"},"n":11,"s":[[9995431629,11]]},
+  {"id":14533706,"t":{"ref":"8","name":"Linia 8: Trivale → Gara Sud","from":"Cap Linie Trivale 1","to":"Cap Linie Gara Sud","network":"Urban","operator":"Publitrans 2000 SA","colour":"#36ca14","route":"bus","public_transport:version":"2"},"n":9,"s":[[9995431629,1],[9995431628,2]]},
+  {"id":15984934,"t":{"ref":"2B","name":"Linia 2B: Arpechim → Trivale","from":"Cap Linie Arpechim","to":"Cap Linie Trivale 1","network":"Urban","operator":"Publitrans","colour":"#ff9808","route":"bus","public_transport:version":"2"},"n":14,"s":[[9995431629,14]]},
+  {"id":15984935,"t":{"ref":"2B","name":"Linia 2B: Trivale → Arpechim","from":"Cap Linie Trivale 1","to":"Cap Linie Arpechim","network":"Urban","operator":"Publitrans 2000 S.A.","colour":"#ff9808","route":"bus","public_transport:version":"2"},"n":14,"s":[[9995431629,1],[9995431628,2]]},
+  {"id":21185225,"t":{"ref":"M10B","name":"Linia M10B: Pitesti → Ciocanai","from":"Pitesti","to":"Ciocanai","network":"Metropolitan","operator":"Publitrans 2000 SA","colour":"#707fbe","route":"bus"},"n":5,"s":[[14071557471,1]]},
+  {"id":21193587,"t":{"ref":"5C","name":"Linia 5C: Cap Linie Trivale 1 → Subansamble Auto","from":"Cap Linie Trivale 1","to":"Subansamble Auto","network":"Urban","operator":"Publitrans 2000 SA","colour":"#f94fdc","route":"bus"},"n":16,"s":[[9995431629,1],[9995431628,2]]},
+  {"id":21195055,"t":{"ref":"5C","name":"Linia 5C: Subansamble Auto → Cap Linie Trivale 1","from":"Subansamble Auto","to":"Cap Linie Trivale 1","network":"Urban","operator":"Publitrans 2000 SA","colour":"#f94fdc","route":"bus"},"n":13,"s":[[9995431629,13]]},
+  {"id":21300131,"t":{"ref":"5B","name":"Linia 5B: Trivale → Gavana","from":"Cap Linie Trivale 1","to":"Cap Linie Gavana","network":"Urban","operator":"Publitrans 2000 SA","colour":"#ca1dcf","route":"bus"},"n":12,"s":[[9995431629,1],[9995431628,2]]},
+  {"id":21300132,"t":{"ref":"5B","name":"Linia 5B: Gavana → Trivale","from":"Cap Linie Gavana","to":"Cap Linie Trivale 1","network":"Urban","operator":"Publitrans 2000 SA","colour":"#ca1dcf","route":"bus"},"n":11,"s":[[9995431629,11]]},
+  {"id":21300134,"t":{"ref":"5","name":"Linia 5: Trivale → Alprom","from":"Cap Linie Trivale 1","to":"Cap Linie Alprom 2","network":"Urban","operator":"Publitrans 2000 SA","colour":"#fe4d89","route":"bus"},"n":14,"s":[[9995431629,1],[9995431628,2]]},
+  {"id":21300135,"t":{"ref":"5","name":"Linia 5: Alprom → Trivale","from":"Cap Linie Alprom 2","to":"Cap Linie Trivale 1","network":"Urban","operator":"Publitrans 2000 SA","colour":"#fe4d89","route":"bus"},"n":12,"s":[[9995431629,12]]}
+]
+}

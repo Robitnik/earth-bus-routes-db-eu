@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2919,3802],
+"stops":[
+  {"id":2326203814,"lat":55.967059,"lon":10.148525,"k":"p","n":"Odder - Sønderbakken/Horsensvej"},
+  {"id":2326203825,"lat":55.967924,"lon":10.148884,"k":"p","n":"Odder - Sønderbakken/Horsensvej"},
+  {"id":4497385199,"lat":55.973626,"lon":10.145242,"k":"p","n":"Odder - Teglbakken/Nørregade"},
+  {"id":4497385200,"lat":55.973586,"lon":10.145626,"k":"p","n":"Odder - Teglbakken/Nørregade"},
+  {"id":5076827498,"lat":55.972149,"lon":10.142765,"k":"p","n":"Odder - Rosensgade/Nygade"},
+  {"id":5076827499,"lat":55.972106,"lon":10.14267,"k":"p","n":"Odder - Rosensgade/Nygade"},
+  {"id":5076827500,"lat":55.970454,"lon":10.143016,"k":"p","n":"Odder - Skovbakkeskolen"},
+  {"id":5076827501,"lat":55.969469,"lon":10.142537,"k":"p","n":"Odder - Skovbakkeskolen"},
+  {"id":5076827502,"lat":55.967754,"lon":10.135687,"k":"p","n":"Odder - Kongshusvej/Rosensgade"},
+  {"id":5076827503,"lat":55.96833,"lon":10.136573,"k":"p","n":"Odder - Kongshusvej/Rosensgade"},
+  {"id":5076827504,"lat":55.963389,"lon":10.110142,"k":"p","n":"Fillerup"},
+  {"id":5076827505,"lat":55.963301,"lon":10.109753,"k":"p","n":"Fillerup"},
+  {"id":7929774728,"lat":55.971574,"lon":10.149994,"k":"x","n":"Odder - Busterminal"},
+  {"id":7929774729,"lat":55.971641,"lon":10.149983,"k":"x","n":"Odder - Busterminal"},
+  {"id":9591965870,"lat":55.972658,"lon":10.135917,"k":"p","n":"Odder - Jonasdalen/Vennelundsvej"},
+  {"id":9591965871,"lat":55.97419,"lon":10.135397,"k":"p","n":"Odder - Egelunden/Vennelundsvej"},
+  {"id":9591965872,"lat":55.977287,"lon":10.134321,"k":"p","n":"Odder - Frederikshaldparken/Vennelundsvej"},
+  {"id":9591965873,"lat":55.977262,"lon":10.134191,"k":"p","n":"Odder - Frederikshaldparken/Vennelundsvej"},
+  {"id":9591965874,"lat":55.980999,"lon":10.134145,"k":"p","n":"Odder - Saloparken/Vennelundsvej"},
+  {"id":9591965875,"lat":55.980906,"lon":10.133997,"k":"p","n":"Odder - Saloparken/Vennelundsvej"},
+  {"id":9591965876,"lat":55.9853,"lon":10.143754,"k":"p","n":"Odder - Højmarkvej/Ballevej"},
+  {"id":9591965877,"lat":55.985378,"lon":10.143749,"k":"p","n":"Odder - Højmarkvej/Ballevej"},
+  {"id":9813273375,"lat":55.971696,"lon":10.149893,"k":"x","n":"Odder - Busterminal"},
+  {"id":5000564404274,"lat":55.971312,"lon":10.149975,"k":"p","n":"Odder - Busterminal"}
+],
+"routes":[
+  {"id":2969419,"t":{"ref":"306","name":"Bus 306: Odder => Horsens","from":"Odder","to":"Horsens","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":29,"s":[[5000564404274,1],[2326203814,2]]},
+  {"id":6702374,"t":{"ref":"103","name":"Bus 103: Hou => Odder - Busterminal","from":"Hou","to":"Odder","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":11,"s":[[2326203825,10]]},
+  {"id":6704038,"t":{"ref":"100","name":"Bus 100: Odder => Aarhus => Hornslet","from":"Odder","to":"Hornslet","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":77,"s":[[5000564404274,1]]},
+  {"id":6705354,"t":{"ref":"331","name":"Bus 331: Odder => Skanderborg","from":"Odder","to":"Skanderborg","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000564404274,1],[4497385199,2],[5076827499,3],[5076827501,4],[5076827503,5],[5076827504,6]]},
+  {"id":10668226,"t":{"ref":"100","name":"Bus 100: Hornslet => Aarhus => Odder","from":"Hornslet","to":"Odder","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":78,"s":[[5000564404274,78]]},
+  {"id":13943293,"t":{"ref":"331","name":"Bus 331: Skanderborg => Odder","from":"Skanderborg","to":"Odder","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":31,"s":[[5076827505,26],[5076827502,27],[5076827500,28],[5076827498,29],[4497385200,30],[5000564404274,31]]},
+  {"id":13946218,"t":{"ref":"306","name":"Bus 306: Horsens => Odder","from":"Horsens","to":"Odder","network":"Midttrafik","operator":"GoCollective","route":"bus","public_transport:version":"2"},"n":29,"s":[[2326203825,28],[5000564404274,29]]}
+]
+}

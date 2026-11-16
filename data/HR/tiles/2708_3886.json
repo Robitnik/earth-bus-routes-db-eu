@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2708,3886],
+"stops":[
+  {"id":10033318416,"lat":45.413144,"lon":14.303048,"k":"p","n":"Permani 3 spomenik"},
+  {"id":10033395531,"lat":45.41057,"lon":14.303551,"k":"p","n":"Permani 2 terminal"},
+  {"id":10035110309,"lat":45.412965,"lon":14.302795,"k":"p","n":"Permani 3 spomenik"},
+  {"id":10048349472,"lat":45.408392,"lon":14.303682,"k":"p","n":"Permani 1 Valentino"},
+  {"id":10053475802,"lat":45.408499,"lon":14.303855,"k":"p","n":"Permani 1 Valentino"},
+  {"id":10222468350,"lat":45.418663,"lon":14.311684,"k":"p","n":"Ružići"},
+  {"id":10222468351,"lat":45.418655,"lon":14.311737,"k":"p","n":"Ružići"},
+  {"id":10222474481,"lat":45.422522,"lon":14.343373,"k":"p","n":"Breza"},
+  {"id":10232821746,"lat":45.445702,"lon":14.33827,"k":"p","n":"Škalnica A"},
+  {"id":10232828818,"lat":45.445323,"lon":14.335249,"k":"p","n":"Škalnica okretište"},
+  {"id":10232828819,"lat":45.445683,"lon":14.33855,"k":"p","n":"Škalnica B"}
+],
+"routes":[
+  {"id":2032457,"t":{"ref":"30","name":"Bus 30: Permani => Brdce","from":"Permani","to":"Brdce","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":12,"s":[[10033395531,1],[10033318416,2]]},
+  {"id":2032948,"t":{"ref":"23","name":"Bus 23: Rijeka => Permani","from":"Rijeka","to":"Permani","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":22,"s":[[10053475802,21],[10033395531,22]]},
+  {"id":2032969,"t":{"ref":"22","name":"Bus 22: Permani => Škalnica => Klana => Lisac","from":"Permani","to":"Lisac","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":14,"s":[[10033395531,1],[10222468351,2],[10222474481,3],[10232821746,5],[10232828818,6],[10232828819,7]]},
+  {"id":14596424,"t":{"ref":"30","name":"Bus 30: Brdce => Permani","from":"Brdce","to":"Permani","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":8,"s":[[10035110309,7],[10033395531,8]]},
+  {"id":14615547,"t":{"ref":"23","name":"Bus 23: Permani => Rijeka","from":"Permani","to":"Rijeka","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":22,"s":[[10033395531,1],[10048349472,2]]},
+  {"id":14955768,"t":{"ref":"23A","name":"Bus 23A: Permani => Brgud => Zvoneća","from":"Permani","to":"Zvoneća","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":12,"s":[[10033395531,1],[10033318416,2]]},
+  {"id":14955780,"t":{"ref":"23A","name":"Bus 23A: Zvoneća => Brgud => Permani","from":"Zvoneća","to":"Permani","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":12,"s":[[10035110309,11],[10033395531,12]]},
+  {"id":14985411,"t":{"ref":"22","name":"Bus 22: Lisac => Klana => Škalnica => Permani","from":"Lisac","to":"Permani","network":"Autotrolej","operator":"Autotrolej","route":"bus","public_transport:version":"2"},"n":14,"s":[[10232821746,8],[10232828818,9],[10232828819,10],[10222474481,12],[10222468350,13],[10033395531,14]]}
+]
+}

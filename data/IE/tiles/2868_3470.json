@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2868,3470],
+"stops":[
+  {"id":854803746,"lat":53.416587,"lon":-6.464251,"k":"p","n":"Dunboyne Station"},
+  {"id":854803750,"lat":53.416804,"lon":-6.464302,"k":"p","n":"Dunboyne Station"},
+  {"id":894717281,"lat":53.43528,"lon":-6.469826,"k":"p","n":"M3 Parkway"},
+  {"id":894717324,"lat":53.435123,"lon":-6.469355,"k":"p","n":"M3 Parkway"},
+  {"id":1231608249,"lat":53.429937,"lon":-6.460224,"k":"p","n":"Bracetown","ref":"101921"},
+  {"id":1357034053,"lat":53.419505,"lon":-6.474323,"k":"p","n":"Dunboyne","ref":"3333"},
+  {"id":5291583028,"lat":53.449045,"lon":-6.475638,"k":"p","n":"MSD Dunboyne","ref":"134111"},
+  {"id":5646124148,"lat":53.418364,"lon":-6.47284,"k":"p","n":"Dunboyne National School","ref":"3332"},
+  {"id":5646124149,"lat":53.418028,"lon":-6.471469,"k":"p","n":"Dunboyne National School","ref":"3334"},
+  {"id":5653479904,"lat":53.43011,"lon":-6.460714,"k":"p","n":"Bracetown","ref":"134091"},
+  {"id":7430619568,"lat":53.416983,"lon":-6.46788,"k":"p","n":"St Peter's College","ref":"3352"},
+  {"id":7430619569,"lat":53.416034,"lon":-6.460024,"k":"p","n":"Dunboyne Station","ref":"3335"},
+  {"id":7430619570,"lat":53.414971,"lon":-6.451991,"k":"p","n":"Clonee Sawmills","ref":"3336"},
+  {"id":7430619572,"lat":53.414933,"lon":-6.452407,"k":"p","n":"Clonee Sawmills","ref":"3330"},
+  {"id":7430619573,"lat":53.415966,"lon":-6.46259,"k":"p"},
+  {"id":7430619574,"lat":53.41703,"lon":-6.468336,"k":"p","n":"St Peter's College","ref":"3351"},
+  {"id":8147467844,"lat":53.44824,"lon":-6.474467,"k":"p","n":"MSD Dunboyne","ref":"134121"},
+  {"id":11607954925,"lat":53.415936,"lon":-6.461027,"k":"p","n":"Dunboyne Station","ref":"3331"}
+],
+"routes":[
+  {"id":11021371,"t":{"ref":"270","name":"270 to Blanchardstown","from":"Dunboyne","to":"Blanchardstown SC","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus"},"n":14,"s":[[1357034053,1],[7430619568,2],[7430619569,3],[7430619570,4]]},
+  {"id":11021372,"t":{"ref":"270","name":"270 to Dunboyne","from":"Blanchardstown SC","to":"Dunboyne","network":"Transport for Ireland","operator":"Go-Ahead Ireland","route":"bus"},"n":15,"s":[[7430619572,11],[11607954925,12],[7430619574,13],[5646124148,14],[1357034053,15]]},
+  {"id":11914310,"t":{"ref":"109","name":"Bus 109: Dublin → Kells","from":"Dublin","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":40,"s":[[5653479904,10],[5291583028,11]]},
+  {"id":11917881,"t":{"ref":"109","name":"Bus 109: Kells → Dublin","from":"Kells","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[8147467844,28],[1231608249,29]]},
+  {"id":11918173,"t":{"ref":"109B","name":"Bus 109B: Dublin → Athboy","from":"Dublin","to":"Athboy","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":34,"s":[[5653479904,10],[5291583028,11]]},
+  {"id":11918267,"t":{"ref":"109B","name":"Bus 109B: Athboy → Dublin (Merrion Row)","from":"Athboy","to":"Dublin (Merrion Row)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":32,"s":[[8147467844,23],[1231608249,24]]},
+  {"id":11918268,"t":{"ref":"109B","name":"Bus 109B: Athboy → Dublin (Busáras)","from":"Athboy","to":"Dublin (Busáras)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":32,"s":[[8147467844,23],[1231608249,24]]},
+  {"id":12235032,"t":{"ref":"105","name":"Bus 105: Drogheda → Parkway Station","from":"Drogheda","to":"Parkway Station","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[8147467844,28],[5646124149,29],[7430619569,30]]},
+  {"id":12235033,"t":{"ref":"105","name":"Bus 105: Emerald Park → Parkway Station","from":"Emerald Park","to":"Parkway Station","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":30,"s":[[8147467844,21],[5646124149,22],[7430619569,23]]},
+  {"id":12235034,"t":{"ref":"105","name":"Bus 105: Parkway Station → Emerald Park","from":"Parkway Station","to":"Emerald Park","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":30,"s":[[11607954925,7],[5646124148,8],[5291583028,9]]},
+  {"id":20776438,"t":{"ref":"105","name":"Bus 105: Parkway Station → Drogheda","from":"Parkway Station","to":"Drogheda","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[11607954925,7],[5646124148,8],[5291583028,9]]},
+  {"id":21071275,"t":{"ref":"109","name":"Bus 109: Kells → Dublin (UCD)","from":"Kells","to":"Dublin (UCD)","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":38,"s":[[8147467844,28],[1231608249,29]]},
+  {"id":21071276,"t":{"ref":"109","name":"Bus 109: Dublin → Virginia","from":"Dublin","to":"Virginia","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":46,"s":[[5653479904,10],[5291583028,11]]},
+  {"id":21071277,"t":{"ref":"109","name":"Bus 109: Dublin (Mountjoy) → Kells","from":"Dublin (Mountjoy)","to":"Kells","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":37,"s":[[5653479904,9],[5291583028,10]]},
+  {"id":21071278,"t":{"ref":"109","name":"Bus 109: Dunshaughlin → Dublin","from":"Dunshaughlin","to":"Dublin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":18,"s":[[8147467844,9],[1231608249,10]]},
+  {"id":21071279,"t":{"ref":"109","name":"Bus 109: Dublin → Dunshaughlin","from":"Dublin","to":"Dunshaughlin","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":19,"s":[[5653479904,10],[5291583028,11]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2950,4040],
+"stops":[
+  {"id":4726397389,"lat":57.516136,"lon":22.023153,"k":"p","n":"Ance"},
+  {"id":12919860625,"lat":57.516195,"lon":22.023171,"k":"x"},
+  {"id":14040147307,"lat":57.52548,"lon":22.017836,"k":"p","n":"Maztiltkalni"},
+  {"id":14040147313,"lat":57.505771,"lon":22.020756,"k":"p","n":"Robežnieki"},
+  {"id":14040147318,"lat":57.506358,"lon":22.020418,"k":"p","n":"Robežnieki"},
+  {"id":14040147325,"lat":57.52525,"lon":22.018601,"k":"p","n":"Maztiltkalni"}
+],
+"routes":[
+  {"id":19259258,"t":{"ref":"5202","name":"bus 5202: Ance => Akmeņdziras => Ventspils","from":"Ance","to":"Ventspils","route":"bus","public_transport:version":"2"},"n":11,"s":[[4726397389,1]]},
+  {"id":19259268,"t":{"ref":"5202","name":"bus 5202: Ventspils => Akmeņdziras => Ance","from":"Ventspils","to":"Ance","route":"bus","public_transport:version":"2"},"n":11,"s":[[4726397389,11]]},
+  {"id":21131108,"t":{"ref":"7682","name":"Autobuss 7682: Dundaga – Ance – Ventspils","from":"Dundaga","to":"Ventspils AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":23,"s":[[4726397389,11],[14040147307,12]]},
+  {"id":21131109,"t":{"ref":"7682","name":"Autobuss 7682: Dundaga – Ance – Virpe – Ance – Ventspils","from":"Dundaga","to":"Ventspils AO","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":29,"s":[[4726397389,11,17],[14040147318,12],[14040147313,16],[14040147307,18]]},
+  {"id":21131110,"t":{"ref":"7682","name":"Autobuss 7682: Ventspils – Ance – Virpe – Ance – Dundaga","from":"Ventspils AO","to":"Dundaga","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":29,"s":[[14040147325,12],[4726397389,13,19],[14040147318,14],[14040147313,18]]},
+  {"id":21131111,"t":{"ref":"7682","name":"Autobuss 7682: Ventspils – Ance – Dundaga","from":"Ventspils AO","to":"Dundaga","network":"ATD","operator":"Pašvaldības SIA Ventspils reiss","route":"bus","public_transport:version":"2"},"n":23,"s":[[14040147325,12],[4726397389,13]]}
+]
+}

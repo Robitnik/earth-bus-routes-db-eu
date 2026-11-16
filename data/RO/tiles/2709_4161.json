@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2709,4161],
+"stops":[
+  {"id":98731788,"lat":45.451631,"lon":28.051204,"k":"x","n":"Grădina publică"},
+  {"id":6879824376,"lat":45.450685,"lon":28.051536,"k":"p","n":"Muzeul de artă"},
+  {"id":6887078673,"lat":45.450743,"lon":28.051645,"k":"x","n":"Muzeul de artă stop (=> Strada Vultur)"},
+  {"id":6898365514,"lat":45.451647,"lon":28.051417,"k":"p","n":"Grădina publică"},
+  {"id":14086091993,"lat":45.451439,"lon":28.051064,"k":"x","n":"Grădina publică"},
+  {"id":14086091994,"lat":45.451365,"lon":28.051071,"k":"p","n":"Grădina publică"}
+],
+"routes":[
+  {"id":309380,"t":{"ref":"102","name":"Troleibuz 102: Bariera Traian => Micro 19","from":"Bariera Traian","to":"Micro 19","network":"Transurb","operator":"Transurb","route":"trolleybus","public_transport:version":"2"},"n":19,"s":[[6879824376,6]]},
+  {"id":10177284,"t":{"ref":"105","name":"Autobuz 105: Grădina publică => Micro 19","from":"Grădina publică","to":"Micro 19","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":22,"s":[[14086091994,1],[6879824376,2]]},
+  {"id":10177285,"t":{"ref":"105","name":"Autobuz 105: Micro 19 => Grădina publică","from":"Micro 19","to":"Grădina publică","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":19,"s":[[6898365514,19]]},
+  {"id":10277635,"t":{"ref":"19","name":"Autobuz 19: Complex Siret => Grădina publică","from":"Complex Siretul","to":"Grădina publică","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":16,"s":[[6898365514,16]]},
+  {"id":10277668,"t":{"ref":"19","name":"Autobuz 19: Grădina publică => Complex Siret","from":"Grădina publică","to":"Complex Siretul","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":20,"s":[[14086091994,1],[6879824376,2]]},
+  {"id":10278404,"t":{"ref":"26","name":"Autobuz 26: Micro 13 => Gara C.F.R.","from":"Micro 13","to":"Gara C.F.R.","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":17,"s":[[6879824376,14]]},
+  {"id":21251488,"t":{"ref":"11","name":"Autobuz 11: Grădina publică => Micro 13","from":"Grădina publică","to":"Micro 13","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":21,"s":[[14086091994,1],[6879824376,2]]},
+  {"id":21251489,"t":{"ref":"11","name":"Autobuz 11: Micro 13 => Grădina Publică","from":"Micro 13","to":"Grădina Publică","network":"Transurb","operator":"Transurb","route":"bus","public_transport:version":"2"},"n":21,"s":[[6898365514,21]]}
+]
+}

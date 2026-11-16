@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"GR",
+"tile":[2532,4098],
+"stops":[
+  {"id":3044539237,"lat":36.615534,"lon":24.949519,"k":"p","n":"Karavostasis Bus Stop"},
+  {"id":3044539244,"lat":36.627618,"lon":24.922418,"k":"s","n":"Chora Bus Station"},
+  {"id":4991836922,"lat":36.615917,"lon":24.948317,"k":"p","n":"Karavostasis"},
+  {"id":4991836923,"lat":36.616606,"lon":24.945633,"k":"p"},
+  {"id":13163002934,"lat":36.626204,"lon":24.916895,"k":"p","n":"Meleniou"}
+],
+"routes":[
+  {"id":17820103,"t":{"name":"Χώρα → Λιμάνι","from":"Chora","to":"Port","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":4,"s":[[3044539244,1],[4991836923,2],[4991836922,3],[3044539237,4]]},
+  {"id":17820104,"t":{"name":"Λιμάνι → Χώρα","from":"Port","to":"Chora","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":4,"s":[[3044539237,1],[4991836922,2],[4991836923,3],[3044539244,4]]},
+  {"id":17820144,"t":{"name":"Χώρα → Άνω Μεριά","from":"Chora","to":"Ano Meria","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":9,"s":[[3044539244,1],[13163002934,2]]},
+  {"id":17820145,"t":{"name":"Άνω Μεριά → Χώρα","from":"Ano Meria","to":"Chora","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":9,"s":[[13163002934,8],[3044539244,9]]},
+  {"id":17820166,"t":{"name":"Χώρα → Λιβάδι","from":"Chora","to":"Livadi","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":3,"s":[[3044539244,1],[4991836923,2]]},
+  {"id":17820167,"t":{"name":"Λιβάδι → Χώρα","from":"Livadi","to":"Chora","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":3,"s":[[4991836923,2],[3044539244,3]]},
+  {"id":17820190,"t":{"name":"Χώρα → Αγκάλη","from":"Chora","to":"Agkali","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":2,"s":[[3044539244,1]]},
+  {"id":17820191,"t":{"name":"Αγκάλη → Χώρα","from":"Agkali","to":"Chora","network":"KTEL Folegandros","operator":"Folegandros buses","route":"bus","public_transport:version":"2"},"n":2,"s":[[3044539244,2]]}
+]
+}

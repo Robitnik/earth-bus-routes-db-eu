@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2943,4144],
+"stops":[
+  {"id":445828428,"lat":57.154664,"lon":27.21666,"k":"p","n":"Kurna"},
+  {"id":445828468,"lat":57.159918,"lon":27.204929,"k":"p","n":"Kubuli"},
+  {"id":9733530889,"lat":57.159879,"lon":27.204521,"k":"p","n":"Kubuli"},
+  {"id":12802962040,"lat":57.15996,"lon":27.204657,"k":"x","n":"Kubuli"},
+  {"id":12802962077,"lat":57.159867,"lon":27.204843,"k":"x","n":"Kubuli"},
+  {"id":13902066831,"lat":57.153793,"lon":27.21818,"k":"p","n":"Kurna"},
+  {"id":13902066833,"lat":57.160064,"lon":27.205515,"k":"p","n":"Stacijas pagrieziens"},
+  {"id":13902066834,"lat":57.164924,"lon":27.206762,"k":"x"},
+  {"id":13902066835,"lat":57.164873,"lon":27.206878,"k":"p","n":"Balvu stacija"},
+  {"id":13902066839,"lat":57.160026,"lon":27.205736,"k":"p","n":"Stacijas pagrieziens"}
+],
+"routes":[
+  {"id":19067573,"t":{"ref":"7632","name":"bus 7632: Gulbene => Balvi => Rēzekne","from":"Gulbene","to":"Rēzekne","route":"bus","public_transport:version":"2"},"n":31,"s":[[9733530889,12]]},
+  {"id":19067597,"t":{"ref":"7632","name":"bus 7632: Rēzekne => Balvi => Gulbene","from":"Rēzekne","to":"Gulbene","route":"bus","public_transport:version":"2"},"n":30,"s":[[445828468,20]]},
+  {"id":20800028,"t":{"ref":"5585","name":"Autobuss 5585: Balvi – Balvu stacija","from":"Balvu AO","to":"Balvu stacija","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":6,"s":[[445828428,4],[13902066839,5],[13902066835,6]]},
+  {"id":20976981,"t":{"ref":"5585","name":"Autobuss 5585: Balvu stacija – Balvi","from":"Balvu stacija","to":"Balvu AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":6,"s":[[13902066835,1],[13902066833,2],[13902066831,3]]}
+]
+}

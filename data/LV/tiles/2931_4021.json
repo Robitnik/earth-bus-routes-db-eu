@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2931,4021],
+"stops":[
+  {"id":1875000863,"lat":56.550387,"lon":21.088754,"k":"p","n":"Grīzupes iela"},
+  {"id":1879988220,"lat":56.553064,"lon":21.091666,"k":"p","n":"Pagrieziens uz slimnīcu"},
+  {"id":8406604599,"lat":56.5537,"lon":21.092754,"k":"p","n":"Pagrieziens uz slimnīcu"},
+  {"id":8406604600,"lat":56.560965,"lon":21.093039,"k":"p","n":"Biznesa centrs"},
+  {"id":8406604701,"lat":56.560198,"lon":21.093208,"k":"p","n":"Biznesa centrs"},
+  {"id":11796045557,"lat":56.553021,"lon":21.091784,"k":"x","n":"Pagrieziens uz slimnīcu"},
+  {"id":11796045558,"lat":56.553741,"lon":21.092639,"k":"x","n":"Pagrieziens uz slimnīcu"},
+  {"id":14097552869,"lat":56.552773,"lon":21.065929,"k":"p","n":"Cietuma komplekss"},
+  {"id":14097576677,"lat":56.554715,"lon":21.096737,"k":"p","n":"Ceriņu iela"},
+  {"id":14097576678,"lat":56.554798,"lon":21.096823,"k":"p","n":"Ceriņu iela"},
+  {"id":14100680777,"lat":56.552199,"lon":21.099154,"k":"p","n":"Slimnīca"}
+],
+"routes":[
+  {"id":17094536,"t":{"ref":"5124","name":"Bus 5124: Liepāja (Kuršu iela) => Slimnīca => Vērgales centrs","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":9,"s":[[8406604599,3]]},
+  {"id":17094537,"t":{"ref":"5124","name":"Bus 5124: Vērgales centrs => Slimnīca => Liepāja (Kuršu iela)","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":9,"s":[[1879988220,7]]},
+  {"id":17467693,"t":{"ref":"5124","name":"Bus 5124: Liepāja => Slimnīca => Laivenieki => Vērgales centrs","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":10,"s":[[8406604599,3]]},
+  {"id":21238661,"t":{"ref":"6","name":"Bus 6: Klaipēdas iela - Slimnīca","route":"bus","public_transport:version":"2"},"n":32,"s":[[1875000863,30],[8406604599,31],[14100680777,32]]},
+  {"id":21238752,"t":{"ref":"6","name":"Bus 6: Slimnīca - Klaipēdas iela","route":"bus","public_transport:version":"2"},"n":33,"s":[[14100680777,1],[1879988220,2]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"GR",
+"tile":[2536,4141],
+"stops":[
+  {"id":2148895439,"lat":36.802126,"lon":27.090689,"k":"x","n":"Travel agencies"},
+  {"id":4978277631,"lat":36.801663,"lon":27.091185,"k":"p"},
+  {"id":4979802389,"lat":36.801673,"lon":27.091099,"k":"x","n":"ΚΤΕΛ Κως Αεροδρομίου","ref":"Airport"},
+  {"id":6781072112,"lat":36.848821,"lon":27.078847,"k":"p"},
+  {"id":8956636487,"lat":36.804384,"lon":27.097425,"k":"p"},
+  {"id":10040116033,"lat":36.802649,"lon":27.090384,"k":"p","n":"Bus to Kos/Kefalos/Mastichari"}
+],
+"routes":[
+  {"id":7403727,"t":{"ref":"Kos - Mastichari - Airport","name":"ΚΤΕΛ Κως: Κως - Μαστιχαρι - Αεροδρομίου","from":"Kos City","to":"Airport","network":"public regionall bus","operator":"ΚΤΕΛ - ΚΩΣ","route":"bus","public_transport:version":"2"},"n":7,"s":[[4978277631,7]]},
+  {"id":13027552,"t":{"ref":"Airport - Kardamena","name":"ΚΤΕΛ Κως: Αεροδρομίου - Καρδάμαινα","from":"Airport","to":"Kardamena","network":"ΚΤΕΛ - ΚΩΣ","operator":"ΚΤΕΛ - ΚΩΣ","route":"bus"},"n":3,"s":[[4978277631,1]]},
+  {"id":13027553,"t":{"ref":"Kardamena - Airport","name":"ΚΤΕΛ Κως: Καρδάμαινα - Αεροδρομίου","from":"Kardamena","to":"Airport","network":"ΚΤΕΛ - ΚΩΣ","operator":"ΚΤΕΛ - ΚΩΣ","route":"bus"},"n":2,"s":[[4978277631,2]]},
+  {"id":13027660,"t":{"ref":"Airport - Kos","name":"ΚΤΕΛ Κως: Αεροδρομίου - Μαστιχαρι - Κως","from":"Airport","to":"Kos City","network":"ΚΤΕΛ - ΚΩΣ","operator":"ΚΤΕΛ - ΚΩΣ","route":"bus"},"n":7,"s":[[4978277631,1]]},
+  {"id":13030449,"t":{"ref":"AIRPORT - KEFALOS","name":"ΚΤΕΛ Κως: Αεροδρόμιο - Κέφαλο","from":"AIRPORT","to":"KEFALOS","network":"ΚΤΕΛ Κως","operator":"ΚΤΕΛ Κως","route":"bus"},"n":2,"s":[[4979802389,1],[4978277631,2]]},
+  {"id":13030450,"t":{"ref":"KEFALOS - AIRPORT","name":"ΚΤΕΛ Κως: Κέφαλο - Αεροδρόμιο","from":"KEFALOS","to":"AIRPORT","network":"ΚΤΕΛ Κως","operator":"ΚΤΕΛ Κως","route":"bus"},"n":2,"s":[[4979802389,1],[4978277631,2]]}
+]
+}

@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2731,4137],
+"stops":[
+  {"id":1763878480,"lat":46.56782,"lon":26.893515,"k":"s","n":"Autogara maSSaro"},
+  {"id":2984684628,"lat":46.566112,"lon":26.895275,"k":"s","n":"Stația Gară"},
+  {"id":14131060043,"lat":46.570982,"lon":26.896072,"k":"p","n":"Stația N.V. Karpen"},
+  {"id":14131060044,"lat":46.571039,"lon":26.895874,"k":"p","n":"Stația N.V. Karpen"},
+  {"id":14201259965,"lat":46.570236,"lon":26.896337,"k":"p","n":"Stația Energiei"},
+  {"id":14201259966,"lat":46.570069,"lon":26.896214,"k":"p","n":"Stația Energiei"},
+  {"id":14209477491,"lat":46.581618,"lon":26.898335,"k":"p","n":"Cartier Bacovia"},
+  {"id":14239902644,"lat":46.566129,"lon":26.895326,"k":"x"},
+  {"id":14240297719,"lat":46.581594,"lon":26.898331,"k":"x"},
+  {"id":14240606930,"lat":46.574051,"lon":26.885488,"k":"p"},
+  {"id":14240606931,"lat":46.574985,"lon":26.883472,"k":"p"},
+  {"id":14240606932,"lat":46.571131,"lon":26.887415,"k":"p"},
+  {"id":14240606933,"lat":46.571706,"lon":26.886959,"k":"p"},
+  {"id":14240606934,"lat":46.564601,"lon":26.887334,"k":"p"},
+  {"id":14240606935,"lat":46.564653,"lon":26.887291,"k":"p"},
+  {"id":14240606936,"lat":46.567529,"lon":26.880908,"k":"p"},
+  {"id":14240606937,"lat":46.567423,"lon":26.881127,"k":"p"},
+  {"id":14240606938,"lat":46.573884,"lon":26.876397,"k":"p"},
+  {"id":14240606939,"lat":46.573868,"lon":26.876277,"k":"p"},
+  {"id":14240606940,"lat":46.575975,"lon":26.874714,"k":"p"},
+  {"id":14240606941,"lat":46.576023,"lon":26.874818,"k":"p"},
+  {"id":14240606942,"lat":46.577514,"lon":26.876786,"k":"p"},
+  {"id":14240606943,"lat":46.57709,"lon":26.877532,"k":"p"},
+  {"id":14240606944,"lat":46.579896,"lon":26.869976,"k":"p","n":"Elbac"}
+],
+"routes":[
+  {"id":21468252,"t":{"ref":"18","from":"Gară","to":"F.N.C.","operator":"Transport Public SA","colour":"#f4de03","route":"bus","public_transport:version":"2"},"n":19,"s":[[14239902644,1],[2984684628,2],[14201259966,3]]},
+  {"id":21468776,"t":{"ref":"14","from":"F.N.C.","to":"Gară","operator":"Transport Public SA","colour":"#5520fc","route":"bus"},"n":19,"s":[[14131060044,15],[2984684628,16],[14239902644,17]]},
+  {"id":21468777,"t":{"ref":"14","from":"Gară","to":"F.N.C.","operator":"Transport Public SA Bacău","colour":"#5520fc","route":"bus","public_transport:version":"2"},"n":20,"s":[[2984684628,1],[14239902644,2],[14131060043,3]]},
+  {"id":21471315,"t":{"ref":"17","from":"Gară","to":"Auchan","operator":"Transport Public SA Bacău","colour":"#33fecc","route":"bus","public_transport:version":"2"},"n":22,"s":[[2984684628,1],[14239902644,2],[14131060043,3]]},
+  {"id":21471316,"t":{"ref":"17","from":"Auchan","to":"Gară","operator":"Transport Public SA Bacău","colour":"#33fecc","route":"bus","public_transport:version":"2"},"n":20,"s":[[14131060044,18],[14239902644,19],[2984684628,20]]},
+  {"id":21471317,"t":{"ref":"18A","from":"Gară","to":"Aeroport","operator":"Transport Public SA Bacău","colour":"#f4e95c","route":"bus","public_transport:version":"2"},"n":14,"s":[[2984684628,1],[14239902644,2],[14201259966,3]]},
+  {"id":21471318,"t":{"ref":"18A","from":"Aeroport","to":"Gară","operator":"Transport Public SA Bacău","colour":"#f4e95c","route":"bus","public_transport:version":"2"},"n":17,"s":[[14201259965,13],[2984684628,14],[14239902644,15]]},
+  {"id":21471321,"t":{"ref":"22B","from":"Cartier Bacovia","to":"Auchan","operator":"Transport Public SA Bacău","colour":"#188d08","route":"bus","public_transport:version":"2"},"n":21,"s":[[14240297719,1],[14209477491,2]]},
+  {"id":21471322,"t":{"ref":"22B","from":"Auchan","to":"Cartier Bacovia","operator":"Transport Public SA Bacău","colour":"#188d08","route":"bus","public_transport:version":"2"},"n":21,"s":[[14240297719,20],[14209477491,21]]}
+]
+}

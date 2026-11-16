@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2939,3785],
+"stops":[
+  {"id":3442795597,"lat":56.967388,"lon":9.257657,"k":"x"},
+  {"id":3442795598,"lat":56.967499,"lon":9.25771,"k":"p","n":"Løgstør Busterminal"},
+  {"id":3443290252,"lat":56.958312,"lon":9.252009,"k":"p","n":"Løgstør Skole"},
+  {"id":3443290253,"lat":56.958183,"lon":9.252204,"k":"x"},
+  {"id":3443290900,"lat":56.959143,"lon":9.251974,"k":"x"},
+  {"id":3443290901,"lat":56.959147,"lon":9.252112,"k":"p","n":"Løgstør Skole"},
+  {"id":5000337180199,"lat":56.967455,"lon":9.257668,"k":"p"},
+  {"id":5000337229695,"lat":56.958341,"lon":9.252043,"k":"p"},
+  {"id":5000337230030,"lat":56.959098,"lon":9.252109,"k":"p"}
+],
+"routes":[
+  {"id":7223182,"t":{"ref":"950X","name":"Bus 950X: Løgstør => Aalborg","from":"Løgstør Busterminal","to":"Aalborg Busterminal","network":"Nordjyllands Trafikselskab","operator":"Keolis","colour":"#007CB0","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000337180199,1]]},
+  {"id":7223210,"t":{"ref":"950X","name":"Bus 950X: Aalborg => Løgstør","from":"Aalborg Busterminal","to":"Løgstør Busterminal","network":"Nordjyllands Trafikselskab","operator":"Keolis","colour":"#007CB0","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000337180199,6]]},
+  {"id":11200077,"t":{"ref":"950X","name":"Bus 950X: Løgstør => Rønbjerg","from":"Løgstør Busterminal","to":"Rønbjerg","network":"Nordjyllands Trafikselskab","operator":"Keolis","colour":"#007CB0","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000337180199,1],[5000337229695,2]]},
+  {"id":11200078,"t":{"ref":"950X","name":"Bus 950X: Rønbjerg => Aalborg","from":"Rønbjerg","to":"Aalborg Busterminal","network":"Nordjyllands Trafikselskab","operator":"Keolis","colour":"#007CB0","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000337230030,5],[5000337180199,6]]},
+  {"id":11200083,"t":{"ref":"950X","name":"Bus 950X: Aalborg => Rønbjerg","from":"Aalborg Busterminal","to":"Rønbjerg","network":"Nordjyllands Trafikselskab","operator":"Keolis","colour":"#007CB0","route":"bus","public_transport:version":"2"},"n":11,"s":[[5000337180199,6],[5000337229695,7]]}
+]
+}

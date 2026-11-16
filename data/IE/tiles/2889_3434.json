@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2889,3434],
+"stops":[
+  {"id":52341847,"lat":54.477847,"lon":-8.280275,"k":"x"},
+  {"id":896489334,"lat":54.475926,"lon":-8.278094,"k":"x"},
+  {"id":6622953204,"lat":54.476412,"lon":-8.289384,"k":"p"},
+  {"id":6622953205,"lat":54.476537,"lon":-8.289548,"k":"p"},
+  {"id":6746670898,"lat":54.480849,"lon":-8.272766,"k":"x"},
+  {"id":6746670899,"lat":54.481005,"lon":-8.272243,"k":"x","n":"Bundoran"},
+  {"id":6851630857,"lat":54.480954,"lon":-8.272159,"k":"p","n":"Bundoran"}
+],
+"routes":[
+  {"id":10010561,"t":{"ref":"983","name":"983: Ballyshannon to Manorhamilton","from":"Ballyshannon","to":"Manorhmailton","network":"local link","route":"bus","public_transport:version":"2"},"n":2,"s":[[6851630857,1]]},
+  {"id":10010562,"t":{"ref":"983","name":"983: Manorhamilton to Ballyshannon","from":"Manorhmailton","to":"Ballyshannon","network":"local link","route":"bus","public_transport:version":"2"},"n":6,"s":[[896489334,2],[52341847,3],[6746670898,4]]},
+  {"id":20293495,"t":{"ref":"64","name":"Bus 64: Galway → Derry/Londonderry","from":"Galway","to":"Derry/Londonderry","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":25,"s":[[6622953205,17],[6851630857,18]]}
+]
+}

@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2944,4052],
+"stops":[
+  {"id":454506437,"lat":57.217458,"lon":22.605317,"k":"p","n":"Ezerkalni"},
+  {"id":9312784010,"lat":57.24411,"lon":22.600651,"k":"p","n":"Poliklīnika"},
+  {"id":9312794718,"lat":57.244227,"lon":22.600413,"k":"p","n":"Poliklīnika"},
+  {"id":11544285838,"lat":57.204667,"lon":22.613818,"k":"p","n":"Lindskalni"},
+  {"id":11544285866,"lat":57.217231,"lon":22.605329,"k":"p","n":"Ezerkalni"},
+  {"id":11547460055,"lat":57.204825,"lon":22.613892,"k":"p","n":"Lindskalni"},
+  {"id":11808109439,"lat":57.244166,"lon":22.600666,"k":"x","n":"Poliklīnika"},
+  {"id":11808109445,"lat":57.244187,"lon":22.600402,"k":"x","n":"Poliklīnika"},
+  {"id":11808109459,"lat":57.204788,"lon":22.613789,"k":"x","n":"Lindskalni"},
+  {"id":11808156571,"lat":57.204696,"lon":22.6139,"k":"x","n":"Lindskalni"},
+  {"id":13442186734,"lat":57.233027,"lon":22.621068,"k":"p"},
+  {"id":13442186735,"lat":57.232713,"lon":22.621617,"k":"p"},
+  {"id":14054257383,"lat":57.217275,"lon":22.605422,"k":"x"},
+  {"id":14054257386,"lat":57.217406,"lon":22.605209,"k":"x"}
+],
+"routes":[
+  {"id":16537873,"t":{"ref":"3200","name":"Bus 3200: Talsu AO => Zvirgzdi => Poliklīnika => Pastende => Talsu AO","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":10,"s":[[9312784010,4]]},
+  {"id":17090036,"t":{"ref":"5122","name":"Bus 5122: Talsi => Strazde => Jaunpagasts => Stende => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[11544285866,1],[11544285838,2],[454506437,16]]},
+  {"id":17090038,"t":{"ref":"5122","name":"Bus 5122: Talsi => Sknābe => Jaunpagasts => Strazde => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[454506437,1],[11544285866,2],[11544285838,3],[11547460055,16]]},
+  {"id":17464617,"t":{"ref":"3200","name":"Bus 3200: Talsu AO => Pastende => Poliklīnika => Zvirgzdi => Talsu AO","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":9,"s":[[9312794718,6]]},
+  {"id":17464618,"t":{"ref":"5121","name":"Bus 5121: Talsi => Strazde => Jaunpagasts => Krūziņi => Lībagi => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":17,"s":[[11544285866,1],[11544285838,2],[11547460055,16],[454506437,17]]},
+  {"id":17464620,"t":{"ref":"5122","name":"Bus 5122: Talsi => Strazde => Jaunpagasts => Sknābe => Talsi","operator":"AS \"Talsu autotransports\"","route":"bus","public_transport:version":"2"},"n":16,"s":[[454506437,1],[11544285866,2],[11544285838,3],[11547460055,16]]},
+  {"id":21153646,"t":{"ref":"7509","name":"Autobuss 7509: Talsi – Sabile – Kuldīga","from":"Talsu AO","to":"Kuldīgas AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":16,"s":[[11544285866,2]]},
+  {"id":21153648,"t":{"ref":"7509","name":"Autobuss 7509: Kuldīga – Sabile – Talsi","from":"Kuldīgas AO","to":"Talsu AO","network":"ATD","operator":"AS Talsu autotransports","route":"bus","public_transport:version":"2"},"n":16,"s":[[454506437,15]]}
+]
+}

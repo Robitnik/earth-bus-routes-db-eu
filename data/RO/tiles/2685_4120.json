@@ -1,0 +1,16 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2685,4120],
+"stops":[
+  {"id":10157962532,"lat":44.254568,"lon":26.048458,"k":"p","n":"Primăria Adunații-Copăceni"},
+  {"id":13284997393,"lat":44.267002,"lon":26.049878,"k":"p","n":"Pârlita","ref":"572B"},
+  {"id":13669042299,"lat":44.29357,"lon":26.009933,"k":"s","n":"Dărăști-Vlașca"},
+  {"id":13961896661,"lat":44.287101,"lon":26.011787,"k":"p","n":"Școala Gimnazială Dărăști-Vlașca","ref":"572B"}
+],
+"routes":[
+  {"id":20326963,"t":{"ref":"572","name":"Bus 572: Adunații-Copăceni => București","from":"Adunații-Copăceni","to":"București (Eroii Revoluției)","network":"Millenium Trans Impex SRL","route":"bus","public_transport:version":"2"},"n":4,"s":[[10157962532,2]]},
+  {"id":20326964,"t":{"ref":"572","name":"Bus 572: București => Adunații-Copăceni","from":"București (Eroii Revoluției)","to":"Adunații-Copăceni","network":"Millenium Trans Impex SRL","operator":"Ridm Impex","route":"bus","public_transport:version":"2"},"n":4,"s":[[10157962532,3]]},
+  {"id":21024477,"t":{"ref":"572B","name":"Bus 572B: București => Adunații-Copăceni via Dărăști-Vlașca","from":"București (Eroii Revoluției)","to":"Adunații-Copăceni","network":"Millenium Trans Impex SRL","operator":"Ridm Impex","route":"bus","public_transport:version":"2"},"n":8,"s":[[13284997393,1,4],[13961896661,2,3],[10157962532,7]]}
+]
+}

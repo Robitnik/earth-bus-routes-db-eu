@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2877,3469],
+"stops":[
+  {"id":8763050928,"lat":53.864771,"lon":-6.541307,"k":"p","n":"Ardee Bypass","ref":"152461"},
+  {"id":8763050944,"lat":53.86467,"lon":-6.541609,"k":"p","n":"Ardee Bypass","ref":"152431"},
+  {"id":12037526342,"lat":53.85262,"lon":-6.538068,"k":"p","n":"Ardee Church","ref":"108761"},
+  {"id":12037526343,"lat":53.852135,"lon":-6.53804,"k":"p","n":"Ardee Church","ref":"108771"},
+  {"id":12320795979,"lat":53.860056,"lon":-6.541244,"k":"p","n":"Ardee","ref":"152311"},
+  {"id":12320795980,"lat":53.859922,"lon":-6.541361,"k":"p","n":"Ardee","ref":"152441"}
+],
+"routes":[
+  {"id":12752302,"t":{"ref":"32","name":"Bus 32: Letterkenny → Dublin","from":"Letterkenny","to":"Dublin","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":12,"s":[[8763050928,10]]},
+  {"id":12752303,"t":{"ref":"32","name":"Bus 32: Dublin → Letterkenny","from":"Dublin","to":"Letterkenny","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":12,"s":[[8763050944,3]]},
+  {"id":18265640,"t":{"ref":"182","name":"Bus 182: Monaghan → Drogheda","from":"Monaghan","to":"Drogheda","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":13,"s":[[8763050928,6],[12320795979,7]]},
+  {"id":18265641,"t":{"ref":"182","name":"Bus 182: Drogheda → Monaghan","from":"Drogheda","to":"Monaghan","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":12,"s":[[12320795980,6],[8763050944,7]]},
+  {"id":18265895,"t":{"ref":"182A","name":"Bus 182A: Ardee → Drogheda","from":"Ardee","to":"Drogheda","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":8,"s":[[8763050928,1],[12320795979,2]]},
+  {"id":18265896,"t":{"ref":"182A","name":"Bus 182A: Drogheda → Ardee","from":"Drogheda","to":"Ardee","network":"Transport for Ireland","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":8,"s":[[12320795980,7],[8763050944,8]]},
+  {"id":18567845,"t":{"ref":"X3","name":"Bus X3: Derry/Londonderry → Dublin","from":"Derry/Londonderry","to":"Dublin","network":"Goldliner","operator":"Translink","colour":"gold","route":"bus","public_transport:version":"2"},"n":6,"s":[[8763050928,4]]},
+  {"id":18567846,"t":{"ref":"X3","name":"Bus X3: Dublin → Derry/Londonderry","from":"Dublin","to":"Derry/Londonderry","network":"Goldliner","operator":"Translink","colour":"gold","route":"bus","public_transport:version":"2"},"n":6,"s":[[8763050944,3]]},
+  {"id":20822016,"t":{"ref":"980","name":"Bus 980: Carrickmacross → Dublin (Trinity College)","from":"Carrickmacross","to":"Dublin (Trinity College)","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":21,"s":[[12320795979,3],[12037526343,4]]},
+  {"id":20822017,"t":{"ref":"980","name":"Bus 980: Carrickmacross → Dublin","from":"Carrickmacross","to":"Dublin","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":20,"s":[[12320795979,3],[12037526343,4]]},
+  {"id":20822018,"t":{"ref":"980","name":"Bus 980: Dublin → Carrickmacross","from":"Dublin","to":"Carrickmacross","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":16,"s":[[12037526342,14],[12320795980,15]]},
+  {"id":20822580,"t":{"ref":"980B","name":"Bus 980B: Carrickmacross → Dublin","from":"Carrickmacross","to":"Dublin","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":7,"s":[[12320795979,2]]},
+  {"id":20822581,"t":{"ref":"980B","name":"Bus 980B: Carrickmacross → Dublin (Trinity College)","from":"Carrickmacross","to":"Dublin (Trinity College)","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":8,"s":[[12320795979,2]]},
+  {"id":20822582,"t":{"ref":"980B","name":"Bus 980B: Dublin → Carrickmacross","from":"Dublin","to":"Carrickmacross","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":7,"s":[[12320795980,6]]},
+  {"id":20822583,"t":{"ref":"980A","name":"Bus 980A: Carrickmacross → Dublin","from":"Carrickmacross","to":"Dublin","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":8,"s":[[12320795979,2]]},
+  {"id":20822584,"t":{"ref":"980A","name":"Bus 980A: Dublin → Carrickmacross","from":"Dublin","to":"Carrickmacross","network":"Collins Coaches","operator":"Collins Coaches","route":"bus","public_transport:version":"2"},"n":5,"s":[[12320795980,4]]}
+]
+}

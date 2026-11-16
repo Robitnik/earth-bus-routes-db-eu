@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2765,3941],
+"stops":[
+  {"id":32199504,"lat":48.274526,"lon":17.064773,"k":"x","n":"Borinka, Píla"},
+  {"id":32440179,"lat":48.251691,"lon":17.055208,"k":"x","n":"Marianka, Stupavská"},
+  {"id":333239470,"lat":48.2596,"lon":17.095957,"k":"x","n":"Borinka, Staré pece"},
+  {"id":333239475,"lat":48.25964,"lon":17.096056,"k":"p","n":"Borinka, Staré pece"},
+  {"id":462642245,"lat":48.262485,"lon":17.086256,"k":"x","n":"Borinka, Obecný úrad"},
+  {"id":3023054345,"lat":48.251733,"lon":17.055282,"k":"p","n":"Marianka, Stupavská"},
+  {"id":3025623168,"lat":48.262555,"lon":17.086272,"k":"p","n":"Borinka, Obecný úrad"},
+  {"id":3025623169,"lat":48.262291,"lon":17.086467,"k":"p","n":"Borinka, Obecný úrad"},
+  {"id":3025623170,"lat":48.265237,"lon":17.079432,"k":"x","n":"Borinka, Pracháreň"},
+  {"id":3025623171,"lat":48.265324,"lon":17.079356,"k":"p","n":"Borinka, Pracháreň"},
+  {"id":3025623172,"lat":48.265148,"lon":17.079508,"k":"p","n":"Borinka, Pracháreň"},
+  {"id":3025623193,"lat":48.28001,"lon":17.056699,"k":"x","n":"Stupava, Obora"},
+  {"id":3025623194,"lat":48.280081,"lon":17.05672,"k":"p","n":"Stupava, Obora"},
+  {"id":3025623195,"lat":48.280017,"lon":17.056593,"k":"p","n":"Stupava, Obora"},
+  {"id":3056228745,"lat":48.251521,"lon":17.055767,"k":"p","n":"Marianka, Stupavská"},
+  {"id":9231156250,"lat":48.251572,"lon":17.055768,"k":"x","n":"Marianka, Stupavská"},
+  {"id":10045029611,"lat":48.274405,"lon":17.064841,"k":"p","n":"Borinka, Píla"},
+  {"id":10045029612,"lat":48.274621,"lon":17.064766,"k":"p","n":"Borinka, Píla"},
+  {"id":11273283703,"lat":48.26704,"lon":17.074149,"k":"x","n":"Borinka, Pri kapličke"},
+  {"id":11274605133,"lat":48.266827,"lon":17.074674,"k":"p","n":"Borinka, Pri kapličke"},
+  {"id":11274605134,"lat":48.267076,"lon":17.074178,"k":"p","n":"Borinka, Pri kapličke"},
+  {"id":11681679985,"lat":48.266877,"lon":17.074694,"k":"x","n":"Borinka, Pri kapličke"}
+],
+"routes":[
+  {"id":3967774,"t":{"ref":"215","name":"Bus 215: Bratislava => Marianka","from":"Bratislava","to":"Marianka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":10,"s":[[3056228745,9]]},
+  {"id":3967775,"t":{"ref":"215","name":"Bus 215: Marianka => Bratislava","from":"Marianka","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[3023054345,2]]},
+  {"id":4563758,"t":{"ref":"219","name":"Bus 219: Borinka => Stupava => Bratislava","from":"Borinka","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":23,"s":[[333239475,1],[3025623168,2],[3025623171,3],[11274605134,4],[10045029612,5],[3025623194,6]]},
+  {"id":4563759,"t":{"ref":"219","name":"Bus 219: Bratislava => Stupava => Borinka","from":"Bratislava","to":"Borinka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":20,"s":[[3025623195,15],[10045029611,16],[11274605133,17],[3025623172,18],[3025623169,19],[333239475,20]]},
+  {"id":14482056,"t":{"ref":"216","name":"Bus 216: Stupava => Marianka","from":"Stupava","to":"Marianka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":7,"s":[[3056228745,6]]},
+  {"id":16054679,"t":{"ref":"216","name":"Bus 216: Marianka => Stupava","from":"Marianka","to":"Stupava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":8,"s":[[3023054345,2]]},
+  {"id":21039449,"t":{"ref":"215","name":"Bus 215: Bratislava => Marianka (cez MiÚ ZB)","from":"Bratislava","to":"Marianka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":11,"s":[[3056228745,10]]}
+]
+}

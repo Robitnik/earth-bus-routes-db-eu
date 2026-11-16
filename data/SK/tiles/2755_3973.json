@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2755,3973],
+"stops":[
+  {"id":2079624292,"lat":47.799384,"lon":18.680166,"k":"p","n":"Železničná stanica - Vasútállomás"},
+  {"id":2079647631,"lat":47.796999,"lon":18.69251,"k":"p","n":"Továrenská cesta - Gyártelepi út"},
+  {"id":2079664399,"lat":47.798735,"lon":18.698041,"k":"p","n":"Komenského ulica - Comenius utca"},
+  {"id":6074835777,"lat":47.798847,"lon":18.697819,"k":"p","n":"Komenského ulica - Comenius utca"},
+  {"id":6351270961,"lat":47.796858,"lon":18.692357,"k":"p","n":"Továrenská cesta - Gyártelepi út"},
+  {"id":7868797482,"lat":47.799523,"lon":18.680471,"k":"p"},
+  {"id":7868797483,"lat":47.799536,"lon":18.680325,"k":"p"},
+  {"id":7868797484,"lat":47.799558,"lon":18.680001,"k":"p"},
+  {"id":7868803285,"lat":47.799551,"lon":18.680159,"k":"p"},
+  {"id":7868803286,"lat":47.799549,"lon":18.67987,"k":"p"},
+  {"id":7868803287,"lat":47.799529,"lon":18.679702,"k":"p"},
+  {"id":10589636777,"lat":47.799168,"lon":18.680618,"k":"p"},
+  {"id":10589636778,"lat":47.799187,"lon":18.680449,"k":"p"},
+  {"id":10589636779,"lat":47.799204,"lon":18.680265,"k":"p"},
+  {"id":10589636780,"lat":47.799216,"lon":18.680077,"k":"p"},
+  {"id":10589636781,"lat":47.799241,"lon":18.679891,"k":"p"},
+  {"id":10589636782,"lat":47.799252,"lon":18.679696,"k":"p"},
+  {"id":14085933570,"lat":47.784664,"lon":18.651134,"k":"x","n":"Obid, Čapašska"},
+  {"id":14085933571,"lat":47.784514,"lon":18.651105,"k":"x","n":"Obid, Čapašska"}
+],
+"routes":[
+  {"id":8997799,"t":{"ref":"223","name":"Bus 223: Štúrovo, Železničná stanica => Esztergom, vasútállomás","from":"Štúrovo, Železničná stanica","to":"Esztergom, vasútállomás","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":8,"s":[[2079624292,1]]},
+  {"id":8997800,"t":{"ref":"223","name":"Bus 223: Esztergom, vasútállomás => Štúrovo, Železničná stanica","from":"Esztergom, vasútállomás","to":"Štúrovo, Železničná stanica","network":"Volánbusz","operator":"Volánbusz","route":"bus","public_transport:version":"2"},"n":6,"s":[[2079624292,6]]},
+  {"id":8997803,"t":{"ref":"3","name":"Bus 3: Železničná stanica - Vasútállomás => Železničná stanica - Vasútállomás","from":"Železničná stanica - Vasútállomás","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":16,"s":[[2079624292,1,16],[6351270961,2],[6074835777,15]]},
+  {"id":8997804,"t":{"ref":"3","name":"Bus 3: Autobusové stanovište - Autóbuszmegálló => Železničná stanica - Vasútállomás","from":"Autobusové stanovište - Autóbuszmegálló","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":8,"s":[[2079624292,8]]},
+  {"id":8997805,"t":{"ref":"3","name":"Bus 3: Železničná stanica - Vasútállomás => Železničná stanica - Vasútállomás","from":"Železničná stanica - Vasútállomás","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":13,"s":[[2079624292,1,13],[2079664399,2]]},
+  {"id":8997806,"t":{"name":"Bus 3: Železničná stanica => Železničná stanica","from":"Železničná stanica - Vasútállomás","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":17,"s":[[2079624292,1,17],[6351270961,2]]},
+  {"id":8997807,"t":{"ref":"2","name":"Bus 2: Železničná stanica - Vasútállomás => Železničná stanica - Vasútállomás","from":"Železničná stanica - Vasútállomás","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":16,"s":[[2079624292,1,16],[6351270961,2],[6074835777,15]]},
+  {"id":8997808,"t":{"ref":"2","name":"Bus 2: Železničná stanica - Vasútállomás => Železničná stanica - Vasútállomás","from":"Železničná stanica - Vasútállomás","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":15,"s":[[2079624292,1,15],[6351270961,2],[6074835777,14]]},
+  {"id":8997809,"t":{"ref":"1","name":"Bus 1: Železničná stanica - Vasútállomás => Hlavná, pošta - Fő utca, posta => Poliklinika - Poliklinika => Železničná stanica - Vasútállomás","from":"Železničná stanica - Vasútállomás","to":"Železničná stanica - Vasútállomás","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":14,"s":[[2079624292,1,14],[2079664399,2],[2079647631,13]]},
+  {"id":9418072,"t":{"ref":"2","name":"Bus 2: Železničná stanica - Vasútállomás => Autobusové stanovište - Autóbuszmegálló","from":"Železničná stanica - Vasútállomás","to":"Autobusové stanovište - Autóbuszmegálló","network":"MHD Štúrovo","operator":"Arriva Nové Zámky","route":"bus","public_transport:version":"2"},"n":10,"s":[[2079624292,1],[6351270961,2]]}
+]
+}

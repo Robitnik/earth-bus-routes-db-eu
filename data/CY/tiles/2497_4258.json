@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"CY",
+"tile":[2497,4258],
+"stops":[
+  {"id":5422204261,"lat":34.860278,"lon":32.913781,"k":"p","n":"Distrato Pelendriou 2","ref":"11090"},
+  {"id":10554825466,"lat":34.885294,"lon":32.93006,"k":"p","n":"Fylagra 2","ref":"11187"},
+  {"id":10554825467,"lat":34.885448,"lon":32.930137,"k":"p","n":"Fylagra 1","ref":"11186"},
+  {"id":10554825468,"lat":34.862306,"lon":32.912072,"k":"p","n":"Moniatis 1","ref":"11184"},
+  {"id":10554825469,"lat":34.866085,"lon":32.90174,"k":"p","n":"Δρόμος Λεμεσού - Τροοδους - Μονιάτης 1","ref":"11183"},
+  {"id":10554825470,"lat":34.866149,"lon":32.901772,"k":"p","n":"Δρόμος Λεμεσού - Τροοδους - Μονιάτης 2","ref":"11182"},
+  {"id":10554825500,"lat":34.850402,"lon":32.911308,"k":"p","n":"Trimiklini Elementary School 1","ref":"11094"},
+  {"id":10554825501,"lat":34.853848,"lon":32.912683,"k":"p","n":"Panagias Eleousis Ave. - 1st Trimiklini 1","ref":"11093"},
+  {"id":10554825502,"lat":34.853866,"lon":32.912858,"k":"p","n":"Panagias Eleousis Ave. - 1st Trimiklini 2","ref":"11092"},
+  {"id":10554825503,"lat":34.860206,"lon":32.913529,"k":"p","n":"Distrato Pelendriou 1","ref":"11091"},
+  {"id":10554825504,"lat":34.851803,"lon":32.947755,"k":"p","n":"1st Agios Mamas 2","ref":"11089"},
+  {"id":10554825505,"lat":34.851055,"lon":32.948817,"k":"p","n":"Agios Mamas Community Board 2","ref":"11086"},
+  {"id":10554825506,"lat":34.850234,"lon":32.948391,"k":"p","n":"Fountain - 3rd Agios Mamas 2","ref":"11084"},
+  {"id":10557014060,"lat":34.862207,"lon":32.912116,"k":"p","n":"Moniatis 2","ref":"11720"},
+  {"id":10557014115,"lat":34.85027,"lon":32.94838,"k":"p","n":"Fountain - 3rd Agios Mamas 1","ref":"11603"},
+  {"id":10557014144,"lat":34.851136,"lon":32.948806,"k":"p","n":"Agios Mamas Community Board 1","ref":"11604"}
+],
+"routes":[
+  {"id":7909389,"t":{"ref":"66","from":"Saittas","to":"Nicosia","network":"Επαρχία Λεμεσού","operator":"Ε.Μ.Ε.Λ.","colour":"#1E9403","route":"bus","public_transport:version":"2"},"n":12,"s":[[10554825503,1]]},
+  {"id":8027586,"t":{"ref":"61","name":"61 Σαιττας - Πρόδρομος","network":"Λεμεσός","operator":"Ε.Μ.Ε.Λ.","route":"bus","public_transport:version":"2"},"n":2,"s":[[5422204261,2]]},
+  {"id":8034432,"t":{"name":"Bus 64A: Saittas - Platres - Troodos","network":"Λεμεσός","operator":"Ε.Μ.Ε.Λ.","route":"bus","public_transport:version":"2"},"n":13,"s":[[10554825503,1]]},
+  {"id":8034449,"t":{"name":"Bus 62Z: Lemesos - Platres","operator":"Ε.Μ.Ε.Λ.","route":"bus","public_transport:version":"2"},"n":31,"s":[[10554825500,19],[10554825501,20],[10554825503,21]]},
+  {"id":8034773,"t":{"ref":"60","name":"Bus 60: Lemesos - Saittas - Pelendri","from":"Lemesos","to":"Pelendri","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#00C55E","route":"bus","public_transport:version":"2"},"n":29,"s":[[10554825500,19],[10554825501,20],[10554825503,21]]},
+  {"id":15405649,"t":{"name":"Bus 64A: Troodos - Platres - Saittas","from":"Troodos","to":"Saittas","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#0080FF","route":"bus","public_transport:version":"2"},"n":12,"s":[[5422204261,12]]},
+  {"id":15405652,"t":{"ref":"60K","name":"Bus 60K: Saittas - Kyperounta - Chandria","from":"Saittas","to":"Chandria","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#FF8000","route":"bus","public_transport:version":"2"},"n":22,"s":[[10554825503,1],[10554825468,2],[10554825467,3]]},
+  {"id":15405653,"t":{"name":"Bus 60K: Saittas - Kyperounta - Chandria","from":"Chandria","to":"Saittas","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#FF8000","route":"bus","public_transport:version":"2"},"n":22,"s":[[10554825503,1],[10554825468,2],[10554825467,3]]},
+  {"id":15405681,"t":{"ref":"65","name":"Bus 65: Lemesos - Apesia - Korfi - Limnati - Agios Mamas","from":"Lemesos","to":"Agios Mamas","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#4C610A","route":"bus","public_transport:version":"2"},"n":30,"s":[[10557014115,28],[10557014144,29],[10554825504,30]]},
+  {"id":15405682,"t":{"name":"Bus 65: Lemesos - Apesia - Korfi - Limnati - Agios Mamas","from":"Agios Mamas","to":"Lemesos","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#4C610A","route":"bus","public_transport:version":"2"},"n":30,"s":[[10557014115,28],[10557014144,29],[10554825504,30]]},
+  {"id":15405683,"t":{"ref":"60","name":"Bus 60: Pelendri - Saittas - Lemesos","from":"Pelendri","to":"Lemesos","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#00C55E","route":"bus","public_transport:version":"2"},"n":33,"s":[[5422204261,11],[10554825502,12]]},
+  {"id":16293514,"t":{"ref":"62Z","name":"Bus 62Z: Platres - Lemesos","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#0000FF","route":"bus","public_transport:version":"2"},"n":32,"s":[[5422204261,10],[10554825502,11]]},
+  {"id":16293516,"t":{"ref":"60K","name":"Bus 60K: Chandria - Kyperounta - Saittas","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#FF8000","route":"bus","public_transport:version":"2"},"n":20,"s":[[10554825466,18],[10557014060,19],[5422204261,20]]},
+  {"id":16293543,"t":{"ref":"65","name":"Bus 65: Agios Mamas - Limnati - Korfi - Apesia - Lemesos","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#4C610A","route":"bus","public_transport:version":"2"},"n":32,"s":[[10554825504,1],[10554825505,2],[10554825506,3]]},
+  {"id":16293544,"t":{"ref":"64","name":"Bus 64: Lemesos - Saittas - Troodos - Botanic Garden","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#66BDF3","route":"bus","public_transport:version":"2"},"n":46,"s":[[10554825500,32],[10554825501,33],[10554825503,34]]},
+  {"id":16293545,"t":{"ref":"64","name":"Bus 64: Botanic Garden - Troodos - Saittas - Lemesos","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#66BDF3","route":"bus","public_transport:version":"2"},"n":48,"s":[[5422204261,12],[10554825502,13]]},
+  {"id":16293546,"t":{"ref":"60","name":"Bus 60: Lemesos - Saittas - Pelendri","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#00C55E","route":"bus","public_transport:version":"2"},"n":29,"s":[[10554825500,19],[10554825501,20],[10554825503,21]]},
+  {"id":16293547,"t":{"ref":"60","name":"Bus 60: Pelendri - Saittas - Lemesos","network":"Ε.Μ.Ε.Λ.","operator":"Ε.Μ.Ε.Λ.","colour":"#00C55E","route":"bus","public_transport:version":"2"},"n":33,"s":[[5422204261,11],[10554825502,12]]}
+]
+}

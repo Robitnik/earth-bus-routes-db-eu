@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2927,4054],
+"stops":[
+  {"id":5003724623,"lat":56.376053,"lon":22.746644,"k":"p","n":"Vadakste"},
+  {"id":5003724626,"lat":56.376239,"lon":22.747117,"k":"p","n":"Vadakste"},
+  {"id":13646326230,"lat":56.376993,"lon":22.730573,"k":"p","n":"Jaunauces pagrieziens"},
+  {"id":13646326239,"lat":56.376986,"lon":22.730709,"k":"p","n":"Jaunauces pagrieziens"},
+  {"id":13794038233,"lat":56.376723,"lon":22.715858,"k":"p","n":"Dzirnavas"},
+  {"id":13794038235,"lat":56.376654,"lon":22.715729,"k":"p","n":"Dzirnavas"}
+],
+"routes":[
+  {"id":12526447,"t":{"ref":"7254","name":"Bus 7254: Auces stacija -> Saldus AO","from":"Auces stacija","to":"Saldus AO","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[5003724626,6]]},
+  {"id":12526463,"t":{"ref":"7254","name":"Bus 7254: Saldus AO -> Auces stacija","from":"Saldus AO","to":"Auces stacija","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[5003724623,21]]},
+  {"id":20320101,"t":{"ref":"6729","name":"6729 Saldus – Ezere – Vadakste – Jaunauce","from":"Saldus AO","to":"Jaunauce","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":24,"s":[[5003724626,22],[13646326239,23]]},
+  {"id":20623048,"t":{"ref":"5246","name":"Autobuss 5246: Saldus – Grīvaiši – Ruba – Vadakste – Jaunauce","from":"Saldus AO","to":"Jaunauces centrs","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[13794038235,23],[5003724626,24],[13646326239,25]]},
+  {"id":21027009,"t":{"ref":"5246","name":"Autobuss 5246: Jaunauce – Vadakste – Ruba – Grīvaiši – Saldus","from":"Jaunauces centrs","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":26,"s":[[13646326230,2],[5003724626,3],[13794038233,4]]},
+  {"id":21082492,"t":{"ref":"6729","name":"6729 Jaunauce – Vadakste – Ezere – Saldus","from":"Jaunauce","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":24,"s":[[13646326230,2],[5003724626,3]]}
+]
+}

@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2904,3899],
+"stops":[
+  {"id":3844528175,"lat":55.208725,"lon":14.971122,"k":"p","n":"Gudhjem Øvre Busstation"},
+  {"id":3844528176,"lat":55.208827,"lon":14.971186,"k":"p","n":"Gudhjem Øvre (nord)"},
+  {"id":4377880155,"lat":55.20683,"lon":14.972437,"k":"p","n":"Gudhjem Museet (syd)"},
+  {"id":4378910043,"lat":55.206568,"lon":14.973102,"k":"p","n":"Melstedvej of kirkegården"},
+  {"id":4378914149,"lat":55.206916,"lon":14.972096,"k":"p","n":"Gudhjem Museet (nord)"},
+  {"id":5834287298,"lat":55.201766,"lon":14.979502,"k":"p","n":"Melsted v Melstedgård"},
+  {"id":5834287299,"lat":55.202947,"lon":14.977705,"k":"p","n":"Melsted of Melstedgård"},
+  {"id":5834287300,"lat":55.208809,"lon":14.971776,"k":"p","n":"Gudhjem Brøddegade 4"},
+  {"id":6721289171,"lat":55.206084,"lon":14.974025,"k":"p","n":"Melstedvej v kirkegården"}
+],
+"routes":[
+  {"id":3615688,"t":{"ref":"7","network":"BAT","operator":"BAT","route":"bus","bus":"7"},"n":29,"s":[[5834287299,21],[4378910043,22],[3844528175,23],[5834287300,24]]},
+  {"id":3615689,"t":{"ref":"8","network":"BAT","operator":"BAT","route":"bus","bus":"8"},"n":30,"s":[[5834287298,22],[6721289171,23],[5834287300,24]]},
+  {"id":5674061,"t":{"ref":"3","name":"Bus 3: Rønne → Gudhjem Øvre","from":"Rønne","to":"Gudhjem Øvre","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":25,"s":[[4377880155,24],[3844528176,25]]},
+  {"id":5675988,"t":{"ref":"1","name":"Bus 1: Rønne → Gudhjem Øvre","to":"Gudhjem Øvre","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[3844528175,30]]},
+  {"id":9937473,"t":{"ref":"9","from":"Rønne","to":"Gudhjem","network":"BAT","operator":"BAT","route":"bus"},"n":4,"s":[[4378914149,1],[4377880155,2],[3844528175,3],[5834287300,4]]},
+  {"id":13334967,"t":{"ref":"1","name":"Bus 1: Gudhjem Øvre → Rønne","from":"Gudhjem Øvre","to":"Rønne","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[3844528175,1]]},
+  {"id":13335208,"t":{"ref":"3","name":"Bus 3: Gudhjem Øvre → Rønne","from":"Gudhjem Øvre","to":"Rønne","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":25,"s":[[3844528175,1],[4378914149,2]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2933,4050],
+"stops":[
+  {"id":7976388086,"lat":56.672983,"lon":22.529547,"k":"p","n":"Bērzi"},
+  {"id":7976388088,"lat":56.672919,"lon":22.530271,"k":"p","n":"Bērzi"},
+  {"id":8589518559,"lat":56.687746,"lon":22.50495,"k":"p","n":"Lagzdiņas"},
+  {"id":8589518616,"lat":56.686843,"lon":22.504709,"k":"p","n":"Lagzdiņas"},
+  {"id":9726061873,"lat":56.650516,"lon":22.506244,"k":"p","n":"Veides meža kapi"},
+  {"id":13648524719,"lat":56.670985,"lon":22.515867,"k":"p","n":"Oškalni"},
+  {"id":13648524722,"lat":56.680414,"lon":22.52876,"k":"p","n":"Flīžu cehs"},
+  {"id":13648524724,"lat":56.689357,"lon":22.533224,"k":"p","n":"Rennes"},
+  {"id":13648524730,"lat":56.689905,"lon":22.533658,"k":"p","n":"Rennes"},
+  {"id":13648524734,"lat":56.680629,"lon":22.529192,"k":"p","n":"Flīžu cehs"},
+  {"id":13648524742,"lat":56.671472,"lon":22.517622,"k":"p","n":"Oškalni"},
+  {"id":13673060801,"lat":56.678029,"lon":22.549683,"k":"p","n":"Čači"},
+  {"id":13683501171,"lat":56.660929,"lon":22.502913,"k":"p","n":"2.vidusskola"}
+],
+"routes":[
+  {"id":12532118,"t":{"ref":"7258","name":"Bus 7258: Kandava -> Saldus AO","from":"Kandava","to":"Saldus AO","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":15,"s":[[8589518559,15]]},
+  {"id":12532134,"t":{"ref":"7258","name":"Bus 7258: Saldus AO -> Kandava","from":"Saldus AO","to":"Kandava","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":15,"s":[[8589518616,1]]},
+  {"id":20291350,"t":{"ref":"6726","name":"6726 Saldus – Gaiķu skola – Satiķi – Saldus","from":"Saldus AO","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":16,"s":[[8589518616,2],[8589518559,15]]},
+  {"id":20325246,"t":{"ref":"6730","name":"6730 Saldus – Flīžu cehs – Brocēnu centrs","from":"Autoosta (pie Saldus AO)","to":"Brocēnu centrs","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":6,"s":[[13648524742,2],[7976388088,3],[13648524734,4],[13648524730,5]]},
+  {"id":20367641,"t":{"ref":"6734","name":"6734 Saldus – Imantas","from":"Autoosta (pie Saldus AO)","to":"Imantas","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":9,"s":[[13648524742,2],[7976388088,3]]},
+  {"id":20371386,"t":{"ref":"6741","name":"6741 Saldus – Brocēnu centrs","from":"Autoosta (pie Saldus AO)","to":"Brocēnu centrs","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":6,"s":[[13648524742,2],[7976388088,3]]},
+  {"id":20612419,"t":{"ref":"5239","name":"Autobuss 5239: Saldus – Brocēnu centrs – Remte – Brocēnu centrs – Saldus","from":"Saldus AO","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":28,"s":[[13648524742,2],[7976388088,3],[13673060801,22],[7976388086,23],[13648524719,24],[13683501171,27]]},
+  {"id":21028723,"t":{"ref":"5239","name":"Autobuss 5239: Saldus – Brocēnu centrs – Remte – Brocēnu centrs","from":"Saldus AO","to":"Brocēnu centrs","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":20,"s":[[13648524742,2],[7976388088,3]]},
+  {"id":21028724,"t":{"ref":"5239","name":"Autobuss 5239: Brocēnu centrs – Saldus – Remte – Brocēnu centrs","from":"Brocēnu centrs","to":"Brocēnu centrs","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":22,"s":[[13673060801,3],[7976388086,4],[13648524719,5],[8589518616,8]]},
+  {"id":21028725,"t":{"ref":"5239","name":"Autobuss 5239: Saldus – Brocēnu centrs – Remte – Brocēnu centrs – Saldus","from":"Saldus AO","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":27,"s":[[13683501171,2],[8589518616,6],[13648524724,23],[13648524722,24],[7976388086,25],[13648524719,26]]},
+  {"id":21077358,"t":{"ref":"6742","name":"6742 Saldus – Pampāļi","from":"Saldus AO","to":"Pampāļi","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":14,"s":[[13683501171,3]]},
+  {"id":21077869,"t":{"ref":"6741","name":"6741 Zaļā iela – Brocēni – Saldus","from":"Zaļā iela","to":"Autoosta (pie Saldus AO)","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":8,"s":[[13673060801,5],[7976388086,6],[13648524719,7]]},
+  {"id":21077870,"t":{"ref":"6741","name":"6741 Brocēnu centrs – Saldus","from":"Brocēnu centrs","to":"Autoosta (pie Saldus AO)","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":6,"s":[[13673060801,3],[7976388086,4],[13648524719,5]]},
+  {"id":21077871,"t":{"ref":"6741","name":"6741 Saldus – Brocēnu centrs – Zaļā iela","from":"Autoosta (pie Saldus AO)","to":"Zaļā iela","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":8,"s":[[13648524742,2],[7976388088,3]]},
+  {"id":21078051,"t":{"ref":"6734","name":"6734 Imantas – Saldus","from":"Imantas","to":"Autoosta (pie Saldus AO)","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":9,"s":[[13673060801,6],[7976388086,7],[13648524719,8]]},
+  {"id":21081282,"t":{"ref":"6730","name":"6730 Brocēnu centrs – Flīžu cehs – Saldus","from":"Brocēnu centrs","to":"Autoosta (pie Saldus AO)","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":6,"s":[[13648524724,2],[13648524722,3],[7976388086,4],[13648524719,5]]},
+  {"id":21088995,"t":{"ref":"6726","name":"6726 Saldus – Satiķi – Gaiķu skola – Saldus","from":"Saldus AO","to":"Saldus AO","network":"ATD","operator":"SIA Latvijas Sabiedriskais Autobuss","route":"bus","public_transport:version":"2"},"n":16,"s":[[8589518616,2],[8589518559,15]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2711,3918],
+"stops":[
+  {"id":1921823595,"lat":45.575338,"lon":15.943553,"k":"p","n":"Cerovski selo"},
+  {"id":1921825246,"lat":45.565389,"lon":15.938638,"k":"p","n":"Lukinić Brdo"},
+  {"id":5762058901,"lat":45.56265,"lon":15.904493,"k":"p"},
+  {"id":5762058903,"lat":45.587632,"lon":15.923163,"k":"p"},
+  {"id":5762058969,"lat":45.570844,"lon":15.922547,"k":"p"},
+  {"id":6947766389,"lat":45.567117,"lon":15.945464,"k":"p","n":"Žužić brdo"},
+  {"id":14067270183,"lat":45.566958,"lon":15.945344,"k":"p"}
+],
+"routes":[
+  {"id":1772167,"t":{"ref":"12","name":"Bus 12: Velika Gorica => Cerovski Vrh","from":"Velika Gorica","to":"Cerovski Vrh","network":"Arriva","operator":"Arriva City bus Velika Gorica","route":"bus","public_transport:version":"2"},"n":21,"s":[[1921823595,20],[6947766389,21]]},
+  {"id":1778236,"t":{"ref":"311","name":"Bus 311: Glavni kolodvor => Cerovski Vrh","from":"Glavni kolodvor","to":"Cerovski Vrh","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":22,"s":[[1921823595,21],[6947766389,22]]},
+  {"id":10260054,"t":{"ref":"311","name":"Bus 311: Cerovski Vrh => Glavni kolodvor","from":"Cerovski Vrh","to":"Glavni kolodvor","network":"ZET","operator":"ZET","route":"bus","public_transport:version":"2"},"n":22,"s":[[6947766389,1],[1921823595,2]]},
+  {"id":10260134,"t":{"ref":"12","name":"Bus 12: Cerovski Vrh => Velika Gorica","from":"Cerovski Vrh","to":"Velika Gorica","network":"Arriva","operator":"Arriva City bus Velika Gorica","route":"bus","public_transport:version":"2"},"n":21,"s":[[6947766389,1],[1921823595,2]]}
+]
+}

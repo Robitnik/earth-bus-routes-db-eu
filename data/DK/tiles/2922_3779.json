@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2922,3779],
+"stops":[
+  {"id":1685048990,"lat":56.133815,"lon":8.977415,"k":"s","n":"Herning Station"},
+  {"id":4911782523,"lat":56.140685,"lon":8.965843,"k":"p"},
+  {"id":4911782524,"lat":56.140844,"lon":8.96671,"k":"p"},
+  {"id":4911782536,"lat":56.139778,"lon":8.967916,"k":"p"},
+  {"id":8049792117,"lat":56.14664,"lon":8.995985,"k":"p"},
+  {"id":8049792118,"lat":56.146712,"lon":8.996174,"k":"x"},
+  {"id":8049792119,"lat":56.147579,"lon":8.994914,"k":"x"},
+  {"id":8296422094,"lat":56.133565,"lon":8.977762,"k":"x","n":"1"},
+  {"id":8296422095,"lat":56.13362,"lon":8.977781,"k":"x","n":"2"},
+  {"id":8296422096,"lat":56.133673,"lon":8.977799,"k":"x","n":"3"},
+  {"id":8296422097,"lat":56.133726,"lon":8.977817,"k":"x","n":"4"},
+  {"id":8296422098,"lat":56.133787,"lon":8.977838,"k":"x","n":"5"},
+  {"id":8296422100,"lat":56.133838,"lon":8.977855,"k":"x","n":"6"},
+  {"id":8296422103,"lat":56.13382,"lon":8.976423,"k":"x","n":"7"},
+  {"id":8844534451,"lat":56.134797,"lon":8.969586,"k":"p","n":"Dalgasgade"},
+  {"id":8844534452,"lat":56.122457,"lon":8.95008,"k":"p","n":"MCH Herning"},
+  {"id":8844828901,"lat":56.134663,"lon":8.969872,"k":"p","n":"Dalgasgade"},
+  {"id":9695309815,"lat":56.109021,"lon":8.978924,"k":"p"},
+  {"id":9695309816,"lat":56.108976,"lon":8.978635,"k":"p"},
+  {"id":5001426357375,"lat":56.13369,"lon":8.977509,"k":"p","ref":"3"},
+  {"id":6010512277208,"lat":56.131728,"lon":8.978066,"k":"p","n":"Herning FlixBus stop","g":1}
+],
+"routes":[
+  {"id":12860838,"t":{"ref":"81","name":"Herning - Grindsted","from":"Herning","to":"Grindsted","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":15,"s":[[5001426357375,1],[8844534451,2],[8844534452,3]]},
+  {"id":12861214,"t":{"ref":"81","name":"Grindsted - Herning","from":"Grindsted","to":"Herning","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":16,"s":[[8844534452,14],[8844828901,15],[5001426357375,16]]},
+  {"id":12862276,"t":{"ref":"81","name":"Herning - Grindsted via Sandet","from":"Herning","to":"Grindsted","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":17,"s":[[5001426357375,1],[8844534451,2],[8844534452,3]]},
+  {"id":12862692,"t":{"ref":"81","name":"Herning - Sønder Felding","from":"Herning","to":"Sønder Felding","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":9,"s":[[5001426357375,1],[8844534451,2],[8844534452,3]]},
+  {"id":12862890,"t":{"ref":"81","name":"Sønder Felding - Herning","from":"Sønder Felding","to":"Herning","network":"Regional","operator":"Midttrafik","colour":"#007CB6","route":"bus","public_transport:version":"2"},"n":8,"s":[[8844534452,7],[8844828901,8]]},
+  {"id":3017738162698,"t":{"ref":"FlixBus 631","name":"FlixBus 631: Copenhagen Busterminal - Holstebro Trafikterminal","from":"Copenhagen Busterminal","to":"Holstebro Trafikterminal","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":4,"s":[[6010512277208,3]]},
+  {"id":3061462936662,"t":{"ref":"FlixBus 631","name":"FlixBus 631: Holstebro Trafikterminal - Copenhagen Busterminal","from":"Holstebro Trafikterminal","to":"Copenhagen Busterminal","operator":"FlixBus-eu","route":"bus","public_transport:version":"2"},"n":4,"s":[[6010512277208,2]]}
+]
+}

@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2932,4071],
+"stops":[
+  {"id":4272307127,"lat":56.615555,"lon":23.585563,"k":"p","n":"Viesturu stacija"},
+  {"id":4272307131,"lat":56.624181,"lon":23.585424,"k":"p","n":"Uz pieprasījumu","q":1},
+  {"id":4309542011,"lat":56.634957,"lon":23.586598,"k":"p","n":"Viesturu pagrieziens"},
+  {"id":4309542012,"lat":56.635317,"lon":23.588672,"k":"p","n":"Viesturu pagrieziens"},
+  {"id":4309542045,"lat":56.618699,"lon":23.588428,"k":"p","n":"Uz pieprasījumu","q":1},
+  {"id":4309542047,"lat":56.632251,"lon":23.589517,"k":"p","n":"Uz pieprasījumu","q":1},
+  {"id":8586612856,"lat":56.6354,"lon":23.588598,"k":"x","n":"Viesturu pagrieziens"},
+  {"id":8586612872,"lat":56.634882,"lon":23.586663,"k":"x","n":"Viesturu pagrieziens"},
+  {"id":12782458753,"lat":56.619157,"lon":23.592627,"k":"p","n":"Viesturi RAF"},
+  {"id":12782458754,"lat":56.619278,"lon":23.59256,"k":"p","n":"Viesturi RAF"},
+  {"id":12782458755,"lat":56.625552,"lon":23.595983,"k":"p","n":"Lauku iela"},
+  {"id":12782458756,"lat":56.625678,"lon":23.595936,"k":"p","n":"Lauku iela"},
+  {"id":12782458759,"lat":56.632765,"lon":23.589053,"k":"p","n":"Straumes iela"}
+],
+"routes":[
+  {"id":6422723,"t":{"ref":"1","from":"Meiju ceļš","to":"Pagrieziens uz Viesturiem","route":"bus","public_transport:version":"2"},"n":12,"s":[[4309542011,12]]},
+  {"id":6422730,"t":{"ref":"1","from":"Ozolnieki GP","to":"Pagrieziens uz Viesturiem","route":"bus","public_transport:version":"2"},"n":23,"s":[[4309542011,23]]},
+  {"id":6422733,"t":{"ref":"1","from":"Ozolnieki GP","to":"Viesturu stacija","route":"bus","public_transport:version":"2"},"n":24,"s":[[12782458759,23],[4272307127,24]]},
+  {"id":6422734,"t":{"ref":"1","from":"Pagrieziens uz Viesturiem","to":"Ozolnieku vidusskola","route":"bus","public_transport:version":"2"},"n":27,"s":[[4309542012,1]]},
+  {"id":6422735,"t":{"ref":"1","from":"Ozolnieku vidusskola","to":"Pagrieziens uz Viesturiem","route":"bus","public_transport:version":"2"},"n":26,"s":[[4309542011,26]]},
+  {"id":6422740,"t":{"ref":"1","from":"Pagrieziens uz Viesturiem","to":"Ozolnieki GP","route":"bus","public_transport:version":"2"},"n":24,"s":[[4309542012,1]]},
+  {"id":6422741,"t":{"ref":"1","from":"Viesturu stacija","to":"Ozolnieki GP","route":"bus","public_transport:version":"2"},"n":28,"s":[[4272307127,1],[4309542045,2],[4272307131,3],[4309542047,4],[4309542012,5]]},
+  {"id":12538770,"t":{"ref":"7347","name":"Bus 7347: Auces stacija -> Jelgavas AO","from":"Auces stacija","to":"Jelgavas AO","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":13,"s":[[4309542012,12]]},
+  {"id":12538774,"t":{"ref":"7347","name":"Bus 7347: Jelgavas AO -> Auces stacija","from":"Jelgavas AO","to":"Auces stacija","operator":"SIA Sabiedriskais autobuss","route":"bus","public_transport:version":"2"},"n":13,"s":[[4309542011,2]]},
+  {"id":19032235,"t":{"ref":"19","name":"Bus 19: Viesturu stacija => Bērzu kapi","from":"Viesturu stacija","to":"Bērzu kapi","colour":"#ebb3d2","route":"bus","public_transport:version":"2"},"n":28,"s":[[4272307127,1],[4309542045,2],[4272307131,3],[4309542047,4],[4309542012,5]]},
+  {"id":19032236,"t":{"ref":"19","name":"Bus 19: Viesturu stacija => Viesturi RAF => Bērzu kapi","from":"Viesturu stacija","to":"Bērzu kapi","colour":"#ebb3d2","route":"bus","public_transport:version":"2"},"n":28,"s":[[4272307127,1],[12782458753,2],[12782458755,3]]},
+  {"id":19032237,"t":{"ref":"19","name":"Bus 19: Viesturu stacija => Centrs","from":"Viesturu stacija","to":"Centrs","colour":"#ebb3d2","route":"bus","public_transport:version":"2"},"n":17,"s":[[4272307127,1],[4309542045,2],[4272307131,3],[4309542047,4],[4309542012,5]]},
+  {"id":19032238,"t":{"ref":"19","name":"Bus 19: Bērzu kapi => Viesturu stacija","from":"Bērzu kapi","to":"Viesturu stacija","colour":"#ebb3d2","route":"bus","public_transport:version":"2"},"n":22,"s":[[12782458759,21],[4272307127,22]]},
+  {"id":19032239,"t":{"ref":"19","name":"Bus 19: Bērzu kapi => Viesturi RAF => Viesturu stacija","from":"Bērzu kapi","to":"Viesturu stacija","colour":"#ebb3d2","route":"bus","public_transport:version":"2"},"n":24,"s":[[12782458756,22],[12782458754,23],[4272307127,24]]},
+  {"id":19032240,"t":{"ref":"19","name":"Bus 19: Centrs => Viesturu stacija","from":"Centrs","to":"Viesturu stacija","colour":"#ebb3d2","route":"bus","public_transport:version":"2"},"n":14,"s":[[12782458759,13],[4272307127,14]]}
+]
+}

@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2932,4076],
+"stops":[
+  {"id":4292906568,"lat":56.649705,"lon":23.817885,"k":"p","n":"Ānes pagrieziens","ref":"P404"},
+  {"id":4292906706,"lat":56.644058,"lon":23.836962,"k":"p","n":"Teteles skola","ref":"P410"},
+  {"id":4292906709,"lat":56.644478,"lon":23.835824,"k":"p","n":"Teteles skola","ref":"P409"},
+  {"id":4316389303,"lat":56.647985,"lon":23.813516,"k":"p","n":"Āne"},
+  {"id":4316389304,"lat":56.64841,"lon":23.813933,"k":"p","n":"Āne"},
+  {"id":4316389305,"lat":56.646679,"lon":23.810137,"k":"p","n":"Ānes kultūras nams","ref":"P408"},
+  {"id":8626609088,"lat":56.649763,"lon":23.81796,"k":"x","n":"Ānes pagrieziens"}
+],
+"routes":[
+  {"id":6427632,"t":{"ref":"2","to":"Tetele","route":"bus","public_transport:version":"2"},"n":13,"s":[[4292906568,11],[4292906706,12]]},
+  {"id":6427633,"t":{"ref":"2","from":"Tetele","to":"Centrs","route":"bus","public_transport:version":"2"},"n":13,"s":[[4292906709,2]]},
+  {"id":6427634,"t":{"ref":"2","to":"Centrs","route":"bus","public_transport:version":"2"},"n":15,"s":[[4292906709,2]]},
+  {"id":6427640,"t":{"ref":"2","from":"Tetele","to":"Svētes skola GP","route":"bus","public_transport:version":"2"},"n":32,"s":[[4292906709,2]]},
+  {"id":6427641,"t":{"ref":"2","to":"Tetele","route":"bus","public_transport:version":"2"},"n":32,"s":[[4292906568,30],[4292906706,31]]},
+  {"id":6427642,"t":{"ref":"2","to":"Tetele","route":"bus","public_transport:version":"2"},"n":33,"s":[[4292906568,31],[4292906706,32]]},
+  {"id":6427643,"t":{"ref":"2","from":"Tetele","to":"Svēte","route":"bus","public_transport:version":"2"},"n":33,"s":[[4292906709,2]]},
+  {"id":6431644,"t":{"ref":"6","name":"Bus 6: Meiju ceļš => Ānes kultūras nams","from":"Meiju ceļš","to":"Ānes kultūras nams","colour":"#ed7aaa","route":"bus","public_transport:version":"2"},"n":27,"s":[[4316389304,26],[4316389305,27]]},
+  {"id":6431645,"t":{"ref":"6","name":"Bus 6: Ānes kultūras nams => Vīgriežu iela","from":"Ānes kultūras nams","to":"Vīgriežu iela","colour":"#ed7aaa","route":"bus","public_transport:version":"2"},"n":32,"s":[[4316389305,1],[4316389303,2]]},
+  {"id":6439944,"t":{"ref":"9","name":"Bus 9: Centrs => Ānes kultūras nams","from":"Centrs","to":"Ānes kultūras nams","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":15,"s":[[4316389304,14],[4316389305,15]]},
+  {"id":6439945,"t":{"ref":"9","name":"Bus 9: Ānes kultūras nams => Centrs","from":"Ānes kultūras nams","to":"Centrs","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":16,"s":[[4316389305,1],[4316389303,2]]},
+  {"id":6439946,"t":{"ref":"9","name":"Bus 9: Kastaņu iela => Ānes kultūras nams","from":"Kastaņu iela","to":"Ānes kultūras nams","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":20,"s":[[4316389304,19],[4316389305,20]]},
+  {"id":6439947,"t":{"ref":"9","name":"Bus 9: Ānes kultūras nams => Tetele => Centrs","from":"Ānes kultūras nams","to":"Centrs","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":21,"s":[[4316389305,1],[4316389303,2],[4292906568,3],[4292906706,4],[4292906709,7]]},
+  {"id":6439948,"t":{"ref":"9","name":"Bus 9: Ānes kultūras nams => Kastaņu iela","from":"Ānes kultūras nams","to":"Kastaņu iela","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":22,"s":[[4316389305,1],[4316389303,2]]},
+  {"id":6439949,"t":{"ref":"9","name":"Bus 9: Baložu kapi => Ānes kultūras nams","from":"Baložu kapi","to":"Ānes kultūras nams","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":23,"s":[[4316389304,22],[4316389305,23]]},
+  {"id":6439950,"t":{"ref":"9","name":"Bus 9: Ānes kultūras nams => Baložu kapi","from":"Ānes kultūras nams","to":"Baložu kapi","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":24,"s":[[4316389305,1],[4316389303,2]]},
+  {"id":6439951,"t":{"ref":"9","name":"Bus 9: Ānes kultūras nams => Tetele => Baložu kapi","from":"Ānes kultūras nams","to":"Baložu kapi","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":29,"s":[[4316389305,1],[4316389303,2],[4292906568,3],[4292906706,4],[4292906709,7]]},
+  {"id":6439952,"t":{"ref":"9","name":"Bus 9: Ānes kultūras centrs => Tetele => Deju centrs => Baložu kapi","from":"Ānes kultūras centrs","to":"Baložu kapi","colour":"#c59c6d","route":"bus","public_transport:version":"2"},"n":31,"s":[[4316389305,1],[4316389303,2],[4292906568,3],[4292906706,4],[4292906709,7]]},
+  {"id":19046164,"t":{"ref":"16","name":"Bus 16: Svētes skola GP => Tetele","from":"Svētes skola GP","to":"Tetele","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":31,"s":[[4292906568,29],[4292906706,30]]},
+  {"id":19046166,"t":{"ref":"16","name":"Bus 16: Centrs => Tetele","from":"Centrs","to":"Tetele","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":13,"s":[[4292906568,11],[4292906706,12]]},
+  {"id":19046167,"t":{"ref":"16","name":"Bus 16: Tetele => Jēkabnieki","from":"Tetele","to":"Jēkabnieki","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":37,"s":[[4292906709,2]]},
+  {"id":19046168,"t":{"ref":"16","name":"Bus 16: Tetele => Svētes skola GP","from":"Tetele","to":"Svētes skola GP","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":31,"s":[[4292906709,2]]}
+]
+}

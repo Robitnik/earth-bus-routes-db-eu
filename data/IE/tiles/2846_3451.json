@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"IE",
+"tile":[2846,3451],
+"stops":[
+  {"id":11130574257,"lat":52.348495,"lon":-7.423185,"k":"p","n":"Sean Treacy Park"},
+  {"id":11130574258,"lat":52.347977,"lon":-7.408695,"k":"p","n":"Pill Road","ref":"331951"},
+  {"id":11130735305,"lat":52.347879,"lon":-7.408499,"k":"p","n":"Pill Road","ref":"351111"},
+  {"id":11130735306,"lat":52.34795,"lon":-7.408545,"k":"x"},
+  {"id":11130735307,"lat":52.348337,"lon":-7.42308,"k":"p","n":"Sean Treacy Park"}
+],
+"routes":[
+  {"id":16221582,"t":{"ref":"255","to":"Waterford","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":6,"s":[[11130574257,2],[11130574258,3]]},
+  {"id":16221703,"t":{"ref":"355","from":"Waterford Bus Station","to":"Cahir","network":"Expressway","operator":"Bus Éireann","route":"bus","public_transport:version":"2"},"n":6,"s":[[11130735305,2],[11130735307,3]]},
+  {"id":18690939,"t":{"ref":"891","name":"891 Kilkenny to Fiddown","from":"Kilkenny","to":"Fiddown","network":"Transport for Ireland","operator":"JJ Kavanagh","route":"bus","public_transport:version":"2"},"n":14,"s":[[11130574258,11]]},
+  {"id":18702764,"t":{"name":"891 Fiddown - Kilkenny","from":"Fiddown","to":"Kilkenny","route":"bus","public_transport:version":"2"},"n":15,"s":[[11130735305,4]]},
+  {"id":20137415,"t":{"ref":"55","name":"55: Limerick -> Waterford -> Limerick (Bus Éireann)","from":"Limerick Bus Station","to":"Waterford Bus Station","network":"Expressway","operator":"Bus Éireann","route":"bus"},"n":16,"s":[[11130574257,6],[11130735307,7],[11130574258,8],[11130735305,9]]}
+]
+}

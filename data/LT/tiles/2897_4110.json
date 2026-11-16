@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2897,4110],
+"stops":[
+  {"id":2628721605,"lat":54.878915,"lon":25.527894,"k":"p","n":"Raudondvaris"},
+  {"id":2628721608,"lat":54.879696,"lon":25.530559,"k":"p","n":"Raudondvaris"},
+  {"id":3085930273,"lat":54.885137,"lon":25.540782,"k":"p","n":"Miškiniai"},
+  {"id":3085930280,"lat":54.885925,"lon":25.542686,"k":"p","n":"Miškiniai"},
+  {"id":3792982596,"lat":54.875244,"lon":25.51746,"k":"p","n":"Pakrauglė"},
+  {"id":5349819227,"lat":54.87531,"lon":25.542462,"k":"x"},
+  {"id":9997555537,"lat":54.875218,"lon":25.516809,"k":"p","n":"Pakrauglė"},
+  {"id":12023122423,"lat":54.85459,"lon":25.519789,"k":"x"},
+  {"id":12023122424,"lat":54.854599,"lon":25.519693,"k":"p","n":"Gėla"},
+  {"id":12023316443,"lat":54.87458,"lon":25.516144,"k":"p","n":"Pakrauglė"},
+  {"id":12023316444,"lat":54.875338,"lon":25.542524,"k":"p","n":"Raudondvario kaimas"},
+  {"id":12023316448,"lat":54.87213,"lon":25.5396,"k":"p","n":"Raudondvario ežeras"},
+  {"id":12023406102,"lat":54.879764,"lon":25.530482,"k":"x"},
+  {"id":12023406103,"lat":54.87885,"lon":25.527979,"k":"x"}
+],
+"routes":[
+  {"id":17785929,"t":{"ref":"157","name":"Bus 157: Gėla => Nemenčinė","from":"Gėla","to":"Nemenčinė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":4,"s":[[12023122424,1]]},
+  {"id":17785930,"t":{"ref":"157","name":"Bus 157: Nemenčinė => Gėla","from":"Nemenčinė","to":"Gėla","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":4,"s":[[12023122424,4]]},
+  {"id":17786287,"t":{"ref":"160","name":"Bus 160: Raudondvaris => Nemenčinės mokykla => Nemenčinė","from":"Raudondvaris","to":"Nemenčinė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":4,"s":[[2628721605,1],[9997555537,2]]},
+  {"id":17786288,"t":{"ref":"160","name":"Bus 160: Raudondvaris => Nemenčinė","from":"Raudondvaris","to":"Nemenčinė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":4,"s":[[2628721605,1],[9997555537,2]]},
+  {"id":17786289,"t":{"ref":"160","name":"Bus 160: Nemenčinė => Nemenčinės mokykla => Raudondvaris","from":"Nemenčinė","to":"Raudondvaris","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[12023316443,3],[12023316448,4],[12023316444,5],[2628721605,6]]},
+  {"id":17786290,"t":{"ref":"160","name":"Bus 160: Nemenčinė => Raudondvaris","from":"Nemenčinė","to":"Raudondvaris","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[12023316443,3],[12023316448,4],[12023316444,5],[2628721605,6]]},
+  {"id":17786291,"t":{"ref":"160","name":"Bus 160: Pailgė => Nemenčinės mokykla => Nemenčinė","from":"Pailgė","to":"Nemenčinė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3085930273,2],[2628721605,3],[9997555537,4]]},
+  {"id":17786292,"t":{"ref":"160","name":"Bus 160 Nemenčinė => Nemenčinės mokykla => Pailgė","from":"Nemenčinė","to":"Pailgė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3792982596,3],[2628721608,4],[3085930280,5]]},
+  {"id":17786293,"t":{"ref":"160","name":"Bus 160: Pailgė => Nemenčinė","from":"Pailgė","to":"Nemenčinė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3085930273,2],[2628721605,3],[9997555537,4]]},
+  {"id":17786294,"t":{"ref":"160","name":"Bus 160: Nemenčinė => Pailgė","from":"Nemenčinė","to":"Pailgė","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":6,"s":[[3792982596,3],[2628721608,4],[3085930280,5]]},
+  {"id":17786295,"t":{"ref":"160","name":"Bus 160: Nemenčinė => Sapiegiškės","from":"Nemenčinė","to":"Sapiegiškės","network":"Vilniaus rajono savivaldybė","operator":"Vilniaus rajono autobusų parkas","route":"bus","public_transport:version":"2"},"n":11,"s":[[3792982596,3],[2628721608,4],[3085930280,5]]}
+]
+}

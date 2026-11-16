@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2950,4109],
+"stops":[
+  {"id":3179665782,"lat":57.525804,"lon":25.451749,"k":"p","n":"VSŠ"},
+  {"id":3221685932,"lat":57.521388,"lon":25.45019,"k":"p","n":"ELKO"},
+  {"id":8400946325,"lat":57.538027,"lon":25.495653,"k":"p","n":"Ķeņģi"},
+  {"id":8422405449,"lat":57.507916,"lon":25.462897,"k":"p","n":"Brīvnieki"},
+  {"id":8422424132,"lat":57.507865,"lon":25.462018,"k":"p","n":"Brīvnieki"},
+  {"id":11033807577,"lat":57.505284,"lon":25.485707,"k":"p"},
+  {"id":11033807578,"lat":57.504935,"lon":25.487268,"k":"p"},
+  {"id":11038044007,"lat":57.529376,"lon":25.459396,"k":"p"},
+  {"id":11038044008,"lat":57.529722,"lon":25.460631,"k":"p"},
+  {"id":13689666976,"lat":57.537974,"lon":25.495127,"k":"p","n":"Ķeņģi"},
+  {"id":13938749585,"lat":57.535483,"lon":25.485122,"k":"p","n":"Mētras"},
+  {"id":13938749588,"lat":57.535371,"lon":25.484358,"k":"p","n":"Mētras"},
+  {"id":13938754817,"lat":57.535325,"lon":25.484399,"k":"x","n":"Mētras"},
+  {"id":13938754818,"lat":57.535509,"lon":25.485101,"k":"x","n":"Mētras"}
+],
+"routes":[
+  {"id":4235277,"t":{"ref":"4","name":"bus 4: Purva iela => VSŠ","from":"Purva iela","to":"VSŠ","colour":"#fb7822","route":"bus","public_transport:version":"2"},"n":15,"s":[[3179665782,15]]},
+  {"id":4235281,"t":{"ref":"4","name":"bus 4: VSŠ => Purva iela","from":"VSŠ","to":"Purva iela","operator":"VTU Valmiera","colour":"#fb7822","route":"bus","public_transport:version":"2"},"n":13,"s":[[3179665782,1]]},
+  {"id":4252824,"t":{"ref":"5","name":"bus 5: Mūrmuižas iela => Valmiermuiža 1","from":"Mūrmuižas iela","to":"Valmiermuiža 1","colour":"#fe1f87","route":"bus","public_transport:version":"2"},"n":19,"s":[[3221685932,2]]},
+  {"id":4271485,"t":{"ref":"7","name":"bus 7: VSŠ => Valmiermuiža 1","from":"VSŠ","to":"Valmiermuiža 1","operator":"VTU Valmiera","colour":"#fefd1b","route":"bus","public_transport:version":"2"},"n":19,"s":[[3179665782,1]]},
+  {"id":4271488,"t":{"ref":"7","name":"bus 7: Valmiermuiža 1 => VSŠ","from":"Valmiermuiža 1","to":"VSŠ","colour":"#fefd1b","route":"bus","public_transport:version":"2"},"n":21,"s":[[3179665782,21]]},
+  {"id":4425343,"t":{"ref":"8","name":"bus 8: Kocēni => VSŠ","from":"Kocēni","to":"VSŠ","operator":"VTU Valmiera","colour":"#a236f6","route":"bus","public_transport:version":"2"},"n":19,"s":[[3179665782,19]]},
+  {"id":4425345,"t":{"ref":"8","name":"bus 8: VSŠ => Kocēni","from":"VSS","to":"Kocēni","operator":"VTU Valmiera","colour":"#a236f6","route":"bus","public_transport:version":"2"},"n":16,"s":[[3179665782,1]]},
+  {"id":18899814,"t":{"ref":"7164","name":"bus 7164: Valmiera => Smiltene => Vidaga => Gaujiena => Alūksne","from":"Valmiera","to":"Alūksne","route":"bus","public_transport:version":"2"},"n":39,"s":[[8422424132,3]]},
+  {"id":18899833,"t":{"ref":"7164","name":"bus 7164: Valmiera => Smiltene => Ape => Alūksne","from":"Valmiera","to":"Alūksne","route":"bus","public_transport:version":"2"},"n":23,"s":[[8422424132,3]]},
+  {"id":18899853,"t":{"ref":"7164","name":"bus 7164: Alūksne => Ape => Smiltene => Valmiera","from":"Alūksne","to":"Valmiera","route":"bus","public_transport:version":"2"},"n":19,"s":[[8422405449,17]]},
+  {"id":20389644,"t":{"ref":"5395","name":"5395 Valmiera – Pūpoli – Brenguļi – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":14,"s":[[8400946325,3],[13689666976,12]]},
+  {"id":20392899,"t":{"ref":"5400","name":"5400 Valmiera – Kauguri – Cempi – Vecvāle – Brenguļi – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":19,"s":[[8422424132,5],[13689666976,17]]},
+  {"id":20433108,"t":{"ref":"5404","name":"5404 Valmiera – Brenguļi – Cempi – Brenguļi – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":10,"s":[[8400946325,3],[13689666976,8]]},
+  {"id":20457525,"t":{"ref":"5426","name":"Autobuss 5426: Valmiera – Trikāta – Zaltes – Brenguļi – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":18,"s":[[8400946325,3],[13689666976,16]]},
+  {"id":20631650,"t":{"ref":"6620","name":"Autobuss 6620: Valmiera – Brenguļi – Ķerves – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":14,"s":[[8400946325,3],[8422405449,12]]},
+  {"id":20639777,"t":{"ref":"6621","name":"Autobuss 6621: Valmiera – Jaunvāles pagrieziens – Cempi – Kauguri – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":16,"s":[[8422424132,3],[8422405449,12]]},
+  {"id":20640918,"t":{"ref":"6623","name":"Autobuss 6623: Valmiera – Brenguļi – Staišas – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":13,"s":[[8400946325,3],[13689666976,11]]},
+  {"id":21022682,"t":{"ref":"6620","name":"Autobuss 6620: Valmiera – Ķerves – Brenguļi – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":14,"s":[[8422424132,3],[13689666976,12]]},
+  {"id":21075769,"t":{"ref":"5395","name":"5395 Valmiera – Brenguļi – Pūpoli – Valmiera","from":"Valmieras AO","to":"Valmieras AO","network":"ATD","operator":"SIA VTU Valmiera","route":"bus","public_transport:version":"2"},"n":14,"s":[[8400946325,3],[13689666976,12]]}
+]
+}

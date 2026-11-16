@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2931,4073],
+"stops":[
+  {"id":1165762412,"lat":56.590527,"lon":23.6512,"k":"p","n":"Svēte","ref":"P219"},
+  {"id":2186888174,"lat":56.590515,"lon":23.663313,"k":"p","n":"Lielsvētes iela","ref":"P220"},
+  {"id":2186891060,"lat":56.590634,"lon":23.663906,"k":"p","n":"Lielsvētes iela","ref":"P221"},
+  {"id":2193806741,"lat":56.59694,"lon":23.678065,"k":"p","n":"Vipas","ref":"P224"},
+  {"id":2193806954,"lat":56.597356,"lon":23.67821,"k":"p","n":"Vipas","ref":"P225"},
+  {"id":2193816614,"lat":56.591015,"lon":23.678059,"k":"p","n":"Svētes skola","ref":"P217"},
+  {"id":2193817897,"lat":56.590136,"lon":23.67686,"k":"p","n":"Svētes skola","ref":"P216"},
+  {"id":2193833473,"lat":56.587611,"lon":23.675167,"k":"p","n":"Svētes skola","ref":"P215"},
+  {"id":4292906689,"lat":56.593469,"lon":23.670724,"k":"p","n":"Skolas iela","ref":"P222"},
+  {"id":4292906690,"lat":56.593771,"lon":23.672118,"k":"p","n":"Skolas iela","ref":"P223"},
+  {"id":8615111136,"lat":56.593819,"lon":23.672017,"k":"x","n":"Skolas iela"},
+  {"id":8615111943,"lat":56.593451,"lon":23.670879,"k":"x","n":"Skolas iela"},
+  {"id":10846733754,"lat":56.590838,"lon":23.650309,"k":"p","n":"Svēte"},
+  {"id":12791260854,"lat":56.560032,"lon":23.656612,"k":"p","n":"Avoti","ref":"P209"},
+  {"id":12791260855,"lat":56.559512,"lon":23.655754,"k":"p","n":"Avoti","ref":"P208"},
+  {"id":12791260862,"lat":56.568495,"lon":23.66193,"k":"p","n":"Vītiņi","ref":"P210"},
+  {"id":12791260863,"lat":56.569313,"lon":23.662449,"k":"p","n":"Vītiņi","ref":"P211"},
+  {"id":12791260864,"lat":56.584733,"lon":23.672247,"k":"p","n":"Dārznieki","ref":"P213"},
+  {"id":12791260865,"lat":56.584141,"lon":23.671336,"k":"p","n":"Dārznieki","ref":"P212"}
+],
+"routes":[
+  {"id":6427635,"t":{"ref":"2","from":"Centrs","to":"Svētes skola GP","route":"bus","public_transport:version":"2"},"n":20,"s":[[2193806741,18],[2193817897,19],[2193833473,20]]},
+  {"id":6427636,"t":{"ref":"2","to":"Centrs","route":"bus","public_transport:version":"2"},"n":20,"s":[[2193833473,1],[2193816614,2],[2193806954,3]]},
+  {"id":6427637,"t":{"ref":"2","to":"Svēte","route":"bus","public_transport:version":"2"},"n":19,"s":[[2193806741,16],[4292906689,17],[2186888174,18],[1165762412,19]]},
+  {"id":6427638,"t":{"ref":"2","to":"Centrs","route":"bus","public_transport:version":"2"},"n":21,"s":[[1165762412,1],[2186891060,2],[4292906690,3],[2193806954,4]]},
+  {"id":6427639,"t":{"ref":"2","from":"Centrs","to":"Svēte","route":"bus","public_transport:version":"2"},"n":21,"s":[[2193806741,18],[4292906689,19],[2186888174,20],[1165762412,21]]},
+  {"id":6427640,"t":{"ref":"2","from":"Tetele","to":"Svētes skola GP","route":"bus","public_transport:version":"2"},"n":32,"s":[[2193806741,30],[2193817897,31],[2193833473,32]]},
+  {"id":6427641,"t":{"ref":"2","to":"Tetele","route":"bus","public_transport:version":"2"},"n":32,"s":[[2193833473,1],[2193816614,2],[2193806954,3]]},
+  {"id":6427642,"t":{"ref":"2","to":"Tetele","route":"bus","public_transport:version":"2"},"n":33,"s":[[1165762412,1],[2186891060,2],[4292906690,3],[2193806954,4]]},
+  {"id":6427643,"t":{"ref":"2","from":"Tetele","to":"Svēte","route":"bus","public_transport:version":"2"},"n":33,"s":[[2193806741,30],[4292906689,31],[2186888174,32],[1165762412,33]]},
+  {"id":19046163,"t":{"ref":"16","name":"Bus 16: Jēkabnieki => Centrs","from":"Jēkabnieki","to":"Centrs","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":26,"s":[[12791260854,5],[12791260863,6],[12791260864,7],[2193833473,8],[2193816614,9],[2193806954,10]]},
+  {"id":19046164,"t":{"ref":"16","name":"Bus 16: Svētes skola GP => Tetele","from":"Svētes skola GP","to":"Tetele","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":31,"s":[[2193833473,1],[2193816614,2],[2193806954,3]]},
+  {"id":19046165,"t":{"ref":"16","name":"Bus 16: Svētes skola GP => Centrs","from":"Svētes skola GP","to":"Centrs","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":19,"s":[[2193833473,1],[2193816614,2],[2193806954,3]]},
+  {"id":19046167,"t":{"ref":"16","name":"Bus 16: Tetele => Jēkabnieki","from":"Tetele","to":"Jēkabnieki","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":37,"s":[[2193806741,29],[2193817897,30],[12791260865,31],[12791260862,32],[12791260855,33]]},
+  {"id":19046168,"t":{"ref":"16","name":"Bus 16: Tetele => Svētes skola GP","from":"Tetele","to":"Svētes skola GP","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":31,"s":[[2193806741,29],[2193817897,30],[2193833473,31]]},
+  {"id":19046169,"t":{"ref":"16","name":"Bus 16: Centrs => Jēkabnieki","from":"Centrs","to":"Jēkabnieki","colour":"#9e1f62","route":"bus","public_transport:version":"2"},"n":25,"s":[[2193806741,17],[2193817897,18],[12791260865,19],[12791260862,20],[12791260855,21]]}
+]
+}

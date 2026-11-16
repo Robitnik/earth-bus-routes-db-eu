@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2905,3895],
+"stops":[
+  {"id":2338394744,"lat":55.280816,"lon":14.795816,"k":"p","n":"Allinge Nord"},
+  {"id":2338394745,"lat":55.281433,"lon":14.794339,"k":"p","n":"Nordlandshallen"},
+  {"id":2338397945,"lat":55.283073,"lon":14.792155,"k":"p","n":"Kongeskærskolen"},
+  {"id":2338400263,"lat":55.284214,"lon":14.791184,"k":"p","n":"Kongeskærskolen"},
+  {"id":3483643274,"lat":55.273305,"lon":14.799051,"k":"p","n":"Tårnhuset (retning syd og øst)"},
+  {"id":3483643275,"lat":55.273129,"lon":14.799257,"k":"p","n":"Tårnhuset (retning Allinge centrum og Sandvig)"},
+  {"id":3844599755,"lat":55.287116,"lon":14.778516,"k":"p","n":"Sandvig - gl. Station"},
+  {"id":3844605341,"lat":55.273189,"lon":14.761211,"k":"p","n":"Hammershus"},
+  {"id":6731694797,"lat":55.277187,"lon":14.763791,"k":"p"},
+  {"id":6731694799,"lat":55.277227,"lon":14.763594,"k":"p"},
+  {"id":6731694801,"lat":55.287243,"lon":14.778526,"k":"p","n":"Sandvig - gl. Station"},
+  {"id":10686412388,"lat":55.281332,"lon":14.794358,"k":"x","n":"Bornholms Idræts og Kulturcenter"}
+],
+"routes":[
+  {"id":5675988,"t":{"ref":"1","name":"Bus 1: Rønne → Gudhjem Øvre","to":"Gudhjem Øvre","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[3483643275,21],[2338394744,23],[3483643274,25]]},
+  {"id":5676393,"t":{"ref":"2","name":"Bus 2: Rønne Havn - Hammershus","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[3483643275,21],[3483643274,22],[2338394744,25],[2338394745,26],[2338400263,27],[2338397945,28],[3844599755,29],[3844605341,30]]},
+  {"id":13334967,"t":{"ref":"1","name":"Bus 1: Gudhjem Øvre → Rønne","from":"Gudhjem Øvre","to":"Rønne","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[3483643275,6],[2338394744,8],[3483643274,10]]},
+  {"id":20270053,"t":{"ref":"2","name":"Bus 2: Hammershus - Rønne Havn","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":31,"s":[[3844605341,1],[3844599755,2],[2338397945,3],[2338400263,4],[2338394745,5],[2338394744,6],[3483643274,9],[3483643275,10]]}
+]
+}

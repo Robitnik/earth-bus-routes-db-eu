@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"EE",
+"tile":[2989,4161],
+"stops":[
+  {"id":3174521695,"lat":59.455977,"lon":28.062566,"k":"p","n":"Linda","ref":"4400388-1"},
+  {"id":3174521698,"lat":59.456451,"lon":28.061614,"k":"p","n":"Linda","ref":"4400389-1"},
+  {"id":3174521709,"lat":59.458559,"lon":28.054895,"k":"p","n":"Kalda","ref":"4400204-1"},
+  {"id":3174521711,"lat":59.459315,"lon":28.053091,"k":"p","n":"Kalda","ref":"4400203-1"},
+  {"id":4638624159,"lat":59.452305,"lon":28.072788,"k":"p","n":"Kadaka"},
+  {"id":4638624160,"lat":59.452304,"lon":28.072993,"k":"p","n":"Kadaka"},
+  {"id":4638625061,"lat":59.453153,"lon":28.070934,"k":"p","n":"Jõesuu kalmistu","ref":"4400215-1"},
+  {"id":4638625062,"lat":59.453678,"lon":28.069809,"k":"p","n":"Jõesuu kalmistu","ref":"4400216-1"},
+  {"id":9879376643,"lat":59.45926,"lon":28.053026,"k":"x","n":"Kalda","ref":"4400203-1"},
+  {"id":9879376644,"lat":59.458573,"lon":28.054904,"k":"x","n":"Kalda","ref":"4400204-1"},
+  {"id":9879376645,"lat":59.456405,"lon":28.061543,"k":"x","n":"Linda","ref":"4400389-1"},
+  {"id":9879376646,"lat":59.455992,"lon":28.062581,"k":"x","n":"Linda","ref":"4400388-1"},
+  {"id":9879376647,"lat":59.453638,"lon":28.069751,"k":"x","n":"Jõesuu kalmistu","ref":"4400216-1"},
+  {"id":9879376648,"lat":59.45317,"lon":28.070949,"k":"x","n":"Jõesuu kalmistu","ref":"4400215-1"},
+  {"id":9879376649,"lat":59.452334,"lon":28.072905,"k":"x","n":"Kadaka"},
+  {"id":9879376650,"lat":59.452295,"lon":28.072861,"k":"x","n":"Kadaka"}
+],
+"routes":[
+  {"id":14340959,"t":{"ref":"3a","name":"Bus 3a: Paemurru => Augametsa","from":"Paemurru","to":"Augametsa","network":"Narva LV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":39,"s":[[4638624159,32]]},
+  {"id":14340960,"t":{"ref":"3a","name":"Bus 3a: Augametsa => Kevade => Paemurru","from":"Augametsa","to":"Paemurru","network":"Narva LV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":45,"s":[[4638624160,8]]},
+  {"id":14340961,"t":{"ref":"3a","name":"Bus 3a: Augametsa => Paemurru","from":"Augametsa","to":"Paemurru","network":"Narva LV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":39,"s":[[4638624160,8]]},
+  {"id":14340962,"t":{"ref":"3a","name":"Bus 3a: Paemurru => Augametsa (via Gvozdika)","from":"Paemurru","to":"Augametsa","network":"Narva LV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":39,"s":[[4638624159,32]]},
+  {"id":14341122,"t":{"ref":"3b","name":"Bus 3b: Augametsa => Paemurru","from":"Augametsa","to":"Paemurru","network":"Narva LV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":42,"s":[[4638624160,8]]},
+  {"id":14341898,"t":{"ref":"31","name":"Bus 31: Narva-Jõesuu => Sendi","from":"Auga","to":"Sendi","network":"Ida-Viru MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":30,"s":[[3174521709,11],[3174521695,12],[4638625061,13]]},
+  {"id":14341899,"t":{"ref":"31","name":"Bus 31: Narva-Jõesuu => Narva","from":"Auga","to":"Narva","network":"Ida-Viru MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":29,"s":[[3174521709,11],[3174521695,12],[4638625061,13]]},
+  {"id":14341900,"t":{"ref":"31","name":"Bus 31: Sendi => Narva-Jõeusu","from":"Sendi","to":"Auga","network":"Ida-Viru MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":30,"s":[[4638625062,18],[3174521698,19],[3174521711,20]]},
+  {"id":14341901,"t":{"ref":"31","name":"Bus 31: Narva => Narva-Jõesuu","from":"Narva","to":"Auga","network":"Ida-Viru MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":28,"s":[[4638625062,16],[3174521698,17],[3174521711,18]]}
+]
+}

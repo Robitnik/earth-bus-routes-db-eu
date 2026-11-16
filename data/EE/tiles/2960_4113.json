@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"EE",
+"tile":[2960,4113],
+"stops":[
+  {"id":2803995512,"lat":58.011713,"lon":25.696038,"k":"p","n":"Ala"},
+  {"id":2803995533,"lat":58.01211,"lon":25.694356,"k":"p","n":"Ala"},
+  {"id":4632976669,"lat":58.00205,"lon":25.66087,"k":"p","n":"Taagepera metskond"},
+  {"id":4632976670,"lat":58.002112,"lon":25.66098,"k":"p","n":"Taagepera metskond"},
+  {"id":4632980208,"lat":58.029916,"lon":25.651575,"k":"p","n":"Taagepera tee"},
+  {"id":4632980209,"lat":58.030229,"lon":25.651549,"k":"p","n":"Taagepera tee"}
+],
+"routes":[
+  {"id":14345929,"t":{"ref":"101","name":"Bus 101: Valga =>Tallinn","from":"Valga bussijaam","to":"Tallinna Bussijaam","network":"Eesti kaugliinid","operator":"GoBus AS","colour":"#5a0e03","route":"bus","public_transport:version":"2"},"n":21,"s":[[2803995512,9]]},
+  {"id":14345930,"t":{"ref":"101","name":"Bus 101: Tallinn => Valga","from":"Tallinna Bussijaam","to":"Valga bussijaam","network":"Eesti kaugliinid","operator":"GoBus AS","colour":"#5a0e03","route":"bus","public_transport:version":"2"},"n":22,"s":[[2803995533,12]]},
+  {"id":19560680,"t":{"ref":"80","name":"Bus 80: Valga => Viljandi","from":"Valga bussijaam","to":"Viljandi bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":59,"s":[[2803995512,28],[4632980209,29]]},
+  {"id":19560681,"t":{"ref":"80","name":"Bus 80: Viljandi => Valga","from":"Viljandi bussijaam","to":"Valga bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":58,"s":[[4632980208,30],[2803995533,31]]}
+]
+}

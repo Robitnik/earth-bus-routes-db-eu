@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"SI",
+"tile":[2711,3874],
+"stops":[
+  {"id":1686465601,"lat":45.59352,"lon":13.72396,"k":"p","n":"Lazaret meja / Lazzaretto confine"},
+  {"id":1687543907,"lat":45.582123,"lon":13.728221,"k":"p","n":"Valdoltra"},
+  {"id":1687543908,"lat":45.588764,"lon":13.712328,"k":"p","n":"Debeli Rtič / Punta Grossa"},
+  {"id":1687543913,"lat":45.579287,"lon":13.735691,"k":"p","n":"Ankaran t"},
+  {"id":1687543914,"lat":45.582056,"lon":13.728103,"k":"p","n":"Valdoltra"},
+  {"id":1687543916,"lat":45.585673,"lon":13.713436,"k":"p","n":"Debeli Rtič 59"},
+  {"id":1687543918,"lat":45.588724,"lon":13.712195,"k":"p","n":"Debeli Rtič / Punta Grossa"},
+  {"id":1687543920,"lat":45.578592,"lon":13.736584,"k":"p","n":"Ankaran t"},
+  {"id":1687543923,"lat":45.578728,"lon":13.737437,"k":"p","n":"Ankaran šol.p."},
+  {"id":1687543924,"lat":45.585012,"lon":13.71438,"k":"p","n":"Debeli Rtič 59"},
+  {"id":1687550908,"lat":45.571797,"lon":13.747872,"k":"p","n":"Ankaran bol."},
+  {"id":1687550911,"lat":45.571851,"lon":13.748059,"k":"p","n":"Ankaran bol."},
+  {"id":1690320911,"lat":45.594347,"lon":13.746558,"k":"p","n":"Lovran"},
+  {"id":1690320916,"lat":45.590001,"lon":13.749846,"k":"p","n":"Kolomban"},
+  {"id":6834278087,"lat":45.59705,"lon":13.7237,"k":"p","n":"Strada per Lazzaretto (campeggio)"},
+  {"id":6834287385,"lat":45.595185,"lon":13.724258,"k":"p","n":"Lazzaretto"},
+  {"id":9115393116,"lat":45.596445,"lon":13.724048,"k":"p","n":"Strada per Lazzaretto (campeggio)"},
+  {"id":9122751294,"lat":45.599099,"lon":13.748727,"k":"p","n":"Via Vivoda"},
+  {"id":9122751295,"lat":45.598758,"lon":13.743533,"k":"p","n":"Chiampore"},
+  {"id":9122751308,"lat":45.597959,"lon":13.743282,"k":"p","n":"Chiampore"},
+  {"id":9122751309,"lat":45.599093,"lon":13.749281,"k":"p","n":"Via Vivoda"}
+],
+"routes":[
+  {"id":2096464,"t":{"ref":"Kp. - Elerji","name":"Koper - Škofije - Elerji","from":"Koper","to":"Elerji","network":"PPP","operator":"Avtobusni prevozi Rižana","route":"bus","public_transport:version":"1"},"n":24,"s":[[1690320911,12],[1690320916,14]]},
+  {"id":13296683,"t":{"ref":"7","name":"Bus 7: Lazzaretto → Muggia","from":"Lazzaretto","to":"Muggia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[6834287385,1],[9115393116,2]]},
+  {"id":13296684,"t":{"ref":"7","name":"Bus 7: Muggia → Lazzaretto","from":"Muggia","to":"Lazzaretto","network":"TPL FVG","operator":"TPL FVG","route":"bus","bus":"yes"},"n":2,"s":[[6834278087,1],[6834287385,2]]},
+  {"id":13332953,"t":{"ref":"27","name":"Bus 27: Muggia Vecchia → Muggia","from":"Muggia Vecchia","to":"Muggia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1","bus":"yes"},"n":2,"s":[[9122751294,1],[9122751295,2]]},
+  {"id":13332954,"t":{"ref":"27","name":"Bus 27: Muggia → Muggia Vecchia","from":"Muggia","to":"Muggia Vecchia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2","bus":"yes"},"n":2,"s":[[9122751308,1],[9122751309,2]]},
+  {"id":14972520,"t":{"ref":"27","name":"Bus 27: Muggia Vecchia → Muggia → Stazione ferroviaria","from":"Muggia Vecchia","to":"Stazione ferroviaria","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"1"},"n":2,"s":[[9122751294,1],[9122751295,2]]},
+  {"id":14972521,"t":{"ref":"27","name":"Bus 27: Muggia Vecchia → Lazzaretto → Muggia","from":"Muggia Vecchia","to":"Muggia","network":"TPL FVG","operator":"TPL FVG","route":"bus","public_transport:version":"2"},"n":4,"s":[[9122751294,1],[9122751295,2],[6834287385,3],[9115393116,4]]},
+  {"id":14972522,"t":{"ref":"27","name":"Bus 27: Muggia → Lazzaretto → Muggia Vecchia","from":"Muggia","to":"Muggia Vecchia","network":"TPL FVG","operator":"TPL FVG","route":"bus"},"n":4,"s":[[6834278087,1],[6834287385,2],[9122751308,3],[9122751309,4]]},
+  {"id":19587706,"t":{"name":"Bus Koper → Bertoki → Ankaran → Lazaret meja","from":"Koper","to":"Lazaret Meja","network":"Arriva Koper","operator":"Arriva Koper","route":"bus"},"n":13,"s":[[1687550911,8],[1687543913,9],[1687543907,10],[1687543924,11],[1687543908,12],[1686465601,13]]}
+]
+}

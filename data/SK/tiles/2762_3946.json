@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"SK",
+"tile":[2762,3946],
+"stops":[
+  {"id":25315846,"lat":48.148101,"lon":17.338638,"k":"x","n":"Tomášov, Futbalové ihrisko"},
+  {"id":199119256,"lat":48.147308,"lon":17.338029,"k":"x","n":"Tomášov, Futbalové ihrisko"},
+  {"id":2447316428,"lat":48.141631,"lon":17.333936,"k":"x","n":"Tomášov, Centrum"},
+  {"id":3047446762,"lat":48.139799,"lon":17.349417,"k":"x","n":"Tomášov, Rázcestie Vlky"},
+  {"id":3047446769,"lat":48.139878,"lon":17.34999,"k":"x","n":"Tomášov, Rázcestie Vlky"},
+  {"id":3359330273,"lat":48.14731,"lon":17.337925,"k":"p","n":"Tomášov, Futbalové ihrisko"},
+  {"id":3359330274,"lat":48.148087,"lon":17.338726,"k":"p","n":"Tomášov, Futbalové ihrisko"},
+  {"id":9929985862,"lat":48.140169,"lon":17.349945,"k":"x","n":"Tomášov, Rázcestie Vlky"},
+  {"id":9929985865,"lat":48.139852,"lon":17.349398,"k":"p","n":"Tomášov, Rázcestie Vlky"},
+  {"id":10033479779,"lat":48.141711,"lon":17.334019,"k":"p","n":"Tomášov, Centrum"},
+  {"id":10033479780,"lat":48.141529,"lon":17.333884,"k":"p","n":"Tomášov, Centrum"}
+],
+"routes":[
+  {"id":5679329,"t":{"ref":"729","name":"Bus 729: Senec => Veľký Biel => Tomášov","from":"Senec","to":"Tomášov","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":17,"s":[[3359330273,16],[10033479780,17]]},
+  {"id":5679330,"t":{"ref":"729","name":"Bus 729: Tomášov => Veľký Biel => Senec","from":"Tomášov","to":"Senec","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":18,"s":[[10033479780,1],[3359330274,2]]},
+  {"id":5731015,"t":{"ref":"740","name":"Bus 740: Bratislava => Tomášov => Čenkovce => Vojtechovce","from":"Bratislava","to":"Vlky","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":31,"s":[[10033479780,18]]},
+  {"id":5731016,"t":{"ref":"740","name":"Bus 740: Bratislava => Tomášov => Nový Život => Vojtechovce","from":"Bratislava","to":"Vojtechovce","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":32,"s":[[10033479780,18]]},
+  {"id":5731017,"t":{"ref":"740","name":"Bus 740: Vojtechovce => Tomášov => Bratislava","from":"Vojtechovce","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":32,"s":[[9929985865,13],[10033479779,14]]},
+  {"id":5731018,"t":{"ref":"740","name":"Bus 740: Vojtechovce => Tomášov => Nový Život => Bratislava","from":"Vojtechovce","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":34,"s":[[9929985865,15],[10033479779,16]]},
+  {"id":9091596,"t":{"ref":"720","name":"Bus 720: Tomášov, osada => Bratislava","from":"Tomášov","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":23,"s":[[3359330273,3],[10033479779,4]]},
+  {"id":9091597,"t":{"ref":"720","name":"Bus 720: Vlky => Bratislava","from":"Vlky","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":22,"s":[[9929985865,2],[10033479779,3]]},
+  {"id":9091598,"t":{"ref":"720","name":"Bus 720: Bratislava => Tomášov, osada","from":"Bratislava","to":"Tomášov","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":22,"s":[[10033479780,19],[3359330274,20]]},
+  {"id":9091599,"t":{"ref":"720","name":"Bus 720: Bratislava => Vlky","from":"Bratislava","to":"Vlky","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#fabc48","route":"bus","public_transport:version":"2"},"n":21,"s":[[10033479780,19]]},
+  {"id":13434295,"t":{"ref":"798","name":"Bus 798: Bratislava => Nová Dedinka","from":"Bratislava","to":"Nová Dedinka","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#000000","route":"bus","public_transport:version":"2"},"n":27,"s":[[10033479780,22],[3359330274,23]]},
+  {"id":13434296,"t":{"ref":"798","name":"Bus 798: Tomášov => Bratislava","from":"Tomášov","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#000000","route":"bus","public_transport:version":"2"},"n":23,"s":[[10033479779,1]]},
+  {"id":16178583,"t":{"ref":"710","name":"Bus 710: Vlky => Bratislava","from":"Vlky","to":"Bratislava","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":21,"s":[[9929985865,2],[3359330274,3],[3359330273,7],[10033479779,8]]},
+  {"id":16178584,"t":{"ref":"710","name":"Bus 710: Bratislava => Vlky","from":"Bratislava","to":"Vlky","network":"IDS BK","operator":"ARRIVA Mobility Solutions","colour":"#c5c6c6","route":"bus","public_transport:version":"2"},"n":21,"s":[[10033479780,14],[3359330274,15],[3359330273,19]]}
+]
+}

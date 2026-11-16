@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"LV",
+"tile":[2923,4103],
+"stops":[
+  {"id":8838364713,"lat":56.192293,"lon":25.176768,"k":"x","n":"Pilskalne"},
+  {"id":9382836059,"lat":56.192236,"lon":25.176754,"k":"p","n":"Pilskalne"},
+  {"id":9382836804,"lat":56.192409,"lon":25.176064,"k":"p","n":"Pilskalne"},
+  {"id":11476853335,"lat":56.197754,"lon":25.196061,"k":"p","n":"Eglaine"},
+  {"id":11476853336,"lat":56.19772,"lon":25.196213,"k":"p","n":"Eglaine"},
+  {"id":11833774134,"lat":56.197752,"lon":25.19619,"k":"x","n":"Eglaine"},
+  {"id":11833774135,"lat":56.197728,"lon":25.19608,"k":"x","n":"Eglaine"},
+  {"id":11883270455,"lat":56.192353,"lon":25.176047,"k":"x","n":"Pilskalne"}
+],
+"routes":[
+  {"id":16609670,"t":{"ref":"5001","name":"Bus 5001: Pilskalne => Kalpaki => Brūveri => Nereta => Pilkalne","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":13,"s":[[9382836059,1]]},
+  {"id":16609671,"t":{"ref":"5001","name":"Bus 5001: Nereta => Kalpaki => Brūveri => Nereta => Pilskalne","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":11,"s":[[9382836804,11]]},
+  {"id":16915975,"t":{"ref":"5091","name":"Bus 5091: Nereta => Pilskalne","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":6,"s":[[11476853335,5],[9382836804,6]]},
+  {"id":16915976,"t":{"ref":"5091","name":"Bus 5091: Pilskalne => Nereta","operator":"AS \"Liepājas autobusu parks\"","route":"bus","public_transport:version":"2"},"n":6,"s":[[9382836059,1],[11476853336,2]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"HR",
+"tile":[2669,3930],
+"stops":[
+  {"id":60048801,"lat":43.49584,"lon":16.537415,"k":"x","n":"Hotel Lav 1"},
+  {"id":849547663,"lat":43.49581,"lon":16.537348,"k":"p","n":"Hotel Lav 1"},
+  {"id":849547669,"lat":43.495306,"lon":16.538309,"k":"p","n":"Hotel Lav 2"},
+  {"id":2493824983,"lat":43.499816,"lon":16.522525,"k":"x","n":"Stobreč Centar"},
+  {"id":4241261390,"lat":43.48971,"lon":16.542673,"k":"p","n":"Grljevac 1"},
+  {"id":4241267689,"lat":43.48972,"lon":16.543024,"k":"p","n":"Grljevac 2"},
+  {"id":5157126181,"lat":43.487282,"lon":16.546888,"k":"p","n":"Grljevac 4"},
+  {"id":9133102836,"lat":43.487215,"lon":16.546835,"k":"x","n":"Grljevac 4"},
+  {"id":11314864301,"lat":43.499795,"lon":16.52255,"k":"p","n":"Stobreč Centar"},
+  {"id":11328211347,"lat":43.489767,"lon":16.542715,"k":"x","n":"Grljevac 1"},
+  {"id":11328211350,"lat":43.489677,"lon":16.54296,"k":"x","n":"Grljevac 2"},
+  {"id":11328211360,"lat":43.495271,"lon":16.538251,"k":"x","n":"Hotel Lav 2"},
+  {"id":11341001707,"lat":43.486513,"lon":16.547757,"k":"p","n":"Grljevac 3"},
+  {"id":11341001708,"lat":43.486549,"lon":16.547813,"k":"x","n":"Grljevac 3"}
+],
+"routes":[
+  {"id":2050057,"t":{"ref":"25","network":"Promet Split","operator":"Promet Split","route":"bus"},"n":2,"s":[[2493824983,1]]},
+  {"id":14660803,"t":{"ref":"25","name":"Bus 25: Split => Stobreč","from":"Sukoišan Terminal","to":"Stobreč","network":"Promet Split","operator":"Promet Split","route":"bus","public_transport:version":"2"},"n":13,"s":[[2493824983,13]]},
+  {"id":14660804,"t":{"ref":"25","name":"Bus 25: Stobreč => Split","from":"Stobreč","to":"Sukoišan Terminal","route":"bus","public_transport:version":"2"},"n":14,"s":[[2493824983,1]]},
+  {"id":14689376,"t":{"ref":"25","name":"Bus 25: Stobreč => TTTS => Split","from":"Stobreč","to":"Sukoišan Terminal","route":"bus","public_transport:version":"2"},"n":19,"s":[[2493824983,1]]},
+  {"id":14728055,"t":{"ref":"25","name":"Bus 25: Stobreč => Split => Spinut","from":"Stobreč","to":"Studentski dom","route":"bus","public_transport:version":"2"},"n":19,"s":[[2493824983,1]]}
+]
+}

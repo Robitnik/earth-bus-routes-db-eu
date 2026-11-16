@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"DK",
+"tile":[2904,3897],
+"stops":[
+  {"id":1859068361,"lat":55.222782,"lon":14.892478,"k":"p","n":"Helligdommen - Kunstmuseet"},
+  {"id":1859068432,"lat":55.223143,"lon":14.892188,"k":"p","n":"Helligdommen - Kunstmuseet"},
+  {"id":3844585570,"lat":55.214108,"lon":14.892934,"k":"p","n":"Rø"},
+  {"id":3844585571,"lat":55.214181,"lon":14.893251,"k":"p","n":"Rø"},
+  {"id":4370233879,"lat":55.227707,"lon":14.883511,"k":"p","n":"Døndalen (landside)"},
+  {"id":4370233885,"lat":55.228101,"lon":14.882858,"k":"p"},
+  {"id":4370294663,"lat":55.239448,"lon":14.866171,"k":"p","n":"Stammershalle"},
+  {"id":4370294669,"lat":55.239582,"lon":14.865519,"k":"p","n":"Stammershalle"},
+  {"id":5818371530,"lat":55.233811,"lon":14.875508,"k":"p","n":"Sdr. Strandvej of Bådstad"},
+  {"id":6721459002,"lat":55.233443,"lon":14.876174,"k":"p","n":"Sdr. Strandvej v. Bådstad"}
+],
+"routes":[
+  {"id":3615688,"t":{"ref":"7","network":"BAT","operator":"BAT","route":"bus","bus":"7"},"n":29,"s":[[1859068361,25],[5818371530,26],[4370294663,27]]},
+  {"id":3615689,"t":{"ref":"8","network":"BAT","operator":"BAT","route":"bus","bus":"8"},"n":30,"s":[[1859068432,25],[4370233885,26],[6721459002,27],[4370294669,28]]},
+  {"id":5675988,"t":{"ref":"1","name":"Bus 1: Rønne → Gudhjem Øvre","to":"Gudhjem Øvre","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[4370294663,26],[5818371530,27],[4370233879,28],[1859068361,29]]},
+  {"id":5676393,"t":{"ref":"2","name":"Bus 2: Rønne Havn - Hammershus","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[3844585571,14],[1859068432,15],[4370233885,16],[5818371530,17],[6721459002,18],[4370294663,19],[4370294669,20]]},
+  {"id":13334967,"t":{"ref":"1","name":"Bus 1: Gudhjem Øvre → Rønne","from":"Gudhjem Øvre","to":"Rønne","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":30,"s":[[1859068432,2],[4370233885,3],[6721459002,4],[4370294669,5]]},
+  {"id":20270053,"t":{"ref":"2","name":"Bus 2: Hammershus - Rønne Havn","network":"BAT","operator":"BAT","route":"bus","public_transport:version":"2"},"n":31,"s":[[4370294669,11],[4370294663,12],[6721459002,13],[5818371530,14],[4370233879,15],[4370233885,16],[1859068361,17],[3844585570,18]]}
+]
+}

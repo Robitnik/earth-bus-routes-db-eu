@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"EE",
+"tile":[2960,4118],
+"stops":[
+  {"id":4632979062,"lat":58.005945,"lon":25.930015,"k":"p","n":"Gümnaasium","ref":"8200068-1"},
+  {"id":4632980839,"lat":58.005924,"lon":25.929539,"k":"p","n":"Gümnaasium","ref":"8200067-1"},
+  {"id":9882125480,"lat":58.002114,"lon":25.922043,"k":"p","n":"Tõrva","ref":"8200671-1"},
+  {"id":13076067333,"lat":58.002098,"lon":25.921924,"k":"x","n":"Tõrva","ref":"8200670-1"},
+  {"id":13076067334,"lat":58.002082,"lon":25.922024,"k":"x","n":"Tõrva","ref":"8200671-1"},
+  {"id":13076067335,"lat":58.002065,"lon":25.922136,"k":"x","n":"Tõrva","ref":"8200672-1"},
+  {"id":13076067336,"lat":58.002132,"lon":25.921942,"k":"p","n":"Tõrva","ref":"8200670-1"},
+  {"id":13076067337,"lat":58.002099,"lon":25.922155,"k":"p","n":"Tõrva","ref":"8200672-1"},
+  {"id":13116402428,"lat":58.00678,"lon":25.913948,"k":"p","n":"Tikste","ref":"8200838-1"},
+  {"id":13116402432,"lat":58.006803,"lon":25.913964,"k":"x","n":"Tikste","ref":"8200838-1"},
+  {"id":13116402441,"lat":58.007594,"lon":25.911973,"k":"p","n":"Tikste","ref":"8200837-1"},
+  {"id":13116402466,"lat":58.007582,"lon":25.911918,"k":"x","n":"Tikste","ref":"8200837-1"},
+  {"id":13633834222,"lat":58.005907,"lon":25.929561,"k":"x","n":"Gümnaasium","ref":"8200067-1"},
+  {"id":13633834223,"lat":58.005991,"lon":25.929973,"k":"x","n":"Gümnaasium","ref":"8200068-1"}
+],
+"routes":[
+  {"id":14345929,"t":{"ref":"101","name":"Bus 101: Valga =>Tallinn","from":"Valga bussijaam","to":"Tallinna Bussijaam","network":"Eesti kaugliinid","operator":"GoBus AS","colour":"#5a0e03","route":"bus","public_transport:version":"2"},"n":21,"s":[[9882125480,5]]},
+  {"id":14345930,"t":{"ref":"101","name":"Bus 101: Tallinn => Valga","from":"Tallinna Bussijaam","to":"Valga bussijaam","network":"Eesti kaugliinid","operator":"GoBus AS","colour":"#5a0e03","route":"bus","public_transport:version":"2"},"n":22,"s":[[9882125480,16]]},
+  {"id":19472159,"t":{"ref":"313","name":"Bus 313: Tõrva => Tartu","from":"Tõrva","to":"Tartu bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":31,"s":[[13076067337,1]]},
+  {"id":19472160,"t":{"ref":"313","name":"Bus 313: Tartu => Tõrva","from":"Tartu bussijaam","to":"Tõrva","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":30,"s":[[9882125480,30]]},
+  {"id":19560680,"t":{"ref":"80","name":"Bus 80: Valga => Viljandi","from":"Valga bussijaam","to":"Viljandi bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":59,"s":[[9882125480,21],[13116402441,22]]},
+  {"id":19560681,"t":{"ref":"80","name":"Bus 80: Viljandi => Valga","from":"Viljandi bussijaam","to":"Valga bussijaam","network":"Valga MV","operator":"GoBus AS","route":"bus","public_transport:version":"2"},"n":58,"s":[[13116402428,37],[9882125480,38]]}
+]
+}

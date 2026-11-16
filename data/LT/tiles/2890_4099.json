@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"LT",
+"tile":[2890,4099],
+"stops":[
+  {"id":3792983399,"lat":54.501941,"lon":24.989945,"k":"p","n":"Paluknys"},
+  {"id":3792983401,"lat":54.501628,"lon":24.989615,"k":"p","n":"Paluknys"},
+  {"id":3794437420,"lat":54.531731,"lon":24.986379,"k":"p","n":"Rūdiškių kryžkelė"},
+  {"id":3794437436,"lat":54.532822,"lon":24.987912,"k":"p","n":"Rūdiškių kryžkelė"},
+  {"id":3805445907,"lat":54.503566,"lon":24.9846,"k":"p","n":"Paluknys"},
+  {"id":3805548269,"lat":54.5012,"lon":24.984447,"k":"p","n":"Paluknys II"},
+  {"id":12598773780,"lat":54.503563,"lon":24.984498,"k":"x"},
+  {"id":12598773781,"lat":54.503193,"lon":24.984521,"k":"x"},
+  {"id":12598773784,"lat":54.503193,"lon":24.98443,"k":"p","n":"Paluknys"}
+],
+"routes":[
+  {"id":18722827,"t":{"ref":"298","name":"Bus 298: Mamavys => Paluknys","from":"Mamavys","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":4,"s":[[3805445907,4]]},
+  {"id":18722828,"t":{"ref":"298","name":"Bus 298: Paluknys => Mamavys","from":"Paluknys","to":"Mamavys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":4,"s":[[12598773784,1]]},
+  {"id":18722830,"t":{"ref":"280","name":"Bus 280: Paluknys => Strakiškės => Trakai","from":"Paluknys","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":14,"s":[[3805445907,1],[3794437436,2]]},
+  {"id":18722831,"t":{"ref":"280","name":"Bus 280: Paluknys => Trakai","from":"Paluknys","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":14,"s":[[3805445907,1],[3794437436,2]]},
+  {"id":18722832,"t":{"ref":"280","name":"Bus 280: Trakai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":14,"s":[[3794437420,13],[12598773784,14]]},
+  {"id":18722833,"t":{"ref":"280","name":"Bus 280: Trakai => Strakiškės, Šventininkai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":15,"s":[[3794437420,14],[12598773784,15]]},
+  {"id":18722834,"t":{"ref":"280","name":"Bus 280: Trakai => Strakiškės => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":14,"s":[[3794437420,13],[12598773784,14]]},
+  {"id":18722838,"t":{"ref":"286","name":"Bus 286: Trakai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":17,"s":[[3794437420,16],[12598773784,17]]},
+  {"id":18722839,"t":{"ref":"268","name":"Bus 268: Paluknys => Trakai","from":"Paluknys","to":"Trakų autobusų stotis","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":23,"s":[[3805445907,1],[3794437436,2]]},
+  {"id":18722840,"t":{"ref":"268","name":"Bus 268: Trakai => Paluknys","from":"Trakų autobusų stotis","to":"Paluknys","network":"Trakų rajono savivaldybė","operator":"Trakų paslaugos","route":"bus","public_transport:version":"2"},"n":23,"s":[[3794437420,22],[12598773784,23]]}
+]
+}

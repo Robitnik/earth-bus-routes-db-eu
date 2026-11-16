@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"RO",
+"tile":[2713,4114],
+"stops":[
+  {"id":4509244820,"lat":45.654281,"lon":25.703835,"k":"x","n":"Izvorului 1"},
+  {"id":4509244846,"lat":45.670837,"lon":25.704218,"k":"x","n":"Izvor Cap Linie"},
+  {"id":9164143090,"lat":45.651253,"lon":25.703691,"k":"p","n":"Izvorului"},
+  {"id":9164143091,"lat":45.654271,"lon":25.703855,"k":"p","n":"Izvorului 1"},
+  {"id":9164143092,"lat":45.659599,"lon":25.703449,"k":"p","n":"Izvorului 2"},
+  {"id":9164143093,"lat":45.663887,"lon":25.703774,"k":"p","n":"Izvorului 3"},
+  {"id":9164143097,"lat":45.670824,"lon":25.704262,"k":"p","n":"Izvor Cap Linie"},
+  {"id":9164260788,"lat":45.659084,"lon":25.708737,"k":"p","n":"Hărmanului 1"},
+  {"id":9164260789,"lat":45.654511,"lon":25.710006,"k":"p","n":"Hărmanului 2"},
+  {"id":9164260790,"lat":45.651218,"lon":25.703704,"k":"x","n":"Izvorului"},
+  {"id":9164260791,"lat":45.659593,"lon":25.703394,"k":"x","n":"Izvorului 2"},
+  {"id":9164260794,"lat":45.659104,"lon":25.708783,"k":"x","n":"Hărmanului 1"},
+  {"id":9164260795,"lat":45.654532,"lon":25.710077,"k":"x","n":"Hărmanului 2"},
+  {"id":9168992171,"lat":45.651229,"lon":25.704904,"k":"p","n":"Izvorului"},
+  {"id":9215921853,"lat":45.651314,"lon":25.704889,"k":"x","n":"Izvorului"},
+  {"id":11817868370,"lat":45.664924,"lon":25.707182,"k":"x","n":"Hărmanului"},
+  {"id":11817868371,"lat":45.664897,"lon":25.707117,"k":"p","n":"Hărmanului"},
+  {"id":12055347884,"lat":45.663899,"lon":25.703733,"k":"x","n":"Izvorului 3"}
+],
+"routes":[
+  {"id":5390299,"t":{"ref":"34B","name":"34B: Livada Poștei => Izvor","from":"Livada Poștei","to":"Izvor Cap Linie","network":"RAT Brașov","operator":"RAT Brașov","colour":"#eebae1","route":"bus","public_transport:version":"2"},"n":15,"s":[[9164143091,12],[9164143092,13],[9164143093,14],[9164143097,15]]},
+  {"id":5390300,"t":{"ref":"34B","name":"34B: Izvor => Livada Poștei","from":"Izvor Cap Linie","to":"Livada Poștei","network":"RAT Brașov","operator":"RAT Brașov","colour":"#eebae1","route":"bus","public_transport:version":"2"},"n":17,"s":[[9164143097,1],[11817868371,2],[9164260788,3],[9164260789,4],[9164143090,5]]},
+  {"id":13393575,"t":{"ref":"610","name":"610: Roman => Cap Linie Purcăreni","from":"Roman","to":"Cap Linie Purcăreni","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":20,"s":[[9168992171,11]]},
+  {"id":13393576,"t":{"ref":"610","name":"610: Cap Linie Purcăreni => Roman","from":"Cap Linie Purcăreni","to":"Roman","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":19,"s":[[9164143090,8]]},
+  {"id":13393597,"t":{"ref":"610","name":"610: Roman => Cap Linie Tărlungeni => Cap Linie Purcăreni","from":"Roman","to":"Cap Linie Purcăreni","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":27,"s":[[9168992171,11]]},
+  {"id":13393598,"t":{"ref":"610","name":"610: Cap Linie Purcăreni => Cap Linie Tărlungeni => Roman","from":"Cap Linie Purcăreni","to":"Roman","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":26,"s":[[9164143090,15]]},
+  {"id":13393664,"t":{"ref":"611---","name":"611---: Roman => Cap Linie Tărlungeni","from":"Roman","to":"Cap Linie Tărlungeni","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":23,"s":[[9168992171,11]]},
+  {"id":13393665,"t":{"ref":"611---","name":"611---: Cap Linie Tărlungeni => Roman","from":"Cap Linie Tărlungeni","to":"Roman","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":23,"s":[[9164143090,12]]},
+  {"id":13393856,"t":{"ref":"612","name":"612: Roman => Cap Linie Purcăreni","from":"Roman","to":"Cap Linie Purcăreni","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":32,"s":[[9168992171,11]]},
+  {"id":13393857,"t":{"ref":"612","name":"612: Cap Linie Purcăreni => Roman","from":"Cap Linie Purcăreni","to":"Roman","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":19,"s":[[9164143090,8]]},
+  {"id":17132991,"t":{"ref":"620","name":"620: Cap Linie Budila => Gemenii","from":"Cap Linie Budila","to":"Gemenii","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":12,"s":[[9164143090,7]]},
+  {"id":17132992,"t":{"ref":"620","name":"620: Gemenii => Cap Linie Budila","from":"Gemenii","to":"Cap Linie Budila","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":12,"s":[[9168992171,6]]},
+  {"id":20671360,"t":{"ref":"611","name":"611: Gemenii => Cap Linie Tărlungeni","from":"Gemenii","to":"Cap Linie Tărlungeni","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":13,"s":[[9168992171,6]]},
+  {"id":20671361,"t":{"ref":"611","name":"611: Gemenii => Cărpiniș => Cap Linie Tărlungeni","from":"Gemenii","to":"Cap Linie Tărlungeni","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":18,"s":[[9168992171,6]]},
+  {"id":20671362,"t":{"ref":"611","name":"611: Cap Linie Tărlungeni => Gemenii","from":"Cap Linie Tărlungeni","to":"Gemenii","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":14,"s":[[9164143090,8]]},
+  {"id":20671363,"t":{"ref":"611","name":"611: Cap Linie Tărlungeni => Cărpiniș => Gemenii","from":"Cap Linie Tărlungeni","to":"Gemenii","network":"RAT Brașov","operator":"RAT Brașov","colour":"#4ea74b","route":"bus","public_transport:version":"2"},"n":18,"s":[[9164143090,12]]}
+]
+}
