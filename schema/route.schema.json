@@ -8,7 +8,7 @@
   "properties": {
     "v": {"const": 1},
     "id": {"type": "integer", "minimum": 1, "description": "OSM relation id, or 3e12 + a stable hash for a line made from a timetable / by hand"},
-    "cc": {"type": "string", "pattern": "^[A-Z]{2}$"},
+    "cc": {"type": "string", "pattern": "^[A-Z]{2}(-[A-Z]{2})?$"},
     "mode": {"enum": ["bus", "trolleybus", "minibus", "share_taxi"]},
     "t": {
       "type": "object",

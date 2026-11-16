@@ -37,8 +37,8 @@ def decode(text):
     return pts
 
 
-def simplify(points, tol_m):
-    """Douglas-Peucker on a local flat projection (iterative); the ends are always kept."""
+def simplify_py(points, tol_m):
+    """Douglas-Peucker on a local flat projection (iterative, pure Python); the ends are always kept."""
     n = len(points)
     if n < 3:
         return list(points)
@@ -67,6 +67,32 @@ def simplify(points, tol_m):
             keep[k] = True
             stack += [(i, k), (k, j)]
     return [p for p, f in zip(points, keep) if f]
+
+
+def simplify(points, tol_m):
+    """Douglas-Peucker with GEOS (shapely) in a local flat frame: about 100 times faster than simplify_py on a country's ways.
+    A closed way is done in two halves (GEOS would collapse a ring). Falls back to the Python version without shapely."""
+    n = len(points)
+    if n < 3:
+        return list(points)
+    try:
+        from shapely.geometry import LineString
+    except ImportError:
+        return simplify_py(points, tol_m)
+    lat0 = points[0][0]
+    kx, ky = 111320 * math.cos(math.radians(lat0)), 110574
+
+    def one(part):
+        if len(part) < 3:
+            return list(part)
+        ls = LineString([(p[1] * kx, p[0] * ky) for p in part]).simplify(tol_m, preserve_topology=False)
+        out = [(y / ky, x / kx) for x, y in ls.coords]
+        out[0], out[-1] = tuple(part[0]), tuple(part[-1])                    # the ends exactly as they were
+        return out
+    if tuple(points[0]) == tuple(points[-1]) and n > 3:
+        mid = n // 2
+        return one(points[:mid + 1])[:-1] + one(points[mid:])
+    return one(points)
 
 
 def hav(a, b):

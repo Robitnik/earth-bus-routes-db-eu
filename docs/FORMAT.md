@@ -6,9 +6,10 @@ Every file is UTF-8 JSON with LF line endings. The schemas are in [`schema/`](..
 ## Layout
 
 ```
-manifest.json                       what is in the database: per country the number of lines and stops, the tiles, the build date, the sources
+manifest.json                       what is in the database: per country (`CZ`, a US state `US-AL`) the number of lines, stops and tiles, the bounding box, the build date, the sources
 data/<CC>/routes/<xxx>/<id>.json    one line going one way; <xxx> = id % 1000 (so a folder holds a thousand files at most)
-data/<CC>/tiles/<ty>_<tx>.json      the stops and the lines calling at them in one tile (0.1 x 0.1 degrees)
+data/<CC>/index.json                the names of the tiles that exist (the service asks it once per country)
+data/<CC>/tiles/<ty>_<tx>.json      the stops and the lines calling at them in one tile (0.05 x 0.05 degrees)
 edits/<CC>/...                      the hand-made layer (see below)
 sources/feeds.json                  the timetable feeds the builder may use, with their licences
 ```
@@ -17,7 +18,7 @@ sources/feeds.json                  the timetable feeds the builder may use, wit
 
 ## A tile
 
-`ty = floor((lat + 90) / 0.1)`, `tx = floor((lon + 180) / 0.1)`. The file name is `<ty>_<tx>.json`.
+`ty = floor((lat + 90) / 0.05)`, `tx = floor((lon + 180) / 0.05)`. The file name is `<ty>_<tx>.json`.
 
 ```json
 {

@@ -62,6 +62,12 @@ def validate(root, ccs=None, limit=20):
         e = manifest["countries"][cc]
         if e["routes"] != len(line_ids):
             err(f"{cc}: manifest says {e['routes']} lines, found {len(line_ids)}")
+        idx = base / "index.json"
+        names = sorted(f.stem for f in (base / "tiles").glob("*.json"))
+        if not idx.exists() or sorted(json.loads(idx.read_text(encoding="utf-8"))["tiles"]) != names:
+            err(f"{cc}: index.json does not list the tiles that are there")
+        if e.get("tile_count", len(names)) != len(names):
+            err(f"{cc}: manifest says {e['tile_count']} tiles, found {len(names)}")
     return errors
 
 

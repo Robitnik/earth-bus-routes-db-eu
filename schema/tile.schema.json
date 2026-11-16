@@ -1,15 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/Robitnik/earth-bus-routes-db-eu/schema/tile.schema.json",
-  "title": "ebr-route/1: a tile of 0.1 x 0.1 degrees: its stops and the lines calling at them",
+  "title": "ebr-route/1: a tile of 0.05 x 0.05 degrees: its stops and the lines calling at them",
   "type": "object",
   "required": ["v", "cc", "tile", "stops", "routes"],
   "additionalProperties": false,
   "properties": {
     "v": {"const": 1},
-    "cc": {"type": "string", "pattern": "^[A-Z]{2}$"},
+    "cc": {"type": "string", "pattern": "^[A-Z]{2}(-[A-Z]{2})?$"},
     "tile": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 2, "maxItems": 2,
-             "description": "[floor((lat + 90) / 0.1), floor((lon + 180) / 0.1)]"},
+             "description": "[floor((lat + 90) / 0.05), floor((lon + 180) / 0.05)]"},
     "stops": {
       "type": "array",
       "items": {

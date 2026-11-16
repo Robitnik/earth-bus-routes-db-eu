@@ -8,7 +8,7 @@ import shutil
 
 from . import ids
 
-TILE_DEG = 0.1
+TILE_DEG = 0.05                     # a tile is about 3.5 x 5.5 km: a dense city centre is still a small file
 SCHEMA = 1
 
 
@@ -98,8 +98,11 @@ def write(out_dir, cc, records, stops, sources, built):
         (root / "tiles" / f"{name}.json").write_text("{\n" + ",\n".join(lines) + "\n}\n", encoding="utf-8", newline="\n")
     la = [s["lat"] for s in stops.values()]
     lo = [s["lon"] for s in stops.values()]
-    return {"routes": len(records), "stops": len(stops), "tiles": names, "tile_deg": TILE_DEG,
-            "bbox": [min(la), min(lo), max(la), max(lo)] if la else None, "sources": sources, "built": built}
+    (root / "index.json").write_text(json.dumps({"v": SCHEMA, "cc": cc, "tile_deg": TILE_DEG, "tiles": names}, separators=(",", ":")) + "\n",
+                                     encoding="utf-8", newline="\n")
+    return {"routes": len(records), "stops": len(stops), "tile_count": len(names), "tile_deg": TILE_DEG, "index": f"data/{cc}/index.json",
+            "bbox": [round(min(la), 3), round(min(lo), 3), round(max(la), 3), round(max(lo), 3)] if la else None,
+            "sources": sources, "built": built}
 
 
 def write_manifest(out_dir, countries):

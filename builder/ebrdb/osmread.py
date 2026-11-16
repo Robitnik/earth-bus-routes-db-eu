@@ -65,9 +65,20 @@ def way_tags(tags):
     return t
 
 
-def read_pbf(path, progress=None):
-    """-> (relations, stops): relations = {id: {tags, members}} of bus routes; stops = {id: stop entry} (all the bus stops of the
-    file, plus any node a route lists as a stop); each route's ways (polyline) are under relations[id]['ways']."""
+STOP_TAGS = (("highway", "bus_stop"), ("public_transport", "platform"), ("public_transport", "stop_position"),
+             ("amenity", "bus_station"), ("public_transport", "station"))
+NODE_KEYS = ("name", "ref", "request_stop", "public_transport", "highway", "amenity", "bus", "trolleybus")
+WAY_KEYS = NODE_KEYS + ("maxspeed", "maxspeed:forward", "maxspeed:backward", "zone:maxspeed", "maxspeed:type")
+
+
+def read_pbf(path, progress=None, shape_tol=None):
+    """-> (relations, nodes, ways, stops) of a country's .pbf: relations = {id: {tags, members}} of bus routes; nodes = the nodes they
+    list ({id: (lat, lon, tags)}); ways = their ways ({id: (points, tags)}, points already simplified to `shape_tol` metres
+    when given); stops = {id: stop entry} of every bus stop of the map.
+
+    Four passes, the last three with the filtering done by osmium in C++ (a country has hundreds of millions of objects: a
+    Python loop over all of them takes half an hour, over the few wanted ones a few minutes):
+      1 the route relations   2 their ways (with the places of their nodes)   3 the nodes they list   4 every node tagged as a stop."""
     import osmium
     say = progress or (lambda *_: None)
     rels = {}
@@ -84,45 +95,36 @@ def read_pbf(path, progress=None):
                 want_n.add(ref)
             elif role in WAY_ROLES or role.startswith("platform"):
                 want_w.add(ref)
-    ways, nodes, stops = {}, {}, {}
-    count = 0
-    fp = osmium.FileProcessor(path, osmium.osm.NODE | osmium.osm.WAY).with_locations()
+
+    ways = {}
+    fp = osmium.FileProcessor(path, osmium.osm.NODE | osmium.osm.WAY).with_locations().with_filter(osmium.filter.IdFilter(want_w))
     for o in fp:
-        count += 1
-        if o.is_node():
+        if not o.is_way():                                   # (the filter works on ids: a node with the id of a wanted way passes)
+            continue
+        try:
+            pts = [(n.lat, n.lon) for n in o.nodes]
+        except osmium.InvalidLocationError:
+            continue
+        if len(pts) < 2:
+            continue
+        if shape_tol:
+            pts = poly.simplify(pts, shape_tol)
+        tg = o.tags
+        ways[o.id] = (pts, {k: tg[k] for k in WAY_KEYS if k in tg})
+    say(f"route ways: {len(ways)}")
+
+    nodes, stops = {}, {}
+    for flt in (osmium.filter.IdFilter(want_n), osmium.filter.TagFilter(*STOP_TAGS)):
+        for o in osmium.FileProcessor(path, osmium.osm.NODE).with_filter(flt):
+            if not o.is_node() or not o.location.valid():
+                continue
             tg = o.tags
-            keep = o.id in want_n
-            if not keep and len(tg) == 0:
-                continue
-            if not o.location.valid():
-                continue
+            if o.id in want_n:
+                nodes[o.id] = (o.location.lat, o.location.lon, {k: tg[k] for k in NODE_KEYS if k in tg})
             kind = is_bus_stop(tg)
             if kind:
                 stops[o.id] = stop_entry(o.id, o.location.lat, o.location.lon, tg, kind)
-            if keep:
-                nodes[o.id] = (o.location.lat, o.location.lon, {k: tg[k] for k in ("name", "ref", "request_stop", "public_transport",
-                                                                                  "highway", "amenity", "bus", "trolleybus") if k in tg})
-        else:
-            tg = o.tags
-            station = len(tg) and is_bus_stop(tg)
-            if o.id not in want_w and not station:
-                continue
-            try:
-                pts = [(n.lat, n.lon) for n in o.nodes]
-            except osmium.InvalidLocationError:
-                continue
-            if len(pts) < 2:
-                continue
-            ways[o.id] = (pts, {k: tg[k] for k in ("name", "ref", "request_stop", "public_transport", "highway", "amenity", "bus",
-                                                 "trolleybus", "maxspeed", "maxspeed:forward", "maxspeed:backward", "zone:maxspeed",
-                                                 "maxspeed:type") if k in tg})
-            if station:
-                la = [p[0] for p in pts]
-                lo = [p[1] for p in pts]
-                stops[ids.way_stop_id(o.id)] = stop_entry(ids.way_stop_id(o.id), (min(la) + max(la)) / 2, (min(lo) + max(lo)) / 2, tg, station)
-        if count % 5000000 == 0:
-            say(f"objects: {count // 1000000} M")
-    say(f"stops: {len(stops)}, route ways: {len(ways)}")
+    say(f"stops: {len(stops)}, listed nodes: {len(nodes)}")
     return rels, nodes, ways, stops
 
 
