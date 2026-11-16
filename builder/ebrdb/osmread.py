@@ -82,7 +82,8 @@ def read_pbf(path, progress=None, shape_tol=None):
     import osmium
     say = progress or (lambda *_: None)
     rels = {}
-    for r in osmium.FileProcessor(path, osmium.osm.RELATION):
+    route_filter = osmium.filter.TagFilter(*[("route", m) for m in MODES])                  # (the rest never reaches Python)
+    for r in osmium.FileProcessor(path, osmium.osm.RELATION).with_filter(route_filter):
         tg = r.tags
         if tg.get("type") == "route" and tg.get("route") in MODES:
             rels[r.id] = {"tags": {k: tg[k] for k in ROUTE_TAGS if tg.get(k)},

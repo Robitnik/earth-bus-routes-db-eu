@@ -140,6 +140,36 @@ class GtfsTests(unittest.TestCase):
         self.assertEqual(line["times"]["wd"], [360, 480])
         self.assertEqual(rep["same_stops_joined"], 1)
 
+    def line_ids(self, patterns):
+        recs, stops = self.build()
+        out, _ = gtfsmerge.merge(recs, stops, patterns, "t", "CZ")
+        return sorted(r["id"] for r in out if r["t"].get("ref") == "99")
+
+    def test_id_stays_when_a_stop_is_added_or_the_feed_renumbers_its_stops(self):
+        P = [(50.5, 17.0), (50.5, 17.01), (50.5, 17.02), (50.5, 17.03)]
+        before = self.line_ids([pattern("99", [P[0], P[1], P[3]], ["X", "Y", "Z"], [0, 100, 200])])
+        after = pattern("99", P, ["X", "Y", "W", "Z"], [0, 60, 120, 200])           # a stop added in the middle
+        for i, s in enumerate(after["stops"]):
+            s["sid"] = f"renumbered{i}"
+        self.assertEqual(len(before), 1)
+        self.assertEqual(before, self.line_ids([after]))
+
+    def test_two_directions_of_a_loop_have_two_ids(self):
+        P = [(50.5, 17.0), (50.5, 17.01), (50.5, 17.02)]
+        there = pattern("99", [P[0], P[1], P[2], P[0]], ["X", "Y", "Z", "X"], [0, 60, 120, 180])
+        back = pattern("99", [P[0], P[2], P[1], P[0]], ["X", "Z", "Y", "X"], [0, 60, 120, 180])
+        back["pid"] = 2
+        self.assertEqual(len(self.line_ids([there, back])), 2)
+
+    def test_ways_with_the_same_ends_but_other_stops_between_stay_two_lines(self):
+        P = [(50.5, 17.0), (50.5, 17.01), (50.5, 17.02), (50.5, 17.03)]
+        a = pattern("99", [P[0], P[1], P[3]], ["X", "Y", "Z"], [0, 100, 200])
+        b = pattern("99", [P[0], P[2], P[3]], ["X", "Y", "Z"], [0, 100, 200])      # the same ends and names, another middle stop
+        b["pid"] = 2
+        b["stops"][1]["sid"] = "other"
+        self.assertEqual(len(self.line_ids([a, b])), 2)
+        self.assertEqual(self.line_ids([a, b]), self.line_ids([b, a]))
+
     def test_nameless_stop_takes_the_name_of_the_timetable(self):
         recs, stops = self.build()
         del stops[2]["n"]
@@ -160,12 +190,21 @@ class GtfsTests(unittest.TestCase):
             db.execute("INSERT INTO patterns VALUES (2,'8','8: A - B','Op','',2,'a,b','0,300',1)")      # too few trips
             db.execute("INSERT INTO deps VALUES (1, 21600, 16383),(1, 25200, 16383)")                      # 06:00, 07:00 every day
             db.execute("INSERT INTO meta VALUES ('today','20261111'),('days','28'),('schema','2')")
+            # a feed that gives no place for some stops (0, 0): they are left out of a line, with their times; a line left with one stop goes
+            db.execute("INSERT INTO stops VALUES ('z','Nowhere','nowhere',0.0,0.0,'9'),('c','Gamma','gamma',50.0,16.02,'9')")
+            db.execute("INSERT INTO patterns VALUES (3,'9','9: A - C','Op','',3,'a,z,c','0,100,300',20)")
+            db.execute("INSERT INTO patterns VALUES (4,'10','10: A - Z','Op','',2,'a,z','0,300',20)")
+            db.execute("INSERT INTO deps VALUES (3, 21600, 16383),(4, 21600, 16383)")
             db.commit()
             db.close()
             pats = gtfsmerge.read_patterns(db_path, 4)
+        by_ref = {p["ref"]: p for p in pats}
+        self.assertEqual(sorted(by_ref), ["7", "9"])
+        pats = [by_ref["7"]]
         self.assertEqual(len(pats), 1)
         self.assertEqual(pats[0]["times"], {"wd": [360, 420], "sa": [360, 420], "su": [360, 420]})
         self.assertEqual(pats[0]["stops"][1]["off"], 300)
+        self.assertEqual([(x["name"], x["off"]) for x in by_ref["9"]["stops"]], [("Alpha", 0), ("Gamma", 300)])
 
 
 class EditTests(unittest.TestCase):

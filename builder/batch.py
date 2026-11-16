@@ -34,11 +34,12 @@ def log_to(work, cc):
     return log
 
 
-def run_one(cc, gid, root, work, catalog, geofabrik, manual):
+def run_one(cc, gid, root, work, catalog, geofabrik, manual, feed_workers=1):
     """In a worker process. Returns (cc, result dict or None, error text)."""
     log = log_to(work, cc)
     try:
-        return cc, pipeline.build_extract(cc, gid, root, work, catalog, geofabrik, manual, log=log, wait_for_pbf=True), ""
+        return cc, pipeline.build_extract(cc, gid, root, work, catalog, geofabrik, manual, log=log, wait_for_pbf=True,
+                                          feed_workers=feed_workers), ""
     except Exception:
         log(traceback.format_exc())
         return cc, None, traceback.format_exc().splitlines()[-1]
@@ -90,7 +91,8 @@ def main(argv=None):
     ap.add_argument("--group", default="eu", choices=["eu", "us", "all", "extra"])
     ap.add_argument("--only", help="comma separated codes (CZ,US-AL), instead of --group")
     ap.add_argument("--skip-done", action="store_true")
-    ap.add_argument("--jobs", type=int, default=3)
+    ap.add_argument("--jobs", type=int, default=3, help="extracts built at once")
+    ap.add_argument("--feed-workers", type=int, default=4, help="processes that index and read the timetable feeds of one extract")
     ap.add_argument("--out", default=str(HERE.parent))
     ap.add_argument("--work", default=str(HERE.parent / "work"))
     a = ap.parse_args(argv)
@@ -124,7 +126,7 @@ def main(argv=None):
         if group:
             downloader(group, geofabrik, work, a.jobs + 6 if threads > 1 else a.jobs + 3, stop, threads)
     with cf.ProcessPoolExecutor(max_workers=a.jobs) as ex:
-        futs = [ex.submit(run_one, cc, gid, str(root), str(work), str(catalog), str(geofabrik), manual) for cc, gid in todo.items()]
+        futs = [ex.submit(run_one, cc, gid, str(root), str(work), str(catalog), str(geofabrik), manual, a.feed_workers) for cc, gid in todo.items()]
         for fu in cf.as_completed(futs):
             cc, res, err = fu.result()
             if res is None:

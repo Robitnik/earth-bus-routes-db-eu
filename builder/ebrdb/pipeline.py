@@ -1,6 +1,7 @@
 """One extract from start to end: download the .pbf, make sure its timetable feeds are indexed, build, write, clean up.
 
 Run in worker processes by batch.py (everything here is module level and takes plain arguments)."""
+import concurrent.futures as cf
 import datetime
 import json
 import os
@@ -55,6 +56,26 @@ def index_feed(feed, work, today):
     return json.loads(note.read_text(encoding="utf-8"))
 
 
+_FEED_WORKER = {}
+
+
+def _feed_worker_init(geofabrik_path, gid):
+    gf = regions.Geofabrik(geofabrik_path)
+    _FEED_WORKER["inside"] = regions.inside_test(gf.polygon(gid))
+
+
+def _feed_job(feed, work, today):
+    """In a worker process: index a feed and read its patterns inside the extract. -> (index result, patterns or None)."""
+    res = index_feed(feed, pathlib.Path(work), today)
+    pats = None
+    if res.get("ok"):
+        pats = gtfsmerge.read_patterns(feeds.feed_path(pathlib.Path(work), feed), inside=_FEED_WORKER["inside"], feed=feed["id"], lic=feed["license"])
+    return res, pats
+
+
+FEED_POOL_MIN = 6                  # fewer feeds than this are done one after another
+
+
 def _geofabrik_date():
     """YYMMDD of Geofabrik's latest extracts (read from where the redirect of a small extract goes)."""
     import urllib.request
@@ -99,7 +120,7 @@ def pbf_path(work, gid):
     return pathlib.Path(work) / "src" / (gid.replace("/", "_") + ".osm.pbf")
 
 
-def build_extract(cc, gid, root, work, catalog_path, geofabrik_path, manual_feeds, keep_pbf=False, log=print, wait_for_pbf=False):
+def build_extract(cc, gid, root, work, catalog_path, geofabrik_path, manual_feeds, keep_pbf=False, log=print, wait_for_pbf=False, feed_workers=1):
     """Builds data/<cc>/ of the database in `root`. Returns the entry for manifest.json (plus the build report under "report")."""
     t0 = time.time()
     root, work = pathlib.Path(root), pathlib.Path(work)
@@ -128,24 +149,35 @@ def build_extract(cc, gid, root, work, catalog_path, geofabrik_path, manual_feed
         else:
             n = download_pbf(gf, gid, work, cc)
             say(f"downloaded {n / 1e6:.0f} MB")
+    today = datetime.date.today()
+    # the feeds are indexed and read by other processes while this one reads the map (the biggest countries have hundreds)
+    pool, futures = None, {}
+    if feed_workers > 1 and len(allowed) >= FEED_POOL_MIN:
+        pool = cf.ProcessPoolExecutor(max_workers=min(feed_workers, len(allowed)), initializer=_feed_worker_init,
+                                      initargs=(str(geofabrik_path), gid))
+        futures = {f["id"]: pool.submit(_feed_job, f, str(work), today) for f in allowed}
     rels, nodes, ways, stops = osmread.read_pbf(str(pbf), lambda m: say(m), shape_tol=osmread.SHAPE_TOL_M)
     records, skipped = osmread.build_routes(rels, nodes, ways, stops, cc)
     del rels, nodes, ways
     report = {"osm_lines": len(records), "osm_skipped": skipped, "feeds": {}, "feeds_review": [f["id"] for f in review]}
     sources = {"osm": f"{gid.replace('/', '_')}-latest ({datetime.date.today().isoformat()})"}
-    today = datetime.date.today()
     patterns = []
     used = []
-    for f in allowed:
-        res = index_feed(f, work, today)
+    for f in allowed:                                    # (in the catalog's order, so the result does not depend on who finished first)
+        if f["id"] in futures:
+            res, pats = futures[f["id"]].result()
+        else:
+            res = index_feed(f, work, today)
+            pats = gtfsmerge.read_patterns(feeds.feed_path(work, f), inside=inside, feed=f["id"], lic=f["license"]) if res.get("ok") else None
         report["feeds"][f["id"]] = {k: res.get(k) for k in ("ok", "why", "patterns")}
         if not res["ok"]:
             continue
-        pats = gtfsmerge.read_patterns(feeds.feed_path(work, f), inside=inside, feed=f["id"], lic=f["license"])
         if pats:
             patterns += pats
             used.append({"id": f["id"], "provider": f["provider"], "license": f["license"], "license_url": f["license_url"],
                          "url": f["url"], "patterns": len(pats)})
+    if pool is not None:
+        pool.shutdown()
     say(f"OSM lines {len(records)}, stops {len(stops)}; timetable patterns {len(patterns)} from {len(used)} feeds")
     if patterns:
         records, rep = gtfsmerge.merge(records, stops, patterns, "x", cc, "")

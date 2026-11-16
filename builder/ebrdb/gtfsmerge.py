@@ -35,12 +35,18 @@ def read_patterns(db_path, min_trips=MIN_TRIPS, inside=None, feed="", lic=""):
     for i in range(min(int(meta.get("days", "0")), 14)):
         bits.setdefault((day0 + datetime.timedelta(days=i)).isoweekday(), []).append(i)
     stops = {r[0]: r[1:] for r in db.execute("SELECT sid, name, lat, lon FROM stops")}
+    bad = {sid for sid, (_, la, lo) in stops.items() if (la == 0 and lo == 0) or not (-90 <= la <= 90 and -180 <= lo <= 180)}
     out = []
     for pid, ref, name, agency, head, sl, offs, trips in db.execute(
             "SELECT pid, ref, name, agency, head, stops, offs, trips FROM patterns WHERE trips >= ? ORDER BY pid", (min_trips,)):
         sids, offs = sl.split(","), [int(x) for x in offs.split(",")]
         if any(s not in stops for s in sids):
             continue
+        if bad.intersection(sids):                       # a stop without a place (a feed that gives 0, 0): left out, with its time
+            keep = [k for k, x in enumerate(sids) if x not in bad]
+            sids, offs = [sids[k] for k in keep], [offs[k] for k in keep]
+            if len(sids) < 2:
+                continue
         if inside is not None and not inside(stops[sids[0]][1], stops[sids[0]][2]):
             continue
         per = {}
@@ -226,6 +232,13 @@ def reverse_ways(ways):
     return out
 
 
+def ends_key(p):
+    """What tells one direction of a line from another and survives a reissued timetable: the names of its first and last stop (of a
+    loop, also the second: its two directions differ there). A stop added in the middle or a renumbered stop id changes nothing."""
+    names = [fold(s["name"]) or s["sid"] for s in p["stops"]]
+    return "|".join([names[0], names[-1]] + ([names[1]] if names[0] == names[-1] and len(names) > 2 else []))
+
+
 def merge(records, stops, patterns, feed="cz", cc="CZ", lic="CIS-JR"):
     """-> (records, report). `records` are the OSM lines (modified list returned), `stops` the stops dict (timetable-only stops
     are added to it)."""
@@ -248,7 +261,8 @@ def merge(records, stops, patterns, feed="cz", cc="CZ", lic="CIS-JR"):
             stops[sid] = {"id": sid, "lat": round(st["lat"], 6), "lon": round(st["lon"], 6), "k": "p", "n": st["name"], "g": 1}
         return sid, None
 
-    for p in patterns:
+    # (the busiest way of a line is first: of two ways with the same ends it keeps the plain id)
+    for p in sorted(patterns, key=lambda q: (-q.get("trips", 0), q.get("feed") or "", q["pid"])):
         feed, lic = p.get("feed") or feed, p.get("lic") or lic
         best, bratio = None, 0.0
         for rec in (by_ref.get(fold(p["ref"]), ()) if fold(p["ref"]) else ()):
@@ -269,7 +283,7 @@ def merge(records, stops, patterns, feed="cz", cc="CZ", lic="CIS-JR"):
             merged += 1
             t = dict(best["t"])
             t["public_transport:version"] = "2"
-            key = f"{best['id']}|{','.join(str(s['s']) for s in stop_list)}"
+            key = f"{best['id']}|{ends_key(p)}"
             ways = best["ways"]
             if runs_along(ways, p, roads, best["id"]) is False:                 # OSM has the line the other way round: turn the road
                 ways = reverse_ways(ways)
@@ -278,14 +292,19 @@ def merge(records, stops, patterns, feed="cz", cc="CZ", lic="CIS-JR"):
                    "stops": stop_list, "times": p["times"], "src": best["src"] + src}
         else:
             alone += 1
-            key = f"{p['ref']}|{','.join(s['sid'] for s in p['stops'])}"      # (hashed with the feed)
+            key = f"{p['ref']}|{ends_key(p)}"                                  # (hashed with the feed)
             t = {"ref": p["ref"], "name": f"{p['ref']}: {first} - {last}", "from": first, "to": last, "operator": p["agency"],
                  "route": "bus", "public_transport:version": "2"}
             rec = {"v": 1, "id": ids.gtfs_route_id(feed, key), "cc": cc, "mode": "bus", "t": t, "ways": [], "stops": stop_list,
                    "times": p["times"], "src": src}
+        # the id depends on the number and the ends of the way, not on the stops between: it stays when a stop is added or a feed
+        # renumbers its stops. Two ways with the same ends but other stops between get the id of their whole stop list.
+        same = by_id.get(rec["id"])
+        if same is not None and [s["s"] for s in same["stops"]] != [s["s"] for s in rec["stops"]]:
+            rec["id"] = ids.gtfs_route_id(feed, f"{key}|{','.join(str(s['s']) for s in rec['stops'])}")
+            same = by_id.get(rec["id"])
         # two patterns with the same number and the same stops (another operator's route id, another calendar) are one line
         # with the departures of both
-        same = by_id.get(rec["id"])
         if same is not None:
             for k, v in p["times"].items():
                 same["times"][k] = sorted(set(same["times"].get(k, [])) | set(v))

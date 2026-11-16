@@ -64,7 +64,7 @@ sources/feeds.json                  the timetable feeds the builder may use, wit
 
 | Field | Meaning |
 |---|---|
-| `id` | A number. The OSM relation id for lines of the map; `3·10¹² + hash` for lines made from a timetable or by hand (the hash is stable, so a line keeps its id between builds). |
+| `id` | A number. The OSM relation id for lines of the map; `3·10¹² + hash` for lines made from a timetable or by hand (the hash is of the feed, the line's number and the names of the first and last stop of the way, two ways of a loop also of the second stop: so a line keeps its id between builds, also when a stop is added or the feed renumbers its stops). |
 | `t` | The tags of the line the mod reads (`ref`, `name`, `from`, `to`, `network`, `operator`, `colour`, `public_transport:version`, …). |
 | `ways` | The road. Ways **in the order the map lists them**; the mod joins them. `g` is a [Google polyline](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) (precision 1e-5, simplified to 2 m). `t` = the tags of the way that give a speed limit. **Empty = the line has no road here**: the data service asks a routing server for it the first time and keeps the answer. |
 | `stops` | The stops **in the order the source lists them**. The mod puts them in order along the road (`osm.parseRoute`), so there is one such logic for the database, for live map answers and for timetables. `la`, `lo`, `n` are copies of the tile's stop, written by the builder. `o` = seconds from the start of the trip (lines with a timetable). |

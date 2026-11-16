@@ -3,7 +3,7 @@
   OSM node            its OSM id
   OSM way (platform)  way id + WAY_BASE        (a way's id may equal a node's)
   OSM relation        its OSM id               (below 10**12)
-  line only in GTFS   ROUTE_BASE + hash        (a stable hash of feed + pattern key: the same line keeps its id between builds)
+  line only in GTFS   ROUTE_BASE + hash        (a hash of feed + number + the ends of the way: the same line keeps its id between builds)
   stop only in GTFS   STOP_BASE  + hash
 The bands stay clear of the live service's own (10**12 .. 2*10**12 + row numbers).
 """
