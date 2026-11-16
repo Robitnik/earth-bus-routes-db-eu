@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2884,3920],
+"stops":[
+  {"id":1830903659,"lat":54.222751,"lon":16.026013,"k":"p","n":"Kazimierz Pomorski"},
+  {"id":1830903833,"lat":54.217155,"lon":16.020853,"k":"p","n":"Łekno","ref":"02"},
+  {"id":1830903882,"lat":54.216821,"lon":16.020408,"k":"p","n":"Łekno","ref":"01"},
+  {"id":1830904019,"lat":54.223686,"lon":16.028798,"k":"p","n":"Kazimierz Pomorski"},
+  {"id":1830904076,"lat":54.211029,"lon":16.009549,"k":"p","n":"Mączno skrzyżowanie"},
+  {"id":1830904255,"lat":54.223134,"lon":16.028248,"k":"p","n":"Kazimierz Pomorski"},
+  {"id":1830904260,"lat":54.210479,"lon":16.009015,"k":"p","n":"Mączno skrzyżowanie"},
+  {"id":12853439130,"lat":54.249337,"lon":16.013744,"k":"p","n":"Mielenko Lipowa"},
+  {"id":14232661597,"lat":54.216057,"lon":16.018712,"k":"p","n":"Łekno Szkoła"}
+],
+"routes":[
+  {"id":18969713,"t":{"name":"AIRBUS Koszalin - Ustronie Morskie","from":"Koszalin","to":"Ustronie Morskie","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[1830904019,9],[1830903833,10],[1830904076,11]]},
+  {"id":18969714,"t":{"name":"AIRBUS Ustronie Morskie -Koszalin","from":"Ustronie Morskie","to":"Koszalin","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[1830904260,8],[1830903882,9],[1830904255,10]]},
+  {"id":19023742,"t":{"ref":"3261/108","name":"Koszalin->Gąski/Śmiechów","from":"Koszalin","to":"Śmiechów","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":21,"s":[[1830904019,9],[1830903833,10],[1830904076,11]]},
+  {"id":19023743,"t":{"ref":"3261/108","name":"Gąski/Śmiechów->Koszalin","from":"Śmiechów","to":"Koszalin","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":20,"s":[[1830904260,11],[1830903882,12],[1830904255,13]]},
+  {"id":19357788,"t":{"ref":"3261/205","name":"ARBOS Sarbinowo -> Koszalin","from":"Sarbinowo","to":"Koszalin","operator":"Ar-Bos","route":"bus","public_transport:version":"2"},"n":9,"s":[[12853439130,4]]},
+  {"id":19357789,"t":{"ref":"3261/205","name":"AR-BOS Koszalin ->Sarbinowo","from":"Koszalin","to":"Sarbinowo","operator":"Ar-bos","route":"bus","public_transport:version":"2"},"n":10,"s":[[12853439130,6]]},
+  {"id":21459653,"t":{"ref":"1U","name":"1U: [HEN] Komory-> Łekno Szkoła","from":"Komory","to":"Łekno","network":"Powiat Koszaliński","operator":"HEN","route":"bus","public_transport:version":"2"},"n":6,"s":[[1830903659,3],[14232661597,4]]}
+]
+}

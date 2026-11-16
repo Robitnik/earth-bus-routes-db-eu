@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2796,4053],
+"stops":[
+  {"id":8421443342,"lat":49.807439,"lon":22.671394,"k":"p","n":"Wapowce","ref":"65"},
+  {"id":8421443343,"lat":49.807524,"lon":22.669637,"k":"p","n":"Wapowce","ref":"12"},
+  {"id":10540214920,"lat":49.819454,"lon":22.694586,"k":"p","n":"Łętownia NŻ"},
+  {"id":10540214921,"lat":49.823967,"lon":22.687795,"k":"p","n":"Łętownia Wieś"},
+  {"id":10540214922,"lat":49.827254,"lon":22.676232,"k":"p","n":"Bełwin"},
+  {"id":12952187190,"lat":49.807655,"lon":22.668005,"k":"p"}
+],
+"routes":[
+  {"id":15262133,"t":{"ref":"1","from":"Lwowska MZK","to":"Bełwin","network":"MZK","operator":"MZK Przemyśl","route":"bus"},"n":38,"s":[[10540214920,37],[10540214921,38]]},
+  {"id":15262134,"t":{"ref":"1","from":"Bełwin","to":"Lwowska MZK","network":"MZK","operator":"MZK Przemyśl","route":"bus"},"n":29,"s":[[10540214922,1],[10540214921,2],[10540214920,3]]},
+  {"id":15307348,"t":{"name":"Dynów-Przemyśl","from":"Dynów","to":"Przemyśl","network":"eurobus","operator":"eurobus","route":"bus"},"n":21,"s":[[8421443342,16]]},
+  {"id":15307349,"t":{"name":"Przemyśl-Dynów","from":"Przemyśl DA","to":"Dynów DA","network":"eurobus","operator":"eurobus","route":"bus"},"n":21,"s":[[8421443343,6],[12952187190,21]]}
+]
+}

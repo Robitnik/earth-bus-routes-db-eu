@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2870,3944],
+"stops":[
+  {"id":7182084585,"lat":53.536998,"lon":17.233559,"k":"p","n":"Debrzno, ul. Długa"},
+  {"id":12292449204,"lat":53.538195,"lon":17.247179,"k":"p"},
+  {"id":12451799501,"lat":53.526937,"lon":17.231113,"k":"p","n":"Debrzno Wieś"},
+  {"id":12451799502,"lat":53.525796,"lon":17.231214,"k":"p","n":"Debrzno Wieś"},
+  {"id":12465639574,"lat":53.545911,"lon":17.200196,"k":"p","n":"Miłachowo"},
+  {"id":12465639575,"lat":53.542392,"lon":17.232768,"k":"p","n":"Debrzno, ul. Królewska"},
+  {"id":12465639576,"lat":53.542135,"lon":17.233034,"k":"p","n":"Debrzno, ul. Królewska"}
+],
+"routes":[
+  {"id":18463982,"t":{"ref":"67640","name":"PKS Linia 67640: Złotów => Debrzno Wieś","from":"Złotów","to":"Debrzno Wieś","network":"PKS Piła Sp. z o.o.","operator":"PKS Piła","route":"bus","public_transport:version":"2"},"n":30,"s":[[12451799502,30]]},
+  {"id":18465818,"t":{"ref":"67640","name":"PKS Linia 67640: Debrzno Wieś => Złotów","from":"Debrzno Wieś","to":"Złotów","network":"PKS Piła Sp. z o.o.","operator":"PKS Piła","route":"bus","public_transport:version":"2"},"n":32,"s":[[12451799502,1]]},
+  {"id":18486988,"t":{"ref":"13","name":"Autobus 13: Prusinowo => Człuchów","from":"Prusinowo","to":"Człuchów","network":"PZPT Człuchów","operator":"PZPT Człuchów","route":"bus","public_transport:version":"2"},"n":25,"s":[[12465639576,6],[7182084585,7]]},
+  {"id":18486989,"t":{"ref":"13","name":"Autobus 13: Człuchów => Prusinowo","from":"Człuchów","to":"Prusinowo","network":"PZPT Człuchów","operator":"PZPT Człuchów","route":"bus","public_transport:version":"2"},"n":26,"s":[[7182084585,19],[12465639575,20],[12465639574,21]]}
+]
+}

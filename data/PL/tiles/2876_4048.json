@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2876,4048],
+"stops":[
+  {"id":1727425628,"lat":53.827833,"lon":22.401216,"k":"x"},
+  {"id":1727425643,"lat":53.82849,"lon":22.401921,"k":"x","n":"Produkcyjna"},
+  {"id":2091628343,"lat":53.808152,"lon":22.417419,"k":"p","n":"Mrozy - Pętla","ref":"80"},
+  {"id":2441633444,"lat":53.800335,"lon":22.415126,"k":"p","n":"Mrozy - Krzyżówka","ref":"82"},
+  {"id":2441633446,"lat":53.800868,"lon":22.423029,"k":"x"},
+  {"id":2441633447,"lat":53.800904,"lon":22.423026,"k":"p","n":"Mrozy - Osiedle","ref":"184"},
+  {"id":2441633451,"lat":53.806607,"lon":22.411488,"k":"p","n":"Mrozy - Wieś","ref":"241"},
+  {"id":2441633452,"lat":53.806626,"lon":22.41153,"k":"x","n":"Mrozy - Wieś"},
+  {"id":2441633453,"lat":53.808086,"lon":22.417319,"k":"x"},
+  {"id":4072577037,"lat":53.827866,"lon":22.401139,"k":"p","n":"Produkcyjna 01","ref":"306"},
+  {"id":4318704644,"lat":53.838606,"lon":22.430812,"k":"x"},
+  {"id":8144037941,"lat":53.821714,"lon":22.419134,"k":"p","n":"Szeligi","ref":"166"},
+  {"id":8450457385,"lat":53.818697,"lon":22.41444,"k":"p"},
+  {"id":10228325379,"lat":53.806145,"lon":22.412168,"k":"p","n":"Mrozy - Wieś","ref":"81"},
+  {"id":10538817234,"lat":53.828423,"lon":22.401992,"k":"p","n":"Produkcyjna 02","ref":"307"},
+  {"id":13783875329,"lat":53.800294,"lon":22.415575,"k":"p","n":"Mrozy - Krzyżówka"},
+  {"id":13783875330,"lat":53.800319,"lon":22.415353,"k":"x"},
+  {"id":13783875362,"lat":53.82166,"lon":22.4191,"k":"x"},
+  {"id":14265244468,"lat":53.806115,"lon":22.412067,"k":"x"}
+],
+"routes":[
+  {"id":20609004,"t":{"ref":"4","name":"alt","from":"Nowa Wieś","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus"},"n":12,"s":[[10538817234,6],[1727425643,7],[13783875362,8],[8144037941,9]]},
+  {"id":20609026,"t":{"ref":"13","name":"alt","from":"Zakłady Mięsne","to":"Konieczki","operator":"MZK Ełk","route":"bus"},"n":5,"s":[[1727425643,4],[10538817234,5]]},
+  {"id":20609027,"t":{"ref":"13","name":"alt","from":"Konieczki","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus"},"n":5,"s":[[10538817234,4],[1727425643,5]]},
+  {"id":20609032,"t":{"ref":"14","name":"alt","from":"os. Bajkowe","to":"Jeziorna/Szpital","operator":"MZK Ełk","route":"bus"},"n":5,"s":[[10538817234,4],[1727425643,5]]},
+  {"id":20609033,"t":{"ref":"14","name":"alt","from":"Szpital/Jeziorna","to":"os. Bajkowe","operator":"MZK Ełk","route":"bus"},"n":7,"s":[[10538817234,4],[1727425643,5],[1727425628,6],[4072577037,7]]},
+  {"id":3020615700887,"t":{"ref":"1","from":"Mrozy Wielkie","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":20,"s":[[2091628343,1],[2441633451,2],[13783875329,3]]},
+  {"id":3032451731453,"t":{"ref":"3","name":"alt","from":"Chojniak","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":5,"s":[[8144037941,1]]},
+  {"id":3055390185676,"t":{"ref":"13","from":"Konieczki","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":24,"s":[[1727425643,20]]},
+  {"id":3085799704616,"t":{"ref":"1","from":"Zakłady Mięsne","to":"Mrozy Wielkie","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":27,"s":[[2441633447,25],[2441633452,26],[2091628343,27]]},
+  {"id":3087897737257,"t":{"ref":"14","from":"Jeziorna","to":"os. Bajkowe","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":35,"s":[[1727425643,13],[4072577037,14]]}
+]
+}

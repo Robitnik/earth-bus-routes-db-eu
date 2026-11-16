@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2785,4000],
+"stops":[
+  {"id":463031582,"lat":49.284752,"lon":20.005605,"k":"x","n":"Chłabówka Górna"},
+  {"id":2160756022,"lat":49.287079,"lon":20.030016,"k":"x","n":"Brzeziny"},
+  {"id":3087598099,"lat":49.289318,"lon":20.014141,"k":"p","n":"Cyrhla"},
+  {"id":3087605147,"lat":49.289238,"lon":20.015489,"k":"p","n":"Cyrhla"},
+  {"id":5837105427,"lat":49.285,"lon":20.003867,"k":"p","n":"Chłabówka Górna"},
+  {"id":5837105428,"lat":49.284806,"lon":20.005689,"k":"p","n":"Chłabówka Górna"},
+  {"id":9214361412,"lat":49.286518,"lon":20.029284,"k":"p","n":"Brzeziny"},
+  {"id":9214377511,"lat":49.286667,"lon":20.031332,"k":"p","n":"Brzeziny"},
+  {"id":9216555594,"lat":49.286727,"lon":20.031311,"k":"x","n":"Brzeziny"},
+  {"id":9216555595,"lat":49.286446,"lon":20.029298,"k":"x","n":"Brzeziny"},
+  {"id":10936811720,"lat":49.287123,"lon":20.030094,"k":"p","n":"Brzeziny"},
+  {"id":10936811721,"lat":49.287007,"lon":20.029942,"k":"p","n":"Brzeziny"},
+  {"id":11070812819,"lat":49.292254,"lon":20.036,"k":"p"},
+  {"id":11070812820,"lat":49.292399,"lon":20.036015,"k":"p"},
+  {"id":11070812822,"lat":49.298678,"lon":20.038684,"k":"p"},
+  {"id":11070812823,"lat":49.298505,"lon":20.038713,"k":"p"},
+  {"id":11117052503,"lat":49.289317,"lon":20.015567,"k":"x","n":"Cyrhla"},
+  {"id":12990571822,"lat":49.285074,"lon":20.003895,"k":"x","n":"Chłabówka Górna"},
+  {"id":12990571823,"lat":49.289313,"lon":20.014232,"k":"x","n":"Cyrhla"}
+],
+"routes":[
+  {"id":7986311,"t":{"ref":"11","name":"Linia 11: Krzeptówki => Cyrhla","from":"J. Krzeptowskiego","to":"Cyrhla","operator":"\"TESKO\" Tatrzańska Grupa Kapitałowa","colour":"#f39200","route":"bus","public_transport:version":"2"},"n":17,"s":[[5837105427,16],[3087598099,17]]},
+  {"id":7986546,"t":{"ref":"11","name":"Linia 11: Krzeptówki => Chramcówki => Cyrhla","from":"J. Krzeptowskiego","to":"Cyrhla","operator":"\"TESKO\" Tatrzańska Grupa Kapitałowa","colour":"#f39200","route":"bus","public_transport:version":"2"},"n":18,"s":[[5837105427,17],[3087598099,18]]},
+  {"id":19340650,"t":{"ref":"11","name":"Linia 11: Cyrhla => Krzeptówki","from":"Cyrhla","to":"J. Krzeptowskiego","operator":"\"TESKO\" Tatrzańska Grupa Kapitałowa","colour":"#f39200","route":"bus","public_transport:version":"2"},"n":18,"s":[[3087598099,1],[5837105428,2]]},
+  {"id":19340740,"t":{"ref":"116","name":"Linia 116: Palenica Białczańska => Zakopane","from":"Palenica Białczańska","to":"Zakopane Dworzec","operator":"TRANS-BUS-BUKOWINA","route":"bus","public_transport:version":"2"},"n":15,"s":[[9214361412,5],[3087598099,6],[5837105428,7]]},
+  {"id":19340741,"t":{"ref":"80","name":"Linia 80: Palenica Białczańska => Zakopane","from":"Palenica Białczańska","to":"Zakopane Dworzec","operator":"Zrzeszenie Transportu Publicznego Stoch, Karpiński","route":"bus","public_transport:version":"2"},"n":15,"s":[[9214361412,5],[3087598099,6],[5837105428,7]]},
+  {"id":19340742,"t":{"ref":"80","name":"Linia 80: Zakopane => Palenica Białczańska","from":"Zakopane Dworzec","to":"Palenica Białczańska","operator":"Zrzeszenie Transportu Publicznego Stoch, Karpiński","route":"bus","public_transport:version":"2"},"n":15,"s":[[5837105427,9],[3087605147,10],[9214377511,11]]},
+  {"id":19340743,"t":{"ref":"116","name":"Linia 116: Zakopane => Palenica Białczańska","from":"Zakopane Dworzec","to":"Palenica Białczańska","operator":"TRANS-BUS-BUKOWINA","route":"bus","public_transport:version":"2"},"n":15,"s":[[5837105427,9],[3087605147,10],[9214377511,11]]},
+  {"id":19341140,"t":{"ref":"21","name":"Linia 21: Cyrhla => Mała Łąka","from":"Cyrhla","to":"Zakopane Mała Łąka","operator":"\"TESKO\" Tatrzańska Grupa Kapitałowa","colour":"#8e4d99","route":"bus","public_transport:version":"2"},"n":23,"s":[[3087598099,1],[5837105428,2]]},
+  {"id":19341141,"t":{"ref":"21","name":"Linia 21: Mała Łąka => Cyrhla","from":"Zakopane Mała Łąka","to":"Cyrhla","operator":"\"TESKO\" Tatrzańska Grupa Kapitałowa","colour":"#8e4d99","route":"bus","public_transport:version":"2"},"n":22,"s":[[5837105427,21],[3087598099,22]]}
+]
+}

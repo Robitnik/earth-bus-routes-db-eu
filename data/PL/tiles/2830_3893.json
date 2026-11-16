@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2830,3893],
+"stops":[
+  {"id":6752705904,"lat":51.526473,"lon":14.691222,"k":"p","n":"Krauschwitz Feuerwehr"},
+  {"id":6752705905,"lat":51.526023,"lon":14.687341,"k":"p","n":"Krauschwitz Gasthaus Zur Linde"},
+  {"id":6752705906,"lat":51.528079,"lon":14.692442,"k":"p","n":"Krauschwitz Kornblumenweg"},
+  {"id":10931542746,"lat":51.52506,"lon":14.689703,"k":"p","n":"Krauschwitz Gasthaus zur Linde"},
+  {"id":6049458595198,"lat":51.513419,"lon":14.652555,"k":"p","n":"Weißwasser Straßenmeisterei","g":1},
+  {"id":6065556458941,"lat":51.52741,"lon":14.677753,"k":"p","n":"Gablenz Siedlung","g":1},
+  {"id":6079890859371,"lat":51.53425,"lon":14.663793,"k":"p","n":"Gablenz Feuerwehr","g":1}
+],
+"routes":[
+  {"id":6701441,"t":{"ref":"73","name":"Bus 73: Weißwasser => Weißkeißel => Sagar => Lodenau","from":"Weißwasser Bahnhof","to":"Lodenau Gasthaus","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":23,"s":[[10931542746,1]]},
+  {"id":7451283,"t":{"ref":"80","name":"PlusBus 80: Weißwasser => Krauschwitz => Bad Muskau","from":"Weißwasser Busbahnhof","to":"Bad Muskau Papierfabrik","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":14,"s":[[10931542746,1]]},
+  {"id":17582832,"t":{"ref":"S80","name":"Schulbus S80: Bad Muskau => Krauschwitz => Gablenz => Schleife","from":"Bad Muskau Kirchplatz","to":"Schleife Schulzentrum","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[6752705905,8]]},
+  {"id":17582833,"t":{"ref":"S80","name":"Schulbus S80: Schleife => Gablenz => Krauschwitz => Bad Muskau","from":"Schleife Schulzentrum","to":"Bad Muskau Kirchplatz","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":8,"s":[[10931542746,1]]},
+  {"id":3024424224222,"t":{"ref":"80","name":"PlusBus 80: Bad Muskau => Krauschwitz => Weißwasser","from":"Bad Muskau Papierfabrik","to":"Weißwasser Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":17,"s":[[6752705905,14],[6049458595198,15]]},
+  {"id":3066575986084,"t":{"ref":"73","name":"Bus 73: Lodenau => Sagar => Weißkeißel => Weißwasser","from":"Lodenau Gasthaus","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":13,"s":[[6752705905,10],[6049458595198,11]]},
+  {"id":3078855960354,"t":{"ref":"73","name":"Bus 73: Lodenau => Sagar => Weißkeißel => Weißwasser","from":"Lodenau Gasthaus","to":"Weißwasser Bahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":26,"s":[[6752705905,23],[6049458595198,24]]},
+  {"id":3090180537592,"t":{"ref":"S80","name":"S80: Bad Muskau Kirchplatz - Schleife Schulzentrum","from":"Bad Muskau Kirchplatz","to":"Schleife Schulzentrum","operator":"Omnibus Verkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":17,"s":[[6752705905,8],[6065556458941,9],[6079890859371,10]]},
+  {"id":3098874183128,"t":{"ref":"80","name":"PlusBus 80: Bad Muskau => Krauschwitz => Weißwasser","from":"Bad Muskau Papierfabrik","to":"Weißwasser Busbahnhof","network":"ZVON","operator":"Omnibusverkehr Oberlausitz","route":"bus","public_transport:version":"2"},"n":14,"s":[[6752705905,11],[6049458595198,12]]}
+]
+}

@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2804,3970],
+"stops":[
+  {"id":290533753,"lat":50.205257,"lon":18.511634,"k":"p","n":"Stanica"},
+  {"id":4092456501,"lat":50.204869,"lon":18.513841,"k":"p","n":"Stanica"},
+  {"id":4296938928,"lat":50.206232,"lon":18.530496,"k":"x","n":"Stanica Las"},
+  {"id":4296939036,"lat":50.206057,"lon":18.528144,"k":"x","n":"Stanica Las"},
+  {"id":8383689765,"lat":50.205801,"lon":18.517543,"k":"x","n":"Stanica Kościół"},
+  {"id":8383689766,"lat":50.205854,"lon":18.517537,"k":"p","n":"Stanica Kościół","ref":"1"},
+  {"id":8383689775,"lat":50.206157,"lon":18.5305,"k":"p","n":"Stanica Las [nż]","ref":"1"},
+  {"id":8383689776,"lat":50.206116,"lon":18.528121,"k":"p","n":"Stanica Las [nż]","ref":"2"},
+  {"id":13958212642,"lat":50.245252,"lon":18.501198,"k":"p","n":"Trachy Pętla"}
+],
+"routes":[
+  {"id":3114900,"t":{"ref":"M104","name":"Bus M104: Stanica Kościół => Żerniki Osiedle","from":"Stanica Kościół","to":"Żerniki Osiedle","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":21,"s":[[8383689766,1],[8383689775,2]]},
+  {"id":3114901,"t":{"ref":"M104","name":"Bus M104: Żerniki Osiedle => Stanica Kościół","from":"Żerniki Osiedle","to":"Stanica Kościół","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":23,"s":[[8383689776,22],[8383689766,23]]}
+]
+}

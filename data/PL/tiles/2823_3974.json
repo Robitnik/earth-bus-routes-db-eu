@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2823,3974],
+"stops":[
+  {"id":2583040244,"lat":51.153081,"lon":18.744835,"k":"p","n":"Kamion"},
+  {"id":2583040252,"lat":51.153754,"lon":18.733402,"k":"p"},
+  {"id":2620102150,"lat":51.153601,"lon":18.734837,"k":"x","n":"Toporów Szkoła"},
+  {"id":5395851727,"lat":51.153423,"lon":18.734832,"k":"p","n":"Toporów Szkoła"},
+  {"id":8573266241,"lat":51.153445,"lon":18.734912,"k":"x","n":"Toporów Szkoła"},
+  {"id":8573266242,"lat":51.153658,"lon":18.733465,"k":"x"},
+  {"id":10814893731,"lat":51.153604,"lon":18.734917,"k":"p","n":"Toporów Szkoła"},
+  {"id":10814893742,"lat":51.153045,"lon":18.744806,"k":"x","n":"Kamion"},
+  {"id":10814893743,"lat":51.153022,"lon":18.744788,"k":"p","n":"Kamion"},
+  {"id":10816775901,"lat":51.190549,"lon":18.708781,"k":"p","n":"Kraszkowice Centrum"},
+  {"id":10816775902,"lat":51.190573,"lon":18.708852,"k":"x","n":"Kraszkowice Centrum"},
+  {"id":10816775903,"lat":51.189828,"lon":18.723161,"k":"x","n":"Kolonia Kraszkowice Kasztanowa 26/29"},
+  {"id":10816775904,"lat":51.189891,"lon":18.723212,"k":"p","n":"Kolonia Kraszkowice Kasztanowa 26/29"},
+  {"id":10816779709,"lat":51.189517,"lon":18.724224,"k":"x","n":"Kolonia Kraszkowice Kasztanowa 26/29"},
+  {"id":10816779710,"lat":51.189441,"lon":18.724178,"k":"p","n":"Kolonia Kraszkowice Kasztanowa 26/29"},
+  {"id":10816779738,"lat":51.187517,"lon":18.73085,"k":"p","n":"Kolonia Kraszkowice Kasztanowa 50"},
+  {"id":10816779739,"lat":51.188057,"lon":18.729668,"k":"p","n":"Kolonia Kraszkowice Kasztanowa 50"},
+  {"id":10816779740,"lat":51.187969,"lon":18.729585,"k":"x","n":"Kolonia Kraszkowice Kasztanowa 50"},
+  {"id":10816779741,"lat":51.18759,"lon":18.730898,"k":"x","n":"Kolonia Kraszkowice Kasztanowa 50"}
+],
+"routes":[
+  {"id":15748365,"t":{"ref":"5","name":"Korona 5: Wieluń => Kamion","from":"Wieluń Fabryczna / Korona","to":"Kamion","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":19,"s":[[10814893731,18],[10814893743,19]]},
+  {"id":15748520,"t":{"ref":"5","name":"Korona 5: Kamion => Wieluń","from":"Kamion","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":19,"s":[[2583040244,1],[5395851727,2]]},
+  {"id":15770608,"t":{"ref":"918083","name":"PKS Wieluń: Wieluń => Pajęczno","from":"Wieluń Fabryczna / Korona","to":"Pajęczno Plac Targowy","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":30,"s":[[10816775901,12],[10816779710,13],[10816779738,14]]},
+  {"id":15771100,"t":{"ref":"918083","name":"PKS Wieluń: Pajęczno => Wieluń","from":"Pajęczno Plac Targowy","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":31,"s":[[10816779739,17],[10816775904,18],[10816775901,19]]},
+  {"id":18706058,"t":{"ref":"918113","name":"PKS Wieluń: Wieluń => Osjaków via Pajęczno","from":"Wieluń Dworzec Autobusowy st.5","to":"Osjaków Centrum / Rynek","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":53,"s":[[10816775901,11],[10816779710,12],[10816779738,13]]},
+  {"id":18828476,"t":{"name":"PKS Wieluń 918030: Działoszyn => Sieradz via Wieluń","from":"Działoszyn","to":"Sieradz","network":"PKS","operator":"PKS Wieluń sp. z o.o.","route":"bus","public_transport:version":"2"},"n":47,"s":[[10816775904,8],[10816779739,9],[10816775901,47]]},
+  {"id":20140078,"t":{"ref":"918113","name":"PKS Wieluń: Osjaków => Wieluń via Pajęczno","from":"Osjaków Centrum / Rynek","to":"Wieluń Dworzec Autobusowy st.0","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":55,"s":[[10816779739,42],[10816775904,43],[10816775901,44]]}
+]
+}

@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2806,4030],
+"stops":[
+  {"id":10172459914,"lat":50.323719,"lon":21.547308,"k":"p","n":"Szydłowiec Pętla 09"},
+  {"id":10172510818,"lat":50.329296,"lon":21.517908,"k":"p","n":"Wola Chorzelowska Hotel 05"},
+  {"id":10172510819,"lat":50.327897,"lon":21.514629,"k":"p","n":"Wola Chorzelowska OSP 03"},
+  {"id":10172510820,"lat":50.329274,"lon":21.509848,"k":"p","n":"Wola Chorzelowska Las 01"},
+  {"id":10172510821,"lat":50.329419,"lon":21.509715,"k":"p","n":"Wola Chorzelowska Las 02"},
+  {"id":10172510823,"lat":50.332163,"lon":21.504311,"k":"p","n":"Wola Chorzelowska Granica 11"},
+  {"id":10172510826,"lat":50.331291,"lon":21.515411,"k":"p","n":"Wola Chorzelowska Wieś 07"},
+  {"id":10172510835,"lat":50.340403,"lon":21.506018,"k":"p","n":"Trześń Skup 10"},
+  {"id":10172510836,"lat":50.346794,"lon":21.512776,"k":"p","n":"Trześń Pętla 11"},
+  {"id":10600144260,"lat":50.312776,"lon":21.516718,"k":"p","n":"Szydłowiec Ujęcie Wody 01"},
+  {"id":12209571832,"lat":50.340472,"lon":21.506345,"k":"p","n":"Trześń Skup 09"},
+  {"id":12209571835,"lat":50.332094,"lon":21.50436,"k":"p","n":"Wola Chorzelowska Granica 12"},
+  {"id":12209571836,"lat":50.334211,"lon":21.512207,"k":"p","n":"Wola Chorzelowska 09"},
+  {"id":12209571837,"lat":50.334144,"lon":21.51217,"k":"p","n":"Wola Chorzelowska 10"},
+  {"id":12209571838,"lat":50.331263,"lon":21.515321,"k":"p","n":"Wola Chorzelowska Wieś 08"},
+  {"id":12209571839,"lat":50.329247,"lon":21.517839,"k":"p","n":"Wola Chorzelowska Hotel 06"},
+  {"id":12209571840,"lat":50.328135,"lon":21.514582,"k":"p","n":"Wola Chorzelowska OSP 04"},
+  {"id":12958817615,"lat":50.345232,"lon":21.547964,"k":"p","n":"Hyki Dębiaki Szkoła"}
+],
+"routes":[
+  {"id":15027570,"t":{"ref":"43","name":"Bus 43 (Mielec/Obrońców Pokoju => Szydłowiec)","from":"Obrońców Pokoju 01","to":"Szydłowiec Pętla 10","network":"MKS Mielec","operator":"MKS Mielec","route":"bus"},"n":4,"s":[[10172459914,3]]},
+  {"id":15027571,"t":{"ref":"43","name":"Bus 43 (Szydłowiec => Mielec/Obrońców Pokoju)","from":"Szydłowiec Pętla 09","to":"Obrońców Pokoju 01","network":"MKS Mielec","operator":"MKS Mielec","route":"bus"},"n":3,"s":[[10172459914,2]]},
+  {"id":15027804,"t":{"ref":"44","name":"Bus 44 (Mielec/Legionów => Trześń)","from":"Legionów Dworek 01","to":"Trzdeśń Pętla 11","network":"MKS Mielec","operator":"MKS Mielec","route":"bus","public_transport:version":"2"},"n":4,"s":[[10172510836,3]]},
+  {"id":15029438,"t":{"ref":"44","name":"Bus 44 (Trześń => Mielec/Legionów)","from":"Trześń Pętla 11","to":"Legionów Dworek 01","network":"MKS Mielec","operator":"MKS Mielec","route":"bus","public_transport:version":"2"},"n":4,"s":[[10172510836,1]]},
+  {"id":15029485,"t":{"ref":"44A","name":"Bus 44A (Mielec/Legionów => Trześń)","from":"Legionów Dworek 01","to":"Trześń Petla 11","network":"MKS Mielec","operator":"MKS Mielec","route":"bus","public_transport:version":"2"},"n":4,"s":[[10172510836,3]]},
+  {"id":15030637,"t":{"ref":"44A","name":"Bus 44A (Trześń => Mielec/Legionów)","from":"Trześń Pętla 11","to":"Legionów Dworek 01","network":"MKS Mielec","operator":"MKS Mielec","route":"bus","public_transport:version":"2"},"n":4,"s":[[10172510836,1]]}
+]
+}

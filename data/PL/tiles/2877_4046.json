@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2877,4046],
+"stops":[
+  {"id":1619528323,"lat":53.870737,"lon":22.348633,"k":"x"},
+  {"id":1859471284,"lat":53.892057,"lon":22.345645,"k":"x","n":"Straduny - Pętla"},
+  {"id":1859471363,"lat":53.892018,"lon":22.345592,"k":"p","n":"Straduny - Pętla","ref":"125"},
+  {"id":2539018178,"lat":53.852421,"lon":22.344544,"k":"p","n":"Ogródki - Pętla","ref":"130"},
+  {"id":2539125405,"lat":53.868559,"lon":22.346939,"k":"p","n":"Oracze","ref":"109"},
+  {"id":2540740261,"lat":53.881051,"lon":22.346229,"k":"p","n":"Straduny - Domki","ref":"110"},
+  {"id":8140123965,"lat":53.891984,"lon":22.345388,"k":"p","n":"Straduny - Pętla 02"},
+  {"id":8144029398,"lat":53.879244,"lon":22.345593,"k":"p","n":"Straduny - Domki","ref":"126"},
+  {"id":8144029399,"lat":53.870703,"lon":22.348489,"k":"p","n":"Oracze - Mleczarnia","ref":"111"},
+  {"id":8144029400,"lat":53.870797,"lon":22.348755,"k":"p","n":"Oracze - Mleczarnia","ref":"242"},
+  {"id":8144029405,"lat":53.866935,"lon":22.346678,"k":"p","n":"Oracze","ref":"127"},
+  {"id":8144029406,"lat":53.860448,"lon":22.345616,"k":"p","n":"Wityny","ref":"108"},
+  {"id":8144029407,"lat":53.859741,"lon":22.345266,"k":"p","n":"Wityny","ref":"128"},
+  {"id":8144029408,"lat":53.852657,"lon":22.344078,"k":"p","n":"Wityny - Ogródki","ref":"107"},
+  {"id":8144029409,"lat":53.851782,"lon":22.343682,"k":"p","n":"Wityny - Ogródki","ref":"129"},
+  {"id":8144029413,"lat":53.852398,"lon":22.344507,"k":"x"}
+],
+"routes":[
+  {"id":20608994,"t":{"ref":"3","name":"alt","from":"Ogródki-Pętla","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus"},"n":2,"s":[[8144029413,1],[2539018178,2]]},
+  {"id":20608995,"t":{"ref":"3","name":"alt c","from":"Zakłady Mięsne","to":"Ogródki-Pętla","operator":"MZK Ełk","route":"bus"},"n":2,"s":[[8144029413,1],[2539018178,2]]},
+  {"id":20608996,"t":{"ref":"3","name":"alt a","from":"Zakłady Mięsne","to":"Chojniak","operator":"MZK Ełk","route":"bus"},"n":6,"s":[[1859471363,1],[1859471284,2]]},
+  {"id":20608998,"t":{"ref":"3","name":"alt","from":"Zakłady Mięsne","to":"Sajzy","operator":"MZK Ełk","route":"bus"},"n":51,"s":[[1859471284,5],[1859471363,6],[8144029399,38],[8144029400,39],[1619528323,40]]},
+  {"id":20608999,"t":{"ref":"3","name":"alt","from":"Sajzy","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus"},"n":30,"s":[[1859471284,19],[1859471363,20]]},
+  {"id":20609012,"t":{"ref":"6","name":"alt","from":"Szpital","to":"Działki","operator":"MZK Ełk","route":"bus"},"n":8,"s":[[8144029413,5],[2539018178,6]]},
+  {"id":20609013,"t":{"ref":"6","name":"alt","from":"Działki","to":"Szpital","operator":"MZK Ełk","route":"bus"},"n":9,"s":[[8144029413,1],[2539018178,2],[8144029409,4]]},
+  {"id":20609031,"t":{"ref":"14","name":"alt","from":"Straduny","to":"Szpital/Konieczki","operator":"MZK Ełk","route":"bus"},"n":24,"s":[[1859471363,1],[1859471284,2],[8144029398,3],[8144029399,4],[1619528323,5],[8144029400,6],[8144029405,18],[8144029407,19],[8144029409,20]]},
+  {"id":20609038,"t":{"ref":"14","name":"alt","from":"Szpital/Jeziorna","to":"Straduny","operator":"MZK Ełk","route":"bus"},"n":10,"s":[[8144029408,5],[8144029406,6],[2539125405,7],[2540740261,8],[1859471284,9],[1859471363,10]]},
+  {"id":3038735614002,"t":{"ref":"3","from":"Straduny","to":"Zakłady Mięsne","operator":"MZK EŁK","route":"bus","public_transport:version":"2"},"n":22,"s":[[1859471284,3],[8144029398,4],[8144029405,5],[8144029407,6],[8144029409,7]]},
+  {"id":3045027918187,"t":{"ref":"3","from":"Zakłady Mięsne","to":"Straduny","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":21,"s":[[8144029408,15],[8144029406,16],[2539125405,17],[2540740261,18],[1859471284,19]]},
+  {"id":3048656118888,"t":{"ref":"3","name":"3: Zakłady Mięsne - Sajzy - Pętla","from":"Zakłady Mięsne","to":"Sajzy - Pętla","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":37,"s":[[8144029408,15],[8144029406,16],[2539125405,17],[2540740261,18],[1859471284,19,23]]},
+  {"id":3053696242715,"t":{"ref":"3","from":"Straduny","to":"Zakłady Mięsne","operator":"MZK EŁK","route":"bus","public_transport:version":"2"},"n":29,"s":[[1859471284,10],[8144029398,11],[8144029405,12],[8144029407,13],[8144029409,14]]},
+  {"id":3070973139061,"t":{"ref":"3","from":"Straduny","to":"Zakłady Mięsne","operator":"MZK EŁK","route":"bus","public_transport:version":"2"},"n":34,"s":[[1859471284,15],[8144029398,16],[8144029405,17],[8144029407,18],[8144029409,19]]},
+  {"id":3071315641653,"t":{"ref":"3","from":"Zakłady Mięsne","to":"Straduny","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":19,"s":[[8144029408,15],[8144029406,16],[2539125405,17],[2540740261,18],[1859471284,19]]},
+  {"id":3093830159080,"t":{"ref":"3","from":"Straduny","to":"Zakłady Mięsne","operator":"MZK EŁK","route":"bus","public_transport:version":"2"},"n":20,"s":[[1859471284,1],[8144029398,2],[8144029405,3],[8144029407,4],[8144029409,5]]}
+]
+}

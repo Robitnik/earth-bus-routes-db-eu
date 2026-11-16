@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2857,3958],
+"stops":[
+  {"id":1409863314,"lat":52.857317,"lon":17.943702,"k":"s","n":"Barcin"},
+  {"id":12239726851,"lat":52.857383,"lon":17.943762,"k":"x","n":"Barcin"},
+  {"id":12239726852,"lat":52.856614,"lon":17.940445,"k":"p","n":"Barcin / Mogileńska"},
+  {"id":12239726853,"lat":52.856268,"lon":17.939688,"k":"p","n":"Barcin / Mogileńska"},
+  {"id":12239726854,"lat":52.85252,"lon":17.945622,"k":"p","n":"Barcin / Dworcowa"},
+  {"id":12239726855,"lat":52.852648,"lon":17.94551,"k":"p","n":"Barcin / Dworcowa"},
+  {"id":13320283437,"lat":52.871643,"lon":17.948394,"k":"x","n":"Barcin Wieś V,VI"},
+  {"id":13320283438,"lat":52.872325,"lon":17.948673,"k":"x","n":"Barcin Wieś V,VI"},
+  {"id":13320283439,"lat":52.872305,"lon":17.948789,"k":"p","n":"Barcin Wieś V,VI"},
+  {"id":13320283440,"lat":52.871669,"lon":17.948268,"k":"p","n":"Barcin Wieś V,VI"}
+],
+"routes":[
+  {"id":18145182,"t":{"ref":"21047","name":"PKS Linia 21047: Barcin => Bydgoszcz","from":"Barcin","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":30,"s":[[13320283439,1],[12239726853,2],[12239726854,3]]},
+  {"id":18145183,"t":{"ref":"21047","name":"PKS Linia 21047: Bydgoszcz => Barcin","from":"Bydgoszcz, Dworzec Autobusowy","to":"Barcin","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":30,"s":[[13320283440,1],[12239726852,2],[12239726855,3],[1409863314,30]]},
+  {"id":21172128,"t":{"name":"Sprint-Trans trasa Barcin - Inowrocław","from":"Barcin","to":"Inowrocław","route":"bus"},"n":11,"s":[[12239726851,1],[12239726854,2]]}
+]
+}

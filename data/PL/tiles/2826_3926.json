@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2826,3926],
+"stops":[
+  {"id":2891840974,"lat":51.331327,"lon":16.304523,"k":"p","n":"Miłosna 67","ref":"400"},
+  {"id":2891846102,"lat":51.331341,"lon":16.304158,"k":"p","n":"Miłosna 12","ref":"401"},
+  {"id":3196316454,"lat":51.340531,"lon":16.336423,"k":"p"},
+  {"id":4152659809,"lat":51.324255,"lon":16.345651,"k":"x","n":"Gromadzyń - Pętla","ref":"912-02"},
+  {"id":4613616437,"lat":51.331306,"lon":16.304368,"k":"x","n":"Miłosna 67","ref":"400"},
+  {"id":5010528216,"lat":51.316457,"lon":16.324436,"k":"x"},
+  {"id":5670030931,"lat":51.306798,"lon":16.341445,"k":"p","n":"Mierzowice - Pętla","ref":"848-01"},
+  {"id":9351175377,"lat":51.316706,"lon":16.323782,"k":"p","n":"Gogołowice wieś - pętla 01","ref":"403"},
+  {"id":9351175381,"lat":51.317482,"lon":16.323626,"k":"x"},
+  {"id":9399368931,"lat":51.31751,"lon":16.323713,"k":"p","n":"Gogołowice"},
+  {"id":9399368932,"lat":51.316459,"lon":16.324332,"k":"p","n":"Gogołowice"},
+  {"id":10969365655,"lat":51.306822,"lon":16.34151,"k":"x","n":"Mierzowice - Pętla","ref":"848-01"},
+  {"id":13234439967,"lat":51.331391,"lon":16.304239,"k":"x","n":"Miłosna 12","ref":"401"},
+  {"id":13234439969,"lat":51.316735,"lon":16.323788,"k":"x","n":"Gogołowice wieś - pętla 01","ref":"403"},
+  {"id":13245759925,"lat":51.305052,"lon":16.349947,"k":"x","n":"Mierzowice - Nr 15","ref":"847-04"},
+  {"id":13245759926,"lat":51.305022,"lon":16.349864,"k":"p","n":"Mierzowice - Nr 15","ref":"847-04"},
+  {"id":13572512541,"lat":51.324282,"lon":16.345694,"k":"p","n":"Gromadzyń - Pętla","ref":"912-02"}
+],
+"routes":[
+  {"id":19717422,"t":{"ref":"100","name":"Bus 100: Gola Pętla p. Miroszowice, Niemstów=> Prochowice","from":"Gola Petla 08","to":"Prochowice - Rynek","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":39,"s":[[2891846102,34],[9351175377,35]]},
+  {"id":19717768,"t":{"ref":"100","name":"Bus 100: Prochowice - Rynek p. Miroszowice => Gola Pętla","from":"Prochowice - Rynek","to":"Gola Pętla 08","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":30,"s":[[9351175377,5],[2891840974,6]]},
+  {"id":19734958,"t":{"ref":"100","name":"Bus 100: Lubin KGHM - Pętla p. Niemstów, Mierzowice => Prochowice - Rynek","from":"Lubin KGHM - Pętla 01","to":"Prochowice - Rynek","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":33,"s":[[2891846102,27],[9351175377,28],[5670030931,29]]},
+  {"id":19734961,"t":{"ref":"100","name":"Bus 100: Prochowice - Rynek p. Mierzowice => Lubin KGHM - Pętla","from":"Prochowice - Rynek","to":"Lubin KGHM - Pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":24,"s":[[5670030931,7],[9351175377,8],[2891840974,9]]},
+  {"id":19734962,"t":{"ref":"100","name":"Bus 100: Lubin KGHM - Pętla p. Miroszowice, Niemstów => Gogołowice wieś - pętla","from":"Lubin KGHM - Pętla 01","to":"Gogołowice wieś - pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":31,"s":[[2891846102,30],[9351175377,31]]},
+  {"id":19734963,"t":{"ref":"100","name":"Bus 100: Gogołowice wieś - pętla p. Niemstów, Miroszowice => Gola Pętla","from":"Gogołowice wieś - pętla 01","to":"Gola Pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":33,"s":[[9351175377,1],[2891840974,2]]},
+  {"id":19735159,"t":{"ref":"100","name":"Bus 100: Lubin KGHM - Pętla p. Miroszowice pętla => Gogołowice wieś - pętla","from":"Lubin KGHM - Pętla 01","to":"Gogołowice wieś - pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus"},"n":21,"s":[[2891846102,20],[9351175377,21]]},
+  {"id":19738967,"t":{"ref":"100","name":"Bus 100: Gogołowice wieś - pętla p. Niemstów, Miroszowice => Lubin KGHM - Pętla","from":"Gogołowice wieś - pętla 01","to":"Lubin KGHM - Pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":30,"s":[[9351175377,1],[2891840974,2]]},
+  {"id":19738968,"t":{"ref":"100","name":"Bus 100: Lubin Kościuszki / Paderewskiego p. Miroszowice, Niemstów => Gogołowice wieś - pętla","from":"Lubin Kościuszki / Paderewskiego 04","to":"Gogołowice wieś - pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":25,"s":[[2891846102,24],[9351175377,25]]},
+  {"id":19738969,"t":{"ref":"100","name":"Bus 100: Gogołowice wieś - pętla p. Niemstów => Lubin KGHM - Pętla","from":"Gogołowice woeś - pętla 01","to":"Lubin KGHM - Pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":27,"s":[[9351175377,1],[2891840974,2]]},
+  {"id":19742412,"t":{"ref":"100","name":"Bus 100: Lubin Kościuszki / Paderewskiego => Prochowice - Rynek","from":"Lubin Kościuszki / Paderewskiego 04","to":"Prochowice - Rynek","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":16,"s":[[2891846102,11],[9351175377,12]]},
+  {"id":19742413,"t":{"ref":"100","name":"Bus 100: Prochowice - Rynek p. Niemstów, Miroszowice => Lubin Kościuszki / Paderewskiego","from":"Prochowice - Rynek","to":"Lubin Kościuszki / Paderewskiego 02","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":30,"s":[[9351175377,6],[2891840974,7]]},
+  {"id":19742414,"t":{"ref":"100","name":"Bus 100: Prochowice - Rynek p. Miroszowice => Lubin Kościuszki / Paderewskiego","from":"Prochowice - Rynek","to":"Lubin Kościuszki / Paderewskiego 02","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus","public_transport:version":"2"},"n":20,"s":[[9351175377,6],[2891840974,7]]},
+  {"id":19742415,"t":{"ref":"100","name":"Bus 100: Lubin Kościuszki / Paderewskiego p. Miroszowice => Gogołowice wieś - pętla","from":"Lubin Kościuszki / Paderewskiego 04","to":"Gogołowice wieś - pętla 01","network":"Lubińskie Przewozy Pasażerskie","operator":"PKS Lubin S.A.","colour":"#000000","route":"bus"},"n":15,"s":[[2891846102,14],[9351175377,15]]},
+  {"id":20229483,"t":{"ref":"10","name":"Bus 10: Dworcowa PKP => Gromadzyń","from":"Dworcowa - PKP","to":"Gromadzyń - Pętla","colour":"#F61160","route":"bus","public_transport:version":"2"},"n":23,"s":[[5670030931,22],[13572512541,23]]},
+  {"id":20229495,"t":{"ref":"10","name":"Bus 10: Gromadzyń => Dworcowa PKP","from":"Gromadzyń - Pętla","to":"Dworcowa - PKP","colour":"#F61160","route":"bus"},"n":23,"s":[[13572512541,1],[5670030931,2],[13245759926,3]]}
+]
+}

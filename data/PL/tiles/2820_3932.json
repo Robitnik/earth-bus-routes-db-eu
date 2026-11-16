@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2820,3932],
+"stops":[
+  {"id":3230370790,"lat":51.045903,"lon":16.610939,"k":"p","n":"Kostomłoty Skwer J.P.II"},
+  {"id":13667220208,"lat":51.045911,"lon":16.610885,"k":"x","n":"Kostomłoty Skwer J.P.II"},
+  {"id":13667220220,"lat":51.019956,"lon":16.630851,"k":"p","n":"Paździorno"},
+  {"id":13667220221,"lat":51.019931,"lon":16.631007,"k":"x","n":"Paździorno"},
+  {"id":14180298106,"lat":51.042708,"lon":16.616075,"k":"p","n":"Kostomłoty Szkoła"},
+  {"id":14180298107,"lat":51.042664,"lon":16.616049,"k":"x","n":"Kostomłoty Szkoła"}
+],
+"routes":[
+  {"id":20358384,"t":{"ref":"P5","name":"P5: Kostomłoty -> Wichrów –> Kostomłoty –> Środa Śląska","from":"Kostomłoty Skwer J.P.II","to":"Środa Śląska ul. Legnicka / Dworzec a.","route":"bus"},"n":17,"s":[[3230370790,1,8],[13667220220,7]]},
+  {"id":20358385,"t":{"ref":"P5","name":"P5: Wichrów –> Kostomłoty –> Środa Śląska","from":"Wichrów","to":"Środa Śląska ul. Legnicka /Dworzec a.","route":"bus"},"n":13,"s":[[3230370790,4]]},
+  {"id":20358386,"t":{"ref":"P5","name":"P5: Wichrów –> Piotrowice -> Kostomłoty –> Środa Śląska","from":"Wichrów","to":"Środa Śląska ul. Legnicka / Dworzec a.","route":"bus"},"n":27,"s":[[13667220220,6],[3230370790,18]]},
+  {"id":20360456,"t":{"ref":"P5","name":"P5: Środa Śląska -> Kostomłoty -> Wichrów","from":"Środa Śląska ul. Legnicka / Dworzec a.","to":"Wichrów","route":"bus"},"n":10,"s":[[3230370790,8]]},
+  {"id":20360457,"t":{"ref":"P5","name":"P5: Środa Śląska -> Kostomłoty -> Wichrów -> Kostomłoty","from":"Środa Śląska ul. Legnicka / Dworzec a.","to":"Kostomłoty","route":"bus"},"n":25,"s":[[3230370790,7,24],[13667220220,18]]},
+  {"id":20360458,"t":{"ref":"P5","name":"P5: Środa Śląska -> Kostomłoty -> Piotrowice -> Wichrów","from":"Środa Śląska ul. Legnicka / Dworzec a.","to":"Wichrów","route":"bus"},"n":25,"s":[[3230370790,7],[13667220220,18]]},
+  {"id":21390982,"t":{"ref":"G1","name":"G1: Wichrów -> Kostomłoty -> Kąty Wrocławskie","from":"Wichrów","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":8,"s":[[3230370790,2],[13667220220,3]]},
+  {"id":21390983,"t":{"ref":"G1","name":"G1: Wichrów -> Kostomłoty -> Kąty Wrocławskie","from":"Wichrów","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":15,"s":[[13667220220,7],[3230370790,8],[14180298106,9]]},
+  {"id":21390984,"t":{"ref":"G1","name":"G1: Kostomłoty ->Wichrów -> Kąty Wrocławskie","from":"Kostomłoty Skwer","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":16,"s":[[3230370790,1,9],[13667220220,8],[14180298106,10]]},
+  {"id":21390985,"t":{"ref":"G1","name":"G1: Kostomłoty -> Kąty Wrocławskie","from":"Kostomłoty","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":8,"s":[[3230370790,1],[14180298106,2]]},
+  {"id":21391688,"t":{"ref":"G1","name":"G1-1: Kąty Wrocławskie -> Kostomłoty -> Wichrów","from":"Kąty Wrocławskie/Rynek","to":"Wichrów","route":"bus"},"n":11,"s":[[14180298106,9],[3230370790,10]]},
+  {"id":21391689,"t":{"ref":"G1","name":"G1-2: Kąty Wrocławskie -> Kostomłoty -> Wichrów","from":"Kąty Wrocławskie/Rynek","to":"Wichrów","route":"bus"},"n":9,"s":[[13667220220,7],[3230370790,8]]},
+  {"id":21391690,"t":{"ref":"G1","name":"G1-3,4: Kąty Wrocławskie -> Kostomłoty -> Wichrów","from":"Kąty Wrocławskie/Rynek","to":"Kostomłoty","route":"bus"},"n":17,"s":[[14180298106,8],[3230370790,9,17],[13667220220,10]]},
+  {"id":21391691,"t":{"ref":"G1","name":"G1-5: Kąty Wrocławskie -> Kostomłoty","from":"Kąty Wrocławskie/Rynek","to":"Kostomłoty","route":"bus"},"n":19,"s":[[3230370790,11,19],[13667220220,12]]}
+]
+}

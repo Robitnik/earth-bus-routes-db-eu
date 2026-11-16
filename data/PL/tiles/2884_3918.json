@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2884,3918],
+"stops":[
+  {"id":1794799680,"lat":54.248332,"lon":15.948218,"k":"s","n":"Sarbinowo Nadmorska Pętla"},
+  {"id":2407199203,"lat":54.205774,"lon":15.907968,"k":"p","n":"Borkowice","ref":"100004Z/01"},
+  {"id":2455696189,"lat":54.204509,"lon":15.909419,"k":"p","n":"Borkowice skrzyżowanie"},
+  {"id":2455696192,"lat":54.204904,"lon":15.91016,"k":"p","n":"Borkowice skrzyżowanie"},
+  {"id":2455696203,"lat":54.2066,"lon":15.925358,"k":"p","n":"Dworek skrzyżowanie"},
+  {"id":2455696206,"lat":54.2186,"lon":15.931881,"k":"p","n":"Dworek, Osiedle"},
+  {"id":2455696211,"lat":54.229092,"lon":15.926249,"k":"p","n":"Kiszkowo"},
+  {"id":2455696213,"lat":54.237528,"lon":15.920215,"k":"p","n":"Gąski, POHZ"},
+  {"id":3035928435,"lat":54.206577,"lon":15.932826,"k":"p","n":"Uliszki"},
+  {"id":11453044222,"lat":54.238067,"lon":15.919666,"k":"p","n":"Gąski, POHZ"},
+  {"id":12777213392,"lat":54.237944,"lon":15.921431,"k":"p","n":"Gąski, POHZ"},
+  {"id":13410830295,"lat":54.237149,"lon":15.945244,"k":"p","n":"Pękalin"},
+  {"id":13410830296,"lat":54.237248,"lon":15.944775,"k":"p","n":"Pękalin"}
+],
+"routes":[
+  {"id":18969713,"t":{"name":"AIRBUS Koszalin - Ustronie Morskie","from":"Koszalin","to":"Ustronie Morskie","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[2455696203,14],[2455696192,15]]},
+  {"id":18969714,"t":{"name":"AIRBUS Ustronie Morskie -Koszalin","from":"Ustronie Morskie","to":"Koszalin","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[2455696189,4],[2455696203,5]]},
+  {"id":19023742,"t":{"ref":"3261/108","name":"Koszalin->Gąski/Śmiechów","from":"Koszalin","to":"Śmiechów","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":21,"s":[[2455696203,14],[2455696206,15],[2455696211,16],[11453044222,17]]},
+  {"id":19023743,"t":{"ref":"3261/108","name":"Gąski/Śmiechów->Koszalin","from":"Śmiechów","to":"Koszalin","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":20,"s":[[2455696213,5],[2455696211,6],[2455696206,7],[2455696203,8]]},
+  {"id":19357789,"t":{"ref":"3261/205","name":"AR-BOS Koszalin ->Sarbinowo","from":"Koszalin","to":"Sarbinowo","operator":"Ar-bos","route":"bus","public_transport:version":"2"},"n":10,"s":[[1794799680,10]]},
+  {"id":20414466,"t":{"name":"KMM Unieście -> Gąski","from":"Mielno","to":"Gąski","operator":"Gmina Mielno","route":"bus","public_transport:version":"2"},"n":5,"s":[[1794799680,1],[12777213392,2],[13410830295,3]]},
+  {"id":20517409,"t":{"name":"KMM Gąski -> Unieście","from":"Gąski","to":"Unieście","operator":"Gmina Mielno","route":"bus","public_transport:version":"2"},"n":6,"s":[[1794799680,1]]}
+]
+}

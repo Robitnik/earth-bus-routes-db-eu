@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2851,3953],
+"stops":[
+  {"id":2508217188,"lat":52.550655,"lon":17.689878,"k":"x"},
+  {"id":2697571185,"lat":52.582903,"lon":17.662516,"k":"p"},
+  {"id":2697573431,"lat":52.59166,"lon":17.672689,"k":"p","n":"szkolny"},
+  {"id":10587189876,"lat":52.550586,"lon":17.683121,"k":"p"},
+  {"id":10911663427,"lat":52.556044,"lon":17.656611,"k":"x","n":"Wełnica P.","ref":"513-01"},
+  {"id":11328229884,"lat":52.558538,"lon":17.651808,"k":"p","n":"Wełnica 06"},
+  {"id":11328229885,"lat":52.558574,"lon":17.651849,"k":"x","n":"Wełnica 06","ref":"515-01"},
+  {"id":11328229886,"lat":52.558452,"lon":17.652286,"k":"p","n":"Wełnica 07"},
+  {"id":11328229887,"lat":52.558422,"lon":17.652262,"k":"x","n":"Wełnica 07","ref":"435-01"},
+  {"id":11329912603,"lat":52.573056,"lon":17.651479,"k":"x","n":"Wełnica 03","ref":"436-01"},
+  {"id":13451457505,"lat":52.550712,"lon":17.689836,"k":"p"},
+  {"id":13451457531,"lat":52.550525,"lon":17.687662,"k":"p"},
+  {"id":13451457532,"lat":52.550618,"lon":17.687695,"k":"x"},
+  {"id":13451457627,"lat":52.550511,"lon":17.683141,"k":"x"},
+  {"id":5001221420246,"lat":52.556018,"lon":17.656544,"k":"p","n":"Wełnica P."},
+  {"id":5001221610625,"lat":52.573084,"lon":17.651413,"k":"p","n":"Wełnica 03"}
+],
+"routes":[
+  {"id":6474192,"t":{"ref":"12","name":"12: Wełnica => Obora","from":"Wełnica P.","to":"Obora P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":28,"s":[[5001221420246,1],[11328229886,2]]},
+  {"id":6474193,"t":{"ref":"13","name":"13: Wełnica => Jabłoniowa","from":"Wełnica P.","to":"Jabłoniowa K.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001221420246,1],[11328229886,2]]},
+  {"id":10993418,"t":{"ref":"15","name":"15: Paczkowskiego => Wełnica","from":"Paczkowskiego","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":12,"s":[[5001221420246,12]]},
+  {"id":16657879,"t":{"ref":"12","name":"12: Wełnica => Obora via Żerniki","from":"Wełnica P.","to":"Obora P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":31,"s":[[5001221420246,1],[11328229886,2]]},
+  {"id":16657949,"t":{"ref":"12","name":"12: Obora => Wełnica","from":"Obora P.","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":28,"s":[[11328229884,27],[5001221420246,28]]},
+  {"id":16657950,"t":{"ref":"12","name":"12: Obora => Wełnica via Żerniki","from":"Obora P.","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":31,"s":[[11328229884,30],[5001221420246,31]]},
+  {"id":16661322,"t":{"ref":"12","name":"12: Obora => Wełnica via Wełnica 03","from":"Obora P.","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":29,"s":[[5001221610625,26],[11328229884,28],[5001221420246,29]]},
+  {"id":16661323,"t":{"ref":"12","name":"12: Wełnica => Obora via Wełnica 03","from":"Wełnica P.","to":"Obora P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":29,"s":[[5001221420246,1],[11328229886,2],[5001221610625,4]]},
+  {"id":16661324,"t":{"ref":"13","name":"13: Jabłoniowa => Wełnica via Wełnica 03","from":"Jabłoniowa 01","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001221610625,18],[11328229884,20],[5001221420246,21]]},
+  {"id":16661325,"t":{"ref":"13","name":"13: Jabłoniowa => Wełnica","from":"Jabłoniowa 01","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":20,"s":[[11328229884,19],[5001221420246,20]]},
+  {"id":16661516,"t":{"ref":"15","name":"15: Wełnica => Paczkowskiego","from":"Wełnica P.","to":"Paczkowskiego","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":12,"s":[[5001221420246,1]]},
+  {"id":16661517,"t":{"ref":"15","name":"15: Wełnica => Paczkowskiego via Wierzbiczany","from":"Wełnica P.","to":"Paczkowskiego","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":19,"s":[[5001221420246,1]]},
+  {"id":16661518,"t":{"ref":"15","name":"15: Paczkowskiego => Wełnica via Wierzbiczany","from":"Paczkowskiego","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001221420246,21]]}
+]
+}

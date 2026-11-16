@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2833,4018],
+"stops":[
+  {"id":1615946555,"lat":51.673757,"lon":20.942899,"k":"x","n":"Falęcice I"},
+  {"id":11331489429,"lat":51.673598,"lon":20.943149,"k":"p","n":"Falęcice I"},
+  {"id":11331489430,"lat":51.673681,"lon":20.942792,"k":"p","n":"Falęcice I"},
+  {"id":11331489431,"lat":51.663762,"lon":20.949238,"k":"p","n":"Falęcice II"},
+  {"id":11331489432,"lat":51.665105,"lon":20.948616,"k":"p","n":"Falęcice II"},
+  {"id":12670899545,"lat":51.673519,"lon":20.943056,"k":"x","n":"Falęcice I"},
+  {"id":12670904721,"lat":51.663788,"lon":20.949357,"k":"x","n":"Falęcice II"},
+  {"id":12670904744,"lat":51.665086,"lon":20.948516,"k":"x","n":"Falęcice II"},
+  {"id":13014198880,"lat":51.695817,"lon":20.931121,"k":"x","n":"Promna Kolonia"},
+  {"id":13014213904,"lat":51.695837,"lon":20.931228,"k":"p","n":"Promna Kolonia"},
+  {"id":13014213979,"lat":51.694724,"lon":20.93159,"k":"x","n":"Promna Kolonia"},
+  {"id":13014214028,"lat":51.694707,"lon":20.93148,"k":"p","n":"Promna Kolonia"},
+  {"id":13021067557,"lat":51.670958,"lon":20.91345,"k":"p","n":"Góry"},
+  {"id":13021067592,"lat":51.671035,"lon":20.913418,"k":"p","n":"Góry"},
+  {"id":13021068243,"lat":51.671006,"lon":20.913419,"k":"x","n":"Góry"},
+  {"id":13121893470,"lat":51.672288,"lon":20.935127,"k":"p","n":"Falęcice Wola"},
+  {"id":13121893474,"lat":51.67225,"lon":20.935152,"k":"x","n":"Falęcice Wola"},
+  {"id":13121893476,"lat":51.672182,"lon":20.935191,"k":"p","n":"Falęcice Wola"}
+],
+"routes":[
+  {"id":18857766,"t":{"ref":"2121","name":"Bus 2121: Grójec => Warka => Białobrzegi","from":"Grójec D.A.","to":"Białobrzegi P.D. Poświętna","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":44,"s":[[11331489430,42],[11331489431,43]]},
+  {"id":18857767,"t":{"ref":"118","name":"Bus 118: Warka => Białobrzegi","from":"Warka Długa 04","to":"Białobrzegi P.D. Poświętna","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":20,"s":[[11331489430,18],[11331489431,19]]},
+  {"id":18857769,"t":{"ref":"118","name":"Bus 118: Białobrzegi => Warka","from":"Białobrzegi P.D. Poświętna","to":"Warka Długa 04","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":19,"s":[[11331489432,2],[11331489429,3]]},
+  {"id":18857770,"t":{"ref":"2121","name":"Bus 2121: Białobrzegi => Warka => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":44,"s":[[11331489432,2],[11331489429,3]]},
+  {"id":19031425,"t":{"ref":"9","name":"Bus 9: Warszawa => Sucha","from":"Warszawa PKP Służewiec","to":"Sucha Wieś","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":17,"s":[[11331489430,14],[11331489431,15]]},
+  {"id":19031426,"t":{"ref":"9","name":"Bus 9: Sucha => Warszawa","from":"Sucha Wieś","to":"Warszawa PKP Służewiec","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":17,"s":[[11331489432,3],[11331489429,4]]},
+  {"id":19569349,"t":{"ref":"2093","name":"Bus 2093: Białobrzegi => Przybyszew => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":31,"s":[[11331489432,2],[11331489429,3],[13121893470,4],[13021067592,5]]},
+  {"id":19569350,"t":{"ref":"2061","name":"Bus 2061: Białobrzegi => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":20,"s":[[11331489432,2],[11331489429,3],[13014213904,4]]},
+  {"id":19569351,"t":{"ref":"2061","name":"Bus 2061: Grójec => Białobrzegi","from":"Grójec D.A.","to":"Białobrzegi P.D. Poświętna","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":20,"s":[[13014214028,17],[11331489430,18],[11331489431,19]]},
+  {"id":19569352,"t":{"ref":"2092","name":"Bus 2092: Grójec => Goszczyn => Białobrzegi","from":"Grójec D.A.","to":"Białobrzegi P.D. Poświętna","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":23,"s":[[13014214028,20],[11331489430,21],[11331489431,22]]},
+  {"id":19569353,"t":{"ref":"2092","name":"Bus 2092: Białobrzegi => Goszczyn => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":23,"s":[[11331489432,2],[11331489429,3],[13014213904,4]]}
+]
+}

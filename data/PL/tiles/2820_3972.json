@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2820,3972],
+"stops":[
+  {"id":4480588028,"lat":51.025766,"lon":18.647549,"k":"p","n":"Jaworzno"},
+  {"id":4480588029,"lat":51.024753,"lon":18.648065,"k":"p","n":"Jaworzno"},
+  {"id":4491909369,"lat":51.032461,"lon":18.618789,"k":"x","n":"Jaworek"},
+  {"id":9817821636,"lat":51.031197,"lon":18.622335,"k":"p","n":"Jaworek"},
+  {"id":9817821658,"lat":51.032532,"lon":18.61885,"k":"p","n":"Jaworek"},
+  {"id":11587031862,"lat":51.031279,"lon":18.622418,"k":"x","n":"Jaworek"},
+  {"id":11587031867,"lat":51.027572,"lon":18.646202,"k":"p","n":"Jaworzno OSP"},
+  {"id":11587031868,"lat":51.027534,"lon":18.646074,"k":"x","n":"Jaworzno OSP"},
+  {"id":11587132473,"lat":51.028572,"lon":18.645107,"k":"p","n":"Jaworzno OSP"},
+  {"id":11587132474,"lat":51.028611,"lon":18.645235,"k":"x","n":"Jaworzno OSP"},
+  {"id":11591936313,"lat":51.024797,"lon":18.648176,"k":"x","n":"Jaworzno"},
+  {"id":11591936324,"lat":51.025746,"lon":18.647446,"k":"x","n":"Jaworzno"},
+  {"id":11663370010,"lat":51.030757,"lon":18.643498,"k":"p","n":"Mirowszczyzna Szkoła"},
+  {"id":11663370011,"lat":51.030808,"lon":18.643475,"k":"x","n":"Mirowszczyzna Szkoła"}
+],
+"routes":[
+  {"id":17237386,"t":{"ref":"abx","name":"ABX2bus: Rudniki => Częstochowa via Lipie","from":"Rudniki Centrum Przesiadkowe","to":"Częstochowa Dworzec PKS","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":41,"s":[[9817821636,2],[11587031867,3]]},
+  {"id":17238491,"t":{"ref":"abx","name":"ABX2bus: Częstochowa => Rudniki via Lipie","from":"Częstochowa Dworzec Autobusowy","to":"Rudniki Centrum Przesiadkowe","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":42,"s":[[11587132473,40],[9817821658,41]]},
+  {"id":17267564,"t":{"ref":"R2","name":"R2: Mirowszczyzna => Rudniki","from":"Mirowszczyzna Szkoła","to":"Rudniki Centrum Przesiadkowe","network":"Gminny Publiczny Transport Zbiorowy","operator":"Gmina Rudniki","route":"bus","public_transport:version":"2"},"n":4,"s":[[11663370010,1],[11587132473,2],[9817821658,3]]},
+  {"id":17267565,"t":{"ref":"R2","name":"R2: Rudniki => Mirowszczyzna","from":"Rudniki Centrum Przesiadkowe","to":"Mirowszczyzna Szkoła","network":"Gminny Publiczny Transport Zbiorowy","operator":"Gmina Rudniki","route":"bus","public_transport:version":"2"},"n":4,"s":[[9817821636,2],[11587031867,3],[11663370010,4]]},
+  {"id":17287338,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Częstochowa via Praszka","from":"Wieluń Warszawska / Intermarche","to":"Częstochowa Dworzec PKS","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":51,"s":[[9817821636,22],[4480588029,23]]},
+  {"id":17288742,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Częstochowa","from":"Wieluń Warszawska / Intermarche","to":"Częstochowa Dworzec PKS","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":44,"s":[[9817821636,15],[4480588029,16]]},
+  {"id":17288743,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Jaworek","from":"Wieluń Warszawska / Intermarche","to":"Jaworek","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":22,"s":[[9817821636,22]]},
+  {"id":17288744,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Jaworzno","from":"Wieluń Warszawska / Intermarche","to":"Jaworzno","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":15,"s":[[4480588029,15]]},
+  {"id":17288745,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Częstochowa (przyspieszony)","from":"Wieluń Warszawska / Intermarche","to":"Częstochowa Dworzec PKS","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":21,"s":[[4480588029,15]]}
+]
+}

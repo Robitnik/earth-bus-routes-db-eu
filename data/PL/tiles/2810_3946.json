@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2810,3946],
+"stops":[
+  {"id":2376873828,"lat":50.512318,"lon":17.334869,"k":"p","n":"Regulice RSP"},
+  {"id":2376873829,"lat":50.512295,"lon":17.334746,"k":"p","n":"Regulice RSP"},
+  {"id":2376873831,"lat":50.514998,"lon":17.335434,"k":"p","n":"Regulice pętla"},
+  {"id":3286976610,"lat":50.527373,"lon":17.329707,"k":"p","n":"Bykowice PKP"},
+  {"id":3286976611,"lat":50.529327,"lon":17.326879,"k":"p","n":"Bykowice"},
+  {"id":3286977119,"lat":50.51438,"lon":17.306944,"k":"p","n":"Sękowice pętla"},
+  {"id":9399430441,"lat":50.549811,"lon":17.317673,"k":"p","n":"Goszowice skrzyżowanie"},
+  {"id":9399430444,"lat":50.53198,"lon":17.300861,"k":"p","n":"Korzękwice"},
+  {"id":11028422457,"lat":50.514989,"lon":17.335554,"k":"x","n":"Regulice pętla"},
+  {"id":13334732626,"lat":50.532059,"lon":17.300986,"k":"p","n":"Korzękwice"},
+  {"id":13334732627,"lat":50.544666,"lon":17.314492,"k":"p","n":"Goszowice szkoła"},
+  {"id":13334732628,"lat":50.54543,"lon":17.315427,"k":"p","n":"Goszowice szkoła"},
+  {"id":13334732629,"lat":50.549568,"lon":17.319051,"k":"p","n":"Goszowice skrzyżowanie"},
+  {"id":13334732630,"lat":50.538301,"lon":17.309305,"k":"p","n":"Frączków przedszkole"},
+  {"id":13334732631,"lat":50.539493,"lon":17.30873,"k":"p","n":"Frączków"},
+  {"id":13334732632,"lat":50.539587,"lon":17.308871,"k":"p","n":"Frączków"},
+  {"id":13359712653,"lat":50.547661,"lon":17.341245,"k":"p","n":"Reńska Wieś"},
+  {"id":13359712656,"lat":50.546386,"lon":17.348536,"k":"p","n":"Pakosławice gimnazjum"}
+],
+"routes":[
+  {"id":11014012,"t":{"ref":"7","name":"Bus 7 Sękowice→Domaszkowice","from":"Sękowice pętla","to":"Domaszkowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":28,"s":[[3286977119,1]]},
+  {"id":11014013,"t":{"ref":"7","name":"Bus 7 Domaszkowice→Sękowice","from":"Domaszkowice pętla","to":"Sękowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":27,"s":[[3286977119,27]]},
+  {"id":11027891,"t":{"ref":"1","name":"Bus 1 Regulice→Przełęk","from":"Regulice pętla","to":"Przełęk POM","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#C60000","route":"bus","public_transport:version":"2"},"n":19,"s":[[2376873831,1],[2376873829,2]]},
+  {"id":11027892,"t":{"ref":"1","name":"Bus 1 Przełęk→Regulice","from":"Przełęk POM","to":"Regulice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#C60000","route":"bus","public_transport:version":"2"},"n":18,"s":[[2376873828,17],[2376873831,18]]},
+  {"id":11027893,"t":{"ref":"1","name":"Bus 1 Regulice→Jarnołtów","from":"Regulice pętla","to":"Jarnołtów pętla II","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#C60000","route":"bus","public_transport:version":"2"},"n":31,"s":[[2376873831,1],[2376873829,2]]},
+  {"id":11027894,"t":{"ref":"1","name":"Bus 1 Jarnołtów→Regulice","from":"Jarnołtów pętla II","to":"Regulice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#C60000","route":"bus","public_transport:version":"2"},"n":30,"s":[[2376873828,29],[2376873831,30]]},
+  {"id":14033006,"t":{"ref":"7","name":"Bus 7 Domaszkowice→Strefa→Sękowice","from":"Domaszkowice pętla","to":"Sękowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":28,"s":[[3286977119,28]]},
+  {"id":14033007,"t":{"ref":"7","name":"Bus 7 Sękowice→Strefa→Domaszkowice","from":"Sękowice pętla","to":"Domaszkowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":29,"s":[[3286977119,1]]}
+]
+}

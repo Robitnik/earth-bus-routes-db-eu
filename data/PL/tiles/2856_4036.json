@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2856,4036],
+"stops":[
+  {"id":2154870258,"lat":52.823538,"lon":21.845005,"k":"x","n":"Komorowo Jednostka Wojskowa 01"},
+  {"id":2499913686,"lat":52.834857,"lon":21.840371,"k":"p","n":"Komorowo"},
+  {"id":2499914397,"lat":52.834513,"lon":21.838891,"k":"p"},
+  {"id":3201878357,"lat":52.810926,"lon":21.849004,"k":"x","n":"Legionowa 2 01"},
+  {"id":11409645682,"lat":52.810949,"lon":21.84904,"k":"x","n":"Legionowa 2 02"},
+  {"id":11409645683,"lat":52.810984,"lon":21.84897,"k":"p","n":"Legionowa 2 02"},
+  {"id":11409645684,"lat":52.810898,"lon":21.849074,"k":"p","n":"Legionowa 2 01"},
+  {"id":11409645689,"lat":52.828652,"lon":21.847907,"k":"x","n":"Komorowo POM 02"},
+  {"id":11409645690,"lat":52.828628,"lon":21.84782,"k":"p","n":"Komorowo POM 02"},
+  {"id":11409645691,"lat":52.828956,"lon":21.849975,"k":"x","n":"Komorowo POM 01"},
+  {"id":11409645692,"lat":52.828886,"lon":21.849981,"k":"p","n":"Komorowo POM 01"},
+  {"id":11409645693,"lat":52.823558,"lon":21.844954,"k":"p","n":"Komorowo Jednostka Wojskowa 01"},
+  {"id":11414918321,"lat":52.806736,"lon":21.847989,"k":"x","n":"Różańska Rogóźnia"},
+  {"id":11414918322,"lat":52.806757,"lon":21.847878,"k":"p","n":"Różańska Rogóźnia"},
+  {"id":11414918323,"lat":52.806184,"lon":21.847689,"k":"x","n":"Różańska Rogóźnia 02"},
+  {"id":11414918324,"lat":52.806173,"lon":21.84778,"k":"p","n":"Różańska Rogóźnia 02"},
+  {"id":11414918325,"lat":52.805683,"lon":21.848315,"k":"x","n":"Różańska Rogóźnia 01"},
+  {"id":11414918326,"lat":52.805648,"lon":21.848259,"k":"p","n":"Różańska Rogóźnia 01"}
+],
+"routes":[
+  {"id":16810606,"t":{"ref":"1","name":"Bus 1: Komorowo Jednostka Wojskowa => Mieczkowskiego","from":"Komorowo Jednostka Wojskowa 01","to":"Mieczkowskiego 01","network":"ZGK Sp. z o.o.","operator":"Komunikacja Miejska Ostrów Mazowiecka","route":"bus","public_transport:version":"2"},"n":21,"s":[[11409645693,1],[11409645692,3]]},
+  {"id":16810628,"t":{"ref":"1","name":"Bus 1: Mieczkowskiego => Komorowo Jednostka Wojskowa","from":"Mieczkowskiego 01","to":"Komorowo Jednostka Wojskowa 01","network":"Komunikacja Miejska Ostrów Mazowiecka","operator":"ZGK Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[11409645690,18],[11409645693,20]]},
+  {"id":16810868,"t":{"ref":"1Bis","name":"Bus 1Bis: Komorowo Jednostka Wojskowa => Mieczkowskiego","from":"Komorowo Jednostka Wojskowa 01","to":"Mieczkowskiego 01","network":"Komunikacja Miejska Ostrów Mazowiecka","operator":"ZGK Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":22,"s":[[11409645693,1],[11409645692,3]]},
+  {"id":16818671,"t":{"ref":"2","name":"Bus 2: Mieczkowskiego => Lubiejewska => Różańska => Mieczkowskiego","from":"Mieczkowskiego 01","to":"Mieczkowskiego 01","network":"Komunikacja Miejska Ostrów Mazowiecka","operator":"ZGK Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":41,"s":[[11409645683,17],[11414918326,18]]},
+  {"id":16818792,"t":{"ref":"3","name":"Bus 3: Mieczkowskiego => Różańska => Lubiejewska => Mieczkowskiego","from":"Mieczkowskiego 01","to":"Mieczkowskiego 01","network":"Komunikacja Miejska Ostrów Mazowiecka","operator":"ZGK Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":41,"s":[[11414918324,23],[11409645684,24]]}
+]
+}

@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2860,3954],
+"stops":[
+  {"id":1894530128,"lat":53.025169,"lon":17.732505,"k":"x","n":"Szubin-Wieś"},
+  {"id":5179594276,"lat":53.008913,"lon":17.744222,"k":"x","n":"Szubin / Sędziwoja Pałuki"},
+  {"id":5179609624,"lat":53.005061,"lon":17.72638,"k":"p","n":"Szubin / Kcyńska"},
+  {"id":5179609625,"lat":53.004865,"lon":17.725489,"k":"p","n":"Szubin / Kcyńska"},
+  {"id":5254739709,"lat":53.026079,"lon":17.732235,"k":"p","n":"Szubin-Wieś"},
+  {"id":5254739710,"lat":53.026064,"lon":17.73213,"k":"x","n":"Szubin-Wieś"},
+  {"id":5254739711,"lat":53.025151,"lon":17.732385,"k":"p","n":"Szubin-Wieś"},
+  {"id":5254739713,"lat":53.042426,"lon":17.723709,"k":"p","n":"Grzeczna Panna"},
+  {"id":5254739714,"lat":53.040865,"lon":17.723504,"k":"p","n":"Grzeczna Panna"},
+  {"id":5254739715,"lat":53.042426,"lon":17.723606,"k":"x","n":"Grzeczna Panna"},
+  {"id":5254739716,"lat":53.040871,"lon":17.723628,"k":"x","n":"Grzeczna Panna"},
+  {"id":5607307403,"lat":53.008836,"lon":17.744312,"k":"p","n":"Szubin / Sędziwoja Pałuki"},
+  {"id":6609937958,"lat":53.01135,"lon":17.737288,"k":"p","n":"Szubin / Nakielska"},
+  {"id":14191402488,"lat":53.005101,"lon":17.726351,"k":"x","n":"Szubin / Kcyńska"},
+  {"id":14191402489,"lat":53.004814,"lon":17.725535,"k":"x","n":"Szubin / Kcyńska"},
+  {"id":14191564824,"lat":53.011467,"lon":17.736923,"k":"p","n":"Szubin / Nakielska"},
+  {"id":14195520845,"lat":53.010631,"lon":17.731785,"k":"x","n":"Szubin / Bema"},
+  {"id":14195520846,"lat":53.01062,"lon":17.731687,"k":"p","n":"Szubin / Bema"},
+  {"id":5000981959532,"lat":53.007975,"lon":17.727852,"k":"p","n":"Szubin / Tysiąclecia"}
+],
+"routes":[
+  {"id":18175184,"t":{"ref":"21519","name":"PKS Linia 21519: Kcynia => Bydgoszcz","from":"Kcynia","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":29,"s":[[5179609624,21],[5607307403,23]]},
+  {"id":18175185,"t":{"ref":"21519","name":"PKS Linia 21519: Bydgoszcz => Kcynia","from":"Bydgoszcz, Dworzec Autobusowy","to":"Kcynia","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":30,"s":[[5607307403,11],[5179609625,12]]},
+  {"id":18175186,"t":{"ref":"21809","name":"PKS Linia 21809: Żnin => Bydgoszcz","from":"Żnin, Towarowa","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":28,"s":[[5179609624,17],[5607307403,19]]},
+  {"id":18175187,"t":{"ref":"21809","name":"PKS Linia 21809: Bydgoszcz => Żnin","from":"Bydgoszcz, Dworzec Autobusowy","to":"Żnin, Towarowa","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":29,"s":[[5607307403,11],[5179609625,12]]},
+  {"id":18187338,"t":{"ref":"21236","name":"PKS Linia 21236: Kcynia => Szubin","from":"Kcynia","to":"Szubin","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":13,"s":[[5179609624,5],[5607307403,7]]},
+  {"id":18187339,"t":{"ref":"21236","name":"PKS Linia 21236: Szubin => Kcynia","from":"Szubin","to":"Kcynia","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":13,"s":[[5179609625,5],[5607307403,7]]},
+  {"id":21409412,"t":{"name":"Artur: Szubin => Bydgoszcz (przez Rynarzewo)","from":"Szubin, Bema 3","to":"Bydgoszcz, Bernardyńska 5","network":"Usługi Transportowe Artur Kasprzak","route":"bus","public_transport:version":"2"},"n":18,"s":[[5607307403,8],[14195520846,9],[5179609624,10],[5000981959532,12]]},
+  {"id":21409413,"t":{"name":"Artur: Bydgoszcz => Szubin (przez Rynarzewo)","from":"Bydgoszcz, Bernardyńska 5","to":"Szubin, Kcyńska 45","network":"Usługi Transportowe Artur Kasprzak","route":"bus","public_transport:version":"2"},"n":19,"s":[[5607307403,9],[5179609625,10],[14195520846,11],[5000981959532,13]]},
+  {"id":21409566,"t":{"name":"Artur: Nakło nad Notecią => Szubin","from":"Nakło nad Notecią, Poznańska","to":"Szubin, Kcyńska 45","network":"Usługi Transportowe Artur Kasprzak","route":"bus","public_transport:version":"2"},"n":17,"s":[[5254739714,12],[5254739711,13],[14191564824,14],[5179609625,15]]},
+  {"id":21409567,"t":{"name":"Artur: Szubin => Nakło nad Notecią","from":"Szubin, Kcyńska 45","to":"Nakło nad Notecią, Poznańska","network":"Usługi Transportowe Artur Kasprzak","route":"bus","public_transport:version":"2"},"n":17,"s":[[5254739713,11],[5254739709,12],[6609937958,13],[5179609624,14],[5607307403,15]]},
+  {"id":21411725,"t":{"name":"Artur: Szubin => Bydgoszcz (przez Tur)","from":"Szubin, Kcyńska 45","to":"Bydgoszcz, Bernardyńska 5","network":"Usługi Transportowe Artur Kasprzak","route":"bus","public_transport:version":"2"},"n":26,"s":[[5254739713,9],[5254739709,10],[5607307403,11],[5179609624,12],[5000981959532,21],[6609937958,25]]},
+  {"id":21411726,"t":{"name":"Artur: Bydgoszcz => Szubin (przez Tur)","from":"Bydgoszcz, Bernardyńska 5","to":"Szubin, Kcyńska 45","network":"Usługi Transportowe Artur Kasprzak","route":"bus","public_transport:version":"2"},"n":27,"s":[[5254739714,10],[5254739711,11],[5607307403,12],[5179609625,13],[5000981959532,22],[14191564824,26]]},
+  {"id":21432065,"t":{"name":"M-Bus: Kcynia => Bydgoszcz","from":"Kcynia","to":"Bydgoszcz, Bernardyńska 5","network":"M-Bus","route":"bus","public_transport:version":"2"},"n":25,"s":[[5607307403,5],[5179609624,6]]},
+  {"id":21432066,"t":{"name":"M-Bus: Bydgoszcz => Kcynia","from":"Bydgoszcz, Bernardyńska 5","to":"Kcynia","network":"M-Bus","route":"bus","public_transport:version":"2"},"n":27,"s":[[5607307403,9],[5179609625,10]]}
+]
+}

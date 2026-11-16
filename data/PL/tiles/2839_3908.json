@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2839,3908],
+"stops":[
+  {"id":2315303880,"lat":51.973666,"lon":15.443161,"k":"p","n":"Przylep Solidarności (NŻ)","ref":"25"},
+  {"id":2315303884,"lat":51.9747,"lon":15.443007,"k":"p","n":"Przylep działki","ref":"24"},
+  {"id":2315304079,"lat":51.974756,"lon":15.442113,"k":"p"},
+  {"id":2396625776,"lat":51.980288,"lon":15.424864,"k":"p"},
+  {"id":2396625781,"lat":51.980739,"lon":15.42371,"k":"p"},
+  {"id":2396625849,"lat":51.984109,"lon":15.415913,"k":"p"},
+  {"id":2396625853,"lat":51.984463,"lon":15.414908,"k":"p"},
+  {"id":2396625903,"lat":51.988242,"lon":15.410944,"k":"p"},
+  {"id":2396625918,"lat":51.988749,"lon":15.410472,"k":"p"},
+  {"id":3775117299,"lat":51.968316,"lon":15.449796,"k":"p","n":"Przylep Strażacka"},
+  {"id":3775117300,"lat":51.96813,"lon":15.44966,"k":"p","n":"Przylep Strażacka"}
+],
+"routes":[
+  {"id":18072775,"t":{"ref":"20","name":"20: Dworzec Główny => Przylep","operator":"MZK Zielona Góra","route":"bus"},"n":13,"s":[[3775117300,2],[2315303884,7],[2315303880,13]]},
+  {"id":18072776,"t":{"ref":"20","name":"20: Przylep => Dworzec Główny","operator":"MZK Zielona Góra","route":"bus"},"n":14,"s":[[3775117299,10],[2315303884,11]]},
+  {"id":18072777,"t":{"ref":"20A","name":"20A: Dworzec Główny => Przylep Lotnisko","operator":"MZK Zielona Góra","route":"bus"},"n":13,"s":[[3775117299,13]]},
+  {"id":18072778,"t":{"ref":"20A","name":"20A: Przylep Lotnisko => Dworzec Główny","operator":"MZK Zielona Góra","route":"bus"},"n":13,"s":[[3775117300,13]]},
+  {"id":18212996,"t":{"ref":"2","name":"2: Przylep => Jędrzychów","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":23,"s":[[2315303884,1],[3775117299,2]]},
+  {"id":18212997,"t":{"name":"2: Jędrzychów => Przylep","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":2,"s":[[2315303884,2]]}
+]
+}

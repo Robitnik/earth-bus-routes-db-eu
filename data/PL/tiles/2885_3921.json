@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2885,3921],
+"stops":[
+  {"id":1364839049,"lat":54.268546,"lon":16.093497,"k":"p","n":"Unieście WDW"},
+  {"id":1364839058,"lat":54.264329,"lon":16.077572,"k":"p","n":"6 Marca - Prądno"},
+  {"id":1364839060,"lat":54.267248,"lon":16.086115,"k":"p","n":"Mielno 6 Marca / Broniewskiego"},
+  {"id":1364839063,"lat":54.271,"lon":16.096882,"k":"p","n":"Unieście/Początkowy"},
+  {"id":1364839070,"lat":54.271021,"lon":16.094477,"k":"p","n":"Mielno - Maczka"},
+  {"id":1364839072,"lat":54.264559,"lon":16.077584,"k":"p","n":"Oś. Unieście ul.6 Marca - ul.Pogodna"},
+  {"id":1364845347,"lat":54.254595,"lon":16.054056,"k":"p","n":"Mielno Szkoła"},
+  {"id":1364845351,"lat":54.258628,"lon":16.053702,"k":"p","n":"Mielno - ul. Chrobrego (Urząd)"},
+  {"id":1364845352,"lat":54.254793,"lon":16.05402,"k":"x","n":"Mielno Szkoła"},
+  {"id":1364845354,"lat":54.258386,"lon":16.053577,"k":"p","n":"Mielno - ul. Chrobrego (Kościuszki)"},
+  {"id":1882627511,"lat":54.255204,"lon":16.053486,"k":"x","n":"Mielno Szkoła"},
+  {"id":4851375572,"lat":54.258485,"lon":16.053547,"k":"x","n":"Mielno - ul. Chrobrego (Kościuszki)"},
+  {"id":5598462591,"lat":54.261272,"lon":16.068264,"k":"p","n":"Mielno - ul. Chrobrego (Mickiewicza)"},
+  {"id":5598462592,"lat":54.260818,"lon":16.067201,"k":"p","n":"Mielno ul. Chrobrego (Przystań)"},
+  {"id":5611142081,"lat":54.255256,"lon":16.053605,"k":"p","n":"Mielno Szkoła"},
+  {"id":10989335839,"lat":54.255116,"lon":16.096578,"k":"p"},
+  {"id":11913606201,"lat":54.267372,"lon":16.085998,"k":"p","n":"Mielno 6 Marca / Morska"}
+],
+"routes":[
+  {"id":19357788,"t":{"ref":"3261/205","name":"ARBOS Sarbinowo -> Koszalin","from":"Sarbinowo","to":"Koszalin","operator":"Ar-Bos","route":"bus","public_transport:version":"2"},"n":9,"s":[[1364845347,6]]},
+  {"id":19357789,"t":{"ref":"3261/205","name":"AR-BOS Koszalin ->Sarbinowo","from":"Koszalin","to":"Sarbinowo","operator":"Ar-bos","route":"bus","public_transport:version":"2"},"n":10,"s":[[5611142081,4]]},
+  {"id":19484061,"t":{"ref":"3261/239","name":"Ronin Koszalin CP->Mielno","from":"Koszalin","to":"Mielno","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":14,"s":[[5611142081,10],[1364845354,11],[5598462592,12],[1364839058,13],[1364839060,14]]},
+  {"id":19484161,"t":{"ref":"3261/239","name":"Ronin Mielno -> Koszalin CP","from":"Mielno","to":"Koszalin","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":13,"s":[[11913606201,1],[1364839072,2],[5598462591,3],[1364845351,4],[1364845347,5]]},
+  {"id":19484275,"t":{"ref":"3261/239","name":"Ronin Mielno -> Koszalin Os. Bukowe","from":"Mielno","to":"Koszalin","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":17,"s":[[11913606201,1],[1364839072,2],[5598462591,3],[1364845351,4],[1364845347,5]]},
+  {"id":19484276,"t":{"ref":"3261/239","name":"Ronin Koszalin Os.Bukowe->Mielno","from":"Koszalin","to":"Mielno","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[5611142081,14],[1364845354,15],[5598462592,16],[1364839058,17],[1364839060,18]]},
+  {"id":19506276,"t":{"name":"Ronin Mielno->Łazy","from":"Mielno","to":"Łazy","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":8,"s":[[5611142081,1],[1364845354,2],[5598462592,3],[1364839058,4],[1364839060,5]]},
+  {"id":19506439,"t":{"name":"Ronin Łazy->Mielno","from":"Łazy","to":"Mielno","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":8,"s":[[1364845351,2],[5598462591,3],[1364839072,4],[11913606201,5],[1364839070,6]]},
+  {"id":20517409,"t":{"name":"KMM Gąski -> Unieście","from":"Gąski","to":"Unieście","operator":"Gmina Mielno","route":"bus","public_transport:version":"2"},"n":6,"s":[[1364845354,4],[5598462592,5],[1364839060,6]]},
+  {"id":21007755,"t":{"ref":"29U","name":"Linia autobusowa: Stare Bielice - Mielno","from":"Stare Bielice","to":"Mielno","network":"Powiatowy Transport Zbiorowy Powiatu Koszalińskiego","operator":"PKS Koszalin","route":"bus","public_transport:version":"2"},"n":21,"s":[[11913606201,17],[1364839072,18],[5598462591,19],[1364845351,20]]},
+  {"id":21066358,"t":{"ref":"29U","name":"29U Stare Bielice -> Mielno","from":"Stare Bielice","to":"Mielno","network":"Powiat Koszaliński","operator":"PKS Koszalin","route":"bus","public_transport:version":"2"},"n":19,"s":[[11913606201,18],[1364839072,19]]}
+]
+}

@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2861,3959],
+"stops":[
+  {"id":665794886,"lat":53.093933,"lon":17.998143,"k":"p","n":"Port Lotniczy (Airport)","ref":"10012"},
+  {"id":3443279290,"lat":53.058514,"lon":17.961443,"k":"p","n":"Zielonka / Orzechowa","ref":"13044"},
+  {"id":3443279291,"lat":53.058048,"lon":17.962466,"k":"p","n":"Zielonka / Orzechowa","ref":"13043"},
+  {"id":4475858794,"lat":53.058468,"lon":17.961347,"k":"x","n":"Zielonka / Orzechowa","ref":"13044"},
+  {"id":10184447790,"lat":53.093935,"lon":17.998257,"k":"x","n":"Port Lotniczy (Airport)","ref":"10012"},
+  {"id":10558579145,"lat":53.05158,"lon":17.953125,"k":"p","n":"Zielonka / Jodłowa","ref":"13237"},
+  {"id":10558579146,"lat":53.052556,"lon":17.952824,"k":"p","n":"Zielonka / Jodłowa","ref":"13238"},
+  {"id":12513155790,"lat":53.058097,"lon":17.962537,"k":"x","n":"Zielonka / Orzechowa","ref":"13043"},
+  {"id":12513155793,"lat":53.052546,"lon":17.952755,"k":"x","n":"Zielonka / Jodłowa","ref":"13238"},
+  {"id":12513155794,"lat":53.051581,"lon":17.953215,"k":"x","n":"Zielonka / Jodłowa","ref":"13237"}
+],
+"routes":[
+  {"id":14888712,"t":{"ref":"80","name":"Autobus 80: Dworzec Główny => Port Lotniczy (Airport)","from":"Dworzec Główny","to":"Port Lotniczy (Airport)","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":20,"s":[[665794886,12]]},
+  {"id":14891755,"t":{"ref":"80","name":"Autobus 80: Port Lotniczy (Airport) => Dworzec Główny","from":"Port Lotniczy (Airport)","to":"Dworzec Główny","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":20,"s":[[665794886,1]]},
+  {"id":14891808,"t":{"ref":"80P","name":"Autobus 80P: Port Lotniczy (Airport) => Zbożowy Rynek","from":"Port Lotniczy (Airport)","to":"Zbożowy Rynek","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":7,"s":[[665794886,1]]},
+  {"id":15583342,"t":{"ref":"96","name":"Autobus 96: Błonie => Przyłęki","from":"Błonie","to":"Przyłęki","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":24,"s":[[10558579145,9]]},
+  {"id":15583399,"t":{"ref":"96","name":"Autobus 96: Przyłęki => Błonie","from":"Przyłęki","to":"Błonie","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":25,"s":[[10558579146,13]]},
+  {"id":16754670,"t":{"ref":"91","name":"Autobus 91: Błonie => Brzoza / Okrężna","from":"Błonie","to":"Brzoza / Okrężna","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":21,"s":[[3443279291,15]]},
+  {"id":16762543,"t":{"ref":"91","name":"Autobus 91: Brzoza / Okrężna => Błonie","from":"Brzoza / Okrężna","to":"Błonie","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":22,"s":[[3443279290,16]]},
+  {"id":19085204,"t":{"ref":"91P","name":"Autobus 91P: Brzoza / Okrężna => Błonie (przez Prądki)","from":"Brzoza / Okrężna","to":"Błonie","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":26,"s":[[3443279290,16]]},
+  {"id":19085205,"t":{"ref":"91P","name":"Autobus 91P: Błonie => Brzoza / Okrężna (przez Prądki)","from":"Błonie","to":"Brzoza / Okrężna","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":25,"s":[[3443279291,15]]}
+]
+}

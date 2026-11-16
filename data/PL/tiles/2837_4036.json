@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2837,4036],
+"stops":[
+  {"id":359811928,"lat":51.889296,"lon":21.811675,"k":"x","n":"Miastków Kościelny Skrzyżowanie"},
+  {"id":3037650961,"lat":51.88325,"lon":21.82478,"k":"x","n":"Mastków Kościelny"},
+  {"id":12797757243,"lat":51.887182,"lon":21.814264,"k":"p","n":"Miastków Kościelny PGR"},
+  {"id":13290924837,"lat":51.883658,"lon":21.82427,"k":"p","n":"Mastków Kościelny"},
+  {"id":13290924838,"lat":51.883619,"lon":21.824178,"k":"x","n":"Mastków Kościelny"},
+  {"id":13290924839,"lat":51.883172,"lon":21.824694,"k":"p","n":"Mastków Kościelny"},
+  {"id":13387535391,"lat":51.889258,"lon":21.811654,"k":"p","n":"Miastków Kościelny Skrzyżowanie"},
+  {"id":13387554401,"lat":51.889448,"lon":21.810959,"k":"x","n":"Miastków Kościelny Skrzyżowanie"},
+  {"id":13387554470,"lat":51.889497,"lon":21.810987,"k":"p","n":"Miastków Kościelny Skrzyżowanie"},
+  {"id":13387554502,"lat":51.887162,"lon":21.81432,"k":"x","n":"Miastków Kościelny PGR"},
+  {"id":13387554535,"lat":51.887139,"lon":21.814382,"k":"p","n":"Miastków Kościelny PGR"},
+  {"id":13390823247,"lat":51.879301,"lon":21.83879,"k":"p","n":"Miastków Kościelny Warszawska"},
+  {"id":13390823261,"lat":51.878851,"lon":21.840199,"k":"x","n":"Miastków Kościelny Warszawska"},
+  {"id":13390823283,"lat":51.879252,"lon":21.838754,"k":"x","n":"Miastków Kościelny Warszawska"},
+  {"id":13390845817,"lat":51.878785,"lon":21.840157,"k":"p","n":"Miastków Kościelny Warszawska"}
+],
+"routes":[
+  {"id":19809953,"t":{"ref":"M1","name":"Bus M1: Miastków Kościelny => Garwolin DA","from":"Miastków Kościelny","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":18,"s":[[13290924837,1],[12797757243,2]]},
+  {"id":19809954,"t":{"ref":"M1","name":"Bus M1: Garwolin DA => Miastków Kościelny","from":"Garwolin DA","to":"Miastków Kościelny","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":18,"s":[[13387554535,17],[13290924839,18]]},
+  {"id":19821488,"t":{"ref":"M2","name":"Bus M2: Garwolin DA => Miastków Kościelny","from":"Garwolin DA","to":"Miastków Kościelny","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":18,"s":[[13387535391,17],[13290924839,18]]},
+  {"id":19821489,"t":{"ref":"M2","name":"Bus M2: Miastków Kościelny => Garwolin DA","from":"Miastków Kościelny","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":18,"s":[[13290924837,1],[13387554470,2]]},
+  {"id":19983313,"t":{"name":"Bus: Warszawa => Miastków Kościelny => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":46,"s":[[13387535391,36],[13290924839,37],[13390845817,38]]},
+  {"id":19983316,"t":{"name":"Bus: Żelechów => Miastków Kościelny => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":45,"s":[[13390823247,9],[13290924837,10],[13387554470,11]]},
+  {"id":20041430,"t":{"ref":"M3","name":"Bus M3: Miastków Kościelny => Żelechów Rondo","from":"Miastków Kościelny","to":"Żelechów Rondo","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":9,"s":[[13290924839,1],[13390845817,2]]},
+  {"id":20041431,"t":{"ref":"M3","name":"Bus M3: Żelechów Rondo => Miastków Kościelny","from":"Żelechów Rondo","to":"Miastków Kościelny","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":9,"s":[[13390823247,8],[13290924837,9]]}
+]
+}

@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2833,3920],
+"stops":[
+  {"id":6587412308,"lat":51.665884,"lon":16.045471,"k":"x","n":"Połnocna / Hurtap","ref":"1029-1"},
+  {"id":9727057894,"lat":51.66542,"lon":16.045192,"k":"p","n":"Połnocna / Hurtap","ref":"1029-0"},
+  {"id":9727057895,"lat":51.665888,"lon":16.045382,"k":"p","n":"Połnocna / Hurtap","ref":"1029-1"},
+  {"id":9727057901,"lat":51.667221,"lon":16.023471,"k":"p","n":"Panattoni","ref":"1099-0"},
+  {"id":9727057902,"lat":51.668219,"lon":16.024488,"k":"p","n":"Panattoni","ref":"1099-1"},
+  {"id":10542726488,"lat":51.665659,"lon":16.016461,"k":"p"},
+  {"id":12896512649,"lat":51.674764,"lon":16.023008,"k":"p","n":"GPK","ref":"1100-2"},
+  {"id":13347973575,"lat":51.668261,"lon":16.024373,"k":"x","n":"Panattoni","ref":"1099-1"},
+  {"id":13347973576,"lat":51.667211,"lon":16.023605,"k":"x","n":"Panattoni","ref":"1099-0"},
+  {"id":13351191223,"lat":51.665439,"lon":16.045123,"k":"x","n":"Połnocna / Hurtap","ref":"1029-0"},
+  {"id":13367157875,"lat":51.674813,"lon":16.022893,"k":"x","n":"GPK","ref":"1100-2"},
+  {"id":13983275951,"lat":51.663841,"lon":16.049676,"k":"p"},
+  {"id":13983275952,"lat":51.663907,"lon":16.049671,"k":"x"}
+],
+"routes":[
+  {"id":19909836,"t":{"ref":"3","name":"Bus 3: Osiedle Krzepów => Dworzec PKP Krochmalna","from":"Osadników","to":"Krochmalna","colour":"#3BA7E7","route":"bus"},"n":23,"s":[[9727057902,22]]},
+  {"id":19909845,"t":{"ref":"3","name":"Bus 3: Krochmalna Cmentarz => Osiedle Krzepów","from":"Krochmalna","to":"Osadników","colour":"#3BA7E7","route":"bus","public_transport:version":"2"},"n":26,"s":[[9727057901,2]]},
+  {"id":19914228,"t":{"ref":"3","name":"Bus 3: Osiedle Krzepów => Cmentarz Krochmalna","from":"Osadników","to":"Krochmalna","colour":"#3BA7E7","route":"bus"},"n":24,"s":[[9727057902,23]]},
+  {"id":19914229,"t":{"ref":"3","name":"Bus 3: Cmentarz Hurtap => Osiedle Krzepów","from":"Cmentarz Brzostów","to":"Osadników","colour":"#3BA7E7","route":"bus","public_transport:version":"2"},"n":26,"s":[[9727057894,2]]},
+  {"id":19914231,"t":{"ref":"3","name":"Bus 3: Osiedle Krzepów => Hurtap Cmentarz","from":"Osadników","to":"Cmentarz Brzostów","colour":"#3BA7E7","route":"bus","public_transport:version":"2"},"n":24,"s":[[9727057895,23]]},
+  {"id":19946123,"t":{"ref":"10","name":"Bus 10: Osiedle Piastów => Panattoni GPK","from":"Henryka Brodatego","to":"GPK","colour":"#958F91","route":"bus","public_transport:version":"2"},"n":29,"s":[[9727057895,27],[9727057902,28],[12896512649,29]]},
+  {"id":19946125,"t":{"ref":"10","name":"Bus 10: GPK Panattoni => Osiedle Piastów","from":"GPK","to":"Henryka Brodatego","colour":"#958F91","route":"bus","public_transport:version":"2"},"n":29,"s":[[12896512649,1],[9727057901,2],[9727057894,3]]}
+]
+}

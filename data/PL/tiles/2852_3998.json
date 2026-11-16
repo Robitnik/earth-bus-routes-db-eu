@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2852,3998],
+"stops":[
+  {"id":9999910156,"lat":52.606814,"lon":19.901918,"k":"x","n":"Ciółkowo Szlacheckie","ref":"4231","q":1},
+  {"id":9999910158,"lat":52.606839,"lon":19.902739,"k":"x","n":"Ciółkowo Szlacheckie","ref":"4232","q":1},
+  {"id":9999910162,"lat":52.605899,"lon":19.91385,"k":"x","n":"Woźniki-Paklewy","ref":"3271"},
+  {"id":9999910163,"lat":52.605526,"lon":19.913677,"k":"p","n":"Woźniki-Paklewy"},
+  {"id":9999910164,"lat":52.605538,"lon":19.913629,"k":"x","n":"Woźniki-Paklewy","ref":"3272"},
+  {"id":5001203932831,"lat":52.605918,"lon":19.913774,"k":"p","n":"Woźniki-Paklewy"},
+  {"id":5001203948064,"lat":52.60679,"lon":19.902813,"k":"p","n":"Ciółkowo Szlacheckie"},
+  {"id":5001203948065,"lat":52.606855,"lon":19.90187,"k":"p","n":"Ciółkowo Szlacheckie"}
+],
+"routes":[
+  {"id":14542598,"t":{"ref":"120","name":"120: Kobylińskiego => Woźniki-Paklewy via Radzanowo","from":"Kobylińskiego","to":"Woźniki-Paklewy","network":"Komunikacja Miejska Płock","operator":"KM Płock","route":"bus","public_transport:version":"2"},"n":22,"s":[[9999910163,22]]},
+  {"id":16262905,"t":{"ref":"120","name":"120: Woźniki-Paklewy => Kobylińskiego via Radzanowo","from":"Woźniki-Paklewy","to":"Kobylińskiego","network":"Komunikacja Miejska Płock","operator":"KM Płock","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001203932831,1]]},
+  {"id":16262980,"t":{"ref":"120","name":"120: Woźniki-Paklewy => Kobylińskiego via Ciółkowo","from":"Woźniki-Paklewy","to":"Kobylińskiego","network":"Komunikacja Miejska Płock","operator":"KM Płock","route":"bus","public_transport:version":"2"},"n":22,"s":[[9999910163,1],[5001203948065,2]]},
+  {"id":16262981,"t":{"ref":"120","name":"120: Kobylińskiego => Woźniki-Paklewy via Ciółkowo","from":"Kobylińskiego","to":"Woźniki-Paklewy","network":"Komunikacja Miejska Płock","operator":"KM Płock","route":"bus","public_transport:version":"2"},"n":20,"s":[[5001203948064,19],[5001203932831,20]]}
+]
+}

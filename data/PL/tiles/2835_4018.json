@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2835,4018],
+"stops":[
+  {"id":3491201042,"lat":51.796683,"lon":20.934881,"k":"x","n":"Gniejewice"},
+  {"id":3491201043,"lat":51.796722,"lon":20.9349,"k":"p","n":"Gniejewice"},
+  {"id":6576752427,"lat":51.758467,"lon":20.905344,"k":"p","n":"Józefów k. Białobrzegów"},
+  {"id":6576752455,"lat":51.75906,"lon":20.905765,"k":"p","n":"Józefów k. Białobrzegów"},
+  {"id":10183454348,"lat":51.76798,"lon":20.900396,"k":"p","n":"Józefów \"Borowa Karczma\""},
+  {"id":13014198886,"lat":51.759084,"lon":20.905638,"k":"x","n":"Józefów k. Białobrzegów"},
+  {"id":13014213942,"lat":51.758481,"lon":20.90547,"k":"x","n":"Józefów k. Białobrzegów"},
+  {"id":13014213975,"lat":51.764365,"lon":20.900217,"k":"p","n":"Józefów \"Borowa Karczma\" II"},
+  {"id":13014213986,"lat":51.764324,"lon":20.90024,"k":"x","n":"Józefów \"Borowa Karczma\" II"},
+  {"id":13014213987,"lat":51.767994,"lon":20.900518,"k":"x","n":"Józefów \"Borowa Karczma\""},
+  {"id":13014214008,"lat":51.764288,"lon":20.900259,"k":"p","n":"Józefów \"Borowa Karczma\" II"},
+  {"id":13956259327,"lat":51.796647,"lon":20.934863,"k":"p","n":"Gniejewice"}
+],
+"routes":[
+  {"id":19569349,"t":{"ref":"2093","name":"Bus 2093: Białobrzegi => Przybyszew => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":31,"s":[[13014214008,20]]},
+  {"id":19569350,"t":{"ref":"2061","name":"Bus 2061: Białobrzegi => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":20,"s":[[6576752455,8],[13014214008,9]]},
+  {"id":19569351,"t":{"ref":"2061","name":"Bus 2061: Grójec => Białobrzegi","from":"Grójec D.A.","to":"Białobrzegi P.D. Poświętna","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":20,"s":[[10183454348,11],[13014213975,12],[6576752427,13]]},
+  {"id":19569352,"t":{"ref":"2092","name":"Bus 2092: Grójec => Goszczyn => Białobrzegi","from":"Grójec D.A.","to":"Białobrzegi P.D. Poświętna","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":23,"s":[[10183454348,11],[13014213975,12]]},
+  {"id":19569353,"t":{"ref":"2092","name":"Bus 2092: Białobrzegi => Goszczyn => Grójec","from":"Białobrzegi P.D. Poświętna","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":23,"s":[[13014214008,12]]},
+  {"id":21015638,"t":{"ref":"140","name":"Bus 140: Zbrosza Duża => Jasieniec","from":"Zbrosza Duża","to":"Jasieniec II","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":11,"s":[[3491201043,9]]},
+  {"id":21015639,"t":{"ref":"140","name":"Bus 140: Jasieniec => Zbrosza Duża","from":"Jasieniec II","to":"Zbrosza Duża","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":11,"s":[[13956259327,3]]},
+  {"id":21015640,"t":{"ref":"143","name":"Bus 143: Zbrosza Duża => Grójec","from":"Zbrosza Duża","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":19,"s":[[3491201043,9]]},
+  {"id":21015641,"t":{"ref":"142","name":"Bus 142: Zbrosza Duża => Grójec","from":"Zbrosza Duża","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":20,"s":[[3491201043,9]]},
+  {"id":21015642,"t":{"ref":"143","name":"Bus 143: Grójec => Zbrosza Duża","from":"Grójec D.A.","to":"Zbrosza Duża","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":19,"s":[[13956259327,11]]},
+  {"id":21322241,"t":{"ref":"141","name":"Bus 141: Zbrosza Duża => Grójec","from":"Zbrosza Duża","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":21,"s":[[3491201043,11]]},
+  {"id":21322242,"t":{"ref":"141","name":"Bus 141: Grójec => Zbrosza Duża","from":"Grójec D.A.","to":"Zbrosza Duża","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":21,"s":[[13956259327,11]]}
+]
+}

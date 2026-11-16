@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2845,3985],
+"stops":[
+  {"id":1854807056,"lat":52.254098,"lon":19.298355,"k":"x","n":"Gołębiewek III","ref":"63"},
+  {"id":2429024943,"lat":52.265609,"lon":19.282338,"k":"x","n":"Adamów_IV","ref":"788"},
+  {"id":5271746970,"lat":52.254151,"lon":19.298085,"k":"x","n":"Gołębiewek III","ref":"62"},
+  {"id":5271746975,"lat":52.25731,"lon":19.282468,"k":"x","n":"Ryków I","ref":"256"},
+  {"id":5271746981,"lat":52.261256,"lon":19.275838,"k":"x","n":"Ryków_pętla","ref":"258"},
+  {"id":5271746987,"lat":52.257393,"lon":19.282249,"k":"p","n":"Ryków I"},
+  {"id":5271746988,"lat":52.257359,"lon":19.28223,"k":"x","n":"Ryków I","ref":"257"},
+  {"id":5271746994,"lat":52.254157,"lon":19.29838,"k":"p","n":"Gołębiewek III"},
+  {"id":5277470236,"lat":52.26089,"lon":19.27676,"k":"p","n":"Ryków_pętla_Adamów"},
+  {"id":5277470237,"lat":52.260875,"lon":19.276793,"k":"x","n":"Ryków_pętla_Adamów","ref":"759"},
+  {"id":5277470247,"lat":52.267835,"lon":19.297483,"k":"p","n":"Adamów 24"},
+  {"id":5277470248,"lat":52.267746,"lon":19.297507,"k":"p","n":"Adamów 24"},
+  {"id":5277470249,"lat":52.267765,"lon":19.297547,"k":"x","n":"Adamów 24","ref":"783"},
+  {"id":5277470250,"lat":52.26781,"lon":19.297449,"k":"x","n":"Adamów 24","ref":"786"},
+  {"id":5277470256,"lat":52.265539,"lon":19.282207,"k":"p","n":"Adamów_IV"},
+  {"id":5277470257,"lat":52.265526,"lon":19.282243,"k":"x","n":"Adamów_IV","ref":"789"},
+  {"id":5277470258,"lat":52.265591,"lon":19.282376,"k":"p","n":"Adamów_IV"},
+  {"id":5277470260,"lat":52.260962,"lon":19.276943,"k":"p","n":"Ryków_pętla_Adamów"},
+  {"id":5277470261,"lat":52.260978,"lon":19.276915,"k":"x","n":"Ryków_pętla_Adamów","ref":"259"},
+  {"id":5000545452193,"lat":52.254097,"lon":19.298014,"k":"p","n":"Gołębiewek III"},
+  {"id":5000545452194,"lat":52.257262,"lon":19.28245,"k":"p","n":"Ryków I"},
+  {"id":5000545452195,"lat":52.261214,"lon":19.275819,"k":"p","n":"Ryków_pętla"}
+],
+"routes":[
+  {"id":7792607,"t":{"ref":"14","name":"14: Ryków => Batorego","from":"Ryków","to":"Batorego","network":"Kutno","operator":"MZK Kutno","route":"bus","public_transport:version":"2"},"n":28,"s":[[5000545452195,1],[5000545452194,2],[5000545452193,3]]},
+  {"id":7792608,"t":{"ref":"14","name":"14: Batorego => Ryków","from":"Batorego","to":"Ryków","network":"Kutno","operator":"MZK Kutno","route":"bus","public_transport:version":"2"},"n":28,"s":[[5271746994,26],[5271746987,27],[5000545452195,28]]},
+  {"id":7794385,"t":{"ref":"16","name":"16: Ryków => Intermodalna","from":"Ryków","to":"Intermodalna","network":"Kutno","operator":"MZK Kutno","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000545452195,1],[5000545452194,2],[5000545452193,3]]},
+  {"id":7794386,"t":{"ref":"16","name":"16: Intermodalna => Ryków","from":"Intermodalna","to":"Ryków","network":"Kutno","operator":"MZK Kutno","route":"bus","public_transport:version":"2"},"n":33,"s":[[5271746994,31],[5271746987,32],[5000545452195,33]]},
+  {"id":7799953,"t":{"ref":"16S","name":"16S: Gołebiewek => Krzesin","from":"Gołebiewek","to":"Krzesin","network":"Kutno","operator":"MZK Kutno","route":"bus","public_transport:version":"2"},"n":12,"s":[[5277470247,3],[5277470256,4],[5277470236,5],[5000545452194,6],[5000545452193,7]]},
+  {"id":7799954,"t":{"ref":"16S","name":"16S: Krzesin => Gołebiewek","from":"Krzesin","to":"Gołebiewek","network":"Kutno","operator":"MZK Kutno","route":"bus","public_transport:version":"2"},"n":12,"s":[[5271746994,6],[5271746987,7],[5277470260,8],[5277470258,9],[5277470248,10]]}
+]
+}

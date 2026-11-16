@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2842,4029],
+"stops":[
+  {"id":1910822987,"lat":52.109633,"lon":21.497272,"k":"p","n":"Rudzienko"},
+  {"id":1910822988,"lat":52.121178,"lon":21.499965,"k":"p","n":"Grębiszew"},
+  {"id":2305089484,"lat":52.134254,"lon":21.451448,"k":"x","n":"Popławska 01"},
+  {"id":2305089488,"lat":52.134146,"lon":21.452368,"k":"x","n":"Popławska 02"},
+  {"id":2858104981,"lat":52.132937,"lon":21.463758,"k":"x","n":"Rzakta 01"},
+  {"id":10967771653,"lat":52.134109,"lon":21.452345,"k":"p","n":"Popławska 02"},
+  {"id":10967771656,"lat":52.134295,"lon":21.451465,"k":"p","n":"Popławska 01"},
+  {"id":11055482151,"lat":52.109611,"lon":21.497153,"k":"x","n":"Rudzienko"},
+  {"id":12085847768,"lat":52.132886,"lon":21.463827,"k":"p","n":"Rzakta 01"},
+  {"id":12155164469,"lat":52.130607,"lon":21.491388,"k":"p","n":"Józefów I"},
+  {"id":13082357202,"lat":52.113246,"lon":21.460052,"k":"x","n":"Dobrzyniec"},
+  {"id":13082357211,"lat":52.11315,"lon":21.459913,"k":"p","n":"Dobrzyniec"},
+  {"id":6036899917228,"lat":52.134344,"lon":21.450842,"k":"p","n":"Rzakta Popławska","g":1}
+],
+"routes":[
+  {"id":12122241,"t":{"ref":"A1","name":"A1: Rzakta => Orla (Otwock)","from":"Rzakta","to":"Orla","network":"Bezpłatna Komunikacja Miejska Otwock","operator":"PKS Grodzisk Mazowiecki","route":"bus","public_transport:version":"2"},"n":27,"s":[[12085847768,1],[10967771656,2]]},
+  {"id":12122242,"t":{"ref":"A1","name":"A1: Orla (Otwock) => Rzakta","from":"Orla","to":"Rzakta","network":"Bezpłatna Komunikacja Miejska Otwock","operator":"PKS Grodzisk Mazowiecki","route":"bus","public_transport:version":"2"},"n":28,"s":[[10967771653,27],[12085847768,28]]},
+  {"id":12122243,"t":{"ref":"A1","name":"A1: Rzakta => Olszowa => Orla (Otwock)","from":"Rzakta","to":"Orla","network":"Bezpłatna Komunikacja Miejska Otwock","operator":"PKS Grodzisk Mazowiecki","route":"bus","public_transport:version":"2"},"n":29,"s":[[12085847768,1],[10967771656,2]]},
+  {"id":12122244,"t":{"ref":"A1","name":"A1: Orla (Otwock) => Olszowa => Rzakta","from":"Orla","to":"Rzakta","network":"Bezpłatna Komunikacja Miejska Otwock","operator":"PKS Grodzisk Mazowiecki","route":"bus","public_transport:version":"2"},"n":30,"s":[[10967771653,29],[12085847768,30]]},
+  {"id":12515506,"t":{"ref":"K1","name":"Bus K1: Kołbiel Rynek => Mińsk Mazowiecki Dworzec Autobusowy","from":"Kołbiel Rynek","to":"Mińsk Mazowiecki Dworzec Autobusowy","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":11,"s":[[1910822987,4]]},
+  {"id":19480416,"t":{"ref":"D1","name":"Bus D1: Otwock Świderska => Dobrzyniec","from":"Otwock Świderska","to":"Dobrzyniec","network":"Nadwiślańska Komunikacja Autobusowa","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":32,"s":[[13082357211,32]]},
+  {"id":19480417,"t":{"ref":"D1","name":"Bus D1: Dobrzyniec => Otwock Orla","from":"Dobrzyniec","to":"Otwock Orla","network":"Nadwiślańska Komunikacja Autobusowa","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":31,"s":[[13082357211,1]]},
+  {"id":3017119309570,"t":{"ref":"720","name":"Bus 720: Wiatraczna => Rzakta","from":"Wiatraczna","to":"Rzakta","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":42,"s":[[2305089488,41],[2858104981,42]]},
+  {"id":3026039751693,"t":{"ref":"720","name":"Bus 720: Rzakta => Wiatraczna","from":"Rzakta","to":"Wiatraczna","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":41,"s":[[2858104981,1],[6036899917228,2]]},
+  {"id":3050466958172,"t":{"ref":"720","name":"Bus 720: Wiatraczna => Pęclin => Rzakta","from":"Wiatraczna","to":"Rzakta","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":53,"s":[[2305089488,52],[2858104981,53]]},
+  {"id":3057169461253,"t":{"ref":"720","name":"Bus 720: Rzakta => Pęclin => Wiatraczna","from":"Rzakta","to":"Wiatraczna","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":53,"s":[[2858104981,1],[6036899917228,2]]},
+  {"id":3057929346050,"t":{"ref":"720","name":"Bus 720: Wiatraczna => Rzakta","from":"Wiatraczna","to":"Rzakta","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":48,"s":[[2305089488,47],[2858104981,48]]},
+  {"id":3058407088024,"t":{"ref":"720","name":"Bus 720: Rzakta => Wiatraczna","from":"Rzakta","to":"Wiatraczna","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":48,"s":[[2858104981,1],[6036899917228,2]]},
+  {"id":3082498521352,"t":{"ref":"720","name":"Bus 720: Rzakta => Wiatraczna","from":"Rzakta","to":"Wiatraczna","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":47,"s":[[2858104981,1],[6036899917228,2]]}
+]
+}

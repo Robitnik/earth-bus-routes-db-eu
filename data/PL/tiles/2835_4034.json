@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2835,4034],
+"stops":[
+  {"id":4453946130,"lat":51.782611,"lon":21.734841,"k":"p","n":"Gończyce Skrzyżowanie"},
+  {"id":4453946230,"lat":51.783386,"lon":21.732976,"k":"p"},
+  {"id":4453946328,"lat":51.784119,"lon":21.735635,"k":"p"},
+  {"id":4453946345,"lat":51.784177,"lon":21.73362,"k":"p","n":"Gończyce Skrzyżowanie"},
+  {"id":4454645216,"lat":51.791728,"lon":21.749974,"k":"p","n":"Ostrożeń"},
+  {"id":8441501455,"lat":51.797568,"lon":21.718526,"k":"p","n":"Chotynia - Karolinów"},
+  {"id":8441501456,"lat":51.796711,"lon":21.719151,"k":"p","n":"Chotynia - Karolinów"},
+  {"id":13153795613,"lat":51.754609,"lon":21.713439,"k":"p","n":"Sokół"},
+  {"id":13153795614,"lat":51.756611,"lon":21.713843,"k":"p","n":"Sokół"},
+  {"id":13352031107,"lat":51.791424,"lon":21.748133,"k":"x","n":"Ostrożeń"},
+  {"id":13352031111,"lat":51.791781,"lon":21.749902,"k":"x","n":"Ostrożeń"},
+  {"id":13352031112,"lat":51.791453,"lon":21.748013,"k":"p","n":"Ostrożeń"},
+  {"id":13354039348,"lat":51.797517,"lon":21.718404,"k":"x","n":"Chotynia - Karolinów"},
+  {"id":13354039352,"lat":51.796762,"lon":21.719258,"k":"x","n":"Chotynia - Karolinów"}
+],
+"routes":[
+  {"id":19896480,"t":{"name":"Trans-Bus Express: Warszawa => Nałęczów","from":"Warszawa, Dworzec Centralny 04","to":"Nałęczów, ul. Partyzantów","network":"Trans-Bus Express","operator":"Trans-Bus Express","route":"bus","public_transport:version":"2"},"n":18,"s":[[4453946130,8]]},
+  {"id":19898100,"t":{"name":"Trans-Bus Express: Nałęczów => Warszawa","from":"Nałęczów, ul. Partyzantów","to":"Warszawa, Dworzec Centralny 04","network":"Trans-Bus Express","operator":"Trans-Bus Express","route":"bus","public_transport:version":"2"},"n":18,"s":[[4453946345,11]]},
+  {"id":19898102,"t":{"name":"HaloBus: Kazimierz Dolny => Warszawa","from":"Kazimierz Dolny D.A.","to":"Warszawa, Centrum 02","network":"HaloBus","operator":"HaloBus","route":"bus","public_transport:version":"2"},"n":23,"s":[[4453946345,13]]},
+  {"id":19983312,"t":{"name":"Bus: Żelechów => Gończyce => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[13352031112,7],[4453946345,8],[8441501455,9]]},
+  {"id":19983315,"t":{"name":"Bus: Warszawa => Gończyce => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[8441501456,28],[4453946328,29],[4454645216,30]]},
+  {"id":19983495,"t":{"name":"HaloBus: Warszawa => Kazimierz Dolny","from":"Warszawa, Centrum 02","to":"Kazimierz Dolny D.A.","network":"HaloBus","operator":"HaloBus","route":"bus","public_transport:version":"2"},"n":23,"s":[[4453946130,11]]}
+]
+}

@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2891,3955],
+"stops":[
+  {"id":2178416793,"lat":54.550403,"lon":17.791676,"k":"x","n":"Mosty Pętla","ref":"2.101.01"},
+  {"id":3039738914,"lat":54.574706,"lon":17.773187,"k":"p","n":"Kębłowo Nowowiejskie I","ref":"2.301.02"},
+  {"id":3039738936,"lat":54.56632,"lon":17.751507,"k":"p","n":"Nowa Wieś Lęborska Młynarska II","ref":"2.206.02"},
+  {"id":10885775451,"lat":54.566379,"lon":17.751517,"k":"x","n":"Nowa Wieś Lęborska Młynarska II","ref":"2.206.01","q":1},
+  {"id":10885775452,"lat":54.566374,"lon":17.752019,"k":"x","n":"Nowa Wieś Lęborska Młynarska II","ref":"2.206.02","q":1},
+  {"id":10885775453,"lat":54.568443,"lon":17.758466,"k":"x","n":"Nowa Wieś Lęborska Kębłowska","ref":"2.207.02","q":1},
+  {"id":10885775454,"lat":54.56808,"lon":17.758204,"k":"x","n":"Nowa Wieś Lęborska Kębłowska","ref":"2.207.01","q":1},
+  {"id":10885775463,"lat":54.576204,"lon":17.783508,"k":"x","n":"Kębłowo Nowowiejskie III","ref":"2.303.02"},
+  {"id":10885775464,"lat":54.575409,"lon":17.775737,"k":"x","n":"Kębłowo Nowowiejskie II","ref":"2.302.02"},
+  {"id":10885775465,"lat":54.575391,"lon":17.775652,"k":"x","n":"Kębłowo Nowowiejskie II","ref":"2.302.01"},
+  {"id":10885775467,"lat":54.574613,"lon":17.772589,"k":"x","n":"Kębłowo Nowowiejskie I","ref":"2.301.01","q":1},
+  {"id":10885775468,"lat":54.574756,"lon":17.773156,"k":"x","n":"Kębłowo Nowowiejskie I","ref":"2.301.02","q":1},
+  {"id":12546072602,"lat":54.568111,"lon":17.758092,"k":"p","n":"Nowa Wieś Lęborska Kębłowska","ref":"2.207.01"},
+  {"id":12546072603,"lat":54.568411,"lon":17.758563,"k":"p","n":"Nowa Wieś Lęborska Kębłowska","ref":"2.207.02"},
+  {"id":12546073142,"lat":54.576125,"lon":17.783538,"k":"p","n":"Kębłowo Nowowiejskie III","ref":"2.303.02"},
+  {"id":13168189957,"lat":54.566428,"lon":17.752014,"k":"p","n":"Nowa Wieś Lęborska Młynarska II"},
+  {"id":13171524885,"lat":54.571815,"lon":17.764071,"k":"p"},
+  {"id":13171525019,"lat":54.575435,"lon":17.775626,"k":"p"},
+  {"id":5001232524368,"lat":54.550422,"lon":17.791591,"k":"p","n":"Mosty Pętla"},
+  {"id":5001232883448,"lat":54.575593,"lon":17.776287,"k":"p","n":"Kębłowo Nowowiejskie II","ref":"2.302.01"},
+  {"id":5001232883449,"lat":54.575361,"lon":17.775775,"k":"p","n":"Kębłowo Nowowiejskie II","ref":"2.302.02"},
+  {"id":5001232883450,"lat":54.574671,"lon":17.772575,"k":"p","n":"Kębłowo Nowowiejskie I","ref":"2.301.01"},
+  {"id":5001232883453,"lat":54.566423,"lon":17.750634,"k":"p","n":"Nowa Wieś Lęborska Młynarska II","ref":"2.206.01"}
+],
+"routes":[
+  {"id":2790970,"t":{"ref":"1","name":"1: Mosty Pętla => Os. Sportowa","from":"Mosty Pętla","to":"Os. Sportowa","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001232524368,1]]},
+  {"id":2910189,"t":{"ref":"2","name":"2: Cmentarz - Górna Pętla => Kębłowo Nowowiejskie III","from":"Cmentarz - Górna Pętla","to":"Kębłowo Nowowiejskie III","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":11,"s":[[3039738936,7],[12546072603,8],[3039738914,9],[5001232883449,10],[12546073142,11]]},
+  {"id":16846508,"t":{"ref":"1","name":"1: Os. Sportowa => Mosty Pętla","from":"Os. Sportowa","to":"Mosty Pętla","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":4,"s":[[5001232524368,4]]},
+  {"id":16854795,"t":{"ref":"2","name":"2: Kębłowo Nowowiejskie III => Cmentarz - Górna Pętla","from":"Kębłowo Nowowiejskie III","to":"Cmentarz - Górna Pętla","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":11,"s":[[12546073142,1],[5001232883448,2],[5001232883450,3],[12546072602,4],[5001232883453,5]]},
+  {"id":16886359,"t":{"ref":"4","name":"4: Os. Sportowa => Lubowidz Pętla via Mosty Pętla","from":"Os. Sportowa","to":"Lubowidz Pętla","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":7,"s":[[5001232524368,3]]},
+  {"id":16886454,"t":{"ref":"4","name":"4: Lubowidz Pętla => Os. Sportowa","from":"Lubowidz Pętla","to":"Os. Sportowa","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":7,"s":[[5001232524368,4]]},
+  {"id":16886564,"t":{"ref":"4","name":"4: Lubowidz Pętla => Os. Sportowa via Wileńska - AMG","from":"Lubowidz Pętla","to":"Os. Sportowa","network":"Lębork","operator":"Zakład Komunikacji Miejskiej Lębork","route":"bus","public_transport:version":"2"},"n":8,"s":[[5001232524368,5]]}
+]
+}

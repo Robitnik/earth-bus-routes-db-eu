@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2826,4044],
+"stops":[
+  {"id":1912086109,"lat":51.32043,"lon":22.224629,"k":"x","n":"Piotrowice II"},
+  {"id":3029437196,"lat":51.317611,"lon":22.213288,"k":"p","n":"Dworzec PKP Nałęczów"},
+  {"id":7115630356,"lat":51.319098,"lon":22.223295,"k":"p","n":"Piotrowice Małe","ref":"826/12"},
+  {"id":7173774519,"lat":51.303626,"lon":22.218896,"k":"p","n":"Strzelce I","ref":"826/14"},
+  {"id":7173774520,"lat":51.304775,"lon":22.219281,"k":"p","n":"Strzelce I","ref":"826/13"},
+  {"id":7391684561,"lat":51.31961,"lon":22.226047,"k":"p","n":"Piotrowice Małe","ref":"826/11"},
+  {"id":7391684562,"lat":51.330748,"lon":22.247006,"k":"p","n":"Paulinów","ref":"826/10"},
+  {"id":7391684563,"lat":51.331234,"lon":22.247951,"k":"p","n":"Paulinów","ref":"826/09"},
+  {"id":7512130254,"lat":51.348593,"lon":22.208554,"k":"p","n":"Bronice Kolonia"},
+  {"id":7563646313,"lat":51.300199,"lon":22.239868,"k":"p","n":"Strzelce II","ref":"P-8"},
+  {"id":7563646314,"lat":51.300439,"lon":22.240202,"k":"p","n":"Strzelce I","ref":"P-7"},
+  {"id":7563776670,"lat":51.338004,"lon":22.216255,"k":"p","n":"Bronice"},
+  {"id":7563776671,"lat":51.338148,"lon":22.21593,"k":"p","n":"Bronice I","ref":"P-3"},
+  {"id":8916601615,"lat":51.338164,"lon":22.216035,"k":"x","n":"Bronice"},
+  {"id":8916601616,"lat":51.320406,"lon":22.224731,"k":"p","n":"Piotrowice II","ref":"P-6"},
+  {"id":8916706437,"lat":51.338173,"lon":22.216084,"k":"p","n":"Bronice II","ref":"P-4"},
+  {"id":8916706438,"lat":51.320776,"lon":22.224748,"k":"x","n":"Piotrowice I"},
+  {"id":8916706439,"lat":51.320783,"lon":22.224695,"k":"p","n":"Piotrowice I","ref":"P-5"},
+  {"id":9217227170,"lat":51.304783,"lon":22.219181,"k":"x","n":"Strzelce I"},
+  {"id":9217227172,"lat":51.319055,"lon":22.223414,"k":"x","n":"Piotrowice Małe"},
+  {"id":9217227173,"lat":51.303619,"lon":22.219013,"k":"x","n":"Strzelce I"},
+  {"id":9217227174,"lat":51.317581,"lon":22.213219,"k":"x","n":"Dworzec PKP Nałęczów"},
+  {"id":9217227175,"lat":51.348606,"lon":22.208482,"k":"x","n":"Bronice Kolonia"},
+  {"id":12180940939,"lat":51.310353,"lon":22.22051,"k":"p"},
+  {"id":12180940943,"lat":51.309243,"lon":22.22111,"k":"p"},
+  {"id":12180952309,"lat":51.309712,"lon":22.219087,"k":"p"}
+],
+"routes":[
+  {"id":12951158,"t":{"name":"Nałęczów => Bronice Kolonia","from":"Nałęczów","to":"Bronice Kolonia","network":"Komunikacja w powiecie puławskim","operator":"Rago sp. z o.o.","route":"bus","public_transport:version":"2"},"n":12,"s":[[7173774520,3],[3029437196,4],[8916601616,11],[7512130254,12]]},
+  {"id":12951199,"t":{"name":"Bronice Kolonia - Nałęczów PKP","from":"Bronice Kolonia","to":"Nałęczów PKP","network":"Komunikacja w powiecie puławskim","operator":"Rago sp. z o.o.","route":"bus","public_transport:version":"2"},"n":7,"s":[[7512130254,1],[7563776671,2],[8916706439,3],[3029437196,7]]},
+  {"id":12951510,"t":{"name":"Nałęczów - Puławy","from":"Nałęczów","to":"Puławy","network":"Komunikacja w powiecie puławskim","operator":"Przewóz osób Łubkowski Bogusław","route":"bus","public_transport:version":"2"},"n":11,"s":[[7173774520,3],[8916601616,4],[8916706437,5]]},
+  {"id":12952545,"t":{"name":"Puławy - Nałęczów","from":"Puławy","to":"Nałęczów","network":"Komunikacja w powiecie puławskim","operator":"Przewóz osób Łubkowski Bogusław","route":"bus","public_transport:version":"2"},"n":17,"s":[[7563776671,14],[8916706439,15],[7173774519,16]]},
+  {"id":13071550,"t":{"ref":"1","name":"NKL: Nałęczów -> Bronice Kolonia","from":"Nałęczów","to":"Bronice Kolonia","network":"Nałęczowska Komunikacja Lokalna","operator":"Gmina Nałęczów","route":"bus","public_transport:version":"2"},"n":7,"s":[[7173774520,3],[3029437196,4],[8916601616,5],[8916706437,6],[7512130254,7]]},
+  {"id":13071551,"t":{"ref":"1","name":"NKL: Bronice Kolonia -> Nałęczów","from":"Bronice Kolonia","to":"Nałęczów","network":"Nałęczowska Komunikacja Lokalna","operator":"Gmina Nałęczów","route":"bus","public_transport:version":"2"},"n":6,"s":[[7512130254,1],[7563776671,2],[7115630356,3],[3029437196,4],[7173774519,5]]}
+]
+}

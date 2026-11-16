@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2804,4030],
+"stops":[
+  {"id":5044954642,"lat":50.206234,"lon":21.50631,"k":"p"},
+  {"id":5044954677,"lat":50.20869,"lon":21.5066,"k":"p"},
+  {"id":5045033058,"lat":50.218382,"lon":21.505718,"k":"p","n":"Rzemień 03"},
+  {"id":10171328479,"lat":50.216689,"lon":21.512528,"k":"x","n":"Rzemień ZSR 05"},
+  {"id":10171328482,"lat":50.216722,"lon":21.512522,"k":"p","n":"Rzemień ZSR"},
+  {"id":10181657567,"lat":50.247176,"lon":21.504626,"k":"p","n":"Kolejowa 03"},
+  {"id":10238277897,"lat":50.202867,"lon":21.536824,"k":"p"},
+  {"id":10268100486,"lat":50.247162,"lon":21.504684,"k":"x","n":"Kolejowa 03"},
+  {"id":10971784190,"lat":50.202419,"lon":21.535706,"k":"p","n":"Dobrynin"},
+  {"id":12914988497,"lat":50.217533,"lon":21.505991,"k":"p"}
+],
+"routes":[
+  {"id":15005306,"t":{"ref":"5","name":"Bus 5 (Szarych Szeregów => Rzemień ZSR)","from":"Szarych Szeregów 01","to":"Rzemień ZSR 05","network":"MKS Mielec","operator":"MKS Mielec","route":"bus"},"n":4,"s":[[10171328482,2]]},
+  {"id":15005976,"t":{"ref":"5","name":"Bus 5 (Rzemień ZSR => Szarych Szeregów)","from":"Rzemień ZSR 05","to":"Szarych Szeregów 02","network":"MKS Mielec","operator":"MKS Mielec","route":"bus"},"n":4,"s":[[10171328482,1]]},
+  {"id":15025778,"t":{"ref":"25","name":"Bus 25 (Rzemień ZSR => Strefa)","from":"Rzemień ZSR 05","to":"Strefa Pętla 05","network":"MKS Mielec","operator":"MKS Mielec","route":"bus"},"n":3,"s":[[10171328482,1]]},
+  {"id":15025779,"t":{"ref":"25","name":"Bus 25 (Strefa => Rzemień ZSR)","from":"Strefa Pętla 06","to":"Rzemień ZSR 05","network":"MKS Mielec","operator":"MKS Mielec","route":"bus"},"n":4,"s":[[10171328482,1]]}
+]
+}

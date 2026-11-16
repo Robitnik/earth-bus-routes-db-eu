@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2805,4033],
+"stops":[
+  {"id":2995434665,"lat":50.258876,"lon":21.675371,"k":"p","n":"Siedlanka 30"},
+  {"id":2995434676,"lat":50.259204,"lon":21.673931,"k":"p","n":"Siedlanka 57"},
+  {"id":5125390418,"lat":50.262756,"lon":21.65985,"k":"p","n":"Kosowy Sklep"},
+  {"id":5125391130,"lat":50.263134,"lon":21.6562,"k":"p","n":"Kosowy Skrzyżowanie"},
+  {"id":9902603859,"lat":50.285018,"lon":21.689522,"k":"p","n":"Trzęsówka (Podpołudnie)"},
+  {"id":9960255091,"lat":50.292962,"lon":21.694823,"k":"p"},
+  {"id":9960933196,"lat":50.293976,"lon":21.682025,"k":"p","n":"Trzęsówka (Plac)"},
+  {"id":9963875634,"lat":50.272872,"lon":21.689446,"k":"p"},
+  {"id":10288012253,"lat":50.263154,"lon":21.655355,"k":"p","n":"Kosowy Owsianka"},
+  {"id":10288012254,"lat":50.25146,"lon":21.650436,"k":"p","n":"Hucina"}
+],
+"routes":[
+  {"id":15341481,"t":{"name":"Bus Mielec => Rzeszów","from":"Mielec","to":"Rzeszów","operator":"Marcel Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[5125391130,9],[2995434665,10]]},
+  {"id":15341989,"t":{"ref":"4","name":"Bus 4 Werynia =>Kosowy","from":"Werynia","to":"Kosowy","operator":"BujakBus","route":"bus"},"n":21,"s":[[10288012254,13],[10288012253,14]]},
+  {"id":15341990,"t":{"ref":"4","name":"Bus 4 Kosowy => Werynia","from":"Kosowy","to":"Werynia","operator":"BujakBus","route":"bus"},"n":21,"s":[[10288012253,3],[10288012254,4]]},
+  {"id":16369300,"t":{"name":"Bus Rzeszów => Mielec","from":"Rzeszów","to":"Mielec","operator":"Marcel Bus","route":"bus","public_transport:version":"2"},"n":26,"s":[[2995434676,18],[5125390418,19]]},
+  {"id":16719356,"t":{"name":"Bus Mielec => Rzeszów","from":"Mielec","to":"Rzeszów","operator":"Markpol","route":"bus","public_transport:version":"2"},"n":34,"s":[[5125391130,13],[2995434665,14]]}
+]
+}

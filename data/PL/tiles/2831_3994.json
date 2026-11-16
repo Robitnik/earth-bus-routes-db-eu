@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2831,3994],
+"stops":[
+  {"id":1786093126,"lat":51.555615,"lon":19.746042,"k":"x","n":"Raciborowice Help-Med"},
+  {"id":10313253517,"lat":51.569562,"lon":19.722604,"k":"x","n":"Kalska Wola"},
+  {"id":10313253519,"lat":51.580819,"lon":19.733107,"k":"x","n":"Kalinów"},
+  {"id":10313253523,"lat":51.592269,"lon":19.723437,"k":"x","n":"Wolbórka"},
+  {"id":10313253526,"lat":51.587535,"lon":19.747393,"k":"x","n":"Będków"},
+  {"id":10313253563,"lat":51.559072,"lon":19.7107,"k":"x","n":"Biskupia Wola nr 128"},
+  {"id":10313253574,"lat":51.553998,"lon":19.741451,"k":"x","n":"Raciborowice OSP"},
+  {"id":10313253575,"lat":51.554042,"lon":19.741377,"k":"p","n":"Raciborowice OSP"},
+  {"id":11966364744,"lat":51.580482,"lon":19.732795,"k":"x","n":"Kalinów"},
+  {"id":13180588679,"lat":51.592258,"lon":19.723567,"k":"x","n":"Wolbórka"},
+  {"id":13180588680,"lat":51.588176,"lon":19.731257,"k":"x","n":"Remiszewice"},
+  {"id":13180588681,"lat":51.588147,"lon":19.731347,"k":"x","n":"Remiszewice"}
+],
+"routes":[
+  {"id":15095977,"t":{"name":"Piotrków Trybunalski - Jarosty - Moszczenica - Raciborowice","from":"Piotrków Trybunalski","to":"Raciborowice","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[10313253575,21]]},
+  {"id":15095978,"t":{"name":"Rabicorowice - Moszczenica - Jarosty - Potrków Trybunalski","from":"Rabicorowice","to":"Piotrków Trybunalski","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[10313253575,1]]},
+  {"id":15095981,"t":{"name":"Raciborowice - Moszczenica - Piotrków Trybunalski","from":"Rabicorowice","to":"Piotrków Trybunalski","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":19,"s":[[10313253575,1]]},
+  {"id":15095984,"t":{"name":"Piotrków Trybunalski - Raków - Moszczenica - Baby - Raciborowice","from":"Piotrków Trybunalski","to":"Raciborowice","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":21,"s":[[10313253575,21]]},
+  {"id":17680717,"t":{"ref":"ŁA7","name":"ŁA7: Rokiciny → Będków","from":"Rokiciny","to":"Będków","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":14,"s":[[10313253526,14]]},
+  {"id":17680718,"t":{"ref":"ŁA7","name":"ŁA7: Będków → Rokiciny","from":"Będków","to":"Rokiciny","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":16,"s":[[10313253526,1]]},
+  {"id":19660660,"t":{"ref":"ŁA11","name":"ŁA11: Będków → Tuszyn → Rydzynki","from":"Będków","to":"Rydzynki","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":26,"s":[[10313253526,1],[13180588680,2],[10313253523,3]]},
+  {"id":19660661,"t":{"ref":"ŁA11","name":"ŁA11: Rydzynki → Tuszyn → Będków","from":"Rydzynki","to":"Będków","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":26,"s":[[13180588679,24],[13180588681,25],[10313253526,26]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2796,4054],
+"stops":[
+  {"id":4237321633,"lat":49.81083,"lon":22.748638,"k":"p","n":"Wysockiego - Lipowicka"},
+  {"id":4237321634,"lat":49.8113,"lon":22.748028,"k":"p","n":"Wysockiego - os. TBS"},
+  {"id":4237321636,"lat":49.81494,"lon":22.741881,"k":"p","n":"Wysockiego"},
+  {"id":4237321637,"lat":49.817299,"lon":22.736273,"k":"p","n":"Wysockiego - DPS"},
+  {"id":6167035973,"lat":49.845883,"lon":22.744595,"k":"p"},
+  {"id":6167035978,"lat":49.843799,"lon":22.73779,"k":"p","n":"Ujkowice Dolne"},
+  {"id":6167035990,"lat":49.839999,"lon":22.721024,"k":"p","n":"Ujkowice Szkoła"},
+  {"id":7593569713,"lat":49.80757,"lon":22.70211,"k":"p","n":"Łętownia Krzyżówka","ref":"67"},
+  {"id":7593569714,"lat":49.808027,"lon":22.700936,"k":"p","n":"Łętownia Krzyżówka","ref":"10"},
+  {"id":8421443340,"lat":49.803545,"lon":22.709788,"k":"p","n":"Kuńkowce, Tartak","ref":"69"},
+  {"id":8421443341,"lat":49.804093,"lon":22.709162,"k":"p","n":"Kuńkowce, Tartak","ref":"08"},
+  {"id":8595674108,"lat":49.815487,"lon":22.741196,"k":"p","n":"Wysockiego - las"},
+  {"id":9112002395,"lat":49.816918,"lon":22.737084,"k":"p","n":"Wysockiego - DPS"},
+  {"id":9112064209,"lat":49.819994,"lon":22.728768,"k":"p","n":"Wysockiego - Obronna"},
+  {"id":9112064210,"lat":49.820235,"lon":22.728407,"k":"p","n":"Wysockiego - Obronna"},
+  {"id":10540214919,"lat":49.814195,"lon":22.70048,"k":"p","n":"Łętownia Szkoła"},
+  {"id":10540297186,"lat":49.828413,"lon":22.723319,"k":"p","n":"Ujkowice Debry NŻ"},
+  {"id":10540297187,"lat":49.841503,"lon":22.730404,"k":"p","n":"Ujkowice Wieś"},
+  {"id":10540297188,"lat":49.84054,"lon":22.719214,"k":"p","n":"Ujkowice Szkoła"},
+  {"id":10540297189,"lat":49.840997,"lon":22.712841,"k":"p","n":"Ujkowice II NŻ"},
+  {"id":10540297190,"lat":49.841428,"lon":22.706758,"k":"p","n":"Ujkowice Końcówka"},
+  {"id":10557237685,"lat":49.847401,"lon":22.747017,"k":"p","n":"Orzechowce NŻ"},
+  {"id":10557237692,"lat":49.849378,"lon":22.740433,"k":"p","n":"Orzechowce"}
+],
+"routes":[
+  {"id":15262133,"t":{"ref":"1","from":"Lwowska MZK","to":"Bełwin","network":"MZK","operator":"MZK Przemyśl","route":"bus"},"n":38,"s":[[8421443341,32,34],[7593569714,35],[10540214919,36]]},
+  {"id":15262134,"t":{"ref":"1","from":"Bełwin","to":"Lwowska MZK","network":"MZK","operator":"MZK Przemyśl","route":"bus"},"n":29,"s":[[10540214919,4],[7593569713,5],[8421443340,6]]},
+  {"id":15262227,"t":{"ref":"5","from":"Lwowska MZK","to":"Ujkowice","network":"MZK","operator":"MZK Przemyśl","route":"bus"},"n":29,"s":[[4237321634,19],[8595674108,20],[4237321637,21],[9112064209,22],[10540297186,23],[6167035990,24],[10540297187,25],[6167035978,26],[10540297188,27],[10540297189,28],[10540297190,29]]},
+  {"id":15262228,"t":{"ref":"5","from":"Ujkowice","to":"Lwowska MZK","network":"MZK","operator":"MZK Przemyśl","route":"bus"},"n":25,"s":[[10540297190,1],[10540297189,2],[10540297188,3],[10540297186,4],[9112064210,5],[9112002395,6],[4237321636,7],[4237321633,8]]},
+  {"id":15307348,"t":{"name":"Dynów-Przemyśl","from":"Dynów","to":"Przemyśl","network":"eurobus","operator":"eurobus","route":"bus"},"n":21,"s":[[7593569713,17]]},
+  {"id":15307349,"t":{"name":"Przemyśl-Dynów","from":"Przemyśl DA","to":"Dynów DA","network":"eurobus","operator":"eurobus","route":"bus"},"n":21,"s":[[7593569714,5]]},
+  {"id":15317506,"t":{"ref":"M","from":"Maćkowice Koniec","to":"Przemyśl Dworskiego PKS","network":"PKS","operator":"PKS Przemyśl","route":"bus"},"n":25,"s":[[10557237692,10],[10557237685,11]]},
+  {"id":15317507,"t":{"ref":"M","from":"Przemyśl Dworskiego PKS","to":"Maćkowice Koniec","network":"PKS","operator":"PKS Przemyśl","route":"bus"},"n":26,"s":[[10557237685,16],[10557237692,17]]}
+]
+}

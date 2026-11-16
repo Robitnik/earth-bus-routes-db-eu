@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2884,3917],
+"stops":[
+  {"id":1797087685,"lat":54.241033,"lon":15.874497,"k":"p","n":"Gąski Nadbrzeżna Latarnia"},
+  {"id":2407199309,"lat":54.212911,"lon":15.89003,"k":"p","n":"ŚMIECHÓW szkoła","ref":"100004Z/02"},
+  {"id":2407199318,"lat":54.213543,"lon":15.877497,"k":"p","n":"ŚMIECHÓW II","ref":"100004Z/04"},
+  {"id":2455696190,"lat":54.204578,"lon":15.854414,"k":"p","n":"Tymień - stacja paliw"},
+  {"id":2455696194,"lat":54.204897,"lon":15.853434,"k":"p","n":"Tymień - stacja paliw"},
+  {"id":12737420573,"lat":54.200219,"lon":15.852051,"k":"p","n":"Tymień","ref":"100020Z/02"},
+  {"id":12777213389,"lat":54.213711,"lon":15.876707,"k":"p","n":"ŚMIECHÓW II"},
+  {"id":12777213390,"lat":54.213079,"lon":15.889039,"k":"p","n":"ŚMIECHÓW szkoła","ref":"100004Z/03"},
+  {"id":12777213391,"lat":54.242992,"lon":15.894019,"k":"p","n":"Gąski, Nadbrzeżna / Wczasowa"}
+],
+"routes":[
+  {"id":18969713,"t":{"name":"AIRBUS Koszalin - Ustronie Morskie","from":"Koszalin","to":"Ustronie Morskie","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[2455696194,16]]},
+  {"id":18969714,"t":{"name":"AIRBUS Ustronie Morskie -Koszalin","from":"Ustronie Morskie","to":"Koszalin","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[2455696190,3]]},
+  {"id":19023742,"t":{"ref":"3261/108","name":"Koszalin->Gąski/Śmiechów","from":"Koszalin","to":"Śmiechów","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":21,"s":[[12777213391,18],[1797087685,19],[2407199318,20],[2407199309,21]]},
+  {"id":19023743,"t":{"ref":"3261/108","name":"Gąski/Śmiechów->Koszalin","from":"Śmiechów","to":"Koszalin","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":20,"s":[[12777213390,1],[12777213389,2],[1797087685,3],[12777213391,4]]}
+]
+}

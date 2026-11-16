@@ -1,0 +1,32 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2813,3955],
+"stops":[
+  {"id":2377501676,"lat":50.688861,"lon":17.755208,"k":"x"},
+  {"id":2377501900,"lat":50.688769,"lon":17.752199,"k":"p","n":"Dąbrowa"},
+  {"id":2377501903,"lat":50.688788,"lon":17.755219,"k":"p","n":"Dąbrowa"},
+  {"id":3450456146,"lat":50.652809,"lon":17.769265,"k":"p","n":"Wawelno (357)"},
+  {"id":3450456147,"lat":50.652901,"lon":17.769323,"k":"p","n":"Wawelno (358)"},
+  {"id":3450456148,"lat":50.656874,"lon":17.76168,"k":"p","n":"Wawelno-Pętla (362)"},
+  {"id":3450456164,"lat":50.656891,"lon":17.761793,"k":"p","n":"Wawelno-Pętla (361)"},
+  {"id":3634213938,"lat":50.688725,"lon":17.752245,"k":"x"},
+  {"id":5177050377,"lat":50.656391,"lon":17.767866,"k":"p","n":"Wawelno - Centrum (359)"},
+  {"id":5259742351,"lat":50.685611,"lon":17.756156,"k":"p","n":"Dąbrowa-Szkoła"},
+  {"id":5259742352,"lat":50.685568,"lon":17.756107,"k":"x","n":"Dąbrowa-Szkoła"},
+  {"id":6637151345,"lat":50.686817,"lon":17.756261,"k":"p","n":"Dąbrowa-Przedszkole"},
+  {"id":6637151346,"lat":50.686785,"lon":17.756268,"k":"x","n":"Dąbrowa-Przedszkole"},
+  {"id":6637151360,"lat":50.689689,"lon":17.753158,"k":"p","n":"Dąbrowa-DK"},
+  {"id":6637151361,"lat":50.689672,"lon":17.753038,"k":"x","n":"Dąbrowa-DK"},
+  {"id":7124181053,"lat":50.656766,"lon":17.766632,"k":"p","n":"Wawelno - Centrum (360)"}
+],
+"routes":[
+  {"id":4779680,"t":{"ref":"8","name":"Bus 8: Grotowice-Pętla => Komprachcice-Centrum => Polska Nowa Wieś-Centrum => Wawelno-Pętla","network":"Komunikacja miejska w Opolu","operator":"Miejski Zakład Komunikacyjny w Opolu","colour":"#056eaf","route":"bus","public_transport:version":"2"},"n":46,"s":[[3450456147,45],[3450456164,46]]},
+  {"id":4784034,"t":{"ref":"8","name":"Bus 8: Wawelno-Pętla => Polska Nowa Wieś-Centrum => Komprachcice-Centrum => Grotowice-Pętla","network":"Komunikacja miejska w Opolu","operator":"Miejski Zakład Komunikacyjny w Opolu","colour":"#056eaf","route":"bus","public_transport:version":"2"},"n":48,"s":[[3450456164,1],[3450456146,2]]},
+  {"id":4820205,"t":{"ref":"8","name":"Bus 8: Grotowice-Pętla => Komprachcice-Centrum => Polska Nowa Wieś-Centrum => Wawelno-Pętla => Ochodze-Pętla","network":"Komunikacja miejska w Opolu","operator":"Miejski Zakład Komunikacyjny w Opolu","colour":"#056eaf","route":"bus","public_transport:version":"2"},"n":53,"s":[[3450456147,45],[3450456164,46],[3450456146,47]]},
+  {"id":5338631,"t":{"ref":"123","name":"Bus 123 Nysa Piłsudskiego → Opole AK","from":"Nysa ul. Piłsudskiego Południe","to":"Opole Armii Krajowej","network":"PKS w Nysie Sp. z o.o.","operator":"PKS w Nysie Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[2377501903,18]]},
+  {"id":5338632,"t":{"ref":"123","name":"Bus 123 Opole AK → Nysa Piłsudskiego","from":"Opole Armii Krajowej","to":"Nysa ul. Piłsudskiego Południe","network":"PKS w Nysie Sp. z o.o.","operator":"PKS w Nysie Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[2377501900,8]]},
+  {"id":10572555,"t":{"ref":"16","name":"Bus 16: Wawelno-Pętla => Aleja Przyjaźni-Pętla","operator":"MZK Opole","colour":"#dd0d6b","route":"bus"},"n":32,"s":[[3450456164,1],[5177050377,2]]},
+  {"id":10572556,"t":{"ref":"16","name":"Bus 16: Aleja Przyjaźni-Pętla => Wawelno-Pętla","operator":"MZK Opole","colour":"#dd0d6b","route":"bus"},"n":32,"s":[[3450456164,1],[7124181053,2]]}
+]
+}

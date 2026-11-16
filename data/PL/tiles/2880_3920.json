@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2880,3920],
+"stops":[
+  {"id":1746553297,"lat":54.012402,"lon":16.003558,"k":"p","n":"Osiedle Zwycięstwa"},
+  {"id":2585929278,"lat":54.040979,"lon":16.047127,"k":"p"},
+  {"id":3035284856,"lat":54.007228,"lon":16.000093,"k":"p","n":"Moniuszki - sklep"},
+  {"id":3035284857,"lat":54.005351,"lon":16.004468,"k":"p","n":"Moniuszki - skrzyżowanie"},
+  {"id":3035284858,"lat":54.007621,"lon":16.001153,"k":"p","n":"Chopina - Szkoła nr 3"},
+  {"id":3035296205,"lat":54.007725,"lon":16.005683,"k":"p","n":"Osiedle Chopina - sklep"},
+  {"id":8787942880,"lat":54.009389,"lon":16.001161,"k":"p","n":"Zwycięstwa- Budynek 19 I nż"},
+  {"id":8787942881,"lat":54.00939,"lon":16.001115,"k":"p","n":"Zwycięstwa- Budynek 19 II nż"},
+  {"id":9969548926,"lat":54.047141,"lon":16.015338,"k":"p"}
+],
+"routes":[
+  {"id":3981851,"t":{"ref":"2","name":"KM 2","network":"Białogard","operator":"ZKM Białogard","route":"bus"},"n":5,"s":[[8787942880,1],[8787942881,2],[3035284858,3,4],[3035296205,5]]},
+  {"id":10837312,"t":{"ref":"4","name":"KM4","network":"ZKM Białogard","route":"bus"},"n":3,"s":[[8787942881,1],[8787942880,2],[3035296205,3]]},
+  {"id":18582725,"t":{"name":"AIRBUS Koszalin -> Białogard","from":"Koszalin","to":"Białogard","network":"PL:AIRBUS","route":"bus","public_transport:version":"2"},"n":10,"s":[[3035284856,7]]},
+  {"id":18582726,"t":{"name":"Białogard -> Koszlain","from":"Białogard","to":"Koszalin","network":"PL:AIRBUS","route":"bus","public_transport:version":"2"},"n":16,"s":[[3035296205,1]]}
+]
+}

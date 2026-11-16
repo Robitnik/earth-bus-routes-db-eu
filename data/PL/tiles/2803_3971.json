@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2803,3971],
+"stops":[
+  {"id":277691443,"lat":50.192022,"lon":18.589876,"k":"x","n":"Wilcza Poczta"},
+  {"id":862524408,"lat":50.154303,"lon":18.598679,"k":"x","n":"Książenice Kościół"},
+  {"id":2537131491,"lat":50.19815,"lon":18.579942,"k":"x"},
+  {"id":4213399079,"lat":50.153483,"lon":18.598249,"k":"p","n":"Książenice Kościół","ref":"2"},
+  {"id":4213400834,"lat":50.153218,"lon":18.599888,"k":"p","n":"Książenice Kościół"},
+  {"id":4213402793,"lat":50.154291,"lon":18.598757,"k":"p","n":"Książenice Kościół","ref":"1"},
+  {"id":5299255984,"lat":50.198006,"lon":18.57993,"k":"p","n":"Wilcza Skrzyżowanie"},
+  {"id":6254221318,"lat":50.197322,"lon":18.578698,"k":"x"},
+  {"id":6254221319,"lat":50.197449,"lon":18.578699,"k":"p","n":"Wilcza Skrzyżowanie"},
+  {"id":6775859552,"lat":50.192155,"lon":18.589734,"k":"p","n":"Wilcza Poczta","ref":"2"},
+  {"id":6775859553,"lat":50.191989,"lon":18.589815,"k":"p","n":"Wilcza Poczta","ref":"1"},
+  {"id":6776276834,"lat":50.189013,"lon":18.595442,"k":"x","n":"Wilcza Kościół"},
+  {"id":6776281108,"lat":50.192133,"lon":18.589683,"k":"x","n":"Wilcza Poczta"},
+  {"id":8383138972,"lat":50.198271,"lon":18.579696,"k":"p","n":"Wilcza Skrzyżowanie","ref":"2"},
+  {"id":8383138975,"lat":50.198436,"lon":18.579275,"k":"p","n":"Wilcza Skrzyżowanie","ref":"1"},
+  {"id":8383151124,"lat":50.198304,"lon":18.579629,"k":"x","n":"Wilcza Skrzyżowanie","ref":"2"},
+  {"id":8383151129,"lat":50.198353,"lon":18.57933,"k":"x","n":"Wilcza Skrzyżowanie","ref":"1"},
+  {"id":8408269753,"lat":50.189015,"lon":18.595516,"k":"p","n":"Wilcza Kościół","ref":"2"},
+  {"id":8408269754,"lat":50.188958,"lon":18.595389,"k":"p","n":"Wilcza Kościół","ref":"1"},
+  {"id":8414864583,"lat":50.153483,"lon":18.598364,"k":"x","n":"Książenice Kościół"},
+  {"id":8414864585,"lat":50.153245,"lon":18.59993,"k":"x","n":"Książenice Kościół"}
+],
+"routes":[
+  {"id":3114900,"t":{"ref":"M104","name":"Bus M104: Stanica Kościół => Żerniki Osiedle","from":"Stanica Kościół","to":"Żerniki Osiedle","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":21,"s":[[8383138972,6]]},
+  {"id":3114901,"t":{"ref":"M104","name":"Bus M104: Żerniki Osiedle => Stanica Kościół","from":"Żerniki Osiedle","to":"Stanica Kościół","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":23,"s":[[8383138975,18]]},
+  {"id":3628310,"t":{"ref":"303","name":"Bus 303: Czerwionka KWK Dębieńsko => Szczygłowice Centrum Przesiadkowe","from":"Czerwionka KWK Dębieńsko","to":"Szczygłowice Centrum Przesiadkowe","network":"Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju","route":"bus","public_transport:version":"2"},"n":11,"s":[[4213402793,8]]},
+  {"id":3628937,"t":{"ref":"236","name":"Bus 236: Knurów Szpitalna => Leboszowice Las","from":"Knurów Szpitalna","to":"Leboszowice Las","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":18,"s":[[8408269753,10],[6775859552,11],[8383138975,12]]},
+  {"id":3628938,"t":{"ref":"236","name":"Bus 236: Leboszowice Las => Knurów Szpitalna","from":"Leboszowice Las","to":"Knurów Szpitalna","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":18,"s":[[8383138972,7],[6775859553,8],[8408269754,9]]},
+  {"id":13713983,"t":{"ref":"19","name":"Bus 19: Rybnik Dworzec Autobusowy => Leszczyny Rondo => Rybnik Dworzec Autobusowy","from":"Rybnik Dworzec Autobusowy","to":"Rybnik Dworzec Autobusowy","network":"Zarząd Transportu Zbiorowego w Rybniku","route":"bus","public_transport:version":"2"},"n":30,"s":[[4213400834,15]]},
+  {"id":13714133,"t":{"ref":"18","name":"Bus 18: Rybnik Plac Wolności => Leszczyny Rondo => Rybnik Plac Wolności","from":"Rybnik Plac Wolności","to":"Rybnik Plac Wolności","network":"Zarząd Transportu Zbiorowego w Rybniku","route":"bus","public_transport:version":"2"},"n":28,"s":[[4213399079,20]]},
+  {"id":13810206,"t":{"ref":"34","name":"Bus 34: Rybnik Plac Wolności => Wilcza Skrzyżowanie","from":"Rybnik Plac Wolności","to":"Wilcza Skrzyżowanie","network":"Zarząd Transportu Zbiorowego w Rybniku","route":"bus","public_transport:version":"2"},"n":14,"s":[[8383138972,14]]},
+  {"id":13810207,"t":{"ref":"34","name":"Bus 34: Wilcza Skrzyżowanie => Rybnik Plac Wolności","from":"Wilcza Skrzyżowanie","network":"Zarząd Transportu Zbiorowego w Rybniku","route":"bus","public_transport:version":"2"},"n":12,"s":[[8383138975,1]]}
+]
+}

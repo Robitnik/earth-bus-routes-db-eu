@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2813,3956],
+"stops":[
+  {"id":2273707984,"lat":50.665776,"lon":17.818228,"k":"p","n":"Chróścina Opolska - Szkoła (49)"},
+  {"id":2273710961,"lat":50.664914,"lon":17.812701,"k":"p","n":"Chróścina Opolska - Centrum (47)"},
+  {"id":2273713081,"lat":50.667032,"lon":17.824088,"k":"p","n":"Mechnice - Centrum (201)"},
+  {"id":2273713285,"lat":50.665575,"lon":17.800431,"k":"p","n":"Chróścina Opolska - Wieś (51)"},
+  {"id":2377501891,"lat":50.684861,"lon":17.820977,"k":"p","n":"Wrocławska - Kościół (511)"},
+  {"id":2377501895,"lat":50.685254,"lon":17.819925,"k":"p","n":"Wrocławska - Kościół (512)"},
+  {"id":3429283139,"lat":50.669522,"lon":17.818044,"k":"x"},
+  {"id":5177050378,"lat":50.666175,"lon":17.818459,"k":"p","n":"Chróścina Opolska - Szkoła (48)"},
+  {"id":5177050379,"lat":50.666749,"lon":17.82578,"k":"p","n":"Mechnice - Centrum (202)"},
+  {"id":5177050380,"lat":50.665078,"lon":17.83392,"k":"p","n":"Mechnice (199)"},
+  {"id":5177050381,"lat":50.665204,"lon":17.833358,"k":"p","n":"Mechnice (200)"},
+  {"id":6972553337,"lat":50.681525,"lon":17.849013,"k":"p","n":"Wrocławska - Sobótki (508)"},
+  {"id":6972553338,"lat":50.683621,"lon":17.828046,"k":"p","n":"Wrocławska - Straż (530)"},
+  {"id":6972553339,"lat":50.686256,"lon":17.813343,"k":"p","n":"Wrzoski - Pętla (513)"},
+  {"id":6972736287,"lat":50.683355,"lon":17.829282,"k":"p","n":"Wrocławska - Straż (531)"},
+  {"id":6972736288,"lat":50.681442,"lon":17.847891,"k":"p","n":"Wrocławska - Sobótki (507)"},
+  {"id":7124181054,"lat":50.665707,"lon":17.800611,"k":"p","n":"Chróścina Opolska - Wieś (50)"},
+  {"id":7124181055,"lat":50.665427,"lon":17.813676,"k":"p","n":"Chróścina Opolska - Centrum (46)"},
+  {"id":7124181057,"lat":50.662111,"lon":17.844259,"k":"p","n":"Mechnice - Kolonia (203)"},
+  {"id":7124181058,"lat":50.662685,"lon":17.843308,"k":"p","n":"Mechnice - Kolonia (204)"},
+  {"id":13667196893,"lat":50.681497,"lon":17.847886,"k":"x"},
+  {"id":13667274295,"lat":50.681465,"lon":17.849,"k":"x"}
+],
+"routes":[
+  {"id":4668568,"t":{"ref":"5","name":"Bus 5: Żytnia-Pętla => Wrzoski-Pętla","operator":"MZK Opole","colour":"#ff6200","route":"bus"},"n":36,"s":[[6972553337,31],[6972553338,32],[6972553339,33],[2377501895,34]]},
+  {"id":4668569,"t":{"ref":"5","name":"Bus 5: Wrzoski-Pętla => Żytnia-Pętla","colour":"#ff6200","route":"bus"},"n":38,"s":[[6972553339,22],[2377501891,23],[6972736287,24],[6972736288,25]]},
+  {"id":4730372,"t":{"ref":"9","name":"Bus 9: Witosa-Wygonowa => Wrzoski-Pętla","operator":"MZK Opole","colour":"#3b897b","route":"bus"},"n":33,"s":[[6972553337,27],[6972553338,28],[6972553339,29],[2377501895,30]]},
+  {"id":4730414,"t":{"ref":"9","name":"Bus 9: Wrzoski-Pętla => Witosa-Wygonowa","operator":"MZK Opole","colour":"#3b897b","route":"bus"},"n":32,"s":[[6972736287,25],[6972553339,26],[6972736288,27],[2377501891,28]]},
+  {"id":5338631,"t":{"ref":"123","name":"Bus 123 Nysa Piłsudskiego → Opole AK","from":"Nysa ul. Piłsudskiego Południe","to":"Opole Armii Krajowej","network":"PKS w Nysie Sp. z o.o.","operator":"PKS w Nysie Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":25,"s":[[2377501891,19]]},
+  {"id":5338632,"t":{"ref":"123","name":"Bus 123 Opole AK → Nysa Piłsudskiego","from":"Opole Armii Krajowej","to":"Nysa ul. Piłsudskiego Południe","network":"PKS w Nysie Sp. z o.o.","operator":"PKS w Nysie Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":23,"s":[[2377501895,7]]},
+  {"id":10572555,"t":{"ref":"16","name":"Bus 16: Wawelno-Pętla => Aleja Przyjaźni-Pętla","operator":"MZK Opole","colour":"#dd0d6b","route":"bus"},"n":32,"s":[[2273713285,3],[2273710961,4],[2273707984,5],[2273713081,6],[5177050380,7],[7124181057,8]]},
+  {"id":10572556,"t":{"ref":"16","name":"Bus 16: Aleja Przyjaźni-Pętla => Wawelno-Pętla","operator":"MZK Opole","colour":"#dd0d6b","route":"bus"},"n":32,"s":[[7124181054,3],[7124181055,4],[5177050378,5],[5177050379,6],[5177050381,7],[7124181058,8]]},
+  {"id":10702292,"t":{"ref":"N5","name":"Bus N5: Wrzoski-Pętla => 1 Maja-Dworzec Główny","operator":"MZK Opole","colour":"#5b5b5b","route":"bus"},"n":23,"s":[[6972553339,1],[2377501891,2],[6972736287,3],[6972736288,4]]},
+  {"id":10702293,"t":{"ref":"N5","name":"Bus N5: 1 Maja-Dworzec Główny => Wrzoski-Pętla","operator":"MZK Opole","colour":"#5b5b5b","route":"bus"},"n":24,"s":[[6972553339,1],[2377501895,2],[6972553338,3],[6972553337,4]]}
+]
+}

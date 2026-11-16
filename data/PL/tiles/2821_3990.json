@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2821,3990],
+"stops":[
+  {"id":5310003588,"lat":51.08898,"lon":19.506185,"k":"x","n":"Kietlin Pętla","ref":"160"},
+  {"id":11833588660,"lat":51.088805,"lon":19.507732,"k":"p","n":"Kietlin Pętla"},
+  {"id":11833588661,"lat":51.088872,"lon":19.507749,"k":"x","n":"Kietlin Pętla","ref":"160"},
+  {"id":11918267551,"lat":51.05957,"lon":19.538544,"k":"p","n":"Dziepółć Pętla"},
+  {"id":11918267552,"lat":51.059607,"lon":19.53853,"k":"x","n":"Dziepółć Pętla","ref":"272"},
+  {"id":11918267557,"lat":51.059588,"lon":19.538396,"k":"x","n":"Dziepółć Pętla","ref":"272"},
+  {"id":11918267565,"lat":51.058344,"lon":19.526703,"k":"x","n":"Dziepółć","ref":"271"},
+  {"id":11918267566,"lat":51.058242,"lon":19.526985,"k":"p","n":"Dziepółć"},
+  {"id":11918267567,"lat":51.058279,"lon":19.527002,"k":"x","n":"Dziepółć","ref":"271"},
+  {"id":11918267568,"lat":51.058563,"lon":19.518776,"k":"p","n":"Amelin"},
+  {"id":11918313569,"lat":51.058609,"lon":19.518776,"k":"x","n":"Amelin","ref":"270"},
+  {"id":11918313574,"lat":51.058608,"lon":19.518697,"k":"x","n":"Amelin","ref":"270"},
+  {"id":11918313579,"lat":51.058577,"lon":19.508189,"k":"p","n":"Amelin Skrzyżowanie"},
+  {"id":11918313580,"lat":51.058615,"lon":19.508191,"k":"x","n":"Amelin Skrzyżowanie","ref":"269"},
+  {"id":11918313581,"lat":51.058615,"lon":19.508133,"k":"x","n":"Amelin Skrzyżowanie","ref":"269"},
+  {"id":5000549707242,"lat":51.089056,"lon":19.506263,"k":"p","n":"Kietlin Pętla"},
+  {"id":5001284698830,"lat":51.059628,"lon":19.538391,"k":"p","n":"Dziepółć Pętla"},
+  {"id":5001284698831,"lat":51.058389,"lon":19.526728,"k":"p","n":"Dziepółć"},
+  {"id":5001284698832,"lat":51.058648,"lon":19.518707,"k":"p","n":"Amelin"},
+  {"id":5001284698833,"lat":51.058662,"lon":19.508133,"k":"p","n":"Amelin Skrzyżowanie"}
+],
+"routes":[
+  {"id":7848973,"t":{"ref":"6","name":"6: Sucharskiego => Kietlin","from":"Sucharskiego Pętla","to":"Kietlin Pętla","network":"Radomsko","operator":"MPK Radomsko","route":"bus","public_transport:version":"2"},"n":31,"s":[[11833588660,31]]},
+  {"id":7848974,"t":{"ref":"6","name":"6: Kietlin => Dworzec PKP","from":"Kietlin Pętla","to":"Dworzec PKP, PKS","network":"Radomsko","operator":"MPK Radomsko","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000549707242,1]]},
+  {"id":7848975,"t":{"ref":"6","name":"6: Kietlin => Sucharskiego","from":"Kietlin Pętla","to":"Sucharskiego Pętla","network":"Radomsko","operator":"MPK Radomsko","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000549707242,1]]},
+  {"id":7848976,"t":{"ref":"6","name":"6: Dworzec PKP => Kietlin","from":"Dworzec PKP, PKS","to":"Kietlin Pętla","network":"Radomsko","operator":"MPK Radomsko","route":"bus","public_transport:version":"2"},"n":23,"s":[[11833588660,23]]},
+  {"id":17611443,"t":{"ref":"15","name":"15: Dmenin => Dworzec PKP","from":"Dmenin","to":"Dworzec PKP, PKS","network":"Radomsko","operator":"MPK Radomsko","route":"bus","public_transport:version":"2"},"n":17,"s":[[5001284698830,2],[5001284698831,3],[5001284698832,4],[5001284698833,5]]},
+  {"id":17611444,"t":{"ref":"15","name":"15: Dworzec PKP => Dmenin","from":"Dworzec PKP, PKS","to":"Dmenin","network":"Radomsko","operator":"MPK Radomsko","route":"bus","public_transport:version":"2"},"n":18,"s":[[11918313579,14],[11918267568,15],[11918267566,16],[11918267551,17]]}
+]
+}

@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2849,4020],
+"stops":[
+  {"id":1570138526,"lat":52.453873,"lon":21.011729,"k":"x","n":"Zegrze Płd. 03","ref":"132303"},
+  {"id":2470584443,"lat":52.452214,"lon":21.010047,"k":"x","n":"Zegrze Płd. 01","ref":"132301"},
+  {"id":2470584444,"lat":52.453975,"lon":21.013491,"k":"x","n":"Zegrze Płd. 02","ref":"132302"},
+  {"id":4745283667,"lat":52.466293,"lon":21.028828,"k":"p","n":"Zegrze 01"},
+  {"id":4764777832,"lat":52.47156,"lon":21.00827,"k":"p","n":"Dosin ul. Brzozowa 01"},
+  {"id":4764777841,"lat":52.471379,"lon":21.008606,"k":"p","n":"Dosin ul. Brzozowa 02"},
+  {"id":7284724612,"lat":52.49252,"lon":21.021091,"k":"p"},
+  {"id":10958463940,"lat":52.488936,"lon":21.046239,"k":"p","n":"Stasi Las 01"},
+  {"id":11036193463,"lat":52.460565,"lon":21.031106,"k":"p","n":"Zegrze Osiedle 01"},
+  {"id":11036193464,"lat":52.460502,"lon":21.031385,"k":"p","n":"Zegrze Osiedle 02"},
+  {"id":11036193465,"lat":52.465759,"lon":21.02838,"k":"p","n":"Zegrze 02"},
+  {"id":11036193466,"lat":52.465075,"lon":21.029141,"k":"p","n":"Zegrze JW"},
+  {"id":11036193467,"lat":52.476619,"lon":21.033442,"k":"p","n":"Borowa Góra 01"},
+  {"id":11036193468,"lat":52.47656,"lon":21.03387,"k":"p","n":"Borowa Góra 02"},
+  {"id":11036193469,"lat":52.482578,"lon":21.039679,"k":"p","n":"Jadwisin 01"},
+  {"id":11036193470,"lat":52.482058,"lon":21.039655,"k":"p","n":"Jadwisin 02"},
+  {"id":11036193471,"lat":52.487463,"lon":21.045292,"k":"p","n":"Stasi Las 02"},
+  {"id":11170135804,"lat":52.455062,"lon":21.014682,"k":"p","n":"Zegrze Płd. 04"},
+  {"id":11968405901,"lat":52.453899,"lon":21.011696,"k":"p","n":"Zegrze Płd. 03","ref":"132303"},
+  {"id":11968405906,"lat":52.453923,"lon":21.013575,"k":"p","n":"Zegrze Płd. 02","ref":"132302"},
+  {"id":11968405915,"lat":52.452277,"lon":21.009935,"k":"p","n":"Zegrze Płd. 01","ref":"132301"}
+],
+"routes":[
+  {"id":16924280,"t":{"ref":"7P","name":"7P: Serock Czeska => Legionowo Centrum Komunikacyjne","from":"Serock Czeska 02","to":"Legionowo Centrum Komunikacyjne 01","network":"Powiat Legionowski","route":"bus"},"n":18,"s":[[11968405915,1]]},
+  {"id":16924281,"t":{"ref":"7P","name":"7P: Legionowo Centrum Komunikacyjne => Serock Centrum","from":"Legionowo Centrum Komunikacyjne 01","to":"Serock Centrum 02","network":"Powiat Legionowski","route":"bus"},"n":22,"s":[[11968405906,22]]},
+  {"id":16924613,"t":{"ref":"8P","name":"8P: Zegrze Południowe => Legionowo Centrum Komunikacyjne","from":"Zegrze Południowe 03","to":"Legionowo Centrum Komunikacyjne 01","network":"Powiat Legionowski","route":"bus"},"n":23,"s":[[11968405901,1],[11968405915,2],[11968405906,3]]},
+  {"id":16924614,"t":{"ref":"8P","name":"8P: Legionowo Centrum Komunikacyjne => Zegrze Południowe","from":"Legionowo Centrum Komunikacyjne 01","to":"Zegrze Południowe 01","network":"Powiat Legionowski","route":"bus"},"n":27,"s":[[11968405901,27]]},
+  {"id":20980654,"t":{"ref":"11P","name":"11P: Legionowo, Osiedle Bukowiec => Serock, Centrum","from":"Legionowo, Osiedle Bukowiec","to":"Serock, Centrum","network":"Powiat Legionowski","route":"bus"},"n":20,"s":[[11968405906,20]]},
+  {"id":20980655,"t":{"ref":"11P","name":"11P: Serock, Centrum => Legionowo, Osiedle Bukowiec","from":"Serock, Centrum","to":"Legionowo, Osiedle Bukowiec","network":"Powiat Legionowski","route":"bus"},"n":20,"s":[[11968405915,2]]},
+  {"id":3016697209326,"t":{"ref":"735","name":"Bus 735: Zegrze Płd. => Metro Marymont","from":"Zegrze Płd.","to":"Metro Marymont","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":37,"s":[[1570138526,1],[11968405915,2]]},
+  {"id":3028079879779,"t":{"ref":"735","name":"Bus 735: Zegrze Płd. => Metro Marymont","from":"Zegrze Płd.","to":"Metro Marymont","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":37,"s":[[1570138526,1],[11968405915,2]]},
+  {"id":3057434602671,"t":{"ref":"735","name":"Bus 735: Zegrze Płd. => Metro Marymont","from":"Zegrze Płd.","to":"Metro Marymont","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":38,"s":[[1570138526,1],[11968405915,2]]},
+  {"id":3093763169659,"t":{"ref":"735","name":"Bus 735: Metro Marymont => Zegrze Płd.","from":"Metro Marymont","to":"Zegrze Płd.","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":35,"s":[[11968405906,34],[1570138526,35]]}
+]
+}

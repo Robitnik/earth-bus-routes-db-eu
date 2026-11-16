@@ -1,0 +1,30 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2838,3994],
+"stops":[
+  {"id":3028251500,"lat":51.945636,"lon":19.725182,"k":"x","n":"Sikorskiego (Urząd Skarbowy)"},
+  {"id":3076469953,"lat":51.947434,"lon":19.734609,"k":"x","n":"Huta Józefów (Stadion)"},
+  {"id":4680685491,"lat":51.949092,"lon":19.721358,"k":"x","n":"Sikorskiego (Mit-Mar)"},
+  {"id":4680685493,"lat":51.94614,"lon":19.724557,"k":"x","n":"Sikorskiego (Urząd Skarbowy)"},
+  {"id":4680685494,"lat":51.94692,"lon":19.735069,"k":"x","n":"Huta Józefów (Stadion)"},
+  {"id":4878332155,"lat":51.946109,"lon":19.724492,"k":"p","n":"Sikorskiego (Urząd Skarbowy)"},
+  {"id":13443721358,"lat":51.918577,"lon":19.712838,"k":"p","n":"Szczecin przy pos. 35"},
+  {"id":13443721359,"lat":51.923221,"lon":19.735779,"k":"p","n":"Dmosin Pierwszy pos. 32"},
+  {"id":13443721361,"lat":51.936196,"lon":19.736588,"k":"p","n":"Osiny"},
+  {"id":13443798017,"lat":51.918605,"lon":19.712826,"k":"x","n":"Szczecin przy pos. 35"},
+  {"id":13443798018,"lat":51.92317,"lon":19.735801,"k":"x","n":"Dmosin Pierwszy pos. 32"},
+  {"id":13443798020,"lat":51.936207,"lon":19.736639,"k":"x","n":"Osiny"},
+  {"id":5000496030632,"lat":51.946872,"lon":19.734993,"k":"p","n":"Huta Józefów (Stadion)"},
+  {"id":5000496038835,"lat":51.945621,"lon":19.725312,"k":"p","n":"Sikorskiego (Urząd Skarbowy)"},
+  {"id":5000496095640,"lat":51.949056,"lon":19.721268,"k":"p","n":"Sikorskiego (Mit-Mar)"}
+],
+"routes":[
+  {"id":6969483,"t":{"ref":"1","name":"Linia 1 (skrócona)","from":"Huta Józefów (Stadion)","to":"Huta Józefów (Stadion)","network":"Komunikacja miejska w Głownie","operator":"MZK Głowno","route":"bus","public_transport:version":"2"},"n":38,"s":[[5000496030632,1,38],[5000496038835,2]]},
+  {"id":6969502,"t":{"ref":"1","name":"Linia 1 (pełna)","from":"Huta Józefów (Stadion)","to":"Huta Józefów (Stadion)","network":"Komunikacja miejska w Głownie","operator":"MZK Głowno","route":"bus","public_transport:version":"2"},"n":46,"s":[[5000496030632,1,46],[5000496038835,2],[5000496095640,44],[4878332155,45]]},
+  {"id":6969510,"t":{"ref":"1","name":"Linia 1 (zjazdowa)","from":"Huta Józefów (Stadion)","to":"Łowicka/Plac Wolności","network":"Komunikacja miejska w Głownie","operator":"MZK Głowno","route":"bus","public_transport:version":"2"},"n":13,"s":[[5000496030632,1],[5000496038835,2]]},
+  {"id":20053413,"t":{"ref":"2","name":"Linia 2","from":"Huta Józefów (Stadion)","to":"Huta Józefów (Stadion)","network":"Komunikacja miejska w Głownie","operator":"MZK Głowno","route":"bus","public_transport:version":"2"},"n":46,"s":[[5000496030632,1,46],[5000496038835,2],[5000496095640,44],[4878332155,45]]},
+  {"id":20065121,"t":{"name":"UMWŁ: Głowno => Brzeziny","from":"Głowno pl. Wolności-Rynek","to":"św. Anny - Kościół","network":"Przewozy autobusowe organizowane przez województwo łódzkie","operator":"PKS Skierniewice","route":"bus","public_transport:version":"2"},"n":17,"s":[[4878332155,7],[13443721361,8],[13443721359,10],[13443721358,11]]},
+  {"id":20065122,"t":{"name":"UMWŁ: Brzeziny => Głowno","from":"św. Anny - Kościół","to":"Głowno pl. Wolności-Rynek","network":"Przewozy autobusowe organizowane przez województwo łódzkie","operator":"PKS Skierniewice","route":"bus","public_transport:version":"2"},"n":16,"s":[[13443721358,7],[13443721359,8],[13443721361,10],[5000496038835,11]]}
+]
+}

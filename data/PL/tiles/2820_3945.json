@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2820,3945],
+"stops":[
+  {"id":10828665984,"lat":51.02748,"lon":17.293258,"k":"p"},
+  {"id":10828665985,"lat":51.02752,"lon":17.293293,"k":"x"},
+  {"id":10828665991,"lat":51.02785,"lon":17.292521,"k":"p"},
+  {"id":10828665992,"lat":51.027801,"lon":17.292421,"k":"x"},
+  {"id":12211272306,"lat":51.03387,"lon":17.269948,"k":"p","n":"Ratowice – kościół"},
+  {"id":12211293313,"lat":51.033836,"lon":17.269943,"k":"x","n":"Ratowice – kościół"},
+  {"id":12211293502,"lat":51.0338,"lon":17.269972,"k":"p","n":"Ratowice – kościół"},
+  {"id":12211303502,"lat":51.033833,"lon":17.269982,"k":"x","n":"Ratowice – kościół"},
+  {"id":13189240997,"lat":51.033431,"lon":17.27862,"k":"p","n":"Ratowice – cmentarz (pętla)"},
+  {"id":13189269916,"lat":51.03481,"lon":17.263968,"k":"p","n":"Ratowice – Odrzańska"},
+  {"id":13189269917,"lat":51.034713,"lon":17.264516,"k":"p","n":"Ratowice – Odrzańska"},
+  {"id":13189269918,"lat":51.03869,"lon":17.261614,"k":"p","n":"Ratowice – Polna","q":1},
+  {"id":13189269919,"lat":51.038375,"lon":17.261195,"k":"p","n":"Ratowice – Polna","q":1},
+  {"id":13190277644,"lat":51.033394,"lon":17.27867,"k":"x","n":"Ratowice – cmentarz (pętla)"},
+  {"id":13190277645,"lat":51.038706,"lon":17.261535,"k":"x","n":"Ratowice – Polna"},
+  {"id":13190277646,"lat":51.038351,"lon":17.261281,"k":"x","n":"Ratowice – Polna"},
+  {"id":13190277647,"lat":51.034682,"lon":17.264489,"k":"x","n":"Ratowice – Odrzańska"},
+  {"id":13190277648,"lat":51.034851,"lon":17.264004,"k":"x","n":"Ratowice – Odrzańska"},
+  {"id":13694486964,"lat":51.038778,"lon":17.273421,"k":"p"},
+  {"id":13694486965,"lat":51.038803,"lon":17.273462,"k":"x"},
+  {"id":13694486966,"lat":51.039208,"lon":17.272804,"k":"p"},
+  {"id":13694486967,"lat":51.039178,"lon":17.272751,"k":"x"}
+],
+"routes":[
+  {"id":18106097,"t":{"ref":"855","name":"855: Wrocław => Ratowice","from":"Wrocław","to":"Ratowice","route":"bus","public_transport:version":"2"},"n":2,"s":[[12211293502,1],[12211303502,2]]},
+  {"id":18106099,"t":{"ref":"Z2","name":"Z2: Ratowice => Wojnów","route":"bus","public_transport:version":"2"},"n":2,"s":[[12211272306,1],[12211293313,2]]},
+  {"id":19727458,"t":{"ref":"Z2","name":"Z2: Wojnów (pętla) → Ratowice – cmentarz (pętla)","from":"Wojnów (pętla)","to":"Ratowice – cmentarz (pętla)","network":"Gmina Czernica","colour":"red","route":"bus"},"n":17,"s":[[13189269916,15],[12211293502,16],[13189240997,17]]}
+]
+}

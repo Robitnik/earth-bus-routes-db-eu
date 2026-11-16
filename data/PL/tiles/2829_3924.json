@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2829,3924],
+"stops":[
+  {"id":3209166225,"lat":51.474021,"lon":16.21435,"k":"p","n":"Rynarcice II 41"},
+  {"id":3209166475,"lat":51.477001,"lon":16.21066,"k":"p","n":"NŻ Rynarcice I skrz. 40"},
+  {"id":3209166477,"lat":51.47711,"lon":16.210896,"k":"p","n":"NŻ Rynarcice I skrz. 39"},
+  {"id":5934065422,"lat":51.451775,"lon":16.233886,"k":"x","n":"Koźlice (pętla) 02"},
+  {"id":5934065433,"lat":51.45184,"lon":16.233965,"k":"p","n":"Koźlice (pętla) 02"},
+  {"id":5990636494,"lat":51.451158,"lon":16.244671,"k":"p","n":"NŻ Koźlice 04"},
+  {"id":5990636495,"lat":51.451888,"lon":16.244972,"k":"p","n":"NŻ Koźlice 09"},
+  {"id":6860719361,"lat":51.474005,"lon":16.214157,"k":"x","n":"Rynarcice II 42"},
+  {"id":8022952876,"lat":51.451935,"lon":16.244907,"k":"x","n":"NŻ Koźlice 09"},
+  {"id":9207428160,"lat":51.477033,"lon":16.210751,"k":"x","n":"NŻ Rynarcice I skrz. 40"},
+  {"id":9207428161,"lat":51.473982,"lon":16.214149,"k":"p","n":"Rynarcice II 42"},
+  {"id":9207428162,"lat":51.473981,"lon":16.214265,"k":"x","n":"Rynarcice II 41"},
+  {"id":13283219284,"lat":51.451159,"lon":16.244767,"k":"x","n":"NŻ Koźlice 04"},
+  {"id":13310860317,"lat":51.473404,"lon":16.227101,"k":"x","n":"NŻ Rynarcice 01"},
+  {"id":13310860318,"lat":51.473467,"lon":16.226874,"k":"x","n":"NŻ Rynarcice 02"},
+  {"id":13310860319,"lat":51.473375,"lon":16.227091,"k":"p","n":"NŻ Rynarcice 01"},
+  {"id":13310860320,"lat":51.473494,"lon":16.22689,"k":"p","n":"NŻ Rynarcice 02"},
+  {"id":13310860321,"lat":51.477138,"lon":16.210804,"k":"x","n":"NŻ Rynarcice I skrz. 39"}
+],
+"routes":[
+  {"id":19796546,"t":{"ref":"113","name":"Bus 113: Lubin KGHM - Pętla p. Tymowa, Gawronki => Orsk","from":"Lubin KGHM - Pętla 01","to":"Orsk 04","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":28,"s":[[5990636495,9]]},
+  {"id":19796566,"t":{"ref":"113","name":"Bus 113: Orsk p. Gawronki, Tymowa => Lubin KGHM - Pętla","from":"NŻ Orsk 06","to":"Lubin KGHM - Pętla 01","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":28,"s":[[5990636494,22]]},
+  {"id":19796571,"t":{"ref":"113","name":"Bus 113: Orsk => Lubin Ścinawska","from":"Orsk 04","to":"NŻ Lubin Ścinawska 02","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":20,"s":[[5990636494,16]]},
+  {"id":19848835,"t":{"ref":"123","name":"Bus 123: Lubin KGHM - Pętla p. Rynarcice => Chobienia ul. Rynek","from":"Lubin KGHM - Pętla 01","to":"Chobienia, ul. Rynek (pętla) 02","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":27,"s":[[5990636495,9],[13310860320,13],[3209166225,14],[3209166477,15]]},
+  {"id":19848851,"t":{"ref":"123","name":"Bus 123: Radoszyce p. Rynarcice => Lubin KGHM - Pętla","from":"Radoszyce 01","to":"Lubin KGHM - Pętla 01","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":29,"s":[[3209166475,16],[9207428161,17],[13310860319,18],[5990636494,23]]},
+  {"id":19848854,"t":{"ref":"123","name":"Bus 123: Lubin KGHM - Pętla p. Gwizdanów => Chobienia, ul. Rynek","from":"Lubin KGHM - Pętla 01","to":"Chobienia, ul. Rynek (pętla) 02","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":24,"s":[[5990636495,9]]},
+  {"id":19848857,"t":{"ref":"123","name":"Bus 123: Chobienia ul. Rynek p. Gwizdanów => Lubin Ścinawska","from":"Chobienia ul. Rynek (pętla) 02","to":"NŻ Lubin Ścinawska 02","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":18,"s":[[5990636494,14]]},
+  {"id":19849488,"t":{"ref":"133","name":"Bus 133: Lubin KGHM - Pętla p. Górzyn => Chobienia, ul. Rynek","from":"Lubin KGHM - Pętla 01","to":"Chobienia, ul. Rynek (pętla) 02","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":33,"s":[[5934065433,8,33],[5990636495,9]]},
+  {"id":19849507,"t":{"ref":"133","name":"Bus 133: Chobienia, ul. Rynek p. Górzyn => Lubin KGHM - Pętla","from":"Chobienia, ul. Rynek (pętla) 02","to":"Lubin KGHM - Pętla 02","network":"Komunikacja Gminy Rudna","operator":"PKS Lubin S.A.","route":"bus","public_transport:version":"2"},"n":30,"s":[[5990636494,24]]}
+]
+}

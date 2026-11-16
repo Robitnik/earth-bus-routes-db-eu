@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2804,4035],
+"stops":[
+  {"id":5141742428,"lat":50.22545,"lon":21.795719,"k":"p","n":"Kolbuszowa Górna 29A"},
+  {"id":5141742448,"lat":50.235076,"lon":21.783295,"k":"p","n":"Kolbuszowa Górna 32A"},
+  {"id":5141742449,"lat":50.235674,"lon":21.78298,"k":"p","n":"Kolbuszowa Górna 31A"},
+  {"id":5252993843,"lat":50.247564,"lon":21.771657,"k":"p","n":"Kolbuszowa Cmentarz 02"},
+  {"id":5252993862,"lat":50.246875,"lon":21.772391,"k":"p","n":"Kolbuszowa Cmentarz 01"},
+  {"id":5642522853,"lat":50.236052,"lon":21.770335,"k":"p"},
+  {"id":5642522889,"lat":50.23629,"lon":21.770242,"k":"p","n":"Piłsudskiego 02"},
+  {"id":5642522947,"lat":50.242286,"lon":21.773948,"k":"p","n":"Piłsudskiego 1"},
+  {"id":9898352607,"lat":50.242348,"lon":21.774164,"k":"p"},
+  {"id":9898364458,"lat":50.241301,"lon":21.763034,"k":"p","n":"Kolbuszowa Szpital"},
+  {"id":9898383473,"lat":50.242129,"lon":21.76932,"k":"p","n":"Kolbuszowa Urząd Miejski"},
+  {"id":9898468495,"lat":50.245844,"lon":21.7691,"k":"p","n":"Kolbuszowa Jana Pawła II 02"},
+  {"id":9898468496,"lat":50.245254,"lon":21.769226,"k":"p","n":"Kolbuszowa Jana Pawła II 01"},
+  {"id":9947942794,"lat":50.24392,"lon":21.775264,"k":"p","n":"Kolbuszowa Plac Wolności 02"},
+  {"id":10009875713,"lat":50.244254,"lon":21.766133,"k":"p","n":"Wojska Polskiego 02"},
+  {"id":10009875714,"lat":50.243492,"lon":21.762051,"k":"p"},
+  {"id":10090556447,"lat":50.203854,"lon":21.756618,"k":"p"},
+  {"id":10090556455,"lat":50.20397,"lon":21.755189,"k":"p"},
+  {"id":10154861928,"lat":50.241942,"lon":21.757019,"k":"p","n":"22 Lipca 03"},
+  {"id":10251713066,"lat":50.246478,"lon":21.783442,"k":"p","n":"4"},
+  {"id":10251713067,"lat":50.246647,"lon":21.78329,"k":"p","n":"3"},
+  {"id":10251713068,"lat":50.246681,"lon":21.783402,"k":"p","n":"1"},
+  {"id":10251713069,"lat":50.246509,"lon":21.783554,"k":"p","n":"2"},
+  {"id":10565810527,"lat":50.200671,"lon":21.773846,"k":"p","n":"Bukowiec"},
+  {"id":10565810528,"lat":50.20155,"lon":21.774212,"k":"p","n":"Bukowiec Szkoła"},
+  {"id":11073185535,"lat":50.224744,"lon":21.796418,"k":"p","n":"Kolbuszowa Górna 34"}
+],
+"routes":[
+  {"id":15341481,"t":{"name":"Bus Mielec => Rzeszów","from":"Mielec","to":"Rzeszów","operator":"Marcel Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[5141742448,14],[11073185535,31]]},
+  {"id":15341989,"t":{"ref":"4","name":"Bus 4 Werynia =>Kosowy","from":"Werynia","to":"Kosowy","operator":"BujakBus","route":"bus"},"n":21,"s":[[10251713069,1],[9947942794,2],[9898383473,3],[9898364458,20]]},
+  {"id":15341990,"t":{"ref":"4","name":"Bus 4 Kosowy => Werynia","from":"Kosowy","to":"Werynia","operator":"BujakBus","route":"bus"},"n":21,"s":[[9898383473,15],[10251713069,16],[9898364458,18],[9947942794,20]]},
+  {"id":15342236,"t":{"ref":"K4","name":"Bus K4 Kolbuszowa => Niwiska","from":"Kolbuszowa","to":"Niwiska","operator":"BujakBus","route":"bus"},"n":15,"s":[[9947942794,1],[10251713069,2],[9898383473,3],[9898364458,4]]},
+  {"id":15342237,"t":{"ref":"K4","name":"Bus K4 Niwiska => Kolbuszowa","from":"Niwiska","to":"Kolbuszowa","operator":"BujakBus","route":"bus"},"n":14,"s":[[9898364458,10],[9898383473,11],[9947942794,12],[10251713069,13]]},
+  {"id":16369300,"t":{"name":"Bus Rzeszów => Mielec","from":"Rzeszów","to":"Mielec","operator":"Marcel Bus","route":"bus","public_transport:version":"2"},"n":26,"s":[[5141742428,13],[5141742449,14],[10251713066,15]]},
+  {"id":16719356,"t":{"name":"Bus Mielec => Rzeszów","from":"Mielec","to":"Rzeszów","operator":"Markpol","route":"bus","public_transport:version":"2"},"n":34,"s":[[5141742448,18],[11073185535,19]]}
+]
+}

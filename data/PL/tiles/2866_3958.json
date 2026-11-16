@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2866,3958],
+"stops":[
+  {"id":1317454396,"lat":53.312559,"lon":17.948887,"k":"p","n":"Koronowo / Ogrodowa"},
+  {"id":1317454426,"lat":53.30765,"lon":17.942992,"k":"p","n":"Koronowo / Os. Brzęczkowskiego"},
+  {"id":1317454427,"lat":53.304509,"lon":17.94816,"k":"p","n":"Koronowo / Modrzewiowa"},
+  {"id":1317454432,"lat":53.308327,"lon":17.942219,"k":"p","n":"Koronowo / Os. Brzęczkowskiego"},
+  {"id":1317454433,"lat":53.312083,"lon":17.93954,"k":"p","n":"Koronowo / Dworzec Autobusowy"},
+  {"id":1317454464,"lat":53.309125,"lon":17.940641,"k":"p","n":"Koronowo / Urząd Gminy"},
+  {"id":1317454471,"lat":53.312713,"lon":17.944896,"k":"p","n":"Koronowo / Dworcowa"},
+  {"id":5019700139,"lat":53.313146,"lon":17.905389,"k":"p","n":"Bieskowo"},
+  {"id":5019700140,"lat":53.313555,"lon":17.906735,"k":"p","n":"Bieskowo"},
+  {"id":9752626766,"lat":53.307317,"lon":17.929953,"k":"x","n":"Stary Dwór"},
+  {"id":9752626778,"lat":53.308337,"lon":17.929261,"k":"x","n":"Stary Dwór"},
+  {"id":10965231551,"lat":53.328205,"lon":17.901169,"k":"p","n":"Nowy Dwór"},
+  {"id":12174760827,"lat":53.312084,"lon":17.939443,"k":"x","n":"Koronowo / Dworzec Autobusowy"},
+  {"id":12253163590,"lat":53.328028,"lon":17.902656,"k":"p","n":"Nowy Dwór"},
+  {"id":5001061491320,"lat":53.307361,"lon":17.929811,"k":"p","n":"Stary Dwór"},
+  {"id":5001061491321,"lat":53.308286,"lon":17.929398,"k":"p","n":"Stary Dwór"}
+],
+"routes":[
+  {"id":1618252,"t":{"ref":"401","name":"Autobus 401: Koronowo => Bydgoszcz","from":"Koronowo","to":"Bydgoszcz","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":33,"s":[[1317454433,6],[1317454432,22],[1317454427,23],[5001061491320,32]]},
+  {"id":1633878,"t":{"ref":"403","name":"Autobus 403: Pieczyska => Bydgoszcz","from":"Pieczyska","to":"Bydgoszcz","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":31,"s":[[1317454396,12],[1317454433,13],[1317454464,14],[1317454426,15]]},
+  {"id":18035196,"t":{"ref":"401P","name":"Autobus 401P: Pieczyska => Bydgoszcz","from":"Pieczyska","to":"Bydgoszcz","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":38,"s":[[1317454433,7],[1317454432,23],[1317454427,24],[5001061491320,37]]},
+  {"id":18035197,"t":{"ref":"401P","name":"Autobus 401P: Bydgoszcz => Pieczyska","from":"Bydgoszcz","to":"Pieczyska","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":36,"s":[[1317454433,1],[5001061491321,8],[1317454426,15],[1317454464,20]]},
+  {"id":18035198,"t":{"ref":"403","name":"Autobus 403: Bydgoszcz => Pieczyska","from":"Bydgoszcz","to":"Pieczyska","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":31,"s":[[1317454433,1],[1317454432,12],[1317454471,17],[1317454427,29]]},
+  {"id":18035199,"t":{"ref":"401","name":"Autobus 401: Bydgoszcz => Koronowo","from":"Bydgoszcz","to":"Koronowo","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":31,"s":[[5001061491321,2],[1317454433,7],[1317454426,13],[1317454464,17]]},
+  {"id":18040448,"t":{"ref":"2","name":"Autobus 2 (wariant 4): Koronowo => Łowin => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":16,"s":[[1317454396,8],[1317454464,14],[1317454426,15],[1317454433,16]]},
+  {"id":18040449,"t":{"ref":"2","name":"Autobus 2 (wariant 3): Koronowo => Pruszcz => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":21,"s":[[1317454396,12],[1317454464,19],[1317454426,20],[1317454433,21]]},
+  {"id":18040450,"t":{"ref":"2","name":"Autobus 2 (wariant 2): Koronowo => Karolewo => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":13,"s":[[1317454396,2],[1317454464,11],[1317454426,12],[1317454433,13]]},
+  {"id":18040451,"t":{"ref":"2","name":"Autobus 2 (wariant 1): Koronowo => Niewieścin => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","operator":"FRBUS GROUP","route":"bus","public_transport:version":"2"},"n":21,"s":[[1317454396,1],[1317454464,19],[1317454426,20],[1317454433,21]]},
+  {"id":18041400,"t":{"ref":"GK2","name":"Autobus GK2: Wiskitno => Koronowo","from":"Wiskitno","to":"Koronowo, Dworzec Autobusowy","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":25,"s":[[1317454433,2],[5019700139,11]]},
+  {"id":18041401,"t":{"ref":"GK2","name":"Autobus GK2: Koronowo => Wiskitno","from":"Koronowo, Dworzec Autobusowy","to":"Wiskitno","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":25,"s":[[1317454433,2],[5019700140,11]]},
+  {"id":18165765,"t":{"ref":"21466","name":"PKS Linia 21466: Mąkowarsko => Bydgoszcz","from":"Mąkowarsko","to":"Bydgoszcz","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":39,"s":[[12253163590,8],[5001061491320,10],[1317454427,18],[1317454432,19],[1317454433,32],[1317454471,39]]},
+  {"id":18165766,"t":{"ref":"21466","name":"PKS Linia 21466: Bydgoszcz => Mąkowarsko","from":"Bydgoszcz","to":"Mąkowarsko","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":37,"s":[[1317454433,4],[5001061491321,7],[1317454426,12],[10965231551,17],[1317454464,22],[1317454396,25]]},
+  {"id":18167141,"t":{"ref":"21468","name":"PKS Linia 21468: Sępólno Krajeńskie => Bydgoszcz","from":"Sępólno Krajeńskie","to":"Bydgoszcz","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":47,"s":[[1317454433,20],[5001061491320,38],[12253163590,40]]},
+  {"id":18167142,"t":{"ref":"21468","name":"PKS Linia 21468: Bydgoszcz => Sępólno Krajeńskie","from":"Bydgoszcz","to":"Sępólno Krajeńskie","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":48,"s":[[5001061491321,3],[10965231551,15],[1317454433,30]]},
+  {"id":18810499,"t":{"ref":"GK3","name":"Autobus GK3: Koronowo => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":13,"s":[[1317454432,3],[1317454464,4],[1317454426,5],[1317454427,6],[1317454433,7]]},
+  {"id":18810500,"t":{"ref":"GK1","name":"Autobus GK1: Koronowo => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":21,"s":[[1317454433,1],[5001061491321,2],[1317454396,6],[1317454471,8],[5019700140,13]]}
+]
+}

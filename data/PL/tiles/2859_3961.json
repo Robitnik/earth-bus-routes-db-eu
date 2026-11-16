@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2859,3961],
+"stops":[
+  {"id":703742116,"lat":52.970845,"lon":18.090776,"k":"p","n":"Nowa Wieś Wielka","ref":"13120"},
+  {"id":3050112976,"lat":52.998754,"lon":18.055875,"k":"p","n":"Prądocin","ref":"13116"},
+  {"id":3607480975,"lat":52.997836,"lon":18.056933,"k":"p","n":"Prądocin","ref":"13115"},
+  {"id":3607480976,"lat":52.985499,"lon":18.078449,"k":"p","n":"Januszkowo","ref":"13118"},
+  {"id":3607480977,"lat":52.984766,"lon":18.07932,"k":"p","n":"Januszkowo","ref":"13117"},
+  {"id":3607498922,"lat":52.970164,"lon":18.09068,"k":"p","n":"Nowa Wieś Wielka","ref":"13119"},
+  {"id":8189076725,"lat":52.970674,"lon":18.090711,"k":"x","n":"Nowa Wieś Wielka","ref":"13120"},
+  {"id":10592603577,"lat":52.970173,"lon":18.090832,"k":"x","n":"Nowa Wieś Wielka","ref":"13119"},
+  {"id":12222568758,"lat":52.951557,"lon":18.097125,"k":"x","n":"Tarkowo Dolne","ref":"13298"},
+  {"id":12222568760,"lat":52.951553,"lon":18.097262,"k":"p","n":"Tarkowo Dolne","ref":"13298"},
+  {"id":12518564990,"lat":52.984809,"lon":18.079417,"k":"x","n":"Januszkowo","ref":"13117"},
+  {"id":12518564991,"lat":52.985427,"lon":18.07835,"k":"x","n":"Januszkowo","ref":"13118"},
+  {"id":12518564992,"lat":52.997918,"lon":18.057056,"k":"x","n":"Prądocin","ref":"13115"},
+  {"id":12518564993,"lat":52.998685,"lon":18.055741,"k":"x","n":"Prądocin","ref":"13116"},
+  {"id":12534044197,"lat":52.951149,"lon":18.097731,"k":"p","n":"Tarkowo Dolne","ref":"13297"},
+  {"id":12534044198,"lat":52.951107,"lon":18.097739,"k":"x","n":"Tarkowo Dolne","ref":"13297"}
+],
+"routes":[
+  {"id":15408409,"t":{"ref":"99","name":"Autobus 99: Plac Kościeleckich => Nowa Wieś Wielka","from":"Plac Kościeleckich","to":"Nowa Wieś Wielka","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":11,"s":[[3607480975,4],[3607480977,8],[3607498922,9]]},
+  {"id":15411752,"t":{"ref":"99","name":"Autobus 99: Nowa Wieś Wielka => Plac Kościeleckich","from":"Nowa Wieś Wielka","to":"Plac Kościeleckich","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":14,"s":[[703742116,1],[3607480976,2],[3050112976,3]]},
+  {"id":18122494,"t":{"ref":"99T","name":"Autobus 99T: Tarkowo Dolne => Plac Kościeleckich [trasa wydłużona]","from":"Tarkowo Dolne","to":"Plac Kościeleckich","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":15,"s":[[12222568760,1],[703742116,2],[3607480976,3],[3050112976,4]]},
+  {"id":18122495,"t":{"ref":"99T","name":"Autobus 99T: Plac Kościeleckich => Tarkowo Dolne [trasa wydłużona]","from":"Plac Kościeleckich","to":"Tarkowo Dolne","network":"ZDMiKP Bydgoszcz","route":"bus","public_transport:version":"2"},"n":12,"s":[[12534044197,1],[3607480975,5],[3607480977,7],[3607498922,12]]},
+  {"id":18162351,"t":{"ref":"21108","name":"PKS Linia 21108: Inowrocław => Bydgoszcz","from":"Inowrocław","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":31,"s":[[12222568760,20],[703742116,21],[3607480976,22],[3050112976,23]]},
+  {"id":18162352,"t":{"ref":"21108","name":"PKS Linia 21108: Bydgoszcz => Inowrocław","from":"Bydgoszcz, Dworzec Autobusowy","to":"Inowrocław","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":29,"s":[[3607480977,14],[3607498922,21],[3607480975,24]]}
+]
+}

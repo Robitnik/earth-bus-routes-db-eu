@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2820,3934],
+"stops":[
+  {"id":247029949,"lat":51.042445,"lon":16.73253,"k":"x","n":"Pełcznica"},
+  {"id":1647473883,"lat":51.028488,"lon":16.707366,"k":"x","n":"Sokolniki"},
+  {"id":2321069561,"lat":51.003113,"lon":16.747297,"k":"x"},
+  {"id":3817516186,"lat":51.039029,"lon":16.703709,"k":"x","n":"Skrzyż. Sobkowice"},
+  {"id":9694397258,"lat":51.003111,"lon":16.747163,"k":"p"},
+  {"id":9694397265,"lat":51.003524,"lon":16.747442,"k":"p"},
+  {"id":9694397266,"lat":51.003628,"lon":16.74742,"k":"x"},
+  {"id":13667220229,"lat":51.038918,"lon":16.703607,"k":"p","n":"Skrzyż. Sobkowice"},
+  {"id":13667220230,"lat":51.046168,"lon":16.705312,"k":"p","n":"Samsonowice"},
+  {"id":13667220244,"lat":51.046141,"lon":16.705302,"k":"x","n":"Samsonowice"},
+  {"id":14180298108,"lat":51.042517,"lon":16.732637,"k":"p","n":"Pełcznica"},
+  {"id":14181151003,"lat":51.04157,"lon":16.738936,"k":"p","n":"Pełcznica (na wys. nr 14)"},
+  {"id":14181151004,"lat":51.041614,"lon":16.738942,"k":"x","n":"Pełcznica (na wys. nr 14)"},
+  {"id":14194326675,"lat":51.02862,"lon":16.707398,"k":"p","n":"Sokolniki"},
+  {"id":14194326677,"lat":51.036128,"lon":16.727709,"k":"p","n":"Kozłów"},
+  {"id":14194326678,"lat":51.036073,"lon":16.727693,"k":"x","n":"Kozłów"}
+],
+"routes":[
+  {"id":20358386,"t":{"ref":"P5","name":"P5: Wichrów –> Piotrowice -> Kostomłoty –> Środa Śląska","from":"Wichrów","to":"Środa Śląska ul. Legnicka / Dworzec a.","route":"bus"},"n":27,"s":[[13667220229,11],[13667220230,12]]},
+  {"id":20360457,"t":{"ref":"P5","name":"P5: Środa Śląska -> Kostomłoty -> Wichrów -> Kostomłoty","from":"Środa Śląska ul. Legnicka / Dworzec a.","to":"Kostomłoty","route":"bus"},"n":25,"s":[[13667220229,13]]},
+  {"id":20360458,"t":{"ref":"P5","name":"P5: Środa Śląska -> Kostomłoty -> Piotrowice -> Wichrów","from":"Środa Śląska ul. Legnicka / Dworzec a.","to":"Wichrów","route":"bus"},"n":25,"s":[[13667220229,13]]},
+  {"id":21390982,"t":{"ref":"G1","name":"G1: Wichrów -> Kostomłoty -> Kąty Wrocławskie","from":"Wichrów","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":8,"s":[[14180298108,6]]},
+  {"id":21390983,"t":{"ref":"G1","name":"G1: Wichrów -> Kostomłoty -> Kąty Wrocławskie","from":"Wichrów","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":15,"s":[[13667220230,12],[14180298108,13]]},
+  {"id":21390984,"t":{"ref":"G1","name":"G1: Kostomłoty ->Wichrów -> Kąty Wrocławskie","from":"Kostomłoty Skwer","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":16,"s":[[13667220230,13],[14180298108,14]]},
+  {"id":21390985,"t":{"ref":"G1","name":"G1: Kostomłoty -> Kąty Wrocławskie","from":"Kostomłoty","to":"Kąty Wrocławskie/Rynek","route":"bus"},"n":8,"s":[[13667220230,5],[14180298108,6]]},
+  {"id":21391688,"t":{"ref":"G1","name":"G1-1: Kąty Wrocławskie -> Kostomłoty -> Wichrów","from":"Kąty Wrocławskie/Rynek","to":"Wichrów","route":"bus"},"n":11,"s":[[14180298108,5],[13667220230,6]]},
+  {"id":21391689,"t":{"ref":"G1","name":"G1-2: Kąty Wrocławskie -> Kostomłoty -> Wichrów","from":"Kąty Wrocławskie/Rynek","to":"Wichrów","route":"bus"},"n":9,"s":[[14180298108,4]]},
+  {"id":21391690,"t":{"ref":"G1","name":"G1-3,4: Kąty Wrocławskie -> Kostomłoty -> Wichrów","from":"Kąty Wrocławskie/Rynek","to":"Kostomłoty","route":"bus"},"n":17,"s":[[14180298108,4],[13667220230,5]]},
+  {"id":21391691,"t":{"ref":"G1","name":"G1-5: Kąty Wrocławskie -> Kostomłoty","from":"Kąty Wrocławskie/Rynek","to":"Kostomłoty","route":"bus"},"n":19,"s":[[14180298108,4],[13667220230,5]]},
+  {"id":21392995,"t":{"ref":"22","name":"22: Środa Śląska - Rakoszyce - Kąty Wrocławskie - Bielany Wrocławskie","from":"Środa Śląska - Dworzec Autobusowy","to":"Bielany Wrocławskie - \"Castorama\"","operator":"Marek Wierzbicki TRAKO Sp. z o.o.","route":"bus"},"n":22,"s":[[14180298108,14],[14181151003,15]]},
+  {"id":21402088,"t":{"ref":"G4","name":"G4-1: Kąty Wrocławskie -> Karczyce -> Rakoszyce","from":"Kąty Wrocławskie","to":"Rakoszyce","route":"bus"},"n":15,"s":[[14181151003,3]]},
+  {"id":21402089,"t":{"ref":"G4","name":"G4-2: Kąty Wrocławskie -> Karczyce -> Rakoszyce","from":"Kąty Wrocławskie","to":"Rakoszyce","route":"bus"},"n":10,"s":[[14180298108,3],[14181151003,4]]},
+  {"id":21402090,"t":{"ref":"G4","name":"G4-3: Kąty Wrocławskie -> Karczyce -> Rakoszyce","from":"Kąty Wrocławskie","to":"Rakoszyce","route":"bus"},"n":14,"s":[[14180298108,3],[14181151003,4]]},
+  {"id":21411425,"t":{"ref":"20B","name":"20B: Sokolniki -> Kąty Wrocławskie -> Wojtkowice -> Pustków Żurawski","from":"Sokolniki","to":"Pustków Żurawski","operator":"Marek Wierzbicki TRAKO Sp. z o.o.","route":"bus"},"n":12,"s":[[14194326675,1],[14194326677,2]]},
+  {"id":21411426,"t":{"ref":"20A","name":"20A: Pełcznica -> Kąty Wrocławskie -> Wojtkowice -> Pustków Żurawski","from":"Pełcznica","to":"Pustków Żurawski","operator":"Marek Wierzbicki TRAKO Sp. z o.o.","route":"bus"},"n":11,"s":[[14181151003,1]]}
+]
+}

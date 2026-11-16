@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2864,3949],
+"stops":[
+  {"id":4680011400,"lat":53.240321,"lon":17.481414,"k":"p","n":"Witosław"},
+  {"id":12286327002,"lat":53.226265,"lon":17.481768,"k":"p","n":"Kaźmierzewo"},
+  {"id":12286327005,"lat":53.211126,"lon":17.478344,"k":"p","n":"Broniewo III"},
+  {"id":12286327006,"lat":53.212281,"lon":17.479581,"k":"p","n":"Broniewo III"},
+  {"id":12286327007,"lat":53.202191,"lon":17.478808,"k":"p","n":"Broniewo II"}
+],
+"routes":[
+  {"id":18198177,"t":{"ref":"21521","name":"PKS Linia 21521: Rościmin => Mrocza","from":"Rościmin","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":8,"s":[[4680011400,6]]},
+  {"id":18198178,"t":{"ref":"21524","name":"PKS Linia 21524: Mrocza => Rościmin","from":"Mrocza","to":"Rościmin","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":7,"s":[[4680011400,5]]},
+  {"id":18207359,"t":{"ref":"21294","name":"PKS Linia 21294: Izabela => Nakło nad Notecią","from":"Izabela","to":"Nakło nad Notecią","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":12,"s":[[12286327007,4],[12286327002,8],[4680011400,9],[12286327006,11]]},
+  {"id":18207360,"t":{"ref":"21294","name":"PKS Linia 21294: Nakło nad Notecią => Izabela","from":"Nakło nad Notecią","to":"Izabela","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":17,"s":[[4680011400,2],[12286327002,3],[12286327006,4],[12286327005,5],[12286327007,11]]},
+  {"id":18210999,"t":{"ref":"21293","name":"PKS Linia 21293: Nakło nad Notecią => Wyrzysk","from":"Nakło nad Notecią","to":"Wyrzysk","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":24,"s":[[12286327005,10],[12286327007,13],[4680011400,14],[12286327002,20,21],[12286327006,23]]}
+]
+}

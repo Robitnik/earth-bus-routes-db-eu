@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2830,3983],
+"stops":[
+  {"id":582906781,"lat":51.503313,"lon":19.163851,"k":"x","n":"Buczek Kościół","ref":"119"},
+  {"id":5297283763,"lat":51.504225,"lon":19.163858,"k":"x","n":"Buczek Kościół","ref":"118"},
+  {"id":5297283768,"lat":51.513017,"lon":19.162377,"k":"p","n":"Buczek Wygwizdów"},
+  {"id":5297283769,"lat":51.513027,"lon":19.162445,"k":"x","n":"Wygwizdów","ref":"116"},
+  {"id":5297283774,"lat":51.514128,"lon":19.161948,"k":"x","n":"Wygwizdów","ref":"117"},
+  {"id":5000548324905,"lat":51.50324,"lon":19.164023,"k":"p","n":"Buczek"},
+  {"id":5000548324906,"lat":51.504231,"lon":19.16375,"k":"p","n":"Buczek"},
+  {"id":5000548324907,"lat":51.51412,"lon":19.162035,"k":"p","n":"Buczek Wygwizdów"}
+],
+"routes":[
+  {"id":7828713,"t":{"ref":"C","name":"C: Zelów => Łask Szpital","from":"Zelów","to":"Łask Szpital","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000548324905,8],[5000548324907,9]]},
+  {"id":7828716,"t":{"ref":"C","name":"C: Łask Szpital => Zelów","from":"Łask Szpital","to":"Zelów","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":23,"s":[[5297283768,14],[5000548324906,15]]},
+  {"id":17679855,"t":{"ref":"ŁA1","name":"ŁA1: Łask → Zelów → Szczerców","from":"Łask","to":"Szczerców","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":40,"s":[[5297283763,25],[5297283769,26]]},
+  {"id":17679856,"t":{"ref":"ŁA1","name":"ŁA1: Szczerców → Zelów → Łask","from":"Szczerców","to":"Łask","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":42,"s":[[582906781,28],[5297283774,29]]}
+]
+}

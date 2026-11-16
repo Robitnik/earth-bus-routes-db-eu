@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2837,3992],
+"stops":[
+  {"id":1437693194,"lat":51.854848,"lon":19.639062,"k":"x","n":"Skoszewy","ref":"3081"},
+  {"id":2133650406,"lat":51.850937,"lon":19.635349,"k":"x","n":"Skoszewy (szkoła)","ref":"3080"},
+  {"id":2133653964,"lat":51.85075,"lon":19.635232,"k":"x","n":"Skoszewy (szkoła)","ref":"3082"},
+  {"id":11978360535,"lat":51.896683,"lon":19.639679,"k":"x","n":"Nowostawy Górne"},
+  {"id":11978360536,"lat":51.897297,"lon":19.637441,"k":"x","n":"Nowostawy Górne"},
+  {"id":13443721355,"lat":51.896618,"lon":19.639624,"k":"p","n":"Nowostawy Górne/WMB Erbedim"},
+  {"id":13443721356,"lat":51.897361,"lon":19.637345,"k":"p","n":"Nowostawy Górne/WMB Erbedim"},
+  {"id":5000489787591,"lat":51.850908,"lon":19.635388,"k":"p","n":"Skoszewy (szkoła)"},
+  {"id":5000489788787,"lat":51.854819,"lon":19.639033,"k":"p","n":"Skoszewy"},
+  {"id":5000489792834,"lat":51.850752,"lon":19.635163,"k":"p","n":"Skoszewy (szkoła)"}
+],
+"routes":[
+  {"id":2200446,"t":{"ref":"91C","name":"91C: Janów → Skoszewy","from":"Janów","to":"Skoszewy","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000489787591,29],[5000489788787,30]]},
+  {"id":2729413,"t":{"ref":"88C","name":"88C: Dw. Łódź Fabryczna → Skoszewy","from":"Dw. Łódź Fabryczna","to":"Skoszewy","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000489787591,30],[5000489788787,31]]},
+  {"id":2729523,"t":{"ref":"88C","name":"88C: Skoszewy → Dw. Łódź Fabryczna","from":"Skoszewy","to":"Dw. Łódź Fabryczna","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2"},"n":34,"s":[[5000489788787,1],[5000489792834,2]]},
+  {"id":2730763,"t":{"ref":"91C","name":"91C: Skoszewy → Janów","from":"Skoszewy","to":"Janów","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2"},"n":30,"s":[[5000489788787,1],[5000489792834,2]]},
+  {"id":16058751,"t":{"ref":"88B","name":"88B: Skoszewy → Dw. Łódź Fabryczna","from":"Skoszewy","to":"Dw. Łódź Fabryczna","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2"},"n":35,"s":[[5000489788787,1],[5000489792834,2]]},
+  {"id":16058752,"t":{"ref":"88B","name":"88B: Dw. Łódź Fabryczna → Skoszewy","from":"Dw. Łódź Fabryczna","to":"Skoszewy","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000489787591,32],[5000489788787,33]]},
+  {"id":20020442,"t":{"ref":"88B","name":"88B: Skoszewy → Dw. Łódź Fabryczna via Janosika","from":"Skoszewy","to":"Dw. Łódź Fabryczna","network":"Lokalny Transport Zbiorowy w Łodzi","operator":"MPK-Łódź","route":"bus","public_transport:version":"2","bus":"school"},"n":39,"s":[[5000489788787,1],[5000489792834,2]]},
+  {"id":20065121,"t":{"name":"UMWŁ: Głowno => Brzeziny","from":"Głowno pl. Wolności-Rynek","to":"św. Anny - Kościół","network":"Przewozy autobusowe organizowane przez województwo łódzkie","operator":"PKS Skierniewice","route":"bus","public_transport:version":"2"},"n":17,"s":[[13443721356,13],[13443721355,15]]},
+  {"id":20065122,"t":{"name":"UMWŁ: Brzeziny => Głowno","from":"św. Anny - Kościół","to":"Głowno pl. Wolności-Rynek","network":"Przewozy autobusowe organizowane przez województwo łódzkie","operator":"PKS Skierniewice","route":"bus","public_transport:version":"2"},"n":16,"s":[[13443721356,4]]}
+]
+}

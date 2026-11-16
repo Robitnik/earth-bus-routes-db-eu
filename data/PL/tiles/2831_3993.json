@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2831,3993],
+"stops":[
+  {"id":5029183766,"lat":51.566732,"lon":19.684105,"k":"x","n":"Biskupia Wola"},
+  {"id":10313253521,"lat":51.591217,"lon":19.682896,"k":"x","n":"Czarnocin Poniatowskiego/Główna"},
+  {"id":10313253522,"lat":51.591283,"lon":19.682899,"k":"p","n":"Czarnocin Poniatowskiego nr 4"},
+  {"id":10313253553,"lat":51.590541,"lon":19.68159,"k":"p","n":"Czarnocin nr 134"},
+  {"id":10313253554,"lat":51.590546,"lon":19.681682,"k":"x","n":"Czarnocin nr 134"},
+  {"id":10313253555,"lat":51.578167,"lon":19.682751,"k":"p","n":"Czarnocin nr 35"},
+  {"id":10313253556,"lat":51.578149,"lon":19.682901,"k":"p","n":"Czarnocin nr 42"},
+  {"id":10313253557,"lat":51.578153,"lon":19.682827,"k":"x","n":"Czarnocin nr 42"},
+  {"id":10313253561,"lat":51.566514,"lon":19.684086,"k":"p","n":"Biskupia Wola"},
+  {"id":13180588678,"lat":51.591216,"lon":19.683155,"k":"x","n":"Czarnocin Poniatowskiego/Główna"}
+],
+"routes":[
+  {"id":15095979,"t":{"name":"Czarnocin - Moszczenica - Piotrków Trybunalski","from":"Czarnocin","to":"Piotrków Trybunalski","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":18,"s":[[10313253522,2]]},
+  {"id":15095980,"t":{"name":"Piotrków Trybunalski - Moszczenica - Czarnocin","from":"Piotrków Trybunalski","to":"Kalska Wola","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[10313253522,19]]},
+  {"id":15095982,"t":{"name":"Czarnocin - Moszczenica - Piotrków Trybunalski","from":"Czarnocin","to":"Piotrków Trybunalski","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":20,"s":[[10313253553,2],[10313253555,3],[10313253561,4]]},
+  {"id":15095983,"t":{"name":"Piotrków Trybunalski - Moszczenica - Czarnocin","from":"Piotrków Trybunalski","to":"Biskupia Wola","network":"ZDiUM Piotrków","operator":"TRANSPORTOWIEC Sp. z o.o.","route":"bus","public_transport:version":"2"},"n":22,"s":[[10313253561,19],[10313253556,20],[10313253553,21]]},
+  {"id":19660660,"t":{"ref":"ŁA11","name":"ŁA11: Będków → Tuszyn → Rydzynki","from":"Będków","to":"Rydzynki","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":26,"s":[[10313253521,4]]},
+  {"id":19660661,"t":{"ref":"ŁA11","name":"ŁA11: Rydzynki → Tuszyn → Będków","from":"Rydzynki","to":"Będków","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":26,"s":[[13180588678,23]]}
+]
+}

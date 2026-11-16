@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2836,4034],
+"stops":[
+  {"id":359812994,"lat":51.837702,"lon":21.729221,"k":"x","n":"Górzno 15"},
+  {"id":8441533591,"lat":51.806176,"lon":21.709386,"k":"p","n":"Gąsów - Maryniszki"},
+  {"id":8441533592,"lat":51.805565,"lon":21.709701,"k":"p","n":"Gąsów - Maryniszki"},
+  {"id":13354039363,"lat":51.806155,"lon":21.709254,"k":"x","n":"Gąsów - Maryniszki"},
+  {"id":13354039370,"lat":51.805611,"lon":21.709821,"k":"x","n":"Gąsów - Maryniszki"},
+  {"id":13358011349,"lat":51.827221,"lon":21.74716,"k":"x","n":"Samorządki 18"},
+  {"id":13358011353,"lat":51.82819,"lon":21.745698,"k":"x","n":"Samorządki 17"},
+  {"id":13358011373,"lat":51.83775,"lon":21.729219,"k":"p","n":"Górzno 15"},
+  {"id":13358011376,"lat":51.827171,"lon":21.747078,"k":"p","n":"Samorządki 18"},
+  {"id":13358018803,"lat":51.828239,"lon":21.745779,"k":"p","n":"Samorządki 17"},
+  {"id":13358018804,"lat":51.837033,"lon":21.732107,"k":"p","n":"Górzno 16"},
+  {"id":13358018813,"lat":51.837078,"lon":21.732175,"k":"x","n":"Górzno 16"},
+  {"id":13358279125,"lat":51.845907,"lon":21.711043,"k":"p","n":"Górzno Urząd Gminy"},
+  {"id":13358279126,"lat":51.846411,"lon":21.710231,"k":"x","n":"Górzno Urząd Gminy"},
+  {"id":13358279148,"lat":51.845992,"lon":21.711118,"k":"x","n":"Górzno Urząd Gminy"},
+  {"id":13358279181,"lat":51.846496,"lon":21.710265,"k":"p","n":"Górzno Urząd Gminy"}
+],
+"routes":[
+  {"id":19949915,"t":{"ref":"Z1","name":"Bus Z1: Garwolin DA => Żelechów Rondo","from":"Garwolin DA","to":"Żelechów Rondo","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":19,"s":[[13358279125,10],[13358018804,11],[13358011376,12]]},
+  {"id":19949916,"t":{"ref":"Z2","name":"Bus Z2: Żelechów Rondo => Garwolin Osiedle Kościuszki => Miętne Kościół","from":"Żelechów Rondo","to":"Miętne Kościół","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":22,"s":[[13358018803,8],[13358011373,9],[13358279181,10]]},
+  {"id":19949917,"t":{"ref":"Z1","name":"Bus Z1: Żelechów Rondo => Garwolin DA","from":"Żelechów Rondo","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":19,"s":[[13358018803,8],[13358011373,9],[13358279181,10]]},
+  {"id":19949918,"t":{"ref":"Z2","name":"Bus Z2: Żelechów Rondo => Garwolin ul. Stacyjna => Miętne Kościół","from":"Żelechów Rondo","to":"Miętne Kościół","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":23,"s":[[13358018803,8],[13358011373,9],[13358279181,10]]},
+  {"id":19949920,"t":{"ref":"Z2","name":"Bus Z2: Miętne Kościół => Żelechów Rondo","from":"Miętne Kościół","to":"Żelechów Rondo","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":23,"s":[[13358279125,14],[13358018804,15],[13358011376,16]]},
+  {"id":19983311,"t":{"name":"Bus: Warszawa => Górzno => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[13358279125,26],[13358018804,27],[13358011376,28]]},
+  {"id":19983312,"t":{"name":"Bus: Żelechów => Gończyce => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[8441533591,10]]},
+  {"id":19983314,"t":{"name":"Bus: Żelechów => Górzno => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[13358018803,9],[13358011373,10],[13358279181,11]]},
+  {"id":19983315,"t":{"name":"Bus: Warszawa => Gończyce => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[8441533592,27]]},
+  {"id":20200826,"t":{"ref":"G3","name":"Bus G3: Garwolin DA => Górzno Urząd Gminy","from":"Garwolin DA","to":"Górzno Urząd Gminy","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":7,"s":[[13358279125,7]]},
+  {"id":20200827,"t":{"ref":"G3","name":"Bus G3: Górzno Urząd Gminy => Garwolin DA","from":"Górzno Urząd Gminy","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":7,"s":[[13358279181,1]]}
+]
+}

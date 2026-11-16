@@ -1,0 +1,20 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2876,4043],
+"stops":[
+  {"id":10228325317,"lat":53.842507,"lon":22.174998,"k":"p","n":"Rogale","ref":"190"},
+  {"id":10228325318,"lat":53.827126,"lon":22.169708,"k":"p","n":"Rożyńsk","ref":"261"},
+  {"id":10228325319,"lat":53.827844,"lon":22.168903,"k":"p","n":"Rożyńsk","ref":"191"},
+  {"id":11181625389,"lat":53.829301,"lon":22.152243,"k":"p","n":"Rogalik"},
+  {"id":13783896971,"lat":53.827098,"lon":22.169636,"k":"x"},
+  {"id":13783896972,"lat":53.827865,"lon":22.169057,"k":"x"},
+  {"id":6055844125131,"lat":53.827509,"lon":22.16921,"k":"p","n":"Rożyńsk","g":1}
+],
+"routes":[
+  {"id":16319727,"t":{"ref":"34","name":"34: Stare Juchy => Ełk, Dworzec Autobusowy","from":"Stare Juchy","to":"Ełk","operator":"Gmina Stare Juchy","route":"bus"},"n":50,"s":[[11181625389,19],[10228325317,20]]},
+  {"id":16319728,"t":{"ref":"34","name":"34: Ełk, Dworzec Autobusowy => Stare Juchy","from":"Ełk","to":"Stare Juchy","operator":"Gmina Stare Juchy","route":"bus"},"n":50,"s":[[10228325317,31],[11181625389,32]]},
+  {"id":3007445012820,"t":{"ref":"17","from":"Dworzec PKP","to":"Rożyńsk","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":19,"s":[[10228325318,19]]},
+  {"id":3008727848605,"t":{"ref":"17","from":"Rożyńsk","to":"Dworzec PKP","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":17,"s":[[6055844125131,1]]}
+]
+}

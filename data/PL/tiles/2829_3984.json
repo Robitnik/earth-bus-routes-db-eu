@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2829,3984],
+"stops":[
+  {"id":5297283482,"lat":51.464535,"lon":19.219093,"k":"x","n":"Zelów Pl. Dąbrowskiego","ref":"135"},
+  {"id":5297283487,"lat":51.464569,"lon":19.218974,"k":"x","n":"Zelów Pl. Dąbrowskiego","ref":"134"},
+  {"id":5297283492,"lat":51.466787,"lon":19.211078,"k":"x","n":"Zelów Kościuszki/Sikorskiego","ref":"133"},
+  {"id":5297283497,"lat":51.466516,"lon":19.212046,"k":"x","n":"Zelów Kościuszki/Sikorskiego","ref":"132"},
+  {"id":5297283504,"lat":51.46833,"lon":19.20558,"k":"x","n":"Zelów Kościuszki/Pileckiego","ref":"131"},
+  {"id":5297283509,"lat":51.46857,"lon":19.204727,"k":"x","n":"Zelów Kościuszki/Pileckiego","ref":"130"},
+  {"id":11958723387,"lat":51.454165,"lon":19.244494,"k":"x","n":"Łobudzice III"},
+  {"id":11958723388,"lat":51.455035,"lon":19.24321,"k":"x","n":"Łobudzice III"},
+  {"id":11958723389,"lat":51.458286,"lon":19.23701,"k":"x","n":"Zelów Piotrkowska Orlen"},
+  {"id":11958723390,"lat":51.45838,"lon":19.236325,"k":"x","n":"Zelów Piotrkowska Orlen"},
+  {"id":11958723391,"lat":51.460194,"lon":19.222634,"k":"x","n":"Zelów MGOPS"},
+  {"id":11958723392,"lat":51.460082,"lon":19.223494,"k":"x","n":"Zelów MGOPS"},
+  {"id":11966364757,"lat":51.468173,"lon":19.210005,"k":"x","n":"Zelów Płocka/Zajezdnia"},
+  {"id":11966364758,"lat":51.467063,"lon":19.208722,"k":"x","n":"Zelów Mickiewicza"},
+  {"id":5000548324890,"lat":51.464643,"lon":19.219182,"k":"p","n":"Zelów Pl. Dąbrowskiego"},
+  {"id":5000548324892,"lat":51.464507,"lon":19.21886,"k":"p","n":"Zelów Pl. Dąbrowskiego"},
+  {"id":5000548324894,"lat":51.466855,"lon":19.211131,"k":"p","n":"Zelów Kościuszki II"},
+  {"id":5000548324895,"lat":51.466446,"lon":19.212017,"k":"p","n":"Zelów Kościuszki II"},
+  {"id":5000548324896,"lat":51.468379,"lon":19.205669,"k":"p","n":"Zelów Kościuszki I"},
+  {"id":5000548324897,"lat":51.468503,"lon":19.204707,"k":"p","n":"Zelów Kościuszki I"}
+],
+"routes":[
+  {"id":7828713,"t":{"ref":"C","name":"C: Zelów => Łask Szpital","from":"Zelów","to":"Łask Szpital","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000548324890,1],[5000548324894,2],[5000548324896,3]]},
+  {"id":7828716,"t":{"ref":"C","name":"C: Łask Szpital => Zelów","from":"Łask Szpital","to":"Zelów","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000548324897,21],[5000548324895,22],[5000548324892,23]]},
+  {"id":17679855,"t":{"ref":"ŁA1","name":"ŁA1: Łask → Zelów → Szczerców","from":"Łask","to":"Szczerców","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":40,"s":[[11958723387,16],[11958723390,17],[5297283487,18],[5297283497,19],[5297283509,20]]},
+  {"id":17679856,"t":{"ref":"ŁA1","name":"ŁA1: Szczerców → Zelów → Łask","from":"Szczerców","to":"Łask","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":42,"s":[[11958723388,18],[11958723389,19],[11958723391,20],[5297283482,21],[5297283492,22],[5297283504,23]]}
+]
+}

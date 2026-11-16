@@ -1,0 +1,17 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2805,4031],
+"stops":[
+  {"id":2665966681,"lat":50.261359,"lon":21.567966,"k":"x","n":"Łuże 01"},
+  {"id":9902200109,"lat":50.276334,"lon":21.553976,"k":"p"},
+  {"id":9902200110,"lat":50.276182,"lon":21.557751,"k":"p"}
+],
+"routes":[
+  {"id":15013492,"t":{"ref":"13S","name":"Bus 13S (Os. Łuże => Obrońców Pokoju)","from":"Łuże 01","to":"Obrońców Pokoju 01","network":"MKS Mielec","operator":"MKS Mielec","route":"bus","bus":"school"},"n":2,"s":[[2665966681,1]]},
+  {"id":15013493,"t":{"ref":"13S","name":"Bus 13S (Obrońców Pokoju => Os. Łuże)","from":"Obrońców Pokoju 01","to":"Łuże 01","network":"MKS Mielec","operator":"MKS Mielec","route":"bus","bus":"school"},"n":2,"s":[[2665966681,1]]},
+  {"id":15341481,"t":{"name":"Bus Mielec => Rzeszów","from":"Mielec","to":"Rzeszów","operator":"Marcel Bus","route":"bus","public_transport:version":"2"},"n":31,"s":[[9902200110,6]]},
+  {"id":16369300,"t":{"name":"Bus Rzeszów => Mielec","from":"Rzeszów","to":"Mielec","operator":"Marcel Bus","route":"bus","public_transport:version":"2"},"n":26,"s":[[9902200109,20]]},
+  {"id":16719356,"t":{"name":"Bus Mielec => Rzeszów","from":"Mielec","to":"Rzeszów","operator":"Markpol","route":"bus","public_transport:version":"2"},"n":34,"s":[[9902200110,10]]}
+]
+}

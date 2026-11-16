@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2800,3993],
+"stops":[
+  {"id":2140413247,"lat":50.038381,"lon":19.684892,"k":"x","n":"Czułówek Skrzyżowanie","ref":"2515-01"},
+  {"id":2509095878,"lat":50.042313,"lon":19.679821,"k":"p","n":"Czułówek Kapliczka"},
+  {"id":3279524470,"lat":50.005673,"lon":19.660629,"k":"p","n":"Przeginia Narodowa Bunar"},
+  {"id":3279524474,"lat":50.022351,"lon":19.651873,"k":"p","n":"Przeginia Duchowna Remiza"},
+  {"id":3279524475,"lat":50.025793,"lon":19.689842,"k":"p","n":"Nowa Wieś Szlachecka Pętla"},
+  {"id":3279528982,"lat":50.005715,"lon":19.660805,"k":"p","n":"Przeginia Narodowa Bunar"},
+  {"id":3279528983,"lat":50.011221,"lon":19.657504,"k":"p","n":"Przeginia Narodowa Dwór"},
+  {"id":3279528985,"lat":50.018603,"lon":19.652917,"k":"p","n":"Przeginia Duchowna Kościół"},
+  {"id":3279528986,"lat":50.023945,"lon":19.655978,"k":"p","n":"Przeginia Duchowna Szkoła"},
+  {"id":3279528987,"lat":50.026578,"lon":19.681014,"k":"p","n":"Nowa Wieś Szlachecka Jesionka"},
+  {"id":3279529196,"lat":50.027117,"lon":19.697318,"k":"p","n":"Nowa Wieś Szlachecka Kościół"},
+  {"id":3279529472,"lat":50.011743,"lon":19.657677,"k":"p","n":"Przeginia Narodowa Dwór"},
+  {"id":3279529474,"lat":50.022492,"lon":19.651972,"k":"p","n":"Przeginia Duchowna Remiza"},
+  {"id":3279529475,"lat":50.023947,"lon":19.65539,"k":"p","n":"Przeginia Duchowna Szkoła"},
+  {"id":3279529476,"lat":50.026639,"lon":19.680932,"k":"p","n":"Nowa Wieś Szlachecka Jesionka"},
+  {"id":3279529481,"lat":50.03834,"lon":19.683789,"k":"p","n":"Czułówek Skrzyżowanie","ref":"2515-02"},
+  {"id":3279529482,"lat":50.039615,"lon":19.683085,"k":"p","n":"Czułówek Skrzyżowanie","ref":"2515-03"},
+  {"id":3279529662,"lat":50.027484,"lon":19.697772,"k":"p","n":"Nowa Wieś Szlachecka Kościół"},
+  {"id":3381606285,"lat":50.01953,"lon":19.653225,"k":"p","n":"Przeginia Duchowna Kościół"},
+  {"id":3381606286,"lat":50.025925,"lon":19.689909,"k":"p","n":"Nowa Wieś Szlachecka Pętla"},
+  {"id":10092147656,"lat":50.042292,"lon":19.679966,"k":"x","n":"Czułówek Kapliczka"},
+  {"id":12516819311,"lat":50.039579,"lon":19.683014,"k":"x","n":"Czułówek Skrzyżowanie","ref":"2515-03"},
+  {"id":12516819315,"lat":50.038267,"lon":19.683752,"k":"x","n":"Czułówek Skrzyżowanie","ref":"2515-02"},
+  {"id":5000667273159,"lat":50.038321,"lon":19.685002,"k":"p","n":"Czułówek Skrzyżowanie","ref":"2515-01"}
+],
+"routes":[
+  {"id":2148832,"t":{"ref":"269","name":"Bus 269: Kaszów Remiza => Salwator","from":"Kaszów Remiza","to":"Salwator","network":"Komunikacja Miejska w Krakowie","route":"bus","public_transport:version":"2"},"n":41,"s":[[3279529481,3]]},
+  {"id":2148833,"t":{"ref":"269","name":"Bus 269: Salwator => Kaszów Remiza","from":"Salwator","to":"Kaszów Remiza","network":"Komunikacja Miejska w Krakowie","route":"bus","public_transport:version":"2"},"n":39,"s":[[5000667273159,37]]},
+  {"id":14725397,"t":{"ref":"249","name":"Bus 249: Salwator => Czernichów Rynek","to":"Czernichów Rynek","network":"Komunikacja Miejska w Krakowie","route":"bus","public_transport:version":"2"},"n":39,"s":[[3279529662,29],[3381606286,30],[3279529476,31],[3279529475,32],[3279524474,33],[3279528985,34],[3279528983,35],[3279524470,36]]},
+  {"id":14725398,"t":{"ref":"249","name":"Bus 249: Czernichów Rynek => Salwator","from":"Czernichów Rynek","to":"Salwator","network":"Komunikacja Miejska w Krakowie","route":"bus","public_transport:version":"2"},"n":39,"s":[[3279528982,4],[3279529472,5],[3381606285,6],[3279529474,7],[3279528986,8],[3279528987,9],[3279524475,10],[3279529196,11]]},
+  {"id":16736117,"t":{"ref":"1","name":"Q BUS 1: Bolęcin => Babice => Kraków","from":"Bolęcin","to":"Kraków","operator":"Q BUS","route":"bus","public_transport:version":"2"},"n":51,"s":[[5000667273159,20]]},
+  {"id":18708456,"t":{"ref":"1","name":"Q BUS 1: Kraków => Babice => Bolęcin","from":"Kraków","to":"Bolęcin","operator":"Q BUS","route":"bus","public_transport:version":"2"},"n":51,"s":[[3279529481,32]]},
+  {"id":18711468,"t":{"ref":"2","name":"Q BUS 2: Kraków => Nieporaz => Płaza","from":"Kraków","to":"Płaza","operator":"Q BUS","route":"bus","public_transport:version":"2"},"n":50,"s":[[3279529481,32]]},
+  {"id":18711469,"t":{"ref":"2","name":"Q BUS 2: Płaza => Nieporaz => Kraków","from":"Płaza","to":"Kraków","operator":"Q BUS","route":"bus","public_transport:version":"2"},"n":50,"s":[[5000667273159,19]]}
+]
+}

@@ -1,0 +1,26 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2809,3948],
+"stops":[
+  {"id":2376511010,"lat":50.472576,"lon":17.432734,"k":"p","n":"Kubice PKS"},
+  {"id":2376511011,"lat":50.472667,"lon":17.432636,"k":"p","n":"Kubice I"},
+  {"id":3167550677,"lat":50.47749,"lon":17.430004,"k":"p","n":"Kubice pętla"},
+  {"id":3286976626,"lat":50.47371,"lon":17.432574,"k":"p","n":"Kubice tory"},
+  {"id":3454216740,"lat":50.450226,"lon":17.439601,"k":"p","n":"Domaszkowice szkoła"},
+  {"id":3454216741,"lat":50.450217,"lon":17.439807,"k":"p","n":"Domaszkowice szkoła"},
+  {"id":9543933575,"lat":50.472743,"lon":17.434669,"k":"p","n":"Kubice I"},
+  {"id":10312145834,"lat":50.45145,"lon":17.42362,"k":"p","n":"Domaszkowice RCGO"},
+  {"id":10312145835,"lat":50.45143,"lon":17.424946,"k":"p","n":"Domaszkowice RCGO"}
+],
+"routes":[
+  {"id":11013872,"t":{"ref":"6","name":"Bus 6 Rusocin→Kubice","from":"Rusocin","to":"Kubice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#00FF00","route":"bus","public_transport:version":"2"},"n":28,"s":[[2376511010,26],[3286976626,27],[3167550677,28]]},
+  {"id":11013873,"t":{"ref":"6","name":"Bus 6 Kubice→Rusocin","from":"Kubice pętla","to":"Rusocin","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#00FF00","route":"bus","public_transport:version":"2"},"n":27,"s":[[3167550677,1],[2376511011,2]]},
+  {"id":11014012,"t":{"ref":"7","name":"Bus 7 Sękowice→Domaszkowice","from":"Sękowice pętla","to":"Domaszkowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":28,"s":[[10312145834,26],[3454216740,27]]},
+  {"id":11014013,"t":{"ref":"7","name":"Bus 7 Domaszkowice→Sękowice","from":"Domaszkowice pętla","to":"Sękowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":27,"s":[[3454216741,2],[10312145835,3]]},
+  {"id":11995211,"t":{"ref":"6","name":"Bus 6 Kubice→Karpacka→Rusocin","from":"Kubice pętla","to":"Rusocin","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#00FF00","route":"bus","public_transport:version":"2"},"n":28,"s":[[3167550677,1],[2376511011,2]]},
+  {"id":11995212,"t":{"ref":"6","name":"Bus 6 Rusocin→Karpacka→Kubice","from":"Rusocin","to":"Kubice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#00FF00","route":"bus","public_transport:version":"2"},"n":29,"s":[[2376511010,27],[3286976626,28],[3167550677,29]]},
+  {"id":14033006,"t":{"ref":"7","name":"Bus 7 Domaszkowice→Strefa→Sękowice","from":"Domaszkowice pętla","to":"Sękowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":28,"s":[[3454216741,2],[10312145835,3]]},
+  {"id":14033007,"t":{"ref":"7","name":"Bus 7 Sękowice→Strefa→Domaszkowice","from":"Sękowice pętla","to":"Domaszkowice pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#800080","route":"bus","public_transport:version":"2"},"n":29,"s":[[10312145834,27],[3454216740,28]]}
+]
+}

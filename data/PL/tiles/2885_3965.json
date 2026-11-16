@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2885,3965],
+"stops":[
+  {"id":2707658023,"lat":54.261741,"lon":18.256864,"k":"p","n":"Wyczechowo"},
+  {"id":2707658026,"lat":54.262191,"lon":18.258998,"k":"p","n":"Wyczechowo"},
+  {"id":2707658030,"lat":54.266788,"lon":18.274147,"k":"p","n":"Borcz, Wybudowanie"},
+  {"id":2707658033,"lat":54.271587,"lon":18.289063,"k":"p","n":"Borcz"},
+  {"id":2707658037,"lat":54.272232,"lon":18.290017,"k":"p","n":"Borcz"},
+  {"id":3303670387,"lat":54.266477,"lon":18.272519,"k":"p","n":"Borcz, Wybudowanie"},
+  {"id":9724785646,"lat":54.297675,"lon":18.254231,"k":"p","n":"Kiełpino, Piaskowa"},
+  {"id":9724785647,"lat":54.297726,"lon":18.254421,"k":"p","n":"Kiełpino, Piaskowa"}
+],
+"routes":[
+  {"id":16132912,"t":{"ref":"9","name":"Bus 9: Kartuzy => Dzierżążno, Szpital","from":"Kartuzy Dworzec PKP","to":"Dzierżążno, Szpital","operator":"Przewozy Autobusowe GRYF sp. z o.o. sp. k.","route":"bus","public_transport:version":"2"},"n":16,"s":[[9724785647,10]]},
+  {"id":16132940,"t":{"ref":"9","name":"Bus 9: Dzierżążno, Szpital => Kartuzy","from":"Dzierżążno, Szpital","to":"Kartuzy Dworzec PKP","operator":"Przewozy Autobusowe GRYF sp. z o.o. sp. k.","route":"bus","public_transport:version":"2"},"n":16,"s":[[9724785646,7]]},
+  {"id":18204663,"t":{"ref":"450","name":"Bus 450: Kościerzyna => Żukowo => Gdańsk","from":"Kościerzyna, Galeria Wybickiego","to":"Gdańsk, Dworzec Autobusowy","operator":"PKS Starogard Gdański S.A.","route":"bus","public_transport:version":"2"},"n":28,"s":[[2707658026,11],[2707658030,12],[2707658033,13]]},
+  {"id":18204740,"t":{"ref":"450","name":"Bus 450: Gdańsk => Żukowo => Kościerzyna","from":"Gdańsk, Dworzec Autobusowy","to":"Kościerzyna, Galeria Wybickiego","operator":"PKS Starogard Gdański S.A.","route":"bus","public_transport:version":"2"},"n":29,"s":[[2707658037,16],[3303670387,17],[2707658023,18]]}
+]
+}

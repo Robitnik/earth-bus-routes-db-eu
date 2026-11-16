@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2797,4021],
+"stops":[
+  {"id":4024805789,"lat":49.88293,"lon":21.053296,"k":"p","n":"Tuchów Burzyn","q":1},
+  {"id":5883007340,"lat":49.881695,"lon":21.051492,"k":"p","n":"Dąbrówka Tuchowska Burzyn","q":1},
+  {"id":6440407067,"lat":49.892673,"lon":21.053876,"k":"p","n":"Tuchów ul. Kolejowa","q":1},
+  {"id":6466816038,"lat":49.89445,"lon":21.06849,"k":"p","n":"Tuchów - Targowica","q":1},
+  {"id":6466816039,"lat":49.894411,"lon":21.068319,"k":"p","n":"Tuchów - Targowica","q":1},
+  {"id":6466816040,"lat":49.883735,"lon":21.081366,"k":"x","n":"Tuchów Kielanowice","q":1},
+  {"id":7158663423,"lat":49.881651,"lon":21.05159,"k":"x","n":"Dąbrówka Tuchowska Burzyn","q":1},
+  {"id":7270701151,"lat":49.894417,"lon":21.068405,"k":"x","n":"Tuchów - Targowica","q":1},
+  {"id":8340388425,"lat":49.892719,"lon":21.05389,"k":"x","n":"Tuchów ul. Kolejowa","q":1},
+  {"id":9887994262,"lat":49.884986,"lon":21.09012,"k":"x","n":"Bistuszowa Góra","q":1},
+  {"id":13627050195,"lat":49.883768,"lon":21.081249,"k":"x","n":"Tuchów Kielanowice","q":1},
+  {"id":13627050196,"lat":49.883709,"lon":21.08134,"k":"p","n":"Tuchów Kielanowice","q":1},
+  {"id":13627050197,"lat":49.883791,"lon":21.081264,"k":"p","n":"Tuchów Kielanowice","q":1},
+  {"id":13627050198,"lat":49.894445,"lon":21.0684,"k":"x","n":"Tuchów - Targowica","q":1},
+  {"id":13649860563,"lat":49.882971,"lon":21.053192,"k":"x","n":"Tuchów Burzyn","q":1},
+  {"id":13667984360,"lat":49.885021,"lon":21.090099,"k":"p","n":"Bistuszowa Góra","q":1},
+  {"id":13667984361,"lat":49.884927,"lon":21.090001,"k":"p","n":"Bistuszowa Góra","q":1},
+  {"id":13667984362,"lat":49.884964,"lon":21.089989,"k":"x","n":"Bistuszowa Góra","q":1},
+  {"id":6069853247426,"lat":49.89202,"lon":21.056573,"k":"p","n":"Tuchów","g":1}
+],
+"routes":[
+  {"id":3759142,"t":{"ref":"K-001","name":"Kamykowski","from":"Tuchow - Kolejowa","to":"Tarnow - Planty","operator":"Kamykowski","route":"bus","public_transport:version":"2"},"n":11,"s":[[6440407067,1]]},
+  {"id":3759168,"t":{"ref":"K-002","name":"Kamykowski","from":"Tuchów","to":"Tarnów Dworzec","route":"bus","public_transport:version":"2"},"n":14,"s":[[6440407067,1]]},
+  {"id":12216201,"t":{"ref":"K-002","name":"Kamykowski","from":"Tarnów Dworzec","to":"Tuchów","route":"bus","public_transport:version":"2"},"n":13,"s":[[6440407067,13]]},
+  {"id":14352379,"t":{"name":"FTD Feniks: Tarnów - Tuchów","from":"Tarnów - Tuchów","network":"FTD Feniks","operator":"FTD Feniks","route":"bus","public_transport:version":"2"},"n":22,"s":[[6440407067,22]]},
+  {"id":14353417,"t":{"name":"FTD Feniks: Tuchów - Ryglice","from":"Tuchów","to":"Ryglice","network":"FTD Feniks","operator":"FTD Feniks","route":"bus","public_transport:version":"2"},"n":7,"s":[[6440407067,1],[6466816039,2],[13627050196,3],[13667984361,5]]},
+  {"id":14353477,"t":{"name":"FTD: Tarnów - Tuchów - Olszyny","from":"Tarnów","to":"Olszyny","network":"FTD Feniks, Mal, J-System","operator":"FTD Feniks, Mal, J-System","route":"bus","public_transport:version":"2"},"n":5,"s":[[6440407067,1],[5883007340,2]]},
+  {"id":14354808,"t":{"ref":"FTD: Tarnów - Tuchów - Szerzyny","name":"FTD: Tarnów - Tuchów - Szerzyny - Swoszowa","from":"Tarnów","to":"Szerzyny","network":"FTD Feniks, Mal, J-System","operator":"FTD Feniks, Mal, J-System","route":"bus"},"n":3,"s":[[8340388425,1]]},
+  {"id":14354937,"t":{"ref":"FTD: Tarnów - Tuchów - Rzepiennik Suchy / Turza / Ostrusza","name":"FTD: Tarnów - Tuchów - Rzepiennik Suchy / Turza / Ostrusza","from":"Tarnów","to":"Rzepiennik Suchy, Turza, Ostrusza","network":"Ftd Feniks, Mal, J-System","operator":"Ftd Feniks, Mal, J-System","route":"bus"},"n":20,"s":[[7158663423,19],[4024805789,20]]},
+  {"id":20276088,"t":{"ref":"A23","name":"MLD – A23: Wysowa Beskid => Gorlice => Tarnów","from":"Wysowa Zdrój Sanatorium Beskid","to":"Tarnów Dworzec Autobusowy","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#afcb08","route":"bus","public_transport:version":"2"},"n":107,"s":[[4024805789,83],[6440407067,84]]},
+  {"id":20276089,"t":{"ref":"A23","name":"MLD – A23: Tarnów => Gorlice => Wysowa Zdrój","from":"Tarnów Dworzec Autobusowy","to":"Wysowa Zdrój Sanatorium Beskid","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#afcb08","route":"bus","public_transport:version":"2"},"n":109,"s":[[6440407067,24],[5883007340,25]]},
+  {"id":20360288,"t":{"ref":"A63","name":"MLD – A63: Ryglice => Tuchów => Tarnów","from":"Ryglice Rynek","to":"Tarnów Dworzec Autobusowy","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#8206eb","route":"bus","public_transport:version":"2"},"n":36,"s":[[13667984360,5],[13627050197,6],[6466816038,7],[6440407067,8]]},
+  {"id":20360289,"t":{"ref":"A63","name":"MLD – A63: Tarnów => Tuchów => Ryglice","from":"Tarnów Dworzec Autobusowy","to":"Ryglice Rynek","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#8206eb","route":"bus","public_transport:version":"2"},"n":34,"s":[[6440407067,27],[6466816039,28],[13627050196,29],[13667984361,30]]},
+  {"id":3025219355339,"t":{"ref":"ZKA REG","name":"ZKA REG: Tarnów - Stróże","from":"Tarnów","to":"Stróże","operator":"PolRegio","route":"bus","public_transport:version":"2"},"n":16,"s":[[6069853247426,5]]},
+  {"id":3047110686221,"t":{"ref":"ZKA REG","name":"ZKA REG: Stróże - Tarnów","from":"Stróże","to":"Tarnów","operator":"PolRegio","route":"bus","public_transport:version":"2"},"n":16,"s":[[6069853247426,12]]}
+]
+}

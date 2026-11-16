@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2823,3970],
+"stops":[
+  {"id":2980565510,"lat":51.184213,"lon":18.517579,"k":"x","n":"Krzyworzeka Szkoła"},
+  {"id":8148659080,"lat":51.181173,"lon":18.503795,"k":"p","n":"Krzyworzeka 136"},
+  {"id":8148659081,"lat":51.181091,"lon":18.502343,"k":"p","n":"Krzyworzeka 136"},
+  {"id":8148670417,"lat":51.184155,"lon":18.517689,"k":"p","n":"Krzyworzeka Szkoła"},
+  {"id":8148670446,"lat":51.183356,"lon":18.515613,"k":"p","n":"Krzyworzeka Szkoła"},
+  {"id":10739962887,"lat":51.194241,"lon":18.537313,"k":"x","n":"Gaszyn Spacerowa / Podlasie"},
+  {"id":10739962888,"lat":51.194269,"lon":18.537276,"k":"p","n":"Gaszyn Spacerowa / Podlasie"},
+  {"id":10739962889,"lat":51.194563,"lon":18.537944,"k":"x","n":"Gaszyn Spacerowa / Podlasie"},
+  {"id":10739962890,"lat":51.194538,"lon":18.537984,"k":"p","n":"Gaszyn Spacerowa / Podlasie"},
+  {"id":10764086977,"lat":51.155712,"lon":18.548953,"k":"p","n":"Popowice 80 / DK45"},
+  {"id":10764086978,"lat":51.155723,"lon":18.548867,"k":"x","n":"Popowice 80 / DK45"},
+  {"id":10764086984,"lat":51.154491,"lon":18.548488,"k":"p","n":"Popowice 80 / DK45"},
+  {"id":10764086985,"lat":51.15449,"lon":18.548579,"k":"x","n":"Popowice 80 / DK45"},
+  {"id":10783871630,"lat":51.183274,"lon":18.515732,"k":"x","n":"Krzyworzeka Szkoła"},
+  {"id":10783871639,"lat":51.181253,"lon":18.503767,"k":"x","n":"Krzyworzeka 136"},
+  {"id":10783871646,"lat":51.181033,"lon":18.502361,"k":"x","n":"Krzyworzeka 136"},
+  {"id":11446012650,"lat":51.196912,"lon":18.543542,"k":"p","n":"(Projekt) Gaszyn Podlasie / Spacerowa"},
+  {"id":11446012651,"lat":51.195843,"lon":18.549968,"k":"p","n":"Gaszyn Leśne Wzgórze","ref":"WTZ-213"},
+  {"id":13194736894,"lat":51.195886,"lon":18.549989,"k":"x","n":"Gaszyn Leśne Wzgórze"},
+  {"id":13938977754,"lat":51.155308,"lon":18.54376,"k":"p","n":"Popowice 87 / Krzewie"}
+],
+"routes":[
+  {"id":15506724,"t":{"ref":"F","name":"F: Plac Legionów => Kadłub via Spacerowa","from":"Plac Legionów 1","to":"Kadłub 54","network":"Wieluńska Komunikacja Gminna","operator":"UMIG Wieluń","route":"bus","public_transport:version":"2"},"n":12,"s":[[11446012651,12]]},
+  {"id":15750247,"t":{"name":"nKorona 8: Wieluń => Toplin via Skomlin","from":"Wieluń Fabryczna / Korona","to":"Toplin","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":29,"s":[[10739962888,1],[8148670446,2],[8148659081,3]]},
+  {"id":15750738,"t":{"ref":"8","name":"Korona 8: Wieluń => Toplin via Wróblew","from":"Wieluń Fabryczna / Korona","to":"Toplin","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":26,"s":[[10739962888,6],[8148670446,7],[8148659081,8]]},
+  {"id":15751601,"t":{"ref":"8","name":"Korona 8: Toplin => Wieluń via Wróblew","from":"Toplin","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":27,"s":[[8148659080,19],[8148670417,20],[10739962890,21]]},
+  {"id":15752955,"t":{"ref":"7","name":"Korona 7: Wieluń => Praszka","from":"Wieluń Fabryczna / Korona","to":"Praszka Plac Grunwaldzki","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":28,"s":[[10764086984,11]]},
+  {"id":15753108,"t":{"ref":"7","name":"Korona 7: Praszka => Wieluń","from":"Praszka Plac Grunwaldzki","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":28,"s":[[10764086977,18]]},
+  {"id":17287338,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Częstochowa via Praszka","from":"Wieluń Warszawska / Intermarche","to":"Częstochowa Dworzec PKS","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":51,"s":[[10764086984,6]]},
+  {"id":17288743,"t":{"ref":"abx","name":"ABX2bus: Wieluń => Jaworek","from":"Wieluń Warszawska / Intermarche","to":"Jaworek","network":"ABX2bus","operator":"ABX2bus","route":"bus","public_transport:version":"2"},"n":22,"s":[[10764086984,6]]}
+]
+}

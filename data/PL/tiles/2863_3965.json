@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2863,3965],
+"stops":[
+  {"id":9706574483,"lat":53.176209,"lon":18.276415,"k":"p","n":"Dąbrowa Chełmińska / skrzyżowanie"},
+  {"id":12242507112,"lat":53.19232,"lon":18.272959,"k":"p","n":"Czemlewo / Leśniczówka"},
+  {"id":12242507113,"lat":53.192367,"lon":18.273187,"k":"p","n":"Czemlewo / Leśniczówka"},
+  {"id":12242507115,"lat":53.17519,"lon":18.274809,"k":"p","n":"Dąbrowa Chełmińska / skrzyżowanie"},
+  {"id":12242507116,"lat":53.175906,"lon":18.277267,"k":"p","n":"Dąbrowa Chełmińska / skrzyżowanie"},
+  {"id":12572490615,"lat":53.192775,"lon":18.270975,"k":"p","n":"Czemlewo / Szkoła"},
+  {"id":12572490616,"lat":53.188031,"lon":18.250085,"k":"p","n":"Janowo"},
+  {"id":13655501095,"lat":53.162932,"lon":18.274367,"k":"x","n":"Wałdowo Królewskie"},
+  {"id":13655501096,"lat":53.16236,"lon":18.274184,"k":"x","n":"Wałdowo Królewskie"},
+  {"id":13655501097,"lat":53.16293,"lon":18.274459,"k":"p","n":"Wałdowo Królewskie"},
+  {"id":13655501098,"lat":53.162373,"lon":18.274066,"k":"p","n":"Wałdowo Królewskie"},
+  {"id":13655501099,"lat":53.16102,"lon":18.299597,"k":"x"},
+  {"id":13655501100,"lat":53.161028,"lon":18.299512,"k":"p"},
+  {"id":13655630201,"lat":53.161686,"lon":18.29985,"k":"x","n":"Boluminek, Dąbrowska/Kościelna"},
+  {"id":13655630202,"lat":53.161682,"lon":18.299895,"k":"p","n":"Boluminek, Dąbrowska/Kościelna"},
+  {"id":13655630204,"lat":53.175122,"lon":18.274891,"k":"x","n":"Dąbrowa Chełmińska / skrzyżowanie"},
+  {"id":13655630205,"lat":53.176203,"lon":18.276375,"k":"x","n":"Dąbrowa Chełmińska / skrzyżowanie"},
+  {"id":13655630206,"lat":53.17596,"lon":18.277252,"k":"x","n":"Dąbrowa Chełmińska / skrzyżowanie"}
+],
+"routes":[
+  {"id":18148946,"t":{"ref":"21035","name":"PKS Linia 21035: Chełmno => Bydgoszcz","from":"Chełmno","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":30,"s":[[12242507112,15],[12242507116,16],[12242507115,17]]},
+  {"id":18148947,"t":{"ref":"21035","name":"PKS Linia 21035: Bydgoszcz => Chełmno","from":"Bydgoszcz, Dworzec Autobusowy","to":"Chełmno","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":29,"s":[[12242507113,16],[9706574483,17],[12242507116,18]]},
+  {"id":18148948,"t":{"ref":"21318","name":"PKS Linia 21318: Chełmno => Bydgoszcz","from":"Chełmno","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":32,"s":[[12242507115,24]]},
+  {"id":18148949,"t":{"ref":"21318","name":"PKS Linia 21318: Bydgoszcz => Chełmno","from":"Bydgoszcz, Dworzec Autobusowy","to":"Chełmno","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":31,"s":[[12242507116,23]]},
+  {"id":18676794,"t":{"ref":"21034","name":"PKS Linia 21034: Dębowiec => Bydgoszcz","from":"Dębowiec","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":22,"s":[[12572490616,1],[12242507116,6],[12242507115,7],[12572490615,22]]},
+  {"id":18676795,"t":{"ref":"21034","name":"PKS Linia 21034: Bydgoszcz => Dębowiec","from":"Bydgoszcz, Dworzec Autobusowy","to":"Dębowiec","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":20,"s":[[12572490616,1],[9706574483,6],[12242507116,7],[12572490615,20]]},
+  {"id":20342769,"t":{"name":"Klaudibus: Wałdowo Królewskie => Bydgoszcz","from":"Wałdowo Królewskie","to":"Bydgoszcz, Dworzec Autobusowy","network":"Klaudibus","route":"bus","public_transport:version":"2"},"n":16,"s":[[13655501098,1],[13655630202,2],[12242507115,15]]},
+  {"id":20342770,"t":{"name":"Klaudibus: Bydgoszcz => Wałdowo Królewskie","from":"Bydgoszcz, Dworzec Autobusowy","to":"Wałdowo Królewskie","network":"Klaudibus","route":"bus","public_transport:version":"2"},"n":13,"s":[[13655501098,1],[12242507116,12]]}
+]
+}

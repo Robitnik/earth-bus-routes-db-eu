@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2836,4033],
+"stops":[
+  {"id":8441533550,"lat":51.815214,"lon":21.699615,"k":"p","n":"Potaszniki"},
+  {"id":8441533551,"lat":51.816096,"lon":21.698912,"k":"p","n":"Potaszniki"},
+  {"id":8441546914,"lat":51.838014,"lon":21.674919,"k":"p","n":"Górzno-Kolonia"},
+  {"id":8441546915,"lat":51.837272,"lon":21.675436,"k":"p","n":"Józefów"},
+  {"id":9823307301,"lat":51.8061,"lon":21.662245,"k":"p"},
+  {"id":9823307302,"lat":51.806395,"lon":21.663049,"k":"p"},
+  {"id":13258104226,"lat":51.84334,"lon":21.692564,"k":"p","n":"Górzno Parcele"},
+  {"id":13258104227,"lat":51.843206,"lon":21.690406,"k":"p","n":"Górzno Parcele"},
+  {"id":13354039340,"lat":51.837351,"lon":21.675519,"k":"x","n":"Józefów"},
+  {"id":13354039361,"lat":51.837925,"lon":21.674842,"k":"x","n":"Górzno-Kolonia"},
+  {"id":13354039379,"lat":51.816016,"lon":21.69884,"k":"x","n":"Potaszniki"},
+  {"id":13354039382,"lat":51.815266,"lon":21.699735,"k":"x","n":"Potaszniki"},
+  {"id":13358279114,"lat":51.843367,"lon":21.692237,"k":"x","n":"Górzno Parcele"},
+  {"id":13358279159,"lat":51.84313,"lon":21.690144,"k":"x","n":"Górzno Parcele"}
+],
+"routes":[
+  {"id":19983311,"t":{"name":"Bus: Warszawa => Górzno => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[13258104226,25]]},
+  {"id":19983312,"t":{"name":"Bus: Żelechów => Gończyce => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[8441533551,11],[8441546914,12]]},
+  {"id":19983314,"t":{"name":"Bus: Żelechów => Górzno => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[13258104227,12]]},
+  {"id":19983315,"t":{"name":"Bus: Warszawa => Gończyce => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[8441546915,25],[8441533550,26]]},
+  {"id":20200826,"t":{"ref":"G3","name":"Bus G3: Garwolin DA => Górzno Urząd Gminy","from":"Garwolin DA","to":"Górzno Urząd Gminy","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":7,"s":[[13258104226,6]]},
+  {"id":20200827,"t":{"ref":"G3","name":"Bus G3: Górzno Urząd Gminy => Garwolin DA","from":"Górzno Urząd Gminy","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":7,"s":[[13258104227,2]]}
+]
+}

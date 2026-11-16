@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2850,3950],
+"stops":[
+  {"id":2553199684,"lat":52.502981,"lon":17.538903,"k":"x"},
+  {"id":7452189579,"lat":52.531427,"lon":17.546469,"k":"x","n":"Poznańska P","ref":"124-01"},
+  {"id":7452189580,"lat":52.53136,"lon":17.546498,"k":"x","n":"Poznańska P"},
+  {"id":7617598520,"lat":52.526806,"lon":17.529389,"k":"p"},
+  {"id":7617598521,"lat":52.527104,"lon":17.529187,"k":"p"},
+  {"id":9421537992,"lat":52.515692,"lon":17.506868,"k":"x"},
+  {"id":9421537993,"lat":52.515512,"lon":17.506822,"k":"x"},
+  {"id":9840457941,"lat":52.527005,"lon":17.529207,"k":"x"},
+  {"id":9840457942,"lat":52.526898,"lon":17.529266,"k":"x"},
+  {"id":11308425770,"lat":52.525526,"lon":17.545223,"k":"p","n":"Skiereszewo P."},
+  {"id":11308425771,"lat":52.525505,"lon":17.545272,"k":"x","n":"Skiereszewo P.","ref":"121-01"},
+  {"id":11328203594,"lat":52.540393,"lon":17.545272,"k":"x","n":"Żerniki 03","ref":"161-01"},
+  {"id":11836780295,"lat":52.539256,"lon":17.516517,"k":"p"},
+  {"id":13326985213,"lat":52.530754,"lon":17.524773,"k":"p"},
+  {"id":5000796846260,"lat":52.531479,"lon":17.546467,"k":"p","n":"Poznańska P"},
+  {"id":5001221420229,"lat":52.54034,"lon":17.545274,"k":"p","n":"Żerniki 03"}
+],
+"routes":[
+  {"id":10466657,"t":{"ref":"7","name":"7: Poznańska => Gdańska","from":"Poznańska P","to":"Gdańska 10 (pętla)","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":18,"s":[[5000796846260,1]]},
+  {"id":10992012,"t":{"ref":"2","name":"2: Poznańska => Wierzbiczany","from":"Poznańska P","to":"Wierzbiczany 08","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":26,"s":[[5000796846260,1]]},
+  {"id":10993227,"t":{"ref":"8","name":"8: Fabryczna => Skiereszewo","from":"Fabryczna 03","to":"Skiereszewo P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":21,"s":[[11308425770,21]]},
+  {"id":11007557,"t":{"ref":"16","name":"16: Czarnieckiego => Jabłoniowa","from":"Czarnieckiego","to":"Jabłoniowa K.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":18,"s":[[11308425770,8]]},
+  {"id":16629021,"t":{"ref":"2","name":"2: Wierzbiczany => Poznańska","from":"Wierzbiczany 08","to":"Poznańska P","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":25,"s":[[5000796846260,25]]},
+  {"id":16638654,"t":{"ref":"7","name":"7: Poznańska => Lednicka","from":"Poznańska P","to":"Lednicka 04 OS. PIASTOWSKIE","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":15,"s":[[5000796846260,1]]},
+  {"id":16638711,"t":{"ref":"7","name":"7: Lednicka => Poznańska","from":"Lednicka 03 OS. PIASTOWSKIE","to":"Poznańska P","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000796846260,14]]},
+  {"id":16638712,"t":{"ref":"7","name":"7: Gdańska => Poznańska","from":"Gdańska 11 (pętla)","to":"Poznańska P","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":17,"s":[[5000796846260,17]]},
+  {"id":16639165,"t":{"ref":"8","name":"8: Skiereszewo => Fabryczna","from":"Skiereszewo P.","to":"Fabryczna 03","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":22,"s":[[11308425770,1]]},
+  {"id":16657879,"t":{"ref":"12","name":"12: Wełnica => Obora via Żerniki","from":"Wełnica P.","to":"Obora P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":31,"s":[[5001221420229,24]]},
+  {"id":16657950,"t":{"ref":"12","name":"12: Obora => Wełnica via Żerniki","from":"Obora P.","to":"Wełnica P.","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":31,"s":[[5001221420229,8]]},
+  {"id":16662884,"t":{"ref":"16","name":"16: Jabłoniowa => Czarnieckiego","from":"Jabłoniowa 01","to":"Czarnieckiego","network":"MPK Gniezno","operator":"MPK Gniezno","route":"bus","public_transport:version":"2"},"n":17,"s":[[11308425770,12]]}
+]
+}

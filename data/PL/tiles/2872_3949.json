@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2872,3949],
+"stops":[
+  {"id":10112132389,"lat":53.625093,"lon":17.488301,"k":"x","n":"Doręgowice-Pętla","ref":"140-12"},
+  {"id":10131107841,"lat":53.605502,"lon":17.484812,"k":"p"},
+  {"id":10290399839,"lat":53.641141,"lon":17.497662,"k":"x","n":"Moszczenica-Wieś","ref":"147-31"},
+  {"id":10290399840,"lat":53.641181,"lon":17.497686,"k":"p","n":"Moszczenica-Wieś","ref":"147-31"},
+  {"id":10290399841,"lat":53.64162,"lon":17.488183,"k":"x","n":"Moszczenica-Stacja Kolejowa","ref":"148-31"},
+  {"id":10290399842,"lat":53.64171,"lon":17.488208,"k":"p","n":"Moszczenica-Stacja Kolejowa","ref":"148-31"},
+  {"id":10290399848,"lat":53.627277,"lon":17.492144,"k":"x","n":"Doręgowice","ref":"415-11"},
+  {"id":10290399849,"lat":53.627323,"lon":17.492045,"k":"p","n":"Doręgowice","ref":"415-11"},
+  {"id":10290399851,"lat":53.62511,"lon":17.488364,"k":"p","n":"Doręgowice-Pętla","ref":"140-12"}
+],
+"routes":[
+  {"id":15054639,"t":{"ref":"11","name":"Linia 11: Doręgowice-Pętla B =>Warszawska-Dworzec A","from":"Doręgowice-Pętla B","to":"Warszawska-Dworzec A","network":"MZK Chojnice","operator":"MZK Chojnice","route":"bus","public_transport:version":"2"},"n":21,"s":[[10290399851,1]]},
+  {"id":15058051,"t":{"ref":"11","name":"Linia 11: Doręgowice => Świętopełka","from":"Doręgowice","to":"Świętopełka","network":"MZK Chojnice","route":"bus","public_transport:version":"2"},"n":21,"s":[[10290399851,1]]},
+  {"id":15058052,"t":{"ref":"11","name":"Linia 11: Warszawska-Dworzec A => Doręgowice-Pętla B","from":"Warszawska-Dworzec A","to":"Doręgowice-Pętla B","network":"MZK Chojnice","operator":"MZK Chojnice","route":"bus","public_transport:version":"2"},"n":18,"s":[[10290399840,16],[10290399842,17],[10290399851,18]]},
+  {"id":15058065,"t":{"ref":"11","name":"Linia 11: Doręgowice-Pętla B => Plac Piastowski A","from":"Doręgowice-Pętla B","to":"Plac Piastowski A","network":"MZK Chojnice","operator":"MZK Chojnice","route":"bus","public_transport:version":"2"},"n":10,"s":[[10290399851,1]]}
+]
+}

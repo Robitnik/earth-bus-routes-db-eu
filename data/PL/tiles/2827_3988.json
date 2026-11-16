@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2827,3988],
+"stops":[
+  {"id":2154267187,"lat":51.365144,"lon":19.413082,"k":"x","n":"Czyżewskiego / pętla","ref":"066-01"},
+  {"id":2507269489,"lat":51.366493,"lon":19.41587,"k":"x","n":"Dobiecin II"},
+  {"id":5281780621,"lat":51.36514,"lon":19.413107,"k":"p","n":"Czyżewskiego / pętla"},
+  {"id":5281780631,"lat":51.364895,"lon":19.407574,"k":"x","n":"Czyżewskiego / Wspólna","ref":"065-01"},
+  {"id":5281780638,"lat":51.364868,"lon":19.40717,"k":"x","n":"Czyżewskiego / Wspólna","ref":"065-02"},
+  {"id":5281780653,"lat":51.365069,"lon":19.403391,"k":"x","n":"Czyżewskiego / Jutrzenki","ref":"082-01"},
+  {"id":5281780669,"lat":51.365119,"lon":19.402982,"k":"x","n":"Czyżewskiego / Jutrzenki","ref":"082-02"},
+  {"id":10310812377,"lat":51.395164,"lon":19.41648,"k":"x","n":"Helenów"},
+  {"id":10310812378,"lat":51.395076,"lon":19.416424,"k":"p","n":"Helenów"},
+  {"id":10310812379,"lat":51.394833,"lon":19.414965,"k":"p","n":"Helenów"},
+  {"id":10310812380,"lat":51.394767,"lon":19.415021,"k":"x","n":"Helenów"},
+  {"id":10311747808,"lat":51.366721,"lon":19.416278,"k":"p","n":"Dobiecin I"},
+  {"id":10311783909,"lat":51.366651,"lon":19.416352,"k":"x","n":"Dobiecin I"},
+  {"id":10311783910,"lat":51.366445,"lon":19.415919,"k":"p","n":"Dobiecin II"},
+  {"id":10311783911,"lat":51.366907,"lon":19.422165,"k":"x","n":"Dobiecin IV"},
+  {"id":10311783912,"lat":51.366959,"lon":19.422158,"k":"p","n":"Dobiecin IV"},
+  {"id":10311783913,"lat":51.36629,"lon":19.436652,"k":"x","n":"Dobiecin V"},
+  {"id":10311783914,"lat":51.366359,"lon":19.436665,"k":"p","n":"Dobiecin V"},
+  {"id":5000546551781,"lat":51.36494,"lon":19.407555,"k":"p","n":"Czyżewskiego / Wspólna"},
+  {"id":5000546551782,"lat":51.364824,"lon":19.407173,"k":"p","n":"Czyżewskiego / Wspólna"},
+  {"id":5000546551783,"lat":51.365139,"lon":19.403366,"k":"p","n":"Czyżewskiego / Jutrzenki"},
+  {"id":5000546551784,"lat":51.365049,"lon":19.402943,"k":"p","n":"Czyżewskiego / Jutrzenki"}
+],
+"routes":[
+  {"id":7805743,"t":{"ref":"5","name":"5: Czyżewskiego => Przemysłowa","from":"Czyżewskiego / pętla","to":"Przemysłowa / Batis","network":"Bełchatów","operator":"MZK Bełchatów","route":"bus","public_transport:version":"2"},"n":28,"s":[[5281780621,1],[5000546551781,2],[5000546551783,3]]},
+  {"id":7805744,"t":{"ref":"5","name":"5: Przemysłowa => Czyżewskiego","from":"Przemysłowa / Batis","to":"Czyżewskiego / pętla","network":"Bełchatów","operator":"MZK Bełchatów","route":"bus","public_transport:version":"2"},"n":27,"s":[[5000546551784,25],[5000546551782,26],[5281780621,27]]},
+  {"id":15092089,"t":{"name":"Piotrków Trybunalski - Bełchatów","from":"Piotrków Trybunalski","to":"Bełchatów Szpital","operator":"Bus Kacper","route":"bus","public_transport:version":"2"},"n":24,"s":[[10310812379,14]]},
+  {"id":15092090,"t":{"name":"Bełchatów - Piotrków Trybunalski","from":"Bełchatów Szpital","to":"Piotrków Trybunalski","operator":"Bus Kacper","route":"bus","public_transport:version":"2"},"n":24,"s":[[10310812379,11]]},
+  {"id":15093217,"t":{"name":"Bełchatów - Piotrków Trybunalski","from":"Bełchatów Przemysłowa","to":"Piotrków Trybunalski","network":"Marszałek Województwa Łódzkiego","operator":"PKS Bełchatów","route":"bus","public_transport:version":"2"},"n":42,"s":[[5000546551784,16],[5281780621,17],[10311783910,18],[10311783912,19],[10311783914,20]]},
+  {"id":15093218,"t":{"name":"Piotrków Trybunalski - Bełchatów","from":"Piotrków Trybunalski","to":"Bełchatów Przemysłowa","network":"Marszałek Województwa Łódzkiego","operator":"PKS Bełchatów","route":"bus","public_transport:version":"2"},"n":38,"s":[[10311783912,21],[10311783910,22],[5281780621,23]]}
+]
+}

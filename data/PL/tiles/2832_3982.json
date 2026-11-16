@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2832,3982],
+"stops":[
+  {"id":4402120336,"lat":51.603333,"lon":19.111984,"k":"x","n":"Łask PKP","ref":"10"},
+  {"id":4703800307,"lat":51.600909,"lon":19.123764,"k":"x","n":"Lutomierska","ref":"15"},
+  {"id":4703817033,"lat":51.602783,"lon":19.115258,"k":"x","n":"Kolejowa Hurtownie","ref":"11"},
+  {"id":4703817034,"lat":51.602767,"lon":19.115441,"k":"x","n":"Kolejowa Hurtownie","ref":"12"},
+  {"id":4703817036,"lat":51.602042,"lon":19.123046,"k":"x","n":"Kolejowa Sąd","ref":"14"},
+  {"id":4703817040,"lat":51.602023,"lon":19.123683,"k":"x","n":"Kolejowa Lutomierska","ref":"13"},
+  {"id":4875937901,"lat":51.600893,"lon":19.123852,"k":"p","n":"Lutomierska"},
+  {"id":4875940864,"lat":51.602069,"lon":19.12375,"k":"p","n":"Kolejowa Lutomierska"},
+  {"id":5295876899,"lat":51.602832,"lon":19.115268,"k":"p","n":"Kolejowa Hurtownie"},
+  {"id":5295876900,"lat":51.602717,"lon":19.115433,"k":"p","n":"Kolejowa Hurtownie"},
+  {"id":11929351048,"lat":51.602018,"lon":19.124037,"k":"x"},
+  {"id":11954537902,"lat":51.605318,"lon":19.124561,"k":"p"},
+  {"id":11954537903,"lat":51.605544,"lon":19.12442,"k":"p"},
+  {"id":11976380413,"lat":51.618515,"lon":19.122876,"k":"p"},
+  {"id":11976468627,"lat":51.618984,"lon":19.122739,"k":"p"},
+  {"id":5000495865273,"lat":51.603364,"lon":19.111969,"k":"p","n":"Łask PKP"},
+  {"id":5000495866052,"lat":51.601999,"lon":19.122944,"k":"p","n":"Kolejowa Sąd"}
+],
+"routes":[
+  {"id":7009017,"t":{"ref":"D","name":"D: Sikorskiego → Łask Dworzec PKP","from":"Sikorskiego","to":"Łask Dworzec PKP","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":31,"s":[[4875937901,28],[4875940864,29],[5295876899,30],[5000495865273,31]]},
+  {"id":7009062,"t":{"ref":"D","name":"D: Waltera-Jankego → Łask Dworzec PKP","from":"Waltera-Jankego","to":"Łask Dworzec PKP","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":32,"s":[[4875937901,29],[4875940864,30],[5295876899,31],[5000495865273,32]]},
+  {"id":7009065,"t":{"ref":"D","name":"D: Łask Dworzec PKP → Sikorskiego","from":"Łask Dworzec PKP","to":"Sikorskiego","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":31,"s":[[5000495865273,1],[5295876900,2],[5000495866052,3]]},
+  {"id":7009067,"t":{"ref":"D","name":"D: Łask Dworzec PKP → Waltera-Jankego","from":"Łask Dworzec PKP","to":"Waltera-Jankego","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":32,"s":[[5000495865273,1],[5295876900,2],[5000495866052,3]]},
+  {"id":7826693,"t":{"ref":"1/5","name":"1/5: Wronowice => Łask PKP","from":"Wronowice","to":"Łask PKP","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":20,"s":[[4875937901,17],[4875940864,18],[5295876899,19],[5000495865273,20]]},
+  {"id":7826694,"t":{"ref":"1/5","name":"1/5: Łask PKP => Wronowice","from":"Łask PKP","to":"Wronowice","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":20,"s":[[5000495865273,1],[5295876900,2],[5000495866052,3]]},
+  {"id":7828410,"t":{"ref":"B","name":"B: Okup => Pl. 11 Listopada","from":"Okup","to":"Pl. 11 Listopada","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000495865273,5],[5295876900,6],[5000495866052,7]]},
+  {"id":7828411,"t":{"ref":"B","name":"B: Batorego => Okup","from":"Batorego","to":"Okup","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":17,"s":[[4875937901,7],[4875940864,8],[5295876899,9],[5000495865273,10]]},
+  {"id":17679855,"t":{"ref":"ŁA1","name":"ŁA1: Łask → Zelów → Szczerców","from":"Łask","to":"Szczerców","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":40,"s":[[4402120336,39]]},
+  {"id":17679856,"t":{"ref":"ŁA1","name":"ŁA1: Szczerców → Zelów → Łask","from":"Szczerców","to":"Łask","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":42,"s":[[4402120336,42]]}
+]
+}

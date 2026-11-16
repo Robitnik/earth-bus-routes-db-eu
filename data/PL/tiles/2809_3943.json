@@ -1,0 +1,41 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2809,3943],
+"stops":[
+  {"id":2319186308,"lat":50.470029,"lon":17.167692,"k":"p","n":"Otmuchów szkoła"},
+  {"id":2360438197,"lat":50.452801,"lon":17.150688,"k":"p","n":"Frydrychów I"},
+  {"id":2378027639,"lat":50.466608,"lon":17.178655,"k":"p","n":"Otmuchów ul. Nyska III"},
+  {"id":7418335560,"lat":50.470081,"lon":17.173859,"k":"p","n":"Otmuchów Sienkiewicza"},
+  {"id":7418335561,"lat":50.46945,"lon":17.174164,"k":"p","n":"Otmuchów Sienkiewicza"},
+  {"id":7418335564,"lat":50.4684,"lon":17.172042,"k":"p","n":"Powstańców Śląskich"},
+  {"id":7418335579,"lat":50.472994,"lon":17.151165,"k":"p","n":"Otmuchów ul. Warszawska"},
+  {"id":7418335580,"lat":50.472917,"lon":17.151099,"k":"p","n":"Otmuchów ul. Warszawska"},
+  {"id":7418392512,"lat":50.468229,"lon":17.166253,"k":"p","n":"Otmuchów Lipowa"},
+  {"id":7418392538,"lat":50.46486,"lon":17.175532,"k":"p","n":"Otmuchów ul. Kościuszki pętla"},
+  {"id":7539046096,"lat":50.488877,"lon":17.169729,"k":"p","n":"Nieradowice"},
+  {"id":7539046097,"lat":50.488859,"lon":17.169588,"k":"p","n":"Nieradowice"},
+  {"id":7539094528,"lat":50.473791,"lon":17.152477,"k":"p","n":"Otmuchów dworzec kolejowy"},
+  {"id":9858649351,"lat":50.462917,"lon":17.172463,"k":"s","n":"Otmuchów Centrum Przesiadkowe"},
+  {"id":9858649352,"lat":50.46265,"lon":17.1724,"k":"p","n":"Otmuchów Centrum Przesiadkowe"},
+  {"id":9858649353,"lat":50.462646,"lon":17.172287,"k":"p","n":"Otmuchów Centrum Przesiadkowe"},
+  {"id":9858649354,"lat":50.462642,"lon":17.172176,"k":"p","n":"Otmuchów Centrum Przesiadkowe"},
+  {"id":9861367429,"lat":50.466408,"lon":17.185569,"k":"p","n":"Otmuchów ul. Nyska III"},
+  {"id":11015272238,"lat":50.452837,"lon":17.150526,"k":"x"},
+  {"id":11015573055,"lat":50.46825,"lon":17.166314,"k":"x"},
+  {"id":13327134829,"lat":50.490798,"lon":17.193094,"k":"p","n":"Bednary"},
+  {"id":13337039112,"lat":50.466544,"lon":17.178453,"k":"p","n":"Otmuchów ul. Nyska III"},
+  {"id":13337039113,"lat":50.464435,"lon":17.180241,"k":"p","n":"Otmuchów ul. Kazimierza Wielkiego"},
+  {"id":13337039114,"lat":50.463054,"lon":17.180755,"k":"p","n":"Otmuchów ul. 1 Maja"}
+],
+"routes":[
+  {"id":11026343,"t":{"ref":"5Ś","name":"Bus 5Ś Śliwice→Otmuchów","from":"Śliwice II pętla","to":"Otmuchów Centrum Przesiadkowe","network":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#B3B3B3","route":"bus","public_transport:version":"2"},"n":3,"s":[[9858649353,3]]},
+  {"id":11026344,"t":{"ref":"5Ś","name":"Bus 5Ś Otmuchów→Śliwice","from":"Otmuchów Centrum Przesiadkowe","to":"Śliwice II pętla","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#B3B3B3","route":"bus","public_transport:version":"2"},"n":3,"s":[[9858649353,1]]},
+  {"id":11026345,"t":{"ref":"5","name":"Bus 5 Otmuchów→Piłsudskiego","from":"Otmuchów Centrum Przesiadkowe","to":"Piłsudskiego zajezdnia","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#FFA500","route":"bus","public_transport:version":"2"},"n":28,"s":[[9858649353,1]]},
+  {"id":11026346,"t":{"ref":"5","name":"Bus 5 Piłsudskiego→Otmuchów","from":"Piłsudskiego zajezdnia","to":"Otmuchów Centrum Przesiadkowe","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#FFA500","route":"bus","public_transport:version":"2"},"n":28,"s":[[9858649353,28]]},
+  {"id":11122773,"t":{"ref":"5N","name":"Bus 5N Nieradowice→Otmuchów","from":"Nieradowice","to":"Otmuchów Centrum Przesiadkowe","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#B3B3B3","route":"bus","public_transport:version":"2"},"n":3,"s":[[7539046097,1],[7418335560,2],[9858649353,3]]},
+  {"id":11122774,"t":{"ref":"5N","name":"Bus 5N Otmuchów→Nieradowice","from":"Otmuchów Centrum Przesiadkowe","to":"Nieradowice","network":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#B3B3B3","route":"bus","public_transport:version":"2"},"n":3,"s":[[9858649353,1],[7418335561,2],[7539046096,3]]},
+  {"id":11122832,"t":{"ref":"5S","name":"Bus 5S Sarnowice→Otmuchów","from":"Sarnowice","to":"Otmuchów Centrum Przesiadkowe","network":"MZK Nysa","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#B3B3B3","route":"bus","public_transport:version":"2"},"n":4,"s":[[7418335580,2],[7418335564,3],[9858649353,4]]},
+  {"id":11122833,"t":{"ref":"5S","name":"Bus 5S Otmuchów→Sarnowice","from":"Otmuchów Centrum Przesiadkowe","to":"Sarnowice","network":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","operator":"Miejski Zakład Komunikacji w Nysie sp. z o.o.","colour":"#B3B3B3","route":"bus","public_transport:version":"2"},"n":5,"s":[[9858649353,1],[7418392512,2],[7418335579,3]]}
+]
+}

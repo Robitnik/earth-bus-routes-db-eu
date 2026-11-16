@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2825,3975],
+"stops":[
+  {"id":10821786558,"lat":51.272154,"lon":18.758454,"k":"p","n":"Stanisławów"},
+  {"id":10821786559,"lat":51.272121,"lon":18.758555,"k":"x","n":"Stanisławów"},
+  {"id":10821786569,"lat":51.27314,"lon":18.759702,"k":"p","n":"Stanisławów"},
+  {"id":10821786570,"lat":51.273179,"lon":18.759573,"k":"x","n":"Stanisławów"},
+  {"id":10821786579,"lat":51.279888,"lon":18.771488,"k":"p","n":"Dębina Most"},
+  {"id":10821786580,"lat":51.279826,"lon":18.771558,"k":"x","n":"Dębina Most"},
+  {"id":10821786586,"lat":51.280879,"lon":18.774555,"k":"p","n":"Dębina Most"},
+  {"id":10821786587,"lat":51.280953,"lon":18.774477,"k":"x","n":"Dębina Most"},
+  {"id":10821786588,"lat":51.280818,"lon":18.790785,"k":"p","n":"Osjaków Częstochowska / Stacja Paliw"},
+  {"id":10821786593,"lat":51.271122,"lon":18.791786,"k":"p","n":"Felinów"},
+  {"id":10821786594,"lat":51.27114,"lon":18.791883,"k":"x","n":"Felinów"},
+  {"id":10821786595,"lat":51.271144,"lon":18.791938,"k":"p","n":"Felinów"},
+  {"id":10821789039,"lat":51.280825,"lon":18.790893,"k":"x","n":"Osjaków Częstochowska / Stacja Paliw"},
+  {"id":10821789043,"lat":51.282918,"lon":18.790863,"k":"p","n":"Osjaków Częstochowska / Południowa"},
+  {"id":10821789044,"lat":51.282911,"lon":18.790765,"k":"x","n":"Osjaków Częstochowska / Południowa"},
+  {"id":10821789072,"lat":51.288665,"lon":18.790933,"k":"p","n":"Osjaków Centrum / Rynek"},
+  {"id":10821789073,"lat":51.288717,"lon":18.79093,"k":"x","n":"Osjaków Centrum / Rynek"},
+  {"id":10821789075,"lat":51.288562,"lon":18.791321,"k":"p","n":"Osjaków Centrum / Rynek"},
+  {"id":10821789076,"lat":51.288573,"lon":18.791439,"k":"x","n":"Osjaków Centrum / Rynek"},
+  {"id":10821789087,"lat":51.29537,"lon":18.793598,"k":"p","n":"Osjaków Sieradzka / Reja (Cmentarz)"},
+  {"id":10821789088,"lat":51.295353,"lon":18.79372,"k":"x","n":"Osjaków Sieradzka / Reja (Cmentarz)"},
+  {"id":10821789089,"lat":51.295327,"lon":18.793777,"k":"p","n":"Osjaków Sieradzka / Reja (Cmentarz)"}
+],
+"routes":[
+  {"id":15772118,"t":{"ref":"12","name":"Korona 12: Wieluń => Osjaków","from":"Wieluń Fabryczna / Korona","to":"Osjaków Centrum / Rynek","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":15,"s":[[10821786569,12],[10821786586,13],[10821789043,14],[10821789075,15]]},
+  {"id":15772119,"t":{"ref":"12","name":"Korona 12: Wieluń => Radoszewice","from":"Wieluń Fabryczna / Korona","to":"Radoszewice Powstania Styczniowego","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":19,"s":[[10821786569,12],[10821786586,13],[10821789043,14],[10821789075,15],[10821786588,16],[10821786593,17]]},
+  {"id":15772172,"t":{"ref":"12","name":"Korona 12: Radoszewice => Wieluń","from":"Radoszewice Powstania Styczniowego","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":17,"s":[[10821786595,3],[10821789043,4],[10821789075,5],[10821786579,6],[10821786558,7]]},
+  {"id":15772173,"t":{"ref":"12","name":"Korona 12: Radoszewice => Wieluń via Dworzec PKS","from":"Radoszewice Powstania Styczniowego","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń - Korona","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":18,"s":[[10821786595,3],[10821789043,4],[10821789075,5],[10821786579,6],[10821786558,7]]},
+  {"id":18706058,"t":{"ref":"918113","name":"PKS Wieluń: Wieluń => Osjaków via Pajęczno","from":"Wieluń Dworzec Autobusowy st.5","to":"Osjaków Centrum / Rynek","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":53,"s":[[10821786595,51],[10821789043,52],[10821789072,53]]},
+  {"id":20140078,"t":{"ref":"918113","name":"PKS Wieluń: Osjaków => Wieluń via Pajęczno","from":"Osjaków Centrum / Rynek","to":"Wieluń Dworzec Autobusowy st.0","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":55,"s":[[10821789075,1],[10821786588,2],[10821786593,3]]},
+  {"id":20414754,"t":{"ref":"918041","name":"PKS Wieluń: Pajęczno → Łódź","from":"Pajęczno Centrum","to":"Łódź Dworzec Kaliska","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus"},"n":62,"s":[[10821786595,9],[10821786588,10],[10821789043,11],[10821789072,12],[10821789089,13]]}
+]
+}

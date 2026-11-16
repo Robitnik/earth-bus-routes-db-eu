@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2877,4045],
+"stops":[
+  {"id":127873782,"lat":53.854005,"lon":22.255894,"k":"x"},
+  {"id":10228289914,"lat":53.850102,"lon":22.263024,"k":"p","n":"Chrzanowo","ref":"226"},
+  {"id":11182077576,"lat":53.850081,"lon":22.262952,"k":"x"},
+  {"id":13783875334,"lat":53.854034,"lon":22.255941,"k":"p","n":"Woszczele kol.","ref":"316-55"},
+  {"id":13783875335,"lat":53.854345,"lon":22.255134,"k":"x"},
+  {"id":13783875336,"lat":53.854289,"lon":22.255092,"k":"p","n":"Woszczele kol.","ref":"317-56"},
+  {"id":6021634309055,"lat":53.855417,"lon":22.252885,"k":"p","n":"Woszczele - Kolonia","g":1},
+  {"id":6067420159101,"lat":53.85533,"lon":22.252778,"k":"p","n":"Woszczele - Kolonia","g":1}
+],
+"routes":[
+  {"id":16315744,"t":{"ref":"31","name":"31: Ełk, Dworzec Autobusowy => Stare Juchy => Wydminy","from":"Ełk","to":"Wydminy","operator":"Gmina Stare Juchy","route":"bus"},"n":54,"s":[[11182077576,21],[10228289914,22]]},
+  {"id":16319728,"t":{"ref":"34","name":"34: Ełk, Dworzec Autobusowy => Stare Juchy","from":"Ełk","to":"Stare Juchy","operator":"Gmina Stare Juchy","route":"bus"},"n":50,"s":[[10228289914,21],[11182077576,22]]},
+  {"id":3006710010677,"t":{"ref":"2","from":"Woszczele","to":"Zakłady Mięsne","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":21,"s":[[6067420159101,3]]},
+  {"id":3016211995821,"t":{"ref":"2","from":"Zakłady Mięsne","to":"Woszczele","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":20,"s":[[10228289914,17],[6021634309055,18]]}
+]
+}

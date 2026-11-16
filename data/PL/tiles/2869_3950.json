@@ -1,0 +1,27 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2869,3950],
+"stops":[
+  {"id":3569228920,"lat":53.450276,"lon":17.503168,"k":"p"},
+  {"id":3569228921,"lat":53.4505,"lon":17.524634,"k":"p"},
+  {"id":5529214529,"lat":53.458241,"lon":17.544422,"k":"p"},
+  {"id":5529214814,"lat":53.45774,"lon":17.54283,"k":"p"},
+  {"id":12253980629,"lat":53.458772,"lon":17.533343,"k":"x","n":"Sępólno Krajeńskie / Dworzec Autobusowy"},
+  {"id":12253980630,"lat":53.458759,"lon":17.533244,"k":"p","n":"Sępólno Krajeńskie / Dworzec Autobusowy"},
+  {"id":12253980631,"lat":53.452748,"lon":17.532505,"k":"p","n":"Sępólno Krajeńskie / Plac Wolności"},
+  {"id":12264847159,"lat":53.488205,"lon":17.515528,"k":"p","n":"Płocicz wybudowanie"},
+  {"id":12264847160,"lat":53.485863,"lon":17.517991,"k":"p","n":"Płocicz wybudowanie"},
+  {"id":12264847161,"lat":53.465807,"lon":17.529362,"k":"p","n":"Sępólno Krajeńskie / Chojnicka"},
+  {"id":12264847162,"lat":53.464463,"lon":17.529765,"k":"p","n":"Sępólno Krajeńskie / Chojnicka"},
+  {"id":12794589167,"lat":53.450458,"lon":17.502539,"k":"p"}
+],
+"routes":[
+  {"id":18167141,"t":{"ref":"21468","name":"PKS Linia 21468: Sępólno Krajeńskie => Bydgoszcz","from":"Sępólno Krajeńskie","to":"Bydgoszcz","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":47,"s":[[12253980630,1]]},
+  {"id":18167142,"t":{"ref":"21468","name":"PKS Linia 21468: Bydgoszcz => Sępólno Krajeńskie","from":"Bydgoszcz","to":"Sępólno Krajeńskie","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":48,"s":[[12253980631,1],[12253980630,48]]},
+  {"id":18179087,"t":{"ref":"21150","name":"PKS Linia 21150: Kamień Krajeński => Bydgoszcz","from":"Kamień Krajeński","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":52,"s":[[12264847160,3],[12264847162,4],[12253980630,5]]},
+  {"id":18179088,"t":{"ref":"21150","name":"PKS Linia 21150: Bydgoszcz => Kamień Krajeński","from":"Bydgoszcz, Dworzec Autobusowy","to":"Kamień Krajeński","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":52,"s":[[12253980630,2],[12264847159,20],[12253980631,28],[12264847161,32]]},
+  {"id":18188499,"t":{"ref":"21152","name":"PKS Linia 21152: Kamień Krajeński => Nakło nad Notecią","from":"Kamień Krajeński","to":"Nakło nad Notecią, PKP","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":32,"s":[[12264847160,11],[12264847162,12],[12253980630,13]]},
+  {"id":18188500,"t":{"ref":"21152","name":"PKS Linia 21152: Nakło nad Notecią => Kamień Krajeński","from":"Nakło nad Notecią, PKP","to":"Kamień Krajeński","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":31,"s":[[12253980630,3],[12264847159,13],[12253980631,22],[12264847161,27]]}
+]
+}

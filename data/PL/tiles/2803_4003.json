@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2803,4003],
+"stops":[
+  {"id":2333290858,"lat":50.158323,"lon":20.180835,"k":"x","n":"Biórków Mały OSP","q":1},
+  {"id":3428667646,"lat":50.153246,"lon":20.160889,"k":"p","n":"Biórków Mały Granica","q":1},
+  {"id":3428667648,"lat":50.153905,"lon":20.158699,"k":"p","n":"Biórków Mały Granica","q":1},
+  {"id":3428667649,"lat":50.154887,"lon":20.170832,"k":"p","n":"Biórków Mały","q":1},
+  {"id":3428667825,"lat":50.155201,"lon":20.171967,"k":"p","n":"Biórków Mały","q":1},
+  {"id":3428667827,"lat":50.158395,"lon":20.180834,"k":"p","n":"Biórków Mały OSP","q":1},
+  {"id":3428667828,"lat":50.158431,"lon":20.181476,"k":"p","n":"Biórków Mały OSP","q":1},
+  {"id":4222722995,"lat":50.158853,"lon":20.197252,"k":"p","n":"Wronin Wiktoryjka","q":1},
+  {"id":4222735511,"lat":50.158492,"lon":20.181454,"k":"x","n":"Biórków Mały OSP","q":1},
+  {"id":4988622854,"lat":50.190687,"lon":20.156785,"k":"p","n":"Łososkowice Szkoła"},
+  {"id":4988622855,"lat":50.190658,"lon":20.156988,"k":"p","n":"Łososkowice Szkoła"},
+  {"id":4988623281,"lat":50.187692,"lon":20.160203,"k":"p","n":"Łososkowice Remiza"},
+  {"id":4988624639,"lat":50.187707,"lon":20.160104,"k":"x","n":"Łososkowice Remiza"},
+  {"id":8307596214,"lat":50.154824,"lon":20.170879,"k":"x","n":"Biórków Mały","q":1},
+  {"id":8307596215,"lat":50.155256,"lon":20.171902,"k":"x","n":"Biórków Mały","q":1},
+  {"id":8307596216,"lat":50.153317,"lon":20.160888,"k":"x","n":"Biórków Mały Granica","q":1},
+  {"id":8307604717,"lat":50.153839,"lon":20.15867,"k":"x","n":"Biórków Mały Granica","q":1},
+  {"id":9224762142,"lat":50.166504,"lon":20.15534,"k":"p","n":"Rawałowice Kapliczka"},
+  {"id":10109803622,"lat":50.166506,"lon":20.155392,"k":"x","n":"Rawałowice Kapliczka"},
+  {"id":11047232354,"lat":50.158927,"lon":20.19727,"k":"x","n":"Wronin Wiktoryjka","q":1},
+  {"id":12337450580,"lat":50.159533,"lon":20.193777,"k":"p","n":"Biórków Mały Stacja Benzynowa","q":1},
+  {"id":14129524881,"lat":50.159487,"lon":20.193688,"k":"x","n":"Biórków Mały Stacja Benzynowa","q":1}
+],
+"routes":[
+  {"id":2001930,"t":{"ref":"202","name":"Bus 202: Czyżyny Dworzec => Łososkowice Remiza","from":"Czyżyny Dworzec","to":"Łososkowice Remiza","network":"Komunikacja Miejska w Krakowie","operator":"Zarząd Transportu Publicznego w Krakowie","route":"bus","public_transport:version":"2"},"n":28,"s":[[4988622855,27],[4988623281,28]]},
+  {"id":11025950,"t":{"ref":"202","name":"Bus 202: Czyżyny Dworzec => Goszcza => Łososkowice Remiza","from":"Czyżyny Dworzec","to":"Łososkowice Remiza","network":"Komunikacja Miejska w Krakowie","operator":"Zarząd Transportu Publicznego w Krakowie","route":"bus","public_transport:version":"2"},"n":41,"s":[[4988622855,40],[4988623281,41]]},
+  {"id":11025951,"t":{"ref":"202","name":"Bus 202: Łososkowice Remiza => Czyżyny Dworzec","from":"Łososkowice Remiza","to":"Czyżyny Dworzec","network":"Komunikacja Miejska w Krakowie","operator":"Zarząd Transportu Publicznego w Krakowie","route":"bus","public_transport:version":"2"},"n":27,"s":[[4988623281,1],[4988622854,2]]},
+  {"id":11025952,"t":{"ref":"202","name":"Bus 202: Łososkowice Remiza => Goszcza => Czyżyny Dworzec","from":"Łososkowice Remiza","to":"Czyżyny Dworzec","network":"Komunikacja Miejska w Krakowie","operator":"Zarząd Transportu Publicznego w Krakowie","route":"bus","public_transport:version":"2"},"n":36,"s":[[4988623281,1],[4988622854,2]]},
+  {"id":11659200,"t":{"ref":"262","name":"Bus 262: Czyżyny Dworzec => Rawałowice Kapliczka","from":"Czyżyny Dworzec","to":"Rawałowice Kapliczka","network":"Komunikacja Miejska w Krakowie","operator":"Zarząd Transportu Publicznego w Krakowie","route":"bus","public_transport:version":"2"},"n":23,"s":[[9224762142,23]]},
+  {"id":11659201,"t":{"ref":"262","name":"Bus 262: Rawałowice Kapliczka => Czyżyny Dworzec","from":"Rawałowice Kapliczka","to":"Czyżyny Dworzec","network":"Komunikacja Miejska w Krakowie","operator":"Zarząd Transportu Publicznego w Krakowie","route":"bus","public_transport:version":"2"},"n":22,"s":[[9224762142,1]]},
+  {"id":21289884,"t":{"ref":"A67","name":"MLD – A67: Proszowice => Kraków","from":"Proszowice Szpital","to":"Kraków MDA","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","route":"bus","public_transport:version":"2"},"n":45,"s":[[12337450580,13],[3428667827,14],[3428667649,15],[3428667648,16]]},
+  {"id":21289885,"t":{"ref":"A67","name":"MLD – A67: Kraków => Proszowice","from":"Kraków MDA","to":"Proszowice Szpital","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","route":"bus","public_transport:version":"2"},"n":42,"s":[[3428667646,29],[3428667825,30],[3428667828,31],[4222722995,32]]}
+]
+}

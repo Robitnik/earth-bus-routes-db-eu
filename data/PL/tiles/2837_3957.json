@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2837,3957],
+"stops":[
+  {"id":3053789204,"lat":51.885205,"lon":17.859259,"k":"x","n":"Brzezie"},
+  {"id":3053789205,"lat":51.886462,"lon":17.855871,"k":"x","n":"Brzezie"},
+  {"id":3062172619,"lat":51.885199,"lon":17.892672,"k":"x","n":"Pleszówka"},
+  {"id":3255424740,"lat":51.85738,"lon":17.86974,"k":"x","n":"Kajew Przedszkole"},
+  {"id":12202514405,"lat":51.886027,"lon":17.859229,"k":"x","n":"Brzezie"},
+  {"id":12236203830,"lat":51.885158,"lon":17.892872,"k":"x","n":"Pleszówka"},
+  {"id":12236203835,"lat":51.887258,"lon":17.867125,"k":"p","n":"Brzezie, Stawiszyńska (skrzyż. Zawidowicka)"},
+  {"id":12236203836,"lat":51.887296,"lon":17.867099,"k":"x","n":"Brzezie, Stawiszyńska (skrzyż. Zawidowicka)"},
+  {"id":12236203837,"lat":51.887313,"lon":17.866889,"k":"p","n":"Brzezie, Stawiszyńska (skrzyż. Zawidowicka)"},
+  {"id":12236203838,"lat":51.887257,"lon":17.866916,"k":"x","n":"Brzezie, Stawiszyńska (skrzyż. Zawidowicka)"},
+  {"id":12239493160,"lat":51.851207,"lon":17.859231,"k":"p","n":"Kajew Dolny"},
+  {"id":12239493165,"lat":51.851178,"lon":17.859179,"k":"x","n":"Kajew Dolny"},
+  {"id":12242080397,"lat":51.85791,"lon":17.893663,"k":"x","n":"Kajew - Bielawy"},
+  {"id":12242082704,"lat":51.858007,"lon":17.893854,"k":"x","n":"Kajew - Bielawy"},
+  {"id":12242082705,"lat":51.858388,"lon":17.85932,"k":"p","n":"Kajew Górny"},
+  {"id":12242082706,"lat":51.858429,"lon":17.859337,"k":"x","n":"Kajew Górny"},
+  {"id":12248992124,"lat":51.85847,"lon":17.859349,"k":"p","n":"Kajew Górny"},
+  {"id":12248992125,"lat":51.85741,"lon":17.869751,"k":"p","n":"Kajew Przedszkole"},
+  {"id":5001318500354,"lat":51.886559,"lon":17.855774,"k":"p","n":"Brzezie"},
+  {"id":5001318500356,"lat":51.885972,"lon":17.859186,"k":"p","n":"Brzezie"},
+  {"id":5001322341285,"lat":51.885116,"lon":17.892903,"k":"p","n":"Pleszówka"},
+  {"id":5001322341286,"lat":51.885282,"lon":17.892632,"k":"p","n":"Pleszówka"},
+  {"id":5001322701205,"lat":51.851174,"lon":17.859083,"k":"p","n":"Kajew Dolny"},
+  {"id":5001322983683,"lat":51.857965,"lon":17.89361,"k":"p","n":"Kajew - Bielawy"},
+  {"id":5001322983684,"lat":51.857995,"lon":17.893935,"k":"p","n":"Kajew - Bielawy"},
+  {"id":5001322983685,"lat":51.857323,"lon":17.869693,"k":"p","n":"Kajew Przedszkole"}
+],
+"routes":[
+  {"id":18093645,"t":{"ref":"PL7A","name":"PL7A: Pleszew, Św. Ducha => Pleszew, Św. Ducha","from":"Pleszew, Św. Ducha","to":"Pleszew, Św. Ducha","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":13,"s":[[5001318500354,5]]},
+  {"id":18140577,"t":{"ref":"PL30","name":"PL30: Pleszew, Szpital => Gołuchów I","from":"Pleszew, Szpital","to":"Gołuchów I","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":25,"s":[[5001318500356,13],[12236203835,14],[5001322341285,15]]},
+  {"id":18140585,"t":{"ref":"PL30","name":"PL30: Gołuchów I => Pleszew, Szpital","from":"Gołuchów I","to":"Pleszew, Szpital","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":25,"s":[[5001322341286,11],[12236203837,12],[5001318500354,13]]},
+  {"id":18144868,"t":{"ref":"PL31","name":"PL31: Pleszew, Szpital => Pleszew, Szpital","from":"Pleszew, Szpital","to":"Pleszew, Szpital","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":37,"s":[[5001322701205,16],[12239493160,20],[12242082705,22],[5001322983685,23],[5001322983684,24],[5001318500354,26]]},
+  {"id":18159936,"t":{"ref":"PL35","name":"PL35: Gołuchów I => Pleszew, Szpital","from":"Gołuchów I","to":"Pleszew, Szpital","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":37,"s":[[5001322341286,11],[5001322983683,14],[12248992125,15],[12248992124,16],[5001322701205,18],[12239493160,22]]},
+  {"id":18159937,"t":{"ref":"PL35","name":"PL35: Pleszew, Szpital => Gołuchów I","from":"Pleszew, Szpital","to":"Gołuchów I","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":37,"s":[[5001322701205,16],[12239493160,20],[12242082705,22],[5001322983685,23],[5001322983684,24],[5001322341286,27]]},
+  {"id":18159950,"t":{"ref":"PL36","name":"PL36: Jedlec (szkoła) 01 => Kuczków","from":"Jedlec (szkoła) 01","to":"Kuczków","network":"PPL","operator":"Euromatpol","route":"bus","public_transport:version":"2"},"n":20,"s":[[5001322341286,10],[5001322983683,13],[12248992125,14],[12248992124,15],[5001322701205,17]]}
+]
+}

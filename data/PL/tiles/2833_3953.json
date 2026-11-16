@@ -1,0 +1,42 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2833,3953],
+"stops":[
+  {"id":1836507533,"lat":51.688491,"lon":17.677505,"k":"x","n":"Niemojewiec I","ref":"468-01"},
+  {"id":1836507543,"lat":51.692338,"lon":17.682843,"k":"x","n":"Niemojewiec n.ż.","ref":"510-01","q":1},
+  {"id":1836507553,"lat":51.699198,"lon":17.69241,"k":"x","n":"Niemojewiec II","ref":"467-01"},
+  {"id":11568619041,"lat":51.680038,"lon":17.667434,"k":"p","n":"Sulisław"},
+  {"id":11568619042,"lat":51.680073,"lon":17.667449,"k":"x","n":"Sulisław","ref":"469-01"},
+  {"id":11568619051,"lat":51.68006,"lon":17.667534,"k":"x","n":"Sulisław","ref":"469-02"},
+  {"id":11568619052,"lat":51.688552,"lon":17.677526,"k":"p","n":"Niemojewiec I"},
+  {"id":11568619053,"lat":51.688521,"lon":17.677569,"k":"x","n":"Niemojewiec I","ref":"468-02"},
+  {"id":11568619062,"lat":51.692194,"lon":17.682297,"k":"x","n":"Niemojewiec n.ż.","ref":"510-02","q":1},
+  {"id":11568619063,"lat":51.698908,"lon":17.680635,"k":"p","n":"Niemojewiec"},
+  {"id":11568619064,"lat":51.69892,"lon":17.680696,"k":"x","n":"Niemojewiec","ref":"512-02"},
+  {"id":11568690469,"lat":51.699074,"lon":17.680628,"k":"x"},
+  {"id":11572197417,"lat":51.692313,"lon":17.682878,"k":"p","n":"Niemojewiec n.ż."},
+  {"id":11608400486,"lat":51.660784,"lon":17.695413,"k":"x","n":"Lamki las n.ż.","ref":"260-02","q":1},
+  {"id":11624349432,"lat":51.657568,"lon":17.66015,"k":"p","n":"Łakociny Dw. PKP"},
+  {"id":11624349433,"lat":51.657526,"lon":17.66016,"k":"x","n":"Łakociny Dw. PKP","ref":"263-02"},
+  {"id":11624349434,"lat":51.657513,"lon":17.660037,"k":"x","n":"Łakociny Dw. PKP","ref":"263-01"},
+  {"id":11624349449,"lat":51.65835,"lon":17.668158,"k":"x","n":"Łąkociny I","ref":"262-02"},
+  {"id":11624349458,"lat":51.6588,"lon":17.672996,"k":"x","n":"Łąkociny I","ref":"262-01"},
+  {"id":11624349459,"lat":51.659188,"lon":17.676795,"k":"p","n":"Łąkociny I n.ż."},
+  {"id":11624349460,"lat":51.659141,"lon":17.676807,"k":"x","n":"Łąkociny I n.ż.","ref":"261-02","q":1},
+  {"id":11626690953,"lat":51.659109,"lon":17.67691,"k":"p","n":"Łąkociny I n.ż."},
+  {"id":11626690954,"lat":51.659149,"lon":17.6769,"k":"x","n":"Łąkociny I n.ż.","ref":"261-01","q":1},
+  {"id":5001250537350,"lat":51.657469,"lon":17.660122,"k":"p","n":"Łakociny Dw. PKP"},
+  {"id":5001250537351,"lat":51.658408,"lon":17.668091,"k":"p","n":"Łąkociny I"},
+  {"id":5001250537352,"lat":51.658734,"lon":17.673084,"k":"p","n":"Łąkociny I"},
+  {"id":5001250537353,"lat":51.66085,"lon":17.69525,"k":"p","n":"Lamki las n.ż."}
+],
+"routes":[
+  {"id":5554355,"t":{"ref":"15","name":"15: Chruszczyny => Wrocławska Kuźnia","from":"Chruszczyny","to":"Wrocławska Kuźnia","network":"Ostrów Wielkopolski","operator":"MZK Ostrów Wlkp.","route":"bus","public_transport:version":"2"},"n":27,"s":[[5001250537350,5],[5001250537352,6],[11626690953,7]]},
+  {"id":5556098,"t":{"ref":"K-1","name":"K-1: Centrum Przesiadkowe => Krotoszyn Dw. PKS","from":"Centrum Przesiadkowe — peron 3","to":"Krotoszyn Dw. PKS","network":"Ostrów Wielkopolski","operator":"MZK Ostrów Wlkp.","route":"bus","public_transport:version":"2"},"n":37,"s":[[5001250537353,17],[11624349459,18],[5001250537351,19],[11624349432,20]]},
+  {"id":5556622,"t":{"ref":"15","name":"15: Kuźnia => Chruszczyny","from":"Kuźnia","to":"Chruszczyny","network":"Ostrów Wielkopolski","operator":"MZK Ostrów Wlkp.","route":"bus","public_transport:version":"2"},"n":37,"s":[[5001250537353,24],[11624349459,25],[5001250537351,26],[11624349432,27]]},
+  {"id":5596016,"t":{"ref":"K-1","name":"K-1: Krotoszyn Dw. PKS => Centrum Przesiadkowe","from":"Krotoszyn Dw. PKS","to":"Centrum Przesiadkowe — peron 3","network":"Ostrów Wielkopolski","operator":"MZK Ostrów Wlkp.","route":"bus","public_transport:version":"2"},"n":35,"s":[[5001250537350,7],[5001250537352,8],[11626690953,9]]},
+  {"id":19817025,"t":{"ref":"K","name":"K: Ostrów Wlkp. Centrum Przesiadkowe  => Krotoszyn Dworzec PKS","from":"Ostrów Wlkp. Centrum Przesiadkowe","to":"Krotoszyn Fabryczna / Dworzec PKS","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":36,"s":[[5001250537353,16],[5001250537351,17],[11624349432,18]]},
+  {"id":19817195,"t":{"ref":"K","name":"K: Krotoszyn Dworzec PKS  => Ostrów Wlkp. Centrum Przesiadkowe Łącznik","from":"Krotoszyn Fabryczna / Dworzec PKS","to":"Ostrów Wlkp. Centrum Przesiadkowe Łącznik","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":36,"s":[[5001250537350,18],[5001250537352,19]]}
+]
+}

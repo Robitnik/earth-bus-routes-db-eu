@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2822,3976],
+"stops":[
+  {"id":693346679,"lat":51.114917,"lon":18.80985,"k":"x","n":"Sęsów"},
+  {"id":3495691705,"lat":51.108169,"lon":18.832901,"k":"p","n":"Lisowice"},
+  {"id":10816949778,"lat":51.146774,"lon":18.838639,"k":"p","n":"Szczyty Centrum"},
+  {"id":10816949779,"lat":51.146722,"lon":18.838558,"k":"x","n":"Szczyty Centrum"},
+  {"id":10816949789,"lat":51.145972,"lon":18.839842,"k":"p","n":"Szczyty Centrum"},
+  {"id":10816949790,"lat":51.146054,"lon":18.839917,"k":"x","n":"Szczyty Centrum"},
+  {"id":10816956211,"lat":51.144154,"lon":18.849052,"k":"p","n":"Szczyty OSP"},
+  {"id":10816956212,"lat":51.144089,"lon":18.849015,"k":"x","n":"Szczyty OSP"},
+  {"id":12829037804,"lat":51.148141,"lon":18.829782,"k":"x","n":"Szczyty I / Niżankowska"},
+  {"id":12829037805,"lat":51.1481,"lon":18.829762,"k":"p","n":"Szczyty I / Niżankowska"},
+  {"id":13495830844,"lat":51.148189,"lon":18.8298,"k":"p","n":"Szczyty I / Niżankowska"},
+  {"id":13495858870,"lat":51.145888,"lon":18.839805,"k":"x","n":"Szczyty Centrum"},
+  {"id":13495982035,"lat":51.145939,"lon":18.839824,"k":"p","n":"Szczyty Centrum"},
+  {"id":13504502965,"lat":51.145848,"lon":18.839797,"k":"p","n":"Szczyty Centrum"},
+  {"id":13931124601,"lat":51.114846,"lon":18.809905,"k":"p","n":"Sęsów"},
+  {"id":13931124614,"lat":51.10824,"lon":18.832847,"k":"x","n":"Lisowice"}
+],
+"routes":[
+  {"id":15770608,"t":{"ref":"918083","name":"PKS Wieluń: Wieluń => Pajęczno","from":"Wieluń Fabryczna / Korona","to":"Pajęczno Plac Targowy","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":30,"s":[[10816949789,19]]},
+  {"id":15771100,"t":{"ref":"918083","name":"PKS Wieluń: Pajęczno => Wieluń","from":"Pajęczno Plac Targowy","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":31,"s":[[10816956211,11],[10816949778,12]]},
+  {"id":18706058,"t":{"ref":"918113","name":"PKS Wieluń: Wieluń => Osjaków via Pajęczno","from":"Wieluń Dworzec Autobusowy st.5","to":"Osjaków Centrum / Rynek","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":53,"s":[[10816949789,18]]},
+  {"id":18828476,"t":{"name":"PKS Wieluń 918030: Działoszyn => Sieradz via Wieluń","from":"Działoszyn","to":"Sieradz","network":"PKS","operator":"PKS Wieluń sp. z o.o.","route":"bus","public_transport:version":"2"},"n":47,"s":[[10816956211,2],[10816949778,3]]},
+  {"id":20140078,"t":{"ref":"918113","name":"PKS Wieluń: Osjaków => Wieluń via Pajęczno","from":"Osjaków Centrum / Rynek","to":"Wieluń Dworzec Autobusowy st.0","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":55,"s":[[10816956211,35],[13495982035,36]]},
+  {"id":20144682,"t":{"ref":"D3","name":"ITER-TRANS D3: Działoszyn => Niżankowice","from":"Działoszyn Piłsudskiego Osiedle / Urząd Gminy","to":"Niżankowice 4523E / Pętla","network":"Gmina Działoszyn","operator":"ITER-TRANS","route":"bus","public_transport:version":"2"},"n":8,"s":[[10816956211,3],[13495982035,4],[13495830844,5]]},
+  {"id":20144683,"t":{"ref":"D3","name":"ITER-TRANS D3: Niżankowice => Działoszyn","from":"Niżankowice 4523E / Pętla","to":"Działoszyn Piłsudskiego Osiedle / Starzyńskiego","network":"Gmina Działoszyn","operator":"ITER-TRANS","route":"bus","public_transport:version":"2"},"n":8,"s":[[12829037805,4],[13504502965,5]]},
+  {"id":20970834,"t":{"name":"Gminny Transport Zbiorowy: Działoszyn - Bobrowniki - Działoszyn","from":"Działoszyn","to":"Bobrowniki","network":"UMiG","operator":"Urząd Miasta i Gminy Działoszyn","route":"bus"},"n":7,"s":[[13931124601,5],[3495691705,6]]}
+]
+}

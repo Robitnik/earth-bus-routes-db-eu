@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2866,3889],
+"stops":[
+  {"id":2485667650,"lat":53.349998,"lon":14.475289,"k":"p","n":"Siadło Górne","ref":"92711"},
+  {"id":2485688621,"lat":53.323107,"lon":14.467179,"k":"p","n":"Moczyły","ref":"92811"},
+  {"id":2485688622,"lat":53.323091,"lon":14.467266,"k":"p","n":"Moczyły","ref":"92812"},
+  {"id":4069889289,"lat":53.314566,"lon":14.450941,"k":"p","n":"Kamionki nż","ref":"99611"},
+  {"id":4069889290,"lat":53.314651,"lon":14.451373,"k":"p","n":"Kamionki nż","ref":"99612"},
+  {"id":9423783052,"lat":53.344652,"lon":14.452611,"k":"p","n":"Amazon zachód - dla wysiadających"},
+  {"id":9423783053,"lat":53.343946,"lon":14.454111,"k":"p","n":"Amazon wschód"}
+],
+"routes":[
+  {"id":3252321,"t":{"ref":"242","name":"Bus 242: Kamieniec - Rosówek - Plac Kościuszki","from":"Kamieniec","to":"Plac Kościuszki","network":"ZDiTM Szczecin","operator":"ZDiTM Szczecin","colour":"#a2bd31","route":"bus","public_transport:version":"2"},"n":24,"s":[[2485667650,6]]},
+  {"id":3619239,"t":{"ref":"242","name":"Bus 242: Pargowo - Rosówek - Plac Kościuszki","from":"Pargowo","to":"Urząd Miasta","network":"ZDiTM Szczecin","operator":"ZDiTM Szczecin","colour":"#a2bd31","route":"bus","public_transport:version":"2"},"n":25,"s":[[2485667650,7]]},
+  {"id":3619242,"t":{"ref":"242","name":"Bus 242: Plac Kościuszki - Moczyły - Pargowo","from":"Plac Kościuszki","to":"Pargowo","network":"ZDiTM Szczecin","operator":"ZDiTM Szczecin","colour":"#a2bd31","route":"bus","public_transport:version":"2"},"n":25,"s":[[2485688622,22],[4069889289,23]]},
+  {"id":3047467875139,"t":{"ref":"242","name":"Bus 242: Plac Kościuszki - Moczyły - Kamieniec","from":"Plac Kościuszki","to":"Kamieniec","network":"ZDiTM Szczecin","operator":"ZDiTM Szczecin","colour":"#a2bd31","route":"bus","public_transport:version":"2"},"n":24,"s":[[2485688622,22],[4069889289,23]]},
+  {"id":3069032709054,"t":{"ref":"242","name":"Bus 242: Pargowo - Moczyły - Plac Kościuszki","from":"Pargowo","to":"Plac Kościuszki","network":"ZDiTM Szczecin","operator":"ZDiTM Szczecin","colour":"#a2bd31","route":"bus","public_transport:version":"2"},"n":25,"s":[[4069889290,3],[2485688621,4],[2485667650,6]]},
+  {"id":3086579281294,"t":{"ref":"242","name":"Bus 242: Kamieniec - Moczyły - Plac Kościuszki","from":"Kamieniec","to":"Plac Kościuszki","network":"ZDiTM Szczecin","operator":"ZDiTM Szczecin","colour":"#a2bd31","route":"bus","public_transport:version":"2"},"n":24,"s":[[4069889290,2],[2485688621,3],[2485667650,5]]}
+]
+}

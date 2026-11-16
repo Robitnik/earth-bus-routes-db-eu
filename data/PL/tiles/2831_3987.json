@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2831,3987],
+"stops":[
+  {"id":3085110509,"lat":51.572601,"lon":19.388887,"k":"x","n":"Budy Dłutowskie NŻ","q":1},
+  {"id":3085110510,"lat":51.594024,"lon":19.383442,"k":"x","n":"Huta Dłutowska"},
+  {"id":3085110728,"lat":51.558758,"lon":19.392163,"k":"x","n":"Dłutów Pabianicka / Polna"},
+  {"id":9776683306,"lat":51.571247,"lon":19.389209,"k":"x","n":"Budy Dłutowskie / Borkowice NŻ","q":1},
+  {"id":9776705583,"lat":51.594048,"lon":19.383468,"k":"x","n":"Huta Dłutowska"},
+  {"id":9776705620,"lat":51.590925,"lon":19.383855,"k":"x","n":"Huta Dłutowska Pabianicka /Okrężna NŻ","q":1},
+  {"id":9776705621,"lat":51.589326,"lon":19.384364,"k":"x","n":"Huta Dłutowska Pabianicka /Kolonia NŻ","q":1},
+  {"id":9776705686,"lat":51.557654,"lon":19.392428,"k":"x","n":"Dłutów Pabianicka / Łąkowa"},
+  {"id":11781151204,"lat":51.556618,"lon":19.393825,"k":"p","n":"Dłutów"},
+  {"id":11781151205,"lat":51.556576,"lon":19.393829,"k":"x","n":"Dłutów"},
+  {"id":13432553809,"lat":51.555244,"lon":19.381917,"k":"p","n":"Dłutów Główna 74A"},
+  {"id":13432553810,"lat":51.555219,"lon":19.381928,"k":"x"},
+  {"id":13433056596,"lat":51.555043,"lon":19.381027,"k":"p","n":"Dłutów Główna 74A"},
+  {"id":13433056597,"lat":51.555116,"lon":19.381017,"k":"x"},
+  {"id":5001268456765,"lat":51.557757,"lon":19.39229,"k":"p","n":"Dłutów Pabianicka / Łąkowa"},
+  {"id":5001268456766,"lat":51.558762,"lon":19.392271,"k":"p","n":"Dłutów Pabianicka / Polna"},
+  {"id":5001268456767,"lat":51.571205,"lon":19.389095,"k":"p","n":"Budy Dłutowskie / Borkowice NŻ"},
+  {"id":5001268456768,"lat":51.572646,"lon":19.389003,"k":"p","n":"Budy Dłutowskie NŻ"},
+  {"id":5001268456773,"lat":51.589351,"lon":19.38421,"k":"p","n":"Huta Dłutowska Pabianicka /Kolonia NŻ"},
+  {"id":5001268456774,"lat":51.590889,"lon":19.38397,"k":"p","n":"Huta Dłutowska Pabianicka /Okrężna NŻ"},
+  {"id":5001268456775,"lat":51.593997,"lon":19.383479,"k":"p","n":"Huta Dłutowska"},
+  {"id":5001268456776,"lat":51.594051,"lon":19.383396,"k":"p","n":"Huta Dłutowska"}
+],
+"routes":[
+  {"id":6299426,"t":{"ref":"265","name":"265: Piłsudskiego → Dłutów","from":"Piłsudskiego","to":"Dłutów","network":"Lokalna Komunikacja Autobusowa w Pabianicach","operator":"MZK Pabianice","route":"bus","public_transport:version":"2"},"n":19,"s":[[5001268456776,15],[5001268456773,16],[5001268456767,17],[5001268456765,18],[11781151204,19]]},
+  {"id":6299427,"t":{"ref":"265","name":"265: Dłutów → Sikorskiego","from":"Dłutów","to":"Sikorskiego","network":"Lokalna Komunikacja Autobusowa w Pabianicach","operator":"MZK Pabianice","route":"bus","public_transport:version":"2"},"n":20,"s":[[11781151204,1],[5001268456766,2],[5001268456768,3],[5001268456774,4],[5001268456775,5]]},
+  {"id":6299428,"t":{"ref":"265","name":"265: Sikorskiego → Dłutów","from":"Sikorskiego","to":"Dłutów","network":"Lokalna Komunikacja Autobusowa w Pabianicach","operator":"MZK Pabianice","route":"bus","public_transport:version":"2"},"n":21,"s":[[5001268456776,17],[5001268456773,18],[5001268456767,19],[5001268456765,20],[11781151204,21]]},
+  {"id":6299429,"t":{"ref":"265","name":"265: Dworzec PKP → Dłutów","from":"Dworzec PKP","to":"Dłutów","network":"Lokalna Komunikacja Autobusowa w Pabianicach","operator":"MZK Pabianice","route":"bus","public_transport:version":"2"},"n":20,"s":[[5001268456776,16],[5001268456773,17],[5001268456767,18],[5001268456765,19],[11781151204,20]]},
+  {"id":6299430,"t":{"ref":"265","name":"265: Dłutów → Piłsudskiego","from":"Dłutów","to":"Piłsudskiego","network":"Lokalna Komunikacja Autobusowa w Pabianicach","operator":"MZK Pabianice","route":"bus","public_transport:version":"2"},"n":18,"s":[[11781151204,1],[5001268456766,2],[5001268456768,3],[5001268456774,4],[5001268456775,5]]},
+  {"id":6299431,"t":{"ref":"265","name":"265: Dłutów → Dworzec PKP","from":"Dłutów","to":"Dworzec PKP","network":"Lokalna Komunikacja Autobusowa w Pabianicach","operator":"MZK Pabianice","route":"bus","public_transport:version":"2"},"n":21,"s":[[11781151204,1],[5001268456766,2],[5001268456768,3],[5001268456774,4],[5001268456775,5]]},
+  {"id":20050206,"t":{"ref":"ŁA14","name":"ŁA14: Dłutów → Pabianice","from":"Dłutów","to":"Pabianice","network":"ŁKA","operator":"Łódzka Kolej Aglomeracyjna","colour":"#39bdef","route":"bus"},"n":26,"s":[[11781151204,1],[13432553809,2]]},
+  {"id":20051377,"t":{"ref":"ŁA14","name":"ŁA14: Pabianice → Dłutów","from":"Pabianice","to":"Dłutów","network":"ŁKA","operator":"Łódzka Kolej Aglomeracyjna","colour":"#39bdef","route":"bus"},"n":27,"s":[[13433056596,25],[11781151204,26]]}
+]
+}

@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2845,4024],
+"stops":[
+  {"id":2497911241,"lat":52.250541,"lon":21.224278,"k":"p","n":"Armii Krajowej 01","ref":"228201"},
+  {"id":2497911244,"lat":52.250395,"lon":21.224705,"k":"p","n":"Armii Krajowej 02","ref":"228202"},
+  {"id":2497911246,"lat":52.250174,"lon":21.231985,"k":"p","n":"Chodkiewicza 01","ref":"228301"},
+  {"id":2596053030,"lat":52.250572,"lon":21.22319,"k":"p","n":"Armii Krajowej 05","ref":"228205"},
+  {"id":2596053045,"lat":52.251149,"lon":21.217402,"k":"p","n":"Moniuszki 02","ref":"234302"},
+  {"id":2596053049,"lat":52.253777,"lon":21.223477,"k":"p","n":"PKP Wesoła 01","ref":"234401"},
+  {"id":2597115815,"lat":52.251163,"lon":21.223629,"k":"p","n":"Armii Krajowej 03","ref":"228203"},
+  {"id":3030308444,"lat":52.250481,"lon":21.224268,"k":"x","n":"Armii Krajowej 01","ref":"228201"},
+  {"id":3030308445,"lat":52.250457,"lon":21.224851,"k":"x","n":"Armii Krajowej 02","ref":"228202"},
+  {"id":3030308449,"lat":52.250109,"lon":21.232058,"k":"x","n":"Chodkiewicza 01","ref":"228301"},
+  {"id":3030308450,"lat":52.250046,"lon":21.23345,"k":"x","n":"Chodkiewicza 02","ref":"228302"},
+  {"id":3030308491,"lat":52.250533,"lon":21.223176,"k":"x","n":"Armii Krajowej 05","ref":"228205"},
+  {"id":3030308492,"lat":52.251115,"lon":21.22373,"k":"x","n":"Armii Krajowej 03","ref":"228203"},
+  {"id":3030308493,"lat":52.253854,"lon":21.223487,"k":"x","n":"PKP Wesoła 01","ref":"234401"},
+  {"id":5032685848,"lat":52.254469,"lon":21.224982,"k":"x","n":"PKP Wesoła 04","ref":"234404"},
+  {"id":5032685851,"lat":52.254731,"lon":21.221675,"k":"p","n":"PKP Wesoła 03","ref":"234403"},
+  {"id":6234690827,"lat":52.251153,"lon":21.21733,"k":"x","n":"Moniuszki 02","ref":"234302"},
+  {"id":6010824206003,"lat":52.253891,"lon":21.226017,"k":"p","n":"PKP Wesoła","g":1},
+  {"id":6092918511937,"lat":52.250361,"lon":21.23281,"k":"p","n":"Chodkiewicza","g":1}
+],
+"routes":[
+  {"id":3005662479557,"t":{"ref":"198","name":"Bus 198: PKP Wesoła => Stara Miłosna (Ułańska)","from":"PKP Wesoła","to":"Stara Miłosna (Ułańska)","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":15,"s":[[6010824206003,1],[3030308449,2],[3030308444,3]]},
+  {"id":3017699034653,"t":{"ref":"514","name":"Bus 514: Metro Politechnika => Wola Grzybowska","from":"Metro Politechnika","to":"Wola Grzybowska","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":33,"s":[[2497911244,30]]},
+  {"id":3018247387255,"t":{"ref":"198","name":"Bus 198: Stara Miłosna (Ułańska) => PKP Wesoła","from":"Stara Miłosna (Ułańska)","to":"PKP Wesoła","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":16,"s":[[2497911244,14],[6092918511937,15],[6010824206003,16]]},
+  {"id":3028217653368,"t":{"ref":"173","name":"Bus 173: Dw. Wschodni (Lubelska) => Stara Miłosna (Graniczna)","from":"Dw. Wschodni (Lubelska)","to":"Stara Miłosna (Graniczna)","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":38,"s":[[2497911244,35]]},
+  {"id":3033041230028,"t":{"ref":"198","name":"Bus 198: PKP Wesoła => Narutowicza => Stara Miłosna (Ułańska)","from":"PKP Wesoła","to":"Stara Miłosna (Ułańska)","network":"ZTM Warszawa","route":"bus","public_transport:version":"2"},"n":19,"s":[[6010824206003,1],[3030308449,2],[3030308444,3]]},
+  {"id":3040331371048,"t":{"ref":"173","name":"Bus 173: Dw. Wschodni (Lubelska) => Stara Miłosna (Graniczna)","from":"Dw. Wschodni (Lubelska)","to":"Stara Miłosna (Graniczna)","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":36,"s":[[2497911244,19]]},
+  {"id":3043260640006,"t":{"ref":"173","name":"Bus 173: Stara Miłosna (Graniczna) => Dw. Wschodni (Lubelska)","from":"Stara Miłosna (Graniczna)","to":"Dw. Wschodni (Lubelska)","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":51,"s":[[3030308449,19],[3030308444,20]]},
+  {"id":3052054325837,"t":{"ref":"173","name":"Bus 173: Stara Miłosna (Graniczna) => Dw. Wschodni (Lubelska)","from":"Stara Miłosna (Graniczna)","to":"Dw. Wschodni (Lubelska)","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":50,"s":[[3030308449,19],[3030308444,20]]},
+  {"id":3054553063902,"t":{"ref":"198","name":"Bus 198: Stara Miłosna (Ułańska) => Narutowicza => PKP Wesoła","from":"Stara Miłosna (Ułańska)","to":"PKP Wesoła","network":"ZTM Warszawa","route":"bus","public_transport:version":"2"},"n":19,"s":[[2497911244,17],[6092918511937,18],[6010824206003,19]]},
+  {"id":3066211854926,"t":{"ref":"514","name":"Bus 514: Metro Politechnika => Wola Grzybowska","from":"Metro Politechnika","to":"Wola Grzybowska","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":21,"s":[[2497911244,18]]},
+  {"id":3066816426586,"t":{"ref":"514","name":"Bus 514: Wola Grzybowska => Metro Politechnika","from":"Wola Grzybowska","to":"Metro Politechnika","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":32,"s":[[3030308449,4],[3030308444,5]]},
+  {"id":3069156819921,"t":{"ref":"173","name":"Bus 173: Dw. Wschodni (Lubelska) => Stara Miłosna (Graniczna)","from":"Dw. Wschodni (Lubelska)","to":"Stara Miłosna (Graniczna)","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":52,"s":[[2497911244,35]]},
+  {"id":3074209881664,"t":{"ref":"N71","name":"Bus N71: Dworzec Centralny => Wola Grzybowska","from":"Dworzec Centralny","to":"Wola Grzybowska","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":52,"s":[[2497911244,49]]},
+  {"id":3074481918894,"t":{"ref":"N71","name":"Bus N71: Wola Grzybowska => Dworzec Centralny","from":"Wola Grzybowska","to":"Dworzec Centralny","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":49,"s":[[3030308449,4],[3030308444,5]]},
+  {"id":3084908346553,"t":{"ref":"514","name":"Bus 514: Wola Grzybowska => Metro Politechnika","from":"Wola Grzybowska","to":"Metro Politechnika","network":"ZTM Warszawa","operator":"Zarząd Transportu Miejskiego w Warszawie","route":"bus","public_transport:version":"2"},"n":19,"s":[[3030308449,4],[3030308444,5]]}
+]
+}

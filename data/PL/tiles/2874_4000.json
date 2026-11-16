@@ -1,0 +1,34 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2874,4000],
+"stops":[
+  {"id":2266827395,"lat":53.743946,"lon":20.000271,"k":"x","n":"Warlity Wielkie Pętla","ref":"090-01"},
+  {"id":2266828881,"lat":53.727195,"lon":20.015483,"k":"x","n":"Osiedle Leśne","ref":"066-01"},
+  {"id":3521742302,"lat":53.708447,"lon":20.04638,"k":"p"},
+  {"id":11522146498,"lat":53.725207,"lon":20.011774,"k":"x","n":"Nowosiółki Osiedle S","ref":"158-01","q":1},
+  {"id":11522146503,"lat":53.725089,"lon":20.011276,"k":"x","n":"Nowosiółki Osiedle N","ref":"058-01","q":1},
+  {"id":11522146509,"lat":53.724165,"lon":20.006683,"k":"x","n":"Leśniczówka S","ref":"148-01","q":1},
+  {"id":11522146510,"lat":53.724062,"lon":20.006172,"k":"x","n":"Leśniczówka N","ref":"048-01","q":1},
+  {"id":12877444441,"lat":53.70131,"lon":20.02296,"k":"x"},
+  {"id":12877444479,"lat":53.70136,"lon":20.023021,"k":"p"},
+  {"id":5001240186304,"lat":53.727168,"lon":20.015559,"k":"p","n":"Osiedle Leśne"},
+  {"id":5001240186306,"lat":53.725176,"lon":20.011766,"k":"p","n":"Nowosiółki Osiedle S"},
+  {"id":5001240186307,"lat":53.725104,"lon":20.011208,"k":"p","n":"Nowosiółki Osiedle N"},
+  {"id":5001240186308,"lat":53.724143,"lon":20.006732,"k":"p","n":"Leśniczówka S"},
+  {"id":5001240186309,"lat":53.724087,"lon":20.006135,"k":"p","n":"Leśniczówka N"},
+  {"id":5001240266464,"lat":53.743908,"lon":20.00028,"k":"p","n":"Warlity Wielkie Pętla"}
+],
+"routes":[
+  {"id":2868830,"t":{"ref":"3","name":"3: Grunwaldzka ZKM => Osiedle Leśne via Łódzka","from":"Grunwaldzka ZKM","to":"Osiedle Leśne","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":27,"s":[[5001240186308,25],[5001240186306,26],[5001240186304,27]]},
+  {"id":2870657,"t":{"ref":"4","name":"4: Warlity Wielkie => Grunwaldzka ZKM","from":"Warlity Wielkie Pętla","to":"Grunwaldzka ZKM","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":23,"s":[[5001240266464,1],[5001240186308,3],[5001240186306,4],[5001240186304,5],[5001240186307,6],[5001240186309,7]]},
+  {"id":17037182,"t":{"ref":"3","name":"3: Grunwaldzka ZKM => Warlity Wielkie","from":"Grunwaldzka ZKM","to":"Warlity Wielkie Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":30,"s":[[5001240186308,24],[5001240186306,25],[5001240186304,26],[5001240186307,27],[5001240186309,28],[5001240266464,30]]},
+  {"id":17037483,"t":{"ref":"3","name":"3: Osiedle Leśne => Nad Jarem","from":"Osiedle Leśne","to":"Nad Jarem Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":19,"s":[[5001240186304,1],[5001240186307,2],[5001240186309,3]]},
+  {"id":17037484,"t":{"ref":"3","name":"3: Warlity Wielkie => Grunwaldzka ZKM","from":"Warlity Wielkie Pętla","to":"Grunwaldzka ZKM","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":24,"s":[[5001240266464,1]]},
+  {"id":17039210,"t":{"ref":"3Św","name":"3Św: Warlity Wielkie => Nad Jarem","from":"Warlity Wielkie Pętla","to":"Nad Jarem Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":28,"s":[[5001240266464,1],[5001240186308,3],[5001240186306,4],[5001240186304,5],[5001240186307,6],[5001240186309,7]]},
+  {"id":17039221,"t":{"ref":"3Św","name":"3Św: Nad Jarem => Warlity Wielkie","from":"Nad Jarem Pętla","to":"Warlity Wielkie Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":23,"s":[[5001240266464,23]]},
+  {"id":17039780,"t":{"ref":"4","name":"4: Grunwaldzka ZKM => Warlity Wielkie via Łódzka","from":"Grunwaldzka ZKM","to":"Warlity Wielkie Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":19,"s":[[5001240266464,19]]},
+  {"id":17039781,"t":{"ref":"4","name":"4: Chrobrego => Warlity Wielkie via Cmentarz","from":"Chrobrego Pętla","to":"Warlity Wielkie Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":18,"s":[[5001240266464,18]]},
+  {"id":17039782,"t":{"ref":"4","name":"4: Chrobrego => Warlity Wielkie","from":"Chrobrego Pętla","to":"Warlity Wielkie Pętla","network":"Ostróda","operator":"Żegluga Ostródzko-Elbląska","route":"bus","public_transport:version":"2"},"n":17,"s":[[5001240266464,17]]}
+]
+}

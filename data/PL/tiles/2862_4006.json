@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2862,4006],
+"stops":[
+  {"id":7249772996,"lat":53.126749,"lon":20.335022,"k":"x","n":"Pętla Żuromińska"},
+  {"id":11254862561,"lat":53.133513,"lon":20.343082,"k":"x","n":"Gdyńska - LOK"},
+  {"id":11254862562,"lat":53.134039,"lon":20.342769,"k":"x","n":"Gdyńska - LOK"},
+  {"id":11254862563,"lat":53.134034,"lon":20.342885,"k":"p","n":"Gdyńska - LOK"},
+  {"id":11254862564,"lat":53.133495,"lon":20.342949,"k":"p","n":"Gdyńska - LOK"},
+  {"id":11254862567,"lat":53.145165,"lon":20.334297,"k":"x","n":"Turystyczna"},
+  {"id":11254862568,"lat":53.145144,"lon":20.334261,"k":"p","n":"Turystyczna"},
+  {"id":11255021514,"lat":53.127639,"lon":20.342283,"k":"x","n":"Żuromińska"},
+  {"id":11255021515,"lat":53.127679,"lon":20.342224,"k":"p","n":"Żuromińska"},
+  {"id":11255021516,"lat":53.127512,"lon":20.34129,"k":"x","n":"Żuromińska"},
+  {"id":11255021517,"lat":53.127456,"lon":20.341317,"k":"p","n":"Żuromińska"},
+  {"id":11255021518,"lat":53.126742,"lon":20.334885,"k":"p","n":"Pętla Żuromińska"},
+  {"id":11259481905,"lat":53.125558,"lon":20.34691,"k":"x","n":"Moniuszki"},
+  {"id":11259481906,"lat":53.12541,"lon":20.346746,"k":"x","n":"Moniuszki"},
+  {"id":11259481907,"lat":53.125579,"lon":20.34685,"k":"p","n":"Moniuszki"},
+  {"id":11259481908,"lat":53.12539,"lon":20.346812,"k":"p","n":"Moniuszki"},
+  {"id":12736235742,"lat":53.1242,"lon":20.320229,"k":"x","n":"Parcele Łomskie II"},
+  {"id":12736235782,"lat":53.123965,"lon":20.321945,"k":"p","n":"Parcele Łomskie II"},
+  {"id":12736235785,"lat":53.122477,"lon":20.306057,"k":"p","n":"Parcele Łomskie I"},
+  {"id":12736252959,"lat":53.122455,"lon":20.306127,"k":"x","n":"Parcele Łomskie I"},
+  {"id":12736252961,"lat":53.122601,"lon":20.30715,"k":"p","n":"Parcele Łomskie I"},
+  {"id":12736252994,"lat":53.124029,"lon":20.322006,"k":"x","n":"Parcele Łomskie II"},
+  {"id":12736253007,"lat":53.122618,"lon":20.307065,"k":"x","n":"Parcele Łomskie I"},
+  {"id":12736253061,"lat":53.124275,"lon":20.320163,"k":"p","n":"Parcele Łomskie II"}
+],
+"routes":[
+  {"id":16464201,"t":{"ref":"1","name":"Bus 1 Wójtostwo => Turystyczna","from":"Wójtostwo","to":"Turystyczna","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":26,"s":[[11254862563,25],[11254862568,26]]},
+  {"id":16469186,"t":{"ref":"1","name":"Bus 1 Turystyczna => Wójtostwo","from":"Turystyczna","to":"Wójtostwo","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":26,"s":[[11254862568,1],[11254862564,2]]},
+  {"id":16469476,"t":{"ref":"2","name":"Bus 2 Szreńska => Pętla Żuromińska","from":"Szreńska","to":"Pętla Żuromińska","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":20,"s":[[11255021515,19],[11255021518,20]]},
+  {"id":16469477,"t":{"ref":"2","name":"Bus 2 Pętla Żuromińska => Szreńska","from":"Pętla Żuromińska","to":"Szreńska","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":19,"s":[[11255021517,18],[11255021518,19]]},
+  {"id":16479398,"t":{"ref":"3","name":"Bus 3 Krajewo => Pętla Nowowiejska","from":"Krajewo","to":"Pętla Nowowiejska","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":30,"s":[[11259481907,13]]},
+  {"id":16479399,"t":{"ref":"3","name":"Bus 3 Pętla Nowowiejska => Krajewo","from":"Pętla Nowowiejska","to":"Krajewo","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":29,"s":[[11259481908,13]]},
+  {"id":16480598,"t":{"ref":"4","name":"Bus 4 Cegielnia => Kolejowa","from":"Cegielnia","to":"Kolejowa","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":18,"s":[[11259481907,15]]},
+  {"id":16480599,"t":{"ref":"4","name":"Bus 4 Kolejowa => Cegielnia","from":"Kolejowa","to":"Cegielnia","network":"Mławska Komunikacja Miejska","operator":"Urząd Miasta Mława","route":"bus"},"n":18,"s":[[11259481906,15]]},
+  {"id":18955778,"t":{"ref":"P III","name":"Bus P III: Żuromin => Mława","from":"Żuromin D.A.","to":"Mława Dworzec PKP Mława Miasto","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":23,"s":[[12736252961,20],[12736235782,21]]},
+  {"id":18955779,"t":{"ref":"P III","name":"Bus P III: Mława => Żuromin","from":"Mława Dworzec PKP Mława Miasto","to":"Żuromin D.A.","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":22,"s":[[12736253061,3],[12736235785,4]]}
+]
+}

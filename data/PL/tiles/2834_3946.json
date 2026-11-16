@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2834,3946],
+"stops":[
+  {"id":4625989598,"lat":51.71353,"lon":17.344836,"k":"p","n":"Dzierżanów","ref":"99"},
+  {"id":4701892933,"lat":51.731988,"lon":17.311174,"k":"p","n":"Kuklinów Wieś"},
+  {"id":4701892934,"lat":51.73211,"lon":17.313476,"k":"p","n":"Kuklinów Wieś"},
+  {"id":4701894935,"lat":51.733106,"lon":17.314286,"k":"p","n":"Kuklinów boisko"},
+  {"id":4701894936,"lat":51.733069,"lon":17.314577,"k":"p","n":"Kuklinów boisko"},
+  {"id":4701897252,"lat":51.732913,"lon":17.316043,"k":"p","n":"Kuklinów","ref":"97"},
+  {"id":4701900891,"lat":51.734214,"lon":17.324364,"k":"p","n":"Kuklinów Szkoła","ref":"337"},
+  {"id":4825810412,"lat":51.749342,"lon":17.307013,"k":"p","n":"Niepomucenów wieś"},
+  {"id":13279629497,"lat":51.734166,"lon":17.32437,"k":"x","n":"Kuklinów Szkoła"},
+  {"id":13279629498,"lat":51.732864,"lon":17.316106,"k":"x","n":"Kuklinów"},
+  {"id":13279629499,"lat":51.718417,"lon":17.321602,"k":"p","n":"Rojew PKP","ref":"338"},
+  {"id":13279629500,"lat":51.718429,"lon":17.321648,"k":"x","n":"Rojew PKP"},
+  {"id":13279631209,"lat":51.713027,"lon":17.332105,"k":"p","n":"Rojew","ref":"339"},
+  {"id":13279631210,"lat":51.713071,"lon":17.332107,"k":"x","n":"Rojew"},
+  {"id":13279631232,"lat":51.713532,"lon":17.344767,"k":"x","n":"Dzierżanów"},
+  {"id":13288506820,"lat":51.731907,"lon":17.311194,"k":"x","n":"Kuklinów Wieś"},
+  {"id":13288506824,"lat":51.732201,"lon":17.31345,"k":"x","n":"Kuklinów Wieś"}
+],
+"routes":[
+  {"id":19793975,"t":{"ref":"3","name":"3: Krotoszyn Mały Rynek => Kuklinów","from":"Krotoszyn Mały Rynek","to":"Kuklinów","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":12,"s":[[4701900891,11],[4701897252,12]]},
+  {"id":19793976,"t":{"ref":"3","name":"3: Krotoszyn Mały Rynek => Kuklinów via Krotoszyn Jagiełły/Szosa Benicka","from":"Krotoszyn Mały Rynek","to":"Kuklinów","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":18,"s":[[4701900891,17],[4701897252,18]]},
+  {"id":19793977,"t":{"ref":"3","name":"3: Krotoszyn Mały Rynek => Kuklinów via Krotoszyn Jagiełły","from":"Krotoszyn Mały Rynek","to":"Kuklinów","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":13,"s":[[4701900891,12],[4701897252,13]]},
+  {"id":19793978,"t":{"ref":"3","name":"3: Krotoszyn Mały Rynek => Kuklinów via Krotoszyn Szosa Benicka","from":"Krotoszyn Mały Rynek","to":"Kuklinów","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":17,"s":[[4701900891,16],[4701897252,17]]},
+  {"id":19793982,"t":{"ref":"3","name":"3: Kuklinów => Krotoszyn Bolewskiego II","from":"Kuklinów","to":"Krotoszyn Bolewskiego II","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":22,"s":[[4701897252,1],[13279629499,2],[13279631209,3],[4625989598,4]]},
+  {"id":19793983,"t":{"ref":"3","name":"3: Kuklinów => Krotoszyn Floriańska via Krotoszyn Jagiełły","from":"Kuklinów","to":"Krotoszyn Floriańska","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":19,"s":[[4701897252,1],[13279629499,2],[13279631209,3],[4625989598,4]]},
+  {"id":19793984,"t":{"ref":"3","name":"3: Kuklinów => Krotoszyn Floriańska","from":"Kuklinów","to":"Krotoszyn Floriańska","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":13,"s":[[4701897252,1],[13279629499,2],[13279631209,3],[4625989598,4]]},
+  {"id":19793985,"t":{"ref":"3","name":"3: Kuklinów => Krotoszyn Floriańska via Krotoszyn Szosa Benicka","from":"Kuklinów","to":"Krotoszyn Floriańska","network":"MZK Krotoszyn","operator":"MZK Krotoszyn","route":"bus","public_transport:version":"2"},"n":18,"s":[[4701897252,1],[13279629499,2],[13279631209,3],[4625989598,4]]},
+  {"id":19805306,"t":{"ref":"X","name":"X: Krotoszyn Mały Rynek => Kobylin PKP","from":"Krotoszyn Mały Rynek","to":"Kobylin Dworcowa PKP","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":10,"s":[[4701892933,6]]},
+  {"id":19805307,"t":{"ref":"X","name":"X: Krotoszyn Mały Rynek => Smolice","from":"Krotoszyn Mały Rynek","to":"Smolice Staw","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":12,"s":[[4701892933,6]]},
+  {"id":19805308,"t":{"ref":"X","name":"X: Krotoszyn Mały Rynek => Smolice via Kobylin PKP","from":"Krotoszyn Mały Rynek","to":"Smolice Staw","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":13,"s":[[4701892933,6]]},
+  {"id":19805309,"t":{"ref":"X","name":"X: Kobylin PKP => Krotoszyn Mały Rynek","from":"Kobylin Dworcowa PKP","to":"Krotoszyn Mały Rynek","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":10,"s":[[4701892934,5]]},
+  {"id":19805591,"t":{"ref":"X","name":"X: Smolice => Krotoszyn Mały Rynek","from":"Smolice Staw","to":"Krotoszyn Mały Rynek","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":13,"s":[[4701892934,8]]},
+  {"id":19805592,"t":{"ref":"X","name":"X: Smolice => Krotoszyn Zdunowska LO","from":"Smolice Staw","to":"Krotoszyn Zdunowska II","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":14,"s":[[4701892934,8]]}
+]
+}

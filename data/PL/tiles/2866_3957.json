@@ -1,0 +1,24 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2866,3957],
+"stops":[
+  {"id":5018608313,"lat":53.344153,"lon":17.864732,"k":"p","n":"Buszkowo / Kościół"},
+  {"id":5018608314,"lat":53.34347,"lon":17.866447,"k":"p","n":"Buszkowo / Kościół"},
+  {"id":5018620642,"lat":53.340611,"lon":17.875981,"k":"p","n":"Buszkowo / Wybudowanie"},
+  {"id":5018620643,"lat":53.340166,"lon":17.877093,"k":"p","n":"Buszkowo / Wybudowanie"},
+  {"id":5019699139,"lat":53.304988,"lon":17.884136,"k":"p","n":"Więzowno"},
+  {"id":5019699140,"lat":53.305038,"lon":17.883799,"k":"p","n":"Więzowno"},
+  {"id":12174920453,"lat":53.300781,"lon":17.875991,"k":"p","n":"Więzowno I"},
+  {"id":12174920454,"lat":53.300957,"lon":17.876668,"k":"p","n":"Więzowno I"}
+],
+"routes":[
+  {"id":18041400,"t":{"ref":"GK2","name":"Autobus GK2: Wiskitno => Koronowo","from":"Wiskitno","to":"Koronowo, Dworzec Autobusowy","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":25,"s":[[12174920454,18],[5019699139,24]]},
+  {"id":18041401,"t":{"ref":"GK2","name":"Autobus GK2: Koronowo => Wiskitno","from":"Koronowo, Dworzec Autobusowy","to":"Wiskitno","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":25,"s":[[12174920453,18],[5019699140,24]]},
+  {"id":18165765,"t":{"ref":"21466","name":"PKS Linia 21466: Mąkowarsko => Bydgoszcz","from":"Mąkowarsko","to":"Bydgoszcz","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":39,"s":[[5018608314,6],[5018620643,7]]},
+  {"id":18165766,"t":{"ref":"21466","name":"PKS Linia 21466: Bydgoszcz => Mąkowarsko","from":"Bydgoszcz","to":"Mąkowarsko","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":37,"s":[[5018620642,16],[5018608313,18]]},
+  {"id":18167141,"t":{"ref":"21468","name":"PKS Linia 21468: Sępólno Krajeńskie => Bydgoszcz","from":"Sępólno Krajeńskie","to":"Bydgoszcz","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":47,"s":[[5018620643,41],[5018608314,42]]},
+  {"id":18167142,"t":{"ref":"21468","name":"PKS Linia 21468: Bydgoszcz => Sępólno Krajeńskie","from":"Bydgoszcz","to":"Sępólno Krajeńskie","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":48,"s":[[5018620642,16],[5018608313,17]]},
+  {"id":18810500,"t":{"ref":"GK1","name":"Autobus GK1: Koronowo => Koronowo","from":"Koronowo, Dworzec Autobusowy","to":"Koronowo, Dworzec Autobusowy","network":"Gmina Koronowo","operator":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":21,"s":[[12174920453,15],[5019699140,21]]}
+]
+}

@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2800,4014],
+"stops":[
+  {"id":5760556292,"lat":50.003535,"lon":20.744565,"k":"p"},
+  {"id":12248317321,"lat":50.006656,"lon":20.700137,"k":"p","n":"Wokowice - Szkoła","q":1},
+  {"id":13868355786,"lat":50.003418,"lon":20.736571,"k":"x","n":"Biadoliny Szlacheckie","q":1},
+  {"id":13868355787,"lat":50.003448,"lon":20.736566,"k":"p","n":"Biadoliny Szlacheckie","q":1},
+  {"id":13868355788,"lat":50.003426,"lon":20.736692,"k":"x","n":"Biadoliny Szlacheckie","q":1},
+  {"id":13868355789,"lat":50.003393,"lon":20.736689,"k":"p","n":"Biadoliny Szlacheckie","q":1},
+  {"id":13868561771,"lat":50.006704,"lon":20.700233,"k":"x","n":"Wokowice - Szkoła"}
+],
+"routes":[
+  {"id":18158615,"t":{"ref":"5","name":"5: Brzesko Szpital => Wokowice-Szkoła","from":"Brzesko Szpital","to":"Wokowice-Szkoła","route":"bus","public_transport:version":"2"},"n":17,"s":[[12248317321,17]]},
+  {"id":18158616,"t":{"ref":"5","name":"5: Wokowice-Szkoła => Brzesko Szpital","from":"Wokowice-Szkoła","to":"Brzesko Szpital","route":"bus","public_transport:version":"2"},"n":17,"s":[[12248317321,1]]},
+  {"id":20736515,"t":{"ref":"A26","name":"MLD – A26: Tarnów => Biadoliny Szlacheckie => Bochnia","from":"Tarnów Szkotnik - Plac","to":"Bochnia pl. Gen. Kazimierza Pułaskiego","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#415eaa","route":"bus","public_transport:version":"2"},"n":66,"s":[[13868355787,41]]},
+  {"id":20736516,"t":{"ref":"A26","name":"MLD – A26: Bochnia => Biadoliny Szlacheckie => Tarnów","from":"Bochnia pl. Gen. Kazimierza Pułaskiego","to":"Tarnów Szkotnik - Plac","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#415eaa","route":"bus","public_transport:version":"2"},"n":66,"s":[[12248317321,25],[13868355789,26]]},
+  {"id":20736842,"t":{"ref":"A26","name":"MLD – A26: Tarnów => Biadoliny Szlacheckie","from":"Tarnów Szkotnik - Plac","to":"Biadoliny Szlacheckie","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#415eaa","route":"bus","public_transport:version":"2"},"n":41,"s":[[13868355787,41]]},
+  {"id":20736843,"t":{"ref":"A26","name":"MLD – A26: Biadoliny Szlacheckie => Tarnów","from":"Biadoliny Szlacheckie","to":"Tarnów Szkotnik - Plac","network":"Małopolskie Linie Dowozowe","operator":"Koleje Małopolskie","colour":"#415eaa","route":"bus","public_transport:version":"2"},"n":41,"s":[[13868355789,1]]}
+]
+}

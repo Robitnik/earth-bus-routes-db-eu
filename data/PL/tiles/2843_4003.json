@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2843,4003],
+"stops":[
+  {"id":5336373927,"lat":52.187502,"lon":20.198478,"k":"p","n":"Kozłów Kornelin 02","ref":"501902"},
+  {"id":5336373929,"lat":52.187007,"lon":20.199278,"k":"p","n":"Kozłów Kornelin 01","ref":"501901"},
+  {"id":5336373930,"lat":52.186992,"lon":20.199239,"k":"x","n":"Kozłów Kornelin 01","ref":"501901"},
+  {"id":5336373934,"lat":52.192228,"lon":20.192906,"k":"p","n":"Kozłów Biskupi 02","ref":"502002"},
+  {"id":5336373935,"lat":52.19219,"lon":20.192948,"k":"x","n":"Kozłów Biskupi 02","ref":"502002"},
+  {"id":5336373936,"lat":52.19235,"lon":20.193476,"k":"p","n":"Kozłów Biskupi 01","ref":"502001"},
+  {"id":5336373937,"lat":52.192392,"lon":20.193432,"k":"x","n":"Kozłów Biskupi 01","ref":"502001"},
+  {"id":10009811870,"lat":52.199315,"lon":20.170024,"k":"p"},
+  {"id":10633381953,"lat":52.157671,"lon":20.176538,"k":"p","n":"Nowa Sucha 705"},
+  {"id":10633381954,"lat":52.156819,"lon":20.176523,"k":"p","n":"Nowa Sucha 705"},
+  {"id":10633381956,"lat":52.15985,"lon":20.176221,"k":"x","n":"Nowa Sucha Biblioteka"},
+  {"id":10633381957,"lat":52.160206,"lon":20.16937,"k":"p","n":"Nowa Sucha Urząd Gminy"},
+  {"id":10871072399,"lat":52.165514,"lon":20.182061,"k":"x","n":"Nowy Żylin"},
+  {"id":10871072400,"lat":52.165486,"lon":20.182153,"k":"p","n":"Nowy Żylin"},
+  {"id":12347031991,"lat":52.187531,"lon":20.198533,"k":"x","n":"Kozłów Kornelin 02","ref":"501902"},
+  {"id":12618996476,"lat":52.199672,"lon":20.190773,"k":"x"},
+  {"id":12618996477,"lat":52.19954,"lon":20.191645,"k":"x"},
+  {"id":12947234479,"lat":52.159796,"lon":20.176113,"k":"p","n":"Nowa Sucha Biblioteka"}
+],
+"routes":[
+  {"id":7896619,"t":{"ref":"4","name":"4: Chodaków Okrąglak => Energomontaż via Kozłów Biskupi","from":"Chodaków Okrąglak","to":"Energomontaż","network":"Sochaczew","operator":"ZKM Sochaczew","route":"bus","public_transport:version":"2"},"n":24,"s":[[5336373929,18],[5336373936,19]]},
+  {"id":7896621,"t":{"ref":"4","name":"4: Energomontaż => Chodaków Okrąglak via Kozłów Biskupi","from":"Energomontaż","to":"Chodaków Okrąglak","network":"Sochaczew","operator":"ZKM Sochaczew","route":"bus","public_transport:version":"2"},"n":24,"s":[[5336373934,2],[5336373927,3]]},
+  {"id":7896719,"t":{"ref":"7","name":"7: Korczaka => Energomontaż","from":"Korczaka","to":"Energomontaż","network":"Sochaczew","operator":"ZKM Sochaczew","route":"bus","public_transport:version":"2"},"n":28,"s":[[5336373929,26],[5336373936,27]]},
+  {"id":7896720,"t":{"ref":"7","name":"7: Energomontaż => Korczaka","from":"Energomontaż","to":"Korczaka","network":"Sochaczew","operator":"ZKM Sochaczew","route":"bus","public_transport:version":"2"},"n":28,"s":[[5336373934,2],[5336373927,3]]},
+  {"id":15456080,"t":{"from":"Sochaczew PKP","to":"Kozłów Szlachecki Kościół","operator":"Gmina Nowa Sucha","route":"bus"},"n":14,"s":[[10633381953,9],[10633381956,10],[10633381957,11]]},
+  {"id":17038287,"t":{"from":"Kozłów Szlachecki Kościół","to":"Sochaczew PKP","operator":"Gmina Nowa Sucha","route":"bus"},"n":13,"s":[[10633381956,2],[10633381954,3]]}
+]
+}

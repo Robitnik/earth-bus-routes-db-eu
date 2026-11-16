@@ -1,0 +1,39 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2839,4030],
+"stops":[
+  {"id":4448441461,"lat":51.961497,"lon":21.513697,"k":"p"},
+  {"id":4448441495,"lat":51.961751,"lon":21.512484,"k":"p"},
+  {"id":4449725163,"lat":51.957196,"lon":21.544893,"k":"p","n":"Pilawa/Lipówki"},
+  {"id":4449725292,"lat":51.957514,"lon":21.542786,"k":"p","n":"Pilawa/Lipówki"},
+  {"id":8640012143,"lat":51.987346,"lon":21.549754,"k":"p","n":"Gocław"},
+  {"id":8640012144,"lat":51.988239,"lon":21.549446,"k":"p","n":"Gocław"},
+  {"id":10176020062,"lat":51.955355,"lon":21.5349,"k":"p","n":"Pilawa PKP"},
+  {"id":12612857508,"lat":51.957164,"lon":21.533296,"k":"x","n":"Pilawa PKP"},
+  {"id":12612857509,"lat":51.957175,"lon":21.533359,"k":"p","n":"Pilawa PKP"},
+  {"id":12612857510,"lat":51.957127,"lon":21.533259,"k":"p","n":"Pilawa PKP"},
+  {"id":12612857558,"lat":51.957133,"lon":21.533311,"k":"x","n":"Pilawa PKP"},
+  {"id":12622867432,"lat":51.955375,"lon":21.534982,"k":"x"},
+  {"id":13343447407,"lat":51.995279,"lon":21.541892,"k":"p"},
+  {"id":13343447413,"lat":51.994944,"lon":21.542069,"k":"p"},
+  {"id":13343447421,"lat":51.987375,"lon":21.549876,"k":"x","n":"Gocław"},
+  {"id":13343447433,"lat":51.988212,"lon":21.549324,"k":"x","n":"Gocław"},
+  {"id":13369318891,"lat":51.957275,"lon":21.54492,"k":"x","n":"Pilawa/Lipówki"},
+  {"id":13369318893,"lat":51.957447,"lon":21.542729,"k":"x","n":"Pilawa/Lipówki"}
+],
+"routes":[
+  {"id":12516072,"t":{"ref":"P1","name":"Bus P1: Pilawa PKP => Garwolin DA","from":"Pilawa PKP","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":12,"s":[[12612857509,1],[4449725163,2]]},
+  {"id":19809531,"t":{"ref":"P1","name":"Bus P1: Garwolin DA => Pilawa PKP","from":"Garwolin DA","to":"Pilawa PKP","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":11,"s":[[4449725292,10],[12612857510,11]]},
+  {"id":19950247,"t":{"ref":"P2","name":"Bus P2: Pilawa PKP => Garwolin DA","from":"Pilawa PKP","to":"Garwolin DA","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":12,"s":[[12612857509,1],[4449725163,2]]},
+  {"id":19950248,"t":{"ref":"P3","name":"Bus P3: Sulbiny Szpital => Pilawa PKP","from":"Sulbiny Szpital","to":"Pilawa PKP","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":16,"s":[[4449725292,15],[12612857510,16]]},
+  {"id":19950249,"t":{"ref":"P3","name":"Bus P3: Pilawa PKP => Sulbiny Szpital","from":"Pilawa PKP","to":"Sulbiny Szpital","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":16,"s":[[12612857509,1],[4449725163,2]]},
+  {"id":19950250,"t":{"ref":"P2","name":"Bus P2: Garwolin DA => Pilawa PKP","from":"Garwolin DA","to":"Pilawa PKP","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":10,"s":[[4449725292,9],[12612857510,10]]},
+  {"id":19983311,"t":{"name":"Bus: Warszawa => Górzno => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[8640012143,10]]},
+  {"id":19983312,"t":{"name":"Bus: Żelechów => Gończyce => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[8640012144,26]]},
+  {"id":19983313,"t":{"name":"Bus: Warszawa => Miastków Kościelny => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":46,"s":[[8640012143,10]]},
+  {"id":19983314,"t":{"name":"Bus: Żelechów => Górzno => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":35,"s":[[8640012144,26]]},
+  {"id":19983315,"t":{"name":"Bus: Warszawa => Gończyce => Żelechów","from":"Warszawa Dw. Wschodni (Lubelska)","to":"Żelechów Rondo","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":36,"s":[[8640012143,10]]},
+  {"id":19983316,"t":{"name":"Bus: Żelechów => Miastków Kościelny => Warszawa","from":"Żelechów Rondo","to":"Warszawa Dw. Wschodni (Lubelska)","network":"PKS Garwolin","operator":"PKS Garwolin","route":"bus","public_transport:version":"2"},"n":45,"s":[[8640012144,36]]}
+]
+}

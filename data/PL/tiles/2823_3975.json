@@ -1,0 +1,33 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2823,3975],
+"stops":[
+  {"id":3859403663,"lat":51.18513,"lon":18.753535,"k":"p","n":"Krzeczów Wieluńska Tartak"},
+  {"id":10816779713,"lat":51.183853,"lon":18.764462,"k":"p","n":"Krzeczów Centrum"},
+  {"id":10816779726,"lat":51.184234,"lon":18.764061,"k":"p","n":"Krzeczów Centrum"},
+  {"id":10816779727,"lat":51.184162,"lon":18.763999,"k":"x","n":"Krzeczów Centrum"},
+  {"id":10816779736,"lat":51.185203,"lon":18.752039,"k":"x","n":"Krzeczów Wieluńska Tartak"},
+  {"id":10816779737,"lat":51.185291,"lon":18.752048,"k":"p","n":"Krzeczów Wieluńska Tartak"},
+  {"id":10816949758,"lat":51.170369,"lon":18.792012,"k":"x","n":"Niżankowice DW486 / Las"},
+  {"id":10816949759,"lat":51.17034,"lon":18.791982,"k":"p","n":"Niżankowice DW486 / Las"},
+  {"id":10816949760,"lat":51.170594,"lon":18.791582,"k":"x","n":"Niżankowice DW486 / Las"},
+  {"id":10816949761,"lat":51.170623,"lon":18.791627,"k":"p","n":"Niżankowice DW486 / Las"},
+  {"id":11399167550,"lat":51.154227,"lon":18.79399,"k":"p","n":"Niżankowice I / 4523E"},
+  {"id":11399167551,"lat":51.154275,"lon":18.794005,"k":"x","n":"Niżankowice I / 4523E"},
+  {"id":12259089510,"lat":51.183891,"lon":18.764485,"k":"x","n":"Krzeczów Centrum"},
+  {"id":12392370754,"lat":51.185197,"lon":18.753527,"k":"x","n":"Krzeczów Wieluńska Tartak"},
+  {"id":12829037810,"lat":51.154822,"lon":18.789418,"k":"p","n":"Niżankowice 4523E / Pętla"},
+  {"id":12829037815,"lat":51.154754,"lon":18.789454,"k":"x","n":"Niżankowice 4523E / Pętla"},
+  {"id":13504502959,"lat":51.154335,"lon":18.794028,"k":"p","n":"Niżankowice I / 4523E"}
+],
+"routes":[
+  {"id":15770608,"t":{"ref":"918083","name":"PKS Wieluń: Wieluń => Pajęczno","from":"Wieluń Fabryczna / Korona","to":"Pajęczno Plac Targowy","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":30,"s":[[3859403663,15],[10816779713,16],[10816949759,17]]},
+  {"id":15771100,"t":{"ref":"918083","name":"PKS Wieluń: Pajęczno => Wieluń","from":"Pajęczno Plac Targowy","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":31,"s":[[10816949761,14],[10816779726,15],[10816779737,16]]},
+  {"id":18706058,"t":{"ref":"918113","name":"PKS Wieluń: Wieluń => Osjaków via Pajęczno","from":"Wieluń Dworzec Autobusowy st.5","to":"Osjaków Centrum / Rynek","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":53,"s":[[3859403663,14],[10816779713,15],[10816949759,16]]},
+  {"id":18828476,"t":{"name":"PKS Wieluń 918030: Działoszyn => Sieradz via Wieluń","from":"Działoszyn","to":"Sieradz","network":"PKS","operator":"PKS Wieluń sp. z o.o.","route":"bus","public_transport:version":"2"},"n":47,"s":[[10816949761,5],[10816779726,6],[10816779737,7]]},
+  {"id":20140078,"t":{"ref":"918113","name":"PKS Wieluń: Osjaków => Wieluń via Pajęczno","from":"Osjaków Centrum / Rynek","to":"Wieluń Dworzec Autobusowy st.0","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":55,"s":[[12829037810,37],[10816949761,39],[10816779726,40],[10816779737,41]]},
+  {"id":20144682,"t":{"ref":"D3","name":"ITER-TRANS D3: Działoszyn => Niżankowice","from":"Działoszyn Piłsudskiego Osiedle / Urząd Gminy","to":"Niżankowice 4523E / Pętla","network":"Gmina Działoszyn","operator":"ITER-TRANS","route":"bus","public_transport:version":"2"},"n":8,"s":[[13504502959,7],[12829037810,8]]},
+  {"id":20144683,"t":{"ref":"D3","name":"ITER-TRANS D3: Niżankowice => Działoszyn","from":"Niżankowice 4523E / Pętla","to":"Działoszyn Piłsudskiego Osiedle / Starzyńskiego","network":"Gmina Działoszyn","operator":"ITER-TRANS","route":"bus","public_transport:version":"2"},"n":8,"s":[[12829037810,1],[11399167550,2]]}
+]
+}

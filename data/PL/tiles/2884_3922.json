@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2884,3922],
+"stops":[
+  {"id":1839196164,"lat":54.216717,"lon":16.114164,"k":"p","n":"Mścice Hotel Verde"},
+  {"id":2379791790,"lat":54.237903,"lon":16.107212,"k":"p"},
+  {"id":2664069854,"lat":54.218208,"lon":16.101187,"k":"p","n":"Mścice skrzyżowanie Dobiesławiec"},
+  {"id":5314164995,"lat":54.214015,"lon":16.141339,"k":"p","n":"Leśniczówka"},
+  {"id":5314164996,"lat":54.214077,"lon":16.141589,"k":"p","n":"Leśniczówka"},
+  {"id":10209169763,"lat":54.236802,"lon":16.10701,"k":"p","n":"Dobiesławiec","ref":"100015Z/02"},
+  {"id":12507810651,"lat":54.217135,"lon":16.111354,"k":"p","n":"Mścice Stacja Paliw"}
+],
+"routes":[
+  {"id":17980269,"t":{"ref":"3261/270","name":"Strachomino->Koszalin","from":"Strachomino","to":"Koszalin","network":"PL:AIRBUS","route":"bus","public_transport:version":"2"},"n":22,"s":[[2664069854,19]]},
+  {"id":17980270,"t":{"ref":"3261/270","name":"Koszalin->Strachomino","from":"Koszalin","to":"Strachomino","network":"PL:AIRBUS","route":"bus","public_transport:version":"2"},"n":23,"s":[[12507810651,5]]},
+  {"id":18938082,"t":{"name":"TYMIEŃ-KOSZALIN","from":"Tymień","to":"Koszalin","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":7,"s":[[2664069854,3],[1839196164,4]]},
+  {"id":18938083,"t":{"name":"KOSZALIN-TYMIEŃ","from":"Koszalin","to":"Tymień","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":8,"s":[[12507810651,5]]},
+  {"id":18969713,"t":{"name":"AIRBUS Koszalin - Ustronie Morskie","from":"Koszalin","to":"Ustronie Morskie","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[12507810651,5]]},
+  {"id":18969714,"t":{"name":"AIRBUS Ustronie Morskie -Koszalin","from":"Ustronie Morskie","to":"Koszalin","operator":"AIRBUS Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[2664069854,13],[1839196164,14]]},
+  {"id":19023742,"t":{"ref":"3261/108","name":"Koszalin->Gąski/Śmiechów","from":"Koszalin","to":"Śmiechów","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":21,"s":[[12507810651,5]]},
+  {"id":19023743,"t":{"ref":"3261/108","name":"Gąski/Śmiechów->Koszalin","from":"Śmiechów","to":"Koszalin","operator":"Airbus Koszalin","route":"bus","public_transport:version":"2"},"n":20,"s":[[2664069854,16],[1839196164,17]]},
+  {"id":19484061,"t":{"ref":"3261/239","name":"Ronin Koszalin CP->Mielno","from":"Koszalin","to":"Mielno","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":14,"s":[[12507810651,5]]},
+  {"id":19484161,"t":{"ref":"3261/239","name":"Ronin Mielno -> Koszalin CP","from":"Mielno","to":"Koszalin","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":13,"s":[[2664069854,9],[1839196164,10]]},
+  {"id":19484275,"t":{"ref":"3261/239","name":"Ronin Mielno -> Koszalin Os. Bukowe","from":"Mielno","to":"Koszalin","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":17,"s":[[2664069854,9],[1839196164,10]]},
+  {"id":19484276,"t":{"ref":"3261/239","name":"Ronin Koszalin Os.Bukowe->Mielno","from":"Koszalin","to":"Mielno","network":"Ronin Koszalin","operator":"Ronin Koszalin","route":"bus","public_transport:version":"2"},"n":18,"s":[[12507810651,9]]}
+]
+}

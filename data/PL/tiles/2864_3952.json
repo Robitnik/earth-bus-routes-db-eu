@@ -1,0 +1,37 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2864,3952],
+"stops":[
+  {"id":6835760865,"lat":53.243826,"lon":17.607155,"k":"p","n":"Mrocza / Rynek"},
+  {"id":6835809369,"lat":53.249623,"lon":17.608491,"k":"p","n":"Mrocza / Kościuszki"},
+  {"id":12166880052,"lat":53.241043,"lon":17.605289,"k":"p","n":"Mrocza D.A."},
+  {"id":12166880053,"lat":53.241001,"lon":17.605144,"k":"x","n":"Mrocza D.A."},
+  {"id":12248472258,"lat":53.224131,"lon":17.604727,"k":"p","n":"Krukówko skrzyżowanie"},
+  {"id":12248472259,"lat":53.224066,"lon":17.604738,"k":"p","n":"Krukówko skrzyżowanie"},
+  {"id":12248472262,"lat":53.219032,"lon":17.641884,"k":"p","n":"Drążno"},
+  {"id":12248472263,"lat":53.219119,"lon":17.641903,"k":"p","n":"Drążno"},
+  {"id":12273638305,"lat":53.222383,"lon":17.602131,"k":"p","n":"Krukówko"},
+  {"id":12273638306,"lat":53.221833,"lon":17.601848,"k":"p","n":"Krukówko"},
+  {"id":12280061719,"lat":53.241906,"lon":17.600789,"k":"x","n":"Mrocza / Piłsudskiego (szkoła)"},
+  {"id":12280061721,"lat":53.241969,"lon":17.600739,"k":"p","n":"Mrocza / Piłsudskiego (szkoła)"}
+],
+"routes":[
+  {"id":18026185,"t":{"ref":"404","name":"Autobus 404: Mrocza => Bydgoszcz","from":"Mrocza D.A.","to":"Bydgoszcz, Rondo Wielkopolskie","network":"STbus Sobieszczański","route":"bus","public_transport:version":"2"},"n":37,"s":[[12166880052,1]]},
+  {"id":18026186,"t":{"ref":"404","name":"Autobus 404: Bydgoszcz => Mrocza","from":"Bydgoszcz, Rondo Wielkopolskie","to":"Mrocza D.A.","network":"STbus Sobieszczański","route":"bus","public_transport:version":"2"},"n":37,"s":[[12166880052,1],[6835760865,15],[6835809369,30]]},
+  {"id":18158952,"t":{"ref":"21051","name":"PKS Linia 21051: Mrocza => Bydgoszcz","from":"Mrocza","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":30,"s":[[6835760865,1],[12166880052,2],[12248472259,3],[12248472262,5]]},
+  {"id":18158953,"t":{"ref":"21051","name":"PKS Linia 21051: Bydgoszcz => Mrocza","from":"Bydgoszcz, Dworzec Autobusowy","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":31,"s":[[12166880052,1],[12248472258,10],[6835760865,13],[12248472263,14]]},
+  {"id":18179087,"t":{"ref":"21150","name":"PKS Linia 21150: Kamień Krajeński => Bydgoszcz","from":"Kamień Krajeński","to":"Bydgoszcz, Dworzec Autobusowy","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":52,"s":[[6835809369,22],[6835760865,23],[12166880052,24],[12248472259,25],[12248472262,27]]},
+  {"id":18179088,"t":{"ref":"21150","name":"PKS Linia 21150: Bydgoszcz => Kamień Krajeński","from":"Bydgoszcz, Dworzec Autobusowy","to":"Kamień Krajeński","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":52,"s":[[12166880052,6],[12248472258,14],[12248472263,16]]},
+  {"id":18188499,"t":{"ref":"21152","name":"PKS Linia 21152: Kamień Krajeński => Nakło nad Notecią","from":"Kamień Krajeński","to":"Nakło nad Notecią, PKP","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":32,"s":[[12273638305,8],[6835809369,30],[6835760865,31],[12166880052,32]]},
+  {"id":18188500,"t":{"ref":"21152","name":"PKS Linia 21152: Nakło nad Notecią => Kamień Krajeński","from":"Nakło nad Notecią, PKP","to":"Kamień Krajeński","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":31,"s":[[12166880052,7],[12273638306,20]]},
+  {"id":18194365,"t":{"ref":"21512","name":"PKS Linia 21512: Mierucin => Mrocza","from":"Mierucin","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":7,"s":[[12166880052,2],[6835809369,5]]},
+  {"id":18194366,"t":{"ref":"21512","name":"PKS Linia 21512: Mrocza => Mierucin","from":"Mrocza","to":"Mierucin","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":7,"s":[[12166880052,2]]},
+  {"id":18198175,"t":{"ref":"21504","name":"PKS Linia 21504: Mrocza => Wiele skrzyżowanie","from":"Mrocza","to":"Wiele skrzyżowanie","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":7,"s":[[12280061721,6],[12166880052,7]]},
+  {"id":18198176,"t":{"ref":"21505","name":"PKS Linia 21505: Wiele skrzyżowanie => Mrocza","from":"Wiele skrzyżowanie","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":6,"s":[[12280061721,1],[12166880052,2],[6835809369,3],[6835760865,5]]},
+  {"id":18198177,"t":{"ref":"21521","name":"PKS Linia 21521: Rościmin => Mrocza","from":"Rościmin","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":8,"s":[[12280061721,2],[12166880052,3]]},
+  {"id":18198178,"t":{"ref":"21524","name":"PKS Linia 21524: Mrocza => Rościmin","from":"Mrocza","to":"Rościmin","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":7,"s":[[12166880052,2]]},
+  {"id":18198179,"t":{"ref":"21522","name":"PKS Linia 21522 Mrocza => Kosowo => Mrocza","from":"Mrocza","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":10,"s":[[12273638306,1],[12273638305,2],[12166880052,7,8],[12280061721,9]]},
+  {"id":18198180,"t":{"ref":"21503","name":"PKS Linia 21503: Mrocza => Samsieczynek => Mrocza","from":"Mrocza","to":"Mrocza","network":"PKS Bydgoszcz","route":"bus","public_transport:version":"2"},"n":10,"s":[[12248472262,4],[12248472263,5],[12248472258,6],[12166880052,7,8],[12280061721,9]]}
+]
+}

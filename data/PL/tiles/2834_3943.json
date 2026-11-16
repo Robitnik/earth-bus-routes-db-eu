@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2834,3943],
+"stops":[
+  {"id":4701912987,"lat":51.745097,"lon":17.175419,"k":"p","n":"Sroki"},
+  {"id":5048191965,"lat":51.705732,"lon":17.167369,"k":"p","n":"Smolice wieś"},
+  {"id":5048191966,"lat":51.705495,"lon":17.163345,"k":"p","n":"Smolice wieś"},
+  {"id":5048192721,"lat":51.70825,"lon":17.16044,"k":"p","n":"Smolice posesja nr.94"},
+  {"id":5048192722,"lat":51.704223,"lon":17.168584,"k":"p","n":"Smolice Staw"},
+  {"id":5048196437,"lat":51.701749,"lon":17.173619,"k":"p","n":"Smolice Zakład"},
+  {"id":13288717335,"lat":51.701795,"lon":17.173672,"k":"x","n":"Smolice Zakład"},
+  {"id":13288717336,"lat":51.701846,"lon":17.173737,"k":"p","n":"Smolice Zakład"},
+  {"id":13288717337,"lat":51.704273,"lon":17.168634,"k":"x","n":"Smolice Staw"}
+],
+"routes":[
+  {"id":19805307,"t":{"ref":"X","name":"X: Krotoszyn Mały Rynek => Smolice","from":"Krotoszyn Mały Rynek","to":"Smolice Staw","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":12,"s":[[13288717336,11],[5048192722,12]]},
+  {"id":19805308,"t":{"ref":"X","name":"X: Krotoszyn Mały Rynek => Smolice via Kobylin PKP","from":"Krotoszyn Mały Rynek","to":"Smolice Staw","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":13,"s":[[13288717336,12],[5048192722,13]]},
+  {"id":19805591,"t":{"ref":"X","name":"X: Smolice => Krotoszyn Mały Rynek","from":"Smolice Staw","to":"Krotoszyn Mały Rynek","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":13,"s":[[5048192722,1],[5048196437,2]]},
+  {"id":19805592,"t":{"ref":"X","name":"X: Smolice => Krotoszyn Zdunowska LO","from":"Smolice Staw","to":"Krotoszyn Zdunowska II","network":"BOB-KOM","operator":"BOB-KOM","route":"bus","public_transport:version":"2"},"n":14,"s":[[5048192722,1],[5048196437,2]]}
+]
+}

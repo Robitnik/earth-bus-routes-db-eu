@@ -1,0 +1,23 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2858,4014],
+"stops":[
+  {"id":3321419883,"lat":52.901828,"lon":20.711987,"k":"x","n":"Opinogóra Górna I 01"},
+  {"id":3321419888,"lat":52.90202,"lon":20.712648,"k":"x","n":"Opinogóra Górna I 02"},
+  {"id":7482057387,"lat":52.906062,"lon":20.71844,"k":"x","n":"Opinogóra Muzeum 01"},
+  {"id":11836986125,"lat":52.902072,"lon":20.712628,"k":"p","n":"Opinogóra Górna I 02"},
+  {"id":11836986126,"lat":52.901793,"lon":20.712128,"k":"p","n":"Opinogóra Górna I 01"},
+  {"id":11836986127,"lat":52.903562,"lon":20.7146,"k":"x","n":"Opinogóra Górna - parking 01"},
+  {"id":11836986128,"lat":52.903544,"lon":20.714685,"k":"p","n":"Opinogóra Górna - parking 01"},
+  {"id":11836986129,"lat":52.903939,"lon":20.714816,"k":"x","n":"Opinogóra Górna - parking 02"},
+  {"id":11836986130,"lat":52.903965,"lon":20.714671,"k":"p","n":"Opinogóra Górna - parking 02"},
+  {"id":11843265703,"lat":52.906076,"lon":20.718506,"k":"p","n":"Opinogóra Muzeum 01"}
+],
+"routes":[
+  {"id":17501069,"t":{"ref":"11","name":"Bus 11: Regimin => Opinogóra Górna - parking","from":"Regimin 00","to":"Opinogóra Górna - parking 01","network":"ZKM Ciechanów","operator":"Zakład Komunikacji Miejskiej w Ciechanowie","route":"bus","public_transport:version":"2"},"n":30,"s":[[11836986126,29],[11836986128,30]]},
+  {"id":17501085,"t":{"ref":"11","name":"Bus 11: Opinogóra Górna - parking => Regimin","from":"Opinogóra Górna - parking 02","to":"Regimin 00","network":"ZKM Ciechanów","operator":"Zakład Komunikacji Miejskiej w Ciechanowie","route":"bus","public_transport:version":"2"},"n":29,"s":[[11836986130,1],[11836986125,2]]},
+  {"id":17509696,"t":{"ref":"M","name":"Bus M: Zajezdnia ZKM => Opinogóra Muzeum","from":"Zajezdnia ZKM 01","to":"Opinogóra Muzeum 01","network":"ZKM Ciechanów","operator":"Zakład Komunikacji Miejskiej w Ciechanowie","route":"bus","public_transport:version":"2"},"n":25,"s":[[11836986128,24],[11843265703,25]]},
+  {"id":17509699,"t":{"ref":"M","name":"Bus M: Opinogóra Muzeum => Zajezdnia ZKM","from":"Opinogóra Muzeum 01","to":"Zajezdnia ZKM 01","network":"ZKM Ciechanów","operator":"Zakład Komunikacji Miejskiej w Ciechanowie","route":"bus","public_transport:version":"2"},"n":25,"s":[[11843265703,1],[11836986130,2]]}
+]
+}

@@ -1,0 +1,36 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2849,4016],
+"stops":[
+  {"id":11539949882,"lat":52.487063,"lon":20.806937,"k":"p","n":"Kikoły - DK62"},
+  {"id":11539949883,"lat":52.487945,"lon":20.811949,"k":"p","n":"Kikoły - DK62"},
+  {"id":11539949884,"lat":52.490107,"lon":20.822134,"k":"p","n":"Nowe Orzechowo"},
+  {"id":11539949885,"lat":52.490328,"lon":20.823705,"k":"p","n":"Nowe Orzechowo"},
+  {"id":13693302226,"lat":52.49262,"lon":20.834851,"k":"x","n":"Nowe Orzechowo 2"},
+  {"id":13693302227,"lat":52.492661,"lon":20.834829,"k":"p","n":"Nowe Orzechowo 2"},
+  {"id":14190396442,"lat":52.469034,"lon":20.842793,"k":"p","n":"Stadniny 01"},
+  {"id":14190396443,"lat":52.469124,"lon":20.842835,"k":"p","n":"Stadniny 02"},
+  {"id":14190396444,"lat":52.475397,"lon":20.838113,"k":"p","n":"Kanałowa 02"},
+  {"id":14190396445,"lat":52.47541,"lon":20.837932,"k":"p","n":"Kanałowa 01"},
+  {"id":14190396446,"lat":52.479634,"lon":20.839043,"k":"p","n":"Kościelna (Sikory) 01"},
+  {"id":14190396447,"lat":52.481487,"lon":20.832959,"k":"p","n":"Oleandrów 01"},
+  {"id":14190396448,"lat":52.48165,"lon":20.832559,"k":"p","n":"Oleandrów 02"},
+  {"id":14190396449,"lat":52.481163,"lon":20.823861,"k":"p","n":"Świerkowa 01"},
+  {"id":14265744749,"lat":52.49259,"lon":20.83503,"k":"p","n":"Nowe Orzechowo 2"},
+  {"id":14265744751,"lat":52.486479,"lon":20.813565,"k":"p","n":"Kikoły I"},
+  {"id":14265744761,"lat":52.486433,"lon":20.813609,"k":"p","n":"Kikoły I"}
+],
+"routes":[
+  {"id":5326469,"t":{"name":"Bus Linia 2: Wójtostwo DK62 => Nowy Dwór Maz. Akacjowa Kaufland","from":"Wójtostwo DK62","to":"Nowy Dwór Maz. Akacjowa Kaufland","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":15,"s":[[13693302227,3],[11539949884,4]]},
+  {"id":5326470,"t":{"name":"Bus Linia 2: Nowy Dwór Maz. Akacjowa Kaufland => Stare Orzechowo - Szkoła","from":"Nowy Dwór Maz. Akacjowa Kaufland","to":"Stare Orzechowo - Szkoła","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":14,"s":[[11539949885,12],[14265744749,13]]},
+  {"id":5373111,"t":{"name":"Bus Linia 3: Stare Orzechowo Granica Powiatu => Pomiechówek ul. Mostowa - PKP 01","from":"Stare Orzechowo Granica Powiatu","to":"Pomiechówek ul. Mostowa - PKP 01","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":14,"s":[[13693302227,7],[11539949884,8],[14265744751,9]]},
+  {"id":5373112,"t":{"name":"Bus Linia 3: Pomiechówek ul. Mostowa - PKP 01 => Stare Orzechowo Granica Powiatu","from":"Pomiechówek ul. Mostowa - PKP 01","to":"Stare Orzechowo Granica Powiatu","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":14,"s":[[14265744761,6],[11539949885,7],[14265744749,8]]},
+  {"id":21407811,"t":{"ref":"W3","name":"W3: PKP Wieliszew Centrum => Świerkowa","from":"PKP Wieliszew Centrum 01","to":"Świerkowa 01","route":"bus","public_transport:version":"2"},"n":35,"s":[[14190396443,31],[14190396444,32],[14190396446,33],[14190396448,34],[14190396449,35]]},
+  {"id":21407812,"t":{"ref":"W3","name":"W3: Świerkowa => PKP Wieliszew Centrum","from":"Świerkowa 01","to":"PKP Wieliszew Centrum 01","route":"bus","public_transport:version":"2"},"n":35,"s":[[14190396449,1],[14190396447,2],[14190396446,3],[14190396445,4],[14190396442,5]]},
+  {"id":21569719,"t":{"ref":"1","name":"Bus Linia 1: Nowy Dwór Maz. Paderewskiego => Stare Orzechowo Granica Powiatu","from":"Nowy Dwór Maz. Paderewskiego","to":"Stare Orzechowo Granica Powiatu","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":22,"s":[[14265744761,14],[11539949885,15],[14265744749,16]]},
+  {"id":21569720,"t":{"ref":"1","name":"Bus Linia 1: Nowy Dwór Maz. Akacjowa Kaufland => Stare Orzechowo Granica Powiatu","from":"Nowy Dwór Maz. Akacjowa Kaufland","to":"Stare Orzechowo Granica Powiatu","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":23,"s":[[14265744761,15],[11539949883,16],[11539949885,17]]},
+  {"id":21569731,"t":{"ref":"1","name":"Bus Linia 1: Stare Orzechowo Granica Powiatu => Nowy Dwór Maz. Akacjowa Kaufland","from":"Stare Orzechowo Granica Powiatu","to":"Nowy Dwór Maz. Akacjowa Kaufland","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":22,"s":[[13693302227,6],[11539949884,7],[14265744751,8]]},
+  {"id":21569732,"t":{"ref":"1","name":"Bus Linia 1: Stare Orzechowo Granica Powiatu => Nowy Dwór Maz. Akacjowa Kaufland","from":"Stare Orzechowo Granica Powiatu","to":"Nowy Dwór Maz. Akacjowa Kaufland","network":"Komunikacja Lokalna Pomiechówek","route":"bus","public_transport:version":"2"},"n":22,"s":[[13693302227,7],[11539949884,8],[14265744751,9]]}
+]
+}

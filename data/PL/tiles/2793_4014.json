@@ -1,0 +1,22 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2793,4014],
+"stops":[
+  {"id":9198967349,"lat":49.652489,"lon":20.72294,"k":"p","n":"Barska - Granica"},
+  {"id":10582102270,"lat":49.650438,"lon":20.702949,"k":"p","n":"Zabełecka - Gaj"},
+  {"id":10582102271,"lat":49.652786,"lon":20.708308,"k":"p","n":"Zabełecka - Gaj I"},
+  {"id":10582102272,"lat":49.656117,"lon":20.715316,"k":"p","n":"Zabełecka - Gaj II"},
+  {"id":10582102273,"lat":49.65234,"lon":20.71632,"k":"p","n":"Zdrojowa - Gaj"},
+  {"id":10586073128,"lat":49.652132,"lon":20.722869,"k":"p","n":"Barska - Granica"},
+  {"id":11975108315,"lat":49.684696,"lon":20.706978,"k":"p","n":"Ubiad II"},
+  {"id":11975108316,"lat":49.684698,"lon":20.705806,"k":"p","n":"Ubiad II"},
+  {"id":11975108317,"lat":49.684084,"lon":20.71536,"k":"p","n":"Ubiad - pętla"}
+],
+"routes":[
+  {"id":15397535,"t":{"ref":"17","name":"Linia 17 (Smolika - Sąd → Barska - Granica)","from":"Smolika - Sąd","to":"Barska - Granica","network":"MPK Nowy Sącz","operator":"MPK Nowy Sącz","route":"bus"},"n":23,"s":[[10586073128,23]]},
+  {"id":15397536,"t":{"ref":"17","name":"Linia 17 (Barska - Granica → Smolika - Sąd)","from":"Barska - Granica","to":"Smolika - Sąd","network":"MPK Nowy Sącz","operator":"MPK Nowy Sącz","route":"bus","public_transport:version":"2"},"n":22,"s":[[9198967349,1]]},
+  {"id":15421573,"t":{"ref":"31","name":"Linia 31 (Dw. Aut. MPK st. 1 → Zdrojowa - Gaj Pętla)","from":"Dw. Aut. MPK st. 1","to":"Zdrojowa - Gaj Pętla","network":"MPK Nowy Sącz","operator":"MPK Nowy Sącz","route":"bus","public_transport:version":"2"},"n":19,"s":[[10582102270,15],[10582102271,16],[10582102272,17],[10582102273,18]]},
+  {"id":15421574,"t":{"ref":"31","name":"Linia 31 (Zdrojowa - Gaj Pętla → Dw. Aut. MPK Przyst. końcowy)","from":"Zdrojowa - Gaj Pętla","to":"Dw. Aut. MPK Przyst. końcowy","network":"MPK Nowy Sącz","operator":"MPK Nowy Sącz","route":"bus","public_transport:version":"2"},"n":19,"s":[[10582102273,2],[10582102272,3],[10582102271,4],[10582102270,5]]}
+]
+}

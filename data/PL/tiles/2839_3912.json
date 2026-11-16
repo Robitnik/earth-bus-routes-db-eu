@@ -1,0 +1,31 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2839,3912],
+"stops":[
+  {"id":3213528781,"lat":51.972482,"lon":15.610227,"k":"p","n":"Jany Świetlica"},
+  {"id":3213528802,"lat":51.974196,"lon":15.603911,"k":"x","n":"Jany"},
+  {"id":3213528803,"lat":51.973931,"lon":15.604256,"k":"p","n":"Jany","ref":"579"},
+  {"id":3765913276,"lat":51.974156,"lon":15.603854,"k":"p","n":"Jany"},
+  {"id":3846750143,"lat":51.960456,"lon":15.621729,"k":"p","n":"Przytok Janowska"},
+  {"id":3846750144,"lat":51.960481,"lon":15.621877,"k":"p","n":"Przytok Janowska"},
+  {"id":3846750145,"lat":51.957924,"lon":15.625184,"k":"p","n":"Przytok Pałac"},
+  {"id":3846750146,"lat":51.956747,"lon":15.627038,"k":"p","n":"Przytok Pałac"},
+  {"id":3846750154,"lat":51.952498,"lon":15.633161,"k":"p","n":"Przytok"},
+  {"id":3847178757,"lat":51.973956,"lon":15.604855,"k":"p","n":"Jany","ref":"636"},
+  {"id":3847178760,"lat":51.972948,"lon":15.608095,"k":"p","n":"Jany Świetlica"},
+  {"id":7251618415,"lat":51.973945,"lon":15.604212,"k":"x","n":"Jany","ref":"579"},
+  {"id":14249308010,"lat":51.973925,"lon":15.604832,"k":"x","n":"Jany","ref":"636"},
+  {"id":14250094829,"lat":51.998594,"lon":15.610392,"k":"x","n":"Stożne"},
+  {"id":14250094830,"lat":51.998613,"lon":15.610376,"k":"p","n":"Stożne"}
+],
+"routes":[
+  {"id":18230787,"t":{"ref":"21","name":"21: Dworzec Główny => Jany","from":"Dworzec Główny","to":"Jany","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":12,"s":[[3213528803,12]]},
+  {"id":18230788,"t":{"ref":"21","name":"21: Jany => Dworzec Główny","from":"Jany","to":"Dworzec Główny","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":10,"s":[[3213528803,1]]},
+  {"id":21489951,"t":{"ref":"1","name":"1: Jany => Chynów => Jędrzychów","from":"Jany","to":"Jędrzychów","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":29,"s":[[3213528803,1]]},
+  {"id":21489952,"t":{"ref":"1","name":"1: Jędrzychów => Chynów => Jany","from":"Jędrzychów","to":"Jany","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":28,"s":[[3213528803,28]]},
+  {"id":21493910,"t":{"ref":"21","name":"21: Stożne => Jany => Dworzec Główny","from":"Stożne","to":"Dworzec Główny","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":11,"s":[[14250094830,1],[3213528803,2]]},
+  {"id":21493911,"t":{"ref":"21","name":"21: Dworzec Główny => Stożne","from":"Dworzec Główny","to":"Stożne","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":11,"s":[[14250094830,11]]},
+  {"id":21493912,"t":{"ref":"21","name":"21: Dworzec Główny => Jany => Stożne","from":"Dworzec Główny","to":"Stożne","network":"MZK Zielona Góra","operator":"MZK Zielona Góra","route":"bus","public_transport:version":"2"},"n":13,"s":[[3213528803,12],[14250094830,13]]}
+]
+}

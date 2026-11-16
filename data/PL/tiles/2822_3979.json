@@ -1,0 +1,40 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2822,3979],
+"stops":[
+  {"id":10817152206,"lat":51.141192,"lon":18.965643,"k":"p","n":"Dylów Rządowy"},
+  {"id":10817152207,"lat":51.141155,"lon":18.965669,"k":"x","n":"Dylów Rządowy"},
+  {"id":10817152218,"lat":51.141526,"lon":18.967444,"k":"p","n":"Dylów Rządowy"},
+  {"id":10817152219,"lat":51.141585,"lon":18.967416,"k":"x","n":"Dylów Rządowy"},
+  {"id":10817152220,"lat":51.146864,"lon":18.989077,"k":"p","n":"Pajęczno Wieluńska"},
+  {"id":10817152230,"lat":51.147219,"lon":18.989753,"k":"p","n":"Pajęczno Wieluńska"},
+  {"id":12437172836,"lat":51.146942,"lon":18.989016,"k":"x","n":"Pajęczno Wieluńska"},
+  {"id":12437172837,"lat":51.147147,"lon":18.989827,"k":"x","n":"Pajęczno Wieluńska"},
+  {"id":12588398136,"lat":51.148519,"lon":18.988959,"k":"p","n":"Pajęczno Sienkiewicza"},
+  {"id":12588398137,"lat":51.14874,"lon":18.988762,"k":"p","n":"Pajęczno Sienkiewicza"},
+  {"id":12629176995,"lat":51.10411,"lon":18.966769,"k":"x","n":"Niwiska Górne"},
+  {"id":12629176996,"lat":51.104097,"lon":18.966826,"k":"p","n":"Niwiska Górne"},
+  {"id":12634047858,"lat":51.148709,"lon":18.988714,"k":"x","n":"Pajęczno Sienkiewicza"},
+  {"id":13440675632,"lat":51.145535,"lon":18.998345,"k":"p","n":"Pajęczno Centrum / Plac Dworcowy"},
+  {"id":13440675633,"lat":51.14563,"lon":18.998383,"k":"x","n":"Pajęczno Centrum / Plac Dworcowy"},
+  {"id":13496106090,"lat":51.148555,"lon":18.989006,"k":"x","n":"Pajęczno Sienkiewicza"}
+],
+"routes":[
+  {"id":15770608,"t":{"ref":"918083","name":"PKS Wieluń: Wieluń => Pajęczno","from":"Wieluń Fabryczna / Korona","to":"Pajęczno Plac Targowy","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":30,"s":[[10817152218,28],[10817152220,29],[13440675632,30]]},
+  {"id":15771100,"t":{"ref":"918083","name":"PKS Wieluń: Pajęczno => Wieluń","from":"Pajęczno Plac Targowy","to":"Wieluń Fabryczna / Korona","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":31,"s":[[13440675632,1],[10817152230,2],[10817152206,3]]},
+  {"id":18445568,"t":{"ref":"ŁA9","name":"ŁA9: Działoszyn → Pajęczno → Rząśnia","from":"Działoszyn Plac Wolności","to":"Rząśnia Rondo","network":"ŁKA","operator":"Łódzka Kolej Aglomeracyjna","colour":"#fbff00","route":"bus"},"n":18,"s":[[10817152218,7],[10817152220,8],[13440675632,18]]},
+  {"id":18448248,"t":{"ref":"ŁA9","name":"ŁA9: Rząśnia → Pajęczno → Działoszyn","from":"Rząśnia Rondo","to":"Działoszyn Plac Wolności","network":"ŁKA","operator":"Łódzka Kolej Aglomeracyjna","colour":"#fbff00","route":"bus"},"n":18,"s":[[10817152230,3],[10817152206,4],[13440675632,18]]},
+  {"id":18706058,"t":{"ref":"918113","name":"PKS Wieluń: Wieluń => Osjaków via Pajęczno","from":"Wieluń Dworzec Autobusowy st.5","to":"Osjaków Centrum / Rynek","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":53,"s":[[10817152218,27],[10817152220,28],[13440675632,29],[12588398137,30]]},
+  {"id":18864038,"t":{"name":"GEPARD: Pajęczno → Częstochowa (p. Działoszyn)","from":"Pajęczno Centrum","to":"Częstochowa Dworzec Autobusowy","network":"GEPARD","operator":"F.H.U. GEPARD Grzegorz Latkowski","route":"bus"},"n":27,"s":[[10817152230,1],[10817152206,2],[13440675632,26]]},
+  {"id":19709941,"t":{"ref":"923029","name":"PKS Bełchatów: Bełchatów → Pajęczno","from":"Bełchatów Szpital","to":"Pajęczno Wieluńska","network":"PKS Bełchatów","operator":"PKS Bełchatów","route":"bus"},"n":34,"s":[[13440675632,33],[10817152230,34]]},
+  {"id":20112767,"t":{"ref":"923029","name":"PKS Bełchatów: Pajęczno → Bełchatów","from":"Pajęczno Wieluńska","to":"Bełchatów Szpital","network":"PKS Bełchatów","operator":"PKS Bełchatów","route":"bus"},"n":29,"s":[[10817152220,1],[13440675632,2]]},
+  {"id":20140078,"t":{"ref":"918113","name":"PKS Wieluń: Osjaków => Wieluń via Pajęczno","from":"Osjaków Centrum / Rynek","to":"Wieluń Dworzec Autobusowy st.0","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus","public_transport:version":"2"},"n":55,"s":[[12588398136,24],[13440675632,25],[10817152230,26],[10817152206,27]]},
+  {"id":20367902,"t":{"ref":"10/134","name":"CARPORT: Pajęczno - Radomsko","from":"Pajęczno Sienkiewicza","to":"Radomsko Dworzec PKP/PKS","network":"CARPORT","operator":"CARPORT Stanisław Worek","route":"bus"},"n":46,"s":[[12588398136,1],[13440675632,2]]},
+  {"id":20379515,"t":{"name":"Ekspress-Bus: Pajęczno → Pajęczno","from":"Pajęczno WIeluńska","to":"Pajęczno Wieluńska","network":"Ekspress-Bus","operator":"Ekspress-Bus sp. z o.o.","route":"bus"},"n":35,"s":[[10817152220,1],[13440675632,3,33],[10817152230,35]]},
+  {"id":20385531,"t":{"ref":"26","name":"Kolumb: Pajęczno → Bieliki","from":"Pajęczno Sienkiewicza","to":"Bieliki","network":"Kolumb","operator":"P.P.H.U. Kolumb Biuro Podróży","route":"bus"},"n":19,"s":[[12588398136,1],[13440675632,2]]},
+  {"id":20385814,"t":{"ref":"25","name":"Kolumb: Pajęczno → Pajęczno","from":"Pajęczno Wieluńska","to":"Pajęczno Wiśniowa/Szkoła","network":"Kolumb","operator":"P.P.H.U. Kolumb Biuro Podróży","route":"bus"},"n":21,"s":[[10817152220,1],[10817152218,20]]},
+  {"id":20414754,"t":{"ref":"918041","name":"PKS Wieluń: Pajęczno → Łódź","from":"Pajęczno Centrum","to":"Łódź Dworzec Kaliska","network":"PKS Wieluń","operator":"PKS Wieluń","route":"bus"},"n":62,"s":[[13440675632,1],[12588398137,2]]},
+  {"id":20419586,"t":{"name":"GEPARD: Pajęczno → Częstochowa (p. Makowiska)","from":"Pajęczno Centrum","to":"Częstochowa Dworzec Autobusowy","network":"GEPARD","operator":"F.H.U. GEPARD Grzegorz Latkowski","route":"bus"},"n":26,"s":[[13440675632,1]]}
+]
+}

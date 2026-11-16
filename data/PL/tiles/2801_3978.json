@@ -1,0 +1,35 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2801,3978],
+"stops":[
+  {"id":1832044119,"lat":50.060315,"lon":18.946369,"k":"x","n":"Kobiór Krzyż"},
+  {"id":2140461546,"lat":50.059856,"lon":18.933999,"k":"x","n":"Kobiór Centrum","ref":"181080"},
+  {"id":2140467184,"lat":50.060275,"lon":18.934805,"k":"x","n":"Kobiór Centrum","ref":"181079"},
+  {"id":2140471735,"lat":50.064457,"lon":18.93364,"k":"x","n":"Kobiór Leśniczówka","ref":"181078"},
+  {"id":2140471738,"lat":50.064581,"lon":18.933615,"k":"x","n":"Kobiór Leśniczówka","ref":"181077"},
+  {"id":9706242805,"lat":50.060268,"lon":18.934679,"k":"p","n":"Kobiór Centrum","ref":"1"},
+  {"id":9706242806,"lat":50.059871,"lon":18.934058,"k":"p","n":"Kobiór Centrum","ref":"2"},
+  {"id":9706242807,"lat":50.067055,"lon":18.916045,"k":"p","n":"Kobiór Centralna","ref":"01"},
+  {"id":9706242808,"lat":50.066186,"lon":18.91693,"k":"p","n":"Kobiór Centralna","ref":"02"},
+  {"id":9706242809,"lat":50.064579,"lon":18.933523,"k":"p","n":"Kobiór Leśniczówka","ref":"1"},
+  {"id":9706242810,"lat":50.064457,"lon":18.93375,"k":"p","n":"Kobiór Leśniczówka","ref":"2"},
+  {"id":11646735485,"lat":50.060355,"lon":18.946403,"k":"p","n":"Kobiór Krzyż"},
+  {"id":11646735486,"lat":50.060208,"lon":18.94691,"k":"x","n":"Kobiór Krzyż"},
+  {"id":11646735487,"lat":50.060158,"lon":18.946898,"k":"p","n":"Kobiór Krzyż"},
+  {"id":12874027016,"lat":50.066102,"lon":18.924527,"k":"p","n":"Kobiór PKP"},
+  {"id":12874027017,"lat":50.06604,"lon":18.924648,"k":"x","n":"Kobiór PKP"},
+  {"id":13610134786,"lat":50.066231,"lon":18.917034,"k":"x","n":"Kobiór Centralna","ref":"02"},
+  {"id":13610134788,"lat":50.067028,"lon":18.915951,"k":"x","n":"Kobiór Centralna","ref":"01"}
+],
+"routes":[
+  {"id":13091820,"t":{"ref":"157","name":"Bus 157: Tychy Szpital Wojewódzki => Mikołów Dworzec","from":"Tychy Szpital Wojewódzki","to":"Mikołów Dworzec","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":26,"s":[[9706242809,10],[9706242805,11],[9706242807,12]]},
+  {"id":13091821,"t":{"ref":"157","name":"Bus 157: Mikołów Dworzec => Tychy Szpital Wojewódzki","from":"Mikołów Dworzec","to":"Tychy Szpital Wojewódzki","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":26,"s":[[9706242808,15],[9706242806,16],[9706242810,17]]},
+  {"id":14670550,"t":{"ref":"M10","name":"Bus M10: Katowice Sądowa => Kobiór Centrum","from":"Katowice Sądowa","to":"Kobiór Centrum","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":19,"s":[[9706242806,19]]},
+  {"id":14670551,"t":{"ref":"M10","name":"Bus M10: Kobiór Centrum => Katowice Sądowa","from":"Kobiór Centrum","to":"Katowice Sądowa","network":"Transport GZM","route":"bus","public_transport:version":"2"},"n":19,"s":[[9706242805,1]]},
+  {"id":19191188,"t":{"name":"Bus: Kobiór Dworzec PKP => Pszczyna Korfantego Szpital","from":"Kobiór Dworzec PKP","to":"Pszczyna Korfantego Szpital","network":"Powiat Pszczyński","route":"bus","public_transport:version":"2"},"n":10,"s":[[12874027016,1],[9706242805,2],[11646735487,3]]},
+  {"id":19195012,"t":{"name":"Bus: Tychy Szpital Wojewódzki => Pszczyna Korfantego Szpital","from":"Tychy Szpital Wojewódzki","to":"Pszczyna Korfantego Szpital","network":"Powiat Pszczyński","route":"bus","public_transport:version":"2"},"n":19,"s":[[9706242809,9],[12874027016,10],[9706242805,11],[11646735487,12]]},
+  {"id":19195013,"t":{"name":"Bus: Pszczyna Korfantego Szpital => Tychy Szpital Wojewódzki","from":"Pszczyna Korfantego Szpital","to":"Tychy Szpital Wojewódzki","network":"Powiat Pszczyński","route":"bus","public_transport:version":"2"},"n":19,"s":[[11646735485,8],[9706242806,9],[12874027016,10],[9706242810,11]]},
+  {"id":19195014,"t":{"name":"Bus: Pszczyna Korfantego Szpital => Kobiór Dworzec PKP","from":"Pszczyna Korfantego Szpital","to":"Kobiór Dworzec PKP","network":"Powiat Pszczyński","route":"bus","public_transport:version":"2"},"n":10,"s":[[11646735485,8],[9706242806,9],[12874027016,10]]}
+]
+}

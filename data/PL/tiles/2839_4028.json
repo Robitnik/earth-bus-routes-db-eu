@@ -1,0 +1,25 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2839,4028],
+"stops":[
+  {"id":4450541575,"lat":51.966142,"lon":21.420742,"k":"p","n":"Osieck Rynek"},
+  {"id":12725544147,"lat":51.958678,"lon":21.419188,"k":"p","n":"Osieck Szkoła"},
+  {"id":12725544148,"lat":51.959921,"lon":21.419851,"k":"x","n":"Osieck Szkoła"},
+  {"id":12725544151,"lat":51.958661,"lon":21.419259,"k":"x","n":"Osieck Szkoła"},
+  {"id":12725544163,"lat":51.959929,"lon":21.419969,"k":"p","n":"Osieck Szkoła"},
+  {"id":12854258311,"lat":51.966253,"lon":21.420801,"k":"x","n":"Osieck Rynek"}
+],
+"routes":[
+  {"id":19163340,"t":{"ref":"O1","name":"Bus O1: Otwock Świderska => Osieck Rynek","from":"Otwock Świderska","to":"Osieck Rynek","network":"Nadwiślańska Komunikacja Autobusowa","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":25,"s":[[12725544163,24],[4450541575,25]]},
+  {"id":19163341,"t":{"ref":"O1","name":"Bus O1: Osieck Rynek => Otwock Orla","from":"Osieck Rynek","to":"Otwock Orla","network":"Nadwiślańska Komunikacja Autobusowa","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":26,"s":[[4450541575,1],[12725544147,2]]},
+  {"id":19325335,"t":{"ref":"I2","name":"Bus I2: Osieck Rynek => Warszawa Metro Imielin","from":"Osieck Rynek","to":"Warszawa Metro Imielin","network":"Nadwiślańska Komunikacja Autobusowa","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":30,"s":[[4450541575,1],[12725544147,2]]},
+  {"id":19325336,"t":{"ref":"I2","name":"Bus I2: Warszawa Metro Imielin => Osieck Rynek","from":"Warszawa Metro Imielin","to":"Osieck Rynek","network":"Nadwiślańska Komunikacja Autobusowa","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":30,"s":[[12725544163,29],[4450541575,30]]},
+  {"id":20018502,"t":{"ref":"O13","name":"Bus O13: Pogorzel Kościół => Osieck Rynek","from":"Pogorzel Kościół","to":"Osieck Rynek","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":3,"s":[[4450541575,3]]},
+  {"id":20018503,"t":{"ref":"O13","name":"Bus O13: Osieck Rynek => Pogorzel Kościół","from":"Osieck Rynek","to":"Pogorzel Kościół","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":3,"s":[[4450541575,1]]},
+  {"id":20020240,"t":{"ref":"O11","name":"Bus O11: Augustówka Kolejowa => Osieck Rynek","from":"Augustówka Kolejowa","to":"Osieck Rynek","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":6,"s":[[4450541575,6]]},
+  {"id":20020241,"t":{"ref":"O12","name":"Bus O12: Augustówka Kolejowa => Kościeliska","from":"Augustówka Kolejowa","to":"Kościeliska","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":14,"s":[[4450541575,6],[12725544147,7]]},
+  {"id":20020242,"t":{"ref":"O12","name":"Bus O12: Kościeliska => Augustówka Kolejowa","from":"Kościeliska","to":"Augustówka Kolejowa","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":13,"s":[[12725544163,8],[4450541575,9]]},
+  {"id":20020244,"t":{"ref":"O11","name":"Bus O11: Osieck Rynek => Augustówka Kolejowa","from":"Osieck Rynek","to":"Augustówka Kolejowa","network":"UTJ Wołoszka","operator":"UTJ Wołoszka","route":"bus","public_transport:version":"2"},"n":5,"s":[[4450541575,1]]}
+]
+}

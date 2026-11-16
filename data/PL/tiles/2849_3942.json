@@ -1,0 +1,38 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2849,3942],
+"stops":[
+  {"id":1968313618,"lat":52.497506,"lon":17.106385,"k":"x","n":"Karłowice/Pętla","ref":"KFPET01"},
+  {"id":3345749985,"lat":52.494337,"lon":17.100653,"k":"x","n":"Karłowice/Dwór n/ż","ref":"KFDWR01"},
+  {"id":3345749987,"lat":52.497405,"lon":17.106743,"k":"p","n":"Karłowice/Pętla","ref":"KFPET02"},
+  {"id":3345749988,"lat":52.497432,"lon":17.106683,"k":"x","n":"Karłowice/Pętla","ref":"KFPET02"},
+  {"id":3711598795,"lat":52.453389,"lon":17.123752,"k":"x","n":"Uzarzewo Pętla"},
+  {"id":6123907977,"lat":52.455896,"lon":17.120174,"k":"x","n":"Uzarzewo Przejazd Kolejowy n/ż"},
+  {"id":6123907978,"lat":52.460419,"lon":17.112637,"k":"x","n":"Uzarzewo skrz."},
+  {"id":6123907979,"lat":52.460378,"lon":17.111583,"k":"x","n":"Uzarzewo skrz."},
+  {"id":6123907980,"lat":52.460455,"lon":17.111518,"k":"p","n":"Uzarzewo skrz."},
+  {"id":6123907991,"lat":52.453411,"lon":17.123539,"k":"x","n":"Uzarzewo Pętla"},
+  {"id":8168940961,"lat":52.494717,"lon":17.101243,"k":"p","n":"Karłowice Dwór n/ż"},
+  {"id":8441965528,"lat":52.494756,"lon":17.101185,"k":"x"},
+  {"id":13514178072,"lat":52.467216,"lon":17.126185,"k":"p","n":"Wierzonka Swarzędzka/Ostatnia"},
+  {"id":5000327760978,"lat":52.494346,"lon":17.100621,"k":"p","n":"Karłowice/Dwór n/ż","ref":"KFDWR01"},
+  {"id":5000327760980,"lat":52.497499,"lon":17.106349,"k":"p","n":"Karłowice/Pętla","ref":"KFPET01"},
+  {"id":5000653436692,"lat":52.453364,"lon":17.123452,"k":"p","n":"Uzarzewo Pętla"},
+  {"id":5000653436693,"lat":52.453397,"lon":17.123797,"k":"p","n":"Uzarzewo Pętla","ref":"S092-1"}
+],
+"routes":[
+  {"id":4564051,"t":{"ref":"323","name":"Bus 323: Rondo Śródka => Tuczno/Pętla","from":"Rondo Śródka","to":"Tuczno/Pętla","network":"ZTM Poznań","operator":"Transkom Czerwonak","colour":"#45484A","route":"bus","public_transport:version":"2"},"n":32,"s":[[3345749987,31]]},
+  {"id":4564052,"t":{"ref":"323","name":"Bus 323: Tuczno/Pętla => Rondo Śródka","from":"Tuczno/Pętla","to":"Rondo Śródka","network":"ZTM Poznań","operator":"Transkom Czerwonak","colour":"#45484A","route":"bus","public_transport:version":"2"},"n":33,"s":[[5000327760980,2],[5000327760978,3]]},
+  {"id":9086699,"t":{"ref":"492","name":"Bus 492: Uzarzewo Pętla => Kobylnica Węzeł","from":"Uzarzewo Pętla","to":"Kobylnica Węzeł","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":5,"s":[[5000653436693,1],[6123907980,2]]},
+  {"id":9086700,"t":{"ref":"492","name":"Bus 492: Kobylnica Węzeł => Uzarzewo Pętla","from":"Kobylnica Węzeł","to":"Uzarzewo Pętla","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":3,"s":[[5000653436693,3]]},
+  {"id":9086818,"t":{"ref":"492","name":"Bus 492: Swarzędz Węzeł Przesiadkowy => Uzarzewo Pętla","from":"Swarzędz Węzeł Przesiadkowy","to":"Uzarzewo Pętla","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":10,"s":[[5000653436693,10]]},
+  {"id":9086819,"t":{"ref":"492","name":"Bus 492: Uzarzewo Pętla => Swarzędz Węzeł Przesiadkowy","from":"Uzarzewo Pętla","to":"Swarzędz Węzeł Przesiadkowy","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":12,"s":[[5000653436693,1],[6123907980,2]]},
+  {"id":9086821,"t":{"ref":"492","name":"Bus 492: Uzarzewo Centrum => Kobylnica Węzeł","from":"Uzarzewo Centrum","to":"Kobylnica Węzeł","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":6,"s":[[5000653436693,2],[6123907980,3]]},
+  {"id":9086822,"t":{"ref":"492","name":"Bus 492: Kobylnica Węzeł => Uzarzewo Centrum","from":"Kobylnica Węzeł","to":"Uzarzewo Centrum","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":4,"s":[[5000653436692,3]]},
+  {"id":9088323,"t":{"ref":"493","name":"Bus 493: Karłowice Pętla => Kobylnica Węzeł","from":"Karłowice Pętla","to":"Kobylnica Węzeł","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":7,"s":[[5000327760980,1],[5000327760978,2]]},
+  {"id":9088324,"t":{"ref":"493","name":"Bus 493: Kobylnica Węzeł => Karłowice Pętla","from":"Kobylnica Węzeł","to":"Karłowice Pętla","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":5,"s":[[3345749987,5]]},
+  {"id":9088378,"t":{"ref":"493","name":"Bus 493: Swarzędz Węzeł Przesiadkowy => Karłowice Pętla","from":"Swarzędz Węzeł Przesiadkowy","to":"Karłowice Pętla","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":12,"s":[[3345749987,12]]},
+  {"id":9088379,"t":{"ref":"493","name":"Bus 493: Karłowice Pętla => Swarzędz Węzeł Przesiadkowy","from":"Karłowice Pętla","to":"Swarzędz Węzeł Przesiadkowy","network":"Swarzędz","operator":"SPK Swarzędz","route":"bus","public_transport:version":"2"},"n":14,"s":[[5000327760980,1],[5000327760978,2]]}
+]
+}

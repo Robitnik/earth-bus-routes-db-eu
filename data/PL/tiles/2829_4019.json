@@ -1,0 +1,19 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2829,4019],
+"stops":[
+  {"id":5777007019,"lat":51.450667,"lon":20.958825,"k":"x","n":"Zakrzewska Wola Pętla"},
+  {"id":7761778899,"lat":51.451324,"lon":20.956117,"k":"x","n":"Marianowice III"},
+  {"id":7761778900,"lat":51.451478,"lon":20.955286,"k":"x","n":"Marianowice III"},
+  {"id":13241321584,"lat":51.451281,"lon":20.956092,"k":"p","n":"Marianowice III"},
+  {"id":13241332805,"lat":51.451508,"lon":20.955297,"k":"p","n":"Marianowice III"},
+  {"id":5001213047795,"lat":51.450651,"lon":20.958839,"k":"p","n":"Zakrzewska Wola Pętla"}
+],
+"routes":[
+  {"id":16430305,"t":{"ref":"100","name":"Linia 100: Zakrzewska Wola – Radom","from":"Zakrzewska Wola","to":"Radom","operator":"Publiczna Komunikacja Zakrzew","route":"bus"},"n":21,"s":[[5001213047795,1]]},
+  {"id":16430544,"t":{"ref":"100","name":"Linia 100: Radom – Zakrzewska Wola","from":"Radom","to":"Zakrzewska Wola","operator":"Publiczna Komunikacja Zakrzew","route":"bus"},"n":20,"s":[[5001213047795,20]]},
+  {"id":20044728,"t":{"ref":"32","name":"Bus 32: Radom => Grójec","from":"Radom Dw. Główny PKP / Poczta","to":"Grójec D.A.","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":68,"s":[[13241332805,21]]},
+  {"id":20044729,"t":{"ref":"32","name":"Bus 32: Grójec => Radom","from":"Grójec D.A.","to":"Radom Dw. Główny PKP / Poczta","network":"PKS Grójec","operator":"PKS Grójec","route":"bus","public_transport:version":"2"},"n":68,"s":[[13241321584,47]]}
+]
+}

@@ -1,0 +1,21 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2878,4047],
+"stops":[
+  {"id":2327240815,"lat":53.902547,"lon":22.351101,"k":"x"},
+  {"id":5720257983,"lat":53.929057,"lon":22.388545,"k":"p"},
+  {"id":5720257984,"lat":53.928884,"lon":22.386955,"k":"p"},
+  {"id":6027435086,"lat":53.906633,"lon":22.358406,"k":"x"},
+  {"id":8144029393,"lat":53.902524,"lon":22.351035,"k":"p","n":"Janisze","ref":"279"},
+  {"id":8144029394,"lat":53.902616,"lon":22.351155,"k":"p","n":"Janisze","ref":"278"},
+  {"id":8144029395,"lat":53.906682,"lon":22.358456,"k":"p","n":"Janisze - Zalesie","ref":"277"}
+],
+"routes":[
+  {"id":20608996,"t":{"ref":"3","name":"alt a","from":"Zakłady Mięsne","to":"Chojniak","operator":"MZK Ełk","route":"bus"},"n":6,"s":[[8144029394,3],[2327240815,5]]},
+  {"id":20608998,"t":{"ref":"3","name":"alt","from":"Zakłady Mięsne","to":"Sajzy","operator":"MZK Ełk","route":"bus"},"n":51,"s":[[2327240815,2],[8144029393,3],[8144029394,4],[8144029395,8],[6027435086,9]]},
+  {"id":3038735614002,"t":{"ref":"3","from":"Straduny","to":"Zakłady Mięsne","operator":"MZK EŁK","route":"bus","public_transport:version":"2"},"n":22,"s":[[8144029393,2]]},
+  {"id":3045027918187,"t":{"ref":"3","from":"Zakłady Mięsne","to":"Straduny","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":21,"s":[[8144029394,20]]},
+  {"id":3048656118888,"t":{"ref":"3","name":"3: Zakłady Mięsne - Sajzy - Pętla","from":"Zakłady Mięsne","to":"Sajzy - Pętla","operator":"MZK Ełk","route":"bus","public_transport:version":"2"},"n":37,"s":[[8144029394,20],[8144029393,22]]}
+]
+}

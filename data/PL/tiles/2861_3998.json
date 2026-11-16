@@ -1,0 +1,29 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2861,3998],
+"stops":[
+  {"id":283847637,"lat":53.063363,"lon":19.912304,"k":"x","n":"Żuromin Warszawska"},
+  {"id":12734391462,"lat":53.075372,"lon":19.932527,"k":"x","n":"Dąbrowa"},
+  {"id":12734391474,"lat":53.075418,"lon":19.932452,"k":"p","n":"Dąbrowa"},
+  {"id":12734400717,"lat":53.075741,"lon":19.933754,"k":"x","n":"Dąbrowa"},
+  {"id":12734400723,"lat":53.070366,"lon":19.914846,"k":"x","n":"Żuromin Mławska"},
+  {"id":12734400749,"lat":53.075685,"lon":19.933768,"k":"p","n":"Dąbrowa"},
+  {"id":12734400829,"lat":53.070979,"lon":19.91216,"k":"p","n":"Żuromin Mławska"},
+  {"id":12734400894,"lat":53.070916,"lon":19.912153,"k":"x","n":"Żuromin Mławska"},
+  {"id":12734400900,"lat":53.070279,"lon":19.914838,"k":"p","n":"Żuromin Mławska"},
+  {"id":12736449530,"lat":53.068053,"lon":19.904174,"k":"p","n":"Żuromin D.A."},
+  {"id":12736449531,"lat":53.068045,"lon":19.904204,"k":"x","n":"Żuromin D.A."},
+  {"id":12737458579,"lat":53.063367,"lon":19.912187,"k":"p","n":"Żuromin Warszawska"},
+  {"id":13448907815,"lat":53.064597,"lon":19.904339,"k":"x","n":"Żuromin LO ul. Wyzwolenia"},
+  {"id":13448907837,"lat":53.06454,"lon":19.904444,"k":"p","n":"Żuromin LO ul. Wyzwolenia"}
+],
+"routes":[
+  {"id":18955778,"t":{"ref":"P III","name":"Bus P III: Żuromin => Mława","from":"Żuromin D.A.","to":"Mława Dworzec PKP Mława Miasto","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":23,"s":[[12736449530,1],[12734400900,2],[12734400749,3]]},
+  {"id":18955779,"t":{"ref":"P III","name":"Bus P III: Mława => Żuromin","from":"Mława Dworzec PKP Mława Miasto","to":"Żuromin D.A.","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":22,"s":[[12734391474,20],[12734400829,21],[12736449530,22]]},
+  {"id":18987078,"t":{"ref":"P II","name":"Bus P II: Sierpc => Bieżuń => Żuromin","from":"Sierpc D.K.","to":"Żuromin D.A.","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":19,"s":[[12736449530,19]]},
+  {"id":18987079,"t":{"ref":"P II","name":"Bus P II: Żuromin => Bieżuń => Sierpc","from":"Żuromin D.A.","to":"Sierpc D.K.","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":18,"s":[[12736449530,1],[12737458579,2]]},
+  {"id":20071355,"t":{"ref":"P I","name":"Bus P I: Żuromin => Lutocin => Sierpc","from":"Żuromin D.A.","to":"Sierpc Dworcowa PKP","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":21,"s":[[12736449530,1]]},
+  {"id":20071356,"t":{"ref":"P I","name":"Bus P I: Sierpc => Lutocin => Żuromin","from":"Sierpc Dworcowa PKP","to":"Żuromin D.A.","network":"Mazowieckie Linie Dojazdowe","operator":"PKS Bodzentyn","route":"bus","public_transport:version":"2"},"n":22,"s":[[13448907837,21],[12736449530,22]]}
+]
+}

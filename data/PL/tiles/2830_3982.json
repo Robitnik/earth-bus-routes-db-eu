@@ -1,0 +1,28 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2830,3982],
+"stops":[
+  {"id":5297283786,"lat":51.527475,"lon":19.149683,"k":"x","n":"Wola Buczkowska","ref":"114"},
+  {"id":5297283791,"lat":51.528017,"lon":19.149056,"k":"x","n":"Wola Buczkowska","ref":"115"},
+  {"id":5297283796,"lat":51.53696,"lon":19.145354,"k":"p","n":"Czestków III"},
+  {"id":5297283797,"lat":51.536964,"lon":19.145436,"k":"x","n":"Czestków F 19","ref":"112"},
+  {"id":5297283802,"lat":51.537598,"lon":19.145246,"k":"x","n":"Czestków F 19","ref":"113"},
+  {"id":5297283807,"lat":51.543335,"lon":19.144129,"k":"p","n":"Czestków II"},
+  {"id":5297283808,"lat":51.543382,"lon":19.144044,"k":"x","n":"Czestków B","ref":"111"},
+  {"id":5297283813,"lat":51.543658,"lon":19.144064,"k":"x","n":"Czestków B","ref":"110"},
+  {"id":11958723393,"lat":51.531657,"lon":19.146234,"k":"p","n":"Czestków F 10"},
+  {"id":11958723394,"lat":51.531135,"lon":19.146438,"k":"p","n":"Czestków F 10"},
+  {"id":11958723395,"lat":51.543981,"lon":19.144083,"k":"x"},
+  {"id":5000548324908,"lat":51.527432,"lon":19.149616,"k":"p","n":"Wola Buczkowska"},
+  {"id":5000548324909,"lat":51.528065,"lon":19.14912,"k":"p","n":"Wola Buczkowska"},
+  {"id":5000548324910,"lat":51.537607,"lon":19.145343,"k":"p","n":"Czestków III"},
+  {"id":5000548324911,"lat":51.543592,"lon":19.143959,"k":"p","n":"Czestków II"}
+],
+"routes":[
+  {"id":7828713,"t":{"ref":"C","name":"C: Zelów => Łask Szpital","from":"Zelów","to":"Łask Szpital","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":22,"s":[[5000548324909,10],[5000548324910,11],[5297283807,12]]},
+  {"id":7828716,"t":{"ref":"C","name":"C: Łask Szpital => Zelów","from":"Łask Szpital","to":"Zelów","network":"Łask","operator":"ZKM Łask","route":"bus","public_transport:version":"2"},"n":23,"s":[[5000548324911,11],[5297283796,12],[5000548324908,13]]},
+  {"id":17679855,"t":{"ref":"ŁA1","name":"ŁA1: Łask → Zelów → Szczerców","from":"Łask","to":"Szczerców","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":40,"s":[[5297283786,27],[11958723394,28],[5297283797,29],[5297283813,30]]},
+  {"id":17679856,"t":{"ref":"ŁA1","name":"ŁA1: Szczerców → Zelów → Łask","from":"Szczerców","to":"Łask","operator":"Łódzka Kolej Aglomeracyjna","route":"bus"},"n":42,"s":[[5297283791,30],[11958723393,31],[5297283802,32],[5297283808,33]]}
+]
+}

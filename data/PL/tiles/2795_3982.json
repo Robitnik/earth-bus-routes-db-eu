@@ -1,0 +1,43 @@
+{
+"v":1,
+"cc":"PL",
+"tile":[2795,3982],
+"stops":[
+  {"id":993787417,"lat":49.758557,"lon":19.113038,"k":"p","n":"Wilkowice Górne","ref":"2046"},
+  {"id":993787435,"lat":49.760281,"lon":19.102052,"k":"p","n":"Wilkowice Sklep","ref":"2045"},
+  {"id":3692751506,"lat":49.794534,"lon":19.105977,"k":"x","n":"Straconka Leśniczówka","ref":"102"},
+  {"id":3892492079,"lat":49.75237,"lon":19.120672,"k":"p","n":"Wilkowice Wilcza","ref":"29"},
+  {"id":5282692901,"lat":49.795578,"lon":19.116486,"k":"p","n":"Straconka Zakręt","ref":"104"},
+  {"id":5373613584,"lat":49.794428,"lon":19.106313,"k":"x","n":"Straconka Leśniczówka","ref":"103"},
+  {"id":5373613585,"lat":49.794382,"lon":19.106322,"k":"p","n":"Straconka Leśniczówka","ref":"103"},
+  {"id":5373613586,"lat":49.794464,"lon":19.105697,"k":"p","n":"Straconka Leśniczówka","ref":"102"},
+  {"id":9197458367,"lat":49.751672,"lon":19.121813,"k":"p","n":"Wilkowice Huciska","ref":"26"},
+  {"id":9197511003,"lat":49.758329,"lon":19.112938,"k":"p","n":"Wilkowice Górne","ref":"27"},
+  {"id":9197582736,"lat":49.760271,"lon":19.101547,"k":"p","n":"Wilkowice Sklep","ref":"2044"},
+  {"id":10126838364,"lat":49.795562,"lon":19.116523,"k":"x","n":"Straconka Zakręt","ref":"104"},
+  {"id":10148182369,"lat":49.758539,"lon":19.112989,"k":"x","n":"Wilkowice Górne","ref":"2046"},
+  {"id":10148182370,"lat":49.760309,"lon":19.10155,"k":"x","n":"Wilkowice Sklep","ref":"2044"},
+  {"id":10148182371,"lat":49.760237,"lon":19.102026,"k":"x","n":"Wilkowice Sklep","ref":"2045"},
+  {"id":14026374649,"lat":49.794902,"lon":19.141953,"k":"x","n":"Międzybrodzie Ponikiew 4"},
+  {"id":14026374650,"lat":49.794854,"lon":19.141937,"k":"p","n":"Międzybrodzie Ponikiew 4"}
+],
+"routes":[
+  {"id":6046581,"t":{"ref":"11","name":"Bus 11: Warszawska Dworzec => Straconka Leśniczówka","from":"Warszawska Dworzec","to":"Straconka Leśniczówka","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":13,"s":[[5373613586,13]]},
+  {"id":14772807,"t":{"ref":"2","name":"Bus 2: Osiedle Kopernika => Wilkowice Huciska","from":"Osiedle Kopernika","to":"Wilkowice Huciska","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":22,"s":[[9197582736,20],[9197511003,21],[9197458367,22]]},
+  {"id":14772843,"t":{"ref":"2","name":"Bus 2: Wilkowice Huciska => Osiedle Kopernika","from":"Wilkowice Huciska","to":"Osiedle Kopernika","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":26,"s":[[9197458367,1],[3892492079,2],[993787417,3],[993787435,4]]},
+  {"id":14885337,"t":{"ref":"11","name":"Bus 11: Warszawska Dworzec => Straconka Zakręt","from":"Warszawska Dworzec","to":"Straconka Zakręt","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":14,"s":[[5373613585,13],[5282692901,14]]},
+  {"id":14885375,"t":{"ref":"11","name":"Bus 11: Warszawska FIAT => Straconka Leśniczówka","from":"Warszawska FIAT","to":"Straconka Leśniczówka","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":13,"s":[[5373613586,13]]},
+  {"id":14885379,"t":{"ref":"11","name":"Bus 11: Warszawska FIAT => Straconka Zakręt","from":"Warszawska FIAT","to":"Straconka Zakręt","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":14,"s":[[5373613585,13],[5282692901,14]]},
+  {"id":14888699,"t":{"ref":"11","name":"Bus 11: Straconka Leśniczówka => Warszawska FIAT","from":"Straconka Leśniczówka","to":"Warszawska FIAT","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":14,"s":[[5373613586,1]]},
+  {"id":14888704,"t":{"ref":"11","name":"Bus 11: Straconka Zakręt => Warszawska FIAT","from":"Straconka Zakręt","to":"Warszawska FIAT","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":15,"s":[[5282692901,1],[5373613586,2]]},
+  {"id":14888710,"t":{"ref":"11","name":"Bus 11: Straconka Leśniczówka => Warszawska Dworzec","from":"Straconka Leśniczówka","to":"Warszawska Dworzec","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":14,"s":[[5373613586,1]]},
+  {"id":14888711,"t":{"ref":"11","name":"Bus 11: Straconka Zakręt => Warszawska Dworzec","from":"Straconka Zakręt","to":"Warszawska Dworzec","network":"MZK Bielsko-Biała","operator":"MZK Bielsko-Biała","route":"bus","public_transport:version":"2"},"n":15,"s":[[5282692901,1],[5373613586,2]]},
+  {"id":21117188,"t":{"ref":"114","name":"KB – linia 114: Międzybrodzie Ponikiew 4 => Bielsko-Biała D.A.","from":"Międzybrodzie Ponikiew 4","to":"Bielsko-Biała D.A.","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":28,"s":[[14026374650,1]]},
+  {"id":21117190,"t":{"ref":"113","name":"KB – linia 113: Czernichów Centrum => Międzybrodzie Ponikiew => Bielsko-Biała D.A.","from":"Czernichów Centrum","to":"Bielsko-Biała D.A.","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":38,"s":[[14026374650,11]]},
+  {"id":21117194,"t":{"ref":"113","name":"KB – linia 113: Czernichów Centrum => Międzybrodzie Żywieckie => Międzybrodzie Ponikiew => Bielsko-Biała D.A.","from":"Czernichów Centrum","to":"Bielsko-Biała D.A.","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":43,"s":[[14026374650,16]]},
+  {"id":21117195,"t":{"ref":"113","name":"KB – linia 113: Bielsko-Biała D.A. => Porąbka Kozubnik => Międzybrodzie Ponikiew => Czernichów Centrum","from":"Bielsko-Biała D.A.","to":"Czernichów Centrum","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":48,"s":[[14026374650,38]]},
+  {"id":21117196,"t":{"ref":"114","name":"KB – linia 114: Bielsko-Biała D.A. => Międzybrodzie Ponikiew 4","from":"Bielsko-Biała D.A.","to":"Międzybrodzie Ponikiew 4","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":28,"s":[[14026374650,28]]},
+  {"id":21117197,"t":{"ref":"113","name":"KB – linia 113: Bielsko-Biała D.A. => Międzybrodzie Ponikiew => Czernichów Centrum","from":"Bielsko-Biała D.A.","to":"Czernichów Centrum","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":38,"s":[[14026374650,28]]},
+  {"id":21117198,"t":{"ref":"113","name":"KB – linia 113: Bielsko-Biała D.A. => Międzybrodzie Ponikiew => Międzybrodzie Żywieckie => Czernichów Centrum","from":"Bielsko-Biała D.A.","to":"Czernichów Centrum","network":"Komunikacja Beskidzka","operator":"Komunikacja Beskidzka","route":"bus","public_transport:version":"2"},"n":43,"s":[[14026374650,28]]}
+]
+}
