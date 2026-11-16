@@ -1,0 +1,28 @@
+{
+"v":1,
+"id":3010877748476,
+"cc":"DE",
+"mode":"bus",
+"t":{"ref":"T2","name":"Bus T2: Winkhausen => Goetheplatz","from":"Mülheim Winkhausen Freiherr-vom-Stein-Straße","to":"Mülheim Goetheplatz","network":"VRR","operator":"Ruhrbahn","public_transport:version":"2","route":"bus"},
+"ways":[
+  {"g":"od_yHwyei@VN"},
+  {"g":"cc_yHk|ei@SbB","t":{"maxspeed":"50"}},
+  {"g":"ya_yHgafi@i@zC","t":{"maxspeed":"50"}},
+  {"g":"ya_yHgafi@bDxBd@p@","t":{"maxspeed:type":"DE:urban"}},
+  {"g":"o{~xH{{ei@vDvJ`A~A","t":{"maxspeed":"30","maxspeed:type":"sign"}},
+  {"g":"us~xHcmei@dFzGnBxAf@l@j@rARlABn@MrG@VdCQtAbJr@xCvB~Gn@rAz@|A|A|BZXhBh@tBJ|At@hA|@vCvHDb@e@zA?P","t":{"maxspeed:type":"DE:urban"}},
+  {"g":"c_}xHwnbi@HqCEk@kBoCEQ","t":{"maxspeed":"50"}},
+  {"g":"c_}xHwnbi@SfJ?hG[xNjJ`A","t":{"maxspeed":"30"}}
+],
+"stops":[
+  {"s":3090412504,"o":0,"la":51.446646,"lo":6.916187,"n":"Freiherr-vom-Stein-Straße"},
+  {"s":3090412515,"o":60,"la":51.444101,"lo":6.9144,"n":"Knappenweg"},
+  {"s":144276804,"o":120,"la":51.441913,"lo":6.911956,"n":"Gutenbergstraße"},
+  {"s":5000799228348,"o":180,"la":51.440099,"lo":6.906317,"n":"Leybankstraße"},
+  {"s":552943273,"o":240,"la":51.436206,"lo":6.902232,"n":"Steinkuhle"},
+  {"s":670648649,"o":300,"la":51.435585,"lo":6.898958,"n":"Winkhauser Weg"},
+  {"s":5000452380229,"o":420,"la":51.433999,"lo":6.893105,"n":"Goetheplatz"}
+],
+"times":{"wd":[5,65],"sa":[5,65,125,185,245,305,365],"su":[5,65,125,185,245,305,365,425]},
+"src":[{"k":"osm","id":"r6119369"},{"k":"gtfs","feed":"mdb-3215","id":"39922","lic":"CC-BY"}]
+}
